@@ -228,3 +228,15 @@ Before greenlight, answer these in writing:
 - Why is the selected duration necessary?
 
 If these cannot be answered clearly, the project is not ready for screenplay expansion.
+
+
+## Minute 1–5 conversion rule
+
+A strong first minute is only a hook, not a retention system. By minute 3–5 the audience should know:
+
+1. who or what is vulnerable;
+2. what social, physical, or political pressure threatens them;
+3. who protects, rescues, bonds with, or chooses them;
+4. what visible payoff the film is promising.
+
+Do not let identity verification, records, contracts, files, or proof objects consume the opening unless every proof also changes power or relationship. The EchoDrama comparison shows that even a strong child-father hook can lose urgency when the next minutes become administrative verification. Convert evidence into emotional consequence immediately.

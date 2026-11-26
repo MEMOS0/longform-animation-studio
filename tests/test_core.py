@@ -82,3 +82,11 @@ def test_production_economics_estimates_iteration_cost():
     result = estimate_video_budget(48, 8)
     assert result["mixed_pipeline_example"]["iteration_adjusted_cost_estimate"] > 100
     assert result["single_pass_scenarios"][0]["documented_usd_per_second"] == 0.02
+
+
+def test_opening_conversion_detects_admin_drag():
+    from studio.production import opening_conversion_quality
+    weak = opening_conversion_quality({"opening_event": {"first_5_minutes": "They verify the file, inspect records, check proof, and negotiate the contract."}})
+    assert weak["warnings"]
+    strong = opening_conversion_quality({"opening_event": {"first_5_minutes": "A mocked child is threatened by bullies, then a protective father rescues her and promises truth and belonging."}})
+    assert not strong["warnings"]

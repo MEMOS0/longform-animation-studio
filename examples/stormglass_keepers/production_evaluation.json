@@ -146,6 +146,36 @@
     "warnings": [],
     "causal_boundary": "Duration/format guidance is observational and channel-dependent; it is not proof of retention or CTR causality."
   },
+  "opening_conversion_quality": {
+    "mechanism_groups_present": [
+      "wound_or_vulnerability",
+      "protective_counterforce",
+      "antagonistic_pressure",
+      "progression_or_payoff_promise"
+    ],
+    "matched_terms": {
+      "wound_or_vulnerability": [
+        "fear",
+        "child",
+        "creature"
+      ],
+      "protective_counterforce": [
+        "shield",
+        "ally",
+        "bond"
+      ],
+      "antagonistic_pressure": [
+        "soldier",
+        "admiral"
+      ],
+      "progression_or_payoff_promise": [
+        "expose",
+        "proving"
+      ]
+    },
+    "administrative_terms": [],
+    "warnings": []
+  },
   "channel_contract_fit": {
     "contract_id": "creature_protection_feature",
     "status": "pass",

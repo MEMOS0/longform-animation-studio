@@ -113,6 +113,28 @@ def flatten_text(value: Any) -> str:
     return ""
 
 
+def opening_conversion_quality(premise: dict[str, Any]) -> dict[str, Any]:
+    opening = premise.get("opening_event", {})
+    text = " ".join(str(opening.get(key, "")) for key in ("first_10_seconds", "first_60_seconds", "first_5_minutes", "dramatic_question")).lower()
+    groups = {
+        "wound_or_vulnerability": ["wound", "hurt", "shame", "fear", "afraid", "abandon", "loss", "vulnerable", "child", "creature", "bully", "threat", "betray", "captive", "poor", "ugly", "hidden", "mock"],
+        "protective_counterforce": ["protect", "shield", "save", "help", "care", "mother", "father", "ally", "companion", "bond", "rescue", "defend", "shelter", "choose"],
+        "antagonistic_pressure": ["bully", "hunter", "king", "villain", "rival", "threat", "attack", "mob", "guards", "police", "society", "family", "husband", "wife", "army", "soldier", "admiral", "hunter", "enemy", "corporation", "crown"],
+        "progression_or_payoff_promise": ["transform", "reveal", "escape", "justice", "belonging", "public", "restore", "secret", "power", "choice", "truth", "identity", "payoff", "expose", "proving", "cost", "danger"],
+    }
+    matched = {name: [term for term in terms if term in text] for name, terms in groups.items()}
+    present = [name for name, hits in matched.items() if hits]
+    warnings: list[str] = []
+    if len(present) < 3:
+        warnings.append("opening hook does not yet convert into a legible emotional system across wound/protection/pressure/payoff")
+    admin_terms = ["verify", "prove", "proof", "record", "file", "contract", "inspect", "investigate", "documents", "records"]
+    emotional_terms = sum(len(matched[name]) for name in ("wound_or_vulnerability", "protective_counterforce", "antagonistic_pressure"))
+    admin_hits = [term for term in admin_terms if term in text]
+    if len(admin_hits) >= 2 and emotional_terms < 4:
+        warnings.append("opening may stall in proof/verification/administrative negotiation instead of escalating injustice or protection")
+    return {"mechanism_groups_present": present, "matched_terms": matched, "administrative_terms": admin_hits, "warnings": warnings}
+
+
 def gate_report(schema_errors: dict[str, list[str]], failure: dict[str, Any], scenes: dict[str, Any], architecture: dict[str, Any]) -> dict[str, Any]:
     return {
         "A_premise": "pass" if not schema_errors.get("premise") and failure["risk_score_0_to_1"] < 0.5 else "attention",
@@ -144,6 +166,7 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "scene_quality": scene_report,
         "architecture_quality": architecture_report,
         "format_strategy": format_strategy(premise.get("target_minutes"), combined, premise.get("release_format", "")),
+        "opening_conversion_quality": opening_conversion_quality(premise),
         "channel_contract_fit": evaluate_channel_fit(combined, premise.get("channel_contract", "")),
         "production_economics": estimate_video_budget(premise.get("target_minutes")),
         "gates": gate_report(schema_errors, failure, scene_report, architecture_report),
