@@ -172,3 +172,31 @@ Rollover addendum: latest pushed commit `d297626 Remove repeated beats from dire
 
 Discovery addendum: rerun found new 7d leads including Everflame 2.89m/47k, Nightfall 1.72m/87k, Many Drama titles, Cine Drop; merged into 45-row candidates file without overwriting prior rows. Report regenerated.
 Priority after rollover: analyze/download new discovery lead `9N6S6D_ioA0` (baby dragon hidden from giants, ~1.13m views/day estimate at collection, 52.6k subs) and compare duplicate-title Everflame variants `Ky_1Dz7WXlY` vs `6pbhGtHRTwA` before assuming same/different content. Also consider Nightfall `26o_ccDnTSg` train-station abandonment hit.
+
+## 2026-11-26 critical pre-rollover checkpoint — evidence persistence/fourth pass
+
+Latest pushed commit when written: `bfca507 Integrate legal proof melodrama guidance`; tests **35 passed** before evidence/docs commits. Devin Review may be running or may have newer findings after this note; handle them first after rollover.
+
+Major user correction: evidence must not remain only on Devin's VM. This has now been fixed in commit `ff4d24f Preserve derived research evidence and handoff index`:
+
+- `README.md` was empty and is now the real handoff index: start-here order, evidence tiers, repo structure, doctrine, validation commands, active research boundaries.
+- `evidence/research/` now preserves 298 derived evidence artifacts (~42MB after compression): contact sheets, selected audio-analysis mp3s, media summaries, compressed timeline/second-resolution metrics, batch outputs, and `evidence_manifest.json` with provenance/checksums. Full copyrighted mp4s and uncompressed WAVs intentionally remain uncommitted.
+- `data/raw/piped_fourthpass/` now contains metadata/subtitles for `9N6S6D_ioA0`, `Ky_1Dz7WXlY`, `26o_ccDnTSg`.
+- `.gitattributes` includes `evidence/** linguist-generated=true`.
+- Do not delete this evidence to slim the PR. If size is a problem, compress/index it better; the user explicitly objected to evidence living only locally.
+
+Fourth-pass analysis completed in `knowledge/market/fourth-pass-breakout-media-deep-dive.md`:
+
+1. `9N6S6D_ioA0` WUFO baby-dragon/giants hit: opening pays the egg/baby/protection chain immediately; sound uses battle chaos -> negative-space egg reveal -> booming antagonist power reassertion; middle converts egg into Skye and city/heart objective; care/deprivation scene uses wind/breath/intimate dialogue and structural music. Mechanism: three-body protective system (Brynn/Wick/Skye), object becomes living agency, monsters carry personhood/misunderstanding twist.
+2. Duplicate-title forensic comparison: `Ky_1Dz7WXlY` (Everflame, 6226s, 2.899m) and `6pbhGtHRTwA` (Veylorn, 6483s, 10.27m) share exact title but subtitle fingerprint Jaccard only **0.02** and openings visually differ. Never treat exact title as same content. Everflame description says THE LAST BOND while title says THE LOST KIND — packaging/template inconsistency.
+3. `26o_ccDnTSg` Nightfall train-station abandonment hit: elite first-five-minute conversion (abandonment -> theft/class humiliation -> Maggie intervention -> work/agency). Middle uses tea competence, apple/ring family object, trust/fraud. Ending pays legal/proof reversal, chosen kinship, labor dignity, and circular train autonomy (“This time, I bought my own ticket”). New `legal_proof_melodrama` channel contract added to both contract JSON copies and skill.
+
+Current review-fix state: relational/meaning-carrier heuristics have undergone several review rounds. Latest test suite **35 passed**. Latest review fixes: Unicode/specific carrier matching (`85acc03`), local temporal denial scoping (`2ba7ef1`), then evidence/docs (`ff4d24f`) and contract/skill (`83d3b5b`, `bfca507`).
+
+Immediate next work after rollover:
+
+1. Check Devin Review findings for latest head and fix concrete findings first.
+2. Continue exact director-level storyboards beyond S02; director seeds are not final boards.
+3. Continue sound evidence for endings/reversals and creature romance.
+4. Continue breakout discovery; analyze new low-subscriber channels.
+5. Repo remains private unless user explicitly grants a safe path; do not spend money, create accounts, accept provider terms, connect local machine, or take irreversible public/admin actions without explicit approval.
