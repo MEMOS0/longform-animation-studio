@@ -534,3 +534,18 @@ def test_closure_integrity_dark_image_alone_is_not_system_collapse():
     arch={"sequences":[{"sequence":1,"turn":"water array established"},{"sequence":2,"turn":"family returns home safe as the room turns dark"}]}
     result=evaluate_closure_integrity({},arch,[])
     assert not any('infrastructure/system collapse' in w for w in result['warnings'])
+
+
+def test_closure_integrity_rebuild_before_late_collapse_does_not_mask_missing_aftermath():
+    from studio.closure_integrity import evaluate_closure_integrity
+    arch={"sequences":[{"sequence":1,"turn":"the water array is restored and the town rebuilds"},{"sequence":2,"turn":"the water array collapses and the family comes home safe"}]}
+    result=evaluate_closure_integrity({},arch,[])
+    assert any('infrastructure/system collapse' in w for w in result['warnings'])
+
+
+def test_closure_integrity_collapse_followed_by_repair_passes_and_personal_failing_is_not_outage():
+    from studio.closure_integrity import evaluate_closure_integrity
+    good={"sequences":[{"sequence":1,"turn":"the water array collapses"},{"sequence":2,"turn":"the community rebuilds a shared water system and the family comes home safe"}]}
+    assert not any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},good,[])['warnings'])
+    personal={"sequences":[{"sequence":1,"turn":"the flood shield is established"},{"sequence":2,"turn":"she is failing to persuade her father, but the family comes home safe"}]}
+    assert not any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},personal,[])['warnings'])

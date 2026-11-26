@@ -1,6 +1,7 @@
 """Closure integrity: sequel hooks must not replace relational/home payoff."""
 from __future__ import annotations
 
+import re
 from typing import Any
 
 CLOSURE_TERMS = [
@@ -13,6 +14,12 @@ SEQUEL_TERMS = [
 ]
 INFRASTRUCTURE_TERMS = ["water", "food", "storm", "shield", "power", "array", "infrastructure", "harbor", "valves"]
 COMMUNITY_CONSEQUENCE_TERMS = ["survive", "rebuild", "replace", "ration", "share", "community", "village", "town", "people are safe", "new system", "restored"]
+COLLAPSE_PATTERNS = [
+    r"self-destruct\w*",
+    r"(?:array|system|infrastructure|shield|power grid|harbor|valves?)\s+(?:is|are|was|were)?\s*(?:destroyed|collapsing|collapses|collapsed|fails|failing|shutting down|going dark|goes dark)",
+    r"(?:destroy|collapse|shut down|disable)\s+the\s+(?:array|system|infrastructure|shield|power grid|harbor|valves?)",
+    r"(?:array|system|infrastructure|shield|power grid|harbor|valves?)\s+(?:goes|go|went)\s+dark",
+]
 
 
 def flatten(value: Any) -> str:
@@ -32,6 +39,16 @@ def _positions(text: str, terms: list[str]) -> dict[str, int]:
         position = lowered.find(term)
         if position >= 0:
             found[term] = position
+    return found
+
+
+def _regex_positions(text: str, patterns: list[str]) -> dict[str, int]:
+    lowered = text.lower()
+    found: dict[str, int] = {}
+    for pattern in patterns:
+        match = re.search(pattern, lowered)
+        if match:
+            found[pattern] = match.start()
     return found
 
 
@@ -62,11 +79,12 @@ def evaluate_closure_integrity(premise: dict[str, Any], architecture: dict[str, 
     scenes = scenes or []
     sequences = architecture.get("sequences") or []
     rows = [_row(seq.get("sequence", index + 1), flatten(seq)) for index, seq in enumerate(sequences)]
+    sequence_count = len(rows)
     if architecture.get("ending_payoff"):
         rows.append(_row("ending_payoff", flatten(architecture.get("ending_payoff"))))
 
     warnings: list[str] = []
-    payoff_start = max(0, len(sequences) - 2)
+    payoff_start = max(0, sequence_count - 2)
     payoff_rows = rows[payoff_start:]
     for row_index, row in enumerate(rows):
         if row_index < payoff_start or not row["sequel_positions"]:
@@ -93,10 +111,24 @@ def evaluate_closure_integrity(premise: dict[str, Any], architecture: dict[str, 
 
     infrastructure = list(_positions(flatten(architecture) + "\n" + flatten(scenes), INFRASTRUCTURE_TERMS))
     consequence = list(_positions(final_text, COMMUNITY_CONSEQUENCE_TERMS))
-    collapse_text = final_architecture_text
-    if infrastructure and any(term in collapse_text for term in ["destroy", "collapse", "self-destruct", "fails", "failing", "shutdown", "goes dark", "go dark"]):
-        if not consequence:
-            warnings.append("infrastructure/system collapse is not followed by visible community survival, replacement, or rebuilding consequence")
+    collapse_needs_followup = False
+    for row_index in range(payoff_start, len(rows)):
+        row = rows[row_index]
+        collapse_positions = _regex_positions(row["text"], COLLAPSE_PATTERNS)
+        if not collapse_positions:
+            continue
+        earliest_collapse = min(collapse_positions.values())
+        same_row_after = [
+            position
+            for position in _positions(row["text"], COMMUNITY_CONSEQUENCE_TERMS).values()
+            if position > earliest_collapse
+        ]
+        later_rows_after = any(later["community_consequence_hits"] for later in rows[row_index + 1 :])
+        if not same_row_after and not later_rows_after:
+            collapse_needs_followup = True
+            break
+    if infrastructure and collapse_needs_followup:
+        warnings.append("infrastructure/system collapse is not followed by visible community survival, replacement, or rebuilding consequence")
     score = max(0.0, round(1.0 - 0.28 * len(warnings), 2))
     public_rows = []
     for row in rows:
