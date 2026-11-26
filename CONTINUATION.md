@@ -230,7 +230,7 @@ Immediate after rotation:
 
 ## 2026-11-26 rotation checkpoint — fifth-pass report integrated
 
-Latest pushed commit: `19ddc4c Add fifth-pass thumbnail intelligence` plus follow-on contract sync commit may be newer. Check `git log --oneline -5` first. Tests: 42 passed. Branch/PR: `devin/1764170700-failure-intelligence-foundation`, PR #1. A new Devin Review may be running; check it first if a notification arrives.
+Latest pushed commit: `77f7aad Integrate compressed format doctrine into skill`. Tests: 42 passed. S06 exact continuous storyboard added (`ddb9cc9`); S01-S06 now valid, S06 has only a non-blocking theme-explicitness warning. Branch/PR: `devin/1764170700-failure-intelligence-foundation`, PR #1. A new Devin Review may be running; check it first if a notification arrives.
 
 Completed since prior checkpoint:
 
