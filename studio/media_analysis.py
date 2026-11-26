@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import re
 import json
 import math
 import re
@@ -75,7 +76,41 @@ def parse_time(value: str) -> float:
 def parse_ttml(path: Path | None) -> list[dict[str, Any]]:
     if not path or not path.exists():
         return []
-    root = ET.fromstring(path.read_bytes())
+    raw = path.read_bytes()
+    if raw.lstrip().startswith(b"WEBVTT"):
+        cues = []
+        text_raw = raw.decode("utf-8", errors="replace")
+        blocks = re.split(r"\n\s*\n", text_raw)
+        for block in blocks:
+            lines = [line.strip() for line in block.splitlines() if line.strip()]
+            if not lines:
+                continue
+            time_index = next((i for i, line in enumerate(lines) if "-->" in line), None)
+            if time_index is None:
+                continue
+            begin_raw, end_raw = [part.strip().split()[0] for part in lines[time_index].split("-->", 1)]
+            cue_lines = lines[time_index + 1:]
+            if not cue_lines:
+                continue
+            clean_parts = []
+            for line in cue_lines:
+                line = re.sub(r"<\d{2}:\d{2}:\d{2}\.\d{3}>", " ", line)
+                line = re.sub(r"</?c(?:\.[^>]*)?>", "", line)
+                line = re.sub(r"<[^>]+>", "", line)
+                line = html.unescape(" ".join(line.split())).strip()
+                if line:
+                    clean_parts.append(line)
+            text = " ".join(clean_parts).strip()
+            if not text:
+                continue
+            cues.append({"start": parse_time(begin_raw.replace(",", ".")), "end": parse_time(end_raw.replace(",", ".")), "text": text})
+        deduped = []
+        for cue in sorted(cues, key=lambda cue: cue["start"]):
+            if deduped and cue["start"] == deduped[-1]["start"] and cue["text"] == deduped[-1]["text"]:
+                continue
+            deduped.append(cue)
+        return deduped
+    root = ET.fromstring(raw)
     ns = {"tt": "http://www.w3.org/ns/ttml"}
     cues = []
     for node in root.findall(".//tt:p", ns):

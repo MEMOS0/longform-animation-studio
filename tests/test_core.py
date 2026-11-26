@@ -394,3 +394,12 @@ def test_creature_protection_thumbnail_concepts_include_personhood_and_hunt():
     assert "misunderstood_child_personhood" in ids
     assert "public_hunt_protection_triangle" in ids
     assert len(concepts) >= 3
+
+
+def test_parse_ttml_supports_webvtt_word_timed_captions(tmp_path):
+    from studio.media_analysis import parse_ttml
+    p=tmp_path/'captions.vtt'
+    p.write_text("WEBVTT\n\n00:00:01.000 --> 00:00:02.390 align:start position:0%\nGive<00:00:01.100><c> me</c><00:00:01.200><c> that.</c>\n\n00:00:02.390 --> 00:00:02.400\nGive me that.\n",encoding='utf8')
+    cues=parse_ttml(p)
+    assert cues[0]['start']==1.0
+    assert 'Give me that.' in cues[0]['text']
