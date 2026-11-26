@@ -13,16 +13,20 @@ SEQUEL_TERMS = [
     "not over", "returns", "wakes", "sequel", "next enemy", "elsewhere", "beyond the stars",
 ]
 INFRASTRUCTURE_TERMS = ["water", "food", "storm", "shield", "power", "array", "infrastructure", "harbor", "valves"]
-COMMUNITY_CONSEQUENCE_TERMS = ["survive", "rebuild", "replace", "ration", "share", "community", "village", "town", "people are safe", "new system", "restored"]
+COMMUNITY_CONSEQUENCE_TERMS = [
+    "survive", "survives", "survived", "people are safe", "new system", "restore", "restores", "restored",
+    "rebuild", "rebuilds", "rebuilt", "replace", "replaces", "replaced", "repair", "repairs", "repaired",
+    "ration", "rations", "rationed", "redistribute", "redistributed", "communal", "shared water", "shared food",
+]
 COLLAPSE_PATTERNS = [
     r"self-destruct\w*",
     r"(?:array|system|infrastructure|shield(?:\s+nodes)?|power grid|harbor|valves?)\s+(?:is|are|was|were)?\s*(?:destroyed|collapsing|collapses|collapsed|fails|failing|shutting down|going dark|goes dark|go dark|went dark)",
     r"(?:destroy(?:s|ed)?|disable(?:s|d)?|shut(?:s|ting)? down|collapse(?:s|d)?)\s+(?:the\s+)?(?:water\s+|power\s+|storm\s+|holy-light\s+)?(?:array|system|infrastructure|shield(?:\s+nodes)?|power grid|harbor|valves?)",
     r"(?:array|system|infrastructure|shield(?:\s+nodes)?|power grid|harbor|valves?)\s+(?:goes|go|went)\s+dark",
 ]
-HYPOTHETICAL_RE = re.compile(
-    r"\b(?:if|whether|will|would|could|can|may|might|threaten\w* to|plan\w* to|try\w* to|want\w* to|choose\w* to)\b"
-)
+CONDITION_RE = re.compile(r"\b(?:if|whether|unless)\b")
+MODAL_RE = re.compile(r"\b(?:will|would|could|can|may|might|shall|threaten\w* to|plan\w* to|try\w* to|want\w* to|choose\w* to)\s+(?:[\w'-]+\s+){0,3}$")
+NEGATION_RE = re.compile(r"\b(?:no|not|never|does not|did not|didn't|do not|don't|won't|avoids?|prevents?|fails? to|refuses? to)\s+(?:[\w'-]+\s+){0,3}$")
 
 
 def flatten(value: Any) -> str:
@@ -64,11 +68,17 @@ def _sentence_bounds(text: str, position: int) -> tuple[int, int]:
 
 def _is_hypothetical(text: str, position: int) -> bool:
     start, end = _sentence_bounds(text, position)
-    before = text[start:position]
-    sentence = text[start:end]
-    if HYPOTHETICAL_RE.search(before):
+    before_sentence = text[start:position]
+    clause_start = max(before_sentence.rfind(","), before_sentence.rfind(";"), before_sentence.rfind(":"))
+    for match in re.finditer(r"\b(?:but|however|yet)\b", before_sentence):
+        clause_start = match.end()
+    before = before_sentence[clause_start + 1 :] if clause_start >= 0 else before_sentence
+    after = text[position:end]
+    if CONDITION_RE.search(before) or CONDITION_RE.search(after):
         return True
-    return "?" in sentence and re.search(r"\b(?:will|would|could|can|what if|how|why|when)\b", before) is not None
+    if MODAL_RE.search(before) or NEGATION_RE.search(before):
+        return True
+    return "?" in text[start:end] and re.search(r"\b(?:will|would|could|can|what if|how|why|when)\b", before_sentence) is not None
 
 
 def _collapse_events(text: str) -> list[int]:
@@ -96,6 +106,23 @@ def _row(sequence: str | int, text: str) -> dict[str, Any]:
         "infrastructure_hits": list(_positions(text, INFRASTRUCTURE_TERMS)),
         "community_consequence_hits": list(community_positions),
     }
+
+
+def _scene_has_later_recovery(text: str) -> bool:
+    """Accept recovery evidence while rejecting generic shared/community boilerplate
+    and explicitly early beats that merely precede a later collapse."""
+    lowered = text.lower()
+    positions = _all_positions(lowered, COMMUNITY_CONSEQUENCE_TERMS)
+    if not positions:
+        return False
+    collapse_positions = _collapse_events(lowered)
+    if collapse_positions:
+        earliest_collapse = collapse_positions[0]
+        return _has_positions_after(positions, earliest_collapse)
+    early_markers = [match for marker in ("early", "before", "earlier", "prior", "already", "initially") for match in re.finditer(rf"\b{marker}\b", lowered)]
+    if early_markers:
+        return False
+    return True
 
 
 def _has_positions_after(position_map: dict[str, list[int]], position: int) -> bool:
@@ -154,7 +181,7 @@ def evaluate_closure_integrity(premise: dict[str, Any], architecture: dict[str, 
         for collapse_position in _collapse_events(row["text"]):
             same_row_after = _has_positions_after(row["community_positions"], collapse_position)
             later_rows_after = any(later["community_consequence_hits"] for later in rows[row_index + 1 :])
-            screenplay_after = any(later["community_consequence_hits"] for later in final_scene_rows)
+            screenplay_after = any(_scene_has_later_recovery(later["text"]) for later in final_scene_rows)
             if not same_row_after and not later_rows_after and not screenplay_after:
                 collapse_needs_followup = True
                 break
