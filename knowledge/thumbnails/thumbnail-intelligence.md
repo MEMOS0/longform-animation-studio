@@ -10,6 +10,7 @@ Persistent reference images are stored under `thumbnails/reference/<channel>/` a
 - `thumbnails/openmicrodrama_top20_index.jsonl` — top cross-channel market sample with channel/title/rank metadata
 - `thumbnails/novdrama_top_bottom_montage.jpg` — same-channel high/low age-adjusted comparison montage
 - `thumbnails/openmicrodrama_top20_montage.jpg` — cross-channel market packaging montage
+- `thumbnails/rediscovery_breakouts_top10_montage.jpg` — ten recent low-base breakout references across creature, social-test, faith, sci-fi, and transformation contracts
 - `thumbnails/novdrama_metric_cohorts.json` — aggregate visual metrics by age-adjusted cohort
 
 The archive is for mechanism learning, not copying. Reference images remain copyrighted by their owners; use them internally for comparative research and generate original artwork for production.

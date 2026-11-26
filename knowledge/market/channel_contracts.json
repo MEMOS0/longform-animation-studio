@@ -75,13 +75,16 @@
       "create information asymmetry quickly",
       "make transformation social and emotional, not only cosmetic",
       "give the wounded protagonist an active test, plan, or competence inversion rather than passive suffering alone",
-      "let hidden competence become public professional/social authority, not only romantic rescue"
+      "let hidden competence become public professional/social authority, not only romantic rescue",
+      "if the relationship begins coerced, the payoff must restore explicit choice rather than merely rewarding the victim with status",
+      "use a physical object or spatial ritual whose meaning changes between opening and ending"
     ],
     "risk_patterns": [
       "whimsy without injustice",
       "static hidden identity",
       "revenge without belonging",
-      "wealth rescue without protagonist agency"
+      "wealth rescue without protagonist agency",
+      "coercive romance presented as payoff without consent repair"
     ],
     "thumbnail_rules": [
       "legible before/after or beauty/status contrast",
@@ -90,7 +93,8 @@
     ],
     "evidence": [
       "knowledge/market/cross-channel-hit-failure-deep-dives.md",
-      "knowledge/market/expanded-breakout-deep-dive.md"
+      "knowledge/market/expanded-breakout-deep-dive.md",
+      "knowledge/market/third-pass-breakout-media-deep-dive.md"
     ]
   },
   "mythic_adventure": {
@@ -262,6 +266,135 @@
     ],
     "evidence": [
       "knowledge/market/recent-breakout-media-deep-dive.md"
+    ]
+  },
+  "social_test_melodrama": {
+    "reference_channels": [
+      "The Quiet Reckoning",
+      "Nana Drama Studio",
+      "Story Secrets",
+      "Karma Keeps Score",
+      "AI SweetDrama"
+    ],
+    "positive_signals": [
+      "beggar",
+      "maid",
+      "test",
+      "disguise",
+      "billionaire",
+      "bread",
+      "floor",
+      "kindness",
+      "poor",
+      "secret",
+      "daughter",
+      "engagement",
+      "hidden",
+      "gate",
+      "chef",
+      "baker"
+    ],
+    "opening_rules": [
+      "open on a legible status boundary or humiliation",
+      "make kindness cost something before hidden status is revealed",
+      "use one concrete repeatable object as the moral test instrument",
+      "let an innocent child/worker/ally reveal truth before power intervenes",
+      "pay off with public reversal plus changed ritual or relationship, not only wealth"
+    ],
+    "risk_patterns": [
+      "test without cost",
+      "cruelty spectacle without moral transformation",
+      "wealth rescue without protagonist agency",
+      "abstract goodness without a physical object",
+      "copycat beggar/billionaire packaging without a distinct object or wound"
+    ],
+    "thumbnail_rules": [
+      "show class/status contrast in one glance",
+      "include the concrete test object when possible",
+      "make the vulnerable worker or innocent ally emotionally central",
+      "avoid generic luxury romance if the real engine is moral testing"
+    ],
+    "evidence": [
+      "knowledge/market/third-pass-breakout-media-deep-dive.md",
+      "knowledge/market/expanded-breakout-deep-dive.md"
+    ]
+  },
+  "machine_personhood_scifi": {
+    "reference_channels": [
+      "FANTASY MOVIE KINGDOM"
+    ],
+    "positive_signals": [
+      "machine",
+      "ai",
+      "robot",
+      "father",
+      "daughter",
+      "rescue",
+      "trust",
+      "name",
+      "memory",
+      "collector",
+      "war",
+      "companion",
+      "sky",
+      "look up"
+    ],
+    "opening_rules": [
+      "tie technological spectacle to a specific abducted or vulnerable person",
+      "introduce the machine as vulnerable or useful before trusting its power",
+      "make personhood visible through choice, humor, memory, or care",
+      "use a clear sensory prohibition or rule that can reverse at the ending"
+    ],
+    "risk_patterns": [
+      "spectacle without relational stakes",
+      "machine as exposition device",
+      "villain-blame confusion without moral reassignment",
+      "sequel hook replacing emotional closure"
+    ],
+    "thumbnail_rules": [
+      "show human-machine scale or eye/contact relationship",
+      "make the protected human goal legible",
+      "use color/eye contrast to distinguish hostile versus bonded machines"
+    ],
+    "evidence": [
+      "knowledge/market/third-pass-breakout-media-deep-dive.md"
+    ]
+  },
+  "faith_reversal_melodrama": {
+    "reference_channels": [
+      "LESO STUDIO"
+    ],
+    "positive_signals": [
+      "god",
+      "faith",
+      "prayer",
+      "suffering",
+      "rent",
+      "rejected",
+      "believe",
+      "testimony",
+      "church",
+      "mother",
+      "interview",
+      "poverty"
+    ],
+    "opening_rules": [
+      "make deprivation concrete through rent, food, work rejection, clothing repetition, or social shame",
+      "show spiritual perseverance as an active stance rather than passive waiting",
+      "include caretaking/community pressure rather than isolated suffering only"
+    ],
+    "risk_patterns": [
+      "generic miracle without concrete human cost",
+      "song/testimony payoff unearned by middle agency",
+      "mockery repeated without changing power or relationships"
+    ],
+    "thumbnail_rules": [
+      "visible emotional distress or prayer posture",
+      "contemporary realist social setting",
+      "avoid fantasy wealth cues unless the story truly uses them"
+    ],
+    "evidence": [
+      "knowledge/market/third-pass-breakout-media-deep-dive.md"
     ]
   }
 }
