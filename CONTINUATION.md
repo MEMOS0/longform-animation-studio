@@ -373,3 +373,19 @@ Added `studio/closure_integrity.py` and integrated it into project evaluation. T
 ## 2026-11-27 checkpoint — creature dialogue scaffold pass
 
 `studio/scene_generator.py` now has contract-aware creature-economic key lines instead of generic social-melodrama lines. Salt Window Garden uses water/pump/salt ownership language; Emberseed Oven Cart uses fire/oven/key resource language. Both generated concepts still pass A/B/C/D gates with zero schema errors. Remaining caveat: these are still scaffolds, not final hand-written screenplays; next creative pass should make lines scene-specific rather than template-derived. Tests: 57 passed. Latest pushed commit at this checkpoint: `f7d7584`.
+
+## 2026-11-27 checkpoint — closure robustness and creature architecture specificity
+
+Latest pushed commit: `f278274` (`Make creature architectures actor-specific and original`). Tests: 70 passed. PR #2 remains active: https://github.com/MEMOS0/longform-animation-studio/pull/2
+
+Completed this round:
+- Closure integrity was hardened against adversarial edge cases found by repeated automated review: hypothetical/planned/negated infrastructure shutdowns, independent actual collapse clauses, explicitly pre-collapse recovery, valid post-collapse timing, denied sharing, non-resource sharing, failed repair phrases, shield-node phrasing, repeated recovery beats, and screenplay-only aftermath evidence. These are heuristic gates, not perfect NLP; keep tests adversarial and treat warnings as prompts for creative inspection.
+- Creature-economic premise cleanup removed copied/reference-flavored wording (`Pearl-like`) and awkward actor compounds.
+- `studio/architecture_generator.py` now adapts creature-economic sequences away from generic social frame-up scaffolding toward creature consent, resource extraction, care-before-monetization, proof-chain, and spatial/economic payoff mechanics. Actor labels are compacted (`the moonfin child`, `her grandmother`) instead of long explanatory phrases.
+- Both generated creature concepts were regenerated end-to-end: premise -> architecture -> scenes -> 140 director-seed shots -> production prompts -> project evaluation. Both pass A/B/C/D gates with no warnings; E/F remain unknown until real media/release data exists.
+
+Immediate next:
+1. Triage any new Devin Review findings only because the harness requires it; user still prioritizes continuous work over review theater.
+2. Deepen dialogue beyond scaffolded key lines into scene-specific conflict, subtext, and reversal language.
+3. Continue low-subscriber breakout discovery across undercovered genres and integrate counterexamples.
+4. Rotate context before exhaustion; preserve this file as the continuity anchor.
