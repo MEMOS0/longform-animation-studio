@@ -4,19 +4,20 @@ import html
 import json
 import re
 import urllib.request
+import argparse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "raw" / "crateh_7d_rankings.json"
 MD = ROOT / "knowledge" / "market" / "crateh-breakout-candidates.md"
-URL = "https://crateh.com/ko?period=7d"
+DEFAULT_PERIOD = "7d"
 
 
 def strip_tags(value: str) -> str:
     return html.unescape(re.sub(r"<.*?>", "", value)).strip()
 
 
-def parse(page: str) -> list[dict]:
+def parse(page: str, source_url: str) -> list[dict]:
     rows = []
     ranked_start = page.find('<div class="ranked-sections">')
     ranked_end = page.find('<h2 class="sec-title', ranked_start)
@@ -50,7 +51,7 @@ def parse(page: str) -> list[dict]:
                     "creator": creator_bits[0] if creator_bits else "",
                     "genre_text": creator_bits[1] if len(creator_bits) > 1 else "",
                     "views_text": views_m.group(1).strip() if views_m else "",
-                    "source_url": URL,
+                    "source_url": source_url,
                 }
             )
     unique = []
@@ -64,13 +65,19 @@ def parse(page: str) -> list[dict]:
 
 
 def main() -> None:
-    page = urllib.request.urlopen(urllib.request.Request(URL, headers={"User-Agent": "Mozilla/5.0"}), timeout=30).read().decode("utf-8", "ignore")
-    rows = parse(page)
-    OUT.write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--period", default=DEFAULT_PERIOD)
+    args = parser.parse_args()
+    url = f"https://crateh.com/ko?period={args.period}"
+    page = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=30).read().decode("utf-8", "ignore")
+    rows = parse(page, url)
+    out = ROOT / "data" / "raw" / f"crateh_{args.period}_rankings.json"
+    md = ROOT / "knowledge" / "market" / f"crateh-{args.period}-breakout-candidates.md"
+    out.write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
     lines = [
-        "# Crateh 7-day ranking candidates",
+        f"# Crateh {args.period} ranking candidates",
         "",
-        "Collected 2026-11-26 from `https://crateh.com/ko?period=7d`. These are rolling 7-day ranking candidates in the Korean AI-film ecosystem, not verified breakout proof. Channel age, subscriber count, upload date, and repeat performance still require direct validation.",
+        f"Collected 2026-11-26 from `{url}`. These are rolling {args.period} ranking candidates in the Korean AI-film ecosystem, not verified breakout proof. Channel age, subscriber count, upload date, and repeat performance still require direct validation.",
         "",
         "| section | rank | video | duration | creator | genre | views | title |",
         "|---|---:|---|---:|---|---|---:|---|",

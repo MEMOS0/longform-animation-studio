@@ -291,6 +291,8 @@ Long-form generation must be budgeted as a shot pipeline, not “generate the wh
 
 ## Direction and visual-production protocol
 
+Before scene writing or direction, read `knowledge/craft/advanced-screenplay-direction-retention.md`. It defines the emotional machine, protagonist psychology sheet, scene power-transition chain, dialogue/subtext rules, retention horizons, sound negative-space rules, edit hooks, and ending-payoff standards.
+
 For vertical/mobile-native animation, prioritize emotional legibility:
 
 - faces and reactions often matter more than ornamental environments
