@@ -79,6 +79,86 @@ These are hypotheses to test against market evidence:
 7. **Mobile-native vertical framing prioritizes faces and relational blocking.** Emotional legibility usually outranks ornamental environment detail.
 8. **The edit should protect comprehension before rhythm.** Fast cutting cannot rescue unclear staging or unclear dialogue.
 
+
+## Deep craft addendum: character psychology, dialogue function, direction, and sound
+
+These are operating standards for original writing. They are craft heuristics sharpened by the Nov Drama evidence base, not claims that any single rule causes views.
+
+### Character psychology matrix
+
+For every major character, define these fields before writing scenes:
+
+1. **Public mask:** what the character wants others to believe.
+2. **Private wound:** what pain made the mask necessary.
+3. **Misbelief:** the false rule they use to survive (“love makes me weak,” “obedience keeps me safe,” “power is the only protection”).
+4. **Defensive strategy:** submission, control, perfectionism, seduction, violence, caretaking, withdrawal, humor, or competence.
+5. **Contradiction:** where their behavior conflicts with their stated values. Contradictions create watchable interiority.
+6. **Moral line:** what they will not do even under pressure. A protector without a moral line becomes coercion; a victim without one can become passive suffering.
+7. **Agency mechanism:** what choices they can make now, before gaining power. Agency is not “being strong”; it is making meaningful choices under constraint.
+8. **Attachment pattern:** whom they trust too quickly, resist trusting, test, protect, or punish.
+9. **Change proof:** the behavior at the end that would have been impossible at the beginning.
+
+Weak melodrama often gives characters cruelty or victimhood without a psychological economy. Strong melodrama makes cruelty costly, protection morally bounded, and transformation visible in choices rather than narration.
+
+### Dialogue function discipline
+
+Every important line should perform at least one dramatic action:
+
+- attack, defend, beg, test, seduce, threaten, confess, conceal, negotiate, comfort, accuse, invite, reject, or transfer power.
+
+If a line only explains background, ask whether an image, object, action, or interruption can carry the information instead. Exposition is safest when it is incomplete, motivated by conflict, or delivered because a character needs something right now.
+
+Useful tests:
+
+- **Subtext test:** what is the character afraid to say directly?
+- **Status test:** who gains or loses status during the exchange?
+- **Interruption test:** what irreversible action can prevent the explanation from becoming a lecture?
+- **Question test:** does the scene open or sharpen a question the audience wants answered?
+- **Silence test:** would a look, pause, or physical reaction carry the emotion better than another sentence?
+
+Do not equate fewer words with better writing. The failure pattern measured in Nov Drama is not sentence length; it is explanation before emotional grounding.
+
+### Direction and shot-level emotional logic
+
+For each scene, write the intended emotional transition in one sentence: “viewer enters feeling X and leaves feeling Y because Z changed.” Then choose shots to serve that transition.
+
+Operational rules:
+
+1. **Open on the most legible emotional fact**, not on ornamental environment unless the environment itself is the threat.
+2. **Use close-ups for decision, realization, shame, tenderness, and moral injury.** Use wides for hierarchy, pursuit, transformation scale, and public humiliation.
+3. **Reaction shots are information.** In melodrama, the face receiving cruelty or care often matters more than the person delivering it.
+4. **Protect eyelines and relational blocking.** A tired mobile viewer must know who dominates, who is trapped, who is protecting, and who is watching.
+5. **Treat objects as continuity anchors.** A stuffed animal, egg, ring, scar, contract, food bowl, or child’s drawing can carry memory better than repeated dialogue.
+6. **Do not spend expensive spectacle on low-information scenes.** The cost of AI consistency errors rises with crowd scenes, action, transformations, animals, hands, props, and multi-character interaction.
+7. **Vertical/mobile framing favors emotional composition.** Faces, hands, children/creatures, and threat/protection geometry must remain readable in portrait.
+
+### Sound-design discipline
+
+A professional sound pass should separately evaluate:
+
+- **Dialogue intelligibility:** voices must remain clear over music and effects.
+- **Emotional score function:** music should mark change, longing, danger, warmth, or release rather than fill silence uniformly.
+- **Foley/body grounding:** footsteps, cloth, breath, impact, doors, creature weight, and environmental texture make AI images feel embodied.
+- **Silence/reduced texture:** use restraint before confessions, reversals, deaths, recognitions, or transformation completion.
+- **Motifs:** assign recurring sound identities to belonging, threat, transformation, family, or power. Do not rely only on visual motifs.
+- **Transitions:** sound bridges can preserve momentum across time jumps; hard silence can make betrayal or realization feel irreversible.
+
+Public Nov Drama comments repeatedly complain about loud music, missing sound, sudden cuts, censorship blur, and watermark-like overlays. Treat these as release-blocking defects even when their causal effect on views cannot be measured.
+
+### Retention loop annotation
+
+For each 5-minute block of a draft or animatic, annotate:
+
+- question opened or sharpened
+- partial answer or reversal delivered
+- new cost or complication
+- relief/warmth/wonder beat
+- character choice
+- visual novelty
+- emotional polarity entering and leaving the block
+
+If a block opens no question, answers nothing, changes no power relationship, and repeats the same emotion, compress or delete it. Retention is not “constant excitement”; it is controlled alternation of uncertainty, cost, agency, relief, and payoff.
+
 ## Measurement implications for this repository
 
 The media-analysis system should track:
