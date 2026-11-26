@@ -31,6 +31,8 @@ Mechanism: this is not simply “maid becomes rich.” It is **status humiliatio
 
 Strategic importance: child allyship is stronger than adult rescue alone because the child has no strategic reason to sit on the floor. The father’s authority matters, but the child makes the moral truth legible before power intervenes. The ending is strong because it does not erase the object; it changes its meaning.
 
+Middle validation update: sampled full-runtime contact-sheet inspection at four-minute intervals plus subtitle windows shows the film does not coast on the opening. The plate/floor/gold system keeps evolving: the father promises the plate will never go near a floor again (`00:12`); the fiancée tries to capture the dead mother's children's foundation (`00:20`); a manipulative apology is corrected by forcing her to face the woman she humiliated (`00:28`); valuation of family gold creates a fraud/inheritance investigation (`00:36–00:44`); Tolani is removed/arrested while telling Ife to eat from her own plate and promising to return for it (`00:52`); brass/goldsmith marks become material proof (`00:60`); the same woman Tolani helps medically later becomes part of the social reversal (`00:60–00:68`); public livestream exposure turns the fiancée's image-power against her (`00:76`). The middle therefore rotates domestic care, inheritance power, fraud investigation, arrest/separation, medical reciprocity, and public proof rather than repeating one humiliation.
+
 ## `iUnnJucKB2o` — bread as a moral test object
 
 Opening subtitle evidence:
@@ -51,6 +53,8 @@ Opening visual evidence: luxury engagement hall/gate versus baker in plain apron
 Mechanism: **status exclusion → costly micro-kindness → hidden witness/test → professional dignity → circular object thesis**. The test is not just wealth concealment; bread is a moral instrument that reveals who feeds others at cost to themselves.
 
 Strategic importance: social-test stories work best when the test object is concrete and repeatable. “Bread” is stronger than abstract goodness because it can be given, withheld, scarred into the body, sold in a bakery, and returned in the final line.
+
+Middle validation update: sampled full-runtime contact-sheet inspection plus subtitle windows shows bread/bakery economics carry the middle. At `00:12` the disguised heir works carrying trays rather than merely observing her; at `00:20` a customer tries to overpay, and the baker refuses to “sell air,” establishing professional integrity; at `00:28` her price for help is not romance but restoration of Crescent Bakery's street-facing front room; at `00:36–00:44` a 40-million-naira roof/debt fraud and planted-theft scheme escalate class power into material jeopardy; at `00:52` she loses the bakery/oven and is taken into the grandmother's house, making the hidden family test morally dangerous rather than whimsical; at `00:60` the moon-shaped thumb scar becomes proof of identity through the father's brass bread stamp; at `00:68` car keys, gold, house keys, and lending documents reverse the debt/power ledger. Contact-sheet evidence confirms the object chain visually: bread stall, handbag/purse, jail, bakery streetfront, fingerprint presentation, police evidence, and elder-led recognition. This is a strong object-led melodrama structure, not only a hidden-beggar twist.
 
 ## `Gx7nwqNr9YY` — creature intimacy plus consent correction
 
