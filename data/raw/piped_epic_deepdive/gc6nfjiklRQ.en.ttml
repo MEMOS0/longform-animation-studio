@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:12.480" end="00:00:15.480" style="s2">Heat.</p>
+<p begin="00:00:25.680" end="00:00:30.680" style="s2">Heat.</p>
+<p begin="00:00:27.680" end="00:00:30.680" style="s2">Heat.</p>
+<p begin="00:00:40.800" end="00:00:43.800" style="s2">Heat.</p>
+<p begin="00:00:49.120" end="00:00:52.120" style="s2">Heat. Heat.</p>
+<p begin="00:00:52.400" end="00:00:54.420" style="s2">[cheering]</p>
+<p begin="00:01:12.240" end="00:01:15.240" style="s2">Heat. Heat.</p>
+<p begin="00:01:29.735" end="00:01:31.755" style="s2">[screaming]</p>
+<p begin="00:01:44.880" end="00:01:47.960" style="s2">Heat. Heat.</p>
+<p begin="00:01:54.240" end="00:01:57.240" style="s2">Heat.</p>
+<p begin="00:02:13.120" end="00:02:16.120" style="s2">Heat.</p>
+<p begin="00:02:18.560" end="00:02:23.501" style="s2">Heat.</p>
+<p begin="00:02:21.481" end="00:02:23.501" style="s2">[screaming]</p>
+<p begin="00:02:30.651" end="00:02:32.671" style="s2">[screaming]</p>
+<p begin="00:02:40.800" end="00:02:43.806" style="s2">Heat. [laughter]</p>
+<p begin="00:02:44.560" end="00:02:47.560" style="s2">Heat. Heat.</p>
+<p begin="00:03:07.332" end="00:03:09.352" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:03:16.480" end="00:03:19.177" style="s2">&gt;&gt; Heat. Heat. [screaming]</p>
+<p begin="00:03:25.840" end="00:03:28.840" style="s2">Heat.</p>
+<p begin="00:03:52.159" end="00:03:55.159" style="s2">Heat.</p>
+<p begin="00:04:21.440" end="00:04:24.400" style="s2">I need eyes on the west coast now. Now,</p>
+<p begin="00:04:23.199" end="00:04:26.000" style="s2">is that seismic or not?</p>
+<p begin="00:04:24.400" end="00:04:27.280" style="s2">&gt;&gt; Somebody tell me why a city is hitting</p>
+<p begin="00:04:26.000" end="00:04:28.720" style="s2">at once. That&#39;s not a coincidence.</p>
+<p begin="00:04:27.280" end="00:04:30.320" style="s2">&gt;&gt; New Orleans and Miami are both going</p>
+<p begin="00:04:28.720" end="00:04:31.919" style="s2">dark, sir. We&#39;re losing the Houston</p>
+<p begin="00:04:30.320" end="00:04:33.360" style="s2">feed. Evacuations are overwhelmed. Get</p>
+<p begin="00:04:31.919" end="00:04:33.680" style="s2">me the regional on the line. All of</p>
+<p begin="00:04:33.360" end="00:04:35.840" style="s2">them.</p>
+<p begin="00:04:33.680" end="00:04:38.080" style="s2">&gt;&gt; This isn&#39;t a storm. Something&#39;s doing</p>
+<p begin="00:04:35.840" end="00:04:39.440" style="s2">this. That&#39;s not the magnitude keeps</p>
+<p begin="00:04:38.080" end="00:04:40.880" style="s2">climbing. It&#39;s off the scale.</p>
+<p begin="00:04:39.440" end="00:04:42.720" style="s2">&gt;&gt; Nothing reads like this. Nothing has</p>
+<p begin="00:04:40.880" end="00:04:44.160" style="s2">ever read like this. If these numbers</p>
+<p begin="00:04:42.720" end="00:04:45.360" style="s2">are right, this is the largest</p>
+<p begin="00:04:44.160" end="00:04:46.960" style="s2">earthquake in recorded history.</p>
+<p begin="00:04:45.360" end="00:04:48.479" style="s2">&gt;&gt; It&#39;s not one fault. It&#39;s every major</p>
+<p begin="00:04:46.960" end="00:04:50.479" style="s2">fault line all at once.</p>
+<p begin="00:04:48.479" end="00:04:52.800" style="s2">&gt;&gt; That&#39;s geologically impossible.</p>
+<p begin="00:04:50.479" end="00:04:57.560" style="s2">&gt;&gt; And yet,</p>
+<p begin="00:04:52.800" end="00:04:57.560" style="s2">which was presented to us.</p>
+<p begin="00:04:58.683" end="00:05:00.703" style="s2">[screaming]</p>
+<p begin="00:05:06.960" end="00:05:09.360" style="s2">We&#39;re now getting reports this is</p>
+<p begin="00:05:08.479" end="00:05:14.840" style="s2">happening [music]</p>
+<p begin="00:05:09.360" end="00:05:14.840" style="s2">everywhere, every major city. All at</p>
+<p begin="00:05:15.360" end="00:05:19.120" style="s2">everybody up now. Go get to the door.</p>
+<p begin="00:05:18.240" end="00:05:24.199" style="s2">Move.</p>
+<p begin="00:05:19.120" end="00:05:24.199" style="s2">&gt;&gt; Come on. Stay together. Heat.</p>
+<p begin="00:05:36.720" end="00:05:39.720" style="s2">Heat.</p>
+<p begin="00:05:52.393" end="00:05:54.413" style="s2">&gt;&gt; [cough]</p>
+<p begin="00:06:17.284" end="00:06:19.304" style="s2">[snorts]</p>
+<p begin="00:06:29.074" end="00:06:31.094" style="s2">[screaming]</p>
+<p begin="00:06:40.864" end="00:06:42.884" style="s2">[sighs]</p>
+<p begin="00:07:04.000" end="00:07:09.240" style="s2">&gt;&gt; Hello.</p>
+<p begin="00:07:05.520" end="00:07:09.240" style="s2">Is anyone there?</p>
+<p begin="00:07:43.599" end="00:07:49.160" style="s2">locker.</p>
+<p begin="00:07:46.160" end="00:07:49.160" style="s2">All right,</p>
+<p begin="00:07:52.560" end="00:07:55.800" style="s2">let&#39;s get</p>
+<p begin="00:08:00.160" end="00:08:03.599" style="s2">Copy. Say again. Is the route clear?</p>
+<p begin="00:08:02.319" end="00:08:05.039" style="s2">Understood. Road&#39;s clear for the packs</p>
+<p begin="00:08:03.599" end="00:08:08.840" style="s2">as we&#39;re moving now. We&#39;re good to go,</p>
+<p begin="00:08:05.039" end="00:08:08.840" style="s2">sir. Straight to the vehicles.</p>
+<p begin="00:08:13.440" end="00:08:18.039" style="s2">Keep moving. We need to get outside now.</p>
+<p begin="00:08:20.560" end="00:08:23.280" style="s2">&gt;&gt; I&#39;ve got you, sir. Stay with me.</p>
+<p begin="00:08:22.160" end="00:08:25.120" style="s2">&gt;&gt; What&#39;s happening?</p>
+<p begin="00:08:23.280" end="00:08:28.840" style="s2">&gt;&gt; Faster. Move. Move. Move. We&#39;re almost</p>
+<p begin="00:08:25.120" end="00:08:28.840" style="s2">to the doors. Go.</p>
+<p begin="00:08:32.000" end="00:08:34.959" style="s2">&gt;&gt; We&#39;re not taking the main route. Too</p>
+<p begin="00:08:33.360" end="00:08:36.320" style="s2">exposed. We&#39;ll cut across and head</p>
+<p begin="00:08:34.959" end="00:08:37.039" style="s2">straight for the extraction point.</p>
+<p begin="00:08:36.320" end="00:08:38.560" style="s2">&gt;&gt; How long?</p>
+<p begin="00:08:37.039" end="00:08:39.519" style="s2">&gt;&gt; 10 minutes. If the roads hold, we&#39;ll get</p>
+<p begin="00:08:38.560" end="00:08:43.080" style="s2">you there.</p>
+<p begin="00:08:39.519" end="00:08:43.080" style="s2">&gt;&gt; Just get us out.</p>
+<p begin="00:08:47.200" end="00:08:50.200" style="s2">Heat.</p>
+<p begin="00:09:16.880" end="00:09:18.880" style="s2">Come</p>
+<p begin="00:09:21.996" end="00:09:24.016" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:09:38.371" end="00:09:40.391" style="s2">[snorts]</p>
+<p begin="00:09:45.360" end="00:09:48.160" style="s2">&gt;&gt; on.</p>
+<p begin="00:09:57.200" end="00:10:01.040" style="s2">Hey,</p>
+<p begin="00:09:59.360" end="00:10:05.399" style="s2">officer.</p>
+<p begin="00:10:01.040" end="00:10:05.399" style="s2">Talk to me. How bad is it out there?</p>
+<p begin="00:10:09.519" end="00:10:16.079" style="s2">What are we looking at?</p>
+<p begin="00:10:12.399" end="00:10:18.880" style="s2">Honestly, I got no idea. Radio&#39;s dead.</p>
+<p begin="00:10:16.079" end="00:10:21.680" style="s2">Nobody&#39;s answering.</p>
+<p begin="00:10:18.880" end="00:10:24.560" style="s2">No units, no dispatch. There&#39;s no</p>
+<p begin="00:10:21.680" end="00:10:27.040" style="s2">emergency services left.</p>
+<p begin="00:10:24.560" end="00:10:30.079" style="s2">We&#39;re on our own out here.</p>
+<p begin="00:10:27.040" end="00:10:33.839" style="s2">What about the hospital?</p>
+<p begin="00:10:30.079" end="00:10:36.399" style="s2">The one a few blocks down.</p>
+<p begin="00:10:33.839" end="00:10:38.800" style="s2">Is it still standing?</p>
+<p begin="00:10:36.399" end="00:10:41.120" style="s2">Can we get people there?</p>
+<p begin="00:10:38.800" end="00:10:42.480" style="s2">&gt;&gt; The hospital&#39;s gone.</p>
+<p begin="00:10:41.120" end="00:10:47.079" style="s2">Whole thing came down in the first</p>
+<p begin="00:10:42.480" end="00:10:47.079" style="s2">quake. There&#39;s nothing left.</p>
+<p begin="00:11:25.680" end="00:11:30.279" style="s2">Come on. Come on. One bar.</p>
+<p begin="00:11:31.200" end="00:11:37.399" style="s2">[ __ ] Come on. Find me something.</p>
+<p begin="00:12:28.018" end="00:12:30.038" style="s2">&gt;&gt; [panting]</p>
+<p begin="00:12:42.320" end="00:12:46.560" style="s2">&gt;&gt; Is anybody bleeding?</p>
+<p begin="00:12:44.560" end="00:12:50.320" style="s2">Anyone who can&#39;t feel their legs?</p>
+<p begin="00:12:46.560" end="00:12:56.160" style="s2">&gt;&gt; We&#39;re okay. She isn&#39;t.</p>
+<p begin="00:12:50.320" end="00:12:56.160" style="s2">&gt;&gt; Hey, look at me. Squeeze my hand.</p>
+<p begin="00:13:06.639" end="00:13:09.994" style="s2">God damn it. Come on. [screaming]</p>
+<p begin="00:13:13.920" end="00:13:22.519" style="s2">I couldn&#39;t save any of them. Not one.</p>
+<p begin="00:13:18.560" end="00:13:22.519" style="s2">David, where are you?</p>
+<p begin="00:13:22.560" end="00:13:26.279" style="s2">Why is this happening?</p>
+<p begin="00:13:30.240" end="00:13:34.639" style="s2">&gt;&gt; There&#39;s no signal. Towers are down.</p>
+<p begin="00:13:33.360" end="00:13:36.720" style="s2">&gt;&gt; All of them.</p>
+<p begin="00:13:34.639" end="00:13:40.880" style="s2">&gt;&gt; Everything&#39;s down.</p>
+<p begin="00:13:36.720" end="00:13:44.000" style="s2">&gt;&gt; Go. It&#39;s coming down.</p>
+<p begin="00:13:40.880" end="00:13:45.440" style="s2">Single fil where I step.</p>
+<p begin="00:13:44.000" end="00:13:50.040" style="s2">&gt;&gt; Where are we going?</p>
+<p begin="00:13:45.440" end="00:13:50.040" style="s2">&gt;&gt; The river. It&#39;s open ground.</p>
+<p begin="00:13:51.040" end="00:13:55.240" style="s2">Keep moving. Don&#39;t stop.</p>
+<p begin="00:14:01.839" end="00:14:05.959" style="s2">Down. Stay flat.</p>
+<p begin="00:14:06.880" end="00:14:11.560" style="s2">Keep coming. Don&#39;t look up.</p>
+<p begin="00:14:19.920" end="00:14:24.040" style="s2">He&#39;s gone. Let him down.</p>
+<p begin="00:14:42.880" end="00:14:50.199" style="s2">Okay. Take some walk.</p>
+<p begin="00:14:46.399" end="00:14:50.199" style="s2">Transcend follow.</p>
+<p begin="00:14:57.120" end="00:15:02.360" style="s2">&gt;&gt; Another one. 8.2 off Honshi.</p>
+<p begin="00:15:04.079" end="00:15:09.360" style="s2">That&#39;s the fourth in 10 minutes. They&#39;re</p>
+<p begin="00:15:07.040" end="00:15:13.240" style="s2">firing on every continent at once. I</p>
+<p begin="00:15:09.360" end="00:15:13.240" style="s2">can&#39;t keep up with the board.</p>
+<p begin="00:15:13.519" end="00:15:17.839" style="s2">Enough. Everybody breathe one voice at a</p>
+<p begin="00:15:16.240" end="00:15:18.320" style="s2">time. Somebody tell me something that is</p>
+<p begin="00:15:17.839" end="00:15:19.760" style="s2">true.</p>
+<p begin="00:15:18.320" end="00:15:20.959" style="s2">&gt;&gt; Ma&#39;am, comms are down across the eastern</p>
+<p begin="00:15:19.760" end="00:15:21.279" style="s2">seabboard. We&#39;ve lost three relay</p>
+<p begin="00:15:20.959" end="00:15:23.600" style="s2">station.</p>
+<p begin="00:15:21.279" end="00:15:27.279" style="s2">&gt;&gt; I said something true, not something</p>
+<p begin="00:15:23.600" end="00:15:29.519" style="s2">bad. Give me data. 41 events over</p>
+<p begin="00:15:27.279" end="00:15:31.440" style="s2">magnitude 8 in 6 hours. Ma&#39;am, more than</p>
+<p begin="00:15:29.519" end="00:15:33.279" style="s2">the entire 20th century. Every major</p>
+<p begin="00:15:31.440" end="00:15:35.040" style="s2">fault simultaneously.</p>
+<p begin="00:15:33.279" end="00:15:35.519" style="s2">&gt;&gt; Faults don&#39;t cooperate. They don&#39;t hold</p>
+<p begin="00:15:35.040" end="00:15:38.720" style="s2">hands.</p>
+<p begin="00:15:35.519" end="00:15:42.440" style="s2">&gt;&gt; I ran it four times. It&#39;s real.</p>
+<p begin="00:15:38.720" end="00:15:42.440" style="s2">&gt;&gt; Then God help us.</p>
+<p begin="00:15:43.519" end="00:15:47.279" style="s2">Margaret, the president&#39;s in the bunker</p>
+<p begin="00:15:46.079" end="00:15:48.880" style="s2">asking me why the planet is coming</p>
+<p begin="00:15:47.279" end="00:15:49.680" style="s2">apart, and I&#39;d like an answer before I</p>
+<p begin="00:15:48.880" end="00:15:51.920" style="s2">walk in there.</p>
+<p begin="00:15:49.680" end="00:15:54.000" style="s2">&gt;&gt; Get in line, Roy. A room full of</p>
+<p begin="00:15:51.920" end="00:15:56.320" style="s2">geniuses, and not one can tell me why.</p>
+<p begin="00:15:54.000" end="00:15:58.880" style="s2">&gt;&gt; Then find someone who can. Fast.</p>
+<p begin="00:15:56.320" end="00:16:03.240" style="s2">&gt;&gt; I know.</p>
+<p begin="00:15:58.880" end="00:16:03.240" style="s2">&gt;&gt; No, that can&#39;t be right.</p>
+<p begin="00:16:09.839" end="00:16:15.040" style="s2">Oh, dear God. Everybody stop. You are</p>
+<p begin="00:16:13.040" end="00:16:15.600" style="s2">all looking at the wrong data. Who the</p>
+<p begin="00:16:15.040" end="00:16:18.079" style="s2">hell is this?</p>
+<p begin="00:16:15.600" end="00:16:19.920" style="s2">&gt;&gt; Dr. Voss, geoysics. The smartest man</p>
+<p begin="00:16:18.079" end="00:16:21.920" style="s2">I&#39;ve got. Get down, Adrien.</p>
+<p begin="00:16:19.920" end="00:16:23.279" style="s2">&gt;&gt; Give me 30 seconds because in 30</p>
+<p begin="00:16:21.920" end="00:16:25.040" style="s2">seconds, nothing in this room is ever</p>
+<p begin="00:16:23.279" end="00:16:26.480" style="s2">the same. Please.</p>
+<p begin="00:16:25.040" end="00:16:30.480" style="s2">&gt;&gt; 30 seconds. Talk.</p>
+<p begin="00:16:26.480" end="00:16:33.680" style="s2">&gt;&gt; Magnetic north, magnetic south. Two</p>
+<p begin="00:16:30.480" end="00:16:36.240" style="s2">centuries, they drift 40 km a year. Nine</p>
+<p begin="00:16:33.680" end="00:16:36.720" style="s2">hours ago, they started moving at 400 km</p>
+<p begin="00:16:36.240" end="00:16:37.759" style="s2">an hour.</p>
+<p begin="00:16:36.720" end="00:16:40.639" style="s2">&gt;&gt; That&#39;s an instrument error.</p>
+<p begin="00:16:37.759" end="00:16:41.519" style="s2">&gt;&gt; 1100 instruments in 90 countries. It is</p>
+<p begin="00:16:40.639" end="00:16:43.680" style="s2">not an error.</p>
+<p begin="00:16:41.519" end="00:16:44.399" style="s2">&gt;&gt; Plain words like I&#39;m not a scientist</p>
+<p begin="00:16:43.680" end="00:16:45.839" style="s2">because I&#39;m not.</p>
+<p begin="00:16:44.399" end="00:16:47.920" style="s2">&gt;&gt; The poles are switching. Not over a</p>
+<p begin="00:16:45.839" end="00:16:49.279" style="s2">thousand years this week. The core has</p>
+<p begin="00:16:47.920" end="00:16:50.880" style="s2">slipped its grip on the crust. The</p>
+<p begin="00:16:49.279" end="00:16:52.320" style="s2">inside spins on a different axis than</p>
+<p begin="00:16:50.880" end="00:16:53.839" style="s2">the outside. And the outside, the rock</p>
+<p begin="00:16:52.320" end="00:16:57.440" style="s2">we live on, is about to be dragged into</p>
+<p begin="00:16:53.839" end="00:17:01.279" style="s2">line with it. 30° in days. And this</p>
+<p begin="00:16:57.440" end="00:17:02.800" style="s2">morning, the 41 earthquakes, the cities,</p>
+<p begin="00:17:01.279" end="00:17:04.959" style="s2">&gt;&gt; this morning was the crust getting</p>
+<p begin="00:17:02.800" end="00:17:07.959" style="s2">comfortable, shifting its weight in its</p>
+<p begin="00:17:04.959" end="00:17:07.959" style="s2">sleep.</p>
+<p begin="00:17:09.360" end="00:17:13.439" style="s2">This morning was the small one,</p>
+<p begin="00:17:10.880" end="00:17:15.679" style="s2">director. How long until the real one?</p>
+<p begin="00:17:13.439" end="00:17:17.120" style="s2">Guess, General. I&#39;m a scientist, not I</p>
+<p begin="00:17:15.679" end="00:17:20.240" style="s2">need a number to give the president.</p>
+<p begin="00:17:17.120" end="00:17:25.400" style="s2">Guess days. Four, maybe five. Then guess</p>
+<p begin="00:17:20.240" end="00:17:25.400" style="s2">low like lives depend on it.</p>
+<p begin="00:17:26.079" end="00:17:30.000" style="s2">Three. When the crust moves, it shakes</p>
+<p begin="00:17:27.839" end="00:17:32.080" style="s2">itself to pieces. Yellowstone opens and</p>
+<p begin="00:17:30.000" end="00:17:34.000" style="s2">takes the continent, not damages, takes.</p>
+<p begin="00:17:32.080" end="00:17:36.960" style="s2">Then Cascada goes and the Pacific stands</p>
+<p begin="00:17:34.000" end="00:17:39.760" style="s2">up. A wave 400 ft high, 40 m inland.</p>
+<p begin="00:17:36.960" end="00:17:41.840" style="s2">Both coasts, Europe, half of Asia.</p>
+<p begin="00:17:39.760" end="00:17:43.760" style="s2">Everything on that map gone in a week.</p>
+<p begin="00:17:41.840" end="00:17:46.880" style="s2">Two places sit on rock old enough to</p>
+<p begin="00:17:43.760" end="00:17:50.000" style="s2">ride it out. The Greenland Shield and</p>
+<p begin="00:17:46.880" end="00:17:52.799" style="s2">the Congo Highlands, 2,000 meters up, a</p>
+<p begin="00:17:50.000" end="00:17:55.280" style="s2">thousand km from any coast. Everywhere</p>
+<p begin="00:17:52.799" end="00:17:57.440" style="s2">else becomes a coastline, a fault line,</p>
+<p begin="00:17:55.280" end="00:17:59.679" style="s2">or an ashfield.</p>
+<p begin="00:17:57.440" end="00:18:02.400" style="s2">&gt;&gt; This doesn&#39;t leave the room. Greenland</p>
+<p begin="00:17:59.679" end="00:18:04.720" style="s2">has hardened Cold War sites on bedrock.</p>
+<p begin="00:18:02.400" end="00:18:07.120" style="s2">Stack people like cargo. Capacity</p>
+<p begin="00:18:04.720" end="00:18:09.440" style="s2">400,000</p>
+<p begin="00:18:07.120" end="00:18:12.400" style="s2">&gt;&gt; out of 8 billion.</p>
+<p begin="00:18:09.440" end="00:18:14.000" style="s2">&gt;&gt; Out of 8 billion.</p>
+<p begin="00:18:12.400" end="00:18:16.559" style="s2">&gt;&gt; There are no options, General. There&#39;s</p>
+<p begin="00:18:14.000" end="00:18:20.320" style="s2">arithmetic. One in 20,000 lives, and</p>
+<p begin="00:18:16.559" end="00:18:22.480" style="s2">somebody in this room decides which one.</p>
+<p begin="00:18:20.320" end="00:18:25.120" style="s2">&gt;&gt; It will not be me.</p>
+<p begin="00:18:22.480" end="00:18:26.880" style="s2">It won&#39;t be any of us. It was decided</p>
+<p begin="00:18:25.120" end="00:18:29.679" style="s2">the day the facilities were built.</p>
+<p begin="00:18:26.880" end="00:18:31.679" style="s2">&gt;&gt; Heads of state, cabinet, central bank,</p>
+<p begin="00:18:29.679" end="00:18:33.200" style="s2">cultural custodians. What in God&#39;s name</p>
+<p begin="00:18:31.679" end="00:18:35.200" style="s2">is a cult custodian, Roy?</p>
+<p begin="00:18:33.200" end="00:18:36.320" style="s2">&gt;&gt; A civilization in a box. Somebody has to</p>
+<p begin="00:18:35.200" end="00:18:38.799" style="s2">switch the lights back on.</p>
+<p begin="00:18:36.320" end="00:18:40.559" style="s2">&gt;&gt; It&#39;s a passenger list. Say it. And every</p>
+<p begin="00:18:38.799" end="00:18:42.080" style="s2">name on it can afford the fair.</p>
+<p begin="00:18:40.559" end="00:18:45.600" style="s2">&gt;&gt; Yes, it is.</p>
+<p begin="00:18:42.080" end="00:18:47.200" style="s2">&gt;&gt; 330 million people. In 90 seconds,</p>
+<p begin="00:18:45.600" end="00:18:50.960" style="s2">someone at this table decides what</p>
+<p begin="00:18:47.200" end="00:18:52.240" style="s2">they&#39;re told. Say it out loud. What do</p>
+<p begin="00:18:50.960" end="00:18:53.760" style="s2">we tell them?</p>
+<p begin="00:18:52.240" end="00:18:56.160" style="s2">&gt;&gt; Nothing.</p>
+<p begin="00:18:53.760" end="00:18:58.000" style="s2">&gt;&gt; Not yet.</p>
+<p begin="00:18:56.160" end="00:18:59.760" style="s2">&gt;&gt; Nothing. The second they know, we get</p>
+<p begin="00:18:58.000" end="00:19:01.039" style="s2">riots. Every road, every airport blocked</p>
+<p begin="00:18:59.760" end="00:19:03.120" style="s2">in an hour. Then nobody reaches</p>
+<p begin="00:19:01.039" end="00:19:04.400" style="s2">Greenland. Not them, not us. Panic</p>
+<p begin="00:19:03.120" end="00:19:06.160" style="s2">doesn&#39;t save anyone, doctor. It kills</p>
+<p begin="00:19:04.400" end="00:19:07.600" style="s2">them louder. We keep it quiet. We move</p>
+<p begin="00:19:06.160" end="00:19:08.080" style="s2">the transports. We tell them help is</p>
+<p begin="00:19:07.600" end="00:19:10.960" style="s2">coming.</p>
+<p begin="00:19:08.080" end="00:19:12.080" style="s2">&gt;&gt; And is it coming?</p>
+<p begin="00:19:10.960" end="00:19:14.559" style="s2">&gt;&gt; That&#39;s what I thought.</p>
+<p begin="00:19:12.080" end="00:19:16.320" style="s2">&gt;&gt; Then we&#39;re agreed. We say nothing. We</p>
+<p begin="00:19:14.559" end="00:19:19.039" style="s2">move the list north. We hold the line</p>
+<p begin="00:19:16.320" end="00:19:21.840" style="s2">for 3 days.</p>
+<p begin="00:19:19.039" end="00:19:24.720" style="s2">And every one of us lives with this for</p>
+<p begin="00:19:21.840" end="00:19:27.720" style="s2">however long living lasts. Meeting&#39;s</p>
+<p begin="00:19:24.720" end="00:19:27.720" style="s2">over.</p>
+<p begin="00:19:28.320" end="00:19:33.280" style="s2">&gt;&gt; You gave us three days, Adrien. Every</p>
+<p begin="00:19:31.440" end="00:19:33.600" style="s2">hour anyone survives, it&#39;s because of</p>
+<p begin="00:19:33.280" end="00:19:35.919" style="s2">you.</p>
+<p begin="00:19:33.600" end="00:19:36.880" style="s2">&gt;&gt; I gave three days to save the people who</p>
+<p begin="00:19:35.919" end="00:19:39.679" style="s2">least deserve.</p>
+<p begin="00:19:36.880" end="00:19:43.640" style="s2">&gt;&gt; That&#39;s not your decision.</p>
+<p begin="00:19:39.679" end="00:19:43.640" style="s2">&gt;&gt; Then whose is it, Margaret?</p>
+<p begin="00:19:55.440" end="00:19:59.000" style="s2">You have a 400,000.</p>
+<p begin="00:20:06.799" end="00:20:12.919" style="s2">&gt;&gt; Got mine by standing in the right</p>
+<p begin="00:20:08.480" end="00:20:12.919" style="s2">hallway. That&#39;s the only reason.</p>
+<p begin="00:20:23.840" end="00:20:29.400" style="s2">Break every rule. Every rule I&#39;ve got</p>
+<p begin="00:20:26.000" end="00:20:29.400" style="s2">left. Fine.</p>
+<p begin="00:20:38.960" end="00:20:43.600" style="s2">Come on, Moran. You stubborn bastard.</p>
+<p begin="00:20:41.120" end="00:20:46.159" style="s2">Pick up.</p>
+<p begin="00:20:43.600" end="00:20:47.840" style="s2">Alex, it&#39;s Dean. Don&#39;t talk. Just</p>
+<p begin="00:20:46.159" end="00:20:49.679" style="s2">listen. Is Carla with you?</p>
+<p begin="00:20:47.840" end="00:20:52.320" style="s2">&gt;&gt; Got it. I&#39;m here to control.</p>
+<p begin="00:20:49.679" end="00:20:52.960" style="s2">&gt;&gt; Good. Then you leave New York inside the</p>
+<p begin="00:20:52.320" end="00:20:54.400" style="s2">hour.</p>
+<p begin="00:20:52.960" end="00:20:54.960" style="s2">&gt;&gt; Dean, everybody&#39;s saying stay put.</p>
+<p begin="00:20:54.400" end="00:20:56.480" style="s2">Rescues.</p>
+<p begin="00:20:54.960" end="00:20:58.640" style="s2">&gt;&gt; There is no rescue. There was never</p>
+<p begin="00:20:56.480" end="00:21:00.400" style="s2">going to be one. The polls are flipping.</p>
+<p begin="00:20:58.640" end="00:21:02.320" style="s2">In 3 days, a bigger one hits and it</p>
+<p begin="00:21:00.400" end="00:21:04.799" style="s2">takes everything. Yellowstone. Both</p>
+<p begin="00:21:02.320" end="00:21:07.200" style="s2">coasts, the cities. Two places live.</p>
+<p begin="00:21:04.799" end="00:21:08.960" style="s2">Greenland and the African highend. Get</p>
+<p begin="00:21:07.200" end="00:21:10.720" style="s2">west. Get high. Get off the coast.</p>
+<p begin="00:21:08.960" end="00:21:12.320" style="s2">Anything that flies and do it now.</p>
+<p begin="00:21:10.720" end="00:21:14.880" style="s2">&gt;&gt; Then get us on something. Dean,</p>
+<p begin="00:21:12.320" end="00:21:16.240" style="s2">&gt;&gt; I can&#39;t. The list is closed. I got my</p>
+<p begin="00:21:14.880" end="00:21:17.760" style="s2">own name on it by standing in the right</p>
+<p begin="00:21:16.240" end="00:21:19.280" style="s2">hallway. And I can&#39;t get you on. I</p>
+<p begin="00:21:17.760" end="00:21:20.960" style="s2">tried.</p>
+<p begin="00:21:19.280" end="00:21:24.360" style="s2">God, Alex, I&#39;m sorry. Just take her and</p>
+<p begin="00:21:20.960" end="00:21:24.360" style="s2">run, please.</p>
+<p begin="00:21:25.779" end="00:21:30.480" style="s2">[sighs]</p>
+<p begin="00:21:27.280" end="00:21:32.640" style="s2">Three days, Alex. Then a bigger one. And</p>
+<p begin="00:21:30.480" end="00:21:37.919" style="s2">it takes everything.</p>
+<p begin="00:21:32.640" end="00:21:37.919" style="s2">Get west. Get high. Get off the coast.</p>
+<p begin="00:21:42.400" end="00:21:48.000" style="s2">I couldn&#39;t get you on the list. I tried.</p>
+<p begin="00:21:44.960" end="00:21:51.000" style="s2">God, Alex, I&#39;m sorry. Just take her and</p>
+<p begin="00:21:48.000" end="00:21:51.000" style="s2">run.</p>
+<p begin="00:21:51.600" end="00:21:57.159" style="s2">&gt;&gt; Yeah.</p>
+<p begin="00:21:53.760" end="00:21:57.159" style="s2">Yeah. Dean.</p>
+<p begin="00:22:04.425" end="00:22:06.445" style="s2">[snorts]</p>
+<p begin="00:22:16.480" end="00:22:18.720" style="s2">Carla.</p>
+<p begin="00:22:59.679" end="00:23:04.360" style="s2">Good.</p>
+<p begin="00:23:01.200" end="00:23:04.360" style="s2">That&#39;s right.</p>
+<p begin="00:24:08.559" end="00:24:11.559" style="s2">Hold</p>
+<p begin="00:24:58.400" end="00:25:05.559" style="s2">Carla [screaming] Moran.</p>
+<p begin="00:25:01.600" end="00:25:05.559" style="s2">&gt;&gt; She&#39;s a doctor. Somebody</p>
+<p begin="00:25:11.679" end="00:25:13.777" style="s2">Carlo, [screaming]</p>
+<p begin="00:25:16.342" end="00:25:18.362" style="s2">[sighs]</p>
+<p begin="00:25:23.520" end="00:25:26.222" style="s2">Carla. [screaming]</p>
+<p begin="00:25:42.080" end="00:25:45.080" style="s2">Alex.</p>
+<p begin="00:25:47.782" end="00:25:49.802" style="s2">[panting]</p>
+<p begin="00:26:15.039" end="00:26:21.039" style="s2">You&#39;re bleeding. [laughter]</p>
+<p begin="00:26:17.919" end="00:26:23.039" style="s2">&gt;&gt; You&#39;re bleeding.</p>
+<p begin="00:26:21.039" end="00:26:26.279" style="s2">&gt;&gt; I couldn&#39;t find you. I&#39;ve been driving</p>
+<p begin="00:26:23.039" end="00:26:26.279" style="s2">for hours.</p>
+<p begin="00:26:28.320" end="00:26:33.360" style="s2">I can&#39;t, Alex. I can&#39;t just leave. There</p>
+<p begin="00:26:31.039" end="00:26:36.400" style="s2">are 40 people here. I&#39;m the only</p>
+<p begin="00:26:33.360" end="00:26:38.960" style="s2">&gt;&gt; Look at me. I need you to listen to me</p>
+<p begin="00:26:36.400" end="00:26:42.760" style="s2">for one minute. One minute. Then you go</p>
+<p begin="00:26:38.960" end="00:26:42.760" style="s2">back to work. Please.</p>
+<p begin="00:26:58.640" end="00:27:03.120" style="s2">Dean called me. My old unit. He&#39;s inside</p>
+<p begin="00:27:01.200" end="00:27:04.720" style="s2">government now.</p>
+<p begin="00:27:03.120" end="00:27:06.240" style="s2">Carla, this morning wasn&#39;t the</p>
+<p begin="00:27:04.720" end="00:27:09.720" style="s2">earthquake.</p>
+<p begin="00:27:06.240" end="00:27:09.720" style="s2">It was the warning.</p>
+<p begin="00:27:11.760" end="00:27:15.760" style="s2">&gt;&gt; What are you talking about?</p>
+<p begin="00:27:13.360" end="00:27:17.840" style="s2">&gt;&gt; The planet&#39;s crust is going to shift 3</p>
+<p begin="00:27:15.760" end="00:27:19.440" style="s2">days from now. This morning was a small</p>
+<p begin="00:27:17.840" end="00:27:24.120" style="s2">one. A bigger one&#39;s coming. And it takes</p>
+<p begin="00:27:19.440" end="00:27:24.120" style="s2">everything. the coast, the cities.</p>
+<p begin="00:27:27.039" end="00:27:32.480" style="s2">&gt;&gt; Alex, that&#39;s not possible.</p>
+<p begin="00:27:29.760" end="00:27:35.799" style="s2">&gt;&gt; All these people.</p>
+<p begin="00:27:32.480" end="00:27:35.799" style="s2">&gt;&gt; I know.</p>
+<p begin="00:27:39.919" end="00:27:43.440" style="s2">&gt;&gt; There&#39;s nowhere to go. If it&#39;s the whole</p>
+<p begin="00:27:42.559" end="00:27:45.679" style="s2">world, there&#39;s nowhere.</p>
+<p begin="00:27:43.440" end="00:27:47.840" style="s2">&gt;&gt; There&#39;s two places that survive it. Old</p>
+<p begin="00:27:45.679" end="00:27:49.679" style="s2">high ground, far from any coast.</p>
+<p begin="00:27:47.840" end="00:27:53.760" style="s2">Everywhere else drowns or burns. The</p>
+<p begin="00:27:49.679" end="00:27:57.520" style="s2">closest one&#39;s the only chance we&#39;ve got.</p>
+<p begin="00:27:53.760" end="00:27:58.399" style="s2">&gt;&gt; Okay, Alex, we&#39;re in the city. How do we</p>
+<p begin="00:27:57.520" end="00:27:59.840" style="s2">even get there?</p>
+<p begin="00:27:58.399" end="00:28:02.559" style="s2">&gt;&gt; Nobody&#39;s coming. That&#39;s what he made me</p>
+<p begin="00:27:59.840" end="00:28:03.919" style="s2">understand. So, we get ourselves out. We</p>
+<p begin="00:28:02.559" end="00:28:05.360" style="s2">need something that flies out of the</p>
+<p begin="00:28:03.919" end="00:28:06.159" style="s2">city before everyone else works out the</p>
+<p begin="00:28:05.360" end="00:28:09.600" style="s2">same thing.</p>
+<p begin="00:28:06.159" end="00:28:11.200" style="s2">&gt;&gt; You can&#39;t fly a plane.</p>
+<p begin="00:28:09.600" end="00:28:13.279" style="s2">&gt;&gt; Your father spent four summers making</p>
+<p begin="00:28:11.200" end="00:28:14.000" style="s2">sure I could. Turns out the old man was</p>
+<p begin="00:28:13.279" end="00:28:16.080" style="s2">right.</p>
+<p begin="00:28:14.000" end="00:28:17.840" style="s2">&gt;&gt; I can&#39;t just walk away from them, Alex.</p>
+<p begin="00:28:16.080" end="00:28:21.520" style="s2">That&#39;s not who I am.</p>
+<p begin="00:28:17.840" end="00:28:24.960" style="s2">&gt;&gt; I know. It&#39;s why I married you. But you</p>
+<p begin="00:28:21.520" end="00:28:26.640" style="s2">can&#39;t save them and save us.</p>
+<p begin="00:28:24.960" end="00:28:28.720" style="s2">Please.</p>
+<p begin="00:28:26.640" end="00:28:30.224" style="s2">I&#39;m not leaving the city without you,</p>
+<p begin="00:28:28.720" end="00:28:32.240" style="s2">&gt;&gt; Maria.</p>
+<p begin="00:28:30.224" end="00:28:33.679" style="s2">[snorts] The ones marked red first. Keep</p>
+<p begin="00:28:32.240" end="00:28:35.760" style="s2">pressure on the leg. Bleed. Rashen the</p>
+<p begin="00:28:33.679" end="00:28:40.240" style="s2">morphine. Don&#39;t move the spinal case.</p>
+<p begin="00:28:35.760" end="00:28:45.799" style="s2">You&#39;ve got this. You&#39;ve got this.</p>
+<p begin="00:28:40.240" end="00:28:45.799" style="s2">Okay, let&#39;s go before I change my mind.</p>
+<p begin="00:28:58.799" end="00:29:03.679" style="s2">west side, then across the river.</p>
+<p begin="00:29:01.120" end="00:29:05.760" style="s2">There&#39;s small fields in Jersey. We move</p>
+<p begin="00:29:03.679" end="00:29:07.279" style="s2">fast. We stay off the big roads.</p>
+<p begin="00:29:05.760" end="00:29:09.679" style="s2">&gt;&gt; And if there&#39;s no plane,</p>
+<p begin="00:29:07.279" end="00:29:14.200" style="s2">&gt;&gt; then we find another way. One problem at</p>
+<p begin="00:29:09.679" end="00:29:14.200" style="s2">a time. First, we get out of Manhattan.</p>
+<p begin="00:29:35.279" end="00:29:40.200" style="s2">together.</p>
+<p begin="00:29:37.200" end="00:29:40.200" style="s2">&gt;&gt; Together.</p>
+<p begin="00:30:22.960" end="00:30:30.240" style="s2">Package seven confirmed. Wheels down in</p>
+<p begin="00:30:26.000" end="00:30:33.039" style="s2">60. Tell them one bag each. One.</p>
+<p begin="00:30:30.240" end="00:30:33.600" style="s2">&gt;&gt; One bag. I said one bag. Leave it or you</p>
+<p begin="00:30:33.039" end="00:30:35.039" style="s2">stay with it.</p>
+<p begin="00:30:33.600" end="00:30:36.559" style="s2">&gt;&gt; Do you know who I am?</p>
+<p begin="00:30:35.039" end="00:30:39.799" style="s2">&gt;&gt; Yes, sir. That&#39;s the only reason you&#39;re</p>
+<p begin="00:30:36.559" end="00:30:39.799" style="s2">getting on.</p>
+<p begin="00:30:48.960" end="00:30:51.960" style="s2">Heat. Heat.</p>
+<p begin="00:31:09.440" end="00:31:12.440" style="s2">Heat.</p>
+<p begin="00:31:32.399" end="00:31:35.399" style="s2">Heat.</p>
+<p begin="00:32:05.360" end="00:32:07.440" style="s2">Heat.</p>
+<p begin="00:32:15.919" end="00:32:20.799" style="s2">There&#39;s one seat, Marie. One. I can&#39;t</p>
+<p begin="00:32:18.720" end="00:32:24.440" style="s2">get the kids on. I tried. I I don&#39;t What</p>
+<p begin="00:32:20.799" end="00:32:24.440" style="s2">do you want me to do?</p>
+<p begin="00:32:30.559" end="00:32:33.559" style="s2">Heat. Heat.</p>
+<p begin="00:33:30.720" end="00:33:35.279" style="s2">Please,</p>
+<p begin="00:33:32.799" end="00:33:37.679" style="s2">my kids. Just my kids. Please. Where are</p>
+<p begin="00:33:35.279" end="00:33:40.960" style="s2">the buses? They said there&#39;d be buses.</p>
+<p begin="00:33:37.679" end="00:33:43.120" style="s2">&gt;&gt; Buses are coming, ma&#39;am. I promise. Just</p>
+<p begin="00:33:40.960" end="00:33:46.080" style="s2">stay together. Stay right here. They&#39;re</p>
+<p begin="00:33:43.120" end="00:33:47.840" style="s2">coming.</p>
+<p begin="00:33:46.080" end="00:33:50.880" style="s2">They&#39;ve had me read this three times</p>
+<p begin="00:33:47.840" end="00:33:53.120" style="s2">tonight. I&#39;m not reading it a fourth. If</p>
+<p begin="00:33:50.880" end="00:33:58.480" style="s2">you have someone you love and they&#39;re</p>
+<p begin="00:33:53.120" end="00:34:01.480" style="s2">not with you, go and get them right now.</p>
+<p begin="00:33:58.480" end="00:34:01.480" style="s2">Go.</p>
+<p begin="00:34:15.440" end="00:34:20.919" style="s2">You and what&#39;s in that case? Nobody</p>
+<p begin="00:34:17.919" end="00:34:20.919" style="s2">else.</p>
+<p begin="00:34:21.679" end="00:34:26.919" style="s2">&gt;&gt; The data is the only thing on this roof</p>
+<p begin="00:34:23.280" end="00:34:26.919" style="s2">worth saving anyway.</p>
+<p begin="00:34:37.683" end="00:34:39.703" style="s2">&gt;&gt; [cheering]</p>
+<p begin="00:34:47.839" end="00:34:51.359" style="s2">&gt;&gt; Doctor, no. This is yours.</p>
+<p begin="00:34:49.440" end="00:34:56.839" style="s2">&gt;&gt; 38 years I&#39;ve studied this planet.</p>
+<p begin="00:34:51.359" end="00:34:56.839" style="s2">You&#39;ve got a mother and a sister. Go.</p>
+<p begin="00:35:28.800" end="00:35:30.800" style="s2">All</p>
+<p begin="00:35:55.359" end="00:35:58.359" style="s2">right.</p>
+<p begin="00:36:32.560" end="00:36:38.240" style="s2">How many airborne?</p>
+<p begin="00:36:34.079" end="00:36:42.000" style="s2">&gt;&gt; 210 transports, sir. On schedule.</p>
+<p begin="00:36:38.240" end="00:36:43.920" style="s2">&gt;&gt; Then we hold schedule. No exceptions.</p>
+<p begin="00:36:42.000" end="00:36:46.079" style="s2">Not for anyone.</p>
+<p begin="00:36:43.920" end="00:36:48.000" style="s2">&gt;&gt; We planned for 400,000. We&#39;re already</p>
+<p begin="00:36:46.079" end="00:36:48.800" style="s2">processing 420 and the flights haven&#39;t</p>
+<p begin="00:36:48.000" end="00:36:50.480" style="s2">stopped.</p>
+<p begin="00:36:48.800" end="00:36:53.920" style="s2">&gt;&gt; Because everyone with a seat is bringing</p>
+<p begin="00:36:50.480" end="00:36:55.440" style="s2">three people who don&#39;t have one.</p>
+<p begin="00:36:53.920" end="00:36:58.640" style="s2">&gt;&gt; And who turns them away at the door,</p>
+<p begin="00:36:55.440" end="00:37:00.560" style="s2">Adrien? You? Me?</p>
+<p begin="00:36:58.640" end="00:37:03.760" style="s2">&gt;&gt; We&#39;re loading gold bars onto aircraft.</p>
+<p begin="00:37:00.560" end="00:37:05.119" style="s2">Margaret Gold. While a woman three</p>
+<p begin="00:37:03.760" end="00:37:06.480" style="s2">floors down brought her mother and her</p>
+<p begin="00:37:05.119" end="00:37:08.160" style="s2">sister because we told her it was safe.</p>
+<p begin="00:37:06.480" end="00:37:11.200" style="s2">And there&#39;s one seat between them.</p>
+<p begin="00:37:08.160" end="00:37:16.280" style="s2">&gt;&gt; I know.</p>
+<p begin="00:37:11.200" end="00:37:16.280" style="s2">&gt;&gt; Do we Do we actually know?</p>
+<p begin="00:37:32.960" end="00:37:39.040" style="s2">Greenland thigh is at capacity. Repeat</p>
+<p begin="00:37:35.599" end="00:37:43.000" style="s2">at capacity. All ribbound.</p>
+<p begin="00:37:39.040" end="00:37:43.000" style="s2">All I see is enter.</p>
+<p begin="00:37:43.839" end="00:37:47.760" style="s2">&gt;&gt; Sir, Greenland&#39;s over capacity. 40</p>
+<p begin="00:37:46.320" end="00:37:49.839" style="s2">transports holding with nowhere to land.</p>
+<p begin="00:37:47.760" end="00:37:51.520" style="s2">Then we open the second site. Divert the</p>
+<p begin="00:37:49.839" end="00:37:52.000" style="s2">overload to the Highlands. Voss, it</p>
+<p begin="00:37:51.520" end="00:37:54.800" style="s2">holds.</p>
+<p begin="00:37:52.000" end="00:37:56.000" style="s2">&gt;&gt; It holds. Less prepared, less stocked,</p>
+<p begin="00:37:54.800" end="00:38:01.320" style="s2">but the ground survives.</p>
+<p begin="00:37:56.000" end="00:38:01.320" style="s2">&gt;&gt; Then it&#39;ll have to do. Divert south now.</p>
+<p begin="00:38:07.760" end="00:38:14.280" style="s2">We just drew a new line on the map with</p>
+<p begin="00:38:10.000" end="00:38:14.280" style="s2">people&#39;s lives again.</p>
+<p begin="00:38:44.079" end="00:38:49.880" style="s2">General, your aircraft&#39;s ready when you</p>
+<p begin="00:38:45.680" end="00:38:49.880" style="s2">are. Command element flies last.</p>
+<p begin="00:38:50.800" end="00:38:54.880" style="s2">&gt;&gt; We fly when the operation&#39;s done, not</p>
+<p begin="00:38:52.880" end="00:38:56.640" style="s2">one minute before.</p>
+<p begin="00:38:54.880" end="00:38:59.960" style="s2">If we can&#39;t finish it, we don&#39;t deserve</p>
+<p begin="00:38:56.640" end="00:38:59.960" style="s2">the seats.</p>
+<p begin="00:39:49.359" end="00:39:57.160" style="s2">That&#39;s it. That&#39;s home.</p>
+<p begin="00:39:53.040" end="00:39:57.160" style="s2">&gt;&gt; Not anymore. Eyes forward.</p>
+<p begin="00:40:00.400" end="00:40:04.160" style="s2">&gt;&gt; There&#39;s a little private airfield marked</p>
+<p begin="00:40:02.079" end="00:40:06.560" style="s2">here. Grass strip, single hanger way out</p>
+<p begin="00:40:04.160" end="00:40:09.760" style="s2">past the reservoir. 50 miles.</p>
+<p begin="00:40:06.560" end="00:40:13.240" style="s2">&gt;&gt; 50 miles of this. Could be two hours,</p>
+<p begin="00:40:09.760" end="00:40:13.240" style="s2">could be all night.</p>
+<p begin="00:40:13.520" end="00:40:17.480" style="s2">Then we&#39;d better not stop.</p>
+<p begin="00:40:30.400" end="00:40:33.200" style="s2">&gt;&gt; Please, my daughter. Just my daughter,</p>
+<p begin="00:40:32.560" end="00:40:36.200" style="s2">please.</p>
+<p begin="00:40:33.200" end="00:40:36.200" style="s2">&gt;&gt; Alex,</p>
+<p begin="00:40:38.079" end="00:40:42.880" style="s2">&gt;&gt; we stop. We die here with them. Keep</p>
+<p begin="00:40:40.000" end="00:40:42.880" style="s2">going.</p>
+<p begin="00:40:43.440" end="00:40:46.760" style="s2">Keep going.</p>
+<p begin="00:41:03.483" end="00:41:06.960" style="s2">[snorts]</p>
+<p begin="00:41:04.560" end="00:41:08.319" style="s2">Half a tank in this thing. Enough to get</p>
+<p begin="00:41:06.960" end="00:41:10.720" style="s2">us there.</p>
+<p begin="00:41:08.319" end="00:41:14.760" style="s2">&gt;&gt; And then</p>
+<p begin="00:41:10.720" end="00:41:14.760" style="s2">Then we find something with wings.</p>
+<p begin="00:41:20.160" end="00:41:25.400" style="s2">&gt;&gt; Seat belt. Hold the grab handle.</p>
+<p begin="00:41:22.000" end="00:41:25.400" style="s2">&gt;&gt; Alex, don&#39;t.</p>
+<p begin="00:41:27.119" end="00:41:31.880" style="s2">&gt;&gt; They want the truck, not us. Hold on.</p>
+<p begin="00:41:51.119" end="00:41:53.280" style="s2">That kid&#39;s bleeding out. Alex, I can see</p>
+<p begin="00:41:53.040" end="00:41:58.440" style="s2">it.</p>
+<p begin="00:41:53.280" end="00:41:58.440" style="s2">&gt;&gt; 2 minutes. Two, then we run.</p>
+<p begin="00:42:01.359" end="00:42:06.480" style="s2">&gt;&gt; Keep it tight. Don&#39;t let go.</p>
+<p begin="00:42:04.480" end="00:42:10.920" style="s2">You keep pressure and you keep walking.</p>
+<p begin="00:42:06.480" end="00:42:10.920" style="s2">He&#39;ll make it because of you.</p>
+<p begin="00:42:25.200" end="00:42:31.160" style="s2">That&#39;s why you don&#39;t stop. I know now.</p>
+<p begin="00:42:27.839" end="00:42:31.160" style="s2">That&#39;s why</p>
+<p begin="00:42:31.909" end="00:42:34.319" style="s2">[panting and gasps]</p>
+<p begin="00:42:32.560" end="00:42:38.839" style="s2">&gt;&gt; you&#39;ve done that before.</p>
+<p begin="00:42:34.319" end="00:42:38.839" style="s2">&gt;&gt; Different country. Long time ago.</p>
+<p begin="00:42:38.880" end="00:42:45.000" style="s2">&gt;&gt; I don&#39;t think I ever really knew you.</p>
+<p begin="00:42:41.200" end="00:42:45.000" style="s2">&gt;&gt; You know the part that matters.</p>
+<p begin="00:43:08.720" end="00:43:13.440" style="s2">It&#39;s the only way across for 20 miles.</p>
+<p begin="00:43:11.200" end="00:43:17.880" style="s2">&gt;&gt; It&#39;s falling, Alex.</p>
+<p begin="00:43:13.440" end="00:43:17.880" style="s2">&gt;&gt; Then we go fast and we go light.</p>
+<p begin="00:43:34.960" end="00:43:41.040" style="s2">Okay.</p>
+<p begin="00:43:36.720" end="00:43:43.280" style="s2">Okay. I hate this. I hate all of this.</p>
+<p begin="00:43:41.040" end="00:43:46.400" style="s2">&gt;&gt; You and me both.</p>
+<p begin="00:43:43.280" end="00:43:49.800" style="s2">Nearly there.</p>
+<p begin="00:43:46.400" end="00:43:49.800" style="s2">&gt;&gt; What is that?</p>
+<p begin="00:43:51.760" end="00:43:58.440" style="s2">That&#39;s the sky telling us the clock&#39;s</p>
+<p begin="00:43:53.359" end="00:43:58.440" style="s2">real. Faster, Jeep. Come on.</p>
+<p begin="00:44:17.200" end="00:44:21.560" style="s2">If there&#39;s no plane there, Alex,</p>
+<p begin="00:44:24.319" end="00:44:28.760" style="s2">there&#39;ll be a plane. There has to be a</p>
+<p begin="00:44:25.760" end="00:44:28.760" style="s2">plane.</p>
+<p begin="00:44:30.160" end="00:44:35.119" style="s2">&gt;&gt; Out of the vehicle. Keys on the ground</p>
+<p begin="00:44:32.960" end="00:44:39.880" style="s2">now.</p>
+<p begin="00:44:35.119" end="00:44:39.880" style="s2">&gt;&gt; Down. Get down and hold on.</p>
+<p begin="00:45:06.880" end="00:45:09.680" style="s2">They shot at us.</p>
+<p begin="00:45:08.079" end="00:45:10.880" style="s2">&gt;&gt; People get scared. Scared people do</p>
+<p begin="00:45:09.680" end="00:45:13.880" style="s2">that. Keep your head down till we&#39;re</p>
+<p begin="00:45:10.880" end="00:45:13.880" style="s2">clear.</p>
+<p begin="00:45:19.599" end="00:45:23.800" style="s2">&gt;&gt; That&#39;s it. That&#39;s it. Hold on.</p>
+<p begin="00:45:34.400" end="00:45:37.400" style="s2">Heat. Heat.</p>
+<p begin="00:46:29.440" end="00:46:35.319" style="s2">What?</p>
+<p begin="00:46:32.319" end="00:46:35.319" style="s2">Heat.</p>
+<p begin="00:46:49.920" end="00:46:52.920" style="s2">Heat.</p>
+<p begin="00:47:36.079" end="00:47:40.240" style="s2">Negative. Negative. We are full. Divert</p>
+<p begin="00:47:38.079" end="00:47:43.839" style="s2">to secondary. Congo Highlands. Vector</p>
+<p begin="00:47:40.240" end="00:47:46.839" style="s2">180. You cannot land here.</p>
+<p begin="00:47:43.839" end="00:47:46.839" style="s2">Heat. Heat.</p>
+<p begin="00:48:18.720" end="00:48:23.119" style="s2">He gave his seat to a cargrapher and her</p>
+<p begin="00:48:20.960" end="00:48:24.559" style="s2">family, walked back into the mountain.</p>
+<p begin="00:48:23.119" end="00:48:30.200" style="s2">&gt;&gt; Good man.</p>
+<p begin="00:48:24.559" end="00:48:30.200" style="s2">&gt;&gt; The best of us. And we left him to burn.</p>
+<p begin="00:49:08.000" end="00:49:15.240" style="s2">There&#39;s a plane, Alex. There&#39;s a plane.</p>
+<p begin="00:49:11.760" end="00:49:15.240" style="s2">There&#39;s a plane.</p>
+<p begin="00:49:31.920" end="00:49:36.000" style="s2">Fuel&#39;s</p>
+<p begin="00:49:33.520" end="00:49:38.240" style="s2">about 3/4. Battery might hold. It&#39;s old,</p>
+<p begin="00:49:36.000" end="00:49:38.960" style="s2">but it&#39;s whole. It&#39;ll fly. It has to</p>
+<p begin="00:49:38.240" end="00:49:41.119" style="s2">fly.</p>
+<p begin="00:49:38.960" end="00:49:42.800" style="s2">&gt;&gt; You sure you can do this?</p>
+<p begin="00:49:41.119" end="00:49:44.400" style="s2">&gt;&gt; No.</p>
+<p begin="00:49:42.800" end="00:49:47.559" style="s2">But your father would be furious if I</p>
+<p begin="00:49:44.400" end="00:49:47.559" style="s2">didn&#39;t try.</p>
+<p begin="00:49:49.920" end="00:49:53.440" style="s2">&gt;&gt; Come on, Dean. Come on. Pick up.</p>
+<p begin="00:50:01.040" end="00:50:04.720" style="s2">Alex, tell me you&#39;re out of the city.</p>
+<p begin="00:50:03.200" end="00:50:07.359" style="s2">Tell me you found something.</p>
+<p begin="00:50:04.720" end="00:50:10.160" style="s2">&gt;&gt; We found a plane. I can fly it. Dean,</p>
+<p begin="00:50:07.359" end="00:50:12.800" style="s2">we&#39;re coming to Greenland.</p>
+<p begin="00:50:10.160" end="00:50:15.800" style="s2">&gt;&gt; No. No. Alex, listen to me. Don&#39;t come</p>
+<p begin="00:50:12.800" end="00:50:15.800" style="s2">here.</p>
+<p begin="00:50:16.160" end="00:50:18.960" style="s2">&gt;&gt; Greenland&#39;s full, Alex. They&#39;re turning</p>
+<p begin="00:50:17.599" end="00:50:19.359" style="s2">flights away. You&#39;d hold until you&#39;re</p>
+<p begin="00:50:18.960" end="00:50:21.680" style="s2">dry.</p>
+<p begin="00:50:19.359" end="00:50:23.280" style="s2">&gt;&gt; Then where, Dean?</p>
+<p begin="00:50:21.680" end="00:50:25.119" style="s2">Africa.</p>
+<p begin="00:50:23.280" end="00:50:28.839" style="s2">The Congo high hills. High ground old</p>
+<p begin="00:50:25.119" end="00:50:28.839" style="s2">rockets. Your only shot.</p>
+<p begin="00:50:31.040" end="00:50:36.880" style="s2">&gt;&gt; Africa. Dean, that&#39;s an ocean in this.</p>
+<p begin="00:50:34.880" end="00:50:38.720" style="s2">&gt;&gt; One leg at a time. Get south. Find</p>
+<p begin="00:50:36.880" end="00:50:43.559" style="s2">something bigger. But you do not come</p>
+<p begin="00:50:38.720" end="00:50:43.559" style="s2">north. Promise me.</p>
+<p begin="00:50:44.880" end="00:50:48.800" style="s2">&gt;&gt; I promise.</p>
+<p begin="00:50:46.319" end="00:50:50.480" style="s2">&gt;&gt; I couldn&#39;t get you a seat anywhere. I</p>
+<p begin="00:50:48.800" end="00:50:52.800" style="s2">tried everything.</p>
+<p begin="00:50:50.480" end="00:50:55.520" style="s2">So run. Get her to that high ground and</p>
+<p begin="00:50:52.800" end="00:50:59.160" style="s2">don&#39;t stop.</p>
+<p begin="00:50:55.520" end="00:50:59.160" style="s2">&gt;&gt; I&#39;m sorry, brother.</p>
+<p begin="00:51:01.200" end="00:51:03.599" style="s2">&gt;&gt; Africa. Alex, that&#39;s the other side of</p>
+<p begin="00:51:03.200" end="00:51:06.160" style="s2">the world.</p>
+<p begin="00:51:03.599" end="00:51:07.520" style="s2">&gt;&gt; So we fly south, one field at a time. We</p>
+<p begin="00:51:06.160" end="00:51:11.880" style="s2">don&#39;t stop until we&#39;re standing on</p>
+<p begin="00:51:07.520" end="00:51:11.880" style="s2">ground that isn&#39;t trying to kill us.</p>
+<p begin="00:51:12.480" end="00:51:18.119" style="s2">&gt;&gt; One field at a time.</p>
+<p begin="00:51:15.119" end="00:51:18.119" style="s2">Okay.</p>
+<p begin="00:51:24.559" end="00:51:28.680" style="s2">Okay, let&#39;s go.</p>
+<p begin="00:51:33.119" end="00:51:40.280" style="s2">&gt;&gt; Come on. Come on. Turn over.</p>
+<p begin="00:51:36.720" end="00:51:40.280" style="s2">&gt;&gt; Talk to me, Alex.</p>
+<p begin="00:51:41.359" end="00:51:49.000" style="s2">&gt;&gt; 200 hours. 200 hours. You&#39;re dead. Don&#39;t</p>
+<p begin="00:51:44.319" end="00:51:49.000" style="s2">let me down. Heat.</p>
+<p begin="00:52:12.800" end="00:52:15.800" style="s2">Heat.</p>
+<p begin="00:52:27.040" end="00:52:30.400" style="s2">If we don&#39;t keep fuel at the southern</p>
+<p begin="00:52:28.480" end="00:52:31.920" style="s2">hubs, everyone we divert south dies in a</p>
+<p begin="00:52:30.400" end="00:52:36.599" style="s2">holding pattern. Keep Kinshaga and the</p>
+<p begin="00:52:31.920" end="00:52:36.599" style="s2">staging field supplied. Please</p>
+<p begin="00:52:37.200" end="00:52:42.280" style="s2">&gt;&gt; do it. Keep the southern route alive.</p>
+<p begin="00:52:43.440" end="00:52:48.760" style="s2">Who is he? The one you keep routing fuel</p>
+<p begin="00:52:45.760" end="00:52:48.760" style="s2">towards.</p>
+<p begin="00:52:48.960" end="00:52:54.079" style="s2">&gt;&gt; That man I served with.</p>
+<p begin="00:52:51.920" end="00:52:57.640" style="s2">&gt;&gt; Keep it open. Quietly. That&#39;s the last</p>
+<p begin="00:52:54.079" end="00:52:57.640" style="s2">one I don&#39;t see.</p>
+<p begin="00:52:59.200" end="00:53:02.920" style="s2">&gt;&gt; Alex, what&#39;s happening?</p>
+<p begin="00:53:03.599" end="00:53:09.319" style="s2">&gt;&gt; Carb icing. Maybe fuel. Hold on. I&#39;ve</p>
+<p begin="00:53:05.520" end="00:53:09.319" style="s2">got it. I&#39;ve got it. I&#39;ve got it.</p>
+<p begin="00:53:30.000" end="00:53:36.640" style="s2">That&#39;ll hold. Maybe long enough.</p>
+<p begin="00:53:33.280" end="00:53:38.319" style="s2">&gt;&gt; You keep saying maybe.</p>
+<p begin="00:53:36.640" end="00:53:41.319" style="s2">maybe is the most honest word I&#39;ve got</p>
+<p begin="00:53:38.319" end="00:53:41.319" style="s2">left.</p>
+<p begin="00:53:46.480" end="00:53:51.200" style="s2">&gt;&gt; If we don&#39;t make it, I&#39;m glad it&#39;s you.</p>
+<p begin="00:53:49.359" end="00:53:52.880" style="s2">&gt;&gt; We&#39;re going to make it. Then I&#39;m making</p>
+<p begin="00:53:51.200" end="00:53:55.737" style="s2">you that dinner.</p>
+<p begin="00:53:52.880" end="00:53:57.757" style="s2">&gt;&gt; You and that dinner.</p>
+<p begin="00:53:55.737" end="00:53:57.757" style="s2">[sighs and snorts]</p>
+<p begin="00:54:30.559" end="00:54:32.800" style="s2">Goodbye.</p>
+<p begin="00:54:47.520" end="00:54:51.800" style="s2">3.8 billion years.</p>
+<p begin="00:54:51.920" end="00:54:57.800" style="s2">You&#39;ll outlast all of us. You always</p>
+<p begin="00:54:54.400" end="00:54:57.800" style="s2">were going to</p>
+<p begin="00:55:14.400" end="00:55:17.119" style="s2">&gt;&gt; Is that</p>
+<p begin="00:55:15.599" end="00:55:20.760" style="s2">&gt;&gt; That&#39;s it. That&#39;s the one Dean promised.</p>
+<p begin="00:55:17.119" end="00:55:20.760" style="s2">Hold on. We&#39;re going in.</p>
+<p begin="00:55:45.440" end="00:55:51.680" style="s2">One leg at a time.</p>
+<p begin="00:55:48.079" end="00:55:51.680" style="s2">&gt;&gt; One leg at a time.</p>
+<p begin="00:55:59.680" end="00:56:02.680" style="s2">Heat.</p>
+<p begin="00:56:27.440" end="00:56:30.400" style="s2">Heat.</p>
+<p begin="00:56:42.559" end="00:56:46.880" style="s2">Where&#39;s this bird going? South staging.</p>
+<p begin="00:56:45.520" end="00:56:47.440" style="s2">Then wherever there&#39;s ground left, it&#39;s</p>
+<p begin="00:56:46.880" end="00:56:49.040" style="s2">nearly full.</p>
+<p begin="00:56:47.440" end="00:56:51.920" style="s2">&gt;&gt; Two more. She&#39;s a doctor. I&#39;m fire</p>
+<p begin="00:56:49.040" end="00:56:56.359" style="s2">service. We earn the seats.</p>
+<p begin="00:56:51.920" end="00:56:56.359" style="s2">&gt;&gt; A doctor. Get on both of you.</p>
+<p begin="00:56:59.520" end="00:57:04.400" style="s2">Dean, we made the hub. We&#39;re getting on</p>
+<p begin="00:57:02.000" end="00:57:08.119" style="s2">a transport heading south. Tell me</p>
+<p begin="00:57:04.400" end="00:57:08.119" style="s2">Africa&#39;s still there.</p>
+<p begin="00:57:10.480" end="00:57:14.799" style="s2">Tell me Africa&#39;s still there. Congo</p>
+<p begin="00:57:13.119" end="00:57:18.000" style="s2">Highlands, the second arc, it&#39;s still</p>
+<p begin="00:57:14.799" end="00:57:20.720" style="s2">there. But Alex, listen to me. It&#39;s</p>
+<p begin="00:57:18.000" end="00:57:23.680" style="s2">close. Hours, maybe less. Be in the air</p>
+<p begin="00:57:20.720" end="00:57:28.680" style="s2">when it hits. Understand? Be airborne.</p>
+<p begin="00:57:23.680" end="00:57:28.680" style="s2">&gt;&gt; Copy. Airborne. Stay alive, Dean.</p>
+<p begin="00:57:37.760" end="00:57:41.440" style="s2">&gt;&gt; No,</p>
+<p begin="00:57:39.359" end="00:57:44.680" style="s2">not yet.</p>
+<p begin="00:57:41.440" end="00:57:44.680" style="s2">Not yet.</p>
+<p begin="00:57:59.040" end="00:58:02.359" style="s2">Arms up.</p>
+<p begin="00:58:19.040" end="00:58:25.720" style="s2">Grandpa, we go now or we go. We don&#39;t</p>
+<p begin="00:58:21.359" end="00:58:25.720" style="s2">go. Pilot, go, go, go.</p>
+<p begin="00:58:28.880" end="00:58:32.720" style="s2">&gt;&gt; No numbers. Full power. We&#39;re rolling.</p>
+<p begin="00:58:30.720" end="00:58:33.920" style="s2">Center line&#39;s cracked ahead. Hold left</p>
+<p begin="00:58:32.720" end="00:58:37.480" style="s2">of it.</p>
+<p begin="00:58:33.920" end="00:58:37.480" style="s2">&gt;&gt; Then we beat it.</p>
+<p begin="00:59:00.880" end="00:59:05.280" style="s2">We were on the ground. We were still on</p>
+<p begin="00:59:03.200" end="00:59:10.140" style="s2">the ground.</p>
+<p begin="00:59:05.280" end="00:59:12.161" style="s2">&gt;&gt; We&#39;re not now. We&#39;re up. We&#39;re up.</p>
+<p begin="00:59:10.140" end="00:59:12.161" style="s2">[panting and sighs]</p>
+<p begin="00:59:14.160" end="00:59:17.720" style="s2">All those people</p>
+<p begin="00:59:18.640" end="00:59:24.920" style="s2">&gt;&gt; don&#39;t. You can&#39;t carry them all. You</p>
+<p begin="00:59:20.960" end="00:59:24.920" style="s2">carry the ones in front of you.</p>
+<p begin="00:59:32.880" end="00:59:38.000" style="s2">&gt;&gt; Doc, we&#39;ve got wounded aft and no medic.</p>
+<p begin="00:59:36.000" end="00:59:41.240" style="s2">You good to work?</p>
+<p begin="00:59:38.000" end="00:59:41.240" style="s2">&gt;&gt; Show me.</p>
+<p begin="01:00:02.160" end="01:00:06.160" style="s2">Strap in and stay strapped in.</p>
+<p begin="01:00:03.839" end="01:00:09.880" style="s2">Whatever&#39;s coming is coming now. If you</p>
+<p begin="01:00:06.160" end="01:00:09.880" style="s2">pray, start.</p>
+<p begin="01:00:26.240" end="01:00:30.680" style="s2">Maybe firing.</p>
+<p begin="01:00:43.760" end="01:00:46.839" style="s2">Heat. Heat.</p>
+<p begin="01:01:13.280" end="01:01:17.640" style="s2">Heat. Heat.</p>
+<p begin="01:01:31.119" end="01:01:36.599" style="s2">Heat.</p>
+<p begin="01:01:33.599" end="01:01:36.599" style="s2">Heat.</p>
+<p begin="01:01:50.559" end="01:01:56.920" style="s2">The whole planet just moved. Hold on.</p>
+<p begin="01:01:53.599" end="01:01:56.920" style="s2">Hold on.</p>
+<p begin="01:02:09.920" end="01:02:12.920" style="s2">Heat. Heat.</p>
+<p begin="01:02:32.079" end="01:02:35.160" style="s2">Heat up</p>
+<p begin="01:02:43.520" end="01:02:46.520" style="s2">here.</p>
+<p begin="01:03:14.319" end="01:03:21.319" style="s2">It&#39;s the whole coast, Alex. It&#39;s the</p>
+<p begin="01:03:17.359" end="01:03:21.319" style="s2">whole coast. Coast</p>
+<p begin="01:03:22.160" end="01:03:27.720" style="s2">&gt;&gt; boss said 400 ft. He wasn&#39;t guessing</p>
+<p begin="01:03:24.720" end="01:03:27.720" style="s2">high.</p>
+<p begin="01:03:59.200" end="01:04:04.520" style="s2">every continent</p>
+<p begin="01:04:01.119" end="01:04:04.520" style="s2">all at once.</p>
+<p begin="01:04:04.880" end="01:04:10.039" style="s2">&gt;&gt; Then God help whoever&#39;s under open sky.</p>
+<p begin="01:04:16.160" end="01:04:22.039" style="s2">Come on, brother.</p>
+<p begin="01:04:18.720" end="01:04:22.039" style="s2">Stay up.</p>
+<p begin="01:04:22.640" end="01:04:28.680" style="s2">Stay south.</p>
+<p begin="01:04:24.720" end="01:04:28.680" style="s2">Don&#39;t you dare come down.</p>
+<p begin="01:04:36.160" end="01:04:41.799" style="s2">&gt;&gt; I&#39;ve got you. Clip in. Clip in.</p>
+<p begin="01:04:51.440" end="01:04:58.440" style="s2">We can&#39;t go around it. It&#39;s the whole</p>
+<p begin="01:04:53.839" end="01:04:58.440" style="s2">sky. We go through.</p>
+<p begin="01:05:29.599" end="01:05:33.039" style="s2">Come here. You&#39;re not alone.</p>
+<p begin="01:05:33.119" end="01:05:38.039" style="s2">I&#39;ve got you. I&#39;ve got I&#39;ve got</p>
+<p begin="01:05:44.880" end="01:05:50.640" style="s2">&gt;&gt; You gave him someone at the end. He had</p>
+<p begin="01:05:47.839" end="01:05:53.119" style="s2">someone. That&#39;s not not nothing, Carla.</p>
+<p begin="01:05:50.640" end="01:05:56.440" style="s2">And all this,</p>
+<p begin="01:05:53.119" end="01:05:56.440" style="s2">that&#39;s everything.</p>
+<p begin="01:06:17.039" end="01:06:21.400" style="s2">What is that? That&#39;s not a storm.</p>
+<p begin="01:06:21.760" end="01:06:25.839" style="s2">&gt;&gt; That&#39;s the Cal Vera.</p>
+<p begin="01:06:24.160" end="01:06:28.480" style="s2">That&#39;s the one Voset takes the whole</p>
+<p begin="01:06:25.839" end="01:06:28.480" style="s2">country.</p>
+<p begin="01:07:14.720" end="01:07:21.559" style="s2">Ashen number three. She&#39;s running hot.</p>
+<p begin="01:07:16.720" end="01:07:21.559" style="s2">Climb. Get us over the top of it.</p>
+<p begin="01:08:02.640" end="01:08:07.079" style="s2">Look at me. Not down there.</p>
+<p begin="01:08:09.359" end="01:08:13.720" style="s2">&gt;&gt; We&#39;re still flying. We&#39;re still here.</p>
+<p begin="01:08:16.880" end="01:08:20.719" style="s2">&gt;&gt; Don&#39;t you drop off on me. Don&#39;t you</p>
+<p begin="01:08:18.480" end="01:08:24.120" style="s2">dare.</p>
+<p begin="01:08:20.719" end="01:08:24.120" style="s2">Come on, Alex.</p>
+<p begin="01:09:03.440" end="01:09:08.400" style="s2">I&#39;m not going to lie to you. Fuel&#39;s</p>
+<p begin="01:09:05.199" end="01:09:09.759" style="s2">tight and the weather&#39;s against us.</p>
+<p begin="01:09:08.400" end="01:09:13.640" style="s2">We&#39;ll make land or we&#39;ll come down</p>
+<p begin="01:09:09.759" end="01:09:13.640" style="s2">trying. Hold on.</p>
+<p begin="01:09:36.328" end="01:09:38.348" style="s2">&gt;&gt; [singing]</p>
+<p begin="01:09:46.159" end="01:09:49.520" style="s2">&gt;&gt; We&#39;re going to land on ground that isn&#39;t</p>
+<p begin="01:09:47.759" end="01:09:51.279" style="s2">moving. And I&#39;m going to cook you that</p>
+<p begin="01:09:49.520" end="01:09:55.520" style="s2">dinner. I don&#39;t care if it&#39;s over a fire</p>
+<p begin="01:09:51.279" end="01:09:59.320" style="s2">in the dirt. I keep my promises.</p>
+<p begin="01:09:55.520" end="01:09:59.320" style="s2">Then we&#39;d better land</p>
+<p begin="01:10:20.159" end="01:10:24.960" style="s2">coastline. That&#39;s the continent. We</p>
+<p begin="01:10:22.560" end="01:10:28.360" style="s2">crossed it. Now we just have to get down</p>
+<p begin="01:10:24.960" end="01:10:28.360" style="s2">in one piece.</p>
+<p begin="01:10:33.969" end="01:10:35.989" style="s2">[laughter]</p>
+<p begin="01:11:14.960" end="01:11:20.000" style="s2">This is Voss. You&#39;re in the ejective</p>
+<p begin="01:11:17.040" end="01:11:21.840" style="s2">field. Get people deep or get them out.</p>
+<p begin="01:11:20.000" end="01:11:23.280" style="s2">I ran the numbers three times. It&#39;s the</p>
+<p begin="01:11:21.840" end="01:11:24.880" style="s2">one thing I got right that I wish I</p>
+<p begin="01:11:23.280" end="01:11:28.280" style="s2">hadn&#39;t.</p>
+<p begin="01:11:24.880" end="01:11:28.280" style="s2">&gt;&gt; Goodbye, Margaret.</p>
+<p begin="01:11:30.159" end="01:11:35.560" style="s2">&gt;&gt; Get them down. Lowest levels now.</p>
+<p begin="01:11:35.840" end="01:11:44.360" style="s2">If you&#39;re going to crack you, grand.</p>
+<p begin="01:11:37.600" end="01:11:44.360" style="s2">&gt;&gt; There isn&#39;t time, Roy. There isn&#39;t time.</p>
+<p begin="01:12:15.120" end="01:12:20.760" style="s2">Heat.</p>
+<p begin="01:12:17.760" end="01:12:20.760" style="s2">Heat.</p>
+<p begin="01:12:30.239" end="01:12:35.159" style="s2">It&#39;s gone. The whole thing.</p>
+<p begin="01:12:36.880" end="01:12:42.239" style="s2">Africa.</p>
+<p begin="01:12:39.760" end="01:12:45.800" style="s2">It was always Africa.</p>
+<p begin="01:12:42.239" end="01:12:45.800" style="s2">Get there, Alex.</p>
+<p begin="01:13:11.440" end="01:13:14.520" style="s2">Heat. Heat.</p>
+<p begin="01:13:14.640" end="01:13:17.640" style="s2">Heat.</p>
+<p begin="01:13:30.480" end="01:13:33.480" style="s2">Heat.</p>
+<p begin="01:13:51.040" end="01:13:54.320" style="s2">We&#39;re not making the staging field. Not</p>
+<p begin="01:13:53.199" end="01:13:59.080" style="s2">on this fuel.</p>
+<p begin="01:13:54.320" end="01:13:59.080" style="s2">&gt;&gt; Then find me anything flat. Anything.</p>
+<p begin="01:14:15.600" end="01:14:22.159" style="s2">Range positions. Heads down. Hold on.</p>
+<p begin="01:14:18.800" end="01:14:22.719" style="s2">&gt;&gt; I&#39;ve got you. I&#39;ve always got you.</p>
+<p begin="01:14:22.159" end="01:14:25.719" style="s2">&gt;&gt; Together.</p>
+<p begin="01:14:22.719" end="01:14:25.719" style="s2">&gt;&gt; Together.</p>
+<p begin="01:14:27.520" end="01:14:30.520" style="s2">Heat.</p>
+<p begin="01:14:47.840" end="01:14:50.840" style="s2">Heat.</p>
+<p begin="01:15:03.177" end="01:15:05.197" style="s2">&gt;&gt; [panting]</p>
+<p begin="01:15:06.159" end="01:15:12.346" style="s2">&gt;&gt; Yeah, we&#39;re down. [sighs] We stopped.</p>
+<p begin="01:15:09.520" end="01:15:14.366" style="s2">We&#39;re on the ground. We made it.</p>
+<p begin="01:15:12.346" end="01:15:14.366" style="s2">[laughter]</p>
+<p begin="01:15:46.400" end="01:15:52.000" style="s2">That&#39;s behind us now. All of it.</p>
+<p begin="01:15:50.400" end="01:15:54.640" style="s2">&gt;&gt; Is it really over?</p>
+<p begin="01:15:52.000" end="01:15:58.040" style="s2">&gt;&gt; The end of it is. Now comes the part</p>
+<p begin="01:15:54.640" end="01:15:58.040" style="s2">where we live.</p>
+<p begin="01:16:40.719" end="01:16:49.800" style="s2">Thank you. You are welcome here.</p>
+<p begin="01:16:46.159" end="01:16:49.800" style="s2">&gt;&gt; You saved me.</p>
+<p begin="01:16:50.800" end="01:16:54.760" style="s2">That&#39;s what a husband does.</p>
+</div>
+</body>
+</tt>

@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.000" end="00:00:03.000" style="s2">Heat.</p>
+<p begin="00:00:21.520" end="00:00:24.520" style="s2">Heat.</p>
+<p begin="00:00:37.040" end="00:00:42.040" style="s2">Heat.</p>
+<p begin="00:00:39.040" end="00:00:42.040" style="s2">Heat.</p>
+<p begin="00:00:47.200" end="00:00:50.200" style="s2">Heat.</p>
+<p begin="00:01:07.119" end="00:01:10.119" style="s2">Heat.</p>
+<p begin="00:01:37.119" end="00:01:40.759" style="s2">Alex, I&#39;m trapped.</p>
+<p begin="00:01:48.880" end="00:01:54.119" style="s2">She&#39;s in Midtown. 40 blocks of that.</p>
+<p begin="00:01:57.360" end="00:02:02.920" style="s2">I&#39;m coming. Carly.</p>
+<p begin="00:01:59.920" end="00:02:02.920" style="s2">&gt;&gt; Carly.</p>
+<p begin="00:02:05.840" end="00:02:11.680" style="s2">&gt;&gt; I&#39;m here. Where are you? Tell me.</p>
+<p begin="00:02:08.239" end="00:02:14.680" style="s2">&gt;&gt; I&#39;m trapped. Floor 40. Alex, don&#39;t.</p>
+<p begin="00:02:11.680" end="00:02:14.680" style="s2">&gt;&gt; Carla,</p>
+<p begin="00:02:20.959" end="00:02:27.920" style="s2">&gt;&gt; Carla, come on. Come on. No signal.</p>
+<p begin="00:02:24.560" end="00:02:32.720" style="s2">Every tower is down. She said trapped.</p>
+<p begin="00:02:27.920" end="00:02:38.120" style="s2">50th floor. That&#39;s 40 blocks from here.</p>
+<p begin="00:02:32.720" end="00:02:38.120" style="s2">Water, light, bandages. Go.</p>
+<p begin="00:02:41.040" end="00:02:44.760" style="s2">I&#39;m coming for you.</p>
+<p begin="00:02:53.760" end="00:02:57.760" style="s2">&gt;&gt; Help. Can anyone hear me?</p>
+<p begin="00:02:55.840" end="00:03:01.680" style="s2">&gt;&gt; Hear me?</p>
+<p begin="00:02:57.760" end="00:03:04.680" style="s2">&gt;&gt; Okay. Okay. Think.</p>
+<p begin="00:03:01.680" end="00:03:04.680" style="s2">Move.</p>
+<p begin="00:03:08.800" end="00:03:14.400" style="s2">I&#39;m out.</p>
+<p begin="00:03:10.720" end="00:03:17.400" style="s2">I&#39;m out now. Get up. You get up right</p>
+<p begin="00:03:14.400" end="00:03:17.400" style="s2">now.</p>
+<p begin="00:03:21.120" end="00:03:26.640" style="s2">&gt;&gt; Please. My leg. I can&#39;t push it off.</p>
+<p begin="00:03:24.080" end="00:03:31.080" style="s2">&gt;&gt; I see you. Hold on. Every second I&#39;m</p>
+<p begin="00:03:26.640" end="00:03:31.080" style="s2">here. Carly&#39;s running out of time.</p>
+<p begin="00:03:37.200" end="00:03:40.239" style="s2">Can you walk?</p>
+<p begin="00:03:38.159" end="00:03:41.200" style="s2">&gt;&gt; I&#39;ll manage. Go. Whoever you&#39;re trying</p>
+<p begin="00:03:40.239" end="00:03:42.720" style="s2">to reach, go now.</p>
+<p begin="00:03:41.200" end="00:03:43.920" style="s2">&gt;&gt; Stay against the inside wall. Don&#39;t take</p>
+<p begin="00:03:42.720" end="00:03:46.920" style="s2">the elevator shaft side.</p>
+<p begin="00:03:43.920" end="00:03:46.920" style="s2">&gt;&gt; GO.</p>
+<p begin="00:03:54.080" end="00:04:02.599" style="s2">&gt;&gt; THERE. That&#39;s light. That&#39;s a way out.</p>
+<p begin="00:03:57.360" end="00:04:02.599" style="s2">Don&#39;t stop. Whatever you do, don&#39;t stop.</p>
+<p begin="00:04:07.920" end="00:04:11.159" style="s2">Oh god.</p>
+<p begin="00:04:11.439" end="00:04:15.400" style="s2">40 blocks through that.</p>
+<p begin="00:04:23.520" end="00:04:29.840" style="s2">40 blocks. Just 40 blocks. Carla, I&#39;m</p>
+<p begin="00:04:26.960" end="00:04:31.759" style="s2">coming. Just hold on.</p>
+<p begin="00:04:29.840" end="00:04:32.160" style="s2">Hey. Hey, Midtown. Which way is clear to</p>
+<p begin="00:04:31.759" end="00:04:33.520" style="s2">Midtown?</p>
+<p begin="00:04:32.160" end="00:04:34.320" style="s2">&gt;&gt; DON&#39;T TOUCH ME. IT&#39;S ALL GONE.</p>
+<p begin="00:04:33.520" end="00:04:35.759" style="s2">EVERYTHING&#39;S GONE.</p>
+<p begin="00:04:34.320" end="00:04:38.960" style="s2">&gt;&gt; PLEASE. MY GIRLFRIEND IS IN A BUILDING</p>
+<p begin="00:04:35.759" end="00:04:40.960" style="s2">ON 48TH. Is the avenue open?</p>
+<p begin="00:04:38.960" end="00:04:42.000" style="s2">&gt;&gt; Can you hear me? Which roads are still</p>
+<p begin="00:04:40.960" end="00:04:43.680" style="s2">passable? North.</p>
+<p begin="00:04:42.000" end="00:04:46.680" style="s2">&gt;&gt; There&#39;s nothing left up there, man.</p>
+<p begin="00:04:43.680" end="00:04:46.680" style="s2">Nothing.</p>
+<p begin="00:04:48.800" end="00:04:53.120" style="s2">&gt;&gt; Please. My leg. I can&#39;t feel my leg.</p>
+<p begin="00:04:51.759" end="00:04:53.440" style="s2">&gt;&gt; I see you. I&#39;m right here. What&#39;s your</p>
+<p begin="00:04:53.120" end="00:04:55.600" style="s2">name?</p>
+<p begin="00:04:53.440" end="00:04:57.520" style="s2">&gt;&gt; Dana. It&#39;s Dana. Is he Is he dead?</p>
+<p begin="00:04:55.600" end="00:05:01.280" style="s2">&gt;&gt; He&#39;s breathing. Dana, look at me. Just</p>
+<p begin="00:04:57.520" end="00:05:01.280" style="s2">at me. I&#39;m not leaving you.</p>
+<p begin="00:05:01.680" end="00:05:04.720" style="s2">bite down on this. It&#39;s going to</p>
+<p begin="00:05:02.960" end="00:05:05.280" style="s2">&gt;&gt; Why did you just go? You could have made</p>
+<p begin="00:05:04.720" end="00:05:06.800" style="s2">it out.</p>
+<p begin="00:05:05.280" end="00:05:09.960" style="s2">&gt;&gt; Because nobody&#39;s dying on this floor.</p>
+<p begin="00:05:06.800" end="00:05:09.960" style="s2">Not today.</p>
+<p begin="00:05:12.080" end="00:05:16.520" style="s2">&gt;&gt; We find another way out together.</p>
+<p begin="00:05:19.039" end="00:05:21.360" style="s2">&gt;&gt; 48th and Lex, have you come from up</p>
+<p begin="00:05:20.560" end="00:05:23.120" style="s2">there? Is it passable?</p>
+<p begin="00:05:21.360" end="00:05:25.600" style="s2">&gt;&gt; Lex is blocked past 40th. Try the park</p>
+<p begin="00:05:23.120" end="00:05:29.680" style="s2">side. Might still be open. Park side.</p>
+<p begin="00:05:25.600" end="00:05:31.280" style="s2">Okay. Okay, I can do that.</p>
+<p begin="00:05:29.680" end="00:05:34.520" style="s2">GO.</p>
+<p begin="00:05:31.280" end="00:05:34.520" style="s2">NOT AGAIN.</p>
+<p begin="00:05:36.320" end="00:05:40.600" style="s2">&gt;&gt; Get off the street. Move.</p>
+<p begin="00:05:40.960" end="00:05:45.160" style="s2">Oh god, it&#39;s coming down.</p>
+<p begin="00:05:47.600" end="00:05:50.600" style="s2">Run,</p>
+<p begin="00:05:54.720" end="00:05:58.880" style="s2">Carla. I&#39;m not dying here.</p>
+<p begin="00:06:04.960" end="00:06:11.199" style="s2">I can&#39;t see.</p>
+<p begin="00:06:08.720" end="00:06:15.160" style="s2">I can&#39;t see anything. I&#39;m coming, Carly.</p>
+<p begin="00:06:11.199" end="00:06:15.160" style="s2">I don&#39;t care what&#39;s in front of me.</p>
+<p begin="00:06:24.160" end="00:06:30.759" style="s2">Still here. Keep moving. Keep moving.</p>
+<p begin="00:06:34.880" end="00:06:42.840" style="s2">Come on. There has to be a window.</p>
+<p begin="00:06:38.160" end="00:06:42.840" style="s2">Window. Sky signal.</p>
+<p begin="00:06:49.440" end="00:06:52.680" style="s2">Oh no.</p>
+<p begin="00:06:53.759" end="00:06:57.120" style="s2">Alex, where are you?</p>
+<p begin="00:07:01.520" end="00:07:04.759" style="s2">see it.</p>
+<p begin="00:07:05.840" end="00:07:09.479" style="s2">Somebody see it.</p>
+<p begin="00:07:13.520" end="00:07:17.199" style="s2">&gt;&gt; East. KEEP EAST. THIS WAY.</p>
+<p begin="00:07:15.680" end="00:07:21.800" style="s2">&gt;&gt; DON&#39;T STOP. KEEP MOVING. Keep moving.</p>
+<p begin="00:07:17.199" end="00:07:21.800" style="s2">&gt;&gt; Where are the buses? They said east 34.</p>
+<p begin="00:07:29.440" end="00:07:36.919" style="s2">Four miles.</p>
+<p begin="00:07:32.080" end="00:07:36.919" style="s2">Meridian Tower. She&#39;s there.</p>
+<p begin="00:07:39.039" end="00:07:43.000" style="s2">One block at a time.</p>
+<p begin="00:07:45.199" end="00:07:49.000" style="s2">Just keep moving, Carol.</p>
+<p begin="00:07:52.400" end="00:07:57.240" style="s2">Get back. Get back. No.</p>
+<p begin="00:08:05.599" end="00:08:09.039" style="s2">&gt;&gt; I can&#39;t move my leg. Please, please</p>
+<p begin="00:08:07.759" end="00:08:12.720" style="s2">don&#39;t leave me here.</p>
+<p begin="00:08:09.039" end="00:08:14.879" style="s2">&gt;&gt; I&#39;m coming. Hold on. I&#39;m coming to you.</p>
+<p begin="00:08:12.720" end="00:08:18.319" style="s2">The helicopter, it&#39;s gone. We have to</p>
+<p begin="00:08:14.879" end="00:08:20.879" style="s2">get to the stairs now.</p>
+<p begin="00:08:18.319" end="00:08:21.680" style="s2">&gt;&gt; East. Keep moving east toward the river.</p>
+<p begin="00:08:20.879" end="00:08:24.400" style="s2">DO NOT STOP.</p>
+<p begin="00:08:21.680" end="00:08:25.120" style="s2">&gt;&gt; I NEED TO GO WEST. MIDTOWN is 7th Avenue</p>
+<p begin="00:08:24.400" end="00:08:27.759" style="s2">passible.</p>
+<p begin="00:08:25.120" end="00:08:29.440" style="s2">&gt;&gt; WEST IS GONE, BUDDY. FIRES from 34th to</p>
+<p begin="00:08:27.759" end="00:08:32.880" style="s2">50th. You&#39;ll die.</p>
+<p begin="00:08:29.440" end="00:08:34.640" style="s2">&gt;&gt; My wife is in there.</p>
+<p begin="00:08:32.880" end="00:08:35.919" style="s2">&gt;&gt; Please. He&#39;s still breathing. I CAN&#39;T</p>
+<p begin="00:08:34.640" end="00:08:37.760" style="s2">LIFT IT ALONE.</p>
+<p begin="00:08:35.919" end="00:08:40.760" style="s2">&gt;&gt; On three. Pull him the second it moves.</p>
+<p begin="00:08:37.760" end="00:08:40.760" style="s2">READY?</p>
+<p begin="00:08:41.039" end="00:08:44.560" style="s2">&gt;&gt; Keep pressure on that leg. Get him east.</p>
+<p begin="00:08:42.560" end="00:08:48.519" style="s2">There are firefighters two blocks back.</p>
+<p begin="00:08:44.560" end="00:08:48.519" style="s2">I&#39;m sorry. I can&#39;t stay.</p>
+<p begin="00:08:51.120" end="00:08:53.760" style="s2">Leave me on this landing. Come back with</p>
+<p begin="00:08:52.560" end="00:08:55.040" style="s2">help. You&#39;ll be faster alone.</p>
+<p begin="00:08:53.760" end="00:08:56.240" style="s2">&gt;&gt; This building is burning from the top.</p>
+<p begin="00:08:55.040" end="00:08:56.959" style="s2">There is no coming back.</p>
+<p begin="00:08:56.240" end="00:08:58.800" style="s2">&gt;&gt; You know I can&#39;t.</p>
+<p begin="00:08:56.959" end="00:09:00.080" style="s2">&gt;&gt; You won&#39;t jump. I&#39;ll lower you. Grab the</p>
+<p begin="00:08:58.800" end="00:09:04.519" style="s2">rebar on the other side and swing your</p>
+<p begin="00:09:00.080" end="00:09:04.519" style="s2">good leg onto the landing. I&#39;ve got you.</p>
+<p begin="00:09:05.920" end="00:09:10.080" style="s2">&gt;&gt; Alex, it&#39;s me. I&#39;m in the stairwell,</p>
+<p begin="00:09:08.320" end="00:09:10.959" style="s2">Meridian Tower. If you come here and I&#39;m</p>
+<p begin="00:09:10.080" end="00:09:12.800" style="s2">gone, I&#39;m trying to get down. I&#39;m</p>
+<p begin="00:09:10.959" end="00:09:13.839" style="s2">heading for the ground floor. I love</p>
+<p begin="00:09:12.800" end="00:09:16.320" style="s2">you. Please find me.</p>
+<p begin="00:09:13.839" end="00:09:19.640" style="s2">&gt;&gt; He&#39;ll come. If he&#39;s anything like you,</p>
+<p begin="00:09:16.320" end="00:09:19.640" style="s2">he&#39;ll come.</p>
+<p begin="00:09:22.240" end="00:09:29.440" style="s2">&gt;&gt; Come on. Come on. Come on.</p>
+<p begin="00:09:26.080" end="00:09:33.480" style="s2">3.1 miles. I can do 3 miles. Hold on,</p>
+<p begin="00:09:29.440" end="00:09:33.480" style="s2">Carla. I&#39;m coming.</p>
+<p begin="00:09:35.120" end="00:09:40.279" style="s2">2.6. Getting close. Getting close.</p>
+<p begin="00:09:45.519" end="00:09:49.480" style="s2">What the hell is that sound?</p>
+<p begin="00:09:53.680" end="00:09:58.880" style="s2">&gt;&gt; No, no, no, no.</p>
+<p begin="00:09:57.200" end="00:10:01.959" style="s2">There has to be another way. There has</p>
+<p begin="00:09:58.880" end="00:10:01.959" style="s2">to be.</p>
+<p begin="00:10:11.360" end="00:10:18.800" style="s2">No, no, no.</p>
+<p begin="00:10:13.680" end="00:10:22.519" style="s2">There is no way through. Left blocked.</p>
+<p begin="00:10:18.800" end="00:10:22.519" style="s2">Right block.</p>
+<p begin="00:10:23.360" end="00:10:30.440" style="s2">Three in line running north under the</p>
+<p begin="00:10:25.120" end="00:10:30.440" style="s2">fire. Subway half a block east.</p>
+<p begin="00:10:34.000" end="00:10:41.800" style="s2">Still on. Good. Underground, flooded,</p>
+<p begin="00:10:37.839" end="00:10:41.800" style="s2">dark. Move.</p>
+<p begin="00:10:46.000" end="00:10:48.560" style="s2">&gt;&gt; I can feel it through the floor.</p>
+<p begin="00:10:47.120" end="00:10:51.040" style="s2">&gt;&gt; Eyes on me, not the ceiling.</p>
+<p begin="00:10:48.560" end="00:10:52.720" style="s2">&gt;&gt; Is the crack getting worse?</p>
+<p begin="00:10:51.040" end="00:10:56.440" style="s2">&gt;&gt; It stopped. We keep moving.</p>
+<p begin="00:10:52.720" end="00:10:56.440" style="s2">&gt;&gt; How many floors left?</p>
+<p begin="00:11:00.640" end="00:11:03.519" style="s2">&gt;&gt; Hey, can you hear me?</p>
+<p begin="00:11:02.240" end="00:11:05.040" style="s2">&gt;&gt; Been here since the first shake.</p>
+<p begin="00:11:03.519" end="00:11:07.440" style="s2">&gt;&gt; I&#39;m getting you out. Hold on.</p>
+<p begin="00:11:05.040" end="00:11:11.040" style="s2">&gt;&gt; Frame&#39;s bucked. It won&#39;t move.</p>
+<p begin="00:11:07.440" end="00:11:14.480" style="s2">&gt;&gt; Carla, there has to be another way out.</p>
+<p begin="00:11:11.040" end="00:11:16.640" style="s2">&gt;&gt; Service corridor, floor 9, west side.</p>
+<p begin="00:11:14.480" end="00:11:18.000" style="s2">Doors marked. Maintenance.</p>
+<p begin="00:11:16.640" end="00:11:22.360" style="s2">&gt;&gt; I&#39;m coming back for you.</p>
+<p begin="00:11:18.000" end="00:11:22.360" style="s2">&gt;&gt; Just get out. Go.</p>
+<p begin="00:11:27.519" end="00:11:32.959" style="s2">&gt;&gt; Hello. Anyone down here?</p>
+<p begin="00:11:30.240" end="00:11:35.600" style="s2">&gt;&gt; Six blocks. Just six blocks. Keep</p>
+<p begin="00:11:32.959" end="00:11:35.600" style="s2">moving.</p>
+<p begin="00:11:37.680" end="00:11:41.880" style="s2">Six blocks to the other side.</p>
+<p begin="00:11:45.120" end="00:11:50.440" style="s2">What is that? Is that the building?</p>
+<p begin="00:12:06.240" end="00:12:12.279" style="s2">Come on. Come on. Come on. Up. Get up.</p>
+<p begin="00:12:15.760" end="00:12:19.399" style="s2">Someone&#39;s down there.</p>
+<p begin="00:12:22.800" end="00:12:29.560" style="s2">200 ft. Just 200 ft.</p>
+<p begin="00:12:26.079" end="00:12:29.560" style="s2">Don&#39;t look back.</p>
+<p begin="00:12:29.680" end="00:12:33.000" style="s2">Keep moving.</p>
+<p begin="00:12:39.760" end="00:12:44.320" style="s2">&gt;&gt; Can you hear me? I&#39;m here.</p>
+<p begin="00:12:41.600" end="00:12:49.959" style="s2">&gt;&gt; THE DOORS WON&#39;T OPEN. PLEASE GET US OUT.</p>
+<p begin="00:12:44.320" end="00:12:49.959" style="s2">&gt;&gt; I SEE YOU. I&#39;m getting you out now.</p>
+<p begin="00:12:54.079" end="00:12:56.800" style="s2">&gt;&gt; Feel that</p>
+<p begin="00:12:54.639" end="00:12:58.079" style="s2">&gt;&gt; building settling or another one coming?</p>
+<p begin="00:12:56.800" end="00:13:00.880" style="s2">The crack is getting longer.</p>
+<p begin="00:12:58.079" end="00:13:04.760" style="s2">&gt;&gt; Eyes on me, not the ceiling. Move.</p>
+<p begin="00:13:00.880" end="00:13:04.760" style="s2">&gt;&gt; Double time. Don&#39;t stop.</p>
+<p begin="00:13:08.560" end="00:13:12.240" style="s2">&gt;&gt; On three. Push. When I pull.</p>
+<p begin="00:13:10.399" end="00:13:14.000" style="s2">&gt;&gt; Two. Three. Four.</p>
+<p begin="00:13:12.240" end="00:13:15.440" style="s2">&gt;&gt; Move. Go. Go. Keep going.</p>
+<p begin="00:13:14.000" end="00:13:18.079" style="s2">&gt;&gt; There&#39;s one more. An older man.</p>
+<p begin="00:13:15.440" end="00:13:23.399" style="s2">&gt;&gt; He goes next. Move.</p>
+<p begin="00:13:18.079" end="00:13:23.399" style="s2">Go. I&#39;m right behind you. Go.</p>
+<p begin="00:13:31.600" end="00:13:34.600" style="s2">Carla.</p>
+<p begin="00:13:39.600" end="00:13:43.680" style="s2">&gt;&gt; Carla.</p>
+<p begin="00:13:41.279" end="00:13:46.720" style="s2">&gt;&gt; Miss Carla, can you hear me?</p>
+<p begin="00:13:43.680" end="00:13:50.120" style="s2">&gt;&gt; I&#39;m here. I&#39;m okay. Keep moving. Don&#39;t</p>
+<p begin="00:13:46.720" end="00:13:50.120" style="s2">wait for me.</p>
+<p begin="00:13:51.040" end="00:13:54.040" style="s2">There.</p>
+<p begin="00:13:56.800" end="00:14:02.680" style="s2">What did they do?</p>
+<p begin="00:13:59.360" end="00:14:02.680" style="s2">Keep moving.</p>
+<p begin="00:14:11.199" end="00:14:16.519" style="s2">3%.</p>
+<p begin="00:14:13.519" end="00:14:16.519" style="s2">Okay.</p>
+<p begin="00:14:22.880" end="00:14:25.880" style="s2">Don&#39;t</p>
+<p begin="00:14:27.040" end="00:14:30.360" style="s2">too close.</p>
+<p begin="00:14:41.600" end="00:14:44.920" style="s2">Stop shaking.</p>
+<p begin="00:14:45.120" end="00:14:50.639" style="s2">Come on. Work.</p>
+<p begin="00:14:48.399" end="00:14:54.240" style="s2">Evacuate south if possible. Avoid</p>
+<p begin="00:14:50.639" end="00:14:59.399" style="s2">bridges. After strokes expected</p>
+<p begin="00:14:54.240" end="00:14:59.399" style="s2">&gt;&gt; service stairwell, two doors east.</p>
+<p begin="00:15:00.240" end="00:15:03.639" style="s2">That&#39;s the route.</p>
+<p begin="00:15:10.639" end="00:15:14.680" style="s2">One bear. Hold.</p>
+<p begin="00:15:15.839" end="00:15:22.720" style="s2">Alex, pick up. Alex, I&#39;m trying to get</p>
+<p begin="00:15:20.160" end="00:15:23.760" style="s2">out.</p>
+<p begin="00:15:22.720" end="00:15:27.240" style="s2">&gt;&gt; Carly, where are you?</p>
+<p begin="00:15:23.760" end="00:15:27.240" style="s2">&gt;&gt; I&#39;m in the service.</p>
+<p begin="00:15:28.480" end="00:15:32.600" style="s2">&gt;&gt; Carla. Carla.</p>
+<p begin="00:15:41.040" end="00:15:44.600" style="s2">Heard me.</p>
+<p begin="00:15:46.079" end="00:15:49.079" style="s2">Move.</p>
+<p begin="00:15:51.360" end="00:15:55.639" style="s2">Stairwell right there.</p>
+<p begin="00:15:57.440" end="00:16:00.440" style="s2">No,</p>
+<p begin="00:16:01.440" end="00:16:04.839" style="s2">no, no.</p>
+<p begin="00:16:07.120" end="00:16:11.240" style="s2">&gt;&gt; Jason, answer me.</p>
+<p begin="00:16:11.519" end="00:16:14.720" style="s2">&gt;&gt; That building, third floor. My wife is</p>
+<p begin="00:16:14.160" end="00:16:16.240" style="s2">alive.</p>
+<p begin="00:16:14.720" end="00:16:20.360" style="s2">&gt;&gt; Zone sealed, sir. Step back.</p>
+<p begin="00:16:16.240" end="00:16:20.360" style="s2">&gt;&gt; She called me. She&#39;s waiting.</p>
+<p begin="00:16:23.519" end="00:16:26.240" style="s2">&gt;&gt; That zone is coming down. Nobody goes</p>
+<p begin="00:16:25.680" end="00:16:28.720" style="s2">in.</p>
+<p begin="00:16:26.240" end="00:16:31.519" style="s2">&gt;&gt; My wife is in there. Third floor.</p>
+<p begin="00:16:28.720" end="00:16:35.480" style="s2">&gt;&gt; Nobody goes in.</p>
+<p begin="00:16:31.519" end="00:16:35.480" style="s2">&gt;&gt; Then I&#39;ll find another way.</p>
+<p begin="00:16:37.920" end="00:16:41.480" style="s2">&gt;&gt; Don&#39;t touch me.</p>
+<p begin="00:16:43.920" end="00:16:48.360" style="s2">4%. Keep going.</p>
+<p begin="00:16:49.199" end="00:16:57.399" style="s2">&gt;&gt; Service alley, two blocks east.</p>
+<p begin="00:16:53.440" end="00:16:57.399" style="s2">Carla, pick up</p>
+<p begin="00:17:09.520" end="00:17:14.039" style="s2">1%. Of course,</p>
+<p begin="00:17:14.640" end="00:17:19.319" style="s2">air moves right. Go right.</p>
+<p begin="00:17:22.720" end="00:17:29.799" style="s2">almost through. Keep moving.</p>
+<p begin="00:17:26.480" end="00:17:29.799" style="s2">That&#39;s new.</p>
+<p begin="00:17:46.000" end="00:17:50.640" style="s2">Ground floor right there. Move.</p>
+<p begin="00:17:59.360" end="00:18:03.559" style="s2">20 ft. Don&#39;t stop.</p>
+<p begin="00:18:12.400" end="00:18:16.000" style="s2">&gt;&gt; Who&#39;s there? Don&#39;t move. Ceiling&#39;s</p>
+<p begin="00:18:14.480" end="00:18:20.480" style="s2">cracked.</p>
+<p begin="00:18:16.000" end="00:18:22.720" style="s2">&gt;&gt; Not a threat. The alley just collapsed.</p>
+<p begin="00:18:20.480" end="00:18:23.840" style="s2">&gt;&gt; Midtown&#39;s gone. Three towers leaning.</p>
+<p begin="00:18:22.720" end="00:18:25.200" style="s2">One gust drops them.</p>
+<p begin="00:18:23.840" end="00:18:26.559" style="s2">&gt;&gt; I have someone up there. What streets</p>
+<p begin="00:18:25.200" end="00:18:28.240" style="s2">are still passable? You&#39;ll be crushed</p>
+<p begin="00:18:26.559" end="00:18:33.000" style="s2">before you hit 45th Street.</p>
+<p begin="00:18:28.240" end="00:18:33.000" style="s2">&gt;&gt; None. That&#39;s why we&#39;re all down here.</p>
+<p begin="00:18:34.000" end="00:18:38.240" style="s2">&gt;&gt; Hell&#39;s Kitchen side streets avoids the</p>
+<p begin="00:18:36.480" end="00:18:39.760" style="s2">high-rise corridor entirely.</p>
+<p begin="00:18:38.240" end="00:18:40.799" style="s2">&gt;&gt; Half that grit is rubble. You&#39;re</p>
+<p begin="00:18:39.760" end="00:18:43.360" style="s2">guessing.</p>
+<p begin="00:18:40.799" end="00:18:44.720" style="s2">&gt;&gt; Her name is Carla. She&#39;s in Midtown. I&#39;m</p>
+<p begin="00:18:43.360" end="00:18:49.960" style="s2">going</p>
+<p begin="00:18:44.720" end="00:18:49.960" style="s2">&gt;&gt; take the water. East Wing has some left.</p>
+<p begin="00:18:56.080" end="00:19:04.280" style="s2">&gt;&gt; Okay. Down. Just find down. Not yet.</p>
+<p begin="00:19:00.640" end="00:19:04.280" style="s2">Don&#39;t come down yet.</p>
+<p begin="00:19:08.000" end="00:19:10.400" style="s2">&gt;&gt; I thought you fell. How long have you</p>
+<p begin="00:19:09.679" end="00:19:13.360" style="s2">been here?</p>
+<p begin="00:19:10.400" end="00:19:15.600" style="s2">&gt;&gt; An hour, maybe more. Lobby&#39;s one floor</p>
+<p begin="00:19:13.360" end="00:19:20.200" style="s2">down. One floor. We can do one floor.</p>
+<p begin="00:19:15.600" end="00:19:20.200" style="s2">There&#39;s smoke. I smelled it earlier.</p>
+<p begin="00:19:22.799" end="00:19:26.799" style="s2">&gt;&gt; If a woman named Carla comes through,</p>
+<p begin="00:19:25.039" end="00:19:28.559" style="s2">tell her Alex went north on 9th.</p>
+<p begin="00:19:26.799" end="00:19:30.799" style="s2">&gt;&gt; How&#39;s she going to know to look for you?</p>
+<p begin="00:19:28.559" end="00:19:34.520" style="s2">&gt;&gt; She will.</p>
+<p begin="00:19:30.799" end="00:19:34.520" style="s2">God help you both.</p>
+<p begin="00:19:37.520" end="00:19:42.080" style="s2">&gt;&gt; I smell gasoline.</p>
+<p begin="00:19:40.080" end="00:19:43.600" style="s2">Don&#39;t stop.</p>
+<p begin="00:19:42.080" end="00:19:48.280" style="s2">&gt;&gt; Carla,</p>
+<p begin="00:19:43.600" end="00:19:48.280" style="s2">&gt;&gt; eyes on me. One more flight.</p>
+<p begin="00:19:54.880" end="00:20:00.120" style="s2">No. Is there another way out?</p>
+<p begin="00:20:00.640" end="00:20:04.280" style="s2">There has to be.</p>
+<p begin="00:20:07.919" end="00:20:10.480" style="s2">&gt;&gt; Back away from it. The heat&#39;s getting</p>
+<p begin="00:20:09.760" end="00:20:12.559" style="s2">worse.</p>
+<p begin="00:20:10.480" end="00:20:13.280" style="s2">&gt;&gt; There&#39;s nothing else. Every corridor</p>
+<p begin="00:20:12.559" end="00:20:14.640" style="s2">ends here.</p>
+<p begin="00:20:13.280" end="00:20:15.360" style="s2">&gt;&gt; The ceiling&#39;s going to go. OH, WE NEED</p>
+<p begin="00:20:14.640" end="00:20:16.880" style="s2">OUT NOW.</p>
+<p begin="00:20:15.360" end="00:20:20.440" style="s2">&gt;&gt; THEN WE FIND THE WAY OUT. WE HAVE NOT</p>
+<p begin="00:20:16.880" end="00:20:20.440" style="s2">checked every wall.</p>
+<p begin="00:20:22.320" end="00:20:24.160" style="s2">If</p>
+<p begin="00:20:22.480" end="00:20:24.400" style="s2">&gt;&gt; we go back up, the fire ISN&#39;T ABOVE US</p>
+<p begin="00:20:24.160" end="00:20:25.919" style="s2">YET.</p>
+<p begin="00:20:24.400" end="00:20:27.200" style="s2">&gt;&gt; The stair hole&#39;s full of smoke. You go</p>
+<p begin="00:20:25.919" end="00:20:29.120" style="s2">up, you don&#39;t come back down.</p>
+<p begin="00:20:27.200" end="00:20:32.080" style="s2">&gt;&gt; We&#39;re going to burn in here.</p>
+<p begin="00:20:29.120" end="00:20:35.080" style="s2">&gt;&gt; Nobody is burning. Stay low. Stay</p>
+<p begin="00:20:32.080" end="00:20:35.080" style="s2">together.</p>
+<p begin="00:20:39.440" end="00:20:42.799" style="s2">&gt;&gt; Those aren&#39;t yours. Nobody&#39;s coming back</p>
+<p begin="00:20:41.360" end="00:20:44.320" style="s2">for them. Keep walking. People are</p>
+<p begin="00:20:42.799" end="00:20:44.960" style="s2">bleeding three blocks from here. Put the</p>
+<p begin="00:20:44.320" end="00:20:46.880" style="s2">bag down.</p>
+<p begin="00:20:44.960" end="00:20:50.360" style="s2">&gt;&gt; Last warning. You don&#39;t want to do this.</p>
+<p begin="00:20:46.880" end="00:20:50.360" style="s2">&gt;&gt; Neither do you.</p>
+<p begin="00:20:56.720" end="00:21:01.360" style="s2">&gt;&gt; You want to die for bandages?</p>
+<p begin="00:20:59.679" end="00:21:05.240" style="s2">&gt;&gt; I&#39;ve walked through worse than you.</p>
+<p begin="00:21:01.360" end="00:21:05.240" style="s2">&gt;&gt; Then bleed for it.</p>
+<p begin="00:21:11.360" end="00:21:20.200" style="s2">Go run, son of a.</p>
+<p begin="00:21:16.480" end="00:21:20.200" style="s2">She&#39;s still in there.</p>
+<p begin="00:21:26.559" end="00:21:29.679" style="s2">&gt;&gt; Delivery entrance, rear of the building.</p>
+<p begin="00:21:28.320" end="00:21:31.039" style="s2">How do you know it&#39;s not blocked, too?</p>
+<p begin="00:21:29.679" end="00:21:31.440" style="s2">Feel that air? Something&#39;s open on the</p>
+<p begin="00:21:31.039" end="00:21:35.240" style="s2">other end.</p>
+<p begin="00:21:31.440" end="00:21:35.240" style="s2">&gt;&gt; That&#39;s enough for me. Let&#39;s go.</p>
+<p begin="00:21:40.640" end="00:21:45.039" style="s2">I see light, Carla. I see light.</p>
+<p begin="00:21:42.960" end="00:21:45.840" style="s2">&gt;&gt; Almost there. Keep moving, EVERYONE.</p>
+<p begin="00:21:45.039" end="00:21:49.720" style="s2">KEEP MOVING.</p>
+<p begin="00:21:45.840" end="00:21:49.720" style="s2">&gt;&gt; WE&#39;RE GOING TO MAKE IT.</p>
+<p begin="00:21:58.000" end="00:22:03.080" style="s2">NO,</p>
+<p begin="00:22:00.080" end="00:22:03.080" style="s2">CARLA.</p>
+<p begin="00:22:12.080" end="00:22:16.559" style="s2">Oh god,</p>
+<p begin="00:22:14.080" end="00:22:20.039" style="s2">the whole street.</p>
+<p begin="00:22:16.559" end="00:22:20.039" style="s2">It&#39;s all gone.</p>
+<p begin="00:22:24.880" end="00:22:34.440" style="s2">There&#39;s no crossing this. Nothing.</p>
+<p begin="00:22:28.799" end="00:22:34.440" style="s2">Go back in. Find another way. injured</p>
+<p begin="00:22:35.679" end="00:22:39.760" style="s2">only. You injured?</p>
+<p begin="00:22:37.280" end="00:22:43.799" style="s2">&gt;&gt; My wife. She was in a building on 43rd.</p>
+<p begin="00:22:39.760" end="00:22:43.799" style="s2">Everyone out here has someone inside.</p>
+<p begin="00:22:44.320" end="00:22:48.200" style="s2">&gt;&gt; Then let me ask inside.</p>
+<p begin="00:22:52.320" end="00:22:56.000" style="s2">&gt;&gt; The 43rd Street collapsed. Did survivors</p>
+<p begin="00:22:54.320" end="00:22:57.760" style="s2">come here? Dozens of buildings. Ask the</p>
+<p begin="00:22:56.000" end="00:23:01.159" style="s2">intake desk. Where&#39;s intake? It&#39;s gone.</p>
+<p begin="00:22:57.760" end="00:23:01.159" style="s2">Find a nurse.</p>
+<p begin="00:23:01.919" end="00:23:05.280" style="s2">Alex, her name is Carla, 43rd Street.</p>
+<p begin="00:23:04.559" end="00:23:06.320" style="s2">Have you seen her?</p>
+<p begin="00:23:05.280" end="00:23:08.080" style="s2">&gt;&gt; I can&#39;t help you right now.</p>
+<p begin="00:23:06.320" end="00:23:09.679" style="s2">&gt;&gt; Please, 2 seconds.</p>
+<p begin="00:23:08.080" end="00:23:14.679" style="s2">&gt;&gt; I haven&#39;t seen her. I&#39;m sorry.</p>
+<p begin="00:23:09.679" end="00:23:14.679" style="s2">&gt;&gt; Where? What am I calling here?</p>
+<p begin="00:23:16.000" end="00:23:20.640" style="s2">&gt;&gt; Carla, 43rd Street collapsed. Please.</p>
+<p begin="00:23:18.480" end="00:23:23.120" style="s2">&gt;&gt; That building. Emergency crews were sent</p>
+<p begin="00:23:20.640" end="00:23:24.880" style="s2">there before the second quake.</p>
+<p begin="00:23:23.120" end="00:23:28.240" style="s2">&gt;&gt; Sent there. You&#39;re sure?</p>
+<p begin="00:23:24.880" end="00:23:31.520" style="s2">&gt;&gt; I&#39;m sure. They got a crew in.</p>
+<p begin="00:23:28.240" end="00:23:31.520" style="s2">&gt;&gt; She might be alive.</p>
+<p begin="00:23:32.080" end="00:23:35.679" style="s2">Where are they staging survivors from</p>
+<p begin="00:23:33.520" end="00:23:38.159" style="s2">that building?</p>
+<p begin="00:23:35.679" end="00:23:40.000" style="s2">&gt;&gt; East corridor basement triage. Follow</p>
+<p begin="00:23:38.159" end="00:23:42.480" style="s2">the blue line.</p>
+<p begin="00:23:40.000" end="00:23:45.960" style="s2">&gt;&gt; Blue line. Thank you.</p>
+<p begin="00:23:42.480" end="00:23:45.960" style="s2">&gt;&gt; Why are the lights</p>
+<p begin="00:23:56.159" end="00:24:00.679" style="s2">generator&#39;s gone? Everyone out.</p>
+<p begin="00:24:03.760" end="00:24:09.120" style="s2">Stay low. The whole basement is on fire.</p>
+<p begin="00:24:07.120" end="00:24:09.679" style="s2">&gt;&gt; The rescue crews. Which way to the east</p>
+<p begin="00:24:09.120" end="00:24:11.840" style="s2">wing?</p>
+<p begin="00:24:09.679" end="00:24:16.039" style="s2">&gt;&gt; Forget east. That stair hole&#39;s gone.</p>
+<p begin="00:24:11.840" end="00:24:16.039" style="s2">&gt;&gt; THERE ARE PEOPLE TRAPPED down there.</p>
+<p begin="00:24:17.520" end="00:24:20.320" style="s2">&gt;&gt; I&#39;ve got you. ARMS AROUND MY NECK. DON&#39;T</p>
+<p begin="00:24:19.679" end="00:24:23.120" style="s2">LET GO.</p>
+<p begin="00:24:20.320" end="00:24:25.039" style="s2">&gt;&gt; I CAN&#39;T SEE. I can&#39;t see anything.</p>
+<p begin="00:24:23.120" end="00:24:25.679" style="s2">&gt;&gt; Keep your eyes closed. I can see for</p>
+<p begin="00:24:25.039" end="00:24:30.440" style="s2">both of us</p>
+<p begin="00:24:25.679" end="00:24:30.440" style="s2">&gt;&gt; in here through the supply room now.</p>
+<p begin="00:24:33.760" end="00:24:36.640" style="s2">her building. 38TH STREET TOWER. WHERE</p>
+<p begin="00:24:35.840" end="00:24:38.080" style="s2">ARE THE SURVIVORS?</p>
+<p begin="00:24:36.640" end="00:24:38.960" style="s2">&gt;&gt; GET OFF ME. I HAVE CRITICAL PATIENTS</p>
+<p begin="00:24:38.080" end="00:24:41.120" style="s2">CODING RIGHT NOW.</p>
+<p begin="00:24:38.960" end="00:24:41.440" style="s2">&gt;&gt; ONE ANSWER. That&#39;s all I need and I&#39;m</p>
+<p begin="00:24:41.120" end="00:24:42.799" style="s2">gone.</p>
+<p begin="00:24:41.440" end="00:24:45.120" style="s2">&gt;&gt; I DON&#39;T KNOW EVERY PATIENT IN THIS</p>
+<p begin="00:24:42.799" end="00:24:48.880" style="s2">HOSPITAL. 38th Street. That whole block</p>
+<p begin="00:24:45.120" end="00:24:50.559" style="s2">panicked in the second quake.</p>
+<p begin="00:24:48.880" end="00:24:52.720" style="s2">Collapsed tower survivors are being</p>
+<p begin="00:24:50.559" end="00:24:56.000" style="s2">tried near Brian Park, three blocks</p>
+<p begin="00:24:52.720" end="00:24:56.400" style="s2">north. I know. Is she Brian Park? You</p>
+<p begin="00:24:56.000" end="00:24:57.840" style="s2">sure?</p>
+<p begin="00:24:56.400" end="00:25:01.080" style="s2">&gt;&gt; Go now. Oh, THE FIRES ARE CUTTING OFF</p>
+<p begin="00:24:57.840" end="00:25:01.080" style="s2">THE AVENUE.</p>
+<p begin="00:25:04.159" end="00:25:07.679" style="s2">&gt;&gt; CARLA, your hands, they&#39;re bleeding</p>
+<p begin="00:25:05.840" end="00:25:09.679" style="s2">again. Good. Means I can still feel</p>
+<p begin="00:25:07.679" end="00:25:11.440" style="s2">them. What&#39;s the plan? Front&#39;s blocked.</p>
+<p begin="00:25:09.679" end="00:25:12.720" style="s2">Back&#39;s a sinkhole. Side corridor past</p>
+<p begin="00:25:11.440" end="00:25:15.960" style="s2">the loading dock. It was boarded down,</p>
+<p begin="00:25:12.720" end="00:25:15.960" style="s2">not collapsed.</p>
+<p begin="00:25:18.960" end="00:25:23.760" style="s2">Come on. Come on. Load bearing wall. You</p>
+<p begin="00:25:22.320" end="00:25:25.760" style="s2">can bring the whole ceiling down. Move</p>
+<p begin="00:25:23.760" end="00:25:28.159" style="s2">him back from the doorway, Carla. Then</p>
+<p begin="00:25:25.760" end="00:25:30.799" style="s2">it comes down. I am not dying in a</p>
+<p begin="00:25:28.159" end="00:25:32.000" style="s2">lobby.</p>
+<p begin="00:25:30.799" end="00:25:33.360" style="s2">&gt;&gt; You&#39;ll bleed out before you break</p>
+<p begin="00:25:32.000" end="00:25:35.200" style="s2">through. We should wait for rescue.</p>
+<p begin="00:25:33.360" end="00:25:35.840" style="s2">Rescue isn&#39;t coming down here, Nora. Not</p>
+<p begin="00:25:35.200" end="00:25:38.799" style="s2">in time.</p>
+<p begin="00:25:35.840" end="00:25:40.480" style="s2">&gt;&gt; You don&#39;t know that. Alex is coming. I</p>
+<p begin="00:25:38.799" end="00:25:42.159" style="s2">need to meet him halfway. How do you</p>
+<p begin="00:25:40.480" end="00:25:45.320" style="s2">know he&#39;s coming? Because I&#39;d be coming</p>
+<p begin="00:25:42.159" end="00:25:45.320" style="s2">for him.</p>
+<p begin="00:25:53.440" end="00:26:00.919" style="s2">Nora,</p>
+<p begin="00:25:56.080" end="00:26:00.919" style="s2">I see it halfway there.</p>
+<p begin="00:26:04.480" end="00:26:07.840" style="s2">&gt;&gt; I can see the sky.</p>
+<p begin="00:26:05.760" end="00:26:08.720" style="s2">&gt;&gt; We&#39;re not out. Those walls are six</p>
+<p begin="00:26:07.840" end="00:26:09.600" style="s2">stories of rubble.</p>
+<p begin="00:26:08.720" end="00:26:13.720" style="s2">&gt;&gt; But we&#39;re outside.</p>
+<p begin="00:26:09.600" end="00:26:13.720" style="s2">&gt;&gt; We&#39;re in a canyon. Keep moving.</p>
+<p begin="00:26:15.760" end="00:26:18.559" style="s2">&gt;&gt; Sir, are you injured? You need to check</p>
+<p begin="00:26:17.039" end="00:26:19.360" style="s2">in. I&#39;m looking for someone. The name</p>
+<p begin="00:26:18.559" end="00:26:20.559" style="s2">boards where?</p>
+<p begin="00:26:19.360" end="00:26:24.679" style="s2">&gt;&gt; Sir, there&#39;s a process.</p>
+<p begin="00:26:20.559" end="00:26:24.679" style="s2">&gt;&gt; Please. The boards.</p>
+<p begin="00:26:29.120" end="00:26:33.840" style="s2">&gt;&gt; Dead end. We go back the way we came.</p>
+<p begin="00:26:32.400" end="00:26:36.080" style="s2">&gt;&gt; There&#39;s a gap near the top. I can see</p>
+<p begin="00:26:33.840" end="00:26:40.600" style="s2">light through it. That&#39;s 5 ft off the</p>
+<p begin="00:26:36.080" end="00:26:40.600" style="s2">ground. Carla, then boost me.</p>
+<p begin="00:26:41.440" end="00:26:45.520" style="s2">&gt;&gt; Dark hair, red jacket. Her name is</p>
+<p begin="00:26:43.039" end="00:26:47.039" style="s2">Carla. Please. I&#39;m sorry. I can&#39;t. I</p>
+<p begin="00:26:45.520" end="00:26:48.960" style="s2">don&#39;t know.</p>
+<p begin="00:26:47.039" end="00:26:50.320" style="s2">Carla,</p>
+<p begin="00:26:48.960" end="00:26:51.760" style="s2">&gt;&gt; if she was brought in, she&#39;d be listed</p>
+<p begin="00:26:50.320" end="00:26:54.760" style="s2">here. She&#39;s not here yet. That&#39;s all it</p>
+<p begin="00:26:51.760" end="00:26:54.760" style="s2">means.</p>
+<p begin="00:26:56.240" end="00:27:00.400" style="s2">&gt;&gt; Another corridor. Same direction.</p>
+<p begin="00:26:58.320" end="00:27:02.559" style="s2">&gt;&gt; Does it open up?</p>
+<p begin="00:27:00.400" end="00:27:08.440" style="s2">&gt;&gt; Not from here.</p>
+<p begin="00:27:02.559" end="00:27:08.440" style="s2">&gt;&gt; Carla, the city has exits. We find one.</p>
+<p begin="00:27:14.559" end="00:27:18.000" style="s2">Sir, she may have been transported to</p>
+<p begin="00:27:16.400" end="00:27:19.039" style="s2">Queens or Jersey. She wouldn&#39;t leave</p>
+<p begin="00:27:18.000" end="00:27:20.480" style="s2">without me.</p>
+<p begin="00:27:19.039" end="00:27:23.720" style="s2">&gt;&gt; Sir, people in shock don&#39;t always</p>
+<p begin="00:27:20.480" end="00:27:23.720" style="s2">&gt;&gt; She&#39;d wait.</p>
+<p begin="00:27:28.400" end="00:27:35.039" style="s2">Please. Dark hair. Her name is Carla.</p>
+<p begin="00:27:33.120" end="00:27:37.840" style="s2">&gt;&gt; I&#39;m sorry.</p>
+<p begin="00:27:35.039" end="00:27:39.919" style="s2">&gt;&gt; Where are you?</p>
+<p begin="00:27:37.840" end="00:27:40.720" style="s2">&gt;&gt; Is that your person?</p>
+<p begin="00:27:39.919" end="00:27:42.640" style="s2">I saw her.</p>
+<p begin="00:27:40.720" end="00:27:45.200" style="s2">&gt;&gt; What? Where? When?</p>
+<p begin="00:27:42.640" end="00:27:45.679" style="s2">&gt;&gt; Maybe 2 hours ago. She was alive,</p>
+<p begin="00:27:45.200" end="00:27:46.480" style="s2">moving.</p>
+<p begin="00:27:45.679" end="00:27:48.000" style="s2">&gt;&gt; Where was she going?</p>
+<p begin="00:27:46.480" end="00:27:51.640" style="s2">&gt;&gt; She said Grand Central. She was trying</p>
+<p begin="00:27:48.000" end="00:27:51.640" style="s2">to reach Grand Central.</p>
+<p begin="00:27:52.880" end="00:27:57.840" style="s2">&gt;&gt; You saw her when? Where?</p>
+<p begin="00:27:56.159" end="00:28:00.080" style="s2">&gt;&gt; Near the collapsed tower. She was</p>
+<p begin="00:27:57.840" end="00:28:01.840" style="s2">helping injured people. She She had a</p>
+<p begin="00:28:00.080" end="00:28:03.440" style="s2">small group heading to Grand Central.</p>
+<p begin="00:28:01.840" end="00:28:08.600" style="s2">&gt;&gt; Was she hurt? Did she look okay?</p>
+<p begin="00:28:03.440" end="00:28:08.600" style="s2">&gt;&gt; She was moving. She was leading them.</p>
+<p begin="00:28:10.480" end="00:28:12.720" style="s2">Ralph&#39;s blocked east to here. Rubble</p>
+<p begin="00:28:11.919" end="00:28:14.480" style="s2">fall. Turn back.</p>
+<p begin="00:28:12.720" end="00:28:19.320" style="s2">&gt;&gt; My wife is heading to Grand Canal.</p>
+<p begin="00:28:14.480" end="00:28:19.320" style="s2">You&#39;ll never make it on foot. Watch me.</p>
+<p begin="00:28:25.360" end="00:28:28.320" style="s2">&gt;&gt; That whole slab. One aftershock and it</p>
+<p begin="00:28:27.919" end="00:28:30.960" style="s2">comes down.</p>
+<p begin="00:28:28.320" end="00:28:32.640" style="s2">&gt;&gt; It&#39;s held for hours. We keep moving. How</p>
+<p begin="00:28:30.960" end="00:28:34.880" style="s2">far to Grand Central from here? 12</p>
+<p begin="00:28:32.640" end="00:28:37.880" style="s2">blocks. Maybe 15. Don&#39;t count. Just</p>
+<p begin="00:28:34.880" end="00:28:37.880" style="s2">move.</p>
+<p begin="00:28:42.399" end="00:28:47.600" style="s2">Tremor, we need to stop right now.</p>
+<p begin="00:28:44.799" end="00:28:50.919" style="s2">&gt;&gt; Small, it passed. Keep going.</p>
+<p begin="00:28:47.600" end="00:28:50.919" style="s2">&gt;&gt; Keep going.</p>
+<p begin="00:28:54.559" end="00:28:57.600" style="s2">&gt;&gt; She&#39;s slowing us down. We leave her.</p>
+<p begin="00:28:56.640" end="00:28:59.679" style="s2">&gt;&gt; No.</p>
+<p begin="00:28:57.600" end="00:29:02.640" style="s2">&gt;&gt; She&#39;ll get us all killed. Look at her.</p>
+<p begin="00:28:59.679" end="00:29:07.279" style="s2">&gt;&gt; Then go. I&#39;m not leaving her.</p>
+<p begin="00:29:02.640" end="00:29:07.279" style="s2">&gt;&gt; I can walk. I&#39;m walking.</p>
+<p begin="00:29:09.360" end="00:29:13.720" style="s2">Move. Go now.</p>
+<p begin="00:29:14.880" end="00:29:20.840" style="s2">&gt;&gt; I can&#39;t. The ground it&#39;s moving.</p>
+<p begin="00:29:16.640" end="00:29:20.840" style="s2">&gt;&gt; Eyes on me. Don&#39;t look down.</p>
+<p begin="00:29:24.720" end="00:29:27.720" style="s2">Carla,</p>
+<p begin="00:29:29.440" end="00:29:37.720" style="s2">&gt;&gt; grab my hand. Reach.</p>
+<p begin="00:29:33.120" end="00:29:37.720" style="s2">It&#39;s breaking the whole edge.</p>
+<p begin="00:29:42.399" end="00:29:47.840" style="s2">&gt;&gt; Don&#39;t let go. Please don&#39;t let go.</p>
+<p begin="00:29:46.320" end="00:29:51.840" style="s2">&gt;&gt; I&#39;m not letting go.</p>
+<p begin="00:29:47.840" end="00:29:57.159" style="s2">&gt;&gt; The whole thing is going to fall.</p>
+<p begin="00:29:51.840" end="00:29:57.159" style="s2">&gt;&gt; Don&#39;t let go. Don&#39;t you dare let go.</p>
+<p begin="00:29:58.399" end="00:30:04.919" style="s2">I can&#39;t can&#39;t get my foot on anything.</p>
+<p begin="00:30:01.360" end="00:30:04.919" style="s2">Look at me.</p>
+<p begin="00:30:05.600" end="00:30:12.840" style="s2">We&#39;ve got her. Pull. Pull now.</p>
+<p begin="00:30:09.840" end="00:30:12.840" style="s2">Karma.</p>
+<p begin="00:30:17.919" end="00:30:23.000" style="s2">&gt;&gt; I&#39;m fine. Get her away from the edge.</p>
+<p begin="00:30:23.840" end="00:30:26.559" style="s2">&gt;&gt; You should have let me go. Look at your</p>
+<p begin="00:30:25.919" end="00:30:29.559" style="s2">arm.</p>
+<p begin="00:30:26.559" end="00:30:29.559" style="s2">&gt;&gt; Don&#39;t.</p>
+<p begin="00:30:29.679" end="00:30:35.399" style="s2">Grand Canrol, we&#39;re still moving. You</p>
+<p begin="00:30:32.159" end="00:30:35.399" style="s2">with me?</p>
+<p begin="00:30:43.600" end="00:30:49.880" style="s2">Should have hit 42nd 10 minutes ago.</p>
+<p begin="00:30:45.679" end="00:30:49.880" style="s2">There. Left. Go left.</p>
+<p begin="00:30:58.480" end="00:31:03.760" style="s2">Down. Everybody get down.</p>
+<p begin="00:31:02.080" end="00:31:07.799" style="s2">Carla,</p>
+<p begin="00:31:03.760" end="00:31:07.799" style="s2">which street are you on?</p>
+<p begin="00:31:12.960" end="00:31:17.840" style="s2">Grand Central is right behind that</p>
+<p begin="00:31:15.039" end="00:31:21.080" style="s2">smoke.</p>
+<p begin="00:31:17.840" end="00:31:21.080" style="s2">Keep going.</p>
+<p begin="00:31:23.520" end="00:31:27.279" style="s2">&gt;&gt; That smoke is Grand Central direction.</p>
+<p begin="00:31:25.200" end="00:31:29.200" style="s2">We cannot go through that.</p>
+<p begin="00:31:27.279" end="00:31:30.000" style="s2">&gt;&gt; We go around it. Stay tight. Stay</p>
+<p begin="00:31:29.200" end="00:31:34.200" style="s2">moving.</p>
+<p begin="00:31:30.000" end="00:31:34.200" style="s2">&gt;&gt; You know where he&#39;d go, don&#39;t you?</p>
+<p begin="00:31:40.080" end="00:31:47.799" style="s2">No, no, no, no.</p>
+<p begin="00:31:42.559" end="00:31:47.799" style="s2">She&#39;s coming here. She&#39;s coming here.</p>
+<p begin="00:31:52.399" end="00:31:57.120" style="s2">&gt;&gt; Sir, capacity is maxed. No entry. My</p>
+<p begin="00:31:54.720" end="00:31:59.760" style="s2">wife is in here. I&#39;m going in,</p>
+<p begin="00:31:57.120" end="00:31:59.760" style="s2">&gt;&gt; sir.</p>
+<p begin="00:32:04.559" end="00:32:09.440" style="s2">Have you seen this woman?</p>
+<p begin="00:32:07.200" end="00:32:11.120" style="s2">&gt;&gt; All trains cancelled. Tunnels are</p>
+<p begin="00:32:09.440" end="00:32:14.000" style="s2">flooded. Nobody moves.</p>
+<p begin="00:32:11.120" end="00:32:17.840" style="s2">&gt;&gt; Please. Dark hair about this tall.</p>
+<p begin="00:32:14.000" end="00:32:22.679" style="s2">&gt;&gt; I haven&#39;t seen anyone. I&#39;m sorry.</p>
+<p begin="00:32:17.840" end="00:32:22.679" style="s2">&gt;&gt; She&#39;s here. She has to be here.</p>
+<p begin="00:32:24.000" end="00:32:30.640" style="s2">&gt;&gt; Carla, I can&#39;t breathe. I can&#39;t.</p>
+<p begin="00:32:27.760" end="00:32:33.120" style="s2">I&#39;ve got you. Don&#39;t let go of me. We&#39;ll</p>
+<p begin="00:32:30.640" end="00:32:38.200" style="s2">never get through this.</p>
+<p begin="00:32:33.120" end="00:32:38.200" style="s2">&gt;&gt; Not here. There&#39;s another way. Hold on.</p>
+<p begin="00:32:44.399" end="00:32:52.039" style="s2">What do you see?</p>
+<p begin="00:32:47.120" end="00:32:52.039" style="s2">Is it him, Carla? Is it him?</p>
+<p begin="00:32:56.799" end="00:32:59.760" style="s2">Who are you looking for?</p>
+<p begin="00:32:58.080" end="00:33:00.240" style="s2">&gt;&gt; Carla Reyes. Dark hair. Works in</p>
+<p begin="00:32:59.760" end="00:33:02.559" style="s2">Midtown.</p>
+<p begin="00:33:00.240" end="00:33:03.840" style="s2">&gt;&gt; 20 minutes ago. Calling for someone.</p>
+<p begin="00:33:02.559" end="00:33:08.279" style="s2">&gt;&gt; Which door? Where?</p>
+<p begin="00:33:03.840" end="00:33:08.279" style="s2">&gt;&gt; East side. Back of the hall.</p>
+<p begin="00:33:09.200" end="00:33:13.279" style="s2">&gt;&gt; East door. Move.</p>
+<p begin="00:33:10.799" end="00:33:16.000" style="s2">&gt;&gt; Carla, you can&#39;t know it was him. I know</p>
+<p begin="00:33:13.279" end="00:33:18.640" style="s2">how he walks. East door.</p>
+<p begin="00:33:16.000" end="00:33:23.320" style="s2">&gt;&gt; Ma&#39;am, full capacity. You cannot.</p>
+<p begin="00:33:18.640" end="00:33:23.320" style="s2">&gt;&gt; My husband is inside that building.</p>
+<p begin="00:33:28.640" end="00:33:30.399" style="s2">Carla.</p>
+<p begin="00:33:29.519" end="00:33:32.000" style="s2">&gt;&gt; Alex,</p>
+<p begin="00:33:30.399" end="00:33:36.360" style="s2">&gt;&gt; I&#39;M OPENING IT. STAND BACK.</p>
+<p begin="00:33:32.000" end="00:33:36.360" style="s2">&gt;&gt; I&#39;M HERE. I&#39;m right here.</p>
+<p begin="00:33:57.760" end="00:34:02.880" style="s2">ON YOUR FEET. WEST SIDE NOW. THE EAST</p>
+<p begin="00:34:00.559" end="00:34:07.559" style="s2">DOOR. Someone&#39;s on THE OTHER SIDE. THAT</p>
+<p begin="00:34:02.880" end="00:34:07.559" style="s2">WALL IS GONE. MOVE OR DIE HERE.</p>
+<p begin="00:34:10.240" end="00:34:14.720" style="s2">&gt;&gt; GRAB MY HAND. PULL YOURSELF OUT.</p>
+<p begin="00:34:12.079" end="00:34:17.839" style="s2">&gt;&gt; MY LEG. I CAN&#39;T FEEL IT. YOU can right</p>
+<p begin="00:34:14.720" end="00:34:20.079" style="s2">now. Pull.</p>
+<p begin="00:34:17.839" end="00:34:23.079" style="s2">&gt;&gt; She&#39;s right outside. She has to be right</p>
+<p begin="00:34:20.079" end="00:34:23.079" style="s2">outside.</p>
+<p begin="00:34:28.480" end="00:34:32.879" style="s2">&gt;&gt; The building&#39;s coming apart. WE GO BACK.</p>
+<p begin="00:34:30.720" end="00:34:35.280" style="s2">&gt;&gt; HE&#39;S INSIDE. I SAW HIM THROUGH THE DOOR.</p>
+<p begin="00:34:32.879" end="00:34:38.839" style="s2">&gt;&gt; YOU&#39;LL DIE BEFORE YOU REACH HIM.</p>
+<p begin="00:34:35.280" end="00:34:38.839" style="s2">&gt;&gt; Then let go.</p>
+<p begin="00:34:40.240" end="00:34:45.520" style="s2">&gt;&gt; Carla.</p>
+<p begin="00:34:42.000" end="00:34:48.520" style="s2">Carla, stay with me.</p>
+<p begin="00:34:45.520" end="00:34:48.520" style="s2">&gt;&gt; Carla.</p>
+<p begin="00:34:49.359" end="00:34:52.359" style="s2">Carla.</p>
+<p begin="00:34:55.119" end="00:34:57.760" style="s2">&gt;&gt; Her name&#39;s Carla. Please, she won&#39;t wake</p>
+<p begin="00:34:57.520" end="00:35:00.400" style="s2">up.</p>
+<p begin="00:34:57.760" end="00:35:02.480" style="s2">&gt;&gt; Let me see her. Keep talking to her.</p>
+<p begin="00:35:00.400" end="00:35:04.560" style="s2">Carla, baby, someone&#39;s here. Open your</p>
+<p begin="00:35:02.480" end="00:35:08.760" style="s2">eyes for Daddy. She&#39;s breathing. Keep</p>
+<p begin="00:35:04.560" end="00:35:08.760" style="s2">her head still. Don&#39;t move her neck.</p>
+<p begin="00:35:15.040" end="00:35:19.280" style="s2">Alex, is that Oh my god, that&#39;s him.</p>
+<p begin="00:35:17.440" end="00:35:23.640" style="s2">He&#39;s right there. HE&#39;S RIGHT THERE.</p>
+<p begin="00:35:19.280" end="00:35:23.640" style="s2">&gt;&gt; WAIT, THE FRAME IS STILL FALLING.</p>
+<p begin="00:35:31.119" end="00:35:35.119" style="s2">&gt;&gt; ALEX, TURN AROUND. I&#39;M HERE.</p>
+<p begin="00:35:33.839" end="00:35:37.520" style="s2">&gt;&gt; CARLA, your hand.</p>
+<p begin="00:35:35.119" end="00:35:40.160" style="s2">&gt;&gt; Alex,</p>
+<p begin="00:35:37.520" end="00:35:40.160" style="s2">&gt;&gt; wait.</p>
+<p begin="00:35:58.000" end="00:36:03.680" style="s2">Alex.</p>
+<p begin="00:35:59.920" end="00:36:08.760" style="s2">No. No. No. No.</p>
+<p begin="00:36:03.680" end="00:36:08.760" style="s2">He was right there. HE WAS RIGHT THERE.</p>
+<p begin="00:36:11.839" end="00:36:15.280" style="s2">Someone&#39;s out there. I HEARD THAT&#39;S A</p>
+<p begin="00:36:13.599" end="00:36:16.720" style="s2">GAS FIRE. Nobody&#39;s walking through it.</p>
+<p begin="00:36:15.280" end="00:36:18.160" style="s2">&gt;&gt; YOU DON&#39;T UNDERSTAND. MY WIFE WAS</p>
+<p begin="00:36:16.720" end="00:36:19.920" style="s2">OUTSIDE THAT DOOR. THEN SHE&#39;S ON THE</p>
+<p begin="00:36:18.160" end="00:36:24.040" style="s2">OTHER side of the fire. You go in, you</p>
+<p begin="00:36:19.920" end="00:36:24.040" style="s2">burn. She burns waiting.</p>
+<p begin="00:36:24.079" end="00:36:26.000" style="s2">&gt;&gt; My husband is inside. YOU CAN&#39;T STEAL</p>
+<p begin="00:36:25.680" end="00:36:27.520" style="s2">IT.</p>
+<p begin="00:36:26.000" end="00:36:28.240" style="s2">&gt;&gt; MA&#39;AM, THAT STRUCTURE IS COLLAPSING. NO</p>
+<p begin="00:36:27.520" end="00:36:30.240" style="s2">ONE GOES IN.</p>
+<p begin="00:36:28.240" end="00:36:33.359" style="s2">&gt;&gt; I SAW HIM 30 SECONDS AGO. HE WAS ALIVE.</p>
+<p begin="00:36:30.240" end="00:36:35.359" style="s2">&gt;&gt; CARLA. CARLA, he&#39;s alive. That means</p>
+<p begin="00:36:33.359" end="00:36:38.320" style="s2">he&#39;ll get out another way. You don&#39;t</p>
+<p begin="00:36:35.359" end="00:36:38.320" style="s2">know that.</p>
+<p begin="00:36:43.599" end="00:36:49.200" style="s2">No, that&#39;s Carlos. This is Carla&#39;s</p>
+<p begin="00:36:46.240" end="00:36:54.119" style="s2">scarf. She was here. They cleared the</p>
+<p begin="00:36:49.200" end="00:36:54.119" style="s2">east side and nobody got back in.</p>
+<p begin="00:36:56.000" end="00:37:01.119" style="s2">She came for me 20 ft. I was 20 ft away</p>
+<p begin="00:36:59.520" end="00:37:04.480" style="s2">from her.</p>
+<p begin="00:37:01.119" end="00:37:07.760" style="s2">&gt;&gt; On your feet. This hall&#39;s coming down.</p>
+<p begin="00:37:04.480" end="00:37:07.760" style="s2">&gt;&gt; I&#39;m not losing her again.</p>
+<p begin="00:37:08.880" end="00:37:12.640" style="s2">The people outside the east entrance,</p>
+<p begin="00:37:10.640" end="00:37:14.320" style="s2">which way were they taken? Soldiers</p>
+<p begin="00:37:12.640" end="00:37:16.000" style="s2">pushed everywhere the river. The east</p>
+<p begin="00:37:14.320" end="00:37:18.400" style="s2">river. Is there any evac route?</p>
+<p begin="00:37:16.000" end="00:37:18.960" style="s2">&gt;&gt; CIVILIAN WEST EXIT NOW. THIS HALL IS</p>
+<p begin="00:37:18.400" end="00:37:23.079" style="s2">COMING DOWN.</p>
+<p begin="00:37:18.960" end="00:37:23.079" style="s2">&gt;&gt; EAST. She went east.</p>
+<p begin="00:37:25.599" end="00:37:28.800" style="s2">&gt;&gt; Don&#39;t look back. Keep moving.</p>
+<p begin="00:37:27.680" end="00:37:30.560" style="s2">&gt;&gt; What if he&#39;s still in there?</p>
+<p begin="00:37:28.800" end="00:37:32.800" style="s2">&gt;&gt; Then he&#39;s doing what you do, fighting</p>
+<p begin="00:37:30.560" end="00:37:34.960" style="s2">his way out.</p>
+<p begin="00:37:32.800" end="00:37:37.359" style="s2">He&#39;ll find me.</p>
+<p begin="00:37:34.960" end="00:37:40.240" style="s2">Then move toward him. Breeze. I breeze.</p>
+<p begin="00:37:37.359" end="00:37:42.640" style="s2">They see cover there.</p>
+<p begin="00:37:40.240" end="00:37:43.200" style="s2">&gt;&gt; Radio and hands. Evacuation routes are</p>
+<p begin="00:37:42.640" end="00:37:44.800" style="s2">compromised.</p>
+<p begin="00:37:43.200" end="00:37:45.440" style="s2">&gt;&gt; If the bridges go, no one gets off this</p>
+<p begin="00:37:44.800" end="00:37:47.920" style="s2">island.</p>
+<p begin="00:37:45.440" end="00:37:48.720" style="s2">&gt;&gt; Shelter in place. Repeat. Shelter in</p>
+<p begin="00:37:47.920" end="00:37:51.520" style="s2">place.</p>
+<p begin="00:37:48.720" end="00:37:54.240" style="s2">&gt;&gt; The river. She&#39;s heading for the river.</p>
+<p begin="00:37:51.520" end="00:37:55.839" style="s2">&gt;&gt; Manhattan bridges are unstable. Evacuate</p>
+<p begin="00:37:54.240" end="00:37:58.480" style="s2">immediately.</p>
+<p begin="00:37:55.839" end="00:37:59.760" style="s2">&gt;&gt; Carla, the bridges could go any minute.</p>
+<p begin="00:37:58.480" end="00:38:01.680" style="s2">We have to keep moving.</p>
+<p begin="00:37:59.760" end="00:38:04.720" style="s2">&gt;&gt; He&#39;s behind us somewhere. I know it.</p>
+<p begin="00:38:01.680" end="00:38:08.839" style="s2">Then he&#39;ll catch up. He always does.</p>
+<p begin="00:38:04.720" end="00:38:08.839" style="s2">&gt;&gt; What if he&#39;s still in that station?</p>
+<p begin="00:38:11.280" end="00:38:14.880" style="s2">&gt;&gt; Civilian side roof. This block is</p>
+<p begin="00:38:13.200" end="00:38:16.800" style="s2">compromised. My wife is ahead of me in</p>
+<p begin="00:38:14.880" end="00:38:20.240" style="s2">that crowd. I&#39;m not taking a detour.</p>
+<p begin="00:38:16.800" end="00:38:24.119" style="s2">THERE&#39;S FIRE ON BOTH SIDES OF THIS.</p>
+<p begin="00:38:20.240" end="00:38:24.119" style="s2">&gt;&gt; I&#39;ve been through worse today.</p>
+<p begin="00:38:25.760" end="00:38:29.760" style="s2">&gt;&gt; Thank you. Thank you, M.</p>
+<p begin="00:38:27.920" end="00:38:31.280" style="s2">&gt;&gt; Stay close to the middle, away from the</p>
+<p begin="00:38:29.760" end="00:38:35.800" style="s2">buildings. You can&#39;t save everyone and</p>
+<p begin="00:38:31.280" end="00:38:35.800" style="s2">look for him at the same time. Watch me.</p>
+<p begin="00:38:43.359" end="00:38:46.640" style="s2">&gt;&gt; Come on. Come on. Where are you?</p>
+<p begin="00:38:45.119" end="00:38:49.680" style="s2">&gt;&gt; Hey, get down from there. That thing&#39;s</p>
+<p begin="00:38:46.640" end="00:38:54.440" style="s2">not stable. Carly,</p>
+<p begin="00:38:49.680" end="00:38:54.440" style="s2">&gt;&gt; I know you&#39;re out there. I know it.</p>
+<p begin="00:38:57.680" end="00:39:02.240" style="s2">&gt;&gt; Carly.</p>
+<p begin="00:38:59.440" end="00:39:04.400" style="s2">No. No. I saw her. I saw her.</p>
+<p begin="00:39:02.240" end="00:39:09.079" style="s2">&gt;&gt; Carla, did you hear that behind us? I</p>
+<p begin="00:39:04.400" end="00:39:09.079" style="s2">thought I No, it&#39;s the wind.</p>
+<p begin="00:39:14.079" end="00:39:17.680" style="s2">&gt;&gt; Not now. Not now.</p>
+<p begin="00:39:15.599" end="00:39:18.560" style="s2">&gt;&gt; Everyone down. Away from buildings.</p>
+<p begin="00:39:17.680" end="00:39:23.160" style="s2">Aftershock.</p>
+<p begin="00:39:18.560" end="00:39:23.160" style="s2">&gt;&gt; She&#39;s three blocks ahead. Three blocks.</p>
+<p begin="00:39:30.160" end="00:39:35.280" style="s2">Nora, hold on to me.</p>
+<p begin="00:39:32.000" end="00:39:38.280" style="s2">&gt;&gt; The ground. The ground is opening.</p>
+<p begin="00:39:35.280" end="00:39:38.280" style="s2">&gt;&gt; Carla,</p>
+<p begin="00:39:43.680" end="00:39:45.440" style="s2">&gt;&gt; no.</p>
+<p begin="00:39:44.160" end="00:39:46.960" style="s2">&gt;&gt; The road. The whole road is gone.</p>
+<p begin="00:39:45.440" end="00:39:47.280" style="s2">&gt;&gt; Carla, we have to go now. It&#39;s still</p>
+<p begin="00:39:46.960" end="00:39:48.720" style="s2">spreading.</p>
+<p begin="00:39:47.280" end="00:39:49.280" style="s2">&gt;&gt; He could be on the other side. He could</p>
+<p begin="00:39:48.720" end="00:39:50.880" style="s2">be right there.</p>
+<p begin="00:39:49.280" end="00:39:54.359" style="s2">&gt;&gt; I&#39;LL FIND A WAY ACROSS. I SWEAR TO GOD,</p>
+<p begin="00:39:50.880" end="00:39:54.359" style="s2">I&#39;LL FIND A WAY.</p>
+<p begin="00:39:58.960" end="00:40:03.680" style="s2">CARA, GET BACK. THE EDGE is going. She&#39;s</p>
+<p begin="00:40:02.000" end="00:40:07.160" style="s2">over there. She&#39;s right there. And I</p>
+<p begin="00:40:03.680" end="00:40:07.160" style="s2">can&#39;t see her.</p>
+<p begin="00:40:12.800" end="00:40:16.160" style="s2">&gt;&gt; I can&#39;t see anyone. The smoke is too</p>
+<p begin="00:40:14.560" end="00:40:17.920" style="s2">thick. Carla, the building behind us is</p>
+<p begin="00:40:16.160" end="00:40:20.160" style="s2">coming down. We can&#39;t stay here. He&#39;s</p>
+<p begin="00:40:17.920" end="00:40:21.599" style="s2">over there. I know he is. Then he&#39;ll</p>
+<p begin="00:40:20.160" end="00:40:24.480" style="s2">find another way around. But we die if</p>
+<p begin="00:40:21.599" end="00:40:24.480" style="s2">we stay.</p>
+<p begin="00:40:28.079" end="00:40:34.640" style="s2">That won&#39;t hold you. That&#39;s 40 ft down.</p>
+<p begin="00:40:30.720" end="00:40:36.160" style="s2">&gt;&gt; 40 ft or 100? She&#39;s on the other side.</p>
+<p begin="00:40:34.640" end="00:40:39.480" style="s2">If it breaks, at least I was going</p>
+<p begin="00:40:36.160" end="00:40:39.480" style="s2">toward her.</p>
+<p begin="00:40:44.640" end="00:40:48.079" style="s2">&gt;&gt; Someone&#39;s trying to cross. Carla, we</p>
+<p begin="00:40:46.480" end="00:40:49.119" style="s2">have to go now.</p>
+<p begin="00:40:48.079" end="00:40:50.720" style="s2">&gt;&gt; What if that&#39;s him?</p>
+<p begin="00:40:49.119" end="00:40:54.760" style="s2">&gt;&gt; That he&#39;s insane and HE&#39;LL MAKE IT.</p>
+<p begin="00:40:50.720" end="00:40:54.760" style="s2">CARLA, THE BUILDING.</p>
+<p begin="00:40:57.680" end="00:41:02.319" style="s2">&gt;&gt; Don&#39;t look down. Don&#39;t stop. Move.</p>
+<p begin="00:41:00.319" end="00:41:03.200" style="s2">&gt;&gt; Come back. It&#39;s bending. The anchor&#39;s</p>
+<p begin="00:41:02.319" end="00:41:06.839" style="s2">slipping.</p>
+<p begin="00:41:03.200" end="00:41:06.839" style="s2">&gt;&gt; I&#39;m not going back.</p>
+<p begin="00:41:13.040" end="00:41:17.200" style="s2">&gt;&gt; I can&#39;t see them anymore.</p>
+<p begin="00:41:14.960" end="00:41:18.960" style="s2">&gt;&gt; We stay and we burn. Carla, please. If</p>
+<p begin="00:41:17.200" end="00:41:20.720" style="s2">that was him, if that was Alex,</p>
+<p begin="00:41:18.960" end="00:41:24.680" style="s2">&gt;&gt; he&#39;s fighting to reach you and you need</p>
+<p begin="00:41:20.720" end="00:41:24.680" style="s2">to be alive when he does.</p>
+<p begin="00:41:31.280" end="00:41:39.319" style="s2">&gt;&gt; No, no, no, no. Carla, I swear I&#39;m not</p>
+<p begin="00:41:36.319" end="00:41:39.319" style="s2">stopping.</p>
+<p begin="00:41:48.480" end="00:41:54.440" style="s2">Carla,</p>
+<p begin="00:41:50.880" end="00:41:54.440" style="s2">I&#39;m still here.</p>
+<p begin="00:41:59.359" end="00:42:08.359" style="s2">Still alive. Get up right now. Every</p>
+<p begin="00:42:03.119" end="00:42:08.359" style="s2">exit buried. Every single one.</p>
+<p begin="00:42:08.960" end="00:42:13.560" style="s2">&gt;&gt; Come on. Come on.</p>
+<p begin="00:42:15.040" end="00:42:20.880" style="s2">Okay, that&#39;s something.</p>
+<p begin="00:42:18.960" end="00:42:23.880" style="s2">Carla&#39;s at the river. You get to the</p>
+<p begin="00:42:20.880" end="00:42:23.880" style="s2">river.</p>
+<p begin="00:42:27.839" end="00:42:33.680" style="s2">&gt;&gt; Air&#39;s moving. It goes somewhere.</p>
+<p begin="00:42:30.480" end="00:42:37.240" style="s2">East has to be east.</p>
+<p begin="00:42:33.680" end="00:42:37.240" style="s2">I&#39;m coming, Carly.</p>
+<p begin="00:42:39.839" end="00:42:44.319" style="s2">That dock can&#39;t hold 50 people.</p>
+<p begin="00:42:42.640" end="00:42:48.520" style="s2">&gt;&gt; Alex could have made it here.</p>
+<p begin="00:42:44.319" end="00:42:48.520" style="s2">&gt;&gt; Carla, look at it.</p>
+<p begin="00:42:49.119" end="00:42:53.880" style="s2">&gt;&gt; Then we stay back. We don&#39;t leave.</p>
+<p begin="00:42:54.079" end="00:42:59.400" style="s2">&gt;&gt; The boat. Get on the boat. Move.</p>
+<p begin="00:43:01.680" end="00:43:04.480" style="s2">&gt;&gt; Now, while there&#39;s still space.</p>
+<p begin="00:43:03.839" end="00:43:06.560" style="s2">&gt;&gt; Not yet,</p>
+<p begin="00:43:04.480" end="00:43:11.839" style="s2">&gt;&gt; Carla. There won&#39;t be another boat.</p>
+<p begin="00:43:06.560" end="00:43:13.599" style="s2">&gt;&gt; Move. I have kids on kids on that bike.</p>
+<p begin="00:43:11.839" end="00:43:14.640" style="s2">&gt;&gt; He is not here yet.</p>
+<p begin="00:43:13.599" end="00:43:18.839" style="s2">&gt;&gt; Who?</p>
+<p begin="00:43:14.640" end="00:43:18.839" style="s2">&gt;&gt; Carla, who are you waiting for?</p>
+<p begin="00:43:20.240" end="00:43:23.480" style="s2">My husband.</p>
+<p begin="00:43:24.720" end="00:43:27.760" style="s2">&gt;&gt; How long since you heard from him?</p>
+<p begin="00:43:26.400" end="00:43:32.440" style="s2">&gt;&gt; Doesn&#39;t matter.</p>
+<p begin="00:43:27.760" end="00:43:32.440" style="s2">&gt;&gt; If he is alive, he&#39;s still coming.</p>
+<p begin="00:43:35.520" end="00:43:39.440" style="s2">He&#39;s alive.</p>
+<p begin="00:43:37.839" end="00:43:42.760" style="s2">There&#39;s another boat. There&#39;s another</p>
+<p begin="00:43:39.440" end="00:43:42.760" style="s2">boat coming.</p>
+<p begin="00:43:43.200" end="00:43:49.800" style="s2">Carlo, Carlo, the dock is going back.</p>
+<p begin="00:43:46.560" end="00:43:49.800" style="s2">Get back.</p>
+<p begin="00:43:54.079" end="00:44:01.440" style="s2">Grab my hand now.</p>
+<p begin="00:43:58.000" end="00:44:05.560" style="s2">I can&#39;t. I&#39;m slipping.</p>
+<p begin="00:44:01.440" end="00:44:05.560" style="s2">The whole dock is going.</p>
+<p begin="00:44:10.000" end="00:44:16.240" style="s2">I&#39;ve got you. Breathe. The boat. It&#39;s</p>
+<p begin="00:44:13.760" end="00:44:17.760" style="s2">leaving.</p>
+<p begin="00:44:16.240" end="00:44:19.440" style="s2">&gt;&gt; Wait.</p>
+<p begin="00:44:17.760" end="00:44:23.960" style="s2">We have survivors.</p>
+<p begin="00:44:19.440" end="00:44:23.960" style="s2">&gt;&gt; Doc&#39;s compromised. Can&#39;t hold position.</p>
+<p begin="00:44:25.599" end="00:44:28.000" style="s2">&gt;&gt; There&#39;s another pickup point. We have to</p>
+<p begin="00:44:27.440" end="00:44:31.520" style="s2">move.</p>
+<p begin="00:44:28.000" end="00:44:35.040" style="s2">&gt;&gt; Alex was underground right below us.</p>
+<p begin="00:44:31.520" end="00:44:38.920" style="s2">Carla, just give me a second.</p>
+<p begin="00:44:35.040" end="00:44:38.920" style="s2">He&#39;d want you to survive.</p>
+<p begin="00:44:44.160" end="00:44:50.599" style="s2">&gt;&gt; Keep moving. Just keep moving,</p>
+<p begin="00:44:47.599" end="00:44:50.599" style="s2">Carla.</p>
+<p begin="00:44:59.920" end="00:45:05.000" style="s2">Come on,</p>
+<p begin="00:45:02.000" end="00:45:05.000" style="s2">Carla.</p>
+<p begin="00:45:12.000" end="00:45:15.280" style="s2">Carla, we&#39;ve got maybe 2 minutes.</p>
+<p begin="00:45:13.920" end="00:45:17.680" style="s2">&gt;&gt; 1 second.</p>
+<p begin="00:45:15.280" end="00:45:22.520" style="s2">&gt;&gt; What are you doing?</p>
+<p begin="00:45:17.680" end="00:45:22.520" style="s2">&gt;&gt; Leaving a trail. Alex.</p>
+<p begin="00:45:29.760" end="00:45:34.000" style="s2">Carla.</p>
+<p begin="00:45:32.160" end="00:45:39.160" style="s2">CARLA. IS ANYONE HERE?</p>
+<p begin="00:45:34.000" end="00:45:39.160" style="s2">&gt;&gt; EVACUATION road north. Keep moving.</p>
+<p begin="00:45:47.680" end="00:45:54.200" style="s2">&gt;&gt; Carla,</p>
+<p begin="00:45:49.200" end="00:45:54.200" style="s2">East River, I am alive.</p>
+<p begin="00:45:58.720" end="00:46:05.240" style="s2">She&#39;s alive.</p>
+<p begin="00:46:00.800" end="00:46:05.240" style="s2">Hold on, Carla. I&#39;m coming.</p>
+<p begin="00:46:12.640" end="00:46:16.160" style="s2">&gt;&gt; We can&#39;t push through that. There&#39;s</p>
+<p begin="00:46:14.160" end="00:46:17.119" style="s2">glass everywhere.</p>
+<p begin="00:46:16.160" end="00:46:17.599" style="s2">&gt;&gt; There&#39;s no other way.</p>
+<p begin="00:46:17.119" end="00:46:21.480" style="s2">&gt;&gt; Carla,</p>
+<p begin="00:46:17.599" end="00:46:21.480" style="s2">&gt;&gt; stay close. Watch your feet.</p>
+<p begin="00:46:23.680" end="00:46:28.880" style="s2">&gt;&gt; Don&#39;t go to the bridge. It&#39;s cracking.</p>
+<p begin="00:46:25.839" end="00:46:33.119" style="s2">People fell in.</p>
+<p begin="00:46:28.880" end="00:46:36.920" style="s2">&gt;&gt; How long ago? An hour, maybe less.</p>
+<p begin="00:46:33.119" end="00:46:36.920" style="s2">Then I still have time.</p>
+<p begin="00:46:41.920" end="00:46:43.920" style="s2">&gt;&gt; My ankle. I can&#39;t.</p>
+<p begin="00:46:43.280" end="00:46:46.480" style="s2">&gt;&gt; Can you stand?</p>
+<p begin="00:46:43.920" end="00:46:50.079" style="s2">&gt;&gt; I&#39;ll slow you down. Go. Just go.</p>
+<p begin="00:46:46.480" end="00:46:51.280" style="s2">&gt;&gt; I&#39;m not leaving you. Arm around me. We</p>
+<p begin="00:46:50.079" end="00:46:53.599" style="s2">walk together.</p>
+<p begin="00:46:51.280" end="00:46:55.760" style="s2">&gt;&gt; IT&#39;S TOO WIDE. WE TURN BACK. THERE&#39;S</p>
+<p begin="00:46:53.599" end="00:46:58.760" style="s2">NOTHING BACK THERE. EVERYTHING&#39;S ON</p>
+<p begin="00:46:55.760" end="00:46:58.760" style="s2">FIRE.</p>
+<p begin="00:46:59.839" end="00:47:06.599" style="s2">STOP ARGUING.</p>
+<p begin="00:47:02.720" end="00:47:06.599" style="s2">Go now.</p>
+<p begin="00:47:09.359" end="00:47:13.760" style="s2">&gt;&gt; My god. How many people are on that</p>
+<p begin="00:47:11.520" end="00:47:16.079" style="s2">thing? Enough to make it dangerous. The</p>
+<p begin="00:47:13.760" end="00:47:17.520" style="s2">center lane. It&#39;s sagging. Then we move</p>
+<p begin="00:47:16.079" end="00:47:20.520" style="s2">fast. Can you do that?</p>
+<p begin="00:47:17.520" end="00:47:20.520" style="s2">&gt;&gt; Yeah.</p>
+<p begin="00:47:21.359" end="00:47:24.319" style="s2">&gt;&gt; Dark hair, green jacket. Her name&#39;s</p>
+<p begin="00:47:23.760" end="00:47:25.760" style="s2">Carla.</p>
+<p begin="00:47:24.319" end="00:47:26.240" style="s2">&gt;&gt; There are thousands of people. I can&#39;t</p>
+<p begin="00:47:25.760" end="00:47:28.640" style="s2">see. Please.</p>
+<p begin="00:47:26.240" end="00:47:33.000" style="s2">&gt;&gt; Have you seen her?</p>
+<p begin="00:47:28.640" end="00:47:33.000" style="s2">She&#39;s close. I know she&#39;s close.</p>
+<p begin="00:47:36.960" end="00:47:42.000" style="s2">&gt;&gt; Wait, someone was just here. Look at</p>
+<p begin="00:47:39.440" end="00:47:43.119" style="s2">this. Keep moving, Nora. Carla, the</p>
+<p begin="00:47:42.000" end="00:47:47.480" style="s2">board, it&#39;s still moving.</p>
+<p begin="00:47:43.119" end="00:47:47.480" style="s2">&gt;&gt; The bridge is ahead. Come on.</p>
+<p begin="00:47:50.480" end="00:47:58.240" style="s2">&gt;&gt; Is that thing even safe? It&#39;s the only</p>
+<p begin="00:47:52.400" end="00:47:58.240" style="s2">way across. Stay with me. Do not let go.</p>
+<p begin="00:48:06.000" end="00:48:08.960" style="s2">Carla, look at the cables. They&#39;re</p>
+<p begin="00:48:08.160" end="00:48:11.200" style="s2">moving.</p>
+<p begin="00:48:08.960" end="00:48:12.319" style="s2">&gt;&gt; Everything&#39;s moving. We cross now.</p>
+<p begin="00:48:11.200" end="00:48:14.400" style="s2">&gt;&gt; People are turning back.</p>
+<p begin="00:48:12.319" end="00:48:17.800" style="s2">&gt;&gt; Manhattan is gone. Brooklyn is the only</p>
+<p begin="00:48:14.400" end="00:48:17.800" style="s2">direction left.</p>
+<p begin="00:48:20.319" end="00:48:23.520" style="s2">&gt;&gt; BRIDGE IS CLOSED. NO MORE CROSSING.</p>
+<p begin="00:48:21.920" end="00:48:24.160" style="s2">STRUCTURES FAILING. MY WIFE IS ALREADY</p>
+<p begin="00:48:23.520" end="00:48:24.640" style="s2">ON IT.</p>
+<p begin="00:48:24.160" end="00:48:26.079" style="s2">&gt;&gt; It&#39;s all right.</p>
+<p begin="00:48:24.640" end="00:48:27.599" style="s2">&gt;&gt; Then pray for her. You step ON THAT</p>
+<p begin="00:48:26.079" end="00:48:31.240" style="s2">DECK, YOU DIE WITH IT. THEN I DIE WITH</p>
+<p begin="00:48:27.599" end="00:48:31.240" style="s2">HER. HEY,</p>
+<p begin="00:48:35.440" end="00:48:38.960" style="s2">&gt;&gt; my ankle. I can&#39;t.</p>
+<p begin="00:48:36.880" end="00:48:40.880" style="s2">&gt;&gt; Yes, you can. Lean harder. I&#39;ve got you.</p>
+<p begin="00:48:38.960" end="00:48:44.920" style="s2">&gt;&gt; You should leave me. Go faster alone.</p>
+<p begin="00:48:40.880" end="00:48:44.920" style="s2">&gt;&gt; Don&#39;t ever say that to me again.</p>
+<p begin="00:48:51.119" end="00:48:54.319" style="s2">&gt;&gt; Turn around, man. The middle section is</p>
+<p begin="00:48:52.960" end="00:48:55.520" style="s2">cracked wide open. How far ahead is the</p>
+<p begin="00:48:54.319" end="00:48:56.880" style="s2">crowd still moving south?</p>
+<p begin="00:48:55.520" end="00:48:57.200" style="s2">&gt;&gt; You&#39;re not listening. The deck is</p>
+<p begin="00:48:56.880" end="00:49:01.079" style="s2">splitting.</p>
+<p begin="00:48:57.200" end="00:49:01.079" style="s2">&gt;&gt; I heard you. How far?</p>
+<p begin="00:49:04.079" end="00:49:08.400" style="s2">&gt;&gt; Feel that? The vibration. It wasn&#39;t</p>
+<p begin="00:49:06.559" end="00:49:10.079" style="s2">doing that before.</p>
+<p begin="00:49:08.400" end="00:49:13.280" style="s2">&gt;&gt; We&#39;re closer to Brooklyn than Manhattan</p>
+<p begin="00:49:10.079" end="00:49:17.880" style="s2">now. Only forward. Alex would keep</p>
+<p begin="00:49:13.280" end="00:49:17.880" style="s2">going. So do we.</p>
+<p begin="00:49:20.000" end="00:49:27.640" style="s2">&gt;&gt; Nora, hold on to the car.</p>
+<p begin="00:49:23.440" end="00:49:27.640" style="s2">I can&#39;t see the dust.</p>
+<p begin="00:49:28.319" end="00:49:32.520" style="s2">&gt;&gt; Not now. Not yet.</p>
+<p begin="00:49:34.559" end="00:49:37.599" style="s2">&gt;&gt; Your hand. Let me see your hand.</p>
+<p begin="00:49:35.760" end="00:49:40.559" style="s2">&gt;&gt; Forget the hand. Are we moving or dying</p>
+<p begin="00:49:37.599" end="00:49:41.520" style="s2">here? It&#39;s done. The bridge is done.</p>
+<p begin="00:49:40.559" end="00:49:43.520" style="s2">We&#39;re all dead.</p>
+<p begin="00:49:41.520" end="00:49:47.960" style="s2">&gt;&gt; Then die walking south.</p>
+<p begin="00:49:43.520" end="00:49:47.960" style="s2">&gt;&gt; Brooklyn side. We stop for nothing.</p>
+<p begin="00:49:54.160" end="00:49:58.240" style="s2">Carla.</p>
+<p begin="00:49:55.680" end="00:50:03.240" style="s2">Carla.</p>
+<p begin="00:49:58.240" end="00:50:03.240" style="s2">25 episodes. I found you.</p>
+<p begin="00:50:06.319" end="00:50:13.000" style="s2">&gt;&gt; Carla. Carlo. WHERE&#39;S CARLO? BRIDGE IS</p>
+<p begin="00:50:09.200" end="00:50:13.000" style="s2">GOING. CARLO.</p>
+<p begin="00:50:18.559" end="00:50:22.079" style="s2">CARLA, what is it?</p>
+<p begin="00:50:20.160" end="00:50:24.640" style="s2">&gt;&gt; Alex.</p>
+<p begin="00:50:22.079" end="00:50:27.040" style="s2">ALEX. ALEX, I&#39;M HERE. I&#39;M RIGHT HERE.</p>
+<p begin="00:50:24.640" end="00:50:30.040" style="s2">&gt;&gt; I see you. Don&#39;t move. I&#39;m coming to</p>
+<p begin="00:50:27.040" end="00:50:30.040" style="s2">you.</p>
+<p begin="00:50:30.079" end="00:50:35.040" style="s2">Stay with me. Almost there.</p>
+<p begin="00:50:32.559" end="00:50:35.520" style="s2">&gt;&gt; NORA, WALK. I need you TO WALK RIGHT</p>
+<p begin="00:50:35.040" end="00:50:38.000" style="s2">NOW.</p>
+<p begin="00:50:35.520" end="00:50:43.319" style="s2">&gt;&gt; I&#39;m moving. Go. Don&#39;t wait for me.</p>
+<p begin="00:50:38.000" end="00:50:43.319" style="s2">&gt;&gt; Carly, stop. Stop right there.</p>
+<p begin="00:50:49.119" end="00:50:55.640" style="s2">No,</p>
+<p begin="00:50:50.400" end="00:50:55.640" style="s2">&gt;&gt; Carla. No. No. No.</p>
+<p begin="00:50:59.359" end="00:51:02.640" style="s2">&gt;&gt; Are you hurt? Is Nora?</p>
+<p begin="00:51:00.640" end="00:51:03.839" style="s2">&gt;&gt; She&#39;s hurt but breathing. Alex, the</p>
+<p begin="00:51:02.640" end="00:51:05.040" style="s2">bridge is still moving.</p>
+<p begin="00:51:03.839" end="00:51:07.440" style="s2">&gt;&gt; How far can she walk?</p>
+<p begin="00:51:05.040" end="00:51:10.680" style="s2">&gt;&gt; Not fast enough. And Alex, you can&#39;t</p>
+<p begin="00:51:07.440" end="00:51:10.680" style="s2">jump that.</p>
+<p begin="00:51:12.160" end="00:51:16.160" style="s2">&gt;&gt; There&#39;s nothing. No way around it.</p>
+<p begin="00:51:14.079" end="00:51:16.480" style="s2">&gt;&gt; Then go back, Alex. Go back to Manhattan</p>
+<p begin="00:51:16.160" end="00:51:18.079" style="s2">side.</p>
+<p begin="00:51:16.480" end="00:51:18.960" style="s2">&gt;&gt; The whole section behind me is cracking.</p>
+<p begin="00:51:18.079" end="00:51:23.079" style="s2">I&#39;m not going back.</p>
+<p begin="00:51:18.960" end="00:51:23.079" style="s2">&gt;&gt; Then what are you going to do?</p>
+<p begin="00:51:25.119" end="00:51:30.960" style="s2">&gt;&gt; Carla, my leg. I can&#39;t feel it anymore.</p>
+<p begin="00:51:28.319" end="00:51:31.760" style="s2">&gt;&gt; Don&#39;t look at it. Eyes on me. Stay with</p>
+<p begin="00:51:30.960" end="00:51:33.440" style="s2">me.</p>
+<p begin="00:51:31.760" end="00:51:37.400" style="s2">&gt;&gt; She needs help now, Carla.</p>
+<p begin="00:51:33.440" end="00:51:37.400" style="s2">&gt;&gt; I know. I know.</p>
+<p begin="00:51:37.440" end="00:51:43.359" style="s2">&gt;&gt; The frame&#39;s intact all the way across.</p>
+<p begin="00:51:41.200" end="00:51:45.599" style="s2">It&#39;ll hold.</p>
+<p begin="00:51:43.359" end="00:51:46.079" style="s2">That&#39;s a 100 foot drop to the river. One</p>
+<p begin="00:51:45.599" end="00:51:49.720" style="s2">slip.</p>
+<p begin="00:51:46.079" end="00:51:49.720" style="s2">&gt;&gt; Then I don&#39;t slip.</p>
+<p begin="00:51:52.480" end="00:51:58.160" style="s2">&gt;&gt; ALEX, DON&#39;T CROSS.</p>
+<p begin="00:51:54.079" end="00:52:01.160" style="s2">&gt;&gt; GET TO NA. KEEP her talking.</p>
+<p begin="00:51:58.160" end="00:52:01.160" style="s2">&gt;&gt; Alex.</p>
+<p begin="00:52:04.960" end="00:52:10.400" style="s2">&gt;&gt; Alex. Alex. The frame is moving.</p>
+<p begin="00:52:07.839" end="00:52:12.960" style="s2">&gt;&gt; He&#39;s going to fall. Carla, HE&#39;S GOING TO</p>
+<p begin="00:52:10.400" end="00:52:17.640" style="s2">FALL.</p>
+<p begin="00:52:12.960" end="00:52:17.640" style="s2">I&#39;M NOT STOPPING. NOT NOW.</p>
+<p begin="00:52:22.880" end="00:52:27.440" style="s2">I&#39;m okay. I&#39;m okay.</p>
+<p begin="00:52:24.800" end="00:52:33.480" style="s2">&gt;&gt; You are not okay.</p>
+<p begin="00:52:27.440" end="00:52:33.480" style="s2">&gt;&gt; 15 ft. That&#39;s all. 15 ft.</p>
+<p begin="00:52:40.800" end="00:52:44.800" style="s2">Alex, pull him back. Someone pull him</p>
+<p begin="00:52:44.240" end="00:52:49.160" style="s2">back.</p>
+<p begin="00:52:44.800" end="00:52:49.160" style="s2">&gt;&gt; I&#39;ve got it. I&#39;ve got it.</p>
+<p begin="00:52:52.000" end="00:52:56.000" style="s2">&gt;&gt; Stay with these people.</p>
+<p begin="00:52:54.240" end="00:52:57.359" style="s2">Don&#39;t move that leg.</p>
+<p begin="00:52:56.000" end="00:53:00.000" style="s2">&gt;&gt; Carla, what are you doing?</p>
+<p begin="00:52:57.359" end="00:53:04.119" style="s2">&gt;&gt; What he&#39;s doing?</p>
+<p begin="00:53:00.000" end="00:53:04.119" style="s2">&gt;&gt; No. No, Carla, don&#39;t.</p>
+<p begin="00:53:08.480" end="00:53:12.800" style="s2">&gt;&gt; Carla, no. Go back.</p>
+<p begin="00:53:10.559" end="00:53:15.040" style="s2">&gt;&gt; You don&#39;t get to be the only one.</p>
+<p begin="00:53:12.800" end="00:53:18.760" style="s2">&gt;&gt; The frame won&#39;t hold both of us.</p>
+<p begin="00:53:15.040" end="00:53:18.760" style="s2">&gt;&gt; Then we&#39;d better hurry.</p>
+<p begin="00:53:27.520" end="00:53:34.119" style="s2">&gt;&gt; Almost there. Keep coming.</p>
+<p begin="00:53:30.319" end="00:53:34.119" style="s2">I can see your hand.</p>
+<p begin="00:53:40.000" end="00:53:45.359" style="s2">&gt;&gt; I&#39;ve got you. Reach.</p>
+<p begin="00:53:42.480" end="00:53:48.839" style="s2">&gt;&gt; I&#39;m here. I&#39;m right here. Oh, come on.</p>
+<p begin="00:53:45.359" end="00:53:48.839" style="s2">Come on. Come on.</p>
+<p begin="00:53:48.880" end="00:53:55.800" style="s2">&gt;&gt; No.</p>
+<p begin="00:53:51.680" end="00:53:55.800" style="s2">&gt;&gt; Hold on. Don&#39;t let go.</p>
+<p begin="00:53:57.920" end="00:54:03.240" style="s2">I&#39;m not letting go. I&#39;m never letting</p>
+<p begin="00:54:00.240" end="00:54:03.240" style="s2">go.</p>
+<p begin="00:54:03.680" end="00:54:08.040" style="s2">&gt;&gt; Now, Alex, jump.</p>
+<p begin="00:54:08.160" end="00:54:13.400" style="s2">&gt;&gt; I&#39;ve got you. I&#39;ve got you.</p>
+<p begin="00:54:21.040" end="00:54:27.839" style="s2">&gt;&gt; You&#39;re bleeding.</p>
+<p begin="00:54:23.760" end="00:54:31.160" style="s2">&gt;&gt; So are you. Don&#39;t ever do that again.</p>
+<p begin="00:54:27.839" end="00:54:31.160" style="s2">&gt;&gt; Which part?</p>
+<p begin="00:54:35.680" end="00:54:40.559" style="s2">I thought</p>
+<p begin="00:54:37.920" end="00:54:42.720" style="s2">&gt;&gt; I know.</p>
+<p begin="00:54:40.559" end="00:54:46.200" style="s2">I counted every block.</p>
+<p begin="00:54:42.720" end="00:54:46.200" style="s2">&gt;&gt; So did I.</p>
+<p begin="00:54:50.400" end="00:54:54.640" style="s2">&gt;&gt; We have to go right now.</p>
+<p begin="00:54:53.440" end="00:54:58.359" style="s2">How bad is the leg?</p>
+<p begin="00:54:54.640" end="00:54:58.359" style="s2">&gt;&gt; Bad enough. Move.</p>
+<p begin="00:55:04.319" end="00:55:08.079" style="s2">&gt;&gt; One at a time. Don&#39;t look down.</p>
+<p begin="00:55:07.520" end="00:55:12.520" style="s2">&gt;&gt; I can&#39;t.</p>
+<p begin="00:55:08.079" end="00:55:12.520" style="s2">&gt;&gt; You can go now.</p>
+<p begin="00:55:13.599" end="00:55:19.520" style="s2">&gt;&gt; Nora. Nora. Eyes open. We&#39;re leaving.</p>
+<p begin="00:55:17.520" end="00:55:22.800" style="s2">&gt;&gt; The kid. He won&#39;t move.</p>
+<p begin="00:55:19.520" end="00:55:27.640" style="s2">&gt;&gt; Take my hand. Don&#39;t think.</p>
+<p begin="00:55:22.800" end="00:55:27.640" style="s2">Everyone follow Alex. Stay close.</p>
+<p begin="00:55:28.240" end="00:55:33.160" style="s2">&gt;&gt; I see THE END. ALEX, I SEE IT.</p>
+<p begin="00:55:33.599" end="00:55:39.240" style="s2">&gt;&gt; Eyes forward. Don&#39;t look back. We&#39;re</p>
+<p begin="00:55:35.839" end="00:55:39.240" style="s2">going to make it.</p>
+<p begin="00:55:44.559" end="00:55:54.520" style="s2">&gt;&gt; The whole side. It&#39;s going.</p>
+<p begin="00:55:48.480" end="00:55:54.520" style="s2">&gt;&gt; Run. Don&#39;t stop. Run. How far?</p>
+<p begin="00:56:01.040" end="00:56:03.839" style="s2">&gt;&gt; Move. Don&#39;t look at it. Move.</p>
+<p begin="00:56:02.799" end="00:56:08.839" style="s2">&gt;&gt; Nora, where&#39;s the boy?</p>
+<p begin="00:56:03.839" end="00:56:08.839" style="s2">&gt;&gt; I HAVE HIM. I have him. Go.</p>
+<p begin="00:56:13.760" end="00:56:19.160" style="s2">&gt;&gt; Go. Take the others and go. Shut up,</p>
+<p begin="00:56:20.000" end="00:56:25.119" style="s2">&gt;&gt; Carla. My leg won&#39;t hold. I can&#39;t.</p>
+<p begin="00:56:21.839" end="00:56:25.760" style="s2">&gt;&gt; I said shut up. We&#39;re almost there.</p>
+<p begin="00:56:25.119" end="00:56:26.960" style="s2">Almost.</p>
+<p begin="00:56:25.760" end="00:56:31.720" style="s2">&gt;&gt; Go, GO, GO, GO, GO.</p>
+<p begin="00:56:26.960" end="00:56:31.720" style="s2">&gt;&gt; DON&#39;T STOP UNTIL CONCRETE. MOVE.</p>
+<p begin="00:56:38.240" end="00:56:43.319" style="s2">ALEX,</p>
+<p begin="00:56:40.319" end="00:56:43.319" style="s2">HELP.</p>
+<p begin="00:56:47.359" end="00:56:51.119" style="s2">Everyone across.</p>
+<p begin="00:56:48.640" end="00:56:52.400" style="s2">&gt;&gt; It&#39;s okay. You can stop running now,</p>
+<p begin="00:56:51.119" end="00:56:55.640" style="s2">Alex.</p>
+<p begin="00:56:52.400" end="00:56:55.640" style="s2">&gt;&gt; I know.</p>
+<p begin="00:57:01.520" end="00:57:03.680" style="s2">&gt;&gt; Show me.</p>
+<p begin="00:57:02.240" end="00:57:06.559" style="s2">&gt;&gt; I&#39;m here. We&#39;re here.</p>
+<p begin="00:57:03.680" end="00:57:08.160" style="s2">&gt;&gt; That&#39;s not what I asked.</p>
+<p begin="00:57:06.559" end="00:57:11.160" style="s2">&gt;&gt; Yeah.</p>
+<p begin="00:57:08.160" end="00:57:11.160" style="s2">&gt;&gt; Yeah.</p>
+<p begin="00:57:11.920" end="00:57:15.240" style="s2">Oh god,</p>
+<p begin="00:57:15.359" end="00:57:19.520" style="s2">&gt;&gt; we made it.</p>
+<p begin="00:57:16.880" end="00:57:20.880" style="s2">&gt;&gt; Yeah, we made it.</p>
+<p begin="00:57:19.520" end="00:57:23.119" style="s2">&gt;&gt; Don&#39;t ever let me tell you to leave me</p>
+<p begin="00:57:20.880" end="00:57:26.119" style="s2">again.</p>
+<p begin="00:57:23.119" end="00:57:26.119" style="s2">&gt;&gt; Deal.</p>
+<p begin="00:57:27.359" end="00:57:30.359" style="s2">&gt;&gt; Down.</p>
+<p begin="00:57:33.119" end="00:57:39.799" style="s2">I can&#39;t I can&#39;t keep arms. Move your</p>
+<p begin="00:57:36.079" end="00:57:39.799" style="s2">arms. That&#39;s all.</p>
+<p begin="00:57:44.559" end="00:57:49.880" style="s2">No, NO, NO, NO, NO. NOT AGAIN.</p>
+<p begin="00:57:51.200" end="00:57:56.920" style="s2">&gt;&gt; CARLA,</p>
+<p begin="00:57:52.000" end="00:57:56.920" style="s2">&gt;&gt; I know. Where do we</p>
+<p begin="00:58:01.520" end="00:58:06.160" style="s2">&gt;&gt; Hello? Is anyone Hello?</p>
+<p begin="00:58:05.280" end="00:58:06.960" style="s2">&gt;&gt; There.</p>
+<p begin="00:58:06.160" end="00:58:10.240" style="s2">&gt;&gt; How many?</p>
+<p begin="00:58:06.960" end="00:58:10.240" style="s2">&gt;&gt; We&#39;re about to find out.</p>
+<p begin="00:58:17.359" end="00:58:22.720" style="s2">You kept this the whole time.</p>
+<p begin="00:58:20.720" end="00:58:26.119" style="s2">&gt;&gt; Every step.</p>
+<p begin="00:58:22.720" end="00:58:26.119" style="s2">&gt;&gt; Every step.</p>
+<p begin="00:58:27.040" end="00:58:31.920" style="s2">&gt;&gt; Sir, stay with me. What&#39;s your name?</p>
+<p begin="00:58:30.000" end="00:58:34.240" style="s2">&gt;&gt; Reyes. Victor.</p>
+<p begin="00:58:31.920" end="00:58:35.599" style="s2">&gt;&gt; I need the exit path clear. Far side.</p>
+<p begin="00:58:34.240" end="00:58:39.720" style="s2">&gt;&gt; Working on it.</p>
+<p begin="00:58:35.599" end="00:58:39.720" style="s2">&gt;&gt; Don&#39;t watch the footing. It&#39;s uneven.</p>
+<p begin="00:58:46.319" end="00:58:51.680" style="s2">Mama.</p>
+<p begin="00:58:48.640" end="00:58:54.680" style="s2">&gt;&gt; Alex. Right here. I&#39;m right here.</p>
+<p begin="00:58:51.680" end="00:58:54.680" style="s2">&gt;&gt; Clear.</p>
+<p begin="00:59:00.000" end="00:59:03.599" style="s2">&gt;&gt; Who&#39;s in charge? Where are we going?</p>
+<p begin="00:59:02.160" end="00:59:04.480" style="s2">&gt;&gt; We are.</p>
+<p begin="00:59:03.599" end="00:59:06.160" style="s2">&gt;&gt; Give us a minute.</p>
+<p begin="00:59:04.480" end="00:59:08.720" style="s2">&gt;&gt; A minute&#39;s fine. We&#39;ve been here 3</p>
+<p begin="00:59:06.160" end="00:59:10.079" style="s2">hours. There&#39;s a school inland. Alex</p>
+<p begin="00:59:08.720" end="00:59:13.200" style="s2">knows where.</p>
+<p begin="00:59:10.079" end="00:59:14.240" style="s2">&gt;&gt; Here&#39;s us. School&#39;s here. 3 miles.</p>
+<p begin="00:59:13.200" end="00:59:15.520" style="s2">Designated shelter.</p>
+<p begin="00:59:14.240" end="00:59:17.839" style="s2">&gt;&gt; What roads are passable?</p>
+<p begin="00:59:15.520" end="00:59:19.040" style="s2">&gt;&gt; Side streets. Avoid the avenues. North,</p>
+<p begin="00:59:17.839" end="00:59:20.319" style="s2">then cut west at the park.</p>
+<p begin="00:59:19.040" end="00:59:21.760" style="s2">&gt;&gt; What&#39;s the time window on the shelter?</p>
+<p begin="00:59:20.319" end="00:59:22.480" style="s2">&gt;&gt; 2 hours if we move. We find out the rest</p>
+<p begin="00:59:21.760" end="00:59:26.839" style="s2">when we get there.</p>
+<p begin="00:59:22.480" end="00:59:26.839" style="s2">&gt;&gt; 3 miles. You&#39;ve done more than that.</p>
+<p begin="00:59:26.880" end="00:59:31.119" style="s2">&gt;&gt; We crossed that.</p>
+<p begin="00:59:29.040" end="00:59:34.079" style="s2">&gt;&gt; We crossed all of it.</p>
+<p begin="00:59:31.119" end="00:59:37.680" style="s2">&gt;&gt; So, what do we do now?</p>
+<p begin="00:59:34.079" end="00:59:37.680" style="s2">&gt;&gt; We find out what&#39;s left.</p>
+<p begin="00:59:46.400" end="00:59:50.880" style="s2">We survived the fall.</p>
+<p begin="00:59:48.400" end="00:59:55.079" style="s2">&gt;&gt; Alex, what does it say</p>
+<p begin="00:59:50.880" end="00:59:55.079" style="s2">&gt;&gt; now? We survived what comes after</p>
+<p begin="00:59:59.040" end="01:00:02.640" style="s2">&gt;&gt; the phone. What did it say?</p>
+<p begin="01:00:00.480" end="01:00:03.520" style="s2">&gt;&gt; Signal dropped before I could read it.</p>
+<p begin="01:00:02.640" end="01:00:05.119" style="s2">&gt;&gt; Alex,</p>
+<p begin="01:00:03.520" end="01:00:05.839" style="s2">&gt;&gt; we need four walls before dark. Keep</p>
+<p begin="01:00:05.119" end="01:00:07.839" style="s2">moving.</p>
+<p begin="01:00:05.839" end="01:00:11.720" style="s2">&gt;&gt; Brick building two blocks up. Windows</p>
+<p begin="01:00:07.839" end="01:00:11.720" style="s2">are intact. Move.</p>
+<p begin="01:00:17.599" end="01:00:20.160" style="s2">&gt;&gt; DOWN. GET DOWN.</p>
+<p begin="01:00:19.200" end="01:00:21.200" style="s2">&gt;&gt; ALEX, ARE YOU</p>
+<p begin="01:00:20.160" end="01:00:22.880" style="s2">&gt;&gt; I&#39;M FINE. GO.</p>
+<p begin="01:00:21.200" end="01:00:26.640" style="s2">&gt;&gt; FRONT OF THAT BUILDING IS GONE.</p>
+<p begin="01:00:22.880" end="01:00:28.480" style="s2">Schoolhouse now.</p>
+<p begin="01:00:26.640" end="01:00:30.480" style="s2">&gt;&gt; Count heads as you come in. How many?</p>
+<p begin="01:00:28.480" end="01:00:32.240" style="s2">&gt;&gt; 14 from the waterfront. Anyone with</p>
+<p begin="01:00:30.480" end="01:00:34.079" style="s2">medical training, step up.</p>
+<p begin="01:00:32.240" end="01:00:35.520" style="s2">&gt;&gt; Sit down. You&#39;re favoring your left</p>
+<p begin="01:00:34.079" end="01:00:39.079" style="s2">side.</p>
+<p begin="01:00:35.520" end="01:00:39.079" style="s2">&gt;&gt; Help with the people.</p>
+<p begin="01:00:39.839" end="01:00:44.559" style="s2">&gt;&gt; Water first, then wounds. Anyone who can</p>
+<p begin="01:00:42.720" end="01:00:46.559" style="s2">walk helps the ones who can&#39;t. We&#39;ve got</p>
+<p begin="01:00:44.559" end="01:00:49.119" style="s2">crackers. Not much, but it&#39;s enough.</p>
+<p begin="01:00:46.559" end="01:00:51.040" style="s2">Pass them.</p>
+<p begin="01:00:49.119" end="01:00:54.440" style="s2">&gt;&gt; You should eat something</p>
+<p begin="01:00:51.040" end="01:00:54.440" style="s2">&gt;&gt; in a minute.</p>
+<p begin="01:00:56.400" end="01:01:01.040" style="s2">&gt;&gt; This will sting once. Just once. Then</p>
+<p begin="01:00:58.640" end="01:01:02.640" style="s2">it&#39;s over.</p>
+<p begin="01:01:01.040" end="01:01:04.319" style="s2">Is my mom coming?</p>
+<p begin="01:01:02.640" end="01:01:05.280" style="s2">&gt;&gt; Everyone is looking. That&#39;s what they&#39;re</p>
+<p begin="01:01:04.319" end="01:01:09.960" style="s2">all doing right now.</p>
+<p begin="01:01:05.280" end="01:01:09.960" style="s2">&gt;&gt; She doesn&#39;t stop no matter what.</p>
+<p begin="01:01:19.839" end="01:01:20.960" style="s2">&gt;&gt; Alex,</p>
+<p begin="01:01:20.480" end="01:01:23.960" style="s2">&gt;&gt; Carly,</p>
+<p begin="01:01:20.960" end="01:01:23.960" style="s2">&gt;&gt; don&#39;t.</p>
+<p begin="01:01:27.200" end="01:01:30.400" style="s2">God,</p>
+<p begin="01:01:29.599" end="01:01:32.559" style="s2">&gt;&gt; it&#39;s not.</p>
+<p begin="01:01:30.400" end="01:01:36.160" style="s2">&gt;&gt; Don&#39;t tell me it&#39;s not bad.</p>
+<p begin="01:01:32.559" end="01:01:39.160" style="s2">&gt;&gt; I didn&#39;t want you to.</p>
+<p begin="01:01:36.160" end="01:01:39.160" style="s2">&gt;&gt; Alex,</p>
+<p begin="01:01:45.119" end="01:01:49.200" style="s2">how long</p>
+<p begin="01:01:47.599" end="01:01:54.119" style="s2">since the bridge?</p>
+<p begin="01:01:49.200" end="01:01:54.119" style="s2">&gt;&gt; Nora. Alex, how long?</p>
+<p begin="01:01:56.880" end="01:02:03.280" style="s2">since the bridge.</p>
+<p begin="01:01:59.920" end="01:02:05.520" style="s2">&gt;&gt; That was yesterday.</p>
+<p begin="01:02:03.280" end="01:02:08.000" style="s2">&gt;&gt; Yes,</p>
+<p begin="01:02:05.520" end="01:02:10.400" style="s2">&gt;&gt; Alex.</p>
+<p begin="01:02:08.000" end="01:02:11.040" style="s2">&gt;&gt; You walked 12 blocks bleeding through</p>
+<p begin="01:02:10.400" end="01:02:12.720" style="s2">your ribs.</p>
+<p begin="01:02:11.040" end="01:02:13.680" style="s2">&gt;&gt; It wasn&#39;t slowing anybody down.</p>
+<p begin="01:02:12.720" end="01:02:14.720" style="s2">&gt;&gt; That is not the point.</p>
+<p begin="01:02:13.680" end="01:02:17.040" style="s2">&gt;&gt; I needed to keep</p>
+<p begin="01:02:14.720" end="01:02:19.040" style="s2">&gt;&gt; Why didn&#39;t you tell me?</p>
+<p begin="01:02:17.040" end="01:02:20.640" style="s2">&gt;&gt; You would have stopped.</p>
+<p begin="01:02:19.040" end="01:02:24.200" style="s2">&gt;&gt; Yes,</p>
+<p begin="01:02:20.640" end="01:02:24.200" style="s2">I would have stopped.</p>
+<p begin="01:02:27.599" end="01:02:31.440" style="s2">Stopping isn&#39;t dying, Alex.</p>
+<p begin="01:02:30.000" end="01:02:32.240" style="s2">&gt;&gt; I was afraid if I stopped, I wouldn&#39;t</p>
+<p begin="01:02:31.440" end="01:02:34.960" style="s2">start again.</p>
+<p begin="01:02:32.240" end="01:02:39.160" style="s2">&gt;&gt; You thought you&#39;d just stop?</p>
+<p begin="01:02:34.960" end="01:02:39.160" style="s2">&gt;&gt; I thought I&#39;d lose you a second time.</p>
+<p begin="01:02:42.319" end="01:02:44.880" style="s2">&gt;&gt; Cloth&#39;s bonded to it. This hurts before</p>
+<p begin="01:02:44.079" end="01:02:45.520" style="s2">it gets better.</p>
+<p begin="01:02:44.880" end="01:02:46.720" style="s2">&gt;&gt; Don&#39;t.</p>
+<p begin="01:02:45.520" end="01:02:47.599" style="s2">&gt;&gt; I&#39;m not saying anything.</p>
+<p begin="01:02:46.720" end="01:02:50.559" style="s2">&gt;&gt; You&#39;re thinking loud.</p>
+<p begin="01:02:47.599" end="01:02:53.880" style="s2">&gt;&gt; Hold still, both of you. I&#39;m here. Just</p>
+<p begin="01:02:50.559" end="01:02:53.880" style="s2">hold still.</p>
+<p begin="01:02:59.040" end="01:03:04.240" style="s2">Down. Stay low. Everyone down. It&#39;s</p>
+<p begin="01:03:02.079" end="01:03:05.040" style="s2">holding. The walls are holding.</p>
+<p begin="01:03:04.240" end="01:03:06.480" style="s2">&gt;&gt; I&#39;ve got you.</p>
+<p begin="01:03:05.040" end="01:03:10.160" style="s2">&gt;&gt; I have your wrist.</p>
+<p begin="01:03:06.480" end="01:03:12.319" style="s2">&gt;&gt; I know. In the flood, the subway, water</p>
+<p begin="01:03:10.160" end="01:03:13.200" style="s2">was at my chin. I let go.</p>
+<p begin="01:03:12.319" end="01:03:14.880" style="s2">&gt;&gt; Let go of what?</p>
+<p begin="01:03:13.200" end="01:03:16.079" style="s2">&gt;&gt; The pipe I was holding. 3 seconds. I</p>
+<p begin="01:03:14.880" end="01:03:18.160" style="s2">just let go.</p>
+<p begin="01:03:16.079" end="01:03:19.200" style="s2">&gt;&gt; I recorded a goodbye message the night</p>
+<p begin="01:03:18.160" end="01:03:19.760" style="s2">before we found the bridge.</p>
+<p begin="01:03:19.200" end="01:03:23.039" style="s2">&gt;&gt; I know.</p>
+<p begin="01:03:19.760" end="01:03:24.880" style="s2">&gt;&gt; I stopped believing you were coming.</p>
+<p begin="01:03:23.039" end="01:03:27.280" style="s2">FEMA relief corridor established.</p>
+<p begin="01:03:24.880" end="01:03:29.839" style="s2">Prospect Park, Brooklyn. All survivors,</p>
+<p begin="01:03:27.280" end="01:03:30.720" style="s2">proceed to Prospect Park, 3 miles inland</p>
+<p begin="01:03:29.839" end="01:03:33.200" style="s2">from the waterfront.</p>
+<p begin="01:03:30.720" end="01:03:34.319" style="s2">&gt;&gt; Might is actually walkable.</p>
+<p begin="01:03:33.200" end="01:03:36.319" style="s2">&gt;&gt; 3 miles.</p>
+<p begin="01:03:34.319" end="01:03:38.160" style="s2">&gt;&gt; Then we go.</p>
+<p begin="01:03:36.319" end="01:03:41.160" style="s2">I&#39;m fine.</p>
+<p begin="01:03:38.160" end="01:03:41.160" style="s2">&gt;&gt; Alex,</p>
+<p begin="01:03:44.480" end="01:03:48.559" style="s2">&gt;&gt; give me a minute.</p>
+<p begin="01:03:45.440" end="01:03:50.880" style="s2">&gt;&gt; Prospect Park Relief Corridor, 3 miles</p>
+<p begin="01:03:48.559" end="01:03:53.760" style="s2">inland. Prospect Park. Prospect Park</p>
+<p begin="01:03:50.880" end="01:03:55.280" style="s2">Relief Corridor 3 miles inland.</p>
+<p begin="01:03:53.760" end="01:03:56.720" style="s2">&gt;&gt; We are not leaving without you.</p>
+<p begin="01:03:55.280" end="01:03:57.760" style="s2">&gt;&gt; I&#39;m not asking you to leave me. I&#39;m</p>
+<p begin="01:03:56.720" end="01:03:58.640" style="s2">&gt;&gt; That is the same thing.</p>
+<p begin="01:03:57.760" end="01:04:00.240" style="s2">&gt;&gt; Go ahead.</p>
+<p begin="01:03:58.640" end="01:04:02.000" style="s2">&gt;&gt; Asking you to go ahead.</p>
+<p begin="01:04:00.240" end="01:04:05.559" style="s2">&gt;&gt; I&#39;ll follow when</p>
+<p begin="01:04:02.000" end="01:04:05.559" style="s2">&gt;&gt; when what, Alex?</p>
+<p begin="01:04:06.480" end="01:04:10.000" style="s2">&gt;&gt; Eight people who can walk. Every hour we</p>
+<p begin="01:04:08.559" end="01:04:11.520" style="s2">wait, that corridor could close.</p>
+<p begin="01:04:10.000" end="01:04:12.720" style="s2">&gt;&gt; Then we carry you. We have eight people.</p>
+<p begin="01:04:11.520" end="01:04:13.760" style="s2">&gt;&gt; A stretcher slows the whole column.</p>
+<p begin="01:04:12.720" end="01:04:14.880" style="s2">Another aftershock mid room.</p>
+<p begin="01:04:13.760" end="01:04:15.520" style="s2">&gt;&gt; Don&#39;t use them as your reason. That&#39;s</p>
+<p begin="01:04:14.880" end="01:04:16.000" style="s2">not what this is,</p>
+<p begin="01:04:15.520" end="01:04:17.440" style="s2">&gt;&gt; Carla.</p>
+<p begin="01:04:16.000" end="01:04:20.640" style="s2">&gt;&gt; You are not protecting them by making</p>
+<p begin="01:04:17.440" end="01:04:22.720" style="s2">yourself easier to leave behind. Okay,</p>
+<p begin="01:04:20.640" end="01:04:24.480" style="s2">here&#39;s what&#39;s happening. Anyone who can</p>
+<p begin="01:04:22.720" end="01:04:26.240" style="s2">carry stretcher rotation. Anyone who</p>
+<p begin="01:04:24.480" end="01:04:27.520" style="s2">can&#39;t, middle of the column. Nora, keep</p>
+<p begin="01:04:26.240" end="01:04:27.839" style="s2">moving. We figure out the rest while we</p>
+<p begin="01:04:27.520" end="01:04:29.280" style="s2">walk.</p>
+<p begin="01:04:27.839" end="01:04:30.799" style="s2">&gt;&gt; You lie on that stretcher and tell us</p>
+<p begin="01:04:29.280" end="01:04:32.960" style="s2">where to go. That is your job.</p>
+<p begin="01:04:30.799" end="01:04:36.200" style="s2">&gt;&gt; She&#39;s right.</p>
+<p begin="01:04:32.960" end="01:04:36.200" style="s2">&gt;&gt; I know.</p>
+<p begin="01:04:39.520" end="01:04:43.520" style="s2">&gt;&gt; I can hop. I&#39;ve done worse.</p>
+<p begin="01:04:41.119" end="01:04:46.880" style="s2">&gt;&gt; You will not hop three miles.</p>
+<p begin="01:04:43.520" end="01:04:51.799" style="s2">&gt;&gt; Heavier than he looks.</p>
+<p begin="01:04:46.880" end="01:04:51.799" style="s2">&gt;&gt; I heard that. They&#39;re not wrong.</p>
+<p begin="01:04:56.960" end="01:05:02.880" style="s2">&gt;&gt; You&#39;re having a single slayer.</p>
+<p begin="01:05:00.799" end="01:05:06.599" style="s2">&gt;&gt; Hey, Breezel Slide. I was woring them.</p>
+<p begin="01:05:02.880" end="01:05:06.599" style="s2">&gt;&gt; Tell me when we&#39;re there.</p>
+<p begin="01:05:07.440" end="01:05:10.400" style="s2">&gt;&gt; Stop.</p>
+<p begin="01:05:08.960" end="01:05:11.119" style="s2">Someone&#39;s in that building.</p>
+<p begin="01:05:10.400" end="01:05:12.720" style="s2">&gt;&gt; You sure?</p>
+<p begin="01:05:11.119" end="01:05:13.200" style="s2">&gt;&gt; First floor left of the door frame.</p>
+<p begin="01:05:12.720" end="01:05:15.200" style="s2">Listen.</p>
+<p begin="01:05:13.200" end="01:05:15.680" style="s2">&gt;&gt; This panel first. Brace the limb above</p>
+<p begin="01:05:15.200" end="01:05:17.280" style="s2">before you pull.</p>
+<p begin="01:05:15.680" end="01:05:21.880" style="s2">&gt;&gt; It&#39;s moving. It&#39;s moving.</p>
+<p begin="01:05:17.280" end="01:05:21.880" style="s2">We&#39;ve got you. Keep talking to me.</p>
+<p begin="01:05:23.760" end="01:05:27.440" style="s2">&gt;&gt; Is that</p>
+<p begin="01:05:24.799" end="01:05:29.280" style="s2">&gt;&gt; Yeah.</p>
+<p begin="01:05:27.440" end="01:05:30.480" style="s2">&gt;&gt; 3 miles. We walked it.</p>
+<p begin="01:05:29.280" end="01:05:35.000" style="s2">&gt;&gt; I hear birds.</p>
+<p begin="01:05:30.480" end="01:05:35.000" style="s2">&gt;&gt; Yeah, sweetheart. Me, too.</p>
+<p begin="01:05:38.799" end="01:05:42.400" style="s2">&gt;&gt; Back. Everyone back FROM THE EDGE.</p>
+<p begin="01:05:40.799" end="01:05:44.319" style="s2">&gt;&gt; DO NOT JUMP AT CARLA.</p>
+<p begin="01:05:42.400" end="01:05:45.520" style="s2">&gt;&gt; HELLO.</p>
+<p begin="01:05:44.319" end="01:05:46.720" style="s2">HELLO. HELLO.</p>
+<p begin="01:05:45.520" end="01:05:49.720" style="s2">&gt;&gt; I&#39;ve got her,</p>
+<p begin="01:05:46.720" end="01:05:49.720" style="s2">&gt;&gt; Carla.</p>
+<p begin="01:05:50.160" end="01:05:53.160" style="s2">&gt;&gt; Hello.</p>
+<p begin="01:05:53.359" end="01:05:56.559" style="s2">&gt;&gt; The ledge won&#39;t hold two of you. One of</p>
+<p begin="01:05:55.280" end="01:05:58.559" style="s2">me is all it needs.</p>
+<p begin="01:05:56.559" end="01:06:00.720" style="s2">&gt;&gt; Talk to her. Keep her talking to you.</p>
+<p begin="01:05:58.559" end="01:06:03.720" style="s2">&gt;&gt; Hey, look at me. What&#39;s your name?</p>
+<p begin="01:06:00.720" end="01:06:03.720" style="s2">&gt;&gt; Lily.</p>
+<p begin="01:06:10.880" end="01:06:15.760" style="s2">&gt;&gt; Lily, don&#39;t move your feet. Okay.</p>
+<p begin="01:06:13.599" end="01:06:18.760" style="s2">&gt;&gt; Okay. She&#39;s got it.</p>
+<p begin="01:06:15.760" end="01:06:18.760" style="s2">&gt;&gt; Yeah.</p>
+<p begin="01:06:19.039" end="01:06:23.200" style="s2">&gt;&gt; You&#39;re squishing me.</p>
+<p begin="01:06:20.319" end="01:06:24.400" style="s2">&gt;&gt; Good. Means I&#39;ve got you.</p>
+<p begin="01:06:23.200" end="01:06:27.839" style="s2">Oh, baby.</p>
+<p begin="01:06:24.400" end="01:06:29.520" style="s2">&gt;&gt; Two blocks south. Everyone move now.</p>
+<p begin="01:06:27.839" end="01:06:32.400" style="s2">&gt;&gt; You&#39;re insane.</p>
+<p begin="01:06:29.520" end="01:06:34.880" style="s2">&gt;&gt; I know.</p>
+<p begin="01:06:32.400" end="01:06:37.039" style="s2">&gt;&gt; There was a bodega on this block. Green</p>
+<p begin="01:06:34.880" end="01:06:38.960" style="s2">awning. Best coffee on Dean Street.</p>
+<p begin="01:06:37.039" end="01:06:40.559" style="s2">&gt;&gt; Tell me where you&#39;re going after this</p>
+<p begin="01:06:38.960" end="01:06:43.680" style="s2">when you&#39;ve slept.</p>
+<p begin="01:06:40.559" end="01:06:44.240" style="s2">&gt;&gt; My sister&#39;s place. Queens. How&#39;s your</p>
+<p begin="01:06:43.680" end="01:06:48.039" style="s2">hands?</p>
+<p begin="01:06:44.240" end="01:06:48.039" style="s2">&gt;&gt; Like I crossed a ledge,</p>
+<p begin="01:06:51.680" end="01:06:53.359" style="s2">&gt;&gt; Alex.</p>
+<p begin="01:06:52.400" end="01:06:54.000" style="s2">&gt;&gt; I&#39;m walking in</p>
+<p begin="01:06:53.359" end="01:06:55.839" style="s2">&gt;&gt; your leg.</p>
+<p begin="01:06:54.000" end="01:06:57.119" style="s2">&gt;&gt; Yeah, I&#39;ll walk beside you. Don&#39;t catch</p>
+<p begin="01:06:55.839" end="01:06:58.400" style="s2">me. Actually, yes. Catch me.</p>
+<p begin="01:06:57.119" end="01:07:01.720" style="s2">&gt;&gt; Nobody asked if he could walk three</p>
+<p begin="01:06:58.400" end="01:07:01.720" style="s2">miles either.</p>
+<p begin="01:07:03.839" end="01:07:08.319" style="s2">&gt;&gt; Is that it? Is that the lights?</p>
+<p begin="01:07:06.960" end="01:07:09.760" style="s2">&gt;&gt; That&#39;s it.</p>
+<p begin="01:07:08.319" end="01:07:12.400" style="s2">&gt;&gt; We&#39;re going to make it.</p>
+<p begin="01:07:09.760" end="01:07:15.400" style="s2">&gt;&gt; Yeah.</p>
+<p begin="01:07:12.400" end="01:07:15.400" style="s2">BUILDING.</p>
+<p begin="01:07:23.440" end="01:07:25.760" style="s2">&gt;&gt; DOWN. EVERYONE DOWN.</p>
+<p begin="01:07:24.559" end="01:07:27.280" style="s2">&gt;&gt; ALEX, I SEE IT.</p>
+<p begin="01:07:25.760" end="01:07:28.000" style="s2">&gt;&gt; SHOULDER. GET THE SLAB off the shoulder.</p>
+<p begin="01:07:27.280" end="01:07:32.359" style="s2">Not the back.</p>
+<p begin="01:07:28.000" end="01:07:32.359" style="s2">&gt;&gt; Alex. Alex. I&#39;m right here. Alex.</p>
+<p begin="01:07:34.319" end="01:07:37.839" style="s2">&gt;&gt; Hey.</p>
+<p begin="01:07:35.520" end="01:07:39.839" style="s2">&gt;&gt; Hey.</p>
+<p begin="01:07:37.839" end="01:07:42.960" style="s2">&gt;&gt; 30 ft.</p>
+<p begin="01:07:39.839" end="01:07:43.520" style="s2">&gt;&gt; Alex. ALEX, OPEN YOUR EYES. ALEX, MA&#39;AM,</p>
+<p begin="01:07:42.960" end="01:07:47.480" style="s2">&gt;&gt; I NEED YOU TO MOVE.</p>
+<p begin="01:07:43.520" end="01:07:47.480" style="s2">&gt;&gt; JUST WE WALK. Let them work.</p>
+<p begin="01:07:50.880" end="01:07:53.280" style="s2">&gt;&gt; You should sit down.</p>
+<p begin="01:07:52.559" end="01:07:54.400" style="s2">&gt;&gt; I&#39;m fine.</p>
+<p begin="01:07:53.280" end="01:07:54.960" style="s2">&gt;&gt; He walked out of that rubble. That</p>
+<p begin="01:07:54.400" end="01:07:56.480" style="s2">counts for something.</p>
+<p begin="01:07:54.960" end="01:07:58.799" style="s2">&gt;&gt; He didn&#39;t walk. They carried him.</p>
+<p begin="01:07:56.480" end="01:08:01.119" style="s2">&gt;&gt; He made it here. So did you.</p>
+<p begin="01:07:58.799" end="01:08:02.480" style="s2">&gt;&gt; He&#39;s stable. Three, maybe four fractured</p>
+<p begin="01:08:01.119" end="01:08:06.039" style="s2">ribs. Blood loss managed. He&#39;s going to</p>
+<p begin="01:08:02.480" end="01:08:06.039" style="s2">be in a lot of pain.</p>
+<p begin="01:08:06.480" end="01:08:10.000" style="s2">&gt;&gt; But he&#39;s alive. He&#39;s alive.</p>
+<p begin="01:08:08.240" end="01:08:13.559" style="s2">&gt;&gt; Okay.</p>
+<p begin="01:08:10.000" end="01:08:13.559" style="s2">Can I see him?</p>
+<p begin="01:08:19.440" end="01:08:23.120" style="s2">&gt;&gt; You pushed me clear. You didn&#39;t have to.</p>
+<p begin="01:08:21.600" end="01:08:24.960" style="s2">&gt;&gt; Yes, I did.</p>
+<p begin="01:08:23.120" end="01:08:27.920" style="s2">&gt;&gt; You&#39;re an idiot.</p>
+<p begin="01:08:24.960" end="01:08:29.440" style="s2">&gt;&gt; Yeah.</p>
+<p begin="01:08:27.920" end="01:08:31.440" style="s2">&gt;&gt; Another group from Flatbrook.</p>
+<p begin="01:08:29.440" end="01:08:33.199" style="s2">Registration backlog is 3 hours.</p>
+<p begin="01:08:31.440" end="01:08:33.839" style="s2">&gt;&gt; 2 hours. I need a table and someone who</p>
+<p begin="01:08:33.199" end="01:08:34.640" style="s2">writes fast. You&#39;re</p>
+<p begin="01:08:33.839" end="01:08:36.480" style="s2">&gt;&gt; still not on my roster.</p>
+<p begin="01:08:34.640" end="01:08:38.159" style="s2">&gt;&gt; Table writer. 2 hours.</p>
+<p begin="01:08:36.480" end="01:08:41.199" style="s2">&gt;&gt; Who is she? She walked us here from</p>
+<p begin="01:08:38.159" end="01:08:41.199" style="s2">Carol Street.</p>
+<p begin="01:08:47.440" end="01:08:52.080" style="s2">You carried this the whole time.</p>
+<p begin="01:08:49.279" end="01:08:53.359" style="s2">&gt;&gt; The whole time?</p>
+<p begin="01:08:52.080" end="01:08:54.560" style="s2">&gt;&gt; From the beginning.</p>
+<p begin="01:08:53.359" end="01:08:56.159" style="s2">&gt;&gt; Yeah.</p>
+<p begin="01:08:54.560" end="01:08:58.080" style="s2">&gt;&gt; If you&#39;re hearing this, then I didn&#39;t</p>
+<p begin="01:08:56.159" end="01:09:00.159" style="s2">make it out. Or you found the phone</p>
+<p begin="01:08:58.080" end="01:09:01.920" style="s2">without me. I need you to know I tried.</p>
+<p begin="01:09:00.159" end="01:09:03.600" style="s2">I&#39;m still trying. The last thing I was</p>
+<p begin="01:09:01.920" end="01:09:05.679" style="s2">thinking about was finding you. Don&#39;t</p>
+<p begin="01:09:03.600" end="01:09:06.239" style="s2">look for me too long. Go somewhere safe.</p>
+<p begin="01:09:05.679" end="01:09:11.480" style="s2">Live.</p>
+<p begin="01:09:06.239" end="01:09:11.480" style="s2">&gt;&gt; I didn&#39;t know if you were alive. I know</p>
+<p begin="01:09:15.759" end="01:09:19.839" style="s2">&gt;&gt; you don&#39;t have to.</p>
+<p begin="01:09:17.279" end="01:09:22.400" style="s2">&gt;&gt; I know.</p>
+<p begin="01:09:19.839" end="01:09:26.359" style="s2">&gt;&gt; You okay?</p>
+<p begin="01:09:22.400" end="01:09:26.359" style="s2">&gt;&gt; I think I&#39;m going to be.</p>
+<p begin="01:09:31.759" end="01:09:34.719" style="s2">&gt;&gt; There it is.</p>
+<p begin="01:09:33.440" end="01:09:37.120" style="s2">&gt;&gt; It&#39;s blue.</p>
+<p begin="01:09:34.719" end="01:09:37.759" style="s2">&gt;&gt; Yeah, baby. I forgot what that looked</p>
+<p begin="01:09:37.120" end="01:09:41.080" style="s2">like.</p>
+<p begin="01:09:37.759" end="01:09:41.080" style="s2">&gt;&gt; Me, too.</p>
+<p begin="01:09:45.520" end="01:09:47.839" style="s2">&gt;&gt; We&#39;re going to have to figure out what&#39;s</p>
+<p begin="01:09:46.799" end="01:09:49.359" style="s2">next.</p>
+<p begin="01:09:47.839" end="01:09:51.199" style="s2">&gt;&gt; Yeah.</p>
+<p begin="01:09:49.359" end="01:09:54.440" style="s2">&gt;&gt; You have any ideas?</p>
+<p begin="01:09:51.199" end="01:09:54.440" style="s2">&gt;&gt; A few.</p>
+</div>
+</body>
+</tt>

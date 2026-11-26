@@ -1,6 +1,6 @@
 # Continuation checkpoint — read first after context rollover
 
-Updated: 2026-11-26 after commit `911c3e7` (“Compare Epic hit and failure thumbnails”). PR: https://github.com/MEMOS0/longform-animation-studio/pull/1, branch `devin/1764170700-failure-intelligence-foundation`, local repo `C:/Users/Administrator/repos/longform-animation-studio`.
+Updated: 2026-11-26 after commit `3c2c6b1` plus pending Epic evidence commit (“Compare Epic hit and failure thumbnails”). PR: https://github.com/MEMOS0/longform-animation-studio/pull/1, branch `devin/1764170700-failure-intelligence-foundation`, local repo `C:/Users/Administrator/repos/longform-animation-studio`.
 
 ## Immutable user mandate
 
@@ -32,7 +32,7 @@ Build a reusable professional AI-assisted long-form animation studio system, not
 ## Immediate next steps, in order
 
 1. Fix montage overlap for small archives and regenerate montages if cheap.
-2. Epic deep-dive media job is running in background shell `epicdeep2`: downloading `_VqQezjbLes` Five Baby Dragons, `46mo0VFuYoM` Mother of Dragons, `gc6nfjiklRQ` Earthquake, `6-w0gu5NR_A` One Last Phone Call using media dir `C:/Users/Administrator/epic_media`, raw dir `data/raw/piped_epic_deepdive`, then batch media analysis to `C:/Users/Administrator/epic_analysis`. First attempt failed because `--out` is not a valid arg; correct args are `--media-dir` and `--raw-dir`.
+2. Epic deep-dive media job is running in background shell `epicdeep2`: downloading `_VqQezjbLes` Five Baby Dragons, `46mo0VFuYoM` Mother of Dragons, `gc6nfjiklRQ` Earthquake, `6-w0gu5NR_A` One Last Phone Call using media dir `C:/Users/Administrator/epic_media`, raw dir `data/raw/piped_epic_deepdive`, then batch media analysis to `C:/Users/Administrator/epic_analysis`. Downloads completed: all four mp4s and English subtitles are present. First analysis attempt failed because correct args are `--media-dir`, `--raw-dir`, `--out-root`; corrected background shell `epicanalysis` is now running with workers=2. Next read `C:/Users/Administrator/epic_analysis.log` and inspect contact sheets/openings/endings.
 3. Revisit `knowledge/market/cross-channel-audiovisual-findings.md` and correct any Ironcrest conclusions affected by subtitle contamination using corrected English subtitles.
 4. Integrate Epic/Ironcrest cross-validation into `.devin/skills/longform-animation-studio/SKILL.md`: child/creature protection is a cross-channel mechanism; disaster/adult crown spectacle is channel-fit dependent.
 5. Continue per-channel deep dives beyond Ironcrest: prioritize Epic’s Five Baby Dragons vs disaster/sci-fi underperformers; FablePop hit vs low; RIFTBORN compilation vs episodes; The Next Show mythic adventure hits/failures.
