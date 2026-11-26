@@ -92,7 +92,7 @@ def build_seed_board(scene: dict[str, Any], continuity_dependencies: list[str] |
         elif dialogue_key and not dialogue_key.startswith("exchange:") and not repeated_dialogue_beat:
             dialogue = keys[int(dialogue_key[-1])] if len(keys) > int(dialogue_key[-1]) else ""
         visual_action = scene_value(scene, source)
-        if exchange_turn and exchange_turn.get("action") and not repeated_dialogue_beat:
+        if exchange_turn and exchange_turn.get("action") and not repeated_dialogue_beat and source != "final_image":
             visual_action = str(exchange_turn["action"])
         sound_text = {
             "negative_space": sound.get("silence_or_negative_space", "ambient negative space"),

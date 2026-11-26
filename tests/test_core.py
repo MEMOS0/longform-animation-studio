@@ -821,3 +821,16 @@ def test_storyboard_seed_places_witness_objection_before_decision():
     witness_idx=next(i for i,s in enumerate(board['shots']) if 'one pair of hands carries it' in s['dialogue'])
     decision_idx=next(i for i,s in enumerate(board['shots']) if 'Help me carry it' in s['dialogue'])
     assert witness_idx < decision_idx
+
+
+def test_storyboard_seed_preserves_scripted_final_image():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.storyboard_seed import build_seed_board
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[1])
+    scene=generate_scenes(premise,generate_architecture(premise))[2]
+    board=build_seed_board(scene)
+    final=board['shots'][-1]
+    assert final['visual_action']==scene['visual_action']['final_image']
+    assert final['dialogue']
