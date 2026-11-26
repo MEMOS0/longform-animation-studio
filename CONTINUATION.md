@@ -357,3 +357,11 @@ Immediate next:
 2. Continue low-subscriber breakout discovery (zombie/reborn/werewolf/mermaid) and analyze one counterexample low video deeply enough to avoid survivorship bias.
 3. Improve generated scene dialogue beyond scaffolds; director seeds are validation scaffolds, not final hand-directed boards.
 4. Continue thumbnail hit/mid/low taxonomy across Spark, ELDSAGA, Ironcrest, Epic.
+
+## 2026-11-27 checkpoint — post-merge Spark counterexample branch
+
+PR #1 merged into main. New active branch/PR: `devin/1764820000-creature-production-deepening`, PR #2 `Add Spark low counterexample analysis`.
+
+Major addition: `wd53-C7Na0Y` low-view Spark counterexample. It is only 4 days old and cannot be declared a true failure, but it falsifies simplistic hit rules: it already has immediate serial-sacrifice danger, bodily marks, hidden-care shells, extraction metaphors, mutual protection, and a strong infrastructure dilemma. Low performance therefore must not be read as proof of bad writing. Key production lesson: strong hooks are necessary but insufficient; mythic/lore density still needs relational clarity, packaging-title alignment, home/community consequence, and closure before cosmic expansion.
+
+Tests: 56 passed. PR #2 pushed and opened.
