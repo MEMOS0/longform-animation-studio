@@ -51,8 +51,9 @@ Build a reusable professional AI-assisted long-form animation studio system, not
 4. Duplicate `THE LOST KIND` issue resolved at metadata/subtitle-fingerprint level: Everflame appears to reuse the hit title for a different dragon-bond story, not the same film/reupload. Optional next refinement: compare visual assets if full Everflame media is later downloaded.
 5. Within-channel thumbnail comparison completed at `knowledge/thumbnails/breakout-within-channel-thumbnail-comparison.md`; continue media comparison of recent breakouts: EchoDrama hit `lBhjowuJURw` vs lows `hchpYZaYFfU`/`SeQcIQBO7sQ`; Drakenhart hit `1Nv2aGUgIG4` vs lower `L5Xau3CAto0`/`hiyRGA1WbNs`. Within-channel media comparison completed in `knowledge/market/breakout-within-channel-media-comparison.md`. Key correction: low performers can have strong hooks; Hidden Beauty wins because minutes 1-5 convert wound into public humiliation + protective romance + payoff contract, while Mermaid becomes proof/administrative verification and My Name becomes cerebral contract negotiation. `opening_conversion_quality` machine check added to production evaluation; tests now 11 passed.
 6. Analyze recent breakout thumbnails in detail from `thumbnails/recent_breakouts_top24_montage.jpg` and per-image files. Initial synthesis is in `knowledge/market/recent-breakout-synthesis.md`.
-7. Validate production economics and provider docs before any paid generation; never spend without explicit approval.
-8. Continue integrating research into production decision-making, not just reports.
+7. Format-duration quantitative segmentation completed in `knowledge/market/format-duration-performance.md`; use it to refine future target-duration defaults.
+8. Validate production economics and provider docs before any paid generation; never spend without explicit approval.
+9. Continue integrating research into production decision-making, not just reports.
 
 ## Key creative synthesis to preserve
 
