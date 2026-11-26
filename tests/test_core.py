@@ -600,3 +600,13 @@ def test_closure_integrity_positive_recovery_negation_timing_sharing_and_plans()
     assert not any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},timing,sharing_scene)['warnings'])
     planned={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"she plans to enter the pump house and disable the array; the family comes home safe"}]}
     assert not any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},planned,[])['warnings'])
+
+
+def test_closure_integrity_rejects_false_or_premature_recovery_and_unrelated_plan_actual_collapse():
+    from studio.closure_integrity import evaluate_closure_integrity
+    arch={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"she destroys the water array"}]}
+    for scene_text in ["neighbors can't share supplies", "neighbors share their remaining secrets", "Earlier, the community rebuilds the water supply"]:
+      result=evaluate_closure_integrity({},arch,[{"scene_id":"S08","turn":scene_text}])
+      assert any('infrastructure/system collapse' in w for w in result['warnings']), scene_text
+    actual={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"she plans to disable the pump, and the array collapses"}]}
+    assert any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},actual,[])['warnings'])

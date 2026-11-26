@@ -17,7 +17,7 @@ COMMUNITY_CONSEQUENCE_TERMS = [
     "survive", "survives", "survived", "people are safe", "new system", "restore", "restores", "restored",
     "rebuild", "rebuilds", "rebuilt", "replace", "replaces", "replaced", "repair", "repairs", "repaired",
     "ration", "rations", "rationed", "redistribute", "redistributed", "communal", "shared water", "shared food",
-    "share their remaining", "share supplies", "shared supplies", "shares supplies", "keep everyone fed", "keeps everyone fed",
+    "share their remaining supplies", "share remaining supplies", "share supplies", "shared supplies", "shares supplies", "keep everyone fed", "keeps everyone fed",
     "feed everyone", "feeds everyone", "food is shared", "water is shared",
 ]
 COLLAPSE_PATTERNS = [
@@ -65,7 +65,7 @@ def _all_positions(text: str, terms: list[str]) -> dict[str, list[int]]:
 def _positive_term_positions(text: str, terms: list[str]) -> dict[str, list[int]]:
     lowered = text.lower()
     found: dict[str, list[int]] = {}
-    negation_before = re.compile(r"(?:beyond|without|no|not|never|unable to|fails? to|impossible to)\s+$")
+    negation_before = re.compile(r"(?:beyond|without|no|not|never|unable to|fails? to|impossible to|can't|cannot)\s+$")
     for term in terms:
         positions = []
         for match in re.finditer(re.escape(term), lowered):
@@ -94,7 +94,7 @@ def _is_hypothetical(text: str, position: int) -> bool:
     after = text[position:end]
     if CONDITION_RE.search(before) or CONDITION_RE.search(after):
         return True
-    if re.search(r"\b(?:after|before|when|while|as)\s+(?:the\s+)?$", before):
+    if re.search(r"\b(?:after|before|when|while|as)\s+(?:the\s+)?$", before) or re.search(r"\band\s+(?:the|a|an)\s+$", before):
         return False
     if MODAL_RE.search(before) or INTENT_RE.search(before) or NEGATION_RE.search(before):
         return True
@@ -139,7 +139,7 @@ def _scene_has_later_recovery(text: str) -> bool:
     if collapse_positions:
         earliest_collapse = collapse_positions[0]
         return _has_positions_after(positions, earliest_collapse)
-    explicitly_prior = re.search(r"\b(?:before|prior to)\s+(?:the\s+)?(?:collapse|outage|failure|shutdown)\b", lowered) or re.search(r"\b(?:already|previously)\s+(?:rebuilt|restored|repaired)\s+before\b", lowered)
+    explicitly_prior = re.search(r"\b(?:before|prior to)\s+(?:the\s+)?(?:collapse|outage|failure|shutdown)\b", lowered) or re.search(r"\b(?:already|previously)\s+(?:rebuilt|restored|repaired)\s+before\b", lowered) or re.search(r"\b(?:earlier|previously|in flashback|before then|initially)\b", lowered)
     if explicitly_prior:
         return False
     return True
