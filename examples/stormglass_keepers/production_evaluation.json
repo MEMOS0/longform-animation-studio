@@ -1038,6 +1038,75 @@
       "Track actual generated seconds separately; iteration ratio is a production KPI, not a creative afterthought."
     ]
   },
+  "dialogue_craft": {
+    "scenes": [
+      {
+        "scene_id": "S01",
+        "line_count": 2,
+        "exposition_line_count": 0,
+        "power_action_line_count": 2,
+        "long_line_count": 0,
+        "warnings": []
+      },
+      {
+        "scene_id": "S02",
+        "line_count": 2,
+        "exposition_line_count": 0,
+        "power_action_line_count": 2,
+        "long_line_count": 0,
+        "warnings": []
+      },
+      {
+        "scene_id": "S03",
+        "line_count": 2,
+        "exposition_line_count": 0,
+        "power_action_line_count": 2,
+        "long_line_count": 0,
+        "warnings": []
+      },
+      {
+        "scene_id": "S04",
+        "line_count": 2,
+        "exposition_line_count": 0,
+        "power_action_line_count": 2,
+        "long_line_count": 0,
+        "warnings": []
+      },
+      {
+        "scene_id": "S05",
+        "line_count": 2,
+        "exposition_line_count": 0,
+        "power_action_line_count": 2,
+        "long_line_count": 0,
+        "warnings": []
+      },
+      {
+        "scene_id": "S06",
+        "line_count": 2,
+        "exposition_line_count": 0,
+        "power_action_line_count": 2,
+        "long_line_count": 0,
+        "warnings": []
+      },
+      {
+        "scene_id": "S07",
+        "line_count": 2,
+        "exposition_line_count": 0,
+        "power_action_line_count": 2,
+        "long_line_count": 0,
+        "warnings": []
+      },
+      {
+        "scene_id": "S08",
+        "line_count": 2,
+        "exposition_line_count": 0,
+        "power_action_line_count": 2,
+        "long_line_count": 0,
+        "warnings": []
+      }
+    ],
+    "warnings_by_scene": {}
+  },
   "gates": {
     "A_premise": "pass",
     "B_architecture": "pass",

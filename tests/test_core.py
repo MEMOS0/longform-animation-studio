@@ -108,3 +108,11 @@ def test_title_intelligence_creature_contract():
     assert rows and rows[0]["critique"]["score_0_to_1"] > 0.5
     weak = critique_title("Epic Fantasy World Adventure")
     assert weak["risks"]
+
+
+def test_dialogue_craft_flags_exposition():
+    from studio.dialogue_craft import critique_lines
+    result = critique_lines(["As you know, the prophecy says our kingdom was founded years ago.", "Let me explain the legend says our world is ending."], 1)
+    assert result["warnings"]
+    strong = critique_lines(["I won't let them take her.", "Then choose. Protect her or expose me."], 1)
+    assert strong["power_action_line_count"] == 2

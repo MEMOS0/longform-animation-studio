@@ -14,6 +14,7 @@ from .channel_contracts import evaluate_channel_fit
 from .production_economics import estimate_video_budget
 from .shot_pipeline import build_shot_plan
 from .title_intelligence import critique_title, generate_title_candidates
+from .dialogue_craft import evaluate_scenes_dialogue
 
 SCHEMA_DIR = Path(__file__).resolve().parents[1] / "schemas"
 
@@ -173,5 +174,6 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "channel_contract_fit": evaluate_channel_fit(combined, premise.get("channel_contract", "")),
         "production_economics": estimate_video_budget(premise.get("target_minutes")),
         "shot_pipeline": build_shot_plan(scenes, premise.get("target_minutes")) if scenes else {"shot_count": 0, "warnings": ["no scenes supplied"]},
+        "dialogue_craft": evaluate_scenes_dialogue(scenes),
         "gates": gate_report(schema_errors, failure, scene_report, architecture_report),
     }
