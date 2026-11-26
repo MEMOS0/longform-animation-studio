@@ -30,6 +30,8 @@ python -m studio.cli evaluate-project \
 - `data/raw/` and `data/processed/`: source metadata, subtitle files, archive tables, cohort comparisons, and machine-generated analysis outputs.
 - `thumbnails/reference/`: persistent thumbnail reference archive organized for hit/middle/failure comparison.
 - `examples/stormglass_keepers/`: original production example showing how research becomes a validated film package.
+- `examples/generated_concepts/`: generated original social-test melodrama packages with premise/architecture/scenes/director-seed boards/evaluations.
+- `examples/generated_creature_concepts/`: generated creature-economic melodrama packages derived from Spark/ELDSAGA evidence.
 
 ## Evidence policy
 
@@ -79,6 +81,8 @@ Implemented and evidenced:
 - Epic/FablePop/RIFTBORN/The Next Show/cross-channel hit-failure analysis
 - Korean/breakout microdrama investigation
 - first/second/third/fourth-pass recent breakout analysis
+- ELDSAGA creature/sci-fi hit-low comparison and falsification guard
+- Spark Shorts 23-video hit/low comparison, including desert-mermaid economic creature melodrama and curse-blood romantic sacrifice epic
 - duplicate-title forensic comparison using subtitle fingerprints and opening visuals
 - thumbnail reference archive and taxonomy
 - sound-design evidence for power shifts, care transitions, and negative space
@@ -99,6 +103,18 @@ Do not strip evidence to make the repository look clean. If generated evidence i
 2. machine-readable contracts or evaluators when the lesson is repeatable,
 3. `CONTINUATION.md`,
 4. tests or example evaluation when logic changes.
+
+## Original concept generation
+
+Generate evidence-informed original packages without copying reference plots:
+
+```bash
+python -m studio.cli generate-premises --output-dir examples/generated_concepts --count 3 --contract social_test_melodrama --target-minutes 42
+python -m studio.cli generate-premises --output-dir examples/generated_creature_concepts --count 2 --contract creature_economic_melodrama --target-minutes 42
+python -m studio.cli seed-storyboards --scenes examples/generated_creature_concepts/salt_window_garden_scenes --output-dir examples/generated_creature_concepts/salt_window_garden_storyboards
+```
+
+Generated storyboards are **director seeds**: schema-valid, continuous, non-uniform scaffolds for further human/agent direction, not final production boards.
 
 ## Production prompt export
 
