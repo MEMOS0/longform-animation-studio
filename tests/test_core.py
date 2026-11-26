@@ -199,3 +199,9 @@ def test_director_seed_storyboards_continuous():
     assert len(files) == 8
     for path in files:
         assert validate_storyboard_file(path)["valid"], path
+
+def test_malformed_contract_sections_do_not_abort_and_score_zero():
+    from studio.meaning_carrier import evaluate_meaning_carrier
+    from studio.relational_contract import evaluate_relational_contract
+    assert evaluate_meaning_carrier({"meaning_carrier": "bread"}, {})["score_0_to_1"] == 0.0
+    assert evaluate_relational_contract({"relational_contract": ["x"]})["score_0_to_1"] == 0.0

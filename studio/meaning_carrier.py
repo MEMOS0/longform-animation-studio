@@ -33,8 +33,16 @@ def final_sequence_text(architecture: dict[str, Any]) -> str:
 
 def evaluate_meaning_carrier(premise: dict[str, Any], architecture: dict[str, Any] | None = None) -> dict[str, Any]:
     architecture = architecture or {}
-    explicit = premise.get("meaning_carrier") or {}
+    raw_explicit = premise.get("meaning_carrier") or {}
     warnings: list[str] = []
+    if raw_explicit and not isinstance(raw_explicit, dict):
+        return {
+            "mode": "malformed",
+            "score_0_to_1": 0.0,
+            "warnings": ["meaning_carrier must be an object; malformed premise section was not evaluated"],
+            "craft_rule": "A physical object, space, sound-object, or ritual should carry the wound in the opening and return with changed meaning in the payoff.",
+        }
+    explicit = raw_explicit
     mode = "explicit" if explicit else "inferred"
 
     if explicit:

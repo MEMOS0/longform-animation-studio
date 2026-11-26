@@ -13,8 +13,15 @@ REQUIRED_FIELDS = [
 
 
 def evaluate_relational_contract(premise: dict[str, Any]) -> dict[str, Any]:
-    explicit = premise.get("relational_contract") or {}
+    raw_explicit = premise.get("relational_contract") or {}
     warnings: list[str] = []
+    if raw_explicit and not isinstance(raw_explicit, dict):
+        return {
+            "score_0_to_1": 0.0,
+            "warnings": ["relational_contract must be an object; malformed premise section was not evaluated"],
+            "craft_rule": "Power-asymmetric relationships are strongest when safety or costly kindness precedes power, and the ending repairs consent/personhood rather than rewarding coercion.",
+        }
+    explicit = raw_explicit
     if not explicit:
         return {
             "score_0_to_1": 0.0,
