@@ -54,8 +54,9 @@ def validate_storyboard(data: dict[str, Any]) -> dict[str, Any]:
             warnings.append("some shots are too short for readable emotional/action continuity")
         if max(durations) > 45.0:
             warnings.append("some shots are long enough to risk invisibility of cutting rhythm or generative drift")
-    if not any("cage" in str(s.get("dialogue", "")).lower() or "trust" in str(s.get("dialogue", "")).lower() for s in shots):
-        warnings.append("core protection/trust theme is not explicit in dialogue")
+    theme_terms = ("cage", "trust", "protect", "choose", "proof", "prove", "save", "help", "refuse")
+    if not any(any(term in str(s.get("dialogue", "")).lower() for term in theme_terms) for s in shots):
+        warnings.append("core protection/trust/agency theme is not explicit in dialogue")
     return {"shot_count": len(shots), "covered_seconds": round(cursor, 2), "hero_shots": hero_count, "errors": errors, "warnings": warnings, "valid": not errors}
 
 

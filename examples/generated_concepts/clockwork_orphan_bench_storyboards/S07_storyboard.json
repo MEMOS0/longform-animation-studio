@@ -1,0 +1,413 @@
+{
+  "scene_id": "S07",
+  "duration_seconds": 354.0,
+  "coverage": "continuous_exact_format_director_seed",
+  "shots": [
+    {
+      "shot_id": "S07_DS001",
+      "timecode": "0.00-22.29",
+      "duration_seconds": 22.29,
+      "scene_id": "S07",
+      "shot_size": "wide establishing",
+      "camera_intent": "slow push",
+      "visual_action": "preparation for the same-audience confrontation, with the original space reset as a trap for truth",
+      "dialogue": "",
+      "sound_design": "near-silent resolve and restrained breathing rather than triumphant music",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: open on the scene image"
+    },
+    {
+      "shot_id": "S07_DS002",
+      "timecode": "22.29-35.66",
+      "duration_seconds": 13.37,
+      "scene_id": "S07",
+      "shot_size": "intimate closeup",
+      "camera_intent": "settle",
+      "visual_action": "the protagonist's expression shifts from fear toward controlled attention when the turn lands",
+      "dialogue": "",
+      "sound_design": "breath/room tone",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+    },
+    {
+      "shot_id": "S07_DS003",
+      "timecode": "35.66-49.03",
+      "duration_seconds": 13.37,
+      "scene_id": "S07",
+      "shot_size": "intimate closeup",
+      "camera_intent": "settle",
+      "visual_action": "the protagonist's expression shifts from fear toward controlled attention when the turn lands",
+      "dialogue": "",
+      "sound_design": "breath/room tone",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+    },
+    {
+      "shot_id": "S07_DS004",
+      "timecode": "49.03-66.68",
+      "duration_seconds": 17.64,
+      "scene_id": "S07",
+      "shot_size": "action wide",
+      "camera_intent": "lateral track",
+      "visual_action": "proof chain completion and relational repair before public victory",
+      "dialogue": "",
+      "sound_design": "environmental action foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
+    },
+    {
+      "shot_id": "S07_DS005",
+      "timecode": "66.68-84.32",
+      "duration_seconds": 17.64,
+      "scene_id": "S07",
+      "shot_size": "action wide",
+      "camera_intent": "lateral track",
+      "visual_action": "proof chain completion and relational repair before public victory",
+      "dialogue": "",
+      "sound_design": "environmental action foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
+    },
+    {
+      "shot_id": "S07_DS006",
+      "timecode": "84.32-105.12",
+      "duration_seconds": 20.8,
+      "scene_id": "S07",
+      "shot_size": "power two-shot",
+      "camera_intent": "slow tightening",
+      "visual_action": "the final witness/object/timeline locks into place; the protagonist claims the right to present the proof personally",
+      "dialogue": "I choose the room, the witnesses, and the questions.",
+      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+    },
+    {
+      "shot_id": "S07_DS007",
+      "timecode": "105.12-125.92",
+      "duration_seconds": 20.8,
+      "scene_id": "S07",
+      "shot_size": "power two-shot",
+      "camera_intent": "slow tightening",
+      "visual_action": "the final witness/object/timeline locks into place; the protagonist claims the right to present the proof personally",
+      "dialogue": "I choose the room, the witnesses, and the questions.",
+      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+    },
+    {
+      "shot_id": "S07_DS008",
+      "timecode": "125.92-137.44",
+      "duration_seconds": 11.52,
+      "scene_id": "S07",
+      "shot_size": "pressure insert",
+      "camera_intent": "macro",
+      "visual_action": "the final witness/object/timeline locks into place; the protagonist claims the right to present the proof personally",
+      "dialogue": "",
+      "sound_design": "object/room texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: insert pressure detail"
+    },
+    {
+      "shot_id": "S07_DS009",
+      "timecode": "137.44-152.67",
+      "duration_seconds": 15.23,
+      "scene_id": "S07",
+      "shot_size": "decision closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "after the accusation, authority figures must trust her account, return control of the proof, and accept her conditions rather than buying forgiveness",
+      "dialogue": "If you want forgiveness, change what you do before you ask for trust.",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+    },
+    {
+      "shot_id": "S07_DS010",
+      "timecode": "152.67-167.90",
+      "duration_seconds": 15.23,
+      "scene_id": "S07",
+      "shot_size": "decision closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "after the accusation, authority figures must trust her account, return control of the proof, and accept her conditions rather than buying forgiveness",
+      "dialogue": "If you want forgiveness, change what you do before you ask for trust.",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+    },
+    {
+      "shot_id": "S07_DS011",
+      "timecode": "167.90-192.79",
+      "duration_seconds": 24.89,
+      "scene_id": "S07",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "the final witness/object/timeline locks into place; the protagonist claims the right to present the proof personally",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+    },
+    {
+      "shot_id": "S07_DS012",
+      "timecode": "192.79-217.67",
+      "duration_seconds": 24.89,
+      "scene_id": "S07",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "the final witness/object/timeline locks into place; the protagonist claims the right to present the proof personally",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+    },
+    {
+      "shot_id": "S07_DS013",
+      "timecode": "217.67-232.16",
+      "duration_seconds": 14.49,
+      "scene_id": "S07",
+      "shot_size": "vertical composition",
+      "camera_intent": "high or low angle",
+      "visual_action": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+      "dialogue": "",
+      "sound_design": "negative space",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
+    },
+    {
+      "shot_id": "S07_DS014",
+      "timecode": "232.16-251.66",
+      "duration_seconds": 19.5,
+      "scene_id": "S07",
+      "shot_size": "subtext two-shot",
+      "camera_intent": "slow lateral drift",
+      "visual_action": "Forgiveness is not owed before conduct changes.",
+      "dialogue": "Give me back the proof and I will show you the truth.",
+      "sound_design": "music enters only when relational power changes; it must not paper over unresolved tension",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+    },
+    {
+      "shot_id": "S07_DS015",
+      "timecode": "251.66-271.16",
+      "duration_seconds": 19.5,
+      "scene_id": "S07",
+      "shot_size": "subtext two-shot",
+      "camera_intent": "slow lateral drift",
+      "visual_action": "Forgiveness is not owed before conduct changes.",
+      "dialogue": "Give me back the proof and I will show you the truth.",
+      "sound_design": "music enters only when relational power changes; it must not paper over unresolved tension",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+    },
+    {
+      "shot_id": "S07_DS016",
+      "timecode": "271.16-288.25",
+      "duration_seconds": 17.09,
+      "scene_id": "S07",
+      "shot_size": "consequence wide",
+      "camera_intent": "backward track",
+      "visual_action": "visible consequence of after the accusation, authority figures must trust her account, return control of the proof, and accept her conditions rather than buying forgiveness",
+      "dialogue": "",
+      "sound_design": "consequence foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
+    },
+    {
+      "shot_id": "S07_DS017",
+      "timecode": "288.25-305.34",
+      "duration_seconds": 17.09,
+      "scene_id": "S07",
+      "shot_size": "consequence wide",
+      "camera_intent": "backward track",
+      "visual_action": "visible consequence of after the accusation, authority figures must trust her account, return control of the proof, and accept her conditions rather than buying forgiveness",
+      "dialogue": "",
+      "sound_design": "consequence foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
+    },
+    {
+      "shot_id": "S07_DS018",
+      "timecode": "305.34-316.11",
+      "duration_seconds": 10.77,
+      "scene_id": "S07",
+      "shot_size": "sensory bridge",
+      "camera_intent": "insert or detail",
+      "visual_action": "flat brass tuning key visible after the power shift, its meaning altered by: all layers of the proof chain align through flat brass tuning key: object, craft knowledge, timeline, witness, and motive",
+      "dialogue": "",
+      "sound_design": "object/motif texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition"
+    },
+    {
+      "shot_id": "S07_DS019",
+      "timecode": "316.11-326.88",
+      "duration_seconds": 10.77,
+      "scene_id": "S07",
+      "shot_size": "sensory bridge",
+      "camera_intent": "insert or detail",
+      "visual_action": "flat brass tuning key visible after the power shift, its meaning altered by: all layers of the proof chain align through flat brass tuning key: object, craft knowledge, timeline, witness, and motive",
+      "dialogue": "",
+      "sound_design": "object/motif texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition"
+    },
+    {
+      "shot_id": "S07_DS020",
+      "timecode": "326.88-354.00",
+      "duration_seconds": 27.12,
+      "scene_id": "S07",
+      "shot_size": "final image",
+      "camera_intent": "slow pull-back",
+      "visual_action": "flat brass tuning key visible after the power shift, its meaning altered by: all layers of the proof chain align through flat brass tuning key: object, craft knowledge, timeline, witness, and motive",
+      "dialogue": "I choose the room, the witnesses, and the questions.",
+      "sound_design": "a restrained tactile sound motif unresolved",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power"
+    }
+  ],
+  "validation_rules": [
+    "seed must be manually/directorially refined before production",
+    "no gaps or overlaps",
+    "sound and power transitions must remain explicit",
+    "shot pacing must remain intentionally varied"
+  ]
+}

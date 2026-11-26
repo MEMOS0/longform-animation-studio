@@ -14,6 +14,7 @@ from .production import evaluate_project
 from .release_learning import release_postmortem
 from .storyboard_production import export_manifest
 from .premise_generator import generate_and_write
+from .storyboard_seed import write_seed_boards
 from .youtube_archive import collect
 
 
@@ -66,6 +67,10 @@ def main() -> None:
     prompts_p.add_argument("--output-dir", required=True)
     prompts_p.add_argument("--project-id", default="project")
 
+    seed_p = sub.add_parser("seed-storyboards")
+    seed_p.add_argument("--scenes", required=True)
+    seed_p.add_argument("--output-dir", required=True)
+
     post_p = sub.add_parser("release-postmortem")
     post_p.add_argument("--release", required=True, help="release metadata JSON with video_id,title,views,age_days")
     post_p.add_argument("--preproduction", default="")
@@ -106,6 +111,9 @@ def main() -> None:
     elif args.command == "export-production-prompts":
         result = export_manifest(Path(args.storyboards), Path(args.output_dir), args.project_id)
         print(json.dumps({"output": str(Path(args.output_dir) / "production_manifest.json"), "shot_count": result["shot_count"], "scene_count": result["scene_count"]}, indent=2))
+    elif args.command == "seed-storyboards":
+        result = write_seed_boards(Path(args.scenes), Path(args.output_dir))
+        print(json.dumps({"output_dir": args.output_dir, "scene_count": result["scene_count"], "shot_count": sum(row["shot_count"] for row in result["boards"])}, indent=2))
     elif args.command == "release-postmortem":
         release = json.loads(Path(args.release).read_text(encoding="utf-8"))
         pre = json.loads(Path(args.preproduction).read_text(encoding="utf-8")) if args.preproduction else None

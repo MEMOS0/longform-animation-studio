@@ -467,3 +467,17 @@ def test_generated_scene_scaffold_schema_valid():
     with tempfile.TemporaryDirectory() as d:
       path=Path(d)/'scene.json';path.write_text(json.dumps(scenes[0],ensure_ascii=False),encoding='utf8')
       assert validate_artifact(path,'scene-screenplay.schema.json')==[]
+
+
+def test_generated_storyboard_seeds_validate_continuous_nonuniform():
+    from pathlib import Path
+    from studio.storyboard import validate_storyboard_file
+    import subprocess,sys,tempfile
+    with tempfile.TemporaryDirectory() as d:
+      subprocess.run([sys.executable,'-m','studio.cli','seed-storyboards','--scenes','examples/generated_concepts/glasswing_banquet_platform_scenes','--output-dir',d],check=True,capture_output=True)
+      files=sorted(Path(d).glob('*_storyboard.json'))
+      assert len(files)==8
+      for path in files:
+        result=validate_storyboard_file(path)
+        assert result['valid']
+        assert not any('nearly uniform' in w for w in result['warnings'])
