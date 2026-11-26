@@ -99,3 +99,12 @@ Immediate next work:
 3. Continue recent breakout discovery and analyze additional low-base channels.
 4. Deepen sound/music evidence into timestamped sound-design notes; current sound design is craft-level but less empirically timestamped than visual/subtitle evidence.
 5. Do not spend money or create provider accounts; no secrets exist in session.
+
+
+## 2026-11-26 continuity emergency checkpoint
+
+Latest pushed commit: `d34b8da Strengthen retention architecture validation`. Tests: 19 passed before commit.
+
+Important infrastructure note: session rotation repeatedly zeroes `.git/refs/heads/devin/1764170700-failure-intelligence-foundation` and matching remote-tracking ref. If git says branch broken/not on branch while working tree is intact, recover the latest commit hash from `.git/logs/refs/heads/...` and `.git/logs/refs/remotes/...`, write it back into both ref files, then verify `git log`/`git status`. Do not reclone or discard work. Latest repair used `18ea352...` before committing `d34b8da`.
+
+Newest machine gate: `architecture_quality` now validates continuous sequence time coverage, parseable ranges, target-duration coverage, maximum sequence length, and required retention fields (`turn`, `protagonist_choice`, `emotional_shift`, `visual_setpiece`, `sound_design_intent`, `retention_hook`). Stormglass passes with zero warnings, 8 sequences, coverage ending at 48 minutes.
