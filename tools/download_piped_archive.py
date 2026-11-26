@@ -116,10 +116,26 @@ def fetch_one(video_id: str, media_dir: Path, raw_dir: Path, skip_media: bool = 
 
         subtitles = data.get("subtitles") or []
         if subtitles:
-            subtitle_url = subtitles[0].get("url")
+            def subtitle_rank(item: dict) -> tuple[int, str]:
+                code = (item.get("code") or "").lower()
+                name = (item.get("name") or "").lower()
+                if code == "en" or name == "english":
+                    return (0, code)
+                if code.startswith("en"):
+                    return (1, code)
+                return (2, code)
+            chosen_subtitle = sorted(subtitles, key=subtitle_rank)[0]
+            subtitle_url = chosen_subtitle.get("url")
             if subtitle_url:
-                sub_path = download_file(validate_media_url(subtitle_url), raw_dir / f"{video_id}.en.ttml")
+                suffix = (chosen_subtitle.get("code") or "unknown").lower()
+                sub_path = download_file(validate_media_url(subtitle_url), raw_dir / f"{video_id}.{suffix}.ttml")
                 result["subtitle_path"] = str(sub_path)
+                result["subtitle_language"] = chosen_subtitle.get("code")
+                # Backward-compatible alias for downstream English-analysis tools.
+                if suffix == "en":
+                    alias = raw_dir / f"{video_id}.en.ttml"
+                    if alias != sub_path:
+                        shutil.copyfile(sub_path, alias)
 
         streams = data.get("videoStreams") or []
         progressive = [s for s in streams if not s.get("videoOnly") and s.get("url")]
