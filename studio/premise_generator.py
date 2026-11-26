@@ -16,6 +16,7 @@ from .format_strategy import format_strategy
 from .meaning_carrier import evaluate_meaning_carrier
 from .relational_contract import evaluate_relational_contract
 from .spatial_status import evaluate_spatial_status
+from .architecture_generator import generate_architecture
 
 VARIANTS = [
     {
@@ -188,5 +189,8 @@ def generate_and_write(output_dir: Path, count: int, target_minutes: float, arch
         evaluation = evaluate_generated_premise(premise, archive_rows)
         eval_path = output_dir / f"{premise['premise_id']}_evaluation.json"
         eval_path.write_text(json.dumps(evaluation, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-        rows.append({"premise_id": premise["premise_id"], "path": str(path), "evaluation_path": str(eval_path), "evaluation": evaluation})
+        architecture = generate_architecture(premise)
+        arch_path = output_dir / f"{premise['premise_id']}_architecture.json"
+        arch_path.write_text(json.dumps(architecture, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        rows.append({"premise_id": premise["premise_id"], "path": str(path), "evaluation_path": str(eval_path), "architecture_path": str(arch_path), "evaluation": evaluation})
     return {"count": len(rows), "premises": rows}
