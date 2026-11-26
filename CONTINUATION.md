@@ -108,3 +108,24 @@ Latest pushed commit: `d34b8da Strengthen retention architecture validation`. Te
 Important infrastructure note: session rotation repeatedly zeroes `.git/refs/heads/devin/1764170700-failure-intelligence-foundation` and matching remote-tracking ref. If git says branch broken/not on branch while working tree is intact, recover the latest commit hash from `.git/logs/refs/heads/...` and `.git/logs/refs/remotes/...`, write it back into both ref files, then verify `git log`/`git status`. Do not reclone or discard work. Latest repair used `18ea352...` before committing `d34b8da`.
 
 Newest machine gate: `architecture_quality` now validates continuous sequence time coverage, parseable ranges, target-duration coverage, maximum sequence length, and required retention fields (`turn`, `protagonist_choice`, `emotional_shift`, `visual_setpiece`, `sound_design_intent`, `retention_hook`). Stormglass passes with zero warnings, 8 sequences, coverage ending at 48 minutes.
+
+## 2026-11-26 context checkpoint — third-pass media intelligence
+
+Latest pushed commit when this note was written: `29b74f6 Validate middle object chains in breakout dramas`. Tests: **22 passed** before latest commit. Check `git log` because review-triggered follow-up commits may exist.
+
+Completed in this phase:
+
+- Third-pass raw metadata/subtitles committed under `data/raw/piped_thirdpass/` for `TKUd7hWPMD8`, `iUnnJucKB2o`, `Gx7nwqNr9YY`, `ylN26llRtmw`, `62vBW1_B92Y`. Media remains local in `C:/Users/Administrator/thirdpass_media/`, not committed.
+- `knowledge/market/third-pass-breakout-media-deep-dive.md` now includes opening/ending subtitle+sampled visual evidence plus middle validation for `62`, `TK`, and `iUnn`. Important correction: LESO faith reversal is not merely miracle montage; cooking competence, customer validation, 200-plate order, reinvestment, operational discipline, losses, and eventual restaurant/hotel ownership carry the middle.
+- `TK` middle evidence: plate/floor/gold system evolves through foundation capture, forced apology, valuation/fraud investigation, arrest/separation, brass/goldsmith proof, medical reciprocity, and livestream exposure. `iUnn` middle evidence: bread/bakery economics evolve through tray labor, refusal to sell air, Crescent Bakery restoration demand, 40m debt/planted-theft fraud, oven loss, moon-scar identity proof, and ledger reversal.
+- New channel contracts: `social_test_melodrama`, `machine_personhood_scifi`, `faith_reversal_melodrama`; transformation contract strengthened with consent repair and meaning-changing object rules. Remember to sync edits to both `knowledge/market/channel_contracts.json` and `studio/package_data/channel_contracts.json`.
+- Thumbnail archive expanded with third-pass maxres references; combined 10-image montage `thumbnails/rediscovery_breakouts_top10_montage.jpg`; taxonomy `knowledge/thumbnails/rediscovery-breakout-thumbnail-taxonomy.md`.
+- New machine gate `studio/meaning_carrier.py` validates physical object/space/sound-object recurrence and changed meaning. Schema now accepts optional `meaning_carrier`; Stormglass has explicit carrier and passes evaluation score 1.0. Tests 22 passing.
+- Skill/README updated with circular-object and consent/personhood correction rules.
+
+Immediate next work:
+
+1. If Devin Review findings arrive for current head, fix concrete findings first.
+2. Finish middle validation for `Gx7nwqNr9YY` and `ylN26llRtmw` using local fullfilm sheets already generated at `C:/Users/Administrator/thirdpass_analysis/<id>/fullfilm_sheet.jpg` and subtitle windows. Add concise evidence to the same report.
+3. Continue exact director-level storyboards beyond S01 or controlled scene-by-scene conversion of continuous scaffold.
+4. Continue recent breakout discovery; do not spend money or create provider accounts.
