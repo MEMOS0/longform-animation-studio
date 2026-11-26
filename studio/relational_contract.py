@@ -42,10 +42,19 @@ def kindness_is_before_power(text: str) -> bool:
     return any(pattern in text for pattern in BEFORE_REVEAL_PATTERNS)
 
 
-def positive_outside_denials(text: str) -> bool:
-    stripped = text
+def mask_denials(text: str) -> str:
+    masked = list(text)
     for term in sorted(DENIAL_TERMS, key=len, reverse=True):
-        stripped = stripped.replace(term, " ")
+        position = text.find(term)
+        while position >= 0:
+            for index in range(position, position + len(term)):
+                masked[index] = " "
+            position = text.find(term, position + 1)
+    return "".join(masked)
+
+
+def positive_outside_denials(text: str) -> bool:
+    stripped = mask_denials(text)
     return any(positive in stripped for positive in REPAIR_TERMS)
 
 
@@ -73,16 +82,29 @@ def clause_texts(text: str) -> list[str]:
     return [part.strip() for part in parts if part.strip()]
 
 
+def positive_clause_is_flashback(clause: str, positive_position: int) -> bool:
+    strong_markers = {"once", "at first", "at the start", "opening", "previously", "used to", "initially", "earlier", "originally", "back then", "in the past"}
+    leading = clause.lstrip()
+    if any(leading.startswith(marker) for marker in strong_markers):
+        return True
+    for marker in PAST_MARKERS:
+        marker_position = clause.find(marker)
+        if marker_position < 0:
+            continue
+        if marker_position < positive_position:
+            return True
+        if marker in {"at first", "at the start", "previously", "originally", "back then", "in the past"}:
+            return True
+    return False
+
+
 def positive_repair_after(text: str) -> bool:
     for clause in clause_texts(text):
-        stripped = clause
-        for term in sorted(DENIAL_TERMS, key=len, reverse=True):
-            stripped = stripped.replace(term, " ")
+        stripped = mask_denials(clause)
         positive_positions = [stripped.find(positive) for positive in REPAIR_TERMS if stripped.find(positive) >= 0]
         if not positive_positions:
             continue
-        marker_positions = [clause.find(marker) for marker in PAST_MARKERS if clause.find(marker) >= 0]
-        if marker_positions and min(positive_positions) > min(marker_positions):
+        if positive_clause_is_flashback(clause, min(positive_positions)):
             continue
         return True
     return False
@@ -111,11 +133,17 @@ def denial_is_unresolved(text: str) -> bool:
         local = text[local_start:local_end]
         prefix = text[local_start:start]
         suffix = text[end:]
-        explicitly_past = any(marker in local for marker in PAST_MARKERS)
+        occurrence_offset = start - local_start
+        marker_positions = [(marker, local.find(marker)) for marker in PAST_MARKERS if local.find(marker) >= 0]
+        past_before = any(position < occurrence_offset for _, position in marker_positions)
+        trailing_past = any(marker in local[occurrence_offset:] for marker in ["at first", "at the start", "previously", "originally", "back then", "in the past"])
+        explicitly_past = past_before or trailing_past
         denial_lifted = re.search(r"no longer\s+(?:\w+\s+){0,3}$", prefix) is not None or re.search(r"no more\s+(?:\w+\s+){0,3}$", prefix) is not None
-        if explicitly_past:
+        if denial_lifted and not past_before:
+            unresolved = False
+        elif explicitly_past:
             continue
-        if denial_lifted:
+        elif denial_lifted:
             unresolved = False
         elif positive_repair_after(suffix):
             unresolved = False

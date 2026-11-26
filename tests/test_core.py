@@ -330,3 +330,9 @@ def test_meaning_carrier_prepositional_prop_keeps_main_object():
     assert any("final two architecture" in w for w in bad["warnings"])
     good=evaluate_meaning_carrier({"meaning_carrier":carrier},{"sequences":[{"visual_setpiece":"the key turns once more"}]})
     assert not any("final two architecture" in w for w in good["warnings"])
+
+def test_relational_contract_present_repair_with_past_comparison():
+    from studio.relational_contract import denial_is_unresolved
+    assert not denial_is_unresolved("she had no choice. she is no longer denied choice as she was before")
+    assert not denial_is_unresolved("she had no choice. she can now choose for herself, something she could not do before")
+    assert denial_is_unresolved("at the payoff she has no choice. earlier she was free at the start")
