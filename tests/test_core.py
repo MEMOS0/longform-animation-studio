@@ -423,3 +423,17 @@ def test_webvtt_drops_zero_duration_duplicate_caption(tmp_path):
     p.write_text("WEBVTT\n\n00:00:01.000 --> 00:00:02.000\nHello there.\n\n00:00:02.000 --> 00:00:02.010\nHello there.\n",encoding='utf8')
     cues=parse_ttml(p)
     assert len(cues)==1
+
+
+def test_spatial_status_detects_circular_inversion():
+    from studio.spatial_status import evaluate_spatial_status
+    good={
+      "opening_event":{"first_10_seconds":"a maid kneels on the floor below the dinner table while the billionaire family sits and laughs"},
+    }
+    arch={"sequences":[{"time_range":"0-10","turn":"maid serves at table"},{"time_range":"70-80","turn":"the family chooses a floor mat because everybody fits"}],"ending_payoff":{"final_image":"the floor becomes chosen belonging at the family meal"}}
+    result=evaluate_spatial_status(good,arch,[])
+    assert result['score_0_to_1']>0.7
+    assert not result['warnings']
+    bad=evaluate_spatial_status({"opening_event":{"first_10_seconds":"a woman feels sad"}},{"sequences":[],"ending_payoff":{"final_image":"she becomes rich"}},[])
+    assert bad['warnings']
+    assert bad['score_0_to_1']<result['score_0_to_1']

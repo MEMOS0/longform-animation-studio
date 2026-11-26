@@ -7453,6 +7453,50 @@
     "warnings": [],
     "craft_rule": "Power-asymmetric relationships are strongest when safety or costly kindness precedes power, and the ending repairs consent/personhood rather than rewarding coercion."
   },
+  "spatial_status_intelligence": {
+    "score_0_to_1": 1.0,
+    "opening_status_spaces": [
+      "hiding",
+      "sit"
+    ],
+    "ending_status_spaces": [
+      "arch",
+      "cage",
+      "chain",
+      "sanctuary",
+      "sit",
+      "vault"
+    ],
+    "inversion_signals": [
+      "belonging",
+      "choose",
+      "chosen",
+      "fly free",
+      "free",
+      "freed",
+      "home",
+      "open",
+      "release",
+      "sanctuary",
+      "sit"
+    ],
+    "power_terms": [
+      "crowd",
+      "king",
+      "navy",
+      "public",
+      "royal",
+      "soldier",
+      "villagers"
+    ],
+    "vulnerable_terms": [
+      "child",
+      "creature",
+      "dragon child"
+    ],
+    "warnings": [],
+    "doctrine": "Define who is physically forced below/outside/inside power, then make the ending transform that space into chosen access, sanctuary, or belonging. Inspired by floor/table and cage/sanctuary evidence."
+  },
   "artifact_presence": {
     "architecture": true,
     "scenes": true,
