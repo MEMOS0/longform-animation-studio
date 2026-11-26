@@ -28,3 +28,6 @@ __pycache__/
 data/processed/*.jpg
 data/raw/piped/download_results.jsonl
 data/raw/comments/
+
+# cross-channel raw media metadata/subtitles are local evidence inputs
+data/raw/piped_crosschannel/
