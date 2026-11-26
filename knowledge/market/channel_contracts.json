@@ -1,0 +1,42 @@
+{
+  "creature_protection_feature": {
+    "reference_channels": ["Epic AI Films", "Ironcrest Pictures"],
+    "positive_signals": ["baby", "child", "creature", "dragon", "wolf", "protects", "rescues", "mother", "family"],
+    "opening_rules": ["show the vulnerable creature/child or immediate threat within 90 seconds", "tie spectacle to protection rather than scale alone", "pay the creature bond visually in the first 5 minutes"],
+    "risk_patterns": ["diffuse disaster montage", "adult competence without vulnerability gradient", "lore/court exposition before embodied threat"],
+    "thumbnail_rules": ["relational scale contrast", "emotionally readable creature/child or protector", "avoid generic crown/army/trailer collage"],
+    "evidence": ["knowledge/market/epic-deep-dive.md", "knowledge/market/ironcrest-deep-dive.md"]
+  },
+  "transformation_melodrama": {
+    "reference_channels": ["FablePop", "Nov Drama"],
+    "positive_signals": ["ugly", "reborn", "beautiful", "adopted", "maid", "pretended", "poor", "secret", "transformed", "daughter", "family"],
+    "opening_rules": ["open on wound/shame or social test", "create information asymmetry quickly", "make transformation social and emotional, not only cosmetic"],
+    "risk_patterns": ["whimsy without injustice", "static hidden identity", "revenge without belonging"],
+    "thumbnail_rules": ["legible before/after or beauty/status contrast", "emotionally readable female face", "avoid crowded whimsical imagery unless transformation is clear"],
+    "evidence": ["knowledge/market/cross-channel-hit-failure-deep-dives.md"]
+  },
+  "mythic_adventure": {
+    "reference_channels": ["The Next Show"],
+    "positive_signals": ["sinbad", "aladdin", "odyssey", "jason", "voyage", "island", "creature", "survival", "giant"],
+    "opening_rules": ["show physical danger/survival before lore", "use sparse physical dialogue", "make geography and bodily cost legible"],
+    "risk_patterns": ["abstract obsidian/realm/god-trial exposition", "original mythology without emotional grounding", "continuation before a complete setpiece payoff"],
+    "thumbnail_rules": ["recognizable mythic frame", "golden cinematic scale", "creature/environment threat readable at mobile size"],
+    "evidence": ["knowledge/market/cross-channel-hit-failure-deep-dives.md"]
+  },
+  "serialized_creature_franchise": {
+    "reference_channels": ["RIFTBORN CINEMA"],
+    "positive_signals": ["enslaved", "arena", "beast", "dragon", "episode", "season", "compilation", "complete"],
+    "opening_rules": ["lead with bodily vulnerability/injustice", "avoid mid-journey travel exposition as the discovery opening", "prefer complete arcs or compilation packaging"],
+    "risk_patterns": ["fragmented episode without self-contained contract", "transition-only ending", "franchise continuity assumed as value"],
+    "thumbnail_rules": ["monster/protagonist conflict", "completeness/scale promise", "avoid part-number-first fragmentation"],
+    "evidence": ["knowledge/market/cross-channel-hit-failure-deep-dives.md"]
+  },
+  "korean_niche_microdrama": {
+    "reference_channels": ["Crateh-ranked Korean channels"],
+    "positive_signals": ["bl", "regression", "empress", "royal", "revenge", "contract", "secret", "obsession", "time-slip", "general"],
+    "opening_rules": ["declare the niche trope almost immediately", "use face-dense emotion and direct subtitles", "create one dominant relational/power question per episode"],
+    "risk_patterns": ["generic slow cinema pacing", "broad appeal dilution", "episode without trope clarity"],
+    "thumbnail_rules": ["large faces", "romantic/power tension", "immediate trope readability"],
+    "evidence": ["knowledge/market/korean-breakout-deep-dive.md"]
+  }
+}

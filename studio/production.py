@@ -10,6 +10,7 @@ from jsonschema import Draft202012Validator
 
 from .failure_intelligence import evaluate_candidate
 from .format_strategy import format_strategy
+from .channel_contracts import evaluate_channel_fit
 
 SCHEMA_DIR = Path(__file__).resolve().parents[1] / "schemas"
 
@@ -142,5 +143,6 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "scene_quality": scene_report,
         "architecture_quality": architecture_report,
         "format_strategy": format_strategy(premise.get("target_minutes"), combined, premise.get("release_format", "")),
+        "channel_contract_fit": evaluate_channel_fit(combined, premise.get("channel_contract", "")),
         "gates": gate_report(schema_errors, failure, scene_report, architecture_report),
     }

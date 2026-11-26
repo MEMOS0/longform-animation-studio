@@ -56,3 +56,10 @@ def test_format_strategy_warns_fragmented_long_episode():
     assert result["format_class"] == "mid_length_feature"
     assert result["warnings"]
     assert any("continuation" in rec.lower() for rec in result["recommendations"])
+
+
+def test_channel_contract_fit_creature_protection():
+    from studio.channel_contracts import evaluate_channel_fit
+    result = evaluate_channel_fit("A mother protects a baby dragon child from hunters", "creature_protection_feature")
+    assert result["status"] == "pass"
+    assert "dragon" in result["matched_positive_signals"]

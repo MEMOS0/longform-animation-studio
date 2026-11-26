@@ -124,6 +124,9 @@
     "release_format": {
       "type": "string"
     },
+    "channel_contract": {
+      "type": "string"
+    },
     "theme_lane": {
       "type": "object",
       "properties": {
