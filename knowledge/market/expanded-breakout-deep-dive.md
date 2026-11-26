@@ -138,3 +138,34 @@ Strategic importance: this is not a low-base breakout, but it is a strong craft 
 - Use grounded mundane details to make fantastic stakes emotionally believable.
 - Consider short complete mythic films when the premise is singular and visually dense; do not pad to 40 minutes by default.
 - Thumbnail must show the relational triangle, not just genre iconography.
+
+
+## `bAjeNeQ9DGc` — Dumped by My Ex, I Married His Boss
+
+Metadata: AI SweetDrama, ~17.1k subs, 5421s, ~536k. Channel baseline noisy but many surrounding uploads are far lower; likely genuine outlier.
+
+Thumbnail evidence:
+
+- romantic billionaire embrace dominates center, but desk objects carry hidden competence: patent, contract, laptop, X-tech identity, ring.
+- polished wealth fantasy is combined with professional/technical power rather than only luxury.
+- subtitle line “She was X all along, and he stood by her side” makes hidden identity + supportive partner explicit.
+
+Opening subtitle evidence:
+
+- `00:00–01:00` public wealth/status world and immediate discard imagery: expensive watch, engagement off, dropped bread/gift.
+- `01:00–02:00` heroine invests in partner's startup dream while family says people like them cannot afford businesses; she is orphan/children's-home background, MIT admission, tuition pressure.
+- `02:00–03:00` boyfriend breaks up with her; his family attacks her waitress/status position and reveals he proposed to someone wealthier.
+- `04:00–05:00` rich stranger/CEO figure publicly asks her to marry him, defending her against class humiliation: “I decide who's good enough for me. You don't get a vote.”
+- `05:00–06:00` ex-family accuses the ring/relationship of being fake; heroine signs because she has nothing left to lose.
+- `06:00–08:00` marriage becomes real protection: “Leela is my wife now. Disrespect her again and you'll pay a price…” She then discovers he is Graytech CEO.
+- `08:00–09:00` she maintains agency rather than becoming a kept woman: offers divorce, shows her earnings/research, and insists on contributing.
+
+Ending subtitle evidence:
+
+- `01:25–01:29` she proves professional competence in board meeting, earns apology, becomes second-largest shareholder/CTO-level figure, and publicly introduces open-source architecture to reduce monopoly on computing power.
+- `01:27–01:30` she returns to children's home, funds help for children like her, and the husband frames the original coin/gift as the moment he chose to protect her.
+- final payoff combines professional recognition, marital respect, social reversal, and giving back to the vulnerable home that raised her.
+
+Mechanism: this is not merely “poor girl marries billionaire.” It is **class humiliation → instantaneous protective alliance → hidden technical competence → public professional restoration → circular generosity**. The husband protects her socially, but the story's deeper payoff is that her own competence changes the company/world. This makes the romance less parasitic and more mutually agential.
+
+Strategic importance: the film validates the mature melodrama engine behind many low-base breakouts while adding a useful correction: wealth reversal alone is weaker than wealth reversal plus protagonist capability. If the heroine only becomes a wife, the payoff is thin; here she becomes a technical/public authority and reinvests in vulnerable children.

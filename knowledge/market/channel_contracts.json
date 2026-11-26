@@ -13,12 +13,19 @@
       "protects",
       "rescues",
       "mother",
-      "family"
+      "family",
+      "giant",
+      "dog",
+      "parent",
+      "infant",
+      "monster",
+      "misunderstood"
     ],
     "opening_rules": [
       "show the vulnerable creature/child or immediate threat within 90 seconds",
       "tie spectacle to protection rather than scale alone",
-      "pay the creature bond visually in the first 5 minutes"
+      "pay the creature bond visually in the first 5 minutes",
+      "when scale is central, frame the powerful creature/giant as a misunderstood protector or parent rather than spectacle alone"
     ],
     "risk_patterns": [
       "diffuse disaster montage",
@@ -32,7 +39,8 @@
     ],
     "evidence": [
       "knowledge/market/epic-deep-dive.md",
-      "knowledge/market/ironcrest-deep-dive.md"
+      "knowledge/market/ironcrest-deep-dive.md",
+      "knowledge/market/expanded-breakout-deep-dive.md"
     ]
   },
   "transformation_melodrama": {
@@ -51,17 +59,29 @@
       "secret",
       "transformed",
       "daughter",
-      "family"
+      "family",
+      "assassin",
+      "boss",
+      "billionaire",
+      "beggar",
+      "schoolgirl",
+      "disguise",
+      "competence",
+      "professional",
+      "ceo"
     ],
     "opening_rules": [
       "open on wound/shame or social test",
       "create information asymmetry quickly",
-      "make transformation social and emotional, not only cosmetic"
+      "make transformation social and emotional, not only cosmetic",
+      "give the wounded protagonist an active test, plan, or competence inversion rather than passive suffering alone",
+      "let hidden competence become public professional/social authority, not only romantic rescue"
     ],
     "risk_patterns": [
       "whimsy without injustice",
       "static hidden identity",
-      "revenge without belonging"
+      "revenge without belonging",
+      "wealth rescue without protagonist agency"
     ],
     "thumbnail_rules": [
       "legible before/after or beauty/status contrast",
@@ -69,7 +89,8 @@
       "avoid crowded whimsical imagery unless transformation is clear"
     ],
     "evidence": [
-      "knowledge/market/cross-channel-hit-failure-deep-dives.md"
+      "knowledge/market/cross-channel-hit-failure-deep-dives.md",
+      "knowledge/market/expanded-breakout-deep-dive.md"
     ]
   },
   "mythic_adventure": {
