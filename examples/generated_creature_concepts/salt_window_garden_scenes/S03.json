@@ -19,9 +19,9 @@
     "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
     "max_exposition_sentences": 2,
     "key_lines": [
-      "I refuse your price while she is shaking.",
-      "If her pain can buy back the house, the house is not worth saving.",
-      "She is not inventory with fins."
+      "I refuse your price while she's shaking.",
+      "A house bought by her pain isn't a home.",
+      "She isn't inventory with fins."
     ],
     "opposition_beats": [
       {
@@ -47,6 +47,32 @@
         "voice": "blue glass salt vial",
         "dramatic_job": "fear, fins, and salt make exploitation physically visible",
         "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "external_pressure",
+        "speaker": "land trust",
+        "line": "One fin-ray, and your debt is gone.",
+        "action": "the offer converts creature pain into economic rescue"
+      },
+      {
+        "beat": "witness_objection",
+        "speaker": "her grandmother",
+        "line": "A cheap miracle is still a wound.",
+        "action": "her grandmother blocks the reach toward the creature"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Nura",
+        "line": "Not while she's shaking.",
+        "action": "Nura steps into the reach instead of arguing abstractions"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "speaker": "land trust",
+        "line": "Look at those fins. Even she knows what you're worth.",
+        "action": "fear moves through the creature's fins, making the cost visible"
       }
     ]
   },

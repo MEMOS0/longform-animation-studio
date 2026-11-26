@@ -19,9 +19,9 @@
     "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
     "max_exposition_sentences": 2,
     "key_lines": [
-      "Step back from her. The moonfin child came to me before it knew I had nothing.",
-      "I will hide her first and decide who can be trusted after she is safe.",
-      "If the water answers her fear, then the water is a witness."
+      "Back off. The moonfin child came to me bleeding, not asking for permission.",
+      "I hide her first. Questions after she's safe.",
+      "The water moved when she cried; the pump saw her."
     ],
     "opposition_beats": [
       {
@@ -47,6 +47,32 @@
         "voice": "blue glass salt vial",
         "dramatic_job": "the water response marks the moonfin child as a witness rather than a commodity",
         "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "external_pressure",
+        "speaker": "land trust",
+        "line": "Paying hands first, Nura. Step away from the pump.",
+        "action": "the crowd blocks the public resource threshold"
+      },
+      {
+        "beat": "witness_objection",
+        "speaker": "her grandmother",
+        "line": "Don't lift her into the crowd—she'll bolt.",
+        "action": "her grandmother shifts between the crowd and the creature"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Nura",
+        "line": "I hide her first. Questions after she's safe.",
+        "action": "Nura kneels and covers the creature"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "speaker": "her grandmother",
+        "line": "Look at the water. It moved when she cried.",
+        "action": "the water response becomes visible to the nearest witness"
       }
     ]
   },

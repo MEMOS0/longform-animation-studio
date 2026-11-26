@@ -19,9 +19,9 @@
     "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
     "max_exposition_sentences": 2,
     "key_lines": [
-      "Help me carry the proof, but do not carry my choice.",
-      "If we wait for permission, the coal guild owns both the child and the truth.",
-      "The blackened brass oven key remembers what the coal guild buried."
+      "Help me carry the proof, not my choice.",
+      "Wait for permission and they own the truth.",
+      "Heat, timing, witnesses—line them up."
     ],
     "opposition_beats": [
       {
@@ -47,6 +47,32 @@
         "voice": "blackened brass oven key",
         "dramatic_job": "ledger timing, heat, pressure marks, and witness geometry begin aligning",
         "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "external_pressure",
+        "speaker": "a flour miller",
+        "line": "Give me the proof. I can carry it faster.",
+        "action": "help threatens to become takeover"
+      },
+      {
+        "beat": "witness_objection",
+        "speaker": "Lio",
+        "line": "Help me carry it. Don't carry my choice.",
+        "action": "the proof is shared without surrendering authorship"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "a flour miller",
+        "line": "Then we go before the coal guild seals the road.",
+        "action": "the alliance accepts urgency and accountability"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "speaker": "Lio",
+        "line": "Heat, timing, witnesses—line them up.",
+        "action": "the proof chain becomes a physical arrangement"
       }
     ]
   },

@@ -11,6 +11,8 @@ import re
 from pathlib import Path
 from typing import Any
 
+from .creature_dialogue import creature_dialogue_materials
+
 POWER_START = [
     "socially exposed and institutionally powerless",
     "dependent on care but beginning to act",
@@ -68,6 +70,7 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
     first_image_override = None
     final_image_override = None
     sound_override = None
+    spoken_exchange = []
     opposition_beats = [
         {"beat": "external_pressure", "voice": "antagonist or social crowd", "dramatic_job": turn, "writing_note": "pressure must be specific behavior, not generic cruelty"},
         {"beat": "witness_objection", "voice": "caregiver, worker, or vulnerable witness", "dramatic_job": relationship, "writing_note": "the objection should make the safe choice reasonable"},
@@ -89,17 +92,23 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
         caregiver = re.split(r"\s+(?:offers?|feeds?|gives?|shelters?)\s+", raw_care, maxsplit=1)[0].split(";")[0].split(" and ")[0].strip() or "the caregiver"
         creature_label = creature[:1].upper() + creature[1:]
         caregiver_label = caregiver[:1].upper() + caregiver[1:]
-        creature_lines = [
-            [f"Step back from her. {creature_label} came to me before it knew I had nothing.", "I will hide her first and decide who can be trusted after she is safe.", f"If the {resource} answers her fear, then the {resource} is a witness."],
-            [f"I refuse to make {creature} suffer for shelter or coins.", f"The {object_term} can open the way; it cannot make us owners.", f"{caregiver_label} shared before profit. That is why this roof is still honest."],
-            [f"I refuse your price while she is shaking.", f"If her pain can buy back the house, the house is not worth saving.", f"She is not inventory with {trait}."],
-            [f"Your ledger can lie; {evidence} cannot.", f"Give me one honest customer before you call me a thief.", f"The {system} remembers every hand that opened it, including yours."],
-            [f"I did not steal {resource}. I saved a child you wanted to harvest.", "Desperation is not consent, and hunger is not permission.", "Freeze the deed if you want. The evidence is already under the stone."],
-            ["Help me carry the proof, but do not carry my choice.", f"If we wait for permission, the {authority} owns both the child and the truth.", f"The {object_term} remembers what the {authority} buried."],
-            [f"{creature} belongs to no one, and neither do I.", "If you want forgiveness, return what your papers stole before you ask for trust.", f"Let the {resource} answer before the law decides whom to believe."],
-            [f"This {system} is not a cage anymore. Everyone eats by choice.", "I refuse rescue that becomes ownership.", "We keep the doors open because she taught us power is not possession."],
-        ]
-        key_lines = creature_lines[index - 1]
+        protagonist_identity = str(premise.get("protagonist", {}).get("identity", "the protagonist"))
+        protagonist_name = protagonist_identity.split(",")[0].strip() or "the protagonist"
+        dialogue_materials = creature_dialogue_materials({
+            "creature": creature,
+            "creature_label": creature_label,
+            "caregiver": caregiver,
+            "authority": authority,
+            "protagonist_name": protagonist_name,
+            "object_term": object_term,
+            "resource": resource,
+            "system": system,
+            "evidence": evidence,
+            "trait": trait,
+            "heat_based": heat_based,
+        }, index)
+        key_lines = dialogue_materials["key_lines"]
+        spoken_exchange = dialogue_materials["spoken_exchange"]
         creature_opposition = [
             {"pressure": f"the crowd or {authority} demands that the humiliated protagonist abandon the exposed child", "objection": f"hiding {creature} can destroy the protagonist's last economic shelter", "decision": "the protagonist hides/protects before knowing whether anyone will help", "evidence_or_cost": f"the {resource} response marks {creature} as a witness rather than a commodity"},
             {"pressure": "shelter is offered in a way that could become debt, pity, or control", "objection": f"{caregiver} needs labor and honesty, not ownership of the creature", "decision": "the protagonist accepts work but refuses to monetize suffering", "evidence_or_cost": f"the {object_term} separates access from possession"},
@@ -183,6 +192,7 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
             "max_exposition_sentences": 2,
             "key_lines": key_lines,
             "opposition_beats": opposition_beats,
+            "spoken_exchange": spoken_exchange,
         },
         "sound_design": {
             "dialogue_priority": (sound_override or {}).get("dialogue_priority", "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture"),

@@ -73,7 +73,18 @@ def evaluate_scenes_dialogue(scenes: list[dict[str, Any]]) -> dict[str, Any]:
         missing_beats = [name for name in ("external_pressure", "witness_objection", "protagonist_decision", "evidence_or_cost") if name not in beat_names]
         if missing_beats:
             result["warnings"] = list(result["warnings"]) + ["dialogue opposition scaffold missing beats: " + ", ".join(missing_beats)]
-        scene_rows.append({"scene_id": scene.get("scene_id"), "opposition_beat_count": len(beats), **{k: result[k] for k in ("line_count", "exposition_line_count", "power_action_line_count", "long_line_count", "warnings")}})
+        exchange = design.get("spoken_exchange") or []
+        exchange_warnings = []
+        for turn_no, turn in enumerate(exchange, 1):
+            if not all(turn.get(key) for key in ("beat", "speaker", "line", "action")):
+                exchange_warnings.append(f"spoken exchange turn {turn_no} missing beat/speaker/line/action")
+            words = re.findall(r"[\w']+", str(turn.get("line", "")).lower())
+            if len(words) > 18:
+                exchange_warnings.append(f"spoken exchange turn {turn_no} is too long for a power-turn line")
+        if exchange and len({turn.get("speaker") for turn in exchange}) < 2:
+            exchange_warnings.append("spoken exchange lacks differentiated speakers")
+        result["warnings"] = list(result["warnings"]) + exchange_warnings
+        scene_rows.append({"scene_id": scene.get("scene_id"), "opposition_beat_count": len(beats), "spoken_exchange_turn_count": len(exchange), **{k: result[k] for k in ("line_count", "exposition_line_count", "power_action_line_count", "long_line_count", "warnings")}})
         if result["warnings"]:
             all_warnings[scene.get("scene_id", "<missing>")] = result["warnings"]
     return {"scenes": scene_rows, "warnings_by_scene": all_warnings}

@@ -19,9 +19,9 @@
     "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
     "max_exposition_sentences": 2,
     "key_lines": [
-      "Your ledger can lie; salt cannot.",
-      "Give me one honest customer before you call me a thief.",
-      "The pump remembers every hand that opened it, including yours."
+      "Your ledger can lie; salt can't.",
+      "One honest customer before you call me a thief.",
+      "The pump remembers every hand that opened it."
     ],
     "opposition_beats": [
       {
@@ -47,6 +47,32 @@
         "voice": "blue glass salt vial",
         "dramatic_job": "the pump creates timestamps, pressure marks, or access traces",
         "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "external_pressure",
+        "speaker": "land trust",
+        "line": "Unlicensed hands don't touch the pump.",
+        "action": "competence is reframed as illegality"
+      },
+      {
+        "beat": "witness_objection",
+        "speaker": "customer witness",
+        "line": "Her repair held mine all morning.",
+        "action": "one practical witness breaks the crowd's certainty"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Nura",
+        "line": "One honest customer before you call me a thief.",
+        "action": "Nura keeps working instead of pleading"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "speaker": "Nura",
+        "line": "The pump remembers every hand that opened it.",
+        "action": "the first salt trace is exposed"
       }
     ]
   },

@@ -19,9 +19,9 @@
     "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
     "max_exposition_sentences": 2,
     "key_lines": [
-      "the moonfin child belongs to no one, and neither do I.",
-      "If you want forgiveness, return what your papers stole before you ask for trust.",
-      "Let the water answer before the law decides whom to believe."
+      "Return what your papers stole before you ask for trust.",
+      "She chooses first. Law second.",
+      "Let the water answer."
     ],
     "opposition_beats": [
       {
@@ -47,6 +47,32 @@
         "voice": "blue glass salt vial",
         "dramatic_job": "the proof chain shows fraud and makes the moonfin child's choice audible/visible",
         "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "external_pressure",
+        "speaker": "land trust",
+        "line": "Take the rescue. Sign the apology.",
+        "action": "institutional rescue is offered before restitution"
+      },
+      {
+        "beat": "witness_objection",
+        "speaker": "her grandmother",
+        "line": "She won't come forward while you hold the papers.",
+        "action": "the creature remains outside reach until consent is possible"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Nura",
+        "line": "Return what your papers stole before you ask for trust.",
+        "action": "the protagonist refuses the shortcut public win"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "speaker": "Nura",
+        "line": "Let her choose. Let the water answer first.",
+        "action": "the moonfin child is allowed to move forward by choice"
       }
     ]
   },

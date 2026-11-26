@@ -19,9 +19,9 @@
     "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
     "max_exposition_sentences": 2,
     "key_lines": [
-      "This oven is not a cage anymore. Everyone eats by choice.",
-      "I refuse rescue that becomes ownership.",
-      "We keep the doors open because she taught us power is not possession."
+      "This oven is not a cage anymore.",
+      "Revenge won't fill one bowl.",
+      "She crosses by choice; the doors stay open."
     ],
     "opposition_beats": [
       {
@@ -47,6 +47,32 @@
         "voice": "blackened brass oven key",
         "dramatic_job": "the transformed oven space visibly shares or rebuilds access to fire",
         "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "external_pressure",
+        "speaker": "coal guild",
+        "line": "You win. Now make them pay.",
+        "action": "the ending is tempted toward revenge"
+      },
+      {
+        "beat": "witness_objection",
+        "speaker": "a flour miller",
+        "line": "Revenge won't fill one bowl.",
+        "action": "the community's material need interrupts triumph"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Lio",
+        "line": "This oven is not a cage anymore.",
+        "action": "the exclusion threshold is opened for communal use"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "speaker": "a flour miller",
+        "line": "She crossed by herself. Leave the door open.",
+        "action": "the creature's free crossing confirms non-possessive belonging"
       }
     ]
   },

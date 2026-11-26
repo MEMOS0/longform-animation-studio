@@ -624,7 +624,7 @@ def test_creature_opening_dialogue_keeps_decision_with_protagonist():
     from studio.scene_generator import generate_scenes
     premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
     scene=generate_scenes(premise,generate_architecture(premise))[0]
-    assert scene['dialogue_design']['key_lines'][1] == 'I will hide her first and decide who can be trusted after she is safe.'
+    assert scene['dialogue_design']['key_lines'][1] == "I hide her first. Questions after she's safe."
 
 
 def test_closure_integrity_aftermath_question_presupposes_actual_collapse():
@@ -731,3 +731,19 @@ def test_opening_ordinary_anchor_matching_uses_word_boundaries():
     result=opening_conversion_quality(premise)
     assert 'rent' not in result['ordinary_anchor_terms']
     assert any('ordinary survival/labor/resource anchor' in w for w in result['warnings'])
+
+
+def test_creature_scenes_include_short_scene_specific_spoken_exchange():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.dialogue_craft import evaluate_scenes_dialogue
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    scenes=generate_scenes(premise,generate_architecture(premise))
+    exchange=scenes[0]['dialogue_design']['spoken_exchange']
+    assert len(exchange)==4
+    assert exchange[0]['speaker']!=exchange[2]['speaker']
+    assert 'Paying hands first, Nura' in exchange[0]['line']
+    report=evaluate_scenes_dialogue(scenes)
+    assert not report['warnings_by_scene']
+    assert report['scenes'][0]['spoken_exchange_turn_count']==4

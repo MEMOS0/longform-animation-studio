@@ -19,9 +19,9 @@
     "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
     "max_exposition_sentences": 2,
     "key_lines": [
-      "This pump is not a cage anymore. Everyone eats by choice.",
-      "I refuse rescue that becomes ownership.",
-      "We keep the doors open because she taught us power is not possession."
+      "This pump is not a cage anymore.",
+      "Revenge won't fill one cup.",
+      "She crosses by choice; the doors stay open."
     ],
     "opposition_beats": [
       {
@@ -47,6 +47,32 @@
         "voice": "blue glass salt vial",
         "dramatic_job": "the transformed pump space visibly shares or rebuilds access to water",
         "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "external_pressure",
+        "speaker": "land trust",
+        "line": "You win. Now make them pay.",
+        "action": "the ending is tempted toward revenge"
+      },
+      {
+        "beat": "witness_objection",
+        "speaker": "her grandmother",
+        "line": "Revenge won't fill one cup.",
+        "action": "the community's material need interrupts triumph"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Nura",
+        "line": "This pump is not a cage anymore.",
+        "action": "the exclusion threshold is opened for communal use"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "speaker": "her grandmother",
+        "line": "She crossed by herself. Leave the door open.",
+        "action": "the creature's free crossing confirms non-possessive belonging"
       }
     ]
   },

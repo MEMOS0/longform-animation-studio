@@ -19,9 +19,9 @@
     "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
     "max_exposition_sentences": 2,
     "key_lines": [
-      "I did not steal water. I saved a child you wanted to harvest.",
-      "Desperation is not consent, and hunger is not permission.",
-      "Freeze the deed if you want. The evidence is already under the stone."
+      "I saved her from you. That isn't theft.",
+      "Hunger isn't permission.",
+      "The proof is already beyond your ledger."
     ],
     "opposition_beats": [
       {
@@ -47,6 +47,32 @@
         "voice": "blue glass salt vial",
         "dramatic_job": "the blue glass salt vial falls open as proof but does not complete the chain",
         "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "external_pressure",
+        "speaker": "land trust",
+        "line": "Thief. You stole water and hid the proof.",
+        "action": "public accusation turns the creature into evidence"
+      },
+      {
+        "beat": "witness_objection",
+        "speaker": "her grandmother",
+        "line": "Show the child and this ends.",
+        "action": "her grandmother offers the safer betrayal"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Nura",
+        "line": "I saved her from you. That isn't theft.",
+        "action": "Nura shields the creature before defending reputation"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "speaker": "Nura",
+        "line": "The proof is already beyond your ledger.",
+        "action": "the blue glass salt vial passes out of institutional control"
       }
     ]
   },

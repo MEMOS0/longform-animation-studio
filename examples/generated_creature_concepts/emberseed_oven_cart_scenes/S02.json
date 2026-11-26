@@ -19,9 +19,9 @@
     "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
     "max_exposition_sentences": 2,
     "key_lines": [
-      "I refuse to make the emberseed bird child suffer for shelter or coins.",
-      "The blackened brass oven key can open the way; it cannot make us owners.",
-      "A flour miller shared before profit. That is why this roof is still honest."
+      "I'll work for the roof. I won't sell her pain for it.",
+      "The blackened brass oven key opens a way; it doesn't make her ours.",
+      "Feed her first. Price her never."
     ],
     "opposition_beats": [
       {
@@ -47,6 +47,32 @@
         "voice": "blackened brass oven key",
         "dramatic_job": "the blackened brass oven key separates access from possession",
         "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "external_pressure",
+        "speaker": "a flour miller",
+        "line": "This roof feeds workers, not miracles.",
+        "action": "shelter is offered as labor rather than charity"
+      },
+      {
+        "beat": "witness_objection",
+        "speaker": "Lio",
+        "line": "Then I'll work. I won't sell her pain for a bed.",
+        "action": "food is placed within reach before permission is demanded"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "a flour miller",
+        "line": "Work first. We decide what she is after she eats.",
+        "action": "the creature is allowed to eat without being priced"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "speaker": "Lio",
+        "line": "The blackened brass oven key opens a way. It doesn't make her ours.",
+        "action": "the blackened brass oven key is set beside the creature rather than used as a claim"
       }
     ]
   },

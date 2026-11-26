@@ -19,9 +19,9 @@
     "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
     "max_exposition_sentences": 2,
     "key_lines": [
-      "Step back from her. The emberseed bird child came to me before it knew I had nothing.",
-      "I will hide her first and decide who can be trusted after she is safe.",
-      "If the fire answers her fear, then the fire is a witness."
+      "Back off. The emberseed bird child came to me bleeding, not asking for permission.",
+      "I hide her first. Questions after she's safe.",
+      "The fire moved when she cried; the oven saw her."
     ],
     "opposition_beats": [
       {
@@ -47,6 +47,32 @@
         "voice": "blackened brass oven key",
         "dramatic_job": "the fire response marks the emberseed bird child as a witness rather than a commodity",
         "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "external_pressure",
+        "speaker": "coal guild",
+        "line": "Paying hands first, Lio. Step away from the oven.",
+        "action": "the crowd blocks the public resource threshold"
+      },
+      {
+        "beat": "witness_objection",
+        "speaker": "a flour miller",
+        "line": "Don't lift her into the crowd—she'll bolt.",
+        "action": "a flour miller shifts between the crowd and the creature"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Lio",
+        "line": "I hide her first. Questions after she's safe.",
+        "action": "Lio kneels and covers the creature"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "speaker": "a flour miller",
+        "line": "Look at the fire. It moved when she cried.",
+        "action": "the fire response becomes visible to the nearest witness"
       }
     ]
   },

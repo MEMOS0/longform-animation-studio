@@ -418,3 +418,11 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - Production evaluator now warns when a fantasy opening lacks an ordinary survival/labor/resource anchor.
 - Latest local test state at this checkpoint: 82 passed.
 
+## 2026-11-27 dialogue-scaffold checkpoint
+
+- `studio/creature_dialogue.py` now generates scene-specific spoken exchanges for creature-economic premises: external pressure, witness objection, protagonist decision, and evidence/cost.
+- Creature key lines were revised away from broad theme statements toward shorter action/refusal/proof lines tied to pump/oven, water/fire, ledger, witness, creature fear, and economic pressure.
+- `studio/dialogue_craft.py` now validates spoken-exchange structure when present: beat/speaker/line/action completeness, turn length, and speaker differentiation.
+- Regenerated Salt Window Garden and Emberseed Oven Cart artifacts: gates A/B/C/D pass, zero dialogue warnings, zero sound warnings, visual causality 1.0, four spoken turns per scene.
+- Latest local test state at this checkpoint: 84 passed.
+
