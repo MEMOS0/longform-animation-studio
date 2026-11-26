@@ -28,7 +28,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--media-dir", default="C:/Users/Administrator/novdrama_media")
     parser.add_argument("--raw-dir", default="data/raw/piped")
-    parser.add_argument("--out-root", default="data/processed/media")
+    parser.add_argument("--out-root", default="data/processed/media_batch")
     parser.add_argument("--workers", type=int, default=2)
     args = parser.parse_args()
     videos = sorted(Path(args.media_dir).glob("*.mp4"))
