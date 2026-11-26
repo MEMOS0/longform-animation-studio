@@ -181,3 +181,5 @@ The media-analysis system should track:
 - The retention study is observational and self-selected; use directionally.
 - Craft books are expert heuristics, not controlled evidence.
 - Nov Drama archive outcomes are necessary but insufficient evidence. The strongest conclusions will come from converging evidence across full-video analysis, comments, packaging comparisons, and replication in other channels.
+
+Related empirical sound evidence: `knowledge/craft/third-pass-sound-evidence.md`.
