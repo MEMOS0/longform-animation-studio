@@ -160,7 +160,7 @@ def numeric_correlation(rows: list[dict[str, Any]], getter, name: str) -> dict[s
 
 
 def create_thumbnail_montage(rows: list[dict[str, Any]], output: Path, thumb_size=(256, 144), cols=6) -> Path | None:
-    rows = sorted(rows, key=lambda r: -(r.get("analysis", {}).get("views_per_day") or 0))
+    rows = sorted((r for r in rows if r.get("analysis", {}).get("views_per_day") is not None), key=lambda r: -r["analysis"]["views_per_day"])
     tiles = []
     font = ImageFont.load_default()
     for row in rows:
@@ -209,7 +209,7 @@ def analyze(input_jsonl: Path, output_dir: Path, snapshot_date: date | None = No
     ]
 
     montage = create_thumbnail_montage(rows, output_dir / "novdrama_thumbnail_montage.jpg")
-    sorted_rows = sorted(rows, key=lambda r: -(r.get("analysis", {}).get("views_per_day") or 0))
+    sorted_rows = sorted((r for r in rows if r.get("analysis", {}).get("views_per_day") is not None), key=lambda r: -r["analysis"]["views_per_day"])
     leaderboard = [
         {
             "rank": index + 1,
