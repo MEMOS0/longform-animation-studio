@@ -116,3 +116,11 @@ def test_dialogue_craft_flags_exposition():
     assert result["warnings"]
     strong = critique_lines(["I won't let them take her.", "Then choose. Protect her or expose me."], 1)
     assert strong["power_action_line_count"] == 2
+
+
+def test_release_learning_percentile_and_revisions():
+    from studio.release_learning import release_postmortem
+    cohort=[{"views_per_day":100},{"views_per_day":200},{"views_per_day":1000},{"views_per_day":10000}]
+    result=release_postmortem({"video_id":"x","views":100,"age_days":1},{"format_strategy":{"warnings":["w"]}},cohort)
+    assert result["outcome_vs_cohort"]=="underperforming_cohort"
+    assert result["revision_rules"]

@@ -11,6 +11,7 @@ from .failure_intelligence import evaluate_candidate, render_report
 from .features import enrich_records
 from .media_analysis import analyze_video
 from .production import evaluate_project
+from .release_learning import release_postmortem
 from .youtube_archive import collect
 
 
@@ -51,6 +52,12 @@ def main() -> None:
     project_p.add_argument("--archive", default="data/processed/novdrama_analysis_rows.json")
     project_p.add_argument("--output", required=True)
 
+    post_p = sub.add_parser("release-postmortem")
+    post_p.add_argument("--release", required=True, help="release metadata JSON with video_id,title,views,age_days")
+    post_p.add_argument("--preproduction", default="")
+    post_p.add_argument("--cohort", default="")
+    post_p.add_argument("--output", required=True)
+
     args = parser.parse_args()
     if args.command == "collect-archive":
         print(collect(Path(args.channel_json), Path(args.output_dir), Path(args.thumbnail_dir)))
@@ -74,6 +81,15 @@ def main() -> None:
     elif args.command == "evaluate-project":
         rows = json.loads(Path(args.archive).read_text(encoding="utf-8"))
         result = evaluate_project(Path(args.premise), Path(args.architecture) if args.architecture else None, Path(args.scenes) if args.scenes else None, rows)
+        output = Path(args.output)
+        output.parent.mkdir(parents=True, exist_ok=True)
+        output.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(output)
+    elif args.command == "release-postmortem":
+        release = json.loads(Path(args.release).read_text(encoding="utf-8"))
+        pre = json.loads(Path(args.preproduction).read_text(encoding="utf-8")) if args.preproduction else None
+        cohort = json.loads(Path(args.cohort).read_text(encoding="utf-8")) if args.cohort else []
+        result = release_postmortem(release, pre, cohort)
         output = Path(args.output)
         output.parent.mkdir(parents=True, exist_ok=True)
         output.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
