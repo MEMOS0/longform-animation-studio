@@ -31,6 +31,8 @@ After repairing per-window silence/rms estimates, the archive-wide lexical/audio
 | final-10 wound count | 7.91 | 11.26 | 13.75 | Weak endings remain more wounded/procedural even when they include warm imagery. |
 | final-10 care count | 18.45 | 17.96 | 19.33 | Warm-ending counts are nearly flat across cohorts; warmth at the end is not sufficient. |
 
+Opening timing adds an important correction: explicit lore language begins around 261s in outperformers versus 107s in middle videos and 83s in underperformers. Explicit first wound/care words are not earlier in hits on average, so those lexical counts must not be treated as emotional-proof; visual grounding and immediate comprehensibility matter more than literal words like “love” or “protect.” The robust opening pattern is delayed abstract lore plus early embodied stakes/consequences.
+
 Important counterexample discipline: `v03oauoFveU` and `vYNuKn6GiaE` have substantial lore yet outperform because the lore is embodied early in visible children/creatures/consequences; `lcOFpT0B5Uc` also carries high lore but includes a werewolf-king-heir child-protection promise. Therefore the rule is not “less fantasy,” but “less abstract/procedural lore before emotional grounding.”
 
 ## Timestamped audiovisual contrasts

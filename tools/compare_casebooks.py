@@ -111,7 +111,7 @@ def compare(casebook_root: Path, output_json: Path, output_md: Path) -> dict[str
     interesting = [
         "lore_mythology_density_per_hour", "threat_or_violence_per_hour", "care_belonging_protection_per_hour",
         "lore_to_care_ratio", "threat_to_care_ratio", "final10_wound_or_humiliation_count",
-        "final10_care_belonging_protection_count", "opening_brightness", "ending_brightness", "opening_rms",
+        "final10_care_belonging_protection_count", "first_wound_or_humiliation_seconds", "first_care_belonging_protection_seconds", "first_justice_reversal_payoff_seconds", "first_lore_mythology_density_seconds", "opening_brightness", "ending_brightness", "opening_rms", "opening_silence", "ending_silence",
     ]
     lines = ["# Casebook cohort comparison", "", result["methodological_boundary"], "", f"Videos analyzed: {len(rows)}", "", "| metric | outperforming | middle | underperforming |", "|---|---:|---:|---:|"]
     for key in interesting:

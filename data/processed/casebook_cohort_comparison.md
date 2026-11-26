@@ -13,9 +13,15 @@ Videos analyzed: 46
 | `threat_to_care_ratio` | 0.85 | 1.25 | 1.48 |
 | `final10_wound_or_humiliation_count` | 7.91 | 11.26 | 13.75 |
 | `final10_care_belonging_protection_count` | 18.45 | 17.96 | 19.33 |
+| `first_wound_or_humiliation_seconds` | 167.13 | 96.40 | 108.86 |
+| `first_care_belonging_protection_seconds` | 123.91 | 57.56 | 77.20 |
+| `first_justice_reversal_payoff_seconds` | 271.92 | 223.21 | 179.34 |
+| `first_lore_mythology_density_seconds` | 260.82 | 107.10 | 83.02 |
 | `opening_brightness` | 0.35 | 0.31 | 0.30 |
 | `ending_brightness` | 0.36 | 0.35 | 0.33 |
 | `opening_rms` | 0.08 | 0.08 | 0.07 |
+| `opening_silence` | 0.23 | 0.15 | 0.18 |
+| `ending_silence` | 0.19 | 0.24 | 0.20 |
 
 ## Rows
 
