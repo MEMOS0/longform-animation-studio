@@ -33,6 +33,8 @@ After repairing per-window silence/rms estimates, the archive-wide lexical/audio
 
 Opening timing adds an important correction: explicit lore language begins around 261s in outperformers versus 107s in middle videos and 83s in underperformers. Explicit first wound/care words are not earlier in hits on average, so those lexical counts must not be treated as emotional-proof; visual grounding and immediate comprehensibility matter more than literal words like “love” or “protect.” The robust opening pattern is delayed abstract lore plus early embodied stakes/consequences.
 
+Opening density evidence strengthens this: underperforming videos average about 835 subtitle words in the first five minutes versus 648 in outperforming videos, while shot-boundary counts and motion are nearly identical (~11 shots, ~0.15 motion). The difference is therefore not simply “faster editing”; weak openings tend to explain more. Middle videos also have higher ending silence (~0.236 versus ~0.193–0.196), but this is not yet interpretable because music, narration style, and missing-audio artifacts confound silence.
+
 Important counterexample discipline: `v03oauoFveU` and `vYNuKn6GiaE` have substantial lore yet outperform because the lore is embodied early in visible children/creatures/consequences; `lcOFpT0B5Uc` also carries high lore but includes a werewolf-king-heir child-protection promise. Therefore the rule is not “less fantasy,” but “less abstract/procedural lore before emotional grounding.”
 
 ## Timestamped audiovisual contrasts
