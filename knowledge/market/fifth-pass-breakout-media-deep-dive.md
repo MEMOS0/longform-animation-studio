@@ -9,7 +9,7 @@ Updated: 2026-11-26. Evidence tier 3/4 for sampled contact-sheet and selected-wi
 | `no72LZAVvZQ` — The Giant Who Became a Father | Epicverse Movies | 11:40 | 6.52m / 4.64k | compressed complete fantasy-protection feature | opening/middle/ending audio + sampled visual sheets; no subtitle file observed |
 | `31-p_UcMgOs` — Then Came The Rot, Aethernal Act II | Aethernal Pictures | 19:49 | 3.60m / 25.8k | serialized dark-fantasy survival act | full/opening/ending sheets + subtitles |
 | `hozDtPcnnBA` — Poor Student / Billionaire Heir | Lioren Studios | 35:04 | 191k / 392 | compressed class/romance melodrama | full/opening/ending sheets + subtitles |
-| `NHAHR3v9La8` | low-subscriber candidate | pending verification | metadata-only | candidate retained for next pass | media file exists locally but validation was interrupted; do not treat as analyzed |
+| `NHAHR3v9La8` — The Queen's Monster | low-subscriber candidate | 24:13 | 520,630 / 7.92k | compressed complete dragon-family fantasy | opening/middle/ending audio + sampled visual sheets |
 
 ## `no72LZAVvZQ`: ultra-compressed protection/family completeness
 
@@ -77,12 +77,41 @@ Production implication:
 - The risk is compression whiplash: graduation/proposal/wedding/child must be emotionally prepared or the ending becomes montage-like summary rather than earned payoff.
 - This validates compressed completeness for social-test melodrama as well as creature fantasy.
 
+## `NHAHR3v9La8`: dragon-twin motherhood as compressed family tragedy
+
+Opening visual/audio evidence:
+
+- Opening sheets establish a candlelit medieval birth chamber, bloodied cloth, a human newborn, and then the reveal of a small scaled creature as the second twin. The mother hides/protects the infant dragon in a castle/forest world.
+- Audio at 00:06–00:15: weeping/gasping and “A boy... A prince...”; at 00:15–00:21: “My Queen... There's another...”
+- At 00:55–01:09 the king rejects personhood and orders infanticide: “What is that?” / “Your son.” / “I have one son. Drown it. Before dawn.” The queen answers, “No. He's mine. I'll do it.”
+- Sound design opens with rain, wind, thunder, splashing water, infant crying, and weeping rather than score. The sonic contract is maternal desperation plus royal violence.
+
+Middle visual/audio evidence:
+
+- Full-runtime sheets show the baby dragon held close, the mother concealing/feeding it, the human prince/father conflict, dragon growth, battle/monster spectacle, and repeated eye/contact imagery.
+- Middle audio includes confrontation over the dragon son: “Move.” / “No.” / “He's my son.” / “Loose.” Later: “No fire. Fly, my love.” Then the false/frame-up line “The dragon killed your queen.”
+- The relational engine is stronger than generic dragon spectacle because the dragon is not a pet or weapon first. He is a child whose mother must choose him against king, court, and public monster narrative.
+
+Ending visual/audio evidence:
+
+- Ending sheets show armies/archers, the mother before dragon wings, fire breath, a crown/ring-like object in snow, the prince marked by power/fire, dragon injury/mercy imagery, and final grave/tree/snow imagery.
+- Ending audio uses the single command “Fly,” then lets the orchestral music end around 00:59 of the sampled ending window. Afterward the track is heavy breathing, footsteps/movement, monster breath/roar, and wet environmental texture rather than musical resolution.
+- Mechanism: the payoff is tragic/protective transformation rather than simple victory. Maternal protection becomes sacrifice/legacy; the dragon child becomes public power but remains tied to grief, grave, and winter imagery.
+
+Production implication:
+
+- This is the clearest compressed example of the misunderstood-nonhuman-personhood contract: infant creature as literal child, parent-as-protector, spouse/king as personhood-denying antagonist, public monster narrative as social pressure.
+- The 24-minute format works because the central emotional question is singular: can a mother protect a child the world calls a monster? Large-scale war is subordinate to that question.
+- Negative-space ending audio after “Fly” supports the broader sound rule: transformation/loss can be stronger when music withdraws and breath/environment carry consequence.
+
+
 ## Cross-video compressed-format insight
 
 The freshest low-subscriber breakouts are compressed short features rather than only 60–120 minute films:
 
 - 11:40 giant father story: complete protection/family arc.
 - 19:49 Aethernal Act II: serialized survival act with continuation hook.
+- 24:13 dragon-twin motherhood tragedy: complete compressed misunderstood-personhood arc.
 - 35:04 Lioren romance: complete compressed class/romance reversal.
 
 Correct integration:
@@ -97,5 +126,4 @@ Correct integration:
 
 - These are breakout successes, not a controlled random sample. They cannot prove that compression causes success.
 - Packaging/title/thumbnail and algorithmic distribution remain confounded. No CTR, impressions, retention, or traffic-source data are available.
-- `NHAHR3v9La8` has not been validated deeply and must not be cited as audiovisual evidence yet.
 - Contact sheets are sampled visual inspection. They establish concrete visual events but do not replace continuous human viewing.
