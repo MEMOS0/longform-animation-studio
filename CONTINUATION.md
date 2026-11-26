@@ -1,6 +1,6 @@
 # Continuation checkpoint — read first after context rollover
 
-Updated: 2026-11-26 after pushed commit `37e9287` (“Add machine-readable channel contract intelligence”). PR: https://github.com/MEMOS0/longform-animation-studio/pull/1, branch `devin/1764170700-failure-intelligence-foundation`, local repo `C:/Users/Administrator/repos/longform-animation-studio`.
+Updated: 2026-11-26 after pushed commit `f18a03a` (“Add advanced craft system and recent breakout discovery”). PR: https://github.com/MEMOS0/longform-animation-studio/pull/1, branch `devin/1764170700-failure-intelligence-foundation`, local repo `C:/Users/Administrator/repos/longform-animation-studio`.
 
 ## Immutable user mandate
 
@@ -8,7 +8,7 @@ Build a reusable professional AI-assisted long-form animation studio system, not
 
 ## Current completed state
 
-- Tests: **7 passed** locally after cross-channel integration.
+- Tests: **10 passed** locally after production economics/channel-contract/thumbnail tests.
 - Nov archive: 48 videos metadata; 47 mp4s analyzed; casebooks/dialogue cohort analysis exist.
 - AI provider inventory: Cloudflare Workers AI text/image/TTS smoke-tested; no video model found.
 - Thumbnail Intelligence: persistent reference archive, visual metrics, concepts/critique module, Epic/channel cohort comparisons. `tools/build_channel_thumbnail_montages.py` now deduplicates hit/middle/low rows; regenerated montages fixed small-archive duplication.
@@ -22,6 +22,13 @@ Build a reusable professional AI-assisted long-form animation studio system, not
 - Cross-channel patterns integrated into code: `studio/failure_intelligence.py` now includes spectacle-without-relational-anchor, abstract quest lore, fragmented episode, delayed payoff. `studio/format_strategy.py` added and integrated into `studio/production.py`; premise schema now accepts optional `target_minutes`/`release_format`.
 - Skill updated with cross-channel/format decision protocol in `.devin/skills/longform-animation-studio/SKILL.md`.
 - Machine-readable channel contracts added at `knowledge/market/channel_contracts.json` and wired through `studio/channel_contracts.py` into production evaluation; premise schema accepts `channel_contract`.
+
+- Example end-to-end original project: `examples/stormglass_keepers/` has premise, architecture, scenes, thumbnail concepts, and production evaluation. Gates A/B/C pass; risk 0.356; no matched failure patterns; format/channel warnings clean.
+- Machine-readable channel contracts exist and are wired into production evaluation. Production economics estimator exists and is integrated.
+- External video-generation provider audit: `knowledge/production/video-generation-provider-audit.md`. Runway Dev aggregation, Google Gemini Omni, Luma Ray 3.2, Pika, Kling direct documented; Sora/Videos API and Gemini Veo 3.1 Preview are unavailable/shut down. No paid smoke tests.
+- Advanced craft playbook: `knowledge/craft/advanced-screenplay-direction-retention.md` covers emotional machine, protagonist psychology, scene power transitions, dialogue/subtext, retention horizons, direction, sound, edit, endings.
+- Recent breakout discovery: `tools/discover_recent_breakouts.py` found 35 last-14-day leads, 26 strong low/mid-subscriber leads. Report `knowledge/market/recent-breakout-candidates.md`; thumbnails downloaded under `thumbnails/reference/recent_breakouts/`; montage `thumbnails/recent_breakouts_top24_montage.jpg`; synthesis `knowledge/market/recent-breakout-synthesis.md`.
+- Crateh 14d endpoint appears to return the same rows as 7d; do not treat it as independent evidence.
 - `.gitattributes` added marking `data/**`, `thumbnails/**`, `*.ttml`, and `*.casebook.json` as `linguist-generated` because Devin Review docs say these do not count toward review diff-size limits. This is the current CI/Review fix hypothesis.
 
 ## Important caveats
@@ -30,19 +37,18 @@ Build a reusable professional AI-assisted long-form animation studio system, not
 - Public views/day is not CTR or retention. Korean “rolling views” are not total 7-day increments.
 - `Aa0l5km5Jl4` lacks English subtitles; visual-first. RIFTBORN comparison videos lack subtitles. Some Korean tracks are Korean-only.
 - Earlier cross-channel interpretation may include subtitle contamination; do not treat old broad findings as final without rechecking.
-- Devin Review repeatedly skipped/failed because PR diff was huge. `.gitattributes` fix is pushed but not yet proven; wait for automatic notification/status rather than polling obsessively. Local tests pass.
+- Devin Review repeatedly skipped/failed because PR diff was huge. `.gitattributes` fix changed status to `running` at least once, so the diff-size hypothesis is promising; wait for completion notifications rather than polling obsessively. Local tests pass.
 - Downloaded full mp4/contact-sheet media are intentionally local only, not committed. Thumbnail reference images are committed because user explicitly requested persistent visual references; never copy them as production artwork.
 
 ## Immediate next steps, in order
 
 1. If Devin Review still skips/fails after `.gitattributes`, inspect exact status once, then split generated evidence into separate branch/PR or further exclude generated artifacts. Do not bypass review settings.
 2. Revisit `knowledge/market/cross-channel-audiovisual-findings.md` and correct subtitle-contaminated conclusions using corrected English subtitles.
-3. Add a machine-readable channel-contract knowledge file (JSON/YAML) mapping Epic/Ironcrest/FablePop/Next/RIFT/Korean microdrama contracts and wire it into premise evaluation.
-4. Create at least one original example premise packet + architecture + scenes that uses the full system end-to-end, then run production gates on it.
-5. Expand thumbnail intelligence: compare Epic/Ironcrest/Fable/Next/RIFT hit-middle-low thumbnails visually in more detail; update thumbnail concept generator with channel-contract-aware reference classes.
-6. Continue weekly/recent breakout discovery beyond Crateh top 10; collect channel age, repeat performance, format, language/market, and evidence quality.
-7. Investigate accessible video-generation providers/APIs beyond Cloudflare; inventory exact model/modality/pricing/license constraints without accepting terms or spending money.
-8. Continue integrating research into production decision-making, not just reports.
+3. Inspect/download/deep-analyze selected recent breakout videos. A background job was started with: `python tools/download_piped_archive.py --ids 6pbhGtHRTwA,icsZH4sDwTM,1Nv2aGUgIG4,NHAHR3v9La8,lBhjowuJURw --media-dir C:/Users/Administrator/breakout_media --raw-dir data/raw/piped_recent_breakout --workers 3` then `python tools/batch_media_analysis.py --media-dir C:/Users/Administrator/breakout_media --raw-dir data/raw/piped_recent_breakout --out-root C:/Users/Administrator/breakout_analysis --workers 2`. If rotation killed it, rerun the same compound command. Videos: Lost Kind dark fantasy, insect island, tiny kingdom, dragon twins, hidden beauty.
+4. Verify duplicate `THE LOST KIND` titles on VeylornStudios/Everflame: shared distribution/reupload/localization/unrelated same title.
+5. Analyze recent breakout thumbnails in detail from `thumbnails/recent_breakouts_top24_montage.jpg` and per-image files. Initial synthesis is in `knowledge/market/recent-breakout-synthesis.md`.
+6. Validate production economics and provider docs before any paid generation; never spend without explicit approval.
+7. Continue integrating research into production decision-making, not just reports.
 
 ## Key creative synthesis to preserve
 
