@@ -60,7 +60,7 @@ def evaluate_meaning_carrier(premise: dict[str, Any], architecture: dict[str, An
         carrier_text = str(explicit.get("object_or_space", "")).lower()
         raw_tokens = [token for token in re.findall(r"[a-z]{3,}", carrier_text)]
         carrier_tokens = [token for token in raw_tokens if token not in STOPWORDS] or raw_tokens
-        final_match = any(re.search(rf"{re.escape(token)}(?:s|es)?", final_text) for token in carrier_tokens)
+        final_match = any(re.search(rf"\b{re.escape(token)}(?:s|es)?\b", final_text) for token in carrier_tokens)
         if architecture.get("sequences"):
             if not final_match:
                 warnings.append("meaning carrier is not visibly connected to the final two architecture sequences")
