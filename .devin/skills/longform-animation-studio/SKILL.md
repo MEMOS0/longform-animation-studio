@@ -250,6 +250,37 @@ A thumbnail must make the emotional/fantasy promise visible instantly. Evaluate:
 
 Top-performing archive patterns are hypotheses, not rules. Test counterexamples.
 
+
+## Cross-channel and format decision protocol
+
+Before greenlighting, classify both the channel contract and release format. Do not pool fantasy cinema, transformation melodrama, mythic adventure, creature franchise, Korean/BL microdrama, disaster spectacle, and compilation uploads into one benchmark.
+
+Current evidence-informed hierarchy:
+
+1. Most portable positive engine: a legible injustice or danger tied to a specific vulnerable child/creature/person, plus credible protection and an early visual payoff.
+2. Strong but channel-fit dependent engines: hidden royal identity, transformation/rebirth, familiar mythic adventure, revenge/reversal, creature spectacle, regression romance, BL power/intimacy tension, disaster survival, sci-fi mystery.
+3. Usually insufficient alone: scale, lore, armies, crowns, visual polish, franchise continuity, attractive actors, or a continuation hook.
+
+Channel-specific lessons now encoded in Failure Intelligence:
+
+- Epic/Ironcrest creature fantasy: spectacle must threaten or protect a specific vulnerable creature/person. Diffuse disaster montage is a warning pattern.
+- FablePop transformation melodrama: open with the wound, secret test, public shame, or social reversal; whimsy without injustice is weak.
+- The Next Show mythic adventure: physical survival and recognizable mythic frames beat abstract obsidian/realm/god-trial exposition.
+- RIFTBORN/franchise serials: compilation/completeness can dominate craft; fragmented mid-story episodes need a self-contained emotional contract.
+- Korean/BL microdramas: niche precision matters more than broad appeal; relational intimacy, secrecy, regression tropes, power asymmetry, and rapid trope declaration follow different rules from broad cinematic creature fantasy.
+
+Use `studio.format_strategy.format_strategy` and the cross-channel patterns in `studio.failure_intelligence` before drafting. For every premise record:
+
+- target duration and format class
+- standalone/episode/compilation status
+- channel or audience contract
+- first 90-second emotional object
+- first 5-minute visual proof of the packaging promise
+- continuation hook and what has already been paid off
+- which failure pattern would most plausibly kill it
+
+Thumbnail cohort montages must be deduplicated by video id. Small archives must not repeat the same thumbnail across hit/middle/low rows.
+
 ## Direction and visual-production protocol
 
 For vertical/mobile-native animation, prioritize emotional legibility:
