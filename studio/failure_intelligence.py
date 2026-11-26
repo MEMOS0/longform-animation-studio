@@ -16,6 +16,7 @@ from typing import Any
 
 from .comparative import load_jsonl
 from .features import title_features, flatten_theme
+from .story_signals import count_signal
 
 STOPWORDS = set("the a an and or but to of in for with on she he her his their they was were is are be been now then so until unaware because as at by from it its this that who whom whose into had have has".split())
 
@@ -50,11 +51,56 @@ DEFAULT_PATTERNS: list[dict[str, Any]] = [
     {
         "id": "modern_power_arena_mismatch",
         "label": "Modern sports/billionaire/mafia power fantasy lacks the mythic creature-family draw",
-        "signals": ["modern_wealth_power", "weak_dragon", "weak_wolf_werewolf", "weak_vampire", "weak_sea_mermaid"],
-        "evidence_strength": "weak_observational",
-        "archive_signal": "Racing/championship examples sit near the bottom, but sample size and channel momentum confound the result.",
-        "risk_logic": "The channel audience appears trained toward mythic romance/family fantasy; adjacent modern power fantasy may be lower-demand unless packaged with the same emotional engine.",
-        "mitigation": "Either add a strong mythic/kinship hook or deliberately test as an outlier with a small production commitment.",
+        "signals": ["modern_wealth_power", "weak_family_child", "weak_dragon", "weak_wolf_werewolf", "weak_vampire", "weak_sea_mermaid"],
+        "evidence_strength": "counterexample_challenged_observational",
+        "archive_signal": "Racing/championship examples sit near the bottom, but the pregnant-wife millionaire modern story is a major hit; modern arena alone is not a failure cause.",
+        "risk_logic": "Modern power fantasy appears risky only when it lacks the channel's child/heir/protector emotional anchor or clear mythic promise.",
+        "mitigation": "Keep the modern arena only if the first minutes create legible injustice around a vulnerable child/heir/family stake; otherwise use a mythic/kinship hook or treat it as a deliberate outlier test.",
+    },
+    {
+        "id": "lore_politics_overload_before_emotional_grounding",
+        "label": "Court/clan mythology and political terminology arrive before a simple emotional wound-rescue loop",
+        "signals": ["lore_overload_opening", "weak_opening_wound_care_loop"],
+        "evidence_strength": "timestamped_casebook_observational",
+        "archive_signal": "Underperforming wolf/panther casebooks show much higher lore-per-hour and lore-to-care ratios than top hits; examples include 1UB6EA3L7I4, _I5I1l7DP3E, and BeX5LHLqOEI.",
+        "risk_logic": "Proper nouns, councils, clans, bloodlines, and rituals create cognitive load before the audience knows whom to love or what injustice to hate.",
+        "mitigation": "Open with one visually legible victim, one act of cruelty, and one act of protection; let lore emerge only as it changes those stakes.",
+    },
+    {
+        "id": "procedural_or_expository_opening",
+        "label": "The first minutes are report/ceremony/exposition rather than an immediate dramatic event",
+        "signals": ["expository_opening"],
+        "evidence_strength": "timestamped_casebook_observational",
+        "archive_signal": "BeX5LHLqOEI opens with an urgent report/selection machinery despite appealing animal-child imagery; hits more often open with peril, rejection, rescue, or transformation already happening.",
+        "risk_logic": "Vertical mobile viewers decide quickly; static explanation delays the emotional question.",
+        "mitigation": "Convert exposition into an event: someone is thrown out, saved, exposed, claimed, or transformed while the necessary facts are visible.",
+    },
+    {
+        "id": "justice_without_warm_resolution",
+        "label": "The ending delivers procedural punishment but little belonging, safety, reconciliation, or communal joy",
+        "signals": ["unresolved_or_procedural_ending"],
+        "evidence_strength": "timestamped_casebook_observational",
+        "archive_signal": "1UB6EA3L7I4 ends in banishment/royal jurisdiction and a dying apology; stronger hits end in home, family acceptance, celebration, marriage, or communal safety.",
+        "risk_logic": "Revenge satisfaction alone does not repay long-form suffering unless the protagonist's original wound is emotionally answered.",
+        "mitigation": "After justice, explicitly dramatize what the protagonist gains: home, family, child safety, chosen love, public acceptance, or a transformed future.",
+    },
+    {
+        "id": "adult_betrayal_escalates_into_misery_spiral",
+        "label": "Sexual betrayal, pregnancy loss, coercion, or domestic violence escalates without early protection/agency",
+        "signals": ["adult_misery_opening", "no_capability_progression"],
+        "evidence_strength": "hypothesis_with_counterexample",
+        "archive_signal": "1UB6EA3L7I4 and KsxgWoFS50I lean into sexual/domestic cruelty and underperform; however gkRXl9lDReY proves pregnancy betrayal can succeed when the premise is simple and the victim quickly gains a path forward.",
+        "risk_logic": "The problem is not mature subject matter itself but prolonged helplessness and tonal claustrophobia before rescue or agency.",
+        "mitigation": "Within the first act, give the victim an ally, plan, secret asset, or active decision; do not stack sexual humiliation merely for shock.",
+    },
+    {
+        "id": "production_artifact_immersion_break",
+        "label": "Censorship blur, sudden muting, over-loud music, or visible AI continuity artifacts interrupt emotional immersion",
+        "signals": ["production_artifact_risk"],
+        "evidence_strength": "comment_observational",
+        "archive_signal": "Public comments repeatedly criticize blurring/censorship, missing sound, loud music, sudden cuts, and on-screen reup-protection artifacts even on otherwise liked stories.",
+        "risk_logic": "Viewers can forgive imperfect AI animation more easily than being reminded they are watching a broken/generated artifact.",
+        "mitigation": "Add audio/visual continuity QA gates: no unexplained muting, music under dialogue, no censorship mosaics unless unavoidable, no sudden emotional-state jumps, no watermark-like overlays.",
     },
     {
         "id": "suffering_repetition_without_progress",
@@ -112,6 +158,14 @@ def candidate_flags(candidate_text: str, script_text: str = "") -> dict[str, boo
     full = (candidate_text + "\n" + script_text).lower()
     reveal_mentions = len(re.findall(r"reveal|discover|expose|learns|finds out|transform", full))
     agency_mentions = len(re.findall(r"decides|chooses|protects|saves|learns|uses|earns|leads|escapes", full))
+    opening_text = script_text[: max(1200, len(script_text) // 8)] if script_text else ""
+    ending_text = script_text[-max(1200, len(script_text) // 8):] if script_text else ""
+    opening_words = max(len(re.findall(r"[A-Za-z']+", opening_text)), 1)
+    lore_per_1000_opening = count_signal(opening_text, "lore_mythology_density") / opening_words * 1000 if opening_text else 0
+    opening_wound = count_signal(opening_text, "wound_or_humiliation")
+    opening_care = count_signal(opening_text, "care_belonging_protection")
+    ending_wound = count_signal(ending_text, "wound_or_humiliation") + count_signal(ending_text, "threat_or_violence")
+    ending_warmth = count_signal(ending_text, "care_belonging_protection") + count_signal(ending_text, "justice_reversal_payoff")
     flags = {name: name in themes for name in themes}
     flags.update({
         "hidden_identity_or_secret": bool(features["hidden_identity_or_secret"]["present"]),
@@ -121,6 +175,12 @@ def candidate_flags(candidate_text: str, script_text: str = "") -> dict[str, boo
         "dark_thumbnail": "dark thumbnail" in full or "red black thumbnail" in full,
         "no_reveal_escalation": reveal_mentions < 3 if script_text else False,
         "no_capability_progression": agency_mentions < 4 if script_text else False,
+        "lore_overload_opening": lore_per_1000_opening >= 8 if script_text else False,
+        "weak_opening_wound_care_loop": bool(script_text and (opening_wound == 0 or opening_care == 0)),
+        "expository_opening": bool(script_text and re.search(r"(report|council|ceremony|selection|clan council|royal court|as you know|years ago)", opening_text.lower())),
+        "adult_misery_opening": bool(script_text and re.search(r"pregnan|cheat|affair|miscarriage|termination|forced|coerc|domestic|rape|sexual", opening_text.lower())),
+        "unresolved_or_procedural_ending": bool(script_text and ending_wound >= max(ending_warmth + 2, 4)),
+        "production_artifact_risk": bool(re.search(r"censor|blur|mosaic|muted|missing sound|loud music|audio dropout|watermark|sudden cut|continuity error", full)),
     })
     for theme in ("family_child", "animal_child", "dragon", "wolf_werewolf", "vampire", "sea_mermaid", "romance_mate", "modern_wealth_power", "revenge_retribution"):
         flags.setdefault(theme, theme in themes)

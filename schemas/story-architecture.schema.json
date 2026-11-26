@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Long-form story architecture",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "target_minutes",
+    "central_dramatic_question",
+    "sequences",
+    "ending_payoff"
+  ],
+  "properties": {
+    "target_minutes": {
+      "type": "number"
+    },
+    "central_dramatic_question": {
+      "type": "string"
+    },
+    "protagonist_need_arc": {
+      "type": "string"
+    },
+    "sequences": {
+      "type": "array",
+      "minItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "sequence",
+          "time_range",
+          "function",
+          "turn",
+          "protagonist_choice",
+          "emotional_shift",
+          "retention_hook"
+        ],
+        "properties": {
+          "sequence": {
+            "type": "integer"
+          },
+          "time_range": {
+            "type": "string"
+          },
+          "function": {
+            "type": "string"
+          },
+          "turn": {
+            "type": "string"
+          },
+          "protagonist_choice": {
+            "type": "string"
+          },
+          "new_capability_or_clue": {
+            "type": "string"
+          },
+          "ally_or_relationship_change": {
+            "type": "string"
+          },
+          "secret_reveal_escalation": {
+            "type": "string"
+          },
+          "emotional_shift": {
+            "type": "string"
+          },
+          "visual_setpiece": {
+            "type": "string"
+          },
+          "sound_design_intent": {
+            "type": "string"
+          },
+          "retention_hook": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "midpoint_reversal": {
+      "type": "string"
+    },
+    "ending_payoff": {
+      "type": "object",
+      "required": [
+        "justice",
+        "belonging",
+        "future_image"
+      ],
+      "properties": {
+        "justice": {
+          "type": "string"
+        },
+        "belonging": {
+          "type": "string"
+        },
+        "future_image": {
+          "type": "string"
+        }
+      }
+    },
+    "anti_patterns_checked": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_references": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

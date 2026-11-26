@@ -1,0 +1,500 @@
+{
+  "video_id": "jW-gZtvP9Oo",
+  "duration_seconds": 3374,
+  "window_seconds": 300,
+  "total_signal_counts": {
+    "wound_or_humiliation": 38,
+    "care_belonging_protection": 121,
+    "justice_reversal_payoff": 41,
+    "romance_bond_or_coercion": 30,
+    "lore_mythology_density": 31,
+    "threat_or_violence": 21
+  },
+  "first_signal_occurrences": {
+    "wound_or_humiliation": {
+      "time": 1.56,
+      "text": "Chloe, don't cry. As long as I'm here,"
+    },
+    "care_belonging_protection": {
+      "time": 5.6,
+      "text": "college together and we'll protect you."
+    },
+    "justice_reversal_payoff": {
+      "time": 19.64,
+      "text": "My only condition [music] are the twins"
+    },
+    "romance_bond_or_coercion": {
+      "time": 52.84,
+      "text": "chosen another fiance."
+    },
+    "lore_mythology_density": {
+      "time": 61.32,
+      "text": "Alex Kingsley? The heir of the Kingsley"
+    },
+    "threat_or_violence": {
+      "time": 140.412,
+      "text": "MIA, ARE YOU HURT? [music] WHAT"
+    }
+  },
+  "care_after_wound_latency_seconds": 4.039999999999999,
+  "final_10_minutes_signal_counts": {
+    "wound_or_humiliation": 5,
+    "care_belonging_protection": 22,
+    "justice_reversal_payoff": 7,
+    "romance_bond_or_coercion": 6,
+    "lore_mythology_density": 5,
+    "threat_or_violence": 1
+  },
+  "windows": [
+    {
+      "start": 0,
+      "end": 300,
+      "signal_counts": {
+        "wound_or_humiliation": 12,
+        "care_belonging_protection": 17,
+        "justice_reversal_payoff": 13,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 2,
+        "threat_or_violence": 6
+      },
+      "dialogue_words": 1002,
+      "shot_boundaries": 27,
+      "visual": {
+        "brightness": 0.35297459080815313,
+        "saturation": 0.39646030324200787,
+        "colorfulness": 0.4045872796451052,
+        "motion": 0.15343349746894092
+      },
+      "audio": {
+        "rms_mean": 0.07965205616007248,
+        "rms_std": 0.05420354666809241,
+        "silence_ratio": 0.20575079872204471,
+        "onsets_per_second": 5.96
+      },
+      "evidence_snippets": [
+        {
+          "time": 0,
+          "quote": "Chloe, don't cry. As long as I'm here, no one picks on"
+        },
+        {
+          "time": 10,
+          "quote": "[snorts] Pinky promise. You can never break your word and you can"
+        }
+      ]
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 5,
+        "justice_reversal_payoff": 5,
+        "romance_bond_or_coercion": 8,
+        "lore_mythology_density": 2,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 883,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.3144199158499638,
+        "saturation": 0.3699254950384299,
+        "colorfulness": 0.39454218581318856,
+        "motion": 0.12972729859990068
+      },
+      "audio": {
+        "rms_mean": 0.07549503073096275,
+        "rms_std": 0.05193566021819909,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 6.386666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 300,
+          "quote": "CHLOE? JESUS CHRIST, WHERE IS YOUR EPIPEN? SHE REALLY WASN'T LYING. OW,"
+        },
+        {
+          "time": 310,
+          "quote": "OW, MY HAND! [screaming] Julian wasted the glass. I'M BLEEDING. HELP ME!"
+        }
+      ]
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 12,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 2,
+        "threat_or_violence": 3
+      },
+      "dialogue_words": 1083,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.32920460325976214,
+        "saturation": 0.3687937869131565,
+        "colorfulness": 0.40493529483675955,
+        "motion": 0.12353742191956067
+      },
+      "audio": {
+        "rms_mean": 0.0783848874270916,
+        "rms_std": 0.050749992951750755,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 6.983333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 600,
+          "quote": "next to you perfectly. Chloe Hastings, YOU DARE CALL JULIAN TRASH? CHLOE,"
+        },
+        {
+          "time": 610,
+          "quote": "CHLOE, you threw away the title of my fiance and your [music]"
+        }
+      ]
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 5,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 4,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 860,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.3266063075761,
+        "saturation": 0.33992952505747476,
+        "colorfulness": 0.39423794955015184,
+        "motion": 0.14086606083748243
+      },
+      "audio": {
+        "rms_mean": 0.08460133510331312,
+        "rms_std": 0.05426720902323723,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 6.86
+      },
+      "evidence_snippets": [
+        {
+          "time": 900,
+          "quote": "personally deliver your presidential fellowship dispatch. Go back and take what is"
+        },
+        {
+          "time": 910,
+          "quote": "Harvard? Presidential fellowship? Dean Evans is coming for her? That's impossible. She"
+        }
+      ]
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "signal_counts": {
+        "wound_or_humiliation": 4,
+        "care_belonging_protection": 16,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 4,
+        "threat_or_violence": 3
+      },
+      "dialogue_words": 812,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.3088822707037131,
+        "saturation": 0.35099792140225566,
+        "colorfulness": 0.3799524937445919,
+        "motion": 0.1254882930048431
+      },
+      "audio": {
+        "rms_mean": 0.07450098370512327,
+        "rms_std": 0.05397939247389635,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 6.413333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 1200,
+          "quote": "Dean Evans speaks. Admit you lied out of jealousy right now, and"
+        },
+        {
+          "time": 1210,
+          "quote": "Julian, you're not trying [music] to protect me. You're just desperate to"
+        }
+      ]
+    },
+    {
+      "start": 1500,
+      "end": 1800,
+      "signal_counts": {
+        "wound_or_humiliation": 4,
+        "care_belonging_protection": 10,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 6,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 813,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.3339247133831183,
+        "saturation": 0.30841466804345447,
+        "colorfulness": 0.4110116819043954,
+        "motion": 0.1368509533807325
+      },
+      "audio": {
+        "rms_mean": 0.0711935402204593,
+        "rms_std": 0.05250120162963867,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 6.39
+      },
+      "evidence_snippets": [
+        {
+          "time": 1500,
+          "quote": "seats to trade with young girls. Her grandmother was critical. Chloe might"
+        },
+        {
+          "time": 1510,
+          "quote": "herself in Boston. Did she really sell her dignity to an old"
+        }
+      ]
+    },
+    {
+      "start": 1800,
+      "end": 2100,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 12,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 1,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 818,
+      "shot_boundaries": 5,
+      "visual": {
+        "brightness": 0.3313171370327473,
+        "saturation": 0.347912409901619,
+        "colorfulness": 0.40711223632097243,
+        "motion": 0.14649553277219335
+      },
+      "audio": {
+        "rms_mean": 0.07298512024184069,
+        "rms_std": 0.049967191119988756,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 6.543333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 1800,
+          "quote": "Renounce my fellowship? Julian, you're not trying to protect [music] me. You're"
+        },
+        {
+          "time": 1810,
+          "quote": "because you can't accept that without you, I am still [music] far"
+        }
+      ]
+    },
+    {
+      "start": 2100,
+      "end": 2400,
+      "signal_counts": {
+        "wound_or_humiliation": 1,
+        "care_belonging_protection": 9,
+        "justice_reversal_payoff": 6,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 1,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 710,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.31555588195721307,
+        "saturation": 0.3437373273074627,
+        "colorfulness": 0.37556706393758454,
+        "motion": 0.12783907485737775
+      },
+      "audio": {
+        "rms_mean": 0.0694383497039477,
+        "rms_std": 0.04994988677402337,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 6.7
+      },
+      "evidence_snippets": [
+        {
+          "time": 2100,
+          "quote": "us. We know you still care about the 15 years we spent"
+        },
+        {
+          "time": 2110,
+          "quote": "She thinks the hallway isn't formal enough. She's waiting for a proper"
+        }
+      ]
+    },
+    {
+      "start": 2400,
+      "end": 2700,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 12,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 4,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 656,
+      "shot_boundaries": 8,
+      "visual": {
+        "brightness": 0.271981884414951,
+        "saturation": 0.4498150008420149,
+        "colorfulness": 0.3810599732398987,
+        "motion": 0.11701407190412283
+      },
+      "audio": {
+        "rms_mean": 0.07789562083780766,
+        "rms_std": 0.049977755080908536,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.986666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 2400,
+          "quote": "So, tomorrow we get Harrington, the trust, and Chloe. Everything's finally falling"
+        },
+        {
+          "time": 2410,
+          "quote": "Julian, Mason, congratulations. Thank you. Our family handled the foundation. [music] It's"
+        }
+      ]
+    },
+    {
+      "start": 2700,
+      "end": 3000,
+      "signal_counts": {
+        "wound_or_humiliation": 1,
+        "care_belonging_protection": 12,
+        "justice_reversal_payoff": 6,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 2,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 707,
+      "shot_boundaries": 5,
+      "visual": {
+        "brightness": 0.3229738549391429,
+        "saturation": 0.33714938968420033,
+        "colorfulness": 0.41811706105868024,
+        "motion": 0.12865486172493548
+      },
+      "audio": {
+        "rms_mean": 0.0681635486582915,
+        "rms_std": 0.051838329931100206,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.716666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 2700,
+          "quote": "committee this morning. You don't need to hold all these notes [music]"
+        },
+        {
+          "time": 2710,
+          "quote": "She never smiled like that with us lately. Don't be fooled, Mason."
+        }
+      ]
+    },
+    {
+      "start": 3000,
+      "end": 3300,
+      "signal_counts": {
+        "wound_or_humiliation": 4,
+        "care_belonging_protection": 11,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 3,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 768,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.30618564834197365,
+        "saturation": 0.3926950819293658,
+        "colorfulness": 0.387070343742768,
+        "motion": 0.12820492634898983
+      },
+      "audio": {
+        "rms_mean": 0.07759646841635306,
+        "rms_std": 0.055179676848153274,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 6.426666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 3000,
+          "quote": "Mr. Alex, a word of advice. Know your place. Feeding on a"
+        },
+        {
+          "time": 3010,
+          "quote": "world, you are out of depth. Leave Chloe immediately. The Sterling family"
+        }
+      ]
+    },
+    {
+      "start": 3300,
+      "end": 3374,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 162,
+      "shot_boundaries": 2,
+      "visual": {
+        "brightness": 0.29336719270795586,
+        "saturation": 0.3758724607527256,
+        "colorfulness": 0.35558964321389797,
+        "motion": 0.1360535732121207
+      },
+      "audio": {
+        "rms_mean": 0.07577354600653052,
+        "rms_std": 0.04722805181518197,
+        "silence_ratio": 0.20092737116796333,
+        "onsets_per_second": 5.726675827458478
+      },
+      "evidence_snippets": [
+        {
+          "time": 3300,
+          "quote": "Let go of me, Chloe. You ruined my life. Julian, save me."
+        },
+        {
+          "time": 3310,
+          "quote": "[applause] [music] For groundbreaking independent contributions to macro theory, Ms. Chloe"
+        }
+      ]
+    }
+  ],
+  "interpretation_boundaries": [
+    "Signal counts measure explicit dialogue language only; they do not prove emotional quality or causality.",
+    "Evidence snippets are short orientation quotes, not a transcript substitute.",
+    "Visual/audio metrics are low-resolution proxies and must be paired with direct viewing."
+  ],
+  "outcome": {
+    "views": 28186,
+    "published_date": "2026-11-05",
+    "age_days_at_snapshot": 22,
+    "views_per_day": 1281.1818181818182,
+    "log_views_per_day": 7.156318451279335,
+    "duration_minutes": 56.25,
+    "snapshot_date": "2026-11-26",
+    "cohort_by_age_adjusted_views": "middle",
+    "archive_log_vpd_median": 7.683511103153724,
+    "q1": 6.5647291773852805,
+    "q3": 9.36042020805592
+  }
+}

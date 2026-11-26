@@ -158,10 +158,12 @@ def sample_video_frames(video: Path, output_dir: Path, contact_every: int = 20, 
 
     values = np.array([r["histogram_diff"] for r in rows[1:]], dtype=float)
     threshold = max(0.18, float(np.percentile(values, 97))) if len(values) else 0.2
+    shot_id = 0
     for index, row in enumerate(rows):
         row["shot_boundary"] = bool(index and row["histogram_diff"] >= threshold)
-    for index, row in enumerate(rows):
-        row["shot_id"] = sum(1 for prior in rows[: index + 1] if prior.get("shot_boundary"))
+        if row["shot_boundary"]:
+            shot_id += 1
+        row["shot_id"] = shot_id
 
     sheet_paths = []
     font = ImageFont.load_default()
@@ -201,6 +203,8 @@ def audio_features(video: Path, output_dir: Path, window: int = 10) -> dict[int,
     except Exception:
         return {}
     result: dict[int, dict[str, float]] = {}
+    reference_rms = librosa.feature.rms(y=y)[0]
+    silence_floor = max(float(np.percentile(reference_rms, 20)), 0.002)
     for start in range(0, int(len(y) / sr), window):
         segment = y[start * sr : min((start + window) * sr, len(y))]
         if len(segment) < sr:
@@ -215,7 +219,7 @@ def audio_features(video: Path, output_dir: Path, window: int = 10) -> dict[int,
             "spectral_centroid_mean": float(centroid.mean()),
             "zero_crossing_rate": float(zcr.mean()),
             "onsets_per_second": float(len(onsets) / max(len(segment) / sr, 1)),
-            "silence_ratio": float((rms < max(float(np.percentile(rms, 20)), 0.002)).mean()),
+            "silence_ratio": float((rms < silence_floor).mean()),
         }
     return result
 

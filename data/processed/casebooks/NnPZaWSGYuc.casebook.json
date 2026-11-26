@@ -1,0 +1,896 @@
+{
+  "video_id": "NnPZaWSGYuc",
+  "duration_seconds": 6756,
+  "window_seconds": 300,
+  "total_signal_counts": {
+    "wound_or_humiliation": 169,
+    "care_belonging_protection": 88,
+    "justice_reversal_payoff": 71,
+    "romance_bond_or_coercion": 36,
+    "lore_mythology_density": 489,
+    "threat_or_violence": 333
+  },
+  "first_signal_occurrences": {
+    "wound_or_humiliation": {
+      "time": 50.96,
+      "text": "What do you want for them? Slave. That"
+    },
+    "care_belonging_protection": {
+      "time": 66.799,
+      "text": "scared? You can die right now."
+    },
+    "justice_reversal_payoff": {
+      "time": 200.56,
+      "text": "Twin marks bound in life and death,"
+    },
+    "romance_bond_or_coercion": {
+      "time": 55.68,
+      "text": "wants a legitimate daughter of House"
+    },
+    "lore_mythology_density": {
+      "time": 53.84,
+      "text": "half breed monster in the dragon clan"
+    },
+    "threat_or_violence": {
+      "time": 60.719,
+      "text": "slaughtered my entire clan 3 years ago."
+    }
+  },
+  "care_after_wound_latency_seconds": 15.839000000000006,
+  "final_10_minutes_signal_counts": {
+    "wound_or_humiliation": 16,
+    "care_belonging_protection": 14,
+    "justice_reversal_payoff": 34,
+    "romance_bond_or_coercion": 5,
+    "lore_mythology_density": 52,
+    "threat_or_violence": 21
+  },
+  "windows": [
+    {
+      "start": 0,
+      "end": 300,
+      "signal_counts": {
+        "wound_or_humiliation": 26,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 16,
+        "threat_or_violence": 22
+      },
+      "dialogue_words": 492,
+      "shot_boundaries": 15,
+      "visual": {
+        "brightness": 0.251255065475901,
+        "saturation": 0.3702802031238874,
+        "colorfulness": 0.2831967754662037,
+        "motion": 0.13131526264051596
+      },
+      "audio": {
+        "rms_mean": 0.0605019728342692,
+        "rms_std": 0.04636091974874337,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 4.319999999999999
+      },
+      "evidence_snippets": [
+        {
+          "time": 20,
+          "quote": "There's one more Mothers."
+        },
+        {
+          "time": 30,
+          "quote": "Mothers. Mom."
+        }
+      ]
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "signal_counts": {
+        "wound_or_humiliation": 9,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 5,
+        "romance_bond_or_coercion": 6,
+        "lore_mythology_density": 34,
+        "threat_or_violence": 25
+      },
+      "dialogue_words": 660,
+      "shot_boundaries": 8,
+      "visual": {
+        "brightness": 0.26922925534347697,
+        "saturation": 0.3726457651518285,
+        "colorfulness": 0.29382252488285304,
+        "motion": 0.13457017375777167
+      },
+      "audio": {
+        "rms_mean": 0.06742947505166133,
+        "rms_std": 0.04613897912204266,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 4.703333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 310,
+          "quote": "Say it. Call me master. You You wouldn't dare."
+        },
+        {
+          "time": 320,
+          "quote": "Say it. Call me master. You You wouldn't dare. I'm pure blood"
+        }
+      ]
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 20,
+        "threat_or_violence": 17
+      },
+      "dialogue_words": 554,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.27916324305658535,
+        "saturation": 0.30034067238370576,
+        "colorfulness": 0.31945088118314746,
+        "motion": 0.12270547301508487
+      },
+      "audio": {
+        "rms_mean": 0.05173802723487218,
+        "rms_std": 0.043306222775330146,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 4.453333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 600,
+          "quote": "Why? Because you're my choice. Not the Dragon Clans. Brother, what nerve?"
+        },
+        {
+          "time": 610,
+          "quote": "I don't care what they call you. You are my queen. You're"
+        }
+      ]
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "signal_counts": {
+        "wound_or_humiliation": 7,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 18,
+        "threat_or_violence": 16
+      },
+      "dialogue_words": 466,
+      "shot_boundaries": 20,
+      "visual": {
+        "brightness": 0.264145470050474,
+        "saturation": 0.3504302617162466,
+        "colorfulness": 0.27483231579264006,
+        "motion": 0.12186063177573184
+      },
+      "audio": {
+        "rms_mean": 0.08790512209137281,
+        "rms_std": 0.04363237228244543,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 4.1433333333333335
+      },
+      "evidence_snippets": [
+        {
+          "time": 900,
+          "quote": "Dragon blood. How are we supposed to verify anything with this? Anyone"
+        },
+        {
+          "time": 920,
+          "quote": "The mark is burning. What's going on? None of your concern. Get"
+        }
+      ]
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "signal_counts": {
+        "wound_or_humiliation": 4,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 4,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 20,
+        "threat_or_violence": 17
+      },
+      "dialogue_words": 568,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.23842838088671367,
+        "saturation": 0.3479025736792634,
+        "colorfulness": 0.2564635866942505,
+        "motion": 0.12772464867681263
+      },
+      "audio": {
+        "rms_mean": 0.0831079197426637,
+        "rms_std": 0.043576037014524144,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.1866666666666665
+      },
+      "evidence_snippets": [
+        {
+          "time": 1210,
+          "quote": "[music] Where's the third one? It ran toward the dungeon. There's a"
+        },
+        {
+          "time": 1220,
+          "quote": "Where's the third one? It ran toward the dungeon. There's a ceiling"
+        }
+      ]
+    },
+    {
+      "start": 1500,
+      "end": 1800,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 5,
+        "threat_or_violence": 7
+      },
+      "dialogue_words": 309,
+      "shot_boundaries": 8,
+      "visual": {
+        "brightness": 0.24081770238777,
+        "saturation": 0.38525652212401235,
+        "colorfulness": 0.25682062077025575,
+        "motion": 0.10591605185841521
+      },
+      "audio": {
+        "rms_mean": 0.056533606226245564,
+        "rms_std": 0.04458242291584611,
+        "silence_ratio": 0.20223642172523962,
+        "onsets_per_second": 3.76
+      },
+      "evidence_snippets": [
+        {
+          "time": 1500,
+          "quote": "law will not tolerate the witch clan. Gods, burn this calamity to"
+        },
+        {
+          "time": 1510,
+          "quote": "My blade is the law. Anyone else have"
+        }
+      ]
+    },
+    {
+      "start": 1800,
+      "end": 2100,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 10,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 36,
+        "threat_or_violence": 17
+      },
+      "dialogue_words": 913,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.22498236405352753,
+        "saturation": 0.3543367544623713,
+        "colorfulness": 0.26515504024301967,
+        "motion": 0.09822768741287291
+      },
+      "audio": {
+        "rms_mean": 0.06968140136450529,
+        "rms_std": 0.049874328169971706,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.430000000000001
+      },
+      "evidence_snippets": [
+        {
+          "time": 1800,
+          "quote": "sleep. I'm here."
+        },
+        {
+          "time": 1810,
+          "quote": "sleep. I'm here. If Foran hadn't chosen me, would you still protect"
+        }
+      ]
+    },
+    {
+      "start": 2100,
+      "end": 2400,
+      "signal_counts": {
+        "wound_or_humiliation": 8,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 27,
+        "threat_or_violence": 13
+      },
+      "dialogue_words": 962,
+      "shot_boundaries": 5,
+      "visual": {
+        "brightness": 0.21494959030300378,
+        "saturation": 0.4223393172211945,
+        "colorfulness": 0.26423617783312997,
+        "motion": 0.08613106754918892
+      },
+      "audio": {
+        "rms_mean": 0.052476741994420685,
+        "rms_std": 0.040818933335443335,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.6866666666666665
+      },
+      "evidence_snippets": [
+        {
+          "time": 2100,
+          "quote": "accident? It's not coincidence. It's fate. The one who sealed the dragon"
+        },
+        {
+          "time": 2110,
+          "quote": "thousand-year curse, I can never escape it, can I? Curses aren't escaped."
+        }
+      ]
+    },
+    {
+      "start": 2400,
+      "end": 2700,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 0,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 23,
+        "threat_or_violence": 10
+      },
+      "dialogue_words": 748,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.3080535688251257,
+        "saturation": 0.2997727342198292,
+        "colorfulness": 0.35110041494170824,
+        "motion": 0.12320871511784692
+      },
+      "audio": {
+        "rms_mean": 0.054002912466724715,
+        "rms_std": 0.03909742558995883,
+        "silence_ratio": 0.20170394036208733,
+        "onsets_per_second": 5.256666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 2400,
+          "quote": "Below is the Black Wind Ridge defense line. Darius Dragon forces have"
+        },
+        {
+          "time": 2410,
+          "quote": "The Sterling Cavalry Camp is much closer than the intel suggested. East"
+        }
+      ]
+    },
+    {
+      "start": 2700,
+      "end": 3000,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 1,
+        "justice_reversal_payoff": 4,
+        "romance_bond_or_coercion": 5,
+        "lore_mythology_density": 24,
+        "threat_or_violence": 13
+      },
+      "dialogue_words": 971,
+      "shot_boundaries": 4,
+      "visual": {
+        "brightness": 0.2704570353031158,
+        "saturation": 0.35998257021109265,
+        "colorfulness": 0.31592027805745604,
+        "motion": 0.10097635388063889
+      },
+      "audio": {
+        "rms_mean": 0.07436297374467055,
+        "rms_std": 0.05357851702719927,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.28
+      },
+      "evidence_snippets": [
+        {
+          "time": 2700,
+          "quote": "Weren't you afraid of falling in yourself? I've killed thousands of people"
+        },
+        {
+          "time": 2710,
+          "quote": "now that was the first time, you Vesper, or should I say"
+        }
+      ]
+    },
+    {
+      "start": 3000,
+      "end": 3300,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 1,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 27,
+        "threat_or_violence": 18
+      },
+      "dialogue_words": 684,
+      "shot_boundaries": 4,
+      "visual": {
+        "brightness": 0.2537457327047984,
+        "saturation": 0.393007390126586,
+        "colorfulness": 0.3024349931627512,
+        "motion": 0.09671236569682758
+      },
+      "audio": {
+        "rms_mean": 0.06927540563046933,
+        "rms_std": 0.06097557408114274,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 3.7766666666666664
+      },
+      "evidence_snippets": [
+        {
+          "time": 3000,
+          "quote": "You want me to seal you with my own hands? I'D RATHER"
+        },
+        {
+          "time": 3010,
+          "quote": "sealing me. Don't cry. I will return, even if it takes a"
+        }
+      ]
+    },
+    {
+      "start": 3300,
+      "end": 3600,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 1,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 12,
+        "threat_or_violence": 5
+      },
+      "dialogue_words": 629,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.22803621691962084,
+        "saturation": 0.355211110531042,
+        "colorfulness": 0.27338155642151835,
+        "motion": 0.08669375725400945
+      },
+      "audio": {
+        "rms_mean": 0.0394883878218631,
+        "rms_std": 0.03905129308501879,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 4.61
+      },
+      "evidence_snippets": [
+        {
+          "time": 3300,
+          "quote": "Dragon Bone Staff, I pledge my allegiance to you. I don't want"
+        },
+        {
+          "time": 3310,
+          "quote": "then. What do you want? I want blades. Swords that can cut"
+        }
+      ]
+    },
+    {
+      "start": 3600,
+      "end": 3900,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 8,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 11,
+        "threat_or_violence": 15
+      },
+      "dialogue_words": 1057,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.2973051870862643,
+        "saturation": 0.2964448357621829,
+        "colorfulness": 0.3349163324137529,
+        "motion": 0.10384893782436848
+      },
+      "audio": {
+        "rms_mean": 0.07706880929569403,
+        "rms_std": 0.05326187511285146,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 6.1
+      },
+      "evidence_snippets": [
+        {
+          "time": 3600,
+          "quote": "She didn't even take the dagger."
+        },
+        {
+          "time": 3610,
+          "quote": "You dare leave. You dare go with him. Veto."
+        }
+      ]
+    },
+    {
+      "start": 3900,
+      "end": 4200,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 5,
+        "justice_reversal_payoff": 5,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 27,
+        "threat_or_violence": 28
+      },
+      "dialogue_words": 1029,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.2545983314017455,
+        "saturation": 0.3098022149006526,
+        "colorfulness": 0.2886789831519127,
+        "motion": 0.10366981877324481
+      },
+      "audio": {
+        "rms_mean": 0.08495389223098755,
+        "rms_std": 0.052626958365241686,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.803333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 3900,
+          "quote": "seen it. She must have given it to Darius. 30 mi south"
+        },
+        {
+          "time": 3910,
+          "quote": "time to stop him, use this. If it's too late, at least"
+        }
+      ]
+    },
+    {
+      "start": 4200,
+      "end": 4500,
+      "signal_counts": {
+        "wound_or_humiliation": 22,
+        "care_belonging_protection": 6,
+        "justice_reversal_payoff": 5,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 36,
+        "threat_or_violence": 24
+      },
+      "dialogue_words": 856,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.2836961408704519,
+        "saturation": 0.3261854290465514,
+        "colorfulness": 0.31592765713731447,
+        "motion": 0.12274234346114099
+      },
+      "audio": {
+        "rms_mean": 0.0779210014268756,
+        "rms_std": 0.04973701660831769,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.72
+      },
+      "evidence_snippets": [
+        {
+          "time": 4200,
+          "quote": "Rain prayer. Vesper, you think your precious witch blood can actually save"
+        },
+        {
+          "time": 4210,
+          "quote": "This counterc was given to me by Darius. When the volcano finally"
+        }
+      ]
+    },
+    {
+      "start": 4500,
+      "end": 4800,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 6,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 17,
+        "threat_or_violence": 7
+      },
+      "dialogue_words": 561,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.25658944147328533,
+        "saturation": 0.3641513963633527,
+        "colorfulness": 0.2866093331451217,
+        "motion": 0.12309964530946066
+      },
+      "audio": {
+        "rms_mean": 0.04616574527074893,
+        "rms_std": 0.03813046732296546,
+        "silence_ratio": 0.2117145899893504,
+        "onsets_per_second": 4.306666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 4500,
+          "quote": "I'll keep it. But if you regret this, never,"
+        },
+        {
+          "time": 4510,
+          "quote": "my 37 guards and I are yours to command."
+        }
+      ]
+    },
+    {
+      "start": 4800,
+      "end": 5100,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 1,
+        "threat_or_violence": 12
+      },
+      "dialogue_words": 215,
+      "shot_boundaries": 12,
+      "visual": {
+        "brightness": 0.2790572581688563,
+        "saturation": 0.3247955345269293,
+        "colorfulness": 0.27933743903413416,
+        "motion": 0.12909597736162443
+      },
+      "audio": {
+        "rms_mean": 0.05526543017476797,
+        "rms_std": 0.037267389334738256,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 3.8766666666666665
+      },
+      "evidence_snippets": [
+        {
+          "time": 4800,
+          "quote": "Over my dead body. That can be arranged."
+        },
+        {
+          "time": 4810,
+          "quote": "Brother, [music] you've been protecting her all this time. Aren't you tired?"
+        }
+      ]
+    },
+    {
+      "start": 5100,
+      "end": 5400,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 7,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 16,
+        "threat_or_violence": 7
+      },
+      "dialogue_words": 425,
+      "shot_boundaries": 17,
+      "visual": {
+        "brightness": 0.2964803994695346,
+        "saturation": 0.2629030136267344,
+        "colorfulness": 0.29412608540306484,
+        "motion": 0.13487759264806906
+      },
+      "audio": {
+        "rms_mean": 0.06546558998525143,
+        "rms_std": 0.04293180511643489,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 4.1866666666666665
+      },
+      "evidence_snippets": [
+        {
+          "time": 5100,
+          "quote": "Rivvent,"
+        },
+        {
+          "time": 5110,
+          "quote": "Rivvent, I'm here. This perm."
+        }
+      ]
+    },
+    {
+      "start": 5400,
+      "end": 5700,
+      "signal_counts": {
+        "wound_or_humiliation": 7,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 21,
+        "threat_or_violence": 13
+      },
+      "dialogue_words": 549,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.30622927581270537,
+        "saturation": 0.27099568327267964,
+        "colorfulness": 0.28505480897923313,
+        "motion": 0.12074673206234972
+      },
+      "audio": {
+        "rms_mean": 0.07216898041466872,
+        "rms_std": 0.048281879350543025,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 4.5600000000000005
+      },
+      "evidence_snippets": [
+        {
+          "time": 5400,
+          "quote": "You'll be reborn. You may forget me. What matters is that you"
+        },
+        {
+          "time": 5410,
+          "quote": "What matters is that you live. A thousand years from now, no"
+        }
+      ]
+    },
+    {
+      "start": 5700,
+      "end": 6000,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 0,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 31,
+        "threat_or_violence": 11
+      },
+      "dialogue_words": 550,
+      "shot_boundaries": 4,
+      "visual": {
+        "brightness": 0.3119356599946817,
+        "saturation": 0.2650386255265524,
+        "colorfulness": 0.31994461039391653,
+        "motion": 0.117999791946883
+      },
+      "audio": {
+        "rms_mean": 0.06866405320664247,
+        "rms_std": 0.04679157553861538,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 4.546666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 5700,
+          "quote": "Darius, you've lost. lost. I haven't lost. Even if I die, I'll"
+        },
+        {
+          "time": 5710,
+          "quote": "Even if I die, I'll take the entire royal city with me."
+        }
+      ]
+    },
+    {
+      "start": 6000,
+      "end": 6300,
+      "signal_counts": {
+        "wound_or_humiliation": 12,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 13,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 30,
+        "threat_or_violence": 27
+      },
+      "dialogue_words": 651,
+      "shot_boundaries": 14,
+      "visual": {
+        "brightness": 0.3045669984879593,
+        "saturation": 0.2838726294972002,
+        "colorfulness": 0.324471286435922,
+        "motion": 0.11138951156443606
+      },
+      "audio": {
+        "rms_mean": 0.04893320202827454,
+        "rms_std": 0.04046071550498406,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 3.9966666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 6000,
+          "quote": "I'll count to three. If you don't come over, I'll throw him"
+        },
+        {
+          "time": 6010,
+          "quote": "Put him back on solid rock where Voran can reach him. Then"
+        }
+      ]
+    },
+    {
+      "start": 6300,
+      "end": 6600,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 8,
+        "justice_reversal_payoff": 7,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 17,
+        "threat_or_violence": 6
+      },
+      "dialogue_words": 712,
+      "shot_boundaries": 4,
+      "visual": {
+        "brightness": 0.30705096517999964,
+        "saturation": 0.3072958908043802,
+        "colorfulness": 0.2866979942594965,
+        "motion": 0.10672377184499054
+      },
+      "audio": {
+        "rms_mean": 0.059629525430500506,
+        "rms_std": 0.05221271875003974,
+        "silence_ratio": 0.20319488817891376,
+        "onsets_per_second": 4.5600000000000005
+      },
+      "evidence_snippets": [
+        {
+          "time": 6300,
+          "quote": "My king found her during the palace search. Adarius had her chained"
+        },
+        {
+          "time": 6310,
+          "quote": "an offering. [gasps] You came to gloat over your victory. [sighs] I"
+        }
+      ]
+    },
+    {
+      "start": 6600,
+      "end": 6756,
+      "signal_counts": {
+        "wound_or_humiliation": 4,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 14,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 20,
+        "threat_or_violence": 3
+      },
+      "dialogue_words": 355,
+      "shot_boundaries": 4,
+      "visual": {
+        "brightness": 0.285714564130952,
+        "saturation": 0.3399450700574865,
+        "colorfulness": 0.3031490149286886,
+        "motion": 0.1019698980943455
+      },
+      "audio": {
+        "rms_mean": 0.0703686123015359,
+        "rms_std": 0.05706337280571461,
+        "silence_ratio": 0.2012679154693273,
+        "onsets_per_second": 4.598750876193814
+      },
+      "evidence_snippets": [
+        {
+          "time": 6600,
+          "quote": "It's not just because of her. It's because you came back and"
+        },
+        {
+          "time": 6610,
+          "quote": "My twin kings, the dragon bone royal sisle is preparing for tomorrow's"
+        }
+      ]
+    }
+  ],
+  "interpretation_boundaries": [
+    "Signal counts measure explicit dialogue language only; they do not prove emotional quality or causality.",
+    "Evidence snippets are short orientation quotes, not a transcript substitute.",
+    "Visual/audio metrics are low-resolution proxies and must be paired with direct viewing."
+  ],
+  "outcome": {
+    "views": 8288,
+    "published_date": "2026-11-23",
+    "age_days_at_snapshot": 4,
+    "views_per_day": 2072.0,
+    "log_views_per_day": 7.636752112435779,
+    "duration_minutes": 112.6,
+    "snapshot_date": "2026-11-26",
+    "cohort_by_age_adjusted_views": "middle",
+    "archive_log_vpd_median": 7.683511103153724,
+    "q1": 6.5647291773852805,
+    "q3": 9.36042020805592
+  }
+}

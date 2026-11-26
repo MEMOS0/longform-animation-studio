@@ -26,7 +26,7 @@ THEME_PATTERNS: dict[str, list[str]] = {
     "royalty_status": ["king", "queen", "prince", "princess", "emperor", "empress", "royal", "supreme", "god", "goddess"],
     "romance_mate": ["love", "mate", "fianc", "married", "husband", "wife", "kiss", "true love", "boyfriend"],
     "revenge_retribution": ["revenge", "take back", "take it all back", "take it all", "destroy", "never have", "never touch", "lost everything"],
-    "family_child": ["baby", "babies", "child", "children", "daughter", "son", "mom", "dad", "family", "pregnant", "unborn"],
+    "family_child": ["baby", "babies", "child", "children", "daughter", "son", "mom", "dad", "family", "pregnant", "unborn", "heir", "twins"],
     "rebirth_second_chance": ["reborn", "second chance", "back", "returned"],
     "sacred_special_blood": ["sacred", "blood", "half-blood", "divine power", "curse", "cursed", "magic", "witch"],
 }
@@ -36,7 +36,7 @@ VICTIM_PATTERNS = [
     "left him to die", "sacrificed", "hunted", "cursed", "poor", "orphan", "worthless", "fat",
     "stole everything", "sent her to die", "left someone", "drugged", "cheating", "hybrid",
 ]
-HIDDEN_IDENTITY_PATTERNS = ["unaware", "secretly", "never knowing", "not knowing", "only i know", "true love", "lost princess"]
+HIDDEN_IDENTITY_PATTERNS = ["unaware", "secretly", "never knowing", "not knowing", "only i know", "true love", "lost princess", "hidden", "secret heir", "secret child", "secret baby"]
 STATUS_REVERSAL_PATTERNS = ["now she", "now he", "became", "become", "returned", "rules", "made her", "walked away", "changed his fate", "changed everything"]
 KINSHIP_RESCUE_PATTERNS = ["saved", "save her", "save his", "took her in", "adopted", "raised"]
 

@@ -1,0 +1,500 @@
+{
+  "video_id": "1OXQh5I8m6Y",
+  "duration_seconds": 3550,
+  "window_seconds": 300,
+  "total_signal_counts": {
+    "wound_or_humiliation": 81,
+    "care_belonging_protection": 139,
+    "justice_reversal_payoff": 16,
+    "romance_bond_or_coercion": 11,
+    "lore_mythology_density": 18,
+    "threat_or_violence": 47
+  },
+  "first_signal_occurrences": {
+    "wound_or_humiliation": {
+      "time": 106.76599999999999,
+      "text": "[crying]"
+    },
+    "care_belonging_protection": {
+      "time": 69.36,
+      "text": "lady of the Capello family, would you be"
+    },
+    "justice_reversal_payoff": {
+      "time": 620.018,
+      "text": "you pay for the cleaning fees with your"
+    },
+    "romance_bond_or_coercion": {
+      "time": 155.012,
+      "text": "Hello, are you Mrs. Rosa's husband? Mrs."
+    },
+    "lore_mythology_density": {
+      "time": 481.655,
+      "text": "pulled out from its pocket a pack of"
+    },
+    "threat_or_violence": {
+      "time": 19.8,
+      "text": "It's okay. Chloe doesn't hurt. Once I"
+    }
+  },
+  "care_after_wound_latency_seconds": -37.40599999999999,
+  "final_10_minutes_signal_counts": {
+    "wound_or_humiliation": 11,
+    "care_belonging_protection": 35,
+    "justice_reversal_payoff": 4,
+    "romance_bond_or_coercion": 0,
+    "lore_mythology_density": 3,
+    "threat_or_violence": 6
+  },
+  "windows": [
+    {
+      "start": 0,
+      "end": 300,
+      "signal_counts": {
+        "wound_or_humiliation": 7,
+        "care_belonging_protection": 14,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 868,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.35136482780178385,
+        "saturation": 0.3049621670444806,
+        "colorfulness": 0.3967162957787514,
+        "motion": 0.1688179515178005
+      },
+      "audio": {
+        "rms_mean": 0.09435501396656036,
+        "rms_std": 0.05481833405792713,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 6.536666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 0,
+          "quote": "Mister Lady, please buy a flower. It's only 1 cent. Get away."
+        },
+        {
+          "time": 10,
+          "quote": "only 1 cent. Get away. Where did this dirty girl come from?"
+        }
+      ]
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 12,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 3,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 864,
+      "shot_boundaries": 17,
+      "visual": {
+        "brightness": 0.27654663174413147,
+        "saturation": 0.4242684149493774,
+        "colorfulness": 0.3341916262234251,
+        "motion": 0.13000296202643463
+      },
+      "audio": {
+        "rms_mean": 0.08806521048148473,
+        "rms_std": 0.052093872738381224,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 6.163333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 300,
+          "quote": "then from now on, she is my only daughter. Exactly. Starting today,"
+        },
+        {
+          "time": 310,
+          "quote": "Thank you, grandma. Thank you, daddy. Thank you, uncles. [snorts] Chloe will"
+        }
+      ]
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "signal_counts": {
+        "wound_or_humiliation": 8,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 3,
+        "threat_or_violence": 7
+      },
+      "dialogue_words": 739,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.3204856833070516,
+        "saturation": 0.322810391113162,
+        "colorfulness": 0.3804567402601242,
+        "motion": 0.14667444557572404
+      },
+      "audio": {
+        "rms_mean": 0.06061672897388538,
+        "rms_std": 0.044525015912950036,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.989999999999999
+      },
+      "evidence_snippets": [
+        {
+          "time": 600,
+          "quote": "Damn little bastard. You still have the nerve to come back? Dead"
+        },
+        {
+          "time": 610,
+          "quote": "Your mother [music] died in the room. What a terrible curse. I'm"
+        }
+      ]
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "signal_counts": {
+        "wound_or_humiliation": 9,
+        "care_belonging_protection": 8,
+        "justice_reversal_payoff": 4,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 688,
+      "shot_boundaries": 23,
+      "visual": {
+        "brightness": 0.34634406653543315,
+        "saturation": 0.32926895685493945,
+        "colorfulness": 0.35179332057634993,
+        "motion": 0.1476035263823966
+      },
+      "audio": {
+        "rms_mean": 0.06714970357716084,
+        "rms_std": 0.045629179446647565,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 6.196666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 900,
+          "quote": "The little bird outside the window told Chloe. It's over. This bird"
+        },
+        {
+          "time": 910,
+          "quote": "It's over. This bird is going to be sliced UP FOR RESEARCH."
+        }
+      ]
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 12,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 5,
+        "lore_mythology_density": 1,
+        "threat_or_violence": 3
+      },
+      "dialogue_words": 620,
+      "shot_boundaries": 4,
+      "visual": {
+        "brightness": 0.4396172024806341,
+        "saturation": 0.29777448661625383,
+        "colorfulness": 0.3791731061103443,
+        "motion": 0.14573084896430372
+      },
+      "audio": {
+        "rms_mean": 0.07271806038916111,
+        "rms_std": 0.05810384768992662,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 6.263333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 1200,
+          "quote": "Don't be scared, [music] Daddy is here."
+        },
+        {
+          "time": 1210,
+          "quote": "Open your eyes wide and look carefully. This is my Dominic's daughter."
+        }
+      ]
+    },
+    {
+      "start": 1500,
+      "end": 1800,
+      "signal_counts": {
+        "wound_or_humiliation": 13,
+        "care_belonging_protection": 6,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 9
+      },
+      "dialogue_words": 767,
+      "shot_boundaries": 3,
+      "visual": {
+        "brightness": 0.3920594964424769,
+        "saturation": 0.3201855392257373,
+        "colorfulness": 0.4044951911767324,
+        "motion": 0.1245587656274438
+      },
+      "audio": {
+        "rms_mean": 0.07155794873833657,
+        "rms_std": 0.057597982604056595,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 6.416666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 1500,
+          "quote": "what do you think? Do you still want to return to his"
+        },
+        {
+          "time": 1510,
+          "quote": "Good girl. A trash like Victor isn't worthy of being your father."
+        }
+      ]
+    },
+    {
+      "start": 1800,
+      "end": 2100,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 12,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 7
+      },
+      "dialogue_words": 819,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.4279709287484487,
+        "saturation": 0.3236386291186015,
+        "colorfulness": 0.3977555703123411,
+        "motion": 0.14975661996752024
+      },
+      "audio": {
+        "rms_mean": 0.08088336313764254,
+        "rms_std": 0.05702557706584533,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 6.29
+      },
+      "evidence_snippets": [
+        {
+          "time": 1800,
+          "quote": "thanks to you this time. You truly are our Moretti family's [music]"
+        },
+        {
+          "time": 1810,
+          "quote": "family. [music] Chloe didn't want him to leave like Mommy did. Chloe,"
+        }
+      ]
+    },
+    {
+      "start": 2100,
+      "end": 2400,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 19,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 1,
+        "threat_or_violence": 3
+      },
+      "dialogue_words": 836,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.3889340775211652,
+        "saturation": 0.3552181811630726,
+        "colorfulness": 0.41143922348817186,
+        "motion": 0.15230602284582953
+      },
+      "audio": {
+        "rms_mean": 0.07447212872405846,
+        "rms_std": 0.05212432059148948,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 6.593333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 2100,
+          "quote": "is this child Dominic's? Dominic Moretti is notoriously cold-blooded. How could he"
+        },
+        {
+          "time": 2110,
+          "quote": "children. Lord Moretti needn't make a big deal out of it. My"
+        }
+      ]
+    },
+    {
+      "start": 2400,
+      "end": 2700,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 12,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 566,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.45227629373470946,
+        "saturation": 0.3347315464913845,
+        "colorfulness": 0.4413362834850947,
+        "motion": 0.1592388424401482
+      },
+      "audio": {
+        "rms_mean": 0.0632217301055789,
+        "rms_std": 0.0457250512825946,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.906666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 2400,
+          "quote": "Why is it that every time I see this child, she feels"
+        },
+        {
+          "time": 2410,
+          "quote": "Why is this child here, too? See that little bastard over there?"
+        }
+      ]
+    },
+    {
+      "start": 2700,
+      "end": 3000,
+      "signal_counts": {
+        "wound_or_humiliation": 12,
+        "care_belonging_protection": 13,
+        "justice_reversal_payoff": 4,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 8,
+        "threat_or_violence": 3
+      },
+      "dialogue_words": 711,
+      "shot_boundaries": 3,
+      "visual": {
+        "brightness": 0.39071450149019554,
+        "saturation": 0.3331536010901133,
+        "colorfulness": 0.42441881547371546,
+        "motion": 0.14398962407062452
+      },
+      "audio": {
+        "rms_mean": 0.05911374716088176,
+        "rms_std": 0.04015267617069185,
+        "silence_ratio": 0.27742279020234295,
+        "onsets_per_second": 5.7
+      },
+      "evidence_snippets": [
+        {
+          "time": 2700,
+          "quote": "How could Alicia do such a cruel thing to a child? I"
+        },
+        {
+          "time": 2710,
+          "quote": "Pushing my daughter into the sea is merely the first charge. Today"
+        }
+      ]
+    },
+    {
+      "start": 3000,
+      "end": 3300,
+      "signal_counts": {
+        "wound_or_humiliation": 7,
+        "care_belonging_protection": 9,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 2,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 609,
+      "shot_boundaries": 5,
+      "visual": {
+        "brightness": 0.3757127444446087,
+        "saturation": 0.3315931674838066,
+        "colorfulness": 0.4088077814380328,
+        "motion": 0.12818452608771622
+      },
+      "audio": {
+        "rms_mean": 0.04768738771478335,
+        "rms_std": 0.043143416134019695,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.363333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 3000,
+          "quote": "Daddy, Daddy saved Mommy. Lily is scared."
+        },
+        {
+          "time": 3010,
+          "quote": "[panting and sighs] Lord Dominic, I beg you to give me a"
+        }
+      ]
+    },
+    {
+      "start": 3300,
+      "end": 3550,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 20,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 512,
+      "shot_boundaries": 5,
+      "visual": {
+        "brightness": 0.4165614961385727,
+        "saturation": 0.3193441083431244,
+        "colorfulness": 0.4053501482009888,
+        "motion": 0.12230839579552413
+      },
+      "audio": {
+        "rms_mean": 0.05433044258505106,
+        "rms_std": 0.042964119128882886,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 6.476
+      },
+      "evidence_snippets": [
+        {
+          "time": 3300,
+          "quote": "The Capello family can't hold on anymore. President, disaster's struck. Because of"
+        },
+        {
+          "time": 3310,
+          "quote": "President, disaster's struck. Because of Madam's matter, our Mason family's reputation is"
+        }
+      ]
+    }
+  ],
+  "interpretation_boundaries": [
+    "Signal counts measure explicit dialogue language only; they do not prove emotional quality or causality.",
+    "Evidence snippets are short orientation quotes, not a transcript substitute.",
+    "Visual/audio metrics are low-resolution proxies and must be paired with direct viewing."
+  ],
+  "outcome": {
+    "views": 16549,
+    "published_date": "2026-11-07",
+    "age_days_at_snapshot": 20,
+    "views_per_day": 827.45,
+    "log_views_per_day": 6.719556485015306,
+    "duration_minutes": 59.18333333333333,
+    "snapshot_date": "2026-11-26",
+    "cohort_by_age_adjusted_views": "middle",
+    "archive_log_vpd_median": 7.683511103153724,
+    "q1": 6.5647291773852805,
+    "q3": 9.36042020805592
+  }
+}

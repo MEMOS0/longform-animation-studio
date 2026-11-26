@@ -1,0 +1,500 @@
+{
+  "video_id": "BeX5LHLqOEI",
+  "duration_seconds": 3558,
+  "window_seconds": 300,
+  "total_signal_counts": {
+    "wound_or_humiliation": 55,
+    "care_belonging_protection": 104,
+    "justice_reversal_payoff": 55,
+    "romance_bond_or_coercion": 15,
+    "lore_mythology_density": 177,
+    "threat_or_violence": 100
+  },
+  "first_signal_occurrences": {
+    "wound_or_humiliation": {
+      "time": 100.84,
+      "text": "Let the beasts tear her filthy fur to"
+    },
+    "care_belonging_protection": {
+      "time": 110.56,
+      "text": "I will protect you."
+    },
+    "justice_reversal_payoff": {
+      "time": 12.4,
+      "text": "liar."
+    },
+    "romance_bond_or_coercion": {
+      "time": 90.36,
+      "text": "Yes, it was me. Talet can only be mine."
+    },
+    "lore_mythology_density": {
+      "time": 20.08,
+      "text": "stole our sacred relic, the black"
+    },
+    "threat_or_violence": {
+      "time": 127.932,
+      "text": "Aurora, these two little kids' bloodline"
+    }
+  },
+  "care_after_wound_latency_seconds": 9.719999999999999,
+  "final_10_minutes_signal_counts": {
+    "wound_or_humiliation": 15,
+    "care_belonging_protection": 38,
+    "justice_reversal_payoff": 3,
+    "romance_bond_or_coercion": 4,
+    "lore_mythology_density": 18,
+    "threat_or_violence": 16
+  },
+  "windows": [
+    {
+      "start": 0,
+      "end": 300,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 8,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 32,
+        "threat_or_violence": 11
+      },
+      "dialogue_words": 948,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.3678760436673959,
+        "saturation": 0.3426761359845598,
+        "colorfulness": 0.3651253597997129,
+        "motion": 0.14087401904786626
+      },
+      "audio": {
+        "rms_mean": 0.057898617101212344,
+        "rms_std": 0.045696442884703474,
+        "silence_ratio": 0.21331203407880722,
+        "onsets_per_second": 5.64
+      },
+      "evidence_snippets": [
+        {
+          "time": 0,
+          "quote": "Your majesty, I have something urgent to report."
+        },
+        {
+          "time": 10,
+          "quote": "Your majesty, I have something urgent to report. You can't be with"
+        }
+      ]
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 10,
+        "threat_or_violence": 8
+      },
+      "dialogue_words": 722,
+      "shot_boundaries": 14,
+      "visual": {
+        "brightness": 0.3768493794401487,
+        "saturation": 0.24381074195106825,
+        "colorfulness": 0.3412407956520716,
+        "motion": 0.143790517024075
+      },
+      "audio": {
+        "rms_mean": 0.04125000188748042,
+        "rms_std": 0.04005848579108715,
+        "silence_ratio": 0.21746538871139512,
+        "onsets_per_second": 4.596666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 300,
+          "quote": "Please help me look after my kids. Hi, kids. Get lost. A"
+        },
+        {
+          "time": 310,
+          "quote": "cheap, disgusting women. Mother doesn't need to worry about me. I don't"
+        }
+      ]
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 7,
+        "justice_reversal_payoff": 6,
+        "romance_bond_or_coercion": 4,
+        "lore_mythology_density": 5,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 850,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.3009304241215189,
+        "saturation": 0.4048942209407687,
+        "colorfulness": 0.3102835937341054,
+        "motion": 0.11867664577439427
+      },
+      "audio": {
+        "rms_mean": 0.0582461129873991,
+        "rms_std": 0.05176898386950294,
+        "silence_ratio": 0.22140575079872205,
+        "onsets_per_second": 5.116666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 600,
+          "quote": "well-behaved today. I'm already dreading the moment they leave my sight. [laughter]"
+        },
+        {
+          "time": 610,
+          "quote": "[laughter] Aurora, I've got a wonderful idea. Marry my son and stay"
+        }
+      ]
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 12,
+        "justice_reversal_payoff": 8,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 6,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 975,
+      "shot_boundaries": 11,
+      "visual": {
+        "brightness": 0.30715314169724783,
+        "saturation": 0.343694792141517,
+        "colorfulness": 0.3294335886339346,
+        "motion": 0.1431356826517731
+      },
+      "audio": {
+        "rms_mean": 0.08254775470122695,
+        "rms_std": 0.06405355210105577,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.8100000000000005
+      },
+      "evidence_snippets": [
+        {
+          "time": 900,
+          "quote": "in here? She's contaminating the air. She must be thrown out. Stop"
+        },
+        {
+          "time": 910,
+          "quote": "rabbit like you even deserve to be here? Another woman here to"
+        }
+      ]
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 7,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 8,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 801,
+      "shot_boundaries": 13,
+      "visual": {
+        "brightness": 0.26631906335552535,
+        "saturation": 0.3766486827408274,
+        "colorfulness": 0.3052612201838444,
+        "motion": 0.13297873499803245
+      },
+      "audio": {
+        "rms_mean": 0.06062936500335733,
+        "rms_std": 0.05448586827454468,
+        "silence_ratio": 0.23695420660276892,
+        "onsets_per_second": 5.046666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 1200,
+          "quote": "hurry and find Thaddeus. Your Majesty, it has been far too long"
+        },
+        {
+          "time": 1210,
+          "quote": "candidate for queen. I shall choose my own consort. I need no"
+        }
+      ]
+    },
+    {
+      "start": 1500,
+      "end": 1800,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 0,
+        "justice_reversal_payoff": 14,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 27,
+        "threat_or_violence": 17
+      },
+      "dialogue_words": 1015,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.4326063323020935,
+        "saturation": 0.2074735729768872,
+        "colorfulness": 0.36751575490770244,
+        "motion": 0.13752154627194008
+      },
+      "audio": {
+        "rms_mean": 0.05746860764920712,
+        "rms_std": 0.04970018255213896,
+        "silence_ratio": 0.20873269435569758,
+        "onsets_per_second": 5.6
+      },
+      "evidence_snippets": [
+        {
+          "time": 1500,
+          "quote": "Papa. Could those two twins be Aurora's children? Talon?"
+        },
+        {
+          "time": 1510,
+          "quote": "Talon? How did I get here? Let me go. [laughter] Aurora, you"
+        }
+      ]
+    },
+    {
+      "start": 1800,
+      "end": 2100,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 16,
+        "justice_reversal_payoff": 6,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 27,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 1068,
+      "shot_boundaries": 11,
+      "visual": {
+        "brightness": 0.36674708137909573,
+        "saturation": 0.2748924886807799,
+        "colorfulness": 0.35738338564833005,
+        "motion": 0.13692266939828796
+      },
+      "audio": {
+        "rms_mean": 0.06817254982888699,
+        "rms_std": 0.053896289815505344,
+        "silence_ratio": 0.20915867944621938,
+        "onsets_per_second": 5.83
+      },
+      "evidence_snippets": [
+        {
+          "time": 1800,
+          "quote": "find him within Panther territory before it is too late. Talan, please"
+        },
+        {
+          "time": 1810,
+          "quote": "Why did you bring us here? I only agreed to 3 days."
+        }
+      ]
+    },
+    {
+      "start": 2100,
+      "end": 2400,
+      "signal_counts": {
+        "wound_or_humiliation": 7,
+        "care_belonging_protection": 9,
+        "justice_reversal_payoff": 6,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 24,
+        "threat_or_violence": 9
+      },
+      "dialogue_words": 914,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.3408475431799889,
+        "saturation": 0.27175261506189907,
+        "colorfulness": 0.3392553613893688,
+        "motion": 0.12327116472957035
+      },
+      "audio": {
+        "rms_mean": 0.06095237868527571,
+        "rms_std": 0.05431588397671779,
+        "silence_ratio": 0.236741214057508,
+        "onsets_per_second": 5.293333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 2100,
+          "quote": "of everyone? A rabbit woman openly seduced his majesty at the banquet."
+        },
+        {
+          "time": 2110,
+          "quote": "He actually took her away in front of everyone? That damned ["
+        }
+      ]
+    },
+    {
+      "start": 2400,
+      "end": 2700,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 15,
+        "threat_or_violence": 12
+      },
+      "dialogue_words": 671,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.3839348666369915,
+        "saturation": 0.2682913827771942,
+        "colorfulness": 0.35616909600794316,
+        "motion": 0.1294838121564438
+      },
+      "audio": {
+        "rms_mean": 0.047457197370628514,
+        "rms_std": 0.04858093541115523,
+        "silence_ratio": 0.29478168264110755,
+        "onsets_per_second": 4.760000000000001
+      },
+      "evidence_snippets": [
+        {
+          "time": 2400,
+          "quote": "blood. My children. How dare she? She's nothing but a lowly breed"
+        },
+        {
+          "time": 2410,
+          "quote": "piece. So, how dare she carry Talon's child? These two bastards absolutely"
+        }
+      ]
+    },
+    {
+      "start": 2700,
+      "end": 3000,
+      "signal_counts": {
+        "wound_or_humiliation": 12,
+        "care_belonging_protection": 7,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 6,
+        "threat_or_violence": 18
+      },
+      "dialogue_words": 608,
+      "shot_boundaries": 8,
+      "visual": {
+        "brightness": 0.44506503716111184,
+        "saturation": 0.21427101123767595,
+        "colorfulness": 0.39934346126392484,
+        "motion": 0.17847715771446626
+      },
+      "audio": {
+        "rms_mean": 0.041030754692231615,
+        "rms_std": 0.04115453185513616,
+        "silence_ratio": 0.24515441959531417,
+        "onsets_per_second": 4.736666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 2710,
+          "quote": "Talon is gone."
+        },
+        {
+          "time": 2720,
+          "quote": "Talon is gone. Our plan can finally proceed. Well done, Thaddeus."
+        }
+      ]
+    },
+    {
+      "start": 3000,
+      "end": 3300,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 13,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 10,
+        "threat_or_violence": 5
+      },
+      "dialogue_words": 437,
+      "shot_boundaries": 12,
+      "visual": {
+        "brightness": 0.4500403146445751,
+        "saturation": 0.24771533484570682,
+        "colorfulness": 0.3904890605248511,
+        "motion": 0.19146050519620378
+      },
+      "audio": {
+        "rms_mean": 0.03495846432633698,
+        "rms_std": 0.03587389289168641,
+        "silence_ratio": 0.22289669861554845,
+        "onsets_per_second": 4.373333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 3000,
+          "quote": "Naga, Seth, come back to me."
+        },
+        {
+          "time": 3010,
+          "quote": "Mommy, we will protect you. The bad woman won't win."
+        }
+      ]
+    },
+    {
+      "start": 3300,
+      "end": 3558,
+      "signal_counts": {
+        "wound_or_humiliation": 8,
+        "care_belonging_protection": 25,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 7,
+        "threat_or_violence": 9
+      },
+      "dialogue_words": 642,
+      "shot_boundaries": 2,
+      "visual": {
+        "brightness": 0.4813955111285815,
+        "saturation": 0.2131749372015922,
+        "colorfulness": 0.429382274661643,
+        "motion": 0.17583257513693892
+      },
+      "audio": {
+        "rms_mean": 0.03634079400664912,
+        "rms_std": 0.039569425150358044,
+        "silence_ratio": 0.3037109855001229,
+        "onsets_per_second": 5.011629579108996
+      },
+      "evidence_snippets": [
+        {
+          "time": 3300,
+          "quote": "Talon. Did they die protecting me?"
+        },
+        {
+          "time": 3310,
+          "quote": "Talon, I beg you. Think of something. You are the Black Panther"
+        }
+      ]
+    }
+  ],
+  "interpretation_boundaries": [
+    "Signal counts measure explicit dialogue language only; they do not prove emotional quality or causality.",
+    "Evidence snippets are short orientation quotes, not a transcript substitute.",
+    "Visual/audio metrics are low-resolution proxies and must be paired with direct viewing."
+  ],
+  "outcome": {
+    "views": 14532,
+    "published_date": "2026-11-02",
+    "age_days_at_snapshot": 25,
+    "views_per_day": 581.28,
+    "log_views_per_day": 6.36695143169646,
+    "duration_minutes": 59.3,
+    "snapshot_date": "2026-11-26",
+    "cohort_by_age_adjusted_views": "underperforming",
+    "archive_log_vpd_median": 7.683511103153724,
+    "q1": 6.5647291773852805,
+    "q3": 9.36042020805592
+  }
+}

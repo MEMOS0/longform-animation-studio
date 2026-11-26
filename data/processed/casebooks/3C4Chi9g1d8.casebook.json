@@ -1,0 +1,680 @@
+{
+  "video_id": "3C4Chi9g1d8",
+  "duration_seconds": 4976,
+  "window_seconds": 300,
+  "total_signal_counts": {
+    "wound_or_humiliation": 75,
+    "care_belonging_protection": 178,
+    "justice_reversal_payoff": 20,
+    "romance_bond_or_coercion": 95,
+    "lore_mythology_density": 145,
+    "threat_or_violence": 93
+  },
+  "first_signal_occurrences": {
+    "wound_or_humiliation": {
+      "time": 270.894,
+      "text": "The moon goddess has cursed me to walk"
+    },
+    "care_belonging_protection": {
+      "time": 5.8,
+      "text": "Don't be scared. I don't bite. You must"
+    },
+    "justice_reversal_payoff": {
+      "time": 495.097,
+      "text": "My apologies, Lord Gavin. It's all my"
+    },
+    "romance_bond_or_coercion": {
+      "time": 84.2,
+      "text": "if you break your bond with Lord Gavin"
+    },
+    "lore_mythology_density": {
+      "time": 131.892,
+      "text": "Thank Thank the moon goddess. We We"
+    },
+    "threat_or_violence": {
+      "time": 143.692,
+      "text": "She calmed my bloodline rage today. Dad,"
+    }
+  },
+  "care_after_wound_latency_seconds": -265.094,
+  "final_10_minutes_signal_counts": {
+    "wound_or_humiliation": 8,
+    "care_belonging_protection": 19,
+    "justice_reversal_payoff": 1,
+    "romance_bond_or_coercion": 9,
+    "lore_mythology_density": 24,
+    "threat_or_violence": 4
+  },
+  "windows": [
+    {
+      "start": 0,
+      "end": 300,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 13,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 11,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 568,
+      "shot_boundaries": 5,
+      "visual": {
+        "brightness": 0.20327862607936062,
+        "saturation": 0.3963437575598558,
+        "colorfulness": 0.2618846829235554,
+        "motion": 0.09358472655837735
+      },
+      "audio": {
+        "rms_mean": 0.05575365123028556,
+        "rms_std": 0.04370210945295791,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.776666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 0,
+          "quote": "Hey, little one. Are you lost? Do you want some soup? Don't"
+        },
+        {
+          "time": 10,
+          "quote": "Don't be scared. I don't bite. You must be starving. Come try"
+        }
+      ]
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 15,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 20,
+        "lore_mythology_density": 2,
+        "threat_or_violence": 6
+      },
+      "dialogue_words": 924,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.32205361207326255,
+        "saturation": 0.2670925924864908,
+        "colorfulness": 0.3300436650713285,
+        "motion": 0.1231524770706892
+      },
+      "audio": {
+        "rms_mean": 0.05850241991380851,
+        "rms_std": 0.04747019919256369,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.763333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 300,
+          "quote": "Fine. Yeah. What's her name? Um, I forgot to ask."
+        },
+        {
+          "time": 310,
+          "quote": "Um, I forgot to ask. But I know she's going to break"
+        }
+      ]
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "signal_counts": {
+        "wound_or_humiliation": 4,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 10,
+        "lore_mythology_density": 3,
+        "threat_or_violence": 5
+      },
+      "dialogue_words": 979,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.317338674813509,
+        "saturation": 0.30521519389003515,
+        "colorfulness": 0.3599537610510985,
+        "motion": 0.11835761591171226
+      },
+      "audio": {
+        "rms_mean": 0.06951298067967097,
+        "rms_std": 0.05430190774301688,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.92
+      },
+      "evidence_snippets": [
+        {
+          "time": 600,
+          "quote": "Gavin, is this your doing? Did you intimidate every merchant in this"
+        },
+        {
+          "time": 610,
+          "quote": "intimidate every merchant in this market just to ruin me? Your Majesty,"
+        }
+      ]
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "signal_counts": {
+        "wound_or_humiliation": 8,
+        "care_belonging_protection": 11,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 1,
+        "threat_or_violence": 8
+      },
+      "dialogue_words": 818,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.2660121575494607,
+        "saturation": 0.3822410686934988,
+        "colorfulness": 0.3075882126949728,
+        "motion": 0.1235988477493326
+      },
+      "audio": {
+        "rms_mean": 0.06264973990619183,
+        "rms_std": 0.04642096304645141,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.696666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 900,
+          "quote": "Why not? Because wherever mommy goes, Lily goes too. As long as"
+        },
+        {
+          "time": 910,
+          "quote": "Leo, how did you get here? Does your dad know you're here?"
+        }
+      ]
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 24,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 9,
+        "lore_mythology_density": 13,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 709,
+      "shot_boundaries": 12,
+      "visual": {
+        "brightness": 0.24995708016057808,
+        "saturation": 0.3976907516084612,
+        "colorfulness": 0.3020219729747623,
+        "motion": 0.11107047634509702
+      },
+      "audio": {
+        "rms_mean": 0.0516993910074234,
+        "rms_std": 0.044394584496816,
+        "silence_ratio": 0.20234291799787008,
+        "onsets_per_second": 5.306666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 1200,
+          "quote": "Dad. Silas? Don't touch my kids and my fiance."
+        },
+        {
+          "time": 1210,
+          "quote": "Silas? Don't touch my kids and my fiance. It's a misunderstanding. We're"
+        }
+      ]
+    },
+    {
+      "start": 1500,
+      "end": 1800,
+      "signal_counts": {
+        "wound_or_humiliation": 7,
+        "care_belonging_protection": 8,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 8,
+        "threat_or_violence": 3
+      },
+      "dialogue_words": 645,
+      "shot_boundaries": 3,
+      "visual": {
+        "brightness": 0.2522072396924098,
+        "saturation": 0.3981531797349453,
+        "colorfulness": 0.3085954584678014,
+        "motion": 0.10495417749509216
+      },
+      "audio": {
+        "rms_mean": 0.046153738908469674,
+        "rms_std": 0.04096994586288929,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 4.91
+      },
+      "evidence_snippets": [
+        {
+          "time": 1500,
+          "quote": "new mom, okay? All right, Arya. You and Leo haven't eaten yet,"
+        },
+        {
+          "time": 1510,
+          "quote": "It's okay, Arya. You should rest. We have tons of cooks here."
+        }
+      ]
+    },
+    {
+      "start": 1800,
+      "end": 2100,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 10,
+        "lore_mythology_density": 10,
+        "threat_or_violence": 3
+      },
+      "dialogue_words": 759,
+      "shot_boundaries": 8,
+      "visual": {
+        "brightness": 0.290002386495471,
+        "saturation": 0.3594910592151185,
+        "colorfulness": 0.32437873298612735,
+        "motion": 0.11976062231076261
+      },
+      "audio": {
+        "rms_mean": 0.04463203474879265,
+        "rms_std": 0.03997975314656894,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 4.966666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 1800,
+          "quote": "Yes, a blessing. I believe your blessing is on the way. Maybe."
+        },
+        {
+          "time": 1810,
+          "quote": "What does this crystal pillar do? It's a moonstone that helps an"
+        }
+      ]
+    },
+    {
+      "start": 2100,
+      "end": 2400,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 12,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 10,
+        "threat_or_violence": 5
+      },
+      "dialogue_words": 718,
+      "shot_boundaries": 4,
+      "visual": {
+        "brightness": 0.2856896663208802,
+        "saturation": 0.32846685593326885,
+        "colorfulness": 0.3054326528807481,
+        "motion": 0.11867558976324896
+      },
+      "audio": {
+        "rms_mean": 0.052133937180042264,
+        "rms_std": 0.0414268784224987,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.61
+      },
+      "evidence_snippets": [
+        {
+          "time": 2100,
+          "quote": "Spread the word. Say she bought that shop by seducing nobles and"
+        },
+        {
+          "time": 2110,
+          "quote": "Let's see how long her little shop lasts. I looked into the"
+        }
+      ]
+    },
+    {
+      "start": 2400,
+      "end": 2700,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 6,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 10,
+        "lore_mythology_density": 10,
+        "threat_or_violence": 3
+      },
+      "dialogue_words": 797,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.23892263318101564,
+        "saturation": 0.4132158576635023,
+        "colorfulness": 0.312409210006396,
+        "motion": 0.09822736829208831
+      },
+      "audio": {
+        "rms_mean": 0.05776377394795418,
+        "rms_std": 0.04887587010550002,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.213333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 2400,
+          "quote": "Is that how you talk to your father? Well, well. Look who"
+        },
+        {
+          "time": 2410,
+          "quote": "The mighty Wolfless. Big opening day, huh? So where's that oh so"
+        }
+      ]
+    },
+    {
+      "start": 2700,
+      "end": 3000,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 17,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 4,
+        "lore_mythology_density": 3,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 845,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.23185860281189283,
+        "saturation": 0.3998993000388146,
+        "colorfulness": 0.29201410097380476,
+        "motion": 0.10129775475710631
+      },
+      "audio": {
+        "rms_mean": 0.04422075618058443,
+        "rms_std": 0.04064664794132113,
+        "silence_ratio": 0.20372736954206602,
+        "onsets_per_second": 5.586666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 2700,
+          "quote": "Don't get distracted. Aren't we trying out life as mates? You can't"
+        },
+        {
+          "time": 2710,
+          "quote": "Silas, you did that on purpose. Sorry, sis. I'll catch you the"
+        }
+      ]
+    },
+    {
+      "start": 3000,
+      "end": 3300,
+      "signal_counts": {
+        "wound_or_humiliation": 8,
+        "care_belonging_protection": 9,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 7,
+        "threat_or_violence": 17
+      },
+      "dialogue_words": 593,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.2475466816748182,
+        "saturation": 0.3508651508639256,
+        "colorfulness": 0.2809223656232158,
+        "motion": 0.09931958973407745
+      },
+      "audio": {
+        "rms_mean": 0.038391843313972156,
+        "rms_std": 0.038460086658596994,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.296666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 3000,
+          "quote": "Leo, let's go. Good luck at work, Mom. Rosa, are tomorrow's ingredients"
+        },
+        {
+          "time": 3010,
+          "quote": "Rosa, are tomorrow's ingredients ready? Tomorrow's the Blood Moon. The whole market"
+        }
+      ]
+    },
+    {
+      "start": 3300,
+      "end": 3600,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 0,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 4,
+        "threat_or_violence": 12
+      },
+      "dialogue_words": 630,
+      "shot_boundaries": 5,
+      "visual": {
+        "brightness": 0.25024655267596246,
+        "saturation": 0.366819546893239,
+        "colorfulness": 0.2812818794697523,
+        "motion": 0.09417806903831662
+      },
+      "audio": {
+        "rms_mean": 0.05550385899841785,
+        "rms_std": 0.04422659349317352,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 4.756666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 3300,
+          "quote": "This one is just for you."
+        },
+        {
+          "time": 3310,
+          "quote": "[sighs]"
+        }
+      ]
+    },
+    {
+      "start": 3600,
+      "end": 3900,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 8,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 10,
+        "lore_mythology_density": 7,
+        "threat_or_violence": 3
+      },
+      "dialogue_words": 885,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.22811316144963106,
+        "saturation": 0.46787412518014515,
+        "colorfulness": 0.28917005799710754,
+        "motion": 0.1031545785597215
+      },
+      "audio": {
+        "rms_mean": 0.05372980715086063,
+        "rms_std": 0.04369069344053666,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.8933333333333335
+      },
+      "evidence_snippets": [
+        {
+          "time": 3600,
+          "quote": "Let me go. You can't You Victoria Arya."
+        },
+        {
+          "time": 3610,
+          "quote": "Victoria Arya. How dare you? You wrecked my bond. I never laid"
+        }
+      ]
+    },
+    {
+      "start": 3900,
+      "end": 4200,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 17,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 23,
+        "threat_or_violence": 9
+      },
+      "dialogue_words": 883,
+      "shot_boundaries": 15,
+      "visual": {
+        "brightness": 0.2802977831910054,
+        "saturation": 0.36590680391838154,
+        "colorfulness": 0.3170986891289552,
+        "motion": 0.12114796954207122
+      },
+      "audio": {
+        "rms_mean": 0.043009178961316744,
+        "rms_std": 0.035354373045265675,
+        "silence_ratio": 0.20415335463258788,
+        "onsets_per_second": 5.803333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 3900,
+          "quote": "Oh? Let's hear it. Wolf King Silas used a dwarf memory spell"
+        },
+        {
+          "time": 3910,
+          "quote": "In a damn restaurant for one woman, a wolfless who can't even"
+        }
+      ]
+    },
+    {
+      "start": 4200,
+      "end": 4500,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 15,
+        "justice_reversal_payoff": 4,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 11,
+        "threat_or_violence": 8
+      },
+      "dialogue_words": 641,
+      "shot_boundaries": 26,
+      "visual": {
+        "brightness": 0.3228603305419286,
+        "saturation": 0.3259269147987167,
+        "colorfulness": 0.32863629805545014,
+        "motion": 0.138359663238128
+      },
+      "audio": {
+        "rms_mean": 0.04522496374944846,
+        "rms_std": 0.0359973369166255,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 4.5633333333333335
+      },
+      "evidence_snippets": [
+        {
+          "time": 4200,
+          "quote": "Aria, remember this. Some wolves are born different. They'll fear you, avoid"
+        },
+        {
+          "time": 4210,
+          "quote": "you were right all along. Healer, eat my [ __ ] She's"
+        }
+      ]
+    },
+    {
+      "start": 4500,
+      "end": 4800,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 11,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 5,
+        "lore_mythology_density": 11,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 735,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.36394148983061314,
+        "saturation": 0.3063564703458299,
+        "colorfulness": 0.31953261726846294,
+        "motion": 0.12183937141050896
+      },
+      "audio": {
+        "rms_mean": 0.06040943597132961,
+        "rms_std": 0.045487586253633104,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.616666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 4500,
+          "quote": "about you now. Then can I still just be a regular magic"
+        },
+        {
+          "time": 4510,
+          "quote": "whatever you want to be. And I'll always be by your side."
+        }
+      ]
+    },
+    {
+      "start": 4800,
+      "end": 4976,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 4,
+        "lore_mythology_density": 11,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 353,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.40900774967891196,
+        "saturation": 0.28165656327511424,
+        "colorfulness": 0.3140330605622795,
+        "motion": 0.1345738561461783
+      },
+      "audio": {
+        "rms_mean": 0.05804042507790857,
+        "rms_std": 0.03961197079883681,
+        "silence_ratio": 0.20138056886758965,
+        "onsets_per_second": 5.513145038029555
+      },
+      "evidence_snippets": [
+        {
+          "time": 4800,
+          "quote": "to her wedding? I underestimated her before. If I can't control her"
+        },
+        {
+          "time": 4810,
+          "quote": "could be worth someday. You're planning to I raised her for all"
+        }
+      ]
+    }
+  ],
+  "interpretation_boundaries": [
+    "Signal counts measure explicit dialogue language only; they do not prove emotional quality or causality.",
+    "Evidence snippets are short orientation quotes, not a transcript substitute.",
+    "Visual/audio metrics are low-resolution proxies and must be paired with direct viewing."
+  ],
+  "outcome": {
+    "views": 30121,
+    "published_date": "2026-11-20",
+    "age_days_at_snapshot": 7,
+    "views_per_day": 4303.0,
+    "log_views_per_day": 8.36730010184162,
+    "duration_minutes": 82.95,
+    "snapshot_date": "2026-11-26",
+    "cohort_by_age_adjusted_views": "middle",
+    "archive_log_vpd_median": 7.683511103153724,
+    "q1": 6.5647291773852805,
+    "q3": 9.36042020805592
+  }
+}

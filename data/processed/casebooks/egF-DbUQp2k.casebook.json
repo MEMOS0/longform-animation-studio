@@ -1,0 +1,536 @@
+{
+  "video_id": "egF-DbUQp2k",
+  "duration_seconds": 3823,
+  "window_seconds": 300,
+  "total_signal_counts": {
+    "wound_or_humiliation": 90,
+    "care_belonging_protection": 213,
+    "justice_reversal_payoff": 30,
+    "romance_bond_or_coercion": 21,
+    "lore_mythology_density": 146,
+    "threat_or_violence": 184
+  },
+  "first_signal_occurrences": {
+    "wound_or_humiliation": {
+      "time": 32.099,
+      "text": "close and you'll die."
+    },
+    "care_belonging_protection": {
+      "time": 36.1,
+      "text": "He saved me then did everything he could"
+    },
+    "justice_reversal_payoff": {
+      "time": 204.492,
+      "text": "city? Isn't he worried about drawing"
+    },
+    "romance_bond_or_coercion": {
+      "time": 134.492,
+      "text": "She's mine, Eli."
+    },
+    "lore_mythology_density": {
+      "time": 69.1,
+      "text": "They control the most powerful circles"
+    },
+    "threat_or_violence": {
+      "time": 32.099,
+      "text": "close and you'll die."
+    }
+  },
+  "care_after_wound_latency_seconds": 4.001000000000005,
+  "final_10_minutes_signal_counts": {
+    "wound_or_humiliation": 6,
+    "care_belonging_protection": 24,
+    "justice_reversal_payoff": 4,
+    "romance_bond_or_coercion": 2,
+    "lore_mythology_density": 18,
+    "threat_or_violence": 15
+  },
+  "windows": [
+    {
+      "start": 0,
+      "end": 300,
+      "signal_counts": {
+        "wound_or_humiliation": 8,
+        "care_belonging_protection": 6,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 4,
+        "lore_mythology_density": 3,
+        "threat_or_violence": 14
+      },
+      "dialogue_words": 828,
+      "shot_boundaries": 30,
+      "visual": {
+        "brightness": 0.2610926087448994,
+        "saturation": 0.45563826337456703,
+        "colorfulness": 0.34393772075573603,
+        "motion": 0.1480652803306778
+      },
+      "audio": {
+        "rms_mean": 0.13793536002437273,
+        "rms_std": 0.07923660203814506,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.473333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 20,
+          "quote": "[gasps] How How did you do that? No human could have stopped"
+        },
+        {
+          "time": 30,
+          "quote": "No human could have stopped that. You got lucky today. From now"
+        }
+      ]
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "signal_counts": {
+        "wound_or_humiliation": 4,
+        "care_belonging_protection": 31,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 5,
+        "threat_or_violence": 14
+      },
+      "dialogue_words": 707,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.20255867792914312,
+        "saturation": 0.42038860703508063,
+        "colorfulness": 0.2946132278814912,
+        "motion": 0.10357608519184093
+      },
+      "audio": {
+        "rms_mean": 0.11810960297783216,
+        "rms_std": 0.07476686170945565,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.239999999999999
+      },
+      "evidence_snippets": [
+        {
+          "time": 300,
+          "quote": "[groaning] Eli, you're hurt."
+        },
+        {
+          "time": 310,
+          "quote": "Touch her again [clears throat] and I'll erase you from existence. You"
+        }
+      ]
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "signal_counts": {
+        "wound_or_humiliation": 1,
+        "care_belonging_protection": 39,
+        "justice_reversal_payoff": 12,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 18,
+        "threat_or_violence": 29
+      },
+      "dialogue_words": 1015,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.19093005547920863,
+        "saturation": 0.363881173680226,
+        "colorfulness": 0.2879629969596863,
+        "motion": 0.0796865715738386
+      },
+      "audio": {
+        "rms_mean": 0.12750994662443796,
+        "rms_std": 0.07410123075048129,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.9366666666666665
+      },
+      "evidence_snippets": [
+        {
+          "time": 600,
+          "quote": "whatever punishment comes with Eli. I'll protect this family with him. I"
+        },
+        {
+          "time": 610,
+          "quote": "and you're willing to share the risk. The Walker family will make"
+        }
+      ]
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "signal_counts": {
+        "wound_or_humiliation": 4,
+        "care_belonging_protection": 35,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 6,
+        "lore_mythology_density": 9,
+        "threat_or_violence": 14
+      },
+      "dialogue_words": 1269,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.23675498818357787,
+        "saturation": 0.4088705509404341,
+        "colorfulness": 0.32335475817322734,
+        "motion": 0.08923014780816933
+      },
+      "audio": {
+        "rms_mean": 0.13015291169285775,
+        "rms_std": 0.08400959620873133,
+        "silence_ratio": 0.20298189563365282,
+        "onsets_per_second": 6.11
+      },
+      "evidence_snippets": [
+        {
+          "time": 900,
+          "quote": "earned your place in this family. My gift is built to see"
+        },
+        {
+          "time": 910,
+          "quote": "I was wrong. You faced the Elder Council without flinching. That's more"
+        }
+      ]
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "signal_counts": {
+        "wound_or_humiliation": 18,
+        "care_belonging_protection": 20,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 15,
+        "threat_or_violence": 23
+      },
+      "dialogue_words": 925,
+      "shot_boundaries": 14,
+      "visual": {
+        "brightness": 0.24599086651578544,
+        "saturation": 0.3805183153351148,
+        "colorfulness": 0.32555677751700085,
+        "motion": 0.09973041962832213
+      },
+      "audio": {
+        "rms_mean": 0.13361450185378393,
+        "rms_std": 0.08331099599599838,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.25
+      },
+      "evidence_snippets": [
+        {
+          "time": 1200,
+          "quote": "[sighs] I won't stop you. But I still don't believe in this."
+        },
+        {
+          "time": 1210,
+          "quote": "One more day and you'll be my wife. Eli Walker is getting"
+        }
+      ]
+    },
+    {
+      "start": 1500,
+      "end": 1800,
+      "signal_counts": {
+        "wound_or_humiliation": 20,
+        "care_belonging_protection": 15,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 34,
+        "threat_or_violence": 34
+      },
+      "dialogue_words": 952,
+      "shot_boundaries": 8,
+      "visual": {
+        "brightness": 0.27162830567608276,
+        "saturation": 0.3841653109590213,
+        "colorfulness": 0.3332892117400964,
+        "motion": 0.10380425280736137
+      },
+      "audio": {
+        "rms_mean": 0.1421730493505796,
+        "rms_std": 0.08410522726674875,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 6.3133333333333335
+      },
+      "evidence_snippets": [
+        {
+          "time": 1500,
+          "quote": "But I didn't do anything wrong. I know. But that doesn't make"
+        },
+        {
+          "time": 1510,
+          "quote": "Step back, and maybe you save yourself, him, and his whole family."
+        }
+      ]
+    },
+    {
+      "start": 1800,
+      "end": 2100,
+      "signal_counts": {
+        "wound_or_humiliation": 13,
+        "care_belonging_protection": 16,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 20,
+        "threat_or_violence": 16
+      },
+      "dialogue_words": 985,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.2781906185795863,
+        "saturation": 0.4142609160641829,
+        "colorfulness": 0.36797053515911105,
+        "motion": 0.09667575486314793
+      },
+      "audio": {
+        "rms_mean": 0.12758381913105646,
+        "rms_std": 0.08455396145582199,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.406666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 1800,
+          "quote": "Tell me, what do I do? The heart brain curse can only"
+        },
+        {
+          "time": 1810,
+          "quote": "Varena won't give it willingly, so first you make her give it"
+        }
+      ]
+    },
+    {
+      "start": 2100,
+      "end": 2400,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 11,
+        "justice_reversal_payoff": 5,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 1,
+        "threat_or_violence": 5
+      },
+      "dialogue_words": 828,
+      "shot_boundaries": 5,
+      "visual": {
+        "brightness": 0.22861900796492893,
+        "saturation": 0.3986966442068418,
+        "colorfulness": 0.33248996555805205,
+        "motion": 0.07814878972557683
+      },
+      "audio": {
+        "rms_mean": 0.12363337973753612,
+        "rms_std": 0.08339151019851367,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.293333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 2100,
+          "quote": "Of course. And this one will be bigger, safer. No one's getting"
+        },
+        {
+          "time": 2110,
+          "quote": "[clears throat] Brenna? What's wrong? Do you feel sick? [snorts] I'm fine."
+        }
+      ]
+    },
+    {
+      "start": 2400,
+      "end": 2700,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 11,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 7,
+        "threat_or_violence": 7
+      },
+      "dialogue_words": 849,
+      "shot_boundaries": 2,
+      "visual": {
+        "brightness": 0.22020154046515622,
+        "saturation": 0.424480676651001,
+        "colorfulness": 0.3269879085322221,
+        "motion": 0.067466101309595
+      },
+      "audio": {
+        "rms_mean": 0.06613964325903604,
+        "rms_std": 0.06677944033096234,
+        "silence_ratio": 0.24259850905218316,
+        "onsets_per_second": 4.166666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 2400,
+          "quote": "chance. Mia said there's no precedent and no guarantee. I won't let"
+        },
+        {
+          "time": 2410,
+          "quote": "Mia, if it were you, what would you do? If we have"
+        }
+      ]
+    },
+    {
+      "start": 2700,
+      "end": 3000,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 8,
+        "threat_or_violence": 5
+      },
+      "dialogue_words": 599,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.2242461904635032,
+        "saturation": 0.42325469662745796,
+        "colorfulness": 0.3371614960084359,
+        "motion": 0.0940786995831877
+      },
+      "audio": {
+        "rms_mean": 0.05484846836576859,
+        "rms_std": 0.05968778195480506,
+        "silence_ratio": 0.23152289669861553,
+        "onsets_per_second": 4.19
+      },
+      "evidence_snippets": [
+        {
+          "time": 2700,
+          "quote": "Ryn, breathe with me. Now, push. [sighs and gasps] The baby's energy"
+        },
+        {
+          "time": 2710,
+          "quote": "The baby's energy is surging. She's coming. Breena, one more push. [crying]"
+        }
+      ]
+    },
+    {
+      "start": 3000,
+      "end": 3300,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 11,
+        "threat_or_violence": 9
+      },
+      "dialogue_words": 790,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.3433628923197587,
+        "saturation": 0.32564256370067596,
+        "colorfulness": 0.41484060168266296,
+        "motion": 0.11072861514985562
+      },
+      "audio": {
+        "rms_mean": 0.07236399451891581,
+        "rms_std": 0.05888543669134379,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.233333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 3000,
+          "quote": "Daddy caught me. So much for 100 years of your father's dignity."
+        },
+        {
+          "time": 3010,
+          "quote": "So much for 100 years of your father's dignity. What's dignity? Can"
+        }
+      ]
+    },
+    {
+      "start": 3300,
+      "end": 3600,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 17,
+        "justice_reversal_payoff": 4,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 9,
+        "threat_or_violence": 10
+      },
+      "dialogue_words": 879,
+      "shot_boundaries": 5,
+      "visual": {
+        "brightness": 0.3258003873626391,
+        "saturation": 0.321344171538949,
+        "colorfulness": 0.4014347368478775,
+        "motion": 0.09404682060548414
+      },
+      "audio": {
+        "rms_mean": 0.0777786967655023,
+        "rms_std": 0.06234169298162063,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.2733333333333325
+      },
+      "evidence_snippets": [
+        {
+          "time": 3300,
+          "quote": "Mommy, your skin's softer than daddy's. That's because your dad's ancient. Even"
+        },
+        {
+          "time": 3310,
+          "quote": "floor? You'd still be a brilliant doctor, working late every night. I'd"
+        }
+      ]
+    },
+    {
+      "start": 3600,
+      "end": 3823,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 7,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 6,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 493,
+      "shot_boundaries": 8,
+      "visual": {
+        "brightness": 0.2940169608166468,
+        "saturation": 0.39803272782676463,
+        "colorfulness": 0.33873912088465,
+        "motion": 0.1022733073560116
+      },
+      "audio": {
+        "rms_mean": 0.05802490384034489,
+        "rms_std": 0.04970476347143236,
+        "silence_ratio": 0.20149132969498912,
+        "onsets_per_second": 4.696041738705937
+      },
+      "evidence_snippets": [
+        {
+          "time": 3600,
+          "quote": "What's she listening to this time? Maybe the sea's talking to her."
+        },
+        {
+          "time": 3610,
+          "quote": "Mommy, I just heard the sea say something. What did it say?"
+        }
+      ]
+    }
+  ],
+  "interpretation_boundaries": [
+    "Signal counts measure explicit dialogue language only; they do not prove emotional quality or causality.",
+    "Evidence snippets are short orientation quotes, not a transcript substitute.",
+    "Visual/audio metrics are low-resolution proxies and must be paired with direct viewing."
+  ],
+  "outcome": {
+    "views": 20050,
+    "published_date": "2026-11-06",
+    "age_days_at_snapshot": 21,
+    "views_per_day": 954.7619047619048,
+    "log_views_per_day": 6.86250882843607,
+    "duration_minutes": 63.733333333333334,
+    "snapshot_date": "2026-11-26",
+    "cohort_by_age_adjusted_views": "middle",
+    "archive_log_vpd_median": 7.683511103153724,
+    "q1": 6.5647291773852805,
+    "q3": 9.36042020805592
+  }
+}
