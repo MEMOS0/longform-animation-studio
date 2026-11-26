@@ -530,7 +530,11 @@
       "drown it",
       "family secret",
       "misunderstood monster",
-      "parent protects child"
+      "parent protects child",
+      "transformed parent",
+      "name as personhood proof",
+      "memory recognition",
+      "ownership/harvest/testing"
     ],
     "opening_rules": [
       "establish the child creature as a literal family member within the first 2 minutes, not as a spectacle object",
@@ -554,8 +558,56 @@
       "evidence/research/fifthpass_media_analysis/NHAHR3v9La8/opening_sheet.jpg",
       "evidence/research/fifthpass_media_analysis/NHAHR3v9La8/fullfilm_sheet.jpg",
       "evidence/research/fifthpass_media_analysis/NHAHR3v9La8/ending_sheet.jpg",
-      "knowledge/market/epic-deep-dive.md"
+      "knowledge/market/epic-deep-dive.md",
+      "knowledge/market/eldsaga-wolf-father-creature-scifi-deep-dive.md"
     ],
     "causal_boundary": "Compressed breakout performance is observational; no CTR/retention/traffic-source data are available. Use as creative contract evidence, not proof of causality."
+  },
+  "creature_family_scifi": {
+    "reference_channels": [
+      "ELDSAGA"
+    ],
+    "positive_signals": [
+      "transformed parent",
+      "creature father",
+      "subject number",
+      "testing",
+      "harvest",
+      "ownership",
+      "name",
+      "memory",
+      "recognition",
+      "cage",
+      "glass cell",
+      "creature alliance",
+      "moral danger of transformation",
+      "family inside monster body"
+    ],
+    "opening_rules": [
+      "tie creature spectacle to a specific family relationship within the first minute",
+      "make captivity/ownership legible through spatial containment and inventory language",
+      "introduce nonhuman allies through vulnerability, memory, or naming before combat utility",
+      "make transformation morally costly rather than a simple power upgrade",
+      "allow a plot-level sequel hook only after the promised relational recognition has paid off",
+      "treat low-view creature-family videos as packaging/channel-stage confounds when timestamped story mechanics are strong"
+    ],
+    "risk_patterns": [
+      "creature battle before family/personhood stakes",
+      "monster as weapon rather than victim/person",
+      "sequel escalation replacing relational closure",
+      "villainy limited to generic military cruelty without ownership logic"
+    ],
+    "thumbnail_rules": [
+      "show human-creature eye/contact relationship with scale contrast",
+      "make family/protection legible before species spectacle",
+      "use captive/glass/chain imagery only when the relational bond remains readable"
+    ],
+    "evidence": [
+      "knowledge/market/eldsaga-wolf-father-creature-scifi-deep-dive.md",
+      "evidence/research/genre_expansion/bUfsuiuV2D0/fullfilm_sheet.jpg",
+      "evidence/research/genre_expansion/bUfsuiuV2D0/opening_sheet.jpg",
+      "evidence/research/genre_expansion/bUfsuiuV2D0/final_sheet.jpg",
+      "knowledge/market/eldsaga-channel-hit-low-comparison.md"
+    ]
   }
 }
