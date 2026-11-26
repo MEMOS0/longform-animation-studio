@@ -146,3 +146,17 @@ Immediate next work:
 2. Extend exact director storyboards beyond S01 or build controlled scene-by-scene conversion of continuous scaffold.
 3. Continue recent breakout discovery and timestamped sound-design analysis.
 4. Do not spend money/create accounts; no secrets exist.
+
+## 2026-11-26 context checkpoint — exact S02 and sound evidence
+
+Latest pushed commit when written: `7e01833 Add empirical sound design evidence`; tests **24 passed** before/after storyboard test addition.
+
+- `examples/stormglass_keepers/storyboards/S02_storyboard.json` now exists: 20 exact continuous shots covering all 300 seconds of scene S02. Validator: valid, 20 shots, 300s, 8 hero shots, no warnings. Key staging: ledger burning, trust/cage crate refusal, voluntary scarf hook, tidal tunnel, lighthouse collapse, child in coat. Test now validates S01+S02.
+- `knowledge/craft/third-pass-sound-evidence.md` added using extracted audio clips + `describe_audio`: TK domestic status violence uses close dialogue/room tone/pauses/command timbre; iUnn kindness uses outdoor ambience, negative space, sparse flute at food/personal-history turns; yl machine personhood uses minimal score, vulnerability silence, sand/breath, hybrid organic/mechanical foley.
+- README and sound craft guide link the sound evidence.
+
+Immediate next work:
+1. Fix Devin Review findings when they arrive for current head.
+2. Extend exact storyboards to S03+ or create controlled scene-by-scene exact conversion workflow.
+3. Continue timestamped sound evidence for endings/reversals and creature romance.
+4. Continue breakout discovery. No spending/accounts.
