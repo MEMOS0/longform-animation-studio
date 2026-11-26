@@ -17,6 +17,22 @@ Updated: 2026-11-26. Evidence tiers follow the repository README: public outcome
 4. Thumbnail brightness rank-correlated positively with outcome (~0.40), while dark/red generic couple imagery clustered lower. Packaging cannot be separated from story quality without CTR/impression data.
 5. Modern billionaire/power stories are not inherently doomed: `gkRXl9lDReY`, `l5ICXoEffPs` (mafia boss + daughter), and `OJ5ylArJ03s` (intern + twins) all outperform. The risk appears when modern power lacks the channel's vulnerable child/heir/protector emotional anchor.
 
+## Archive-wide repaired casebook synthesis (46 scored videos)
+
+After repairing per-window silence/rms estimates, the archive-wide lexical/audiovisual comparison shows a consistent directional pattern, still observational rather than causal:
+
+| metric | outperforming | middle | underperforming | interpretation |
+|---|---:|---:|---:|---|
+| lore/hour | 71.13 | 128.83 | 141.45 | Hits can use fantasy, but weak videos carry roughly twice the explicit lore density. |
+| threat/hour | 72.93 | 102.64 | 120.70 | Weak videos are more relentlessly threatening/violent. |
+| care/hour | 95.09 | 106.82 | 93.02 | Care frequency alone does not explain success. |
+| lore/care ratio | 0.83 | 1.63 | 1.69 | Strongest simple ratio: hits keep explicit lore below care; failures let lore dominate care. |
+| threat/care ratio | 0.85 | 1.25 | 1.48 | Hits leave more emotional breathing room relative to threat. |
+| final-10 wound count | 7.91 | 11.26 | 13.75 | Weak endings remain more wounded/procedural even when they include warm imagery. |
+| final-10 care count | 18.45 | 17.96 | 19.33 | Warm-ending counts are nearly flat across cohorts; warmth at the end is not sufficient. |
+
+Important counterexample discipline: `v03oauoFveU` and `vYNuKn6GiaE` have substantial lore yet outperform because the lore is embodied early in visible children/creatures/consequences; `lcOFpT0B5Uc` also carries high lore but includes a werewolf-king-heir child-protection promise. Therefore the rule is not “less fantasy,” but “less abstract/procedural lore before emotional grounding.”
+
 ## Timestamped audiovisual contrasts
 
 ### Successful or promising openings
