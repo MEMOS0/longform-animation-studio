@@ -71,6 +71,10 @@ def test_thumbnail_channel_contract_concepts():
     assert any(c["concept_id"] == "mythic_survival_scale" for c in mythic)
     korean = generate_concepts({"title": "The regressed empress secret", "genre": "romance", "channel_contract": "korean_niche_microdrama"})
     assert any(c["concept_id"] == "niche_face_tension" for c in korean)
+    explorer = generate_concepts({"title": "The hidden tiny kingdom", "genre": "fantasy adventure", "channel_contract": "exploration_wonder_feature"})
+    assert any(c["concept_id"] == "hidden_world_scale" for c in explorer)
+    survival = generate_concepts({"title": "Giant insect island", "genre": "survival thriller", "channel_contract": "hostile_survival_spectacle"})
+    assert any(c["concept_id"] == "ordinary_human_vs_impossible_threat" for c in survival)
 
 
 def test_production_economics_estimates_iteration_cost():

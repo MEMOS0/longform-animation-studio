@@ -132,6 +132,30 @@ def generate_concepts(premise: dict[str, Any], library: dict[str, list[dict[str,
             "mobile_test": "eye contact and trope object remain readable at vertical feed size",
             "reference_categories_to_study": ["romantic_family_betrayal", "general_emotional_drama"],
         })
+    if contract == "exploration_wonder_feature":
+        concepts.append({
+            "concept_id": "hidden_world_scale",
+            "category": "exploration_wonder_feature",
+            "core_mechanic": "ordinary explorer dwarfed by a hidden luminous world, object, or creature-scale reveal",
+            "composition": "protagonist on one side reacting; miniature city/creature/artifact dominates the opposite side with a clear scale cue",
+            "emotion": "curiosity turning into protective responsibility",
+            "palette": "deep shadow or natural earth against bioluminescent cyan/gold discovery light",
+            "text_direction": "short hidden-world promise; avoid abstract invented lore names",
+            "mobile_test": "explorer reaction and tiny/hidden-world scale contrast survive shrinkage",
+            "reference_categories_to_study": ["creature_power_bond", "mythic_adventure"],
+        })
+    if contract == "hostile_survival_spectacle":
+        concepts.append({
+            "concept_id": "ordinary_human_vs_impossible_threat",
+            "category": "hostile_survival_spectacle",
+            "core_mechanic": "ordinary professional or traveler visually confronted by one oversized hostile threat",
+            "composition": "human figure or face large enough for emotion while plane/island/creature threat dominates background; one threat only",
+            "emotion": "terror plus active escape urgency",
+            "palette": "real-world daylight or metallic coolness broken by red/orange danger accent",
+            "text_direction": "high-concept survival phrase; no lore terms",
+            "mobile_test": "threat identity, human scale, and danger direction are readable instantly",
+            "reference_categories_to_study": ["dark_creature_threat", "science_fiction_spectacle"],
+        })
     if not concepts:
         concepts.append({
             "concept_id": "single_question_closeup",
