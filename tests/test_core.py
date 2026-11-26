@@ -287,3 +287,9 @@ def test_meaning_carrier_unicode_and_specific_location_matching():
     assert any("final two architecture" in w for w in bad["warnings"])
     good=evaluate_meaning_carrier({"meaning_carrier":rehearsal},{"sequences":[{"visual_setpiece":"the rehearsal fills with light"}]})
     assert not any("final two architecture" in w for w in good["warnings"])
+
+def test_relational_contract_denial_scope_regressions():
+    from studio.relational_contract import denial_is_unresolved
+    assert denial_is_unresolved("she has no choice; she no longer wears the ring")
+    assert not denial_is_unresolved("she is finally free to choose; earlier she had no choice")
+    assert denial_is_unresolved("she once had no choice but learned trust; now she has no choice")

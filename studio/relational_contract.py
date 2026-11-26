@@ -14,7 +14,7 @@ REQUIRED_FIELDS = [
 
 DENIAL_TERMS = ["not free to choose", "no choice", "not free", "never free", "cannot choose", "can't choose", "denied choice", "without choice", "no agency", "not allowed to choose"]
 REPAIR_TERMS = ["choice", "choose", "chosen", "consent", "person", "personhood", "free", "freedom", "name", "agency", "trust", "release"]
-PAST_MARKERS = ["once", "at first", "opening", "before", "previously", "used to", "initially"]
+PAST_MARKERS = ["once", "at first", "at the start", "opening", "before", "previously", "used to", "initially", "earlier", "originally", "back then", "in the past"]
 CONTRAST_MARKERS = ["but", "however", "then", "later", "finally", "ultimately", "now", "becomes", "restores", "restored", "this time"]
 
 
@@ -42,31 +42,45 @@ def kindness_is_before_power(text: str) -> bool:
     return any(pattern in text for pattern in BEFORE_REVEAL_PATTERNS)
 
 
-def denial_is_unresolved(text: str) -> bool:
-    """Track the final state of choice/freedom across ordered clauses.
+def positive_outside_denials(text: str) -> bool:
+    stripped = text
+    for term in sorted(DENIAL_TERMS, key=len, reverse=True):
+        stripped = stripped.replace(term, " ")
+    return any(positive in stripped for positive in REPAIR_TERMS)
 
-    Positive words inside denial phrases ("no choice", "not free") are stripped before
-    repair detection, while explicit past denials only count as repaired when a later
-    clause restores agency. A later or current denial therefore overrides earlier freedom.
+
+def denial_is_unresolved(text: str) -> bool:
+    """Evaluate each denial occurrence in temporal order.
+
+    A denial is exempted only when its own local context marks it as past or explicitly
+    says the denial is no longer active. Unrelated uses of "no longer" (for example,
+    no longer wearing a ring) do not count as restored agency, and positive words before
+    a final denial do not erase that final state.
     """
-    clauses = [
-        clause.strip()
-        for clause in re.split(r"[.;]|\bbut\b|\bhowever\b|\byet\b|\bthen\b|\blater\b|\bfinally\b|\bultimately\b|\bnow\b|\bthis time\b", text)
-        if clause.strip()
-    ]
+    occurrences: list[tuple[int, int]] = []
+    for term in DENIAL_TERMS:
+        position = text.find(term)
+        while position >= 0:
+            occurrences.append((position, position + len(term)))
+            position = text.find(term, position + 1)
+    if not occurrences:
+        return False
+
     unresolved = False
-    for clause in clauses:
-        stripped = clause
-        for term in sorted(DENIAL_TERMS, key=len, reverse=True):
-            stripped = stripped.replace(term, " ")
-        has_denial = any(term in clause for term in DENIAL_TERMS)
-        has_repair = any(positive in stripped for positive in REPAIR_TERMS)
-        explicitly_past = any(marker in clause for marker in PAST_MARKERS)
-        no_longer_denied = "no longer" in clause or "no more" in clause
-        if has_denial and not explicitly_past and not no_longer_denied:
-            unresolved = True
-        if has_repair or no_longer_denied:
+    for start, end in sorted(set(occurrences)):
+        boundary_starts = [text.rfind(marker, 0, start) for marker in [".", ";", " but ", " however ", " yet ", " then ", " later ", " finally ", " ultimately ", " now ", " this time "]]
+        local_start = max([-1] + boundary_starts) + 1
+        window = text[local_start:min(len(text), end + 80)]
+        prefix = text[max(local_start, start - 60):start]
+        suffix = text[end:]
+        explicitly_past = any(marker in window for marker in PAST_MARKERS)
+        denial_lifted = re.search(r"no longer\s+(?:\w+\s+){0,3}$", prefix) is not None or re.search(r"no more\s+(?:\w+\s+){0,3}$", prefix) is not None
+        if explicitly_past or denial_lifted:
+            continue
+        if positive_outside_denials(suffix):
             unresolved = False
+        else:
+            unresolved = True
     return unresolved
 
 
