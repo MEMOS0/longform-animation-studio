@@ -773,3 +773,9 @@ def test_storyboard_seed_does_not_repeat_exact_dialogue_line():
     board=build_seed_board(scene)
     lines=[s['dialogue'] for s in board['shots'] if s['dialogue']]
     assert len(lines)==len(set(lines))
+
+
+def test_dialogue_evaluation_reports_null_spoken_turn_without_crash():
+    from studio.dialogue_craft import evaluate_scenes_dialogue
+    report=evaluate_scenes_dialogue([{"scene_id":"S01","dialogue_design":{"key_lines":[],"spoken_exchange":[None],"max_exposition_sentences":2}}])
+    assert 'spoken exchange turn 1 is malformed' in report['warnings_by_scene']['S01']
