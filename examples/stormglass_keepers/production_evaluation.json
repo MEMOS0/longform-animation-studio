@@ -176,6 +176,108 @@
     "administrative_terms": [],
     "warnings": []
   },
+  "title_packaging": {
+    "existing_title_critiques": [
+      {
+        "title": "They Hunted the Last Stormglass Dragon Child… Until the Disgraced Keeper Chose to Protect It",
+        "critique": {
+          "score_0_to_1": 0.82,
+          "strengths": [
+            "vulnerable or relational anchor visible",
+            "conflict or injustice legible",
+            "turn or transformation promise present",
+            "relationship role present"
+          ],
+          "risks": [
+            "long; verify mobile truncation"
+          ],
+          "mobile_length": 92,
+          "ethical_boundary": "Do not reuse another channel's exact hit title or create deceptive duplicate packaging; learn the demand mechanism instead."
+        }
+      },
+      {
+        "title": "The Last Stormglass Child Trusts the Keeper Everyone Else Calls a Traitor",
+        "critique": {
+          "score_0_to_1": 0.4999999999999999,
+          "strengths": [
+            "vulnerable or relational anchor visible",
+            "relationship role present"
+          ],
+          "risks": [
+            "conflict/injustice not legible",
+            "no clear turn/transformation promise"
+          ],
+          "mobile_length": 73,
+          "ethical_boundary": "Do not reuse another channel's exact hit title or create deceptive duplicate packaging; learn the demand mechanism instead."
+        }
+      },
+      {
+        "title": "A Hunted Dragon Child. A Disgraced Keeper. One Storm That Can Save Them Both.",
+        "critique": {
+          "score_0_to_1": 0.7000000000000001,
+          "strengths": [
+            "vulnerable or relational anchor visible",
+            "conflict or injustice legible",
+            "relationship role present"
+          ],
+          "risks": [
+            "no clear turn/transformation promise"
+          ],
+          "mobile_length": 77,
+          "ethical_boundary": "Do not reuse another channel's exact hit title or create deceptive duplicate packaging; learn the demand mechanism instead."
+        }
+      }
+    ],
+    "generated_alternatives": [
+      {
+        "title": "They Hunted the Last Creature Child… Until Mira Vale Chose to Protect It",
+        "critique": {
+          "score_0_to_1": 0.8999999999999999,
+          "strengths": [
+            "vulnerable or relational anchor visible",
+            "conflict or injustice legible",
+            "turn or transformation promise present",
+            "relationship role present"
+          ],
+          "risks": [],
+          "mobile_length": 72,
+          "ethical_boundary": "Do not reuse another channel's exact hit title or create deceptive duplicate packaging; learn the demand mechanism instead."
+        }
+      },
+      {
+        "title": "The Child Everyone Feared Trusts the Protector Everyone Else Condemned",
+        "critique": {
+          "score_0_to_1": 0.4999999999999999,
+          "strengths": [
+            "vulnerable or relational anchor visible",
+            "relationship role present"
+          ],
+          "risks": [
+            "conflict/injustice not legible",
+            "no clear turn/transformation promise"
+          ],
+          "mobile_length": 70,
+          "ethical_boundary": "Do not reuse another channel's exact hit title or create deceptive duplicate packaging; learn the demand mechanism instead."
+        }
+      },
+      {
+        "title": "A Hunted Creature Child. A Disgraced Protector. One Home They Must Save.",
+        "critique": {
+          "score_0_to_1": 0.7000000000000001,
+          "strengths": [
+            "vulnerable or relational anchor visible",
+            "conflict or injustice legible",
+            "relationship role present"
+          ],
+          "risks": [
+            "no clear turn/transformation promise"
+          ],
+          "mobile_length": 72,
+          "ethical_boundary": "Do not reuse another channel's exact hit title or create deceptive duplicate packaging; learn the demand mechanism instead."
+        }
+      }
+    ]
+  },
   "channel_contract_fit": {
     "contract_id": "creature_protection_feature",
     "status": "pass",

@@ -62,11 +62,13 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--days", type=int, default=14)
     parser.add_argument("--max-enrich", type=int, default=35)
+    parser.add_argument("--queries", default="", help="comma-separated query override")
     args = parser.parse_args()
     now = datetime.now(timezone.utc)
     cutoff = now.timestamp() - args.days * 86400
     found = {}
-    for query in QUERIES:
+    queries = [q.strip() for q in args.queries.split(",") if q.strip()] or QUERIES
+    for query in queries:
         try:
             rows = search(query)
         except Exception as exc:
@@ -114,7 +116,7 @@ def main() -> None:
         dur = (r.get("duration_seconds") or r.get("duration_seconds_search") or 0) / 60
         lines.append(f"| {r['candidate_strength']} | `{r['video_id']}` | {r.get('channel') or ''} | {r.get('subscriber_count')} | {r['age_days_at_collection']:.1f} | {r.get('total_views') or r.get('search_views')} | {r['views_per_day_estimate']:.0f} | {dur:.0f}m | {', '.join(r['queries'])[:45]} | {(r.get('exact_title') or r.get('search_title') or '').replace('|','/')} |")
     md.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print(json.dumps({"candidates": len(enriched), "strong": sum(r["candidate_strength"] == "strong_lead" for r in enriched), "output": str(out)}))
+    print(json.dumps({"candidates": len(enriched), "queries": queries, "strong": sum(r["candidate_strength"] == "strong_lead" for r in enriched), "output": str(out)}))
 
 
 if __name__ == "__main__":

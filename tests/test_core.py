@@ -99,3 +99,12 @@ def test_shot_pipeline_builds_lanes_and_ratio():
     assert plan["shot_count"] == 5
     assert plan["planned_generated_to_final_ratio"] > 0
     assert any(shot["generation_lane"] == "hero" for shot in plan["shots"])
+
+
+def test_title_intelligence_creature_contract():
+    from studio.title_intelligence import critique_title, generate_title_candidates
+    premise = {"channel_contract": "creature_protection_feature", "protagonist": {"identity": "Mira Vale, keeper"}, "emotional_engine": {"wound": "disgrace", "injustice": "hunters", "protective_counterforce": "protector", "belonging_payoff": "home"}, "logline": "a dragon child is protected"}
+    rows = generate_title_candidates(premise)
+    assert rows and rows[0]["critique"]["score_0_to_1"] > 0.5
+    weak = critique_title("Epic Fantasy World Adventure")
+    assert weak["risks"]
