@@ -1,0 +1,66 @@
+"""Command line interface for the long-form animation studio intelligence system."""
+from __future__ import annotations
+
+import argparse
+import json
+from pathlib import Path
+
+from .comparative import analyze as comparative_analyze
+from .failure_intelligence import evaluate_candidate, render_report
+from .features import enrich_records
+from .media_analysis import analyze_video
+from .youtube_archive import collect
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(prog="studio")
+    sub = parser.add_subparsers(dest="command", required=True)
+
+    collect_p = sub.add_parser("collect-archive")
+    collect_p.add_argument("--channel-json", required=True)
+    collect_p.add_argument("--output-dir", default="data/raw")
+    collect_p.add_argument("--thumbnail-dir", default="data/raw/thumbnails")
+
+    enrich_p = sub.add_parser("enrich-archive")
+    enrich_p.add_argument("input")
+    enrich_p.add_argument("output")
+
+    compare_p = sub.add_parser("compare")
+    compare_p.add_argument("input")
+    compare_p.add_argument("output_dir")
+
+    media_p = sub.add_parser("analyze-media")
+    media_p.add_argument("video")
+    media_p.add_argument("--subtitle", default="")
+    media_p.add_argument("--output-dir", required=True)
+    media_p.add_argument("--video-id", required=True)
+
+    risk_p = sub.add_parser("evaluate-idea")
+    risk_p.add_argument("--archive", default="data/processed/novdrama_analysis_rows.json")
+    risk_p.add_argument("--candidate", required=True)
+    risk_p.add_argument("--script-file", default="")
+    risk_p.add_argument("--output", default="data/processed/failure_intelligence_evaluation.md")
+
+    args = parser.parse_args()
+    if args.command == "collect-archive":
+        print(collect(Path(args.channel_json), Path(args.output_dir), Path(args.thumbnail_dir)))
+    elif args.command == "enrich-archive":
+        print(enrich_records(Path(args.input), Path(args.output)))
+    elif args.command == "compare":
+        print(json.dumps({k: str(v) for k, v in comparative_analyze(Path(args.input), Path(args.output_dir)).items()}, indent=2))
+    elif args.command == "analyze-media":
+        result = analyze_video(Path(args.video), Path(args.subtitle) if args.subtitle else None, Path(args.output_dir), args.video_id)
+        print(json.dumps({k: str(v) for k, v in result.items()}, indent=2))
+    elif args.command == "evaluate-idea":
+        rows = json.loads(Path(args.archive).read_text(encoding="utf-8"))
+        script_text = Path(args.script_file).read_text(encoding="utf-8") if args.script_file else ""
+        result = evaluate_candidate(args.candidate, rows, script_text)
+        output = Path(args.output)
+        output.parent.mkdir(parents=True, exist_ok=True)
+        output.write_text(render_report(result), encoding="utf-8")
+        output.with_suffix(".json").write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(output)
+
+
+if __name__ == "__main__":
+    main()

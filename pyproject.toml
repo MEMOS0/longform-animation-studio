@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "longform-animation-studio"
+version = "0.1.0"
+description = "Evidence-driven long-form animation production intelligence and failure-analysis system"
+requires-python = ">=3.11"
+dependencies = [
+  "yt-dlp>=2026.1.1",
+  "numpy>=2.0",
+  "pandas>=2.2",
+  "pillow>=10.0",
+  "opencv-python-headless>=4.8",
+  "scenedetect>=0.6",
+  "librosa>=0.10",
+  "soundfile>=0.12",
+  "imagehash>=4.3",
+  "pytest>=8.0",
+]
+
+[project.scripts]
+studio = "studio.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["studio*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

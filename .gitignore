@@ -1,0 +1,22 @@
+# local media and bulky copyrighted source artifacts
+data/raw/media/
+data/raw/thumbnails/
+data/raw/piped/*.ttml
+data/raw/piped/*.piped.json
+data/processed/media/
+*.mp4
+*.mp4.part
+*.wav
+*.chunks/
+
+# generated caches
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+
+# local logs
+*.log
+
+# copyrighted composite image artifacts
+data/processed/*.jpg
