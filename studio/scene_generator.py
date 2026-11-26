@@ -65,6 +65,8 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
         ["This floor is not punishment anymore. Everyone sits by choice.", "I refuse revenge without repair.", "We save the legacy by opening the doors, not by becoming the cage."],
     ]
     key_lines = line_options[index - 1]
+    first_image_override = None
+    final_image_override = None
     if premise.get("channel_contract") == "creature_economic_melodrama":
         contract_text = json.dumps(premise, ensure_ascii=False).lower()
         heat_based = any(term in contract_text for term in ["oven", "ember", "fire", "coal", "volcanic"])
@@ -91,6 +93,19 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
             [f"This {system} is not a cage anymore. Everyone eats by choice.", "I refuse rescue that becomes ownership.", "We keep the doors open because she taught us power is not possession."],
         ]
         key_lines = creature_lines[index - 1]
+        creature_visuals = [
+            (f"{creature} crosses toward the humiliated protagonist while the crowd watches", f"the protagonist kneels, hides {creature}, and closes a protective hand around the {object_term}"),
+            (f"{caregiver} carries food into the shelter while the protagonist refuses payment for pain", f"the protagonist places the {object_term} beside {creature} instead of selling access to it"),
+            (f"the antagonist's people chain the public {system} while {creature} shakes behind the protagonist", f"the protagonist opens the {object_term} and compares its mark with the first {evidence} trace"),
+            (f"the protagonist repairs a small {system} fault while guild/customer witnesses watch", f"she pockets a marked ledger fragment and carries {creature} away from the offer of sale"),
+            (f"guards force the protagonist before the public {system} as the accusation lands", f"she shields {creature} with her body while the {object_term} falls open as evidence"),
+            (f"the protagonist lifts the {object_term} over the work surface and reads pressure, timing, and witness geometry", f"the care network carries matched proof pieces toward the public hearing"),
+            (f"the protagonist lays ledger, {evidence} trace, witness statement, and {object_term} in one line", f"{creature} steps forward by choice as the protagonist refuses to claim ownership"),
+            (f"neighbors carry shared {resource} into the transformed {system} space", f"{creature} crosses the home threshold freely while the {object_term} remains open as public proof"),
+        ]
+        first_image_override, final_image_override = creature_visuals[index - 1]
+    first_image = first_image_override or visual
+    final_image = final_image_override or f"{object_name} visible after the power shift, its meaning altered by: {clue}"
     return {
         "scene_id": f"S{index:02d}",
         "time_range": sequence.get("time_range", "0-0 minutes"),
@@ -102,10 +117,10 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
         "protagonist_decision": sequence.get("protagonist_choice", "act despite social cost"),
         "subtext": SUBTEXT[index - 1],
         "visual_action": {
-            "first_image": visual,
+            "first_image": first_image,
             "face_reaction": f"the protagonist's expression shifts from {emotional_shift.split(' to ')[0]} toward controlled attention when the turn lands",
             "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
-            "final_image": f"{object_name} visible after the power shift, its meaning altered by: {clue}",
+            "final_image": final_image,
         },
         "dialogue_design": {
             "function": "make choices, objections, and proof implications audible rather than explaining theme",

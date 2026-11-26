@@ -416,13 +416,13 @@
     "estimated_final_seconds": 2520.0,
     "planned_generated_to_final_ratio": 0.9992,
     "lane_counts": {
-      "draft": 144,
-      "hero": 196,
+      "draft": 132,
+      "hero": 208,
       "mid": 21
     },
     "lane_seconds": {
-      "draft": 823.0,
-      "hero": 1506.0,
+      "draft": 751.0,
+      "hero": 1578.0,
       "mid": 189.0
     },
     "shots": [
@@ -432,10 +432,9 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "Lio is made to bake on the ash floor outside the licensed oven hall while guild families eat inside",
+        "visual_prompt_intent": "the emberseed bird child crosses toward the humiliated protagonist while the crowd watches",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -451,7 +450,6 @@
         "visual_prompt_intent": "the protagonist's expression shifts from shame toward controlled attention when the turn lands",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -467,7 +465,6 @@
         "visual_prompt_intent": "spatial humiliation, vulnerable alliance, and promise payoff the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -484,7 +481,6 @@
         "visual_prompt_intent": "the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -500,7 +496,6 @@
         "visual_prompt_intent": "hide the creature's value or protect it before knowing whether anyone will help the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -517,7 +512,6 @@
         "visual_prompt_intent": "sound/texture continuity: the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -533,7 +527,6 @@
         "visual_prompt_intent": "spatial humiliation, vulnerable alliance, and promise payoff the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -550,7 +543,6 @@
         "visual_prompt_intent": "the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -563,10 +555,9 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "Lio is made to bake on the ash floor outside the licensed oven hall while guild families eat inside",
+        "visual_prompt_intent": "the emberseed bird child crosses toward the humiliated protagonist while the crowd watches",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -582,7 +573,6 @@
         "visual_prompt_intent": "the protagonist's expression shifts from shame toward controlled attention when the turn lands",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -598,7 +588,6 @@
         "visual_prompt_intent": "spatial humiliation, vulnerable alliance, and promise payoff the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -615,7 +604,6 @@
         "visual_prompt_intent": "the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -631,7 +619,6 @@
         "visual_prompt_intent": "hide the creature's value or protect it before knowing whether anyone will help the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -648,7 +635,6 @@
         "visual_prompt_intent": "sound/texture continuity: the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -664,7 +650,6 @@
         "visual_prompt_intent": "spatial humiliation, vulnerable alliance, and promise payoff the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -681,7 +666,6 @@
         "visual_prompt_intent": "the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -694,10 +678,9 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "Lio is made to bake on the ash floor outside the licensed oven hall while guild families eat inside",
+        "visual_prompt_intent": "the emberseed bird child crosses toward the humiliated protagonist while the crowd watches",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -713,7 +696,6 @@
         "visual_prompt_intent": "the protagonist's expression shifts from shame toward controlled attention when the turn lands",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -729,7 +711,6 @@
         "visual_prompt_intent": "spatial humiliation, vulnerable alliance, and promise payoff the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -746,7 +727,6 @@
         "visual_prompt_intent": "the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -762,7 +742,6 @@
         "visual_prompt_intent": "hide the creature's value or protect it before knowing whether anyone will help the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -779,7 +758,6 @@
         "visual_prompt_intent": "sound/texture continuity: the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -795,7 +773,6 @@
         "visual_prompt_intent": "spatial humiliation, vulnerable alliance, and promise payoff the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -812,7 +789,6 @@
         "visual_prompt_intent": "the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -825,10 +801,9 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "Lio is made to bake on the ash floor outside the licensed oven hall while guild families eat inside",
+        "visual_prompt_intent": "the emberseed bird child crosses toward the humiliated protagonist while the crowd watches",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -844,7 +819,6 @@
         "visual_prompt_intent": "the protagonist's expression shifts from shame toward controlled attention when the turn lands",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -860,7 +834,6 @@
         "visual_prompt_intent": "spatial humiliation, vulnerable alliance, and promise payoff the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -877,7 +850,6 @@
         "visual_prompt_intent": "the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -893,7 +865,6 @@
         "visual_prompt_intent": "hide the creature's value or protect it before knowing whether anyone will help the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -910,7 +881,6 @@
         "visual_prompt_intent": "sound/texture continuity: the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -926,7 +896,6 @@
         "visual_prompt_intent": "spatial humiliation, vulnerable alliance, and promise payoff the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -943,7 +912,6 @@
         "visual_prompt_intent": "the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -956,10 +924,9 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "Lio is made to bake on the ash floor outside the licensed oven hall while guild families eat inside",
+        "visual_prompt_intent": "the emberseed bird child crosses toward the humiliated protagonist while the crowd watches",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -975,7 +942,6 @@
         "visual_prompt_intent": "the protagonist's expression shifts from shame toward controlled attention when the turn lands",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -991,7 +957,6 @@
         "visual_prompt_intent": "spatial humiliation, vulnerable alliance, and promise payoff the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -1005,10 +970,9 @@
         "kind": "final_image",
         "duration_seconds": 7.0,
         "generation_lane": "hero",
-        "visual_prompt_intent": "blackened brass oven key visible after the power shift, its meaning altered by: blackened brass oven key is introduced as emotionally and practically significant",
+        "visual_prompt_intent": "the protagonist kneels, hides the emberseed bird child, and closes a protective hand around the blackened brass oven key",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -1021,7 +985,7 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "small labor ritual with inherited object, care-giver space, and first repeatable customer/ally interaction",
+        "visual_prompt_intent": "a flour miller carries food into the shelter while the protagonist refuses payment for pain",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -1144,7 +1108,7 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "small labor ritual with inherited object, care-giver space, and first repeatable customer/ally interaction",
+        "visual_prompt_intent": "a flour miller carries food into the shelter while the protagonist refuses payment for pain",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -1267,7 +1231,7 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "small labor ritual with inherited object, care-giver space, and first repeatable customer/ally interaction",
+        "visual_prompt_intent": "a flour miller carries food into the shelter while the protagonist refuses payment for pain",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -1390,7 +1354,7 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "small labor ritual with inherited object, care-giver space, and first repeatable customer/ally interaction",
+        "visual_prompt_intent": "a flour miller carries food into the shelter while the protagonist refuses payment for pain",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -1513,7 +1477,7 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "small labor ritual with inherited object, care-giver space, and first repeatable customer/ally interaction",
+        "visual_prompt_intent": "a flour miller carries food into the shelter while the protagonist refuses payment for pain",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -1559,7 +1523,7 @@
         "kind": "final_image",
         "duration_seconds": 7.0,
         "generation_lane": "hero",
-        "visual_prompt_intent": "blackened brass oven key visible after the power shift, its meaning altered by: the protagonist demonstrates small-business craft, observation of material proof, persistence, care under pressure, and ethical refusal in a small practical problem",
+        "visual_prompt_intent": "the protagonist places the blackened brass oven key beside the emberseed bird child instead of selling access to it",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -1573,8 +1537,8 @@
         "scene_id": "S03",
         "kind": "establishing",
         "duration_seconds": 6.0,
-        "generation_lane": "draft",
-        "visual_prompt_intent": "status space repeated with a sharper punishment; object lesson embedded in action",
+        "generation_lane": "hero",
+        "visual_prompt_intent": "the antagonist's people chain the public oven while the emberseed bird child shakes behind the protagonist",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -1696,8 +1660,8 @@
         "scene_id": "S03",
         "kind": "establishing",
         "duration_seconds": 6.0,
-        "generation_lane": "draft",
-        "visual_prompt_intent": "status space repeated with a sharper punishment; object lesson embedded in action",
+        "generation_lane": "hero",
+        "visual_prompt_intent": "the antagonist's people chain the public oven while the emberseed bird child shakes behind the protagonist",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -1819,8 +1783,8 @@
         "scene_id": "S03",
         "kind": "establishing",
         "duration_seconds": 6.0,
-        "generation_lane": "draft",
-        "visual_prompt_intent": "status space repeated with a sharper punishment; object lesson embedded in action",
+        "generation_lane": "hero",
+        "visual_prompt_intent": "the antagonist's people chain the public oven while the emberseed bird child shakes behind the protagonist",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -1942,8 +1906,8 @@
         "scene_id": "S03",
         "kind": "establishing",
         "duration_seconds": 6.0,
-        "generation_lane": "draft",
-        "visual_prompt_intent": "status space repeated with a sharper punishment; object lesson embedded in action",
+        "generation_lane": "hero",
+        "visual_prompt_intent": "the antagonist's people chain the public oven while the emberseed bird child shakes behind the protagonist",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -2065,8 +2029,8 @@
         "scene_id": "S03",
         "kind": "establishing",
         "duration_seconds": 6.0,
-        "generation_lane": "draft",
-        "visual_prompt_intent": "status space repeated with a sharper punishment; object lesson embedded in action",
+        "generation_lane": "hero",
+        "visual_prompt_intent": "the antagonist's people chain the public oven while the emberseed bird child shakes behind the protagonist",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -2188,8 +2152,8 @@
         "scene_id": "S03",
         "kind": "establishing",
         "duration_seconds": 6.0,
-        "generation_lane": "draft",
-        "visual_prompt_intent": "status space repeated with a sharper punishment; object lesson embedded in action",
+        "generation_lane": "hero",
+        "visual_prompt_intent": "the antagonist's people chain the public oven while the emberseed bird child shakes behind the protagonist",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -2204,7 +2168,7 @@
         "kind": "final_image",
         "duration_seconds": 5.0,
         "generation_lane": "hero",
-        "visual_prompt_intent": "blackened brass oven key visible after the power shift, its meaning altered by: the rules of blackened brass oven key reveal how heat, timing, and creature behavior contradict the official story",
+        "visual_prompt_intent": "the protagonist opens the blackened brass oven key and compares its mark with the first heat trace",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -2219,7 +2183,7 @@
         "kind": "final_image",
         "duration_seconds": 9.0,
         "generation_lane": "hero",
-        "visual_prompt_intent": "blackened brass oven key visible after the power shift, its meaning altered by: the rules of blackened brass oven key reveal how heat, timing, and creature behavior contradict the official story",
+        "visual_prompt_intent": "the protagonist opens the blackened brass oven key and compares its mark with the first heat trace",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -2234,7 +2198,7 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "craft demonstration intercut with antagonist moving pieces behind doors",
+        "visual_prompt_intent": "the protagonist repairs a small oven fault while guild/customer witnesses watch",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -2357,7 +2321,7 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "craft demonstration intercut with antagonist moving pieces behind doors",
+        "visual_prompt_intent": "the protagonist repairs a small oven fault while guild/customer witnesses watch",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -2480,7 +2444,7 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "craft demonstration intercut with antagonist moving pieces behind doors",
+        "visual_prompt_intent": "the protagonist repairs a small oven fault while guild/customer witnesses watch",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -2603,7 +2567,7 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "craft demonstration intercut with antagonist moving pieces behind doors",
+        "visual_prompt_intent": "the protagonist repairs a small oven fault while guild/customer witnesses watch",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -2726,7 +2690,7 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "craft demonstration intercut with antagonist moving pieces behind doors",
+        "visual_prompt_intent": "the protagonist repairs a small oven fault while guild/customer witnesses watch",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -2849,7 +2813,7 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "craft demonstration intercut with antagonist moving pieces behind doors",
+        "visual_prompt_intent": "the protagonist repairs a small oven fault while guild/customer witnesses watch",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -2941,7 +2905,7 @@
         "kind": "final_image",
         "duration_seconds": 9.0,
         "generation_lane": "hero",
-        "visual_prompt_intent": "blackened brass oven key visible after the power shift, its meaning altered by: first contradiction in the antagonist's timeline/object story appears",
+        "visual_prompt_intent": "she pockets a marked ledger fragment and carries the emberseed bird child away from the offer of sale",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -2955,11 +2919,10 @@
         "scene_id": "S05",
         "kind": "establishing",
         "duration_seconds": 6.0,
-        "generation_lane": "draft",
-        "visual_prompt_intent": "the original audience/social space is reused for arrest, accusation, or expulsion",
+        "generation_lane": "hero",
+        "visual_prompt_intent": "guards force the protagonist before the public oven as the accusation lands",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -2975,7 +2938,6 @@
         "visual_prompt_intent": "the protagonist's expression shifts from hard-won hope toward controlled attention when the turn lands",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -2991,7 +2953,6 @@
         "visual_prompt_intent": "midpoint public accusation and maximum shame the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3008,7 +2969,6 @@
         "visual_prompt_intent": "the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3024,7 +2984,6 @@
         "visual_prompt_intent": "defend the truth without exposing the creature to capture the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3041,7 +3000,6 @@
         "visual_prompt_intent": "sound/texture continuity: the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3057,7 +3015,6 @@
         "visual_prompt_intent": "midpoint public accusation and maximum shame the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3074,7 +3031,6 @@
         "visual_prompt_intent": "the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3086,11 +3042,10 @@
         "scene_id": "S05",
         "kind": "establishing",
         "duration_seconds": 6.0,
-        "generation_lane": "draft",
-        "visual_prompt_intent": "the original audience/social space is reused for arrest, accusation, or expulsion",
+        "generation_lane": "hero",
+        "visual_prompt_intent": "guards force the protagonist before the public oven as the accusation lands",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3106,7 +3061,6 @@
         "visual_prompt_intent": "the protagonist's expression shifts from hard-won hope toward controlled attention when the turn lands",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3122,7 +3076,6 @@
         "visual_prompt_intent": "midpoint public accusation and maximum shame the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3139,7 +3092,6 @@
         "visual_prompt_intent": "the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3155,7 +3107,6 @@
         "visual_prompt_intent": "defend the truth without exposing the creature to capture the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3172,7 +3123,6 @@
         "visual_prompt_intent": "sound/texture continuity: the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3188,7 +3138,6 @@
         "visual_prompt_intent": "midpoint public accusation and maximum shame the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3205,7 +3154,6 @@
         "visual_prompt_intent": "the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3217,11 +3165,10 @@
         "scene_id": "S05",
         "kind": "establishing",
         "duration_seconds": 6.0,
-        "generation_lane": "draft",
-        "visual_prompt_intent": "the original audience/social space is reused for arrest, accusation, or expulsion",
+        "generation_lane": "hero",
+        "visual_prompt_intent": "guards force the protagonist before the public oven as the accusation lands",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3237,7 +3184,6 @@
         "visual_prompt_intent": "the protagonist's expression shifts from hard-won hope toward controlled attention when the turn lands",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3253,7 +3199,6 @@
         "visual_prompt_intent": "midpoint public accusation and maximum shame the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3270,7 +3215,6 @@
         "visual_prompt_intent": "the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3286,7 +3230,6 @@
         "visual_prompt_intent": "defend the truth without exposing the creature to capture the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3303,7 +3246,6 @@
         "visual_prompt_intent": "sound/texture continuity: the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3319,7 +3261,6 @@
         "visual_prompt_intent": "midpoint public accusation and maximum shame the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3336,7 +3277,6 @@
         "visual_prompt_intent": "the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3348,11 +3288,10 @@
         "scene_id": "S05",
         "kind": "establishing",
         "duration_seconds": 6.0,
-        "generation_lane": "draft",
-        "visual_prompt_intent": "the original audience/social space is reused for arrest, accusation, or expulsion",
+        "generation_lane": "hero",
+        "visual_prompt_intent": "guards force the protagonist before the public oven as the accusation lands",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3368,7 +3307,6 @@
         "visual_prompt_intent": "the protagonist's expression shifts from hard-won hope toward controlled attention when the turn lands",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3384,7 +3322,6 @@
         "visual_prompt_intent": "midpoint public accusation and maximum shame the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3401,7 +3338,6 @@
         "visual_prompt_intent": "the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3417,7 +3353,6 @@
         "visual_prompt_intent": "defend the truth without exposing the creature to capture the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3434,7 +3369,6 @@
         "visual_prompt_intent": "sound/texture continuity: the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3450,7 +3384,6 @@
         "visual_prompt_intent": "midpoint public accusation and maximum shame the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3467,7 +3400,6 @@
         "visual_prompt_intent": "the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3479,11 +3411,10 @@
         "scene_id": "S05",
         "kind": "establishing",
         "duration_seconds": 6.0,
-        "generation_lane": "draft",
-        "visual_prompt_intent": "the original audience/social space is reused for arrest, accusation, or expulsion",
+        "generation_lane": "hero",
+        "visual_prompt_intent": "guards force the protagonist before the public oven as the accusation lands",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3499,7 +3430,6 @@
         "visual_prompt_intent": "the protagonist's expression shifts from hard-won hope toward controlled attention when the turn lands",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3515,7 +3445,6 @@
         "visual_prompt_intent": "midpoint public accusation and maximum shame the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3532,7 +3461,6 @@
         "visual_prompt_intent": "the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3548,7 +3476,6 @@
         "visual_prompt_intent": "defend the truth without exposing the creature to capture the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3565,7 +3492,6 @@
         "visual_prompt_intent": "sound/texture continuity: the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3581,7 +3507,6 @@
         "visual_prompt_intent": "midpoint public accusation and maximum shame the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3598,7 +3523,6 @@
         "visual_prompt_intent": "the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3610,11 +3534,10 @@
         "scene_id": "S05",
         "kind": "establishing",
         "duration_seconds": 6.0,
-        "generation_lane": "draft",
-        "visual_prompt_intent": "the original audience/social space is reused for arrest, accusation, or expulsion",
+        "generation_lane": "hero",
+        "visual_prompt_intent": "guards force the protagonist before the public oven as the accusation lands",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3630,7 +3553,6 @@
         "visual_prompt_intent": "the protagonist's expression shifts from hard-won hope toward controlled attention when the turn lands",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3646,7 +3568,6 @@
         "visual_prompt_intent": "midpoint public accusation and maximum shame the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3663,7 +3584,6 @@
         "visual_prompt_intent": "the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3679,7 +3599,6 @@
         "visual_prompt_intent": "defend the truth without exposing the creature to capture the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3696,7 +3615,6 @@
         "visual_prompt_intent": "sound/texture continuity: the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3709,10 +3627,9 @@
         "kind": "final_image",
         "duration_seconds": 9.0,
         "generation_lane": "hero",
-        "visual_prompt_intent": "blackened brass oven key visible after the power shift, its meaning altered by: the key opens the sealed oven ledger wall and proves the license was stolen becomes the central question, but the proof chain is incomplete",
+        "visual_prompt_intent": "she shields the emberseed bird child with her body while the blackened brass oven key falls open as evidence",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3725,9 +3642,8 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "investigation through craft locations, work surfaces, and overlooked service spaces",
+        "visual_prompt_intent": "the protagonist lifts the blackened brass oven key over the work surface and reads pressure, timing, and witness geometry",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3742,7 +3658,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist's expression shifts from despair toward controlled attention when the turn lands",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3757,7 +3672,6 @@
         "generation_lane": "mid",
         "visual_prompt_intent": "agency reconstruction and first proof chain movement the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3773,7 +3687,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3788,7 +3701,6 @@
         "generation_lane": "mid",
         "visual_prompt_intent": "accept only accountable help/advance while retaining control of the proof the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3804,7 +3716,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "sound/texture continuity: the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3819,7 +3730,6 @@
         "generation_lane": "mid",
         "visual_prompt_intent": "agency reconstruction and first proof chain movement the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3835,7 +3745,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3848,9 +3757,8 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "investigation through craft locations, work surfaces, and overlooked service spaces",
+        "visual_prompt_intent": "the protagonist lifts the blackened brass oven key over the work surface and reads pressure, timing, and witness geometry",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3865,7 +3773,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist's expression shifts from despair toward controlled attention when the turn lands",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3880,7 +3787,6 @@
         "generation_lane": "mid",
         "visual_prompt_intent": "agency reconstruction and first proof chain movement the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3896,7 +3802,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3911,7 +3816,6 @@
         "generation_lane": "mid",
         "visual_prompt_intent": "accept only accountable help/advance while retaining control of the proof the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3927,7 +3831,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "sound/texture continuity: the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3942,7 +3845,6 @@
         "generation_lane": "mid",
         "visual_prompt_intent": "agency reconstruction and first proof chain movement the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -3958,7 +3860,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3971,9 +3872,8 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "investigation through craft locations, work surfaces, and overlooked service spaces",
+        "visual_prompt_intent": "the protagonist lifts the blackened brass oven key over the work surface and reads pressure, timing, and witness geometry",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -3988,7 +3888,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist's expression shifts from despair toward controlled attention when the turn lands",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4003,7 +3902,6 @@
         "generation_lane": "mid",
         "visual_prompt_intent": "agency reconstruction and first proof chain movement the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -4019,7 +3917,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4034,7 +3931,6 @@
         "generation_lane": "mid",
         "visual_prompt_intent": "accept only accountable help/advance while retaining control of the proof the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -4050,7 +3946,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "sound/texture continuity: the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4065,7 +3960,6 @@
         "generation_lane": "mid",
         "visual_prompt_intent": "agency reconstruction and first proof chain movement the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -4081,7 +3975,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4094,9 +3987,8 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "investigation through craft locations, work surfaces, and overlooked service spaces",
+        "visual_prompt_intent": "the protagonist lifts the blackened brass oven key over the work surface and reads pressure, timing, and witness geometry",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4111,7 +4003,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist's expression shifts from despair toward controlled attention when the turn lands",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4126,7 +4017,6 @@
         "generation_lane": "mid",
         "visual_prompt_intent": "agency reconstruction and first proof chain movement the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -4142,7 +4032,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4157,7 +4046,6 @@
         "generation_lane": "mid",
         "visual_prompt_intent": "accept only accountable help/advance while retaining control of the proof the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -4173,7 +4061,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "sound/texture continuity: the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4188,7 +4075,6 @@
         "generation_lane": "mid",
         "visual_prompt_intent": "agency reconstruction and first proof chain movement the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -4204,7 +4090,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4217,9 +4102,8 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "investigation through craft locations, work surfaces, and overlooked service spaces",
+        "visual_prompt_intent": "the protagonist lifts the blackened brass oven key over the work surface and reads pressure, timing, and witness geometry",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4234,7 +4118,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist's expression shifts from despair toward controlled attention when the turn lands",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4249,7 +4132,6 @@
         "generation_lane": "mid",
         "visual_prompt_intent": "agency reconstruction and first proof chain movement the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -4265,7 +4147,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4280,7 +4161,6 @@
         "generation_lane": "mid",
         "visual_prompt_intent": "accept only accountable help/advance while retaining control of the proof the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -4296,7 +4176,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "sound/texture continuity: the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4311,7 +4190,6 @@
         "generation_lane": "mid",
         "visual_prompt_intent": "agency reconstruction and first proof chain movement the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -4327,7 +4205,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4340,9 +4217,8 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "investigation through craft locations, work surfaces, and overlooked service spaces",
+        "visual_prompt_intent": "the protagonist lifts the blackened brass oven key over the work surface and reads pressure, timing, and witness geometry",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4357,7 +4233,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist's expression shifts from despair toward controlled attention when the turn lands",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4372,7 +4247,6 @@
         "generation_lane": "mid",
         "visual_prompt_intent": "agency reconstruction and first proof chain movement the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -4388,7 +4262,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4403,7 +4276,6 @@
         "generation_lane": "mid",
         "visual_prompt_intent": "accept only accountable help/advance while retaining control of the proof the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -4419,7 +4291,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "sound/texture continuity: the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4434,7 +4305,6 @@
         "generation_lane": "mid",
         "visual_prompt_intent": "agency reconstruction and first proof chain movement the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -4450,7 +4320,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4463,9 +4332,8 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "investigation through craft locations, work surfaces, and overlooked service spaces",
+        "visual_prompt_intent": "the protagonist lifts the blackened brass oven key over the work surface and reads pressure, timing, and witness geometry",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4480,7 +4348,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist's expression shifts from despair toward controlled attention when the turn lands",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4495,7 +4362,6 @@
         "generation_lane": "mid",
         "visual_prompt_intent": "agency reconstruction and first proof chain movement the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -4511,7 +4377,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4526,7 +4391,6 @@
         "generation_lane": "mid",
         "visual_prompt_intent": "accept only accountable help/advance while retaining control of the proof the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -4542,7 +4406,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "sound/texture continuity: the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4557,7 +4420,6 @@
         "generation_lane": "mid",
         "visual_prompt_intent": "agency reconstruction and first proof chain movement the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
           "shot_reverse_shot_eye_line"
@@ -4573,7 +4435,6 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4586,9 +4447,8 @@
         "kind": "final_image",
         "duration_seconds": 6.0,
         "generation_lane": "hero",
-        "visual_prompt_intent": "blackened brass oven key visible after the power shift, its meaning altered by: maker marks, timing, witness geometry, or object behavior contradict the frame-up",
+        "visual_prompt_intent": "the care network carries matched proof pieces toward the public hearing",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4601,9 +4461,8 @@
         "kind": "final_image",
         "duration_seconds": 4.0,
         "generation_lane": "hero",
-        "visual_prompt_intent": "blackened brass oven key visible after the power shift, its meaning altered by: maker marks, timing, witness geometry, or object behavior contradict the frame-up",
+        "visual_prompt_intent": "the care network carries matched proof pieces toward the public hearing",
         "continuity_dependencies": [
-          "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
         ],
@@ -4616,8 +4475,9 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "preparation for the same-audience confrontation, with the original space reset as a trap for truth",
+        "visual_prompt_intent": "the protagonist lays ledger, heat trace, witness statement, and blackened brass oven key in one line",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -4633,6 +4493,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist's expression shifts from fear toward controlled attention when the turn lands",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -4648,6 +4509,7 @@
         "generation_lane": "hero",
         "visual_prompt_intent": "proof chain completion and relational repair before public victory the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
@@ -4664,6 +4526,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -4679,6 +4542,7 @@
         "generation_lane": "hero",
         "visual_prompt_intent": "present the proof publicly while refusing ownership of the creature as a reward the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
@@ -4695,6 +4559,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "sound/texture continuity: the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -4710,6 +4575,7 @@
         "generation_lane": "hero",
         "visual_prompt_intent": "proof chain completion and relational repair before public victory the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
@@ -4726,6 +4592,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -4739,8 +4606,9 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "preparation for the same-audience confrontation, with the original space reset as a trap for truth",
+        "visual_prompt_intent": "the protagonist lays ledger, heat trace, witness statement, and blackened brass oven key in one line",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -4756,6 +4624,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist's expression shifts from fear toward controlled attention when the turn lands",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -4771,6 +4640,7 @@
         "generation_lane": "hero",
         "visual_prompt_intent": "proof chain completion and relational repair before public victory the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
@@ -4787,6 +4657,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -4802,6 +4673,7 @@
         "generation_lane": "hero",
         "visual_prompt_intent": "present the proof publicly while refusing ownership of the creature as a reward the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
@@ -4818,6 +4690,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "sound/texture continuity: the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -4833,6 +4706,7 @@
         "generation_lane": "hero",
         "visual_prompt_intent": "proof chain completion and relational repair before public victory the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
@@ -4849,6 +4723,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -4862,8 +4737,9 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "preparation for the same-audience confrontation, with the original space reset as a trap for truth",
+        "visual_prompt_intent": "the protagonist lays ledger, heat trace, witness statement, and blackened brass oven key in one line",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -4879,6 +4755,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist's expression shifts from fear toward controlled attention when the turn lands",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -4894,6 +4771,7 @@
         "generation_lane": "hero",
         "visual_prompt_intent": "proof chain completion and relational repair before public victory the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
@@ -4910,6 +4788,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -4925,6 +4804,7 @@
         "generation_lane": "hero",
         "visual_prompt_intent": "present the proof publicly while refusing ownership of the creature as a reward the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
@@ -4941,6 +4821,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "sound/texture continuity: the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -4956,6 +4837,7 @@
         "generation_lane": "hero",
         "visual_prompt_intent": "proof chain completion and relational repair before public victory the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
@@ -4972,6 +4854,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -4985,8 +4868,9 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "preparation for the same-audience confrontation, with the original space reset as a trap for truth",
+        "visual_prompt_intent": "the protagonist lays ledger, heat trace, witness statement, and blackened brass oven key in one line",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -5002,6 +4886,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist's expression shifts from fear toward controlled attention when the turn lands",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -5017,6 +4902,7 @@
         "generation_lane": "hero",
         "visual_prompt_intent": "proof chain completion and relational repair before public victory the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
@@ -5033,6 +4919,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -5048,6 +4935,7 @@
         "generation_lane": "hero",
         "visual_prompt_intent": "present the proof publicly while refusing ownership of the creature as a reward the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
@@ -5064,6 +4952,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "sound/texture continuity: the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -5079,6 +4968,7 @@
         "generation_lane": "hero",
         "visual_prompt_intent": "proof chain completion and relational repair before public victory the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
@@ -5095,6 +4985,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -5108,8 +4999,9 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "preparation for the same-audience confrontation, with the original space reset as a trap for truth",
+        "visual_prompt_intent": "the protagonist lays ledger, heat trace, witness statement, and blackened brass oven key in one line",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -5125,6 +5017,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist's expression shifts from fear toward controlled attention when the turn lands",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -5140,6 +5033,7 @@
         "generation_lane": "hero",
         "visual_prompt_intent": "proof chain completion and relational repair before public victory the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
@@ -5156,6 +5050,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -5171,6 +5066,7 @@
         "generation_lane": "hero",
         "visual_prompt_intent": "present the proof publicly while refusing ownership of the creature as a reward the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
@@ -5187,6 +5083,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "sound/texture continuity: the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -5202,6 +5099,7 @@
         "generation_lane": "hero",
         "visual_prompt_intent": "proof chain completion and relational repair before public victory the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
@@ -5218,6 +5116,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -5231,8 +5130,9 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "preparation for the same-audience confrontation, with the original space reset as a trap for truth",
+        "visual_prompt_intent": "the protagonist lays ledger, heat trace, witness statement, and blackened brass oven key in one line",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -5248,6 +5148,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the protagonist's expression shifts from fear toward controlled attention when the turn lands",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -5263,6 +5164,7 @@
         "generation_lane": "hero",
         "visual_prompt_intent": "proof chain completion and relational repair before public victory the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
@@ -5279,6 +5181,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -5294,6 +5197,7 @@
         "generation_lane": "hero",
         "visual_prompt_intent": "present the proof publicly while refusing ownership of the creature as a reward the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
@@ -5310,6 +5214,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "sound/texture continuity: the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -5325,6 +5230,7 @@
         "generation_lane": "hero",
         "visual_prompt_intent": "proof chain completion and relational repair before public victory the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette",
@@ -5341,6 +5247,7 @@
         "generation_lane": "draft",
         "visual_prompt_intent": "the proof chain shows the coal guild fabricated the debt and diverted the fire system",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -5354,8 +5261,9 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "preparation for the same-audience confrontation, with the original space reset as a trap for truth",
+        "visual_prompt_intent": "the protagonist lays ledger, heat trace, witness statement, and blackened brass oven key in one line",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -5369,8 +5277,9 @@
         "kind": "final_image",
         "duration_seconds": 5.0,
         "generation_lane": "hero",
-        "visual_prompt_intent": "blackened brass oven key visible after the power shift, its meaning altered by: all layers of the proof chain align through blackened brass oven key: object, craft knowledge, timeline, witness, and motive",
+        "visual_prompt_intent": "the emberseed bird child steps forward by choice as the protagonist refuses to claim ownership",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -5384,8 +5293,9 @@
         "kind": "final_image",
         "duration_seconds": 7.0,
         "generation_lane": "hero",
-        "visual_prompt_intent": "blackened brass oven key visible after the power shift, its meaning altered by: all layers of the proof chain align through blackened brass oven key: object, craft knowledge, timeline, witness, and motive",
+        "visual_prompt_intent": "the emberseed bird child steps forward by choice as the protagonist refuses to claim ownership",
         "continuity_dependencies": [
+          "creature_or_child_model_sheet",
           "environment_reference_plate",
           "protagonist_face_and_costume",
           "scene_lighting_palette"
@@ -5399,7 +5309,7 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "the ash floor converted into a communal dawn bakery where guild and non-guild families eat together; the emberseed returns to the volcanic nesting vents after helping reopen the communal ovens; neighbors visibly share or rebuild access to fire",
+        "visual_prompt_intent": "neighbors carry shared fire into the transformed oven space",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "environment_reference_plate",
@@ -5530,7 +5440,7 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "the ash floor converted into a communal dawn bakery where guild and non-guild families eat together; the emberseed returns to the volcanic nesting vents after helping reopen the communal ovens; neighbors visibly share or rebuild access to fire",
+        "visual_prompt_intent": "neighbors carry shared fire into the transformed oven space",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "environment_reference_plate",
@@ -5661,7 +5571,7 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "the ash floor converted into a communal dawn bakery where guild and non-guild families eat together; the emberseed returns to the volcanic nesting vents after helping reopen the communal ovens; neighbors visibly share or rebuild access to fire",
+        "visual_prompt_intent": "neighbors carry shared fire into the transformed oven space",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "environment_reference_plate",
@@ -5792,7 +5702,7 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "the ash floor converted into a communal dawn bakery where guild and non-guild families eat together; the emberseed returns to the volcanic nesting vents after helping reopen the communal ovens; neighbors visibly share or rebuild access to fire",
+        "visual_prompt_intent": "neighbors carry shared fire into the transformed oven space",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "environment_reference_plate",
@@ -5923,7 +5833,7 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "the ash floor converted into a communal dawn bakery where guild and non-guild families eat together; the emberseed returns to the volcanic nesting vents after helping reopen the communal ovens; neighbors visibly share or rebuild access to fire",
+        "visual_prompt_intent": "neighbors carry shared fire into the transformed oven space",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "environment_reference_plate",
@@ -6054,7 +5964,7 @@
         "kind": "establishing",
         "duration_seconds": 6.0,
         "generation_lane": "draft",
-        "visual_prompt_intent": "the ash floor converted into a communal dawn bakery where guild and non-guild families eat together; the emberseed returns to the volcanic nesting vents after helping reopen the communal ovens; neighbors visibly share or rebuild access to fire",
+        "visual_prompt_intent": "neighbors carry shared fire into the transformed oven space",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "environment_reference_plate",
@@ -6070,7 +5980,7 @@
         "kind": "final_image",
         "duration_seconds": 5.0,
         "generation_lane": "hero",
-        "visual_prompt_intent": "blackened brass oven key visible after the power shift, its meaning altered by: the object is used openly in the proof/restoration ritual before the final communal meal or work ritual in the ash floor converted into a communal dawn bakery where guild and non-guild families eat together",
+        "visual_prompt_intent": "the emberseed bird child crosses the home threshold freely while the blackened brass oven key remains open as public proof",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "environment_reference_plate",
@@ -6086,7 +5996,7 @@
         "kind": "final_image",
         "duration_seconds": 9.0,
         "generation_lane": "hero",
-        "visual_prompt_intent": "blackened brass oven key visible after the power shift, its meaning altered by: the object is used openly in the proof/restoration ritual before the final communal meal or work ritual in the ash floor converted into a communal dawn bakery where guild and non-guild families eat together",
+        "visual_prompt_intent": "the emberseed bird child crosses the home threshold freely while the blackened brass oven key remains open as public proof",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "environment_reference_plate",
@@ -6277,12 +6187,12 @@
   "agency_intelligence": {
     "score_0_to_1": 1.0,
     "counts": {
-      "agency_actions": 14,
-      "competence_markers": 5,
+      "agency_actions": 13,
+      "competence_markers": 4,
       "passive_wound_markers": 1,
       "rescue_markers": 4,
       "circular_payoff_markers": 3,
-      "early_agency_actions": 7
+      "early_agency_actions": 8
     },
     "strengths": [
       "protagonist has repeated visible choices/actions rather than only suffering",
@@ -6435,6 +6345,8 @@
       "by choice",
       "choose",
       "chosen",
+      "crosses",
+      "free",
       "home",
       "open",
       "reversible",
@@ -6584,6 +6496,77 @@
     ],
     "warnings": [],
     "craft_rule": "A plot sequel hook may remain, but only after the promised recognition, home, belonging, and community consequence have landed."
+  },
+  "visual_causality": {
+    "score_0_to_1": 1.0,
+    "scene_scores": [
+      {
+        "scene_id": "S01",
+        "score_0_to_1": 1.0,
+        "first_action": true,
+        "final_action": true,
+        "concrete_image": true,
+        "final_image_changes": true
+      },
+      {
+        "scene_id": "S02",
+        "score_0_to_1": 1.0,
+        "first_action": true,
+        "final_action": true,
+        "concrete_image": true,
+        "final_image_changes": true
+      },
+      {
+        "scene_id": "S03",
+        "score_0_to_1": 1.0,
+        "first_action": true,
+        "final_action": true,
+        "concrete_image": true,
+        "final_image_changes": true
+      },
+      {
+        "scene_id": "S04",
+        "score_0_to_1": 1.0,
+        "first_action": true,
+        "final_action": true,
+        "concrete_image": true,
+        "final_image_changes": true
+      },
+      {
+        "scene_id": "S05",
+        "score_0_to_1": 1.0,
+        "first_action": true,
+        "final_action": true,
+        "concrete_image": true,
+        "final_image_changes": true
+      },
+      {
+        "scene_id": "S06",
+        "score_0_to_1": 1.0,
+        "first_action": true,
+        "final_action": true,
+        "concrete_image": true,
+        "final_image_changes": true
+      },
+      {
+        "scene_id": "S07",
+        "score_0_to_1": 1.0,
+        "first_action": true,
+        "final_action": true,
+        "concrete_image": true,
+        "final_image_changes": true
+      },
+      {
+        "scene_id": "S08",
+        "score_0_to_1": 1.0,
+        "first_action": true,
+        "final_action": true,
+        "concrete_image": true,
+        "final_image_changes": true
+      }
+    ],
+    "warnings": [],
+    "doctrine": "Every scene should remain broadly intelligible when muted: visible protector/protected relation, physical action, object/space consequence, and a final image changed by the turn."
   },
   "artifact_presence": {
     "architecture": true,
