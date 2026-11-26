@@ -5,8 +5,8 @@
   "shots": [
     {
       "shot_id": "S07_DS001",
-      "timecode": "0.00-22.29",
-      "duration_seconds": 22.29,
+      "timecode": "0.00-22.61",
+      "duration_seconds": 22.61,
       "scene_id": "S07",
       "shot_size": "wide establishing",
       "camera_intent": "slow push",
@@ -25,8 +25,8 @@
     },
     {
       "shot_id": "S07_DS002",
-      "timecode": "22.29-35.66",
-      "duration_seconds": 13.37,
+      "timecode": "22.61-36.17",
+      "duration_seconds": 13.56,
       "scene_id": "S07",
       "shot_size": "intimate closeup",
       "camera_intent": "settle",
@@ -45,8 +45,8 @@
     },
     {
       "shot_id": "S07_DS003",
-      "timecode": "35.66-49.03",
-      "duration_seconds": 13.37,
+      "timecode": "36.17-49.74",
+      "duration_seconds": 13.56,
       "scene_id": "S07",
       "shot_size": "intimate closeup",
       "camera_intent": "settle",
@@ -65,8 +65,8 @@
     },
     {
       "shot_id": "S07_DS004",
-      "timecode": "49.03-66.68",
-      "duration_seconds": 17.64,
+      "timecode": "49.74-67.63",
+      "duration_seconds": 17.9,
       "scene_id": "S07",
       "shot_size": "action wide",
       "camera_intent": "lateral track",
@@ -85,8 +85,8 @@
     },
     {
       "shot_id": "S07_DS005",
-      "timecode": "66.68-84.32",
-      "duration_seconds": 17.64,
+      "timecode": "67.63-85.53",
+      "duration_seconds": 17.9,
       "scene_id": "S07",
       "shot_size": "action wide",
       "camera_intent": "lateral track",
@@ -105,8 +105,8 @@
     },
     {
       "shot_id": "S07_DS006",
-      "timecode": "84.32-105.12",
-      "duration_seconds": 20.8,
+      "timecode": "85.53-106.63",
+      "duration_seconds": 21.1,
       "scene_id": "S07",
       "shot_size": "power two-shot",
       "camera_intent": "slow tightening",
@@ -125,8 +125,8 @@
     },
     {
       "shot_id": "S07_DS007",
-      "timecode": "105.12-125.92",
-      "duration_seconds": 20.8,
+      "timecode": "106.63-127.73",
+      "duration_seconds": 21.1,
       "scene_id": "S07",
       "shot_size": "power two-shot",
       "camera_intent": "slow tightening",
@@ -145,8 +145,8 @@
     },
     {
       "shot_id": "S07_DS008",
-      "timecode": "125.92-137.44",
-      "duration_seconds": 11.52,
+      "timecode": "127.73-139.41",
+      "duration_seconds": 11.68,
       "scene_id": "S07",
       "shot_size": "pressure insert",
       "camera_intent": "macro",
@@ -165,15 +165,15 @@
     },
     {
       "shot_id": "S07_DS009",
-      "timecode": "137.44-152.67",
-      "duration_seconds": 15.23,
+      "timecode": "139.41-164.66",
+      "duration_seconds": 25.25,
       "scene_id": "S07",
-      "shot_size": "decision closeup",
-      "camera_intent": "static intimate",
-      "visual_action": "the protagonist refuses the shortcut public win",
-      "dialogue": "Return what your papers stole before you ask for trust.",
-      "sound_design": "music drops before decision",
-      "generation_lane": "mid",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "the proof chain shows the coal guild fabricated the debt and diverted the fire system",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
       "continuity_dependencies": [
         "protagonist_face_costume",
         "location_geography",
@@ -181,19 +181,19 @@
         "meaning_carrier_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
     },
     {
       "shot_id": "S07_DS010",
-      "timecode": "152.67-167.90",
-      "duration_seconds": 15.23,
+      "timecode": "164.66-189.91",
+      "duration_seconds": 25.25,
       "scene_id": "S07",
-      "shot_size": "decision closeup",
-      "camera_intent": "static intimate",
-      "visual_action": "present the proof publicly while refusing ownership of the creature as a reward",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "the proof chain shows the coal guild fabricated the debt and diverted the fire system",
       "dialogue": "",
-      "sound_design": "music drops before decision",
-      "generation_lane": "mid",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
       "continuity_dependencies": [
         "protagonist_face_costume",
         "location_geography",
@@ -201,52 +201,12 @@
         "meaning_carrier_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
     },
     {
       "shot_id": "S07_DS011",
-      "timecode": "167.90-192.79",
-      "duration_seconds": 24.89,
-      "scene_id": "S07",
-      "shot_size": "turn wide",
-      "camera_intent": "reframe",
-      "visual_action": "the proof chain shows the coal guild fabricated the debt and diverted the fire system",
-      "dialogue": "",
-      "sound_design": "sound motif shifts",
-      "generation_lane": "hero",
-      "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
-    },
-    {
-      "shot_id": "S07_DS012",
-      "timecode": "192.79-217.67",
-      "duration_seconds": 24.89,
-      "scene_id": "S07",
-      "shot_size": "turn wide",
-      "camera_intent": "reframe",
-      "visual_action": "the proof chain shows the coal guild fabricated the debt and diverted the fire system",
-      "dialogue": "",
-      "sound_design": "sound motif shifts",
-      "generation_lane": "hero",
-      "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
-    },
-    {
-      "shot_id": "S07_DS013",
-      "timecode": "217.67-232.16",
-      "duration_seconds": 14.49,
+      "timecode": "189.91-204.60",
+      "duration_seconds": 14.7,
       "scene_id": "S07",
       "shot_size": "vertical composition",
       "camera_intent": "high or low angle",
@@ -264,9 +224,29 @@
       "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
     },
     {
-      "shot_id": "S07_DS014",
-      "timecode": "232.16-251.66",
-      "duration_seconds": 19.5,
+      "shot_id": "S07_DS012",
+      "timecode": "204.60-219.30",
+      "duration_seconds": 14.7,
+      "scene_id": "S07",
+      "shot_size": "vertical composition",
+      "camera_intent": "high or low angle",
+      "visual_action": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+      "dialogue": "",
+      "sound_design": "negative space",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
+    },
+    {
+      "shot_id": "S07_DS013",
+      "timecode": "219.30-239.08",
+      "duration_seconds": 19.78,
       "scene_id": "S07",
       "shot_size": "subtext two-shot",
       "camera_intent": "slow lateral drift",
@@ -284,15 +264,15 @@
       "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
     },
     {
-      "shot_id": "S07_DS015",
-      "timecode": "251.66-271.16",
-      "duration_seconds": 19.5,
+      "shot_id": "S07_DS014",
+      "timecode": "239.08-254.53",
+      "duration_seconds": 15.45,
       "scene_id": "S07",
-      "shot_size": "subtext two-shot",
-      "camera_intent": "slow lateral drift",
-      "visual_action": "Forgiveness is not owed before conduct changes.",
-      "dialogue": "",
-      "sound_design": "a restrained motif can answer earlier care sounds but must not become triumph before consent repair",
+      "shot_size": "decision closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "the protagonist refuses the shortcut public win",
+      "dialogue": "Return what your papers stole before you ask for trust.",
+      "sound_design": "music drops before decision",
       "generation_lane": "mid",
       "continuity_dependencies": [
         "protagonist_face_costume",
@@ -301,12 +281,32 @@
         "meaning_carrier_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+    },
+    {
+      "shot_id": "S07_DS015",
+      "timecode": "254.53-269.97",
+      "duration_seconds": 15.45,
+      "scene_id": "S07",
+      "shot_size": "decision closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "present the proof publicly while refusing ownership of the creature as a reward",
+      "dialogue": "",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
     },
     {
       "shot_id": "S07_DS016",
-      "timecode": "271.16-288.25",
-      "duration_seconds": 17.09,
+      "timecode": "269.97-287.31",
+      "duration_seconds": 17.33,
       "scene_id": "S07",
       "shot_size": "consequence wide",
       "camera_intent": "backward track",
@@ -325,8 +325,8 @@
     },
     {
       "shot_id": "S07_DS017",
-      "timecode": "288.25-305.34",
-      "duration_seconds": 17.09,
+      "timecode": "287.31-304.64",
+      "duration_seconds": 17.33,
       "scene_id": "S07",
       "shot_size": "consequence wide",
       "camera_intent": "backward track",
@@ -345,8 +345,8 @@
     },
     {
       "shot_id": "S07_DS018",
-      "timecode": "305.34-316.11",
-      "duration_seconds": 10.77,
+      "timecode": "304.64-315.57",
+      "duration_seconds": 10.93,
       "scene_id": "S07",
       "shot_size": "sensory bridge",
       "camera_intent": "insert or detail",
@@ -365,8 +365,8 @@
     },
     {
       "shot_id": "S07_DS019",
-      "timecode": "316.11-326.88",
-      "duration_seconds": 10.77,
+      "timecode": "315.57-326.49",
+      "duration_seconds": 10.93,
       "scene_id": "S07",
       "shot_size": "sensory bridge",
       "camera_intent": "insert or detail",
@@ -385,12 +385,12 @@
     },
     {
       "shot_id": "S07_DS020",
-      "timecode": "326.88-354.00",
-      "duration_seconds": 27.12,
+      "timecode": "326.49-354.00",
+      "duration_seconds": 27.51,
       "scene_id": "S07",
       "shot_size": "final image",
       "camera_intent": "slow pull-back",
-      "visual_action": "the emberseed bird child is allowed to move forward by choice",
+      "visual_action": "the emberseed bird child steps forward by choice as the protagonist refuses to claim ownership",
       "dialogue": "Let her choose. Let the fire answer first.",
       "sound_design": "blackened brass key clicks, ember breath, wing-feather tremor, and oven stone resonance unresolved",
       "generation_lane": "hero",

@@ -2,8 +2,8 @@
   {
     "shot_id": "S04_DS001",
     "scene_id": "S04",
-    "timecode": "0.00-23.04",
-    "duration_seconds": 23.04,
+    "timecode": "0.00-23.40",
+    "duration_seconds": 23.4,
     "generation_lane": "hero",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide establishing; slow push; the protagonist repairs a small oven fault while guild/customer witnesses watch. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -51,8 +51,8 @@
   {
     "shot_id": "S04_DS002",
     "scene_id": "S04",
-    "timecode": "23.04-36.86",
-    "duration_seconds": 13.82,
+    "timecode": "23.40-37.45",
+    "duration_seconds": 14.04,
     "generation_lane": "mid",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. intimate closeup; settle; the protagonist's expression shifts from confidence toward controlled attention when the turn lands. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -100,8 +100,8 @@
   {
     "shot_id": "S04_DS003",
     "scene_id": "S04",
-    "timecode": "36.86-50.68",
-    "duration_seconds": 13.82,
+    "timecode": "37.45-51.49",
+    "duration_seconds": 14.04,
     "generation_lane": "mid",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. intimate closeup; settle; the protagonist's expression shifts from confidence toward controlled attention when the turn lands. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -149,8 +149,8 @@
   {
     "shot_id": "S04_DS004",
     "scene_id": "S04",
-    "timecode": "50.68-68.92",
-    "duration_seconds": 18.24,
+    "timecode": "51.49-70.02",
+    "duration_seconds": 18.53,
     "generation_lane": "draft",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. action wide; lateral track; competence deepens while antagonist reaches for irreversible control. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -198,8 +198,8 @@
   {
     "shot_id": "S04_DS005",
     "scene_id": "S04",
-    "timecode": "68.92-90.42",
-    "duration_seconds": 21.5,
+    "timecode": "70.02-91.86",
+    "duration_seconds": 21.84,
     "generation_lane": "mid",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; slow tightening; competence is reframed as illegality. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -247,8 +247,8 @@
   {
     "shot_id": "S04_DS006",
     "scene_id": "S04",
-    "timecode": "90.42-111.92",
-    "duration_seconds": 21.5,
+    "timecode": "91.86-113.71",
+    "duration_seconds": 21.84,
     "generation_lane": "mid",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; slow tightening; the protagonist's proof literacy threatens the coal guild, which begins separating home, work, and creature. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -296,8 +296,8 @@
   {
     "shot_id": "S04_DS007",
     "scene_id": "S04",
-    "timecode": "111.92-123.82",
-    "duration_seconds": 11.9,
+    "timecode": "113.71-125.80",
+    "duration_seconds": 12.09,
     "generation_lane": "draft",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. pressure insert; macro; the protagonist's proof literacy threatens the coal guild, which begins separating home, work, and creature. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -345,15 +345,15 @@
   {
     "shot_id": "S04_DS008",
     "scene_id": "S04",
-    "timecode": "123.82-139.56",
-    "duration_seconds": 15.74,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; Lio keeps working instead of pleading. Emotional action must remain readable before spectacle.",
+    "timecode": "125.80-151.93",
+    "duration_seconds": 26.13,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. turn wide; reframe; the protagonist's proof literacy threatens the coal guild, which begins separating home, work, and creature. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "static intimate",
-    "dialogue": "One honest customer before you call me a thief.",
-    "audio_direction": "music drops before decision",
-    "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible",
+    "camera_intent": "reframe",
+    "dialogue": "",
+    "audio_direction": "sound motif shifts",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space",
     "continuity_dependencies": [
       "protagonist_face_costume",
       "location_geography",
@@ -394,15 +394,15 @@
   {
     "shot_id": "S04_DS009",
     "scene_id": "S04",
-    "timecode": "139.56-155.31",
-    "duration_seconds": 15.74,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; protect the creature's consent even when selling it would solve the economic wound. Emotional action must remain readable before spectacle.",
+    "timecode": "151.93-178.07",
+    "duration_seconds": 26.13,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. turn wide; reframe; the protagonist's proof literacy threatens the coal guild, which begins separating home, work, and creature. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "static intimate",
+    "camera_intent": "reframe",
     "dialogue": "",
-    "audio_direction": "music drops before decision",
-    "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible",
+    "audio_direction": "sound motif shifts",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space",
     "continuity_dependencies": [
       "protagonist_face_costume",
       "location_geography",
@@ -443,106 +443,8 @@
   {
     "shot_id": "S04_DS010",
     "scene_id": "S04",
-    "timecode": "155.31-181.03",
-    "duration_seconds": 25.72,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. turn wide; reframe; the protagonist's proof literacy threatens the coal guild, which begins separating home, work, and creature. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "reframe",
-    "dialogue": "",
-    "audio_direction": "sound motif shifts",
-    "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space",
-    "continuity_dependencies": [
-      "protagonist_face_costume",
-      "location_geography",
-      "relationship_continuity",
-      "meaning_carrier_continuity",
-      "sound_motif_continuity"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "protagonist_face_costume",
-        "asset_prompt": "continuity reference asset for protagonist_face_costume"
-      },
-      {
-        "dependency": "location_geography",
-        "asset_prompt": "continuity reference asset for location_geography"
-      },
-      {
-        "dependency": "relationship_continuity",
-        "asset_prompt": "continuity reference asset for relationship_continuity"
-      },
-      {
-        "dependency": "meaning_carrier_continuity",
-        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
-      },
-      {
-        "dependency": "sound_motif_continuity",
-        "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S04_DS011",
-    "scene_id": "S04",
-    "timecode": "181.03-206.75",
-    "duration_seconds": 25.72,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. turn wide; reframe; the protagonist's proof literacy threatens the coal guild, which begins separating home, work, and creature. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "reframe",
-    "dialogue": "",
-    "audio_direction": "sound motif shifts",
-    "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space",
-    "continuity_dependencies": [
-      "protagonist_face_costume",
-      "location_geography",
-      "relationship_continuity",
-      "meaning_carrier_continuity",
-      "sound_motif_continuity"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "protagonist_face_costume",
-        "asset_prompt": "continuity reference asset for protagonist_face_costume"
-      },
-      {
-        "dependency": "location_geography",
-        "asset_prompt": "continuity reference asset for location_geography"
-      },
-      {
-        "dependency": "relationship_continuity",
-        "asset_prompt": "continuity reference asset for relationship_continuity"
-      },
-      {
-        "dependency": "meaning_carrier_continuity",
-        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
-      },
-      {
-        "dependency": "sound_motif_continuity",
-        "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S04_DS012",
-    "scene_id": "S04",
-    "timecode": "206.75-221.73",
-    "duration_seconds": 14.97,
+    "timecode": "178.07-193.28",
+    "duration_seconds": 15.21,
     "generation_lane": "draft",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. vertical composition; high or low angle; vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -588,10 +490,59 @@
     ]
   },
   {
-    "shot_id": "S04_DS013",
+    "shot_id": "S04_DS011",
     "scene_id": "S04",
-    "timecode": "221.73-241.88",
-    "duration_seconds": 20.16,
+    "timecode": "193.28-208.49",
+    "duration_seconds": 15.21,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. vertical composition; high or low angle; vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "high or low angle",
+    "dialogue": "",
+    "audio_direction": "negative space",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_DS012",
+    "scene_id": "S04",
+    "timecode": "208.49-228.97",
+    "duration_seconds": 20.48,
     "generation_lane": "mid",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; one practical witness breaks the crowd's certainty. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -637,17 +588,66 @@
     ]
   },
   {
+    "shot_id": "S04_DS013",
+    "scene_id": "S04",
+    "timecode": "228.97-244.96",
+    "duration_seconds": 15.99,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; Lio keeps working instead of pleading. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "static intimate",
+    "dialogue": "One honest customer before you call me a thief.",
+    "audio_direction": "music drops before decision",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
     "shot_id": "S04_DS014",
     "scene_id": "S04",
-    "timecode": "241.88-262.04",
-    "duration_seconds": 20.16,
+    "timecode": "244.96-260.96",
+    "duration_seconds": 15.99,
     "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; Competence threatens people whose power depends on others remaining illegible.. Emotional action must remain readable before spectacle.",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; protect the creature's consent even when selling it would solve the economic wound. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "slow lateral drift",
+    "camera_intent": "static intimate",
     "dialogue": "",
-    "audio_direction": "use sound interruptions to show the antagonist converting competence into threat",
-    "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation",
+    "audio_direction": "music drops before decision",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible",
     "continuity_dependencies": [
       "protagonist_face_costume",
       "location_geography",
@@ -688,8 +688,8 @@
   {
     "shot_id": "S04_DS015",
     "scene_id": "S04",
-    "timecode": "262.04-279.70",
-    "duration_seconds": 17.66,
+    "timecode": "260.96-278.90",
+    "duration_seconds": 17.94,
     "generation_lane": "draft",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. consequence wide; backward track; visible consequence of protect the creature's consent even when selling it would solve the economic wound. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -737,8 +737,8 @@
   {
     "shot_id": "S04_DS016",
     "scene_id": "S04",
-    "timecode": "279.70-290.84",
-    "duration_seconds": 11.13,
+    "timecode": "278.90-290.21",
+    "duration_seconds": 11.31,
     "generation_lane": "draft",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. sensory bridge; insert or detail; she pockets a marked ledger fragment and carries the emberseed bird child away from the offer of sale. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -786,8 +786,8 @@
   {
     "shot_id": "S04_DS017",
     "scene_id": "S04",
-    "timecode": "290.84-301.97",
-    "duration_seconds": 11.13,
+    "timecode": "290.21-301.52",
+    "duration_seconds": 11.31,
     "generation_lane": "draft",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. sensory bridge; insert or detail; she pockets a marked ledger fragment and carries the emberseed bird child away from the offer of sale. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -835,10 +835,10 @@
   {
     "shot_id": "S04_DS018",
     "scene_id": "S04",
-    "timecode": "301.97-330.00",
-    "duration_seconds": 28.03,
+    "timecode": "301.52-330.00",
+    "duration_seconds": 28.48,
     "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final image; slow pull-back; the first heat trace is exposed. Emotional action must remain readable before spectacle.",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final image; slow pull-back; she pockets a marked ledger fragment and carries the emberseed bird child away from the offer of sale. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow pull-back",
     "dialogue": "The oven remembers every hand that opened it.",

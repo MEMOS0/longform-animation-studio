@@ -5,8 +5,8 @@
   "shots": [
     {
       "shot_id": "S05_DS001",
-      "timecode": "0.00-23.04",
-      "duration_seconds": 23.04,
+      "timecode": "0.00-23.40",
+      "duration_seconds": 23.4,
       "scene_id": "S05",
       "shot_size": "wide establishing",
       "camera_intent": "slow push",
@@ -25,8 +25,8 @@
     },
     {
       "shot_id": "S05_DS002",
-      "timecode": "23.04-36.86",
-      "duration_seconds": 13.82,
+      "timecode": "23.40-37.45",
+      "duration_seconds": 14.04,
       "scene_id": "S05",
       "shot_size": "intimate closeup",
       "camera_intent": "settle",
@@ -45,8 +45,8 @@
     },
     {
       "shot_id": "S05_DS003",
-      "timecode": "36.86-50.68",
-      "duration_seconds": 13.82,
+      "timecode": "37.45-51.49",
+      "duration_seconds": 14.04,
       "scene_id": "S05",
       "shot_size": "intimate closeup",
       "camera_intent": "settle",
@@ -65,8 +65,8 @@
     },
     {
       "shot_id": "S05_DS004",
-      "timecode": "50.68-68.92",
-      "duration_seconds": 18.24,
+      "timecode": "51.49-70.02",
+      "duration_seconds": 18.53,
       "scene_id": "S05",
       "shot_size": "action wide",
       "camera_intent": "lateral track",
@@ -85,8 +85,8 @@
     },
     {
       "shot_id": "S05_DS005",
-      "timecode": "68.92-90.42",
-      "duration_seconds": 21.5,
+      "timecode": "70.02-91.86",
+      "duration_seconds": 21.84,
       "scene_id": "S05",
       "shot_size": "power two-shot",
       "camera_intent": "slow tightening",
@@ -105,8 +105,8 @@
     },
     {
       "shot_id": "S05_DS006",
-      "timecode": "90.42-111.92",
-      "duration_seconds": 21.5,
+      "timecode": "91.86-113.71",
+      "duration_seconds": 21.84,
       "scene_id": "S05",
       "shot_size": "power two-shot",
       "camera_intent": "slow tightening",
@@ -125,8 +125,8 @@
     },
     {
       "shot_id": "S05_DS007",
-      "timecode": "111.92-123.82",
-      "duration_seconds": 11.9,
+      "timecode": "113.71-125.80",
+      "duration_seconds": 12.09,
       "scene_id": "S05",
       "shot_size": "pressure insert",
       "camera_intent": "macro",
@@ -145,15 +145,15 @@
     },
     {
       "shot_id": "S05_DS008",
-      "timecode": "123.82-139.56",
-      "duration_seconds": 15.74,
+      "timecode": "125.80-151.93",
+      "duration_seconds": 26.13,
       "scene_id": "S05",
-      "shot_size": "decision closeup",
-      "camera_intent": "static intimate",
-      "visual_action": "Lio shields the creature before defending reputation",
-      "dialogue": "I saved her from you. That isn't theft.",
-      "sound_design": "music drops before decision",
-      "generation_lane": "mid",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
       "continuity_dependencies": [
         "protagonist_face_costume",
         "location_geography",
@@ -161,19 +161,19 @@
         "meaning_carrier_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
     },
     {
       "shot_id": "S05_DS009",
-      "timecode": "139.56-155.31",
-      "duration_seconds": 15.74,
+      "timecode": "151.93-178.07",
+      "duration_seconds": 26.13,
       "scene_id": "S05",
-      "shot_size": "decision closeup",
-      "camera_intent": "static intimate",
-      "visual_action": "defend the truth without exposing the creature to capture",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
       "dialogue": "",
-      "sound_design": "music drops before decision",
-      "generation_lane": "mid",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
       "continuity_dependencies": [
         "protagonist_face_costume",
         "location_geography",
@@ -181,52 +181,12 @@
         "meaning_carrier_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
     },
     {
       "shot_id": "S05_DS010",
-      "timecode": "155.31-181.03",
-      "duration_seconds": 25.72,
-      "scene_id": "S05",
-      "shot_size": "turn wide",
-      "camera_intent": "reframe",
-      "visual_action": "the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
-      "dialogue": "",
-      "sound_design": "sound motif shifts",
-      "generation_lane": "hero",
-      "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
-    },
-    {
-      "shot_id": "S05_DS011",
-      "timecode": "181.03-206.75",
-      "duration_seconds": 25.72,
-      "scene_id": "S05",
-      "shot_size": "turn wide",
-      "camera_intent": "reframe",
-      "visual_action": "the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
-      "dialogue": "",
-      "sound_design": "sound motif shifts",
-      "generation_lane": "hero",
-      "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
-    },
-    {
-      "shot_id": "S05_DS012",
-      "timecode": "206.75-221.73",
-      "duration_seconds": 14.97,
+      "timecode": "178.07-193.28",
+      "duration_seconds": 15.21,
       "scene_id": "S05",
       "shot_size": "vertical composition",
       "camera_intent": "high or low angle",
@@ -244,9 +204,29 @@
       "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
     },
     {
-      "shot_id": "S05_DS013",
-      "timecode": "221.73-241.88",
-      "duration_seconds": 20.16,
+      "shot_id": "S05_DS011",
+      "timecode": "193.28-208.49",
+      "duration_seconds": 15.21,
+      "scene_id": "S05",
+      "shot_size": "vertical composition",
+      "camera_intent": "high or low angle",
+      "visual_action": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+      "dialogue": "",
+      "sound_design": "negative space",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
+    },
+    {
+      "shot_id": "S05_DS012",
+      "timecode": "208.49-228.97",
+      "duration_seconds": 20.48,
       "scene_id": "S05",
       "shot_size": "subtext two-shot",
       "camera_intent": "slow lateral drift",
@@ -264,15 +244,15 @@
       "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
     },
     {
-      "shot_id": "S05_DS014",
-      "timecode": "241.88-262.04",
-      "duration_seconds": 20.16,
+      "shot_id": "S05_DS013",
+      "timecode": "228.97-244.96",
+      "duration_seconds": 15.99,
       "scene_id": "S05",
-      "shot_size": "subtext two-shot",
-      "camera_intent": "slow lateral drift",
-      "visual_action": "Public shame is an attack on identity before it is an attack on facts.",
-      "dialogue": "",
-      "sound_design": "music must withhold resolution during accusation so shame remains spatial and bodily",
+      "shot_size": "decision closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "Lio shields the creature before defending reputation",
+      "dialogue": "I saved her from you. That isn't theft.",
+      "sound_design": "music drops before decision",
       "generation_lane": "mid",
       "continuity_dependencies": [
         "protagonist_face_costume",
@@ -281,12 +261,32 @@
         "meaning_carrier_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+    },
+    {
+      "shot_id": "S05_DS014",
+      "timecode": "244.96-260.96",
+      "duration_seconds": 15.99,
+      "scene_id": "S05",
+      "shot_size": "decision closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "defend the truth without exposing the creature to capture",
+      "dialogue": "",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
     },
     {
       "shot_id": "S05_DS015",
-      "timecode": "262.04-279.70",
-      "duration_seconds": 17.66,
+      "timecode": "260.96-278.90",
+      "duration_seconds": 17.94,
       "scene_id": "S05",
       "shot_size": "consequence wide",
       "camera_intent": "backward track",
@@ -305,8 +305,8 @@
     },
     {
       "shot_id": "S05_DS016",
-      "timecode": "279.70-290.84",
-      "duration_seconds": 11.13,
+      "timecode": "278.90-290.21",
+      "duration_seconds": 11.31,
       "scene_id": "S05",
       "shot_size": "sensory bridge",
       "camera_intent": "insert or detail",
@@ -325,8 +325,8 @@
     },
     {
       "shot_id": "S05_DS017",
-      "timecode": "290.84-301.97",
-      "duration_seconds": 11.13,
+      "timecode": "290.21-301.52",
+      "duration_seconds": 11.31,
       "scene_id": "S05",
       "shot_size": "sensory bridge",
       "camera_intent": "insert or detail",
@@ -345,12 +345,12 @@
     },
     {
       "shot_id": "S05_DS018",
-      "timecode": "301.97-330.00",
-      "duration_seconds": 28.03,
+      "timecode": "301.52-330.00",
+      "duration_seconds": 28.48,
       "scene_id": "S05",
       "shot_size": "final image",
       "camera_intent": "slow pull-back",
-      "visual_action": "the blackened brass oven key passes out of institutional control",
+      "visual_action": "she shields the emberseed bird child with her body while the blackened brass oven key drops beside the exposed ledger seam as evidence",
       "dialogue": "The proof is already beyond your ledger.",
       "sound_design": "blackened brass key clicks, ember breath, wing-feather tremor, and oven stone resonance unresolved",
       "generation_lane": "hero",
