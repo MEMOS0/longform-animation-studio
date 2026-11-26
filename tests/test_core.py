@@ -834,3 +834,13 @@ def test_storyboard_seed_preserves_scripted_final_image():
     final=board['shots'][-1]
     assert final['visual_action']==scene['visual_action']['final_image']
     assert final['dialogue']
+
+
+def test_storyboard_seed_places_power_turn_after_causing_decision():
+    import json
+    from studio.storyboard_seed import build_seed_board
+    scene=json.load(open('examples/stormglass_keepers/scenes/S02.json',encoding='utf8'))
+    board=build_seed_board(scene)
+    decision_idx=next(i for i,s in enumerate(board['shots']) if s['visual_action']==scene['protagonist_decision'])
+    turn_idx=next(i for i,s in enumerate(board['shots']) if s['visual_action']==scene['turn'])
+    assert decision_idx < turn_idx
