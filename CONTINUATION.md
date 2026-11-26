@@ -340,3 +340,20 @@ Immediate next:
 2. Push local commits when appropriate; user has already said CI/review can be ignored.
 3. Continue werewolf/mermaid/zombie/reborn discovery and thumbnail hit/mid/low archives.
 4. Do not spend money/create accounts/public actions.
+
+## 2026-11-26 checkpoint — Spark hit comparison and creature generator
+
+Latest pushed commit: `5a3026e Add Spark hit low sea fantasy comparison`; push succeeded to `devin/1764170700-failure-intelligence-foundation` after the user's explicit instruction to ignore Devin Review. Tests remain 56 passed.
+
+New evidence/system:
+- Spark Shorts 23-video exact metadata archive committed under `data/raw/spark_channel/`; metrics in `data/processed/spark_channel_metrics.json`.
+- `knowledge/market/spark-shorts-hit-low-comparison.md` analyzes hit `FaP_r2awlC8` and compares it with `DG16FsALL9A`/lower rows. Key transfer: bodily stigma/property exploitation + protective bond + spatial conversion into home. FaP is romantic sacrifice epic; DG16 is creature-economic family melodrama.
+- Spark thumbnail archive/montage committed. Packaging hypothesis: intimate relational choice beats generic spectacle clutter; no CTR causality.
+- `creature_economic_melodrama` premise generator is implemented in `studio/premise_generator.py` with `--contract creature_economic_melodrama`. `salt_window_garden` and `emberseed_oven_cart` pass A/B/C/D gates with zero schema errors when paired with director-seed storyboards. Salt production prompts exported; Emberseed export was just generated and may need committing.
+- `romantic_creature_sacrifice_epic` contract added.
+
+Immediate next:
+1. Commit Emberseed prompts and any checkpoint update; push if clean.
+2. Continue low-subscriber breakout discovery (zombie/reborn/werewolf/mermaid) and analyze one counterexample low video deeply enough to avoid survivorship bias.
+3. Improve generated scene dialogue beyond scaffolds; director seeds are validation scaffolds, not final hand-directed boards.
+4. Continue thumbnail hit/mid/low taxonomy across Spark, ELDSAGA, Ironcrest, Epic.
