@@ -1,0 +1,680 @@
+{
+  "video_id": "artArYLREYE",
+  "duration_seconds": 4978,
+  "window_seconds": 300,
+  "total_signal_counts": {
+    "wound_or_humiliation": 64,
+    "care_belonging_protection": 149,
+    "justice_reversal_payoff": 34,
+    "romance_bond_or_coercion": 14,
+    "lore_mythology_density": 14,
+    "threat_or_violence": 63
+  },
+  "first_signal_occurrences": {
+    "wound_or_humiliation": {
+      "time": 478.4,
+      "text": "DIE."
+    },
+    "care_belonging_protection": {
+      "time": 217.64,
+      "text": "Deploy all resources. Save flight 8236."
+    },
+    "justice_reversal_payoff": {
+      "time": 4.96,
+      "text": "Just as I expected. Windshield failure"
+    },
+    "romance_bond_or_coercion": {
+      "time": 1471.56,
+      "text": "DO NOT BELIEVE HER LIES. HER EX-HUSBAND"
+    },
+    "lore_mythology_density": {
+      "time": 277.6,
+      "text": "Approaching Dragon Peak Range range"
+    },
+    "threat_or_violence": {
+      "time": 478.4,
+      "text": "DIE."
+    }
+  },
+  "care_after_wound_latency_seconds": -260.76,
+  "final_10_minutes_signal_counts": {
+    "wound_or_humiliation": 4,
+    "care_belonging_protection": 22,
+    "justice_reversal_payoff": 2,
+    "romance_bond_or_coercion": 2,
+    "lore_mythology_density": 1,
+    "threat_or_violence": 5
+  },
+  "windows": [
+    {
+      "start": 0,
+      "end": 300,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 2,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 445,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.27664782757560413,
+        "saturation": 0.49121588066220284,
+        "colorfulness": 0.41736847460269927,
+        "motion": 0.1820769617209832
+      },
+      "audio": {
+        "rms_mean": 0.057087508216500285,
+        "rms_std": 0.04077534830818574,
+        "silence_ratio": 0.06230031948881789,
+        "onsets_per_second": 5.23
+      },
+      "evidence_snippets": [
+        {
+          "time": 0,
+          "quote": "Hurry! Pull him in! Just as I expected. Windshield failure caused explosive"
+        },
+        {
+          "time": 10,
+          "quote": "Just as I expected. Windshield failure caused explosive decompression. SOMEONE HELP ME!"
+        }
+      ]
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "signal_counts": {
+        "wound_or_humiliation": 4,
+        "care_belonging_protection": 10,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 2,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 627,
+      "shot_boundaries": 27,
+      "visual": {
+        "brightness": 0.317336432573696,
+        "saturation": 0.4934898241360982,
+        "colorfulness": 0.4164262885600329,
+        "motion": 0.186187857799232
+      },
+      "audio": {
+        "rms_mean": 0.05751984001447757,
+        "rms_std": 0.0414658835157752,
+        "silence_ratio": 0.1281150159744409,
+        "onsets_per_second": 5.516666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 300,
+          "quote": "I will. I know how to save everyone. Ethan. What did you"
+        },
+        {
+          "time": 310,
+          "quote": "Ethan, not now. Stop messing around. Mom, I really can save everyone."
+        }
+      ]
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 10,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 702,
+      "shot_boundaries": 29,
+      "visual": {
+        "brightness": 0.30650435962714256,
+        "saturation": 0.4785165252412359,
+        "colorfulness": 0.4010815116204321,
+        "motion": 0.18630708572765192
+      },
+      "audio": {
+        "rms_mean": 0.06388184372335673,
+        "rms_std": 0.05147207298626502,
+        "silence_ratio": 0.1893503727369542,
+        "onsets_per_second": 5.283333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 600,
+          "quote": "become an aviation legend. I endured countless extremes for this one moment."
+        },
+        {
+          "time": 620,
+          "quote": "Come on, cry! Everybody hold on. I TOLD YOU NOT TO TOUCH"
+        }
+      ]
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 9,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 1,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 744,
+      "shot_boundaries": 3,
+      "visual": {
+        "brightness": 0.2935841297327231,
+        "saturation": 0.4562510958313942,
+        "colorfulness": 0.41511652642240127,
+        "motion": 0.16403583667551477
+      },
+      "audio": {
+        "rms_mean": 0.0641756243382891,
+        "rms_std": 0.04847867817928394,
+        "silence_ratio": 0.14036208732694355,
+        "onsets_per_second": 5.98
+      },
+      "evidence_snippets": [
+        {
+          "time": 900,
+          "quote": "Good. Excellent. An eight-year-old saved an out-of-control flight. Report it immediately. Everyone"
+        },
+        {
+          "time": 910,
+          "quote": "An eight-year-old boy saved a passenger jet? Is the source reliable? Absolutely."
+        }
+      ]
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "signal_counts": {
+        "wound_or_humiliation": 12,
+        "care_belonging_protection": 6,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 2,
+        "threat_or_violence": 12
+      },
+      "dialogue_words": 843,
+      "shot_boundaries": 12,
+      "visual": {
+        "brightness": 0.3081246590862671,
+        "saturation": 0.5018636898199718,
+        "colorfulness": 0.4382199891904989,
+        "motion": 0.18217573239157597
+      },
+      "audio": {
+        "rms_mean": 0.06740438230335713,
+        "rms_std": 0.04860096847017606,
+        "silence_ratio": 0.12023429179978701,
+        "onsets_per_second": 5.756666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 1200,
+          "quote": "You dare TREAT A PASSENGER LIKE THIS? ONCE WE LAND, I'LL FILE"
+        },
+        {
+          "time": 1210,
+          "quote": "Dad, we're out of time. No. Absolutely no emergency landing. Sophia. David."
+        }
+      ]
+    },
+    {
+      "start": 1500,
+      "end": 1800,
+      "signal_counts": {
+        "wound_or_humiliation": 9,
+        "care_belonging_protection": 5,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 3,
+        "threat_or_violence": 13
+      },
+      "dialogue_words": 815,
+      "shot_boundaries": 1,
+      "visual": {
+        "brightness": 0.27538386659075814,
+        "saturation": 0.4789640448987484,
+        "colorfulness": 0.4049002165844043,
+        "motion": 0.14809461517259478
+      },
+      "audio": {
+        "rms_mean": 0.06903702119986216,
+        "rms_std": 0.05227464778969685,
+        "silence_ratio": 0.10745473908413206,
+        "onsets_per_second": 5.546666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 1500,
+          "quote": "riot, no one survives. Spare me the excuses. I do not believe"
+        },
+        {
+          "time": 1510,
+          "quote": "Damn it! YOU WANT TO PLAY WITH MY LIFE? GET OUT HERE."
+        }
+      ]
+    },
+    {
+      "start": 1800,
+      "end": 2100,
+      "signal_counts": {
+        "wound_or_humiliation": 1,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 756,
+      "shot_boundaries": 14,
+      "visual": {
+        "brightness": 0.29881290197372434,
+        "saturation": 0.47021527541180447,
+        "colorfulness": 0.4138702341665824,
+        "motion": 0.15494366856602332
+      },
+      "audio": {
+        "rms_mean": 0.06693748819331329,
+        "rms_std": 0.05577545997997125,
+        "silence_ratio": 0.23599574014909477,
+        "onsets_per_second": 5.7266666666666675
+      },
+      "evidence_snippets": [
+        {
+          "time": 1800,
+          "quote": "Chief pursuer, is it really this bad already? This is our only"
+        },
+        {
+          "time": 1810,
+          "quote": "correctly. If we get this plane down safely, I will personally make"
+        }
+      ]
+    },
+    {
+      "start": 2100,
+      "end": 2400,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 15,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 689,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.3275200771043698,
+        "saturation": 0.4219021979222695,
+        "colorfulness": 0.42225602551052965,
+        "motion": 0.15106402892774592
+      },
+      "audio": {
+        "rms_mean": 0.06636380205551783,
+        "rms_std": 0.05200315285474062,
+        "silence_ratio": 0.220234291799787,
+        "onsets_per_second": 4.83
+      },
+      "evidence_snippets": [
+        {
+          "time": 2100,
+          "quote": "All parameters normal. Extend flaps. Accelerate fuel dump. Current fuel 10,000 lb."
+        },
+        {
+          "time": 2110,
+          "quote": "3 minutes and 20 seconds until glide phase. This kid is methodical,"
+        }
+      ]
+    },
+    {
+      "start": 2400,
+      "end": 2700,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 13,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 5
+      },
+      "dialogue_words": 657,
+      "shot_boundaries": 14,
+      "visual": {
+        "brightness": 0.3005521008744836,
+        "saturation": 0.44755547323574624,
+        "colorfulness": 0.4217945984316369,
+        "motion": 0.17977101114888985
+      },
+      "audio": {
+        "rms_mean": 0.06524730343371629,
+        "rms_std": 0.04612080734223127,
+        "silence_ratio": 0.12002129925452608,
+        "onsets_per_second": 5.3533333333333335
+      },
+      "evidence_snippets": [
+        {
+          "time": 2400,
+          "quote": "Ethan, the cabin is ready. You can"
+        },
+        {
+          "time": 2410,
+          "quote": "Ethan, the cabin is ready. You can start. Ethan, copy. Dad, we're"
+        }
+      ]
+    },
+    {
+      "start": 2700,
+      "end": 3000,
+      "signal_counts": {
+        "wound_or_humiliation": 7,
+        "care_belonging_protection": 17,
+        "justice_reversal_payoff": 4,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 821,
+      "shot_boundaries": 2,
+      "visual": {
+        "brightness": 0.34659776325027153,
+        "saturation": 0.4344750983640552,
+        "colorfulness": 0.4686837133641044,
+        "motion": 0.16106788052866858
+      },
+      "audio": {
+        "rms_mean": 0.054280321051677065,
+        "rms_std": 0.048249598033726214,
+        "silence_ratio": 0.266986155484558,
+        "onsets_per_second": 5.996666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 2700,
+          "quote": "Wait. Ethan! David! Thank God, they're alive."
+        },
+        {
+          "time": 2710,
+          "quote": "Thank God, they're alive. Leah, get the doctors. We have two unconscious"
+        }
+      ]
+    },
+    {
+      "start": 3000,
+      "end": 3300,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 9,
+        "justice_reversal_payoff": 5,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 665,
+      "shot_boundaries": 5,
+      "visual": {
+        "brightness": 0.3842543675005436,
+        "saturation": 0.4516295446455479,
+        "colorfulness": 0.5064398122082154,
+        "motion": 0.16251463274626682
+      },
+      "audio": {
+        "rms_mean": 0.07467127821097772,
+        "rms_std": 0.061837150094409786,
+        "silence_ratio": 0.28136315228966985,
+        "onsets_per_second": 5.013333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 3000,
+          "quote": "Of course it's true. It was a life or death moment. My"
+        },
+        {
+          "time": 3010,
+          "quote": "I knew it. An 8-year-old prodigy landing a plane? It had to"
+        }
+      ]
+    },
+    {
+      "start": 3300,
+      "end": 3600,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 8,
+        "justice_reversal_payoff": 5,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 2,
+        "threat_or_violence": 3
+      },
+      "dialogue_words": 878,
+      "shot_boundaries": 1,
+      "visual": {
+        "brightness": 0.3575899855047464,
+        "saturation": 0.47202748397986094,
+        "colorfulness": 0.485283092657725,
+        "motion": 0.1566607774545749
+      },
+      "audio": {
+        "rms_mean": 0.07346369745209813,
+        "rms_std": 0.06137998489042123,
+        "silence_ratio": 0.1987220447284345,
+        "onsets_per_second": 5.486666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 3300,
+          "quote": "Commander, are you certain there has been no mistake? A child could"
+        },
+        {
+          "time": 3310,
+          "quote": "Please join me in welcoming the young hero who created this miracle,"
+        }
+      ]
+    },
+    {
+      "start": 3600,
+      "end": 3900,
+      "signal_counts": {
+        "wound_or_humiliation": 1,
+        "care_belonging_protection": 11,
+        "justice_reversal_payoff": 7,
+        "romance_bond_or_coercion": 4,
+        "lore_mythology_density": 1,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 916,
+      "shot_boundaries": 0,
+      "visual": {
+        "brightness": 0.3549291451275349,
+        "saturation": 0.450088445742925,
+        "colorfulness": 0.4879330308238666,
+        "motion": 0.14718270875203113
+      },
+      "audio": {
+        "rms_mean": 0.055770984198898074,
+        "rms_std": 0.04946378692984581,
+        "silence_ratio": 0.3111821086261981,
+        "onsets_per_second": 5.6433333333333335
+      },
+      "evidence_snippets": [
+        {
+          "time": 3600,
+          "quote": "controlling the airclan? It's not like that. Hello, sir. I'm sorry, but"
+        },
+        {
+          "time": 3610,
+          "quote": "severe physical exhaustion from high-altitude decompression. When is he expected to wake"
+        }
+      ]
+    },
+    {
+      "start": 3900,
+      "end": 4200,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 6,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 7
+      },
+      "dialogue_words": 737,
+      "shot_boundaries": 14,
+      "visual": {
+        "brightness": 0.32664291851222516,
+        "saturation": 0.5231941762069862,
+        "colorfulness": 0.4536550788705548,
+        "motion": 0.1763896872041126
+      },
+      "audio": {
+        "rms_mean": 0.0629024832509458,
+        "rms_std": 0.05616623985891541,
+        "silence_ratio": 0.2653887113951012,
+        "onsets_per_second": 5.02
+      },
+      "evidence_snippets": [
+        {
+          "time": 3900,
+          "quote": "Son, what are you trying to do? Mom, the simulator assessment uses"
+        },
+        {
+          "time": 3910,
+          "quote": "We're guaranteed to win. Then we'll do it your way. A simulator"
+        }
+      ]
+    },
+    {
+      "start": 4200,
+      "end": 4500,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 711,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.3446209462235371,
+        "saturation": 0.4990341408054034,
+        "colorfulness": 0.4605187087506056,
+        "motion": 0.16556873680092393
+      },
+      "audio": {
+        "rms_mean": 0.06010130414118369,
+        "rms_std": 0.050871364508445066,
+        "silence_ratio": 0.25282215122470714,
+        "onsets_per_second": 5.056666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 4200,
+          "quote": "That's impossible. And he still dared to call himself a pilot? He"
+        },
+        {
+          "time": 4210,
+          "quote": "still tried to steal credit. Something is off. Kevin Shaw may only"
+        }
+      ]
+    },
+    {
+      "start": 4500,
+      "end": 4800,
+      "signal_counts": {
+        "wound_or_humiliation": 1,
+        "care_belonging_protection": 17,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 1,
+        "threat_or_violence": 3
+      },
+      "dialogue_words": 889,
+      "shot_boundaries": 0,
+      "visual": {
+        "brightness": 0.35253912523078423,
+        "saturation": 0.43046211024125414,
+        "colorfulness": 0.4897027106334766,
+        "motion": 0.16310114921381078
+      },
+      "audio": {
+        "rms_mean": 0.055811555186907454,
+        "rms_std": 0.047281238436698916,
+        "silence_ratio": 0.2468583599574015,
+        "onsets_per_second": 5.413333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 4500,
+          "quote": "Kevin Shaw his mother relying the whole time. Mom, what do we"
+        },
+        {
+          "time": 4510,
+          "quote": "You lied to me. FAKE! THOSE DATA RECORDS MUST BE FAKE! WHO"
+        }
+      ]
+    },
+    {
+      "start": 4800,
+      "end": 4978,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 576,
+      "shot_boundaries": 2,
+      "visual": {
+        "brightness": 0.3527573293281926,
+        "saturation": 0.4309650842514303,
+        "colorfulness": 0.48533621496624413,
+        "motion": 0.1367961339859499
+      },
+      "audio": {
+        "rms_mean": 0.064512034257253,
+        "rms_std": 0.05725609097215864,
+        "silence_ratio": 0.3035340232557509,
+        "onsets_per_second": 5.637854534126085
+      },
+      "evidence_snippets": [
+        {
+          "time": 4800,
+          "quote": "courage and skill at 8 years old, heroes really do start young."
+        },
+        {
+          "time": 4810,
+          "quote": "Group? Then you are too late. Ethan has already accepted my invitation"
+        }
+      ]
+    }
+  ],
+  "interpretation_boundaries": [
+    "Signal counts measure explicit dialogue language only; they do not prove emotional quality or causality.",
+    "Evidence snippets are short orientation quotes, not a transcript substitute.",
+    "Visual/audio metrics are low-resolution proxies and must be paired with direct viewing."
+  ],
+  "outcome": {
+    "views": 700555,
+    "published_date": "2026-08-13",
+    "age_days_at_snapshot": 106,
+    "views_per_day": 6609.009433962264,
+    "log_views_per_day": 8.796340360070472,
+    "duration_minutes": 82.98333333333333,
+    "snapshot_date": "2026-11-26",
+    "cohort_by_age_adjusted_views": "middle",
+    "archive_log_vpd_median": 7.683511103153724,
+    "q1": 6.5647291773852805,
+    "q3": 9.36042020805592
+  }
+}

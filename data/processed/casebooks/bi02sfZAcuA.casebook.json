@@ -1,0 +1,644 @@
+{
+  "video_id": "bi02sfZAcuA",
+  "duration_seconds": 4648,
+  "window_seconds": 300,
+  "total_signal_counts": {
+    "wound_or_humiliation": 96,
+    "care_belonging_protection": 108,
+    "justice_reversal_payoff": 35,
+    "romance_bond_or_coercion": 55,
+    "lore_mythology_density": 292,
+    "threat_or_violence": 144
+  },
+  "first_signal_occurrences": {
+    "wound_or_humiliation": {
+      "time": 65.16,
+      "text": "don't calm her down now, she'll die."
+    },
+    "care_belonging_protection": {
+      "time": 120.08,
+      "text": "he'd taken such good care of me."
+    },
+    "justice_reversal_payoff": {
+      "time": 243.92,
+      "text": "Special tannic wine from the border does"
+    },
+    "romance_bond_or_coercion": {
+      "time": 37.72,
+      "text": "overestimated what you're worth."
+    },
+    "lore_mythology_density": {
+      "time": 18.88,
+      "text": "Alpha vein."
+    },
+    "threat_or_violence": {
+      "time": 9.52,
+      "text": "Why am I burning up like this?"
+    }
+  },
+  "care_after_wound_latency_seconds": 54.92,
+  "final_10_minutes_signal_counts": {
+    "wound_or_humiliation": 5,
+    "care_belonging_protection": 15,
+    "justice_reversal_payoff": 0,
+    "romance_bond_or_coercion": 8,
+    "lore_mythology_density": 22,
+    "threat_or_violence": 16
+  },
+  "windows": [
+    {
+      "start": 0,
+      "end": 300,
+      "signal_counts": {
+        "wound_or_humiliation": 4,
+        "care_belonging_protection": 6,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 4,
+        "lore_mythology_density": 13,
+        "threat_or_violence": 7
+      },
+      "dialogue_words": 675,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.2478886917233467,
+        "saturation": 0.458688711921374,
+        "colorfulness": 0.3247481952607632,
+        "motion": 0.12796364863713583
+      },
+      "audio": {
+        "rms_mean": 0.07395864256347219,
+        "rms_std": 0.06810082125787933,
+        "silence_ratio": 0.14419595314164005,
+        "onsets_per_second": 4.67
+      },
+      "evidence_snippets": [
+        {
+          "time": 0,
+          "quote": "Through this alley and I'm at the bar. Strange. Why am I"
+        },
+        {
+          "time": 10,
+          "quote": "Strange. Why am I burning up like this? Alpha vein."
+        }
+      ]
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 11,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 17,
+        "threat_or_violence": 6
+      },
+      "dialogue_words": 686,
+      "shot_boundaries": 18,
+      "visual": {
+        "brightness": 0.29653707302175464,
+        "saturation": 0.45785077050328254,
+        "colorfulness": 0.37105762640635176,
+        "motion": 0.1604668740540122
+      },
+      "audio": {
+        "rms_mean": 0.061951168316106,
+        "rms_std": 0.054883865360170606,
+        "silence_ratio": 0.1711395101171459,
+        "onsets_per_second": 4.906666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 300,
+          "quote": "It's me. Father? Weren't you discussing border affairs with the elders in"
+        },
+        {
+          "time": 310,
+          "quote": "with the elders in the hall? What are you doing down here?"
+        }
+      ]
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "signal_counts": {
+        "wound_or_humiliation": 11,
+        "care_belonging_protection": 7,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 8,
+        "lore_mythology_density": 18,
+        "threat_or_violence": 9
+      },
+      "dialogue_words": 637,
+      "shot_boundaries": 16,
+      "visual": {
+        "brightness": 0.37511691519059237,
+        "saturation": 0.3178680814802647,
+        "colorfulness": 0.3977296789363027,
+        "motion": 0.1697644894508024
+      },
+      "audio": {
+        "rms_mean": 0.06227365871891379,
+        "rms_std": 0.055791455879807474,
+        "silence_ratio": 0.1926517571884984,
+        "onsets_per_second": 4.633333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 600,
+          "quote": "bloodline? So what if your pheromones outrank mine? You're worthless. Who here"
+        },
+        {
+          "time": 620,
+          "quote": "The Alpha."
+        }
+      ]
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "signal_counts": {
+        "wound_or_humiliation": 8,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 8,
+        "lore_mythology_density": 42,
+        "threat_or_violence": 21
+      },
+      "dialogue_words": 944,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.31048006653785704,
+        "saturation": 0.3997194266319275,
+        "colorfulness": 0.3769893580923478,
+        "motion": 0.12691835295098525
+      },
+      "audio": {
+        "rms_mean": 0.0801103925332427,
+        "rms_std": 0.06048305340421697,
+        "silence_ratio": 0.1255591054313099,
+        "onsets_per_second": 5.67
+      },
+      "evidence_snippets": [
+        {
+          "time": 900,
+          "quote": "fiance right out from under me. Elena landed the Alpha himself? What"
+        },
+        {
+          "time": 910,
+          "quote": "What do you mean? Well, I noticed a while back that Elena"
+        }
+      ]
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 5,
+        "lore_mythology_density": 35,
+        "threat_or_violence": 7
+      },
+      "dialogue_words": 850,
+      "shot_boundaries": 3,
+      "visual": {
+        "brightness": 0.274125953912735,
+        "saturation": 0.36107582286000256,
+        "colorfulness": 0.36420626379549503,
+        "motion": 0.13452722773266335
+      },
+      "audio": {
+        "rms_mean": 0.08615072270234427,
+        "rms_std": 0.06919156132886807,
+        "silence_ratio": 0.19275825346112888,
+        "onsets_per_second": 5.033333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 1200,
+          "quote": "[clears throat] From this day forward, the wolf clan will have no"
+        },
+        {
+          "time": 1210,
+          "quote": "Are you all right? Are you all right? I'm fine. [snorts] You're"
+        }
+      ]
+    },
+    {
+      "start": 1500,
+      "end": 1800,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 7,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 5,
+        "lore_mythology_density": 14,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 894,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.2710669455925624,
+        "saturation": 0.4641505846381187,
+        "colorfulness": 0.34391522146761416,
+        "motion": 0.13985745286879442
+      },
+      "audio": {
+        "rms_mean": 0.08592584667106469,
+        "rms_std": 0.06659346572123467,
+        "silence_ratio": 0.208839190628328,
+        "onsets_per_second": 5.17
+      },
+      "evidence_snippets": [
+        {
+          "time": 1500,
+          "quote": "Then we'll see you at the hearing."
+        },
+        {
+          "time": 1520,
+          "quote": "You're back. I heard Heard what? That my father's getting ripped apart"
+        }
+      ]
+    },
+    {
+      "start": 1800,
+      "end": 2100,
+      "signal_counts": {
+        "wound_or_humiliation": 1,
+        "care_belonging_protection": 11,
+        "justice_reversal_payoff": 6,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 46,
+        "threat_or_violence": 7
+      },
+      "dialogue_words": 936,
+      "shot_boundaries": 5,
+      "visual": {
+        "brightness": 0.23644783267751335,
+        "saturation": 0.29468973199526466,
+        "colorfulness": 0.32361938863992695,
+        "motion": 0.10233055658328037
+      },
+      "audio": {
+        "rms_mean": 0.06177622247487306,
+        "rms_std": 0.05287605971097946,
+        "silence_ratio": 0.22321618743343982,
+        "onsets_per_second": 5.406666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 1800,
+          "quote": "Get the evidence ready. At the impeachment, I'll make Marcus answer for"
+        },
+        {
+          "time": 1810,
+          "quote": "The Alpha said he'd respond today about that girl. So, why isn't"
+        }
+      ]
+    },
+    {
+      "start": 2100,
+      "end": 2400,
+      "signal_counts": {
+        "wound_or_humiliation": 8,
+        "care_belonging_protection": 14,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 22,
+        "threat_or_violence": 12
+      },
+      "dialogue_words": 899,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.2627669829626878,
+        "saturation": 0.3930165736625592,
+        "colorfulness": 0.3438760051131248,
+        "motion": 0.12512134179162482
+      },
+      "audio": {
+        "rms_mean": 0.06570080934713284,
+        "rms_std": 0.05856118245671193,
+        "silence_ratio": 0.20777422790202343,
+        "onsets_per_second": 5.6899999999999995
+      },
+      "evidence_snippets": [
+        {
+          "time": 2100,
+          "quote": "he met me, he never looked down on me because of where"
+        },
+        {
+          "time": 2110,
+          "quote": "That's the smell of blood moon herb. She took a forbidden drug."
+        }
+      ]
+    },
+    {
+      "start": 2400,
+      "end": 2700,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 9,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 15,
+        "threat_or_violence": 7
+      },
+      "dialogue_words": 737,
+      "shot_boundaries": 11,
+      "visual": {
+        "brightness": 0.31787484836764635,
+        "saturation": 0.4894525243341923,
+        "colorfulness": 0.3580020245164633,
+        "motion": 0.138722686295708
+      },
+      "audio": {
+        "rms_mean": 0.062431153779228525,
+        "rms_std": 0.05680790312277774,
+        "silence_ratio": 0.25889243876464324,
+        "onsets_per_second": 5.09
+      },
+      "evidence_snippets": [
+        {
+          "time": 2400,
+          "quote": "those children today. You're thanking me for them? So, how are you"
+        },
+        {
+          "time": 2410,
+          "quote": "I'm the Alpha. Their safety should be my responsibility. But, Marcus has"
+        }
+      ]
+    },
+    {
+      "start": 2700,
+      "end": 3000,
+      "signal_counts": {
+        "wound_or_humiliation": 7,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 14,
+        "threat_or_violence": 13
+      },
+      "dialogue_words": 643,
+      "shot_boundaries": 12,
+      "visual": {
+        "brightness": 0.26586126946533717,
+        "saturation": 0.4237095103164514,
+        "colorfulness": 0.34456510631988446,
+        "motion": 0.13869758064548174
+      },
+      "audio": {
+        "rms_mean": 0.06196013192335765,
+        "rms_std": 0.0493381858492891,
+        "silence_ratio": 0.17784877529286475,
+        "onsets_per_second": 4.833333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 2700,
+          "quote": "but for silver moon blood, this is a once-in-a-thousand-years opportunity. What do"
+        },
+        {
+          "time": 2710,
+          "quote": "the seal inside her. If we guide it with the sacred spring's"
+        }
+      ]
+    },
+    {
+      "start": 3000,
+      "end": 3300,
+      "signal_counts": {
+        "wound_or_humiliation": 13,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 5,
+        "lore_mythology_density": 4,
+        "threat_or_violence": 5
+      },
+      "dialogue_words": 625,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.24351865357408922,
+        "saturation": 0.40488574609160427,
+        "colorfulness": 0.32241934354106583,
+        "motion": 0.14173351723700764
+      },
+      "audio": {
+        "rms_mean": 0.0646951058258613,
+        "rms_std": 0.05473737128389378,
+        "silence_ratio": 0.18519701810436637,
+        "onsets_per_second": 5.526666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 3000,
+          "quote": "Something's wrong. I haven't seen Damon anywhere since this war began. Why"
+        },
+        {
+          "time": 3010,
+          "quote": "it's on the rebels? Could it be? No wonder the rebels know"
+        }
+      ]
+    },
+    {
+      "start": 3300,
+      "end": 3600,
+      "signal_counts": {
+        "wound_or_humiliation": 16,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 6,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 5,
+        "threat_or_violence": 16
+      },
+      "dialogue_words": 459,
+      "shot_boundaries": 5,
+      "visual": {
+        "brightness": 0.21737786242738366,
+        "saturation": 0.4031093031167984,
+        "colorfulness": 0.3200552505751451,
+        "motion": 0.1305918385523061
+      },
+      "audio": {
+        "rms_mean": 0.04885465667272607,
+        "rms_std": 0.0498256235383451,
+        "silence_ratio": 0.2776357827476038,
+        "onsets_per_second": 5.066666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 3300,
+          "quote": "Vane. Coming alone to save your woman? I have to admit I"
+        },
+        {
+          "time": 3310,
+          "quote": "Vane. 10 years ago you beat me and drove me out of"
+        }
+      ]
+    },
+    {
+      "start": 3600,
+      "end": 3900,
+      "signal_counts": {
+        "wound_or_humiliation": 7,
+        "care_belonging_protection": 8,
+        "justice_reversal_payoff": 4,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 16,
+        "threat_or_violence": 13
+      },
+      "dialogue_words": 860,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.29721054373929895,
+        "saturation": 0.4199959756930669,
+        "colorfulness": 0.3228787568087379,
+        "motion": 0.13541042496450245
+      },
+      "audio": {
+        "rms_mean": 0.08168770583967368,
+        "rms_std": 0.0663419651798904,
+        "silence_ratio": 0.21096911608093716,
+        "onsets_per_second": 5.3
+      },
+      "evidence_snippets": [
+        {
+          "time": 3600,
+          "quote": "Who said you're my son? Alpha, what did you just say? Father,"
+        },
+        {
+          "time": 3610,
+          "quote": "No. You are not my son. YOU'RE LYING! YOU'RE SAYING THIS JUST"
+        }
+      ]
+    },
+    {
+      "start": 3900,
+      "end": 4200,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 7,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 7,
+        "lore_mythology_density": 19,
+        "threat_or_violence": 7
+      },
+      "dialogue_words": 580,
+      "shot_boundaries": 12,
+      "visual": {
+        "brightness": 0.30761166878044605,
+        "saturation": 0.3427358049402634,
+        "colorfulness": 0.3587007665013273,
+        "motion": 0.1450341864054402
+      },
+      "audio": {
+        "rms_mean": 0.05642953541440268,
+        "rms_std": 0.05629773968830705,
+        "silence_ratio": 0.27806176783812564,
+        "onsets_per_second": 4.19
+      },
+      "evidence_snippets": [
+        {
+          "time": 3900,
+          "quote": "Why would I be embarrassed? You're my Luna. Asking the High Priestess"
+        },
+        {
+          "time": 3910,
+          "quote": "Ah."
+        }
+      ]
+    },
+    {
+      "start": 4200,
+      "end": 4500,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 7,
+        "threat_or_violence": 9
+      },
+      "dialogue_words": 532,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.2840558824688196,
+        "saturation": 0.39348304202159246,
+        "colorfulness": 0.3348793688292305,
+        "motion": 0.14860653361926476
+      },
+      "audio": {
+        "rms_mean": 0.04960384288181861,
+        "rms_std": 0.051708782402177654,
+        "silence_ratio": 0.17912673056443026,
+        "onsets_per_second": 4.54
+      },
+      "evidence_snippets": [
+        {
+          "time": 4200,
+          "quote": "Beat me, and I'll leave. Lose, and you marry me. You really"
+        },
+        {
+          "time": 4230,
+          "quote": "[laughter] Only a man like that deserves me. Vane, the more you"
+        }
+      ]
+    },
+    {
+      "start": 4500,
+      "end": 4648,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 10,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 5,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 240,
+      "shot_boundaries": 8,
+      "visual": {
+        "brightness": 0.3084191011885802,
+        "saturation": 0.3760432697832584,
+        "colorfulness": 0.3410821289817492,
+        "motion": 0.16941502053911486
+      },
+      "audio": {
+        "rms_mean": 0.04776865361879269,
+        "rms_std": 0.045789276746412116,
+        "silence_ratio": 0.14976837060702877,
+        "onsets_per_second": 4.746848897773789
+      },
+      "evidence_snippets": [
+        {
+          "time": 4510,
+          "quote": "Boss. They have too many men. WE'RE SURROUNDED. CAN'T HOLD. The others"
+        },
+        {
+          "time": 4520,
+          "quote": "Hold the line. Hold as long AS YOU CAN. [laughter] VAIN, YOUR"
+        }
+      ]
+    }
+  ],
+  "interpretation_boundaries": [
+    "Signal counts measure explicit dialogue language only; they do not prove emotional quality or causality.",
+    "Evidence snippets are short orientation quotes, not a transcript substitute.",
+    "Visual/audio metrics are low-resolution proxies and must be paired with direct viewing."
+  ],
+  "outcome": {
+    "views": 14370,
+    "published_date": "2026-10-23",
+    "age_days_at_snapshot": 35,
+    "views_per_day": 410.57142857142856,
+    "log_views_per_day": 6.019982586029215,
+    "duration_minutes": 77.46666666666667,
+    "snapshot_date": "2026-11-26",
+    "cohort_by_age_adjusted_views": "underperforming",
+    "archive_log_vpd_median": 7.683511103153724,
+    "q1": 6.5647291773852805,
+    "q3": 9.36042020805592
+  }
+}

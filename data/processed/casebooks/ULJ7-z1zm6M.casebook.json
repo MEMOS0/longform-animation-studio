@@ -1,0 +1,644 @@
+{
+  "video_id": "ULJ7-z1zm6M",
+  "duration_seconds": 4764,
+  "window_seconds": 300,
+  "total_signal_counts": {
+    "wound_or_humiliation": 41,
+    "care_belonging_protection": 200,
+    "justice_reversal_payoff": 44,
+    "romance_bond_or_coercion": 5,
+    "lore_mythology_density": 69,
+    "threat_or_violence": 41
+  },
+  "first_signal_occurrences": {
+    "wound_or_humiliation": {
+      "time": 104.9,
+      "text": "Why are her clothes so filthy?"
+    },
+    "care_belonging_protection": {
+      "time": 45.9,
+      "text": "HOME."
+    },
+    "justice_reversal_payoff": {
+      "time": 67.0,
+      "text": "skinny. You need to eat more. The wind's"
+    },
+    "romance_bond_or_coercion": {
+      "time": 521.697,
+      "text": "If I take a new one, mine might get sad."
+    },
+    "lore_mythology_density": {
+      "time": 10.1,
+      "text": "dragons."
+    },
+    "threat_or_violence": {
+      "time": 79.4,
+      "text": "It's warm."
+    }
+  },
+  "care_after_wound_latency_seconds": -59.00000000000001,
+  "final_10_minutes_signal_counts": {
+    "wound_or_humiliation": 5,
+    "care_belonging_protection": 40,
+    "justice_reversal_payoff": 13,
+    "romance_bond_or_coercion": 0,
+    "lore_mythology_density": 5,
+    "threat_or_violence": 9
+  },
+  "windows": [
+    {
+      "start": 0,
+      "end": 300,
+      "signal_counts": {
+        "wound_or_humiliation": 8,
+        "care_belonging_protection": 31,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 11,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 787,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.3787293894340594,
+        "saturation": 0.20377388902008534,
+        "colorfulness": 0.37696548043439787,
+        "motion": 0.17520608073721328
+      },
+      "audio": {
+        "rms_mean": 0.06910732388496399,
+        "rms_std": 0.0505071397870779,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.126666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 0,
+          "quote": "The Reeces are one of the richest families around here. I heard"
+        },
+        {
+          "time": 10,
+          "quote": "families around here. I heard that even do business with the dragons."
+        }
+      ]
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 20,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 4,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 552,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.34329410433769225,
+        "saturation": 0.27480359815061095,
+        "colorfulness": 0.35796463077267016,
+        "motion": 0.1670407160806159
+      },
+      "audio": {
+        "rms_mean": 0.058025605293611685,
+        "rms_std": 0.0464799332122008,
+        "silence_ratio": 0.20468583599574017,
+        "onsets_per_second": 4.133333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 300,
+          "quote": "calm little sister, not a child who looks like she's always getting"
+        },
+        {
+          "time": 310,
+          "quote": "What's wrong? Grace, there's something I need to tell"
+        }
+      ]
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "signal_counts": {
+        "wound_or_humiliation": 4,
+        "care_belonging_protection": 10,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 2,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 577,
+      "shot_boundaries": 2,
+      "visual": {
+        "brightness": 0.36879793395598726,
+        "saturation": 0.29605276813109715,
+        "colorfulness": 0.3651981984078884,
+        "motion": 0.15937146227185925
+      },
+      "audio": {
+        "rms_mean": 0.038202855891237654,
+        "rms_std": 0.039064420759677886,
+        "silence_ratio": 0.2172523961661342,
+        "onsets_per_second": 4.069999999999999
+      },
+      "evidence_snippets": [
+        {
+          "time": 600,
+          "quote": "Little sister? Yeah, our little sister. You can't just bring some random"
+        },
+        {
+          "time": 610,
+          "quote": "Go get changed first. Okay."
+        }
+      ]
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "signal_counts": {
+        "wound_or_humiliation": 1,
+        "care_belonging_protection": 16,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 2,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 838,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.24782785235593716,
+        "saturation": 0.3583396376421054,
+        "colorfulness": 0.26191331225136916,
+        "motion": 0.12133761106835057
+      },
+      "audio": {
+        "rms_mean": 0.047405935886005564,
+        "rms_std": 0.038118994298080605,
+        "silence_ratio": 0.2050053248136315,
+        "onsets_per_second": 4.716666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 900,
+          "quote": "It's only basic healing magic. It can't fix my legs, but she's"
+        },
+        {
+          "time": 910,
+          "quote": "Wow. That's so cool."
+        }
+      ]
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 4,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 769,
+      "shot_boundaries": 2,
+      "visual": {
+        "brightness": 0.2132789864639441,
+        "saturation": 0.3469040263195833,
+        "colorfulness": 0.256463043615222,
+        "motion": 0.09955608456085126
+      },
+      "audio": {
+        "rms_mean": 0.04268650229399403,
+        "rms_std": 0.03816926460713148,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 4.83
+      },
+      "evidence_snippets": [
+        {
+          "time": 1200,
+          "quote": "Am I going to be sent away? No. No one is sending"
+        },
+        {
+          "time": 1210,
+          "quote": "Okay. [sighs] Grace, nobody thinks you did anything wrong. She really thought"
+        }
+      ]
+    },
+    {
+      "start": 1500,
+      "end": 1800,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 2,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 429,
+      "shot_boundaries": 4,
+      "visual": {
+        "brightness": 0.24064820170402526,
+        "saturation": 0.39998300005992254,
+        "colorfulness": 0.27546766474843026,
+        "motion": 0.11440343713387846
+      },
+      "audio": {
+        "rms_mean": 0.04386725071817636,
+        "rms_std": 0.03780185418824355,
+        "silence_ratio": 0.2053248136315229,
+        "onsets_per_second": 4.993333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 1500,
+          "quote": "Felix, what exactly is going on? I should keep her magic a"
+        },
+        {
+          "time": 1510,
+          "quote": "Maybe I've just been happier lately. Maybe that's why I'm recovering faster."
+        }
+      ]
+    },
+    {
+      "start": 1800,
+      "end": 2100,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 15,
+        "justice_reversal_payoff": 4,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 833,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.39301338396966456,
+        "saturation": 0.329471570700407,
+        "colorfulness": 0.3568910387655099,
+        "motion": 0.1675354031721751
+      },
+      "audio": {
+        "rms_mean": 0.04985198297848304,
+        "rms_std": 0.04116491960982482,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 5.1066666666666665
+      },
+      "evidence_snippets": [
+        {
+          "time": 1800,
+          "quote": "They they're not brushing me off. They're not ignoring me just because"
+        },
+        {
+          "time": 1810,
+          "quote": "Lucy, happy birthday. I drew this all by myself. Grace, you really"
+        }
+      ]
+    },
+    {
+      "start": 2100,
+      "end": 2400,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 11,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 5,
+        "threat_or_violence": 9
+      },
+      "dialogue_words": 609,
+      "shot_boundaries": 5,
+      "visual": {
+        "brightness": 0.22698459245885413,
+        "saturation": 0.44642487982908885,
+        "colorfulness": 0.2881380365540584,
+        "motion": 0.13889515299350025
+      },
+      "audio": {
+        "rms_mean": 0.044672624518473945,
+        "rms_std": 0.03651978181054195,
+        "silence_ratio": 0.20543130990415337,
+        "onsets_per_second": 4.3966666666666665
+      },
+      "evidence_snippets": [
+        {
+          "time": 2100,
+          "quote": "Why does she get everything? Grace is stupid. She can't do anything."
+        },
+        {
+          "time": 2110,
+          "quote": "her? It's fine. It's fine. Sooner or later, the Rhodes family will"
+        }
+      ]
+    },
+    {
+      "start": 2400,
+      "end": 2700,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 9,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 14,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 589,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.1638234886713326,
+        "saturation": 0.5197893449664116,
+        "colorfulness": 0.23808188358942667,
+        "motion": 0.09560644448424378
+      },
+      "audio": {
+        "rms_mean": 0.044006349580983324,
+        "rms_std": 0.038459479622542855,
+        "silence_ratio": 0.2012779552715655,
+        "onsets_per_second": 3.8766666666666665
+      },
+      "evidence_snippets": [
+        {
+          "time": 2400,
+          "quote": "[panting] SOMEONE! HELP! [screaming]"
+        },
+        {
+          "time": 2410,
+          "quote": "WHAT HAPPENED? SHE SHE USED MAGIC TO HEAL me and then She"
+        }
+      ]
+    },
+    {
+      "start": 2700,
+      "end": 3000,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 7,
+        "justice_reversal_payoff": 4,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 8,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 480,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.32098207029203574,
+        "saturation": 0.3369060608744621,
+        "colorfulness": 0.3556830869118373,
+        "motion": 0.15431229872318605
+      },
+      "audio": {
+        "rms_mean": 0.0380551361789306,
+        "rms_std": 0.03547666538506746,
+        "silence_ratio": 0.23056443024494142,
+        "onsets_per_second": 4.04
+      },
+      "evidence_snippets": [
+        {
+          "time": 2700,
+          "quote": "Fine. I'll remember her. If she ever wants to learn magic, she"
+        },
+        {
+          "time": 2710,
+          "quote": "Thank you, Evelyn."
+        }
+      ]
+    },
+    {
+      "start": 3000,
+      "end": 3300,
+      "signal_counts": {
+        "wound_or_humiliation": 4,
+        "care_belonging_protection": 10,
+        "justice_reversal_payoff": 5,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 1,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 439,
+      "shot_boundaries": 19,
+      "visual": {
+        "brightness": 0.40296117395162584,
+        "saturation": 0.2568205386276047,
+        "colorfulness": 0.363176296154658,
+        "motion": 0.17959618972614408
+      },
+      "audio": {
+        "rms_mean": 0.0456067418679595,
+        "rms_std": 0.03997533079236746,
+        "silence_ratio": 0.22066027689030884,
+        "onsets_per_second": 3.7766666666666664
+      },
+      "evidence_snippets": [
+        {
+          "time": 3000,
+          "quote": "injured. When he woke up, he could no longer stand. That last"
+        },
+        {
+          "time": 3010,
+          "quote": "Felix, your legs have only just I know, but I want to"
+        }
+      ]
+    },
+    {
+      "start": 3300,
+      "end": 3600,
+      "signal_counts": {
+        "wound_or_humiliation": 1,
+        "care_belonging_protection": 5,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 5,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 595,
+      "shot_boundaries": 28,
+      "visual": {
+        "brightness": 0.36973380734523137,
+        "saturation": 0.2623660136759281,
+        "colorfulness": 0.3560413528233767,
+        "motion": 0.16864371536920467
+      },
+      "audio": {
+        "rms_mean": 0.038596703034515185,
+        "rms_std": 0.0344922127124543,
+        "silence_ratio": 0.2766773162939297,
+        "onsets_per_second": 3.966666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 3300,
+          "quote": "Don't tell me you actually think that tripled brother of yours can"
+        },
+        {
+          "time": 3310,
+          "quote": "You're so naive. Just don't cry when your brother loses. Grace, come"
+        }
+      ]
+    },
+    {
+      "start": 3600,
+      "end": 3900,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 13,
+        "justice_reversal_payoff": 11,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 6,
+        "threat_or_violence": 5
+      },
+      "dialogue_words": 823,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.3156033831462264,
+        "saturation": 0.27066739981373156,
+        "colorfulness": 0.33509073841075104,
+        "motion": 0.13133296413347126
+      },
+      "audio": {
+        "rms_mean": 0.05712224344412486,
+        "rms_std": 0.042818761554857095,
+        "silence_ratio": 0.21150159744408947,
+        "onsets_per_second": 5.513333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 3600,
+          "quote": "And now I'll announce the winner. Will Owen win? He won the"
+        },
+        {
+          "time": 3610,
+          "quote": "Will Owen win? He won the last flying race. I think he'll"
+        }
+      ]
+    },
+    {
+      "start": 3900,
+      "end": 4200,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 11,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 694,
+      "shot_boundaries": 2,
+      "visual": {
+        "brightness": 0.35309820468227066,
+        "saturation": 0.3200756732622782,
+        "colorfulness": 0.3522765746712685,
+        "motion": 0.13962416767453154
+      },
+      "audio": {
+        "rms_mean": 0.04544443947573503,
+        "rms_std": 0.048637273348867895,
+        "silence_ratio": 0.24611288604898832,
+        "onsets_per_second": 4.076666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 3900,
+          "quote": "you? Feeling proud of yourself now? You won. Satisfied? Three years ago,"
+        },
+        {
+          "time": 3910,
+          "quote": "Owen, you did this to yourself. FELIX, STOP. FELIX. WAS I WRONG?"
+        }
+      ]
+    },
+    {
+      "start": 4200,
+      "end": 4500,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 18,
+        "justice_reversal_payoff": 12,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 2,
+        "threat_or_violence": 8
+      },
+      "dialogue_words": 863,
+      "shot_boundaries": 12,
+      "visual": {
+        "brightness": 0.2966792967667182,
+        "saturation": 0.3272626165797313,
+        "colorfulness": 0.33297349681456884,
+        "motion": 0.1525398697083195
+      },
+      "audio": {
+        "rms_mean": 0.05714660600448648,
+        "rms_std": 0.052007300592958924,
+        "silence_ratio": 0.24845580404685835,
+        "onsets_per_second": 4.3933333333333335
+      },
+      "evidence_snippets": [
+        {
+          "time": 4200,
+          "quote": "Try not to be so naughty. Okay, Grandpa. See, Grace? No matter"
+        },
+        {
+          "time": 4210,
+          "quote": "See, Grace? No matter how hard you try, you'll never be as"
+        }
+      ]
+    },
+    {
+      "start": 4500,
+      "end": 4764,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 19,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 3,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 604,
+      "shot_boundaries": 14,
+      "visual": {
+        "brightness": 0.2755231650546193,
+        "saturation": 0.3622519589132733,
+        "colorfulness": 0.31413630920427815,
+        "motion": 0.16230598439083058
+      },
+      "audio": {
+        "rms_mean": 0.049580304650589824,
+        "rms_std": 0.04859591325469039,
+        "silence_ratio": 0.28826316412258907,
+        "onsets_per_second": 4.2431132057417935
+      },
+      "evidence_snippets": [
+        {
+          "time": 4500,
+          "quote": "Mrs. Reese was falsely accusing Grace too. I had no idea she"
+        },
+        {
+          "time": 4510,
+          "quote": "everything, so why does she get to live in a beautiful home"
+        }
+      ]
+    }
+  ],
+  "interpretation_boundaries": [
+    "Signal counts measure explicit dialogue language only; they do not prove emotional quality or causality.",
+    "Evidence snippets are short orientation quotes, not a transcript substitute.",
+    "Visual/audio metrics are low-resolution proxies and must be paired with direct viewing."
+  ],
+  "outcome": {
+    "views": 1126469,
+    "published_date": "2026-11-16",
+    "age_days_at_snapshot": 11,
+    "views_per_day": 102406.27272727272,
+    "log_views_per_day": 11.536713011792823,
+    "duration_minutes": 79.4,
+    "snapshot_date": "2026-11-26",
+    "cohort_by_age_adjusted_views": "outperforming",
+    "archive_log_vpd_median": 7.683511103153724,
+    "q1": 6.5647291773852805,
+    "q3": 9.36042020805592
+  }
+}
