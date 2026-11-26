@@ -8,6 +8,7 @@ from __future__ import annotations
 import argparse
 import concurrent.futures
 import json
+import re
 import shutil
 import time
 import urllib.request
@@ -17,6 +18,11 @@ from urllib.parse import urlparse
 API = "https://maxtube-api.lawrie.co.nz"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/131 Safari/537.36"
 ALLOWED_MEDIA_HOSTS = {"maxtube-proxy.lawrie.co.nz", "www.youtube.com"}
+
+
+def safe_filename_component(value: str, fallback: str = "unknown") -> str:
+    cleaned = re.sub(r"[^A-Za-z0-9_-]+", "_", str(value)).strip("_")[:80]
+    return cleaned or fallback
 
 
 def validate_media_url(url: str) -> str:
@@ -106,6 +112,7 @@ def download_ranged(url: str, target: Path, content_length: int, workers: int = 
 
 
 def fetch_one(video_id: str, media_dir: Path, raw_dir: Path, skip_media: bool = False) -> dict:
+    video_id = safe_filename_component(video_id)
     raw_dir.mkdir(parents=True, exist_ok=True)
     media_dir.mkdir(parents=True, exist_ok=True)
     meta_path = raw_dir / f"{video_id}.piped.json"
@@ -127,7 +134,7 @@ def fetch_one(video_id: str, media_dir: Path, raw_dir: Path, skip_media: bool = 
             chosen_subtitle = sorted(subtitles, key=subtitle_rank)[0]
             subtitle_url = chosen_subtitle.get("url")
             if subtitle_url:
-                suffix = (chosen_subtitle.get("code") or "unknown").lower()
+                suffix = safe_filename_component((chosen_subtitle.get("code") or "unknown").lower())
                 sub_path = download_file(validate_media_url(subtitle_url), raw_dir / f"{video_id}.{suffix}.ttml")
                 result["subtitle_path"] = str(sub_path)
                 result["subtitle_language"] = chosen_subtitle.get("code")

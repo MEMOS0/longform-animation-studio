@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 import time
 import urllib.request
@@ -13,6 +14,15 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from studio.thumbnail_intelligence import analyze_thumbnail, write_index
 
 UA = {"User-Agent": "Mozilla/5.0 longform-animation-studio research"}
+
+
+def safe_filename_component(value: str, fallback: str = "unknown") -> str:
+    cleaned = re.sub(r"[^A-Za-z0-9_-]+", "_", str(value)).strip("_")[:80]
+    return cleaned or fallback
+
+
+def valid_video_id(value: str) -> bool:
+    return bool(re.fullmatch(r"[A-Za-z0-9_-]{6,40}", str(value or "")))
 
 
 def fetch(url: str, timeout: int = 30) -> bytes:
@@ -54,7 +64,13 @@ def main() -> None:
         vid = row.get("video_id") or row.get("id")
         if not vid:
             continue
-        channel = (row.get("channel") or row.get("channel_title") or row.get("uploader") or "unknown").lower().replace(" ", "_").replace("|", "").replace("/", "_")
+        if not valid_video_id(vid):
+            record = dict(row)
+            record["video_id"] = vid
+            record["download_error"] = "invalid unsafe video id"
+            out.append(record)
+            continue
+        channel = safe_filename_component((row.get("channel") or row.get("channel_title") or row.get("uploader") or "unknown").lower())
         path, quality = download_one(vid, Path(args.output_root) / channel)
         record = dict(row)
         record["video_id"] = vid
