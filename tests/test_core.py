@@ -178,3 +178,9 @@ def test_meaning_carrier_explicit_passes_and_missing_fails():
     weak = evaluate_meaning_carrier({"opening_event": {"first_10_seconds": "abstract royal politics"}}, {})
     assert weak["score_0_to_1"] < 1.0
     assert weak["warnings"]
+
+def test_relational_contract_gate():
+    from studio.relational_contract import evaluate_relational_contract
+    good = {"relational_contract": {"power_asymmetry": "x", "safety_or_kindness_before_power": "she protects him before knowing his power", "costly_protagonist_action": "x", "consent_or_personhood_repair": "he is free to choose", "payoff_image": "shared home"}}
+    assert evaluate_relational_contract(good)["score_0_to_1"] == 1.0
+    assert evaluate_relational_contract({})["warnings"]

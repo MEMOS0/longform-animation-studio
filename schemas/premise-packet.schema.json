@@ -215,6 +215,26 @@
           "type": "string"
         }
       }
+    },
+    "relational_contract": {
+      "type": "object",
+      "properties": {
+        "power_asymmetry": {
+          "type": "string"
+        },
+        "safety_or_kindness_before_power": {
+          "type": "string"
+        },
+        "costly_protagonist_action": {
+          "type": "string"
+        },
+        "consent_or_personhood_repair": {
+          "type": "string"
+        },
+        "payoff_image": {
+          "type": "string"
+        }
+      }
     }
   }
 }

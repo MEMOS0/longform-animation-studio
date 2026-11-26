@@ -7226,7 +7226,7 @@
   "agency_intelligence": {
     "score_0_to_1": 1.0,
     "counts": {
-      "agency_actions": 11,
+      "agency_actions": 12,
       "competence_markers": 3,
       "passive_wound_markers": 0,
       "rescue_markers": 4,
@@ -7364,6 +7364,18 @@
     "score_0_to_1": 1.0,
     "warnings": [],
     "craft_rule": "A physical object, space, sound-object, or ritual should carry the wound in the opening and return with changed meaning in the payoff."
+  },
+  "relational_contract_intelligence": {
+    "score_0_to_1": 1.0,
+    "fields": {
+      "power_asymmetry": "The navy can weaponize the dragon child through pain, while Mira alone understands that safety controls its stormcall.",
+      "safety_or_kindness_before_power": "Mira frees and shields the child before she knows whether it can help her, and calms it through care rather than command.",
+      "costly_protagonist_action": "She exposes her hidden identity, loses her refuge, spends her last royal token on villagers, and enters the vault publicly.",
+      "consent_or_personhood_repair": "She refuses to use the child even to win; the creatures remain free by treaty, and trust replaces command.",
+      "payoff_image": "child and parent fly freely through a sunlit stormglass arch while Mira chooses communal coastal belonging over rank"
+    },
+    "warnings": [],
+    "craft_rule": "Power-asymmetric relationships are strongest when safety or costly kindness precedes power, and the ending repairs consent/personhood rather than rewarding coercion."
   },
   "artifact_presence": {
     "architecture": true,
