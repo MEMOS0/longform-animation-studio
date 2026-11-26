@@ -808,3 +808,16 @@ def test_storyboard_seed_falls_back_to_key_lines_without_spoken_exchange():
     assert 'pressure line' in dialogue
     assert 'decision line' in dialogue
     assert 'objection line' in dialogue
+
+
+def test_storyboard_seed_places_witness_objection_before_decision():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.storyboard_seed import build_seed_board
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    scene=generate_scenes(premise,generate_architecture(premise))[5]
+    board=build_seed_board(scene)
+    witness_idx=next(i for i,s in enumerate(board['shots']) if 'one pair of hands carries it' in s['dialogue'])
+    decision_idx=next(i for i,s in enumerate(board['shots']) if 'Help me carry it' in s['dialogue'])
+    assert witness_idx < decision_idx
