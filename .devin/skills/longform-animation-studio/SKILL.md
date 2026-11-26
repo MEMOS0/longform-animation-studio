@@ -191,6 +191,19 @@ Required workflow:
 
 Channel-specific mechanisms outrank generic advice. Nov Drama’s luminous vulnerability/protection packaging should not be blindly imposed on horror, sci-fi, or franchise creature cinema.
 
+## Cross-channel and format segmentation protocol
+
+Before applying any market pattern, classify the product first: vertical microdrama episode, horizontal episodic drama, complete-season compilation, 15–30 minute short feature, 30–60 minute feature, 60–120 minute feature, long compilation, trailer, or off-format/meta upload. Do not compare unlike formats directly.
+
+Current cross-channel mechanism hierarchy:
+
+1. **Most portable:** legible injustice + vulnerable child/creature/person + credible protection + early visual payoff. Evidence converges across Nov Drama, Ironcrest, and Epic’s baby-dragon/mother-dragon hits.
+2. **Strong but channel-fit dependent:** hidden royal identity, transformation/rebirth, mythic adventure, revenge, creature spectacle, disaster survival, sci-fi mystery.
+3. **Usually insufficient alone:** scale, lore, army battles, crown politics, high visual polish, franchise continuity, or a “movie-like” label.
+4. **Format-specific:** serial cliffhangers belong to episodic systems; complete-film emotional payoff belongs to feature systems; compilation packaging must sell completeness and binge value.
+
+Use `knowledge/market/data-source-and-format-audit.md`, `knowledge/market/epic-ai-films-site-analysis.md`, and `knowledge/market/ironcrest-deep-dive.md` before cross-channel creative decisions.
+
 ## Failure intelligence protocol
 
 Before greenlighting:
