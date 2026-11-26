@@ -263,3 +263,31 @@ Critical caution:
 - Contact-sheet evidence is sampled visual inspection, not continuous frame-by-frame human viewing. Label it accordingly.
 - No CTR/retention/impressions/traffic data; views/day are discovery indicators, not causal proof.
 - Never treat exact duplicate titles as same content; subtitle fingerprint comparison remains required.
+
+## 2026-11-26 checkpoint — full Stormglass boards and hit/low media expansion
+
+Latest pushed commit before this checkpoint: check `git log --oneline -5`; important recent commits include exact S01-S08 storyboards, storyboard coverage gate validation, same-channel hit/low media analysis, thumbnail hit/low archive, compressed-format doctrine, and fifth-pass evidence. Tests latest known: 49 passed.
+
+Completed since fifth-pass checkpoint:
+
+1. Fifth-pass evidence integrated; `NHAHR3v9La8` analyzed as compressed misunderstood-nonhuman-family tragedy.
+2. `misunderstood_nonhuman_family` contract synchronized into both channel contract JSON files.
+3. Fifth-pass thumbnail archive and same-channel hit/low thumbnail comparison created under `thumbnail_intelligence/reference_library/`.
+4. Same-channel hit/low media analysis completed in `knowledge/market/fifthpass-hitlow-media-comparison.md` with evidence in `evidence/research/hitlow_media_analysis/`:
+   - Epicverse giant-father hit vs abstract military/monster-fight lows.
+   - Giant snake low falsifies “slow opening” explanation: creature action is immediate but emotionally flat.
+   - Rust Saint low is not proof of weak story: strong memory/love engine but likely packaging/sequel/language friction.
+   - Aethernal Act II hit vs Act I slower atmospheric adult-expedition opening; same franchise but different emotional contract.
+5. Failure intelligence now has machine patterns for creature-action-without-relational-bond and procedural-mission-without-emotional-payoff.
+6. Exact continuous storyboards S01-S08 exist and validate. S06 covers full 420 seconds; S07 420; S08 360; hero lanes within warning threshold.
+7. Project evaluation now auto-detects storyboards, validates exact coverage, and Stormglass gates A-D pass. Production/release remain unknown until generated media/release metadata exist.
+8. Thumbnail concept generation now produces creature-protection-specific misunderstood-child-personhood and public-hunt-protection alternatives; Stormglass has 4 concepts.
+9. Recent breakout discovery refreshed: 75 candidates, 58 strong. Important new/unanalyzed low-subscriber candidates include `TKUd7hWPMD8` (maid floor/daughter social-test reversal, 1,280 subs), `or5RI5v_lHw` (abandoned wife/customer billionaire compressed melodrama, 1,330 subs), `62vBW1_B92Y` (Christian reversal, 6,160 subs), and others in `data/processed/recent_breakout_candidates.json`.
+
+Immediate next steps:
+
+1. Finish current `or5RI5v_lHw` download/analysis in `C:/Users/Administrator/sixthpass_media` and `sixthpass_analysis`; copy derived evidence into repo. It is a compressed 16:06 hidden-billionaire/customer melodrama breakout from 1,330-subscriber DRAMORA.
+2. Handle any new Devin Review findings. Beware control-character escaping when editing regexes through shell; use raw strings/edit tool and scan for bytes <32.
+3. Consider analyzing `TKUd7hWPMD8` next for circular floor/food humiliation and child allyship social-test mechanism.
+4. Continue validating storyboard quality creatively, not only mechanically; consider generating reference frames only if no spending/accounts are required.
+5. Keep evidence committed. Never treat contact sheets as continuous human viewing; no CTR/retention causality claims.
