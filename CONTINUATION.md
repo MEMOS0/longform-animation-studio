@@ -433,3 +433,11 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - Regenerated production prompts after synchronization; generated projects still pass A/B/C/D with zero dialogue/sound warnings and visual causality 1.0.
 - Latest local test state at this checkpoint: 86 passed.
 
+
+## 2026-11-27 storyboard-review + PrimeFate checkpoint
+
+- Review findings fixed on PR #2: key-line fallback for screenplays without spoken exchanges; witness-objection now precedes protagonist decision; scripted final images are preserved while evidence dialogue remains. Tests: 92 passed.
+- Latest code/artifact commit before this checkpoint: `371b62f` (`Collect PrimeFate breakout reference evidence`). Active branch remains `devin/1764820000-creature-production-deepening`.
+- PrimeFate partial evidence is now committed: channel archive metadata, hit/target/medium/low thumbnails, flat metrics, and `TKfoKnpHpsw` clean transcript. Still incomplete: contact-sheet/seconds/timeline regeneration and timestamped comparative markdown analysis.
+- External full media remains outside repo in `C:/Users/Administrator/evidence_tmp/TKfoKnpHpsw.webm`; do not commit full video. Regenerate derived contact sheets and inspect them before making strong claims.
+- Important status: review fixes validated locally; a new Devin Review round may be running or queued. Do not treat review as blocking creative research unless concrete findings arrive.
