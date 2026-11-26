@@ -238,3 +238,12 @@ def test_relational_contract_allows_past_coercion_contrasted_with_repair():
     assert not evaluate_relational_contract(good)["warnings"]
     bad={"relational_contract":{"power_asymmetry":"x","safety_or_kindness_before_power":"she feeds him before knowing his status","costly_protagonist_action":"x","consent_or_personhood_repair":"he is not free to choose","payoff_image":"shared home"}}
     assert any("explicitly denies" in w for w in evaluate_relational_contract(bad)["warnings"])
+
+
+def test_relational_contract_interprets_afterward_and_initially_correctly():
+    from studio.relational_contract import evaluate_relational_contract
+    base={"power_asymmetry":"x","costly_protagonist_action":"x","consent_or_personhood_repair":"he is free to choose","payoff_image":"shared home"}
+    afterward=dict(base,safety_or_kindness_before_power="she feeds him; only afterward does she learn he is king")
+    assert not any("after the power" in w or "temporally explicit" in w for w in evaluate_relational_contract({"relational_contract": afterward})["warnings"])
+    late=dict(base,safety_or_kindness_before_power="she initially avoids him; after learning he is king, she protects him")
+    assert any("after the power or identity reveal" in w for w in evaluate_relational_contract({"relational_contract": late})["warnings"])

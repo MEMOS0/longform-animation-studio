@@ -17,6 +17,30 @@ PAST_MARKERS = ["once", "at first", "opening", "before", "previously", "used to"
 CONTRAST_MARKERS = ["but", "however", "then", "later", "finally", "ultimately", "now", "becomes", "restores", "restored", "this time"]
 
 
+
+AFTER_REVEAL_PATTERNS = [
+    "after learning", "after discovering", "after knowing", "after the reveal", "after his power is revealed",
+    "after her power is revealed", "after their power is revealed", "once she knows", "once he knows",
+    "once they know", "when she learns", "when he learns", "when they learn",
+]
+BEFORE_REVEAL_PATTERNS = [
+    "before knowing", "before learning", "before discovering", "before she knows", "before he knows",
+    "before they know", "before the reveal", "before his power", "before her power", "before their power",
+    "without knowing", "unaware", "not knowing", "prior to knowing", "prior to learning", "prior to the reveal",
+    "only afterward does she learn", "only afterward does he learn", "only afterward do they learn",
+    "only afterward she learns", "only afterward he learns", "only afterward they learn",
+    "only afterward is his identity revealed", "only afterward is her identity revealed", "only afterward is the identity revealed",
+]
+
+
+def kindness_is_after_reveal(text: str) -> bool:
+    return any(pattern in text for pattern in AFTER_REVEAL_PATTERNS)
+
+
+def kindness_is_before_power(text: str) -> bool:
+    return any(pattern in text for pattern in BEFORE_REVEAL_PATTERNS)
+
+
 def denial_is_unresolved(text: str) -> bool:
     for term in DENIAL_TERMS:
         start = text.find(term)
@@ -59,7 +83,9 @@ def evaluate_relational_contract(premise: dict[str, Any]) -> dict[str, Any]:
     safety = str(explicit.get("safety_or_kindness_before_power", "")).lower()
     repair = str(explicit.get("consent_or_personhood_repair", "")).lower()
     payoff = str(explicit.get("payoff_image", "")).lower()
-    if safety and not any(term in safety for term in ["before", "first", "without knowing", "before knowing", "prior to", "initially", "unaware"]):
+    if safety and kindness_is_after_reveal(safety):
+        warnings.append("safety/kindness happens after the power or identity reveal")
+    elif safety and not kindness_is_before_power(safety):
         warnings.append("safety/kindness before power is not temporally explicit")
     if repair and denial_is_unresolved(repair):
         warnings.append("consent/personhood repair explicitly denies choice or freedom")
