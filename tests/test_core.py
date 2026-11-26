@@ -631,3 +631,11 @@ def test_closure_integrity_aftermath_question_presupposes_actual_collapse():
     from studio.closure_integrity import evaluate_closure_integrity
     arch={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"What happens after the array collapses?"}]}
     assert any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},arch,[])['warnings'])
+
+
+def test_visual_causality_flags_abstract_scenes_and_rewards_physical_action():
+    from studio.visual_causality import evaluate_visual_causality
+    abstract=[{"scene_id":"S01","visual_action":{"first_image":"power shifts emotionally","final_image":"meaning changes"}}]
+    physical=[{"scene_id":"S01","visual_action":{"first_image":"the child crosses the pump yard and hides behind the woman","final_image":"the vial opens the gate as neighbors share water"}}]
+    assert evaluate_visual_causality(abstract)['score_0_to_1'] < evaluate_visual_causality(physical)['score_0_to_1']
+    assert evaluate_visual_causality(abstract)['warnings']

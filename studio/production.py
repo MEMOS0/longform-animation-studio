@@ -22,6 +22,7 @@ from .meaning_carrier import evaluate_meaning_carrier
 from .relational_contract import evaluate_relational_contract
 from .spatial_status import evaluate_spatial_status
 from .closure_integrity import evaluate_closure_integrity
+from .visual_causality import evaluate_visual_causality
 from .storyboard import validate_storyboard_file
 
 REPO_SCHEMA_DIR = Path(__file__).resolve().parents[1] / "schemas"
@@ -281,6 +282,7 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "relational_contract_intelligence": evaluate_relational_contract(premise),
         "spatial_status_intelligence": evaluate_spatial_status(premise, architecture, scenes),
         "closure_integrity": evaluate_closure_integrity(premise, architecture, scenes),
+        "visual_causality": evaluate_visual_causality(scenes),
         "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes), "storyboards": len(boards)},
         "gates": gate_report(schema_errors, failure, scene_report, architecture_report, bool(architecture), bool(scenes), board_report),
     }
