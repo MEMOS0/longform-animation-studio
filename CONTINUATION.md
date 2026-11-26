@@ -254,7 +254,7 @@ Immediate next steps:
 1. Handle any new Devin Review findings. Do not let NLP heuristic edge-case whack-a-mole consume the whole session; if findings become unbounded, prefer conservative warnings or explicit structured annotations rather than pretending perfect English parsing.
 2. Deepen exact boards S06+ or critically review S03-S05 quality. Existing exact boards S01-S05 valid. Continue if useful, but creative quality review matters more than mechanical count.
 3. Integrate fifth-pass misunderstood-personhood compressed contract into `knowledge/market/channel_contracts.json`, `studio/package_data/channel_contracts.json`, and possibly project evaluation gates. Keep both files synchronized.
-4. Expand Thumbnail Intelligence for fifth-pass channels (Epicverse, Aethernal, Lioren, The Queen's Monster channel) with original images/metadata and hit/low comparisons.
+4. Thumbnail Intelligence fifth-pass originals/metadata now exist under `thumbnail_intelligence/reference_library/fifthpass_breakouts/` with `analysis.md`; next expand to hit/low comparisons inside each channel rather than only hit thumbnails.
 5. Continue broader market discovery, especially last 7-14 day low-subscriber breakouts. Preserve raw metadata under `data/raw/` and derived evidence under `evidence/research/`; do not leave key evidence only on VM.
 6. No spending, accounts, public/admin actions, or irreversible external actions without explicit user approval. User said do not stop and do not ask permission for ordinary internal repo/research work.
 
