@@ -90,3 +90,12 @@ def test_opening_conversion_detects_admin_drag():
     assert weak["warnings"]
     strong = opening_conversion_quality({"opening_event": {"first_5_minutes": "A mocked child is threatened by bullies, then a protective father rescues her and promises truth and belonging."}})
     assert not strong["warnings"]
+
+
+def test_shot_pipeline_builds_lanes_and_ratio():
+    from studio.shot_pipeline import build_shot_plan
+    scenes = [{"scene_id": "S01", "time_range": "0-5 minutes", "objective": "protect the dragon child", "conflict": "soldiers attack", "turn": "creature reveal", "protagonist_decision": "shield it", "visual_action": {"first_image": "creature in danger", "face_reaction": "fear", "final_image": "public dragon reveal"}}]
+    plan = build_shot_plan(scenes, 5)
+    assert plan["shot_count"] == 5
+    assert plan["planned_generated_to_final_ratio"] > 0
+    assert any(shot["generation_lane"] == "hero" for shot in plan["shots"])

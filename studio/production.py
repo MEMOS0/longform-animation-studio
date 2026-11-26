@@ -12,6 +12,7 @@ from .failure_intelligence import evaluate_candidate
 from .format_strategy import format_strategy
 from .channel_contracts import evaluate_channel_fit
 from .production_economics import estimate_video_budget
+from .shot_pipeline import build_shot_plan
 
 SCHEMA_DIR = Path(__file__).resolve().parents[1] / "schemas"
 
@@ -169,5 +170,6 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "opening_conversion_quality": opening_conversion_quality(premise),
         "channel_contract_fit": evaluate_channel_fit(combined, premise.get("channel_contract", "")),
         "production_economics": estimate_video_budget(premise.get("target_minutes")),
+        "shot_pipeline": build_shot_plan(scenes, premise.get("target_minutes")) if scenes else {"shot_count": 0, "warnings": ["no scenes supplied"]},
         "gates": gate_report(schema_errors, failure, scene_report, architecture_report),
     }

@@ -295,6 +295,647 @@
     ],
     "evidence": "knowledge/production/video-generation-provider-audit.md"
   },
+  "shot_pipeline": {
+    "shot_count": 40,
+    "planned_generated_seconds": 176.0,
+    "estimated_final_seconds": 2880.0,
+    "planned_generated_to_final_ratio": 0.0611,
+    "lane_counts": {
+      "draft": 14,
+      "mid": 11,
+      "hero": 15
+    },
+    "lane_seconds": {
+      "draft": 48.0,
+      "mid": 61.0,
+      "hero": 67.0
+    },
+    "shots": [
+      {
+        "shot_id": "S01_SHOT01",
+        "scene_id": "S01",
+        "kind": "establishing",
+        "duration_seconds": 4.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "a weighted net sinking into black water",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true
+      },
+      {
+        "shot_id": "S01_SHOT02",
+        "scene_id": "S01",
+        "kind": "face_reaction",
+        "duration_seconds": 3.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "Mira's face hardens when she recognizes the royal brand",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true
+      },
+      {
+        "shot_id": "S01_SHOT03",
+        "scene_id": "S01",
+        "kind": "dialogue_action",
+        "duration_seconds": 6.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "free the child without being identified navy soldiers close in while the child's panic endangers everyone",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S01_SHOT04",
+        "scene_id": "S01",
+        "kind": "power_transition",
+        "duration_seconds": 5.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "she cuts the net and shields the child with her body Mira becomes the child's protector at the cost of exposure",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S01_SHOT05",
+        "scene_id": "S01",
+        "kind": "final_image",
+        "duration_seconds": 4.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "first stormglass wall reflecting soldiers in fractured blue light",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S02_SHOT01",
+        "scene_id": "S02",
+        "kind": "establishing",
+        "duration_seconds": 4.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "lantern ships sweeping wet cliffs",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true
+      },
+      {
+        "shot_id": "S02_SHOT02",
+        "scene_id": "S02",
+        "kind": "face_reaction",
+        "duration_seconds": 3.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the child watches Mira hum, fear softening",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true
+      },
+      {
+        "shot_id": "S02_SHOT03",
+        "scene_id": "S02",
+        "kind": "dialogue_action",
+        "duration_seconds": 6.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "escape the lighthouse before the bounty party arrives the child cannot control fear and the soldiers have Mira's scar description",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S02_SHOT04",
+        "scene_id": "S02",
+        "kind": "power_transition",
+        "duration_seconds": 5.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "she destroys the lighthouse ledger that could reveal the villagers Mira gives up her safe cover",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S02_SHOT05",
+        "scene_id": "S02",
+        "kind": "final_image",
+        "duration_seconds": 4.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "child curled inside Mira's coat as the lighthouse collapses behind them",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S03_SHOT01",
+        "scene_id": "S03",
+        "kind": "establishing",
+        "duration_seconds": 4.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the child hissing at a metal cup",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true
+      },
+      {
+        "shot_id": "S03_SHOT02",
+        "scene_id": "S03",
+        "kind": "face_reaction",
+        "duration_seconds": 3.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "Mira's pain flashes but she stays still",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true
+      },
+      {
+        "shot_id": "S03_SHOT03",
+        "scene_id": "S03",
+        "kind": "dialogue_action",
+        "duration_seconds": 6.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "earn the child's trust enough to feed it metal triggers captivity panic and Tam wants to sell information",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S03_SHOT04",
+        "scene_id": "S03",
+        "kind": "power_transition",
+        "duration_seconds": 5.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "Mira removes her gloves and accepts the bite the child chooses contact with Mira",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S03_SHOT05",
+        "scene_id": "S03",
+        "kind": "final_image",
+        "duration_seconds": 4.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "memory-light reveals Admiral Rook at the nursery fire",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S04_SHOT01",
+        "scene_id": "S04",
+        "kind": "establishing",
+        "duration_seconds": 4.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "stormglass shards pulsing with crowd fear",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true
+      },
+      {
+        "shot_id": "S04_SHOT02",
+        "scene_id": "S04",
+        "kind": "face_reaction",
+        "duration_seconds": 3.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "elder Ilsa shifts from suspicion to witness",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true
+      },
+      {
+        "shot_id": "S04_SHOT03",
+        "scene_id": "S04",
+        "kind": "dialogue_action",
+        "duration_seconds": 6.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "evacuate villagers before the navy arrives neighbors fear the bounty and the child reacts to collective fear",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S04_SHOT04",
+        "scene_id": "S04",
+        "kind": "power_transition",
+        "duration_seconds": 5.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "Mira trades her royal token for evacuation boats the village becomes involved in the stakes",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S04_SHOT05",
+        "scene_id": "S04",
+        "kind": "final_image",
+        "duration_seconds": 4.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "lantern evacuation lines vanish into dark water as warships arrive",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S05_SHOT01",
+        "scene_id": "S05",
+        "kind": "establishing",
+        "duration_seconds": 4.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "iron doors closing over blue scale-light",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true
+      },
+      {
+        "shot_id": "S05_SHOT02",
+        "scene_id": "S05",
+        "kind": "face_reaction",
+        "duration_seconds": 3.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "Tam avoids Mira's eyes, hiding the copied key",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true
+      },
+      {
+        "shot_id": "S05_SHOT03",
+        "scene_id": "S05",
+        "kind": "dialogue_action",
+        "duration_seconds": 6.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "protect the child during capture Tam appears to betray them and the iron chamber intensifies the child's terror",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S05_SHOT04",
+        "scene_id": "S05",
+        "kind": "power_transition",
+        "duration_seconds": 5.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "Mira covers the child rather than escaping alone the protection story becomes a weaponization crisis",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S05_SHOT05",
+        "scene_id": "S05",
+        "kind": "final_image",
+        "duration_seconds": 4.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "the chamber wall cracks with each terrified creature cry",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S06_SHOT01",
+        "scene_id": "S06",
+        "kind": "establishing",
+        "duration_seconds": 4.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "copied key turning in a wet lock",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true
+      },
+      {
+        "shot_id": "S06_SHOT02",
+        "scene_id": "S06",
+        "kind": "face_reaction",
+        "duration_seconds": 3.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "Mira sees Tam take a whip blow meant for the child",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true
+      },
+      {
+        "shot_id": "S06_SHOT03",
+        "scene_id": "S06",
+        "kind": "dialogue_action",
+        "duration_seconds": 6.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "escape while testing whether Tam can be trusted Mira must free other creatures before the ship locks down",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S06_SHOT04",
+        "scene_id": "S06",
+        "kind": "power_transition",
+        "duration_seconds": 5.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "Mira accepts Tam's key but not yet his apology rescue expands from one child to all captive creatures",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S06_SHOT05",
+        "scene_id": "S06",
+        "kind": "final_image",
+        "duration_seconds": 4.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "freed creatures streaming through storm-lit canals",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S07_SHOT01",
+        "scene_id": "S07",
+        "kind": "establishing",
+        "duration_seconds": 4.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "a giant storm eye opening above the capital",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true
+      },
+      {
+        "shot_id": "S07_SHOT02",
+        "scene_id": "S07",
+        "kind": "face_reaction",
+        "duration_seconds": 3.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the child's face answering the parent's call",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true
+      },
+      {
+        "shot_id": "S07_SHOT03",
+        "scene_id": "S07",
+        "kind": "dialogue_action",
+        "duration_seconds": 6.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "expose Rook and stop the weaponized storm channel the parent creature is chained beneath the vault and the capital is watching",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S07_SHOT04",
+        "scene_id": "S07",
+        "kind": "power_transition",
+        "duration_seconds": 5.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "Mira steps into the vault rather than escaping private protection becomes public truth",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S07_SHOT05",
+        "scene_id": "S07",
+        "kind": "final_image",
+        "duration_seconds": 4.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "total silence as child and parent hear each other",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S08_SHOT01",
+        "scene_id": "S08",
+        "kind": "establishing",
+        "duration_seconds": 4.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "Rook reaching for the control chain",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true
+      },
+      {
+        "shot_id": "S08_SHOT02",
+        "scene_id": "S08",
+        "kind": "face_reaction",
+        "duration_seconds": 3.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the king's certainty breaks as memory-proof appears",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true
+      },
+      {
+        "shot_id": "S08_SHOT03",
+        "scene_id": "S08",
+        "kind": "dialogue_action",
+        "duration_seconds": 6.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "end the weaponization logic rather than merely win using the child's power could defeat Rook but repeat the same violence",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S08_SHOT04",
+        "scene_id": "S08",
+        "kind": "power_transition",
+        "duration_seconds": 5.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "Mira releases the child instead of commanding it control is replaced by trust",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false
+      },
+      {
+        "shot_id": "S08_SHOT05",
+        "scene_id": "S08",
+        "kind": "final_image",
+        "duration_seconds": 4.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "sunlit stormglass arch as parent and child fly free",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false
+      }
+    ],
+    "coverage_scope": "key_shots_only",
+    "coverage_gap_seconds": 2704.0,
+    "warnings": [
+      "shot list covers key dramatic beats, not every final second; full pre-production must expand each scene into continuous shot coverage"
+    ],
+    "production_rules": [
+      "Generate character/creature/location reference sheets before motion shots.",
+      "Expand key beats into full continuous shot coverage before any paid generation.",
+      "Use draft lane for blocking and reuse valid inserts/plates rather than regenerating everything.",
+      "Use hero lane only for emotional payoff, creature transformation, revelation, and final-image shots.",
+      "Track actual generated seconds separately; iteration ratio is a production KPI, not a creative afterthought."
+    ]
+  },
   "gates": {
     "A_premise": "pass",
     "B_architecture": "pass",
