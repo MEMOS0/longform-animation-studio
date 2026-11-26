@@ -373,3 +373,15 @@ def test_abbreviated_episode_title_keeps_episode_guidance():
     result=format_strategy(10, "Ep. 3 dragon child escapes hunters")
     assert result["format_class"] == "microdrama_episode"
     assert result["inferred_flags"]["serialized"] is True
+
+def test_failure_intelligence_creature_action_requires_relational_bond():
+    from studio.failure_intelligence import evaluate_candidate
+    script=("A helicopter crashes. Something moving down there. A giant snake attacks and chases anonymous survivors through the jungle. "*30)+("The ape kills the snake and becomes ruler of the jungle. "*10)
+    result=evaluate_candidate("Trapped by a giant snake until a colossal ape saved them",[],script)
+    assert any(p["id"]=="creature_action_without_relational_bond" for p in result["matched_failure_patterns"])
+
+def test_failure_intelligence_procedural_mission_pattern():
+    from studio.failure_intelligence import evaluate_candidate
+    script=("Commander, the outer line is gone. Eastern armor reserve ammunition. Deploy all operational units to the perimeter stronghold. "*30)+("The swarm is retreating. Mission complete. "*10)
+    result=evaluate_candidate("Humans vs Vorraks final battle",[],script)
+    assert any(p["id"]=="procedural_mission_without_emotional_payoff" for p in result["matched_failure_patterns"])

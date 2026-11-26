@@ -147,6 +147,24 @@ DEFAULT_PATTERNS: list[dict[str, Any]] = [
         "risk_logic": "Long-form viewers tolerate serialization, but they need early proof that the advertised fantasy is real rather than a finale-only reveal.",
         "mitigation": "Pay the premise visually within the first 5 minutes, then escalate the cost. The finale should deepen the promise, not be the first time it appears.",
     },
+    {
+        "id": "creature_action_without_relational_bond",
+        "label": "Creature attack/chase spectacle begins early but never becomes a specific protection, family, or personhood relationship",
+        "signals": ["creature_action_opening", "weak_relational_anchor"],
+        "evidence_strength": "cross_channel_timestamped_observational",
+        "archive_signal": "Epicverse's low-performing giant snake/white ape short shows the snake almost immediately, but sampled middle/ending audio is mostly screams, roars, crashes, and combat; compare the giant-father hit where creature scale becomes paternal care.",
+        "risk_logic": "Early creature action can falsify the slow-opening theory: spectacle may be immediate yet emotionally flat if victims are anonymous and the rescuer is only a combat asset.",
+        "mitigation": "Give the creature or victim a specific relational role before the first chase ends; include a care/choice beat and make the ending transform belonging, trust, or personhood rather than only decide which monster wins.",
+    },
+    {
+        "id": "procedural_mission_without_emotional_payoff",
+        "label": "Military/operational procedure drives the opening and the ending resolves a mission rather than a relationship or moral wound",
+        "signals": ["procedural_military_opening", "mission_or_dominance_ending"],
+        "evidence_strength": "cross_channel_timestamped_observational",
+        "archive_signal": "Epicverse's low-performing Humans vs Vorraks opens with outer-line status reports, escalates through ammunition/unit/deployment commands, and ends with mission-complete language; the same channel's breakout instead opens and closes through father-child protection.",
+        "risk_logic": "High-quality machines, monsters, and battle scale become interchangeable when the audience is asked to track systems rather than protect someone specific.",
+        "mitigation": "Convert procedure into personal stakes: name who is endangered, what protective choice costs, and what belonging/personhood/home outcome changes after the mission.",
+    },
 ]
 
 
@@ -218,6 +236,9 @@ def candidate_flags(candidate_text: str, script_text: str = "") -> dict[str, boo
         "unresolved_or_procedural_ending": bool(script_text and ending_wound >= max(ending_warmth + 2, 4) and not re.search(r"belonging payoff|publicly accept|family acceptance|chosen love|child safety|celebration|transformed future|home", full)),
         "production_artifact_risk": bool(re.search(r"censor|blur|mosaic|muted|missing sound|loud music|audio dropout|watermark|sudden cut|continuity error", full)),
         "spectacle_first_opening": bool(opening_text and re.search(r"earthquake|asteroid|tsunami|apocalypse|end of the world|invasion|army|war|battle|city falls|planet|global|disaster|monster attack", opening_text.lower())),
+        "creature_action_opening": bool(opening_text and re.search(r"snake|serpent|ape|kong|monster|creature|dragon|beast", opening_text.lower()) and re.search(r"attack|chase|crash|scream|hunt|fight|battle|escape|trapped|going down", opening_text.lower())),
+        "procedural_military_opening": bool(opening_text and re.search(r"commander|outer line|defense line|ammunition|operational units|deploy|perimeter|stronghold|mission|carrier|armor|military", opening_text.lower())),
+        "mission_or_dominance_ending": bool(ending_text and re.search(r"mission complete|enemy defeated|swarm retreat|battle won|monster dead|ruler of the jungle|king of the jungle|dominance|final battle", ending_text.lower()) and not re.search(r"home|family|child|belonging|chosen love|trust|reunion|safe|care|protect", ending_text.lower())),
         "weak_relational_anchor": not bool(re.search(r"child|baby|daughter|son|mother|father|family|protector|protects|rescues|saves|dragon cub|wolf pup|creature child|loved one|pregnant|heir", opening_text.lower() or full)),
         "abstract_quest_lore_opening": bool(opening_text and re.search(r"obsidian|realm|gate|portal|prophecy|chosen one|ancient|gods?|trial|quest|artifact|relic|crown|bloodline|clan", opening_text.lower())),
         "fragmented_episode_packaging": bool(re.search(r"\b(episode|ep\.?|part)\s*\d+\b|\bseason\s*\d+\b|to be continued|previously on", full)),

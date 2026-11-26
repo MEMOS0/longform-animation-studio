@@ -152,6 +152,8 @@ These are observational rules, not universal laws. Always inspect `knowledge/nov
 8. Modern arenas can succeed when injustice and child/heir vulnerability are instantly legible; do not treat mythology as a mandatory ingredient.
 9. Treat censorship blur, missing audio, loud music under dialogue, sudden cuts, watermark-like overlays, and continuity errors as immersion-breaking production defects.
 10. Always list counterexamples. If a hit violates a proposed rule, narrow the rule rather than ignoring the hit.
+11. Early creature/action spectacle is not sufficient. Fifth-pass Epicverse lows show immediate snake/mecha action that still underperforms because victims are anonymous, rescuers are combat assets, and endings resolve dominance/missions rather than relationships.
+12. Low views do not prove a bad story. Separate premise/execution failure from packaging friction, sequel entry barriers, language/auto-dub mismatch, channel-stage effects, and format mismatch before extracting a lesson.
 
 Archive-wide measured patterns from 46 scored casebooks (observational, not causal):
 
@@ -202,7 +204,7 @@ Current cross-channel mechanism hierarchy:
 3. **Usually insufficient alone:** scale, lore, army battles, crown politics, high visual polish, franchise continuity, or a “movie-like” label.
 4. **Format-specific:** serial cliffhangers belong to episodic systems; complete-film emotional payoff belongs to feature systems; compilation packaging must sell completeness and binge value.
 
-Use `knowledge/market/data-source-and-format-audit.md`, `knowledge/market/epic-ai-films-site-analysis.md`, `knowledge/market/ironcrest-deep-dive.md`, `knowledge/market/format-duration-performance.md`, and `knowledge/market/fifth-pass-breakout-media-deep-dive.md` before cross-channel creative decisions.
+Use `knowledge/market/data-source-and-format-audit.md`, `knowledge/market/epic-ai-films-site-analysis.md`, `knowledge/market/ironcrest-deep-dive.md`, `knowledge/market/format-duration-performance.md`, and `knowledge/market/fifth-pass-breakout-media-deep-dive.md`, and `knowledge/market/fifthpass-hitlow-media-comparison.md` before cross-channel creative decisions.
 
 ## Failure intelligence protocol
 
