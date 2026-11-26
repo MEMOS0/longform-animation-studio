@@ -105,7 +105,31 @@ def architecture_quality(architecture: dict[str, Any]) -> dict[str, Any]:
     missing_capability = [str(s.get("sequence")) for s in sequences if not s.get("new_capability_or_clue") and not s.get("ally_or_relationship_change") and not s.get("secret_reveal_escalation")]
     if missing_capability:
         warnings.append("sequences without capability/clue/relationship/secret progression: " + ", ".join(missing_capability))
-    return {"sequence_count": len(sequences), "warnings": warnings}
+    required_fields = ["turn", "protagonist_choice", "emotional_shift", "visual_setpiece", "sound_design_intent", "retention_hook"]
+    for seq in sequences:
+        missing = [field for field in required_fields if not seq.get(field)]
+        if missing:
+            warnings.append(f"sequence {seq.get('sequence')}: missing retention architecture fields: {', '.join(missing)}")
+    cursor = 0.0
+    coverage_gaps = []
+    for seq in sequences:
+        match = re.search(r"(\d+(?:\.\d+)?)\s*[-–]\s*(\d+(?:\.\d+)?)", str(seq.get("time_range", "")))
+        if not match:
+            warnings.append(f"sequence {seq.get('sequence')}: missing parseable time_range")
+            continue
+        start, end = float(match.group(1)), float(match.group(2))
+        if abs(start - cursor) > 0.05:
+            coverage_gaps.append(f"sequence {seq.get('sequence')}: expected start {cursor:g}, got {start:g}")
+        if end <= start:
+            warnings.append(f"sequence {seq.get('sequence')}: non-positive duration")
+        elif end - start > 8:
+            warnings.append(f"sequence {seq.get('sequence')}: longer than 8 minutes without a new sequence-level turn")
+        cursor = end
+    warnings.extend(coverage_gaps)
+    target = architecture.get("target_minutes")
+    if target and sequences and abs(cursor - float(target)) > 0.5:
+        warnings.append(f"sequence coverage ends at {cursor:g} minutes, target is {target}")
+    return {"sequence_count": len(sequences), "coverage_end_minutes": cursor, "warnings": warnings}
 
 
 def flatten_text(value: Any) -> str:
