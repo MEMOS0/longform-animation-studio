@@ -779,3 +779,8 @@ def test_dialogue_evaluation_reports_null_spoken_turn_without_crash():
     from studio.dialogue_craft import evaluate_scenes_dialogue
     report=evaluate_scenes_dialogue([{"scene_id":"S01","dialogue_design":{"key_lines":[],"spoken_exchange":[None],"max_exposition_sentences":2}}])
     assert 'spoken exchange turn 1 is malformed' in report['warnings_by_scene']['S01']
+
+
+def test_repo_and_package_scene_schemas_stay_synchronized():
+    from pathlib import Path
+    assert Path('schemas/scene-screenplay.schema.json').read_text(encoding='utf8') == Path('studio/package_data/schemas/scene-screenplay.schema.json').read_text(encoding='utf8')
