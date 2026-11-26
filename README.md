@@ -110,7 +110,7 @@ Before any film is produced, an agent should be able to answer:
 
 ## Current Nov Drama evidence status
 
-The initial archive contains 48 public videos. At the current checkpoint, 47 downloadable videos have second-resolution audiovisual timelines; 46 scored videos have archive-wide casebook and dialogue cohort comparisons. Representative hit/failure videos have direct timestamped visual audit notes in `knowledge/nov-drama/comparative-findings.md`. One video (`jRa3_WZYDdY`) remains inaccessible through the current public Piped-compatible endpoint and must not be treated as watched.
+The initial archive contains 48 public videos. At the current checkpoint, 47 downloadable videos have second-resolution audiovisual timelines; 46 scored videos have archive-wide casebook and dialogue cohort comparisons. The repository commits aggregate cohort outputs plus representative hit/failure sample casebooks (`vYNuKn6GiaE`, `a2pydTch_Tg`); the other generated per-video casebooks are reproducible locally with `tools/build_casebooks.py` and are intentionally not committed as bulk generated artifacts. Representative hit/failure videos have direct timestamped visual audit notes in `knowledge/nov-drama/comparative-findings.md`. One video (`jRa3_WZYDdY`) remains inaccessible through the current public Piped-compatible endpoint and must not be treated as watched.
 
 Important early caveat: cumulative public views are strongly age- and recommendation-dependent. Use `views_per_day` only as a discovery metric, not as truth about retention or CTR.
 

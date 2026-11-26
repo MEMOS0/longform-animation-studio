@@ -5,6 +5,11 @@ data/raw/piped/*.ttml
 data/raw/piped/*.piped.json
 data/processed/media/
 data/processed/media_batch/
+data/processed/casebooks/
+!data/processed/casebooks/vYNuKn6GiaE.casebook.json
+!data/processed/casebooks/vYNuKn6GiaE.casebook.md
+!data/processed/casebooks/a2pydTch_Tg.casebook.json
+!data/processed/casebooks/a2pydTch_Tg.casebook.md
 *.mp4
 *.mp4.part
 *.wav

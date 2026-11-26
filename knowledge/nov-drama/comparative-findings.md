@@ -6,7 +6,7 @@ Updated: 2026-11-26. Evidence tiers follow the repository README: public outcome
 
 - 48 public Nov Drama videos are indexed in `data/raw/novdrama_archive.jsonl`.
 - Age-adjusted leaderboard uses exact/scraped public views and publish dates where available.
-- End-to-end media casebooks are being built in `data/processed/casebooks/`; cohort aggregation is in `data/processed/casebook_cohort_comparison.md`.
+- End-to-end media casebooks are generated in `data/processed/casebooks/`; cohort aggregation is committed in `data/processed/casebook_cohort_comparison.md`. To keep pull requests reviewable, only representative hit/failure sample casebooks are committed; the full set is reproducible with `tools/build_casebooks.py`.
 - Comment evidence is aggregated in `data/processed/novdrama_comment_signals.json`.
 
 ## Strongest archive-level observations
