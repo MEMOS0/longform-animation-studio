@@ -139,7 +139,7 @@ def _scene_has_later_recovery(text: str) -> bool:
     if collapse_positions:
         earliest_collapse = collapse_positions[0]
         return _has_positions_after(positions, earliest_collapse)
-    explicitly_prior = re.search(r"(?:before|prior to)\s+(?:the\s+)?(?:collapse|outage|failure|shutdown)", lowered) or re.search(r"(?:already|previously)\s+(?:rebuilt|restored|repaired)\s+before", lowered)
+    explicitly_prior = re.search(r"\b(?:before|prior to)\s+(?:the\s+)?(?:collapse|outage|failure|shutdown)\b", lowered) or re.search(r"\b(?:already|previously)\s+(?:rebuilt|restored|repaired)\s+before\b", lowered)
     if explicitly_prior:
         return False
     return True
