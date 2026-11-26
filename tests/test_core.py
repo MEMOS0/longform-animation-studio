@@ -96,9 +96,11 @@ def test_shot_pipeline_builds_lanes_and_ratio():
     from studio.shot_pipeline import build_shot_plan
     scenes = [{"scene_id": "S01", "time_range": "0-5 minutes", "objective": "protect the dragon child", "conflict": "soldiers attack", "turn": "creature reveal", "protagonist_decision": "shield it", "visual_action": {"first_image": "creature in danger", "face_reaction": "fear", "final_image": "public dragon reveal"}}]
     plan = build_shot_plan(scenes, 5)
-    assert plan["shot_count"] == 5
+    assert plan["shot_count"] >= 30
     assert plan["planned_generated_to_final_ratio"] > 0
     assert any(shot["generation_lane"] == "hero" for shot in plan["shots"])
+    assert plan["coverage_scope"] == "continuous_preproduction_scaffold"
+    assert plan["planned_generated_to_final_ratio"] > 0.9
 
 
 def test_title_intelligence_creature_contract():

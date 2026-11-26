@@ -68,8 +68,73 @@ def continuity_dependencies(scene: dict[str, Any], kind: str) -> list[str]:
     return sorted(set(deps))
 
 
+def continuous_shots_for_scene(scene: dict[str, Any]) -> list[dict[str, Any]]:
+    """Build a continuous pre-production shot scaffold for the scene's full time range.
+
+    This is intentionally a scaffold, not a finished director's storyboard. It
+    gives every final second an accountable shot slot and continuity lane; a
+    director/agent must still replace generic slots with exact staging.
+    """
+    sid = scene.get("scene_id", "scene")
+    parsed = parse_minutes_range(scene.get("time_range", ""))
+    if not parsed:
+        return shots_for_scene(scene)
+    target_seconds = max(8.0, (parsed[1] - parsed[0]) * 60.0)
+    visual = scene.get("visual_action", {})
+    objective = str(scene.get("objective", ""))
+    conflict = str(scene.get("conflict", ""))
+    decision = str(scene.get("protagonist_decision", ""))
+    turn = str(scene.get("turn", ""))
+    key = {
+        "establishing": str(visual.get("first_image", objective)),
+        "vulnerable_detail": str(visual.get("face_reaction", conflict)),
+        "dialogue_action": objective + " " + conflict,
+        "pressure_insert": conflict,
+        "power_transition": decision + " " + turn,
+        "sensory_bridge": "sound/texture continuity: " + str(scene.get("sound_design", {}).get("ambience", conflict)),
+        "consequence": turn,
+        "final_image": str(visual.get("final_image", turn)),
+    }
+    pattern = [
+        ("establishing", 6.0),
+        ("vulnerable_detail", 5.0),
+        ("dialogue_action", 10.0),
+        ("pressure_insert", 6.0),
+        ("power_transition", 8.0),
+        ("sensory_bridge", 5.0),
+        ("dialogue_action", 9.0),
+        ("consequence", 7.0),
+    ]
+    shots = []
+    total = 0.0
+    index = 1
+    while total < target_seconds - 1:
+        kind, duration = pattern[(index - 1) % len(pattern)]
+        if total + duration > target_seconds or total + pattern[index % len(pattern)][1] > target_seconds:
+            duration = max(3.0, target_seconds - total)
+        if target_seconds - total <= 14.0:
+            kind = "final_image"
+        lane = lane_for_shot(kind, key[kind])
+        shots.append({
+            "shot_id": f"{sid}_SHOT{index:03d}",
+            "scene_id": sid,
+            "kind": kind,
+            "duration_seconds": round(duration, 2),
+            "generation_lane": lane,
+            "visual_prompt_intent": key[kind],
+            "continuity_dependencies": continuity_dependencies(scene, kind),
+            "reuse_before_generate": kind in {"establishing", "vulnerable_detail", "pressure_insert", "sensory_bridge"},
+            "scaffold_status": "continuous_slot_requires_director_expansion",
+        })
+        total += duration
+        index += 1
+        if index > 500:
+            break
+    return shots
+
+
 def build_shot_plan(scenes: list[dict[str, Any]], target_minutes: float | int | None = None) -> dict[str, Any]:
-    shots = [shot for scene in scenes for shot in shots_for_scene(scene)]
+    shots = [shot for scene in scenes for shot in continuous_shots_for_scene(scene)]
     lane_counts: dict[str, int] = {}
     lane_seconds: dict[str, float] = {}
     for shot in shots:
@@ -91,12 +156,12 @@ def build_shot_plan(scenes: list[dict[str, Any]], target_minutes: float | int | 
         "lane_counts": lane_counts,
         "lane_seconds": lane_seconds,
         "shots": shots,
-        "coverage_scope": "key_shots_only",
+        "coverage_scope": "continuous_preproduction_scaffold",
         "coverage_gap_seconds": round(max(0.0, final_seconds - planned_generated_seconds), 2),
-        "warnings": ["shot list covers key dramatic beats, not every final second; full pre-production must expand each scene into continuous shot coverage"] if planned_generated_seconds < final_seconds * 0.5 else [],
+        "warnings": ["continuous scaffold allocates every scene second but generic slots still require exact director/storyboard expansion before paid generation"],
         "production_rules": [
             "Generate character/creature/location reference sheets before motion shots.",
-            "Expand key beats into full continuous shot coverage before any paid generation.",
+            "Replace generic continuous slots with exact staging, dialogue timing, and camera intent before any paid generation.",
             "Use draft lane for blocking and reuse valid inserts/plates rather than regenerating everything.",
             "Use hero lane only for emotional payoff, creature transformation, revelation, and final-image shots.",
             "Track actual generated seconds separately; iteration ratio is a production KPI, not a creative afterthought.",
