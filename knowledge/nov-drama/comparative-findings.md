@@ -94,6 +94,50 @@ Across public comments, even when viewers like a story they complain about:
 
 Positive comments reward complete stories, well-defined characters, happy endings, differentiated good characters, and fast satisfying justice. `ULJ7-z1zm6M` viewers specifically praise a non-evil stepsister and the absence of unnecessary sister drama; differentiation from trope fatigue can itself be a retention asset.
 
+
+## Direct visual audit notes from representative hits/failures
+
+These notes come from inspecting generated full-runtime contact sheets plus aligned dialogue/timelines. They are still sampled visual inspection, not frame-by-frame human annotation; contact sheets are local copyrighted evidence and are not committed.
+
+### `ULJ7-z1zm6M` — hit: orphan-to-belonging engine
+
+- **00:00–01:20:** The film opens on a small orphan girl physically clutching a stuffed animal while adults discuss whether anyone wants her. At **01:20** a close-up golden/nonhuman eye introduces the fantasy promise. The opening combines child vulnerability, social rejection, and visible magic before explaining politics.
+- **02:00–03:00:** Other children/adults verbally reinforce that a family did not adopt her; a boy/protector figure challenges the rejection. At **03:20** a wide castle/world image briefly expands scale after the emotional attachment is already established.
+- **04:00–06:20:** The girl is physically held/carried and relational care is visible; a woman says there is something she needs to tell her, then royal/adult power enters. The lore is layered onto an already legible child-protection relationship.
+- **40:00–43:40:** A child is carried through a moonlit landscape and introduced into a dragon-family/social space. A woman asks “You adopted a human child?”; warmth and social prejudice coexist. The middle escalates belonging rather than merely repeating abuse.
+- **73:20–76:20:** Court/adult judgment returns, but the child’s perspective remains central. At **76:20** the child explicitly notes that a rich dragon family is doting on the protagonist.
+- **77:40–79:20:** A magical/creature image appears inside a bright domestic/garden space, followed by a birthday celebration. The final line at **79:20** thanks the protagonist for giving the child a home. The payoff is belonging/home/family acceptance, not simply punishment.
+- **Production lesson:** this hit does not avoid fantasy royalty; it makes royalty serve an orphan-care emotional engine. Its high care/hour (~151) and low threat/hour (~31) match what the images show.
+
+### `gkRXl9lDReY` — hit: modern arena with instantly legible child stakes
+
+- **00:00–01:20:** A visibly pregnant woman is escorted/confronted in a modern corporate environment. Dialogue establishes cheating/betrayal and pregnancy almost immediately. No mythology or world rules are needed.
+- **01:40–03:40:** The husband/rival power structure is clear; the wife is isolated, visibly pregnant, and financially/socially threatened. A small child/heir image appears by **03:40**, reinforcing that the conflict is about lineage and protection, not only adult romance.
+- **04:00–06:20:** Hospital/elder illness and public confrontation add irreversible costs. The protagonist’s distress is photographed in direct face closeups, and antagonist pressure produces immediate plot consequences.
+- **66:40–67:20:** Final imagery centers a family/child in a church/ceremonial aisle. The child/heir payoff is literal and visual.
+- **Production lesson:** modern billionaire/inheritance material can outperform when the first minute supplies a concrete vulnerable body (pregnancy), an unjust betrayal, and child/heir stakes. The archive-level “modern power” failure pattern must therefore remain conditional, not absolute.
+
+### `a2pydTch_Tg` — failure: child vulnerability converted into relentless suffering spectacle
+
+- **00:00–01:40:** The opening moves quickly from a romantic garden/picnic image to red-eyed vampire threat and blood/violence language. Child vulnerability appears early, but the dominant emotional register is menace rather than safety.
+- **02:00–05:00:** The vampire/power figure dominates the frame while a child is shown ill/injured and socially powerless. Several frames center threat, infection, punishment, or coercive authority; protective warmth is weak or ambiguous.
+- **28:00–33:00:** The middle contains extreme child-endangerment imagery: armed guards, monstrous werewolf transformation, blood on the child, and the child crying/being physically threatened. This is not a single painful turn; it is a sustained misery/violence escalation.
+- **53:20–56:20:** The ending does contain warm domestic images (food, comfort, embrace), but they arrive after prolonged graphic suffering and cannot retroactively make the middle safe or emotionally balanced.
+- **Production lesson:** child presence is not automatically a positive signal. Child vulnerability must be coupled with credible protection, agency, progression, and relief. If the child is mainly a body to be harmed, the same “child” surface feature becomes a retention risk.
+
+### `Ze0hWktEfRI` — middle outcome: care exists but the opening lacks child/heir specificity
+
+- **00:00–02:40:** The opening is a modern hospital/business-family conversation. Adults discuss a grandmother, absence, rain, and relationship tension. There is emotional conflict, but it begins as explanatory adult dialogue rather than a visually endangered child/creature.
+- **03:00–06:20:** A couple argues around hospital/family pressure; a romantic rival triangle becomes clear. Faces are legible and production is competent, but the stakes remain adult relational jealousy for longer than the strongest modern hit (`gkRXl9lDReY`).
+- **Production lesson:** high care frequency alone is insufficient. Care must attach to a sharply vulnerable/protective object early; otherwise it becomes diffuse melodrama. This helps explain why `Ze0hWktEfRI` is middle rather than top despite high measured care language.
+
+### `xJUN_KOCnME` — failure: spectacle-first arena mismatch
+
+- **00:00–01:00:** The opening is racing spectacle: track, shaking car, garage/crew, adult champion pressure. It is visually competent but does not establish the channel’s core child/heir/protective fantasy contract.
+- **01:20–04:40:** Adult male racing/business conflict dominates. Dialogue concerns championship, deals, skills, and driving level. Even when competence reversal is possible, the emotional anchor remains adult competition.
+- **05:40–06:20:** A child finally appears and recognizes/approaches the protagonist, but this vulnerable relational hook arrives after several minutes of arena spectacle.
+- **Production lesson:** spectacle does not substitute for emotional grounding. A child/heir element arriving late cannot fully repair an opening that first trains the audience to expect sports-business drama rather than family/protection melodrama.
+
 ## Hypothesis ledger
 
 | hypothesis | current status | evidence/counterevidence |
