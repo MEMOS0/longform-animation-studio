@@ -365,3 +365,7 @@ PR #1 merged into main. New active branch/PR: `devin/1764820000-creature-product
 Major addition: `wd53-C7Na0Y` low-view Spark counterexample. It is only 4 days old and cannot be declared a true failure, but it falsifies simplistic hit rules: it already has immediate serial-sacrifice danger, bodily marks, hidden-care shells, extraction metaphors, mutual protection, and a strong infrastructure dilemma. Low performance therefore must not be read as proof of bad writing. Key production lesson: strong hooks are necessary but insufficient; mythic/lore density still needs relational clarity, packaging-title alignment, home/community consequence, and closure before cosmic expansion.
 
 Tests: 56 passed. PR #2 pushed and opened.
+
+## 2026-11-27 checkpoint — closure integrity gate
+
+Added `studio/closure_integrity.py` and integrated it into project evaluation. This machine gate operationalizes the Spark/ELDSAGA counterexample lesson: a plot sequel hook may remain, but only after relational recognition/home/belonging closure lands; infrastructure collapse must be followed by visible community survival/rebuilding consequence. Tests now 57 passed. Salt Window Garden generated package scores 1.0 on closure integrity.

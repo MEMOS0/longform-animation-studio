@@ -6112,6 +6112,144 @@
     "warnings": [],
     "doctrine": "Define who is physically forced below/outside/inside power, then make the ending transform that space into chosen access, sanctuary, or belonging. Inspired by floor/table and cage/sanctuary evidence."
   },
+  "closure_integrity": {
+    "score_0_to_1": 1.0,
+    "rows": [
+      {
+        "sequence": 1,
+        "closure_hits": [
+          "safe",
+          "dignity",
+          "garden"
+        ],
+        "sequel_hits": [],
+        "infrastructure_hits": [
+          "food",
+          "power"
+        ],
+        "community_consequence_hits": []
+      },
+      {
+        "sequence": 2,
+        "closure_hits": [
+          "safe",
+          "dignity",
+          "table"
+        ],
+        "sequel_hits": [],
+        "infrastructure_hits": [
+          "food",
+          "power"
+        ],
+        "community_consequence_hits": [
+          "replace"
+        ]
+      },
+      {
+        "sequence": 3,
+        "closure_hits": [
+          "family"
+        ],
+        "sequel_hits": [],
+        "infrastructure_hits": [
+          "food",
+          "power"
+        ],
+        "community_consequence_hits": []
+      },
+      {
+        "sequence": 4,
+        "closure_hits": [
+          "table"
+        ],
+        "sequel_hits": [],
+        "infrastructure_hits": [],
+        "community_consequence_hits": [
+          "ration"
+        ]
+      },
+      {
+        "sequence": 5,
+        "closure_hits": [],
+        "sequel_hits": [],
+        "infrastructure_hits": [
+          "food",
+          "power"
+        ],
+        "community_consequence_hits": [
+          "town"
+        ]
+      },
+      {
+        "sequence": 6,
+        "closure_hits": [
+          "community",
+          "table"
+        ],
+        "sequel_hits": [],
+        "infrastructure_hits": [],
+        "community_consequence_hits": [
+          "ration",
+          "community"
+        ]
+      },
+      {
+        "sequence": 7,
+        "closure_hits": [
+          "home",
+          "choose",
+          "repair",
+          "partnership"
+        ],
+        "sequel_hits": [],
+        "infrastructure_hits": [],
+        "community_consequence_hits": [
+          "ration"
+        ]
+      },
+      {
+        "sequence": 8,
+        "closure_hits": [
+          "belong",
+          "family",
+          "community",
+          "chosen",
+          "choose",
+          "garden",
+          "meal"
+        ],
+        "sequel_hits": [
+          "returns",
+          "sequel"
+        ],
+        "infrastructure_hits": [
+          "water",
+          "food",
+          "power"
+        ],
+        "community_consequence_hits": [
+          "ration",
+          "share",
+          "community"
+        ]
+      }
+    ],
+    "final_closure_hits": [
+      "home",
+      "belong",
+      "safe",
+      "family",
+      "community",
+      "chosen",
+      "choose",
+      "repair",
+      "partnership",
+      "garden",
+      "meal"
+    ],
+    "warnings": [],
+    "craft_rule": "A plot sequel hook may remain, but only after the promised recognition, home, belonging, and community consequence have landed."
+  },
   "artifact_presence": {
     "architecture": true,
     "scenes": true,

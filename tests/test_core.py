@@ -481,3 +481,14 @@ def test_generated_storyboard_seeds_validate_continuous_nonuniform():
         result=validate_storyboard_file(path)
         assert result['valid']
         assert not any('nearly uniform' in w for w in result['warnings'])
+
+
+def test_closure_integrity_requires_relational_payoff_before_sequel_hook():
+    from studio.closure_integrity import evaluate_closure_integrity
+    good={"relational_contract":{"payoff_image":"family chooses home, safety, love, and community repair"}}
+    arch={"sequences":[{"sequence":1,"turn":"home recognition and chosen family safety"},{"sequence":2,"turn":"a new disturbance begins elsewhere"}]}
+    bad={"sequences":[{"sequence":1,"turn":"their stories are just beginning beyond the stars"},{"sequence":2,"turn":"battle ends"}]}
+    assert evaluate_closure_integrity(good,arch,[])['score_0_to_1']==1.0
+    bad_result=evaluate_closure_integrity({},bad,[])
+    assert any('sequel expansion' in w for w in bad_result['warnings'])
+    assert any('relational/home' in w for w in bad_result['warnings'])
