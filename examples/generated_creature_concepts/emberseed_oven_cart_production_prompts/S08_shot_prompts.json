@@ -547,7 +547,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; Belonging is chosen when the wound-space becomes reversible and shared.. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow lateral drift",
-    "dialogue": "We keep the doors open because she taught us power is not ownership.",
+    "dialogue": "We keep the doors open because she taught us power is not possession.",
     "audio_direction": "music enters only when relational power changes; it must not paper over unresolved tension",
     "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation",
     "continuity_dependencies": [
@@ -596,7 +596,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; Belonging is chosen when the wound-space becomes reversible and shared.. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow lateral drift",
-    "dialogue": "We keep the doors open because she taught us power is not ownership.",
+    "dialogue": "We keep the doors open because she taught us power is not possession.",
     "audio_direction": "music enters only when relational power changes; it must not paper over unresolved tension",
     "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation",
     "continuity_dependencies": [

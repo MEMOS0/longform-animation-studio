@@ -73,15 +73,19 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
         authority = "coal guild" if heat_based else "land trust"
         trait = "feathers" if heat_based else "fins"
         object_term = str(object_name).lower()
+        raw_child = str(premise.get("emotional_engine", {}).get("protective_counterforce", "the creature child"))
+        creature = raw_child.split(" plus ")[0].split(";")[0].split(", whose")[0].strip() or "the creature child"
+        raw_care = str(premise.get("relational_contract", {}).get("safety_or_kindness_before_power", "the caregiver"))
+        caregiver = raw_care.split(" offers ")[0].split(";")[0].strip() or "the caregiver"
         creature_lines = [
-            ["Eat first. We can count what it costs after she is safe.", "No one is selling her pain tonight.", f"If the {resource} remembers her, we follow the {resource}."],
-            ["I will work for shelter, but I will not make her suffer for coins.", f"The {object_term} proves access, not ownership.", f"We eat because someone shared before profit, not because the {authority} permits it."],
-            ["Look at her fear before you look at her price.", "If her pain can buy the house, the price is wrong.", f"She is not inventory with {trait}."],
-            [f"Your ledger can lie; {evidence} cannot.", "Give me one honest customer before you call me a thief.", f"The {system} remembers who opened it."],
-            [f"I did not steal {resource}. I saved a child you wanted to harvest.", "Do not mistake desperation for consent.", "You can freeze the deed, but not the evidence under the stone."],
-            ["Help me carry the proof, but do not carry my choice.", "I choose the road because waiting makes us property.", f"The {object_term} remembers what the {authority} buried."],
-            ["She belongs to no one, and neither do I.", "If you want forgiveness, return what your papers stole.", f"Let the {resource} answer before the law does."],
-            [f"This {system} is not a cage anymore. Everyone eats by choice.", "I refuse rescue that becomes ownership.", "We keep the doors open because she taught us power is not ownership."],
+            [f"Step back from her. {creature} came to me before it knew I had nothing.", f"{caregiver}: bread first, questions after the child is safe.", f"If the {resource} answers her fear, then the {resource} is a witness."],
+            [f"I will work for shelter, but I will not make {creature} suffer for coins.", f"The {object_term} can open the way; it cannot make us owners.", f"{caregiver} shared before profit. That is why this roof is still honest."],
+            [f"Look at her shaking before you count her price.", f"If her pain can buy back the house, the house is not worth saving.", f"She is not inventory with {trait}."],
+            [f"Your ledger can lie; {evidence} cannot.", f"Give me one honest customer before you call me a thief.", f"The {system} remembers every hand that opened it, including yours."],
+            [f"I did not steal {resource}. I saved a child you wanted to harvest.", "Desperation is not consent, and hunger is not permission.", "Freeze the deed if you want. The evidence is already under the stone."],
+            ["Help me carry the proof, but do not carry my choice.", f"If we wait for permission, the {authority} owns both the child and the truth.", f"The {object_term} remembers what the {authority} buried."],
+            [f"{creature} belongs to no one, and neither do I.", "If you want forgiveness, return what your papers stole before you ask for trust.", f"Let the {resource} answer before the law decides whom to believe."],
+            [f"This {system} is not a cage anymore. Everyone eats by choice.", "I refuse rescue that becomes ownership.", "We keep the doors open because she taught us power is not possession."],
         ]
         key_lines = creature_lines[index - 1]
     return {

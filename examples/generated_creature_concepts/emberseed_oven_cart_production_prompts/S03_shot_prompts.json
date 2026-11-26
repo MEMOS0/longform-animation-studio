@@ -204,7 +204,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; slow tightening; the coal guildmaster and Lio's status-hungry stepbrother repeats the public punishment while treating the creature's suffering as a resource input. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow tightening",
-    "dialogue": "Look at her fear before you look at her price.",
+    "dialogue": "Look at her shaking before you count her price.",
     "audio_direction": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
     "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions",
     "continuity_dependencies": [
@@ -253,7 +253,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; slow tightening; the coal guildmaster and Lio's status-hungry stepbrother repeats the public punishment while treating the creature's suffering as a resource input. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow tightening",
-    "dialogue": "Look at her fear before you look at her price.",
+    "dialogue": "Look at her shaking before you count her price.",
     "audio_direction": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
     "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions",
     "continuity_dependencies": [
@@ -351,7 +351,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; continue helping or working openly despite wage loss, ridicule, or exclusion. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "static intimate",
-    "dialogue": "If her pain can buy the house, the price is wrong.",
+    "dialogue": "If her pain can buy back the house, the house is not worth saving.",
     "audio_direction": "music drops before decision",
     "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible",
     "continuity_dependencies": [
@@ -792,7 +792,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final image; slow pull-back; blackened brass oven key visible after the power shift, its meaning altered by: the rules of blackened brass oven key reveal how heat, timing, and creature behavior contradict the official story. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow pull-back",
-    "dialogue": "Look at her fear before you look at her price.",
+    "dialogue": "Look at her shaking before you count her price.",
     "audio_direction": "a restrained tactile sound motif unresolved",
     "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power",
     "continuity_dependencies": [
