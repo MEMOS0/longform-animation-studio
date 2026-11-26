@@ -110,8 +110,8 @@
       "scene_id": "S06",
       "shot_size": "power two-shot",
       "camera_intent": "slow tightening",
-      "visual_action": "the protagonist reads salt traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
-      "dialogue": "Help me carry the proof, not my choice.",
+      "visual_action": "help threatens to become takeover",
+      "dialogue": "Give me the proof. I can carry it faster.",
       "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
       "generation_lane": "mid",
       "continuity_dependencies": [
@@ -131,7 +131,7 @@
       "shot_size": "power two-shot",
       "camera_intent": "slow tightening",
       "visual_action": "the protagonist reads salt traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
-      "dialogue": "Help me carry the proof, not my choice.",
+      "dialogue": "",
       "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
       "generation_lane": "mid",
       "continuity_dependencies": [
@@ -190,8 +190,8 @@
       "scene_id": "S06",
       "shot_size": "decision closeup",
       "camera_intent": "static intimate",
-      "visual_action": "accept only accountable help/advance while retaining control of the proof",
-      "dialogue": "Wait for permission and they own the truth.",
+      "visual_action": "the alliance accepts urgency and accountability",
+      "dialogue": "Then we go before the land trust seals the road.",
       "sound_design": "music drops before decision",
       "generation_lane": "mid",
       "continuity_dependencies": [
@@ -211,7 +211,7 @@
       "shot_size": "decision closeup",
       "camera_intent": "static intimate",
       "visual_action": "accept only accountable help/advance while retaining control of the proof",
-      "dialogue": "Wait for permission and they own the truth.",
+      "dialogue": "",
       "sound_design": "music drops before decision",
       "generation_lane": "mid",
       "continuity_dependencies": [
@@ -310,8 +310,8 @@
       "scene_id": "S06",
       "shot_size": "subtext two-shot",
       "camera_intent": "slow lateral drift",
-      "visual_action": "Agency means accepting help without surrendering authorship of the proof.",
-      "dialogue": "Salt, timing, witnesses—line them up.",
+      "visual_action": "the proof is shared without surrendering authorship",
+      "dialogue": "Help me carry it. Don't carry my choice.",
       "sound_design": "let investigation rhythm replace battle music; each proof layer should have a distinct tactile sound",
       "generation_lane": "mid",
       "continuity_dependencies": [
@@ -331,7 +331,7 @@
       "shot_size": "subtext two-shot",
       "camera_intent": "slow lateral drift",
       "visual_action": "Agency means accepting help without surrendering authorship of the proof.",
-      "dialogue": "Salt, timing, witnesses—line them up.",
+      "dialogue": "",
       "sound_design": "let investigation rhythm replace battle music; each proof layer should have a distinct tactile sound",
       "generation_lane": "mid",
       "continuity_dependencies": [
@@ -430,8 +430,8 @@
       "scene_id": "S06",
       "shot_size": "final image",
       "camera_intent": "slow pull-back",
-      "visual_action": "the care network carries matched proof pieces toward the public hearing",
-      "dialogue": "Help me carry the proof, not my choice.",
+      "visual_action": "the proof chain becomes a physical arrangement",
+      "dialogue": "Salt, timing, witnesses—line them up.",
       "sound_design": "blue glass vial taps, salt grains, water droplets, fin movement, and pump-stone resonance unresolved",
       "generation_lane": "hero",
       "continuity_dependencies": [

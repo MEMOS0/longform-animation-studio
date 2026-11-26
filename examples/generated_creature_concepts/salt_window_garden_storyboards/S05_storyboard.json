@@ -90,8 +90,8 @@
       "scene_id": "S05",
       "shot_size": "power two-shot",
       "camera_intent": "slow tightening",
-      "visual_action": "the protagonist is accused of theft or illegal possession while the moonfin child is treated as evidence rather than a person",
-      "dialogue": "I saved her from you. That isn't theft.",
+      "visual_action": "public accusation turns the creature into evidence",
+      "dialogue": "Thief. You stole water and hid the proof.",
       "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
       "generation_lane": "mid",
       "continuity_dependencies": [
@@ -111,7 +111,7 @@
       "shot_size": "power two-shot",
       "camera_intent": "slow tightening",
       "visual_action": "the protagonist is accused of theft or illegal possession while the moonfin child is treated as evidence rather than a person",
-      "dialogue": "I saved her from you. That isn't theft.",
+      "dialogue": "",
       "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
       "generation_lane": "mid",
       "continuity_dependencies": [
@@ -150,8 +150,8 @@
       "scene_id": "S05",
       "shot_size": "decision closeup",
       "camera_intent": "static intimate",
-      "visual_action": "defend the truth without exposing the creature to capture",
-      "dialogue": "Hunger isn't permission.",
+      "visual_action": "Nura shields the creature before defending reputation",
+      "dialogue": "I saved her from you. That isn't theft.",
       "sound_design": "music drops before decision",
       "generation_lane": "mid",
       "continuity_dependencies": [
@@ -171,7 +171,7 @@
       "shot_size": "decision closeup",
       "camera_intent": "static intimate",
       "visual_action": "defend the truth without exposing the creature to capture",
-      "dialogue": "Hunger isn't permission.",
+      "dialogue": "",
       "sound_design": "music drops before decision",
       "generation_lane": "mid",
       "continuity_dependencies": [
@@ -250,8 +250,8 @@
       "scene_id": "S05",
       "shot_size": "subtext two-shot",
       "camera_intent": "slow lateral drift",
-      "visual_action": "Public shame is an attack on identity before it is an attack on facts.",
-      "dialogue": "The proof is already beyond your ledger.",
+      "visual_action": "her grandmother offers the safer betrayal",
+      "dialogue": "Show the child and this ends.",
       "sound_design": "music must withhold resolution during accusation so shame remains spatial and bodily",
       "generation_lane": "mid",
       "continuity_dependencies": [
@@ -271,7 +271,7 @@
       "shot_size": "subtext two-shot",
       "camera_intent": "slow lateral drift",
       "visual_action": "Public shame is an attack on identity before it is an attack on facts.",
-      "dialogue": "The proof is already beyond your ledger.",
+      "dialogue": "",
       "sound_design": "music must withhold resolution during accusation so shame remains spatial and bodily",
       "generation_lane": "mid",
       "continuity_dependencies": [
@@ -350,8 +350,8 @@
       "scene_id": "S05",
       "shot_size": "final image",
       "camera_intent": "slow pull-back",
-      "visual_action": "she shields the moonfin child with her body while the blue glass salt vial falls open as evidence",
-      "dialogue": "I saved her from you. That isn't theft.",
+      "visual_action": "the blue glass salt vial passes out of institutional control",
+      "dialogue": "The proof is already beyond your ledger.",
       "sound_design": "blue glass vial taps, salt grains, water droplets, fin movement, and pump-stone resonance unresolved",
       "generation_lane": "hero",
       "continuity_dependencies": [

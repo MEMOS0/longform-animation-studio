@@ -747,3 +747,29 @@ def test_creature_scenes_include_short_scene_specific_spoken_exchange():
     report=evaluate_scenes_dialogue(scenes)
     assert not report['warnings_by_scene']
     assert report['scenes'][0]['spoken_exchange_turn_count']==4
+
+
+def test_storyboard_seed_uses_spoken_exchange_in_dialogue_shots():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.storyboard_seed import build_seed_board
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    scene=generate_scenes(premise,generate_architecture(premise))[0]
+    board=build_seed_board(scene)
+    dialogue_shots=[s for s in board['shots'] if s['dialogue']]
+    assert any('Paying hands first, Nura' in s['dialogue'] for s in dialogue_shots)
+    assert any("I hide her first" in s['dialogue'] for s in dialogue_shots)
+    assert any('crowd blocks the public resource threshold' in s['visual_action'] for s in dialogue_shots)
+
+
+def test_storyboard_seed_does_not_repeat_exact_dialogue_line():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.storyboard_seed import build_seed_board
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    scene=generate_scenes(premise,generate_architecture(premise))[0]
+    board=build_seed_board(scene)
+    lines=[s['dialogue'] for s in board['shots'] if s['dialogue']]
+    assert len(lines)==len(set(lines))

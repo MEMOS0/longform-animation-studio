@@ -6192,7 +6192,9 @@
         "expected_seconds": 300.0,
         "actual_seconds": 300.0,
         "valid": true,
-        "warnings": [],
+        "warnings": [
+          "core protection/trust/agency theme is not explicit in dialogue"
+        ],
         "shot_count": 17
       },
       {

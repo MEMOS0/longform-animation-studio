@@ -426,3 +426,10 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - Regenerated Salt Window Garden and Emberseed Oven Cart artifacts: gates A/B/C/D pass, zero dialogue warnings, zero sound warnings, visual causality 1.0, four spoken turns per scene.
 - Latest local test state at this checkpoint: 84 passed.
 
+## 2026-11-27 storyboard-dialogue synchronization checkpoint
+
+- Director-seed storyboards now use creature spoken-exchange lines in dialogue shots and use the matching concrete action as visual staging.
+- Repeated sampled beats no longer duplicate the exact same dialogue line across adjacent shots.
+- Regenerated production prompts after synchronization; generated projects still pass A/B/C/D with zero dialogue/sound warnings and visual causality 1.0.
+- Latest local test state at this checkpoint: 86 passed.
+
