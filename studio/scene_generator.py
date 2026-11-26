@@ -141,7 +141,7 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
             "motif": material_motif,
         }
         creature_visuals = [
-            (f"{creature} crosses toward the humiliated protagonist while the crowd watches", f"the protagonist kneels, hides {creature}, and closes a protective hand around the {object_term}"),
+            (f"the crowd watches the protagonist being barred from the public {system} as {creature} crosses toward her", f"the protagonist kneels, hides {creature}, and closes a protective hand around the {object_term}"),
             (f"{caregiver} carries food into the shelter while the protagonist refuses payment for pain", f"the protagonist places the {object_term} beside {creature} instead of selling access to it"),
             (f"the antagonist's people chain the public {system} while {creature} shakes behind the protagonist", f"the protagonist opens the {object_term} and compares its mark with the first {evidence} trace"),
             (f"the protagonist repairs a small {system} fault while guild/customer witnesses watch", f"she pockets a marked ledger fragment and carries {creature} away from the offer of sale"),

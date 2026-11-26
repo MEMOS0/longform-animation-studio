@@ -665,3 +665,14 @@ def test_sound_design_flags_generic_motif_and_requires_material_sources():
     concrete=[{"scene_id":"S01","sound_design":{"dialogue_priority":"dialogue intelligible","music_function":"no heroic score before protection","silence_or_negative_space":"crowd clatter thins into creature breath and water droplets","motif":"glass vial taps, salt grains, and pump-stone resonance"}}]
     assert evaluate_sound_design(generic)['warnings']
     assert not evaluate_sound_design(concrete)['warnings']
+
+
+def test_creature_opening_keeps_public_exclusion_visible():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    scene=generate_scenes(premise,generate_architecture(premise))[0]
+    first=scene['visual_action']['first_image']
+    assert 'barred from the public' in first
+    assert 'crowd watches' in first
