@@ -131,6 +131,9 @@ def main() -> None:
                 row["age_days_at_collection"] = round(age_days, 2)
                 views = row.get("total_views") or row.get("search_views") or 0
                 row["views_per_day_estimate"] = round(views / age_days, 1)
+                subs = row.get("subscriber_count")
+                row["low_mid_subscriber_flag"] = bool(subs is not None and subs < 100000)
+                row["candidate_strength"] = "strong_lead" if row["low_mid_subscriber_flag"] and row["views_per_day_estimate"] > 10000 else ("watchlist" if row["low_mid_subscriber_flag"] else "large_channel_or_unknown")
                 if uploaded_ms / 1000 < cutoff:
                     row["archive_status"] = "outside_requested_window"
                     carryover.append(row)
