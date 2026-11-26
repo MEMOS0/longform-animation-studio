@@ -40,7 +40,8 @@
     "evidence": [
       "knowledge/market/epic-deep-dive.md",
       "knowledge/market/ironcrest-deep-dive.md",
-      "knowledge/market/expanded-breakout-deep-dive.md"
+      "knowledge/market/expanded-breakout-deep-dive.md",
+      "knowledge/market/fourth-pass-breakout-media-deep-dive.md"
     ]
   },
   "transformation_melodrama": {
@@ -397,6 +398,50 @@
     ],
     "evidence": [
       "knowledge/market/third-pass-breakout-media-deep-dive.md"
+    ]
+  },
+  "legal_proof_melodrama": {
+    "reference_channels": [
+      "Nightfall Drama"
+    ],
+    "positive_signals": [
+      "abandoned",
+      "train",
+      "ring",
+      "tea",
+      "apple",
+      "trustee",
+      "fraud",
+      "consent",
+      "court",
+      "evidence",
+      "ticket",
+      "work",
+      "café",
+      "daughter",
+      "contract",
+      "embezzlement"
+    ],
+    "opening_rules": [
+      "open with immediate identity/resource deprivation plus a class-expulsion statement",
+      "escalate the wound through a concrete public threat rather than static backstory",
+      "let protection convert quickly into work, shelter, or skill rather than passive rescue",
+      "seed a family object and a repeatable competence object in the first 10 minutes"
+    ],
+    "risk_patterns": [
+      "wealthy rescuer replaces protagonist agency",
+      "legal/trust exposition before embodied deprivation",
+      "kindness remains charity instead of becoming capability",
+      "court reversal relies on surprise evidence with no earlier proof chain",
+      "object wound is forgotten before the ending"
+    ],
+    "thumbnail_rules": [
+      "show bride/train/class-expulsion contrast in one glance",
+      "make the family object or work identity visible when possible",
+      "avoid generic rich-romance imagery if the real engine is dignity, proof, and legal reversal"
+    ],
+    "evidence": [
+      "knowledge/market/fourth-pass-breakout-media-deep-dive.md"
     ]
   }
 }
