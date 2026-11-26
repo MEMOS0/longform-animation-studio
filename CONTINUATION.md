@@ -1,6 +1,6 @@
 # Continuation checkpoint — read first after context rollover
 
-Updated: 2026-11-26 after commit `0cb1912` (“Audit external AI film data sources”). PR: https://github.com/MEMOS0/longform-animation-studio/pull/1, branch `devin/1764170700-failure-intelligence-foundation`, local repo `C:/Users/Administrator/repos/longform-animation-studio`.
+Updated: 2026-11-26 after commit `911c3e7` (“Compare Epic hit and failure thumbnails”). PR: https://github.com/MEMOS0/longform-animation-studio/pull/1, branch `devin/1764170700-failure-intelligence-foundation`, local repo `C:/Users/Administrator/repos/longform-animation-studio`.
 
 ## Immutable user mandate
 
@@ -25,19 +25,20 @@ Build a reusable professional AI-assisted long-form animation studio system, not
 - Contact-sheet review is sampled full-runtime visual inspection, not continuous frame-by-frame human watching.
 - `Aa0l5km5Jl4` (Ironcrest Son of Wolves) has no English subtitle track; analysis is visual-first and lower confidence.
 - Public views/day is not CTR or retention.
-- Montage generator may duplicate rows for small archives; fix pending.
+- Montage generator may duplicate rows for small archives; fix pending. Epic thumbnail comparison committed at `knowledge/thumbnails/epic-thumbnail-comparison.md`: relational creature scale contrast and face emotion beat trailers/AI-meta/off-format imagery; lows are often different product types.
 - Some earlier cross-channel interpretation may have been affected by Arabic subtitle contamination; revisit before treating as final.
 - Devin Review CI oscillates pending/failed. No actionable new review findings are visible in PR comments as of checkpoint; inspect review UI/comments if notification arrives.
 
 ## Immediate next steps, in order
 
 1. Fix montage overlap for small archives and regenerate montages if cheap.
-2. Revisit `knowledge/market/cross-channel-audiovisual-findings.md` and correct any Ironcrest conclusions affected by subtitle contamination using corrected English subtitles.
-3. Integrate Epic/Ironcrest cross-validation into `.devin/skills/longform-animation-studio/SKILL.md`: child/creature protection is a cross-channel mechanism; disaster/adult crown spectacle is channel-fit dependent.
-4. Continue per-channel deep dives beyond Ironcrest: prioritize Epic’s Five Baby Dragons vs disaster/sci-fi underperformers; FablePop hit vs low; RIFTBORN compilation vs episodes; The Next Show mythic adventure hits/failures.
-5. Extract recent 7–14 day low-subscriber breakout candidates from Crateh rolling rankings and other accessible sources. Candidate is not proof; collect channel age/subscribers/repeat performance.
-6. Expand thumbnail intelligence by channel-specific hit/mid/fail comparisons, especially Epic baby-dragon vs disaster titles and Ironcrest creature/child vs adult crown.
-7. Continue integrating every finding into reusable production system, not just reports.
+2. Epic deep-dive media job is running in background shell `epicdeep2`: downloading `_VqQezjbLes` Five Baby Dragons, `46mo0VFuYoM` Mother of Dragons, `gc6nfjiklRQ` Earthquake, `6-w0gu5NR_A` One Last Phone Call using media dir `C:/Users/Administrator/epic_media`, raw dir `data/raw/piped_epic_deepdive`, then batch media analysis to `C:/Users/Administrator/epic_analysis`. First attempt failed because `--out` is not a valid arg; correct args are `--media-dir` and `--raw-dir`.
+3. Revisit `knowledge/market/cross-channel-audiovisual-findings.md` and correct any Ironcrest conclusions affected by subtitle contamination using corrected English subtitles.
+4. Integrate Epic/Ironcrest cross-validation into `.devin/skills/longform-animation-studio/SKILL.md`: child/creature protection is a cross-channel mechanism; disaster/adult crown spectacle is channel-fit dependent.
+5. Continue per-channel deep dives beyond Ironcrest: prioritize Epic’s Five Baby Dragons vs disaster/sci-fi underperformers; FablePop hit vs low; RIFTBORN compilation vs episodes; The Next Show mythic adventure hits/failures.
+6. Extract recent 7–14 day low-subscriber breakout candidates from Crateh rolling rankings and other accessible sources. Candidate is not proof; collect channel age/subscribers/repeat performance.
+7. Expand thumbnail intelligence by channel-specific hit/mid/fail comparisons, especially Epic baby-dragon vs disaster titles and Ironcrest creature/child vs adult crown.
+8. Continue integrating every finding into reusable production system, not just reports.
 
 ## User communication style
 
