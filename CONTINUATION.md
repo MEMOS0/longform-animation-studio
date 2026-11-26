@@ -322,3 +322,21 @@ Immediate next steps:
 2. Deepen premise generation into architecture/scene generation, then evaluate generated concepts end-to-end. Consider building one full second example project if useful.
 3. Continue improving creative quality gates: dialogue density, object recurrence, spatial inversion, agency, consent/trust repair, sound negative space, pacing variation.
 4. Commit derived evidence promptly. Do not claim continuous human viewing; do not infer CTR/retention without private data.
+
+## 2026-11-26 checkpoint — generated pipeline and genre expansion
+
+Latest local commits: `ef8d2b7 Integrate desert mermaid economic creature evidence` and `bb8017f Generate validated director seed storyboards` are committed locally but were not pushed because the harness repeatedly demanded a CI stop after Devin Review infrastructure failures. User instruction remains to ignore Devin Review; if resuming after rollover and no newer blocker exists, verify `git log`/status and push these commits.
+
+Major additions:
+- Original concept pipeline now runs premise -> 8-sequence architecture -> schema-valid scenes -> continuous non-uniform director-seed storyboards -> project evaluation. All three generated concepts pass A/B/C/D gates; each has 140 director-seed shots across 42 minutes. These are scaffolds, not final production boards.
+- `studio/storyboard_seed.py` plus CLI `seed-storyboards`; storyboard validator generalized beyond creature-specific trust/cage wording and still checks exact coverage/pacing.
+- ELDSAGA deep evidence: `knowledge/market/eldsaga-wolf-father-creature-scifi-deep-dive.md` and `knowledge/market/eldsaga-channel-hit-low-comparison.md`. Critical falsification: low-view `wKTglMNaHxY` has strong story mechanics, so low views must not be treated as proof of bad writing. Hit original WF is 10m47; hit sequel WF2 25m15; duration is not primary separator. Relational recognition can precede a plot cliffhanger.
+- Spark Shorts desert mermaid deep dive: `knowledge/market/spark-shorts-desert-mermaid-deep-dive.md`; new `creature_economic_melodrama` contract. Core doctrine: care before monetization, magical value must create ethical temptation/consent cost, creature personhood mirrors home/debt ownership, legal proof can coexist with fantasy, ending must repay economic wound spatially.
+- Spark channel metrics local at `C:/Users/Administrator/spark_channel_metrics.json`, not yet committed. Raw exact channel metadata local at `C:/Users/Administrator/spark_meta/`.
+- Tests: 56 passed.
+
+Immediate next:
+1. Commit Spark channel metadata/metrics and compare hit `FaP_r2awlC8` vs DG16/low titles. Analyze FaP if context allows.
+2. Push local commits when appropriate; user has already said CI/review can be ignored.
+3. Continue werewolf/mermaid/zombie/reborn discovery and thumbnail hit/mid/low archives.
+4. Do not spend money/create accounts/public actions.
