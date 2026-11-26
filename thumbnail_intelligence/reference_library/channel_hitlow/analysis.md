@@ -52,3 +52,19 @@ When generating original thumbnails:
 - use text to resolve the title/image division of labor, not to compensate for an emotionally unclear image;
 - produce one “paradox image” concept, one “relational protection” concept, and one “scale/spectacle” concept, then critique all three at feed size;
 - exclude off-format/tutorial uploads from film packaging comparisons.
+
+## Aethernal Pictures: vulnerable child/creature packaging versus atmospheric adult fantasy
+
+| video | age-adjusted performance | thumbnail mechanism | interpretation |
+|---|---:|---|---|
+| `31-p_UcMgOs` — The Aethernal Act II | ~900k views/day, 3.6m in 4 days | frightened boy carrying ordinary bucket, protective dog/wolf foreground, rot monsters advancing through village fog | Clear vulnerable/protective triangle. The viewer knows whom to fear for and what threatens him before reading the franchise title. |
+| `D5XuYx6HY-8` — The Aethernal Act I | ~10.9k views/day, 523k in 48 days | hooded mystery figure and axe-carrying adult in forest; strong atmosphere but no child/creature/protection relationship | Cinematic and branded, but emotionally less specific. It asks viewers to enter a world rather than protect someone. |
+| `0w41NN3gsjk` — Heroes 5 Silver Cities | lower older-catalog performance | comic/grotesque goblin closeup, clear game branding | Strong game-fan novelty packaging, not comparable to original film discovery. |
+| `I7IxKplQnbI` — Heroes 5 Inferno | lower older-catalog performance | fire demon spectacle, game branding | Scale/monster imagery is clear but lacks vulnerable relational anchor. |
+| `QEy2B83lPUg` — Chapter 3 update | low but off-format/meta | white-haired game character plus chapter text | Meta/update upload; exclude from film performance comparisons. |
+
+Aethernal conclusion:
+
+- Within the same franchise, Act II's breakout packaging is much more relational and vulnerable than Act I's atmospheric adult-warrior packaging.
+- This is not proof that thumbnails caused the difference: Act II benefits from sequel/franchise momentum, different duration, possible algorithmic amplification, and different story execution. But the packaging difference aligns with the broader cross-channel mechanism.
+- The original dark-fantasy film contract should not be compared directly with Heroes game-unit transformation shorts or update videos. Format segmentation remains mandatory.
