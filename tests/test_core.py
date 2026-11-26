@@ -214,3 +214,12 @@ def test_meaning_carrier_requires_architecture_evidence_of_recurrence():
     result = evaluate_meaning_carrier(premise, {"sequences": [{"turn": "family dinner", "visual_setpiece": "gold hall"}]})
     assert result["score_0_to_1"] < 1.0
     assert any("final two architecture" in w for w in result["warnings"])
+
+
+def test_relational_contract_rejects_after_reveal_and_denied_choice():
+    from studio.relational_contract import evaluate_relational_contract
+    base = {"power_asymmetry": "x", "costly_protagonist_action": "x", "payoff_image": "shared home"}
+    late = dict(base, safety_or_kindness_before_power="she protects him after learning he is king", consent_or_personhood_repair="he is free to choose")
+    assert any("temporally explicit" in w for w in evaluate_relational_contract({"relational_contract": late})["warnings"])
+    denied = dict(base, safety_or_kindness_before_power="she protects him before knowing his power", consent_or_personhood_repair="he is not free to choose")
+    assert any("explicitly denies" in w for w in evaluate_relational_contract({"relational_contract": denied})["warnings"])

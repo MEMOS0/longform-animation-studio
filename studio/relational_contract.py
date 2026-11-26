@@ -34,9 +34,12 @@ def evaluate_relational_contract(premise: dict[str, Any]) -> dict[str, Any]:
     safety = str(explicit.get("safety_or_kindness_before_power", "")).lower()
     repair = str(explicit.get("consent_or_personhood_repair", "")).lower()
     payoff = str(explicit.get("payoff_image", "")).lower()
-    if safety and not any(term in safety for term in ["before", "first", "without knowing", "before knowing", "care", "protect", "free", "feed", "shelter", "shield"]):
+    if safety and not any(term in safety for term in ["before", "first", "without knowing", "before knowing", "prior to", "initially", "unaware"]):
         warnings.append("safety/kindness before power is not temporally explicit")
-    if repair and not any(term in repair for term in ["choice", "choose", "consent", "person", "personhood", "free", "freedom", "name", "agency", "trust", "release"]):
+    denial_terms = ["no choice", "not free", "never free", "cannot choose", "can't choose", "denied choice", "without choice", "no agency", "not allowed to choose"]
+    if repair and any(term in repair for term in denial_terms):
+        warnings.append("consent/personhood repair explicitly denies choice or freedom")
+    elif repair and not any(term in repair for term in ["choice", "choose", "consent", "person", "personhood", "free", "freedom", "name", "agency", "trust", "release"]):
         warnings.append("consent/personhood repair does not clearly restore choice, freedom, identity, or trust")
     if payoff and any(term in payoff for term in ["marry him", "rescued by", "becomes rich", "wealthy wife", "powerful husband"]):
         warnings.append("payoff may reward status/romance without repaired agency")
