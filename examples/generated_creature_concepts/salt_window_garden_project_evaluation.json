@@ -6098,6 +6098,7 @@
     "scenes": [
       {
         "scene_id": "S01",
+        "opposition_beat_count": 4,
         "line_count": 3,
         "exposition_line_count": 0,
         "power_action_line_count": 1,
@@ -6106,6 +6107,7 @@
       },
       {
         "scene_id": "S02",
+        "opposition_beat_count": 4,
         "line_count": 3,
         "exposition_line_count": 0,
         "power_action_line_count": 0,
@@ -6116,6 +6118,7 @@
       },
       {
         "scene_id": "S03",
+        "opposition_beat_count": 4,
         "line_count": 3,
         "exposition_line_count": 0,
         "power_action_line_count": 0,
@@ -6126,6 +6129,7 @@
       },
       {
         "scene_id": "S04",
+        "opposition_beat_count": 4,
         "line_count": 3,
         "exposition_line_count": 0,
         "power_action_line_count": 1,
@@ -6134,6 +6138,7 @@
       },
       {
         "scene_id": "S05",
+        "opposition_beat_count": 4,
         "line_count": 3,
         "exposition_line_count": 0,
         "power_action_line_count": 0,
@@ -6144,6 +6149,7 @@
       },
       {
         "scene_id": "S06",
+        "opposition_beat_count": 4,
         "line_count": 3,
         "exposition_line_count": 0,
         "power_action_line_count": 3,
@@ -6152,6 +6158,7 @@
       },
       {
         "scene_id": "S07",
+        "opposition_beat_count": 4,
         "line_count": 3,
         "exposition_line_count": 0,
         "power_action_line_count": 2,
@@ -6160,6 +6167,7 @@
       },
       {
         "scene_id": "S08",
+        "opposition_beat_count": 4,
         "line_count": 3,
         "exposition_line_count": 0,
         "power_action_line_count": 1,
@@ -6187,7 +6195,7 @@
       "passive_wound_markers": 1,
       "rescue_markers": 4,
       "circular_payoff_markers": 3,
-      "early_agency_actions": 8
+      "early_agency_actions": 9
     },
     "strengths": [
       "protagonist has repeated visible choices/actions rather than only suffering",

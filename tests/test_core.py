@@ -639,3 +639,10 @@ def test_visual_causality_flags_abstract_scenes_and_rewards_physical_action():
     physical=[{"scene_id":"S01","visual_action":{"first_image":"the child crosses the pump yard and hides behind the woman","final_image":"the vial opens the gate as neighbors share water"}}]
     assert evaluate_visual_causality(abstract)['score_0_to_1'] < evaluate_visual_causality(physical)['score_0_to_1']
     assert evaluate_visual_causality(abstract)['warnings']
+
+
+def test_dialogue_craft_requires_scene_opposition_scaffold():
+    from studio.dialogue_craft import evaluate_scenes_dialogue
+    scene={"scene_id":"S01","dialogue_design":{"key_lines":["I refuse."],"max_exposition_sentences":2}}
+    result=evaluate_scenes_dialogue([scene])
+    assert any('opposition scaffold' in w for w in result['warnings_by_scene']['S01'])

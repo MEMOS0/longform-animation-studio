@@ -22,6 +22,32 @@
       "Your ledger can lie; salt cannot.",
       "Give me one honest customer before you call me a thief.",
       "The pump remembers every hand that opened it, including yours."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "land trust",
+        "dramatic_job": "the land trust reframes competence as theft or illegality",
+        "writing_note": "pressure should arrive as a demand, payment, threat, or institutional move"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "the moonfin child",
+        "dramatic_job": "one honest witness is safer than a dramatic public claim",
+        "writing_note": "the objection makes the safe choice reasonable and forces a cost"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "protagonist",
+        "dramatic_job": "the protagonist protects consent before economic rescue",
+        "writing_note": "decision is spoken through action/refusal, not theme explanation"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "blue glass salt vial",
+        "dramatic_job": "the pump creates timestamps, pressure marks, or access traces",
+        "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
     ]
   },
   "sound_design": {

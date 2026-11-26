@@ -22,6 +22,32 @@
       "Step back from her. The moonfin child came to me before it knew I had nothing.",
       "I will hide her first and decide who can be trusted after she is safe.",
       "If the water answers her fear, then the water is a witness."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "land trust",
+        "dramatic_job": "the crowd or land trust demands that the humiliated protagonist abandon the exposed child",
+        "writing_note": "pressure should arrive as a demand, payment, threat, or institutional move"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "her grandmother",
+        "dramatic_job": "hiding the moonfin child can destroy the protagonist's last economic shelter",
+        "writing_note": "the objection makes the safe choice reasonable and forces a cost"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "protagonist",
+        "dramatic_job": "the protagonist hides/protects before knowing whether anyone will help",
+        "writing_note": "decision is spoken through action/refusal, not theme explanation"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "blue glass salt vial",
+        "dramatic_job": "the water response marks the moonfin child as a witness rather than a commodity",
+        "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
     ]
   },
   "sound_design": {

@@ -22,6 +22,32 @@
       "Help me carry the proof, but do not carry my choice.",
       "If we wait for permission, the land trust owns both the child and the truth.",
       "The blue glass salt vial remembers what the land trust buried."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "land trust",
+        "dramatic_job": "waiting for rescue would leave both truth and creature inside institutional control",
+        "writing_note": "pressure should arrive as a demand, payment, threat, or institutional move"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "her grandmother",
+        "dramatic_job": "help is needed, but help can steal authorship of the proof",
+        "writing_note": "the objection makes the safe choice reasonable and forces a cost"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "protagonist",
+        "dramatic_job": "the protagonist accepts accountable help while keeping control of the evidence",
+        "writing_note": "decision is spoken through action/refusal, not theme explanation"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "blue glass salt vial",
+        "dramatic_job": "ledger timing, salt, pressure marks, and witness geometry begin aligning",
+        "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
     ]
   },
   "sound_design": {

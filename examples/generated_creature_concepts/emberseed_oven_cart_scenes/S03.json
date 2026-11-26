@@ -22,6 +22,32 @@
       "Look at her shaking before you count her price.",
       "If her pain can buy back the house, the house is not worth saving.",
       "She is not inventory with feathers."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "coal guild",
+        "dramatic_job": "the coal guild repeats the public punishment and prices the creature's pain",
+        "writing_note": "pressure should arrive as a demand, payment, threat, or institutional move"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "the emberseed bird child",
+        "dramatic_job": "selling even a little of the emberseed bird child's value could solve the debt faster",
+        "writing_note": "the objection makes the safe choice reasonable and forces a cost"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "protagonist",
+        "dramatic_job": "the protagonist chooses slower safety over profitable harm",
+        "writing_note": "decision is spoken through action/refusal, not theme explanation"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "blackened brass oven key",
+        "dramatic_job": "fear, feathers, and heat make exploitation physically visible",
+        "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
     ]
   },
   "sound_design": {

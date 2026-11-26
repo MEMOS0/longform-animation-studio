@@ -68,7 +68,12 @@ def evaluate_scenes_dialogue(scenes: list[dict[str, Any]]) -> dict[str, Any]:
     for scene in scenes:
         design = scene.get("dialogue_design", {})
         result = critique_lines(design.get("key_lines", []), design.get("max_exposition_sentences"))
-        scene_rows.append({"scene_id": scene.get("scene_id"), **{k: result[k] for k in ("line_count", "exposition_line_count", "power_action_line_count", "long_line_count", "warnings")}})
+        beats = design.get("opposition_beats") or []
+        beat_names = {beat.get("beat") for beat in beats if isinstance(beat, dict)}
+        missing_beats = [name for name in ("external_pressure", "witness_objection", "protagonist_decision", "evidence_or_cost") if name not in beat_names]
+        if missing_beats:
+            result["warnings"] = list(result["warnings"]) + ["dialogue opposition scaffold missing beats: " + ", ".join(missing_beats)]
+        scene_rows.append({"scene_id": scene.get("scene_id"), "opposition_beat_count": len(beats), **{k: result[k] for k in ("line_count", "exposition_line_count", "power_action_line_count", "long_line_count", "warnings")}})
         if result["warnings"]:
             all_warnings[scene.get("scene_id", "<missing>")] = result["warnings"]
     return {"scenes": scene_rows, "warnings_by_scene": all_warnings}

@@ -67,6 +67,12 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
     key_lines = line_options[index - 1]
     first_image_override = None
     final_image_override = None
+    opposition_beats = [
+        {"beat": "external_pressure", "voice": "antagonist or social crowd", "dramatic_job": turn, "writing_note": "pressure must be specific behavior, not generic cruelty"},
+        {"beat": "witness_objection", "voice": "caregiver, worker, or vulnerable witness", "dramatic_job": relationship, "writing_note": "the objection should make the safe choice reasonable"},
+        {"beat": "protagonist_decision", "voice": "protagonist", "dramatic_job": sequence.get("protagonist_choice", "act despite cost"), "writing_note": "the answer is a choice or refusal, not a theme statement"},
+        {"beat": "evidence_or_cost", "voice": "object, proof, or consequence", "dramatic_job": clue, "writing_note": "the scene must leave a visible cost or proof implication"},
+    ]
     if premise.get("channel_contract") == "creature_economic_melodrama":
         contract_text = json.dumps(premise, ensure_ascii=False).lower()
         heat_based = any(term in contract_text for term in ["oven", "ember", "fire", "coal", "volcanic"])
@@ -93,6 +99,23 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
             [f"This {system} is not a cage anymore. Everyone eats by choice.", "I refuse rescue that becomes ownership.", "We keep the doors open because she taught us power is not possession."],
         ]
         key_lines = creature_lines[index - 1]
+        creature_opposition = [
+            {"pressure": f"the crowd or {authority} demands that the humiliated protagonist abandon the exposed child", "objection": f"hiding {creature} can destroy the protagonist's last economic shelter", "decision": "the protagonist hides/protects before knowing whether anyone will help", "evidence_or_cost": f"the {resource} response marks {creature} as a witness rather than a commodity"},
+            {"pressure": "shelter is offered in a way that could become debt, pity, or control", "objection": f"{caregiver} needs labor and honesty, not ownership of the creature", "decision": "the protagonist accepts work but refuses to monetize suffering", "evidence_or_cost": f"the {object_term} separates access from possession"},
+            {"pressure": f"the {authority} repeats the public punishment and prices the creature's pain", "objection": f"selling even a little of {creature}'s value could solve the debt faster", "decision": "the protagonist chooses slower safety over profitable harm", "evidence_or_cost": f"fear, {trait}, and {evidence} make exploitation physically visible"},
+            {"pressure": f"the {authority} reframes competence as theft or illegality", "objection": "one honest witness is safer than a dramatic public claim", "decision": "the protagonist protects consent before economic rescue", "evidence_or_cost": f"the {system} creates timestamps, pressure marks, or access traces"},
+            {"pressure": "public accusation converts the creature into evidence and the protagonist into a thief", "objection": f"revealing {creature} may prove innocence while causing capture", "decision": "the protagonist protects the child before protecting reputation", "evidence_or_cost": f"the {object_term} falls open as proof but does not complete the chain"},
+            {"pressure": "waiting for rescue would leave both truth and creature inside institutional control", "objection": "help is needed, but help can steal authorship of the proof", "decision": "the protagonist accepts accountable help while keeping control of the evidence", "evidence_or_cost": f"ledger timing, {evidence}, pressure marks, and witness geometry begin aligning"},
+            {"pressure": "forgiveness or rescue is offered before restitution", "objection": "a public win without consent repair would turn the creature into a trophy", "decision": "the protagonist demands return of what papers/power stole before trust", "evidence_or_cost": f"the proof chain shows fraud and makes {creature}'s choice audible/visible"},
+            {"pressure": "the ending could become possession, revenge, or escape-only relief", "objection": "community survival matters more than punishing one villain", "decision": "the protagonist chooses non-possessive belonging after safety and proof", "evidence_or_cost": f"the transformed {system} space visibly shares or rebuilds access to {resource}"},
+        ]
+        beat = creature_opposition[index - 1]
+        opposition_beats = [
+            {"beat": "external_pressure", "voice": authority, "dramatic_job": beat["pressure"], "writing_note": "pressure should arrive as a demand, payment, threat, or institutional move"},
+            {"beat": "witness_objection", "voice": caregiver if index in (1, 2, 6, 8) else creature, "dramatic_job": beat["objection"], "writing_note": "the objection makes the safe choice reasonable and forces a cost"},
+            {"beat": "protagonist_decision", "voice": "protagonist", "dramatic_job": beat["decision"], "writing_note": "decision is spoken through action/refusal, not theme explanation"},
+            {"beat": "evidence_or_cost", "voice": object_name, "dramatic_job": beat["evidence_or_cost"], "writing_note": "end the scene with visible proof implication or irreversible cost"},
+        ]
         creature_visuals = [
             (f"{creature} crosses toward the humiliated protagonist while the crowd watches", f"the protagonist kneels, hides {creature}, and closes a protective hand around the {object_term}"),
             (f"{caregiver} carries food into the shelter while the protagonist refuses payment for pain", f"the protagonist places the {object_term} beside {creature} instead of selling access to it"),
@@ -127,6 +150,7 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
             "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
             "max_exposition_sentences": 2,
             "key_lines": key_lines,
+            "opposition_beats": opposition_beats,
         },
         "sound_design": {
             "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
