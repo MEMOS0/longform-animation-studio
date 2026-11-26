@@ -344,3 +344,12 @@ def test_compressed_format_requires_legible_engine():
     assert any("ultra-legible" in warning for warning in result["warnings"])
     result=format_strategy(11, "a giant father protects a baby from hunters")
     assert not any("ultra-legible" in warning for warning in result["warnings"])
+
+
+def test_compressed_complete_feature_guidance_crosses_duration_labels():
+    from studio.format_strategy import format_strategy
+    short=format_strategy(11.67, "a giant father protects a baby from hunters")
+    assert short["format_class"] == "short_feature"
+    assert any("every scene should advance" in item for item in short["recommendations"])
+    mid=format_strategy(35.07, "a scholarship student loves a hidden billionaire heir")
+    assert any("every scene should advance" in item for item in mid["recommendations"])

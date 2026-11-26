@@ -82,11 +82,18 @@ def infer_format_flags(text: str) -> dict[str, bool]:
 def format_strategy(target_minutes: float | int | None = None, premise_text: str = "", explicit_format: str = "") -> dict[str, Any]:
     flags = infer_format_flags(premise_text + " " + explicit_format)
     cls = explicit_format if explicit_format in BASE_RULES else duration_class(target_minutes, flags["compilation"])
+    if cls == "microdrama_episode" and target_minutes is not None and float(target_minutes) >= 8 and not flags["serialized"]:
+        cls = "short_feature"
     warnings: list[str] = []
     recommendations = list(BASE_RULES.get(cls, BASE_RULES["unspecified"]))
+    compressed_complete = target_minutes is not None and 10 <= float(target_minutes) <= 35 and not flags["serialized"]
+    density_rule = "Treat compression as a completeness constraint: every scene should advance danger, bond, cost, or reversal in at least two ways."
+    if compressed_complete and density_rule not in recommendations:
+        recommendations.insert(2, density_rule)
     if cls in {"microdrama_episode"} and not flags["serialized"]:
         warnings.append("short duration but no serial/episode packaging detected; decide whether this is a microdrama episode or compressed short feature")
-    if cls in {"microdrama_episode", "short_feature"} and not flags["serialized"] and not re.search(r"child|creature|dragon|wolf|mother|father|family|lover|protector|baby|heir|giant|scholarship|orphan|bride", premise_text.lower()):
+    compressed_engine_risk = compressed_complete or (cls in {"microdrama_episode", "short_feature"} and not flags["serialized"])
+    if compressed_engine_risk and not re.search(r"child|creature|dragon|wolf|mother|father|family|lover|protector|baby|heir|giant|scholarship|orphan|bride", premise_text.lower()):
         warnings.append("compressed formats currently depend on ultra-legible relational/class engines; abstract or lore-first premises are high risk at short duration")
     if flags["episodic"] and cls not in {"microdrama_episode", "compilation_or_complete_season"}:
         warnings.append("episodic labeling on a longer asset may reduce self-contained discovery value; prove the first episode can stand alone")
