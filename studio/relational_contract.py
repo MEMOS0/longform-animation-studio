@@ -12,7 +12,7 @@ REQUIRED_FIELDS = [
     "payoff_image",
 ]
 
-DENIAL_TERMS = ["no choice", "not free", "never free", "cannot choose", "can't choose", "denied choice", "without choice", "no agency", "not allowed to choose"]
+DENIAL_TERMS = ["not free to choose", "no choice", "not free", "never free", "cannot choose", "can't choose", "denied choice", "without choice", "no agency", "not allowed to choose"]
 REPAIR_TERMS = ["choice", "choose", "chosen", "consent", "person", "personhood", "free", "freedom", "name", "agency", "trust", "release"]
 PAST_MARKERS = ["once", "at first", "opening", "before", "previously", "used to", "initially"]
 CONTRAST_MARKERS = ["but", "however", "then", "later", "finally", "ultimately", "now", "becomes", "restores", "restored", "this time"]
@@ -51,7 +51,7 @@ def denial_is_unresolved(text: str) -> bool:
     """
     clauses = [
         clause.strip()
-        for clause in re.split(r"[.;]|but|however|yet|then|later|finally|ultimately|now|this time", text)
+        for clause in re.split(r"[.;]|\bbut\b|\bhowever\b|\byet\b|\bthen\b|\blater\b|\bfinally\b|\bultimately\b|\bnow\b|\bthis time\b", text)
         if clause.strip()
     ]
     unresolved = False
