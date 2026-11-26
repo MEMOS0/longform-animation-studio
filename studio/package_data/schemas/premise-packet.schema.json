@@ -1,0 +1,203 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Premise packet",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "premise_id",
+    "title_candidates",
+    "logline",
+    "audience_promise",
+    "emotional_engine",
+    "opening_event",
+    "failure_intelligence"
+  ],
+  "properties": {
+    "premise_id": {
+      "type": "string"
+    },
+    "title_candidates": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "string"
+      }
+    },
+    "logline": {
+      "type": "string",
+      "maxLength": 400
+    },
+    "audience_promise": {
+      "type": "string"
+    },
+    "emotional_engine": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "wound",
+        "want",
+        "need",
+        "injustice",
+        "protective_counterforce",
+        "belonging_payoff"
+      ],
+      "properties": {
+        "wound": {
+          "type": "string"
+        },
+        "want": {
+          "type": "string"
+        },
+        "need": {
+          "type": "string"
+        },
+        "injustice": {
+          "type": "string"
+        },
+        "protective_counterforce": {
+          "type": "string"
+        },
+        "belonging_payoff": {
+          "type": "string"
+        },
+        "secret_or_power_asymmetry": {
+          "type": "string"
+        },
+        "cost_of_failure": {
+          "type": "string"
+        }
+      }
+    },
+    "protagonist": {
+      "type": "object",
+      "properties": {
+        "identity": {
+          "type": "string"
+        },
+        "vulnerability": {
+          "type": "string"
+        },
+        "capability": {
+          "type": "string"
+        },
+        "agency_first_action": {
+          "type": "string"
+        },
+        "transformation": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "identity",
+        "vulnerability",
+        "capability",
+        "agency_first_action",
+        "transformation"
+      ]
+    },
+    "opening_event": {
+      "type": "object",
+      "required": [
+        "first_10_seconds",
+        "first_60_seconds",
+        "first_5_minutes"
+      ],
+      "properties": {
+        "first_10_seconds": {
+          "type": "string"
+        },
+        "first_60_seconds": {
+          "type": "string"
+        },
+        "first_5_minutes": {
+          "type": "string"
+        },
+        "dramatic_question": {
+          "type": "string"
+        }
+      }
+    },
+    "target_minutes": {
+      "type": "number",
+      "minimum": 0
+    },
+    "release_format": {
+      "type": "string"
+    },
+    "channel_contract": {
+      "type": "string"
+    },
+    "theme_lane": {
+      "type": "object",
+      "properties": {
+        "mythic_creature": {
+          "type": "string"
+        },
+        "family_or_heir_hook": {
+          "type": "string"
+        },
+        "romance_hook": {
+          "type": "string"
+        },
+        "modern_power_hook": {
+          "type": "string"
+        }
+      }
+    },
+    "failure_intelligence": {
+      "type": "object",
+      "required": [
+        "evaluation_path",
+        "nearest_failures",
+        "mitigations"
+      ],
+      "properties": {
+        "evaluation_path": {
+          "type": "string"
+        },
+        "nearest_failures": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "mitigations": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "counterexamples_checked": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "packaging": {
+      "type": "object",
+      "properties": {
+        "thumbnail_single_read": {
+          "type": "string"
+        },
+        "curiosity_gap": {
+          "type": "string"
+        },
+        "visual_before_after": {
+          "type": "string"
+        },
+        "title_thumbnail_mismatch_risk": {
+          "type": "string"
+        }
+      }
+    },
+    "evidence_boundaries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

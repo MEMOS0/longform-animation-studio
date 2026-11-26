@@ -3,10 +3,12 @@ from __future__ import annotations
 
 import json
 import re
+import importlib.resources
 from pathlib import Path
 from typing import Any
 
-DEFAULT_PATH = Path(__file__).resolve().parents[1] / "knowledge" / "market" / "channel_contracts.json"
+REPO_PATH = Path(__file__).resolve().parents[1] / "knowledge" / "market" / "channel_contracts.json"
+DEFAULT_PATH = REPO_PATH if REPO_PATH.exists() else importlib.resources.files("studio") / "package_data" / "channel_contracts.json"
 
 
 def load_contracts(path: Path = DEFAULT_PATH) -> dict[str, Any]:

@@ -1,0 +1,267 @@
+{
+  "creature_protection_feature": {
+    "reference_channels": [
+      "Epic AI Films",
+      "Ironcrest Pictures"
+    ],
+    "positive_signals": [
+      "baby",
+      "child",
+      "creature",
+      "dragon",
+      "wolf",
+      "protects",
+      "rescues",
+      "mother",
+      "family",
+      "giant",
+      "dog",
+      "parent",
+      "infant",
+      "monster",
+      "misunderstood"
+    ],
+    "opening_rules": [
+      "show the vulnerable creature/child or immediate threat within 90 seconds",
+      "tie spectacle to protection rather than scale alone",
+      "pay the creature bond visually in the first 5 minutes",
+      "when scale is central, frame the powerful creature/giant as a misunderstood protector or parent rather than spectacle alone"
+    ],
+    "risk_patterns": [
+      "diffuse disaster montage",
+      "adult competence without vulnerability gradient",
+      "lore/court exposition before embodied threat"
+    ],
+    "thumbnail_rules": [
+      "relational scale contrast",
+      "emotionally readable creature/child or protector",
+      "avoid generic crown/army/trailer collage"
+    ],
+    "evidence": [
+      "knowledge/market/epic-deep-dive.md",
+      "knowledge/market/ironcrest-deep-dive.md",
+      "knowledge/market/expanded-breakout-deep-dive.md"
+    ]
+  },
+  "transformation_melodrama": {
+    "reference_channels": [
+      "FablePop",
+      "Nov Drama"
+    ],
+    "positive_signals": [
+      "ugly",
+      "reborn",
+      "beautiful",
+      "adopted",
+      "maid",
+      "pretended",
+      "poor",
+      "secret",
+      "transformed",
+      "daughter",
+      "family",
+      "assassin",
+      "boss",
+      "billionaire",
+      "beggar",
+      "schoolgirl",
+      "disguise",
+      "competence",
+      "professional",
+      "ceo"
+    ],
+    "opening_rules": [
+      "open on wound/shame or social test",
+      "create information asymmetry quickly",
+      "make transformation social and emotional, not only cosmetic",
+      "give the wounded protagonist an active test, plan, or competence inversion rather than passive suffering alone",
+      "let hidden competence become public professional/social authority, not only romantic rescue"
+    ],
+    "risk_patterns": [
+      "whimsy without injustice",
+      "static hidden identity",
+      "revenge without belonging",
+      "wealth rescue without protagonist agency"
+    ],
+    "thumbnail_rules": [
+      "legible before/after or beauty/status contrast",
+      "emotionally readable female face",
+      "avoid crowded whimsical imagery unless transformation is clear"
+    ],
+    "evidence": [
+      "knowledge/market/cross-channel-hit-failure-deep-dives.md",
+      "knowledge/market/expanded-breakout-deep-dive.md"
+    ]
+  },
+  "mythic_adventure": {
+    "reference_channels": [
+      "The Next Show"
+    ],
+    "positive_signals": [
+      "sinbad",
+      "aladdin",
+      "odyssey",
+      "jason",
+      "voyage",
+      "island",
+      "creature",
+      "survival",
+      "giant"
+    ],
+    "opening_rules": [
+      "show physical danger/survival before lore",
+      "use sparse physical dialogue",
+      "make geography and bodily cost legible"
+    ],
+    "risk_patterns": [
+      "abstract obsidian/realm/god-trial exposition",
+      "original mythology without emotional grounding",
+      "continuation before a complete setpiece payoff"
+    ],
+    "thumbnail_rules": [
+      "recognizable mythic frame",
+      "golden cinematic scale",
+      "creature/environment threat readable at mobile size"
+    ],
+    "evidence": [
+      "knowledge/market/cross-channel-hit-failure-deep-dives.md"
+    ]
+  },
+  "serialized_creature_franchise": {
+    "reference_channels": [
+      "RIFTBORN CINEMA"
+    ],
+    "positive_signals": [
+      "enslaved",
+      "arena",
+      "beast",
+      "dragon",
+      "episode",
+      "season",
+      "compilation",
+      "complete"
+    ],
+    "opening_rules": [
+      "lead with bodily vulnerability/injustice",
+      "avoid mid-journey travel exposition as the discovery opening",
+      "prefer complete arcs or compilation packaging"
+    ],
+    "risk_patterns": [
+      "fragmented episode without self-contained contract",
+      "transition-only ending",
+      "franchise continuity assumed as value"
+    ],
+    "thumbnail_rules": [
+      "monster/protagonist conflict",
+      "completeness/scale promise",
+      "avoid part-number-first fragmentation"
+    ],
+    "evidence": [
+      "knowledge/market/cross-channel-hit-failure-deep-dives.md"
+    ]
+  },
+  "korean_niche_microdrama": {
+    "reference_channels": [
+      "Crateh-ranked Korean channels"
+    ],
+    "positive_signals": [
+      "bl",
+      "regression",
+      "empress",
+      "royal",
+      "revenge",
+      "contract",
+      "secret",
+      "obsession",
+      "time-slip",
+      "general"
+    ],
+    "opening_rules": [
+      "declare the niche trope almost immediately",
+      "use face-dense emotion and direct subtitles",
+      "create one dominant relational/power question per episode"
+    ],
+    "risk_patterns": [
+      "generic slow cinema pacing",
+      "broad appeal dilution",
+      "episode without trope clarity"
+    ],
+    "thumbnail_rules": [
+      "large faces",
+      "romantic/power tension",
+      "immediate trope readability"
+    ],
+    "evidence": [
+      "knowledge/market/korean-breakout-deep-dive.md"
+    ]
+  },
+  "exploration_wonder_feature": {
+    "reference_channels": [
+      "36 Drakenhart Studio"
+    ],
+    "positive_signals": [
+      "hidden kingdom",
+      "tiny kingdom",
+      "cave",
+      "explorer",
+      "artifact",
+      "creature",
+      "city",
+      "elder",
+      "wonder",
+      "discovery"
+    ],
+    "opening_rules": [
+      "open with tactile mystery or physical exploration before exposition",
+      "turn discovery into care/capture/social stakes by minute 3-5",
+      "end with belonging/gift/return that answers the opening curiosity"
+    ],
+    "risk_patterns": [
+      "wonder montage without jeopardy",
+      "abstract lore before object-level discovery",
+      "hidden world that never becomes socially specific"
+    ],
+    "thumbnail_rules": [
+      "tiny hidden world/object scale contrast",
+      "explorer emotion plus bioluminescent or miniature civilization cue",
+      "avoid generic fantasy collage"
+    ],
+    "evidence": [
+      "knowledge/market/recent-breakout-media-deep-dive.md"
+    ]
+  },
+  "hostile_survival_spectacle": {
+    "reference_channels": [
+      "Neural Pictures"
+    ],
+    "positive_signals": [
+      "crash",
+      "island",
+      "giant insect",
+      "flight attendant",
+      "survive",
+      "escape",
+      "monster",
+      "disaster",
+      "stranded"
+    ],
+    "opening_rules": [
+      "make the impossible threat visible in seconds",
+      "anchor spectacle in one ordinary professional or relational figure",
+      "use bodily problem-solving rather than lore"
+    ],
+    "risk_patterns": [
+      "spectacle montage without a focal survivor",
+      "threat visible but no active escape problem",
+      "generic disaster scale"
+    ],
+    "thumbnail_rules": [
+      "one instantly readable oversized threat plus ordinary human scale",
+      "clean high-concept object/plane/island cue",
+      "avoid cluttered multi-threat collage"
+    ],
+    "evidence": [
+      "knowledge/market/recent-breakout-media-deep-dive.md"
+    ]
+  }
+}

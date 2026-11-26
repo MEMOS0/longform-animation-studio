@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import re
+import importlib.resources
 from pathlib import Path
 from typing import Any
 
@@ -18,7 +19,8 @@ from .dialogue_craft import evaluate_scenes_dialogue
 from .agency_intelligence import evaluate_agency
 from .sound_design import evaluate_sound_design
 
-SCHEMA_DIR = Path(__file__).resolve().parents[1] / "schemas"
+REPO_SCHEMA_DIR = Path(__file__).resolve().parents[1] / "schemas"
+SCHEMA_DIR = REPO_SCHEMA_DIR if REPO_SCHEMA_DIR.exists() else importlib.resources.files("studio") / "package_data" / "schemas"
 
 
 def load_json(path: Path) -> Any:

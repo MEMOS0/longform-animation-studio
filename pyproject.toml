@@ -29,3 +29,6 @@ include = ["studio*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[tool.setuptools.package-data]
+studio = ["package_data/schemas/*.json", "package_data/channel_contracts.json"]
