@@ -49,7 +49,9 @@ def infer_snapshot_date(rows: list[dict[str, Any]]) -> date:
                 scraped.append(datetime.fromisoformat(value.replace("Z", "+00:00")).date())
             except ValueError:
                 pass
-    return max(scraped) if scraped else date.today()
+    if scraped:
+        return max(scraped)
+    raise ValueError("snapshot date is not inferable from archive scrape timestamps; pass snapshot_date explicitly")
 
 
 def add_outcomes(rows: list[dict[str, Any]], snapshot_date: date | None = None) -> list[dict[str, Any]]:
