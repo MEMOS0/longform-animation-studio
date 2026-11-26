@@ -191,3 +191,11 @@ def test_exact_storyboards_s01_s02_valid():
         result = validate_storyboard_file(f"examples/stormglass_keepers/storyboards/{scene}_storyboard.json")
         assert result["valid"], result
         assert result["covered_seconds"] == 300.0
+
+def test_director_seed_storyboards_continuous():
+    from pathlib import Path
+    from studio.storyboard import validate_storyboard_file
+    files = sorted(Path("examples/stormglass_keepers/director_seed_storyboards").glob("*.json"))
+    assert len(files) == 8
+    for path in files:
+        assert validate_storyboard_file(path)["valid"], path

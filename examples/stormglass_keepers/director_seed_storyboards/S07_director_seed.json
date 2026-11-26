@@ -1,0 +1,472 @@
+{
+  "scene_id": "S07",
+  "duration_seconds": 420,
+  "coverage": "continuous_exact_format_director_seed",
+  "shots": [
+    {
+      "shot_id": "S07_DS001",
+      "timecode": "0.0-18.3",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "wide establishing",
+      "camera_intent": "slow push",
+      "visual_action": "a giant storm eye opening above the capital",
+      "dialogue": "none",
+      "sound_design": "drop music before each bonding or revelation beat so breath, scale chimes, and creature calls carry meaning",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: open on the scene image"
+    },
+    {
+      "shot_id": "S07_DS002",
+      "timecode": "18.3-36.5",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "wide establishing",
+      "camera_intent": "slow push",
+      "visual_action": "a giant storm eye opening above the capital",
+      "dialogue": "none",
+      "sound_design": "drop music before each bonding or revelation beat so breath, scale chimes, and creature calls carry meaning",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: open on the scene image"
+    },
+    {
+      "shot_id": "S07_DS003",
+      "timecode": "36.5-54.8",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "intimate closeup",
+      "camera_intent": "settle",
+      "visual_action": "the child's face answering the parent's call",
+      "dialogue": "none",
+      "sound_design": "breath and room tone",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+    },
+    {
+      "shot_id": "S07_DS004",
+      "timecode": "54.8-73.0",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "intimate closeup",
+      "camera_intent": "settle",
+      "visual_action": "the child's face answering the parent's call",
+      "dialogue": "none",
+      "sound_design": "breath and room tone",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+    },
+    {
+      "shot_id": "S07_DS005",
+      "timecode": "73.0-91.3",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "action wide",
+      "camera_intent": "lateral track",
+      "visual_action": "expose Rook and stop the weaponized storm channel",
+      "dialogue": "none",
+      "sound_design": "environmental action foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
+    },
+    {
+      "shot_id": "S07_DS006",
+      "timecode": "91.3-109.6",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "action wide",
+      "camera_intent": "lateral track",
+      "visual_action": "expose Rook and stop the weaponized storm channel",
+      "dialogue": "none",
+      "sound_design": "environmental action foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
+    },
+    {
+      "shot_id": "S07_DS007",
+      "timecode": "109.6-127.8",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "action wide",
+      "camera_intent": "lateral track",
+      "visual_action": "expose Rook and stop the weaponized storm channel",
+      "dialogue": "none",
+      "sound_design": "environmental action foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
+    },
+    {
+      "shot_id": "S07_DS008",
+      "timecode": "127.8-146.1",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "power two-shot",
+      "camera_intent": "slow tightening",
+      "visual_action": "the parent creature is chained beneath the vault and the capital is watching",
+      "dialogue": "Pain makes it obey. Trust makes it answer.",
+      "sound_design": "dialogue remains intelligible under weather and crowd effects",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+    },
+    {
+      "shot_id": "S07_DS009",
+      "timecode": "146.1-164.3",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "power two-shot",
+      "camera_intent": "slow tightening",
+      "visual_action": "the parent creature is chained beneath the vault and the capital is watching",
+      "dialogue": "Pain makes it obey. Trust makes it answer.",
+      "sound_design": "dialogue remains intelligible under weather and crowd effects",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+    },
+    {
+      "shot_id": "S07_DS010",
+      "timecode": "164.3-182.6",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "decision insert",
+      "camera_intent": "macro",
+      "visual_action": "Mira steps into the vault rather than escaping",
+      "dialogue": "none",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+    },
+    {
+      "shot_id": "S07_DS011",
+      "timecode": "182.6-200.9",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "decision insert",
+      "camera_intent": "macro",
+      "visual_action": "Mira steps into the vault rather than escaping",
+      "dialogue": "none",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+    },
+    {
+      "shot_id": "S07_DS012",
+      "timecode": "200.9-219.1",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "decision insert",
+      "camera_intent": "macro",
+      "visual_action": "Mira steps into the vault rather than escaping",
+      "dialogue": "none",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+    },
+    {
+      "shot_id": "S07_DS013",
+      "timecode": "219.1-237.4",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "private protection becomes public truth",
+      "dialogue": "none",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+    },
+    {
+      "shot_id": "S07_DS014",
+      "timecode": "237.4-255.7",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "private protection becomes public truth",
+      "dialogue": "none",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+    },
+    {
+      "shot_id": "S07_DS015",
+      "timecode": "255.7-273.9",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "vertical composition",
+      "camera_intent": "high or low angle",
+      "visual_action": "vast vertical shaft with tiny figures below",
+      "dialogue": "none",
+      "sound_design": "negative space",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
+    },
+    {
+      "shot_id": "S07_DS016",
+      "timecode": "273.9-292.2",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "vertical composition",
+      "camera_intent": "high or low angle",
+      "visual_action": "vast vertical shaft with tiny figures below",
+      "dialogue": "none",
+      "sound_design": "negative space",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
+    },
+    {
+      "shot_id": "S07_DS017",
+      "timecode": "292.2-310.4",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "subtext closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "Protection means risking attachment without turning love into control.",
+      "dialogue": "You don't save a child by becoming its cage.",
+      "sound_design": "lullaby motif evolves with trust rather than constant emotional wallpaper",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+    },
+    {
+      "shot_id": "S07_DS018",
+      "timecode": "310.4-328.7",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "subtext closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "Protection means risking attachment without turning love into control.",
+      "dialogue": "You don't save a child by becoming its cage.",
+      "sound_design": "lullaby motif evolves with trust rather than constant emotional wallpaper",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+    },
+    {
+      "shot_id": "S07_DS019",
+      "timecode": "328.7-347.0",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "subtext closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "Protection means risking attachment without turning love into control.",
+      "dialogue": "You don't save a child by becoming its cage.",
+      "sound_design": "lullaby motif evolves with trust rather than constant emotional wallpaper",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+    },
+    {
+      "shot_id": "S07_DS020",
+      "timecode": "347.0-365.2",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "consequence wide",
+      "camera_intent": "backward track",
+      "visual_action": "consequence of Mira steps into the vault rather than escaping",
+      "dialogue": "none",
+      "sound_design": "consequence foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
+    },
+    {
+      "shot_id": "S07_DS021",
+      "timecode": "365.2-383.5",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "consequence wide",
+      "camera_intent": "backward track",
+      "visual_action": "consequence of Mira steps into the vault rather than escaping",
+      "dialogue": "none",
+      "sound_design": "consequence foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
+    },
+    {
+      "shot_id": "S07_DS022",
+      "timecode": "383.5-401.7",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "final image",
+      "camera_intent": "slow pull-back",
+      "visual_action": "total silence as child and parent hear each other",
+      "dialogue": "Pain makes it obey. Trust makes it answer.",
+      "sound_design": "three-note lullaby answered by glassy creature harmonics unresolved",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power"
+    },
+    {
+      "shot_id": "S07_DS023",
+      "timecode": "401.7-420.0",
+      "duration_seconds": 18.26,
+      "scene_id": "S07",
+      "shot_size": "final image",
+      "camera_intent": "slow pull-back",
+      "visual_action": "total silence as child and parent hear each other",
+      "dialogue": "Pain makes it obey. Trust makes it answer.",
+      "sound_design": "three-note lullaby answered by glassy creature harmonics unresolved",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power"
+    }
+  ],
+  "validation_rules": [
+    "seed must be manually/directorially refined before production",
+    "no gaps or overlaps",
+    "sound and power transitions must remain explicit"
+  ]
+}
