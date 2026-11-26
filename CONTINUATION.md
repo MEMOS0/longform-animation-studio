@@ -79,3 +79,23 @@ Immediate next highest-value work:
 3. Deepen exact director-level shot replacement for Stormglass continuous scaffold; current slots are coverage scaffolding, not final storyboard art.
 4. Validate external video provider terms/pricing immediately before any paid generation; no secrets exist in session and no spending is authorized.
 5. Continue converting empirical rules into machine gates, especially agency/competence inversion and social-test structures.
+
+
+## 2026-11-26 rollover checkpoint — storyboard and agency gates
+
+Latest pushed commit: `87c0754 Add protagonist agency intelligence`.
+
+Since previous checkpoint:
+
+- `examples/stormglass_keepers/storyboards/S01_storyboard.json` adds 34 exact continuous director-level shots covering all 300 seconds of opening scene S01, with timecodes, shot size, camera intent, visual action, dialogue, sound, lane, and continuity dependencies.
+- `studio/storyboard.py` validates continuous exact storyboards; tests now 17 passing.
+- `studio/agency_intelligence.py` adds evidence-informed machine checks for active protagonist agency, competence inversion, rescue-without-agency risk, and circular payoff. Integrated into production evaluation.
+- Stormglass production evaluation regenerated with agency intelligence score 1.0; this confirms the example embodies the desired mechanism, though heuristic remains broad and should not be overtrusted as prediction.
+
+Immediate next work:
+
+1. Read Devin Review findings for commit `87c0754` when ready; fix only concrete findings.
+2. Extend exact director storyboards beyond S01 or build a controlled generator that converts continuous scaffold slots into exact shots scene by scene.
+3. Continue recent breakout discovery and analyze additional low-base channels.
+4. Deepen sound/music evidence into timestamped sound-design notes; current sound design is craft-level but less empirically timestamped than visual/subtitle evidence.
+5. Do not spend money or create provider accounts; no secrets exist in session.
