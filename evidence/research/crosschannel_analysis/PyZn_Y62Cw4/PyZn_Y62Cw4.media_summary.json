@@ -1,0 +1,57 @@
+{
+  "video_id": "PyZn_Y62Cw4",
+  "probe": {
+    "duration": 1413.723719,
+    "size": 85063732,
+    "width": 640,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "C:\\Users\\Administrator\\crosschannel_analysis\\PyZn_Y62Cw4\\contact_sheets\\contact_000.jpg",
+    "C:\\Users\\Administrator\\crosschannel_analysis\\PyZn_Y62Cw4\\contact_sheets\\contact_001.jpg",
+    "C:\\Users\\Administrator\\crosschannel_analysis\\PyZn_Y62Cw4\\contact_sheets\\contact_002.jpg",
+    "C:\\Users\\Administrator\\crosschannel_analysis\\PyZn_Y62Cw4\\contact_sheets\\contact_003.jpg"
+  ],
+  "seconds_indexed": 1414,
+  "shot_count": 44,
+  "shot_length_mean_seconds": 32.13636363636363,
+  "shot_length_median_seconds": 16.5,
+  "shot_length_p90_seconds": 60.0,
+  "visual_motion_mean": 0.12455665055778314,
+  "visual_brightness_mean": 0.33213949907581614,
+  "dialogue_cues": 392,
+  "narrative_markers": {
+    "first_conflict_language": null,
+    "first_power_or_identity_language": null,
+    "first_care_or_belonging_language": null,
+    "dialogue_words_per_minute": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "cue_count": 392
+  }
+}

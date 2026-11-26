@@ -1,0 +1,87 @@
+{
+  "video_id": "bHCI5XUSppM",
+  "probe": {
+    "duration": 2487.530522,
+    "size": 144871870,
+    "width": 640,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "C:\\Users\\Administrator\\crosschannel_analysis\\bHCI5XUSppM\\contact_sheets\\contact_000.jpg",
+    "C:\\Users\\Administrator\\crosschannel_analysis\\bHCI5XUSppM\\contact_sheets\\contact_001.jpg",
+    "C:\\Users\\Administrator\\crosschannel_analysis\\bHCI5XUSppM\\contact_sheets\\contact_002.jpg",
+    "C:\\Users\\Administrator\\crosschannel_analysis\\bHCI5XUSppM\\contact_sheets\\contact_003.jpg",
+    "C:\\Users\\Administrator\\crosschannel_analysis\\bHCI5XUSppM\\contact_sheets\\contact_004.jpg",
+    "C:\\Users\\Administrator\\crosschannel_analysis\\bHCI5XUSppM\\contact_sheets\\contact_005.jpg",
+    "C:\\Users\\Administrator\\crosschannel_analysis\\bHCI5XUSppM\\contact_sheets\\contact_006.jpg"
+  ],
+  "seconds_indexed": 2487,
+  "shot_count": 76,
+  "shot_length_mean_seconds": 32.723684210526315,
+  "shot_length_median_seconds": 9.0,
+  "shot_length_p90_seconds": 125.0,
+  "visual_motion_mean": 0.1352238446191533,
+  "visual_brightness_mean": 0.3777814013300093,
+  "dialogue_cues": 981,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 1.839,
+      "text": "So, this is how I die."
+    },
+    "first_power_or_identity_language": {
+      "time": 14.48,
+      "text": "And this? A shoe that moves by magic."
+    },
+    "first_care_or_belonging_language": {
+      "time": 67.92,
+      "text": "No home, no money. I was reborn as a"
+    },
+    "dialogue_words_per_minute": [
+      112,
+      147,
+      107,
+      100,
+      87,
+      104,
+      133,
+      137,
+      126,
+      193,
+      141,
+      170,
+      161,
+      152,
+      123,
+      121,
+      113,
+      110,
+      120,
+      126,
+      123,
+      78,
+      128,
+      113,
+      85,
+      154,
+      136,
+      133,
+      129,
+      119,
+      132,
+      100,
+      115,
+      109,
+      125,
+      89,
+      140,
+      155,
+      116,
+      87,
+      90,
+      60
+    ],
+    "cue_count": 981
+  }
+}

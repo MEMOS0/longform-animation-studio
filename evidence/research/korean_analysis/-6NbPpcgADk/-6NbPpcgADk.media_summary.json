@@ -1,0 +1,30 @@
+{
+  "video_id": "-6NbPpcgADk",
+  "probe": {
+    "duration": 435.977868,
+    "size": 23362818,
+    "width": 640,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "C:\\Users\\Administrator\\korean_analysis\\-6NbPpcgADk\\contact_sheets\\contact_000.jpg",
+    "C:\\Users\\Administrator\\korean_analysis\\-6NbPpcgADk\\contact_sheets\\contact_001.jpg"
+  ],
+  "seconds_indexed": 436,
+  "shot_count": 15,
+  "shot_length_mean_seconds": 29.066666666666666,
+  "shot_length_median_seconds": 14.0,
+  "shot_length_p90_seconds": 64.6,
+  "visual_motion_mean": 0.09743810216084532,
+  "visual_brightness_mean": 0.2477056050519331,
+  "dialogue_cues": 0,
+  "narrative_markers": {
+    "first_conflict_language": null,
+    "first_power_or_identity_language": null,
+    "first_care_or_belonging_language": null,
+    "dialogue_words_per_minute": [],
+    "cue_count": 0
+  }
+}
