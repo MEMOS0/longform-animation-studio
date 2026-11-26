@@ -123,6 +123,8 @@ Every scene must answer:
 
 If a scene only repeats information, compress it, combine it, or delete it.
 
+**Muted-intelligibility rule:** every scene should remain broadly intelligible with the sound off. Write the entry image as a readable physical action, not a mood; write the exit image as a changed object/body/space consequence. Epicverse hit/low evidence shows that strong creature imagery alone is not enough: scale or spectacle must convert into repeated care behavior, protection cost, and a home/family transformation. Use `studio/visual_causality.py` as a transparent heuristic, then make the final creative judgment as a director.
+
 ### Long-form pacing
 
 Long duration is not stuffing. A long film needs modular escalation:
