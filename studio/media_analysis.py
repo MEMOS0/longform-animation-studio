@@ -104,10 +104,39 @@ def parse_ttml(path: Path | None) -> list[dict[str, Any]]:
             if not text:
                 continue
             cues.append({"start": parse_time(begin_raw.replace(",", ".")), "end": parse_time(end_raw.replace(",", ".")), "text": text})
+        ordered = sorted(cues, key=lambda cue: cue["start"])
         deduped = []
-        for cue in sorted(cues, key=lambda cue: cue["start"]):
+        for index, cue in enumerate(ordered):
+            duration = cue["end"] - cue["start"]
+            if duration <= 0.02:
+                neighbors = []
+                if deduped:
+                    neighbors.append(deduped[-1])
+                if index + 1 < len(ordered):
+                    neighbors.append(ordered[index + 1])
+                if cue["text"] and any(cue["text"] in neighbor.get("text", "") for neighbor in neighbors):
+                    continue
             if deduped and cue["start"] == deduped[-1]["start"] and cue["text"] == deduped[-1]["text"]:
                 continue
+            if deduped and cue["text"] == deduped[-1]["text"] and cue["start"] < deduped[-1]["end"]:
+                deduped[-1]["end"] = max(deduped[-1]["end"], cue["end"])
+                continue
+            cue = dict(cue)
+            if deduped and cue["start"] <= deduped[-1]["end"] + 0.05:
+                previous_text = deduped[-1].get("full_text", deduped[-1]["text"])
+                text = cue["text"]
+                overlap = len(previous_text) if text.startswith(previous_text) else 0
+                if not overlap:
+                    max_overlap = min(len(previous_text), len(text))
+                    for size in range(max_overlap, 11, -1):
+                        if text.startswith(previous_text[-size:]):
+                            overlap = size
+                            break
+                if overlap:
+                    cue["full_text"] = text
+                    cue["text"] = text[overlap:].strip()
+                    if not cue["text"]:
+                        continue
             deduped.append(cue)
         return deduped
     root = ET.fromstring(raw)

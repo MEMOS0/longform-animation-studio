@@ -415,3 +415,11 @@ def test_storyboard_production_manifest_export(tmp_path):
     first=out['shots'][0]
     assert 'watermark' in first['negative_prompt']
     assert first['qa_checks']
+
+
+def test_webvtt_drops_zero_duration_duplicate_caption(tmp_path):
+    from studio.media_analysis import parse_ttml
+    p=tmp_path/'captions.vtt'
+    p.write_text("WEBVTT\n\n00:00:01.000 --> 00:00:02.000\nHello there.\n\n00:00:02.000 --> 00:00:02.010\nHello there.\n",encoding='utf8')
+    cues=parse_ttml(p)
+    assert len(cues)==1
