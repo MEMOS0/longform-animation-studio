@@ -41,3 +41,18 @@ def test_thumbnail_concepts_generate_and_critique():
     critique = critique_concept(concepts[0])
     assert critique["score_0_to_1"] > 0.5
     assert "CTR" in critique["ctr_caveat"]
+
+
+def test_cross_channel_spectacle_pattern():
+    script = "Earthquake. Global disaster. Cities collapse. Armies move. The planet shakes." * 20
+    flags = candidate_flags("Earthquake: The End of the World", script)
+    matches = evaluate_patterns(flags)
+    assert any(match["id"] == "spectacle_scale_without_relational_anchor" for match in matches)
+
+
+def test_format_strategy_warns_fragmented_long_episode():
+    from studio.format_strategy import format_strategy
+    result = format_strategy(42, "Episode 08 continues the journey across the island. To be continued.")
+    assert result["format_class"] == "mid_length_feature"
+    assert result["warnings"]
+    assert any("continuation" in rec.lower() for rec in result["recommendations"])

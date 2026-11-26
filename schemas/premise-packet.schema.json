@@ -117,6 +117,13 @@
         }
       }
     },
+    "target_minutes": {
+      "type": "number",
+      "minimum": 0
+    },
+    "release_format": {
+      "type": "string"
+    },
     "theme_lane": {
       "type": "object",
       "properties": {

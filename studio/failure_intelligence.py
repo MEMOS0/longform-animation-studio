@@ -111,6 +111,42 @@ DEFAULT_PATTERNS: list[dict[str, Any]] = [
         "risk_logic": "Humiliation only creates engagement when it opens a measurable injustice question and the protagonist gains allies/agency.",
         "mitigation": "Track every suffering scene: it must create a new alliance, capability, clue, or active decision; otherwise compress or remove it.",
     },
+    {
+        "id": "spectacle_scale_without_relational_anchor",
+        "label": "Large-scale spectacle arrives before a specific vulnerable person/creature or relationship",
+        "signals": ["spectacle_first_opening", "weak_relational_anchor"],
+        "evidence_strength": "cross_channel_timestamped_observational",
+        "archive_signal": "Epic's diffuse Earthquake disaster montage underperformed creature-protection films; RIFTBORN/The Next Show lows also ask viewers to care about scale, realms, or journey mechanics before a person.",
+        "risk_logic": "Destruction, armies, monsters, and world scale become noise when the audience does not yet know whom to protect or love.",
+        "mitigation": "Within the first 90 seconds, tie spectacle to a visible vulnerable object and a protector's costly choice; make scale threaten someone specific.",
+    },
+    {
+        "id": "abstract_quest_lore_before_embodied_stakes",
+        "label": "Quest objects, realms, gods, gates, or prophecy are explained before embodied survival/emotional stakes",
+        "signals": ["abstract_quest_lore_opening", "weak_opening_wound_care_loop"],
+        "evidence_strength": "cross_channel_timestamped_observational",
+        "archive_signal": "The Next Show's lower-performing ARKAN opening foregrounds black obsidian, realms, god trials, and quest logistics; its Sinbad hit foregrounds creature attack, injury, canyon survival, and sparse physical dialogue.",
+        "risk_logic": "Abstract mythology raises cognitive load and delays emotional commitment, especially when the IP is not already familiar.",
+        "mitigation": "Show the body-level problem first: pursuit, injury, hunger, separation, capture, or protection. Let quest lore answer a problem the viewer already feels.",
+    },
+    {
+        "id": "fragmented_episode_without_self_contained_contract",
+        "label": "An episode/part begins mid-journey and depends on prior serial knowledge instead of creating a self-contained emotional contract",
+        "signals": ["fragmented_episode_packaging", "mid_story_entry"],
+        "evidence_strength": "cross_channel_format_observational",
+        "archive_signal": "RIFTBORN's BEASTBOUND compilation massively outperformed a visually rich mid-series island episode that began as travel/exploration and ended as a transition.",
+        "risk_logic": "New viewers cannot infer why they should care when the opening assumes relationships, danger, and progression from unseen episodes.",
+        "mitigation": "Give each episode one self-contained wound/goal/protection problem and one meaningful payoff, even inside a serial. For discovery, prefer complete-arc or compilation packaging.",
+    },
+    {
+        "id": "promise_payoff_delayed_until_finale",
+        "label": "The title/thumbnail promise is not visibly paid or meaningfully escalated in the opening movement",
+        "signals": ["delayed_promise_payoff", "weak_opening_wound_care_loop"],
+        "evidence_strength": "cross_channel_timestamped_observational",
+        "archive_signal": "Nov and Epic hits place child/creature transformation/protection evidence early; weaker examples often reserve transformation, creature bonding, or relational warmth for late scenes.",
+        "risk_logic": "Long-form viewers tolerate serialization, but they need early proof that the advertised fantasy is real rather than a finale-only reveal.",
+        "mitigation": "Pay the premise visually within the first 5 minutes, then escalate the cost. The finale should deepen the promise, not be the first time it appears.",
+    },
 ]
 
 
@@ -181,6 +217,12 @@ def candidate_flags(candidate_text: str, script_text: str = "") -> dict[str, boo
         "adult_misery_opening": bool(script_text and re.search(r"pregnan|cheat|affair|miscarriage|termination|forced|coerc|domestic|rape|sexual", opening_text.lower())),
         "unresolved_or_procedural_ending": bool(script_text and ending_wound >= max(ending_warmth + 2, 4) and not re.search(r"belonging payoff|publicly accept|family acceptance|chosen love|child safety|celebration|transformed future|home", full)),
         "production_artifact_risk": bool(re.search(r"censor|blur|mosaic|muted|missing sound|loud music|audio dropout|watermark|sudden cut|continuity error", full)),
+        "spectacle_first_opening": bool(opening_text and re.search(r"earthquake|asteroid|tsunami|apocalypse|end of the world|invasion|army|war|battle|city falls|planet|global|disaster|monster attack", opening_text.lower())),
+        "weak_relational_anchor": not bool(re.search(r"child|baby|daughter|son|mother|father|family|protector|protects|rescues|saves|dragon cub|wolf pup|creature child|loved one|pregnant|heir", opening_text.lower() or full)),
+        "abstract_quest_lore_opening": bool(opening_text and re.search(r"obsidian|realm|gate|portal|prophecy|chosen one|ancient|gods?|trial|quest|artifact|relic|crown|bloodline|clan", opening_text.lower())),
+        "fragmented_episode_packaging": bool(re.search(r"\b(episode|ep\.?|part)\s*\d+\b|\bseason\s*\d+\b|to be continued|previously on", full)),
+        "mid_story_entry": bool(script_text and re.search(r"previously on|we continue|back on the island|meanwhile|after last|next morning", opening_text.lower()) or (script_text and opening_wound == 0 and opening_care == 0 and not re.search(r"attack|escape|capture|injur|thrown|abandon|reject|rescue|save", opening_text.lower()))),
+        "delayed_promise_payoff": bool(script_text and not re.search(r"appears|attacks|rescues|saves|protects|transforms|reveals|hatches|shifts|bonds|claims|escapes|is exposed", opening_text.lower())),
     })
     for theme in ("family_child", "animal_child", "dragon", "wolf_werewolf", "vampire", "sea_mermaid", "romance_mate", "modern_wealth_power", "revenge_retribution"):
         flags.setdefault(theme, theme in themes)
@@ -232,6 +274,12 @@ def missing_positive_mechanisms(flags: dict[str, bool]) -> list[str]:
         missing.append("No explicit status reversal detected in the surface promise.")
     if not any(flags.get(theme) for theme in ("dragon", "wolf_werewolf", "vampire", "sea_mermaid")):
         missing.append("No clear mythic creature lane detected; test whether the concept matches the channel audience's demand.")
+    if flags.get("weak_relational_anchor"):
+        missing.append("No specific relational/vulnerable anchor detected early; cross-channel evidence favors a visible child, creature, family member, lover, or protected person over abstract scale.")
+    if flags.get("delayed_promise_payoff"):
+        missing.append("No early visual proof of the title/thumbnail promise detected; pay the premise in the opening movement rather than reserving it for the finale.")
+    if flags.get("fragmented_episode_packaging") and flags.get("mid_story_entry"):
+        missing.append("Episode packaging appears fragmented/mid-story; add a self-contained emotional contract or prefer compilation/complete-arc packaging for discovery.")
     return missing
 
 
