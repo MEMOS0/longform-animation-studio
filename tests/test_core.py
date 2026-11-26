@@ -582,8 +582,21 @@ def test_closure_integrity_scene_boilerplate_and_early_recovery_do_not_mask_late
     from studio.closure_integrity import evaluate_closure_integrity
     arch={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"she destroys the water array during the climax"}]}
     boiler=[{"scene_id":"S08","subtext":"Belonging is chosen when the wound-space becomes reversible and shared."}]
-    early=[{"scene_id":"S08","turn":"the community rebuilds early"}]
+    early=[{"scene_id":"S08","turn":"the community rebuilds before the collapse"}]
     recovery=[{"scene_id":"S08","turn":"the community rebuilds a shared water system"}]
     assert any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},arch,boiler)['warnings'])
     assert any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},arch,early)['warnings'])
     assert not any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},arch,recovery)['warnings'])
+
+
+def test_closure_integrity_positive_recovery_negation_timing_sharing_and_plans():
+    from studio.closure_integrity import evaluate_closure_integrity
+    failed={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"she destroys the water array; the pumps are beyond repair"}]}
+    assert any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},failed,[])['warnings'])
+    timing={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"she destroys the water array"}]}
+    recovery_scene=[{"scene_id":"S08","turn":"Before dawn, the survivors rebuild the water supply"}]
+    assert not any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},timing,recovery_scene)['warnings'])
+    sharing_scene=[{"scene_id":"S08","turn":"the neighbors share their remaining supplies and keep everyone fed"}]
+    assert not any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},timing,sharing_scene)['warnings'])
+    planned={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"she plans to enter the pump house and disable the array; the family comes home safe"}]}
+    assert not any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},planned,[])['warnings'])

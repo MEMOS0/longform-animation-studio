@@ -17,6 +17,8 @@ COMMUNITY_CONSEQUENCE_TERMS = [
     "survive", "survives", "survived", "people are safe", "new system", "restore", "restores", "restored",
     "rebuild", "rebuilds", "rebuilt", "replace", "replaces", "replaced", "repair", "repairs", "repaired",
     "ration", "rations", "rationed", "redistribute", "redistributed", "communal", "shared water", "shared food",
+    "share their remaining", "share supplies", "shared supplies", "shares supplies", "keep everyone fed", "keeps everyone fed",
+    "feed everyone", "feeds everyone", "food is shared", "water is shared",
 ]
 COLLAPSE_PATTERNS = [
     r"self-destruct\w*",
@@ -25,8 +27,9 @@ COLLAPSE_PATTERNS = [
     r"(?:array|system|infrastructure|shield(?:\s+nodes)?|power grid|harbor|valves?)\s+(?:goes|go|went)\s+dark",
 ]
 CONDITION_RE = re.compile(r"\b(?:if|whether|unless)\b")
-MODAL_RE = re.compile(r"\b(?:will|would|could|can|may|might|shall|threaten\w* to|plan\w* to|try\w* to|want\w* to|choose\w* to)\s+(?:[\w'-]+\s+){0,3}$")
-NEGATION_RE = re.compile(r"\b(?:no|not|never|does not|did not|didn't|do not|don't|won't|avoids?|prevents?|fails? to|refuses? to)\s+(?:[\w'-]+\s+){0,3}$")
+MODAL_RE = re.compile(r"\b(?:will|would|could|can|may|might|shall)\s+(?:[\w'-]+\s+){0,3}$")
+INTENT_RE = re.compile(r"\b(?:threaten\w* to|plan\w* to|try\w* to|want\w* to|choose\w* to|intend\w* to|plot\w* to|prepare\w* to)\s+(?:[\w'-]+\s+){0,7}(?:and\s+)?$")
+NEGATION_RE = re.compile(r"\b(?:no|not|never|does not|did not|didn't|do not|don't|won't|avoids?|prevents?|fails? to|refuses? to)\s+(?:[\w'-]+\s+){0,5}$")
 
 
 def flatten(value: Any) -> str:
@@ -59,6 +62,21 @@ def _all_positions(text: str, terms: list[str]) -> dict[str, list[int]]:
     return found
 
 
+def _positive_term_positions(text: str, terms: list[str]) -> dict[str, list[int]]:
+    lowered = text.lower()
+    found: dict[str, list[int]] = {}
+    negation_before = re.compile(r"(?:beyond|without|no|not|never|unable to|fails? to|impossible to)\s+$")
+    for term in terms:
+        positions = []
+        for match in re.finditer(re.escape(term), lowered):
+            before = lowered[max(0, match.start() - 30):match.start()]
+            if not negation_before.search(before):
+                positions.append(match.start())
+        if positions:
+            found[term] = positions
+    return found
+
+
 def _sentence_bounds(text: str, position: int) -> tuple[int, int]:
     start = max(text.rfind(".", 0, position), text.rfind("!", 0, position), text.rfind("?", 0, position), text.rfind("\n", 0, position)) + 1
     endings = [idx for idx in [text.find(".", position), text.find("!", position), text.find("?", position), text.find("\n", position)] if idx >= 0]
@@ -76,7 +94,9 @@ def _is_hypothetical(text: str, position: int) -> bool:
     after = text[position:end]
     if CONDITION_RE.search(before) or CONDITION_RE.search(after):
         return True
-    if MODAL_RE.search(before) or NEGATION_RE.search(before):
+    if re.search(r"\b(?:after|before|when|while|as)\s+(?:the\s+)?$", before):
+        return False
+    if MODAL_RE.search(before) or INTENT_RE.search(before) or NEGATION_RE.search(before):
         return True
     return "?" in text[start:end] and re.search(r"\b(?:will|would|could|can|what if|how|why|when)\b", before_sentence) is not None
 
@@ -94,7 +114,7 @@ def _collapse_events(text: str) -> list[int]:
 def _row(sequence: str | int, text: str) -> dict[str, Any]:
     closure = _positions(text, CLOSURE_TERMS)
     sequel = _positions(text, SEQUEL_TERMS)
-    community_positions = _all_positions(text, COMMUNITY_CONSEQUENCE_TERMS)
+    community_positions = _positive_term_positions(text, COMMUNITY_CONSEQUENCE_TERMS)
     return {
         "sequence": sequence,
         "text": text.lower(),
@@ -112,15 +132,15 @@ def _scene_has_later_recovery(text: str) -> bool:
     """Accept recovery evidence while rejecting generic shared/community boilerplate
     and explicitly early beats that merely precede a later collapse."""
     lowered = text.lower()
-    positions = _all_positions(lowered, COMMUNITY_CONSEQUENCE_TERMS)
+    positions = _positive_term_positions(lowered, COMMUNITY_CONSEQUENCE_TERMS)
     if not positions:
         return False
     collapse_positions = _collapse_events(lowered)
     if collapse_positions:
         earliest_collapse = collapse_positions[0]
         return _has_positions_after(positions, earliest_collapse)
-    early_markers = [match for marker in ("early", "before", "earlier", "prior", "already", "initially") for match in re.finditer(rf"\b{marker}\b", lowered)]
-    if early_markers:
+    explicitly_prior = re.search(r"(?:before|prior to)\s+(?:the\s+)?(?:collapse|outage|failure|shutdown)", lowered) or re.search(r"(?:already|previously)\s+(?:rebuilt|restored|repaired)\s+before", lowered)
+    if explicitly_prior:
         return False
     return True
 
