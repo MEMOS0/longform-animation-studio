@@ -385,3 +385,12 @@ def test_failure_intelligence_procedural_mission_pattern():
     script=("Commander, the outer line is gone. Eastern armor reserve ammunition. Deploy all operational units to the perimeter stronghold. "*30)+("The swarm is retreating. Mission complete. "*10)
     result=evaluate_candidate("Humans vs Vorraks final battle",[],script)
     assert any(p["id"]=="procedural_mission_without_emotional_payoff" for p in result["matched_failure_patterns"])
+
+
+def test_creature_protection_thumbnail_concepts_include_personhood_and_hunt():
+    from studio.thumbnail_concepts import generate_concepts
+    concepts=generate_concepts({"channel_contract":"creature_protection_feature","genre":"creature fantasy drama","creature_or_child_anchor":"dragon child","protector":"disgraced keeper","wound":"hunted child","emotional_promise":"belonging"})
+    ids={c["concept_id"] for c in concepts}
+    assert "misunderstood_child_personhood" in ids
+    assert "public_hunt_protection_triangle" in ids
+    assert len(concepts) >= 3
