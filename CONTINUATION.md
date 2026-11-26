@@ -169,3 +169,61 @@ Current cross-channel evidence state before continuation rollover:
 - `rIyeW1cJGSs` mp4/subtitles downloaded; batch media analysis was still in progress when the second batch began.
 - `q_CnGWFO788` and `2Sbr4jpoiaQ` failed through the current Piped endpoint with HTTP 500; retry with alternate endpoints or later.
 - Do not trust any subagent output as completed; user explicitly rejected subagent fan-out.
+
+## 2026-11-26 thumbnail/cross-channel implementation checkpoint
+
+Committed through `16c5b48` (“Expand priority channel archives and thumbnail references”).
+
+Implemented and committed:
+
+- `studio/thumbnail_intelligence.py` — thumbnail image metrics: dimensions, brightness, contrast, saturation, colorfulness, edge density, center salience proxy, mobile-size proxies, dominant palettes. Haar face detection exists but fails on stylized art and must not be treated as evidence yet.
+- `studio/thumbnail_concepts.py` — reference classification plus original concept generation/critique. It explicitly warns that critiques are not CTR predictions.
+- `tools/download_thumbnails.py` — downloads maxres/sd/hq thumbnails and writes metadata-linked indexes.
+- `tools/collect_piped_channel.py` — paginated Piped channel archive collector.
+- `tools/compare_channel_archives.py` — per-channel age-adjusted hit/middle/failure tables plus coarse format/genre/duration classification.
+- `knowledge/thumbnails/thumbnail-intelligence.md` — first professional thumbnail knowledge base, measured Nov Drama cohort metrics, direct visual comparison, cross-channel taxonomy, protocol, falsification tasks.
+- `.devin/skills/longform-animation-studio/SKILL.md` — now includes Thumbnail Intelligence protocol.
+- Persistent archive under `thumbnails/reference/` now includes 48 Nov Drama + 20 OpenMicroDrama top sample + 161 priority-channel videos. Total thumbnails directory ~55MB. This was explicitly requested by the user despite normal caution around copyrighted references; use internally for mechanism learning, never copy production thumbnails.
+- `thumbnails/novdrama_top_bottom_montage.jpg`, `thumbnails/openmicrodrama_top20_montage.jpg`, and `thumbnails/channel_cohort_montages/*.jpg` are committed visual comparison artifacts.
+- Channel archives collected and committed under `data/raw/channels/`: Ironcrest 4, FablePop 9, RIFTBORN 11, Epic AI Films 81, The Next Show 56. Per-channel comparison tables committed under `data/processed/channel_comparisons/`; aggregate in `data/processed/channel_format_genre_summary.json`.
+
+Important discovered channel IDs/subscriber counts at collection:
+
+- Ironcrest Pictures `UCLryKn_vFx5lm3bFpPRhgRg`, 42.3k subscribers, 4 videos.
+- FablePop `UCbw9c3sH6tWOGYu_suuhmjQ`, 163k, 9 videos.
+- RIFTBORN CINEMA `UCIYFNbsI6MBolwhXV7OL7AA`, 31k, 11 videos.
+- Epic AI Films `UC5FCyk1QkTBLgWm-w866PGg`, 276k, 81 collected videos.
+- The Next Show | Stories That Feel Like Movies `UCEbhMBucfh4N48Av0NJp2WQ`, 259k, 56 collected videos.
+- Correct Future Frame Movies channel appears to be `UC9I0vMcmoJBWqFYg6O7PujA`, but maxtube `/channel/` currently returns HTTP 500 for it. Web evidence: https://www.youtube.com/channel/UC9I0vMcmoJBWqFYg6O7PujA and glu.tv/hollywood.ai listings. Retry through alternate Piped instances or YouTube page extraction.
+
+Key early within-channel findings:
+
+- Ironcrest: baby dragon rescue 10M / ~461k views/day, she-wolf adopted baby 4.6M / ~145k/day, Ghost Wing sci-fi 613k / ~42k/day, Son of Wolves crown sequel 878k / ~28k/day. Strong vulnerability/protection pattern, but only 4 videos.
+- FablePop: transformation/rebirth/secret-family hits ~109k–227k/day; older romance betrayal middles ~27k–32k/day; short/odd animal-prince or maid president videos far lower. Transformation/agency packaging is bright, clean, before/after oriented.
+- RIFTBORN: BEASTBOUND Season 1 compilation 5.4M / ~170k/day and 137 minutes; individual episodes are far lower. Compilation/complete-story availability itself is a major format effect; thumbnails are visually consistent, so packaging alone cannot explain the difference.
+- Epic AI Films: AGE OF KINGDOMS/DRAGONS long standalone films dominate; 60–120 minute films median much higher than under-15 minute videos. Low performers include trailers, AI-meta/behind-the-scenes/tool demos, and generic sci-fi experiments — channel-contract mismatch, not necessarily bad thumbnails.
+- The Next Show: mythic adventure IP-like stories (Sinbad, Aladdin, Jason/Odyssey/dragons) dominate; documentaries/dinosaur/off-brand shorts are low. 30–120 minute films far outperform under-15 minute pieces. Series compilations can outperform individual parts.
+- Cross-duration evidence is promising but confounded by age, series compilation, genre, and channel identity. Do not make universal duration claims.
+
+Important thumbnail visual insights:
+
+- Nov Drama top thumbnails are typically luminous vulnerability/protection/belonging images; low thumbnails more often skew dark/red revenge, coercion, crowded triangles, or arena spectacle. Brightness cohort means: hit .397 vs middle .350 vs low .300, but this is not causal.
+- Cross-channel genre contract changes packaging rules: Ironcrest creature thumbnails use scale/protection; FablePop uses clean transformation/before-after; Epic uses cinematic creature/kingdom scale; The Next Show uses mythic scale/iconic adventure; RIFTBORN uses franchise creature branding.
+- Failure within a channel often reflects off-format/off-brand content (trailers, tool demos, documentary/dinosaur pieces) rather than simply inferior thumbnail craft.
+
+Epic site/source notes:
+
+- https://epicaifilms.com/ positions the channel as “One filmmaker. Limitless worlds. Original feature films watched by millions. Made by one person.” Site is thin/portfolio-like in static HTML; do not treat it as transparent production-process documentation.
+- https://crateh.com/ is useful as a curated AI-film box-office/premise-format comparison source. It explicitly distinguishes prologue/chapter/compilation and evidence behind production claims.
+- https://metamovies.ai/ai-movies/ HTML fetched to `C:/Users/Administrator/metamovies_ai.html` but not yet analyzed.
+
+Immediate next high-value work after rollover:
+
+1. Finish downloading/analyzing all Ironcrest remaining videos. Download process running/started with IDs `GlTDPApzNYU`, `Aa0l5km5Jl4`, `fmJUSCDP-r4` into `C:/Users/Administrator/ironcrest_media`, raw dir `data/raw/piped_ironcrest`, log `data/raw/ironcrest_download.log`. `2YkJl0KV3gs` already analyzed. User explicitly asked all Ironcrest videos deeply.
+2. When mp4s finish, run `tools/batch_media_analysis.py --media-dir C:/Users/Administrator/ironcrest_media --raw-dir data/raw/piped_ironcrest --out-root C:/Users/Administrator/ironcrest_analysis --workers 2`.
+3. Inspect openings/endings/contact sheets/subtitles visually and write `knowledge/market/ironcrest-deep-dive.md` with timestamped hit/middle/failure comparisons.
+4. Fix `classify_genre` before relying on aggregate genre summaries: mythic adventure titles (Sinbad/Aladdin/Jason/Odyssey/Thor/etc.) are currently often misclassified as general_emotional_drama. Treat existing genre aggregate as rough only.
+5. Retry Future Frame channel archive using alternate Piped instances. One probe command was launched but may not have completed before rollover; instances tested included kavin.rocks, adminforge, reallyaweso.me, private.coffee, drgns.space.
+6. Analyze metamovies.ai and crateh in more detail; extract additional small breakout channels from last 7–14 days.
+7. Build thumbnail hit/low comparisons specifically inside each priority channel without duplicate overlap when channel has fewer than 12 videos. Current montage generator duplicates rows for small archives because it blindly takes first+last 6; visual evidence still usable but montages should be fixed.
+8. Continue integrating everything into the reusable skill/production system. Do not stop unless user explicitly says stop.
