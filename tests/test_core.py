@@ -153,3 +153,14 @@ def test_sound_design_gate_allows_negated_wallpaper_rule():
     from studio.sound_design import evaluate_sound_design
     good=evaluate_sound_design([{"scene_id":"x","sound_design":{"dialogue_priority":"dialogue remains intelligible","music_function":"motif evolves rather than constant emotional wallpaper","silence_or_negative_space":"drop music before revelation","motif":"three-note motif evolves"}}])
     assert not good["warnings"]
+
+
+def test_evaluate_project_marks_missing_artifacts_and_empty_titles(tmp_path):
+    import json
+    from studio.production import evaluate_project
+    premise={"premise_id":"x","title_candidates":[],"logline":"A child chooses to protect a creature.","audience_promise":"x","target_minutes":30,"release_format":"mid_length_feature","channel_contract":"creature_protection_feature","emotional_engine":{"wound":"x","want":"x","need":"x","injustice":"x","protective_counterforce":"x","belonging_payoff":"x"},"opening_event":{"first_10_seconds":"child threat","first_60_seconds":"protect child","first_5_minutes":"soldier threat reveal","dramatic_question":"can they escape danger"}}
+    path=tmp_path/"premise.json";path.write_text(json.dumps(premise),encoding="utf8")
+    result=evaluate_project(path,None,None,[])
+    assert result["gates"]["B_architecture"]=="missing"
+    assert result["gates"]["C_screenplay"]=="missing"
+    assert result["failure_intelligence"]["candidate"]=="x"

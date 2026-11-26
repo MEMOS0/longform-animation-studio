@@ -166,11 +166,11 @@ def opening_conversion_quality(premise: dict[str, Any]) -> dict[str, Any]:
     return {"mechanism_groups_present": present, "matched_terms": matched, "administrative_terms": admin_hits, "warnings": warnings}
 
 
-def gate_report(schema_errors: dict[str, list[str]], failure: dict[str, Any], scenes: dict[str, Any], architecture: dict[str, Any]) -> dict[str, Any]:
+def gate_report(schema_errors: dict[str, list[str]], failure: dict[str, Any], scenes: dict[str, Any], architecture: dict[str, Any], architecture_reviewed: bool = True, scenes_reviewed: bool = True) -> dict[str, Any]:
     return {
         "A_premise": "pass" if not schema_errors.get("premise") and failure["risk_score_0_to_1"] < 0.5 else "attention",
-        "B_architecture": "pass" if not schema_errors.get("architecture") and not architecture.get("warnings") else "attention",
-        "C_screenplay": "pass" if not schema_errors.get("scenes") and not any(scenes.get("missing", {}).values()) else "attention",
+        "B_architecture": ("pass" if not schema_errors.get("architecture") and not architecture.get("warnings") else "attention") if architecture_reviewed else "missing",
+        "C_screenplay": ("pass" if not schema_errors.get("scenes") and not any(scenes.get("missing", {}).values()) else "attention") if scenes_reviewed else "missing",
         "D_direction_storyboard": "unknown_until_storyboard_frames_exist",
         "E_production": "unknown_until_generated_media_exists",
         "F_release_learning": "unknown_until_release_metadata_exists",
@@ -186,7 +186,8 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
     scenes, scene_errors = load_scenes(scenes_path)
     schema_errors["scenes"] = scene_errors
     combined = "\n".join([flatten_text(premise), flatten_text(architecture), flatten_text(scenes)])
-    candidate = premise.get("title_candidates", [premise.get("premise_id", "untitled")])[0]
+    title_candidates = premise.get("title_candidates") or []
+    candidate = title_candidates[0] if title_candidates else str(premise.get("premise_id") or "untitled")
     failure = evaluate_candidate(candidate, archive_rows, combined)
     scene_report = scene_quality(scenes)
     architecture_report = architecture_quality(architecture)
@@ -205,5 +206,6 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "dialogue_craft": evaluate_scenes_dialogue(scenes),
         "agency_intelligence": evaluate_agency(premise, scenes),
         "sound_design_quality": evaluate_sound_design(scenes),
-        "gates": gate_report(schema_errors, failure, scene_report, architecture_report),
+        "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes)},
+        "gates": gate_report(schema_errors, failure, scene_report, architecture_report, bool(architecture), bool(scenes)),
     }
