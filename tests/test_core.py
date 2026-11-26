@@ -32,3 +32,12 @@ def test_provider_inventory_contains_validated_cloudflare_modalities():
     rows = inventory()
     assert any(row["provider"] == "cloudflare_workers_ai" and row["modality"] == "text_to_image" and "smoke passed" in row["validation_status"] for row in rows)
     assert any(row["modality"] == "video_generation" and "no video-generation model" in row["validation_status"] for row in rows)
+
+
+def test_thumbnail_concepts_generate_and_critique():
+    from studio.thumbnail_concepts import critique_concept, generate_concepts
+    concepts = generate_concepts({"title": "The dragon child they abandoned", "genre": "fantasy drama", "creature_or_child_anchor": "dragon child", "protector": "outcast mother", "wound": "abandonment"})
+    assert concepts[0]["concept_id"] == "vulnerable_bond_scale"
+    critique = critique_concept(concepts[0])
+    assert critique["score_0_to_1"] > 0.5
+    assert "CTR" in critique["ctr_caveat"]

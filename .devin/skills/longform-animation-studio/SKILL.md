@@ -175,6 +175,22 @@ Do not assume production APIs exist or work. Inventory and smoke-test them befor
 6. For video, require shot-level motion, continuity, face identity, lip-sync feasibility, editability, and cost-per-usable-shot metrics. No video generation provider is validated merely because it is famous or because an API exists.
 7. Cloudflare Workers AI is currently validated in this repository only as a provider candidate for text, image, TTS, ASR, embeddings, and vision-language experimentation. As of 2026-11-26, no video-generation model was visible in its catalog.
 
+
+## Thumbnail intelligence protocol
+
+Before designing packaging, inspect `knowledge/thumbnails/thumbnail-intelligence.md` and the persistent reference archive under `thumbnails/reference/`. Treat thumbnails as a separate craft discipline, not as an afterthought.
+
+Required workflow:
+
+1. Define the one emotion, one story question, and one vulnerable/power object the image must communicate.
+2. Compare hit/middle/failure examples inside the same channel and format before cross-channel generalization.
+3. Evaluate palette, contrast, composition, character positions, facial emotion, lighting, background, visual hierarchy, mobile readability, curiosity gap, and title-thumbnail division of labor.
+4. Generate at least three materially different original concepts using `studio/thumbnail_concepts.py` or an equivalent documented process.
+5. Critique each at actual feed size. Do not copy reference composition, characters, typography, or exact expressive content.
+6. Never claim a design causes CTR improvement without impressions/CTR or test data. Prefer YouTube Test & Compare and judge winners by watch time plus surface-specific CTR, not clicks alone.
+
+Channel-specific mechanisms outrank generic advice. Nov Drama’s luminous vulnerability/protection packaging should not be blindly imposed on horror, sci-fi, or franchise creature cinema.
+
 ## Failure intelligence protocol
 
 Before greenlighting:

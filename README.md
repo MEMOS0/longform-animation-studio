@@ -24,6 +24,7 @@ This repository is not a prompt collection. It is a reusable studio system for l
   - `dialogue_analysis.py` — sentence-shape, exposition, pressure, care, question-ratio analysis
   - `failure_intelligence.py` — transparent failure-pattern matching for future ideas/scripts
   - `production.py` — schema validation and pre-greenlight gates for premise/architecture/scene artifacts
+  - `thumbnail_intelligence.py` / `thumbnail_concepts.py` — visual packaging metrics, reference classification, and original concept critique
   - `cli.py` — command-line entry points
 - `tools/download_piped_archive.py` — provenance-preserving media/subtitle acquisition through a configurable Piped-compatible public API
 - `tools/batch_media_analysis.py` — archive-wide timestamped media analysis
@@ -32,7 +33,8 @@ This repository is not a prompt collection. It is a reusable studio system for l
 - `tools/compare_dialogue.py` — cohort comparison of subtitle sentence shape and exposition density
 - `tools/repair_audio_metrics.py` — fast correction of cached audio silence/RMS evidence
 - `data/` — local evidence outputs; raw media should generally stay out of git
-- `knowledge/` — durable research findings, craft notes, and channel-specific evidence interpretations
+- `knowledge/` — durable research findings, craft notes, thumbnail intelligence, and channel-specific evidence interpretations
+- `thumbnails/` — persistent thumbnail reference archive, indices, and comparative montages
 - `schemas/` — data contracts for handoff between agents and production stages
 - `.devin/skills/longform-animation-studio/SKILL.md` — operating discipline for AI agents using this repository
 - `tests/` — regression tests for core logic
