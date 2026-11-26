@@ -160,3 +160,10 @@ Immediate next work:
 2. Extend exact storyboards to S03+ or create controlled scene-by-scene exact conversion workflow.
 3. Continue timestamped sound evidence for endings/reversals and creature romance.
 4. Continue breakout discovery. No spending/accounts.
+
+## 2026-11-26 pre-rollover checkpoint — director seeds
+
+Latest pushed commit when written: `11c99c0 Add continuous director seed storyboards`; tests **25 passed**.
+
+- `tools/draft_exact_storyboards.py` converts each scene screenplay into continuous exact-format director-seed boards using that scene's own first/final images, objective, conflict, decision, turn, vertical composition, key dialogue, sound, and motif. Generated seeds live in `examples/stormglass_keepers/director_seed_storyboards/S01...S08`; all validate continuous with no gaps. These are **not final boards**; exact hand-authored boards exist for S01/S02 and remain the quality reference.
+- Next: review findings when they arrive; refine S03 manually using S01/S02 quality bar; continue sound evidence and breakout discovery.
