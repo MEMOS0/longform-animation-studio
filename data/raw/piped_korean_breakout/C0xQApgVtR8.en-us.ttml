@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en-US" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:24.466" end="00:00:26.266" style="s2">The iron&#39;s cooling. Bring it here, quickly.</p>
+<p begin="00:00:26.733" end="00:00:29.433" style="s2">Here are five more blades.</p>
+<p begin="00:00:30.266" end="00:00:31.966" style="s2">Stoke the fire in that furnace.</p>
+<p begin="00:00:32.733" end="00:00:33.533" style="s2">Hurry up.</p>
+<p begin="00:00:34.000" end="00:00:35.800" style="s2">We have to have the weapons ready on time.</p>
+<p begin="00:00:36.866" end="00:00:37.800" style="s2">Sir.</p>
+<p begin="00:00:38.366" end="00:00:39.466" style="s2">What is it?</p>
+<p begin="00:00:41.200" end="00:00:44.133" style="s2">Where on earth did you get this iron?</p>
+<p begin="00:00:44.633" end="00:00:47.333" style="s2">I&#39;ve worked iron my whole life, but</p>
+<p begin="00:00:47.333" end="00:00:49.433" style="s2">I&#39;ve never seen iron this fine.</p>
+<p begin="00:00:50.200" end="00:00:52.033" style="s2">How did you even make it?</p>
+<p begin="00:00:52.666" end="00:00:54.400" style="s2">I&#39;m truly curious.</p>
+<p begin="00:00:55.766" end="00:00:57.366" style="s2">Is this really the time to be curious about that?</p>
+<p begin="00:00:57.733" end="00:00:58.766" style="s2">Get back to work.</p>
+<p begin="00:00:59.566" end="00:01:01.933" style="s2">Then tell me later, please.</p>
+<p begin="00:01:02.333" end="00:01:04.200" style="s2">I can&#39;t stand the curiosity.</p>
+<p begin="00:01:05.133" end="00:01:07.366" style="s2">I&#39;m swamped—are you really going to keep this up?</p>
+<p begin="00:01:08.333" end="00:01:10.566" style="s2">You could be making another arrowhead instead.</p>
+<p begin="00:01:10.866" end="00:01:12.533" style="s2">Didn&#39;t I say you can sleep when you&#39;re dead?</p>
+<p begin="00:01:12.666" end="00:01:13.900" style="s2">Everyone, get moving.</p>
+<p begin="00:01:14.066" end="00:01:16.366" style="s2">Sir, to blacksmiths like us,</p>
+<p begin="00:01:16.366" end="00:01:18.600" style="s2">iron like this is worth more than our lives.</p>
+<p begin="00:01:18.700" end="00:01:21.000" style="s2">When the war&#39;s over, you must tell us.</p>
+<p begin="00:01:21.066" end="00:01:22.500" style="s2">Things are better these days, though.</p>
+<p begin="00:01:22.500" end="00:01:23.200" style="s2">They sure are.</p>
+<p begin="00:01:23.200" end="00:01:24.933" style="s2">I hear the provisions are plentiful now.</p>
+<p begin="00:01:24.933" end="00:01:26.733" style="s2">They say it&#39;s all thanks to the General.</p>
+<p begin="00:01:26.800" end="00:01:29.133" style="s2">I hope we get through this war safely too.</p>
+<p begin="00:01:29.133" end="00:01:29.500" style="s2">Right.</p>
+<p begin="00:01:29.500" end="00:01:30.666" style="s2">Get your hands moving.</p>
+<p begin="00:01:31.866" end="00:01:33.966" style="s2">Out of the way, please.</p>
+<p begin="00:01:34.133" end="00:01:36.266" style="s2">Timber coming through—make way.</p>
+<p begin="00:01:56.466" end="00:01:57.533" style="s2">What&#39;s going on?</p>
+<p begin="00:01:59.600" end="00:02:01.466" style="s2">The scouts are pulling back.</p>
+<p begin="00:02:01.466" end="00:02:02.366" style="s2">You&#39;re certain?</p>
+<p begin="00:02:03.333" end="00:02:04.000" style="s2">Yes.</p>
+<p begin="00:02:04.000" end="00:02:05.533" style="s2">Now would be the time to move.</p>
+<p begin="00:02:06.000" end="00:02:06.800" style="s2">Good.</p>
+<p begin="00:02:07.100" end="00:02:08.500" style="s2">Ready my horse.</p>
+<p begin="00:02:08.866" end="00:02:09.666" style="s2">Yes.</p>
+<p begin="00:02:17.233" end="00:02:17.933" style="s2">Let&#39;s go.</p>
+<p begin="00:02:47.800" end="00:02:49.533" style="s2">W-what is that?</p>
+<p begin="00:02:56.133" end="00:02:57.533" style="s2">Looks like the rear guard.</p>
+<p begin="00:02:57.700" end="00:02:59.333" style="s2">But... that many soldiers...</p>
+<p begin="00:02:59.433" end="00:03:00.866" style="s2">At least fifty thousand, I&#39;d say.</p>
+<p begin="00:03:01.100" end="00:03:02.933" style="s2">Bring out that drone.</p>
+<p begin="00:03:03.866" end="00:03:05.633" style="s2">We need a closer look at their forces.</p>
+<p begin="00:03:05.666" end="00:03:06.200" style="s2">Yes.</p>
+<p begin="00:03:30.100" end="00:03:30.900" style="s2">Your Majesty.</p>
+<p begin="00:03:31.133" end="00:03:33.400" style="s2">You must be weary from the long journey.</p>
+<p begin="00:03:33.500" end="00:03:36.566" style="s2">We&#39;ll hold a banquet tonight, so please rest and recover.</p>
+<p begin="00:03:37.200" end="00:03:38.533" style="s2">A fine idea.</p>
+<p begin="00:03:38.933" end="00:03:41.100" style="s2">But first, there&#39;s something I&#39;d like to ask.</p>
+<p begin="00:03:41.966" end="00:03:44.000" style="s2">When do you plan to attack Hyeonmu Fortress?</p>
+<p begin="00:03:44.233" end="00:03:46.200" style="s2">It won&#39;t take long.</p>
+<p begin="00:03:47.066" end="00:03:49.533" style="s2">But the men are exhausted from the long march,</p>
+<p begin="00:03:50.033" end="00:03:52.266" style="s2">so I intend to let them rest and regroup</p>
+<p begin="00:03:52.333" end="00:03:54.533" style="s2">before we begin the siege.</p>
+<p begin="00:03:54.800" end="00:03:56.033" style="s2">There&#39;s no rush.</p>
+<p begin="00:03:56.700" end="00:03:58.833" style="s2">They&#39;re rats in a trap, aren&#39;t they?</p>
+<p begin="00:04:00.533" end="00:04:01.433" style="s2">By the way,</p>
+<p begin="00:04:01.866" end="00:04:04.166" style="s2">what did you do about the villages outside the fortress?</p>
+<p begin="00:04:05.366" end="00:04:08.100" style="s2">We were so focused on surrounding Hyeonmu</p>
+<p begin="00:04:08.100" end="00:04:09.566" style="s2">that we haven&#39;t touched them yet.</p>
+<p begin="00:04:10.033" end="00:04:12.633" style="s2">A siege will take time,</p>
+<p begin="00:04:13.466" end="00:04:15.600" style="s2">and the men will get restless in the meantime, won&#39;t they?</p>
+<p begin="00:04:19.233" end="00:04:20.500" style="s2">Form a detachment</p>
+<p begin="00:04:20.866" end="00:04:22.833" style="s2">and have them sweep the nearby villages.</p>
+<p begin="00:04:23.433" end="00:04:25.166" style="s2">Collect the goods,</p>
+<p begin="00:04:25.400" end="00:04:27.600" style="s2">and allow the men some plunder as well.</p>
+<p begin="00:04:28.366" end="00:04:31.366" style="s2">Those who came all this way deserve that much, don&#39;t they?</p>
+<p begin="00:04:34.466" end="00:04:36.533" style="s2">I&#39;ll do as you command.</p>
+<p begin="00:04:40.800" end="00:04:41.633" style="s2">Action.</p>
+<p begin="00:04:59.133" end="00:04:59.933" style="s2">Oh.</p>
+<p begin="00:05:00.066" end="00:05:01.266" style="s2">This is delicious.</p>
+<p begin="00:05:01.733" end="00:05:03.300" style="s2">Cut—that was great.</p>
+<p begin="00:05:08.200" end="00:05:08.833" style="s2">No, really—</p>
+<p begin="00:05:08.833" end="00:05:10.233" style="s2">this is really delicious.</p>
+<p begin="00:05:12.300" end="00:05:14.533" style="s2">Mm, what a treat.</p>
+<p begin="00:05:17.233" end="00:05:18.033" style="s2">Mujin.</p>
+<p begin="00:05:18.600" end="00:05:20.100" style="s2">The shoot&#39;s over.</p>
+<p begin="00:05:20.200" end="00:05:21.766" style="s2">You can get up now.</p>
+<p begin="00:05:27.900" end="00:05:29.266" style="s2">That last line—</p>
+<p begin="00:05:29.466" end="00:05:31.000" style="s2">was that ad-libbed?</p>
+<p begin="00:05:31.366" end="00:05:32.166" style="s2">Actually,</p>
+<p begin="00:05:32.433" end="00:05:34.266" style="s2">that was much better.</p>
+<p begin="00:05:36.600" end="00:05:37.833" style="s2">No, I really was just enjoying the...</p>
+<p begin="00:05:38.200" end="00:05:41.400" style="s2">Then that&#39;s a relief—the commercial shoot wrapped up so fast.</p>
+<p begin="00:05:41.400" end="00:05:43.366" style="s2">Hahahahaha.</p>
+<p begin="00:05:43.433" end="00:05:46.800" style="s2">That&#39;s all because you acted so well, Mujin. Hahaha.</p>
+<p begin="00:05:48.733" end="00:05:49.800" style="s2">It really is delicious.</p>
+<p begin="00:06:01.633" end="00:06:02.433" style="s2">CEO Seo.</p>
+<p begin="00:06:02.900" end="00:06:03.700" style="s2">Yes.</p>
+<p begin="00:06:05.700" end="00:06:07.233" style="s2">Please turn this into money for me.</p>
+<p begin="00:06:12.100" end="00:06:12.700" style="s2">Gold.</p>
+<p begin="00:06:13.300" end="00:06:13.900" style="s2">That&#39;s right.</p>
+<p begin="00:06:14.366" end="00:06:15.800" style="s2">There&#39;s a lot I need to prepare.</p>
+<p begin="00:06:18.033" end="00:06:21.166" style="s2">I&#39;ll process it as fast as I can and put it on your card.</p>
+<p begin="00:06:22.733" end="00:06:23.566" style="s2">Thank you.</p>
+<p begin="00:06:25.266" end="00:06:26.966" style="s2">The enemy&#39;s invasion isn&#39;t far off.</p>
+<p begin="00:06:27.900" end="00:06:30.133" style="s2">There&#39;s still a mountain of things to prepare.</p>
+<p begin="00:06:31.866" end="00:06:35.366" style="s2">I didn&#39;t want to burden you with this too.</p>
+<p begin="00:06:37.300" end="00:06:39.300" style="s2">How could you say that?</p>
+<p begin="00:06:40.966" end="00:06:43.766" style="s2">I&#39;m not that fragile, you know.</p>
+<p begin="00:06:44.166" end="00:06:44.966" style="s2">Mujin.</p>
+<p begin="00:06:45.200" end="00:06:47.633" style="s2">Don&#39;t try to carry everything on your own.</p>
+<p begin="00:06:48.766" end="00:06:49.933" style="s2">Oh, and...</p>
+<p begin="00:06:52.100" end="00:06:53.366" style="s2">Take this too, please.</p>
+<p begin="00:06:53.766" end="00:06:55.266" style="s2">What is it?</p>
+<p begin="00:07:01.966" end="00:07:03.933" style="s2">Oh my, it&#39;s beautiful.</p>
+<p begin="00:07:04.200" end="00:07:05.833" style="s2">Why are you giving this to me?</p>
+<p begin="00:07:07.900" end="00:07:09.933" style="s2">You&#39;ve only ever helped me.</p>
+<p begin="00:07:13.133" end="00:07:15.033" style="s2">I wanted to repay you somehow,</p>
+<p begin="00:07:15.833" end="00:07:17.733" style="s2">but I have nothing worthy to give.</p>
+<p begin="00:07:18.933" end="00:07:21.266" style="s2">All I have left is this.</p>
+<p begin="00:07:24.933" end="00:07:26.600" style="s2">It&#39;s a humble thing, but</p>
+<p begin="00:07:27.633" end="00:07:28.500" style="s2">will you accept it?</p>
+<p begin="00:07:29.700" end="00:07:30.500" style="s2">Mujin.</p>
+<p begin="00:07:30.933" end="00:07:33.366" style="s2">You call this humble when it&#39;s so beautiful?</p>
+<p begin="00:07:33.866" end="00:07:35.300" style="s2">Thank you so much.</p>
+<p begin="00:07:35.500" end="00:07:37.800" style="s2">This will be a very special gift to me.</p>
+<p begin="00:07:38.500" end="00:07:40.333" style="s2">I&#39;m glad you feel that way.</p>
+<p begin="00:07:40.966" end="00:07:42.033" style="s2">And...</p>
+<p begin="00:07:43.633" end="00:07:45.366" style="s2">There isn&#39;t much time left.</p>
+<p begin="00:07:46.100" end="00:07:48.666" style="s2">From now on, I&#39;ll have to devote myself entirely to preparing for war.</p>
+<p begin="00:07:49.466" end="00:07:50.633" style="s2">And doing so...</p>
+<p begin="00:07:50.800" end="00:07:52.766" style="s2">I won&#39;t have much time to see you either.</p>
+<p begin="00:07:54.100" end="00:07:55.133" style="s2">I suppose not.</p>
+<p begin="00:07:57.533" end="00:07:58.433" style="s2">Mujin.</p>
+<p begin="00:07:58.833" end="00:08:00.766" style="s2">Can I ask you something?</p>
+<p begin="00:08:01.200" end="00:08:02.133" style="s2">Of course.</p>
+<p begin="00:08:02.433" end="00:08:03.800" style="s2">When the war is over,</p>
+<p begin="00:08:04.000" end="00:08:05.700" style="s2">you&#39;ll come back often then, right?</p>
+<p begin="00:08:08.066" end="00:08:08.933" style="s2">That...</p>
+<p begin="00:08:09.033" end="00:08:10.133" style="s2">I can&#39;t promise.</p>
+<p begin="00:08:11.866" end="00:08:12.666" style="s2">Why not?</p>
+<p begin="00:08:13.033" end="00:08:15.400" style="s2">The war ending doesn&#39;t mean everything ends.</p>
+<p begin="00:08:16.466" end="00:08:19.200" style="s2">There&#39;s no telling what might be waiting after.</p>
+<p begin="00:08:19.666" end="00:08:21.633" style="s2">But if I find the time</p>
+<p begin="00:08:22.033" end="00:08:23.666" style="s2">and I can keep coming here,</p>
+<p begin="00:08:24.933" end="00:08:26.500" style="s2">then I&#39;ll come back.</p>
+<p begin="00:08:28.000" end="00:08:28.766" style="s2">Promise?</p>
+<p begin="00:08:29.366" end="00:08:30.033" style="s2">I do.</p>
+<p begin="00:08:31.100" end="00:08:32.933" style="s2">Then I&#39;ll be waiting.</p>
+<p begin="00:08:33.300" end="00:08:34.966" style="s2">We haven&#39;t even been on many dates yet.</p>
+<p begin="00:08:35.800" end="00:08:36.800" style="s2">Now that I think about it...</p>
+<p begin="00:08:37.200" end="00:08:38.666" style="s2">the time I&#39;ve spent with you</p>
+<p begin="00:08:38.666" end="00:08:41.233" style="s2">is the first time I&#39;ve ever laughed so freely.</p>
+<p begin="00:08:42.400" end="00:08:43.200" style="s2">Really?</p>
+<p begin="00:08:43.466" end="00:08:44.266" style="s2">It is.</p>
+<p begin="00:08:44.800" end="00:08:47.166" style="s2">Looking back, I&#39;ve spent my whole life on the battlefield.</p>
+<p begin="00:08:47.333" end="00:08:49.766" style="s2">I wonder if I&#39;ve ever had a single day of peace.</p>
+<p begin="00:08:50.166" end="00:08:51.900" style="s2">But whenever I&#39;m with you,</p>
+<p begin="00:08:52.300" end="00:08:54.466" style="s2">even for a moment, I can forget all my worries.</p>
+<p begin="00:08:54.466" end="00:08:56.800" style="s2">So when the war is over, you must come back.</p>
+<p begin="00:08:57.000" end="00:08:59.000" style="s2">Then I&#39;ll take you to lots of nicer places.</p>
+<p begin="00:08:59.733" end="00:09:00.733" style="s2">I will.</p>
+<p begin="00:09:01.133" end="00:09:01.933" style="s2">So then,</p>
+<p begin="00:09:02.200" end="00:09:03.833" style="s2">is it a promise?</p>
+<p begin="00:09:06.466" end="00:09:07.766" style="s2">What is that?</p>
+<p begin="00:09:09.633" end="00:09:11.866" style="s2">This is how you make a promise.</p>
+<p begin="00:09:12.166" end="00:09:12.500" style="s2">Here.</p>
+<p begin="00:09:13.000" end="00:09:14.833" style="s2">Now it&#39;s a promise.</p>
+<p begin="00:09:16.633" end="00:09:18.233" style="s2">What a strange custom.</p>
+<p begin="00:09:18.600" end="00:09:20.433" style="s2">But you have to keep it.</p>
+<p begin="00:09:20.433" end="00:09:21.400" style="s2">I&#39;ll remember.</p>
+<p begin="00:09:50.600" end="00:09:51.500" style="s2">No!</p>
+<p begin="00:09:51.500" end="00:09:53.400" style="s2">Our grain is in there!</p>
+<p begin="00:09:53.400" end="00:09:56.100" style="s2">Father, it&#39;s too late. We have to flee!</p>
+<p begin="00:10:00.133" end="00:10:02.633" style="s2">How are we supposed to live now?</p>
+<p begin="00:10:08.566" end="00:10:09.366" style="s2">Your Majesty.</p>
+<p begin="00:10:09.833" end="00:10:12.633" style="s2">As you commanded, we&#39;ve gathered the grain and offerings</p>
+<p begin="00:10:13.133" end="00:10:14.833" style="s2">and are burning down the houses.</p>
+<p begin="00:10:16.200" end="00:10:17.000" style="s2">Good.</p>
+<p begin="00:10:18.066" end="00:10:20.233" style="s2">But do not chase those who flee.</p>
+<p begin="00:10:21.200" end="00:10:21.866" style="s2">Your Majesty.</p>
+<p begin="00:10:22.166" end="00:10:23.800" style="s2">May I dare ask?</p>
+<p begin="00:10:24.000" end="00:10:26.133" style="s2">Why are you letting them live?</p>
+<p begin="00:10:29.266" end="00:10:31.333" style="s2">What would killing them achieve?</p>
+<p begin="00:10:32.133" end="00:10:33.266" style="s2">They&#39;ve lost their homes</p>
+<p begin="00:10:33.833" end="00:10:36.733" style="s2">and had their food taken. Where do you think they&#39;ll go?</p>
+<p begin="00:10:37.366" end="00:10:39.300" style="s2">Surely to Hyeonmu Fortress.</p>
+<p begin="00:10:40.266" end="00:10:41.066" style="s2">Exactly.</p>
+<p begin="00:10:42.133" end="00:10:45.233" style="s2">I hear Hyeonmu doesn&#39;t even have enough provisions, is that right?</p>
+<p begin="00:10:45.233" end="00:10:46.333" style="s2">That&#39;s correct.</p>
+<p begin="00:10:46.400" end="00:10:49.433" style="s2">So what happens if thousands of starving people flood into a fortress like that?</p>
+<p begin="00:10:49.533" end="00:10:51.333" style="s2">Take them in, and they&#39;ll starve.</p>
+<p begin="00:10:51.333" end="00:10:53.733" style="s2">Turn them away, and they&#39;ll be resented for abandoning their own people.</p>
+<p begin="00:10:54.066" end="00:10:55.933" style="s2">Morale inside the walls will plummet.</p>
+<p begin="00:10:56.900" end="00:11:00.333" style="s2">I&#39;d like Hyeonmu to take those people in.</p>
+<p begin="00:11:03.200" end="00:11:07.466" style="s2">If the starving turn on each other, resentful and fighting,</p>
+<p begin="00:11:08.166" end="00:11:11.733" style="s2">what could be better than that?</p>
+<p begin="00:11:12.666" end="00:11:14.166" style="s2">Your Majesty&#39;s deeper meaning—</p>
+<p begin="00:11:14.400" end="00:11:16.400" style="s2">only now do I understand it.</p>
+<p begin="00:11:28.000" end="00:11:28.800" style="s2">Sir.</p>
+<p begin="00:11:29.000" end="00:11:31.700" style="s2">Please, take us in.</p>
+<p begin="00:11:33.466" end="00:11:35.366" style="s2">Who are you?</p>
+<p begin="00:11:35.600" end="00:11:37.633" style="s2">We&#39;re people who lived in this region.</p>
+<p begin="00:11:38.033" end="00:11:39.933" style="s2">We have no attachment left to Daeryeo.</p>
+<p begin="00:11:39.933" end="00:11:41.866" style="s2">We&#39;ll do anything for you, sir.</p>
+<p begin="00:11:43.200" end="00:11:46.366" style="s2">Why would I take in people who&#39;d betray their own country?</p>
+<p begin="00:11:46.633" end="00:11:48.566" style="s2">Sir, we know this region&#39;s terrain well.</p>
+<p begin="00:11:48.566" end="00:11:50.500" style="s2">Just let us live, please.</p>
+<p begin="00:11:51.333" end="00:11:52.933" style="s2">You want to live?</p>
+<p begin="00:11:52.933" end="00:11:53.900" style="s2">We do.</p>
+<p begin="00:11:53.900" end="00:11:55.566" style="s2">We&#39;ll do anything.</p>
+<p begin="00:11:56.866" end="00:11:59.166" style="s2">Then there is something I can entrust to you.</p>
+<p begin="00:12:00.866" end="00:12:03.766" style="s2">Mix in with the refugees and enter Hyeonmu Fortress.</p>
+<p begin="00:12:04.533" end="00:12:06.266" style="s2">Hyeonmu Fortress, sir?</p>
+<p begin="00:12:06.333" end="00:12:07.133" style="s2">Yes.</p>
+<p begin="00:12:08.100" end="00:12:10.233" style="s2">Find out everything about the situation inside.</p>
+<p begin="00:12:10.900" end="00:12:13.333" style="s2">And spread discontent among the people.</p>
+<p begin="00:12:13.733" end="00:12:14.866" style="s2">Discontent, sir?</p>
+<p begin="00:12:15.133" end="00:12:18.366" style="s2">Stir the people up and sow chaos inside the walls.</p>
+<p begin="00:12:19.066" end="00:12:20.700" style="s2">When it&#39;s done,</p>
+<p begin="00:12:21.133" end="00:12:23.966" style="s2">slip out of the fortress secretly and return to our camp.</p>
+<p begin="00:12:24.466" end="00:12:26.366" style="s2">Do that, and I&#39;ll take you in.</p>
+<p begin="00:12:26.733" end="00:12:29.066" style="s2">We&#39;ll get it done, no matter what.</p>
+<p begin="00:12:30.100" end="00:12:30.900" style="s2">Send them.</p>
+<p begin="00:12:43.166" end="00:12:45.333" style="s2">Mother, I&#39;m hungry.</p>
+<p begin="00:12:45.766" end="00:12:47.066" style="s2">Just hold on a little longer.</p>
+<p begin="00:12:47.366" end="00:12:49.466" style="s2">The fortress is just ahead.</p>
+<p begin="00:12:49.733" end="00:12:52.466" style="s2">Will there be food there?</p>
+<p begin="00:12:55.600" end="00:12:58.400" style="s2">They say Hyeonmu is starving too, with nothing to eat.</p>
+<p begin="00:12:59.733" end="00:13:01.166" style="s2">That&#39;s what I heard.</p>
+<p begin="00:13:01.766" end="00:13:02.766" style="s2">But...</p>
+<p begin="00:13:03.333" end="00:13:04.933" style="s2">will they even take us in?</p>
+<p begin="00:13:05.900" end="00:13:07.666" style="s2">We have no home to go back to, do we?</p>
+<p begin="00:13:07.933" end="00:13:10.066" style="s2">If we turn back now, where would we go?</p>
+<p begin="00:13:10.766" end="00:13:11.566" style="s2">True.</p>
+<p begin="00:13:12.300" end="00:13:14.000" style="s2">We&#39;ve got nowhere left.</p>
+<p begin="00:13:17.100" end="00:13:20.366" style="s2">Brother, will the Xiongna bastards keep their word?</p>
+<p begin="00:13:21.333" end="00:13:23.800" style="s2">Then you want to go back and offer your neck?</p>
+<p begin="00:13:25.500" end="00:13:27.333" style="s2">Surviving comes first.</p>
+<p begin="00:13:31.400" end="00:13:32.866" style="s2">According to the scouts&#39; report,</p>
+<p begin="00:13:33.233" end="00:13:36.200" style="s2">the enemy&#39;s rear guard alone is well over fifty thousand.</p>
+<p begin="00:13:37.200" end="00:13:38.766" style="s2">With the vanguard added in,</p>
+<p begin="00:13:39.000" end="00:13:40.866" style="s2">isn&#39;t that nearly sixty thousand troops?</p>
+<p begin="00:13:43.466" end="00:13:45.933" style="s2">Including those who&#39;ve newly joined our ranks,</p>
+<p begin="00:13:46.300" end="00:13:48.466" style="s2">how many men do we have now?</p>
+<p begin="00:13:49.266" end="00:13:51.666" style="s2">We&#39;ve reached three thousand, sir.</p>
+<p begin="00:13:52.566" end="00:13:53.600" style="s2">Three thousand?</p>
+<p begin="00:13:54.366" end="00:13:56.700" style="s2">About five hundred a day are coming to enlist.</p>
+<p begin="00:13:56.700" end="00:13:59.633" style="s2">Word has spread that joining the army means three full meals a day,</p>
+<p begin="00:13:59.633" end="00:14:01.366" style="s2">and the numbers have grown even faster these past few days.</p>
+<p begin="00:14:01.400" end="00:14:03.766" style="s2">Right now we can&#39;t even take in all who are coming,</p>
+<p begin="00:14:03.933" end="00:14:06.900" style="s2">and there&#39;s a line outside the gates of men asking to join.</p>
+<p begin="00:14:09.466" end="00:14:12.800" style="s2">Originally, Hyeonmu could barely scrape together the grain tax for the court.</p>
+<p begin="00:14:12.900" end="00:14:15.033" style="s2">Feeding and clothing eight hundred soldiers was already a strain.</p>
+<p begin="00:14:15.566" end="00:14:17.500" style="s2">But now, because word has it that provisions are plentiful,</p>
+<p begin="00:14:17.500" end="00:14:19.700" style="s2">people are coming to enlist of their own accord.</p>
+<p begin="00:14:19.700" end="00:14:21.233" style="s2">It should be a joyous thing, but</p>
+<p begin="00:14:21.500" end="00:14:24.333" style="s2">with the enemy&#39;s rear guard now in sight, I can&#39;t simply rejoice.</p>
+<p begin="00:14:24.566" end="00:14:28.633" style="s2">Indeed. I never imagined the enemy would be this numerous.</p>
+<p begin="00:14:29.400" end="00:14:31.733" style="s2">At this rate, we&#39;re far short.</p>
+<p begin="00:14:33.733" end="00:14:35.966" style="s2">We need at least ten thousand men.</p>
+<p begin="00:14:36.900" end="00:14:38.066" style="s2">Ten thousand...</p>
+<p begin="00:14:40.566" end="00:14:44.100" style="s2">At the current pace, I thought six or seven thousand wouldn&#39;t be difficult, but</p>
+<p begin="00:14:44.400" end="00:14:46.133" style="s2">it&#39;s one mountain after another.</p>
+<p begin="00:14:46.466" end="00:14:47.566" style="s2">Urgent news!</p>
+<p begin="00:14:52.066" end="00:14:54.933" style="s2">Countless refugees are flooding toward Hyeonmu Fortress from all directions.</p>
+<p begin="00:14:57.166" end="00:14:58.300" style="s2">Refugees?</p>
+<p begin="00:14:58.466" end="00:14:59.466" style="s2">What happened?</p>
+<p begin="00:14:59.533" end="00:15:02.366" style="s2">The Xiongna are plundering and burning the nearby villages.</p>
+<p begin="00:15:02.666" end="00:15:03.733" style="s2">People who&#39;ve lost their homes</p>
+<p begin="00:15:03.733" end="00:15:05.700" style="s2">are all heading this way.</p>
+<p begin="00:15:06.333" end="00:15:07.800" style="s2">How many are there?</p>
+<p begin="00:15:07.800" end="00:15:09.300" style="s2">We can&#39;t know the exact number, but</p>
+<p begin="00:15:09.400" end="00:15:11.000" style="s2">thousands are already arriving,</p>
+<p begin="00:15:11.000" end="00:15:13.100" style="s2">and more keep coming without end.</p>
+<p begin="00:15:13.266" end="00:15:16.000" style="s2">It seems they&#39;re deliberately driving the people this way.</p>
+<p begin="00:15:18.566" end="00:15:20.733" style="s2">What? Those barbarians—</p>
+<p begin="00:15:22.500" end="00:15:25.300" style="s2">They&#39;d use our own people as tools of war?</p>
+<p begin="00:15:25.866" end="00:15:27.300" style="s2">Open the gates at once.</p>
+<p begin="00:15:28.900" end="00:15:29.700" style="s2">What?</p>
+<p begin="00:15:29.933" end="00:15:30.966" style="s2">Sir, the magistrate—</p>
+<p begin="00:15:31.133" end="00:15:33.066" style="s2">what are you saying?</p>
+<p begin="00:15:34.233" end="00:15:36.566" style="s2">Haven&#39;t they sent us a gift?</p>
+<p begin="00:15:36.900" end="00:15:37.966" style="s2">A gift?</p>
+<p begin="00:15:39.600" end="00:15:42.066" style="s2">Go and welcome in those who will become our soldiers.</p>
+<p begin="00:15:44.500" end="00:15:45.300" style="s2">Ah.</p>
+<p begin="00:15:46.600" end="00:15:50.200" style="s2">What we lack right now isn&#39;t provisions—it&#39;s people.</p>
+<p begin="00:15:51.766" end="00:15:54.000" style="s2">I&#39;ll go and bring them in at once.</p>
+<p begin="00:15:59.300" end="00:16:00.133" style="s2">Excuse me.</p>
+<p begin="00:16:00.433" end="00:16:01.833" style="s2">Yes, sir.</p>
+<p begin="00:16:02.766" end="00:16:06.833" style="s2">Tell the smithies to focus on making arrowheads from now on.</p>
+<p begin="00:16:07.766" end="00:16:09.533" style="s2">Arrowheads, sir?</p>
+<p begin="00:16:11.266" end="00:16:13.700" style="s2">To hold the walls and repel their assaults,</p>
+<p begin="00:16:13.700" end="00:16:15.533" style="s2">we need arrows above all else.</p>
+<p begin="00:16:15.933" end="00:16:17.700" style="s2">Among the refugees coming in,</p>
+<p begin="00:16:17.700" end="00:16:20.566" style="s2">pick out those who know how to handle a bow and train them as archers.</p>
+<p begin="00:16:20.566" end="00:16:21.566" style="s2">Don&#39;t worry.</p>
+<p begin="00:16:21.633" end="00:16:24.866" style="s2">Aren&#39;t the people of Daeryeo renowned for their archery?</p>
+<p begin="00:16:24.933" end="00:16:26.766" style="s2">We don&#39;t have much time.</p>
+<p begin="00:16:26.766" end="00:16:27.500" style="s2">Make it quick.</p>
+<p begin="00:16:27.566" end="00:16:29.933" style="s2">Yes, sir. I&#39;ll see to it right away.</p>
+<p begin="00:16:42.000" end="00:16:43.233" style="s2">Sixty thousand...</p>
+<p begin="00:16:45.366" end="00:16:46.300" style="s2">General.</p>
+<p begin="00:16:47.233" end="00:16:48.433" style="s2">Please hurry.</p>
+<p begin="00:16:52.033" end="00:16:53.433" style="s2">Did you look into the weapons?</p>
+<p begin="00:16:53.433" end="00:16:55.600" style="s2">I did, brother, but it&#39;s not easy.</p>
+<p begin="00:16:55.600" end="00:16:57.800" style="s2">In Korea, you can&#39;t just buy weapons freely.</p>
+<p begin="00:16:57.933" end="00:16:59.133" style="s2">Some require permits,</p>
+<p begin="00:16:59.133" end="00:17:00.966" style="s2">and even what&#39;s available is heavily restricted.</p>
+<p begin="00:17:00.966" end="00:17:02.800" style="s2">Buying in bulk is even harder.</p>
+<p begin="00:17:02.800" end="00:17:04.733" style="s2">And even if we got them, distributing them would be a problem.</p>
+<p begin="00:17:04.733" end="00:17:07.400" style="s2">Then we&#39;ll have to find another way.</p>
+<p begin="00:17:07.733" end="00:17:10.300" style="s2">So I was thinking—what if we use things</p>
+<p begin="00:17:10.300" end="00:17:12.100" style="s2">that are easy to get in everyday life?</p>
+<p begin="00:17:12.200" end="00:17:13.866" style="s2">What kind of things?</p>
+<p begin="00:17:13.866" end="00:17:15.300" style="s2">First, this is kerosene.</p>
+<p begin="00:17:15.400" end="00:17:17.033" style="s2">It&#39;s flammable,</p>
+<p begin="00:17:17.033" end="00:17:18.466" style="s2">so you have to be extremely careful handling it.</p>
+<p begin="00:17:18.733" end="00:17:19.700" style="s2">So it&#39;s oil.</p>
+<p begin="00:17:19.833" end="00:17:20.633" style="s2">Mujin.</p>
+<p begin="00:17:20.800" end="00:17:23.466" style="s2">Even transporting and storing this requires caution.</p>
+<p begin="00:17:23.666" end="00:17:26.166" style="s2">If the soldiers handle it carelessly, it could cause a major accident.</p>
+<p begin="00:17:26.900" end="00:17:27.866" style="s2">I&#39;ll remember that.</p>
+<p begin="00:17:28.300" end="00:17:30.333" style="s2">And this is styrofoam.</p>
+<p begin="00:17:30.366" end="00:17:32.766" style="s2">It&#39;s widely used for packaging and insulation.</p>
+<p begin="00:17:33.233" end="00:17:34.800" style="s2">It looks very light.</p>
+<p begin="00:17:34.800" end="00:17:37.833" style="s2">Yes, but when exposed to fire, it melts or burns</p>
+<p begin="00:17:37.833" end="00:17:39.633" style="s2">and can give off toxic smoke.</p>
+<p begin="00:17:39.633" end="00:17:41.966" style="s2">So it&#39;s dangerous to keep near flames.</p>
+<p begin="00:17:42.500" end="00:17:44.066" style="s2">And when you use it,</p>
+<p begin="00:17:44.066" end="00:17:46.100" style="s2">there&#39;s one more thing you must always consider.</p>
+<p begin="00:17:46.100" end="00:17:46.766" style="s2">What&#39;s that?</p>
+<p begin="00:17:47.133" end="00:17:48.233" style="s2">The wind.</p>
+<p begin="00:17:48.366" end="00:17:50.133" style="s2">Depending on which way the wind blows,</p>
+<p begin="00:17:50.133" end="00:17:52.366" style="s2">the flames and smoke move in different directions.</p>
+<p begin="00:17:52.366" end="00:17:54.866" style="s2">One wrong move and even our own troops could be in danger.</p>
+<p begin="00:17:55.866" end="00:17:58.033" style="s2">So depending on the wind, we might not be able to use it at all.</p>
+<p begin="00:17:59.533" end="00:18:00.766" style="s2">What&#39;s this?</p>
+<p begin="00:18:01.233" end="00:18:02.800" style="s2">It&#39;s a portable power station.</p>
+<p begin="00:18:02.800" end="00:18:05.966" style="s2">Simply put, it stores electricity and lets you use it when needed.</p>
+<p begin="00:18:07.166" end="00:18:08.833" style="s2">It holds electricity?</p>
+<p begin="00:18:08.833" end="00:18:09.366" style="s2">Yes.</p>
+<p begin="00:18:09.766" end="00:18:11.400" style="s2">The things you brought back—</p>
+<p begin="00:18:11.400" end="00:18:12.700" style="s2">don&#39;t they have charging issues?</p>
+<p begin="00:18:12.700" end="00:18:14.500" style="s2">You can charge them with this.</p>
+<p begin="00:18:17.566" end="00:18:19.800" style="s2">But it&#39;s dangerous if exposed to heat or fire,</p>
+<p begin="00:18:19.833" end="00:18:21.366" style="s2">so you&#39;ll need to be careful storing it.</p>
+<p begin="00:18:21.366" end="00:18:22.900" style="s2">Understood. Get plenty of these too.</p>
+<p begin="00:18:22.900" end="00:18:23.566" style="s2">Yes, brother.</p>
+<p begin="00:18:23.566" end="00:18:24.966" style="s2">But how about we look around other places too</p>
+<p begin="00:18:24.966" end="00:18:26.966" style="s2">and see for ourselves what else might be useful?</p>
+<p begin="00:18:28.533" end="00:18:29.500" style="s2">I&#39;ll come too.</p>
+<p begin="00:18:29.500" end="00:18:31.266" style="s2">You&#39;ve been so busy lately, Mujin,</p>
+<p begin="00:18:31.266" end="00:18:33.333" style="s2">we haven&#39;t had time together. This works out well.</p>
+<p begin="00:18:34.966" end="00:18:36.333" style="s2">Ahem.</p>
+<p begin="00:18:42.033" end="00:18:43.933" style="s2">How long do we have to wait?</p>
+<p begin="00:18:44.000" end="00:18:47.400" style="s2">We&#39;re citizens of Daeryeo too. Please open the gates.</p>
+<p begin="00:18:52.000" end="00:18:54.333" style="s2">Even if we get inside, will there be anything to eat?</p>
+<p begin="00:18:54.533" end="00:18:56.833" style="s2">Still, we can&#39;t just freeze to death out here.</p>
+<p begin="00:18:58.200" end="00:18:58.900" style="s2">Everyone,</p>
+<p begin="00:18:58.900" end="00:19:01.133" style="s2">how long are we supposed to just wait like this?</p>
+<p begin="00:19:01.133" end="00:19:02.533" style="s2">What crime have we committed?</p>
+<p begin="00:19:02.966" end="00:19:04.300" style="s2">The Xiongna</p>
+<p begin="00:19:04.433" end="00:19:07.200" style="s2">took our homes and all our belongings, and we came all this way,</p>
+<p begin="00:19:07.533" end="00:19:09.166" style="s2">and the very people who should protect us</p>
+<p begin="00:19:09.233" end="00:19:10.966" style="s2">have locked the gates?</p>
+<p begin="00:19:11.600" end="00:19:13.366" style="s2">That&#39;s not wrong.</p>
+<p begin="00:19:13.766" end="00:19:16.566" style="s2">Just because we weren&#39;t born in this fortress,</p>
+<p begin="00:19:16.966" end="00:19:19.200" style="s2">does that make us any less citizens of Daeryeo?</p>
+<p begin="00:19:19.833" end="00:19:22.166" style="s2">If they won&#39;t take us in,</p>
+<p begin="00:19:22.366" end="00:19:25.433" style="s2">then they&#39;re the kind who&#39;d abandon their own people.</p>
+<p begin="00:19:26.966" end="00:19:29.500" style="s2">Hear, hear! We&#39;re citizens of this country too!</p>
+<p begin="00:19:29.900" end="00:19:31.000" style="s2">Open the gates!</p>
+<p begin="00:19:31.400" end="00:19:33.033" style="s2">Open the gates, please!</p>
+<p begin="00:19:33.033" end="00:19:34.400" style="s2">Let us live!</p>
+<p begin="00:19:35.800" end="00:19:36.933" style="s2">Enough.</p>
+<p begin="00:19:37.366" end="00:19:39.333" style="s2">They must have their reasons too.</p>
+<p begin="00:19:39.533" end="00:19:40.333" style="s2">Then</p>
+<p begin="00:19:41.033" end="00:19:43.166" style="s2">are you saying we should all die here together?</p>
+<p begin="00:19:48.033" end="00:19:50.833" style="s2">Refugees keep pouring in.</p>
+<p begin="00:19:58.000" end="00:19:59.000" style="s2">Strange.</p>
+<p begin="00:20:01.133" end="00:20:02.666" style="s2">What is, sir?</p>
+<p begin="00:20:03.166" end="00:20:04.633" style="s2">Those men over there.</p>
+<p begin="00:20:36.633" end="00:20:37.433" style="s2">Truly?</p>
+<p begin="00:20:37.800" end="00:20:39.666" style="s2">They&#39;re really taking us in?</p>
+<p begin="00:20:39.900" end="00:20:40.800" style="s2">Yes.</p>
+<p begin="00:20:40.866" end="00:20:42.200" style="s2">Everyone can come in,</p>
+<p begin="00:20:42.200" end="00:20:43.833" style="s2">so don&#39;t push—keep order.</p>
+<p begin="00:20:45.366" end="00:20:46.266" style="s2">We&#39;re saved.</p>
+<p begin="00:20:46.500" end="00:20:48.066" style="s2">My child is alive.</p>
+<p begin="00:20:48.400" end="00:20:49.600" style="s2">Thank you.</p>
+<p begin="00:20:50.066" end="00:20:51.900" style="s2">Thank you so much.</p>
+<p begin="00:20:52.233" end="00:20:52.900" style="s2">Brother.</p>
+<p begin="00:20:53.166" end="00:20:54.300" style="s2">They&#39;re opening the gates.</p>
+<p begin="00:20:54.633" end="00:20:55.600" style="s2">Keep your mouth shut.</p>
+<p begin="00:20:55.600" end="00:20:57.033" style="s2">We go in first. Yes.</p>
+<p begin="00:21:36.633" end="00:21:38.333" style="s2">Everyone, keep order.</p>
+<p begin="00:21:38.400" end="00:21:39.900" style="s2">There&#39;s no need to rush.</p>
+<p begin="00:21:40.433" end="00:21:42.800" style="s2">Give to the children and the elderly and sick first.</p>
+<p begin="00:21:42.800" end="00:21:43.433" style="s2">Yes.</p>
+<p begin="00:21:45.333" end="00:21:46.100" style="s2">Mother.</p>
+<p begin="00:21:46.100" end="00:21:47.900" style="s2">What is this?</p>
+<p begin="00:21:48.433" end="00:21:49.233" style="s2">I don&#39;t know.</p>
+<p begin="00:21:49.500" end="00:21:50.433" style="s2">Is it rice cake?</p>
+<p begin="00:21:53.933" end="00:21:56.266" style="s2">Mother, this is really delicious.</p>
+<p begin="00:22:17.333" end="00:22:17.933" style="s2">Brother.</p>
+<p begin="00:22:17.933" end="00:22:20.133" style="s2">Try this. It&#39;s incredible.</p>
+<p begin="00:22:20.500" end="00:22:23.900" style="s2">They&#39;re just giving food this precious to the people for free?</p>
+<p begin="00:22:28.066" end="00:22:28.866" style="s2">Brother.</p>
+<p begin="00:22:29.300" end="00:22:31.900" style="s2">Maybe we were wrong about this.</p>
+<p begin="00:22:32.600" end="00:22:33.666" style="s2">What are you talking about?</p>
+<p begin="00:22:34.900" end="00:22:37.433" style="s2">I mean, they have plenty of food, so why—</p>
+<p begin="00:22:38.600" end="00:22:39.633" style="s2">You fool.</p>
+<p begin="00:22:40.066" end="00:22:41.866" style="s2">No matter how well-off they are,</p>
+<p begin="00:22:42.000" end="00:22:44.066" style="s2">how can they hold off the Xiongna army outside?</p>
+<p begin="00:22:44.633" end="00:22:46.333" style="s2">Right now they&#39;re laughing and chatting,</p>
+<p begin="00:22:46.433" end="00:22:48.433" style="s2">but once the fortress falls, it&#39;s all over.</p>
+<p begin="00:22:48.500" end="00:22:49.533" style="s2">That may be so, but—</p>
+<p begin="00:22:49.533" end="00:22:50.833" style="s2">Quit talking and just follow me.</p>
+<p begin="00:22:51.400" end="00:22:53.166" style="s2">That&#39;s our only way to survive.</p>
+<p begin="00:23:03.566" end="00:23:04.900" style="s2">Everyone, listen to me.</p>
+<p begin="00:23:05.500" end="00:23:07.166" style="s2">You&#39;ve had your homes</p>
+<p begin="00:23:07.166" end="00:23:08.966" style="s2">taken by the Xiongna</p>
+<p begin="00:23:08.966" end="00:23:10.133" style="s2">and came all this way.</p>
+<p begin="00:23:10.566" end="00:23:12.300" style="s2">But don&#39;t worry anymore.</p>
+<p begin="00:23:13.033" end="00:23:15.966" style="s2">Hyeonmu will not abandon those who come to it.</p>
+<p begin="00:23:15.966" end="00:23:17.900" style="s2">There&#39;s just one thing you must keep in mind.</p>
+<p begin="00:23:18.600" end="00:23:20.666" style="s2">This place is also facing war.</p>
+<p begin="00:23:20.666" end="00:23:22.833" style="s2">So those with strength, lend your strength,</p>
+<p begin="00:23:22.900" end="00:23:24.833" style="s2">and those with skills, lend your skills.</p>
+<p begin="00:23:24.833" end="00:23:26.833" style="s2">That much we can do, easily.</p>
+<p begin="00:23:26.966" end="00:23:29.266" style="s2">They&#39;re feeding us and giving us shelter—how could we just sit by?</p>
+<p begin="00:23:29.500" end="00:23:31.600" style="s2">And any able-bodied men who wish to join the army,</p>
+<p begin="00:23:31.866" end="00:23:33.033" style="s2">step forward.</p>
+<p begin="00:23:33.366" end="00:23:35.133" style="s2">Also, those who distinguish themselves in battle</p>
+<p begin="00:23:35.133" end="00:23:37.366" style="s2">will receive rewards befitting their deeds.</p>
+<p begin="00:23:37.866" end="00:23:40.633" style="s2">Do you really get food if you join the army?</p>
+<p begin="00:23:41.533" end="00:23:42.333" style="s2">You do.</p>
+<p begin="00:23:45.033" end="00:23:47.100" style="s2">I&#39;ve lost my home and my family.</p>
+<p begin="00:23:47.100" end="00:23:48.866" style="s2">I have nothing left to lose.</p>
+<p begin="00:23:48.866" end="00:23:50.300" style="s2">I&#39;ll become a soldier too.</p>
+<p begin="00:23:50.300" end="00:23:53.233" style="s2">I&#39;ll pay back the bastards who burned my home.</p>
+<p begin="00:23:59.933" end="00:24:00.733" style="s2">You there.</p>
+<p begin="00:24:01.300" end="00:24:02.366" style="s2">Yes, sir.</p>
+<p begin="00:24:03.066" end="00:24:05.500" style="s2">See those men gathered over there?</p>
+<p begin="00:24:05.566" end="00:24:06.366" style="s2">Yes.</p>
+<p begin="00:24:07.200" end="00:24:09.233" style="s2">They&#39;re the ones who were causing a commotion at the gate earlier.</p>
+<p begin="00:24:09.566" end="00:24:10.500" style="s2">Shall I arrest them?</p>
+<p begin="00:24:10.500" end="00:24:11.466" style="s2">Not yet.</p>
+<p begin="00:24:11.500" end="00:24:13.333" style="s2">But don&#39;t let them out of your sight.</p>
+<p begin="00:24:13.466" end="00:24:14.833" style="s2">Understood.</p>
+<p begin="00:24:15.233" end="00:24:17.266" style="s2">They must be up to something.</p>
+<p begin="00:20:05.200" end="00:20:06.733" style="s2">Even while separated,</p>
+<p begin="00:20:07.300" end="00:20:09.766" style="s2">they&#39;re shouting the same words, as if by agreement.</p>
+<p begin="00:20:11.700" end="00:20:13.033" style="s2">Now that you mention it, they are.</p>
+<p begin="00:20:13.566" end="00:20:14.600" style="s2">Keep an eye on them.</p>
+<p begin="00:20:15.500" end="00:20:17.100" style="s2">But don&#39;t lay a hand on them rashly.</p>
+<p begin="00:20:17.433" end="00:20:17.833" style="s2">Yes.</p>
+<p begin="00:20:27.033" end="00:20:27.833" style="s2">Everyone, listen.</p>
+<p begin="00:20:28.533" end="00:20:32.100" style="s2">Hyeonmu will take in all who come to it.</p>
+<p begin="00:21:14.933" end="00:21:16.766" style="s2">What&#39;s going on here?</p>
+<p begin="00:21:16.766" end="00:21:19.233" style="s2">Didn&#39;t they say Hyeonmu was starving with nothing to eat?</p>
+<p begin="00:21:19.400" end="00:21:20.466" style="s2">That&#39;s what I heard too.</p>
+<p begin="00:21:20.733" end="00:21:21.800" style="s2">But look at those people.</p>
+<p begin="00:21:56.966" end="00:21:57.766" style="s2">Oh my.</p>
+<p begin="00:21:58.166" end="00:22:00.266" style="s2">Is this really something you eat?</p>
+<p begin="00:22:00.533" end="00:22:02.200" style="s2">Elder, please try it.</p>
+<p begin="00:22:02.366" end="00:22:04.200" style="s2">I&#39;ve never tasted anything so soft in my life.</p>
+<p begin="00:22:08.800" end="00:22:11.533" style="s2">I&#39;ve never eaten anything like this in all my years.</p>
+<p begin="00:21:22.333" end="00:21:23.833" style="s2">They don&#39;t look like starving people at all.</p>
+<p begin="00:21:24.166" end="00:21:25.400" style="s2">Their clothes are neat,</p>
+<p begin="00:21:25.733" end="00:21:27.200" style="s2">and their faces are full of life.</p>
+<p begin="00:21:27.533" end="00:21:31.366" style="s2">How strange—it&#39;s completely different from what we heard outside the walls.</p>
+</div>
+</body>
+</tt>
