@@ -147,3 +147,9 @@ def test_sound_design_gate():
     from studio.sound_design import evaluate_sound_design
     weak=evaluate_sound_design([{"scene_id":"x","sound_design":{"music_function":"constant music"}}])
     assert weak["warnings"]
+
+
+def test_sound_design_gate_allows_negated_wallpaper_rule():
+    from studio.sound_design import evaluate_sound_design
+    good=evaluate_sound_design([{"scene_id":"x","sound_design":{"dialogue_priority":"dialogue remains intelligible","music_function":"motif evolves rather than constant emotional wallpaper","silence_or_negative_space":"drop music before revelation","motif":"three-note motif evolves"}}])
+    assert not good["warnings"]

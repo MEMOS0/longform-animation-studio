@@ -19,7 +19,8 @@ def evaluate_sound_design(scenes: list[dict[str, Any]]) -> dict[str, Any]:
         scene_warnings = [f"{sid}: missing {key}" for key in missing]
         if missing:
             scene_warnings.append(f"{sid}: sound design is not yet production-actionable")
-        if any(term in joined for term in WEAK_TERMS):
+        negated = any(marker in joined for marker in ("rather than", "not constant", "no constant", "avoid constant", "instead of constant"))
+        if any(term in joined for term in WEAK_TERMS) and not negated:
             scene_warnings.append(f"{sid}: music/sound described as constant or generic rather than structural")
         if "silence" in joined or "drop" in joined or "negative space" in joined:
             strengths.append(f"{sid}: uses silence/negative space as an emotional transition")
