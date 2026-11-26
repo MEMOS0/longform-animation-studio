@@ -95,8 +95,17 @@ def main() -> None:
             try:
                 payload = future.result()
             except Exception as exc:
-                payload = {"video_id": video_id, "error": repr(exc), "comments": []}
-            (raw_dir / f"{video_id}.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+                output_path = raw_dir / f"{video_id}.json"
+                if output_path.exists():
+                    payload = json.loads(output_path.read_text(encoding="utf-8"))
+                    payload["refresh_error"] = repr(exc)
+                else:
+                    payload = {"video_id": video_id, "error": repr(exc), "comments": []}
+                (raw_dir / f"{video_id}.error.json").write_text(json.dumps({"video_id": video_id, "error": repr(exc)}, ensure_ascii=False, indent=2), encoding="utf-8")
+            else:
+                (raw_dir / f"{video_id}.error.json").unlink(missing_ok=True)
+            if "refresh_error" not in payload:
+                (raw_dir / f"{video_id}.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
             payloads.append(payload)
             print(video_id, len(payload.get("comments", [])), payload.get("error", ""), flush=True)
     result = aggregate(payloads)
