@@ -64,7 +64,7 @@ def render_casebook(casebook: dict, outcome: dict | None) -> str:
     return "\n".join(lines)
 
 
-def build(media_root: Path, output_root: Path, outcomes_path: Path) -> list[Path]:
+def build(media_root: Path, output_root: Path, outcomes_path: Path, subtitle_raw_dir: Path = Path("data/raw/piped")) -> list[Path]:
     output_root.mkdir(parents=True, exist_ok=True)
     outcomes = load_outcomes(outcomes_path)
     written = []
@@ -74,7 +74,7 @@ def build(media_root: Path, output_root: Path, outcomes_path: Path) -> list[Path
             continue
         video_id = video_dir.name
         timeline_rows = read_jsonl(timelines[0])
-        subtitle = Path("data/raw/piped") / f"{video_id}.en.ttml"
+        subtitle = subtitle_raw_dir / f"{video_id}.en.ttml"
         cues = parse_ttml(subtitle) if subtitle.exists() else []
         casebook = summarize_story_signals(video_id, timeline_rows, cues)
         casebook["outcome"] = outcomes.get(video_id, {}).get("analysis")
@@ -91,8 +91,9 @@ def main() -> None:
     parser.add_argument("--media-root", default="data/processed/media_batch")
     parser.add_argument("--output-root", default="data/processed/casebooks")
     parser.add_argument("--outcomes", default="data/processed/novdrama_analysis_rows.json")
+    parser.add_argument("--subtitle-raw-dir", default="data/raw/piped")
     args = parser.parse_args()
-    written = build(Path(args.media_root), Path(args.output_root), Path(args.outcomes))
+    written = build(Path(args.media_root), Path(args.output_root), Path(args.outcomes), Path(args.subtitle_raw_dir))
     print(json.dumps({"casebooks_written": len(written) // 2, "files": len(written)}, indent=2))
 
 
