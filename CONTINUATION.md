@@ -171,3 +171,4 @@ Latest pushed commit when written: `11c99c0 Add continuous director seed storybo
 Rollover addendum: latest pushed commit `d297626 Remove repeated beats from director seeds`; tests 25 passed. Director seeds now use 10 non-repeating exact-format beats per scene; they are seeds, not final boards.
 
 Discovery addendum: rerun found new 7d leads including Everflame 2.89m/47k, Nightfall 1.72m/87k, Many Drama titles, Cine Drop; merged into 45-row candidates file without overwriting prior rows. Report regenerated.
+Priority after rollover: analyze/download new discovery lead `9N6S6D_ioA0` (baby dragon hidden from giants, ~1.13m views/day estimate at collection, 52.6k subs) and compare duplicate-title Everflame variants `Ky_1Dz7WXlY` vs `6pbhGtHRTwA` before assuming same/different content. Also consider Nightfall `26o_ccDnTSg` train-station abandonment hit.
