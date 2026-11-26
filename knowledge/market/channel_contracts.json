@@ -346,7 +346,8 @@
       "knowledge/market/third-pass-breakout-media-deep-dive.md",
       "knowledge/market/expanded-breakout-deep-dive.md",
       "knowledge/market/dramora-compressed-social-melodrama-deep-dive.md",
-      "knowledge/market/karma-floor-table-social-proof-deep-dive.md"
+      "knowledge/market/karma-floor-table-social-proof-deep-dive.md",
+      "knowledge/market/spark-shorts-desert-mermaid-deep-dive.md"
     ]
   },
   "machine_personhood_scifi": {
@@ -506,7 +507,8 @@
     ],
     "evidence": [
       "knowledge/market/fourth-pass-breakout-media-deep-dive.md",
-      "knowledge/market/karma-floor-table-social-proof-deep-dive.md"
+      "knowledge/market/karma-floor-table-social-proof-deep-dive.md",
+      "knowledge/market/spark-shorts-desert-mermaid-deep-dive.md"
     ]
   },
   "misunderstood_nonhuman_family": {
@@ -559,7 +561,8 @@
       "evidence/research/fifthpass_media_analysis/NHAHR3v9La8/fullfilm_sheet.jpg",
       "evidence/research/fifthpass_media_analysis/NHAHR3v9La8/ending_sheet.jpg",
       "knowledge/market/epic-deep-dive.md",
-      "knowledge/market/eldsaga-wolf-father-creature-scifi-deep-dive.md"
+      "knowledge/market/eldsaga-wolf-father-creature-scifi-deep-dive.md",
+      "knowledge/market/spark-shorts-desert-mermaid-deep-dive.md"
     ],
     "causal_boundary": "Compressed breakout performance is observational; no CTR/retention/traffic-source data are available. Use as creative contract evidence, not proof of causality."
   },
@@ -608,6 +611,48 @@
       "evidence/research/genre_expansion/bUfsuiuV2D0/opening_sheet.jpg",
       "evidence/research/genre_expansion/bUfsuiuV2D0/final_sheet.jpg",
       "knowledge/market/eldsaga-channel-hit-low-comparison.md"
+    ]
+  },
+  "creature_economic_melodrama": {
+    "reference_channels": [
+      "Spark Shorts"
+    ],
+    "positive_signals": [
+      "mermaid child",
+      "tears become pearls",
+      "debt",
+      "house collateral",
+      "food cart",
+      "honest pay",
+      "living treasure",
+      "she belongs to no one",
+      "ocean remembers its children",
+      "garden epilogue",
+      "legal proof",
+      "care before monetization"
+    ],
+    "opening_rules": [
+      "establish material debt/home insecurity before or alongside the creature miracle",
+      "make first creature contact a life-saving care decision before economic value is used",
+      "give magical value a consent/suffering cost",
+      "keep food/work/customer proof visible as protagonist capability"
+    ],
+    "risk_patterns": [
+      "magic becomes free money without ethical cost",
+      "creature is adopted/possessed instead of returned to its own home or personhood",
+      "legal documents appear without being seeded in the economic world",
+      "villain only steals money rather than denying creature/child personhood",
+      "ending solves creature plot but leaves the opening housing/debt wound unpaid"
+    ],
+    "thumbnail_rules": [
+      "combine impossible environment contrast with intimate protector-child contact",
+      "keep faces/blanket/care readable before fantasy spectacle",
+      "use the economic world as contextual detail rather than clutter"
+    ],
+    "evidence": [
+      "knowledge/market/spark-shorts-desert-mermaid-deep-dive.md",
+      "evidence/research/genre_expansion/DG16FsALL9A/fullfilm_sheet.jpg",
+      "thumbnail_intelligence/reference_library/spark_shorts/DG16FsALL9A.webp"
     ]
   }
 }
