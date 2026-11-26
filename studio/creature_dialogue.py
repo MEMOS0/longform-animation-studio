@@ -43,8 +43,8 @@ def creature_dialogue_materials(ctx: dict[str, Any], index: int) -> dict[str, An
         ],
         [
             (caregiver, "This roof feeds workers, not miracles.", "shelter is offered as labor rather than charity"),
-            (protagonist, "Then I'll work. I won't sell her pain for a bed.", "food is placed within reach before permission is demanded"),
-            (caregiver, "Work first. We decide what she is after she eats.", "the creature is allowed to eat without being priced"),
+            (caregiver, "But hunger isn't a bill yet. Don't price her before she eats.", "the caregiver names the safe boundary before help becomes control"),
+            (protagonist, "Then I'll work. I won't sell her pain for a bed.", "the protagonist accepts work while refusing monetized suffering"),
             (protagonist, f"The {object_term} opens a way. It doesn't make her ours.", f"the {object_term} is set beside the creature rather than used as a claim"),
         ],
         [
@@ -67,8 +67,8 @@ def creature_dialogue_materials(ctx: dict[str, Any], index: int) -> dict[str, An
         ],
         [
             (caregiver, "Give me the proof. I can carry it faster.", "help threatens to become takeover"),
-            (protagonist, "Help me carry it. Don't carry my choice.", "the proof is shared without surrendering authorship"),
-            (caregiver, f"Then we go before the {authority} seals the road.", "the alliance accepts urgency and accountability"),
+            ("care network witness", "If one pair of hands carries it, one pair of hands can bury it.", "the witness makes the cost of surrendering authorship concrete"),
+            (protagonist, "Help me carry it. Don't carry my choice.", "the protagonist accepts help while keeping control of the proof"),
             (protagonist, f"{evidence.capitalize()}, timing, witnesses—line them up.", "the proof chain becomes a physical arrangement"),
         ],
         [

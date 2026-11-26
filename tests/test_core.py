@@ -784,3 +784,17 @@ def test_dialogue_evaluation_reports_null_spoken_turn_without_crash():
 def test_repo_and_package_scene_schemas_stay_synchronized():
     from pathlib import Path
     assert Path('schemas/scene-screenplay.schema.json').read_text(encoding='utf8') == Path('studio/package_data/schemas/scene-screenplay.schema.json').read_text(encoding='utf8')
+
+
+def test_creature_spoken_exchange_assigns_decisions_to_protagonist():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    scenes=generate_scenes(premise,generate_architecture(premise))
+    for idx in [1,5]:
+        exchange=scenes[idx]['dialogue_design']['spoken_exchange']
+        decision=next(t for t in exchange if t['beat']=='protagonist_decision')
+        assert decision['speaker']=='Nura'
+    assert "Then I'll work" in next(t for t in scenes[1]['dialogue_design']['spoken_exchange'] if t['beat']=='protagonist_decision')['line']
+    assert "Help me carry it" in next(t for t in scenes[5]['dialogue_design']['spoken_exchange'] if t['beat']=='protagonist_decision')['line']
