@@ -21,6 +21,17 @@ Updated: 2026-11-26. Evidence tier 1: Piped channel-page metadata for first-page
 4. **Everflame/Veylorn duplicate-title situation must not be naively merged.** It may be shared distribution, reupload, localization, franchise licensing, or metadata coincidence. Treat as a network/reupload question.
 5. **Neural Pictures is a different evidence class.** It validates broad high-concept demand but cannot teach us how an unknown channel breaks out.
 
+## Duplicate-title forensic check: Veylorn `6pbhGtHRTwA` vs Everflame `Ky_1Dz7WXlY`
+
+Evidence tier 2–3: exact metadata + English subtitle comparison. The videos share the exact public title **THE LOST KIND | FULL MOVIE | 4K Epic Dark Fantasy Film (Complete Story)**, but they do **not** appear to be the same film or a simple reupload.
+
+- Veylorn duration: 6483s; upload timestamp metadata `2026-11-13T16:07:48-08:00`; description names human child **Ryan**, raised by creatures the world calls monsters.
+- Everflame duration: 6226s; upload timestamp metadata `2026-11-20T04:15:59-08:00`; description instead says **THE LAST BOND**, with servant **Tamsin**, newborn dragon **Orrath**, dragon lord **Kesh**, and a mother chained beneath the city.
+- English subtitle sets: Veylorn 1453 normalized unique cues, Everflame 890; only 49 exact cue overlaps, mostly generic dialogue such as “look at me,” “no,” and “who are you?” Overall overlap is only about 5.5% of Everflame cues.
+- Opening subtitle fingerprints are completely different. Veylorn opens with monsters discussing a small human child (“You brought a human child into our valley”); Everflame opens with hiding hands/bonded wound warnings and a mother/dragon-bond backstory (“Don't let them see your hands. Hide them. Always.”).
+
+Interpretation: this looks like **title/packaging trend-jacking or search-demand capture**, not ordinary duplicate distribution. Everflame’s actual story may still be strong dragon-bond material, but the exact reuse of Veylorn’s hit title means metadata-driven discovery pipelines must detect title collisions and compare content fingerprints before treating performance as organic demand for the same story. This is also a production lesson: recognizable high-demand packaging can create click demand, but copying another channel’s exact title is ethically and strategically risky; we should learn the demand signal, not imitate the deception.
+
 ## Next evidence actions
 
 - Deep-analyze `1Nv2aGUgIG4` Tiny Kingdom, `NHAHR3v9La8` dragon twins, `lBhjowuJURw` Hidden Beauty, and `icsZH4sDwTM` insect island.
