@@ -230,3 +230,11 @@ def test_meaning_carrier_matches_short_object_names():
     premise={"meaning_carrier":{"object_or_space":"ring","opening_meaning":"coercion","closing_reversal":"chosen commitment","final_sequence_use":"ring returns"}}
     result=evaluate_meaning_carrier(premise,{"sequences":[{"turn":"ending","visual_setpiece":"the ring is returned openly"}]})
     assert result["score_0_to_1"] == 1.0
+
+
+def test_relational_contract_allows_past_coercion_contrasted_with_repair():
+    from studio.relational_contract import evaluate_relational_contract
+    good={"relational_contract":{"power_asymmetry":"x","safety_or_kindness_before_power":"she feeds him before knowing his status","costly_protagonist_action":"x","consent_or_personhood_repair":"she once had no choice, but the ending restores her freedom to choose","payoff_image":"shared home"}}
+    assert not evaluate_relational_contract(good)["warnings"]
+    bad={"relational_contract":{"power_asymmetry":"x","safety_or_kindness_before_power":"she feeds him before knowing his status","costly_protagonist_action":"x","consent_or_personhood_repair":"he is not free to choose","payoff_image":"shared home"}}
+    assert any("explicitly denies" in w for w in evaluate_relational_contract(bad)["warnings"])

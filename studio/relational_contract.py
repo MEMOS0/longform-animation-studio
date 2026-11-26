@@ -11,6 +11,31 @@ REQUIRED_FIELDS = [
     "payoff_image",
 ]
 
+DENIAL_TERMS = ["no choice", "not free", "never free", "cannot choose", "can't choose", "denied choice", "without choice", "no agency", "not allowed to choose"]
+REPAIR_TERMS = ["choice", "choose", "chosen", "consent", "person", "personhood", "free", "freedom", "name", "agency", "trust", "release"]
+PAST_MARKERS = ["once", "at first", "opening", "before", "previously", "used to", "initially"]
+CONTRAST_MARKERS = ["but", "however", "then", "later", "finally", "ultimately", "now", "becomes", "restores", "restored", "this time"]
+
+
+def denial_is_unresolved(text: str) -> bool:
+    for term in DENIAL_TERMS:
+        start = text.find(term)
+        if start < 0:
+            continue
+        end = start + len(term)
+        prefix = text[:start]
+        suffix = text[end:]
+        window = text[max(0, start - 80):end + 80]
+        positive_elsewhere = any(positive in text for positive in REPAIR_TERMS)
+        if any(marker in window for marker in PAST_MARKERS) and positive_elsewhere:
+            continue
+        if any(marker in suffix for marker in CONTRAST_MARKERS) and any(positive in suffix for positive in REPAIR_TERMS):
+            continue
+        if any(marker in prefix for marker in CONTRAST_MARKERS) and any(positive in prefix for positive in REPAIR_TERMS):
+            continue
+        return True
+    return False
+
 
 def evaluate_relational_contract(premise: dict[str, Any]) -> dict[str, Any]:
     raw_explicit = premise.get("relational_contract") or {}
@@ -36,10 +61,9 @@ def evaluate_relational_contract(premise: dict[str, Any]) -> dict[str, Any]:
     payoff = str(explicit.get("payoff_image", "")).lower()
     if safety and not any(term in safety for term in ["before", "first", "without knowing", "before knowing", "prior to", "initially", "unaware"]):
         warnings.append("safety/kindness before power is not temporally explicit")
-    denial_terms = ["no choice", "not free", "never free", "cannot choose", "can't choose", "denied choice", "without choice", "no agency", "not allowed to choose"]
-    if repair and any(term in repair for term in denial_terms):
+    if repair and denial_is_unresolved(repair):
         warnings.append("consent/personhood repair explicitly denies choice or freedom")
-    elif repair and not any(term in repair for term in ["choice", "choose", "consent", "person", "personhood", "free", "freedom", "name", "agency", "trust", "release"]):
+    elif repair and not any(term in repair for term in REPAIR_TERMS):
         warnings.append("consent/personhood repair does not clearly restore choice, freedom, identity, or trust")
     if payoff and any(term in payoff for term in ["marry him", "rescued by", "becomes rich", "wealthy wife", "powerful husband"]):
         warnings.append("payoff may reward status/romance without repaired agency")
