@@ -610,3 +610,18 @@ def test_closure_integrity_rejects_false_or_premature_recovery_and_unrelated_pla
       assert any('infrastructure/system collapse' in w for w in result['warnings']), scene_text
     actual={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"she plans to disable the pump, and the array collapses"}]}
     assert any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},actual,[])['warnings'])
+
+
+def test_closure_integrity_questioned_second_clause_is_not_actual_collapse():
+    from studio.closure_integrity import evaluate_closure_integrity
+    arch={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"Will she escape and the shield nodes go dark? the family comes home safe"}]}
+    assert not any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},arch,[])['warnings'])
+
+
+def test_creature_opening_dialogue_keeps_decision_with_protagonist():
+    from studio.premise_generator import creature_economic_premise, CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    scene=generate_scenes(premise,generate_architecture(premise))[0]
+    assert scene['dialogue_design']['key_lines'][1] == 'I will hide her first and decide who can be trusted after she is safe.'
