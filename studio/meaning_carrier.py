@@ -11,6 +11,7 @@ OBJECT_TERMS = [
 ]
 
 STOPWORDS = {"and", "the", "with", "that", "this", "from", "into", "their", "there", "between", "object", "physical", "whose", "used", "meaning"}
+GENERIC_CARRIER_WORDS = {"space", "room", "place", "area", "object", "thing", "house", "home"}
 
 
 def flatten(value: Any) -> str:
@@ -31,6 +32,27 @@ def object_hits(text: str) -> list[str]:
 def final_sequence_text(architecture: dict[str, Any]) -> str:
     sequences = architecture.get("sequences") or []
     return flatten(sequences[-2:])
+
+
+def carrier_key_terms(carrier_text: str) -> list[str]:
+    """Choose searchable head/modifier terms for each declared carrier alternative."""
+    terms: list[str] = []
+    alternatives = re.split(r"[,;/]|\band\b", carrier_text.lower())
+    for alternative in alternatives:
+        raw_tokens = re.findall(r"[^\W\d_]{2,}", alternative, flags=re.UNICODE)
+        content_tokens = [token for token in raw_tokens if token not in STOPWORDS] or raw_tokens
+        if not content_tokens:
+            continue
+        if len(content_tokens) == 1:
+            key = content_tokens[0]
+        elif content_tokens[-1] not in GENERIC_CARRIER_WORDS:
+            key = content_tokens[-1]
+        else:
+            specific = [token for token in content_tokens if token not in GENERIC_CARRIER_WORDS]
+            key = specific[-1] if specific else content_tokens[-1]
+        if key not in terms:
+            terms.append(key)
+    return terms
 
 
 def evaluate_meaning_carrier(premise: dict[str, Any], architecture: dict[str, Any] | None = None) -> dict[str, Any]:
@@ -58,9 +80,8 @@ def evaluate_meaning_carrier(premise: dict[str, Any], architecture: dict[str, An
             warnings.append("meaning carrier does not change meaning between opening and ending")
         final_text = final_sequence_text(architecture).lower()
         carrier_text = str(explicit.get("object_or_space", "")).lower()
-        raw_tokens = [token for token in re.findall(r"[a-z]{3,}", carrier_text)]
-        carrier_tokens = [token for token in raw_tokens if token not in STOPWORDS] or raw_tokens
-        final_match = any(re.search(rf"\b{re.escape(token)}(?:s|es)?\b", final_text) for token in carrier_tokens)
+        carrier_tokens = carrier_key_terms(carrier_text)
+        final_match = any(re.search(rf"\b{re.escape(token)}(?:s|es)?\b", final_text, flags=re.UNICODE) for token in carrier_tokens)
         if architecture.get("sequences"):
             if not final_match:
                 warnings.append("meaning carrier is not visibly connected to the final two architecture sequences")

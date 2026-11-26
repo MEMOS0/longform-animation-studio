@@ -275,3 +275,15 @@ def test_relational_contract_tracks_final_denial_state_and_prior_discovery():
     assert not any("denies choice" in w for w in evaluate_relational_contract({"relational_contract":repaired})["warnings"])
     repeated=dict(base,consent_or_personhood_repair="she once had no choice but learned trust; now she has no choice")
     assert any("denies choice" in w for w in evaluate_relational_contract({"relational_contract":repeated})["warnings"])
+
+def test_meaning_carrier_unicode_and_specific_location_matching():
+    from studio.meaning_carrier import evaluate_meaning_carrier
+    base={"opening_meaning":"unsafe","closing_reversal":"belonging","final_sequence_use":"returns"}
+    cafe=dict(base,object_or_space="café")
+    result=evaluate_meaning_carrier({"meaning_carrier":cafe},{"sequences":[{"visual_setpiece":"they reopen the café together"}]})
+    assert not any("final two architecture" in w for w in result["warnings"])
+    rehearsal=dict(base,object_or_space="rehearsal space")
+    bad=evaluate_meaning_carrier({"meaning_carrier":rehearsal},{"sequences":[{"visual_setpiece":"they make space at the table"}]})
+    assert any("final two architecture" in w for w in bad["warnings"])
+    good=evaluate_meaning_carrier({"meaning_carrier":rehearsal},{"sequences":[{"visual_setpiece":"the rehearsal fills with light"}]})
+    assert not any("final two architecture" in w for w in good["warnings"])
