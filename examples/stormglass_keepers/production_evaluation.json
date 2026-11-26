@@ -7222,6 +7222,25 @@
     ],
     "warnings_by_scene": {}
   },
+  "agency_intelligence": {
+    "score_0_to_1": 1.0,
+    "counts": {
+      "agency_actions": 11,
+      "competence_markers": 3,
+      "passive_wound_markers": 0,
+      "rescue_markers": 4,
+      "circular_payoff_markers": 3,
+      "early_agency_actions": 4
+    },
+    "strengths": [
+      "protagonist has repeated visible choices/actions rather than only suffering",
+      "agency appears in the opening conversion zone",
+      "competence/professional capability can become public authority",
+      "payoff can become circular generosity/community restoration rather than private victory only"
+    ],
+    "warnings": [],
+    "evidence_basis": "Nana child-designed social test, Reborn Assassin competence transplantation, AI Sweet professional authority/circular generosity, Stormglass protective choices"
+  },
   "gates": {
     "A_premise": "pass",
     "B_architecture": "pass",

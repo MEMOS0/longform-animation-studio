@@ -134,3 +134,10 @@ def test_exact_storyboard_validation():
     assert result["valid"], result["errors"]
     assert result["shot_count"] >= 30
     assert result["covered_seconds"] == 300
+
+
+def test_agency_intelligence_flags_passive_rescue():
+    from studio.agency_intelligence import evaluate_agency
+    weak=evaluate_agency({"logline":"A poor humiliated orphan is rescued and married by a billionaire king."},[])
+    assert weak["warnings"]
+    assert weak["score_0_to_1"] < 0.6
