@@ -136,7 +136,7 @@ Long duration is not stuffing. A long film needs modular escalation:
 - climax that uses established abilities/relationships, not arbitrary power
 - emotional resolution: justice matters, but belonging/recognition is often the deeper reward
 
-Do not blindly target 80–120 minutes. Choose duration from the number of meaningful dramatic turns the premise can sustain.
+Do not blindly target 80–120 minutes. Choose duration from the number of meaningful dramatic turns the premise can sustain. Fifth-pass breakout evidence also validates compressed complete features around 10–35 minutes when one emotional engine is ultra-legible and every scene performs multiple jobs. Do not overcorrect into “always short”: 30–45 minutes remains the safer default for trust/relationship arcs, while 60–120 minutes requires genuine multi-world/multi-escalation complexity.
 
 ## Evidence-derived Nov Drama working rules
 
@@ -178,7 +178,7 @@ Do not assume production APIs exist or work. Inventory and smoke-test them befor
 
 ## Thumbnail intelligence protocol
 
-Before designing packaging, inspect `knowledge/thumbnails/thumbnail-intelligence.md` and the persistent reference archive under `thumbnails/reference/`. Treat thumbnails as a separate craft discipline, not as an afterthought.
+Before designing packaging, inspect `knowledge/thumbnails/thumbnail-intelligence.md`, the persistent reference archive under `thumbnails/reference/`, and newer categorized archives such as `thumbnail_intelligence/reference_library/fifthpass_breakouts/analysis.md`. Treat thumbnails as a separate craft discipline, not as an afterthought.
 
 Required workflow:
 
@@ -202,7 +202,7 @@ Current cross-channel mechanism hierarchy:
 3. **Usually insufficient alone:** scale, lore, army battles, crown politics, high visual polish, franchise continuity, or a “movie-like” label.
 4. **Format-specific:** serial cliffhangers belong to episodic systems; complete-film emotional payoff belongs to feature systems; compilation packaging must sell completeness and binge value.
 
-Use `knowledge/market/data-source-and-format-audit.md`, `knowledge/market/epic-ai-films-site-analysis.md`, and `knowledge/market/ironcrest-deep-dive.md` before cross-channel creative decisions.
+Use `knowledge/market/data-source-and-format-audit.md`, `knowledge/market/epic-ai-films-site-analysis.md`, `knowledge/market/ironcrest-deep-dive.md`, `knowledge/market/format-duration-performance.md`, and `knowledge/market/fifth-pass-breakout-media-deep-dive.md` before cross-channel creative decisions.
 
 ## Failure intelligence protocol
 
