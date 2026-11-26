@@ -86,7 +86,7 @@ def format_strategy(target_minutes: float | int | None = None, premise_text: str
         cls = "short_feature"
     warnings: list[str] = []
     recommendations = list(BASE_RULES.get(cls, BASE_RULES["unspecified"]))
-    compressed_complete = target_minutes is not None and 10 <= float(target_minutes) <= 35 and not flags["serialized"]
+    compressed_complete = target_minutes is not None and 10 <= float(target_minutes) <= 35.5 and not flags["serialized"]
     density_rule = "Treat compression as a completeness constraint: every scene should advance danger, bond, cost, or reversal in at least two ways."
     if compressed_complete and density_rule not in recommendations:
         recommendations.insert(2, density_rule)
