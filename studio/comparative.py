@@ -40,7 +40,20 @@ def parse_iso_date(value: str | None) -> date | None:
             return None
 
 
-def add_outcomes(rows: list[dict[str, Any]], snapshot_date: date = SNAPSHOT_DATE) -> list[dict[str, Any]]:
+def infer_snapshot_date(rows: list[dict[str, Any]]) -> date:
+    scraped = []
+    for row in rows:
+        value = row.get("page_evidence", {}).get("scraped_at")
+        if value:
+            try:
+                scraped.append(datetime.fromisoformat(value.replace("Z", "+00:00")).date())
+            except ValueError:
+                pass
+    return max(scraped) if scraped else date.today()
+
+
+def add_outcomes(rows: list[dict[str, Any]], snapshot_date: date | None = None) -> list[dict[str, Any]]:
+    snapshot_date = snapshot_date or infer_snapshot_date(rows)
     for row in rows:
         published = parse_iso_date(row.get("published_date") or row.get("uploadDate"))
         age_days = max((snapshot_date - published).days + 1, 1) if published else None
