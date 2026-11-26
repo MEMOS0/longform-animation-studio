@@ -140,15 +140,23 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
             "silence_or_negative_space": negative_space,
             "motif": material_motif,
         }
+        if "key" in object_term:
+            unlock_action = f"the protagonist turns the {object_term} in the {system} lock and compares its maker mark with the first {evidence} trace"
+            dropped_evidence = f"the {object_term} drops beside the exposed ledger seam as evidence"
+            final_public_proof = f"the {system} ledger wall remains unlocked while the {object_term} stays visible as public proof"
+        else:
+            unlock_action = f"the protagonist opens the {object_term} and compares its mark with the first {evidence} trace"
+            dropped_evidence = f"the {object_term} falls open as evidence"
+            final_public_proof = f"the {object_term} remains open as public proof"
         creature_visuals = [
             (f"the crowd watches the protagonist being barred from the public {system} as {creature} crosses toward her", f"the protagonist kneels, hides {creature}, and closes a protective hand around the {object_term}"),
             (f"{caregiver} carries food into the shelter while the protagonist refuses payment for pain", f"the protagonist places the {object_term} beside {creature} instead of selling access to it"),
-            (f"the antagonist's people chain the public {system} while {creature} shakes behind the protagonist", f"the protagonist opens the {object_term} and compares its mark with the first {evidence} trace"),
+            (f"the antagonist's people chain the public {system} while {creature} shakes behind the protagonist", unlock_action),
             (f"the protagonist repairs a small {system} fault while guild/customer witnesses watch", f"she pockets a marked ledger fragment and carries {creature} away from the offer of sale"),
-            (f"guards force the protagonist before the public {system} as the accusation lands", f"she shields {creature} with her body while the {object_term} falls open as evidence"),
+            (f"guards force the protagonist before the public {system} as the accusation lands", f"she shields {creature} with her body while {dropped_evidence}"),
             (f"the protagonist lifts the {object_term} over the work surface and reads pressure, timing, and witness geometry", f"the care network carries matched proof pieces toward the public hearing"),
             (f"the protagonist lays ledger, {evidence} trace, witness statement, and {object_term} in one line", f"{creature} steps forward by choice as the protagonist refuses to claim ownership"),
-            (f"neighbors carry shared {resource} into the transformed {system} space", f"{creature} crosses the home threshold freely while the {object_term} remains open as public proof"),
+            (f"neighbors carry shared {resource} into the transformed {system} space", f"{creature} crosses the home threshold freely while {final_public_proof}"),
         ]
         first_image_override, final_image_override = creature_visuals[index - 1]
     first_image = first_image_override or visual

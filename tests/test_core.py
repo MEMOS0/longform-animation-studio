@@ -676,3 +676,14 @@ def test_creature_opening_keeps_public_exclusion_visible():
     first=scene['visual_action']['first_image']
     assert 'barred from the public' in first
     assert 'crowd watches' in first
+
+
+def test_key_objects_use_filmable_unlocking_actions():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[1])
+    scenes=generate_scenes(premise,generate_architecture(premise))
+    assert 'turns the blackened brass oven key in the' in scenes[2]['visual_action']['final_image']
+    assert 'falls open' not in scenes[4]['visual_action']['final_image']
+    assert 'ledger wall remains unlocked' in scenes[7]['visual_action']['final_image']
