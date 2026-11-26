@@ -1,6 +1,6 @@
 # Continuation checkpoint — read first after context rollover
 
-Updated: 2026-11-26 after pushed commit `f18a03a` (“Add advanced craft system and recent breakout discovery”). PR: https://github.com/MEMOS0/longform-animation-studio/pull/1, branch `devin/1764170700-failure-intelligence-foundation`, local repo `C:/Users/Administrator/repos/longform-animation-studio`.
+Updated: 2026-11-26 after breakout media deep-dive work. Latest pushed commit at last verified push was `6cd9ba3` (“Verify recent breakout channel histories”), with newer local commit pending in the current turn. PR: https://github.com/MEMOS0/longform-animation-studio/pull/1, branch `devin/1764170700-failure-intelligence-foundation`, local repo `C:/Users/Administrator/repos/longform-animation-studio`.
 
 ## Immutable user mandate
 
@@ -28,6 +28,8 @@ Build a reusable professional AI-assisted long-form animation studio system, not
 - External video-generation provider audit: `knowledge/production/video-generation-provider-audit.md`. Runway Dev aggregation, Google Gemini Omni, Luma Ray 3.2, Pika, Kling direct documented; Sora/Videos API and Gemini Veo 3.1 Preview are unavailable/shut down. No paid smoke tests.
 - Advanced craft playbook: `knowledge/craft/advanced-screenplay-direction-retention.md` covers emotional machine, protagonist psychology, scene power transitions, dialogue/subtext, retention horizons, direction, sound, edit, endings.
 - Recent breakout discovery: `tools/discover_recent_breakouts.py` found 35 last-14-day leads, 26 strong low/mid-subscriber leads. Report `knowledge/market/recent-breakout-candidates.md`; thumbnails downloaded under `thumbnails/reference/recent_breakouts/`; montage `thumbnails/recent_breakouts_top24_montage.jpg`; synthesis `knowledge/market/recent-breakout-synthesis.md`.
+- Recent breakout channel-history verification: `knowledge/market/recent-breakout-channel-verification.md`. Veylorn compilation is repeat/franchise amplification, EchoDrama is the cleanest low-base melodrama breakout, Drakenhart/VNDL are high-priority tiny-channel creature-fantasy performers, Neural is not a low-subscriber breakout.
+- Recent breakout media deep dive: `knowledge/market/recent-breakout-media-deep-dive.md`. All five selected videos downloaded locally. Quick opening/ending sheets are in `C:/Users/Administrator/breakout_quick_sheets/`; Tiny Kingdom has completed machine analysis in `C:/Users/Administrator/breakout_analysis/1Nv2aGUgIG4/`; batch analysis for other videos may still be incomplete if the process was killed. Key lessons: creature stories split into protection/belonging vs hostile survival; exploration/wonder works when it becomes care/capture/social stakes early; Hidden Beauty validates coercive-protection/body-shame inversion; chosen-one myth should follow vulnerability/loss/protection.
 - Crateh 14d endpoint appears to return the same rows as 7d; do not treat it as independent evidence.
 - `.gitattributes` added marking `data/**`, `thumbnails/**`, `*.ttml`, and `*.casebook.json` as `linguist-generated` because Devin Review docs say these do not count toward review diff-size limits. This is the current CI/Review fix hypothesis.
 
@@ -44,8 +46,8 @@ Build a reusable professional AI-assisted long-form animation studio system, not
 
 1. If Devin Review still skips/fails after `.gitattributes`, inspect exact status once, then split generated evidence into separate branch/PR or further exclude generated artifacts. Do not bypass review settings.
 2. Revisit `knowledge/market/cross-channel-audiovisual-findings.md` and correct subtitle-contaminated conclusions using corrected English subtitles.
-3. Inspect/download/deep-analyze selected recent breakout videos. A background job was started with: `python tools/download_piped_archive.py --ids 6pbhGtHRTwA,icsZH4sDwTM,1Nv2aGUgIG4,NHAHR3v9La8,lBhjowuJURw --media-dir C:/Users/Administrator/breakout_media --raw-dir data/raw/piped_recent_breakout --workers 3` then `python tools/batch_media_analysis.py --media-dir C:/Users/Administrator/breakout_media --raw-dir data/raw/piped_recent_breakout --out-root C:/Users/Administrator/breakout_analysis --workers 2`. If rotation killed it, rerun the same compound command. Videos: Lost Kind dark fantasy, insect island, tiny kingdom, dragon twins, hidden beauty.
-4. Verify duplicate `THE LOST KIND` titles on VeylornStudios/Everflame: shared distribution/reupload/localization/unrelated same title.
+3. Finish full machine media-analysis casebooks for `6pbhGtHRTwA`, `icsZH4sDwTM`, `NHAHR3v9La8`, and `lBhjowuJURw` if needed; initial audiovisual deep dive already exists in `knowledge/market/recent-breakout-media-deep-dive.md`, and quick sheets/media are local. Use `python tools/batch_media_analysis.py --media-dir C:/Users/Administrator/breakout_media --raw-dir data/raw/piped_recent_breakout --out-root C:/Users/Administrator/breakout_analysis --workers 2` only if fuller timelines are worth the compute.
+4. Verify duplicate `THE LOST KIND` titles on VeylornStudios/Everflame by comparing actual media/assets; metadata/channel histories are already compared in `knowledge/market/recent-breakout-channel-verification.md`.
 5. Analyze recent breakout thumbnails in detail from `thumbnails/recent_breakouts_top24_montage.jpg` and per-image files. Initial synthesis is in `knowledge/market/recent-breakout-synthesis.md`.
 6. Validate production economics and provider docs before any paid generation; never spend without explicit approval.
 7. Continue integrating research into production decision-making, not just reports.
