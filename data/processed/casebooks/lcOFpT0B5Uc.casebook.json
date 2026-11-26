@@ -1,0 +1,608 @@
+{
+  "video_id": "lcOFpT0B5Uc",
+  "duration_seconds": 4350,
+  "window_seconds": 300,
+  "total_signal_counts": {
+    "wound_or_humiliation": 70,
+    "care_belonging_protection": 118,
+    "justice_reversal_payoff": 34,
+    "romance_bond_or_coercion": 33,
+    "lore_mythology_density": 245,
+    "threat_or_violence": 131
+  },
+  "first_signal_occurrences": {
+    "wound_or_humiliation": {
+      "time": 57.28,
+      "text": "[ __ ] useless."
+    },
+    "care_belonging_protection": {
+      "time": 234.24,
+      "text": "Jenny, no one is coming to save you."
+    },
+    "justice_reversal_payoff": {
+      "time": 599.68,
+      "text": "night club to pay for her baby's medical"
+    },
+    "romance_bond_or_coercion": {
+      "time": 60.8,
+      "text": "That's mine. Give it back."
+    },
+    "lore_mythology_density": {
+      "time": 45.44,
+      "text": "their money back and you still have the"
+    },
+    "threat_or_violence": {
+      "time": 133.16,
+      "text": "trying to starve us to death."
+    }
+  },
+  "care_after_wound_latency_seconds": 176.96,
+  "final_10_minutes_signal_counts": {
+    "wound_or_humiliation": 12,
+    "care_belonging_protection": 25,
+    "justice_reversal_payoff": 7,
+    "romance_bond_or_coercion": 5,
+    "lore_mythology_density": 27,
+    "threat_or_violence": 16
+  },
+  "windows": [
+    {
+      "start": 0,
+      "end": 300,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 1,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 577,
+      "shot_boundaries": 14,
+      "visual": {
+        "brightness": 0.3420409244764596,
+        "saturation": 0.38974202706168093,
+        "colorfulness": 0.37593138573070367,
+        "motion": 0.15469185661524534
+      },
+      "audio": {
+        "rms_mean": 0.0790706718650957,
+        "rms_std": 0.047145699600999555,
+        "silence_ratio": 0.3678381256656017,
+        "onsets_per_second": 5.296666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 0,
+          "quote": "Your majesty, the hallway cameras were down. We couldn't get a clear"
+        },
+        {
+          "time": 10,
+          "quote": "Your majesty, the hallway cameras were down. We couldn't get a clear"
+        }
+      ]
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 10,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 5,
+        "threat_or_violence": 6
+      },
+      "dialogue_words": 903,
+      "shot_boundaries": 11,
+      "visual": {
+        "brightness": 0.29408543082575006,
+        "saturation": 0.43427289523184304,
+        "colorfulness": 0.35581678428997593,
+        "motion": 0.16250843631724518
+      },
+      "audio": {
+        "rms_mean": 0.09944541199753681,
+        "rms_std": 0.04705580628166596,
+        "silence_ratio": 0.1994675186368477,
+        "onsets_per_second": 6.6066666666666665
+      },
+      "evidence_snippets": [
+        {
+          "time": 300,
+          "quote": "setting you up myself. Mrs. Charlie's niece [music] just graduated and she's"
+        },
+        {
+          "time": 310,
+          "quote": "not live to see the day. Mom, maybe look in the mirror"
+        }
+      ]
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 14,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 7,
+        "lore_mythology_density": 2,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 625,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.26417589597404,
+        "saturation": 0.374134911869963,
+        "colorfulness": 0.33402427598834034,
+        "motion": 0.1508821077334384
+      },
+      "audio": {
+        "rms_mean": 0.07841443866491318,
+        "rms_std": 0.04785161123921474,
+        "silence_ratio": 0.3064962726304579,
+        "onsets_per_second": 6.61
+      },
+      "evidence_snippets": [
+        {
+          "time": 600,
+          "quote": "Her name is Jenny. She's working at a night club to pay"
+        },
+        {
+          "time": 610,
+          "quote": "Your Highness, what happened? The hospital."
+        }
+      ]
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "signal_counts": {
+        "wound_or_humiliation": 8,
+        "care_belonging_protection": 11,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 1,
+        "threat_or_violence": 13
+      },
+      "dialogue_words": 854,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.3086823172091196,
+        "saturation": 0.3719133926679691,
+        "colorfulness": 0.38937151002387205,
+        "motion": 0.1661274288377414
+      },
+      "audio": {
+        "rms_mean": 0.09765881995360057,
+        "rms_std": 0.0523301262408495,
+        "silence_ratio": 0.2124600638977636,
+        "onsets_per_second": 6.206666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 900,
+          "quote": "away? None of you are leaving here alive. That's right. You little"
+        },
+        {
+          "time": 910,
+          "quote": "own family? And you had the nerve to hurt Mr. BOBBY? YOU'RE"
+        }
+      ]
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 15,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 25,
+        "threat_or_violence": 5
+      },
+      "dialogue_words": 992,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.26624985909710325,
+        "saturation": 0.4631164379169544,
+        "colorfulness": 0.35836290812740723,
+        "motion": 0.14694878537751113
+      },
+      "audio": {
+        "rms_mean": 0.09788726195693016,
+        "rms_std": 0.052381073993941145,
+        "silence_ratio": 0.1814696485623003,
+        "onsets_per_second": 6.21
+      },
+      "evidence_snippets": [
+        {
+          "time": 1200,
+          "quote": "[music] No one will ever hurt her again. Stay with her. I'll"
+        },
+        {
+          "time": 1210,
+          "quote": "when she wakes up. From now on, you're not alone. Father, you're"
+        }
+      ]
+    },
+    {
+      "start": 1500,
+      "end": 1800,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 5,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 23,
+        "threat_or_violence": 5
+      },
+      "dialogue_words": 959,
+      "shot_boundaries": 15,
+      "visual": {
+        "brightness": 0.31611535146832465,
+        "saturation": 0.3794468628118436,
+        "colorfulness": 0.36408884773651756,
+        "motion": 0.17047619929847618
+      },
+      "audio": {
+        "rms_mean": 0.11659879374007384,
+        "rms_std": 0.05164286413540443,
+        "silence_ratio": 0.1397231096911608,
+        "onsets_per_second": 6.316666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 1500,
+          "quote": "Cain loves. Maybe then I can finally let it go. Well, Aunt"
+        },
+        {
+          "time": 1510,
+          "quote": "[music] Jenny, can we come in? Yes, come in. You must be"
+        }
+      ]
+    },
+    {
+      "start": 1800,
+      "end": 2100,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 68,
+        "threat_or_violence": 42
+      },
+      "dialogue_words": 984,
+      "shot_boundaries": 11,
+      "visual": {
+        "brightness": 0.29151717071731886,
+        "saturation": 0.3821522272129853,
+        "colorfulness": 0.3497913317009807,
+        "motion": 0.16827877926950655
+      },
+      "audio": {
+        "rms_mean": 0.10142408770819505,
+        "rms_std": 0.050219043530523776,
+        "silence_ratio": 0.20894568690095847,
+        "onsets_per_second": 6.553333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 1800,
+          "quote": "Your majesty, let the sacred stone prove his bloodline. [music] Second elder,"
+        },
+        {
+          "time": 1810,
+          "quote": "raise this. Fine. [music] You want a test? You'll get one. Since"
+        }
+      ]
+    },
+    {
+      "start": 2100,
+      "end": 2400,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 5,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 4,
+        "lore_mythology_density": 13,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 978,
+      "shot_boundaries": 3,
+      "visual": {
+        "brightness": 0.2702742763360341,
+        "saturation": 0.44372919271389644,
+        "colorfulness": 0.33603808050354317,
+        "motion": 0.14588400456123055
+      },
+      "audio": {
+        "rms_mean": 0.10179976013799509,
+        "rms_std": 0.04931297084937493,
+        "silence_ratio": 0.16666666666666666,
+        "onsets_per_second": 6.193333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 2100,
+          "quote": "Second elder, first you question my son's bloodline, then you challenge my"
+        },
+        {
+          "time": 2110,
+          "quote": "No, Your [music] Majesty, I would never. I'm only thinking of the"
+        }
+      ]
+    },
+    {
+      "start": 2400,
+      "end": 2700,
+      "signal_counts": {
+        "wound_or_humiliation": 4,
+        "care_belonging_protection": 10,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 10,
+        "threat_or_violence": 5
+      },
+      "dialogue_words": 798,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.2839505134522915,
+        "saturation": 0.39727115141848723,
+        "colorfulness": 0.36547332603484395,
+        "motion": 0.1576737966450552
+      },
+      "audio": {
+        "rms_mean": 0.09557480787237485,
+        "rms_std": 0.052363925303022064,
+        "silence_ratio": 0.21810436634717784,
+        "onsets_per_second": 5.636666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 2400,
+          "quote": "Cain. [music] Hm? I'm a little scared. Scared [music] of what? I'm"
+        },
+        {
+          "time": 2410,
+          "quote": "I'm scared this is all just a dream, and I'll wake up"
+        }
+      ]
+    },
+    {
+      "start": 2700,
+      "end": 3000,
+      "signal_counts": {
+        "wound_or_humiliation": 8,
+        "care_belonging_protection": 5,
+        "justice_reversal_payoff": 6,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 7,
+        "threat_or_violence": 7
+      },
+      "dialogue_words": 932,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.2863905612379313,
+        "saturation": 0.3697438429047664,
+        "colorfulness": 0.37055217097202936,
+        "motion": 0.17997889709348477
+      },
+      "audio": {
+        "rms_mean": 0.11369545596341292,
+        "rms_std": 0.05326858970026175,
+        "silence_ratio": 0.14930777422790203,
+        "onsets_per_second": 6.3966666666666665
+      },
+      "evidence_snippets": [
+        {
+          "time": 2700,
+          "quote": "What are you waiting for? Call an ambulance. From now on, we"
+        },
+        {
+          "time": 2710,
+          "quote": "Are you blaming me? You think I wanted this? If I'd known"
+        }
+      ]
+    },
+    {
+      "start": 3000,
+      "end": 3300,
+      "signal_counts": {
+        "wound_or_humiliation": 10,
+        "care_belonging_protection": 6,
+        "justice_reversal_payoff": 4,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 1,
+        "threat_or_violence": 5
+      },
+      "dialogue_words": 1055,
+      "shot_boundaries": 12,
+      "visual": {
+        "brightness": 0.35384696265061694,
+        "saturation": 0.34746744779249034,
+        "colorfulness": 0.41028693462411564,
+        "motion": 0.19649864322505892
+      },
+      "audio": {
+        "rms_mean": 0.10478684430321057,
+        "rms_std": 0.05159781773885091,
+        "silence_ratio": 0.1724174653887114,
+        "onsets_per_second": 7.1066666666666665
+      },
+      "evidence_snippets": [
+        {
+          "time": 3000,
+          "quote": "hundred million. Pay for your brother's treatment and we'll leave you alone."
+        },
+        {
+          "time": 3010,
+          "quote": "Look everyone, I just came here for an explanation and they attacked"
+        }
+      ]
+    },
+    {
+      "start": 3300,
+      "end": 3600,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 6,
+        "justice_reversal_payoff": 6,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 46,
+        "threat_or_violence": 17
+      },
+      "dialogue_words": 1017,
+      "shot_boundaries": 4,
+      "visual": {
+        "brightness": 0.25709187832971414,
+        "saturation": 0.39794332174584274,
+        "colorfulness": 0.3493534527719021,
+        "motion": 0.14116076704890776
+      },
+      "audio": {
+        "rms_mean": 0.1050992061694463,
+        "rms_std": 0.047963882734378176,
+        "silence_ratio": 0.11842385516506922,
+        "onsets_per_second": 6.446666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 3300,
+          "quote": "Did he figure it out? Mr. Cain, I was wrong. I shouldn't"
+        },
+        {
+          "time": 3310,
+          "quote": "Raid his entire operation. Turn all the evidence over to the police."
+        }
+      ]
+    },
+    {
+      "start": 3600,
+      "end": 3900,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 6,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 21,
+        "threat_or_violence": 5
+      },
+      "dialogue_words": 748,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.3012445530792077,
+        "saturation": 0.43900895088911057,
+        "colorfulness": 0.367471216507256,
+        "motion": 0.1681606216231982
+      },
+      "audio": {
+        "rms_mean": 0.08598422401895126,
+        "rms_std": 0.050095799223830305,
+        "silence_ratio": 0.29201277955271565,
+        "onsets_per_second": 5.906666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 3600,
+          "quote": "brave enough to face it. [music] Go ahead. Would you dare enter"
+        },
+        {
+          "time": 3610,
+          "quote": "alone on the night of the full moon and undergo the moon"
+        }
+      ]
+    },
+    {
+      "start": 3900,
+      "end": 4200,
+      "signal_counts": {
+        "wound_or_humiliation": 8,
+        "care_belonging_protection": 10,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 19,
+        "threat_or_violence": 9
+      },
+      "dialogue_words": 651,
+      "shot_boundaries": 8,
+      "visual": {
+        "brightness": 0.356824588716651,
+        "saturation": 0.3544639126646022,
+        "colorfulness": 0.38250454273074863,
+        "motion": 0.18441688376789292
+      },
+      "audio": {
+        "rms_mean": 0.08972083156307538,
+        "rms_std": 0.044100466184318066,
+        "silence_ratio": 0.15718849840255592,
+        "onsets_per_second": 5.946666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 3900,
+          "quote": "Thank you, baby. Mommy's going to make it out. [music]"
+        },
+        {
+          "time": 3910,
+          "quote": "[music] The ancestral bloodline [music] is with"
+        }
+      ]
+    },
+    {
+      "start": 4200,
+      "end": 4350,
+      "signal_counts": {
+        "wound_or_humiliation": 1,
+        "care_belonging_protection": 9,
+        "justice_reversal_payoff": 5,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 3,
+        "threat_or_violence": 3
+      },
+      "dialogue_words": 329,
+      "shot_boundaries": 5,
+      "visual": {
+        "brightness": 0.31036155819892886,
+        "saturation": 0.3797936978129049,
+        "colorfulness": 0.35158814693490664,
+        "motion": 0.1678991010040045
+      },
+      "audio": {
+        "rms_mean": 0.11537420998016994,
+        "rms_std": 0.04492154543598493,
+        "silence_ratio": 0.0568258449824688,
+        "onsets_per_second": 5.939927754885739
+      },
+      "evidence_snippets": [
+        {
+          "time": 4200,
+          "quote": "No, he's the Wolf King's son. I'm going to marry him someday."
+        },
+        {
+          "time": 4210,
+          "quote": "All this time, [music] you were the one I loved. Shadow, I"
+        }
+      ]
+    }
+  ],
+  "interpretation_boundaries": [
+    "Signal counts measure explicit dialogue language only; they do not prove emotional quality or causality.",
+    "Evidence snippets are short orientation quotes, not a transcript substitute.",
+    "Visual/audio metrics are low-resolution proxies and must be paired with direct viewing."
+  ],
+  "outcome": {
+    "views": 716489,
+    "published_date": "2026-10-20",
+    "age_days_at_snapshot": 38,
+    "views_per_day": 18854.973684210527,
+    "log_views_per_day": 9.84458504899612,
+    "duration_minutes": 72.5,
+    "snapshot_date": "2026-11-26",
+    "cohort_by_age_adjusted_views": "outperforming",
+    "archive_log_vpd_median": 7.683511103153724,
+    "q1": 6.5647291773852805,
+    "q3": 9.36042020805592
+  }
+}

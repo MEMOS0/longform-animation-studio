@@ -1,0 +1,752 @@
+{
+  "video_id": "gNTsEqML20s",
+  "duration_seconds": 5431,
+  "window_seconds": 300,
+  "total_signal_counts": {
+    "wound_or_humiliation": 207,
+    "care_belonging_protection": 134,
+    "justice_reversal_payoff": 79,
+    "romance_bond_or_coercion": 23,
+    "lore_mythology_density": 395,
+    "threat_or_violence": 272
+  },
+  "first_signal_occurrences": {
+    "wound_or_humiliation": {
+      "time": 19.24,
+      "text": "I've been cursed."
+    },
+    "care_belonging_protection": {
+      "time": 180.812,
+      "text": "completely disgraced the royal family."
+    },
+    "justice_reversal_payoff": {
+      "time": 17.24,
+      "text": "has been growing uncontrollably, as if"
+    },
+    "romance_bond_or_coercion": {
+      "time": 46.88,
+      "text": "and the empire has a law. I cannot marry"
+    },
+    "lore_mythology_density": {
+      "time": 19.24,
+      "text": "I've been cursed."
+    },
+    "threat_or_violence": {
+      "time": 15.32,
+      "text": "Since I gave birth to Edward, my weight"
+    }
+  },
+  "care_after_wound_latency_seconds": 161.572,
+  "final_10_minutes_signal_counts": {
+    "wound_or_humiliation": 24,
+    "care_belonging_protection": 8,
+    "justice_reversal_payoff": 2,
+    "romance_bond_or_coercion": 2,
+    "lore_mythology_density": 43,
+    "threat_or_violence": 38
+  },
+  "windows": [
+    {
+      "start": 0,
+      "end": 300,
+      "signal_counts": {
+        "wound_or_humiliation": 11,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 10,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 27,
+        "threat_or_violence": 12
+      },
+      "dialogue_words": 836,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.26825013730674985,
+        "saturation": 0.5897050490975381,
+        "colorfulness": 0.3732325307279825,
+        "motion": 0.14524023382614057
+      },
+      "audio": {
+        "rms_mean": 0.09066396287331978,
+        "rms_std": 0.060815438317755856,
+        "silence_ratio": 0.15878594249201278,
+        "onsets_per_second": 5.3
+      },
+      "evidence_snippets": [
+        {
+          "time": 0,
+          "quote": "[sighs] Yali, use more force. I CAN STILL TAKE IT."
+        },
+        {
+          "time": 10,
+          "quote": "Yali, use more force. I CAN STILL TAKE IT. PRINCESS, THIS IS"
+        }
+      ]
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "signal_counts": {
+        "wound_or_humiliation": 17,
+        "care_belonging_protection": 0,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 16,
+        "threat_or_violence": 17
+      },
+      "dialogue_words": 824,
+      "shot_boundaries": 17,
+      "visual": {
+        "brightness": 0.26880434817324084,
+        "saturation": 0.5019219071169695,
+        "colorfulness": 0.36791029781103135,
+        "motion": 0.14025444311400254
+      },
+      "audio": {
+        "rms_mean": 0.08956087579329809,
+        "rms_std": 0.068112746377786,
+        "silence_ratio": 0.1792332268370607,
+        "onsets_per_second": 4.8
+      },
+      "evidence_snippets": [
+        {
+          "time": 300,
+          "quote": "what was mine, I won't let you die easily. Let me tell"
+        },
+        {
+          "time": 310,
+          "quote": "That fat pig is dead, and the queen's throne is now mine"
+        }
+      ]
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "signal_counts": {
+        "wound_or_humiliation": 14,
+        "care_belonging_protection": 8,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 19,
+        "threat_or_violence": 18
+      },
+      "dialogue_words": 838,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.3119140441839894,
+        "saturation": 0.42065861115852987,
+        "colorfulness": 0.3976875826716423,
+        "motion": 0.14882882869026312
+      },
+      "audio": {
+        "rms_mean": 0.09032053009917339,
+        "rms_std": 0.06451600895573696,
+        "silence_ratio": 0.2141640042598509,
+        "onsets_per_second": 4.783333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 600,
+          "quote": "Yes, Queen. Edward is still young. If you hold it against him,"
+        },
+        {
+          "time": 610,
+          "quote": "show you just how narrow-minded I can be. You've disrespected YOUR SUPERIOR."
+        }
+      ]
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 7,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 23,
+        "threat_or_violence": 12
+      },
+      "dialogue_words": 921,
+      "shot_boundaries": 18,
+      "visual": {
+        "brightness": 0.3591396826505661,
+        "saturation": 0.44039430513978,
+        "colorfulness": 0.3975199425220489,
+        "motion": 0.1403134696201111
+      },
+      "audio": {
+        "rms_mean": 0.09379611716916164,
+        "rms_std": 0.06356884219373266,
+        "silence_ratio": 0.21064962726304579,
+        "onsets_per_second": 4.7733333333333325
+      },
+      "evidence_snippets": [
+        {
+          "time": 900,
+          "quote": "family. Your majesty King Caesar, it's not that we're targeting the queen."
+        },
+        {
+          "time": 910,
+          "quote": "Indeed, our holy empire spans the continent and all nations pay homage."
+        }
+      ]
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 12,
+        "justice_reversal_payoff": 4,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 35,
+        "threat_or_violence": 6
+      },
+      "dialogue_words": 934,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.3732242606580257,
+        "saturation": 0.4097698605557282,
+        "colorfulness": 0.4138722575704257,
+        "motion": 0.14431621799749944
+      },
+      "audio": {
+        "rms_mean": 0.1013832195972403,
+        "rms_std": 0.06672267280519009,
+        "silence_ratio": 0.17401490947816828,
+        "onsets_per_second": 5.489999999999999
+      },
+      "evidence_snippets": [
+        {
+          "time": 1200,
+          "quote": "used forbidden black magic to get this way. Duchess Lucy makes a"
+        },
+        {
+          "time": 1210,
+          "quote": "some treasure or magic. Indeed. With that level of obesity, not even"
+        }
+      ]
+    },
+    {
+      "start": 1500,
+      "end": 1800,
+      "signal_counts": {
+        "wound_or_humiliation": 7,
+        "care_belonging_protection": 6,
+        "justice_reversal_payoff": 8,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 30,
+        "threat_or_violence": 9
+      },
+      "dialogue_words": 999,
+      "shot_boundaries": 8,
+      "visual": {
+        "brightness": 0.3964069746931394,
+        "saturation": 0.40544543251395226,
+        "colorfulness": 0.4121192597349485,
+        "motion": 0.13535032955153534
+      },
+      "audio": {
+        "rms_mean": 0.10676239989697933,
+        "rms_std": 0.060835740094383556,
+        "silence_ratio": 0.08232161874334398,
+        "onsets_per_second": 6.3933333333333335
+      },
+      "evidence_snippets": [
+        {
+          "time": 1500,
+          "quote": "the queen, are for me TO DECIDE. YOU ARE NOT TO TELL"
+        },
+        {
+          "time": 1510,
+          "quote": "WAS THAT person in the mirror you? Elf [ __ ] with"
+        }
+      ]
+    },
+    {
+      "start": 1800,
+      "end": 2100,
+      "signal_counts": {
+        "wound_or_humiliation": 16,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 7,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 23,
+        "threat_or_violence": 12
+      },
+      "dialogue_words": 826,
+      "shot_boundaries": 12,
+      "visual": {
+        "brightness": 0.3643693851927916,
+        "saturation": 0.42536205232143404,
+        "colorfulness": 0.4001053905487061,
+        "motion": 0.14401387053153786
+      },
+      "audio": {
+        "rms_mean": 0.08119876645505428,
+        "rms_std": 0.06626262074957291,
+        "silence_ratio": 0.2571884984025559,
+        "onsets_per_second": 4.776666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 1800,
+          "quote": "BEAUTIFUL IN 7 DAYS? IT MUST HAVE BEEN BLACK MAGIC. GUARDS, take"
+        },
+        {
+          "time": 1810,
+          "quote": "The court mage hasn't spoken yet, so why are you laymen in"
+        }
+      ]
+    },
+    {
+      "start": 2100,
+      "end": 2400,
+      "signal_counts": {
+        "wound_or_humiliation": 10,
+        "care_belonging_protection": 15,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 6,
+        "threat_or_violence": 15
+      },
+      "dialogue_words": 814,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.3174006888270378,
+        "saturation": 0.46084134101867674,
+        "colorfulness": 0.36981651867429416,
+        "motion": 0.12489246967248618
+      },
+      "audio": {
+        "rms_mean": 0.0808830194796125,
+        "rms_std": 0.06478139056513707,
+        "silence_ratio": 0.27103301384451545,
+        "onsets_per_second": 4.746666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 2100,
+          "quote": "out, how can I hold my head up in this world? Queen,"
+        },
+        {
+          "time": 2110,
+          "quote": "a dog in front of all these people, if word gets out,"
+        }
+      ]
+    },
+    {
+      "start": 2400,
+      "end": 2700,
+      "signal_counts": {
+        "wound_or_humiliation": 10,
+        "care_belonging_protection": 19,
+        "justice_reversal_payoff": 5,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 14,
+        "threat_or_violence": 12
+      },
+      "dialogue_words": 867,
+      "shot_boundaries": 1,
+      "visual": {
+        "brightness": 0.2658477612833182,
+        "saturation": 0.4294771797955036,
+        "colorfulness": 0.35067844221989314,
+        "motion": 0.1069203600846231
+      },
+      "audio": {
+        "rms_mean": 0.08926809808860223,
+        "rms_std": 0.06727302471796671,
+        "silence_ratio": 0.2281150159744409,
+        "onsets_per_second": 5.206666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 2400,
+          "quote": "Your majesty, what will this nation do without you? Your majesty, the"
+        },
+        {
+          "time": 2410,
+          "quote": "empire will fall. He was fine in the hall just now. How"
+        }
+      ]
+    },
+    {
+      "start": 2700,
+      "end": 3000,
+      "signal_counts": {
+        "wound_or_humiliation": 19,
+        "care_belonging_protection": 12,
+        "justice_reversal_payoff": 5,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 22,
+        "threat_or_violence": 15
+      },
+      "dialogue_words": 1058,
+      "shot_boundaries": 2,
+      "visual": {
+        "brightness": 0.26332946327825385,
+        "saturation": 0.46349181458353994,
+        "colorfulness": 0.35829017887512843,
+        "motion": 0.10181687217826645
+      },
+      "audio": {
+        "rms_mean": 0.08779832484821479,
+        "rms_std": 0.05802627814312776,
+        "silence_ratio": 0.1807241746538871,
+        "onsets_per_second": 5.78
+      },
+      "evidence_snippets": [
+        {
+          "time": 2700,
+          "quote": "This This is impossible. This is the purest power of the goddess"
+        },
+        {
+          "time": 2710,
+          "quote": "elf who cannot do anything. How could she possibly have the power"
+        }
+      ]
+    },
+    {
+      "start": 3000,
+      "end": 3300,
+      "signal_counts": {
+        "wound_or_humiliation": 13,
+        "care_belonging_protection": 11,
+        "justice_reversal_payoff": 6,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 11,
+        "threat_or_violence": 19
+      },
+      "dialogue_words": 813,
+      "shot_boundaries": 4,
+      "visual": {
+        "brightness": 0.23299597546458242,
+        "saturation": 0.4550006267428398,
+        "colorfulness": 0.33851290007432305,
+        "motion": 0.11064647490469118
+      },
+      "audio": {
+        "rms_mean": 0.07453118283301592,
+        "rms_std": 0.055912515769402184,
+        "silence_ratio": 0.24387646432374865,
+        "onsets_per_second": 4.9766666666666675
+      },
+      "evidence_snippets": [
+        {
+          "time": 3000,
+          "quote": "You're just a lowly guard commander, drawing your sword before the king"
+        },
+        {
+          "time": 3010,
+          "quote": "exterminated. Did the ELF [ __ ] BRIBE YOU? WHAT DID THAT"
+        }
+      ]
+    },
+    {
+      "start": 3300,
+      "end": 3600,
+      "signal_counts": {
+        "wound_or_humiliation": 8,
+        "care_belonging_protection": 8,
+        "justice_reversal_payoff": 9,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 12,
+        "threat_or_violence": 18
+      },
+      "dialogue_words": 925,
+      "shot_boundaries": 5,
+      "visual": {
+        "brightness": 0.24656038160125415,
+        "saturation": 0.4937076484163602,
+        "colorfulness": 0.33673588340481125,
+        "motion": 0.10970833372479925
+      },
+      "audio": {
+        "rms_mean": 0.09065396587053935,
+        "rms_std": 0.06513089922567208,
+        "silence_ratio": 0.2058572949946752,
+        "onsets_per_second": 5.52
+      },
+      "evidence_snippets": [
+        {
+          "time": 3300,
+          "quote": "was blind to everything? From the moment I collapsed from poison until"
+        },
+        {
+          "time": 3310,
+          "quote": "my ears have been awake. I heard every single word you said."
+        }
+      ]
+    },
+    {
+      "start": 3600,
+      "end": 3900,
+      "signal_counts": {
+        "wound_or_humiliation": 12,
+        "care_belonging_protection": 10,
+        "justice_reversal_payoff": 10,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 12,
+        "threat_or_violence": 17
+      },
+      "dialogue_words": 925,
+      "shot_boundaries": 1,
+      "visual": {
+        "brightness": 0.2316536962489287,
+        "saturation": 0.4845549776156743,
+        "colorfulness": 0.33388410419225695,
+        "motion": 0.10718764343919854
+      },
+      "audio": {
+        "rms_mean": 0.08440572234491507,
+        "rms_std": 0.060554835200309756,
+        "silence_ratio": 0.21075612353567624,
+        "onsets_per_second": 5.296666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 3600,
+          "quote": "Whoever refuses the test is the real poisoner. You first. Father, you"
+        },
+        {
+          "time": 3610,
+          "quote": "Father, you see? There's nothing on me. I am innocent. Next."
+        }
+      ]
+    },
+    {
+      "start": 3900,
+      "end": 4200,
+      "signal_counts": {
+        "wound_or_humiliation": 12,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 38,
+        "threat_or_violence": 14
+      },
+      "dialogue_words": 1130,
+      "shot_boundaries": 2,
+      "visual": {
+        "brightness": 0.3053119721512,
+        "saturation": 0.470739975074927,
+        "colorfulness": 0.39763928323984143,
+        "motion": 0.12915848973362395
+      },
+      "audio": {
+        "rms_mean": 0.10766066287954648,
+        "rms_std": 0.06770878459016481,
+        "silence_ratio": 0.16155484558040467,
+        "onsets_per_second": 6.043333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 3900,
+          "quote": "standing by and doing nothing while your father is dying? Is power"
+        },
+        {
+          "time": 3910,
+          "quote": "me. Father, you can't do this. If I am stripped of power,"
+        }
+      ]
+    },
+    {
+      "start": 4200,
+      "end": 4500,
+      "signal_counts": {
+        "wound_or_humiliation": 13,
+        "care_belonging_protection": 8,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 8,
+        "lore_mythology_density": 24,
+        "threat_or_violence": 21
+      },
+      "dialogue_words": 976,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.30427543811500074,
+        "saturation": 0.4243472441285849,
+        "colorfulness": 0.3543588860332966,
+        "motion": 0.12157690075226128
+      },
+      "audio": {
+        "rms_mean": 0.08876688331365586,
+        "rms_std": 0.06323896944522858,
+        "silence_ratio": 0.20457933972310968,
+        "onsets_per_second": 5.716666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 4200,
+          "quote": "Whoever provides information will receive 10,000 gold coins and be granted the"
+        },
+        {
+          "time": 4210,
+          "quote": "My lady, you've been busy all day. It's time to rest. The"
+        }
+      ]
+    },
+    {
+      "start": 4500,
+      "end": 4800,
+      "signal_counts": {
+        "wound_or_humiliation": 10,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 34,
+        "threat_or_violence": 17
+      },
+      "dialogue_words": 970,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.4211446253458659,
+        "saturation": 0.2690148411442836,
+        "colorfulness": 0.3950826517740885,
+        "motion": 0.12550790736451745
+      },
+      "audio": {
+        "rms_mean": 0.0902331102018555,
+        "rms_std": 0.06361648328602314,
+        "silence_ratio": 0.21299254526091585,
+        "onsets_per_second": 5.16
+      },
+      "evidence_snippets": [
+        {
+          "time": 4500,
+          "quote": "I promised him I would protect his daughter. If you die, what"
+        },
+        {
+          "time": 4510,
+          "quote": "No! I am the empire's king, and a king never flees. While"
+        }
+      ]
+    },
+    {
+      "start": 4800,
+      "end": 5100,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 0,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 39,
+        "threat_or_violence": 11
+      },
+      "dialogue_words": 904,
+      "shot_boundaries": 17,
+      "visual": {
+        "brightness": 0.42932195800046125,
+        "saturation": 0.3158586780230204,
+        "colorfulness": 0.39048238401611646,
+        "motion": 0.13440867203287782
+      },
+      "audio": {
+        "rms_mean": 0.08378219070533911,
+        "rms_std": 0.06286200747514764,
+        "silence_ratio": 0.21203407880724173,
+        "onsets_per_second": 5.239999999999999
+      },
+      "evidence_snippets": [
+        {
+          "time": 4800,
+          "quote": "The tree of life has been withered for a century. Even we"
+        },
+        {
+          "time": 4810,
+          "quote": "Even we five elders, high-level mages all, couldn't awaken it together. A"
+        }
+      ]
+    },
+    {
+      "start": 5100,
+      "end": 5400,
+      "signal_counts": {
+        "wound_or_humiliation": 19,
+        "care_belonging_protection": 6,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 10,
+        "threat_or_violence": 26
+      },
+      "dialogue_words": 644,
+      "shot_boundaries": 19,
+      "visual": {
+        "brightness": 0.3697646888097127,
+        "saturation": 0.281735974897941,
+        "colorfulness": 0.3954221480588119,
+        "motion": 0.17011127509797613
+      },
+      "audio": {
+        "rms_mean": 0.07186505900075038,
+        "rms_std": 0.05375033202581107,
+        "silence_ratio": 0.2108626198083067,
+        "onsets_per_second": 4.786666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 5100,
+          "quote": "Cousin, you should have killed this old man long ago. Once the"
+        },
+        {
+          "time": 5110,
+          "quote": "WHAT ARE YOU STANDING AROUND FOR? RAISE YOUR WEAPONS. DIE FIGHTING IF"
+        }
+      ]
+    },
+    {
+      "start": 5400,
+      "end": 5431,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 58,
+      "shot_boundaries": 5,
+      "visual": {
+        "brightness": 0.5164304204285145,
+        "saturation": 0.24639913849532605,
+        "colorfulness": 0.44370968267321587,
+        "motion": 0.11908350042067467
+      },
+      "audio": {
+        "rms_mean": 0.055277077946811914,
+        "rms_std": 0.04018204635940492,
+        "silence_ratio": 0.14289636581469647,
+        "onsets_per_second": 4.407004464008928
+      },
+      "evidence_snippets": [
+        {
+          "time": 5400,
+          "quote": "From this day forward, I will build a new empire on this"
+        },
+        {
+          "time": 5410,
+          "quote": "humans will no longer be divided. We will protect this land together."
+        }
+      ]
+    }
+  ],
+  "interpretation_boundaries": [
+    "Signal counts measure explicit dialogue language only; they do not prove emotional quality or causality.",
+    "Evidence snippets are short orientation quotes, not a transcript substitute.",
+    "Visual/audio metrics are low-resolution proxies and must be paired with direct viewing."
+  ],
+  "outcome": {
+    "views": 55742,
+    "published_date": "2026-10-30",
+    "age_days_at_snapshot": 28,
+    "views_per_day": 1990.7857142857142,
+    "log_views_per_day": 7.596786859208396,
+    "duration_minutes": 90.51666666666667,
+    "snapshot_date": "2026-11-26",
+    "cohort_by_age_adjusted_views": "middle",
+    "archive_log_vpd_median": 7.683511103153724,
+    "q1": 6.5647291773852805,
+    "q3": 9.36042020805592
+  }
+}

@@ -10,6 +10,7 @@ from .comparative import analyze as comparative_analyze
 from .failure_intelligence import evaluate_candidate, render_report
 from .features import enrich_records
 from .media_analysis import analyze_video
+from .production import evaluate_project
 from .youtube_archive import collect
 
 
@@ -43,6 +44,13 @@ def main() -> None:
     risk_p.add_argument("--script-file", default="")
     risk_p.add_argument("--output", default="data/processed/failure_intelligence_evaluation.md")
 
+    project_p = sub.add_parser("evaluate-project")
+    project_p.add_argument("--premise", required=True)
+    project_p.add_argument("--architecture", default="")
+    project_p.add_argument("--scenes", default="")
+    project_p.add_argument("--archive", default="data/processed/novdrama_analysis_rows.json")
+    project_p.add_argument("--output", required=True)
+
     args = parser.parse_args()
     if args.command == "collect-archive":
         print(collect(Path(args.channel_json), Path(args.output_dir), Path(args.thumbnail_dir)))
@@ -62,6 +70,13 @@ def main() -> None:
         output.parent.mkdir(parents=True, exist_ok=True)
         output.write_text(render_report(result), encoding="utf-8")
         output.with_suffix(".json").write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(output)
+    elif args.command == "evaluate-project":
+        rows = json.loads(Path(args.archive).read_text(encoding="utf-8"))
+        result = evaluate_project(Path(args.premise), Path(args.architecture) if args.architecture else None, Path(args.scenes) if args.scenes else None, rows)
+        output = Path(args.output)
+        output.parent.mkdir(parents=True, exist_ok=True)
+        output.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
         print(output)
 
 

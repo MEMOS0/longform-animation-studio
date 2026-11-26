@@ -106,6 +106,15 @@ Updated: 2026-11-26 session `9b820e85797b4edfba99232f657790bb`
 - `knowledge/nov-drama/comparative-findings.md` contains the current interpretive hypothesis ledger and timestamped evidence.
 - Child workflow sessions remain blocked by organization `out_of_quota`; continue locally/self-audited unless quota returns.
 
+## 2026-11-26 pre-context-rotation checkpoint
+
+- All 47 downloadable Nov Drama mp4s now have media-analysis timelines in `data/processed/media_batch`; only `jRa3_WZYDdY` remains unavailable because the Piped stream endpoint repeatedly failed.
+- Audio metrics are being repaired with `tools/repair_audio_metrics.py`; after it finishes, rerun `python tools/build_casebooks.py` and `python tools/compare_casebooks.py` and commit the refreshed casebooks/comparison.
+- `studio/production.py` and `python -m studio.cli evaluate-project` now validate premise/architecture/scene JSON artifacts against schemas, run failure intelligence, check scene coverage, and report gates A–F.
+- `examples/stormglass_project/` contains the first machine-readable original-project self-test; current evaluation has schema errors empty, gates A–C pass, risk 0.218, no architecture warnings, and no scene-quality missing fields. Gates D–F correctly remain unknown until boards/media/release exist.
+- Devin Review findings at commit `aacfead` were fixed in `0f7b3ca`, `a8060de`, and `23d881f`; triage ended and a newer review is running.
+- Next high-value work: commit/push production evaluator + example + all refreshed casebooks; update README; inspect the full 47-video comparison for counterexamples; deepen scene psychology/dialogue/directing/sound annotations beyond lexical proxies; expand to at least one comparison channel.
+
 ## Immediate next steps
 
 1. Fix `tools/batch_media_analysis.py` import bug and run batch analysis for all downloaded mp4s.

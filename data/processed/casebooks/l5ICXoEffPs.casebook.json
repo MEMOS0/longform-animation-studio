@@ -1,0 +1,716 @@
+{
+  "video_id": "l5ICXoEffPs",
+  "duration_seconds": 5237,
+  "window_seconds": 300,
+  "total_signal_counts": {
+    "wound_or_humiliation": 70,
+    "care_belonging_protection": 97,
+    "justice_reversal_payoff": 37,
+    "romance_bond_or_coercion": 73,
+    "lore_mythology_density": 13,
+    "threat_or_violence": 81
+  },
+  "first_signal_occurrences": {
+    "wound_or_humiliation": {
+      "time": 221.852,
+      "text": "since her mother died."
+    },
+    "care_belonging_protection": {
+      "time": 31.32,
+      "text": "He said it belongs to a really sweet,"
+    },
+    "justice_reversal_payoff": {
+      "time": 936.021,
+      "text": "You're a liar. You broke your promise."
+    },
+    "romance_bond_or_coercion": {
+      "time": 137.372,
+      "text": "Will you marry him?"
+    },
+    "lore_mythology_density": {
+      "time": 1340.305,
+      "text": "Mommy, queen."
+    },
+    "threat_or_violence": {
+      "time": 134.492,
+      "text": "burnt, but they taste great."
+    }
+  },
+  "care_after_wound_latency_seconds": -190.532,
+  "final_10_minutes_signal_counts": {
+    "wound_or_humiliation": 17,
+    "care_belonging_protection": 12,
+    "justice_reversal_payoff": 7,
+    "romance_bond_or_coercion": 6,
+    "lore_mythology_density": 5,
+    "threat_or_violence": 18
+  },
+  "windows": [
+    {
+      "start": 0,
+      "end": 300,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 5,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 583,
+      "shot_boundaries": 3,
+      "visual": {
+        "brightness": 0.35196033978213864,
+        "saturation": 0.35021163533131283,
+        "colorfulness": 0.37261162168035905,
+        "motion": 0.10961693075718358
+      },
+      "audio": {
+        "rms_mean": 0.04871231224387884,
+        "rms_std": 0.05421380948585768,
+        "silence_ratio": 0.2200212992545261,
+        "onsets_per_second": 3.82
+      },
+      "evidence_snippets": [
+        {
+          "time": 0,
+          "quote": "Mommy. Who's kid is this? Why she calling the counter girl Mommy?"
+        },
+        {
+          "time": 10,
+          "quote": "counter girl Mommy? An unwed mother? Doesn't look like it though. Sweetie,"
+        }
+      ]
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "signal_counts": {
+        "wound_or_humiliation": 4,
+        "care_belonging_protection": 7,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 7
+      },
+      "dialogue_words": 525,
+      "shot_boundaries": 8,
+      "visual": {
+        "brightness": 0.3059013223772248,
+        "saturation": 0.42168927864482003,
+        "colorfulness": 0.3500206429635485,
+        "motion": 0.1033205337674978
+      },
+      "audio": {
+        "rms_mean": 0.04648706533480436,
+        "rms_std": 0.05160385682247579,
+        "silence_ratio": 0.2559105431309904,
+        "onsets_per_second": 3.95
+      },
+      "evidence_snippets": [
+        {
+          "time": 300,
+          "quote": "When it's over, you can leave whenever you want. First you pull"
+        },
+        {
+          "time": 310,
+          "quote": "Who the hell do you think you are? Miss Erin, I know"
+        }
+      ]
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 8,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 498,
+      "shot_boundaries": 8,
+      "visual": {
+        "brightness": 0.3637666128824154,
+        "saturation": 0.36737156072631477,
+        "colorfulness": 0.34319710450867813,
+        "motion": 0.10888153343771895
+      },
+      "audio": {
+        "rms_mean": 0.044816288685736554,
+        "rms_std": 0.05233701013494283,
+        "silence_ratio": 0.20383386581469648,
+        "onsets_per_second": 3.716666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 600,
+          "quote": "Why were those people shooting at you today? Not your concern. Deals"
+        },
+        {
+          "time": 610,
+          "quote": "Not your concern. Deals no interference. Get out. it's bleeding again. That"
+        }
+      ]
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "signal_counts": {
+        "wound_or_humiliation": 1,
+        "care_belonging_protection": 7,
+        "justice_reversal_payoff": 4,
+        "romance_bond_or_coercion": 4,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 14
+      },
+      "dialogue_words": 570,
+      "shot_boundaries": 3,
+      "visual": {
+        "brightness": 0.30741001300513743,
+        "saturation": 0.44883077806482713,
+        "colorfulness": 0.33432892645398776,
+        "motion": 0.1071913458321554
+      },
+      "audio": {
+        "rms_mean": 0.04998438650121292,
+        "rms_std": 0.05721930575867494,
+        "silence_ratio": 0.2678381256656017,
+        "onsets_per_second": 4.04
+      },
+      "evidence_snippets": [
+        {
+          "time": 900,
+          "quote": "Sean's gang hit our men in sector B. They outnumber us two"
+        },
+        {
+          "time": 910,
+          "quote": "Where are you going now? Leah just started cheering up and the"
+        }
+      ]
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 9,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 1,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 466,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.2841708538805445,
+        "saturation": 0.4086456094185511,
+        "colorfulness": 0.33952963940799236,
+        "motion": 0.12066504747063543
+      },
+      "audio": {
+        "rms_mean": 0.044455768179614094,
+        "rms_std": 0.04641583929769695,
+        "silence_ratio": 0.24600638977635783,
+        "onsets_per_second": 3.8033333333333332
+      },
+      "evidence_snippets": [
+        {
+          "time": 1200,
+          "quote": "His job, his past, his injuries. He won't say anything. The way"
+        },
+        {
+          "time": 1210,
+          "quote": "Maybe Bella's right. He doesn't care about me at all. I'm just"
+        }
+      ]
+    },
+    {
+      "start": 1500,
+      "end": 1800,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 1,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 4,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 418,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.29941594820469614,
+        "saturation": 0.41647291560967764,
+        "colorfulness": 0.33226455124715965,
+        "motion": 0.13836362266913055
+      },
+      "audio": {
+        "rms_mean": 0.03939600666829695,
+        "rms_std": 0.04286666657232369,
+        "silence_ratio": 0.2673056443024494,
+        "onsets_per_second": 4.16
+      },
+      "evidence_snippets": [
+        {
+          "time": 1500,
+          "quote": "The whole block's stalking. Shameless. Shotgun wedding. Kid out of nowhere. YOU'VE"
+        },
+        {
+          "time": 1510,
+          "quote": "YEAH. Your mother's right. You should divorce that Cain."
+        }
+      ]
+    },
+    {
+      "start": 1800,
+      "end": 2100,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 8,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 1,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 600,
+      "shot_boundaries": 14,
+      "visual": {
+        "brightness": 0.32328160566588243,
+        "saturation": 0.4268208782374859,
+        "colorfulness": 0.37410915265480676,
+        "motion": 0.13457079975244898
+      },
+      "audio": {
+        "rms_mean": 0.05213583965475361,
+        "rms_std": 0.05570295521368583,
+        "silence_ratio": 0.2042598509052183,
+        "onsets_per_second": 4.153333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 1800,
+          "quote": "Oh, dear. Did we come at a bad time? [snorts] When did"
+        },
+        {
+          "time": 1810,
+          "quote": "When did you get so diligent? Cooking yourself? Bella, look. Erin actually"
+        }
+      ]
+    },
+    {
+      "start": 2100,
+      "end": 2400,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 1,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 4,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 7
+      },
+      "dialogue_words": 599,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.3422178603460392,
+        "saturation": 0.3872939220070839,
+        "colorfulness": 0.36610033735632896,
+        "motion": 0.13323089739191346
+      },
+      "audio": {
+        "rms_mean": 0.05853078191479047,
+        "rms_std": 0.04750784064332644,
+        "silence_ratio": 0.10820021299254526,
+        "onsets_per_second": 4.493333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 2100,
+          "quote": "got back. Kane, tell me what time did you leave that night?"
+        },
+        {
+          "time": 2110,
+          "quote": "I went to handle some urgent work matters as I can't tell"
+        }
+      ]
+    },
+    {
+      "start": 2400,
+      "end": 2700,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 6,
+        "justice_reversal_payoff": 4,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 2,
+        "threat_or_violence": 5
+      },
+      "dialogue_words": 752,
+      "shot_boundaries": 11,
+      "visual": {
+        "brightness": 0.3404970782871048,
+        "saturation": 0.3885118527462085,
+        "colorfulness": 0.39190805980314813,
+        "motion": 0.14515647953376173
+      },
+      "audio": {
+        "rms_mean": 0.06407380942255259,
+        "rms_std": 0.055534910829737785,
+        "silence_ratio": 0.13301384451544196,
+        "onsets_per_second": 4.656666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 2400,
+          "quote": "My sister just won't learn. I tried to help her, but she"
+        },
+        {
+          "time": 2410,
+          "quote": "I can't clear my name no matter what I do. That Aaron"
+        }
+      ]
+    },
+    {
+      "start": 2700,
+      "end": 3000,
+      "signal_counts": {
+        "wound_or_humiliation": 1,
+        "care_belonging_protection": 9,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 9,
+        "lore_mythology_density": 1,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 779,
+      "shot_boundaries": 11,
+      "visual": {
+        "brightness": 0.37462045714259146,
+        "saturation": 0.3317900013923645,
+        "colorfulness": 0.3564189600944519,
+        "motion": 0.13760004587161045
+      },
+      "audio": {
+        "rms_mean": 0.06260850055453678,
+        "rms_std": 0.05226625769088666,
+        "silence_ratio": 0.1207667731629393,
+        "onsets_per_second": 4.84
+      },
+      "evidence_snippets": [
+        {
+          "time": 2700,
+          "quote": "You ruined my life, then die. I'LL ERASE YOU FROM THIS WORLD."
+        },
+        {
+          "time": 2710,
+          "quote": "HELLO. That plan we talked about, move it up. I can't wait"
+        }
+      ]
+    },
+    {
+      "start": 3000,
+      "end": 3300,
+      "signal_counts": {
+        "wound_or_humiliation": 1,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 4,
+        "romance_bond_or_coercion": 19,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 789,
+      "shot_boundaries": 16,
+      "visual": {
+        "brightness": 0.3768426839883129,
+        "saturation": 0.34428701769250136,
+        "colorfulness": 0.3835426695800076,
+        "motion": 0.13916516495946174
+      },
+      "audio": {
+        "rms_mean": 0.06035543840068082,
+        "rms_std": 0.057371862791478635,
+        "silence_ratio": 0.1867944621938232,
+        "onsets_per_second": 4.196666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 3000,
+          "quote": "You'll put the drug in her water. One sip and she's out."
+        },
+        {
+          "time": 3010,
+          "quote": "overnight. The fabric's a bit cheap, but you can't tell from a"
+        }
+      ]
+    },
+    {
+      "start": 3300,
+      "end": 3600,
+      "signal_counts": {
+        "wound_or_humiliation": 4,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 7,
+        "romance_bond_or_coercion": 4,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 481,
+      "shot_boundaries": 21,
+      "visual": {
+        "brightness": 0.33430450362774233,
+        "saturation": 0.43115182396024465,
+        "colorfulness": 0.3537564097469052,
+        "motion": 0.13045172022422777
+      },
+      "audio": {
+        "rms_mean": 0.042451701623698074,
+        "rms_std": 0.04983129743486643,
+        "silence_ratio": 0.2756123535676251,
+        "onsets_per_second": 3.8866666666666663
+      },
+      "evidence_snippets": [
+        {
+          "time": 3300,
+          "quote": "Even the ring with my name on it was given to someone"
+        },
+        {
+          "time": 3310,
+          "quote": "She is me. You you lied to me. Look at her. She's"
+        }
+      ]
+    },
+    {
+      "start": 3600,
+      "end": 3900,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 4,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 6
+      },
+      "dialogue_words": 640,
+      "shot_boundaries": 8,
+      "visual": {
+        "brightness": 0.28880238984401024,
+        "saturation": 0.43280681781470776,
+        "colorfulness": 0.3664534354830781,
+        "motion": 0.13917618316598238
+      },
+      "audio": {
+        "rms_mean": 0.05667460386951764,
+        "rms_std": 0.049116598814725874,
+        "silence_ratio": 0.08700745473908414,
+        "onsets_per_second": 5.11
+      },
+      "evidence_snippets": [
+        {
+          "time": 3600,
+          "quote": "What are you doing? That's mine. This has my name and Erin's"
+        },
+        {
+          "time": 3610,
+          "quote": "I'm such a fool. Played by such a clumsy trick for so"
+        }
+      ]
+    },
+    {
+      "start": 3900,
+      "end": 4200,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 6,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 8
+      },
+      "dialogue_words": 674,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.3160878985126813,
+        "saturation": 0.3601471597452958,
+        "colorfulness": 0.3844000595311324,
+        "motion": 0.10451211464048053
+      },
+      "audio": {
+        "rms_mean": 0.062099228892475364,
+        "rms_std": 0.05450277077034116,
+        "silence_ratio": 0.07177848775292864,
+        "onsets_per_second": 4.536666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 3900,
+          "quote": "[laughter and gasps]"
+        },
+        {
+          "time": 3910,
+          "quote": "[laughter] You're the fastest learner I've ever seen. Not because of talent,"
+        }
+      ]
+    },
+    {
+      "start": 4200,
+      "end": 4500,
+      "signal_counts": {
+        "wound_or_humiliation": 11,
+        "care_belonging_protection": 11,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 3,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 910,
+      "shot_boundaries": 8,
+      "visual": {
+        "brightness": 0.3819310554116964,
+        "saturation": 0.3248705743812025,
+        "colorfulness": 0.43347374714910986,
+        "motion": 0.15900124268528695
+      },
+      "audio": {
+        "rms_mean": 0.06763862644632658,
+        "rms_std": 0.05596156983325879,
+        "silence_ratio": 0.16911608093716718,
+        "onsets_per_second": 4.846666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 4200,
+          "quote": "Aaron, I will find you. Whether you hate me or never want"
+        },
+        {
+          "time": 4210,
+          "quote": "Whether you hate me or never want to see me again, at"
+        }
+      ]
+    },
+    {
+      "start": 4500,
+      "end": 4800,
+      "signal_counts": {
+        "wound_or_humiliation": 9,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 4,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 6
+      },
+      "dialogue_words": 876,
+      "shot_boundaries": 14,
+      "visual": {
+        "brightness": 0.37768751665949823,
+        "saturation": 0.32183781232684855,
+        "colorfulness": 0.41137007747466364,
+        "motion": 0.13314193342036257
+      },
+      "audio": {
+        "rms_mean": 0.06673128784944614,
+        "rms_std": 0.06482309363782406,
+        "silence_ratio": 0.2927582534611288,
+        "onsets_per_second": 4.376666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 4500,
+          "quote": "spread dirt, ruin her. See if her rich parents still want her."
+        },
+        {
+          "time": 4510,
+          "quote": "the person who would crouch on the floor wiping coffee after being"
+        }
+      ]
+    },
+    {
+      "start": 4800,
+      "end": 5100,
+      "signal_counts": {
+        "wound_or_humiliation": 9,
+        "care_belonging_protection": 7,
+        "justice_reversal_payoff": 4,
+        "romance_bond_or_coercion": 4,
+        "lore_mythology_density": 4,
+        "threat_or_violence": 11
+      },
+      "dialogue_words": 706,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.29905321687459946,
+        "saturation": 0.43881568292776746,
+        "colorfulness": 0.40472593791782857,
+        "motion": 0.13187374943246444
+      },
+      "audio": {
+        "rms_mean": 0.05891387164592743,
+        "rms_std": 0.05504799004023274,
+        "silence_ratio": 0.19574014909478168,
+        "onsets_per_second": 4.24
+      },
+      "evidence_snippets": [
+        {
+          "time": 4800,
+          "quote": "My queen, please forgive my past ignorance."
+        },
+        {
+          "time": 4810,
+          "quote": "Ms. Bella, I hear you've lost everything. Your dear sister took it"
+        }
+      ]
+    },
+    {
+      "start": 5100,
+      "end": 5237,
+      "signal_counts": {
+        "wound_or_humiliation": 1,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 1,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 382,
+      "shot_boundaries": 2,
+      "visual": {
+        "brightness": 0.3451333530285225,
+        "saturation": 0.4135864028973239,
+        "colorfulness": 0.39997291934429385,
+        "motion": 0.11731363514138918
+      },
+      "audio": {
+        "rms_mean": 0.062063808320090175,
+        "rms_std": 0.06399810853015099,
+        "silence_ratio": 0.4211384234204864,
+        "onsets_per_second": 3.423727270235998
+      },
+      "evidence_snippets": [
+        {
+          "time": 5100,
+          "quote": "I'm not asking for your forgiveness. What I did doesn't deserve that."
+        },
+        {
+          "time": 5110,
+          "quote": "I'm no longer the person who needed your apology. I know you"
+        }
+      ]
+    }
+  ],
+  "interpretation_boundaries": [
+    "Signal counts measure explicit dialogue language only; they do not prove emotional quality or causality.",
+    "Evidence snippets are short orientation quotes, not a transcript substitute.",
+    "Visual/audio metrics are low-resolution proxies and must be paired with direct viewing."
+  ],
+  "outcome": {
+    "views": 1044756,
+    "published_date": "2026-10-26",
+    "age_days_at_snapshot": 32,
+    "views_per_day": 32648.625,
+    "log_views_per_day": 10.393588649186858,
+    "duration_minutes": 87.3,
+    "snapshot_date": "2026-11-26",
+    "cohort_by_age_adjusted_views": "outperforming",
+    "archive_log_vpd_median": 7.683511103153724,
+    "q1": 6.5647291773852805,
+    "q3": 9.36042020805592
+  }
+}

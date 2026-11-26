@@ -8,6 +8,7 @@ version = "0.1.0"
 description = "Evidence-driven long-form animation production intelligence and failure-analysis system"
 requires-python = ">=3.11"
 dependencies = [
+    "jsonschema>=4.23",
   "yt-dlp>=2026.1.1",
   "numpy>=2.0",
   "pandas>=2.2",
