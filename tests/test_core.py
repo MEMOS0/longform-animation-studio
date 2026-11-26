@@ -517,3 +517,20 @@ def test_closure_integrity_ignores_early_promise_before_final_hook_but_allows_sa
     same={"sequences":[{"sequence":1,"turn":"middle turn"},{"sequence":2,"turn":"home recognition happens before their stories are just beginning"}]}
     same_result=evaluate_closure_integrity({},same,[])
     assert not any('sequel expansion' in w for w in same_result['warnings'])
+
+
+def test_closure_integrity_ending_payoff_does_not_exclude_penultimate_sequence():
+    from studio.closure_integrity import evaluate_closure_integrity
+    arch={
+      "sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"their stories are just beginning beyond the stars"}],
+      "ending_payoff":{"final_image":"the final image is quiet"}
+    }
+    result=evaluate_closure_integrity({},arch,[])
+    assert any('sequel expansion' in w for w in result['warnings'])
+
+
+def test_closure_integrity_dark_image_alone_is_not_system_collapse():
+    from studio.closure_integrity import evaluate_closure_integrity
+    arch={"sequences":[{"sequence":1,"turn":"water array established"},{"sequence":2,"turn":"family returns home safe as the room turns dark"}]}
+    result=evaluate_closure_integrity({},arch,[])
+    assert not any('infrastructure/system collapse' in w for w in result['warnings'])

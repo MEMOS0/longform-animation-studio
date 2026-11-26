@@ -66,7 +66,7 @@ def evaluate_closure_integrity(premise: dict[str, Any], architecture: dict[str, 
         rows.append(_row("ending_payoff", flatten(architecture.get("ending_payoff"))))
 
     warnings: list[str] = []
-    payoff_start = max(0, len(rows) - 2)
+    payoff_start = max(0, len(sequences) - 2)
     payoff_rows = rows[payoff_start:]
     for row_index, row in enumerate(rows):
         if row_index < payoff_start or not row["sequel_positions"]:
@@ -94,7 +94,7 @@ def evaluate_closure_integrity(premise: dict[str, Any], architecture: dict[str, 
     infrastructure = list(_positions(flatten(architecture) + "\n" + flatten(scenes), INFRASTRUCTURE_TERMS))
     consequence = list(_positions(final_text, COMMUNITY_CONSEQUENCE_TERMS))
     collapse_text = final_architecture_text
-    if infrastructure and any(term in collapse_text for term in ["destroy", "collapse", "self-destruct", "fails", "dark"]):
+    if infrastructure and any(term in collapse_text for term in ["destroy", "collapse", "self-destruct", "fails", "failing", "shutdown", "goes dark", "go dark"]):
         if not consequence:
             warnings.append("infrastructure/system collapse is not followed by visible community survival, replacement, or rebuilding consequence")
     score = max(0.0, round(1.0 - 0.28 * len(warnings), 2))
