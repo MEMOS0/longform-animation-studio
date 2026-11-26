@@ -63,3 +63,11 @@ def test_channel_contract_fit_creature_protection():
     result = evaluate_channel_fit("A mother protects a baby dragon child from hunters", "creature_protection_feature")
     assert result["status"] == "pass"
     assert "dragon" in result["matched_positive_signals"]
+
+
+def test_thumbnail_channel_contract_concepts():
+    from studio.thumbnail_concepts import generate_concepts
+    mythic = generate_concepts({"title": "Sinbad storm voyage", "genre": "mythic adventure", "channel_contract": "mythic_adventure"})
+    assert any(c["concept_id"] == "mythic_survival_scale" for c in mythic)
+    korean = generate_concepts({"title": "The regressed empress secret", "genre": "romance", "channel_contract": "korean_niche_microdrama"})
+    assert any(c["concept_id"] == "niche_face_tension" for c in korean)

@@ -1,6 +1,8 @@
 # Cross-channel audiovisual findings — first comparative sample
 
-Updated: 2026-11-26. Evidence tier 3/4 boundary: full videos were downloaded, aligned subtitles and second-resolution timelines were generated, and full-runtime contact sheets were visually inspected at sampled timestamps. This is not continuous frame-by-frame human viewing. Local media/contact sheets are not committed.
+Updated/corrected: 2026-11-26. Evidence tier 3/4 boundary: full videos were downloaded, aligned subtitles and second-resolution timelines were generated, and full-runtime contact sheets were visually inspected at sampled timestamps. This is not continuous frame-by-frame human viewing. Local media/contact sheets are not committed.
+
+> Correction pass: this was an early broad sample. Some subtitle extraction before the downloader fix could select non-English tracks, so exact dialogue claims here should be cross-checked against channel-specific deep dives before use. The Ironcrest interpretation has been superseded/refined by `knowledge/market/ironcrest-deep-dive.md`; Epic/FablePop/The Next Show/RIFTBORN comparisons are superseded by `epic-deep-dive.md` and `cross-channel-hit-failure-deep-dives.md`.
 
 ## Sampled videos
 
@@ -38,8 +40,8 @@ Working interpretation: the opening is verbally dense, but it works differently 
 
 ### `2YkJl0KV3gs` — creature rescue/protection as visual-first fantasy
 
-- **00:00–01:20:** A tiny dragon/creature is held up in a ceremonial context; a crowd/kingdom ritual frames the creature as rejected or endangered.
-- **01:20–02:00:** A young woman/servant character encounters the creature in a stable-like interior while authority figures display or control it.
+- **00:00–01:20:** A tiny dragon/creature appears in a ceremonial rejection context; visual inspection supports rejection/endangerment, but exact ritual interpretation is lower-confidence.
+- **01:31–02:06:** Corrected English subtitle evidence includes “The runt found its own kind,” “Cursed. It cannot breathe its element,” and “Back to the pens, stray.”
 - **02:40–05:00:** Contact-sheet imagery moves through escape, icy terrain, physical risk, fire/light, and intimate nose-to-nose bonding with the creature.
 - **26:40–31:40:** Final imagery escalates into dragon flight, large-scale kingdom spectacle, public confrontation, sunset flight, and the protagonist physically bonded with the dragon.
 

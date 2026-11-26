@@ -11,6 +11,8 @@ from typing import Any
 
 def classify_reference(row: dict[str, Any]) -> str:
     text = ((row.get("title") or "") + " " + (row.get("exact_title") or "") + " " + (row.get("archive_title") or "")).lower()
+    if any(k in text for k in ("sinbad", "aladdin", "odyssey", "jason", "argonaut", "voyage", "arabian")):
+        return "mythic_adventure"
     if any(k in text for k in ("reborn", "beautiful", "reincarnated")):
         return "transformation_rebirth"
     if any(k in text for k in ("dragon", "wolf", "mermaid", "monster", "beast", "pet")):
@@ -92,6 +94,43 @@ def generate_concepts(premise: dict[str, Any], library: dict[str, list[dict[str,
             "text_direction": "title-thumbnail division of labor: title carries plot twist, thumbnail carries emotion/relationship",
             "mobile_test": "viewer can identify who is hurt, who has power, and what relationship tension matters",
             "reference_categories_to_study": ["romantic_family_betrayal", "localized_family_melodrama"],
+        })
+    contract = (premise.get("channel_contract") or "").lower()
+    if contract == "mythic_adventure":
+        concepts.append({
+            "concept_id": "mythic_survival_scale",
+            "category": "mythic_adventure",
+            "core_mechanic": "recognizable mythic environment plus bodily survival threat",
+            "composition": "small human figure or emotionally readable hero against a giant creature/environment; danger must be physically legible rather than abstract lore",
+            "emotion": "awe mixed with immediate survival fear",
+            "palette": "golden mythic warmth against deep blue/green danger",
+            "text_direction": "use familiar mythic name or voyage promise if available; avoid invented lore terms",
+            "mobile_test": "giant-vs-human scale contrast and hero expression survive shrinkage",
+            "reference_categories_to_study": ["mythic_adventure", "creature_power_bond"],
+        })
+    if contract == "serialized_creature_franchise":
+        concepts.append({
+            "concept_id": "arena_monster_injustice",
+            "category": "serialized_creature_franchise",
+            "core_mechanic": "enslaved or hunted protagonist facing monster/power system with completion value",
+            "composition": "protagonist and creature in direct confrontation; crowd/power figures pushed to background; packaging should communicate complete arc or season value",
+            "emotion": "bodily vulnerability plus defiant survival",
+            "palette": "dirty arena earth tones pierced by creature glow or blood-red power accents",
+            "text_direction": "favor complete/season/movie language over episode-number-first fragmentation",
+            "mobile_test": "viewer must read who is trapped and what monster/power threatens them",
+            "reference_categories_to_study": ["creature_power_bond", "dark_creature_threat"],
+        })
+    if contract == "korean_niche_microdrama":
+        concepts.append({
+            "concept_id": "niche_face_tension",
+            "category": "korean_niche_microdrama",
+            "core_mechanic": "large attractive faces carrying niche relational tension, secrecy, regression, or power imbalance",
+            "composition": "one or two faces dominate the frame; object/trope cue (pendant, uniform, crown, contract, phone) small but readable",
+            "emotion": "yearning, suspicion, control, betrayal, or forbidden intimacy",
+            "palette": "clean glossy beauty lighting with one saturated trope accent",
+            "text_direction": "short trope declaration or intimate confrontation phrase; subtitles/title carry specifics",
+            "mobile_test": "eye contact and trope object remain readable at vertical feed size",
+            "reference_categories_to_study": ["romantic_family_betrayal", "general_emotional_drama"],
         })
     if not concepts:
         concepts.append({
