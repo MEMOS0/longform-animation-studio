@@ -12,9 +12,20 @@ import shutil
 import time
 import urllib.request
 from pathlib import Path
+from urllib.parse import urlparse
 
 API = "https://maxtube-api.lawrie.co.nz"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/131 Safari/537.36"
+ALLOWED_MEDIA_HOSTS = {"maxtube-proxy.lawrie.co.nz", "www.youtube.com"}
+
+
+def validate_media_url(url: str) -> str:
+    parsed = urlparse(url)
+    host = (parsed.hostname or "").lower()
+    allowed = host in ALLOWED_MEDIA_HOSTS or host.endswith(".googlevideo.com")
+    if parsed.scheme != "https" or parsed.username or parsed.password or not allowed:
+        raise ValueError(f"untrusted media URL host: {host or '<missing>'}")
+    return url
 
 
 def get_json(url: str, timeout: int = 45) -> dict:
@@ -107,7 +118,7 @@ def fetch_one(video_id: str, media_dir: Path, raw_dir: Path, skip_media: bool = 
         if subtitles:
             subtitle_url = subtitles[0].get("url")
             if subtitle_url:
-                sub_path = download_file(subtitle_url, raw_dir / f"{video_id}.en.ttml")
+                sub_path = download_file(validate_media_url(subtitle_url), raw_dir / f"{video_id}.en.ttml")
                 result["subtitle_path"] = str(sub_path)
 
         streams = data.get("videoStreams") or []
@@ -115,11 +126,12 @@ def fetch_one(video_id: str, media_dir: Path, raw_dir: Path, skip_media: bool = 
         chosen = progressive[-1] if progressive else (streams[-1] if streams else None)
         if chosen and not skip_media:
             media_path = media_dir / f"{video_id}.mp4"
+            media_url = validate_media_url(chosen["url"])
             content_length = int(chosen.get("contentLength") or 0)
             if content_length > 10_000_000:
-                download_ranged(chosen["url"], media_path, content_length)
+                download_ranged(media_url, media_path, content_length)
             elif not media_path.exists() or media_path.stat().st_size < 1_000_000:
-                download_file(chosen["url"], media_path)
+                download_file(media_url, media_path)
             result["media_path"] = str(media_path)
             result["media_bytes"] = media_path.stat().st_size if media_path.exists() else 0
             result["chosen_stream"] = {k: chosen.get(k) for k in ("quality", "format", "mimeType", "videoOnly", "bitrate")}
