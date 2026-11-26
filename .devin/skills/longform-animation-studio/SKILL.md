@@ -268,6 +268,7 @@ Channel-specific lessons now encoded in Failure Intelligence:
 - The Next Show mythic adventure: physical survival and recognizable mythic frames beat abstract obsidian/realm/god-trial exposition.
 - RIFTBORN/franchise serials: compilation/completeness can dominate craft; fragmented mid-story episodes need a self-contained emotional contract.
 - Korean/BL microdramas: niche precision matters more than broad appeal; relational intimacy, secrecy, regression tropes, power asymmetry, and rapid trope declaration follow different rules from broad cinematic creature fantasy.
+- Nightfall/legal-proof melodrama: abandonment and class expulsion work when protection converts into labor, competence is measurable, evidence chains escalation, and the ending pays autonomy/belonging rather than wealthy rescue alone.
 
 Use `studio.format_strategy.format_strategy` and the cross-channel patterns in `studio.failure_intelligence` before drafting. For every premise record:
 
