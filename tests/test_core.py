@@ -353,3 +353,10 @@ def test_compressed_complete_feature_guidance_crosses_duration_labels():
     assert any("every scene should advance" in item for item in short["recommendations"])
     mid=format_strategy(35.07, "a scholarship student loves a hidden billionaire heir")
     assert any("every scene should advance" in item for item in mid["recommendations"])
+
+
+def test_relational_contract_historical_denial_and_lifted_past():
+    from studio.relational_contract import denial_is_unresolved
+    assert not denial_is_unresolved("she had no choice before meeting him. later she freely chooses")
+    assert denial_is_unresolved("she has no choice now. she was no longer denied choice in the past")
+    assert not denial_is_unresolved("she had no choice. she is no longer denied choice as she was before")
