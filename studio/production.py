@@ -220,7 +220,7 @@ def opening_conversion_quality(premise: dict[str, Any]) -> dict[str, Any]:
     if len(admin_hits) >= 2 and emotional_terms < 4:
         warnings.append("opening may stall in proof/verification/administrative negotiation instead of escalating injustice or protection")
     ordinary_anchor_terms = ["water", "well", "food", "bread", "potato", "debt", "rent", "wage", "work", "chore", "home", "shop", "oven", "mill", "bucket", "pump", "shelter", "animal", "beast", "customer", "door"]
-    ordinary_hits = [term for term in ordinary_anchor_terms if term in text]
+    ordinary_hits = [term for term in ordinary_anchor_terms if re.search(r"\b" + re.escape(term) + r"\b", text)]
     fantasyish = any(term in ((premise.get("channel_contract") or "") + " " + (premise.get("genre") or "") + " " + " ".join(premise.get("title_candidates") or [])).lower() for term in ("fantasy", "creature", "dragon", "monster", "mythic", "dark", "magic"))
     if fantasyish and not ordinary_hits:
         warnings.append("fantasy opening lacks an ordinary survival/labor/resource anchor; spectacle may not explain what the community stands to lose")

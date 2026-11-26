@@ -723,3 +723,11 @@ def test_opening_quality_flags_fantasy_without_ordinary_anchor():
     assert any('ordinary survival/labor/resource anchor' in w for w in result['warnings'])
     grounded={"channel_contract":"creature_economic_melodrama","title_candidates":["Rot"],"opening_event":{"first_10_seconds":"a child is barred from the public water pump","first_60_seconds":"debt papers threaten the home","first_5_minutes":"she protects a creature while fetching water","dramatic_question":"can she save home without ownership?"}}
     assert not any('ordinary survival/labor/resource anchor' in w for w in opening_conversion_quality(grounded)['warnings'])
+
+
+def test_opening_ordinary_anchor_matching_uses_word_boundaries():
+    from studio.production import opening_conversion_quality
+    premise={"channel_contract":"dark fantasy creature feature","title_candidates":["Crown"],"opening_event":{"first_10_seconds":"the current emperor summons a hidden power","first_60_seconds":"ancient magic threatens the realm","first_5_minutes":"a secret identity is exposed","dramatic_question":"can the chosen one survive?"}}
+    result=opening_conversion_quality(premise)
+    assert 'rent' not in result['ordinary_anchor_terms']
+    assert any('ordinary survival/labor/resource anchor' in w for w in result['warnings'])
