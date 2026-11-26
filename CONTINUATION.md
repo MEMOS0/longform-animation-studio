@@ -222,7 +222,7 @@ Critical new market insight requiring integration:
 
 Immediate after rotation:
 
-1. Handle any new Devin Review findings.
+1. Handle any new Devin Review findings. Latest project evaluation after S01-S05: gates A/B/C pass; direction remains unknown until storyboard frames exist; only shot-pipeline warning is generic slots requiring exact expansion.
 2. Finish/write `knowledge/market/fifth-pass-breakout-media-deep-dive.md` and copy fifthpass derived evidence into `evidence/research/`.
 3. Integrate compressed-short-feature insight into `format-duration-performance.md`, `studio/format_strategy.py`, channel contracts, and skill. Do not overcorrect into “always short.”
 4. Finish/check `NHAHR3v9La8` download and analyze it plus any unfinished fifthpass media.
@@ -230,7 +230,7 @@ Immediate after rotation:
 
 ## 2026-11-26 rotation checkpoint — fifth-pass report integrated
 
-Latest pushed commit: `e827837 Analyze compressed dragon motherhood breakout`. Tests: 42 passed. Branch/PR: `devin/1764170700-failure-intelligence-foundation`, PR #1. A new Devin Review may be running; check it first if a notification arrives.
+Latest pushed commit: `19ddc4c Add fifth-pass thumbnail intelligence` plus follow-on contract sync commit may be newer. Check `git log --oneline -5` first. Tests: 42 passed. Branch/PR: `devin/1764170700-failure-intelligence-foundation`, PR #1. A new Devin Review may be running; check it first if a notification arrives.
 
 Completed since prior checkpoint:
 
@@ -251,7 +251,7 @@ Important empirical synthesis update:
 
 Immediate next steps:
 
-1. Handle any new Devin Review findings. Do not let NLP heuristic edge-case whack-a-mole consume the whole session; if findings become unbounded, prefer conservative warnings or explicit structured annotations rather than pretending perfect English parsing.
+1. Handle any new Devin Review findings. Latest project evaluation after S01-S05: gates A/B/C pass; direction remains unknown until storyboard frames exist; only shot-pipeline warning is generic slots requiring exact expansion. Do not let NLP heuristic edge-case whack-a-mole consume the whole session; if findings become unbounded, prefer conservative warnings or explicit structured annotations rather than pretending perfect English parsing.
 2. Deepen exact boards S06+ or critically review S03-S05 quality. Existing exact boards S01-S05 valid. Continue if useful, but creative quality review matters more than mechanical count.
 3. Integrate fifth-pass misunderstood-personhood compressed contract into `knowledge/market/channel_contracts.json`, `studio/package_data/channel_contracts.json`, and possibly project evaluation gates. Keep both files synchronized.
 4. Thumbnail Intelligence fifth-pass originals/metadata now exist under `thumbnail_intelligence/reference_library/fifthpass_breakouts/` with `analysis.md`; next expand to hit/low comparisons inside each channel rather than only hit thumbnails.
