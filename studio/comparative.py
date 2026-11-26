@@ -25,7 +25,8 @@ SNAPSHOT_DATE = date(2026, 11, 26)
 
 
 def load_jsonl(path: Path) -> list[dict[str, Any]]:
-    return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
+    with path.open(encoding="utf-8", newline="") as handle:
+        return [json.loads(line) for line in handle.readlines() if line.strip()]
 
 
 def parse_iso_date(value: str | None) -> date | None:
@@ -184,8 +185,8 @@ def create_thumbnail_montage(rows: list[dict[str, Any]], output: Path, thumb_siz
     return output
 
 
-def analyze(input_jsonl: Path, output_dir: Path) -> dict[str, Path]:
-    rows = add_outcomes(load_jsonl(input_jsonl))
+def analyze(input_jsonl: Path, output_dir: Path, snapshot_date: date | None = None) -> dict[str, Path]:
+    rows = add_outcomes(load_jsonl(input_jsonl), snapshot_date)
     output_dir.mkdir(parents=True, exist_ok=True)
     enriched_path = output_dir / "novdrama_analysis_rows.json"
     enriched_path.write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
