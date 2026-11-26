@@ -369,3 +369,7 @@ Tests: 56 passed. PR #2 pushed and opened.
 ## 2026-11-27 checkpoint — closure integrity gate
 
 Added `studio/closure_integrity.py` and integrated it into project evaluation. This machine gate operationalizes the Spark/ELDSAGA counterexample lesson: a plot sequel hook may remain, but only after relational recognition/home/belonging closure lands; infrastructure collapse must be followed by visible community survival/rebuilding consequence. Tests now 57 passed. Salt Window Garden generated package scores 1.0 on closure integrity.
+
+## 2026-11-27 checkpoint — creature dialogue scaffold pass
+
+`studio/scene_generator.py` now has contract-aware creature-economic key lines instead of generic social-melodrama lines. Salt Window Garden uses water/pump/salt ownership language; Emberseed Oven Cart uses fire/oven/key resource language. Both generated concepts still pass A/B/C/D gates with zero schema errors. Remaining caveat: these are still scaffolds, not final hand-written screenplays; next creative pass should make lines scene-specific rather than template-derived. Tests: 57 passed. Latest pushed commit at this checkpoint: `f7d7584`.
