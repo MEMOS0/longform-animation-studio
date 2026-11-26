@@ -18,6 +18,7 @@ from .title_intelligence import critique_title, generate_title_candidates
 from .dialogue_craft import evaluate_scenes_dialogue
 from .agency_intelligence import evaluate_agency
 from .sound_design import evaluate_sound_design
+from .meaning_carrier import evaluate_meaning_carrier
 
 REPO_SCHEMA_DIR = Path(__file__).resolve().parents[1] / "schemas"
 SCHEMA_DIR = REPO_SCHEMA_DIR if REPO_SCHEMA_DIR.exists() else importlib.resources.files("studio") / "package_data" / "schemas"
@@ -206,6 +207,7 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "dialogue_craft": evaluate_scenes_dialogue(scenes),
         "agency_intelligence": evaluate_agency(premise, scenes),
         "sound_design_quality": evaluate_sound_design(scenes),
+        "meaning_carrier_intelligence": evaluate_meaning_carrier(premise, architecture),
         "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes)},
         "gates": gate_report(schema_errors, failure, scene_report, architecture_report, bool(architecture), bool(scenes)),
     }

@@ -198,6 +198,23 @@
       "items": {
         "type": "string"
       }
+    },
+    "meaning_carrier": {
+      "type": "object",
+      "properties": {
+        "object_or_space": {
+          "type": "string"
+        },
+        "opening_meaning": {
+          "type": "string"
+        },
+        "closing_reversal": {
+          "type": "string"
+        },
+        "final_sequence_use": {
+          "type": "string"
+        }
+      }
     }
   }
 }

@@ -128,6 +128,7 @@
   },
   "architecture_quality": {
     "sequence_count": 8,
+    "coverage_end_minutes": 48.0,
     "warnings": []
   },
   "format_strategy": {
@@ -7353,6 +7354,20 @@
       "S08: uses silence/negative space as an emotional transition"
     ],
     "craft_rule": "Sound must mark power transitions: dialogue clarity first, motif evolution second, silence/negative space before bonding or revelation."
+  },
+  "meaning_carrier_intelligence": {
+    "mode": "explicit",
+    "object_or_space": "weighted capture net, stormglass scales, and the beastkeeper lullaby",
+    "opening_meaning": "captivity, pain-as-control, and fear-driven weather",
+    "closing_reversal": "the net logic is broken by sanctuary, stormglass becomes a free arch rather than a weapon, and the lullaby is completed by free creature voices",
+    "final_sequence_use": "the final storm vault inversion and sunlit stormglass arch prove that safety, not force, controls the sea",
+    "score_0_to_1": 1.0,
+    "warnings": [],
+    "craft_rule": "A physical object, space, sound-object, or ritual should carry the wound in the opening and return with changed meaning in the payoff."
+  },
+  "artifact_presence": {
+    "architecture": true,
+    "scenes": true
   },
   "gates": {
     "A_premise": "pass",

@@ -170,3 +170,11 @@ def test_safe_filename_component_preserves_outer_underscores():
     from tools.download_piped_archive import safe_filename_component
     assert safe_filename_component("_I5I1l7DP3E") == "_I5I1l7DP3E"
     assert safe_filename_component("../x") == "_x"
+
+def test_meaning_carrier_explicit_passes_and_missing_fails():
+    from studio.meaning_carrier import evaluate_meaning_carrier
+    premise = {"meaning_carrier": {"object_or_space": "bread", "opening_meaning": "charity under humiliation", "closing_reversal": "shared family table", "final_sequence_use": "bread returns as chosen belonging"}}
+    assert evaluate_meaning_carrier(premise, {})["score_0_to_1"] == 1.0
+    weak = evaluate_meaning_carrier({"opening_event": {"first_10_seconds": "abstract royal politics"}}, {})
+    assert weak["score_0_to_1"] < 1.0
+    assert weak["warnings"]
