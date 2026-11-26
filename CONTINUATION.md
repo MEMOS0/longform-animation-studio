@@ -136,3 +136,36 @@ Updated: 2026-11-26 session `9b820e85797b4edfba99232f657790bb`
 8. Commit and push updates to PR #1.
 9. Update environment blueprint with verified setup commands at the end.
 10. If context nears limit again, reread this file first and continue without stopping.
+
+## 2026-11-26 late continuation — expanded cross-channel + thumbnail mandate
+
+The user explicitly added a new long-running requirement after the first cross-channel sample:
+
+- Focus especially on Ironcrest Pictures, FablePop, RIFTBORN CINEMA, Future Frame Movies, Epic AI Films, and add “The Next Show | Stories That Feel Like Movies”.
+- Inspect Epic AI Films’ site: https://epicaifilms.com/
+- Use data sources: https://openmicrodrama.com/ai-dramas, https://crateh.com/, https://metamovies.ai/ai-movies/
+- Do not lump all channels together: separately analyze fantasy cinema, romantic drama, animation, science fiction, emotional stories, and series formats.
+- Compare hit/middle/failure videos inside each channel before cross-channel generalization.
+- Distinguish 15–30 minute films from 60–120 minute films, and standalone films from episode/series formats.
+- Keep looking for recently breakout small-subscriber channels in the last 7–14 days.
+- Integrate all findings into the repository skill and production decision system.
+
+The user also explicitly requires a separate Thumbnail Intelligence specialty:
+
+- Download highest-available-resolution thumbnails for hit/middle/failure videos across all researched channels.
+- Store persistent visual references in the repository and link each image to title/date/views/duration/subscriber count/performance snapshot.
+- Actually visually inspect thumbnails: palette, contrast, composition, character positions, expressions/emotions, lighting, background, hierarchy, mobile readability, curiosity gap.
+- Compare hit vs failure thumbnails within the same channel and decode title-thumbnail relationships.
+- Build a categorized reference library, comparative analysis, failure archive, and future system that can generate/critique original thumbnail concepts without copying references.
+- Research professional YouTube thumbnail design, visual perception, attention psychology, click behavior, and A/B testing sources and integrate them into the main skill.
+- Do not present guesses as proven CTR effects without real CTR data.
+
+Current cross-channel evidence state before continuation rollover:
+
+- OpenMicroDrama top-20 structured items committed at `data/processed/openmicrodrama_top50_items.json` (despite filename, currently 20 schema items).
+- Cross-channel market baseline committed at `knowledge/market/cross-channel-ai-drama.md`.
+- First audiovisual mechanism findings committed at `knowledge/market/cross-channel-audiovisual-findings.md`.
+- Downloaded and fully media-analyzed locally: `PyZn_Y62Cw4`, `bHCI5XUSppM`, `2YkJl0KV3gs`, `Nglk1Ji_SNI`, `LU74Q4y3-Jk`.
+- `rIyeW1cJGSs` mp4/subtitles downloaded; batch media analysis was still in progress when the second batch began.
+- `q_CnGWFO788` and `2Sbr4jpoiaQ` failed through the current Piped endpoint with HTTP 500; retry with alternate endpoints or later.
+- Do not trust any subagent output as completed; user explicitly rejected subagent fan-out.
