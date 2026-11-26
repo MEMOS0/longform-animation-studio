@@ -687,3 +687,13 @@ def test_key_objects_use_filmable_unlocking_actions():
     assert 'turns the blackened brass oven key in the' in scenes[2]['visual_action']['final_image']
     assert 'falls open' not in scenes[4]['visual_action']['final_image']
     assert 'ledger wall remains unlocked' in scenes[7]['visual_action']['final_image']
+
+
+def test_thumbnail_concepts_read_nested_creature_premise_fields():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.thumbnail_concepts import generate_concepts
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    concepts=generate_concepts(premise)
+    assert concepts[0]['creature_or_child_anchor']=='the moonfin child'
+    assert concepts[0]['protector']
+    assert concepts[0]['source_promise']==premise['audience_promise']
