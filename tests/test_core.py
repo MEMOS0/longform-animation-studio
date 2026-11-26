@@ -174,7 +174,8 @@ def test_safe_filename_component_preserves_outer_underscores():
 def test_meaning_carrier_explicit_passes_and_missing_fails():
     from studio.meaning_carrier import evaluate_meaning_carrier
     premise = {"meaning_carrier": {"object_or_space": "bread", "opening_meaning": "charity under humiliation", "closing_reversal": "shared family table", "final_sequence_use": "bread returns as chosen belonging"}}
-    assert evaluate_meaning_carrier(premise, {})["score_0_to_1"] == 1.0
+    architecture={"sequences":[{"turn":"ending","visual_setpiece":"bread returns at the family table"}]}
+    assert evaluate_meaning_carrier(premise, architecture)["score_0_to_1"] == 1.0
     weak = evaluate_meaning_carrier({"opening_event": {"first_10_seconds": "abstract royal politics"}}, {})
     assert weak["score_0_to_1"] < 1.0
     assert weak["warnings"]
@@ -205,3 +206,11 @@ def test_malformed_contract_sections_do_not_abort_and_score_zero():
     from studio.relational_contract import evaluate_relational_contract
     assert evaluate_meaning_carrier({"meaning_carrier": "bread"}, {})["score_0_to_1"] == 0.0
     assert evaluate_relational_contract({"relational_contract": ["x"]})["score_0_to_1"] == 0.0
+
+
+def test_meaning_carrier_requires_architecture_evidence_of_recurrence():
+    from studio.meaning_carrier import evaluate_meaning_carrier
+    premise = {"meaning_carrier": {"object_or_space": "bread", "opening_meaning": "humiliation", "closing_reversal": "belonging", "final_sequence_use": "declared but absent"}}
+    result = evaluate_meaning_carrier(premise, {"sequences": [{"turn": "family dinner", "visual_setpiece": "gold hall"}]})
+    assert result["score_0_to_1"] < 1.0
+    assert any("final two architecture" in w for w in result["warnings"])

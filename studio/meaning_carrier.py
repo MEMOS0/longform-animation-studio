@@ -57,9 +57,12 @@ def evaluate_meaning_carrier(premise: dict[str, Any], architecture: dict[str, An
         final_text = final_sequence_text(architecture).lower()
         carrier_text = str(explicit.get("object_or_space", "")).lower()
         carrier_tokens = [token for token in re.findall(r"[a-z]{5,}", carrier_text) if token not in {"their", "there", "between"}]
-        final_match = any(token in final_text for token in carrier_tokens) or bool(explicit.get("final_sequence_use"))
-        if not final_match:
-            warnings.append("meaning carrier is not visibly connected to the final two architecture sequences")
+        final_match = any(token in final_text for token in carrier_tokens)
+        if architecture.get("sequences"):
+            if not final_match:
+                warnings.append("meaning carrier is not visibly connected to the final two architecture sequences")
+        else:
+            warnings.append("meaning carrier ending recurrence cannot be verified without architecture sequences")
         return {
             "mode": mode,
             "object_or_space": explicit.get("object_or_space"),
