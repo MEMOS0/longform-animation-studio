@@ -798,3 +798,13 @@ def test_creature_spoken_exchange_assigns_decisions_to_protagonist():
         assert decision['speaker']=='Nura'
     assert "Then I'll work" in next(t for t in scenes[1]['dialogue_design']['spoken_exchange'] if t['beat']=='protagonist_decision')['line']
     assert "Help me carry it" in next(t for t in scenes[5]['dialogue_design']['spoken_exchange'] if t['beat']=='protagonist_decision')['line']
+
+
+def test_storyboard_seed_falls_back_to_key_lines_without_spoken_exchange():
+    from studio.storyboard_seed import build_seed_board
+    scene={"scene_id":"S01","time_range":"0-5 minutes","objective":"objective","conflict":"conflict","turn":"turn","protagonist_decision":"decision","subtext":"subtext","visual_action":{"first_image":"first","face_reaction":"face","vertical_composition":"vertical","final_image":"final"},"dialogue_design":{"key_lines":["pressure line","decision line","objection line"]},"sound_design":{}}
+    board=build_seed_board(scene)
+    dialogue=[s['dialogue'] for s in board['shots'] if s['dialogue']]
+    assert 'pressure line' in dialogue
+    assert 'decision line' in dialogue
+    assert 'objection line' in dialogue

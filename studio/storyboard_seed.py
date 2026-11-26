@@ -86,6 +86,9 @@ def build_seed_board(scene: dict[str, Any], continuity_dependencies: list[str] |
         if dialogue_key.startswith("exchange:") and not repeated_dialogue_beat:
             exchange_turn = exchange_turns.get(dialogue_key.split(":", 1)[1])
             dialogue = str((exchange_turn or {}).get("line") or "")
+            if not exchange_turn:
+                fallback_index = {"external_pressure": 0, "protagonist_decision": 1, "witness_objection": 2, "evidence_or_cost": 0}.get(dialogue_key.split(":", 1)[1], 0)
+                dialogue = keys[fallback_index] if len(keys) > fallback_index else ""
         elif dialogue_key and not dialogue_key.startswith("exchange:") and not repeated_dialogue_beat:
             dialogue = keys[int(dialogue_key[-1])] if len(keys) > int(dialogue_key[-1]) else ""
         visual_action = scene_value(scene, source)
