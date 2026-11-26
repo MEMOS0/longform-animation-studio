@@ -92,6 +92,20 @@ Updated: 2026-11-26 session `9b820e85797b4edfba99232f657790bb`
 - Do not keep retrying child sessions unless quota returns. Per user memory, compensate with rigorous multi-pass self-audit and local computational analysis.
 - Workflow file remains `workflows/novdrama_video_analysis.py` for future use.
 
+## 2026-11-26 late-session state update
+
+- PR branch is pushed through `bb2a2cb` (“Deepen hit and failure case evidence”). Earlier commit `926b2aa` added the timestamped casebook intelligence system.
+- Devin Review findings through commit `fde6bd6` were triaged/resolved; new pushes may trigger new review rounds.
+- Initial batch media analysis completed for 24 videos. 47/48 mp4s were downloaded at last check; only `jRa3_WZYDdY` remained missing because the Piped stream endpoint errored. A second batch (`media_batch2`) is analyzing the newly downloaded videos and skips existing summaries.
+- `vYNuKn6GiaE` is the crucial revenge counterexample: visual contact-sheet evidence shows dragon hatching/power awakening in the first minutes, dragon-baby/child promise visibly paid by roughly 11:20, and public enemy consequences by roughly 11:40–13:00. Therefore failure is not “revenge” itself but delayed/cold/unembodied revenge.
+- `v03oauoFveU` opening interleaves dragon royalty/egg mystery, child vulnerability, mother reassurance, creature care, and bruised-child stakes within the first 6 minutes.
+- `rtTbEcFdnZQ` failure shows polished court spectacle but adult sexualized ceremony/politics plus repeated censorship artifacts; ending warmth exists but is insufficient.
+- `BeX5LHLqOEI` and `KsxgWoFS50I` both have warm payoff imagery yet underperform: payoff is necessary but not sufficient. Opening clarity and middle momentum matter.
+- Key refined rule: lore is dangerous when abstract/procedural, but not when embodied in creatures, children, objects, visible costs, and action.
+- `studio/media_analysis.py` was fixed after initial outputs: shot-id assignment is now linear and silence_ratio uses a file-level reference floor rather than a per-window self-percentile. Existing early outputs may still contain the old nearly constant silence artifact; repair/recompute before relying on silence ratios.
+- `knowledge/nov-drama/comparative-findings.md` contains the current interpretive hypothesis ledger and timestamped evidence.
+- Child workflow sessions remain blocked by organization `out_of_quota`; continue locally/self-audited unless quota returns.
+
 ## Immediate next steps
 
 1. Fix `tools/batch_media_analysis.py` import bug and run batch analysis for all downloaded mp4s.
