@@ -6036,9 +6036,7 @@
         "expected_seconds": 252.0,
         "actual_seconds": 252.0,
         "valid": true,
-        "warnings": [
-          "core protection/trust/agency theme is not explicit in dialogue"
-        ],
+        "warnings": [],
         "shot_count": 14
       },
       {
@@ -6046,9 +6044,7 @@
         "expected_seconds": 300.0,
         "actual_seconds": 300.0,
         "valid": true,
-        "warnings": [
-          "core protection/trust/agency theme is not explicit in dialogue"
-        ],
+        "warnings": [],
         "shot_count": 17
       },
       {
@@ -6115,22 +6111,18 @@
         "opposition_beat_count": 4,
         "line_count": 3,
         "exposition_line_count": 0,
-        "power_action_line_count": 0,
+        "power_action_line_count": 1,
         "long_line_count": 0,
-        "warnings": [
-          "sampled key lines contain no clear power/action verb"
-        ]
+        "warnings": []
       },
       {
         "scene_id": "S03",
         "opposition_beat_count": 4,
         "line_count": 3,
         "exposition_line_count": 0,
-        "power_action_line_count": 0,
+        "power_action_line_count": 1,
         "long_line_count": 0,
-        "warnings": [
-          "sampled key lines contain no clear power/action verb"
-        ]
+        "warnings": []
       },
       {
         "scene_id": "S04",
@@ -6146,11 +6138,9 @@
         "opposition_beat_count": 4,
         "line_count": 3,
         "exposition_line_count": 0,
-        "power_action_line_count": 0,
+        "power_action_line_count": 1,
         "long_line_count": 0,
-        "warnings": [
-          "sampled key lines contain no clear power/action verb"
-        ]
+        "warnings": []
       },
       {
         "scene_id": "S06",
@@ -6180,17 +6170,7 @@
         "warnings": []
       }
     ],
-    "warnings_by_scene": {
-      "S02": [
-        "sampled key lines contain no clear power/action verb"
-      ],
-      "S03": [
-        "sampled key lines contain no clear power/action verb"
-      ],
-      "S05": [
-        "sampled key lines contain no clear power/action verb"
-      ]
-    }
+    "warnings_by_scene": {}
   },
   "agency_intelligence": {
     "score_0_to_1": 1.0,
