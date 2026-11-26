@@ -1,6 +1,6 @@
 # Continuation checkpoint — read first after context rollover
 
-Updated: 2026-11-26 after pushed commit `b6a754d` (“Update studio skill and exclude generated evidence from review diff”). PR: https://github.com/MEMOS0/longform-animation-studio/pull/1, branch `devin/1764170700-failure-intelligence-foundation`, local repo `C:/Users/Administrator/repos/longform-animation-studio`.
+Updated: 2026-11-26 after pushed commit `37e9287` (“Add machine-readable channel contract intelligence”). PR: https://github.com/MEMOS0/longform-animation-studio/pull/1, branch `devin/1764170700-failure-intelligence-foundation`, local repo `C:/Users/Administrator/repos/longform-animation-studio`.
 
 ## Immutable user mandate
 
@@ -21,6 +21,7 @@ Build a reusable professional AI-assisted long-form animation studio system, not
 - External source/format audit exists. Do not compare microdrama episodes directly with 60–120m films.
 - Cross-channel patterns integrated into code: `studio/failure_intelligence.py` now includes spectacle-without-relational-anchor, abstract quest lore, fragmented episode, delayed payoff. `studio/format_strategy.py` added and integrated into `studio/production.py`; premise schema now accepts optional `target_minutes`/`release_format`.
 - Skill updated with cross-channel/format decision protocol in `.devin/skills/longform-animation-studio/SKILL.md`.
+- Machine-readable channel contracts added at `knowledge/market/channel_contracts.json` and wired through `studio/channel_contracts.py` into production evaluation; premise schema accepts `channel_contract`.
 - `.gitattributes` added marking `data/**`, `thumbnails/**`, `*.ttml`, and `*.casebook.json` as `linguist-generated` because Devin Review docs say these do not count toward review diff-size limits. This is the current CI/Review fix hypothesis.
 
 ## Important caveats
