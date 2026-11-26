@@ -2,17 +2,17 @@
   "scene_id": "S03",
   "time_range": "8.4-13.4 minutes",
   "objective": "bond growth, antagonist retaliation, and object rule",
-  "conflict": "the antagonist repeats the original spatial punishment and raises the economic/social cost",
+  "conflict": "the coal guildmaster and Lio's status-hungry stepbrother repeats the public punishment while treating the creature's suffering as a resource input",
   "power_position_start": "emotionally bonded but economically vulnerable",
   "power_position_end": "threatened but visibly competent",
-  "turn": "the antagonist repeats the original spatial punishment and raises the economic/social cost",
+  "turn": "the coal guildmaster and Lio's status-hungry stepbrother repeats the public punishment while treating the creature's suffering as a resource input",
   "protagonist_decision": "continue helping or working openly despite wage loss, ridicule, or exclusion",
   "subtext": "Love and trust are shown through repeated protection, not declared as feelings.",
   "visual_action": {
     "first_image": "status space repeated with a sharper punishment; object lesson embedded in action",
     "face_reaction": "the protagonist's expression shifts from hope toward controlled attention when the turn lands",
     "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
-    "final_image": "blackened brass oven key visible after the power shift, its meaning altered by: the rules of blackened brass oven key and the protagonist's proof literacy become legible"
+    "final_image": "blackened brass oven key visible after the power shift, its meaning altered by: the rules of blackened brass oven key reveal how heat, timing, and creature behavior contradict the official story"
   },
   "dialogue_design": {
     "function": "make choices, objections, and proof implications audible rather than explaining theme",
@@ -31,8 +31,8 @@
     "motif": "a restrained tactile sound motif"
   },
   "edit_hook": {
-    "entry_hook": "enter on the immediate consequence of the previous turn: the bond with the emberseed bird child plus the miller's lonely daughter who first hides it; a flour miller and night watchman feed Lio before guild protection exists becomes habitual and trusted",
-    "exit_hook": "what does the object know that powerful people do not?"
+    "entry_hook": "enter on the immediate consequence of the previous turn: feeding and protecting the emberseed bird child becomes a repeatable ritual with visible cost",
+    "exit_hook": "how much suffering is the system willing to monetize before witnesses understand it?"
   },
   "failure_checks": [
     "Does the scene change power, trust, evidence, capability, or relational obligation?",

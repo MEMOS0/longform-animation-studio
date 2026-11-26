@@ -2,11 +2,11 @@
   "scene_id": "S02",
   "time_range": "4.2-8.4 minutes",
   "objective": "care network, work identity, and dignity economy",
-  "conflict": "a flour miller and night watchman feed Lio before guild protection exists before knowing the creature's value or any powerful ally's status; help becomes work and shelter rather than humiliating charity",
+  "conflict": "a flour miller and night watchman offers food, shelter, and patient labor before understanding what the creature is worth",
   "power_position_start": "dependent on care but beginning to act",
   "power_position_end": "worker with a first zone of dignity",
-  "turn": "a flour miller and night watchman feed Lio before guild protection exists before knowing the creature's value or any powerful ally's status; help becomes work and shelter rather than humiliating charity",
-  "protagonist_decision": "accept costly honest work while refusing payment that would commodify humiliation",
+  "turn": "a flour miller and night watchman offers food, shelter, and patient labor before understanding what the creature is worth",
+  "protagonist_decision": "accept honest help without turning the creature into payment",
   "subtext": "Help becomes dignity when it creates work rather than dependence.",
   "visual_action": {
     "first_image": "small labor ritual with inherited object, care-giver space, and first repeatable customer/ally interaction",
@@ -31,8 +31,8 @@
     "motif": "a restrained tactile sound motif"
   },
   "edit_hook": {
-    "entry_hook": "enter on the immediate consequence of the previous turn: non-romantic witnesses begin treating the protagonist as a person rather than a servant",
-    "exit_hook": "can honest work create safety before power notices?"
+    "entry_hook": "enter on the immediate consequence of the previous turn: a flour miller and night watchman becomes a witness to care rather than a rescuer who owns the solution",
+    "exit_hook": "can kindness survive once the creature's fire becomes profitable?"
   },
   "failure_checks": [
     "Does the scene change power, trust, evidence, capability, or relational obligation?",

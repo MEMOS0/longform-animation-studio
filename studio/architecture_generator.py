@@ -7,6 +7,7 @@ proof chains, relational changes, visual setpieces, and retention hooks.
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -25,6 +26,17 @@ def text(premise: dict[str, Any], path: list[str], default: str = "") -> Any:
             return default
         cur = cur.get(key)
     return cur if cur not in (None, "") else default
+
+
+def compact_actor(value: Any, default: str) -> str:
+    """Convert explanatory premise prose into a speakable actor label."""
+    actor = str(value or default).strip()
+    actor = actor.split(";")[0]
+    actor = actor.split(" plus ")[0]
+    actor = re.split(r",\s+(?:whose|who)\b", actor, maxsplit=1)[0]
+    actor = re.split(r"\s+(?:uses|enforces|abuses|plants|controls|offers?|gives?|feeds?)\s+", actor, maxsplit=1)[0]
+    actor = re.sub(r"\s+itself$", "", actor).strip()
+    return actor or default
 
 
 def generate_architecture(premise: dict[str, Any]) -> dict[str, Any]:
@@ -141,6 +153,63 @@ def generate_architecture(premise: dict[str, Any]) -> dict[str, Any]:
             "hook": "the ending answers the opening spatial question rather than teasing a sequel",
         },
     ]
+    if premise.get("channel_contract") == "creature_economic_melodrama":
+        contract_text = json.dumps(premise, ensure_ascii=False).lower()
+        heat_based = any(term in contract_text for term in ["oven", "ember", "fire", "coal", "volcanic"])
+        resource = "fire" if heat_based else "water"
+        system = "oven" if heat_based else "pump"
+        evidence = "heat" if heat_based else "salt"
+        authority = "coal guild" if heat_based else "land trust"
+        creature = compact_actor(child, "the creature child")
+        caregiver = compact_actor(care, "the first caregiver")
+        antagonist = compact_actor(injustice, f"the {authority}")
+        payoff_space = str(payoff).split(";")[0].strip()
+        return_home = str(payoff).split(";")[-1].strip() if ";" in str(payoff) else str(payoff)
+        beats[0].update({
+            "turn": f"{creature} crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
+            "choice": "hide the creature's value or protect it before knowing whether anyone will help",
+            "ally": f"{creature} creates the first bond through need and trust rather than status",
+            "hook": f"why does a valuable creature trust the person the {authority} calls worthless?",
+        })
+        beats[1].update({
+            "turn": f"{caregiver} offers food, shelter, and patient labor before understanding what the creature is worth",
+            "choice": "accept honest help without turning the creature into payment",
+            "ally": f"{caregiver} becomes a witness to care rather than a rescuer who owns the solution",
+            "hook": f"can kindness survive once the creature's {resource} becomes profitable?",
+        })
+        beats[2].update({
+            "turn": f"{antagonist} repeats the public punishment while treating the creature's suffering as a resource input",
+            "clue": f"the rules of {object_name} reveal how {evidence}, timing, and creature behavior contradict the official story",
+            "ally": f"feeding and protecting {creature} becomes a repeatable ritual with visible cost",
+            "hook": "how much suffering is the system willing to monetize before witnesses understand it?",
+        })
+        beats[3].update({
+            "turn": f"the protagonist's proof literacy threatens the {authority}, which begins separating home, work, and creature",
+            "choice": "protect the creature's consent even when selling it would solve the economic wound",
+            "secret": f"the {authority} needs both the debt story and control of {system} infrastructure to remain believable",
+        })
+        beats[4].update({
+            "turn": f"the protagonist is accused of theft or illegal possession while {creature} is treated as evidence rather than a person",
+            "choice": "defend the truth without exposing the creature to capture",
+            "ally": f"{creature} or a low-status witness recognizes the public wound before powerful people do",
+        })
+        beats[5].update({
+            "turn": f"the protagonist reads {evidence} traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
+            "ally": f"the care network becomes a proof community around labor, shelter, and creature trust",
+        })
+        beats[6].update({
+            "turn": f"the proof chain shows the {authority} fabricated the debt and diverted the {resource} system",
+            "choice": "present the proof publicly while refusing ownership of the creature as a reward",
+            "ally": "former doubters change behavior before asking forgiveness",
+        })
+        beats[7].update({
+            "turn": f"the same audience sees the fraud exposed; the creature chooses contact/home rather than being awarded as property",
+            "choice": "choose belonging only after consent, safety, work, and community survival are secured",
+            "ally": f"{creature}, {caregiver}, witnesses, and reformed authority form a non-possessive community",
+            "visual": f"{payoff_space}; {return_home}; neighbors visibly share or rebuild access to {resource}",
+            "hook": "the ending repays the opening economic wound spatially and relationally rather than teasing ownership",
+        })
+
     sequences = []
     for index, beat in enumerate(beats):
         sequences.append({

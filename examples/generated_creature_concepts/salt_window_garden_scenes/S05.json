@@ -2,11 +2,11 @@
   "scene_id": "S05",
   "time_range": "18.9-24.4 minutes",
   "objective": "midpoint public accusation and maximum shame",
-  "conflict": "the protagonist is publicly accused/arrested/excluded using planted or manipulated evidence",
+  "conflict": "the protagonist is accused of theft or illegal possession while the moonfin child is treated as evidence rather than a person",
   "power_position_start": "publicly accused and close to maximum powerlessness",
   "power_position_end": "stripped of status but in possession of the decisive question",
-  "turn": "the protagonist is publicly accused/arrested/excluded using planted or manipulated evidence",
-  "protagonist_decision": "defend truth without exposing or endangering the vulnerable ally",
+  "turn": "the protagonist is accused of theft or illegal possession while the moonfin child is treated as evidence rather than a person",
+  "protagonist_decision": "defend the truth without exposing the creature to capture",
   "subtext": "Public shame is an attack on identity before it is an attack on facts.",
   "visual_action": {
     "first_image": "the original audience/social space is reused for arrest, accusation, or expulsion",
@@ -31,7 +31,7 @@
     "motif": "a restrained tactile sound motif"
   },
   "edit_hook": {
-    "entry_hook": "enter on the immediate consequence of the previous turn: the moonfin child itself, whose trust is earned through feeding and protection; her grandmother offers food, shelter, and patient labor before anyone powerful believes her or a lower-status witness sees the public wound clearly while powerful people misread it",
+    "entry_hook": "enter on the immediate consequence of the previous turn: the moonfin child or a low-status witness recognizes the public wound before powerful people do",
     "exit_hook": "who planted the proof, and can the victim author the reversal?"
   },
   "failure_checks": [

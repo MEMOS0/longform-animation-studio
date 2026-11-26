@@ -2,7 +2,7 @@
   "premise_id": "salt_window_garden",
   "failure_intelligence": {
     "candidate": "She Saved the Creature They Called a Treasure — Then Refused to Sell Its Tears",
-    "risk_score_0_to_1": 0.401,
+    "risk_score_0_to_1": 0.41,
     "confidence": "low_until_script_and_media-evidence comparison is complete",
     "matched_failure_patterns": [],
     "nearest_archive_examples": [
@@ -15,7 +15,7 @@
           "dragon",
           "family_child"
         ],
-        "similarity": 0.09439424529809984
+        "similarity": 0.09372025951925556
       },
       {
         "video_id": "_I5I1l7DP3E",
@@ -28,7 +28,7 @@
           "sacred_special_blood",
           "wolf_werewolf"
         ],
-        "similarity": 0.05722347007944998
+        "similarity": 0.05681488791506197
       },
       {
         "video_id": "xJUN_KOCnME",
@@ -39,7 +39,7 @@
           "family_child",
           "modern_wealth_power"
         ],
-        "similarity": 0.05351650676880004
+        "similarity": 0.05313439274922516
       },
       {
         "video_id": "j3U5JsLvbLg",
@@ -52,7 +52,7 @@
           "royalty_status",
           "sea_mermaid"
         ],
-        "similarity": 0.05122968447641998
+        "similarity": 0.050863898631289844
       },
       {
         "video_id": "u9acebqxR-8",
@@ -63,7 +63,15 @@
           "rebirth_second_chance",
           "sacred_special_blood"
         ],
-        "similarity": 0.04719712264904992
+        "similarity": 0.04686012975962778
+      },
+      {
+        "video_id": "a2pydTch_Tg",
+        "title": "He Kept His Distance for 3 Years… Until Someone Shared Their ONLY Piece of Bread! #AIStory",
+        "cohort": "underperforming",
+        "views_per_day": 494.39130434782606,
+        "themes": [],
+        "similarity": 0.04686012975962778
       },
       {
         "video_id": "0ofXaXWcfi0",
@@ -74,15 +82,7 @@
           "family_child",
           "sea_mermaid"
         ],
-        "similarity": 0.039270379792041295
-      },
-      {
-        "video_id": "a2pydTch_Tg",
-        "title": "He Kept His Distance for 3 Years… Until Someone Shared Their ONLY Piece of Bread! #AIStory",
-        "cohort": "underperforming",
-        "views_per_day": 494.39130434782606,
-        "themes": [],
-        "similarity": 0.03775769811923994
+        "similarity": 0.03898998475920784
       },
       {
         "video_id": "jW-gZtvP9Oo",
@@ -92,7 +92,7 @@
         "themes": [
           "revenge_retribution"
         ],
-        "similarity": 0.03582009757855622
+        "similarity": 0.03556433795795097
       }
     ],
     "positive_missing_or_weak": [
@@ -130,7 +130,7 @@
     "object_or_space": "blue glass salt vial",
     "opening_meaning": "the vial is the last measured gift of clean rainwater left by Nura's mother",
     "closing_reversal": "the same vial proves the land trust has been secretly diverting the town aquifer",
-    "final_sequence_use": "the object is used openly in the proof/restoration ritual before the final communal meal or work ritual in the dry pump yard transformed into Pearl-like public garden where water and food are shared by choice",
+    "final_sequence_use": "the object is used openly in the proof/restoration ritual before the final communal meal or work ritual in the dry pump yard transformed into a shared garden where water and food are shared by choice",
     "score_0_to_1": 0.75,
     "warnings": [
       "meaning carrier ending recurrence cannot be verified without architecture sequences"
@@ -144,7 +144,7 @@
       "safety_or_kindness_before_power": "her grandmother offers food, shelter, and patient labor before anyone powerful believes her before knowing the creature's value or any powerful ally's status",
       "costly_protagonist_action": "Nura protects a child-sized moonfin creature with silver fins and a frightened singing voice at cost to her home, business, safety, and the chance to solve debt quickly",
       "consent_or_personhood_repair": "the creature is never owned as a reward; authority must admit the fraud, the creature chooses home/contact, and the protagonist accepts partnership without possession",
-      "payoff_image": "the dry pump yard transformed into Pearl-like public garden where water and food are shared by choice after the moonfin returns to the underground spring family rather than becoming Nura's property"
+      "payoff_image": "the dry pump yard transformed into a shared garden where water and food are shared by choice; the moonfin returns to the underground spring family rather than becoming Nura's property"
     },
     "warnings": [],
     "craft_rule": "Power-asymmetric relationships are strongest when safety or costly kindness precedes power, and the ending repairs consent/personhood rather than rewarding coercion."

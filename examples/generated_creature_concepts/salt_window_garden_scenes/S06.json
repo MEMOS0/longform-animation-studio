@@ -2,10 +2,10 @@
   "scene_id": "S06",
   "time_range": "24.4-31.1 minutes",
   "objective": "agency reconstruction and first proof chain movement",
-  "conflict": "the protagonist refuses passive rescue and begins reading the evidence through established competence",
+  "conflict": "the protagonist reads salt traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
   "power_position_start": "no longer passive but still outmatched",
   "power_position_end": "active investigator with an accountable alliance",
-  "turn": "the protagonist refuses passive rescue and begins reading the evidence through established competence",
+  "turn": "the protagonist reads salt traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
   "protagonist_decision": "accept only accountable help/advance while retaining control of the proof",
   "subtext": "Agency means accepting help without surrendering authorship of the proof.",
   "visual_action": {
@@ -31,7 +31,7 @@
     "motif": "a restrained tactile sound motif"
   },
   "edit_hook": {
-    "entry_hook": "enter on the immediate consequence of the previous turn: the care network and minor witnesses become an active proof community",
+    "entry_hook": "enter on the immediate consequence of the previous turn: the care network becomes a proof community around labor, shelter, and creature trust",
     "exit_hook": "which small detail will collapse the antagonist's timeline?"
   },
   "failure_checks": [

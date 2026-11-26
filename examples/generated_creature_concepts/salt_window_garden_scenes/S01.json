@@ -2,11 +2,11 @@
   "scene_id": "S01",
   "time_range": "0-4.2 minutes",
   "objective": "spatial humiliation, vulnerable alliance, and promise payoff",
-  "conflict": "the forced status ritual is interrupted when the moonfin child itself, whose trust is earned through feeding and protection; her grandmother offers food, shelter, and patient labor before anyone powerful believes her physically crosses toward the humiliated protagonist",
+  "conflict": "the moonfin child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
   "power_position_start": "socially exposed and institutionally powerless",
   "power_position_end": "protector with a defined relational duty",
-  "turn": "the forced status ritual is interrupted when the moonfin child itself, whose trust is earned through feeding and protection; her grandmother offers food, shelter, and patient labor before anyone powerful believes her physically crosses toward the humiliated protagonist",
-  "protagonist_decision": "protect the vulnerable ally or preserve dignity before protecting personal safety",
+  "turn": "the moonfin child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
+  "protagonist_decision": "hide the creature's value or protect it before knowing whether anyone will help",
   "subtext": "Care is meaningful only when it crosses a social boundary at cost.",
   "visual_action": {
     "first_image": "Nura is forced to kneel beside the dry public pump outside the gated garden while trust customers drink inside",
@@ -31,8 +31,8 @@
     "motif": "a restrained tactile sound motif"
   },
   "edit_hook": {
-    "entry_hook": "enter on the immediate consequence of the previous turn: the moonfin child itself, whose trust is earned through feeding and protection; her grandmother offers food, shelter, and patient labor before anyone powerful believes her creates the first morally trustworthy bond",
-    "exit_hook": "why does the powerless ally trust the person every powerful adult rejects?"
+    "entry_hook": "enter on the immediate consequence of the previous turn: the moonfin child creates the first bond through need and trust rather than status",
+    "exit_hook": "why does a valuable creature trust the person the land trust calls worthless?"
   },
   "failure_checks": [
     "Does the scene change power, trust, evidence, capability, or relational obligation?",
