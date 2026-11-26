@@ -1,0 +1,43 @@
+{
+  "scene_id": "S03",
+  "time_range": "8.4-13.4 minutes",
+  "objective": "bond growth, antagonist retaliation, and object rule",
+  "conflict": "the antagonist repeats the original spatial punishment and raises the economic/social cost",
+  "power_position_start": "emotionally bonded but economically vulnerable",
+  "power_position_end": "threatened but visibly competent",
+  "turn": "the antagonist repeats the original spatial punishment and raises the economic/social cost",
+  "protagonist_decision": "continue helping or working openly despite wage loss, ridicule, or exclusion",
+  "subtext": "Love and trust are shown through repeated protection, not declared as feelings.",
+  "visual_action": {
+    "first_image": "status space repeated with a sharper punishment; object lesson embedded in action",
+    "face_reaction": "the protagonist's expression shifts from hope toward controlled attention when the turn lands",
+    "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+    "final_image": "blackened brass oven key visible after the power shift, its meaning altered by: the rules of blackened brass oven key and the protagonist's proof literacy become legible"
+  },
+  "dialogue_design": {
+    "function": "make choices, objections, and proof implications audible rather than explaining theme",
+    "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "I refuse to hide the work my hands can prove.",
+      "Watch what this object remembers.",
+      "If you trust me, don't ask me to become small again."
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
+    "silence_or_negative_space": "intimate object/craft detail against hostile public murmur",
+    "motif": "a restrained tactile sound motif"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on the immediate consequence of the previous turn: the bond with the emberseed bird child plus the miller's lonely daughter who first hides it; a flour miller and night watchman feed Lio before guild protection exists becomes habitual and trusted",
+    "exit_hook": "what does the object know that powerful people do not?"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, capability, or relational obligation?",
+    "Is the object/space doing narrative work rather than decorative worldbuilding?",
+    "Is public or institutional pressure expressed through visible behavior rather than exposition?",
+    "Does the protagonist retain agency instead of being rescued into passivity?"
+  ]
+}

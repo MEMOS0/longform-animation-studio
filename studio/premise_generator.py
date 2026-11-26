@@ -19,6 +19,47 @@ from .spatial_status import evaluate_spatial_status
 from .architecture_generator import generate_architecture
 from .scene_generator import generate_scenes
 
+CREATURE_ECONOMIC_VARIANTS = [
+    {
+        "id": "salt_window_garden",
+        "setting": "a desert rail town where water is rationed by a private land trust",
+        "protagonist": "Nura, a pastry-cart baker trying to save her grandmother's drought-cracked house",
+        "creature": "a child-sized moonfin creature with silver fins and a frightened singing voice",
+        "object": "blue glass salt vial",
+        "opening_object_meaning": "the vial is the last measured gift of clean rainwater left by Nura's mother",
+        "closing_object_meaning": "the same vial proves the land trust has been secretly diverting the town aquifer",
+        "care_network": "her grandmother offers food, shelter, and patient labor before anyone powerful believes her",
+        "child_ally": "the moonfin child itself, whose trust is earned through feeding and protection",
+        "power_figure": "the land-trust heir and the step-uncle who fabricated the family debt",
+        "status_space": "Nura is forced to kneel beside the dry public pump outside the gated garden while trust customers drink inside",
+        "inversion_space": "the dry pump yard transformed into Pearl-like public garden where water and food are shared by choice",
+        "public_wound": "accused of water theft and illegal possession of a valuable creature",
+        "proof_chain": "salt crystallization in the vial, pump pressure marks, land-trust ledger timing, a repaired water meter, and a child witness who heard the moonfin sing underground",
+        "economic_engine": "pastry cart, water ration tickets, honest customers, and the temptation to sell moonfin tears that can purify water",
+        "return_home": "the moonfin returns to the underground spring family rather than becoming Nura's property",
+        "bond": "a rival cart seller becomes an accountable partner only after choosing truth over profit",
+    },
+    {
+        "id": "emberseed_oven_cart",
+        "setting": "a volcanic hillside city where bakery ovens are licensed by a coal guild",
+        "protagonist": "Lio, a debt-bound flatbread baker whose mother's oven license was erased",
+        "creature": "a sparrow-sized emberseed bird child whose feathers can relight cold ovens",
+        "object": "blackened brass oven key",
+        "opening_object_meaning": "the key is dismissed as scrap because the guild removed her mother's maker mark",
+        "closing_object_meaning": "the key opens the sealed oven ledger wall and proves the license was stolen",
+        "care_network": "a flour miller and night watchman feed Lio before guild protection exists",
+        "child_ally": "the emberseed bird child plus the miller's lonely daughter who first hides it",
+        "power_figure": "the coal guildmaster and Lio's status-hungry stepbrother",
+        "status_space": "Lio is made to bake on the ash floor outside the licensed oven hall while guild families eat inside",
+        "inversion_space": "the ash floor converted into a communal dawn bakery where guild and non-guild families eat together",
+        "public_wound": "accused of stealing licensed fire and endangering the city",
+        "proof_chain": "oven-key teeth, heat-pattern marks, erased maker stamp, coal delivery ledger, and the emberseed's song response",
+        "economic_engine": "flatbread cart, oven-license debt, ethical refusal to pluck feathers, and customer proof through bread quality",
+        "return_home": "the emberseed returns to the volcanic nesting vents after helping reopen the communal ovens",
+        "bond": "the miller becomes family through daily labor and protection rather than wealth rescue",
+    },
+]
+
 VARIANTS = [
     {
         "id": "glasswing_banquet_platform",
@@ -163,10 +204,102 @@ def social_craft_premise(v: dict[str, str], target_minutes: float = 42) -> dict[
     }
 
 
+def creature_economic_premise(v: dict[str, str], target_minutes: float = 42) -> dict[str, Any]:
+    name = v["protagonist"].split(",", 1)[0]
+    compressed = target_minutes <= 35.5
+    return {
+        "premise_id": v["id"],
+        "title_candidates": [
+            "She Saved the Creature They Called a Treasure — Then Refused to Sell Its Tears",
+            "They Took Her Home for Debt, Unaware the Little Creature Knew Where the Water Went",
+            "The Child Creature Was Never Hers to Keep, So She Chose to Set It Free",
+        ],
+        "logline": f"In {v['setting']}, {v['protagonist']} rescues {v['creature']} while fighting fabricated debt; tempted to monetize its gift, she proves the fraud, returns it home, and transforms the excluded workspace into shared belonging.",
+        "audience_promise": "A compressed creature-economic melodrama combining childlike nonhuman personhood, debt/home insecurity, small-business competence, ethical temptation, legal proof, ownership reversal, loving separation, and a materially transformed ending.",
+        "target_minutes": target_minutes,
+        "release_format": "compressed_feature" if compressed else "mid_length_feature",
+        "channel_contract": "creature_economic_melodrama",
+        "emotional_engine": {
+            "wound": f"{name} is trapped by debt, housing insecurity, public shame, and the fear that survival may require exploiting someone weaker.",
+            "want": "save the home/business, survive the debt deadline, and protect the creature",
+            "need": "learn that dignity and care cannot be built by owning or monetizing another vulnerable person",
+            "injustice": f"{v['power_figure']} uses debt, legal papers, social status, and creature ownership logic to trap both the protagonist and the vulnerable nonhuman child",
+            "protective_counterforce": f"{v['child_ally']}; {v['care_network']}",
+            "belonging_payoff": f"the opening exclusion space becomes {v['inversion_space']}; the creature returns home rather than becoming property, while the human community gains water/work/dignity",
+            "secret_or_power_asymmetry": "private wealth/legal ownership versus a debtor and a creature treated as living treasure",
+            "cost_of_failure": "the home is seized, the creature is harvested or caged, and the protagonist becomes complicit in the same ownership system that victimized her",
+        },
+        "protagonist": {
+            "identity": v["protagonist"],
+            "vulnerability": "debt, housing precarity, low institutional power, and temptation to survive through another being's pain",
+            "capability": "small-business craft, observation of material proof, persistence, care under pressure, and ethical refusal",
+            "agency_first_action": f"she saves {v['creature']} before understanding or monetizing its gift",
+            "transformation": "from desperate survivor to ethical proof-author who can accept partnership without ownership",
+        },
+        "opening_event": {
+            "first_10_seconds": v["status_space"],
+            "first_60_seconds": f"debt papers or a public demand make the home/business deadline concrete while {name} continues serving customers rather than begging.",
+            "first_5_minutes": f"she finds {v['creature']} injured or trapped, chooses rescue before profit, discovers the first impossible sign of its gift, and hides it while the inherited {v['object']} appears.",
+            "dramatic_question": "can she save her home without turning a vulnerable creature into property?",
+        },
+        "theme_lane": {
+            "family_or_heir_hook": "childlike creature personhood, grandmother/family care, and loving return-home separation",
+            "romance_hook": v["bond"],
+            "modern_power_hook": "fabricated debt, resource ownership, legal proof, and ethical small-business economics",
+        },
+        "failure_intelligence": {
+            "evaluation_path": "pending_generated_evaluation",
+            "nearest_failures": [
+                "magic as free money without suffering or consent cost",
+                "creature treated as pet/weapon/resource before personhood",
+                "legal paperwork replacing embodied stakes",
+                "ending that saves the creature but leaves the original debt/home wound unpaid",
+            ],
+            "mitigations": [
+                "make care precede monetization in the opening",
+                "give the gift a suffering/consent cost",
+                "tie creature ownership and home ownership into one moral system",
+                "seed documents/object proof before the reversal",
+                "end with transformed space, honest work, and return-home rather than possession",
+            ],
+            "counterexamples_checked": [
+                "low-view creature stories can still have strong mechanics",
+                "creature spectacle alone is insufficient",
+                "plot cliffhangers only work after relational recognition pays off",
+            ],
+        },
+        "packaging": {
+            "thumbnail_single_read": f"{name} sheltering {v['creature']} under cloth or hands while the hostile economic environment and the creature's luminous gift remain visible",
+            "curiosity_gap": "will she sell the creature's gift to survive, or protect it and lose everything?",
+            "visual_before_after": f"dry/excluded workspace becomes {v['inversion_space']}; {v['object']} changes from discarded inheritance into proof",
+            "title_thumbnail_mismatch_risk": "generic creature fantasy packaging would hide the stronger debt/personhood/economic-choice mechanism",
+        },
+        "evidence_boundaries": [
+            "Inspired by mechanism-level evidence in desert-mermaid, creature-family, social-test, and legal-proof research; characters, world, object, proof chain, and dialogue are original.",
+            "No CTR, retention, or traffic causality is claimed from public video metadata.",
+        ],
+        "meaning_carrier": {
+            "object_or_space": v["object"],
+            "opening_meaning": v["opening_object_meaning"],
+            "closing_reversal": v["closing_object_meaning"],
+            "final_sequence_use": f"the object is used openly in the proof/restoration ritual before the final communal meal or work ritual in {v['inversion_space']}",
+        },
+        "relational_contract": {
+            "power_asymmetry": "private resource/legal ownership versus debt-bound worker and a nonhuman child treated as property",
+            "safety_or_kindness_before_power": f"{v['care_network']} before knowing the creature's value or any powerful ally's status",
+            "costly_protagonist_action": f"{name} protects {v['creature']} at cost to her home, business, safety, and the chance to solve debt quickly",
+            "consent_or_personhood_repair": "the creature is never owned as a reward; authority must admit the fraud, the creature chooses home/contact, and the protagonist accepts partnership without possession",
+            "payoff_image": f"{v['inversion_space']} after {v['return_home']}",
+        },
+    }
+
+
 def generate_premises(contract: str = "social_test_melodrama", count: int = 3, target_minutes: float = 42) -> list[dict[str, Any]]:
-    if contract != "social_test_melodrama":
-        raise ValueError("currently implemented contract: social_test_melodrama")
-    return [social_craft_premise(v, target_minutes) for v in VARIANTS[:count]]
+    if contract == "social_test_melodrama":
+        return [social_craft_premise(v, target_minutes) for v in VARIANTS[:count]]
+    if contract == "creature_economic_melodrama":
+        return [creature_economic_premise(v, target_minutes) for v in CREATURE_ECONOMIC_VARIANTS[:count]]
+    raise ValueError("currently implemented contracts: social_test_melodrama, creature_economic_melodrama")
 
 
 def evaluate_generated_premise(premise: dict[str, Any], archive_rows: list[dict[str, Any]]) -> dict[str, Any]:
@@ -181,10 +314,10 @@ def evaluate_generated_premise(premise: dict[str, Any], archive_rows: list[dict[
     }
 
 
-def generate_and_write(output_dir: Path, count: int, target_minutes: float, archive_rows: list[dict[str, Any]]) -> dict[str, Any]:
+def generate_and_write(output_dir: Path, count: int, target_minutes: float, archive_rows: list[dict[str, Any]], contract: str = "social_test_melodrama") -> dict[str, Any]:
     output_dir.mkdir(parents=True, exist_ok=True)
     rows = []
-    for premise in generate_premises(count=count, target_minutes=target_minutes):
+    for premise in generate_premises(contract=contract, count=count, target_minutes=target_minutes):
         path = output_dir / f"{premise['premise_id']}_premise.json"
         path.write_text(json.dumps(premise, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
         evaluation = evaluate_generated_premise(premise, archive_rows)

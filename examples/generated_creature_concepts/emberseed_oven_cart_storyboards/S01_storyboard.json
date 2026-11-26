@@ -1,0 +1,293 @@
+{
+  "scene_id": "S01",
+  "duration_seconds": 252.0,
+  "coverage": "continuous_exact_format_director_seed",
+  "shots": [
+    {
+      "shot_id": "S01_DS001",
+      "timecode": "0.00-22.02",
+      "duration_seconds": 22.02,
+      "scene_id": "S01",
+      "shot_size": "wide establishing",
+      "camera_intent": "slow push",
+      "visual_action": "Lio is made to bake on the ash floor outside the licensed oven hall while guild families eat inside",
+      "dialogue": "",
+      "sound_design": "public laughter and clatter thin into close breath/contact silence at the moment of alliance",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: open on the scene image"
+    },
+    {
+      "shot_id": "S01_DS002",
+      "timecode": "22.02-35.24",
+      "duration_seconds": 13.21,
+      "scene_id": "S01",
+      "shot_size": "intimate closeup",
+      "camera_intent": "settle",
+      "visual_action": "the protagonist's expression shifts from shame toward controlled attention when the turn lands",
+      "dialogue": "",
+      "sound_design": "breath/room tone",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+    },
+    {
+      "shot_id": "S01_DS003",
+      "timecode": "35.24-52.68",
+      "duration_seconds": 17.44,
+      "scene_id": "S01",
+      "shot_size": "action wide",
+      "camera_intent": "lateral track",
+      "visual_action": "spatial humiliation, vulnerable alliance, and promise payoff",
+      "dialogue": "",
+      "sound_design": "environmental action foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
+    },
+    {
+      "shot_id": "S01_DS004",
+      "timecode": "52.68-73.23",
+      "duration_seconds": 20.56,
+      "scene_id": "S01",
+      "shot_size": "power two-shot",
+      "camera_intent": "slow tightening",
+      "visual_action": "the forced status ritual is interrupted when the emberseed bird child plus the miller's lonely daughter who first hides it; a flour miller and night watchman feed Lio before guild protection exists physically crosses toward the humiliated protagonist",
+      "dialogue": "Sit here if you choose. No one eats beneath us again.",
+      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+    },
+    {
+      "shot_id": "S01_DS005",
+      "timecode": "73.23-93.79",
+      "duration_seconds": 20.56,
+      "scene_id": "S01",
+      "shot_size": "power two-shot",
+      "camera_intent": "slow tightening",
+      "visual_action": "the forced status ritual is interrupted when the emberseed bird child plus the miller's lonely daughter who first hides it; a flour miller and night watchman feed Lio before guild protection exists physically crosses toward the humiliated protagonist",
+      "dialogue": "Sit here if you choose. No one eats beneath us again.",
+      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+    },
+    {
+      "shot_id": "S01_DS006",
+      "timecode": "93.79-105.17",
+      "duration_seconds": 11.38,
+      "scene_id": "S01",
+      "shot_size": "pressure insert",
+      "camera_intent": "macro",
+      "visual_action": "the forced status ritual is interrupted when the emberseed bird child plus the miller's lonely daughter who first hides it; a flour miller and night watchman feed Lio before guild protection exists physically crosses toward the humiliated protagonist",
+      "dialogue": "",
+      "sound_design": "object/room texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: insert pressure detail"
+    },
+    {
+      "shot_id": "S01_DS007",
+      "timecode": "105.17-120.22",
+      "duration_seconds": 15.05,
+      "scene_id": "S01",
+      "shot_size": "decision closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "protect the vulnerable ally or preserve dignity before protecting personal safety",
+      "dialogue": "I will protect her before I protect myself.",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+    },
+    {
+      "shot_id": "S01_DS008",
+      "timecode": "120.22-144.81",
+      "duration_seconds": 24.59,
+      "scene_id": "S01",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "the forced status ritual is interrupted when the emberseed bird child plus the miller's lonely daughter who first hides it; a flour miller and night watchman feed Lio before guild protection exists physically crosses toward the humiliated protagonist",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+    },
+    {
+      "shot_id": "S01_DS009",
+      "timecode": "144.81-159.13",
+      "duration_seconds": 14.32,
+      "scene_id": "S01",
+      "shot_size": "vertical composition",
+      "camera_intent": "high or low angle",
+      "visual_action": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+      "dialogue": "",
+      "sound_design": "negative space",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
+    },
+    {
+      "shot_id": "S01_DS010",
+      "timecode": "159.13-178.40",
+      "duration_seconds": 19.27,
+      "scene_id": "S01",
+      "shot_size": "subtext two-shot",
+      "camera_intent": "slow lateral drift",
+      "visual_action": "Care is meaningful only when it crosses a social boundary at cost.",
+      "dialogue": "Let them laugh; I won't leave her alone.",
+      "sound_design": "music enters only when relational power changes; it must not paper over unresolved tension",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+    },
+    {
+      "shot_id": "S01_DS011",
+      "timecode": "178.40-197.67",
+      "duration_seconds": 19.27,
+      "scene_id": "S01",
+      "shot_size": "subtext two-shot",
+      "camera_intent": "slow lateral drift",
+      "visual_action": "Care is meaningful only when it crosses a social boundary at cost.",
+      "dialogue": "Let them laugh; I won't leave her alone.",
+      "sound_design": "music enters only when relational power changes; it must not paper over unresolved tension",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+    },
+    {
+      "shot_id": "S01_DS012",
+      "timecode": "197.67-214.56",
+      "duration_seconds": 16.89,
+      "scene_id": "S01",
+      "shot_size": "consequence wide",
+      "camera_intent": "backward track",
+      "visual_action": "visible consequence of protect the vulnerable ally or preserve dignity before protecting personal safety",
+      "dialogue": "",
+      "sound_design": "consequence foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
+    },
+    {
+      "shot_id": "S01_DS013",
+      "timecode": "214.56-225.20",
+      "duration_seconds": 10.65,
+      "scene_id": "S01",
+      "shot_size": "sensory bridge",
+      "camera_intent": "insert or detail",
+      "visual_action": "blackened brass oven key visible after the power shift, its meaning altered by: blackened brass oven key is introduced as emotionally and practically significant",
+      "dialogue": "",
+      "sound_design": "object/motif texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition"
+    },
+    {
+      "shot_id": "S01_DS014",
+      "timecode": "225.20-252.00",
+      "duration_seconds": 26.8,
+      "scene_id": "S01",
+      "shot_size": "final image",
+      "camera_intent": "slow pull-back",
+      "visual_action": "blackened brass oven key visible after the power shift, its meaning altered by: blackened brass oven key is introduced as emotionally and practically significant",
+      "dialogue": "Sit here if you choose. No one eats beneath us again.",
+      "sound_design": "a restrained tactile sound motif unresolved",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power"
+    }
+  ],
+  "validation_rules": [
+    "seed must be manually/directorially refined before production",
+    "no gaps or overlaps",
+    "sound and power transitions must remain explicit",
+    "shot pacing must remain intentionally varied"
+  ]
+}

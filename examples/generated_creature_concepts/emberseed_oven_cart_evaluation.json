@@ -1,0 +1,185 @@
+{
+  "premise_id": "emberseed_oven_cart",
+  "failure_intelligence": {
+    "candidate": "She Saved the Creature They Called a Treasure — Then Refused to Sell Its Tears",
+    "risk_score_0_to_1": 0.477,
+    "confidence": "low_until_script_and_media-evidence comparison is complete",
+    "matched_failure_patterns": [],
+    "nearest_archive_examples": [
+      {
+        "video_id": "VhZV-djnfiA",
+        "title": "She Became a Nanny to Save Her Daughter… Unaware Her Boss Was Her Child’s Father—the DRAGON LORD!",
+        "cohort": "middle",
+        "views_per_day": 2171.233333333333,
+        "themes": [
+          "dragon",
+          "family_child"
+        ],
+        "similarity": 0.08333333333333333
+      },
+      {
+        "video_id": "j3U5JsLvbLg",
+        "title": "Her Family Sacrificed Her to the Ocean… Now She's the SEA GOD'S QUEEN They Can Never Touch!#AIStory",
+        "cohort": "outperforming",
+        "views_per_day": 17921.0,
+        "themes": [
+          "family_child",
+          "revenge_retribution",
+          "royalty_status",
+          "sea_mermaid"
+        ],
+        "similarity": 0.07537783614444091
+      },
+      {
+        "video_id": "_I5I1l7DP3E",
+        "title": "She Sold Weapons Through a Magic Mirror… Then Accidentally Stole the WOLF KING'S FIRST KISS!#AIStory",
+        "cohort": "middle",
+        "views_per_day": 912.5555555555555,
+        "themes": [
+          "romance_mate",
+          "royalty_status",
+          "sacred_special_blood",
+          "wolf_werewolf"
+        ],
+        "similarity": 0.06415002990995843
+      },
+      {
+        "video_id": "KsxgWoFS50I",
+        "title": "They Betrayed the Girl Who Sacrificed Everything… Now She's the GODDESS They Can Never Have!#AIStory",
+        "cohort": "underperforming",
+        "views_per_day": 665.7777777777778,
+        "themes": [
+          "revenge_retribution",
+          "royalty_status"
+        ],
+        "similarity": 0.05555555555555555
+      },
+      {
+        "video_id": "gNTsEqML20s",
+        "title": "Her Husband Betrayed Her for Being Fat… Now She's the EMPRESS He Can Never Have!#AIStory",
+        "cohort": "middle",
+        "views_per_day": 1990.7857142857142,
+        "themes": [
+          "revenge_retribution",
+          "romance_mate",
+          "royalty_status"
+        ],
+        "similarity": 0.05555555555555555
+      },
+      {
+        "video_id": "UDjV1_6TgFs",
+        "title": "He Betrayed the Girl With the Sacred Tree Heart… Now She's the QUEEN He Can Never Have!#AIStory",
+        "cohort": "underperforming",
+        "views_per_day": 312.70588235294116,
+        "themes": [
+          "revenge_retribution",
+          "royalty_status",
+          "sacred_special_blood"
+        ],
+        "similarity": 0.05270462766947299
+      },
+      {
+        "video_id": "si1q6wv6aMI",
+        "title": "They Abandoned Their Sacred-Blood Girl… Now She's the VAMPIRE QUEEN They Can Never Have!#AIStory",
+        "cohort": "middle",
+        "views_per_day": 5599.613636363636,
+        "themes": [
+          "revenge_retribution",
+          "royalty_status",
+          "sacred_special_blood",
+          "vampire"
+        ],
+        "similarity": 0.05270462766947299
+      },
+      {
+        "video_id": "xJUN_KOCnME",
+        "title": "He Was Seconds Away From His 8th Championship… Until His Own Family Betrayed Him!",
+        "cohort": "underperforming",
+        "views_per_day": 492.9904761904762,
+        "themes": [
+          "family_child",
+          "modern_wealth_power"
+        ],
+        "similarity": 0.052495065695726005
+      }
+    ],
+    "positive_missing_or_weak": [
+      "No strong hidden identity/secret hook detected; Nov Drama hits often use one, though this is not mandatory.",
+      "No child/heir/creature emotional anchor detected; this is currently one of the strongest archive-level positive signals.",
+      "No explicit status reversal detected in the surface promise.",
+      "No clear mythic creature lane detected; test whether the concept matches the channel audience's demand."
+    ],
+    "decision_guidance": [
+      "Proceed only after targeted revision; the concept has meaningful resemblance to underperforming patterns."
+    ],
+    "causal_boundary": "This is pattern-matching against public outcomes and extracted creative signals; it is not a causal predictor of CTR, retention, or audience response."
+  },
+  "format_strategy": {
+    "format_class": "mid_length_feature",
+    "inferred_flags": {
+      "episodic": true,
+      "compilation": false,
+      "serialized": true,
+      "continuation_hook": true
+    },
+    "recommendations": [
+      "Open with embodied stakes before world scale or mythology.",
+      "Use 8-12 minute escalation blocks; each block must change capability, alliance, secret pressure, or cost.",
+      "Deliver a major promise payoff before the midpoint and a deeper relational payoff near the end.",
+      "A continuation hook is acceptable only after the current film/episode pays off a major promise; do not use it as a substitute for resolution."
+    ],
+    "warnings": [
+      "episodic labeling on a longer asset may reduce self-contained discovery value; prove the first episode can stand alone"
+    ],
+    "causal_boundary": "Duration/format guidance is observational and channel-dependent; it is not proof of retention or CTR causality."
+  },
+  "meaning_carrier": {
+    "mode": "explicit",
+    "object_or_space": "blackened brass oven key",
+    "opening_meaning": "the key is dismissed as scrap because the guild removed her mother's maker mark",
+    "closing_reversal": "the key opens the sealed oven ledger wall and proves the license was stolen",
+    "final_sequence_use": "the object is used openly in the proof/restoration ritual before the final communal meal or work ritual in the ash floor converted into a communal dawn bakery where guild and non-guild families eat together",
+    "score_0_to_1": 0.75,
+    "warnings": [
+      "meaning carrier ending recurrence cannot be verified without architecture sequences"
+    ],
+    "craft_rule": "A physical object, space, sound-object, or ritual should carry the wound in the opening and return with changed meaning in the payoff."
+  },
+  "relational_contract": {
+    "score_0_to_1": 1.0,
+    "fields": {
+      "power_asymmetry": "private resource/legal ownership versus debt-bound worker and a nonhuman child treated as property",
+      "safety_or_kindness_before_power": "a flour miller and night watchman feed Lio before guild protection exists before knowing the creature's value or any powerful ally's status",
+      "costly_protagonist_action": "Lio protects a sparrow-sized emberseed bird child whose feathers can relight cold ovens at cost to her home, business, safety, and the chance to solve debt quickly",
+      "consent_or_personhood_repair": "the creature is never owned as a reward; authority must admit the fraud, the creature chooses home/contact, and the protagonist accepts partnership without possession",
+      "payoff_image": "the ash floor converted into a communal dawn bakery where guild and non-guild families eat together after the emberseed returns to the volcanic nesting vents after helping reopen the communal ovens"
+    },
+    "warnings": [],
+    "craft_rule": "Power-asymmetric relationships are strongest when safety or costly kindness precedes power, and the ending repairs consent/personhood rather than rewarding coercion."
+  },
+  "spatial_status": {
+    "score_0_to_1": 0.81,
+    "opening_status_spaces": [
+      "floor"
+    ],
+    "ending_status_spaces": [
+      "floor"
+    ],
+    "inversion_signals": [
+      "home",
+      "open"
+    ],
+    "power_terms": [
+      "public"
+    ],
+    "vulnerable_terms": [
+      "child",
+      "creature",
+      "vulnerable"
+    ],
+    "warnings": [
+      "opening does not establish a legible spatial status grammar (who is caged, seated, kneeling, serving, or excluded)"
+    ],
+    "doctrine": "Define who is physically forced below/outside/inside power, then make the ending transform that space into chosen access, sanctuary, or belonging. Inspired by floor/table and cage/sanctuary evidence."
+  }
+}
