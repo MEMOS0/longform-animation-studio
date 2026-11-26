@@ -167,3 +167,5 @@ Latest pushed commit when written: `11c99c0 Add continuous director seed storybo
 
 - `tools/draft_exact_storyboards.py` converts each scene screenplay into continuous exact-format director-seed boards using that scene's own first/final images, objective, conflict, decision, turn, vertical composition, key dialogue, sound, and motif. Generated seeds live in `examples/stormglass_keepers/director_seed_storyboards/S01...S08`; all validate continuous with no gaps. These are **not final boards**; exact hand-authored boards exist for S01/S02 and remain the quality reference.
 - Next: review findings when they arrive; refine S03 manually using S01/S02 quality bar; continue sound evidence and breakout discovery.
+
+Rollover addendum: latest pushed commit `d297626 Remove repeated beats from director seeds`; tests 25 passed. Director seeds now use 10 non-repeating exact-format beats per scene; they are seeds, not final boards.
