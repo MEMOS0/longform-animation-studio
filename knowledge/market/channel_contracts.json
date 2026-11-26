@@ -277,7 +277,8 @@
       "Nana Drama Studio",
       "Story Secrets",
       "Karma Keeps Score",
-      "AI SweetDrama"
+      "AI SweetDrama",
+      "DRAMORA"
     ],
     "positive_signals": [
       "beggar",
@@ -295,21 +296,34 @@
       "hidden",
       "gate",
       "chef",
-      "baker"
+      "baker",
+      "customer",
+      "restaurant",
+      "food cart",
+      "hoodie",
+      "immigrant",
+      "abandoned wife",
+      "savings",
+      "loan"
     ],
     "opening_rules": [
       "open on a legible status boundary or humiliation",
       "make kindness cost something before hidden status is revealed",
       "use one concrete repeatable object as the moral test instrument",
       "let an innocent child/worker/ally reveal truth before power intervenes",
-      "pay off with public reversal plus changed ritual or relationship, not only wealth"
+      "pay off with public reversal plus changed ritual or relationship, not only wealth",
+      "introduce surrogate family or non-romantic care before high-status romantic rescue",
+      "make hidden wealth create a post-reveal trust wound, then repair it through changed conduct and protagonist choice",
+      "show the protagonist economic capability chain through visible objects, savings, loans, work, or repeated service rituals"
     ],
     "risk_patterns": [
       "test without cost",
       "cruelty spectacle without moral transformation",
       "wealth rescue without protagonist agency",
       "abstract goodness without a physical object",
-      "copycat beggar/billionaire packaging without a distinct object or wound"
+      "copycat beggar/billionaire packaging without a distinct object or wound",
+      "hidden billionaire reveal treated as instant reward rather than consent/trust rupture",
+      "wealth or marriage payoff that erases the protagonist economic agency chain"
     ],
     "thumbnail_rules": [
       "show class/status contrast in one glance",
@@ -319,7 +333,8 @@
     ],
     "evidence": [
       "knowledge/market/third-pass-breakout-media-deep-dive.md",
-      "knowledge/market/expanded-breakout-deep-dive.md"
+      "knowledge/market/expanded-breakout-deep-dive.md",
+      "knowledge/market/dramora-compressed-social-melodrama-deep-dive.md"
     ]
   },
   "machine_personhood_scifi": {
