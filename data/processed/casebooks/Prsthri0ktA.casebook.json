@@ -1,0 +1,788 @@
+{
+  "video_id": "Prsthri0ktA",
+  "duration_seconds": 5738,
+  "window_seconds": 300,
+  "total_signal_counts": {
+    "wound_or_humiliation": 190,
+    "care_belonging_protection": 133,
+    "justice_reversal_payoff": 17,
+    "romance_bond_or_coercion": 14,
+    "lore_mythology_density": 344,
+    "threat_or_violence": 286
+  },
+  "first_signal_occurrences": {
+    "wound_or_humiliation": {
+      "time": 59.12,
+      "text": "Some wolves are violent killers, yes,"
+    },
+    "care_belonging_protection": {
+      "time": 68.08,
+      "text": "shouldn't belong to humans alone. Nature"
+    },
+    "justice_reversal_payoff": {
+      "time": 241.68,
+      "text": "punishment?"
+    },
+    "romance_bond_or_coercion": {
+      "time": 236.64,
+      "text": "You dared marry a human? Hand over that"
+    },
+    "lore_mythology_density": {
+      "time": 38.239,
+      "text": "Congratulations, Kalin. Your alpha blood"
+    },
+    "threat_or_violence": {
+      "time": 38.239,
+      "text": "Congratulations, Kalin. Your alpha blood"
+    }
+  },
+  "care_after_wound_latency_seconds": 8.96,
+  "final_10_minutes_signal_counts": {
+    "wound_or_humiliation": 10,
+    "care_belonging_protection": 21,
+    "justice_reversal_payoff": 3,
+    "romance_bond_or_coercion": 1,
+    "lore_mythology_density": 42,
+    "threat_or_violence": 14
+  },
+  "windows": [
+    {
+      "start": 0,
+      "end": 300,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 17,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 7,
+        "threat_or_violence": 13
+      },
+      "dialogue_words": 626,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.25462740316987037,
+        "saturation": 0.4130665492887298,
+        "colorfulness": 0.34296067362030347,
+        "motion": 0.16596621502190828
+      },
+      "audio": {
+        "rms_mean": 0.05359511449933052,
+        "rms_std": 0.052389853975425164,
+        "silence_ratio": 0.22946567543212912,
+        "onsets_per_second": 5.0233333333333325
+      },
+      "evidence_snippets": [
+        {
+          "time": 0,
+          "quote": "A wild beast with a strength boosting ability. Perfect. Let's see how"
+        },
+        {
+          "time": 10,
+          "quote": "Perfect. Let's see how strong I've become. Not bad, big guy. But"
+        }
+      ]
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "signal_counts": {
+        "wound_or_humiliation": 8,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 11,
+        "threat_or_violence": 7
+      },
+      "dialogue_words": 707,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.26710099341968696,
+        "saturation": 0.39503293976187703,
+        "colorfulness": 0.37885033145546915,
+        "motion": 0.17381287679076196
+      },
+      "audio": {
+        "rms_mean": 0.060394762471939124,
+        "rms_std": 0.05792202673231562,
+        "silence_ratio": 0.19864353786079025,
+        "onsets_per_second": 5.0
+      },
+      "evidence_snippets": [
+        {
+          "time": 300,
+          "quote": "young guest to the guest room to rest and treat him well."
+        },
+        {
+          "time": 310,
+          "quote": "I never thought he would really come back. Chief, he is my"
+        }
+      ]
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "signal_counts": {
+        "wound_or_humiliation": 19,
+        "care_belonging_protection": 6,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 7,
+        "threat_or_violence": 12
+      },
+      "dialogue_words": 596,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.27282620571553706,
+        "saturation": 0.3800601925949255,
+        "colorfulness": 0.3744441090524197,
+        "motion": 0.18283524870251616
+      },
+      "audio": {
+        "rms_mean": 0.049708496499806645,
+        "rms_std": 0.050311790065219006,
+        "silence_ratio": 0.25888185740422165,
+        "onsets_per_second": 5.1866666666666665
+      },
+      "evidence_snippets": [
+        {
+          "time": 600,
+          "quote": "Who else wants to die?"
+        },
+        {
+          "time": 610,
+          "quote": "Who else wants to die? Vulgar, a lowborn pack like this doesn't"
+        }
+      ]
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "signal_counts": {
+        "wound_or_humiliation": 9,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 7,
+        "threat_or_violence": 5
+      },
+      "dialogue_words": 325,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.2764403793712457,
+        "saturation": 0.3925467058022817,
+        "colorfulness": 0.38613053105771544,
+        "motion": 0.19061656528462967
+      },
+      "audio": {
+        "rms_mean": 0.05772769699494044,
+        "rms_std": 0.04885812091330687,
+        "silence_ratio": 0.13967566423636713,
+        "onsets_per_second": 4.293333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 900,
+          "quote": "STOP MESSING AROUND. RIP THAT [ __ ] APART. [groaning]"
+        },
+        {
+          "time": 910,
+          "quote": "You dare touch her?"
+        }
+      ]
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "signal_counts": {
+        "wound_or_humiliation": 16,
+        "care_belonging_protection": 10,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 25,
+        "threat_or_violence": 33
+      },
+      "dialogue_words": 554,
+      "shot_boundaries": 5,
+      "visual": {
+        "brightness": 0.2709329174955686,
+        "saturation": 0.42144883642594017,
+        "colorfulness": 0.37652173643310866,
+        "motion": 0.17843021599575876
+      },
+      "audio": {
+        "rms_mean": 0.05382425036902229,
+        "rms_std": 0.049447077481697,
+        "silence_ratio": 0.14161171185931568,
+        "onsets_per_second": 4.9366666666666665
+      },
+      "evidence_snippets": [
+        {
+          "time": 1200,
+          "quote": "Lena, take your mother and hide behind the stone statue. No. Impossible."
+        },
+        {
+          "time": 1210,
+          "quote": "No. Impossible. How can a hybrid bastard have power like this? What"
+        }
+      ]
+    },
+    {
+      "start": 1500,
+      "end": 1800,
+      "signal_counts": {
+        "wound_or_humiliation": 8,
+        "care_belonging_protection": 15,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 26,
+        "threat_or_violence": 9
+      },
+      "dialogue_words": 681,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.2515112139036258,
+        "saturation": 0.4539570354918639,
+        "colorfulness": 0.35337951059142747,
+        "motion": 0.15619827307760714
+      },
+      "audio": {
+        "rms_mean": 0.04656542524074515,
+        "rms_std": 0.04809489060814182,
+        "silence_ratio": 0.289168782938751,
+        "onsets_per_second": 5.0600000000000005
+      },
+      "evidence_snippets": [
+        {
+          "time": 1510,
+          "quote": "Watch out. IT'S THE BACKLASH FROM HIS ALPHA POWER. HE'S ABOUT TO"
+        },
+        {
+          "time": 1520,
+          "quote": "KALIN, my child, wake up. Don't let"
+        }
+      ]
+    },
+    {
+      "start": 1800,
+      "end": 2100,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 7,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 38,
+        "threat_or_violence": 11
+      },
+      "dialogue_words": 574,
+      "shot_boundaries": 4,
+      "visual": {
+        "brightness": 0.18620442328353723,
+        "saturation": 0.47285165935754775,
+        "colorfulness": 0.2980137605716785,
+        "motion": 0.1398436886755129
+      },
+      "audio": {
+        "rms_mean": 0.0432769389046977,
+        "rms_std": 0.045965327275916935,
+        "silence_ratio": 0.2912345375604161,
+        "onsets_per_second": 4.966666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 1800,
+          "quote": "Lana, you're one of us. The pack's safety must come first. This"
+        },
+        {
+          "time": 1810,
+          "quote": "wild. I'm used to life out there. It's freer that way. They're"
+        }
+      ]
+    },
+    {
+      "start": 2100,
+      "end": 2400,
+      "signal_counts": {
+        "wound_or_humiliation": 7,
+        "care_belonging_protection": 9,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 27,
+        "threat_or_violence": 13
+      },
+      "dialogue_words": 685,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.22947451401501892,
+        "saturation": 0.39521215031544366,
+        "colorfulness": 0.33856434792280193,
+        "motion": 0.15630236357450486
+      },
+      "audio": {
+        "rms_mean": 0.050939906109124425,
+        "rms_std": 0.049804188900937636,
+        "silence_ratio": 0.2470501897818192,
+        "onsets_per_second": 5.133333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 2100,
+          "quote": "I can feel that you're more powerful than any alpha I have"
+        },
+        {
+          "time": 2120,
+          "quote": "[music] From now on, I'll teach you combat skills and how to"
+        }
+      ]
+    },
+    {
+      "start": 2400,
+      "end": 2700,
+      "signal_counts": {
+        "wound_or_humiliation": 16,
+        "care_belonging_protection": 1,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 11,
+        "threat_or_violence": 24
+      },
+      "dialogue_words": 571,
+      "shot_boundaries": 2,
+      "visual": {
+        "brightness": 0.250409972568353,
+        "saturation": 0.3614757858713468,
+        "colorfulness": 0.3577545830359062,
+        "motion": 0.165530200501283
+      },
+      "audio": {
+        "rms_mean": 0.07051769631604353,
+        "rms_std": 0.054598523474608855,
+        "silence_ratio": 0.13015039185166982,
+        "onsets_per_second": 4.72
+      },
+      "evidence_snippets": [
+        {
+          "time": 2400,
+          "quote": "them to be part of my pack. As for Vular has no"
+        },
+        {
+          "time": 2410,
+          "quote": "I'm going to the Weldw Wald Pack to rescue my mother. It'll"
+        }
+      ]
+    },
+    {
+      "start": 2700,
+      "end": 3000,
+      "signal_counts": {
+        "wound_or_humiliation": 8,
+        "care_belonging_protection": 0,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 30,
+        "threat_or_violence": 21
+      },
+      "dialogue_words": 456,
+      "shot_boundaries": 18,
+      "visual": {
+        "brightness": 0.2918377453337113,
+        "saturation": 0.3629644461969535,
+        "colorfulness": 0.35821751986940703,
+        "motion": 0.1787048740653942
+      },
+      "audio": {
+        "rms_mean": 0.05558969819297393,
+        "rms_std": 0.04981109661360582,
+        "silence_ratio": 0.11456165861117937,
+        "onsets_per_second": 4.1466666666666665
+      },
+      "evidence_snippets": [
+        {
+          "time": 2730,
+          "quote": "[sighs] Yes. Yes, you really have mastered alpha power. I'm taking that"
+        },
+        {
+          "time": 2740,
+          "quote": "Yes, you really have mastered alpha power. I'm taking that bloodline. Mona,"
+        }
+      ]
+    },
+    {
+      "start": 3000,
+      "end": 3300,
+      "signal_counts": {
+        "wound_or_humiliation": 17,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 12,
+        "threat_or_violence": 33
+      },
+      "dialogue_words": 512,
+      "shot_boundaries": 14,
+      "visual": {
+        "brightness": 0.2666321780035893,
+        "saturation": 0.3628776043156783,
+        "colorfulness": 0.3353280424575011,
+        "motion": 0.17035224224751194
+      },
+      "audio": {
+        "rms_mean": 0.04901654648904999,
+        "rms_std": 0.04931153412908316,
+        "silence_ratio": 0.19716214740176402,
+        "onsets_per_second": 5.016666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 3000,
+          "quote": "It's time for you to pay for your sins."
+        },
+        {
+          "time": 3010,
+          "quote": "It hurts. Stop. Stop you mongrel."
+        }
+      ]
+    },
+    {
+      "start": 3300,
+      "end": 3600,
+      "signal_counts": {
+        "wound_or_humiliation": 13,
+        "care_belonging_protection": 7,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 7,
+        "threat_or_violence": 12
+      },
+      "dialogue_words": 899,
+      "shot_boundaries": 5,
+      "visual": {
+        "brightness": 0.26262272358561556,
+        "saturation": 0.33712326139211657,
+        "colorfulness": 0.3526127998282512,
+        "motion": 0.17076623182743786
+      },
+      "audio": {
+        "rms_mean": 0.059593681572005154,
+        "rms_std": 0.05733059149545928,
+        "silence_ratio": 0.23206049807487508,
+        "onsets_per_second": 5.8100000000000005
+      },
+      "evidence_snippets": [
+        {
+          "time": 3300,
+          "quote": "Kalin, something's wrong. I found this"
+        },
+        {
+          "time": 3310,
+          "quote": "Kalin, something's wrong. I found this in the middle of the camp"
+        }
+      ]
+    },
+    {
+      "start": 3600,
+      "end": 3900,
+      "signal_counts": {
+        "wound_or_humiliation": 16,
+        "care_belonging_protection": 17,
+        "justice_reversal_payoff": 4,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 22,
+        "threat_or_violence": 18
+      },
+      "dialogue_words": 874,
+      "shot_boundaries": 4,
+      "visual": {
+        "brightness": 0.22180884581059215,
+        "saturation": 0.4099164168536663,
+        "colorfulness": 0.33176001208523914,
+        "motion": 0.1546922359863917
+      },
+      "audio": {
+        "rms_mean": 0.06591708759466806,
+        "rms_std": 0.05794116898129384,
+        "silence_ratio": 0.2167827202970973,
+        "onsets_per_second": 5.3100000000000005
+      },
+      "evidence_snippets": [
+        {
+          "time": 3600,
+          "quote": "Cowards. With Ken here, he'll protect us. DIDN'T YOU JUST SEE HIM"
+        },
+        {
+          "time": 3610,
+          "quote": "It's okay to be afraid. But we will win. [panting] Kalin. Kalin,"
+        }
+      ]
+    },
+    {
+      "start": 3900,
+      "end": 4200,
+      "signal_counts": {
+        "wound_or_humiliation": 7,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 24,
+        "threat_or_violence": 18
+      },
+      "dialogue_words": 399,
+      "shot_boundaries": 13,
+      "visual": {
+        "brightness": 0.24769429977983234,
+        "saturation": 0.3584450892234842,
+        "colorfulness": 0.34280665206412475,
+        "motion": 0.17540794008101027
+      },
+      "audio": {
+        "rms_mean": 0.05213935828457276,
+        "rms_std": 0.05009560820957025,
+        "silence_ratio": 0.16431043663471778,
+        "onsets_per_second": 4.366666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 3900,
+          "quote": "Congratulations, my child. You've truly mastered your alpha power. Now you understand"
+        },
+        {
+          "time": 3910,
+          "quote": "Please let me go. With blood as the guide and shadow as"
+        }
+      ]
+    },
+    {
+      "start": 4200,
+      "end": 4500,
+      "signal_counts": {
+        "wound_or_humiliation": 11,
+        "care_belonging_protection": 5,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 31,
+        "threat_or_violence": 26
+      },
+      "dialogue_words": 712,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.214622913710773,
+        "saturation": 0.4271202531953653,
+        "colorfulness": 0.32849346846342087,
+        "motion": 0.153148964724193
+      },
+      "audio": {
+        "rms_mean": 0.0696187837049365,
+        "rms_std": 0.0583983746667703,
+        "silence_ratio": 0.16714658256191803,
+        "onsets_per_second": 4.4766666666666675
+      },
+      "evidence_snippets": [
+        {
+          "time": 4200,
+          "quote": "He's on a completely different level now. It's like he's a different"
+        },
+        {
+          "time": 4210,
+          "quote": "Perfect blood, perfect body, so perfect. Lowly blood. Give me your soul"
+        }
+      ]
+    },
+    {
+      "start": 4500,
+      "end": 4800,
+      "signal_counts": {
+        "wound_or_humiliation": 8,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 10,
+        "threat_or_violence": 9
+      },
+      "dialogue_words": 363,
+      "shot_boundaries": 13,
+      "visual": {
+        "brightness": 0.2729575015604496,
+        "saturation": 0.356969628483057,
+        "colorfulness": 0.36170341432094577,
+        "motion": 0.19283227727438013
+      },
+      "audio": {
+        "rms_mean": 0.06399510117868583,
+        "rms_std": 0.05107327314714591,
+        "silence_ratio": 0.11971478113650638,
+        "onsets_per_second": 4.203333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 4500,
+          "quote": "Everyone with me. Stop him. [screaming] Winnie, don't worry about me. Hold"
+        },
+        {
+          "time": 4510,
+          "quote": "Winnie, don't worry about me. Hold the line. A bunch of filthy"
+        }
+      ]
+    },
+    {
+      "start": 4800,
+      "end": 5100,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 5,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 6,
+        "threat_or_violence": 6
+      },
+      "dialogue_words": 353,
+      "shot_boundaries": 24,
+      "visual": {
+        "brightness": 0.29769065633416175,
+        "saturation": 0.37680970065295694,
+        "colorfulness": 0.3700113798181216,
+        "motion": 0.20970905814009408
+      },
+      "audio": {
+        "rms_mean": 0.05595045716812213,
+        "rms_std": 0.0448458039201796,
+        "silence_ratio": 0.10310306927719068,
+        "onsets_per_second": 4.263333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 4800,
+          "quote": "Perfect power, boy. This is my real power. Kalin, be careful. His"
+        },
+        {
+          "time": 4810,
+          "quote": "boy. This is my real power. Kalin, be careful. His current state"
+        }
+      ]
+    },
+    {
+      "start": 5100,
+      "end": 5400,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 14,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 22,
+        "threat_or_violence": 10
+      },
+      "dialogue_words": 652,
+      "shot_boundaries": 12,
+      "visual": {
+        "brightness": 0.2715078019847473,
+        "saturation": 0.38576331153512,
+        "colorfulness": 0.3624458759029706,
+        "motion": 0.16552096095867455
+      },
+      "audio": {
+        "rms_mean": 0.054470188822597264,
+        "rms_std": 0.0542824221154054,
+        "silence_ratio": 0.2493180142541165,
+        "onsets_per_second": 4.3966666666666665
+      },
+      "evidence_snippets": [
+        {
+          "time": 5100,
+          "quote": "Kalin, you get mother father back. You dared attack my mother and"
+        },
+        {
+          "time": 5110,
+          "quote": "You dared attack my mother and sister, I'll grind you into bone"
+        }
+      ]
+    },
+    {
+      "start": 5400,
+      "end": 5700,
+      "signal_counts": {
+        "wound_or_humiliation": 7,
+        "care_belonging_protection": 7,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 21,
+        "threat_or_violence": 6
+      },
+      "dialogue_words": 628,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.21193291643323997,
+        "saturation": 0.46046859671672186,
+        "colorfulness": 0.3185396917909384,
+        "motion": 0.15213708206390342
+      },
+      "audio": {
+        "rms_mean": 0.04816725162478785,
+        "rms_std": 0.05369544078906377,
+        "silence_ratio": 0.3058183828950602,
+        "onsets_per_second": 5.043333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 5400,
+          "quote": "Unexpectedly, I, a homeless man, could actually teach the strongest alpha in"
+        },
+        {
+          "time": 5410,
+          "quote": "Master, this cup is for you. Thank you for me all these"
+        }
+      ]
+    },
+    {
+      "start": 5700,
+      "end": 5738,
+      "signal_counts": {
+        "wound_or_humiliation": 1,
+        "care_belonging_protection": 0,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 78,
+      "shot_boundaries": 1,
+      "visual": {
+        "brightness": 0.164807246014243,
+        "saturation": 0.5863306315615773,
+        "colorfulness": 0.2942536184797063,
+        "motion": 0.1404129570350051
+      },
+      "audio": {
+        "rms_mean": 0.055813901126384735,
+        "rms_std": 0.054091447964310646,
+        "silence_ratio": 0.22075923650364546,
+        "onsets_per_second": 4.801648058744472
+      },
+      "evidence_snippets": [
+        {
+          "time": 5700,
+          "quote": "You did it, my child. But this is only the beginning."
+        },
+        {
+          "time": 5710,
+          "quote": "Do you think you really won? This is not over yet. The"
+        }
+      ]
+    }
+  ],
+  "interpretation_boundaries": [
+    "Signal counts measure explicit dialogue language only; they do not prove emotional quality or causality.",
+    "Evidence snippets are short orientation quotes, not a transcript substitute.",
+    "Visual/audio metrics are low-resolution proxies and must be paired with direct viewing."
+  ],
+  "outcome": {
+    "views": 16082,
+    "published_date": "2026-07-28",
+    "age_days_at_snapshot": 122,
+    "views_per_day": 131.81967213114754,
+    "log_views_per_day": 4.8889923595893245,
+    "duration_minutes": 95.65,
+    "snapshot_date": "2026-11-26",
+    "cohort_by_age_adjusted_views": "underperforming",
+    "archive_log_vpd_median": 7.683511103153724,
+    "q1": 6.5647291773852805,
+    "q3": 9.36042020805592
+  }
+}

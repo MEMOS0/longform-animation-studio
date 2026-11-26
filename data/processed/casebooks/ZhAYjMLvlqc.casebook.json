@@ -1,0 +1,500 @@
+{
+  "video_id": "ZhAYjMLvlqc",
+  "duration_seconds": 3367,
+  "window_seconds": 300,
+  "total_signal_counts": {
+    "wound_or_humiliation": 136,
+    "care_belonging_protection": 46,
+    "justice_reversal_payoff": 31,
+    "romance_bond_or_coercion": 10,
+    "lore_mythology_density": 162,
+    "threat_or_violence": 155
+  },
+  "first_signal_occurrences": {
+    "wound_or_humiliation": {
+      "time": 9.5,
+      "text": "A weak half-breed won't last long in the"
+    },
+    "care_belonging_protection": {
+      "time": 170.59199999999998,
+      "text": "Don't worry, mommy. I'll protect you and"
+    },
+    "justice_reversal_payoff": {
+      "time": 39.7,
+      "text": "KNEEL DOWN. KNEEL DOWN. THE KING IS"
+    },
+    "romance_bond_or_coercion": {
+      "time": 46.8,
+      "text": "5 years and you found a new bride to"
+    },
+    "lore_mythology_density": {
+      "time": 11.2,
+      "text": "royal palace."
+    },
+    "threat_or_violence": {
+      "time": 23.2,
+      "text": "skin, pure blood. Nobles would pay"
+    }
+  },
+  "care_after_wound_latency_seconds": 161.09199999999998,
+  "final_10_minutes_signal_counts": {
+    "wound_or_humiliation": 11,
+    "care_belonging_protection": 4,
+    "justice_reversal_payoff": 6,
+    "romance_bond_or_coercion": 2,
+    "lore_mythology_density": 30,
+    "threat_or_violence": 21
+  },
+  "windows": [
+    {
+      "start": 0,
+      "end": 300,
+      "signal_counts": {
+        "wound_or_humiliation": 23,
+        "care_belonging_protection": 1,
+        "justice_reversal_payoff": 7,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 16,
+        "threat_or_violence": 7
+      },
+      "dialogue_words": 854,
+      "shot_boundaries": 16,
+      "visual": {
+        "brightness": 0.3173257502913475,
+        "saturation": 0.3315151082662245,
+        "colorfulness": 0.39954461049288514,
+        "motion": 0.16340205293769638
+      },
+      "audio": {
+        "rms_mean": 0.0680484801530838,
+        "rms_std": 0.04288997116188208,
+        "silence_ratio": 0.268329305589689,
+        "onsets_per_second": 5.3933333333333335
+      },
+      "evidence_snippets": [
+        {
+          "time": 0,
+          "quote": "I heard the young Prince Theodore is dying. He hasn't eaten in"
+        },
+        {
+          "time": 10,
+          "quote": "He hasn't eaten in days. A weak half-breed won't last long in"
+        }
+      ]
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "signal_counts": {
+        "wound_or_humiliation": 20,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 20,
+        "threat_or_violence": 24
+      },
+      "dialogue_words": 959,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.2954894290522983,
+        "saturation": 0.38654707066714766,
+        "colorfulness": 0.3736559687554836,
+        "motion": 0.15015891465979317
+      },
+      "audio": {
+        "rms_mean": 0.07457828596234321,
+        "rms_std": 0.044887989200651644,
+        "silence_ratio": 0.16571434422872125,
+        "onsets_per_second": 6.8966666666666665
+      },
+      "evidence_snippets": [
+        {
+          "time": 300,
+          "quote": "Nora was bought by my decree to serve [music] my son. From"
+        },
+        {
+          "time": 310,
+          "quote": "Ignored [music] by the king because of a dirty human. I'll make"
+        }
+      ]
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 5,
+        "justice_reversal_payoff": 5,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 4,
+        "threat_or_violence": 8
+      },
+      "dialogue_words": 750,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.2769330177394052,
+        "saturation": 0.422675968259573,
+        "colorfulness": 0.3866725259274244,
+        "motion": 0.13136945528599123
+      },
+      "audio": {
+        "rms_mean": 0.06604792915750295,
+        "rms_std": 0.03921102468545238,
+        "silence_ratio": 0.2413819939379045,
+        "onsets_per_second": 5.693333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 600,
+          "quote": "venom. Arrest Gath. 50 lashes. Throw him in the dungeon before Laura,"
+        },
+        {
+          "time": 610,
+          "quote": "As much as you want. [music] Theo, your claws are getting sharper,"
+        }
+      ]
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "signal_counts": {
+        "wound_or_humiliation": 14,
+        "care_belonging_protection": 9,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 33,
+        "threat_or_violence": 12
+      },
+      "dialogue_words": 1040,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.23473255582153796,
+        "saturation": 0.47703585917750996,
+        "colorfulness": 0.34694158673286435,
+        "motion": 0.12367722956618915
+      },
+      "audio": {
+        "rms_mean": 0.08088604547083378,
+        "rms_std": 0.05137386781473954,
+        "silence_ratio": 0.16343730373283089,
+        "onsets_per_second": 6.656666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 900,
+          "quote": "on my son's caretaker answers to me personally. Are we clear? Why?"
+        },
+        {
+          "time": 910,
+          "quote": "Why would he do this in front of the entire court? For"
+        }
+      ]
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "signal_counts": {
+        "wound_or_humiliation": 13,
+        "care_belonging_protection": 7,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 7,
+        "threat_or_violence": 9
+      },
+      "dialogue_words": 948,
+      "shot_boundaries": 12,
+      "visual": {
+        "brightness": 0.2454672880967458,
+        "saturation": 0.4237126468246182,
+        "colorfulness": 0.3488928747177124,
+        "motion": 0.1408525070330749
+      },
+      "audio": {
+        "rms_mean": 0.08026937916874885,
+        "rms_std": 0.04301344379782677,
+        "silence_ratio": 0.09213258785942492,
+        "onsets_per_second": 6.916666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 1200,
+          "quote": "If I don't make it, take care of Theodore. Tell him his"
+        },
+        {
+          "time": 1210,
+          "quote": "before she disappeared. He can't die. [music] Not like this. Not in"
+        }
+      ]
+    },
+    {
+      "start": 1500,
+      "end": 1800,
+      "signal_counts": {
+        "wound_or_humiliation": 7,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 9,
+        "threat_or_violence": 21
+      },
+      "dialogue_words": 972,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.2770890652978172,
+        "saturation": 0.45094120129942894,
+        "colorfulness": 0.37739231079816815,
+        "motion": 0.1275324514787644
+      },
+      "audio": {
+        "rms_mean": 0.06273751123808324,
+        "rms_std": 0.0412896690890193,
+        "silence_ratio": 0.30110387482591955,
+        "onsets_per_second": 5.8933333333333335
+      },
+      "evidence_snippets": [
+        {
+          "time": 1500,
+          "quote": "from the beginning of the the eastern bo"
+        },
+        {
+          "time": 1540,
+          "quote": "Mommy! We tried to rescue you, but the guards are too big."
+        }
+      ]
+    },
+    {
+      "start": 1800,
+      "end": 2100,
+      "signal_counts": {
+        "wound_or_humiliation": 13,
+        "care_belonging_protection": 5,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 10,
+        "threat_or_violence": 13
+      },
+      "dialogue_words": 789,
+      "shot_boundaries": 5,
+      "visual": {
+        "brightness": 0.2483359829708934,
+        "saturation": 0.5323882505608102,
+        "colorfulness": 0.34910073487088084,
+        "motion": 0.12432286748662591
+      },
+      "audio": {
+        "rms_mean": 0.06152271693572402,
+        "rms_std": 0.0409778555855155,
+        "silence_ratio": 0.31255427213893666,
+        "onsets_per_second": 5.593333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 1800,
+          "quote": "AND THE KING keeps her locked in a gilded cage instead of"
+        },
+        {
+          "time": 1810,
+          "quote": "My lords, I share your concern. The king is not himself. Ever"
+        }
+      ]
+    },
+    {
+      "start": 2100,
+      "end": 2400,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 15,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 718,
+      "shot_boundaries": 12,
+      "visual": {
+        "brightness": 0.24200187796726824,
+        "saturation": 0.4950930951411525,
+        "colorfulness": 0.3352783961345752,
+        "motion": 0.13268897891122228
+      },
+      "audio": {
+        "rms_mean": 0.06686843596398831,
+        "rms_std": 0.037580939723799625,
+        "silence_ratio": 0.16585326725103083,
+        "onsets_per_second": 6.463333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 2100,
+          "quote": "WHERE IS MY PHYSICIAN? I SAID NOW."
+        },
+        {
+          "time": 2110,
+          "quote": "YOUR MAJESTY, her pulse [music] is barely there. This toxin has already"
+        }
+      ]
+    },
+    {
+      "start": 2400,
+      "end": 2700,
+      "signal_counts": {
+        "wound_or_humiliation": 22,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 6,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 15,
+        "threat_or_violence": 36
+      },
+      "dialogue_words": 1237,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.3020052798837423,
+        "saturation": 0.37392009966075423,
+        "colorfulness": 0.40439438877006373,
+        "motion": 0.14535022904009867
+      },
+      "audio": {
+        "rms_mean": 0.08577090899149577,
+        "rms_std": 0.05019478177030881,
+        "silence_ratio": 0.0881164495781109,
+        "onsets_per_second": 7.456666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 2400,
+          "quote": "was done by a black market scribe. Cassius never signed anything. He"
+        },
+        {
+          "time": 2410,
+          "quote": "floor and she smiled. I'm going to kill her. I swear I'm"
+        }
+      ]
+    },
+    {
+      "start": 2700,
+      "end": 3000,
+      "signal_counts": {
+        "wound_or_humiliation": 8,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 11,
+        "threat_or_violence": 7
+      },
+      "dialogue_words": 937,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.2820188672840595,
+        "saturation": 0.41484442214171097,
+        "colorfulness": 0.3783967972298463,
+        "motion": 0.13472106156715505
+      },
+      "audio": {
+        "rms_mean": 0.0720965047677358,
+        "rms_std": 0.0428706215073665,
+        "silence_ratio": 0.13376614510799814,
+        "onsets_per_second": 6.826666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 2700,
+          "quote": "come naturally. It's not working. I'm too weak. You're not weak. You've"
+        },
+        {
+          "time": 2710,
+          "quote": "Not bad again. [music] This time aim at the second target. Hey,"
+        }
+      ]
+    },
+    {
+      "start": 3000,
+      "end": 3300,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 0,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 22,
+        "threat_or_violence": 14
+      },
+      "dialogue_words": 687,
+      "shot_boundaries": 8,
+      "visual": {
+        "brightness": 0.3041695137570302,
+        "saturation": 0.3687323883672555,
+        "colorfulness": 0.39226375691592696,
+        "motion": 0.14464440723105024
+      },
+      "audio": {
+        "rms_mean": 0.06847253444915016,
+        "rms_std": 0.048980933520942925,
+        "silence_ratio": 0.27201298435323995,
+        "onsets_per_second": 6.680000000000001
+      },
+      "evidence_snippets": [
+        {
+          "time": 3000,
+          "quote": "come to die personally. How noble."
+        },
+        {
+          "time": 3010,
+          "quote": "Dark corruption eats you from the inside. Even a dragon's heart can't"
+        }
+      ]
+    },
+    {
+      "start": 3300,
+      "end": 3367,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 162,
+      "shot_boundaries": 0,
+      "visual": {
+        "brightness": 0.3165103073631014,
+        "saturation": 0.3795019605938269,
+        "colorfulness": 0.38857720244903954,
+        "motion": 0.13827010706751322
+      },
+      "audio": {
+        "rms_mean": 0.06010436000568526,
+        "rms_std": 0.03493318360831056,
+        "silence_ratio": 0.18623009583161412,
+        "onsets_per_second": 7.42640398346397
+      },
+      "evidence_snippets": [
+        {
+          "time": 3300,
+          "quote": "Too slow, Leon. Oh yeah. Yeah. Stop slamming. You're going to look"
+        },
+        {
+          "time": 3310,
+          "quote": "I need six more of these to deal with your offspring. Regrets."
+        }
+      ]
+    }
+  ],
+  "interpretation_boundaries": [
+    "Signal counts measure explicit dialogue language only; they do not prove emotional quality or causality.",
+    "Evidence snippets are short orientation quotes, not a transcript substitute.",
+    "Visual/audio metrics are low-resolution proxies and must be paired with direct viewing."
+  ],
+  "outcome": {
+    "views": 10363,
+    "published_date": "2026-10-27",
+    "age_days_at_snapshot": 31,
+    "views_per_day": 334.2903225806452,
+    "log_views_per_day": 5.814996791083241,
+    "duration_minutes": 56.13333333333333,
+    "snapshot_date": "2026-11-26",
+    "cohort_by_age_adjusted_views": "underperforming",
+    "archive_log_vpd_median": 7.683511103153724,
+    "q1": 6.5647291773852805,
+    "q3": 9.36042020805592
+  }
+}

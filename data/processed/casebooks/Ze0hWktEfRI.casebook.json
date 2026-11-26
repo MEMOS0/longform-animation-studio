@@ -1,0 +1,968 @@
+{
+  "video_id": "Ze0hWktEfRI",
+  "duration_seconds": 7332,
+  "window_seconds": 300,
+  "total_signal_counts": {
+    "wound_or_humiliation": 102,
+    "care_belonging_protection": 402,
+    "justice_reversal_payoff": 241,
+    "romance_bond_or_coercion": 207,
+    "lore_mythology_density": 135,
+    "threat_or_violence": 60
+  },
+  "first_signal_occurrences": {
+    "wound_or_humiliation": {
+      "time": 47.88,
+      "text": "You're nothing but a useless cab driver."
+    },
+    "care_belonging_protection": {
+      "time": 19.12,
+      "text": "Ethan is my good friend. Of course, I'm"
+    },
+    "justice_reversal_payoff": {
+      "time": 108.0,
+      "text": "the Winchester family, the richest"
+    },
+    "romance_bond_or_coercion": {
+      "time": 29.52,
+      "text": "Bella, whose wife are you? Mine or"
+    },
+    "lore_mythology_density": {
+      "time": 44.56,
+      "text": "He's the heir of a wealthy family, and"
+    },
+    "threat_or_violence": {
+      "time": 50.64,
+      "text": "Sir, ladies, this is the operating room"
+    }
+  },
+  "care_after_wound_latency_seconds": -28.76,
+  "final_10_minutes_signal_counts": {
+    "wound_or_humiliation": 6,
+    "care_belonging_protection": 22,
+    "justice_reversal_payoff": 19,
+    "romance_bond_or_coercion": 2,
+    "lore_mythology_density": 2,
+    "threat_or_violence": 2
+  },
+  "windows": [
+    {
+      "start": 0,
+      "end": 300,
+      "signal_counts": {
+        "wound_or_humiliation": 8,
+        "care_belonging_protection": 22,
+        "justice_reversal_payoff": 10,
+        "romance_bond_or_coercion": 13,
+        "lore_mythology_density": 1,
+        "threat_or_violence": 6
+      },
+      "dialogue_words": 1070,
+      "shot_boundaries": 8,
+      "visual": {
+        "brightness": 0.4365123542646567,
+        "saturation": 0.3116027178366979,
+        "colorfulness": 0.4605320567886035,
+        "motion": 0.12979407689068465
+      },
+      "audio": {
+        "rms_mean": 0.0998356405335168,
+        "rms_std": 0.08185509238392115,
+        "silence_ratio": 0.12427159280194423,
+        "onsets_per_second": 5.510000000000001
+      },
+      "evidence_snippets": [
+        {
+          "time": 0,
+          "quote": "Bella, Grandma may not have much time. Please go see her. She"
+        },
+        {
+          "time": 10,
+          "quote": "already? I have something important to do. Ethan's grandmother is in the"
+        }
+      ]
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 27,
+        "justice_reversal_payoff": 12,
+        "romance_bond_or_coercion": 10,
+        "lore_mythology_density": 2,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 911,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.40985747193296745,
+        "saturation": 0.30154817844430604,
+        "colorfulness": 0.4373407440384229,
+        "motion": 0.14526242995945118
+      },
+      "audio": {
+        "rms_mean": 0.08544200633962949,
+        "rms_std": 0.08110805476705234,
+        "silence_ratio": 0.18228373064635045,
+        "onsets_per_second": 5.17
+      },
+      "evidence_snippets": [
+        {
+          "time": 300,
+          "quote": "Mr. Ryan, bring your wife here quickly. Your grandmother is in critical"
+        },
+        {
+          "time": 310,
+          "quote": "for me. Bella, I'm begging you. No matter what, please go see"
+        }
+      ]
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 23,
+        "justice_reversal_payoff": 5,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 938,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.40184384544690455,
+        "saturation": 0.3298566765276094,
+        "colorfulness": 0.4467034117132425,
+        "motion": 0.14144414474566777
+      },
+      "audio": {
+        "rms_mean": 0.07538719375928243,
+        "rms_std": 0.0732312522828579,
+        "silence_ratio": 0.19493460036591026,
+        "onsets_per_second": 4.97
+      },
+      "evidence_snippets": [
+        {
+          "time": 600,
+          "quote": "Am I interrupting you while you take care of your family? Bella,"
+        },
+        {
+          "time": 610,
+          "quote": "Grandma, give me a minute. Ryan, why are you here again? If"
+        }
+      ]
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "signal_counts": {
+        "wound_or_humiliation": 10,
+        "care_belonging_protection": 21,
+        "justice_reversal_payoff": 7,
+        "romance_bond_or_coercion": 6,
+        "lore_mythology_density": 3,
+        "threat_or_violence": 5
+      },
+      "dialogue_words": 815,
+      "shot_boundaries": 11,
+      "visual": {
+        "brightness": 0.25835698239505295,
+        "saturation": 0.4075615497926871,
+        "colorfulness": 0.3532717870175838,
+        "motion": 0.10772906451874102
+      },
+      "audio": {
+        "rms_mean": 0.05769095572953423,
+        "rms_std": 0.05948887042080363,
+        "silence_ratio": 0.19489466426367386,
+        "onsets_per_second": 4.6899999999999995
+      },
+      "evidence_snippets": [
+        {
+          "time": 900,
+          "quote": "Thank you for the offer, but no."
+        },
+        {
+          "time": 910,
+          "quote": "Young Master Ryan, welcome home."
+        }
+      ]
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "signal_counts": {
+        "wound_or_humiliation": 10,
+        "care_belonging_protection": 22,
+        "justice_reversal_payoff": 18,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 9,
+        "threat_or_violence": 10
+      },
+      "dialogue_words": 809,
+      "shot_boundaries": 2,
+      "visual": {
+        "brightness": 0.22217212304472922,
+        "saturation": 0.42707124225795273,
+        "colorfulness": 0.3765977864464124,
+        "motion": 0.08589743506163358
+      },
+      "audio": {
+        "rms_mean": 0.052435792579005165,
+        "rms_std": 0.05225929341589411,
+        "silence_ratio": 0.18985281668987739,
+        "onsets_per_second": 5.263333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 1200,
+          "quote": "Isn't that exactly what you're doing? Ryan, I'm warning you. This is"
+        },
+        {
+          "time": 1210,
+          "quote": "family's matriarch. This isn't a place where a useless cab driver like"
+        }
+      ]
+    },
+    {
+      "start": 1500,
+      "end": 1800,
+      "signal_counts": {
+        "wound_or_humiliation": 7,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 5,
+        "romance_bond_or_coercion": 8,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 5
+      },
+      "dialogue_words": 725,
+      "shot_boundaries": 4,
+      "visual": {
+        "brightness": 0.20256344425181547,
+        "saturation": 0.42942252884308496,
+        "colorfulness": 0.3669051214555899,
+        "motion": 0.0877355107711628
+      },
+      "audio": {
+        "rms_mean": 0.051087332881676654,
+        "rms_std": 0.05791732134918372,
+        "silence_ratio": 0.2632830206711996,
+        "onsets_per_second": 4.776666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 1500,
+          "quote": "[snorts] Ryan, you loser. How dare you hit Ethan?"
+        },
+        {
+          "time": 1510,
+          "quote": "[laughter] What right do you have to shove me?"
+        }
+      ]
+    },
+    {
+      "start": 1800,
+      "end": 2100,
+      "signal_counts": {
+        "wound_or_humiliation": 4,
+        "care_belonging_protection": 20,
+        "justice_reversal_payoff": 9,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 3,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 887,
+      "shot_boundaries": 0,
+      "visual": {
+        "brightness": 0.20917261958122252,
+        "saturation": 0.421705101331075,
+        "colorfulness": 0.3638324574629466,
+        "motion": 0.07748075637733563
+      },
+      "audio": {
+        "rms_mean": 0.06060619124521812,
+        "rms_std": 0.06415937754015127,
+        "silence_ratio": 0.21382028071325196,
+        "onsets_per_second": 4.793333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 1800,
+          "quote": "and relatives, so listen carefully. For 5 years of marriage, this loser"
+        },
+        {
+          "time": 1810,
+          "quote": "EACH OTHER. WHATEVER HAPPENS TO HIM IN THE FUTURE, GOOD OR BAD,"
+        }
+      ]
+    },
+    {
+      "start": 2100,
+      "end": 2400,
+      "signal_counts": {
+        "wound_or_humiliation": 8,
+        "care_belonging_protection": 8,
+        "justice_reversal_payoff": 5,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 7,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 729,
+      "shot_boundaries": 2,
+      "visual": {
+        "brightness": 0.2120282696435849,
+        "saturation": 0.42079860920707385,
+        "colorfulness": 0.3507734831174215,
+        "motion": 0.07896957597152018
+      },
+      "audio": {
+        "rms_mean": 0.05170285621037086,
+        "rms_std": 0.05971219278872013,
+        "silence_ratio": 0.23295923104229815,
+        "onsets_per_second": 4.123333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 2100,
+          "quote": "The heiress of the Walker family? Then why are you with a"
+        },
+        {
+          "time": 2110,
+          "quote": "If she's a wealthy heiress, then I'm the Winchester heir. Bella, don't"
+        }
+      ]
+    },
+    {
+      "start": 2400,
+      "end": 2700,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 34,
+        "justice_reversal_payoff": 14,
+        "romance_bond_or_coercion": 12,
+        "lore_mythology_density": 5,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 929,
+      "shot_boundaries": 3,
+      "visual": {
+        "brightness": 0.19735236992438634,
+        "saturation": 0.38756100080907346,
+        "colorfulness": 0.3466483803093433,
+        "motion": 0.08533630466088653
+      },
+      "audio": {
+        "rms_mean": 0.06527113982786735,
+        "rms_std": 0.062307674592981734,
+        "silence_ratio": 0.16766472788837009,
+        "onsets_per_second": 5.383333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 2400,
+          "quote": "Ethan. Ethan, are you okay? Uncle Vic,"
+        },
+        {
+          "time": 2410,
+          "quote": "Uncle Vic, please stop hitting Ethan. He only said those things because"
+        }
+      ]
+    },
+    {
+      "start": 2700,
+      "end": 3000,
+      "signal_counts": {
+        "wound_or_humiliation": 9,
+        "care_belonging_protection": 12,
+        "justice_reversal_payoff": 11,
+        "romance_bond_or_coercion": 11,
+        "lore_mythology_density": 10,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 1006,
+      "shot_boundaries": 2,
+      "visual": {
+        "brightness": 0.21785904039939244,
+        "saturation": 0.38080451811353366,
+        "colorfulness": 0.3783273909986019,
+        "motion": 0.07282626388594508
+      },
+      "audio": {
+        "rms_mean": 0.06409328725809853,
+        "rms_std": 0.06330334270993869,
+        "silence_ratio": 0.17845259550531117,
+        "onsets_per_second": 5.283333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 2700,
+          "quote": "With your promise, my father and I won't have to keep begging"
+        },
+        {
+          "time": 2710,
+          "quote": "hands. Don't worry, Uncle Victor, but I have one condition. After I"
+        }
+      ]
+    },
+    {
+      "start": 3000,
+      "end": 3300,
+      "signal_counts": {
+        "wound_or_humiliation": 4,
+        "care_belonging_protection": 6,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 995,
+      "shot_boundaries": 14,
+      "visual": {
+        "brightness": 0.3373328940570354,
+        "saturation": 0.37941847833494347,
+        "colorfulness": 0.4380140230556329,
+        "motion": 0.13820086367117862
+      },
+      "audio": {
+        "rms_mean": 0.06719741094857454,
+        "rms_std": 0.06867632890741031,
+        "silence_ratio": 0.25764861691379265,
+        "onsets_per_second": 5.153333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 3000,
+          "quote": "Don't worry. The maid of honor spot is yours. [laughter] [snorts]"
+        },
+        {
+          "time": 3010,
+          "quote": "Ella, you haven't officially married"
+        }
+      ]
+    },
+    {
+      "start": 3300,
+      "end": 3600,
+      "signal_counts": {
+        "wound_or_humiliation": 1,
+        "care_belonging_protection": 28,
+        "justice_reversal_payoff": 6,
+        "romance_bond_or_coercion": 13,
+        "lore_mythology_density": 6,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 1183,
+      "shot_boundaries": 19,
+      "visual": {
+        "brightness": 0.4363007761041323,
+        "saturation": 0.37752992348124587,
+        "colorfulness": 0.4765050165355206,
+        "motion": 0.13953617957110206
+      },
+      "audio": {
+        "rms_mean": 0.08040594930450122,
+        "rms_std": 0.07215720402697721,
+        "silence_ratio": 0.18657976297752654,
+        "onsets_per_second": 5.34
+      },
+      "evidence_snippets": [
+        {
+          "time": 3300,
+          "quote": "Bella? What are you doing here?"
+        },
+        {
+          "time": 3310,
+          "quote": "Bella? What are you doing here? Miss Ella, do you realize what"
+        }
+      ]
+    },
+    {
+      "start": 3600,
+      "end": 3900,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 20,
+        "justice_reversal_payoff": 12,
+        "romance_bond_or_coercion": 17,
+        "lore_mythology_density": 11,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 1130,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.35922762895623844,
+        "saturation": 0.4800999441246192,
+        "colorfulness": 0.4092129375537237,
+        "motion": 0.10835466754001875
+      },
+      "audio": {
+        "rms_mean": 0.07417189801732699,
+        "rms_std": 0.07033088319003582,
+        "silence_ratio": 0.20670994784413313,
+        "onsets_per_second": 5.343333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 3600,
+          "quote": "Even Ethan and Mia would have to flatter me. It's so unfair."
+        },
+        {
+          "time": 3610,
+          "quote": "me? Am I really only good enough for men like Ryan and"
+        }
+      ]
+    },
+    {
+      "start": 3900,
+      "end": 4200,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 15,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 13,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 1238,
+      "shot_boundaries": 2,
+      "visual": {
+        "brightness": 0.26703375279903413,
+        "saturation": 0.5461384470264117,
+        "colorfulness": 0.39798793544371924,
+        "motion": 0.09768776232376694
+      },
+      "audio": {
+        "rms_mean": 0.07898129671812057,
+        "rms_std": 0.0701737329363823,
+        "silence_ratio": 0.16779375221867235,
+        "onsets_per_second": 5.38
+      },
+      "evidence_snippets": [
+        {
+          "time": 3900,
+          "quote": "important to tell you. From the way she's talking, she still has"
+        },
+        {
+          "time": 3910,
+          "quote": "because I know her very well. Her family background is decent, but"
+        }
+      ]
+    },
+    {
+      "start": 4200,
+      "end": 4500,
+      "signal_counts": {
+        "wound_or_humiliation": 1,
+        "care_belonging_protection": 12,
+        "justice_reversal_payoff": 16,
+        "romance_bond_or_coercion": 9,
+        "lore_mythology_density": 11,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 848,
+      "shot_boundaries": 4,
+      "visual": {
+        "brightness": 0.27226738808055717,
+        "saturation": 0.5655567905306816,
+        "colorfulness": 0.378778447608153,
+        "motion": 0.10565242703693609
+      },
+      "audio": {
+        "rms_mean": 0.05341380294412375,
+        "rms_std": 0.05722776434073846,
+        "silence_ratio": 0.2708346986701619,
+        "onsets_per_second": 4.5600000000000005
+      },
+      "evidence_snippets": [
+        {
+          "time": 4200,
+          "quote": "do you really intend to end your friendship with all three of"
+        },
+        {
+          "time": 4210,
+          "quote": "Ryan, it's not that simple. You may not think much of those"
+        }
+      ]
+    },
+    {
+      "start": 4500,
+      "end": 4800,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 11,
+        "justice_reversal_payoff": 9,
+        "romance_bond_or_coercion": 10,
+        "lore_mythology_density": 8,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 733,
+      "shot_boundaries": 16,
+      "visual": {
+        "brightness": 0.37951390229165555,
+        "saturation": 0.38759550914789237,
+        "colorfulness": 0.4173326177398364,
+        "motion": 0.12471596490126104
+      },
+      "audio": {
+        "rms_mean": 0.0498781676714619,
+        "rms_std": 0.05732437154899041,
+        "silence_ratio": 0.3377054831927036,
+        "onsets_per_second": 4.406666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 4500,
+          "quote": "Ryan just said he's working here part-time as a waiter. Didn't he"
+        },
+        {
+          "time": 4510,
+          "quote": "I get it. Can't you see? Mrs. Bella still doesn't know Ryan"
+        }
+      ]
+    },
+    {
+      "start": 4800,
+      "end": 5100,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 32,
+        "justice_reversal_payoff": 10,
+        "romance_bond_or_coercion": 14,
+        "lore_mythology_density": 6,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 725,
+      "shot_boundaries": 19,
+      "visual": {
+        "brightness": 0.40670611006518204,
+        "saturation": 0.35876361255844436,
+        "colorfulness": 0.4600481176873048,
+        "motion": 0.1487612036988139
+      },
+      "audio": {
+        "rms_mean": 0.06102360545968016,
+        "rms_std": 0.05874355784617365,
+        "silence_ratio": 0.10070826847983397,
+        "onsets_per_second": 4.88
+      },
+      "evidence_snippets": [
+        {
+          "time": 4800,
+          "quote": "master Ryan sent is waiting outside. There's no rush. Ryan already told"
+        },
+        {
+          "time": 4810,
+          "quote": "After all, the true leading lady always makes the final entrance, doesn't"
+        }
+      ]
+    },
+    {
+      "start": 5100,
+      "end": 5400,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 7,
+        "justice_reversal_payoff": 5,
+        "romance_bond_or_coercion": 17,
+        "lore_mythology_density": 4,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 691,
+      "shot_boundaries": 4,
+      "visual": {
+        "brightness": 0.43618745734294256,
+        "saturation": 0.3310126025478045,
+        "colorfulness": 0.4205118588109811,
+        "motion": 0.1254474529220412
+      },
+      "audio": {
+        "rms_mean": 0.05285283174986641,
+        "rms_std": 0.06280819959938526,
+        "silence_ratio": 0.22240551869146116,
+        "onsets_per_second": 4.04
+      },
+      "evidence_snippets": [
+        {
+          "time": 5100,
+          "quote": "heir publicly cancel the engagement? Is the ceremony even going to continue?"
+        },
+        {
+          "time": 5110,
+          "quote": "Bella. Why she dressed like that?"
+        }
+      ]
+    },
+    {
+      "start": 5400,
+      "end": 5700,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 8,
+        "justice_reversal_payoff": 27,
+        "romance_bond_or_coercion": 4,
+        "lore_mythology_density": 20,
+        "threat_or_violence": 3
+      },
+      "dialogue_words": 778,
+      "shot_boundaries": 11,
+      "visual": {
+        "brightness": 0.43067854846517245,
+        "saturation": 0.3408179484307766,
+        "colorfulness": 0.4370735736687978,
+        "motion": 0.11642011637799442
+      },
+      "audio": {
+        "rms_mean": 0.05920409004514416,
+        "rms_std": 0.061291961620251335,
+        "silence_ratio": 0.1718317358892439,
+        "onsets_per_second": 4.9
+      },
+      "evidence_snippets": [
+        {
+          "time": 5400,
+          "quote": "now that those irrelevant people won't disturb us anymore, can we continue"
+        },
+        {
+          "time": 5410,
+          "quote": "don't you want to know who I am? You're the Winchester heir."
+        }
+      ]
+    },
+    {
+      "start": 5700,
+      "end": 6000,
+      "signal_counts": {
+        "wound_or_humiliation": 1,
+        "care_belonging_protection": 21,
+        "justice_reversal_payoff": 22,
+        "romance_bond_or_coercion": 7,
+        "lore_mythology_density": 20,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 811,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.33920470441381134,
+        "saturation": 0.35707392960786816,
+        "colorfulness": 0.4405322966972987,
+        "motion": 0.1248015403188765
+      },
+      "audio": {
+        "rms_mean": 0.06632967094580332,
+        "rms_std": 0.06506751434256633,
+        "silence_ratio": 0.16736196444662899,
+        "onsets_per_second": 4.96
+      },
+      "evidence_snippets": [
+        {
+          "time": 5700,
+          "quote": "You impersonated the groom and wrecked the wedding. Mr. Gavin will never"
+        },
+        {
+          "time": 5710,
+          "quote": "MR. GAVIN, perfect timing. This bastard just wore a mask and impersonated"
+        }
+      ]
+    },
+    {
+      "start": 6000,
+      "end": 6300,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 16,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 18,
+        "lore_mythology_density": 3,
+        "threat_or_violence": 3
+      },
+      "dialogue_words": 984,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.4944502192735672,
+        "saturation": 0.3180819660425186,
+        "colorfulness": 0.44455275242527326,
+        "motion": 0.12218081860182185
+      },
+      "audio": {
+        "rms_mean": 0.07230876392374436,
+        "rms_std": 0.07163372548917929,
+        "silence_ratio": 0.21409539608421396,
+        "onsets_per_second": 5.333333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 6000,
+          "quote": "How could this happen? The husband I've always dreamed of marrying is"
+        },
+        {
+          "time": 6010,
+          "quote": "No, how can this be happening? I told you before that I"
+        }
+      ]
+    },
+    {
+      "start": 6300,
+      "end": 6600,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 11,
+        "justice_reversal_payoff": 9,
+        "romance_bond_or_coercion": 12,
+        "lore_mythology_density": 4,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 960,
+      "shot_boundaries": 21,
+      "visual": {
+        "brightness": 0.3769687509040038,
+        "saturation": 0.3525448679241041,
+        "colorfulness": 0.44497240832696355,
+        "motion": 0.15417572749468186
+      },
+      "audio": {
+        "rms_mean": 0.07153052687644959,
+        "rms_std": 0.07128969219823679,
+        "silence_ratio": 0.18371323830589006,
+        "onsets_per_second": 5.180000000000001
+      },
+      "evidence_snippets": [
+        {
+          "time": 6300,
+          "quote": "bad, in wealth and poverty, in sickness and in health? I do."
+        },
+        {
+          "time": 6310,
+          "quote": "this is the ring Grandma left for you. Today, I'll place it"
+        }
+      ]
+    },
+    {
+      "start": 6600,
+      "end": 6900,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 5,
+        "justice_reversal_payoff": 10,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 1022,
+      "shot_boundaries": 17,
+      "visual": {
+        "brightness": 0.3258741817623377,
+        "saturation": 0.4643088686962923,
+        "colorfulness": 0.39365134507417676,
+        "motion": 0.12772478844970464
+      },
+      "audio": {
+        "rms_mean": 0.07576469810058674,
+        "rms_std": 0.07082212654252847,
+        "silence_ratio": 0.20998504956172687,
+        "onsets_per_second": 4.78
+      },
+      "evidence_snippets": [
+        {
+          "time": 6600,
+          "quote": "pretend to still be my husband? Just let Grandpa enjoy his birthday."
+        },
+        {
+          "time": 6610,
+          "quote": "treated me very well. All right. Just this once."
+        }
+      ]
+    },
+    {
+      "start": 6900,
+      "end": 7200,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 12,
+        "justice_reversal_payoff": 9,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 1,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 1204,
+      "shot_boundaries": 10,
+      "visual": {
+        "brightness": 0.32173178712526956,
+        "saturation": 0.4569184050460657,
+        "colorfulness": 0.3855592172344526,
+        "motion": 0.1105786316942734
+      },
+      "audio": {
+        "rms_mean": 0.07929616644978524,
+        "rms_std": 0.0695574173082908,
+        "silence_ratio": 0.18316130089293028,
+        "onsets_per_second": 4.86
+      },
+      "evidence_snippets": [
+        {
+          "time": 6900,
+          "quote": "Impossible. That custom luxury car cost at least several hundred thousand dollars."
+        },
+        {
+          "time": 6910,
+          "quote": "Exactly. You must have borrowed it just to show off. You don't"
+        }
+      ]
+    },
+    {
+      "start": 7200,
+      "end": 7332,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 6,
+        "justice_reversal_payoff": 5,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 1,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 485,
+      "shot_boundaries": 6,
+      "visual": {
+        "brightness": 0.3490144534834793,
+        "saturation": 0.44036454201809,
+        "colorfulness": 0.4056062349251338,
+        "motion": 0.13795131173517022
+      },
+      "audio": {
+        "rms_mean": 0.07456318462001425,
+        "rms_std": 0.0658483509240406,
+        "silence_ratio": 0.1407879957914189,
+        "onsets_per_second": 4.8290067507850845
+      },
+      "evidence_snippets": [
+        {
+          "time": 7200,
+          "quote": "you is? Ryan's full name is Ryan Winchester. He's the young master"
+        },
+        {
+          "time": 7210,
+          "quote": "group. And you dared insult him. What? That's impossible. I'm sorry, Ryan."
+        }
+      ]
+    }
+  ],
+  "interpretation_boundaries": [
+    "Signal counts measure explicit dialogue language only; they do not prove emotional quality or causality.",
+    "Evidence snippets are short orientation quotes, not a transcript substitute.",
+    "Visual/audio metrics are low-resolution proxies and must be paired with direct viewing."
+  ],
+  "outcome": {
+    "views": 345527,
+    "published_date": "2026-10-10",
+    "age_days_at_snapshot": 48,
+    "views_per_day": 7198.479166666667,
+    "log_views_per_day": 8.881763964424668,
+    "duration_minutes": 122.21666666666667,
+    "snapshot_date": "2026-11-26",
+    "cohort_by_age_adjusted_views": "middle",
+    "archive_log_vpd_median": 7.683511103153724,
+    "q1": 6.5647291773852805,
+    "q3": 9.36042020805592
+  }
+}
