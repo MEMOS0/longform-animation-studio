@@ -3,6 +3,42 @@
   "note": "Derived evidence only; contact sheets are sampled visual inspection, not continuous frame-by-frame viewing.",
   "files": [
     {
+      "path": "evidence/research/hitlow_media_analysis/D5XuYx6HY-8/ending_audio.mp3",
+      "sha256": "c6f6abd9584ab886ad29ed2c651599ad009cad5aca4d91d6d14a3793045ad9a3",
+      "bytes": 1657420,
+      "provenance": "derived hit/low media analysis artifacts; source copyrighted media not committed"
+    },
+    {
+      "path": "evidence/research/hitlow_media_analysis/D5XuYx6HY-8/ending_sheet.jpg",
+      "sha256": "2bd74a7ee2d1feb89ca16c65fb8bee024db547d1b13cbe79c7e8521ebb62deed",
+      "bytes": 52085,
+      "provenance": "derived hit/low media analysis artifacts; source copyrighted media not committed"
+    },
+    {
+      "path": "evidence/research/hitlow_media_analysis/D5XuYx6HY-8/fullfilm_sheet.jpg",
+      "sha256": "a35ba969586188d642763d7cf3d089afc61ad35cc053054a25904186b56eb819",
+      "bytes": 113312,
+      "provenance": "derived hit/low media analysis artifacts; source copyrighted media not committed"
+    },
+    {
+      "path": "evidence/research/hitlow_media_analysis/D5XuYx6HY-8/middle_audio.mp3",
+      "sha256": "f245007b09a55e8480cc864cde641d47d20dd2959bf69865642ced721ff4b08d",
+      "bytes": 1570211,
+      "provenance": "derived hit/low media analysis artifacts; source copyrighted media not committed"
+    },
+    {
+      "path": "evidence/research/hitlow_media_analysis/D5XuYx6HY-8/opening_audio.mp3",
+      "sha256": "41e1acdad48d5d32551675408aec08b6648ef7bdaa5b2d2c9f92fe55d00a2d9c",
+      "bytes": 1665314,
+      "provenance": "derived hit/low media analysis artifacts; source copyrighted media not committed"
+    },
+    {
+      "path": "evidence/research/hitlow_media_analysis/D5XuYx6HY-8/opening_sheet.jpg",
+      "sha256": "050269e85d9902d0afe039a0b9a393a3bb7699ee2b07197d31fabb20e53a1081",
+      "bytes": 46994,
+      "provenance": "derived hit/low media analysis artifacts; source copyrighted media not committed"
+    },
+    {
       "path": "evidence/research/hitlow_media_analysis/iIRlJpJE7XM/ending_audio.mp3",
       "sha256": "b0e0ba84199e492d5caff145ac66aa996344b1b934c99d6a386b768507f47d5d",
       "bytes": 1433665,

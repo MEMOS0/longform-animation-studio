@@ -112,6 +112,28 @@ Failure mechanism hypothesis:
 - More plausible friction: sequel/part-II entry barrier, thumbnail that sells franchise/western atmosphere rather than memory/love paradox, dense mythic narration before embodied relational payoff, and possible language/auto-dub mismatch with English packaging.
 - The key lesson is diagnostic separation: low views do not prove weak story. Packaging, series position, language mismatch, and audience expectation can suppress discovery even when the underlying emotional engine is strong.
 
+## Aethernal same-franchise comparison: Act II breakout versus Act I slower atmospheric opening
+
+`31-p_UcMgOs` Act II and `D5XuYx6HY-8` Act I are especially useful because they share franchise, world, channel, and broad dark-fantasy production style. Act II reached about 900k views/day in the first 4 days; Act I reached about 10.9k views/day over 48 days. This is still observational and confounded by sequel momentum, channel growth, runtime, and packaging, but the creative difference is direct.
+
+### Act I opening/middle/ending evidence
+
+- Opening sheet: atmospheric boats, harbor mud, adult traders/laborers, market/expedition movement. A corpse-like detail appears in the environment, but no child, vulnerable anchor, protector, or immediate relational wound is established.
+- Opening audio: eerie choral music and wind dominate for more than a minute. First sampled dialogue at about 01:19: “No dawdling, gentlemen! Time is money, and the money is waiting for you far away in the East.”
+- Middle sheets: adult travelers, forest expedition, eating/resting, tree cutting, armored elf-like figures, threat escalation. The atmosphere is strong, but the initial dramatic question concerns adult commerce/expedition risk rather than protection of someone specific.
+- Ending sheets: elf ruler/court imagery, dark creature reveal, white-haired corrupted figure, reaching hand, explicit “END OF ACT I.” Ending audio is mechanical/industrial tension with no clear dialogue payoff in the sampled final window.
+
+### Act II contrast
+
+Already analyzed in `knowledge/market/fifth-pass-breakout-media-deep-dive.md`: Act II's visual package and opening imagery foreground a child, dog/protector presence, ordinary village labor, rot monsters, and survival threat. It is shorter (19:49 versus 33:49) and more compressed, but the decisive difference is not just runtime. The emotional object is easier to understand: vulnerable child/community under immediate corruption threat.
+
+### Comparative conclusion
+
+- Same franchise does not mean same emotional contract. Act I sells atmospheric adult dark-fantasy mystery; Act II sells vulnerable child/community survival.
+- The breakout is consistent with the broader mechanism: legible vulnerable anchor + visible threat + protective relational presence + compressed escalation.
+- Act I should not be called a failure in absolute terms (523k views is substantial), but within-channel it is much weaker age-adjusted discovery. Its slower atmospheric opening and explicit act-break ending are friction points for standalone discovery.
+- This comparison strengthens the failure pattern that adult expedition/commerce/atmospheric lore is weaker than embodied vulnerable stakes, while also showing that franchise continuation can amplify a stronger second act.
+
 ## Cross-low comparative conclusions
 
 1. **Strong opening action is not enough.** `KNqzfxEXVhw` shows a giant snake almost immediately but remains emotionally flat because the victims and rescuer have no relationship.
