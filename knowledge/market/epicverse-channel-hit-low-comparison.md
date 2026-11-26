@@ -14,3 +14,7 @@ Evidence status: exact flat-playlist titles/view counts plus deep sampled audiov
 4. Psychology-of-love uploads suggest channel-topic inconsistency or experimentation; they should not be grouped with fantasy films in causal comparisons.
 
 Next evidence needed: exact upload dates/durations/subscriber counts per video, thumbnail hit/mid/low montage, and one low fantasy video full audiovisual comparison against the hit.
+
+## Thumbnail/packaging update
+
+Direct montage inspection now supports a packaging hypothesis: the hit uses one quiet vertical giant-infant protective composition, while lower-performing examples lean toward versus spectacle, clutter, or franchise/prologue labeling. See `knowledge/market/epicverse-thumbnail-hit-low-analysis.md`; no CTR causality is claimed.
