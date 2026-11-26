@@ -77,6 +77,8 @@ Mechanism: **coerced substitution bride → negotiated material agency → harml
 
 Strategic importance: creature romance can easily become coercive or aesthetically empty. This hit instead uses the animal form to create safety and caregiving before power is revealed, then explicitly repairs the consent violation at the end. This is a major craft rule for future romance/fantasy contracts.
 
+Middle validation update: sampled full-runtime contact-sheet inspection plus subtitle windows shows that the film alternates intimacy, material restitution, political coercion, and military escalation rather than relying only on alpha reveal. Around `00:10` gifts/jewelry establish courtship surface; around `00:20` the heroine resists confusing intimacy and asks for time; around `00:30` attraction is complicated by distrust of “pretty lines”; around `00:40` she explicitly names the core wound—she was traded for protection and does not want to remain a bargaining chip; around `00:50` the story shifts into gate/garrison/border-lord logistics; around `00:60` forced marriage becomes physically coercive (“soldiers to hold your bride down”) before the public reversal. Contact-sheet evidence shows repeated intimate closeups, deed/income documents, door/threshold blocking, command interiors, and public reinforcements. The crucial pattern is that emotional consent and material agency remain active even when the plot becomes political.
+
 ## `ylN26llRtmw` — high-concept sci-fi still runs on relational trust
 
 Opening subtitle evidence:
@@ -100,6 +102,8 @@ Visual evidence: opening combines large-scale explosion/air war with intimate ch
 Mechanism: **technological apocalypse → parent abduction → rescue/alliance with mistrusted machine → machine personhood → false machine-blame exposed → sky/safety reversal**. Despite sci-fi packaging, it uses the same core as creature protection: a feared nonhuman entity becomes legible through care, vulnerability, and trust.
 
 Strategic importance: this falsifies a simplistic “creature fantasy only” rule. The transferable mechanism is not dragons; it is **misunderstood nonhuman personhood bonded to a vulnerable human goal**. The channel’s creature audience can cross into sci-fi when the relational mechanics remain intact.
+
+Middle validation update: sampled full-runtime contact-sheet inspection plus subtitle windows confirms the middle is an escalating trust/personhood chain. At `00:08` Ezra chooses alliance because he wants Cross to lose and because he used to repair the Collectors; at `00:16` hunter Rhea complicates morality because Cross gave her a home after she was wiped; at `00:24` the wiped underclass in mines reveals the human cost beneath Eden's paradise; at `00:32` Cross admits he ended the old world and blamed the machine, while Ezra's distributed mind explains why Collectors are failing. Contact-sheet evidence alternates desert pursuit, machine repair/companionship, destroyed-city scale, mine labor, father/daughter recognition, the physical “EZRA” nameplate, machine eyes, glass tower confrontation, and community aftermath. The visual spectacle is consistently tied to who controls memory, names, labor, and personhood.
 
 ## `62vBW1_B92Y` — faith reversal as a distinct melodrama contract
 
