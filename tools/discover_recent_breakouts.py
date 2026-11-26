@@ -109,9 +109,11 @@ def main() -> None:
         enriched.append(row)
         time.sleep(0.2)
     out = ROOT / "data" / "processed" / "recent_breakout_candidates.json"
+    carryover = []
     if out.exists():
         try:
-            prior = json.loads(out.read_text(encoding="utf-8")).get("candidates", [])
+            payload = json.loads(out.read_text(encoding="utf-8"))
+            prior = payload.get("candidates", []) + payload.get("carryover_candidates", [])
         except Exception:
             prior = []
         by_id = {row.get("video_id"): row for row in prior if row.get("video_id")}
@@ -121,8 +123,23 @@ def main() -> None:
             existing.update(row)
             existing["queries"] = merged_queries
             by_id[row["video_id"]] = existing
-        enriched = sorted(by_id.values(), key=lambda row: -(row.get("views_per_day_estimate") or 0))
-    out.write_text(json.dumps({"collected_at": now.isoformat(), "days": args.days, "candidates": enriched}, ensure_ascii=False, indent=2), encoding="utf-8")
+        current_rows = []
+        for row in by_id.values():
+            uploaded_ms = row.get("uploaded_ms")
+            if isinstance(uploaded_ms, (int, float)):
+                age_days = max(0.25, (now.timestamp() - uploaded_ms / 1000) / 86400)
+                row["age_days_at_collection"] = round(age_days, 2)
+                views = row.get("total_views") or row.get("search_views") or 0
+                row["views_per_day_estimate"] = round(views / age_days, 1)
+                if uploaded_ms / 1000 < cutoff:
+                    row["archive_status"] = "outside_requested_window"
+                    carryover.append(row)
+                    continue
+            row["archive_status"] = "in_requested_window"
+            current_rows.append(row)
+        enriched = sorted(current_rows, key=lambda row: -(row.get("views_per_day_estimate") or 0))
+        carryover = sorted(carryover, key=lambda row: -(row.get("views_per_day_estimate") or 0))
+    out.write_text(json.dumps({"collected_at": now.isoformat(), "days": args.days, "candidates": enriched, "carryover_candidates": carryover}, ensure_ascii=False, indent=2), encoding="utf-8")
     md = ROOT / "knowledge" / "market" / "recent-breakout-candidates.md"
     lines = [
         "# Recent AI-film breakout candidates",
@@ -135,8 +152,12 @@ def main() -> None:
     for r in enriched:
         dur = (r.get("duration_seconds") or r.get("duration_seconds_search") or 0) / 60
         lines.append(f"| {r['candidate_strength']} | `{r['video_id']}` | {r.get('channel') or ''} | {r.get('subscriber_count')} | {r['age_days_at_collection']:.1f} | {r.get('total_views') or r.get('search_views')} | {r['views_per_day_estimate']:.0f} | {dur:.0f}m | {', '.join(r['queries'])[:45]} | {(r.get('exact_title') or r.get('search_title') or '').replace('|','/')} |")
-    md.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print(json.dumps({"candidates": len(enriched), "queries": queries, "strong": sum(r["candidate_strength"] == "strong_lead" for r in enriched), "output": str(out)}))
+    if carryover:
+        lines.extend(["", "## Carryover archive outside the requested window", "", "| video | channel | age d | views/day now | title |", "|---|---|---:|---:|---|"])
+        for r in carryover:
+            lines.append(f"| `{r['video_id']}` | {r.get('channel') or ''} | {r.get('age_days_at_collection', 0):.1f} | {r.get('views_per_day_estimate', 0):.0f} | {(r.get('exact_title') or r.get('search_title') or '').replace('|','/')} |")
+    md.write_text(chr(10).join(lines) + chr(10), encoding="utf-8")
+    print(json.dumps({"candidates": len(enriched), "carryover": len(carryover), "queries": queries, "strong": sum(r["candidate_strength"] == "strong_lead" for r in enriched), "output": str(out)}))
 
 
 if __name__ == "__main__":
