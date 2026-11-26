@@ -130,8 +130,8 @@
       "scene_id": "S02",
       "shot_size": "decision closeup",
       "camera_intent": "static intimate",
-      "visual_action": "the creature is allowed to eat without being priced",
-      "dialogue": "Work first. We decide what she is after she eats.",
+      "visual_action": "the protagonist accepts work while refusing monetized suffering",
+      "dialogue": "Then I'll work. I won't sell her pain for a bed.",
       "sound_design": "music drops before decision",
       "generation_lane": "mid",
       "continuity_dependencies": [
@@ -190,8 +190,8 @@
       "scene_id": "S02",
       "shot_size": "subtext two-shot",
       "camera_intent": "slow lateral drift",
-      "visual_action": "food is placed within reach before permission is demanded",
-      "dialogue": "Then I'll work. I won't sell her pain for a bed.",
+      "visual_action": "the caregiver names the safe boundary before help becomes control",
+      "dialogue": "But hunger isn't a bill yet. Don't price her before she eats.",
       "sound_design": "music may form a small rhythmic motif only after work/shelter becomes chosen rather than charitable",
       "generation_lane": "mid",
       "continuity_dependencies": [

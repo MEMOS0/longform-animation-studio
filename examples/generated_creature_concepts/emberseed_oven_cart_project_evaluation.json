@@ -6333,12 +6333,12 @@
   "agency_intelligence": {
     "score_0_to_1": 1.0,
     "counts": {
-      "agency_actions": 15,
+      "agency_actions": 14,
       "competence_markers": 4,
       "passive_wound_markers": 1,
       "rescue_markers": 4,
       "circular_payoff_markers": 3,
-      "early_agency_actions": 11
+      "early_agency_actions": 10
     },
     "strengths": [
       "protagonist has repeated visible choices/actions rather than only suffering",
