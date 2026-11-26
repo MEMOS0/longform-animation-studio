@@ -186,12 +186,13 @@ def test_relational_contract_gate():
     assert evaluate_relational_contract(good)["score_0_to_1"] == 1.0
     assert evaluate_relational_contract({})["warnings"]
 
-def test_exact_storyboards_s01_s02_valid():
+def test_exact_storyboards_s01_s02_s03_valid():
     from studio.storyboard import validate_storyboard_file
-    for scene in ["S01", "S02"]:
+    expected = {"S01": 300.0, "S02": 300.0, "S03": 360.0}
+    for scene, seconds in expected.items():
         result = validate_storyboard_file(f"examples/stormglass_keepers/storyboards/{scene}_storyboard.json")
         assert result["valid"], result
-        assert result["covered_seconds"] == 300.0
+        assert result["covered_seconds"] == seconds
 
 def test_director_seed_storyboards_continuous():
     from pathlib import Path
