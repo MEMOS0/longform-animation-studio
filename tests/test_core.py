@@ -625,3 +625,9 @@ def test_creature_opening_dialogue_keeps_decision_with_protagonist():
     premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
     scene=generate_scenes(premise,generate_architecture(premise))[0]
     assert scene['dialogue_design']['key_lines'][1] == 'I will hide her first and decide who can be trusted after she is safe.'
+
+
+def test_closure_integrity_aftermath_question_presupposes_actual_collapse():
+    from studio.closure_integrity import evaluate_closure_integrity
+    arch={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"What happens after the array collapses?"}]}
+    assert any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},arch,[])['warnings'])

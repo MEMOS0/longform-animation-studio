@@ -94,9 +94,11 @@ def _is_hypothetical(text: str, position: int) -> bool:
     after = text[position:end]
     if CONDITION_RE.search(before) or CONDITION_RE.search(after):
         return True
+    if re.search(r"\b(?:after|before|when|while|as)\s+(?:the\s+)?$", before):
+        return False
     if "?" in text[start:end] and re.search(r"\b(?:will|would|could|can|what if|how|why|when|did|does|is|are)\b", before_sentence) is not None:
         return True
-    if re.search(r"\b(?:after|before|when|while|as)\s+(?:the\s+)?$", before) or re.search(r"\band\s+(?:the|a|an)\s+$", before):
+    if re.search(r"\band\s+(?:the|a|an)\s+$", before):
         return False
     if MODAL_RE.search(before) or INTENT_RE.search(before) or NEGATION_RE.search(before):
         return True
