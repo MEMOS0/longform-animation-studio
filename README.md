@@ -26,6 +26,9 @@ This repository is not a prompt collection. It is a reusable studio system for l
   - `format_strategy.py` — duration/episode/compilation-aware release-format guidance
   - `channel_contracts.py` — machine-readable audience/channel fit checks
   - `production.py` — schema validation and pre-greenlight gates for premise/architecture/scene artifacts
+  - `production_economics.py` — documented per-second generation cost scenarios and iteration-adjusted budget planning
+  - `shot_pipeline.py` — draft/mid/hero key-shot decomposition, continuity dependencies, and generation-ratio discipline
+  - `providers.py` — validated/documented AI generation provider inventory boundaries
   - `thumbnail_intelligence.py` / `thumbnail_concepts.py` — visual packaging metrics, reference classification, and original concept critique
   - `cli.py` — command-line entry points
 - `tools/download_piped_archive.py` — provenance-preserving media/subtitle acquisition through a configurable Piped-compatible public API
@@ -100,9 +103,26 @@ python -m studio.cli evaluate-project \
   --output examples/stormglass_keepers/evaluation.json
 ```
 
+## Expanded market evidence status
+
+The system now extends beyond Nov Drama into Epic AI Films, Ironcrest, FablePop, RIFTBORN, The Next Show, Korean/Crateh microdrama, and recent low-subscriber breakout channels. Durable entry points:
+
+- `knowledge/market/ironcrest-deep-dive.md`
+- `knowledge/market/epic-deep-dive.md`
+- `knowledge/market/cross-channel-hit-failure-deep-dives.md`
+- `knowledge/market/recent-breakout-media-deep-dive.md`
+- `knowledge/market/breakout-within-channel-media-comparison.md`
+- `knowledge/market/format-duration-performance.md`
+- `knowledge/thumbnails/breakout-within-channel-thumbnail-comparison.md`
+- `knowledge/production/video-generation-provider-audit.md`
+- `knowledge/craft/advanced-screenplay-direction-retention.md`
+- `knowledge/craft/scene-writing-laboratory.md`
+
+Key correction from recent comparisons: strong openings are not sufficient. Minutes 1–5 must convert the hook into wound/vulnerability + protective counterforce + antagonistic pressure + payoff promise. Production evaluation machine-checks this as `opening_conversion_quality`.
+
 ## Example end-to-end project
 
-`examples/stormglass_keepers/` contains an original creature-protection feature concept generated through the studio system: premise packet, 8-sequence architecture, 8 scene-screenplay units, and `production_evaluation.json`. At the current checkpoint it passes schema validation, Failure Intelligence, format strategy, and channel-contract fit with zero structural warnings. It is a proof-of-work example for handoff, not a finished film.
+`examples/stormglass_keepers/` contains an original creature-protection feature concept generated through the studio system: premise packet, 8-sequence architecture, 8 scene-screenplay units, and `production_evaluation.json`. At the current checkpoint it passes schema validation, Failure Intelligence, opening conversion, format strategy, and channel-contract fit with zero structural warnings, and now includes a draft/mid/hero shot-pipeline plan. It is a proof-of-work example for handoff, not a finished film.
 
 ## What the system is for
 
