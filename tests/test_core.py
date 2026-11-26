@@ -697,3 +697,20 @@ def test_thumbnail_concepts_read_nested_creature_premise_fields():
     assert concepts[0]['creature_or_child_anchor']=='the moonfin child'
     assert concepts[0]['protector']
     assert concepts[0]['source_promise']==premise['audience_promise']
+
+
+def test_thumbnail_nested_extraction_preserves_cast_and_moral_stakes():
+    from studio.thumbnail_concepts import generate_concepts
+    premise={
+      "title_candidates":["Stormglass Keepers"],
+      "audience_promise":"protection and belonging",
+      "emotional_engine":{
+        "protective_counterforce":"Mira repeatedly chooses the dragon child's safety over her own exile, freedom, and revenge.",
+        "wound":"Mira is trapped by debt, housing insecurity, public shame, and the fear that survival may require exploiting someone weaker."
+      },
+      "relational_contract":{"safety_or_kindness_before_power":"Mira frees and shields the child before she knows whether it can help her, and calms it through care rather than command."}
+    }
+    concept=generate_concepts(premise)[0]
+    assert concept['creature_or_child_anchor']=='the dragon child'
+    assert concept['protector']=='Mira'
+    assert 'exploiting someone weaker' in concept['source_wound']

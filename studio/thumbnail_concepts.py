@@ -5,6 +5,7 @@ The system learns visual mechanics from reference thumbnails. It must not copy t
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -48,12 +49,32 @@ def _compact_actor_label(value: Any, default: str = "") -> str:
     actor = str(value or default).strip()
     actor = actor.split(";")[0]
     actor = actor.split(" plus ")[0]
-    actor = actor.split(" and ")[0]
     actor = actor.split(", whose")[0]
     actor = actor.split(", who")[0]
-    for marker in (" offers ", " feeds ", " gives ", " shelters ", " protects ", " uses ", " enforces "):
-        actor = actor.split(marker)[0]
-    return actor.strip() or default
+    action = re.search(r"\b(?:offers?|feeds?|gives?|shelters?|protects?|frees?|shields?|calms?|uses?|enforces?)\b", actor, flags=re.I)
+    if action:
+        actor = actor[: action.start()]
+    else:
+        actor = actor.split(" and ")[0]
+    return re.sub(r"\s+", " ", actor).strip(" ,.") or default
+
+
+def _compact_stakes(value: Any, default: str = "visible injustice") -> str:
+    stakes = str(value or default).strip().split(";")[0]
+    stakes = re.split(r"(?<=[.!?])\s+", stakes, maxsplit=1)[0]
+    return stakes.strip() or default
+
+
+def _extract_creature_anchor(value: Any) -> str:
+    text = str(value or "").strip()
+    creature_match = re.search(
+        r"\b(?:the|a|an)\s+(?:[\w-]+\s+){0,3}(?:dragon|creature|bird|wolf|mermaid|monster|child)(?:'s)?(?:\s+child|\s+creature)?\b",
+        text,
+        flags=re.I,
+    )
+    if creature_match:
+        return creature_match.group(0).replace("'s", "").strip()
+    return _compact_actor_label(text, "")
 
 
 def generate_concepts(premise: dict[str, Any], library: dict[str, list[dict[str, Any]]] | None = None) -> list[dict[str, Any]]:
@@ -67,10 +88,10 @@ def generate_concepts(premise: dict[str, Any], library: dict[str, list[dict[str,
     engine = premise.get("emotional_engine") or {}
     relational = premise.get("relational_contract") or {}
     genre = (premise.get("genre") or premise.get("channel_contract") or "emotional fantasy drama").replace("_", " ").lower()
-    creature = premise.get("creature_or_child_anchor") or premise.get("child_anchor") or _compact_actor_label(engine.get("protective_counterforce"), "")
+    creature = premise.get("creature_or_child_anchor") or premise.get("child_anchor") or _extract_creature_anchor(engine.get("protective_counterforce"))
     transformation = premise.get("transformation") or _compact_actor_label(engine.get("belonging_payoff"), "")
     protector = premise.get("protector") or _compact_actor_label(relational.get("safety_or_kindness_before_power"), "")
-    wound = premise.get("wound") or _compact_actor_label(engine.get("wound"), "visible injustice")
+    wound = premise.get("wound") or _compact_stakes(engine.get("wound"), "visible injustice")
     promise = premise.get("emotional_promise") or premise.get("audience_promise") or "reversal and belonging"
 
     concepts: list[dict[str, Any]] = []
