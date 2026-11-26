@@ -1,6 +1,7 @@
 """Relational-contract validation for creature romance/protection, social tests, and power-asymmetric bonds."""
 from __future__ import annotations
 
+import re
 from typing import Any
 
 REQUIRED_FIELDS = [
@@ -26,7 +27,7 @@ AFTER_REVEAL_PATTERNS = [
 BEFORE_REVEAL_PATTERNS = [
     "before knowing", "before learning", "before discovering", "before she knows", "before he knows",
     "before they know", "before the reveal", "before his power", "before her power", "before their power",
-    "without knowing", "unaware", "not knowing", "prior to knowing", "prior to learning", "prior to the reveal",
+    "without knowing", "unaware", "not knowing", "prior to knowing", "prior to learning", "prior to discovering", "prior to the reveal",
     "only afterward does she learn", "only afterward does he learn", "only afterward do they learn",
     "only afterward she learns", "only afterward he learns", "only afterward they learn",
     "only afterward is his identity revealed", "only afterward is her identity revealed", "only afterward is the identity revealed",
@@ -42,23 +43,31 @@ def kindness_is_before_power(text: str) -> bool:
 
 
 def denial_is_unresolved(text: str) -> bool:
-    for term in DENIAL_TERMS:
-        start = text.find(term)
-        if start < 0:
-            continue
-        end = start + len(term)
-        prefix = text[:start]
-        suffix = text[end:]
-        window = text[max(0, start - 80):end + 80]
-        positive_elsewhere = any(positive in text for positive in REPAIR_TERMS)
-        if any(marker in window for marker in PAST_MARKERS) and positive_elsewhere:
-            continue
-        if any(marker in suffix for marker in CONTRAST_MARKERS) and any(positive in suffix for positive in REPAIR_TERMS):
-            continue
-        if any(marker in prefix for marker in CONTRAST_MARKERS) and any(positive in prefix for positive in REPAIR_TERMS):
-            continue
-        return True
-    return False
+    """Track the final state of choice/freedom across ordered clauses.
+
+    Positive words inside denial phrases ("no choice", "not free") are stripped before
+    repair detection, while explicit past denials only count as repaired when a later
+    clause restores agency. A later or current denial therefore overrides earlier freedom.
+    """
+    clauses = [
+        clause.strip()
+        for clause in re.split(r"[.;]|but|however|yet|then|later|finally|ultimately|now|this time", text)
+        if clause.strip()
+    ]
+    unresolved = False
+    for clause in clauses:
+        stripped = clause
+        for term in sorted(DENIAL_TERMS, key=len, reverse=True):
+            stripped = stripped.replace(term, " ")
+        has_denial = any(term in clause for term in DENIAL_TERMS)
+        has_repair = any(positive in stripped for positive in REPAIR_TERMS)
+        explicitly_past = any(marker in clause for marker in PAST_MARKERS)
+        no_longer_denied = "no longer" in clause or "no more" in clause
+        if has_denial and not explicitly_past and not no_longer_denied:
+            unresolved = True
+        if has_repair or no_longer_denied:
+            unresolved = False
+    return unresolved
 
 
 def evaluate_relational_contract(premise: dict[str, Any]) -> dict[str, Any]:

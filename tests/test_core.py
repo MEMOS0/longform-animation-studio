@@ -257,3 +257,21 @@ def test_meaning_carrier_uses_exact_words_and_preserves_space_carrier():
     space=dict(base,object_or_space="space",final_sequence_use="returns to space")
     match=evaluate_meaning_carrier({"meaning_carrier":space},{"sequences":[{"turn":"ending","visual_setpiece":"they return to open space"}]})
     assert not any("final two architecture" in w for w in match["warnings"])
+
+
+def test_relational_contract_tracks_final_denial_state_and_prior_discovery():
+    from studio.relational_contract import evaluate_relational_contract
+    base={
+      "power_asymmetry":"king and servant",
+      "safety_or_kindness_before_power":"she shelters him prior to discovering that he is king",
+      "costly_protagonist_action":"she loses her home protecting him",
+      "consent_or_personhood_repair":"she was free to choose, but now she has no choice",
+      "payoff_image":"mutual trust"
+    }
+    result=evaluate_relational_contract({"relational_contract":base})
+    assert any("denies choice" in w for w in result["warnings"])
+    assert not any("temporally explicit" in w for w in result["warnings"])
+    repaired=dict(base,consent_or_personhood_repair="she once had no choice, but now she freely chooses")
+    assert not any("denies choice" in w for w in evaluate_relational_contract({"relational_contract":repaired})["warnings"])
+    repeated=dict(base,consent_or_personhood_repair="she once had no choice but learned trust; now she has no choice")
+    assert any("denies choice" in w for w in evaluate_relational_contract({"relational_contract":repeated})["warnings"])
