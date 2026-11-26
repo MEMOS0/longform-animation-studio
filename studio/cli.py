@@ -13,6 +13,7 @@ from .media_analysis import analyze_video
 from .production import evaluate_project
 from .release_learning import release_postmortem
 from .storyboard_production import export_manifest
+from .premise_generator import generate_and_write
 from .youtube_archive import collect
 
 
@@ -54,6 +55,12 @@ def main() -> None:
     project_p.add_argument("--archive", default="data/processed/novdrama_analysis_rows.json")
     project_p.add_argument("--output", required=True)
 
+    gen_p = sub.add_parser("generate-premises")
+    gen_p.add_argument("--output-dir", required=True)
+    gen_p.add_argument("--count", type=int, default=3)
+    gen_p.add_argument("--target-minutes", type=float, default=42)
+    gen_p.add_argument("--archive", default="data/processed/novdrama_analysis_rows.json")
+
     prompts_p = sub.add_parser("export-production-prompts")
     prompts_p.add_argument("--storyboards", required=True)
     prompts_p.add_argument("--output-dir", required=True)
@@ -92,6 +99,10 @@ def main() -> None:
         output.parent.mkdir(parents=True, exist_ok=True)
         output.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
         print(output)
+    elif args.command == "generate-premises":
+        rows = json.loads(Path(args.archive).read_text(encoding="utf-8"))
+        result = generate_and_write(Path(args.output_dir), args.count, args.target_minutes, rows)
+        print(json.dumps({"count": result["count"], "premise_ids": [row["premise_id"] for row in result["premises"]]}, indent=2))
     elif args.command == "export-production-prompts":
         result = export_manifest(Path(args.storyboards), Path(args.output_dir), args.project_id)
         print(json.dumps({"output": str(Path(args.output_dir) / "production_manifest.json"), "shot_count": result["shot_count"], "scene_count": result["scene_count"]}, indent=2))

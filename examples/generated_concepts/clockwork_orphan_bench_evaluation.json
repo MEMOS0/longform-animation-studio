@@ -1,0 +1,180 @@
+{
+  "premise_id": "clockwork_orphan_bench",
+  "failure_intelligence": {
+    "candidate": "They Made Her Eat Below Them, Until a Child Sat Beside Her",
+    "risk_score_0_to_1": 0.355,
+    "confidence": "low_until_script_and_media-evidence comparison is complete",
+    "matched_failure_patterns": [],
+    "nearest_archive_examples": [
+      {
+        "video_id": "VhZV-djnfiA",
+        "title": "She Became a Nanny to Save Her Daughter… Unaware Her Boss Was Her Child’s Father—the DRAGON LORD!",
+        "cohort": "middle",
+        "views_per_day": 2171.233333333333,
+        "themes": [
+          "dragon",
+          "family_child"
+        ],
+        "similarity": 0.07352957402737968
+      },
+      {
+        "video_id": "xJUN_KOCnME",
+        "title": "He Was Seconds Away From His 8th Championship… Until His Own Family Betrayed Him!",
+        "cohort": "underperforming",
+        "views_per_day": 492.9904761904762,
+        "themes": [
+          "family_child",
+          "modern_wealth_power"
+        ],
+        "similarity": 0.0714640286516182
+      },
+      {
+        "video_id": "0FSCS0YOgss",
+        "title": "She Raised His Son Alone for 6 Years… Never Knowing the Father Was the SEA KING!#AIStory",
+        "cohort": "outperforming",
+        "views_per_day": 15241.961538461539,
+        "themes": [
+          "family_child",
+          "royalty_status",
+          "sea_mermaid"
+        ],
+        "similarity": 0.05979109610789481
+      },
+      {
+        "video_id": "j3U5JsLvbLg",
+        "title": "Her Family Sacrificed Her to the Ocean… Now She's the SEA GOD'S QUEEN They Can Never Touch!#AIStory",
+        "cohort": "outperforming",
+        "views_per_day": 17921.0,
+        "themes": [
+          "family_child",
+          "revenge_retribution",
+          "royalty_status",
+          "sea_mermaid"
+        ],
+        "similarity": 0.04750714442405454
+      },
+      {
+        "video_id": "_I5I1l7DP3E",
+        "title": "She Sold Weapons Through a Magic Mirror… Then Accidentally Stole the WOLF KING'S FIRST KISS!#AIStory",
+        "cohort": "middle",
+        "views_per_day": 912.5555555555555,
+        "themes": [
+          "romance_mate",
+          "royalty_status",
+          "sacred_special_blood",
+          "wolf_werewolf"
+        ],
+        "similarity": 0.04548462788368519
+      },
+      {
+        "video_id": "u9acebqxR-8",
+        "title": "They Called Her a Curse… Unaware She Had the Divine Power to Bring the Forest Back to Life!#AIStory",
+        "cohort": "unknown",
+        "views_per_day": null,
+        "themes": [
+          "rebirth_second_chance",
+          "sacred_special_blood"
+        ],
+        "similarity": 0.042016899444216965
+      },
+      {
+        "video_id": "ULJ7-z1zm6M",
+        "title": "They Abandoned a Poor Orphan Girl… Now She's the DRAGON CLAN'S BELOVED PRINCESS!#AIStory",
+        "cohort": "outperforming",
+        "views_per_day": 102406.27272727272,
+        "themes": [
+          "dragon",
+          "romance_mate",
+          "royalty_status"
+        ],
+        "similarity": 0.03986073073859654
+      },
+      {
+        "video_id": "3C4Chi9g1d8",
+        "title": "She Saved a Little Wolf… Unaware He Was the WOLF KING'S SON—and She'd Become His QUEEN!#AIStory",
+        "cohort": "middle",
+        "views_per_day": 4303.0,
+        "themes": [
+          "family_child",
+          "royalty_status",
+          "wolf_werewolf"
+        ],
+        "similarity": 0.03638770230694815
+      }
+    ],
+    "positive_missing_or_weak": [
+      "No strong hidden identity/secret hook detected; Nov Drama hits often use one, though this is not mandatory.",
+      "No clear mythic creature lane detected; test whether the concept matches the channel audience's demand.",
+      "No early visual proof of the title/thumbnail promise detected; pay the premise in the opening movement rather than reserving it for the finale."
+    ],
+    "decision_guidance": [
+      "Concept does not trigger strong archive-level failure alarms, but retention-safe execution still requires scene-level proof."
+    ],
+    "causal_boundary": "This is pattern-matching against public outcomes and extracted creative signals; it is not a causal predictor of CTR, retention, or audience response."
+  },
+  "format_strategy": {
+    "format_class": "mid_length_feature",
+    "inferred_flags": {
+      "episodic": false,
+      "compilation": false,
+      "serialized": false,
+      "continuation_hook": false
+    },
+    "recommendations": [
+      "Open with embodied stakes before world scale or mythology.",
+      "Use 8-12 minute escalation blocks; each block must change capability, alliance, secret pressure, or cost.",
+      "Deliver a major promise payoff before the midpoint and a deeper relational payoff near the end."
+    ],
+    "warnings": [],
+    "causal_boundary": "Duration/format guidance is observational and channel-dependent; it is not proof of retention or CTR causality."
+  },
+  "meaning_carrier": {
+    "mode": "explicit",
+    "object_or_space": "flat brass tuning key",
+    "opening_meaning": "the key is dismissed as a broken trinket because its maker's mark was filed away",
+    "closing_reversal": "the key opens the master bell casing and reveals the original registry plate",
+    "final_sequence_use": "the object is used openly in the proof/restoration ritual before the final communal meal in the grease-pit floor converted into a communal worker breakfast bench",
+    "score_0_to_1": 0.75,
+    "warnings": [
+      "meaning carrier ending recurrence cannot be verified without architecture sequences"
+    ],
+    "craft_rule": "A physical object, space, sound-object, or ritual should carry the wound in the opening and return with changed meaning in the payoff."
+  },
+  "relational_contract": {
+    "score_0_to_1": 1.0,
+    "fields": {
+      "power_asymmetry": "institutional wealth/status power versus debt-bound worker with no protection",
+      "safety_or_kindness_before_power": "a night cook and cable mechanic feed her before the owner believes her offers shelter, food, and paid work before knowing his power or status",
+      "costly_protagonist_action": "Mina protects the child or another worker at cost to her job and refuses humiliating payment even when desperate",
+      "consent_or_personhood_repair": "after the accusation, authority figures must trust her account, return control of the proof, and accept her conditions rather than buying forgiveness",
+      "payoff_image": "the grease-pit floor converted into a communal worker breakfast bench where everyone eats or works by choice while the restored object remains visible"
+    },
+    "warnings": [],
+    "craft_rule": "Power-asymmetric relationships are strongest when safety or costly kindness precedes power, and the ending repairs consent/personhood rather than rewarding coercion."
+  },
+  "spatial_status": {
+    "score_0_to_1": 0.79,
+    "opening_status_spaces": [
+      "sit"
+    ],
+    "ending_status_spaces": [
+      "bench",
+      "floor"
+    ],
+    "inversion_signals": [
+      "by choice",
+      "open"
+    ],
+    "power_terms": [
+      "master",
+      "public"
+    ],
+    "vulnerable_terms": [
+      "child"
+    ],
+    "warnings": [
+      "opening does not establish a legible spatial status grammar (who is caged, seated, kneeling, serving, or excluded)"
+    ],
+    "doctrine": "Define who is physically forced below/outside/inside power, then make the ending transform that space into chosen access, sanctuary, or belonging. Inspired by floor/table and cage/sanctuary evidence."
+  }
+}

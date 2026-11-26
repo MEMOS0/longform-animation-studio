@@ -59,6 +59,10 @@ def evaluate_spatial_status(premise: dict[str, Any], architecture: dict[str, Any
     if architecture.get("sequences"):
         opening_text += " " + flatten((architecture.get("sequences") or [])[:1])
     ending_text = final_sequences(architecture)
+    ending_text += " " + flatten(premise.get("meaning_carrier", {}).get("closing_reversal", ""))
+    ending_text += " " + flatten(premise.get("meaning_carrier", {}).get("final_sequence_use", ""))
+    ending_text += " " + flatten(premise.get("relational_contract", {}).get("payoff_image", ""))
+    ending_text += " " + flatten(premise.get("emotional_engine", {}).get("belonging_payoff", ""))
     if scenes:
         ending_text += " " + flatten(scenes[-2:])
 

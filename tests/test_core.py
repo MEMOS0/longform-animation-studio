@@ -437,3 +437,18 @@ def test_spatial_status_detects_circular_inversion():
     bad=evaluate_spatial_status({"opening_event":{"first_10_seconds":"a woman feels sad"}},{"sequences":[],"ending_payoff":{"final_image":"she becomes rich"}},[])
     assert bad['warnings']
     assert bad['score_0_to_1']<result['score_0_to_1']
+
+
+def test_generated_social_premises_validate_and_score():
+    from studio.premise_generator import generate_premises,evaluate_generated_premise
+    from studio.production import validate_artifact
+    from pathlib import Path
+    import json,tempfile
+    premises=generate_premises(count=3,target_minutes=42)
+    assert len(premises)==3
+    with tempfile.TemporaryDirectory() as d:
+      path=Path(d)/'premise.json';path.write_text(json.dumps(premises[0],ensure_ascii=False),encoding='utf8')
+      assert validate_artifact(path,'premise-packet.schema.json')==[]
+    evaluation=evaluate_generated_premise(premises[0],[])
+    assert evaluation['spatial_status']['score_0_to_1']>0.7
+    assert evaluation['relational_contract']['score_0_to_1']>=0.8

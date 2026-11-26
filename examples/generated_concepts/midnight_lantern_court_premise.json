@@ -1,0 +1,84 @@
+{
+  "premise_id": "midnight_lantern_court",
+  "title_candidates": [
+    "They Made Her Eat Below Them, Until a Child Sat Beside Her",
+    "The Maid They Called a Thief Was the Only One Who Could Read the Truth",
+    "Nobody Wanted the Broken Lantern-Mapmaker — Until the City's Future Depended on Her Hands"
+  ],
+  "logline": "In a submerged railway city lit by pressure lanterns, Ari, a dismissed lantern-mapmaker who can read pressure cracks in glass is publicly humiliated and framed as a thief, but the mayor's mute nephew physically chooses her side; using her craft, a proof chain, and one inherited object, she exposes the real betrayal and turns the place of shame into chosen belonging.",
+  "audience_promise": "An emotionally legible animated social melodrama: public humiliation, innocent child alliance, craft-based proof, family repair, class reversal, and a circular ending in which the place of shame becomes chosen community.",
+  "target_minutes": 42.0,
+  "release_format": "mid_length_feature",
+  "channel_contract": "social_test_melodrama",
+  "emotional_engine": {
+    "wound": "Ari is poor, displaced, and publicly treated as disposable while carrying grief for her parent's stolen craft legacy.",
+    "want": "survive, protect family/work obligations, and clear her name",
+    "need": "trust that her competence and dignity deserve space without begging for permission",
+    "injustice": "the mayor's controlling chief engineer enforces status rules, plants blame, and turns public opinion against her",
+    "protective_counterforce": "the mayor's mute nephew physically crosses the status boundary; a canteen cook hides Ari and trades food for lamp repairs before power intervenes",
+    "belonging_payoff": "the place of forced humiliation becomes the service tunnel floor where survivors and officials share the first dry meal, and her craft receives paid public recognition",
+    "secret_or_power_asymmetry": "wealth, institutional authority, and social opinion stand against a worker whose proof depends on specialized craft knowledge",
+    "cost_of_failure": "she loses work, family care, public reputation, and the chance to restore her parent's stolen legacy"
+  },
+  "protagonist": {
+    "identity": "Ari, a dismissed lantern-mapmaker who can read pressure cracks in glass",
+    "vulnerability": "class displacement, debt, public shame, and lack of institutional power",
+    "capability": "lantern-mapmaker expertise, proof literacy, persistence, and dignity-preserving work ethic",
+    "agency_first_action": "she protects the child or another vulnerable person before protecting herself, then chooses work over humiliating charity",
+    "transformation": "from surviving humiliation to authoring the public proof and choosing belonging without surrendering agency"
+  },
+  "opening_event": {
+    "first_10_seconds": "Ari is made to eat in the flooded service tunnel while officials dine in the dry observation car",
+    "first_60_seconds": "the mayor's mute nephew crosses the boundary and sits or eats beside her while adults laugh or film the humiliation.",
+    "first_5_minutes": "an authority figure witnesses the child's choice; a canteen cook hides Ari and trades food for lamp repairs before power intervenes gives concrete help; the inherited hairline-cracked lantern lens and her craft identity are introduced before the romance/status reversal.",
+    "dramatic_question": "can a publicly shamed craftswoman prove truth without surrendering dignity or becoming dependent on rescue?"
+  },
+  "theme_lane": {
+    "family_or_heir_hook": "lonely child chooses the morally safe adult before powerful adults understand why",
+    "romance_hook": "the mayor learns that protecting the city means listening below it, not ruling above it",
+    "modern_power_hook": "institutional wealth, social spectacle, public accusation, and proof"
+  },
+  "failure_intelligence": {
+    "evaluation_path": "pending_generated_evaluation",
+    "nearest_failures": [
+      "procedural accusation without embodied deprivation",
+      "wealth rescue replacing protagonist agency",
+      "abstract kindness without a repeatable object"
+    ],
+    "mitigations": [
+      "show humiliation spatially in the first minute",
+      "make kindness cost something before high-status intervention",
+      "seed the proof object and craft competence before the accusation",
+      "reassemble the original public audience for reversal",
+      "pay off agency through work and changed ritual, not wealth alone"
+    ],
+    "counterexamples_checked": [
+      "low views do not prove weak story",
+      "immediate spectacle alone does not guarantee retention",
+      "hidden wealth reveal is weak if treated as reward rather than trust rupture"
+    ]
+  },
+  "packaging": {
+    "thumbnail_single_read": "Ari below the status platform/table while the mayor's mute nephew crosses to her side and the mayor's controlling chief engineer points down",
+    "curiosity_gap": "why is the child choosing the person every powerful adult rejects?",
+    "visual_before_after": "forced floor/service space becomes chosen communal floor/workbench; dismissed object becomes proof instrument",
+    "title_thumbnail_mismatch_risk": "generic billionaire romance packaging would hide the stronger craft-proof and child-truth mechanism"
+  },
+  "evidence_boundaries": [
+    "Inspired by mechanism-level evidence in social-test and legal-proof research; characters, world, object, proof chain, and dialogue are original.",
+    "No CTR, retention, or traffic causality is claimed from public video metadata."
+  ],
+  "meaning_carrier": {
+    "object_or_space": "hairline-cracked lantern lens",
+    "opening_meaning": "the lens is evidence of the flood that killed Ari's father and is treated as superstition",
+    "closing_reversal": "the same lens projects the pressure signature that proves sabotage",
+    "final_sequence_use": "the object is used openly in the proof/restoration ritual before the final communal meal in the service tunnel floor where survivors and officials share the first dry meal"
+  },
+  "relational_contract": {
+    "power_asymmetry": "institutional wealth/status power versus debt-bound worker with no protection",
+    "safety_or_kindness_before_power": "a canteen cook hides Ari and trades food for lamp repairs before power intervenes offers shelter, food, and paid work before knowing his power or status",
+    "costly_protagonist_action": "Ari protects the child or another worker at cost to her job and refuses humiliating payment even when desperate",
+    "consent_or_personhood_repair": "after the accusation, authority figures must trust her account, return control of the proof, and accept her conditions rather than buying forgiveness",
+    "payoff_image": "the service tunnel floor where survivors and officials share the first dry meal where everyone eats or works by choice while the restored object remains visible"
+  }
+}
