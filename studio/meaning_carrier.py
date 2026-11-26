@@ -6,7 +6,7 @@ from typing import Any
 
 OBJECT_TERMS = [
     "net", "bread", "floor", "mat", "ring", "scar", "moon", "compass", "contract", "patent", "key", "mirror",
-    "mask", "letter", "locket", "knife", "cup", "plate", "door", "gate", "window", "lullaby", "song", "light",
+    "mask", "letter", "locket", "knife", "cup", "plate", "door", "gate", "window", "lullaby", "song", "light", "box",
     "stormglass", "cloth", "table", "gate", "bed", "crown", "collar", "chain", "cage", "map", "photograph",
 ]
 
@@ -45,7 +45,7 @@ def carrier_key_terms(carrier_text: str) -> list[str]:
             continue
         known_objects = [token for token in content_tokens if token in OBJECT_TERMS]
         if known_objects:
-            key = known_objects[0]
+            key = known_objects[-1]
         elif len(content_tokens) == 1:
             key = content_tokens[0]
         elif content_tokens[-1] not in GENERIC_CARRIER_WORDS:

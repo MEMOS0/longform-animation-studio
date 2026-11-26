@@ -306,3 +306,12 @@ def test_relational_contract_flashback_and_lifted_denial_regressions():
     from studio.relational_contract import denial_is_unresolved
     assert denial_is_unresolved("at the payoff she has no choice. once she was free")
     assert not denial_is_unresolved("she has no choice. later she is no longer denied choice")
+
+
+def test_meaning_carrier_compound_prop_uses_head_object():
+    from studio.meaning_carrier import evaluate_meaning_carrier
+    carrier={"object_or_space":"ring box","opening_meaning":"hidden obligation","closing_reversal":"open commitment","final_sequence_use":"box returns"}
+    bad=evaluate_meaning_carrier({"meaning_carrier":carrier},{"sequences":[{"visual_setpiece":"the ring flashes in the crowd"}]})
+    assert any("final two architecture" in w for w in bad["warnings"])
+    good=evaluate_meaning_carrier({"meaning_carrier":carrier},{"sequences":[{"visual_setpiece":"the empty box is opened again"}]})
+    assert not any("final two architecture" in w for w in good["warnings"])
