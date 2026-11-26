@@ -714,3 +714,12 @@ def test_thumbnail_nested_extraction_preserves_cast_and_moral_stakes():
     assert concept['creature_or_child_anchor']=='the dragon child'
     assert concept['protector']=='Mira'
     assert 'exploiting someone weaker' in concept['source_wound']
+
+
+def test_opening_quality_flags_fantasy_without_ordinary_anchor():
+    from studio.production import opening_conversion_quality
+    premise={"channel_contract":"dark fantasy creature feature","title_candidates":["The Rot"],"opening_event":{"first_10_seconds":"a legendary power awakens","first_60_seconds":"ancient magic threatens the realm","first_5_minutes":"a hidden identity is revealed","dramatic_question":"can the chosen one survive?"}}
+    result=opening_conversion_quality(premise)
+    assert any('ordinary survival/labor/resource anchor' in w for w in result['warnings'])
+    grounded={"channel_contract":"creature_economic_melodrama","title_candidates":["Rot"],"opening_event":{"first_10_seconds":"a child is barred from the public water pump","first_60_seconds":"debt papers threaten the home","first_5_minutes":"she protects a creature while fetching water","dramatic_question":"can she save home without ownership?"}}
+    assert not any('ordinary survival/labor/resource anchor' in w for w in opening_conversion_quality(grounded)['warnings'])

@@ -408,3 +408,13 @@ Latest pushed commit: `24115ab`. Tests: 70 passed. Added `knowledge/market/epicv
 Immediate next: build dialogue-opposition model; continue low-subscriber scan; decide large media evidence policy; handle required review triage.
 
 Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows `no72` ~6.6M vs many creature/fantasy videos under ~2k in flat metadata; strong evidence that channel size/category alone does not explain breakout. Next: exact per-video dates/durations, thumbnail montage, low-video audiovisual comparison, and large-media evidence policy.
+
+## 2026-11-26 late-session Aethernal evidence checkpoint
+
+- Added Aethernal Pictures same-channel hit/medium/low comparison: Act II `31-p_UcMgOs` about 3.6M views/19.8 min versus Act I about 529k/33.8 min and low teaser/soundtrack contracts.
+- Added full-runtime sampled visual/contact-sheet evidence, aligned subtitle evidence, machine visual metrics, and waveform-derived sound-contrast analysis for Act II under `evidence/research/rediscovery_analysis/31-p_UcMgOs/`.
+- Key doctrine: fantasy spectacle should be grounded in ordinary survival systems (water, food, debt, chores, animals, doors, communal procedures). Sequel labeling is not automatically fatal; concrete threat-event packaging can overcome franchise friction.
+- Thumbnail Intelligence now includes Aethernal hit/medium/low originals and montage. Hit packaging uses ordinary boy + dog + water bucket + approaching Rot creatures; low teaser is portrait/branding without dramatic direction.
+- Production evaluator now warns when a fantasy opening lacks an ordinary survival/labor/resource anchor.
+- Latest local test state at this checkpoint: 82 passed.
+
