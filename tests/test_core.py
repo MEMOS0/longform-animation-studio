@@ -492,3 +492,28 @@ def test_closure_integrity_requires_relational_payoff_before_sequel_hook():
     bad_result=evaluate_closure_integrity({},bad,[])
     assert any('sequel expansion' in w for w in bad_result['warnings'])
     assert any('relational/home' in w for w in bad_result['warnings'])
+
+
+def test_closure_integrity_does_not_count_premise_promise_as_delivered():
+    from studio.closure_integrity import evaluate_closure_integrity
+    premise={"relational_contract":{"payoff_image":"family home recognition love safety"}}
+    arch={"sequences":[{"sequence":1,"turn":"battle pressure"},{"sequence":2,"turn":"victory without payoff"}]}
+    result=evaluate_closure_integrity(premise,arch,[])
+    assert any('final movement' in w for w in result['warnings'])
+
+
+def test_closure_integrity_uses_ending_payoff_as_delivered_evidence():
+    from studio.closure_integrity import evaluate_closure_integrity
+    arch={"sequences":[{"sequence":1,"turn":"battle pressure"},{"sequence":2,"turn":"victory"}],"ending_payoff":{"final_image":"the family returns home safe and chooses belonging"}}
+    result=evaluate_closure_integrity({},arch,[])
+    assert not any('final movement' in w for w in result['warnings'])
+
+
+def test_closure_integrity_ignores_early_promise_before_final_hook_but_allows_same_sequence_order():
+    from studio.closure_integrity import evaluate_closure_integrity
+    early={"sequences":[{"sequence":1,"turn":"she promises home"},{"sequence":2,"turn":"middle turn"},{"sequence":3,"turn":"their stories are just beginning beyond the stars"}]}
+    early_result=evaluate_closure_integrity({},early,[])
+    assert any('sequel expansion' in w for w in early_result['warnings'])
+    same={"sequences":[{"sequence":1,"turn":"middle turn"},{"sequence":2,"turn":"home recognition happens before their stories are just beginning"}]}
+    same_result=evaluate_closure_integrity({},same,[])
+    assert not any('sequel expansion' in w for w in same_result['warnings'])
