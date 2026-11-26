@@ -200,3 +200,30 @@ Immediate next work after rollover:
 3. Continue sound evidence for endings/reversals and creature romance.
 4. Continue breakout discovery; analyze new low-subscriber channels.
 5. Repo remains private unless user explicitly grants a safe path; do not spend money, create accounts, accept provider terms, connect local machine, or take irreversible public/admin actions without explicit approval.
+
+## 2026-11-26 rotation checkpoint — fifth-pass breakout discovery in progress
+
+Latest pushed commit when written: `54b309a Separate flashback repair from present choice`; tests **39 passed**. Review round for that commit may be running; handle findings first after rotation.
+
+Completed since previous checkpoint:
+
+- Exact director storyboards now exist through **S05**: S03 trust/bonding, S04 communal evacuation, S05 midpoint capture/weaponization. Tests validate S01–S05 continuous coverage. S01/S02 remain the original quality reference; S03–S05 are stronger than director seeds but should still be critically reviewed before production.
+- Ending sound evidence added in `knowledge/craft/third-pass-sound-evidence.md`: `Gx7nwqNr9YY` consent payoff has music swell exactly after “This time it's my choice”; `9N6S6D_ioA0` post-battle sound drops into grief/breath/wind before bittersweet dragon/baby reunion. Evidence files copied under `evidence/research/ending_sound_analysis/`.
+- Discovery system now merges prior leads without overwriting them, and after review fixes separates `carryover_candidates` outside the requested window while recomputing stale views/day. Latest run: **73 candidates**, 57 strong leads. Important new leads: `31-p_UcMgOs` Aethernal Act II (25.7k subs, 3.59m), `no72LZAVvZQ` Epicverse giant father/daughter (4.6k subs, 6.51m), `hozDtPcnnBA` Lioren hidden billionaire student (392 subs, 191k), `NHAHR3v9La8` dragon twin/queen's monster.
+- Fifth-pass raw metadata/subtitles currently exist uncommitted under `data/raw/piped_fifthpass/`; media local under `C:/Users/Administrator/fifthpass_media/`; analysis sheets/audio local under `C:/Users/Administrator/fifthpass_analysis/`.
+- Downloads completed for `no72LZAVvZQ` (700s), `31-p_UcMgOs` (1189s), `hozDtPcnnBA` (2104s). `NHAHR3v9La8` was still downloading/chunked at checkpoint.
+
+Critical new market insight requiring integration:
+
+- The freshest low-subscriber breakouts are **compressed short features**, not 60–120m films: giant father story is 11:40, Aethernal Act II is 19:49, Lioren romance is 35:04. This challenges the earlier default 30–45m rule. The correct conclusion is not “short is always better”; it is that compressed completeness/episode payoff can outperform long runtime when the emotional engine is extremely legible.
+- `no72LZAVvZQ` is especially important: opening establishes infant peril by 00:25 (“Please, spare my baby”), white serpent/giant rescue, father-daughter survival bond, isolation argument (“I can't spend the rest of my life talking only to you”), exploitation (“live giant” value), capture, giant/army confrontation, and final daughter-on-shoulder belonging image. It validates protection/family engine in an ultra-compressed format.
+- `31-p_UcMgOs` opening combines atmospheric forest, child/village ordinary labor, rot monsters feeding, masked white figure, then village survival escalation; ending is episodic capture/escape hook (“Now we find out how to get out of here”), not a complete film payoff.
+- `hozDtPcnnBA` opening is immediate class confrontation at elite university; ending visibly compresses graduation, public status reversal, proposal, wedding, foundation/work identity, child/family epilogue. Subtitle object chain includes scholarship/father/status, truth, foundation, marriage, “greatest treasure.”
+
+Immediate after rotation:
+
+1. Handle any new Devin Review findings.
+2. Finish/write `knowledge/market/fifth-pass-breakout-media-deep-dive.md` and copy fifthpass derived evidence into `evidence/research/`.
+3. Integrate compressed-short-feature insight into `format-duration-performance.md`, `studio/format_strategy.py`, channel contracts, and skill. Do not overcorrect into “always short.”
+4. Finish/check `NHAHR3v9La8` download and analyze it plus any unfinished fifthpass media.
+5. Continue exact boards S06+ or critically review S03–S05 quality. No spending/accounts/public admin actions.
