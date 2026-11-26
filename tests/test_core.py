@@ -223,3 +223,10 @@ def test_relational_contract_rejects_after_reveal_and_denied_choice():
     assert any("temporally explicit" in w for w in evaluate_relational_contract({"relational_contract": late})["warnings"])
     denied = dict(base, safety_or_kindness_before_power="she protects him before knowing his power", consent_or_personhood_repair="he is not free to choose")
     assert any("explicitly denies" in w for w in evaluate_relational_contract({"relational_contract": denied})["warnings"])
+
+
+def test_meaning_carrier_matches_short_object_names():
+    from studio.meaning_carrier import evaluate_meaning_carrier
+    premise={"meaning_carrier":{"object_or_space":"ring","opening_meaning":"coercion","closing_reversal":"chosen commitment","final_sequence_use":"ring returns"}}
+    result=evaluate_meaning_carrier(premise,{"sequences":[{"turn":"ending","visual_setpiece":"the ring is returned openly"}]})
+    assert result["score_0_to_1"] == 1.0
