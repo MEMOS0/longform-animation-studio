@@ -389,3 +389,14 @@ Immediate next:
 2. Deepen dialogue beyond scaffolded key lines into scene-specific conflict, subtext, and reversal language.
 3. Continue low-subscriber breakout discovery across undercovered genres and integrate counterexamples.
 4. Rotate context before exhaustion; preserve this file as the continuity anchor.
+
+## 2026-11-27 checkpoint — creature dialogue specificity pass
+
+Latest pushed commit: `57a612c` (`Clean creature dialogue actor labels`). Tests: 70 passed. PR #2: https://github.com/MEMOS0/longform-animation-studio/pull/2
+
+`studio/scene_generator.py` now produces more scene/creature-specific creature-economic dialogue: actor labels are extracted and cleaned (`The moonfin child`, `Her grandmother`, `A flour miller`), and key lines emphasize consent, resource witness, extraction cost, proof authorship, non-possession, and spatial/economic repair. Generated Salt/Emberseed packages were regenerated end-to-end and still pass A/B/C/D with no warnings. Caveat: these remain scaffold key lines, not finished human-quality screenplay dialogue; next pass should add per-scene opposition voices, interruption/negotiation rhythms, and subtext progression rather than only polished thematic lines.
+
+Immediate next:
+1. Handle any required review triage without letting it consume the creative roadmap.
+2. Build a dialogue-opposition model: each scene needs antagonist pressure, caregiver/witness objection, protagonist refusal, evidence implication, and cost escalation.
+3. Resume low-subscriber breakout discovery across undercovered genres.
