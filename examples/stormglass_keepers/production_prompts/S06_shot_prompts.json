@@ -1,834 +1,43 @@
 [
   {
-    "shot_id": "S06_SB001",
+    "shot_id": "S06_DS001",
     "scene_id": "S06",
-    "timecode": "0.0-17.8",
-    "duration_seconds": 17.8,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. pre-dawn chamber wide; slow push through bars; blue cracks pulse in the iron chamber as dawn light enters through a high porthole; Mira keeps her body between the child and the restraint machine. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "slow push through bars",
-    "dialogue": "ROOK OFFSCREEN: Dawn test in one hour.",
-    "audio_direction": "hull groan, distant winch, restrained breathing",
-    "director_note": "deadline enters as light, not exposition",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "tam_costume",
-      "rook_face_costume",
-      "iron_chamber_geography",
-      "copied_key_prop",
-      "stormglass_wall_continuity",
-      "navy_ship_geography",
-      "sound_motif_continuity",
-      "creature_pen_geography",
-      "memory_proof_scales",
-      "mother_call_motif"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "tam_costume",
-        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
-      },
-      {
-        "dependency": "rook_face_costume",
-        "asset_prompt": "Rook reference sheet: controlled institutional antagonist, severe face, dark official costume, chain/control-key insignia, no cartoon villain exaggeration"
-      },
-      {
-        "dependency": "iron_chamber_geography",
-        "asset_prompt": "continuity reference asset for iron_chamber_geography"
-      },
-      {
-        "dependency": "copied_key_prop",
-        "asset_prompt": "continuity reference asset for copied_key_prop"
-      },
-      {
-        "dependency": "stormglass_wall_continuity",
-        "asset_prompt": "stormglass wall/network material plate: translucent cyan-gold veins, sanctuary lattice behavior, how light travels through stone"
-      },
-      {
-        "dependency": "navy_ship_geography",
-        "asset_prompt": "continuity reference asset for navy_ship_geography"
-      },
-      {
-        "dependency": "sound_motif_continuity",
-        "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      },
-      {
-        "dependency": "creature_pen_geography",
-        "asset_prompt": "continuity reference asset for creature_pen_geography"
-      },
-      {
-        "dependency": "memory_proof_scales",
-        "asset_prompt": "memory-scale prop reference: small luminous scales capable of projecting memories, readable glow, consistent shape and activation state"
-      },
-      {
-        "dependency": "mother_call_motif",
-        "asset_prompt": "audio motif note: three-part parent/child call that can echo, answer, distort under control, and resolve as a lullaby"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S06_SB002",
-    "scene_id": "S06",
-    "timecode": "17.8-31.5",
-    "duration_seconds": 13.7,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. copied key insert; macro rack focus; outside the chamber Tam aligns the copied key with a service lock while a patrol lantern passes over his hand. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "macro rack focus",
-    "dialogue": "none",
-    "audio_direction": "tiny metal click, lantern hum, held breath",
-    "director_note": "betrayal image converts into active infiltration",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "tam_costume",
-      "rook_face_costume",
-      "iron_chamber_geography",
-      "copied_key_prop",
-      "stormglass_wall_continuity",
-      "navy_ship_geography",
-      "sound_motif_continuity",
-      "creature_pen_geography",
-      "memory_proof_scales",
-      "mother_call_motif"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "tam_costume",
-        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
-      },
-      {
-        "dependency": "rook_face_costume",
-        "asset_prompt": "Rook reference sheet: controlled institutional antagonist, severe face, dark official costume, chain/control-key insignia, no cartoon villain exaggeration"
-      },
-      {
-        "dependency": "iron_chamber_geography",
-        "asset_prompt": "continuity reference asset for iron_chamber_geography"
-      },
-      {
-        "dependency": "copied_key_prop",
-        "asset_prompt": "continuity reference asset for copied_key_prop"
-      },
-      {
-        "dependency": "stormglass_wall_continuity",
-        "asset_prompt": "stormglass wall/network material plate: translucent cyan-gold veins, sanctuary lattice behavior, how light travels through stone"
-      },
-      {
-        "dependency": "navy_ship_geography",
-        "asset_prompt": "continuity reference asset for navy_ship_geography"
-      },
-      {
-        "dependency": "sound_motif_continuity",
-        "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      },
-      {
-        "dependency": "creature_pen_geography",
-        "asset_prompt": "continuity reference asset for creature_pen_geography"
-      },
-      {
-        "dependency": "memory_proof_scales",
-        "asset_prompt": "memory-scale prop reference: small luminous scales capable of projecting memories, readable glow, consistent shape and activation state"
-      },
-      {
-        "dependency": "mother_call_motif",
-        "asset_prompt": "audio motif note: three-part parent/child call that can echo, answer, distort under control, and resolve as a lullaby"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S06_SB003",
-    "scene_id": "S06",
-    "timecode": "31.5-53.7",
-    "duration_seconds": 22.2,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. Mira distrust close; tight static; Mira sees Tam through the bars and deliberately shifts the child behind her rather than reaching for rescue. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "tight static",
-    "dialogue": "MIRA: If this is another road you sold us, stop now.",
-    "audio_direction": "voice close, chain slack",
-    "director_note": "trust repair begins as boundary, not forgiveness",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "tam_costume",
-      "rook_face_costume",
-      "iron_chamber_geography",
-      "copied_key_prop",
-      "stormglass_wall_continuity",
-      "navy_ship_geography",
-      "sound_motif_continuity",
-      "creature_pen_geography",
-      "memory_proof_scales",
-      "mother_call_motif"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "tam_costume",
-        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
-      },
-      {
-        "dependency": "rook_face_costume",
-        "asset_prompt": "Rook reference sheet: controlled institutional antagonist, severe face, dark official costume, chain/control-key insignia, no cartoon villain exaggeration"
-      },
-      {
-        "dependency": "iron_chamber_geography",
-        "asset_prompt": "continuity reference asset for iron_chamber_geography"
-      },
-      {
-        "dependency": "copied_key_prop",
-        "asset_prompt": "continuity reference asset for copied_key_prop"
-      },
-      {
-        "dependency": "stormglass_wall_continuity",
-        "asset_prompt": "stormglass wall/network material plate: translucent cyan-gold veins, sanctuary lattice behavior, how light travels through stone"
-      },
-      {
-        "dependency": "navy_ship_geography",
-        "asset_prompt": "continuity reference asset for navy_ship_geography"
-      },
-      {
-        "dependency": "sound_motif_continuity",
-        "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      },
-      {
-        "dependency": "creature_pen_geography",
-        "asset_prompt": "continuity reference asset for creature_pen_geography"
-      },
-      {
-        "dependency": "memory_proof_scales",
-        "asset_prompt": "memory-scale prop reference: small luminous scales capable of projecting memories, readable glow, consistent shape and activation state"
-      },
-      {
-        "dependency": "mother_call_motif",
-        "asset_prompt": "audio motif note: three-part parent/child call that can echo, answer, distort under control, and resolve as a lullaby"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S06_SB004",
-    "scene_id": "S06",
-    "timecode": "53.7-75.9",
-    "duration_seconds": 22.2,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. Tam proof close; low angle through bars; Tam opens his sleeve to show fresh lash marks and a navy route map sewn into the cloth. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "low angle through bars",
-    "dialogue": "TAM: I led them away from the boats. Then I came back.",
-    "audio_direction": "paper friction, distant boots",
-    "director_note": "evidence complicates apparent betrayal",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "tam_costume",
-      "rook_face_costume",
-      "iron_chamber_geography",
-      "copied_key_prop",
-      "stormglass_wall_continuity",
-      "navy_ship_geography",
-      "sound_motif_continuity",
-      "creature_pen_geography",
-      "memory_proof_scales",
-      "mother_call_motif"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "tam_costume",
-        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
-      },
-      {
-        "dependency": "rook_face_costume",
-        "asset_prompt": "Rook reference sheet: controlled institutional antagonist, severe face, dark official costume, chain/control-key insignia, no cartoon villain exaggeration"
-      },
-      {
-        "dependency": "iron_chamber_geography",
-        "asset_prompt": "continuity reference asset for iron_chamber_geography"
-      },
-      {
-        "dependency": "copied_key_prop",
-        "asset_prompt": "continuity reference asset for copied_key_prop"
-      },
-      {
-        "dependency": "stormglass_wall_continuity",
-        "asset_prompt": "stormglass wall/network material plate: translucent cyan-gold veins, sanctuary lattice behavior, how light travels through stone"
-      },
-      {
-        "dependency": "navy_ship_geography",
-        "asset_prompt": "continuity reference asset for navy_ship_geography"
-      },
-      {
-        "dependency": "sound_motif_continuity",
-        "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      },
-      {
-        "dependency": "creature_pen_geography",
-        "asset_prompt": "continuity reference asset for creature_pen_geography"
-      },
-      {
-        "dependency": "memory_proof_scales",
-        "asset_prompt": "memory-scale prop reference: small luminous scales capable of projecting memories, readable glow, consistent shape and activation state"
-      },
-      {
-        "dependency": "mother_call_motif",
-        "asset_prompt": "audio motif note: three-part parent/child call that can echo, answer, distort under control, and resolve as a lullaby"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S06_SB005",
-    "scene_id": "S06",
-    "timecode": "75.9-95.9",
-    "duration_seconds": 20.0,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. child choice close; slow intimate push; the child looks from Mira's scarred hand to Tam's key, then taps the lock side of the bars with one claw. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "slow intimate push",
-    "dialogue": "none",
-    "audio_direction": "claw tap, glass scale chime",
-    "director_note": "the vulnerable character participates in the trust decision",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "tam_costume",
-      "rook_face_costume",
-      "iron_chamber_geography",
-      "copied_key_prop",
-      "stormglass_wall_continuity",
-      "navy_ship_geography",
-      "sound_motif_continuity",
-      "creature_pen_geography",
-      "memory_proof_scales",
-      "mother_call_motif"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "tam_costume",
-        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
-      },
-      {
-        "dependency": "rook_face_costume",
-        "asset_prompt": "Rook reference sheet: controlled institutional antagonist, severe face, dark official costume, chain/control-key insignia, no cartoon villain exaggeration"
-      },
-      {
-        "dependency": "iron_chamber_geography",
-        "asset_prompt": "continuity reference asset for iron_chamber_geography"
-      },
-      {
-        "dependency": "copied_key_prop",
-        "asset_prompt": "continuity reference asset for copied_key_prop"
-      },
-      {
-        "dependency": "stormglass_wall_continuity",
-        "asset_prompt": "stormglass wall/network material plate: translucent cyan-gold veins, sanctuary lattice behavior, how light travels through stone"
-      },
-      {
-        "dependency": "navy_ship_geography",
-        "asset_prompt": "continuity reference asset for navy_ship_geography"
-      },
-      {
-        "dependency": "sound_motif_continuity",
-        "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      },
-      {
-        "dependency": "creature_pen_geography",
-        "asset_prompt": "continuity reference asset for creature_pen_geography"
-      },
-      {
-        "dependency": "memory_proof_scales",
-        "asset_prompt": "memory-scale prop reference: small luminous scales capable of projecting memories, readable glow, consistent shape and activation state"
-      },
-      {
-        "dependency": "mother_call_motif",
-        "asset_prompt": "audio motif note: three-part parent/child call that can echo, answer, distort under control, and resolve as a lullaby"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S06_SB006",
-    "scene_id": "S06",
-    "timecode": "95.9-116.0",
-    "duration_seconds": 20.1,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. service corridor wide; handheld tracking; Tam opens the service door; Mira does not run for the exit but turns toward rows of covered creature cages. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "handheld tracking",
-    "dialogue": "TAM: Exit is the other way.",
-    "audio_direction": "door hydraulic hiss, muffled animal movement",
-    "director_note": "escape direction becomes moral choice",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "tam_costume",
-      "rook_face_costume",
-      "iron_chamber_geography",
-      "copied_key_prop",
-      "stormglass_wall_continuity",
-      "navy_ship_geography",
-      "sound_motif_continuity",
-      "creature_pen_geography",
-      "memory_proof_scales",
-      "mother_call_motif"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "tam_costume",
-        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
-      },
-      {
-        "dependency": "rook_face_costume",
-        "asset_prompt": "Rook reference sheet: controlled institutional antagonist, severe face, dark official costume, chain/control-key insignia, no cartoon villain exaggeration"
-      },
-      {
-        "dependency": "iron_chamber_geography",
-        "asset_prompt": "continuity reference asset for iron_chamber_geography"
-      },
-      {
-        "dependency": "copied_key_prop",
-        "asset_prompt": "continuity reference asset for copied_key_prop"
-      },
-      {
-        "dependency": "stormglass_wall_continuity",
-        "asset_prompt": "stormglass wall/network material plate: translucent cyan-gold veins, sanctuary lattice behavior, how light travels through stone"
-      },
-      {
-        "dependency": "navy_ship_geography",
-        "asset_prompt": "continuity reference asset for navy_ship_geography"
-      },
-      {
-        "dependency": "sound_motif_continuity",
-        "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      },
-      {
-        "dependency": "creature_pen_geography",
-        "asset_prompt": "continuity reference asset for creature_pen_geography"
-      },
-      {
-        "dependency": "memory_proof_scales",
-        "asset_prompt": "memory-scale prop reference: small luminous scales capable of projecting memories, readable glow, consistent shape and activation state"
-      },
-      {
-        "dependency": "mother_call_motif",
-        "asset_prompt": "audio motif note: three-part parent/child call that can echo, answer, distort under control, and resolve as a lullaby"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S06_SB007",
-    "scene_id": "S06",
-    "timecode": "116.0-134.8",
-    "duration_seconds": 18.8,
+    "timecode": "0.00-24.63",
+    "duration_seconds": 24.63,
     "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. creature pens reveal; slow lateral track; Mira pulls canvas from cages containing young sea creatures with scarred harnesses and extinguished scale-light. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "slow lateral track",
-    "dialogue": "MIRA: We do not leave the others in the dark. Protection is not control.",
-    "audio_direction": "canvas drag, weak creature cries, music withheld",
-    "director_note": "agency broadens protection beyond one child",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "tam_costume",
-      "rook_face_costume",
-      "iron_chamber_geography",
-      "copied_key_prop",
-      "stormglass_wall_continuity",
-      "navy_ship_geography",
-      "sound_motif_continuity",
-      "creature_pen_geography",
-      "memory_proof_scales",
-      "mother_call_motif"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "tam_costume",
-        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
-      },
-      {
-        "dependency": "rook_face_costume",
-        "asset_prompt": "Rook reference sheet: controlled institutional antagonist, severe face, dark official costume, chain/control-key insignia, no cartoon villain exaggeration"
-      },
-      {
-        "dependency": "iron_chamber_geography",
-        "asset_prompt": "continuity reference asset for iron_chamber_geography"
-      },
-      {
-        "dependency": "copied_key_prop",
-        "asset_prompt": "continuity reference asset for copied_key_prop"
-      },
-      {
-        "dependency": "stormglass_wall_continuity",
-        "asset_prompt": "stormglass wall/network material plate: translucent cyan-gold veins, sanctuary lattice behavior, how light travels through stone"
-      },
-      {
-        "dependency": "navy_ship_geography",
-        "asset_prompt": "continuity reference asset for navy_ship_geography"
-      },
-      {
-        "dependency": "sound_motif_continuity",
-        "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      },
-      {
-        "dependency": "creature_pen_geography",
-        "asset_prompt": "continuity reference asset for creature_pen_geography"
-      },
-      {
-        "dependency": "memory_proof_scales",
-        "asset_prompt": "memory-scale prop reference: small luminous scales capable of projecting memories, readable glow, consistent shape and activation state"
-      },
-      {
-        "dependency": "mother_call_motif",
-        "asset_prompt": "audio motif note: three-part parent/child call that can echo, answer, distort under control, and resolve as a lullaby"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S06_SB008",
-    "scene_id": "S06",
-    "timecode": "134.8-143.8",
-    "duration_seconds": 9.0,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. split corridor action; handheld lateral; Tam cuts harness buckles while Mira calms creatures one by one; the child presses its forehead to each cage before opening. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "handheld lateral",
-    "dialogue": "none",
-    "audio_direction": "buckles snapping, breathing, soft scale chimes",
-    "director_note": "coordinated found-family labor",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "tam_costume",
-      "rook_face_costume",
-      "iron_chamber_geography",
-      "copied_key_prop",
-      "stormglass_wall_continuity",
-      "navy_ship_geography",
-      "sound_motif_continuity",
-      "creature_pen_geography",
-      "memory_proof_scales",
-      "mother_call_motif"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "tam_costume",
-        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
-      },
-      {
-        "dependency": "rook_face_costume",
-        "asset_prompt": "Rook reference sheet: controlled institutional antagonist, severe face, dark official costume, chain/control-key insignia, no cartoon villain exaggeration"
-      },
-      {
-        "dependency": "iron_chamber_geography",
-        "asset_prompt": "continuity reference asset for iron_chamber_geography"
-      },
-      {
-        "dependency": "copied_key_prop",
-        "asset_prompt": "continuity reference asset for copied_key_prop"
-      },
-      {
-        "dependency": "stormglass_wall_continuity",
-        "asset_prompt": "stormglass wall/network material plate: translucent cyan-gold veins, sanctuary lattice behavior, how light travels through stone"
-      },
-      {
-        "dependency": "navy_ship_geography",
-        "asset_prompt": "continuity reference asset for navy_ship_geography"
-      },
-      {
-        "dependency": "sound_motif_continuity",
-        "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      },
-      {
-        "dependency": "creature_pen_geography",
-        "asset_prompt": "continuity reference asset for creature_pen_geography"
-      },
-      {
-        "dependency": "memory_proof_scales",
-        "asset_prompt": "memory-scale prop reference: small luminous scales capable of projecting memories, readable glow, consistent shape and activation state"
-      },
-      {
-        "dependency": "mother_call_motif",
-        "asset_prompt": "audio motif note: three-part parent/child call that can echo, answer, distort under control, and resolve as a lullaby"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S06_SB009",
-    "scene_id": "S06",
-    "timecode": "143.8-165.0",
-    "duration_seconds": 21.2,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. alarm inversion wide; low tracking; a patrol enters; instead of scattering, the freed creatures dim their lights together and hide the group in darkness. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "low tracking",
-    "dialogue": "none",
-    "audio_direction": "boots pass, water drips, near-silence",
-    "director_note": "care creates capability reversal",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "tam_costume",
-      "rook_face_costume",
-      "iron_chamber_geography",
-      "copied_key_prop",
-      "stormglass_wall_continuity",
-      "navy_ship_geography",
-      "sound_motif_continuity",
-      "creature_pen_geography",
-      "memory_proof_scales",
-      "mother_call_motif"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "tam_costume",
-        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
-      },
-      {
-        "dependency": "rook_face_costume",
-        "asset_prompt": "Rook reference sheet: controlled institutional antagonist, severe face, dark official costume, chain/control-key insignia, no cartoon villain exaggeration"
-      },
-      {
-        "dependency": "iron_chamber_geography",
-        "asset_prompt": "continuity reference asset for iron_chamber_geography"
-      },
-      {
-        "dependency": "copied_key_prop",
-        "asset_prompt": "continuity reference asset for copied_key_prop"
-      },
-      {
-        "dependency": "stormglass_wall_continuity",
-        "asset_prompt": "stormglass wall/network material plate: translucent cyan-gold veins, sanctuary lattice behavior, how light travels through stone"
-      },
-      {
-        "dependency": "navy_ship_geography",
-        "asset_prompt": "continuity reference asset for navy_ship_geography"
-      },
-      {
-        "dependency": "sound_motif_continuity",
-        "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      },
-      {
-        "dependency": "creature_pen_geography",
-        "asset_prompt": "continuity reference asset for creature_pen_geography"
-      },
-      {
-        "dependency": "memory_proof_scales",
-        "asset_prompt": "memory-scale prop reference: small luminous scales capable of projecting memories, readable glow, consistent shape and activation state"
-      },
-      {
-        "dependency": "mother_call_motif",
-        "asset_prompt": "audio motif note: three-part parent/child call that can echo, answer, distort under control, and resolve as a lullaby"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S06_SB010",
-    "scene_id": "S06",
-    "timecode": "165.0-187.2",
-    "duration_seconds": 22.2,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. broken lullaby close; slow push; Mira starts the three-note lullaby but cannot finish the third note; the child answers with a broken fourth tone. Emotional action must remain readable before spectacle.",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide establishing; slow push; copied key turning in a wet lock. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow push",
-    "dialogue": "MIRA humming brokenly: mm-mm—",
-    "audio_direction": "voice tremor, answering creature tone",
-    "director_note": "sound motif exposes wounded trust",
+    "dialogue": "",
+    "audio_direction": "drop music before each bonding or revelation beat so breath, scale chimes, and creature calls carry meaning",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: open on the scene image",
     "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "tam_costume",
-      "rook_face_costume",
-      "iron_chamber_geography",
-      "copied_key_prop",
-      "stormglass_wall_continuity",
-      "navy_ship_geography",
-      "sound_motif_continuity",
-      "creature_pen_geography",
-      "memory_proof_scales",
-      "mother_call_motif"
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
     ],
     "required_reference_assets": [
       {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
       },
       {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
       },
       {
-        "dependency": "tam_costume",
-        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
       },
       {
-        "dependency": "rook_face_costume",
-        "asset_prompt": "Rook reference sheet: controlled institutional antagonist, severe face, dark official costume, chain/control-key insignia, no cartoon villain exaggeration"
-      },
-      {
-        "dependency": "iron_chamber_geography",
-        "asset_prompt": "continuity reference asset for iron_chamber_geography"
-      },
-      {
-        "dependency": "copied_key_prop",
-        "asset_prompt": "continuity reference asset for copied_key_prop"
-      },
-      {
-        "dependency": "stormglass_wall_continuity",
-        "asset_prompt": "stormglass wall/network material plate: translucent cyan-gold veins, sanctuary lattice behavior, how light travels through stone"
-      },
-      {
-        "dependency": "navy_ship_geography",
-        "asset_prompt": "continuity reference asset for navy_ship_geography"
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
       },
       {
         "dependency": "sound_motif_continuity",
         "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      },
-      {
-        "dependency": "creature_pen_geography",
-        "asset_prompt": "continuity reference asset for creature_pen_geography"
-      },
-      {
-        "dependency": "memory_proof_scales",
-        "asset_prompt": "memory-scale prop reference: small luminous scales capable of projecting memories, readable glow, consistent shape and activation state"
-      },
-      {
-        "dependency": "mother_call_motif",
-        "asset_prompt": "audio motif note: three-part parent/child call that can echo, answer, distort under control, and resolve as a lullaby"
       }
     ],
     "qa_checks": [
@@ -840,163 +49,44 @@
     ]
   },
   {
-    "shot_id": "S06_SB011",
+    "shot_id": "S06_DS002",
     "scene_id": "S06",
-    "timecode": "187.2-210.0",
-    "duration_seconds": 22.8,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. canal escape wide; moving crane; the group enters a storm-lit ship canal where freed creatures move beneath black water carrying fragments of glowing memory-scales. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "moving crane",
-    "dialogue": "none",
-    "audio_direction": "water displacement, distant thunder, low hull rhythm",
-    "director_note": "multi-creature escape setpiece begins",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "tam_costume",
-      "rook_face_costume",
-      "iron_chamber_geography",
-      "copied_key_prop",
-      "stormglass_wall_continuity",
-      "navy_ship_geography",
-      "sound_motif_continuity",
-      "creature_pen_geography",
-      "memory_proof_scales",
-      "mother_call_motif"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "tam_costume",
-        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
-      },
-      {
-        "dependency": "rook_face_costume",
-        "asset_prompt": "Rook reference sheet: controlled institutional antagonist, severe face, dark official costume, chain/control-key insignia, no cartoon villain exaggeration"
-      },
-      {
-        "dependency": "iron_chamber_geography",
-        "asset_prompt": "continuity reference asset for iron_chamber_geography"
-      },
-      {
-        "dependency": "copied_key_prop",
-        "asset_prompt": "continuity reference asset for copied_key_prop"
-      },
-      {
-        "dependency": "stormglass_wall_continuity",
-        "asset_prompt": "stormglass wall/network material plate: translucent cyan-gold veins, sanctuary lattice behavior, how light travels through stone"
-      },
-      {
-        "dependency": "navy_ship_geography",
-        "asset_prompt": "continuity reference asset for navy_ship_geography"
-      },
-      {
-        "dependency": "sound_motif_continuity",
-        "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      },
-      {
-        "dependency": "creature_pen_geography",
-        "asset_prompt": "continuity reference asset for creature_pen_geography"
-      },
-      {
-        "dependency": "memory_proof_scales",
-        "asset_prompt": "memory-scale prop reference: small luminous scales capable of projecting memories, readable glow, consistent shape and activation state"
-      },
-      {
-        "dependency": "mother_call_motif",
-        "asset_prompt": "audio motif note: three-part parent/child call that can echo, answer, distort under control, and resolve as a lullaby"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S06_SB012",
-    "scene_id": "S06",
-    "timecode": "210.0-232.2",
-    "duration_seconds": 22.2,
+    "timecode": "24.63-39.41",
+    "duration_seconds": 14.78,
     "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. memory scale insert; macro underwater; scale fragments show flashes of Rook ordering the nursery fire and then sink into the mouths of courier-like fish. Emotional action must remain readable before spectacle.",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. intimate closeup; settle; Mira sees Tam take a whip blow meant for the child. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "macro underwater",
-    "dialogue": "TAM: They remember routes better than we do.",
-    "audio_direction": "muffled water, memory chime",
-    "director_note": "proof becomes mobile and distributable",
+    "camera_intent": "settle",
+    "dialogue": "",
+    "audio_direction": "breath/room tone",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition",
     "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "tam_costume",
-      "rook_face_costume",
-      "iron_chamber_geography",
-      "copied_key_prop",
-      "stormglass_wall_continuity",
-      "navy_ship_geography",
-      "sound_motif_continuity",
-      "creature_pen_geography",
-      "memory_proof_scales",
-      "mother_call_motif"
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
     ],
     "required_reference_assets": [
       {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
       },
       {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
       },
       {
-        "dependency": "tam_costume",
-        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
       },
       {
-        "dependency": "rook_face_costume",
-        "asset_prompt": "Rook reference sheet: controlled institutional antagonist, severe face, dark official costume, chain/control-key insignia, no cartoon villain exaggeration"
-      },
-      {
-        "dependency": "iron_chamber_geography",
-        "asset_prompt": "continuity reference asset for iron_chamber_geography"
-      },
-      {
-        "dependency": "copied_key_prop",
-        "asset_prompt": "continuity reference asset for copied_key_prop"
-      },
-      {
-        "dependency": "stormglass_wall_continuity",
-        "asset_prompt": "stormglass wall/network material plate: translucent cyan-gold veins, sanctuary lattice behavior, how light travels through stone"
-      },
-      {
-        "dependency": "navy_ship_geography",
-        "asset_prompt": "continuity reference asset for navy_ship_geography"
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
       },
       {
         "dependency": "sound_motif_continuity",
         "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      },
-      {
-        "dependency": "creature_pen_geography",
-        "asset_prompt": "continuity reference asset for creature_pen_geography"
-      },
-      {
-        "dependency": "memory_proof_scales",
-        "asset_prompt": "memory-scale prop reference: small luminous scales capable of projecting memories, readable glow, consistent shape and activation state"
-      },
-      {
-        "dependency": "mother_call_motif",
-        "asset_prompt": "audio motif note: three-part parent/child call that can echo, answer, distort under control, and resolve as a lullaby"
       }
     ],
     "qa_checks": [
@@ -1008,79 +98,44 @@
     ]
   },
   {
-    "shot_id": "S06_SB013",
+    "shot_id": "S06_DS003",
     "scene_id": "S06",
-    "timecode": "232.2-249.7",
-    "duration_seconds": 17.5,
+    "timecode": "39.41-54.19",
+    "duration_seconds": 14.78,
     "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. pursuit pressure wide; handheld rear track; navy lamps sweep the canal; Mira chooses the narrower creature culvert instead of the open human exit. Emotional action must remain readable before spectacle.",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. intimate closeup; settle; Mira sees Tam take a whip blow meant for the child. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "handheld rear track",
-    "dialogue": "MIRA: If they can pass, we pass smaller.",
-    "audio_direction": "alarm bell, water rush, rope snap",
-    "director_note": "Mira adapts rather than dominating creatures",
+    "camera_intent": "settle",
+    "dialogue": "",
+    "audio_direction": "breath/room tone",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition",
     "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "tam_costume",
-      "rook_face_costume",
-      "iron_chamber_geography",
-      "copied_key_prop",
-      "stormglass_wall_continuity",
-      "navy_ship_geography",
-      "sound_motif_continuity",
-      "creature_pen_geography",
-      "memory_proof_scales",
-      "mother_call_motif"
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
     ],
     "required_reference_assets": [
       {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
       },
       {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
       },
       {
-        "dependency": "tam_costume",
-        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
       },
       {
-        "dependency": "rook_face_costume",
-        "asset_prompt": "Rook reference sheet: controlled institutional antagonist, severe face, dark official costume, chain/control-key insignia, no cartoon villain exaggeration"
-      },
-      {
-        "dependency": "iron_chamber_geography",
-        "asset_prompt": "continuity reference asset for iron_chamber_geography"
-      },
-      {
-        "dependency": "copied_key_prop",
-        "asset_prompt": "continuity reference asset for copied_key_prop"
-      },
-      {
-        "dependency": "stormglass_wall_continuity",
-        "asset_prompt": "stormglass wall/network material plate: translucent cyan-gold veins, sanctuary lattice behavior, how light travels through stone"
-      },
-      {
-        "dependency": "navy_ship_geography",
-        "asset_prompt": "continuity reference asset for navy_ship_geography"
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
       },
       {
         "dependency": "sound_motif_continuity",
         "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      },
-      {
-        "dependency": "creature_pen_geography",
-        "asset_prompt": "continuity reference asset for creature_pen_geography"
-      },
-      {
-        "dependency": "memory_proof_scales",
-        "asset_prompt": "memory-scale prop reference: small luminous scales capable of projecting memories, readable glow, consistent shape and activation state"
-      },
-      {
-        "dependency": "mother_call_motif",
-        "asset_prompt": "audio motif note: three-part parent/child call that can echo, answer, distort under control, and resolve as a lullaby"
       }
     ],
     "qa_checks": [
@@ -1092,79 +147,44 @@
     ]
   },
   {
-    "shot_id": "S06_SB014",
+    "shot_id": "S06_DS004",
     "scene_id": "S06",
-    "timecode": "249.7-269.4",
-    "duration_seconds": 19.7,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. Tam repair action; whip pan then hold; a falling gate separates Tam from Mira; he throws the copied key through the gap and stays behind to jam the mechanism. Emotional action must remain readable before spectacle.",
+    "timecode": "54.19-73.70",
+    "duration_seconds": 19.5,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. action wide; lateral track; escape while testing whether Tam can be trusted. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "whip pan then hold",
-    "dialogue": "TAM: You do not have to forgive me. Just do not waste it.",
-    "audio_direction": "metal impact, gate grind, key skid",
-    "director_note": "costly action earns trust more than apology",
+    "camera_intent": "lateral track",
+    "dialogue": "",
+    "audio_direction": "environmental action foley",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement",
     "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "tam_costume",
-      "rook_face_costume",
-      "iron_chamber_geography",
-      "copied_key_prop",
-      "stormglass_wall_continuity",
-      "navy_ship_geography",
-      "sound_motif_continuity",
-      "creature_pen_geography",
-      "memory_proof_scales",
-      "mother_call_motif"
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
     ],
     "required_reference_assets": [
       {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
       },
       {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
       },
       {
-        "dependency": "tam_costume",
-        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
       },
       {
-        "dependency": "rook_face_costume",
-        "asset_prompt": "Rook reference sheet: controlled institutional antagonist, severe face, dark official costume, chain/control-key insignia, no cartoon villain exaggeration"
-      },
-      {
-        "dependency": "iron_chamber_geography",
-        "asset_prompt": "continuity reference asset for iron_chamber_geography"
-      },
-      {
-        "dependency": "copied_key_prop",
-        "asset_prompt": "continuity reference asset for copied_key_prop"
-      },
-      {
-        "dependency": "stormglass_wall_continuity",
-        "asset_prompt": "stormglass wall/network material plate: translucent cyan-gold veins, sanctuary lattice behavior, how light travels through stone"
-      },
-      {
-        "dependency": "navy_ship_geography",
-        "asset_prompt": "continuity reference asset for navy_ship_geography"
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
       },
       {
         "dependency": "sound_motif_continuity",
         "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      },
-      {
-        "dependency": "creature_pen_geography",
-        "asset_prompt": "continuity reference asset for creature_pen_geography"
-      },
-      {
-        "dependency": "memory_proof_scales",
-        "asset_prompt": "memory-scale prop reference: small luminous scales capable of projecting memories, readable glow, consistent shape and activation state"
-      },
-      {
-        "dependency": "mother_call_motif",
-        "asset_prompt": "audio motif note: three-part parent/child call that can echo, answer, distort under control, and resolve as a lullaby"
       }
     ],
     "qa_checks": [
@@ -1176,79 +196,93 @@
     ]
   },
   {
-    "shot_id": "S06_SB015",
+    "shot_id": "S06_DS005",
     "scene_id": "S06",
-    "timecode": "269.4-281.9",
-    "duration_seconds": 12.5,
+    "timecode": "73.70-93.20",
+    "duration_seconds": 19.5,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. action wide; lateral track; escape while testing whether Tam can be trusted. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "lateral track",
+    "dialogue": "",
+    "audio_direction": "environmental action foley",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS006",
+    "scene_id": "S06",
+    "timecode": "93.20-116.19",
+    "duration_seconds": 22.99,
     "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. child underwater close; submerged slow drift; the child dives after a dropped memory-scale; its fear light flares, then steadies when Mira's hand appears beside it rather than grabbing it. Emotional action must remain readable before spectacle.",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; slow tightening; Mira must free other creatures before the ship locks down. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "submerged slow drift",
-    "dialogue": "none",
-    "audio_direction": "underwater pressure, heartbeat, muted glass ping",
-    "director_note": "protection respects agency under panic",
+    "camera_intent": "slow tightening",
+    "dialogue": "Pain makes it obey. Trust makes it answer.",
+    "audio_direction": "dialogue remains intelligible under weather and crowd effects",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions",
     "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "tam_costume",
-      "rook_face_costume",
-      "iron_chamber_geography",
-      "copied_key_prop",
-      "stormglass_wall_continuity",
-      "navy_ship_geography",
-      "sound_motif_continuity",
-      "creature_pen_geography",
-      "memory_proof_scales",
-      "mother_call_motif"
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
     ],
     "required_reference_assets": [
       {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
       },
       {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
       },
       {
-        "dependency": "tam_costume",
-        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
       },
       {
-        "dependency": "rook_face_costume",
-        "asset_prompt": "Rook reference sheet: controlled institutional antagonist, severe face, dark official costume, chain/control-key insignia, no cartoon villain exaggeration"
-      },
-      {
-        "dependency": "iron_chamber_geography",
-        "asset_prompt": "continuity reference asset for iron_chamber_geography"
-      },
-      {
-        "dependency": "copied_key_prop",
-        "asset_prompt": "continuity reference asset for copied_key_prop"
-      },
-      {
-        "dependency": "stormglass_wall_continuity",
-        "asset_prompt": "stormglass wall/network material plate: translucent cyan-gold veins, sanctuary lattice behavior, how light travels through stone"
-      },
-      {
-        "dependency": "navy_ship_geography",
-        "asset_prompt": "continuity reference asset for navy_ship_geography"
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
       },
       {
         "dependency": "sound_motif_continuity",
         "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      },
-      {
-        "dependency": "creature_pen_geography",
-        "asset_prompt": "continuity reference asset for creature_pen_geography"
-      },
-      {
-        "dependency": "memory_proof_scales",
-        "asset_prompt": "memory-scale prop reference: small luminous scales capable of projecting memories, readable glow, consistent shape and activation state"
-      },
-      {
-        "dependency": "mother_call_motif",
-        "asset_prompt": "audio motif note: three-part parent/child call that can echo, answer, distort under control, and resolve as a lullaby"
       }
     ],
     "qa_checks": [
@@ -1260,79 +294,44 @@
     ]
   },
   {
-    "shot_id": "S06_SB016",
+    "shot_id": "S06_DS007",
     "scene_id": "S06",
-    "timecode": "281.9-306.8",
-    "duration_seconds": 24.9,
+    "timecode": "116.19-139.18",
+    "duration_seconds": 22.99,
     "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. culvert emergence wide; slow ascending crane; creatures surface beyond the naval cordon and scatter toward the capital carrying the memory-proof; Tam rejoins soaked and bleeding. Emotional action must remain readable before spectacle.",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; slow tightening; Mira must free other creatures before the ship locks down. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "slow ascending crane",
-    "dialogue": "MIRA: We are not even. But trust can move before forgiveness.",
-    "audio_direction": "rain, wings/fins dispersal, exhausted breath",
-    "director_note": "fragile trust and mission forward",
+    "camera_intent": "slow tightening",
+    "dialogue": "",
+    "audio_direction": "dialogue remains intelligible under weather and crowd effects",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions",
     "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "tam_costume",
-      "rook_face_costume",
-      "iron_chamber_geography",
-      "copied_key_prop",
-      "stormglass_wall_continuity",
-      "navy_ship_geography",
-      "sound_motif_continuity",
-      "creature_pen_geography",
-      "memory_proof_scales",
-      "mother_call_motif"
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
     ],
     "required_reference_assets": [
       {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
       },
       {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
       },
       {
-        "dependency": "tam_costume",
-        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
       },
       {
-        "dependency": "rook_face_costume",
-        "asset_prompt": "Rook reference sheet: controlled institutional antagonist, severe face, dark official costume, chain/control-key insignia, no cartoon villain exaggeration"
-      },
-      {
-        "dependency": "iron_chamber_geography",
-        "asset_prompt": "continuity reference asset for iron_chamber_geography"
-      },
-      {
-        "dependency": "copied_key_prop",
-        "asset_prompt": "continuity reference asset for copied_key_prop"
-      },
-      {
-        "dependency": "stormglass_wall_continuity",
-        "asset_prompt": "stormglass wall/network material plate: translucent cyan-gold veins, sanctuary lattice behavior, how light travels through stone"
-      },
-      {
-        "dependency": "navy_ship_geography",
-        "asset_prompt": "continuity reference asset for navy_ship_geography"
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
       },
       {
         "dependency": "sound_motif_continuity",
         "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      },
-      {
-        "dependency": "creature_pen_geography",
-        "asset_prompt": "continuity reference asset for creature_pen_geography"
-      },
-      {
-        "dependency": "memory_proof_scales",
-        "asset_prompt": "memory-scale prop reference: small luminous scales capable of projecting memories, readable glow, consistent shape and activation state"
-      },
-      {
-        "dependency": "mother_call_motif",
-        "asset_prompt": "audio motif note: three-part parent/child call that can echo, answer, distort under control, and resolve as a lullaby"
       }
     ],
     "qa_checks": [
@@ -1344,79 +343,44 @@
     ]
   },
   {
-    "shot_id": "S06_SB017",
+    "shot_id": "S06_DS008",
     "scene_id": "S06",
-    "timecode": "306.8-331.7",
-    "duration_seconds": 24.9,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. storm vault transition; low descending track; beneath the capital the child freezes; a vast mother-call vibrates through the storm vault walls and every scale answers blue. Emotional action must remain readable before spectacle.",
+    "timecode": "139.18-151.91",
+    "duration_seconds": 12.73,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. pressure insert; macro; Mira must free other creatures before the ship locks down. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "low descending track",
-    "dialogue": "none",
-    "audio_direction": "deep sub-bass call, answering scale chorus, sudden silence",
-    "director_note": "retention hook: the child may not be the last",
+    "camera_intent": "macro",
+    "dialogue": "",
+    "audio_direction": "object/room texture",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: insert pressure detail",
     "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "tam_costume",
-      "rook_face_costume",
-      "iron_chamber_geography",
-      "copied_key_prop",
-      "stormglass_wall_continuity",
-      "navy_ship_geography",
-      "sound_motif_continuity",
-      "creature_pen_geography",
-      "memory_proof_scales",
-      "mother_call_motif"
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
     ],
     "required_reference_assets": [
       {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
       },
       {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
       },
       {
-        "dependency": "tam_costume",
-        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
       },
       {
-        "dependency": "rook_face_costume",
-        "asset_prompt": "Rook reference sheet: controlled institutional antagonist, severe face, dark official costume, chain/control-key insignia, no cartoon villain exaggeration"
-      },
-      {
-        "dependency": "iron_chamber_geography",
-        "asset_prompt": "continuity reference asset for iron_chamber_geography"
-      },
-      {
-        "dependency": "copied_key_prop",
-        "asset_prompt": "continuity reference asset for copied_key_prop"
-      },
-      {
-        "dependency": "stormglass_wall_continuity",
-        "asset_prompt": "stormglass wall/network material plate: translucent cyan-gold veins, sanctuary lattice behavior, how light travels through stone"
-      },
-      {
-        "dependency": "navy_ship_geography",
-        "asset_prompt": "continuity reference asset for navy_ship_geography"
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
       },
       {
         "dependency": "sound_motif_continuity",
         "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      },
-      {
-        "dependency": "creature_pen_geography",
-        "asset_prompt": "continuity reference asset for creature_pen_geography"
-      },
-      {
-        "dependency": "memory_proof_scales",
-        "asset_prompt": "memory-scale prop reference: small luminous scales capable of projecting memories, readable glow, consistent shape and activation state"
-      },
-      {
-        "dependency": "mother_call_motif",
-        "asset_prompt": "audio motif note: three-part parent/child call that can echo, answer, distort under control, and resolve as a lullaby"
       }
     ],
     "qa_checks": [
@@ -1428,79 +392,44 @@
     ]
   },
   {
-    "shot_id": "S06_SB018",
+    "shot_id": "S06_DS009",
     "scene_id": "S06",
-    "timecode": "331.7-349.3",
-    "duration_seconds": 17.6,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. canal gate wide; handheld forward track; the first channel-test pulse travels through the water and starts closing a stormglass gate ahead of the escaping creatures. Emotional action must remain readable before spectacle.",
+    "timecode": "151.91-164.63",
+    "duration_seconds": 12.73,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. pressure insert; macro; Mira must free other creatures before the ship locks down. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "handheld forward track",
-    "dialogue": "ROOK DISTANT: Begin the channel test.",
-    "audio_direction": "deep pulse, gate grind, fleet bell layering",
-    "director_note": "public weaponization countdown directly endangers the escape",
+    "camera_intent": "macro",
+    "dialogue": "",
+    "audio_direction": "object/room texture",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: insert pressure detail",
     "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "tam_costume",
-      "rook_face_costume",
-      "iron_chamber_geography",
-      "copied_key_prop",
-      "stormglass_wall_continuity",
-      "navy_ship_geography",
-      "sound_motif_continuity",
-      "creature_pen_geography",
-      "memory_proof_scales",
-      "mother_call_motif"
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
     ],
     "required_reference_assets": [
       {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
       },
       {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
       },
       {
-        "dependency": "tam_costume",
-        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
       },
       {
-        "dependency": "rook_face_costume",
-        "asset_prompt": "Rook reference sheet: controlled institutional antagonist, severe face, dark official costume, chain/control-key insignia, no cartoon villain exaggeration"
-      },
-      {
-        "dependency": "iron_chamber_geography",
-        "asset_prompt": "continuity reference asset for iron_chamber_geography"
-      },
-      {
-        "dependency": "copied_key_prop",
-        "asset_prompt": "continuity reference asset for copied_key_prop"
-      },
-      {
-        "dependency": "stormglass_wall_continuity",
-        "asset_prompt": "stormglass wall/network material plate: translucent cyan-gold veins, sanctuary lattice behavior, how light travels through stone"
-      },
-      {
-        "dependency": "navy_ship_geography",
-        "asset_prompt": "continuity reference asset for navy_ship_geography"
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
       },
       {
         "dependency": "sound_motif_continuity",
         "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      },
-      {
-        "dependency": "creature_pen_geography",
-        "asset_prompt": "continuity reference asset for creature_pen_geography"
-      },
-      {
-        "dependency": "memory_proof_scales",
-        "asset_prompt": "memory-scale prop reference: small luminous scales capable of projecting memories, readable glow, consistent shape and activation state"
-      },
-      {
-        "dependency": "mother_call_motif",
-        "asset_prompt": "audio motif note: three-part parent/child call that can echo, answer, distort under control, and resolve as a lullaby"
       }
     ],
     "qa_checks": [
@@ -1512,79 +441,142 @@
     ]
   },
   {
-    "shot_id": "S06_SB019",
+    "shot_id": "S06_DS010",
     "scene_id": "S06",
-    "timecode": "349.3-364.1",
-    "duration_seconds": 14.8,
+    "timecode": "164.63-180.65",
+    "duration_seconds": 16.01,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. vertical composition; high or low angle; canal depth behind foreground decision faces. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "high or low angle",
+    "dialogue": "",
+    "audio_direction": "negative space",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS011",
+    "scene_id": "S06",
+    "timecode": "180.65-196.66",
+    "duration_seconds": 16.01,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. vertical composition; high or low angle; canal depth behind foreground decision faces. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "high or low angle",
+    "dialogue": "",
+    "audio_direction": "negative space",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS012",
+    "scene_id": "S06",
+    "timecode": "196.66-218.21",
+    "duration_seconds": 21.55,
     "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. whip blow two-shot; whip pan then static hold; a guard's whip arcs toward the child; Tam takes the blow across his back without using the child as a shield. Emotional action must remain readable before spectacle.",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; Protection means risking attachment without turning love into control.. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "whip pan then static hold",
-    "dialogue": "TAM: Not forgiveness. Proof.",
-    "audio_direction": "whip impact, breath shock, music drops out",
-    "director_note": "trust is repaired through cost, not apology",
+    "camera_intent": "slow lateral drift",
+    "dialogue": "",
+    "audio_direction": "lullaby motif evolves with trust rather than constant emotional wallpaper",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation",
     "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "tam_costume",
-      "rook_face_costume",
-      "iron_chamber_geography",
-      "copied_key_prop",
-      "stormglass_wall_continuity",
-      "navy_ship_geography",
-      "sound_motif_continuity",
-      "creature_pen_geography",
-      "memory_proof_scales",
-      "mother_call_motif"
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
     ],
     "required_reference_assets": [
       {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
       },
       {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
       },
       {
-        "dependency": "tam_costume",
-        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
       },
       {
-        "dependency": "rook_face_costume",
-        "asset_prompt": "Rook reference sheet: controlled institutional antagonist, severe face, dark official costume, chain/control-key insignia, no cartoon villain exaggeration"
-      },
-      {
-        "dependency": "iron_chamber_geography",
-        "asset_prompt": "continuity reference asset for iron_chamber_geography"
-      },
-      {
-        "dependency": "copied_key_prop",
-        "asset_prompt": "continuity reference asset for copied_key_prop"
-      },
-      {
-        "dependency": "stormglass_wall_continuity",
-        "asset_prompt": "stormglass wall/network material plate: translucent cyan-gold veins, sanctuary lattice behavior, how light travels through stone"
-      },
-      {
-        "dependency": "navy_ship_geography",
-        "asset_prompt": "continuity reference asset for navy_ship_geography"
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
       },
       {
         "dependency": "sound_motif_continuity",
         "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      },
-      {
-        "dependency": "creature_pen_geography",
-        "asset_prompt": "continuity reference asset for creature_pen_geography"
-      },
-      {
-        "dependency": "memory_proof_scales",
-        "asset_prompt": "memory-scale prop reference: small luminous scales capable of projecting memories, readable glow, consistent shape and activation state"
-      },
-      {
-        "dependency": "mother_call_motif",
-        "asset_prompt": "audio motif note: three-part parent/child call that can echo, answer, distort under control, and resolve as a lullaby"
       }
     ],
     "qa_checks": [
@@ -1596,79 +588,44 @@
     ]
   },
   {
-    "shot_id": "S06_SB020",
+    "shot_id": "S06_DS013",
     "scene_id": "S06",
-    "timecode": "364.1-388.0",
-    "duration_seconds": 23.9,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. creature stream wide; underwater-to-surface crane; freed creatures stream through the storm-lit canal carrying memory-scales toward separate capital witnesses while the child's scales answer the distant mother-call. Emotional action must remain readable before spectacle.",
+    "timecode": "218.21-239.77",
+    "duration_seconds": 21.55,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; Protection means risking attachment without turning love into control.. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "underwater-to-surface crane",
-    "dialogue": "MIRA: Go. Carry what they tried to burn.",
-    "audio_direction": "water rush, memory chimes, mother-call undertone",
-    "director_note": "proof, creatures, and family mystery move together",
+    "camera_intent": "slow lateral drift",
+    "dialogue": "",
+    "audio_direction": "lullaby motif evolves with trust rather than constant emotional wallpaper",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation",
     "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "tam_costume",
-      "rook_face_costume",
-      "iron_chamber_geography",
-      "copied_key_prop",
-      "stormglass_wall_continuity",
-      "navy_ship_geography",
-      "sound_motif_continuity",
-      "creature_pen_geography",
-      "memory_proof_scales",
-      "mother_call_motif"
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
     ],
     "required_reference_assets": [
       {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
       },
       {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
       },
       {
-        "dependency": "tam_costume",
-        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
       },
       {
-        "dependency": "rook_face_costume",
-        "asset_prompt": "Rook reference sheet: controlled institutional antagonist, severe face, dark official costume, chain/control-key insignia, no cartoon villain exaggeration"
-      },
-      {
-        "dependency": "iron_chamber_geography",
-        "asset_prompt": "continuity reference asset for iron_chamber_geography"
-      },
-      {
-        "dependency": "copied_key_prop",
-        "asset_prompt": "continuity reference asset for copied_key_prop"
-      },
-      {
-        "dependency": "stormglass_wall_continuity",
-        "asset_prompt": "stormglass wall/network material plate: translucent cyan-gold veins, sanctuary lattice behavior, how light travels through stone"
-      },
-      {
-        "dependency": "navy_ship_geography",
-        "asset_prompt": "continuity reference asset for navy_ship_geography"
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
       },
       {
         "dependency": "sound_motif_continuity",
         "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      },
-      {
-        "dependency": "creature_pen_geography",
-        "asset_prompt": "continuity reference asset for creature_pen_geography"
-      },
-      {
-        "dependency": "memory_proof_scales",
-        "asset_prompt": "memory-scale prop reference: small luminous scales capable of projecting memories, readable glow, consistent shape and activation state"
-      },
-      {
-        "dependency": "mother_call_motif",
-        "asset_prompt": "audio motif note: three-part parent/child call that can echo, answer, distort under control, and resolve as a lullaby"
       }
     ],
     "qa_checks": [
@@ -1680,79 +637,436 @@
     ]
   },
   {
-    "shot_id": "S06_SB021",
+    "shot_id": "S06_DS014",
     "scene_id": "S06",
-    "timecode": "388.0-420.0",
-    "duration_seconds": 32.0,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final canal dawn wide; slow retreat; dawn breaks over the canal as Rook's fleet bells begin the weaponization test; Mira, Tam, and the child turn toward the capital instead of safety. Emotional action must remain readable before spectacle.",
+    "timecode": "239.77-256.60",
+    "duration_seconds": 16.83,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; Mira accepts Tam's key but not yet his apology. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "slow retreat",
-    "dialogue": "ROOK DISTANT: Open the channel.",
-    "audio_direction": "fleet bells, distant thunder, lullaby fragment harmonizing with mother-call",
-    "director_note": "exit on deeper family mystery plus public countdown",
+    "camera_intent": "static intimate",
+    "dialogue": "You don't save a child by becoming its cage.",
+    "audio_direction": "music drops before decision",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible",
     "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "tam_costume",
-      "rook_face_costume",
-      "iron_chamber_geography",
-      "copied_key_prop",
-      "stormglass_wall_continuity",
-      "navy_ship_geography",
-      "sound_motif_continuity",
-      "creature_pen_geography",
-      "memory_proof_scales",
-      "mother_call_motif"
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
     ],
     "required_reference_assets": [
       {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
       },
       {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
       },
       {
-        "dependency": "tam_costume",
-        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
       },
       {
-        "dependency": "rook_face_costume",
-        "asset_prompt": "Rook reference sheet: controlled institutional antagonist, severe face, dark official costume, chain/control-key insignia, no cartoon villain exaggeration"
-      },
-      {
-        "dependency": "iron_chamber_geography",
-        "asset_prompt": "continuity reference asset for iron_chamber_geography"
-      },
-      {
-        "dependency": "copied_key_prop",
-        "asset_prompt": "continuity reference asset for copied_key_prop"
-      },
-      {
-        "dependency": "stormglass_wall_continuity",
-        "asset_prompt": "stormglass wall/network material plate: translucent cyan-gold veins, sanctuary lattice behavior, how light travels through stone"
-      },
-      {
-        "dependency": "navy_ship_geography",
-        "asset_prompt": "continuity reference asset for navy_ship_geography"
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
       },
       {
         "dependency": "sound_motif_continuity",
         "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS015",
+    "scene_id": "S06",
+    "timecode": "256.60-273.43",
+    "duration_seconds": 16.83,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; Mira accepts Tam's key but not yet his apology. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "static intimate",
+    "dialogue": "",
+    "audio_direction": "music drops before decision",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
       },
       {
-        "dependency": "creature_pen_geography",
-        "asset_prompt": "continuity reference asset for creature_pen_geography"
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
       },
       {
-        "dependency": "memory_proof_scales",
-        "asset_prompt": "memory-scale prop reference: small luminous scales capable of projecting memories, readable glow, consistent shape and activation state"
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
       },
       {
-        "dependency": "mother_call_motif",
-        "asset_prompt": "audio motif note: three-part parent/child call that can echo, answer, distort under control, and resolve as a lullaby"
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS016",
+    "scene_id": "S06",
+    "timecode": "273.43-300.94",
+    "duration_seconds": 27.51,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. turn wide; reframe; rescue expands from one child to all captive creatures. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "reframe",
+    "dialogue": "",
+    "audio_direction": "sound motif shifts",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS017",
+    "scene_id": "S06",
+    "timecode": "300.94-328.45",
+    "duration_seconds": 27.51,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. turn wide; reframe; rescue expands from one child to all captive creatures. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "reframe",
+    "dialogue": "",
+    "audio_direction": "sound motif shifts",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS018",
+    "scene_id": "S06",
+    "timecode": "328.45-347.33",
+    "duration_seconds": 18.89,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. consequence wide; backward track; visible consequence of Mira accepts Tam's key but not yet his apology. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "backward track",
+    "dialogue": "",
+    "audio_direction": "consequence foley",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS019",
+    "scene_id": "S06",
+    "timecode": "347.33-366.22",
+    "duration_seconds": 18.89,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. consequence wide; backward track; visible consequence of Mira accepts Tam's key but not yet his apology. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "backward track",
+    "dialogue": "",
+    "audio_direction": "consequence foley",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS020",
+    "scene_id": "S06",
+    "timecode": "366.22-378.12",
+    "duration_seconds": 11.91,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. sensory bridge; insert or detail; freed creatures streaming through storm-lit canals. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "insert or detail",
+    "dialogue": "",
+    "audio_direction": "object/motif texture",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS021",
+    "scene_id": "S06",
+    "timecode": "378.12-390.03",
+    "duration_seconds": 11.91,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. sensory bridge; insert or detail; freed creatures streaming through storm-lit canals. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "insert or detail",
+    "dialogue": "",
+    "audio_direction": "object/motif texture",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS022",
+    "scene_id": "S06",
+    "timecode": "390.03-420.00",
+    "duration_seconds": 29.97,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final image; slow pull-back; freed creatures streaming through storm-lit canals. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow pull-back",
+    "dialogue": "Pain makes it obey. Trust makes it answer.",
+    "audio_direction": "three-note lullaby answered by glassy creature harmonics unresolved",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
       }
     ],
     "qa_checks": [

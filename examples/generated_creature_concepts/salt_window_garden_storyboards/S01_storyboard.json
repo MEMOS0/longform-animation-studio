@@ -5,8 +5,8 @@
   "shots": [
     {
       "shot_id": "S01_DS001",
-      "timecode": "0.00-22.40",
-      "duration_seconds": 22.4,
+      "timecode": "0.00-21.57",
+      "duration_seconds": 21.57,
       "scene_id": "S01",
       "shot_size": "wide establishing",
       "camera_intent": "slow push",
@@ -25,8 +25,8 @@
     },
     {
       "shot_id": "S01_DS002",
-      "timecode": "22.40-35.84",
-      "duration_seconds": 13.44,
+      "timecode": "21.57-34.51",
+      "duration_seconds": 12.94,
       "scene_id": "S01",
       "shot_size": "intimate closeup",
       "camera_intent": "settle",
@@ -45,8 +45,8 @@
     },
     {
       "shot_id": "S01_DS003",
-      "timecode": "35.84-53.57",
-      "duration_seconds": 17.73,
+      "timecode": "34.51-51.59",
+      "duration_seconds": 17.08,
       "scene_id": "S01",
       "shot_size": "action wide",
       "camera_intent": "lateral track",
@@ -65,8 +65,8 @@
     },
     {
       "shot_id": "S01_DS004",
-      "timecode": "53.57-74.48",
-      "duration_seconds": 20.91,
+      "timecode": "51.59-71.72",
+      "duration_seconds": 20.13,
       "scene_id": "S01",
       "shot_size": "power two-shot",
       "camera_intent": "slow tightening",
@@ -85,8 +85,8 @@
     },
     {
       "shot_id": "S01_DS005",
-      "timecode": "74.48-95.39",
-      "duration_seconds": 20.91,
+      "timecode": "71.72-91.85",
+      "duration_seconds": 20.13,
       "scene_id": "S01",
       "shot_size": "power two-shot",
       "camera_intent": "slow tightening",
@@ -105,8 +105,8 @@
     },
     {
       "shot_id": "S01_DS006",
-      "timecode": "95.39-106.96",
-      "duration_seconds": 11.57,
+      "timecode": "91.85-102.99",
+      "duration_seconds": 11.14,
       "scene_id": "S01",
       "shot_size": "pressure insert",
       "camera_intent": "macro",
@@ -125,28 +125,8 @@
     },
     {
       "shot_id": "S01_DS007",
-      "timecode": "106.96-131.97",
-      "duration_seconds": 25.01,
-      "scene_id": "S01",
-      "shot_size": "turn wide",
-      "camera_intent": "reframe",
-      "visual_action": "the moonfin child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
-      "dialogue": "",
-      "sound_design": "sound motif shifts",
-      "generation_lane": "hero",
-      "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
-    },
-    {
-      "shot_id": "S01_DS008",
-      "timecode": "131.97-146.53",
-      "duration_seconds": 14.56,
+      "timecode": "102.99-117.01",
+      "duration_seconds": 14.02,
       "scene_id": "S01",
       "shot_size": "vertical composition",
       "camera_intent": "high or low angle",
@@ -164,9 +144,9 @@
       "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
     },
     {
-      "shot_id": "S01_DS009",
-      "timecode": "146.53-166.13",
-      "duration_seconds": 19.6,
+      "shot_id": "S01_DS008",
+      "timecode": "117.01-135.89",
+      "duration_seconds": 18.87,
       "scene_id": "S01",
       "shot_size": "subtext two-shot",
       "camera_intent": "slow lateral drift",
@@ -184,9 +164,9 @@
       "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
     },
     {
-      "shot_id": "S01_DS010",
-      "timecode": "166.13-181.44",
-      "duration_seconds": 15.31,
+      "shot_id": "S01_DS009",
+      "timecode": "135.89-150.62",
+      "duration_seconds": 14.74,
       "scene_id": "S01",
       "shot_size": "decision closeup",
       "camera_intent": "static intimate",
@@ -204,16 +184,16 @@
       "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
     },
     {
-      "shot_id": "S01_DS011",
-      "timecode": "181.44-196.75",
-      "duration_seconds": 15.31,
+      "shot_id": "S01_DS010",
+      "timecode": "150.62-174.71",
+      "duration_seconds": 24.09,
       "scene_id": "S01",
-      "shot_size": "decision closeup",
-      "camera_intent": "static intimate",
-      "visual_action": "hide the creature's value or protect it before knowing whether anyone will help",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "the moonfin child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
       "dialogue": "",
-      "sound_design": "music drops before decision",
-      "generation_lane": "mid",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
       "continuity_dependencies": [
         "protagonist_face_costume",
         "location_geography",
@@ -221,12 +201,32 @@
         "meaning_carrier_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+    },
+    {
+      "shot_id": "S01_DS011",
+      "timecode": "174.71-198.80",
+      "duration_seconds": 24.09,
+      "scene_id": "S01",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "the moonfin child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
     },
     {
       "shot_id": "S01_DS012",
-      "timecode": "196.75-213.92",
-      "duration_seconds": 17.17,
+      "timecode": "198.80-215.33",
+      "duration_seconds": 16.54,
       "scene_id": "S01",
       "shot_size": "consequence wide",
       "camera_intent": "backward track",
@@ -245,8 +245,8 @@
     },
     {
       "shot_id": "S01_DS013",
-      "timecode": "213.92-224.75",
-      "duration_seconds": 10.83,
+      "timecode": "215.33-225.76",
+      "duration_seconds": 10.43,
       "scene_id": "S01",
       "shot_size": "sensory bridge",
       "camera_intent": "insert or detail",
@@ -265,8 +265,8 @@
     },
     {
       "shot_id": "S01_DS014",
-      "timecode": "224.75-252.00",
-      "duration_seconds": 27.25,
+      "timecode": "225.76-252.00",
+      "duration_seconds": 26.24,
       "scene_id": "S01",
       "shot_size": "final image",
       "camera_intent": "slow pull-back",

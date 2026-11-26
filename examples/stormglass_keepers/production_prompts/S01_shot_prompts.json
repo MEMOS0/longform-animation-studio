@@ -1,38 +1,190 @@
 [
   {
-    "shot_id": "S01_SB001",
+    "shot_id": "S01_DS001",
     "scene_id": "S01",
-    "timecode": "0.0-8.5",
-    "duration_seconds": 8.5,
+    "timecode": "0.00-21.99",
+    "duration_seconds": 21.99,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide establishing; slow push; a weighted net sinking into black water. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow push",
+    "dialogue": "",
+    "audio_direction": "drop music before each bonding or revelation beat so breath, scale chimes, and creature calls carry meaning",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: open on the scene image",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S01_DS002",
+    "scene_id": "S01",
+    "timecode": "21.99-35.19",
+    "duration_seconds": 13.19,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. intimate closeup; settle; Mira's face hardens when she recognizes the royal brand. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "settle",
+    "dialogue": "",
+    "audio_direction": "breath/room tone",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S01_DS003",
+    "scene_id": "S01",
+    "timecode": "35.19-48.38",
+    "duration_seconds": 13.19,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. intimate closeup; settle; Mira's face hardens when she recognizes the royal brand. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "settle",
+    "dialogue": "",
+    "audio_direction": "breath/room tone",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S01_DS004",
+    "scene_id": "S01",
+    "timecode": "48.38-65.79",
+    "duration_seconds": 17.41,
     "generation_lane": "draft",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide underwater; slow push-in; weighted net sinks through black water; small hand catches in rope. Emotional action must remain readable before spectacle.",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. action wide; lateral track; free the child without being identified. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "slow push-in",
-    "dialogue": "none",
-    "audio_direction": "water pressure, distant muffled rope strain",
-    "director_note": "generic scaffold slot replaced with exact staging",
+    "camera_intent": "lateral track",
+    "dialogue": "",
+    "audio_direction": "environmental action foley",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement",
     "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
     ],
     "required_reference_assets": [
       {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
       },
       {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
       },
       {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
       },
       {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
       }
     ],
     "qa_checks": [
@@ -44,39 +196,142 @@
     ]
   },
   {
-    "shot_id": "S01_SB002",
+    "shot_id": "S01_DS005",
     "scene_id": "S01",
-    "timecode": "8.5-14.9",
-    "duration_seconds": 6.4,
+    "timecode": "65.79-86.32",
+    "duration_seconds": 20.53,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; slow tightening; navy soldiers close in while the child's panic endangers everyone. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow tightening",
+    "dialogue": "Pain makes it obey. Trust makes it answer.",
+    "audio_direction": "dialogue remains intelligible under weather and crowd effects",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S01_DS006",
+    "scene_id": "S01",
+    "timecode": "86.32-106.84",
+    "duration_seconds": 20.53,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; slow tightening; navy soldiers close in while the child's panic endangers everyone. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow tightening",
+    "dialogue": "",
+    "audio_direction": "dialogue remains intelligible under weather and crowd effects",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S01_DS007",
+    "scene_id": "S01",
+    "timecode": "106.84-118.20",
+    "duration_seconds": 11.36,
     "generation_lane": "draft",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. insert; macro drift; child fingers claw at the weighted knot; air beads tear upward. Emotional action must remain readable before spectacle.",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. pressure insert; macro; navy soldiers close in while the child's panic endangers everyone. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "macro drift",
-    "dialogue": "none",
-    "audio_direction": "breath bubbles replace music",
-    "director_note": "generic scaffold slot replaced with exact staging",
+    "camera_intent": "macro",
+    "dialogue": "",
+    "audio_direction": "object/room texture",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: insert pressure detail",
     "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
     ],
     "required_reference_assets": [
       {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
       },
       {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
       },
       {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
       },
       {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
       }
     ],
     "qa_checks": [
@@ -88,39 +343,44 @@
     ]
   },
   {
-    "shot_id": "S01_SB003",
+    "shot_id": "S01_DS008",
     "scene_id": "S01",
-    "timecode": "14.9-24.1",
-    "duration_seconds": 9.2,
+    "timecode": "118.20-132.50",
+    "duration_seconds": 14.29,
     "generation_lane": "draft",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide dock; lateral lantern sweep; navy soldiers spread across wet planks, boots framing the capture line. Emotional action must remain readable before spectacle.",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. vertical composition; high or low angle; child framed low center, hands and net dominating foreground. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "lateral lantern sweep",
-    "dialogue": "SOLDIER: Hold the edge. Nothing leaves the water.",
-    "audio_direction": "lantern creak, boots, low wind",
-    "director_note": "generic scaffold slot replaced with exact staging",
+    "camera_intent": "high or low angle",
+    "dialogue": "",
+    "audio_direction": "negative space",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship",
     "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
     ],
     "required_reference_assets": [
       {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
       },
       {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
       },
       {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
       },
       {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
       }
     ],
     "qa_checks": [
@@ -132,39 +392,289 @@
     ]
   },
   {
-    "shot_id": "S01_SB004",
+    "shot_id": "S01_DS009",
     "scene_id": "S01",
-    "timecode": "24.1-31.0",
-    "duration_seconds": 6.9,
+    "timecode": "132.50-151.74",
+    "duration_seconds": 19.24,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; Protection means risking attachment without turning love into control.. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow lateral drift",
+    "dialogue": "",
+    "audio_direction": "lullaby motif evolves with trust rather than constant emotional wallpaper",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S01_DS010",
+    "scene_id": "S01",
+    "timecode": "151.74-170.98",
+    "duration_seconds": 19.24,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; Protection means risking attachment without turning love into control.. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow lateral drift",
+    "dialogue": "",
+    "audio_direction": "lullaby motif evolves with trust rather than constant emotional wallpaper",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S01_DS011",
+    "scene_id": "S01",
+    "timecode": "170.98-186.01",
+    "duration_seconds": 15.03,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; she cuts the net and shields the child with her body. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "static intimate",
+    "dialogue": "You don't save a child by becoming its cage.",
+    "audio_direction": "music drops before decision",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S01_DS012",
+    "scene_id": "S01",
+    "timecode": "186.01-210.57",
+    "duration_seconds": 24.56,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. turn wide; reframe; Mira becomes the child's protector at the cost of exposure. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "reframe",
+    "dialogue": "",
+    "audio_direction": "sound motif shifts",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S01_DS013",
+    "scene_id": "S01",
+    "timecode": "210.57-235.13",
+    "duration_seconds": 24.56,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. turn wide; reframe; Mira becomes the child's protector at the cost of exposure. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "reframe",
+    "dialogue": "",
+    "audio_direction": "sound motif shifts",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S01_DS014",
+    "scene_id": "S01",
+    "timecode": "235.13-251.99",
+    "duration_seconds": 16.86,
     "generation_lane": "draft",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. medium; hidden angle through ropes; Mira watches from behind a mooring post, hood low, body still. Emotional action must remain readable before spectacle.",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. consequence wide; backward track; visible consequence of she cuts the net and shields the child with her body. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "hidden angle through ropes",
-    "dialogue": "none",
-    "audio_direction": "music thins to a pulse",
-    "director_note": "generic scaffold slot replaced with exact staging",
+    "camera_intent": "backward track",
+    "dialogue": "",
+    "audio_direction": "consequence foley",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical",
     "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
     ],
     "required_reference_assets": [
       {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
       },
       {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
       },
       {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
       },
       {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
       }
     ],
     "qa_checks": [
@@ -176,391 +686,44 @@
     ]
   },
   {
-    "shot_id": "S01_SB005",
+    "shot_id": "S01_DS015",
     "scene_id": "S01",
-    "timecode": "31.0-43.6",
-    "duration_seconds": 12.6,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. insert; rack focus; royal brand glints on the child restraint; Mira recognizes it. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "rack focus",
-    "dialogue": "MIRA whisper: Crown property.",
-    "audio_direction": "single glass harmonic; near silence",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB006",
-    "scene_id": "S01",
-    "timecode": "43.6-51.0",
-    "duration_seconds": 7.4,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. close; handheld tremor; child panic makes scale-like light flicker beneath skin. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "handheld tremor",
-    "dialogue": "CHILD: Let go—please—",
-    "audio_direction": "ragged breath, rope tightening",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB007",
-    "scene_id": "S01",
-    "timecode": "51.0-58.0",
-    "duration_seconds": 7.0,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. medium wide; crane down; soldier commander raises the hook pole and blocks the escape path. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "crane down",
-    "dialogue": "COMMANDER: Pull it up. Alive if convenient.",
-    "audio_direction": "wood scrape, chain lift",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB008",
-    "scene_id": "S01",
-    "timecode": "58.0-65.9",
-    "duration_seconds": 7.9,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. close; slow zoom; Mira looks from the soldiers to the child; hiding stops being safety. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "slow zoom",
-    "dialogue": "MIRA: Not again.",
-    "audio_direction": "pulse drops out",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB009",
-    "scene_id": "S01",
-    "timecode": "65.9-72.9",
-    "duration_seconds": 7.0,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide; tracking burst; Mira crosses the dock and cuts one net line with a hooked knife. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "tracking burst",
-    "dialogue": "SOLDIER: Movement—left side!",
-    "audio_direction": "knife snap, boots pivot",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB010",
-    "scene_id": "S01",
-    "timecode": "72.9-79.6",
-    "duration_seconds": 6.7,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. low angle; child POV; child sees Mira as another threatening silhouette above the net. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "child POV",
-    "dialogue": "CHILD: Don’t—don’t touch me.",
-    "audio_direction": "water slap, ringing panic",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB011",
-    "scene_id": "S01",
-    "timecode": "79.6-84.8",
-    "duration_seconds": 5.2,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. shot reverse; tight alternating faces; Mira lowers her hands rather than grabbing. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "tight alternating faces",
-    "dialogue": "MIRA: Then don’t pull. The knot eats panic.",
-    "audio_direction": "voice close and dry; ambience lowered",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB012",
-    "scene_id": "S01",
-    "timecode": "84.8-94.0",
-    "duration_seconds": 9.2,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide; panic geometry; soldiers converge; commander points toward Mira’s exposed position. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "panic geometry",
-    "dialogue": "COMMANDER: There. Mask or exile, I want the face.",
-    "audio_direction": "crowd rhythm accelerates",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB013",
-    "scene_id": "S01",
-    "timecode": "94.0-101.4",
-    "duration_seconds": 7.4,
+    "timecode": "251.99-262.61",
+    "duration_seconds": 10.63,
     "generation_lane": "draft",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. insert; fast cut; net loosens; child surges upward but rope snaps tighter around the torso. Emotional action must remain readable before spectacle.",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. sensory bridge; insert or detail; first stormglass wall reflecting soldiers in fractured blue light. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "fast cut",
-    "dialogue": "CHILD gasps.",
-    "audio_direction": "rope bite, sudden silence after splash",
-    "director_note": "generic scaffold slot replaced with exact staging",
+    "camera_intent": "insert or detail",
+    "dialogue": "",
+    "audio_direction": "object/motif texture",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition",
     "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
     ],
     "required_reference_assets": [
       {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
       },
       {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
       },
       {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
       },
       {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
       }
     ],
     "qa_checks": [
@@ -572,919 +735,93 @@
     ]
   },
   {
-    "shot_id": "S01_SB014",
+    "shot_id": "S01_DS016",
     "scene_id": "S01",
-    "timecode": "101.4-107.6",
-    "duration_seconds": 6.2,
+    "timecode": "262.61-273.24",
+    "duration_seconds": 10.63,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. sensory bridge; insert or detail; first stormglass wall reflecting soldiers in fractured blue light. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "insert or detail",
+    "dialogue": "",
+    "audio_direction": "object/motif texture",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S01_DS017",
+    "scene_id": "S01",
+    "timecode": "273.24-300.00",
+    "duration_seconds": 26.76,
     "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. medium; body shield composition; Mira drops into the water edge and puts her body between hook pole and child. Emotional action must remain readable before spectacle.",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final image; slow pull-back; first stormglass wall reflecting soldiers in fractured blue light. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "body shield composition",
-    "dialogue": "MIRA: Aim at me then.",
-    "audio_direction": "impact splash; music withheld",
-    "director_note": "generic scaffold slot replaced with exact staging",
+    "camera_intent": "slow pull-back",
+    "dialogue": "Pain makes it obey. Trust makes it answer.",
+    "audio_direction": "three-note lullaby answered by glassy creature harmonics unresolved",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power",
     "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
     ],
     "required_reference_assets": [
       {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
       },
       {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
       },
       {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
       },
       {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB015",
-    "scene_id": "S01",
-    "timecode": "107.6-115.0",
-    "duration_seconds": 7.4,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. close commander; push-in; commander smiles at the exposed royal brand knowledge. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "push-in",
-    "dialogue": "COMMANDER: You know what that mark means.",
-    "audio_direction": "low drum enters",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
       },
       {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB016",
-    "scene_id": "S01",
-    "timecode": "115.0-127.6",
-    "duration_seconds": 12.6,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. two-shot; static moral axis; Mira keeps knife visible but points it at rope, not people. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "static moral axis",
-    "dialogue": "MIRA: Pain makes it obey. Trust makes it answer.",
-    "audio_direction": "three-note lullaby fragment",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB017",
-    "scene_id": "S01",
-    "timecode": "127.6-139.7",
-    "duration_seconds": 12.1,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. close child; slow settle; child stops thrashing enough to hear her own breath. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "slow settle",
-    "dialogue": "CHILD: How do I trust a knife?",
-    "audio_direction": "negative space; only breath/water",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB018",
-    "scene_id": "S01",
-    "timecode": "139.7-148.9",
-    "duration_seconds": 9.2,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide; closing circle; soldiers advance despite the pause; net winch resumes. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "closing circle",
-    "dialogue": "COMMANDER: Enough theatre. Take both.",
-    "audio_direction": "winch clank resumes",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB019",
-    "scene_id": "S01",
-    "timecode": "148.9-159.7",
-    "duration_seconds": 10.8,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. insert/action; whip pan; Mira cuts the final load-bearing rope, fully exposing her face to lantern light. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "whip pan",
-    "dialogue": "SOLDIER: It’s the exile!",
-    "audio_direction": "rope crack, soldiers shout",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB020",
-    "scene_id": "S01",
-    "timecode": "159.7-172.5",
-    "duration_seconds": 12.8,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. atmospheric wide; tilt up; first stormglass shimmer rises as blue fractures in the spray. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "tilt up",
-    "dialogue": "none",
-    "audio_direction": "glassy harmonic answers lullaby",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB021",
-    "scene_id": "S01",
-    "timecode": "172.5-182.3",
-    "duration_seconds": 9.8,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. close; mirrored response; child/creature-light answers the three notes instead of attacking. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "mirrored response",
-    "dialogue": "CHILD whisper: It hears you.",
-    "audio_direction": "lullaby plus creature harmonic",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB022",
-    "scene_id": "S01",
-    "timecode": "182.3-190.3",
-    "duration_seconds": 8.0,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. medium commander; hard angle; commander recovers authority and orders capture before witnesses spread panic. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "hard angle",
-    "dialogue": "COMMANDER: Close the pier. No one speaks of this.",
-    "audio_direction": "boots stamp in unison",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB023",
-    "scene_id": "S01",
-    "timecode": "190.3-201.3",
-    "duration_seconds": 11.0,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. spectacle wide; vertical reveal; stormglass wall rises between child and soldiers, reflecting them fractured. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "vertical reveal",
-    "dialogue": "SOLDIER: What is that?",
-    "audio_direction": "deep glass resonance; water recoil",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB024",
-    "scene_id": "S01",
-    "timecode": "201.3-209.3",
-    "duration_seconds": 8.0,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. medium; protective blocking; Mira moves the child behind her but keeps her own body outside the wall’s cover. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "protective blocking",
-    "dialogue": "MIRA: Stay behind me, not inside it.",
-    "audio_direction": "rain-like glass ticking",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB025",
-    "scene_id": "S01",
-    "timecode": "209.3-218.5",
-    "duration_seconds": 9.2,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. close; quiet pivot; child looks at the wall as a beautiful cage. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "quiet pivot",
-    "dialogue": "MIRA: You don’t save a child by becoming its cage.",
-    "audio_direction": "music nearly vanishes",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB026",
-    "scene_id": "S01",
-    "timecode": "218.5-226.5",
-    "duration_seconds": 8.0,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. medium soldier; hesitation insert; young soldier lowers hook a fraction, seeing the child as a child. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "hesitation insert",
-    "dialogue": "YOUNG SOLDIER: Sir… it’s small.",
-    "audio_direction": "single boot scrape",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB027",
-    "scene_id": "S01",
-    "timecode": "226.5-235.7",
-    "duration_seconds": 9.2,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. action wide; fast lateral; commander hurls hook/harpoon toward the exposed child. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "fast lateral",
-    "dialogue": "COMMANDER: It is cargo.",
-    "audio_direction": "sharp air split",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB028",
-    "scene_id": "S01",
-    "timecode": "235.7-240.9",
-    "duration_seconds": 5.2,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. spectacle insert; impact fracture; stormglass fractures outward and deflects the hook without touching the child. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "impact fracture",
-    "dialogue": "none",
-    "audio_direction": "violent chime then instant quiet",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB029",
-    "scene_id": "S01",
-    "timecode": "240.9-250.8",
-    "duration_seconds": 9.9,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide; escape geography; fracture opens a narrow canal path behind Mira; direction of escape is legible. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "escape geography",
-    "dialogue": "MIRA: Now. Choose.",
-    "audio_direction": "water rushes into channel",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB030",
-    "scene_id": "S01",
-    "timecode": "250.8-260.6",
-    "duration_seconds": 9.8,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. close hands; slow intimate; child reaches for Mira voluntarily rather than being grabbed. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "slow intimate",
-    "dialogue": "CHILD: Don’t squeeze.",
-    "audio_direction": "soft breath, lullaby third note",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB031",
-    "scene_id": "S01",
-    "timecode": "260.6-268.0",
-    "duration_seconds": 7.4,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. insert; care detail; Mira peels the last rope fibers off instead of binding the child tighter. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "care detail",
-    "dialogue": "MIRA: Then we do this loose.",
-    "audio_direction": "fibers tear softly",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB032",
-    "scene_id": "S01",
-    "timecode": "268.0-275.4",
-    "duration_seconds": 7.4,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide; cost of exposure; soldiers regroup; lanterns reveal Mira’s face clearly to the whole pier. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "cost of exposure",
-    "dialogue": "COMMANDER: Remember that face.",
-    "audio_direction": "alarm bell begins",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB033",
-    "scene_id": "S01",
-    "timecode": "275.4-284.1",
-    "duration_seconds": 8.7,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. hero wide; vertical composition; stormglass wall reflects soldiers in fractured blue light while child remains low center and protected. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "vertical composition",
-    "dialogue": "none",
-    "audio_direction": "alarm swallowed by glass resonance",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S01_SB034",
-    "scene_id": "S01",
-    "timecode": "284.1-300.0",
-    "duration_seconds": 15.9,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final tracking; backward tracking; Mira and child disappear through the narrow water path; commander remains framed behind fractured reflections. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "backward tracking",
-    "dialogue": "COMMANDER offscreen: Find the exile.",
-    "audio_direction": "three-note motif unresolved",
-    "director_note": "generic scaffold slot replaced with exact staging",
-    "continuity_dependencies": [
-      "mira_face_costume",
-      "child_face_scale_light",
-      "dock_geography",
-      "royal_net_brand"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "mira_face_costume",
-        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
-      },
-      {
-        "dependency": "child_face_scale_light",
-        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
-      },
-      {
-        "dependency": "dock_geography",
-        "asset_prompt": "continuity reference asset for dock_geography"
-      },
-      {
-        "dependency": "royal_net_brand",
-        "asset_prompt": "continuity reference asset for royal_net_brand"
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
       }
     ],
     "qa_checks": [

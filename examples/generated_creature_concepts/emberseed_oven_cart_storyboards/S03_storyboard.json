@@ -5,8 +5,8 @@
   "shots": [
     {
       "shot_id": "S03_DS001",
-      "timecode": "0.00-23.11",
-      "duration_seconds": 23.11,
+      "timecode": "0.00-21.99",
+      "duration_seconds": 21.99,
       "scene_id": "S03",
       "shot_size": "wide establishing",
       "camera_intent": "slow push",
@@ -25,8 +25,8 @@
     },
     {
       "shot_id": "S03_DS002",
-      "timecode": "23.11-36.97",
-      "duration_seconds": 13.86,
+      "timecode": "21.99-35.19",
+      "duration_seconds": 13.19,
       "scene_id": "S03",
       "shot_size": "intimate closeup",
       "camera_intent": "settle",
@@ -45,8 +45,8 @@
     },
     {
       "shot_id": "S03_DS003",
-      "timecode": "36.97-50.83",
-      "duration_seconds": 13.86,
+      "timecode": "35.19-48.38",
+      "duration_seconds": 13.19,
       "scene_id": "S03",
       "shot_size": "intimate closeup",
       "camera_intent": "settle",
@@ -65,8 +65,8 @@
     },
     {
       "shot_id": "S03_DS004",
-      "timecode": "50.83-69.13",
-      "duration_seconds": 18.29,
+      "timecode": "48.38-65.79",
+      "duration_seconds": 17.41,
       "scene_id": "S03",
       "shot_size": "action wide",
       "camera_intent": "lateral track",
@@ -85,8 +85,8 @@
     },
     {
       "shot_id": "S03_DS005",
-      "timecode": "69.13-90.69",
-      "duration_seconds": 21.57,
+      "timecode": "65.79-86.32",
+      "duration_seconds": 20.53,
       "scene_id": "S03",
       "shot_size": "power two-shot",
       "camera_intent": "slow tightening",
@@ -105,8 +105,8 @@
     },
     {
       "shot_id": "S03_DS006",
-      "timecode": "90.69-112.26",
-      "duration_seconds": 21.57,
+      "timecode": "86.32-106.84",
+      "duration_seconds": 20.53,
       "scene_id": "S03",
       "shot_size": "power two-shot",
       "camera_intent": "slow tightening",
@@ -125,8 +125,8 @@
     },
     {
       "shot_id": "S03_DS007",
-      "timecode": "112.26-124.20",
-      "duration_seconds": 11.94,
+      "timecode": "106.84-118.20",
+      "duration_seconds": 11.36,
       "scene_id": "S03",
       "shot_size": "pressure insert",
       "camera_intent": "macro",
@@ -145,15 +145,15 @@
     },
     {
       "shot_id": "S03_DS008",
-      "timecode": "124.20-150.00",
-      "duration_seconds": 25.8,
+      "timecode": "118.20-132.50",
+      "duration_seconds": 14.29,
       "scene_id": "S03",
-      "shot_size": "turn wide",
-      "camera_intent": "reframe",
-      "visual_action": "the coal guildmaster and Lio's status-hungry stepbrother repeats the public punishment while treating the creature's suffering as a resource input",
+      "shot_size": "vertical composition",
+      "camera_intent": "high or low angle",
+      "visual_action": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
       "dialogue": "",
-      "sound_design": "sound motif shifts",
-      "generation_lane": "hero",
+      "sound_design": "negative space",
+      "generation_lane": "draft",
       "continuity_dependencies": [
         "protagonist_face_costume",
         "location_geography",
@@ -161,52 +161,12 @@
         "meaning_carrier_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
     },
     {
       "shot_id": "S03_DS009",
-      "timecode": "150.00-165.02",
-      "duration_seconds": 15.02,
-      "scene_id": "S03",
-      "shot_size": "vertical composition",
-      "camera_intent": "high or low angle",
-      "visual_action": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
-      "dialogue": "",
-      "sound_design": "negative space",
-      "generation_lane": "draft",
-      "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
-    },
-    {
-      "shot_id": "S03_DS010",
-      "timecode": "165.02-180.04",
-      "duration_seconds": 15.02,
-      "scene_id": "S03",
-      "shot_size": "vertical composition",
-      "camera_intent": "high or low angle",
-      "visual_action": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
-      "dialogue": "",
-      "sound_design": "negative space",
-      "generation_lane": "draft",
-      "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
-    },
-    {
-      "shot_id": "S03_DS011",
-      "timecode": "180.04-200.26",
-      "duration_seconds": 20.22,
+      "timecode": "132.50-151.74",
+      "duration_seconds": 19.24,
       "scene_id": "S03",
       "shot_size": "subtext two-shot",
       "camera_intent": "slow lateral drift",
@@ -224,9 +184,29 @@
       "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
     },
     {
-      "shot_id": "S03_DS012",
-      "timecode": "200.26-216.05",
-      "duration_seconds": 15.79,
+      "shot_id": "S03_DS010",
+      "timecode": "151.74-170.98",
+      "duration_seconds": 19.24,
+      "scene_id": "S03",
+      "shot_size": "subtext two-shot",
+      "camera_intent": "slow lateral drift",
+      "visual_action": "Love and trust are shown through repeated protection, not declared as feelings.",
+      "dialogue": "",
+      "sound_design": "keep the creature's fear acoustically close while power remains reverberant and distant",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+    },
+    {
+      "shot_id": "S03_DS011",
+      "timecode": "170.98-186.01",
+      "duration_seconds": 15.03,
       "scene_id": "S03",
       "shot_size": "decision closeup",
       "camera_intent": "static intimate",
@@ -244,16 +224,16 @@
       "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
     },
     {
-      "shot_id": "S03_DS013",
-      "timecode": "216.05-231.84",
-      "duration_seconds": 15.79,
+      "shot_id": "S03_DS012",
+      "timecode": "186.01-210.57",
+      "duration_seconds": 24.56,
       "scene_id": "S03",
-      "shot_size": "decision closeup",
-      "camera_intent": "static intimate",
-      "visual_action": "continue helping or working openly despite wage loss, ridicule, or exclusion",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "the coal guildmaster and Lio's status-hungry stepbrother repeats the public punishment while treating the creature's suffering as a resource input",
       "dialogue": "",
-      "sound_design": "music drops before decision",
-      "generation_lane": "mid",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
       "continuity_dependencies": [
         "protagonist_face_costume",
         "location_geography",
@@ -261,12 +241,32 @@
         "meaning_carrier_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+    },
+    {
+      "shot_id": "S03_DS013",
+      "timecode": "210.57-235.13",
+      "duration_seconds": 24.56,
+      "scene_id": "S03",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "the coal guildmaster and Lio's status-hungry stepbrother repeats the public punishment while treating the creature's suffering as a resource input",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
     },
     {
       "shot_id": "S03_DS014",
-      "timecode": "231.84-249.55",
-      "duration_seconds": 17.72,
+      "timecode": "235.13-251.99",
+      "duration_seconds": 16.86,
       "scene_id": "S03",
       "shot_size": "consequence wide",
       "camera_intent": "backward track",
@@ -285,8 +285,8 @@
     },
     {
       "shot_id": "S03_DS015",
-      "timecode": "249.55-260.72",
-      "duration_seconds": 11.17,
+      "timecode": "251.99-262.61",
+      "duration_seconds": 10.63,
       "scene_id": "S03",
       "shot_size": "sensory bridge",
       "camera_intent": "insert or detail",
@@ -305,8 +305,8 @@
     },
     {
       "shot_id": "S03_DS016",
-      "timecode": "260.72-271.89",
-      "duration_seconds": 11.17,
+      "timecode": "262.61-273.24",
+      "duration_seconds": 10.63,
       "scene_id": "S03",
       "shot_size": "sensory bridge",
       "camera_intent": "insert or detail",
@@ -325,8 +325,8 @@
     },
     {
       "shot_id": "S03_DS017",
-      "timecode": "271.89-300.00",
-      "duration_seconds": 28.11,
+      "timecode": "273.24-300.00",
+      "duration_seconds": 26.76,
       "scene_id": "S03",
       "shot_size": "final image",
       "camera_intent": "slow pull-back",

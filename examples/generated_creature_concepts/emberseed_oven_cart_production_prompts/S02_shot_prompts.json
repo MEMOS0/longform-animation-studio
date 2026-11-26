@@ -2,8 +2,8 @@
   {
     "shot_id": "S02_DS001",
     "scene_id": "S02",
-    "timecode": "0.00-22.40",
-    "duration_seconds": 22.4,
+    "timecode": "0.00-21.57",
+    "duration_seconds": 21.57,
     "generation_lane": "hero",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide establishing; slow push; a flour miller carries food into the shelter while the protagonist refuses payment for pain. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -51,8 +51,8 @@
   {
     "shot_id": "S02_DS002",
     "scene_id": "S02",
-    "timecode": "22.40-35.84",
-    "duration_seconds": 13.44,
+    "timecode": "21.57-34.51",
+    "duration_seconds": 12.94,
     "generation_lane": "mid",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. intimate closeup; settle; the protagonist's expression shifts from survival fear toward controlled attention when the turn lands. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -100,8 +100,8 @@
   {
     "shot_id": "S02_DS003",
     "scene_id": "S02",
-    "timecode": "35.84-53.57",
-    "duration_seconds": 17.73,
+    "timecode": "34.51-51.59",
+    "duration_seconds": 17.08,
     "generation_lane": "draft",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. action wide; lateral track; care network, work identity, and dignity economy. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -149,8 +149,8 @@
   {
     "shot_id": "S02_DS004",
     "scene_id": "S02",
-    "timecode": "53.57-74.48",
-    "duration_seconds": 20.91,
+    "timecode": "51.59-71.72",
+    "duration_seconds": 20.13,
     "generation_lane": "mid",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; slow tightening; shelter is offered as labor rather than charity. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -198,8 +198,8 @@
   {
     "shot_id": "S02_DS005",
     "scene_id": "S02",
-    "timecode": "74.48-95.39",
-    "duration_seconds": 20.91,
+    "timecode": "71.72-91.85",
+    "duration_seconds": 20.13,
     "generation_lane": "mid",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; slow tightening; a flour miller and night watchman offers food, shelter, and patient labor before understanding what the creature is worth. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -247,8 +247,8 @@
   {
     "shot_id": "S02_DS006",
     "scene_id": "S02",
-    "timecode": "95.39-106.96",
-    "duration_seconds": 11.57,
+    "timecode": "91.85-102.99",
+    "duration_seconds": 11.14,
     "generation_lane": "draft",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. pressure insert; macro; a flour miller and night watchman offers food, shelter, and patient labor before understanding what the creature is worth. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -296,57 +296,8 @@
   {
     "shot_id": "S02_DS007",
     "scene_id": "S02",
-    "timecode": "106.96-131.97",
-    "duration_seconds": 25.01,
-    "generation_lane": "hero",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. turn wide; reframe; a flour miller and night watchman offers food, shelter, and patient labor before understanding what the creature is worth. Emotional action must remain readable before spectacle.",
-    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "reframe",
-    "dialogue": "",
-    "audio_direction": "sound motif shifts",
-    "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space",
-    "continuity_dependencies": [
-      "protagonist_face_costume",
-      "location_geography",
-      "relationship_continuity",
-      "meaning_carrier_continuity",
-      "sound_motif_continuity"
-    ],
-    "required_reference_assets": [
-      {
-        "dependency": "protagonist_face_costume",
-        "asset_prompt": "continuity reference asset for protagonist_face_costume"
-      },
-      {
-        "dependency": "location_geography",
-        "asset_prompt": "continuity reference asset for location_geography"
-      },
-      {
-        "dependency": "relationship_continuity",
-        "asset_prompt": "continuity reference asset for relationship_continuity"
-      },
-      {
-        "dependency": "meaning_carrier_continuity",
-        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
-      },
-      {
-        "dependency": "sound_motif_continuity",
-        "asset_prompt": "continuity reference asset for sound_motif_continuity"
-      }
-    ],
-    "qa_checks": [
-      "character/creature faces match approved reference sheets",
-      "story geography matches prior and following shots",
-      "emotion and power shift remain readable at full-screen playback",
-      "no text, watermark, logo, or subtitle artifact",
-      "dialogue lip/performance timing reviewed before upscale or final render"
-    ]
-  },
-  {
-    "shot_id": "S02_DS008",
-    "scene_id": "S02",
-    "timecode": "131.97-146.53",
-    "duration_seconds": 14.56,
+    "timecode": "102.99-117.01",
+    "duration_seconds": 14.02,
     "generation_lane": "draft",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. vertical composition; high or low angle; vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -392,10 +343,10 @@
     ]
   },
   {
-    "shot_id": "S02_DS009",
+    "shot_id": "S02_DS008",
     "scene_id": "S02",
-    "timecode": "146.53-166.13",
-    "duration_seconds": 19.6,
+    "timecode": "117.01-135.89",
+    "duration_seconds": 18.87,
     "generation_lane": "mid",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; the caregiver names the safe boundary before help becomes control. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -441,10 +392,10 @@
     ]
   },
   {
-    "shot_id": "S02_DS010",
+    "shot_id": "S02_DS009",
     "scene_id": "S02",
-    "timecode": "166.13-181.44",
-    "duration_seconds": 15.31,
+    "timecode": "135.89-150.62",
+    "duration_seconds": 14.74,
     "generation_lane": "mid",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; the protagonist accepts work while refusing monetized suffering. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -490,17 +441,66 @@
     ]
   },
   {
+    "shot_id": "S02_DS010",
+    "scene_id": "S02",
+    "timecode": "150.62-174.71",
+    "duration_seconds": 24.09,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. turn wide; reframe; a flour miller and night watchman offers food, shelter, and patient labor before understanding what the creature is worth. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "reframe",
+    "dialogue": "",
+    "audio_direction": "sound motif shifts",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
     "shot_id": "S02_DS011",
     "scene_id": "S02",
-    "timecode": "181.44-196.75",
-    "duration_seconds": 15.31,
-    "generation_lane": "mid",
-    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; accept honest help without turning the creature into payment. Emotional action must remain readable before spectacle.",
+    "timecode": "174.71-198.80",
+    "duration_seconds": 24.09,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. turn wide; reframe; a flour miller and night watchman offers food, shelter, and patient labor before understanding what the creature is worth. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
-    "camera_intent": "static intimate",
+    "camera_intent": "reframe",
     "dialogue": "",
-    "audio_direction": "music drops before decision",
-    "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible",
+    "audio_direction": "sound motif shifts",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space",
     "continuity_dependencies": [
       "protagonist_face_costume",
       "location_geography",
@@ -541,8 +541,8 @@
   {
     "shot_id": "S02_DS012",
     "scene_id": "S02",
-    "timecode": "196.75-213.92",
-    "duration_seconds": 17.17,
+    "timecode": "198.80-215.33",
+    "duration_seconds": 16.54,
     "generation_lane": "draft",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. consequence wide; backward track; visible consequence of accept honest help without turning the creature into payment. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -590,8 +590,8 @@
   {
     "shot_id": "S02_DS013",
     "scene_id": "S02",
-    "timecode": "213.92-224.75",
-    "duration_seconds": 10.83,
+    "timecode": "215.33-225.76",
+    "duration_seconds": 10.43,
     "generation_lane": "draft",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. sensory bridge; insert or detail; the protagonist places the blackened brass oven key beside the emberseed bird child instead of selling access to it. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
@@ -639,8 +639,8 @@
   {
     "shot_id": "S02_DS014",
     "scene_id": "S02",
-    "timecode": "224.75-252.00",
-    "duration_seconds": 27.25,
+    "timecode": "225.76-252.00",
+    "duration_seconds": 26.24,
     "generation_lane": "hero",
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final image; slow pull-back; the protagonist places the blackened brass oven key beside the emberseed bird child instead of selling access to it. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
