@@ -20,9 +20,17 @@ This repository is not a prompt collection. It is a reusable studio system for l
   - `features.py` — auditable title/theme/thumbnail feature extraction
   - `comparative.py` — age-adjusted cohort comparison, hypothesis tables, montage evidence
   - `media_analysis.py` — second-resolution visual/audio/subtitle timeline extraction
+  - `story_signals.py` — transparent wound/care/justice/lore/threat signal extraction
+  - `dialogue_analysis.py` — sentence-shape, exposition, pressure, care, question-ratio analysis
   - `failure_intelligence.py` — transparent failure-pattern matching for future ideas/scripts
+  - `production.py` — schema validation and pre-greenlight gates for premise/architecture/scene artifacts
   - `cli.py` — command-line entry points
 - `tools/download_piped_archive.py` — provenance-preserving media/subtitle acquisition through a configurable Piped-compatible public API
+- `tools/batch_media_analysis.py` — archive-wide timestamped media analysis
+- `tools/build_casebooks.py` — per-video timestamped audiovisual/narrative casebooks
+- `tools/compare_casebooks.py` — hit/middle/failure cohort comparison across casebook metrics
+- `tools/compare_dialogue.py` — cohort comparison of subtitle sentence shape and exposition density
+- `tools/repair_audio_metrics.py` — fast correction of cached audio silence/RMS evidence
 - `data/` — local evidence outputs; raw media should generally stay out of git
 - `knowledge/` — durable research findings, craft notes, and channel-specific evidence interpretations
 - `schemas/` — data contracts for handoff between agents and production stages
@@ -69,10 +77,23 @@ python -m studio.cli analyze-media /path/to/video.mp4 \
   --output-dir data/processed/media/VIDEO_ID \
   --video-id VIDEO_ID
 
-# 5. Stress-test a new idea against failure intelligence
+# 5. Build archive-wide casebooks after batch media analysis
+python tools/batch_media_analysis.py --media-dir /path/to/downloaded-videos
+python tools/build_casebooks.py
+python tools/compare_casebooks.py
+python tools/compare_dialogue.py
+
+# 6. Stress-test a new idea against failure intelligence
 python -m studio.cli evaluate-idea \
   --candidate "They abandoned the forbidden child, unaware she was the dragon heir" \
   --script-file drafts/premise.md
+
+# 7. Validate machine-readable production artifacts before greenlight
+python -m studio.cli evaluate-project \
+  --premise examples/stormglass_project/premise.json \
+  --architecture examples/stormglass_project/architecture.json \
+  --scenes examples/stormglass_project/scenes \
+  --output examples/stormglass_project/evaluation.json
 ```
 
 ## What the system is for
@@ -89,7 +110,7 @@ Before any film is produced, an agent should be able to answer:
 
 ## Current Nov Drama evidence status
 
-The initial archive contains 48 public videos. Metadata, thumbnails, exact dates/views, subtitles, and local low-resolution audiovisual copies are being converted into timestamped evidence. Preliminary archive-level patterns are already visible, but they remain observational until validated against scene-level analysis and additional channels.
+The initial archive contains 48 public videos. At the current checkpoint, 47 downloadable videos have second-resolution audiovisual timelines; 46 scored videos have archive-wide casebook and dialogue cohort comparisons. Representative hit/failure videos have direct timestamped visual audit notes in `knowledge/nov-drama/comparative-findings.md`. One video (`jRa3_WZYDdY`) remains inaccessible through the current public Piped-compatible endpoint and must not be treated as watched.
 
 Important early caveat: cumulative public views are strongly age- and recommendation-dependent. Use `views_per_day` only as a discovery metric, not as truth about retention or CTR.
 
