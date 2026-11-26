@@ -400,3 +400,9 @@ Immediate next:
 1. Handle any required review triage without letting it consume the creative roadmap.
 2. Build a dialogue-opposition model: each scene needs antagonist pressure, caregiver/witness objection, protagonist refusal, evidence implication, and cost escalation.
 3. Resume low-subscriber breakout discovery across undercovered genres.
+
+## 2026-11-27 checkpoint — Epicverse visual-first breakout
+
+Latest pushed commit: `24115ab`. Tests: 70 passed. Added `knowledge/market/epicverse-giant-father-visual-first-breakout.md` plus media/contact-sheet evidence and thumbnail for low-subscriber Epicverse `no72LZAVvZQ` (11.7m, ~6.51M views, ~4.6k subs at collection). Doctrine: scale spectacle must convert into repeated care behavior; every scene should remain intelligible muted. Caveat: no subtitles, sampled full-runtime contact-sheet inspection only, no CTR/retention causality. Note: full 58MB video evidence was committed and GitHub warned about large files; consider evidence-storage policy next context (keep small derived artifacts in git, large source media local/object storage).
+
+Immediate next: build dialogue-opposition model; continue low-subscriber scan; decide large media evidence policy; handle required review triage.
