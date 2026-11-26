@@ -43,7 +43,10 @@ def carrier_key_terms(carrier_text: str) -> list[str]:
         content_tokens = [token for token in raw_tokens if token not in STOPWORDS] or raw_tokens
         if not content_tokens:
             continue
-        if len(content_tokens) == 1:
+        known_objects = [token for token in content_tokens if token in OBJECT_TERMS]
+        if known_objects:
+            key = known_objects[0]
+        elif len(content_tokens) == 1:
             key = content_tokens[0]
         elif content_tokens[-1] not in GENERIC_CARRIER_WORDS:
             key = content_tokens[-1]

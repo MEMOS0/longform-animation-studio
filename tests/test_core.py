@@ -293,3 +293,10 @@ def test_relational_contract_denial_scope_regressions():
     assert denial_is_unresolved("she has no choice; she no longer wears the ring")
     assert not denial_is_unresolved("she is finally free to choose; earlier she had no choice")
     assert denial_is_unresolved("she once had no choice but learned trust; now she has no choice")
+
+
+def test_meaning_carrier_prefers_object_over_provenance():
+    from studio.meaning_carrier import evaluate_meaning_carrier
+    carrier={"object_or_space":"ring from her mother","opening_meaning":"loss","closing_reversal":"recovered belonging","final_sequence_use":"ring returns"}
+    result=evaluate_meaning_carrier({"meaning_carrier":carrier},{"sequences":[{"visual_setpiece":"the ring returns to her hand"}]})
+    assert not any("final two architecture" in w for w in result["warnings"])
