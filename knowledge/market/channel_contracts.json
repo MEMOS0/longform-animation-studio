@@ -25,7 +25,8 @@
       "show the vulnerable creature/child or immediate threat within 90 seconds",
       "tie spectacle to protection rather than scale alone",
       "pay the creature bond visually in the first 5 minutes",
-      "when scale is central, frame the powerful creature/giant as a misunderstood protector or parent rather than spectacle alone"
+      "when scale is central, frame the powerful creature/giant as a misunderstood protector or parent rather than spectacle alone",
+      "for compressed 10-35 minute versions, use one dominant protection question and make every scene perform at least two jobs: danger, bonding, cost, or reversal"
     ],
     "risk_patterns": [
       "diffuse disaster montage",
@@ -41,7 +42,8 @@
       "knowledge/market/epic-deep-dive.md",
       "knowledge/market/ironcrest-deep-dive.md",
       "knowledge/market/expanded-breakout-deep-dive.md",
-      "knowledge/market/fourth-pass-breakout-media-deep-dive.md"
+      "knowledge/market/fourth-pass-breakout-media-deep-dive.md",
+      "knowledge/market/fifth-pass-breakout-media-deep-dive.md"
     ]
   },
   "transformation_melodrama": {
@@ -443,5 +445,54 @@
     "evidence": [
       "knowledge/market/fourth-pass-breakout-media-deep-dive.md"
     ]
+  },
+  "misunderstood_nonhuman_family": {
+    "reference_channels": [
+      "Epicverse Movies",
+      "low-subscriber dragon-family breakouts",
+      "Epic AI Films",
+      "Ironcrest Pictures"
+    ],
+    "positive_signals": [
+      "twins",
+      "queen",
+      "mother",
+      "dragon son",
+      "baby dragon",
+      "child creature",
+      "monster child",
+      "king",
+      "husband",
+      "hide him",
+      "drown it",
+      "family secret",
+      "misunderstood monster",
+      "parent protects child"
+    ],
+    "opening_rules": [
+      "establish the child creature as a literal family member within the first 2 minutes, not as a spectacle object",
+      "make the personhood-denying threat concrete through a parent, ruler, crowd, or institution",
+      "bind protection to an immediate cost: hiding, exile, infanticide threat, capture, or public shame",
+      "in compressed formats keep one singular emotional question visible; spectacle must remain subordinate to that question"
+    ],
+    "risk_patterns": [
+      "creature appears as pet/weapon before it appears as person or child",
+      "war scale replaces the family/protection wound",
+      "public monster accusation is asserted without a scene of intimate care that proves personhood",
+      "tragic sacrifice is used as a shortcut without reciprocal choice or legacy payoff"
+    ],
+    "thumbnail_rules": [
+      "mother/father/protector plus visibly childlike creature readable at mobile size",
+      "contrast intimate care with hostile army/crown/fire in one glance",
+      "avoid generic dragon spectacle without the family relationship"
+    ],
+    "evidence": [
+      "knowledge/market/fifth-pass-breakout-media-deep-dive.md",
+      "evidence/research/fifthpass_media_analysis/NHAHR3v9La8/opening_sheet.jpg",
+      "evidence/research/fifthpass_media_analysis/NHAHR3v9La8/fullfilm_sheet.jpg",
+      "evidence/research/fifthpass_media_analysis/NHAHR3v9La8/ending_sheet.jpg",
+      "knowledge/market/epic-deep-dive.md"
+    ],
+    "causal_boundary": "Compressed breakout performance is observational; no CTR/retention/traffic-source data are available. Use as creative contract evidence, not proof of causality."
   }
 }
