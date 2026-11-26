@@ -247,3 +247,13 @@ def test_relational_contract_interprets_afterward_and_initially_correctly():
     assert not any("after the power" in w or "temporally explicit" in w for w in evaluate_relational_contract({"relational_contract": afterward})["warnings"])
     late=dict(base,safety_or_kindness_before_power="she initially avoids him; after learning he is king, she protects him")
     assert any("after the power or identity reveal" in w for w in evaluate_relational_contract({"relational_contract": late})["warnings"])
+
+
+def test_meaning_carrier_uses_exact_words_and_preserves_space_carrier():
+    from studio.meaning_carrier import evaluate_meaning_carrier
+    base={"object_or_space":"ring","opening_meaning":"coercion","closing_reversal":"chosen commitment","final_sequence_use":"ring returns"}
+    no_match=evaluate_meaning_carrier({"meaning_carrier":base},{"sequences":[{"turn":"ending","visual_setpiece":"she brings the news"}]})
+    assert any("final two architecture" in w for w in no_match["warnings"])
+    space=dict(base,object_or_space="space",final_sequence_use="returns to space")
+    match=evaluate_meaning_carrier({"meaning_carrier":space},{"sequences":[{"turn":"ending","visual_setpiece":"they return to open space"}]})
+    assert not any("final two architecture" in w for w in match["warnings"])

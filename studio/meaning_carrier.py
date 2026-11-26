@@ -10,7 +10,7 @@ OBJECT_TERMS = [
     "stormglass", "cloth", "table", "gate", "bed", "crown", "collar", "chain", "cage", "map", "photograph",
 ]
 
-STOPWORDS = {"and", "the", "with", "that", "this", "from", "into", "their", "there", "between", "object", "space", "physical", "whose", "used", "meaning"}
+STOPWORDS = {"and", "the", "with", "that", "this", "from", "into", "their", "there", "between", "object", "physical", "whose", "used", "meaning"}
 
 
 def flatten(value: Any) -> str:
@@ -58,8 +58,9 @@ def evaluate_meaning_carrier(premise: dict[str, Any], architecture: dict[str, An
             warnings.append("meaning carrier does not change meaning between opening and ending")
         final_text = final_sequence_text(architecture).lower()
         carrier_text = str(explicit.get("object_or_space", "")).lower()
-        carrier_tokens = [token for token in re.findall(r"[a-z]{3,}", carrier_text) if token not in STOPWORDS]
-        final_match = any(token in final_text for token in carrier_tokens)
+        raw_tokens = [token for token in re.findall(r"[a-z]{3,}", carrier_text)]
+        carrier_tokens = [token for token in raw_tokens if token not in STOPWORDS] or raw_tokens
+        final_match = any(re.search(rf"{re.escape(token)}(?:s|es)?", final_text) for token in carrier_tokens)
         if architecture.get("sequences"):
             if not final_match:
                 warnings.append("meaning carrier is not visibly connected to the final two architecture sequences")
