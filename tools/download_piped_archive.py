@@ -169,6 +169,7 @@ def main() -> None:
     args = parser.parse_args()
     ids = read_ids(args)
     output = Path(args.raw_dir) / "download_results.jsonl"
+    output.parent.mkdir(parents=True, exist_ok=True)
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
         futures = [pool.submit(fetch_one, video_id, Path(args.media_dir), Path(args.raw_dir), args.skip_media) for video_id in ids]
         with output.open("w", encoding="utf-8") as handle:
