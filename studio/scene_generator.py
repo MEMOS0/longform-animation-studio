@@ -7,6 +7,7 @@ pass can deepen them rather than inventing structure from nothing.
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -76,9 +77,11 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
         raw_child = str(premise.get("emotional_engine", {}).get("protective_counterforce", "the creature child"))
         creature = raw_child.split(" plus ")[0].split(";")[0].split(", whose")[0].strip() or "the creature child"
         raw_care = str(premise.get("relational_contract", {}).get("safety_or_kindness_before_power", "the caregiver"))
-        caregiver = raw_care.split(" offers ")[0].split(";")[0].strip() or "the caregiver"
+        caregiver = re.split(r"\s+(?:offers?|feeds?|gives?|shelters?)\s+", raw_care, maxsplit=1)[0].split(";")[0].split(" and ")[0].strip() or "the caregiver"
+        creature_label = creature[:1].upper() + creature[1:]
+        caregiver_label = caregiver[:1].upper() + caregiver[1:]
         creature_lines = [
-            [f"Step back from her. {creature} came to me before it knew I had nothing.", f"{caregiver}: bread first, questions after the child is safe.", f"If the {resource} answers her fear, then the {resource} is a witness."],
+            [f"Step back from her. {creature_label} came to me before it knew I had nothing.", f"{caregiver_label}: bread first, questions after the child is safe.", f"If the {resource} answers her fear, then the {resource} is a witness."],
             [f"I will work for shelter, but I will not make {creature} suffer for coins.", f"The {object_term} can open the way; it cannot make us owners.", f"{caregiver} shared before profit. That is why this roof is still honest."],
             [f"Look at her shaking before you count her price.", f"If her pain can buy back the house, the house is not worth saving.", f"She is not inventory with {trait}."],
             [f"Your ledger can lie; {evidence} cannot.", f"Give me one honest customer before you call me a thief.", f"The {system} remembers every hand that opened it, including yours."],
