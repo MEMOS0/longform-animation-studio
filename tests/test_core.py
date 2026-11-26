@@ -646,3 +646,14 @@ def test_dialogue_craft_requires_scene_opposition_scaffold():
     scene={"scene_id":"S01","dialogue_design":{"key_lines":["I refuse."],"max_exposition_sentences":2}}
     result=evaluate_scenes_dialogue([scene])
     assert any('opposition scaffold' in w for w in result['warnings_by_scene']['S01'])
+
+
+def test_thumbnail_concepts_creature_economic_vertical_scale_and_clutter_critique():
+    from studio.thumbnail_concepts import generate_concepts, critique_concept
+    concepts=generate_concepts({"channel_contract":"creature_economic_melodrama","genre":"fantasy drama","creature_or_child_anchor":"moonfin child","protector":"debt-bound baker"})
+    quiet=[c for c in concepts if c['concept_id']=='quiet_vertical_protector_scale']
+    assert quiet
+    critique=critique_concept(quiet[0])
+    assert 'mobile negative-space readability' in critique['strengths']
+    cluttered={"composition":"monster versus army battle with crowd","emotion":"generic spectacle","palette":"red","text_direction":"episode prologue badge franchise text blocks"}
+    assert len(critique_concept(cluttered)['risks']) >= 3

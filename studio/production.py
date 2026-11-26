@@ -23,6 +23,7 @@ from .relational_contract import evaluate_relational_contract
 from .spatial_status import evaluate_spatial_status
 from .closure_integrity import evaluate_closure_integrity
 from .visual_causality import evaluate_visual_causality
+from .thumbnail_concepts import generate_concepts, critique_concept
 from .storyboard import validate_storyboard_file
 
 REPO_SCHEMA_DIR = Path(__file__).resolve().parents[1] / "schemas"
@@ -271,6 +272,7 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "format_strategy": format_strategy(premise.get("target_minutes"), combined, premise.get("release_format", "")),
         "opening_conversion_quality": opening_conversion_quality(premise),
         "title_packaging": {"existing_title_critiques": [{"title": title, "critique": critique_title(title, premise)} for title in premise.get("title_candidates", [])], "generated_alternatives": generate_title_candidates(premise)},
+        "thumbnail_concepts": [{"concept": concept, "critique": critique_concept(concept)} for concept in generate_concepts(premise)],
         "channel_contract_fit": evaluate_channel_fit(combined, premise.get("channel_contract", "")),
         "production_economics": estimate_video_budget(premise.get("target_minutes")),
         "shot_pipeline": shot_pipeline,

@@ -96,6 +96,18 @@ def generate_concepts(premise: dict[str, Any], library: dict[str, list[dict[str,
             "reference_categories_to_study": ["romantic_family_betrayal", "localized_family_melodrama"],
         })
     contract = (premise.get("channel_contract") or "").lower()
+    if contract in {"creature_economic_melodrama", "romantic_creature_sacrifice_epic"}:
+        concepts.append({
+            "concept_id": "quiet_vertical_protector_scale",
+            "category": "creature_power_bond",
+            "core_mechanic": "one dangerous or powerful protector/parent presence visually lowered toward one tiny vulnerable creature/child, converting scale into care",
+            "composition": "single vertical axis with protector face or hand in the upper third and vulnerable child/creature in the lower center; use cave/home/threshold negative space and avoid a versus layout",
+            "emotion": "awe restrained into parental tenderness and protection",
+            "palette": "dark environmental quiet broken by one warm or luminous care accent around the child/creature",
+            "text_direction": "one short relational transformation promise only; no feature badges, episode labels, or explanatory text blocks",
+            "mobile_test": "at 160px wide, viewer must read large protector, tiny vulnerable being, and care rather than attack",
+            "reference_categories_to_study": ["creature_power_bond"],
+        })
     if contract == "creature_protection_feature":
         concepts.append({
             "concept_id": "misunderstood_child_personhood",
@@ -221,6 +233,12 @@ def critique_concept(concept: dict[str, Any]) -> dict[str, Any]:
         strengths.append("text restraint")
     else:
         risks.append("possible text clutter")
+    if "negative space" in comp or "quiet" in comp:
+        strengths.append("mobile negative-space readability")
+    if "versus" in comp or "battle" in comp or "war" in comp:
+        risks.append("versus/battle framing may hide the vulnerable relational stake")
+    if "episode" in text or "prologue" in text or "franchise" in text or "badge" in text:
+        risks.append("series, episode, or badge clutter may reduce new-viewer accessibility")
     if any(k in comp for k in ("crowd", "many", "ensemble")):
         risks.append("crowd complexity may reduce mobile readability")
     if any(k in emotion for k in ("empty glamour", "generic")):
