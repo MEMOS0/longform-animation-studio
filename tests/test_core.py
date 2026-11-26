@@ -71,3 +71,10 @@ def test_thumbnail_channel_contract_concepts():
     assert any(c["concept_id"] == "mythic_survival_scale" for c in mythic)
     korean = generate_concepts({"title": "The regressed empress secret", "genre": "romance", "channel_contract": "korean_niche_microdrama"})
     assert any(c["concept_id"] == "niche_face_tension" for c in korean)
+
+
+def test_production_economics_estimates_iteration_cost():
+    from studio.production_economics import estimate_video_budget
+    result = estimate_video_budget(48, 8)
+    assert result["mixed_pipeline_example"]["iteration_adjusted_cost_estimate"] > 100
+    assert result["single_pass_scenarios"][0]["documented_usd_per_second"] == 0.02

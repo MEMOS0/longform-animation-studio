@@ -2,6 +2,35 @@
 
 Updated: 2026-11-26. Evidence: persistent channel cohort montages in `thumbnails/channel_cohort_montages/`. Visual inspection only; no CTR/impression data. These are packaging hypotheses, not causal claims.
 
+## Epic AI Films
+
+Hit thumbnails:
+
+- **Age of Kingdoms orc/human closeups:** large scarred faces, snow/ice atmosphere, direct eye contact, franchise typography. Even when no baby creature is visible, relational conflict is readable through faces.
+- **Age of Dragons 2:** woman/protector foreground with dragon/creature threat behind; warm fire/cool creature contrast. The image says both spectacle and personal danger.
+
+Middle thumbnails:
+
+- **Invasion:** clean high-concept city destruction silhouette. Readable but more diffuse/disaster-oriented.
+- **Infected/bus horror and Brothers war face:** strong emotion but different genre contracts (horror/war), so they should not be pooled with creature fantasy.
+
+Low thumbnails:
+
+- crowned king closeup, infected sequel face, orc/fire ensemble. These are not ugly; they are less clear about vulnerable relational stakes or are continuation/part-dependent.
+
+Mechanism hypothesis: Epic thumbnails are strongest when spectacle is attached to a readable person/creature relationship or franchise contract. Pure crown/monster/sequel iconography is weaker because it asks the viewer to care about scale or continuity before care.
+
+## Ironcrest Pictures
+
+Hit/middle comparison:
+
+- **Kingdom of Dragons hit:** woman holds a small baby creature while a huge luminous wolf/dragon-like protector looms behind. This is the clearest relational scale triangle in the dataset: tiny vulnerable creature + human protector + mythic power.
+- **Mother of Wolves middle hit:** woman and wolf lean over the vulnerable infant/prey object in snow. Even without a large title, the protective triangle is obvious.
+- **Ghost Wing middle/off-contract:** three attractive human leads in front of aircraft/attack spectacle. Polished, but it sells war/sci-fi team action rather than creature protection.
+- **Son of Wolves relative low:** hooded adult hero with two wolves and blade. Attractive franchise art, but the vulnerability gradient is weaker because the adult hero already appears powerful.
+
+Mechanism hypothesis: the exact visual ordering matters. Ironcrest’s best packaging gives the viewer someone small to protect before giving them someone powerful to admire.
+
 ## FablePop
 
 Hit thumbnails:
@@ -14,7 +43,7 @@ Middle/low thumbnails:
 
 - Some middle examples are visually polished but repeat similar romantic/triangle compositions.
 - Low examples include crowded “boys-only island” ensemble, busy maid/political montage, and whimsical frog-prince imagery.
-- Exact/near-duplicate thumbnails appear in the montage because the archive is small and the current montage selection repeats first/last rows; treat duplication as a montage artifact, not evidence.
+- Montages were regenerated with deduplicated video rows; repeated thumbnails are no longer a selection artifact.
 
 Mechanism hypothesis: FablePop’s core contract is female transformation/rebirth/social reversal. Thumbnails work when the viewer can read “she becomes someone else” or “they underestimate her” at mobile size. Generic romantic attractiveness, crowded ensemble, or whimsical creature romance is weaker when transformation is not visually legible.
 

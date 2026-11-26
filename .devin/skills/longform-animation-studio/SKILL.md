@@ -281,6 +281,14 @@ Use `studio.format_strategy.format_strategy` and the cross-channel patterns in `
 
 Thumbnail cohort montages must be deduplicated by video id. Small archives must not repeat the same thumbnail across hit/middle/low rows.
 
+## Generation economics and provider protocol
+
+Before proposing production, read `knowledge/production/video-generation-provider-audit.md` and run the inventory logic in `studio/providers.py`. Do not assume Cloudflare is the only provider and do not assume video generation is unavailable. External documented options exist through Runway Dev aggregation, direct Google/Luma/Pika/Kling APIs, and routed third-party models, but none are production-validated for this studio yet.
+
+Never accept provider terms, create billing, or spend money without explicit approval. Before any paid test, confirm exact current schema, price at target settings, input/reference billing, output rights, retention, watermarking, and commercial-use constraints.
+
+Long-form generation must be budgeted as a shot pipeline, not “generate the whole movie.” Use `studio.production_economics.estimate_video_budget` and track generated-seconds-to-final-seconds ratio. Cheap draft/blocking lanes and expensive hero-shot lanes must be separate decisions.
+
 ## Direction and visual-production protocol
 
 For vertical/mobile-native animation, prioritize emotional legibility:

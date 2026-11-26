@@ -187,6 +187,84 @@
       "knowledge/market/ironcrest-deep-dive.md"
     ]
   },
+  "production_economics": {
+    "status": "documentation_estimate_not_quote",
+    "target_minutes": 48,
+    "generation_to_final_ratio": 8.0,
+    "single_pass_scenarios": [
+      {
+        "model_or_lane": "gemini_omni_flash_1_2_low_tier",
+        "documented_usd_per_second": 0.02,
+        "finished_minutes_cost_if_single_pass": 57.6,
+        "iteration_adjusted_cost_estimate": 460.8
+      },
+      {
+        "model_or_lane": "grok_imagine_1_5_lite_low_tier",
+        "documented_usd_per_second": 0.02,
+        "finished_minutes_cost_if_single_pass": 57.6,
+        "iteration_adjusted_cost_estimate": 460.8
+      },
+      {
+        "model_or_lane": "gen4_turbo",
+        "documented_usd_per_second": 0.05,
+        "finished_minutes_cost_if_single_pass": 144.0,
+        "iteration_adjusted_cost_estimate": 1152.0
+      },
+      {
+        "model_or_lane": "wan3_low_tier",
+        "documented_usd_per_second": 0.05,
+        "finished_minutes_cost_if_single_pass": 144.0,
+        "iteration_adjusted_cost_estimate": 1152.0
+      },
+      {
+        "model_or_lane": "seedance2_mini_low_tier",
+        "documented_usd_per_second": 0.07,
+        "finished_minutes_cost_if_single_pass": 201.6,
+        "iteration_adjusted_cost_estimate": 1612.8
+      },
+      {
+        "model_or_lane": "kling_4_flash_low_tier",
+        "documented_usd_per_second": 0.094,
+        "finished_minutes_cost_if_single_pass": 270.72,
+        "iteration_adjusted_cost_estimate": 2165.76
+      },
+      {
+        "model_or_lane": "gen4_5",
+        "documented_usd_per_second": 0.12,
+        "finished_minutes_cost_if_single_pass": 345.6,
+        "iteration_adjusted_cost_estimate": 2764.8
+      },
+      {
+        "model_or_lane": "kling_4_low_tier",
+        "documented_usd_per_second": 0.157,
+        "finished_minutes_cost_if_single_pass": 452.16,
+        "iteration_adjusted_cost_estimate": 3617.28
+      },
+      {
+        "model_or_lane": "aleph2",
+        "documented_usd_per_second": 0.28,
+        "finished_minutes_cost_if_single_pass": 806.4,
+        "iteration_adjusted_cost_estimate": 6451.2
+      }
+    ],
+    "mixed_pipeline_example": {
+      "assumption": "70% cheap draft/blocking lane at $0.02/sec, 20% mid-cost lane at $0.05/sec, 10% hero-shot lane at $0.12/sec",
+      "iteration_adjusted_cost_estimate": 829.44
+    },
+    "warnings": [
+      "iteration ratio is a planning assumption, not a measurement",
+      "input/reference video billing can increase cost on some providers",
+      "voice, music, edit, QA, and labor are excluded",
+      "recheck exact provider pricing/terms before any spend"
+    ],
+    "production_rules": [
+      "do not generate the full film linearly; decompose into shots",
+      "validate character consistency with a cheap fixed smoke pack first",
+      "use expensive models only for hero/motion-critical shots",
+      "track actual generated seconds vs final seconds as a KPI"
+    ],
+    "evidence": "knowledge/production/video-generation-provider-audit.md"
+  },
   "gates": {
     "A_premise": "pass",
     "B_architecture": "pass",
