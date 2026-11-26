@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from datetime import date
 from pathlib import Path
 
 from .comparative import analyze as comparative_analyze
@@ -28,6 +29,7 @@ def main() -> None:
     compare_p = sub.add_parser("compare")
     compare_p.add_argument("input")
     compare_p.add_argument("output_dir")
+    compare_p.add_argument("--snapshot-date", default="", help="YYYY-MM-DD snapshot for archives without scrape timestamps")
 
     media_p = sub.add_parser("analyze-media")
     media_p.add_argument("video")
@@ -47,7 +49,8 @@ def main() -> None:
     elif args.command == "enrich-archive":
         print(enrich_records(Path(args.input), Path(args.output)))
     elif args.command == "compare":
-        print(json.dumps({k: str(v) for k, v in comparative_analyze(Path(args.input), Path(args.output_dir)).items()}, indent=2))
+        snapshot = date.fromisoformat(args.snapshot_date) if args.snapshot_date else None
+        print(json.dumps({k: str(v) for k, v in comparative_analyze(Path(args.input), Path(args.output_dir), snapshot).items()}, indent=2))
     elif args.command == "analyze-media":
         result = analyze_video(Path(args.video), Path(args.subtitle) if args.subtitle else None, Path(args.output_dir), args.video_id)
         print(json.dumps({k: str(v) for k, v in result.items()}, indent=2))
