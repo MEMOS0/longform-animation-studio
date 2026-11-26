@@ -204,7 +204,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; slow tightening; the protagonist's craft identity becomes public enough to threaten the antagonist, who prepares a frame-up or institutional attack. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow tightening",
-    "dialogue": "Stop the spectacle before someone else pays for your pride.",
+    "dialogue": "Your ledger can lie; heat cannot.",
     "audio_direction": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
     "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions",
     "continuity_dependencies": [
@@ -253,7 +253,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; slow tightening; the protagonist's craft identity becomes public enough to threaten the antagonist, who prepares a frame-up or institutional attack. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow tightening",
-    "dialogue": "Stop the spectacle before someone else pays for your pride.",
+    "dialogue": "Your ledger can lie; heat cannot.",
     "audio_direction": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
     "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions",
     "continuity_dependencies": [
@@ -351,7 +351,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; tell a partial truth to protect someone weaker even though it increases personal risk. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "static intimate",
-    "dialogue": "I can prove the flaw if you give me the bench.",
+    "dialogue": "Give me one honest customer before you call me a thief.",
     "audio_direction": "music drops before decision",
     "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible",
     "continuity_dependencies": [
@@ -400,7 +400,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; tell a partial truth to protect someone weaker even though it increases personal risk. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "static intimate",
-    "dialogue": "I can prove the flaw if you give me the bench.",
+    "dialogue": "Give me one honest customer before you call me a thief.",
     "audio_direction": "music drops before decision",
     "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible",
     "continuity_dependencies": [
@@ -596,7 +596,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; Competence threatens people whose power depends on others remaining illegible.. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow lateral drift",
-    "dialogue": "Power built on someone else's hands always leaves a mark.",
+    "dialogue": "The oven remembers who opened it.",
     "audio_direction": "music enters only when relational power changes; it must not paper over unresolved tension",
     "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation",
     "continuity_dependencies": [
@@ -645,7 +645,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; Competence threatens people whose power depends on others remaining illegible.. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow lateral drift",
-    "dialogue": "Power built on someone else's hands always leaves a mark.",
+    "dialogue": "The oven remembers who opened it.",
     "audio_direction": "music enters only when relational power changes; it must not paper over unresolved tension",
     "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation",
     "continuity_dependencies": [
@@ -841,7 +841,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final image; slow pull-back; blackened brass oven key visible after the power shift, its meaning altered by: first contradiction in the antagonist's timeline/object story appears. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow pull-back",
-    "dialogue": "Stop the spectacle before someone else pays for your pride.",
+    "dialogue": "Your ledger can lie; heat cannot.",
     "audio_direction": "a restrained tactile sound motif unresolved",
     "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power",
     "continuity_dependencies": [

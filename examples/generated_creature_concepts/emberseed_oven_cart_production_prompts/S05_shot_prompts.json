@@ -204,7 +204,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; slow tightening; the protagonist is publicly accused/arrested/excluded using planted or manipulated evidence. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow tightening",
-    "dialogue": "I did not take it. Let me prove who did.",
+    "dialogue": "I did not steal fire. I saved a child you wanted to harvest.",
     "audio_direction": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
     "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions",
     "continuity_dependencies": [
@@ -253,7 +253,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; slow tightening; the protagonist is publicly accused/arrested/excluded using planted or manipulated evidence. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow tightening",
-    "dialogue": "I did not take it. Let me prove who did.",
+    "dialogue": "I did not steal fire. I saved a child you wanted to harvest.",
     "audio_direction": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
     "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions",
     "continuity_dependencies": [
@@ -351,7 +351,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; defend truth without exposing or endangering the vulnerable ally. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "static intimate",
-    "dialogue": "Do not mistake survival for consent.",
+    "dialogue": "Do not mistake desperation for consent.",
     "audio_direction": "music drops before decision",
     "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible",
     "continuity_dependencies": [
@@ -400,7 +400,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; defend truth without exposing or endangering the vulnerable ally. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "static intimate",
-    "dialogue": "Do not mistake survival for consent.",
+    "dialogue": "Do not mistake desperation for consent.",
     "audio_direction": "music drops before decision",
     "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible",
     "continuity_dependencies": [
@@ -596,7 +596,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; Public shame is an attack on identity before it is an attack on facts.. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow lateral drift",
-    "dialogue": "You can chain my name, but you can't make the evidence obey you.",
+    "dialogue": "You can freeze the deed, but not the evidence under the stone.",
     "audio_direction": "music enters only when relational power changes; it must not paper over unresolved tension",
     "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation",
     "continuity_dependencies": [
@@ -645,7 +645,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; Public shame is an attack on identity before it is an attack on facts.. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow lateral drift",
-    "dialogue": "You can chain my name, but you can't make the evidence obey you.",
+    "dialogue": "You can freeze the deed, but not the evidence under the stone.",
     "audio_direction": "music enters only when relational power changes; it must not paper over unresolved tension",
     "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation",
     "continuity_dependencies": [
@@ -841,7 +841,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final image; slow pull-back; blackened brass oven key visible after the power shift, its meaning altered by: the key opens the sealed oven ledger wall and proves the license was stolen becomes the central question, but the proof chain is incomplete. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow pull-back",
-    "dialogue": "I did not take it. Let me prove who did.",
+    "dialogue": "I did not steal fire. I saved a child you wanted to harvest.",
     "audio_direction": "a restrained tactile sound motif unresolved",
     "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power",
     "continuity_dependencies": [

@@ -6107,6 +6107,7 @@
     "ending_status_spaces": [
       "cage",
       "chain",
+      "door",
       "mat",
       "sit",
       "threshold"
@@ -6255,12 +6256,28 @@
           "share",
           "community"
         ]
+      },
+      {
+        "sequence": "ending_payoff",
+        "closure_hits": [
+          "family",
+          "garden"
+        ],
+        "sequel_hits": [
+          "returns"
+        ],
+        "infrastructure_hits": [
+          "water",
+          "food"
+        ],
+        "community_consequence_hits": [
+          "share"
+        ]
       }
     ],
     "final_closure_hits": [
       "home",
       "belong",
-      "safe",
       "family",
       "community",
       "chosen",

@@ -253,7 +253,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; slow tightening; the protagonist refuses passive rescue and begins reading the evidence through established competence. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow tightening",
-    "dialogue": "Help me, but do not take the proof from my hands.",
+    "dialogue": "Help me carry the proof, but do not carry my choice.",
     "audio_direction": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
     "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions",
     "continuity_dependencies": [
@@ -302,7 +302,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; slow tightening; the protagonist refuses passive rescue and begins reading the evidence through established competence. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow tightening",
-    "dialogue": "Help me, but do not take the proof from my hands.",
+    "dialogue": "Help me carry the proof, but do not carry my choice.",
     "audio_direction": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
     "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions",
     "continuity_dependencies": [
@@ -449,7 +449,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; accept only accountable help/advance while retaining control of the proof. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "static intimate",
-    "dialogue": "I choose the risk because silence costs more.",
+    "dialogue": "I choose the road because waiting makes us property.",
     "audio_direction": "music drops before decision",
     "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible",
     "continuity_dependencies": [
@@ -498,7 +498,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; accept only accountable help/advance while retaining control of the proof. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "static intimate",
-    "dialogue": "I choose the risk because silence costs more.",
+    "dialogue": "I choose the road because waiting makes us property.",
     "audio_direction": "music drops before decision",
     "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible",
     "continuity_dependencies": [
@@ -743,7 +743,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; Agency means accepting help without surrendering authorship of the proof.. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow lateral drift",
-    "dialogue": "The object remembers what power overlooked.",
+    "dialogue": "The blue glass salt vial remembers what the land trust buried.",
     "audio_direction": "music enters only when relational power changes; it must not paper over unresolved tension",
     "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation",
     "continuity_dependencies": [
@@ -792,7 +792,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; Agency means accepting help without surrendering authorship of the proof.. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow lateral drift",
-    "dialogue": "The object remembers what power overlooked.",
+    "dialogue": "The blue glass salt vial remembers what the land trust buried.",
     "audio_direction": "music enters only when relational power changes; it must not paper over unresolved tension",
     "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation",
     "continuity_dependencies": [
@@ -1037,7 +1037,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final image; slow pull-back; blue glass salt vial visible after the power shift, its meaning altered by: maker marks, timing, witness geometry, or object behavior contradict the frame-up. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow pull-back",
-    "dialogue": "Help me, but do not take the proof from my hands.",
+    "dialogue": "Help me carry the proof, but do not carry my choice.",
     "audio_direction": "a restrained tactile sound motif unresolved",
     "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power",
     "continuity_dependencies": [

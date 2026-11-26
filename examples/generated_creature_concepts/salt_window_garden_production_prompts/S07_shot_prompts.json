@@ -253,7 +253,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; slow tightening; the final witness/object/timeline locks into place; the protagonist claims the right to present the proof personally. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow tightening",
-    "dialogue": "I choose the room, the witnesses, and the questions.",
+    "dialogue": "She belongs to no one, and neither do I.",
     "audio_direction": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
     "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions",
     "continuity_dependencies": [
@@ -302,7 +302,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; slow tightening; the final witness/object/timeline locks into place; the protagonist claims the right to present the proof personally. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow tightening",
-    "dialogue": "I choose the room, the witnesses, and the questions.",
+    "dialogue": "She belongs to no one, and neither do I.",
     "audio_direction": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
     "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions",
     "continuity_dependencies": [
@@ -400,7 +400,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; the creature is never owned as a reward; authority must admit the fraud, the creature chooses home/contact, and the protagonist accepts partnership without possession. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "static intimate",
-    "dialogue": "If you want forgiveness, change what you do before you ask for trust.",
+    "dialogue": "If you want forgiveness, return what your papers stole.",
     "audio_direction": "music drops before decision",
     "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible",
     "continuity_dependencies": [
@@ -449,7 +449,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; the creature is never owned as a reward; authority must admit the fraud, the creature chooses home/contact, and the protagonist accepts partnership without possession. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "static intimate",
-    "dialogue": "If you want forgiveness, change what you do before you ask for trust.",
+    "dialogue": "If you want forgiveness, return what your papers stole.",
     "audio_direction": "music drops before decision",
     "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible",
     "continuity_dependencies": [
@@ -645,7 +645,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; Forgiveness is not owed before conduct changes.. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow lateral drift",
-    "dialogue": "Give me back the proof and I will show you the truth.",
+    "dialogue": "Let the water answer before the law does.",
     "audio_direction": "music enters only when relational power changes; it must not paper over unresolved tension",
     "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation",
     "continuity_dependencies": [
@@ -694,7 +694,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; Forgiveness is not owed before conduct changes.. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow lateral drift",
-    "dialogue": "Give me back the proof and I will show you the truth.",
+    "dialogue": "Let the water answer before the law does.",
     "audio_direction": "music enters only when relational power changes; it must not paper over unresolved tension",
     "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation",
     "continuity_dependencies": [
@@ -939,7 +939,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final image; slow pull-back; blue glass salt vial visible after the power shift, its meaning altered by: all layers of the proof chain align through blue glass salt vial: object, craft knowledge, timeline, witness, and motive. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow pull-back",
-    "dialogue": "I choose the room, the witnesses, and the questions.",
+    "dialogue": "She belongs to no one, and neither do I.",
     "audio_direction": "a restrained tactile sound motif unresolved",
     "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power",
     "continuity_dependencies": [

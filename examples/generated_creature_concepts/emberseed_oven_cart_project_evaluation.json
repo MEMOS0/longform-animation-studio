@@ -5977,9 +5977,11 @@
         "scene_id": "S02",
         "line_count": 3,
         "exposition_line_count": 0,
-        "power_action_line_count": 1,
+        "power_action_line_count": 0,
         "long_line_count": 0,
-        "warnings": []
+        "warnings": [
+          "sampled key lines contain no clear power/action verb"
+        ]
       },
       {
         "scene_id": "S03",
@@ -6013,7 +6015,7 @@
         "scene_id": "S06",
         "line_count": 3,
         "exposition_line_count": 0,
-        "power_action_line_count": 3,
+        "power_action_line_count": 2,
         "long_line_count": 0,
         "warnings": []
       },
@@ -6036,6 +6038,9 @@
     ],
     "warnings_by_scene": {
       "S01": [
+        "sampled key lines contain no clear power/action verb"
+      ],
+      "S02": [
         "sampled key lines contain no clear power/action verb"
       ],
       "S03": [
@@ -6196,6 +6201,7 @@
     "ending_status_spaces": [
       "cage",
       "chain",
+      "door",
       "floor",
       "mat",
       "sit",
@@ -6334,18 +6340,25 @@
           "ration",
           "community"
         ]
+      },
+      {
+        "sequence": "ending_payoff",
+        "closure_hits": [],
+        "sequel_hits": [
+          "returns"
+        ],
+        "infrastructure_hits": [],
+        "community_consequence_hits": []
       }
     ],
     "final_closure_hits": [
       "home",
       "belong",
-      "safe",
       "community",
       "chosen",
       "choose",
       "repair",
       "partnership",
-      "garden",
       "meal"
     ],
     "warnings": [],
