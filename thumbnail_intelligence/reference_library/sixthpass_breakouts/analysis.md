@@ -35,3 +35,8 @@ This is a reference-grade example of thumbnail-image alignment: the thumbnail do
 - A child/innocent ally is especially powerful when physically crossing a class boundary.
 - Text should name a short rule or paradox; composition should show who is harmed, who has power, and who crosses the line.
 - Concrete objects/spaces (food cart, floor, table, doorway, phone) outperform abstract luxury backgrounds because they become proof of the story mechanism.
+
+
+## `62vBW1_B92Y` — LESO faith/economic reversal
+
+The thumbnail uses a literal transformation split: cramped poor-Amara with food containers at lower left versus glamorous tearful successful Amara in front of “Amara’s Food Heaven — Port Harcourt.” Giant gold “GOD CHANGED HER STORY” text and the red “Faith & God’s Timing” banner make the niche contract explicit. It is visually busy, but before/after status, food labor, faith emotion, and restaurant payoff are all readable. This is niche audience alignment, not proof of CTR.

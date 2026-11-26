@@ -392,7 +392,8 @@
   },
   "faith_reversal_melodrama": {
     "reference_channels": [
-      "LESO STUDIO"
+      "LESO STUDIO",
+      "LESO Studio"
     ],
     "positive_signals": [
       "god",
@@ -406,19 +407,29 @@
       "church",
       "mother",
       "interview",
-      "poverty"
+      "poverty",
+      "small beginnings",
+      "food business",
+      "job rejection",
+      "orders",
+      "restaurant"
     ],
     "opening_rules": [
       "make deprivation concrete through rent, food, work rejection, clothing repetition, or social shame",
       "show spiritual perseverance as an active stance rather than passive waiting",
       "include caretaking/community pressure rather than isolated suffering only",
-      "dramatize faith through concrete competence, work, operational setbacks, and public entrepreneurial transformation rather than instantaneous wealth"
+      "dramatize faith through concrete competence, work, operational setbacks, and public entrepreneurial transformation rather than instantaneous wealth",
+      "open faith conflict with specific material stakes such as rent, food, debt, or job rejection",
+      "convert belief into action through a mentor doctrine and a visible small-business capability chain",
+      "show operational growth before wealth reversal and let former mockers apologize after the power position changes"
     ],
     "risk_patterns": [
       "generic miracle without concrete human cost",
       "song/testimony payoff unearned by middle agency",
       "mockery repeated without changing power or relationships",
-      "miracle montage that skips the protagonist's labor or competence"
+      "miracle montage that skips the protagonist's labor or competence",
+      "instant prosperity without work or operational proof",
+      "ending sermon/testimony used outside a faith-audience contract"
     ],
     "thumbnail_rules": [
       "visible emotional distress or prayer posture",
@@ -426,7 +437,8 @@
       "avoid fantasy wealth cues unless the story truly uses them"
     ],
     "evidence": [
-      "knowledge/market/third-pass-breakout-media-deep-dive.md"
+      "knowledge/market/third-pass-breakout-media-deep-dive.md",
+      "knowledge/market/leso-faith-economic-reversal-deep-dive.md"
     ]
   },
   "legal_proof_melodrama": {

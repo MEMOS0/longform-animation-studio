@@ -1,0 +1,82 @@
+{
+  "video_id": "62vBW1_B92Y",
+  "probe": {
+    "duration": 2280.106667,
+    "size": 91068982,
+    "width": 640,
+    "height": 360,
+    "fps": "25/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\research\\sixthpass_media_analysis\\62vBW1_B92Y\\contact_sheets\\contact_000.jpg",
+    "evidence\\research\\sixthpass_media_analysis\\62vBW1_B92Y\\contact_sheets\\contact_001.jpg",
+    "evidence\\research\\sixthpass_media_analysis\\62vBW1_B92Y\\contact_sheets\\contact_002.jpg",
+    "evidence\\research\\sixthpass_media_analysis\\62vBW1_B92Y\\contact_sheets\\contact_003.jpg",
+    "evidence\\research\\sixthpass_media_analysis\\62vBW1_B92Y\\contact_sheets\\contact_004.jpg",
+    "evidence\\research\\sixthpass_media_analysis\\62vBW1_B92Y\\contact_sheets\\contact_005.jpg"
+  ],
+  "seconds_indexed": 2280,
+  "shot_count": 70,
+  "shot_length_mean_seconds": 32.57142857142857,
+  "shot_length_median_seconds": 13.0,
+  "shot_length_p90_seconds": 70.1,
+  "visual_motion_mean": 0.1354655974716144,
+  "visual_brightness_mean": 0.3952478733052614,
+  "dialogue_cues": 745,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 15.1,
+      "text": "morning. Yesterday they rejected my application"
+    },
+    "first_power_or_identity_language": {
+      "time": 47.3,
+      "text": "trying. >> Please, sir, I know it's taking so long,"
+    },
+    "first_care_or_belonging_language": {
+      "time": 271.894,
+      "text": ">> Thank you for your time, ma'am."
+    },
+    "dialogue_words_per_minute": [
+      136,
+      118,
+      192,
+      131,
+      141,
+      65,
+      162,
+      196,
+      83,
+      42,
+      114,
+      175,
+      79,
+      78,
+      121,
+      71,
+      110,
+      121,
+      72,
+      147,
+      144,
+      76,
+      158,
+      101,
+      129,
+      65,
+      132,
+      116,
+      186,
+      78,
+      175,
+      122,
+      160,
+      181,
+      148,
+      45,
+      54,
+      77
+    ],
+    "cue_count": 745
+  }
+}
