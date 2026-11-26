@@ -69,6 +69,7 @@ The example evaluation currently checks, among other things:
 - sound-design intent
 - meaning-carrier recurrence and transformation
 - relational-contract timing, consent, personhood, and payoff
+- closure integrity: relational/home payoff before sequel expansion, plus community consequence after system collapse
 
 These are advisory studio gates, not oracle predictions. Read warnings and counterexamples rather than treating a score as a black box.
 

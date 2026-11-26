@@ -386,3 +386,8 @@ For any analysis or creative plan, produce structured artifacts, not just prose:
 - machine-readable JSON when another agent will consume it
 
 When unsure, say what evidence would reduce uncertainty. Do not fake certainty.
+
+## Closure integrity
+
+A plot sequel hook is allowed only after the promised relational recognition/home/belonging payoff lands. If the story destroys exploitative infrastructure that supplied water, food, power, safety, or transport, the ending must show community survival, replacement, rationing, rebuilding, or another concrete consequence. Use the Spark `wd53-C7Na0Y` counterexample: strong hooks and polish can still underperform when mythic density, packaging mismatch, or unresolved aftermath obscures the final human answer.
+
