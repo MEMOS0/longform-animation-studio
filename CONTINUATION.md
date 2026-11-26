@@ -129,3 +129,20 @@ Immediate next work:
 2. Finish middle validation for `Gx7nwqNr9YY` and `ylN26llRtmw` using local fullfilm sheets already generated at `C:/Users/Administrator/thirdpass_analysis/<id>/fullfilm_sheet.jpg` and subtitle windows. Add concise evidence to the same report.
 3. Continue exact director-level storyboards beyond S01 or controlled scene-by-scene conversion of continuous scaffold.
 4. Continue recent breakout discovery; do not spend money or create provider accounts.
+
+## 2026-11-26 context checkpoint — relational gate added
+
+Latest pushed commit when written: `14fc2ad Add relational contract production gate`; tests 23 passed.
+
+Since previous checkpoint:
+
+- Completed third-pass middle validation for `Gx7nwqNr9YY` and `ylN26llRtmw` in `knowledge/market/third-pass-breakout-media-deep-dive.md` using sampled full-runtime contact sheets plus subtitle windows. Gx: consent/material agency persists through gifts, distrust, bargaining-chip wound, deeds/income, garrison logistics, forced-marriage coercion, public reversal. yl: machine personhood chain escalates through Ezra alliance, Rhea/wiped-home moral complication, mines/underclass, Cross confession, EZRA nameplate, memory/name/labor/personhood stakes.
+- Added `studio/relational_contract.py` production gate. Premise schema now accepts optional `relational_contract` fields: `power_asymmetry`, `safety_or_kindness_before_power`, `costly_protagonist_action`, `consent_or_personhood_repair`, `payoff_image`. Stormglass explicit contract passes score 1.0; tests 23 passed.
+- Skill updated with relational-contract gate. Keep package schema copy synchronized.
+
+Immediate next work:
+
+1. Fix Devin Review findings when they arrive for latest head.
+2. Extend exact director storyboards beyond S01 or build controlled scene-by-scene conversion of continuous scaffold.
+3. Continue recent breakout discovery and timestamped sound-design analysis.
+4. Do not spend money/create accounts; no secrets exist.
