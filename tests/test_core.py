@@ -300,3 +300,8 @@ def test_meaning_carrier_prefers_object_over_provenance():
     carrier={"object_or_space":"ring from her mother","opening_meaning":"loss","closing_reversal":"recovered belonging","final_sequence_use":"ring returns"}
     result=evaluate_meaning_carrier({"meaning_carrier":carrier},{"sequences":[{"visual_setpiece":"the ring returns to her hand"}]})
     assert not any("final two architecture" in w for w in result["warnings"])
+
+def test_relational_contract_flashback_and_lifted_denial_regressions():
+    from studio.relational_contract import denial_is_unresolved
+    assert denial_is_unresolved("at the payoff she has no choice. once she was free")
+    assert not denial_is_unresolved("she has no choice. later she is no longer denied choice")

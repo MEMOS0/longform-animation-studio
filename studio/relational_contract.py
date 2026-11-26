@@ -49,13 +49,46 @@ def positive_outside_denials(text: str) -> bool:
     return any(positive in stripped for positive in REPAIR_TERMS)
 
 
-def denial_is_unresolved(text: str) -> bool:
-    """Evaluate each denial occurrence in temporal order.
+def clause_bounds(text: str, start: int, end: int) -> tuple[int, int]:
+    boundary_pattern = re.compile(r"[.;]|\bbut\b|\bhowever\b|\byet\b|\bthen\b|\blater\b|\bfinally\b|\bultimately\b|\bnow\b|\bthis time\b")
+    local_start = 0
+    local_end = len(text)
+    for match in boundary_pattern.finditer(text):
+        if match.end() <= start:
+            local_start = match.end()
+        elif match.start() >= end:
+            local_end = match.start()
+            break
+    return local_start, local_end
 
-    A denial is exempted only when its own local context marks it as past or explicitly
-    says the denial is no longer active. Unrelated uses of "no longer" (for example,
-    no longer wearing a ring) do not count as restored agency, and positive words before
-    a final denial do not erase that final state.
+
+def clause_texts(text: str) -> list[str]:
+    boundary_pattern = re.compile(r"[.;]|\bbut\b|\bhowever\b|\byet\b|\bthen\b|\blater\b|\bfinally\b|\bultimately\b|\bnow\b|\bthis time\b")
+    parts: list[str] = []
+    cursor = 0
+    for match in boundary_pattern.finditer(text):
+        parts.append(text[cursor:match.start()])
+        cursor = match.end()
+    parts.append(text[cursor:])
+    return [part.strip() for part in parts if part.strip()]
+
+
+def positive_repair_after(text: str) -> bool:
+    for clause in clause_texts(text):
+        if any(marker in clause for marker in PAST_MARKERS):
+            continue
+        if positive_outside_denials(clause):
+            return True
+    return False
+
+
+def denial_is_unresolved(text: str) -> bool:
+    """Evaluate denial occurrences in temporal order using local clause context.
+
+    Past-tense framing only applies inside the clause containing the denial. A later
+    flashback cannot soften a present payoff denial, unrelated "no longer" phrases do
+    not count as agency repair, and an explicit lifting of a denial clears the earlier
+    unresolved state.
     """
     occurrences: list[tuple[int, int]] = []
     for term in DENIAL_TERMS:
@@ -68,16 +101,17 @@ def denial_is_unresolved(text: str) -> bool:
 
     unresolved = False
     for start, end in sorted(set(occurrences)):
-        boundary_starts = [text.rfind(marker, 0, start) for marker in [".", ";", " but ", " however ", " yet ", " then ", " later ", " finally ", " ultimately ", " now ", " this time "]]
-        local_start = max([-1] + boundary_starts) + 1
-        window = text[local_start:min(len(text), end + 80)]
-        prefix = text[max(local_start, start - 60):start]
+        local_start, local_end = clause_bounds(text, start, end)
+        local = text[local_start:local_end]
+        prefix = text[local_start:start]
         suffix = text[end:]
-        explicitly_past = any(marker in window for marker in PAST_MARKERS)
+        explicitly_past = any(marker in local for marker in PAST_MARKERS)
         denial_lifted = re.search(r"no longer\s+(?:\w+\s+){0,3}$", prefix) is not None or re.search(r"no more\s+(?:\w+\s+){0,3}$", prefix) is not None
-        if explicitly_past or denial_lifted:
+        if denial_lifted:
+            unresolved = False
+        elif explicitly_past:
             continue
-        if positive_outside_denials(suffix):
+        elif positive_repair_after(suffix):
             unresolved = False
         else:
             unresolved = True
