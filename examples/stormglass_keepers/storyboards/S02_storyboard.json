@@ -1,0 +1,433 @@
+{
+  "scene_id": "S02",
+  "duration_seconds": 300,
+  "coverage": "continuous_exact_director_draft",
+  "shots": [
+    {
+      "shot_id": "S02_SB001",
+      "timecode": "0.0-15.0",
+      "duration_seconds": 15,
+      "scene_id": "S02",
+      "shot_size": "extreme wide cliff",
+      "camera_intent": "slow lateral drift",
+      "visual_action": "lantern ships comb wet cliffs while the lighthouse beam rotates blindly above black rocks",
+      "dialogue": "none",
+      "sound_design": "wind, surf, distant engine thrum",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "lighthouse_geography",
+        "ledger_prop",
+        "tam_costume",
+        "searchlight_direction"
+      ],
+      "director_note": "open on geography and pursuit"
+    },
+    {
+      "shot_id": "S02_SB002",
+      "timecode": "15.0-30.0",
+      "duration_seconds": 15,
+      "scene_id": "S02",
+      "shot_size": "interior wide",
+      "camera_intent": "low upward angle",
+      "visual_action": "Mira shuts the inner shutter; the dragon child hides inside her open coat, blue light leaking through cloth",
+      "dialogue": "MIRA: Not yet. Breathe first.",
+      "sound_design": "muffled storm, tiny scale chimes",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "lighthouse_geography",
+        "ledger_prop",
+        "tam_costume",
+        "searchlight_direction"
+      ],
+      "director_note": "concealment plus intimacy"
+    },
+    {
+      "shot_id": "S02_SB003",
+      "timecode": "30.0-45.0",
+      "duration_seconds": 15,
+      "scene_id": "S02",
+      "shot_size": "insert receiver",
+      "camera_intent": "macro rack focus",
+      "visual_action": "cracked radio repeats the bounty: scarred left hand, keeper braid, glass creature",
+      "dialogue": "RADIO: Scarred hand. Keeper braid. Alive if possible.",
+      "sound_design": "radio static dominates",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "lighthouse_geography",
+        "ledger_prop",
+        "tam_costume",
+        "searchlight_direction"
+      ],
+      "director_note": "recognition threat made concrete"
+    },
+    {
+      "shot_id": "S02_SB004",
+      "timecode": "45.0-60.0",
+      "duration_seconds": 15,
+      "scene_id": "S02",
+      "shot_size": "insert ledger",
+      "camera_intent": "overhead macro",
+      "visual_action": "ledger shows villager names, boat times, and tide-safe cottages in Mira’s hand",
+      "dialogue": "none",
+      "sound_design": "paper flap, child whimper",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "lighthouse_geography",
+        "ledger_prop",
+        "tam_costume",
+        "searchlight_direction"
+      ],
+      "director_note": "the object at risk is communal trust"
+    },
+    {
+      "shot_id": "S02_SB005",
+      "timecode": "60.0-75.0",
+      "duration_seconds": 15,
+      "scene_id": "S02",
+      "shot_size": "close Mira hand",
+      "camera_intent": "slow push",
+      "visual_action": "Mira closes her scarred hand around the dead receiver, then looks from ledger to child",
+      "dialogue": "MIRA: They do not get the map of us.",
+      "sound_design": "sudden silence, buoy bell",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "lighthouse_geography",
+        "ledger_prop",
+        "tam_costume",
+        "searchlight_direction"
+      ],
+      "director_note": "active protective decision"
+    },
+    {
+      "shot_id": "S02_SB006",
+      "timecode": "75.0-90.0",
+      "duration_seconds": 15,
+      "scene_id": "S02",
+      "shot_size": "vertical shaft wide",
+      "camera_intent": "high angle down",
+      "visual_action": "searchlight sweeps the stairwell as Mira, child, and ledger descend into shadow",
+      "dialogue": "none",
+      "sound_design": "metal stairs, rising wind",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "lighthouse_geography",
+        "ledger_prop",
+        "tam_costume",
+        "searchlight_direction"
+      ],
+      "director_note": "required vertical composition"
+    },
+    {
+      "shot_id": "S02_SB007",
+      "timecode": "90.0-105.0",
+      "duration_seconds": 15,
+      "scene_id": "S02",
+      "shot_size": "close child",
+      "camera_intent": "shallow focus",
+      "visual_action": "child sees the beam; scales flare and lantern glass frosts with hairline cracks",
+      "dialogue": "CHILD: small fractured cry",
+      "sound_design": "glass resonance, no music",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "lighthouse_geography",
+        "ledger_prop",
+        "tam_costume",
+        "searchlight_direction"
+      ],
+      "director_note": "fear creates physical consequences"
+    },
+    {
+      "shot_id": "S02_SB008",
+      "timecode": "105.0-120.0",
+      "duration_seconds": 15,
+      "scene_id": "S02",
+      "shot_size": "medium two-shot",
+      "camera_intent": "handheld tightening",
+      "visual_action": "Tam slips through the service door, sees the creature, and almost bolts",
+      "dialogue": "TAM: You brought the storm inside my lighthouse? MIRA: It is a child, not weather.",
+      "sound_design": "rain bursts against door",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "lighthouse_geography",
+        "ledger_prop",
+        "tam_costume",
+        "searchlight_direction"
+      ],
+      "director_note": "ally enters through fear"
+    },
+    {
+      "shot_id": "S02_SB009",
+      "timecode": "120.0-135.0",
+      "duration_seconds": 15,
+      "scene_id": "S02",
+      "shot_size": "insert match and sink",
+      "camera_intent": "macro",
+      "visual_action": "Mira burns the ledger in the metal sink; flame reflects in the child’s glass eye",
+      "dialogue": "MIRA: Paper burns. People do not.",
+      "sound_design": "match strike isolated, small fire",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "lighthouse_geography",
+        "ledger_prop",
+        "tam_costume",
+        "searchlight_direction"
+      ],
+      "director_note": "destroying safety to protect people"
+    },
+    {
+      "shot_id": "S02_SB010",
+      "timecode": "135.0-150.0",
+      "duration_seconds": 15,
+      "scene_id": "S02",
+      "shot_size": "cracked-door POV",
+      "camera_intent": "held frame",
+      "visual_action": "soldiers force the outer door; lantern light cuts across dust and rope coils",
+      "dialogue": "SOLDIER offscreen: Open in the king’s name!",
+      "sound_design": "door boom, helmet clatter",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "lighthouse_geography",
+        "ledger_prop",
+        "tam_costume",
+        "searchlight_direction"
+      ],
+      "director_note": "pressure enters spatially"
+    },
+    {
+      "shot_id": "S02_SB011",
+      "timecode": "150.0-165.0",
+      "duration_seconds": 15,
+      "scene_id": "S02",
+      "shot_size": "close Mira and child",
+      "camera_intent": "very tight intimate",
+      "visual_action": "child panics at the king’s name; Mira cups it without covering its eyes and hums three notes",
+      "dialogue": "MIRA humming three notes",
+      "sound_design": "music drops out; hum, breath, sea",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "lighthouse_geography",
+        "ledger_prop",
+        "tam_costume",
+        "searchlight_direction"
+      ],
+      "director_note": "trust offered rather than imposed"
+    },
+    {
+      "shot_id": "S02_SB012",
+      "timecode": "165.0-180.0",
+      "duration_seconds": 15,
+      "scene_id": "S02",
+      "shot_size": "macro child face",
+      "camera_intent": "settle slowly",
+      "visual_action": "child answers the third note with a fragile glass harmonic; cracks stop spreading",
+      "dialogue": "none",
+      "sound_design": "three-note call-and-response",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "lighthouse_geography",
+        "ledger_prop",
+        "tam_costume",
+        "searchlight_direction"
+      ],
+      "director_note": "motif evolves through trust"
+    },
+    {
+      "shot_id": "S02_SB013",
+      "timecode": "180.0-195.0",
+      "duration_seconds": 15,
+      "scene_id": "S02",
+      "shot_size": "medium Mira",
+      "camera_intent": "lateral track",
+      "visual_action": "Mira lifts a supply crate, sees the child fear its wooden walls, and lowers it",
+      "dialogue": "MIRA: You don’t save a child by becoming its cage.",
+      "sound_design": "wood scrape, cloth movement",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "lighthouse_geography",
+        "ledger_prop",
+        "tam_costume",
+        "searchlight_direction"
+      ],
+      "director_note": "trust/cage theme embodied"
+    },
+    {
+      "shot_id": "S02_SB014",
+      "timecode": "195.0-210.0",
+      "duration_seconds": 15,
+      "scene_id": "S02",
+      "shot_size": "insert scarf hand",
+      "camera_intent": "macro",
+      "visual_action": "child voluntarily hooks its claw into Mira’s scarf instead of being placed inside the crate",
+      "dialogue": "none",
+      "sound_design": "soft claw on fabric",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "lighthouse_geography",
+        "ledger_prop",
+        "tam_costume",
+        "searchlight_direction"
+      ],
+      "director_note": "child agency confirmed visually"
+    },
+    {
+      "shot_id": "S02_SB015",
+      "timecode": "210.0-225.0",
+      "duration_seconds": 15,
+      "scene_id": "S02",
+      "shot_size": "overhead soldiers",
+      "camera_intent": "wide",
+      "visual_action": "soldiers find smoking ledger ash; one lifts a half-burned tide-mark fragment",
+      "dialogue": "SOLDIER: She was here. Find the boats.",
+      "sound_design": "paper ash crackle",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "lighthouse_geography",
+        "ledger_prop",
+        "tam_costume",
+        "searchlight_direction"
+      ],
+      "director_note": "evidence race continues"
+    },
+    {
+      "shot_id": "S02_SB016",
+      "timecode": "225.0-240.0",
+      "duration_seconds": 15,
+      "scene_id": "S02",
+      "shot_size": "tunnel low wide",
+      "camera_intent": "backward tracking",
+      "visual_action": "Mira enters tidal tunnel; child glow reveals carved tide marks while water rises",
+      "dialogue": "MIRA: Eyes on the marks. Not the dark.",
+      "sound_design": "water rush, echoing boots",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "lighthouse_geography",
+        "ledger_prop",
+        "tam_costume",
+        "searchlight_direction"
+      ],
+      "director_note": "escape uses established geography"
+    },
+    {
+      "shot_id": "S02_SB017",
+      "timecode": "240.0-255.0",
+      "duration_seconds": 15,
+      "scene_id": "S02",
+      "shot_size": "ext cliff door",
+      "camera_intent": "whip pan settle",
+      "visual_action": "Mira bursts onto the ledge; lantern ships pivot toward the blue glow",
+      "dialogue": "SOLDIER above: Light on the ledge!",
+      "sound_design": "metal clang, engine pitch change",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "lighthouse_geography",
+        "ledger_prop",
+        "tam_costume",
+        "searchlight_direction"
+      ],
+      "director_note": "escape becomes visible risk"
+    },
+    {
+      "shot_id": "S02_SB018",
+      "timecode": "255.0-270.0",
+      "duration_seconds": 15,
+      "scene_id": "S02",
+      "shot_size": "wide lighthouse base",
+      "camera_intent": "low angle",
+      "visual_action": "Tam’s cut service stair tears loose and pulls storm-weakened fascia down between pursuers and escape path",
+      "dialogue": "none",
+      "sound_design": "massive stone and metal collapse",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "lighthouse_geography",
+        "ledger_prop",
+        "tam_costume",
+        "searchlight_direction"
+      ],
+      "director_note": "collapse caused by escape mechanics"
+    },
+    {
+      "shot_id": "S02_SB019",
+      "timecode": "270.0-285.0",
+      "duration_seconds": 15,
+      "scene_id": "S02",
+      "shot_size": "tracking cliff path",
+      "camera_intent": "urgent lateral",
+      "visual_action": "Mira runs the narrow ledge, shielding the child’s glow with her body instead of forcing it dark",
+      "dialogue": "MIRA: Glow if you need to. I will carry the cost.",
+      "sound_design": "wind blast, cloth snap, surf",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "lighthouse_geography",
+        "ledger_prop",
+        "tam_costume",
+        "searchlight_direction"
+      ],
+      "director_note": "care does not suppress the child"
+    },
+    {
+      "shot_id": "S02_SB020",
+      "timecode": "285.0-300.0",
+      "duration_seconds": 15,
+      "scene_id": "S02",
+      "shot_size": "final cave tracking",
+      "camera_intent": "slow backward push",
+      "visual_action": "Mira reaches the sea-cave shadow as the lighthouse collapses behind them; child remains voluntarily curled in her coat",
+      "dialogue": "RADIO faintly: She cannot stay hidden forever.",
+      "sound_design": "collapse recedes under unresolved lullaby harmonic",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "lighthouse_geography",
+        "ledger_prop",
+        "tam_costume",
+        "searchlight_direction"
+      ],
+      "director_note": "final image: committed fugitive protector"
+    }
+  ],
+  "validation_rules": [
+    "no gaps or overlaps",
+    "every shot needs exact staging, sound, camera intent, and continuity dependencies",
+    "hero lane reserved for moral/emotional pivots or major spectacle",
+    "trust/cage theme must be embodied visually, not only spoken"
+  ]
+}

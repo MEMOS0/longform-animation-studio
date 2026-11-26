@@ -184,3 +184,10 @@ def test_relational_contract_gate():
     good = {"relational_contract": {"power_asymmetry": "x", "safety_or_kindness_before_power": "she protects him before knowing his power", "costly_protagonist_action": "x", "consent_or_personhood_repair": "he is free to choose", "payoff_image": "shared home"}}
     assert evaluate_relational_contract(good)["score_0_to_1"] == 1.0
     assert evaluate_relational_contract({})["warnings"]
+
+def test_exact_storyboards_s01_s02_valid():
+    from studio.storyboard import validate_storyboard_file
+    for scene in ["S01", "S02"]:
+        result = validate_storyboard_file(f"examples/stormglass_keepers/storyboards/{scene}_storyboard.json")
+        assert result["valid"], result
+        assert result["covered_seconds"] == 300.0
