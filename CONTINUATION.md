@@ -60,3 +60,22 @@ Build a reusable professional AI-assisted long-form animation studio system, not
 ## Key creative synthesis to preserve
 
 Most portable mechanism: legible injustice/danger + specific vulnerable child/creature/person + credible protection + early visual payoff. Strong but channel-fit dependent: hidden royal identity, transformation/rebirth, familiar mythic adventure, revenge/reversal, creature spectacle, regression romance, BL intimacy/power, disaster survival, sci-fi mystery. Usually insufficient alone: scale, lore, armies, crowns, visual polish, franchise continuity, attractive actors, continuation hooks.
+
+
+## 2026-11-26 late checkpoint — continuous shot scaffold + release loop + AI Sweet visual audit
+
+Latest pushed commit: `8c46839` plus subsequent small commits may exist; check `git log` before writing.
+
+New system capabilities since expanded breakout pass:
+
+- `studio/release_learning.py` + `studio release-postmortem`: compares age-adjusted release performance with preproduction warnings/failure matches/title risks and emits revision rules while preserving causal uncertainty. Tests now 15 passing.
+- `studio/shot_pipeline.py` now builds continuous preproduction scaffolds covering every planned scene second, not only key beats. Stormglass regenerated: 414 shots, 2,880 planned/generated scaffold seconds, ratio 1.0, lanes draft 197 / mid 97 / hero 120. Caveat: continuous scaffold is not a finished director storyboard; generic slots still need exact staging/dialogue/camera intent.
+- `bAjeNeQ9DGc` media confirmed downloaded. Opening/ending contact sheets visually inspected. Strong evidence: class humiliation → protective CEO alliance → hidden technical competence → public boardroom/CTO authority → circular generosity to children's home. This validates wealth melodrama only when protagonist capability becomes public authority, not passive rescue.
+
+Immediate next highest-value work:
+
+1. Await/read Devin Review findings for latest head; fix real findings only.
+2. Continue expanding low-subscriber breakout discovery beyond current batches.
+3. Deepen exact director-level shot replacement for Stormglass continuous scaffold; current slots are coverage scaffolding, not final storyboard art.
+4. Validate external video provider terms/pricing immediately before any paid generation; no secrets exist in session and no spending is authorized.
+5. Continue converting empirical rules into machine gates, especially agency/competence inversion and social-test structures.

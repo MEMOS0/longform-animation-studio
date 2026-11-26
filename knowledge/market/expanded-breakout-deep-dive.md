@@ -1,6 +1,6 @@
 # Expanded recent-breakout deep dive — second-pass discoveries
 
-Updated: 2026-11-26. Evidence tier 3–4 boundary. Media for `no72LZAVvZQ`, `31-p_UcMgOs`, `5gaxmmT-RSg`, and `hw4kFMVk7mU` was downloaded locally. This note uses exact subtitles where available and sampled visual contact sheets. It is not continuous frame-by-frame human viewing. `bAjeNeQ9DGc` metadata/thumbnail were collected; media download may still be incomplete at this checkpoint.
+Updated: 2026-11-26. Evidence tier 3–4 boundary. Media for `no72LZAVvZQ`, `31-p_UcMgOs`, `5gaxmmT-RSg`, and `hw4kFMVk7mU` was downloaded locally. This note uses exact subtitles where available and sampled visual contact sheets. It is not continuous frame-by-frame human viewing. Media for `bAjeNeQ9DGc` was also downloaded and sampled through opening/ending contact sheets after the first checkpoint.
 
 ## Why this second pass matters
 
@@ -149,6 +149,22 @@ Thumbnail evidence:
 - romantic billionaire embrace dominates center, but desk objects carry hidden competence: patent, contract, laptop, X-tech identity, ring.
 - polished wealth fantasy is combined with professional/technical power rather than only luxury.
 - subtitle line “She was X all along, and he stood by her side” makes hidden identity + supportive partner explicit.
+
+Opening visual contact-sheet evidence (first 10 minutes sampled at 30-second intervals):
+
+- expensive fountain/plaza wealth geography, heroine in plain shirt/glasses, luxury car grille, startup-incubator document, and discarded gift imagery;
+- hostile ex/family figures occupy polished public space while heroine remains visually plain and lower-status;
+- CEO/protector appears in formal black suit and moves from bench/observer position into active defense;
+- office/contract imagery follows rapidly, keeping the fantasy material rather than purely verbal;
+- later opening frames visually shift into yacht/wealth danger and intimate negotiation, but heroine's face remains central rather than decorational.
+
+Ending visual contact-sheet evidence (final 10 minutes):
+
+- corporate boardroom geography becomes the payoff arena: long table, city windows, legal/executive documents, skeptical older power figures;
+- heroine appears in professional clothing and is physically centered in boardroom/public presentation compositions;
+- antagonists are shown losing position through travel/exile imagery rather than only being verbally punished;
+- children's-home/nun/cafeteria imagery closes the loop back to vulnerability and generosity;
+- final gala/CTO announcement imagery visually fuses romance, professional authority, and public recognition.
 
 Opening subtitle evidence:
 
