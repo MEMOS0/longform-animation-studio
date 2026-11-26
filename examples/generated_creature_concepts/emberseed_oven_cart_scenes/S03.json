@@ -51,10 +51,10 @@
     ]
   },
   "sound_design": {
-    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
-    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
-    "silence_or_negative_space": "intimate object/craft detail against hostile public murmur",
-    "motif": "a restrained tactile sound motif"
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
+    "music_function": "keep the creature's fear acoustically close while power remains reverberant and distant",
+    "silence_or_negative_space": "institutional chains, coin counts, ledger paper, and hostile murmur press against small creature fear sounds",
+    "motif": "blackened brass key clicks, ember breath, wing-feather tremor, and oven stone resonance"
   },
   "edit_hook": {
     "entry_hook": "enter on the immediate consequence of the previous turn: feeding and protecting the emberseed bird child becomes a repeatable ritual with visible cost",

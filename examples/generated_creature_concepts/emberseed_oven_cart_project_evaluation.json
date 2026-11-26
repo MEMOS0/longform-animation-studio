@@ -6277,12 +6277,12 @@
   "agency_intelligence": {
     "score_0_to_1": 1.0,
     "counts": {
-      "agency_actions": 13,
+      "agency_actions": 14,
       "competence_markers": 4,
       "passive_wound_markers": 1,
       "rescue_markers": 4,
       "circular_payoff_markers": 3,
-      "early_agency_actions": 9
+      "early_agency_actions": 11
     },
     "strengths": [
       "protagonist has repeated visible choices/actions rather than only suffering",
@@ -6294,7 +6294,7 @@
     "evidence_basis": "Nana child-designed social test, Reborn Assassin competence transplantation, AI Sweet professional authority/circular generosity, Stormglass protective choices"
   },
   "sound_design_quality": {
-    "score_0_to_1": 1.0,
+    "score_0_to_1": 0.88,
     "scene_reports": [
       {
         "scene_id": "S01",
@@ -6328,7 +6328,9 @@
       },
       {
         "scene_id": "S04",
-        "warnings": [],
+        "warnings": [
+          "S04: negative space is abstract rather than a audible transition"
+        ],
         "sound_design_keys_present": [
           "dialogue_priority",
           "motif",
@@ -6358,7 +6360,9 @@
       },
       {
         "scene_id": "S07",
-        "warnings": [],
+        "warnings": [
+          "S07: negative space is abstract rather than a audible transition"
+        ],
         "sound_design_keys_present": [
           "dialogue_priority",
           "motif",
@@ -6377,18 +6381,20 @@
         ]
       }
     ],
-    "warnings": [],
+    "warnings": [
+      "S04: negative space is abstract rather than a audible transition",
+      "S07: negative space is abstract rather than a audible transition"
+    ],
     "strengths": [
       "S01: dialogue intelligibility is explicit",
-      "S01: uses silence/negative space as an emotional transition",
       "S02: dialogue intelligibility is explicit",
       "S03: dialogue intelligibility is explicit",
       "S04: dialogue intelligibility is explicit",
-      "S04: uses silence/negative space as an emotional transition",
       "S05: dialogue intelligibility is explicit",
       "S05: uses silence/negative space as an emotional transition",
       "S06: dialogue intelligibility is explicit",
       "S07: dialogue intelligibility is explicit",
+      "S07: motif has narrative evolution rather than wallpaper repetition",
       "S08: dialogue intelligibility is explicit",
       "S08: motif has narrative evolution rather than wallpaper repetition"
     ],

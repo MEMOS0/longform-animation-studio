@@ -12,7 +12,7 @@
       "camera_intent": "slow push",
       "visual_action": "the protagonist repairs a small oven fault while guild/customer witnesses watch",
       "dialogue": "",
-      "sound_design": "competence rhythm interrupted by institutional silence and door/lock sounds",
+      "sound_design": "practical repair textures and system mechanics carry competence; guild/customer murmur interrupts rhythm",
       "generation_lane": "hero",
       "continuity_dependencies": [
         "protagonist_face_costume",
@@ -92,7 +92,7 @@
       "camera_intent": "slow tightening",
       "visual_action": "the protagonist's proof literacy threatens the coal guild, which begins separating home, work, and creature",
       "dialogue": "Your ledger can lie; heat cannot.",
-      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
       "generation_lane": "mid",
       "continuity_dependencies": [
         "protagonist_face_costume",
@@ -112,7 +112,7 @@
       "camera_intent": "slow tightening",
       "visual_action": "the protagonist's proof literacy threatens the coal guild, which begins separating home, work, and creature",
       "dialogue": "Your ledger can lie; heat cannot.",
-      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
       "generation_lane": "mid",
       "continuity_dependencies": [
         "protagonist_face_costume",
@@ -252,7 +252,7 @@
       "camera_intent": "slow lateral drift",
       "visual_action": "Competence threatens people whose power depends on others remaining illegible.",
       "dialogue": "The oven remembers every hand that opened it, including yours.",
-      "sound_design": "music enters only when relational power changes; it must not paper over unresolved tension",
+      "sound_design": "use sound interruptions to show the antagonist converting competence into threat",
       "generation_lane": "mid",
       "continuity_dependencies": [
         "protagonist_face_costume",
@@ -272,7 +272,7 @@
       "camera_intent": "slow lateral drift",
       "visual_action": "Competence threatens people whose power depends on others remaining illegible.",
       "dialogue": "The oven remembers every hand that opened it, including yours.",
-      "sound_design": "music enters only when relational power changes; it must not paper over unresolved tension",
+      "sound_design": "use sound interruptions to show the antagonist converting competence into threat",
       "generation_lane": "mid",
       "continuity_dependencies": [
         "protagonist_face_costume",
@@ -352,7 +352,7 @@
       "camera_intent": "slow pull-back",
       "visual_action": "she pockets a marked ledger fragment and carries the emberseed bird child away from the offer of sale",
       "dialogue": "Your ledger can lie; heat cannot.",
-      "sound_design": "a restrained tactile sound motif unresolved",
+      "sound_design": "blackened brass key clicks, ember breath, wing-feather tremor, and oven stone resonance unresolved",
       "generation_lane": "hero",
       "continuity_dependencies": [
         "protagonist_face_costume",

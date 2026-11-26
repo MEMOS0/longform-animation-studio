@@ -657,3 +657,11 @@ def test_thumbnail_concepts_creature_economic_vertical_scale_and_clutter_critiqu
     assert 'mobile negative-space readability' in critique['strengths']
     cluttered={"composition":"monster versus army battle with crowd","emotion":"generic spectacle","palette":"red","text_direction":"episode prologue badge franchise text blocks"}
     assert len(critique_concept(cluttered)['risks']) >= 3
+
+
+def test_sound_design_flags_generic_motif_and_requires_material_sources():
+    from studio.sound_design import evaluate_sound_design
+    generic=[{"scene_id":"S01","sound_design":{"dialogue_priority":"dialogue intelligible","music_function":"music enters on power change","silence_or_negative_space":"silence","motif":"a restrained tactile sound motif"}}]
+    concrete=[{"scene_id":"S01","sound_design":{"dialogue_priority":"dialogue intelligible","music_function":"no heroic score before protection","silence_or_negative_space":"crowd clatter thins into creature breath and water droplets","motif":"glass vial taps, salt grains, and pump-stone resonance"}}]
+    assert evaluate_sound_design(generic)['warnings']
+    assert not evaluate_sound_design(concrete)['warnings']

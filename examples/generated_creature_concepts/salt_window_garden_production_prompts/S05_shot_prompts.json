@@ -9,7 +9,7 @@
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow push",
     "dialogue": "",
-    "audio_direction": "public noise drops into a thin close perspective during the decisive accusation",
+    "audio_direction": "public noise drops into room tone, heartbeat, cloth movement, and the object striking stone",
     "director_note": "director seed generated from exact scene fields; refine staging before production: open on the scene image",
     "continuity_dependencies": [
       "protagonist_face_costume",
@@ -205,7 +205,7 @@
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow tightening",
     "dialogue": "I did not steal water. I saved a child you wanted to harvest.",
-    "audio_direction": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+    "audio_direction": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
     "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions",
     "continuity_dependencies": [
       "protagonist_face_costume",
@@ -254,7 +254,7 @@
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow tightening",
     "dialogue": "I did not steal water. I saved a child you wanted to harvest.",
-    "audio_direction": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+    "audio_direction": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
     "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions",
     "continuity_dependencies": [
       "protagonist_face_costume",
@@ -597,7 +597,7 @@
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow lateral drift",
     "dialogue": "Freeze the deed if you want. The evidence is already under the stone.",
-    "audio_direction": "music enters only when relational power changes; it must not paper over unresolved tension",
+    "audio_direction": "music must withhold resolution during accusation so shame remains spatial and bodily",
     "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation",
     "continuity_dependencies": [
       "protagonist_face_costume",
@@ -646,7 +646,7 @@
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow lateral drift",
     "dialogue": "Freeze the deed if you want. The evidence is already under the stone.",
-    "audio_direction": "music enters only when relational power changes; it must not paper over unresolved tension",
+    "audio_direction": "music must withhold resolution during accusation so shame remains spatial and bodily",
     "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation",
     "continuity_dependencies": [
       "protagonist_face_costume",
@@ -842,7 +842,7 @@
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow pull-back",
     "dialogue": "I did not steal water. I saved a child you wanted to harvest.",
-    "audio_direction": "a restrained tactile sound motif unresolved",
+    "audio_direction": "blue glass vial taps, salt grains, water droplets, fin movement, and pump-stone resonance unresolved",
     "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power",
     "continuity_dependencies": [
       "protagonist_face_costume",

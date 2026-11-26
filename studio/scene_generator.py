@@ -67,6 +67,7 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
     key_lines = line_options[index - 1]
     first_image_override = None
     final_image_override = None
+    sound_override = None
     opposition_beats = [
         {"beat": "external_pressure", "voice": "antagonist or social crowd", "dramatic_job": turn, "writing_note": "pressure must be specific behavior, not generic cruelty"},
         {"beat": "witness_objection", "voice": "caregiver, worker, or vulnerable witness", "dramatic_job": relationship, "writing_note": "the objection should make the safe choice reasonable"},
@@ -116,6 +117,29 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
             {"beat": "protagonist_decision", "voice": "protagonist", "dramatic_job": beat["decision"], "writing_note": "decision is spoken through action/refusal, not theme explanation"},
             {"beat": "evidence_or_cost", "voice": object_name, "dramatic_job": beat["evidence_or_cost"], "writing_note": "end the scene with visible proof implication or irreversible cost"},
         ]
+        if heat_based:
+            material_motif = "blackened brass key clicks, ember breath, wing-feather tremor, and oven stone resonance"
+            resource_texture = "fire crackle, coal shift, oven-door metal, warm bakery labor"
+        else:
+            material_motif = "blue glass vial taps, salt grains, water droplets, fin movement, and pump-stone resonance"
+            resource_texture = "water droplets, pump pressure, wet stone, and shared-food labor"
+        creature_sound = [
+            ("public clatter and accusation thin until creature breath, infant-like movement, and the first object touch remain audible", "no heroic score yet; let the protection choice register as close breath and contact before music enters"),
+            (resource_texture + " replace crowd noise as care becomes labor", "music may form a small rhythmic motif only after work/shelter becomes chosen rather than charitable"),
+            ("institutional chains, coin counts, ledger paper, and hostile murmur press against small creature fear sounds", "keep the creature's fear acoustically close while power remains reverberant and distant"),
+            ("practical repair textures and system mechanics carry competence; guild/customer murmur interrupts rhythm", "use sound interruptions to show the antagonist converting competence into threat"),
+            ("public noise drops into room tone, heartbeat, cloth movement, and the object striking stone", "music must withhold resolution during accusation so shame remains spatial and bodily"),
+            ("paper, pressure ticks, measurement scratches, witness whispers, and repeated object handling build the proof chain", "let investigation rhythm replace battle music; each proof layer should have a distinct tactile sound"),
+            ("near-silent proof assembly: each ledger, trace, witness, and object placement lands as a separate acoustic event", "a restrained motif can answer earlier care sounds but must not become triumph before consent repair"),
+            (resource_texture + " open into communal rhythm while the original public-humiliation sound returns transformed", "the ending motif resolves because home, consent, and shared survival are visible, not because the score insists they are resolved"),
+        ]
+        negative_space, music_function = creature_sound[index - 1]
+        sound_override = {
+            "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
+            "music_function": music_function,
+            "silence_or_negative_space": negative_space,
+            "motif": material_motif,
+        }
         creature_visuals = [
             (f"{creature} crosses toward the humiliated protagonist while the crowd watches", f"the protagonist kneels, hides {creature}, and closes a protective hand around the {object_term}"),
             (f"{caregiver} carries food into the shelter while the protagonist refuses payment for pain", f"the protagonist places the {object_term} beside {creature} instead of selling access to it"),
@@ -153,10 +177,10 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
             "opposition_beats": opposition_beats,
         },
         "sound_design": {
-            "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
-            "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
-            "silence_or_negative_space": sound,
-            "motif": motif,
+            "dialogue_priority": (sound_override or {}).get("dialogue_priority", "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture"),
+            "music_function": (sound_override or {}).get("music_function", "music enters only when relational power changes; it must not paper over unresolved tension"),
+            "silence_or_negative_space": (sound_override or {}).get("silence_or_negative_space", sound),
+            "motif": (sound_override or {}).get("motif", motif),
         },
         "edit_hook": {
             "entry_hook": f"enter on the immediate consequence of the previous turn: {relationship}",
