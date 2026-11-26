@@ -59,7 +59,9 @@ def add_outcomes(rows: list[dict[str, Any]], snapshot_date: date | None = None) 
     snapshot_date = snapshot_date or infer_snapshot_date(rows)
     for row in rows:
         published = parse_iso_date(row.get("published_date") or row.get("uploadDate"))
-        age_days = max((snapshot_date - published).days + 1, 1) if published else None
+        age_days = (snapshot_date - published).days + 1 if published else None
+        if age_days is not None and age_days < 1:
+            age_days = None
         views = row.get("exact_view_count") or row.get("views") or row.get("rounded_view_count") or 0
         duration = row.get("duration_seconds") or row.get("duration") or 0
         row["analysis"] = {
