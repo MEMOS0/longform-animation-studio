@@ -164,3 +164,9 @@ def test_evaluate_project_marks_missing_artifacts_and_empty_titles(tmp_path):
     assert result["gates"]["B_architecture"]=="missing"
     assert result["gates"]["C_screenplay"]=="missing"
     assert result["failure_intelligence"]["candidate"]=="x"
+
+
+def test_safe_filename_component_preserves_outer_underscores():
+    from tools.download_piped_archive import safe_filename_component
+    assert safe_filename_component("_I5I1l7DP3E") == "_I5I1l7DP3E"
+    assert safe_filename_component("../x") == "_x"

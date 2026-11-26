@@ -21,7 +21,7 @@ ALLOWED_MEDIA_HOSTS = {"maxtube-proxy.lawrie.co.nz", "www.youtube.com"}
 
 
 def safe_filename_component(value: str, fallback: str = "unknown") -> str:
-    cleaned = re.sub(r"[^A-Za-z0-9_-]+", "_", str(value)).strip("_")[:80]
+    cleaned = re.sub(r"[^A-Za-z0-9_-]+", "_", str(value))[:80]
     return cleaned or fallback
 
 
