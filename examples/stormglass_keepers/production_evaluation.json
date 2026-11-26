@@ -7144,10 +7144,10 @@
         "scaffold_status": "continuous_slot_requires_director_expansion"
       }
     ],
-    "coverage_scope": "continuous_preproduction_scaffold",
+    "coverage_scope": "exact_storyboard_coverage_validated_over_scaffold",
     "coverage_gap_seconds": 0.0,
     "warnings": [
-      "continuous scaffold allocates every scene second but generic slots still require exact director/storyboard expansion before paid generation"
+      "exact continuous storyboards cover the scaffold; validate generated frames, continuity assets, and edit timing before paid production"
     ],
     "production_rules": [
       "Generate character/creature/location reference sheets before motion shots.",
@@ -7156,6 +7156,79 @@
       "Use hero lane only for emotional payoff, creature transformation, revelation, and final-image shots.",
       "Track actual generated seconds separately; iteration ratio is a production KPI, not a creative afterthought."
     ]
+  },
+  "storyboard_coverage": {
+    "complete_exact_coverage": true,
+    "rows": [
+      {
+        "scene_id": "S01",
+        "expected_seconds": 300.0,
+        "actual_seconds": 300.0,
+        "valid": true,
+        "warnings": [],
+        "shot_count": 34
+      },
+      {
+        "scene_id": "S02",
+        "expected_seconds": 300.0,
+        "actual_seconds": 300.0,
+        "valid": true,
+        "warnings": [],
+        "shot_count": 20
+      },
+      {
+        "scene_id": "S03",
+        "expected_seconds": 360.0,
+        "actual_seconds": 360.0,
+        "valid": true,
+        "warnings": [],
+        "shot_count": 25
+      },
+      {
+        "scene_id": "S04",
+        "expected_seconds": 360.0,
+        "actual_seconds": 360.0,
+        "valid": true,
+        "warnings": [],
+        "shot_count": 24
+      },
+      {
+        "scene_id": "S05",
+        "expected_seconds": 360.0,
+        "actual_seconds": 360.0,
+        "valid": true,
+        "warnings": [],
+        "shot_count": 18
+      },
+      {
+        "scene_id": "S06",
+        "expected_seconds": 420.0,
+        "actual_seconds": 420.0,
+        "valid": true,
+        "warnings": [],
+        "shot_count": 21
+      },
+      {
+        "scene_id": "S07",
+        "expected_seconds": 420.0,
+        "actual_seconds": 420.0,
+        "valid": true,
+        "warnings": [],
+        "shot_count": 21
+      },
+      {
+        "scene_id": "S08",
+        "expected_seconds": 360.0,
+        "actual_seconds": 360.0,
+        "valid": true,
+        "warnings": [],
+        "shot_count": 18
+      }
+    ],
+    "missing": [],
+    "invalid": [],
+    "duration_mismatch": [],
+    "warnings": []
   },
   "dialogue_craft": {
     "scenes": [
@@ -7382,13 +7455,14 @@
   },
   "artifact_presence": {
     "architecture": true,
-    "scenes": true
+    "scenes": true,
+    "storyboards": 8
   },
   "gates": {
     "A_premise": "pass",
     "B_architecture": "pass",
     "C_screenplay": "pass",
-    "D_direction_storyboard": "unknown_until_storyboard_frames_exist",
+    "D_direction_storyboard": "pass",
     "E_production": "unknown_until_generated_media_exists",
     "F_release_learning": "unknown_until_release_metadata_exists"
   }

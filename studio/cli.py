@@ -49,6 +49,7 @@ def main() -> None:
     project_p.add_argument("--premise", required=True)
     project_p.add_argument("--architecture", default="")
     project_p.add_argument("--scenes", default="")
+    project_p.add_argument("--storyboards", default="")
     project_p.add_argument("--archive", default="data/processed/novdrama_analysis_rows.json")
     project_p.add_argument("--output", required=True)
 
@@ -80,7 +81,7 @@ def main() -> None:
         print(output)
     elif args.command == "evaluate-project":
         rows = json.loads(Path(args.archive).read_text(encoding="utf-8"))
-        result = evaluate_project(Path(args.premise), Path(args.architecture) if args.architecture else None, Path(args.scenes) if args.scenes else None, rows)
+        result = evaluate_project(Path(args.premise), Path(args.architecture) if args.architecture else None, Path(args.scenes) if args.scenes else None, rows, Path(args.storyboards) if args.storyboards else None)
         output = Path(args.output)
         output.parent.mkdir(parents=True, exist_ok=True)
         output.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")

@@ -20,6 +20,7 @@ from .agency_intelligence import evaluate_agency
 from .sound_design import evaluate_sound_design
 from .meaning_carrier import evaluate_meaning_carrier
 from .relational_contract import evaluate_relational_contract
+from .storyboard import validate_storyboard_file
 
 REPO_SCHEMA_DIR = Path(__file__).resolve().parents[1] / "schemas"
 SCHEMA_DIR = REPO_SCHEMA_DIR if REPO_SCHEMA_DIR.exists() else importlib.resources.files("studio") / "package_data" / "schemas"
@@ -53,6 +54,55 @@ def load_scenes(path: Path | None) -> tuple[list[dict[str, Any]], list[str]]:
                 errors.extend(f"{file.name}: {error}" for error in scene_errors)
             scenes.append(scene)
     return scenes, errors
+
+
+def load_storyboards(path: Path | None) -> dict[str, dict[str, Any]]:
+    if path is None or not path.exists():
+        return {}
+    files = sorted(path.glob("*_storyboard.json")) if path.is_dir() else [path]
+    boards: dict[str, dict[str, Any]] = {}
+    for file in files:
+        try:
+            data = load_json(file)
+            validation = validate_storyboard_file(file)
+        except Exception as exc:  # malformed artifact should be reported, not crash evaluation
+            data = {"scene_id": file.stem.replace("_storyboard", ""), "duration_seconds": 0}
+            validation = {"valid": False, "errors": [str(exc)], "warnings": []}
+        boards[str(data.get("scene_id") or file.stem.replace("_storyboard", ""))] = {"path": str(file), "data": data, "validation": validation}
+    return boards
+
+
+def storyboard_coverage(scenes: list[dict[str, Any]], boards: dict[str, dict[str, Any]]) -> dict[str, Any]:
+    rows = []
+    missing = []
+    invalid = []
+    duration_mismatch = []
+    for scene in scenes:
+        sid = str(scene.get("scene_id") or "")
+        board = boards.get(sid)
+        if not board:
+            missing.append(sid)
+            continue
+        validation = board["validation"]
+        expected = None
+        parsed = minutes_range(str(scene.get("time_range", "")))
+        if parsed:
+            expected = round((parsed[1] - parsed[0]) * 60.0, 2)
+        actual = round(float(board["data"].get("duration_seconds") or 0), 2)
+        if validation.get("errors"):
+            invalid.append(sid)
+        if expected is not None and abs(actual - expected) > 0.5:
+            duration_mismatch.append({"scene_id": sid, "expected_seconds": expected, "actual_seconds": actual})
+        rows.append({"scene_id": sid, "expected_seconds": expected, "actual_seconds": actual, "valid": validation.get("valid"), "warnings": validation.get("warnings", []), "shot_count": validation.get("shot_count", 0)})
+    complete = bool(scenes) and not missing and not invalid and not duration_mismatch
+    warnings = []
+    if missing:
+        warnings.append("missing exact storyboards for scenes: " + ", ".join(missing))
+    if invalid:
+        warnings.append("invalid exact storyboards for scenes: " + ", ".join(invalid))
+    if duration_mismatch:
+        warnings.append("storyboard duration mismatch for scenes: " + ", ".join(row["scene_id"] for row in duration_mismatch))
+    return {"complete_exact_coverage": complete, "rows": rows, "missing": missing, "invalid": invalid, "duration_mismatch": duration_mismatch, "warnings": warnings}
 
 
 def minutes_range(value: str) -> tuple[float, float] | None:
@@ -168,18 +218,25 @@ def opening_conversion_quality(premise: dict[str, Any]) -> dict[str, Any]:
     return {"mechanism_groups_present": present, "matched_terms": matched, "administrative_terms": admin_hits, "warnings": warnings}
 
 
-def gate_report(schema_errors: dict[str, list[str]], failure: dict[str, Any], scenes: dict[str, Any], architecture: dict[str, Any], architecture_reviewed: bool = True, scenes_reviewed: bool = True) -> dict[str, Any]:
+def gate_report(schema_errors: dict[str, list[str]], failure: dict[str, Any], scenes: dict[str, Any], architecture: dict[str, Any], architecture_reviewed: bool = True, scenes_reviewed: bool = True, storyboards: dict[str, Any] | None = None) -> dict[str, Any]:
+    storyboards = storyboards or {}
+    if storyboards.get("complete_exact_coverage"):
+        direction_gate = "pass"
+    elif storyboards.get("rows"):
+        direction_gate = "attention"
+    else:
+        direction_gate = "missing"
     return {
         "A_premise": "pass" if not schema_errors.get("premise") and failure["risk_score_0_to_1"] < 0.5 else "attention",
         "B_architecture": ("pass" if not schema_errors.get("architecture") and not architecture.get("warnings") else "attention") if architecture_reviewed else "missing",
         "C_screenplay": ("pass" if not schema_errors.get("scenes") and not any(scenes.get("missing", {}).values()) else "attention") if scenes_reviewed else "missing",
-        "D_direction_storyboard": "unknown_until_storyboard_frames_exist",
+        "D_direction_storyboard": direction_gate,
         "E_production": "unknown_until_generated_media_exists",
         "F_release_learning": "unknown_until_release_metadata_exists",
     }
 
 
-def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_path: Path | None, archive_rows: list[dict[str, Any]]) -> dict[str, Any]:
+def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_path: Path | None, archive_rows: list[dict[str, Any]], storyboards_path: Path | None = None) -> dict[str, Any]:
     schema_errors: dict[str, list[str]] = {"premise": validate_artifact(premise_path, "premise-packet.schema.json")}
     premise = load_json(premise_path)
     architecture = load_json(architecture_path) if architecture_path else {}
@@ -193,6 +250,15 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
     failure = evaluate_candidate(candidate, archive_rows, combined)
     scene_report = scene_quality(scenes)
     architecture_report = architecture_quality(architecture)
+    if storyboards_path is None and scenes_path is not None:
+        candidate_board_dir = scenes_path.parent / "storyboards" if scenes_path.is_dir() else scenes_path.parent / "storyboards"
+        storyboards_path = candidate_board_dir if candidate_board_dir.exists() else None
+    boards = load_storyboards(storyboards_path)
+    board_report = storyboard_coverage(scenes, boards)
+    shot_pipeline = build_shot_plan(scenes, premise.get("target_minutes")) if scenes else {"shot_count": 0, "warnings": ["no scenes supplied"]}
+    if board_report["complete_exact_coverage"]:
+        shot_pipeline["warnings"] = ["exact continuous storyboards cover the scaffold; validate generated frames, continuity assets, and edit timing before paid production"]
+        shot_pipeline["coverage_scope"] = "exact_storyboard_coverage_validated_over_scaffold"
     return {
         "premise_id": premise.get("premise_id"),
         "schema_errors": schema_errors,
@@ -204,12 +270,13 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "title_packaging": {"existing_title_critiques": [{"title": title, "critique": critique_title(title, premise)} for title in premise.get("title_candidates", [])], "generated_alternatives": generate_title_candidates(premise)},
         "channel_contract_fit": evaluate_channel_fit(combined, premise.get("channel_contract", "")),
         "production_economics": estimate_video_budget(premise.get("target_minutes")),
-        "shot_pipeline": build_shot_plan(scenes, premise.get("target_minutes")) if scenes else {"shot_count": 0, "warnings": ["no scenes supplied"]},
+        "shot_pipeline": shot_pipeline,
+        "storyboard_coverage": board_report,
         "dialogue_craft": evaluate_scenes_dialogue(scenes),
         "agency_intelligence": evaluate_agency(premise, scenes),
         "sound_design_quality": evaluate_sound_design(scenes),
         "meaning_carrier_intelligence": evaluate_meaning_carrier(premise, architecture),
         "relational_contract_intelligence": evaluate_relational_contract(premise),
-        "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes)},
-        "gates": gate_report(schema_errors, failure, scene_report, architecture_report, bool(architecture), bool(scenes)),
+        "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes), "storyboards": len(boards)},
+        "gates": gate_report(schema_errors, failure, scene_report, architecture_report, bool(architecture), bool(scenes), board_report),
     }
