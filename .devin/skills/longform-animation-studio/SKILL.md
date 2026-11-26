@@ -153,6 +153,28 @@ These are observational rules, not universal laws. Always inspect `knowledge/nov
 9. Treat censorship blur, missing audio, loud music under dialogue, sudden cuts, watermark-like overlays, and continuity errors as immersion-breaking production defects.
 10. Always list counterexamples. If a hit violates a proposed rule, narrow the rule rather than ignoring the hit.
 
+Archive-wide measured patterns from 46 scored casebooks (observational, not causal):
+
+- Underperformers average roughly 2x explicit lore density of hits (141 vs 71 per hour) and higher threat density (121 vs 73 per hour).
+- Hits keep explicit lore below care language (lore/care ratio ~0.83 versus ~1.69 in underperformers).
+- Final warmth does not separate cohorts: final-10-minute care counts are nearly identical. Do not use a warm ending as a substitute for opening clarity and middle momentum.
+- Underperforming openings are more verbally dense: roughly 598 subtitle words in the first five minutes versus 459 in hits; exposition markers are ~6.45/1000 versus ~1.78/1000. The key failure is explanation before embodied stakes.
+- Direct visual audits show that child presence alone is insufficient: `a2pydTch_Tg` uses children but converts them into sustained suffering spectacle; `ULJ7-z1zm6M` uses child vulnerability plus credible protection and belonging progression.
+
+Before applying any rule, read the timestamped examples in `knowledge/nov-drama/comparative-findings.md` and the machine-generated rows in `data/processed/casebook_cohort_comparison.md` and `data/processed/dialogue_cohort_comparison.md`.
+
+## AI generation provider protocol
+
+Do not assume production APIs exist or work. Inventory and smoke-test them before relying on them.
+
+1. Record available providers, exact model names, modalities, cost risks, license gates, and artifact evidence in `knowledge/production/ai-provider-inventory.md`.
+2. Never accept provider license terms on the user's behalf.
+3. A successful text model does not imply working image, voice, music, or video generation. Validate each modality separately.
+4. For image generation, test vertical composition, character consistency, face/hand integrity, emotional readability, text-free output, and style repeatability — not just whether an image returns.
+5. For voice, test emotional performance, pronunciation, loudness, intelligibility, artifacts, licensing, and whether the voice fits the character.
+6. For video, require shot-level motion, continuity, face identity, lip-sync feasibility, editability, and cost-per-usable-shot metrics. No video generation provider is validated merely because it is famous or because an API exists.
+7. Cloudflare Workers AI is currently validated in this repository only as a provider candidate for text, image, TTS, ASR, embeddings, and vision-language experimentation. As of 2026-11-26, no video-generation model was visible in its catalog.
+
 ## Failure intelligence protocol
 
 Before greenlighting:

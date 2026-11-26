@@ -25,3 +25,10 @@ def test_parse_ttml_fixture(tmp_path):
     fixture.write_text('''<tt xmlns="http://www.w3.org/ns/ttml"><body><div><p begin="00:00:01.000" end="00:00:02.500">Hello world</p></div></body></tt>''', encoding="utf-8")
     cues = parse_ttml(fixture)
     assert cues == [{"start": 1.0, "end": 2.5, "text": "Hello world"}]
+
+
+def test_provider_inventory_contains_validated_cloudflare_modalities():
+    from studio.providers import inventory
+    rows = inventory()
+    assert any(row["provider"] == "cloudflare_workers_ai" and row["modality"] == "text_to_image" and "smoke passed" in row["validation_status"] for row in rows)
+    assert any(row["modality"] == "video_generation" and "no video-generation model" in row["validation_status"] for row in rows)
