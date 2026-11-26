@@ -139,7 +139,10 @@ def denial_is_unresolved(text: str) -> bool:
         trailing_past = any(marker in local[occurrence_offset:] for marker in ["at first", "at the start", "previously", "originally", "back then", "in the past"])
         denial_lifted = re.search(r"no longer\s+(?:\w+\s+){0,3}$", prefix) is not None or re.search(r"no more\s+(?:\w+\s+){0,3}$", prefix) is not None
         trailing_before = "before" in local[occurrence_offset:] and not denial_lifted
+        comparative_past = re.search(r"as.*(?:before|in the past)", local[occurrence_offset:]) is not None
         explicitly_past = past_before or trailing_past or trailing_before
+        if denial_lifted and comparative_past and not past_before:
+            explicitly_past = False
         if explicitly_past:
             continue
         if denial_lifted:

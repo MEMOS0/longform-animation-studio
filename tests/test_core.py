@@ -360,3 +360,9 @@ def test_relational_contract_historical_denial_and_lifted_past():
     assert not denial_is_unresolved("she had no choice before meeting him. later she freely chooses")
     assert denial_is_unresolved("she has no choice now. she was no longer denied choice in the past")
     assert not denial_is_unresolved("she had no choice. she is no longer denied choice as she was before")
+
+
+def test_relational_contract_lifted_denial_with_comparative_past():
+    from studio.relational_contract import denial_is_unresolved
+    assert not denial_is_unresolved("she had no choice. she is no longer denied choice as she was in the past")
+    assert denial_is_unresolved("she has no choice now. she was no longer denied choice in the past")
