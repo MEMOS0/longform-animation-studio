@@ -1,0 +1,58 @@
+{
+  "video_id": "or5RI5v_lHw",
+  "probe": {
+    "duration": 965.485714,
+    "size": 27448760,
+    "width": 640,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\research\\sixthpass_media_analysis\\or5RI5v_lHw\\contact_sheets\\contact_000.jpg",
+    "evidence\\research\\sixthpass_media_analysis\\or5RI5v_lHw\\contact_sheets\\contact_001.jpg",
+    "evidence\\research\\sixthpass_media_analysis\\or5RI5v_lHw\\contact_sheets\\contact_002.jpg"
+  ],
+  "seconds_indexed": 965,
+  "shot_count": 30,
+  "shot_length_mean_seconds": 32.166666666666664,
+  "shot_length_median_seconds": 16.0,
+  "shot_length_p90_seconds": 53.50000000000009,
+  "visual_motion_mean": 0.10202840283281445,
+  "visual_brightness_mean": 0.34449426105603037,
+  "dialogue_cues": 688,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 263.484,
+      "text": ">> Hey, hoodie guy."
+    },
+    "first_power_or_identity_language": {
+      "time": 273.594,
+      "text": "You look frozen. I brought you coffee. >> Coffee? Tomorrow I'm making you real"
+    },
+    "first_care_or_belonging_language": {
+      "time": 42.799,
+      "text": "husband left me. >> Ma'am, I'm sorry. It's for staff only."
+    },
+    "dialogue_words_per_minute": [
+      274,
+      386,
+      331,
+      295,
+      237,
+      212,
+      302,
+      263,
+      317,
+      344,
+      366,
+      338,
+      205,
+      329,
+      254,
+      239,
+      28
+    ],
+    "cue_count": 688
+  }
+}

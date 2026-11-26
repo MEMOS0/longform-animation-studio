@@ -1,0 +1,41 @@
+{
+  "scene_id": "S07",
+  "time_range": "35-42 minutes",
+  "objective": "expose Rook and stop the weaponized storm channel",
+  "conflict": "the parent creature is chained beneath the vault and the capital is watching",
+  "power_position_start": "hunted exile",
+  "power_position_end": "public protector",
+  "turn": "private protection becomes public truth",
+  "protagonist_decision": "Mira steps into the vault rather than escaping",
+  "subtext": "Protection means risking attachment without turning love into control.",
+  "visual_action": {
+    "first_image": "a giant storm eye opening above the capital",
+    "face_reaction": "the child's face answering the parent's call",
+    "vertical_composition": "vast vertical shaft with tiny figures below",
+    "final_image": "total silence as child and parent hear each other"
+  },
+  "dialogue_design": {
+    "function": "advance protective choices and power shifts rather than explain lore",
+    "subtext_rule": "Characters rarely say fear or love directly; they negotiate control, debt, blame, and safety.",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "Pain makes it obey. Trust makes it answer.",
+      "You don't save a child by becoming its cage."
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "dialogue remains intelligible under weather and crowd effects",
+    "music_function": "lullaby motif evolves with trust rather than constant emotional wallpaper",
+    "silence_or_negative_space": "drop music before each bonding or revelation beat so breath, scale chimes, and creature calls carry meaning",
+    "motif": "three-note lullaby answered by glassy creature harmonics"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on immediate danger, choice, or visible emotional consequence",
+    "exit_hook": "exit on changed power, new evidence, or an unanswered protective cost"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, or capability?",
+    "Is spectacle tied to the vulnerable child/protector relationship?",
+    "Is exposition converted into a decision or visible event?"
+  ]
+}

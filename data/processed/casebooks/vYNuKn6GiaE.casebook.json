@@ -1,0 +1,896 @@
+{
+  "video_id": "vYNuKn6GiaE",
+  "duration_seconds": 6864,
+  "window_seconds": 300,
+  "total_signal_counts": {
+    "wound_or_humiliation": 84,
+    "care_belonging_protection": 105,
+    "justice_reversal_payoff": 37,
+    "romance_bond_or_coercion": 75,
+    "lore_mythology_density": 209,
+    "threat_or_violence": 149
+  },
+  "first_signal_occurrences": {
+    "wound_or_humiliation": {
+      "time": 480.495,
+      "text": "IT WAS MINE TO BEGIN WITH."
+    },
+    "care_belonging_protection": {
+      "time": 239.09199999999998,
+      "text": "From now on, we both belong to a true"
+    },
+    "justice_reversal_payoff": {
+      "time": 66.7,
+      "text": "And Brian kept growing."
+    },
+    "romance_bond_or_coercion": {
+      "time": 294.694,
+      "text": "mine?"
+    },
+    "lore_mythology_density": {
+      "time": 221.992,
+      "text": "Someone in the mortal realm awakened a"
+    },
+    "threat_or_violence": {
+      "time": 325.794,
+      "text": "muddy the royal bloodline?"
+    }
+  },
+  "care_after_wound_latency_seconds": -241.40300000000002,
+  "final_10_minutes_signal_counts": {
+    "wound_or_humiliation": 2,
+    "care_belonging_protection": 15,
+    "justice_reversal_payoff": 2,
+    "romance_bond_or_coercion": 6,
+    "lore_mythology_density": 15,
+    "threat_or_violence": 8
+  },
+  "windows": [
+    {
+      "start": 0,
+      "end": 300,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 2,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 9,
+        "threat_or_violence": 0
+      },
+      "dialogue_words": 242,
+      "shot_boundaries": 17,
+      "visual": {
+        "brightness": 0.41399261883149546,
+        "saturation": 0.34289723987380666,
+        "colorfulness": 0.33078599790732066,
+        "motion": 0.15862137146294117
+      },
+      "audio": {
+        "rms_mean": 0.02257101856327305,
+        "rms_std": 0.025181098330843574,
+        "silence_ratio": 0.6659177794161819,
+        "onsets_per_second": 2.466666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 60,
+          "quote": "And Brian kept growing."
+        },
+        {
+          "time": 180,
+          "quote": "Five."
+        }
+      ]
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "signal_counts": {
+        "wound_or_humiliation": 12,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 13,
+        "threat_or_violence": 16
+      },
+      "dialogue_words": 548,
+      "shot_boundaries": 22,
+      "visual": {
+        "brightness": 0.5098838144044081,
+        "saturation": 0.303621619977057,
+        "colorfulness": 0.33972787842154506,
+        "motion": 0.1616066690844794
+      },
+      "audio": {
+        "rms_mean": 0.058050022833049296,
+        "rms_std": 0.061956898371378584,
+        "silence_ratio": 0.188233527211163,
+        "onsets_per_second": 4.25
+      },
+      "evidence_snippets": [
+        {
+          "time": 300,
+          "quote": "Serena? It's Serena. How did you get so thin? She is Serena"
+        },
+        {
+          "time": 310,
+          "quote": "Grandpa! Grandpa?"
+        }
+      ]
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "signal_counts": {
+        "wound_or_humiliation": 11,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 5,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 16,
+        "threat_or_violence": 11
+      },
+      "dialogue_words": 559,
+      "shot_boundaries": 24,
+      "visual": {
+        "brightness": 0.46066865108907223,
+        "saturation": 0.2948061250026027,
+        "colorfulness": 0.3478183766702811,
+        "motion": 0.16300876110171278
+      },
+      "audio": {
+        "rms_mean": 0.06475554183125495,
+        "rms_std": 0.06568831068774064,
+        "silence_ratio": 0.07682647934245378,
+        "onsets_per_second": 4.213333333333334
+      },
+      "evidence_snippets": [
+        {
+          "time": 600,
+          "quote": "Die. [screaming] Hurry, Ruby. Mama will finish her off."
+        },
+        {
+          "time": 610,
+          "quote": "Hurry, Ruby. Mama will finish her off. [snorts] She killed the deputy"
+        }
+      ]
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 1,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 8,
+        "threat_or_violence": 7
+      },
+      "dialogue_words": 353,
+      "shot_boundaries": 16,
+      "visual": {
+        "brightness": 0.38352944841297965,
+        "saturation": 0.33327781461179257,
+        "colorfulness": 0.3392706393574675,
+        "motion": 0.16555268490066133
+      },
+      "audio": {
+        "rms_mean": 0.04902334545428554,
+        "rms_std": 0.04722384032793343,
+        "silence_ratio": 0.060781723601212416,
+        "onsets_per_second": 4.709999999999999
+      },
+      "evidence_snippets": [
+        {
+          "time": 900,
+          "quote": "Maybe daddy is in the High Realms, too. Mommy isn't strong enough"
+        },
+        {
+          "time": 910,
+          "quote": "Order master, the deputy order master, elder Theron and the others died"
+        }
+      ]
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 0,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 9,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 360,
+      "shot_boundaries": 5,
+      "visual": {
+        "brightness": 0.45244605268041294,
+        "saturation": 0.242456471696496,
+        "colorfulness": 0.3577378089477618,
+        "motion": 0.16043302158514658
+      },
+      "audio": {
+        "rms_mean": 0.03962313832404713,
+        "rms_std": 0.03970733491393427,
+        "silence_ratio": 0.11788181644411676,
+        "onsets_per_second": 4.7266666666666675
+      },
+      "evidence_snippets": [
+        {
+          "time": 1200,
+          "quote": "Bad news. His little highness is missing."
+        },
+        {
+          "time": 1220,
+          "quote": "Strange. Why do I feel so uneasy? Mama, you're amazing. You reached"
+        }
+      ]
+    },
+    {
+      "start": 1500,
+      "end": 1800,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 0,
+        "justice_reversal_payoff": 4,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 0,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 569,
+      "shot_boundaries": 2,
+      "visual": {
+        "brightness": 0.3722734841704369,
+        "saturation": 0.2609160754705469,
+        "colorfulness": 0.3486922920991977,
+        "motion": 0.15595282605849206
+      },
+      "audio": {
+        "rms_mean": 0.0465447334262232,
+        "rms_std": 0.057626927333573504,
+        "silence_ratio": 0.13809938286775347,
+        "onsets_per_second": 4.5
+      },
+      "evidence_snippets": [
+        {
+          "time": 1500,
+          "quote": "Tracking Butterfly's last location was here. Ari, Ruby, stay close. It's crowded,"
+        },
+        {
+          "time": 1510,
+          "quote": "Ari, Ruby, stay close. It's crowded, so watch yourselves. You there, take"
+        }
+      ]
+    },
+    {
+      "start": 1800,
+      "end": 2100,
+      "signal_counts": {
+        "wound_or_humiliation": 1,
+        "care_belonging_protection": 5,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 6,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 571,
+      "shot_boundaries": 1,
+      "visual": {
+        "brightness": 0.4018013768394788,
+        "saturation": 0.2546569340179364,
+        "colorfulness": 0.382195230225722,
+        "motion": 0.1590529815852642
+      },
+      "audio": {
+        "rms_mean": 0.053753938836356006,
+        "rms_std": 0.06034632436931133,
+        "silence_ratio": 0.09486735752710194,
+        "onsets_per_second": 4.786666666666666
+      },
+      "evidence_snippets": [
+        {
+          "time": 1800,
+          "quote": "Looking for this? Yes. I did not expect you to have found"
+        },
+        {
+          "time": 1810,
+          "quote": "Have we met before? Sovereign, has no one told you that pickup"
+        }
+      ]
+    },
+    {
+      "start": 2100,
+      "end": 2400,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 1,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 3,
+        "threat_or_violence": 1
+      },
+      "dialogue_words": 504,
+      "shot_boundaries": 4,
+      "visual": {
+        "brightness": 0.28126677909865977,
+        "saturation": 0.33742180655399956,
+        "colorfulness": 0.34615155369043354,
+        "motion": 0.1540738580810527
+      },
+      "audio": {
+        "rms_mean": 0.04819089478502671,
+        "rms_std": 0.051608062271649636,
+        "silence_ratio": 0.13545950410966384,
+        "onsets_per_second": 4.923333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 2100,
+          "quote": "Nox, why are you wearing a girl's dress? I am a girl,"
+        },
+        {
+          "time": 2110,
+          "quote": "the wrong child. Send me back now. My mama and brother will"
+        }
+      ]
+    },
+    {
+      "start": 2400,
+      "end": 2700,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 7,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 8,
+        "threat_or_violence": 4
+      },
+      "dialogue_words": 681,
+      "shot_boundaries": 5,
+      "visual": {
+        "brightness": 0.37415649324655537,
+        "saturation": 0.3131123805542787,
+        "colorfulness": 0.417540612804393,
+        "motion": 0.15771008164311448
+      },
+      "audio": {
+        "rms_mean": 0.059273214731365445,
+        "rms_std": 0.07069090502336621,
+        "silence_ratio": 0.2742842221676087,
+        "onsets_per_second": 4.176666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 2400,
+          "quote": "Three. Ruby, did they capture you too? Ari, are you okay? Where"
+        },
+        {
+          "time": 2410,
+          "quote": "They are Knox's own brother and sister. You two said you saw"
+        }
+      ]
+    },
+    {
+      "start": 2700,
+      "end": 3000,
+      "signal_counts": {
+        "wound_or_humiliation": 9,
+        "care_belonging_protection": 11,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 14,
+        "threat_or_violence": 14
+      },
+      "dialogue_words": 675,
+      "shot_boundaries": 4,
+      "visual": {
+        "brightness": 0.3860376703739166,
+        "saturation": 0.2831963137102624,
+        "colorfulness": 0.3581854071592291,
+        "motion": 0.11864400153358777
+      },
+      "audio": {
+        "rms_mean": 0.07079966909562548,
+        "rms_std": 0.0749414428602904,
+        "silence_ratio": 0.22861268124846398,
+        "onsets_per_second": 4.483333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 2710,
+          "quote": "It's the first Dawnfire dragon, the source of House Ashburn's bloodline. How"
+        },
+        {
+          "time": 2720,
+          "quote": "How is that possible? Such powerful bloodline suppression. Welcome home, Dawnfire Princess."
+        }
+      ]
+    },
+    {
+      "start": 3000,
+      "end": 3300,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 0,
+        "lore_mythology_density": 11,
+        "threat_or_violence": 2
+      },
+      "dialogue_words": 204,
+      "shot_boundaries": 22,
+      "visual": {
+        "brightness": 0.39784868935743967,
+        "saturation": 0.3816900067528089,
+        "colorfulness": 0.3621465106060108,
+        "motion": 0.17229420637711884
+      },
+      "audio": {
+        "rms_mean": 0.04380510376455883,
+        "rms_std": 0.050400550663471225,
+        "silence_ratio": 0.18939201551022636,
+        "onsets_per_second": 3.52
+      },
+      "evidence_snippets": [
+        {
+          "time": 3000,
+          "quote": "Dragon Dragon Guard, please protect Serena. Bring back the Violet Sky Lotus"
+        },
+        {
+          "time": 3010,
+          "quote": "If you can't then Evelyn's fate is sealed. Rest assured. Several demon"
+        }
+      ]
+    },
+    {
+      "start": 3300,
+      "end": 3600,
+      "signal_counts": {
+        "wound_or_humiliation": 1,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 3,
+        "lore_mythology_density": 2,
+        "threat_or_violence": 5
+      },
+      "dialogue_words": 509,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.3145638235410055,
+        "saturation": 0.38004547427097957,
+        "colorfulness": 0.3542537581672271,
+        "motion": 0.136153048039414
+      },
+      "audio": {
+        "rms_mean": 0.053885963683327036,
+        "rms_std": 0.05285170059651136,
+        "silence_ratio": 0.09376518937221813,
+        "onsets_per_second": 4.1866666666666665
+      },
+      "evidence_snippets": [
+        {
+          "time": 3300,
+          "quote": "I remember you kissed me first."
+        },
+        {
+          "time": 3330,
+          "quote": "It's that girl's scent. You creep. Get away from me."
+        }
+      ]
+    },
+    {
+      "start": 3600,
+      "end": 3900,
+      "signal_counts": {
+        "wound_or_humiliation": 6,
+        "care_belonging_protection": 5,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 5,
+        "threat_or_violence": 14
+      },
+      "dialogue_words": 468,
+      "shot_boundaries": 15,
+      "visual": {
+        "brightness": 0.3680355904810131,
+        "saturation": 0.29514394397536914,
+        "colorfulness": 0.3272578719630837,
+        "motion": 0.14638140304634967
+      },
+      "audio": {
+        "rms_mean": 0.045037702688326436,
+        "rms_std": 0.05210571877347926,
+        "silence_ratio": 0.21208015892520687,
+        "onsets_per_second": 4.12
+      },
+      "evidence_snippets": [
+        {
+          "time": 3600,
+          "quote": "The seal at the Veil Front is weakening."
+        },
+        {
+          "time": 3610,
+          "quote": "The seal at the Veil Front is weakening. If we don't reinforce"
+        }
+      ]
+    },
+    {
+      "start": 3900,
+      "end": 4200,
+      "signal_counts": {
+        "wound_or_humiliation": 3,
+        "care_belonging_protection": 7,
+        "justice_reversal_payoff": 3,
+        "romance_bond_or_coercion": 4,
+        "lore_mythology_density": 7,
+        "threat_or_violence": 3
+      },
+      "dialogue_words": 503,
+      "shot_boundaries": 19,
+      "visual": {
+        "brightness": 0.34350524201989174,
+        "saturation": 0.4084850227832794,
+        "colorfulness": 0.3381541155278683,
+        "motion": 0.1625562926630179
+      },
+      "audio": {
+        "rms_mean": 0.060693801225473486,
+        "rms_std": 0.05772598534822464,
+        "silence_ratio": 0.14685153327325853,
+        "onsets_per_second": 4.333333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 3910,
+          "quote": "SERENA, COME BACK. [screaming]"
+        },
+        {
+          "time": 3920,
+          "quote": "SERENA, COME BACK. [screaming] WE WE LET EVERYTHING FALL NOW. WE'RE SO"
+        }
+      ]
+    },
+    {
+      "start": 4200,
+      "end": 4500,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 6,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 10,
+        "threat_or_violence": 16
+      },
+      "dialogue_words": 723,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.34458844045797987,
+        "saturation": 0.3390326946477095,
+        "colorfulness": 0.34417626018325487,
+        "motion": 0.1351836113445461
+      },
+      "audio": {
+        "rms_mean": 0.07284645357479652,
+        "rms_std": 0.07121588944767912,
+        "silence_ratio": 0.16371856311952157,
+        "onsets_per_second": 4.78
+      },
+      "evidence_snippets": [
+        {
+          "time": 4200,
+          "quote": "after so long? Grandma is almost awake already. Grandpa said the stronger"
+        },
+        {
+          "time": 4210,
+          "quote": "both going to get stronger and stronger. Let's go. Don't disturb mama's"
+        }
+      ]
+    },
+    {
+      "start": 4500,
+      "end": 4800,
+      "signal_counts": {
+        "wound_or_humiliation": 8,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 4,
+        "romance_bond_or_coercion": 7,
+        "lore_mythology_density": 13,
+        "threat_or_violence": 6
+      },
+      "dialogue_words": 762,
+      "shot_boundaries": 4,
+      "visual": {
+        "brightness": 0.3347240932037433,
+        "saturation": 0.317747689721485,
+        "colorfulness": 0.38515219462414585,
+        "motion": 0.10815608174384882
+      },
+      "audio": {
+        "rms_mean": 0.06741291200742125,
+        "rms_std": 0.07217288309087357,
+        "silence_ratio": 0.21781320826847983,
+        "onsets_per_second": 4.676666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 4500,
+          "quote": "Her children could never have pure blood or true talent. Only I"
+        },
+        {
+          "time": 4510,
+          "quote": "love. And she's not dead. Soon, I'll give her the grand wedding"
+        }
+      ]
+    },
+    {
+      "start": 4800,
+      "end": 5100,
+      "signal_counts": {
+        "wound_or_humiliation": 4,
+        "care_belonging_protection": 1,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 9,
+        "lore_mythology_density": 22,
+        "threat_or_violence": 3
+      },
+      "dialogue_words": 747,
+      "shot_boundaries": 2,
+      "visual": {
+        "brightness": 0.3729285086939732,
+        "saturation": 0.2694062337651849,
+        "colorfulness": 0.38026373212536174,
+        "motion": 0.1159161345815907
+      },
+      "audio": {
+        "rms_mean": 0.0592983001532654,
+        "rms_std": 0.06458309280375639,
+        "silence_ratio": 0.242348311078343,
+        "onsets_per_second": 4.496666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 4800,
+          "quote": "The total is 10 million Aether Crystals. Double makes 20 million. Did"
+        },
+        {
+          "time": 4810,
+          "quote": "What? 20 million? Don't tell me you can't afford it. Exactly. Why"
+        }
+      ]
+    },
+    {
+      "start": 5100,
+      "end": 5400,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 12,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 16,
+        "lore_mythology_density": 7,
+        "threat_or_violence": 3
+      },
+      "dialogue_words": 628,
+      "shot_boundaries": 4,
+      "visual": {
+        "brightness": 0.3982270203034083,
+        "saturation": 0.29967685528099536,
+        "colorfulness": 0.3740802873298526,
+        "motion": 0.14086738788212338
+      },
+      "audio": {
+        "rms_mean": 0.0460266826984783,
+        "rms_std": 0.05859117226985593,
+        "silence_ratio": 0.30356455312525604,
+        "onsets_per_second": 4.22
+      },
+      "evidence_snippets": [
+        {
+          "time": 5100,
+          "quote": "She is your wife now. Take her away quickly. Wife, let's go"
+        },
+        {
+          "time": 5110,
+          "quote": "Wife, let's go home. Princess Marina, Sovereign Cael is almost here. Hurry,"
+        }
+      ]
+    },
+    {
+      "start": 5400,
+      "end": 5700,
+      "signal_counts": {
+        "wound_or_humiliation": 5,
+        "care_belonging_protection": 3,
+        "justice_reversal_payoff": 1,
+        "romance_bond_or_coercion": 1,
+        "lore_mythology_density": 17,
+        "threat_or_violence": 24
+      },
+      "dialogue_words": 729,
+      "shot_boundaries": 2,
+      "visual": {
+        "brightness": 0.2604077879836162,
+        "saturation": 0.4050734614829222,
+        "colorfulness": 0.3213736691574256,
+        "motion": 0.09402641751803457
+      },
+      "audio": {
+        "rms_mean": 0.054879930118719736,
+        "rms_std": 0.06444670713196197,
+        "silence_ratio": 0.2555186914611835,
+        "onsets_per_second": 4.45
+      },
+      "evidence_snippets": [
+        {
+          "time": 5400,
+          "quote": "Serena, you're finally my wife. We haven't shared the vow wine yet."
+        },
+        {
+          "time": 5410,
+          "quote": "I asked your father about the custom. It's already."
+        }
+      ]
+    },
+    {
+      "start": 5700,
+      "end": 6000,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 5,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 6,
+        "lore_mythology_density": 8,
+        "threat_or_violence": 6
+      },
+      "dialogue_words": 605,
+      "shot_boundaries": 2,
+      "visual": {
+        "brightness": 0.3797026751438777,
+        "saturation": 0.31072764640053113,
+        "colorfulness": 0.37362707786262034,
+        "motion": 0.11802051596343517
+      },
+      "audio": {
+        "rms_mean": 0.04703004679953059,
+        "rms_std": 0.05452772666079302,
+        "silence_ratio": 0.23809494552306054,
+        "onsets_per_second": 4.193333333333333
+      },
+      "evidence_snippets": [
+        {
+          "time": 5700,
+          "quote": "Serena, will you pin it on for me? Daddy, it's Mama. I'm"
+        },
+        {
+          "time": 5720,
+          "quote": "Master, you can't keep draining Drakki heart blood. More than 10 Drakki"
+        }
+      ]
+    },
+    {
+      "start": 6000,
+      "end": 6300,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 7,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 6,
+        "lore_mythology_density": 6,
+        "threat_or_violence": 3
+      },
+      "dialogue_words": 616,
+      "shot_boundaries": 4,
+      "visual": {
+        "brightness": 0.1802557440008968,
+        "saturation": 0.41605708695948124,
+        "colorfulness": 0.2590150492762526,
+        "motion": 0.10471098896116018
+      },
+      "audio": {
+        "rms_mean": 0.04862624934564034,
+        "rms_std": 0.059541082661598924,
+        "silence_ratio": 0.24241077523825127,
+        "onsets_per_second": 4.21
+      },
+      "evidence_snippets": [
+        {
+          "time": 6000,
+          "quote": "Looks like Julian Reed really loves his bride, Mara."
+        },
+        {
+          "time": 6010,
+          "quote": "Looks like Julian Reed really loves his bride, Mara. Come on, let's"
+        }
+      ]
+    },
+    {
+      "start": 6300,
+      "end": 6600,
+      "signal_counts": {
+        "wound_or_humiliation": 0,
+        "care_belonging_protection": 4,
+        "justice_reversal_payoff": 2,
+        "romance_bond_or_coercion": 2,
+        "lore_mythology_density": 7,
+        "threat_or_violence": 5
+      },
+      "dialogue_words": 527,
+      "shot_boundaries": 7,
+      "visual": {
+        "brightness": 0.3463688669788341,
+        "saturation": 0.34045470897108315,
+        "colorfulness": 0.309217628762126,
+        "motion": 0.13035120333855352
+      },
+      "audio": {
+        "rms_mean": 0.043413789756596086,
+        "rms_std": 0.05311882421374321,
+        "silence_ratio": 0.18001249283198165,
+        "onsets_per_second": 4.206666666666667
+      },
+      "evidence_snippets": [
+        {
+          "time": 6300,
+          "quote": "This illusion may have something to do with them. How are they"
+        },
+        {
+          "time": 6310,
+          "quote": "How are things on your side? Princess Arya said Princess Marina lured"
+        }
+      ]
+    },
+    {
+      "start": 6600,
+      "end": 6864,
+      "signal_counts": {
+        "wound_or_humiliation": 2,
+        "care_belonging_protection": 10,
+        "justice_reversal_payoff": 0,
+        "romance_bond_or_coercion": 4,
+        "lore_mythology_density": 8,
+        "threat_or_violence": 3
+      },
+      "dialogue_words": 472,
+      "shot_boundaries": 9,
+      "visual": {
+        "brightness": 0.395547372902985,
+        "saturation": 0.28474056440647,
+        "colorfulness": 0.3473260472839077,
+        "motion": 0.16289062205771054
+      },
+      "audio": {
+        "rms_mean": 0.0632481383918612,
+        "rms_std": 0.06758883036673069,
+        "silence_ratio": 0.1340890108589789,
+        "onsets_per_second": 4.239307223783611
+      },
+      "evidence_snippets": [
+        {
+          "time": 6600,
+          "quote": "Serena, come with me. She is my wife. She won't go with"
+        },
+        {
+          "time": 6610,
+          "quote": "I'm sorry, Lucian. The one I truly love is him. Why? Serena,"
+        }
+      ]
+    }
+  ],
+  "interpretation_boundaries": [
+    "Signal counts measure explicit dialogue language only; they do not prove emotional quality or causality.",
+    "Evidence snippets are short orientation quotes, not a transcript substitute.",
+    "Visual/audio metrics are low-resolution proxies and must be paired with direct viewing."
+  ],
+  "outcome": {
+    "views": 4366384,
+    "published_date": "2026-10-19",
+    "age_days_at_snapshot": 39,
+    "views_per_day": 111958.56410256411,
+    "log_views_per_day": 11.625893050289942,
+    "duration_minutes": 114.41666666666667,
+    "snapshot_date": "2026-11-26",
+    "cohort_by_age_adjusted_views": "outperforming",
+    "archive_log_vpd_median": 7.683511103153724,
+    "q1": 6.5647291773852805,
+    "q3": 9.36042020805592
+  }
+}

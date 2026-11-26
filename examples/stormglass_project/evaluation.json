@@ -1,0 +1,143 @@
+{
+  "premise_id": "stormglass-heir-v1",
+  "schema_errors": {
+    "premise": [],
+    "architecture": [],
+    "scenes": []
+  },
+  "failure_intelligence": {
+    "candidate": "She Was Too Weak to Ring the Storm Bell… Until Her Glass Dragon Made Her the STORM QUEEN",
+    "risk_score_0_to_1": 0.218,
+    "confidence": "low_until_script_and_media-evidence comparison is complete",
+    "matched_failure_patterns": [],
+    "nearest_archive_examples": [
+      {
+        "video_id": "vYNuKn6GiaE",
+        "title": "Her Fiancé Left Her to Die… Now She's Back With Dragon Babies and the DRAGON KING!#AIStory",
+        "cohort": "outperforming",
+        "views_per_day": 111958.56410256411,
+        "themes": [
+          "dragon",
+          "family_child",
+          "rebirth_second_chance",
+          "romance_mate",
+          "royalty_status"
+        ],
+        "similarity": 0.2162492868087834
+      },
+      {
+        "video_id": "v03oauoFveU",
+        "title": "They Rejected a Worthless Half-Blood Girl… Unaware She Was the DRAGON KING'S SECRET DAUGHTER#AIStory",
+        "cohort": "outperforming",
+        "views_per_day": 115550.0,
+        "themes": [
+          "dragon",
+          "family_child",
+          "royalty_status",
+          "sacred_special_blood"
+        ],
+        "similarity": 0.19508524400165297
+      },
+      {
+        "video_id": "VhZV-djnfiA",
+        "title": "She Became a Nanny to Save Her Daughter… Unaware Her Boss Was Her Child’s Father—the DRAGON LORD!",
+        "cohort": "middle",
+        "views_per_day": 2171.233333333333,
+        "themes": [
+          "dragon",
+          "family_child"
+        ],
+        "similarity": 0.1762610596956927
+      },
+      {
+        "video_id": "NnPZaWSGYuc",
+        "title": "They Called Her a Cursed Witch… Now She's the DRAGON QUEEN He Would Burn the World For!#AIStory",
+        "cohort": "middle",
+        "views_per_day": 2072.0,
+        "themes": [
+          "dragon",
+          "royalty_status",
+          "sacred_special_blood"
+        ],
+        "similarity": 0.16721592342998826
+      },
+      {
+        "video_id": "ULJ7-z1zm6M",
+        "title": "They Abandoned a Poor Orphan Girl… Now She's the DRAGON CLAN'S BELOVED PRINCESS!#AIStory",
+        "cohort": "outperforming",
+        "views_per_day": 102406.27272727272,
+        "themes": [
+          "dragon",
+          "romance_mate",
+          "royalty_status"
+        ],
+        "similarity": 0.16024859328707208
+      },
+      {
+        "video_id": "ZhAYjMLvlqc",
+        "title": "She Left the DRAGON PRINCE… When He Found Her Again, She Had Two Children by Her Side!#AIStory",
+        "cohort": "underperforming",
+        "views_per_day": 334.2903225806452,
+        "themes": [
+          "dragon",
+          "family_child",
+          "royalty_status"
+        ],
+        "similarity": 0.1254119425724912
+      },
+      {
+        "video_id": "n6LouxFviD4",
+        "title": "They Betrayed Her and Left Her to Die… Now She Rules With the SSS-RANK DRAGON KING!#AIStory",
+        "cohort": "middle",
+        "views_per_day": 7130.4390243902435,
+        "themes": [
+          "dragon",
+          "royalty_status"
+        ],
+        "similarity": 0.12485158395111566
+      },
+      {
+        "video_id": "rtTbEcFdnZQ",
+        "title": "They Mocked Her for Marrying a Poor Beggar… Unaware He Was the SUPREME DRAGON KING!#AIStory",
+        "cohort": "middle",
+        "views_per_day": 754.2142857142857,
+        "themes": [
+          "dragon",
+          "royalty_status"
+        ],
+        "similarity": 0.12463539056995115
+      }
+    ],
+    "positive_missing_or_weak": [
+      "No strong hidden identity/secret hook detected; Nov Drama hits often use one, though this is not mandatory.",
+      "No child/heir/creature emotional anchor detected; this is currently one of the strongest archive-level positive signals."
+    ],
+    "decision_guidance": [
+      "Concept does not trigger strong archive-level failure alarms, but retention-safe execution still requires scene-level proof."
+    ],
+    "causal_boundary": "This is pattern-matching against public outcomes and extracted creative signals; it is not a causal predictor of CTR, retention, or audience response."
+  },
+  "scene_quality": {
+    "scene_count": 3,
+    "covered_minutes_estimate": 9.0,
+    "missing": {
+      "power_change": [],
+      "protagonist_decision": [],
+      "failure_checks": [],
+      "negative_space_sound": []
+    },
+    "time_overlaps": []
+  },
+  "architecture_quality": {
+    "sequence_count": 10,
+    "warnings": []
+  },
+  "gates": {
+    "A_premise": "pass",
+    "B_architecture": "pass",
+    "C_screenplay": "pass",
+    "D_direction_storyboard": "unknown_until_storyboard_frames_exist",
+    "E_production": "unknown_until_generated_media_exists",
+    "F_release_learning": "unknown_until_release_metadata_exists"
+  }
+}

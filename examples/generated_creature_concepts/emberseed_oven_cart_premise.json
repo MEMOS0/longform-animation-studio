@@ -1,0 +1,85 @@
+{
+  "premise_id": "emberseed_oven_cart",
+  "title_candidates": [
+    "She Saved the Creature They Called a Treasure — Then Refused to Sell Its Tears",
+    "They Took Her Home for Debt, Unaware the Little Creature Knew Where the Water Went",
+    "The Child Creature Was Never Hers to Keep, So She Chose to Set It Free"
+  ],
+  "logline": "In a volcanic hillside city where bakery ovens are licensed by a coal guild, Lio, a debt-bound flatbread baker whose mother's oven license was erased rescues a sparrow-sized emberseed bird child whose feathers can relight cold ovens while fighting fabricated debt; tempted to monetize its gift, she proves the fraud, returns it home, and transforms the excluded workspace into shared belonging.",
+  "audience_promise": "A compressed creature-economic melodrama combining childlike nonhuman personhood, debt/home insecurity, small-business competence, ethical temptation, legal proof, ownership reversal, loving separation, and a materially transformed ending.",
+  "target_minutes": 42.0,
+  "release_format": "mid_length_feature",
+  "channel_contract": "creature_economic_melodrama",
+  "emotional_engine": {
+    "wound": "Lio is trapped by debt, housing insecurity, public shame, and the fear that survival may require exploiting someone weaker.",
+    "want": "save the home/business, survive the debt deadline, and protect the creature",
+    "need": "learn that dignity and care cannot be built by owning or monetizing another vulnerable person",
+    "injustice": "the coal guildmaster and Lio's status-hungry stepbrother uses debt, legal papers, social status, and creature ownership logic to trap both the protagonist and the vulnerable nonhuman child",
+    "protective_counterforce": "the emberseed bird child plus the miller's lonely daughter who first hides it; a flour miller and night watchman feed Lio before guild protection exists",
+    "belonging_payoff": "the opening exclusion space becomes the ash floor converted into a communal dawn bakery where guild and non-guild families eat together; the creature returns home rather than becoming property, while the human community gains water/work/dignity",
+    "secret_or_power_asymmetry": "private wealth/legal ownership versus a debtor and a creature treated as living treasure",
+    "cost_of_failure": "the home is seized, the creature is harvested or caged, and the protagonist becomes complicit in the same ownership system that victimized her"
+  },
+  "protagonist": {
+    "identity": "Lio, a debt-bound flatbread baker whose mother's oven license was erased",
+    "vulnerability": "debt, housing precarity, low institutional power, and temptation to survive through another being's pain",
+    "capability": "small-business craft, observation of material proof, persistence, care under pressure, and ethical refusal",
+    "agency_first_action": "she saves a sparrow-sized emberseed bird child whose feathers can relight cold ovens before understanding or monetizing its gift",
+    "transformation": "from desperate survivor to ethical proof-author who can accept partnership without ownership"
+  },
+  "opening_event": {
+    "first_10_seconds": "Lio is made to bake on the ash floor outside the licensed oven hall while guild families eat inside",
+    "first_60_seconds": "debt papers or a public demand make the home/business deadline concrete while Lio continues serving customers rather than begging.",
+    "first_5_minutes": "she finds a sparrow-sized emberseed bird child whose feathers can relight cold ovens injured or trapped, chooses rescue before profit, discovers the first impossible sign of its gift, and hides it while the inherited blackened brass oven key appears.",
+    "dramatic_question": "can she save her home without turning a vulnerable creature into property?"
+  },
+  "theme_lane": {
+    "family_or_heir_hook": "childlike creature personhood, grandmother/family care, and loving return-home separation",
+    "romance_hook": "the miller becomes family through daily labor and protection rather than wealth rescue",
+    "modern_power_hook": "fabricated debt, resource ownership, legal proof, and ethical small-business economics"
+  },
+  "failure_intelligence": {
+    "evaluation_path": "pending_generated_evaluation",
+    "nearest_failures": [
+      "magic as free money without suffering or consent cost",
+      "creature treated as pet/weapon/resource before personhood",
+      "legal paperwork replacing embodied stakes",
+      "ending that saves the creature but leaves the original debt/home wound unpaid"
+    ],
+    "mitigations": [
+      "make care precede monetization in the opening",
+      "give the gift a suffering/consent cost",
+      "tie creature ownership and home ownership into one moral system",
+      "seed documents/object proof before the reversal",
+      "end with transformed space, honest work, and return-home rather than possession"
+    ],
+    "counterexamples_checked": [
+      "low-view creature stories can still have strong mechanics",
+      "creature spectacle alone is insufficient",
+      "plot cliffhangers only work after relational recognition pays off"
+    ]
+  },
+  "packaging": {
+    "thumbnail_single_read": "Lio sheltering a sparrow-sized emberseed bird child whose feathers can relight cold ovens under cloth or hands while the hostile economic environment and the creature's luminous gift remain visible",
+    "curiosity_gap": "will she sell the creature's gift to survive, or protect it and lose everything?",
+    "visual_before_after": "dry/excluded workspace becomes the ash floor converted into a communal dawn bakery where guild and non-guild families eat together; blackened brass oven key changes from discarded inheritance into proof",
+    "title_thumbnail_mismatch_risk": "generic creature fantasy packaging would hide the stronger debt/personhood/economic-choice mechanism"
+  },
+  "evidence_boundaries": [
+    "Inspired by mechanism-level evidence in desert-mermaid, creature-family, social-test, and legal-proof research; characters, world, object, proof chain, and dialogue are original.",
+    "No CTR, retention, or traffic causality is claimed from public video metadata."
+  ],
+  "meaning_carrier": {
+    "object_or_space": "blackened brass oven key",
+    "opening_meaning": "the key is dismissed as scrap because the guild removed her mother's maker mark",
+    "closing_reversal": "the key opens the sealed oven ledger wall and proves the license was stolen",
+    "final_sequence_use": "the object is used openly in the proof/restoration ritual before the final communal meal or work ritual in the ash floor converted into a communal dawn bakery where guild and non-guild families eat together"
+  },
+  "relational_contract": {
+    "power_asymmetry": "private resource/legal ownership versus debt-bound worker and a nonhuman child treated as property",
+    "safety_or_kindness_before_power": "a flour miller and night watchman feed Lio before guild protection exists before knowing the creature's value or any powerful ally's status",
+    "costly_protagonist_action": "Lio protects a sparrow-sized emberseed bird child whose feathers can relight cold ovens at cost to her home, business, safety, and the chance to solve debt quickly",
+    "consent_or_personhood_repair": "the creature is never owned as a reward; authority must admit the fraud, the creature chooses home/contact, and the protagonist accepts partnership without possession",
+    "payoff_image": "the ash floor converted into a communal dawn bakery where guild and non-guild families eat together after the emberseed returns to the volcanic nesting vents after helping reopen the communal ovens"
+  }
+}

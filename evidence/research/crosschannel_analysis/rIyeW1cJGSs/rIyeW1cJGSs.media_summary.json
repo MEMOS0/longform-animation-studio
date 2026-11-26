@@ -1,0 +1,83 @@
+{
+  "video_id": "rIyeW1cJGSs",
+  "probe": {
+    "duration": 2324.38712,
+    "size": 133824643,
+    "width": 640,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "C:\\Users\\Administrator\\crosschannel_analysis\\rIyeW1cJGSs\\contact_sheets\\contact_000.jpg",
+    "C:\\Users\\Administrator\\crosschannel_analysis\\rIyeW1cJGSs\\contact_sheets\\contact_001.jpg",
+    "C:\\Users\\Administrator\\crosschannel_analysis\\rIyeW1cJGSs\\contact_sheets\\contact_002.jpg",
+    "C:\\Users\\Administrator\\crosschannel_analysis\\rIyeW1cJGSs\\contact_sheets\\contact_003.jpg",
+    "C:\\Users\\Administrator\\crosschannel_analysis\\rIyeW1cJGSs\\contact_sheets\\contact_004.jpg",
+    "C:\\Users\\Administrator\\crosschannel_analysis\\rIyeW1cJGSs\\contact_sheets\\contact_005.jpg"
+  ],
+  "seconds_indexed": 2324,
+  "shot_count": 71,
+  "shot_length_mean_seconds": 32.732394366197184,
+  "shot_length_median_seconds": 14.0,
+  "shot_length_p90_seconds": 76.0,
+  "visual_motion_mean": 0.09728169463957695,
+  "visual_brightness_mean": 0.30631280927510096,
+  "dialogue_cues": 860,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 582.0,
+      "text": "realize how [music] humiliating this is?"
+    },
+    "first_power_or_identity_language": {
+      "time": 165.36,
+      "text": "There you are. I've [music] been looking"
+    },
+    "first_care_or_belonging_language": {
+      "time": 44.399,
+      "text": "He loves you so much. I know he'll take"
+    },
+    "dialogue_words_per_minute": [
+      108,
+      110,
+      100,
+      131,
+      108,
+      71,
+      125,
+      105,
+      114,
+      116,
+      77,
+      131,
+      113,
+      140,
+      160,
+      73,
+      137,
+      130,
+      114,
+      166,
+      153,
+      151,
+      105,
+      133,
+      147,
+      143,
+      98,
+      111,
+      120,
+      132,
+      128,
+      141,
+      165,
+      149,
+      164,
+      150,
+      49,
+      142,
+      69
+    ],
+    "cue_count": 860
+  }
+}

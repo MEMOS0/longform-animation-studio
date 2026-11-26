@@ -1,0 +1,132 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Scene screenplay unit",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "scene_id",
+    "time_range",
+    "objective",
+    "conflict",
+    "turn",
+    "visual_action",
+    "dialogue_design",
+    "sound_design",
+    "edit_hook"
+  ],
+  "properties": {
+    "scene_id": {
+      "type": "string"
+    },
+    "time_range": {
+      "type": "string"
+    },
+    "objective": {
+      "type": "string"
+    },
+    "conflict": {
+      "type": "string"
+    },
+    "power_position_start": {
+      "type": "string"
+    },
+    "power_position_end": {
+      "type": "string"
+    },
+    "turn": {
+      "type": "string"
+    },
+    "protagonist_decision": {
+      "type": "string"
+    },
+    "subtext": {
+      "type": "string"
+    },
+    "visual_action": {
+      "type": "object",
+      "required": [
+        "first_image",
+        "face_reaction",
+        "final_image"
+      ],
+      "properties": {
+        "first_image": {
+          "type": "string"
+        },
+        "face_reaction": {
+          "type": "string"
+        },
+        "vertical_composition": {
+          "type": "string"
+        },
+        "final_image": {
+          "type": "string"
+        }
+      }
+    },
+    "dialogue_design": {
+      "type": "object",
+      "required": [
+        "function",
+        "subtext_rule",
+        "max_exposition_sentences"
+      ],
+      "properties": {
+        "function": {
+          "type": "string"
+        },
+        "subtext_rule": {
+          "type": "string"
+        },
+        "max_exposition_sentences": {
+          "type": "integer"
+        },
+        "key_lines": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "sound_design": {
+      "type": "object",
+      "properties": {
+        "dialogue_priority": {
+          "type": "string"
+        },
+        "music_function": {
+          "type": "string"
+        },
+        "silence_or_negative_space": {
+          "type": "string"
+        },
+        "motif": {
+          "type": "string"
+        }
+      }
+    },
+    "edit_hook": {
+      "type": "object",
+      "required": [
+        "entry_hook",
+        "exit_hook"
+      ],
+      "properties": {
+        "entry_hook": {
+          "type": "string"
+        },
+        "exit_hook": {
+          "type": "string"
+        }
+      }
+    },
+    "failure_checks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

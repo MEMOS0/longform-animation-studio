@@ -1,0 +1,54 @@
+{
+  "video_id": "MGNqLhky9M4",
+  "probe": {
+    "duration": 967.48263,
+    "size": 66922544,
+    "width": 640,
+    "height": 360,
+    "fps": "30000/1001",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "C:\\Users\\Administrator\\cross_analysis\\MGNqLhky9M4\\contact_sheets\\contact_000.jpg",
+    "C:\\Users\\Administrator\\cross_analysis\\MGNqLhky9M4\\contact_sheets\\contact_001.jpg",
+    "C:\\Users\\Administrator\\cross_analysis\\MGNqLhky9M4\\contact_sheets\\contact_002.jpg"
+  ],
+  "seconds_indexed": 967,
+  "shot_count": 30,
+  "shot_length_mean_seconds": 32.233333333333334,
+  "shot_length_median_seconds": 15.0,
+  "shot_length_p90_seconds": 84.10000000000002,
+  "visual_motion_mean": 0.10147642233621831,
+  "visual_brightness_mean": 0.2727528927921167,
+  "dialogue_cues": 101,
+  "narrative_markers": {
+    "first_conflict_language": null,
+    "first_power_or_identity_language": {
+      "time": 192.158,
+      "text": "You're the son of a god, aren't you?"
+    },
+    "first_care_or_belonging_language": {
+      "time": 427.894,
+      "text": "Be careful."
+    },
+    "dialogue_words_per_minute": [
+      0,
+      31,
+      79,
+      87,
+      59,
+      5,
+      38,
+      19,
+      0,
+      6,
+      44,
+      17,
+      37,
+      23,
+      0,
+      19
+    ],
+    "cue_count": 101
+  }
+}

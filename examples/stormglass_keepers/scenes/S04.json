@@ -1,0 +1,41 @@
+{
+  "scene_id": "S04",
+  "time_range": "16-22 minutes",
+  "objective": "evacuate villagers before the navy arrives",
+  "conflict": "neighbors fear the bounty and the child reacts to collective fear",
+  "power_position_start": "protected outsiders",
+  "power_position_end": "exposed communal defenders",
+  "turn": "the village becomes involved in the stakes",
+  "protagonist_decision": "Mira trades her royal token for evacuation boats",
+  "subtext": "Protection means risking attachment without turning love into control.",
+  "visual_action": {
+    "first_image": "stormglass shards pulsing with crowd fear",
+    "face_reaction": "elder Ilsa shifts from suspicion to witness",
+    "vertical_composition": "crowd layers above tidal tunnel depth",
+    "final_image": "lantern evacuation lines vanish into dark water as warships arrive"
+  },
+  "dialogue_design": {
+    "function": "advance protective choices and power shifts rather than explain lore",
+    "subtext_rule": "Characters rarely say fear or love directly; they negotiate control, debt, blame, and safety.",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "Pain makes it obey. Trust makes it answer.",
+      "You don't save a child by becoming its cage."
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "dialogue remains intelligible under weather and crowd effects",
+    "music_function": "lullaby motif evolves with trust rather than constant emotional wallpaper",
+    "silence_or_negative_space": "drop music before each bonding or revelation beat so breath, scale chimes, and creature calls carry meaning",
+    "motif": "three-note lullaby answered by glassy creature harmonics"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on immediate danger, choice, or visible emotional consequence",
+    "exit_hook": "exit on changed power, new evidence, or an unanswered protective cost"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, or capability?",
+    "Is spectacle tied to the vulnerable child/protector relationship?",
+    "Is exposition converted into a decision or visible event?"
+  ]
+}

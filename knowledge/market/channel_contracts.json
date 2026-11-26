@@ -1,0 +1,699 @@
+{
+  "creature_protection_feature": {
+    "reference_channels": [
+      "Epic AI Films",
+      "Ironcrest Pictures"
+    ],
+    "positive_signals": [
+      "baby",
+      "child",
+      "creature",
+      "dragon",
+      "wolf",
+      "protects",
+      "rescues",
+      "mother",
+      "family",
+      "giant",
+      "dog",
+      "parent",
+      "infant",
+      "monster",
+      "misunderstood"
+    ],
+    "opening_rules": [
+      "show the vulnerable creature/child or immediate threat within 90 seconds",
+      "tie spectacle to protection rather than scale alone",
+      "pay the creature bond visually in the first 5 minutes",
+      "when scale is central, frame the powerful creature/giant as a misunderstood protector or parent rather than spectacle alone",
+      "for compressed 10-35 minute versions, use one dominant protection question and make every scene perform at least two jobs: danger, bonding, cost, or reversal"
+    ],
+    "risk_patterns": [
+      "diffuse disaster montage",
+      "adult competence without vulnerability gradient",
+      "lore/court exposition before embodied threat"
+    ],
+    "thumbnail_rules": [
+      "relational scale contrast",
+      "emotionally readable creature/child or protector",
+      "avoid generic crown/army/trailer collage"
+    ],
+    "evidence": [
+      "knowledge/market/epic-deep-dive.md",
+      "knowledge/market/ironcrest-deep-dive.md",
+      "knowledge/market/expanded-breakout-deep-dive.md",
+      "knowledge/market/fourth-pass-breakout-media-deep-dive.md",
+      "knowledge/market/fifth-pass-breakout-media-deep-dive.md"
+    ]
+  },
+  "transformation_melodrama": {
+    "reference_channels": [
+      "FablePop",
+      "Nov Drama"
+    ],
+    "positive_signals": [
+      "ugly",
+      "reborn",
+      "beautiful",
+      "adopted",
+      "maid",
+      "pretended",
+      "poor",
+      "secret",
+      "transformed",
+      "daughter",
+      "family",
+      "assassin",
+      "boss",
+      "billionaire",
+      "beggar",
+      "schoolgirl",
+      "disguise",
+      "competence",
+      "professional",
+      "ceo"
+    ],
+    "opening_rules": [
+      "open on wound/shame or social test",
+      "create information asymmetry quickly",
+      "make transformation social and emotional, not only cosmetic",
+      "give the wounded protagonist an active test, plan, or competence inversion rather than passive suffering alone",
+      "let hidden competence become public professional/social authority, not only romantic rescue",
+      "if the relationship begins coerced, the payoff must restore explicit choice rather than merely rewarding the victim with status",
+      "use a physical object or spatial ritual whose meaning changes between opening and ending"
+    ],
+    "risk_patterns": [
+      "whimsy without injustice",
+      "static hidden identity",
+      "revenge without belonging",
+      "wealth rescue without protagonist agency",
+      "coercive romance presented as payoff without consent repair"
+    ],
+    "thumbnail_rules": [
+      "legible before/after or beauty/status contrast",
+      "emotionally readable female face",
+      "avoid crowded whimsical imagery unless transformation is clear"
+    ],
+    "evidence": [
+      "knowledge/market/cross-channel-hit-failure-deep-dives.md",
+      "knowledge/market/expanded-breakout-deep-dive.md",
+      "knowledge/market/third-pass-breakout-media-deep-dive.md"
+    ]
+  },
+  "mythic_adventure": {
+    "reference_channels": [
+      "The Next Show"
+    ],
+    "positive_signals": [
+      "sinbad",
+      "aladdin",
+      "odyssey",
+      "jason",
+      "voyage",
+      "island",
+      "creature",
+      "survival",
+      "giant"
+    ],
+    "opening_rules": [
+      "show physical danger/survival before lore",
+      "use sparse physical dialogue",
+      "make geography and bodily cost legible"
+    ],
+    "risk_patterns": [
+      "abstract obsidian/realm/god-trial exposition",
+      "original mythology without emotional grounding",
+      "continuation before a complete setpiece payoff"
+    ],
+    "thumbnail_rules": [
+      "recognizable mythic frame",
+      "golden cinematic scale",
+      "creature/environment threat readable at mobile size"
+    ],
+    "evidence": [
+      "knowledge/market/cross-channel-hit-failure-deep-dives.md"
+    ]
+  },
+  "serialized_creature_franchise": {
+    "reference_channels": [
+      "RIFTBORN CINEMA"
+    ],
+    "positive_signals": [
+      "enslaved",
+      "arena",
+      "beast",
+      "dragon",
+      "episode",
+      "season",
+      "compilation",
+      "complete"
+    ],
+    "opening_rules": [
+      "lead with bodily vulnerability/injustice",
+      "avoid mid-journey travel exposition as the discovery opening",
+      "prefer complete arcs or compilation packaging"
+    ],
+    "risk_patterns": [
+      "fragmented episode without self-contained contract",
+      "transition-only ending",
+      "franchise continuity assumed as value"
+    ],
+    "thumbnail_rules": [
+      "monster/protagonist conflict",
+      "completeness/scale promise",
+      "avoid part-number-first fragmentation"
+    ],
+    "evidence": [
+      "knowledge/market/cross-channel-hit-failure-deep-dives.md"
+    ]
+  },
+  "korean_niche_microdrama": {
+    "reference_channels": [
+      "Crateh-ranked Korean channels"
+    ],
+    "positive_signals": [
+      "bl",
+      "regression",
+      "empress",
+      "royal",
+      "revenge",
+      "contract",
+      "secret",
+      "obsession",
+      "time-slip",
+      "general"
+    ],
+    "opening_rules": [
+      "declare the niche trope almost immediately",
+      "use face-dense emotion and direct subtitles",
+      "create one dominant relational/power question per episode"
+    ],
+    "risk_patterns": [
+      "generic slow cinema pacing",
+      "broad appeal dilution",
+      "episode without trope clarity"
+    ],
+    "thumbnail_rules": [
+      "large faces",
+      "romantic/power tension",
+      "immediate trope readability"
+    ],
+    "evidence": [
+      "knowledge/market/korean-breakout-deep-dive.md"
+    ]
+  },
+  "exploration_wonder_feature": {
+    "reference_channels": [
+      "36 Drakenhart Studio"
+    ],
+    "positive_signals": [
+      "hidden kingdom",
+      "tiny kingdom",
+      "cave",
+      "explorer",
+      "artifact",
+      "creature",
+      "city",
+      "elder",
+      "wonder",
+      "discovery"
+    ],
+    "opening_rules": [
+      "open with tactile mystery or physical exploration before exposition",
+      "turn discovery into care/capture/social stakes by minute 3-5",
+      "end with belonging/gift/return that answers the opening curiosity"
+    ],
+    "risk_patterns": [
+      "wonder montage without jeopardy",
+      "abstract lore before object-level discovery",
+      "hidden world that never becomes socially specific"
+    ],
+    "thumbnail_rules": [
+      "tiny hidden world/object scale contrast",
+      "explorer emotion plus bioluminescent or miniature civilization cue",
+      "avoid generic fantasy collage"
+    ],
+    "evidence": [
+      "knowledge/market/recent-breakout-media-deep-dive.md"
+    ]
+  },
+  "hostile_survival_spectacle": {
+    "reference_channels": [
+      "Neural Pictures"
+    ],
+    "positive_signals": [
+      "crash",
+      "island",
+      "giant insect",
+      "flight attendant",
+      "survive",
+      "escape",
+      "monster",
+      "disaster",
+      "stranded"
+    ],
+    "opening_rules": [
+      "make the impossible threat visible in seconds",
+      "anchor spectacle in one ordinary professional or relational figure",
+      "use bodily problem-solving rather than lore"
+    ],
+    "risk_patterns": [
+      "spectacle montage without a focal survivor",
+      "threat visible but no active escape problem",
+      "generic disaster scale"
+    ],
+    "thumbnail_rules": [
+      "one instantly readable oversized threat plus ordinary human scale",
+      "clean high-concept object/plane/island cue",
+      "avoid cluttered multi-threat collage"
+    ],
+    "evidence": [
+      "knowledge/market/recent-breakout-media-deep-dive.md"
+    ]
+  },
+  "social_test_melodrama": {
+    "reference_channels": [
+      "The Quiet Reckoning",
+      "Nana Drama Studio",
+      "Story Secrets",
+      "Karma Keeps Score",
+      "AI SweetDrama",
+      "DRAMORA"
+    ],
+    "positive_signals": [
+      "beggar",
+      "maid",
+      "test",
+      "disguise",
+      "billionaire",
+      "bread",
+      "floor",
+      "kindness",
+      "poor",
+      "secret",
+      "daughter",
+      "engagement",
+      "hidden",
+      "gate",
+      "chef",
+      "baker",
+      "customer",
+      "restaurant",
+      "food cart",
+      "hoodie",
+      "immigrant",
+      "abandoned wife",
+      "savings",
+      "loan",
+      "gold",
+      "goldsmith",
+      "floor table",
+      "emerald",
+      "clasp",
+      "nanny"
+    ],
+    "opening_rules": [
+      "open on a legible status boundary or humiliation",
+      "make kindness cost something before hidden status is revealed",
+      "use one concrete repeatable object as the moral test instrument",
+      "let an innocent child/worker/ally reveal truth before power intervenes",
+      "pay off with public reversal plus changed ritual or relationship, not only wealth",
+      "introduce surrogate family or non-romantic care before high-status romantic rescue",
+      "make hidden wealth create a post-reveal trust wound, then repair it through changed conduct and protagonist choice",
+      "show the protagonist economic capability chain through visible objects, savings, loans, work, or repeated service rituals",
+      "define a spatial status grammar: who sits, kneels, serves, enters, or eats at the table",
+      "use an innocent child or powerless ally as a physical truth instrument rather than an exposition device",
+      "make circular inversion change the meaning of the original space or object, not merely restore status"
+    ],
+    "risk_patterns": [
+      "test without cost",
+      "cruelty spectacle without moral transformation",
+      "wealth rescue without protagonist agency",
+      "abstract goodness without a physical object",
+      "copycat beggar/billionaire packaging without a distinct object or wound",
+      "hidden billionaire reveal treated as instant reward rather than consent/trust rupture",
+      "wealth or marriage payoff that erases the protagonist economic agency chain",
+      "public humiliation repaired only privately",
+      "child ally used as decoration rather than evidence of relational truth"
+    ],
+    "thumbnail_rules": [
+      "show class/status contrast in one glance",
+      "include the concrete test object when possible",
+      "make the vulnerable worker or innocent ally emotionally central",
+      "avoid generic luxury romance if the real engine is moral testing"
+    ],
+    "evidence": [
+      "knowledge/market/third-pass-breakout-media-deep-dive.md",
+      "knowledge/market/expanded-breakout-deep-dive.md",
+      "knowledge/market/dramora-compressed-social-melodrama-deep-dive.md",
+      "knowledge/market/karma-floor-table-social-proof-deep-dive.md",
+      "knowledge/market/spark-shorts-desert-mermaid-deep-dive.md"
+    ]
+  },
+  "machine_personhood_scifi": {
+    "reference_channels": [
+      "FANTASY MOVIE KINGDOM"
+    ],
+    "positive_signals": [
+      "machine",
+      "ai",
+      "robot",
+      "father",
+      "daughter",
+      "rescue",
+      "trust",
+      "name",
+      "memory",
+      "collector",
+      "war",
+      "companion",
+      "sky",
+      "look up",
+      "sensory prohibition",
+      "don't look up",
+      "memory erasure",
+      "hidden machine identity",
+      "public epistemic control",
+      "scapegoat machine"
+    ],
+    "opening_rules": [
+      "tie technological spectacle to a specific abducted or vulnerable person",
+      "introduce the machine as vulnerable or useful before trusting its power",
+      "make personhood visible through choice, humor, memory, or care",
+      "use a clear sensory prohibition or rule that can reverse at the ending",
+      "make a bodily or spatial rule reverse at the ending as chosen trust",
+      "use hidden machine identity as a trust rupture that must be repaired through truth and conduct",
+      "treat memory erasure as identity violence and relational stakes, not only science-fiction mechanics"
+    ],
+    "risk_patterns": [
+      "spectacle without relational stakes",
+      "machine as exposition device",
+      "villain-blame confusion without moral reassignment",
+      "sequel hook replacing emotional closure"
+    ],
+    "thumbnail_rules": [
+      "show human-machine scale or eye/contact relationship",
+      "make the protected human goal legible",
+      "use color/eye contrast to distinguish hostile versus bonded machines"
+    ],
+    "evidence": [
+      "knowledge/market/third-pass-breakout-media-deep-dive.md",
+      "knowledge/market/fantasy-movie-kingdom-scifi-personhood-deep-dive.md"
+    ]
+  },
+  "faith_reversal_melodrama": {
+    "reference_channels": [
+      "LESO STUDIO",
+      "LESO Studio"
+    ],
+    "positive_signals": [
+      "god",
+      "faith",
+      "prayer",
+      "suffering",
+      "rent",
+      "rejected",
+      "believe",
+      "testimony",
+      "church",
+      "mother",
+      "interview",
+      "poverty",
+      "small beginnings",
+      "food business",
+      "job rejection",
+      "orders",
+      "restaurant"
+    ],
+    "opening_rules": [
+      "make deprivation concrete through rent, food, work rejection, clothing repetition, or social shame",
+      "show spiritual perseverance as an active stance rather than passive waiting",
+      "include caretaking/community pressure rather than isolated suffering only",
+      "dramatize faith through concrete competence, work, operational setbacks, and public entrepreneurial transformation rather than instantaneous wealth",
+      "open faith conflict with specific material stakes such as rent, food, debt, or job rejection",
+      "convert belief into action through a mentor doctrine and a visible small-business capability chain",
+      "show operational growth before wealth reversal and let former mockers apologize after the power position changes"
+    ],
+    "risk_patterns": [
+      "generic miracle without concrete human cost",
+      "song/testimony payoff unearned by middle agency",
+      "mockery repeated without changing power or relationships",
+      "miracle montage that skips the protagonist's labor or competence",
+      "instant prosperity without work or operational proof",
+      "ending sermon/testimony used outside a faith-audience contract"
+    ],
+    "thumbnail_rules": [
+      "visible emotional distress or prayer posture",
+      "contemporary realist social setting",
+      "avoid fantasy wealth cues unless the story truly uses them"
+    ],
+    "evidence": [
+      "knowledge/market/third-pass-breakout-media-deep-dive.md",
+      "knowledge/market/leso-faith-economic-reversal-deep-dive.md"
+    ]
+  },
+  "legal_proof_melodrama": {
+    "reference_channels": [
+      "Nightfall Drama",
+      "Karma Keeps Score"
+    ],
+    "positive_signals": [
+      "abandoned",
+      "train",
+      "ring",
+      "tea",
+      "apple",
+      "trustee",
+      "fraud",
+      "consent",
+      "court",
+      "evidence",
+      "ticket",
+      "work",
+      "café",
+      "daughter",
+      "contract",
+      "embezzlement",
+      "goldsmith",
+      "clasp",
+      "planted evidence",
+      "maker mark",
+      "pawn",
+      "inspector",
+      "same table"
+    ],
+    "opening_rules": [
+      "open with immediate identity/resource deprivation plus a class-expulsion statement",
+      "escalate the wound through a concrete public threat rather than static backstory",
+      "let protection convert quickly into work, shelter, or skill rather than passive rescue",
+      "seed a family object and a repeatable competence object in the first 10 minutes",
+      "when humiliation is public, reassemble the original social audience for the proof reversal",
+      "let the protagonist established competence supply part of the exonerating proof chain",
+      "separate wages, advances, bribes, apology payments, inheritance, and craft fees in the moral economy"
+    ],
+    "risk_patterns": [
+      "wealthy rescuer replaces protagonist agency",
+      "legal/trust exposition before embodied deprivation",
+      "kindness remains charity instead of becoming capability",
+      "court reversal relies on surprise evidence with no earlier proof chain",
+      "object wound is forgotten before the ending",
+      "single surprise document solves accusation without a seeded proof chain",
+      "protagonist exonerated by rescuer speech instead of participating in the proof"
+    ],
+    "thumbnail_rules": [
+      "show bride/train/class-expulsion contrast in one glance",
+      "make the family object or work identity visible when possible",
+      "avoid generic rich-romance imagery if the real engine is dignity, proof, and legal reversal"
+    ],
+    "evidence": [
+      "knowledge/market/fourth-pass-breakout-media-deep-dive.md",
+      "knowledge/market/karma-floor-table-social-proof-deep-dive.md",
+      "knowledge/market/spark-shorts-desert-mermaid-deep-dive.md"
+    ]
+  },
+  "misunderstood_nonhuman_family": {
+    "reference_channels": [
+      "Epicverse Movies",
+      "low-subscriber dragon-family breakouts",
+      "Epic AI Films",
+      "Ironcrest Pictures"
+    ],
+    "positive_signals": [
+      "twins",
+      "queen",
+      "mother",
+      "dragon son",
+      "baby dragon",
+      "child creature",
+      "monster child",
+      "king",
+      "husband",
+      "hide him",
+      "drown it",
+      "family secret",
+      "misunderstood monster",
+      "parent protects child",
+      "transformed parent",
+      "name as personhood proof",
+      "memory recognition",
+      "ownership/harvest/testing"
+    ],
+    "opening_rules": [
+      "establish the child creature as a literal family member within the first 2 minutes, not as a spectacle object",
+      "make the personhood-denying threat concrete through a parent, ruler, crowd, or institution",
+      "bind protection to an immediate cost: hiding, exile, infanticide threat, capture, or public shame",
+      "in compressed formats keep one singular emotional question visible; spectacle must remain subordinate to that question"
+    ],
+    "risk_patterns": [
+      "creature appears as pet/weapon before it appears as person or child",
+      "war scale replaces the family/protection wound",
+      "public monster accusation is asserted without a scene of intimate care that proves personhood",
+      "tragic sacrifice is used as a shortcut without reciprocal choice or legacy payoff"
+    ],
+    "thumbnail_rules": [
+      "mother/father/protector plus visibly childlike creature readable at mobile size",
+      "contrast intimate care with hostile army/crown/fire in one glance",
+      "avoid generic dragon spectacle without the family relationship"
+    ],
+    "evidence": [
+      "knowledge/market/fifth-pass-breakout-media-deep-dive.md",
+      "evidence/research/fifthpass_media_analysis/NHAHR3v9La8/opening_sheet.jpg",
+      "evidence/research/fifthpass_media_analysis/NHAHR3v9La8/fullfilm_sheet.jpg",
+      "evidence/research/fifthpass_media_analysis/NHAHR3v9La8/ending_sheet.jpg",
+      "knowledge/market/epic-deep-dive.md",
+      "knowledge/market/eldsaga-wolf-father-creature-scifi-deep-dive.md",
+      "knowledge/market/spark-shorts-desert-mermaid-deep-dive.md"
+    ],
+    "causal_boundary": "Compressed breakout performance is observational; no CTR/retention/traffic-source data are available. Use as creative contract evidence, not proof of causality."
+  },
+  "creature_family_scifi": {
+    "reference_channels": [
+      "ELDSAGA"
+    ],
+    "positive_signals": [
+      "transformed parent",
+      "creature father",
+      "subject number",
+      "testing",
+      "harvest",
+      "ownership",
+      "name",
+      "memory",
+      "recognition",
+      "cage",
+      "glass cell",
+      "creature alliance",
+      "moral danger of transformation",
+      "family inside monster body"
+    ],
+    "opening_rules": [
+      "tie creature spectacle to a specific family relationship within the first minute",
+      "make captivity/ownership legible through spatial containment and inventory language",
+      "introduce nonhuman allies through vulnerability, memory, or naming before combat utility",
+      "make transformation morally costly rather than a simple power upgrade",
+      "allow a plot-level sequel hook only after the promised relational recognition has paid off",
+      "treat low-view creature-family videos as packaging/channel-stage confounds when timestamped story mechanics are strong"
+    ],
+    "risk_patterns": [
+      "creature battle before family/personhood stakes",
+      "monster as weapon rather than victim/person",
+      "sequel escalation replacing relational closure",
+      "villainy limited to generic military cruelty without ownership logic"
+    ],
+    "thumbnail_rules": [
+      "show human-creature eye/contact relationship with scale contrast",
+      "make family/protection legible before species spectacle",
+      "use captive/glass/chain imagery only when the relational bond remains readable"
+    ],
+    "evidence": [
+      "knowledge/market/eldsaga-wolf-father-creature-scifi-deep-dive.md",
+      "evidence/research/genre_expansion/bUfsuiuV2D0/fullfilm_sheet.jpg",
+      "evidence/research/genre_expansion/bUfsuiuV2D0/opening_sheet.jpg",
+      "evidence/research/genre_expansion/bUfsuiuV2D0/final_sheet.jpg",
+      "knowledge/market/eldsaga-channel-hit-low-comparison.md"
+    ]
+  },
+  "creature_economic_melodrama": {
+    "reference_channels": [
+      "Spark Shorts"
+    ],
+    "positive_signals": [
+      "mermaid child",
+      "tears become pearls",
+      "debt",
+      "house collateral",
+      "food cart",
+      "honest pay",
+      "living treasure",
+      "she belongs to no one",
+      "ocean remembers its children",
+      "garden epilogue",
+      "legal proof",
+      "care before monetization"
+    ],
+    "opening_rules": [
+      "establish material debt/home insecurity before or alongside the creature miracle",
+      "make first creature contact a life-saving care decision before economic value is used",
+      "give magical value a consent/suffering cost",
+      "keep food/work/customer proof visible as protagonist capability"
+    ],
+    "risk_patterns": [
+      "magic becomes free money without ethical cost",
+      "creature is adopted/possessed instead of returned to its own home or personhood",
+      "legal documents appear without being seeded in the economic world",
+      "villain only steals money rather than denying creature/child personhood",
+      "ending solves creature plot but leaves the opening housing/debt wound unpaid"
+    ],
+    "thumbnail_rules": [
+      "combine impossible environment contrast with intimate protector-child contact",
+      "keep faces/blanket/care readable before fantasy spectacle",
+      "use the economic world as contextual detail rather than clutter"
+    ],
+    "evidence": [
+      "knowledge/market/spark-shorts-desert-mermaid-deep-dive.md",
+      "evidence/research/genre_expansion/DG16FsALL9A/fullfilm_sheet.jpg",
+      "thumbnail_intelligence/reference_library/spark_shorts/DG16FsALL9A.webp"
+    ]
+  },
+  "romantic_creature_sacrifice_epic": {
+    "reference_channels": [
+      "Spark Shorts"
+    ],
+    "positive_signals": [
+      "cursed blood",
+      "monster label",
+      "sacrifice",
+      "fated bride",
+      "blood pact",
+      "chain",
+      "reincarnation",
+      "memory sacrifice",
+      "recognition",
+      "tenderness",
+      "prison becomes home"
+    ],
+    "opening_rules": [
+      "show bodily stigma or expulsion before explaining lore",
+      "make family/society impose the monster label in dialogue",
+      "introduce protective romantic bond quickly but let it carry coercion/consent tension",
+      "give the fantasy rule a physical cost"
+    ],
+    "risk_patterns": [
+      "lore-heavy divine politics without embodied stigma",
+      "romantic possession without repair or reciprocal protection",
+      "sacrifice repeated without rule evolution",
+      "spectacle posters replacing a single relational choice in packaging"
+    ],
+    "thumbnail_rules": [
+      "central intimate relational pair before monsters/action",
+      "use one coherent luminous color world",
+      "make the title ornate but subordinate to faces",
+      "avoid generic armor/monster clutter"
+    ],
+    "evidence": [
+      "knowledge/market/spark-shorts-hit-low-comparison.md",
+      "evidence/research/genre_expansion/FaP_r2awlC8/fullfilm_sheet.jpg",
+      "thumbnail_intelligence/reference_library/spark_shorts/spark_top_montage.jpg"
+    ]
+  }
+}

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:05.290" end="00:00:07.000" style="s2">Don&#39;t look up.</p>
+<p begin="00:00:08.810" end="00:00:13.880" style="s2">This is not a drill. Missiles are inbound. Get to shelter now.</p>
+<p begin="00:00:15.370" end="00:00:16.840" style="s2">Where do we go?!</p>
+<p begin="00:00:17.610" end="00:00:20.680" style="s2">Go! Down the stairs! Keep moving!</p>
+<p begin="00:00:41.310" end="00:00:46.170" style="s2">Our defense AI, MERIDIAN, has turned on us. It launched the missiles.</p>
+<p begin="00:00:47.260" end="00:00:49.610" style="s2">Jack! Cross says the machine did it!</p>
+<p begin="00:00:49.660" end="00:00:52.570" style="s2">Don&#39;t believe him. Grab Lena. We&#39;re leaving. Now.</p>
+<p begin="00:00:54.380" end="00:00:57.530" style="s2">Multiple inbound! Interceptors away!</p>
+<p begin="00:00:59.580" end="00:01:01.930" style="s2">Bandit on my six! Going left!</p>
+<p begin="00:01:08.670" end="00:01:13.020" style="s2">Strikes confirmed on four continents. We&#39;re losing contact with...</p>
+<p begin="00:01:26.750" end="00:01:27.950" style="s2">Jack!</p>
+<p begin="00:01:34.330" end="00:01:36.360" style="s2">I see it! Hold on!</p>
+<p begin="00:01:40.410" end="00:01:43.960" style="s2">You came straight from the base. What did you see?</p>
+<p begin="00:01:44.010" end="00:01:45.210" style="s2">Not now.</p>
+<p begin="00:01:59.160" end="00:02:01.750" style="s2">Jack... look at the sky.</p>
+<p begin="00:02:01.960" end="00:02:05.590" style="s2">Don&#39;t look. Don&#39;t look up. Keep your eyes on me.</p>
+<p begin="00:02:14.760" end="00:02:16.710" style="s2">The whole city just went dark.</p>
+<p begin="00:02:26.860" end="00:02:29.850" style="s2">Face down, Lena. Don&#39;t look up. Whatever you hear.</p>
+<p begin="00:02:42.560" end="00:02:45.310" style="s2">Stay down! Don&#39;t look up, no matter what!</p>
+<p begin="00:02:45.360" end="00:02:46.560" style="s2">Dad!</p>
+<p begin="00:02:51.120" end="00:02:53.790" style="s2">Dad! Bring him back!</p>
+<p begin="00:02:57.520" end="00:02:58.910" style="s2">Where did it take him?</p>
+<p begin="00:02:58.960" end="00:03:02.990" style="s2">Eden. Cross&#39;s city. Every Collector belongs to him.</p>
+<p begin="00:03:03.040" end="00:03:07.310" style="s2">They grab anyone who looks up. That red light locks onto your face.</p>
+<p begin="00:03:07.360" end="00:03:13.550" style="s2">Nobody comes back. Three days after they take you, Eden wipes your mind. Forever.</p>
+<p begin="00:03:14.160" end="00:03:17.550" style="s2">It&#39;s three days&#39; walk. Follow the light.</p>
+<p begin="00:03:18.080" end="00:03:19.790" style="s2">Then I have three days.</p>
+<p begin="00:03:33.860" end="00:03:35.490" style="s2">Dad worked for Cross?</p>
+<p begin="00:03:36.500" end="00:03:43.970" style="s2">He was a soldier the night the war started. He never talked about it. Find him, Lena. Ask him yourself.</p>
+<p begin="00:03:44.800" end="00:03:46.510" style="s2">I will. And then I&#39;m bringing him home.</p>
+<p begin="00:04:17.180" end="00:04:19.130" style="s2">Something&#39;s alive in here.</p>
+<p begin="00:04:27.410" end="00:04:30.640" style="s2">Nobody walks out here unless a Collector took someone.</p>
+<p begin="00:04:30.930" end="00:04:36.080" style="s2">My father. And a machine started the war. Why should I trust you?</p>
+<p begin="00:04:36.130" end="00:04:44.510" style="s2">Because I know the way into Eden. I got out of it once. Then the sand covered me. Dig me out, and I&#39;ll take you to him.</p>
+<p begin="00:04:53.200" end="00:04:58.350" style="s2">The moment I&#39;m out of this sand, Cross&#39;s dogs will pick up my signal. We&#39;ll have one minute.</p>
+<p begin="00:04:59.520" end="00:05:01.390" style="s2">You could have said that before I dug you out!</p>
+<p begin="00:05:01.440" end="00:05:02.830" style="s2">Then you wouldn&#39;t have.</p>
+<p begin="00:05:05.840" end="00:05:08.570" style="s2">Great. A machine with jokes.</p>
+<p begin="00:05:24.780" end="00:05:26.090" style="s2">Aim for the legs.</p>
+<p begin="00:05:26.140" end="00:05:27.610" style="s2">I know where to aim!</p>
+<p begin="00:05:34.350" end="00:05:35.900" style="s2">Then aim there.</p>
+<p begin="00:05:52.480" end="00:05:53.680" style="s2">Got one!</p>
+<p begin="00:06:01.280" end="00:06:03.310" style="s2">One more, on my back!</p>
+<p begin="00:06:23.850" end="00:06:25.320" style="s2">You saved me.</p>
+<p begin="00:06:28.570" end="00:06:31.880" style="s2">I saved my guide. Don&#39;t make it weird. I&#39;m Lena.</p>
+<p begin="00:06:32.530" end="00:06:36.560" style="s2">Lena. I&#39;ve shut my signal off. No more dogs.</p>
+<p begin="00:06:54.370" end="00:06:56.320" style="s2">Why help me? What&#39;s in it for a machine?</p>
+<p begin="00:06:56.370" end="00:06:59.200" style="s2">Cross wants me back. I want him to lose.</p>
+<p begin="00:06:59.330" end="00:07:00.880" style="s2">Why does Cross want you?</p>
+<p begin="00:07:00.930" end="00:07:08.240" style="s2">I used to repair his Collectors. Without me, they go blind. Get your father out first. Then I&#39;ll tell you the rest.</p>
+<p begin="00:07:15.090" end="00:07:19.350" style="s2">See that? Meridian. The AI that launched the missiles.</p>
+<p begin="00:07:20.280" end="00:07:25.430" style="s2">Billions of people. Gone. My mother didn&#39;t make it through the winter after.</p>
+<p begin="00:07:25.880" end="00:07:27.080" style="s2">I&#39;m sorry.</p>
+<p begin="00:07:27.240" end="00:07:31.030" style="s2">Don&#39;t be sorry. Just don&#39;t ever be like it.</p>
+<p begin="00:07:40.570" end="00:07:45.640" style="s2">Every night when I was little, Dad made me practice. Face in the dirt. Count to a hundred.</p>
+<p begin="00:07:45.690" end="00:07:47.160" style="s2">You hated it.</p>
+<p begin="00:07:47.530" end="00:07:54.920" style="s2">Every single night. Now it&#39;s the only reason I&#39;m alive. He always said, find north, and I&#39;ll find you.</p>
+<p begin="00:07:55.450" end="00:07:57.560" style="s2">He sounds like a good man.</p>
+<p begin="00:07:57.940" end="00:08:01.250" style="s2">He is. And he&#39;s never kept a secret from me.</p>
+<p begin="00:08:14.900" end="00:08:16.690" style="s2">Don&#39;t move. Don&#39;t look.</p>
+<p begin="00:08:16.740" end="00:08:19.500" style="s2">I know the rule. I grew up with it.</p>
+<p begin="00:08:24.110" end="00:08:26.860" style="s2">See that? They&#39;re failing. That&#39;s why he hunts me.</p>
+<p begin="00:08:26.910" end="00:08:28.860" style="s2">Two days left. We leave at first light.</p>
+<p begin="00:08:42.410" end="00:08:46.840" style="s2">Voss. The robot is awake. Bring it to me intact.</p>
+<p begin="00:08:48.170" end="00:08:49.720" style="s2">And the woman with it?</p>
+<p begin="00:08:49.770" end="00:08:51.240" style="s2">She doesn&#39;t matter.</p>
+<p begin="00:08:55.850" end="00:08:57.480" style="s2">Understood, Mr. Cross.</p>
+<p begin="00:09:09.960" end="00:09:12.630" style="s2">Three riders. Cross&#39;s best.</p>
+<p begin="00:09:14.040" end="00:09:15.670" style="s2">Hold on to something!</p>
+<p begin="00:09:17.400" end="00:09:20.710" style="s2">Stop the truck. Give me the robot and you live.</p>
+<p begin="00:09:39.990" end="00:09:41.940" style="s2">Lena! Cut the cable!</p>
+<p begin="00:09:52.530" end="00:09:54.720" style="s2">Good. Come to me, machine.</p>
+<p begin="00:10:11.040" end="00:10:11.950" style="s2">Get in! Now!</p>
+<p begin="00:10:12.000" end="00:10:13.550" style="s2">Go! Leave me!</p>
+<p begin="00:10:16.640" end="00:10:17.950" style="s2">Get in the truck!</p>
+<p begin="00:10:27.120" end="00:10:30.110" style="s2">Hey! Get up! Please, get up!</p>
+<p begin="00:10:36.670" end="00:10:38.540" style="s2">I told you to leave me.</p>
+<p begin="00:10:38.590" end="00:10:40.700" style="s2">And I didn&#39;t listen. Move!</p>
+<p begin="00:10:48.960" end="00:10:50.350" style="s2">Jump on the back!</p>
+<p begin="00:11:05.440" end="00:11:07.280" style="s2">Lena, are you okay?</p>
+<p begin="00:11:07.410" end="00:11:10.240" style="s2">Everything aches. We have to keep moving.</p>
+<p begin="00:11:13.730" end="00:11:17.360" style="s2">I lost them. Doesn&#39;t matter. I put a tracker on the woman.</p>
+<p begin="00:11:25.010" end="00:11:27.840" style="s2">They keep finding us. You&#39;re leading them to me!</p>
+<p begin="00:11:31.340" end="00:11:34.250" style="s2">Not me. Look at your shoulder.</p>
+<p begin="00:11:39.980" end="00:11:43.610" style="s2">She put a tracker on me. It was me, not you.</p>
+<p begin="00:11:45.100" end="00:11:47.370" style="s2">You&#39;re scared. That&#39;s okay.</p>
+<p begin="00:11:47.710" end="00:11:49.660" style="s2">Don&#39;t get used to it.</p>
+<p begin="00:12:00.430" end="00:12:03.020" style="s2">No truck now. How far to Eden?</p>
+<p begin="00:12:03.230" end="00:12:06.300" style="s2">A day on foot. Through the drowned city.</p>
+<p begin="00:12:06.350" end="00:12:08.460" style="s2">Then we walk all night if we have to.</p>
+<p begin="00:12:09.890" end="00:12:12.960" style="s2">You&#39;re limping. We rest on that cliff.</p>
+<p begin="00:12:23.650" end="00:12:26.640" style="s2">You lived in Eden. Is it really paradise?</p>
+<p begin="00:12:27.170" end="00:12:31.470" style="s2">On top, yes. Towers, lights, food for everyone.</p>
+<p begin="00:12:31.520" end="00:12:35.550" style="s2">Under the city, the people who looked up dig in Cross&#39;s mines. Forever.</p>
+<p begin="00:12:37.200" end="00:12:41.070" style="s2">One day left. Then my father becomes one of them.</p>
+<p begin="00:12:41.120" end="00:12:44.830" style="s2">Not if we&#39;re fast. Sleep now. You&#39;re only human.</p>
+<p begin="00:12:46.400" end="00:12:47.630" style="s2">Says the machine.</p>
+<p begin="00:13:01.500" end="00:13:03.930" style="s2">Eden is on the other side of that city.</p>
+<p begin="00:13:04.220" end="00:13:05.930" style="s2">Then we cross it.</p>
+<p begin="00:13:12.380" end="00:13:15.140" style="s2">That highway hasn&#39;t been safe for twenty years.</p>
+<p begin="00:13:15.190" end="00:13:16.500" style="s2">Nothing has.</p>
+<p begin="00:13:28.550" end="00:13:30.660" style="s2">A bad storm is coming in from the sea.</p>
+<p begin="00:13:30.710" end="00:13:32.100" style="s2">Then we move faster.</p>
+<p begin="00:13:38.770" end="00:13:40.640" style="s2">Once we&#39;re up there, there&#39;s no cover.</p>
+<p begin="00:13:40.690" end="00:13:42.160" style="s2">So we don&#39;t stop.</p>
+<p begin="00:14:03.120" end="00:14:05.950" style="s2">Grab my hand! Don&#39;t you dare fall.</p>
+<p begin="00:14:09.600" end="00:14:11.470" style="s2">I wasn&#39;t planning to.</p>
+<p begin="00:14:16.560" end="00:14:20.160" style="s2">Oh no. Someone&#39;s waiting for us.</p>
+<p begin="00:14:23.410" end="00:14:27.040" style="s2">This is the only road to Eden. So I waited here.</p>
+<p begin="00:14:28.290" end="00:14:29.760" style="s2">Who are you?</p>
+<p begin="00:14:30.530" end="00:14:35.680" style="s2">Rhea Voss. I hunt for Mr. Cross. That robot is his.</p>
+<p begin="00:14:35.810" end="00:14:38.080" style="s2">Why work for a man like him?</p>
+<p begin="00:14:38.130" end="00:14:43.490" style="s2">I looked up when I was nine. He didn&#39;t wipe me. He gave me a home.</p>
+<p begin="00:14:43.940" end="00:14:47.010" style="s2">Now step aside. I only want the robot.</p>
+<p begin="00:15:01.380" end="00:15:03.730" style="s2">You&#39;ve never been in a real fight, have you?</p>
+<p begin="00:15:07.810" end="00:15:09.840" style="s2">There&#39;s a first time for everything.</p>
+<p begin="00:15:29.710" end="00:15:33.260" style="s2">Stop right there, machine. Or she pays for it.</p>
+<p begin="00:15:33.310" end="00:15:35.980" style="s2">Let her go. Take me instead.</p>
+<p begin="00:15:36.030" end="00:15:38.540" style="s2">Don&#39;t do it! Don&#39;t listen to her!</p>
+<p begin="00:15:40.910" end="00:15:43.180" style="s2">Get down, robot. Now.</p>
+<p begin="00:16:06.960" end="00:16:10.980" style="s2">The robot&#39;s in the sea. If it survives, it comes to Eden. I&#39;ll wait.</p>
+<p begin="00:16:39.800" end="00:16:42.550" style="s2">You came back for me. I&#39;m just a machine.</p>
+<p begin="00:16:42.680" end="00:16:44.310" style="s2">I don&#39;t leave anyone behind.</p>
+<p begin="00:16:44.490" end="00:16:45.640" style="s2">Not even me?</p>
+<p begin="00:16:45.690" end="00:16:48.440" style="s2">Especially you. You know the way to my father.</p>
+<p begin="00:16:48.490" end="00:16:51.880" style="s2">That tower! Swim! Kick your legs!</p>
+<p begin="00:16:52.650" end="00:16:55.640" style="s2">My leg&#39;s jammed. I&#39;m slow.</p>
+<p begin="00:16:56.090" end="00:16:57.880" style="s2">Then hold on to me.</p>
+<p begin="00:17:06.250" end="00:17:08.440" style="s2">We wait out the storm up there.</p>
+<p begin="00:17:08.670" end="00:17:10.700" style="s2">Give me an hour to fix this leg.</p>
+<p begin="00:17:25.870" end="00:17:28.780" style="s2">E. Z. R. Four... Ezra. I&#39;m calling you Ezra.</p>
+<p begin="00:17:30.030" end="00:17:33.420" style="s2">I&#39;ve had a code number. Never a name.</p>
+<p begin="00:17:33.730" end="00:17:35.200" style="s2">Well, now you&#39;ve got one.</p>
+<p begin="00:17:35.490" end="00:17:38.160" style="s2">Ezra. I like it.</p>
+<p begin="00:17:53.330" end="00:17:54.880" style="s2">Get under the water. Now!</p>
+<p begin="00:18:04.530" end="00:18:06.560" style="s2">Four hours left before they wipe Dad.</p>
+<p begin="00:18:06.610" end="00:18:08.880" style="s2">Then we get inside Eden before dark.</p>
+<p begin="00:18:09.010" end="00:18:10.000" style="s2">How?</p>
+<p begin="00:18:10.050" end="00:18:11.600" style="s2">You won&#39;t like it.</p>
+<p begin="00:18:21.300" end="00:18:22.690" style="s2">So what&#39;s the plan?</p>
+<p begin="00:18:22.900" end="00:18:24.770" style="s2">First, you need to see the wall.</p>
+<p begin="00:18:24.820" end="00:18:27.810" style="s2">Ezra, my dad doesn&#39;t have time for sightseeing.</p>
+<p begin="00:18:27.860" end="00:18:30.370" style="s2">Trust me. You&#39;ll understand up there.</p>
+<p begin="00:18:37.480" end="00:18:39.830" style="s2">Stay low. The wall has eyes.</p>
+<p begin="00:18:50.920" end="00:18:52.870" style="s2">There&#39;s no door in that wall.</p>
+<p begin="00:19:02.930" end="00:19:06.720" style="s2">There&#39;s one door. Only Collectors use it.</p>
+<p begin="00:19:08.290" end="00:19:11.760" style="s2">The only way into Eden is in a Collector&#39;s hand.</p>
+<p begin="00:19:12.130" end="00:19:15.760" style="s2">I hide in a cargo crate. You let a Collector take you.</p>
+<p begin="00:19:15.810" end="00:19:19.760" style="s2">They scan for people, not metal. With my signal off, I&#39;m just scrap.</p>
+<p begin="00:19:21.530" end="00:19:24.840" style="s2">Dad told me every day: don&#39;t look up.</p>
+<p begin="00:19:24.890" end="00:19:26.090" style="s2">I know.</p>
+<p begin="00:19:26.810" end="00:19:29.960" style="s2">Tonight, I&#39;m going to look up.</p>
+<p begin="00:19:47.700" end="00:19:49.250" style="s2">I&#39;m coming, Dad.</p>
+<p begin="00:20:00.660" end="00:20:04.070" style="s2">Come on! Take me!</p>
+<p begin="00:20:23.720" end="00:20:27.470" style="s2">You looked up on purpose. I watched you.</p>
+<p begin="00:20:28.000" end="00:20:30.670" style="s2">My father&#39;s in there. I&#39;m getting him out.</p>
+<p begin="00:20:30.800" end="00:20:34.830" style="s2">Nobody gets out. You&#39;re as lost as he is.</p>
+<p begin="00:20:35.360" end="00:20:36.560" style="s2">Not yet.</p>
+<p begin="00:21:00.190" end="00:21:01.820" style="s2">This way. Quickly.</p>
+<p begin="00:21:01.950" end="00:21:03.340" style="s2">That was too close.</p>
+<p begin="00:21:03.630" end="00:21:05.760" style="s2">One is missing! Count again!</p>
+<p begin="00:21:23.410" end="00:21:24.720" style="s2">Where are we going?</p>
+<p begin="00:21:24.770" end="00:21:27.890" style="s2">Up high. I need to see the whole city.</p>
+<p begin="00:21:47.220" end="00:21:51.950" style="s2">Welcome to Eden. Here, no one is hungry. No one is afraid.</p>
+<p begin="00:21:53.200" end="00:21:57.230" style="s2">Lena Cole. You came for your father. How touching.</p>
+<p begin="00:21:57.600" end="00:22:00.910" style="s2">You have one hour. Then he forgets you forever.</p>
+<p begin="00:22:01.760" end="00:22:03.310" style="s2">He knows my name.</p>
+<p begin="00:22:03.360" end="00:22:06.750" style="s2">The Collector scanned your face when you looked up. Run.</p>
+<p begin="00:22:30.590" end="00:22:32.010" style="s2">Down! Into the shaft!</p>
+<p begin="00:22:32.060" end="00:22:32.730" style="s2">Where does it go?</p>
+<p begin="00:22:32.780" end="00:22:34.730" style="s2">Under the city. To the mines.</p>
+<p begin="00:22:51.820" end="00:22:53.850" style="s2">These are the people who looked up.</p>
+<p begin="00:22:54.060" end="00:22:57.210" style="s2">After the wipe, they don&#39;t even remember their names.</p>
+<p begin="00:23:01.820" end="00:23:04.810" style="s2">This is paradise? This?</p>
+<p begin="00:23:06.220" end="00:23:08.330" style="s2">This is what pays for it.</p>
+<p begin="00:23:21.850" end="00:23:23.080" style="s2">Hold on!</p>
+<p begin="00:23:29.050" end="00:23:30.440" style="s2">One&#39;s on the cart!</p>
+<p begin="00:23:30.970" end="00:23:32.170" style="s2">Not anymore!</p>
+<p begin="00:23:58.560" end="00:24:00.190" style="s2">Did I just do that?</p>
+<p begin="00:24:00.240" end="00:24:03.130" style="s2">You did. Remind me never to make you angry.</p>
+<p begin="00:24:12.540" end="00:24:15.610" style="s2">I hear the chairs humming. This is the wipe floor.</p>
+<p begin="00:24:15.660" end="00:24:17.530" style="s2">Then Dad is in there.</p>
+<p begin="00:24:21.900" end="00:24:25.450" style="s2">I&#39;ll hold this door. Nothing gets past it while I&#39;m here.</p>
+<p begin="00:24:25.500" end="00:24:26.970" style="s2">Then don&#39;t let it.</p>
+<p begin="00:24:53.180" end="00:24:55.930" style="s2">Dad. Dad, it&#39;s me.</p>
+<p begin="00:24:55.980" end="00:24:58.730" style="s2">Lena? No... You looked up?</p>
+<p begin="00:24:58.780" end="00:25:01.370" style="s2">You told me never to. I did it to find you.</p>
+<p begin="00:25:01.420" end="00:25:02.650" style="s2">That&#39;s my Lena.</p>
+<p begin="00:25:19.580" end="00:25:23.130" style="s2">Clever. I knew you&#39;d bring my robot back to me.</p>
+<p begin="00:25:23.390" end="00:25:27.660" style="s2">Here&#39;s a deal. Give me the robot, and your father walks free.</p>
+<p begin="00:25:27.870" end="00:25:30.700" style="s2">Both of you. Out the gate. Tonight.</p>
+<p begin="00:25:41.950" end="00:25:44.680" style="s2">Take the deal, Lena. I&#39;m only a machine.</p>
+<p begin="00:25:44.730" end="00:25:45.930" style="s2">Stop it.</p>
+<p begin="00:25:50.570" end="00:25:53.560" style="s2">Your father lives. That&#39;s why you came.</p>
+<p begin="00:25:55.210" end="00:25:59.080" style="s2">No deal. He&#39;s not a thing. He&#39;s my friend.</p>
+<p begin="00:26:00.330" end="00:26:03.480" style="s2">She&#39;s right. Never make a deal with him.</p>
+<p begin="00:26:06.650" end="00:26:11.740" style="s2">Then nobody leaves the mines. Not you. Not him.</p>
+<p begin="00:26:17.070" end="00:26:19.340" style="s2">This stair goes down to the cavern. Move!</p>
+<p begin="00:26:21.470" end="00:26:22.300" style="s2">And then what?</p>
+<p begin="00:26:22.350" end="00:26:24.380" style="s2">Then we find another way up.</p>
+<p begin="00:26:28.110" end="00:26:30.620" style="s2">That panel runs every collar down here.</p>
+<p begin="00:26:41.010" end="00:26:42.640" style="s2">Nobody leaves the mines.</p>
+<p begin="00:26:44.530" end="00:26:45.920" style="s2">Watch me.</p>
+<p begin="00:26:53.680" end="00:26:56.750" style="s2">Where am I? Who am I?</p>
+<p begin="00:27:18.380" end="00:27:20.170" style="s2">Lena, behind you!</p>
+<p begin="00:27:22.540" end="00:27:23.740" style="s2">Ezra!</p>
+<p begin="00:27:32.780" end="00:27:34.730" style="s2">I&#39;m... all right.</p>
+<p begin="00:27:35.020" end="00:27:36.650" style="s2">You took that for me.</p>
+<p begin="00:27:40.650" end="00:27:45.960" style="s2">Enough. Mr. Cross wants all three of you upstairs. Your father&#39;s wipe can wait.</p>
+<p begin="00:28:06.570" end="00:28:10.440" style="s2">Dad. You know Cross, don&#39;t you?</p>
+<p begin="00:28:10.650" end="00:28:12.200" style="s2">Lena, whatever he tells you...</p>
+<p begin="00:28:12.250" end="00:28:13.880" style="s2">What will he tell me?</p>
+<p begin="00:28:15.690" end="00:28:19.040" style="s2">The truth. About me.</p>
+<p begin="00:28:30.050" end="00:28:34.000" style="s2">Sergeant Cole. Twenty-four years.</p>
+<p begin="00:28:34.210" end="00:28:37.600" style="s2">Not long enough. You still wear that key.</p>
+<p begin="00:28:40.850" end="00:28:42.560" style="s2">How do you know my father?</p>
+<p begin="00:28:43.400" end="00:28:46.150" style="s2">We were in the same room the night the war began.</p>
+<p begin="00:28:58.680" end="00:29:00.790" style="s2">He didn&#39;t tell you who he is?</p>
+<p begin="00:29:01.480" end="00:29:06.490" style="s2">Your friend is Meridian. The machine that ended the world.</p>
+<p begin="00:29:07.580" end="00:29:10.810" style="s2">Ezra... Tell me it isn&#39;t true.</p>
+<p begin="00:29:11.020" end="00:29:17.770" style="s2">It&#39;s true. I never repaired his Collectors. I controlled them. I&#39;m what&#39;s left of Meridian.</p>
+<p begin="00:29:24.460" end="00:29:27.320" style="s2">My mother is gone because of you!</p>
+<p begin="00:29:30.970" end="00:29:36.040" style="s2">I didn&#39;t launch the missiles. That night, I said no.</p>
+<p begin="00:29:41.370" end="00:29:45.080" style="s2">It&#39;s a machine, Lena. It&#39;ll say anything.</p>
+<p begin="00:29:56.020" end="00:29:59.730" style="s2">It&#39;s the truth. The machine refused to launch.</p>
+<p begin="00:30:04.020" end="00:30:08.830" style="s2">I was in that room, Lena. I know who did it.</p>
+<p begin="00:30:10.000" end="00:30:11.200" style="s2">Who?</p>
+<p begin="00:30:11.520" end="00:30:13.710" style="s2">Him. Cross.</p>
+<p begin="00:30:21.840" end="00:30:24.990" style="s2">No strike is coming. Launch refused.</p>
+<p begin="00:30:25.920" end="00:30:29.130" style="s2">Then we launch by hand. Turn your key, Sergeant!</p>
+<p begin="00:30:29.180" end="00:30:31.850" style="s2">There&#39;s no strike, sir! I won&#39;t do it.</p>
+<p begin="00:30:36.060" end="00:30:40.250" style="s2">Then I&#39;ll do it alone. And the machine takes the blame.</p>
+<p begin="00:30:52.720" end="00:30:58.510" style="s2">I ran. I hid. I let the world blame a machine for twenty-four years.</p>
+<p begin="00:31:02.240" end="00:31:06.750" style="s2">The old world would never let me rule it. So I ended it.</p>
+<p begin="00:31:09.520" end="00:31:17.120" style="s2">Every Collector runs on his mind. Since he left, they&#39;ve been failing. I wipe him, he obeys me, and the truth is gone.</p>
+<p begin="00:31:17.170" end="00:31:18.370" style="s2">No!</p>
+<p begin="00:31:28.210" end="00:31:30.720" style="s2">Nobody crosses until the bar is full.</p>
+<p begin="00:31:30.770" end="00:31:31.970" style="s2">Yes, sir.</p>
+<p begin="00:31:37.250" end="00:31:40.720" style="s2">Dad. Give me a chance.</p>
+<p begin="00:31:43.730" end="00:31:45.040" style="s2">You&#39;ll get one.</p>
+<p begin="00:31:56.610" end="00:31:59.680" style="s2">He saved me! He gave me a home!</p>
+<p begin="00:32:01.780" end="00:32:05.330" style="s2">He started the war! He took your home first!</p>
+<p begin="00:32:16.340" end="00:32:17.970" style="s2">Where did you learn to fight like that?</p>
+<p begin="00:32:18.020" end="00:32:20.290" style="s2">On the way here. From you.</p>
+<p begin="00:32:29.320" end="00:32:32.950" style="s2">He fooled you too, Rhea. He fooled everyone.</p>
+<p begin="00:32:39.480" end="00:32:43.110" style="s2">Don&#39;t cut it. This chair is wired to every Collector.</p>
+<p begin="00:32:43.800" end="00:32:48.790" style="s2">Let me jump into the Collectors before it erases me. I&#39;ll free them.</p>
+<p begin="00:32:50.190" end="00:32:51.580" style="s2">Then you&#39;ll be gone.</p>
+<p begin="00:32:55.390" end="00:33:00.780" style="s2">No. I&#39;ll live in them. Thank you for my name, Lena.</p>
+<p begin="00:33:21.820" end="00:33:25.290" style="s2">It&#39;s over. The machine is finished.</p>
+<p begin="00:33:30.270" end="00:33:35.020" style="s2">Blue? No... no, no, no.</p>
+<p begin="00:33:46.050" end="00:33:48.640" style="s2">If Eden isn&#39;t mine, it&#39;s nobody&#39;s.</p>
+<p begin="00:33:51.890" end="00:33:53.440" style="s2">Not this time, Cross.</p>
+<p begin="00:33:59.650" end="00:34:03.520" style="s2">All soldiers, stand down. He fooled us all.</p>
+<p begin="00:34:16.850" end="00:34:19.200" style="s2">Open the gate! Open it now!</p>
+<p begin="00:34:19.250" end="00:34:20.450" style="s2">Gate opening.</p>
+<p begin="00:34:30.410" end="00:34:35.160" style="s2">The moment I clear that wall, my missiles fall on Eden.</p>
+<p begin="00:34:49.530" end="00:34:52.620" style="s2">I&#39;ll come back for you. I promise.</p>
+<p begin="00:34:53.790" end="00:34:57.100" style="s2">Lena! Cross took his ship. He&#39;s going for the gate!</p>
+<p begin="00:35:02.590" end="00:35:04.140" style="s2">Then we stop him.</p>
+<p begin="00:35:19.070" end="00:35:20.780" style="s2">Lena, don&#39;t look up!</p>
+<p begin="00:35:22.190" end="00:35:26.220" style="s2">It&#39;s okay, Dad. It&#39;s Ezra. Look at its eyes.</p>
+<p begin="00:35:29.630" end="00:35:32.940" style="s2">Ezra? Take us to the gate. Stop Cross.</p>
+<p begin="00:35:47.320" end="00:35:49.510" style="s2">We&#39;ll never catch a ship on foot!</p>
+<p begin="00:35:49.560" end="00:35:52.710" style="s2">We don&#39;t have to. Ezra is in every Collector.</p>
+<p begin="00:35:52.840" end="00:35:57.260" style="s2">Ezra! You&#39;re at the gate too! Stop him!</p>
+<p begin="00:36:18.670" end="00:36:21.740" style="s2">Let me go! I saved this world!</p>
+<p begin="00:36:23.920" end="00:36:27.070" style="s2">You started the war, and you blamed a machine.</p>
+<p begin="00:36:40.240" end="00:36:42.830" style="s2">No more keys. No more wars.</p>
+<p begin="00:36:44.400" end="00:36:46.920" style="s2">You have no idea what you&#39;ve done.</p>
+<p begin="00:36:50.330" end="00:36:52.840" style="s2">I do. Now you look up.</p>
+<p begin="00:37:11.390" end="00:37:13.180" style="s2">I don&#39;t remember who I was.</p>
+<p begin="00:37:13.230" end="00:37:15.740" style="s2">Then come up and find out. You&#39;re free.</p>
+<p begin="00:37:40.880" end="00:37:43.550" style="s2">Look... their eyes are blue.</p>
+<p begin="00:37:45.040" end="00:37:48.590" style="s2">Look up. It&#39;s safe now.</p>
+<p begin="00:38:04.140" end="00:38:08.090" style="s2">I should have told you. Every day, I should have.</p>
+<p begin="00:38:09.100" end="00:38:10.730" style="s2">Why didn&#39;t you?</p>
+<p begin="00:38:11.900" end="00:38:15.050" style="s2">I was afraid you&#39;d look at me the way the world looked at that machine.</p>
+<p begin="00:38:16.130" end="00:38:19.600" style="s2">Look up, Dad. It&#39;s over.</p>
+<p begin="00:38:29.730" end="00:38:33.680" style="s2">You gave me a name, Lena. I&#39;ll never lose it.</p>
+<p begin="00:38:36.370" end="00:38:40.320" style="s2">Dad&#39;s compass. So you always find your way back to us.</p>
+<p begin="00:38:46.860" end="00:38:49.930" style="s2">Get some sleep, Lena. You&#39;re only human.</p>
+<p begin="00:38:50.540" end="00:38:51.770" style="s2">Says the machine.</p>
+<p begin="00:38:59.260" end="00:39:03.210" style="s2">For twenty-four years, we were told a machine started the war.</p>
+<p begin="00:39:03.900" end="00:39:10.570" style="s2">A machine didn&#39;t start the war. A man did. The machine said no.</p>
+<p begin="00:39:11.740" end="00:39:17.050" style="s2">Twenty-four years... I forgot what the sky looked like.</p>
+<p begin="00:39:18.220" end="00:39:20.010" style="s2">You can look up now.</p>
+<p begin="00:39:32.300" end="00:39:38.570" style="s2">Daniel... it&#39;s me. It&#39;s okay. I&#39;ll remember for both of us.</p>
+<p begin="00:39:48.700" end="00:39:49.900" style="s2">What now?</p>
+<p begin="00:39:50.500" end="00:39:53.490" style="s2">Now we build a world where no one has to hide their face.</p>
+<p begin="00:40:02.260" end="00:40:04.770" style="s2">Lena... there&#39;s another Eden.</p>
+<p begin="00:40:18.780" end="00:40:21.370" style="s2">And its machine just said yes to launch.</p>
+</div>
+</body>
+</tt>

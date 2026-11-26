@@ -1,0 +1,212 @@
+{
+  "scene_id": "S04",
+  "duration_seconds": 360,
+  "coverage": "continuous_exact_format_director_seed",
+  "shots": [
+    {
+      "shot_id": "S04_DS001",
+      "timecode": "0.0-36.0",
+      "duration_seconds": 36.0,
+      "scene_id": "S04",
+      "shot_size": "wide establishing",
+      "camera_intent": "slow push",
+      "visual_action": "stormglass shards pulsing with crowd fear",
+      "dialogue": "none",
+      "sound_design": "drop music before each bonding or revelation beat so breath, scale chimes, and creature calls carry meaning",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: open on the scene image"
+    },
+    {
+      "shot_id": "S04_DS002",
+      "timecode": "36.0-72.0",
+      "duration_seconds": 36.0,
+      "scene_id": "S04",
+      "shot_size": "intimate closeup",
+      "camera_intent": "settle",
+      "visual_action": "elder Ilsa shifts from suspicion to witness",
+      "dialogue": "none",
+      "sound_design": "breath and room tone",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+    },
+    {
+      "shot_id": "S04_DS003",
+      "timecode": "72.0-108.0",
+      "duration_seconds": 36.0,
+      "scene_id": "S04",
+      "shot_size": "action wide",
+      "camera_intent": "lateral track",
+      "visual_action": "evacuate villagers before the navy arrives",
+      "dialogue": "none",
+      "sound_design": "environmental action foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
+    },
+    {
+      "shot_id": "S04_DS004",
+      "timecode": "108.0-144.0",
+      "duration_seconds": 36.0,
+      "scene_id": "S04",
+      "shot_size": "power two-shot",
+      "camera_intent": "slow tightening",
+      "visual_action": "neighbors fear the bounty and the child reacts to collective fear",
+      "dialogue": "Pain makes it obey. Trust makes it answer.",
+      "sound_design": "dialogue remains intelligible under weather and crowd effects",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+    },
+    {
+      "shot_id": "S04_DS005",
+      "timecode": "144.0-180.0",
+      "duration_seconds": 36.0,
+      "scene_id": "S04",
+      "shot_size": "decision insert",
+      "camera_intent": "macro",
+      "visual_action": "Mira trades her royal token for evacuation boats",
+      "dialogue": "none",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+    },
+    {
+      "shot_id": "S04_DS006",
+      "timecode": "180.0-216.0",
+      "duration_seconds": 36.0,
+      "scene_id": "S04",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "the village becomes involved in the stakes",
+      "dialogue": "none",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+    },
+    {
+      "shot_id": "S04_DS007",
+      "timecode": "216.0-252.0",
+      "duration_seconds": 36.0,
+      "scene_id": "S04",
+      "shot_size": "vertical composition",
+      "camera_intent": "high or low angle",
+      "visual_action": "crowd layers above tidal tunnel depth",
+      "dialogue": "none",
+      "sound_design": "negative space",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
+    },
+    {
+      "shot_id": "S04_DS008",
+      "timecode": "252.0-288.0",
+      "duration_seconds": 36.0,
+      "scene_id": "S04",
+      "shot_size": "subtext closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "Protection means risking attachment without turning love into control.",
+      "dialogue": "You don't save a child by becoming its cage.",
+      "sound_design": "lullaby motif evolves with trust rather than constant emotional wallpaper",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+    },
+    {
+      "shot_id": "S04_DS009",
+      "timecode": "288.0-324.0",
+      "duration_seconds": 36.0,
+      "scene_id": "S04",
+      "shot_size": "consequence wide",
+      "camera_intent": "backward track",
+      "visual_action": "consequence of Mira trades her royal token for evacuation boats",
+      "dialogue": "none",
+      "sound_design": "consequence foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
+    },
+    {
+      "shot_id": "S04_DS010",
+      "timecode": "324.0-360.0",
+      "duration_seconds": 36.0,
+      "scene_id": "S04",
+      "shot_size": "final image",
+      "camera_intent": "slow pull-back",
+      "visual_action": "lantern evacuation lines vanish into dark water as warships arrive",
+      "dialogue": "Pain makes it obey. Trust makes it answer.",
+      "sound_design": "three-note lullaby answered by glassy creature harmonics unresolved",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power"
+    }
+  ],
+  "validation_rules": [
+    "seed must be manually/directorially refined before production",
+    "no gaps or overlaps",
+    "sound and power transitions must remain explicit"
+  ]
+}

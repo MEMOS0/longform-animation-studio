@@ -1,0 +1,43 @@
+{
+  "scene_id": "S04",
+  "time_range": "13.4-18.9 minutes",
+  "objective": "competence deepens while antagonist reaches for irreversible control",
+  "conflict": "the protagonist's craft identity becomes public enough to threaten the antagonist, who prepares a frame-up or institutional attack",
+  "power_position_start": "competent but not yet publicly believed",
+  "power_position_end": "dangerous enough to provoke the antagonist",
+  "turn": "the protagonist's craft identity becomes public enough to threaten the antagonist, who prepares a frame-up or institutional attack",
+  "protagonist_decision": "tell a partial truth to protect someone weaker even though it increases personal risk",
+  "subtext": "Competence threatens people whose power depends on others remaining illegible.",
+  "visual_action": {
+    "first_image": "craft demonstration intercut with antagonist moving pieces behind doors",
+    "face_reaction": "the protagonist's expression shifts from confidence toward controlled attention when the turn lands",
+    "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+    "final_image": "cracked blue measuring cup visible after the power shift, its meaning altered by: first contradiction in the antagonist's timeline/object story appears"
+  },
+  "dialogue_design": {
+    "function": "make choices, objections, and proof implications audible rather than explaining theme",
+    "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "Stop the spectacle before someone else pays for your pride.",
+      "I can prove the flaw if you give me the bench.",
+      "Power built on someone else's hands always leaves a mark."
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
+    "silence_or_negative_space": "competence rhythm interrupted by institutional silence and door/lock sounds",
+    "motif": "a restrained tactile sound motif"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on the immediate consequence of the previous turn: a minor worker/witness notices a detail that later becomes evidence",
+    "exit_hook": "will the audience see the trap before the protagonist does?"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, capability, or relational obligation?",
+    "Is the object/space doing narrative work rather than decorative worldbuilding?",
+    "Is public or institutional pressure expressed through visible behavior rather than exposition?",
+    "Does the protagonist retain agency instead of being rescued into passivity?"
+  ]
+}

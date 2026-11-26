@@ -1,0 +1,177 @@
+{
+  "premise_id": "salt_window_garden",
+  "failure_intelligence": {
+    "candidate": "She Saved the Creature They Called a Treasure — Then Refused to Sell Its Tears",
+    "risk_score_0_to_1": 0.401,
+    "confidence": "low_until_script_and_media-evidence comparison is complete",
+    "matched_failure_patterns": [],
+    "nearest_archive_examples": [
+      {
+        "video_id": "VhZV-djnfiA",
+        "title": "She Became a Nanny to Save Her Daughter… Unaware Her Boss Was Her Child’s Father—the DRAGON LORD!",
+        "cohort": "middle",
+        "views_per_day": 2171.233333333333,
+        "themes": [
+          "dragon",
+          "family_child"
+        ],
+        "similarity": 0.09439424529809984
+      },
+      {
+        "video_id": "_I5I1l7DP3E",
+        "title": "She Sold Weapons Through a Magic Mirror… Then Accidentally Stole the WOLF KING'S FIRST KISS!#AIStory",
+        "cohort": "middle",
+        "views_per_day": 912.5555555555555,
+        "themes": [
+          "romance_mate",
+          "royalty_status",
+          "sacred_special_blood",
+          "wolf_werewolf"
+        ],
+        "similarity": 0.05722347007944998
+      },
+      {
+        "video_id": "xJUN_KOCnME",
+        "title": "He Was Seconds Away From His 8th Championship… Until His Own Family Betrayed Him!",
+        "cohort": "underperforming",
+        "views_per_day": 492.9904761904762,
+        "themes": [
+          "family_child",
+          "modern_wealth_power"
+        ],
+        "similarity": 0.05351650676880004
+      },
+      {
+        "video_id": "j3U5JsLvbLg",
+        "title": "Her Family Sacrificed Her to the Ocean… Now She's the SEA GOD'S QUEEN They Can Never Touch!#AIStory",
+        "cohort": "outperforming",
+        "views_per_day": 17921.0,
+        "themes": [
+          "family_child",
+          "revenge_retribution",
+          "royalty_status",
+          "sea_mermaid"
+        ],
+        "similarity": 0.05122968447641998
+      },
+      {
+        "video_id": "u9acebqxR-8",
+        "title": "They Called Her a Curse… Unaware She Had the Divine Power to Bring the Forest Back to Life!#AIStory",
+        "cohort": "unknown",
+        "views_per_day": null,
+        "themes": [
+          "rebirth_second_chance",
+          "sacred_special_blood"
+        ],
+        "similarity": 0.04719712264904992
+      },
+      {
+        "video_id": "0ofXaXWcfi0",
+        "title": "His Family Tried to Kill Him… Until a MERMAID Saved Him and Changed His Fate Forever!#AIStory",
+        "cohort": "outperforming",
+        "views_per_day": 29355.25,
+        "themes": [
+          "family_child",
+          "sea_mermaid"
+        ],
+        "similarity": 0.039270379792041295
+      },
+      {
+        "video_id": "a2pydTch_Tg",
+        "title": "He Kept His Distance for 3 Years… Until Someone Shared Their ONLY Piece of Bread! #AIStory",
+        "cohort": "underperforming",
+        "views_per_day": 494.39130434782606,
+        "themes": [],
+        "similarity": 0.03775769811923994
+      },
+      {
+        "video_id": "jW-gZtvP9Oo",
+        "title": "They Broke Their Promise and Chose Another Girl…Then Lost Everything When Her GENIUS Was Revealed!",
+        "cohort": "middle",
+        "views_per_day": 1281.1818181818182,
+        "themes": [
+          "revenge_retribution"
+        ],
+        "similarity": 0.03582009757855622
+      }
+    ],
+    "positive_missing_or_weak": [
+      "No strong hidden identity/secret hook detected; Nov Drama hits often use one, though this is not mandatory.",
+      "No child/heir/creature emotional anchor detected; this is currently one of the strongest archive-level positive signals.",
+      "No explicit status reversal detected in the surface promise.",
+      "No clear mythic creature lane detected; test whether the concept matches the channel audience's demand."
+    ],
+    "decision_guidance": [
+      "Concept does not trigger strong archive-level failure alarms, but retention-safe execution still requires scene-level proof."
+    ],
+    "causal_boundary": "This is pattern-matching against public outcomes and extracted creative signals; it is not a causal predictor of CTR, retention, or audience response."
+  },
+  "format_strategy": {
+    "format_class": "mid_length_feature",
+    "inferred_flags": {
+      "episodic": true,
+      "compilation": false,
+      "serialized": true,
+      "continuation_hook": true
+    },
+    "recommendations": [
+      "Open with embodied stakes before world scale or mythology.",
+      "Use 8-12 minute escalation blocks; each block must change capability, alliance, secret pressure, or cost.",
+      "Deliver a major promise payoff before the midpoint and a deeper relational payoff near the end.",
+      "A continuation hook is acceptable only after the current film/episode pays off a major promise; do not use it as a substitute for resolution."
+    ],
+    "warnings": [
+      "episodic labeling on a longer asset may reduce self-contained discovery value; prove the first episode can stand alone"
+    ],
+    "causal_boundary": "Duration/format guidance is observational and channel-dependent; it is not proof of retention or CTR causality."
+  },
+  "meaning_carrier": {
+    "mode": "explicit",
+    "object_or_space": "blue glass salt vial",
+    "opening_meaning": "the vial is the last measured gift of clean rainwater left by Nura's mother",
+    "closing_reversal": "the same vial proves the land trust has been secretly diverting the town aquifer",
+    "final_sequence_use": "the object is used openly in the proof/restoration ritual before the final communal meal or work ritual in the dry pump yard transformed into Pearl-like public garden where water and food are shared by choice",
+    "score_0_to_1": 0.75,
+    "warnings": [
+      "meaning carrier ending recurrence cannot be verified without architecture sequences"
+    ],
+    "craft_rule": "A physical object, space, sound-object, or ritual should carry the wound in the opening and return with changed meaning in the payoff."
+  },
+  "relational_contract": {
+    "score_0_to_1": 1.0,
+    "fields": {
+      "power_asymmetry": "private resource/legal ownership versus debt-bound worker and a nonhuman child treated as property",
+      "safety_or_kindness_before_power": "her grandmother offers food, shelter, and patient labor before anyone powerful believes her before knowing the creature's value or any powerful ally's status",
+      "costly_protagonist_action": "Nura protects a child-sized moonfin creature with silver fins and a frightened singing voice at cost to her home, business, safety, and the chance to solve debt quickly",
+      "consent_or_personhood_repair": "the creature is never owned as a reward; authority must admit the fraud, the creature chooses home/contact, and the protagonist accepts partnership without possession",
+      "payoff_image": "the dry pump yard transformed into Pearl-like public garden where water and food are shared by choice after the moonfin returns to the underground spring family rather than becoming Nura's property"
+    },
+    "warnings": [],
+    "craft_rule": "Power-asymmetric relationships are strongest when safety or costly kindness precedes power, and the ending repairs consent/personhood rather than rewarding coercion."
+  },
+  "spatial_status": {
+    "score_0_to_1": 0.805,
+    "opening_status_spaces": [
+      "gate",
+      "kneel"
+    ],
+    "ending_status_spaces": [],
+    "inversion_signals": [
+      "by choice",
+      "home",
+      "open"
+    ],
+    "power_terms": [
+      "public"
+    ],
+    "vulnerable_terms": [
+      "child",
+      "creature",
+      "vulnerable"
+    ],
+    "warnings": [
+      "ending does not visibly return to or transform the status space"
+    ],
+    "doctrine": "Define who is physically forced below/outside/inside power, then make the ending transform that space into chosen access, sanctuary, or belonging. Inspired by floor/table and cage/sanctuary evidence."
+  }
+}

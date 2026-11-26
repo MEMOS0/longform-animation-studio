@@ -1,0 +1,34 @@
+# local media and bulky copyrighted source artifacts
+data/raw/media/
+data/raw/thumbnails/
+data/raw/piped/*.ttml
+data/raw/piped/*.piped.json
+data/processed/media/
+data/processed/media_batch/
+data/processed/casebooks/
+!data/processed/casebooks/vYNuKn6GiaE.casebook.json
+!data/processed/casebooks/vYNuKn6GiaE.casebook.md
+!data/processed/casebooks/a2pydTch_Tg.casebook.json
+!data/processed/casebooks/a2pydTch_Tg.casebook.md
+*.mp4
+*.mp4.part
+*.wav
+*.chunks/
+
+# generated caches
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+
+# local logs
+*.log
+
+# copyrighted composite image artifacts
+data/processed/*.jpg
+data/raw/piped/download_results.jsonl
+data/raw/comments/
+
+# cross-channel raw media metadata/subtitles are local evidence inputs
+data/raw/piped_crosschannel/
+data/raw/piped_ironcrest/

@@ -1,0 +1,69 @@
+{
+  "premise_id": "stormglass-heir-v1",
+  "title_candidates": [
+    "She Was Too Weak to Ring the Storm Bell… Until Her Glass Dragon Made Her the STORM QUEEN",
+    "They Burned the Bellmaker’s Mute Daughter… Unaware Her Glass Dragon Guarded the Queen’s Heir",
+    "The Guild Called Her a Curse… Then Her Dragon Child Revealed the Stolen Storm Crown"
+  ],
+  "logline": "A mute bellmaker’s daughter, blamed for a deadly storm, secretly raises a fragile glass dragon whose sound can calm lightning; when it bonds to the missing storm heir, she must expose the guild that silenced her mother before the city drowns.",
+  "audience_promise": "A vulnerable girl protects a fragile magical creature, survives public injustice, uncovers stolen royalty, and earns queenly recognition plus communal belonging.",
+  "emotional_engine": {
+    "wound": "She became mute after watching her mother die ringing the storm bell.",
+    "want": "Prove she is not a curse and protect the dragon hatchling.",
+    "need": "Accept that care, listening, and courage make her powerful.",
+    "injustice": "The guild brands her a curse and steals her mother’s bell design.",
+    "protective_counterforce": "A fragile glass dragon answers her tapping and calms lightning.",
+    "belonging_payoff": "The city, heir, dragon, and queen publicly accept her as guardian of a new covenant.",
+    "secret_or_power_asymmetry": "The dragon is the living key to the storm throne and recognizes the hidden heir.",
+    "cost_of_failure": "Ringing the bell exposes her; refusing it lets the city drown."
+  },
+  "protagonist": {
+    "identity": "A mute young bellmaker’s daughter in a floating storm-city.",
+    "vulnerability": "Public shame, speechlessness, poverty, and grief.",
+    "capability": "Bell harmonics, acute listening, and rhythm language.",
+    "agency_first_action": "She hides the dragon and steals back her mother’s bell hammer.",
+    "transformation": "She becomes a public guardian who defines power as protection."
+  },
+  "opening_event": {
+    "first_10_seconds": "A glass egg cracks in her hands during lightning; the dragonet inside reflects her terrified face.",
+    "first_60_seconds": "Soldiers bang on the door while she hides the creature inside a hollow bell and hears herself accused.",
+    "first_5_minutes": "The dragonet copies her tapping, calms lightning, and an orphan witness chooses to help rather than expose her.",
+    "dramatic_question": "Can a girl the city calls cursed protect the creature that proves she is its only hope?"
+  },
+  "theme_lane": {
+    "mythic_creature": "Glass/storm dragon using sonic memory and lightning calming.",
+    "family_or_heir_hook": "The dragon recognizes the fugitive heir child; found-family protection drives escalation.",
+    "romance_hook": "Secondary slow-trust bond with a disgraced bellwright.",
+    "modern_power_hook": ""
+  },
+  "failure_intelligence": {
+    "evaluation_path": "examples/stormglass-heir-failure-evaluation.md",
+    "nearest_failures": [
+      "BeX5LHLqOEI",
+      "rtTbEcFdnZQ",
+      "KsxgWoFS50I"
+    ],
+    "mitigations": [
+      "Pay the dragon promise in the first five minutes and the heir consequence before minute fifteen.",
+      "Render lore through glass memory, bell behavior, child/creature action, or visible cost.",
+      "End in justice plus communal belonging, not banishment alone.",
+      "Every humiliation creates a clue, ally, capability, or irreversible choice."
+    ],
+    "counterexamples_checked": [
+      "vYNuKn6GiaE",
+      "gkRXl9lDReY",
+      "BeX5LHLqOEI"
+    ]
+  },
+  "packaging": {
+    "thumbnail_single_read": "A frightened mute girl shelters a glowing cracked-glass dragon beneath a storm crown silhouette.",
+    "curiosity_gap": "How can a girl too weak to ring the bell control the storm throne?",
+    "visual_before_after": "Ash-covered workshop girl to crowned storm guardian with dragon wings spread.",
+    "title_thumbnail_mismatch_risk": "Queen language must be visually justified by storm-crown imagery and an actual transformation."
+  },
+  "evidence_boundaries": [
+    "Archive patterns are observational, not causal.",
+    "No CTR/retention data is available.",
+    "Execution remains unvalidated until storyboard/media QA."
+  ]
+}

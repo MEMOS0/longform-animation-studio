@@ -1,0 +1,86 @@
+{
+  "video_id": "zViG3A8YHZo",
+  "probe": {
+    "duration": 2411.787029,
+    "size": 148038140,
+    "width": 640,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "C:\\Users\\Administrator\\cross_analysis\\zViG3A8YHZo\\contact_sheets\\contact_000.jpg",
+    "C:\\Users\\Administrator\\cross_analysis\\zViG3A8YHZo\\contact_sheets\\contact_001.jpg",
+    "C:\\Users\\Administrator\\cross_analysis\\zViG3A8YHZo\\contact_sheets\\contact_002.jpg",
+    "C:\\Users\\Administrator\\cross_analysis\\zViG3A8YHZo\\contact_sheets\\contact_003.jpg",
+    "C:\\Users\\Administrator\\cross_analysis\\zViG3A8YHZo\\contact_sheets\\contact_004.jpg",
+    "C:\\Users\\Administrator\\cross_analysis\\zViG3A8YHZo\\contact_sheets\\contact_005.jpg",
+    "C:\\Users\\Administrator\\cross_analysis\\zViG3A8YHZo\\contact_sheets\\contact_006.jpg"
+  ],
+  "seconds_indexed": 2412,
+  "shot_count": 74,
+  "shot_length_mean_seconds": 32.5945945945946,
+  "shot_length_median_seconds": 10.0,
+  "shot_length_p90_seconds": 83.50000000000001,
+  "visual_motion_mean": 0.14736502158130463,
+  "visual_brightness_mean": 0.3871614600966092,
+  "dialogue_cues": 977,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 27.84,
+      "text": "We pretend we're poor."
+    },
+    "first_power_or_identity_language": {
+      "time": 62.08,
+      "text": "God,"
+    },
+    "first_care_or_belonging_language": {
+      "time": 5.32,
+      "text": "You're part of this family now."
+    },
+    "dialogue_words_per_minute": [
+      131,
+      123,
+      105,
+      100,
+      88,
+      112,
+      139,
+      117,
+      171,
+      134,
+      146,
+      120,
+      94,
+      132,
+      140,
+      61,
+      101,
+      127,
+      191,
+      157,
+      106,
+      133,
+      67,
+      76,
+      82,
+      74,
+      169,
+      130,
+      182,
+      112,
+      138,
+      89,
+      147,
+      137,
+      125,
+      98,
+      82,
+      126,
+      87,
+      79,
+      23
+    ],
+    "cue_count": 977
+  }
+}

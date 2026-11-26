@@ -1,0 +1,52 @@
+{
+  "video_id": "OUSir7cJs_Y",
+  "probe": {
+    "duration": 737.976599,
+    "size": 28603029,
+    "width": 640,
+    "height": 274,
+    "fps": "24/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "C:\\Users\\Administrator\\korean_analysis\\OUSir7cJs_Y\\contact_sheets\\contact_000.jpg",
+    "C:\\Users\\Administrator\\korean_analysis\\OUSir7cJs_Y\\contact_sheets\\contact_001.jpg"
+  ],
+  "seconds_indexed": 738,
+  "shot_count": 24,
+  "shot_length_mean_seconds": 30.75,
+  "shot_length_median_seconds": 16.5,
+  "shot_length_p90_seconds": 54.099999999999994,
+  "visual_motion_mean": 0.06413365504499348,
+  "visual_brightness_mean": 0.371232968159128,
+  "dialogue_cues": 161,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 446.45799999999997,
+      "text": "His father apparently killed himselfwhile a suspect in a murder case."
+    },
+    "first_power_or_identity_language": {
+      "time": 34.625,
+      "text": "Did I sound like I was asking?"
+    },
+    "first_care_or_belonging_language": {
+      "time": 37.625,
+      "text": "I'm sorry, sir."
+    },
+    "dialogue_words_per_minute": [
+      60,
+      119,
+      60,
+      42,
+      49,
+      115,
+      36,
+      60,
+      73,
+      84,
+      135,
+      113
+    ],
+    "cue_count": 161
+  }
+}

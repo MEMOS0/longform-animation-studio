@@ -1,0 +1,277 @@
+{
+  "Epic AI Films": {
+    "n": 81,
+    "format": {
+      "standalone_film": {
+        "n": 58,
+        "median_views_per_day": 1047.1,
+        "max_views_per_day": 291912.0
+      },
+      "series_or_part": {
+        "n": 16,
+        "median_views_per_day": 619.1,
+        "max_views_per_day": 8727.4
+      },
+      "short_or_teaser": {
+        "n": 7,
+        "median_views_per_day": 18.8,
+        "max_views_per_day": 186.4
+      }
+    },
+    "genre": {
+      "fantasy_creature": {
+        "n": 25,
+        "median_views_per_day": 4483.9,
+        "max_views_per_day": 291912.0
+      },
+      "science_fiction": {
+        "n": 18,
+        "median_views_per_day": 728.9,
+        "max_views_per_day": 57971.3
+      },
+      "general_emotional_drama": {
+        "n": 36,
+        "median_views_per_day": 188.4,
+        "max_views_per_day": 17503.7
+      },
+      "monster_horror": {
+        "n": 2,
+        "median_views_per_day": 922.4,
+        "max_views_per_day": 1735.7
+      }
+    },
+    "duration_bucket": {
+      "60_120m": {
+        "n": 27,
+        "median_views_per_day": 5291.8,
+        "max_views_per_day": 291912.0
+      },
+      "over_130m": {
+        "n": 1,
+        "median_views_per_day": 88432.9,
+        "max_views_per_day": 88432.9
+      },
+      "15_30m": {
+        "n": 26,
+        "median_views_per_day": 562.4,
+        "max_views_per_day": 9110.9
+      },
+      "30_60m": {
+        "n": 5,
+        "median_views_per_day": 1857.3,
+        "max_views_per_day": 4483.9
+      },
+      "under_15m": {
+        "n": 22,
+        "median_views_per_day": 31.5,
+        "max_views_per_day": 439.1
+      }
+    }
+  },
+  "FablePop": {
+    "n": 9,
+    "format": {
+      "standalone_film": {
+        "n": 8,
+        "median_views_per_day": 29971.8,
+        "max_views_per_day": 227398.9
+      },
+      "series_or_part": {
+        "n": 1,
+        "median_views_per_day": 7801.5,
+        "max_views_per_day": 7801.5
+      }
+    },
+    "genre": {
+      "general_emotional_drama": {
+        "n": 5,
+        "median_views_per_day": 109122.5,
+        "max_views_per_day": 227398.9
+      },
+      "romantic_family_drama": {
+        "n": 3,
+        "median_views_per_day": 27509.0,
+        "max_views_per_day": 32434.7
+      },
+      "fantasy_creature": {
+        "n": 1,
+        "median_views_per_day": 7801.5,
+        "max_views_per_day": 7801.5
+      }
+    },
+    "duration_bucket": {
+      "30_60m": {
+        "n": 5,
+        "median_views_per_day": 109122.5,
+        "max_views_per_day": 227398.9
+      },
+      "15_30m": {
+        "n": 2,
+        "median_views_per_day": 20118.1,
+        "max_views_per_day": 32434.7
+      },
+      "under_15m": {
+        "n": 2,
+        "median_views_per_day": 2708.3,
+        "max_views_per_day": 3665.1
+      }
+    }
+  },
+  "Ironcrest Pictures": {
+    "n": 4,
+    "format": {
+      "standalone_film": {
+        "n": 4,
+        "median_views_per_day": 93545.1,
+        "max_views_per_day": 461629.0
+      }
+    },
+    "genre": {
+      "fantasy_creature": {
+        "n": 2,
+        "median_views_per_day": 303455.8,
+        "max_views_per_day": 461629.0
+      },
+      "science_fiction": {
+        "n": 1,
+        "median_views_per_day": 41807.6,
+        "max_views_per_day": 41807.6
+      },
+      "general_emotional_drama": {
+        "n": 1,
+        "median_views_per_day": 27730.0,
+        "max_views_per_day": 27730.0
+      }
+    },
+    "duration_bucket": {
+      "30_60m": {
+        "n": 3,
+        "median_views_per_day": 145282.6,
+        "max_views_per_day": 461629.0
+      },
+      "15_30m": {
+        "n": 1,
+        "median_views_per_day": 27730.0,
+        "max_views_per_day": 27730.0
+      }
+    }
+  },
+  "RIFTBORN CINEMA": {
+    "n": 11,
+    "format": {
+      "series_or_part": {
+        "n": 9,
+        "median_views_per_day": 5274.4,
+        "max_views_per_day": 170549.2
+      },
+      "standalone_film": {
+        "n": 2,
+        "median_views_per_day": 4613.3,
+        "max_views_per_day": 6615.6
+      }
+    },
+    "genre": {
+      "monster_horror": {
+        "n": 2,
+        "median_views_per_day": 88582.4,
+        "max_views_per_day": 170549.2
+      },
+      "general_emotional_drama": {
+        "n": 4,
+        "median_views_per_day": 3942.7,
+        "max_views_per_day": 41058.1
+      },
+      "fantasy_creature": {
+        "n": 5,
+        "median_views_per_day": 3189.9,
+        "max_views_per_day": 9380.2
+      }
+    },
+    "duration_bucket": {
+      "over_130m": {
+        "n": 1,
+        "median_views_per_day": 170549.2,
+        "max_views_per_day": 170549.2
+      },
+      "15_30m": {
+        "n": 6,
+        "median_views_per_day": 6543.1,
+        "max_views_per_day": 41058.1
+      },
+      "under_15m": {
+        "n": 4,
+        "median_views_per_day": 2209.9,
+        "max_views_per_day": 3189.9
+      }
+    }
+  },
+  "The Next Show | Stories That Feel Like Movies": {
+    "n": 56,
+    "format": {
+      "standalone_film": {
+        "n": 43,
+        "median_views_per_day": 3058.7,
+        "max_views_per_day": 315831.8
+      },
+      "series_or_part": {
+        "n": 8,
+        "median_views_per_day": 26758.6,
+        "max_views_per_day": 184651.6
+      },
+      "short_or_teaser": {
+        "n": 5,
+        "median_views_per_day": 17.7,
+        "max_views_per_day": 52.5
+      }
+    },
+    "genre": {
+      "general_emotional_drama": {
+        "n": 43,
+        "median_views_per_day": 3058.7,
+        "max_views_per_day": 315831.8
+      },
+      "fantasy_creature": {
+        "n": 5,
+        "median_views_per_day": 15364.4,
+        "max_views_per_day": 72641.3
+      },
+      "monster_horror": {
+        "n": 6,
+        "median_views_per_day": 2731.9,
+        "max_views_per_day": 30217.2
+      },
+      "science_fiction": {
+        "n": 2,
+        "median_views_per_day": 11528.1,
+        "max_views_per_day": 22704.3
+      }
+    },
+    "duration_bucket": {
+      "30_60m": {
+        "n": 14,
+        "median_views_per_day": 24326.0,
+        "max_views_per_day": 315831.8
+      },
+      "60_120m": {
+        "n": 4,
+        "median_views_per_day": 49270.9,
+        "max_views_per_day": 129384.5
+      },
+      "15_30m": {
+        "n": 8,
+        "median_views_per_day": 8513.4,
+        "max_views_per_day": 35613.1
+      },
+      "over_130m": {
+        "n": 1,
+        "median_views_per_day": 30812.9,
+        "max_views_per_day": 30812.9
+      },
+      "under_15m": {
+        "n": 29,
+        "median_views_per_day": 162.5,
+        "max_views_per_day": 5440.5
+      }
+    }
+  }
+}

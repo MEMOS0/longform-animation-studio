@@ -1,0 +1,40 @@
+{
+  "scene_id": "S01",
+  "time_range": "0-3",
+  "objective": "protect the dragon during opening pressure 1",
+  "conflict": "guild/social pressure threatens exposure 1",
+  "power_position_start": "hunted and powerless",
+  "power_position_end": "hunted but more capable",
+  "turn": "protection creates a new clue or alliance 1",
+  "protagonist_decision": "she acts despite fear 1",
+  "subtext": "care contradicts the public curse narrative",
+  "visual_action": {
+    "first_image": "glass dragon closeup in danger 1",
+    "face_reaction": "her fear visibly becomes resolve",
+    "vertical_composition": "face and creature central, threat at edge",
+    "final_image": "new clue or ally visible 1"
+  },
+  "dialogue_design": {
+    "function": "pressure and subtext",
+    "subtext_rule": "threats imply more than they explain",
+    "max_exposition_sentences": 1,
+    "key_lines": [
+      "The bells never lie. Only the people who own them do."
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "dialogue remains intelligible",
+    "music_function": "withhold full theme until protection succeeds",
+    "silence_or_negative_space": "drop crowd noise before choice",
+    "motif": "three tapped notes answered by glass resonance"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on consequential action",
+    "exit_hook": "new threat or revelation 1"
+  },
+  "failure_checks": [
+    "lore is dramatized through object/action",
+    "humiliation produces capability, alliance, or decision",
+    "dialogue clarity outranks music"
+  ]
+}

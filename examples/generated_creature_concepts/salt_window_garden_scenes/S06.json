@@ -1,0 +1,43 @@
+{
+  "scene_id": "S06",
+  "time_range": "24.4-31.1 minutes",
+  "objective": "agency reconstruction and first proof chain movement",
+  "conflict": "the protagonist refuses passive rescue and begins reading the evidence through established competence",
+  "power_position_start": "no longer passive but still outmatched",
+  "power_position_end": "active investigator with an accountable alliance",
+  "turn": "the protagonist refuses passive rescue and begins reading the evidence through established competence",
+  "protagonist_decision": "accept only accountable help/advance while retaining control of the proof",
+  "subtext": "Agency means accepting help without surrendering authorship of the proof.",
+  "visual_action": {
+    "first_image": "investigation through craft locations, work surfaces, and overlooked service spaces",
+    "face_reaction": "the protagonist's expression shifts from despair toward controlled attention when the turn lands",
+    "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+    "final_image": "blue glass salt vial visible after the power shift, its meaning altered by: maker marks, timing, witness geometry, or object behavior contradict the frame-up"
+  },
+  "dialogue_design": {
+    "function": "make choices, objections, and proof implications audible rather than explaining theme",
+    "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "Help me, but do not take the proof from my hands.",
+      "I choose the risk because silence costs more.",
+      "The object remembers what power overlooked."
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
+    "silence_or_negative_space": "quiet concentrated labor, location-specific reverberation, and proof-object texture",
+    "motif": "a restrained tactile sound motif"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on the immediate consequence of the previous turn: the care network and minor witnesses become an active proof community",
+    "exit_hook": "which small detail will collapse the antagonist's timeline?"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, capability, or relational obligation?",
+    "Is the object/space doing narrative work rather than decorative worldbuilding?",
+    "Is public or institutional pressure expressed through visible behavior rather than exposition?",
+    "Does the protagonist retain agency instead of being rescued into passivity?"
+  ]
+}

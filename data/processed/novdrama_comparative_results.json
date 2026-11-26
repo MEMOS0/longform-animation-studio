@@ -1,0 +1,1935 @@
+{
+  "method_limits": [
+    "Public views cannot separate CTR, retention, impressions, browse/search/suggested traffic, or external embedding.",
+    "Views-per-day controls age crudely but does not remove recommendation compounding or premiere spikes.",
+    "Theme labels are title-visible demand signals, not proof that the film itself executes that theme well.",
+    "n=48 and many feature cells are small; permutation tests are exploratory and not multiple-comparison-corrected causal evidence."
+  ],
+  "leaderboard": [
+    {
+      "rank": 1,
+      "video_id": "v03oauoFveU",
+      "title": "They Rejected a Worthless Half-Blood Girl… Unaware She Was the DRAGON KING'S SECRET DAUGHTER#AIStory",
+      "views": 1848800,
+      "published": "2026-11-11",
+      "age_days": 16,
+      "views_per_day": 115550.0,
+      "duration_minutes": 80.5,
+      "cohort": "outperforming"
+    },
+    {
+      "rank": 2,
+      "video_id": "vYNuKn6GiaE",
+      "title": "Her Fiancé Left Her to Die… Now She's Back With Dragon Babies and the DRAGON KING!#AIStory",
+      "views": 4366384,
+      "published": "2026-10-19",
+      "age_days": 39,
+      "views_per_day": 111958.6,
+      "duration_minutes": 114.4,
+      "cohort": "outperforming"
+    },
+    {
+      "rank": 3,
+      "video_id": "ULJ7-z1zm6M",
+      "title": "They Abandoned a Poor Orphan Girl… Now She's the DRAGON CLAN'S BELOVED PRINCESS!#AIStory",
+      "views": 1126469,
+      "published": "2026-11-16",
+      "age_days": 11,
+      "views_per_day": 102406.3,
+      "duration_minutes": 79.4,
+      "cohort": "outperforming"
+    },
+    {
+      "rank": 4,
+      "video_id": "jRa3_WZYDdY",
+      "title": "My Pet Is the WOLF KING?! He Was Cursed Into a Puppy… Until TRUE LOVE Changed Everything!#AIStory",
+      "views": 661346,
+      "published": "2026-11-13",
+      "age_days": 14,
+      "views_per_day": 47239.0,
+      "duration_minutes": 101.3,
+      "cohort": "outperforming"
+    },
+    {
+      "rank": 5,
+      "video_id": "gkRXl9lDReY",
+      "title": "He Dumped His Pregnant Wife for a Rich Woman… Her Unborn Baby Made Her a MILLIONAIRE!#AIStory",
+      "views": 1237473,
+      "published": "2026-10-30",
+      "age_days": 28,
+      "views_per_day": 44195.5,
+      "duration_minutes": 67.5,
+      "cohort": "outperforming"
+    },
+    {
+      "rank": 6,
+      "video_id": "u1RoW_083xM",
+      "title": "They Left Someone in the Snow… Never Knowing Their Father Was the VAMPIRE KING! #AIStory",
+      "views": 1558511,
+      "published": "2026-10-11",
+      "age_days": 47,
+      "views_per_day": 33159.8,
+      "duration_minutes": 71.5,
+      "cohort": "outperforming"
+    },
+    {
+      "rank": 7,
+      "video_id": "l5ICXoEffPs",
+      "title": "She Married a Stranger to Please His Daughter… Unaware He Was the Most Feared MAFIA BOSS!#AIStory",
+      "views": 1044756,
+      "published": "2026-10-26",
+      "age_days": 32,
+      "views_per_day": 32648.6,
+      "duration_minutes": 87.3,
+      "cohort": "outperforming"
+    },
+    {
+      "rank": 8,
+      "video_id": "0ofXaXWcfi0",
+      "title": "His Family Tried to Kill Him… Until a MERMAID Saved Him and Changed His Fate Forever!#AIStory",
+      "views": 234842,
+      "published": "2026-11-19",
+      "age_days": 8,
+      "views_per_day": 29355.2,
+      "duration_minutes": 82.9,
+      "cohort": "outperforming"
+    },
+    {
+      "rank": 9,
+      "video_id": "lcOFpT0B5Uc",
+      "title": "They Humiliated a Poor Human Girl… Unaware She Had Given Birth to the WEREWOLF KING'S HEIR!#AIStory",
+      "views": 716489,
+      "published": "2026-10-20",
+      "age_days": 38,
+      "views_per_day": 18855.0,
+      "duration_minutes": 72.5,
+      "cohort": "outperforming"
+    },
+    {
+      "rank": 10,
+      "video_id": "j3U5JsLvbLg",
+      "title": "Her Family Sacrificed Her to the Ocean… Now She's the SEA GOD'S QUEEN They Can Never Touch!#AIStory",
+      "views": 53763,
+      "published": "2026-11-24",
+      "age_days": 3,
+      "views_per_day": 17921.0,
+      "duration_minutes": 77.7,
+      "cohort": "outperforming"
+    },
+    {
+      "rank": 11,
+      "video_id": "OJ5ylArJ03s",
+      "title": "He Humiliated His New Intern… Unaware She Was the Girl He'd Searched 5 Years for—and Had His TWINS!",
+      "views": 407711,
+      "published": "2026-11-04",
+      "age_days": 23,
+      "views_per_day": 17726.6,
+      "duration_minutes": 83.2,
+      "cohort": "outperforming"
+    },
+    {
+      "rank": 12,
+      "video_id": "0FSCS0YOgss",
+      "title": "She Raised His Son Alone for 6 Years… Never Knowing the Father Was the SEA KING!#AIStory",
+      "views": 396291,
+      "published": "2026-11-01",
+      "age_days": 26,
+      "views_per_day": 15242.0,
+      "duration_minutes": 82.6,
+      "cohort": "outperforming"
+    },
+    {
+      "rank": 13,
+      "video_id": "drPacL5iQCM",
+      "title": "They Humiliated a Poor Vampire Girl… Unaware She Was the VAMPIRE KING'S TRUE LOVE!#AIStory",
+      "views": 256825,
+      "published": "2026-10-29",
+      "age_days": 29,
+      "views_per_day": 8856.0,
+      "duration_minutes": 60.2,
+      "cohort": "middle"
+    },
+    {
+      "rank": 14,
+      "video_id": "tc6oJwky_WU",
+      "title": "She Was Cursed Into a Kitten… Now the Ruthless MAFIA BOSS Is Obsessed With Her!#AIStory",
+      "views": 166369,
+      "published": "2026-11-04",
+      "age_days": 23,
+      "views_per_day": 7233.4,
+      "duration_minutes": 103.7,
+      "cohort": "middle"
+    },
+    {
+      "rank": 15,
+      "video_id": "Ze0hWktEfRI",
+      "title": "She Dumped Her Taxi Driver Husband for a Rich Man… Not Knowing He Was a BILLIONAIRE HEIR!#AIStory",
+      "views": 345527,
+      "published": "2026-10-10",
+      "age_days": 48,
+      "views_per_day": 7198.5,
+      "duration_minutes": 122.2,
+      "cohort": "middle"
+    },
+    {
+      "rank": 16,
+      "video_id": "hkLzQLMAVFA",
+      "title": "He Abandoned Her After 5 Years for Another Woman… Now She's Marrying the DRAGON PRINCE!#AIStory",
+      "views": 243520,
+      "published": "2026-10-24",
+      "age_days": 34,
+      "views_per_day": 7162.4,
+      "duration_minutes": 63.3,
+      "cohort": "middle"
+    },
+    {
+      "rank": 17,
+      "video_id": "n6LouxFviD4",
+      "title": "They Betrayed Her and Left Her to Die… Now She Rules With the SSS-RANK DRAGON KING!#AIStory",
+      "views": 292348,
+      "published": "2026-10-17",
+      "age_days": 41,
+      "views_per_day": 7130.4,
+      "duration_minutes": 90.6,
+      "cohort": "middle"
+    },
+    {
+      "rank": 18,
+      "video_id": "artArYLREYE",
+      "title": "I Reborn as an 8-Year-Old on the FLIGHT THAT CRASHED… and Only I Know We Are About to Die!",
+      "views": 700555,
+      "published": "2026-08-13",
+      "age_days": 106,
+      "views_per_day": 6609.0,
+      "duration_minutes": 83.0,
+      "cohort": "middle"
+    },
+    {
+      "rank": 19,
+      "video_id": "si1q6wv6aMI",
+      "title": "They Abandoned Their Sacred-Blood Girl… Now She's the VAMPIRE QUEEN They Can Never Have!#AIStory",
+      "views": 246383,
+      "published": "2026-10-14",
+      "age_days": 44,
+      "views_per_day": 5599.6,
+      "duration_minutes": 96.3,
+      "cohort": "middle"
+    },
+    {
+      "rank": 20,
+      "video_id": "52KYUHmiRoI",
+      "title": "They Mocked Her for Having No Wolf and Married Her Off…But She's the Last WHITE WOLF HEIRESS#AIStory",
+      "views": 218786,
+      "published": "2026-10-16",
+      "age_days": 42,
+      "views_per_day": 5209.2,
+      "duration_minutes": 66.1,
+      "cohort": "middle"
+    },
+    {
+      "rank": 21,
+      "video_id": "3C4Chi9g1d8",
+      "title": "She Saved a Little Wolf… Unaware He Was the WOLF KING'S SON—and She'd Become His QUEEN!#AIStory",
+      "views": 30121,
+      "published": "2026-11-20",
+      "age_days": 7,
+      "views_per_day": 4303.0,
+      "duration_minutes": 83.0,
+      "cohort": "middle"
+    },
+    {
+      "rank": 22,
+      "video_id": "bI0uHNOVewI",
+      "title": "A Magical Puppy Turned Into a Girl to Find Her BILLIONAIRE CEO Dad… Just to Save Her Mom!#AIStory",
+      "views": 10724,
+      "published": "2026-11-23",
+      "age_days": 4,
+      "views_per_day": 2681.0,
+      "duration_minutes": 72.7,
+      "cohort": "middle"
+    },
+    {
+      "rank": 23,
+      "video_id": "kVQsGriiVR8",
+      "title": "They Sent Her to Die… She Returned as the BLOOD MOON REAPER to Take Back Everything! #AIStory",
+      "views": 71484,
+      "published": "2026-10-28",
+      "age_days": 30,
+      "views_per_day": 2382.8,
+      "duration_minutes": 89.2,
+      "cohort": "middle"
+    },
+    {
+      "rank": 24,
+      "video_id": "VhZV-djnfiA",
+      "title": "She Became a Nanny to Save Her Daughter… Unaware Her Boss Was Her Child’s Father—the DRAGON LORD!",
+      "views": 65137,
+      "published": "2026-10-28",
+      "age_days": 30,
+      "views_per_day": 2171.2,
+      "duration_minutes": 60.2,
+      "cohort": "middle"
+    },
+    {
+      "rank": 25,
+      "video_id": "NnPZaWSGYuc",
+      "title": "They Called Her a Cursed Witch… Now She's the DRAGON QUEEN He Would Burn the World For!#AIStory",
+      "views": 8288,
+      "published": "2026-11-23",
+      "age_days": 4,
+      "views_per_day": 2072.0,
+      "duration_minutes": 112.6,
+      "cohort": "middle"
+    },
+    {
+      "rank": 26,
+      "video_id": "gNTsEqML20s",
+      "title": "Her Husband Betrayed Her for Being Fat… Now She's the EMPRESS He Can Never Have!#AIStory",
+      "views": 55742,
+      "published": "2026-10-30",
+      "age_days": 28,
+      "views_per_day": 1990.8,
+      "duration_minutes": 90.5,
+      "cohort": "middle"
+    },
+    {
+      "rank": 27,
+      "video_id": "2KpIP8wvyrE",
+      "title": "They Humiliated Her as a Worthless Omega… Unaware She Was the ALPHA KING'S FATED MATE!#AIStory",
+      "views": 59616,
+      "published": "2026-10-21",
+      "age_days": 37,
+      "views_per_day": 1611.2,
+      "duration_minutes": 65.7,
+      "cohort": "middle"
+    },
+    {
+      "rank": 28,
+      "video_id": "jW-gZtvP9Oo",
+      "title": "They Broke Their Promise and Chose Another Girl…Then Lost Everything When Her GENIUS Was Revealed!",
+      "views": 28186,
+      "published": "2026-11-05",
+      "age_days": 22,
+      "views_per_day": 1281.2,
+      "duration_minutes": 56.2,
+      "cohort": "middle"
+    },
+    {
+      "rank": 29,
+      "video_id": "LEc_nNFoi-g",
+      "title": "He Dumped Her for Being Fat and Chose Her Best Friend… Now She's the DEMON EMPRESS!#AIStory",
+      "views": 15087,
+      "published": "2026-11-15",
+      "age_days": 12,
+      "views_per_day": 1257.2,
+      "duration_minutes": 93.1,
+      "cohort": "middle"
+    },
+    {
+      "rank": 30,
+      "video_id": "sepLtaMfPcA",
+      "title": "Her Sister Stole the ARCHANGEL… So She Married a Slave Who Was Secretly the FALLEN ANGEL KING!",
+      "views": 9615,
+      "published": "2026-11-19",
+      "age_days": 8,
+      "views_per_day": 1201.9,
+      "duration_minutes": 85.1,
+      "cohort": "middle"
+    },
+    {
+      "rank": 31,
+      "video_id": "3Q0fcr3EoMs",
+      "title": "They Mocked the Little Mermaid… Not Knowing She Was the LOST PRINCESS of the Ocean!#AIStory",
+      "views": 51654,
+      "published": "2026-10-10",
+      "age_days": 48,
+      "views_per_day": 1076.1,
+      "duration_minutes": 62.9,
+      "cohort": "middle"
+    },
+    {
+      "rank": 32,
+      "video_id": "egF-DbUQp2k",
+      "title": "They Hunted a Human Girl for Her Blood… Unaware She Was the VAMPIRE KING'S ONLY SALVATION!#AIStory",
+      "views": 20050,
+      "published": "2026-11-06",
+      "age_days": 21,
+      "views_per_day": 954.8,
+      "duration_minutes": 63.7,
+      "cohort": "middle"
+    },
+    {
+      "rank": 33,
+      "video_id": "_I5I1l7DP3E",
+      "title": "She Sold Weapons Through a Magic Mirror… Then Accidentally Stole the WOLF KING'S FIRST KISS!#AIStory",
+      "views": 8213,
+      "published": "2026-11-18",
+      "age_days": 9,
+      "views_per_day": 912.6,
+      "duration_minutes": 95.8,
+      "cohort": "middle"
+    },
+    {
+      "rank": 34,
+      "video_id": "1OXQh5I8m6Y",
+      "title": "She Could Talk to Animals… Then the MAFIA GODFATHER Took Her In and Made Her His PRINCESS!#AIStory",
+      "views": 16549,
+      "published": "2026-11-07",
+      "age_days": 20,
+      "views_per_day": 827.5,
+      "duration_minutes": 59.2,
+      "cohort": "middle"
+    },
+    {
+      "rank": 35,
+      "video_id": "rtTbEcFdnZQ",
+      "title": "They Mocked Her for Marrying a Poor Beggar… Unaware He Was the SUPREME DRAGON KING!#AIStory",
+      "views": 10559,
+      "published": "2026-11-13",
+      "age_days": 14,
+      "views_per_day": 754.2,
+      "duration_minutes": 69.3,
+      "cohort": "middle"
+    },
+    {
+      "rank": 36,
+      "video_id": "KsxgWoFS50I",
+      "title": "They Betrayed the Girl Who Sacrificed Everything… Now She's the GODDESS They Can Never Have!#AIStory",
+      "views": 5992,
+      "published": "2026-11-18",
+      "age_days": 9,
+      "views_per_day": 665.8,
+      "duration_minutes": 118.5,
+      "cohort": "underperforming"
+    },
+    {
+      "rank": 37,
+      "video_id": "BeX5LHLqOEI",
+      "title": "He Abandoned His Rabbit Mate for Another Woman… Now She's Back With the PANTHER KING'S TWINS#AIStory",
+      "views": 14532,
+      "published": "2026-11-02",
+      "age_days": 25,
+      "views_per_day": 581.3,
+      "duration_minutes": 59.3,
+      "cohort": "underperforming"
+    },
+    {
+      "rank": 38,
+      "video_id": "a2pydTch_Tg",
+      "title": "He Kept His Distance for 3 Years… Until Someone Shared Their ONLY Piece of Bread! #AIStory",
+      "views": 22742,
+      "published": "2026-10-12",
+      "age_days": 46,
+      "views_per_day": 494.4,
+      "duration_minutes": 56.6,
+      "cohort": "underperforming"
+    },
+    {
+      "rank": 39,
+      "video_id": "xJUN_KOCnME",
+      "title": "He Was Seconds Away From His 8th Championship… Until His Own Family Betrayed Him!",
+      "views": 51764,
+      "published": "2026-08-14",
+      "age_days": 105,
+      "views_per_day": 493.0,
+      "duration_minutes": 74.9,
+      "cohort": "underperforming"
+    },
+    {
+      "rank": 40,
+      "video_id": "pkYxdUwG-pg",
+      "title": "His Fiancée Betrayed Him After His Championship... So He Walked Away and Became Unstoppable!",
+      "views": 57045,
+      "published": "2026-08-01",
+      "age_days": 118,
+      "views_per_day": 483.4,
+      "duration_minutes": 48.2,
+      "cohort": "underperforming"
+    },
+    {
+      "rank": 41,
+      "video_id": "bi02sfZAcuA",
+      "title": "Her Fiancé Drugged Her to Betray Her… But She Ended Up With His Powerful ALPHA FATHER!#AIStory",
+      "views": 14370,
+      "published": "2026-10-23",
+      "age_days": 35,
+      "views_per_day": 410.6,
+      "duration_minutes": 77.5,
+      "cohort": "underperforming"
+    },
+    {
+      "rank": 42,
+      "video_id": "1UB6EA3L7I4",
+      "title": "They Stole Everything From Her, So She Became the SUPREME WOLF EMPRESS to Take It All Back! #AIStory",
+      "views": 9852,
+      "published": "2026-11-02",
+      "age_days": 25,
+      "views_per_day": 394.1,
+      "duration_minutes": 62.3,
+      "cohort": "underperforming"
+    },
+    {
+      "rank": 43,
+      "video_id": "ajI2gST2O5I",
+      "title": "Her Adopted Sister Stole Her Fiancé and Left Her to Die… But She Got a SECOND CHANCE!#AIStory",
+      "views": 8212,
+      "published": "2026-11-06",
+      "age_days": 21,
+      "views_per_day": 391.0,
+      "duration_minutes": 79.3,
+      "cohort": "underperforming"
+    },
+    {
+      "rank": 44,
+      "video_id": "YKL3A2gFHbQ",
+      "title": "She Caught Her Boyfriend Cheating… So She Married Her Bodyguard, Unaware He Was a MAFIA BOSS#AIStory",
+      "views": 15569,
+      "published": "2026-10-15",
+      "age_days": 43,
+      "views_per_day": 362.1,
+      "duration_minutes": 97.9,
+      "cohort": "underperforming"
+    },
+    {
+      "rank": 45,
+      "video_id": "ZhAYjMLvlqc",
+      "title": "She Left the DRAGON PRINCE… When He Found Her Again, She Had Two Children by Her Side!#AIStory",
+      "views": 10363,
+      "published": "2026-10-27",
+      "age_days": 31,
+      "views_per_day": 334.3,
+      "duration_minutes": 56.1,
+      "cohort": "underperforming"
+    },
+    {
+      "rank": 46,
+      "video_id": "UDjV1_6TgFs",
+      "title": "He Betrayed the Girl With the Sacred Tree Heart… Now She's the QUEEN He Can Never Have!#AIStory",
+      "views": 10632,
+      "published": "2026-10-24",
+      "age_days": 34,
+      "views_per_day": 312.7,
+      "duration_minutes": 75.9,
+      "cohort": "underperforming"
+    },
+    {
+      "rank": 47,
+      "video_id": "Prsthri0ktA",
+      "title": "\"He’s Just a Dirty Hybrid!\" — Until the Wolf Ancestor Awakened to Destroy the Nobles!",
+      "views": 16082,
+      "published": "2026-07-28",
+      "age_days": 122,
+      "views_per_day": 131.8,
+      "duration_minutes": 95.7,
+      "cohort": "underperforming"
+    },
+    {
+      "rank": 48,
+      "video_id": "u9acebqxR-8",
+      "title": "They Called Her a Curse… Unaware She Had the Divine Power to Bring the Forest Back to Life!#AIStory",
+      "views": 2463,
+      "published": null,
+      "age_days": null,
+      "views_per_day": null,
+      "duration_minutes": 52.0,
+      "cohort": null
+    }
+  ],
+  "binary_feature_comparisons": [
+    {
+      "feature": "dragon",
+      "present_n": 9,
+      "absent_n": 38,
+      "present_mean_log_vpd": 8.925704069751422,
+      "absent_mean_log_vpd": 7.847260039173488,
+      "mean_difference_log_vpd": 1.0784440305779341,
+      "permutation_p": 0.11397720455908818,
+      "top_present_examples": [
+        {
+          "id": "v03oauoFveU",
+          "vpd": 115550.0,
+          "title": "They Rejected a Worthless Half-Blood Girl… Unaware She Was the DRAGON KING'S SECRET DAUGHTER#AIStory"
+        },
+        {
+          "id": "vYNuKn6GiaE",
+          "vpd": 111958.6,
+          "title": "Her Fiancé Left Her to Die… Now She's Back With Dragon Babies and the DRAGON KING!#AIStory"
+        },
+        {
+          "id": "ULJ7-z1zm6M",
+          "vpd": 102406.3,
+          "title": "They Abandoned a Poor Orphan Girl… Now She's the DRAGON CLAN'S BELOVED PRINCESS!#AIStory"
+        },
+        {
+          "id": "hkLzQLMAVFA",
+          "vpd": 7162.4,
+          "title": "He Abandoned Her After 5 Years for Another Woman… Now She's Marrying the DRAGON PRINCE!#AIStory"
+        },
+        {
+          "id": "n6LouxFviD4",
+          "vpd": 7130.4,
+          "title": "They Betrayed Her and Left Her to Die… Now She Rules With the SSS-RANK DRAGON KING!#AIStory"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "ZhAYjMLvlqc",
+          "vpd": 334.3,
+          "title": "She Left the DRAGON PRINCE… When He Found Her Again, She Had Two Children by Her Side!#AIStory"
+        },
+        {
+          "id": "rtTbEcFdnZQ",
+          "vpd": 754.2,
+          "title": "They Mocked Her for Marrying a Poor Beggar… Unaware He Was the SUPREME DRAGON KING!#AIStory"
+        },
+        {
+          "id": "NnPZaWSGYuc",
+          "vpd": 2072.0,
+          "title": "They Called Her a Cursed Witch… Now She's the DRAGON QUEEN He Would Burn the World For!#AIStory"
+        },
+        {
+          "id": "VhZV-djnfiA",
+          "vpd": 2171.2,
+          "title": "She Became a Nanny to Save Her Daughter… Unaware Her Boss Was Her Child’s Father—the DRAGON LORD!"
+        },
+        {
+          "id": "n6LouxFviD4",
+          "vpd": 7130.4,
+          "title": "They Betrayed Her and Left Her to Die… Now She Rules With the SSS-RANK DRAGON KING!#AIStory"
+        }
+      ]
+    },
+    {
+      "feature": "wolf_werewolf",
+      "present_n": 9,
+      "absent_n": 38,
+      "present_mean_log_vpd": 7.6248935926369885,
+      "absent_mean_log_vpd": 8.155346731121643,
+      "mean_difference_log_vpd": -0.5304531384846545,
+      "permutation_p": 0.4361127774445111,
+      "top_present_examples": [
+        {
+          "id": "jRa3_WZYDdY",
+          "vpd": 47239.0,
+          "title": "My Pet Is the WOLF KING?! He Was Cursed Into a Puppy… Until TRUE LOVE Changed Everything!#AIStory"
+        },
+        {
+          "id": "lcOFpT0B5Uc",
+          "vpd": 18855.0,
+          "title": "They Humiliated a Poor Human Girl… Unaware She Had Given Birth to the WEREWOLF KING'S HEIR!#AIStory"
+        },
+        {
+          "id": "52KYUHmiRoI",
+          "vpd": 5209.2,
+          "title": "They Mocked Her for Having No Wolf and Married Her Off…But She's the Last WHITE WOLF HEIRESS#AIStory"
+        },
+        {
+          "id": "3C4Chi9g1d8",
+          "vpd": 4303.0,
+          "title": "She Saved a Little Wolf… Unaware He Was the WOLF KING'S SON—and She'd Become His QUEEN!#AIStory"
+        },
+        {
+          "id": "2KpIP8wvyrE",
+          "vpd": 1611.2,
+          "title": "They Humiliated Her as a Worthless Omega… Unaware She Was the ALPHA KING'S FATED MATE!#AIStory"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "Prsthri0ktA",
+          "vpd": 131.8,
+          "title": "\"He’s Just a Dirty Hybrid!\" — Until the Wolf Ancestor Awakened to Destroy the Nobles!"
+        },
+        {
+          "id": "1UB6EA3L7I4",
+          "vpd": 394.1,
+          "title": "They Stole Everything From Her, So She Became the SUPREME WOLF EMPRESS to Take It All Back! #AIStory"
+        },
+        {
+          "id": "bi02sfZAcuA",
+          "vpd": 410.6,
+          "title": "Her Fiancé Drugged Her to Betray Her… But She Ended Up With His Powerful ALPHA FATHER!#AIStory"
+        },
+        {
+          "id": "_I5I1l7DP3E",
+          "vpd": 912.6,
+          "title": "She Sold Weapons Through a Magic Mirror… Then Accidentally Stole the WOLF KING'S FIRST KISS!#AIStory"
+        },
+        {
+          "id": "2KpIP8wvyrE",
+          "vpd": 1611.2,
+          "title": "They Humiliated Her as a Worthless Omega… Unaware She Was the ALPHA KING'S FATED MATE!#AIStory"
+        }
+      ]
+    },
+    {
+      "feature": "vampire",
+      "present_n": 5,
+      "absent_n": 42,
+      "present_mean_log_vpd": 8.55353653585287,
+      "absent_mean_log_vpd": 7.994274653264071,
+      "mean_difference_log_vpd": 0.5592618825887996,
+      "permutation_p": 0.5242951409718056,
+      "top_present_examples": [
+        {
+          "id": "u1RoW_083xM",
+          "vpd": 33159.8,
+          "title": "They Left Someone in the Snow… Never Knowing Their Father Was the VAMPIRE KING! #AIStory"
+        },
+        {
+          "id": "drPacL5iQCM",
+          "vpd": 8856.0,
+          "title": "They Humiliated a Poor Vampire Girl… Unaware She Was the VAMPIRE KING'S TRUE LOVE!#AIStory"
+        },
+        {
+          "id": "si1q6wv6aMI",
+          "vpd": 5599.6,
+          "title": "They Abandoned Their Sacred-Blood Girl… Now She's the VAMPIRE QUEEN They Can Never Have!#AIStory"
+        },
+        {
+          "id": "kVQsGriiVR8",
+          "vpd": 2382.8,
+          "title": "They Sent Her to Die… She Returned as the BLOOD MOON REAPER to Take Back Everything! #AIStory"
+        },
+        {
+          "id": "egF-DbUQp2k",
+          "vpd": 954.8,
+          "title": "They Hunted a Human Girl for Her Blood… Unaware She Was the VAMPIRE KING'S ONLY SALVATION!#AIStory"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "egF-DbUQp2k",
+          "vpd": 954.8,
+          "title": "They Hunted a Human Girl for Her Blood… Unaware She Was the VAMPIRE KING'S ONLY SALVATION!#AIStory"
+        },
+        {
+          "id": "kVQsGriiVR8",
+          "vpd": 2382.8,
+          "title": "They Sent Her to Die… She Returned as the BLOOD MOON REAPER to Take Back Everything! #AIStory"
+        },
+        {
+          "id": "si1q6wv6aMI",
+          "vpd": 5599.6,
+          "title": "They Abandoned Their Sacred-Blood Girl… Now She's the VAMPIRE QUEEN They Can Never Have!#AIStory"
+        },
+        {
+          "id": "drPacL5iQCM",
+          "vpd": 8856.0,
+          "title": "They Humiliated a Poor Vampire Girl… Unaware She Was the VAMPIRE KING'S TRUE LOVE!#AIStory"
+        },
+        {
+          "id": "u1RoW_083xM",
+          "vpd": 33159.8,
+          "title": "They Left Someone in the Snow… Never Knowing Their Father Was the VAMPIRE KING! #AIStory"
+        }
+      ]
+    },
+    {
+      "feature": "sea_mermaid",
+      "present_n": 4,
+      "absent_n": 43,
+      "present_mean_log_vpd": 9.17374222695294,
+      "absent_mean_log_vpd": 7.949587190896363,
+      "mean_difference_log_vpd": 1.2241550360565778,
+      "permutation_p": 0.20495900819836033,
+      "top_present_examples": [
+        {
+          "id": "0ofXaXWcfi0",
+          "vpd": 29355.2,
+          "title": "His Family Tried to Kill Him… Until a MERMAID Saved Him and Changed His Fate Forever!#AIStory"
+        },
+        {
+          "id": "j3U5JsLvbLg",
+          "vpd": 17921.0,
+          "title": "Her Family Sacrificed Her to the Ocean… Now She's the SEA GOD'S QUEEN They Can Never Touch!#AIStory"
+        },
+        {
+          "id": "0FSCS0YOgss",
+          "vpd": 15242.0,
+          "title": "She Raised His Son Alone for 6 Years… Never Knowing the Father Was the SEA KING!#AIStory"
+        },
+        {
+          "id": "3Q0fcr3EoMs",
+          "vpd": 1076.1,
+          "title": "They Mocked the Little Mermaid… Not Knowing She Was the LOST PRINCESS of the Ocean!#AIStory"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "3Q0fcr3EoMs",
+          "vpd": 1076.1,
+          "title": "They Mocked the Little Mermaid… Not Knowing She Was the LOST PRINCESS of the Ocean!#AIStory"
+        },
+        {
+          "id": "0FSCS0YOgss",
+          "vpd": 15242.0,
+          "title": "She Raised His Son Alone for 6 Years… Never Knowing the Father Was the SEA KING!#AIStory"
+        },
+        {
+          "id": "j3U5JsLvbLg",
+          "vpd": 17921.0,
+          "title": "Her Family Sacrificed Her to the Ocean… Now She's the SEA GOD'S QUEEN They Can Never Touch!#AIStory"
+        },
+        {
+          "id": "0ofXaXWcfi0",
+          "vpd": 29355.2,
+          "title": "His Family Tried to Kill Him… Until a MERMAID Saved Him and Changed His Fate Forever!#AIStory"
+        }
+      ]
+    },
+    {
+      "feature": "angel_demon",
+      "present_n": 2,
+      "absent_n": 45,
+      "present_mean_log_vpd": 7.114973474666517,
+      "absent_mean_log_vpd": 8.095494914822718,
+      "mean_difference_log_vpd": -0.9805214401562008,
+      "permutation_p": 0.47690461907618475,
+      "top_present_examples": [
+        {
+          "id": "LEc_nNFoi-g",
+          "vpd": 1257.2,
+          "title": "He Dumped Her for Being Fat and Chose Her Best Friend… Now She's the DEMON EMPRESS!#AIStory"
+        },
+        {
+          "id": "sepLtaMfPcA",
+          "vpd": 1201.9,
+          "title": "Her Sister Stole the ARCHANGEL… So She Married a Slave Who Was Secretly the FALLEN ANGEL KING!"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "sepLtaMfPcA",
+          "vpd": 1201.9,
+          "title": "Her Sister Stole the ARCHANGEL… So She Married a Slave Who Was Secretly the FALLEN ANGEL KING!"
+        },
+        {
+          "id": "LEc_nNFoi-g",
+          "vpd": 1257.2,
+          "title": "He Dumped Her for Being Fat and Chose Her Best Friend… Now She's the DEMON EMPRESS!#AIStory"
+        }
+      ]
+    },
+    {
+      "feature": "animal_child",
+      "present_n": 4,
+      "absent_n": 43,
+      "present_mean_log_vpd": 8.477718319802667,
+      "absent_mean_log_vpd": 8.01433360086383,
+      "mean_difference_log_vpd": 0.4633847189388369,
+      "permutation_p": 0.6312737452509498,
+      "top_present_examples": [
+        {
+          "id": "jRa3_WZYDdY",
+          "vpd": 47239.0,
+          "title": "My Pet Is the WOLF KING?! He Was Cursed Into a Puppy… Until TRUE LOVE Changed Everything!#AIStory"
+        },
+        {
+          "id": "tc6oJwky_WU",
+          "vpd": 7233.4,
+          "title": "She Was Cursed Into a Kitten… Now the Ruthless MAFIA BOSS Is Obsessed With Her!#AIStory"
+        },
+        {
+          "id": "bI0uHNOVewI",
+          "vpd": 2681.0,
+          "title": "A Magical Puppy Turned Into a Girl to Find Her BILLIONAIRE CEO Dad… Just to Save Her Mom!#AIStory"
+        },
+        {
+          "id": "BeX5LHLqOEI",
+          "vpd": 581.3,
+          "title": "He Abandoned His Rabbit Mate for Another Woman… Now She's Back With the PANTHER KING'S TWINS#AIStory"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "BeX5LHLqOEI",
+          "vpd": 581.3,
+          "title": "He Abandoned His Rabbit Mate for Another Woman… Now She's Back With the PANTHER KING'S TWINS#AIStory"
+        },
+        {
+          "id": "bI0uHNOVewI",
+          "vpd": 2681.0,
+          "title": "A Magical Puppy Turned Into a Girl to Find Her BILLIONAIRE CEO Dad… Just to Save Her Mom!#AIStory"
+        },
+        {
+          "id": "tc6oJwky_WU",
+          "vpd": 7233.4,
+          "title": "She Was Cursed Into a Kitten… Now the Ruthless MAFIA BOSS Is Obsessed With Her!#AIStory"
+        },
+        {
+          "id": "jRa3_WZYDdY",
+          "vpd": 47239.0,
+          "title": "My Pet Is the WOLF KING?! He Was Cursed Into a Puppy… Until TRUE LOVE Changed Everything!#AIStory"
+        }
+      ]
+    },
+    {
+      "feature": "modern_wealth_power",
+      "present_n": 8,
+      "absent_n": 39,
+      "present_mean_log_vpd": 7.631990427115966,
+      "absent_mean_log_vpd": 8.140289607677632,
+      "mean_difference_log_vpd": -0.5082991805616661,
+      "permutation_p": 0.4741051789642072,
+      "top_present_examples": [
+        {
+          "id": "l5ICXoEffPs",
+          "vpd": 32648.6,
+          "title": "She Married a Stranger to Please His Daughter… Unaware He Was the Most Feared MAFIA BOSS!#AIStory"
+        },
+        {
+          "id": "tc6oJwky_WU",
+          "vpd": 7233.4,
+          "title": "She Was Cursed Into a Kitten… Now the Ruthless MAFIA BOSS Is Obsessed With Her!#AIStory"
+        },
+        {
+          "id": "Ze0hWktEfRI",
+          "vpd": 7198.5,
+          "title": "She Dumped Her Taxi Driver Husband for a Rich Man… Not Knowing He Was a BILLIONAIRE HEIR!#AIStory"
+        },
+        {
+          "id": "bI0uHNOVewI",
+          "vpd": 2681.0,
+          "title": "A Magical Puppy Turned Into a Girl to Find Her BILLIONAIRE CEO Dad… Just to Save Her Mom!#AIStory"
+        },
+        {
+          "id": "1OXQh5I8m6Y",
+          "vpd": 827.5,
+          "title": "She Could Talk to Animals… Then the MAFIA GODFATHER Took Her In and Made Her His PRINCESS!#AIStory"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "YKL3A2gFHbQ",
+          "vpd": 362.1,
+          "title": "She Caught Her Boyfriend Cheating… So She Married Her Bodyguard, Unaware He Was a MAFIA BOSS#AIStory"
+        },
+        {
+          "id": "pkYxdUwG-pg",
+          "vpd": 483.4,
+          "title": "His Fiancée Betrayed Him After His Championship... So He Walked Away and Became Unstoppable!"
+        },
+        {
+          "id": "xJUN_KOCnME",
+          "vpd": 493.0,
+          "title": "He Was Seconds Away From His 8th Championship… Until His Own Family Betrayed Him!"
+        },
+        {
+          "id": "1OXQh5I8m6Y",
+          "vpd": 827.5,
+          "title": "She Could Talk to Animals… Then the MAFIA GODFATHER Took Her In and Made Her His PRINCESS!#AIStory"
+        },
+        {
+          "id": "bI0uHNOVewI",
+          "vpd": 2681.0,
+          "title": "A Magical Puppy Turned Into a Girl to Find Her BILLIONAIRE CEO Dad… Just to Save Her Mom!#AIStory"
+        }
+      ]
+    },
+    {
+      "feature": "royalty_status",
+      "present_n": 28,
+      "absent_n": 19,
+      "present_mean_log_vpd": 8.227414833557782,
+      "absent_mean_log_vpd": 7.797873830354601,
+      "mean_difference_log_vpd": 0.4295410032031812,
+      "permutation_p": 0.4215156968606279,
+      "top_present_examples": [
+        {
+          "id": "v03oauoFveU",
+          "vpd": 115550.0,
+          "title": "They Rejected a Worthless Half-Blood Girl… Unaware She Was the DRAGON KING'S SECRET DAUGHTER#AIStory"
+        },
+        {
+          "id": "vYNuKn6GiaE",
+          "vpd": 111958.6,
+          "title": "Her Fiancé Left Her to Die… Now She's Back With Dragon Babies and the DRAGON KING!#AIStory"
+        },
+        {
+          "id": "ULJ7-z1zm6M",
+          "vpd": 102406.3,
+          "title": "They Abandoned a Poor Orphan Girl… Now She's the DRAGON CLAN'S BELOVED PRINCESS!#AIStory"
+        },
+        {
+          "id": "jRa3_WZYDdY",
+          "vpd": 47239.0,
+          "title": "My Pet Is the WOLF KING?! He Was Cursed Into a Puppy… Until TRUE LOVE Changed Everything!#AIStory"
+        },
+        {
+          "id": "u1RoW_083xM",
+          "vpd": 33159.8,
+          "title": "They Left Someone in the Snow… Never Knowing Their Father Was the VAMPIRE KING! #AIStory"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "UDjV1_6TgFs",
+          "vpd": 312.7,
+          "title": "He Betrayed the Girl With the Sacred Tree Heart… Now She's the QUEEN He Can Never Have!#AIStory"
+        },
+        {
+          "id": "ZhAYjMLvlqc",
+          "vpd": 334.3,
+          "title": "She Left the DRAGON PRINCE… When He Found Her Again, She Had Two Children by Her Side!#AIStory"
+        },
+        {
+          "id": "1UB6EA3L7I4",
+          "vpd": 394.1,
+          "title": "They Stole Everything From Her, So She Became the SUPREME WOLF EMPRESS to Take It All Back! #AIStory"
+        },
+        {
+          "id": "BeX5LHLqOEI",
+          "vpd": 581.3,
+          "title": "He Abandoned His Rabbit Mate for Another Woman… Now She's Back With the PANTHER KING'S TWINS#AIStory"
+        },
+        {
+          "id": "KsxgWoFS50I",
+          "vpd": 665.8,
+          "title": "They Betrayed the Girl Who Sacrificed Everything… Now She's the GODDESS They Can Never Have!#AIStory"
+        }
+      ]
+    },
+    {
+      "feature": "romance_mate",
+      "present_n": 17,
+      "absent_n": 30,
+      "present_mean_log_vpd": 8.2866215576817,
+      "absent_mean_log_vpd": 7.921821721192215,
+      "mean_difference_log_vpd": 0.36479983648948533,
+      "permutation_p": 0.5164967006598681,
+      "top_present_examples": [
+        {
+          "id": "vYNuKn6GiaE",
+          "vpd": 111958.6,
+          "title": "Her Fiancé Left Her to Die… Now She's Back With Dragon Babies and the DRAGON KING!#AIStory"
+        },
+        {
+          "id": "ULJ7-z1zm6M",
+          "vpd": 102406.3,
+          "title": "They Abandoned a Poor Orphan Girl… Now She's the DRAGON CLAN'S BELOVED PRINCESS!#AIStory"
+        },
+        {
+          "id": "jRa3_WZYDdY",
+          "vpd": 47239.0,
+          "title": "My Pet Is the WOLF KING?! He Was Cursed Into a Puppy… Until TRUE LOVE Changed Everything!#AIStory"
+        },
+        {
+          "id": "gkRXl9lDReY",
+          "vpd": 44195.5,
+          "title": "He Dumped His Pregnant Wife for a Rich Woman… Her Unborn Baby Made Her a MILLIONAIRE!#AIStory"
+        },
+        {
+          "id": "l5ICXoEffPs",
+          "vpd": 32648.6,
+          "title": "She Married a Stranger to Please His Daughter… Unaware He Was the Most Feared MAFIA BOSS!#AIStory"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "YKL3A2gFHbQ",
+          "vpd": 362.1,
+          "title": "She Caught Her Boyfriend Cheating… So She Married Her Bodyguard, Unaware He Was a MAFIA BOSS#AIStory"
+        },
+        {
+          "id": "ajI2gST2O5I",
+          "vpd": 391.0,
+          "title": "Her Adopted Sister Stole Her Fiancé and Left Her to Die… But She Got a SECOND CHANCE!#AIStory"
+        },
+        {
+          "id": "bi02sfZAcuA",
+          "vpd": 410.6,
+          "title": "Her Fiancé Drugged Her to Betray Her… But She Ended Up With His Powerful ALPHA FATHER!#AIStory"
+        },
+        {
+          "id": "pkYxdUwG-pg",
+          "vpd": 483.4,
+          "title": "His Fiancée Betrayed Him After His Championship... So He Walked Away and Became Unstoppable!"
+        },
+        {
+          "id": "BeX5LHLqOEI",
+          "vpd": 581.3,
+          "title": "He Abandoned His Rabbit Mate for Another Woman… Now She's Back With the PANTHER KING'S TWINS#AIStory"
+        }
+      ]
+    },
+    {
+      "feature": "revenge_retribution",
+      "present_n": 8,
+      "absent_n": 39,
+      "present_mean_log_vpd": 7.2617346535512,
+      "absent_mean_log_vpd": 8.216239509947327,
+      "mean_difference_log_vpd": -0.9545048563961265,
+      "permutation_p": 0.1775644871025795,
+      "top_present_examples": [
+        {
+          "id": "j3U5JsLvbLg",
+          "vpd": 17921.0,
+          "title": "Her Family Sacrificed Her to the Ocean… Now She's the SEA GOD'S QUEEN They Can Never Touch!#AIStory"
+        },
+        {
+          "id": "si1q6wv6aMI",
+          "vpd": 5599.6,
+          "title": "They Abandoned Their Sacred-Blood Girl… Now She's the VAMPIRE QUEEN They Can Never Have!#AIStory"
+        },
+        {
+          "id": "kVQsGriiVR8",
+          "vpd": 2382.8,
+          "title": "They Sent Her to Die… She Returned as the BLOOD MOON REAPER to Take Back Everything! #AIStory"
+        },
+        {
+          "id": "gNTsEqML20s",
+          "vpd": 1990.8,
+          "title": "Her Husband Betrayed Her for Being Fat… Now She's the EMPRESS He Can Never Have!#AIStory"
+        },
+        {
+          "id": "jW-gZtvP9Oo",
+          "vpd": 1281.2,
+          "title": "They Broke Their Promise and Chose Another Girl…Then Lost Everything When Her GENIUS Was Revealed!"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "Prsthri0ktA",
+          "vpd": 131.8,
+          "title": "\"He’s Just a Dirty Hybrid!\" — Until the Wolf Ancestor Awakened to Destroy the Nobles!"
+        },
+        {
+          "id": "UDjV1_6TgFs",
+          "vpd": 312.7,
+          "title": "He Betrayed the Girl With the Sacred Tree Heart… Now She's the QUEEN He Can Never Have!#AIStory"
+        },
+        {
+          "id": "KsxgWoFS50I",
+          "vpd": 665.8,
+          "title": "They Betrayed the Girl Who Sacrificed Everything… Now She's the GODDESS They Can Never Have!#AIStory"
+        },
+        {
+          "id": "jW-gZtvP9Oo",
+          "vpd": 1281.2,
+          "title": "They Broke Their Promise and Chose Another Girl…Then Lost Everything When Her GENIUS Was Revealed!"
+        },
+        {
+          "id": "gNTsEqML20s",
+          "vpd": 1990.8,
+          "title": "Her Husband Betrayed Her for Being Fat… Now She's the EMPRESS He Can Never Have!#AIStory"
+        }
+      ]
+    },
+    {
+      "feature": "family_child",
+      "present_n": 12,
+      "absent_n": 35,
+      "present_mean_log_vpd": 9.17074245941182,
+      "absent_mean_log_vpd": 7.6708088172403865,
+      "mean_difference_log_vpd": 1.4999336421714329,
+      "permutation_p": 0.013197360527894421,
+      "top_present_examples": [
+        {
+          "id": "v03oauoFveU",
+          "vpd": 115550.0,
+          "title": "They Rejected a Worthless Half-Blood Girl… Unaware She Was the DRAGON KING'S SECRET DAUGHTER#AIStory"
+        },
+        {
+          "id": "vYNuKn6GiaE",
+          "vpd": 111958.6,
+          "title": "Her Fiancé Left Her to Die… Now She's Back With Dragon Babies and the DRAGON KING!#AIStory"
+        },
+        {
+          "id": "gkRXl9lDReY",
+          "vpd": 44195.5,
+          "title": "He Dumped His Pregnant Wife for a Rich Woman… Her Unborn Baby Made Her a MILLIONAIRE!#AIStory"
+        },
+        {
+          "id": "l5ICXoEffPs",
+          "vpd": 32648.6,
+          "title": "She Married a Stranger to Please His Daughter… Unaware He Was the Most Feared MAFIA BOSS!#AIStory"
+        },
+        {
+          "id": "0ofXaXWcfi0",
+          "vpd": 29355.2,
+          "title": "His Family Tried to Kill Him… Until a MERMAID Saved Him and Changed His Fate Forever!#AIStory"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "ZhAYjMLvlqc",
+          "vpd": 334.3,
+          "title": "She Left the DRAGON PRINCE… When He Found Her Again, She Had Two Children by Her Side!#AIStory"
+        },
+        {
+          "id": "xJUN_KOCnME",
+          "vpd": 493.0,
+          "title": "He Was Seconds Away From His 8th Championship… Until His Own Family Betrayed Him!"
+        },
+        {
+          "id": "VhZV-djnfiA",
+          "vpd": 2171.2,
+          "title": "She Became a Nanny to Save Her Daughter… Unaware Her Boss Was Her Child’s Father—the DRAGON LORD!"
+        },
+        {
+          "id": "bI0uHNOVewI",
+          "vpd": 2681.0,
+          "title": "A Magical Puppy Turned Into a Girl to Find Her BILLIONAIRE CEO Dad… Just to Save Her Mom!#AIStory"
+        },
+        {
+          "id": "3C4Chi9g1d8",
+          "vpd": 4303.0,
+          "title": "She Saved a Little Wolf… Unaware He Was the WOLF KING'S SON—and She'd Become His QUEEN!#AIStory"
+        }
+      ]
+    },
+    {
+      "feature": "rebirth_second_chance",
+      "present_n": 6,
+      "absent_n": 41,
+      "present_mean_log_vpd": 7.752684593286736,
+      "absent_mean_log_vpd": 8.097831964795974,
+      "mean_difference_log_vpd": -0.34514737150923835,
+      "permutation_p": 0.6596680663867227,
+      "top_present_examples": [
+        {
+          "id": "vYNuKn6GiaE",
+          "vpd": 111958.6,
+          "title": "Her Fiancé Left Her to Die… Now She's Back With Dragon Babies and the DRAGON KING!#AIStory"
+        },
+        {
+          "id": "artArYLREYE",
+          "vpd": 6609.0,
+          "title": "I Reborn as an 8-Year-Old on the FLIGHT THAT CRASHED… and Only I Know We Are About to Die!"
+        },
+        {
+          "id": "kVQsGriiVR8",
+          "vpd": 2382.8,
+          "title": "They Sent Her to Die… She Returned as the BLOOD MOON REAPER to Take Back Everything! #AIStory"
+        },
+        {
+          "id": "BeX5LHLqOEI",
+          "vpd": 581.3,
+          "title": "He Abandoned His Rabbit Mate for Another Woman… Now She's Back With the PANTHER KING'S TWINS#AIStory"
+        },
+        {
+          "id": "1UB6EA3L7I4",
+          "vpd": 394.1,
+          "title": "They Stole Everything From Her, So She Became the SUPREME WOLF EMPRESS to Take It All Back! #AIStory"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "ajI2gST2O5I",
+          "vpd": 391.0,
+          "title": "Her Adopted Sister Stole Her Fiancé and Left Her to Die… But She Got a SECOND CHANCE!#AIStory"
+        },
+        {
+          "id": "1UB6EA3L7I4",
+          "vpd": 394.1,
+          "title": "They Stole Everything From Her, So She Became the SUPREME WOLF EMPRESS to Take It All Back! #AIStory"
+        },
+        {
+          "id": "BeX5LHLqOEI",
+          "vpd": 581.3,
+          "title": "He Abandoned His Rabbit Mate for Another Woman… Now She's Back With the PANTHER KING'S TWINS#AIStory"
+        },
+        {
+          "id": "kVQsGriiVR8",
+          "vpd": 2382.8,
+          "title": "They Sent Her to Die… She Returned as the BLOOD MOON REAPER to Take Back Everything! #AIStory"
+        },
+        {
+          "id": "artArYLREYE",
+          "vpd": 6609.0,
+          "title": "I Reborn as an 8-Year-Old on the FLIGHT THAT CRASHED… and Only I Know We Are About to Die!"
+        }
+      ]
+    },
+    {
+      "feature": "sacred_special_blood",
+      "present_n": 10,
+      "absent_n": 37,
+      "present_mean_log_vpd": 8.267353269567005,
+      "absent_mean_log_vpd": 7.996045551910414,
+      "mean_difference_log_vpd": 0.27130771765659123,
+      "permutation_p": 0.672865426914617,
+      "top_present_examples": [
+        {
+          "id": "v03oauoFveU",
+          "vpd": 115550.0,
+          "title": "They Rejected a Worthless Half-Blood Girl… Unaware She Was the DRAGON KING'S SECRET DAUGHTER#AIStory"
+        },
+        {
+          "id": "jRa3_WZYDdY",
+          "vpd": 47239.0,
+          "title": "My Pet Is the WOLF KING?! He Was Cursed Into a Puppy… Until TRUE LOVE Changed Everything!#AIStory"
+        },
+        {
+          "id": "tc6oJwky_WU",
+          "vpd": 7233.4,
+          "title": "She Was Cursed Into a Kitten… Now the Ruthless MAFIA BOSS Is Obsessed With Her!#AIStory"
+        },
+        {
+          "id": "si1q6wv6aMI",
+          "vpd": 5599.6,
+          "title": "They Abandoned Their Sacred-Blood Girl… Now She's the VAMPIRE QUEEN They Can Never Have!#AIStory"
+        },
+        {
+          "id": "bI0uHNOVewI",
+          "vpd": 2681.0,
+          "title": "A Magical Puppy Turned Into a Girl to Find Her BILLIONAIRE CEO Dad… Just to Save Her Mom!#AIStory"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "UDjV1_6TgFs",
+          "vpd": 312.7,
+          "title": "He Betrayed the Girl With the Sacred Tree Heart… Now She's the QUEEN He Can Never Have!#AIStory"
+        },
+        {
+          "id": "_I5I1l7DP3E",
+          "vpd": 912.6,
+          "title": "She Sold Weapons Through a Magic Mirror… Then Accidentally Stole the WOLF KING'S FIRST KISS!#AIStory"
+        },
+        {
+          "id": "egF-DbUQp2k",
+          "vpd": 954.8,
+          "title": "They Hunted a Human Girl for Her Blood… Unaware She Was the VAMPIRE KING'S ONLY SALVATION!#AIStory"
+        },
+        {
+          "id": "NnPZaWSGYuc",
+          "vpd": 2072.0,
+          "title": "They Called Her a Cursed Witch… Now She's the DRAGON QUEEN He Would Burn the World For!#AIStory"
+        },
+        {
+          "id": "kVQsGriiVR8",
+          "vpd": 2382.8,
+          "title": "They Sent Her to Die… She Returned as the BLOOD MOON REAPER to Take Back Everything! #AIStory"
+        }
+      ]
+    },
+    {
+      "feature": "female_protagonist",
+      "present_n": 29,
+      "absent_n": 18,
+      "present_mean_log_vpd": 8.14096497401246,
+      "absent_mean_log_vpd": 7.913290770555223,
+      "mean_difference_log_vpd": 0.2276742034572372,
+      "permutation_p": 0.6686662667466506,
+      "top_present_examples": [
+        {
+          "id": "v03oauoFveU",
+          "vpd": 115550.0,
+          "title": "They Rejected a Worthless Half-Blood Girl… Unaware She Was the DRAGON KING'S SECRET DAUGHTER#AIStory"
+        },
+        {
+          "id": "vYNuKn6GiaE",
+          "vpd": 111958.6,
+          "title": "Her Fiancé Left Her to Die… Now She's Back With Dragon Babies and the DRAGON KING!#AIStory"
+        },
+        {
+          "id": "ULJ7-z1zm6M",
+          "vpd": 102406.3,
+          "title": "They Abandoned a Poor Orphan Girl… Now She's the DRAGON CLAN'S BELOVED PRINCESS!#AIStory"
+        },
+        {
+          "id": "gkRXl9lDReY",
+          "vpd": 44195.5,
+          "title": "He Dumped His Pregnant Wife for a Rich Woman… Her Unborn Baby Made Her a MILLIONAIRE!#AIStory"
+        },
+        {
+          "id": "lcOFpT0B5Uc",
+          "vpd": 18855.0,
+          "title": "They Humiliated a Poor Human Girl… Unaware She Had Given Birth to the WEREWOLF KING'S HEIR!#AIStory"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "UDjV1_6TgFs",
+          "vpd": 312.7,
+          "title": "He Betrayed the Girl With the Sacred Tree Heart… Now She's the QUEEN He Can Never Have!#AIStory"
+        },
+        {
+          "id": "YKL3A2gFHbQ",
+          "vpd": 362.1,
+          "title": "She Caught Her Boyfriend Cheating… So She Married Her Bodyguard, Unaware He Was a MAFIA BOSS#AIStory"
+        },
+        {
+          "id": "ajI2gST2O5I",
+          "vpd": 391.0,
+          "title": "Her Adopted Sister Stole Her Fiancé and Left Her to Die… But She Got a SECOND CHANCE!#AIStory"
+        },
+        {
+          "id": "1UB6EA3L7I4",
+          "vpd": 394.1,
+          "title": "They Stole Everything From Her, So She Became the SUPREME WOLF EMPRESS to Take It All Back! #AIStory"
+        },
+        {
+          "id": "KsxgWoFS50I",
+          "vpd": 665.8,
+          "title": "They Betrayed the Girl Who Sacrificed Everything… Now She's the GODDESS They Can Never Have!#AIStory"
+        }
+      ]
+    },
+    {
+      "feature": "male_protagonist",
+      "present_n": 13,
+      "absent_n": 34,
+      "present_mean_log_vpd": 8.092899529125807,
+      "absent_mean_log_vpd": 8.038809536403525,
+      "mean_difference_log_vpd": 0.05408999272228243,
+      "permutation_p": 0.9234153169366127,
+      "top_present_examples": [
+        {
+          "id": "jRa3_WZYDdY",
+          "vpd": 47239.0,
+          "title": "My Pet Is the WOLF KING?! He Was Cursed Into a Puppy… Until TRUE LOVE Changed Everything!#AIStory"
+        },
+        {
+          "id": "u1RoW_083xM",
+          "vpd": 33159.8,
+          "title": "They Left Someone in the Snow… Never Knowing Their Father Was the VAMPIRE KING! #AIStory"
+        },
+        {
+          "id": "l5ICXoEffPs",
+          "vpd": 32648.6,
+          "title": "She Married a Stranger to Please His Daughter… Unaware He Was the Most Feared MAFIA BOSS!#AIStory"
+        },
+        {
+          "id": "0ofXaXWcfi0",
+          "vpd": 29355.2,
+          "title": "His Family Tried to Kill Him… Until a MERMAID Saved Him and Changed His Fate Forever!#AIStory"
+        },
+        {
+          "id": "0FSCS0YOgss",
+          "vpd": 15242.0,
+          "title": "She Raised His Son Alone for 6 Years… Never Knowing the Father Was the SEA KING!#AIStory"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "Prsthri0ktA",
+          "vpd": 131.8,
+          "title": "\"He’s Just a Dirty Hybrid!\" — Until the Wolf Ancestor Awakened to Destroy the Nobles!"
+        },
+        {
+          "id": "pkYxdUwG-pg",
+          "vpd": 483.4,
+          "title": "His Fiancée Betrayed Him After His Championship... So He Walked Away and Became Unstoppable!"
+        },
+        {
+          "id": "xJUN_KOCnME",
+          "vpd": 493.0,
+          "title": "He Was Seconds Away From His 8th Championship… Until His Own Family Betrayed Him!"
+        },
+        {
+          "id": "a2pydTch_Tg",
+          "vpd": 494.4,
+          "title": "He Kept His Distance for 3 Years… Until Someone Shared Their ONLY Piece of Bread! #AIStory"
+        },
+        {
+          "id": "BeX5LHLqOEI",
+          "vpd": 581.3,
+          "title": "He Abandoned His Rabbit Mate for Another Woman… Now She's Back With the PANTHER KING'S TWINS#AIStory"
+        }
+      ]
+    },
+    {
+      "feature": "ambiguous_protagonist",
+      "present_n": 5,
+      "absent_n": 42,
+      "present_mean_log_vpd": 7.4463079982717035,
+      "absent_mean_log_vpd": 8.126087574404687,
+      "mean_difference_log_vpd": -0.6797795761329839,
+      "permutation_p": 0.43071385722855426,
+      "top_present_examples": [
+        {
+          "id": "OJ5ylArJ03s",
+          "vpd": 17726.6,
+          "title": "He Humiliated His New Intern… Unaware She Was the Girl He'd Searched 5 Years for—and Had His TWINS!"
+        },
+        {
+          "id": "artArYLREYE",
+          "vpd": 6609.0,
+          "title": "I Reborn as an 8-Year-Old on the FLIGHT THAT CRASHED… and Only I Know We Are About to Die!"
+        },
+        {
+          "id": "_I5I1l7DP3E",
+          "vpd": 912.6,
+          "title": "She Sold Weapons Through a Magic Mirror… Then Accidentally Stole the WOLF KING'S FIRST KISS!#AIStory"
+        },
+        {
+          "id": "bi02sfZAcuA",
+          "vpd": 410.6,
+          "title": "Her Fiancé Drugged Her to Betray Her… But She Ended Up With His Powerful ALPHA FATHER!#AIStory"
+        },
+        {
+          "id": "ZhAYjMLvlqc",
+          "vpd": 334.3,
+          "title": "She Left the DRAGON PRINCE… When He Found Her Again, She Had Two Children by Her Side!#AIStory"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "ZhAYjMLvlqc",
+          "vpd": 334.3,
+          "title": "She Left the DRAGON PRINCE… When He Found Her Again, She Had Two Children by Her Side!#AIStory"
+        },
+        {
+          "id": "bi02sfZAcuA",
+          "vpd": 410.6,
+          "title": "Her Fiancé Drugged Her to Betray Her… But She Ended Up With His Powerful ALPHA FATHER!#AIStory"
+        },
+        {
+          "id": "_I5I1l7DP3E",
+          "vpd": 912.6,
+          "title": "She Sold Weapons Through a Magic Mirror… Then Accidentally Stole the WOLF KING'S FIRST KISS!#AIStory"
+        },
+        {
+          "id": "artArYLREYE",
+          "vpd": 6609.0,
+          "title": "I Reborn as an 8-Year-Old on the FLIGHT THAT CRASHED… and Only I Know We Are About to Die!"
+        },
+        {
+          "id": "OJ5ylArJ03s",
+          "vpd": 17726.6,
+          "title": "He Humiliated His New Intern… Unaware She Was the Girl He'd Searched 5 Years for—and Had His TWINS!"
+        }
+      ]
+    },
+    {
+      "feature": "victimization",
+      "present_n": 38,
+      "absent_n": 9,
+      "present_mean_log_vpd": 8.157610361609022,
+      "absent_mean_log_vpd": 7.615336041690279,
+      "mean_difference_log_vpd": 0.542274319918743,
+      "permutation_p": 0.4261147770445911,
+      "top_present_examples": [
+        {
+          "id": "v03oauoFveU",
+          "vpd": 115550.0,
+          "title": "They Rejected a Worthless Half-Blood Girl… Unaware She Was the DRAGON KING'S SECRET DAUGHTER#AIStory"
+        },
+        {
+          "id": "vYNuKn6GiaE",
+          "vpd": 111958.6,
+          "title": "Her Fiancé Left Her to Die… Now She's Back With Dragon Babies and the DRAGON KING!#AIStory"
+        },
+        {
+          "id": "ULJ7-z1zm6M",
+          "vpd": 102406.3,
+          "title": "They Abandoned a Poor Orphan Girl… Now She's the DRAGON CLAN'S BELOVED PRINCESS!#AIStory"
+        },
+        {
+          "id": "jRa3_WZYDdY",
+          "vpd": 47239.0,
+          "title": "My Pet Is the WOLF KING?! He Was Cursed Into a Puppy… Until TRUE LOVE Changed Everything!#AIStory"
+        },
+        {
+          "id": "gkRXl9lDReY",
+          "vpd": 44195.5,
+          "title": "He Dumped His Pregnant Wife for a Rich Woman… Her Unborn Baby Made Her a MILLIONAIRE!#AIStory"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "Prsthri0ktA",
+          "vpd": 131.8,
+          "title": "\"He’s Just a Dirty Hybrid!\" — Until the Wolf Ancestor Awakened to Destroy the Nobles!"
+        },
+        {
+          "id": "UDjV1_6TgFs",
+          "vpd": 312.7,
+          "title": "He Betrayed the Girl With the Sacred Tree Heart… Now She's the QUEEN He Can Never Have!#AIStory"
+        },
+        {
+          "id": "YKL3A2gFHbQ",
+          "vpd": 362.1,
+          "title": "She Caught Her Boyfriend Cheating… So She Married Her Bodyguard, Unaware He Was a MAFIA BOSS#AIStory"
+        },
+        {
+          "id": "ajI2gST2O5I",
+          "vpd": 391.0,
+          "title": "Her Adopted Sister Stole Her Fiancé and Left Her to Die… But She Got a SECOND CHANCE!#AIStory"
+        },
+        {
+          "id": "1UB6EA3L7I4",
+          "vpd": 394.1,
+          "title": "They Stole Everything From Her, So She Became the SUPREME WOLF EMPRESS to Take It All Back! #AIStory"
+        }
+      ]
+    },
+    {
+      "feature": "hidden_identity_or_secret",
+      "present_n": 18,
+      "absent_n": 29,
+      "present_mean_log_vpd": 8.674688941973775,
+      "absent_mean_log_vpd": 7.668373005545772,
+      "mean_difference_log_vpd": 1.0063159364280034,
+      "permutation_p": 0.0637872425514897,
+      "top_present_examples": [
+        {
+          "id": "v03oauoFveU",
+          "vpd": 115550.0,
+          "title": "They Rejected a Worthless Half-Blood Girl… Unaware She Was the DRAGON KING'S SECRET DAUGHTER#AIStory"
+        },
+        {
+          "id": "jRa3_WZYDdY",
+          "vpd": 47239.0,
+          "title": "My Pet Is the WOLF KING?! He Was Cursed Into a Puppy… Until TRUE LOVE Changed Everything!#AIStory"
+        },
+        {
+          "id": "u1RoW_083xM",
+          "vpd": 33159.8,
+          "title": "They Left Someone in the Snow… Never Knowing Their Father Was the VAMPIRE KING! #AIStory"
+        },
+        {
+          "id": "l5ICXoEffPs",
+          "vpd": 32648.6,
+          "title": "She Married a Stranger to Please His Daughter… Unaware He Was the Most Feared MAFIA BOSS!#AIStory"
+        },
+        {
+          "id": "lcOFpT0B5Uc",
+          "vpd": 18855.0,
+          "title": "They Humiliated a Poor Human Girl… Unaware She Had Given Birth to the WEREWOLF KING'S HEIR!#AIStory"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "YKL3A2gFHbQ",
+          "vpd": 362.1,
+          "title": "She Caught Her Boyfriend Cheating… So She Married Her Bodyguard, Unaware He Was a MAFIA BOSS#AIStory"
+        },
+        {
+          "id": "rtTbEcFdnZQ",
+          "vpd": 754.2,
+          "title": "They Mocked Her for Marrying a Poor Beggar… Unaware He Was the SUPREME DRAGON KING!#AIStory"
+        },
+        {
+          "id": "egF-DbUQp2k",
+          "vpd": 954.8,
+          "title": "They Hunted a Human Girl for Her Blood… Unaware She Was the VAMPIRE KING'S ONLY SALVATION!#AIStory"
+        },
+        {
+          "id": "3Q0fcr3EoMs",
+          "vpd": 1076.1,
+          "title": "They Mocked the Little Mermaid… Not Knowing She Was the LOST PRINCESS of the Ocean!#AIStory"
+        },
+        {
+          "id": "sepLtaMfPcA",
+          "vpd": 1201.9,
+          "title": "Her Sister Stole the ARCHANGEL… So She Married a Slave Who Was Secretly the FALLEN ANGEL KING!"
+        }
+      ]
+    },
+    {
+      "feature": "status_reversal",
+      "present_n": 21,
+      "absent_n": 26,
+      "present_mean_log_vpd": 8.32287835596658,
+      "absent_mean_log_vpd": 7.836414332348352,
+      "mean_difference_log_vpd": 0.48646402361822805,
+      "permutation_p": 0.35432913417316536,
+      "top_present_examples": [
+        {
+          "id": "vYNuKn6GiaE",
+          "vpd": 111958.6,
+          "title": "Her Fiancé Left Her to Die… Now She's Back With Dragon Babies and the DRAGON KING!#AIStory"
+        },
+        {
+          "id": "ULJ7-z1zm6M",
+          "vpd": 102406.3,
+          "title": "They Abandoned a Poor Orphan Girl… Now She's the DRAGON CLAN'S BELOVED PRINCESS!#AIStory"
+        },
+        {
+          "id": "jRa3_WZYDdY",
+          "vpd": 47239.0,
+          "title": "My Pet Is the WOLF KING?! He Was Cursed Into a Puppy… Until TRUE LOVE Changed Everything!#AIStory"
+        },
+        {
+          "id": "gkRXl9lDReY",
+          "vpd": 44195.5,
+          "title": "He Dumped His Pregnant Wife for a Rich Woman… Her Unborn Baby Made Her a MILLIONAIRE!#AIStory"
+        },
+        {
+          "id": "0ofXaXWcfi0",
+          "vpd": 29355.2,
+          "title": "His Family Tried to Kill Him… Until a MERMAID Saved Him and Changed His Fate Forever!#AIStory"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "UDjV1_6TgFs",
+          "vpd": 312.7,
+          "title": "He Betrayed the Girl With the Sacred Tree Heart… Now She's the QUEEN He Can Never Have!#AIStory"
+        },
+        {
+          "id": "1UB6EA3L7I4",
+          "vpd": 394.1,
+          "title": "They Stole Everything From Her, So She Became the SUPREME WOLF EMPRESS to Take It All Back! #AIStory"
+        },
+        {
+          "id": "pkYxdUwG-pg",
+          "vpd": 483.4,
+          "title": "His Fiancée Betrayed Him After His Championship... So He Walked Away and Became Unstoppable!"
+        },
+        {
+          "id": "BeX5LHLqOEI",
+          "vpd": 581.3,
+          "title": "He Abandoned His Rabbit Mate for Another Woman… Now She's Back With the PANTHER KING'S TWINS#AIStory"
+        },
+        {
+          "id": "KsxgWoFS50I",
+          "vpd": 665.8,
+          "title": "They Betrayed the Girl Who Sacrificed Everything… Now She's the GODDESS They Can Never Have!#AIStory"
+        }
+      ]
+    },
+    {
+      "feature": "kinship_rescue",
+      "present_n": 7,
+      "absent_n": 40,
+      "present_mean_log_vpd": 8.07931470717642,
+      "absent_mean_log_vpd": 8.04930037915301,
+      "mean_difference_log_vpd": 0.03001432802341064,
+      "permutation_p": 0.9662067586482703,
+      "top_present_examples": [
+        {
+          "id": "0ofXaXWcfi0",
+          "vpd": 29355.2,
+          "title": "His Family Tried to Kill Him… Until a MERMAID Saved Him and Changed His Fate Forever!#AIStory"
+        },
+        {
+          "id": "0FSCS0YOgss",
+          "vpd": 15242.0,
+          "title": "She Raised His Son Alone for 6 Years… Never Knowing the Father Was the SEA KING!#AIStory"
+        },
+        {
+          "id": "3C4Chi9g1d8",
+          "vpd": 4303.0,
+          "title": "She Saved a Little Wolf… Unaware He Was the WOLF KING'S SON—and She'd Become His QUEEN!#AIStory"
+        },
+        {
+          "id": "bI0uHNOVewI",
+          "vpd": 2681.0,
+          "title": "A Magical Puppy Turned Into a Girl to Find Her BILLIONAIRE CEO Dad… Just to Save Her Mom!#AIStory"
+        },
+        {
+          "id": "VhZV-djnfiA",
+          "vpd": 2171.2,
+          "title": "She Became a Nanny to Save Her Daughter… Unaware Her Boss Was Her Child’s Father—the DRAGON LORD!"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "ajI2gST2O5I",
+          "vpd": 391.0,
+          "title": "Her Adopted Sister Stole Her Fiancé and Left Her to Die… But She Got a SECOND CHANCE!#AIStory"
+        },
+        {
+          "id": "1OXQh5I8m6Y",
+          "vpd": 827.5,
+          "title": "She Could Talk to Animals… Then the MAFIA GODFATHER Took Her In and Made Her His PRINCESS!#AIStory"
+        },
+        {
+          "id": "VhZV-djnfiA",
+          "vpd": 2171.2,
+          "title": "She Became a Nanny to Save Her Daughter… Unaware Her Boss Was Her Child’s Father—the DRAGON LORD!"
+        },
+        {
+          "id": "bI0uHNOVewI",
+          "vpd": 2681.0,
+          "title": "A Magical Puppy Turned Into a Girl to Find Her BILLIONAIRE CEO Dad… Just to Save Her Mom!#AIStory"
+        },
+        {
+          "id": "3C4Chi9g1d8",
+          "vpd": 4303.0,
+          "title": "She Saved a Little Wolf… Unaware He Was the WOLF KING'S SON—and She'd Become His QUEEN!#AIStory"
+        }
+      ]
+    },
+    {
+      "feature": "setup_then_reversal",
+      "present_n": 18,
+      "absent_n": 29,
+      "present_mean_log_vpd": 8.569504422608947,
+      "absent_mean_log_vpd": 7.733659948599804,
+      "mean_difference_log_vpd": 0.8358444740091429,
+      "permutation_p": 0.11517696460707859,
+      "top_present_examples": [
+        {
+          "id": "vYNuKn6GiaE",
+          "vpd": 111958.6,
+          "title": "Her Fiancé Left Her to Die… Now She's Back With Dragon Babies and the DRAGON KING!#AIStory"
+        },
+        {
+          "id": "ULJ7-z1zm6M",
+          "vpd": 102406.3,
+          "title": "They Abandoned a Poor Orphan Girl… Now She's the DRAGON CLAN'S BELOVED PRINCESS!#AIStory"
+        },
+        {
+          "id": "jRa3_WZYDdY",
+          "vpd": 47239.0,
+          "title": "My Pet Is the WOLF KING?! He Was Cursed Into a Puppy… Until TRUE LOVE Changed Everything!#AIStory"
+        },
+        {
+          "id": "gkRXl9lDReY",
+          "vpd": 44195.5,
+          "title": "He Dumped His Pregnant Wife for a Rich Woman… Her Unborn Baby Made Her a MILLIONAIRE!#AIStory"
+        },
+        {
+          "id": "0ofXaXWcfi0",
+          "vpd": 29355.2,
+          "title": "His Family Tried to Kill Him… Until a MERMAID Saved Him and Changed His Fate Forever!#AIStory"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "UDjV1_6TgFs",
+          "vpd": 312.7,
+          "title": "He Betrayed the Girl With the Sacred Tree Heart… Now She's the QUEEN He Can Never Have!#AIStory"
+        },
+        {
+          "id": "BeX5LHLqOEI",
+          "vpd": 581.3,
+          "title": "He Abandoned His Rabbit Mate for Another Woman… Now She's Back With the PANTHER KING'S TWINS#AIStory"
+        },
+        {
+          "id": "KsxgWoFS50I",
+          "vpd": 665.8,
+          "title": "They Betrayed the Girl Who Sacrificed Everything… Now She's the GODDESS They Can Never Have!#AIStory"
+        },
+        {
+          "id": "1OXQh5I8m6Y",
+          "vpd": 827.5,
+          "title": "She Could Talk to Animals… Then the MAFIA GODFATHER Took Her In and Made Her His PRINCESS!#AIStory"
+        },
+        {
+          "id": "LEc_nNFoi-g",
+          "vpd": 1257.2,
+          "title": "He Dumped Her for Being Fat and Chose Her Best Friend… Now She's the DEMON EMPRESS!#AIStory"
+        }
+      ]
+    },
+    {
+      "feature": "exclamation",
+      "present_n": 43,
+      "absent_n": 4,
+      "present_mean_log_vpd": 8.047670528100374,
+      "absent_mean_log_vpd": 8.11934635200982,
+      "mean_difference_log_vpd": -0.07167582390944638,
+      "permutation_p": 0.9368126374725055,
+      "top_present_examples": [
+        {
+          "id": "vYNuKn6GiaE",
+          "vpd": 111958.6,
+          "title": "Her Fiancé Left Her to Die… Now She's Back With Dragon Babies and the DRAGON KING!#AIStory"
+        },
+        {
+          "id": "ULJ7-z1zm6M",
+          "vpd": 102406.3,
+          "title": "They Abandoned a Poor Orphan Girl… Now She's the DRAGON CLAN'S BELOVED PRINCESS!#AIStory"
+        },
+        {
+          "id": "jRa3_WZYDdY",
+          "vpd": 47239.0,
+          "title": "My Pet Is the WOLF KING?! He Was Cursed Into a Puppy… Until TRUE LOVE Changed Everything!#AIStory"
+        },
+        {
+          "id": "gkRXl9lDReY",
+          "vpd": 44195.5,
+          "title": "He Dumped His Pregnant Wife for a Rich Woman… Her Unborn Baby Made Her a MILLIONAIRE!#AIStory"
+        },
+        {
+          "id": "u1RoW_083xM",
+          "vpd": 33159.8,
+          "title": "They Left Someone in the Snow… Never Knowing Their Father Was the VAMPIRE KING! #AIStory"
+        }
+      ],
+      "bottom_present_examples": [
+        {
+          "id": "Prsthri0ktA",
+          "vpd": 131.8,
+          "title": "\"He’s Just a Dirty Hybrid!\" — Until the Wolf Ancestor Awakened to Destroy the Nobles!"
+        },
+        {
+          "id": "UDjV1_6TgFs",
+          "vpd": 312.7,
+          "title": "He Betrayed the Girl With the Sacred Tree Heart… Now She's the QUEEN He Can Never Have!#AIStory"
+        },
+        {
+          "id": "ZhAYjMLvlqc",
+          "vpd": 334.3,
+          "title": "She Left the DRAGON PRINCE… When He Found Her Again, She Had Two Children by Her Side!#AIStory"
+        },
+        {
+          "id": "ajI2gST2O5I",
+          "vpd": 391.0,
+          "title": "Her Adopted Sister Stole Her Fiancé and Left Her to Die… But She Got a SECOND CHANCE!#AIStory"
+        },
+        {
+          "id": "1UB6EA3L7I4",
+          "vpd": 394.1,
+          "title": "They Stole Everything From Her, So She Became the SUPREME WOLF EMPRESS to Take It All Back! #AIStory"
+        }
+      ]
+    }
+  ],
+  "numeric_correlations": [
+    {
+      "feature": "duration_minutes",
+      "n": 47,
+      "rank_correlation": 0.26133209990749307,
+      "min": 48.233333333333334,
+      "max": 122.21666666666667,
+      "mean": 79.74078014184398
+    },
+    {
+      "feature": "age_days",
+      "n": 47,
+      "rank_correlation": -0.16396854764107308,
+      "min": 3.0,
+      "max": 122.0,
+      "mean": 33.191489361702125
+    },
+    {
+      "feature": "title_characters",
+      "n": 47,
+      "rank_correlation": -0.049028677150786314,
+      "min": 81.0,
+      "max": 100.0,
+      "mean": 94.06382978723404
+    },
+    {
+      "feature": "title_caps_ratio",
+      "n": 47,
+      "rank_correlation": 0.2894310823311748,
+      "min": 0.0,
+      "max": 0.2857142857142857,
+      "mean": 0.13738808326615454
+    },
+    {
+      "feature": "thumbnail_brightness",
+      "n": 47,
+      "rank_correlation": 0.4047178538390379,
+      "min": 0.17749150097370148,
+      "max": 0.5258798003196716,
+      "mean": 0.3451454572855158
+    },
+    {
+      "feature": "thumbnail_saturation",
+      "n": 47,
+      "rank_correlation": -0.11933395004625348,
+      "min": 0.32403677701950073,
+      "max": 0.7227160930633545,
+      "mean": 0.49855889475091975
+    },
+    {
+      "feature": "thumbnail_text_edge_proxy",
+      "n": 47,
+      "rank_correlation": 0.1270814061054579,
+      "min": 0.07088246941566467,
+      "max": 0.20950689911842346,
+      "mean": 0.1494581712053177
+    }
+  ],
+  "montage": "data\\processed\\novdrama_thumbnail_montage.jpg"
+}

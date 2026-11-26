@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:04.667" end="00:00:06.000" style="s2">How much longer?</p>
+<p begin="00:00:06.375" end="00:00:08.208" style="s2">About 20 minutes.</p>
+<p begin="00:00:08.708" end="00:00:10.833" style="s2">The rain&#39;s holding up traffic.</p>
+<p begin="00:00:13.875" end="00:00:14.708" style="s2">And my father?</p>
+<p begin="00:00:15.542" end="00:00:17.500" style="s2">He&#39;s already arrived.</p>
+<p begin="00:00:19.125" end="00:00:20.583" style="s2">I&#39;m in for another lecture.</p>
+<p begin="00:00:23.250" end="00:00:24.667" style="s2">Oh, could you do me a favor?</p>
+<p begin="00:00:25.583" end="00:00:28.208" style="s2">Kang Haesol. He&#39;s Chan&#39;s housekeeper.</p>
+<p begin="00:00:28.250" end="00:00:29.917" style="s2">Look into him for me.</p>
+<p begin="00:00:30.250" end="00:00:32.125" style="s2">May I ask why?</p>
+<p begin="00:00:34.625" end="00:00:36.125" style="s2">Did I sound like I was asking?</p>
+<p begin="00:00:37.625" end="00:00:38.458" style="s2">I&#39;m sorry, sir.</p>
+<p begin="00:00:46.792" end="00:00:50.000" style="s2">Truth, Lies, and...</p>
+<p begin="00:00:59.500" end="00:01:01.000" style="s2">Sorry to keep you waiting.</p>
+<p begin="00:01:01.125" end="00:01:02.708" style="s2">The traffic was terrible.</p>
+<p begin="00:01:04.292" end="00:01:05.125" style="s2">Sit down.</p>
+<p begin="00:01:06.000" end="00:01:07.500" style="s2">I&#39;ve only seen you in photos.</p>
+<p begin="00:01:07.542" end="00:01:09.958" style="s2">You&#39;re much better-looking<br />than your father.</p>
+<p begin="00:01:10.583" end="00:01:12.542" style="s2">Thank you. You&#39;re too kind.</p>
+<p begin="00:01:13.125" end="00:01:14.625" style="s2">You run a gallery now?</p>
+<p begin="00:01:15.417" end="00:01:16.458" style="s2">Yes. Luce—</p>
+<p begin="00:01:16.500" end="00:01:20.375" style="s2">I thought it was a passing fancy.<br />Now he wants to stay for good.</p>
+<p begin="00:01:20.833" end="00:01:23.333" style="s2">He&#39;s my son, but he&#39;s still immature.</p>
+<p begin="00:01:23.700" end="00:01:26.033" style="s2">Young people have so much they want to do.</p>
+<p begin="00:01:27.367" end="00:01:29.158" style="s2">It&#39;s time he learned what matters.</p>
+<p begin="00:01:29.492" end="00:01:31.325" style="s2">Does he think he&#39;ll be young forever?</p>
+<p begin="00:01:32.075" end="00:01:33.367" style="s2">Oh, Representative Jung...</p>
+<p begin="00:01:34.033" end="00:01:35.825" style="s2">Oh, about that bill.</p>
+<p begin="00:01:36.408" end="00:01:37.908" style="s2">I spoke to Representative Min.</p>
+<p begin="00:01:37.950" end="00:01:40.242" style="s2">The suggestion was<br />to delay implementation.</p>
+<p begin="00:01:40.617" end="00:01:42.200" style="s2">We can work out the timing.</p>
+<p begin="00:01:42.908" end="00:01:45.117" style="s2">Let&#39;s meet again before<br />it goes to committee.</p>
+<p begin="00:01:52.167" end="00:01:54.042" style="s2">Keep next weekend free.</p>
+<p begin="00:01:54.583" end="00:01:55.083" style="s2">Next week—</p>
+<p begin="00:01:55.125" end="00:01:57.708" style="s2">Still keeping that painter around?</p>
+<p begin="00:02:03.167" end="00:02:05.750" style="s2">I&#39;ll rearrange my schedule.</p>
+<p begin="00:02:07.125" end="00:02:09.250" style="s2">How long will you clean up after him?</p>
+<p begin="00:02:09.958" end="00:02:10.875" style="s2">Not &quot;that guy.&quot;</p>
+<p begin="00:02:13.083" end="00:02:14.250" style="s2">His name is Heo Chan.</p>
+<p begin="00:02:15.083" end="00:02:17.417" style="s2">I never should&#39;ve put him in your hands.</p>
+<p begin="00:02:19.000" end="00:02:21.792" style="s2">After the exhibition,<br />wrap it up and get ready.</p>
+<p begin="00:02:22.000" end="00:02:22.542" style="s2">Father.</p>
+<p begin="00:02:22.583" end="00:02:23.917" style="s2">Don&#39;t make me say it twice.</p>
+<p begin="00:02:30.375" end="00:02:32.125" style="s2">Shall I change next week&#39;s plans?</p>
+<p begin="00:02:32.875" end="00:02:34.083" style="s2">I suppose so.</p>
+<p begin="00:02:35.542" end="00:02:37.250" style="s2">He won&#39;t let this one go.</p>
+<p begin="00:02:37.708" end="00:02:38.542" style="s2">Understood.</p>
+<p begin="00:03:31.875" end="00:03:34.667" style="s2">I&#39;m so glad you could come in today.</p>
+<p begin="00:03:34.875" end="00:03:36.542" style="s2">Call me anytime you need a hand.</p>
+<p begin="00:03:36.625" end="00:03:37.917" style="s2">Can you come back to work?</p>
+<p begin="00:03:38.208" end="00:03:39.833" style="s2">Yes, if there&#39;s an opening.</p>
+<p begin="00:03:39.917" end="00:03:41.417" style="s2">All right. I&#39;ll call you soon.</p>
+<p begin="00:03:51.167" end="00:03:53.333" style="s2">Haesol! Take this table, please!</p>
+<p begin="00:03:53.500" end="00:03:54.333" style="s2">Coming!</p>
+<p begin="00:03:56.250" end="00:03:57.833" style="s2">The information you requested.</p>
+<p begin="00:04:05.750" end="00:04:08.958" style="s2">I also included news reports<br />about his father&#39;s case.</p>
+<p begin="00:04:11.375" end="00:04:12.833" style="s2">Yes. Thank you.</p>
+<p begin="00:04:12.875" end="00:04:13.792" style="s2">You can go.</p>
+<p begin="00:04:13.833" end="00:04:14.667" style="s2">Yes, sir.</p>
+<p begin="00:04:31.417" end="00:04:35.417" style="s2">Painter Heo Chan suspends his career<br />amid allegations of murder involvement</p>
+<p begin="00:04:44.583" end="00:04:47.083" style="s2">[Publisher&#39;s editor]</p>
+<p begin="00:04:50.625" end="00:04:51.750" style="s2">Hello.</p>
+<p begin="00:04:51.833" end="00:04:53.833" style="s2">How have you been, Mr. Seo?</p>
+<p begin="00:04:54.458" end="00:04:56.458" style="s2">I&#39;m well. How about you?</p>
+<p begin="00:04:56.667" end="00:04:58.083" style="s2">Very well.</p>
+<p begin="00:04:58.125" end="00:05:00.083" style="s2">I was calling about your next book...</p>
+<p begin="00:05:00.125" end="00:05:03.167" style="s2">I was wondering how it&#39;s coming along.</p>
+<p begin="00:05:03.375" end="00:05:05.125" style="s2">My next book...?</p>
+<p begin="00:05:05.750" end="00:05:08.583" style="s2">Well, nothing&#39;s really come to me yet.</p>
+<p begin="00:05:08.625" end="00:05:11.000" style="s2">No subjects have caught your interest?</p>
+<p begin="00:05:13.208" end="00:05:15.333" style="s2">Nothing I could make a story out of yet.</p>
+<p begin="00:05:15.375" end="00:05:17.208" style="s2">People keep asking lately.</p>
+<p begin="00:05:17.250" end="00:05:20.458" style="s2">When will Seo Hajin&#39;s next book come out?</p>
+<p begin="00:05:20.500" end="00:05:22.542" style="s2">I have been away for quite a while.</p>
+<p begin="00:05:22.750" end="00:05:24.958" style="s2">I&#39;m not trying to rush you...</p>
+<p begin="00:05:25.833" end="00:05:28.750" style="s2">I know. It&#39;s just my guilty conscience.</p>
+<p begin="00:05:29.917" end="00:05:33.792" style="s2">You&#39;re not still dwelling<br />on what happened, are you?</p>
+<p begin="00:05:34.458" end="00:05:36.000" style="s2">Don&#39;t let it weigh on you.</p>
+<p begin="00:05:36.042" end="00:05:38.667" style="s2">You know it wasn&#39;t your fault.</p>
+<p begin="00:05:41.375" end="00:05:42.417" style="s2">...You think so?</p>
+<p begin="00:05:43.208" end="00:05:45.167" style="s2">I&#39;ll call when I have something.</p>
+<p begin="00:05:45.292" end="00:05:46.083" style="s2">All right.</p>
+<p begin="00:05:46.125" end="00:05:49.500" style="s2">Once you have a direction,<br />please let me know first.</p>
+<p begin="00:05:49.542" end="00:05:50.750" style="s2">Of course.</p>
+<p begin="00:06:34.042" end="00:06:36.833" style="s2">Chan. Time to get up.</p>
+<p begin="00:06:39.000" end="00:06:40.417" style="s2">Why are you here?</p>
+<p begin="00:06:41.417" end="00:06:42.500" style="s2">What do you mean, why?</p>
+<p begin="00:06:47.667" end="00:06:49.583" style="s2">Did you look into what I asked?</p>
+<p begin="00:06:52.208" end="00:06:55.042" style="s2">Why haven&#39;t you put ointment on it?</p>
+<p begin="00:06:56.958" end="00:06:58.667" style="s2">Sit up. I&#39;ll put some on for you.</p>
+<p begin="00:07:07.042" end="00:07:08.167" style="s2">Did you look into it?</p>
+<p begin="00:07:18.167" end="00:07:22.042" style="s2">He took time off school to pay his mother&#39;s bills.<br />She&#39;s at Seorin General Hospital.</p>
+<p begin="00:07:22.083" end="00:07:25.375" style="s2">Her surgery&#39;s on hold because<br />her bills haven&#39;t been paid.</p>
+<p begin="00:07:26.458" end="00:07:30.458" style="s2">His father apparently killed himself<br />while a suspect in a murder case.</p>
+<p begin="00:07:32.000" end="00:07:33.000" style="s2">A suspect?</p>
+<p begin="00:07:42.375" end="00:07:44.583" style="s2">How&#39;s the painting coming along?</p>
+<p begin="00:07:49.750" end="00:07:52.500" style="s2">Would you stop rushing me?</p>
+<p begin="00:07:53.833" end="00:07:56.833" style="s2">It hurts when you put it like that.</p>
+<p begin="00:08:01.417" end="00:08:02.333" style="s2">...Hyung.</p>
+<p begin="00:08:03.458" end="00:08:04.708" style="s2">I know what you meant.</p>
+<p begin="00:08:06.542" end="00:08:10.167" style="s2">After all our years together,<br />would I get upset over that?</p>
+<p begin="00:08:13.125" end="00:08:14.542" style="s2">I brought porridge. Eat some.</p>
+<p begin="00:08:14.833" end="00:08:17.625" style="s2">I just stopped by.<br />I have to get back to the gallery.</p>
+<p begin="00:08:21.167" end="00:08:23.458" style="s2">They called about your missed sessions.</p>
+<p begin="00:08:23.500" end="00:08:26.500" style="s2">Next Monday, 2 p.m.<br />I booked it. Make sure you go.</p>
+<p begin="00:08:34.106" end="00:08:36.231" style="s2">So if that&#39;s why<br />you&#39;re lashing out at me,</p>
+<p begin="00:08:36.273" end="00:08:37.856" style="s2">I understand how you feel.</p>
+<p begin="00:08:38.481" end="00:08:39.940" style="s2">It must be painful.</p>
+<p begin="00:08:40.690" end="00:08:42.065" style="s2">I&#39;d feel the same way.</p>
+<p begin="00:09:00.733" end="00:09:03.358" style="s2">He&#39;s quite something.</p>
+<p begin="00:09:08.233" end="00:09:09.275" style="s2">Hello.</p>
+<p begin="00:09:09.441" end="00:09:12.066" style="s2">About paying the medical bills...</p>
+<p begin="00:09:12.191" end="00:09:14.233" style="s2">One moment, Mr. Kang.</p>
+<p begin="00:09:15.108" end="00:09:16.941" style="s2">No, that&#39;s not what I meant...</p>
+<p begin="00:09:16.983" end="00:09:18.816" style="s2">Could I put off the payment...?</p>
+<p begin="00:09:18.858" end="00:09:22.775" style="s2">Oh? The interim bill has been paid.</p>
+<p begin="00:09:23.525" end="00:09:24.275" style="s2">What?</p>
+<p begin="00:09:24.316" end="00:09:26.233" style="s2">The payment came in today.</p>
+<p begin="00:09:26.858" end="00:09:28.400" style="s2">But I haven&#39;t paid it yet...</p>
+<p begin="00:09:29.566" end="00:09:32.900" style="s2">I&#39;ve checked again.<br />Someone paid it on your behalf.</p>
+<p begin="00:09:34.608" end="00:09:35.941" style="s2">What do you mean...?</p>
+<p begin="00:09:45.066" end="00:09:46.566" style="s2">Does anything hurt?</p>
+<p begin="00:09:47.400" end="00:09:50.358" style="s2">You don&#39;t have to keep coming.<br />I know you&#39;re busy.</p>
+<p begin="00:09:53.650" end="00:09:56.108" style="s2">Can&#39;t a son come see his mom?</p>
+<p begin="00:09:58.358" end="00:10:00.191" style="s2">Want me to ask for more painkillers?</p>
+<p begin="00:10:02.200" end="00:10:04.908" style="s2">Haesol... I&#39;m not in pain anymore.</p>
+<p begin="00:10:04.950" end="00:10:07.117" style="s2">I don&#39;t think I need surgery.</p>
+<p begin="00:10:07.275" end="00:10:08.941" style="s2">What are you talking about?</p>
+<p begin="00:10:08.983" end="00:10:11.066" style="s2">I was just overdoing it.</p>
+<p begin="00:10:11.108" end="00:10:13.191" style="s2">A little rest, and I&#39;m fine now.</p>
+<p begin="00:10:13.775" end="00:10:15.150" style="s2">Let&#39;s go home now.</p>
+<p begin="00:10:15.191" end="00:10:17.275" style="s2">Didn&#39;t you hear the doctor?</p>
+<p begin="00:10:17.650" end="00:10:20.566" style="s2">Without surgery,<br />you might never walk again!</p>
+<p begin="00:10:21.233" end="00:10:23.233" style="s2">I said I&#39;m fine.</p>
+<p begin="00:10:23.275" end="00:10:26.025" style="s2">The hospital&#39;s just trying<br />to squeeze money out of us.</p>
+<p begin="00:10:26.066" end="00:10:27.900" style="s2">I know my own body best.</p>
+<p begin="00:10:27.941" end="00:10:29.900" style="s2">I&#39;m getting discharged. That&#39;s final.</p>
+<p begin="00:10:30.316" end="00:10:32.025" style="s2">I&#39;ll arrange the surgery soon.</p>
+<p begin="00:10:38.150" end="00:10:40.983" style="s2">How did you come up with all that money?</p>
+<p begin="00:10:41.691" end="00:10:43.900" style="s2">You&#39;re not doing anything shady, are you?</p>
+<p begin="00:10:44.191" end="00:10:45.483" style="s2">It&#39;s nothing like that.</p>
+<p begin="00:10:46.483" end="00:10:48.483" style="s2">Someone helped me, that&#39;s all.</p>
+<p begin="00:10:48.525" end="00:10:49.358" style="s2">Who?</p>
+<p begin="00:10:49.566" end="00:10:51.191" style="s2">Did you call your father&#39;s older brother?</p>
+<p begin="00:10:51.233" end="00:10:51.983" style="s2">No.</p>
+<p begin="00:10:52.025" end="00:10:54.566" style="s2">I got an advance on my wages. Don&#39;t worry.</p>
+<p begin="00:10:56.900" end="00:11:00.275" style="s2">Haesol... This is hard on you,<br />isn&#39;t it? Because of me...</p>
+<p begin="00:11:00.316" end="00:11:03.066" style="s2">Don&#39;t say that. I&#39;m really okay.</p>
+<p begin="00:11:03.866" end="00:11:05.866" style="s2">Your dad said the same thing.</p>
+<p begin="00:11:08.074" end="00:11:10.283" style="s2">Whenever I asked, he&#39;d say he was fine.</p>
+<p begin="00:11:11.991" end="00:11:15.408" style="s2">I knew he was struggling, too.</p>
+<p begin="00:11:15.741" end="00:11:18.158" style="s2">We were barely making ends meet.</p>
+<p begin="00:11:18.324" end="00:11:22.408" style="s2">And I had to deal with people<br />coming to the shop to make a scene.</p>
+<p begin="00:11:22.699" end="00:11:24.533" style="s2">I was struggling so much, too.</p>
+<p begin="00:11:26.074" end="00:11:28.949" style="s2">Even though I knew how<br />sensitive your dad was...</p>
+<p begin="00:11:29.616" end="00:11:31.533" style="s2">I turned away to save myself.</p>
+<p begin="00:11:33.158" end="00:11:35.533" style="s2">I should&#39;ve stayed by his side.</p>
+<p begin="00:11:36.783" end="00:11:40.866" style="s2">I should&#39;ve told him,<br />&quot;I&#39;m on your side, no matter what.&quot;</p>
+<p begin="00:11:40.908" end="00:11:42.158" style="s2">It&#39;s not your fault, Mom.</p>
+<p begin="00:11:43.158" end="00:11:46.116" style="s2">If I&#39;d held his hand even once...</p>
+<p begin="00:11:46.158" end="00:11:48.866" style="s2">Would your dad still be with us?</p>
+</div>
+</body>
+</tt>

@@ -1,0 +1,112 @@
+{
+  "candidate": "She Was Too Weak to Ring the Storm Bell… Until Her Glass Dragon Made Her the STORM QUEEN",
+  "risk_score_0_to_1": 0.267,
+  "confidence": "low_until_script_and_media-evidence comparison is complete",
+  "matched_failure_patterns": [],
+  "nearest_archive_examples": [
+    {
+      "video_id": "vYNuKn6GiaE",
+      "title": "Her Fiancé Left Her to Die… Now She's Back With Dragon Babies and the DRAGON KING!#AIStory",
+      "cohort": "outperforming",
+      "views_per_day": 111958.56410256411,
+      "themes": [
+        "dragon",
+        "family_child",
+        "rebirth_second_chance",
+        "romance_mate",
+        "royalty_status"
+      ],
+      "similarity": 0.18829486987522975
+    },
+    {
+      "video_id": "VhZV-djnfiA",
+      "title": "She Became a Nanny to Save Her Daughter… Unaware Her Boss Was Her Child’s Father—the DRAGON LORD!",
+      "cohort": "middle",
+      "views_per_day": 2171.233333333333,
+      "themes": [
+        "dragon",
+        "family_child"
+      ],
+      "similarity": 0.16524238259042395
+    },
+    {
+      "video_id": "NnPZaWSGYuc",
+      "title": "They Called Her a Cursed Witch… Now She's the DRAGON QUEEN He Would Burn the World For!#AIStory",
+      "cohort": "middle",
+      "views_per_day": 2072.0,
+      "themes": [
+        "dragon",
+        "royalty_status",
+        "sacred_special_blood"
+      ],
+      "similarity": 0.14026135286270205
+    },
+    {
+      "video_id": "v03oauoFveU",
+      "title": "They Rejected a Worthless Half-Blood Girl… Unaware She Was the DRAGON KING'S SECRET DAUGHTER#AIStory",
+      "cohort": "outperforming",
+      "views_per_day": 115550.0,
+      "themes": [
+        "dragon",
+        "family_child",
+        "royalty_status",
+        "sacred_special_blood"
+      ],
+      "similarity": 0.14026135286270205
+    },
+    {
+      "video_id": "ULJ7-z1zm6M",
+      "title": "They Abandoned a Poor Orphan Girl… Now She's the DRAGON CLAN'S BELOVED PRINCESS!#AIStory",
+      "cohort": "outperforming",
+      "views_per_day": 102406.27272727272,
+      "themes": [
+        "dragon",
+        "romance_mate",
+        "royalty_status"
+      ],
+      "similarity": 0.132010685047249
+    },
+    {
+      "video_id": "Ze0hWktEfRI",
+      "title": "She Dumped Her Taxi Driver Husband for a Rich Man… Not Knowing He Was a BILLIONAIRE HEIR!#AIStory",
+      "cohort": "middle",
+      "views_per_day": 7198.479166666667,
+      "themes": [
+        "modern_wealth_power",
+        "romance_mate"
+      ],
+      "similarity": 0.12586724957323445
+    },
+    {
+      "video_id": "ZhAYjMLvlqc",
+      "title": "She Left the DRAGON PRINCE… When He Found Her Again, She Had Two Children by Her Side!#AIStory",
+      "cohort": "underperforming",
+      "views_per_day": 334.2903225806452,
+      "themes": [
+        "dragon",
+        "family_child",
+        "royalty_status"
+      ],
+      "similarity": 0.12376001723179594
+    },
+    {
+      "video_id": "n6LouxFviD4",
+      "title": "They Betrayed Her and Left Her to Die… Now She Rules With the SSS-RANK DRAGON KING!#AIStory",
+      "cohort": "middle",
+      "views_per_day": 7130.4390243902435,
+      "themes": [
+        "dragon",
+        "royalty_status"
+      ],
+      "similarity": 0.12175754506662818
+    }
+  ],
+  "positive_missing_or_weak": [
+    "No strong hidden identity/secret hook detected; Nov Drama hits often use one, though this is not mandatory.",
+    "No child/heir/creature emotional anchor detected; this is currently one of the strongest archive-level positive signals."
+  ],
+  "decision_guidance": [
+    "Concept does not trigger strong archive-level failure alarms, but retention-safe execution still requires scene-level proof."
+  ],
+  "causal_boundary": "This is pattern-matching against public outcomes and extracted creative signals; it is not a causal predictor of CTR, retention, or audience response."
+}

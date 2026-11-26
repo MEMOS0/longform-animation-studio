@@ -1,0 +1,50 @@
+{
+  "video_id": "54HtBsSUCwk",
+  "probe": {
+    "duration": 583.401361,
+    "size": 39882933,
+    "width": 640,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "C:\\Users\\Administrator\\cross_analysis\\54HtBsSUCwk\\contact_sheets\\contact_000.jpg",
+    "C:\\Users\\Administrator\\cross_analysis\\54HtBsSUCwk\\contact_sheets\\contact_001.jpg"
+  ],
+  "seconds_indexed": 583,
+  "shot_count": 19,
+  "shot_length_mean_seconds": 30.68421052631579,
+  "shot_length_median_seconds": 13.0,
+  "shot_length_p90_seconds": 62.599999999999945,
+  "visual_motion_mean": 0.12964435378616712,
+  "visual_brightness_mean": 0.2830891819033008,
+  "dialogue_cues": 246,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 112.4,
+      "text": "cursed human?"
+    },
+    "first_power_or_identity_language": {
+      "time": 123.16,
+      "text": "Gods, lock him up UNTIL THE WEDDING."
+    },
+    "first_care_or_belonging_language": {
+      "time": 106.03999999999999,
+      "text": "You saved me from a bear. I promised to"
+    },
+    "dialogue_words_per_minute": [
+      92,
+      125,
+      114,
+      120,
+      124,
+      150,
+      162,
+      99,
+      114,
+      109
+    ],
+    "cue_count": 246
+  }
+}

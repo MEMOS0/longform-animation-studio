@@ -1,0 +1,134 @@
+{
+  "premise_pack": {
+    "title": "They Hunted the Last Stormglass Dragon Child… Until the Disgraced Keeper Chose to Protect It",
+    "genre": "creature fantasy drama",
+    "channel_contract": "creature_protection_feature",
+    "creature_or_child_anchor": "stormglass dragon child",
+    "protector": "disgraced keeper Mira",
+    "wound": "hunted child and public disgrace",
+    "emotional_promise": "protective trust becomes belonging and restoration"
+  },
+  "concepts": [
+    {
+      "concept_id": "vulnerable_bond_scale",
+      "category": "creature_power_bond",
+      "core_mechanic": "small vulnerable being in front, protector/power presence looming behind",
+      "composition": "protagonist and vulnerable creature/child occupy the lower-center third; protector or transformed creature fills the upper/background third; eyes or energy connect them",
+      "emotion": "fear turning into trust; protector intensity without sexualized coercion",
+      "palette": "warm gold/cyan or warm gold/ice-blue contrast; luminous subject separation from darker background",
+      "text_direction": "short concrete promise, 2–5 words maximum if text is used; do not restate a long title",
+      "mobile_test": "at 160px wide, viewer must still identify the small creature/child, protagonist emotion, and protector silhouette",
+      "reference_categories_to_study": [
+        "creature_power_bond"
+      ],
+      "source_promise": "protective trust becomes belonging and restoration",
+      "source_wound": "hunted child and public disgrace",
+      "protector": "disgraced keeper Mira",
+      "do_not_copy": "Use reference images only for mechanics: hierarchy, contrast, emotion, and readability. Generate original characters, layout, typography, and world details.",
+      "critique": {
+        "score_0_to_1": 0.9299999999999999,
+        "strengths": [
+          "clear focal hierarchy",
+          "specific emotion",
+          "controlled color contrast",
+          "text restraint"
+        ],
+        "risks": [],
+        "required_mobile_check": "at 160px wide, viewer must still identify the small creature/child, protagonist emotion, and protector silhouette",
+        "ctr_caveat": "This is a design-quality critique, not a CTR prediction. Validate with YouTube Test & Compare when available."
+      }
+    },
+    {
+      "concept_id": "relational_pressure_triangle",
+      "category": "romantic_family_betrayal",
+      "core_mechanic": "two or three people arranged so loyalty, betrayal, or protection is readable before any text",
+      "composition": "vulnerable protagonist largest or most emotionally exposed; betrayer/protector positioned behind or opposite; use eyelines and distance rather than random crowd clutter",
+      "emotion": "hurt, suspicion, longing, defiance, or protective resolve",
+      "palette": "warm intimate skin tones against cooler social environment; luxury can frame status conflict",
+      "text_direction": "title-thumbnail division of labor: title carries plot twist, thumbnail carries emotion/relationship",
+      "mobile_test": "viewer can identify who is hurt, who has power, and what relationship tension matters",
+      "reference_categories_to_study": [
+        "romantic_family_betrayal",
+        "localized_family_melodrama"
+      ],
+      "source_promise": "protective trust becomes belonging and restoration",
+      "source_wound": "hunted child and public disgrace",
+      "protector": "disgraced keeper Mira",
+      "do_not_copy": "Use reference images only for mechanics: hierarchy, contrast, emotion, and readability. Generate original characters, layout, typography, and world details.",
+      "critique": {
+        "score_0_to_1": 0.6300000000000001,
+        "strengths": [
+          "clear focal hierarchy",
+          "specific emotion",
+          "controlled color contrast"
+        ],
+        "risks": [
+          "possible text clutter",
+          "crowd complexity may reduce mobile readability"
+        ],
+        "required_mobile_check": "viewer can identify who is hurt, who has power, and what relationship tension matters",
+        "ctr_caveat": "This is a design-quality critique, not a CTR prediction. Validate with YouTube Test & Compare when available."
+      }
+    },
+    {
+      "concept_id": "misunderstood_child_personhood",
+      "category": "creature_power_bond",
+      "core_mechanic": "protector physically cradling a visibly childlike creature while hostile institutions or weapons remain secondary",
+      "composition": "protector face and creature child form one intertwined focal unit; use matching cloth, hand position, or eyeline to make the creature read as child/person rather than pet or weapon; negative space carries a short paradoxical title or hostile silhouette",
+      "emotion": "maternal/paternal grief, tenderness, and defiant protection",
+      "palette": "warm skin/fire/rim light around the bond against cool institutional darkness; creature eyes bright enough to read at feed size",
+      "text_direction": "use a paradox or relational label rather than explaining the whole plot; examples of structure only: protector + monster/child contradiction",
+      "mobile_test": "at 160px wide, viewer must see protector tears/expression, creature child face/eyes, and that they are being held as family",
+      "reference_categories_to_study": [
+        "creature_power_bond"
+      ],
+      "source_promise": "protective trust becomes belonging and restoration",
+      "source_wound": "hunted child and public disgrace",
+      "protector": "disgraced keeper Mira",
+      "do_not_copy": "Use reference images only for mechanics: hierarchy, contrast, emotion, and readability. Generate original characters, layout, typography, and world details.",
+      "critique": {
+        "score_0_to_1": 0.51,
+        "strengths": [
+          "specific emotion",
+          "controlled color contrast"
+        ],
+        "risks": [
+          "focal hierarchy underspecified",
+          "possible text clutter"
+        ],
+        "required_mobile_check": "at 160px wide, viewer must see protector tears/expression, creature child face/eyes, and that they are being held as family",
+        "ctr_caveat": "This is a design-quality critique, not a CTR prediction. Validate with YouTube Test & Compare when available."
+      }
+    },
+    {
+      "concept_id": "public_hunt_protection_triangle",
+      "category": "creature_power_bond",
+      "core_mechanic": "powerful hostile crowd/army/crown pressure frames a small protector-child bond",
+      "composition": "protector and creature child low or foreground-center; soldiers, ships, king, fire, or hunter silhouettes occupy upper/background third as directional pressure; preserve one clean escape/light path",
+      "emotion": "fear under public injustice plus protective resolve",
+      "palette": "cold blue/grey institutional threat with one warm gold/cyan sanctuary accent around the child",
+      "text_direction": "short hunt/protection promise; title can carry plot specifics while image carries threat and care",
+      "mobile_test": "viewer can identify protector, child creature, and hostile force direction without reading small text",
+      "reference_categories_to_study": [
+        "creature_power_bond",
+        "dark_creature_threat"
+      ],
+      "source_promise": "protective trust becomes belonging and restoration",
+      "source_wound": "hunted child and public disgrace",
+      "protector": "disgraced keeper Mira",
+      "do_not_copy": "Use reference images only for mechanics: hierarchy, contrast, emotion, and readability. Generate original characters, layout, typography, and world details.",
+      "critique": {
+        "score_0_to_1": 0.9299999999999999,
+        "strengths": [
+          "clear focal hierarchy",
+          "specific emotion",
+          "controlled color contrast",
+          "text restraint"
+        ],
+        "risks": [],
+        "required_mobile_check": "viewer can identify protector, child creature, and hostile force direction without reading small text",
+        "ctr_caveat": "This is a design-quality critique, not a CTR prediction. Validate with YouTube Test & Compare when available."
+      }
+    }
+  ]
+}

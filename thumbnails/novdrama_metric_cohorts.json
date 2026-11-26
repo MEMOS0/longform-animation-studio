@@ -1,0 +1,42 @@
+{
+  "brightness": {
+    "outperforming": 0.3967624679207802,
+    "middle": 0.3502915702436281,
+    "underperforming": 0.2997663840651512
+  },
+  "contrast": {
+    "outperforming": 0.27159348378578824,
+    "middle": 0.2730123361815577,
+    "underperforming": 0.26827069247762364
+  },
+  "saturation": {
+    "outperforming": 0.49710975938407775,
+    "middle": 0.5381133067810457,
+    "underperforming": 0.5233573637209513
+  },
+  "colorfulness": {
+    "outperforming": 0.23531771699587503,
+    "middle": 0.2239406853914261,
+    "underperforming": 0.24161646018425623
+  },
+  "edge_density": {
+    "outperforming": 0.3096757450810185,
+    "middle": 0.2786233771135266,
+    "underperforming": 0.2937796585648148
+  },
+  "center_salience_proxy": {
+    "outperforming": 0.1279611438512802,
+    "middle": 0.13047396618386972,
+    "underperforming": 0.14290516140560308
+  },
+  "face_count": {
+    "outperforming": 0,
+    "middle": 0,
+    "underperforming": 0
+  },
+  "mobile_contrast": {
+    "outperforming": 0.24068126206596693,
+    "middle": 0.24301112475602524,
+    "underperforming": 0.2371454449991385
+  }
+}

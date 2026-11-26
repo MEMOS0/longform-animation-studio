@@ -1,0 +1,46 @@
+{
+  "video_id": "AarXri0b_xA",
+  "probe": {
+    "duration": 484.321814,
+    "size": 20947765,
+    "width": 640,
+    "height": 360,
+    "fps": "24/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "C:\\Users\\Administrator\\korean_analysis\\AarXri0b_xA\\contact_sheets\\contact_000.jpg",
+    "C:\\Users\\Administrator\\korean_analysis\\AarXri0b_xA\\contact_sheets\\contact_001.jpg"
+  ],
+  "seconds_indexed": 484,
+  "shot_count": 16,
+  "shot_length_mean_seconds": 30.25,
+  "shot_length_median_seconds": 20.0,
+  "shot_length_p90_seconds": 77.0,
+  "visual_motion_mean": 0.06350121811730594,
+  "visual_brightness_mean": 0.1829718137724582,
+  "dialogue_cues": 74,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 209.98,
+      "text": "Looks like I'll have to die once."
+    },
+    "first_power_or_identity_language": null,
+    "first_care_or_belonging_language": {
+      "time": 68.0,
+      "text": "You'll take care of the guest personally for three days."
+    },
+    "dialogue_words_per_minute": [
+      9,
+      65,
+      71,
+      84,
+      65,
+      14,
+      77,
+      19,
+      1
+    ],
+    "cue_count": 74
+  }
+}

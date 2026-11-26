@@ -1,0 +1,41 @@
+{
+  "scene_id": "S06",
+  "time_range": "28-35 minutes",
+  "objective": "escape while testing whether Tam can be trusted",
+  "conflict": "Mira must free other creatures before the ship locks down",
+  "power_position_start": "betrayed captive",
+  "power_position_end": "fragile alliance leader",
+  "turn": "rescue expands from one child to all captive creatures",
+  "protagonist_decision": "Mira accepts Tam's key but not yet his apology",
+  "subtext": "Protection means risking attachment without turning love into control.",
+  "visual_action": {
+    "first_image": "copied key turning in a wet lock",
+    "face_reaction": "Mira sees Tam take a whip blow meant for the child",
+    "vertical_composition": "canal depth behind foreground decision faces",
+    "final_image": "freed creatures streaming through storm-lit canals"
+  },
+  "dialogue_design": {
+    "function": "advance protective choices and power shifts rather than explain lore",
+    "subtext_rule": "Characters rarely say fear or love directly; they negotiate control, debt, blame, and safety.",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "Pain makes it obey. Trust makes it answer.",
+      "You don't save a child by becoming its cage."
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "dialogue remains intelligible under weather and crowd effects",
+    "music_function": "lullaby motif evolves with trust rather than constant emotional wallpaper",
+    "silence_or_negative_space": "drop music before each bonding or revelation beat so breath, scale chimes, and creature calls carry meaning",
+    "motif": "three-note lullaby answered by glassy creature harmonics"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on immediate danger, choice, or visible emotional consequence",
+    "exit_hook": "exit on changed power, new evidence, or an unanswered protective cost"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, or capability?",
+    "Is spectacle tied to the vulnerable child/protector relationship?",
+    "Is exposition converted into a decision or visible event?"
+  ]
+}

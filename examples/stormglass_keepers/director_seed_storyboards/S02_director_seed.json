@@ -1,0 +1,212 @@
+{
+  "scene_id": "S02",
+  "duration_seconds": 300,
+  "coverage": "continuous_exact_format_director_seed",
+  "shots": [
+    {
+      "shot_id": "S02_DS001",
+      "timecode": "0.0-30.0",
+      "duration_seconds": 30.0,
+      "scene_id": "S02",
+      "shot_size": "wide establishing",
+      "camera_intent": "slow push",
+      "visual_action": "lantern ships sweeping wet cliffs",
+      "dialogue": "none",
+      "sound_design": "drop music before each bonding or revelation beat so breath, scale chimes, and creature calls carry meaning",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: open on the scene image"
+    },
+    {
+      "shot_id": "S02_DS002",
+      "timecode": "30.0-60.0",
+      "duration_seconds": 30.0,
+      "scene_id": "S02",
+      "shot_size": "intimate closeup",
+      "camera_intent": "settle",
+      "visual_action": "the child watches Mira hum, fear softening",
+      "dialogue": "none",
+      "sound_design": "breath and room tone",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+    },
+    {
+      "shot_id": "S02_DS003",
+      "timecode": "60.0-90.0",
+      "duration_seconds": 30.0,
+      "scene_id": "S02",
+      "shot_size": "action wide",
+      "camera_intent": "lateral track",
+      "visual_action": "escape the lighthouse before the bounty party arrives",
+      "dialogue": "none",
+      "sound_design": "environmental action foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
+    },
+    {
+      "shot_id": "S02_DS004",
+      "timecode": "90.0-120.0",
+      "duration_seconds": 30.0,
+      "scene_id": "S02",
+      "shot_size": "power two-shot",
+      "camera_intent": "slow tightening",
+      "visual_action": "the child cannot control fear and the soldiers have Mira's scar description",
+      "dialogue": "Pain makes it obey. Trust makes it answer.",
+      "sound_design": "dialogue remains intelligible under weather and crowd effects",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+    },
+    {
+      "shot_id": "S02_DS005",
+      "timecode": "120.0-150.0",
+      "duration_seconds": 30.0,
+      "scene_id": "S02",
+      "shot_size": "decision insert",
+      "camera_intent": "macro",
+      "visual_action": "she destroys the lighthouse ledger that could reveal the villagers",
+      "dialogue": "none",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+    },
+    {
+      "shot_id": "S02_DS006",
+      "timecode": "150.0-180.0",
+      "duration_seconds": 30.0,
+      "scene_id": "S02",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "Mira gives up her safe cover",
+      "dialogue": "none",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+    },
+    {
+      "shot_id": "S02_DS007",
+      "timecode": "180.0-210.0",
+      "duration_seconds": 30.0,
+      "scene_id": "S02",
+      "shot_size": "vertical composition",
+      "camera_intent": "high or low angle",
+      "visual_action": "vertical shaft composition with Mira below and searchlights above",
+      "dialogue": "none",
+      "sound_design": "negative space",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
+    },
+    {
+      "shot_id": "S02_DS008",
+      "timecode": "210.0-240.0",
+      "duration_seconds": 30.0,
+      "scene_id": "S02",
+      "shot_size": "subtext closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "Protection means risking attachment without turning love into control.",
+      "dialogue": "You don't save a child by becoming its cage.",
+      "sound_design": "lullaby motif evolves with trust rather than constant emotional wallpaper",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+    },
+    {
+      "shot_id": "S02_DS009",
+      "timecode": "240.0-270.0",
+      "duration_seconds": 30.0,
+      "scene_id": "S02",
+      "shot_size": "consequence wide",
+      "camera_intent": "backward track",
+      "visual_action": "consequence of she destroys the lighthouse ledger that could reveal the villagers",
+      "dialogue": "none",
+      "sound_design": "consequence foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
+    },
+    {
+      "shot_id": "S02_DS010",
+      "timecode": "270.0-300.0",
+      "duration_seconds": 30.0,
+      "scene_id": "S02",
+      "shot_size": "final image",
+      "camera_intent": "slow pull-back",
+      "visual_action": "child curled inside Mira's coat as the lighthouse collapses behind them",
+      "dialogue": "Pain makes it obey. Trust makes it answer.",
+      "sound_design": "three-note lullaby answered by glassy creature harmonics unresolved",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "location_geography",
+        "relationship_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power"
+    }
+  ],
+  "validation_rules": [
+    "seed must be manually/directorially refined before production",
+    "no gaps or overlaps",
+    "sound and power transitions must remain explicit"
+  ]
+}

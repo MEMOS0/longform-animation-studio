@@ -1,0 +1,104 @@
+{
+  "providers": [
+    {
+      "provider": "cloudflare_workers_ai",
+      "modality": "text_generation",
+      "models": [
+        "@cf/openai/gpt-oss-20b",
+        "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "@cf/meta/llama-4-scout-17b-16e-instruct"
+      ],
+      "env_required": [
+        "CLOUDFLARE_ACCOUNT_ID",
+        "CLOUDFLARE_API_TOKEN"
+      ],
+      "env_missing": [
+        "CLOUDFLARE_ACCOUNT_ID",
+        "CLOUDFLARE_API_TOKEN"
+      ],
+      "credential_state": "missing",
+      "validation_status": "smoke_passed_2026-11-26",
+      "evidence_path": "knowledge/production/ai-provider-inventory.md",
+      "operational_notes": [
+        "llama-3.2 vision model requires explicit license acceptance; do not accept on user's behalf"
+      ]
+    },
+    {
+      "provider": "cloudflare_workers_ai",
+      "modality": "text_to_image",
+      "models": [
+        "@cf/black-forest-labs/flux-1-schnell",
+        "@cf/black-forest-labs/flux-2-klein-4b",
+        "@cf/leonardo/phoenix-1.0"
+      ],
+      "env_required": [
+        "CLOUDFLARE_ACCOUNT_ID",
+        "CLOUDFLARE_API_TOKEN"
+      ],
+      "env_missing": [
+        "CLOUDFLARE_ACCOUNT_ID",
+        "CLOUDFLARE_API_TOKEN"
+      ],
+      "credential_state": "missing",
+      "validation_status": "flux-1-schnell smoke passed through temporary worker binding; production QA not complete",
+      "evidence_path": "knowledge/production/ai-provider-inventory.md",
+      "operational_notes": [
+        "Cloudflare MCP execute bridge does not directly run binary-generation models"
+      ]
+    },
+    {
+      "provider": "cloudflare_workers_ai",
+      "modality": "text_to_speech",
+      "models": [
+        "@cf/deepgram/aura-2-en",
+        "@cf/deepgram/aura-1"
+      ],
+      "env_required": [
+        "CLOUDFLARE_ACCOUNT_ID",
+        "CLOUDFLARE_API_TOKEN"
+      ],
+      "env_missing": [
+        "CLOUDFLARE_ACCOUNT_ID",
+        "CLOUDFLARE_API_TOKEN"
+      ],
+      "credential_state": "missing",
+      "validation_status": "aura-2-en smoke passed through temporary worker binding; production voice QA not complete",
+      "evidence_path": "knowledge/production/ai-provider-inventory.md",
+      "operational_notes": [
+        "omit container when encoding=mp3"
+      ]
+    },
+    {
+      "provider": "cloudflare_workers_ai",
+      "modality": "video_generation",
+      "models": [],
+      "env_required": [
+        "CLOUDFLARE_ACCOUNT_ID",
+        "CLOUDFLARE_API_TOKEN"
+      ],
+      "env_missing": [
+        "CLOUDFLARE_ACCOUNT_ID",
+        "CLOUDFLARE_API_TOKEN"
+      ],
+      "credential_state": "missing",
+      "validation_status": "no video-generation model visible in catalog audit on 2026-11-26",
+      "evidence_path": "knowledge/production/ai-provider-inventory.md",
+      "operational_notes": []
+    },
+    {
+      "provider": "elevenlabs_browser_session",
+      "modality": "voice_generation",
+      "models": [
+        "Dan / Eleven v4 browser-session workflow"
+      ],
+      "env_required": [],
+      "env_missing": [],
+      "credential_state": "not_required_or_external_session",
+      "validation_status": "historically validated on user's PC, unavailable in this VM-only session",
+      "evidence_path": "",
+      "operational_notes": [
+        "do not use local PC unless the user explicitly re-enables local access"
+      ]
+    }
+  ]
+}

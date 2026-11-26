@@ -1,0 +1,1778 @@
+[
+  {
+    "shot_id": "S04_SB001",
+    "scene_id": "S04",
+    "timecode": "0.0-17.3",
+    "duration_seconds": 17.3,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide village cliff; slow descending crane; rain-grey village wakes below the cliff; stormglass shards embedded in doorframes pulse as Mira, Tam, and the hooded child enter. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow descending crane",
+    "dialogue": "none",
+    "audio_direction": "distant gulls, shutters opening, low glass tremor",
+    "director_note": "enter communal space with fear visible in the environment",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB002",
+    "scene_id": "S04",
+    "timecode": "17.3-30.5",
+    "duration_seconds": 13.2,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. street wide; lateral track; villagers step out between hanging nets; bounty paper is already pinned beside the fish market scale. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "lateral track",
+    "dialogue": "none",
+    "audio_direction": "boots on wet stone, muttering crowd, paper flutter",
+    "director_note": "the bounty has social consequences before anyone speaks",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB003",
+    "scene_id": "S04",
+    "timecode": "30.5-44.5",
+    "duration_seconds": 14.0,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. medium Ilsa; slow push; elder Ilsa blocks the lane with a lantern staff, studying Mira’s scarred hand and the child-shaped glow under her coat. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow push",
+    "dialogue": "ILSA: You bring the navy’s hunger into my village?",
+    "audio_direction": "lantern creak, crowd hush",
+    "director_note": "suspicion enters as protection, not cruelty",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB004",
+    "scene_id": "S04",
+    "timecode": "44.5-58.5",
+    "duration_seconds": 14.0,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. two-shot negotiation; slow tightening; Mira keeps the child behind her and speaks to Ilsa rather than the crowd. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow tightening",
+    "dialogue": "MIRA: I bring warning. Ships come before the second tide.",
+    "audio_direction": "close dialogue over wind; no score",
+    "director_note": "warning compressed into immediate stakes",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB005",
+    "scene_id": "S04",
+    "timecode": "58.5-72.5",
+    "duration_seconds": 14.0,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. insert stormglass shards; macro drift; doorframe shards pulse faster as villagers whisper; the child answers with a frightened chime from inside Mira’s coat. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "macro drift",
+    "dialogue": "VILLAGER: It hears us. It knows.",
+    "audio_direction": "glass harmonics tremble with crowd murmur",
+    "director_note": "collective fear becomes a physical mechanism",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB006",
+    "scene_id": "S04",
+    "timecode": "72.5-82.9",
+    "duration_seconds": 10.4,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide crowd circle; high slow arc; neighbors close the circle, not attacking but refusing passage; Tam positions himself beside Mira instead of apart from her. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "high slow arc",
+    "dialogue": "TAM: You want the reward, say it plain. Do not dress it as caution.",
+    "audio_direction": "crowd breath, boots shifting",
+    "director_note": "Tam publicly completes his ally turn",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB007",
+    "scene_id": "S04",
+    "timecode": "82.9-102.4",
+    "duration_seconds": 19.5,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. close child coat; handheld intimate; the child’s claws clutch Mira’s shirt as blue-white light leaks through cloth. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "handheld intimate",
+    "dialogue": "MIRA whispering: Breathe with me. Not smaller. Safer.",
+    "audio_direction": "three-note lullaby barely voiced; cloth muffles creature chirp",
+    "director_note": "trust regulation rather than suppression",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB008",
+    "scene_id": "S04",
+    "timecode": "102.4-114.4",
+    "duration_seconds": 12.0,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. close Ilsa; static frontal; Ilsa notices that Mira calms the child without striking, chaining, or covering its mouth. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "static frontal",
+    "dialogue": "ILSA: Keeper’s trick?",
+    "audio_direction": "crowd noise drops to wind and breath",
+    "director_note": "witness starts with observed behavior",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB009",
+    "scene_id": "S04",
+    "timecode": "114.4-133.9",
+    "duration_seconds": 19.5,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. medium Mira; slow push; Mira opens her coat just enough for Ilsa to see the child willingly curled against her scarred hand. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow push",
+    "dialogue": "MIRA: Trust makes it answer. Pain only makes it obey.",
+    "audio_direction": "scale chime softens; distant thunder",
+    "director_note": "thesis dramatized for the elder",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB010",
+    "scene_id": "S04",
+    "timecode": "133.9-153.7",
+    "duration_seconds": 19.8,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. insert royal token; overhead macro; Mira removes a weathered royal token from a hidden seam; its nursery flame mark is half-scarred by fire. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "overhead macro",
+    "dialogue": "none",
+    "audio_direction": "metal clicks once, crowd silence",
+    "director_note": "last identity asset becomes visible",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB011",
+    "scene_id": "S04",
+    "timecode": "153.7-166.4",
+    "duration_seconds": 12.7,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. close Mira decision; locked, restrained; Mira looks from the token to the families behind Ilsa, then closes her fingers around it. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "locked, restrained",
+    "dialogue": "MIRA: Boats. Not for me. For them.",
+    "audio_direction": "music drops completely; wave slap and breath",
+    "director_note": "costly protagonist decision",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB012",
+    "scene_id": "S04",
+    "timecode": "166.4-180.4",
+    "duration_seconds": 14.0,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; low angle; Ilsa realizes Mira is surrendering the one object that could buy her own escape or prove rank. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "low angle",
+    "dialogue": "ILSA: That token could carry you farther than any boat.",
+    "audio_direction": "wind and cloth, held silence",
+    "director_note": "cost named without exposition overload",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB013",
+    "scene_id": "S04",
+    "timecode": "180.4-193.3",
+    "duration_seconds": 12.9,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. market action; lateral track; Mira slaps the token onto the boatmaster’s scale; fishhooks, rope, and lantern frames scatter as villagers understand the trade. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "lateral track",
+    "dialogue": "MIRA: Every shallow-bottom boat. Every family below the seawall.",
+    "audio_direction": "scale clang, coins/rope movement, crowd eruption",
+    "director_note": "decision converted immediately into action",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB014",
+    "scene_id": "S04",
+    "timecode": "193.3-205.7",
+    "duration_seconds": 12.4,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide evacuation begins; moving crane; villagers split into ordered lines: children to boats, elders to tunnel, nets cut down for rope. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "moving crane",
+    "dialogue": "none",
+    "audio_direction": "feet, rope snaps, whispered names, boat hull knocks",
+    "director_note": "community becomes participant",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB015",
+    "scene_id": "S04",
+    "timecode": "205.7-224.4",
+    "duration_seconds": 18.7,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. intimate child reaction; close handheld; the child trembles at the surging crowd; Mira shields its eyes but lets it keep its head free. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "close handheld",
+    "dialogue": "MIRA: You choose what to face. I only stand with you.",
+    "audio_direction": "breath and cloth, crowd softened",
+    "director_note": "protection without control repeated visually",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB016",
+    "scene_id": "S04",
+    "timecode": "224.4-240.4",
+    "duration_seconds": 16.0,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. vertical tunnel reveal; tilt down through opening; Ilsa opens a hidden tidal grate; lantern light descends into black water channels below the village. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "tilt down through opening",
+    "dialogue": "ILSA: Boats above. Bodies below. Choose quickly.",
+    "audio_direction": "water echo, grate scrape, distant ship horn",
+    "director_note": "spatial escape geography established",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB017",
+    "scene_id": "S04",
+    "timecode": "240.4-252.7",
+    "duration_seconds": 12.3,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. low tunnel wide; tracking backward; first families descend into tidal tunnels while boat crews carry lanterns across the dark surface above them. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "tracking backward",
+    "dialogue": "none",
+    "audio_direction": "layered water drips, muffled footsteps, hull scraping",
+    "director_note": "vertical composition links crowd and tunnel depth",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB018",
+    "scene_id": "S04",
+    "timecode": "252.7-265.0",
+    "duration_seconds": 12.3,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. close suspicious neighbor; slow push; a neighbor palms the bounty paper and slips toward the signal bell rather than the boats. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow push",
+    "dialogue": "none",
+    "audio_direction": "crowd noise thins; boot steps isolate",
+    "director_note": "internal betrayal pressure introduced visually",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB019",
+    "scene_id": "S04",
+    "timecode": "265.0-277.9",
+    "duration_seconds": 12.9,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. medium Tam interception; whip pan settle; Tam steps into the neighbor’s path, not striking him, simply holding the burned bounty paper where everyone can see it. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "whip pan settle",
+    "dialogue": "TAM: Ash does not pay bounty.",
+    "audio_direction": "paper crackle, crowd murmur",
+    "director_note": "social threat resolved through public evidence",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB020",
+    "scene_id": "S04",
+    "timecode": "277.9-289.9",
+    "duration_seconds": 12.0,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. close Ilsa witness; frontal close; Ilsa shifts fully from suspicion to witness, placing her lantern staff across the tunnel entrance to guard the families. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "frontal close",
+    "dialogue": "ILSA: Let the navy come through an old woman first.",
+    "audio_direction": "lantern metal plant, water echo",
+    "director_note": "elder becomes protective witness",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB021",
+    "scene_id": "S04",
+    "timecode": "289.9-305.9",
+    "duration_seconds": 16.0,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide warships horizon; slow zoom through rain; black navy lanterns appear beyond the outer reef; the village stormglass shards flash in answering fear. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow zoom through rain",
+    "dialogue": "none",
+    "audio_direction": "deep engine thrum enters, glass shards vibrate",
+    "director_note": "deadline becomes visible",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB022",
+    "scene_id": "S04",
+    "timecode": "305.9-317.1",
+    "duration_seconds": 11.2,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. boats action wide; handheld lateral track; half-loaded boats push into dark water while remaining families run the tunnel rope line. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "handheld lateral track",
+    "dialogue": "VILLAGER: Children first!",
+    "audio_direction": "oars, shouted names, water impacts",
+    "director_note": "evacuation momentum peaks",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB023",
+    "scene_id": "S04",
+    "timecode": "317.1-336.6",
+    "duration_seconds": 19.5,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. close Mira/child; tight over-shoulder; the child wants to flare protective light; Mira does not forbid it, only anchors its gaze. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "tight over-shoulder",
+    "dialogue": "MIRA: Not because they fear you. Because you choose when your fear protects them.",
+    "audio_direction": "lullaby fragment, creature breath, distant engines",
+    "director_note": "agency restraint before climax",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S04_SB024",
+    "scene_id": "S04",
+    "timecode": "336.6-360.0",
+    "duration_seconds": 23.4,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final extreme wide; slow retreat upward; lantern evacuation lines vanish into dark water as navy warships enter the bay; Ilsa remains visible at the tunnel mouth while Mira and the child stay exposed on the pier. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow retreat upward",
+    "dialogue": "ILSA shouting: Go! I saw what she is!",
+    "audio_direction": "ship horn, surf, fading crowd, single creature chime",
+    "director_note": "exit on incomplete escape, communal witness, and exposed defenders",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "ilsa_face_costume",
+      "village_geography",
+      "tidal_tunnel_geography",
+      "royal_token_prop",
+      "stormglass_shards",
+      "lantern_boats",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "ilsa_face_costume",
+        "asset_prompt": "continuity reference asset for ilsa_face_costume"
+      },
+      {
+        "dependency": "village_geography",
+        "asset_prompt": "continuity reference asset for village_geography"
+      },
+      {
+        "dependency": "tidal_tunnel_geography",
+        "asset_prompt": "continuity reference asset for tidal_tunnel_geography"
+      },
+      {
+        "dependency": "royal_token_prop",
+        "asset_prompt": "continuity reference asset for royal_token_prop"
+      },
+      {
+        "dependency": "stormglass_shards",
+        "asset_prompt": "continuity reference asset for stormglass_shards"
+      },
+      {
+        "dependency": "lantern_boats",
+        "asset_prompt": "continuity reference asset for lantern_boats"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  }
+]

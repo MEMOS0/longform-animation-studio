@@ -1,0 +1,43 @@
+{
+  "scene_id": "S05",
+  "time_range": "18.9-24.4 minutes",
+  "objective": "midpoint public accusation and maximum shame",
+  "conflict": "the protagonist is publicly accused/arrested/excluded using planted or manipulated evidence",
+  "power_position_start": "publicly accused and close to maximum powerlessness",
+  "power_position_end": "stripped of status but in possession of the decisive question",
+  "turn": "the protagonist is publicly accused/arrested/excluded using planted or manipulated evidence",
+  "protagonist_decision": "defend truth without exposing or endangering the vulnerable ally",
+  "subtext": "Public shame is an attack on identity before it is an attack on facts.",
+  "visual_action": {
+    "first_image": "the original audience/social space is reused for arrest, accusation, or expulsion",
+    "face_reaction": "the protagonist's expression shifts from hard-won hope toward controlled attention when the turn lands",
+    "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+    "final_image": "cracked blue measuring cup visible after the power shift, its meaning altered by: the same cup measures the alloy that proves whose hands made the stolen wings becomes the central question, but the proof chain is incomplete"
+  },
+  "dialogue_design": {
+    "function": "make choices, objections, and proof implications audible rather than explaining theme",
+    "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "I did not take it. Let me prove who did.",
+      "Do not mistake survival for consent.",
+      "You can chain my name, but you can't make the evidence obey you."
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
+    "silence_or_negative_space": "public noise drops into a thin close perspective during the decisive accusation",
+    "motif": "a restrained tactile sound motif"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on the immediate consequence of the previous turn: the guild heir's six-year-old daughter physically crosses the status boundary; an elderly furnace keeper gives shelter and work before any romantic rescue or a lower-status witness sees the public wound clearly while powerful people misread it",
+    "exit_hook": "who planted the proof, and can the victim author the reversal?"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, capability, or relational obligation?",
+    "Is the object/space doing narrative work rather than decorative worldbuilding?",
+    "Is public or institutional pressure expressed through visible behavior rather than exposition?",
+    "Does the protagonist retain agency instead of being rescued into passivity?"
+  ]
+}

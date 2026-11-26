@@ -1,0 +1,176 @@
+{
+  "premise_id": "glasswing_banquet_platform",
+  "failure_intelligence": {
+    "candidate": "They Made Her Eat Below Them, Until a Child Sat Beside Her",
+    "risk_score_0_to_1": 0.364,
+    "confidence": "low_until_script_and_media-evidence comparison is complete",
+    "matched_failure_patterns": [],
+    "nearest_archive_examples": [
+      {
+        "video_id": "xJUN_KOCnME",
+        "title": "He Was Seconds Away From His 8th Championship… Until His Own Family Betrayed Him!",
+        "cohort": "underperforming",
+        "views_per_day": 492.9904761904762,
+        "themes": [
+          "family_child",
+          "modern_wealth_power"
+        ],
+        "similarity": 0.09523809523809522
+      },
+      {
+        "video_id": "VhZV-djnfiA",
+        "title": "She Became a Nanny to Save Her Daughter… Unaware Her Boss Was Her Child’s Father—the DRAGON LORD!",
+        "cohort": "middle",
+        "views_per_day": 2171.233333333333,
+        "themes": [
+          "dragon",
+          "family_child"
+        ],
+        "similarity": 0.0839921051131616
+      },
+      {
+        "video_id": "artArYLREYE",
+        "title": "I Reborn as an 8-Year-Old on the FLIGHT THAT CRASHED… and Only I Know We Are About to Die!",
+        "cohort": "middle",
+        "views_per_day": 6609.009433962264,
+        "themes": [
+          "rebirth_second_chance"
+        ],
+        "similarity": 0.0734930919740164
+      },
+      {
+        "video_id": "j3U5JsLvbLg",
+        "title": "Her Family Sacrificed Her to the Ocean… Now She's the SEA GOD'S QUEEN They Can Never Touch!#AIStory",
+        "cohort": "outperforming",
+        "views_per_day": 17921.0,
+        "themes": [
+          "family_child",
+          "revenge_retribution",
+          "royalty_status",
+          "sea_mermaid"
+        ],
+        "similarity": 0.05698028822981897
+      },
+      {
+        "video_id": "0ofXaXWcfi0",
+        "title": "His Family Tried to Kill Him… Until a MERMAID Saved Him and Changed His Fate Forever!#AIStory",
+        "cohort": "outperforming",
+        "views_per_day": 29355.25,
+        "themes": [
+          "family_child",
+          "sea_mermaid"
+        ],
+        "similarity": 0.04367853486341326
+      },
+      {
+        "video_id": "u9acebqxR-8",
+        "title": "They Called Her a Curse… Unaware She Had the Divine Power to Bring the Forest Back to Life!#AIStory",
+        "cohort": "unknown",
+        "views_per_day": null,
+        "themes": [
+          "rebirth_second_chance",
+          "sacred_special_blood"
+        ],
+        "similarity": 0.0419960525565808
+      },
+      {
+        "video_id": "v03oauoFveU",
+        "title": "They Rejected a Worthless Half-Blood Girl… Unaware She Was the DRAGON KING'S SECRET DAUGHTER#AIStory",
+        "cohort": "outperforming",
+        "views_per_day": 115550.0,
+        "themes": [
+          "dragon",
+          "family_child",
+          "royalty_status",
+          "sacred_special_blood"
+        ],
+        "similarity": 0.03984095364447979
+      },
+      {
+        "video_id": "lcOFpT0B5Uc",
+        "title": "They Humiliated a Poor Human Girl… Unaware She Had Given Birth to the WEREWOLF KING'S HEIR!#AIStory",
+        "cohort": "outperforming",
+        "views_per_day": 18854.973684210527,
+        "themes": [
+          "royalty_status",
+          "wolf_werewolf"
+        ],
+        "similarity": 0.03984095364447979
+      }
+    ],
+    "positive_missing_or_weak": [
+      "No strong hidden identity/secret hook detected; Nov Drama hits often use one, though this is not mandatory.",
+      "No clear mythic creature lane detected; test whether the concept matches the channel audience's demand.",
+      "No early visual proof of the title/thumbnail promise detected; pay the premise in the opening movement rather than reserving it for the finale."
+    ],
+    "decision_guidance": [
+      "Concept does not trigger strong archive-level failure alarms, but retention-safe execution still requires scene-level proof."
+    ],
+    "causal_boundary": "This is pattern-matching against public outcomes and extracted creative signals; it is not a causal predictor of CTR, retention, or audience response."
+  },
+  "format_strategy": {
+    "format_class": "mid_length_feature",
+    "inferred_flags": {
+      "episodic": false,
+      "compilation": false,
+      "serialized": false,
+      "continuation_hook": false
+    },
+    "recommendations": [
+      "Open with embodied stakes before world scale or mythology.",
+      "Use 8-12 minute escalation blocks; each block must change capability, alliance, secret pressure, or cost.",
+      "Deliver a major promise payoff before the midpoint and a deeper relational payoff near the end."
+    ],
+    "warnings": [],
+    "causal_boundary": "Duration/format guidance is observational and channel-dependent; it is not proof of retention or CTR causality."
+  },
+  "meaning_carrier": {
+    "mode": "explicit",
+    "object_or_space": "cracked blue measuring cup",
+    "opening_meaning": "the cup is the only surviving tool from her mother's bench and is treated as junk",
+    "closing_reversal": "the same cup measures the alloy that proves whose hands made the stolen wings",
+    "final_sequence_use": "the object is used openly in the proof/restoration ritual before the final communal meal in the workshop floor mat where the whole guild eventually eats by choice",
+    "score_0_to_1": 0.75,
+    "warnings": [
+      "meaning carrier ending recurrence cannot be verified without architecture sequences"
+    ],
+    "craft_rule": "A physical object, space, sound-object, or ritual should carry the wound in the opening and return with changed meaning in the payoff."
+  },
+  "relational_contract": {
+    "score_0_to_1": 1.0,
+    "fields": {
+      "power_asymmetry": "institutional wealth/status power versus debt-bound worker with no protection",
+      "safety_or_kindness_before_power": "an elderly furnace keeper gives shelter and work before any romantic rescue offers shelter, food, and paid work before knowing his power or status",
+      "costly_protagonist_action": "Sefa protects the child or another worker at cost to her job and refuses humiliating payment even when desperate",
+      "consent_or_personhood_repair": "after the accusation, authority figures must trust her account, return control of the proof, and accept her conditions rather than buying forgiveness",
+      "payoff_image": "the workshop floor mat where the whole guild eventually eats by choice where everyone eats or works by choice while the restored object remains visible"
+    },
+    "warnings": [],
+    "craft_rule": "Power-asymmetric relationships are strongest when safety or costly kindness precedes power, and the ending repairs consent/personhood rather than rewarding coercion."
+  },
+  "spatial_status": {
+    "score_0_to_1": 0.87,
+    "opening_status_spaces": [
+      "platform",
+      "sit"
+    ],
+    "ending_status_spaces": [
+      "floor",
+      "mat"
+    ],
+    "inversion_signals": [
+      "by choice",
+      "open"
+    ],
+    "power_terms": [
+      "public"
+    ],
+    "vulnerable_terms": [
+      "child",
+      "daughter",
+      "keeper"
+    ],
+    "warnings": [],
+    "doctrine": "Define who is physically forced below/outside/inside power, then make the ending transform that space into chosen access, sanctuary, or belonging. Inspired by floor/table and cage/sanctuary evidence."
+  }
+}

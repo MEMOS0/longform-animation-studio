@@ -1,0 +1,41 @@
+{
+  "scene_id": "S08",
+  "time_range": "42-48 minutes",
+  "objective": "end the weaponization logic rather than merely win",
+  "conflict": "using the child's power could defeat Rook but repeat the same violence",
+  "power_position_start": "powerless witness",
+  "power_position_end": "trusted sanctuary keeper",
+  "turn": "control is replaced by trust",
+  "protagonist_decision": "Mira releases the child instead of commanding it",
+  "subtext": "Protection means risking attachment without turning love into control.",
+  "visual_action": {
+    "first_image": "Rook reaching for the control chain",
+    "face_reaction": "the king's certainty breaks as memory-proof appears",
+    "vertical_composition": "crowd, ruler, and creature aligned in one vertical revelation",
+    "final_image": "sunlit stormglass arch as parent and child fly free"
+  },
+  "dialogue_design": {
+    "function": "advance protective choices and power shifts rather than explain lore",
+    "subtext_rule": "Characters rarely say fear or love directly; they negotiate control, debt, blame, and safety.",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "Pain makes it obey. Trust makes it answer.",
+      "You don't save a child by becoming its cage."
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "dialogue remains intelligible under weather and crowd effects",
+    "music_function": "lullaby motif evolves with trust rather than constant emotional wallpaper",
+    "silence_or_negative_space": "drop music before each bonding or revelation beat so breath, scale chimes, and creature calls carry meaning",
+    "motif": "three-note lullaby answered by glassy creature harmonics"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on immediate danger, choice, or visible emotional consequence",
+    "exit_hook": "exit on changed power, new evidence, or an unanswered protective cost"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, or capability?",
+    "Is spectacle tied to the vulnerable child/protector relationship?",
+    "Is exposition converted into a decision or visible event?"
+  ]
+}

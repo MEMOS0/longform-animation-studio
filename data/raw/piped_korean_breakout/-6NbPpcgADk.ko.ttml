@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="ko" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.400" end="00:00:07.000" style="s2">사장님.</p>
+<p begin="00:00:03.000" end="00:00:07.000" style="s2">5시면 빵도 안 일어나요.</p>
+<p begin="00:00:13.100" end="00:00:15.600" style="s2">&gt;&gt; 봐.</p>
+<p begin="00:00:14.200" end="00:00:18.800" style="s2">턱 당기고</p>
+<p begin="00:00:15.600" end="00:00:18.800" style="s2">손바닥으로 먼저 바닥 쳐.</p>
+<p begin="00:00:32.700" end="00:00:37.500" style="s2">&gt;&gt; 됐어요. 소리 들었죠?</p>
+<p begin="00:00:35.600" end="00:00:40.500" style="s2">&gt;&gt; 한 번은 운이야.</p>
+<p begin="00:00:37.500" end="00:00:40.500" style="s2">&gt;&gt; 용감도 극장.</p>
+<p begin="00:00:44.300" end="00:00:49.100" style="s2">&gt;&gt; 오늘 건요?</p>
+<p begin="00:00:46.700" end="00:00:49.100" style="s2">&gt;&gt; 덜 자.</p>
+<p begin="00:00:49.500" end="00:00:52.800" style="s2">&gt;&gt; 덜 자면 성공이죠.</p>
+<p begin="00:01:08.500" end="00:01:13.400" style="s2">&gt;&gt; 경찰 부른 게 아줌마지?</p>
+<p begin="00:01:11.000" end="00:01:13.400" style="s2">&gt;&gt; 그래서요.</p>
+<p begin="00:01:14.015" end="00:01:16.035" style="s2">&gt;&gt; [음악]</p>
+<p begin="00:01:46.300" end="00:01:49.500" style="s2">&gt;&gt; 여전하시네요, 코치님.</p>
+<p begin="00:01:52.661" end="00:01:54.681" style="s2">[음악]</p>
+<p begin="00:01:58.500" end="00:02:03.092" style="s2">테시기가 맡겼던 양복입니다.</p>
+<p begin="00:02:00.892" end="00:02:04.992" style="s2">주름 좀 펴주시죠.</p>
+<p begin="00:02:03.092" end="00:02:07.092" style="s2">코치님 솜씨는 [음악] 여전할</p>
+<p begin="00:02:04.992" end="00:02:10.692" style="s2">테니까.</p>
+<p begin="00:02:07.092" end="00:02:10.692" style="s2">용건만 말해라. 강호야.</p>
+<p begin="00:02:14.292" end="00:02:18.592" style="s2">민재 그 친구 빚</p>
+<p begin="00:02:16.492" end="00:02:20.992" style="s2">제가 샀습니다.</p>
+<p begin="00:02:18.592" end="00:02:20.992" style="s2">2,000</p>
+<p begin="00:02:21.892" end="00:02:27.292" style="s2">대신 기회를 [음악] 주죠.</p>
+<p begin="00:02:24.592" end="00:02:29.892" style="s2">오늘 밤 배달 한 건이면</p>
+<p begin="00:02:27.292" end="00:02:29.892" style="s2">다 지워줍니다.</p>
+<p begin="00:02:31.192" end="00:02:34.092" style="s2">그 아이는 건드리지 마라.</p>
+<p begin="00:02:36.892" end="00:02:41.492" style="s2">15년 [음악] 전에</p>
+<p begin="00:02:38.792" end="00:02:43.092" style="s2">저도 그 말 듣고 싶었는데</p>
+<p begin="00:02:41.492" end="00:02:45.892" style="s2">코치님은 그때</p>
+<p begin="00:02:43.092" end="00:02:45.892" style="s2">저를 버리셨죠.</p>
+<p begin="00:02:53.692" end="00:03:00.292" style="s2">&gt;&gt; 코치님이요?</p>
+<p begin="00:02:55.892" end="00:03:00.292" style="s2">국가대표 소문 진짜였네요.</p>
+<p begin="00:03:01.792" end="00:03:04.892" style="s2">&gt;&gt; 오래전 일입니다.</p>
+<p begin="00:03:08.692" end="00:03:11.592" style="s2">&gt;&gt; 사장님</p>
+<p begin="00:03:09.792" end="00:03:13.882" style="s2">이거 사장님이죠?</p>
+<p begin="00:03:11.592" end="00:03:15.902" style="s2">대표팀 코치요.</p>
+<p begin="00:03:13.882" end="00:03:15.902" style="s2">&gt;&gt; [음악]</p>
+<p begin="00:03:18.392" end="00:03:22.092" style="s2">&gt;&gt; 내 제자가 시합을 팔았다.</p>
+<p begin="00:03:22.892" end="00:03:28.992" style="s2">난 그걸 못 막았고</p>
+<p begin="00:03:26.192" end="00:03:32.492" style="s2">그 애를 내보냈다.</p>
+<p begin="00:03:28.992" end="00:03:32.492" style="s2">&gt;&gt; 그 제자가 그 실장이에요?</p>
+<p begin="00:03:41.292" end="00:03:45.792" style="s2">사장님</p>
+<p begin="00:03:42.392" end="00:03:45.792" style="s2">저 배달 콜 하나만 다녀올게요.</p>
+<p begin="00:03:54.892" end="00:03:57.392" style="s2">&gt;&gt; 코치님</p>
+<p begin="00:03:57.592" end="00:04:00.992" style="s2">제자는 제가 데리고 있습니다.</p>
+<p begin="00:04:01.092" end="00:04:04.094" style="s2">우리 옛날 도장이요.</p>
+<p begin="00:04:04.394" end="00:04:07.094" style="s2">혼자 오세요.</p>
+<p begin="00:04:10.894" end="00:04:13.294" style="s2">&gt;&gt; 갔네.</p>
+<p begin="00:04:19.694" end="00:04:24.594" style="s2">씨름판에서</p>
+<p begin="00:04:21.694" end="00:04:27.994" style="s2">황소 다섯 마리 탄 몸이야.</p>
+<p begin="00:04:24.594" end="00:04:27.994" style="s2">여긴 모래판이 아니다.</p>
+<p begin="00:04:45.794" end="00:04:49.794" style="s2">사장님.</p>
+<p begin="00:04:47.294" end="00:04:49.794" style="s2">사장님!</p>
+<p begin="00:05:02.494" end="00:05:05.494" style="s2">낙법은 배웠거든요.</p>
+<p begin="00:05:28.158" end="00:05:30.178" style="s2">[음악]</p>
+<p begin="00:05:30.194" end="00:05:34.894" style="s2">세 번 쳤다.</p>
+<p begin="00:05:32.594" end="00:05:34.894" style="s2">끝이다.</p>
+<p begin="00:05:47.808" end="00:05:49.828" style="s2">[음악]</p>
+<p begin="00:05:54.359" end="00:05:57.394" style="s2">[음악]</p>
+<p begin="00:05:55.694" end="00:05:59.794" style="s2">녹슬지 않으셨네요.</p>
+<p begin="00:05:57.394" end="00:05:59.794" style="s2">코치님.</p>
+<p begin="00:06:02.394" end="00:06:05.094" style="s2">다음은 너냐?</p>
+<p begin="00:06:05.194" end="00:06:09.695" style="s2">코치님</p>
+<p begin="00:06:06.795" end="00:06:09.695" style="s2">버리고 가셨길래.</p>
+<p begin="00:06:10.095" end="00:06:15.095" style="s2">그날 시합</p>
+<p begin="00:06:12.195" end="00:06:17.895" style="s2">팔라고 시킨 사람이 누군지는</p>
+<p begin="00:06:15.095" end="00:06:17.895" style="s2">아직 모르시죠?</p>
+<p begin="00:06:25.295" end="00:06:29.395" style="s2">&gt;&gt; 괜찮아?</p>
+<p begin="00:06:26.695" end="00:06:29.395" style="s2">다친 데 없어?</p>
+<p begin="00:06:38.895" end="00:06:42.895" style="s2">&gt;&gt; 사장님</p>
+<p begin="00:06:39.795" end="00:06:42.895" style="s2">열 번 다 성공했어요.</p>
+<p begin="00:06:44.695" end="00:06:47.895" style="s2">&gt;&gt; 열 한 번째가 진짜야.</p>
+<p begin="00:06:50.689" end="00:06:52.709" style="s2">[음악]</p>
+<p begin="00:06:54.095" end="00:06:58.195" style="s2">어머니</p>
+<p begin="00:06:55.895" end="00:06:59.795" style="s2">민재 친구입니다.</p>
+<p begin="00:06:58.195" end="00:07:03.295" style="s2">&gt;&gt; 어머</p>
+<p begin="00:06:59.795" end="00:07:03.295" style="s2">우리 민재 친구요?</p>
+<p begin="00:07:05.099" end="00:07:07.119" style="s2">&gt;&gt; [음악]</p>
+<p begin="00:07:12.959" end="00:07:14.979" style="s2">[음악]</p>
+</div>
+</body>
+</tt>

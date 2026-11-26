@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Production QA and postmortem",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "gates",
+    "artifact_qa",
+    "narrative_qa",
+    "post_release_learning_loop"
+  ],
+  "properties": {
+    "gates": {
+      "type": "object",
+      "required": [
+        "A_premise",
+        "B_architecture",
+        "C_screenplay",
+        "D_direction",
+        "E_production",
+        "F_release"
+      ],
+      "properties": {
+        "A_premise": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "B_architecture": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "C_screenplay": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "D_direction": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "E_production": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "F_release": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "artifact_qa": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 8
+    },
+    "narrative_qa": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 8
+    },
+    "post_release_learning_loop": {
+      "type": "object",
+      "required": [
+        "metrics_to_collect",
+        "failure_hypotheses",
+        "revision_rules"
+      ],
+      "properties": {
+        "metrics_to_collect": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "failure_hypotheses": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "revision_rules": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
