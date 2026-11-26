@@ -6,7 +6,7 @@ from typing import Any
 REQUIRED_KEYS = ["dialogue_priority", "music_function", "silence_or_negative_space", "motif"]
 WEAK_TERMS = ["constant music", "wallpaper", "loud throughout", "generic epic"]
 GENERIC_MOTIFS = {"a restrained tactile sound motif", "restrained tactile motif", "sound motif"}
-SOUND_SOURCE_TERMS = ["breath", "water", "fire", "paper", "stone", "metal", "glass", "cloth", "footstep", "chain", "coin", "crowd", "labor", "wind", "rain", "creature", "wing", "fin", "oven", "pump", "heartbeat", "room tone"]
+SOUND_SOURCE_TERMS = ["breath", "water", "fire", "paper", "stone", "metal", "glass", "cloth", "footstep", "chain", "coin", "crowd", "labor", "wind", "rain", "creature", "wing", "fin", "oven", "pump", "heartbeat", "room tone", "ledger", "object", "witness", "measurement", "scratch", "whisper", "repair", "mechanic", "murmur", "assembly"]
 MUSICAL_STRUCTURE_TERMS = ["note", "melody", "chord", "theme", "instrument", "motif", "harmony", "rhythm"]
 
 

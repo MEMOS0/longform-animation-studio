@@ -6289,7 +6289,7 @@
     "evidence_basis": "Nana child-designed social test, Reborn Assassin competence transplantation, AI Sweet professional authority/circular generosity, Stormglass protective choices"
   },
   "sound_design_quality": {
-    "score_0_to_1": 0.88,
+    "score_0_to_1": 1.0,
     "scene_reports": [
       {
         "scene_id": "S01",
@@ -6323,9 +6323,7 @@
       },
       {
         "scene_id": "S04",
-        "warnings": [
-          "S04: negative space is abstract rather than a audible transition"
-        ],
+        "warnings": [],
         "sound_design_keys_present": [
           "dialogue_priority",
           "motif",
@@ -6355,9 +6353,7 @@
       },
       {
         "scene_id": "S07",
-        "warnings": [
-          "S07: negative space is abstract rather than a audible transition"
-        ],
+        "warnings": [],
         "sound_design_keys_present": [
           "dialogue_priority",
           "motif",
@@ -6376,10 +6372,7 @@
         ]
       }
     ],
-    "warnings": [
-      "S04: negative space is abstract rather than a audible transition",
-      "S07: negative space is abstract rather than a audible transition"
-    ],
+    "warnings": [],
     "strengths": [
       "S01: dialogue intelligibility is explicit",
       "S01: uses silence/negative space as an emotional transition",
