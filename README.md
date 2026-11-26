@@ -95,6 +95,9 @@ python -m studio.cli evaluate-idea \
   --candidate "They abandoned the forbidden child, unaware she was the dragon heir" \
   --script-file drafts/premise.md
 
+# 8. Close the learning loop after release
+python -m studio.cli release-postmortem \n  --release release.json \n  --preproduction evaluation.json \n  --cohort cohort_rows.json \n  --output postmortem.json
+
 # 7. Validate machine-readable production artifacts before greenlight
 python -m studio.cli evaluate-project \
   --premise examples/stormglass_keepers/premise.json \

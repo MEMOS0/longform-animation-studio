@@ -369,6 +369,7 @@ Do not advance a project unless each gate passes or has an explicit accepted ris
 - release metadata recorded
 - post-release cohort performance captured
 - lessons written back into failure intelligence and production knowledge
+- run `studio release-postmortem`; compare cohort percentile with preproduction warnings, matched failure patterns, and title risks; output explicit revision rules while preserving causal uncertainty
 
 ## Output standards
 
