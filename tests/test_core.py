@@ -366,3 +366,10 @@ def test_relational_contract_lifted_denial_with_comparative_past():
     from studio.relational_contract import denial_is_unresolved
     assert not denial_is_unresolved("she had no choice. she is no longer denied choice as she was in the past")
     assert denial_is_unresolved("she has no choice now. she was no longer denied choice in the past")
+
+
+def test_abbreviated_episode_title_keeps_episode_guidance():
+    from studio.format_strategy import format_strategy
+    result=format_strategy(10, "Ep. 3 dragon child escapes hunters")
+    assert result["format_class"] == "microdrama_episode"
+    assert result["inferred_flags"]["serialized"] is True

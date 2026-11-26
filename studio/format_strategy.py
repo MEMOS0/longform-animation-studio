@@ -71,10 +71,11 @@ BASE_RULES = {
 
 def infer_format_flags(text: str) -> dict[str, bool]:
     low = text.lower()
+    episodic = bool(re.search(r"\b(episode|ep\.?|part)\s*\d+\b|to be continued|cliffhanger", low))
     return {
-        "episodic": bool(re.search(r"\b(episode|ep\.?|part)\s*\d+\b|to be continued|cliffhanger", low)),
+        "episodic": episodic,
         "compilation": bool(re.search(r"compilation|complete season|full season|season\s*\d+|all episodes|movie marathon", low)),
-        "serialized": bool(re.search(r"serial|series|episode|part|chapter|season", low)),
+        "serialized": episodic or bool(re.search(r"serial|series|episode|part|chapter|season", low)),
         "continuation_hook": bool(re.search(r"to be continued|cliffhanger|next episode|season\s*2", low)),
     }
 
