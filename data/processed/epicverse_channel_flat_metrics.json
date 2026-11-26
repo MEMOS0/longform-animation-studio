@@ -1,176 +1,210 @@
 {
   "channel": "Epicverse Movies",
-  "source": "yt-dlp flat playlist; view counts/search metadata only, not exact upload dates",
+  "source": "yt-dlp flat playlist; exact view counts/durations at collection, upload timestamps unavailable",
   "videos": [
-    {
-      "id": "zs19b2Naino",
-      "title": "FULL MOVIE : He must rescue his wife from the jaws of a giant tiger-and survive.",
-      "view_count": 5
-    },
-    {
-      "id": "Lh2wgnXz7uA",
-      "title": "She Risked Everything to Protect a Lost Dinosaur | The Island Creature | Full Fantasy Movie",
-      "view_count": 323
-    },
-    {
-      "id": "iIRlJpJE7XM",
-      "title": "vs VORRAKS: The Final Battle for Survival | Epic Sci-Fi Movie 4K",
-      "view_count": 1800
-    },
-    {
-      "id": "KNqzfxEXVhw",
-      "title": "Trapped by a GIANT SNAKE… Until a Colossal White Ape Saved Them! | Full AI Movie​",
-      "view_count": 1200
-    },
     {
       "id": "no72LZAVvZQ",
       "title": "The Giant Who Became a Father | The Giant’s Daughter | Epic Fantasy Story 4K",
-      "view_count": 6600000
-    },
-    {
-      "id": "-XiRhlbcYvE",
-      "title": "The Siren They Chained Was the Only One Who Could Save Him | VIVELGAR Prologue 5",
-      "view_count": 991
-    },
-    {
-      "id": "YTsJKrHnY9k",
-      "title": "The Silent Signs of Someone Slowly Falling in Love | Psychology of Love",
-      "view_count": 5000
-    },
-    {
-      "id": "OhN8wHYLMFo",
-      "title": "The Body Language of Someone Slowly Falling in Love | Psychology of Hidden Feelings",
-      "view_count": 4200
-    },
-    {
-      "id": "gzVY65jGMIE",
-      "title": "Eye Contact Becomes Uncomfortable When Feelings Become Obvious | Psychology of Attraction",
-      "view_count": 7500
-    },
-    {
-      "id": "tyMA_4e6p2g",
-      "title": "The Unspoken Signs a Woman Has Secret Feelings for You | Psychology of Female Attraction",
-      "view_count": 2300
-    },
-    {
-      "id": "sKTn4MwivyE",
-      "title": "The Silent Sign Someone Has Quietly Fallen for You | Love Psychology",
-      "view_count": 5800
-    },
-    {
-      "id": "k7o50lDcML8",
-      "title": "Subtle Ways a Woman Tests Your Intentions When She Has a Crush | Female Psychology",
-      "view_count": 2400
-    },
-    {
-      "id": "UuFE39g1UQU",
-      "title": "A Woman’s Behavior Changes Completely When She Develops Genuine Feelings | Psychology of Love",
-      "view_count": 6300
-    },
-    {
-      "id": "7eLZwQ2jF2c",
-      "title": "When Someone Secretly Wants You Back in Their Life | Psychology Signs You Should Notice",
-      "view_count": 1400
-    },
-    {
-      "id": "PhPfPZetvAM",
-      "title": "Why Someone Suddenly Becomes Distant When Feelings Get Stronger | Psychology of Attachment",
-      "view_count": 1200
-    },
-    {
-      "id": "kLBoF7vTqYU",
-      "title": "The Strange Coincidences That Happen Around Strong Attraction | Psychology Explained",
-      "view_count": 3800
-    },
-    {
-      "id": "kSDViaPmppA",
-      "title": "They Act Differently Around You When They Have Feelings for You | Psychology of Attraction",
-      "view_count": 10000
-    },
-    {
-      "id": "R4Xw2YIIxwg",
-      "title": "The Strange Signs Two Hearts Are Emotionally Connected | Psychology of Deep Connection",
-      "view_count": 18000
-    },
-    {
-      "id": "wVHtJMpn3ZQ",
-      "title": "8 Signs Your Connection With Someone Is Deeper Than You Think | Psychology of Deep Connections",
-      "view_count": 13000
-    },
-    {
-      "id": "dxQ2MS3Tzug",
-      "title": "The 3 Psychological Traits That Make Someone Instantly Magnetic | Psychology Says",
-      "view_count": 4900
-    },
-    {
-      "id": "qjlPwgn7aDA",
-      "title": "The Psychological Shift When Someone Falls for You | Psychology of Attraction & Love",
-      "view_count": 9400
-    },
-    {
-      "id": "oOaejOoG3mc",
-      "title": "The Hidden Signs Someone Is Deeply Connected to You | Attachment Psychology Explained",
-      "view_count": 23000
-    },
-    {
-      "id": "mzcRlPWyUOk",
-      "title": "4 Subtle Psychological Clues Someone Can’t Stop Thinking About You",
-      "view_count": 3500
-    },
-    {
-      "id": "_tIg5CeuuP8",
-      "title": "The Unspoken Body Language of True Emotional Attachment | Psychology of Deep Connection",
-      "view_count": 10000
-    },
-    {
-      "id": "X3zpAcdagzQ",
-      "title": "When Someone Is Silently Obsessed With You | Psychology of Hidden Attraction",
-      "view_count": 19000
-    },
-    {
-      "id": "mIDuag6lMJ0",
-      "title": "The Subtle Eye Contact Trick That Exposes Real Feelings | Psychology Explained",
-      "view_count": 1400
+      "view_count": 6600000,
+      "duration_seconds": 701
     },
     {
       "id": "j0RyEodNpIo",
       "title": "When Your Intuition Says Someone Has Feelings for You | Psychology of Hidden Attraction",
-      "view_count": 48000
+      "view_count": 48000,
+      "duration_seconds": 1852
+    },
+    {
+      "id": "oOaejOoG3mc",
+      "title": "The Hidden Signs Someone Is Deeply Connected to You | Attachment Psychology Explained",
+      "view_count": 23000,
+      "duration_seconds": 1396
+    },
+    {
+      "id": "X3zpAcdagzQ",
+      "title": "When Someone Is Silently Obsessed With You | Psychology of Hidden Attraction",
+      "view_count": 19000,
+      "duration_seconds": 1331
+    },
+    {
+      "id": "R4Xw2YIIxwg",
+      "title": "The Strange Signs Two Hearts Are Emotionally Connected | Psychology of Deep Connection",
+      "view_count": 18000,
+      "duration_seconds": 1490
+    },
+    {
+      "id": "wVHtJMpn3ZQ",
+      "title": "8 Signs Your Connection With Someone Is Deeper Than You Think | Psychology of Deep Connections",
+      "view_count": 13000,
+      "duration_seconds": 1135
+    },
+    {
+      "id": "kSDViaPmppA",
+      "title": "They Act Differently Around You When They Have Feelings for You | Psychology of Attraction",
+      "view_count": 10000,
+      "duration_seconds": 1315
+    },
+    {
+      "id": "_tIg5CeuuP8",
+      "title": "The Unspoken Body Language of True Emotional Attachment | Psychology of Deep Connection",
+      "view_count": 10000,
+      "duration_seconds": 1363
+    },
+    {
+      "id": "qjlPwgn7aDA",
+      "title": "The Psychological Shift When Someone Falls for You | Psychology of Attraction & Love",
+      "view_count": 9400,
+      "duration_seconds": 1405
     },
     {
       "id": "V2eLkZkv6EQ",
       "title": "The Invisible Bond Between Two People Who Secretly Love Each Other | Psychology of Hidden Connection",
-      "view_count": 9100
+      "view_count": 9100,
+      "duration_seconds": 1260
     },
     {
-      "id": "z5utd6lCOmc",
-      "title": "5 Hidden Signs Someone Feels Deeply Connected to You | The Psychology of Emotional Connection",
-      "view_count": 1000
+      "id": "gzVY65jGMIE",
+      "title": "Eye Contact Becomes Uncomfortable When Feelings Become Obvious | Psychology of Attraction",
+      "view_count": 7500,
+      "duration_seconds": 674
+    },
+    {
+      "id": "UuFE39g1UQU",
+      "title": "A Woman’s Behavior Changes Completely When She Develops Genuine Feelings | Psychology of Love",
+      "view_count": 6300,
+      "duration_seconds": 1974
+    },
+    {
+      "id": "sKTn4MwivyE",
+      "title": "The Silent Sign Someone Has Quietly Fallen for You | Love Psychology",
+      "view_count": 5800,
+      "duration_seconds": 883
+    },
+    {
+      "id": "YTsJKrHnY9k",
+      "title": "The Silent Signs of Someone Slowly Falling in Love | Psychology of Love",
+      "view_count": 5000,
+      "duration_seconds": 485
+    },
+    {
+      "id": "dxQ2MS3Tzug",
+      "title": "The 3 Psychological Traits That Make Someone Instantly Magnetic | Psychology Says",
+      "view_count": 4900,
+      "duration_seconds": 1183
+    },
+    {
+      "id": "OhN8wHYLMFo",
+      "title": "The Body Language of Someone Slowly Falling in Love | Psychology of Hidden Feelings",
+      "view_count": 4200,
+      "duration_seconds": 627
+    },
+    {
+      "id": "kLBoF7vTqYU",
+      "title": "The Strange Coincidences That Happen Around Strong Attraction | Psychology Explained",
+      "view_count": 3800,
+      "duration_seconds": 1363
     },
     {
       "id": "P8rLC1jZu68",
       "title": "Eye Contact Changes Meaning When Emotions Become Involved",
-      "view_count": 3700
+      "view_count": 3700,
+      "duration_seconds": 2090
     },
     {
-      "id": "BuAdkU4wsxw",
-      "title": "People Behave Differently Around Those They Secretly Admire",
-      "view_count": 1000
+      "id": "mzcRlPWyUOk",
+      "title": "4 Subtle Psychological Clues Someone Can’t Stop Thinking About You",
+      "view_count": 3500,
+      "duration_seconds": 1335
     },
     {
-      "id": "0PCKurJOF3Q",
-      "title": "Attraction Often Begins With Attention Before It Becomes Desire | The Psychology of Attraction",
-      "view_count": 1700
+      "id": "k7o50lDcML8",
+      "title": "Subtle Ways a Woman Tests Your Intentions When She Has a Crush | Female Psychology",
+      "view_count": 2400,
+      "duration_seconds": 1345
     },
     {
-      "id": "MZFnWY9qc8U",
-      "title": "Some People Hide Their Feelings by Acting Completely Uninterested | Psychology Explained",
-      "view_count": 1600
+      "id": "tyMA_4e6p2g",
+      "title": "The Unspoken Signs a Woman Has Secret Feelings for You | Psychology of Female Attraction",
+      "view_count": 2300,
+      "duration_seconds": 1461
     },
     {
       "id": "tDRo0mF5Qqk",
       "title": "Secret Attraction Often Hides Behind Completely Ordinary Behavior | Psychology of Attraction",
-      "view_count": 2100
+      "view_count": 2100,
+      "duration_seconds": 2635
+    },
+    {
+      "id": "iIRlJpJE7XM",
+      "title": "vs VORRAKS: The Final Battle for Survival | Epic Sci-Fi Movie 4K",
+      "view_count": 1800,
+      "duration_seconds": 818
+    },
+    {
+      "id": "0PCKurJOF3Q",
+      "title": "Attraction Often Begins With Attention Before It Becomes Desire | The Psychology of Attraction",
+      "view_count": 1700,
+      "duration_seconds": 1834
+    },
+    {
+      "id": "MZFnWY9qc8U",
+      "title": "Some People Hide Their Feelings by Acting Completely Uninterested | Psychology Explained",
+      "view_count": 1600,
+      "duration_seconds": 2243
+    },
+    {
+      "id": "7eLZwQ2jF2c",
+      "title": "When Someone Secretly Wants You Back in Their Life | Psychology Signs You Should Notice",
+      "view_count": 1400,
+      "duration_seconds": 1216
+    },
+    {
+      "id": "mIDuag6lMJ0",
+      "title": "The Subtle Eye Contact Trick That Exposes Real Feelings | Psychology Explained",
+      "view_count": 1400,
+      "duration_seconds": 1602
+    },
+    {
+      "id": "KNqzfxEXVhw",
+      "title": "Trapped by a GIANT SNAKE… Until a Colossal White Ape Saved Them! | Full AI Movie​",
+      "view_count": 1200,
+      "duration_seconds": 397
+    },
+    {
+      "id": "PhPfPZetvAM",
+      "title": "Why Someone Suddenly Becomes Distant When Feelings Get Stronger | Psychology of Attachment",
+      "view_count": 1200,
+      "duration_seconds": 1418
+    },
+    {
+      "id": "z5utd6lCOmc",
+      "title": "5 Hidden Signs Someone Feels Deeply Connected to You | The Psychology of Emotional Connection",
+      "view_count": 1000,
+      "duration_seconds": 1260
+    },
+    {
+      "id": "BuAdkU4wsxw",
+      "title": "People Behave Differently Around Those They Secretly Admire",
+      "view_count": 1000,
+      "duration_seconds": 1440
+    },
+    {
+      "id": "-XiRhlbcYvE",
+      "title": "The Siren They Chained Was the Only One Who Could Save Him | VIVELGAR Prologue 5",
+      "view_count": 991,
+      "duration_seconds": 455
+    },
+    {
+      "id": "Lh2wgnXz7uA",
+      "title": "She Risked Everything to Protect a Lost Dinosaur | The Island Creature | Full Fantasy Movie",
+      "view_count": 323,
+      "duration_seconds": 1029
+    },
+    {
+      "id": "zs19b2Naino",
+      "title": "FULL MOVIE : He must rescue his wife from the jaws of a giant tiger-and survive.",
+      "view_count": 5,
+      "duration_seconds": 3563
     }
   ]
 }
