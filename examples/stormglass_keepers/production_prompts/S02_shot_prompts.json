@@ -1,0 +1,1082 @@
+[
+  {
+    "shot_id": "S02_SB001",
+    "scene_id": "S02",
+    "timecode": "0.0-15.0",
+    "duration_seconds": 15,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. extreme wide cliff; slow lateral drift; lantern ships comb wet cliffs while the lighthouse beam rotates blindly above black rocks. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow lateral drift",
+    "dialogue": "none",
+    "audio_direction": "wind, surf, distant engine thrum",
+    "director_note": "open on geography and pursuit",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "lighthouse_geography",
+      "ledger_prop",
+      "tam_costume",
+      "searchlight_direction"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "lighthouse_geography",
+        "asset_prompt": "continuity reference asset for lighthouse_geography"
+      },
+      {
+        "dependency": "ledger_prop",
+        "asset_prompt": "continuity reference asset for ledger_prop"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "searchlight_direction",
+        "asset_prompt": "continuity reference asset for searchlight_direction"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S02_SB002",
+    "scene_id": "S02",
+    "timecode": "15.0-30.0",
+    "duration_seconds": 15,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. interior wide; low upward angle; Mira shuts the inner shutter; the dragon child hides inside her open coat, blue light leaking through cloth. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "low upward angle",
+    "dialogue": "MIRA: Not yet. Breathe first.",
+    "audio_direction": "muffled storm, tiny scale chimes",
+    "director_note": "concealment plus intimacy",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "lighthouse_geography",
+      "ledger_prop",
+      "tam_costume",
+      "searchlight_direction"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "lighthouse_geography",
+        "asset_prompt": "continuity reference asset for lighthouse_geography"
+      },
+      {
+        "dependency": "ledger_prop",
+        "asset_prompt": "continuity reference asset for ledger_prop"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "searchlight_direction",
+        "asset_prompt": "continuity reference asset for searchlight_direction"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S02_SB003",
+    "scene_id": "S02",
+    "timecode": "30.0-45.0",
+    "duration_seconds": 15,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. insert receiver; macro rack focus; cracked radio repeats the bounty: scarred left hand, keeper braid, glass creature. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "macro rack focus",
+    "dialogue": "RADIO: Scarred hand. Keeper braid. Alive if possible.",
+    "audio_direction": "radio static dominates",
+    "director_note": "recognition threat made concrete",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "lighthouse_geography",
+      "ledger_prop",
+      "tam_costume",
+      "searchlight_direction"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "lighthouse_geography",
+        "asset_prompt": "continuity reference asset for lighthouse_geography"
+      },
+      {
+        "dependency": "ledger_prop",
+        "asset_prompt": "continuity reference asset for ledger_prop"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "searchlight_direction",
+        "asset_prompt": "continuity reference asset for searchlight_direction"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S02_SB004",
+    "scene_id": "S02",
+    "timecode": "45.0-60.0",
+    "duration_seconds": 15,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. insert ledger; overhead macro; ledger shows villager names, boat times, and tide-safe cottages in Mira’s hand. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "overhead macro",
+    "dialogue": "none",
+    "audio_direction": "paper flap, child whimper",
+    "director_note": "the object at risk is communal trust",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "lighthouse_geography",
+      "ledger_prop",
+      "tam_costume",
+      "searchlight_direction"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "lighthouse_geography",
+        "asset_prompt": "continuity reference asset for lighthouse_geography"
+      },
+      {
+        "dependency": "ledger_prop",
+        "asset_prompt": "continuity reference asset for ledger_prop"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "searchlight_direction",
+        "asset_prompt": "continuity reference asset for searchlight_direction"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S02_SB005",
+    "scene_id": "S02",
+    "timecode": "60.0-75.0",
+    "duration_seconds": 15,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. close Mira hand; slow push; Mira closes her scarred hand around the dead receiver, then looks from ledger to child. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow push",
+    "dialogue": "MIRA: They do not get the map of us.",
+    "audio_direction": "sudden silence, buoy bell",
+    "director_note": "active protective decision",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "lighthouse_geography",
+      "ledger_prop",
+      "tam_costume",
+      "searchlight_direction"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "lighthouse_geography",
+        "asset_prompt": "continuity reference asset for lighthouse_geography"
+      },
+      {
+        "dependency": "ledger_prop",
+        "asset_prompt": "continuity reference asset for ledger_prop"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "searchlight_direction",
+        "asset_prompt": "continuity reference asset for searchlight_direction"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S02_SB006",
+    "scene_id": "S02",
+    "timecode": "75.0-90.0",
+    "duration_seconds": 15,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. vertical shaft wide; high angle down; searchlight sweeps the stairwell as Mira, child, and ledger descend into shadow. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "high angle down",
+    "dialogue": "none",
+    "audio_direction": "metal stairs, rising wind",
+    "director_note": "required vertical composition",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "lighthouse_geography",
+      "ledger_prop",
+      "tam_costume",
+      "searchlight_direction"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "lighthouse_geography",
+        "asset_prompt": "continuity reference asset for lighthouse_geography"
+      },
+      {
+        "dependency": "ledger_prop",
+        "asset_prompt": "continuity reference asset for ledger_prop"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "searchlight_direction",
+        "asset_prompt": "continuity reference asset for searchlight_direction"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S02_SB007",
+    "scene_id": "S02",
+    "timecode": "90.0-105.0",
+    "duration_seconds": 15,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. close child; shallow focus; child sees the beam; scales flare and lantern glass frosts with hairline cracks. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "shallow focus",
+    "dialogue": "CHILD: small fractured cry",
+    "audio_direction": "glass resonance, no music",
+    "director_note": "fear creates physical consequences",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "lighthouse_geography",
+      "ledger_prop",
+      "tam_costume",
+      "searchlight_direction"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "lighthouse_geography",
+        "asset_prompt": "continuity reference asset for lighthouse_geography"
+      },
+      {
+        "dependency": "ledger_prop",
+        "asset_prompt": "continuity reference asset for ledger_prop"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "searchlight_direction",
+        "asset_prompt": "continuity reference asset for searchlight_direction"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S02_SB008",
+    "scene_id": "S02",
+    "timecode": "105.0-120.0",
+    "duration_seconds": 15,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. medium two-shot; handheld tightening; Tam slips through the service door, sees the creature, and almost bolts. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "handheld tightening",
+    "dialogue": "TAM: You brought the storm inside my lighthouse? MIRA: It is a child, not weather.",
+    "audio_direction": "rain bursts against door",
+    "director_note": "ally enters through fear",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "lighthouse_geography",
+      "ledger_prop",
+      "tam_costume",
+      "searchlight_direction"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "lighthouse_geography",
+        "asset_prompt": "continuity reference asset for lighthouse_geography"
+      },
+      {
+        "dependency": "ledger_prop",
+        "asset_prompt": "continuity reference asset for ledger_prop"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "searchlight_direction",
+        "asset_prompt": "continuity reference asset for searchlight_direction"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S02_SB009",
+    "scene_id": "S02",
+    "timecode": "120.0-135.0",
+    "duration_seconds": 15,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. insert match and sink; macro; Mira burns the ledger in the metal sink; flame reflects in the child’s glass eye. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "macro",
+    "dialogue": "MIRA: Paper burns. People do not.",
+    "audio_direction": "match strike isolated, small fire",
+    "director_note": "destroying safety to protect people",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "lighthouse_geography",
+      "ledger_prop",
+      "tam_costume",
+      "searchlight_direction"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "lighthouse_geography",
+        "asset_prompt": "continuity reference asset for lighthouse_geography"
+      },
+      {
+        "dependency": "ledger_prop",
+        "asset_prompt": "continuity reference asset for ledger_prop"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "searchlight_direction",
+        "asset_prompt": "continuity reference asset for searchlight_direction"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S02_SB010",
+    "scene_id": "S02",
+    "timecode": "135.0-150.0",
+    "duration_seconds": 15,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. cracked-door POV; held frame; soldiers force the outer door; lantern light cuts across dust and rope coils. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "held frame",
+    "dialogue": "SOLDIER offscreen: Open in the king’s name!",
+    "audio_direction": "door boom, helmet clatter",
+    "director_note": "pressure enters spatially",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "lighthouse_geography",
+      "ledger_prop",
+      "tam_costume",
+      "searchlight_direction"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "lighthouse_geography",
+        "asset_prompt": "continuity reference asset for lighthouse_geography"
+      },
+      {
+        "dependency": "ledger_prop",
+        "asset_prompt": "continuity reference asset for ledger_prop"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "searchlight_direction",
+        "asset_prompt": "continuity reference asset for searchlight_direction"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S02_SB011",
+    "scene_id": "S02",
+    "timecode": "150.0-165.0",
+    "duration_seconds": 15,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. close Mira and child; very tight intimate; child panics at the king’s name; Mira cups it without covering its eyes and hums three notes. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "very tight intimate",
+    "dialogue": "MIRA humming three notes",
+    "audio_direction": "music drops out; hum, breath, sea",
+    "director_note": "trust offered rather than imposed",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "lighthouse_geography",
+      "ledger_prop",
+      "tam_costume",
+      "searchlight_direction"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "lighthouse_geography",
+        "asset_prompt": "continuity reference asset for lighthouse_geography"
+      },
+      {
+        "dependency": "ledger_prop",
+        "asset_prompt": "continuity reference asset for ledger_prop"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "searchlight_direction",
+        "asset_prompt": "continuity reference asset for searchlight_direction"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S02_SB012",
+    "scene_id": "S02",
+    "timecode": "165.0-180.0",
+    "duration_seconds": 15,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. macro child face; settle slowly; child answers the third note with a fragile glass harmonic; cracks stop spreading. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "settle slowly",
+    "dialogue": "none",
+    "audio_direction": "three-note call-and-response",
+    "director_note": "motif evolves through trust",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "lighthouse_geography",
+      "ledger_prop",
+      "tam_costume",
+      "searchlight_direction"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "lighthouse_geography",
+        "asset_prompt": "continuity reference asset for lighthouse_geography"
+      },
+      {
+        "dependency": "ledger_prop",
+        "asset_prompt": "continuity reference asset for ledger_prop"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "searchlight_direction",
+        "asset_prompt": "continuity reference asset for searchlight_direction"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S02_SB013",
+    "scene_id": "S02",
+    "timecode": "180.0-195.0",
+    "duration_seconds": 15,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. medium Mira; lateral track; Mira lifts a supply crate, sees the child fear its wooden walls, and lowers it. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "lateral track",
+    "dialogue": "MIRA: You don’t save a child by becoming its cage.",
+    "audio_direction": "wood scrape, cloth movement",
+    "director_note": "trust/cage theme embodied",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "lighthouse_geography",
+      "ledger_prop",
+      "tam_costume",
+      "searchlight_direction"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "lighthouse_geography",
+        "asset_prompt": "continuity reference asset for lighthouse_geography"
+      },
+      {
+        "dependency": "ledger_prop",
+        "asset_prompt": "continuity reference asset for ledger_prop"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "searchlight_direction",
+        "asset_prompt": "continuity reference asset for searchlight_direction"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S02_SB014",
+    "scene_id": "S02",
+    "timecode": "195.0-210.0",
+    "duration_seconds": 15,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. insert scarf hand; macro; child voluntarily hooks its claw into Mira’s scarf instead of being placed inside the crate. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "macro",
+    "dialogue": "none",
+    "audio_direction": "soft claw on fabric",
+    "director_note": "child agency confirmed visually",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "lighthouse_geography",
+      "ledger_prop",
+      "tam_costume",
+      "searchlight_direction"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "lighthouse_geography",
+        "asset_prompt": "continuity reference asset for lighthouse_geography"
+      },
+      {
+        "dependency": "ledger_prop",
+        "asset_prompt": "continuity reference asset for ledger_prop"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "searchlight_direction",
+        "asset_prompt": "continuity reference asset for searchlight_direction"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S02_SB015",
+    "scene_id": "S02",
+    "timecode": "210.0-225.0",
+    "duration_seconds": 15,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. overhead soldiers; wide; soldiers find smoking ledger ash; one lifts a half-burned tide-mark fragment. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "wide",
+    "dialogue": "SOLDIER: She was here. Find the boats.",
+    "audio_direction": "paper ash crackle",
+    "director_note": "evidence race continues",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "lighthouse_geography",
+      "ledger_prop",
+      "tam_costume",
+      "searchlight_direction"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "lighthouse_geography",
+        "asset_prompt": "continuity reference asset for lighthouse_geography"
+      },
+      {
+        "dependency": "ledger_prop",
+        "asset_prompt": "continuity reference asset for ledger_prop"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "searchlight_direction",
+        "asset_prompt": "continuity reference asset for searchlight_direction"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S02_SB016",
+    "scene_id": "S02",
+    "timecode": "225.0-240.0",
+    "duration_seconds": 15,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. tunnel low wide; backward tracking; Mira enters tidal tunnel; child glow reveals carved tide marks while water rises. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "backward tracking",
+    "dialogue": "MIRA: Eyes on the marks. Not the dark.",
+    "audio_direction": "water rush, echoing boots",
+    "director_note": "escape uses established geography",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "lighthouse_geography",
+      "ledger_prop",
+      "tam_costume",
+      "searchlight_direction"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "lighthouse_geography",
+        "asset_prompt": "continuity reference asset for lighthouse_geography"
+      },
+      {
+        "dependency": "ledger_prop",
+        "asset_prompt": "continuity reference asset for ledger_prop"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "searchlight_direction",
+        "asset_prompt": "continuity reference asset for searchlight_direction"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S02_SB017",
+    "scene_id": "S02",
+    "timecode": "240.0-255.0",
+    "duration_seconds": 15,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. ext cliff door; whip pan settle; Mira bursts onto the ledge; lantern ships pivot toward the blue glow. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "whip pan settle",
+    "dialogue": "SOLDIER above: Light on the ledge!",
+    "audio_direction": "metal clang, engine pitch change",
+    "director_note": "escape becomes visible risk",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "lighthouse_geography",
+      "ledger_prop",
+      "tam_costume",
+      "searchlight_direction"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "lighthouse_geography",
+        "asset_prompt": "continuity reference asset for lighthouse_geography"
+      },
+      {
+        "dependency": "ledger_prop",
+        "asset_prompt": "continuity reference asset for ledger_prop"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "searchlight_direction",
+        "asset_prompt": "continuity reference asset for searchlight_direction"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S02_SB018",
+    "scene_id": "S02",
+    "timecode": "255.0-270.0",
+    "duration_seconds": 15,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide lighthouse base; low angle; Tam’s cut service stair tears loose and pulls storm-weakened fascia down between pursuers and escape path. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "low angle",
+    "dialogue": "none",
+    "audio_direction": "massive stone and metal collapse",
+    "director_note": "collapse caused by escape mechanics",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "lighthouse_geography",
+      "ledger_prop",
+      "tam_costume",
+      "searchlight_direction"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "lighthouse_geography",
+        "asset_prompt": "continuity reference asset for lighthouse_geography"
+      },
+      {
+        "dependency": "ledger_prop",
+        "asset_prompt": "continuity reference asset for ledger_prop"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "searchlight_direction",
+        "asset_prompt": "continuity reference asset for searchlight_direction"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S02_SB019",
+    "scene_id": "S02",
+    "timecode": "270.0-285.0",
+    "duration_seconds": 15,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. tracking cliff path; urgent lateral; Mira runs the narrow ledge, shielding the child’s glow with her body instead of forcing it dark. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "urgent lateral",
+    "dialogue": "MIRA: Glow if you need to. I will carry the cost.",
+    "audio_direction": "wind blast, cloth snap, surf",
+    "director_note": "care does not suppress the child",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "lighthouse_geography",
+      "ledger_prop",
+      "tam_costume",
+      "searchlight_direction"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "lighthouse_geography",
+        "asset_prompt": "continuity reference asset for lighthouse_geography"
+      },
+      {
+        "dependency": "ledger_prop",
+        "asset_prompt": "continuity reference asset for ledger_prop"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "searchlight_direction",
+        "asset_prompt": "continuity reference asset for searchlight_direction"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S02_SB020",
+    "scene_id": "S02",
+    "timecode": "285.0-300.0",
+    "duration_seconds": 15,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final cave tracking; slow backward push; Mira reaches the sea-cave shadow as the lighthouse collapses behind them; child remains voluntarily curled in her coat. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow backward push",
+    "dialogue": "RADIO faintly: She cannot stay hidden forever.",
+    "audio_direction": "collapse recedes under unresolved lullaby harmonic",
+    "director_note": "final image: committed fugitive protector",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "lighthouse_geography",
+      "ledger_prop",
+      "tam_costume",
+      "searchlight_direction"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "lighthouse_geography",
+        "asset_prompt": "continuity reference asset for lighthouse_geography"
+      },
+      {
+        "dependency": "ledger_prop",
+        "asset_prompt": "continuity reference asset for ledger_prop"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "searchlight_direction",
+        "asset_prompt": "continuity reference asset for searchlight_direction"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  }
+]

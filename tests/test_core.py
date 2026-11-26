@@ -403,3 +403,15 @@ def test_parse_ttml_supports_webvtt_word_timed_captions(tmp_path):
     cues=parse_ttml(p)
     assert cues[0]['start']==1.0
     assert 'Give me that.' in cues[0]['text']
+
+
+def test_storyboard_production_manifest_export(tmp_path):
+    from pathlib import Path
+    from studio.storyboard_production import export_manifest
+    out=export_manifest(Path('examples/stormglass_keepers/storyboards'),tmp_path,'stormglass')
+    assert out['shot_count']==sum(x['shot_count'] for x in out['scenes'])
+    assert out['lane_counts']['hero'] < out['shot_count'] * 0.5
+    assert out['reference_assets']
+    first=out['shots'][0]
+    assert 'watermark' in first['negative_prompt']
+    assert first['qa_checks']

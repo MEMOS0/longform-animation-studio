@@ -99,3 +99,14 @@ Do not strip evidence to make the repository look clean. If generated evidence i
 2. machine-readable contracts or evaluators when the lesson is repeatable,
 3. `CONTINUATION.md`,
 4. tests or example evaluation when logic changes.
+
+## Production prompt export
+
+After exact storyboards validate, export per-shot generation prompts and continuity asset requirements without spending money:
+
+```bash
+python -m studio.cli export-production-prompts --storyboards examples/stormglass_keepers/storyboards --output-dir examples/stormglass_keepers/production_prompts --project-id stormglass_keepers
+```
+
+This creates planning manifests only. Paid generation requires explicit approval and provider pricing review.
+

@@ -12,6 +12,7 @@ from .features import enrich_records
 from .media_analysis import analyze_video
 from .production import evaluate_project
 from .release_learning import release_postmortem
+from .storyboard_production import export_manifest
 from .youtube_archive import collect
 
 
@@ -53,6 +54,11 @@ def main() -> None:
     project_p.add_argument("--archive", default="data/processed/novdrama_analysis_rows.json")
     project_p.add_argument("--output", required=True)
 
+    prompts_p = sub.add_parser("export-production-prompts")
+    prompts_p.add_argument("--storyboards", required=True)
+    prompts_p.add_argument("--output-dir", required=True)
+    prompts_p.add_argument("--project-id", default="project")
+
     post_p = sub.add_parser("release-postmortem")
     post_p.add_argument("--release", required=True, help="release metadata JSON with video_id,title,views,age_days")
     post_p.add_argument("--preproduction", default="")
@@ -86,6 +92,9 @@ def main() -> None:
         output.parent.mkdir(parents=True, exist_ok=True)
         output.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
         print(output)
+    elif args.command == "export-production-prompts":
+        result = export_manifest(Path(args.storyboards), Path(args.output_dir), args.project_id)
+        print(json.dumps({"output": str(Path(args.output_dir) / "production_manifest.json"), "shot_count": result["shot_count"], "scene_count": result["scene_count"]}, indent=2))
     elif args.command == "release-postmortem":
         release = json.loads(Path(args.release).read_text(encoding="utf-8"))
         pre = json.loads(Path(args.preproduction).read_text(encoding="utf-8")) if args.preproduction else None

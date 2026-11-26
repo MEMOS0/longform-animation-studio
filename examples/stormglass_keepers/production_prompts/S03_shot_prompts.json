@@ -1,0 +1,1602 @@
+[
+  {
+    "shot_id": "S03_SB001",
+    "scene_id": "S03",
+    "timecode": "0.0-14.4",
+    "duration_seconds": 14.4,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide cave mouth; slow push through rain-haze; grey surf frames the black sea-cave; inside, the dragon child recoils from a metal cup as if it were a trap. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow push through rain-haze",
+    "dialogue": "none",
+    "audio_direction": "surf recedes to almost nothing; scale chimes are isolated",
+    "director_note": "open after escape with trauma, not exposition",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB002",
+    "scene_id": "S03",
+    "timecode": "14.4-28.8",
+    "duration_seconds": 14.4,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. insert metal cup; macro rack focus; condensation slides down the metal cup; reflected torchlight warps into cage-bar stripes across the cup rim. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "macro rack focus",
+    "dialogue": "none",
+    "audio_direction": "metal tick, child hiss, no music",
+    "director_note": "make the object carry captivity memory",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB003",
+    "scene_id": "S03",
+    "timecode": "28.8-43.2",
+    "duration_seconds": 14.4,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. intimate closeup; handheld settle; Mira lowers the cup and studies the child’s eyes instead of forcing food toward it. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "handheld settle",
+    "dialogue": "MIRA: It is not the food, is it?",
+    "audio_direction": "breath close; distant water drips",
+    "director_note": "diagnosis through attention",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB004",
+    "scene_id": "S03",
+    "timecode": "43.2-57.6",
+    "duration_seconds": 14.4,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; lateral slide; Tam shakes rain from his coat and glances from the child’s glow to the bounty paper folded in his hand. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "lateral slide",
+    "dialogue": "TAM: Information feeds people too.",
+    "audio_direction": "cloth shake, paper crease, low cave rumble",
+    "director_note": "introduce profit pressure without villainy",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB005",
+    "scene_id": "S03",
+    "timecode": "57.6-72.0",
+    "duration_seconds": 14.4,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. medium Mira; slow tightening; Mira steps between Tam and the child, not threatening him but closing the sightline. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow tightening",
+    "dialogue": "MIRA: Then eat bread. Do not sell a child.",
+    "audio_direction": "voice close and dry; child claws scrape stone",
+    "director_note": "boundary stated as protection",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB006",
+    "scene_id": "S03",
+    "timecode": "72.0-86.4",
+    "duration_seconds": 14.4,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. insert bounty paper; overhead macro; Tam’s thumb rubs the bounty ink; the child’s blue pulse reflects across the reward number. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "overhead macro",
+    "dialogue": "TAM: Pain makes it obey. That is what they will pay for.",
+    "audio_direction": "paper rasp under a drop of water",
+    "director_note": "temptation made tactile",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB007",
+    "scene_id": "S03",
+    "timecode": "86.4-100.8",
+    "duration_seconds": 14.4,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. close Mira; static, restrained; Mira answers without looking away from the frightened child. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "static, restrained",
+    "dialogue": "MIRA: Pain makes it obey. Trust makes it answer.",
+    "audio_direction": "music drops fully; heartbeat-like low pulse remains",
+    "director_note": "core thesis in dialogue",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB008",
+    "scene_id": "S03",
+    "timecode": "100.8-115.2",
+    "duration_seconds": 14.4,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide action; slow arc; the child bolts deeper into the cave when Tam’s metal hook clicks against his belt. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow arc",
+    "dialogue": "none",
+    "audio_direction": "sharp metal click, panicked chirp, scuffling claws",
+    "director_note": "conflict escalates through sound trigger",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB009",
+    "scene_id": "S03",
+    "timecode": "115.2-129.6",
+    "duration_seconds": 14.4,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. low two-shot; floor-level pan; Mira kneels to child height and places the metal cup outside the circle of reach. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "floor-level pan",
+    "dialogue": "MIRA: No cage here. Not even a small one.",
+    "audio_direction": "cup slides away; cave echo softens",
+    "director_note": "visible removal of threat",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB010",
+    "scene_id": "S03",
+    "timecode": "129.6-144.0",
+    "duration_seconds": 14.4,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. insert scarred hand; macro lateral move; Mira unfastens her protective glove, revealing the scarred hand the bounty notice described. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "macro lateral move",
+    "dialogue": "TAM: If it bites, the scar will be the least of it.",
+    "audio_direction": "leather strap, held breath",
+    "director_note": "costly trust begins",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB011",
+    "scene_id": "S03",
+    "timecode": "144.0-158.4",
+    "duration_seconds": 14.4,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. extreme closeup; almost static; Mira extends bare fingers toward the child but does not touch it. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "almost static",
+    "dialogue": "MIRA: You choose.",
+    "audio_direction": "no music; breath, saliva-click, tiny scale vibration",
+    "director_note": "agency before contact",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB012",
+    "scene_id": "S03",
+    "timecode": "158.4-172.8",
+    "duration_seconds": 14.4,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. intimate creature closeup; micro push; the child lunges and bites Mira’s scarred hand; her whole body tightens but her hand stays open. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "micro push",
+    "dialogue": "MIRA: Ah—steady. Steady.",
+    "audio_direction": "bite impact, sharp inhale, silence around it",
+    "director_note": "accept the cost without control",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB013",
+    "scene_id": "S03",
+    "timecode": "172.8-187.2",
+    "duration_seconds": 14.4,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. insert blood and scales; macro rack focus; blood beads along the scar while the child’s scales flicker from hostile white-blue to softer glass-green. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "macro rack focus",
+    "dialogue": "none",
+    "audio_direction": "heartbeat slows; scale chimes descend in pitch",
+    "director_note": "bond visualized through color shift",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB014",
+    "scene_id": "S03",
+    "timecode": "187.2-201.6",
+    "duration_seconds": 14.4,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. close Mira pain; slow settle; Mira’s pain flashes across her face, but she smiles once and keeps perfectly still. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow settle",
+    "dialogue": "MIRA: You do not have to be gentle to be safe.",
+    "audio_direction": "strained breath, distant surf",
+    "director_note": "care does not demand instant perfection",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB015",
+    "scene_id": "S03",
+    "timecode": "201.6-216.0",
+    "duration_seconds": 14.4,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. creature POV overhand; gentle floating drift; the child releases the bite and sees not a cage door closing, but Mira’s open palm waiting. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "gentle floating drift",
+    "dialogue": "none",
+    "audio_direction": "three-note lullaby begins as breath rather than score",
+    "director_note": "point-of-view conversion",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB016",
+    "scene_id": "S03",
+    "timecode": "216.0-230.4",
+    "duration_seconds": 14.4,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. two-shot trust; slow vertical tilt; the child touches its forehead to Mira’s scarred hand; Tam instinctively hides the metal hook behind his back. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow vertical tilt",
+    "dialogue": "TAM: It chose you.",
+    "audio_direction": "cloth movement, tiny creature purr, lullaby fragment",
+    "director_note": "turn confirmed; Tam changes behavior",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB017",
+    "scene_id": "S03",
+    "timecode": "230.4-244.8",
+    "duration_seconds": 14.4,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. insert wooden bowl; macro overhead; Mira tears bread into a carved wooden bowl and mixes fish oil with her fingers instead of metal utensils. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "macro overhead",
+    "dialogue": "MIRA: Wood, then. We learn what safety feels like.",
+    "audio_direction": "bread tear, oil slick, child sniff",
+    "director_note": "trust converted into practical feeding care",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB018",
+    "scene_id": "S03",
+    "timecode": "244.8-259.2",
+    "duration_seconds": 14.4,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. medium feeding; slow lateral drift; the child eats in quick frightened bites, watching the cave mouth; Mira does not interrupt or grab it. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow lateral drift",
+    "dialogue": "none",
+    "audio_direction": "rain, bite sounds, small satisfied chirr",
+    "director_note": "feeding as earned behavior not montage",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB019",
+    "scene_id": "S03",
+    "timecode": "259.2-273.6",
+    "duration_seconds": 14.4,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide cave glow; controlled pullback; scale-light blooms across the cave walls, forming faint moving shapes like windows opening underwater. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "controlled pullback",
+    "dialogue": "none",
+    "audio_direction": "glassy harmonics answer the lullaby motif",
+    "director_note": "memory system activated",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB020",
+    "scene_id": "S03",
+    "timecode": "273.6-288.0",
+    "duration_seconds": 14.4,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. memory projection wide; slow rotating pan; floating memory-shapes show a nursery filled with young creatures, keeper uniforms, and Mira’s younger silhouette opening a door. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow rotating pan",
+    "dialogue": "TAM: That is you.",
+    "audio_direction": "memory hum, distant fire crackle",
+    "director_note": "backstory embodied rather than narrated",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB021",
+    "scene_id": "S03",
+    "timecode": "288.0-302.4",
+    "duration_seconds": 14.4,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. memory insert nursery fire; macro moving light; the projection shows Admiral Rook sealing a nursery door as fire spreads through straw and glass nests. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "macro moving light",
+    "dialogue": "ROOK memory-voice: Burn it. Blame the keeper.",
+    "audio_direction": "fire roar filtered through glass, muffled creature cries",
+    "director_note": "proof reveal",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB022",
+    "scene_id": "S03",
+    "timecode": "302.4-316.8",
+    "duration_seconds": 14.4,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. close Mira memory; static frontal; Mira watches her own nightmare become evidence; shame hardens into certainty. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "static frontal",
+    "dialogue": "MIRA: I did not kill them.",
+    "audio_direction": "fire glow crackle; her voice close and quiet",
+    "director_note": "personal wound becomes moral certainty",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB023",
+    "scene_id": "S03",
+    "timecode": "316.8-331.2",
+    "duration_seconds": 14.4,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. projection detail; tilt upward; the memory-light reveals Rook taking a royal brand from the nursery control post. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "tilt upward",
+    "dialogue": "TAM: Then the king never lied. Rook did.",
+    "audio_direction": "metal brand rasp, glass harmonics darken",
+    "director_note": "mystery escalates with evidence",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB024",
+    "scene_id": "S03",
+    "timecode": "331.2-345.6",
+    "duration_seconds": 14.4,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. two-shot aftermath; slow push; the projection collapses into sparks; the child leans against Mira while Tam folds the bounty paper into the fire bowl. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow push",
+    "dialogue": "TAM: Proof will not matter if no one believes us.",
+    "audio_direction": "paper ignition, cave hush, creature breath",
+    "director_note": "ally conversion and new obstacle",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S03_SB025",
+    "scene_id": "S03",
+    "timecode": "345.6-360.0",
+    "duration_seconds": 14.4,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final wide cave; slow retreat; Mira, Tam, and the child sit framed by floating embers and sea-light; the child voluntarily curls against Mira’s scarred hand. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow retreat",
+    "dialogue": "MIRA: Then we find someone the kingdom cannot ignore.",
+    "audio_direction": "low surf, soft lullaby answered by creature harmonic",
+    "director_note": "exit on proof, trust, and impossible credibility problem",
+    "continuity_dependencies": [
+      "mira_face_costume",
+      "child_face_scale_light",
+      "tam_costume",
+      "sea_cave_geography",
+      "metal_cup_prop",
+      "wooden_bowl_prop",
+      "memory_light_continuity",
+      "lullaby_motif"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "mira_face_costume",
+        "asset_prompt": "Mira reference sheet: adult woman keeper, weathered face, practical storm-blue costume, scarred palm, resolute but warm expression, front/side/three-quarter views"
+      },
+      {
+        "dependency": "child_face_scale_light",
+        "asset_prompt": "stormglass dragon child reference sheet: small childlike dragon, large expressive eyes, translucent cyan-gold scales, vulnerable nonverbal expressions, front/side/three-quarter views"
+      },
+      {
+        "dependency": "tam_costume",
+        "asset_prompt": "Tam reference sheet: wiry young ally, practical harbor-worker costume, copied key tools, alert expression, consistent silhouette"
+      },
+      {
+        "dependency": "sea_cave_geography",
+        "asset_prompt": "continuity reference asset for sea_cave_geography"
+      },
+      {
+        "dependency": "metal_cup_prop",
+        "asset_prompt": "continuity reference asset for metal_cup_prop"
+      },
+      {
+        "dependency": "wooden_bowl_prop",
+        "asset_prompt": "continuity reference asset for wooden_bowl_prop"
+      },
+      {
+        "dependency": "memory_light_continuity",
+        "asset_prompt": "continuity reference asset for memory_light_continuity"
+      },
+      {
+        "dependency": "lullaby_motif",
+        "asset_prompt": "continuity reference asset for lullaby_motif"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  }
+]
