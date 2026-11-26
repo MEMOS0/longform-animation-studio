@@ -42,8 +42,9 @@ BASE_RULES = {
     "short_feature": [
         "Create legible injustice or danger within the first 90 seconds.",
         "Pay the title/thumbnail fantasy visually by minute 5.",
+        "Treat compression as a completeness constraint: every scene should advance danger, bond, cost, or reversal in at least two ways.",
         "Keep lore subordinate to a visible victim/protector relationship.",
-        "End with emotional belonging or safety, not only procedural victory.",
+        "End with emotional belonging or safety, not only procedural victory, unless the asset is explicitly a serialized act with a next-problem hook.",
     ],
     "mid_length_feature": [
         "Open with embodied stakes before world scale or mythology.",
@@ -85,6 +86,8 @@ def format_strategy(target_minutes: float | int | None = None, premise_text: str
     recommendations = list(BASE_RULES.get(cls, BASE_RULES["unspecified"]))
     if cls in {"microdrama_episode"} and not flags["serialized"]:
         warnings.append("short duration but no serial/episode packaging detected; decide whether this is a microdrama episode or compressed short feature")
+    if cls in {"microdrama_episode", "short_feature"} and not flags["serialized"] and not re.search(r"child|creature|dragon|wolf|mother|father|family|lover|protector|baby|heir|giant|scholarship|orphan|bride", premise_text.lower()):
+        warnings.append("compressed formats currently depend on ultra-legible relational/class engines; abstract or lore-first premises are high risk at short duration")
     if flags["episodic"] and cls not in {"microdrama_episode", "compilation_or_complete_season"}:
         warnings.append("episodic labeling on a longer asset may reduce self-contained discovery value; prove the first episode can stand alone")
     if flags["compilation"] and cls not in {"compilation_or_complete_season", "extended_compilation"}:

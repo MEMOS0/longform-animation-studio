@@ -336,3 +336,11 @@ def test_relational_contract_present_repair_with_past_comparison():
     assert not denial_is_unresolved("she had no choice. she is no longer denied choice as she was before")
     assert not denial_is_unresolved("she had no choice. she can now choose for herself, something she could not do before")
     assert denial_is_unresolved("at the payoff she has no choice. earlier she was free at the start")
+
+
+def test_compressed_format_requires_legible_engine():
+    from studio.format_strategy import format_strategy
+    result=format_strategy(11, "an abstract political conspiracy in a crystal kingdom")
+    assert any("ultra-legible" in warning for warning in result["warnings"])
+    result=format_strategy(11, "a giant father protects a baby from hunters")
+    assert not any("ultra-legible" in warning for warning in result["warnings"])

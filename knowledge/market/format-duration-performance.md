@@ -114,3 +114,9 @@ Use when:
 - `exploration_wonder_feature`: prefer 25–45m; enough time for discovery/society/belonging without lore bloat.
 - `hostile_survival_spectacle`: prefer 15–45m unless ensemble/disaster complexity justifies longer.
 - `serialized_creature_franchise`: validate self-contained episode arcs, then use compilation packaging after demand exists.
+
+## 2026-11-26 fifth-pass compressed-format update
+
+Fresh low-subscriber breakouts add an important correction: compressed short features can scale when they deliver a complete, ultra-legible emotional arc. Examples include an 11:40 giant-father protection story, a 19:49 serialized dark-fantasy act, and a 35:04 complete class/romance melodrama. This does **not** overturn the stronger evidence for 30–45 minute creature/transformation films or long-form creature/mythic channel contracts. The correct rule is: choose duration from emotional complexity and payoff completeness; use compression only when one dominant wound/protection/class engine is legible immediately; require each compressed scene to perform multiple jobs; distinguish complete compressed films from serialized acts that end on continuation hooks; do not infer causality from duration without CTR/retention/traffic data.
+
+For studio planning, 10–35 minutes is a viable production tier for original films when the premise compresses cleanly. It should be treated as a compressed short feature, not automatically as a microdrama episode. 30–45 minutes remains the safer default for trust/relationship arcs; 60–120 minutes remains justified only when scale genuinely requires it.
