@@ -1,0 +1,43 @@
+{
+  "scene_id": "S08",
+  "time_range": "37-42 minutes",
+  "objective": "same-audience reversal, justice, craft restoration, and circular chosen-space payoff",
+  "conflict": "the original audience witnesses the proof; status power reverses through changed conduct and material consequences",
+  "power_position_start": "able to choose the terms of public repair",
+  "power_position_end": "secure in agency, work, truth, and chosen belonging",
+  "turn": "the original audience witnesses the proof; status power reverses through changed conduct and material consequences",
+  "protagonist_decision": "choose belonging and forgiveness only after agency, work, and truth are secure",
+  "subtext": "Belonging is chosen when the wound-space becomes reversible and shared.",
+  "visual_action": {
+    "first_image": "the workshop floor mat where the whole guild eventually eats by choice where everyone eats or works by choice while the restored object remains visible",
+    "face_reaction": "the protagonist's expression shifts from public vindication toward controlled attention when the turn lands",
+    "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+    "final_image": "cracked blue measuring cup visible after the power shift, its meaning altered by: the object is used openly in the proof/restoration ritual before the final communal meal in the workshop floor mat where the whole guild eventually eats by choice"
+  },
+  "dialogue_design": {
+    "function": "make choices, objections, and proof implications audible rather than explaining theme",
+    "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "This floor is not punishment anymore. Everyone sits by choice.",
+      "I refuse revenge without repair.",
+      "We save the legacy by opening the doors, not by becoming the cage."
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
+    "silence_or_negative_space": "the original humiliation sound motif returns transformed into communal rhythm or completed musical motif",
+    "motif": "a restrained tactile sound motif"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on the immediate consequence of the previous turn: care network, innocent ally, and reformed authority gather as a new community",
+    "exit_hook": "the ending answers the opening spatial question rather than teasing a sequel"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, capability, or relational obligation?",
+    "Is the object/space doing narrative work rather than decorative worldbuilding?",
+    "Is public or institutional pressure expressed through visible behavior rather than exposition?",
+    "Does the protagonist retain agency instead of being rescued into passivity?"
+  ]
+}

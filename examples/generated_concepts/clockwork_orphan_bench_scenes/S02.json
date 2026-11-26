@@ -1,0 +1,43 @@
+{
+  "scene_id": "S02",
+  "time_range": "4.2-8.4 minutes",
+  "objective": "care network, work identity, and dignity economy",
+  "conflict": "a night cook and cable mechanic feed her before the owner believes her offers shelter, food, and paid work before knowing his power or status; help becomes work and shelter rather than humiliating charity",
+  "power_position_start": "dependent on care but beginning to act",
+  "power_position_end": "worker with a first zone of dignity",
+  "turn": "a night cook and cable mechanic feed her before the owner believes her offers shelter, food, and paid work before knowing his power or status; help becomes work and shelter rather than humiliating charity",
+  "protagonist_decision": "accept costly honest work while refusing payment that would commodify humiliation",
+  "subtext": "Help becomes dignity when it creates work rather than dependence.",
+  "visual_action": {
+    "first_image": "small labor ritual with inherited object, care-giver space, and first repeatable customer/ally interaction",
+    "face_reaction": "the protagonist's expression shifts from survival fear toward controlled attention when the turn lands",
+    "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+    "final_image": "flat brass tuning key visible after the power shift, its meaning altered by: the protagonist demonstrates bell tuner expertise, proof literacy, persistence, and dignity-preserving work ethic in a small practical problem"
+  },
+  "dialogue_design": {
+    "function": "make choices, objections, and proof implications audible rather than explaining theme",
+    "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "I will work for my shelter, not sell my shame.",
+      "Take the wage only when the work is real.",
+      "I can help if you let me stand on my own feet."
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
+    "silence_or_negative_space": "warm practical labor textures replace dining-room laughter",
+    "motif": "a restrained tactile sound motif"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on the immediate consequence of the previous turn: non-romantic witnesses begin treating the protagonist as a person rather than a servant",
+    "exit_hook": "can honest work create safety before power notices?"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, capability, or relational obligation?",
+    "Is the object/space doing narrative work rather than decorative worldbuilding?",
+    "Is public or institutional pressure expressed through visible behavior rather than exposition?",
+    "Does the protagonist retain agency instead of being rescued into passivity?"
+  ]
+}

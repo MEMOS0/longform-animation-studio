@@ -1,0 +1,43 @@
+{
+  "scene_id": "S07",
+  "time_range": "31.1-37 minutes",
+  "objective": "proof chain completion and relational repair before public victory",
+  "conflict": "the final witness/object/timeline locks into place; the protagonist claims the right to present the proof personally",
+  "power_position_start": "morally credible and nearly ready to confront power",
+  "power_position_end": "author of the coming public reversal",
+  "turn": "the final witness/object/timeline locks into place; the protagonist claims the right to present the proof personally",
+  "protagonist_decision": "after the accusation, authority figures must trust her account, return control of the proof, and accept her conditions rather than buying forgiveness",
+  "subtext": "Forgiveness is not owed before conduct changes.",
+  "visual_action": {
+    "first_image": "preparation for the same-audience confrontation, with the original space reset as a trap for truth",
+    "face_reaction": "the protagonist's expression shifts from fear toward controlled attention when the turn lands",
+    "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+    "final_image": "cracked blue measuring cup visible after the power shift, its meaning altered by: all layers of the proof chain align through cracked blue measuring cup: object, craft knowledge, timeline, witness, and motive"
+  },
+  "dialogue_design": {
+    "function": "make choices, objections, and proof implications audible rather than explaining theme",
+    "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "I choose the room, the witnesses, and the questions.",
+      "If you want forgiveness, change what you do before you ask for trust.",
+      "Give me back the proof and I will show you the truth."
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
+    "silence_or_negative_space": "near-silent resolve and restrained breathing rather than triumphant music",
+    "motif": "a restrained tactile sound motif"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on the immediate consequence of the previous turn: former doubters change behavior before asking forgiveness",
+    "exit_hook": "will public proof repair social shame or only expose guilt?"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, capability, or relational obligation?",
+    "Is the object/space doing narrative work rather than decorative worldbuilding?",
+    "Is public or institutional pressure expressed through visible behavior rather than exposition?",
+    "Does the protagonist retain agency instead of being rescued into passivity?"
+  ]
+}

@@ -120,7 +120,7 @@ def generate_architecture(premise: dict[str, Any]) -> dict[str, Any]:
             "function": "proof chain completion and relational repair before public victory",
             "turn": "the final witness/object/timeline locks into place; the protagonist claims the right to present the proof personally",
             "choice": repair,
-            "clue": "all layers of the proof chain align: object, craft knowledge, timeline, witness, and motive",
+            "clue": f"all layers of the proof chain align through {object_name}: object, craft knowledge, timeline, witness, and motive",
             "ally": "former doubters change behavior before asking forgiveness",
             "secret": "the antagonist exploited institutional trust and public spectacle, not just personal cruelty",
             "shift": "fear to controlled resolve",

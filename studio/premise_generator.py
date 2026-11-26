@@ -17,6 +17,7 @@ from .meaning_carrier import evaluate_meaning_carrier
 from .relational_contract import evaluate_relational_contract
 from .spatial_status import evaluate_spatial_status
 from .architecture_generator import generate_architecture
+from .scene_generator import generate_scenes
 
 VARIANTS = [
     {
@@ -192,5 +193,9 @@ def generate_and_write(output_dir: Path, count: int, target_minutes: float, arch
         architecture = generate_architecture(premise)
         arch_path = output_dir / f"{premise['premise_id']}_architecture.json"
         arch_path.write_text(json.dumps(architecture, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-        rows.append({"premise_id": premise["premise_id"], "path": str(path), "evaluation_path": str(eval_path), "architecture_path": str(arch_path), "evaluation": evaluation})
+        scenes_dir = output_dir / f"{premise['premise_id']}_scenes"
+        scenes_dir.mkdir(parents=True, exist_ok=True)
+        for scene in generate_scenes(premise, architecture):
+            (scenes_dir / f"{scene['scene_id']}.json").write_text(json.dumps(scene, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        rows.append({"premise_id": premise["premise_id"], "path": str(path), "evaluation_path": str(eval_path), "architecture_path": str(arch_path), "scenes_dir": str(scenes_dir), "evaluation": evaluation})
     return {"count": len(rows), "premises": rows}

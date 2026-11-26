@@ -452,3 +452,18 @@ def test_generated_social_premises_validate_and_score():
     evaluation=evaluate_generated_premise(premises[0],[])
     assert evaluation['spatial_status']['score_0_to_1']>0.7
     assert evaluation['relational_contract']['score_0_to_1']>=0.8
+
+
+def test_generated_scene_scaffold_schema_valid():
+    import json,tempfile
+    from pathlib import Path
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.production import validate_artifact
+    premise=generate_premises(count=1)[0]
+    scenes=generate_scenes(premise,generate_architecture(premise))
+    assert len(scenes)==8
+    with tempfile.TemporaryDirectory() as d:
+      path=Path(d)/'scene.json';path.write_text(json.dumps(scenes[0],ensure_ascii=False),encoding='utf8')
+      assert validate_artifact(path,'scene-screenplay.schema.json')==[]

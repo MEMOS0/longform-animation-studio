@@ -1,0 +1,43 @@
+{
+  "scene_id": "S01",
+  "time_range": "0-4.2 minutes",
+  "objective": "spatial humiliation, vulnerable alliance, and promise payoff",
+  "conflict": "the forced status ritual is interrupted when the mayor's mute nephew physically crosses the status boundary; a canteen cook hides Ari and trades food for lamp repairs before power intervenes physically crosses toward the humiliated protagonist",
+  "power_position_start": "socially exposed and institutionally powerless",
+  "power_position_end": "protector with a defined relational duty",
+  "turn": "the forced status ritual is interrupted when the mayor's mute nephew physically crosses the status boundary; a canteen cook hides Ari and trades food for lamp repairs before power intervenes physically crosses toward the humiliated protagonist",
+  "protagonist_decision": "protect the vulnerable ally or preserve dignity before protecting personal safety",
+  "subtext": "Care is meaningful only when it crosses a social boundary at cost.",
+  "visual_action": {
+    "first_image": "Ari is made to eat in the flooded service tunnel while officials dine in the dry observation car",
+    "face_reaction": "the protagonist's expression shifts from shame toward controlled attention when the turn lands",
+    "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+    "final_image": "hairline-cracked lantern lens visible after the power shift, its meaning altered by: hairline-cracked lantern lens is introduced as emotionally and practically significant"
+  },
+  "dialogue_design": {
+    "function": "make choices, objections, and proof implications audible rather than explaining theme",
+    "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "Sit here if you choose. No one eats beneath us again.",
+      "I will protect her before I protect myself.",
+      "Let them laugh; I won't leave her alone."
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
+    "silence_or_negative_space": "public laughter and clatter thin into close breath/contact silence at the moment of alliance",
+    "motif": "a restrained tactile sound motif"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on the immediate consequence of the previous turn: the mayor's mute nephew physically crosses the status boundary; a canteen cook hides Ari and trades food for lamp repairs before power intervenes creates the first morally trustworthy bond",
+    "exit_hook": "why does the powerless ally trust the person every powerful adult rejects?"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, capability, or relational obligation?",
+    "Is the object/space doing narrative work rather than decorative worldbuilding?",
+    "Is public or institutional pressure expressed through visible behavior rather than exposition?",
+    "Does the protagonist retain agency instead of being rescued into passivity?"
+  ]
+}
