@@ -1,0 +1,72 @@
+{
+  "premise_id": "stormglass_keepers_v1",
+  "title_candidates": [
+    "They Hunted the Last Stormglass Dragon Child… Until the Disgraced Keeper Chose to Protect It",
+    "The Last Stormglass Child Trusts the Keeper Everyone Else Calls a Traitor",
+    "A Hunted Dragon Child. A Disgraced Keeper. One Storm That Can Save Them Both."
+  ],
+  "logline": "A disgraced royal beastkeeper rescues the last stormglass dragon child from the navy that made her a scapegoat, then must return to the kingdom that condemned her before the child is weaponized and the sea storm destroys both their homes.",
+  "audience_promise": "A cinematic creature-protection fantasy: visible vulnerable dragon child, costly protective love, injustice and public reversal, storm-scale spectacle, and a warm found-family/belonging payoff.",
+  "target_minutes": 48,
+  "release_format": "mid_length_feature",
+  "channel_contract": "creature_protection_feature",
+  "emotional_engine": {
+    "wound": "Mira was publicly branded a traitor after a nursery fire she did not start, losing her home, rank, and every creature she loved.",
+    "want": "Mira wants to survive far from the kingdom and never bond with another creature she can lose.",
+    "need": "She needs to accept protection as love rather than weakness and risk attachment again.",
+    "injustice": "The admiral who caused the nursery fire now hunts the last dragon child and plans to use it as a navigation weapon.",
+    "protective_counterforce": "Mira repeatedly chooses the dragon child's safety over her own exile, freedom, and revenge.",
+    "belonging_payoff": "Mira, the child, and the coastal villagers form a protected home where the child is no longer property and Mira is publicly restored.",
+    "secret_or_power_asymmetry": "Mira knows the child's stormcall can calm the sea only when it feels safe; the navy thinks pain can control it.",
+    "cost_of_failure": "The child becomes a weapon, the storm wall collapses, and both the capital and fishing coast are flooded."
+  },
+  "protagonist": {
+    "identity": "Mira Vale, ex-royal beastkeeper living as a lighthouse laborer",
+    "vulnerability": "Social disgrace, fear of attachment, and a burn scar that the navy uses to identify her",
+    "capability": "Reads creature fear, weather behavior, and body language better than anyone in the kingdom",
+    "agency_first_action": "She cuts the dragon child free from a weighted capture net even though helping it exposes her identity",
+    "transformation": "From self-protective exile to public protector willing to trust and be trusted again"
+  },
+  "opening_event": {
+    "first_10_seconds": "A weighted navy net crashes into black water; inside it, a palm-sized translucent blue dragon child claws at the ropes and cries silently.",
+    "first_60_seconds": "Mira recognizes the creature's panic, sees the royal brand on the net, and cuts it free while soldiers close in on the shore.",
+    "first_5_minutes": "The child bonds to Mira after she shields it from crossbow fire; its fear calls the first impossible storm wall, proving the title promise visually.",
+    "dramatic_question": "Can Mira keep the child emotionally and physically safe long enough to expose the admiral before fear turns the storm against everyone?"
+  },
+  "theme_lane": {
+    "mythic_creature": "stormglass dragon child whose emotional state shapes sea weather",
+    "family_or_heir_hook": "last surviving creature child and deposed protector becoming chosen family",
+    "romance_hook": "",
+    "modern_power_hook": ""
+  },
+  "failure_intelligence": {
+    "evaluation_path": "examples/stormglass_keepers/production_evaluation.json",
+    "nearest_failures": [
+      "Epic Earthquake: diffuse spectacle before relational anchor",
+      "The Next Show ARKAN: abstract quest lore before embodied stakes",
+      "Nov underperformers: lore/court exposition before wound-care loop"
+    ],
+    "mitigations": [
+      "Open on the child in visible peril, not mythology.",
+      "Make every spectacle scene threaten or protect the child/Mira relationship.",
+      "Limit exposition to facts that change immediate protection choices.",
+      "Each act gives Mira an active protective decision and a cost.",
+      "End with belonging and public restoration, not only punishment."
+    ],
+    "counterexamples_checked": [
+      "Epic One Last Phone Call proves a strong opening alone cannot overcome channel-contract mismatch; therefore creature/protector fit is explicit.",
+      "The Next Show Sinbad proves serialization/continuation can work after a major setpiece payoff; this film still resolves its core emotional arc."
+    ]
+  },
+  "packaging": {
+    "thumbnail_single_read": "Close protective hands around a glowing translucent dragon child while a storm-lit naval fleet approaches behind them.",
+    "curiosity_gap": "Why is the kingdom hunting a creature child, and why is the accused traitor the only one it trusts?",
+    "visual_before_after": "cold netted creature in darkness vs warm glowing child protected in hands",
+    "title_thumbnail_mismatch_risk": "Low if the dragon child and protection relationship are visually dominant; avoid making the navy/army the main read."
+  },
+  "evidence_boundaries": [
+    "Observational evidence informs the design but does not prove CTR or retention causality.",
+    "The concept is original; it uses mechanisms rather than copying plot, dialogue, characters, or thumbnail artwork.",
+    "No AI-generated media has been produced yet; production feasibility still requires provider validation."
+  ]
+}

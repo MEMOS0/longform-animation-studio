@@ -23,6 +23,8 @@ This repository is not a prompt collection. It is a reusable studio system for l
   - `story_signals.py` — transparent wound/care/justice/lore/threat signal extraction
   - `dialogue_analysis.py` — sentence-shape, exposition, pressure, care, question-ratio analysis
   - `failure_intelligence.py` — transparent failure-pattern matching for future ideas/scripts
+  - `format_strategy.py` — duration/episode/compilation-aware release-format guidance
+  - `channel_contracts.py` — machine-readable audience/channel fit checks
   - `production.py` — schema validation and pre-greenlight gates for premise/architecture/scene artifacts
   - `thumbnail_intelligence.py` / `thumbnail_concepts.py` — visual packaging metrics, reference classification, and original concept critique
   - `cli.py` — command-line entry points
@@ -92,11 +94,15 @@ python -m studio.cli evaluate-idea \
 
 # 7. Validate machine-readable production artifacts before greenlight
 python -m studio.cli evaluate-project \
-  --premise examples/stormglass_project/premise.json \
-  --architecture examples/stormglass_project/architecture.json \
-  --scenes examples/stormglass_project/scenes \
-  --output examples/stormglass_project/evaluation.json
+  --premise examples/stormglass_keepers/premise.json \
+  --architecture examples/stormglass_keepers/architecture.json \
+  --scenes examples/stormglass_keepers/scenes \
+  --output examples/stormglass_keepers/evaluation.json
 ```
+
+## Example end-to-end project
+
+`examples/stormglass_keepers/` contains an original creature-protection feature concept generated through the studio system: premise packet, 8-sequence architecture, 8 scene-screenplay units, and `production_evaluation.json`. At the current checkpoint it passes schema validation, Failure Intelligence, format strategy, and channel-contract fit with zero structural warnings. It is a proof-of-work example for handoff, not a finished film.
 
 ## What the system is for
 

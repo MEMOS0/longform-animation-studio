@@ -72,7 +72,7 @@ def infer_format_flags(text: str) -> dict[str, bool]:
     low = text.lower()
     return {
         "episodic": bool(re.search(r"\b(episode|ep\.?|part)\s*\d+\b|to be continued|cliffhanger", low)),
-        "compilation": bool(re.search(r"complete|compilation|full season|season\s*\d+|all episodes|movie marathon", low)),
+        "compilation": bool(re.search(r"compilation|complete season|full season|season\s*\d+|all episodes|movie marathon", low)),
         "serialized": bool(re.search(r"serial|series|episode|part|chapter|season", low)),
         "continuation_hook": bool(re.search(r"to be continued|cliffhanger|next episode|season\s*2", low)),
     }

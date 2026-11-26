@@ -1,0 +1,41 @@
+{
+  "scene_id": "S01",
+  "time_range": "0-5 minutes",
+  "objective": "free the child without being identified",
+  "conflict": "navy soldiers close in while the child's panic endangers everyone",
+  "power_position_start": "hidden exile",
+  "power_position_end": "active rescuer",
+  "turn": "Mira becomes the child's protector at the cost of exposure",
+  "protagonist_decision": "she cuts the net and shields the child with her body",
+  "subtext": "Protection means risking attachment without turning love into control.",
+  "visual_action": {
+    "first_image": "a weighted net sinking into black water",
+    "face_reaction": "Mira's face hardens when she recognizes the royal brand",
+    "vertical_composition": "child framed low center, hands and net dominating foreground",
+    "final_image": "first stormglass wall reflecting soldiers in fractured blue light"
+  },
+  "dialogue_design": {
+    "function": "advance protective choices and power shifts rather than explain lore",
+    "subtext_rule": "Characters rarely say fear or love directly; they negotiate control, debt, blame, and safety.",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "Pain makes it obey. Trust makes it answer.",
+      "You don't save a child by becoming its cage."
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "dialogue remains intelligible under weather and crowd effects",
+    "music_function": "lullaby motif evolves with trust rather than constant emotional wallpaper",
+    "silence_or_negative_space": "drop music before each bonding or revelation beat so breath, scale chimes, and creature calls carry meaning",
+    "motif": "three-note lullaby answered by glassy creature harmonics"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on immediate danger, choice, or visible emotional consequence",
+    "exit_hook": "exit on changed power, new evidence, or an unanswered protective cost"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, or capability?",
+    "Is spectacle tied to the vulnerable child/protector relationship?",
+    "Is exposition converted into a decision or visible event?"
+  ]
+}
