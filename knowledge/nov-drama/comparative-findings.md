@@ -15,7 +15,7 @@ Updated: 2026-11-26. Evidence tiers follow the repository README: public outcome
 2. `dragon`, hidden/secret identity, and setup-then-reversal were directionally positive but unstable.
 3. Revenge/retribution was directionally negative at archive level, but this hypothesis is too simple: high-performing `vYNuKn6GiaE` receives audience praise for revenge being resolved early rather than delayed.
 4. Thumbnail brightness rank-correlated positively with outcome (~0.40), while dark/red generic couple imagery clustered lower. Packaging cannot be separated from story quality without CTR/impression data.
-5. Modern billionaire/power stories are not inherently doomed: `gkRXl9lDReY` is a major hit. The risk appears when modern power lacks the channel's vulnerable child/heir/protector emotional anchor.
+5. Modern billionaire/power stories are not inherently doomed: `gkRXl9lDReY`, `l5ICXoEffPs` (mafia boss + daughter), and `OJ5ylArJ03s` (intern + twins) all outperform. The risk appears when modern power lacks the channel's vulnerable child/heir/protector emotional anchor.
 
 ## Timestamped audiovisual contrasts
 

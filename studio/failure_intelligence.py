@@ -179,7 +179,7 @@ def candidate_flags(candidate_text: str, script_text: str = "") -> dict[str, boo
         "weak_opening_wound_care_loop": bool(script_text and (opening_wound == 0 or opening_care == 0)),
         "expository_opening": bool(script_text and re.search(r"(report|council|ceremony|selection|clan council|royal court|as you know|years ago)", opening_text.lower())),
         "adult_misery_opening": bool(script_text and re.search(r"pregnan|cheat|affair|miscarriage|termination|forced|coerc|domestic|rape|sexual", opening_text.lower())),
-        "unresolved_or_procedural_ending": bool(script_text and ending_wound >= max(ending_warmth + 2, 4)),
+        "unresolved_or_procedural_ending": bool(script_text and ending_wound >= max(ending_warmth + 2, 4) and not re.search(r"belonging payoff|publicly accept|family acceptance|chosen love|child safety|celebration|transformed future|home", full)),
         "production_artifact_risk": bool(re.search(r"censor|blur|mosaic|muted|missing sound|loud music|audio dropout|watermark|sudden cut|continuity error", full)),
     })
     for theme in ("family_child", "animal_child", "dragon", "wolf_werewolf", "vampire", "sea_mermaid", "romance_mate", "modern_wealth_power", "revenge_retribution"):

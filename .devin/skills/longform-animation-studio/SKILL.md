@@ -138,6 +138,21 @@ Long duration is not stuffing. A long film needs modular escalation:
 
 Do not blindly target 80–120 minutes. Choose duration from the number of meaningful dramatic turns the premise can sustain.
 
+## Evidence-derived Nov Drama working rules
+
+These are observational rules, not universal laws. Always inspect `knowledge/nov-drama/comparative-findings.md` and current casebooks before applying them.
+
+1. In the first minute, establish a vulnerable person/creature, a legible injustice, and a reason to hope.
+2. Do not open with report/council/selection/ceremony exposition unless an irreversible dramatic action interrupts it.
+3. Lore is safest when embodied in creatures, children, objects, visible costs, action, and relationships. Abstract clan/court/politics terminology before emotional grounding is a failure risk.
+4. The core title promise should be visibly paid within roughly the first 10–15 minutes, then escalated. `vYNuKn6GiaE` shows dragon-baby/child imagery and early consequences rather than withholding everything.
+5. Revenge is not inherently weak. Delayed, cold, repetitive revenge is weak; early satisfying consequences can be strong.
+6. A powerful protector is not automatically warmth. Coercive, ambiguous, or sexualized protection can undermine safety.
+7. Warm endings are necessary but insufficient: failed videos can also end in family/romance/coronation payoff if the opening or middle loses the audience.
+8. Modern arenas can succeed when injustice and child/heir vulnerability are instantly legible; do not treat mythology as a mandatory ingredient.
+9. Treat censorship blur, missing audio, loud music under dialogue, sudden cuts, watermark-like overlays, and continuity errors as immersion-breaking production defects.
+10. Always list counterexamples. If a hit violates a proposed rule, narrow the rule rather than ignoring the hit.
+
 ## Failure intelligence protocol
 
 Before greenlighting:
