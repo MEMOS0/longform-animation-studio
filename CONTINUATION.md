@@ -227,3 +227,39 @@ Immediate after rotation:
 3. Integrate compressed-short-feature insight into `format-duration-performance.md`, `studio/format_strategy.py`, channel contracts, and skill. Do not overcorrect into “always short.”
 4. Finish/check `NHAHR3v9La8` download and analyze it plus any unfinished fifthpass media.
 5. Continue exact boards S06+ or critically review S03–S05 quality. No spending/accounts/public admin actions.
+
+## 2026-11-26 rotation checkpoint — fifth-pass report integrated
+
+Latest pushed commit: `e827837 Analyze compressed dragon motherhood breakout`. Tests: 42 passed. Branch/PR: `devin/1764170700-failure-intelligence-foundation`, PR #1. A new Devin Review may be running; check it first if a notification arrives.
+
+Completed since prior checkpoint:
+
+1. Fixed 5 review findings in job `pr-review-job-9754baf53c2c4d3bb8c698fc6d60da15` and ended triage:
+   - retained breakout rows now recompute candidate strength (`a8ebb90`);
+   - prepositional carriers preserve main object (`key to the gate` -> key) (`6cde8ce`);
+   - denial masking preserves offsets, flashback positives do not count as present repair, explicit no-longer lifting handles trailing past comparisons (`b91f255`).
+2. Added `knowledge/market/fifth-pass-breakout-media-deep-dive.md` and copied fifth-pass derived evidence into `evidence/research/fifthpass_media_analysis/` with checksums in `evidence_manifest.json`. Source copyrighted mp4s remain uncommitted.
+3. Integrated compressed-short-feature insight into `knowledge/market/format-duration-performance.md` and `studio/format_strategy.py`: 10-35m can work when ultra-legible and complete, but do not overcorrect into always-short; 30-45m remains safer for trust arcs, 60-120m only when scale requires it.
+4. Validated/analyzed `NHAHR3v9La8` (The Queen's Monster): 24:13, 520,630 views, 7,920 subs. Contact sheets and audio clips copied into evidence. Opening uses storm/infant/maternal danger; king orders “Drown it. Before dawn”; queen says “He's mine.” Middle relational conflict: “He's my son” / “No fire. Fly, my love” / false public narrative “The dragon killed your queen.” Ending command “Fly”; music withdraws around final minute and breath/environment carry consequence. Mechanism: misunderstood nonhuman personhood as literal child + mother protection + spouse/king personhood denial + public monster narrative + tragic legacy.
+
+Important empirical synthesis update:
+
+- Compressed completeness is now strongly evidenced across three formats: 11:40 giant-father protection, 24:13 dragon-twin motherhood tragedy, 35:04 class/romance reversal. The shared rule is not duration but ultra-legible singular emotional engine + every scene doing multiple jobs + explicit payoff/completeness. Aethernal's 19:49 act is different: serialized survival ending on “Now we find out how to get out of here,” not standalone resolution.
+- `no72LZAVvZQ`: giant father/daughter protection and exploitation arc; “Please, spare my baby”; daughter needs both father and human world; lord commodifies giant (“live giant” / “fine price”); final rescue/belonging.
+- `NHAHR3v9La8`: clearest compressed misunderstood-personhood contract. War/spectacle subordinate to “can a mother protect a child the world calls a monster?”
+- `31-p_UcMgOs`: serialized act design; must not be treated as standalone ending evidence.
+
+Immediate next steps:
+
+1. Handle any new Devin Review findings. Do not let NLP heuristic edge-case whack-a-mole consume the whole session; if findings become unbounded, prefer conservative warnings or explicit structured annotations rather than pretending perfect English parsing.
+2. Deepen exact boards S06+ or critically review S03-S05 quality. Existing exact boards S01-S05 valid. Continue if useful, but creative quality review matters more than mechanical count.
+3. Integrate fifth-pass misunderstood-personhood compressed contract into `knowledge/market/channel_contracts.json`, `studio/package_data/channel_contracts.json`, and possibly project evaluation gates. Keep both files synchronized.
+4. Expand Thumbnail Intelligence for fifth-pass channels (Epicverse, Aethernal, Lioren, The Queen's Monster channel) with original images/metadata and hit/low comparisons.
+5. Continue broader market discovery, especially last 7-14 day low-subscriber breakouts. Preserve raw metadata under `data/raw/` and derived evidence under `evidence/research/`; do not leave key evidence only on VM.
+6. No spending, accounts, public/admin actions, or irreversible external actions without explicit user approval. User said do not stop and do not ask permission for ordinary internal repo/research work.
+
+Critical caution:
+
+- Contact-sheet evidence is sampled visual inspection, not continuous frame-by-frame human viewing. Label it accordingly.
+- No CTR/retention/impressions/traffic data; views/day are discovery indicators, not causal proof.
+- Never treat exact duplicate titles as same content; subtitle fingerprint comparison remains required.
