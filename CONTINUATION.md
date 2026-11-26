@@ -169,3 +169,5 @@ Latest pushed commit when written: `11c99c0 Add continuous director seed storybo
 - Next: review findings when they arrive; refine S03 manually using S01/S02 quality bar; continue sound evidence and breakout discovery.
 
 Rollover addendum: latest pushed commit `d297626 Remove repeated beats from director seeds`; tests 25 passed. Director seeds now use 10 non-repeating exact-format beats per scene; they are seeds, not final boards.
+
+Discovery addendum: rerun found new 7d leads including Everflame 2.89m/47k, Nightfall 1.72m/87k, Many Drama titles, Cine Drop; merged into 45-row candidates file without overwriting prior rows. Report regenerated.
