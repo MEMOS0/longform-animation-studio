@@ -291,3 +291,34 @@ Immediate next steps:
 3. Consider analyzing `TKUd7hWPMD8` next for circular floor/food humiliation and child allyship social-test mechanism.
 4. Continue validating storyboard quality creatively, not only mechanically; consider generating reference frames only if no spending/accounts are required.
 5. Keep evidence committed. Never treat contact sheets as continuous human viewing; no CTR/retention causality claims.
+
+## 2026-11-27 checkpoint — production prompts, spatial grammar, generated premises, sixth-pass evidence
+
+Latest pushed commit at checkpoint: `06ce0d6 Integrate faith economic reversal evidence`. Tests latest known: 54 passed. Devin Review/CI is being ignored by explicit user instruction; do not keep triaging skipped reviews.
+
+Major additions since prior checkpoint:
+
+1. `studio/storyboard_production.py` plus CLI `export-production-prompts`: exact storyboards now export 181 per-shot generation prompts/QA/continuity manifests under `examples/stormglass_keepers/production_prompts/`. This is planning only; no paid generation without approval.
+2. `studio/storyboard.py` now warns on nearly uniform shot duration pacing. S01-S08 exact boards were rebalanced to varied durations while preserving exact continuous 48-minute coverage; production prompts/evaluation regenerated.
+3. WebVTT subtitle parsing improved: word-timed rolling captions are deduplicated and incremental overlap is stripped. Important for all future video evidence.
+4. `studio/spatial_status.py` added: machine-checks spatial status grammar and circular inversion (who is forced below/outside/caged vs who chooses access/sanctuary). Integrated into project evaluation.
+5. `studio/premise_generator.py` plus CLI `generate-premises`: generates three original schema-valid social-test/craft melodrama premise packets and evaluations under `examples/generated_concepts/`. They are starting points, not finished scripts or copies.
+6. Sixth-pass deep evidence committed:
+   - DRAMORA `or5RI5v_lHw` compressed immigrant melodrama in `knowledge/market/dramora-compressed-social-melodrama-deep-dive.md`.
+   - Karma Keeps Score `TKUd7hWPMD8` 81-minute floor/table social-proof film in `knowledge/market/karma-floor-table-social-proof-deep-dive.md`.
+   - LESO `62vBW1_B92Y` faith/economic reversal in `knowledge/market/leso-faith-economic-reversal-deep-dive.md`.
+   - Derived artifacts in `evidence/research/sixthpass_media_analysis/`; thumbnails in `thumbnail_intelligence/reference_library/sixthpass_breakouts/`.
+7. Key doctrine additions:
+   - Hidden wealth/identity must create a trust wound, not instant reward.
+   - Introduce non-romantic care before high-status romantic rescue.
+   - Public humiliation requires public proof/repair with the same social audience where possible.
+   - Proof chains should use the protagonist's established competence, not surprise documents.
+   - Circular inversion should transform meaning: floor imposed -> floor chosen; cage/control -> sanctuary/chosen access.
+   - Faith reversal works when faith is tied to material stakes and converted into small-business operational agency; direct testimony is niche-specific, not universal.
+
+Immediate next steps:
+
+1. Continue market discovery and analyze unexamined low-subscriber breakouts from `data/processed/recent_breakout_candidates.json` across genres not yet deeply covered (sci-fi, werewolf/lycan, mermaid, zombie/reborn).
+2. Deepen premise generation into architecture/scene generation, then evaluate generated concepts end-to-end. Consider building one full second example project if useful.
+3. Continue improving creative quality gates: dialogue density, object recurrence, spatial inversion, agency, consent/trust repair, sound negative space, pacing variation.
+4. Commit derived evidence promptly. Do not claim continuous human viewing; do not infer CTR/retention without private data.
