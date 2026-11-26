@@ -38,3 +38,18 @@ Interpretation: this looks like **title/packaging trend-jacking or search-demand
 - Within-channel compare EchoDrama breakout vs `XISWBeZa6AI`, `vjTsO9aavbc`, `hchpYZaYFfU`, `SeQcIQBO7sQ`.
 - Within-channel compare Drakenhart breakout vs `hiyRGA1WbNs`, `iXpry8bWeTA`, `O4YtN7gEZ5g`, `L5Xau3CAto0`.
 - Inspect whether `THE LOST KIND` duplicate videos share visual assets or narrative continuity before drawing conclusions.
+
+
+## Expanded discovery verification — second pass
+
+Evidence tier 1 channel-page samples collected 2026-11-26 after expanded query discovery. These channels were not in the first deep-dive batch.
+
+| channel | breakout lead | channel-history interpretation |
+|---|---|---|
+| Epicverse Movies, ~4.6k subs | `no72LZAVvZQ` Giant Who Became a Father, ~6.4M, 700s | strong genuine low-base outlier: nearby fantasy/creature uploads visible around ~287–5k views while the giant-father video is millions. Channel previously mixed psychology-of-love content with fantasy, so this is not a stable creature franchise yet. Highest-priority new deep dive. |
+| Aethernal Pictures, ~25.7k subs | `31-p_UcMgOs` Then Came The Rot / Act II, ~3.5M, 1189s | not a random first hit: Act I already had ~515k. This is franchise/sequel amplification plus dark-fantasy craft, similar in structure to serial/compilation effects. |
+| Nana Drama Studio, ~2.1k subs | `5gaxmmT-RSg` billionaire daughter disguised as beggar, ~581k, 3677s | very clean low-base melodrama outlier: surrounding uploads mostly hundreds or low thousands. Highest-priority transformation/secret-identity deep dive. |
+| Queen’s Reel, ~78k subs | `hw4kFMVk7mU` assassin reborn as bullied schoolgirl, ~636k | channel already performs repeatedly around ~12k–69k; hit is strong but not a tiny-channel breakout. Useful as a mature-channel hit, not a low-base proof case. |
+| AI SweetDrama, ~17k subs | `bAjeNeQ9DGc` poor ex / billionaire boss, ~536k | surrounding catalog includes many very low uploads but also ~19k performers; likely genuine outlier, though rapid upload cadence and recency make channel baseline noisy. |
+
+Strategic consequence: expanded discovery found cleaner low-base breakout evidence than the first pass. Epicverse and Nana should be prioritized over established large channels because they isolate topic/packaging/story mechanics more clearly.
