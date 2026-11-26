@@ -141,3 +141,9 @@ def test_agency_intelligence_flags_passive_rescue():
     weak=evaluate_agency({"logline":"A poor humiliated orphan is rescued and married by a billionaire king."},[])
     assert weak["warnings"]
     assert weak["score_0_to_1"] < 0.6
+
+
+def test_sound_design_gate():
+    from studio.sound_design import evaluate_sound_design
+    weak=evaluate_sound_design([{"scene_id":"x","sound_design":{"music_function":"constant music"}}])
+    assert weak["warnings"]
