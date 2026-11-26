@@ -304,7 +304,13 @@
       "immigrant",
       "abandoned wife",
       "savings",
-      "loan"
+      "loan",
+      "gold",
+      "goldsmith",
+      "floor table",
+      "emerald",
+      "clasp",
+      "nanny"
     ],
     "opening_rules": [
       "open on a legible status boundary or humiliation",
@@ -314,7 +320,10 @@
       "pay off with public reversal plus changed ritual or relationship, not only wealth",
       "introduce surrogate family or non-romantic care before high-status romantic rescue",
       "make hidden wealth create a post-reveal trust wound, then repair it through changed conduct and protagonist choice",
-      "show the protagonist economic capability chain through visible objects, savings, loans, work, or repeated service rituals"
+      "show the protagonist economic capability chain through visible objects, savings, loans, work, or repeated service rituals",
+      "define a spatial status grammar: who sits, kneels, serves, enters, or eats at the table",
+      "use an innocent child or powerless ally as a physical truth instrument rather than an exposition device",
+      "make circular inversion change the meaning of the original space or object, not merely restore status"
     ],
     "risk_patterns": [
       "test without cost",
@@ -323,7 +332,9 @@
       "abstract goodness without a physical object",
       "copycat beggar/billionaire packaging without a distinct object or wound",
       "hidden billionaire reveal treated as instant reward rather than consent/trust rupture",
-      "wealth or marriage payoff that erases the protagonist economic agency chain"
+      "wealth or marriage payoff that erases the protagonist economic agency chain",
+      "public humiliation repaired only privately",
+      "child ally used as decoration rather than evidence of relational truth"
     ],
     "thumbnail_rules": [
       "show class/status contrast in one glance",
@@ -334,7 +345,8 @@
     "evidence": [
       "knowledge/market/third-pass-breakout-media-deep-dive.md",
       "knowledge/market/expanded-breakout-deep-dive.md",
-      "knowledge/market/dramora-compressed-social-melodrama-deep-dive.md"
+      "knowledge/market/dramora-compressed-social-melodrama-deep-dive.md",
+      "knowledge/market/karma-floor-table-social-proof-deep-dive.md"
     ]
   },
   "machine_personhood_scifi": {
@@ -419,7 +431,8 @@
   },
   "legal_proof_melodrama": {
     "reference_channels": [
-      "Nightfall Drama"
+      "Nightfall Drama",
+      "Karma Keeps Score"
     ],
     "positive_signals": [
       "abandoned",
@@ -437,20 +450,32 @@
       "café",
       "daughter",
       "contract",
-      "embezzlement"
+      "embezzlement",
+      "goldsmith",
+      "clasp",
+      "planted evidence",
+      "maker mark",
+      "pawn",
+      "inspector",
+      "same table"
     ],
     "opening_rules": [
       "open with immediate identity/resource deprivation plus a class-expulsion statement",
       "escalate the wound through a concrete public threat rather than static backstory",
       "let protection convert quickly into work, shelter, or skill rather than passive rescue",
-      "seed a family object and a repeatable competence object in the first 10 minutes"
+      "seed a family object and a repeatable competence object in the first 10 minutes",
+      "when humiliation is public, reassemble the original social audience for the proof reversal",
+      "let the protagonist established competence supply part of the exonerating proof chain",
+      "separate wages, advances, bribes, apology payments, inheritance, and craft fees in the moral economy"
     ],
     "risk_patterns": [
       "wealthy rescuer replaces protagonist agency",
       "legal/trust exposition before embodied deprivation",
       "kindness remains charity instead of becoming capability",
       "court reversal relies on surprise evidence with no earlier proof chain",
-      "object wound is forgotten before the ending"
+      "object wound is forgotten before the ending",
+      "single surprise document solves accusation without a seeded proof chain",
+      "protagonist exonerated by rescuer speech instead of participating in the proof"
     ],
     "thumbnail_rules": [
       "show bride/train/class-expulsion contrast in one glance",
@@ -458,7 +483,8 @@
       "avoid generic rich-romance imagery if the real engine is dignity, proof, and legal reversal"
     ],
     "evidence": [
-      "knowledge/market/fourth-pass-breakout-media-deep-dive.md"
+      "knowledge/market/fourth-pass-breakout-media-deep-dive.md",
+      "knowledge/market/karma-floor-table-social-proof-deep-dive.md"
     ]
   },
   "misunderstood_nonhuman_family": {

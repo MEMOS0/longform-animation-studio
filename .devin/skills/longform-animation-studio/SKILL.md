@@ -204,7 +204,7 @@ Current cross-channel mechanism hierarchy:
 3. **Usually insufficient alone:** scale, lore, army battles, crown politics, high visual polish, franchise continuity, or a “movie-like” label.
 4. **Format-specific:** serial cliffhangers belong to episodic systems; complete-film emotional payoff belongs to feature systems; compilation packaging must sell completeness and binge value.
 
-Use `knowledge/market/data-source-and-format-audit.md`, `knowledge/market/epic-ai-films-site-analysis.md`, `knowledge/market/ironcrest-deep-dive.md`, `knowledge/market/format-duration-performance.md`, and `knowledge/market/fifth-pass-breakout-media-deep-dive.md`, and `knowledge/market/fifthpass-hitlow-media-comparison.md; compressed immigrant/social melodrama evidence: knowledge/market/dramora-compressed-social-melodrama-deep-dive.md` before cross-channel creative decisions.
+Use `knowledge/market/data-source-and-format-audit.md`, `knowledge/market/epic-ai-films-site-analysis.md`, `knowledge/market/ironcrest-deep-dive.md`, `knowledge/market/format-duration-performance.md`, and `knowledge/market/fifth-pass-breakout-media-deep-dive.md`, and `knowledge/market/fifthpass-hitlow-media-comparison.md; compressed immigrant/social melodrama evidence: knowledge/market/dramora-compressed-social-melodrama-deep-dive.md; floor/table social-proof circular inversion: knowledge/market/karma-floor-table-social-proof-deep-dive.md` before cross-channel creative decisions.
 
 ## Failure intelligence protocol
 
