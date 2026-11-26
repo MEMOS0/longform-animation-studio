@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:02:04.290" end="00:02:07.293" style="s2">But the rest.</p>
+<p begin="00:04:16.723" end="00:04:18.791" style="s2">Can you stand?</p>
+<p begin="00:04:18.791" end="00:04:21.794" style="s2">Not on that foot.</p>
+<p begin="00:04:41.614" end="00:04:43.116" style="s2">It is all over the ground.</p>
+<p begin="00:04:43.116" end="00:04:46.119" style="s2">We should take them.</p>
+<p begin="00:04:46.352" end="00:04:49.355" style="s2">And how do we carry them up?</p>
+<p begin="00:05:29.028" end="00:05:32.031" style="s2">Come with me.</p>
+<p begin="00:06:06.866" end="00:06:11.871" style="s2">No one is coming for us. No.</p>
+<p begin="00:06:17.810" end="00:06:20.813" style="s2">Then we rest while there is light.</p>
+<p begin="00:10:25.224" end="00:10:28.227" style="s2">What do we do now?</p>
+<p begin="00:10:29.095" end="00:10:30.496" style="s2">No sudden moves.</p>
+<p begin="00:10:30.496" end="00:10:33.499" style="s2">I do not know what it will do.</p>
+<p begin="00:10:34.066" end="00:10:37.069" style="s2">Keep going back.</p>
+<p begin="00:11:02.395" end="00:11:05.398" style="s2">We have another.</p>
+<p begin="00:11:55.081" end="00:12:07.693" style="s2">Move to me. Go!</p>
+<p begin="00:12:22.475" end="00:12:25.478" style="s2">Go! We need to get out of here.</p>
+<p begin="00:12:34.320" end="00:12:37.323" style="s2">Look for a way out.</p>
+<p begin="00:12:54.707" end="00:12:57.710" style="s2">You go first.</p>
+<p begin="00:13:22.835" end="00:13:25.838" style="s2">Don&#39;t rush.</p>
+<p begin="00:13:56.202" end="00:13:59.171" style="s2">I can&#39;t find a foothold.</p>
+<p begin="00:14:00.339" end="00:14:03.342" style="s2">Use my shoulder.</p>
+<p begin="00:14:07.413" end="00:14:08.347" style="s2">Hold it.</p>
+<p begin="00:14:08.347" end="00:14:11.350" style="s2">Hold it!</p>
+<p begin="00:14:33.572" end="00:14:36.575" style="s2">Move faster!</p>
+<p begin="00:15:20.619" end="00:15:23.622" style="s2">You need to keep walking.</p>
+<p begin="00:15:25.257" end="00:15:28.260" style="s2">Or this heat will kill you.</p>
+<p begin="00:15:42.741" end="00:15:45.744" style="s2">Let&#39;s get you into the shade.</p>
+<p begin="00:16:08.000" end="00:16:11.003" style="s2">Where are they?</p>
+<p begin="00:16:15.741" end="00:16:17.476" style="s2">A bird took them.</p>
+<p begin="00:16:17.476" end="00:16:19.878" style="s2">Both of them into the sky.</p>
+<p begin="00:16:30.823" end="00:16:32.691" style="s2">Get some sleep.</p>
+<p begin="00:16:32.691" end="00:16:35.027" style="s2">When you&#39;re ready, we&#39;ll continue.</p>
+<p begin="00:16:35.027" end="00:16:38.030" style="s2">First thing in the morning.</p>
+<p begin="00:16:39.732" end="00:16:41.867" style="s2">We need water.</p>
+<p begin="00:16:41.867" end="00:16:43.502" style="s2">We&#39;ll find some.</p>
+<p begin="00:16:43.502" end="00:16:46.505" style="s2">Just rest for now.</p>
+<p begin="00:16:57.583" end="00:17:00.586" style="s2">He is not coming back.</p>
+<p begin="00:17:00.986" end="00:17:03.989" style="s2">Neither of them is.</p>
+<p begin="00:17:05.090" end="00:17:07.860" style="s2">He came back before.</p>
+<p begin="00:17:07.860" end="00:17:10.863" style="s2">We wait.</p>
+<p begin="00:17:45.097" end="00:17:46.598" style="s2">It went inland.</p>
+<p begin="00:17:46.598" end="00:17:49.268" style="s2">This is the nearest coast on that line.</p>
+<p begin="00:17:49.268" end="00:17:52.271" style="s2">Idris and I will go on foot.</p>
+<p begin="00:17:53.872" end="00:17:55.908" style="s2">I should come.</p>
+<p begin="00:17:55.908" end="00:17:58.911" style="s2">Somebody has to hold the ship.</p>
+<p begin="00:18:12.858" end="00:18:14.359" style="s2">Wake up!</p>
+<p begin="00:18:14.359" end="00:18:17.362" style="s2">Time to move.</p>
+<p begin="00:18:18.430" end="00:18:21.433" style="s2">Did you find any water?</p>
+<p begin="00:18:22.134" end="00:18:47.860" style="s2">No. What happened?</p>
+<p begin="00:18:48.994" end="00:18:51.997" style="s2">My feet are burning.</p>
+<p begin="00:18:52.030" end="00:18:55.033" style="s2">We should be there soon.</p>
+<p begin="00:19:17.022" end="00:19:19.591" style="s2">What are you looking at?</p>
+<p begin="00:19:19.591" end="00:19:21.293" style="s2">We need a better way in.</p>
+<p begin="00:19:21.293" end="00:19:24.296" style="s2">This.</p>
+<p begin="00:19:40.279" end="00:19:43.282" style="s2">Careful of those holes.</p>
+<p begin="00:19:46.151" end="00:19:49.154" style="s2">Spiders and snakes make nests like that.</p>
+<p begin="00:20:31.163" end="00:20:34.132" style="s2">Anyone alive?</p>
+<p begin="00:20:54.353" end="00:20:57.356" style="s2">Do you have some water?</p>
+<p begin="00:21:06.064" end="00:21:09.067" style="s2">First.</p>
+<p begin="00:21:14.539" end="00:21:17.542" style="s2">Wake up.</p>
+<p begin="00:21:23.482" end="00:21:26.451" style="s2">Drink.</p>
+<p begin="00:21:52.711" end="00:21:55.714" style="s2">Leave the bottle here.</p>
+<p begin="00:22:09.695" end="00:22:12.497" style="s2">The sun is very strong this time of year.</p>
+<p begin="00:22:12.497" end="00:22:13.832" style="s2">You need to be careful.</p>
+<p begin="00:22:15.267" end="00:22:18.270" style="s2">We thought we&#39;d reach<br />the shore much sooner.</p>
+<p begin="00:22:20.572" end="00:22:22.674" style="s2">You&#39;re lucky I found you.</p>
+<p begin="00:22:22.674" end="00:22:25.811" style="s2">Another day or night out here, and<br />the heat would have killed you.</p>
+<p begin="00:22:28.680" end="00:22:31.650" style="s2">So where are you heading now?</p>
+<p begin="00:22:35.253" end="00:22:38.957" style="s2">We got lost, and some of our<br />sailors were left behind.</p>
+<p begin="00:22:39.391" end="00:22:41.159" style="s2">We need to get back to our ship.</p>
+<p begin="00:22:41.159" end="00:22:42.828" style="s2">See who&#39;s waiting for us there.</p>
+<p begin="00:22:42.828" end="00:22:45.831" style="s2">Then we&#39;ll decide what to do.</p>
+<p begin="00:22:47.899" end="00:22:50.902" style="s2">Let me take you safely<br />back to your people.</p>
+<p begin="00:22:50.936" end="00:22:53.939" style="s2">Once you&#39;re there, I&#39;ll be on my way.</p>
+<p begin="00:23:16.895" end="00:23:17.429" style="s2">Who are those?</p>
+<p begin="00:23:17.429" end="00:23:19.464" style="s2">Coming.</p>
+<p begin="00:23:19.464" end="00:23:22.467" style="s2">I see someone coming towards us.</p>
+<p begin="00:24:17.856" end="00:24:19.791" style="s2">Where are the others?</p>
+<p begin="00:24:19.791" end="00:24:22.794" style="s2">They&#39;re here too.</p>
+<p begin="00:24:30.302" end="00:24:33.305" style="s2">We have a new sailor, I see. No.</p>
+<p begin="00:24:33.305" end="00:24:35.307" style="s2">He was kind enough to bring us here.</p>
+<p begin="00:24:35.307" end="00:24:38.310" style="s2">He saved our lives.</p>
+<p begin="00:24:46.585" end="00:24:47.786" style="s2">Get ready.</p>
+<p begin="00:24:47.786" end="00:24:50.789" style="s2">We&#39;re sailing off.</p>
+<p begin="00:25:00.198" end="00:25:02.601" style="s2">I am very thankful for your help.</p>
+<p begin="00:25:02.601" end="00:25:03.435" style="s2">Be safe.</p>
+<p begin="00:25:06.538" end="00:25:07.072" style="s2">Be safe.</p>
+<p begin="00:25:07.072" end="00:25:08.306" style="s2">Brother.</p>
+<p begin="00:25:08.306" end="00:25:11.309" style="s2">Sail in peace.</p>
+<p begin="00:25:47.612" end="00:25:50.615" style="s2">I&#39;m going to get some sleep.</p>
+<p begin="00:27:12.297" end="00:27:13.264" style="s2">Do you see it?</p>
+<p begin="00:27:13.264" end="00:27:16.267" style="s2">What are those?</p>
+<p begin="00:27:19.337" end="00:27:22.040" style="s2">Something broke up out here.</p>
+<p begin="00:27:22.040" end="00:27:22.540" style="s2">A storm?</p>
+<p begin="00:27:22.540" end="00:27:25.543" style="s2">Maybe.</p>
+<p begin="00:27:31.483" end="00:27:34.452" style="s2">Look at this.</p>
+<p begin="00:28:23.234" end="00:28:26.237" style="s2">More.</p>
+<p begin="00:30:08.339" end="00:30:10.875" style="s2">What is it?</p>
+<p begin="00:30:10.875" end="00:30:12.343" style="s2">We do not know.</p>
+<p begin="00:30:12.343" end="00:30:15.346" style="s2">We thought you might.</p>
+<p begin="00:31:41.299" end="00:31:44.302" style="s2">What do you think?</p>
+<p begin="00:31:44.602" end="00:31:47.572" style="s2">We need to sail and leave fast.</p>
+<p begin="00:31:47.639" end="00:31:49.841" style="s2">There is a reason all<br />these ships went down.</p>
+<p begin="00:31:49.841" end="00:31:52.810" style="s2">But I do not want to find out why.</p>
+<p begin="00:33:41.019" end="00:33:44.022" style="s2">The ship will sink.</p>
+<p begin="00:33:52.864" end="00:33:54.599" style="s2">Sit down, all of you.</p>
+<p begin="00:33:54.599" end="00:33:57.602" style="s2">Hold on to something.</p>
+<p begin="00:38:23.267" end="00:38:26.270" style="s2">Rashid.</p>
+<p begin="00:39:20.758" end="00:39:21.425" style="s2">Breathe.</p>
+<p begin="00:39:21.425" end="00:39:22.259" style="s2">It is fine.</p>
+<p begin="00:39:22.259" end="00:39:23.294" style="s2">We are here.</p>
+<p begin="00:39:23.294" end="00:39:26.297" style="s2">Breathe.</p>
+<p begin="00:39:34.638" end="00:39:37.641" style="s2">Anyone?</p>
+<p begin="00:40:21.051" end="00:40:24.054" style="s2">I will find a piece of the deck.</p>
+<p begin="00:41:04.929" end="00:41:07.932" style="s2">Help me lift him onto the wood.</p>
+<p begin="00:41:25.316" end="00:41:26.750" style="s2">Lie on your back.</p>
+<p begin="00:41:26.750" end="00:41:29.753" style="s2">You need to breathe.</p>
+<p begin="00:41:43.701" end="00:41:46.704" style="s2">We still do not know where the others are.</p>
+<p begin="00:42:51.869" end="00:42:52.870" style="s2">Do you see them?</p>
+<p begin="00:43:07.851" end="00:43:10.854" style="s2">Tariq.</p>
+<p begin="00:46:49.973" end="00:46:52.075" style="s2">How do you feel?</p>
+<p begin="00:46:52.075" end="00:46:55.078" style="s2">Are you hurt?</p>
+<p begin="00:46:55.746" end="00:46:58.749" style="s2">I am fine.</p>
+<p begin="00:47:03.387" end="00:47:05.789" style="s2">We thought we lost you.</p>
+<p begin="00:47:05.789" end="00:47:08.792" style="s2">How did you get here?</p>
+<p begin="00:47:09.760" end="00:47:12.763" style="s2">How long have you been here?</p>
+<p begin="00:47:14.031" end="00:47:17.034" style="s2">Is Idris here too?</p>
+<p begin="00:47:23.073" end="00:47:30.781" style="s2">He is not with you? No.</p>
+<p begin="00:47:31.815" end="00:47:35.986" style="s2">I washed up here two mornings ago.</p>
+<p begin="00:47:37.821" end="00:47:45.262" style="s2">One whole day I lay on this<br />shore, too tired to move.</p>
+<p begin="00:47:45.262" end="00:47:50.601" style="s2">Then I got up and went to<br />search the island for water.</p>
+<p begin="00:47:51.134" end="00:47:53.270" style="s2">Did you find anything?</p>
+<p begin="00:47:53.270" end="00:47:53.871" style="s2">Water.</p>
+<p begin="00:47:53.871" end="00:47:54.671" style="s2">Food.</p>
+<p begin="00:47:54.671" end="00:47:57.674" style="s2">Fruit?</p>
+<p begin="00:47:57.774" end="00:48:00.777" style="s2">Nothing.</p>
+<p begin="00:48:08.385" end="00:48:11.388" style="s2">What is wrong with the birds?</p>
+<p begin="00:48:13.557" end="00:48:15.859" style="s2">They do this often.</p>
+<p begin="00:48:15.859" end="00:48:19.096" style="s2">Something scares them, and<br />they fly away from the island.</p>
+<p begin="00:48:27.271" end="00:48:32.042" style="s2">You need to move less until we<br />find water and something to eat.</p>
+<p begin="00:48:34.478" end="00:48:36.113" style="s2">You should sit in the shade.</p>
+<p begin="00:48:36.113" end="00:48:39.116" style="s2">Stay out of the sun.</p>
+<p begin="00:48:49.393" end="00:48:52.396" style="s2">Sinbad.</p>
+<p begin="00:49:05.309" end="00:49:07.077" style="s2">How do you feel?</p>
+<p begin="00:49:07.077" end="00:49:08.478" style="s2">Where have you been?</p>
+<p begin="00:49:08.478" end="00:49:11.581" style="s2">I took him for a walk.<br />To stretch his legs.</p>
+<p begin="00:49:11.581" end="00:49:13.650" style="s2">It is good for him.</p>
+<p begin="00:49:13.650" end="00:49:16.653" style="s2">Yes, you are right.</p>
+<p begin="00:49:16.787" end="00:49:17.955" style="s2">Walking helps.</p>
+<p begin="00:49:19.423" end="00:49:22.426" style="s2">Smart boy.</p>
+<p begin="00:50:05.669" end="00:50:07.237" style="s2">Bring more wood.</p>
+<p begin="00:50:07.237" end="00:50:10.240" style="s2">The fire is getting low.</p>
+<p begin="00:50:14.945" end="00:50:18.815" style="s2">In the morning, we will<br />walk deep into the island.</p>
+<p begin="00:50:19.616" end="00:50:26.590" style="s2">Maybe we can find something to<br />build a new ship, or a small boat.</p>
+<p begin="00:50:27.090" end="00:50:31.962" style="s2">Before a boat, we have<br />more important things.</p>
+<p begin="00:50:44.241" end="00:50:47.210" style="s2">Help me.</p>
+<p begin="00:50:51.314" end="00:50:52.549" style="s2">Don&#39;t go.</p>
+<p begin="00:50:52.549" end="00:50:54.117" style="s2">We don&#39;t know what is happening.</p>
+</div>
+</body>
+</tt>

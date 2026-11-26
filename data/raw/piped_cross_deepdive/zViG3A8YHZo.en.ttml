@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.440" end="00:00:05.320" style="s2">Sarah,</p>
+<p begin="00:00:03.560" end="00:00:06.600" style="s2">from today on, you&#39;re my daughter.</p>
+<p begin="00:00:05.320" end="00:00:09.560" style="s2">You&#39;re part of this family now.</p>
+<p begin="00:00:06.600" end="00:00:11.280" style="s2">&gt;&gt; Wait, what? Me? Really?</p>
+<p begin="00:00:09.560" end="00:00:14.160" style="s2">&gt;&gt; New member of the family.</p>
+<p begin="00:00:11.280" end="00:00:15.880" style="s2">&gt;&gt; Woah, what are you doing? Mom, wait. If</p>
+<p begin="00:00:14.160" end="00:00:16.880" style="s2">she&#39;s really joining our family, we have</p>
+<p begin="00:00:15.880" end="00:00:18.200" style="s2">one condition.</p>
+<p begin="00:00:16.880" end="00:00:19.600" style="s2">&gt;&gt; What condition?</p>
+<p begin="00:00:18.200" end="00:00:21.000" style="s2">&gt;&gt; We need to test her.</p>
+<p begin="00:00:19.600" end="00:00:22.600" style="s2">&gt;&gt; We&#39;re the richest family in this city,</p>
+<p begin="00:00:21.000" end="00:00:24.890" style="s2">and if she&#39;s going to be one of us,</p>
+<p begin="00:00:22.600" end="00:00:25.040" style="s2">&gt;&gt; she has to prove she deserves it.</p>
+<p begin="00:00:24.890" end="00:00:27.840" style="s2">&gt;&gt; [clears throat]</p>
+<p begin="00:00:25.040" end="00:00:30.000" style="s2">&gt;&gt; What&#39;s your plan?</p>
+<p begin="00:00:27.840" end="00:00:32.279" style="s2">&gt;&gt; We pretend we&#39;re poor.</p>
+<p begin="00:00:30.000" end="00:00:34.360" style="s2">&gt;&gt; Poor?</p>
+<p begin="00:00:32.279" end="00:00:35.440" style="s2">&gt;&gt; Really poor.</p>
+<p begin="00:00:34.360" end="00:00:37.680" style="s2">&gt;&gt; But what if</p>
+<p begin="00:00:35.440" end="00:00:40.480" style="s2">&gt;&gt; Mom, what if she&#39;s a scammer? What if</p>
+<p begin="00:00:37.680" end="00:00:43.280" style="s2">she&#39;s a liar? What if she&#39;s a thief?</p>
+<p begin="00:00:40.480" end="00:00:43.280" style="s2">&gt;&gt; That&#39;s our condition.</p>
+<p begin="00:00:43.680" end="00:00:46.120" style="s2">&gt;&gt; Okay.</p>
+<p begin="00:00:47.360" end="00:00:50.120" style="s2">&gt;&gt; All right, Sarah.</p>
+<p begin="00:00:48.880" end="00:00:51.480" style="s2">Tell us about yourself.</p>
+<p begin="00:00:50.120" end="00:00:53.240" style="s2">&gt;&gt; Tell us about your life.</p>
+<p begin="00:00:51.480" end="00:00:55.160" style="s2">&gt;&gt; Where&#39;s your family?</p>
+<p begin="00:00:53.240" end="00:00:58.240" style="s2">&gt;&gt; My life&#39;s kind of a long story,</p>
+<p begin="00:00:55.160" end="00:00:58.240" style="s2">but I&#39;ll tell you everything.</p>
+<p begin="00:01:02.080" end="00:01:04.480" style="s2">God,</p>
+<p begin="00:01:03.120" end="00:01:07.280" style="s2">could today please be different from</p>
+<p begin="00:01:04.480" end="00:01:07.280" style="s2">every other day?</p>
+<p begin="00:01:09.760" end="00:01:12.120" style="s2">How am I supposed to have a different</p>
+<p begin="00:01:10.880" end="00:01:14.840" style="s2">kind of day when I still have the same</p>
+<p begin="00:01:12.120" end="00:01:14.840" style="s2">ugly face?</p>
+<p begin="00:01:18.720" end="00:01:23.560" style="s2">I need this.</p>
+<p begin="00:01:21.000" end="00:01:24.640" style="s2">Ugh, it smells just like you.</p>
+<p begin="00:01:23.560" end="00:01:26.040" style="s2">Awful.</p>
+<p begin="00:01:24.640" end="00:01:27.840" style="s2">Whatever. I&#39;ll use it to freshen up the</p>
+<p begin="00:01:26.040" end="00:01:29.280" style="s2">bathroom. It&#39;ll do.</p>
+<p begin="00:01:27.840" end="00:01:31.480" style="s2">Ashley!</p>
+<p begin="00:01:29.280" end="00:01:33.360" style="s2">I&#39;m your sister. Why do you treat me</p>
+<p begin="00:01:31.480" end="00:01:35.320" style="s2">like this?</p>
+<p begin="00:01:33.360" end="00:01:36.560" style="s2">The fact that an ugly girl like you gets</p>
+<p begin="00:01:35.320" end="00:01:39.080" style="s2">to live in this house should make you</p>
+<p begin="00:01:36.560" end="00:01:42.360" style="s2">thank God a thousand times a day.</p>
+<p begin="00:01:39.080" end="00:01:42.360" style="s2">So, don&#39;t get ahead of yourself.</p>
+<p begin="00:01:42.836" end="00:01:44.856" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:01:47.520" end="00:01:50.920" style="s2">&gt;&gt; No, not today.</p>
+<p begin="00:01:49.320" end="00:01:52.960" style="s2">I cry every day.</p>
+<p begin="00:01:50.920" end="00:01:56.880" style="s2">Today&#39;s going to be different. I&#39;m a</p>
+<p begin="00:01:52.960" end="00:01:59.360" style="s2">happy girl. I&#39;m a happy girl. I&#39;m a</p>
+<p begin="00:01:56.880" end="00:02:03.080" style="s2">happy, ugly girl.</p>
+<p begin="00:01:59.360" end="00:02:03.080" style="s2">Okay, let&#39;s go get some breakfast.</p>
+<p begin="00:02:09.119" end="00:02:14.120" style="s2">Seriously? Mom, you didn&#39;t leave me any</p>
+<p begin="00:02:11.560" end="00:02:15.959" style="s2">breakfast. I&#39;m not your personal chef.</p>
+<p begin="00:02:14.120" end="00:02:17.480" style="s2">Make something yourself. Actually,</p>
+<p begin="00:02:15.959" end="00:02:19.600" style="s2">there&#39;s nothing left. You&#39;ll have to go</p>
+<p begin="00:02:17.480" end="00:02:20.880" style="s2">grocery shopping first.</p>
+<p begin="00:02:19.600" end="00:02:22.520" style="s2">And this place is filthy. You&#39;re</p>
+<p begin="00:02:20.880" end="00:02:26.200" style="s2">cleaning the house today.</p>
+<p begin="00:02:22.520" end="00:02:28.720" style="s2">Today? I clean this house every day.</p>
+<p begin="00:02:26.200" end="00:02:30.440" style="s2">Did you say something?</p>
+<p begin="00:02:28.720" end="00:02:32.680" style="s2">Nope. I said I&#39;d be happy to clean</p>
+<p begin="00:02:30.440" end="00:02:34.840" style="s2">everything, dear family.</p>
+<p begin="00:02:32.680" end="00:02:36.360" style="s2">And make pasta for lunch. Ashley and I</p>
+<p begin="00:02:34.840" end="00:02:37.959" style="s2">are spending the day by the pool.</p>
+<p begin="00:02:36.360" end="00:02:39.800" style="s2">&gt;&gt; Hey, best beaches.</p>
+<p begin="00:02:37.959" end="00:02:42.200" style="s2">&gt;&gt; Oh, and don&#39;t forget the laundry.</p>
+<p begin="00:02:39.800" end="00:02:42.200" style="s2">&gt;&gt; Sure.</p>
+<p begin="00:02:42.520" end="00:02:45.360" style="s2">Best day ever.</p>
+<p begin="00:02:45.800" end="00:02:48.320" style="s2">Okay.</p>
+<p begin="00:02:51.880" end="00:02:54.480" style="s2">Focus.</p>
+<p begin="00:02:59.160" end="00:03:02.360" style="s2">You have got to be kidding me.</p>
+<p begin="00:03:08.720" end="00:03:10.920" style="s2">No!</p>
+<p begin="00:03:11.320" end="00:03:14.320" style="s2">What?</p>
+<p begin="00:03:12.400" end="00:03:15.959" style="s2">This pool is clean. We just changed the</p>
+<p begin="00:03:14.320" end="00:03:18.400" style="s2">water. You&#39;re seriously getting in like</p>
+<p begin="00:03:15.959" end="00:03:19.080" style="s2">that? With that dirty body, absolutely</p>
+<p begin="00:03:18.400" end="00:03:20.600" style="s2">not.</p>
+<p begin="00:03:19.080" end="00:03:23.600" style="s2">&gt;&gt; Don&#39;t ruin our day, too.</p>
+<p begin="00:03:20.600" end="00:03:26.160" style="s2">&gt;&gt; Mom, why do you treat me like this?</p>
+<p begin="00:03:23.600" end="00:03:27.640" style="s2">&gt;&gt; Because look at you, Sarah.</p>
+<p begin="00:03:26.160" end="00:03:29.959" style="s2">Look at your sister.</p>
+<p begin="00:03:27.640" end="00:03:31.680" style="s2">She&#39;s beautiful.</p>
+<p begin="00:03:29.959" end="00:03:33.400" style="s2">You don&#39;t look like me.</p>
+<p begin="00:03:31.680" end="00:03:34.680" style="s2">You don&#39;t look like your father.</p>
+<p begin="00:03:33.400" end="00:03:35.880" style="s2">&gt;&gt; But I&#39;m still your daughter.</p>
+<p begin="00:03:34.680" end="00:03:37.880" style="s2">&gt;&gt; Then you should be grateful we let you</p>
+<p begin="00:03:35.880" end="00:03:42.320" style="s2">live here.</p>
+<p begin="00:03:37.880" end="00:03:42.320" style="s2">Now go. Let me and Ashley enjoy our day.</p>
+<p begin="00:03:46.120" end="00:03:49.280" style="s2">&gt;&gt; Fine.</p>
+<p begin="00:03:47.280" end="00:03:51.920" style="s2">Maybe I can&#39;t be pretty, but I can be</p>
+<p begin="00:03:49.280" end="00:03:51.920" style="s2">smart.</p>
+<p begin="00:04:03.600" end="00:04:06.280" style="s2">&gt;&gt; Alex?</p>
+<p begin="00:04:18.519" end="00:04:21.799" style="s2">Maybe Alex doesn&#39;t like you, but I do.</p>
+<p begin="00:04:21.160" end="00:04:23.960" style="s2">&gt;&gt; Really?</p>
+<p begin="00:04:21.799" end="00:04:24.640" style="s2">&gt;&gt; Yeah. You make me happy.</p>
+<p begin="00:04:23.960" end="00:04:25.960" style="s2">&gt;&gt; How?</p>
+<p begin="00:04:24.640" end="00:04:29.919" style="s2">&gt;&gt; Whenever I&#39;m having a bad day, I just</p>
+<p begin="00:04:25.960" end="00:04:29.919" style="s2">think about your face and I CRACK UP.</p>
+<p begin="00:04:36.000" end="00:04:38.960" style="s2">&gt;&gt; HOW DID I ACTUALLY THINK HE LIKED ME?</p>
+<p begin="00:04:37.320" end="00:04:40.560" style="s2">IDIOT. All right, who knows which male</p>
+<p begin="00:04:38.960" end="00:04:42.240" style="s2">animal gets pregnant?</p>
+<p begin="00:04:40.560" end="00:04:43.720" style="s2">&gt;&gt; A seahorse.</p>
+<p begin="00:04:42.240" end="00:04:44.760" style="s2">&gt;&gt; A seahorse.</p>
+<p begin="00:04:43.720" end="00:04:46.480" style="s2">&gt;&gt; You&#39;ve got to be kidding me.</p>
+<p begin="00:04:44.760" end="00:04:47.080" style="s2">&gt;&gt; Exactly. Nice job, Hannah. You&#39;re really</p>
+<p begin="00:04:46.480" end="00:04:49.520" style="s2">smart.</p>
+<p begin="00:04:47.080" end="00:04:49.520" style="s2">&gt;&gt; Thanks.</p>
+<p begin="00:04:53.919" end="00:04:56.360" style="s2">You stole my answer.</p>
+<p begin="00:04:55.360" end="00:04:58.160" style="s2">&gt;&gt; So?</p>
+<p begin="00:04:56.360" end="00:04:59.320" style="s2">Going to tell your mom? If you even have</p>
+<p begin="00:04:58.160" end="00:05:01.160" style="s2">one.</p>
+<p begin="00:04:59.320" end="00:05:04.360" style="s2">&gt;&gt; I do have a mom.</p>
+<p begin="00:05:01.160" end="00:05:05.760" style="s2">&gt;&gt; Then why does she never come to school?</p>
+<p begin="00:05:04.360" end="00:05:09.163" style="s2">Nice try, ugly girl.</p>
+<p begin="00:05:05.760" end="00:05:10.919" style="s2">&gt;&gt; I have a mom. I have a mom.</p>
+<p begin="00:05:09.163" end="00:05:13.360" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:05:10.919" end="00:05:13.919" style="s2">&gt;&gt; Sarah, you know why nobody notices you?</p>
+<p begin="00:05:13.360" end="00:05:16.320" style="s2">&gt;&gt; Why?</p>
+<p begin="00:05:13.919" end="00:05:17.880" style="s2">&gt;&gt; Because everything about you is so dull.</p>
+<p begin="00:05:16.320" end="00:05:20.919" style="s2">You need some color.</p>
+<p begin="00:05:17.880" end="00:05:20.919" style="s2">Let me help. Blue.</p>
+<p begin="00:05:21.440" end="00:05:26.248" style="s2">&gt;&gt; She needs pink, TOO.</p>
+<p begin="00:05:24.228" end="00:05:26.248" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:05:29.200" end="00:05:34.840" style="s2">&gt;&gt; SHE STILL NEEDS ORANGE.</p>
+<p begin="00:05:32.000" end="00:05:34.840" style="s2">AND GREEN.</p>
+<p begin="00:05:35.400" end="00:05:40.960" style="s2">&gt;&gt; ALEX, I always helped you with your</p>
+<p begin="00:05:37.160" end="00:05:40.960" style="s2">homework. Please help me.</p>
+<p begin="00:05:42.240" end="00:05:44.680" style="s2">&gt;&gt; Sure.</p>
+<p begin="00:05:47.960" end="00:05:52.400" style="s2">&gt;&gt; You always helped your classmates.</p>
+<p begin="00:05:50.280" end="00:05:53.640" style="s2">You were always there for everyone.</p>
+<p begin="00:05:52.400" end="00:05:56.120" style="s2">You were always the one people could</p>
+<p begin="00:05:53.640" end="00:05:58.080" style="s2">count on, but people only see your face,</p>
+<p begin="00:05:56.120" end="00:06:02.200" style="s2">not the good in you. They only see your</p>
+<p begin="00:05:58.080" end="00:06:02.200" style="s2">clothes, not your kindness.</p>
+<p begin="00:06:05.160" end="00:06:08.080" style="s2">&gt;&gt; What are you doing? Are you crazy? Look</p>
+<p begin="00:06:06.880" end="00:06:09.600" style="s2">what you&#39;ve done to the house.</p>
+<p begin="00:06:08.080" end="00:06:10.640" style="s2">&gt;&gt; What happened to you? Why are you always</p>
+<p begin="00:06:09.600" end="00:06:11.560" style="s2">causing problems?</p>
+<p begin="00:06:10.640" end="00:06:13.640" style="s2">&gt;&gt; Gross.</p>
+<p begin="00:06:11.560" end="00:06:14.560" style="s2">&gt;&gt; Why do you always have TO EMBARRASS US?</p>
+<p begin="00:06:13.640" end="00:06:17.920" style="s2">&gt;&gt; LEAVE LEAVE ME</p>
+<p begin="00:06:14.560" end="00:06:17.920" style="s2">&gt;&gt; ALL OF YOU SHUT UP.</p>
+<p begin="00:06:18.520" end="00:06:23.600" style="s2">&gt;&gt; YOU DON&#39;T EVEN ASK WHAT HAPPENED TO ME.</p>
+<p begin="00:06:20.919" end="00:06:25.200" style="s2">Can I even call you people a family?</p>
+<p begin="00:06:23.600" end="00:06:25.800" style="s2">If you hate me that much, then fine. I&#39;m</p>
+<p begin="00:06:25.200" end="00:06:27.440" style="s2">leaving.</p>
+<p begin="00:06:25.800" end="00:06:28.120" style="s2">&gt;&gt; You rude little idiot. Get out of this</p>
+<p begin="00:06:27.440" end="00:06:30.200" style="s2">house.</p>
+<p begin="00:06:28.120" end="00:06:31.480" style="s2">&gt;&gt; Great. Then we won&#39;t have to tell anyone</p>
+<p begin="00:06:30.200" end="00:06:32.560" style="s2">a girl who looks like you is our</p>
+<p begin="00:06:31.480" end="00:06:35.160" style="s2">daughter.</p>
+<p begin="00:06:32.560" end="00:06:35.160" style="s2">&gt;&gt; Bye-bye.</p>
+<p begin="00:06:44.600" end="00:06:50.000" style="s2">Maybe they&#39;re right. Maybe someone like</p>
+<p begin="00:06:46.680" end="00:06:51.320" style="s2">me doesn&#39;t deserve to be loved.</p>
+<p begin="00:06:50.000" end="00:06:54.640" style="s2">God,</p>
+<p begin="00:06:51.320" end="00:06:54.640" style="s2">I don&#39;t have anywhere to go.</p>
+<p begin="00:06:54.840" end="00:07:01.640" style="s2">God, show me a way.</p>
+<p begin="00:06:58.200" end="00:07:01.640" style="s2">I don&#39;t know what to do anymore.</p>
+<p begin="00:07:03.789" end="00:07:06.040" style="s2">&gt;&gt; [panting]</p>
+<p begin="00:07:04.360" end="00:07:07.720" style="s2">&gt;&gt; Did I get hit?</p>
+<p begin="00:07:06.040" end="00:07:11.320" style="s2">Is this heaven?</p>
+<p begin="00:07:07.720" end="00:07:11.320" style="s2">Why does it look exactly the same?</p>
+<p begin="00:07:19.440" end="00:07:21.760" style="s2">&gt;&gt; Is she okay?</p>
+<p begin="00:07:20.160" end="00:07:23.440" style="s2">&gt;&gt; She&#39;s alive, but her only functioning</p>
+<p begin="00:07:21.760" end="00:07:26.280" style="s2">kidney was badly damaged. She needs a</p>
+<p begin="00:07:23.440" end="00:07:27.919" style="s2">transplant as soon as possible.</p>
+<p begin="00:07:26.280" end="00:07:29.880" style="s2">&gt;&gt; An hour ago, I thought I had nothing</p>
+<p begin="00:07:27.919" end="00:07:30.360" style="s2">left. And now I could actually save</p>
+<p begin="00:07:29.880" end="00:07:31.000" style="s2">someone.</p>
+<p begin="00:07:30.360" end="00:07:31.480" style="s2">&gt;&gt; Doctor?</p>
+<p begin="00:07:31.000" end="00:07:34.040" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:07:31.480" end="00:07:37.120" style="s2">&gt;&gt; If I&#39;m a match,</p>
+<p begin="00:07:34.040" end="00:07:37.120" style="s2">I want to give her my kidney.</p>
+<p begin="00:07:38.400" end="00:07:42.040" style="s2">&gt;&gt; Is that woman your mother?</p>
+<p begin="00:07:39.800" end="00:07:42.920" style="s2">&gt;&gt; No. I don&#39;t even know her.</p>
+<p begin="00:07:42.040" end="00:07:45.080" style="s2">&gt;&gt; Then why do you want to give her your</p>
+<p begin="00:07:42.920" end="00:07:47.280" style="s2">kidney?</p>
+<p begin="00:07:45.080" end="00:07:50.440" style="s2">&gt;&gt; I couldn&#39;t fix my own problems,</p>
+<p begin="00:07:47.280" end="00:07:50.440" style="s2">but maybe I can fix hers.</p>
+<p begin="00:07:57.560" end="00:08:00.600" style="s2">Are you my guardian angel?</p>
+<p begin="00:07:59.400" end="00:08:02.320" style="s2">&gt;&gt; An angel?</p>
+<p begin="00:08:00.600" end="00:08:03.720" style="s2">&gt;&gt; No one&#39;s ever called me that before.</p>
+<p begin="00:08:02.320" end="00:08:04.760" style="s2">&gt;&gt; Where&#39;s your family? You had a major</p>
+<p begin="00:08:03.720" end="00:08:07.400" style="s2">surgery.</p>
+<p begin="00:08:04.760" end="00:08:09.080" style="s2">&gt;&gt; I don&#39;t have anyone.</p>
+<p begin="00:08:07.400" end="00:08:11.960" style="s2">&gt;&gt; Then when we&#39;re discharged, you&#39;re</p>
+<p begin="00:08:09.080" end="00:08:11.960" style="s2">coming home with me.</p>
+<p begin="00:08:14.440" end="00:08:17.320" style="s2">&gt;&gt; And</p>
+<p begin="00:08:15.760" end="00:08:19.080" style="s2">that&#39;s how I ended up here.</p>
+<p begin="00:08:17.320" end="00:08:21.200" style="s2">&gt;&gt; We&#39;re really grateful you saved our mom.</p>
+<p begin="00:08:19.080" end="00:08:21.919" style="s2">&gt;&gt; And you came from a really rich family,</p>
+<p begin="00:08:21.200" end="00:08:24.840" style="s2">right?</p>
+<p begin="00:08:21.919" end="00:08:24.840" style="s2">&gt;&gt; We&#39;re not really rich.</p>
+<p begin="00:08:24.919" end="00:08:27.160" style="s2">&gt;&gt; Really?</p>
+<p begin="00:08:25.919" end="00:08:27.680" style="s2">Because this house kind of looks like</p>
+<p begin="00:08:27.160" end="00:08:30.800" style="s2">you are.</p>
+<p begin="00:08:27.680" end="00:08:30.800" style="s2">&gt;&gt; NO, WE&#39;RE NOT.</p>
+<p begin="00:08:31.560" end="00:08:33.580" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:08:36.080" end="00:08:39.200" style="s2">&gt;&gt; WE REALLY ARE POOR. We work here as</p>
+<p begin="00:08:38.360" end="00:08:40.200" style="s2">servants.</p>
+<p begin="00:08:39.200" end="00:08:42.240" style="s2">&gt;&gt; Your whole family?</p>
+<p begin="00:08:40.200" end="00:08:42.919" style="s2">&gt;&gt; Yes, all of us. We have nowhere else to</p>
+<p begin="00:08:42.240" end="00:08:43.840" style="s2">go.</p>
+<p begin="00:08:42.919" end="00:08:45.360" style="s2">&gt;&gt; Then where&#39;s the owner?</p>
+<p begin="00:08:43.840" end="00:08:46.839" style="s2">&gt;&gt; She&#39;s away for a month, and Sarah, for</p>
+<p begin="00:08:45.360" end="00:08:48.480" style="s2">God&#39;s sake, don&#39;t break anything in this</p>
+<p begin="00:08:46.839" end="00:08:50.040" style="s2">house. Even if we worked our whole</p>
+<p begin="00:08:48.480" end="00:08:50.880" style="s2">years, we could never pay for it.</p>
+<p begin="00:08:50.040" end="00:08:54.120" style="s2">&gt;&gt; She&#39;s going too far.</p>
+<p begin="00:08:50.880" end="00:08:55.640" style="s2">&gt;&gt; Okay, okay. I&#39;ll be careful.</p>
+<p begin="00:08:54.120" end="00:08:57.680" style="s2">&gt;&gt; I used to live with a rich family, and</p>
+<p begin="00:08:55.640" end="00:08:59.000" style="s2">my life was I want your money. I just</p>
+<p begin="00:08:57.680" end="00:09:01.920" style="s2">need you not to hate me, that&#39;s all.</p>
+<p begin="00:08:59.000" end="00:09:01.920" style="s2">&gt;&gt; Why would we hate you?</p>
+<p begin="00:09:02.120" end="00:09:06.931" style="s2">&gt;&gt; Auntie!</p>
+<p begin="00:09:03.680" end="00:09:08.951" style="s2">I bought that island you love today.</p>
+<p begin="00:09:06.931" end="00:09:08.951" style="s2">&gt;&gt; [gasps]</p>
+<p begin="00:09:13.880" end="00:09:17.200" style="s2">&gt;&gt; Eye lenses, eye lenses. Yeah, Sarah,</p>
+<p begin="00:09:15.920" end="00:09:18.320" style="s2">Mom&#39;s eyesight&#39;s been getting worse. She</p>
+<p begin="00:09:17.200" end="00:09:19.640" style="s2">needed new lenses, but we couldn&#39;t</p>
+<p begin="00:09:18.320" end="00:09:21.560" style="s2">afford them. Looks like Mark bought them</p>
+<p begin="00:09:19.640" end="00:09:23.280" style="s2">for her. Thanks, Mark. Seriously.</p>
+<p begin="00:09:21.560" end="00:09:24.240" style="s2">&gt;&gt; Yeah, thank you so much. We&#39;ll pay you</p>
+<p begin="00:09:23.280" end="00:09:27.720" style="s2">back someday.</p>
+<p begin="00:09:24.240" end="00:09:27.720" style="s2">&gt;&gt; Uh yes, okay.</p>
+<p begin="00:09:28.520" end="00:09:32.720" style="s2">You have a guest?</p>
+<p begin="00:09:29.680" end="00:09:32.720" style="s2">&gt;&gt; I&#39;ll explain everything.</p>
+<p begin="00:09:34.800" end="00:09:37.440" style="s2">Oh my god. No, no, no.</p>
+<p begin="00:09:36.040" end="00:09:37.960" style="s2">&gt;&gt; Ma&#39;am, the luxury cars you ordered have</p>
+<p begin="00:09:37.440" end="00:09:40.960" style="s2">arrived.</p>
+<p begin="00:09:37.960" end="00:09:42.800" style="s2">&gt;&gt; Everyone, get in the cars AND LEAVE NOW.</p>
+<p begin="00:09:40.960" end="00:09:44.640" style="s2">WAIT.</p>
+<p begin="00:09:42.800" end="00:09:46.360" style="s2">WHICH one looks the cheapest? Leave that</p>
+<p begin="00:09:44.640" end="00:09:49.360" style="s2">one here. You stay, too. EVERYONE ELSE,</p>
+<p begin="00:09:46.360" end="00:09:49.360" style="s2">GO NOW.</p>
+<p begin="00:09:50.161" end="00:09:52.181" style="s2">&gt;&gt; [sighs and gasps]</p>
+<p begin="00:09:53.880" end="00:09:56.800" style="s2">&gt;&gt; OKAY.</p>
+<p begin="00:09:55.080" end="00:09:58.400" style="s2">Listen carefully. I&#39;m going to start</p>
+<p begin="00:09:56.800" end="00:10:00.200" style="s2">cleaning this car, and when Sarah comes</p>
+<p begin="00:09:58.400" end="00:10:01.160" style="s2">out, you bully me. Got it?</p>
+<p begin="00:10:00.200" end="00:10:02.120" style="s2">&gt;&gt; Ma&#39;am,</p>
+<p begin="00:10:01.160" end="00:10:03.840" style="s2">I really can&#39;t do that.</p>
+<p begin="00:10:02.120" end="00:10:07.400" style="s2">&gt;&gt; Yes, you can. You&#39;re going to do exactly</p>
+<p begin="00:10:03.840" end="00:10:10.640" style="s2">what I said. Be as mean as you can.</p>
+<p begin="00:10:07.400" end="00:10:13.240" style="s2">&gt;&gt; Yes, ma&#39;am. I&#39;ll do as you say.</p>
+<p begin="00:10:10.640" end="00:10:13.240" style="s2">&gt;&gt; Remember.</p>
+<p begin="00:10:15.600" end="00:10:18.840" style="s2">&gt;&gt; Wash it properly, you lazy girl. Hurry</p>
+<p begin="00:10:17.480" end="00:10:21.720" style="s2">up, I&#39;m late.</p>
+<p begin="00:10:18.840" end="00:10:23.600" style="s2">&gt;&gt; Hey, wait. What are you doing?</p>
+<p begin="00:10:21.720" end="00:10:25.080" style="s2">Here, you wash it. You&#39;re the one riding</p>
+<p begin="00:10:23.600" end="00:10:27.640" style="s2">in it. We&#39;re house staff, not your car</p>
+<p begin="00:10:25.080" end="00:10:27.640" style="s2">washers.</p>
+<p begin="00:10:30.240" end="00:10:33.680" style="s2">Thanks.</p>
+<p begin="00:10:31.680" end="00:10:35.080" style="s2">Do you always dress like this? Actually,</p>
+<p begin="00:10:33.680" end="00:10:36.520" style="s2">I&#39;m a fashion designer. I make all my</p>
+<p begin="00:10:35.080" end="00:10:39.200" style="s2">own clothes. I have to dress a little</p>
+<p begin="00:10:36.520" end="00:10:41.960" style="s2">crazy for work. Like,</p>
+<p begin="00:10:39.200" end="00:10:44.960" style="s2">imagine this. What if some famous singer</p>
+<p begin="00:10:41.960" end="00:10:46.920" style="s2">walks by, she sees this, loves it, and</p>
+<p begin="00:10:44.960" end="00:10:47.802" style="s2">hires me. Maybe I&#39;ll finally make some</p>
+<p begin="00:10:46.920" end="00:10:47.960" style="s2">money.</p>
+<p begin="00:10:47.802" end="00:10:50.720" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:10:47.960" end="00:10:50.720" style="s2">&gt;&gt; That&#39;s true.</p>
+<p begin="00:10:55.000" end="00:10:58.520" style="s2">&gt;&gt; What are you thinking about?</p>
+<p begin="00:10:56.880" end="00:11:00.400" style="s2">&gt;&gt; About why I&#39;m so ugly.</p>
+<p begin="00:10:58.520" end="00:11:02.640" style="s2">&gt;&gt; Whoa, hold on. You&#39;re beautiful.</p>
+<p begin="00:11:00.400" end="00:11:04.480" style="s2">&gt;&gt; Thanks for the white lie.</p>
+<p begin="00:11:02.640" end="00:11:05.839" style="s2">&gt;&gt; You just have no confidence. You don&#39;t</p>
+<p begin="00:11:04.480" end="00:11:06.839" style="s2">even wear the clothes you actually like</p>
+<p begin="00:11:05.839" end="00:11:08.000" style="s2">because you think they won&#39;t look good</p>
+<p begin="00:11:06.839" end="00:11:09.160" style="s2">on you.</p>
+<p begin="00:11:08.000" end="00:11:10.200" style="s2">You stopped taking care of yourself</p>
+<p begin="00:11:09.160" end="00:11:12.040" style="s2">because you started believing you were</p>
+<p begin="00:11:10.200" end="00:11:13.360" style="s2">ugly.</p>
+<p begin="00:11:12.040" end="00:11:15.120" style="s2">But Sarah,</p>
+<p begin="00:11:13.360" end="00:11:16.360" style="s2">you&#39;re beautiful on the inside, too. You</p>
+<p begin="00:11:15.120" end="00:11:17.440" style="s2">gave a piece of yourself to a complete</p>
+<p begin="00:11:16.360" end="00:11:19.480" style="s2">stranger,</p>
+<p begin="00:11:17.440" end="00:11:21.640" style="s2">your kidney.</p>
+<p begin="00:11:19.480" end="00:11:23.240" style="s2">And you&#39;re beautiful on the outside.</p>
+<p begin="00:11:21.640" end="00:11:24.440" style="s2">So, pull yourself together.</p>
+<p begin="00:11:23.240" end="00:11:25.640" style="s2">&gt;&gt; Those are the nicest things anyone&#39;s</p>
+<p begin="00:11:24.440" end="00:11:27.040" style="s2">ever said to me.</p>
+<p begin="00:11:25.640" end="00:11:29.640" style="s2">I&#39;m going to change.</p>
+<p begin="00:11:27.040" end="00:11:29.640" style="s2">&gt;&gt; That&#39;s my girl.</p>
+<p begin="00:11:31.440" end="00:11:34.480" style="s2">&gt;&gt; Stay away from me.</p>
+<p begin="00:11:35.480" end="00:11:39.600" style="s2">Don&#39;t touch me. Don&#39;t touch me.</p>
+<p begin="00:11:42.120" end="00:11:45.680" style="s2">How dare you touch my sister?</p>
+<p begin="00:11:52.680" end="00:11:55.323" style="s2">&gt;&gt; No!</p>
+<p begin="00:11:53.303" end="00:11:55.323" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:11:59.040" end="00:12:02.480" style="s2">&gt;&gt; You people are insane.</p>
+<p begin="00:12:02.520" end="00:12:06.720" style="s2">&gt;&gt; Are you okay?</p>
+<p begin="00:12:03.640" end="00:12:08.400" style="s2">&gt;&gt; I&#39;m great. I taught him a lesson.</p>
+<p begin="00:12:06.720" end="00:12:10.680" style="s2">&gt;&gt; Who was that?</p>
+<p begin="00:12:08.400" end="00:12:12.640" style="s2">&gt;&gt; My ex-boyfriend. He cheated on me and</p>
+<p begin="00:12:10.680" end="00:12:14.880" style="s2">now he says he regrets it, but God, he&#39;s</p>
+<p begin="00:12:12.640" end="00:12:16.440" style="s2">disgusting.</p>
+<p begin="00:12:14.880" end="00:12:18.320" style="s2">Thanks for helping me.</p>
+<p begin="00:12:16.440" end="00:12:19.640" style="s2">Seriously, thank you.</p>
+<p begin="00:12:18.320" end="00:12:22.440" style="s2">&gt;&gt; Don&#39;t say that.</p>
+<p begin="00:12:19.640" end="00:12:22.440" style="s2">You&#39;re my sister now.</p>
+<p begin="00:12:24.743" end="00:12:26.763" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:12:33.840" end="00:12:38.320" style="s2">&gt;&gt; Oh, my God, that guy is so hot.</p>
+<p begin="00:12:37.440" end="00:12:38.560" style="s2">&gt;&gt; I think I&#39;m in love with that girl</p>
+<p begin="00:12:38.320" end="00:12:41.280" style="s2">already.</p>
+<p begin="00:12:38.560" end="00:12:41.280" style="s2">&gt;&gt; They&#39;re gorgeous.</p>
+<p begin="00:12:45.160" end="00:12:48.378" style="s2">Who are they? They&#39;re gorgeous. [music]</p>
+<p begin="00:12:55.440" end="00:12:59.120" style="s2">&gt;&gt; Oh, I didn&#39;t know Sarah had back up.</p>
+<p begin="00:12:58.120" end="00:12:59.880" style="s2">Interesting.</p>
+<p begin="00:12:59.120" end="00:13:01.839" style="s2">&gt;&gt; Oh, wow.</p>
+<p begin="00:12:59.880" end="00:13:02.880" style="s2">&gt;&gt; High school drama. Let me guess. You do</p>
+<p begin="00:13:01.839" end="00:13:04.240" style="s2">your hair all pretty, hope the</p>
+<p begin="00:13:02.880" end="00:13:05.800" style="s2">basketball captain falls in love with</p>
+<p begin="00:13:04.240" end="00:13:07.520" style="s2">you, start fights in the hallway so</p>
+<p begin="00:13:05.800" end="00:13:10.160" style="s2">everyone looks at you, and bully people</p>
+<p begin="00:13:07.520" end="00:13:11.360" style="s2">so boys can say, &quot;Wow, she&#39;s so cool.&quot;</p>
+<p begin="00:13:10.160" end="00:13:12.280" style="s2">Gross.</p>
+<p begin="00:13:11.360" end="00:13:15.000" style="s2">10 years from now, you&#39;re going to be</p>
+<p begin="00:13:12.280" end="00:13:15.000" style="s2">embarrassed.</p>
+<p begin="00:13:15.560" end="00:13:19.560" style="s2">&gt;&gt; How dare you talk to me like that? Do</p>
+<p begin="00:13:17.400" end="00:13:20.040" style="s2">you have any idea who my dad is?</p>
+<p begin="00:13:19.560" end="00:13:21.760" style="s2">&gt;&gt; Who?</p>
+<p begin="00:13:20.040" end="00:13:23.039" style="s2">&gt;&gt; He&#39;s the CEO of Merlin Group. You&#39;re</p>
+<p begin="00:13:21.760" end="00:13:25.059" style="s2">done.</p>
+<p begin="00:13:23.039" end="00:13:25.059" style="s2">&gt;&gt; [crying]</p>
+<p begin="00:13:25.800" end="00:13:28.760" style="s2">&gt;&gt; They jumped your sister.</p>
+<p begin="00:13:30.560" end="00:13:33.120" style="s2">&gt;&gt; Hey Dad.</p>
+<p begin="00:13:32.120" end="00:13:36.760" style="s2">What?</p>
+<p begin="00:13:33.120" end="00:13:36.760" style="s2">Seriously? No. No.</p>
+<p begin="00:13:36.800" end="00:13:40.560" style="s2">Please, sir, I&#39;m sorry. Please forgive</p>
+<p begin="00:13:39.320" end="00:13:42.160" style="s2">me.</p>
+<p begin="00:13:40.560" end="00:13:44.320" style="s2">&gt;&gt; Why&#39;d you go pale?</p>
+<p begin="00:13:42.160" end="00:13:47.160" style="s2">Wait.</p>
+<p begin="00:13:44.320" end="00:13:47.160" style="s2">You needed some color.</p>
+<p begin="00:13:48.000" end="00:13:51.880" style="s2">&gt;&gt; Please,</p>
+<p begin="00:13:49.040" end="00:13:54.280" style="s2">forgive me. Help me.</p>
+<p begin="00:13:51.880" end="00:13:54.280" style="s2">&gt;&gt; Sure.</p>
+<p begin="00:13:56.320" end="00:13:59.880" style="s2">In this world, there are people richer,</p>
+<p begin="00:13:58.000" end="00:14:01.680" style="s2">stronger, and prettier than you. So,</p>
+<p begin="00:13:59.880" end="00:14:05.160" style="s2">never think too highly of yourself, and</p>
+<p begin="00:14:01.680" end="00:14:05.160" style="s2">don&#39;t you ever bully anyone again.</p>
+<p begin="00:14:05.600" end="00:14:10.254" style="s2">And this is today&#39;s lesson.</p>
+<p begin="00:14:08.234" end="00:14:10.254" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:14:14.120" end="00:14:17.640" style="s2">&gt;&gt; Wait, David, who did you call?</p>
+<p begin="00:14:16.520" end="00:14:19.280" style="s2">How did you do that?</p>
+<p begin="00:14:17.640" end="00:14:20.360" style="s2">&gt;&gt; Honestly, I asked the homeowner for a</p>
+<p begin="00:14:19.280" end="00:14:22.680" style="s2">favor.</p>
+<p begin="00:14:20.360" end="00:14:24.600" style="s2">&gt;&gt; We&#39;ve worked for her for years. She owed</p>
+<p begin="00:14:22.680" end="00:14:26.400" style="s2">us one little favor.</p>
+<p begin="00:14:24.600" end="00:14:27.920" style="s2">It&#39;s okay. She&#39;ll probably just take it</p>
+<p begin="00:14:26.400" end="00:14:29.240" style="s2">out of our pay.</p>
+<p begin="00:14:27.920" end="00:14:31.814" style="s2">Oh, no.</p>
+<p begin="00:14:29.240" end="00:14:33.680" style="s2">&gt;&gt; Seriously? Forget it. Let&#39;s go home.</p>
+<p begin="00:14:31.814" end="00:14:36.040" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:14:33.680" end="00:14:37.280" style="s2">&gt;&gt; Kids, go get ready. It&#39;s Mark&#39;s birthday</p>
+<p begin="00:14:36.040" end="00:14:38.839" style="s2">tonight. Just a little family</p>
+<p begin="00:14:37.280" end="00:14:40.320" style="s2">get-together.</p>
+<p begin="00:14:38.839" end="00:14:42.800" style="s2">&gt;&gt; Get [music] ready?</p>
+<p begin="00:14:40.320" end="00:14:44.200" style="s2">But, I don&#39;t have anything to wear. I&#39;m</p>
+<p begin="00:14:42.800" end="00:14:46.920" style="s2">sorry, I can&#39;t afford to buy you a</p>
+<p begin="00:14:44.200" end="00:14:48.320" style="s2">dress. But, you can wear mine.</p>
+<p begin="00:14:46.920" end="00:14:50.000" style="s2">Actually,</p>
+<p begin="00:14:48.320" end="00:14:52.120" style="s2">come on.</p>
+<p begin="00:14:50.000" end="00:14:54.440" style="s2">Let&#39;s give you a little makeover.</p>
+<p begin="00:14:52.120" end="00:14:56.839" style="s2">It&#39;s time for a change. Lucky you, your</p>
+<p begin="00:14:54.440" end="00:14:59.320" style="s2">sister does hair, makeup, and fashion.</p>
+<p begin="00:14:56.839" end="00:14:59.320" style="s2">Let&#39;s go.</p>
+<p begin="00:15:10.200" end="00:15:14.920" style="s2">Okay. Now, let&#39;s do something about that</p>
+<p begin="00:15:12.440" end="00:15:14.920" style="s2">skin.</p>
+<p begin="00:15:24.800" end="00:15:28.440" style="s2">Okay.</p>
+<p begin="00:15:25.520" end="00:15:29.960" style="s2">now let&#39;s find you a dress.</p>
+<p begin="00:15:28.440" end="00:15:32.800" style="s2">Are all of these yours?</p>
+<p begin="00:15:29.960" end="00:15:37.760" style="s2">&gt;&gt; Yeah, I made them all myself from fabric</p>
+<p begin="00:15:32.800" end="00:15:37.760" style="s2">people threw away and recycled clothes.</p>
+<p begin="00:15:38.080" end="00:15:41.000" style="s2">&gt;&gt; That&#39;s perfect.</p>
+<p begin="00:15:43.210" end="00:15:45.230" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:15:49.120" end="00:15:52.160" style="s2">&gt;&gt; Are you seeing this? [music]</p>
+<p begin="00:15:50.160" end="00:15:54.840" style="s2">&gt;&gt; Yep, I did that.</p>
+<p begin="00:15:52.160" end="00:15:55.960" style="s2">&gt;&gt; No, no, no, there&#39;s no way.</p>
+<p begin="00:15:54.840" end="00:15:58.400" style="s2">I knew she was pretty but not this</p>
+<p begin="00:15:55.960" end="00:15:58.400" style="s2">pretty.</p>
+<p begin="00:16:05.640" end="00:16:13.600" style="s2">&gt;&gt; I&#39;m a pretty girl. I had no idea I was</p>
+<p begin="00:16:08.480" end="00:16:13.600" style="s2">this pretty. Oh, wow, I&#39;m really pretty.</p>
+<p begin="00:16:13.996" end="00:16:16.016" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:16:17.926" end="00:16:20.160" style="s2">[snorts]</p>
+<p begin="00:16:19.891" end="00:16:21.520" style="s2">[gasps and laughter]</p>
+<p begin="00:16:20.160" end="00:16:23.760" style="s2">&gt;&gt; Mark, I&#39;m sorry I didn&#39;t get you a</p>
+<p begin="00:16:21.520" end="00:16:26.800" style="s2">present. I just didn&#39;t have the money.</p>
+<p begin="00:16:23.760" end="00:16:31.200" style="s2">&gt;&gt; Yeah, Mark, forgive us. You know, we&#39;re</p>
+<p begin="00:16:26.800" end="00:16:32.991" style="s2">really poor. I could only get you this.</p>
+<p begin="00:16:31.200" end="00:16:33.040" style="s2">&gt;&gt; I got you a 2026 private jet,</p>
+<p begin="00:16:32.991" end="00:16:36.040" style="s2">&gt;&gt; [music]</p>
+<p begin="00:16:33.040" end="00:16:38.800" style="s2">&gt;&gt; gold. Happy birthday.</p>
+<p begin="00:16:36.040" end="00:16:39.960" style="s2">&gt;&gt; Ah, Mark, my dear brother, I got you</p>
+<p begin="00:16:38.800" end="00:16:41.360" style="s2">something too.</p>
+<p begin="00:16:39.960" end="00:16:45.040" style="s2">The deed to that luxury duplex we saw</p>
+<p begin="00:16:41.360" end="00:16:45.040" style="s2">yesterday. Happy birthday, bro.</p>
+<p begin="00:16:47.920" end="00:16:52.641" style="s2">&gt;&gt; Happy birthday, sweetheart.</p>
+<p begin="00:16:50.000" end="00:16:54.661" style="s2">I didn&#39;t get you anything.</p>
+<p begin="00:16:52.641" end="00:16:54.661" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:16:56.320" end="00:16:58.720" style="s2">&gt;&gt; Thank you.</p>
+<p begin="00:16:59.080" end="00:17:02.240" style="s2">&gt;&gt; Family, actually, I&#39;m starting a job</p>
+<p begin="00:17:01.280" end="00:17:03.640" style="s2">tomorrow.</p>
+<p begin="00:17:02.240" end="00:17:05.720" style="s2">&gt;&gt; A job?</p>
+<p begin="00:17:03.640" end="00:17:07.120" style="s2">&gt;&gt; Yeah, at a clothing store.</p>
+<p begin="00:17:05.720" end="00:17:09.520" style="s2">I want to work hard. I don&#39;t want Mom</p>
+<p begin="00:17:07.120" end="00:17:11.040" style="s2">working as a maid anymore.</p>
+<p begin="00:17:09.520" end="00:17:14.319" style="s2">&gt;&gt; Sarah,</p>
+<p begin="00:17:11.040" end="00:17:14.319" style="s2">you&#39;re such a good girl.</p>
+<p begin="00:17:15.280" end="00:17:18.680" style="s2">&gt;&gt; Thank you. Hope you love it.</p>
+<p begin="00:17:23.480" end="00:17:24.959" style="s2">Wait.</p>
+<p begin="00:17:24.081" end="00:17:26.720" style="s2">&gt;&gt; [music]</p>
+<p begin="00:17:24.959" end="00:17:28.520" style="s2">&gt;&gt; You look really familiar.</p>
+<p begin="00:17:26.720" end="00:17:31.640" style="s2">Who are you?</p>
+<p begin="00:17:28.520" end="00:17:31.640" style="s2">Wait. Sarah?</p>
+<p begin="00:17:31.720" end="00:17:34.960" style="s2">What did you do to your face?</p>
+<p begin="00:17:35.520" end="00:17:39.000" style="s2">So, this is you now?</p>
+<p begin="00:17:37.240" end="00:17:40.720" style="s2">A salesgirl?</p>
+<p begin="00:17:39.000" end="00:17:43.400" style="s2">Go get me that dress. Honestly, I</p>
+<p begin="00:17:40.720" end="00:17:45.080" style="s2">thought you&#39;d be on the street by now.</p>
+<p begin="00:17:43.400" end="00:17:46.352" style="s2">I&#39;m doing fine.</p>
+<p begin="00:17:45.080" end="00:17:46.760" style="s2">I found a new family.</p>
+<p begin="00:17:46.352" end="00:17:48.960" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:17:46.760" end="00:17:51.720" style="s2">&gt;&gt; A new family? And you&#39;re working here to</p>
+<p begin="00:17:48.960" end="00:17:53.920" style="s2">support them? Wow. They must be really</p>
+<p begin="00:17:51.720" end="00:17:55.280" style="s2">broke.</p>
+<p begin="00:17:53.920" end="00:17:57.240" style="s2">We own the biggest company in this</p>
+<p begin="00:17:55.280" end="00:18:00.960" style="s2">country and our daughter has to work in</p>
+<p begin="00:17:57.240" end="00:18:02.520" style="s2">a store. This is all your fault.</p>
+<p begin="00:18:00.960" end="00:18:04.400" style="s2">So,</p>
+<p begin="00:18:02.520" end="00:18:07.280" style="s2">should we go check on her? Yeah. Let&#39;s</p>
+<p begin="00:18:04.400" end="00:18:10.880" style="s2">go see if she got fired on day one.</p>
+<p begin="00:18:07.280" end="00:18:10.880" style="s2">Lucy, stop it. Let&#39;s go.</p>
+<p begin="00:18:14.200" end="00:18:17.160" style="s2">So, this is your life now? Selling</p>
+<p begin="00:18:15.960" end="00:18:19.520" style="s2">clothes to people who can actually</p>
+<p begin="00:18:17.160" end="00:18:21.360" style="s2">afford them? Hold this.</p>
+<p begin="00:18:19.520" end="00:18:23.560" style="s2">And go get me that one. I always knew</p>
+<p begin="00:18:21.360" end="00:18:26.160" style="s2">you&#39;d end up embarrassing yourself.</p>
+<p begin="00:18:23.560" end="00:18:28.240" style="s2">Please, stop. I&#39;m working. Working? She</p>
+<p begin="00:18:26.160" end="00:18:30.240" style="s2">means struggling. So, your new family is</p>
+<p begin="00:18:28.240" end="00:18:32.440" style="s2">just as pathetic as you. Pathetic people</p>
+<p begin="00:18:30.240" end="00:18:33.720" style="s2">always find each other. Stop.</p>
+<p begin="00:18:32.440" end="00:18:36.360" style="s2">You don&#39;t get to talk about my family</p>
+<p begin="00:18:33.720" end="00:18:36.360" style="s2">like that.</p>
+<p begin="00:18:39.240" end="00:18:43.120" style="s2">How dare you talk to my VIP customers</p>
+<p begin="00:18:41.200" end="00:18:44.800" style="s2">like that, you pathetic girl? Your whole</p>
+<p begin="00:18:43.120" end="00:18:46.000" style="s2">life isn&#39;t worth one of this lady&#39;s</p>
+<p begin="00:18:44.800" end="00:18:48.040" style="s2">shoes.</p>
+<p begin="00:18:46.000" end="00:18:49.560" style="s2">You should fire her. Let her go beg on</p>
+<p begin="00:18:48.040" end="00:18:52.000" style="s2">the street with that pathetic family of</p>
+<p begin="00:18:49.560" end="00:18:52.000" style="s2">hers.</p>
+<p begin="00:18:52.440" end="00:18:54.720" style="s2">How dare you treat my daughter like</p>
+<p begin="00:18:53.640" end="00:18:56.880" style="s2">this? Do you even know who I You don&#39;t</p>
+<p begin="00:18:54.720" end="00:18:58.520" style="s2">get to treat our sister like this.</p>
+<p begin="00:18:56.880" end="00:18:59.680" style="s2">I don&#39;t care who you are. If you&#39;re here</p>
+<p begin="00:18:58.520" end="00:19:01.920" style="s2">to defend her, then you&#39;re just as</p>
+<p begin="00:18:59.680" end="00:19:03.640" style="s2">classless as she is. Aw, look. The whole</p>
+<p begin="00:19:01.920" end="00:19:07.080" style="s2">rescue team showed up. Pathetic people</p>
+<p begin="00:19:03.640" end="00:19:07.080" style="s2">really do travel in packs.</p>
+<p begin="00:19:09.160" end="00:19:12.158" style="s2">So, even all that makeup can&#39;t make you</p>
+<p begin="00:19:10.600" end="00:19:13.200" style="s2">any less disgusting.</p>
+<p begin="00:19:12.158" end="00:19:14.880" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:19:13.200" end="00:19:16.000" style="s2">&gt;&gt; You beggars get out of my store right</p>
+<p begin="00:19:14.880" end="00:19:17.080" style="s2">now.</p>
+<p begin="00:19:16.000" end="00:19:20.200" style="s2">&gt;&gt; Keep your mouth shut.</p>
+<p begin="00:19:17.080" end="00:19:20.200" style="s2">&gt;&gt; What&#39;s going on here?</p>
+<p begin="00:19:22.280" end="00:19:27.880" style="s2">&gt;&gt; Mrs. Valcrease?</p>
+<p begin="00:19:24.600" end="00:19:27.880" style="s2">Owner of Valcrease Group?</p>
+<p begin="00:19:28.600" end="00:19:31.120" style="s2">&gt;&gt; These beggars are making a mess here. We</p>
+<p begin="00:19:30.040" end="00:19:33.360" style="s2">should call security and get these</p>
+<p begin="00:19:31.120" end="00:19:35.480" style="s2">idiots out.</p>
+<p begin="00:19:33.360" end="00:19:37.920" style="s2">&gt;&gt; What did you just call them? Idiots?</p>
+<p begin="00:19:35.480" end="00:19:38.880" style="s2">You&#39;re fired. Get out of here.</p>
+<p begin="00:19:37.920" end="00:19:39.400" style="s2">&gt;&gt; What?</p>
+<p begin="00:19:38.880" end="00:19:40.640" style="s2">Why?</p>
+<p begin="00:19:39.400" end="00:19:42.680" style="s2">&gt;&gt; I SAID YOU&#39;RE FIRED.</p>
+<p begin="00:19:40.640" end="00:19:43.040" style="s2">&gt;&gt; OH, PLEASE. I know she called us beg</p>
+<p begin="00:19:42.680" end="00:19:44.280" style="s2">you.</p>
+<p begin="00:19:43.040" end="00:19:45.760" style="s2">&gt;&gt; 10 seconds ago she called us beggars.</p>
+<p begin="00:19:44.280" end="00:19:47.440" style="s2">Now she&#39;s begging. That&#39;s 10 second</p>
+<p begin="00:19:45.760" end="00:19:49.320" style="s2">karma.</p>
+<p begin="00:19:47.440" end="00:19:50.440" style="s2">&gt;&gt; You two out of my store.</p>
+<p begin="00:19:49.320" end="00:19:52.400" style="s2">&gt;&gt; I don&#39;t know what kind of connection you</p>
+<p begin="00:19:50.440" end="00:19:53.680" style="s2">have with this man, but we own Red Sky</p>
+<p begin="00:19:52.400" end="00:19:54.040" style="s2">Group. You&#39;re going to pay for what</p>
+<p begin="00:19:53.680" end="00:19:57.120" style="s2">happened today.</p>
+<p begin="00:19:54.040" end="00:19:57.120" style="s2">&gt;&gt; Do you know who you&#39;re talking to?</p>
+<p begin="00:19:59.000" end="00:20:01.560" style="s2">&gt;&gt; Wait.</p>
+<p begin="00:20:07.240" end="00:20:09.640" style="s2">You said Sarah wore a lot of makeup</p>
+<p begin="00:20:08.600" end="00:20:11.960" style="s2">today.</p>
+<p begin="00:20:09.640" end="00:20:15.320" style="s2">But Sarah isn&#39;t wearing any.</p>
+<p begin="00:20:11.960" end="00:20:15.320" style="s2">Now let&#39;s see how much you&#39;re wearing.</p>
+<p begin="00:20:24.400" end="00:20:28.720" style="s2">&gt;&gt; Mom, please don&#39;t fight with them. Red</p>
+<p begin="00:20:26.480" end="00:20:31.760" style="s2">Sky Group is powerful.</p>
+<p begin="00:20:28.720" end="00:20:31.760" style="s2">&gt;&gt; Red Sky Group?</p>
+<p begin="00:20:32.160" end="00:20:34.880" style="s2">The same company that&#39;s been begging to</p>
+<p begin="00:20:33.640" end="00:20:37.280" style="s2">work with us?</p>
+<p begin="00:20:34.880" end="00:20:38.480" style="s2">&gt;&gt; For a year.</p>
+<p begin="00:20:37.280" end="00:20:41.200" style="s2">&gt;&gt; It&#39;s okay.</p>
+<p begin="00:20:38.480" end="00:20:44.720" style="s2">&gt;&gt; We&#39;re so poor. We&#39;re so miserable. We</p>
+<p begin="00:20:41.200" end="00:20:44.720" style="s2">shouldn&#39;t fight people like that.</p>
+<p begin="00:20:46.160" end="00:20:49.440" style="s2">&gt;&gt; Tomorrow the biggest singer in the world</p>
+<p begin="00:20:47.680" end="00:20:52.000" style="s2">has her biggest concert. I designed her</p>
+<p begin="00:20:49.440" end="00:20:53.200" style="s2">outfit. Now I just have to make it.</p>
+<p begin="00:20:52.000" end="00:20:54.520" style="s2">Wait.</p>
+<p begin="00:20:53.200" end="00:20:57.320" style="s2">Where are my designs?</p>
+<p begin="00:20:54.520" end="00:20:58.880" style="s2">No. No. No. No. No.</p>
+<p begin="00:20:57.320" end="00:21:00.960" style="s2">My laptop was hacked.</p>
+<p begin="00:20:58.880" end="00:21:04.800" style="s2">Someone stole my designs. The concert IS</p>
+<p begin="00:21:00.960" end="00:21:06.960" style="s2">TOMORROW. WHAT IS SHE GOING TO WEAR?</p>
+<p begin="00:21:04.800" end="00:21:06.960" style="s2">NO.</p>
+<p begin="00:21:11.680" end="00:21:15.920" style="s2">&gt;&gt; THIS CAN&#39;T BE HAPPENING.</p>
+<p begin="00:21:14.920" end="00:21:16.640" style="s2">&gt;&gt; LUCY, [music]</p>
+<p begin="00:21:15.920" end="00:21:18.640" style="s2">what happened?</p>
+<p begin="00:21:16.640" end="00:21:20.640" style="s2">&gt;&gt; The singer.</p>
+<p begin="00:21:18.640" end="00:21:22.440" style="s2">I mean, my friend, she has a college</p>
+<p begin="00:21:20.640" end="00:21:23.880" style="s2">show tomorrow. I designed her outfit,</p>
+<p begin="00:21:22.440" end="00:21:25.160" style="s2">but all my files are gone. I can&#39;t</p>
+<p begin="00:21:23.880" end="00:21:26.520" style="s2">design another one right now. What is</p>
+<p begin="00:21:25.160" end="00:21:27.880" style="s2">she going to wear? I didn&#39;t even care</p>
+<p begin="00:21:26.520" end="00:21:29.240" style="s2">about the money. I mean, I do need the</p>
+<p begin="00:21:27.880" end="00:21:30.280" style="s2">money, but I just wanted people to see</p>
+<p begin="00:21:29.240" end="00:21:32.160" style="s2">something I made.</p>
+<p begin="00:21:30.280" end="00:21:35.240" style="s2">&gt;&gt; I&#39;m sorry.</p>
+<p begin="00:21:32.160" end="00:21:35.240" style="s2">I wish I could fix it.</p>
+<p begin="00:21:43.920" end="00:21:48.520" style="s2">&gt;&gt; Sarah, what are you doing?</p>
+<p begin="00:21:46.120" end="00:21:50.640" style="s2">&gt;&gt; Mark, can you help me?</p>
+<p begin="00:21:48.520" end="00:21:52.360" style="s2">&gt;&gt; Yeah. What do you need?</p>
+<p begin="00:21:50.640" end="00:21:54.600" style="s2">&gt;&gt; Denim.</p>
+<p begin="00:21:52.360" end="00:21:54.960" style="s2">A few yards. Anywhere you can find it.</p>
+<p begin="00:21:54.600" end="00:21:57.080" style="s2">&gt;&gt; [music]</p>
+<p begin="00:21:54.960" end="00:21:59.960" style="s2">&gt;&gt; Even old clothes.</p>
+<p begin="00:21:57.080" end="00:22:01.280" style="s2">&gt;&gt; Okay. I&#39;ll get it.</p>
+<p begin="00:21:59.960" end="00:22:03.800" style="s2">&gt;&gt; Does this house have a sewing room?</p>
+<p begin="00:22:01.280" end="00:22:07.120" style="s2">&gt;&gt; Yeah, it&#39;s Lucy&#39;s.</p>
+<p begin="00:22:03.800" end="00:22:07.120" style="s2">I mean, the owner&#39;s.</p>
+<p begin="00:22:07.360" end="00:22:10.280" style="s2">I&#39;ll go get the denim.</p>
+<p begin="00:22:12.240" end="00:22:16.360" style="s2">Found it.</p>
+<p begin="00:22:13.560" end="00:22:16.360" style="s2">&gt;&gt; Let&#39;s do this.</p>
+<p begin="00:22:27.840" end="00:22:32.590" style="s2">It&#39;s perfect.</p>
+<p begin="00:22:29.880" end="00:22:34.610" style="s2">&gt;&gt; Better than perfect.</p>
+<p begin="00:22:32.590" end="00:22:34.610" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:22:36.320" end="00:22:38.920" style="s2">&gt;&gt; Sarah?</p>
+<p begin="00:22:46.920" end="00:22:51.800" style="s2">What did you do?</p>
+<p begin="00:22:49.720" end="00:22:53.440" style="s2">&gt;&gt; I made this for your friend.</p>
+<p begin="00:22:51.800" end="00:22:55.920" style="s2">&gt;&gt; Sarah,</p>
+<p begin="00:22:53.440" end="00:22:57.360" style="s2">this is amazing.</p>
+<p begin="00:22:55.920" end="00:22:58.440" style="s2">I never knew having a sister could feel</p>
+<p begin="00:22:57.360" end="00:23:00.320" style="s2">this good.</p>
+<p begin="00:22:58.440" end="00:23:03.120" style="s2">&gt;&gt; Mark helped me make it, too. Your cousin</p>
+<p begin="00:23:00.320" end="00:23:03.120" style="s2">really loves you.</p>
+<p begin="00:23:03.400" end="00:23:05.200" style="s2">Thank you, Mark.</p>
+<p begin="00:23:04.400" end="00:23:07.000" style="s2">&gt;&gt; Mhm.</p>
+<p begin="00:23:05.200" end="00:23:07.800" style="s2">Thank you, Sarah.</p>
+<p begin="00:23:07.000" end="00:23:10.640" style="s2">I don&#39;t know what I would have done</p>
+<p begin="00:23:07.800" end="00:23:10.640" style="s2">without you guys.</p>
+<p begin="00:23:24.160" end="00:23:27.880" style="s2">Is that Sarah? No way.</p>
+<p begin="00:23:30.600" end="00:23:33.400" style="s2">&gt;&gt; Is that Sarah?</p>
+<p begin="00:23:38.360" end="00:23:41.080" style="s2">Oh, hey Sarah. How are you?</p>
+<p begin="00:23:40.440" end="00:23:42.200" style="s2">&gt;&gt; I&#39;m okay.</p>
+<p begin="00:23:41.080" end="00:23:44.640" style="s2">&gt;&gt; Wow.</p>
+<p begin="00:23:42.200" end="00:23:45.600" style="s2">You look really beautiful today.</p>
+<p begin="00:23:44.640" end="00:23:47.360" style="s2">&gt;&gt; I know.</p>
+<p begin="00:23:45.600" end="00:23:48.080" style="s2">&gt;&gt; So, maybe we could grab a coffee after</p>
+<p begin="00:23:47.360" end="00:23:50.880" style="s2">school?</p>
+<p begin="00:23:48.080" end="00:23:50.880" style="s2">&gt;&gt; Not interested.</p>
+<p begin="00:23:53.280" end="00:23:57.920" style="s2">If you&#39;re done,</p>
+<p begin="00:23:54.840" end="00:23:57.920" style="s2">I have more important things to do.</p>
+<p begin="00:24:20.480" end="00:24:25.040" style="s2">&gt;&gt; So, that&#39;s the guy Sarah&#39;s with?</p>
+<p begin="00:24:22.920" end="00:24:26.520" style="s2">&gt;&gt; Wait, that&#39;s her boyfriend?</p>
+<p begin="00:24:25.040" end="00:24:28.560" style="s2">&gt;&gt; And Alex really thought he had a chance</p>
+<p begin="00:24:26.520" end="00:24:30.520" style="s2">against that?</p>
+<p begin="00:24:28.560" end="00:24:32.200" style="s2">&gt;&gt; Mark, whose car is that?</p>
+<p begin="00:24:30.520" end="00:24:33.400" style="s2">&gt;&gt; The homeowner&#39;s. I have to take it to</p>
+<p begin="00:24:32.200" end="00:24:35.520" style="s2">the car wash.</p>
+<p begin="00:24:33.400" end="00:24:37.320" style="s2">&gt;&gt; Then what are you doing here?</p>
+<p begin="00:24:35.520" end="00:24:39.280" style="s2">&gt;&gt; You forgot this.</p>
+<p begin="00:24:37.320" end="00:24:40.360" style="s2">&gt;&gt; You came all this way for a fork?</p>
+<p begin="00:24:39.280" end="00:24:41.120" style="s2">&gt;&gt; Yeah.</p>
+<p begin="00:24:40.360" end="00:24:43.440" style="s2">What were you supposed to eat lunch</p>
+<p begin="00:24:41.120" end="00:24:43.440" style="s2">with?</p>
+<p begin="00:24:43.960" end="00:24:48.887" style="s2">&gt;&gt; You sure you didn&#39;t just miss me?</p>
+<p begin="00:24:46.867" end="00:24:48.887" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:24:51.360" end="00:24:55.000" style="s2">&gt;&gt; I have to go, Mark.</p>
+<p begin="00:24:52.720" end="00:24:55.000" style="s2">Bye.</p>
+<p begin="00:24:57.200" end="00:25:01.080" style="s2">&gt;&gt; All right, everyone. forget your</p>
+<p begin="00:24:58.320" end="00:25:01.080" style="s2">homework.</p>
+<p begin="00:25:01.840" end="00:25:05.840" style="s2">Sarah, can you forgive me?</p>
+<p begin="00:25:04.840" end="00:25:09.320" style="s2">Yes.</p>
+<p begin="00:25:05.840" end="00:25:12.480" style="s2">Then, can we be friends? No.</p>
+<p begin="00:25:09.320" end="00:25:13.680" style="s2">Why? Look, Hannah. I can forgive you.</p>
+<p begin="00:25:12.480" end="00:25:17.000" style="s2">But someone who hurts people and laughs</p>
+<p begin="00:25:13.680" end="00:25:17.000" style="s2">about it could never be my friend.</p>
+<p begin="00:25:18.307" end="00:25:20.327" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:25:44.240" end="00:25:46.960" style="s2">&gt;&gt; What is that?</p>
+<p begin="00:25:45.400" end="00:25:48.440" style="s2">You don&#39;t know her? She&#39;s the biggest</p>
+<p begin="00:25:46.960" end="00:25:51.200" style="s2">singer in the world. She&#39;s doing the</p>
+<p begin="00:25:48.440" end="00:25:53.400" style="s2">biggest concert of the year today. Wait.</p>
+<p begin="00:25:51.200" end="00:25:55.960" style="s2">That&#39;s the dress I made. No, how is that</p>
+<p begin="00:25:53.400" end="00:25:55.960" style="s2">possible?</p>
+<p begin="00:26:00.600" end="00:26:04.920" style="s2">How could you lie to me? You used me.</p>
+<p begin="00:26:03.320" end="00:26:06.680" style="s2">Sarah, what are you talking about? You</p>
+<p begin="00:26:04.920" end="00:26:08.760" style="s2">said that dress WAS FOR SOME LITTLE</p>
+<p begin="00:26:06.680" end="00:26:12.760" style="s2">COLLEGE SHOW. SO, WHY IS THE BIGGEST</p>
+<p begin="00:26:08.760" end="00:26:15.440" style="s2">SINGER IN THE WORLD WEARING IT?</p>
+<p begin="00:26:12.760" end="00:26:16.160" style="s2">SARAH, WAIT. EXACTLY.</p>
+<p begin="00:26:15.440" end="00:26:17.800" style="s2">That&#39;s what you should say to your</p>
+<p begin="00:26:16.160" end="00:26:19.400" style="s2">friend.</p>
+<p begin="00:26:17.800" end="00:26:21.520" style="s2">My friend? The girl you designed that</p>
+<p begin="00:26:19.400" end="00:26:23.160" style="s2">dress for. She lied to you. She said it</p>
+<p begin="00:26:21.520" end="00:26:25.118" style="s2">was for a college show, then gave it to</p>
+<p begin="00:26:23.160" end="00:26:27.138" style="s2">the biggest singer in the world.</p>
+<p begin="00:26:25.118" end="00:26:27.138" style="s2">&gt;&gt; [sighs and gasps]</p>
+<p begin="00:26:27.800" end="00:26:32.200" style="s2">&gt;&gt; Oh.</p>
+<p begin="00:26:29.160" end="00:26:34.000" style="s2">Seriously? What an idiot. Yeah, I&#39;m</p>
+<p begin="00:26:32.200" end="00:26:35.800" style="s2">definitely going to talk to her.</p>
+<p begin="00:26:34.000" end="00:26:37.520" style="s2">Tell her exactly what I told you. And</p>
+<p begin="00:26:35.800" end="00:26:38.720" style="s2">make sure you get paid for that dress.</p>
+<p begin="00:26:37.520" end="00:26:41.160" style="s2">She probably got a ton of money from</p>
+<p begin="00:26:38.720" end="00:26:43.280" style="s2">that singer. I didn&#39;t get paid?</p>
+<p begin="00:26:41.160" end="00:26:44.113" style="s2">I just did it because I love designing.</p>
+<p begin="00:26:43.280" end="00:26:45.240" style="s2">What?</p>
+<p begin="00:26:44.113" end="00:26:47.920" style="s2">&gt;&gt; [gasps]</p>
+<p begin="00:26:45.240" end="00:26:51.520" style="s2">&gt;&gt; I said, &quot;Yeah! Exactly, that&#39;s what I&#39;m</p>
+<p begin="00:26:47.920" end="00:26:54.560" style="s2">going to tell her. Idiot, how dare she?&quot;</p>
+<p begin="00:26:51.520" end="00:26:57.280" style="s2">We&#39;re so miserable. We&#39;re so poor. And</p>
+<p begin="00:26:54.560" end="00:26:59.840" style="s2">in this situation, PEOPLE STILL SCAM US.</p>
+<p begin="00:26:57.280" end="00:27:02.360" style="s2">PEOPLE HAVE BECOME SO AWFUL.</p>
+<p begin="00:26:59.840" end="00:27:02.360" style="s2">&gt;&gt; ABSURD.</p>
+<p begin="00:27:09.280" end="00:27:11.678" style="s2">&gt;&gt; HELLO, LUCY. [music]</p>
+<p begin="00:27:11.960" end="00:27:15.000" style="s2">&gt;&gt; ROSA,</p>
+<p begin="00:27:12.960" end="00:27:16.280" style="s2">what are you doing here? Go, right now.</p>
+<p begin="00:27:15.000" end="00:27:18.840" style="s2">&gt;&gt; I came straight from the concert to</p>
+<p begin="00:27:16.280" end="00:27:21.200" style="s2">thank you. Everyone loved my dress, and</p>
+<p begin="00:27:18.840" end="00:27:23.040" style="s2">I want to pay you for all your work.</p>
+<p begin="00:27:21.200" end="00:27:24.480" style="s2">&gt;&gt; Rosa, I told you I don&#39;t want any money.</p>
+<p begin="00:27:23.040" end="00:27:26.440" style="s2">Just get out of here, now.</p>
+<p begin="00:27:24.480" end="00:27:29.480" style="s2">&gt;&gt; No, no, absolutely not. You worked so</p>
+<p begin="00:27:26.440" end="00:27:31.840" style="s2">hard on that dress. I have to pay you.</p>
+<p begin="00:27:29.480" end="00:27:35.400" style="s2">&gt;&gt; Okay. How much were you going to pay me?</p>
+<p begin="00:27:31.840" end="00:27:35.400" style="s2">&gt;&gt; Would $200 million work?</p>
+<p begin="00:27:35.640" end="00:27:39.320" style="s2">&gt;&gt; I&#39;ll give you $500 million. Just leave,</p>
+<p begin="00:27:38.360" end="00:27:41.840" style="s2">right now.</p>
+<p begin="00:27:39.320" end="00:27:41.840" style="s2">&gt;&gt; What?</p>
+<p begin="00:27:44.320" end="00:27:48.880" style="s2">&gt;&gt; Rosa?</p>
+<p begin="00:27:46.560" end="00:27:49.680" style="s2">Rosa? The biggest singer in the world?</p>
+<p begin="00:27:48.880" end="00:27:51.480" style="s2">Here?</p>
+<p begin="00:27:49.680" end="00:27:53.280" style="s2">&gt;&gt; Yeah, she&#39;s a friend of the homeowner. I</p>
+<p begin="00:27:51.480" end="00:27:54.560" style="s2">told her the homeowner isn&#39;t here. She&#39;s</p>
+<p begin="00:27:53.280" end="00:27:57.474" style="s2">away on a trip.</p>
+<p begin="00:27:54.560" end="00:27:59.494" style="s2">&gt;&gt; I told her we&#39;re just the servants here.</p>
+<p begin="00:27:57.474" end="00:27:59.494" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:28:00.200" end="00:28:03.600" style="s2">&gt;&gt; What is happening?</p>
+<p begin="00:28:01.520" end="00:28:05.200" style="s2">&gt;&gt; Ma&#39;am, when the homeowner gets back,</p>
+<p begin="00:28:03.600" end="00:28:07.240" style="s2">I&#39;ll make sure to let you know.</p>
+<p begin="00:28:05.200" end="00:28:07.880" style="s2">&gt;&gt; Please leave, right now.</p>
+<p begin="00:28:07.240" end="00:28:09.360" style="s2">&gt;&gt; Lucy, [snorts]</p>
+<p begin="00:28:07.880" end="00:28:10.880" style="s2">tell her about the dress.</p>
+<p begin="00:28:09.360" end="00:28:12.120" style="s2">&gt;&gt; Shh.</p>
+<p begin="00:28:10.880" end="00:28:14.120" style="s2">I&#39;ll talk to my friend about the dress.</p>
+<p begin="00:28:12.120" end="00:28:17.840" style="s2">This has nothing to do with this lady.</p>
+<p begin="00:28:14.120" end="00:28:17.840" style="s2">&gt;&gt; It was so nice to see you.</p>
+<p begin="00:28:18.800" end="00:28:22.000" style="s2">&gt;&gt; Ma&#39;am, when the homeowner gets back,</p>
+<p begin="00:28:20.000" end="00:28:24.880" style="s2">I&#39;ll let you know. Please just leave.</p>
+<p begin="00:28:22.000" end="00:28:28.640" style="s2">&gt;&gt; Go, go, go, go, go.</p>
+<p begin="00:28:24.880" end="00:28:30.440" style="s2">&gt;&gt; What a coincidence. What a small world.</p>
+<p begin="00:28:28.640" end="00:28:31.960" style="s2">&gt;&gt; Lucy, our homeowner is really rich,</p>
+<p begin="00:28:30.440" end="00:28:33.680" style="s2">isn&#39;t she? I mean, whenever her name</p>
+<p begin="00:28:31.960" end="00:28:34.840" style="s2">comes up, our problems just disappears.</p>
+<p begin="00:28:33.680" end="00:28:36.760" style="s2">People are actually scared to mess with</p>
+<p begin="00:28:34.840" end="00:28:38.680" style="s2">her, and she even has friends like Rosa.</p>
+<p begin="00:28:36.760" end="00:28:40.200" style="s2">Yeah, she&#39;s really powerful. She owns</p>
+<p begin="00:28:38.680" end="00:28:41.360" style="s2">the biggest company in the country. Then</p>
+<p begin="00:28:40.200" end="00:28:42.720" style="s2">we really need to take good care of this</p>
+<p begin="00:28:41.360" end="00:28:45.240" style="s2">house. We definitely don&#39;t want to make</p>
+<p begin="00:28:42.720" end="00:28:45.240" style="s2">her mad.</p>
+<p begin="00:28:46.200" end="00:28:48.720" style="s2">&gt;&gt; The glass. Oh, no, we&#39;re screwed. The</p>
+<p begin="00:28:48.240" end="00:28:50.080" style="s2">glass.</p>
+<p begin="00:28:48.720" end="00:28:52.120" style="s2">&gt;&gt; What do you mean the glass?</p>
+<p begin="00:28:50.080" end="00:28:56.200" style="s2">&gt;&gt; Lucy, you broke the homeowner&#39;s glass,</p>
+<p begin="00:28:52.120" end="00:28:56.200" style="s2">remember? When you BROKE YOUR LAPTOP.</p>
+<p begin="00:28:58.120" end="00:29:02.280" style="s2">WHAT IF THAT GLASS WAS IMPORTANT TO HER?</p>
+<p begin="00:28:59.920" end="00:29:04.760" style="s2">WHAT IF SHE gets mad at us?</p>
+<p begin="00:29:02.280" end="00:29:07.960" style="s2">We&#39;re doomed. She&#39;s going to get revenge</p>
+<p begin="00:29:04.760" end="00:29:10.600" style="s2">for HER GLASS. WE&#39;RE FINISHED.</p>
+<p begin="00:29:07.960" end="00:29:13.120" style="s2">&gt;&gt; WAIT. Why is she crying just like me?</p>
+<p begin="00:29:10.600" end="00:29:13.120" style="s2">&gt;&gt; We&#39;re doomed.</p>
+<p begin="00:29:15.920" end="00:29:18.760" style="s2">&gt;&gt; Wait. We&#39;re really putting all our money</p>
+<p begin="00:29:17.800" end="00:29:19.880" style="s2">into this project?</p>
+<p begin="00:29:18.760" end="00:29:22.360" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:29:19.880" end="00:29:23.680" style="s2">Ocean company just came to this country.</p>
+<p begin="00:29:22.360" end="00:29:24.760" style="s2">They&#39;re planning to build a huge</p>
+<p begin="00:29:23.680" end="00:29:26.040" style="s2">underwater city.</p>
+<p begin="00:29:24.760" end="00:29:27.400" style="s2">&gt;&gt; You mean they&#39;re really going to build a</p>
+<p begin="00:29:26.040" end="00:29:29.640" style="s2">real city under the sea?</p>
+<p begin="00:29:27.400" end="00:29:31.720" style="s2">&gt;&gt; Yes. We need to invest everything we</p>
+<p begin="00:29:29.640" end="00:29:34.800" style="s2">have and buy a major share. If this</p>
+<p begin="00:29:31.720" end="00:29:38.800" style="s2">works, we&#39;ll make billions.</p>
+<p begin="00:29:34.800" end="00:29:38.800" style="s2">&gt;&gt; Oh my god. OCEAN COMPANY?</p>
+<p begin="00:29:52.000" end="00:29:56.560" style="s2">OCEAN COMPANY?</p>
+<p begin="00:29:53.000" end="00:29:56.560" style="s2">&gt;&gt; YES. OCEAN COMPANY.</p>
+<p begin="00:29:57.340" end="00:29:58.560" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:29:57.840" end="00:30:00.840" style="s2">&gt;&gt; WHAT?</p>
+<p begin="00:29:58.560" end="00:30:01.520" style="s2">&gt;&gt; DAVID, this is a scam.</p>
+<p begin="00:30:00.840" end="00:30:03.080" style="s2">&gt;&gt; You&#39;re right.</p>
+<p begin="00:30:01.520" end="00:30:04.880" style="s2">&gt;&gt; Tell everyone at the company. Make sure</p>
+<p begin="00:30:03.080" end="00:30:06.480" style="s2">nobody invests a cent. Warn the other</p>
+<p begin="00:30:04.880" end="00:30:07.360" style="s2">companies, too. But don&#39;t tell one</p>
+<p begin="00:30:06.480" end="00:30:09.760" style="s2">company.</p>
+<p begin="00:30:07.360" end="00:30:09.760" style="s2">&gt;&gt; Who?</p>
+<p begin="00:30:10.000" end="00:30:14.640" style="s2">&gt;&gt; Red Sky. Dad,</p>
+<p begin="00:30:12.480" end="00:30:16.240" style="s2">I think we should sell the house, too.</p>
+<p begin="00:30:14.640" end="00:30:16.920" style="s2">And buy even more shares in Ocean</p>
+<p begin="00:30:16.240" end="00:30:19.480" style="s2">company.</p>
+<p begin="00:30:16.920" end="00:30:21.800" style="s2">&gt;&gt; Yes. Let&#39;s sell all our cars, too. We</p>
+<p begin="00:30:19.480" end="00:30:23.920" style="s2">can invest even more.</p>
+<p begin="00:30:21.800" end="00:30:25.600" style="s2">&gt;&gt; What a great idea.</p>
+<p begin="00:30:23.920" end="00:30:27.471" style="s2">Red Sky is going to be the biggest</p>
+<p begin="00:30:25.600" end="00:30:29.491" style="s2">company in this city.</p>
+<p begin="00:30:27.471" end="00:30:29.491" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:30:32.560" end="00:30:36.760" style="s2">&gt;&gt; Auntie, I need to tell you something.</p>
+<p begin="00:30:34.920" end="00:30:37.960" style="s2">&gt;&gt; What is it, sweetheart?</p>
+<p begin="00:30:36.760" end="00:30:39.280" style="s2">&gt;&gt; Can you please tell Sara the truth</p>
+<p begin="00:30:37.960" end="00:30:41.360" style="s2">already?</p>
+<p begin="00:30:39.280" end="00:30:42.680" style="s2">She&#39;s a good person.</p>
+<p begin="00:30:41.360" end="00:30:44.520" style="s2">And I want to</p>
+<p begin="00:30:42.680" end="00:30:45.760" style="s2">&gt;&gt; You want to what?</p>
+<p begin="00:30:44.520" end="00:30:47.800" style="s2">&gt;&gt; I want to</p>
+<p begin="00:30:45.760" end="00:30:48.200" style="s2">&gt;&gt; What?</p>
+<p begin="00:30:47.800" end="00:30:50.440" style="s2">&gt;&gt; I want to</p>
+<p begin="00:30:48.200" end="00:30:52.120" style="s2">&gt;&gt; YOU WANT TO WHAT?</p>
+<p begin="00:30:50.440" end="00:30:53.640" style="s2">&gt;&gt; I WANT TO DO SOMETHING.</p>
+<p begin="00:30:52.120" end="00:30:55.960" style="s2">&gt;&gt; MARK!</p>
+<p begin="00:30:53.640" end="00:30:58.040" style="s2">WHAT DO YOU WANT?</p>
+<p begin="00:30:55.960" end="00:30:58.760" style="s2">&gt;&gt; ASK HER TO MARRY ME.</p>
+<p begin="00:30:58.040" end="00:31:00.880" style="s2">&gt;&gt; WHAT?</p>
+<p begin="00:30:58.760" end="00:31:03.160" style="s2">&gt;&gt; Not now.</p>
+<p begin="00:31:00.880" end="00:31:05.440" style="s2">&gt;&gt; She graduates in a week.</p>
+<p begin="00:31:03.160" end="00:31:05.440" style="s2">Then.</p>
+<p begin="00:31:05.800" end="00:31:10.520" style="s2">&gt;&gt; If you ever hurt my sister, you&#39;re done.</p>
+<p begin="00:31:07.840" end="00:31:10.520" style="s2">Got it?</p>
+<p begin="00:31:12.840" end="00:31:15.760" style="s2">&gt;&gt; 3 days later.</p>
+<p begin="00:31:13.960" end="00:31:17.720" style="s2">&gt;&gt; Breaking news. Ocean company</p>
+<p begin="00:31:15.760" end="00:31:20.440" style="s2">&gt;&gt; Mom, Dad, come here. They&#39;re talking</p>
+<p begin="00:31:17.720" end="00:31:22.491" style="s2">about Ocean company.</p>
+<p begin="00:31:20.440" end="00:31:22.640" style="s2">&gt;&gt; has now been identified as a scam.</p>
+<p begin="00:31:22.491" end="00:31:24.240" style="s2">&gt;&gt; [music]</p>
+<p begin="00:31:22.640" end="00:31:27.760" style="s2">&gt;&gt; The company stole money from several</p>
+<p begin="00:31:24.240" end="00:31:27.760" style="s2">businesses and disappeared.</p>
+<p begin="00:31:30.400" end="00:31:33.560" style="s2">&gt;&gt; Why aren&#39;t they answering?</p>
+<p begin="00:31:34.281" end="00:31:36.301" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:31:37.920" end="00:31:45.360" style="s2">&gt;&gt; WE SOLD OUR WHOLE LIFE FOR THIS PROJECT.</p>
+<p begin="00:31:41.640" end="00:31:48.560" style="s2">&gt;&gt; DAD, we have to go to their office. Now.</p>
+<p begin="00:31:45.360" end="00:31:48.560" style="s2">&gt;&gt; Yeah, let&#39;s go.</p>
+<p begin="00:31:55.240" end="00:31:58.360" style="s2">&gt;&gt; It&#39;s over.</p>
+<p begin="00:31:57.000" end="00:32:00.520" style="s2">We&#39;re poor now.</p>
+<p begin="00:31:58.360" end="00:32:01.920" style="s2">&gt;&gt; THIS IS ALL YOUR FAULT, YOU IDIOTS. WHY</p>
+<p begin="00:32:00.520" end="00:32:03.360" style="s2">DID I SELL THE HOUSE?</p>
+<p begin="00:32:01.920" end="00:32:04.560" style="s2">&gt;&gt; THERE&#39;S ONLY ONE PERSON WHO can save us</p>
+<p begin="00:32:03.360" end="00:32:07.400" style="s2">now.</p>
+<p begin="00:32:04.560" end="00:32:10.560" style="s2">The biggest company in this country.</p>
+<p begin="00:32:07.400" end="00:32:10.560" style="s2">Valcuris Group.</p>
+<p begin="00:32:12.560" end="00:32:14.440" style="s2">&gt;&gt; Are you a famous celebrity?</p>
+<p begin="00:32:13.720" end="00:32:15.920" style="s2">&gt;&gt; No.</p>
+<p begin="00:32:14.440" end="00:32:18.280" style="s2">&gt;&gt; Are you a minister or a king?</p>
+<p begin="00:32:15.920" end="00:32:19.200" style="s2">&gt;&gt; No. Are you poor and in need of food?</p>
+<p begin="00:32:18.280" end="00:32:20.240" style="s2">&gt;&gt; No.</p>
+<p begin="00:32:19.200" end="00:32:22.320" style="s2">&gt;&gt; Then you can&#39;t come in.</p>
+<p begin="00:32:20.240" end="00:32:24.600" style="s2">&gt;&gt; So, poor people can come in, but we</p>
+<p begin="00:32:22.320" end="00:32:25.560" style="s2">can&#39;t?</p>
+<p begin="00:32:24.600" end="00:32:27.400" style="s2">&gt;&gt; Okay.</p>
+<p begin="00:32:25.560" end="00:32:30.280" style="s2">&gt;&gt; We&#39;re poor and we need food.</p>
+<p begin="00:32:27.400" end="00:32:30.280" style="s2">&gt;&gt; Please, come in.</p>
+<p begin="00:32:30.520" end="00:32:34.760" style="s2">&gt;&gt; I heard some lovely guests came by for</p>
+<p begin="00:32:32.200" end="00:32:38.280" style="s2">food. We&#39;re so happy you came. I brought</p>
+<p begin="00:32:34.760" end="00:32:38.280" style="s2">you something really delicious.</p>
+<p begin="00:32:41.747" end="00:32:46.520" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:32:42.840" end="00:32:47.520" style="s2">&gt;&gt; Wait. You&#39;re that crazy poor girl.</p>
+<p begin="00:32:46.520" end="00:32:50.160" style="s2">What are you doing here?</p>
+<p begin="00:32:47.520" end="00:32:52.882" style="s2">&gt;&gt; Oh, I get it. You&#39;re here because you&#39;re</p>
+<p begin="00:32:50.160" end="00:32:54.902" style="s2">poor. You needed food.</p>
+<p begin="00:32:52.882" end="00:32:54.902" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:32:55.280" end="00:32:57.600" style="s2">&gt;&gt; But security said you came here for</p>
+<p begin="00:32:56.760" end="00:32:59.840" style="s2">food.</p>
+<p begin="00:32:57.600" end="00:33:03.760" style="s2">&gt;&gt; We don&#39;t have time for you idiot.</p>
+<p begin="00:32:59.840" end="00:33:03.760" style="s2">Move. We need to see Mrs. Valcurist.</p>
+<p begin="00:33:05.400" end="00:33:08.200" style="s2">&gt;&gt; What&#39;s going on here?</p>
+<p begin="00:33:08.880" end="00:33:12.280" style="s2">&gt;&gt; So, what is this?</p>
+<p begin="00:33:10.720" end="00:33:14.680" style="s2">The whole loser family is here?</p>
+<p begin="00:33:12.280" end="00:33:16.720" style="s2">&gt;&gt; Oh, wow. Look at your clothes. Mrs.</p>
+<p begin="00:33:14.680" end="00:33:17.880" style="s2">Valcurist must have felt sorry for you.</p>
+<p begin="00:33:16.720" end="00:33:19.160" style="s2">She even gave you clothes.</p>
+<p begin="00:33:17.880" end="00:33:21.520" style="s2">&gt;&gt; Enough.</p>
+<p begin="00:33:19.160" end="00:33:22.600" style="s2">We live here.</p>
+<p begin="00:33:21.520" end="00:33:25.720" style="s2">&gt;&gt; What?</p>
+<p begin="00:33:22.600" end="00:33:26.840" style="s2">&gt;&gt; Oh, I get it. You&#39;re the servants in</p>
+<p begin="00:33:25.720" end="00:33:28.400" style="s2">this house.</p>
+<p begin="00:33:26.840" end="00:33:29.760" style="s2">&gt;&gt; There&#39;s nothing shameful about being a</p>
+<p begin="00:33:28.400" end="00:33:33.200" style="s2">servant.</p>
+<p begin="00:33:29.760" end="00:33:36.160" style="s2">Every job deserves respect.</p>
+<p begin="00:33:33.200" end="00:33:37.840" style="s2">&gt;&gt; You rude girl. Don&#39;t come near us.</p>
+<p begin="00:33:36.160" end="00:33:39.360" style="s2">You&#39;ll dirty our clothes.</p>
+<p begin="00:33:37.840" end="00:33:40.040" style="s2">&gt;&gt; We don&#39;t have time for gross people like</p>
+<p begin="00:33:39.360" end="00:33:42.440" style="s2">you.</p>
+<p begin="00:33:40.040" end="00:33:44.720" style="s2">&gt;&gt; Mrs. Valcurist.</p>
+<p begin="00:33:42.440" end="00:33:48.000" style="s2">Please come out.</p>
+<p begin="00:33:44.720" end="00:33:48.000" style="s2">We need to talk to you.</p>
+<p begin="00:33:49.760" end="00:33:53.800" style="s2">&gt;&gt; Did somebody call for me?</p>
+<p begin="00:33:51.360" end="00:33:55.520" style="s2">&gt;&gt; Oh, come on. You&#39;re here too?</p>
+<p begin="00:33:53.800" end="00:33:57.080" style="s2">&gt;&gt; What is this?</p>
+<p begin="00:33:55.520" end="00:33:58.520" style="s2">Did every poor loser in town end up in</p>
+<p begin="00:33:57.080" end="00:34:00.360" style="s2">Mrs. Valcurist&#39;s house today?</p>
+<p begin="00:33:58.520" end="00:34:02.000" style="s2">&gt;&gt; We don&#39;t have time for this.</p>
+<p begin="00:34:00.360" end="00:34:06.000" style="s2">&gt;&gt; Servant.</p>
+<p begin="00:34:02.000" end="00:34:06.000" style="s2">Go get Mrs. Valcurist. Now.</p>
+<p begin="00:34:06.040" end="00:34:10.600" style="s2">&gt;&gt; Open your eyes.</p>
+<p begin="00:34:08.639" end="00:34:12.000" style="s2">Mrs. Valcurist is standing right in</p>
+<p begin="00:34:10.600" end="00:34:13.960" style="s2">front of you.</p>
+<p begin="00:34:12.000" end="00:34:16.723" style="s2">I&#39;m Mrs. Valcurist.</p>
+<p begin="00:34:13.960" end="00:34:18.399" style="s2">And this is my house.</p>
+<p begin="00:34:16.723" end="00:34:20.280" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:34:18.399" end="00:34:22.639" style="s2">&gt;&gt; Mom, why are you pretending to be Mrs.</p>
+<p begin="00:34:20.280" end="00:34:24.480" style="s2">Valcurist? Please don&#39;t do this. We&#39;re</p>
+<p begin="00:34:22.639" end="00:34:25.893" style="s2">just the staff here. The owner&#39;s going</p>
+<p begin="00:34:24.480" end="00:34:27.480" style="s2">to get mad at us.</p>
+<p begin="00:34:25.893" end="00:34:29.000" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:34:27.480" end="00:34:31.360" style="s2">&gt;&gt; I have the number of Valcurist company</p>
+<p begin="00:34:29.000" end="00:34:33.159" style="s2">COO. Mr. Mark. [music]</p>
+<p begin="00:34:31.360" end="00:34:34.360" style="s2">He&#39;s Mrs. Valcurist&#39;s nephew. I&#39;ll call</p>
+<p begin="00:34:33.159" end="00:34:35.960" style="s2">him right now and have him throw you</p>
+<p begin="00:34:34.360" end="00:34:37.840" style="s2">idiots out.</p>
+<p begin="00:34:35.960" end="00:34:40.320" style="s2">&gt;&gt; But he always rejects our calls.</p>
+<p begin="00:34:37.840" end="00:34:40.320" style="s2">&gt;&gt; Shh.</p>
+<p begin="00:34:43.679" end="00:34:47.200" style="s2">He rejected it.</p>
+<p begin="00:34:45.320" end="00:34:49.080" style="s2">How about I call him?</p>
+<p begin="00:34:47.200" end="00:34:52.560" style="s2">&gt;&gt; You? You&#39;re not even good enough to</p>
+<p begin="00:34:49.080" end="00:34:56.760" style="s2">shine his shoes. Call him?</p>
+<p begin="00:34:52.560" end="00:34:56.760" style="s2">&gt;&gt; Mark, please come here. Hurry.</p>
+<p begin="00:34:57.334" end="00:34:59.354" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:34:59.440" end="00:35:02.360" style="s2">&gt;&gt; Wow,</p>
+<p begin="00:35:00.640" end="00:35:03.480" style="s2">you&#39;re a really good actor.</p>
+<p begin="00:35:02.360" end="00:35:06.000" style="s2">But I&#39;m getting sick of this little</p>
+<p begin="00:35:03.480" end="00:35:06.000" style="s2">show.</p>
+<p begin="00:35:07.840" end="00:35:10.434" style="s2">&gt;&gt; Okay.</p>
+<p begin="00:35:09.360" end="00:35:10.720" style="s2">What&#39;s going on here?</p>
+<p begin="00:35:10.434" end="00:35:13.600" style="s2">&gt;&gt; [music]</p>
+<p begin="00:35:10.720" end="00:35:16.360" style="s2">&gt;&gt; We got uninvited guests.</p>
+<p begin="00:35:13.600" end="00:35:18.294" style="s2">&gt;&gt; Mr. Mark, perfect timing. Thank God</p>
+<p begin="00:35:16.360" end="00:35:19.520" style="s2">you&#39;re here.</p>
+<p begin="00:35:18.294" end="00:35:21.840" style="s2">&gt;&gt; [gasps]</p>
+<p begin="00:35:19.520" end="00:35:24.280" style="s2">&gt;&gt; Mr. Mark, your staff have crossed every</p>
+<p begin="00:35:21.840" end="00:35:24.280" style="s2">line.</p>
+<p begin="00:35:25.400" end="00:35:27.840" style="s2">&gt;&gt; Staff?</p>
+<p begin="00:35:26.240" end="00:35:30.084" style="s2">&gt;&gt; Yeah.</p>
+<p begin="00:35:27.840" end="00:35:32.104" style="s2">&gt;&gt; Those poor idiots.</p>
+<p begin="00:35:30.084" end="00:35:32.104" style="s2">&gt;&gt; [music]</p>
+<p begin="00:35:32.480" end="00:35:37.280" style="s2">&gt;&gt; Poor idiots?</p>
+<p begin="00:35:33.480" end="00:35:39.520" style="s2">&gt;&gt; Exactly. They disrespected us.</p>
+<p begin="00:35:37.280" end="00:35:41.640" style="s2">And that crazy woman pretended to be</p>
+<p begin="00:35:39.520" end="00:35:43.720" style="s2">Mrs. Val Gyrist.</p>
+<p begin="00:35:41.640" end="00:35:45.920" style="s2">&gt;&gt; Mr. Mark,</p>
+<p begin="00:35:43.720" end="00:35:48.560" style="s2">you&#39;re so rich</p>
+<p begin="00:35:45.920" end="00:35:50.000" style="s2">and so handsome.</p>
+<p begin="00:35:48.560" end="00:35:52.000" style="s2">You really should be more careful when</p>
+<p begin="00:35:50.000" end="00:35:53.320" style="s2">you pick your staff.</p>
+<p begin="00:35:52.000" end="00:35:55.480" style="s2">&gt;&gt; You are the dumbest people I&#39;ve ever</p>
+<p begin="00:35:53.320" end="00:35:57.440" style="s2">met.</p>
+<p begin="00:35:55.480" end="00:35:58.760" style="s2">&gt;&gt; Dumb?</p>
+<p begin="00:35:57.440" end="00:35:59.960" style="s2">Us?</p>
+<p begin="00:35:58.760" end="00:36:02.040" style="s2">Why?</p>
+<p begin="00:35:59.960" end="00:36:03.080" style="s2">&gt;&gt; You own Red Sky, right?</p>
+<p begin="00:36:02.040" end="00:36:05.480" style="s2">Well,</p>
+<p begin="00:36:03.080" end="00:36:07.120" style="s2">the bankrupt Red Sky.</p>
+<p begin="00:36:05.480" end="00:36:08.520" style="s2">&gt;&gt; Yes, sir.</p>
+<p begin="00:36:07.120" end="00:36:11.080" style="s2">&gt;&gt; You&#39;ve been begging Val Gyrist Group to</p>
+<p begin="00:36:08.520" end="00:36:12.600" style="s2">work with you for a year, right?</p>
+<p begin="00:36:11.080" end="00:36:14.000" style="s2">&gt;&gt; Yes, sir.</p>
+<p begin="00:36:12.600" end="00:36:16.840" style="s2">&gt;&gt; And you never searched Val Gyrist Group</p>
+<p begin="00:36:14.000" end="00:36:19.120" style="s2">on the internet? Why would we search it?</p>
+<p begin="00:36:16.840" end="00:36:22.540" style="s2">Everybody knows Val Gyrist Group.</p>
+<p begin="00:36:19.120" end="00:36:22.540" style="s2">There was no need. Laptop. [music]</p>
+<p begin="00:36:24.440" end="00:36:27.080" style="s2">Search it.</p>
+<p begin="00:36:27.400" end="00:36:32.200" style="s2">&gt;&gt; Uh</p>
+<p begin="00:36:27.760" end="00:36:32.200" style="s2">&gt;&gt; I said search Valkyrie Group. Now.</p>
+<p begin="00:36:34.680" end="00:36:37.680" style="s2">&gt;&gt; CEO?</p>
+<p begin="00:36:42.600" end="00:36:45.480" style="s2">Chairman?</p>
+<p begin="00:36:49.400" end="00:36:53.320" style="s2">OWNER?</p>
+<p begin="00:36:51.840" end="00:36:55.680" style="s2">&gt;&gt; MOM,</p>
+<p begin="00:36:53.320" end="00:36:56.520" style="s2">what&#39;s going on here?</p>
+<p begin="00:36:55.680" end="00:36:57.520" style="s2">You</p>
+<p begin="00:36:56.520" end="00:36:59.520" style="s2">You really</p>
+<p begin="00:36:57.520" end="00:37:01.960" style="s2">&gt;&gt; Yes, Sarah. [music]</p>
+<p begin="00:36:59.520" end="00:37:04.480" style="s2">We own Valkyrie Group.</p>
+<p begin="00:37:01.960" end="00:37:05.360" style="s2">It&#39;s the biggest company in the country.</p>
+<p begin="00:37:04.480" end="00:37:07.080" style="s2">&gt;&gt; Then the homeowner?</p>
+<p begin="00:37:05.360" end="00:37:10.080" style="s2">&gt;&gt; There is no homeowner.</p>
+<p begin="00:37:07.080" end="00:37:10.080" style="s2">This house is ours.</p>
+<p begin="00:37:10.600" end="00:37:13.320" style="s2">&gt;&gt; Mrs. Valkyrie,</p>
+<p begin="00:37:12.280" end="00:37:15.800" style="s2">please forgive us.</p>
+<p begin="00:37:13.320" end="00:37:16.920" style="s2">&gt;&gt; We were so stupid.</p>
+<p begin="00:37:15.800" end="00:37:19.120" style="s2">We were wrong.</p>
+<p begin="00:37:16.920" end="00:37:20.200" style="s2">&gt;&gt; For God&#39;s sake, please forgive us.</p>
+<p begin="00:37:19.120" end="00:37:22.200" style="s2">We&#39;re helpless.</p>
+<p begin="00:37:20.200" end="00:37:23.160" style="s2">&gt;&gt; Sarah, you&#39;re our daughter. Help us,</p>
+<p begin="00:37:22.200" end="00:37:24.640" style="s2">please.</p>
+<p begin="00:37:23.160" end="00:37:27.480" style="s2">&gt;&gt; When I needed you,</p>
+<p begin="00:37:24.640" end="00:37:30.040" style="s2">you weren&#39;t my family.</p>
+<p begin="00:37:27.480" end="00:37:31.400" style="s2">Now that you need me, I&#39;m not yours.</p>
+<p begin="00:37:30.040" end="00:37:32.520" style="s2">Leave.</p>
+<p begin="00:37:31.400" end="00:37:33.960" style="s2">&gt;&gt; Fine.</p>
+<p begin="00:37:32.520" end="00:37:36.600" style="s2">We&#39;ll leave.</p>
+<p begin="00:37:33.960" end="00:37:39.240" style="s2">But you&#39;ll regret this.</p>
+<p begin="00:37:36.600" end="00:37:39.240" style="s2">&gt;&gt; Security?</p>
+<p begin="00:37:42.040" end="00:37:46.080" style="s2">&gt;&gt; Say hi to karma for me.</p>
+<p begin="00:37:44.760" end="00:37:47.800" style="s2">&gt;&gt; Um</p>
+<p begin="00:37:46.080" end="00:37:50.160" style="s2">Sarah,</p>
+<p begin="00:37:47.800" end="00:37:51.520" style="s2">can you please forgive us</p>
+<p begin="00:37:50.160" end="00:37:53.440" style="s2">for the little lie we told you?</p>
+<p begin="00:37:51.520" end="00:37:54.840" style="s2">&gt;&gt; A little lie?</p>
+<p begin="00:37:53.440" end="00:37:55.920" style="s2">You&#39;ve been playing with me for a whole</p>
+<p begin="00:37:54.840" end="00:37:57.560" style="s2">month.</p>
+<p begin="00:37:55.920" end="00:37:58.760" style="s2">I thought I finally found an honest</p>
+<p begin="00:37:57.560" end="00:38:00.920" style="s2">family.</p>
+<p begin="00:37:58.760" end="00:38:03.356" style="s2">But all of you lied to me. I&#39;m not</p>
+<p begin="00:38:00.920" end="00:38:05.376" style="s2">staying in this house anymore.</p>
+<p begin="00:38:03.356" end="00:38:05.376" style="s2">&gt;&gt; [gasps]</p>
+<p begin="00:38:06.680" end="00:38:10.920" style="s2">&gt;&gt; Sarah, sis, I&#39;m sorry.</p>
+<p begin="00:38:09.280" end="00:38:13.880" style="s2">&gt;&gt; Sarah, we love you.</p>
+<p begin="00:38:10.920" end="00:38:13.880" style="s2">Sarah, don&#39;t go.</p>
+<p begin="00:38:14.560" end="00:38:18.600" style="s2">&gt;&gt; Okay, stop. What? You pranked me for a</p>
+<p begin="00:38:17.160" end="00:38:20.160" style="s2">whole month. Can&#39;t I prank you for 1</p>
+<p begin="00:38:18.600" end="00:38:21.040" style="s2">minute? My family is the richest family</p>
+<p begin="00:38:20.160" end="00:38:22.351" style="s2">in the whole country.</p>
+<p begin="00:38:21.040" end="00:38:23.640" style="s2">&gt;&gt; That&#39;s amazing.</p>
+<p begin="00:38:22.351" end="00:38:26.560" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:38:23.640" end="00:38:26.560" style="s2">&gt;&gt; 4 days later.</p>
+<p begin="00:38:27.591" end="00:38:29.611" style="s2">&gt;&gt; [applause]</p>
+<p begin="00:38:32.960" end="00:38:35.960" style="s2">&gt;&gt; Congratulations.</p>
+<p begin="00:38:37.600" end="00:38:41.880" style="s2">&gt;&gt; Actually,</p>
+<p begin="00:38:39.320" end="00:38:44.720" style="s2">I think it&#39;s time.</p>
+<p begin="00:38:41.880" end="00:38:44.720" style="s2">&gt;&gt; Time for what?</p>
+<p begin="00:38:50.280" end="00:38:56.040" style="s2">&gt;&gt; Marry him. MARRY HIM. SAY YES. MARRY</p>
+<p begin="00:38:53.760" end="00:39:00.000" style="s2">HIM. MARRY [cheering] HIM. SAY YES.</p>
+<p begin="00:38:56.040" end="00:39:00.000" style="s2">MARRY HIM. MARRY HIM. SAY YES.</p>
+<p begin="00:39:05.240" end="00:39:10.760" style="s2">&gt;&gt; SARAH, what is this? End this circus</p>
+<p begin="00:39:07.880" end="00:39:10.760" style="s2">right now.</p>
+<p begin="00:39:11.760" end="00:39:15.680" style="s2">AND MARRY HIM.</p>
+<p begin="00:39:14.097" end="00:39:17.480" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:39:15.680" end="00:39:19.080" style="s2">&gt;&gt; SARAH, I&#39;ve waited my whole life for</p>
+<p begin="00:39:17.480" end="00:39:20.840" style="s2">someone like you. Will you finally end</p>
+<p begin="00:39:19.080" end="00:39:23.360" style="s2">that wait and</p>
+<p begin="00:39:20.840" end="00:39:23.360" style="s2">marry me?</p>
+<p begin="00:39:24.360" end="00:39:27.000" style="s2">&gt;&gt; Wait.</p>
+<p begin="00:39:27.560" end="00:39:31.920" style="s2">Our world can&#39;t go on without you.</p>
+<p begin="00:39:30.320" end="00:39:33.040" style="s2">So, give us life with a like and</p>
+<p begin="00:39:31.920" end="00:39:35.000" style="s2">subscribe.</p>
+<p begin="00:39:33.040" end="00:39:37.520" style="s2">&gt;&gt; We&#39;re so miserable. Please please like</p>
+<p begin="00:39:35.000" end="00:39:38.440" style="s2">this video. Subscribe. We&#39;re so</p>
+<p begin="00:39:37.520" end="00:39:40.000" style="s2">helpless.</p>
+<p begin="00:39:38.440" end="00:39:42.400" style="s2">&gt;&gt; Lucy, stop.</p>
+<p begin="00:39:40.000" end="00:39:42.400" style="s2">Okay.</p>
+<p begin="00:39:44.720" end="00:39:47.280" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:39:56.680" end="00:39:59.960" style="s2">They&#39;re so cute. Sarah is so beautiful.</p>
+<p begin="00:39:59.120" end="00:40:00.480" style="s2">&gt;&gt; But I think Mark is better.</p>
+<p begin="00:39:59.960" end="00:40:00.960" style="s2">&gt;&gt; Sarah.</p>
+<p begin="00:40:00.480" end="00:40:01.320" style="s2">&gt;&gt; Mark.</p>
+<p begin="00:40:00.960" end="00:40:01.600" style="s2">&gt;&gt; Sarah.</p>
+<p begin="00:40:01.320" end="00:40:02.040" style="s2">&gt;&gt; Mark.</p>
+<p begin="00:40:01.600" end="00:40:03.560" style="s2">&gt;&gt; Sarah.</p>
+<p begin="00:40:02.040" end="00:40:05.040" style="s2">&gt;&gt; Mark.</p>
+<p begin="00:40:03.560" end="00:40:05.400" style="s2">&gt;&gt; Sarah. Sarah. Sarah.</p>
+<p begin="00:40:05.040" end="00:40:08.440" style="s2">&gt;&gt; Mark.</p>
+<p begin="00:40:05.400" end="00:40:10.482" style="s2">&gt;&gt; Mark. Mark. Mark. Sarah. Sarah.</p>
+<p begin="00:40:08.440" end="00:40:10.482" style="s2">&gt;&gt; Mark. [screaming]</p>
+</div>
+</body>
+</tt>

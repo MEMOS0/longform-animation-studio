@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:01:06.399" end="00:01:09.402" style="s2">We&#39;re stuck here.</p>
+<p begin="00:01:16.943" end="00:01:18.812" style="s2">This realm is too big.</p>
+<p begin="00:01:18.812" end="00:01:21.815" style="s2">We have to find the black obsidian.</p>
+<p begin="00:01:30.256" end="00:01:31.791" style="s2">Be very quiet.</p>
+<p begin="00:01:31.791" end="00:01:32.826" style="s2">You can&#39;t see us.</p>
+<p begin="00:01:32.826" end="00:01:34.294" style="s2">What do you mean?</p>
+<p begin="00:01:34.294" end="00:01:37.297" style="s2">It&#39;s blind during the day.</p>
+<p begin="00:02:02.188" end="00:02:05.191" style="s2">We need to leave<br />this realm as fast as possible.</p>
+<p begin="00:02:05.792" end="00:02:08.795" style="s2">We didn&#39;t find anything anyway.</p>
+<p begin="00:02:22.942" end="00:02:24.344" style="s2">What do we do now?</p>
+<p begin="00:02:24.344" end="00:02:27.347" style="s2">First, we need to find the black obsidian.</p>
+<p begin="00:02:27.413" end="00:02:30.783" style="s2">There&#39;s a well hidden under the water<br />between the cliffs.</p>
+<p begin="00:02:31.384" end="00:02:33.153" style="s2">It&#39;s the gate to the next world.</p>
+<p begin="00:02:33.153" end="00:02:35.155" style="s2">But I don&#39;t know which cliffs.</p>
+<p begin="00:02:35.155" end="00:02:36.156" style="s2">That&#39;s what we have to find.</p>
+<p begin="00:02:36.156" end="00:02:39.993" style="s2">First we&#39;ll find the gate faster<br />if we split up. No.</p>
+<p begin="00:02:40.226" end="00:02:43.229" style="s2">Don&#39;t leave me alone with creatures<br />ten times bigger than me.</p>
+<p begin="00:02:46.132" end="00:02:49.135" style="s2">All right, let&#39;s go.</p>
+<p begin="00:03:04.717" end="00:03:06.719" style="s2">Why do you need all this?</p>
+<p begin="00:03:06.719" end="00:03:09.022" style="s2">Traveling through different worlds.</p>
+<p begin="00:03:09.022" end="00:03:10.490" style="s2">Searching for the black obsidian.</p>
+<p begin="00:03:12.158" end="00:03:14.794" style="s2">You&#39;re the son of a god, aren&#39;t you?</p>
+<p begin="00:03:14.794" end="00:03:17.797" style="s2">Shouldn&#39;t you already be powerful enough?</p>
+<p begin="00:03:18.731" end="00:03:20.600" style="s2">You know,</p>
+<p begin="00:03:20.600" end="00:03:23.603" style="s2">most people think gods are simply born<br />that way.</p>
+<p begin="00:03:23.603" end="00:03:25.238" style="s2">They&#39;re not.</p>
+<p begin="00:03:25.238" end="00:03:28.241" style="s2">Every one of them has to earn it.</p>
+<p begin="00:03:29.842" end="00:03:32.779" style="s2">The gods don&#39;t give you power.</p>
+<p begin="00:03:32.779" end="00:03:34.781" style="s2">They test your strength,</p>
+<p begin="00:03:34.781" end="00:03:37.784" style="s2">your patience, your wisdom.</p>
+<p begin="00:03:38.384" end="00:03:42.655" style="s2">Only then they decide<br />who is worthy to stand among them.</p>
+<p begin="00:03:43.590" end="00:03:45.825" style="s2">What do you mean, your strength?</p>
+<p begin="00:03:45.825" end="00:03:48.828" style="s2">Or do you have other abilities to</p>
+<p begin="00:03:49.262" end="00:03:52.265" style="s2">watch?</p>
+<p begin="00:04:05.311" end="00:04:06.913" style="s2">What was that?</p>
+<p begin="00:04:06.913" end="00:04:09.916" style="s2">It&#39;s the only gift the gods have given me.</p>
+<p begin="00:04:11.217" end="00:04:13.553" style="s2">After every trial.</p>
+<p begin="00:04:13.553" end="00:04:16.556" style="s2">I meant to receive another ability.</p>
+<p begin="00:04:30.770" end="00:04:33.773" style="s2">Wake up, wake up!</p>
+<p begin="00:04:33.773" end="00:04:34.340" style="s2">What? What?</p>
+<p begin="00:04:34.340" end="00:04:37.343" style="s2">What happened?</p>
+<p begin="00:04:37.710" end="00:04:40.713" style="s2">Come on, get up.</p>
+<p begin="00:04:42.682" end="00:04:44.317" style="s2">It&#39;s that creature.</p>
+<p begin="00:04:44.317" end="00:04:47.320" style="s2">You said it hunts at night, right?</p>
+<p begin="00:04:54.294" end="00:04:56.162" style="s2">I don&#39;t see anything.</p>
+<p begin="00:04:56.162" end="00:04:57.497" style="s2">I don&#39;t see anything.</p>
+<p begin="00:04:57.497" end="00:04:59.599" style="s2">That&#39;s not the same<br />creature we saw this morning.</p>
+<p begin="00:05:46.879" end="00:05:48.147" style="s2">It is</p>
+<p begin="00:05:48.147" end="00:05:51.150" style="s2">still a pup.</p>
+<p begin="00:06:12.338" end="00:06:14.640" style="s2">What is this place?</p>
+<p begin="00:06:14.640" end="00:06:17.276" style="s2">I don&#39;t know if we need to survive<br />or search</p>
+<p begin="00:06:17.276" end="00:06:20.279" style="s2">for the obsidian Stone.</p>
+<p begin="00:06:23.716" end="00:06:25.518" style="s2">Come on.</p>
+<p begin="00:06:25.518" end="00:06:28.521" style="s2">Before something else finds us.</p>
+<p begin="00:06:31.657" end="00:06:33.259" style="s2">See that hill?</p>
+<p begin="00:06:33.259" end="00:06:36.262" style="s2">We&#39;re almost there.</p>
+<p begin="00:06:37.330" end="00:06:40.333" style="s2">Just give me a minute.</p>
+<p begin="00:06:49.709" end="00:06:52.712" style="s2">God help me.</p>
+<p begin="00:07:07.894" end="00:07:10.897" style="s2">Be careful.</p>
+<p begin="00:07:20.873" end="00:07:23.876" style="s2">Can you hear me?</p>
+<p begin="00:07:29.015" end="00:07:32.018" style="s2">What do you see up there?</p>
+<p begin="00:07:47.099" end="00:07:48.501" style="s2">Answer me!</p>
+<p begin="00:07:48.501" end="00:07:51.103" style="s2">Archon.</p>
+<p begin="00:07:51.103" end="00:07:53.439" style="s2">Nothing.</p>
+<p begin="00:07:53.439" end="00:07:56.442" style="s2">There&#39;s nothing here.</p>
+<p begin="00:09:17.156" end="00:09:20.159" style="s2">Come down.</p>
+<p begin="00:09:33.673" end="00:09:36.676" style="s2">Get down!</p>
+<p begin="00:09:56.696" end="00:09:59.699" style="s2">Come on.</p>
+<p begin="00:10:22.221" end="00:10:25.224" style="s2">Take your time.</p>
+<p begin="00:10:25.257" end="00:10:28.260" style="s2">Did you get something?</p>
+<p begin="00:10:30.830" end="00:10:32.531" style="s2">Yeah,</p>
+<p begin="00:10:32.531" end="00:10:35.534" style="s2">I have it.</p>
+<p begin="00:10:35.534" end="00:10:37.637" style="s2">What&#39;s next?</p>
+<p begin="00:10:37.637" end="00:10:40.640" style="s2">How will you use it?</p>
+<p begin="00:10:40.773" end="00:10:43.075" style="s2">I need to heat it.</p>
+<p begin="00:10:43.075" end="00:10:46.712" style="s2">Either on a hot surface or in the fire.</p>
+<p begin="00:10:50.082" end="00:10:53.052" style="s2">Let&#39;s make a fire.</p>
+<p begin="00:10:53.653" end="00:10:54.920" style="s2">Hey! Yeah.</p>
+<p begin="00:10:54.920" end="00:10:57.890" style="s2">Let me find something to burn.</p>
+<p begin="00:11:07.033" end="00:11:10.036" style="s2">Will you burn it or hit it?</p>
+<p begin="00:11:22.682" end="00:11:25.651" style="s2">No. The important part.</p>
+<p begin="00:11:51.777" end="00:11:54.780" style="s2">You hear me?</p>
+<p begin="00:11:56.115" end="00:11:57.083" style="s2">You hear me?</p>
+<p begin="00:12:17.269" end="00:12:20.272" style="s2">All good.</p>
+<p begin="00:12:28.147" end="00:12:30.216" style="s2">It was the first power I gained.</p>
+<p begin="00:12:30.216" end="00:12:32.518" style="s2">But now you have two of them, right?</p>
+<p begin="00:12:32.518" end="00:12:34.186" style="s2">You can control time.</p>
+<p begin="00:12:34.186" end="00:12:37.189" style="s2">What&#39;s the second one?</p>
+<p begin="00:12:41.427" end="00:12:43.662" style="s2">I don&#39;t know yet.</p>
+<p begin="00:12:43.662" end="00:12:45.598" style="s2">It will reveal itself.</p>
+<p begin="00:12:45.598" end="00:12:48.601" style="s2">I don&#39;t choose it.</p>
+<p begin="00:13:01.347" end="00:13:03.415" style="s2">Where do we go?</p>
+<p begin="00:13:03.415" end="00:13:08.921" style="s2">Which way is the lake? The.</p>
+<p begin="00:13:29.175" end="00:13:31.710" style="s2">Are you sure the gate is here?</p>
+<p begin="00:13:31.710" end="00:13:33.145" style="s2">Yeah,</p>
+<p begin="00:13:33.145" end="00:13:35.714" style="s2">it is here.</p>
+<p begin="00:13:35.714" end="00:13:38.717" style="s2">We&#39;ll dive.</p>
+<p begin="00:15:25.224" end="00:15:28.227" style="s2">Everything looks frozen here.</p>
+<p begin="00:15:29.295" end="00:15:31.063" style="s2">Yeah.</p>
+<p begin="00:15:31.063" end="00:15:33.832" style="s2">I think that&#39;s my mission in this world.</p>
+<p begin="00:15:33.832" end="00:15:35.868" style="s2">I need to unfreeze this world.</p>
+</div>
+</body>
+</tt>
