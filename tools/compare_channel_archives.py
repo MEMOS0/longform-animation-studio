@@ -19,6 +19,10 @@ def classify_format(row):
 
 def classify_genre(row):
     title = (row.get("title") or "").lower()
+    if any(k in title for k in ("sinbad", "aladdin", "jason", "argonaut", "odyssey", "thor", "persia", "babylon", "arabian night")):
+        return "mythic_adventure"
+    if any(k in title for k in ("reborn", "beautiful", "changed", "pretended", "maid", "frog")):
+        return "transformation_melodrama"
     if any(k in title for k in ("dragon", "mermaid", "siren", "werewolf", "wolf", "vampire", "kingdom")):
         return "fantasy_creature"
     if any(k in title for k in ("alien", "sci-fi", "planet", "space", "war", "pilot")):

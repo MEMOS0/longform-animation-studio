@@ -4,19 +4,19 @@ Snapshot: 2026-11-26; subscribers at collection: 276000
 
 | rank | cohort | views/day | views | age d | length | format | genre | title |
 |---:|---|---:|---:|---:|---:|---|---|---|
-| 1 | outperforming | 291912 | 18000000 | 61.7 | 103m | standalone_film | fantasy_creature | The Last King Of Men Went Into The Forest Alone / AGE OF KINGDOMS / Full Movie 4K 2026 |
-| 2 | outperforming | 275695 | 17000000 | 61.7 | 65m | standalone_film | fantasy_creature | The Return Of The  Last King — His Brother Stole The Crown / AGE OF KINGDOMS / Full Movie 4K 2026 |
-| 3 | outperforming | 249507 | 7900000 | 31.7 | 78m | standalone_film | fantasy_creature | She Is Alone With Five Baby Dragons And The Dark Army Is Close / AGE OF DRAGONS / Full Movie 4K 2026 |
-| 4 | outperforming | 164233 | 5200000 | 31.7 | 100m | standalone_film | fantasy_creature | She Became The Mother Of Dragons / AGE OF DRAGONS / Full Fantasy Movie 4K 2026 |
-| 5 | outperforming | 88433 | 2800000 | 31.7 | 140m | standalone_film | fantasy_creature | The Last King Was Left To Die In The Arena / AGE OF KINGDOMS / Full Movie 4K 2026 |
-| 6 | outperforming | 77705 | 440000 | 5.7 | 94m | standalone_film | fantasy_creature | Nobody Who Entered This Mountain Ever Came Out Alive / AGE OF KINGDOMS / Full Movie 4K 2026 |
-| 7 | outperforming | 60012 | 1300000 | 21.7 | 87m | standalone_film | fantasy_creature | The Golden Orc King Came For The Last King On His Coronation Night / AGE OF KINGDOMS / Full Movie 4K |
-| 8 | outperforming | 57971 | 850000 | 14.7 | 80m | standalone_film | science_fiction | He Died And Heaven Sent Him To War / IRON HEAVENS / Full Sci Fi Movie 4K 2026 |
-| 9 | outperforming | 35581 | 4400000 | 123.7 | 91m | standalone_film | fantasy_creature | His Brother Murdered The King And Stole The Crown / AGE OF KINGDOMS / Full Movie 4K 2026 |
-| 10 | outperforming | 27351 | 866000 | 31.7 | 78m | standalone_film | fantasy_creature | The Night They Took Her Dragons / AGE OF DRAGONS / Full Movie 4K 2026 |
-| 11 | outperforming | 17504 | 4300000 | 245.7 | 65m | standalone_film | general_emotional_drama | END OF THE WORLD: 2026 / Full Movie / English / Disaster / Thriller / 4K |
+| 1 | outperforming | 291890 | 18000000 | 61.7 | 103m | standalone_film | fantasy_creature | The Last King Of Men Went Into The Forest Alone / AGE OF KINGDOMS / Full Movie 4K 2026 |
+| 2 | outperforming | 275674 | 17000000 | 61.7 | 65m | standalone_film | fantasy_creature | The Return Of The  Last King — His Brother Stole The Crown / AGE OF KINGDOMS / Full Movie 4K 2026 |
+| 3 | outperforming | 249471 | 7900000 | 31.7 | 78m | standalone_film | fantasy_creature | She Is Alone With Five Baby Dragons And The Dark Army Is Close / AGE OF DRAGONS / Full Movie 4K 2026 |
+| 4 | outperforming | 164208 | 5200000 | 31.7 | 100m | standalone_film | fantasy_creature | She Became The Mother Of Dragons / AGE OF DRAGONS / Full Fantasy Movie 4K 2026 |
+| 5 | outperforming | 88420 | 2800000 | 31.7 | 140m | standalone_film | fantasy_creature | The Last King Was Left To Die In The Arena / AGE OF KINGDOMS / Full Movie 4K 2026 |
+| 6 | outperforming | 77642 | 440000 | 5.7 | 94m | standalone_film | fantasy_creature | Nobody Who Entered This Mountain Ever Came Out Alive / AGE OF KINGDOMS / Full Movie 4K 2026 |
+| 7 | outperforming | 59999 | 1300000 | 21.7 | 87m | standalone_film | fantasy_creature | The Golden Orc King Came For The Last King On His Coronation Night / AGE OF KINGDOMS / Full Movie 4K |
+| 8 | outperforming | 57953 | 850000 | 14.7 | 80m | standalone_film | science_fiction | He Died And Heaven Sent Him To War / IRON HEAVENS / Full Sci Fi Movie 4K 2026 |
+| 9 | outperforming | 35579 | 4400000 | 123.7 | 91m | standalone_film | fantasy_creature | His Brother Murdered The King And Stole The Crown / AGE OF KINGDOMS / Full Movie 4K 2026 |
+| 10 | outperforming | 27347 | 866000 | 31.7 | 78m | standalone_film | fantasy_creature | The Night They Took Her Dragons / AGE OF DRAGONS / Full Movie 4K 2026 |
+| 11 | outperforming | 17503 | 4300000 | 245.7 | 65m | standalone_film | general_emotional_drama | END OF THE WORLD: 2026 / Full Movie / English / Disaster / Thriller / 4K |
 | 12 | outperforming | 12950 | 1200000 | 92.7 | 70m | standalone_film | science_fiction | Nobody Was Alive When We Landed / Full Sci-Fi Alien Movie 4K |
-| 13 | outperforming | 9770 | 2400000 | 245.7 | 65m | standalone_film | general_emotional_drama | LOST: Beyond Horizon / 2026 Full Movie / English / Adventure / Action / 4K |
+| 13 | outperforming | 9769 | 2400000 | 245.7 | 65m | standalone_film | general_emotional_drama | LOST: Beyond Horizon / 2026 Full Movie / English / Adventure / Action / 4K |
 | 14 | outperforming | 9111 | 1400000 | 153.7 | 15m | standalone_film | general_emotional_drama | Last Life On Earth: The Seed Bearer |
 | 15 | outperforming | 8895 | 1100000 | 123.7 | 62m | standalone_film | fantasy_creature | The Exiled Prince Was Sent To Die At The North Wall / AGE OF KINGDOMS / Full Movie 4K 2026 |
 | 16 | outperforming | 8727 | 3200000 | 366.7 | 20m | series_or_part | fantasy_creature | Age of Kingdoms: Rise of the Horde / 2025 Full Fantasy Movie / Cinematic Epic / Part 1 of 5 |
