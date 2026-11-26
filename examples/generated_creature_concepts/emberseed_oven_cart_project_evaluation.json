@@ -295,6 +295,7 @@
     "matched_positive_signals": [
       "debt",
       "living treasure",
+      "she belongs to no one",
       "legal proof"
     ],
     "missing_positive_signals": [
@@ -303,9 +304,9 @@
       "house collateral",
       "food cart",
       "honest pay",
-      "she belongs to no one",
       "ocean remembers its children",
-      "garden epilogue"
+      "garden epilogue",
+      "care before monetization"
     ],
     "opening_rules": [
       "establish material debt/home insecurity before or alongside the creature miracle",
@@ -5887,7 +5888,9 @@
         "expected_seconds": 252.0,
         "actual_seconds": 252.0,
         "valid": true,
-        "warnings": [],
+        "warnings": [
+          "core protection/trust/agency theme is not explicit in dialogue"
+        ],
         "shot_count": 14
       },
       {
@@ -5903,7 +5906,9 @@
         "expected_seconds": 300.0,
         "actual_seconds": 300.0,
         "valid": true,
-        "warnings": [],
+        "warnings": [
+          "core protection/trust/agency theme is not explicit in dialogue"
+        ],
         "shot_count": 17
       },
       {
@@ -5911,7 +5916,9 @@
         "expected_seconds": 330.0,
         "actual_seconds": 330.0,
         "valid": true,
-        "warnings": [],
+        "warnings": [
+          "core protection/trust/agency theme is not explicit in dialogue"
+        ],
         "shot_count": 18
       },
       {
@@ -5935,7 +5942,9 @@
         "expected_seconds": 354.0,
         "actual_seconds": 354.0,
         "valid": true,
-        "warnings": [],
+        "warnings": [
+          "core protection/trust/agency theme is not explicit in dialogue"
+        ],
         "shot_count": 20
       },
       {
@@ -5958,15 +5967,17 @@
         "scene_id": "S01",
         "line_count": 3,
         "exposition_line_count": 0,
-        "power_action_line_count": 3,
+        "power_action_line_count": 0,
         "long_line_count": 0,
-        "warnings": []
+        "warnings": [
+          "sampled key lines contain no clear power/action verb"
+        ]
       },
       {
         "scene_id": "S02",
         "line_count": 3,
         "exposition_line_count": 0,
-        "power_action_line_count": 2,
+        "power_action_line_count": 1,
         "long_line_count": 0,
         "warnings": []
       },
@@ -5974,15 +5985,17 @@
         "scene_id": "S03",
         "line_count": 3,
         "exposition_line_count": 0,
-        "power_action_line_count": 2,
+        "power_action_line_count": 0,
         "long_line_count": 0,
-        "warnings": []
+        "warnings": [
+          "sampled key lines contain no clear power/action verb"
+        ]
       },
       {
         "scene_id": "S04",
         "line_count": 3,
         "exposition_line_count": 0,
-        "power_action_line_count": 2,
+        "power_action_line_count": 1,
         "long_line_count": 0,
         "warnings": []
       },
@@ -5990,20 +6003,14 @@
         "scene_id": "S05",
         "line_count": 3,
         "exposition_line_count": 0,
-        "power_action_line_count": 2,
+        "power_action_line_count": 0,
         "long_line_count": 0,
-        "warnings": []
+        "warnings": [
+          "sampled key lines contain no clear power/action verb"
+        ]
       },
       {
         "scene_id": "S06",
-        "line_count": 3,
-        "exposition_line_count": 0,
-        "power_action_line_count": 2,
-        "long_line_count": 0,
-        "warnings": []
-      },
-      {
-        "scene_id": "S07",
         "line_count": 3,
         "exposition_line_count": 0,
         "power_action_line_count": 3,
@@ -6011,15 +6018,33 @@
         "warnings": []
       },
       {
+        "scene_id": "S07",
+        "line_count": 3,
+        "exposition_line_count": 0,
+        "power_action_line_count": 1,
+        "long_line_count": 0,
+        "warnings": []
+      },
+      {
         "scene_id": "S08",
         "line_count": 3,
         "exposition_line_count": 0,
-        "power_action_line_count": 2,
+        "power_action_line_count": 1,
         "long_line_count": 0,
         "warnings": []
       }
     ],
-    "warnings_by_scene": {}
+    "warnings_by_scene": {
+      "S01": [
+        "sampled key lines contain no clear power/action verb"
+      ],
+      "S03": [
+        "sampled key lines contain no clear power/action verb"
+      ],
+      "S05": [
+        "sampled key lines contain no clear power/action verb"
+      ]
+    }
   },
   "agency_intelligence": {
     "score_0_to_1": 1.0,
@@ -6171,7 +6196,6 @@
     "ending_status_spaces": [
       "cage",
       "chain",
-      "door",
       "floor",
       "mat",
       "sit",
@@ -6203,6 +6227,129 @@
       "opening does not establish a legible spatial status grammar (who is caged, seated, kneeling, serving, or excluded)"
     ],
     "doctrine": "Define who is physically forced below/outside/inside power, then make the ending transform that space into chosen access, sanctuary, or belonging. Inspired by floor/table and cage/sanctuary evidence."
+  },
+  "closure_integrity": {
+    "score_0_to_1": 1.0,
+    "rows": [
+      {
+        "sequence": 1,
+        "closure_hits": [
+          "safe",
+          "dignity"
+        ],
+        "sequel_hits": [],
+        "infrastructure_hits": [
+          "power"
+        ],
+        "community_consequence_hits": []
+      },
+      {
+        "sequence": 2,
+        "closure_hits": [
+          "safe",
+          "dignity",
+          "table"
+        ],
+        "sequel_hits": [],
+        "infrastructure_hits": [
+          "power"
+        ],
+        "community_consequence_hits": [
+          "replace"
+        ]
+      },
+      {
+        "sequence": 3,
+        "closure_hits": [],
+        "sequel_hits": [],
+        "infrastructure_hits": [
+          "power"
+        ],
+        "community_consequence_hits": []
+      },
+      {
+        "sequence": 4,
+        "closure_hits": [
+          "table"
+        ],
+        "sequel_hits": [],
+        "infrastructure_hits": [],
+        "community_consequence_hits": [
+          "ration"
+        ]
+      },
+      {
+        "sequence": 5,
+        "closure_hits": [],
+        "sequel_hits": [],
+        "infrastructure_hits": [
+          "power"
+        ],
+        "community_consequence_hits": []
+      },
+      {
+        "sequence": 6,
+        "closure_hits": [
+          "community",
+          "table"
+        ],
+        "sequel_hits": [],
+        "infrastructure_hits": [],
+        "community_consequence_hits": [
+          "ration",
+          "community"
+        ]
+      },
+      {
+        "sequence": 7,
+        "closure_hits": [
+          "home",
+          "choose",
+          "repair",
+          "partnership"
+        ],
+        "sequel_hits": [],
+        "infrastructure_hits": [],
+        "community_consequence_hits": [
+          "ration"
+        ]
+      },
+      {
+        "sequence": 8,
+        "closure_hits": [
+          "belong",
+          "community",
+          "chosen",
+          "choose",
+          "meal"
+        ],
+        "sequel_hits": [
+          "returns",
+          "sequel"
+        ],
+        "infrastructure_hits": [
+          "power"
+        ],
+        "community_consequence_hits": [
+          "ration",
+          "community"
+        ]
+      }
+    ],
+    "final_closure_hits": [
+      "home",
+      "belong",
+      "safe",
+      "community",
+      "chosen",
+      "choose",
+      "repair",
+      "partnership",
+      "garden",
+      "meal"
+    ],
+    "warnings": [],
+    "craft_rule": "A plot sequel hook may remain, but only after the promised recognition, home, belonging, and community consequence have landed."
   },
   "artifact_presence": {
     "architecture": true,

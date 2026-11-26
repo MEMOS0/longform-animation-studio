@@ -64,6 +64,30 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
         ["This floor is not punishment anymore. Everyone sits by choice.", "I refuse revenge without repair.", "We save the legacy by opening the doors, not by becoming the cage."],
     ]
     key_lines = line_options[index - 1]
+    if premise.get("channel_contract") == "creature_economic_melodrama":
+        creature_lines = [
+            ["Drink first. We can count what it costs after she is safe.", "No one is selling her pain tonight.", "If the water remembers her, we follow the water."],
+            ["I will work for shelter, but I will not make her cry for coins.", "The vial measures water, not ownership.", "We eat because Nana shares, not because the trust permits it."],
+            ["Look at her hands before you look at her price.", "If a tear can buy the house, the price is wrong.", "She is not inventory with fins."],
+            ["Your ledger can lie; salt cannot.", "Give me one honest customer before you call me a thief.", "The pump remembers who opened it."],
+            ["I did not steal water. I saved a child you wanted to harvest.", "Do not mistake desperation for consent.", "You can freeze the deed, but not the evidence under the stone."],
+            ["Help me carry the proof, but do not carry my choice.", "I choose the road because waiting makes us property.", "The vial remembers what the trust buried."],
+            ["She belongs to no one, and neither do I.", "If you want forgiveness, return what your papers stole.", "Let the water answer before the law does."],
+            ["This pump is not a cage anymore. Everyone drinks by choice.", "I refuse rescue that becomes ownership.", "We keep the garden open because she taught us water is not a weapon."],
+        ]
+        key_lines = creature_lines[index - 1]
+        contract_text = json.dumps(premise, ensure_ascii=False).lower()
+        if "oven" in contract_text or "firebird" in contract_text:
+            replacements = {
+                "water": "fire", "Water": "Fire", "pump": "oven", "Pump": "Oven", "vial": "key", "Vial": "Key",
+                "salt": "heat", "Salt": "Heat", "thirst": "cold", "drinks": "eats", "drink": "eat", "Drink": "Eat",
+            }
+            key_lines = [
+                line.replace("water", "fire").replace("Water", "Fire").replace("pump", "oven").replace("Pump", "Oven")
+                    .replace("vial", "key").replace("Vial", "Key").replace("salt", "heat").replace("Salt", "Heat")
+                    .replace("drinks", "eats").replace("Drink", "Eat").replace("drink", "eat")
+                for line in key_lines
+            ]
     return {
         "scene_id": f"S{index:02d}",
         "time_range": sequence.get("time_range", "0-0 minutes"),

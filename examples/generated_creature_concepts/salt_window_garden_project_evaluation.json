@@ -288,6 +288,7 @@
     "matched_positive_signals": [
       "debt",
       "living treasure",
+      "she belongs to no one",
       "legal proof"
     ],
     "missing_positive_signals": [
@@ -296,9 +297,9 @@
       "house collateral",
       "food cart",
       "honest pay",
-      "she belongs to no one",
       "ocean remembers its children",
-      "garden epilogue"
+      "garden epilogue",
+      "care before monetization"
     ],
     "opening_rules": [
       "establish material debt/home insecurity before or alongside the creature miracle",
@@ -5797,7 +5798,9 @@
         "expected_seconds": 252.0,
         "actual_seconds": 252.0,
         "valid": true,
-        "warnings": [],
+        "warnings": [
+          "core protection/trust/agency theme is not explicit in dialogue"
+        ],
         "shot_count": 14
       },
       {
@@ -5813,7 +5816,9 @@
         "expected_seconds": 300.0,
         "actual_seconds": 300.0,
         "valid": true,
-        "warnings": [],
+        "warnings": [
+          "core protection/trust/agency theme is not explicit in dialogue"
+        ],
         "shot_count": 17
       },
       {
@@ -5821,7 +5826,9 @@
         "expected_seconds": 330.0,
         "actual_seconds": 330.0,
         "valid": true,
-        "warnings": [],
+        "warnings": [
+          "core protection/trust/agency theme is not explicit in dialogue"
+        ],
         "shot_count": 18
       },
       {
@@ -5845,7 +5852,9 @@
         "expected_seconds": 354.0,
         "actual_seconds": 354.0,
         "valid": true,
-        "warnings": [],
+        "warnings": [
+          "core protection/trust/agency theme is not explicit in dialogue"
+        ],
         "shot_count": 20
       },
       {
@@ -5868,15 +5877,17 @@
         "scene_id": "S01",
         "line_count": 3,
         "exposition_line_count": 0,
-        "power_action_line_count": 3,
+        "power_action_line_count": 0,
         "long_line_count": 0,
-        "warnings": []
+        "warnings": [
+          "sampled key lines contain no clear power/action verb"
+        ]
       },
       {
         "scene_id": "S02",
         "line_count": 3,
         "exposition_line_count": 0,
-        "power_action_line_count": 2,
+        "power_action_line_count": 1,
         "long_line_count": 0,
         "warnings": []
       },
@@ -5884,15 +5895,17 @@
         "scene_id": "S03",
         "line_count": 3,
         "exposition_line_count": 0,
-        "power_action_line_count": 2,
+        "power_action_line_count": 0,
         "long_line_count": 0,
-        "warnings": []
+        "warnings": [
+          "sampled key lines contain no clear power/action verb"
+        ]
       },
       {
         "scene_id": "S04",
         "line_count": 3,
         "exposition_line_count": 0,
-        "power_action_line_count": 2,
+        "power_action_line_count": 1,
         "long_line_count": 0,
         "warnings": []
       },
@@ -5900,20 +5913,14 @@
         "scene_id": "S05",
         "line_count": 3,
         "exposition_line_count": 0,
-        "power_action_line_count": 2,
+        "power_action_line_count": 0,
         "long_line_count": 0,
-        "warnings": []
+        "warnings": [
+          "sampled key lines contain no clear power/action verb"
+        ]
       },
       {
         "scene_id": "S06",
-        "line_count": 3,
-        "exposition_line_count": 0,
-        "power_action_line_count": 2,
-        "long_line_count": 0,
-        "warnings": []
-      },
-      {
-        "scene_id": "S07",
         "line_count": 3,
         "exposition_line_count": 0,
         "power_action_line_count": 3,
@@ -5921,15 +5928,33 @@
         "warnings": []
       },
       {
+        "scene_id": "S07",
+        "line_count": 3,
+        "exposition_line_count": 0,
+        "power_action_line_count": 1,
+        "long_line_count": 0,
+        "warnings": []
+      },
+      {
         "scene_id": "S08",
         "line_count": 3,
         "exposition_line_count": 0,
-        "power_action_line_count": 2,
+        "power_action_line_count": 1,
         "long_line_count": 0,
         "warnings": []
       }
     ],
-    "warnings_by_scene": {}
+    "warnings_by_scene": {
+      "S01": [
+        "sampled key lines contain no clear power/action verb"
+      ],
+      "S03": [
+        "sampled key lines contain no clear power/action verb"
+      ],
+      "S05": [
+        "sampled key lines contain no clear power/action verb"
+      ]
+    }
   },
   "agency_intelligence": {
     "score_0_to_1": 1.0,
@@ -6082,8 +6107,6 @@
     "ending_status_spaces": [
       "cage",
       "chain",
-      "door",
-      "floor",
       "mat",
       "sit",
       "threshold"
