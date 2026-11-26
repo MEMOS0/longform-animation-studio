@@ -315,3 +315,9 @@ def test_meaning_carrier_compound_prop_uses_head_object():
     assert any("final two architecture" in w for w in bad["warnings"])
     good=evaluate_meaning_carrier({"meaning_carrier":carrier},{"sequences":[{"visual_setpiece":"the empty box is opened again"}]})
     assert not any("final two architecture" in w for w in good["warnings"])
+
+
+def test_relational_contract_flashback_repair_and_present_contrast_regressions():
+    from studio.relational_contract import denial_is_unresolved
+    assert denial_is_unresolved("at the payoff she has no choice. earlier she was no longer denied choice")
+    assert not denial_is_unresolved("she had no choice. she can now choose for herself, something she could not do before")

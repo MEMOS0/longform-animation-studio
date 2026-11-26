@@ -75,10 +75,16 @@ def clause_texts(text: str) -> list[str]:
 
 def positive_repair_after(text: str) -> bool:
     for clause in clause_texts(text):
-        if any(marker in clause for marker in PAST_MARKERS):
+        stripped = clause
+        for term in sorted(DENIAL_TERMS, key=len, reverse=True):
+            stripped = stripped.replace(term, " ")
+        positive_positions = [stripped.find(positive) for positive in REPAIR_TERMS if stripped.find(positive) >= 0]
+        if not positive_positions:
             continue
-        if positive_outside_denials(clause):
-            return True
+        marker_positions = [clause.find(marker) for marker in PAST_MARKERS if clause.find(marker) >= 0]
+        if marker_positions and min(positive_positions) > min(marker_positions):
+            continue
+        return True
     return False
 
 
@@ -107,10 +113,10 @@ def denial_is_unresolved(text: str) -> bool:
         suffix = text[end:]
         explicitly_past = any(marker in local for marker in PAST_MARKERS)
         denial_lifted = re.search(r"no longer\s+(?:\w+\s+){0,3}$", prefix) is not None or re.search(r"no more\s+(?:\w+\s+){0,3}$", prefix) is not None
+        if explicitly_past:
+            continue
         if denial_lifted:
             unresolved = False
-        elif explicitly_past:
-            continue
         elif positive_repair_after(suffix):
             unresolved = False
         else:
