@@ -300,9 +300,10 @@
         "reference_categories_to_study": [
           "creature_power_bond"
         ],
-        "source_promise": "reversal and belonging",
-        "source_wound": "visible injustice",
-        "protector": "",
+        "source_promise": "A compressed creature-economic melodrama combining childlike nonhuman personhood, debt/home insecurity, small-business competence, ethical temptation, legal proof, ownership reversal, loving separation, and a materially transformed ending.",
+        "source_wound": "Lio is trapped by debt, housing insecurity, public shame,",
+        "protector": "a flour miller",
+        "creature_or_child_anchor": "the emberseed bird child",
         "do_not_copy": "Use reference images only for mechanics: hierarchy, contrast, emotion, and readability. Generate original characters, layout, typography, and world details."
       },
       "critique": {
@@ -320,6 +321,40 @@
     },
     {
       "concept": {
+        "concept_id": "transformation_split",
+        "category": "transformation_rebirth",
+        "core_mechanic": "before/after or wound/power contrast in one instantly readable frame",
+        "composition": "protagonist split across an asymmetrical diagonal or central mirror axis; wounded version smaller/less polished, transformed version dominant but still emotionally expressive",
+        "emotion": "shame becoming agency, not empty glamour",
+        "palette": "high-key clean background with one saturated accent; avoid muddy midtones",
+        "text_direction": "one transformation word or short reversal phrase; avoid clutter",
+        "mobile_test": "before/after difference must remain visible at feed size",
+        "reference_categories_to_study": [
+          "transformation_rebirth"
+        ],
+        "source_promise": "A compressed creature-economic melodrama combining childlike nonhuman personhood, debt/home insecurity, small-business competence, ethical temptation, legal proof, ownership reversal, loving separation, and a materially transformed ending.",
+        "source_wound": "Lio is trapped by debt, housing insecurity, public shame,",
+        "protector": "a flour miller",
+        "creature_or_child_anchor": "the emberseed bird child",
+        "do_not_copy": "Use reference images only for mechanics: hierarchy, contrast, emotion, and readability. Generate original characters, layout, typography, and world details."
+      },
+      "critique": {
+        "score_0_to_1": 0.84,
+        "strengths": [
+          "clear focal hierarchy",
+          "specific emotion",
+          "controlled color contrast",
+          "text restraint"
+        ],
+        "risks": [
+          "emotion may not carry story promise"
+        ],
+        "required_mobile_check": "before/after difference must remain visible at feed size",
+        "ctr_caveat": "This is a design-quality critique, not a CTR prediction. Validate with YouTube Test & Compare when available."
+      }
+    },
+    {
+      "concept": {
         "concept_id": "relational_pressure_triangle",
         "category": "romantic_family_betrayal",
         "core_mechanic": "two or three people arranged so loyalty, betrayal, or protection is readable before any text",
@@ -332,9 +367,10 @@
           "romantic_family_betrayal",
           "localized_family_melodrama"
         ],
-        "source_promise": "reversal and belonging",
-        "source_wound": "visible injustice",
-        "protector": "",
+        "source_promise": "A compressed creature-economic melodrama combining childlike nonhuman personhood, debt/home insecurity, small-business competence, ethical temptation, legal proof, ownership reversal, loving separation, and a materially transformed ending.",
+        "source_wound": "Lio is trapped by debt, housing insecurity, public shame,",
+        "protector": "a flour miller",
+        "creature_or_child_anchor": "the emberseed bird child",
         "do_not_copy": "Use reference images only for mechanics: hierarchy, contrast, emotion, and readability. Generate original characters, layout, typography, and world details."
       },
       "critique": {
@@ -365,9 +401,10 @@
         "reference_categories_to_study": [
           "creature_power_bond"
         ],
-        "source_promise": "reversal and belonging",
-        "source_wound": "visible injustice",
-        "protector": "",
+        "source_promise": "A compressed creature-economic melodrama combining childlike nonhuman personhood, debt/home insecurity, small-business competence, ethical temptation, legal proof, ownership reversal, loving separation, and a materially transformed ending.",
+        "source_wound": "Lio is trapped by debt, housing insecurity, public shame,",
+        "protector": "a flour miller",
+        "creature_or_child_anchor": "the emberseed bird child",
         "do_not_copy": "Use reference images only for mechanics: hierarchy, contrast, emotion, and readability. Generate original characters, layout, typography, and world details."
       },
       "critique": {
@@ -518,13 +555,13 @@
     "estimated_final_seconds": 2520.0,
     "planned_generated_to_final_ratio": 0.9992,
     "lane_counts": {
-      "draft": 132,
-      "hero": 208,
+      "hero": 213,
+      "draft": 127,
       "mid": 21
     },
     "lane_seconds": {
-      "draft": 751.0,
-      "hero": 1578.0,
+      "hero": 1608.0,
+      "draft": 721.0,
       "mid": 189.0
     },
     "shots": [
@@ -533,8 +570,8 @@
         "scene_id": "S01",
         "kind": "establishing",
         "duration_seconds": 6.0,
-        "generation_lane": "draft",
-        "visual_prompt_intent": "the emberseed bird child crosses toward the humiliated protagonist while the crowd watches",
+        "generation_lane": "hero",
+        "visual_prompt_intent": "the crowd watches the protagonist being barred from the public oven as the emberseed bird child crosses toward her",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -656,8 +693,8 @@
         "scene_id": "S01",
         "kind": "establishing",
         "duration_seconds": 6.0,
-        "generation_lane": "draft",
-        "visual_prompt_intent": "the emberseed bird child crosses toward the humiliated protagonist while the crowd watches",
+        "generation_lane": "hero",
+        "visual_prompt_intent": "the crowd watches the protagonist being barred from the public oven as the emberseed bird child crosses toward her",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -779,8 +816,8 @@
         "scene_id": "S01",
         "kind": "establishing",
         "duration_seconds": 6.0,
-        "generation_lane": "draft",
-        "visual_prompt_intent": "the emberseed bird child crosses toward the humiliated protagonist while the crowd watches",
+        "generation_lane": "hero",
+        "visual_prompt_intent": "the crowd watches the protagonist being barred from the public oven as the emberseed bird child crosses toward her",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -902,8 +939,8 @@
         "scene_id": "S01",
         "kind": "establishing",
         "duration_seconds": 6.0,
-        "generation_lane": "draft",
-        "visual_prompt_intent": "the emberseed bird child crosses toward the humiliated protagonist while the crowd watches",
+        "generation_lane": "hero",
+        "visual_prompt_intent": "the crowd watches the protagonist being barred from the public oven as the emberseed bird child crosses toward her",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -1025,8 +1062,8 @@
         "scene_id": "S01",
         "kind": "establishing",
         "duration_seconds": 6.0,
-        "generation_lane": "draft",
-        "visual_prompt_intent": "the emberseed bird child crosses toward the humiliated protagonist while the crowd watches",
+        "generation_lane": "hero",
+        "visual_prompt_intent": "the crowd watches the protagonist being barred from the public oven as the emberseed bird child crosses toward her",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -2270,7 +2307,7 @@
         "kind": "final_image",
         "duration_seconds": 5.0,
         "generation_lane": "hero",
-        "visual_prompt_intent": "the protagonist opens the blackened brass oven key and compares its mark with the first heat trace",
+        "visual_prompt_intent": "the protagonist turns the blackened brass oven key in the oven lock and compares its maker mark with the first heat trace",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -2285,7 +2322,7 @@
         "kind": "final_image",
         "duration_seconds": 9.0,
         "generation_lane": "hero",
-        "visual_prompt_intent": "the protagonist opens the blackened brass oven key and compares its mark with the first heat trace",
+        "visual_prompt_intent": "the protagonist turns the blackened brass oven key in the oven lock and compares its maker mark with the first heat trace",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -3729,7 +3766,7 @@
         "kind": "final_image",
         "duration_seconds": 9.0,
         "generation_lane": "hero",
-        "visual_prompt_intent": "she shields the emberseed bird child with her body while the blackened brass oven key falls open as evidence",
+        "visual_prompt_intent": "she shields the emberseed bird child with her body while the blackened brass oven key drops beside the exposed ledger seam as evidence",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "protagonist_face_and_costume",
@@ -6082,7 +6119,7 @@
         "kind": "final_image",
         "duration_seconds": 5.0,
         "generation_lane": "hero",
-        "visual_prompt_intent": "the emberseed bird child crosses the home threshold freely while the blackened brass oven key remains open as public proof",
+        "visual_prompt_intent": "the emberseed bird child crosses the home threshold freely while the oven ledger wall remains unlocked while the blackened brass oven key stays visible as public proof",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "environment_reference_plate",
@@ -6098,7 +6135,7 @@
         "kind": "final_image",
         "duration_seconds": 9.0,
         "generation_lane": "hero",
-        "visual_prompt_intent": "the emberseed bird child crosses the home threshold freely while the blackened brass oven key remains open as public proof",
+        "visual_prompt_intent": "the emberseed bird child crosses the home threshold freely while the oven ledger wall remains unlocked while the blackened brass oven key stays visible as public proof",
         "continuity_dependencies": [
           "creature_or_child_model_sheet",
           "environment_reference_plate",

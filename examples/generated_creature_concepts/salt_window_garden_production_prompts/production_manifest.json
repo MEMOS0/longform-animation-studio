@@ -97,7 +97,7 @@
       "timecode": "0.00-22.02",
       "duration_seconds": 22.02,
       "generation_lane": "hero",
-      "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide establishing; slow push; the moonfin child crosses toward the humiliated protagonist while the crowd watches. Emotional action must remain readable before spectacle.",
+      "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide establishing; slow push; the crowd watches the protagonist being barred from the public pump as the moonfin child crosses toward her. Emotional action must remain readable before spectacle.",
       "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
       "camera_intent": "slow push",
       "dialogue": "",
