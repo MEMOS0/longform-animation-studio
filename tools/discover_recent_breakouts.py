@@ -22,6 +22,13 @@ QUERIES = [
     "mermaid full movie AI",
     "reborn full movie AI drama",
     "werewolf full movie AI drama",
+    "abandoned bride AI drama full movie",
+    "hidden identity AI drama full movie",
+    "giant dragon AI fantasy movie",
+    "emotional AI movie full",
+    "robot AI movie full",
+    "alpha king werewolf full movie",
+    "AI fantasy film complete story",
 ]
 
 
@@ -102,6 +109,19 @@ def main() -> None:
         enriched.append(row)
         time.sleep(0.2)
     out = ROOT / "data" / "processed" / "recent_breakout_candidates.json"
+    if out.exists():
+        try:
+            prior = json.loads(out.read_text(encoding="utf-8")).get("candidates", [])
+        except Exception:
+            prior = []
+        by_id = {row.get("video_id"): row for row in prior if row.get("video_id")}
+        for row in enriched:
+            existing = by_id.get(row["video_id"], {})
+            merged_queries = sorted(set((existing.get("queries") or []) + (row.get("queries") or [])))
+            existing.update(row)
+            existing["queries"] = merged_queries
+            by_id[row["video_id"]] = existing
+        enriched = sorted(by_id.values(), key=lambda row: -(row.get("views_per_day_estimate") or 0))
     out.write_text(json.dumps({"collected_at": now.isoformat(), "days": args.days, "candidates": enriched}, ensure_ascii=False, indent=2), encoding="utf-8")
     md = ROOT / "knowledge" / "market" / "recent-breakout-candidates.md"
     lines = [
