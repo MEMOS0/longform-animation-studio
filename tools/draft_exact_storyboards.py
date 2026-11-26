@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Convert scene screenplays into continuous exact-format director-seed storyboards.
+"""Convert scene screenplays into continuous non-repeating exact-format director-seed storyboards.
 
 These are not final director boards. They replace empty scaffold slots with the
 scene's own images, decisions, dialogue, sound, and continuity objects so a
@@ -14,7 +14,7 @@ def minutes_range(v):
  return (float(m.group(1)),float(m.group(2))) if m else (0,5)
 def build(scene):
  start,end=minutes_range(scene.get('time_range',''))
- duration=int(round((end-start)*60));count=max(16,int(duration/18))
+ duration=int(round((end-start)*60));count=10
  va=scene.get('visual_action',{});sound=scene.get('sound_design',{});dia=scene.get('dialogue_design',{})
  keys=(dia.get('key_lines') or ['']*2)+['','']
  beats=[

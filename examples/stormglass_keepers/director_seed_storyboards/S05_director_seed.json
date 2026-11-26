@@ -5,8 +5,8 @@
   "shots": [
     {
       "shot_id": "S05_DS001",
-      "timecode": "0.0-18.0",
-      "duration_seconds": 18.0,
+      "timecode": "0.0-36.0",
+      "duration_seconds": 36.0,
       "scene_id": "S05",
       "shot_size": "wide establishing",
       "camera_intent": "slow push",
@@ -25,15 +25,15 @@
     },
     {
       "shot_id": "S05_DS002",
-      "timecode": "18.0-36.0",
-      "duration_seconds": 18.0,
+      "timecode": "36.0-72.0",
+      "duration_seconds": 36.0,
       "scene_id": "S05",
-      "shot_size": "wide establishing",
-      "camera_intent": "slow push",
-      "visual_action": "iron doors closing over blue scale-light",
+      "shot_size": "intimate closeup",
+      "camera_intent": "settle",
+      "visual_action": "Tam avoids Mira's eyes, hiding the copied key",
       "dialogue": "none",
-      "sound_design": "drop music before each bonding or revelation beat so breath, scale chimes, and creature calls carry meaning",
-      "generation_lane": "hero",
+      "sound_design": "breath and room tone",
+      "generation_lane": "mid",
       "continuity_dependencies": [
         "mira_face_costume",
         "child_face_scale_light",
@@ -41,19 +41,19 @@
         "relationship_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: open on the scene image"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
     },
     {
       "shot_id": "S05_DS003",
-      "timecode": "36.0-54.0",
-      "duration_seconds": 18.0,
+      "timecode": "72.0-108.0",
+      "duration_seconds": 36.0,
       "scene_id": "S05",
-      "shot_size": "intimate closeup",
-      "camera_intent": "settle",
-      "visual_action": "Tam avoids Mira's eyes, hiding the copied key",
+      "shot_size": "action wide",
+      "camera_intent": "lateral track",
+      "visual_action": "protect the child during capture",
       "dialogue": "none",
-      "sound_design": "breath and room tone",
-      "generation_lane": "mid",
+      "sound_design": "environmental action foley",
+      "generation_lane": "draft",
       "continuity_dependencies": [
         "mira_face_costume",
         "child_face_scale_light",
@@ -61,18 +61,18 @@
         "relationship_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
     },
     {
       "shot_id": "S05_DS004",
-      "timecode": "54.0-72.0",
-      "duration_seconds": 18.0,
+      "timecode": "108.0-144.0",
+      "duration_seconds": 36.0,
       "scene_id": "S05",
-      "shot_size": "intimate closeup",
-      "camera_intent": "settle",
-      "visual_action": "Tam avoids Mira's eyes, hiding the copied key",
-      "dialogue": "none",
-      "sound_design": "breath and room tone",
+      "shot_size": "power two-shot",
+      "camera_intent": "slow tightening",
+      "visual_action": "Tam appears to betray them and the iron chamber intensifies the child's terror",
+      "dialogue": "Pain makes it obey. Trust makes it answer.",
+      "sound_design": "dialogue remains intelligible under weather and crowd effects",
       "generation_lane": "mid",
       "continuity_dependencies": [
         "mira_face_costume",
@@ -81,19 +81,19 @@
         "relationship_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
     },
     {
       "shot_id": "S05_DS005",
-      "timecode": "72.0-90.0",
-      "duration_seconds": 18.0,
+      "timecode": "144.0-180.0",
+      "duration_seconds": 36.0,
       "scene_id": "S05",
-      "shot_size": "action wide",
-      "camera_intent": "lateral track",
-      "visual_action": "protect the child during capture",
+      "shot_size": "decision insert",
+      "camera_intent": "macro",
+      "visual_action": "Mira covers the child rather than escaping alone",
       "dialogue": "none",
-      "sound_design": "environmental action foley",
-      "generation_lane": "draft",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
       "continuity_dependencies": [
         "mira_face_costume",
         "child_face_scale_light",
@@ -101,19 +101,19 @@
         "relationship_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
     },
     {
       "shot_id": "S05_DS006",
-      "timecode": "90.0-108.0",
-      "duration_seconds": 18.0,
+      "timecode": "180.0-216.0",
+      "duration_seconds": 36.0,
       "scene_id": "S05",
-      "shot_size": "action wide",
-      "camera_intent": "lateral track",
-      "visual_action": "protect the child during capture",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "the protection story becomes a weaponization crisis",
       "dialogue": "none",
-      "sound_design": "environmental action foley",
-      "generation_lane": "draft",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
       "continuity_dependencies": [
         "mira_face_costume",
         "child_face_scale_light",
@@ -121,19 +121,19 @@
         "relationship_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
     },
     {
       "shot_id": "S05_DS007",
-      "timecode": "108.0-126.0",
-      "duration_seconds": 18.0,
+      "timecode": "216.0-252.0",
+      "duration_seconds": 36.0,
       "scene_id": "S05",
-      "shot_size": "power two-shot",
-      "camera_intent": "slow tightening",
-      "visual_action": "Tam appears to betray them and the iron chamber intensifies the child's terror",
-      "dialogue": "Pain makes it obey. Trust makes it answer.",
-      "sound_design": "dialogue remains intelligible under weather and crowd effects",
-      "generation_lane": "mid",
+      "shot_size": "vertical composition",
+      "camera_intent": "high or low angle",
+      "visual_action": "vertical cage bars and faces compressed by closeups",
+      "dialogue": "none",
+      "sound_design": "negative space",
+      "generation_lane": "draft",
       "continuity_dependencies": [
         "mira_face_costume",
         "child_face_scale_light",
@@ -141,18 +141,18 @@
         "relationship_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
     },
     {
       "shot_id": "S05_DS008",
-      "timecode": "126.0-144.0",
-      "duration_seconds": 18.0,
+      "timecode": "252.0-288.0",
+      "duration_seconds": 36.0,
       "scene_id": "S05",
-      "shot_size": "power two-shot",
-      "camera_intent": "slow tightening",
-      "visual_action": "Tam appears to betray them and the iron chamber intensifies the child's terror",
-      "dialogue": "Pain makes it obey. Trust makes it answer.",
-      "sound_design": "dialogue remains intelligible under weather and crowd effects",
+      "shot_size": "subtext closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "Protection means risking attachment without turning love into control.",
+      "dialogue": "You don't save a child by becoming its cage.",
+      "sound_design": "lullaby motif evolves with trust rather than constant emotional wallpaper",
       "generation_lane": "mid",
       "continuity_dependencies": [
         "mira_face_costume",
@@ -161,19 +161,19 @@
         "relationship_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
     },
     {
       "shot_id": "S05_DS009",
-      "timecode": "144.0-162.0",
-      "duration_seconds": 18.0,
+      "timecode": "288.0-324.0",
+      "duration_seconds": 36.0,
       "scene_id": "S05",
-      "shot_size": "decision insert",
-      "camera_intent": "macro",
-      "visual_action": "Mira covers the child rather than escaping alone",
+      "shot_size": "consequence wide",
+      "camera_intent": "backward track",
+      "visual_action": "consequence of Mira covers the child rather than escaping alone",
       "dialogue": "none",
-      "sound_design": "music drops before decision",
-      "generation_lane": "mid",
+      "sound_design": "consequence foley",
+      "generation_lane": "draft",
       "continuity_dependencies": [
         "mira_face_costume",
         "child_face_scale_light",
@@ -181,212 +181,12 @@
         "relationship_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
     },
     {
       "shot_id": "S05_DS010",
-      "timecode": "162.0-180.0",
-      "duration_seconds": 18.0,
-      "scene_id": "S05",
-      "shot_size": "decision insert",
-      "camera_intent": "macro",
-      "visual_action": "Mira covers the child rather than escaping alone",
-      "dialogue": "none",
-      "sound_design": "music drops before decision",
-      "generation_lane": "mid",
-      "continuity_dependencies": [
-        "mira_face_costume",
-        "child_face_scale_light",
-        "location_geography",
-        "relationship_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
-    },
-    {
-      "shot_id": "S05_DS011",
-      "timecode": "180.0-198.0",
-      "duration_seconds": 18.0,
-      "scene_id": "S05",
-      "shot_size": "turn wide",
-      "camera_intent": "reframe",
-      "visual_action": "the protection story becomes a weaponization crisis",
-      "dialogue": "none",
-      "sound_design": "sound motif shifts",
-      "generation_lane": "hero",
-      "continuity_dependencies": [
-        "mira_face_costume",
-        "child_face_scale_light",
-        "location_geography",
-        "relationship_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
-    },
-    {
-      "shot_id": "S05_DS012",
-      "timecode": "198.0-216.0",
-      "duration_seconds": 18.0,
-      "scene_id": "S05",
-      "shot_size": "turn wide",
-      "camera_intent": "reframe",
-      "visual_action": "the protection story becomes a weaponization crisis",
-      "dialogue": "none",
-      "sound_design": "sound motif shifts",
-      "generation_lane": "hero",
-      "continuity_dependencies": [
-        "mira_face_costume",
-        "child_face_scale_light",
-        "location_geography",
-        "relationship_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
-    },
-    {
-      "shot_id": "S05_DS013",
-      "timecode": "216.0-234.0",
-      "duration_seconds": 18.0,
-      "scene_id": "S05",
-      "shot_size": "vertical composition",
-      "camera_intent": "high or low angle",
-      "visual_action": "vertical cage bars and faces compressed by closeups",
-      "dialogue": "none",
-      "sound_design": "negative space",
-      "generation_lane": "draft",
-      "continuity_dependencies": [
-        "mira_face_costume",
-        "child_face_scale_light",
-        "location_geography",
-        "relationship_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
-    },
-    {
-      "shot_id": "S05_DS014",
-      "timecode": "234.0-252.0",
-      "duration_seconds": 18.0,
-      "scene_id": "S05",
-      "shot_size": "vertical composition",
-      "camera_intent": "high or low angle",
-      "visual_action": "vertical cage bars and faces compressed by closeups",
-      "dialogue": "none",
-      "sound_design": "negative space",
-      "generation_lane": "draft",
-      "continuity_dependencies": [
-        "mira_face_costume",
-        "child_face_scale_light",
-        "location_geography",
-        "relationship_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
-    },
-    {
-      "shot_id": "S05_DS015",
-      "timecode": "252.0-270.0",
-      "duration_seconds": 18.0,
-      "scene_id": "S05",
-      "shot_size": "subtext closeup",
-      "camera_intent": "static intimate",
-      "visual_action": "Protection means risking attachment without turning love into control.",
-      "dialogue": "You don't save a child by becoming its cage.",
-      "sound_design": "lullaby motif evolves with trust rather than constant emotional wallpaper",
-      "generation_lane": "mid",
-      "continuity_dependencies": [
-        "mira_face_costume",
-        "child_face_scale_light",
-        "location_geography",
-        "relationship_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
-    },
-    {
-      "shot_id": "S05_DS016",
-      "timecode": "270.0-288.0",
-      "duration_seconds": 18.0,
-      "scene_id": "S05",
-      "shot_size": "subtext closeup",
-      "camera_intent": "static intimate",
-      "visual_action": "Protection means risking attachment without turning love into control.",
-      "dialogue": "You don't save a child by becoming its cage.",
-      "sound_design": "lullaby motif evolves with trust rather than constant emotional wallpaper",
-      "generation_lane": "mid",
-      "continuity_dependencies": [
-        "mira_face_costume",
-        "child_face_scale_light",
-        "location_geography",
-        "relationship_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
-    },
-    {
-      "shot_id": "S05_DS017",
-      "timecode": "288.0-306.0",
-      "duration_seconds": 18.0,
-      "scene_id": "S05",
-      "shot_size": "consequence wide",
-      "camera_intent": "backward track",
-      "visual_action": "consequence of Mira covers the child rather than escaping alone",
-      "dialogue": "none",
-      "sound_design": "consequence foley",
-      "generation_lane": "draft",
-      "continuity_dependencies": [
-        "mira_face_costume",
-        "child_face_scale_light",
-        "location_geography",
-        "relationship_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
-    },
-    {
-      "shot_id": "S05_DS018",
-      "timecode": "306.0-324.0",
-      "duration_seconds": 18.0,
-      "scene_id": "S05",
-      "shot_size": "consequence wide",
-      "camera_intent": "backward track",
-      "visual_action": "consequence of Mira covers the child rather than escaping alone",
-      "dialogue": "none",
-      "sound_design": "consequence foley",
-      "generation_lane": "draft",
-      "continuity_dependencies": [
-        "mira_face_costume",
-        "child_face_scale_light",
-        "location_geography",
-        "relationship_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
-    },
-    {
-      "shot_id": "S05_DS019",
-      "timecode": "324.0-342.0",
-      "duration_seconds": 18.0,
-      "scene_id": "S05",
-      "shot_size": "final image",
-      "camera_intent": "slow pull-back",
-      "visual_action": "the chamber wall cracks with each terrified creature cry",
-      "dialogue": "Pain makes it obey. Trust makes it answer.",
-      "sound_design": "three-note lullaby answered by glassy creature harmonics unresolved",
-      "generation_lane": "hero",
-      "continuity_dependencies": [
-        "mira_face_costume",
-        "child_face_scale_light",
-        "location_geography",
-        "relationship_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power"
-    },
-    {
-      "shot_id": "S05_DS020",
-      "timecode": "342.0-360.0",
-      "duration_seconds": 18.0,
+      "timecode": "324.0-360.0",
+      "duration_seconds": 36.0,
       "scene_id": "S05",
       "shot_size": "final image",
       "camera_intent": "slow pull-back",
