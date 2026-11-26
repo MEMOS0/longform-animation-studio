@@ -46,12 +46,13 @@ Build a reusable professional AI-assisted long-form animation studio system, not
 ## Immediate next steps, in order
 
 1. If Devin Review still skips/fails after `.gitattributes`, inspect exact status once, then split generated evidence into separate branch/PR or further exclude generated artifacts. Do not bypass review settings.
-2. Revisit `knowledge/market/cross-channel-audiovisual-findings.md` and correct subtitle-contaminated conclusions using corrected English subtitles.
+2. `knowledge/market/cross-channel-audiovisual-findings.md` has been re-reviewed after subtitle correction and explicitly marked usable within evidence limits. Continue deeper rechecks only when a production decision depends on exact dialogue.
 3. Finish full machine media-analysis casebooks for `6pbhGtHRTwA`, `icsZH4sDwTM`, `NHAHR3v9La8`, and `lBhjowuJURw` if needed; initial audiovisual deep dive already exists in `knowledge/market/recent-breakout-media-deep-dive.md`, and quick sheets/media are local. Use `python tools/batch_media_analysis.py --media-dir C:/Users/Administrator/breakout_media --raw-dir data/raw/piped_recent_breakout --out-root C:/Users/Administrator/breakout_analysis --workers 2` only if fuller timelines are worth the compute.
 4. Duplicate `THE LOST KIND` issue resolved at metadata/subtitle-fingerprint level: Everflame appears to reuse the hit title for a different dragon-bond story, not the same film/reupload. Optional next refinement: compare visual assets if full Everflame media is later downloaded.
-5. Analyze recent breakout thumbnails in detail from `thumbnails/recent_breakouts_top24_montage.jpg` and per-image files. Initial synthesis is in `knowledge/market/recent-breakout-synthesis.md`.
-6. Validate production economics and provider docs before any paid generation; never spend without explicit approval.
-7. Continue integrating research into production decision-making, not just reports.
+5. Finish within-channel comparison of recent breakouts: EchoDrama hit `lBhjowuJURw` vs lows `hchpYZaYFfU`/`SeQcIQBO7sQ`; Drakenhart hit `1Nv2aGUgIG4` vs lower `L5Xau3CAto0`/`hiyRGA1WbNs`. A download job may need restarting after rotation: `python tools/download_piped_archive.py --ids hchpYZaYFfU,SeQcIQBO7sQ,L5Xau3CAto0,hiyRGA1WbNs --media-dir C:/Users/Administrator/breakout_compare_media --raw-dir data/raw/piped_breakout_compare --workers 2`. Then analyze openings/endings and compare against hit mechanisms.
+6. Analyze recent breakout thumbnails in detail from `thumbnails/recent_breakouts_top24_montage.jpg` and per-image files. Initial synthesis is in `knowledge/market/recent-breakout-synthesis.md`.
+7. Validate production economics and provider docs before any paid generation; never spend without explicit approval.
+8. Continue integrating research into production decision-making, not just reports.
 
 ## Key creative synthesis to preserve
 

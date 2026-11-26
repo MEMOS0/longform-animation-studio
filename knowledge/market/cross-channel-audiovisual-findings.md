@@ -2,6 +2,8 @@
 
 Updated/corrected: 2026-11-26. Evidence tier 3/4 boundary: full videos were downloaded, aligned subtitles and second-resolution timelines were generated, and full-runtime contact sheets were visually inspected at sampled timestamps. This is not continuous frame-by-frame human viewing. Local media/contact sheets are not committed.
 
+> Correction status: reviewed after subtitle fix on 2026-11-26; the timestamped mechanisms below are usable as tier 3/4 boundary evidence, while exact causal claims remain prohibited.
+>
 > Correction pass: this was an early broad sample. Some subtitle extraction before the downloader fix could select non-English tracks, so exact dialogue claims here should be cross-checked against channel-specific deep dives before use. The Ironcrest interpretation has been superseded/refined by `knowledge/market/ironcrest-deep-dive.md`; Epic/FablePop/The Next Show/RIFTBORN comparisons are superseded by `epic-deep-dive.md` and `cross-channel-hit-failure-deep-dives.md`.
 
 ## Sampled videos
