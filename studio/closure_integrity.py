@@ -16,10 +16,13 @@ INFRASTRUCTURE_TERMS = ["water", "food", "storm", "shield", "power", "array", "i
 COMMUNITY_CONSEQUENCE_TERMS = ["survive", "rebuild", "replace", "ration", "share", "community", "village", "town", "people are safe", "new system", "restored"]
 COLLAPSE_PATTERNS = [
     r"self-destruct\w*",
-    r"(?:array|system|infrastructure|shield|power grid|harbor|valves?)\s+(?:is|are|was|were)?\s*(?:destroyed|collapsing|collapses|collapsed|fails|failing|shutting down|going dark|goes dark)",
-    r"(?:destroy|collapse|shut down|disable)\s+the\s+(?:array|system|infrastructure|shield|power grid|harbor|valves?)",
-    r"(?:array|system|infrastructure|shield|power grid|harbor|valves?)\s+(?:goes|go|went)\s+dark",
+    r"(?:array|system|infrastructure|shield(?:\s+nodes)?|power grid|harbor|valves?)\s+(?:is|are|was|were)?\s*(?:destroyed|collapsing|collapses|collapsed|fails|failing|shutting down|going dark|goes dark|go dark|went dark)",
+    r"(?:destroy(?:s|ed)?|disable(?:s|d)?|shut(?:s|ting)? down|collapse(?:s|d)?)\s+(?:the\s+)?(?:water\s+|power\s+|storm\s+|holy-light\s+)?(?:array|system|infrastructure|shield(?:\s+nodes)?|power grid|harbor|valves?)",
+    r"(?:array|system|infrastructure|shield(?:\s+nodes)?|power grid|harbor|valves?)\s+(?:goes|go|went)\s+dark",
 ]
+HYPOTHETICAL_RE = re.compile(
+    r"\b(?:if|whether|will|would|could|can|may|might|threaten\w* to|plan\w* to|try\w* to|want\w* to|choose\w* to)\b"
+)
 
 
 def flatten(value: Any) -> str:
@@ -42,29 +45,61 @@ def _positions(text: str, terms: list[str]) -> dict[str, int]:
     return found
 
 
-def _regex_positions(text: str, patterns: list[str]) -> dict[str, int]:
+def _all_positions(text: str, terms: list[str]) -> dict[str, list[int]]:
     lowered = text.lower()
-    found: dict[str, int] = {}
-    for pattern in patterns:
-        match = re.search(pattern, lowered)
-        if match:
-            found[pattern] = match.start()
+    found: dict[str, list[int]] = {}
+    for term in terms:
+        positions = [match.start() for match in re.finditer(re.escape(term), lowered)]
+        if positions:
+            found[term] = positions
     return found
+
+
+def _sentence_bounds(text: str, position: int) -> tuple[int, int]:
+    start = max(text.rfind(".", 0, position), text.rfind("!", 0, position), text.rfind("?", 0, position), text.rfind("\n", 0, position)) + 1
+    endings = [idx for idx in [text.find(".", position), text.find("!", position), text.find("?", position), text.find("\n", position)] if idx >= 0]
+    end = min(endings) + 1 if endings else len(text)
+    return start, end
+
+
+def _is_hypothetical(text: str, position: int) -> bool:
+    start, end = _sentence_bounds(text, position)
+    before = text[start:position]
+    sentence = text[start:end]
+    if HYPOTHETICAL_RE.search(before):
+        return True
+    return "?" in sentence and re.search(r"\b(?:will|would|could|can|what if|how|why|when)\b", before) is not None
+
+
+def _collapse_events(text: str) -> list[int]:
+    lowered = text.lower()
+    events: set[int] = set()
+    for pattern in COLLAPSE_PATTERNS:
+        for match in re.finditer(pattern, lowered):
+            if not _is_hypothetical(lowered, match.start()):
+                events.add(match.start())
+    return sorted(events)
 
 
 def _row(sequence: str | int, text: str) -> dict[str, Any]:
     closure = _positions(text, CLOSURE_TERMS)
     sequel = _positions(text, SEQUEL_TERMS)
+    community_positions = _all_positions(text, COMMUNITY_CONSEQUENCE_TERMS)
     return {
         "sequence": sequence,
         "text": text.lower(),
         "closure_positions": closure,
         "sequel_positions": sequel,
+        "community_positions": community_positions,
         "closure_hits": list(closure),
         "sequel_hits": list(sequel),
         "infrastructure_hits": list(_positions(text, INFRASTRUCTURE_TERMS)),
-        "community_consequence_hits": list(_positions(text, COMMUNITY_CONSEQUENCE_TERMS)),
+        "community_consequence_hits": list(community_positions),
     }
+
+
+def _has_positions_after(position_map: dict[str, list[int]], position: int) -> bool:
+    return any(point > position for positions in position_map.values() for point in positions)
 
 
 def evaluate_closure_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]] | None = None) -> dict[str, Any]:
@@ -111,21 +146,19 @@ def evaluate_closure_integrity(premise: dict[str, Any], architecture: dict[str, 
 
     infrastructure = list(_positions(flatten(architecture) + "\n" + flatten(scenes), INFRASTRUCTURE_TERMS))
     consequence = list(_positions(final_text, COMMUNITY_CONSEQUENCE_TERMS))
+    scene_rows = [_row(scene.get("scene_id", f"scene-{index + 1}"), flatten(scene)) for index, scene in enumerate(scenes)]
+    final_scene_rows = scene_rows[-2:] if len(scene_rows) >= 2 else scene_rows
     collapse_needs_followup = False
     for row_index in range(payoff_start, len(rows)):
         row = rows[row_index]
-        collapse_positions = _regex_positions(row["text"], COLLAPSE_PATTERNS)
-        if not collapse_positions:
-            continue
-        earliest_collapse = min(collapse_positions.values())
-        same_row_after = [
-            position
-            for position in _positions(row["text"], COMMUNITY_CONSEQUENCE_TERMS).values()
-            if position > earliest_collapse
-        ]
-        later_rows_after = any(later["community_consequence_hits"] for later in rows[row_index + 1 :])
-        if not same_row_after and not later_rows_after:
-            collapse_needs_followup = True
+        for collapse_position in _collapse_events(row["text"]):
+            same_row_after = _has_positions_after(row["community_positions"], collapse_position)
+            later_rows_after = any(later["community_consequence_hits"] for later in rows[row_index + 1 :])
+            screenplay_after = any(later["community_consequence_hits"] for later in final_scene_rows)
+            if not same_row_after and not later_rows_after and not screenplay_after:
+                collapse_needs_followup = True
+                break
+        if collapse_needs_followup:
             break
     if infrastructure and collapse_needs_followup:
         warnings.append("infrastructure/system collapse is not followed by visible community survival, replacement, or rebuilding consequence")
