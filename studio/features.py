@@ -134,7 +134,8 @@ def thumbnail_features(path: str | None) -> dict[str, Any]:
 
 def enrich_records(input_jsonl: Path, output_jsonl: Path) -> Path:
     output_jsonl.parent.mkdir(parents=True, exist_ok=True)
-    lines = input_jsonl.read_text(encoding="utf-8").splitlines()
+    with input_jsonl.open(encoding="utf-8", newline="") as source:
+        lines = source.readlines()
     with output_jsonl.open("w", encoding="utf-8") as target:
         for line in lines:
             if not line.strip():
