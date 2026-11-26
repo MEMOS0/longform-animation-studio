@@ -654,5 +654,46 @@
       "evidence/research/genre_expansion/DG16FsALL9A/fullfilm_sheet.jpg",
       "thumbnail_intelligence/reference_library/spark_shorts/DG16FsALL9A.webp"
     ]
+  },
+  "romantic_creature_sacrifice_epic": {
+    "reference_channels": [
+      "Spark Shorts"
+    ],
+    "positive_signals": [
+      "cursed blood",
+      "monster label",
+      "sacrifice",
+      "fated bride",
+      "blood pact",
+      "chain",
+      "reincarnation",
+      "memory sacrifice",
+      "recognition",
+      "tenderness",
+      "prison becomes home"
+    ],
+    "opening_rules": [
+      "show bodily stigma or expulsion before explaining lore",
+      "make family/society impose the monster label in dialogue",
+      "introduce protective romantic bond quickly but let it carry coercion/consent tension",
+      "give the fantasy rule a physical cost"
+    ],
+    "risk_patterns": [
+      "lore-heavy divine politics without embodied stigma",
+      "romantic possession without repair or reciprocal protection",
+      "sacrifice repeated without rule evolution",
+      "spectacle posters replacing a single relational choice in packaging"
+    ],
+    "thumbnail_rules": [
+      "central intimate relational pair before monsters/action",
+      "use one coherent luminous color world",
+      "make the title ornate but subordinate to faces",
+      "avoid generic armor/monster clutter"
+    ],
+    "evidence": [
+      "knowledge/market/spark-shorts-hit-low-comparison.md",
+      "evidence/research/genre_expansion/FaP_r2awlC8/fullfilm_sheet.jpg",
+      "thumbnail_intelligence/reference_library/spark_shorts/spark_top_montage.jpg"
+    ]
   }
 }
