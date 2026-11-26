@@ -45,7 +45,9 @@ def carrier_key_terms(carrier_text: str) -> list[str]:
             continue
         known_objects = [token for token in content_tokens if token in OBJECT_TERMS]
         if known_objects:
-            key = known_objects[-1]
+            first_object = known_objects[0]
+            remainder = content_tokens[content_tokens.index(first_object) + 1:]
+            key = first_object if remainder and remainder[0] in {"to", "of", "from", "for", "in", "on", "with"} else known_objects[-1]
         elif len(content_tokens) == 1:
             key = content_tokens[0]
         elif content_tokens[-1] not in GENERIC_CARRIER_WORDS:
