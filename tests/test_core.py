@@ -126,3 +126,11 @@ def test_release_learning_percentile_and_revisions():
     result=release_postmortem({"video_id":"x","views":100,"age_days":1},{"format_strategy":{"warnings":["w"]}},cohort)
     assert result["outcome_vs_cohort"]=="underperforming_cohort"
     assert result["revision_rules"]
+
+
+def test_exact_storyboard_validation():
+    from studio.storyboard import validate_storyboard_file
+    result=validate_storyboard_file("examples/stormglass_keepers/storyboards/S01_storyboard.json")
+    assert result["valid"], result["errors"]
+    assert result["shot_count"] >= 30
+    assert result["covered_seconds"] == 300
