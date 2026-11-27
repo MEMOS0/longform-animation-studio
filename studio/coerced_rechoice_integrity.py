@@ -28,6 +28,20 @@ def _unnegated_positions(pattern: str, text: str) -> list[int]:
     return [match.start() for match in re.finditer(pattern, text) if not _immediate_negation_before(text, match.start())]
 
 
+def _bounded_by_later_repair(narrative_texts: list[str], adverse_pattern: str, strong_repair_pattern: str, weak_repair_pattern: str) -> bool:
+    strong_any = False
+    weak_any = False
+    for text in narrative_texts:
+        strong_positions = _positions(strong_repair_pattern, text)
+        weak_positions = _positions(weak_repair_pattern, text)
+        strong_any = strong_any or bool(strong_positions)
+        weak_any = weak_any or bool(weak_positions)
+        adverse_positions = _unnegated_positions(adverse_pattern, text)
+        if adverse_positions and not any(position > max(adverse_positions) for position in strong_positions):
+            return False
+    return (strong_any or weak_any) and (strong_any or not any(_unnegated_positions(adverse_pattern, text) for text in narrative_texts))
+
+
 def evaluate_coerced_rechoice_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     premise_text = _text(premise).lower()
     architecture_text = _text(architecture).lower()
@@ -43,32 +57,18 @@ def evaluate_coerced_rechoice_integrity(premise: dict[str, Any], architecture: d
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
-    pressure_strong_positions = _positions(
-        r"stand(?:s)? with (?:you|her|the victim|the wife|nora)|accept(?:s|ed)? (?:her|your) refusal|respect(?:s|ed)? (?:her|your) refusal|family approval.*not.*consent|mother.*not.*consent|board.*not.*consent|pressure.*not.*consent|choice.*not.*family",
-        full,
-    )
-    pressure_weak_positions = _positions(r"won.?t pressure|don.?t pressure|no one can force|free to refuse", full)
-    pressure_adverse_positions = _unnegated_positions(
+    pressure_is_bounded = _bounded_by_later_repair(
+        [architecture_text, scenes_text],
         r"stand(?:s)? with (?:him|the ceo|ceo|the husband)|insist(?:s|ed)?\s+(?:\w+\s+){0,4}stay married|pressure(?:s|d)?\s+(?:\w+\s+){0,4}stay married|(?:force(?:s|d)?|compel(?:s|led)?|coerce(?:s|d)?|blackmail(?:s|ed)?)\s+(?:\w+\s+){0,5}(?:stay married|marry|marriage)",
-        full,
-    )
-    pressure_positive_positions = pressure_strong_positions + pressure_weak_positions
-    pressure_is_bounded = bool(pressure_positive_positions) and (
-        not pressure_adverse_positions
-        or any(position > max(pressure_adverse_positions) for position in pressure_strong_positions)
+        r"stand(?:s)? with (?:you|her|the victim|the wife|nora)|accept(?:s|ed)? (?:her|your) refusal|respect(?:s|ed)? (?:her|your) refusal|family approval.*not.*consent|mother.*not.*consent|board.*not.*consent|pressure.*not.*consent|choice.*not.*family",
+        r"won.?t pressure|don.?t pressure|no one can force|free to refuse",
     )
 
-    retaliation_positive_positions = _positions(
-        r"doesn.?t owe|not owe|deal stands|no retaliation|won.?t (?:pull|withdraw|weaponize)|will not (?:pull|withdraw|weaponize)|continue(?:s|d)? support|business is business|support.*despite rejection",
-        full,
-    )
-    retaliation_adverse_positions = _unnegated_positions(
+    power_is_bounded = _bounded_by_later_repair(
+        [architecture_text, scenes_text],
         r"(?:cuts?|pulls?|withdraws?|weaponizes?|cancels?)\s+(?:\w+\s+){0,4}(?:funding|support|technology|consultants|deal|business contract)|after rejection.{0,80}(?:cuts?|pulls?|withdraws?|weaponizes?|cancels?).{0,40}(?:funding|support|technology|consultants|deal|business contract)",
-        full,
-    )
-    power_is_bounded = bool(retaliation_positive_positions) and (
-        not retaliation_adverse_positions
-        or any(position > max(retaliation_adverse_positions) for position in retaliation_positive_positions)
+        r"doesn.?t owe|not owe|deal stands|no retaliation|won.?t (?:pull|withdraw|weaponize)|will not (?:pull|withdraw|weaponize)|continue(?:s|d)? support|business is business|support.*despite rejection",
+        r"doesn.?t owe|not owe|deal stands|no retaliation|won.?t (?:pull|withdraw|weaponize)|will not (?:pull|withdraw|weaponize)|continue(?:s|d)? support|business is business|support.*despite rejection",
     )
 
     checks = {
