@@ -3957,3 +3957,46 @@ def test_restitution_vote_no_if_line_wrap_counts_as_conditional_rule():
       {'summary':'they betray her, the pact restores her sight.'},
     ]
     assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is False
+
+def test_constructive_restoration_applies_to_abandoned_robot_repair():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    result=evaluate_constructive_restoration_integrity(
+      {'title':'Robot Repair','logline':'A homeless mechanic finds work.'},
+      {'sequences':[{'summary':'She repairs an abandoned robot.'}]},[])
+    assert result['applies'] is True
+
+
+def test_constructive_restoration_qualified_plural_ladder_and_ending_payoff():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise={'title':'Station Repair','logline':'A mechanic apprentice repairs machines.'}
+    architecture={
+      'sequences':[
+        {'summary':'The apprentice carefully repairs a lamp under supervision.'},
+        {'summary':'She fixes a lamp, repairs several robots, then restores the station.'},
+      ],
+      'ending_payoff':{'summary':'A final trial run and systems check prove the station.'},
+    }
+    result=evaluate_constructive_restoration_integrity(premise,architecture,[])
+    assert result['checks']['repair_object_competence_ladder'] is True
+    assert result['checks']['learner_performs_repair_under_mentorship'] is True
+    assert result['checks']['finale_demonstrates_capability_through_tested_systems'] is True
+
+
+def test_constructive_restoration_reference_next_sentence_counts_resource_reuse():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise={'title':'Parts Fund','logline':'A mechanic repairs robots.'}
+    architecture={'sequences':[{'summary':'She receives the payment. She spends it on parts and tools. They capture the war machine. It is converted into a clinic.'}]}
+    result=evaluate_constructive_restoration_integrity(premise,architecture,[])
+    assert result['checks']['wealth_is_converted_into_repair_capacity'] is True
+    assert result['checks']['weapon_is_repurposed_into_care_or_work_infrastructure'] is True
+
+
+def test_protective_debt_dependent_exit_is_not_consent():
+    from studio.protective_kinship_integrity import _first_non_negated
+    assert _first_non_negated(r'free to leave','she is free to leave only if she pays off his debt') is None
+
+
+def test_maternal_absolute_modal_hypothetical_is_not_completed_release():
+    from studio.maternal_sovereignty_integrity import _first_non_negated
+    pattern=r'signs? (?:the )?divorce papers'
+    assert _first_non_negated(pattern,'he would absolutely not hesitate to sign the divorce papers, but leaves them unsigned') is None
