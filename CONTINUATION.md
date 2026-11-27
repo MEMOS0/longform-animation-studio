@@ -603,3 +603,11 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - Next: implement family-favoritism exit validator, then analyze `Gx7nwqNr9YY` or refresh breakout scan.
 - Follow-up completed in same checkpoint: `family_exit_integrity.py` is now integrated into `evaluate_project`; tests 149 passed at commit `67a79773`.
 
+
+## 2026-11-27 pre-rotation checkpoint
+
+- `Gx7nwqNr9YY` downloaded locally: MythicTwist vertical werewolf/alpha hidden-identity romance, 70:13, about 510k views at collection, roughly 9.2k subscribers. Subtitles analyzed but full media-analysis report not yet written.
+- Key transcript structure: substitute marriage into werewolf family; “broken” husband disguised as adorable dog; care/cuddling creates hidden-identity intimacy risk; family exploits heroine financially/socially; political usurpation and forced marriage dissolution; rescue/reveal; ending includes apology, free choice, restored estate, proportional justice, and explicit re-choice (“This time it's my choice”).
+- Important doctrine candidate: animal-guise intimacy is a consent/trust wound, not cute deception; repair requires truth, no forced stay, restoration of agency/property, accountability for coercive actors, and explicit re-choice.
+- Review round fixed/triaged at `58ccb153`: family validator scope/title evidence/structured finale, blocks-him rejection detection. Tests 153 passed before commit.
+- Next action after context rotation: run media analysis for `Gx7nwqNr9YY`, inspect contact sheets, write report, integrate animal-guise consent validator or extend hidden/creature validators.
