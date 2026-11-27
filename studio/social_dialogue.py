@@ -45,7 +45,7 @@ def social_test_dialogue_materials(premise: dict[str, Any], index: int) -> dict[
         ["Your floor is below. Guests eat above.", "Then my plate goes down there too.", "Don't make yourself small because they're watching."],
         ["I don't have charity. I have work no one else will finish.", "Pay me when the work holds, not before.", "I asked for a bench, not a hiding place."],
         ["A license proves you know who owns it.", "Test the work. Don't measure my bloodline.", "The proof answers before I do."],
-        ["Her repair held through the morning rush. I watched it.", "Give me one minute before you invent a thief.", f"The {proof_one} doesn't match their story."],
+        ["Her repair held through the morning rush. I watched it.", "Give me one minute before you bury the evidence.", f"The {proof_one} doesn't match their story."],
         ["A bench bought with a lie isn't mine.", "Show the lock my hands opened.", f"The {proof_two} was already outside their control."],
         ["Carry the copy. The original stays with me.", "Fast hands can bury truth as easily as carry it.", "Lies fail when they have to answer every angle."],
         ["Return the name you erased first.", "Repair isn't a favor.", "I heard what was said when the doors were closed."],
@@ -72,9 +72,9 @@ def social_test_dialogue_materials(premise: dict[str, Any], index: int) -> dict[
             (witness, f"The {proof_one} answers before she does.", f"{witness} notices the first material contradiction"),
         ],
         [
-            (authority, "This failure carries your mark. Convenient, isn't it?", f"{authority} displays the accusation before the evidence is examined"),
+            (authority, "We don't have time for experiments. Shut the bench down.", f"{authority} displays the accusation before the evidence is examined"),
             (witness, "Her repair held through the morning rush. I watched it myself.", f"{witness} speaks from direct use, not loyalty"),
-            (protagonist, "Give me one minute before you invent a thief.", f"{protagonist} reaches for the bench/control rather than pleading"),
+            (protagonist, "Give me one minute before you bury the evidence.", f"{protagonist} reaches for the bench/control rather than pleading"),
             (witness, f"The {proof_one} doesn't match the time they wrote down.", f"{witness} exposes the first crack in the official sequence"),
         ],
         [
@@ -153,6 +153,16 @@ def social_test_dialogue_materials(premise: dict[str, Any], index: int) -> dict[
             "chosen presence in the former shame-space proves the status order has actually changed",
         ],
     ][index - 1]
+
+    if "mute" in child_ally.lower():
+        signal_lines = {
+            "Then my plate goes down there too.": "[signals with the plate: down here]",
+            "You shared yours before anyone told you to.": "[points from shared bread to heart]",
+            "She helped before she knew anyone was watching.": "[points to her hands, then shakes his head at the crowd]",
+            "I heard what was said when the doors were closed.": "[repeats the lamp signal: short, short, long]",
+            "Then I'll sit here because I want to—not because you allow it.": "[sits beside her and points to the open seats]",
+        }
+        exchanges = [(speaker, signal_lines.get(line, line), action) for speaker, line, action in exchanges]
 
     beat_names = ["external_pressure", "witness_objection", "protagonist_decision", "evidence_or_cost"]
     craft_by_beat = {
