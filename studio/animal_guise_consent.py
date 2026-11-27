@@ -19,21 +19,43 @@ def _text(value: Any) -> str:
     return ""
 
 
+def _first_pos(pattern: str, text: str) -> int | None:
+    match = re.search(pattern, text)
+    return match.start() if match else None
+
+
 def evaluate_animal_guise_consent(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    applies = bool(re.search(r"animal guise|wolf form|werewolf|alpha king|adog|dog.*husband|husband.*dog|shapeshift|mate|luna", full))
+    animal_terms = bool(re.search(r"\banimal guise\b|\bwolf form\b|\bwerewolf\b|\balpha king\b|\badog\b|\bdog\b|\bshapeshift(?:er|s|ing)?\b|\bluna\b", full))
+    hidden_partner_terms = bool(re.search(r"\bhusband\b|\bmate\b|\bromance\b|\bbride\b|\bmarriage\b|\bmarry\b", full))
+    applies = bool(re.search(r"animal guise|wolf form|husband.*dog|dog.*husband", full)) or (animal_terms and hidden_partner_terms)
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
+
+    reveal_positions = [
+        pos for pos in [
+            _first_pos(r"\breveal(?:s|ed)?\b", full),
+            _first_pos(r"truth", full),
+            _first_pos(r"hate being lied", full),
+            _first_pos(r"from the very first day", full),
+            _first_pos(r"turns? back into", full),
+        ] if pos is not None
+    ]
+    reveal_pos = min(reveal_positions) if reveal_positions else len(full) // 2
+    pre_reveal = full[:reveal_pos]
+    post_reveal = full[reveal_pos:]
+
+    restitution_object = r"estate|deeds|orchard|mother.?s house|gold|rent ledgers|inheritance|property"
     checks = {
         "protagonist_has_preexisting_agency": bool(re.search(r"conditions|inheritance|deeds|gold|taking what.*mine|choose my own life|bastard|no say", full)),
-        "care_before_reveal": bool(re.search(r"care|bandage|teach|button|protect|good boy|look after|feed|dance", full)),
-        "deception_named_as_trust_wound": bool(re.search(r"hate being lied|liar|lied to you|don't know what to believe|trust|deceiv|faking", full)),
-        "post_reveal_spatial_boundary": bool(re.search(r"separate rooms|not sharing a bed|don't touch|stay right there|leaving|sleeping in separate", full)),
-        "animal_form_manipulation_named": bool(re.search(r"used? (?:that|the) form|turn into him|make me forgive|destroyed|lowest|manipulat", full)) or not bool(re.search(r"cuddl|bed|sex dream|intimate|kiss", full)),
-        "material_agency_restored": bool(re.search(r"estate|deeds|orchard|mother.?s house|gold|rent ledgers|recovered it all|take it wherever", full)),
-        "free_exit_no_force": bool(re.search(r"stay or leave|won't force|will not force|free to leave|choice|ask you myself|no one asked you", full[-3500:])),
-        "explicit_rechoice_after_truth": bool(re.search(r"my choice|choose me|will you|choose each other|share responsibility|stand beside me", full[-2500:])),
-        "coercive_actors_accountable": bool(re.search(r"guilty|sentenced|prison|arrest|kidnapping|forcing her|consensual|accountab", full)),
+        "care_before_reveal": bool(re.search(r"care|bandage|teach|button|protect|good boy|look after|feed|dance", pre_reveal)),
+        "deception_named_as_trust_wound": bool(re.search(r"hate being lied|liar|lied to you|don't know what to believe|trust|deceiv|faking", post_reveal)),
+        "post_reveal_spatial_boundary": bool(re.search(r"separate rooms|not sharing a bed|don't touch|stay right there|leaving|sleeping in separate", post_reveal)),
+        "animal_form_manipulation_named": bool(re.search(r"used? (?:that|the) form|turn into him|make me forgive|destroyed|lowest|manipulat", post_reveal)) or not bool(re.search(r"cuddl|bed|sex dream|intimate|kiss", pre_reveal)),
+        "material_agency_restored": bool(re.search(rf"(?:return|restore|recover|give back|hand back).{{0,100}}(?:{restitution_object})|(?:{restitution_object}).{{0,100}}(?:returned|restored|recovered|given back|handed back)", post_reveal)),
+        "free_exit_no_force": bool(re.search(r"stay or leave|won't force|will not force|free to leave|choice|ask you myself|no one asked you", post_reveal)),
+        "explicit_rechoice_after_truth": bool(re.search(r"my choice|choose me|will you|choose each other|share responsibility|stand beside me", post_reveal)),
+        "coercive_actors_accountable": bool(re.search(r"found guilty|sentenced|imprisoned|arrested|held accountable|stripped of|banished|executed", post_reveal)),
     }
     labels = {
         "protagonist_has_preexisting_agency": "heroine lacks agency/material claims before the animal-guise romance begins",

@@ -1528,3 +1528,32 @@ def test_family_exit_schema_closure_fields_count():
     premise={"title_candidates":["Left Without Saying Goodbye"],"logline":"family favoritism dowry hospital","meaning_carrier":{"final_sequence_use":"mother says I was wrong and regret; bounded if we have time; she feels nothing and no longer needs forgiveness"},"relational_contract":{"consent_or_personhood_repair":"boundary if we have time not punishment"}}
     result=evaluate_family_exit_integrity(premise,{},[])
     assert result['checks']['repair_not_objects_only']
+
+
+def test_animal_guise_does_not_apply_to_mate_substrings_or_ferry_roles():
+    from studio.animal_guise_consent import evaluate_animal_guise_consent
+    result=evaluate_animal_guise_consent({"logline":"an animated ferry mate is materially challenged"}, {}, [])
+    assert not result['applies']
+
+
+def test_animal_guise_requires_care_before_reveal_not_after():
+    from studio.animal_guise_consent import evaluate_animal_guise_consent
+    premise={"logline":"werewolf husband romance. reveal truth."}
+    arch={"sequences":[{"turn":"after reveal she cares feeds and protects him"}]}
+    result=evaluate_animal_guise_consent(premise,arch,[])
+    assert not result['checks']['care_before_reveal']
+
+
+def test_animal_guise_rejects_unrepaired_deeds_and_kidnapping_mentions():
+    from studio.animal_guise_consent import evaluate_animal_guise_consent
+    premise={"logline":"werewolf husband romance truth reveal. stolen deeds and kidnapping are mentioned, but nobody is punished"}
+    result=evaluate_animal_guise_consent(premise,{},[])
+    assert not result['checks']['material_agency_restored']
+    assert not result['checks']['coercive_actors_accountable']
+
+
+def test_animal_guise_pre_reveal_proposal_is_not_informed_rechoice():
+    from studio.animal_guise_consent import evaluate_animal_guise_consent
+    premise={"logline":"werewolf husband romance. will you be my mate and it is my choice. later truth reveal exposes him"}
+    result=evaluate_animal_guise_consent(premise,{},[])
+    assert not result['checks']['explicit_rechoice_after_truth']
