@@ -4244,3 +4244,22 @@ def test_evidentiary_withdrawal_ignores_sports_berth_but_accepts_ship_berth():
     assert sports['applies'] is False
     ship = evaluate_evidentiary_withdrawal_integrity({'logline':'Reborn after forged evidence on a ship, she loses the disputed crew berth and withdraws.'},{'sequences':[{'summary':'The captain controls the cabin assignment.'}]},[])
     assert ship['applies'] is True
+def test_labor_romance_power_balance_positive_and_non_applicable():
+    from studio.labor_romance_power_balance_integrity import evaluate_labor_romance_power_balance_integrity
+    premise={'logline':'A debt-burdened woman disguises herself as a male assistant for a billionaire heir because only male applicants are hired, then falls in love.'}
+    architecture={'sequences':[{'summary':'She needs the job to pay the loan. The gauze, shared room, hospital privacy and uniform make concealment costly. He says he does not own you and she says you do not get to decide. A kiss without asking is named as a violation, followed by apology, permission and repair. Handmade gifts, cooked meals, schedule help and time together matter before money. A rich rival says quit and I will hire you, testing autonomy. She takes responsibility: she lied to get the job but earned her pay and was not after your money. At the end they end the contract with no penalty, create a separate repayment plan, she takes a part-time job, and romance continues outside employment.'}]}
+    result=evaluate_labor_romance_power_balance_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.85
+    ordinary=evaluate_labor_romance_power_balance_integrity({'logline':'A dragon smith rebuilds a village.'},{},[])
+    assert ordinary['applies'] is False
+
+
+def test_labor_romance_power_balance_warns_when_romance_stays_dependency():
+    from studio.labor_romance_power_balance_integrity import evaluate_labor_romance_power_balance_integrity
+    premise={'logline':'A poor maid in debt secretly falls in love with her billionaire boss.'}
+    architecture={'sequences':[{'summary':'He controls her time and she remains his employee and debtor as they become a couple.'}]}
+    result=evaluate_labor_romance_power_balance_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['checks']['ending_separates_romance_from_employment_debt'] is False
+    assert any('dependency' in w for w in result['warnings'])

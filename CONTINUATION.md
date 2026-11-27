@@ -290,3 +290,14 @@ Immediate next work:
 2. Handle any new PR #7 Devin Review findings immediately.
 3. Continue queue with `zXZuLkLeBTk`, `YdN5ESTxUNc`, and `6JGkPoF7gKE`.
 
+
+## 2026-11-27 late checkpoint — StarKiss concealed-labor romance
+
+Completed after PR review interruption:
+
+- StarKiss hit `zXZuLkLeBTk` versus low comparator `NC5484vIt4o` now has timestamped hit/low comparison in `knowledge/market/starkiss-concealed-labor-romance-hit-low-comparison.md`.
+- New validator `studio/labor_romance_power_balance_integrity.py` is integrated in production. Core doctrine: labor access under concealment must be economically necessary, employment cannot become ownership, consent violations require naming/repair, care is labor/time before wealth, and endings separate romance from employment/debt.
+- Skill, thumbnail intelligence, and fresh breakout queue were updated. 466 tests pass locally.
+- PR review round on `18b7fb4` is active/expected; handle any findings immediately before long-running analysis.
+
+Immediate next work: commit/push StarKiss integration and evidence, then continue `YdN5ESTxUNc` and `6JGkPoF7gKE` fresh low-subscriber breakout analysis. Do not treat alt/subagent output as trusted; verify directly.

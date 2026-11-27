@@ -123,3 +123,7 @@ Caution: Piped search is biased and several previous top leads were already anal
 ### NeoDrama checkpoint — `it3DAkGGrnk` elevated
 
 `it3DAkGGrnk` proved a novel mechanism: evidentiary withdrawal rebirth. The hit/low report is `knowledge/market/neodrama-evidentiary-withdrawal-hit-low-comparison.md`; machine-readable warnings are in `studio/evidentiary_withdrawal_integrity.py`. Key counterexample: low comparator `w8kMs_zxJZQ` is visually polished and structurally substantive, so its low public views must not be interpreted as weak-writing proof. Observable confounds include genre mismatch with NeoDrama's contemporary social-retaliation audience, serial compilation seams, and a major English ASR/audio-continuity rupture after roughly 44–45m. Continue with `zXZuLkLeBTk`, `YdN5ESTxUNc`, and `6JGkPoF7gKE` unless newer scan evidence supersedes them.
+
+## StarKiss checkpoint — concealed-labor romance integrated
+
+`zXZuLkLeBTk` and low hidden-power comparator `NC5484vIt4o` now have full media-derived evidence and a comparative doctrine in `knowledge/market/starkiss-concealed-labor-romance-hit-low-comparison.md`; `labor_romance_power_balance_integrity` is integrated. Treat this mechanism as solved enough for first-pass reuse. Continue with `YdN5ESTxUNc`, `6JGkPoF7gKE`, and newer low-subscriber non-creature leads rather than repeatedly re-analyzing StarKiss unless a newer same-channel counterexample emerges.

@@ -55,6 +55,7 @@ from .constructive_restoration_integrity import evaluate_constructive_restoratio
 from .dual_incognito_workplace_integrity import evaluate_dual_incognito_workplace_integrity
 from .adversarial_coparent_integrity import evaluate_adversarial_coparent_integrity
 from .evidentiary_withdrawal_integrity import evaluate_evidentiary_withdrawal_integrity
+from .labor_romance_power_balance_integrity import evaluate_labor_romance_power_balance_integrity
 from .visual_causality import evaluate_visual_causality
 from .hidden_identity_integrity import evaluate_hidden_identity_integrity
 from .scale_community_integrity import evaluate_scale_community_integrity
@@ -360,6 +361,7 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "dual_incognito_workplace_integrity": evaluate_dual_incognito_workplace_integrity(premise, architecture, scenes),
         "adversarial_coparent_integrity": evaluate_adversarial_coparent_integrity(premise, architecture, scenes),
         "evidentiary_withdrawal_integrity": evaluate_evidentiary_withdrawal_integrity(premise, architecture, scenes),
+        "labor_romance_power_balance_integrity": evaluate_labor_romance_power_balance_integrity(premise, architecture, scenes),
         "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes), "storyboards": len(boards)},
         "gates": gate_report(schema_errors, failure, scene_report, architecture_report, bool(architecture), bool(scenes), board_report),
     }
