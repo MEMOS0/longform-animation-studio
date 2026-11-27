@@ -17,6 +17,22 @@ def _first(pattern: str, text: str) -> int | None:
     return match.start() if match else None
 
 
+def _first_non_negated(pattern: str, text: str) -> int | None:
+    for match in re.finditer(pattern, text):
+        prefix = text[max(0, match.start() - 24):match.start()]
+        if not re.search(r"refus|without|withhold|never|not\s*$", prefix):
+            return match.start()
+    return None
+
+
+def _explicit_prerequisite_order(text: str, outcome_pattern: str, prerequisite_pattern: str) -> bool:
+    pattern = outcome_pattern + r"[^.!?]{0,60}(?:only )?after[^.!?]{0,90}" + prerequisite_pattern
+    for match in re.finditer(pattern, text):
+        if not re.search(r"refus|without|withhold|never|not", match.group(0)):
+            return True
+    return False
+
+
 def evaluate_maternal_sovereignty_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     """Warn when pregnancy/custody leverage, professional competence, or consent repair is decorative."""
     premise_text = _text(premise).lower()
@@ -47,12 +63,12 @@ def evaluate_maternal_sovereignty_integrity(premise: dict[str, Any], architectur
         "institutional_public_proof_carries_truth": bool(re.search(r"medical board|security footage|examination|report|evidence|board|investor|election|endorsement|hospital examination|public demonstration", flat)),
         "trust_failure_is_named_beyond_rival_exposure": bool(re.search(r"never trusted|never really wanted|problem is not just|trust failure|emotional abandonment|you did not trust", flat)),
         "male_repair_requires_material_cost_not_only_apology": bool(re.search(r"gives? up (?:the )?(?:campaign|election|power|throne)|abandons? (?:the )?(?:campaign|election)|material sacrifice|injur|loses? power|loses? wealth|sacrifices? (?:his )?(?:career|position|title)", repair_window)),
-        "release_of_control_precedes_reunion": (lambda release_pos, reunion_pos: (release_pos is not None and reunion_pos is not None and release_pos < reunion_pos) or bool(re.search(r"(?:remarriage|reunion|re-choice|marry(?:ing)? again)[^.!?]{0,60}(?:only )?after[^.!?]{0,90}(?:release[sd]? control|divorce papers|lets? go|free to leave)", chronology)))(
-            _first(r"signs? (?:the )?divorce papers|lets? go|release[sd]? control|free to leave|no obligation|she can refuse", chronology),
+        "release_of_control_precedes_reunion": (lambda release_pos, reunion_pos: (release_pos is not None and reunion_pos is not None and release_pos < reunion_pos) or _explicit_prerequisite_order(chronology, r"(?:remarriage|reunion|re-choice|marry(?:ing)? again)", r"(?:release[sd]? control|divorce papers|lets? go|free to leave)"))(
+            _first_non_negated(r"signs? (?:the )?divorce papers|lets? go|release[sd]? control|free to leave|no obligation|she can refuse", chronology),
             _first(r"says? yes|remarr|marry me again|reunit|reconcil", chronology),
         ),
-        "re_choice_is_informed_and_not_coerced": (lambda truth_pos, reunion_pos: ((truth_pos is not None and reunion_pos is not None and truth_pos < reunion_pos) or bool(re.search(r"(?:remarriage|reunion|re-choice|marry(?:ing)? again)[^.!?]{0,60}(?:only )?after[^.!?]{0,90}(?:disclosure|truth|learns? why|informed)", chronology))) and not re.search(r"force[sd]? her to (?:marry|return)|no choice but to remarry", repair_window))(
-            _first(r"truth is revealed|truth comes out|revealed|exposed|knows? (?:the )?(?:truth|reason)|learns? why|informed", chronology),
+        "re_choice_is_informed_and_not_coerced": (lambda truth_pos, reunion_pos: ((truth_pos is not None and reunion_pos is not None and truth_pos < reunion_pos) or _explicit_prerequisite_order(chronology, r"(?:remarriage|reunion|re-choice|marry(?:ing)? again)", r"(?:disclosure|truth|learns? why|informed)")) and not re.search(r"force[sd]? her to (?:marry|return)|no choice but to remarry", repair_window))(
+            _first_non_negated(r"truth is revealed|truth comes out|revealed|exposed|knows? (?:the )?(?:truth|reason)|learns? why|informed", chronology),
             _first(r"says? yes|remarr|marry me again|reunit|reconcil", chronology),
         ),
         "final_status_preserves_craft_and_sovereignty": bool(re.search(r"healer princess|professional|chief healer|strongest woman|sovereign|craft|first and only|chosen partner", repair_window)),
