@@ -1053,3 +1053,16 @@ def test_compressed_survival_integrity_passes_generated_contract():
     assert result['score_0_to_1'] >= 0.75
     assert result['checks']['predator_and_innocent_or_ally_are_differentiated'] is True
     assert result['checks']['escape_converts_to_reciprocal_rescue'] is True
+
+
+def test_seed_storyboard_does_not_repeat_sparse_dialogue_across_shots():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.storyboard_seed import build_seed_board
+    premise=generate_premises('compressed_creature_survival',1,18)[0]
+    scene=generate_scenes(premise,generate_architecture(premise))[2]
+    board=build_seed_board(scene)
+    lines=[shot.get('dialogue','') for shot in board['shots'] if shot.get('dialogue')]
+    assert len(lines)==len(set(lines))
+    assert lines.count("Easy. I won't hurt you.")<=1
