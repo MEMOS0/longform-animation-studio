@@ -301,3 +301,16 @@ Completed after PR review interruption:
 - PR review round on `18b7fb4` is active/expected; handle any findings immediately before long-running analysis.
 
 Immediate next work: commit/push StarKiss integration and evidence, then continue `YdN5ESTxUNc` and `6JGkPoF7gKE` fresh low-subscriber breakout analysis. Do not treat alt/subagent output as trusted; verify directly.
+
+## 2026-11-27 final pre-rotation checkpoint — Zephyr/Dragonveil
+
+Completed:
+
+- StarKiss integration is pushed in `91b4285`; labor-romance review findings fixed/triaged in `609b8b4`; 467 tests passed before the fix commit.
+- Zephyr hit `YdN5ESTxUNc` and same-age/same-length low `3Kb6hBUwq0o` are fully downloaded, machine-analyzed, subtitle-mined, thumbnail-archived, and visually sampled.
+- Dragonveil hit `6JGkPoF7gKE` and sequel low `Fmc1I4MhL5U` are fully downloaded, machine-analyzed, thumbnail-archived, and visually sampled; neither exposes subtitles.
+- Comparative report: `knowledge/market/zephyr-dragonveil-fresh-fantasy-breakout-comparison.md`.
+- Doctrine: inverse self-estimated mastery, institutional hypocrisy, care-proportional spectacle; Dragonveil near-wordless creature-care spine.
+- Review round on `609b8b4` may return findings; handle immediately before further analysis.
+
+Immediate next work: commit/push Zephyr/Dragonveil evidence and documentation, then continue scanning newer low-subscriber non-creature breakout leads. Do not use subagents or trust their output.

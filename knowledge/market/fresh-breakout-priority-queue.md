@@ -127,3 +127,7 @@ Caution: Piped search is biased and several previous top leads were already anal
 ## StarKiss checkpoint — concealed-labor romance integrated
 
 `zXZuLkLeBTk` and low hidden-power comparator `NC5484vIt4o` now have full media-derived evidence and a comparative doctrine in `knowledge/market/starkiss-concealed-labor-romance-hit-low-comparison.md`; `labor_romance_power_balance_integrity` is integrated. Treat this mechanism as solved enough for first-pass reuse. Continue with `YdN5ESTxUNc`, `6JGkPoF7gKE`, and newer low-subscriber non-creature leads rather than repeatedly re-analyzing StarKiss unless a newer same-channel counterexample emerges.
+
+## Zephyr/Dragonveil checkpoint — fantasy breakout pair integrated
+
+`YdN5ESTxUNc`/`3Kb6hBUwq0o` and `6JGkPoF7gKE`/`Fmc1I4MhL5U` now have archived hit/low evidence in `knowledge/market/zephyr-dragonveil-fresh-fantasy-breakout-comparison.md`. The key novel doctrine is inverse self-estimated mastery plus care-proportional spectacle. Do not treat low Zephyr/Dragonveil comparators as weak-writing proof: both are polished; use them as structural counterexamples. Continue scanning newer low-subscriber non-creature leads.

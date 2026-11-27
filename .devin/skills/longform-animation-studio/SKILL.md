@@ -586,3 +586,11 @@ Use `knowledge/market/neodrama-evidentiary-withdrawal-hit-low-comparison.md` for
 ## Concealed-labor romance power repair doctrine
 
 Use `knowledge/market/starkiss-concealed-labor-romance-hit-low-comparison.md` before inventing assistant/maid/apprentice/crew romances. The transferable hit mechanism is not “billionaire falls for maid”; it is economic necessity entering exclusionary labor, concealment with bodily/privacy cost, the employer learning that labor is not ownership, consent pressure being named and repaired, care through labor/time before wealth, and an ending that separates romance from employment/debt. Evaluate with `studio/labor_romance_power_balance_integrity.py`. Do not infer causality from the polished hidden-CEO low comparator: its observational warning is betrayal-humiliation repetition plus delayed status reversal, not proof that low views mean weak writing.
+
+## Inverse self-estimated mastery doctrine
+
+Use `knowledge/market/zephyr-dragonveil-fresh-fantasy-breakout-comparison.md` for hidden-mastery academy/fantasy competence stories. The Zephyr hit mechanism is not generic hidden power: the protagonist's own self-estimate is inverted by her upbringing, her dream is healing/protection rather than domination, institutions reveal hypocrisy through measurable trials and rule changes, spectacle protects community, and the ending chooses autonomy/care over conferred status. The low comparator is polished and must not be treated as weak-writing proof; its observable warning is diffuse authority-authentication and arranged-marriage consent thinness. Existing competence-cascade validators remain the first machine gate; this doctrine guides their interpretation.
+
+## Near-wordless creature-care myth doctrine
+
+Dragonveil reinforces that horizontal cinematic creature stories can work through visual care/growth/ordinary contact without exposed dialogue. Preserve the small-vulnerable-life care spine through battle escalation; war machinery and creature scale do not substitute for relational clarity.

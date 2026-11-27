@@ -1,0 +1,32 @@
+{
+  "video_id": "Fmc1I4MhL5U",
+  "probe": {
+    "duration": 1367.307029,
+    "size": 67572591,
+    "width": 640,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "C:\\Users\\Administrator\\repos\\longform-animation-studio\\evidence\\media\\Fmc1I4MhL5U\\contact_sheets\\contact_000.jpg",
+    "C:\\Users\\Administrator\\repos\\longform-animation-studio\\evidence\\media\\Fmc1I4MhL5U\\contact_sheets\\contact_001.jpg",
+    "C:\\Users\\Administrator\\repos\\longform-animation-studio\\evidence\\media\\Fmc1I4MhL5U\\contact_sheets\\contact_002.jpg",
+    "C:\\Users\\Administrator\\repos\\longform-animation-studio\\evidence\\media\\Fmc1I4MhL5U\\contact_sheets\\contact_003.jpg"
+  ],
+  "seconds_indexed": 1367,
+  "shot_count": 42,
+  "shot_length_mean_seconds": 32.54761904761905,
+  "shot_length_median_seconds": 20.0,
+  "shot_length_p90_seconds": 60.9,
+  "visual_motion_mean": 0.08904111686791731,
+  "visual_brightness_mean": 0.27225848018847837,
+  "dialogue_cues": 0,
+  "narrative_markers": {
+    "first_conflict_language": null,
+    "first_power_or_identity_language": null,
+    "first_care_or_belonging_language": null,
+    "dialogue_words_per_minute": [],
+    "cue_count": 0
+  }
+}
