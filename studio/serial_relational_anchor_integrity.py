@@ -34,7 +34,7 @@ def evaluate_serial_relational_anchor_integrity(premise: dict[str, Any], archite
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     declared_format = " ".join(str(premise.get(key, "")) for key in ("release_format", "format_class", "format")).lower().replace("_", " ")
     declared_serial = bool(re.search(r"\b(?:season|episode|chapter|serial|series)\b", declared_format))
-    textual_serial = bool(re.search(r"\b(?:season\s*\d+|episode\s*\d+|chapter\s*\d+|serial(?:ized)?\b|web series\b|series\b(?!\s+of\b))", full))
+    textual_serial = bool(re.search(r"\b(?:season\s*\d+|episode\s*\d+|chapter\s*\d+|episodes?\b|serial(?:ized)?\b|web series\b|series\b(?!\s+of\b))", full))
     serial = declared_serial or textual_serial
     action_world = bool(re.search(r"assassin|spy|agent|mission|crime|organization|mafia|underworld|mercenary|thriller", full))
     if not (serial and action_world):
@@ -54,7 +54,7 @@ def evaluate_serial_relational_anchor_integrity(premise: dict[str, Any], archite
                 ending_extra.append(architecture[key])
     ending_text = (_narrative_text(final_units) + "\n" + _text(ending_extra)).lower()
 
-    relational = re.compile(r"\b(?:friend|friends|friendship|family|sister|brother|daughter|son|sons|mother|father|mentor|lover|bond|promise|home)\b")
+    relational = re.compile(r"\b(?:friend|friends|friendship|family|sister|sisters|brother|brothers|daughter|daughters|son|sons|mother|mothers|father|fathers|mentor|mentors|lover|lovers|bond|promise|home)\b")
     attachment_threat = re.compile(r"hostage|abduct|kidnap|bait|blackmail|manipulat|threaten|target|kill .*(?:friend|family|sister|brother|daughter|son|mother|father|lover)|loose end")
     third = max(1, len(full) // 3)
     relational_positions = [match.start() for match in relational.finditer(full)]
