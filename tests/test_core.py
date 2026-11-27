@@ -1571,3 +1571,39 @@ def test_creature_power_inversion_flags_spectacle_only():
     from studio.creature_power_inversion import evaluate_creature_power_inversion
     r=evaluate_creature_power_inversion({"logline":"a frost dragon fights in a big fantasy battle"}, {}, [])
     assert r['applies'] and r['score_0_to_1']<0.5
+
+
+def test_creature_inversion_does_not_apply_to_human_fear_freeze():
+    from studio.creature_power_inversion import evaluate_creature_power_inversion
+    r=evaluate_creature_power_inversion({"logline":"survival heroine freezes in fear beside a train"}, {}, [])
+    assert not r['applies']
+
+
+def test_creature_inversion_requires_care_and_stakes_before_power():
+    from studio.creature_power_inversion import evaluate_creature_power_inversion
+    premise={"logline":"dragon uses frost fire protective power. later she feeds him and winter cold poverty appears"}
+    r=evaluate_creature_power_inversion(premise,{},[])
+    assert not r['checks']['care_costs_before_power']
+    assert not r['checks']['material_survival_stakes_before_spectacle']
+
+
+def test_creature_inversion_requires_inverted_power_protection():
+    from studio.creature_power_inversion import evaluate_creature_power_inversion
+    premise={"logline":"dragon fire frost inversion. keeper rescues dragon but dragon uses frost to harm villagers"}
+    r=evaluate_creature_power_inversion(premise,{},[])
+    assert not r['checks']['inverted_power_protects']
+
+
+def test_creature_inversion_short_opening_not_counted_as_closure():
+    from studio.creature_power_inversion import evaluate_creature_power_inversion
+    premise={"logline":"dragon frost fire inversion in village; opening contact touch recognition"}
+    r=evaluate_creature_power_inversion(premise,{},[])
+    assert not r['checks']['recognition_contact_closure']
+    assert not r['checks']['communal_consequence']
+
+
+def test_animal_guise_recipient_split_restitution_counts():
+    from studio.animal_guise_consent import evaluate_animal_guise_consent
+    premise={"logline":"werewolf husband romance truth reveal. he gives her back the deeds"}
+    r=evaluate_animal_guise_consent(premise,{},[])
+    assert r['checks']['material_agency_restored']
