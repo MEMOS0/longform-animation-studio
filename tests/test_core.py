@@ -2617,3 +2617,9 @@ def test_object_testimony_rejects_refusal_to_verify():
     assert r["checks"]["object_testimony_is_limited_not_omniscient"] is False
     assert r["checks"]["magic_produces_leads_not_verdicts"] is False
     assert r["checks"]["verification_is_procedural"] is False
+
+
+def test_object_testimony_named_artifact_voice_applies():
+    from studio.object_testimony_integrity import evaluate_object_testimony_integrity
+    premise={"title":"Museum Watch","logline":"A museum appraiser hears a stolen watch speak; its testimony concerns provenance and restoration."}
+    assert evaluate_object_testimony_integrity(premise,{"sequences":[]},[])["applies"] is True

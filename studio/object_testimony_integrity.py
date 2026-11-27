@@ -34,7 +34,7 @@ def evaluate_object_testimony_integrity(premise: dict[str, Any], architecture: d
     ending = ending_source[-max(1, len(ending_source) // 3):] if ending_source else ""
 
     object_terms = bool(re.search(r"relic|artifact|antique|mirror|clock|watch|jewel|stone|museum object|golden eye", full))
-    object_voice = bool(re.search(r"objects? (?:speak|talk|remember|whisper|warn|ask|beg)|relics? (?:speak|talk|remember|whisper|warn|ask|beg)|hear(?:s|ing)? (?:the )?(?:objects?|relics?)|whispering relics|golden eye", full))
+    object_voice = bool(re.search(r"(?:objects?|relics?|artifacts?|antiques?|mirrors?|clocks?|watches?|jewels?|stones?) (?:speak|talk|remember|whisper|warn|ask|beg)|hear(?:s|ing)?(?:\s+\w+){0,5}\s+(?:objects?|relics?|artifacts?|antiques?|mirrors?|clocks?|watches?|jewels?|stones?) (?:speak|talk|remember|whisper)|whispering relics|golden eye", full))
     objects_speak = object_terms and object_voice
     testimony = bool(re.search(r"voice|whisper|speak|remember|testimony|history|memory|says|tells? (?:her|him|them)", full))
     provenance = bool(re.search(r"provenance|authentic|fake|apprais|artifact|relic|antique|museum|cultural|auction|restoration|stolen", full))
