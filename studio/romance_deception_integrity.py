@@ -31,7 +31,7 @@ def evaluate_romance_deception_integrity(premise: dict[str, Any], architecture: 
 
     minor_risk = bool(re.search(r"\b(?:1[1-7]|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|minor|underage|teenager|teen(?:age)?|sixth grader|fifth grade|child)\b", full))
     checks = {
-        "immediate_boundary_or_rejection": bool(re.search(r"reject|delete|end(?:s|ed)? the interaction|never meet|not a romance|too young|block(?:s|ed)? (?:the contact|the number|his number|her number|him online|her online)|block(?:s|ed)? (?:him|her)(?! (?:from|physically|the doorway|at the doorway))|cut(?:s)? off contact", full)),
+        "immediate_boundary_or_rejection": bool(re.search(r"reject|delete|end(?:s|ed)? the interaction|never meet|not a romance|too young|block(?:s|ed)? (?:the contact|the number|his number|her number|him online|her online)|block(?:s|ed)? (?:him|her) from (?:contacting|messaging|calling|reaching)|block(?:s|ed)? (?:him|her)(?! (?:from|physically|the doorway|at the doorway))|cut(?:s)? off contact", full)),
         "exploitation_safeguarding_audit": bool(re.search(r"sexual or inappropriate|inappropriate messages|ask(?:ed)? for money|safeguard|only played games|no romantic|no sexual", full)),
         "adult_accountability_for_minor": bool(re.search(r"parent|mother|father|brother|guardian|discipline|apologiz|phone (?:was )?(?:taken|removed|gone)|handle him|control your", full)),
         "consent_aware_physical_escalation": bool(re.search(r"no kissing|can i kiss|ask(?:s|ed)? (?:before|permission)|let go|boundar|consent|not negotiable", full)),
