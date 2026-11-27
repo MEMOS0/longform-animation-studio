@@ -2623,3 +2623,12 @@ def test_object_testimony_named_artifact_voice_applies():
     from studio.object_testimony_integrity import evaluate_object_testimony_integrity
     premise={"title":"Museum Watch","logline":"A museum appraiser hears a stolen watch speak; its testimony concerns provenance and restoration."}
     assert evaluate_object_testimony_integrity(premise,{"sequences":[]},[])["applies"] is True
+
+
+def test_object_testimony_independent_chemical_analysis_counts():
+    from studio.object_testimony_integrity import evaluate_object_testimony_integrity
+    premise={"title":"Museum Watch","logline":"A museum appraiser hears a stolen watch speak; its testimony concerns provenance and restoration."}
+    summary=("The watch only remembers fragments of memory and offers a hypothesis lead not proof. Independent chemical analysis confirms the account. Professional appraiser labor. Ownership control. Name stays refuse control. Museum cultural property recovered. Criminal black market exploit ability. Ending share future independent choose.")
+    r=evaluate_object_testimony_integrity(premise,{"sequences":[{"summary":summary}]},[])
+    assert r["checks"]["magic_produces_leads_not_verdicts"] is True
+    assert r["checks"]["verification_is_procedural"] is True
