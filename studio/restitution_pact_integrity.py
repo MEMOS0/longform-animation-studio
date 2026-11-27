@@ -37,14 +37,21 @@ def evaluate_restitution_pact_integrity(premise: dict[str, Any], architecture: d
 
     bodily_cost = bool(re.search(r"eyes?|sight|blind|vision|blood|heart|voice|hearing|memory|memories|body|life force|healing labor", flat))
     sacrifice = bool(re.search(r"sacrific|trade[sd]?|gave up|give up|offers?|price|cost|pact|bargain|in exchange", flat))
-    supernatural_contract = bool(re.search(r"pact|curse|demon|vow|oath|contract|magic bargain|rebound|restitution|restores? (?:her|his|their )?(?:eyes|sight|vision|voice|memory)", flat))
+    supernatural_contract = bool(re.search(r"pact|curse|demon|vow|oath|magic bargain|magical bargain|supernatural bargain|rebound|restitution|restores? (?:her|his|their )?(?:eyes|sight|vision|voice|memory)", flat))
     betrayal_or_extraction = bool(re.search(r"betray|unfaithful|cheat|false victim|frame[sd]?|took|drain|extract|cut out|steal|exploit|abandon", flat))
     applies = bodily_cost and sacrifice and supernatural_contract and betrayal_or_extraction
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
     vow_pos = _first(r"protect (?:her|him|them|you) forever|never let anyone hurt|swear|vow|oath|promise to protect", chronology)
-    betrayal_pos = _first(r"betray|unfaithful|cheat|chose not to turn around|abandon|false victim|frame[sd]?|took (?:her|his|their) blood|cut out", chronology)
+    betrayal_pattern = r"betray|unfaithful|cheat|chose not to turn around|abandon|false victim|frame[sd]?|took (?:her|his|their) blood|cut out"
+    betrayal_pos = None
+    for betrayal_match in re.finditer(betrayal_pattern, chronology):
+        prefix = chronology[max(0, betrayal_match.start() - 30):betrayal_match.start()]
+        if re.search(r"\b(?:if|when|whenever|unless)\b[^.!?]{0,30}$", prefix):
+            continue
+        betrayal_pos = betrayal_match.start()
+        break
     restitution_pos = _first(r"eyes? (?:are )?returned|sight returns?|restores? (?:her|his|their )?(?:eyes|sight|vision)|can see again|awakened|red eyes", chronology)
     reveal_pos = _first(r"they (?:find out|learn|discover)|he finds out|she finds out|publicly reveal|identity is revealed|truth is exposed", chronology)
     extraction_positions = [
