@@ -718,3 +718,11 @@ Completed since Golden Rose checkpoint:
 - Devin Review round on `42386cf` triaged; new review is running on `4d9bdd1`.
 
 Continue immediately with non-creature low-subscriber queue: `s-Zn2WhkkH8`, `wHWPGMPQ37Y`, `R14QjIS7O50`, `Z0kns4pvIH4`, `V5VfY1lfN2c`, `XM4OuWUlV_o`. Handle new review findings first if they arrive.
+
+## 2026-11-27 supernatural child-witness checkpoint
+
+- Latest pushed hidden-identity review fix before this evidence commit: `7b1eba5`; tests `239 passed`.
+- Frame Horizon `V5VfY1lfN2c` / Beyond the Night full local media was downloaded and analyzed with aligned subtitles, second metrics, 20 contact sheets, selected frames, and original thumbnail. Report: `knowledge/market/frame-horizon-beyond-night-supernatural-investigation-deep-dive.md`.
+- Key doctrine candidate: supernatural child memory works as evidence-pressure when care precedes knowledge, knowledge creates danger, skepticism/procedure validate clues, institutions resist, child exposure has cost, confession/moral truth pays off, and ending re-stabilizes ordinary parent-child safety.
+- Thumbnail counterexample: generic soldier/action packaging can outperform accurate supernatural-family imagery; do not infer causal CTR without private data.
+- Next: implement supernatural child-witness validator, update dialogue/packaging doctrine, then continue queue `s-Zn2WhkkH8`, `wHWPGMPQ37Y`, `R14QjIS7O50`, `Z0kns4pvIH4`, `XM4OuWUlV_o`. Handle any new PR #4 review findings first.
