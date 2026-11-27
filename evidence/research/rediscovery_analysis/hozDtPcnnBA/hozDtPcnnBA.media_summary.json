@@ -1,0 +1,80 @@
+{
+  "video_id": "hozDtPcnnBA",
+  "probe": {
+    "duration": 2103.565351,
+    "size": 176158420,
+    "width": 640,
+    "height": 360,
+    "fps": "24/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\research\\rediscovery_analysis\\hozDtPcnnBA\\contact_sheets\\contact_000.jpg",
+    "evidence\\research\\rediscovery_analysis\\hozDtPcnnBA\\contact_sheets\\contact_001.jpg",
+    "evidence\\research\\rediscovery_analysis\\hozDtPcnnBA\\contact_sheets\\contact_002.jpg",
+    "evidence\\research\\rediscovery_analysis\\hozDtPcnnBA\\contact_sheets\\contact_003.jpg",
+    "evidence\\research\\rediscovery_analysis\\hozDtPcnnBA\\contact_sheets\\contact_004.jpg",
+    "evidence\\research\\rediscovery_analysis\\hozDtPcnnBA\\contact_sheets\\contact_005.jpg"
+  ],
+  "seconds_indexed": 2104,
+  "shot_count": 65,
+  "shot_length_mean_seconds": 32.36923076923077,
+  "shot_length_median_seconds": 15.0,
+  "shot_length_p90_seconds": 86.6,
+  "visual_motion_mean": 0.10478286222225416,
+  "visual_brightness_mean": 0.3648628466497016,
+  "dialogue_cues": 992,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 324.16,
+      "text": "just humiliated me in front of the"
+    },
+    "first_power_or_identity_language": {
+      "time": 57.12,
+      "text": "to arrive looking ordinary."
+    },
+    "first_care_or_belonging_language": {
+      "time": 16.0,
+      "text": "At West Brbridge Crown, a family name"
+    },
+    "dialogue_words_per_minute": [
+      140,
+      139,
+      138,
+      158,
+      205,
+      187,
+      196,
+      204,
+      201,
+      220,
+      172,
+      184,
+      171,
+      202,
+      186,
+      215,
+      206,
+      171,
+      138,
+      135,
+      147,
+      118,
+      114,
+      123,
+      118,
+      141,
+      127,
+      124,
+      137,
+      115,
+      129,
+      133,
+      103,
+      117,
+      110,
+      13
+    ],
+    "cue_count": 992
+  }
+}

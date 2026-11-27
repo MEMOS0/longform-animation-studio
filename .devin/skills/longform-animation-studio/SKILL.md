@@ -398,15 +398,17 @@ When unsure, say what evidence would reduce uncertainty. Do not fake certainty.
 Use `knowledge/market/primefate-reborn-family-revenge-deep-dive.md` when designing modern family/business revenge or rebirth melodrama. Evidence-backed rules:
 
 - show exploitation through an economic object in the first 30 seconds and bodily sacrifice by the first two minutes when the premise promises injustice
-- introduce rebirth/time travel only after the injustice is emotionally legible, then attach it to a visible countdown or irreversible deadline
+- introduce rebirth/time travel only after the injustice is emotionally legible; attach it to a countdown, deadline, or an explicit early transformation contract (a flash-forward/narrated promise can anchor the contract even when the mechanism occurs later)
 - pay the revenge promise publicly within the first 20-25% of runtime while creating larger consequences
 - use proof asymmetry: real sacrifice can leave scars while manipulators produce cleaner documentation
 - repeat memory objects so love, betrayal, and revenge remain emotionally connected
 - validate protagonist competence through creditors, workers, institutions, or strangers rather than self-description alone
 - let the antagonist's own extractive choices produce evidence and collapse; the hero should not manufacture every consequence
-- when the wound is familial, end justice/revenge with cost-aware recognition or grief rather than automatic emotional restoration
+- when the wound is familial, end justice/revenge with a relational answer to the original wound; cost-aware grief is valid, but protective/home/belonging restoration is stronger wish fulfillment when the premise promises family reversal
 
 For vertical/mobile melodrama, faces, threshold exclusion, documents, costumes, and object exchanges can carry power shifts without constant spectacle. Title/thumbnail must name the same dramatic contract; do not package an underworld-executor story as a lost-husband romance unless that dual promise is intentional and legible.
+
+Hidden-identity romance/status stories should follow the Lioren breakout pattern: prove competence or kindness before the reveal, build love through ordinary non-status behavior, make hidden wealth protect people/institutions the audience cares about, treat the lie as a trust wound requiring apology, and end by subordinating wealth to family or chosen love. Compressed 30-40 minute films need a meaningful competence/status/relationship payoff every 3-5 minutes.
 
 
 ## Closure integrity

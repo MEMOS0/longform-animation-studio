@@ -449,3 +449,12 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - Skill now includes modern family revenge doctrine: concrete economic object + bodily sacrifice opening, rebirth after injustice, countdown engine, early public payoff, proof asymmetry, repeated memory objects, third-party competence proof, antagonist self-destruction, cost-aware familial ending, vertical/mobile power-legibility.
 - Latest commit: `1c9ddaa6e074f22b2e06033e59449cbc4a8eb357`.
 - Next highest-value work: compare PrimeFate hit `5UUh-vADVko` or low `dKQ9lMEaibw` directly against target; continue low-subscriber breakout scan; deepen machine enforcement of packaging-coherence and modern revenge doctrines.
+
+## 2026-11-27 PrimeFate hit comparison + Lioren breakout checkpoint
+
+- `5UUh-vADVko` and low-subscriber breakout `hozDtPcnnBA` were downloaded through the public Piped-compatible endpoint. Full media stays outside repo in `C:/Users/Administrator/evidence_tmp/`; derived contact sheets, transcripts, seconds/timeline metrics, summaries, metadata, and subtitles are committed.
+- New knowledge files: `knowledge/market/primefate-hit-target-comparison.md`, `knowledge/market/lioren-hidden-heir-breakout-deep-dive.md`, and `knowledge/market/lioren-thumbnail-breakout-analysis.md`.
+- Important doctrine correction: early transformation payoff means the contract must be emotionally legible early, not necessarily that the supernatural mechanism occurs early. PrimeFate hit anchors body-swap transformation in the opening but dramatizes it around minute 29-30. Faster rebirth in target did not outperform.
+- Major comparative finding: hit revenge story adds double contrast (abusive original family vs loving new family) and ends by answering the original abandonment wound with protective family belonging. Target's punishment+grief ending is weaker wish fulfillment.
+- Lioren hidden-heir breakout shows competence-before-reveal, ordinary love-before-wealth, prosocial institutional use of wealth, relational cost of lying, and family/chosen-love closure in a compressed 35-minute widescreen format.
+- Latest tests before checkpoint commit: 96 passed.

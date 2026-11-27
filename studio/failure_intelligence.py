@@ -46,7 +46,7 @@ DEFAULT_PATTERNS: list[dict[str, Any]] = [
         "evidence_strength": "hypothesis_requires_media_validation",
         "archive_signal": "Hidden identity correlates positively at title level, so its absence/presence alone cannot explain failure; execution likely matters.",
         "risk_logic": "A secret that only waits for a final reveal produces repetitive middle chapters.",
-        "mitigation": "Every act should change who almost discovers the secret, what it costs, and what new conflict the partial reveal creates.",
+        "mitigation": "Every act should change who almost discovers the secret, what it costs, and what new conflict the partial reveal creates. The Lioren breakout proves competence and love before status, then treats the lie itself as a trust wound requiring apology.",
     },
     {
         "id": "modern_power_arena_mismatch",
@@ -82,7 +82,7 @@ DEFAULT_PATTERNS: list[dict[str, Any]] = [
         "evidence_strength": "timestamped_casebook_observational",
         "archive_signal": "1UB6EA3L7I4 ends in banishment/royal jurisdiction and a dying apology; stronger hits end in home, family acceptance, celebration, marriage, or communal safety.",
         "risk_logic": "Revenge satisfaction alone does not repay long-form suffering unless the protagonist's original wound is emotionally answered.",
-        "mitigation": "After justice, explicitly dramatize what the protagonist gains: home, family, child safety, chosen love, public acceptance, or a transformed future.",
+        "mitigation": "After justice, explicitly dramatize what the protagonist gains: home, family, child safety, chosen love, public acceptance, or a transformed future. PrimeFate hit/target comparison suggests restored/protective belonging is stronger wish fulfillment than punishment plus unresolved grief when the opening wound is familial abandonment.",
     },
     {
         "id": "adult_betrayal_escalates_into_misery_spiral",
@@ -172,7 +172,7 @@ DEFAULT_PATTERNS: list[dict[str, Any]] = [
         "evidence_strength": "cross_channel_timestamped_observational",
         "archive_signal": "PrimeFate's strong TKfoKnpHpsw establishes file theft, medical sacrifice, and family misrecognition before rebirth, then converts the premise into a seven-day countdown, contracts, records, bank statements, memory objects, and public exposure within the first quarter.",
         "risk_logic": "Modern revenge becomes repetitive humiliation when the audience cannot measure time pressure or see how betrayal will be proven. The rebirth device alone does not create progression.",
-        "mitigation": "Give the rebirth a visible countdown or irreversible deadline; attach the injustice to contracts, files, scars, records, accounts, or repeated memory objects; schedule a public evidentiary payoff before the midpoint.",
+        "mitigation": "Give the rebirth a visible countdown or irreversible deadline; attach the injustice to contracts, files, scars, records, accounts, or repeated memory objects; make the transformation contract visible early and keep public/proof/status consequences escalating through the middle; do not withhold all evidentiary payoff until the finale.",
     },
 ]
 
