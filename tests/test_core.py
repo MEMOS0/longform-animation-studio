@@ -1770,3 +1770,31 @@ def test_fire_melts_ice_object_is_not_power_inversion():
     p={"logline":"a dragon breathes fire but instead melts ice rather than burning a town"}
     r=evaluate_creature_power_inversion(p,{},[])
     assert not r['applies']
+
+
+def test_child_power_obsolescence_full_chain_passes():
+    from studio.child_power_obsolescence import evaluate_child_power_obsolescence
+    p={"logline":"A child sees a countdown and saves a man before explaining her visions. He protects her before DNA proof. Lab records, sealed tests and hospital witnesses establish paternity. Her powers become unstable and then gone. He says you're my daughter not my bodyguard. In the end she is a normal child at home eating cake, and someone will come when she is afraid. Another weird kid appears."}
+    r=evaluate_child_power_obsolescence(p,{},[])
+    assert r['applies'] and r['score_0_to_1']==1.0
+
+
+def test_child_power_obsolescence_requires_family_context():
+    from studio.child_power_obsolescence import evaluate_child_power_obsolescence
+    r=evaluate_child_power_obsolescence({"logline":"a child has visions and super strength in a battle academy"},{},[])
+    assert not r['applies']
+
+
+def test_child_power_obsolescence_flags_power_never_tested_as_unnecessary():
+    from studio.child_power_obsolescence import evaluate_child_power_obsolescence
+    p={"logline":"a child sees a countdown and saves her father before explaining her visions. He protects her before DNA proof and lab records establish paternity. She investigates records and uses unstable powers. In the end the family is home."}
+    r=evaluate_child_power_obsolescence(p,{},[])
+    assert r['applies'] and not r['checks']['love_not_payment_for_power']
+
+
+def test_child_power_obsolescence_does_not_apply_to_creature_economic_child_ally():
+    import json
+    from studio.child_power_obsolescence import evaluate_child_power_obsolescence
+    p=json.load(open('examples/generated_creature_concepts/emberseed_oven_cart_premise.json',encoding='utf8'))
+    r=evaluate_child_power_obsolescence(p,{},[])
+    assert not r['applies']
