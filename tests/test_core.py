@@ -4397,3 +4397,30 @@ def test_cozy_shelter_epilogue_meal_event_order_and_keepsake_regressions():
 
     keepsake={'logline':'A daughter rescues letters from an empty storm-damaged home.'}
     assert evaluate_cozy_disaster_shelter_integrity(keepsake,{},[])['applies'] is False
+
+def test_capability_inversion_care_validator_positive_and_nonapplicable():
+    from studio.capability_inversion_care_integrity import evaluate_capability_inversion_care_integrity
+    premise={'logline':'A freakishly strong farm woman mocked as a freak is hired as bodyguard for a wheelchair CEO and falls in love.'}
+    architecture={'sequences':[
+        {'summary':'She cannot control her strength, causes damage, loses jobs, and returns to her parents farm where honest labor and pigs give her dignity.'},
+        {'summary':'The wealthy estate hires her to protect him. She refuses to treat him as only someone to be taken care of, gives him tools and practice choices, and learns city life while he learns farm labor and street food.'},
+        {'summary':'He cooks, plans, works, and confesses. When the job is done she considers leaving, but he asks permission and respects her choice. She keeps earning her own money and chooses to be his girlfriend.'},
+    ]}
+    result=evaluate_capability_inversion_care_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.75
+
+    plain={'logline':'A strong superhero saves a city.'}
+    assert evaluate_capability_inversion_care_integrity(plain,{},[])['applies'] is False
+
+def test_cozy_validator_irrigation_does_not_count_as_disaster_onset():
+    from studio.cozy_disaster_shelter_integrity import evaluate_cozy_disaster_shelter_integrity
+    premise={'logline':'A farming family shelters during a typhoon.'}
+    architecture={'sequences':[
+        {'summary':'Water rushes into the irrigation ditch before harvest while the family works the fields and gathers food.'},
+        {'summary':'A typhoon floods the shelter and the family survives by rationing food and drinking water.'},
+        {'summary':'After the storm they rebuild the house and share a warm meal.'},
+    ]}
+    result=evaluate_cozy_disaster_shelter_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['checks']['ordinary_labor_precedes_disaster'] is True
