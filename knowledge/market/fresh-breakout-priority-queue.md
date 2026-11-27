@@ -59,13 +59,13 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 - Why priority: very low subscriber base plus short runtime; useful comparison against 60–120m compilations and existing creature-family work.
 - Required caution: sequel numbering (`3`) may mean the breakout depends on prior series knowledge; analyze as serial continuation, not standalone proof.
 
-### 2. `dHdkaKb3_S8` — Lotus Crown Drama
+### 2. `dHdkaKb3_S8` — Lotus Crown Drama — completed 2026-11-27
 
 - Title: *My Alpha Cheated at Our Wedding, His Mom Told Me to Share, So I Chose the Elf King!*
-- Scale/performance: about 4.34k subscribers, 447,508 views in 8.5 days, about 52,582 views/day.
+- Scale/performance: about 4.38k subscribers, 453,802 views in 8.3 days, about 54k views/day.
 - Runtime/format: 94m werewolf/elf romantic betrayal.
-- Why priority: low-subscriber fantasy-romance betrayal with public humiliation and re-choice; useful comparison to animal-guise consent and revenge-autonomy doctrines.
-- Required caution: crowded werewolf/alpha field; extract only mechanisms not already covered by WUFO/MythicTwist cases.
+- Completed output: `knowledge/market/lotus-crown-alpha-fated-mate-elf-king-deep-dive.md` plus `evidence/media/dHdkaKb3_S8/`.
+- Extracted doctrine: anti-fate chosen-bond re-choice; public betrayal, sacrificial care collapse, consent-preserving alternative devotion, layered forensic exposure, institutional consequence.
 
 ### 4. `yA_UfmmVAG0` — Mini Series Drama
 
