@@ -801,3 +801,11 @@ Continue immediately with non-creature low-subscriber queue: `s-Zn2WhkkH8`, `wHW
 - Review job `pr-review-job-26e8aac775c94a39ad694caa53325995` fixed/triaged/end-triaged. Shared root fix hardened object-testimony language matching: recount/testify verbs, cancellation negation, word-bounded artifact speech, fragmentary recollection phrasing, and named watch personhood.
 - A newer review may be running on `f289471`; handle findings first if they arrive.
 - Next substantive work: cleanup stale fresh-breakout queue, dedupe candidates before download, continue low-subscriber/noncreature comparative analysis, then deepen professional dialogue integration.
+
+## 2026-11-27 rotate after fourth object-testimony review round
+
+- Latest pushed commit: `2401efc90d9ec333ce2ee5bd83b51a0353309bfa`.
+- Latest verified test baseline: 303 passed.
+- Review job `pr-review-job-05fab6f81e35443f99de0c1055edb4af` fixed/triaged/end-triaged. Fixes: third-person artifact speech recognized; coordinated clauses split at 'and' so unrelated cancellations do not negate valid corroboration; ambiguous non-speech 'reveal' no longer triggers object-testimony applicability.
+- A newer review may be running on `2401efc`; handle findings first if they arrive.
+- Next substantive work: cleanup stale fresh-breakout queue, dedupe candidates before download, continue low-subscriber/noncreature comparative analysis, then deepen professional dialogue integration.
