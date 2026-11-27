@@ -972,3 +972,10 @@ def test_creature_dialogue_performance_notes_follow_actual_speaker_role():
     assert pain_cost['speaker']=='land trust'
     assert 'commodification threat' in pain_cost['power_move']
     assert 'restrained' not in pain_cost['delivery']
+
+
+def test_media_analysis_removes_stale_contact_sheets_before_rerun():
+    import inspect
+    source=inspect.getsource(__import__('studio.media_analysis',fromlist=['sample_video_frames']).sample_video_frames)
+    assert 'stale_sheet.unlink()' in source
+    assert 'output_dir.glob("contact_*.jpg")' in source

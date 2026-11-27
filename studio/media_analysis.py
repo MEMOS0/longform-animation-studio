@@ -229,6 +229,8 @@ def sample_video_frames(video: Path, output_dir: Path, contact_every: int = 20, 
             shot_id += 1
         row["shot_id"] = shot_id
 
+    for stale_sheet in output_dir.glob("contact_*.jpg"):
+        stale_sheet.unlink()
     sheet_paths = []
     font = ImageFont.load_default()
     columns, rows_per_sheet = 4, 5
