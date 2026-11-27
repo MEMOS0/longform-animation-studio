@@ -4348,3 +4348,26 @@ def test_review_regressions_labor_consent_and_cozy_applicability():
 
     survival_only={'sequences':[{'summary':'They board the windows and endure. The storm passes and the film cuts to black.'}]}
     assert evaluate_cozy_disaster_shelter_integrity(late_labor_premise,survival_only,[])['checks']['resolution_rebuilds_or_restores_connection'] is False
+
+def test_cozy_shelter_ordered_opening_ending_and_rescue_regressions():
+    from studio.cozy_disaster_shelter_integrity import evaluate_cozy_disaster_shelter_integrity
+    premise={'logline':'A family survives a storm in their wooden home with food and water.'}
+
+    sequences={'sequences':[
+        {'summary':'The family tends grandmother and their dog in the village house.'},
+        {'summary':'They farm, harvest, cook, and prepare the upper floor.'},
+        {'summary':'The storm strikes, they protect the windows, rebuild the wall, and return home to a hopeful new beginning.'},
+    ]}
+    result=evaluate_cozy_disaster_shelter_integrity(premise,sequences,[])
+    assert result['checks']['ordinary_labor_establishes_world_before_disaster'] is True
+
+    midstorm_meal={'sequences':[
+        {'summary':'They prepare food and board the windows before the storm.'},
+        {'summary':'During the worst wind they share a meal under blankets.'},
+        {'summary':'They endure until the storm passes and the film cuts to black.'},
+    ]}
+    meal_result=evaluate_cozy_disaster_shelter_integrity(premise,midstorm_meal,[])
+    assert meal_result['checks']['resolution_rebuilds_or_restores_connection'] is False
+
+    rescue_only={'logline':'A family trapped upstairs in a flood is rescued from their home.'}
+    assert evaluate_cozy_disaster_shelter_integrity(rescue_only,{},[])['applies'] is True

@@ -25,18 +25,42 @@ def evaluate_cozy_disaster_shelter_integrity(premise: dict[str, Any], architectu
     disaster = bool(re.search(r"\b(?:typhoon|flood\w*|storm|blizzard|sandstorm|hurricane|wildfire|earthquake)\b", full))
     shelter = bool(re.search(r"\b(?:shelter|home|house|upstairs|fortress|cave|cottage|boat|cabin)\b", full))
     community = bool(re.search(r"\b(?:family|father|mother|grandmother|grandfather|child|son|daughter|village|community)\b", full))
-    survival = bool(re.search(r"\bsurviv\w*|\brising water\b|\bfood\b|\bwater\b|storm passes", full))
+    survival = bool(re.search(r"\bsurviv\w*|\brising water\b|\bfood\b|\bwater\b|storm passes|\brescue\w*", full))
     if not (disaster and shelter and community and survival):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
+    sequences = architecture.get("sequences") if isinstance(architecture, dict) else None
     if scenes:
-        opening_text = _text(scenes[0]).lower()
+        ordered_units = scenes
+    elif isinstance(sequences, list) and sequences:
+        ordered_units = sequences
     else:
-        sequences = architecture.get("sequences") if isinstance(architecture, dict) else None
-        opening_text = _text(sequences[0]).lower() if isinstance(sequences, list) and sequences else full[:max(1, len(full) // 4)]
-    ordinary = re.search(r"farm|harvest|cook|clean|repair|prepare|gather|chop|fetch|work(?:ing)? the fields|daily life", opening_text)
-    opening_disaster = re.search(r"\b(?:typhoon|flood\w*|storm|blizzard|sandstorm|hurricane|wildfire|earthquake)\b", opening_text)
-    ordinary_before_disaster = bool(ordinary and (not opening_disaster or ordinary.start() < opening_disaster.start()))
+        ordered_units = []
+    labor_pattern = re.compile(r"farm|harvest|cook|clean|repair|prepare|gather|chop|fetch|work(?:ing)? the fields|daily life")
+    disaster_pattern = re.compile(r"\b(?:typhoon|flood\w*|storm|blizzard|sandstorm|hurricane|wildfire|earthquake)\b")
+    if ordered_units:
+        cursor = 0
+        labor_positions = []
+        first_disaster_position = None
+        for unit in ordered_units:
+            unit_text = _text(unit).lower() + "\n"
+            labor_positions.extend(cursor + match.start() for match in labor_pattern.finditer(unit_text))
+            if first_disaster_position is None:
+                disaster_match = disaster_pattern.search(unit_text)
+                if disaster_match:
+                    first_disaster_position = cursor + disaster_match.start()
+            cursor += len(unit_text)
+        ordinary_before_disaster = bool(labor_positions and (first_disaster_position is None or min(labor_positions) < first_disaster_position))
+    else:
+        opening_text = full[:max(1, len(full) // 4)]
+        ordinary = labor_pattern.search(opening_text)
+        opening_disaster = disaster_pattern.search(opening_text)
+        ordinary_before_disaster = bool(ordinary and (not opening_disaster or ordinary.start() < opening_disaster.start()))
+
+    if ordered_units:
+        ending_text = _text(ordered_units[-1]).lower()
+    else:
+        ending_text = full[-max(1, len(full) // 4):]
 
     checks = {
         "ordinary_labor_establishes_world_before_disaster": ordinary_before_disaster,
@@ -48,7 +72,7 @@ def evaluate_cozy_disaster_shelter_integrity(premise: dict[str, Any], architectu
         "sacrifice_object_has_prior_meaning": bool(re.search(r"precious .*tray|wooden boat|copper .*tray|copper pot|sacrific|heirloom|handmade| treasured", full)),
         "quiet_care_beats_interrupt_threat": bool(re.search(r"warm meal|dinner|blanket|lantern|shared food|cooking|comfort|sleeping|small kindness|quiet moments", full)),
         "children_or_animals_are_participants_not_only_burdens": bool(re.search(r"young son|child .*help|girl .*help|boy .*help|dog|shiba|donkey|feed|comfort(?:s|ed)?", full)),
-        "resolution_rebuilds_or_restores_connection": bool(re.search(r"new beginning|rebuild|repair|return home|reunion|helps? .* home|shared meal|hopeful new", full[-5000:])),
+        "resolution_rebuilds_or_restores_connection": bool(re.search(r"new beginning|rebuild|repair|return home|reunion|helps? .* home|hopeful new", ending_text)),
         "cultural_setting_is_specific_not_decorative": bool(re.search(r"1960|japanese|faroe|sahara|desert|village|riverside|farming|wooden house|copper|thatched|mud house|turf-roof", full)),
     }
     labels = {
