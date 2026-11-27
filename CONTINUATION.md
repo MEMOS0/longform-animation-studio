@@ -735,3 +735,12 @@ Continue immediately with non-creature low-subscriber queue: `s-Zn2WhkkH8`, `wHW
 - Completed Daily Drama Shorts `XM4OuWUlV_o` parentification-free attachment repair analysis and integrated `attachment_repair_integrity` gate.
 - New portable doctrines: supernatural knowledge as evidence-pressure; patronage requires dependency-aware consent/control transfer/free re-choice; child healing must not become child responsibility for curing parent.
 - Next: handle any new PR #4 review findings first. Then analyze remaining non-creature queue `s-Zn2WhkkH8`, `wHWPGMPQ37Y`, `R14QjIS7O50`; consider whether the first two are duplicate/repackaged versions of the same 86-minute lost-twins CEO film and document distribution/packaging differences if so.
+
+## 2026-11-27 duplicate hidden-identity checkpoint
+
+- Latest pushed commit before this checkpoint: `6734175`; tests were `257 passed` at the attachment-gate integration and no test-affecting code changed afterward.
+- Completed Daily Drama Shorts `XM4OuWUlV_o` parentification-free attachment repair analysis and integrated `attachment_repair_integrity` gate.
+- Determined `s-Zn2WhkkH8` and `wHWPGMPQ37Y` are the same underlying 86m06s drama `Strong Enough for Love`, not independent story replication: same duration, nearly identical file sizes, visually identical same-timestamp frames, matching opening/ending dialogue, different packaging/thumbnail/app-funnel presentation.
+- Completed canonical `s-Zn2WhkkH8` sampled full-runtime audiovisual deep dive. Core doctrine candidate: coerced hidden identity must end in free re-choice; money/property cannot erase coercion; partner-not-rescuer is stronger than forgiveness-through-wealth.
+- Next immediate work: implement/integrate coerced hidden-identity free-re-choice validator if evidence remains convincing after review triage; update skill/dialogue/thumbnail doctrine; then analyze `R14QjIS7O50` child-support/child-agent billionaire family drama.
+- Devin Review is running on commit `41eb361`/subsequent pushes; handle findings first when they arrive.
