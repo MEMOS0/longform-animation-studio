@@ -4424,3 +4424,41 @@ def test_cozy_validator_irrigation_does_not_count_as_disaster_onset():
     result=evaluate_cozy_disaster_shelter_integrity(premise,architecture,[])
     assert result['applies'] is True
     assert result['checks']['ordinary_labor_establishes_world_before_disaster'] is True
+
+def test_capability_validator_uses_architecture_ending_payoff():
+    from studio.capability_inversion_care_integrity import evaluate_capability_inversion_care_integrity
+    premise={'logline':'A freakishly strong woman mocked as a freak is hired as bodyguard for a wheelchair CEO.'}
+    architecture={
+      'sequences':[{'summary':'She protects him and helps him practice agency.'}],
+      'ending_payoff':'When the job is done, she chooses to become his girlfriend, keeps her own work, and he respects her choice.'
+    }
+    result=evaluate_capability_inversion_care_integrity(premise,architecture,[])
+    assert result['checks']['intimacy_is_renegotiated_beyond_the_job'] is True
+    assert result['checks']['ending_preserves_independent_livelihood_or_work_choice'] is True
+
+
+def test_capability_validator_rejects_generic_strength_disaster_story():
+    from studio.capability_inversion_care_integrity import evaluate_capability_inversion_care_integrity
+    premise={'logline':'After her husband dies of illness and a bridge breaks, a widow finds strength protecting her family during a disaster.'}
+    assert evaluate_capability_inversion_care_integrity(premise,{},[])['applies'] is False
+
+
+def test_capability_validator_forced_dependence_fails_ending_checks():
+    from studio.capability_inversion_care_integrity import evaluate_capability_inversion_care_integrity
+    premise={'logline':'A freakishly strong woman mocked as a freak is hired as bodyguard for a wheelchair CEO.'}
+    architecture={'sequences':[{'summary':'She protects him with care labor.'},{'summary':'She has no choice but to stay as his bodyguard.'}]}
+    result=evaluate_capability_inversion_care_integrity(premise,architecture,[])
+    assert result['checks']['intimacy_is_renegotiated_beyond_the_job'] is False
+    assert result['checks']['ending_preserves_independent_livelihood_or_work_choice'] is False
+
+
+def test_cozy_validator_possessive_home_intrusion_counts_as_disaster_onset():
+    from studio.cozy_disaster_shelter_integrity import evaluate_cozy_disaster_shelter_integrity
+    premise={'logline':'A family shelters during a flood.'}
+    architecture={'sequences':[
+        {'summary':'Water rushes into their home before they cook in the shelter.'},
+        {'summary':'The family survives rising water with food and drinking water.'},
+        {'summary':'After the storm they rebuild the house and share a warm meal.'},
+    ]}
+    result=evaluate_cozy_disaster_shelter_integrity(premise,architecture,[])
+    assert result['checks']['ordinary_labor_establishes_world_before_disaster'] is False

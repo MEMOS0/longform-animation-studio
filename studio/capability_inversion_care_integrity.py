@@ -20,26 +20,63 @@ def _text(value: Any) -> str:
     return ""
 
 
+def _segments(text: str) -> list[str]:
+    return [segment.strip() for segment in re.split(r"[.!?\n]", text) if segment.strip()]
+
+
+def _affirmative(pattern: str, text: str) -> bool:
+    negation = re.compile(r"\b(?:never|no longer|not|without|fails? to|doesn['’]?t|don['’]?t|didn['’]?t|forced)\b|\bno\s+choice\b")
+    return any(re.search(pattern, segment) and not negation.search(segment) for segment in _segments(text))
+
+
+CAPABILITY_PATTERN = re.compile(
+    r"superhuman strength|freakishly strong|extraordinary strength|unnatural strength|inhuman strength|super strength|"
+    r"strength (?:of|to) (?:ten|10)|knock(?:s|ing)? out .*pigs|powerful body|enhanced body|extraordinary physical power"
+)
+STIGMA_PATTERN = re.compile(r"freak|monster|abnormal|can't control|cannot control|damage|destroy|liabil|reject|mock|stigma|labeled")
+
+
+def _has_stigmatized_capability(text: str) -> bool:
+    segments = _segments(text)
+    for index, segment in enumerate(segments):
+        window = " ".join(segments[max(0, index - 1):index + 2])
+        if CAPABILITY_PATTERN.search(window) and STIGMA_PATTERN.search(window):
+            return True
+    return False
+
+
 def evaluate_capability_inversion_care_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    capability = bool(re.search(r"superhuman strength|freakishly strong|extraordinary strength|strength|powerful body|enhanced body", full))
-    stigma = bool(re.search(r"freak|monster|abnormal|can't control|cannot control|damage|destroy|breaks?|liabil|reject|mock|stigma", full))
+    capability = bool(CAPABILITY_PATTERN.search(full))
+    stigma = _has_stigmatized_capability(full)
     disability_or_injury = bool(re.search(r"wheelchair|disabled|paralyz|broken leg|injur|illness|blind|cannot walk|can't walk", full))
     care_or_romance = bool(re.search(r"bodyguard|caregiver|caretaker|protect|romance|fall\w* in love|girlfriend|boyfriend|wife|husband", full))
     if not (capability and stigma and disability_or_injury and care_or_romance):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
-    ending_text = _text(scenes[-2:] if scenes else (architecture.get("sequences", [])[-2:] if isinstance(architecture, dict) and isinstance(architecture.get("sequences"), list) else full[-max(1, len(full) // 4):])).lower()
+    if scenes:
+        ending_units = scenes[-2:]
+    elif isinstance(architecture, dict) and isinstance(architecture.get("sequences"), list) and architecture.get("sequences"):
+        ending_units = architecture["sequences"][-2:]
+    else:
+        ending_units = [full[-max(1, len(full) // 4):]]
+    ending_extra = []
+    if isinstance(architecture, dict):
+        for key in ("ending", "ending_payoff", "resolution", "final_act"):
+            if key in architecture:
+                ending_extra.append(architecture[key])
+    ending_text = (_text(ending_units) + "\n" + _text(ending_extra)).lower()
+
     checks = {
         "ability_is_costly_before_it_is_valuable": bool(re.search(r"freak|can't control|cannot control|damage|insurance|no job|fired|trouble|mock|rejected|labeled", full)),
         "labor_revalues_ability_as_protection_not_domination": bool(re.search(r"bodyguard|protect|security assistant|hired|care assistance|keep .* safe|escort", full)),
-        "care_restores_agency_rather_than_infantilizing": bool(re.search(r"not.*only be taken care|do it yourself|your legs.*decide|practice|tool|choice|agency|you can|stand.*own|independent", full)),
+        "care_restores_agency_rather_than_infantilizing": bool(re.search(r"not.*only be taken care|do it yourself|your legs.*decide|practice|tool|agency|you can|stand.*own|independent", full)),
         "disabled_person_retains_desire_competence_and_interiority": bool(re.search(r"cook|plan|business|work|decide|want|feel|confess|choice|protect|support|not.*object", full)),
         "caregiver_has_independent_labor_dignity": bool(re.search(r"farm|pig|butcher|parents|clean and honest|earn .* money|own two hands|home|labor|work", full)),
         "class_or_gender_inversion_creates_mutual_learning": bool(re.search(r"wealthy|estate|city|country|farm|street food|class|rich|poor|rural|homemade|local market", full)),
-        "intimacy_is_renegotiated_beyond_the_job": bool(re.search(r"job.*done|reason to stay|leave|bodyguard.*girlfriend|girlfriend|boyfriend|confess|like you|choice", ending_text)),
-        "consent_pressure_is_named_or_avoided": bool(re.search(r"consent|permission|uncomfortable|reject|choice|if you don't want|hide .*feelings|asks? first|respect", full)),
-        "ending_preserves_independent_livelihood_or_work_choice": bool(re.search(r"earn .* money|own money|job|work|career|bodyguard|choose|choice", ending_text)),
+        "intimacy_is_renegotiated_beyond_the_job": _affirmative(r"job.*done|reason to stay|leave|bodyguard.*girlfriend|girlfriend|boyfriend|confess|like you|choice", ending_text),
+        "consent_pressure_is_named_or_avoided": _affirmative(r"consent|permission|uncomfortable|reject|choice|if you don't want|hide .*feelings|asks? first|respect", full),
+        "ending_preserves_independent_livelihood_or_work_choice": _affirmative(r"earn .* money|own money|job|work|career|bodyguard|choose|choice", ending_text),
     }
     labels = {
         "ability_is_costly_before_it_is_valuable": "the ability is immediately useful rather than first carrying social, bodily, or economic cost",
