@@ -87,3 +87,7 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 
 1. `dHdkaKb3_S8` — fantasy betrayal/re-choice comparison.
 3. `DD35huaUIa8` — only if it still looks novel after the completed yA analysis; do not treat overlap with existing hidden-identity/creature doctrines as sufficient novelty.
+
+## Completed 2026-11-27 — Mythora Realm `5vGUIhUlt0A`
+
+Full audiovisual deep dive completed in `knowledge/market/mythora-viper-bride-protective-kinship-deep-dive.md`; derived evidence archived under `evidence/media/5vGUIhUlt0A/`. Novel mechanism integrated as `protective_kinship_integrity`: protective kinship inversion + child agency + domestic governance + consent-repaired instrumental marriage. Do not copy the literal dragon/viper plot.

@@ -3669,3 +3669,45 @@ def test_restitution_pact_whenever_standing_rule_is_not_actual_betrayal():
       {'summary':'The pact restores sight whenever the beneficiaries betray her.'},
     ]
     assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is False
+
+def _protective_kinship_fixture():
+    premise={
+      'title':'The Viper Guardian',
+      'logline':'Called a cruel viper after she struck back against abuse, Mira is sold in an arranged marriage to a widowed lord whose two daughters are neglected.',
+    }
+    architecture={'sequences':[
+      {'summary':'The daughters have split shoes, bruises, thin blankets, empty wardrobes, and freezing rooms near the servants quarters. Mira tells them that if anyone hurts them they must tell me immediately and protects them from humiliating servants.'},
+      {'summary':'Mira teaches the girls self-defense, tells them not to apologize when innocent, and shows them how to scream, run to help, and defend themselves. She orders hot water, blankets, food, and room assignments while taking the household keys.'},
+      {'summary':'In the treasury she reads ledgers and accounts showing stolen inheritance. When the family says we are family and blood is blood, she answers that family protects children. The lord listens to the children, orders an audit, examines evidence, and divides the house as institutional consequence.'},
+      {'summary':'He admits the truth: he used her because he needed her strength and chose her without telling her the truth. He transfers treasury keys, accounts, estates, revenues, money, control, and freedom to leave as material autonomy.'},
+      {'summary':'He tells her she can refuse and waits for permission. Only then does she choose a real marriage and kiss him freely. Her healing gift belongs to herself; the court is told she is not property or an object.'},
+      {'summary':'When her stepmother and father return in debt saying blood is blood and family has missed you, she decides they owe nothing and refuses to answer. Years later the wedding renewal, breakfast, ordinary home labor, and children leaving only when they choose prove durable chosen family care.'},
+    ]}
+    return premise,architecture,[]
+
+
+def test_protective_kinship_integrity_balanced_example_passes_core_checks():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise,architecture,scenes=_protective_kinship_fixture()
+    result=evaluate_protective_kinship_integrity(premise,architecture,scenes)
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.9
+    assert result['checks']['children_receive_agency_not_only_rescue'] is True
+    assert result['checks']['material_autonomy_transfer_precedes_intimacy'] is True
+    assert result['checks']['child_power_is_not_property'] is True
+
+
+def test_protective_kinship_integrity_intimacy_before_autonomy_fails_order():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise,architecture,scenes=_protective_kinship_fixture()
+    architecture['sequences'][3]={'summary':'He admits the truth: he used her because he needed her strength. She chooses a real marriage and kisses him.'}
+    architecture['sequences'][4]={'summary':'Only afterward he transfers treasury keys, accounts, money, and freedom to leave. He tells her she can refuse. Her healing gift belongs to herself, not property.'}
+    result=evaluate_protective_kinship_integrity(premise,architecture,scenes)
+    assert result['checks']['material_autonomy_transfer_precedes_intimacy'] is False
+
+
+def test_protective_kinship_integrity_does_not_apply_to_generic_creature_survival():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise={'title':'Turtle of the Salt City','logline':'A turtle child survives eviction and protects a storm-fragile community.'}
+    architecture={'sequences':[{'summary':'A community contract protects water and shelter.'}]}
+    assert evaluate_protective_kinship_integrity(premise,architecture,[])['applies'] is False

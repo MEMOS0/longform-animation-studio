@@ -1,3 +1,25 @@
+# Continuation checkpoint — 2026-11-27 21:00 UTC
+
+Active PR: https://github.com/MEMOS0/longform-animation-studio/pull/7
+Branch: `devin/1795803830-jasmine-reborn-school-analysis`
+Latest review-fix push before protective-kinship integration: `6c269188e81a84c63f6c45b36f69e1c7d0df277a`; a new review may still be running—handle findings first if they arrive.
+Tests after Mythora validator integration: **406 passed**.
+
+Completed since previous checkpoint:
+- Mythora `5vGUIhUlt0A` report/evidence committed in `58a45ef`.
+- Three additional review findings fixed/triaged: sentence-bounded maternal negation, word-boundary notary handling, whenever standing pact rules.
+- New `studio/protective_kinship_integrity.py` implemented and integrated into `studio/production.py`.
+- Regression tests added: balanced doctrine pass, autonomy-before-intimacy ordering failure, creature-survival nonapplication.
+- Skill and Thumbnail Intelligence updated; fresh breakout queue marked Mythora completed.
+
+Immediate next steps:
+1. Handle any new PR #7 findings first.
+2. Commit/push the protective-kinship validator/docs/checkpoint now.
+3. Continue fresh low-subscriber breakout scan/deep dives: CineAI `gw1SsVcha0Y`, Fated `B8bd364FM-8`, CrushLoop `6k_W9eG6mAU`, NEXORA `KcaifB7MhwQ`, Hushfall `4m3u8UMUgDg`; choose based on novelty/low-base cleanliness.
+4. Return to task 8: generic noncreature dialogue scaffolds still need scene-specific professional writing.
+
+---
+
 # Continuation checkpoint — 2026-11-27 20:45 UTC
 
 Active PR: https://github.com/MEMOS0/longform-animation-studio/pull/7
