@@ -66,5 +66,7 @@ def evaluate_hidden_identity_integrity(premise: dict[str, Any], architecture: di
     accountability_missing = [key for key, ok in accountability.items() if not ok]
     if hidden and accountability_missing:
         warnings.append("QueenFlix accountability extensions incomplete: " + ", ".join(accountability_missing))
-    score = sum(checks.values()) / len(checks)
-    return {"applies": True, "score_0_to_1": round(score, 3), "warnings": warnings, "checks": checks, "queenflix_accountability": accountability}
+    base_score = sum(checks.values()) / len(checks)
+    accountability_score = sum(accountability.values()) / len(accountability)
+    score = 0.7 * base_score + 0.3 * accountability_score
+    return {"applies": True, "score_0_to_1": round(score, 3), "base_score_0_to_1": round(base_score, 3), "accountability_score_0_to_1": round(accountability_score, 3), "warnings": warnings, "checks": checks, "queenflix_accountability": accountability}

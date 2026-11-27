@@ -934,7 +934,7 @@ def test_hidden_identity_integrity_flags_status_only_reveal():
 def test_hidden_identity_integrity_accepts_lioren_pattern():
     from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
     premise={"title_candidates":["She Fell in Love With a Poor Student, Not Knowing He Was a Billionaire Heir"],"opening_event":{"first_10_seconds":"a poor student is mocked but helps another student","first_60_seconds":"ordinary kindness over coffee and library study","first_5_minutes":"he corrects a valuation and proves competence"}}
-    arch={"sequences":[{"turn":"competence and love grow before status"},{"turn":"the true identity reveal creates a trust wound because he lied"},{"turn":"he apologizes, uses wealth to save the university and protect vulnerable students"},{"turn":"chosen love, proposal, wedding, family and belonging matter more than wealth"}]}
+    arch={"sequences":[{"turn":"competence and love grow before status"},{"turn":"the true identity reveal creates a trust wound because he lied"},{"turn":"he apologizes, uses wealth to save the university and protect vulnerable students"},{"turn":"evidence records documents full disclosure; separate homes and boundaries; help requires consent, no tests, no surveillance; he proves compliance when inconvenient and asks her to choose me again with full truth"},{"turn":"chosen love, proposal, wedding, family and belonging matter more than wealth"}]}
     result=evaluate_hidden_identity_integrity(premise,arch,[])
     assert result['applies']
     assert result['score_0_to_1']>=0.8
@@ -1296,3 +1296,13 @@ def test_romance_deception_integrity_flags_unsafeguarded_minor_hook_and_coercion
     assert result['score_0_to_1']<0.5
     assert any('safeguarding' in warning for warning in result['warnings'])
     assert any('coercion' in warning for warning in result['warnings'])
+
+
+def test_hidden_identity_old_apology_pattern_scores_below_accountable_standard():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    premise={"title_candidates":["She Fell in Love With a Poor Student, Not Knowing He Was a Billionaire Heir"],"opening_event":{"first_10_seconds":"a poor student is mocked but helps another student","first_60_seconds":"ordinary kindness over coffee and library study","first_5_minutes":"he corrects a valuation and proves competence"}}
+    arch={"sequences":[{"turn":"competence and love grow before status"},{"turn":"the true identity reveal creates a trust wound because he lied"},{"turn":"he apologizes, uses wealth to save the university and protect vulnerable students"},{"turn":"chosen love, proposal, wedding, family and belonging matter more than wealth"}]}
+    result=evaluate_hidden_identity_integrity(premise,arch,[])
+    assert result['base_score_0_to_1']==1.0
+    assert result['accountability_score_0_to_1']<0.5
+    assert result['score_0_to_1']<1.0
