@@ -9,6 +9,8 @@ from __future__ import annotations
 
 from typing import Any
 
+from .scene_coverage import architecture_end_minutes, scene_time_coverage
+
 
 def _flat(value: Any) -> str:
     if isinstance(value, str):
@@ -43,7 +45,7 @@ def evaluate_compound_expansion_readiness(premise: dict[str, Any], architecture:
     unresolved_system = (
         any(term in combined for term in UNRESOLVED_SYSTEM_TERMS)
         and any(term in combined for term in ["collapse", "destroy", "seize", "ration", "monopoly", "deprivation"])
-        and not any(term in final_text for term in ["rebuild", "repair", "restore", "replacement", "community survives", "water access", "heat access", "food access", "power restored"])
+        and not any(term in final_text for term in ["rebuild", "repair", "restore", "replacement", "community survives", "shared water", "shared heat", "shared food", "water access restored", "heat access restored", "food access restored", "power restored"])
     )
     ambiguous_tail = any(term in final_text for term in ["ambiguous", "mystery remains", "perhaps", "departure alone", "disappears"])
 
@@ -55,20 +57,17 @@ def evaluate_compound_expansion_readiness(premise: dict[str, Any], architecture:
     if ambiguous_tail and not relational_closure:
         warnings.append("ambiguous departure/rebirth imagery alone is not enough closure for ethical creature-family reuse")
 
-    expected_scene_count = len(sequences)
-    scene_keys = []
-    for index, scene in enumerate(scenes):
-        key = scene.get("scene_id") or scene.get("sequence") or scene.get("time_range") or index
-        scene_keys.append(str(key))
-    scene_coverage_ratio = min(len(set(scene_keys)) / expected_scene_count, 1.0) if expected_scene_count and scenes else 1.0
-    if expected_scene_count and scenes and scene_coverage_ratio < 1.0:
+    target = float(premise.get("target_minutes") or 0)
+    expected_minutes = target or architecture_end_minutes(architecture)
+    coverage = scene_time_coverage(scenes, expected_minutes) if scenes else {"coverage_ratio": 1.0, "complete": True, "finale_covered": True}
+    scene_coverage_ratio = coverage["coverage_ratio"]
+    if scenes and not coverage["complete"]:
         warnings.append("compound expansion readiness cannot treat a partial scene draft as ending-complete; the last supplied scene is not necessarily the ending")
 
-    target = float(premise.get("target_minutes") or 0)
     expansion_floor = round(target * 0.5, 1) if target else None
     expansion_ceiling = round(target * 0.95, 1) if target else None
     score = 1.0 if creature_like and relational_closure and not unresolved_system else max(0.0, 1.0 - 0.35 * len(warnings)) if creature_like else 0.0
-    if expected_scene_count and scenes and scene_coverage_ratio < 1.0:
+    if scenes and not coverage["complete"]:
         score = min(score, 0.65 * scene_coverage_ratio)
     return {
         "applicable": creature_like,

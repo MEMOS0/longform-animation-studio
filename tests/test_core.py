@@ -1243,3 +1243,31 @@ def test_hidden_identity_predates_and_status_boundary_are_not_repair_evidence():
     result=evaluate_hidden_identity_integrity(premise,{},[])
     assert not result['queenflix_accountability']['post_reveal_spatial_boundary']
     assert not result['queenflix_accountability']['repeat_inconvenient_compliance']
+
+
+def test_compound_recovery_requires_non_negated_access_or_sharing():
+    from studio.compound_expansion import evaluate_compound_expansion_readiness
+    premise={'target_minutes':24,'logline':'a dragon creature in a town where the water system collapses'}
+    arch={'sequences':[{'sequence':1,'turn':'the water infrastructure collapse destroys the community supply'},{'sequence':2,'turn':'water access is still cut off but the creature gets safely home'}]}
+    assert evaluate_compound_expansion_readiness(premise,arch,[])['warnings']
+    arch_shared={'sequences':[{'sequence':1,'turn':'the water infrastructure collapse destroys the community supply'},{'sequence':2,'turn':'the community rebuilds shared water access and the creature returns home'}]}
+    result=evaluate_compound_expansion_readiness(premise,arch_shared,[])
+    assert not any('community survival' in warning or 'expansion hook' in warning for warning in result['warnings'])
+
+
+def test_creature_contract_missing_finale_not_offset_by_extra_early_scene():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.compound_expansion import evaluate_compound_expansion_readiness
+    from studio.creature_pacing import evaluate_creature_pacing
+    premise=generate_premises('creature_economic_melodrama',1,32)[0]
+    arch=generate_architecture(premise)
+    scenes=generate_scenes(premise,arch)
+    missing_finale=scenes[:-1]+[dict(scenes[0],scene_id='S01B_extra_early_half')]
+    compound=evaluate_compound_expansion_readiness(premise,arch,missing_finale)
+    pacing=evaluate_creature_pacing(premise,arch,missing_finale)
+    assert compound['scene_coverage_ratio']<1.0
+    assert pacing['scene_coverage_ratio']<1.0
+    assert compound['score_0_to_1']<1.0
+    assert pacing['score_0_to_1']<1.0

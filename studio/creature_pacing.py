@@ -9,6 +9,7 @@ from __future__ import annotations
 from typing import Any
 
 from .compound_expansion import _flat
+from .scene_coverage import architecture_end_minutes, scene_time_coverage
 
 CREATURE_TERMS = ["creature", "dragon", "wolf", "monster", "animal", "beast"]
 SPECTACLE_TERMS = ["battle", "attack", "execution", "fire", "flight", "war", "chains", "crowd", "roar", "scale", "spectacle"]
@@ -59,16 +60,14 @@ def evaluate_creature_pacing(premise: dict[str, Any], architecture: dict[str, An
     if any(term in final_text for term in LOUD_CONSTANT_TERMS):
         warnings.append(f"{final.get('scene_id')}: final sound design remains loud/generic rather than returning to breath/room tone/recognition")
 
-    expected_scene_count = len(architecture.get("sequences", [])) if isinstance(architecture, dict) else 0
-    scene_keys = []
-    for index, scene in enumerate(scenes):
-        key = scene.get("scene_id") or scene.get("sequence") or scene.get("time_range") or index
-        scene_keys.append(str(key))
-    scene_coverage_ratio = min(len(set(scene_keys)) / expected_scene_count, 1.0) if expected_scene_count else 1.0
-    if expected_scene_count and scene_coverage_ratio < 1.0:
+    target = float(premise.get("target_minutes") or 0)
+    expected_minutes = target or architecture_end_minutes(architecture)
+    coverage = scene_time_coverage(scenes, expected_minutes)
+    scene_coverage_ratio = coverage["coverage_ratio"]
+    if not coverage["complete"]:
         warnings.append("creature pacing cannot judge ending rhythm from a partial scene draft")
     score = max(0.0, 1.0 - 0.25 * len(warnings))
-    if expected_scene_count and scene_coverage_ratio < 1.0:
+    if not coverage["complete"]:
         score = min(score, 0.65 * scene_coverage_ratio)
     return {
         "applicable": True,
