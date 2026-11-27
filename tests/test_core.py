@@ -4082,3 +4082,18 @@ def test_social_test_dialogue_uses_material_proof_and_restitution_turns():
     assert any('doesn\'t fit her hands or her hours' in turn['line'] for turn in s5)
     assert any('Return the name you erased first' in turn['line'] for turn in s7)
     assert all(turn.get('subtext') and turn.get('voice_signature') for scene in scenes for turn in scene['dialogue_design']['spoken_exchange'])
+
+def test_dual_incognito_does_not_apply_to_restored_laborer_fantasy():
+    from studio.dual_incognito_workplace_integrity import evaluate_dual_incognito_workplace_integrity
+    premise={'logline':'A restored dragon laborer rescues a hidden heir in a magical forest.'}
+    architecture={'sequences':[{'summary':'The laborer restored the dragon and protected the child.'}]}
+    assert evaluate_dual_incognito_workplace_integrity(premise,architecture,[])['applies'] is False
+
+
+def test_dual_incognito_one_payroll_file_is_not_multi_source_evidence():
+    from studio.dual_incognito_workplace_integrity import evaluate_dual_incognito_workplace_integrity
+    premise={'logline':'A secret hotel owner takes an ordinary staff position.'}
+    architecture={'sequences':[{'summary':'A payroll document, later called a payroll record, is the only proof.'}]}
+    result=evaluate_dual_incognito_workplace_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['checks']['evidence_is_procedural_and_multi_source'] is False

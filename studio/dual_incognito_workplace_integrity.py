@@ -30,10 +30,10 @@ def evaluate_dual_incognito_workplace_integrity(premise: dict[str, Any], archite
     narrative = "\n".join([_text(architecture), _text(scenes)]).lower()
     full = "\n".join([_text(premise), narrative]).lower()
 
-    workplace = bool(re.search(r"hotel|restaurant|hospital|factory|company|office|shop|store|staff|employee|worker|manager|payroll|workplace", full))
+    workplace = bool(re.search(r"\b(?:hotel|restaurant|hospital|factory|company|office|shop|store|staff|employee|worker|manager|payroll|workplace)\b", full))
     hidden_power = bool(re.search(r"secret(?:ly)? (?:a )?(?:owner|billionaire|heir|heiress|ceo|executive)|hidden (?:owner|identity|wealth|status)|incognito|ordinary staff position|conceals? (?:her|his|their) (?:identity|wealth|status)", full))
     stripped_power = bool(re.search(r"lost everything|fired|removed as ceo|deposed|framed|stripped of|false(?:ly)? accused|suspended|bankrupt", full))
-    labor_entry = bool(re.search(r"takes? (?:a )?(?:job|position)|applies?|ordinary staff|assistant|cleaner|server|worker|employee|uniform|shift|labor", full))
+    labor_entry = bool(re.search(r"takes? (?:a )?(?:job|position)|applies?|\bordinary staff\b|\bassistant\b|\bcleaner\b|\bserver\b|\bworker\b|\bemployee\b|\buniform\b|\bshift\b|\blabor\b", full))
     if not (workplace and labor_entry and (hidden_power or stripped_power)):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
@@ -45,7 +45,19 @@ def evaluate_dual_incognito_workplace_integrity(premise: dict[str, Any], archite
         bool(re.search(r"schedule|overtime|payroll|wages?|shift|hours", narrative)),
         bool(re.search(r"complaint|afraid to speak|afraid to tell|worker safety|staff safety", narrative)),
     ]
-    evidence_sources = len(set(re.findall(r"bank confirmation|vendor registration|maintenance log|access code|security footage|recording|guest testimony|written apology|payroll|overtime sheet|invoice|receipt|audit|documents?|records?", narrative)))
+    evidence_patterns = {
+        "banking": r"bank confirmation",
+        "vendor_registration": r"vendor registration",
+        "maintenance": r"maintenance log|maintenance record",
+        "access_control": r"access code",
+        "visual_or_audio_record": r"security footage|recording",
+        "testimony": r"guest testimony|witness testimony|witness statement",
+        "public_correction": r"written apology|public correction",
+        "payroll_or_timekeeping": r"payroll|overtime sheet",
+        "financial_document": r"invoice|receipt",
+        "audit_or_ledger": r"audit|ledger|original documents?|supporting documents?|written records?",
+    }
+    evidence_sources = sum(bool(re.search(pattern, narrative)) for pattern in evidence_patterns.values())
     transparency_terms = bool(re.search(r"transparent records|employee access|worker protection|scheduling (?:tool|system)|payroll (?:tool|system)|open records|workers? can (?:see|inspect|verify)|transparency infrastructure", narrative))
 
     checks = {
