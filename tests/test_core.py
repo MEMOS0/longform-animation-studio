@@ -4423,4 +4423,4 @@ def test_cozy_validator_irrigation_does_not_count_as_disaster_onset():
     ]}
     result=evaluate_cozy_disaster_shelter_integrity(premise,architecture,[])
     assert result['applies'] is True
-    assert result['checks']['ordinary_labor_precedes_disaster'] is True
+    assert result['checks']['ordinary_labor_establishes_world_before_disaster'] is True
