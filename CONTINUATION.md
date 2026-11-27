@@ -571,3 +571,10 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 
 - QueenFlix doctrine partially integrated into `hidden_identity_integrity.py` as `queenflix_accountability` checks: intelligent evidence-driven deceived party, post-reveal spatial boundary, procedural full disclosure, consent-based help rules, inconvenient repeat compliance, truthful re-choice. Tests: 128 passed.
 - Next high-priority work: deepen these checks from advisory output into scored gates without weakening Lioren baseline; continue priority queue with `U_Tecg95FWA` or `Z50wCIqEa2k`; monitor/triage PR #4 review if new findings arrive.
+
+## 2026-11-27 Twistora online-deception evidence checkpoint
+
+- Downloaded/analyzed Twistora `Z50wCIqEa2k` (57:32 vertical campus romance, about 356k views at collection, roughly 12.3k subscribers).
+- Major doctrine: do not copy the minor surface hook; extract online identity error -> immediate safeguarding -> adult accountability -> consent-aware adult romance -> social-anxiety accommodation -> real-self closure.
+- Added `romance_deception_integrity.py` and integrated it into `evaluate_project`: checks immediate boundary, exploitation audit, adult accountability, consent-aware escalation, public-pressure removal, coercion repair, anxiety accommodation, real-self closure.
+- Committed report: `knowledge/market/twistora-online-deception-romance-deep-dive.md`; derived evidence in `evidence/research/rediscovery_analysis/Z50wCIqEa2k/`.

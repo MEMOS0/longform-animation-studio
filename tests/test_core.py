@@ -1271,3 +1271,28 @@ def test_creature_contract_missing_finale_not_offset_by_extra_early_scene():
     assert pacing['scene_coverage_ratio']<1.0
     assert compound['score_0_to_1']<1.0
     assert pacing['score_0_to_1']<1.0
+
+
+def test_romance_deception_integrity_accepts_safeguarded_twistora_pattern():
+    from studio.romance_deception_integrity import evaluate_romance_deception_integrity
+    premise={"title_candidates":["Her Online Boyfriend Was 11, Then His Older Brother Fell for Her"],"opening_event":{"first_5_minutes":"she rejects the interaction when he says he is 11, deletes the game, and the older brother asks about money, sexual or inappropriate messages; she says no, never, they only played games"}}
+    arch={"sequences":[
+      {"turn":"the brother handles him, parents remove the phone, and the child apologizes"},
+      {"turn":"fake dating begins with no kissing not negotiable; if she wants him to let go she can say it"},
+      {"turn":"he corrects lies publicly but says she does not have to answer in public"},
+      {"turn":"he apologizes for pressure and coercion, prepares her for unexpected questions because she is socially anxious, and never tells her to relax"},
+      {"turn":"he asks can I kiss you; she is seen anxious awkward weird at her absolute worst and the right ones stay"}]}
+    result=evaluate_romance_deception_integrity(premise,arch,[])
+    assert result['applies']
+    assert result['minor_risk_detected']
+    assert result['score_0_to_1']==1.0
+
+
+def test_romance_deception_integrity_flags_unsafeguarded_minor_hook_and_coercion():
+    from studio.romance_deception_integrity import evaluate_romance_deception_integrity
+    premise={"title_candidates":["Her Online Boyfriend Was 11"],"opening_event":{"first_5_minutes":"she keeps the secret romance alive"}}
+    arch={"sequences":[{"turn":"he uses humiliating secrets as leverage unless she fake dates him and kisses her without asking"}]}
+    result=evaluate_romance_deception_integrity(premise,arch,[])
+    assert result['score_0_to_1']<0.5
+    assert any('safeguarding' in warning for warning in result['warnings'])
+    assert any('coercion' in warning for warning in result['warnings'])
