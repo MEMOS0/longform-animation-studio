@@ -48,7 +48,24 @@ def evaluate_restitution_pact_integrity(premise: dict[str, Any], architecture: d
     betrayal_pos = None
     for betrayal_match in re.finditer(betrayal_pattern, chronology):
         prefix = chronology[max(0, betrayal_match.start() - 30):betrayal_match.start()]
-        if re.search(r"\b(?:if|when|whenever|unless)\b[^.!?]{0,30}$", prefix):
+        conditional_marker = re.search(r"\b(?:if|unless)\b[^.!?]{0,30}$", prefix)
+        sentence_start = max(
+            chronology.rfind(".", 0, betrayal_match.start()),
+            chronology.rfind("!", 0, betrayal_match.start()),
+            chronology.rfind("?", 0, betrayal_match.start()),
+        ) + 1
+        sentence_ends = [pos for pos in [
+            chronology.find(".", betrayal_match.end()),
+            chronology.find("!", betrayal_match.end()),
+            chronology.find("?", betrayal_match.end()),
+        ] if pos != -1]
+        sentence_end = min(sentence_ends) if sentence_ends else len(chronology)
+        betrayal_sentence = chronology[sentence_start:sentence_end]
+        temporal_pact_marker = bool(
+            re.search(r"(?:when|whenever)[^.!?]{0,30}$", prefix)
+            and re.search(r"pact|curse|rebound|returns?|restores?", betrayal_sentence)
+        )
+        if conditional_marker or temporal_pact_marker:
             continue
         betrayal_pos = betrayal_match.start()
         break
