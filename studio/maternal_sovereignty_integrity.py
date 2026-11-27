@@ -25,7 +25,7 @@ def evaluate_maternal_sovereignty_integrity(premise: dict[str, Any], architectur
     chronology = re.sub(r"\s+", " ", "\n".join([architecture_text, scenes_text])).strip()
     flat = re.sub(r"\s+", " ", " ".join([premise_text, architecture_text, scenes_text])).strip()
 
-    pregnancy_or_heir = bool(re.search(r"\b(?:pregnan\w*|baby|child|children|heir|heiress|miscarriage)\b", flat))
+    pregnancy_or_heir = bool(re.search(r"\b(?:pregnan\w*|baby|child|children|heir|heirs|heiress|heiresses|miscarriage)\b", flat))
     coercive_status_romance = bool(re.search(r"contract marriage|secret wife|forced marriage|arranged marriage|custody|divorce|fated mate|mate bond|alpha husband|werewolf husband|lycan husband", flat))
     betrayal_or_power_gap = bool(re.search(r"betray|abandon|humiliat|reject|coerc|unwanted|hidden identity|princess|royal", flat))
     applies = pregnancy_or_heir and coercive_status_romance and betrayal_or_power_gap
@@ -42,16 +42,16 @@ def evaluate_maternal_sovereignty_integrity(premise: dict[str, Any], architectur
         "economic_sacrifice_protects_vulnerable_dependent": bool(re.search(r"contract money|money to save|surgery|protect (?:him|her|them|friend|brother|sister)|vulnerable dependent|economic sacrifice|safety", flat)),
         "contract_terms_expose_control_precisely": bool(re.search(r"clause|custody|full custody|belongs? to him|whenever he wants|no choice|control|divorce papers", flat)),
         "child_functions_as_legal_or_political_leverage": bool(re.search(r"custody|heir|succession|political leverage|steal the baby|take the baby|birth during the contract|bloodline|throne", flat)),
-        "pregnancy_concealment_is_protective_and_costly": bool(re.search(r"lies? (?:that )?(?:the )?baby (?:died|is dead)|hide[sd]? (?:the )?(?:live )?pregnan|conceal[sd]? (?:the )?pregnan|secret pregnan|miscarriage lie", flat) and re.search(r"cost|isolat|risk|steal|custody|afraid|danger|lose|threat", flat)),
+        "pregnancy_concealment_is_protective_and_costly": bool(re.search(r"lies? (?:that )?(?:the )?baby (?:died|is dead)|(?:hid|hide|hides|hidden) (?:the )?(?:live )?pregnan|conceal[sd]? (?:the )?pregnan|secret pregnan|miscarriage lie", flat) and re.search(r"cost|isolat|risk|steal|custody|afraid|danger|lose|threat", flat)),
         "professional_competence_is_independent_of_hidden_status": bool(re.search(r"chief healer|doctor|scientific|medical|healing demonstration|research|breakthrough|resume|without nepotism|professional competence|earned craft|hospital", flat)),
         "institutional_public_proof_carries_truth": bool(re.search(r"medical board|security footage|examination|report|evidence|board|investor|election|endorsement|hospital examination|public demonstration", flat)),
         "trust_failure_is_named_beyond_rival_exposure": bool(re.search(r"never trusted|never really wanted|problem is not just|trust failure|emotional abandonment|you did not trust", flat)),
         "male_repair_requires_material_cost_not_only_apology": bool(re.search(r"gives? up (?:the )?(?:campaign|election|power|throne)|abandons? (?:the )?(?:campaign|election)|material sacrifice|injur|loses? power|loses? wealth|sacrifices? (?:his )?(?:career|position|title)", repair_window)),
-        "release_of_control_precedes_reunion": (lambda release_pos, reunion_pos: release_pos is not None and reunion_pos is not None and release_pos < reunion_pos)(
+        "release_of_control_precedes_reunion": (lambda release_pos, reunion_pos: (release_pos is not None and reunion_pos is not None and release_pos < reunion_pos) or bool(re.search(r"(?:remarriage|reunion|re-choice|marry(?:ing)? again)[^.!?]{0,60}(?:only )?after[^.!?]{0,90}(?:release[sd]? control|divorce papers|lets? go|free to leave)", chronology)))(
             _first(r"signs? (?:the )?divorce papers|lets? go|release[sd]? control|free to leave|no obligation|she can refuse", chronology),
             _first(r"says? yes|remarr|marry me again|reunit|reconcil", chronology),
         ),
-        "re_choice_is_informed_and_not_coerced": (lambda truth_pos, reunion_pos: truth_pos is not None and reunion_pos is not None and truth_pos < reunion_pos and not re.search(r"force[sd]? her to (?:marry|return)|no choice but to remarry", repair_window))(
+        "re_choice_is_informed_and_not_coerced": (lambda truth_pos, reunion_pos: ((truth_pos is not None and reunion_pos is not None and truth_pos < reunion_pos) or bool(re.search(r"(?:remarriage|reunion|re-choice|marry(?:ing)? again)[^.!?]{0,60}(?:only )?after[^.!?]{0,90}(?:disclosure|truth|learns? why|informed)", chronology))) and not re.search(r"force[sd]? her to (?:marry|return)|no choice but to remarry", repair_window))(
             _first(r"truth is revealed|truth comes out|revealed|exposed|knows? (?:the )?(?:truth|reason)|learns? why|informed", chronology),
             _first(r"says? yes|remarr|marry me again|reunit|reconcil", chronology),
         ),
