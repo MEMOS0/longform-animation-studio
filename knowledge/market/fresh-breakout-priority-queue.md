@@ -115,3 +115,7 @@ The expanded Piped scan (`data/processed/recent_breakout_candidates.json`) found
 5. `6JGkPoF7gKE` — Dragonveil Films, about 129 subscribers, about 32k views/day, 33m: woman raises baby dragon others wanted dead. Extremely low-subscriber creature-protection lead; useful despite possible reuse of existing creature doctrine.
 
 Caution: Piped search is biased and several previous top leads were already analyzed or duplicate/serial compilations. Do not infer novelty from velocity alone; inspect opening evidence before deep dives.
+
+### Celine Drama TV checkpoint — `2bxYdqDDueY` elevated
+
+`2bxYdqDDueY` proved worth the deep dive. Same-channel hit/low comparison is now archived in `knowledge/market/celine-drama-adversarial-coparent-hit-low-comparison.md` and machine-readable creative warnings are implemented in `studio/adversarial_coparent_integrity.py`. Treat the mechanism as adversarial co-parent incognito, not generic mafia romance. Do not infer that low comparator `aZJUCYFiT_A` failed because of weak openings or weak polish: it has a strong kinetic opening and high visual craft. Its observable difference is structural diffusion and thin domestic/consent repair. Continue the queue after this with `it3DAkGGrnk`, `zXZuLkLeBTk`, `YdN5ESTxUNc`, and `6JGkPoF7gKE` unless newer scan evidence supersedes them.

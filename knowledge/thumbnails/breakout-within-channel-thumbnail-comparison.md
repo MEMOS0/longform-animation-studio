@@ -89,3 +89,9 @@ Hypothesis: validates the recurring failure pattern **spectacle scale without re
 - For transformation melodrama: require vulnerable protagonist + ally/antagonist social triangle before cosmetic beauty polish.
 - For creature fantasy: require the vulnerable creature/child or bond cue; reject creature-battle spectacle if no relational object is visible.
 - For high-concept spectacle: one threat only, one focal human, no multi-trope clutter.
+
+## Celine Drama TV adversarial co-parent thumbnail contrast
+
+- Hit `2bxYdqDDueY` compresses institutional action, intimacy, and opposition into one mobile-readable image: FBI vest/gun/tactical team, luxury interior, protective embrace, shocked antagonist, and the direct paradox title “The FBI Agent's Secret Mafia Husband!” The concept mirrors the story's strongest spine: law enforcement versus mafia intimacy.
+- Low same-mechanism comparator `aZJUCYFiT_A` instead foregrounds a luxury gala embrace, jealous female rival, older male observer, roses, and the generic line “The Mafia Don Fell for His Rival.” It does not communicate assassin competence, hidden mastery, or the procedural/adversarial stakes that distinguish the film. This is a packaging hypothesis only, not a CTR claim.
+- Reusable original-concept rule: when a hidden-identity adversarial romance has a strong institutional opposition, test whether the viewer can read institution + intimate bond + antagonist pressure simultaneously. Avoid generic jealousy/gala visual language when the differentiator is competence, secrecy, or procedural danger. Preserve originality: use the mechanism, not the actors, poses, exact costume layout, typography, or scene composition.

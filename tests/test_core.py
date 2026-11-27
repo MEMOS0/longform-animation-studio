@@ -4125,3 +4125,24 @@ def test_dual_incognito_plural_employee_shift_cues_apply():
     from studio.dual_incognito_workplace_integrity import evaluate_dual_incognito_workplace_integrity
     premise={'logline':'A fired ceo joins employees on a night shift.'}
     assert evaluate_dual_incognito_workplace_integrity(premise,{},[])['applies'] is True
+
+def test_adversarial_coparent_integrity_positive_and_non_applicable():
+    from studio.adversarial_coparent_integrity import evaluate_adversarial_coparent_integrity
+    premise={'logline':'An FBI single mom falls for a security guard, unaware he is a mafia don; her daughter and his son arrange the blind date.'}
+    architecture={'sequences':[{'summary':'The children only introduced them, but marriage is an adult decision made of free will. She helps him find a steady job, they share dinner, bedtime stories, rent and bills, and neither child is baggage. She is a debt collector; he is a security guard. He is hunting the FBI agent while she investigates the mafia family. At the identity reveal, she says deciding when to tell her was up to him; they promise no more secrets and full disclosure. They verify ledgers, personnel records, security footage, witness statements, financial records, communications, and a recorded confession. This time they figure it out together with backup and a tactical team. The children did nothing wrong; adults settle it themselves and grown-up problems are for grown-ups. In the ending he asks her to choose me again in a proper proposal with full identity, respect choices, always be honest, conflict of interest review, other agents, investigation, arrest, and records secured.'}]}
+    result=evaluate_adversarial_coparent_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.9
+    assert result['checks']['children_are_not_secret_keepers_or_family_glue'] is True
+    ordinary=evaluate_adversarial_coparent_integrity({'logline':'A glasswing smith is framed by the guild.'},{},[])
+    assert ordinary['applies'] is False
+
+
+def test_adversarial_coparent_integrity_warns_when_children_force_consent():
+    from studio.adversarial_coparent_integrity import evaluate_adversarial_coparent_integrity
+    premise={'logline':'An FBI agent and mafia boss marry as husband and wife because their daughter and son demand it; he is a security guard and she is a debt collector.'}
+    architecture={'sequences':[{'summary':'The investigation and hunting escalate, but no one says the marriage was an adult decision or free choice.'}]}
+    result=evaluate_adversarial_coparent_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['checks']['children_catalyze_but_do_not_own_adult_choice'] is False
+    assert any('children or dependents' in w for w in result['warnings'])

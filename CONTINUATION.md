@@ -256,3 +256,21 @@ Next: handle PR #7 review on `f1d2e21` if findings arrive; finish the expanded 5
 ## 2026-11-27 pre-rotation checkpoint
 
 Latest pushed commit: `1fe6c1b51324b5a769bcef2d4410831efd35ba9e`; tests **451 passed**. Review round for `f1d2e21` handled: variant proof chains now reach social dialogue, mute child allies use nonverbal signals, scene four no longer reveals the scene-five accusation early, plural workplace labor cues are recognized. Expanded fresh scan committed; next unanalyzed lead is Celine Drama TV `2bxYdqDDueY`, then NeoDrama `it3DAkGGrnk`, StarKiss `zXZuLkLeBTk`, Zephyr `YdN5ESTxUNc`, Dragonveil `6JGkPoF7gKE`. Handle any review findings on `1fe6c1b` first, then download/analyze the next lead without subagents.
+
+## Celine adversarial co-parent checkpoint — current session
+
+Completed deep hit/low evidence integration:
+
+- `knowledge/market/celine-drama-adversarial-coparent-hit-low-comparison.md` now archives timestamped evidence for hit `2bxYdqDDueY` and same-channel low comparator `aZJUCYFiT_A`.
+- Full machine analysis exists for both in `evidence/media/`. Hit: 4,236s, 129 shots, mean shot 32.8s, median 11s, 1,596 ASR cues. Low: 5,327s, 161 shots, mean shot 33.1s, median 10s, 2,370 ASR cues.
+- New validator: `studio/adversarial_coparent_integrity.py`, integrated into `studio/production.py` as `adversarial_coparent_integrity`. Tests: 453 passed.
+- Skill updated with adversarial co-parent incognito doctrine. Thumbnail comparison updated with the hit/low packaging contrast.
+- Important evidence boundary: low comparator has strong kinetic opening and polished visuals; do not encode low views as weak-writing causality. Observable difference is structural diffusion and thin domestic/consent repair.
+
+Immediate next work:
+
+1. Remove evidence audio WAVs before committing.
+2. Commit/push this checkpoint on the active PR branch.
+3. Handle any new PR #7 Devin Review findings immediately.
+4. Continue queue with `it3DAkGGrnk`, `zXZuLkLeBTk`, `YdN5ESTxUNc`, and `6JGkPoF7gKE` unless newer scan evidence supersedes them.
+
