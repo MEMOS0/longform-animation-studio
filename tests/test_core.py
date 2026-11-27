@@ -1306,3 +1306,25 @@ def test_hidden_identity_old_apology_pattern_scores_below_accountable_standard()
     assert result['base_score_0_to_1']==1.0
     assert result['accountability_score_0_to_1']<0.5
     assert result['score_0_to_1']<1.0
+
+
+def test_zero_to_hero_integrity_accepts_reelquest_pattern():
+    from studio.zero_to_hero_integrity import evaluate_zero_to_hero_integrity
+    premise={"release_format":"series_premiere","title_candidates":["They Mocked His Empty Bloodline"],"logline":"a commoner awakens soul blood power at a battle academy to rescue his father"}
+    arch={"sequences":[
+      {"turn":"he could have run but turned to protect villagers, proving courage before power"},
+      {"turn":"nobles say commoner lowborn blood cannot rise and the rules changed to move the bar, sealing off every commoner's way up"},
+      {"turn":"fusion rank ladder crystal and bloodline rules are legible, but clashing energy can burst his container, burn lifespan, or kill him"},
+      {"turn":"a mentor ally demands a deal condition and exchange rather than helping passively"},
+      {"turn":"he promises to find his father and bring him home"}]}
+    result=evaluate_zero_to_hero_integrity(premise,arch,[])
+    assert result['applies']
+    assert result['score_0_to_1']==1.0
+
+
+def test_zero_to_hero_integrity_flags_generic_power_fantasy():
+    from studio.zero_to_hero_integrity import evaluate_zero_to_hero_integrity
+    premise={"title_candidates":["He Awakened Ultimate Bloodline Power"],"logline":"a commoner becomes the strongest"}
+    result=evaluate_zero_to_hero_integrity(premise,{},[])
+    assert result['score_0_to_1']<0.5
+    assert any('cost' in warning for warning in result['warnings'])
