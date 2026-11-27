@@ -669,3 +669,21 @@ Immediate next steps:
 4. Fix the minor regex/control-character wart in `studio/child_power_obsolescence.py` first-person investigative regex if still present.
 5. Continue fresh low-subscriber/non-creature breakout scan.
 6. Handle any new Devin Review findings immediately when they arrive.
+
+## 2026-11-27 post-Lost Kind integration checkpoint
+
+Latest pushed commit before this note: `5e53612 Integrate Lost Kind extraction doctrine`; tests 218 passed.
+
+Completed:
+- `knowledge/market/veylorn-lost-kind-epic-dark-fantasy-deep-dive.md` written with timestamped audiovisual evidence and causal caveats.
+- `studio/epic_creature_extraction.py` added and wired into project evaluation.
+- `.devin/skills/longform-animation-studio/SKILL.md` updated with epic creature-extraction doctrine.
+- `knowledge/craft/professional-dialogue-power-turn-doctrine.md` updated with procedural/epic dialogue lessons from Lost Kind.
+- Devin Review rounds through `44543bb` triaged; tests reached 216 before Lost Kind integration and 218 after.
+- Fresh 14-day scan refreshed `data/processed/recent_breakout_candidates.json` (89 candidates). Important known/ongoing leads include already-analyzed Aethernal `31-p_UcMgOs`, Veylorn `6pbhGtHRTwA`, Epicverse `no72LZAVvZQ`, Lioren `hozDtPcnnBA`, PrimeFate `TKfoKnpHpsw`; next unanalyzed low-subscriber non-creature lead selected: ScepterTV `PH6_Oyi-XrI` (*The Maid Who Was Secretly a Princess*, about 1.6k subs and 130k views/day estimate at scan).
+
+Immediate next work:
+1. Finish download/analysis of `PH6_Oyi-XrI`; do not claim it was watched until contact sheets/seconds/subtitles are inspected.
+2. Write its deep-dive report and extract hidden-identity/royal non-creature mechanisms or falsifications.
+3. Continue non-creature low-subscriber scan with `s-Zn2WhkkH8`, `wHWPGMPQ37Y`, `R14QjIS7O50`, `Z0kns4pvIH4`, `V5VfY1lfN2c`, or `XM4OuWUlV_o` after `PH6_Oyi-XrI`.
+4. Handle new Devin Review findings immediately when they arrive.

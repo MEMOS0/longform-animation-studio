@@ -424,3 +424,9 @@ Hidden-identity romance/status stories should follow the Lioren breakout pattern
 
 A plot sequel hook is allowed only after the promised relational recognition/home/belonging payoff lands. If the story destroys exploitative infrastructure that supplied water, food, power, safety, or transport, the ending must show community survival, replacement, rationing, rebuilding, or another concrete consequence. Use the Spark `wd53-C7Na0Y` counterexample: strong hooks and polish can still underperform when mythic density, packaging mismatch, or unresolved aftermath obscures the final human answer.
 
+
+## 2026-11-27 epic creature-extraction doctrine update
+
+Before greenlighting epic dark-fantasy creature/extraction stories, read `knowledge/market/veylorn-lost-kind-epic-dark-fantasy-deep-dive.md`. The portable mechanism is not generic epic scale. It is scale that remains tied to operational care: creature society must feed/shelter/teach/heal; extraction must have material incentives; power use must expose or endanger; middle sections should use procedural access/evidence; rescue must leave trauma; source destruction must carry moral/infrastructural cost; and the ending must show communal consequence plus peace maintenance before any sequel hook.
+
+Use the `epic_creature_extraction` project-evaluation gate as a warning system, not as a hit predictor. Do not copy THE LOST KIND's plot, creatures, dialogue, or images; extract the mechanism and build original worlds.

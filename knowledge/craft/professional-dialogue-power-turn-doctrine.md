@@ -170,3 +170,13 @@ For every exchange ask:
 ## Bottom line
 
 Professional dialogue is not prettier exposition. It is a sequence of audible power moves in which characters listen, evade, pressure, refuse, protect, and reveal—while objects, witnesses, silence, and behavior carry the psychology the words cannot honestly say.
+
+## Epic/procedural dialogue addendum from *THE LOST KIND* (2026-11-27)
+
+Evidence source: `knowledge/market/veylorn-lost-kind-epic-dark-fantasy-deep-dive.md`.
+
+1. **Institutional dialogue should expose jurisdiction, not just lore.** Around 60:00–64:45, the useful lines are concrete: gate rotations, rear entrances, wagon counts, archive authority versus necromancy authority. Exposition becomes a tool characters use to gain access.
+2. **Rescue dialogue must separate spatial escape from psychological liberation.** “You're not in that cell anymore” and “Then why can't I stop my hands?” work because the second line contradicts the comfort line with bodily evidence. Write comfort as an action under pressure, not a cure.
+3. **Climactic moral language belongs at the decision point.** “If we break the heart now, we'll destroy what's left of them” converts the climax into triage. Do not distribute this kind of moral exposition evenly through the film; reserve it for irreversible choices.
+4. **Accountability scenes need positional conflict.** The post-battle command argument around 40:00–44:45 works because characters are not discussing war abstractly: casualties, blame, command splitting, creature value, and the protagonist's strategic value all alter power.
+5. **Closing thematic dialogue must be earned by visible consequence.** The final peace speech works only because the audience has seen casualties, extraction, trapped souls, infrastructural darkness, and return/home imagery. A similar speech without those images would be unearned thesis dialogue.
