@@ -479,3 +479,8 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 
 - Added `studio/hidden_identity_integrity.py` and integrated it into project evaluation. It transparently checks whether hidden-identity/status stories prove competence or kindness before status, form love through ordinary non-status behavior, treat deception as a trust wound, use power prosocially, and subordinate wealth to belonging. This converts the Lioren breakout findings into machine-readable pre-greenlight review rather than leaving them only in prose.
 - Regression tests cover a status-only weak reveal and a Lioren-style positive structure. Latest local tests: 102 passed.
+
+## 2026-11-27 Drakenhart tiny-kingdom checkpoint
+
+- Drakenhart `1Nv2aGUgIG4` was downloaded with English subtitles and analyzed visually/aurally through contact sheets, aligned transcript, seconds/timeline metrics, and thumbnail evidence. Full media/audio are not committed.
+- New knowledge file: `knowledge/market/drakenhart-tiny-kingdom-breakout-deep-dive.md`. Key finding: the 29.5-minute breakout pays the tiny-kingdom premise within five minutes, proves protagonist competence through an early tunnel save, makes giant-world junk economically meaningful as tiny-world infrastructure, gives the protagonist institutional guilt, uses elder restitution as a moral mirror, stops drilling through map/proof persuasion rather than battle, and ends with years of rebuilding/chosen home.

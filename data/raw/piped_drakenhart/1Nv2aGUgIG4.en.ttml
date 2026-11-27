@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:03.929" end="00:00:05.949" style="s2">[music]</p>
+<p begin="00:00:09.100" end="00:00:11.200" style="s2">&gt;&gt; What?</p>
+<p begin="00:00:20.700" end="00:00:23.800" style="s2">&gt;&gt; Dave coming you said</p>
+<p begin="00:00:22.600" end="00:00:26.600" style="s2">he was been leaving something I&#39;d</p>
+<p begin="00:00:23.800" end="00:00:26.600" style="s2">explore cave.</p>
+<p begin="00:00:51.700" end="00:00:56.700" style="s2">&gt;&gt; Triassic plants</p>
+<p begin="00:00:53.500" end="00:00:56.700" style="s2">older than the dinosaurs.</p>
+<p begin="00:01:11.500" end="00:01:14.200" style="s2">Who were you?</p>
+<p begin="00:01:34.000" end="00:01:36.500" style="s2">No way.</p>
+<p begin="00:01:41.526" end="00:01:43.546" style="s2">&gt;&gt; [music]</p>
+<p begin="00:02:03.141" end="00:02:05.161" style="s2">[music]</p>
+<p begin="00:02:09.036" end="00:02:11.056" style="s2">[music]</p>
+<p begin="00:02:11.392" end="00:02:14.592" style="s2">&gt;&gt; Okay.</p>
+<p begin="00:02:12.892" end="00:02:17.092" style="s2">Okay.</p>
+<p begin="00:02:14.592" end="00:02:17.092" style="s2">That&#39;s bad.</p>
+<p begin="00:02:33.392" end="00:02:36.992" style="s2">Come on.</p>
+<p begin="00:02:34.492" end="00:02:36.992" style="s2">Come on.</p>
+<p begin="00:02:43.096" end="00:02:45.116" style="s2">[music]</p>
+<p begin="00:03:08.892" end="00:03:12.792" style="s2">Hey, big guy.</p>
+<p begin="00:03:10.292" end="00:03:12.792" style="s2">Hold still.</p>
+<p begin="00:03:15.847" end="00:03:17.867" style="s2">[music]</p>
+<p begin="00:03:22.192" end="00:03:25.292" style="s2">I&#39;m calling you Atlas.</p>
+<p begin="00:03:33.532" end="00:03:35.552" style="s2">[music]</p>
+<p begin="00:03:43.292" end="00:03:47.892" style="s2">Triports</p>
+<p begin="00:03:45.192" end="00:03:47.892" style="s2">alive.</p>
+<p begin="00:03:52.527" end="00:03:54.547" style="s2">&gt;&gt; [music]</p>
+<p begin="00:04:03.492" end="00:04:06.394" style="s2">&gt;&gt; You will come with us.</p>
+<p begin="00:04:17.417" end="00:04:19.437" style="s2">&gt;&gt; [music]</p>
+<p begin="00:04:25.278" end="00:04:27.297" style="s2">[music]</p>
+<p begin="00:04:35.194" end="00:04:38.094" style="s2">&gt;&gt; A whole city.</p>
+<p begin="00:04:38.994" end="00:04:41.794" style="s2">&gt;&gt; What&#39;s left of it?</p>
+<p begin="00:04:48.894" end="00:04:51.894" style="s2">&gt;&gt; Elder Moss.</p>
+<p begin="00:04:52.194" end="00:04:56.994" style="s2">&gt;&gt; So why</p>
+<p begin="00:04:53.894" end="00:04:56.994" style="s2">is Great Mesa happens?</p>
+<p begin="00:04:59.194" end="00:05:01.794" style="s2">&gt;&gt; Ru ha.</p>
+<p begin="00:05:04.578" end="00:05:06.598" style="s2">&gt;&gt; [music]</p>
+<p begin="00:05:16.294" end="00:05:20.994" style="s2">&gt;&gt; Is it true</p>
+<p begin="00:05:17.594" end="00:05:23.094" style="s2">your device makes things grow?</p>
+<p begin="00:05:20.994" end="00:05:23.094" style="s2">&gt;&gt; Hm.</p>
+<p begin="00:05:25.994" end="00:05:30.294" style="s2">&gt;&gt; The roof it&#39;s sagging.</p>
+<p begin="00:05:28.194" end="00:05:30.294" style="s2">&gt;&gt; Hm.</p>
+<p begin="00:05:34.094" end="00:05:38.638" style="s2">&gt;&gt; An arch.</p>
+<p begin="00:05:35.694" end="00:05:40.658" style="s2">Of course.</p>
+<p begin="00:05:38.638" end="00:05:40.658" style="s2">&gt;&gt; [music]</p>
+<p begin="00:05:49.294" end="00:05:52.694" style="s2">&gt;&gt; Everyone out of the tunnel.</p>
+<p begin="00:05:54.594" end="00:05:58.694" style="s2">&gt;&gt; It held.</p>
+<p begin="00:05:55.994" end="00:06:00.594" style="s2">&gt;&gt; For the first time a giant had saved</p>
+<p begin="00:05:58.694" end="00:06:02.894" style="s2">Ruth Hill.</p>
+<p begin="00:06:00.594" end="00:06:04.595" style="s2">&gt;&gt; The tunnels are collapsing.</p>
+<p begin="00:06:02.894" end="00:06:06.804" style="s2">The water is rising.</p>
+<p begin="00:06:04.595" end="00:06:08.824" style="s2">We have no time.</p>
+<p begin="00:06:06.804" end="00:06:08.824" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:06:12.195" end="00:06:19.395" style="s2">&gt;&gt; This lens will show you the path</p>
+<p begin="00:06:15.595" end="00:06:19.395" style="s2">if you have the courage to see it.</p>
+<p begin="00:06:20.195" end="00:06:24.695" style="s2">&gt;&gt; I will find [music] it.</p>
+<p begin="00:06:21.895" end="00:06:24.695" style="s2">I will save us.</p>
+<p begin="00:06:27.764" end="00:06:29.784" style="s2">&gt;&gt; [music]</p>
+<p begin="00:06:45.595" end="00:06:51.395" style="s2">&gt;&gt; It drinks the sun.</p>
+<p begin="00:06:47.295" end="00:06:51.395" style="s2">&gt;&gt; One sunrise, one full charge.</p>
+<p begin="00:06:57.795" end="00:07:03.189" style="s2">Every sunrise counted.</p>
+<p begin="00:07:01.169" end="00:07:03.189" style="s2">&gt;&gt; [music]</p>
+<p begin="00:07:10.495" end="00:07:15.995" style="s2">&gt;&gt; Left Brite water tower, I didn&#39;t water</p>
+<p begin="00:07:13.095" end="00:07:17.295" style="s2">ages as building materials.</p>
+<p begin="00:07:15.995" end="00:07:20.895" style="s2">&gt;&gt; Didn&#39;t see.</p>
+<p begin="00:07:17.295" end="00:07:20.895" style="s2">We used the Giant World&#39;s Junk.</p>
+<p begin="00:07:21.475" end="00:07:25.995" style="s2">&gt;&gt; [music]</p>
+<p begin="00:07:22.895" end="00:07:25.995" style="s2">&gt;&gt; Inspire Expodus.</p>
+<p begin="00:07:27.370" end="00:07:29.390" style="s2">&gt;&gt; [music]</p>
+<p begin="00:07:47.595" end="00:07:51.395" style="s2">&gt;&gt; Okay.</p>
+<p begin="00:07:48.895" end="00:07:51.395" style="s2">Normal again.</p>
+<p begin="00:08:19.115" end="00:08:21.135" style="s2">&gt;&gt; [music]</p>
+<p begin="00:08:23.297" end="00:08:26.197" style="s2">&gt;&gt; Why leave it my time?</p>
+<p begin="00:08:46.897" end="00:08:50.897" style="s2">&gt;&gt; There it is.</p>
+<p begin="00:08:47.897" end="00:08:50.897" style="s2">&gt;&gt; Five-hearted.</p>
+<p begin="00:08:51.097" end="00:08:55.897" style="s2">&gt;&gt; Gifts</p>
+<p begin="00:08:52.997" end="00:08:55.897" style="s2">or tricks.</p>
+<p begin="00:08:56.897" end="00:09:01.497" style="s2">&gt;&gt; It&#39;s a roof.</p>
+<p begin="00:08:58.297" end="00:09:01.497" style="s2">A perfect roof.</p>
+<p begin="00:09:10.861" end="00:09:12.881" style="s2">&gt;&gt; [music]</p>
+<p begin="00:09:20.031" end="00:09:22.051" style="s2">[music]</p>
+<p begin="00:09:24.616" end="00:09:27.697" style="s2">[music]</p>
+<p begin="00:09:25.397" end="00:09:27.697" style="s2">&gt;&gt; What?</p>
+<p begin="00:09:57.197" end="00:09:59.986" style="s2">Behold</p>
+<p begin="00:09:58.397" end="00:10:02.006" style="s2">the heart of our city.</p>
+<p begin="00:09:59.986" end="00:10:02.006" style="s2">&gt;&gt; [music]</p>
+<p begin="00:10:12.431" end="00:10:14.451" style="s2">[music]</p>
+<p begin="00:10:22.257" end="00:10:24.932" style="s2">[clears throat]</p>
+<p begin="00:10:22.912" end="00:10:24.932" style="s2">[music]</p>
+<p begin="00:10:28.807" end="00:10:30.827" style="s2">[music]</p>
+<p begin="00:10:47.802" end="00:10:49.822" style="s2">[music]</p>
+<p begin="00:10:54.898" end="00:11:00.957" style="s2">&gt;&gt; It works. It actually works.</p>
+<p begin="00:10:58.937" end="00:11:00.957" style="s2">[music]</p>
+<p begin="00:11:17.298" end="00:11:20.398" style="s2">He&#39;s just waking up.</p>
+<p begin="00:11:21.862" end="00:11:23.882" style="s2">&gt;&gt; [music]</p>
+<p begin="00:11:51.338" end="00:11:53.358" style="s2">[music]</p>
+<p begin="00:11:56.898" end="00:12:01.218" style="s2">&gt;&gt; Not bad, giant.</p>
+<p begin="00:11:59.198" end="00:12:01.218" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:12:06.298" end="00:12:11.298" style="s2">&gt;&gt; Why help us?</p>
+<p begin="00:12:08.298" end="00:12:11.298" style="s2">You could just go home.</p>
+<p begin="00:12:11.698" end="00:12:15.899" style="s2">&gt;&gt; My job is to places before they</p>
+<p begin="00:12:13.299" end="00:12:15.899" style="s2">disappear.</p>
+<p begin="00:12:18.299" end="00:12:21.699" style="s2">I&#39;m tired of signing them away.</p>
+<p begin="00:12:22.599" end="00:12:25.799" style="s2">&gt;&gt; Then don&#39;t sign this one.</p>
+<p begin="00:12:29.328" end="00:12:31.348" style="s2">&gt;&gt; [music]</p>
+<p begin="00:12:41.773" end="00:12:43.793" style="s2">[music]</p>
+<p begin="00:12:44.099" end="00:12:46.699" style="s2">&gt;&gt; Oh, Grace.</p>
+<p begin="00:12:48.323" end="00:12:50.343" style="s2">[music]</p>
+<p begin="00:12:55.528" end="00:12:57.548" style="s2">[music]</p>
+<p begin="00:12:59.699" end="00:13:02.099" style="s2">Again.</p>
+<p begin="00:13:06.664" end="00:13:08.684" style="s2">[music]</p>
+<p begin="00:13:12.799" end="00:13:16.299" style="s2">Elias Thorne.</p>
+<p begin="00:13:14.399" end="00:13:17.699" style="s2">He was here.</p>
+<p begin="00:13:16.299" end="00:13:19.099" style="s2">The old builder.</p>
+<p begin="00:13:17.699" end="00:13:21.899" style="s2">A legend.</p>
+<p begin="00:13:19.099" end="00:13:21.899" style="s2">He went down there.</p>
+<p begin="00:13:22.384" end="00:13:24.404" style="s2">[music]</p>
+<p begin="00:13:26.969" end="00:13:28.989" style="s2">[music]</p>
+<p begin="00:13:38.759" end="00:13:40.779" style="s2">[music]</p>
+<p begin="00:13:47.274" end="00:13:49.294" style="s2">[music]</p>
+<p begin="00:13:53.169" end="00:13:55.189" style="s2">[music]</p>
+<p begin="00:13:57.899" end="00:14:00.199" style="s2">Well.</p>
+<p begin="00:14:11.899" end="00:14:16.094" style="s2">&gt;&gt; To find you.</p>
+<p begin="00:14:14.101" end="00:14:18.114" style="s2">Here.</p>
+<p begin="00:14:16.094" end="00:14:18.114" style="s2">[clears throat]</p>
+<p begin="00:14:22.501" end="00:14:27.101" style="s2">The fracture.</p>
+<p begin="00:14:24.301" end="00:14:27.101" style="s2">It&#39;s spreading.</p>
+<p begin="00:14:37.055" end="00:14:39.075" style="s2">&gt;&gt; [music]</p>
+<p begin="00:14:59.325" end="00:15:01.345" style="s2">[music]</p>
+<p begin="00:15:04.565" end="00:15:06.585" style="s2">[music]</p>
+<p begin="00:15:09.501" end="00:15:12.101" style="s2">&gt;&gt; Mercy.</p>
+<p begin="00:15:17.701" end="00:15:20.901" style="s2">&gt;&gt; The storm coming.</p>
+<p begin="00:15:19.201" end="00:15:22.701" style="s2">I&#39;m drilling at dawn tomorrow.</p>
+<p begin="00:15:20.901" end="00:15:25.701" style="s2">&gt;&gt; SHE&#39;S STILL DOWN THERE.</p>
+<p begin="00:15:22.701" end="00:15:25.701" style="s2">&gt;&gt; Then find her tonight.</p>
+<p begin="00:15:29.455" end="00:15:31.475" style="s2">&gt;&gt; [music]</p>
+<p begin="00:15:46.485" end="00:15:49.801" style="s2">[music]</p>
+<p begin="00:15:47.001" end="00:15:52.401" style="s2">&gt;&gt; FLOOD. TO THE HIGH GROUND. [screaming]</p>
+<p begin="00:15:49.801" end="00:15:52.401" style="s2">MOVE.</p>
+<p begin="00:16:02.206" end="00:16:04.226" style="s2">&gt;&gt; [music]</p>
+<p begin="00:16:11.376" end="00:16:13.396" style="s2">[music]</p>
+<p begin="00:16:23.821" end="00:16:25.841" style="s2">[music]</p>
+<p begin="00:16:29.061" end="00:16:31.081" style="s2">[music]</p>
+<p begin="00:16:34.956" end="00:16:37.602" style="s2">[music]</p>
+<p begin="00:16:35.602" end="00:16:37.602" style="s2">&gt;&gt; GET TO</p>
+<p begin="00:16:51.986" end="00:16:54.006" style="s2">&gt;&gt; [music]</p>
+<p begin="00:17:29.977" end="00:17:31.997" style="s2">[music]</p>
+<p begin="00:17:42.002" end="00:17:47.602" style="s2">&gt;&gt; GIANTS BRING FLOODS</p>
+<p begin="00:17:44.802" end="00:17:47.602" style="s2">every time.</p>
+<p begin="00:17:48.302" end="00:17:52.402" style="s2">&gt;&gt; This wasn&#39;t my</p>
+<p begin="00:17:49.402" end="00:17:52.402" style="s2">&gt;&gt; Leave Ruth him.</p>
+<p begin="00:17:59.452" end="00:18:01.472" style="s2">&gt;&gt; [music]</p>
+<p begin="00:18:09.277" end="00:18:11.297" style="s2">[music]</p>
+<p begin="00:18:11.302" end="00:18:16.402" style="s2">&gt;&gt; One use.</p>
+<p begin="00:18:13.102" end="00:18:16.402" style="s2">That&#39;s all I need to go home.</p>
+<p begin="00:18:19.102" end="00:18:21.122" style="s2">&gt;&gt; [music]</p>
+<p begin="00:18:23.403" end="00:18:26.903" style="s2">&gt;&gt; I should have just signed the report.</p>
+<p begin="00:18:27.617" end="00:18:29.637" style="s2">&gt;&gt; [music]</p>
+<p begin="00:18:36.603" end="00:18:41.703" style="s2">&gt;&gt; 40 years ago, I drilled into this hill</p>
+<p begin="00:18:39.603" end="00:18:44.603" style="s2">for science.</p>
+<p begin="00:18:41.703" end="00:18:47.103" style="s2">My drill flooded Roth Holm the first</p>
+<p begin="00:18:44.603" end="00:18:47.103" style="s2">time.</p>
+<p begin="00:18:50.903" end="00:18:56.503" style="s2">I stayed small to help them rebuild, to</p>
+<p begin="00:18:53.703" end="00:18:56.503" style="s2">make it right.</p>
+<p begin="00:18:56.803" end="00:19:02.103" style="s2">I broke their world once.</p>
+<p begin="00:18:59.058" end="00:19:02.103" style="s2">[music] You don&#39;t have to.</p>
+<p begin="00:19:08.003" end="00:19:12.003" style="s2">&gt;&gt; You need proof for the giants. Here.</p>
+<p begin="00:19:21.328" end="00:19:23.348" style="s2">[music]</p>
+<p begin="00:19:23.803" end="00:19:27.603" style="s2">If they pour concrete here, the whole</p>
+<p begin="00:19:25.603" end="00:19:30.503" style="s2">hill comes down.</p>
+<p begin="00:19:27.603" end="00:19:30.503" style="s2">&gt;&gt; Then show them.</p>
+<p begin="00:19:37.203" end="00:19:42.403" style="s2">She saved my people in the tunnel</p>
+<p begin="00:19:39.703" end="00:19:42.403" style="s2">and in the flood.</p>
+<p begin="00:19:50.903" end="00:19:56.103" style="s2">&gt;&gt; That map is our oldest secret.</p>
+<p begin="00:19:54.203" end="00:19:58.003" style="s2">Take it to the giants.</p>
+<p begin="00:19:56.103" end="00:20:00.503" style="s2">Make them listen.</p>
+<p begin="00:19:58.003" end="00:20:03.003" style="s2">&gt;&gt; For the first time, Ruth Hauk trusted a</p>
+<p begin="00:20:00.503" end="00:20:03.003" style="s2">giant.</p>
+<p begin="00:20:04.703" end="00:20:08.403" style="s2">&gt;&gt; The source of the disturbance lies</p>
+<p begin="00:20:06.403" end="00:20:10.303" style="s2">beyond the crystal caverns.</p>
+<p begin="00:20:08.403" end="00:20:11.803" style="s2">The lens will show the path, but the</p>
+<p begin="00:20:10.303" end="00:20:13.703" style="s2">path is treacherous.</p>
+<p begin="00:20:11.803" end="00:20:15.603" style="s2">&gt;&gt; The map is key. If we can chart the</p>
+<p begin="00:20:13.703" end="00:20:16.903" style="s2">steam vents, we can navigate the current</p>
+<p begin="00:20:15.603" end="00:20:18.003" style="s2">safely.</p>
+<p begin="00:20:16.903" end="00:20:19.803" style="s2">I can do this.</p>
+<p begin="00:20:18.003" end="00:20:22.203" style="s2">&gt;&gt; Then you must be careful.</p>
+<p begin="00:20:19.803" end="00:20:24.705" style="s2">The lens&#39;s light will be your guide, but</p>
+<p begin="00:20:22.203" end="00:20:27.505" style="s2">not your shield.</p>
+<p begin="00:20:24.705" end="00:20:27.505" style="s2">&gt;&gt; I won&#39;t fail.</p>
+<p begin="00:20:33.379" end="00:20:35.399" style="s2">&gt;&gt; [music]</p>
+<p begin="00:20:45.105" end="00:20:47.905" style="s2">&gt;&gt; Start drilling.</p>
+<p begin="00:20:49.705" end="00:20:52.905" style="s2">WE STILL HAVEN&#39;T FOUND HER.</p>
+<p begin="00:20:58.924" end="00:21:00.944" style="s2">&gt;&gt; [music]</p>
+<p begin="00:21:12.024" end="00:21:14.044" style="s2">[music]</p>
+<p begin="00:21:32.984" end="00:21:35.004" style="s2">[music]</p>
+<p begin="00:21:38.205" end="00:21:40.605" style="s2">&gt;&gt; MERCY?</p>
+<p begin="00:21:47.405" end="00:21:50.070" style="s2">&gt;&gt; DIE!</p>
+<p begin="00:21:48.049" end="00:21:50.070" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:21:52.635" end="00:21:54.655" style="s2">[music]</p>
+<p begin="00:22:08.905" end="00:22:12.905" style="s2">&gt;&gt; WHERE HAVE YOU BEEN? WE&#39;RE BEHIND</p>
+<p begin="00:22:10.505" end="00:22:12.905" style="s2">SCHEDULE.</p>
+<p begin="00:22:13.605" end="00:22:17.805" style="s2">&gt;&gt; Shut it down.</p>
+<p begin="00:22:15.405" end="00:22:17.805" style="s2">Please.</p>
+<p begin="00:22:18.705" end="00:22:21.505" style="s2">&gt;&gt; Give me one reason.</p>
+<p begin="00:22:25.505" end="00:22:28.306" style="s2">&gt;&gt; I&#39;ll give you a map.</p>
+<p begin="00:22:40.450" end="00:22:42.470" style="s2">[music]</p>
+<p begin="00:22:45.690" end="00:22:48.706" style="s2">[music]</p>
+<p begin="00:22:46.706" end="00:22:52.606" style="s2">Look.</p>
+<p begin="00:22:48.706" end="00:22:52.606" style="s2">The whole hill is full of caves.</p>
+<p begin="00:22:54.706" end="00:22:57.406" style="s2">&gt;&gt; Who made this?</p>
+<p begin="00:22:57.606" end="00:23:02.775" style="s2">&gt;&gt; People who know this hill very well.</p>
+<p begin="00:23:00.755" end="00:23:02.775" style="s2">&gt;&gt; [music]</p>
+<p begin="00:23:18.441" end="00:23:20.461" style="s2">[music]</p>
+<p begin="00:23:23.006" end="00:23:26.356" style="s2">&gt;&gt; Wow.</p>
+<p begin="00:23:24.336" end="00:23:26.356" style="s2">[music]</p>
+<p begin="00:23:29.206" end="00:23:33.506" style="s2">Pack it up.</p>
+<p begin="00:23:30.906" end="00:23:33.506" style="s2">We&#39;re done here.</p>
+<p begin="00:23:43.106" end="00:23:45.706" style="s2">&gt;&gt; It stopped.</p>
+<p begin="00:23:54.506" end="00:23:56.606" style="s2">Oh.</p>
+<p begin="00:23:57.741" end="00:23:59.761" style="s2">&gt;&gt; [music]</p>
+<p begin="00:24:09.306" end="00:24:12.506" style="s2">&gt;&gt; Mercy was into this.</p>
+<p begin="00:24:13.006" end="00:24:17.706" style="s2">Ancient letters,</p>
+<p begin="00:24:14.806" end="00:24:17.706" style="s2">deep respect,</p>
+<p begin="00:24:18.406" end="00:24:21.706" style="s2">and what lies beneath the ground.</p>
+<p begin="00:24:25.251" end="00:24:27.271" style="s2">&gt;&gt; [music]</p>
+<p begin="00:24:30.491" end="00:24:32.511" style="s2">[music]</p>
+<p begin="00:24:40.207" end="00:24:43.007" style="s2">&gt;&gt; You&#39;re going back down.</p>
+<p begin="00:24:43.908" end="00:24:48.607" style="s2">&gt;&gt; Last one.</p>
+<p begin="00:24:45.607" end="00:24:48.607" style="s2">It might not bring me back.</p>
+<p begin="00:24:48.832" end="00:24:53.007" style="s2">&gt;&gt; [music]</p>
+<p begin="00:24:50.408" end="00:24:56.007" style="s2">&gt;&gt; Then why go?</p>
+<p begin="00:24:53.007" end="00:24:56.007" style="s2">&gt;&gt; Because I promised them.</p>
+<p begin="00:25:17.408" end="00:25:22.292" style="s2">&gt;&gt; You came back.</p>
+<p begin="00:25:20.272" end="00:25:22.292" style="s2">[music]</p>
+<p begin="00:25:24.707" end="00:25:27.408" style="s2">You came back.</p>
+<p begin="00:25:30.307" end="00:25:33.307" style="s2">For good, maybe.</p>
+<p begin="00:25:44.507" end="00:25:46.527" style="s2">&gt;&gt; [music]</p>
+<p begin="00:25:58.917" end="00:26:00.937" style="s2">[music]</p>
+<p begin="00:26:04.158" end="00:26:06.178" style="s2">[music]</p>
+<p begin="00:26:21.843" end="00:26:23.863" style="s2">[music]</p>
+<p begin="00:26:24.607" end="00:26:30.007" style="s2">&gt;&gt; No more floods.</p>
+<p begin="00:26:26.908" end="00:26:30.007" style="s2">&gt;&gt; We build smarter now.</p>
+<p begin="00:26:57.213" end="00:27:00.809" style="s2">&gt;&gt; [music]</p>
+<p begin="00:26:57.409" end="00:27:00.809" style="s2">&gt;&gt; Best guard we&#39;ve ever had.</p>
+<p begin="00:27:12.909" end="00:27:18.173" style="s2">&gt;&gt; 40 years.</p>
+<p begin="00:27:15.309" end="00:27:20.193" style="s2">This is my home now.</p>
+<p begin="00:27:18.173" end="00:27:20.193" style="s2">[music]</p>
+<p begin="00:27:24.709" end="00:27:29.363" style="s2">Finish the maps I couldn&#39;t.</p>
+<p begin="00:27:27.343" end="00:27:29.363" style="s2">&gt;&gt; [music]</p>
+<p begin="00:27:46.339" end="00:27:48.359" style="s2">[music]</p>
+<p begin="00:27:58.129" end="00:28:00.149" style="s2">[music]</p>
+<p begin="00:28:10.409" end="00:28:13.609" style="s2">&gt;&gt; You built this with us.</p>
+<p begin="00:28:13.809" end="00:28:17.779" style="s2">You built it.</p>
+<p begin="00:28:15.709" end="00:28:19.799" style="s2">I just brought the bottle caps.</p>
+<p begin="00:28:17.779" end="00:28:19.799" style="s2">[laughter]</p>
+<p begin="00:28:21.054" end="00:28:25.109" style="s2">[sighs and gasps]</p>
+<p begin="00:28:22.709" end="00:28:26.949" style="s2">Will you come back?</p>
+<p begin="00:28:25.109" end="00:28:28.969" style="s2">&gt;&gt; Every sunrise I can.</p>
+<p begin="00:28:26.949" end="00:28:28.969" style="s2">&gt;&gt; [music]</p>
+<p begin="00:28:31.534" end="00:28:33.554" style="s2">[music]</p>
+<p begin="00:28:45.810" end="00:28:47.910" style="s2">&gt;&gt; Huh.</p>
+<p begin="00:28:53.804" end="00:28:55.824" style="s2">&gt;&gt; [music]</p>
+<p begin="00:28:58.389" end="00:29:00.409" style="s2">[music]</p>
+<p begin="00:29:25.245" end="00:29:27.265" style="s2">[music]</p>
+</div>
+</body>
+</tt>

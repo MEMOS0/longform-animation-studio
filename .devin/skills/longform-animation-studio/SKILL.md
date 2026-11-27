@@ -131,6 +131,8 @@ If a scene only repeats information, compress it, combine it, or delete it.
 
 Creature-family compressed-feature doctrine from VNDL: establish the creature as a dependent child through nest/feeding/touch/swaddling before power; use matched memory objects on both sides of a separated creature-human bond; ground the middle in seasonality, graves, animals, clothing, labor, and survival rather than only royalty; let public fear cost something bodily or relational before battle; resolve maximum fire/flight spectacle into a quiet recognition/protection image.
 
+Tiny-scale/community fantasy doctrine from Drakenhart: scale must change economics, not only size contrast — giant-world junk should become roofs, vehicles, tools, and infrastructure. Give the outsider protagonist institutional complicity or professional guilt, make community distrust historically rational, prove competence through an early practical save, use an elder/predecessor as a restitution mirror, let maps/proof stop extraction rather than defaulting to battle, and end with repeated rebuilding/chosen home rather than outsider departure.
+
 ### Long-form pacing
 
 Long duration is not stuffing. A long film needs modular escalation:
@@ -212,7 +214,7 @@ Current cross-channel mechanism hierarchy:
 3. **Usually insufficient alone:** scale, lore, army battles, crown politics, high visual polish, franchise continuity, or a “movie-like” label.
 4. **Format-specific:** serial cliffhangers belong to episodic systems; complete-film emotional payoff belongs to feature systems; compilation packaging must sell completeness and binge value.
 
-Use `knowledge/market/data-source-and-format-audit.md`, `knowledge/market/epic-ai-films-site-analysis.md`, `knowledge/market/ironcrest-deep-dive.md`, `knowledge/market/format-duration-performance.md`, and `knowledge/market/fifth-pass-breakout-media-deep-dive.md`, and `knowledge/market/fifthpass-hitlow-media-comparison.md; compressed immigrant/social melodrama evidence: knowledge/market/dramora-compressed-social-melodrama-deep-dive.md; floor/table social-proof circular inversion: knowledge/market/karma-floor-table-social-proof-deep-dive.md; compressed creature-family visual storytelling: knowledge/market/vndl-queen-monster-creature-family-deep-dive.md` before cross-channel creative decisions.
+Use `knowledge/market/data-source-and-format-audit.md`, `knowledge/market/epic-ai-films-site-analysis.md`, `knowledge/market/ironcrest-deep-dive.md`, `knowledge/market/format-duration-performance.md`, and `knowledge/market/fifth-pass-breakout-media-deep-dive.md`, and `knowledge/market/fifthpass-hitlow-media-comparison.md; compressed immigrant/social melodrama evidence: knowledge/market/dramora-compressed-social-melodrama-deep-dive.md; floor/table social-proof circular inversion: knowledge/market/karma-floor-table-social-proof-deep-dive.md; compressed creature-family visual storytelling: knowledge/market/vndl-queen-monster-creature-family-deep-dive.md; tiny-kingdom repair fantasy: knowledge/market/drakenhart-tiny-kingdom-breakout-deep-dive.md` before cross-channel creative decisions.
 
 ## Failure intelligence protocol
 
