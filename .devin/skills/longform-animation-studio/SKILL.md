@@ -393,6 +393,22 @@ For any analysis or creative plan, produce structured artifacts, not just prose:
 
 When unsure, say what evidence would reduce uncertainty. Do not fake certainty.
 
+## Modern family revenge doctrine
+
+Use `knowledge/market/primefate-reborn-family-revenge-deep-dive.md` when designing modern family/business revenge or rebirth melodrama. Evidence-backed rules:
+
+- show exploitation through an economic object in the first 30 seconds and bodily sacrifice by the first two minutes when the premise promises injustice
+- introduce rebirth/time travel only after the injustice is emotionally legible, then attach it to a visible countdown or irreversible deadline
+- pay the revenge promise publicly within the first 20-25% of runtime while creating larger consequences
+- use proof asymmetry: real sacrifice can leave scars while manipulators produce cleaner documentation
+- repeat memory objects so love, betrayal, and revenge remain emotionally connected
+- validate protagonist competence through creditors, workers, institutions, or strangers rather than self-description alone
+- let the antagonist's own extractive choices produce evidence and collapse; the hero should not manufacture every consequence
+- when the wound is familial, end justice/revenge with cost-aware recognition or grief rather than automatic emotional restoration
+
+For vertical/mobile melodrama, faces, threshold exclusion, documents, costumes, and object exchanges can carry power shifts without constant spectacle. Title/thumbnail must name the same dramatic contract; do not package an underworld-executor story as a lost-husband romance unless that dual promise is intentional and legible.
+
+
 ## Closure integrity
 
 A plot sequel hook is allowed only after the promised relational recognition/home/belonging payoff lands. If the story destroys exploitative infrastructure that supplied water, food, power, safety, or transport, the ending must show community survival, replacement, rationing, rebuilding, or another concrete consequence. Use the Spark `wd53-C7Na0Y` counterexample: strong hooks and polish can still underperform when mythic density, packaging mismatch, or unresolved aftermath obscures the final human answer.
