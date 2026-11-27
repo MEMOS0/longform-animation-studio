@@ -41,6 +41,7 @@ def main() -> None:
     media_p.add_argument("--subtitle", default="")
     media_p.add_argument("--output-dir", required=True)
     media_p.add_argument("--video-id", required=True)
+    media_p.add_argument("--contact-every", type=int, default=20)
 
     risk_p = sub.add_parser("evaluate-idea")
     risk_p.add_argument("--archive", default="data/processed/novdrama_analysis_rows.json")
@@ -87,7 +88,7 @@ def main() -> None:
         snapshot = date.fromisoformat(args.snapshot_date) if args.snapshot_date else None
         print(json.dumps({k: str(v) for k, v in comparative_analyze(Path(args.input), Path(args.output_dir), snapshot).items()}, indent=2))
     elif args.command == "analyze-media":
-        result = analyze_video(Path(args.video), Path(args.subtitle) if args.subtitle else None, Path(args.output_dir), args.video_id)
+        result = analyze_video(Path(args.video), Path(args.subtitle) if args.subtitle else None, Path(args.output_dir), args.video_id, contact_every=args.contact_every)
         print(json.dumps({k: str(v) for k, v in result.items()}, indent=2))
     elif args.command == "evaluate-idea":
         rows = json.loads(Path(args.archive).read_text(encoding="utf-8"))

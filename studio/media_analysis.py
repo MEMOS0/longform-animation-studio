@@ -365,10 +365,10 @@ def summarize(timeline: list[dict[str, Any]], visual_rows: list[dict[str, Any]],
     }
 
 
-def analyze_video(video_path: Path, subtitle_path: Path | None, output_dir: Path, video_id: str) -> dict[str, Path]:
+def analyze_video(video_path: Path, subtitle_path: Path | None, output_dir: Path, video_id: str, contact_every: int = 20) -> dict[str, Path]:
     output_dir.mkdir(parents=True, exist_ok=True)
     probe = ffprobe(video_path)
-    visual_rows, contact_sheets = sample_video_frames(video_path, output_dir / "contact_sheets", source_width=probe.get("width"), source_height=probe.get("height"))
+    visual_rows, contact_sheets = sample_video_frames(video_path, output_dir / "contact_sheets", contact_every=contact_every, source_width=probe.get("width"), source_height=probe.get("height"))
     cues = parse_ttml(subtitle_path)
     audio = audio_features(video_path, output_dir)
     timeline = merge_timeline(visual_rows, audio, cues)
