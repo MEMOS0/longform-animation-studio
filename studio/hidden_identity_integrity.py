@@ -57,10 +57,10 @@ def evaluate_hidden_identity_integrity(premise: dict[str, Any], architecture: di
 
     accountability = {
         "intelligent_deceived_party_evidence": bool(re.search(r"evidence|facts|records|documents|invoice|timeline|audit|investigat", full)),
-        "post_reveal_spatial_boundary": bool(re.search(r"separate homes|space|boundar|no gifts|no persuasion|leave|get out", full)),
+        "post_reveal_spatial_boundary": bool(re.search(r"separate homes|no gifts|no persuasion|get out|post[- ]reveal boundar|relationship boundar|enforc(?:e|ed|ing)[^\n]{0,40}space|space after (?:the )?reveal", full)),
         "procedural_full_disclosure": bool(re.search(r"full disclosure|every document|supporting documents|written record|original record|complete record", full)),
         "consent_based_help_rules": bool(re.search(r"help requires consent|no tests|no surveillance|questions replace traps|unless .*safety|say yes", full)),
-        "repeat_inconvenient_compliance": bool(re.search(r"when inconvenient|following them|prove it when|10 days|ten days|therapy|dates", full)),
+        "repeat_inconvenient_compliance": bool(re.search(r"when inconvenient|following them|prove it when|10 days|ten days|therapy|\bdates\b", full)),
         "truthful_rechoice": bool(re.search(r"choose me again|choose each other|full truth|with conditions|restart the marriage", full)),
     }
     accountability_missing = [key for key, ok in accountability.items() if not ok]

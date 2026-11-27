@@ -1235,3 +1235,11 @@ def test_hidden_identity_integrity_reports_queenflix_accountability_extensions()
     arch={"sequences":[{"turn":"competence and love grow before status"},{"turn":"the true identity reveal creates a trust wound because he lied"},{"turn":"evidence records documents full disclosure; separate homes and boundaries; help requires consent, no tests, no surveillance; he proves compliance when inconvenient and asks her to choose me again with full truth"},{"turn":"chosen love family belonging wedding"}]}
     result=evaluate_hidden_identity_integrity(premise,arch,[])
     assert all(result['queenflix_accountability'].values())
+
+
+def test_hidden_identity_predates_and_status_boundary_are_not_repair_evidence():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    premise={"title_candidates":["Poor Student Was Secretly a Billionaire Heir"],"opening_event":{"first_10_seconds":"a status boundary predates the hidden identity reveal"}}
+    result=evaluate_hidden_identity_integrity(premise,{},[])
+    assert not result['queenflix_accountability']['post_reveal_spatial_boundary']
+    assert not result['queenflix_accountability']['repeat_inconvenient_compliance']
