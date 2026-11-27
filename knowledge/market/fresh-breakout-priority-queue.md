@@ -24,7 +24,7 @@ Evidence tier: 1. Public Piped/search metadata only. This is a discovery queue, 
 
 ## Immediate next analyses recommended
 
-Completed since the original scan: `U_Tecg95FWA`, `G97N92SR1qQ`, `Z50wCIqEa2k`, `ylN26llRtmw`, `oHKc_rXrxm8`, `Gx7nwqNr9YY`, and `F-RnV2OicIU`.
+Completed since the original scan: `U_Tecg95FWA`, `G97N92SR1qQ`, `Z50wCIqEa2k`, `ylN26llRtmw`, `oHKc_rXrxm8`, `Gx7nwqNr9YY`, and `F-RnV2OicIU`. `iqCNxQ2_jSI` is now also completed as a contemporary child-power/family counterexample.
 
 1. Analyze `EUaUwhMAUgE` because the channel is extremely small, the duration sits in the production-friendly tier, and no subtitle track was exposed in the metadata; visual/audiovisual evidence must carry the analysis.
 2. Refresh the low-subscriber breakout scan after `EUaUwhMAUgE`; most initial leads are now analyzed.
