@@ -4514,3 +4514,54 @@ def test_cozy_validator_river_water_submerging_sink_counts_as_disaster_onset():
     ]}
     result=evaluate_cozy_disaster_shelter_integrity(premise,architecture,[])
     assert result['checks']['ordinary_labor_establishes_world_before_disaster'] is False
+
+
+def test_serial_relational_anchor_declared_format_and_series_of_crimes_boundary():
+    from studio.serial_relational_anchor_integrity import evaluate_serial_relational_anchor_integrity
+    declared={'release_format':'serial_episode','logline':'A spy protects her civilian friend from an assassin organization.'}
+    architecture={'sequences':[
+        {'summary':'After a painful goodbye, the agent returns home guilt-ridden because she broke her promise to her friend.'},
+        {'summary':'The organization threatens the civilian friend as bait while a mission unfolds.'},
+        {'summary':'The friend is abducted as a hostage, forcing an impossible choice.'},
+    ]}
+    assert evaluate_serial_relational_anchor_integrity(declared,architecture,[])['applies'] is True
+
+    standalone={'logline':'A standalone crime film about a detective solving a series of thefts.'}
+    assert evaluate_serial_relational_anchor_integrity(standalone,{},[])['applies'] is False
+
+
+def test_serial_relational_anchor_ending_requires_final_turn_not_guidance_or_penultimate_event():
+    from studio.serial_relational_anchor_integrity import evaluate_serial_relational_anchor_integrity
+    premise={'release_format':'serial_episode','logline':'A spy protects her civilian friend from an assassin organization.'}
+    scenes=[
+        {'turn':'After a painful goodbye, the agent returns home guilt-ridden because she broke her promise to her friend.'},
+        {'turn':'The organization threatens the civilian friend as bait. The friend is arrested by corrupt agents.'},
+        {'turn':'The finale quietly stops with the agent thinking in her room.','dialogue_design':{'function':'make choices, objections, and proof implications audible rather than explaining theme'}},
+    ]
+    result=evaluate_serial_relational_anchor_integrity(premise,{},scenes)
+    assert result['checks']['chapter_ends_on_active_turn_or_cliffhanger'] is False
+
+
+def test_serial_relational_anchor_season_label_is_not_relationship():
+    from studio.serial_relational_anchor_integrity import evaluate_serial_relational_anchor_integrity
+    premise={'logline':'Season 1 of a spy thriller about missions inside a criminal organization.'}
+    result=evaluate_serial_relational_anchor_integrity(premise,{},[])
+    assert result['applies'] is True
+    assert result['checks']['intimate_anchor_exists_beyond_the_mission'] is False
+
+
+def test_cozy_validator_household_water_systems_do_not_count_as_disaster_onset():
+    from studio.cozy_disaster_shelter_integrity import evaluate_cozy_disaster_shelter_integrity
+    for chore_text in (
+        'Piped water from the river enters their home and fills the sink.',
+        "Water enters the household's cistern through the pipe.",
+    ):
+        premise={'logline':'A family shelters during a flood.'}
+        architecture={'sequences':[
+            {'summary':chore_text},
+            {'summary':'They harvest vegetables and prepare food before the storm.'},
+            {'summary':'The storm flood enters their home. They survive rising water with food and drinking water.'},
+            {'summary':'After the flood they rebuild the house and share a warm meal.'},
+        ]}
+        result=evaluate_cozy_disaster_shelter_integrity(premise,architecture,[])
+        assert result['checks']['ordinary_labor_establishes_world_before_disaster'] is True
