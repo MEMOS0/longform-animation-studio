@@ -69,6 +69,7 @@ def _closure_before_hook_in_ordered_text(text: str) -> bool:
 
 
 def _has_coercive_intimacy(text: str) -> bool:
+    text = re.sub(r"\bnoo+\b", "no", text)
     coercion_patterns = [
         r"no right to refuse",
         r"can.?t refuse",
@@ -180,14 +181,20 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
     architecture_positive = "positive" in architecture_states
     architecture_negative = "negative" in architecture_states
     if len(architecture_states) >= 2:
-        if architecture_states[0] == "closure_only" and architecture_states[-1] == "hook_only":
+        payoff_recap_hook = bool(architecture_units and re.search(r"new mission|top-level mission|return to the team|sequel hook|next mission|ordered to|called away", architecture_units[-1]) and re.search(r"recap|previously|earlier|before|had already", architecture_units[-1]))
+        if payoff_recap_hook:
+            architecture_negative = True
+        elif architecture_states[0] == "closure_only" and architecture_states[-1] == "hook_only":
             architecture_positive = True
         if architecture_states[0] == "hook_only" and architecture_states[-1] == "closure_only":
             architecture_negative = True
     architecture_has_closure = any(state in {"positive", "closure_only"} for state in architecture_states)
     architecture_has_hook = any(state in {"positive", "negative", "hook_only"} for state in architecture_states)
 
-    if scene_order == "positive":
+    explicit_unresolved = bool(isinstance(architecture, dict) and re.search(r"unresolved|remains open|conflict remains|no closure", _text(architecture.get("ending_payoff", "")).lower()))
+    if explicit_unresolved:
+        closure_before_hook = False
+    elif scene_order == "positive":
         closure_before_hook = True
     elif scene_order == "negative":
         closure_before_hook = False

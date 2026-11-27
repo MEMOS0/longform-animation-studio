@@ -2938,3 +2938,53 @@ def test_competence_cascade_now_kiss_me_is_not_refusal():
     premise,architecture,scenes=_competence_cascade_fixture()
     scenes.append({'summary':'She says, “Now kiss me again,” and he keeps kissing her.'})
     assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['romance_or_intimacy_respects_refusal'] is True
+
+
+def test_taboo_family_irony_balanced_example():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'The Don Next Door','logline':'A student secretly marries a powerful older mafia boss, unaware he is her best friend\'s father.'}
+    architecture={'sequences':[
+      {'summary':'The audience knows the hidden identity while the best friend stays unaware and investigates to protect her.'},
+      {'summary':'Mansion breakfast, boutique shopping, campus humiliation, hockey arena party, and mafia business operations rotate the conflict.'},
+      {'summary':'After public gold-digger shame, he uses evidence and family rules rather than lawless force. She hears the truth, says no more lies, rejects him, and can leave.'},
+      {'summary':'He apologizes for possessive surveillance and asks for free choice. The final reveal makes the best friend ask whether she is now family or stepmother.'}
+    ]}
+    r=evaluate_taboo_family_irony_integrity(premise,architecture,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] > 0.8
+
+
+def test_taboo_family_irony_flags_unrepaired_possession():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Owned',"logline":"A student secretly marries a mafia boss who is her best friend's father."}
+    architecture={'sequences':[{'summary':'After a drunken marriage he cuts her internet, uses surveillance, and says you are mine. The story treats this as romantic proof.'}]}
+    r=evaluate_taboo_family_irony_integrity(premise,architecture,[])
+    assert r['checks']['possessiveness_is_flaw_not_reward'] is False
+    assert r['score_0_to_1'] < 0.7
+
+
+def test_competence_cascade_opening_family_is_not_final_closure():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['ending_payoff']={'repair':'The conflict remains open.'}
+    scenes=[
+      {'summary':'The family appears in the opening hospital backstory.'},
+      {'summary':'The academy conflict escalates.'},
+      {'summary':'The final scene leaves the conspiracy unresolved.'},
+    ]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is False
+
+
+def test_competence_cascade_recapped_early_mission_is_not_positioned_late():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['sequences'][-1]={'summary':'Police deliver justice and the family is reunited.'}
+    architecture['ending_payoff']={'repair':'Recap: before the finale, command had already offered her a new mission.'}
+    assert evaluate_competence_cascade_integrity(premise,architecture,[])['checks']['closure_before_mission_hook'] is False
+
+
+def test_competence_cascade_drawn_out_refusal_is_detected():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes.append({'summary':'She says, “Nooo!”, but he keeps kissing her.'})
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['romance_or_intimacy_respects_refusal'] is False
