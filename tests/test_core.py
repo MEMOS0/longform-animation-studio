@@ -3495,3 +3495,70 @@ def test_maternal_sovereignty_integrity_rejects_status_without_repair():
     assert r['checks']['professional_competence_is_independent_of_hidden_status'] is False
     assert r['checks']['male_repair_requires_material_cost_not_only_apology'] is False
     assert r['checks']['release_of_control_precedes_reunion'] is False
+
+
+def test_maternal_sovereignty_does_not_apply_to_creature_survival():
+    import json
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise=json.load(open('examples/generated_survival_concepts/foghorn_turtle_keeper_premise.json',encoding='utf8'))
+    assert evaluate_maternal_sovereignty_integrity(premise,{},[])['applies'] is False
+
+
+def test_chosen_bond_negated_force_and_former_partner_sentence_not_new_coercion():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    architecture['sequences']=[
+      {'summary':'At the public bonding ceremony her fated mate cheats and humiliates her; her blood essence sustained his succession.'},
+      {'summary':'She refuses him. Her former mate once forced women into alliances. The elf king will not force her to marry; he asks consent and waits patiently before she freely chooses him.'},
+    ]
+    assert evaluate_chosen_bond_integrity(premise,architecture,scenes)['checks']['alternative_bond_is_chosen_and_consenting'] is True
+
+
+def test_maternal_sovereignty_release_after_reunion_fails_order():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][2]={'summary':'A medical board examination and security footage expose the false pregnancy publicly. When he says he never cheated, she answers that he never trusted her.'}
+    architecture['sequences'][-1]={'summary':'He apologizes, she says yes and they remarry; afterward he signs the divorce papers and releases control.'}
+    assert evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)['checks']['release_of_control_precedes_reunion'] is False
+
+
+def test_maternal_sovereignty_epilogue_truth_does_not_inform_rechoice():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][-1]={'summary':'He signs the divorce papers and lets go. She says yes and they remarry. In the epilogue the truth is revealed about why he abandoned her.'}
+    assert evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)['checks']['re_choice_is_informed_and_not_coerced'] is False
+
+
+def test_restitution_pact_time_clause_abandonment_is_actual_betrayal():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    architecture['sequences']=[
+      {'summary':'They vow to protect her forever after the pact.'},
+      {'summary':'When hunters attack, they abandon her and flee.'},
+      {'summary':'She hides her restored sight. The alternative protector heals her before she learns he is the hidden king; he lets her end the engagement before the identity reveal. They make a mutual vow at home.'},
+    ]
+    assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is True
+
+
+def test_competence_cascade_later_next_episode_mention_does_not_excuse_premature_assignment():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes=[
+      {'id':'S01','scene_goal':'Before the current case is closed, command assigns her a new case.'},
+      {'id':'S02','scene_goal':'The next episode will continue the mission.'},
+    ]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is False
+
+
+def test_maternal_sovereignty_patient_apology_is_not_material_sacrifice():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][-1]={'summary':'He signs the divorce papers and lets go. He apologizes and waits patiently, but gives up nothing. The truth is revealed before she says yes and they remarry.'}
+    assert evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)['checks']['male_repair_requires_material_cost_not_only_apology'] is False
+
+
+def test_maternal_sovereignty_disclosure_is_not_costly_concealment():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][1]={'summary':'She reveals her pregnancy to protect the baby and becomes chief healer through professional medical competence.'}
+    assert evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)['checks']['pregnancy_concealment_is_protective_and_costly'] is False
