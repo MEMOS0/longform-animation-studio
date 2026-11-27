@@ -1,9 +1,11 @@
 """Transparent hidden-identity melodrama integrity checks.
 
-These heuristics encode the Lioren breakout finding: hidden wealth/status works best
-when competence and love precede the reveal, the lie creates a trust cost, power is
-used prosocially, and the ending subordinates status to chosen love or family.
-They are warnings for creative review, not oracle predictions.
+These heuristics encode hidden-status craft doctrine: competence and love precede
+the reveal, deception creates a trust cost, power is used prosocially, and the
+ending subordinates status to chosen love/family. Royal variants additionally
+require material ritual consequences, post-reveal heroine agency, and explicit
+status-invariant re-choice. These are warnings for creative review, not oracle
+predictions.
 """
 from __future__ import annotations
 
@@ -21,19 +23,51 @@ def _text(value: Any) -> str:
     return ""
 
 
+DISCLOSURE_PATTERN = (
+    r"identity reveal|"
+    r"reveal(?:s|ed)? (?:his|her|their)? ?(?:identity|wealth|status)|"
+    r"true identity|billionaire heir|heiress|"
+    r"tells? .{0,40}(?:she|he) is (?:the )?(?:king.?s daughter|queen.?s son|princess|prince)|"
+    r"(?:admits?|confesses?|discloses?) (?:being|that(?: she| he)? is|her identity|his identity|their identity)"
+    r".{0,60}(?:identity|princess|prince|royal|heir|heiress|king.?s daughter)|"
+    r"introduces? .{0,60}(?:daughter|heiress|heir|princess|prince)"
+)
+
+
 def evaluate_hidden_identity_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     premise_text = _text(premise).lower()
     architecture_text = _text(architecture).lower()
     scenes_text = _text(scenes).lower()
     full = "\n".join([premise_text, architecture_text, scenes_text])
-    status_hidden = bool(re.search(r"hidden (?:identity|heir|heiress|billionaire|wealth|status)|secret(?:ly)? (?:rich|wealthy|heir|billionaire)|poor (?:student|worker|mechanic|student)|true identity|not knowing he was|not knowing she was|secret(?:ly)? (?:a )?(?:princess|prince|royal)|hidden (?:princess|prince|royal identity)|escaped? .*palace.*disguise", full))
-    occupational_disguise = bool(re.search(r"disguised as (?:a )?(?:maid|village girl|commoner|servant|beggar)|poses? as (?:a )?(?:maid|village girl|commoner|servant|beggar)", full))
-    concealed_rank_context = bool(re.search(r"princess|prince|royal|palace|kingdom|crown|king|queen|heir|heiress|billionaire|wealth", full))
+
+    status_hidden = bool(re.search(
+        r"hidden (?:identity|heir|heiress|billionaire|wealth|status)|"
+        r"secret(?:ly)? (?:rich|wealthy|heir|billionaire)|"
+        r"poor (?:student|worker|mechanic|student)|true identity|"
+        r"not knowing he was|not knowing she was|"
+        r"secret(?:ly)? (?:a )?(?:princess|prince|royal)|"
+        r"hidden (?:princess|prince|royal identity)|"
+        r"(?:princess|prince|countess|count|duke|duchess|royal).{0,40}(?:secret|hidden|disguis)|"
+        r"escaped? .*palace.*disguise",
+        full,
+    ))
+    occupational_disguise = bool(re.search(
+        r"disguis(?:ed|es|ing)?(?: herself| himself| themselves)? as (?:a )?(?:maid|village girl|commoner|servant|beggar)|"
+        r"poses? as (?:a )?(?:maid|village girl|commoner|servant|beggar)",
+        full,
+    ))
+    rank_tokens = set(re.findall(r"[a-z]+", full))
+    rank_vocabulary = {
+        "princess", "prince", "royal", "palace", "kingdom", "crown", "king", "queen",
+        "heir", "heiress", "count", "countess", "duke", "duchess", "lord", "lady",
+        "billionaire", "wealth",
+    }
+    concealed_rank_context = bool(rank_vocabulary & rank_tokens)
     hidden = status_hidden or (occupational_disguise and concealed_rank_context)
     if not hidden:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
-    reveal = bool(re.search(r"identity reveal|reveal(?:s|ed)? (?:his|her|their)? ?(?:identity|wealth|status)|true identity|billionaire heir|heiress|tells? .*?(?:she|he) is (?:the )?(?:king.?s daughter|queen.?s son|princess|prince)|admits? .*?(?:identity|princess|prince)|confesses? .*?(?:identity|princess|prince)|discloses? .*?(?:identity|princess|prince)", full))
+    reveal = bool(re.search(DISCLOSURE_PATTERN, full))
     competence = bool(re.search(r"competence|corrects?|valuation|solves?|repairs?|work(?:s|ed)?|craft|skill|earns?|proves?|intellectual|publicly validates?", full))
     ordinary_bond = bool(re.search(r"before (?:status|wealth)|ordinary kindness|coffee|study|library|meal|work together|kindness|care|love(?:d)? before|non-status", full))
     trust_cost = bool(re.search(r"trust wound|lie|lied|hiding the truth|apolog|needs time|informed choice|wrong to hide|trust (?:is|was) (?:damaged|broken)", full))
@@ -66,10 +100,11 @@ def evaluate_hidden_identity_integrity(premise: dict[str, Any], architecture: di
         "repeat_inconvenient_compliance": bool(re.search(r"when inconvenient|following them|prove it when|10 days|ten days|therapy|\bdates\b", full)),
         "truthful_rechoice": bool(re.search(r"choose me again|choose each other|full truth|with conditions|restart the marriage", full)),
     }
+
     ordered = "\n".join([architecture_text, scenes_text, premise_text])
-    reveal_match = re.search(r"identity reveal|reveal(?:s|ed)? (?:his|her|their)? ?(?:identity|wealth|status)|true identity|tells? .*?(?:she|he) is|admits?|confesses?|discloses?", ordered)
+    reveal_match = re.search(DISCLOSURE_PATTERN, ordered)
     post_reveal_text = ordered[reveal_match.end():] if reveal_match else ""
-    royal_variant = bool(re.search(r"princess|prince|royal|palace|kingdom|crown", full))
+    royal_variant = bool({"princess", "prince", "royal", "palace", "kingdom", "crown", "countess", "count", "duke", "duchess"} & rank_tokens)
     royal_extensions = {
         "ritual_or_object_has_material_consequence": bool(re.search(r"rose|ring|token|ritual|law|ceremony|crown|object", full)) and bool(re.search(r"house|home|hut|palace|marry|marriage|heir|kingdom|inherit|live in|public", full)),
         "agency_retained_after_reveal": bool(re.search(r"she (?:exposes?|interrupts?|saves?|investigates?|chooses?|protects?)|heroine (?:exposes?|saves?|chooses?)|her evidence|she brings proof|female protagonist.*(?:evidence|proof|save|expose)", post_reveal_text)),
@@ -81,9 +116,19 @@ def evaluate_hidden_identity_integrity(premise: dict[str, Any], architecture: di
         warnings.append("QueenFlix accountability extensions incomplete: " + ", ".join(accountability_missing))
     if royal_variant and royal_missing:
         warnings.append("Golden Rose royal extensions incomplete: " + ", ".join(royal_missing))
+
     base_score = sum(checks.values()) / len(checks)
     accountability_score = sum(accountability.values()) / len(accountability)
     score = 0.7 * base_score + 0.3 * accountability_score
     if royal_variant:
         checks.update(royal_extensions)
-    return {"applies": True, "score_0_to_1": round(score, 3), "base_score_0_to_1": round(base_score, 3), "accountability_score_0_to_1": round(accountability_score, 3), "warnings": warnings, "checks": checks, "queenflix_accountability": accountability, "golden_rose_extensions": royal_extensions}
+    return {
+        "applies": True,
+        "score_0_to_1": round(score, 3),
+        "base_score_0_to_1": round(base_score, 3),
+        "accountability_score_0_to_1": round(accountability_score, 3),
+        "warnings": warnings,
+        "checks": checks,
+        "queenflix_accountability": accountability,
+        "golden_rose_extensions": royal_extensions,
+    }

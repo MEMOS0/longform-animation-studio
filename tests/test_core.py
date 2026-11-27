@@ -1998,3 +1998,30 @@ def test_refusal_to_marry_crown_is_not_rechoice():
     p={"logline":"a secret princess disguised as a maid loves a hidden prince. he says he will not marry a crown, but after the truth they separate."}
     r=evaluate_hidden_identity_integrity(p,{},[])
     assert not r['golden_rose_extensions']['truthful_status_invariant_rechoice']
+
+
+def test_unrelated_admission_not_identity_reveal():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    p={"logline":"a secret princess disguised as a maid admits stealing bread from a prince, then leaves."}
+    r=evaluate_hidden_identity_integrity(p,{},[])
+    assert not r['checks']['reveal_present']
+
+
+def test_introduced_heiress_reveal_allows_aftermath_credit():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    p={"logline":"a princess secretly disguised as a commoner loves before status through ordinary kindness. the king introduces his concealed daughter as his heiress. after that she exposes poison evidence and they choose each other in a palace or hut every day."}
+    r=evaluate_hidden_identity_integrity(p,{},[])
+    assert r['checks']['reveal_present']
+    assert r['golden_rose_extensions']['agency_retained_after_reveal']
+
+
+def test_disguised_countess_applies_hidden_rank_review():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    r=evaluate_hidden_identity_integrity({"logline":"a countess disguises herself as a commoner and falls in love"},{},[])
+    assert r['applies']
+
+
+def test_looking_does_not_count_as_king_rank_context():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    r=evaluate_hidden_identity_integrity({"logline":"a detective poses as a maid while looking for evidence"},{},[])
+    assert not r['applies']
