@@ -1210,3 +1210,20 @@ def test_compound_expansion_personal_safety_does_not_mask_infrastructure_collaps
     result=evaluate_compound_expansion_readiness(premise,arch,[])
     assert any('infrastructure' in warning or 'community survival' in warning for warning in result['warnings'])
     assert result['score_0_to_1']<1.0
+
+
+def test_creature_contract_partial_opening_draft_not_perfect():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.compound_expansion import evaluate_compound_expansion_readiness
+    from studio.creature_pacing import evaluate_creature_pacing
+    premise=generate_premises('creature_economic_melodrama',1,32)[0]
+    arch=generate_architecture(premise)
+    opening_only=generate_scenes(premise,arch)[:1]
+    compound=evaluate_compound_expansion_readiness(premise,arch,opening_only)
+    pacing=evaluate_creature_pacing(premise,arch,opening_only)
+    assert compound['score_0_to_1']<0.2
+    assert pacing['score_0_to_1']<0.2
+    assert any('partial scene draft' in warning for warning in compound['warnings'])
+    assert any('partial scene draft' in warning for warning in pacing['warnings'])

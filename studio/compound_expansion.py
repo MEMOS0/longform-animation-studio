@@ -55,14 +55,26 @@ def evaluate_compound_expansion_readiness(premise: dict[str, Any], architecture:
     if ambiguous_tail and not relational_closure:
         warnings.append("ambiguous departure/rebirth imagery alone is not enough closure for ethical creature-family reuse")
 
+    expected_scene_count = len(sequences)
+    scene_keys = []
+    for index, scene in enumerate(scenes):
+        key = scene.get("scene_id") or scene.get("sequence") or scene.get("time_range") or index
+        scene_keys.append(str(key))
+    scene_coverage_ratio = min(len(set(scene_keys)) / expected_scene_count, 1.0) if expected_scene_count and scenes else 1.0
+    if expected_scene_count and scenes and scene_coverage_ratio < 1.0:
+        warnings.append("compound expansion readiness cannot treat a partial scene draft as ending-complete; the last supplied scene is not necessarily the ending")
+
     target = float(premise.get("target_minutes") or 0)
     expansion_floor = round(target * 0.5, 1) if target else None
     expansion_ceiling = round(target * 0.95, 1) if target else None
     score = 1.0 if creature_like and relational_closure and not unresolved_system else max(0.0, 1.0 - 0.35 * len(warnings)) if creature_like else 0.0
+    if expected_scene_count and scenes and scene_coverage_ratio < 1.0:
+        score = min(score, 0.65 * scene_coverage_ratio)
     return {
         "applicable": creature_like,
         "score_0_to_1": round(score, 2),
         "warnings": warnings,
+        "scene_coverage_ratio": round(scene_coverage_ratio, 3),
         "packaging_boundary": "Compound expansion is packaging evidence, not proof that longer runtime caused stronger performance.",
         "recommended_plan": {
             "standalone_asset": "finish the emotional wound and show material/community consequence before any reuse",
