@@ -1733,3 +1733,40 @@ def test_returns_nothing_from_estate_is_not_restitution():
     p={"logline":"werewolf husband romance truth reveal. he returns nothing from her estate"}
     r=evaluate_animal_guise_consent(p,{},[])
     assert not r['checks']['material_agency_restored']
+
+
+def test_guardian_civic_orphan_acceptance_does_not_apply():
+    from studio.found_family_guardian_integrity import evaluate_found_family_guardian_integrity
+    p={"logline":"a woman becomes the city's guardian. orphans among the people accept her as the city's guardian"}
+    r=evaluate_found_family_guardian_integrity(p,{},[])
+    assert not r['applies']
+
+
+def test_creature_architecture_ending_overrides_promised_logline_closure():
+    from studio.creature_power_inversion import evaluate_creature_power_inversion
+    p={"logline":"dragon exhales frost instead of fire. final recognition contact village thaw rebuild"}
+    arch={"sequences":[{"ending":"battle smoke"},{"ending":"the dragon leaves alone"}],"ending_payoff":{"payoff_image":"empty cave"}}
+    r=evaluate_creature_power_inversion(p,arch,[])
+    assert not r['checks']['recognition_contact_closure']
+    assert not r['checks']['communal_consequence']
+
+
+def test_early_logline_homecoming_is_not_closure_evidence():
+    from studio.found_family_guardian_integrity import evaluate_found_family_guardian_integrity
+    p={"logline":"a giant found family daughter carries her home at the beginning. in the end she leaves alone without contact"}
+    r=evaluate_found_family_guardian_integrity(p,{},[])
+    assert not r['checks']['physical_custody_or_carrying_closure']
+
+
+def test_guardian_sheltering_counts_as_care():
+    from studio.found_family_guardian_integrity import evaluate_found_family_guardian_integrity
+    p={"logline":"giant found family daughter. he shelters and feeds the child each night"}
+    r=evaluate_found_family_guardian_integrity(p,{},[])
+    assert r['checks']['repeated_operational_care']
+
+
+def test_fire_melts_ice_object_is_not_power_inversion():
+    from studio.creature_power_inversion import evaluate_creature_power_inversion
+    p={"logline":"a dragon breathes fire but instead melts ice rather than burning a town"}
+    r=evaluate_creature_power_inversion(p,{},[])
+    assert not r['applies']

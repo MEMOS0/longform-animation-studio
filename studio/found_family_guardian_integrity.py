@@ -39,9 +39,25 @@ def _ending_keyed_text(value: Any) -> str:
 
 def evaluate_found_family_guardian_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    guardian = bool(re.search(r"giant|creature parent|nonhuman parent|adoptive|found family|guardian.{0,80}(?:child|daughter|infant|baby|orphan)|(?:child|daughter|infant|baby|orphan).{0,80}guardian", full))
+    guardian_core = bool(re.search(r"\bgiant\b|creature parent|nonhuman parent|adoptive parent", full))
+    personal_guardian_patterns = [
+        r"guardian\s+(?:of|for|to)\s+(?:the\s+|a\s+|an\s+)?(?:child|daughter|infant|baby|orphan)",
+        r"guardian.{0,40}(?:raises?\b|feeds?\b|shelters?\b|protects\b)",
+        r"(?:child|daughter|infant|baby|orphan).{0,80}(?:becomes?|as)\s+(?:her|his|their)\s+guardian",
+        r"(?:raises?|adopts?|takes? in).{0,80}guardian",
+    ]
+    personal_guardian = False
+    for pattern in personal_guardian_patterns:
+        for match in re.finditer(pattern, full):
+            window = full[max(0, match.start() - 30):match.end() + 30]
+            if re.search(r"\bcity(?:'s)?\b|\bpublic\b|\bkingdom\b|\bpeople\b", window):
+                continue
+            personal_guardian = True
+            break
+        if personal_guardian:
+            break
     child = bool(re.search(r"daughter|child|infant|baby|orphan", full))
-    applies = guardian and child
+    applies = child and (guardian_core or personal_guardian)
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
@@ -52,15 +68,16 @@ def evaluate_found_family_guardian_integrity(premise: dict[str, Any], architectu
     seqs = architecture.get("sequences", []) if isinstance(architecture, dict) else []
     ending_payoff = architecture.get("ending_payoff") if isinstance(architecture, dict) else {}
     premise_end = _ending_keyed_text(premise)
-    if len(scenes) < 5 and premise.get("logline"):
+    architecture_has_ending = bool(seqs[-2:] or ending_payoff)
+    if len(scenes) < 5 and not architecture_has_ending and premise.get("logline"):
         logline = str(premise.get("logline")).lower()
         clauses = re.split(r"[.!?;]\s*", logline)
-        ending_clauses = [clause for clause in clauses if re.search(r"in the end|at the end|finally|aftermath|epilogue|home(?:coming)?|rebuild|reunit", clause)]
+        ending_clauses = [clause for clause in clauses if re.search(r"in the end|at the end|final(?:ly)?|aftermath|epilogue", clause) and re.search(r"home(?:coming)?|rebuild|reunit|carries|carry", clause)]
         premise_end = "\n".join([premise_end, *ending_clauses]).strip()
     finale_text = "\n".join([_text(seqs[-2:]), _text(ending_payoff), _text(scenes[-5:]), premise_end]).strip().lower()
     care_categories = {
         "feeding": bool(re.search(r"\bfeed(?:s|ing)?\b|\bfood\b|\bbread\b|\bmilk\b|\beat(?:s|ing)?\b", full)),
-        "warmth": bool(re.search(r"\bwarm(?:s|ed|th)?\b|\bfire\b|\bblanket\b|\bshelter\b", full)),
+        "warmth": bool(re.search(r"\bwarm(?:s|ed|th)?\b|\bfire\b|\bblanket\b|\bshelter(?:s|ed|ing)?\b", full)),
         "teaching": bool(re.search(r"\bteach(?:es|ing)?\b|\btrain(?:s|ed|ing)?\b|\blearn(?:s|ed|ing)?\b", full)),
         "survival": bool(re.search(r"\bhunt(?:s|ed|ing)?\b|\btrack(?:s|ed|ing)?\b|\bbow\b|\bsurvive(?:s|d)?\b", full)),
         "protection": bool(re.search(r"\bprotect(?:s|ed|ing)?\b|\bshield(?:s|ed)?\b|\bhide(?:s|n|ing)?\b|\bsave(?:s|d)?\b", full)),
