@@ -121,3 +121,9 @@ This is a design-support heuristic, not a predictor. The correct validation path
 - Separate vertical mobile-native melodrama from landscape cinematic fantasy/sci-fi packaging.
 - Compare thumbnail changes over time when detectable; a thumbnail may have been updated after a video became successful.
 - Do not use stylized-art face detection as reliable evidence yet; the current Haar-based detector fails on these images and is intentionally not used as a conclusion.
+
+## Packaging/content divergence addendum from *Beyond the Night* (2026-11-27)
+
+Evidence source: `knowledge/market/frame-horizon-beyond-night-supernatural-investigation-deep-dive.md` and `data/raw/thumbnails/frame_horizon/V5VfY1lfN2c.maxresdefault.jpg`.
+
+The Frame Horizon thumbnail uses broad soldier/action imagery and “FULL MOVIE” text while the film's actual differentiating engine is supernatural child-witness investigation plus father-son protection. Treat this as a counterexample to rigid thumbnail-accuracy rules, not as proof that misleading packaging works. Record thumbnail/content divergence as a distinct packaging variable: broad genre iconography, accurate unique hook, vulnerability/protection pairing, and procedural mystery imagery should be separate concept families for future A/B testing. Never infer CTR causality without private test data.

@@ -2106,3 +2106,54 @@ def test_continued_identity_mystery_is_not_disclosure():
     )
     assert result["checks"]["reveal_present"] is True
     assert result["checks"]["agency_retained_after_reveal"] is False
+
+
+def _witness_pass_project():
+    premise = {
+        "title": "The Child Witness",
+        "logline": "A father protects his son after a supernatural vision reveals a missing girl cold case. In the end they are safe at home together.",
+    }
+    architecture = {
+        "sequences": [
+            {"summary": "Hospital bedside care: the father holds his son's hand, comforts him through grief, and keeps him safe before asking what he knows."},
+            {"summary": "The child remembers impossible knowledge about a missing girl; adults debate trauma, imagination, spiritual memory, and evidence while police verify records, photographs, locations, and witness testimony."},
+            {"summary": "The sheriff and a powerful local family resist the investigation through a cover-up. The child is forced to publicly identify the killer, becomes afraid, and is protected by his father before the criminal confesses the moral truth."},
+        ],
+        "ending_payoff": {"summary": "After the confession, father and son go home together, safe, ordinary, and no longer extracting answers from the child."},
+    }
+    scenes = [
+        {"summary": "The child names the victim and the knowledge becomes dangerous; the father protects him rather than exploiting him as an oracle.", "dialogue": [{"speaker": "FATHER", "line": "You are not alone. I will keep you safe."}]}
+    ]
+    return premise, architecture, scenes
+
+
+def test_supernatural_child_witness_full_chain_passes():
+    from studio.supernatural_child_witness import evaluate_supernatural_child_witness
+    premise, architecture, scenes = _witness_pass_project()
+    result = evaluate_supernatural_child_witness(premise, architecture, scenes)
+    assert result["applies"] is True
+    assert result["score_0_to_1"] == 1.0
+    assert result["warnings"] == []
+
+
+def test_supernatural_child_witness_requires_investigation_context():
+    from studio.supernatural_child_witness import evaluate_supernatural_child_witness
+    result = evaluate_supernatural_child_witness(
+        {"title": "Dreamer", "logline": "A child has supernatural visions and learns kindness."},
+        {"sequences": []},
+        [],
+    )
+    assert result["applies"] is False
+
+
+def test_supernatural_child_witness_flags_oracle_shortcut():
+    from studio.supernatural_child_witness import evaluate_supernatural_child_witness
+    result = evaluate_supernatural_child_witness(
+        {"title": "Oracle Boy", "logline": "A boy with supernatural visions solves a murder cold case. The police arrest the killer and everyone celebrates."},
+        {"sequences": [{"summary": "The detective asks the boy what he knows, then acts on the answer."}]},
+        [],
+    )
+    assert result["applies"] is True
+    assert result["checks"]["care_before_knowledge_extraction"] is False
+    assert result["checks"]["confession_or_moral_truth_payoff"] is False
+    assert result["warnings"]

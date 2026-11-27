@@ -180,3 +180,13 @@ Evidence source: `knowledge/market/veylorn-lost-kind-epic-dark-fantasy-deep-dive
 3. **Climactic moral language belongs at the decision point.** “If we break the heart now, we'll destroy what's left of them” converts the climax into triage. Do not distribute this kind of moral exposition evenly through the film; reserve it for irreversible choices.
 4. **Accountability scenes need positional conflict.** The post-battle command argument around 40:00–44:45 works because characters are not discussing war abstractly: casualties, blame, command splitting, creature value, and the protagonist's strategic value all alter power.
 5. **Closing thematic dialogue must be earned by visible consequence.** The final peace speech works only because the audience has seen casualties, extraction, trapped souls, infrastructural darkness, and return/home imagery. A similar speech without those images would be unearned thesis dialogue.
+
+## Supernatural child-witness dialogue addendum from *Beyond the Night* (2026-11-27)
+
+Evidence source: `knowledge/market/frame-horizon-beyond-night-supernatural-investigation-deep-dive.md`.
+
+1. **Belief dialogue must cost the adult something.** The useful conflict is not “Is the child magical?” but whether a parent, officer, doctor, or sheriff will risk reputation, safety, or local standing by believing them.
+2. **Convert impossible knowledge into procedure through dialogue.** Lines about walking routes, recognizing buildings, checking photographs, records, or witnesses turn visions into investigation. Do not let the child merely pronounce answers.
+3. **Keep skepticism in the room after evidence begins.** Ray's resistance to reincarnation framing preserves tension because interpretation and proof remain separate. The audience can believe the clue while doubting the explanation.
+4. **Care language must interrupt extraction language.** “You are not alone” and “I will keep you safe” should actively stop adults from interrogating the child as an oracle.
+5. **The confession should reveal moral contradiction, not only culprit identity.** Marty's “I loved her / I tried” material lands because love, cowardice, protection, and violence coexist. Culprit naming alone is thinner.

@@ -436,3 +436,11 @@ Use the `epic_creature_extraction` project-evaluation gate as a warning system, 
 Before greenlighting royal hidden-identity romance, read `knowledge/market/sceptertv-golden-rose-royal-hidden-identity-deep-dive.md`. The portable mechanism is not royalty itself. It is mutual or ethically bounded concealment + ordinary kindness before status + ritual/law forcing material consequences + trust wound after lying + procedural public evidence + heroine agency after reveal + explicit re-choice in both high- and low-status conditions.
 
 The `hidden_identity_integrity` gate now includes Golden Rose royal extensions when royal language is present. Treat warnings as craft review prompts, not as hit prediction.
+
+## 2026-11-27 supernatural child-witness doctrine update
+
+Before greenlighting supernatural child-memory/crime-investigation thrillers, read `knowledge/market/frame-horizon-beyond-night-supernatural-investigation-deep-dive.md`. The portable mechanism is not “child has powers.” It is care before knowledge extraction, knowledge as social/physical danger, competing explanations, procedural conversion of clues, institutional/local-power resistance, costly child exposure, confession or moral-truth payoff, and ordinary safety after supernatural usefulness.
+
+Use the `supernatural_child_witness` project-evaluation gate as a warning system, not as a hit predictor. Do not copy Beyond the Night's plot, dialogue, characters, or thumbnail; extract the mechanism and build original stories.
+
+Packaging caution: the film's generic soldier/action thumbnail diverges sharply from its actual supernatural-family mystery engine. Record packaging/content divergence as a variable and compare broad action iconography against accurate vulnerability/protection or procedural-mystery concepts instead of assuming either is universally superior.
