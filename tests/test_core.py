@@ -956,3 +956,19 @@ def test_scale_community_integrity_accepts_drakenhart_pattern():
     assert result['applies']
     assert result['score_0_to_1']>=0.8
 
+
+
+def test_creature_dialogue_performance_notes_follow_actual_speaker_role():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    scenes=generate_scenes(premise,generate_architecture(premise))
+    shelter_pressure=scenes[1]['dialogue_design']['spoken_exchange'][0]
+    pain_cost=scenes[2]['dialogue_design']['spoken_exchange'][3]
+    assert shelter_pressure['speaker']=='her grandmother'
+    assert 'urgent help' in shelter_pressure['power_move']
+    assert 'institutional demand' not in shelter_pressure['power_move']
+    assert pain_cost['speaker']=='land trust'
+    assert 'commodification threat' in pain_cost['power_move']
+    assert 'restrained' not in pain_cost['delivery']

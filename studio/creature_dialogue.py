@@ -201,13 +201,30 @@ def creature_dialogue_materials(ctx: dict[str, Any], index: int) -> dict[str, An
     }
     enriched_exchange = []
     for beat, (speaker, line, action), subtext in zip(beat_names, exchanges, subtexts):
+        craft = dict(craft_by_beat[beat])
+        if beat == "external_pressure" and speaker != authority:
+            craft.update({
+                "power_move": "urgent help or shelter pressure that can quietly become control",
+                "listening_response": "responds to the concrete danger by offering speed, work, or shelter rather than institutional command",
+                "delivery": "low, urgent, practical; concern is audible even when the offer threatens agency",
+                "status_shift": "the helper gains logistical control while risking takeover of the protagonist's choice",
+                "room_sound": "breath, cloth, footsteps, food/labor texture, and nearby danger crowd the vulnerable body",
+            })
+        elif beat == "evidence_or_cost" and speaker == authority:
+            craft.update({
+                "power_move": "coercive bodily escalation or commodification threat",
+                "listening_response": "the authority answers refusal by forcing the creature's body to carry the cost",
+                "delivery": "sharp, transactional, threatening; cruelty is procedural rather than observational",
+                "status_shift": "authority tries to convert fear and bodily harm into control",
+                "room_sound": "chains, coin counts, hostile murmur, and creature distress overpower restraint",
+            })
         enriched_exchange.append({
             "beat": beat,
             "speaker": speaker,
             "line": line,
             "action": action,
             "subtext": subtext,
-            **craft_by_beat[beat],
+            **craft,
         })
     return {
         "key_lines": key_lines,
