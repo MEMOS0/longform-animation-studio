@@ -4319,3 +4319,32 @@ def test_labor_romance_consent_repair_context_and_negation_regressions():
     objection={'sequences':[{'summary':'She objects when he kisses her without permission. He apologizes for the kiss and changes his behavior.'}]}
     objection_result=evaluate_labor_romance_power_balance_integrity(premise,objection,[])
     assert objection_result['checks']['consent_pressure_is_named_not_romanticized'] is True
+
+def test_review_regressions_labor_consent_and_cozy_applicability():
+    from studio.labor_romance_power_balance_integrity import evaluate_labor_romance_power_balance_integrity
+    from studio.cozy_disaster_shelter_integrity import evaluate_cozy_disaster_shelter_integrity
+    premise={'logline':'A poor maid in debt disguises herself to work for a billionaire boss and falls in love.'}
+
+    for text in [
+        'She no longer consents after he kisses her without asking.',
+        'He kisses her without asking and she refuses. He didn’t take responsibility.',
+        'He kisses her without asking. Nobody objected. He apologizes for the kiss.',
+    ]:
+        result=evaluate_labor_romance_power_balance_integrity(premise,{'sequences':[{'summary':text}]},[])
+        assert result['checks']['consent_pressure_is_named_not_romanticized'] is False, text
+
+    grabbed={'sequences':[{'summary':'He grabbed her without asking. She refused. He apologizes for grabbing her and changes his behavior.'}]}
+    assert evaluate_labor_romance_power_balance_integrity(premise,grabbed,[])['checks']['consent_pressure_is_named_not_romanticized'] is True
+
+    flooding={'logline':'A family sheltering upstairs survives flooding with food and water.'}
+    assert evaluate_cozy_disaster_shelter_integrity(flooding,{},[])['applies'] is True
+
+    financial={'logline':'A mother returns home after a financial disaster to rescue her marriage.'}
+    assert evaluate_cozy_disaster_shelter_integrity(financial,{},[])['applies'] is False
+
+    late_labor_premise={'logline':'A family survives a storm in their home with food.'}
+    late_labor={'sequences':[{'summary':'The storm floods the house. Later they cook during recovery.'}]}
+    assert evaluate_cozy_disaster_shelter_integrity(late_labor_premise,late_labor,[])['checks']['ordinary_labor_establishes_world_before_disaster'] is False
+
+    survival_only={'sequences':[{'summary':'They board the windows and endure. The storm passes and the film cuts to black.'}]}
+    assert evaluate_cozy_disaster_shelter_integrity(late_labor_premise,survival_only,[])['checks']['resolution_rebuilds_or_restores_connection'] is False
