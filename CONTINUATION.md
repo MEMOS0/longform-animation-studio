@@ -836,3 +836,13 @@ Continue immediately with non-creature low-subscriber queue: `s-Zn2WhkkH8`, `wHW
 - Before rotation, metadata/subtitle download had begun using `python tools/download_piped_archive.py --ids NDZc_6T4h6E --media-dir /c/Users/Administrator/evidence_tmp --raw-dir data/raw/piped --workers 1`. `data/raw/piped/NDZc_6T4h6E.en.ttml` and `.piped.json` already exist locally; the media download may not have completed and must be checked/restarted after rotation.
 - Do not analyze from transcript alone. Once media exists, run `studio.media_analysis.analyze_video` with output under `evidence/research/rediscovery_analysis/NDZc_6T4h6E/` or the established equivalent, inspect full-runtime contact sheets plus transcript windows, remove `audio_16k.wav`, then write the report and decide whether deception/consent mechanics warrant a new validator or integration into existing romance-deception/hidden-identity gates.
 - PR #5 queue order after this target: `AaLngUHEqVY`, `83i28EMbqqk`, `XL0d9SmAA1M`, `dHdkaKb3_S8`, then optional `DD35huaUIa8`/`yA_UfmmVAG0`.
+
+## 2026-11-27 rotate after Seven Clover consent-repair integration
+
+- Active PR: #6 `Integrate contract marriage consent repair intelligence` on branch `devin/1795802596-seven-clover-deception-analysis`.
+- Latest pushed commit: `f338cc8150c98bd5cd885b3fe387ef6a8f0384c5`.
+- Latest verified test baseline: 308 passed.
+- Completed full audiovisual analysis for Seven Clover `NDZc_6T4h6E` (112m40s, 3,369 cues, 17 contact sheets, complete local media). Report: `knowledge/market/seven-clover-nora-contract-marriage-consent-repair-deep-dive.md`.
+- Integrated doctrine into `coerced_rechoice_integrity` rather than creating a redundant validator: contract/fake marriage applicability, transactional intimacy boundaries, family/board pressure not counting as consent, and non-retaliation after rejection.
+- Important craft result: the portable mechanism is consent repair under power asymmetry (“she doesn't owe me”), not fake pregnancy, wedding crashing, amnesia, or billionaire CEO packaging.
+- If Devin Review findings arrive for PR #6, handle/triage first. Otherwise continue queue with `AaLngUHEqVY` (extreme-length assassin/reborn school bullying case), then `83i28EMbqqk` compressed fantasy, then `XL0d9SmAA1M` power-asymmetry stress test.
