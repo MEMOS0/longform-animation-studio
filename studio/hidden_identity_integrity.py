@@ -54,5 +54,17 @@ def evaluate_hidden_identity_integrity(premise: dict[str, Any], architecture: di
         "wealth_subordinated_to_belonging": "ending does not clearly subordinate wealth/status to chosen love, family, home, or belonging",
     }
     warnings = [label for key, label in labels.items() if not checks[key]]
+
+    accountability = {
+        "intelligent_deceived_party_evidence": bool(re.search(r"evidence|facts|records|documents|invoice|timeline|audit|investigat", full)),
+        "post_reveal_spatial_boundary": bool(re.search(r"separate homes|space|boundar|no gifts|no persuasion|leave|get out", full)),
+        "procedural_full_disclosure": bool(re.search(r"full disclosure|every document|supporting documents|written record|original record|complete record", full)),
+        "consent_based_help_rules": bool(re.search(r"help requires consent|no tests|no surveillance|questions replace traps|unless .*safety|say yes", full)),
+        "repeat_inconvenient_compliance": bool(re.search(r"when inconvenient|following them|prove it when|10 days|ten days|therapy|dates", full)),
+        "truthful_rechoice": bool(re.search(r"choose me again|choose each other|full truth|with conditions|restart the marriage", full)),
+    }
+    accountability_missing = [key for key, ok in accountability.items() if not ok]
+    if hidden and accountability_missing:
+        warnings.append("QueenFlix accountability extensions incomplete: " + ", ".join(accountability_missing))
     score = sum(checks.values()) / len(checks)
-    return {"applies": True, "score_0_to_1": round(score, 3), "warnings": warnings, "checks": checks}
+    return {"applies": True, "score_0_to_1": round(score, 3), "warnings": warnings, "checks": checks, "queenflix_accountability": accountability}

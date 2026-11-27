@@ -1227,3 +1227,11 @@ def test_creature_contract_partial_opening_draft_not_perfect():
     assert pacing['score_0_to_1']<0.2
     assert any('partial scene draft' in warning for warning in compound['warnings'])
     assert any('partial scene draft' in warning for warning in pacing['warnings'])
+
+
+def test_hidden_identity_integrity_reports_queenflix_accountability_extensions():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    premise={"title_candidates":["The CEO Faked Being Broke"],"opening_event":{"first_5_minutes":"ordinary kindness before status"}}
+    arch={"sequences":[{"turn":"competence and love grow before status"},{"turn":"the true identity reveal creates a trust wound because he lied"},{"turn":"evidence records documents full disclosure; separate homes and boundaries; help requires consent, no tests, no surveillance; he proves compliance when inconvenient and asks her to choose me again with full truth"},{"turn":"chosen love family belonging wedding"}]}
+    result=evaluate_hidden_identity_integrity(premise,arch,[])
+    assert all(result['queenflix_accountability'].values())

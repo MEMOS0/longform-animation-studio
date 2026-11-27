@@ -566,3 +566,8 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - Format correction: vertical dialogue-rich romance can sustain long composed shots with very dense subtitles/dialogue; this is not the same pacing machine as sparse creature fantasy.
 - Committed report: `knowledge/market/queenflix-hidden-identity-romcom-deep-dive.md` with timestamped evidence and sound/pacing table.
 - PR #4 review findings were fixed/triaged; tests reached 127 passed before the QueenFlix documentation/evidence commit.
+
+## 2026-11-27 pre-rotation integration note
+
+- QueenFlix doctrine partially integrated into `hidden_identity_integrity.py` as `queenflix_accountability` checks: intelligent evidence-driven deceived party, post-reveal spatial boundary, procedural full disclosure, consent-based help rules, inconvenient repeat compliance, truthful re-choice. Tests: 128 passed.
+- Next high-priority work: deepen these checks from advisory output into scored gates without weakening Lioren baseline; continue priority queue with `U_Tecg95FWA` or `Z50wCIqEa2k`; monitor/triage PR #4 review if new findings arrive.
