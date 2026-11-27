@@ -30,6 +30,21 @@ def _ending_keyed_text(value: Any) -> str:
     return ""
 
 
+def _closure_contract_text(value: Any) -> str:
+    closure_keys = {"final_sequence_use", "closing_reversal", "consent_or_personhood_repair", "payoff_image"}
+    if isinstance(value, dict):
+        parts = []
+        for key, item in value.items():
+            if str(key).lower() in closure_keys:
+                parts.append(_text(item))
+            elif isinstance(item, (dict, list)):
+                parts.append(_closure_contract_text(item))
+        return "\n".join(parts)
+    if isinstance(value, list):
+        return "\n".join(_closure_contract_text(item) for item in value)
+    return ""
+
+
 def evaluate_family_exit_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     applies = bool(re.search(r"obedient daughter|family favorit|favoritism|twin sister|dowry|left without saying goodbye|chloe.?s shadow", full))
@@ -43,7 +58,7 @@ def evaluate_family_exit_integrity(premise: dict[str, Any], architecture: dict[s
     ending_payoff = architecture.get("ending_payoff") if isinstance(architecture, dict) else {}
     finale_source = "\n".join([_text(seqs[-2:]), _text(ending_payoff), _text(scenes[-5:])]).strip().lower()
     if not finale_source:
-        finale_source = _ending_keyed_text(premise_body).strip().lower()
+        finale_source = "\n".join([_ending_keyed_text(premise_body), _closure_contract_text(premise_body)]).strip().lower()
     finale_text = finale_source
 
     checks = {

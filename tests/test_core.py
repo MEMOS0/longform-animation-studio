@@ -1501,3 +1501,30 @@ def test_romance_blocks_from_contact_counts_as_rejection():
     from studio.romance_deception_integrity import evaluate_romance_deception_integrity
     premise={"title_candidates":["Her Online Boyfriend Was 16"],"opening_event":{"first_5_minutes":"she blocks him from contacting her after learning his age"}}
     assert evaluate_romance_deception_integrity(premise,{},[])['checks']['immediate_boundary_or_rejection']
+
+
+def test_animal_guise_consent_accepts_mythictwist_pattern():
+    from studio.animal_guise_consent import evaluate_animal_guise_consent
+    premise={"title_candidates":["She Thought He Was a Dog, Turns Out He's the Alpha King"],"logline":"werewolf husband in wolf form and luna mate romance"}
+    arch={"sequences":[
+      {"turn":"she demands conditions inheritance deeds gold because she had no say; cares, bandages, teaches button, protects and dances with him"},
+      {"turn":"she says I hate being lied to liar, sleeping in separate rooms not sharing a bed; he used that form to make me forgive and destroyed everything, lowest man"},
+      {"turn":"mother estate deeds orchard rent ledgers recovered it all; stay or leave won't force you, no one asked you before, will you stand beside me, this time my choice"},
+      {"turn":"kidnapping and forced marriage are not consensual; guilty sentenced prison arrest"}]}
+    result=evaluate_animal_guise_consent(premise,arch,[])
+    assert result['applies']
+    assert result['score_0_to_1']==1.0
+
+
+def test_animal_guise_consent_flags_cute_unrepaired_disguise():
+    from studio.animal_guise_consent import evaluate_animal_guise_consent
+    premise={"title_candidates":["Her Dog Was the Alpha King"],"logline":"she cuddles the cute werewolf every night and they marry"}
+    result=evaluate_animal_guise_consent(premise,{},[])
+    assert result['score_0_to_1']<0.5
+
+
+def test_family_exit_schema_closure_fields_count():
+    from studio.family_exit_integrity import evaluate_family_exit_integrity
+    premise={"title_candidates":["Left Without Saying Goodbye"],"logline":"family favoritism dowry hospital","meaning_carrier":{"final_sequence_use":"mother says I was wrong and regret; bounded if we have time; she feels nothing and no longer needs forgiveness"},"relational_contract":{"consent_or_personhood_repair":"boundary if we have time not punishment"}}
+    result=evaluate_family_exit_integrity(premise,{},[])
+    assert result['checks']['repair_not_objects_only']
