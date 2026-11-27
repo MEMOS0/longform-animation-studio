@@ -2677,3 +2677,24 @@ def test_object_testimony_speaking_watch_has_personhood():
     summary="The museum watch speaks and begs to be spared."
     r=evaluate_object_testimony_integrity(premise,{"sequences":[{"summary":summary}]},[])
     assert r["checks"]["objects_have_history_or_personhood"] is True
+
+
+def test_object_testimony_third_person_speaks_applies():
+    from studio.object_testimony_integrity import evaluate_object_testimony_integrity
+    premise={"title":"Museum Watch","logline":"A museum appraiser discovers that a stolen watch speaks about provenance and restoration."}
+    assert evaluate_object_testimony_integrity(premise,{},[])["applies"] is True
+
+
+def test_object_testimony_unrelated_cancellation_preserves_analysis():
+    from studio.object_testimony_integrity import evaluate_object_testimony_integrity
+    premise={"title":"Museum Watch","logline":"A museum appraiser hears a stolen watch speak; its testimony concerns provenance and restoration."}
+    summary="The watch remembers only fragments of the theft. The appraiser cancels an auction and orders chemical analysis."
+    r=evaluate_object_testimony_integrity(premise,{"sequences":[{"summary":summary}]},[])
+    assert r["checks"]["magic_produces_leads_not_verdicts"] is True
+    assert r["checks"]["verification_is_procedural"] is True
+
+
+def test_object_testimony_non_speaking_revealing_artifacts_not_applicable():
+    from studio.object_testimony_integrity import evaluate_object_testimony_integrity
+    premise={"title":"Museum Artifacts","logline":"Museum artifacts reveal a collection's history of provenance and restoration without speaking."}
+    assert evaluate_object_testimony_integrity(premise,{},[])["applies"] is False
