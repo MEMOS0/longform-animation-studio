@@ -8,6 +8,7 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 
 - `NDZc_6T4h6E`: Seven Clover contract-marriage analysis completed in PR #6 worktree/branch; do not re-run even if PR merge is pending.
 - `AaLngUHEqVY`: Jasmine Drama competence-cascade analysis completed in `knowledge/market/jasmine-drama-reborn-assassin-competence-cascade-deep-dive.md`.
+- `XL0d9SmAA1M`: DramaShine taboo-family dramatic-irony analysis completed in `knowledge/market/dramashine-mafia-bestie-dad-taboo-irony-deep-dive.md`.
 
 - `26o_ccDnTSg`: Nightfall economic-abandonment analysis completed.
 - `xhqE43r-faA`: Nightfall wrongful-accusation analysis completed.
@@ -42,7 +43,7 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 - Why priority: tests extreme-length episodic retention, reborn-competence power inversion, institutional bullying, and revenge pacing in a non-English/C-drama-adjacent package.
 - Required caution: subtitles/dubbing/language alignment may be unreliable; do not claim full comprehension if aligned English evidence is unavailable.
 
-### 1. `XL0d9SmAA1M` — DramaShine AI
+### Completed: `XL0d9SmAA1M` — DramaShine AI
 
 - Title: *One Night With a Mafia Boss Turned Me Into His Wife—He's My Bestie's Dad!*
 - Scale/performance: about 17.5k subscribers, 674,597 views in 8.5 days, about 79,266 views/day.
@@ -84,6 +85,5 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 
 ## Recommended order
 
-1. `XL0d9SmAA1M` — consent/power-asymmetry stress test.
-2. `dHdkaKb3_S8` — fantasy betrayal/re-choice comparison.
+1. `dHdkaKb3_S8` — fantasy betrayal/re-choice comparison.
 3. `DD35huaUIa8` and `yA_UfmmVAG0` — only if they still look novel after opening/metadata inspection.

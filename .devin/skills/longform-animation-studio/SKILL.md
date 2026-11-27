@@ -516,3 +516,10 @@ Use the `competence_cascade_integrity` project-evaluation gate as a warning syst
 Before greenlighting short compressed wish/creature-family fantasy, read `knowledge/market/fableheart-hunters-mark-compressed-wish-creature-family-deep-dive.md`. The portable mechanism is not “child gets magical wish.” It is bodily belonging shame + physical constraint + ritual moral rule + protagonist-caused pursuit + vulnerable/personlike wish carrier + possession reframed as another's attachment + sacrifice before reward + adult blame repair + transformation that integrates identity.
 
 Use the `compressed_wish_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy THE HUNTER'S MARK 3, its mermaid family, creature design, dialogue, or thumbnail; extract the mechanism and build original stories.
+
+
+## 2026-11-27 taboo-family dramatic-irony doctrine update
+
+Before greenlighting forbidden-family, best-friend-parent, stepfamily, guardian-taboo, or age/power-asymmetric mafia/CEO romance, read `knowledge/market/dramashine-mafia-bestie-dad-taboo-irony-deep-dive.md`. The portable mechanism is not “sleeping with the wrong powerful man.” It is compounded relational impossibility in the opening + audience-superior knowledge + an active protective misdirector + rotating social arenas + public shame/class wound + power constrained by rules + protagonist freedom to reject truth + possessiveness treated as a repaired flaw + an ending that reclassifies family order.
+
+Use the `taboo_family_irony_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy DramaShine's exact mistaken-marriage plot, characters, dialogue, or thumbnail; extract the dramatic-irony mechanism and build original stories. Intoxicated/mistaken marriage, surveillance, possessive carrying, and jealousy control are anti-patterns unless explicitly bounded and repaired.

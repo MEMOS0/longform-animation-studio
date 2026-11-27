@@ -187,3 +187,10 @@ The Jasmine thumbnail uses a hidden-competence split-self crowd pattern: sociall
 Evidence source: `knowledge/market/fableheart-hunters-mark-compressed-wish-creature-family-deep-dive.md` and `data/raw/thumbnails/fableheart_films/83i28EMbqqk.maxresdefault.webp`.
 
 The Fableheart thumbnail uses boundary-touch creature-family packaging: human father on rock, mermaid mother in water, hybrid child reaching across the boundary, and a huge starry tail behind the relationship. The spectacle is truthful but subordinate to the emotional action. Reusable mechanism: place the child/protagonist as a physical bridge between incompatible worlds and let magical scale frame the near-touch rather than replace it.
+
+
+## Taboo-family recognition collage thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/dramashine-mafia-bestie-dad-taboo-irony-deep-dive.md` and `data/raw/thumbnails/dramashine_ai/XL0d9SmAA1M.jpg`.
+
+The DramaShine thumbnail uses a taboo-family recognition collage: central age-gap intimate embrace, luxury chandelier wealth, public-dance inset, chaotic devil-costume best friend, shocked phone/facial-recognition inset, and oversized gold “Bestie's Tyrant Dad” typography. The packaging sells the relational recognition shock more clearly than the mafia/crime element. Reusable mechanism: combine romantic intimacy, the socially forbidden witness, and the discovery device in one mobile-legible triangle. Do not copy the exact glossy collage; design original thumbnails around the film's actual forbidden relation, protector/misdirector, and reveal object. This is packaging-pattern evidence, not CTR proof.
