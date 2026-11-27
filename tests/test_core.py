@@ -3711,3 +3711,70 @@ def test_protective_kinship_integrity_does_not_apply_to_generic_creature_surviva
     premise={'title':'Turtle of the Salt City','logline':'A turtle child survives eviction and protects a storm-fragile community.'}
     architecture={'sequences':[{'summary':'A community contract protects water and shelter.'}]}
     assert evaluate_protective_kinship_integrity(premise,architecture,[])['applies'] is False
+
+def test_protective_kinship_does_not_apply_to_emberseed_creature_example():
+    import json
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise=json.load(open('examples/generated_creature_concepts/emberseed_oven_cart_premise.json',encoding='utf8'))
+    architecture=json.load(open('examples/generated_creature_concepts/emberseed_oven_cart_architecture.json',encoding='utf8'))
+    assert evaluate_protective_kinship_integrity(premise,architecture,[])['applies'] is False
+
+
+def test_protective_kinship_screenplay_order_is_not_reversed_by_outline():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise,architecture,scenes=_protective_kinship_fixture()
+    architecture['sequences'][3]={'summary':'She chooses a real marriage and kisses him.'}
+    architecture['sequences'][4]={'summary':'Her healing gift belongs to herself, not property.'}
+    scenes=[{'summary':'He transfers treasury keys, money, control, and freedom to leave. Later she chooses a real marriage and kisses him.'}]
+    assert evaluate_protective_kinship_integrity(premise,architecture,scenes)['checks']['material_autonomy_transfer_precedes_intimacy'] is True
+
+
+def test_protective_kinship_denied_freedom_does_not_count_as_consent():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise,architecture,scenes=_protective_kinship_fixture()
+    architecture['sequences'][3]={'summary':'He admits the truth: he used her because he needed her strength. He transfers treasury keys, accounts, estates, revenues, money, and control.'}
+    architecture['sequences'][4]={'summary':'He tells her she is not free to leave and she cannot refuse. She chooses a real marriage and kisses him. Her healing gift belongs to herself, not property.'}
+    result=evaluate_protective_kinship_integrity(premise,architecture,scenes)
+    assert result['checks']['consent_preserving_re_choice'] is False
+
+
+def test_protective_kinship_instrumental_setup_is_not_confession():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise,architecture,scenes=_protective_kinship_fixture()
+    architecture['sequences'][3]={'summary':'The premise calls this an instrumental marriage. He transfers treasury keys, accounts, money, and freedom to leave.'}
+    architecture['sequences'][4]={'summary':'He tells her she can refuse. She chooses a real marriage and kisses him. Her healing gift belongs to herself, not property.'}
+    assert evaluate_protective_kinship_integrity(premise,architecture,scenes)['checks']['truth_disclosure_precedes_re_choice'] is False
+
+
+def test_maternal_sovereignty_never_even_signing_does_not_count_as_release():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][2]={'summary':'A medical board examination exposes the false pregnancy publicly. He never even signs the divorce papers.'}
+    architecture['sequences'][3]={'summary':'The truth is never publicly revealed. He gives up the election campaign, waits patiently, and she says yes when he asks her to marry him again, calling her healer princess.'}
+    result=evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)
+    assert result['checks']['release_of_control_precedes_reunion'] is False
+    assert result['checks']['re_choice_is_informed_and_not_coerced'] is False
+
+
+def test_protective_kinship_parental_love_is_not_romantic_intimacy():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise,architecture,scenes=_protective_kinship_fixture()
+    architecture['sequences'][0]={'summary':'She loves her daughters. The daughters have split shoes, bruises, thin blankets, empty wardrobes, and freezing rooms. Mira tells them that if anyone hurts them they must tell me immediately and protects them.'}
+    assert evaluate_protective_kinship_integrity(premise,architecture,scenes)['checks']['material_autonomy_transfer_precedes_intimacy'] is True
+
+
+def test_protective_kinship_unchallenged_child_property_fails():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise,architecture,scenes=_protective_kinship_fixture()
+    architecture['sequences'][4]={'summary':'The court seizes her magical gift and treats children as property. He tells her she can refuse. She chooses a real marriage and kisses him.'}
+    assert evaluate_protective_kinship_integrity(premise,architecture,scenes)['checks']['child_power_is_not_property'] is False
+
+
+def test_restitution_pact_whenever_does_not_cross_newline_into_actual_betrayal():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    architecture['sequences']=[
+      {'summary':'They vow to protect her forever after the pact. The pact restores sight whenever'},
+      {'summary':'they betray her in the hunter attack.'},
+    ]
+    assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is True
