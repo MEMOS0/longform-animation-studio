@@ -632,3 +632,11 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - Completed sampled full-runtime visual/music analysis of `EUaUwhMAUgE` (28:18 Movie Maxx, about 754k views, 1.9k subscribers; no subtitle track exposed). Evidence under `evidence/research/rediscovery_analysis/EUaUwhMAUgE/`.
 - Report committed: `knowledge/market/moviemaxx-last-dragon-visual-myth-deep-dive.md`. Doctrine: atmospheric mythic creature fantasy can break out through sound-off legible objectives, scale contrast, protective care before destiny spectacle, and slow composed shots; exact causality is weaker without dialogue, so use its visual grammar rather than narrative ambiguity.
 - Next: refresh low-subscriber breakout scan; prioritize non-creature/non-romance counterexamples; continue professional dialogue deepening; handle PR #4 review findings immediately.
+
+## 2026-11-27 Epicverse compressed found-family checkpoint
+
+- Refreshed the 14-day low/mid-subscriber scan and prioritized `no72LZAVvZQ` (Epicverse Movies, about 4.7k subscribers, 11:40, about 6.61M views at collection).
+- Completed sampled full-runtime visual/music analysis. No subtitle track was exposed, so exact dialogue claims are forbidden. Evidence under `evidence/research/rediscovery_analysis/no72LZAVvZQ/`; report at `knowledge/market/epicverse-giant-found-family-compression-deep-dive.md`.
+- Doctrine: compressed guardian fantasy works when scale serves care — origin danger -> nonhuman custody -> repeated operational care -> child competence/agency -> relational rupture -> exploitation/public trap -> rescue that physically restores custody/contact.
+- Implemented `found_family_guardian_integrity.py` and integrated it into `evaluate_project`; tests 178 passed at review-fix checkpoint and 175+ after found-family integration.
+- Next: continue fresh-scan analysis with non-creature/low-subscriber counterexamples (`iqCNxQ2_jSI`, `hozDtPcnnBA`, Nightfall dramas) or long-form `6pbhGtHRTwA`; keep deepening professional dialogue and handle new PR #4 review findings immediately.
