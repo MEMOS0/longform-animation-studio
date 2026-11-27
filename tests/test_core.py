@@ -1581,7 +1581,7 @@ def test_creature_inversion_does_not_apply_to_human_fear_freeze():
 
 def test_creature_inversion_requires_care_and_stakes_before_power():
     from studio.creature_power_inversion import evaluate_creature_power_inversion
-    premise={"logline":"dragon uses frost fire protective power. later she feeds him and winter cold poverty appears"}
+    premise={"logline":"dragon exhales frost instead of fire as protective power. later she feeds him and winter cold poverty appears"}
     r=evaluate_creature_power_inversion(premise,{},[])
     assert not r['checks']['care_costs_before_power']
     assert not r['checks']['material_survival_stakes_before_spectacle']
@@ -1589,7 +1589,7 @@ def test_creature_inversion_requires_care_and_stakes_before_power():
 
 def test_creature_inversion_requires_inverted_power_protection():
     from studio.creature_power_inversion import evaluate_creature_power_inversion
-    premise={"logline":"dragon fire frost inversion. keeper rescues dragon but dragon uses frost to harm villagers"}
+    premise={"logline":"dragon exhales frost instead of fire. keeper rescues dragon but dragon uses frost to harm villagers"}
     r=evaluate_creature_power_inversion(premise,{},[])
     assert not r['checks']['inverted_power_protects']
 
@@ -1642,3 +1642,46 @@ def test_animal_guise_keeps_deeds_is_not_restitution():
     premise={"logline":"werewolf husband romance truth reveal. he gives her back her coat but keeps the deeds"}
     r=evaluate_animal_guise_consent(premise,{},[])
     assert not r['checks']['material_agency_restored']
+
+
+def test_found_family_does_not_apply_to_covenant_guardianship():
+    from studio.found_family_guardian_integrity import evaluate_found_family_guardian_integrity
+    premise=open('examples/stormglass_project/premise.json',encoding='utf8').read()
+    import json
+    r=evaluate_found_family_guardian_integrity(json.loads(premise),{},[])
+    assert not r['applies']
+
+
+def test_creature_structured_finale_overrides_premise_aftermath():
+    from studio.creature_power_inversion import evaluate_creature_power_inversion
+    premise={"logline":"dragon exhales freezing mist instead of flames. Aftermath: recognition contact village thaw rebuild"}
+    scenes=[{"scene_id":f"S{i}","visual_action":{"final_image":"battle smoke"}} for i in range(5)]
+    r=evaluate_creature_power_inversion(premise,{},scenes)
+    assert not r['checks']['recognition_contact_closure']
+    assert not r['checks']['communal_consequence']
+
+
+def test_creature_ordinary_fire_melting_ice_does_not_apply():
+    from studio.creature_power_inversion import evaluate_creature_power_inversion
+    r=evaluate_creature_power_inversion({"logline":"a dragon melting ice with its flames attacks the castle"}, {}, [])
+    assert not r['applies']
+
+
+def test_creature_freezing_mist_counts_as_behavioral_difference():
+    from studio.creature_power_inversion import evaluate_creature_power_inversion
+    r=evaluate_creature_power_inversion({"logline":"dragon exhales freezing mist instead of flames"}, {}, [])
+    assert r['applies'] and r['checks']['difference_shown_behaviorally']
+
+
+def test_animal_guise_notebook_does_not_negate_returned_deeds():
+    from studio.animal_guise_consent import evaluate_animal_guise_consent
+    premise={"logline":"werewolf husband romance truth reveal. he returns the notebook and the deeds"}
+    r=evaluate_animal_guise_consent(premise,{},[])
+    assert r['checks']['material_agency_restored']
+
+
+def test_found_family_single_repeated_feeding_is_not_repeated_care():
+    from studio.found_family_guardian_integrity import evaluate_found_family_guardian_integrity
+    premise={"logline":"giant found family daughter. he feeds the infant. opening outline: he feeds the infant. scene: he feeds the infant"}
+    r=evaluate_found_family_guardian_integrity(premise,{},[])
+    assert not r['checks']['repeated_operational_care']

@@ -49,14 +49,16 @@ def _marked_ending_text(value: Any) -> str:
 def evaluate_creature_power_inversion(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     creature_term = bool(re.search(r"\bdragon\b|\bcreature\b|\bbeast\b|\bmonster\b", full))
-    inversion_term = bool(re.search(r"power inversion|not fire|(?:fire|flame).{0,80}(?:frost|freez|ice)|(?:frost|freez|ice).{0,80}(?:fire|flame)|ice breath|cold fire", full))
+    inversion_term = bool(re.search(r"power inversion|not fire|(?:frost|freez|ice|cold).{0,50}instead of (?:fire|flames?)|instead of (?:fire|flames?).{0,50}(?:frost|freez|ice|cold)|ice breath|cold fire|(?:fire|flames?).{0,30}(?:becomes?|turns? into).{0,30}(?:frost|freez|ice|cold)", full))
     applies = bool(re.search(r"power inversion|(?:frost|ice|cold)[- ](?:dragon|creature|beast)|(?:dragon|creature|beast)[- ](?:frost|ice|cold)", full)) or (creature_term and inversion_term)
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
     seqs = architecture.get("sequences", []) if isinstance(architecture, dict) else []
     ending_payoff = architecture.get("ending_payoff") if isinstance(architecture, dict) else {}
-    finale_text = "\n".join([_text(seqs[-2:]), _text(ending_payoff), _text(scenes[-5:]), _ending_keyed_text(premise), _marked_ending_text(premise)]).strip().lower()
+    structured_finale = "\n".join([_text(seqs[-2:]), _text(ending_payoff), _text(scenes[-5:])]).strip().lower()
+    premise_finale = "\n".join([_ending_keyed_text(premise), _marked_ending_text(premise)]).strip().lower()
+    finale_text = structured_finale or premise_finale
 
     care_pos = _pos(r"feed|warm|name|blanket|help|look after|pulled .*out|not letting go|steal|coal", full)
     power_pos = _pos(r"power payoff|inverted power|protective power|shield|counterattack|saves? (?:her|them|the village)|protects? (?:her|them|the village)", full)
@@ -70,7 +72,7 @@ def evaluate_creature_power_inversion(premise: dict[str, Any], architecture: dic
 
     checks = {
         "material_survival_stakes_before_spectacle": stakes_before_spectacle,
-        "difference_shown_behaviorally": bool(re.search(r"not fire|freezes?|frost|ice|different|broken|defect", full)),
+        "difference_shown_behaviorally": bool(re.search(r"not fire|freez|frost|ice|different|broken|defect", full)),
         "institution_mislabels_difference": bool(re.search(r"monster|cursed|weakness|beast|threw|burn.*before|abandoned", full)),
         "care_costs_before_power": care_before_power and bool(re.search(r"feed|warm|name|blanket|help|look after|pulled .*out|not letting go|steal|coal", full)),
         "public_execution_or_trap_convergence": bool(re.search(r"execution|burn|stake|trap|bait|king|soldier|crowd", full)),
