@@ -687,3 +687,21 @@ Immediate next work:
 2. Write its deep-dive report and extract hidden-identity/royal non-creature mechanisms or falsifications.
 3. Continue non-creature low-subscriber scan with `s-Zn2WhkkH8`, `wHWPGMPQ37Y`, `R14QjIS7O50`, `Z0kns4pvIH4`, `V5VfY1lfN2c`, or `XM4OuWUlV_o` after `PH6_Oyi-XrI`.
 4. Handle new Devin Review findings immediately when they arrive.
+
+## 2026-11-27 Golden Rose / review-triage checkpoint
+
+Latest pushed commit before this note: `0695795 Harden epic extraction gates and add Golden Rose analysis`; tests 225 passed before this doc update.
+
+Completed:
+- ScepterTV `PH6_Oyi-XrI` (*The Golden Rose*) fully downloaded and machine-analyzed; evidence committed under `evidence/research/rediscovery_analysis/PH6_Oyi-XrI/`.
+- `knowledge/market/sceptertv-golden-rose-royal-hidden-identity-deep-dive.md` written from full subtitles, second metrics, contact sheets, and selected frames.
+- Hidden-identity validator extended for royal variants without diluting billionaire baseline scoring.
+- Epic creature extraction validator hardened against substring false positives, costless destruction, opening-village aftermath, extraction-without-incentive, wrong-stage evidence, and sequel-order errors.
+- Child-power validator now handles home-to-parent closure and scene dialogue speaker/line investigation.
+- Devin Review round on `935cfc5` triaged; new review is running on `0695795`.
+
+Immediate next work:
+1. Commit this skill/continuation update and any scan-report metadata updates.
+2. Continue non-creature low-subscriber analysis queue: `s-Zn2WhkkH8`, `wHWPGMPQ37Y`, `R14QjIS7O50`, `Z0kns4pvIH4`, `V5VfY1lfN2c`, `XM4OuWUlV_o`.
+3. Handle new Devin Review findings immediately when they arrive.
+4. Rotate context early; do not wait for compaction.

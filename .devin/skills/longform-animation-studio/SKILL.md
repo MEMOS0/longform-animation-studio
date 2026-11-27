@@ -430,3 +430,9 @@ A plot sequel hook is allowed only after the promised relational recognition/hom
 Before greenlighting epic dark-fantasy creature/extraction stories, read `knowledge/market/veylorn-lost-kind-epic-dark-fantasy-deep-dive.md`. The portable mechanism is not generic epic scale. It is scale that remains tied to operational care: creature society must feed/shelter/teach/heal; extraction must have material incentives; power use must expose or endanger; middle sections should use procedural access/evidence; rescue must leave trauma; source destruction must carry moral/infrastructural cost; and the ending must show communal consequence plus peace maintenance before any sequel hook.
 
 Use the `epic_creature_extraction` project-evaluation gate as a warning system, not as a hit predictor. Do not copy THE LOST KIND's plot, creatures, dialogue, or images; extract the mechanism and build original worlds.
+
+## 2026-11-27 royal mutual hidden-identity doctrine update
+
+Before greenlighting royal hidden-identity romance, read `knowledge/market/sceptertv-golden-rose-royal-hidden-identity-deep-dive.md`. The portable mechanism is not royalty itself. It is mutual or ethically bounded concealment + ordinary kindness before status + ritual/law forcing material consequences + trust wound after lying + procedural public evidence + heroine agency after reveal + explicit re-choice in both high- and low-status conditions.
+
+The `hidden_identity_integrity` gate now includes Golden Rose royal extensions when royal language is present. Treat warnings as craft review prompts, not as hit prediction.
