@@ -1016,3 +1016,11 @@ def test_render_screenplay_scene_loader_accepts_file_and_rejects_empty_dir(tmp_p
     empty.mkdir()
     with pytest.raises(ValueError):
         load_scene_inputs(empty)
+
+
+def test_write_screenplay_creates_missing_output_directory(tmp_path):
+    from studio.screenplay_renderer import write_screenplay
+    target=tmp_path/'new'/'nested'/'draft.md'
+    result=write_screenplay({'title_candidates':['Test'],'premise_id':'test'},[],target)
+    assert result.exists()
+    assert 'Annotated Screenplay Draft' in result.read_text(encoding='utf8')

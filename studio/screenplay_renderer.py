@@ -104,5 +104,6 @@ def render_screenplay(premise: dict[str, Any], scenes: list[dict[str, Any]]) -> 
 
 
 def write_screenplay(premise: dict[str, Any], scenes: list[dict[str, Any]], output_path: Path) -> Path:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(render_screenplay(premise, scenes), encoding="utf-8")
     return output_path
