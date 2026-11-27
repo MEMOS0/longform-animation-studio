@@ -2591,3 +2591,10 @@ def test_object_testimony_ignores_non_talking_objects():
     from studio.object_testimony_integrity import evaluate_object_testimony_integrity
     premise={"title":"Auction","logline":"An appraiser authenticates a fake antique using careful provenance research."}
     assert evaluate_object_testimony_integrity(premise,{"sequences":[]},[])["applies"] is False
+
+
+def test_object_testimony_creature_voice_is_not_applicable():
+    import json
+    from studio.object_testimony_integrity import evaluate_object_testimony_integrity
+    premise=json.load(open('examples/generated_creature_concepts/salt_window_garden_premise.json'))
+    assert evaluate_object_testimony_integrity(premise,{},[])["applies"] is False
