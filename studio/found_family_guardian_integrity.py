@@ -39,7 +39,7 @@ def _ending_keyed_text(value: Any) -> str:
 
 def evaluate_found_family_guardian_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    guardian = bool(re.search(r"giant|creature parent|nonhuman parent|adoptive|found family|guardian.{0,80}(?:child|daughter|infant|baby|orphan)", full))
+    guardian = bool(re.search(r"giant|creature parent|nonhuman parent|adoptive|found family|guardian.{0,80}(?:child|daughter|infant|baby|orphan)|(?:child|daughter|infant|baby|orphan).{0,80}guardian", full))
     child = bool(re.search(r"daughter|child|infant|baby|orphan", full))
     applies = guardian and child
     if not applies:
@@ -51,21 +51,27 @@ def evaluate_found_family_guardian_integrity(premise: dict[str, Any], architectu
     rescue_pos = _last_pos(r"rescue|save|carries|carry|crossbow|army|final confrontation", full)
     seqs = architecture.get("sequences", []) if isinstance(architecture, dict) else []
     ending_payoff = architecture.get("ending_payoff") if isinstance(architecture, dict) else {}
-    finale_text = "\n".join([_text(seqs[-2:]), _text(ending_payoff), _text(scenes[-5:]), _ending_keyed_text(premise)]).strip().lower()
+    premise_end = _ending_keyed_text(premise)
+    if len(scenes) < 5 and premise.get("logline"):
+        logline = str(premise.get("logline")).lower()
+        clauses = re.split(r"[.!?;]\s*", logline)
+        ending_clauses = [clause for clause in clauses if re.search(r"in the end|at the end|finally|aftermath|epilogue|home(?:coming)?|rebuild|reunit", clause)]
+        premise_end = "\n".join([premise_end, *ending_clauses]).strip()
+    finale_text = "\n".join([_text(seqs[-2:]), _text(ending_payoff), _text(scenes[-5:]), premise_end]).strip().lower()
     care_categories = {
-        "feeding": bool(re.search(r"feed|food|bread|milk|eat", full)),
-        "warmth": bool(re.search(r"warm|fire|blanket|shelter", full)),
-        "teaching": bool(re.search(r"teach|train|learn", full)),
-        "survival": bool(re.search(r"hunt|track|bow|survive", full)),
-        "protection": bool(re.search(r"protect|shield|hide|save", full)),
-        "rest": bool(re.search(r"sleep|rest|bed", full)),
-        "carrying": bool(re.search(r"carry|carries|shoulder", full)),
+        "feeding": bool(re.search(r"\bfeed(?:s|ing)?\b|\bfood\b|\bbread\b|\bmilk\b|\beat(?:s|ing)?\b", full)),
+        "warmth": bool(re.search(r"\bwarm(?:s|ed|th)?\b|\bfire\b|\bblanket\b|\bshelter\b", full)),
+        "teaching": bool(re.search(r"\bteach(?:es|ing)?\b|\btrain(?:s|ed|ing)?\b|\blearn(?:s|ed|ing)?\b", full)),
+        "survival": bool(re.search(r"\bhunt(?:s|ed|ing)?\b|\btrack(?:s|ed|ing)?\b|\bbow\b|\bsurvive(?:s|d)?\b", full)),
+        "protection": bool(re.search(r"\bprotect(?:s|ed|ing)?\b|\bshield(?:s|ed)?\b|\bhide(?:s|n|ing)?\b|\bsave(?:s|d)?\b", full)),
+        "rest": bool(re.search(r"\bsleep(?:s|ing)?\b|\brest(?:s|ed|ing)?\b|\bbed\b", full)),
+        "carrying": bool(re.search(r"\bcarry\b|\bcarries\b|\bcarried\b|\bshoulder\b", full)),
     }
 
     checks = {
         "origin_endangerment_before_exposition": bool(re.search(r"pursu|chase|flee|danger|serpent|wolf|attack|birth|infant|newborn", full[:2000])),
         "rescue_transfer_into_guardian_custody": bool(re.search(r"rescues?|saves?|adopt|raises?|takes? (?:her|him|the child)|bursts? through", full)),
-        "repeated_operational_care": sum(care_categories.values()) >= 2 or bool(re.search(r"years pass|as the years pass|montage|grows? up|over time", full)),
+        "repeated_operational_care": sum(care_categories.values()) >= 2 or (any(care_categories.values()) and bool(re.search(r"years pass|as the years pass|montage|grows? up|over time", full))),
         "child_gains_agency_or_competence": bool(re.search(r"learns?|hunt|survive|bow|arrow|track|choose|leaves|journey", full)),
         "relational_rupture_before_external_rescue": care_pos is not None and rupture_pos is not None and rescue_pos is not None and care_pos < rupture_pos < rescue_pos,
         "guardian_misread_as_property_or_monster": bool(re.search(r"fortune|captured?|monster|beast|property|army|ruthless lord|crossbow|trap", full)),

@@ -1685,3 +1685,51 @@ def test_found_family_single_repeated_feeding_is_not_repeated_care():
     premise={"logline":"giant found family daughter. he feeds the infant. opening outline: he feeds the infant. scene: he feeds the infant"}
     r=evaluate_found_family_guardian_integrity(premise,{},[])
     assert not r['checks']['repeated_operational_care']
+
+
+def test_dialogue_unhashable_beat_warns_instead_of_crashing():
+    from studio.dialogue_craft import evaluate_scenes_dialogue
+    r=evaluate_scenes_dialogue([{"scene_id":"bad","dialogue_design":{"spoken_exchange":[{"beat":["x"],"speaker":"a","line":"hi","action":"acts"}]}}])
+    assert any('malformed' in w for w in r['scenes'][0]['warnings'])
+
+
+def test_creature_fire_but_instead_freezes_applies():
+    from studio.creature_power_inversion import evaluate_creature_power_inversion
+    r=evaluate_creature_power_inversion({"logline":"a dragon that would breathe fire but instead freezes the world"}, {}, [])
+    assert r['applies']
+
+
+def test_creature_partial_opening_uses_premise_logline_ending():
+    from studio.creature_power_inversion import evaluate_creature_power_inversion
+    p={"logline":"a dragon exhales frost instead of fire. final recognition contact and village thaw rebuild"}
+    scenes=[{"scene_id":"S1","visual_action":{"final_image":"cold shelter"}},{"scene_id":"S2","visual_action":{"final_image":"coal"}}]
+    r=evaluate_creature_power_inversion(p,{},scenes)
+    assert r['checks']['recognition_contact_closure']
+
+
+def test_guardian_time_jump_without_care_fails_repeated_care():
+    from studio.found_family_guardian_integrity import evaluate_found_family_guardian_integrity
+    p={"logline":"giant found family orphan daughter. years pass in the forest creature"}
+    r=evaluate_found_family_guardian_integrity(p,{},[])
+    assert not r['checks']['repeated_operational_care']
+
+
+def test_guardian_logline_homecoming_counts_for_premise_only():
+    from studio.found_family_guardian_integrity import evaluate_found_family_guardian_integrity
+    p={"logline":"giant found family orphan daughter. in the end he carries her home"}
+    r=evaluate_found_family_guardian_integrity(p,{},[])
+    assert r['checks']['physical_custody_or_carrying_closure']
+
+
+def test_child_first_guardian_premise_applies():
+    from studio.found_family_guardian_integrity import evaluate_found_family_guardian_integrity
+    p={"logline":"an orphan is rescued by a troll who becomes her guardian"}
+    r=evaluate_found_family_guardian_integrity(p,{},[])
+    assert r['applies']
+
+
+def test_returns_nothing_from_estate_is_not_restitution():
+    from studio.animal_guise_consent import evaluate_animal_guise_consent
+    p={"logline":"werewolf husband romance truth reveal. he returns nothing from her estate"}
+    r=evaluate_animal_guise_consent(p,{},[])
+    assert not r['checks']['material_agency_restored']

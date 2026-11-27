@@ -49,7 +49,7 @@ def _marked_ending_text(value: Any) -> str:
 def evaluate_creature_power_inversion(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     creature_term = bool(re.search(r"\bdragon\b|\bcreature\b|\bbeast\b|\bmonster\b", full))
-    inversion_term = bool(re.search(r"power inversion|not fire|(?:frost|freez|ice|cold).{0,50}instead of (?:fire|flames?)|instead of (?:fire|flames?).{0,50}(?:frost|freez|ice|cold)|ice breath|cold fire|(?:fire|flames?).{0,30}(?:becomes?|turns? into).{0,30}(?:frost|freez|ice|cold)", full))
+    inversion_term = bool(re.search(r"power inversion|not fire|(?:frost|freez|ice|cold).{0,50}instead of (?:fire|flames?)|instead of (?:fire|flames?).{0,50}(?:frost|freez|ice|cold)|ice breath|cold fire|(?:fire|flames?).{0,50}but instead.{0,50}(?:frost|freez|ice|cold)|(?:fire|flames?).{0,30}(?:becomes?|turns? into).{0,30}(?:frost|freez|ice|cold)", full))
     applies = bool(re.search(r"power inversion|(?:frost|ice|cold)[- ](?:dragon|creature|beast)|(?:dragon|creature|beast)[- ](?:frost|ice|cold)", full)) or (creature_term and inversion_term)
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
@@ -58,7 +58,12 @@ def evaluate_creature_power_inversion(premise: dict[str, Any], architecture: dic
     ending_payoff = architecture.get("ending_payoff") if isinstance(architecture, dict) else {}
     structured_finale = "\n".join([_text(seqs[-2:]), _text(ending_payoff), _text(scenes[-5:])]).strip().lower()
     premise_finale = "\n".join([_ending_keyed_text(premise), _marked_ending_text(premise)]).strip().lower()
-    finale_text = structured_finale or premise_finale
+    if len(scenes) < 5 and premise.get("logline"):
+        logline = str(premise.get("logline")).lower()
+        clauses = re.split(r"[.!?;]\s*", logline)
+        ending_clauses = [clause for clause in clauses if re.search(r"in the end|at the end|finally|aftermath|epilogue|home(?:coming)?|rebuild|thaw", clause)]
+        premise_finale = "\n".join([premise_finale, *ending_clauses]).strip()
+    finale_text = ("\n".join([structured_finale, premise_finale]).strip() if len(scenes) < 5 else structured_finale or premise_finale)
 
     care_pos = _pos(r"feed|warm|name|blanket|help|look after|pulled .*out|not letting go|steal|coal", full)
     power_pos = _pos(r"power payoff|inverted power|protective power|shield|counterattack|saves? (?:her|them|the village)|protects? (?:her|them|the village)", full)
