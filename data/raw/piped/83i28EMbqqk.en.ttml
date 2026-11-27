@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.309" end="00:00:03.329" style="s2">[music]</p>
+<p begin="00:00:03.599" end="00:00:09.199" style="s2">Daddy only has one breath down here, and</p>
+<p begin="00:00:05.900" end="00:00:09.199" style="s2">everything&#39;s falling.</p>
+<p begin="00:00:11.699" end="00:00:16.399" style="s2">For the tree.</p>
+<p begin="00:00:14.399" end="00:00:18.200" style="s2">&gt;&gt; One breath, [music] Finn.</p>
+<p begin="00:00:16.399" end="00:00:20.600" style="s2">You get one.</p>
+<p begin="00:00:18.200" end="00:00:20.600" style="s2">&gt;&gt; Sorry.</p>
+<p begin="00:00:23.299" end="00:00:27.600" style="s2">And the star goes on top.</p>
+<p begin="00:00:36.099" end="00:00:40.610" style="s2">And at night, an old man in red flies</p>
+<p begin="00:00:38.900" end="00:00:43.099" style="s2">across the sky and brings presents</p>
+<p begin="00:00:40.610" end="00:00:44.400" style="s2">[music] down the chimney.</p>
+<p begin="00:00:43.099" end="00:00:47.099" style="s2">&gt;&gt; Flies?</p>
+<p begin="00:00:44.400" end="00:00:48.799" style="s2">&gt;&gt; We don&#39;t have a chimney.</p>
+<p begin="00:00:47.099" end="00:00:50.799" style="s2">&gt;&gt; Then he&#39;ll knock. [music]</p>
+<p begin="00:00:48.799" end="00:00:52.200" style="s2">&gt;&gt; Every day, Finn gives him another human</p>
+<p begin="00:00:50.799" end="00:00:54.000" style="s2">story.</p>
+<p begin="00:00:52.200" end="00:00:57.200" style="s2">And every day, my son looks more at the</p>
+<p begin="00:00:54.000" end="00:00:57.200" style="s2">sky [music] than at the sea.</p>
+<p begin="00:01:00.000" end="00:01:02.500" style="s2">A gift.</p>
+<p begin="00:01:02.880" end="00:01:05.000" style="s2">[laughter]</p>
+<p begin="00:01:03.799" end="00:01:06.599" style="s2">&gt;&gt; At Christmas,</p>
+<p begin="00:01:05.000" end="00:01:08.199" style="s2">you give a present.</p>
+<p begin="00:01:06.599" end="00:01:10.599" style="s2">Something you love [music] to someone</p>
+<p begin="00:01:08.199" end="00:01:10.599" style="s2">you love.</p>
+<p begin="00:01:16.800" end="00:01:21.099" style="s2">&gt;&gt; Not for the tree. For Mommy.</p>
+<p begin="00:01:36.400" end="00:01:39.199" style="s2">&gt;&gt; Faster, Kai.</p>
+<p begin="00:01:48.731" end="00:01:51.099" style="s2">[music]</p>
+<p begin="00:01:49.599" end="00:01:54.599" style="s2">&gt;&gt; They glow.</p>
+<p begin="00:01:51.099" end="00:01:54.599" style="s2">Things in the deep follow the glow.</p>
+<p begin="00:01:54.626" end="00:01:56.646" style="s2">[music]</p>
+<p begin="00:01:57.599" end="00:02:02.541" style="s2">&gt;&gt; He&#39;ll never keep on those legs.</p>
+<p begin="00:02:00.521" end="00:02:02.541" style="s2">[music]</p>
+<p begin="00:02:02.592" end="00:02:08.292" style="s2">&gt;&gt; If I had a tail,</p>
+<p begin="00:02:04.692" end="00:02:08.292" style="s2">I&#39;d be fast like mommy.</p>
+<p begin="00:02:10.192" end="00:02:15.192" style="s2">&gt;&gt; Thalore won&#39;t let them come back</p>
+<p begin="00:02:11.392" end="00:02:15.192" style="s2">tonight. I&#39;m fixing it anyway.</p>
+<p begin="00:02:19.292" end="00:02:23.992" style="s2">&gt;&gt; It&#39;s Christmas Eve.</p>
+<p begin="00:02:21.192" end="00:02:23.992" style="s2">We&#39;re staying with you.</p>
+<p begin="00:02:31.092" end="00:02:35.092" style="s2">&gt;&gt; Grandpa says I&#39;m too slow.</p>
+<p begin="00:02:38.892" end="00:02:42.192" style="s2">&gt;&gt; Sailors say</p>
+<p begin="00:02:40.292" end="00:02:44.692" style="s2">make a wish on the Christmas star and it</p>
+<p begin="00:02:42.192" end="00:02:48.992" style="s2">comes true.</p>
+<p begin="00:02:44.692" end="00:02:48.992" style="s2">&gt;&gt; A tail so I&#39;m fast.</p>
+<p begin="00:02:50.092" end="00:02:52.892" style="s2">&gt;&gt; It&#39;s just a story.</p>
+<p begin="00:02:52.921" end="00:02:54.941" style="s2">[music]</p>
+<p begin="00:02:57.492" end="00:03:01.492" style="s2">&gt;&gt; A star,</p>
+<p begin="00:02:58.292" end="00:03:01.492" style="s2">it fell in the sea.</p>
+<p begin="00:03:02.747" end="00:03:06.492" style="s2">[music]</p>
+<p begin="00:03:03.792" end="00:03:06.492" style="s2">&gt;&gt; It was a fish.</p>
+<p begin="00:03:07.332" end="00:03:09.352" style="s2">[music]</p>
+<p begin="00:03:11.492" end="00:03:14.692" style="s2">&gt;&gt; It fell for me.</p>
+<p begin="00:03:15.847" end="00:03:17.867" style="s2">[music]</p>
+<p begin="00:03:25.092" end="00:03:29.992" style="s2">Mommy gets her present. Now I get mine.</p>
+<p begin="00:03:32.877" end="00:03:34.897" style="s2">[music]</p>
+<p begin="00:03:54.492" end="00:03:56.512" style="s2">[music]</p>
+<p begin="00:03:59.292" end="00:04:01.752" style="s2">&gt;&gt; Turn! [screaming]</p>
+<p begin="00:04:04.972" end="00:04:06.992" style="s2">[gasps and panting]</p>
+<p begin="00:04:13.487" end="00:04:15.507" style="s2">[music]</p>
+<p begin="00:04:16.194" end="00:04:20.894" style="s2">&gt;&gt; Wait for me, Star.</p>
+<p begin="00:04:19.382" end="00:04:25.094" style="s2">[music]</p>
+<p begin="00:04:20.894" end="00:04:25.094" style="s2">&gt;&gt; The star went there, so I go there.</p>
+<p begin="00:04:31.828" end="00:04:33.848" style="s2">[music]</p>
+<p begin="00:04:43.894" end="00:04:47.548" style="s2">&gt;&gt; I can&#39;t find him.</p>
+<p begin="00:04:45.194" end="00:04:48.094" style="s2">&gt;&gt; He went after the star.</p>
+<p begin="00:04:47.548" end="00:04:49.594" style="s2">[music]</p>
+<p begin="00:04:48.094" end="00:04:53.394" style="s2">&gt;&gt; Your story.</p>
+<p begin="00:04:49.594" end="00:04:56.894" style="s2">You filled his head with your stories.</p>
+<p begin="00:04:53.394" end="00:04:56.894" style="s2">&gt;&gt; She&#39;s right. [music] I sent him.</p>
+<p begin="00:04:58.683" end="00:05:03.094" style="s2">[music] That&#39;s where he&#39;s going.</p>
+<p begin="00:04:59.894" end="00:05:03.094" style="s2">&gt;&gt; He knows the Sea Father.</p>
+<p begin="00:05:06.394" end="00:05:10.194" style="s2">&gt;&gt; This [music] is the star&#39;s house.</p>
+<p begin="00:05:12.438" end="00:05:14.458" style="s2">[music]</p>
+<p begin="00:05:16.894" end="00:05:19.594" style="s2">Star?</p>
+<p begin="00:05:21.194" end="00:05:24.694" style="s2">Stars are little.</p>
+<p begin="00:05:29.468" end="00:05:31.488" style="s2">[music]</p>
+<p begin="00:05:52.294" end="00:05:55.194" style="s2">High five.</p>
+<p begin="00:06:03.794" end="00:06:08.595" style="s2">It&#39;s Christmas. A man in red brings</p>
+<p begin="00:06:05.995" end="00:06:11.395" style="s2">presents. We got no [music] chimney, so</p>
+<p begin="00:06:08.595" end="00:06:11.395" style="s2">he knocks.</p>
+<p begin="00:06:13.495" end="00:06:18.295" style="s2">Daddy says stars make wishes come true.</p>
+<p begin="00:06:16.595" end="00:06:19.395" style="s2">Can I have a tail?</p>
+<p begin="00:06:18.295" end="00:06:23.179" style="s2">Please?</p>
+<p begin="00:06:19.395" end="00:06:25.199" style="s2">It came for me, like Daddy said.</p>
+<p begin="00:06:23.179" end="00:06:25.199" style="s2">[music]</p>
+<p begin="00:06:28.195" end="00:06:32.595" style="s2">&gt;&gt; His tears.</p>
+<p begin="00:06:29.395" end="00:06:32.595" style="s2">He&#39;s alone and scared.</p>
+<p begin="00:06:36.934" end="00:06:38.954" style="s2">[music]</p>
+<p begin="00:06:41.519" end="00:06:43.539" style="s2">[music]</p>
+<p begin="00:06:45.695" end="00:06:50.995" style="s2">&gt;&gt; Every time I come up for air,</p>
+<p begin="00:06:47.895" end="00:06:50.995" style="s2">they get further away.</p>
+<p begin="00:06:51.344" end="00:06:53.364" style="s2">[music]</p>
+<p begin="00:07:09.895" end="00:07:13.495" style="s2">&gt;&gt; It&#39;s heading where the pearls lead.</p>
+<p begin="00:07:23.395" end="00:07:27.295" style="s2">&gt;&gt; Come, Star. Let&#39;s play outside.</p>
+<p begin="00:07:31.955" end="00:07:33.975" style="s2">[music]</p>
+<p begin="00:07:34.995" end="00:07:39.295" style="s2">Mommy said bad things follow the glow.</p>
+<p begin="00:07:56.845" end="00:07:58.865" style="s2">[music]</p>
+<p begin="00:07:58.995" end="00:08:01.295" style="s2">&gt;&gt; There!</p>
+<p begin="00:08:01.430" end="00:08:05.395" style="s2">[music]</p>
+<p begin="00:08:03.295" end="00:08:05.395" style="s2">&gt;&gt; Daddy!</p>
+<p begin="00:08:06.995" end="00:08:10.600" style="s2">&gt;&gt; Grandpa will take you.</p>
+<p begin="00:08:09.097" end="00:08:12.620" style="s2">You&#39;re mine.</p>
+<p begin="00:08:10.600" end="00:08:12.620" style="s2">[music]</p>
+<p begin="00:08:19.115" end="00:08:22.497" style="s2">[music]</p>
+<p begin="00:08:21.097" end="00:08:24.355" style="s2">&gt;&gt; Kai?</p>
+<p begin="00:08:22.497" end="00:08:26.375" style="s2">Kai, where are you?</p>
+<p begin="00:08:24.355" end="00:08:26.375" style="s2">[music]</p>
+<p begin="00:08:32.215" end="00:08:34.235" style="s2">[music]</p>
+<p begin="00:08:41.197" end="00:08:43.997" style="s2">&gt;&gt; Twice in two days [music] I almost lost</p>
+<p begin="00:08:43.297" end="00:08:44.697" style="s2">him.</p>
+<p begin="00:08:43.997" end="00:08:49.697" style="s2">&gt;&gt; Look,</p>
+<p begin="00:08:44.697" end="00:08:49.697" style="s2">my star. It came from me. Can I keep it?</p>
+<p begin="00:08:55.796" end="00:08:57.816" style="s2">[music]</p>
+<p begin="00:09:02.346" end="00:09:04.597" style="s2">[music]</p>
+<p begin="00:09:03.797" end="00:09:05.497" style="s2">&gt;&gt; Kai,</p>
+<p begin="00:09:04.597" end="00:09:07.997" style="s2">give it back.</p>
+<p begin="00:09:05.497" end="00:09:11.297" style="s2">&gt;&gt; No, it&#39;s my way.</p>
+<p begin="00:09:07.997" end="00:09:11.297" style="s2">&gt;&gt; That&#39;s her baby, Kai.</p>
+<p begin="00:09:16.756" end="00:09:18.776" style="s2">[music]</p>
+<p begin="00:09:33.131" end="00:09:35.151" style="s2">[music]</p>
+<p begin="00:09:38.371" end="00:09:40.391" style="s2">[music]</p>
+<p begin="00:09:43.297" end="00:09:47.697" style="s2">&gt;&gt; The Quake took that baby from her. Now</p>
+<p begin="00:09:44.997" end="00:09:51.297" style="s2">she thinks we took it.</p>
+<p begin="00:09:47.697" end="00:09:51.297" style="s2">&gt;&gt; From up top I can see where they turn.</p>
+<p begin="00:10:03.916" end="00:10:05.936" style="s2">[music]</p>
+<p begin="00:10:08.997" end="00:10:11.698" style="s2">&gt;&gt; Get behind me.</p>
+<p begin="00:10:11.998" end="00:10:16.698" style="s2">&gt;&gt; Grandpa&#39;s here. Grandpa always wins.</p>
+<p begin="00:10:22.498" end="00:10:25.198" style="s2">Grandpa!</p>
+<p begin="00:10:31.698" end="00:10:36.798" style="s2">&gt;&gt; The hatch is too small for her. In</p>
+<p begin="00:10:33.598" end="00:10:38.698" style="s2">there, she can&#39;t reach us.</p>
+<p begin="00:10:36.798" end="00:10:41.098" style="s2">&gt;&gt; Too far for one breath. I&#39;m going</p>
+<p begin="00:10:38.698" end="00:10:41.098" style="s2">anyway.</p>
+<p begin="00:10:46.492" end="00:10:48.512" style="s2">[music]</p>
+<p begin="00:10:59.598" end="00:11:01.798" style="s2">&gt;&gt; I blamed you</p>
+<p begin="00:11:00.998" end="00:11:02.398" style="s2">and you&#39;d give your life [music] for</p>
+<p begin="00:11:01.798" end="00:11:04.998" style="s2">him.</p>
+<p begin="00:11:02.398" end="00:11:04.998" style="s2">&gt;&gt; For both of you.</p>
+<p begin="00:11:07.298" end="00:11:12.747" style="s2">&gt;&gt; Don&#39;t shine. She&#39;ll take you.</p>
+<p begin="00:11:10.727" end="00:11:12.747" style="s2">[music]</p>
+<p begin="00:11:17.932" end="00:11:19.952" style="s2">[music]</p>
+<p begin="00:11:24.498" end="00:11:27.598" style="s2">&gt;&gt; Out, now.</p>
+<p begin="00:11:27.757" end="00:11:29.777" style="s2">[music]</p>
+<p begin="00:11:39.898" end="00:11:43.798" style="s2">&gt;&gt; Leave me.</p>
+<p begin="00:11:41.198" end="00:11:43.798" style="s2">Get Kai.</p>
+<p begin="00:11:45.443" end="00:11:50.083" style="s2">[music]</p>
+<p begin="00:11:46.698" end="00:11:50.083" style="s2">&gt;&gt; Mommy, Daddy! [screaming]</p>
+<p begin="00:11:50.683" end="00:11:52.703" style="s2">[music]</p>
+<p begin="00:11:53.198" end="00:11:57.798" style="s2">Mommy always comes. Always.</p>
+<p begin="00:11:59.698" end="00:12:03.898" style="s2">&gt;&gt; My son buried in a wreck,</p>
+<p begin="00:12:01.898" end="00:12:07.398" style="s2">my wife under a boulder,</p>
+<p begin="00:12:03.898" end="00:12:07.398" style="s2">and I can&#39;t save either of them.</p>
+<p begin="00:12:15.573" end="00:12:17.593" style="s2">[music]</p>
+<p begin="00:12:20.099" end="00:12:27.363" style="s2">&gt;&gt; You want your mommy.</p>
+<p begin="00:12:21.899" end="00:12:29.383" style="s2">Not my Star, her baby, like I&#39;m mommy&#39;s.</p>
+<p begin="00:12:27.363" end="00:12:29.383" style="s2">[music]</p>
+<p begin="00:12:31.948" end="00:12:33.968" style="s2">[music]</p>
+<p begin="00:12:40.499" end="00:12:42.899" style="s2">&gt;&gt; Kai!</p>
+<p begin="00:12:45.048" end="00:12:47.068" style="s2">[music]</p>
+<p begin="00:12:47.599" end="00:12:50.699" style="s2">&gt;&gt; No, Grandpa.</p>
+<p begin="00:12:54.218" end="00:12:56.238" style="s2">[music]</p>
+<p begin="00:12:58.803" end="00:13:00.823" style="s2">[music]</p>
+<p begin="00:13:04.699" end="00:13:06.719" style="s2">[music]</p>
+<p begin="00:13:12.559" end="00:13:15.499" style="s2">[music]</p>
+<p begin="00:13:13.299" end="00:13:16.899" style="s2">&gt;&gt; He stood between my daughter and that</p>
+<p begin="00:13:15.499" end="00:13:20.499" style="s2">beast</p>
+<p begin="00:13:16.899" end="00:13:20.499" style="s2">with one breath [music] in him.</p>
+<p begin="00:13:24.299" end="00:13:26.699" style="s2">&gt;&gt; For you.</p>
+<p begin="00:13:28.199" end="00:13:31.499" style="s2">&gt;&gt; I was afraid Finn&#39;s [music] stories</p>
+<p begin="00:13:29.499" end="00:13:33.899" style="s2">would take him from me. They brought him</p>
+<p begin="00:13:31.499" end="00:13:33.899" style="s2">home.</p>
+<p begin="00:13:36.499" end="00:13:40.499" style="s2">&gt;&gt; Star [music] didn&#39;t give me a tail.</p>
+<p begin="00:13:47.929" end="00:13:49.949" style="s2">[music]</p>
+<p begin="00:13:58.409" end="00:14:01.799" style="s2">[music] The Star went home.</p>
+<p begin="00:14:03.649" end="00:14:05.669" style="s2">[music]</p>
+<p begin="00:14:08.234" end="00:14:10.254" style="s2">[music]</p>
+<p begin="00:14:17.399" end="00:14:21.201" style="s2">Mommy!</p>
+<p begin="00:14:18.201" end="00:14:21.201" style="s2">Daddy, look.</p>
+<p begin="00:14:24.609" end="00:14:26.629" style="s2">[music]</p>
+<p begin="00:14:29.849" end="00:14:31.869" style="s2">[music]</p>
+<p begin="00:14:35.089" end="00:14:37.801" style="s2">[music]</p>
+<p begin="00:14:35.801" end="00:14:40.401" style="s2">&gt;&gt; In the sea, a tail.</p>
+<p begin="00:14:37.801" end="00:14:43.701" style="s2">On land, your legs.</p>
+<p begin="00:14:40.401" end="00:14:43.701" style="s2">Now you&#39;ll never be [music] left behind.</p>
+<p begin="00:14:44.501" end="00:14:49.701" style="s2">&gt;&gt; I gave my star away,</p>
+<p begin="00:14:46.601" end="00:14:49.701" style="s2">and I got my wish.</p>
+<p begin="00:14:50.155" end="00:14:53.301" style="s2">[music]</p>
+<p begin="00:14:51.101" end="00:14:56.001" style="s2">&gt;&gt; Merry Christmas, Finn.</p>
+<p begin="00:14:53.301" end="00:14:56.001" style="s2">&gt;&gt; Merry Christmas.</p>
+</div>
+</body>
+</tt>

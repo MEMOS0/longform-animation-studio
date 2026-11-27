@@ -4,6 +4,8 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 
 ## Completed or already represented — remove from immediate queue
 
+- `83i28EMbqqk`: Fableheart compressed-wish analysis completed in `knowledge/market/fableheart-hunters-mark-compressed-wish-creature-family-deep-dive.md`.
+
 - `NDZc_6T4h6E`: Seven Clover contract-marriage analysis completed in PR #6 worktree/branch; do not re-run even if PR merge is pending.
 - `AaLngUHEqVY`: Jasmine Drama competence-cascade analysis completed in `knowledge/market/jasmine-drama-reborn-assassin-competence-cascade-deep-dive.md`.
 
@@ -48,7 +50,7 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 - Why priority: high-velocity noncreature romance in a low-subscriber channel; useful for taboo/age-gap power-asymmetry packaging versus actual consent craft.
 - Required caution: do not eroticize coercion or ambiguity; validator focus should be present-tense consent, age/power clarity, and absence of ownership framing.
 
-### 2. `83i28EMbqqk` — Fableheart Films
+### Completed: `83i28EMbqqk` — Fableheart Films
 
 - Title: *A Mermaid’s Son Wished for a Tail on Christmas Eve / THE HUNTER’S MARK 3 / Christmas Fantasy Movie*
 - Scale/performance: about 3.3k subscribers, 250,466 views in 4.6 days, about 54,904 views/day.
@@ -56,7 +58,7 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 - Why priority: very low subscriber base plus short runtime; useful comparison against 60–120m compilations and existing creature-family work.
 - Required caution: sequel numbering (`3`) may mean the breakout depends on prior series knowledge; analyze as serial continuation, not standalone proof.
 
-### 3. `dHdkaKb3_S8` — Lotus Crown Drama
+### 2. `dHdkaKb3_S8` — Lotus Crown Drama
 
 - Title: *My Alpha Cheated at Our Wedding, His Mom Told Me to Share, So I Chose the Elf King!*
 - Scale/performance: about 4.34k subscribers, 447,508 views in 8.5 days, about 52,582 views/day.
@@ -82,7 +84,6 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 
 ## Recommended order
 
-1. `83i28EMbqqk` — compressed short-form/serial counterweight.
-2. `XL0d9SmAA1M` — consent/power-asymmetry stress test.
-3. `dHdkaKb3_S8` — fantasy betrayal/re-choice comparison.
-4. `DD35huaUIa8` and `yA_UfmmVAG0` — only if they still look novel after opening/metadata inspection.
+1. `XL0d9SmAA1M` — consent/power-asymmetry stress test.
+2. `dHdkaKb3_S8` — fantasy betrayal/re-choice comparison.
+3. `DD35huaUIa8` and `yA_UfmmVAG0` — only if they still look novel after opening/metadata inspection.

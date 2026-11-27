@@ -510,3 +510,9 @@ Use the `object_testimony_integrity` project-evaluation gate as a warning system
 Before greenlighting reborn/hidden-assassin, secret-prodigy, bullied-expert, or long-form hidden-mastery revenge stories, read `knowledge/market/jasmine-drama-reborn-assassin-competence-cascade-deep-dive.md`. The portable mechanism is not “secretly strong person slaps bullies.” It is intimate public violation + family/economic care anchor + early kinetic proof + distinct competence domains + institutional arena rotation + ethical loyalty testing + provenance/procedural accountability + ally support without ownership + identity/family/justice closure before any sequel mission hook.
 
 Use the `competence_cascade_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy Jasmine Drama's assassin-schoolgirl plot, exact arena sequence, dialogue, or thumbnail; extract the mechanism and build original stories. The romantic negative example is important: refusal-overriding sexual banter such as “you have no right to refuse” is a hard consent failure, not passion.
+
+## 2026-11-27 compressed wish-object creature-family doctrine update
+
+Before greenlighting short compressed wish/creature-family fantasy, read `knowledge/market/fableheart-hunters-mark-compressed-wish-creature-family-deep-dive.md`. The portable mechanism is not “child gets magical wish.” It is bodily belonging shame + physical constraint + ritual moral rule + protagonist-caused pursuit + vulnerable/personlike wish carrier + possession reframed as another's attachment + sacrifice before reward + adult blame repair + transformation that integrates identity.
+
+Use the `compressed_wish_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy THE HUNTER'S MARK 3, its mermaid family, creature design, dialogue, or thumbnail; extract the mechanism and build original stories.

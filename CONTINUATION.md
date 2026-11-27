@@ -12,6 +12,9 @@ Completed:
 - Thumbnail Intelligence updated with hidden-competence split-self crowd mechanism.
 - Adjacent trope comparison recorded: Queen's Reel `hw4kFMVk7mU` is a different assassin-reborn-schoolgirl film, so it validates trope demand without proving the same execution.
 
+
+Addendum — Fableheart compressed wish complete: `83i28EMbqqk` full 15m audiovisual analysis/report/evidence is ready locally; new `compressed_wish_integrity` validator passes tests (318 total). Jasmine clean redownload verified final frames through 02:43:15 and report evidence boundary updated. Next queue item: `XL0d9SmAA1M`.
+
 Immediate next work:
 
 1. Finish/download/analyze `83i28EMbqqk` (15m compressed mermaid/serial fantasy), then `XL0d9SmAA1M` consent/power-asymmetry stress test.

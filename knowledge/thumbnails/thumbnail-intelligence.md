@@ -181,3 +181,9 @@ This thumbnail sells mechanism directly: protagonist centered with open hands wh
 Evidence source: `knowledge/market/jasmine-drama-reborn-assassin-competence-cascade-deep-dive.md` and `data/raw/thumbnails/jasmine_drama/AaLngUHEqVY.maxresdefault.jpg`.
 
 The Jasmine thumbnail uses a hidden-competence split-self crowd pattern: socially trapped schoolgirl victim in the foreground, spatially separated armed alter ego behind her, and a public humiliation crowd surrounding both. It differs from a simple before/after transformation split because the crowd supplies moral pressure and the hidden self supplies competence in the same frame. Reusable mechanism: present victimhood + hidden-power self + hostile audience must form one mobile-legible triangle. Do not copy the schoolgirl/knife composition; design an original triangle around the film's actual wound, competence, and public misrecognition.
+
+## Boundary-touch creature-family thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/fableheart-hunters-mark-compressed-wish-creature-family-deep-dive.md` and `data/raw/thumbnails/fableheart_films/83i28EMbqqk.maxresdefault.webp`.
+
+The Fableheart thumbnail uses boundary-touch creature-family packaging: human father on rock, mermaid mother in water, hybrid child reaching across the boundary, and a huge starry tail behind the relationship. The spectacle is truthful but subordinate to the emotional action. Reusable mechanism: place the child/protagonist as a physical bridge between incompatible worlds and let magical scale frame the near-touch rather than replace it.

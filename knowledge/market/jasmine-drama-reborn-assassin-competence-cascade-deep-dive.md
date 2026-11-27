@@ -20,7 +20,7 @@
 
 ### Important evidence boundary
 
-The downloaded bitstream contains corrupt packets. The analyzer indexed 9,704 of 9,804 seconds (about 99.0%); reliable contact-sheet coverage ends around 02:41:40, while metadata duration is 02:43:24. The final approximately 100 seconds are therefore **not** claimed as fully visually inspected. Transcript cues continue to 02:43:13, but final-moment claims are marked transcript-only until a clean redownload or alternate copy verifies them.
+The first downloaded bitstream contained corrupt packets and the analyzer initially indexed only 9,704 of 9,804 seconds. A clean redownload preserved the full 9,804-second duration and verified decodable frames through 02:43:15. The original contact-sheet set still ends around 02:41:40, so continuous second-resolution visual metrics cover 9,704 seconds; targeted final verification frames at 02:42:00, 02:42:30, 02:43:00, and 02:43:15 are archived in `final_verification/` and `final-verification-montage.jpg`.
 
 The visual review used sampled contact sheets every 20 seconds across the decodable runtime, plus targeted full-resolution keyframes. This is sampled visual inspection over the full runtime, not continuous frame-by-frame human annotation. Machine visual indexing was second-resolution for 9,704 seconds.
 
@@ -215,13 +215,13 @@ The family and status repair culminate in marriage. At 02:37:47-02:37:56 the bri
 
 ### 2:37-2:43 — romance consummation, power comparison, instructor epilogue, mission hook
 
-Evidence: transcript-only for portions after reliable visual cutoff; final 100 seconds require clean-media verification.
+Evidence: transcript plus targeted final visual verification frames.
 
 At 02:38:39-02:38:43 he says she finally belongs completely to him. At 02:39:42, when she asks him to let her go, he says, “You have no right to refuse.” This is a serious consent-boundary failure if read literally, even inside playful marital banter. The story elsewhere frames mutual competence and admiration, but this line is a negative example for the production system: never use nonconsensual sexual persistence as proof of passion.
 
 The ending then uses exposition-heavy dialogue to compare the Crimson Flame Legion leader and Rakshasa, asking whether organizational capital outweighs individual assassin power. At 02:42:05-02:42:49 she becomes Instructor Luo and drives trainees harder. This confirms a new stable identity: not only killer, not only student, not only wife, but institutional teacher.
 
-At 02:43:00-02:43:13 a top-level harbor-summit mission orders her immediate return. This is a sequel hook after family, justice, marriage, and status closure. The closure-before-hook structure is present, but the final extraction is abrupt and may function more as serialized episode punctuation than cinematic ending.
+At 02:43:00-02:43:13 a top-level harbor-summit mission orders her immediate return. Final verification frames confirm the instructor uniform, trainees pleading during harsh training, a walk away with Lu Heng, and her run toward the vehicle after recall. This is a sequel hook after family, justice, marriage, and status closure. The closure-before-hook structure is present, but the final extraction is abrupt and may function more as serialized episode punctuation than cinematic ending.
 
 ## Central craft doctrine: competence-cascade revenge
 

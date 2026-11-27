@@ -2824,3 +2824,29 @@ def test_competence_cascade_title_skill_is_not_early_proof():
     ]
     r=evaluate_competence_cascade_integrity(premise,architecture,scenes)
     assert r["checks"]["hidden_competence_is_proven_early"] is False
+
+
+def test_compressed_wish_integrity_balanced_creature_family_example():
+    from studio.compressed_wish_integrity import evaluate_compressed_wish_integrity
+    premise={"title":"The Tide Star","logline":"A mermaid son wishes for a tail because his legs make him too slow and he feels caught between sea and land family worlds."}
+    architecture={"sequences":[
+      {"summary":"Daddy has one breath underwater. At Christmas the child learns to give something you love to someone you love, then follows the fallen star because he thinks it fell for him."},
+      {"summary":"The wishing star is a creature baby alone and scared. When the mother creature attacks, the child learns that's her baby and gives it back for you."},
+      {"summary":"The mother admits she blamed the father's stories but they brought him home. Grandpa says the child stood between them with one breath."},
+      {"summary":"In the sea a tail, on land your legs; he gave his star away and got his wish, closing Christmas with merry Christmas."},
+    ]}
+    r=evaluate_compressed_wish_integrity(premise,architecture,[])
+    assert r["applies"] is True
+    assert r["checks"]["possession_reframed_as_attachment"] is True
+    assert r["checks"]["sacrifice_before_reward"] is True
+    assert r["checks"]["transformation_integrates_identity"] is True
+
+
+def test_compressed_wish_integrity_flags_vending_machine_reward():
+    from studio.compressed_wish_integrity import evaluate_compressed_wish_integrity
+    premise={"title":"Tail Wish","logline":"A mermaid son wishes for a tail."}
+    architecture={"sequences":[{"summary":"He finds a magic stone and immediately gets a tail."}]}
+    r=evaluate_compressed_wish_integrity(premise,architecture,[])
+    assert r["checks"]["wish_carrier_is_vulnerable_or_personlike"] is False
+    assert r["checks"]["sacrifice_before_reward"] is False
+    assert r["score_0_to_1"] < 0.5
