@@ -3778,3 +3778,36 @@ def test_restitution_pact_whenever_does_not_cross_newline_into_actual_betrayal()
       {'summary':'they betray her in the hunter attack.'},
     ]
     assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is True
+
+def test_maternal_sovereignty_not_hesitate_to_sign_counts_as_release():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][2]={'summary':'A medical board examination exposes the false pregnancy publicly. He does not hesitate to sign the divorce papers and lets go before any reunion.'}
+    assert evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)['checks']['release_of_control_precedes_reunion'] is True
+
+
+def test_protective_kinship_named_truth_and_permission_free_exit_count():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise,architecture,scenes=_protective_kinship_fixture()
+    architecture['sequences'][3]={'summary':'He tells Mira the truth about using her. He transfers treasury keys, accounts, money, and control.'}
+    architecture['sequences'][4]={'summary':'He says you can leave without my permission. She chooses a real marriage and kisses him. Her healing gift belongs to herself, not property.'}
+    result=evaluate_protective_kinship_integrity(premise,architecture,scenes)
+    assert result['checks']['truth_disclosure_precedes_re_choice'] is True
+    assert result['checks']['consent_preserving_re_choice'] is True
+
+
+def test_restitution_pact_newline_wrapped_if_rule_is_not_actual_betrayal():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    architecture['sequences']=[
+      {'summary':'They vow to protect her forever after the pact. If'},
+      {'summary':'they betray her, the pact restores her sight.'},
+    ]
+    assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is False
+
+
+def test_protective_kinship_condemns_child_property_counts_as_rejection():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise,architecture,scenes=_protective_kinship_fixture()
+    architecture['sequences'][4]={'summary':'The prince claims her magical gift, but Mira condemns treating children as property. He tells her she can refuse. She chooses a real marriage and kisses him.'}
+    assert evaluate_protective_kinship_integrity(premise,architecture,scenes)['checks']['child_power_is_not_property'] is True

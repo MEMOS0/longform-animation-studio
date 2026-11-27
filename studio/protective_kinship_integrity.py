@@ -36,7 +36,9 @@ def _first_non_negated(pattern: str, text: str) -> int | None:
             text.rfind("\n", 0, match.start()),
         ) + 1
         prefix = text[sentence_start:match.start()]
-        if not re.search(r"\b(?:refus\w*|withhold\w*|without|never|not)\b(?:\s+\w+){0,3}\s*$", prefix):
+        positive_completion = re.search(r"not hesitate to\s*$|without hesitation\s*$|without (?:my|your|his|her|their) permission\s*$", prefix)
+        negated = re.search(r"\b(?:refus\w*|withhold\w*|without|never|not)\b(?:\s+\w+){0,3}\s*$", prefix)
+        if positive_completion or not negated:
             return match.start()
     return None
 
@@ -67,7 +69,7 @@ def evaluate_protective_kinship_integrity(premise: dict[str, Any], architecture:
 
     autonomy_pattern = r"(?:transfers?|gives?|hands?|grants?)[^.!?]{0,60}(?:keys|treasury|accounts|estates|revenues|money|control)|freedom to leave|material autonomy|free to leave|she can refuse"
     intimacy_pattern = r"kiss|real marriage|intimacy|wedding renewal|chooses? (?:him|her|them)|says yes"
-    truth_pattern = r"admits?|confess(?:es|ed)?|tells? (?:her|him|them) the truth|truth is revealed|reveals? the truth|acknowledges?"
+    truth_pattern = r"admits?|confess(?:es|ed)?|tells? (?:[a-z][a-z'-]{1,28} )?the truth|truth is revealed|reveals? the truth|acknowledges?"
     rechoice_pattern = r"real marriage|chooses? (?:him|her|them)|says yes|kiss|re-choice|renewal"
 
     def source_order(before_pattern: str, after_pattern: str) -> bool:
@@ -92,10 +94,10 @@ def evaluate_protective_kinship_integrity(premise: dict[str, Any], architecture:
         "instrumental_marriage_betrayal_is_named": bool(re.search(r"used (?:me|her|him)|chose (?:me|her|him) because|needed (?:her|his) strength|without telling (?:her|him) the truth|instrumental marriage|marriage is anything but a bargain", flat)),
         "material_autonomy_transfer_precedes_intimacy": source_order(autonomy_pattern, intimacy_pattern),
         "truth_disclosure_precedes_re_choice": source_order(truth_pattern, rechoice_pattern),
-        "consent_preserving_re_choice": bool(_first_non_negated(r"can refuse|free to leave|you don.?t have to|if you need time|permission|uncoerced|freely chosen", chronology)),
+        "consent_preserving_re_choice": bool(_first_non_negated(r"can refuse|can leave|free to leave|you don.?t have to|if you need time|asks? permission|permission to touch|uncoerced|freely chosen", chronology)),
         "child_power_is_not_property": bool(
             re.search(r"child .{0,50}(?:power|gift|magic|flame|healing)|healing (?:flame|gift)|magical gift", flat)
-            and re.search(r"belongs? to (?:herself|himself|themselves)|not (?:a )?(?:miracle|object|property)|(?:rejects?|refuses?|challenges?|objects? to)[^.!?]{0,80}children as property", flat)
+            and re.search(r"belongs? to (?:herself|himself|themselves)|not (?:a )?(?:miracle|object|property)|(?:rejects?|refuses?|challenges?|objects? to|condemns?|denounces?|opposes?)[^.!?]{0,80}children as property", flat)
         ),
         "exploitative_blood_family_is_rejected": bool(re.search(r"blood is blood|birth family|stepmother|father .{0,40}(?:debt|money)|family has missed you", flat) and re.search(r"owe nothing|reject|refuse|do not answer|threw .{0,30}fire|make them somewhere else", flat)),
         "closure_is_durable_chosen_family_labor": bool(re.search(r"years later|time jump|wedding renewal|breakfast|ordinary|home|children .{0,40}(?:choose|leave only when)|domestic continuity|shared nighttime labor", chronology_flat[-max(1, len(chronology_flat) // 2):])),

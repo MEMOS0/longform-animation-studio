@@ -55,6 +55,9 @@ def evaluate_restitution_pact_integrity(premise: dict[str, Any], architecture: d
         ) + 1
         prefix = chronology[sentence_start:betrayal_match.start()]
         conditional_marker = re.search(r"\b(?:if|unless)\b[^.!?]{0,30}$", prefix)
+        previous_lines = chronology[:sentence_start].rstrip().splitlines()
+        if previous_lines and re.search(r"\b(?:if|unless)\s*$", previous_lines[-1].strip()):
+            conditional_marker = True
         sentence_ends = [pos for pos in [
             chronology.find(".", betrayal_match.end()),
             chronology.find("!", betrayal_match.end()),
