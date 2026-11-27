@@ -38,6 +38,7 @@ from .epic_creature_extraction import evaluate_epic_creature_extraction
 from .supernatural_child_witness import evaluate_supernatural_child_witness
 from .patronage_consent_integrity import evaluate_patronage_consent_integrity
 from .attachment_repair_integrity import evaluate_attachment_repair_integrity
+from .coerced_rechoice_integrity import evaluate_coerced_rechoice_integrity
 from .visual_causality import evaluate_visual_causality
 from .hidden_identity_integrity import evaluate_hidden_identity_integrity
 from .scale_community_integrity import evaluate_scale_community_integrity
@@ -326,6 +327,7 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "supernatural_child_witness": evaluate_supernatural_child_witness(premise, architecture, scenes),
         "patronage_consent_integrity": evaluate_patronage_consent_integrity(premise, architecture, scenes),
         "attachment_repair_integrity": evaluate_attachment_repair_integrity(premise, architecture, scenes),
+        "coerced_rechoice_integrity": evaluate_coerced_rechoice_integrity(premise, architecture, scenes),
         "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes), "storyboards": len(boards)},
         "gates": gate_report(schema_errors, failure, scene_report, architecture_report, bool(architecture), bool(scenes), board_report),
     }

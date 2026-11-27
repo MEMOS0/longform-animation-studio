@@ -456,3 +456,9 @@ Use the `patronage_consent_integrity` project-evaluation gate as a warning syste
 Before greenlighting child-reunion grief/family melodrama, read `knowledge/market/daily-drama-poppy-parentification-attachment-repair-deep-dive.md`. The portable mechanism is not “cute child cures billionaire.” It is contradictory reunion hook, procedural custody safeguarding, public claim without hiding, repeated small embodied care, adult grief regulation, measurable reliability protocols, explicit parentification correction, dead-parent differentiation, and ending proof that ordinary safety systems work.
 
 Use the `attachment_repair_integrity` project-evaluation gate as a warning system, not as a hit predictor. Do not copy Poppy's plot, dialogue, character design, frog motif, or thumbnail; extract the mechanism and build original stories.
+
+## 2026-11-27 coerced hidden-identity free-re-choice doctrine update
+
+Before greenlighting forced/arranged/coerced hidden-identity romance, read `knowledge/market/strong-enough-for-love-coerced-hidden-identity-deep-dive.md` plus the duplicate-distribution forensic note. The portable mechanism is concrete coercion leverage, survival/trauma function for disguise, attachment before reveal, procedural evidence/accountability, refusal to treat money/property as substitute repair, preserved anger, restored control, explicit truth, and free partnership re-choice.
+
+Use the `coerced_rechoice_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy `Strong Enough for Love`; extract the mechanism and create original stories.

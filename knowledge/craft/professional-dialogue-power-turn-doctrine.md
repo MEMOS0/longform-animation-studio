@@ -210,3 +210,12 @@ Evidence source: `knowledge/market/daily-drama-poppy-parentification-attachment-
 3. **Parentification correction should be explicit but relational.** “You didn't have to cure me” lands because it is paired with “you can love me and still go play,” not with rejection of the child's care.
 4. **Children should speak in concrete fear logic.** “I thought you forgot me again” is more dramatically useful than generic sadness because it gives the adult a repairable accusation.
 5. **Public recovery dialogue should destigmatize help without claiming cure.** Ethan's therapy speech works because it names shame and first steps rather than declaring himself fixed.
+
+## Coerced hidden-identity re-choice dialogue addendum (2026-11-27)
+
+Evidence source: `knowledge/market/strong-enough-for-love-coerced-hidden-identity-deep-dive.md`.
+
+1. **Refusal should preserve anger.** “I am not signing away my anger” is stronger than instant forgiveness because choice can coexist with accountability.
+2. **Assets are not apology unless framed as restored control.** Property becomes dramatically meaningful only when it returns agency, not when it buys affection.
+3. **Final romantic lines should redefine the relationship.** “Partner, not rescuer” converts rescue fantasy into chosen equality.
+4. **Playful consent language works only after no-force conditions are established.** “She said yes. We checked.” is safe because truth and agency have already landed.

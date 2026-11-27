@@ -2323,3 +2323,22 @@ def test_attachment_repair_flags_child_as_cure_without_correction():
     assert result["checks"]["parentification_is_explicitly_corrected"] is False
     assert result["checks"]["adult_grief_regulation_and_support"] is False
     assert result["warnings"]
+
+
+def test_coerced_rechoice_full_chain_passes():
+    from studio.coerced_rechoice_integrity import evaluate_coerced_rechoice_integrity
+    premise={"title":"Strong Enough","logline":"A woman is forced to marry a poor single dad who is secretly a billionaire CEO because her missing twins are used as leverage."}
+    architecture={"sequences":[{"summary":"The forced marriage uses missing children and tuition leverage. His scar and disguise come from assault, protection, trust, and safety. She does not know he is secretly rich and accepts ordinary partnership, children, bedtime, work, and the package deal before status reveal. Evidence, footage, complaint, attorney, police investigation, records, clinic verification, test, and arrest create accountability. Money was never the wound; she is not signing away her anger or accepting property as a bribe. The lie was betrayal and coercion remains a trust wound. Marital assets, control, documents, consent, choice, and decisions restore agency. Tell me the truth, no more lies, no more hiding. In the ending she freely chooses him as partner, not rescuer, no force, may I ask, when you are ready."}]}
+    r=evaluate_coerced_rechoice_integrity(premise,architecture,[])
+    assert r["applies"] is True
+    assert r["score_0_to_1"] == 1.0
+
+
+def test_coerced_rechoice_flags_wealth_absolution():
+    from studio.coerced_rechoice_integrity import evaluate_coerced_rechoice_integrity
+    premise={"title":"Rich Reveal","logline":"A woman is forced to marry a poor single dad who is secretly a billionaire CEO, then instantly forgives him because he is rich."}
+    r=evaluate_coerced_rechoice_integrity(premise,{"sequences":[]},[])
+    assert r["applies"] is True
+    assert r["checks"]["final_choice_is_partnership_not_rescue"] is False
+    assert r["checks"]["money_is_not_accepted_as_substitute_repair"] is False
+    assert r["warnings"]
