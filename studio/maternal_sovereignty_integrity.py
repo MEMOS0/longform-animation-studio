@@ -26,7 +26,7 @@ def _first_non_negated(pattern: str, text: str) -> int | None:
             text.rfind("\n", 0, match.start()),
         ) + 1
         prefix = text[sentence_start:match.start()]
-        if not re.search(r"\b(?:refus\w*|withhold\w*|without|never|not)\b\s+(?:to\s+)?$", prefix):
+        if not re.search(r"\b(?:refus\w*|withhold\w*|without|never|not)\b(?:\s+\w+){0,3}\s*$", prefix):
             return match.start()
     return None
 
