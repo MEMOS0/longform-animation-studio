@@ -30,8 +30,8 @@ def evaluate_child_economic_claimant_integrity(premise: dict[str, Any], architec
     ending = ending_source[-max(1, len(ending_source) // 3):] if ending_source else ""
 
     child = bool(re.search(r"child|daughter|son|girl|boy|kid", full))
-    wealthy_parent = bool(re.search(r"billionaire|ceo|wealthy|rich|company|group|inheritance|heir", full)) and bool(re.search(r"dad|father|mom|mother|parent", full))
-    economic_claim = bool(re.search(r"child support|formula money|milk money|deadbeat dad|owe|debt|pay up|hardship pay|diapers|expenses|invoice|collect", full))
+    wealthy_parent = bool(re.search(r"billionaire|ceo|wealthy|rich|corporate|company office|group|inheritance|heir", full)) and bool(re.search(r"dad|father|mom|mother|parent", full))
+    economic_claim = bool(re.search(r"child support|formula money|milk money|deadbeat dad|owe(?:s)? (?:us|me|her|him|them)|pay up|hardship pay|diapers|expenses|invoice|collect", full))
     applies = child and wealthy_parent and economic_claim
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}

@@ -2454,3 +2454,19 @@ def test_wrongful_accusation_rejects_nonstatus_accusation():
     from studio.wrongful_accusation_integrity import evaluate_wrongful_accusation_integrity
     r=evaluate_wrongful_accusation_integrity({"title":"Mystery","logline":"A person is accused of stealing a sandwich and immediately confesses."},{"sequences":[]},[])
     assert r["applies"] is False
+
+
+def test_economic_restitution_ignores_sequence_timecodes():
+    from studio.economic_abandonment_integrity import evaluate_economic_abandonment_integrity
+    premise={"title":"Train Station","logline":"After the wedding her husband left her at the train station saying don't belong, stole everything, and betrayed her for money."}
+    result=evaluate_economic_abandonment_integrity(premise,{"sequences":[{"timecode":"00:54:20","summary":"She talks at 54:20 but nobody repays anything."}]},[])
+    assert result["checks"]["restitution_is_measurable"] is False
+
+
+def test_melodrama_claimant_and_abandonment_ignore_creature_debt_contexts():
+    from studio.child_economic_claimant_integrity import evaluate_child_economic_claimant_integrity
+    from studio.economic_abandonment_integrity import evaluate_economic_abandonment_integrity
+    creature={"title":"Emberseed Oven Cart","logline":"A child baker owes debt to a guild while protecting a fire creature whose company comforts her father."}
+    assert evaluate_child_economic_claimant_integrity(creature,{"sequences":[]},[])["applies"] is False
+    turtle={"title":"Foghorn Turtle Keeper","logline":"A keeper refuses to abandon an injured turtle and learns to trust a harbor family."}
+    assert evaluate_economic_abandonment_integrity(turtle,{"sequences":[]},[])["applies"] is False
