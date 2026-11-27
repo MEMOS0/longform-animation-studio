@@ -3642,3 +3642,30 @@ def test_restitution_pact_narrative_when_clause_counts_as_actual_betrayal():
       {'summary':'When they betray her, the pact returns her sight.'},
     ]
     assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is True
+
+def test_maternal_sovereignty_unrelated_prior_refusal_does_not_hide_release():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][2]={'summary':'A medical board examination exposes the false pregnancy publicly. She refuses his first offer. He signs the divorce papers and lets go before any reunion.'}
+    architecture['sequences'][3]={'summary':'She once says she does not trust him. Later the truth is revealed. He gives up the election campaign, waits patiently, and tells her she can refuse. Informed and uncoerced, she says yes when he asks her to marry him again, calling her healer princess.'}
+    result=evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)
+    assert result['checks']['release_of_control_precedes_reunion'] is True
+    assert result['checks']['re_choice_is_informed_and_not_coerced'] is True
+
+
+def test_maternal_sovereignty_notary_does_not_read_as_negation():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][3]={'summary':'He gives up the election campaign and tells her she can refuse. She remarries him only after a notary witnesses him sign the divorce papers and after the truth is revealed; informed and uncoerced, she says yes, remaining healer princess.'}
+    result=evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)
+    assert result['checks']['release_of_control_precedes_reunion'] is True
+
+
+def test_restitution_pact_whenever_standing_rule_is_not_actual_betrayal():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    architecture['sequences']=[
+      {'summary':'They vow to protect her forever after the pact.'},
+      {'summary':'The pact restores sight whenever the beneficiaries betray her.'},
+    ]
+    assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is False
