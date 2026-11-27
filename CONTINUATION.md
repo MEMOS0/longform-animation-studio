@@ -551,3 +551,10 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - Major packaging discovery: exact subtitle anchors and shifted frame comparison indicate the larger WUFO hit `9N6S6D_ioA0` appears to reuse most/all of `F-RnV2OicIU` after roughly 22:15 of preceding material. It should be treated as compound/serial packaging evidence, not clean duration causality.
 - Craft findings: WUFO strongly validates heat-scarcity economics, creature care before power, sparse practical dialogue, authoritarian coal control, execution ritual, and climax-as-protection/contact. Movie Maxx validates visual-archetypal creature fantasy and slower atmospheric shot lengths; no subtitle track was available, so no exact dialogue claims were made.
 - Committed report: `knowledge/market/fresh-creature-breakouts-wufo-moviemaxx-deep-dive.md`; evidence folders include full timelines/metrics/contact sheets and the WUFO overlap montage.
+
+## 2026-11-27 compound-expansion production integration checkpoint
+
+- Converted the WUFO serial-reuse discovery into production machinery: `compound_expansion.py` evaluates whether a creature film is ethically/materially complete enough to be reused inside a longer prequel/continuation package; it explicitly refuses to treat compound runtime as duration causality.
+- Added `creature_pacing.py`: creature fantasy is allowed slower atmospheric composition, but must move care/material stakes -> staged spectacle -> quiet contact/recognition/home resolution instead of uniformly fast cutting.
+- Integrated both evaluators into `evaluate_project`; generated creature-economic and compressed-survival premises now carry concrete `packaging.compound_expansion` reuse/prequel/tail rules.
+- Updated format strategy with explicit `compound_serial_expansion` guidance. Tests: 124 passed.

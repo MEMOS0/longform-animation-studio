@@ -276,6 +276,12 @@ def creature_economic_premise(v: dict[str, str], target_minutes: float = 42) -> 
             "curiosity_gap": "will she sell the creature's gift to survive, or protect it and lose everything?",
             "visual_before_after": f"dry/excluded workspace becomes {v['inversion_space']}; {v['object']} changes from discarded inheritance into proof",
             "title_thumbnail_mismatch_risk": "generic creature fantasy packaging would hide the stronger debt/personhood/economic-choice mechanism",
+            "compound_expansion": {
+                "standalone_requirement": "the film must first resolve the home/debt wound, creature personhood, and community water/work consequence",
+                "prequel_window": "15-25 minutes can later show the resource monopoly before the opening debt deadline, ending on the exact exclusion image that begins the standalone film",
+                "reuse_rule": "the compressed film may be reused only in original care-before-power order; do not front-load creature spectacle",
+                "tail_rule": "any expansion epilogue must clarify rebuilding/nest/community consequence rather than replace closure with a sequel tease",
+            },
         },
         "evidence_boundaries": [
             "Inspired by mechanism-level evidence in desert-mermaid, creature-family, social-test, and legal-proof research; characters, world, object, proof chain, and dialogue are original.",

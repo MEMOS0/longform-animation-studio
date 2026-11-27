@@ -130,6 +130,12 @@ def compressed_survival_premise(v: dict[str, str], target_minutes: float = 18) -
             "curiosity_gap": f"how can a {v['occupation']} survive a creature that owns the terrain?",
             "visual_before_after": f"wrecked vehicle/station becomes {v['inversion_space']}; {v['object']} changes from routine tool into rescue mechanism",
             "title_thumbnail_mismatch_risk": "generic monster packaging would hide the stronger occupational-care-rescue mechanism",
+            "compound_expansion": {
+                "standalone_requirement": "the compressed survival film must close on reciprocal rescue/contact and show whether the threatened survivors or infrastructure remain viable",
+                "prequel_window": "10-20 minutes can later establish the route, colony, or occupational duty before the disaster, ending directly on the opening role/creature/location contract",
+                "reuse_rule": "reused material must retain disaster-within-two-minutes and care-before-power ordering",
+                "tail_rule": "an expansion epilogue may show rebuilding or return home, but must not turn a clean survival ending into a cliffhanger substitute",
+            },
         },
         "evidence_boundaries": [
             "Inspired by mechanism-level evidence in compressed creature-survival research; characters, species mix, vehicle, object, and rescue chain are original.",

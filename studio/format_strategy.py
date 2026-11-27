@@ -61,6 +61,12 @@ BASE_RULES = {
         "Package completeness as value: clear season/complete-story expectation, normalized audio, clean episode transitions.",
         "Do not use the success of a compilation to claim individual fragmented episodes would perform equally.",
     ],
+    "compound_serial_expansion": [
+        "Make the original compressed asset emotionally and materially complete before reusing it inside a longer package.",
+        "Use prequel or continuation material to deepen the original wound/handoff, not to replace missing closure.",
+        "Preserve care-before-power ordering in reused creature material; do not front-load spectacle by re-editing away the first care act.",
+        "Treat performance as packaging evidence, not proof that longer duration caused the result.",
+    ],
     "extended_compilation": [
         "Assume binge value and franchise trust are part of performance; separate packaging effects from story quality.",
         "Audit openings/endings of internal episodes individually before generalizing.",
@@ -75,6 +81,7 @@ def infer_format_flags(text: str) -> dict[str, bool]:
     return {
         "episodic": episodic,
         "compilation": bool(re.search(r"compilation|complete season|full season|season\s*\d+|all episodes|movie marathon", low)),
+        "compound_expansion": bool(re.search(r"compound expansion|serial expansion|prequel|continuation material|reused footage|re-edit", low)),
         "serialized": episodic or bool(re.search(r"serial|series|episode|part|chapter|season", low)),
         "continuation_hook": bool(re.search(r"to be continued|cliffhanger|next episode|season\s*2", low)),
     }
@@ -100,6 +107,8 @@ def format_strategy(target_minutes: float | int | None = None, premise_text: str
         warnings.append("episodic labeling on a longer asset may reduce self-contained discovery value; prove the first episode can stand alone")
     if flags["compilation"] and cls not in {"compilation_or_complete_season", "extended_compilation"}:
         warnings.append("compilation language detected without matching duration; clarify packaging")
+    if flags.get("compound_expansion") and cls != "compound_serial_expansion":
+        warnings.append("compound/serial expansion language detected; classify the release explicitly so duration is not mistaken for causal evidence")
     if cls in {"long_feature", "mid_length_feature", "short_feature"} and flags["continuation_hook"]:
         recommendations.append("A continuation hook is acceptable only after the current film/episode pays off a major promise; do not use it as a substitute for resolution.")
     if cls in {"short_feature", "mid_length_feature", "long_feature"} and not re.search(r"child|creature|dragon|wolf|mother|father|family|lover|protector|baby|heir", premise_text.lower()):

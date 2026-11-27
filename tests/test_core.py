@@ -1144,3 +1144,52 @@ def test_transformation_visual_images_are_readable_by_causality_gate():
     premise=generate_premises('transformation_romance',1,72)[0]
     scenes=generate_scenes(premise,generate_architecture(premise))
     assert evaluate_visual_causality(scenes)['warnings']==[]
+
+
+def test_compound_expansion_readiness_generated_creature_contracts():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.compound_expansion import evaluate_compound_expansion_readiness
+    for contract,minutes in [('creature_economic_melodrama',32),('compressed_creature_survival',24)]:
+        premise=generate_premises(contract,1,minutes)[0]
+        arch=generate_architecture(premise)
+        result=evaluate_compound_expansion_readiness(premise,arch,generate_scenes(premise,arch))
+        assert result['applicable']
+        assert result['score_0_to_1']==1.0
+        assert 'not proof' in result['packaging_boundary']
+        assert premise['packaging']['compound_expansion']['reuse_rule']
+
+
+def test_compound_expansion_warns_when_closure_is_missing():
+    from studio.compound_expansion import evaluate_compound_expansion_readiness
+    premise={'target_minutes':24,'logline':'a dragon creature in a coal heat crisis'}
+    arch={'sequences':[{'sequence':1,'turn':'the heat infrastructure collapses and the creature departs into mystery'}]}
+    result=evaluate_compound_expansion_readiness(premise,arch,[])
+    assert result['warnings']
+    assert result['score_0_to_1']<1.0
+
+
+def test_creature_pacing_generated_contracts_and_bad_loud_tail():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.creature_pacing import evaluate_creature_pacing
+    premise=generate_premises('compressed_creature_survival',1,24)[0]
+    arch=generate_architecture(premise)
+    scenes=generate_scenes(premise,arch)
+    assert evaluate_creature_pacing(premise,arch,scenes)['score_0_to_1']==1.0
+    bad=[dict(scene) for scene in scenes]
+    bad[-1]['sound_design']={'dialogue_priority':'dialogue intelligible','music_function':'constant music and generic epic loud throughout','silence_or_negative_space':'','motif':'wallpaper'}
+    bad[-1]['visual_action']['final_image']='explosion spectacle continues without contact'
+    result=evaluate_creature_pacing(premise,arch,bad)
+    assert any('final scene' in warning or 'final sound design' in warning or 'ending' in warning for warning in result['warnings'])
+
+
+def test_compound_serial_expansion_format_is_not_duration_causality():
+    from studio.format_strategy import format_strategy
+    result=format_strategy(47,'compound expansion with reused footage and prequel material','compound_serial_expansion')
+    assert result['format_class']=='compound_serial_expansion'
+    assert any('not proof that longer duration' in row for row in result['recommendations'])
+    inferred=format_strategy(47,'compound expansion with reused footage','long_feature')
+    assert any('duration is not mistaken' in warning for warning in inferred['warnings'])
