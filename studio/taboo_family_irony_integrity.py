@@ -20,17 +20,39 @@ def _text(value: Any) -> str:
     return ""
 
 
+def _opening_text(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> str:
+    parts: list[str] = []
+    if isinstance(premise, dict):
+        for key, value in premise.items():
+            lowered = str(key).lower()
+            if "opening" in lowered or lowered.startswith("first_") or lowered in {"inciting_event", "prologue"}:
+                parts.append(_text(value))
+    sequences = architecture.get("sequences") if isinstance(architecture, dict) else None
+    if isinstance(sequences, list) and sequences:
+        count = max(1, (len(sequences) + 2) // 3)
+        parts.extend(_text(sequence) for sequence in sequences[:count])
+    elif architecture:
+        text = _text(architecture)
+        parts.append(text[: max(1, len(text) // 3)])
+    if scenes:
+        count = max(1, (len(scenes) + 2) // 3)
+        parts.extend(_text(scene) for scene in scenes[:count])
+    return "\n".join(parts).lower()
+
+
 def evaluate_taboo_family_irony_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     premise_text = _text(premise).lower()
     architecture_text = _text(architecture).lower()
     scenes_text = _text(scenes).lower()
     full = "\n".join([premise_text, architecture_text, scenes_text])
-    opening_source = "\n".join([premise_text, architecture_text[: max(1, len(architecture_text) // 3)], scenes_text[: max(1, len(scenes_text) // 3)]])
+    flat = re.sub(r"\s+", " ", full)
+    opening_source = _opening_text(premise, architecture, scenes)
 
-    family_taboo = bool(re.search(r"best friend.?s (?:dad|father|mom|mother)|stepmom|stepmother|stepfather|guardian|father.?in.?law|mother.?in.?law|family friend", full))
-    romantic_power = bool(re.search(r"mafia|mob|godfather|don\b|ceo|billionaire|older man|age gap|powerful|boss", full))
-    hidden_relation = bool(re.search(r"secret|hidden identity|doesn.?t know|unaware|mistaken|wrong (?:man|woman|person)|lies|lying|truth", full))
-    applies = family_taboo and romantic_power and hidden_relation
+    family_taboo = bool(re.search(r"best(?:ie| friend).?s (?:dad|father|mom|mother|parent)|stepmom|stepmother|stepfather|father.?in.?law|mother.?in.?law", flat))
+    romantic_power = bool(re.search(r"mafia|mob|godfather|don\b|ceo|billionaire|older man|age gap|boss", flat))
+    romantic_relation = bool(re.search(r"marry|marries|married|marriage|husband|wife|bride|romance|lover|dating|partner", flat))
+    hidden_relation = bool(re.search(r"secret|hidden identity|doesn.?t know|unaware|mistaken|wrong (?:man|woman|person)|lies|lying|truth", flat))
+    applies = family_taboo and romantic_power and romantic_relation and hidden_relation
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
@@ -42,19 +64,31 @@ def evaluate_taboo_family_irony_integrity(premise: dict[str, Any], architecture:
         "crime_institution": r"mafia|crew|police|court|contract|business|operation",
     }
     arena_count = sum(1 for pattern in arena_terms.values() if re.search(pattern, full))
-    coercion_unrepaired = bool(re.search(r"drunk(?:en)? marriage|mistake(?:n)? marriage|forced marriage|blackmail|no right to refuse|won.?t take no|cut .*internet|ship .*away|surveillance|possessive|you are mine", full)) and not bool(re.search(r"flaw|wrong|apolog|repair|consent|free choice|can leave|reject|done with|boundar|truth|no more lies", full))
+
+    coercion_present = bool(re.search(r"drunk(?:en)? marriage|mistake(?:n)? marriage|forced marriage|blackmail|no right to refuse|can.?t refuse|won.?t take no|cut .*internet|ship .*away|surveillance|possessive|you are mine", flat))
+    repair_behavior = bool(re.search(r"apolog|repair|explicit consent|free choice|choose freely|can leave|free to leave|respects? (?:her|his|their) (?:no|refusal|boundar)|honors? (?:her|his|their) (?:no|refusal|boundar)|asks? (?:permission|before)|no more lies|tells? the truth|truth before", flat))
+    coercion_unrepaired = coercion_present and not repair_behavior
+
+    agency_text = re.sub(r"no right to refuse|can.?t refuse|cannot refuse|won.?t take no", " ", flat)
+    protagonist_agency = bool(re.search(r"we are done|she rejects|he rejects|she refuses|he refuses|stay away|can leave|free to leave|she decides|he decides|tells? (?:him|her|them) no|walks? away|asks? for (?:an )?annulment|right to refuse", agency_text))
+    truth_revealed = bool(re.search(r"truth|no more lies|identity is revealed|learns? who|realizes? who", flat))
+
+    shared_reveal = bool(re.search(r"(?:audience|viewer|viewer.?s|reader).{0,50}learn.{0,30}together|(?:audience|viewer|viewer.?s|reader).{0,50}(?:same time|with the characters)|characters and (?:audience|viewers|readers) learn", flat))
+    explicit_superiority = bool(re.search(r"audience knows|viewer knows|audience is aware|viewer is aware|dramatic irony|superior knowledge|only the audience|only the viewer", flat))
+    asymmetric_knowledge = bool(re.search(r"while .{0,40}(?:unaware|doesn.?t know)|remains? unaware|still unaware|only .{0,25}knows", flat))
+    audience_superior = explicit_superiority or (asymmetric_knowledge and not shared_reveal)
 
     checks = {
-        "compounded_impossibility_early": sum(bool(re.search(pattern, opening_source)) for pattern in [r"wrong (?:man|person)|mistaken", r"marry|married|wife|husband|bride", r"best friend|stepmom|father|dad", r"mafia|godfather|boss|older man|powerful"]) >= 3,
-        "audience_has_superior_knowledge": bool(re.search(r"audience|viewer|dramatic irony|doesn.?t know|unaware|only .*knows|secret identity|hidden identity", full)),
-        "protective_misdirector_active": bool(re.search(r"best friend|sister|brother|father|mother|guardian", full) and re.search(r"protect|warn|save|rescue|hide|cover|scheme|investigate|track|private investigator", full)),
+        "compounded_impossibility_early": sum(bool(re.search(pattern, opening_source)) for pattern in [r"wrong (?:man|person)|mistaken", r"marry|married|wife|husband|bride", r"best friend|bestie|stepmom|father|dad", r"mafia|godfather|boss|older man|powerful"]) >= 3,
+        "audience_has_superior_knowledge": audience_superior,
+        "protective_misdirector_active": bool(re.search(r"best friend|bestie|sister|brother|father|mother|guardian", full) and re.search(r"protect|warn|save|rescue|hide|cover|scheme|investigate|track|private investigator", full)),
         "social_arena_rotation": arena_count >= 4,
         "public_shame_or_class_wound": bool(re.search(r"publicly humiliat|shame|gold.?digger|class|poor|student loans|scholarship|slut|whore|cheap|beggar|sidepiece", full)),
         "power_acquires_rules_or_accountability": bool(re.search(r"rules|by the books|police|court|law|evidence|investigation|accountability|consequences|don.?t touch civilians|procedural", full)),
-        "protagonist_can_reject_power": bool(re.search(r"we are done|reject|refuse|stay away|can leave|free to leave|choice|chooses|decides|no more lies|tell me the truth", full)),
+        "protagonist_can_reject_power": protagonist_agency,
         "possessiveness_is_flaw_not_reward": not coercion_unrepaired,
-        "family_reclassification_hook": bool(re.search(r"stepmom|stepmother|best friend or|call you now|family order|bloodline|part of the family|reclassif", full[-max(1, len(full)//2):])),
-        "truth_and_consent_repair": bool(re.search(r"truth|no more lies|consent|free choice|choose freely|apolog|repair|boundar|can leave", full)),
+        "family_reclassification_hook": bool(re.search(r"stepmom|stepmother|best friend or|bestie or|call you now|family order|bloodline|part of the family|reclassif", full[-max(1, len(full)//2):])),
+        "truth_and_consent_repair": truth_revealed and repair_behavior,
     }
     labels = {
         "compounded_impossibility_early": "taboo-family premise is not compounded and legible in the opening",
@@ -66,7 +100,7 @@ def evaluate_taboo_family_irony_integrity(premise: dict[str, Any], architecture:
         "protagonist_can_reject_power": "protagonist cannot meaningfully reject the powerful partner after truth exposure",
         "possessiveness_is_flaw_not_reward": "coercive/possessive behavior is present without being named, bounded, or repaired",
         "family_reclassification_hook": "ending does not convert romance revelation into a family-order reclassification hook",
-        "truth_and_consent_repair": "original deception/coercion lacks explicit truth, consent, boundary, or agency repair",
+        "truth_and_consent_repair": "original deception/coercion lacks explicit truth plus consent/boundary/agency repair",
     }
     warnings = [label for key, label in labels.items() if not checks[key]]
     return {

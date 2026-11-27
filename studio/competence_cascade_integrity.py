@@ -168,7 +168,8 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
 
     scene_order = "neutral"
     if scenes:
-        scene_order = closure_order("\n".join(_text(scene).lower() for scene in scenes))
+        final_count = max(2, (len(scenes) + 2) // 3)
+        scene_order = closure_order("\n".join(_text(scene).lower() for scene in scenes[-final_count:]))
 
     architecture_units: list[str] = []
     if isinstance(architecture, dict):
@@ -181,7 +182,7 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
     architecture_positive = "positive" in architecture_states
     architecture_negative = "negative" in architecture_states
     if len(architecture_states) >= 2:
-        payoff_recap_hook = bool(architecture_units and re.search(r"new mission|top-level mission|return to the team|sequel hook|next mission|ordered to|called away", architecture_units[-1]) and re.search(r"recap|previously|earlier|before|had already", architecture_units[-1]))
+        payoff_recap_hook = bool(architecture_units and re.search(r"new mission|top-level mission|return to the team|sequel hook|next mission|ordered to|called away", architecture_units[-1]) and re.search(r"recap|previously|earlier|had already|before the finale|before the final|before the closure|before she resolves|before he resolves", architecture_units[-1]))
         if payoff_recap_hook:
             architecture_negative = True
         elif architecture_states[0] == "closure_only" and architecture_states[-1] == "hook_only":
@@ -191,7 +192,10 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
     architecture_has_closure = any(state in {"positive", "closure_only"} for state in architecture_states)
     architecture_has_hook = any(state in {"positive", "negative", "hook_only"} for state in architecture_states)
 
-    explicit_unresolved = bool(isinstance(architecture, dict) and re.search(r"unresolved|remains open|conflict remains|no closure", _text(architecture.get("ending_payoff", "")).lower()))
+    ending_payoff_text = _text(architecture.get("ending_payoff", "")).lower() if isinstance(architecture, dict) else ""
+    unresolved_language = bool(re.search(r"unresolved|remains open|conflict remains|no closure", ending_payoff_text))
+    sequel_case_context = bool(re.search(r"new mission|next mission|sequel hook|new case|ordered to|called away", ending_payoff_text))
+    explicit_unresolved = unresolved_language and not sequel_case_context
     if explicit_unresolved:
         closure_before_hook = False
     elif scene_order == "positive":

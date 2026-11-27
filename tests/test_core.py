@@ -2988,3 +2988,57 @@ def test_competence_cascade_drawn_out_refusal_is_detected():
     premise,architecture,scenes=_competence_cascade_fixture()
     scenes.append({'summary':'She says, “Nooo!”, but he keeps kissing her.'})
     assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['romance_or_intimacy_respects_refusal'] is False
+
+
+def test_taboo_family_irony_stormglass_not_applicable():
+    import json
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise=json.load(open('examples/stormglass_project/premise.json',encoding='utf8'))
+    assert evaluate_taboo_family_irony_integrity(premise,{},[])['applies'] is False
+
+
+def test_taboo_family_irony_truth_reveal_does_not_mask_coercion():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Bestie Dad','logline':"A student secretly marries a mafia boss who is her bestie's father."}
+    architecture={'sequences':[{'summary':'She learns the truth, but he says she has no right to refuse, keeps surveillance, and calls that love.'}]}
+    r=evaluate_taboo_family_irony_integrity(premise,architecture,[])
+    assert r['applies'] is True
+    assert r['checks']['possessiveness_is_flaw_not_reward'] is False
+    assert r['checks']['protagonist_can_reject_power'] is False
+    assert r['checks']['truth_and_consent_repair'] is False
+
+
+def test_competence_cascade_before_credits_mission_passes():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['sequences'][-1]={'summary':'Police deliver justice and the family is reunited.'}
+    architecture['ending_payoff']={'repair':'Before the credits roll, she accepts a new mission.'}
+    assert evaluate_competence_cascade_integrity(premise,architecture,[])['checks']['closure_before_mission_hook'] is True
+
+
+def test_competence_cascade_new_unresolved_case_does_not_negate_closure():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['sequences'][-1]={'summary':'Police deliver justice and the family is reunited.'}
+    architecture['ending_payoff']={'repair':'A new mission sends her after an unresolved case in another city.'}
+    assert evaluate_competence_cascade_integrity(premise,architecture,[])['checks']['closure_before_mission_hook'] is True
+
+
+def test_taboo_family_irony_besties_dad_applies():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Secret Vows','logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
+    assert evaluate_taboo_family_irony_integrity(premise,{},[])['applies'] is True
+
+
+def test_taboo_family_irony_late_logline_not_opening_evidence():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Late Reveal','logline':"She secretly marries a mafia boss, unaware he is her bestie's dad.",'opening_event':{'first_60_seconds':'She studies quietly at school and nothing romantic or criminal is established.'}}
+    r=evaluate_taboo_family_irony_integrity(premise,{},[])
+    assert r['checks']['compounded_impossibility_early'] is False
+
+
+def test_taboo_family_irony_shared_reveal_not_superior_knowledge():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Shared Reveal','logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
+    architecture={'sequences':[{'summary':'The audience and characters learn the secret together at the ending; until then she is unaware.'}]}
+    assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['audience_has_superior_knowledge'] is False
