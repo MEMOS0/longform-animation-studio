@@ -2739,3 +2739,13 @@ def test_coerced_rechoice_flags_retaliatory_contract_romance():
     r=evaluate_coerced_rechoice_integrity(premise,{"sequences":[{"summary":"When she asks for divorce, he withdraws the company technology until she agrees to stay."}]},[])
     assert r["checks"]["power_is_not_weaponized_after_rejection"] is False
     assert r["checks"]["transactional_intimacy_is_bounded"] is False
+
+
+def test_coerced_rechoice_rejects_broken_nonretaliation_and_family_pressure():
+    from studio.coerced_rechoice_integrity import evaluate_coerced_rechoice_integrity
+    premise={"title":"Fake Marriage","logline":"An amnesiac heiress enters a fake marriage and loses funding after refusing her spouse."}
+    arch={"sequences":[{"summary":"She sells skills not her body. The family stands with the CEO and insists she stay married. He says the deal stands but cuts funding after rejection."}]}
+    r=evaluate_coerced_rechoice_integrity(premise,arch,[])
+    assert r["applies"] is True
+    assert r["checks"]["pressure_is_not_consent_substitute"] is False
+    assert r["checks"]["power_is_not_weaponized_after_rejection"] is False

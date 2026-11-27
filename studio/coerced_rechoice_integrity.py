@@ -25,7 +25,7 @@ def evaluate_coerced_rechoice_integrity(premise: dict[str, Any], architecture: d
 
     marriage = bool(re.search(r"marry|marriage|husband|wife|bride|wedding", full))
     coercion = bool(re.search(r"forced|coerce|blackmail|in exchange|leverage|threat|took .*children|missing (?:twins|children)|no choice|contract marriage|fake marriage|arranged marriage|marri(?:ed|age).*contract", full))
-    hidden_status = bool(re.search(r"hidden identity|secretly rich|billionaire|trillionaire|ceo|poor single dad|disguise|scar|driver|hiding who", full))
+    hidden_status = bool(re.search(r"hidden identity|secretly rich|billionaire|trillionaire|ceo|poor single dad|disguise|scar|driver|hiding who|amnesiac heiress|secret heiress|true heiress|lost heiress|imposter|impostor", full))
     applies = marriage and coercion and hidden_status
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
@@ -40,8 +40,8 @@ def evaluate_coerced_rechoice_integrity(premise: dict[str, Any], architecture: d
         "agency_or_control_is_restored": bool(re.search(r"marital assets|control|choice|choose|decide|decision|consent|without consent|sign|contract|documents?", full)),
         "explicit_truth_before_final_choice": bool(re.search(r"tell me the truth|deserve the truth|no more lies|no more hiding|truth", full)),
         "transactional_intimacy_is_bounded": bool(re.search(r"sell.*skills.*not.*body|not.*selling.*body|no sex|sexual boundary|boundar|separate room|professional|consent|not.*owe.*body", full)),
-        "pressure_is_not_consent_substitute": bool(re.search(r"stand with|won.?t pressure|don.?t pressure|no one can force|free to refuse|family approval.*not|mother.*not.*consent|board.*not.*consent|pressure.*not.*consent|choice.*not.*family", full)),
-        "power_is_not_weaponized_after_rejection": bool(re.search(r"doesn.?t owe|not owe|deal stands|no retaliation|won.?t (?:pull|withdraw|weaponize)|will not (?:pull|withdraw|weaponize)|continue(?:s|d)? support|business is business|support.*despite rejection", full)),
+        "pressure_is_not_consent_substitute": (bool(re.search(r"stand(?:s)? with (?:her|the victim|the wife|nora)|won.?t pressure|don.?t pressure|no one can force|free to refuse|family approval.*not|mother.*not.*consent|board.*not.*consent|pressure.*not.*consent|choice.*not.*family", full)) and not bool(re.search(r"stand(?:s)? with (?:him|the ceo|ceo|the husband)|insist(?:s|ed)? .*stay married|pressure(?:s|d)? .*stay married", full))),
+        "power_is_not_weaponized_after_rejection": (bool(re.search(r"doesn.?t owe|not owe|deal stands|no retaliation|won.?t (?:pull|withdraw|weaponize)|will not (?:pull|withdraw|weaponize)|continue(?:s|d)? support|business is business|support.*despite rejection", full)) and not bool(re.search(r"(?:cuts?|pulls?|withdraws?|weaponizes?|cancels?)\s+(?:\w+\s+){0,4}(?:funding|support|technology|consultants|deal|contract)|after rejection.{0,80}(?:cuts?|pulls?|withdraws?|weaponizes?|cancels?)", full))),
         "final_choice_is_partnership_not_rescue": bool(re.search(r"partner, not (?:my )?rescuer|choose you|freely choose|may i|ask|no force|not my rescuer|rechoice|when you are ready", ending)),
     }
     labels = {
