@@ -274,3 +274,19 @@ Immediate next work:
 3. Handle any new PR #7 Devin Review findings immediately.
 4. Continue queue with `it3DAkGGrnk`, `zXZuLkLeBTk`, `YdN5ESTxUNc`, and `6JGkPoF7gKE` unless newer scan evidence supersedes them.
 
+## NeoDrama evidentiary withdrawal checkpoint — current session
+
+Completed second fresh breakout deep dive:
+
+- `knowledge/market/neodrama-evidentiary-withdrawal-hit-low-comparison.md` archives timestamped hit evidence for `it3DAkGGrnk` and same-channel rebirth low comparator `w8kMs_zxJZQ`.
+- Hit machine baseline: 3,851s, 117 shots, mean shot 32.9s, median 8s, 1,572 ASR cues. Low: 4,262s, 129 shots, mean shot 33.0s, median 9s, 1,369 ASR cues.
+- New validator `studio/evidentiary_withdrawal_integrity.py`, integrated as `evidentiary_withdrawal_integrity`. Tests: 459 passed.
+- Skill and thumbnail intelligence updated. Evidence boundary: low fantasy comparator is polished and substantive; low views are not weak-writing causality. Major confounds: channel/genre mismatch, compilation cards, English ASR/audio-continuity rupture after ~44–45m.
+- Immediately before this checkpoint, PR review findings on adversarial co-parent integrity were fixed/triaged in commit `2113273`; a fresh review may be running.
+
+Immediate next work:
+
+1. Commit/push NeoDrama evidence and integration.
+2. Handle any new PR #7 Devin Review findings immediately.
+3. Continue queue with `zXZuLkLeBTk`, `YdN5ESTxUNc`, and `6JGkPoF7gKE`.
+

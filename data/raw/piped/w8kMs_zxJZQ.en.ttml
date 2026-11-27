@@ -1,0 +1,1385 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.100" end="00:00:05.000" style="s2">Three years ago, my sister and I,</p>
+<p begin="00:00:02.600" end="00:00:07.200" style="s2">princesses of the human realm, married</p>
+<p begin="00:00:05.000" end="00:00:10.600" style="s2">into the wolf clans.</p>
+<p begin="00:00:07.200" end="00:00:13.200" style="s2">&gt;&gt; Which prince will each of you marry?</p>
+<p begin="00:00:10.600" end="00:00:14.800" style="s2">&gt;&gt; Jax is a contender for the throne.</p>
+<p begin="00:00:13.200" end="00:00:16.100" style="s2">He&#39;ll be the wolf king.</p>
+<p begin="00:00:14.800" end="00:00:18.700" style="s2">&gt;&gt; Father,</p>
+<p begin="00:00:16.100" end="00:00:21.200" style="s2">I choose Jax, the eldest white wolf</p>
+<p begin="00:00:18.700" end="00:00:21.200" style="s2">prince.</p>
+<p begin="00:00:21.600" end="00:00:25.000" style="s2">Then I&#39;ll choose Prince Rhett.</p>
+<p begin="00:00:26.500" end="00:00:31.900" style="s2">My sister thought marrying Jax would</p>
+<p begin="00:00:29.000" end="00:00:31.900" style="s2">make her queen.</p>
+<p begin="00:00:33.300" end="00:00:38.900" style="s2">Instead,</p>
+<p begin="00:00:34.600" end="00:00:38.900" style="s2">he beat her every day until she fled.</p>
+<p begin="00:00:42.200" end="00:00:47.400" style="s2">With my help,</p>
+<p begin="00:00:43.900" end="00:00:47.400" style="s2">Rhett became the wolf king.</p>
+<p begin="00:00:50.600" end="00:00:56.000" style="s2">Then on the night of his coronation,</p>
+<p begin="00:00:54.000" end="00:00:58.400" style="s2">I fought Rhett in bed with my long lost</p>
+<p begin="00:00:56.000" end="00:00:58.400" style="s2">sister.</p>
+<p begin="00:00:59.605" end="00:01:01.570" style="s2">[gasps]</p>
+<p begin="00:01:00.200" end="00:01:02.225" style="s2">You promised</p>
+<p begin="00:01:01.570" end="00:01:02.800" style="s2">[panting]</p>
+<p begin="00:01:02.225" end="00:01:06.200" style="s2">[sighs]</p>
+<p begin="00:01:02.800" end="00:01:08.600" style="s2">you&#39;d kill Sylvia and make me queen.</p>
+<p begin="00:01:06.200" end="00:01:12.000" style="s2">&gt;&gt; Relax.</p>
+<p begin="00:01:08.600" end="00:01:12.000" style="s2">I keep my promises.</p>
+<p begin="00:01:16.400" end="00:01:19.900" style="s2">&gt;&gt; They won&#39;t be dead?</p>
+<p begin="00:01:18.200" end="00:01:23.400" style="s2">I have to run.</p>
+<p begin="00:01:19.900" end="00:01:23.400" style="s2">&gt;&gt; My lady, what&#39;s wrong?</p>
+<p begin="00:01:34.900" end="00:01:37.596" style="s2">&gt;&gt; Why</p>
+<p begin="00:01:35.900" end="00:01:38.200" style="s2">why are you doing this to me?</p>
+<p begin="00:01:37.596" end="00:01:39.800" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:01:38.200" end="00:01:41.300" style="s2">&gt;&gt; You got me the crown, but you&#39;re a bore</p>
+<p begin="00:01:39.800" end="00:01:44.700" style="s2">in bed.</p>
+<p begin="00:01:41.300" end="00:01:44.700" style="s2">I have no use for you anymore.</p>
+<p begin="00:01:44.800" end="00:01:49.300" style="s2">&gt;&gt; You chose your husband, but I took the</p>
+<p begin="00:01:47.000" end="00:01:50.696" style="s2">crown. Go to hell with your dragon and</p>
+<p begin="00:01:49.300" end="00:01:52.716" style="s2">regret.</p>
+<p begin="00:01:50.696" end="00:01:52.716" style="s2">&gt;&gt; [sighs]</p>
+<p begin="00:02:00.521" end="00:02:02.541" style="s2">[laughter]</p>
+<p begin="00:02:03.792" end="00:02:06.892" style="s2">&gt;&gt; I&#39;m back on the day we chose our</p>
+<p begin="00:02:05.192" end="00:02:10.192" style="s2">husbands.</p>
+<p begin="00:02:06.892" end="00:02:12.592" style="s2">Father, I choose Prince Rhett.</p>
+<p begin="00:02:10.192" end="00:02:16.192" style="s2">&gt;&gt; Didn&#39;t she choose Jackson our last life?</p>
+<p begin="00:02:12.592" end="00:02:16.192" style="s2">Don&#39;t tell me she came back too.</p>
+<p begin="00:02:16.892" end="00:02:20.392" style="s2">&gt;&gt; Are you insane?</p>
+<p begin="00:02:18.792" end="00:02:22.792" style="s2">You&#39;re giving that [ __ ] Sylvia a shot</p>
+<p begin="00:02:20.392" end="00:02:25.092" style="s2">at the next Wolf King?</p>
+<p begin="00:02:22.792" end="00:02:26.292" style="s2">&gt;&gt; Don&#39;t worry mother, Rhett will be Wolf</p>
+<p begin="00:02:25.092" end="00:02:28.092" style="s2">King.</p>
+<p begin="00:02:26.292" end="00:02:30.292" style="s2">Without me, Rhett would never have</p>
+<p begin="00:02:28.092" end="00:02:31.792" style="s2">become Wolf King.</p>
+<p begin="00:02:30.292" end="00:02:34.792" style="s2">&gt;&gt; Father,</p>
+<p begin="00:02:31.792" end="00:02:36.692" style="s2">let Sylvia have the eldest prince.</p>
+<p begin="00:02:34.792" end="00:02:38.692" style="s2">&gt;&gt; I&#39;m not marrying him.</p>
+<p begin="00:02:36.692" end="00:02:40.192" style="s2">If I marry Jack&#39;s, he&#39;ll beat me to</p>
+<p begin="00:02:38.692" end="00:02:42.592" style="s2">death.</p>
+<p begin="00:02:40.192" end="00:02:44.492" style="s2">That [ __ ] Sylvia said no.</p>
+<p begin="00:02:42.592" end="00:02:46.592" style="s2">Perfect.</p>
+<p begin="00:02:44.492" end="00:02:48.392" style="s2">I can&#39;t wait to watch Jack&#39;s beat her to</p>
+<p begin="00:02:46.592" end="00:02:50.092" style="s2">death.</p>
+<p begin="00:02:48.392" end="00:02:52.292" style="s2">&gt;&gt; You little fool.</p>
+<p begin="00:02:50.092" end="00:02:53.792" style="s2">The White Wolf clan is powerful.</p>
+<p begin="00:02:52.292" end="00:02:57.092" style="s2">Everyone would kill for a match with the</p>
+<p begin="00:02:53.792" end="00:02:58.792" style="s2">next Wolf King. What more do you want?</p>
+<p begin="00:02:57.092" end="00:03:00.592" style="s2">&gt;&gt; To you, Elara and I are nothing but</p>
+<p begin="00:02:58.792" end="00:03:01.992" style="s2">pawns.</p>
+<p begin="00:03:00.592" end="00:03:03.992" style="s2">She&#39;s already been promised to the</p>
+<p begin="00:03:01.992" end="00:03:07.392" style="s2">wolves.</p>
+<p begin="00:03:03.992" end="00:03:07.392" style="s2">Why do you need to send me too?</p>
+<p begin="00:03:08.892" end="00:03:14.292" style="s2">&gt;&gt; I&#39;M YOUR FATHER. HOW DARE YOU TALK TO ME</p>
+<p begin="00:03:11.692" end="00:03:14.292" style="s2">LIKE THAT?</p>
+<p begin="00:03:20.292" end="00:03:24.092" style="s2">&gt;&gt; YOUR MAJESTY, THE PROPHECY is</p>
+<p begin="00:03:22.092" end="00:03:25.792" style="s2">indisputable. The princess is a curse</p>
+<p begin="00:03:24.092" end="00:03:28.492" style="s2">upon this land. Keep her here and the</p>
+<p begin="00:03:25.792" end="00:03:30.892" style="s2">kingdom will fall, but</p>
+<p begin="00:03:28.492" end="00:03:33.392" style="s2">there is a way to prevent disaster.</p>
+<p begin="00:03:30.892" end="00:03:33.392" style="s2">&gt;&gt; Tell me.</p>
+<p begin="00:03:33.692" end="00:03:37.292" style="s2">&gt;&gt; Marry the princess to a commoner.</p>
+<p begin="00:03:37.692" end="00:03:42.092" style="s2">&gt;&gt; This didn&#39;t happen in my last life.</p>
+<p begin="00:03:40.492" end="00:03:45.192" style="s2">The Queen and Elara are framing me to</p>
+<p begin="00:03:42.092" end="00:03:46.892" style="s2">marry a commoner and humiliate me. I&#39;m</p>
+<p begin="00:03:45.192" end="00:03:49.992" style="s2">over royalties. [music]</p>
+<p begin="00:03:46.892" end="00:03:51.192" style="s2">I just want a peaceful life.</p>
+<p begin="00:03:49.992" end="00:03:52.692" style="s2">Father,</p>
+<p begin="00:03:51.192" end="00:03:56.092" style="s2">for the good of the realm,</p>
+<p begin="00:03:52.692" end="00:03:56.092" style="s2">do as the Royal Seer says.</p>
+<p begin="00:03:59.692" end="00:04:03.994" style="s2">&gt;&gt; I never thought someone as lowborn as me</p>
+<p begin="00:04:01.092" end="00:04:05.294" style="s2">could a princess.</p>
+<p begin="00:04:03.994" end="00:04:07.094" style="s2">&gt;&gt; The princess is gorgeous.</p>
+<p begin="00:04:05.294" end="00:04:09.294" style="s2">&gt;&gt; Wonder which lucky [ __ ] gets to marry</p>
+<p begin="00:04:07.094" end="00:04:09.294" style="s2">her.</p>
+<p begin="00:04:09.694" end="00:04:14.894" style="s2">&gt;&gt; Sister, I feel so sorry for you ended up</p>
+<p begin="00:04:12.594" end="00:04:17.094" style="s2">marrying a commoner.</p>
+<p begin="00:04:14.894" end="00:04:18.794" style="s2">&gt;&gt; You&#39;d best worry about yourself.</p>
+<p begin="00:04:17.094" end="00:04:20.994" style="s2">&gt;&gt; Why would I worry? Ree will be the wolf</p>
+<p begin="00:04:18.794" end="00:04:23.494" style="s2">king and I&#39;ll be his queen. Ree only</p>
+<p begin="00:04:20.994" end="00:04:25.694" style="s2">cares about power. The second you stop</p>
+<p begin="00:04:23.494" end="00:04:27.794" style="s2">being useful, he throws you away. If you</p>
+<p begin="00:04:25.694" end="00:04:28.594" style="s2">insist on walking into that trap, be my</p>
+<p begin="00:04:27.794" end="00:04:31.594" style="s2">guest.</p>
+<p begin="00:04:28.594" end="00:04:31.594" style="s2">I&#39;ll enjoy the show.</p>
+<p begin="00:04:33.394" end="00:04:36.794" style="s2">Stop dawdling and draw lots.</p>
+<p begin="00:04:42.394" end="00:04:44.894" style="s2">Alaric.</p>
+<p begin="00:04:49.394" end="00:04:51.894" style="s2">&gt;&gt; It&#39;s me.</p>
+<p begin="00:04:53.443" end="00:04:58.094" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:04:55.194" end="00:05:01.894" style="s2">&gt;&gt; He&#39;s just a chump and a lowly gray wolf.</p>
+<p begin="00:04:58.094" end="00:05:01.894" style="s2">At least you&#39;ll never go hungry, sister.</p>
+<p begin="00:05:04.294" end="00:05:08.094" style="s2">&gt;&gt; What an idiot. Does she have any clue</p>
+<p begin="00:05:06.094" end="00:05:10.494" style="s2">who she&#39;s laughing at? Alaric&#39;s a prince</p>
+<p begin="00:05:08.094" end="00:05:11.994" style="s2">of the sacred wolf clan, the most noble</p>
+<p begin="00:05:10.494" end="00:05:13.794" style="s2">of them all.</p>
+<p begin="00:05:11.994" end="00:05:15.394" style="s2">No wonder they didn&#39;t recognize you. But</p>
+<p begin="00:05:13.794" end="00:05:17.094" style="s2">if you&#39;re keeping a low profile, did you</p>
+<p begin="00:05:15.394" end="00:05:19.494" style="s2">have to disguise your golden ears as</p>
+<p begin="00:05:17.094" end="00:05:21.394" style="s2">gray? With a traitor inside the palace,</p>
+<p begin="00:05:19.494" end="00:05:23.594" style="s2">my parents hid me as a common gray wolf</p>
+<p begin="00:05:21.394" end="00:05:25.094" style="s2">to protect my life. Showing my golden</p>
+<p begin="00:05:23.594" end="00:05:28.394" style="s2">ears would have given away my royal</p>
+<p begin="00:05:25.094" end="00:05:28.394" style="s2">sacred wolf lineage.</p>
+<p begin="00:05:30.294" end="00:05:33.094" style="s2">What are you looking at?</p>
+<p begin="00:05:31.894" end="00:05:35.594" style="s2">Don&#39;t tell me you really like that</p>
+<p begin="00:05:33.094" end="00:05:35.594" style="s2">princess.</p>
+<p begin="00:05:37.594" end="00:05:40.294" style="s2">Why not?</p>
+<p begin="00:05:38.394" end="00:05:44.894" style="s2">&gt;&gt; You&#39;ve disgraced me. You drew A LOWLY</p>
+<p begin="00:05:40.294" end="00:05:44.894" style="s2">WOLF? NO. I WON&#39;T ALLOW IT.</p>
+<p begin="00:05:45.494" end="00:05:49.394" style="s2">&gt;&gt; YOUR MAJESTY, THE PRINCESS drew his lot.</p>
+<p begin="00:05:47.394" end="00:05:52.294" style="s2">She must marry him or the realm will</p>
+<p begin="00:05:49.394" end="00:05:52.294" style="s2">suffer for it.</p>
+<p begin="00:05:53.894" end="00:05:59.994" style="s2">&gt;&gt; She&#39;s running away. Stop her.</p>
+<p begin="00:05:57.394" end="00:06:02.394" style="s2">&gt;&gt; Such pure, crystal clear eyes. He has to</p>
+<p begin="00:05:59.994" end="00:06:03.694" style="s2">be a good man.</p>
+<p begin="00:06:02.394" end="00:06:06.695" style="s2">Father,</p>
+<p begin="00:06:03.694" end="00:06:06.695" style="s2">I want marry him.</p>
+<p begin="00:06:07.895" end="00:06:11.495" style="s2">Will you marry me?</p>
+<p begin="00:06:09.895" end="00:06:13.495" style="s2">&gt;&gt; I&#39;m just man who barely makes enough to</p>
+<p begin="00:06:11.495" end="00:06:14.995" style="s2">get by.</p>
+<p begin="00:06:13.495" end="00:06:17.295" style="s2">Marrying me means giving up all of this</p>
+<p begin="00:06:14.995" end="00:06:17.295" style="s2">wealth.</p>
+<p begin="00:06:19.195" end="00:06:24.895" style="s2">&gt;&gt; I can work too. We&#39;ll get by together.</p>
+<p begin="00:06:22.995" end="00:06:27.395" style="s2">&gt;&gt; She was unlike any highborn lady I&#39;d</p>
+<p begin="00:06:24.895" end="00:06:27.395" style="s2">ever met.</p>
+<p begin="00:06:29.195" end="00:06:34.195" style="s2">If you don&#39;t mind marrying me, Princess,</p>
+<p begin="00:06:31.595" end="00:06:34.195" style="s2">I&#39;d be honored.</p>
+<p begin="00:06:34.995" end="00:06:38.995" style="s2">If you take a human wife without the</p>
+<p begin="00:06:36.595" end="00:06:41.195" style="s2">consent of King Karl and Queen Orelia,</p>
+<p begin="00:06:38.995" end="00:06:42.295" style="s2">they will be angry.</p>
+<p begin="00:06:41.195" end="00:06:43.695" style="s2">It&#39;s my life.</p>
+<p begin="00:06:42.295" end="00:06:45.595" style="s2">They&#39;ll understand. But Princess</p>
+<p begin="00:06:43.695" end="00:06:48.595" style="s2">Sylvia&#39;s scent doesn&#39;t match yours. She</p>
+<p begin="00:06:45.595" end="00:06:48.595" style="s2">isn&#39;t your fated mate.</p>
+<p begin="00:06:53.395" end="00:06:56.595" style="s2">&gt;&gt; The Royal Seer said Sylvia must marry</p>
+<p begin="00:06:55.095" end="00:06:58.495" style="s2">him or the realm will suffer.</p>
+<p begin="00:06:56.595" end="00:07:00.295" style="s2">&gt;&gt; Exactly, father. The Royal Seer&#39;s</p>
+<p begin="00:06:58.495" end="00:07:03.395" style="s2">predictions have never been wrong. We</p>
+<p begin="00:07:00.295" end="00:07:03.395" style="s2">can&#39;t let the realm suffer.</p>
+<p begin="00:07:14.095" end="00:07:17.495" style="s2">&gt;&gt; You really married a commoner.</p>
+<p begin="00:07:15.995" end="00:07:19.095" style="s2">If you two can&#39;t afford to eat, bring</p>
+<p begin="00:07:17.495" end="00:07:21.995" style="s2">your husband to my place.</p>
+<p begin="00:07:19.095" end="00:07:23.995" style="s2">Maybe I&#39;ll toss you some leftovers.</p>
+<p begin="00:07:21.995" end="00:07:25.595" style="s2">&gt;&gt; How dare she speak to you that way?</p>
+<p begin="00:07:23.995" end="00:07:26.795" style="s2">A single word from the Sacred Wolf can</p>
+<p begin="00:07:25.595" end="00:07:29.095" style="s2">determine the viscounts of White Wolf</p>
+<p begin="00:07:26.795" end="00:07:29.095" style="s2">Clan.</p>
+<p begin="00:07:32.295" end="00:07:35.395" style="s2">Don&#39;t worry about me.</p>
+<p begin="00:07:33.895" end="00:07:38.505" style="s2">You should be figuring out how to keep</p>
+<p begin="00:07:35.395" end="00:07:39.695" style="s2">your place after you marry Root.</p>
+<p begin="00:07:38.505" end="00:07:41.595" style="s2">[snorts]</p>
+<p begin="00:07:39.695" end="00:07:42.995" style="s2">Sylvia, you&#39;re nothing but dirt under my</p>
+<p begin="00:07:41.595" end="00:07:44.595" style="s2">heel.</p>
+<p begin="00:07:42.995" end="00:07:47.695" style="s2">One day I&#39;ll have you on your knees</p>
+<p begin="00:07:44.595" end="00:07:47.695" style="s2">begging me to forgive you.</p>
+<p begin="00:07:54.595" end="00:07:57.395" style="s2">&gt;&gt; What is that?</p>
+<p begin="00:07:55.895" end="00:07:58.695" style="s2">&gt;&gt; I can perceive your situation through</p>
+<p begin="00:07:57.395" end="00:07:59.695" style="s2">it.</p>
+<p begin="00:07:58.695" end="00:08:02.395" style="s2">I&#39;ll be there as soon as you&#39;re in</p>
+<p begin="00:07:59.695" end="00:08:03.895" style="s2">danger. This necklace is our promise. No</p>
+<p begin="00:08:02.395" end="00:08:06.395" style="s2">matter what, I&#39;ll marry you on the</p>
+<p begin="00:08:03.895" end="00:08:06.395" style="s2">wedding day.</p>
+<p begin="00:08:18.397" end="00:08:23.097" style="s2">&gt;&gt; See? Ruel&#39;s picking me up.</p>
+<p begin="00:08:21.397" end="00:08:24.197" style="s2">&gt;&gt; That&#39;s my daughter. She&#39;s worthy of this</p>
+<p begin="00:08:23.097" end="00:08:25.497" style="s2">honor.</p>
+<p begin="00:08:24.197" end="00:08:28.797" style="s2">Those are the Wolf King&#39;s personal</p>
+<p begin="00:08:25.497" end="00:08:29.997" style="s2">guards sent to escort the bride.</p>
+<p begin="00:08:28.797" end="00:08:31.597" style="s2">&gt;&gt; Once you&#39;re married, make sure you keep</p>
+<p begin="00:08:29.997" end="00:08:34.197" style="s2">your husband happy. We&#39;ll need the Wolf</p>
+<p begin="00:08:31.597" end="00:08:35.397" style="s2">Clans on our side someday.</p>
+<p begin="00:08:34.197" end="00:08:37.697" style="s2">&gt;&gt; Don&#39;t worry.</p>
+<p begin="00:08:35.397" end="00:08:39.997" style="s2">Once you marry Ruth, I&#39;ll be the next</p>
+<p begin="00:08:37.697" end="00:08:43.297" style="s2">Wolf Queen.</p>
+<p begin="00:08:39.997" end="00:08:43.297" style="s2">&gt;&gt; How dare you laugh at me?</p>
+<p begin="00:08:44.697" end="00:08:47.897" style="s2">&gt;&gt; Who laughed at you?</p>
+<p begin="00:08:46.397" end="00:08:50.297" style="s2">I&#39;m getting married today. Can&#39;t I be</p>
+<p begin="00:08:47.897" end="00:08:50.297" style="s2">happy?</p>
+<p begin="00:08:52.397" end="00:08:56.897" style="s2">Ruel will be here any minute.</p>
+<p begin="00:08:55.197" end="00:08:59.797" style="s2">Where&#39;s that cook husband of yours? Why</p>
+<p begin="00:08:56.897" end="00:08:59.797" style="s2">hasn&#39;t he come for you?</p>
+<p begin="00:08:59.997" end="00:09:02.346" style="s2">Don&#39;t tell me he doesn&#39;t want to marry</p>
+<p begin="00:09:01.297" end="00:09:03.297" style="s2">you.</p>
+<p begin="00:09:02.346" end="00:09:05.897" style="s2">[laughter]</p>
+<p begin="00:09:03.297" end="00:09:07.197" style="s2">A princess rejected by a commoner.</p>
+<p begin="00:09:05.897" end="00:09:10.097" style="s2">If I were you, I&#39;d be too ashamed to</p>
+<p begin="00:09:07.197" end="00:09:10.097" style="s2">show my face.</p>
+<p begin="00:09:10.197" end="00:09:12.997" style="s2">He will be here.</p>
+<p begin="00:09:25.897" end="00:09:30.397" style="s2">&gt;&gt; My princess,</p>
+<p begin="00:09:27.497" end="00:09:30.397" style="s2">I&#39;m here to marry you.</p>
+<p begin="00:09:37.897" end="00:09:42.497" style="s2">As promised, I&#39;m here to marry Princess</p>
+<p begin="00:09:40.097" end="00:09:42.497" style="s2">Sylvia.</p>
+<p begin="00:09:42.956" end="00:09:44.976" style="s2">[snorts]</p>
+<p begin="00:09:51.697" end="00:09:56.297" style="s2">These are the White Wolf Clans bridal</p>
+<p begin="00:09:53.797" end="00:09:56.297" style="s2">gifts.</p>
+<p begin="00:09:57.797" end="00:10:02.297" style="s2">&gt;&gt; Some people are lowborn to the bone.</p>
+<p begin="00:10:00.097" end="00:10:05.897" style="s2">Fancy clothes can&#39;t hide it, and neither</p>
+<p begin="00:10:02.297" end="00:10:05.897" style="s2">can a pathetic bridal gift.</p>
+<p begin="00:10:11.897" end="00:10:15.198" style="s2">What is it now?</p>
+<p begin="00:10:13.742" end="00:10:16.698" style="s2">[laughter]</p>
+<p begin="00:10:15.198" end="00:10:17.898" style="s2">Phoenix feather clothing, deep sea</p>
+<p begin="00:10:16.698" end="00:10:20.898" style="s2">beads.</p>
+<p begin="00:10:17.898" end="00:10:21.998" style="s2">These treasures are beyond price.</p>
+<p begin="00:10:20.898" end="00:10:25.698" style="s2">I didn&#39;t expect you to prepare two</p>
+<p begin="00:10:21.998" end="00:10:25.698" style="s2">bridal gifts for me so precious.</p>
+<p begin="00:10:25.798" end="00:10:29.398" style="s2">&gt;&gt; For the White Wolf Tribe, this is</p>
+<p begin="00:10:26.898" end="00:10:29.398" style="s2">nothing.</p>
+<p begin="00:10:31.198" end="00:10:35.198" style="s2">&gt;&gt; Sister, Rhys gave me twice the bridal</p>
+<p begin="00:10:33.498" end="00:10:37.322" style="s2">gifts. What can your cook husband give</p>
+<p begin="00:10:35.198" end="00:10:38.632" style="s2">you? Pots and pans from his kitchen?</p>
+<p begin="00:10:37.322" end="00:10:40.398" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:10:38.632" end="00:10:41.698" style="s2">[gasps]</p>
+<p begin="00:10:40.398" end="00:10:44.198" style="s2">&gt;&gt; How could a minor clan like the White</p>
+<p begin="00:10:41.698" end="00:10:45.498" style="s2">Wolves deserve treasures like these?</p>
+<p begin="00:10:44.198" end="00:10:46.798" style="s2">If Prince Alaric hadn&#39;t brought them as</p>
+<p begin="00:10:45.498" end="00:10:49.398" style="s2">bridal gifts, you&#39;d never have seen them</p>
+<p begin="00:10:46.798" end="00:10:49.398" style="s2">in your life.</p>
+<p begin="00:10:49.598" end="00:10:53.298" style="s2">And you still think you can claim them?</p>
+<p begin="00:10:51.798" end="00:10:56.098" style="s2">These are all Alaric&#39;s bridal gifts for</p>
+<p begin="00:10:53.298" end="00:10:56.098" style="s2">Princess Sylvia.</p>
+<p begin="00:10:57.698" end="00:11:03.298" style="s2">&gt;&gt; Impossible. He is a cook. How can he</p>
+<p begin="00:10:59.998" end="00:11:03.298" style="s2">afford such a valuable wedding?</p>
+<p begin="00:11:03.398" end="00:11:07.498" style="s2">This is a treasure that even White</p>
+<p begin="00:11:04.898" end="00:11:08.698" style="s2">Wolves can&#39;t get.</p>
+<p begin="00:11:07.498" end="00:11:10.698" style="s2">Where did you get the money to prepare</p>
+<p begin="00:11:08.698" end="00:11:12.498" style="s2">these?</p>
+<p begin="00:11:10.698" end="00:11:15.498" style="s2">&gt;&gt; Well, [clears throat] Ford is a nobleman</p>
+<p begin="00:11:12.498" end="00:11:15.498" style="s2">from a neighboring realm.</p>
+<p begin="00:11:15.898" end="00:11:20.598" style="s2">I used to cook for his household, and he</p>
+<p begin="00:11:17.698" end="00:11:20.598" style="s2">prepared these for me.</p>
+<p begin="00:11:20.698" end="00:11:24.898" style="s2">That&#39;s right.</p>
+<p begin="00:11:21.798" end="00:11:24.898" style="s2">He worked hard in my kitchen.</p>
+<p begin="00:11:25.598" end="00:11:29.198" style="s2">So when I heard he was getting married,</p>
+<p begin="00:11:26.998" end="00:11:30.998" style="s2">I gave him a bridal gift.</p>
+<p begin="00:11:29.198" end="00:11:34.298" style="s2">&gt;&gt; Anyone who can send treasures like these</p>
+<p begin="00:11:30.998" end="00:11:36.998" style="s2">is no ordinary noble.</p>
+<p begin="00:11:34.298" end="00:11:40.198" style="s2">&gt;&gt; Which family are you from?</p>
+<p begin="00:11:36.998" end="00:11:43.098" style="s2">We&#39;d like to say thank you in person.</p>
+<p begin="00:11:40.198" end="00:11:46.398" style="s2">&gt;&gt; What qualifies you to know about me?</p>
+<p begin="00:11:43.098" end="00:11:46.398" style="s2">&gt;&gt; You&#39;re right. We were out of line.</p>
+<p begin="00:11:47.998" end="00:11:50.998" style="s2">&gt;&gt; Let&#39;s go. Let&#39;s go home.</p>
+<p begin="00:11:54.198" end="00:11:58.798" style="s2">What on earth did Ford find us? It&#39;s</p>
+<p begin="00:11:55.698" end="00:11:58.798" style="s2">completely run down.</p>
+<p begin="00:11:59.398" end="00:12:01.698" style="s2">&gt;&gt; I&#39;m sorry to bring you to a place like</p>
+<p begin="00:12:00.698" end="00:12:04.098" style="s2">this.</p>
+<p begin="00:12:01.698" end="00:12:06.398" style="s2">I know this isn&#39;t easy for you.</p>
+<p begin="00:12:04.098" end="00:12:08.298" style="s2">&gt;&gt; I don&#39;t mind. It&#39;s small, but it&#39;s safe</p>
+<p begin="00:12:06.398" end="00:12:09.798" style="s2">from the wind and rain. As long as we</p>
+<p begin="00:12:08.298" end="00:12:12.698" style="s2">work hard together, we&#39;ll have a home of</p>
+<p begin="00:12:09.798" end="00:12:12.698" style="s2">our own eventually.</p>
+<p begin="00:12:13.898" end="00:12:19.299" style="s2">&gt;&gt; I promise.</p>
+<p begin="00:12:16.099" end="00:12:19.299" style="s2">We won&#39;t stay poor for long.</p>
+<p begin="00:12:37.188" end="00:12:39.208" style="s2">&gt;&gt; [sighs]</p>
+<p begin="00:12:41.118" end="00:12:44.899" style="s2">[snorts]</p>
+<p begin="00:12:42.299" end="00:12:44.899" style="s2">&gt;&gt; Slow down.</p>
+<p begin="00:12:48.978" end="00:12:50.998" style="s2">&gt;&gt; [sighs]</p>
+<p begin="00:13:03.799" end="00:13:07.099" style="s2">&gt;&gt; King Carl knows you married a human</p>
+<p begin="00:13:04.899" end="00:13:08.099" style="s2">woman and he wants you to hurry back.</p>
+<p begin="00:13:07.099" end="00:13:11.199" style="s2">It&#39;s my fault. These things should have</p>
+<p begin="00:13:08.099" end="00:13:11.199" style="s2">been dealt with before marriage.</p>
+<p begin="00:13:14.399" end="00:13:19.699" style="s2">The Ford family is holding a banquet and</p>
+<p begin="00:13:16.499" end="00:13:22.899" style="s2">asking me to be a cook.</p>
+<p begin="00:13:19.699" end="00:13:22.899" style="s2">I&#39;ll not be back for a while.</p>
+<p begin="00:13:23.599" end="00:13:26.799" style="s2">I&#39;m really sorry, but I really need</p>
+<p begin="00:13:25.299" end="00:13:29.699" style="s2">Alaric.</p>
+<p begin="00:13:26.799" end="00:13:30.999" style="s2">I&#39;ll pay him handsomely.</p>
+<p begin="00:13:29.699" end="00:13:34.499" style="s2">&gt;&gt; Go ahead.</p>
+<p begin="00:13:30.999" end="00:13:34.499" style="s2">I&#39;ll handle everything here at home.</p>
+<p begin="00:13:35.799" end="00:13:38.699" style="s2">&gt;&gt; Wait for my return.</p>
+<p begin="00:13:43.299" end="00:13:48.599" style="s2">&gt;&gt; I can&#39;t just leave Alaric alone. I have</p>
+<p begin="00:13:45.199" end="00:13:48.599" style="s2">to find a job and work with him.</p>
+<p begin="00:13:51.204" end="00:13:53.224" style="s2">&gt;&gt; [cough]</p>
+<p begin="00:13:53.599" end="00:13:57.499" style="s2">&gt;&gt; Sister, I&#39;ve only been away a few days</p>
+<p begin="00:13:56.199" end="00:13:59.999" style="s2">and you&#39;re already starting to look</p>
+<p begin="00:13:57.499" end="00:14:02.499" style="s2">lowborn. I barely recognize you.</p>
+<p begin="00:13:59.999" end="00:14:02.499" style="s2">Don&#39;t go.</p>
+<p begin="00:14:04.099" end="00:14:08.199" style="s2">We sisters should catch up.</p>
+<p begin="00:14:06.099" end="00:14:11.499" style="s2">Look at you, like a maid carrying a</p>
+<p begin="00:14:08.199" end="00:14:13.199" style="s2">market basket. How pathetic.</p>
+<p begin="00:14:11.499" end="00:14:16.001" style="s2">&gt;&gt; What do I have to do with you?</p>
+<p begin="00:14:13.199" end="00:14:16.001" style="s2">&gt;&gt; Get out of my way.</p>
+<p begin="00:14:17.701" end="00:14:21.501" style="s2">&gt;&gt; Get in. Let me give you a ride.</p>
+<p begin="00:14:20.101" end="00:14:24.501" style="s2">A lovely lady like you shouldn&#39;t be</p>
+<p begin="00:14:21.501" end="00:14:24.501" style="s2">wearing her feet out.</p>
+<p begin="00:14:28.701" end="00:14:33.101" style="s2">&gt;&gt; Why are you so shameless and dare to</p>
+<p begin="00:14:30.301" end="00:14:35.201" style="s2">seduce my husband?</p>
+<p begin="00:14:33.101" end="00:14:37.601" style="s2">Seduce?</p>
+<p begin="00:14:35.201" end="00:14:39.701" style="s2">What kind of man is he? Don&#39;t you know?</p>
+<p begin="00:14:37.601" end="00:14:42.101" style="s2">How did your wedding night go? Do you</p>
+<p begin="00:14:39.701" end="00:14:44.901" style="s2">need me to help you remember it?</p>
+<p begin="00:14:42.101" end="00:14:47.001" style="s2">How did you know?</p>
+<p begin="00:14:44.901" end="00:14:49.501" style="s2">On our wedding night in my last life,</p>
+<p begin="00:14:47.001" end="00:14:53.601" style="s2">Rith left me alone.</p>
+<p begin="00:14:49.501" end="00:14:53.601" style="s2">I caught him in bed with two wolf maids.</p>
+<p begin="00:15:02.801" end="00:15:06.901" style="s2">Do you just go into heat at the sight of</p>
+<p begin="00:15:04.501" end="00:15:09.201" style="s2">any woman? Do you even remember I&#39;m your</p>
+<p begin="00:15:06.901" end="00:15:09.201" style="s2">wife?</p>
+<p begin="00:15:10.301" end="00:15:13.701" style="s2">&gt;&gt; Who do you think you are screaming at</p>
+<p begin="00:15:12.201" end="00:15:17.601" style="s2">me?</p>
+<p begin="00:15:13.701" end="00:15:17.601" style="s2">I&#39;ve been too kind to you, haven&#39;t I?</p>
+<p begin="00:15:20.201" end="00:15:24.701" style="s2">Drive.</p>
+<p begin="00:15:22.101" end="00:15:26.601" style="s2">&gt;&gt; Just wait, Sylvia. I remember my past</p>
+<p begin="00:15:24.701" end="00:15:29.101" style="s2">life and this time I&#39;ll be the one who</p>
+<p begin="00:15:26.601" end="00:15:29.101" style="s2">wins.</p>
+<p begin="00:15:31.420" end="00:15:33.440" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:15:40.201" end="00:15:45.301" style="s2">&gt;&gt; Princess Sylvia, the king invites you</p>
+<p begin="00:15:42.001" end="00:15:45.301" style="s2">and Alaric to the palace for dinner.</p>
+<p begin="00:15:45.801" end="00:15:50.001" style="s2">&gt;&gt; My husband is out of town. I&#39;ll go by</p>
+<p begin="00:15:47.501" end="00:15:50.001" style="s2">myself.</p>
+<p begin="00:15:54.801" end="00:16:00.901" style="s2">What are you doing here? Father invited</p>
+<p begin="00:15:56.801" end="00:16:00.901" style="s2">me back to the dinner party. Step aside.</p>
+<p begin="00:16:01.001" end="00:16:08.201" style="s2">Anyone can really enter the palace.</p>
+<p begin="00:16:04.201" end="00:16:08.201" style="s2">I feel that the air here is stinking.</p>
+<p begin="00:16:08.301" end="00:16:13.401" style="s2">I have an invitation from my father. How</p>
+<p begin="00:16:10.301" end="00:16:13.401" style="s2">dare you try to stop me?</p>
+<p begin="00:16:14.601" end="00:16:19.102" style="s2">The invitation read Princess Sylvia.</p>
+<p begin="00:16:17.601" end="00:16:20.902" style="s2">You married a gray wolf. Your blood was</p>
+<p begin="00:16:19.102" end="00:16:22.511" style="s2">soiled, and you were no longer a</p>
+<p begin="00:16:20.902" end="00:16:24.102" style="s2">princess.</p>
+<p begin="00:16:22.511" end="00:16:26.902" style="s2">[snorts] Commoners aren&#39;t allowed inside</p>
+<p begin="00:16:24.102" end="00:16:30.102" style="s2">the royal palace.</p>
+<p begin="00:16:26.902" end="00:16:31.602" style="s2">&gt;&gt; In that case I won&#39;t go in.</p>
+<p begin="00:16:30.102" end="00:16:35.302" style="s2">&gt;&gt; Sylvia.</p>
+<p begin="00:16:31.602" end="00:16:35.302" style="s2">&gt;&gt; Do you even see me as your father?</p>
+<p begin="00:16:37.602" end="00:16:41.002" style="s2">&gt;&gt; How dare you leave without paying your</p>
+<p begin="00:16:39.402" end="00:16:42.502" style="s2">respects?</p>
+<p begin="00:16:41.002" end="00:16:44.002" style="s2">&gt;&gt; You&#39;ve only been married to a commoner a</p>
+<p begin="00:16:42.502" end="00:16:45.402" style="s2">few days</p>
+<p begin="00:16:44.002" end="00:16:46.102" style="s2">and you&#39;ve already forgotten palace</p>
+<p begin="00:16:45.402" end="00:16:49.602" style="s2">rules.</p>
+<p begin="00:16:46.102" end="00:16:49.602" style="s2">&gt;&gt; She&#39;s the one who won&#39;t let me in.</p>
+<p begin="00:16:51.202" end="00:16:56.902" style="s2">&gt;&gt; Father, she&#39;s dressed like a pauper.</p>
+<p begin="00:16:54.702" end="00:16:58.302" style="s2">&gt;&gt; Make her go home and change.</p>
+<p begin="00:16:56.902" end="00:16:59.602" style="s2">&gt;&gt; And she came to see you empty-handed.</p>
+<p begin="00:16:58.302" end="00:17:01.402" style="s2">How rude.</p>
+<p begin="00:16:59.602" end="00:17:03.702" style="s2">&gt;&gt; I brought a gift. These are vegetables</p>
+<p begin="00:17:01.402" end="00:17:05.202" style="s2">grown in my yard.</p>
+<p begin="00:17:03.702" end="00:17:07.502" style="s2">&gt;&gt; Oh my god, is this even supposed to be a</p>
+<p begin="00:17:05.202" end="00:17:07.502" style="s2">gift?</p>
+<p begin="00:17:12.302" end="00:17:17.802" style="s2">&gt;&gt; How dare you disgrace me?</p>
+<p begin="00:17:15.502" end="00:17:19.602" style="s2">DID YOU REALLY BRING me this garbage?</p>
+<p begin="00:17:17.802" end="00:17:22.502" style="s2">&gt;&gt; Father, in my opinion she just didn&#39;t</p>
+<p begin="00:17:19.602" end="00:17:22.502" style="s2">take you seriously.</p>
+<p begin="00:17:23.702" end="00:17:29.702" style="s2">Since nothing I do ever satisfies you,</p>
+<p begin="00:17:26.302" end="00:17:29.702" style="s2">I&#39;ll simply stay out of your sight.</p>
+<p begin="00:17:31.102" end="00:17:34.502" style="s2">&gt;&gt; She&#39;s really becoming more and more</p>
+<p begin="00:17:32.902" end="00:17:37.602" style="s2">unruly.</p>
+<p begin="00:17:34.502" end="00:17:39.902" style="s2">She will come and leave if she wants to.</p>
+<p begin="00:17:37.602" end="00:17:41.902" style="s2">She doesn&#39;t respect us at all.</p>
+<p begin="00:17:39.902" end="00:17:44.102" style="s2">&gt;&gt; That&#39;s right, father. The people at the</p>
+<p begin="00:17:41.902" end="00:17:47.802" style="s2">door are watching.</p>
+<p begin="00:17:44.102" end="00:17:47.802" style="s2">Isn&#39;t she trampling on your dignity?</p>
+<p begin="00:17:50.602" end="00:17:54.002" style="s2">&gt;&gt; GUARDS, ARREST HER.</p>
+<p begin="00:17:54.867" end="00:17:56.887" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:18:05.702" end="00:18:09.902" style="s2">&gt;&gt; WHAT ARE YOU DOING?</p>
+<p begin="00:18:07.302" end="00:18:12.002" style="s2">LET GO OF ME.</p>
+<p begin="00:18:09.902" end="00:18:14.902" style="s2">&gt;&gt; There are no rules. I&#39;ll teach you royal</p>
+<p begin="00:18:12.002" end="00:18:14.902" style="s2">etiquette today.</p>
+<p begin="00:18:15.702" end="00:18:18.602" style="s2">&gt;&gt; You&#39;re going to hit me?</p>
+<p begin="00:18:19.902" end="00:18:23.403" style="s2">&gt;&gt; I can save you</p>
+<p begin="00:18:21.502" end="00:18:24.703" style="s2">if you be my mistress and I&#39;ll let you</p>
+<p begin="00:18:23.403" end="00:18:26.503" style="s2">go.</p>
+<p begin="00:18:24.703" end="00:18:28.703" style="s2">And a union with me can cleanse the grey</p>
+<p begin="00:18:26.503" end="00:18:31.803" style="s2">wolf taint from your blood.</p>
+<p begin="00:18:28.703" end="00:18:31.803" style="s2">&gt;&gt; Absolutely not.</p>
+<p begin="00:18:31.903" end="00:18:35.203" style="s2">&gt;&gt; Why didn&#39;t you let me do the work for</p>
+<p begin="00:18:33.203" end="00:18:36.703" style="s2">you and change her temper?</p>
+<p begin="00:18:35.203" end="00:18:39.303" style="s2">&gt;&gt; Then I&#39;ll leave her in your hands,</p>
+<p begin="00:18:36.703" end="00:18:39.303" style="s2">Prince Reed.</p>
+<p begin="00:18:41.303" end="00:18:48.003" style="s2">&gt;&gt; I gave you an out, but you rejected it.</p>
+<p begin="00:18:44.303" end="00:18:48.003" style="s2">Don&#39;t blame me for what happens next.</p>
+<p begin="00:18:53.403" end="00:18:56.903" style="s2">I&#39;ll see WHO DARES TO TOUCH HER.</p>
+<p begin="00:19:04.303" end="00:19:07.703" style="s2">&gt;&gt; Are you okay?</p>
+<p begin="00:19:06.103" end="00:19:09.903" style="s2">&gt;&gt; Fortunately, you came in time.</p>
+<p begin="00:19:07.703" end="00:19:11.703" style="s2">&gt;&gt; How dare you hurt my wife?</p>
+<p begin="00:19:09.903" end="00:19:15.103" style="s2">&gt;&gt; What are you waiting for? TAKE DOWN THIS</p>
+<p begin="00:19:11.703" end="00:19:15.103" style="s2">VILE WOLF IMMEDIATELY.</p>
+<p begin="00:19:21.603" end="00:19:25.303" style="s2">&gt;&gt; Don&#39;t worry, I won&#39;t let anything happen</p>
+<p begin="00:19:23.103" end="00:19:25.303" style="s2">to you.</p>
+<p begin="00:19:40.703" end="00:19:47.503" style="s2">&gt;&gt; Wait, isn&#39;t he supposed to be just a</p>
+<p begin="00:19:42.903" end="00:19:47.503" style="s2">cook? How on earth is he this strong?</p>
+<p begin="00:20:19.903" end="00:20:22.899" style="s2">&gt;&gt; Reed,</p>
+<p begin="00:20:21.103" end="00:20:24.919" style="s2">are Are you okay?</p>
+<p begin="00:20:22.899" end="00:20:24.919" style="s2">&gt;&gt; [sighs]</p>
+<p begin="00:20:33.205" end="00:20:37.305" style="s2">&gt;&gt; The white wolf prince was beaten until</p>
+<p begin="00:20:34.705" end="00:20:39.305" style="s2">he couldn&#39;t stand by a grey wolf. What</p>
+<p begin="00:20:37.305" end="00:20:41.205" style="s2">an absolute joke.</p>
+<p begin="00:20:39.305" end="00:20:45.605" style="s2">Princess Elara bragged so much about her</p>
+<p begin="00:20:41.205" end="00:20:45.605" style="s2">husband and he&#39;s just a flashy fraud.</p>
+<p begin="00:20:53.505" end="00:20:58.705" style="s2">&gt;&gt; It&#39;s all your fault.</p>
+<p begin="00:20:56.605" end="00:21:01.505" style="s2">If it wasn&#39;t for your insistence on</p>
+<p begin="00:20:58.705" end="00:21:03.705" style="s2">targeting Sylvia, how could I lose out</p>
+<p begin="00:21:01.505" end="00:21:06.505" style="s2">in public and become a laughing stock</p>
+<p begin="00:21:03.705" end="00:21:06.505" style="s2">for everyone?</p>
+<p begin="00:21:09.905" end="00:21:14.105" style="s2">&gt;&gt; We failed to discipline her properly</p>
+<p begin="00:21:12.605" end="00:21:16.505" style="s2">and now look at the huge mess she&#39;s</p>
+<p begin="00:21:14.105" end="00:21:16.505" style="s2">made.</p>
+<p begin="00:21:17.505" end="00:21:20.905" style="s2">&gt;&gt; It&#39;s clearly Sylvia.</p>
+<p begin="00:21:21.105" end="00:21:23.705" style="s2">&gt;&gt; Shut up.</p>
+<p begin="00:21:26.305" end="00:21:28.705" style="s2">&gt;&gt; Mother.</p>
+<p begin="00:21:27.105" end="00:21:32.105" style="s2">&gt;&gt; Hurry up and catch up.</p>
+<p begin="00:21:28.705" end="00:21:32.105" style="s2">Apologize to Prince Rith.</p>
+<p begin="00:21:39.405" end="00:21:44.205" style="s2">&gt;&gt; Sylvia, all the shame I&#39;ve received</p>
+<p begin="00:21:41.205" end="00:21:46.305" style="s2">today is on your head.</p>
+<p begin="00:21:44.205" end="00:21:48.205" style="s2">One day I&#39;ll kill you with my own hands</p>
+<p begin="00:21:46.305" end="00:21:51.605" style="s2">and repay you a thousand times more for</p>
+<p begin="00:21:48.205" end="00:21:51.605" style="s2">the pain you inflicted on me.</p>
+<p begin="00:21:56.305" end="00:21:58.405" style="s2">&gt;&gt; Father.</p>
+<p begin="00:21:57.305" end="00:22:00.205" style="s2">Mother.</p>
+<p begin="00:21:58.405" end="00:22:01.605" style="s2">Sylvia and I are in love.</p>
+<p begin="00:22:00.205" end="00:22:03.805" style="s2">I want to bring her home to the Sacred</p>
+<p begin="00:22:01.605" end="00:22:05.605" style="s2">Wolf realm and ask for your blessing.</p>
+<p begin="00:22:03.805" end="00:22:07.505" style="s2">&gt;&gt; Absurd.</p>
+<p begin="00:22:05.605" end="00:22:09.805" style="s2">The Sacred Wolf clan stands above every</p>
+<p begin="00:22:07.505" end="00:22:11.405" style="s2">wolf clan. For thousands of years our</p>
+<p begin="00:22:09.805" end="00:22:13.805" style="s2">royals have married only the highest</p>
+<p begin="00:22:11.405" end="00:22:15.705" style="s2">born among the wolf clans, never a human</p>
+<p begin="00:22:13.805" end="00:22:18.305" style="s2">woman. She&#39;s a human princess from a</p>
+<p begin="00:22:15.705" end="00:22:21.005" style="s2">small realm, unfit to be the next Sacred</p>
+<p begin="00:22:18.305" end="00:22:21.005" style="s2">Wolf Queen.</p>
+<p begin="00:22:21.805" end="00:22:25.105" style="s2">&gt;&gt; Human blood is weak.</p>
+<p begin="00:22:23.505" end="00:22:26.206" style="s2">If you marry her the whole clan will</p>
+<p begin="00:22:25.105" end="00:22:27.706" style="s2">laugh at us.</p>
+<p begin="00:22:26.206" end="00:22:29.406" style="s2">&gt;&gt; I don&#39;t care what you do out there, but</p>
+<p begin="00:22:27.706" end="00:22:33.306" style="s2">I definitely won&#39;t allow you to bring a</p>
+<p begin="00:22:29.406" end="00:22:33.306" style="s2">human into the house.</p>
+<p begin="00:22:35.006" end="00:22:38.306" style="s2">If you two refuse to accept Sylvia, then</p>
+<p begin="00:22:37.206" end="00:22:40.306" style="s2">I&#39;ll give up the succession to the</p>
+<p begin="00:22:38.306" end="00:22:42.206" style="s2">throne. And from now on, I&#39;ll leave the</p>
+<p begin="00:22:40.306" end="00:22:43.906" style="s2">Sacred Wolf royal family and spend my</p>
+<p begin="00:22:42.206" end="00:22:46.106" style="s2">life with Sylvia as an ordinary grey</p>
+<p begin="00:22:43.906" end="00:22:48.606" style="s2">wolf. Never go back to the Sacred Wolf</p>
+<p begin="00:22:46.106" end="00:22:48.606" style="s2">Palace.</p>
+<p begin="00:22:51.106" end="00:22:54.506" style="s2">&gt;&gt; Silly boy,</p>
+<p begin="00:22:52.406" end="00:22:56.006" style="s2">you&#39;re so naive. Without your Sacred</p>
+<p begin="00:22:54.506" end="00:22:57.506" style="s2">Wolf status,</p>
+<p begin="00:22:56.006" end="00:22:59.306" style="s2">do you really think that human princess</p>
+<p begin="00:22:57.506" end="00:23:00.806" style="s2">would stay with a grey wolf?</p>
+<p begin="00:22:59.306" end="00:23:02.606" style="s2">&gt;&gt; But Sylvia doesn&#39;t know my identity at</p>
+<p begin="00:23:00.806" end="00:23:03.706" style="s2">all. She&#39;s still married to me.</p>
+<p begin="00:23:02.606" end="00:23:04.806" style="s2">&gt;&gt; She&#39;s only staying with you for the</p>
+<p begin="00:23:03.706" end="00:23:06.206" style="s2">thrill.</p>
+<p begin="00:23:04.806" end="00:23:07.506" style="s2">Once she&#39;s sick of living in misery and</p>
+<p begin="00:23:06.206" end="00:23:11.006" style="s2">poverty, she&#39;ll leave you for good.</p>
+<p begin="00:23:07.506" end="00:23:11.006" style="s2">&gt;&gt; No, Sylvia is not like that.</p>
+<p begin="00:23:12.206" end="00:23:15.106" style="s2">If she can pass the test we set and</p>
+<p begin="00:23:13.506" end="00:23:16.806" style="s2">prove that she truly loves you, we&#39;ll</p>
+<p begin="00:23:15.106" end="00:23:18.206" style="s2">let go of prejudices and allow you to</p>
+<p begin="00:23:16.806" end="00:23:21.606" style="s2">bring her back.</p>
+<p begin="00:23:18.206" end="00:23:21.606" style="s2">Admit that that she is your princess.</p>
+<p begin="00:23:22.806" end="00:23:27.006" style="s2">No matter what kind of test, Sylvia will</p>
+<p begin="00:23:24.306" end="00:23:27.006" style="s2">surely pass.</p>
+<p begin="00:23:33.706" end="00:23:38.106" style="s2">&gt;&gt; What&#39;s wrong with you?</p>
+<p begin="00:23:35.106" end="00:23:40.206" style="s2">&gt;&gt; There&#39;s something I want to tell you.</p>
+<p begin="00:23:38.106" end="00:23:42.906" style="s2">&gt;&gt; Is everything okay? Let me know what I</p>
+<p begin="00:23:40.206" end="00:23:42.906" style="s2">can do to help.</p>
+<p begin="00:23:43.306" end="00:23:46.506" style="s2">&gt;&gt; I messed up Ford&#39;s banquet before. And</p>
+<p begin="00:23:45.206" end="00:23:47.706" style="s2">although Ford didn&#39;t say anything, I</p>
+<p begin="00:23:46.506" end="00:23:49.306" style="s2">don&#39;t think he&#39;s going to let me work at</p>
+<p begin="00:23:47.706" end="00:23:51.106" style="s2">his house anymore.</p>
+<p begin="00:23:49.306" end="00:23:52.206" style="s2">My reputation is also bad, and I will</p>
+<p begin="00:23:51.106" end="00:23:53.206" style="s2">never have a stable income in the</p>
+<p begin="00:23:52.206" end="00:23:54.306" style="s2">future.</p>
+<p begin="00:23:53.206" end="00:23:56.306" style="s2">I&#39;m afraid that we&#39;ll be unable to</p>
+<p begin="00:23:54.306" end="00:23:57.806" style="s2">maintain even food and clothing.</p>
+<p begin="00:23:56.306" end="00:24:00.706" style="s2">But don&#39;t worry, I&#39;ll definitely find a</p>
+<p begin="00:23:57.806" end="00:24:00.706" style="s2">job as soon as possible.</p>
+<p begin="00:24:07.506" end="00:24:10.306" style="s2">It seems that father and mother were</p>
+<p begin="00:24:08.906" end="00:24:12.306" style="s2">right.</p>
+<p begin="00:24:10.306" end="00:24:15.206" style="s2">Her feelings for me simply could not</p>
+<p begin="00:24:12.306" end="00:24:15.206" style="s2">stand the test.</p>
+<p begin="00:24:16.906" end="00:24:20.606" style="s2">&gt;&gt; Do you see the truth now?</p>
+<p begin="00:24:19.206" end="00:24:22.506" style="s2">We told you from the start, she never</p>
+<p begin="00:24:20.606" end="00:24:24.006" style="s2">cared about you.</p>
+<p begin="00:24:22.506" end="00:24:25.406" style="s2">The second she heard you lost your job,</p>
+<p begin="00:24:24.006" end="00:24:27.206" style="s2">she ran.</p>
+<p begin="00:24:25.406" end="00:24:29.007" style="s2">Forget about her while you still can.</p>
+<p begin="00:24:27.206" end="00:24:30.908" style="s2">&gt;&gt; Come back with us.</p>
+<p begin="00:24:29.007" end="00:24:32.107" style="s2">&gt;&gt; Human women are simply not worthy of you</p>
+<p begin="00:24:30.908" end="00:24:33.607" style="s2">and</p>
+<p begin="00:24:32.107" end="00:24:36.307" style="s2">we&#39;ll help you find the best marriage</p>
+<p begin="00:24:33.607" end="00:24:36.307" style="s2">candidate for you.</p>
+<p begin="00:24:40.408" end="00:24:43.408" style="s2">&gt;&gt; I&#39;m not going back.</p>
+<p begin="00:24:42.107" end="00:24:46.408" style="s2">I&#39;m going to find her and figure out</p>
+<p begin="00:24:43.408" end="00:24:46.408" style="s2">what&#39;s really going on.</p>
+<p begin="00:24:48.908" end="00:24:53.507" style="s2">&gt;&gt; She&#39;s done this to you.</p>
+<p begin="00:24:50.807" end="00:24:53.507" style="s2">Can&#39;t you see?</p>
+<p begin="00:25:09.007" end="00:25:12.607" style="s2">&gt;&gt; What is that?</p>
+<p begin="00:25:10.408" end="00:25:14.007" style="s2">&gt;&gt; These are the relics my mother left me.</p>
+<p begin="00:25:12.607" end="00:25:16.107" style="s2">We can sell them for money and open a</p>
+<p begin="00:25:14.007" end="00:25:18.307" style="s2">small restaurant of our own. As long as</p>
+<p begin="00:25:16.107" end="00:25:20.507" style="s2">we work together, we&#39;ll definitely get</p>
+<p begin="00:25:18.307" end="00:25:23.807" style="s2">through this.</p>
+<p begin="00:25:20.507" end="00:25:23.807" style="s2">&gt;&gt; You just went to get the jewelry.</p>
+<p begin="00:25:24.007" end="00:25:26.607" style="s2">&gt;&gt; Of course.</p>
+<p begin="00:25:30.607" end="00:25:34.908" style="s2">You don&#39;t think I disliked your poverty</p>
+<p begin="00:25:32.408" end="00:25:36.408" style="s2">and ran away, do you?</p>
+<p begin="00:25:34.908" end="00:25:37.908" style="s2">How could that be?</p>
+<p begin="00:25:36.408" end="00:25:41.307" style="s2">If I disliked you, I wouldn&#39;t have</p>
+<p begin="00:25:37.908" end="00:25:41.307" style="s2">married you in the first place.</p>
+<p begin="00:25:45.607" end="00:25:51.408" style="s2">&gt;&gt; Sorry, I misunderstood you.</p>
+<p begin="00:25:47.607" end="00:25:51.408" style="s2">I promise you you&#39;ll have a good life.</p>
+<p begin="00:26:14.408" end="00:26:18.507" style="s2">&gt;&gt; Princess Silvia, your craftsmanship is</p>
+<p begin="00:26:16.408" end="00:26:20.507" style="s2">amazing. I&#39;ve never eaten such a</p>
+<p begin="00:26:18.507" end="00:26:22.307" style="s2">delicious dish before.</p>
+<p begin="00:26:20.507" end="00:26:24.463" style="s2">&gt;&gt; Not only does it taste good, the price</p>
+<p begin="00:26:22.307" end="00:26:26.483" style="s2">is so affordable.</p>
+<p begin="00:26:24.463" end="00:26:26.483" style="s2">&gt;&gt; [sighs and gasps]</p>
+<p begin="00:26:31.107" end="00:26:36.309" style="s2">&gt;&gt; You&#39;re awesome.</p>
+<p begin="00:26:33.309" end="00:26:38.309" style="s2">Everyone is impressed by your craft.</p>
+<p begin="00:26:36.309" end="00:26:41.909" style="s2">Why don&#39;t you teach me how to cook?</p>
+<p begin="00:26:38.309" end="00:26:41.909" style="s2">That way you won&#39;t have to work so hard.</p>
+<p begin="00:26:43.209" end="00:26:46.609" style="s2">&gt;&gt; It took me a lot of effort to get this.</p>
+<p begin="00:26:45.009" end="00:26:48.509" style="s2">As long as you have this seasoning, you</p>
+<p begin="00:26:46.609" end="00:26:49.909" style="s2">can turn any tasty meal into a delicious</p>
+<p begin="00:26:48.509" end="00:26:52.209" style="s2">one.</p>
+<p begin="00:26:49.909" end="00:26:52.209" style="s2">&gt;&gt; Help me!</p>
+<p begin="00:26:54.593" end="00:26:56.613" style="s2">&gt;&gt; [sighs]</p>
+<p begin="00:26:58.709" end="00:27:01.409" style="s2">&gt;&gt; Your majesties, Prince Alaric and</p>
+<p begin="00:27:00.209" end="00:27:02.409" style="s2">Princess Sylvia have opened their</p>
+<p begin="00:27:01.409" end="00:27:03.709" style="s2">restaurant.</p>
+<p begin="00:27:02.409" end="00:27:05.709" style="s2">Princess Sylvia works alongside the</p>
+<p begin="00:27:03.709" end="00:27:07.109" style="s2">staff, treats everyone kindly, and never</p>
+<p begin="00:27:05.709" end="00:27:09.109" style="s2">complains no matter how hard the work</p>
+<p begin="00:27:07.109" end="00:27:10.509" style="s2">gets.</p>
+<p begin="00:27:09.109" end="00:27:13.109" style="s2">&gt;&gt; A princess willing to roll up her</p>
+<p begin="00:27:10.509" end="00:27:14.109" style="s2">sleeves and work this hard?</p>
+<p begin="00:27:13.109" end="00:27:16.209" style="s2">We misjudged her.</p>
+<p begin="00:27:14.109" end="00:27:18.109" style="s2">&gt;&gt; It&#39;s only been a few days and she can</p>
+<p begin="00:27:16.209" end="00:27:20.909" style="s2">pretend.</p>
+<p begin="00:27:18.109" end="00:27:20.909" style="s2">Watch her closely.</p>
+<p begin="00:27:39.809" end="00:27:43.509" style="s2">&gt;&gt; What are you doing here? You&#39;re selling</p>
+<p begin="00:27:41.909" end="00:27:47.709" style="s2">rotten food.</p>
+<p begin="00:27:43.509" end="00:27:47.709" style="s2">I&#39;m tearing this shady shop apart.</p>
+<p begin="00:27:50.309" end="00:27:53.909" style="s2">&gt;&gt; I see who dares to make trouble in my</p>
+<p begin="00:27:51.609" end="00:27:53.909" style="s2">shop.</p>
+<p begin="00:27:54.909" end="00:27:57.809" style="s2">&gt;&gt; I eat here all the time and the food is</p>
+<p begin="00:27:56.309" end="00:28:00.809" style="s2">fine. You&#39;re just looking for an excuse</p>
+<p begin="00:27:57.809" end="00:28:00.809" style="s2">to cause trouble, aren&#39;t you?</p>
+<p begin="00:28:04.509" end="00:28:07.709" style="s2">Look at this. I just bought these</p>
+<p begin="00:28:06.209" end="00:28:09.209" style="s2">vegetables from their shop today and</p>
+<p begin="00:28:07.709" end="00:28:10.809" style="s2">they&#39;re completely rotten. How am I</p>
+<p begin="00:28:09.209" end="00:28:12.509" style="s2">supposed to eat this?</p>
+<p begin="00:28:10.809" end="00:28:15.109" style="s2">&gt;&gt; This is indeed in this shop.</p>
+<p begin="00:28:12.509" end="00:28:16.709" style="s2">The shop and really lying?</p>
+<p begin="00:28:15.109" end="00:28:18.509" style="s2">&gt;&gt; As everyone knows, every customer who</p>
+<p begin="00:28:16.709" end="00:28:19.709" style="s2">eats here gets a wooden card. Bring it</p>
+<p begin="00:28:18.509" end="00:28:21.509" style="s2">with you on your next visit and you&#39;ll</p>
+<p begin="00:28:19.709" end="00:28:22.709" style="s2">get a discount.</p>
+<p begin="00:28:21.509" end="00:28:23.909" style="s2">Since you said you bought it in my</p>
+<p begin="00:28:22.709" end="00:28:26.409" style="s2">store,</p>
+<p begin="00:28:23.909" end="00:28:28.109" style="s2">what about the wooden sign?</p>
+<p begin="00:28:26.409" end="00:28:29.309" style="s2">&gt;&gt; I I forgot to bring it.</p>
+<p begin="00:28:28.109" end="00:28:30.509" style="s2">&gt;&gt; Then you go back and get the wooden</p>
+<p begin="00:28:29.309" end="00:28:32.809" style="s2">card.</p>
+<p begin="00:28:30.509" end="00:28:34.710" style="s2">As long as you have, we&#39;ll will to you</p>
+<p begin="00:28:32.809" end="00:28:37.810" style="s2">immediately and the restaurant will be</p>
+<p begin="00:28:34.710" end="00:28:39.810" style="s2">completely closed in the future.</p>
+<p begin="00:28:37.810" end="00:28:41.710" style="s2">Of course, I have a wooden card. That&#39;s</p>
+<p begin="00:28:39.810" end="00:28:43.910" style="s2">that&#39;s</p>
+<p begin="00:28:41.710" end="00:28:46.310" style="s2">&gt;&gt; You&#39;re not slandering us.</p>
+<p begin="00:28:43.910" end="00:28:46.310" style="s2">Are you?</p>
+<p begin="00:28:47.310" end="00:28:51.310" style="s2">&gt;&gt; I get it. She was humiliated outside the</p>
+<p begin="00:28:49.510" end="00:28:53.149" style="s2">palace last time, so she came here to</p>
+<p begin="00:28:51.310" end="00:28:55.169" style="s2">wreck Princess Sylvia&#39;s business.</p>
+<p begin="00:28:53.149" end="00:28:55.169" style="s2">&gt;&gt; [gasps]</p>
+<p begin="00:29:04.310" end="00:29:07.110" style="s2">&gt;&gt; Didn&#39;t you tell me that you promised to</p>
+<p begin="00:29:05.510" end="00:29:08.810" style="s2">let them close the store?</p>
+<p begin="00:29:07.110" end="00:29:10.410" style="s2">&gt;&gt; They were too clever.</p>
+<p begin="00:29:08.810" end="00:29:12.710" style="s2">I failed.</p>
+<p begin="00:29:10.410" end="00:29:14.310" style="s2">Give me one more chance. This time I</p>
+<p begin="00:29:12.710" end="00:29:15.710" style="s2">won&#39;t let you down.</p>
+<p begin="00:29:14.310" end="00:29:17.310" style="s2">&gt;&gt; Enough.</p>
+<p begin="00:29:15.710" end="00:29:18.910" style="s2">You useless thing. You can&#39;t even do a</p>
+<p begin="00:29:17.310" end="00:29:21.710" style="s2">simple job.</p>
+<p begin="00:29:18.910" end="00:29:21.710" style="s2">I&#39;ll go myself.</p>
+<p begin="00:29:43.810" end="00:29:48.210" style="s2">This food is rotten. It reeks. ARE YOU</p>
+<p begin="00:29:46.310" end="00:29:51.310" style="s2">RUNNING A BUSINESS JUST TO SCAM PEOPLE</p>
+<p begin="00:29:48.210" end="00:29:51.310" style="s2">WITH SPOILED FOOD?</p>
+<p begin="00:29:54.610" end="00:29:57.810" style="s2">&gt;&gt; I THINK ELARA DID IT AGAIN.</p>
+<p begin="00:29:58.910" end="00:30:04.710" style="s2">&gt;&gt; GO BACK AND tell Elara to stop messing</p>
+<p begin="00:30:00.510" end="00:30:04.710" style="s2">around, otherwise I won&#39;t spare her.</p>
+<p begin="00:30:05.510" end="00:30:10.210" style="s2">&gt;&gt; What is your attitude? IS THAT HOW YOU</p>
+<p begin="00:30:07.510" end="00:30:13.060" style="s2">TREAT YOUR GUESTS?</p>
+<p begin="00:30:10.210" end="00:30:15.080" style="s2">&gt;&gt; BOSS, HE REALLY DID COME HERE TO EAT.</p>
+<p begin="00:30:13.060" end="00:30:15.080" style="s2">&gt;&gt; [gasps]</p>
+<p begin="00:30:15.810" end="00:30:19.310" style="s2">&gt;&gt; I&#39;m sorry we misunderstood.</p>
+<p begin="00:30:18.110" end="00:30:21.410" style="s2">We thought someone sent you to set us</p>
+<p begin="00:30:19.310" end="00:30:23.010" style="s2">up.</p>
+<p begin="00:30:21.410" end="00:30:25.010" style="s2">&gt;&gt; A misunderstanding.</p>
+<p begin="00:30:23.010" end="00:30:26.810" style="s2">You served me rotten food, then accused</p>
+<p begin="00:30:25.010" end="00:30:29.910" style="s2">me of planting it. I&#39;m making sure this</p>
+<p begin="00:30:26.810" end="00:30:29.910" style="s2">place closes today.</p>
+<p begin="00:30:36.010" end="00:30:39.112" style="s2">&gt;&gt; You look so kind and gentle on the</p>
+<p begin="00:30:37.512" end="00:30:41.012" style="s2">surface.</p>
+<p begin="00:30:39.112" end="00:30:42.712" style="s2">Yet you secretly served spoiled garbage</p>
+<p begin="00:30:41.012" end="00:30:44.112" style="s2">to cheat everyday people. Don&#39;t spend</p>
+<p begin="00:30:42.712" end="00:30:46.412" style="s2">another cent at this rotten shop,</p>
+<p begin="00:30:44.112" end="00:30:48.512" style="s2">everyone.</p>
+<p begin="00:30:46.412" end="00:30:50.112" style="s2">I cooked every dish myself and we bought</p>
+<p begin="00:30:48.512" end="00:30:51.812" style="s2">the ingredients fresh this morning.</p>
+<p begin="00:30:50.112" end="00:30:54.812" style="s2">Nothing could have spoiled. Someone</p>
+<p begin="00:30:51.812" end="00:30:54.812" style="s2">tampered with the food.</p>
+<p begin="00:30:55.012" end="00:30:58.612" style="s2">Princess Elara said their food was</p>
+<p begin="00:30:56.312" end="00:31:01.612" style="s2">rotten before and you didn&#39;t listen. DO</p>
+<p begin="00:30:58.612" end="00:31:01.612" style="s2">YOU BELIEVE ME NOW?</p>
+<p begin="00:31:05.012" end="00:31:09.612" style="s2">YOU SELL ROTTEN FOOD AND CHEAT US OUT of</p>
+<p begin="00:31:06.712" end="00:31:12.612" style="s2">our money. SHUT THIS DUMP DOWN.</p>
+<p begin="00:31:09.612" end="00:31:12.612" style="s2">CLOSE. CLOSE.</p>
+<p begin="00:31:14.612" end="00:31:17.412" style="s2">&gt;&gt; WHAT SHOULD WE DO?</p>
+<p begin="00:31:21.412" end="00:31:24.456" style="s2">&gt;&gt; AREN&#39;T YOU GOING TO EXPLAIN?</p>
+<p begin="00:31:23.312" end="00:31:26.512" style="s2">Why is the dish I just prepared</p>
+<p begin="00:31:24.456" end="00:31:30.012" style="s2">[clears throat] spoiled in your hands?</p>
+<p begin="00:31:26.512" end="00:31:30.012" style="s2">I I don&#39;t understand what you&#39;re saying.</p>
+<p begin="00:31:34.936" end="00:31:36.956" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:31:37.412" end="00:31:41.012" style="s2">&gt;&gt; You&#39;re the one who drugged the dish.</p>
+<p begin="00:31:41.712" end="00:31:44.912" style="s2">Why did you do it?</p>
+<p begin="00:31:52.212" end="00:31:55.312" style="s2">&gt;&gt; Where do you think you&#39;re going?</p>
+<p begin="00:31:59.312" end="00:32:03.112" style="s2">&gt;&gt; PLEASE LET ME GO.</p>
+<p begin="00:32:01.112" end="00:32:04.712" style="s2">&gt;&gt; IF YOU TELL ME THE truth now,</p>
+<p begin="00:32:03.112" end="00:32:05.912" style="s2">I&#39;ll spare you.</p>
+<p begin="00:32:04.712" end="00:32:09.112" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:32:05.912" end="00:32:09.112" style="s2">He threatened me to DO IT.</p>
+<p begin="00:32:09.312" end="00:32:13.512" style="s2">&gt;&gt; A WHITE WOLF PRINCE SCHEMING TO frame</p>
+<p begin="00:32:11.012" end="00:32:15.612" style="s2">innocent townsfolk. Shameful. She hired</p>
+<p begin="00:32:13.512" end="00:32:17.112" style="s2">thugs to hurt diners out of spite.</p>
+<p begin="00:32:15.612" end="00:32:19.412" style="s2">Someone like that could never be wolf</p>
+<p begin="00:32:17.112" end="00:32:19.412" style="s2">king.</p>
+<p begin="00:32:33.312" end="00:32:37.312" style="s2">&gt;&gt; HELP, FATHER. HELP. [screaming]</p>
+<p begin="00:32:36.012" end="00:32:40.213" style="s2">FATHER.</p>
+<p begin="00:32:37.312" end="00:32:43.613" style="s2">THAT LOWLY WOLF beat me in the street.</p>
+<p begin="00:32:40.213" end="00:32:46.813" style="s2">HE HUMILIATED THE WHOLE WHITE wolf clan.</p>
+<p begin="00:32:43.613" end="00:32:48.213" style="s2">You have to punish him.</p>
+<p begin="00:32:46.813" end="00:32:50.213" style="s2">&gt;&gt; Could he have hit you if you hadn&#39;t set</p>
+<p begin="00:32:48.213" end="00:32:51.713" style="s2">him up on purpose?</p>
+<p begin="00:32:50.213" end="00:32:53.013" style="s2">You&#39;re a white wolf and a grey wolf</p>
+<p begin="00:32:51.713" end="00:32:54.313" style="s2">still beat you.</p>
+<p begin="00:32:53.013" end="00:32:55.313" style="s2">You&#39;ve brought shame on the whole white</p>
+<p begin="00:32:54.313" end="00:32:58.513" style="s2">wolf clan.</p>
+<p begin="00:32:55.313" end="00:33:00.513" style="s2">&gt;&gt; How dare you speak to royalty like this?</p>
+<p begin="00:32:58.513" end="00:33:01.513" style="s2">My father, the king will have you all</p>
+<p begin="00:33:00.513" end="00:33:04.013" style="s2">killed.</p>
+<p begin="00:33:01.513" end="00:33:05.913" style="s2">&gt;&gt; Enough. Look at yourself. Is this how a</p>
+<p begin="00:33:04.013" end="00:33:07.713" style="s2">prince behaved? You&#39;ve disgraced the</p>
+<p begin="00:33:05.913" end="00:33:08.713" style="s2">white wolves. I meant to name you my</p>
+<p begin="00:33:07.713" end="00:33:11.813" style="s2">heir.</p>
+<p begin="00:33:08.713" end="00:33:11.813" style="s2">But now I have to reconsider.</p>
+<p begin="00:33:28.913" end="00:33:32.013" style="s2">&gt;&gt; Great business today.</p>
+<p begin="00:33:35.113" end="00:33:38.913" style="s2">&gt;&gt; Ma&#39;am, we haven&#39;t eaten in days. Please,</p>
+<p begin="00:33:37.313" end="00:33:41.113" style="s2">could you help us?</p>
+<p begin="00:33:38.913" end="00:33:42.313" style="s2">&gt;&gt; Alaric, two homeless people have fainted</p>
+<p begin="00:33:41.113" end="00:33:45.013" style="s2">at the door.</p>
+<p begin="00:33:42.313" end="00:33:47.813" style="s2">Let&#39;s help them into the store and rest.</p>
+<p begin="00:33:45.013" end="00:33:47.813" style="s2">&gt;&gt; Father and mother?</p>
+<p begin="00:34:00.013" end="00:34:05.413" style="s2">Still the first time I&#39;ve seen a</p>
+<p begin="00:34:01.413" end="00:34:07.313" style="s2">homeless person eating so elegantly.</p>
+<p begin="00:34:05.413" end="00:34:09.518" style="s2">&gt;&gt; Those longer aren&#39;t low mass. They&#39;re</p>
+<p begin="00:34:07.313" end="00:34:10.713" style="s2">just here for a free meal.</p>
+<p begin="00:34:09.518" end="00:34:13.313" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:34:10.713" end="00:34:15.013" style="s2">&gt;&gt; We used to be nobles. Then our family</p>
+<p begin="00:34:13.313" end="00:34:16.213" style="s2">fell on hard times.</p>
+<p begin="00:34:15.013" end="00:34:17.613" style="s2">&gt;&gt; That&#39;s right.</p>
+<p begin="00:34:16.213" end="00:34:20.313" style="s2">We haven&#39;t had such a delicious meal in</p>
+<p begin="00:34:17.613" end="00:34:20.313" style="s2">a long time.</p>
+<p begin="00:34:20.913" end="00:34:23.713" style="s2">&gt;&gt; What a pity.</p>
+<p begin="00:34:39.114" end="00:34:45.514" style="s2">&gt;&gt; 小 妹 妹 太 牛 比 了， 一 个 人 单 挑， 一 个 资 本 家 族。</p>
+<p begin="00:34:43.114" end="00:34:48.314" style="s2">&gt;&gt; 小 叔， 红 素 薇 的 丈夫 赵 氏 专 是 京 市 有 名 的 豪 门 显</p>
+<p begin="00:34:45.514" end="00:34:48.714" style="s2">贵， 加 上 你 这 次 的 证 据 时 间 隔 的 太 久， 有 些 无 从</p>
+<p begin="00:34:48.314" end="00:34:51.814" style="s2">查 证。</p>
+<p begin="00:34:48.714" end="00:34:52.814" style="s2">&gt;&gt; 我 咨 询 了 律 师， 这 次 的 审 查 多 半 不 会 有 结 果， 你</p>
+<p begin="00:34:51.814" end="00:34:53.614" style="s2">要 做 好 准 备。</p>
+<p begin="00:34:52.814" end="00:34:55.914" style="s2">&gt;&gt; 好。</p>
+<p begin="00:34:53.614" end="00:34:58.514" style="s2">她 想 要 利 用 她 丈 夫 翻 盘。</p>
+<p begin="00:34:55.914" end="00:35:01.614" style="s2">没 那 么 简 单。</p>
+<p begin="00:34:58.514" end="00:35:02.714" style="s2">&gt;&gt; 20 年 前， 你 真 的 顶 替 了 别 人 的 身 份 吗？</p>
+<p begin="00:35:01.614" end="00:35:04.314" style="s2">&gt;&gt; 是 焕，</p>
+<p begin="00:35:02.714" end="00:35:08.114" style="s2">我 们 夫 妻 20 年，</p>
+<p begin="00:35:04.314" end="00:35:08.914" style="s2">我 为 你 生 育 女 儿， 你 竟 然 怀 疑 我， 相 信 两 个 疯 子</p>
+<p begin="00:35:08.114" end="00:35:11.314" style="s2">的 话 吗？</p>
+<p begin="00:35:08.914" end="00:35:12.314" style="s2">&gt;&gt; 可 那 个 凌 叔 拿 出 来 的 那 些 证 据， 还 有 张 鹤 年 的 指</p>
+<p begin="00:35:11.314" end="00:35:15.514" style="s2">认， 你 怎 么 解 释？</p>
+<p begin="00:35:12.314" end="00:35:16.614" style="s2">&gt;&gt; 张 老 肯 定 被 他 们 收 买 了， 他 的 话 根 本 就 不 可 信。</p>
+<p begin="00:35:15.514" end="00:35:18.914" style="s2">是 焕，</p>
+<p begin="00:35:16.614" end="00:35:22.514" style="s2">结 婚 以 来， 我 什 么 时 候 骗 过 你？</p>
+<p begin="00:35:18.914" end="00:35:24.214" style="s2">&gt;&gt; 对， 这 20 年 来， 她 确 实 是 一 个 合 格 的 妻 子，</p>
+<p begin="00:35:22.514" end="00:35:25.614" style="s2">应 该 做 不 到 伪 装 20 年 吧。</p>
+<p begin="00:35:24.214" end="00:35:28.214" style="s2">&gt;&gt; 是 焕，</p>
+<p begin="00:35:25.614" end="00:35:32.614" style="s2">如 果 我 真 的 是 什 么 都 不 会 的 骗 子， 我 怎 么 可 能 把</p>
+<p begin="00:35:28.214" end="00:35:34.814" style="s2">弱 雪 交 到 舞 蹈 界 第 一， 凌 叔 就 是 想 敲 诈 我。</p>
+<p begin="00:35:32.614" end="00:35:38.514" style="s2">要 [gasps and laughter] 是 这 次 让 他 得 逞，</p>
+<p begin="00:35:34.814" end="00:35:40.564" style="s2">下 一 个 他 的 敲 诈 目 标 肯 定 是 赵 家。</p>
+<p begin="00:35:38.514" end="00:35:42.584" style="s2">&gt;&gt; 我 知 道 了。</p>
+<p begin="00:35:40.564" end="00:35:42.584" style="s2">&gt;&gt; [singing]</p>
+<p begin="00:35:42.914" end="00:35:46.514" style="s2">&gt;&gt; I called the elders here to discuss</p>
+<p begin="00:35:44.514" end="00:35:48.424" style="s2">Prince Alaric&#39;s marriage. The Queen and</p>
+<p begin="00:35:46.514" end="00:35:49.714" style="s2">I have watched Sylvia closely. She may</p>
+<p begin="00:35:48.424" end="00:35:52.314" style="s2">[music] be human, but she&#39;s</p>
+<p begin="00:35:49.714" end="00:35:54.114" style="s2">hard-working, kind, and more than worthy</p>
+<p begin="00:35:52.314" end="00:35:56.214" style="s2">to stand beside Alaric.</p>
+<p begin="00:35:54.114" end="00:35:58.714" style="s2">I hereby grant Prince Alaric leave to</p>
+<p begin="00:35:56.214" end="00:36:00.514" style="s2">marry Princess Sylvia. The royal wedding</p>
+<p begin="00:35:58.714" end="00:36:01.514" style="s2">will be held on a day chosen by the</p>
+<p begin="00:36:00.514" end="00:36:02.614" style="s2">court.</p>
+<p begin="00:36:01.514" end="00:36:04.614" style="s2">&gt;&gt; Brother,</p>
+<p begin="00:36:02.614" end="00:36:06.714" style="s2">surely this goes against tradition?</p>
+<p begin="00:36:04.614" end="00:36:09.814" style="s2">&gt;&gt; And who says this violates tradition?</p>
+<p begin="00:36:06.714" end="00:36:12.014" style="s2">&gt;&gt; For a thousand years, Sacred Wolf Royals</p>
+<p begin="00:36:09.814" end="00:36:13.014" style="s2">have married only the highest-born beast</p>
+<p begin="00:36:12.014" end="00:36:15.514" style="s2">folk.</p>
+<p begin="00:36:13.014" end="00:36:17.414" style="s2">&gt;&gt; A human, even a princess, has no place</p>
+<p begin="00:36:15.514" end="00:36:19.214" style="s2">in our clan, least of all as the Queen</p>
+<p begin="00:36:17.414" end="00:36:21.114" style="s2">who would rule us.</p>
+<p begin="00:36:19.214" end="00:36:23.214" style="s2">If Alaric insists on marrying a human</p>
+<p begin="00:36:21.114" end="00:36:25.314" style="s2">woman, then I propose to deprive him of</p>
+<p begin="00:36:23.214" end="00:36:26.314" style="s2">his princely status and disqualify him</p>
+<p begin="00:36:25.314" end="00:36:27.914" style="s2">from the throne.</p>
+<p begin="00:36:26.314" end="00:36:29.614" style="s2">&gt;&gt; Eric, I know you were upset about not</p>
+<p begin="00:36:27.914" end="00:36:31.614" style="s2">being on the throne, but I can tell you</p>
+<p begin="00:36:29.614" end="00:36:34.114" style="s2">that no matter who Alaric marries, this</p>
+<p begin="00:36:31.614" end="00:36:35.914" style="s2">position is his.</p>
+<p begin="00:36:34.114" end="00:36:37.714" style="s2">&gt;&gt; Sylvia is the wife we selected for</p>
+<p begin="00:36:35.914" end="00:36:40.814" style="s2">Alaric, so this matter has been settled.</p>
+<p begin="00:36:37.714" end="00:36:40.814" style="s2">No more discussions.</p>
+<p begin="00:36:45.414" end="00:36:49.716" style="s2">&gt;&gt; Those two [ __ ] to blame.</p>
+<p begin="00:36:48.316" end="00:36:52.416" style="s2">Father was going to name me heir, but</p>
+<p begin="00:36:49.716" end="00:36:53.716" style="s2">that bastard Jack&#39;s got it instead.</p>
+<p begin="00:36:52.416" end="00:36:57.016" style="s2">&gt;&gt; Don&#39;t worry.</p>
+<p begin="00:36:53.716" end="00:36:57.016" style="s2">You&#39;ll be the next wolf king.</p>
+<p begin="00:36:58.510" end="00:37:00.530" style="s2">&gt;&gt; [gasps]</p>
+<p begin="00:37:04.016" end="00:37:07.816" style="s2">&gt;&gt; Who are you?</p>
+<p begin="00:37:05.916" end="00:37:10.016" style="s2">&gt;&gt; It doesn&#39;t matter who I&#39;m the important</p>
+<p begin="00:37:07.816" end="00:37:13.616" style="s2">thing is that we have a common enemy</p>
+<p begin="00:37:10.016" end="00:37:13.616" style="s2">and I can help you become a wolf king.</p>
+<p begin="00:37:14.416" end="00:37:18.316" style="s2">&gt;&gt; You mean Sylvia and Alaric?</p>
+<p begin="00:37:16.916" end="00:37:20.016" style="s2">&gt;&gt; That&#39;s right.</p>
+<p begin="00:37:18.316" end="00:37:21.216" style="s2">As long as you help me get rid of them,</p>
+<p begin="00:37:20.016" end="00:37:23.516" style="s2">when it&#39;s done,</p>
+<p begin="00:37:21.216" end="00:37:26.416" style="s2">I&#39;ll help you get what you want.</p>
+<p begin="00:37:23.516" end="00:37:26.416" style="s2">&gt;&gt; Why would I believe you?</p>
+<p begin="00:37:34.316" end="00:37:38.516" style="s2">&gt;&gt; It was our eyes that failed to recognize</p>
+<p begin="00:37:36.616" end="00:37:40.216" style="s2">you as a sacred wolf.</p>
+<p begin="00:37:38.516" end="00:37:44.316" style="s2">&gt;&gt; I don&#39;t care how you do it.</p>
+<p begin="00:37:40.216" end="00:37:44.316" style="s2">Just make Sylvia and Alaric disappear.</p>
+<p begin="00:37:46.216" end="00:37:48.716" style="s2">&gt;&gt; We&#39;ll do it.</p>
+<p begin="00:37:52.221" end="00:37:55.316" style="s2">&gt;&gt; [sighs and gasps]</p>
+<p begin="00:37:52.816" end="00:37:55.316" style="s2">&gt;&gt; He&#39;s gone.</p>
+<p begin="00:37:55.516" end="00:37:59.216" style="s2">&gt;&gt; Those two [ __ ] picked a fight with</p>
+<p begin="00:37:57.016" end="00:38:02.216" style="s2">someone that powerful.</p>
+<p begin="00:37:59.216" end="00:38:02.216" style="s2">They&#39;re as good as dead.</p>
+<p begin="00:38:13.316" end="00:38:18.516" style="s2">&gt;&gt; Where are you going?</p>
+<p begin="00:38:14.516" end="00:38:18.516" style="s2">&gt;&gt; Restaurant. We&#39;re going to open a store.</p>
+<p begin="00:38:25.316" end="00:38:28.516" style="s2">&gt;&gt; You can&#39;t go out there.</p>
+<p begin="00:38:27.016" end="00:38:29.556" style="s2">&gt;&gt; What&#39;s wrong?</p>
+<p begin="00:38:28.516" end="00:38:30.916" style="s2">What happened?</p>
+<p begin="00:38:29.556" end="00:38:32.416" style="s2">&gt;&gt; [sighs and gasps]</p>
+<p begin="00:38:30.916" end="00:38:33.816" style="s2">&gt;&gt; Drought and disaster have ravaged the</p>
+<p begin="00:38:32.416" end="00:38:35.316" style="s2">realm this year.</p>
+<p begin="00:38:33.816" end="00:38:36.516" style="s2">The crops have failed.</p>
+<p begin="00:38:35.316" end="00:38:39.016" style="s2">People are saying the two of you brought</p>
+<p begin="00:38:36.516" end="00:38:40.416" style="s2">this calamity on us.</p>
+<p begin="00:38:39.016" end="00:38:41.816" style="s2">Unfounded rumors. We don&#39;t have to</p>
+<p begin="00:38:40.416" end="00:38:43.316" style="s2">listen to them, but the people don&#39;t</p>
+<p begin="00:38:41.816" end="00:38:44.616" style="s2">know the truth.</p>
+<p begin="00:38:43.316" end="00:38:46.616" style="s2">They think you angered the heavens and</p>
+<p begin="00:38:44.616" end="00:38:49.117" style="s2">brought this disaster down on the realm.</p>
+<p begin="00:38:46.616" end="00:38:50.417" style="s2">The whole city calls you a cursed omen.</p>
+<p begin="00:38:49.117" end="00:38:53.317" style="s2">They&#39;re at the palace gates demanding</p>
+<p begin="00:38:50.417" end="00:38:53.317" style="s2">your execution.</p>
+<p begin="00:38:54.017" end="00:38:58.017" style="s2">&gt;&gt; JUDGE THE CURSED PRINCESS. DRIVE OUT THE</p>
+<p begin="00:38:56.411" end="00:38:58.817" style="s2">[screaming] GREY WOLF. APPEASE THE</p>
+<p begin="00:38:58.017" end="00:39:00.917" style="s2">HEAVENS.</p>
+<p begin="00:38:58.817" end="00:39:03.517" style="s2">&gt;&gt; FATHER, THE drought has left countless</p>
+<p begin="00:39:00.917" end="00:39:05.017" style="s2">people hungry and cold.</p>
+<p begin="00:39:03.517" end="00:39:06.817" style="s2">Sylvia and that grey wolf brought all</p>
+<p begin="00:39:05.017" end="00:39:08.417" style="s2">this suffering on us.</p>
+<p begin="00:39:06.817" end="00:39:10.517" style="s2">If you don&#39;t execute them, the heavens</p>
+<p begin="00:39:08.417" end="00:39:12.117" style="s2">will never send rain. People will turn</p>
+<p begin="00:39:10.517" end="00:39:14.117" style="s2">on you.</p>
+<p begin="00:39:12.117" end="00:39:16.317" style="s2">&gt;&gt; If you can&#39;t handle this properly,</p>
+<p begin="00:39:14.117" end="00:39:17.517" style="s2">then this is the end of my marriage to</p>
+<p begin="00:39:16.317" end="00:39:19.717" style="s2">Alaric.</p>
+<p begin="00:39:17.517" end="00:39:23.117" style="s2">&gt;&gt; Your Majesty, give the order. We can&#39;t</p>
+<p begin="00:39:19.717" end="00:39:25.517" style="s2">risk offending the wolf clan.</p>
+<p begin="00:39:23.117" end="00:39:27.917" style="s2">&gt;&gt; Pass the order.</p>
+<p begin="00:39:25.517" end="00:39:32.017" style="s2">Hunt down Sylvia and Alaric across the</p>
+<p begin="00:39:27.917" end="00:39:32.017" style="s2">whole city to appease the heavens.</p>
+<p begin="00:39:39.117" end="00:39:41.617" style="s2">&gt;&gt; There are people outside and your</p>
+<p begin="00:39:40.217" end="00:39:42.417" style="s2">portraits are everywhere. Can&#39;t stay</p>
+<p begin="00:39:41.617" end="00:39:45.317" style="s2">here anymore.</p>
+<p begin="00:39:42.417" end="00:39:46.717" style="s2">&gt;&gt; But where are we going?</p>
+<p begin="00:39:45.317" end="00:39:48.117" style="s2">&gt;&gt; There&#39;s a small road for transporting</p>
+<p begin="00:39:46.717" end="00:39:49.717" style="s2">firewood in the east of the city.</p>
+<p begin="00:39:48.117" end="00:39:51.717" style="s2">Usually no one walks leading directly to</p>
+<p begin="00:39:49.717" end="00:39:55.017" style="s2">the border. But hurry. I heard they&#39;re</p>
+<p begin="00:39:51.717" end="00:39:55.017" style="s2">going door-to-door after dark.</p>
+<p begin="00:39:56.017" end="00:39:59.017" style="s2">If we stay together, we&#39;re too easy to</p>
+<p begin="00:39:57.217" end="00:40:00.217" style="s2">spot. If a patrol catches us, we&#39;re both</p>
+<p begin="00:39:59.017" end="00:40:01.817" style="s2">done for.</p>
+<p begin="00:40:00.217" end="00:40:03.917" style="s2">Take the small path. I&#39;ll hit the main</p>
+<p begin="00:40:01.817" end="00:40:06.417" style="s2">road and lead them away.</p>
+<p begin="00:40:03.917" end="00:40:06.417" style="s2">&gt;&gt; Be careful.</p>
+<p begin="00:40:14.317" end="00:40:17.717" style="s2">&gt;&gt; THERE&#39;S SOMEONE AHEAD. CHASE THEM.</p>
+<p begin="00:40:23.617" end="00:40:28.717" style="s2">PRINCESS SYLVIA, COME WITH US.</p>
+<p begin="00:40:26.817" end="00:40:31.117" style="s2">YOU TOO. Find that grey wolf. He can&#39;t</p>
+<p begin="00:40:28.717" end="00:40:31.117" style="s2">be far.</p>
+<p begin="00:40:50.117" end="00:40:53.718" style="s2">&gt;&gt; Don&#39;t come back for me, Alaric.</p>
+<p begin="00:40:56.278" end="00:41:00.118" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:40:57.318" end="00:41:03.218" style="s2">&gt;&gt; Why hasn&#39;t she arrived yet?</p>
+<p begin="00:41:00.118" end="00:41:03.218" style="s2">Nothing could have happened to her.</p>
+<p begin="00:41:07.018" end="00:41:09.218" style="s2">&gt;&gt; Where are all the people? Where&#39;s</p>
+<p begin="00:41:08.218" end="00:41:10.818" style="s2">Sylvia?</p>
+<p begin="00:41:09.218" end="00:41:12.718" style="s2">Something terrible happened. She was</p>
+<p begin="00:41:10.818" end="00:41:14.818" style="s2">caught.</p>
+<p begin="00:41:12.718" end="00:41:16.518" style="s2">WHERE IS SHE NOW? She was taken back to</p>
+<p begin="00:41:14.818" end="00:41:19.018" style="s2">the palace. They&#39;re going to burn her in</p>
+<p begin="00:41:16.518" end="00:41:20.418" style="s2">public in the square.</p>
+<p begin="00:41:19.018" end="00:41:21.818" style="s2">Are you out of your mind? Going now is</p>
+<p begin="00:41:20.418" end="00:41:24.018" style="s2">suicide.</p>
+<p begin="00:41:21.818" end="00:41:27.118" style="s2">I can&#39;t just STAND HERE AND WATCH HER</p>
+<p begin="00:41:24.018" end="00:41:28.718" style="s2">BURN. SHE&#39;S MY WIFE.</p>
+<p begin="00:41:27.118" end="00:41:30.318" style="s2">THERE&#39;S STILL A CHANCE. WE CAN GO AROUND</p>
+<p begin="00:41:28.718" end="00:41:31.618" style="s2">to the stables behind the square where</p>
+<p begin="00:41:30.318" end="00:41:32.918" style="s2">there are the fewest guards and wait</p>
+<p begin="00:41:31.618" end="00:41:35.418" style="s2">until the execution to save her from</p>
+<p begin="00:41:32.918" end="00:41:35.418" style="s2">chaos.</p>
+<p begin="00:41:40.018" end="00:41:44.018" style="s2">&gt;&gt; Come on. They&#39;re executing that CURSED</p>
+<p begin="00:41:42.318" end="00:41:49.218" style="s2">PRINCESS TODAY.</p>
+<p begin="00:41:44.018" end="00:41:49.218" style="s2">&gt;&gt; BURN HER TO DEATH AND IT WILL RAIN.</p>
+<p begin="00:41:54.818" end="00:41:57.618" style="s2">WAIT FOR ME.</p>
+<p begin="00:42:07.018" end="00:42:12.018" style="s2">&gt;&gt; EVERYONE, it&#39;s her.</p>
+<p begin="00:42:09.918" end="00:42:14.318" style="s2">A royal princess who took up with a</p>
+<p begin="00:42:12.018" end="00:42:17.018" style="s2">lowly grey wolf</p>
+<p begin="00:42:14.318" end="00:42:19.318" style="s2">and brought this disaster upon us.</p>
+<p begin="00:42:17.018" end="00:42:20.418" style="s2">Burn them and the heavens will forgive</p>
+<p begin="00:42:19.318" end="00:42:21.718" style="s2">us.</p>
+<p begin="00:42:20.418" end="00:42:22.918" style="s2">&gt;&gt; BURN HER. [screaming]</p>
+<p begin="00:42:21.718" end="00:42:24.318" style="s2">BURN HER.</p>
+<p begin="00:42:22.918" end="00:42:25.018" style="s2">BURN HER.</p>
+<p begin="00:42:24.318" end="00:42:27.018" style="s2">BURN HER.</p>
+<p begin="00:42:25.018" end="00:42:29.818" style="s2">&gt;&gt; WHERE&#39;S YOUR COOK HUSBAND? DID he</p>
+<p begin="00:42:27.018" end="00:42:29.818" style="s2">abandon you?</p>
+<p begin="00:42:30.418" end="00:42:35.918" style="s2">Be honest.</p>
+<p begin="00:42:32.418" end="00:42:35.918" style="s2">Otherwise, I&#39;ll kill you now.</p>
+<p begin="00:42:37.149" end="00:42:39.169" style="s2">[laughter]</p>
+<p begin="00:42:49.918" end="00:42:54.620" style="s2">I I let you find</p>
+<p begin="00:42:51.720" end="00:42:54.620" style="s2">Don&#39;t waste your energy.</p>
+<p begin="00:42:55.020" end="00:42:59.120" style="s2">Since you&#39;re so ignorant, I&#39;ll kill you</p>
+<p begin="00:42:57.420" end="00:43:02.820" style="s2">first and then find your commoner</p>
+<p begin="00:42:59.120" end="00:43:02.820" style="s2">husband and send him to hell.</p>
+<p begin="00:43:03.020" end="00:43:05.520" style="s2">Light it up.</p>
+<p begin="00:43:22.720" end="00:43:25.720" style="s2">As soon as I cut the rope, you&#39;ll be</p>
+<p begin="00:43:24.120" end="00:43:29.620" style="s2">burnt to ashes.</p>
+<p begin="00:43:25.720" end="00:43:29.620" style="s2">Sister, it seems that I won in the end.</p>
+<p begin="00:43:46.820" end="00:43:50.620" style="s2">&gt;&gt; Are you hurt?</p>
+<p begin="00:43:48.720" end="00:43:54.420" style="s2">&gt;&gt; Why are you still here?</p>
+<p begin="00:43:50.620" end="00:43:54.420" style="s2">&gt;&gt; How could I watch my wife burn to death?</p>
+<p begin="00:43:57.060" end="00:43:59.920" style="s2">[laughter]</p>
+<p begin="00:43:58.120" end="00:44:00.920" style="s2">I&#39;m worried I won&#39;t be able to catch</p>
+<p begin="00:43:59.920" end="00:44:02.620" style="s2">you,</p>
+<p begin="00:44:00.920" end="00:44:04.020" style="s2">but you just delivered yourself right to</p>
+<p begin="00:44:02.620" end="00:44:05.620" style="s2">me.</p>
+<p begin="00:44:04.020" end="00:44:08.720" style="s2">What are you standing AROUND FOR? GO</p>
+<p begin="00:44:05.620" end="00:44:08.720" style="s2">AFTER THEM! CATCH THEM!</p>
+<p begin="00:44:28.320" end="00:44:31.920" style="s2">&gt;&gt; OH NO, IT&#39;S FULL MOONLIGHT.</p>
+<p begin="00:44:30.620" end="00:44:33.720" style="s2">When I married Reaver in my last life,</p>
+<p begin="00:44:31.920" end="00:44:37.320" style="s2">he lost his strength every full moon.</p>
+<p begin="00:44:33.720" end="00:44:37.320" style="s2">Alaric, you&#39;re back here!</p>
+<p begin="00:44:37.520" end="00:44:40.620" style="s2">&gt;&gt; RUN QUICKLY.</p>
+<p begin="00:44:42.020" end="00:44:45.920" style="s2">HE HAS NO MORE POWER. CATCH THEM!</p>
+<p begin="00:44:49.120" end="00:44:54.120" style="s2">&gt;&gt; 法 官 大 人， 這 份 所 謂 的 原 始 檔 案 紙 張 脆 化， 字 跡</p>
+<p begin="00:44:53.120" end="00:44:56.921" style="s2">發 虛，</p>
+<p begin="00:44:54.120" end="00:44:58.821" style="s2">退 一 萬 步 講， 在 這 個 科 技 发 达 的 年 代， 直 至 当 案</p>
+<p begin="00:44:56.921" end="00:45:00.721" style="s2">年 代 久 远， 极 易 伪 造。</p>
+<p begin="00:44:58.821" end="00:45:02.121" style="s2">&gt;&gt; 伪 造？ 这 些 当 案，</p>
+<p begin="00:45:00.721" end="00:45:03.021" style="s2">都 是 我 十 大 时 从 院 内 调 取 的。</p>
+<p begin="00:45:02.121" end="00:45:05.521" style="s2">&gt;&gt; 林 小 姐，</p>
+<p begin="00:45:03.021" end="00:45:08.121" style="s2">法 律 讲 究 证 据 链 的 完 整， 单 凭 你 拿 出 来 的 证 据，</p>
+<p begin="00:45:05.521" end="00:45:11.321" style="s2">无 法 认 定 真 假。 如 果 你 找 不 出 当 年 经 手 的 关 键 人</p>
+<p begin="00:45:08.121" end="00:45:12.321" style="s2">证 出 庭 作 证， 我 方 会 立 刻 反 诉 你 敲 诈 勒 索 与 诬 告</p>
+<p begin="00:45:11.321" end="00:45:15.321" style="s2">陷 害。</p>
+<p begin="00:45:12.321" end="00:45:18.921" style="s2">原 告， 除 了 物 证， 你 需 要 提 交 物 证 的 鉴 定 证 据 与</p>
+<p begin="00:45:15.321" end="00:45:20.821" style="s2">相 应 人 证。 下 次 开 庭， 若 无 关 键 人 证 出 庭， 本 庭 将</p>
+<p begin="00:45:18.921" end="00:45:21.721" style="s2">依 法 驳 回 你 的 所 有 诉 求。</p>
+<p begin="00:45:20.821" end="00:45:24.021" style="s2">&gt;&gt; 我 明 白。</p>
+<p begin="00:45:21.721" end="00:45:26.321" style="s2">开 庭 之 日， 人 证 必 到。</p>
+<p begin="00:45:24.021" end="00:45:26.321" style="s2">林 书，</p>
+<p begin="00:45:26.421" end="00:45:30.421" style="s2">你 以 为 凭 你 那 点 小 聪 明 就 能 掀 翻 我 20 年 攒 下 的</p>
+<p begin="00:45:28.921" end="00:45:33.121" style="s2">基 业 吗？</p>
+<p begin="00:45:30.421" end="00:45:36.621" style="s2">你 信 不 信 我 在 这 座 城 市 攒 下 的 真 金 白 银 结 交 的</p>
+<p begin="00:45:33.121" end="00:45:39.321" style="s2">全 富 人 脉 能 把 你 和 你 那个 疯 子 妈 再 送 进 精 神 病 院</p>
+<p begin="00:45:36.621" end="00:45:42.721" style="s2">100 次？ 我 今 天 把 话 放 在 这，</p>
+<p begin="00:45:39.321" end="00:45:46.021" style="s2">只 要 我 洪 素 梅 还 喘 着 气 儿， 权 势 上 下， 绝 不 会 有</p>
+<p begin="00:45:42.721" end="00:45:49.821" style="s2">任 何 一 个 人 敢 踏 进 法 庭 为 你 作 证。 我 也 告 诉 你，</p>
+<p begin="00:45:46.021" end="00:45:52.521" style="s2">我 会 将 你 所 有 引 以 为 傲 的 地 位、 财 富</p>
+<p begin="00:45:49.821" end="00:45:54.121" style="s2">&gt;&gt; 这 是 根 据 你 告 诉 我 的 信 息， 我 查 到 的 当 年 私 立 诊</p>
+<p begin="00:45:52.521" end="00:45:56.921" style="s2">所 的 相 关 支 援 资 料。</p>
+<p begin="00:45:54.121" end="00:46:00.421" style="s2">其 中 这 个 李 明 是 当 年 经 手 你 妈 妈 所 在 的 私 立 诊</p>
+<p begin="00:45:56.921" end="00:46:04.921" style="s2">所 的 工 作 人 员。 如 果 他 能 出 庭 作 证， 说 出 当 年 的</p>
+<p begin="00:46:00.421" end="00:46:07.521" style="s2">真 相， 对 于 他 的 打 击 将 会 非 常 大。 但 赵 洪 两 家 的</p>
+<p begin="00:46:04.921" end="00:46:09.121" style="s2">势 力 太 大， 他 们 可 能 不 会 愿 意。</p>
+<p begin="00:46:07.521" end="00:46:11.021" style="s2">&gt;&gt; 无 论 怎 么 样，</p>
+<p begin="00:46:09.121" end="00:46:14.821" style="s2">我 都 要 去 试 一 试。</p>
+<p begin="00:46:11.021" end="00:46:14.821" style="s2">我 一 定 要 彻 底 将 这 个 骗 子 击 垮。</p>
+<p begin="00:46:18.821" end="00:46:22.472" style="s2">&gt;&gt; 你， 我 不 认 识 你， 走。</p>
+<p begin="00:46:20.321" end="00:46:23.321" style="s2">&gt;&gt; 李 明，</p>
+<p begin="00:46:22.472" end="00:46:26.921" style="s2">[gasps]</p>
+<p begin="00:46:23.321" end="00:46:30.621" style="s2">我 知 道 你 认 出 我 了。 求 您 开 开 门， 只 要 您 上 庭 说</p>
+<p begin="00:46:26.921" end="00:46:32.121" style="s2">出 真 相， 证 明 我 妈 当 年 是 被 强 行 送 进 去 的 就 行。</p>
+<p begin="00:46:30.621" end="00:46:34.021" style="s2">&gt;&gt; 林 小 姐，</p>
+<p begin="00:46:32.121" end="00:46:37.121" style="s2">你 走 吧。</p>
+<p begin="00:46:34.021" end="00:46:41.221" style="s2">算 我 求 求 你 了。</p>
+<p begin="00:46:37.121" end="00:46:42.621" style="s2">这 是 他 们 昨 晚 派 人 送 来 的 封 口 费。 我 不 要 了，</p>
+<p begin="00:46:41.221" end="00:46:46.621" style="s2">我 都 给 你。</p>
+<p begin="00:46:42.621" end="00:46:47.921" style="s2">&gt;&gt; 他 说 了， 我 要 是 敢 踏 进 法 庭 半 步， 我 孙 子 就 会 人</p>
+<p begin="00:46:46.621" end="00:46:48.821" style="s2">间 蒸 发。</p>
+<p begin="00:46:47.921" end="00:46:52.321" style="s2">&gt;&gt; 李 明，</p>
+<p begin="00:46:48.821" end="00:46:53.621" style="s2">别 怕， 我 可 以 为 你 和 小 孙 子 申 请 人 身 安 全 保 护。</p>
+<p begin="00:46:52.321" end="00:46:55.721" style="s2">&gt;&gt; 没 用 的，</p>
+<p begin="00:46:53.621" end="00:46:57.223" style="s2">他 们 势 力 太 大 了。</p>
+<p begin="00:46:55.721" end="00:46:59.523" style="s2">昨 天</p>
+<p begin="00:46:57.223" end="00:46:59.523" style="s2">他 们</p>
+<p begin="00:47:13.122" end="00:47:19.823" style="s2">&gt;&gt; All hail THE SACRED WOLF KING. ALL HAIL</p>
+<p begin="00:47:16.122" end="00:47:19.823" style="s2">THE SACRED WOLF QUEEN.</p>
+<p begin="00:47:25.723" end="00:47:29.023" style="s2">IT&#39;S OKAY, WE&#39;RE SAVED.</p>
+<p begin="00:47:30.922" end="00:47:33.723" style="s2">Who did this?</p>
+<p begin="00:47:36.523" end="00:47:42.922" style="s2">&gt;&gt; Sir Sacred Wolf King, it was me.</p>
+<p begin="00:47:39.523" end="00:47:45.323" style="s2">It was my idea.</p>
+<p begin="00:47:42.922" end="00:47:47.523" style="s2">&gt;&gt; I led the army to arrest people. I alone</p>
+<p begin="00:47:45.323" end="00:47:49.023" style="s2">commanded the entire operation. You will</p>
+<p begin="00:47:47.523" end="00:47:52.122" style="s2">soon be able to successfully complete</p>
+<p begin="00:47:49.023" end="00:47:54.622" style="s2">the mission of the Sacred Wolf Clan.</p>
+<p begin="00:47:52.122" end="00:47:55.523" style="s2">&gt;&gt; Obviously, I thought of the plan first.</p>
+<p begin="00:47:54.622" end="00:47:58.223" style="s2">&gt;&gt; You couldn&#39;t have done it without me</p>
+<p begin="00:47:55.523" end="00:47:58.223" style="s2">grabbing people.</p>
+<p begin="00:48:14.122" end="00:48:16.323" style="s2">&gt;&gt; Oh, Thomas Wayne Wayne.</p>
+<p begin="00:48:15.323" end="00:48:18.422" style="s2">&gt;&gt; I JUST SAW IT, YOU.</p>
+<p begin="00:48:16.323" end="00:48:18.422" style="s2">&gt;&gt; NO.</p>
+<p begin="00:48:31.223" end="00:48:36.523" style="s2">&gt;&gt; 这 么 多 年， 他 有 再 一 次 跳 过 那 一 只 舞 吗？ 他 有 亲</p>
+<p begin="00:48:34.023" end="00:48:40.122" style="s2">自 教 导 过 洪 若 雪 跳 那 只 舞 吗？</p>
+<p begin="00:48:36.523" end="00:48:42.922" style="s2">&gt;&gt; 老 公， 你 别 听 他 胡 说 八 道， 他 在 挑 拨 离 间。</p>
+<p begin="00:48:40.122" end="00:48:44.922" style="s2">&gt;&gt; 死 到 临 头， 你 还 在 污 蔑 我 的 妻 子 和 女 儿， 那 就 别</p>
+<p begin="00:48:42.922" end="00:48:48.422" style="s2">怪 我。</p>
+<p begin="00:48:44.922" end="00:48:51.523" style="s2">&gt;&gt; 住 手， 我 手 机 的 录 像 视 频 会 实 时 同 步 到 云 端。 只</p>
+<p begin="00:48:48.422" end="00:48:55.422" style="s2">要 今 晚 我 在 这 条 巷 子 里 出 了 一 点 事， 我 保 证 明 天</p>
+<p begin="00:48:51.523" end="00:48:59.422" style="s2">一 早， 你 们 赵 家 仗 势 欺 人 绑 架 威 胁 的 视 频 就 会 传</p>
+<p begin="00:48:55.422" end="00:49:01.724" style="s2">遍 全 网。 您 是 聪 明 人， 为 为 个 满 嘴 谎 言 的 骗 子 搭</p>
+<p begin="00:48:59.422" end="00:49:02.524" style="s2">上 您 整 个 赵 氏 家 族 的 名 誉， 值 得 吗？</p>
+<p begin="00:49:01.724" end="00:49:06.024" style="s2">&gt;&gt; 闭 嘴！</p>
+<p begin="00:49:02.524" end="00:49:09.724" style="s2">&gt;&gt; 您 女 儿 下 毒 害 人， 该 接 受 法 律 的 惩 罚， 你 现 在 盲</p>
+<p begin="00:49:06.024" end="00:49:13.424" style="s2">目 包 庇 她， 迟 早 会 酿 成 毁 家 灭 族 的 大 祸。 我 没 记</p>
+<p begin="00:49:09.724" end="00:49:17.024" style="s2">错 的 话， 赵 氏 集 团 现 在 正 在 谈 一 笔 跨 国 融 资 吧，</p>
+<p begin="00:49:13.424" end="00:49:18.124" style="s2">要 是 这 个 时 候 出 了 岔 子， 您 在 赵 家 的 日 子 怕 是 也</p>
+<p begin="00:49:17.024" end="00:49:21.124" style="s2">不 会 好 过。</p>
+<p begin="00:49:18.124" end="00:49:22.124" style="s2">&gt;&gt; 贱 人！ 还 闭 嘴！</p>
+<p begin="00:49:21.124" end="00:49:23.924" style="s2">&gt;&gt; 老 公，</p>
+<p begin="00:49:22.124" end="00:49:25.124" style="s2">你 会 真 信 她 说 的 话 吧？</p>
+<p begin="00:49:23.924" end="00:49:26.724" style="s2">她 在 迷 惑 你。</p>
+<p begin="00:49:25.124" end="00:49:30.024" style="s2">&gt;&gt; 她 录 像 了，</p>
+<p begin="00:49:26.724" end="00:49:30.024" style="s2">我 不 能 拿 整 个 赵 家 去 赌。</p>
+<p begin="00:49:30.524" end="00:49:34.624" style="s2">我 们 走。</p>
+<p begin="00:49:31.424" end="00:49:38.024" style="s2">&gt;&gt; 老 公， 谅 解 书 她 还 没 给， 不 能 就 这 么 放 过 她。</p>
+<p begin="00:49:34.624" end="00:49:40.524" style="s2">&gt;&gt; 谁 让 你 不 把 弱 雪 教 育 好， 事 已 至 此。</p>
+<p begin="00:49:38.024" end="00:49:43.724" style="s2">你 想 让 我 赵 家 给 垫 背 吗？ 上 车！</p>
+<p begin="00:49:40.524" end="00:49:45.724" style="s2">&gt;&gt; 你 等 着， 贱 人， 我 会 放 过 你 的。</p>
+<p begin="00:49:43.724" end="00:49:47.324" style="s2">我 一 定 会 让 你 心 甘 情 愿 交 出 谅 解 书。</p>
+<p begin="00:49:45.724" end="00:49:52.124" style="s2">&gt;&gt; 你 看， 这 些 证 据</p>
+<p begin="00:49:47.324" end="00:49:52.124" style="s2">&gt;&gt; 你 走 吧。 洪 家 和 赵 家 我 们 惹 不 起， 别 再 来 了。</p>
+<p begin="00:49:59.724" end="00:50:03.124" style="s2">&gt;&gt; 小 叔，</p>
+<p begin="00:50:00.824" end="00:50:06.224" style="s2">别 查 了， 别 查 了。</p>
+<p begin="00:50:03.124" end="00:50:09.324" style="s2">&gt;&gt; 妈， 我 没 事， 今 天 就 是 跑 的 路 有 点 多。</p>
+<p begin="00:50:06.224" end="00:50:11.524" style="s2">&gt;&gt; 妈 看 到 你 为 了 我， 去 求 那 些 人，</p>
+<p begin="00:50:09.324" end="00:50:15.524" style="s2">去 给 人 家 低 头，</p>
+<p begin="00:50:11.524" end="00:50:19.524" style="s2">他 们 还 是 不 愿 意， 妈 心 疼。 他 们 有 钱 有 势 我 们 都</p>
+<p begin="00:50:15.524" end="00:50:22.424" style="s2">不 过 的， 妈 已 经 是 个 废 人 了， 不 能 再 把 你 的 一 辈</p>
+<p begin="00:50:19.524" end="00:50:25.524" style="s2">子 也 搭 进 去。 我 们 放 弃 吧。</p>
+<p begin="00:50:22.424" end="00:50:26.524" style="s2">只 要 你 好 好 的， 妈 什 么 都 不 争 了。</p>
+<p begin="00:50:25.524" end="00:50:30.024" style="s2">&gt;&gt; 放 弃？</p>
+<p begin="00:50:26.524" end="00:50:33.724" style="s2">我 们 为 什 么 要 放 弃？ 做 错 事 的 是 她， 凭 什 么 小 偷</p>
+<p begin="00:50:30.024" end="00:50:37.124" style="s2">高 高 在 上， 受 害 者 却 要 像 老 鼠 一 样 东 躲 藏？</p>
+<p begin="00:50:33.724" end="00:50:38.724" style="s2">妈， 她 能 买 断 过 去 知 情 人 的 嘴， 是 因 为 那 些 人 是</p>
+<p begin="00:50:37.124" end="00:50:41.024" style="s2">旁 观 者。</p>
+<p begin="00:50:38.724" end="00:50:43.524" style="s2">旁 观 者 怕 引 火 烧 身，</p>
+<p begin="00:50:41.024" end="00:50:46.524" style="s2">但 受 害 者 不 会。</p>
+<p begin="00:50:43.524" end="00:50:50.524" style="s2">既 然 过 去 的 旧 账 旁 观 者 不 感 恩， 那 我 就 改 变 策</p>
+<p begin="00:50:46.524" end="00:50:53.724" style="s2">略。 照 旧 20 年 来， 他 横 行 霸 道， 毁 掉 的 其 他 受 害</p>
+<p begin="00:50:50.524" end="00:50:55.224" style="s2">者 一 个 人 发 不 出 声 音， 那 我 就 把 所 有 被 她 踩 碎 的</p>
+<p begin="00:50:53.724" end="00:50:58.124" style="s2">受 害 者 聚 在 一 起。</p>
+<p begin="00:50:55.224" end="00:51:01.424" style="s2">我 要 成 立 破 小 互 助 会， 寻 找 这 20 年 所 有 被 她 欺</p>
+<p begin="00:50:58.124" end="00:51:06.924" style="s2">压 过 的 人。 在 开 庭 那 天， 我 要 用 铁 证 把 她 的 罪 名</p>
+<p begin="00:51:01.424" end="00:51:06.924" style="s2">坐 实， 加 重 她 的 刑 罚， 让 她 为 她 做 的 一 切</p>
+<p begin="00:51:07.825" end="00:51:11.525" style="s2">you hate me for what happened to your</p>
+<p begin="00:51:09.225" end="00:51:13.725" style="s2">mother.</p>
+<p begin="00:51:11.525" end="00:51:16.125" style="s2">But her dying wish was for you to live</p>
+<p begin="00:51:13.725" end="00:51:16.125" style="s2">well.</p>
+<p begin="00:51:16.325" end="00:51:21.125" style="s2">Is killing your sister really how you</p>
+<p begin="00:51:18.425" end="00:51:21.125" style="s2">honor her memory?</p>
+<p begin="00:51:22.325" end="00:51:26.325" style="s2">I&#39;ve never seen a father so vile.</p>
+<p begin="00:51:25.025" end="00:51:28.625" style="s2">You&#39;d use Sylvia&#39;s birth mother to</p>
+<p begin="00:51:26.325" end="00:51:31.225" style="s2">threaten her?</p>
+<p begin="00:51:28.625" end="00:51:33.525" style="s2">&gt;&gt; Child, ignore what he says and follow</p>
+<p begin="00:51:31.225" end="00:51:35.125" style="s2">your heart.</p>
+<p begin="00:51:33.525" end="00:51:37.425" style="s2">If your mother knew that you suffered so</p>
+<p begin="00:51:35.125" end="00:51:38.325" style="s2">much after she left, she would be very</p>
+<p begin="00:51:37.425" end="00:51:42.525" style="s2">heartbroken.</p>
+<p begin="00:51:38.325" end="00:51:45.125" style="s2">&gt;&gt; Sylvia, enough. I&#39;m your father.</p>
+<p begin="00:51:42.525" end="00:51:47.925" style="s2">I raised you.</p>
+<p begin="00:51:45.125" end="00:51:50.625" style="s2">Are you really</p>
+<p begin="00:51:47.925" end="00:51:54.125" style="s2">going to defy me?</p>
+<p begin="00:51:50.625" end="00:51:54.125" style="s2">&gt;&gt; Get up. I&#39;ll let you go this time.</p>
+<p begin="00:51:55.525" end="00:51:59.145" style="s2">Stay away from us in the future. Don&#39;t</p>
+<p begin="00:51:57.125" end="00:52:01.165" style="s2">come to trouble again.</p>
+<p begin="00:51:59.145" end="00:52:01.165" style="s2">[gasps]</p>
+<p begin="00:52:01.625" end="00:52:04.725" style="s2">This is the last time.</p>
+<p begin="00:52:06.125" end="00:52:10.325" style="s2">&gt;&gt; Kids, they don&#39;t give up.</p>
+<p begin="00:52:08.825" end="00:52:12.125" style="s2">&gt;&gt; I know.</p>
+<p begin="00:52:10.325" end="00:52:14.625" style="s2">Consider this my final debt paid to the</p>
+<p begin="00:52:12.125" end="00:52:16.325" style="s2">man who raised me.</p>
+<p begin="00:52:14.625" end="00:52:19.225" style="s2">If there&#39;s a next time,</p>
+<p begin="00:52:16.325" end="00:52:19.225" style="s2">I won&#39;t hold back.</p>
+<p begin="00:52:33.625" end="00:52:37.525" style="s2">&gt;&gt; These two are my honored guests of the</p>
+<p begin="00:52:35.525" end="00:52:39.101" style="s2">Sacred Wolf clan.</p>
+<p begin="00:52:37.525" end="00:52:40.725" style="s2">That&#39;s all for today.</p>
+<p begin="00:52:39.101" end="00:52:42.625" style="s2">[snorts] Whoever dares to disrespect</p>
+<p begin="00:52:40.725" end="00:52:44.925" style="s2">them again is an enemy of our Sacred</p>
+<p begin="00:52:42.625" end="00:52:44.925" style="s2">Wolf.</p>
+<p begin="00:52:49.725" end="00:52:54.025" style="s2">&gt;&gt; I had no idea you knew someone so</p>
+<p begin="00:52:51.425" end="00:52:54.025" style="s2">important.</p>
+<p begin="00:52:54.525" end="00:52:58.625" style="s2">This kid used to help with the cooking</p>
+<p begin="00:52:55.925" end="00:52:59.925" style="s2">at our house and he was very good at it.</p>
+<p begin="00:52:58.625" end="00:53:02.425" style="s2">We have always regarded him as our</p>
+<p begin="00:52:59.925" end="00:53:02.425" style="s2">junior.</p>
+<p begin="00:53:04.125" end="00:53:08.927" style="s2">So that&#39;s it.</p>
+<p begin="00:53:05.525" end="00:53:08.927" style="s2">Thank you to the Queen of Wolves today.</p>
+<p begin="00:53:11.127" end="00:53:16.327" style="s2">&gt;&gt; You can&#39;t come back for the time being.</p>
+<p begin="00:53:13.327" end="00:53:18.727" style="s2">Continue to conceal your identity.</p>
+<p begin="00:53:16.327" end="00:53:18.727" style="s2">&gt;&gt; I see.</p>
+<p begin="00:53:22.727" end="00:53:27.727" style="s2">&gt;&gt; Next time don&#39;t even think about being</p>
+<p begin="00:53:24.427" end="00:53:27.727" style="s2">the king of your kingdom.</p>
+<p begin="00:53:28.027" end="00:53:33.027" style="s2">&gt;&gt; Yes. We promise it won&#39;t happen again.</p>
+<p begin="00:53:43.427" end="00:53:47.827" style="s2">&gt;&gt; You&#39;ve been constantly dizzy these past</p>
+<p begin="00:53:45.027" end="00:53:50.527" style="s2">two days, so I called in a doctor</p>
+<p begin="00:53:47.827" end="00:53:50.527" style="s2">to examine you.</p>
+<p begin="00:53:52.827" end="00:53:58.127" style="s2">Doctor, what&#39;s wrong with her?</p>
+<p begin="00:53:55.227" end="00:53:58.127" style="s2">Is it anything serious?</p>
+<p begin="00:54:02.327" end="00:54:07.227" style="s2">&gt;&gt; Congratulations to both of you.</p>
+<p begin="00:54:04.627" end="00:54:09.827" style="s2">Her body is fine.</p>
+<p begin="00:54:07.227" end="00:54:09.827" style="s2">She&#39;s pregnant.</p>
+<p begin="00:54:10.147" end="00:54:12.167" style="s2">&gt;&gt; [sighs and gasps]</p>
+<p begin="00:54:27.527" end="00:54:30.327" style="s2">&gt;&gt; What&#39;s wrong with you?</p>
+<p begin="00:54:30.452" end="00:54:32.627" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:54:30.927" end="00:54:35.127" style="s2">&gt;&gt; I&#39;m so stupid that I don&#39;t even know</p>
+<p begin="00:54:32.627" end="00:54:35.127" style="s2">you&#39;re pregnant</p>
+<p begin="00:54:37.527" end="00:54:40.627" style="s2">and let you go through such dangerous</p>
+<p begin="00:54:39.027" end="00:54:42.927" style="s2">things.</p>
+<p begin="00:54:40.627" end="00:54:44.862" style="s2">It&#39;s all my fault.</p>
+<p begin="00:54:42.927" end="00:54:46.882" style="s2">I didn&#39;t protect you.</p>
+<p begin="00:54:44.862" end="00:54:46.882" style="s2">&gt;&gt; [sighs and gasps]</p>
+<p begin="00:54:52.627" end="00:54:55.827" style="s2">&gt;&gt; It&#39;s not your fault. We can&#39;t foresee</p>
+<p begin="00:54:54.327" end="00:54:57.927" style="s2">the future.</p>
+<p begin="00:54:55.827" end="00:55:00.427" style="s2">Besides the child is fine. Don&#39;t blame</p>
+<p begin="00:54:57.927" end="00:55:00.427" style="s2">yourself.</p>
+<p begin="00:55:01.427" end="00:55:04.327" style="s2">&gt;&gt; Don&#39;t worry.</p>
+<p begin="00:55:02.527" end="00:55:07.928" style="s2">I&#39;ll take good care of you and our child</p>
+<p begin="00:55:04.327" end="00:55:07.928" style="s2">and never put you in in danger again.</p>
+<p begin="00:55:49.053" end="00:55:51.073" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:57:17.729" end="00:57:20.829" style="s2">&gt;&gt; Excuse me, but we&#39;re closed now. If you</p>
+<p begin="00:57:19.529" end="00:57:23.229" style="s2">want to grab a bite, please stop by</p>
+<p begin="00:57:20.829" end="00:57:23.229" style="s2">tomorrow.</p>
+<p begin="00:57:27.729" end="00:57:30.429" style="s2">What are you doing?</p>
+<p begin="00:57:32.629" end="00:57:36.529" style="s2">Long time no see, my dear nephew.</p>
+<p begin="00:58:14.329" end="00:58:19.129" style="s2">&gt;&gt; 洪 苏 梅</p>
+<p begin="00:58:15.829" end="00:58:22.729" style="s2">你 的 黑 手 遮 不 住 天， 停止 你 上 不 了 台 面 的 手 段 吧，</p>
+<p begin="00:58:19.129" end="00:58:22.729" style="s2">有 种 我们 法 庭 见。</p>
+<p begin="00:58:30.129" end="00:58:35.129" style="s2">&gt;&gt; 周 律 师， 看 来 这 次 开 庭 你 得 准 备</p>
+<p begin="00:59:13.031" end="00:59:16.831" style="s2">&gt;&gt; 我 出 去 一 下。</p>
+<p begin="00:59:15.531" end="00:59:17.831" style="s2">&gt;&gt; 黎 明。</p>
+<p begin="00:59:16.831" end="00:59:22.031" style="s2">你 愿 意 来 了。</p>
+<p begin="00:59:17.831" end="00:59:24.231" style="s2">&gt;&gt; 不 起。 当 年 的 事， 我 也 有 不 对， 所 以 今 天</p>
+<p begin="00:59:22.031" end="00:59:25.631" style="s2">我 来 赎 罪。</p>
+<p begin="00:59:24.231" end="00:59:26.831" style="s2">&gt;&gt; 这 些 都 是 当 年 的 知 情 人。</p>
+<p begin="00:59:25.631" end="00:59:29.331" style="s2">&gt;&gt; 你 说 的 对。</p>
+<p begin="00:59:26.831" end="00:59:33.031" style="s2">如 果 我 们 一 直 屈 服， 就 会 永 远 被 压 迫。</p>
+<p begin="00:59:29.331" end="00:59:33.731" style="s2">&gt;&gt; 对， 我 从 今 往 后 不 想 再 受 任 何 人 威 胁， 对。 我 们 愿</p>
+<p begin="00:59:33.031" end="00:59:36.831" style="s2">意 做 证。</p>
+<p begin="00:59:33.731" end="00:59:36.831" style="s2">&gt;&gt; 我 们 是 来 签 同 意 书 的。</p>
+<p begin="00:59:38.131" end="00:59:41.231" style="s2">&gt;&gt; 小 雅。</p>
+<p begin="00:59:39.031" end="00:59:42.231" style="s2">你 曾 经 签 约 过 鸿 世 集 团 的 舞 蹈 合 约 吗？</p>
+<p begin="00:59:41.231" end="00:59:45.031" style="s2">&gt;&gt; 嗯。</p>
+<p begin="00:59:42.231" end="00:59:45.931" style="s2">&gt;&gt; 但 是 三 年 前 我 就 因 为 腿 伤 退 圈 了， 再 也 没 有 参 加</p>
+<p begin="00:59:45.031" end="00:59:48.831" style="s2">过 任 何 商 演。</p>
+<p begin="00:59:45.931" end="00:59:51.231" style="s2">&gt;&gt; 那 为 什 么 鸿 世 旗 下 的 艺 术 基 金 会 每 个 月 都 有 一</p>
+<p begin="00:59:48.831" end="00:59:53.931" style="s2">笔 高 达 30 万 的 独 舞 演 出 费。</p>
+<p begin="00:59:51.231" end="00:59:55.991" style="s2">打 进 了 你 的 身 份 证 开 的 银 行 账 户 里。</p>
+<p begin="00:59:53.931" end="00:59:59.331" style="s2">&gt;&gt; 不 可 能。</p>
+<p begin="00:59:55.991" end="01:00:00.531" style="s2">[gasps] 我 根 本 就 没 有 这 张 卡。</p>
+<p begin="00:59:59.331" end="01:00:03.231" style="s2">我 知 道 了。</p>
+<p begin="01:00:00.531" end="01:00:04.931" style="s2">我 的 身 份 证 当 年 被 他 们 强 行 扣 留 过 一 段 时 间， 肯</p>
+<p begin="01:00:03.231" end="01:00:06.131" style="s2">定 是 那 个 时 候。</p>
+<p begin="01:00:04.931" end="01:00:08.231" style="s2">虚 构 商 演。</p>
+<p begin="01:00:06.131" end="01:00:11.131" style="s2">伪 造 款 项 发 放。</p>
+<p begin="01:00:08.231" end="01:00:12.631" style="s2">套 用 退 圈 舞 者 的 身 份 开 设 空 壳 账 户， 这 根 本 不 是</p>
+<p begin="01:00:11.131" end="01:00:13.431" style="s2">正 常 的 交 易。</p>
+<p begin="01:00:12.631" end="01:00:14.231" style="s2">&gt;&gt; 这</p>
+<p begin="01:00:13.431" end="01:00:15.231" style="s2">这 是 洗 钱？</p>
+<p begin="01:00:14.231" end="01:00:17.531" style="s2">&gt;&gt; 没 错。</p>
+<p begin="01:00:15.231" end="01:00:20.431" style="s2">贾 鸿 苏 梅 不 仅 偷 人 成 绩。</p>
+<p begin="01:00:17.531" end="01:00:22.131" style="s2">她 还 在 利 用 这 个 挂 牌 的 艺 术 基 金 会 替 背 后 的 资</p>
+<p begin="01:00:20.431" end="01:00:24.831" style="s2">本 洗 黑 钱。</p>
+<p begin="01:00:22.131" end="01:00:25.631" style="s2">难 怪 她 这 么 有 恃 无 恐。 原 来 她 手 里 有 地 下 黑 产 撑</p>
+<p begin="01:00:24.831" end="01:00:27.731" style="s2">腰。</p>
+<p begin="01:00:25.631" end="01:00:28.831" style="s2">我 们 联 合 举 报 内 容 又 多 一 条 了。</p>
+<p begin="01:00:27.731" end="01:00:31.731" style="s2">这 一 次</p>
+<p begin="01:00:28.831" end="01:00:32.931" style="s2">我 不 但 要 让 所 有 真 相 都 大 白， 我 还 要 把 她 身 后 的</p>
+<p begin="01:00:31.731" end="01:00:35.531" style="s2">整 个 黑 产</p>
+<p begin="01:00:32.931" end="01:00:39.031" style="s2">全 部 连 根 拔 起。</p>
+<p begin="01:00:35.531" end="01:00:42.531" style="s2">洗 钱 是 重 罪， 证 据 链 必 须 完 整。</p>
+<p begin="01:00:39.031" end="01:00:44.331" style="s2">我 现 在 就 去 经 侦 局 提 交 线 索。 申 请 立 案 侦 查。 但</p>
+<p begin="01:00:42.531" end="01:00:47.931" style="s2">只 要 立 案 的 消 息 一 走 漏</p>
+<p begin="01:00:44.331" end="01:00:47.931" style="s2">她 绝 对 会 第 一 时 间 销 毁 账。</p>
+<p begin="01:00:48.431" end="01:00:52.331" style="s2">&gt;&gt; 账 本 一 烧 我 们 就 死 无 对 证 了。</p>
+<p begin="01:00:53.131" end="01:00:56.531" style="s2">&gt;&gt; 我 不 听 解 释。</p>
+<p begin="01:00:54.431" end="01:00:58.131" style="s2">赶 紧 把 这 撤 下 来。</p>
+<p begin="01:00:56.531" end="01:01:00.431" style="s2">&gt;&gt; 鸿 董， 不 好 了。</p>
+<p begin="01:00:58.131" end="01:01:03.231" style="s2">刚 刚 技 术 部 的 监 控 系 统 发 出 警 报。</p>
+<p begin="01:01:00.431" end="01:01:07.231" style="s2">有 人 在 查 询 艺 术 基 金 会 近 十 年 的 银 行 流 水。 还</p>
+<p begin="01:01:03.231" end="01:01:08.831" style="s2">有， 一 直 跟 着 黎 叔 的 人 说 黎 叔 进 了 调 查 部 门。</p>
+<p begin="01:01:07.231" end="01:01:12.031" style="s2">&gt;&gt; 调 查 部 门？</p>
+<p begin="01:01:08.831" end="01:01:15.031" style="s2">他 们 怎 么 查 到 那 里？ 难 道 黎 叔 那 个 贱 人。</p>
+<p begin="01:01:12.031" end="01:01:16.732" style="s2">&gt;&gt; 她 上 一 秒 去， 下 一 秒 你 的 公 司 就 被 查。</p>
+<p begin="01:01:15.031" end="01:01:19.332" style="s2">看 来 她 一 定 拿 到 什 么 证 据 了。</p>
+<p begin="01:01:16.732" end="01:01:22.732" style="s2">&gt;&gt; 让 王 海 马 上 来 见 我， 立 刻。</p>
+<p begin="01:01:19.332" end="01:01:22.732" style="s2">想 办 法 把 这 些 跟 我 撇 清 关 系。</p>
+<p begin="01:01:22.932" end="01:01:26.532" style="s2">素 梅，</p>
+<p begin="01:01:23.732" end="01:01:27.832" style="s2">万 一 黎 叔 他 们 真 的 查 到 洪 氏 洗 钱 的 事，</p>
+<p begin="01:01:26.532" end="01:01:31.332" style="s2">我 就 完 了。</p>
+<p begin="01:01:27.832" end="01:01:32.832" style="s2">只 要 你 开 口， 凭 赵 家 的 人 脉， 一 定 能 压 下 来。 你 帮</p>
+<p begin="01:01:31.332" end="01:01:33.732" style="s2">帮 我。</p>
+<p begin="01:01:32.832" end="01:01:35.332" style="s2">&gt;&gt; 洪 素 梅，</p>
+<p begin="01:01:33.732" end="01:01:38.832" style="s2">你 是 不 是 疯 了？</p>
+<p begin="01:01:35.332" end="01:01:40.432" style="s2">要 是 你 真 的 被 查 到 这 种 经 济 重 罪， 谁 敢 压？</p>
+<p begin="01:01:38.832" end="01:01:41.832" style="s2">整 个 赵 家 都 会 被 你 拖 下 水。</p>
+<p begin="01:01:40.432" end="01:01:44.732" style="s2">&gt;&gt; 可 我 是 你 老 婆 啊。</p>
+<p begin="01:01:41.832" end="01:01:47.732" style="s2">&gt;&gt; 正 因 为 你 是 老 婆， 和 我 关 联 紧 密， 我 才 不 能 让 你</p>
+<p begin="01:01:44.732" end="01:01:49.232" style="s2">们 毁 了 赵 家 的 百 年 基 业。 现 在 唯 一 的 路</p>
+<p begin="01:01:47.732" end="01:01:51.732" style="s2">就 是 走。</p>
+<p begin="01:01:49.232" end="01:01:52.932" style="s2">你 拿 着 这 些 现 金 上 路。</p>
+<p begin="01:01:51.732" end="01:01:55.632" style="s2">只 要 人 不 在 了，</p>
+<p begin="01:01:52.932" end="01:01:55.632" style="s2">有 些 事 还 能 推 脱。</p>
+<p begin="01:01:55.932" end="01:02:00.432" style="s2">&gt;&gt; 王 海，</p>
+<p begin="01:01:57.132" end="01:02:01.532" style="s2">艺 术 基 金 会 的 账 一 直 都 是 你 亲 手 做 的 吧？</p>
+<p begin="01:02:00.432" end="01:02:02.632" style="s2">&gt;&gt; 洪 董，</p>
+<p begin="01:02:01.532" end="01:02:05.832" style="s2">我</p>
+<p begin="01:02:02.632" end="01:02:05.832" style="s2">我 一 直 都 是 按 您 的 吩 咐 做 的。</p>
+<p begin="01:02:07.632" end="01:02:12.932" style="s2">&gt;&gt; 我 知 道。</p>
+<p begin="01:02:08.732" end="01:02:14.532" style="s2">现 在 外 面 风 声 紧， 现 在 相 关 部 门 正 在 查， 这 笔 账</p>
+<p begin="01:02:12.932" end="01:02:15.432" style="s2">你 先 帮 我 顶 一 顶。</p>
+<p begin="01:02:14.532" end="01:02:18.232" style="s2">&gt;&gt; 洪 董，</p>
+<p begin="01:02:15.432" end="01:02:18.232" style="s2">那 可 是 几 个 亿。</p>
+<p begin="01:02:19.032" end="01:02:24.732" style="s2">&gt;&gt; 烧 得 这 么 急， 王 总 监， 是 在 赶 着 给 自 己 烧 纸 钱 吗？</p>
+<p begin="01:02:23.432" end="01:02:26.432" style="s2">&gt;&gt; 黎 叔，</p>
+<p begin="01:02:24.732" end="01:02:27.732" style="s2">你 怎 么 进 来 的？ 你 别 过 来。</p>
+<p begin="01:02:26.432" end="01:02:29.532" style="s2">&gt;&gt; 你 现 在 烧 的</p>
+<p begin="01:02:27.732" end="01:02:30.532" style="s2">是 洪 素 梅 洗 钱 的 账 册 吧？</p>
+<p begin="01:02:29.532" end="01:02:31.432" style="s2">&gt;&gt; 不，</p>
+<p begin="01:02:30.532" end="01:02:32.732" style="s2">不 是，</p>
+<p begin="01:02:31.432" end="01:02:36.032" style="s2">就 是 普 通 的 废 纸 而 已。</p>
+<p begin="01:02:32.732" end="01:02:37.132" style="s2">&gt;&gt; 你 知 道 你 现 在 在 做 什 么 吗？ 你 在 把 自 己 往 死 路 上</p>
+<p begin="01:02:36.032" end="01:02:39.732" style="s2">送。</p>
+<p begin="01:02:37.132" end="01:02:43.532" style="s2">看 看 这 份 刚 从 工 商 局 系 统 里 拉 下 来 的 变 更 记 录</p>
+<p begin="01:02:39.732" end="01:02:45.032" style="s2">吧， 艺 术 基 金 会 的 法 定 代 表 人 已 经 从 洪 素 梅 变 更</p>
+<p begin="01:02:43.532" end="01:02:46.532" style="s2">成 了 你 王 海 的 名 字。</p>
+<p begin="01:02:45.032" end="01:02:47.732" style="s2">&gt;&gt; 我 是 法 人 又 怎 么 样？</p>
+<p begin="01:02:46.532" end="01:02:48.932" style="s2">一 切 本 来 都 是 我 做 的。</p>
+<p begin="01:02:47.732" end="01:02:51.532" style="s2">&gt;&gt; 蠢 货。</p>
+<p begin="01:02:48.932" end="01:02:54.232" style="s2">洗 钱 数 亿 是 会 判 死 刑 的。</p>
+<p begin="01:02:51.532" end="01:02:57.532" style="s2">洪 素 梅 连 夜 把 你 推 上 法 人 的 位 置， 就 是 在 拿 你 当</p>
+<p begin="01:02:54.232" end="01:02:59.932" style="s2">替 死 鬼。 你 在 这 里 辛 辛 苦 苦 替 他 烧 账 本 毁 证 据，</p>
+<p begin="01:02:57.532" end="01:03:01.332" style="s2">他 可 连 夜 给 自 己 买 好 了 往 国 外 的 船 票。</p>
+<p begin="01:02:59.932" end="01:03:03.932" style="s2">&gt;&gt; 不 可 能。</p>
+<p begin="01:03:01.332" end="01:03:05.432" style="s2">洪 董 说 了 会 保 我 的， 他 还 给 了 了 我 老 婆 孩 子</p>
+<p begin="01:03:03.932" end="01:03:07.332" style="s2">5000 万 的 安 家 费。</p>
+<p begin="01:03:05.432" end="01:03:10.732" style="s2">&gt;&gt; 骗 了 大 家 20 年 的 人，</p>
+<p begin="01:03:07.332" end="01:03:13.732" style="s2">嘴 里 有 一 句 实 话 吗？ 现 在 证 据 确 凿， 洪 氏 马 上 就</p>
+<p begin="01:03:10.732" end="01:03:17.132" style="s2">会 被 查 封。 你 现 在 烧 毁 的 不 仅 是 洪 素 梅 的 罪 证，</p>
+<p begin="01:03:13.732" end="01:03:20.132" style="s2">更 是 你 唯 一 能 向 警 方 争 取 重 大 立 功 表 现 的 筹 码。</p>
+<p begin="01:03:17.132" end="01:03:22.532" style="s2">账 本 一 烧， 你 就 是 唯 一 的 洗 钱 主 犯。</p>
+<p begin="01:03:20.132" end="01:03:22.532" style="s2">死 路 一 条。</p>
+<p begin="01:03:53.333" end="01:03:59.233" style="s2">&gt;&gt; Sister, it&#39;s been so long. Can&#39;t I come</p>
+<p begin="01:03:56.233" end="01:03:59.233" style="s2">over and catch up?</p>
+<p begin="01:04:01.433" end="01:04:04.633" style="s2">Move.</p>
+<p begin="01:04:02.833" end="01:04:07.233" style="s2">Who do you think you&#39;re ordering us</p>
+<p begin="01:04:04.633" end="01:04:10.033" style="s2">around?</p>
+<p begin="01:04:07.233" end="01:04:11.133" style="s2">This is the Sacred Wolf Palace, not your</p>
+<p begin="01:04:10.033" end="01:04:13.333" style="s2">kitchen.</p>
+<p begin="01:04:11.133" end="01:04:15.333" style="s2">&gt;&gt; This hall is full of nobles.</p>
+<p begin="01:04:13.333" end="01:04:16.533" style="s2">Even if King Carl and Queen Aleria</p>
+<p begin="01:04:15.333" end="01:04:18.433" style="s2">protect you,</p>
+<p begin="01:04:16.533" end="01:04:19.933" style="s2">you have no place here as the wife of a</p>
+<p begin="01:04:18.433" end="01:04:21.333" style="s2">lowly grey wolf.</p>
+<p begin="01:04:19.933" end="01:04:23.033" style="s2">&gt;&gt; If I can stand here, I have the</p>
+<p begin="01:04:21.333" end="01:04:24.433" style="s2">permission of King Carl and Queen</p>
+<p begin="01:04:23.033" end="01:04:27.533" style="s2">Aleria.</p>
+<p begin="01:04:24.433" end="01:04:27.533" style="s2">Why are you driving me away?</p>
+<p begin="01:04:27.933" end="01:04:33.033" style="s2">&gt;&gt; Where did you get this ruby necklace?</p>
+<p begin="01:04:31.133" end="01:04:35.133" style="s2">&gt;&gt; This is the treasure of the Sacred Wolf</p>
+<p begin="01:04:33.033" end="01:04:37.733" style="s2">Clan and will be passed on to the next</p>
+<p begin="01:04:35.133" end="01:04:37.733" style="s2">princess.</p>
+<p begin="01:04:38.733" end="01:04:44.733" style="s2">&gt;&gt; Why on you?</p>
+<p begin="01:04:41.333" end="01:04:47.933" style="s2">&gt;&gt; You stole the bride&#39;s necklace.</p>
+<p begin="01:04:44.733" end="01:04:49.733" style="s2">I knew you&#39;d steal from the Wolf Clans.</p>
+<p begin="01:04:47.933" end="01:04:52.433" style="s2">&gt;&gt; Even if the Saint Wolves were to protect</p>
+<p begin="01:04:49.733" end="01:04:54.033" style="s2">you, there would be no room for thieves.</p>
+<p begin="01:04:52.433" end="01:04:56.733" style="s2">Sylvia,</p>
+<p begin="01:04:54.033" end="01:04:56.733" style="s2">you&#39;re [ __ ]</p>
+<p begin="01:05:00.433" end="01:05:04.133" style="s2">&gt;&gt; 妈，</p>
+<p begin="01:05:01.233" end="01:05:06.733" style="s2">就 要 开 庭 了， 又 要 见 到 他 了， 你 害 怕 吗？</p>
+<p begin="01:05:04.133" end="01:05:09.533" style="s2">&gt;&gt; 有 你 在， 妈 不 怕。 小 叔，</p>
+<p begin="01:05:06.733" end="01:05:12.033" style="s2">没 有 你， 妈 妈 这 辈 子 就 这 样 了。</p>
+<p begin="01:05:09.533" end="01:05:14.233" style="s2">是 你 给 了 妈 妈 希 望。 这 次，</p>
+<p begin="01:05:12.033" end="01:05:18.733" style="s2">妈 不 会 拖 你 的 后 腿。 妈，</p>
+<p begin="01:05:14.233" end="01:05:18.733" style="s2">我 们 一 起 把 本 该 属 于 我 们 的 东 西 夺 回 来。</p>
+<p begin="01:05:19.433" end="01:05:22.035" style="s2">&gt;&gt; 小 叔，</p>
+<p begin="01:05:20.333" end="01:05:24.635" style="s2">我 找 到 一 个 关 键 性 的 证 据。</p>
+<p begin="01:05:22.035" end="01:05:27.635" style="s2">当 初 你 妈 妈 参 加 舞 蹈 比 赛 的 时 候， 有 人 偷 偷 的 录</p>
+<p begin="01:05:24.635" end="01:05:29.735" style="s2">像 了， 现 在 匿 名 发 给 我 了。 你 看 看。</p>
+<p begin="01:05:27.635" end="01:05:35.235" style="s2">&gt;&gt; 这 是 鉴 定 报 告。</p>
+<p begin="01:05:29.735" end="01:05:35.235" style="s2">&gt;&gt; 妈， 相 信 我， 明 天 过 后， 一 切 都 会 好 起 来。</p>
+<p begin="01:05:35.535" end="01:05:38.035" style="s2">&gt;&gt; 洪 素 梅，</p>
+<p begin="01:05:36.835" end="01:05:40.735" style="s2">我 倒 要 看 看，</p>
+<p begin="01:05:38.035" end="01:05:41.735" style="s2">看 到 这 个 视 频， 赵 石 东 还 会 不 会 保 你。</p>
+<p begin="01:05:40.735" end="01:05:45.735" style="s2">&gt;&gt; 世 寰，</p>
+<p begin="01:05:41.735" end="01:05:48.035" style="s2">求 求 你， 最 后 帮 帮 我 和 若 曦， 我 们 20 年 的 夫 妻 情</p>
+<p begin="01:05:45.735" end="01:05:49.435" style="s2">分， 要 是 我 真 的 出 事，</p>
+<p begin="01:05:48.035" end="01:05:52.535" style="s2">一 定 会 影 响 赵 家 的。</p>
+<p begin="01:05:49.435" end="01:05:55.435" style="s2">&gt;&gt; 明 天 开 庭， 这 是 我 最 后 一 次 保 你， 因 为 你 还 是 我</p>
+<p begin="01:05:52.535" end="01:05:56.635" style="s2">赵 石 涵 的 妻 子。</p>
+<p begin="01:05:55.435" end="01:06:01.135" style="s2">我 真 怀 疑，</p>
+<p begin="01:05:56.635" end="01:06:01.135" style="s2">这 样 的 你， 当 初 是 怎 么 能 跳 出 风 吹 白 杨 的。</p>
+<p begin="01:06:02.140" end="01:06:05.235" style="s2">&gt;&gt; [snorts]</p>
+<p begin="01:06:02.235" end="01:06:06.235" style="s2">&gt;&gt; 我 不 能 坐 牢， 你 必 须 帮 我 打 赢 这 场 官 司。</p>
+<p begin="01:06:05.235" end="01:06:10.135" style="s2">别 忘 了，</p>
+<p begin="01:06:06.235" end="01:06:11.535" style="s2">我 们 现 在 可 是 一 条 绳 上 的 蚂 蚱， 我 要 是 进 去 了，</p>
+<p begin="01:06:10.135" end="01:06:12.935" style="s2">你 必 须 好 过。</p>
+<p begin="01:06:11.535" end="01:06:14.535" style="s2">&gt;&gt; 你 确 定</p>
+<p begin="01:06:12.935" end="01:06:15.735" style="s2">你 交 给 我 的 所 有 证 据 都 是 真 的 吗？</p>
+<p begin="01:06:14.535" end="01:06:19.035" style="s2">&gt;&gt; 当 然 啦。</p>
+<p begin="01:06:15.735" end="01:06:22.735" style="s2">但 这 份 文 件， 万 不 得 已 绝 不 能 交 出 去。</p>
+<p begin="01:06:19.035" end="01:06:25.735" style="s2">一 旦 真 的 给 出 去， 世 寰 就 知 道 当 年 跳 白 杨 的 不 是</p>
+<p begin="01:06:22.735" end="01:06:28.535" style="s2">&gt;&gt; 林 舒， 请 问 今 天 的 恋 爱 调 查， 你 有 多 少 胜 算？</p>
+<p begin="01:06:25.735" end="01:06:30.035" style="s2">&gt;&gt; 洪 素 梅 女 士， 你 对 20 年 前 被 非 法 送 入 精 神 病 院</p>
+<p begin="01:06:28.535" end="01:06:33.435" style="s2">一 事 有 什 么 想 说 的？</p>
+<p begin="01:06:30.035" end="01:06:37.035" style="s2">&gt;&gt; 20 年 前， 我 19 岁， 我 凭 借 跳 了 10 年 的 舞 蹈 功</p>
+<p begin="01:06:33.435" end="01:06:40.335" style="s2">底， 拿 到 了 京 师 冠 军， 被 武 协 录 取， 我 以 为 我 的 人</p>
+<p begin="01:06:37.035" end="01:06:43.635" style="s2">生 会 像 我 的 舞 蹈 一 样 飞 起 来， 但 是 有 人 偷 走 了 我</p>
+<p begin="01:06:40.335" end="01:06:47.335" style="s2">的 一 切， 将 我 送 进 精 神 病 院， 整 整 三 年， 我 被 他 们</p>
+<p begin="01:06:43.635" end="01:06:51.035" style="s2">灌 药 折 磨， 他 们 说 我 疯 了， 但 我 知 道 我 没 有 疯。 今</p>
+<p begin="01:06:47.335" end="01:06:53.435" style="s2">天， 我 站 在 这 里 是 为 了 让 所 有 人 知 道， 20 年 前 那</p>
+<p begin="01:06:51.035" end="01:06:54.835" style="s2">个 被 关 进 精 神 病 院 的 女 孩，</p>
+<p begin="01:06:53.435" end="01:06:56.635" style="s2">没 有 疯。</p>
+<p begin="01:06:54.835" end="01:06:59.135" style="s2">我 不 会 再 躲 在 女 儿 的 身 后，</p>
+<p begin="01:06:56.635" end="01:07:00.035" style="s2">辜 负 我 女 儿 为 我 做 的 一 切 努 力。</p>
+<p begin="01:06:59.135" end="01:07:04.635" style="s2">今 天，</p>
+<p begin="01:07:00.035" end="01:07:04.635" style="s2">她 必 须 要 为 自 己 所 做 的 一 切 付 出 应 有 的 代 价。</p>
+<p begin="01:07:06.135" end="01:07:13.435" style="s2">&gt;&gt; 现 在 开 庭， 原 告 控 告 被 告 洪 素 梅 涉 嫌 身 份 造 假、</p>
+<p begin="01:07:10.035" end="01:07:14.435" style="s2">伪 造 证 据、 非 法 拘 禁 及 故 意 伤 害 等 多 项 罪 名。 被</p>
+<p begin="01:07:13.435" end="01:07:17.135" style="s2">告，</p>
+<p begin="01:07:14.435" end="01:07:18.135" style="s2">你 是 否 认 罪？</p>
+<p begin="01:07:17.135" end="01:07:20.935" style="s2">&gt;&gt; 法 官 大 人，</p>
+<p begin="01:07:18.135" end="01:07:25.036" style="s2">经 过 我 方 的 严 密 查 证 与 取 证， 针 对 原 告 的 所 有 指</p>
+<p begin="01:07:20.935" end="01:07:28.236" style="s2">控， 我 方 当 事 人 洪 素 梅 不 认 罪， 并 且 我 们 有 决 定</p>
+<p begin="01:07:25.036" end="01:07:32.036" style="s2">性 的 证 据 证 明， 我 方 当 事 人</p>
+<p begin="01:07:28.236" end="01:07:33.136" style="s2">法 官 大 人， 20 年 前 的 的 非 法 拘 禁 一 事 确 实 存 在。</p>
+<p begin="01:07:32.036" end="01:07:36.936" style="s2">&gt;&gt; 竟 然 承 认 了。</p>
+<p begin="01:07:33.136" end="01:07:40.836" style="s2">&gt;&gt; 但 是 这 一 切 的 始 作 俑 者， 这 一 切 罪 行 的 幕 后 黑 手</p>
+<p begin="01:07:36.936" end="01:07:43.836" style="s2">根 本 不 是 我 方 当 事 人， 而 是 他 的 父 亲 洪 建 国。 当</p>
+<p begin="01:07:40.836" end="01:07:47.036" style="s2">年 的 洪 苏 梅 只 是 一 个 刚 满 18 岁 不 知 世 事 的 柔 弱</p>
+<p begin="01:07:43.836" end="01:07:50.236" style="s2">少 女， 洪 建 国 为 了 让 我 的 当 事 人 为 家 族 添 光 一 手</p>
+<p begin="01:07:47.036" end="01:07:53.136" style="s2">策 划 了 顶 替 案， 并 强 行 囚 禁 了 原 告 的 母 亲。 我 方</p>
+<p begin="01:07:50.236" end="01:07:56.036" style="s2">当 事 人 当 年 完 全 被 蒙 在 鼓 里， 她 只 是 听 从 父 亲 的</p>
+<p begin="01:07:53.136" end="01:07:59.236" style="s2">安 排 去 学 校 报 到， 她 也 是 被 亲 生 父 亲 利 用 的 傀 儡</p>
+<p begin="01:07:56.036" end="01:08:00.436" style="s2">和 工 具 啊。 法 律 不 应 该 惩 罚 一 个 被 胁 迫 了 20 年</p>
+<p begin="01:07:59.236" end="01:08:01.536" style="s2">的 可 怜 人。</p>
+<p begin="01:08:00.436" end="01:08:03.036" style="s2">&gt;&gt; 杀 我！</p>
+<p begin="01:08:01.536" end="01:08:06.336" style="s2">你 杀 我！</p>
+<p begin="01:08:03.036" end="01:08:08.136" style="s2">当 年 明 明 就 是 他 偷 我 名 额 为 了 不 让 我 闹 主 动 把</p>
+<p begin="01:08:06.336" end="01:08:09.236" style="s2">我 送 进 精 神 病 院。</p>
+<p begin="01:08:08.136" end="01:08:12.936" style="s2">我 没 有！</p>
+<p begin="01:08:09.236" end="01:08:14.136" style="s2">把 所 有 的 罪 名 推 给 一 个 已 经 过 世 死 无 对 证 的 人。</p>
+<p begin="01:08:12.936" end="01:08:16.736" style="s2">周 律 师</p>
+<p begin="01:08:14.136" end="01:08:17.736" style="s2">这 就 是 你 拿 着 天 价 律 师 费 想 出 来 的 脱 罪 戏 码？</p>
+<p begin="01:08:16.736" end="01:08:20.936" style="s2">&gt;&gt; 林 小 姐</p>
+<p begin="01:08:17.736" end="01:08:24.036" style="s2">请 注 意 你 的 言 词， 法 庭 讲 究 的 是 证 据， 你 有 任 何</p>
+<p begin="01:08:20.936" end="01:08:28.236" style="s2">直 接 证 据 证 明 我 方 当 事 人 当 年 亲 自 参 与 了 这 些</p>
+<p begin="01:08:24.036" end="01:08:30.936" style="s2">犯 罪 吗？ 如 果 拿 不 出 这 就 是 诽 谤。</p>
+<p begin="01:08:28.236" end="01:08:34.636" style="s2">&gt;&gt; 怎 么 你 敢 当 庭 威 胁 我 的 证 人 吗？</p>
+<p begin="01:08:30.936" end="01:08:35.936" style="s2">黎 明 别 怕， 请 您 当 着 法 官 和 所 有 媒 体 的 面 如 实 陈</p>
+<p begin="01:08:34.636" end="01:08:38.636" style="s2">述 20 年 前</p>
+<p begin="01:08:35.936" end="01:08:39.136" style="s2">到 底 是 谁 将 我 母 亲 强 行 关 进 这 所 私 立 精 神 诊 所</p>
+<p begin="01:08:38.636" end="01:08:43.036" style="s2">的。</p>
+<p begin="01:08:39.136" end="01:08:46.236" style="s2">&gt;&gt; 20 年 前 根 本 不 是 洪 建 国 一 个 人 来 的 诊 所， 是 洪</p>
+<p begin="01:08:43.036" end="01:08:48.736" style="s2">建 国 和 被 告 洪 苏 梅 两 个 人 一 起 把 完 全 健 康 的 洪</p>
+<p begin="01:08:46.236" end="01:08:49.936" style="s2">苏 梅 压 送 到 那 个 地 方 的。</p>
+<p begin="01:08:48.736" end="01:08:52.836" style="s2">&gt;&gt; 我 没 疯！</p>
+<p begin="01:08:49.936" end="01:08:52.836" style="s2">我 才 是 精 神 冠 军！</p>
+<p begin="01:08:54.536" end="01:09:01.136" style="s2">&gt;&gt; 洪 老 板 这 人 看 着 没 病 啊， 这 万 一 查 起 来</p>
+<p begin="01:08:57.936" end="01:09:04.236" style="s2">&gt;&gt; 拿 了 钱 就 把 嘴 闭 严 实， 从 今 天 起 她 就 是 一 个 有 严</p>
+<p begin="01:09:01.136" end="01:09:05.636" style="s2">重 被 害 妄 想 症 的 疯 子， 你 要 是 敢 走 漏 半 点 风 声 或</p>
+<p begin="01:09:04.236" end="01:09:08.817" style="s2">者 让 她 跑 出 去</p>
+<p begin="01:09:05.636" end="01:09:09.936" style="s2">我 就 让 你 全 家 老 小 都 丢 进 海 里 喂 鱼。</p>
+<p begin="01:09:08.817" end="01:09:12.936" style="s2">&gt;&gt; [gasps and sighs]</p>
+<p begin="01:09:09.936" end="01:09:16.036" style="s2">&gt;&gt; 这 是 当 年 珍 洪 苏 梅 入 院 时 的 检 查 报 告， 证 明 她 是</p>
+<p begin="01:09:12.936" end="01:09:18.436" style="s2">健 康 的， 洪 家 花 重 金 收 买 并 威 胁 我， 将 她 非 法 收</p>
+<p begin="01:09:16.036" end="01:09:19.536" style="s2">治 在 一 个 私 立 诊 所 长 达 三 年。</p>
+<p begin="01:09:18.436" end="01:09:22.536" style="s2">20 年 前</p>
+<p begin="01:09:19.536" end="01:09:26.237" style="s2">我 被 威 胁 不 敢 说 出 真 相， 20 年 后</p>
+<p begin="01:09:22.536" end="01:09:29.438" style="s2">我 站 在 这 绝 不 会 再 后 退 一 步， 我 要 把 当 年 的 相 全</p>
+<p begin="01:09:26.237" end="01:09:31.438" style="s2">部 说 出 来， 让 他 受 到 应 有 的 惩 罚。</p>
+<p begin="01:09:29.438" end="01:09:33.338" style="s2">&gt;&gt; 张 浩， 一 定 是 他 贿 赂 了 你。</p>
+<p begin="01:09:31.438" end="01:09:34.338" style="s2">&gt;&gt; 我 没 有， 法 官 大 人。</p>
+<p begin="01:09:33.338" end="01:09:37.038" style="s2">当 年</p>
+<p begin="01:09:34.338" end="01:09:39.538" style="s2">亲 口 用 我 全 家 老 小 的 命 威 胁 我。</p>
+<p begin="01:09:37.038" end="01:09:40.338" style="s2">根 本 不 是 什 么 不 知 情 的 柔 弱 少 女， 她 就 是 个 心 思</p>
+<p begin="01:09:39.538" end="01:09:43.938" style="s2">歹 毒 的</p>
+<p begin="01:09:40.338" end="01:09:47.338" style="s2">&gt;&gt; 你 胡 说。 当 年 我 才 18 岁， 我 爸 带 我 去 诊 所， 我 吓</p>
+<p begin="01:09:43.938" end="01:09:49.038" style="s2">得 半 死， 躲 在 他 身 后 一 句 话 都 不 敢 说。</p>
+<p begin="01:09:47.338" end="01:09:50.338" style="s2">我 怎 么 可 能 去 威 胁？</p>
+<p begin="01:09:49.038" end="01:09:52.637" style="s2">&gt;&gt; 这 里 是 当 初</p>
+<p begin="01:09:50.338" end="01:09:55.938" style="s2">他 为 了 封 我 们 的 口， 逼 着 所 有 的 当 事 人 签 下 协</p>
+<p begin="01:09:52.637" end="01:09:58.637" style="s2">议， 可 以 当 场 鉴 定 笔 迹 以 及 签 署 时 间。</p>
+<p begin="01:09:55.938" end="01:10:02.038" style="s2">提 交 的 证 据 需 要 鉴 定 时 间。 接 下 来</p>
+<p begin="01:09:58.637" end="01:10:04.738" style="s2">针 对 身 份 顶 替 伪 造 一 事， 请 被 告 继 续 陈 述。</p>
+<p begin="01:10:02.038" end="01:10:06.738" style="s2">&gt;&gt; 我 没 有 顶 替 他 母 亲 的 身 份， 这 一 切</p>
+<p begin="01:10:04.738" end="01:10:10.838" style="s2">都 是 他 母 亲 一 想 出 来 的。</p>
+<p begin="01:10:06.738" end="01:10:13.438" style="s2">我 父 亲 好 心 资 助 你， 你 却 蓄 谋 已 久 费 尽 心 思， 让</p>
+<p begin="01:10:10.838" end="01:10:16.838" style="s2">你 女 儿 联 合 其 他 人 置 我 于 死 地。</p>
+<p begin="01:10:13.438" end="01:10:20.338" style="s2">这 真 是 农 夫 与 蛇 啊。</p>
+<p begin="01:10:16.838" end="01:10:22.938" style="s2">&gt;&gt; 法 官 大 人， 针 对 被 告 拒 不 承 认 身 份 造 假 一 事， 我</p>
+<p begin="01:10:20.338" end="01:10:26.338" style="s2">方 申 请 专 家 证 人 出 庭。</p>
+<p begin="01:10:22.938" end="01:10:28.438" style="s2">难 不 成 又 是 张 贺 年？ 他 的 证 词 毫 无 可 信 度。 谁 知</p>
+<p begin="01:10:26.338" end="01:10:31.938" style="s2">道 是 不 是 你 们 私 下 勾 结？</p>
+<p begin="01:10:28.438" end="01:10:31.938" style="s2">可 如 果 不 只 有 他</p>
+<p begin="01:10:32.538" end="01:10:38.738" style="s2">&gt;&gt; 这 不 是 李 老 师 吗？ 这 可 是 舞 蹈 界 的 又 一 大 拿 啊。</p>
+<p begin="01:10:35.038" end="01:10:39.438" style="s2">&gt;&gt; 我 靠， 舞 蹈 界 的 牛 人 几 乎 都 在 这 了 吧。</p>
+<p begin="01:10:38.738" end="01:10:40.338" style="s2">&gt;&gt; 你 们</p>
+<p begin="01:10:39.438" end="01:10:43.238" style="s2">&gt;&gt; 法 官</p>
+<p begin="01:10:40.338" end="01:10:46.137" style="s2">我 们 六 人 通 过 对 比 被 告 洪 苏 美 女 士 近 年 来 的 公</p>
+<p begin="01:10:43.238" end="01:10:48.038" style="s2">开 舞 蹈 录 像 以 及 封 过 白 羊 的 原 创 动 作 发 力 点， 出</p>
+<p begin="01:10:46.137" end="01:10:51.438" style="s2">具 了 这 份 联 合 鉴 定 报 告。</p>
+<p begin="01:10:48.038" end="01:10:55.238" style="s2">封 过 白 羊 的 核 心 在 于 腰 部 和 脚 踝 的 寸 劲， 这 需 要</p>
+<p begin="01:10:51.438" end="01:10:58.538" style="s2">从 小 练 就 的 童 子 功。 而 被 告 人 在 所 有 已 知 录 像 中</p>
+<p begin="01:10:55.238" end="01:10:59.538" style="s2">展 现 的 骨 骼 发 力 习 惯 绝 对 做 不 到 风 吹 白 羊 所 需</p>
+<p begin="01:10:58.538" end="01:11:03.338" style="s2">的 技 巧。</p>
+<p begin="01:10:59.538" end="01:11:03.338" style="s2">&gt;&gt; 我 没 有， 我 当 年 怀 孕 血 的 时 候 从</p>
+</div>
+</body>
+</tt>

@@ -4183,3 +4183,23 @@ def test_adversarial_coparent_reads_scene_care_before_architecture_reveal_label(
     result=evaluate_adversarial_coparent_integrity(premise,architecture,scenes)
     assert result['applies'] is True
     assert result['checks']['material_care_precedes_status_reward'] is True
+
+def test_evidentiary_withdrawal_integrity_positive_and_non_applicable():
+    from studio.evidentiary_withdrawal_integrity import evaluate_evidentiary_withdrawal_integrity
+    premise={'logline':'Reborn after an edited recording destroyed her, a woman leaves a shared apartment rather than consenting to a roommate boyfriend moving in.'}
+    architecture={'sequences':[{'summary':'This time around she will not meddle or argue; she will move out, but she does not consent. Income and job status do not matter; tenant consent and shared-space safety are the boundary. She preserves the lease, security footage, full recording, screenshots, witness testimony, timestamped photos, police and legal records. The antagonists escalate with fake photos, hidden cameras, debt, kidnapping and confession while coworkers, landlord and roommates form a witness network. They prepare a code to call the police and use raw footage as backup. She did not save anyone or forgive anyone. The ending has changed the locks, cameras installed, a safer home, and a long-term lease: a door I could close.'}]}
+    result=evaluate_evidentiary_withdrawal_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.9
+    ordinary=evaluate_evidentiary_withdrawal_integrity({'logline':'A dragon smith rebuilds a village.'},{},[])
+    assert ordinary['applies'] is False
+
+
+def test_evidentiary_withdrawal_warns_when_exit_implies_consent():
+    from studio.evidentiary_withdrawal_integrity import evaluate_evidentiary_withdrawal_integrity
+    premise={'logline':'Reborn after edited audio ruined her, a woman leaves a roommate lease.'}
+    architecture={'sequences':[{'summary':'This time she will move out and never argue again.'}]}
+    result=evaluate_evidentiary_withdrawal_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['checks']['withdrawal_does_not_mean_consent'] is False
+    assert any('refuses consent' in w or 'never explicitly refuses consent' in w for w in result['warnings'])
