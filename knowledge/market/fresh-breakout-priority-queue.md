@@ -101,3 +101,5 @@ Full audiovisual deep dive completed in `knowledge/market/nexora-mechanic-constr
 - Hushfall `4m3u8UMUgDg` hit deep dive completed 2026-11-27: reciprocal-incognito contract mechanism documented; within-channel hit/low comparison still pending before any dedicated validator.
 
 - Fated/CrushLoop same-format hit-low comparison completed 2026-11-27: `knowledge/market/fated-crushloop-hit-low-comparison.md`; low performers falsify visual-quality and dialogue-density explanations. Validators deferred pending broader repetition.
+
+- Hushfall short-form hit-low comparison completed 2026-11-27: `knowledge/market/hushfall-shortform-hit-low-comparison.md`; sports uplift vs static late-confession counterexample integrated.
