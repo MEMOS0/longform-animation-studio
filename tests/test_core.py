@@ -4056,3 +4056,29 @@ def test_dual_incognito_workplace_integrity_flags_missing_consent_and_independen
     assert result['checks']['concealment_creates_named_consent_debt'] is False
     assert result['checks']['career_restoration_is_not_romantic_patronage'] is False
     assert result['warnings']
+
+def test_social_test_generated_dialogue_is_scene_specific_and_warn_free():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.dialogue_craft import evaluate_scenes_dialogue
+    premise=generate_premises('social_test_melodrama',1,42)[0]
+    scenes=generate_scenes(premise,generate_architecture(premise))
+    assert len(scenes)==8
+    assert all(len(scene['dialogue_design']['spoken_exchange'])==4 for scene in scenes)
+    assert 'Your floor is below. Guests eat above.' in scenes[0]['dialogue_design']['key_lines']
+    assert scenes[0]['dialogue_design']['spoken_exchange'][1]['speaker'] != scenes[0]['dialogue_design']['spoken_exchange'][2]['speaker']
+    assert evaluate_scenes_dialogue(scenes)['warnings_by_scene']=={}
+
+
+def test_social_test_dialogue_uses_material_proof_and_restitution_turns():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    premise=generate_premises('social_test_melodrama',1,42)[0]
+    scenes=generate_scenes(premise,generate_architecture(premise))
+    s5=scenes[4]['dialogue_design']['spoken_exchange']
+    s7=scenes[6]['dialogue_design']['spoken_exchange']
+    assert any('doesn\'t fit her hands or her hours' in turn['line'] for turn in s5)
+    assert any('Return the name you erased first' in turn['line'] for turn in s7)
+    assert all(turn.get('subtext') and turn.get('voice_signature') for scene in scenes for turn in scene['dialogue_design']['spoken_exchange'])
