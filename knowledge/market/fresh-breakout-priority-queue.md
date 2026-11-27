@@ -67,13 +67,13 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 - Completed output: `knowledge/market/lotus-crown-alpha-fated-mate-elf-king-deep-dive.md` plus `evidence/media/dHdkaKb3_S8/`.
 - Extracted doctrine: anti-fate chosen-bond re-choice; public betrayal, sacrificial care collapse, consent-preserving alternative devotion, layered forensic exposure, institutional consequence.
 
-### 4. `yA_UfmmVAG0` — Mini Series Drama
+### 4. `yA_UfmmVAG0` — Mini Series Drama — completed 2026-11-27
 
 - Title: *She sacrificed her eyes for five vampires—Now she’s marrying their worst nightmare!*
-- Scale/performance: about 26.8k subscribers, 155,334 views in 3.5 days, about 44,247 views/day.
-- Runtime/format: 76m vampire sacrifice/romantic power inversion.
-- Why priority: fresh high-velocity upload; bodily sacrifice plus romantic re-choice may extend creature-power-inversion doctrine.
-- Required caution: subscriber count is moderate rather than tiny; treat as secondary priority.
+- Scale/performance: about 27.3k subscribers, 163,267 views at capture.
+- Runtime/format: 75.8m vertical gothic vampire sacrifice/re-choice melodrama.
+- Completed output: `knowledge/market/mini-series-five-vampires-demon-pact-deep-dive.md` plus `evidence/media/yA_UfmmVAG0/`.
+- Extracted doctrine: betrayal-triggered restitution/vision irony; conditional pact, hidden restored perception, escalating bodily extraction, public forced-choice test, visible moral-ledger consequence, rejected instrumental repentance, care/consent before identity reward.
 
 ### 5. `DD35huaUIa8` — The Binge Bench
 
@@ -86,4 +86,4 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 ## Recommended order
 
 1. `dHdkaKb3_S8` — fantasy betrayal/re-choice comparison.
-3. `DD35huaUIa8` and `yA_UfmmVAG0` — only if they still look novel after opening/metadata inspection.
+3. `DD35huaUIa8` — only if it still looks novel after the completed yA analysis; do not treat overlap with existing hidden-identity/creature doctrines as sufficient novelty.

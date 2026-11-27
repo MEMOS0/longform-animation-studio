@@ -3364,3 +3364,54 @@ def test_taboo_family_irony_supporting_departure_does_not_veto_named_protagonist
     premise={'title':'Bestie Parent','protagonist':{'identity':'Lily'},'logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
     architecture={'sequences':[{'summary':'The best friend chooses to leave her own husband.'},{'summary':'Lily chooses to leave him.'}]}
     assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['protagonist_can_reject_power'] is True
+
+
+def _restitution_pact_fixture():
+    premise={
+      'title':'The Memory Lantern',
+      'logline':'A woman sacrifices her memory-sight in a magical pact to save five sworn wards; if they betray her, the pact restores her perception and curses them.',
+    }
+    architecture={'sequences':[
+      {'summary':'She trades her eyes and memory-sight as the price of a pact to save them. They vow to protect her forever and never let anyone hurt her; if they betray her, the pact returns her sight and the curse rebounds.'},
+      {'summary':'After they betray her, she can see again but hides her sight and pretends to still be blind so they cannot find out the pact has judged them.'},
+      {'summary':'They once owed her because she saved them, but now call her a blood bag and dead weight. They drain her blood because it is useful, then try to cut out her heart because it will grow back.'},
+      {'summary':'In a public test before the crowd, the hunters force them to pick one between the false saintess and the protagonist; they choose the false victim. Their curse becomes visible as they become true monsters.'},
+      {'summary':'They apologize only to break the curse, but she says she gave them chances and does not forgive them.'},
+      {'summary':'A quiet protector heals and protects her before she learns he is the hidden king. He lets her end the engagement and choose freely before the identity reveal.'},
+      {'summary':'The ending is a mutual vow, chosen family, and home; she is never forced to forgive them.'},
+    ]}
+    scenes=[]
+    return premise,architecture,scenes
+
+
+def test_restitution_pact_integrity_balanced_example_passes_core_checks():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    r=evaluate_restitution_pact_integrity(premise,architecture,scenes)
+    assert r['applies'] is True
+    assert r['checks']['explicit_bodily_sacrifice_cost'] is True
+    assert r['checks']['conditional_accountability_mechanism'] is True
+    assert r['checks']['beneficiaries_vow_protection_before_betrayal'] is True
+    assert r['checks']['restored_perception_creates_hidden_irony'] is True
+    assert r['checks']['bodily_extraction_escalates_through_entitlement'] is True
+    assert r['checks']['public_forced_choice_reveals_real_hierarchy'] is True
+    assert r['checks']['instrumental_repentance_is_not_rewarded'] is True
+    assert r['checks']['alternative_partner_proves_care_before_status'] is True
+    assert r['checks']['consent_or_exit_choice_precedes_identity_reward'] is True
+
+
+def test_restitution_pact_integrity_flags_decorative_curse_and_forced_forgiveness():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    architecture['sequences']=[
+      {'summary':'She sacrifices her eyes in a curse-flavored bargain to save them.'},
+      {'summary':'A powerful king immediately loves her status and reveals his identity before she can choose.'},
+      {'summary':'The betrayers apologize only to break the curse, and she must forgive them because the magic requires it.'},
+    ]
+    r=evaluate_restitution_pact_integrity(premise,architecture,scenes)
+    assert r['checks']['conditional_accountability_mechanism'] is False
+    assert r['checks']['beneficiaries_vow_protection_before_betrayal'] is False
+    assert r['checks']['restored_perception_creates_hidden_irony'] is False
+    assert r['checks']['alternative_partner_proves_care_before_status'] is False
+    assert r['checks']['consent_or_exit_choice_precedes_identity_reward'] is False
+    assert r['checks']['closure_is_mutual_not_forced_forgiveness'] is False
