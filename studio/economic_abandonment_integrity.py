@@ -19,7 +19,7 @@ def _affirmative_match(pattern: str, text: str) -> bool:
     for clause in re.split(r"[.!?;]", text):
         for match in re.finditer(pattern, clause):
             before = clause[:match.start()]
-            if re.search(r"(?:nobody|no one|never|without)\s+(?:\w+\s+){0,8}$", before):
+            if re.search(r"(?:(?:nobody|no one|never|without|not|no)\s+(?:\w+\s+){0,3}|refus(?:es|ed)?\s+to\s+(?:\w+\s+){0,3})$", before):
                 continue
             return True
     return False
@@ -33,7 +33,7 @@ def evaluate_economic_abandonment_integrity(premise: dict[str, Any], architectur
     ending_source = "\n".join([architecture_text, scenes_text])
     ending = ending_source[-max(1, len(ending_source) // 3):] if ending_source else ""
 
-    abandonment = bool(re.search(r"left (?:her|him|them)|walked away|letter|train station|don.?t belong|betray(?:ed|al)?|stole everything|took everything|abandon(?:ed|s)? (?:his|her|their) (?:wife|husband|fiance|partner|family)", full))
+    abandonment = _affirmative_match(r"left (?:her|him|them)|walked away|letter|train station|don.?t belong|betray(?:ed|al)?|stole everything|took everything|abandon(?:ed|s)? (?:his|her|their) (?:wife|husband|fiance|partner|family)", full)
     economic = bool(re.search(r"money|wallet|id\b|debt|loan|orchard|property|business|contract|fraud|invoice|bank|assets", full))
     romance_or_family = bool(re.search(r"husband|wife|wedding|marriage|fianc|romance|mother|family|daughter", full))
     applies = abandonment and economic and romance_or_family
