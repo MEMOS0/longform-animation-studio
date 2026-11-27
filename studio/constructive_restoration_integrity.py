@@ -53,17 +53,60 @@ def _cooccurs_with_reference(text: str, first_pattern: str, second_pattern: str)
     return False
 
 
+def _first_non_negated(pattern: str, text: str) -> int | None:
+    for match in re.finditer(pattern, text):
+        sentence_start = max(
+            text.rfind(".", 0, match.start()),
+            text.rfind("!", 0, match.start()),
+            text.rfind("?", 0, match.start()),
+            text.rfind("\n", 0, match.start()),
+        ) + 1
+        prefix = text[sentence_start:match.start()]
+        if re.search(r"\b(?:never|not|no|without|refus\w*)\b", match.group(0)):
+            continue
+        if not re.search(r"\b(?:never|not|no|without|refus\w*)\b(?:\s+\w+){0,3}\s*$", prefix):
+            return match.start()
+    return None
+
+
 def evaluate_constructive_restoration_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     narrative = "\n".join([_text(architecture), _text(scenes)]).lower()
-    repair_core = bool(re.search(r"mechanic|workshop|engineer|salvage|rebuild|restoration|(?:repair(?:s|ed|ing)?|fix(?:es|ing)?|restore(?:s|d)?)\b.{0,50}\b(?:machine|robot|vehicle|ship|station|engine)|(?:machine|robot|vehicle|ship|station|engine)\b.{0,50}\b(?:repair(?:s|ed|ing)?|fix(?:es|ing)?|restore(?:s|d)?)", full))
+    object_words = r"machine|robot|vehicle|ship|station|engine"
+    repair_words = r"repair(?:s|ed|ing)?|fix(?:es|ing)?|restore(?:s|d)?"
+    object_directed_repair = any(
+        re.search(repair_words, segment) and re.search(object_words, segment)
+        for segment in re.split(r"[.!?\n]", full)
+    )
+    repair_core = bool(re.search(r"mechanic|workshop|engineer|salvage|rebuild|restoration", full) or object_directed_repair)
     speculative_object = bool(re.search(r"\b(?:robot|android|machine|ship|starship|spaceship|station|city|drone|fleet)\b|\bai\b|war machine", full))
     applies = repair_core and speculative_object
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
-    object_ladder = _ordered(narrative, r"small object|lamp|circuit|tool|toy|radio|servo|motor", r"\b(?:robots?|vehicles?|bikes?|machines?)\b") and _ordered(narrative, r"\b(?:robots?|vehicles?|bikes?|machines?)\b", r"\b(?:ships?|starships?|spaceships?|stations?|cities)\b|infrastructure|power grid")
-    learner_work = bool(re.search(r"\b(?:she|he|they|learner|apprentice|protagonist)\s+(?:\w+\s+){0,2}(?:repairs?|fixes|solders?|wires?|tests?|builds?|diagnoses?|installs?)|(?:she|he|they|learner|apprentice)\s+(?:\w+\s+){0,2}(?:does|performs)\s+(?:the\s+)?(?:repair|work)", narrative))
+    small_repair = r"(?:repairs?|fixes|restores?)[^.!?\n]{0,90}(?:small object|lamp|circuit|tool|toy|radio|servo|motor)"
+    mid_repair = r"(?:repairs?|fixes|restores?)[^.!?\n]{0,90}(?:robots?|vehicles?|bikes?|machines?)"
+    big_repair = r"(?:repairs?|fixes|restores?)[^.!?\n]{0,90}(?:ships?|starships?|spaceships?|stations?|power grid|infrastructure)"
+    def repaired_object_positions(object_pattern: str) -> list[int]:
+        positions = []
+        for match in re.finditer(object_pattern, narrative):
+            sentence_start = max(narrative.rfind(".", 0, match.start()), narrative.rfind("!", 0, match.start()), narrative.rfind("?", 0, match.start()), narrative.rfind("\n", 0, match.start())) + 1
+            segment = narrative[sentence_start:match.start()]
+            if re.search(r"\b(?:repairs?|repairing|fixes|fixing|restores?|restoring)\b", segment):
+                positions.append(match.start())
+        return positions
+
+    small_positions = repaired_object_positions(r"small object|lamp|circuit|tool|toy|radio|servo|motor")
+    mid_positions = repaired_object_positions(r"\b(?:robots?|vehicles?|bikes?|machines?)\b")
+    big_positions = repaired_object_positions(r"\b(?:ships?|starships?|spaceships?|stations?)\b|power grid|infrastructure")
+    object_ladder = False
+    for small_pos in small_positions:
+        mid_pos = next((pos for pos in mid_positions if pos > small_pos), None)
+        big_pos = next((pos for pos in big_positions if mid_pos is not None and pos > mid_pos), None)
+        if mid_pos is not None and big_pos is not None:
+            object_ladder = True
+            break
+    learner_work = _first_non_negated(r"\b(?:she|he|they|learner|apprentice|protagonist)\s+(?:\w+\s+){0,2}(?:repairs?|fixes|solders?|wires?|tests?|builds?|diagnoses?|installs?)|(?:she|he|they|learner|apprentice)\s+(?:\w+\s+){0,2}(?:does|performs)\s+(?:the\s+)?(?:repair|work)", narrative) is not None
     restitution_language = bool(re.search(r"restitution|reparations?|make amends|repair the damage|rebuild what|help rebuild|compensat|accountab", full))
     weapon_pattern = r"war machine|combat unit|weapon|military robot|battle machine"
     care_use_pattern = r"repurpos|convert|care|farm|shelter|clinic|workshop|infrastructure|cook|serve|protect"
@@ -75,7 +118,7 @@ def evaluate_constructive_restoration_integrity(premise: dict[str, Any], archite
     mentorship_cycle = bool(re.search(r"teach(?:es|ing)?|mentor|apprentice|learns?", full) and re.search(r"robot child|childlike robot|small robot|young robot|child analogue|new apprentice|teaches? (?:the )?(?:robot|child)", full))
     seqs = architecture.get("sequences", []) if isinstance(architecture, dict) else []
     finale_text = "\n".join([_text(seqs[-2:]), _text(architecture.get("ending_payoff") if isinstance(architecture, dict) else {}), _text(scenes[-5:])]).lower()
-    tested_finale = bool(re.search(r"(?<!without )(?<!no )(?<!not )test(?:s|ed|ing)?|diagnostic|trial run|systems check|launch|maiden flight|flight test", finale_text))
+    tested_finale = bool(re.search(r"(?<!without )(?<!no )(?<!not )\btest(?:s|ed|ing)?\b|diagnostic|trial run|systems check|launch|maiden flight|flight test", finale_text))
 
     checks = {
         "nontransactional_shelter_or_care_in_origin": bool(re.search(r"orphan|runaway|homeless|abandoned|exile|precarious", full[:2500]) and re.search(r"shelter|food|meal|care|takes? (?:her|him|them) in|welcom", full[:3500])),

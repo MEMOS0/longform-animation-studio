@@ -4000,3 +4000,36 @@ def test_maternal_absolute_modal_hypothetical_is_not_completed_release():
     from studio.maternal_sovereignty_integrity import _first_non_negated
     pattern=r'signs? (?:the )?divorce papers'
     assert _first_non_negated(pattern,'he would absolutely not hesitate to sign the divorce papers, but leaves them unsigned') is None
+
+def test_constructive_restoration_negated_learner_and_testimony_do_not_count():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise={'title':'Machine Shop','logline':'A mechanic repairs machines.'}
+    architecture={'sequences':[{'summary':'The apprentice never repairs the robot. The mentor does every repair.'}], 'ending_payoff':{'summary':'Court testimony closes the case.'}}
+    result=evaluate_constructive_restoration_integrity(premise,architecture,[])
+    assert result['checks']['learner_performs_repair_under_mentorship'] is False
+    assert result['checks']['finale_demonstrates_capability_through_tested_systems'] is False
+
+
+def test_constructive_restoration_early_robot_mention_does_not_hide_later_ladder():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise={'title':'Station Shop','logline':'A mechanic repairs machines.'}
+    architecture={'sequences':[{'summary':'Robots are forbidden in the city. She repairs a lamp.'},{'summary':'She repairs several robots, then restores the station.'}]}
+    assert evaluate_constructive_restoration_integrity(premise,architecture,[])['checks']['repair_object_competence_ladder'] is True
+
+
+def test_constructive_restoration_cross_sentence_ship_does_not_create_applicability():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise={'title':'Clock Shop','logline':'A repairer works in town.'}
+    architecture={'sequences':[{'summary':'She repairs a clock. A ship arrives in the harbor.'}]}
+    assert evaluate_constructive_restoration_integrity(premise,architecture,[])['applies'] is False
+
+
+def test_protective_learning_truth_is_not_payment_condition():
+    from studio.protective_kinship_integrity import _first_non_negated
+    assert _first_non_negated(r'kiss','he kisses her only after she learns the truth') is not None
+
+
+def test_maternal_prior_alternative_does_not_make_signing_hypothetical():
+    from studio.maternal_sovereignty_integrity import _first_non_negated
+    pattern=r'signs? (?:the )?divorce papers'
+    assert _first_non_negated(pattern,'he could refuse, but he does not hesitate to sign the divorce papers') is not None
