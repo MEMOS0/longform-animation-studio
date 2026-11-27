@@ -726,3 +726,12 @@ Continue immediately with non-creature low-subscriber queue: `s-Zn2WhkkH8`, `wHW
 - Key doctrine candidate: supernatural child memory works as evidence-pressure when care precedes knowledge, knowledge creates danger, skepticism/procedure validate clues, institutions resist, child exposure has cost, confession/moral truth pays off, and ending re-stabilizes ordinary parent-child safety.
 - Thumbnail counterexample: generic soldier/action packaging can outperform accurate supernatural-family imagery; do not infer causal CTR without private data.
 - Next: implement supernatural child-witness validator, update dialogue/packaging doctrine, then continue queue `s-Zn2WhkkH8`, `wHWPGMPQ37Y`, `R14QjIS7O50`, `Z0kns4pvIH4`, `XM4OuWUlV_o`. Handle any new PR #4 review findings first.
+
+## 2026-11-27 patronage/attachment checkpoint
+
+- Latest pushed commit: `102c14f`; tests `257 passed`.
+- Completed Frame Horizon `V5VfY1lfN2c` supernatural child-witness analysis and integrated `supernatural_child_witness` gate after Devin Review hardening.
+- Completed Ananse `Z0kns4pvIH4` consent-aware patronage transformation analysis and integrated `patronage_consent_integrity` gate.
+- Completed Daily Drama Shorts `XM4OuWUlV_o` parentification-free attachment repair analysis and integrated `attachment_repair_integrity` gate.
+- New portable doctrines: supernatural knowledge as evidence-pressure; patronage requires dependency-aware consent/control transfer/free re-choice; child healing must not become child responsibility for curing parent.
+- Next: handle any new PR #4 review findings first. Then analyze remaining non-creature queue `s-Zn2WhkkH8`, `wHWPGMPQ37Y`, `R14QjIS7O50`; consider whether the first two are duplicate/repackaged versions of the same 86-minute lost-twins CEO film and document distribution/packaging differences if so.
