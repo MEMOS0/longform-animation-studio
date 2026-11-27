@@ -15,6 +15,16 @@ def _text(value: Any) -> str:
     return ""
 
 
+def _affirmative_match(pattern: str, text: str) -> bool:
+    for clause in re.split(r"[.!?;]|but", text):
+        for match in re.finditer(pattern, clause):
+            before = clause[:match.start()]
+            if re.search(r"(?:(?:nobody|no one|never|without|not|no|doesn.?t)\s+(?:\w+\s+){0,8}|refus(?:es|ed)?\s+to\s+(?:\w+\s+){0,8})$", before):
+                continue
+            return True
+    return False
+
+
 def evaluate_object_testimony_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     premise_text = _text(premise).lower()
     architecture_text = _text(architecture).lower()
@@ -33,11 +43,11 @@ def evaluate_object_testimony_integrity(premise: dict[str, Any], architecture: d
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
     checks = {
-        "object_testimony_is_limited_not_omniscient": bool(re.search(r"remember|doesn.?t know|limited|only saw|only heard|hypothesis|lead|clue|not proof|must verify|needs? verification", full)),
+        "object_testimony_is_limited_not_omniscient": bool(re.search(r"doesn.?t know|limited|only (?:saw|heard|remembers?)|fragment(?:ed|s)?|partial|hypothesis|lead|clue|not proof|must verify|needs? verification", full)),
         "objects_have_history_or_personhood": bool(re.search(r"objects? (?:speak|remember|ask|beg|warn)|relics? (?:speak|remember|ask|warn)|voice|whisper|don.?t (?:melt|smash|break|touch)|history|memory|belong", full)),
         "craft_or_labor_precedes_power": bool(re.search(r"apprais|craft|work|labor|owed|paycheck|job|competence|inspection|negotiat|expert|professional", full)),
-        "magic_produces_leads_not_verdicts": bool(re.search(r"scan|tests?|lab(?:oratory)?|ct|fracture|x[- ]?ray|verify|independent|evidence|proof|record|document|inspect|hash|chain of custody", full)),
-        "verification_is_procedural": bool(re.search(r"scan|tests?|lab(?:oratory)?|ct|fracture|independent|police|court|lawyer|warrant|customs|task force|record|log|payment trail|chain of custody|sealed", full)),
+        "magic_produces_leads_not_verdicts": _affirmative_match(r"scan|tests?|lab(?:oratory)?|ct|fracture|x[- ]?ray|verify|independent|evidence|proof|record|document|inspect|hash|chain of custody", full),
+        "verification_is_procedural": _affirmative_match(r"scan|tests?|lab(?:oratory)?|ct|fracture|independent|police|court|lawyer|warrant|customs|task force|record|log|payment trail|chain of custody|sealed", full),
         "ownership_control_is_interrogated": bool(re.search(r"own|ownership|control|leash|gift|obedience|salary|voting rights|shares|name|independence|permission|allowance", full)),
         "protagonist_refuses_identity_absorption": bool(re.search(r"name stays|keeps? .*name|not changing .*name|independent|my own life|don.?t own me|not yours|refus|leaves? control|blood.*doesn.?t decide", full)),
         "cultural_memory_or_restoration_matters": bool(re.search(r"museum|cultural property|provenance|recovered|return(?:ed|s)?|restore(?:d|s)?|restitution|stolen .*recover|relics? .*return|artifacts? .*recover|cultural memory", full)),

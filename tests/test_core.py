@@ -2607,3 +2607,13 @@ def test_object_testimony_laboratory_test_counts_as_verification():
     r=evaluate_object_testimony_integrity(premise,{"sequences":[{"summary":summary}]},[])
     assert r["checks"]["magic_produces_leads_not_verdicts"] is True
     assert r["checks"]["verification_is_procedural"] is True
+
+
+def test_object_testimony_rejects_refusal_to_verify():
+    from studio.object_testimony_integrity import evaluate_object_testimony_integrity
+    premise={"title":"Whispering Relics","logline":"An appraiser hears antique relics speak; whispering objects remember fake provenance and stolen museum restoration."}
+    summary=("The relic remembers everything. She refuses to verify and does not check records because magic decides. Professional labor craft. Ownership control. Name stays refuse control. Museum cultural property recovered. Criminal black market exploit ability. Ending share future independent choose.")
+    r=evaluate_object_testimony_integrity(premise,{"sequences":[{"summary":summary}]},[])
+    assert r["checks"]["object_testimony_is_limited_not_omniscient"] is False
+    assert r["checks"]["magic_produces_leads_not_verdicts"] is False
+    assert r["checks"]["verification_is_procedural"] is False
