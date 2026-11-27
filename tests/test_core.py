@@ -3089,3 +3089,44 @@ def test_taboo_family_irony_chooses_to_leave_counts_agency():
     premise={'title':'Bestie Parent','logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
     architecture={'sequences':[{'summary':'After the truth comes out, she chooses to leave him.'}]}
     assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['protagonist_can_reject_power'] is True
+
+
+def test_competence_cascade_same_scene_finale_order_positions():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['ending_payoff']={'repair':'Status epilogue.'}
+    good=[{'summary':'In the finale police close the conspiracy, and only then command offers a new mission.'}]
+    bad=[{'summary':'In the finale command offers a new mission, before police close the conspiracy.'}]
+    assert evaluate_competence_cascade_integrity(premise,architecture,good)['checks']['closure_before_mission_hook'] is True
+    assert evaluate_competence_cascade_integrity(premise,architecture,bad)['checks']['closure_before_mission_hook'] is False
+
+
+def test_competence_cascade_setup_family_or_school_order_not_finale_evidence():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['ending_payoff']={'repair':'Status epilogue.'}
+    scenes=[
+      {'summary':'Opening: her family is poor and the school ordered her to attend class.'},
+      {'summary':'A new mission is mentioned in the middle.'},
+      {'summary':'The case is closed at the end.'},
+    ]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is False
+
+
+def test_competence_cascade_new_open_case_and_explicit_conspiracy_unresolved():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['sequences'][-1]={'summary':'Police close the conspiracy.'}
+    architecture['ending_payoff']={'repair':'The main case is closed. Her new mission leaves the next case unresolved.'}
+    assert evaluate_competence_cascade_integrity(premise,architecture,[])['checks']['closure_before_mission_hook'] is True
+    architecture['ending_payoff']={'repair':'She goes home. The conspiracy is unresolved.'}
+    assert evaluate_competence_cascade_integrity(premise,architecture,[])['checks']['closure_before_mission_hook'] is False
+
+
+def test_taboo_family_irony_access_internet_coercion_and_bestfriend_departure():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Bestie Parent','logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
+    architecture={'sequences':[{'summary':'He cut off her access to the internet.'}]}
+    assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['possessiveness_is_flaw_not_reward'] is False
+    architecture={'sequences':[{'summary':'The best friend chooses to leave town for college.'}]}
+    assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['protagonist_can_reject_power'] is False

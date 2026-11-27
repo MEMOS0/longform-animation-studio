@@ -65,12 +65,12 @@ def evaluate_taboo_family_irony_integrity(premise: dict[str, Any], architecture:
     }
     arena_count = sum(1 for pattern in arena_terms.values() if re.search(pattern, full))
 
-    coercion_present = bool(re.search(r"drunk(?:en)? marriage|mistake(?:n)? marriage|forced marriage|blackmail|no right to refuse|can.?t refuse|won.?t take no|cut(?:ting)? (?:off )?(?:his |her |their |the )?internet|ship(?:ped|s)? .{0,25}away|surveillance|possessive|you are mine", flat))
+    coercion_present = bool(re.search(r"drunk(?:en)? marriage|mistake(?:n)? marriage|forced marriage|blackmail|no right to refuse|can.?t refuse|won.?t take no|cut(?:ting)? off (?:his |her |their |the )?access to (?:the )?internet|cut(?:ting)? (?:off )?(?:his |her |their |the )?internet|ship(?:ped|s)? .{0,25}away|surveillance|possessive|you are mine", flat))
     repair_behavior = bool(re.search(r"apolog|repair|explicit consent|free choice|choose freely|can leave|free to leave|respects? (?:her|his|their) (?:no|refusal|boundar)|honors? (?:her|his|their) (?:no|refusal|boundar)|asks? (?:permission|before)|no more lies|tells? the truth|truth before", flat))
     coercion_unrepaired = coercion_present and not repair_behavior
 
     agency_text = re.sub(r"no right to refuse|can.?t refuse|cannot refuse|won.?t take no", " ", flat)
-    protagonist_agency = bool(re.search(r"we are done|she rejects|he rejects|she refuses|he refuses|stay away|can leave|free to leave|she decides|he decides|chooses? to leave|tells? (?:him|her|them) no|walks? away|asks? for (?:an )?annulment|right to refuse", agency_text))
+    protagonist_agency = bool(re.search(r"we are done|she rejects|he rejects|she refuses|he refuses|stay away|can leave|free to leave|she decides|he decides|(?:she|he|they|protagonist|heroine) chooses? to leave|tells? (?:him|her|them) no|walks? away|asks? for (?:an )?annulment|right to refuse", agency_text))
     truth_revealed = bool(re.search(r"truth|no more lies|identity is revealed|learns? who|realizes? who", flat))
 
     shared_reveal = bool(re.search(r"(?:audience|viewer|viewer.?s|reader).{0,50}learn.{0,30}together|(?:audience|viewer|viewer.?s|reader).{0,50}(?:same time|with the characters)|characters and (?:audience|viewers|readers) learn", flat))

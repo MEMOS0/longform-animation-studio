@@ -153,8 +153,8 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
         "procedure": r"police|court|judge|lawyer|law|military tribunal",
     }
 
-    hook_pattern = r"new mission|top-level mission|return to the team|sequel hook|next mission|ordered to|called away"
-    closure_pattern = r"justice|law|court|police|family|reunited|marriage|belonging|instructor|new identity|special agent|peace|home"
+    hook_pattern = r"new mission|top-level mission|return to the team|sequel hook|next mission|called away"
+    closure_pattern = r"justice (?:is )?(?:served|done|delivered)|police (?:close|solve|arrest|deliver justice)|close[sd]? the conspiracy|conspiracy (?:is )?(?:closed|exposed|resolved)|case (?:is )?(?:closed|solved)|family (?:is )?(?:reunited|restored|safe)|reunited with (?:her|his|their) family|belonging (?:lands|is restored)|peace (?:is )?restored|public apology|community is safe|safe at home"
     def closure_order(text: str) -> str:
         hook_match = re.search(hook_pattern, text)
         closure_match = re.search(closure_pattern, text)
@@ -168,19 +168,25 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
 
     scene_order = "neutral"
     if scenes:
-        first_hook_index = None
-        first_closure_index = None
-        for index, scene in enumerate(scenes):
-            text = _text(scene).lower()
-            if first_hook_index is None and re.search(hook_pattern, text):
-                first_hook_index = index
-            if first_closure_index is None and re.search(closure_pattern, text):
-                first_closure_index = index
-        if first_hook_index is not None and first_closure_index is not None:
-            scene_order = "positive" if first_closure_index < first_hook_index else "negative"
-        elif first_hook_index is not None:
+        scene_texts = [_text(scene).lower() for scene in scenes]
+        first_hook = None
+        first_closure = None
+        offset = 0
+        for index, text in enumerate(scene_texts):
+            hook_match = re.search(hook_pattern, text)
+            closure_match = re.search(closure_pattern, text)
+            if first_hook is None and hook_match:
+                first_hook = (index, hook_match.start(), hook_match.end())
+            if first_closure is None and closure_match:
+                first_closure = (index, closure_match.start(), closure_match.end())
+            offset += len(text) + 1
+        if first_hook is not None and first_closure is not None:
+            hook_key = (first_hook[0], first_hook[1])
+            closure_key = (first_closure[0], first_closure[1])
+            scene_order = "positive" if closure_key < hook_key else "negative"
+        elif first_hook is not None:
             scene_order = "hook_only"
-        elif first_closure_index is not None and first_closure_index >= max(1, (2 * len(scenes)) // 3):
+        elif first_closure is not None and first_closure[0] >= max(1, (2 * len(scenes)) // 3):
             scene_order = "closure_only"
 
     architecture_units: list[str] = []
@@ -205,7 +211,18 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
     architecture_has_hook = any(state in {"positive", "negative", "hook_only"} for state in architecture_states)
 
     ending_payoff_text = _text(architecture.get("ending_payoff", "")).lower() if isinstance(architecture, dict) else ""
-    unresolved_original = bool(re.search(r"(?:original|main|central|core|current).{0,45}(?:unresolved|remains open|no closure)|(?:unresolved|remains open|no closure).{0,45}(?:original|main|central|core|current)|conflict remains(?: unresolved| open)?", ending_payoff_text))
+    unresolved_original = False
+    for segment in re.split(r"[.!?;]", ending_payoff_text):
+        if not re.search(r"unresolved|remains open|no closure", segment):
+            continue
+        if re.search(r"original|main|central|core|current", segment):
+            unresolved_original = True
+            break
+        if re.search(r"new mission|next mission|new case|next case|sequel hook|another city|ordered to|called away", segment):
+            continue
+        if re.search(r"conspiracy|conflict|case|mystery|original wound", segment):
+            unresolved_original = True
+            break
     explicit_unresolved = unresolved_original
     if explicit_unresolved:
         closure_before_hook = False
