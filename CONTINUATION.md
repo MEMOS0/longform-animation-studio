@@ -314,3 +314,7 @@ Completed:
 - Review round on `609b8b4` may return findings; handle immediately before further analysis.
 
 Latest pushed commit: `f21e4239b34f71cdabb7ea8d5e26a95fc7966d88`; Zephyr/Dragonveil evidence and documentation are committed. Immediate next work: handle review findings on `f21e423` if any, then continue scanning newer low-subscriber non-creature breakout leads. Do not use subagents or trust their output.
+
+## 2026-11-27 rotation handoff — next cozy-survival lead
+
+Latest pushed commit before this note: `26da784bd7f09a39180e46e07ff59b5f0962e389`. Zephyr/Dragonveil evidence is committed. Next selected novel non-creature lead: Ghibli Cozy Journey `nXgxtduBGUc` (about 1.4k subscribers, 15m Japanese family/Typhoon Vera animated survival, roughly 18–19k views/day within first day). Channel archive `UCZ7uxNQaksFYjww_DGzSxLw` collected: 15 videos. Best same-format low comparator: `NHc0KVHtfQo` (family lost in Sahara sandstorm finds shelter/girl inside, 15m, about 1k views in 6.9d). Both downloads were started in `C:/Users/Administrator/evidence_tmp/media_queue`; verify completion, run direct `studio/media_analysis.py`, inspect contact sheets, compare hit/low, and decide whether cozy disaster-survival shelter doctrine warrants a validator. Handle any PR review findings first. Do not use subagents.
