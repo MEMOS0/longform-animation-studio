@@ -34,17 +34,17 @@ def evaluate_object_testimony_integrity(premise: dict[str, Any], architecture: d
     ending = ending_source[-max(1, len(ending_source) // 3):] if ending_source else ""
 
     object_terms = bool(re.search(r"relic|artifact|antique|mirror|clock|watch|jewel|stone|museum object|golden eye", full))
-    object_voice = bool(re.search(r"(?:objects?|relics?|artifacts?|antiques?|mirrors?|clocks?|watch(?:es)?|jewels?|stones?)\s+(?:speaks?|talks?|remembers?|recounts?|testifies|whispers?|warns?|asks?|begs?)\b|hear(?:s|ing)?(?:\s+\w+){0,5}\s+(?:objects?|relics?|artifacts?|antiques?|mirrors?|clocks?|watch(?:es)?|jewels?|stones?)\s+(?:speaks?|talks?|remembers?|recounts?|testifies|whispers?)\b|whispering relics|golden eye", full))
+    object_voice = bool(re.search(r"(?:objects?|relics?|artifacts?|antiques?|mirrors?|clocks?|watch(?:es)?|jewels?|stones?)\s+(?:speaks?\b(?!\s+volumes\b)|talks?|remembers?|recounts?|testif(?:y|ies)|whispers?|warns?|asks?|begs?)\b|hear(?:s|ing)?(?:\s+\w+){0,5}\s+(?:objects?|relics?|artifacts?|antiques?|mirrors?|clocks?|watch(?:es)?|jewels?|stones?)\s+(?:speaks?\b(?!\s+volumes\b)|talks?|remembers?|recounts?|testif(?:y|ies)|whispers?)\b|hear(?:s|ing)?(?:\s+\w+){0,5}\s+(?:objects?|relics?|artifacts?|antiques?|mirrors?|clocks?|watch(?:es)?|jewels?|stones?)\s+reveals?\s+(?:\w+\s+){0,5}aloud\b|whispering relics|golden eye", full))
     objects_speak = object_terms and object_voice
     testimony = bool(re.search(r"voice|whisper|speak|remember|testimony|history|memory|says|tells? (?:her|him|them)", full))
     provenance = bool(re.search(r"provenance|authentic|fake|apprais|artifact|relic|antique|museum|cultural|auction|restoration|stolen", full))
-    applies = objects_speak and testimony and provenance
+    applies = objects_speak and provenance
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
     checks = {
         "object_testimony_is_limited_not_omniscient": bool(re.search(r"doesn.?t know|limited (?:memory|knowledge|testimony)|only (?:saw|heard|remembers?)|remembers? only fragments?|(?:memory|testimony) fragments?|fragments? of (?:memory|testimony|the theft|the event)|fragmented (?:memory|testimony)|partial (?:memory|testimony|knowledge)|hypothesis|lead|clue|not proof|must verify|needs? verification", full)),
-        "objects_have_history_or_personhood": bool(re.search(r"(?:objects?|relics?|artifacts?|antiques?|mirrors?|clocks?|watch(?:es)?|jewels?|stones?)\s+(?:speak|remember|ask|beg|warn|recount|testify)\b|voice|whisper|don.?t (?:melt|smash|break|touch)|history|memory|belong", full)),
+        "objects_have_history_or_personhood": bool(re.search(r"(?:objects?|relics?|artifacts?|antiques?|mirrors?|clocks?|watch(?:es)?|jewels?|stones?)\s+(?:speaks?\b(?!\s+volumes\b)|remembers?|asks?|begs?|warns?|recounts?|testif(?:y|ies))\b|voice|whisper|don.?t (?:melt|smash|break|touch)|history|memory|belong", full)),
         "craft_or_labor_precedes_power": bool(re.search(r"apprais|craft|work|labor|owed|paycheck|job|competence|inspection|negotiat|expert|professional", full)),
         "magic_produces_leads_not_verdicts": _affirmative_match(r"scan|\btests?\b|\blab(?:oratory)?\b|\bct\b|fracture|x[- ]?ray|verify|independent (?:test|lab|laboratory|verification|witness|expert|chemical analysis|analysis)|chemical analysis|forensic analysis|material analysis|evidence|proof|record|document|inspect|hash|chain of custody", full),
         "verification_is_procedural": _affirmative_match(r"scan|\btests?\b|\blab(?:oratory)?\b|\bct\b|fracture|independent (?:test|lab|laboratory|verification|witness|expert|chemical analysis|analysis)|chemical analysis|forensic analysis|material analysis|police|court|lawyer|warrant|customs|task force|record|log|payment trail|chain of custody|sealed", full),

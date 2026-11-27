@@ -2698,3 +2698,25 @@ def test_object_testimony_non_speaking_revealing_artifacts_not_applicable():
     from studio.object_testimony_integrity import evaluate_object_testimony_integrity
     premise={"title":"Museum Artifacts","logline":"Museum artifacts reveal a collection's history of provenance and restoration without speaking."}
     assert evaluate_object_testimony_integrity(premise,{},[])["applies"] is False
+
+
+def test_object_testimony_testify_and_reveal_aloud_apply():
+    from studio.object_testimony_integrity import evaluate_object_testimony_integrity
+    one={"title":"Relics","logline":"A museum appraiser hears museum relics testify about stolen provenance and restoration."}
+    two={"title":"Relics","logline":"A museum appraiser hears relics reveal their stolen provenance history aloud."}
+    assert evaluate_object_testimony_integrity(one,{},[])["applies"] is True
+    assert evaluate_object_testimony_integrity(two,{},[])["applies"] is True
+
+
+def test_object_testimony_speaking_watch_personhood_third_person():
+    from studio.object_testimony_integrity import evaluate_object_testimony_integrity
+    premise={"title":"Museum Watch","logline":"A museum appraiser hears the stolen watch speak about provenance and restoration."}
+    summary="The stolen watch speaks."
+    r=evaluate_object_testimony_integrity(premise,{"sequences":[{"summary":summary}]},[])
+    assert r["checks"]["objects_have_history_or_personhood"] is True
+
+
+def test_object_testimony_speaks_volumes_idiom_not_applicable():
+    from studio.object_testimony_integrity import evaluate_object_testimony_integrity
+    premise={"title":"Museum Artifact","logline":"The artifact speaks volumes about museum history, provenance, and restoration."}
+    assert evaluate_object_testimony_integrity(premise,{},[])["applies"] is False
