@@ -2157,3 +2157,93 @@ def test_supernatural_child_witness_flags_oracle_shortcut():
     assert result["checks"]["care_before_knowledge_extraction"] is False
     assert result["checks"]["confession_or_moral_truth_payoff"] is False
     assert result["warnings"]
+
+
+def test_supernatural_child_witness_opening_events_do_not_satisfy_finale():
+    from studio.supernatural_child_witness import evaluate_supernatural_child_witness
+    result = evaluate_supernatural_child_witness(
+        {"title": "Vision Witness", "logline": "A child has supernatural visions of a murder cold case."},
+        {"sequences": [
+            {"summary": "Hospital care and comfort come first, then a cover-up is mentioned and the child is safe at home."},
+            {"summary": "The vision becomes dangerous; trauma and skepticism compete with spiritual explanation while police verify records and photographs."},
+            {"summary": "A powerful family resists and the afraid child publicly identifies the killer."},
+            {"summary": "The villain is arrested after a fight and the film stops."},
+        ]},
+        [],
+    )
+    assert result["applies"] is True
+    assert result["checks"]["confession_or_moral_truth_payoff"] is False
+    assert result["checks"]["ordinary_safety_reestablished_after_mystery"] is False
+
+
+def test_supernatural_child_witness_care_order_ignores_metadata_question():
+    from studio.supernatural_child_witness import evaluate_supernatural_child_witness
+    result = evaluate_supernatural_child_witness(
+        {"title": "Vision Witness", "logline": "A child has supernatural visions of a murder cold case."},
+        {"dramatic_question": "What do the visions mean?", "sequences": [
+            {"summary": "Hospital bedside care: the father comforts and protects his son."},
+            {"summary": "Then the child remembers impossible knowledge about a missing woman."},
+        ]},
+        [],
+    )
+    assert result["checks"]["care_before_knowledge_extraction"] is True
+
+
+def test_supernatural_child_witness_bare_father_interrogation_is_not_care():
+    from studio.supernatural_child_witness import evaluate_supernatural_child_witness
+    result = evaluate_supernatural_child_witness(
+        {"title": "Vision Witness", "logline": "A child has supernatural visions of a murder cold case."},
+        {"sequences": [
+            {"summary": "The father interrogates the child for answers."},
+            {"summary": "Then the child remembers impossible knowledge about a missing woman."},
+        ]},
+        [],
+    )
+    assert result["checks"]["care_before_knowledge_extraction"] is False
+
+
+def test_supernatural_child_witness_ordinary_television_crime_does_not_apply():
+    from studio.supernatural_child_witness import evaluate_supernatural_child_witness
+    result = evaluate_supernatural_child_witness(
+        {"title": "Ordinary Crime", "logline": "A detective investigates a television personality's disappearance and questions a witness."},
+        {"sequences": []},
+        [],
+    )
+    assert result["applies"] is False
+
+
+def test_undercover_identity_secrecy_without_status_does_not_trigger_hidden_identity():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    result = evaluate_hidden_identity_integrity(
+        {"title": "Undercover", "logline": "A detective keeps her identity secret to investigate a smuggler."},
+        {"sequences": []},
+        [],
+    )
+    assert result["applies"] is False
+
+
+def test_supernatural_child_witness_cast_and_cooperative_sheriff_do_not_pass_procedure():
+    from studio.supernatural_child_witness import evaluate_supernatural_child_witness
+    result = evaluate_supernatural_child_witness(
+        {"title": "Vision Witness", "logline": "A child has supernatural visions after witnessing a murder."},
+        {"sequences": [
+            {"summary": "Hospital care and comfort come first."},
+            {"summary": "The child knows impossible knowledge. A cooperative sheriff listens and helps, but nobody verifies the vision or checks records."},
+        ]},
+        [],
+    )
+    assert result["checks"]["supernatural_clues_converted_into_procedure"] is False
+    assert result["checks"]["institutional_or_local_power_resistance"] is False
+
+
+def test_supernatural_child_witness_single_accepted_explanation_is_not_competition():
+    from studio.supernatural_child_witness import evaluate_supernatural_child_witness
+    result = evaluate_supernatural_child_witness(
+        {"title": "Vision Witness", "logline": "A child has supernatural visions of a murder cold case."},
+        {"sequences": [
+            {"summary": "Hospital care and comfort come first."},
+            {"summary": "Everyone accepts reincarnation immediately, and the police investigate the crime using records they already had."},
+        ]},
+        [],
+    )
+    assert result["checks"]["competing_explanations_for_child_knowledge"] is False

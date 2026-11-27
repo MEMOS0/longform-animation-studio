@@ -63,10 +63,10 @@ def evaluate_hidden_identity_integrity(premise: dict[str, Any], architecture: di
     rank_vocabulary = {
         "princess", "princesses", "prince", "princes", "royal", "royals", "palace", "kingdom", "crown", "king", "kings", "queen", "queens",
         "heir", "heiress", "countess", "countesses", "duke", "duchess", "lord", "lady",
-        "billionaire", "wealth",
+        "billionaire", "millionaire", "trillionaire", "wealth", "wealthy", "rich", "ceo",
     }
     concealed_rank_context = bool(rank_vocabulary & rank_tokens)
-    hidden = status_hidden or (occupational_disguise and concealed_rank_context)
+    hidden = (status_hidden or occupational_disguise) and concealed_rank_context
     if not hidden:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
