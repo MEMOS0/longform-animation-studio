@@ -30,10 +30,10 @@ def evaluate_dual_incognito_workplace_integrity(premise: dict[str, Any], archite
     narrative = "\n".join([_text(architecture), _text(scenes)]).lower()
     full = "\n".join([_text(premise), narrative]).lower()
 
-    workplace = bool(re.search(r"\b(?:hotel|restaurant|hospital|factory|company|office|shop|store|staff|employee|worker|manager|payroll|workplace)\b", full))
+    workplace = bool(re.search(r"\b(?:hotel|restaurant|hospital|factor(?:y|ies)|compan(?:y|ies)|office|shop|stores?|staff|employees?|workers?|managers?|payroll|workplace)\b", full))
     hidden_power = bool(re.search(r"secret(?:ly)? (?:a )?(?:owner|billionaire|heir|heiress|ceo|executive)|hidden (?:owner|identity|wealth|status)|incognito|ordinary staff position|conceals? (?:her|his|their) (?:identity|wealth|status)", full))
     stripped_power = bool(re.search(r"lost everything|fired|removed as ceo|deposed|framed|stripped of|false(?:ly)? accused|suspended|bankrupt", full))
-    labor_entry = bool(re.search(r"takes? (?:a )?(?:job|position)|applies?|\bordinary staff\b|\bassistant\b|\bcleaner\b|\bserver\b|\bworker\b|\bemployee\b|\buniform\b|\bshift\b|\blabor\b", full))
+    labor_entry = bool(re.search(r"takes? (?:a )?(?:job|position)|applies?|\bordinary staff\b|\bassistant\b|\bcleaner\b|\bserver\b|\bworkers?\b|\bemployees?\b|\buniforms?\b|\bshifts?\b|\blabor\b", full))
     if not (workplace and labor_entry and (hidden_power or stripped_power)):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 

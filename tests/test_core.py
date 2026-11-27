@@ -4097,3 +4097,31 @@ def test_dual_incognito_one_payroll_file_is_not_multi_source_evidence():
     result=evaluate_dual_incognito_workplace_integrity(premise,architecture,[])
     assert result['applies'] is True
     assert result['checks']['evidence_is_procedural_and_multi_source'] is False
+
+def test_social_dialogue_uses_variant_proof_chain_and_no_early_accusation():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    premise=generate_premises('social_test_melodrama',1,42)[0]
+    assert 'wing-fracture signature' in premise['proof_chain']
+    scenes=generate_scenes(premise,generate_architecture(premise))
+    scene4=' '.join(t['line'] for t in scenes[3]['dialogue_design']['spoken_exchange']).lower()
+    assert 'invent a thief' not in scene4 and 'convenient' not in scene4
+    all_dialogue=' '.join(t['line'] for s in scenes for t in s['dialogue_design']['spoken_exchange'])
+    assert 'wing-fracture signature' in all_dialogue
+
+
+def test_mute_child_communicates_by_signal_not_spoken_testimony():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    premise=generate_premises('social_test_melodrama',3,42)[1]
+    scenes=generate_scenes(premise,generate_architecture(premise))
+    child_lines=[t['line'] for s in scenes for t in s['dialogue_design']['spoken_exchange'] if 'nephew' in t['speaker']]
+    assert child_lines and all(line.startswith('[') for line in child_lines)
+
+
+def test_dual_incognito_plural_employee_shift_cues_apply():
+    from studio.dual_incognito_workplace_integrity import evaluate_dual_incognito_workplace_integrity
+    premise={'logline':'A fired ceo joins employees on a night shift.'}
+    assert evaluate_dual_incognito_workplace_integrity(premise,{},[])['applies'] is True
