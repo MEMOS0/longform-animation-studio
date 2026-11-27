@@ -75,7 +75,7 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 - Completed output: `knowledge/market/mini-series-five-vampires-demon-pact-deep-dive.md` plus `evidence/media/yA_UfmmVAG0/`.
 - Extracted doctrine: betrayal-triggered restitution/vision irony; conditional pact, hidden restored perception, escalating bodily extraction, public forced-choice test, visible moral-ledger consequence, rejected instrumental repentance, care/consent before identity reward.
 
-### 5. `DD35huaUIa8` — The Binge Bench
+### 5. `DD35huaUIa8` — The Binge Bench — completed 2026-11-27; novel maternal-professional sovereignty / pregnancy-leverage doctrine beyond general consent repair.
 
 - Title: abandoned pregnant wife is secretly lost Lycan princess.
 - Scale/performance: about 2.5k subscribers, 224,307 views in 5.5 days, about 40,705 views/day.

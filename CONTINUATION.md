@@ -133,3 +133,9 @@ Immediate next steps:
 4. Keep rotating context early; do not wait for review.
 
 Environment warning: `.git/refs/heads/devin/1795803830-jasmine-reborn-school-analysis` may again become zero-filled on rotation. Restore it from the latest pushed commit hash rather than discarding work.
+
+## 2026-11-27 maternal-sovereignty checkpoint
+
+Completed the DD35huaUIa8 audiovisual deep dive: `knowledge/market/the-binge-bench-unwanted-wife-lycan-princess-deep-dive.md` now contains timestamped evidence, act metrics, sampled contact-sheet observations, thumbnail analysis, and the maternal-professional sovereignty doctrine. Added `studio/maternal_sovereignty_integrity.py`, integrated it into `studio/production.py`, and added positive/negative tests. Derived evidence is under `evidence/media/DD35huaUIa8/`; `audio_16k.wav` was removed before archiving. English transcript is auto-generated ASR and contact sheets are sampled visual inspection, not continuous frame-by-frame annotation.
+
+Next: handle any new PR #7 findings, commit/push this checkpoint, then continue fresh low-subscriber breakout scanning. Do not use subagents.

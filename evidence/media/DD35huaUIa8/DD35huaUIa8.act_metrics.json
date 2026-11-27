@@ -1,0 +1,122 @@
+[
+  {
+    "act": "public abandonment and pregnancy injury",
+    "minutes": "0-3",
+    "mean_wpm": 102.3,
+    "visual_motion": 0.1692,
+    "brightness": 0.2735,
+    "audio_rms": 0.0454,
+    "onsets_per_sec": 5.5333,
+    "silence_ratio": 0.0037
+  },
+  {
+    "act": "hidden Lycan origin and divorce return",
+    "minutes": "3-6",
+    "mean_wpm": 115.7,
+    "visual_motion": 0.1462,
+    "brightness": 0.2832,
+    "audio_rms": 0.0386,
+    "onsets_per_sec": 5.7222,
+    "silence_ratio": 0.0259
+  },
+  {
+    "act": "coercive contract, rejection, and exit",
+    "minutes": "6-10",
+    "mean_wpm": 94.2,
+    "visual_motion": 0.1495,
+    "brightness": 0.3005,
+    "audio_rms": 0.0513,
+    "onsets_per_sec": 6.05,
+    "silence_ratio": 0.0172
+  },
+  {
+    "act": "erasure, medical files, and royal reveal",
+    "minutes": "10-18",
+    "mean_wpm": 112.9,
+    "visual_motion": 0.1184,
+    "brightness": 0.226,
+    "audio_rms": 0.0421,
+    "onsets_per_sec": 4.8521,
+    "silence_ratio": 0.1939
+  },
+  {
+    "act": "custody threat, miscarriage lie, and endorsement bargain",
+    "minutes": "18-23",
+    "mean_wpm": 129.0,
+    "visual_motion": 0.1164,
+    "brightness": 0.2841,
+    "audio_rms": 0.0356,
+    "onsets_per_sec": 4.8433,
+    "silence_ratio": 0.3185
+  },
+  {
+    "act": "chief-healer professional proof",
+    "minutes": "23-29",
+    "mean_wpm": 107.0,
+    "visual_motion": 0.1467,
+    "brightness": 0.3824,
+    "audio_rms": 0.0499,
+    "onsets_per_sec": 5.0,
+    "silence_ratio": 0.2323
+  },
+  {
+    "act": "career dream versus pregnancy concealment cost",
+    "minutes": "29-32",
+    "mean_wpm": 136.0,
+    "visual_motion": 0.1318,
+    "brightness": 0.3323,
+    "audio_rms": 0.0439,
+    "onsets_per_sec": 5.0944,
+    "silence_ratio": 0.2188
+  },
+  {
+    "act": "luxury humiliation and political endorsement",
+    "minutes": "32-38",
+    "mean_wpm": 130.2,
+    "visual_motion": 0.137,
+    "brightness": 0.2999,
+    "audio_rms": 0.0433,
+    "onsets_per_sec": 5.375,
+    "silence_ratio": 0.2545
+  },
+  {
+    "act": "antidote coercion and rescue leverage",
+    "minutes": "38-44",
+    "mean_wpm": 103.3,
+    "visual_motion": 0.1174,
+    "brightness": 0.2372,
+    "audio_rms": 0.041,
+    "onsets_per_sec": 4.6889,
+    "silence_ratio": 0.2924
+  },
+  {
+    "act": "false pregnancy exposure and trust diagnosis",
+    "minutes": "44-51",
+    "mean_wpm": 103.3,
+    "visual_motion": 0.1404,
+    "brightness": 0.3113,
+    "audio_rms": 0.0398,
+    "onsets_per_sec": 4.9405,
+    "silence_ratio": 0.168
+  },
+  {
+    "act": "proposal rivalry and campaign sacrifice",
+    "minutes": "51-56",
+    "mean_wpm": 83.8,
+    "visual_motion": 0.1547,
+    "brightness": 0.2991,
+    "audio_rms": 0.0425,
+    "onsets_per_sec": 4.7533,
+    "silence_ratio": 0.3042
+  },
+  {
+    "act": "healing reactivation, accountability, and remarriage",
+    "minutes": "56-58.2",
+    "mean_wpm": 90.0,
+    "visual_motion": 0.163,
+    "brightness": 0.3157,
+    "audio_rms": 0.0423,
+    "onsets_per_sec": 5.656,
+    "silence_ratio": 0.1455
+  }
+]

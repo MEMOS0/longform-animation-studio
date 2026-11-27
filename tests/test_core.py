@@ -3465,3 +3465,33 @@ def test_restitution_pact_conditional_terms_not_actual_betrayal_position():
     ]
     r=evaluate_restitution_pact_integrity(premise,architecture,scenes)
     assert r['checks']['beneficiaries_vow_protection_before_betrayal'] is True
+
+
+def _maternal_sovereignty_fixture():
+    premise={'title':'Lantern Ward of the Glass Court','protagonist':{'identity':'Mira'},'logline':'A pregnant secret contract wife is abandoned by her alpha husband for his first love while hiding that she is a lost royal healer.'}
+    architecture={'sequences':[
+      {'summary':'In the opening he abandons his pregnant bleeding wife to protect another woman; she begs him to save the baby. Mira accepted contract money to save her vulnerable friend from persecution, but the clause says she belongs to him whenever he wants and birth during the contract gives him full custody.'},
+      {'summary':'She publicly rejects the unwanted marriage, lies that the baby died to hide the live pregnancy because he could steal the baby through custody law, and becomes chief healer through a resume without nepotism, a healing demonstration, scientific research, and a medical breakthrough independent of her princess identity.'},
+      {'summary':'A medical board examination, security footage, reports, investors, election endorsements, and hospital evidence expose the false pregnancy publicly. When he says he never cheated, she answers that he never trusted her and never really wanted her. He signs the divorce papers and lets go before any reunion.'},
+      {'summary':'His breakfasts are rejected; apology is insufficient. He gives up the election campaign and loses power to save her, waits patiently, and tells her she can refuse. Only after the truth is revealed does he ask her to marry him again, calling her healer princess and strongest woman; informed and uncoerced, she says yes.'},
+    ]}
+    return premise,architecture,[]
+
+
+def test_maternal_sovereignty_integrity_positive():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    r=evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.9
+    assert all(r['checks'].values())
+
+
+def test_maternal_sovereignty_integrity_rejects_status_without_repair():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences']=[{'summary':'A pregnant secret contract wife is humiliated. She is a princess, so everyone kneels. The rival lied, so he apologizes and she immediately remarries him.'}]
+    r=evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)
+    assert r['checks']['professional_competence_is_independent_of_hidden_status'] is False
+    assert r['checks']['male_repair_requires_material_cost_not_only_apology'] is False
+    assert r['checks']['release_of_control_precedes_reunion'] is False
