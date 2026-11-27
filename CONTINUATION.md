@@ -793,3 +793,11 @@ Continue immediately with non-creature low-subscriber queue: `s-Zn2WhkkH8`, `wHW
 - Review job `pr-review-job-d085a260532c4a86b81169cffc8e1b4a` fixed/triaged/end-triaged. Additional hardening: named artifact voices such as a watch speaking are recognized; independent chemical/forensic/material analysis counts as corroboration; physical fragments no longer count as fragmented memory/testimony.
 - A newer review may be running on `57d36e7`; handle findings first if they arrive.
 - Next substantive work: cleanup stale fresh-breakout queue, dedupe candidates before download, continue low-subscriber/noncreature comparative analysis, then deepen professional dialogue integration.
+
+## 2026-11-27 rotate after third object-testimony review round
+
+- Latest pushed commit: `f28947173dbd007152b735c3675b5cd06a7074c5`.
+- Latest verified test baseline: 300 passed.
+- Review job `pr-review-job-26e8aac775c94a39ad694caa53325995` fixed/triaged/end-triaged. Shared root fix hardened object-testimony language matching: recount/testify verbs, cancellation negation, word-bounded artifact speech, fragmentary recollection phrasing, and named watch personhood.
+- A newer review may be running on `f289471`; handle findings first if they arrive.
+- Next substantive work: cleanup stale fresh-breakout queue, dedupe candidates before download, continue low-subscriber/noncreature comparative analysis, then deepen professional dialogue integration.
