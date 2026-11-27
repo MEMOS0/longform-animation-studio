@@ -26,7 +26,11 @@ def scene_time_coverage(scenes: list[dict[str, Any]], expected_minutes: float) -
     for scene in scenes:
         parsed = minutes_range(str(scene.get("time_range", "")))
         if parsed and parsed[1] > parsed[0]:
-            intervals.append(parsed)
+            start, end = parsed
+            if expected_minutes:
+                start, end = max(start, 0.0), min(end, expected_minutes)
+            if end > start:
+                intervals.append((start, end))
     intervals.sort()
     merged: list[list[float]] = []
     for start, end in intervals:

@@ -1328,3 +1328,34 @@ def test_zero_to_hero_integrity_flags_generic_power_fantasy():
     result=evaluate_zero_to_hero_integrity(premise,{},[])
     assert result['score_0_to_1']<0.5
     assert any('cost' in warning for warning in result['warnings'])
+
+
+def test_prohibition_scifi_integrity_accepts_2050_pattern():
+    from studio.prohibition_scifi_integrity import evaluate_prohibition_scifi_integrity
+    premise={"title_candidates":["The World in 2050, After World War III"],"logline":"post-apocalyptic eden collectors take anyone who looks up"}
+    arch={"sequences":[
+      {"turn":"father makes child practice face down don't look up; collectors carried people off and wipe memory after three days deadline"},
+      {"turn":"robot companion earns trust, he is not a thing, he is my friend"},
+      {"turn":"machine didn't start war, it said no and refused to launch; a man blamed a machine"},
+      {"turn":"eden paradise is mines, collars, erased memory and control"},
+      {"turn":"look at its eyes, look up safe now; dad compass find your way back, I'll remember for both, build a world where no one hides face"},
+      {"turn":"another eden sequel hook after closure"}]}
+    result=evaluate_prohibition_scifi_integrity(premise,arch,[])
+    assert result['applies']
+    assert result['score_0_to_1']==1.0
+
+
+def test_prohibition_scifi_integrity_flags_surface_rule_copy():
+    from studio.prohibition_scifi_integrity import evaluate_prohibition_scifi_integrity
+    premise={"title_candidates":["Don't Look Up in 2050"],"logline":"an evil AI rules eden"}
+    result=evaluate_prohibition_scifi_integrity(premise,{},[])
+    assert result['score_0_to_1']<0.5
+
+
+def test_scene_coverage_extra_minutes_do_not_mask_internal_gap():
+    from studio.scene_coverage import scene_time_coverage
+    scenes=[{"time_range":"0-10"},{"time_range":"20-35"}]
+    result=scene_time_coverage(scenes,30)
+    assert result['covered_minutes']==20
+    assert not result['complete']
+    assert result['coverage_ratio']<0.98
