@@ -2407,3 +2407,26 @@ def test_child_economic_claimant_requires_ordinary_childhood_ending():
     premise={"title":"Daddy Pay Up","logline":"A little girl demands child support and formula money from a billionaire CEO deadbeat dad who owes a debt."}
     r=evaluate_child_economic_claimant_integrity(premise,{"sequences":[{"summary":"The corporate battle ends with adults praising the heir forever."}]},[])
     assert r["checks"]["ending_restores_ordinary_child_development"] is False
+
+
+def test_economic_abandonment_full_chain_passes():
+    from studio.economic_abandonment_integrity import evaluate_economic_abandonment_integrity
+    premise={"title":"Train Station","logline":"After the wedding her husband left her at the train station saying don't belong, took everything, and betrayed her for money and orchard property."}
+    architecture={"sequences":[{"summary":"Her purse, phone, wallet, id, ring, money, suitcase, letter, home, job, and credit are stripped. Maggie's cafe gives a job, room upstairs, shelter, meal, food, mutual aid not charity, work, labor and a broom defense. She notices invoice price discrepancies, financial bookkeeping, contracts, figures out the fraud, and sees a lawyer before romantic security. She refuses $50,000 to leave Chicago, the class bribe, purchased rescue, and says don't pay your way out. Invoice, financials, power of attorney, notarized revocation, bank loan, purchase agreement, court, judge, prosecutor, records, signature, proof, and evidence establish truth. $186,000 transfer cures the default, auction is canceled, he must pay back, the orchard is in her name, loan paid, debt paid, restitution. Maggie the rescuer is not by blood but mother; wherever I live she lives, our home is her home, chosen family. In the ending before I answer there is something you need to know, she makes a free choice and says yes; a door of her own, business, home, wedding, family, orchard, cafe, own name, belong and mom repair the threshold."}]}
+    r=evaluate_economic_abandonment_integrity(premise,architecture,[])
+    assert r["applies"] is True
+    assert r["score_0_to_1"] == 1.0
+
+
+def test_economic_abandonment_rejects_non_economic_breakup():
+    from studio.economic_abandonment_integrity import evaluate_economic_abandonment_integrity
+    r=evaluate_economic_abandonment_integrity({"title":"Breakup","logline":"A husband abandons his wife after an argument."},{"sequences":[]},[])
+    assert r["applies"] is False
+
+
+def test_economic_abandonment_requires_measurable_restitution():
+    from studio.economic_abandonment_integrity import evaluate_economic_abandonment_integrity
+    premise={"title":"Train Station","logline":"After the wedding her husband left her at the train station saying don't belong, stole everything, and betrayed her for money."}
+    r=evaluate_economic_abandonment_integrity(premise,{"sequences":[{"summary":"She feels better because a wealthy man loves her."}]},[])
+    assert r["checks"]["restitution_is_measurable"] is False
+    assert r["checks"]["first_repair_is_mutual_aid_and_work"] is False

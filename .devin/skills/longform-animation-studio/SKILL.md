@@ -472,3 +472,9 @@ Use the `child_economic_claimant_integrity` project-evaluation gate as a warning
 ## 2026-11-27 comparative child-agency doctrine update
 
 For any child-centered family melodrama, read `knowledge/craft/child-agency-comparative-doctrine.md` before choosing premise architecture. The key rule is that children create moral pressure and evidence leads, while adults remain responsible for safety, verification, money, custody, therapy, and repair. Wealth is restitution capacity, not absolution; the ending must restore ordinary childhood development.
+
+## 2026-11-27 economic-abandonment mutual-aid doctrine update
+
+Before greenlighting class-abandonment/romantic betrayal melodrama, read `knowledge/market/nightfall-ivy-economic-abandonment-repair-deep-dive.md`. The portable mechanism is stripped identity infrastructure, first rescue through mutual-aid work rather than wealthy romance, financial/legal competence before security, refusal of class bribes or purchased rescue, procedural evidence, measurable restitution, chosen-family inclusion, conditional free acceptance, and an ending that converts the abandonment threshold into owned belonging.
+
+Use the `economic_abandonment_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy Ivy's train-station plot, orchard mechanics, dialogue, or thumbnail; extract the mechanism and build original stories.

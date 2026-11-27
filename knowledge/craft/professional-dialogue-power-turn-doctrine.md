@@ -228,3 +228,12 @@ Evidence source: `knowledge/market/dramavoxie-lulu-child-economic-claimant-deep-
 2. **Child logic should be literal but not stupid.** Lulu's invoice, stranger distrust, hiding, and tea observation work because they are concrete child-scale inferences.
 3. **Adult apology must be interrogated.** “Is a simple sorry enough?” is stronger than instant reunion because it forces material history back into the scene.
 4. **Accountability dialogue should name systems.** Cameras, tests, lawyers, forged evidence, recovered assets, and court turn family melodrama into verifiable consequence.
+
+## Economic-abandonment repair dialogue addendum (2026-11-27)
+
+Evidence source: `knowledge/market/nightfall-ivy-economic-abandonment-repair-deep-dive.md`.
+
+1. **Anti-rescue lines protect love and agency at once.** “Don't pay your way out of this for me” refuses dependency without refusing the relationship.
+2. **Class wounds should echo in new forms.** The aunt's leave-town check repeats Brett's abandonment letter, allowing Ivy to answer the same insult with greater agency.
+3. **Financial dialogue can be dramatic when exact.** Power of attorney, invoice numbers, auction deadlines, loan amounts, and repayment terms create stakes because they are testable.
+4. **Final consent should name belonging structure.** “Wherever I live, she lives” is stronger than a generic proposal answer because it defines who is included in the future home.

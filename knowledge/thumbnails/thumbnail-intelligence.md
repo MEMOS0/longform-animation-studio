@@ -145,3 +145,9 @@ The Poppy thumbnail accurately compresses the film's mechanism: luxury staircase
 Evidence source: `knowledge/market/dramavoxie-lulu-child-economic-claimant-deep-dive.md` and `data/raw/thumbnails/dramavoxie/R14QjIS7O50.maxresdefault.webp`.
 
 The Lulu thumbnail demonstrates a child-invoice/public-claim pattern: the child dominates center frame, a handmade “My Milk Money!” sign is mobile-legible, the CEO reaction supplies humiliation, and corporate luxury supplies scale. The prop compresses invisible care economics, public scandal, and family identity into one readable object. The mechanism is stronger than generic cute-child packaging because the child has a demand.
+
+## Transport-threshold abandonment thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/nightfall-ivy-economic-abandonment-repair-deep-dive.md` and `data/raw/thumbnails/nightfall_drama/26o_ccDnTSg.maxresdefault.webp`.
+
+The Nightfall thumbnail demonstrates transport-threshold abandonment: wedding dress, letter, suitcase/bouquet, station depth, clock/architecture, and the groom's departing back. The image accurately sells the wound while concealing the solution. This is useful when the retention engine is repair/process rather than more humiliation; packaging can be truthful without exposing every procedural payoff.
