@@ -103,3 +103,15 @@ Full audiovisual deep dive completed in `knowledge/market/nexora-mechanic-constr
 - Fated/CrushLoop same-format hit-low comparison completed 2026-11-27: `knowledge/market/fated-crushloop-hit-low-comparison.md`; low performers falsify visual-quality and dialogue-density explanations. Validators deferred pending broader repetition.
 
 - Hushfall short-form hit-low comparison completed 2026-11-27: `knowledge/market/hushfall-shortform-hit-low-comparison.md`; sports uplift vs static late-confession counterexample integrated.
+
+## Expanded 5-day scan checkpoint — 2026-11-27
+
+The expanded Piped scan (`data/processed/recent_breakout_candidates.json`) found 55 in-window rows and 87 carryover rows. Most high-velocity fantasy leads are already analyzed or are repeat/compilation performers. Genuinely under-analyzed low/mid-subscriber leads now prioritized:
+
+1. `2bxYdqDDueY` — Celine Drama TV, about 13.2k subscribers, about 182k views/day, 71m: FBI single mother falls for apparent security guard who is secretly a mafia don. Tests dual-incognito/protective-power mechanics in a compact romantic thriller.
+2. `it3DAkGGrnk` — NeoDrama AI, about 4.3k subscribers, about 81k views/day, 64m: reborn woman lets roommate/boyfriend expose themselves by moving in, then leaves. Tests rebirth as strategic withdrawal rather than direct revenge.
+3. `zXZuLkLeBTk` — StarKiss Drama, about 9.4k subscribers, about 53k views/day, 80m: maid/billionaire-heir melodrama. Useful as a class-labor hidden-romance comparison after CineAI/Hushfall.
+4. `YdN5ESTxUNc` — Zephyr Drama, about 34.5k subscribers, about 49k views/day, 142m: mocked weak mage hides six-affinity magic. Useful for long-format hidden-mastery competence spectacle, but only if English dub alignment is verified.
+5. `6JGkPoF7gKE` — Dragonveil Films, about 129 subscribers, about 32k views/day, 33m: woman raises baby dragon others wanted dead. Extremely low-subscriber creature-protection lead; useful despite possible reuse of existing creature doctrine.
+
+Caution: Piped search is biased and several previous top leads were already analyzed or duplicate/serial compilations. Do not infer novelty from velocity alone; inspect opening evidence before deep dives.
