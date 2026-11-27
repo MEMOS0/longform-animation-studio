@@ -3569,7 +3569,7 @@ def test_restitution_pact_when_rule_without_betrayal_scene_fails_vow_order():
     premise,architecture,scenes=_restitution_pact_fixture()
     architecture['sequences']=[
       {'summary':'They vow to protect her forever after the pact.'},
-      {'summary':'When they betray her, the pact returns her sight.'},
+      {'summary':'The pact rule states that when they betray her, the pact will return her sight.'},
     ]
     assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is False
 
@@ -3615,3 +3615,30 @@ def test_maternal_sovereignty_plural_heirs_trigger_applicability():
     premise={'title':'Heirs of the Contract','logline':'In a contract marriage, her husband abandons her and their heirs for another woman.'}
     architecture={'sequences':[{'summary':'The secret wife is betrayed; custody of the heirs becomes leverage.'}]}
     assert evaluate_maternal_sovereignty_integrity(premise,architecture,[])['applies'] is True
+
+def test_maternal_sovereignty_negated_release_does_not_count_as_ordering():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][2]={'summary':'A medical board examination, security footage, reports, investors, election endorsements, and hospital evidence expose the false pregnancy publicly. When he says he never cheated, she answers that he never trusted her and never really wanted her. He refuses to sign the divorce papers and never releases control.'}
+    architecture['sequences'][3]={'summary':'His apology is insufficient. She remarries him after he refuses to release control and withholds disclosure, without informed consent.'}
+    result=evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)
+    assert result['checks']['release_of_control_precedes_reunion'] is False
+    assert result['checks']['re_choice_is_informed_and_not_coerced'] is False
+
+
+def test_competence_cascade_later_sequel_label_does_not_excuse_early_hook():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes[0]['scene_cards']=[{'title':'Early Hook','objective':'A new mission calls her back.'}]
+    scenes.append({'summary':'Later Label. This scene is called a sequel scene after the new case has already begun.'})
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is False
+
+
+def test_restitution_pact_narrative_when_clause_counts_as_actual_betrayal():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    architecture['sequences']=[
+      {'summary':'They vow to protect her forever after the pact.'},
+      {'summary':'When they betray her, the pact returns her sight.'},
+    ]
+    assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is True
