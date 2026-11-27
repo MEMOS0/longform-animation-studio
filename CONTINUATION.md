@@ -777,3 +777,11 @@ Continue immediately with non-creature low-subscriber queue: `s-Zn2WhkkH8`, `wHW
 - Review rounds through commit `8d77f58` were fixed/triaged. Important validator hardening: revenge autonomy no longer treats exoneration/public-shame stories as identity-return revenge; wrongful accusation infers accusation when evidence clears the accused; affirmative matching splits contrastive “but” clauses while still catching distant negation; object testimony avoids `test` substring false positives like `instantly`.
 - A newer Devin Review may be running on `5914f36`. If findings arrive in the next context, retrieve/triage immediately before long-running analysis.
 - Immediate next work: run a fresh 7-14 day breakout scan or inspect `knowledge/market/recent-breakout-candidates.md` for truly unanalyzed low-subscriber candidates, verify duplication with grep before downloading, then continue comparative analysis. Highest-value untapped new candidate types include legal/institutional family dramas, object/appraisal procedurals, reborn/thought-hearing melodrama, and noncreature vertical revenge autonomy. Also update `fresh-breakout-priority-queue.md` because it still contains stale already-analyzed IDs.
+
+## 2026-11-27 rotate after object-testimony review fixes
+
+- Latest pushed commit: `3a618b3c0ca7fa076c004dfd29a381454a9d9221`.
+- Latest verified test baseline: 292 passed.
+- Review job `pr-review-job-cba7f3ffdd854bf3a5fa4ab5af488c47` was fixed/triaged/end-triaged. Fixes hardened `object_testimony_integrity`: creature-voice stories no longer apply; laboratory tests are recognized; bare object memory and negated/refused verification no longer count as proof.
+- A newer review may be running on `3a618b3`; handle findings first if they arrive.
+- Next work remains fresh low-subscriber breakout scan/dedup, then comparative noncreature analysis. `fresh-breakout-priority-queue.md` still needs cleanup because several IDs are already analyzed.
