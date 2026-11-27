@@ -28,18 +28,53 @@ def _unnegated_positions(pattern: str, text: str) -> list[int]:
     return [match.start() for match in re.finditer(pattern, text) if not _immediate_negation_before(text, match.start())]
 
 
-def _bounded_by_later_repair(narrative_texts: list[str], adverse_pattern: str, strong_repair_pattern: str, weak_repair_pattern: str) -> bool:
-    strong_any = False
-    weak_any = False
-    for text in narrative_texts:
-        strong_positions = _positions(strong_repair_pattern, text)
-        weak_positions = _positions(weak_repair_pattern, text)
-        strong_any = strong_any or bool(strong_positions)
-        weak_any = weak_any or bool(weak_positions)
-        adverse_positions = _unnegated_positions(adverse_pattern, text)
-        if adverse_positions and not any(position > max(adverse_positions) for position in strong_positions):
-            return False
-    return (strong_any or weak_any) and (strong_any or not any(_unnegated_positions(adverse_pattern, text) for text in narrative_texts))
+def _time_start(value: Any, fallback: float) -> float:
+    if not isinstance(value, dict):
+        return fallback
+    for key in ("time_range", "time", "timing"):
+        raw = str(value.get(key, ""))
+        match = re.search(r"(\d+(?:\.\d+)?)", raw)
+        if match:
+            return float(match.group(1))
+    for key in ("sequence", "sequence_number", "index"):
+        try:
+            return float(value[key])
+        except (KeyError, TypeError, ValueError):
+            pass
+    scene_id = str(value.get("scene_id", ""))
+    match = re.search(r"(\d+)", scene_id)
+    return float(match.group(1)) if match else fallback
+
+
+def _timed_units(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> list[tuple[float, str]]:
+    units = [(-1.0, _text(premise).lower())]
+    sequences = architecture.get("sequences") if isinstance(architecture, dict) else None
+    if isinstance(sequences, list) and sequences:
+        for index, sequence in enumerate(sequences, 1):
+            units.append((_time_start(sequence, float(index)), _text(sequence).lower()))
+    else:
+        units.append((0.0, _text(architecture).lower()))
+    scene_units = []
+    for index, scene in enumerate(scenes, 1):
+        scene_units.append((_time_start(scene, float(index)), _text(scene).lower()))
+    units.extend(scene_units)
+    return units
+
+
+def _bounded_by_later_repair(units: list[tuple[float, str]], adverse_pattern: str, strong_repair_pattern: str, weak_repair_pattern: str) -> bool:
+    adverse_events: list[float] = []
+    strong_events: list[float] = []
+    weak_events: list[float] = []
+    for unit_start, text in units:
+        scale = max(len(text), 1) * 1000
+        adverse_events.extend(unit_start + match.start() / scale for match in re.finditer(adverse_pattern, text) if not _immediate_negation_before(text, match.start()))
+        strong_events.extend(unit_start + match.start() / scale for match in re.finditer(strong_repair_pattern, text))
+        weak_events.extend(unit_start + match.start() / scale for match in re.finditer(weak_repair_pattern, text))
+    if not strong_events and not weak_events:
+        return False
+    if not adverse_events:
+        return True
+    return any(position > max(adverse_events) for position in strong_events)
 
 
 def evaluate_coerced_rechoice_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
@@ -57,15 +92,16 @@ def evaluate_coerced_rechoice_integrity(premise: dict[str, Any], architecture: d
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
+    narrative_units = _timed_units(premise, architecture, scenes)
     pressure_is_bounded = _bounded_by_later_repair(
-        [architecture_text, scenes_text],
+        narrative_units,
         r"stand(?:s)? with (?:him|the ceo|ceo|the husband)|insist(?:s|ed)?\s+(?:\w+\s+){0,4}stay married|pressure(?:s|d)?\s+(?:\w+\s+){0,4}stay married|(?:force(?:s|d)?|compel(?:s|led)?|coerce(?:s|d)?|blackmail(?:s|ed)?)\s+(?:\w+\s+){0,5}(?:stay married|marry|marriage)",
         r"stand(?:s)? with (?:you|her|the victim|the wife|nora)|accept(?:s|ed)? (?:her|your) refusal|respect(?:s|ed)? (?:her|your) refusal|family approval.*not.*consent|mother.*not.*consent|board.*not.*consent|pressure.*not.*consent|choice.*not.*family",
         r"won.?t pressure|don.?t pressure|no one can force|free to refuse",
     )
 
     power_is_bounded = _bounded_by_later_repair(
-        [architecture_text, scenes_text],
+        narrative_units,
         r"(?:cuts?|pulls?|withdraws?|weaponizes?|cancels?)\s+(?:\w+\s+){0,4}(?:funding|support|technology|consultants|deal|business contract)|after rejection.{0,80}(?:cuts?|pulls?|withdraws?|weaponizes?|cancels?).{0,40}(?:funding|support|technology|consultants|deal|business contract)",
         r"doesn.?t owe|not owe|deal stands|no retaliation|won.?t (?:pull|withdraw|weaponize)|will not (?:pull|withdraw|weaponize)|continue(?:s|d)? support|business is business|support.*despite rejection",
         r"doesn.?t owe|not owe|deal stands|no retaliation|won.?t (?:pull|withdraw|weaponize)|will not (?:pull|withdraw|weaponize)|continue(?:s|d)? support|business is business|support.*despite rejection",

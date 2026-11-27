@@ -2771,3 +2771,24 @@ def test_coerced_rechoice_scene_assurance_cannot_override_outline_retaliation():
     r=evaluate_coerced_rechoice_integrity(premise,architecture,scenes)
     assert r["checks"]["pressure_is_not_consent_substitute"] is False
     assert r["checks"]["power_is_not_weaponized_after_rejection"] is False
+
+
+def test_coerced_rechoice_uses_scene_time_ranges_for_later_repair():
+    from studio.coerced_rechoice_integrity import evaluate_coerced_rechoice_integrity
+    premise={"title":"Fake Marriage","logline":"An amnesiac heiress enters a fake marriage with a hidden CEO and family pressure."}
+    architecture={"sequences":[{"sequence":1,"time_range":"0-10 minutes","summary":"She sells skills not her body. Evidence records lawyer police court verification truth. Debt leverage. Trust safety disguise. ordinary work partnership before he knows. Money is not a bribe. coercion anger not erased. documents control choice consent. Tell truth. The board forces her to stay married and after rejection he cancels the business contract."}]}
+    scenes=[{"scene_id":"S08","time_range":"70-80 minutes","summary":"Ending repair: they accept her refusal and say I stand with you. He says the deal stands and continues support. She freely chooses partner, not rescuer."}]
+    r=evaluate_coerced_rechoice_integrity(premise,architecture,scenes)
+    assert r["checks"]["pressure_is_not_consent_substitute"] is True
+    assert r["checks"]["power_is_not_weaponized_after_rejection"] is True
+
+
+def test_coerced_rechoice_premise_only_repair_and_weak_reassurance_boundary():
+    from studio.coerced_rechoice_integrity import evaluate_coerced_rechoice_integrity
+    base={"title":"Fake Marriage","logline":"An amnesiac heiress enters a fake marriage with a hidden CEO. The board forces her to stay married, then accepts her refusal; after rejection he cancels the business contract but later says the deal stands and continues support."}
+    r=evaluate_coerced_rechoice_integrity(base,{"sequences":[]},[])
+    assert r["checks"]["pressure_is_not_consent_substitute"] is True
+    assert r["checks"]["power_is_not_weaponized_after_rejection"] is True
+    weak={"title":"Fake Marriage","logline":"An amnesiac heiress enters a fake marriage with a hidden CEO. The board forces her to stay married."}
+    r2=evaluate_coerced_rechoice_integrity(weak,{"sequences":[{"summary":"She is free to refuse."}]},[])
+    assert r2["checks"]["pressure_is_not_consent_substitute"] is False
