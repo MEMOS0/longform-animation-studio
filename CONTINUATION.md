@@ -234,3 +234,7 @@ Environment warning: `.git/refs/heads/devin/1795803830-jasmine-reborn-school-ana
 Completed the DD35huaUIa8 audiovisual deep dive: `knowledge/market/the-binge-bench-unwanted-wife-lycan-princess-deep-dive.md` now contains timestamped evidence, act metrics, sampled contact-sheet observations, thumbnail analysis, and the maternal-professional sovereignty doctrine. Added `studio/maternal_sovereignty_integrity.py`, integrated it into `studio/production.py`, and added positive/negative tests. Derived evidence is under `evidence/media/DD35huaUIa8/`; `audio_16k.wav` was removed before archiving. English transcript is auto-generated ASR and contact sheets are sampled visual inspection, not continuous frame-by-frame annotation.
 
 Next: handle any new PR #7 findings, commit/push this checkpoint, then continue fresh low-subscriber breakout scanning. Do not use subagents.
+
+## 2026-11-27 CineAI checkpoint
+
+CineAI hit/medium/low comparison completed. `gw1SsVcha0Y` deep dive, machine timelines, contact sheets, audio caveat metrics, thumbnail archive, skill/thumbnail integration, and `dual_incognito_workplace_integrity` are implemented. Tests: 444 passed. Next fresh candidates: Fated `B8bd364FM-8`, CrushLoop `6k_W9eG6mAU`, Hushfall `4m3u8UMUgDg`; then return to task 8 scene-specific dialogue scaffolds. Handle any new PR #7 review findings first.

@@ -1,0 +1,58 @@
+{
+  "video_id": "i1abCTNAaxg",
+  "probe": {
+    "duration": 998.27229,
+    "size": 42432909,
+    "width": 638,
+    "height": 360,
+    "fps": "24000/1001",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\i1abCTNAaxg\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\i1abCTNAaxg\\contact_sheets\\contact_001.jpg",
+    "evidence\\media\\i1abCTNAaxg\\contact_sheets\\contact_002.jpg"
+  ],
+  "seconds_indexed": 998,
+  "shot_count": 31,
+  "shot_length_mean_seconds": 32.193548387096776,
+  "shot_length_median_seconds": 20.0,
+  "shot_length_p90_seconds": 74.0,
+  "visual_motion_mean": 0.09386863884957458,
+  "visual_brightness_mean": 0.25723954320760195,
+  "dialogue_cues": 209,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 835.8389999999999,
+      "text": "He died with it."
+    },
+    "first_power_or_identity_language": {
+      "time": 361.12,
+      "text": "and stayed an hour talking to the girl"
+    },
+    "first_care_or_belonging_language": {
+      "time": 33.04,
+      "text": "Love, of course, takes longer."
+    },
+    "dialogue_words_per_minute": [
+      88,
+      68,
+      61,
+      54,
+      75,
+      48,
+      55,
+      78,
+      54,
+      49,
+      57,
+      34,
+      76,
+      82,
+      89,
+      80,
+      26
+    ],
+    "cue_count": 209
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "caveat": "ffmpeg emitted repeated AAC channel-element decode errors for this source; metrics are approximate but nonzero audio was decoded.",
+  "overall_mean_rms": 0.03714,
+  "overall_silence_ratio": 0.121,
+  "segments": [
+    {
+      "segment": "owner_audit+downfall",
+      "start_s": 0,
+      "end_s": 180,
+      "mean_rms": 0.03552,
+      "silence_ratio_below_0.008": 0.15,
+      "loud_ratio_above_0.06": 0.161
+    },
+    {
+      "segment": "job_entry+work_tests",
+      "start_s": 180,
+      "end_s": 700,
+      "mean_rms": 0.03729,
+      "silence_ratio_below_0.008": 0.125,
+      "loud_ratio_above_0.06": 0.142
+    },
+    {
+      "segment": "trust/confession+care",
+      "start_s": 700,
+      "end_s": 960,
+      "mean_rms": 0.03806,
+      "silence_ratio_below_0.008": 0.1,
+      "loud_ratio_above_0.06": 0.112
+    },
+    {
+      "segment": "chosen intimacy+evidence",
+      "start_s": 960,
+      "end_s": 1450,
+      "mean_rms": 0.03617,
+      "silence_ratio_below_0.008": 0.129,
+      "loud_ratio_above_0.06": 0.086
+    },
+    {
+      "segment": "identity reveal+institutional proof",
+      "start_s": 1450,
+      "end_s": 1780,
+      "mean_rms": 0.03597,
+      "silence_ratio_below_0.008": 0.103,
+      "loud_ratio_above_0.06": 0.07
+    },
+    {
+      "segment": "accountability+independent rebuild",
+      "start_s": 1780,
+      "end_s": 2053,
+      "mean_rms": 0.04327,
+      "silence_ratio_below_0.008": 0.118,
+      "loud_ratio_above_0.06": 0.243
+    }
+  ]
+}
