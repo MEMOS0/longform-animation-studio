@@ -626,3 +626,9 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - Implemented `studio/creature_power_inversion.py` and integrated it into `evaluate_project`. Key rule: creature powers should invert the dominant institution's symbolic resource; care must cost something before power, and the ending must show recognition plus visible communal/environmental consequence.
 - Final ending is visual-only after aligned subtitles end around 24:10; exact interpretation of the small gray creature/cliff tail is marked as visual inference, not certainty.
 - Next high-priority work: analyze `EUaUwhMAUgE` (Movie Maxx dragon video already downloaded, no subtitle track in metadata), then refresh low-subscriber breakout scan and continue professional dialogue deepening. Handle any new PR #4 review findings immediately.
+
+## 2026-11-27 Movie Maxx visual-myth checkpoint
+
+- Completed sampled full-runtime visual/music analysis of `EUaUwhMAUgE` (28:18 Movie Maxx, about 754k views, 1.9k subscribers; no subtitle track exposed). Evidence under `evidence/research/rediscovery_analysis/EUaUwhMAUgE/`.
+- Report committed: `knowledge/market/moviemaxx-last-dragon-visual-myth-deep-dive.md`. Doctrine: atmospheric mythic creature fantasy can break out through sound-off legible objectives, scale contrast, protective care before destiny spectacle, and slow composed shots; exact causality is weaker without dialogue, so use its visual grammar rather than narrative ambiguity.
+- Next: refresh low-subscriber breakout scan; prioritize non-creature/non-romance counterexamples; continue professional dialogue deepening; handle PR #4 review findings immediately.
