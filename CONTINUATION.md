@@ -705,3 +705,16 @@ Immediate next work:
 2. Continue non-creature low-subscriber analysis queue: `s-Zn2WhkkH8`, `wHWPGMPQ37Y`, `R14QjIS7O50`, `Z0kns4pvIH4`, `V5VfY1lfN2c`, `XM4OuWUlV_o`.
 3. Handle new Devin Review findings immediately when they arrive.
 4. Rotate context early; do not wait for compaction.
+
+## 2026-11-27 hidden-identity review checkpoint
+
+Latest pushed commit before this note: `4d9bdd1 Refine royal hidden-identity reveal ordering`; tests **229 passed**.
+
+Completed since Golden Rose checkpoint:
+- Hidden-identity validator no longer treats undercover occupational disguise as hidden-rank romance.
+- Explicit royal disclosure formulations count as reveals.
+- Heroine agency is evaluated after reveal, preventing early action from masking passive endings.
+- Refusing to “marry a crown” no longer counts as mutual re-choice; re-choice must be post-reveal and mutual/status-invariant.
+- Devin Review round on `42386cf` triaged; new review is running on `4d9bdd1`.
+
+Continue immediately with non-creature low-subscriber queue: `s-Zn2WhkkH8`, `wHWPGMPQ37Y`, `R14QjIS7O50`, `Z0kns4pvIH4`, `V5VfY1lfN2c`, `XM4OuWUlV_o`. Handle new review findings first if they arrive.
