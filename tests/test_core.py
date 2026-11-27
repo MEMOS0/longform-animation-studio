@@ -3269,7 +3269,11 @@ def test_chosen_bond_happy_fated_wedding_is_not_public_betrayal():
     from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
     premise,architecture,scenes=_chosen_bond_fixture()
     premise['opening_event']={'first_60_seconds':'At the public bonding ceremony she happily marries her fated mate.'}
-    architecture['sequences'][0]={'summary':'At the public wedding ceremony she happily marries her fated mate; betrayal arrives years later.'}
+    architecture['sequences']=[
+      {'summary':'At the public wedding ceremony she happily marries her fated mate; betrayal arrives years later.'},
+      {'summary':'They share a quiet domestic life with no immediate betrayal.'},
+      {'summary':'The later betrayal is foreshadowed only as a distant future problem.'},
+    ]
     assert evaluate_chosen_bond_integrity(premise,architecture,scenes)['checks']['public_betrayal_opening'] is False
 
 
@@ -3295,3 +3299,68 @@ def test_competence_cascade_banquet_justice_celebration_does_not_override_closed
       {'id':'S03','scene_goal':'She receives a fresh assignment before leaving a banquet celebrating justice.'},
     ]
     assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is True
+
+
+def test_chosen_bond_applies_to_destiny_bride_unfaithful_groom_rechoice():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise={'title':'Destiny Bride','logline':'A bride bound by destiny leaves her unfaithful groom and falls for another person.'}
+    assert evaluate_chosen_bond_integrity(premise,{},[])['applies'] is True
+
+
+def test_chosen_bond_old_coercion_and_no_force_promise_do_not_disqualify_new_bond():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    architecture['sequences']=[
+      {'summary':'At the public bonding ceremony her fated mate cheats and humiliates her; she was forced to marry him under the old clan contract.'},
+      {'summary':'She refuses him before the elf king appears as a chosen partner. He promises not to force marriage, heals her patiently, and waits for her answer before she believes him.'},
+    ]
+    assert evaluate_chosen_bond_integrity(premise,architecture,scenes)['checks']['alternative_bond_is_chosen_and_consenting'] is True
+
+
+def test_chosen_bond_named_partner_care_counts_before_reciprocity():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    architecture['sequences']=[
+      {'summary':'At the public bonding ceremony her fated mate cheats and humiliates her; her blood essence sustained his succession.'},
+      {'summary':'She refuses him before the elf king, Calith, appears as a chosen partner. Calith heals her wounds and protects her patiently before she believes him.'},
+    ]
+    assert evaluate_chosen_bond_integrity(premise,architecture,scenes)['checks']['care_precedes_romantic_reciprocity'] is True
+
+
+def test_chosen_bond_public_betrayal_can_cross_adjacent_opening_sentences():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    premise['opening_event']={'first_60_seconds':'The clan gathers for the public bonding ceremony. In front of everyone, her fated mate cheats and humiliates her.'}
+    assert evaluate_chosen_bond_integrity(premise,architecture,scenes)['checks']['public_betrayal_opening'] is True
+
+
+def test_competence_cascade_recap_cannot_mask_earlier_premature_hook():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes=[
+      {'id':'S01','scene_goal':'Before the current case is closed, command gives her a fresh case.'},
+      {'id':'S02','scene_goal':'She exposes the conspiracy.'},
+      {'id':'S03','scene_goal':'Police close the conspiracy. Only then command briefs the fresh case that had already been assigned.'},
+    ]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is False
+
+
+def test_competence_cascade_finale_only_fresh_assignment_counts_as_hook():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes=[{'id':'finale','scene_goal':'In the finale, command gives her a fresh case before the epilogue.'}]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is False
+
+
+def test_taboo_family_irony_protagonist_identity_field_enables_named_departure():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Bestie Parent','protagonist':{'identity':'Lily'},'logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
+    architecture={'sequences':[{'summary':'After the reveal, Lily chooses to leave him.'}]}
+    assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['protagonist_can_reject_power'] is True
+
+
+def test_taboo_family_irony_supporting_departure_does_not_veto_named_protagonist():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Bestie Parent','protagonist':{'identity':'Lily'},'logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
+    architecture={'sequences':[{'summary':'The best friend chooses to leave her own husband.'},{'summary':'Lily chooses to leave him.'}]}
+    assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['protagonist_can_reject_power'] is True
