@@ -91,3 +91,7 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 ## Completed 2026-11-27 — Mythora Realm `5vGUIhUlt0A`
 
 Full audiovisual deep dive completed in `knowledge/market/mythora-viper-bride-protective-kinship-deep-dive.md`; derived evidence archived under `evidence/media/5vGUIhUlt0A/`. Novel mechanism integrated as `protective_kinship_integrity`: protective kinship inversion + child agency + domestic governance + consent-repaired instrumental marriage. Do not copy the literal dragon/viper plot.
+
+### NEXORA CINEMA — `KcaifB7MhwQ` — completed 2026-11-27
+
+Full audiovisual deep dive completed in `knowledge/market/nexora-mechanic-constructive-scifi-deep-dive.md`; derived evidence archived under `evidence/media/KcaifB7MhwQ/`. Novel mechanism integrated as `constructive_restoration_integrity`: constructive restoration sci-fi driven by care, repair ladders, mentorship, economic independence, restitution, and tested infrastructure. Do not copy the literal mechanic/Anunnaki/Nexus/ship plot.

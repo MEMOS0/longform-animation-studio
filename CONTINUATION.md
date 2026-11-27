@@ -1,3 +1,7 @@
+## Rotation checkpoint 2026-11-27 constructive integration
+
+Latest pushed integration commit before this checkpoint: `9e3af9d`; tests 425 passed. `constructive_restoration_integrity` is implemented in `studio/constructive_restoration_integrity.py`, registered in production, and regression-tested. NEXORA skill/thumbnail/queue integration is being committed in the next commit. Handle any PR #7 findings on `9e3af9d` or later first. Then continue fresh low-subscriber breakouts: CineAI `gw1SsVcha0Y`, Fated `B8bd364FM-8`, CrushLoop `6k_W9eG6mAU`, Hushfall `4m3u8UMUgDg`; after that return to task 8 scene-specific dialogue scaffolds.
+
 ## Rotation checkpoint 2026-11-27 review semantics
 
 Latest pushed commit: `c262aea`. PR #7 review findings from `1334189` were fixed, triaged resolved, and triage ended. A new review is running on `c262aea`; handle its findings first if notified.
