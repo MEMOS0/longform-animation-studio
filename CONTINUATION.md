@@ -558,3 +558,11 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - Added `creature_pacing.py`: creature fantasy is allowed slower atmospheric composition, but must move care/material stakes -> staged spectacle -> quiet contact/recognition/home resolution instead of uniformly fast cutting.
 - Integrated both evaluators into `evaluate_project`; generated creature-economic and compressed-survival premises now carry concrete `packaging.compound_expansion` reuse/prequel/tail rules.
 - Updated format strategy with explicit `compound_serial_expansion` guidance. Tests: 124 passed.
+
+## 2026-11-27 QueenFlix hidden-identity evidence checkpoint
+
+- Downloaded/analyzed QueenFlix `G97N92SR1qQ` (79:28 vertical mobile-native hidden-identity romantic comedy, about 398k views at collection, roughly 2.5k subscribers).
+- Major doctrine: hidden identity works as dramatic irony plus ethics; reveal is midpoint, restitution must become procedural consent-based repair, and final love proof uses both partners' real competencies in a public rescue.
+- Format correction: vertical dialogue-rich romance can sustain long composed shots with very dense subtitles/dialogue; this is not the same pacing machine as sparse creature fantasy.
+- Committed report: `knowledge/market/queenflix-hidden-identity-romcom-deep-dive.md` with timestamped evidence and sound/pacing table.
+- PR #4 review findings were fixed/triaged; tests reached 127 passed before the QueenFlix documentation/evidence commit.
