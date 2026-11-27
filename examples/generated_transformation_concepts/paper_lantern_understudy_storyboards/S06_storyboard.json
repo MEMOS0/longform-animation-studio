@@ -1,0 +1,453 @@
+{
+  "scene_id": "S06",
+  "duration_seconds": 690.0,
+  "coverage": "continuous_exact_format_director_seed",
+  "shots": [
+    {
+      "shot_id": "S06_DS001",
+      "timecode": "0.00-32.00",
+      "duration_seconds": 32.0,
+      "scene_id": "S06",
+      "shot_size": "wide establishing",
+      "camera_intent": "slow push",
+      "visual_action": "the authority holds a consent form or entry list while machinery runs behind them",
+      "dialogue": "",
+      "sound_design": "lower loudness, higher negative space, fewer words, and faster cutting during the danger peak",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: open on the scene image"
+    },
+    {
+      "shot_id": "S06_DS002",
+      "timecode": "32.00-64.00",
+      "duration_seconds": 32.0,
+      "scene_id": "S06",
+      "shot_size": "intimate closeup",
+      "camera_intent": "settle",
+      "visual_action": "the protagonist's expression shifts from obligation toward controlled attention when the turn lands",
+      "dialogue": "",
+      "sound_design": "breath/room tone",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+    },
+    {
+      "shot_id": "S06_DS003",
+      "timecode": "64.00-96.00",
+      "duration_seconds": 32.0,
+      "scene_id": "S06",
+      "shot_size": "intimate closeup",
+      "camera_intent": "settle",
+      "visual_action": "the protagonist's expression shifts from obligation toward controlled attention when the turn lands; alternate coverage: witness or micro-expression coverage rather than the same facial staging",
+      "dialogue": "",
+      "sound_design": "breath/room tone",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+    },
+    {
+      "shot_id": "S06_DS004",
+      "timecode": "96.00-128.00",
+      "duration_seconds": 32.0,
+      "scene_id": "S06",
+      "shot_size": "action wide",
+      "camera_intent": "lateral track",
+      "visual_action": "agency violation, protective intimacy, and danger setpiece",
+      "dialogue": "",
+      "sound_design": "environmental action foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
+    },
+    {
+      "shot_id": "S06_DS005",
+      "timecode": "128.00-160.00",
+      "duration_seconds": 32.0,
+      "scene_id": "S06",
+      "shot_size": "action wide",
+      "camera_intent": "lateral track",
+      "visual_action": "agency violation, protective intimacy, and danger setpiece; alternate coverage: movement/detail coverage of the objective",
+      "dialogue": "",
+      "sound_design": "environmental action foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
+    },
+    {
+      "shot_id": "S06_DS006",
+      "timecode": "160.00-192.00",
+      "duration_seconds": 32.0,
+      "scene_id": "S06",
+      "shot_size": "power two-shot",
+      "camera_intent": "slow tightening",
+      "visual_action": "the authority offers the opportunity as if refusal is ingratitude",
+      "dialogue": "We already arranged it. This is your chance.",
+      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions; subtext: good outcomes do not erase consent violations"
+    },
+    {
+      "shot_id": "S06_DS007",
+      "timecode": "192.00-224.00",
+      "duration_seconds": 32.0,
+      "scene_id": "S06",
+      "shot_size": "power two-shot",
+      "camera_intent": "slow tightening",
+      "visual_action": "the director and Mina's aunt agree to cast her before asking whether she consents; the objection is real even though the opportunity is attractive",
+      "dialogue": "",
+      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+    },
+    {
+      "shot_id": "S06_DS008",
+      "timecode": "224.00-253.17",
+      "duration_seconds": 29.17,
+      "scene_id": "S06",
+      "shot_size": "pressure insert",
+      "camera_intent": "macro",
+      "visual_action": "the director and Mina's aunt agree to cast her before asking whether she consents; the objection is real even though the opportunity is attractive; alternate coverage: pressure-detail coverage: hands, objects, crowd position, or institutional obstruction carries the conflict",
+      "dialogue": "",
+      "sound_design": "object/room texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: insert pressure detail"
+    },
+    {
+      "shot_id": "S06_DS009",
+      "timecode": "253.17-282.35",
+      "duration_seconds": 29.17,
+      "scene_id": "S06",
+      "shot_size": "pressure insert",
+      "camera_intent": "macro",
+      "visual_action": "the director and Mina's aunt agree to cast her before asking whether she consents; the objection is real even though the opportunity is attractive; alternate coverage: pressure-detail coverage: hands, objects, crowd position, or institutional obstruction carries the conflict",
+      "dialogue": "",
+      "sound_design": "object/room texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: insert pressure detail"
+    },
+    {
+      "shot_id": "S06_DS010",
+      "timecode": "282.35-314.35",
+      "duration_seconds": 32.0,
+      "scene_id": "S06",
+      "shot_size": "vertical composition",
+      "camera_intent": "high or low angle",
+      "visual_action": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+      "dialogue": "",
+      "sound_design": "negative space",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
+    },
+    {
+      "shot_id": "S06_DS011",
+      "timecode": "314.35-346.35",
+      "duration_seconds": 32.0,
+      "scene_id": "S06",
+      "shot_size": "vertical composition",
+      "camera_intent": "high or low angle",
+      "visual_action": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control; alternate coverage: alternate angle and detail coverage",
+      "dialogue": "",
+      "sound_design": "negative space",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
+    },
+    {
+      "shot_id": "S06_DS012",
+      "timecode": "346.35-378.35",
+      "duration_seconds": 32.0,
+      "scene_id": "S06",
+      "shot_size": "subtext two-shot",
+      "camera_intent": "slow lateral drift",
+      "visual_action": "Even helpful allies violate personhood when they arrange visibility without consent.",
+      "dialogue": "",
+      "sound_design": "music enters only when relational power changes; it must not paper over unresolved tension",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+    },
+    {
+      "shot_id": "S06_DS013",
+      "timecode": "378.35-410.35",
+      "duration_seconds": 32.0,
+      "scene_id": "S06",
+      "shot_size": "subtext two-shot",
+      "camera_intent": "slow lateral drift",
+      "visual_action": "Even helpful allies violate personhood when they arrange visibility without consent.; alternate coverage: alternate angle and detail coverage",
+      "dialogue": "",
+      "sound_design": "music enters only when relational power changes; it must not paper over unresolved tension",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+    },
+    {
+      "shot_id": "S06_DS014",
+      "timecode": "410.35-442.35",
+      "duration_seconds": 32.0,
+      "scene_id": "S06",
+      "shot_size": "decision closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "Mina stops at the threshold until the choice is returned",
+      "dialogue": "You decided for me. Then ask me now. Really ask.",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible; subtext: the opportunity is worthless if it repeats erasure"
+    },
+    {
+      "shot_id": "S06_DS015",
+      "timecode": "442.35-474.35",
+      "duration_seconds": 32.0,
+      "scene_id": "S06",
+      "shot_size": "decision closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "continue only after reclaiming consent and boundaries rather than accepting arranged visibility",
+      "dialogue": "",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+    },
+    {
+      "shot_id": "S06_DS016",
+      "timecode": "474.35-506.35",
+      "duration_seconds": 32.0,
+      "scene_id": "S06",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "the director and Mina's aunt agree to cast her before asking whether she consents; the objection is real even though the opportunity is attractive",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+    },
+    {
+      "shot_id": "S06_DS017",
+      "timecode": "506.35-538.35",
+      "duration_seconds": 32.0,
+      "scene_id": "S06",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "the director and Mina's aunt agree to cast her before asking whether she consents; the objection is real even though the opportunity is attractive; alternate coverage: reaction coverage: show witnesses, threshold position, and power shift instead of repeating the same crossing staging",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+    },
+    {
+      "shot_id": "S06_DS018",
+      "timecode": "538.35-570.35",
+      "duration_seconds": 32.0,
+      "scene_id": "S06",
+      "shot_size": "consequence wide",
+      "camera_intent": "backward track",
+      "visual_action": "visible consequence of continue only after reclaiming consent and boundaries rather than accepting arranged visibility",
+      "dialogue": "",
+      "sound_design": "consequence foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
+    },
+    {
+      "shot_id": "S06_DS019",
+      "timecode": "570.35-602.35",
+      "duration_seconds": 32.0,
+      "scene_id": "S06",
+      "shot_size": "consequence wide",
+      "camera_intent": "backward track",
+      "visual_action": "visible consequence of continue only after reclaiming consent and boundaries rather than accepting arranged visibility; alternate coverage: cost-detail coverage showing what materially changed",
+      "dialogue": "",
+      "sound_design": "consequence foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
+    },
+    {
+      "shot_id": "S06_DS020",
+      "timecode": "602.35-630.17",
+      "duration_seconds": 27.83,
+      "scene_id": "S06",
+      "shot_size": "sensory bridge",
+      "camera_intent": "insert or detail",
+      "visual_action": "the protagonist takes the form back, closes the pen in her hand, and waits until they ask; alternate coverage: object-detail coverage before or after the wider relational-resolution framing",
+      "dialogue": "",
+      "sound_design": "object/motif texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition"
+    },
+    {
+      "shot_id": "S06_DS021",
+      "timecode": "630.17-658.00",
+      "duration_seconds": 27.83,
+      "scene_id": "S06",
+      "shot_size": "sensory bridge",
+      "camera_intent": "insert or detail",
+      "visual_action": "the protagonist takes the form back, closes the pen in her hand, and waits until they ask; alternate coverage: object-detail coverage before or after the wider relational-resolution framing",
+      "dialogue": "",
+      "sound_design": "object/motif texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition"
+    },
+    {
+      "shot_id": "S06_DS022",
+      "timecode": "658.00-690.00",
+      "duration_seconds": 32.0,
+      "scene_id": "S06",
+      "shot_size": "final image",
+      "camera_intent": "slow pull-back",
+      "visual_action": "the protagonist takes the form back, closes the pen in her hand, and waits until they ask",
+      "dialogue": "Stop deciding for me.",
+      "sound_design": "a restrained tactile sound motif unresolved",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power"
+    }
+  ],
+  "validation_rules": [
+    "seed must be manually/directorially refined before production",
+    "no gaps or overlaps",
+    "sound and power transitions must remain explicit",
+    "shot pacing must remain intentionally varied"
+  ]
+}

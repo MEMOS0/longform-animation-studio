@@ -703,5 +703,85 @@
       "thumbnail_intelligence/reference_library/spark_shorts/spark_top_montage.jpg",
       "knowledge/market/spark-low-counterexample-tides-abyss.md"
     ]
+  },
+  "compressed_creature_survival": {
+    "reference_channels": [
+      "Neural Pictures"
+    ],
+    "positive_signals": [
+      "crash",
+      "survive",
+      "rescue",
+      "creature",
+      "animal",
+      "predator",
+      "occupation",
+      "professional",
+      "vehicle",
+      "station",
+      "trap",
+      "escape",
+      "protects",
+      "giant"
+    ],
+    "opening_rules": [
+      "state role/creature/location visually and pay disaster or threat within two minutes",
+      "keep objectives legible with sound off",
+      "make occupational competence part of survival rather than costume",
+      "differentiate predator creatures from innocent or cooperative creatures",
+      "use a quiet animal-care hinge after the first spectacle"
+    ],
+    "risk_patterns": [
+      "monster spectacle without emotional differentiation",
+      "escape-only ending that abandons animal/creature relationships",
+      "continuous noise with no quiet care hinge",
+      "professional identity used only as costume"
+    ],
+    "thumbnail_rules": [
+      "one ordinary professional silhouette against one oversized creature threat",
+      "vehicle/station/location object must be readable at mobile size",
+      "avoid multi-threat collage and lore symbols"
+    ],
+    "evidence": [
+      "knowledge/market/neural-pictures-compressed-creature-survival-deep-dive.md"
+    ]
+  },
+  "transformation_romance": {
+    "evidence": "knowledge/market/echodrama-hidden-beauty-transformation-romance-deep-dive.md",
+    "core": "long vertical transformation romance driven by pre-transformation witness, protection-created wound, behavioral transformation cost, morally suspect gaze inversion, second performance engine, consent repair, reciprocal memory debt, and public-space closure",
+    "positive_signals": [
+      "hidden beauty",
+      "transformation",
+      "mocked",
+      "before anyone knew",
+      "pre-transformation witness",
+      "public gaze",
+      "second performance engine",
+      "consent",
+      "reciprocal memory",
+      "film within film",
+      "rescue competence"
+    ],
+    "opening_rules": [
+      "use a future-pressure loop or active public misreading rather than static exposition",
+      "show the protection system and public gaze wound before cosmetic change",
+      "establish the meaning-carrier and pre-transformation protective act early"
+    ],
+    "risk_patterns": [
+      "makeover treated as proof of worth",
+      "love interest attracted only after transformation",
+      "self-destructive despair used as cheap trigger",
+      "second half repeats jealousy without a new professional engine",
+      "ally consent violation ignored"
+    ],
+    "thumbnail_rules": [
+      "central transformed face readable at mobile size",
+      "hostile rival/love interest triangle only if it reflects the real public gaze conflict",
+      "visual before-after or hidden-object cue",
+      "avoid generic beauty packaging that hides authorship/consent mechanism"
+    ],
+    "reference_channels": [
+      "EchoDrama"
+    ]
   }
 }

@@ -12,6 +12,8 @@ from pathlib import Path
 from typing import Any
 
 from .creature_dialogue import creature_dialogue_materials
+from .survival_scene import compressed_survival_scene_materials
+from .transformation_scene import transformation_scene_materials
 
 POWER_START = [
     "socially exposed and institutionally powerless",
@@ -71,6 +73,12 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
     final_image_override = None
     sound_override = None
     spoken_exchange = []
+    scene_rhythm = "enter inside pressure, compress the objection into a concrete unsafe choice, let the protagonist answer through behavior, then end on proof/cost rather than explanation"
+    rewrite_directives = [
+        "make pressure procedural and specific rather than generically cruel",
+        "let the protagonist answer through action or refusal rather than theme explanation",
+        "end on visible proof, cost, or changed access instead of explanation",
+    ]
     opposition_beats = [
         {"beat": "external_pressure", "voice": "antagonist or social crowd", "dramatic_job": turn, "writing_note": "pressure must be specific behavior, not generic cruelty"},
         {"beat": "witness_objection", "voice": "caregiver, worker, or vulnerable witness", "dramatic_job": relationship, "writing_note": "the objection should make the safe choice reasonable"},
@@ -109,6 +117,8 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
         }, index)
         key_lines = dialogue_materials["key_lines"]
         spoken_exchange = dialogue_materials["spoken_exchange"]
+        scene_rhythm = dialogue_materials.get("scene_rhythm")
+        rewrite_directives = dialogue_materials.get("rewrite_directives") or []
         creature_opposition = [
             {"pressure": f"the crowd or {authority} demands that the humiliated protagonist abandon the exposed child", "objection": f"hiding {creature} can destroy the protagonist's last economic shelter", "decision": "the protagonist hides/protects before knowing whether anyone will help", "evidence_or_cost": f"the {resource} response marks {creature} as a witness rather than a commodity"},
             {"pressure": "shelter is offered in a way that could become debt, pity, or control", "objection": f"{caregiver} needs labor and honesty, not ownership of the creature", "decision": "the protagonist accepts work but refuses to monetize suffering", "evidence_or_cost": f"the {object_term} separates access from possession"},
@@ -168,18 +178,47 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
             (f"neighbors carry shared {resource} into the transformed {system} space", f"{creature} crosses the home threshold freely while {final_public_proof}"),
         ]
         first_image_override, final_image_override = creature_visuals[index - 1]
+    transformation_materials = transformation_scene_materials(premise, index)
+    if transformation_materials:
+        key_lines = transformation_materials["key_lines"]
+        spoken_exchange = transformation_materials["spoken_exchange"]
+        scene_rhythm = transformation_materials["scene_rhythm"]
+        rewrite_directives = transformation_materials["rewrite_directives"]
+        first_image_override = transformation_materials["first_image"]
+        final_image_override = transformation_materials["final_image"]
+    if premise.get("channel_contract") == "compressed_creature_survival":
+        survival_materials = compressed_survival_scene_materials(premise, index)
+        key_lines = survival_materials["key_lines"]
+        spoken_exchange = survival_materials["spoken_exchange"]
+        scene_rhythm = survival_materials["scene_rhythm"]
+        rewrite_directives = survival_materials["rewrite_directives"]
+        opposition_beats = survival_materials["opposition_beats"]
+        sound_override = survival_materials["sound_override"]
+        first_image_override = survival_materials["first_image"]
+        final_image_override = survival_materials["final_image"]
     first_image = first_image_override or visual
     final_image = final_image_override or f"{object_name} visible after the power shift, its meaning altered by: {clue}"
+    power_start = POWER_START[index - 1]
+    power_end = POWER_END[index - 1]
+    subtext = SUBTEXT[index - 1]
+    if premise.get("channel_contract") == "compressed_creature_survival":
+        power_start = survival_materials["power_start"]
+        power_end = survival_materials["power_end"]
+        subtext = survival_materials["subtext"]
+    elif transformation_materials:
+        power_start = transformation_materials["power_start"]
+        power_end = transformation_materials["power_end"]
+        subtext = transformation_materials["subtext"]
     return {
         "scene_id": f"S{index:02d}",
         "time_range": sequence.get("time_range", "0-0 minutes"),
         "objective": function,
         "conflict": turn,
-        "power_position_start": POWER_START[index - 1],
-        "power_position_end": POWER_END[index - 1],
+        "power_position_start": power_start,
+        "power_position_end": power_end,
         "turn": turn,
         "protagonist_decision": sequence.get("protagonist_choice", "act despite social cost"),
-        "subtext": SUBTEXT[index - 1],
+        "subtext": subtext,
         "visual_action": {
             "first_image": first_image,
             "face_reaction": f"the protagonist's expression shifts from {emotional_shift.split(' to ')[0]} toward controlled attention when the turn lands",
@@ -193,6 +232,8 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
             "key_lines": key_lines,
             "opposition_beats": opposition_beats,
             "spoken_exchange": spoken_exchange,
+            "scene_rhythm": scene_rhythm,
+            "rewrite_directives": rewrite_directives,
         },
         "sound_design": {
             "dialogue_priority": (sound_override or {}).get("dialogue_priority", "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture"),

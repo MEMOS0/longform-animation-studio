@@ -1,0 +1,253 @@
+{
+  "scene_id": "S08",
+  "duration_seconds": 132.0,
+  "coverage": "continuous_exact_format_director_seed",
+  "shots": [
+    {
+      "shot_id": "S08_DS001",
+      "timecode": "0.00-13.70",
+      "duration_seconds": 13.7,
+      "scene_id": "S08",
+      "shot_size": "wide establishing",
+      "camera_intent": "slow push",
+      "visual_action": "freed survivors emerge through the opened threshold into environmental air",
+      "dialogue": "",
+      "sound_design": "the ending resolves because contact and return are visible, not because score declares triumph",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: open on the scene image"
+    },
+    {
+      "shot_id": "S08_DS002",
+      "timecode": "13.70-21.92",
+      "duration_seconds": 8.22,
+      "scene_id": "S08",
+      "shot_size": "intimate closeup",
+      "camera_intent": "settle",
+      "visual_action": "the protagonist's expression shifts from survival relief toward controlled attention when the turn lands",
+      "dialogue": "",
+      "sound_design": "breath/room tone",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+    },
+    {
+      "shot_id": "S08_DS003",
+      "timecode": "21.92-32.77",
+      "duration_seconds": 10.85,
+      "scene_id": "S08",
+      "shot_size": "action wide",
+      "camera_intent": "lateral track",
+      "visual_action": "reciprocal rescue, recognition, and chosen survival closure",
+      "dialogue": "",
+      "sound_design": "environmental action foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
+    },
+    {
+      "shot_id": "S08_DS004",
+      "timecode": "32.77-45.56",
+      "duration_seconds": 12.79,
+      "scene_id": "S08",
+      "shot_size": "power two-shot",
+      "camera_intent": "slow tightening",
+      "visual_action": "captives are freed, a dust-blue giant moth whose wings react to light receives contact or freedom rather than ownership, and the wrecked train transformed from crash site into a lighted rescue shelter; the freed moth carries its young back into the high cave dark while the survivors follow the train light out",
+      "dialogue": "I was wrong about them.",
+      "sound_design": "dialogue is sparse and practical; breath, creature texture, machinery, weather, footsteps, and animal vocalization carry most narrative information",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+    },
+    {
+      "shot_id": "S08_DS005",
+      "timecode": "45.56-52.64",
+      "duration_seconds": 7.08,
+      "scene_id": "S08",
+      "shot_size": "pressure insert",
+      "camera_intent": "macro",
+      "visual_action": "captives are freed, a dust-blue giant moth whose wings react to light receives contact or freedom rather than ownership, and the wrecked train transformed from crash site into a lighted rescue shelter; the freed moth carries its young back into the high cave dark while the survivors follow the train light out; alternate coverage: pressure-detail coverage: hands, objects, crowd position, or institutional obstruction carries the conflict",
+      "dialogue": "",
+      "sound_design": "object/room texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: insert pressure detail"
+    },
+    {
+      "shot_id": "S08_DS006",
+      "timecode": "52.64-61.55",
+      "duration_seconds": 8.91,
+      "scene_id": "S08",
+      "shot_size": "vertical composition",
+      "camera_intent": "high or low angle",
+      "visual_action": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+      "dialogue": "",
+      "sound_design": "negative space",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
+    },
+    {
+      "shot_id": "S08_DS007",
+      "timecode": "61.55-73.54",
+      "duration_seconds": 11.99,
+      "scene_id": "S08",
+      "shot_size": "subtext two-shot",
+      "camera_intent": "slow lateral drift",
+      "visual_action": "the survivor looks from the rescued animal to the freed creature ally",
+      "dialogue": "I was wrong about them.",
+      "sound_design": "machine noise falls away into breath, environmental air, creature contact, freed movement, and sparse validation dialogue",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation; subtext: the apology admits misreading vulnerable life"
+    },
+    {
+      "shot_id": "S08_DS008",
+      "timecode": "73.54-82.90",
+      "duration_seconds": 9.36,
+      "scene_id": "S08",
+      "shot_size": "decision closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "Ilsa opens the final path instead of claiming the creature ally",
+      "dialogue": "They saved us. We take everyone home.",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible; subtext: recognition becomes shared rescue rather than possession"
+    },
+    {
+      "shot_id": "S08_DS009",
+      "timecode": "82.90-98.20",
+      "duration_seconds": 15.3,
+      "scene_id": "S08",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "captives are freed, a dust-blue giant moth whose wings react to light receives contact or freedom rather than ownership, and the wrecked train transformed from crash site into a lighted rescue shelter; the freed moth carries its young back into the high cave dark while the survivors follow the train light out",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+    },
+    {
+      "shot_id": "S08_DS010",
+      "timecode": "98.20-108.71",
+      "duration_seconds": 10.51,
+      "scene_id": "S08",
+      "shot_size": "consequence wide",
+      "camera_intent": "backward track",
+      "visual_action": "visible consequence of accept help, apology, and shared survival without turning the creature ally into a possession",
+      "dialogue": "",
+      "sound_design": "consequence foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
+    },
+    {
+      "shot_id": "S08_DS011",
+      "timecode": "108.71-115.33",
+      "duration_seconds": 6.62,
+      "scene_id": "S08",
+      "shot_size": "sensory bridge",
+      "camera_intent": "insert or detail",
+      "visual_action": "a dust-blue giant moth whose wings react to light leaves or chooses contact freely while cracked red brake-light lens remains visible in the transformed rescue shelter; alternate coverage: object-detail coverage before or after the wider relational-resolution framing",
+      "dialogue": "",
+      "sound_design": "object/motif texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition"
+    },
+    {
+      "shot_id": "S08_DS012",
+      "timecode": "115.33-132.00",
+      "duration_seconds": 16.67,
+      "scene_id": "S08",
+      "shot_size": "final image",
+      "camera_intent": "slow pull-back",
+      "visual_action": "a dust-blue giant moth whose wings react to light leaves or chooses contact freely while cracked red brake-light lens remains visible in the transformed rescue shelter",
+      "dialogue": "I was wrong about them.",
+      "sound_design": "cracked red brake-light lens clicks/scrapes, predator texture, small animal vocalization, and mechanical air/light rhythm unresolved",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power"
+    }
+  ],
+  "validation_rules": [
+    "seed must be manually/directorially refined before production",
+    "no gaps or overlaps",
+    "sound and power transitions must remain explicit",
+    "shot pacing must remain intentionally varied"
+  ]
+}

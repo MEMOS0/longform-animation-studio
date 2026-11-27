@@ -14,8 +14,21 @@ from .production import evaluate_project
 from .release_learning import release_postmortem
 from .storyboard_production import export_manifest
 from .premise_generator import generate_and_write
+from .screenplay_renderer import write_screenplay
 from .storyboard_seed import write_seed_boards
 from .youtube_archive import collect
+
+
+def load_scene_inputs(path: Path) -> list[dict]:
+    files = sorted(path.glob("*.json")) if path.is_dir() else [path]
+    files = [file for file in files if file.exists()]
+    scenes: list[dict] = []
+    for file in files:
+        data = json.loads(file.read_text(encoding="utf-8"))
+        scenes.extend(data if isinstance(data, list) else [data])
+    if not scenes:
+        raise ValueError(f"no scene JSON found at {path}")
+    return scenes
 
 
 def main() -> None:
@@ -41,6 +54,7 @@ def main() -> None:
     media_p.add_argument("--subtitle", default="")
     media_p.add_argument("--output-dir", required=True)
     media_p.add_argument("--video-id", required=True)
+    media_p.add_argument("--contact-every", type=int, default=20)
 
     risk_p = sub.add_parser("evaluate-idea")
     risk_p.add_argument("--archive", default="data/processed/novdrama_analysis_rows.json")
@@ -68,6 +82,11 @@ def main() -> None:
     prompts_p.add_argument("--output-dir", required=True)
     prompts_p.add_argument("--project-id", default="project")
 
+    render_p = sub.add_parser("render-screenplay")
+    render_p.add_argument("--premise", required=True)
+    render_p.add_argument("--scenes", required=True)
+    render_p.add_argument("--output", required=True)
+
     seed_p = sub.add_parser("seed-storyboards")
     seed_p.add_argument("--scenes", required=True)
     seed_p.add_argument("--output-dir", required=True)
@@ -87,7 +106,7 @@ def main() -> None:
         snapshot = date.fromisoformat(args.snapshot_date) if args.snapshot_date else None
         print(json.dumps({k: str(v) for k, v in comparative_analyze(Path(args.input), Path(args.output_dir), snapshot).items()}, indent=2))
     elif args.command == "analyze-media":
-        result = analyze_video(Path(args.video), Path(args.subtitle) if args.subtitle else None, Path(args.output_dir), args.video_id)
+        result = analyze_video(Path(args.video), Path(args.subtitle) if args.subtitle else None, Path(args.output_dir), args.video_id, contact_every=args.contact_every)
         print(json.dumps({k: str(v) for k, v in result.items()}, indent=2))
     elif args.command == "evaluate-idea":
         rows = json.loads(Path(args.archive).read_text(encoding="utf-8"))
@@ -112,6 +131,13 @@ def main() -> None:
     elif args.command == "export-production-prompts":
         result = export_manifest(Path(args.storyboards), Path(args.output_dir), args.project_id)
         print(json.dumps({"output": str(Path(args.output_dir) / "production_manifest.json"), "shot_count": result["shot_count"], "scene_count": result["scene_count"]}, indent=2))
+    elif args.command == "render-screenplay":
+        premise = json.loads(Path(args.premise).read_text(encoding="utf-8"))
+        try:
+            scenes = load_scene_inputs(Path(args.scenes))
+        except ValueError as exc:
+            parser.error(str(exc))
+        print(write_screenplay(premise, scenes, Path(args.output)))
     elif args.command == "seed-storyboards":
         result = write_seed_boards(Path(args.scenes), Path(args.output_dir))
         print(json.dumps({"output_dir": args.output_dir, "scene_count": result["scene_count"], "shot_count": sum(row["shot_count"] for row in result["boards"])}, indent=2))

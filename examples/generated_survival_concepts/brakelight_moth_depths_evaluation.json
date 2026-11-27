@@ -1,0 +1,217 @@
+{
+  "premise_id": "brakelight_moth_depths",
+  "failure_intelligence": {
+    "candidate": "The Freight Conductor vs. the Giant Centipede — Full Survival Movie",
+    "risk_score_0_to_1": 0.815,
+    "confidence": "low_until_script_and_media-evidence comparison is complete",
+    "matched_failure_patterns": [
+      {
+        "id": "spectacle_scale_without_relational_anchor",
+        "label": "Large-scale spectacle arrives before a specific vulnerable person/creature or relationship",
+        "signals": [
+          "spectacle_first_opening",
+          "weak_relational_anchor"
+        ],
+        "evidence_strength": "cross_channel_timestamped_observational",
+        "archive_signal": "Epic's diffuse Earthquake disaster montage underperformed creature-protection films; RIFTBORN/The Next Show lows also ask viewers to care about scale, realms, or journey mechanics before a person.",
+        "risk_logic": "Destruction, armies, monsters, and world scale become noise when the audience does not yet know whom to protect or love.",
+        "mitigation": "Within the first 90 seconds, tie spectacle to a visible vulnerable object and a protector's costly choice; make scale threaten someone specific.",
+        "matched_signals": [
+          "spectacle_first_opening",
+          "weak_relational_anchor"
+        ]
+      },
+      {
+        "id": "creature_action_without_relational_bond",
+        "label": "Creature attack/chase spectacle begins early but never becomes a specific protection, family, or personhood relationship",
+        "signals": [
+          "creature_action_opening",
+          "weak_relational_anchor"
+        ],
+        "evidence_strength": "cross_channel_timestamped_observational",
+        "archive_signal": "Epicverse's low-performing giant snake/white ape short shows the snake almost immediately, but sampled middle/ending audio is mostly screams, roars, crashes, and combat; compare the giant-father hit where creature scale becomes paternal care.",
+        "risk_logic": "Early creature action can falsify the slow-opening theory: spectacle may be immediate yet emotionally flat if victims are anonymous and the rescuer is only a combat asset.",
+        "mitigation": "Give the creature or victim a specific relational role before the first chase ends; include a care/choice beat and make the ending transform belonging, trust, or personhood rather than only decide which monster wins.",
+        "matched_signals": [
+          "creature_action_opening",
+          "weak_relational_anchor"
+        ]
+      }
+    ],
+    "nearest_archive_examples": [
+      {
+        "video_id": "_I5I1l7DP3E",
+        "title": "She Sold Weapons Through a Magic Mirror… Then Accidentally Stole the WOLF KING'S FIRST KISS!#AIStory",
+        "cohort": "middle",
+        "views_per_day": 912.5555555555555,
+        "themes": [
+          "romance_mate",
+          "royalty_status",
+          "sacred_special_blood",
+          "wolf_werewolf"
+        ],
+        "similarity": 0.07638097660322611
+      },
+      {
+        "video_id": "u9acebqxR-8",
+        "title": "They Called Her a Curse… Unaware She Had the Divine Power to Bring the Forest Back to Life!#AIStory",
+        "cohort": "unknown",
+        "views_per_day": null,
+        "themes": [
+          "rebirth_second_chance",
+          "sacred_special_blood"
+        ],
+        "similarity": 0.03919873546919031
+      },
+      {
+        "video_id": "si1q6wv6aMI",
+        "title": "They Abandoned Their Sacred-Blood Girl… Now She's the VAMPIRE QUEEN They Can Never Have!#AIStory",
+        "cohort": "middle",
+        "views_per_day": 5599.613636363636,
+        "themes": [
+          "revenge_retribution",
+          "royalty_status",
+          "sacred_special_blood",
+          "vampire"
+        ],
+        "similarity": 0.03718718564432112
+      },
+      {
+        "video_id": "BeX5LHLqOEI",
+        "title": "He Abandoned His Rabbit Mate for Another Woman… Now She's Back With the PANTHER KING'S TWINS#AIStory",
+        "cohort": "underperforming",
+        "views_per_day": 581.28,
+        "themes": [
+          "animal_child",
+          "rebirth_second_chance",
+          "romance_mate",
+          "royalty_status"
+        ],
+        "similarity": 0.03545659031119094
+      },
+      {
+        "video_id": "1UB6EA3L7I4",
+        "title": "They Stole Everything From Her, So She Became the SUPREME WOLF EMPRESS to Take It All Back! #AIStory",
+        "cohort": "underperforming",
+        "views_per_day": 394.08,
+        "themes": [
+          "rebirth_second_chance",
+          "royalty_status",
+          "wolf_werewolf"
+        ],
+        "similarity": 0.027890389233240838
+      },
+      {
+        "video_id": "hkLzQLMAVFA",
+        "title": "He Abandoned Her After 5 Years for Another Woman… Now She's Marrying the DRAGON PRINCE!#AIStory",
+        "cohort": "middle",
+        "views_per_day": 7162.35294117647,
+        "themes": [
+          "dragon",
+          "royalty_status"
+        ],
+        "similarity": 0.027890389233240838
+      },
+      {
+        "video_id": "xJUN_KOCnME",
+        "title": "He Was Seconds Away From His 8th Championship… Until His Own Family Betrayed Him!",
+        "cohort": "underperforming",
+        "views_per_day": 492.9904761904762,
+        "themes": [
+          "family_child",
+          "modern_wealth_power"
+        ],
+        "similarity": 0.02222359409136093
+      },
+      {
+        "video_id": "KsxgWoFS50I",
+        "title": "They Betrayed the Girl Who Sacrificed Everything… Now She's the GODDESS They Can Never Have!#AIStory",
+        "cohort": "underperforming",
+        "views_per_day": 665.7777777777778,
+        "themes": [
+          "revenge_retribution",
+          "royalty_status"
+        ],
+        "similarity": 0.019599367734595155
+      }
+    ],
+    "positive_missing_or_weak": [
+      "No strong hidden identity/secret hook detected; Nov Drama hits often use one, though this is not mandatory.",
+      "No child/heir/creature emotional anchor detected; this is currently one of the strongest archive-level positive signals.",
+      "No explicit status reversal detected in the surface promise.",
+      "No clear mythic creature lane detected; test whether the concept matches the channel audience's demand.",
+      "No specific relational/vulnerable anchor detected early; cross-channel evidence favors a visible child, creature, family member, lover, or protected person over abstract scale.",
+      "No early visual proof of the title/thumbnail promise detected; pay the premise in the opening movement rather than reserving it for the finale."
+    ],
+    "decision_guidance": [
+      "Do not greenlight in current form; redesign the emotional engine or run a cheap validation artifact first.",
+      "Mitigate spectacle_scale_without_relational_anchor: Within the first 90 seconds, tie spectacle to a visible vulnerable object and a protector's costly choice; make scale threaten someone specific.",
+      "Mitigate creature_action_without_relational_bond: Give the creature or victim a specific relational role before the first chase ends; include a care/choice beat and make the ending transform belonging, trust, or personhood rather than only decide which monster wins."
+    ],
+    "causal_boundary": "This is pattern-matching against public outcomes and extracted creative signals; it is not a causal predictor of CTR, retention, or audience response."
+  },
+  "format_strategy": {
+    "format_class": "short_feature",
+    "inferred_flags": {
+      "episodic": false,
+      "compilation": false,
+      "serialized": true,
+      "continuation_hook": false
+    },
+    "recommendations": [
+      "Create legible injustice or danger within the first 90 seconds.",
+      "Pay the title/thumbnail fantasy visually by minute 5.",
+      "Treat compression as a completeness constraint: every scene should advance danger, bond, cost, or reversal in at least two ways.",
+      "Keep lore subordinate to a visible victim/protector relationship.",
+      "End with emotional belonging or safety, not only procedural victory, unless the asset is explicitly a serialized act with a next-problem hook."
+    ],
+    "warnings": [],
+    "causal_boundary": "Duration/format guidance is observational and channel-dependent; it is not proof of retention or CTR causality."
+  },
+  "meaning_carrier": {
+    "mode": "explicit",
+    "object_or_space": "cracked red brake-light lens",
+    "opening_meaning": "the lens is a routine safety part Ilsa almost discards while checking the train",
+    "closing_reversal": "the same lens focuses the train lamp into a light path that lures the centipede away from the survivors",
+    "final_sequence_use": "the object operates the final light/sound/trap mechanism before the rescued group reaches the wrecked train transformed from crash site into a lighted rescue shelter",
+    "score_0_to_1": 0.75,
+    "warnings": [
+      "meaning carrier ending recurrence cannot be verified without architecture sequences"
+    ],
+    "craft_rule": "A physical object, space, sound-object, or ritual should carry the wound in the opening and return with changed meaning in the payoff."
+  },
+  "relational_contract": {
+    "score_0_to_1": 1.0,
+    "fields": {
+      "power_asymmetry": "predator-controlled terrain versus an injured professional with only knowledge, tools, and attention to vulnerable life",
+      "safety_or_kindness_before_power": "Ilsa frees or protects a trapped railway pigeon with a red leg band before knowing it can guide, prove, or save anyone",
+      "costly_protagonist_action": "she turns back toward the predator territory to free captives and a dust-blue giant moth whose wings react to light instead of escaping alone",
+      "consent_or_personhood_repair": "the allied creature is never commanded as a weapon; it chooses contact or return freely, and survivors repair their earlier dismissal of the animal",
+      "payoff_image": "the wrecked train transformed from crash site into a lighted rescue shelter; the freed moth carries its young back into the high cave dark while the survivors follow the train light out"
+    },
+    "warnings": [],
+    "craft_rule": "Power-asymmetric relationships are strongest when safety or costly kindness precedes power, and the ending repairs consent/personhood rather than rewarding coercion."
+  },
+  "spatial_status": {
+    "score_0_to_1": 0.565,
+    "opening_status_spaces": [],
+    "ending_status_spaces": [
+      "sit"
+    ],
+    "inversion_signals": [
+      "free",
+      "freed",
+      "sit"
+    ],
+    "power_terms": [],
+    "vulnerable_terms": [
+      "creature",
+      "vulnerable"
+    ],
+    "warnings": [
+      "opening does not establish a legible spatial status grammar (who is caged, seated, kneeling, serving, or excluded)",
+      "spatial grammar lacks a clear vulnerable/powered social relation"
+    ],
+    "doctrine": "Define who is physically forced below/outside/inside power, then make the ending transform that space into chosen access, sanctuary, or belonging. Inspired by floor/table and cage/sanctuary evidence."
+  }
+}

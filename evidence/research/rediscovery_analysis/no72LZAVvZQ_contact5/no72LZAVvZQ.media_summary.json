@@ -1,0 +1,35 @@
+{
+  "video_id": "no72LZAVvZQ",
+  "probe": {
+    "duration": 700.476372,
+    "size": 45237292,
+    "width": 640,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\research\\rediscovery_analysis\\no72LZAVvZQ_contact5\\contact_sheets\\contact_000.jpg",
+    "evidence\\research\\rediscovery_analysis\\no72LZAVvZQ_contact5\\contact_sheets\\contact_001.jpg",
+    "evidence\\research\\rediscovery_analysis\\no72LZAVvZQ_contact5\\contact_sheets\\contact_002.jpg",
+    "evidence\\research\\rediscovery_analysis\\no72LZAVvZQ_contact5\\contact_sheets\\contact_003.jpg",
+    "evidence\\research\\rediscovery_analysis\\no72LZAVvZQ_contact5\\contact_sheets\\contact_004.jpg",
+    "evidence\\research\\rediscovery_analysis\\no72LZAVvZQ_contact5\\contact_sheets\\contact_005.jpg",
+    "evidence\\research\\rediscovery_analysis\\no72LZAVvZQ_contact5\\contact_sheets\\contact_006.jpg"
+  ],
+  "seconds_indexed": 700,
+  "shot_count": 22,
+  "shot_length_mean_seconds": 31.818181818181817,
+  "shot_length_median_seconds": 16.0,
+  "shot_length_p90_seconds": 74.80000000000001,
+  "visual_motion_mean": 0.09566183047003246,
+  "visual_brightness_mean": 0.21275064668009042,
+  "dialogue_cues": 0,
+  "narrative_markers": {
+    "first_conflict_language": null,
+    "first_power_or_identity_language": null,
+    "first_care_or_belonging_language": null,
+    "dialogue_words_per_minute": [],
+    "cue_count": 0
+  }
+}

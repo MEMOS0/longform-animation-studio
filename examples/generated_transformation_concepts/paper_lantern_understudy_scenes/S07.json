@@ -1,0 +1,102 @@
+{
+  "scene_id": "S07",
+  "time_range": "53.3-63.4 minutes",
+  "objective": "reciprocal memory debt and real confession beneath performance",
+  "conflict": "years earlier Mina protected Aren from older students who scattered his lighting notes; he never forgot that she was brave before anyone admired her",
+  "power_position_start": "uncertain whether love is gratitude or performance",
+  "power_position_end": "reciprocally recognized partner",
+  "turn": "years earlier Mina protected Aren from older students who scattered his lighting notes; he never forgot that she was brave before anyone admired her",
+  "protagonist_decision": "accept love only after separating gratitude from desire and performance from truth",
+  "subtext": "Romance becomes credible when memory proves love before transformation.",
+  "visual_action": {
+    "first_image": "the love interest places a damaged memory object in the protagonist's hand during rehearsal",
+    "face_reaction": "the protagonist's expression shifts from guarded gratitude toward controlled attention when the turn lands",
+    "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+    "final_image": "their hands close around the object as they step out of the staged pose and face each other"
+  },
+  "dialogue_design": {
+    "function": "make choices, objections, and proof implications audible rather than explaining theme",
+    "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "You remembered me before anyone clapped.",
+      "I choose you, not the gratitude."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "antagonist or social crowd",
+        "dramatic_job": "years earlier Mina protected Aren from older students who scattered his lighting notes; he never forgot that she was brave before anyone admired her",
+        "writing_note": "pressure must be specific behavior, not generic cruelty"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "caregiver, worker, or vulnerable witness",
+        "dramatic_job": "romance becomes reciprocal recognition rather than rescue debt",
+        "writing_note": "the objection should make the safe choice reasonable"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "protagonist",
+        "dramatic_job": "accept love only after separating gratitude from desire and performance from truth",
+        "writing_note": "the answer is a choice or refusal, not a theme statement"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "object, proof, or consequence",
+        "dramatic_job": "the protagonist learns that her pre-transformation courage, not the transformation, made her unforgettable",
+        "writing_note": "the scene must leave a visible cost or proof implication"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "evidence_or_cost",
+        "speaker": "love interest",
+        "line": "You protected me before anyone clapped.",
+        "action": "the love interest returns the damaged memory object that proves their shared past",
+        "subtext": "memory proves recognition before transformation",
+        "power_move": "image pressure answered through consent, authorship, protection, or recognition",
+        "listening_response": "the next behavior answers the concrete boundary rather than explaining confidence",
+        "delivery": "barely above breath",
+        "status_shift": "the speaker converts spectatorship or arranged visibility into chosen agency",
+        "room_sound": "phones, crowd murmur, breath, threshold noise, camera/stage/pool machinery, and object texture remain audible beneath the line"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Mina",
+        "line": "I choose you, not the gratitude.",
+        "action": "Mina closes the distance only after the truth is separated from performance",
+        "subtext": "desire is chosen after worth is known",
+        "power_move": "image pressure answered through consent, authorship, protection, or recognition",
+        "listening_response": "the next behavior answers the concrete boundary rather than explaining confidence",
+        "delivery": "quiet, certain",
+        "status_shift": "the speaker converts spectatorship or arranged visibility into chosen agency",
+        "room_sound": "phones, crowd murmur, breath, threshold noise, camera/stage/pool machinery, and object texture remain audible beneath the line"
+      }
+    ],
+    "scene_rhythm": "visual/social pressure first; dialogue names consent, recognition, or authorship only after blocking, objects, phones, thresholds, and protective behavior have made the psychology legible",
+    "rewrite_directives": [
+      "write the scene so the gaze geometry is understandable with sound off",
+      "make the protagonist answer image pressure through behavior, boundaries, work, or movement rather than speeches about confidence",
+      "use phones, mirrors, thresholds, cameras, water/stage machinery, and repeated public spaces as psychology carriers",
+      "do not use despair harm as a cheap transformation trigger",
+      "separate desire, gratitude, performance, and recognition in the romance turns"
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
+    "silence_or_negative_space": "scene noise drops away; breath and close voice carry more weight than score",
+    "motif": "a restrained tactile sound motif"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on the immediate consequence of the previous turn: romance becomes reciprocal recognition rather than rescue debt",
+    "exit_hook": "what was real once the performance ends?"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, capability, or relational obligation?",
+    "Is the object/space doing narrative work rather than decorative worldbuilding?",
+    "Is public or institutional pressure expressed through visible behavior rather than exposition?",
+    "Does the protagonist retain agency instead of being rescued into passivity?"
+  ]
+}

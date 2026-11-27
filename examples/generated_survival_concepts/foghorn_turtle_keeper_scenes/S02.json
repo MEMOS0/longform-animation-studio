@@ -1,0 +1,73 @@
+{
+  "scene_id": "S02",
+  "time_range": "1.8-3.6 minutes",
+  "objective": "predator reveal and terrain-rule establishment",
+  "conflict": "a barnacle-armored giant crab that hunts through tidal channels appears in scale relation to the protagonist and turns the disaster site into hunted terrain",
+  "power_position_start": "hunted and territorially powerless",
+  "power_position_end": "observant survivor learning the predator rule",
+  "turn": "a barnacle-armored giant crab that hunts through tidal channels appears in scale relation to the protagonist and turns the disaster site into hunted terrain",
+  "protagonist_decision": "run, hide, or protect the vulnerable animal while learning how the predator tracks movement/sound/light",
+  "subtext": "Survival knowledge comes from watching the threat instead of dominating it.",
+  "visual_action": {
+    "first_image": "a barnacle-armored giant crab that hunts through tidal channels fills the frame behind or above the small protagonist and animal",
+    "face_reaction": "the protagonist's expression shifts from shock toward controlled attention when the turn lands",
+    "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+    "final_image": "Noor freezes or hides as the predator repeats the sensory behavior she must later exploit"
+  },
+  "dialogue_design": {
+    "function": "make choices, objections, and proof implications audible rather than explaining theme",
+    "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
+    "max_exposition_sentences": 2,
+    "key_lines": [],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "a barnacle-armored giant crab that hunts through tidal channels",
+        "dramatic_job": "a barnacle-armored giant crab that hunts through tidal channels controls the terrain through scale, speed, and sensory advantage",
+        "writing_note": "pressure is spatial, sensory, mechanical, or creature behavior rather than villain exposition"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "an injured seabird chick tangled in radio wire",
+        "dramatic_job": "running blindly may trigger the exact sense the predator hunts by",
+        "writing_note": "the objection is embodied by vulnerability, hesitation, warning, or creature behavior"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "Noor",
+        "dramatic_job": "Noor protects an injured seabird chick tangled in radio wire while learning the predator rule through observation",
+        "writing_note": "the decision must be visible through action before any sparse dialogue validates it"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "bent brass foghorn valve key",
+        "dramatic_job": "the predator's repeated behavior establishes a readable rule the climax can pay off",
+        "writing_note": "end with changed access, proof, injury, creature response, or a plan component rather than explanation"
+      }
+    ],
+    "spoken_exchange": [],
+    "scene_rhythm": "visual objective first; sparse dialogue only validates choices after action, creature behavior, or mechanical proof has already made them legible",
+    "rewrite_directives": [
+      "write objectives that remain understandable with sound off",
+      "use creature behavior, terrain, tools, animal reaction, and occupational action instead of exposition",
+      "allow breath, silence, machinery, and small animal sound to carry emotion before score",
+      "keep any spoken line short, practical, and subordinate to the visual decision"
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "dialogue is sparse and practical; breath, creature texture, machinery, weather, footsteps, and animal vocalization carry most narrative information",
+    "music_function": "predator scraping, stepping, clicking, shell/armor movement, low air pressure, and close breathing",
+    "silence_or_negative_space": "held silence before each predator reaction makes its sensory rule readable",
+    "motif": "bent brass foghorn valve key clicks/scrapes, predator texture, small animal vocalization, and mechanical air/light rhythm"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on the immediate consequence of the previous turn: an injured seabird chick tangled in radio wire stays close enough to create a protective obligation",
+    "exit_hook": "what does the predator hunt by — sound, movement, heat, or light?"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, capability, or relational obligation?",
+    "Is the object/space doing narrative work rather than decorative worldbuilding?",
+    "Is public or institutional pressure expressed through visible behavior rather than exposition?",
+    "Does the protagonist retain agency instead of being rescued into passivity?"
+  ]
+}

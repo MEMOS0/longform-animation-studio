@@ -1,0 +1,93 @@
+{
+  "premise_id": "brakelight_moth_depths",
+  "title_candidates": [
+    "The Freight Conductor vs. the Giant Centipede — Full Survival Movie",
+    "She Survived the Crash — Then the Creature Led Her Back",
+    "Nobody Believed the Small Animal Mattered — Until It Saved Them All"
+  ],
+  "logline": "After a violent wreck in a storm-cut mountain railway where a night inspection train has crashed inside abandoned mineral tunnels, Ilsa must use freight conductor knowledge, cracked red brake-light lens, and trust in vulnerable creatures to rescue survivors from a tunnel-sized centipede with a black glass shell.",
+  "audience_promise": "A compressed visual-first creature-survival film: immediate disaster, giant predator readability, innocent animal stakes, morally differentiated creatures, occupational problem-solving, quiet care, trap preparation, rescue closure, and minimal dialogue.",
+  "target_minutes": 18.0,
+  "release_format": "short_feature",
+  "channel_contract": "compressed_creature_survival",
+  "survival_engine": {
+    "occupation": "freight conductor",
+    "vehicle_or_station": "the wrecked inspection train and its working brake-light/horn system",
+    "predator": "a tunnel-sized centipede with a black glass shell",
+    "innocent_animal": "a trapped railway pigeon with a red leg band",
+    "ally_creature": "a dust-blue giant moth whose wings react to light",
+    "rescue_inversion": "escape becomes rescue when captives and the allied creature are found alive but trapped"
+  },
+  "emotional_engine": {
+    "wound": "Ilsa believes the wreck proves she failed the people and animals under her care.",
+    "want": "survive the predator territory and reach safety",
+    "need": "accept that care, humility, and reciprocal rescue matter more than escaping alone or proving invulnerability",
+    "injustice": "the disaster is not a human villain's plot; the cruelty is exposure, predation, injury, and the temptation to abandon weaker lives",
+    "protective_counterforce": "a trapped railway pigeon with a red leg band and a dust-blue giant moth whose wings react to light create trust through vulnerability rather than speech",
+    "belonging_payoff": "the wrecked space becomes the wrecked train transformed from crash site into a lighted rescue shelter; the freed moth carries its young back into the high cave dark while the survivors follow the train light out",
+    "secret_or_power_asymmetry": "the predator owns the terrain while the protagonist owns only professional knowledge, tools, and attention to vulnerable life",
+    "cost_of_failure": "survivors remain trapped, the innocent animal is abandoned, the creature ally is captured, and the protagonist escapes with guilt instead of home"
+  },
+  "protagonist": {
+    "identity": "Ilsa, a young freight conductor who knows the train's brakes, couplers, radio, and emergency light circuits",
+    "vulnerability": "injury, isolation, guilt, limited weapons, and dependence on terrain she cannot control",
+    "capability": "freight conductor competence, mechanical improvisation, observation of animal behavior, and refusal to abandon weaker lives",
+    "agency_first_action": "she protects or frees a trapped railway pigeon with a red leg band before understanding how it can help her",
+    "transformation": "from guilty survivor to rescue author who reads the ecosystem instead of dominating it"
+  },
+  "opening_event": {
+    "first_10_seconds": "Ilsa is thrown from the cab as the inspection train derails inside the tunnel mouth",
+    "first_60_seconds": "the disaster becomes physically undeniable; the first injury, animal distress, or survivor separation is visible before any explanation.",
+    "first_5_minutes": "a tunnel-sized centipede with a black glass shell appears in scale relation to the protagonist; a trapped railway pigeon with a red leg band and the first sign of a dust-blue giant moth whose wings react to light establish that the ecosystem is morally differentiated.",
+    "dramatic_question": "can she turn professional knowledge and care for vulnerable creatures into rescue before the predator owns the terrain?"
+  },
+  "theme_lane": {
+    "family_or_heir_hook": "innocent animal protection and reciprocal creature rescue",
+    "romance_hook": "a frightened apprentice who resented the pigeon admits that the animal's path saved them",
+    "modern_power_hook": "occupational competence, disaster machinery, visual survival problem-solving, and creature ecology"
+  },
+  "failure_intelligence": {
+    "evaluation_path": "pending_generated_evaluation",
+    "nearest_failures": [
+      "monster spectacle without emotional differentiation",
+      "escape-only ending that abandons the animal/creature relationship",
+      "professional identity used as costume rather than survival mechanism",
+      "continuous noise/action with no quiet care hinge"
+    ],
+    "mitigations": [
+      "pay the role/creature/location contract within two minutes",
+      "keep every objective legible with sound off",
+      "make the opening vehicle or station become the final trap/rescue machine",
+      "use silence, breath, creature texture, and small animal contact after the first pursuit",
+      "reveal captives or the allied creature in danger so escape becomes reciprocal rescue"
+    ],
+    "counterexamples_checked": [
+      "high-performing compressed creature films can contain visible AI artifacts; polish alone does not explain performance",
+      "giant scale alone is insufficient unless tied to care, vulnerability, or rescue",
+      "sparse dialogue is a format choice, not permission for thin causality"
+    ]
+  },
+  "packaging": {
+    "thumbnail_single_read": "Ilsa in occupational costume fleeing or standing before a tunnel-sized centipede with a black glass shell, with the wrecked inspection train and its working brake-light/horn system and scale contrast instantly visible",
+    "curiosity_gap": "how can a freight conductor survive a creature that owns the terrain?",
+    "visual_before_after": "wrecked vehicle/station becomes the wrecked train transformed from crash site into a lighted rescue shelter; cracked red brake-light lens changes from routine tool into rescue mechanism",
+    "title_thumbnail_mismatch_risk": "generic monster packaging would hide the stronger occupational-care-rescue mechanism"
+  },
+  "evidence_boundaries": [
+    "Inspired by mechanism-level evidence in compressed creature-survival research; characters, species mix, vehicle, object, and rescue chain are original.",
+    "No CTR, retention, or traffic causality is claimed from public video metadata."
+  ],
+  "meaning_carrier": {
+    "object_or_space": "cracked red brake-light lens",
+    "opening_meaning": "the lens is a routine safety part Ilsa almost discards while checking the train",
+    "closing_reversal": "the same lens focuses the train lamp into a light path that lures the centipede away from the survivors",
+    "final_sequence_use": "the object operates the final light/sound/trap mechanism before the rescued group reaches the wrecked train transformed from crash site into a lighted rescue shelter"
+  },
+  "relational_contract": {
+    "power_asymmetry": "predator-controlled terrain versus an injured professional with only knowledge, tools, and attention to vulnerable life",
+    "safety_or_kindness_before_power": "Ilsa frees or protects a trapped railway pigeon with a red leg band before knowing it can guide, prove, or save anyone",
+    "costly_protagonist_action": "she turns back toward the predator territory to free captives and a dust-blue giant moth whose wings react to light instead of escaping alone",
+    "consent_or_personhood_repair": "the allied creature is never commanded as a weapon; it chooses contact or return freely, and survivors repair their earlier dismissal of the animal",
+    "payoff_image": "the wrecked train transformed from crash site into a lighted rescue shelter; the freed moth carries its young back into the high cave dark while the survivors follow the train light out"
+  }
+}

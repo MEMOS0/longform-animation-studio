@@ -1,0 +1,77 @@
+{
+  "scene_id": "S05",
+  "time_range": "32.4-41.8 minutes",
+  "objective": "second performance/professional engine opens after the first transformation payoff",
+  "conflict": "a student film adaptation of a masked heroine story that forces Mina to perform visibility rather than merely receive admiration",
+  "power_position_start": "validated but professionally unprepared",
+  "power_position_end": "participant in a second arena of competence",
+  "turn": "a student film adaptation of a masked heroine story that forces Mina to perform visibility rather than merely receive admiration",
+  "protagonist_decision": "enter an arena where she must perform visibility rather than merely receive admiration",
+  "subtext": "A second arena converts image into competence.",
+  "visual_action": {
+    "first_image": "a camera or rescue clock starts while the rival blocks the lane or stage entrance",
+    "face_reaction": "the protagonist's expression shifts from social validation toward controlled attention when the turn lands",
+    "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+    "final_image": "the protagonist enters the performance/training space and begins the work under witnesses"
+  },
+  "dialogue_design": {
+    "function": "make choices, objections, and proof implications audible rather than explaining theme",
+    "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "I don't know how to be watched yet.",
+      "Then don't perform. Do the work."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "antagonist or social crowd",
+        "dramatic_job": "a student film adaptation of a masked heroine story that forces Mina to perform visibility rather than merely receive admiration",
+        "writing_note": "pressure must be specific behavior, not generic cruelty"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "caregiver, worker, or vulnerable witness",
+        "dramatic_job": "the love interest becomes a working partner rather than a rescuer",
+        "writing_note": "the objection should make the safe choice reasonable"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "protagonist",
+        "dramatic_job": "enter an arena where she must perform visibility rather than merely receive admiration",
+        "writing_note": "the answer is a choice or refusal, not a theme statement"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "object, proof, or consequence",
+        "dramatic_job": "the rival treats the role/public image as property and begins procedural interference",
+        "writing_note": "the scene must leave a visible cost or proof implication"
+      }
+    ],
+    "spoken_exchange": [],
+    "scene_rhythm": "visual/social pressure first; dialogue names consent, recognition, or authorship only after blocking, objects, phones, thresholds, and protective behavior have made the psychology legible",
+    "rewrite_directives": [
+      "write the scene so the gaze geometry is understandable with sound off",
+      "make the protagonist answer image pressure through behavior, boundaries, work, or movement rather than speeches about confidence",
+      "use phones, mirrors, thresholds, cameras, water/stage machinery, and repeated public spaces as psychology carriers",
+      "do not use despair harm as a cheap transformation trigger",
+      "separate desire, gratitude, performance, and recognition in the romance turns"
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
+    "silence_or_negative_space": "institutional instructions, camera/pool/stage machinery, countdowns, and withheld music",
+    "motif": "a restrained tactile sound motif"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on the immediate consequence of the previous turn: the love interest becomes a working partner rather than a rescuer",
+    "exit_hook": "can she perform being seen without losing control of herself?"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, capability, or relational obligation?",
+    "Is the object/space doing narrative work rather than decorative worldbuilding?",
+    "Is public or institutional pressure expressed through visible behavior rather than exposition?",
+    "Does the protagonist retain agency instead of being rescued into passivity?"
+  ]
+}

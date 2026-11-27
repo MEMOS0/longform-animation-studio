@@ -1,0 +1,93 @@
+{
+  "premise_id": "foghorn_turtle_keeper",
+  "title_candidates": [
+    "The Lighthouse Radio Operator vs. the Giant Crab — Full Survival Movie",
+    "She Survived the Crash — Then the Creature Led Her Back",
+    "Nobody Believed the Small Animal Mattered — Until It Saved Them All"
+  ],
+  "logline": "After a violent wreck in a tidal lighthouse station cut off after a supply ferry wrecks on black rock flats, Noor must use lighthouse radio operator knowledge, bent brass foghorn valve key, and trust in vulnerable creatures to rescue survivors from a barnacle-armored giant crab that hunts through tidal channels.",
+  "audience_promise": "A compressed visual-first creature-survival film: immediate disaster, giant predator readability, innocent animal stakes, morally differentiated creatures, occupational problem-solving, quiet care, trap preparation, rescue closure, and minimal dialogue.",
+  "target_minutes": 18.0,
+  "release_format": "short_feature",
+  "channel_contract": "compressed_creature_survival",
+  "survival_engine": {
+    "occupation": "lighthouse radio operator",
+    "vehicle_or_station": "the stranded ferry hull and the lighthouse foghorn/lens mechanism",
+    "predator": "a barnacle-armored giant crab that hunts through tidal channels",
+    "innocent_animal": "an injured seabird chick tangled in radio wire",
+    "ally_creature": "an ancient leatherback turtle carrying moss and shell scars",
+    "rescue_inversion": "escape becomes rescue when captives and the allied creature are found alive but trapped"
+  },
+  "emotional_engine": {
+    "wound": "Noor believes the wreck proves she failed the people and animals under her care.",
+    "want": "survive the predator territory and reach safety",
+    "need": "accept that care, humility, and reciprocal rescue matter more than escaping alone or proving invulnerability",
+    "injustice": "the disaster is not a human villain's plot; the cruelty is exposure, predation, injury, and the temptation to abandon weaker lives",
+    "protective_counterforce": "an injured seabird chick tangled in radio wire and an ancient leatherback turtle carrying moss and shell scars create trust through vulnerability rather than speech",
+    "belonging_payoff": "the wrecked space becomes the dead lighthouse transformed into a sounding beacon guiding survivors and sea creatures home; the turtle returns to open water with the seabird chick safe on its mossy shell",
+    "secret_or_power_asymmetry": "the predator owns the terrain while the protagonist owns only professional knowledge, tools, and attention to vulnerable life",
+    "cost_of_failure": "survivors remain trapped, the innocent animal is abandoned, the creature ally is captured, and the protagonist escapes with guilt instead of home"
+  },
+  "protagonist": {
+    "identity": "Noor, a lighthouse radio operator who knows the foghorn, lens room, tide charts, and ferry emergency panels",
+    "vulnerability": "injury, isolation, guilt, limited weapons, and dependence on terrain she cannot control",
+    "capability": "lighthouse radio operator competence, mechanical improvisation, observation of animal behavior, and refusal to abandon weaker lives",
+    "agency_first_action": "she protects or frees an injured seabird chick tangled in radio wire before understanding how it can help her",
+    "transformation": "from guilty survivor to rescue author who reads the ecosystem instead of dominating it"
+  },
+  "opening_event": {
+    "first_10_seconds": "Noor is knocked against the radio desk as the ferry breaks apart outside the lighthouse",
+    "first_60_seconds": "the disaster becomes physically undeniable; the first injury, animal distress, or survivor separation is visible before any explanation.",
+    "first_5_minutes": "a barnacle-armored giant crab that hunts through tidal channels appears in scale relation to the protagonist; an injured seabird chick tangled in radio wire and the first sign of an ancient leatherback turtle carrying moss and shell scars establish that the ecosystem is morally differentiated.",
+    "dramatic_question": "can she turn professional knowledge and care for vulnerable creatures into rescue before the predator owns the terrain?"
+  },
+  "theme_lane": {
+    "family_or_heir_hook": "innocent animal protection and reciprocal creature rescue",
+    "romance_hook": "the ferry mate who dismissed the seabird as a nuisance helps carry it to the turtle before apologizing",
+    "modern_power_hook": "occupational competence, disaster machinery, visual survival problem-solving, and creature ecology"
+  },
+  "failure_intelligence": {
+    "evaluation_path": "pending_generated_evaluation",
+    "nearest_failures": [
+      "monster spectacle without emotional differentiation",
+      "escape-only ending that abandons the animal/creature relationship",
+      "professional identity used as costume rather than survival mechanism",
+      "continuous noise/action with no quiet care hinge"
+    ],
+    "mitigations": [
+      "pay the role/creature/location contract within two minutes",
+      "keep every objective legible with sound off",
+      "make the opening vehicle or station become the final trap/rescue machine",
+      "use silence, breath, creature texture, and small animal contact after the first pursuit",
+      "reveal captives or the allied creature in danger so escape becomes reciprocal rescue"
+    ],
+    "counterexamples_checked": [
+      "high-performing compressed creature films can contain visible AI artifacts; polish alone does not explain performance",
+      "giant scale alone is insufficient unless tied to care, vulnerability, or rescue",
+      "sparse dialogue is a format choice, not permission for thin causality"
+    ]
+  },
+  "packaging": {
+    "thumbnail_single_read": "Noor in occupational costume fleeing or standing before a barnacle-armored giant crab that hunts through tidal channels, with the stranded ferry hull and the lighthouse foghorn/lens mechanism and scale contrast instantly visible",
+    "curiosity_gap": "how can a lighthouse radio operator survive a creature that owns the terrain?",
+    "visual_before_after": "wrecked vehicle/station becomes the dead lighthouse transformed into a sounding beacon guiding survivors and sea creatures home; bent brass foghorn valve key changes from routine tool into rescue mechanism",
+    "title_thumbnail_mismatch_risk": "generic monster packaging would hide the stronger occupational-care-rescue mechanism"
+  },
+  "evidence_boundaries": [
+    "Inspired by mechanism-level evidence in compressed creature-survival research; characters, species mix, vehicle, object, and rescue chain are original.",
+    "No CTR, retention, or traffic causality is claimed from public video metadata."
+  ],
+  "meaning_carrier": {
+    "object_or_space": "bent brass foghorn valve key",
+    "opening_meaning": "the key is a maintenance tool Noor uses as routine maintenance before the wreck",
+    "closing_reversal": "the same key opens the foghorn line that drives the crab into the tide gate and frees trapped passengers",
+    "final_sequence_use": "the object operates the final light/sound/trap mechanism before the rescued group reaches the dead lighthouse transformed into a sounding beacon guiding survivors and sea creatures home"
+  },
+  "relational_contract": {
+    "power_asymmetry": "predator-controlled terrain versus an injured professional with only knowledge, tools, and attention to vulnerable life",
+    "safety_or_kindness_before_power": "Noor frees or protects an injured seabird chick tangled in radio wire before knowing it can guide, prove, or save anyone",
+    "costly_protagonist_action": "she turns back toward the predator territory to free captives and an ancient leatherback turtle carrying moss and shell scars instead of escaping alone",
+    "consent_or_personhood_repair": "the allied creature is never commanded as a weapon; it chooses contact or return freely, and survivors repair their earlier dismissal of the animal",
+    "payoff_image": "the dead lighthouse transformed into a sounding beacon guiding survivors and sea creatures home; the turtle returns to open water with the seabird chick safe on its mossy shell"
+  }
+}

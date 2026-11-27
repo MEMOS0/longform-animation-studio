@@ -1,0 +1,3443 @@
+{
+  "premise_id": "brakelight_moth_depths",
+  "schema_errors": {
+    "premise": [],
+    "architecture": [],
+    "scenes": []
+  },
+  "failure_intelligence": {
+    "candidate": "The Freight Conductor vs. the Giant Centipede — Full Survival Movie",
+    "risk_score_0_to_1": 0.437,
+    "confidence": "low_until_script_and_media-evidence comparison is complete",
+    "matched_failure_patterns": [],
+    "nearest_archive_examples": [
+      {
+        "video_id": "_I5I1l7DP3E",
+        "title": "She Sold Weapons Through a Magic Mirror… Then Accidentally Stole the WOLF KING'S FIRST KISS!#AIStory",
+        "cohort": "middle",
+        "views_per_day": 912.5555555555555,
+        "themes": [
+          "romance_mate",
+          "royalty_status",
+          "sacred_special_blood",
+          "wolf_werewolf"
+        ],
+        "similarity": 0.040422604172722164
+      },
+      {
+        "video_id": "si1q6wv6aMI",
+        "title": "They Abandoned Their Sacred-Blood Girl… Now She's the VAMPIRE QUEEN They Can Never Have!#AIStory",
+        "cohort": "middle",
+        "views_per_day": 5599.613636363636,
+        "themes": [
+          "revenge_retribution",
+          "royalty_status",
+          "sacred_special_blood",
+          "vampire"
+        ],
+        "similarity": 0.03542459542160381
+      },
+      {
+        "video_id": "BeX5LHLqOEI",
+        "title": "He Abandoned His Rabbit Mate for Another Woman… Now She's Back With the PANTHER KING'S TWINS#AIStory",
+        "cohort": "underperforming",
+        "views_per_day": 581.28,
+        "themes": [
+          "animal_child",
+          "rebirth_second_chance",
+          "romance_mate",
+          "royalty_status"
+        ],
+        "similarity": 0.033776026473659924
+      },
+      {
+        "video_id": "u9acebqxR-8",
+        "title": "They Called Her a Curse… Unaware She Had the Divine Power to Bring the Forest Back to Life!#AIStory",
+        "cohort": "unknown",
+        "views_per_day": null,
+        "themes": [
+          "rebirth_second_chance",
+          "sacred_special_blood"
+        ],
+        "similarity": 0.0280056016805602
+      },
+      {
+        "video_id": "egF-DbUQp2k",
+        "title": "They Hunted a Human Girl for Her Blood… Unaware She Was the VAMPIRE KING'S ONLY SALVATION!#AIStory",
+        "cohort": "middle",
+        "views_per_day": 954.7619047619048,
+        "themes": [
+          "royalty_status",
+          "sacred_special_blood",
+          "vampire"
+        ],
+        "similarity": 0.0280056016805602
+      },
+      {
+        "video_id": "artArYLREYE",
+        "title": "I Reborn as an 8-Year-Old on the FLIGHT THAT CRASHED… and Only I Know We Are About to Die!",
+        "cohort": "middle",
+        "views_per_day": 6609.009433962264,
+        "themes": [
+          "rebirth_second_chance"
+        ],
+        "similarity": 0.0280056016805602
+      },
+      {
+        "video_id": "1UB6EA3L7I4",
+        "title": "They Stole Everything From Her, So She Became the SUPREME WOLF EMPRESS to Take It All Back! #AIStory",
+        "cohort": "underperforming",
+        "views_per_day": 394.08,
+        "themes": [
+          "rebirth_second_chance",
+          "royalty_status",
+          "wolf_werewolf"
+        ],
+        "similarity": 0.026568446566202858
+      },
+      {
+        "video_id": "ZhAYjMLvlqc",
+        "title": "She Left the DRAGON PRINCE… When He Found Her Again, She Had Two Children by Her Side!#AIStory",
+        "cohort": "underperforming",
+        "views_per_day": 334.2903225806452,
+        "themes": [
+          "dragon",
+          "family_child",
+          "royalty_status"
+        ],
+        "similarity": 0.026568446566202858
+      }
+    ],
+    "positive_missing_or_weak": [
+      "No strong hidden identity/secret hook detected; Nov Drama hits often use one, though this is not mandatory.",
+      "No child/heir/creature emotional anchor detected; this is currently one of the strongest archive-level positive signals.",
+      "No explicit status reversal detected in the surface promise.",
+      "No clear mythic creature lane detected; test whether the concept matches the channel audience's demand."
+    ],
+    "decision_guidance": [
+      "Concept does not trigger strong archive-level failure alarms, but retention-safe execution still requires scene-level proof."
+    ],
+    "causal_boundary": "This is pattern-matching against public outcomes and extracted creative signals; it is not a causal predictor of CTR, retention, or audience response."
+  },
+  "scene_quality": {
+    "scene_count": 8,
+    "covered_minutes_estimate": 18.0,
+    "missing": {
+      "power_change": [],
+      "protagonist_decision": [],
+      "failure_checks": [],
+      "negative_space_sound": []
+    },
+    "time_overlaps": []
+  },
+  "architecture_quality": {
+    "sequence_count": 8,
+    "coverage_end_minutes": 18.0,
+    "warnings": []
+  },
+  "format_strategy": {
+    "format_class": "short_feature",
+    "inferred_flags": {
+      "episodic": false,
+      "compilation": false,
+      "serialized": true,
+      "continuation_hook": false
+    },
+    "recommendations": [
+      "Create legible injustice or danger within the first 90 seconds.",
+      "Pay the title/thumbnail fantasy visually by minute 5.",
+      "Treat compression as a completeness constraint: every scene should advance danger, bond, cost, or reversal in at least two ways.",
+      "Keep lore subordinate to a visible victim/protector relationship.",
+      "End with emotional belonging or safety, not only procedural victory, unless the asset is explicitly a serialized act with a next-problem hook."
+    ],
+    "warnings": [],
+    "causal_boundary": "Duration/format guidance is observational and channel-dependent; it is not proof of retention or CTR causality."
+  },
+  "opening_conversion_quality": {
+    "mechanism_groups_present": [
+      "wound_or_vulnerability",
+      "protective_counterforce"
+    ],
+    "matched_terms": {
+      "wound_or_vulnerability": [
+        "vulnerable",
+        "creature"
+      ],
+      "protective_counterforce": [
+        "care",
+        "ally",
+        "rescue"
+      ],
+      "antagonistic_pressure": [],
+      "progression_or_payoff_promise": []
+    },
+    "administrative_terms": [
+      "inspect"
+    ],
+    "ordinary_anchor_terms": [
+      "animal"
+    ],
+    "warnings": [
+      "opening hook does not yet convert into a legible emotional system across wound/protection/pressure/payoff"
+    ]
+  },
+  "title_packaging": {
+    "existing_title_critiques": [
+      {
+        "title": "The Freight Conductor vs. the Giant Centipede — Full Survival Movie",
+        "critique": {
+          "score_0_to_1": 0.09999999999999998,
+          "strengths": [],
+          "risks": [
+            "no vulnerable/relational anchor visible",
+            "conflict/injustice not legible",
+            "no clear turn/transformation promise",
+            "title may not expose the premise's clearest vulnerable anchor"
+          ],
+          "mobile_length": 67,
+          "ethical_boundary": "Do not reuse another channel's exact hit title or create deceptive duplicate packaging; learn the demand mechanism instead."
+        }
+      },
+      {
+        "title": "She Survived the Crash — Then the Creature Led Her Back",
+        "critique": {
+          "score_0_to_1": 0.58,
+          "strengths": [
+            "vulnerable or relational anchor visible",
+            "turn or transformation promise present"
+          ],
+          "risks": [
+            "conflict/injustice not legible"
+          ],
+          "mobile_length": 55,
+          "ethical_boundary": "Do not reuse another channel's exact hit title or create deceptive duplicate packaging; learn the demand mechanism instead."
+        }
+      },
+      {
+        "title": "Nobody Believed the Small Animal Mattered — Until It Saved Them All",
+        "critique": {
+          "score_0_to_1": 0.30000000000000004,
+          "strengths": [
+            "turn or transformation promise present"
+          ],
+          "risks": [
+            "no vulnerable/relational anchor visible",
+            "conflict/injustice not legible",
+            "title may not expose the premise's clearest vulnerable anchor"
+          ],
+          "mobile_length": 67,
+          "ethical_boundary": "Do not reuse another channel's exact hit title or create deceptive duplicate packaging; learn the demand mechanism instead."
+        }
+      }
+    ],
+    "generated_alternatives": [
+      {
+        "title": "They Created Ilsa believes the wreck proves she failed the people and animals under her care.… Until a trapped railway pigeon with a red leg band and a dust-blue giant moth whose wings react to light create trust through vulnerability rather than speech Changed Everything",
+        "critique": {
+          "score_0_to_1": 0.22000000000000003,
+          "strengths": [
+            "turn or transformation promise present"
+          ],
+          "risks": [
+            "no vulnerable/relational anchor visible",
+            "conflict/injustice not legible",
+            "too long for mobile scanning",
+            "title may not expose the premise's clearest vulnerable anchor"
+          ],
+          "mobile_length": 272,
+          "ethical_boundary": "Do not reuse another channel's exact hit title or create deceptive duplicate packaging; learn the demand mechanism instead."
+        }
+      },
+      {
+        "title": "When the disaster is not a human villain's plot; the cruelty is exposure, predation, injury, and the temptation to abandon weaker lives Threatens Everything, One Choice Leads to the wrecked space becomes the wrecked train transformed from crash site into a lighted rescue shelter; the freed moth carries its young back into the high cave dark while the survivors follow the train light out",
+        "critique": {
+          "score_0_to_1": 0.41999999999999993,
+          "strengths": [
+            "conflict or injustice legible",
+            "turn or transformation promise present"
+          ],
+          "risks": [
+            "no vulnerable/relational anchor visible",
+            "too long for mobile scanning",
+            "title may not expose the premise's clearest vulnerable anchor"
+          ],
+          "mobile_length": 389,
+          "ethical_boundary": "Do not reuse another channel's exact hit title or create deceptive duplicate packaging; learn the demand mechanism instead."
+        }
+      },
+      {
+        "title": "A Wound They Cannot Hide. A Protector They Did Not Expect. A Home Worth Fighting For.",
+        "critique": {
+          "score_0_to_1": 0.14,
+          "strengths": [
+            "relationship role present"
+          ],
+          "risks": [
+            "no vulnerable/relational anchor visible",
+            "conflict/injustice not legible",
+            "no clear turn/transformation promise",
+            "long; verify mobile truncation",
+            "title may not expose the premise's clearest vulnerable anchor"
+          ],
+          "mobile_length": 85,
+          "ethical_boundary": "Do not reuse another channel's exact hit title or create deceptive duplicate packaging; learn the demand mechanism instead."
+        }
+      }
+    ]
+  },
+  "thumbnail_concepts": [
+    {
+      "concept": {
+        "concept_id": "vulnerable_bond_scale",
+        "category": "creature_power_bond",
+        "core_mechanic": "small vulnerable being in front, protector/power presence looming behind",
+        "composition": "protagonist and vulnerable creature/child occupy the lower-center third; protector or transformed creature fills the upper/background third; eyes or energy connect them",
+        "emotion": "fear turning into trust; protector intensity without sexualized coercion",
+        "palette": "warm gold/cyan or warm gold/ice-blue contrast; luminous subject separation from darker background",
+        "text_direction": "short concrete promise, 2–5 words maximum if text is used; do not restate a long title",
+        "mobile_test": "at 160px wide, viewer must still identify the small creature/child, protagonist emotion, and protector silhouette",
+        "reference_categories_to_study": [
+          "creature_power_bond"
+        ],
+        "source_promise": "A compressed visual-first creature-survival film: immediate disaster, giant predator readability, innocent animal stakes, morally differentiated creatures, occupational problem-solving, quiet care, trap preparation, rescue closure, and minimal dialogue.",
+        "source_wound": "Ilsa believes the wreck proves she failed the people and animals under her care.",
+        "protector": "Ilsa",
+        "creature_or_child_anchor": "a trapped railway pigeon with a red leg band",
+        "do_not_copy": "Use reference images only for mechanics: hierarchy, contrast, emotion, and readability. Generate original characters, layout, typography, and world details."
+      },
+      "critique": {
+        "score_0_to_1": 0.9299999999999999,
+        "strengths": [
+          "clear focal hierarchy",
+          "specific emotion",
+          "controlled color contrast",
+          "text restraint"
+        ],
+        "risks": [],
+        "required_mobile_check": "at 160px wide, viewer must still identify the small creature/child, protagonist emotion, and protector silhouette",
+        "ctr_caveat": "This is a design-quality critique, not a CTR prediction. Validate with YouTube Test & Compare when available."
+      }
+    },
+    {
+      "concept": {
+        "concept_id": "transformation_split",
+        "category": "transformation_rebirth",
+        "core_mechanic": "before/after or wound/power contrast in one instantly readable frame",
+        "composition": "protagonist split across an asymmetrical diagonal or central mirror axis; wounded version smaller/less polished, transformed version dominant but still emotionally expressive",
+        "emotion": "shame becoming agency, not empty glamour",
+        "palette": "high-key clean background with one saturated accent; avoid muddy midtones",
+        "text_direction": "one transformation word or short reversal phrase; avoid clutter",
+        "mobile_test": "before/after difference must remain visible at feed size",
+        "reference_categories_to_study": [
+          "transformation_rebirth"
+        ],
+        "source_promise": "A compressed visual-first creature-survival film: immediate disaster, giant predator readability, innocent animal stakes, morally differentiated creatures, occupational problem-solving, quiet care, trap preparation, rescue closure, and minimal dialogue.",
+        "source_wound": "Ilsa believes the wreck proves she failed the people and animals under her care.",
+        "protector": "Ilsa",
+        "creature_or_child_anchor": "a trapped railway pigeon with a red leg band",
+        "do_not_copy": "Use reference images only for mechanics: hierarchy, contrast, emotion, and readability. Generate original characters, layout, typography, and world details."
+      },
+      "critique": {
+        "score_0_to_1": 0.84,
+        "strengths": [
+          "clear focal hierarchy",
+          "specific emotion",
+          "controlled color contrast",
+          "text restraint"
+        ],
+        "risks": [
+          "emotion may not carry story promise"
+        ],
+        "required_mobile_check": "before/after difference must remain visible at feed size",
+        "ctr_caveat": "This is a design-quality critique, not a CTR prediction. Validate with YouTube Test & Compare when available."
+      }
+    }
+  ],
+  "channel_contract_fit": {
+    "contract_id": "compressed_creature_survival",
+    "status": "pass",
+    "reference_channels": [
+      "Neural Pictures"
+    ],
+    "matched_positive_signals": [
+      "crash",
+      "survive",
+      "rescue",
+      "creature",
+      "animal",
+      "predator",
+      "professional",
+      "vehicle",
+      "station",
+      "trap",
+      "escape",
+      "protects",
+      "giant"
+    ],
+    "missing_positive_signals": [
+      "occupation"
+    ],
+    "opening_rules": [
+      "state role/creature/location visually and pay disaster or threat within two minutes",
+      "keep objectives legible with sound off",
+      "make occupational competence part of survival rather than costume",
+      "differentiate predator creatures from innocent or cooperative creatures",
+      "use a quiet animal-care hinge after the first spectacle"
+    ],
+    "risk_patterns": [
+      "monster spectacle without emotional differentiation",
+      "escape-only ending that abandons animal/creature relationships",
+      "continuous noise with no quiet care hinge",
+      "professional identity used only as costume"
+    ],
+    "thumbnail_rules": [
+      "one ordinary professional silhouette against one oversized creature threat",
+      "vehicle/station/location object must be readable at mobile size",
+      "avoid multi-threat collage and lore symbols"
+    ],
+    "warnings": [],
+    "evidence": [
+      "knowledge/market/neural-pictures-compressed-creature-survival-deep-dive.md"
+    ]
+  },
+  "production_economics": {
+    "status": "documentation_estimate_not_quote",
+    "target_minutes": 18.0,
+    "generation_to_final_ratio": 8.0,
+    "single_pass_scenarios": [
+      {
+        "model_or_lane": "gemini_omni_flash_1_2_low_tier",
+        "documented_usd_per_second": 0.02,
+        "finished_minutes_cost_if_single_pass": 21.6,
+        "iteration_adjusted_cost_estimate": 172.8
+      },
+      {
+        "model_or_lane": "grok_imagine_1_5_lite_low_tier",
+        "documented_usd_per_second": 0.02,
+        "finished_minutes_cost_if_single_pass": 21.6,
+        "iteration_adjusted_cost_estimate": 172.8
+      },
+      {
+        "model_or_lane": "gen4_turbo",
+        "documented_usd_per_second": 0.05,
+        "finished_minutes_cost_if_single_pass": 54.0,
+        "iteration_adjusted_cost_estimate": 432.0
+      },
+      {
+        "model_or_lane": "wan3_low_tier",
+        "documented_usd_per_second": 0.05,
+        "finished_minutes_cost_if_single_pass": 54.0,
+        "iteration_adjusted_cost_estimate": 432.0
+      },
+      {
+        "model_or_lane": "seedance2_mini_low_tier",
+        "documented_usd_per_second": 0.07,
+        "finished_minutes_cost_if_single_pass": 75.6,
+        "iteration_adjusted_cost_estimate": 604.8
+      },
+      {
+        "model_or_lane": "kling_4_flash_low_tier",
+        "documented_usd_per_second": 0.094,
+        "finished_minutes_cost_if_single_pass": 101.52,
+        "iteration_adjusted_cost_estimate": 812.16
+      },
+      {
+        "model_or_lane": "gen4_5",
+        "documented_usd_per_second": 0.12,
+        "finished_minutes_cost_if_single_pass": 129.6,
+        "iteration_adjusted_cost_estimate": 1036.8
+      },
+      {
+        "model_or_lane": "kling_4_low_tier",
+        "documented_usd_per_second": 0.157,
+        "finished_minutes_cost_if_single_pass": 169.56,
+        "iteration_adjusted_cost_estimate": 1356.48
+      },
+      {
+        "model_or_lane": "aleph2",
+        "documented_usd_per_second": 0.28,
+        "finished_minutes_cost_if_single_pass": 302.4,
+        "iteration_adjusted_cost_estimate": 2419.2
+      }
+    ],
+    "mixed_pipeline_example": {
+      "assumption": "70% cheap draft/blocking lane at $0.02/sec, 20% mid-cost lane at $0.05/sec, 10% hero-shot lane at $0.12/sec",
+      "iteration_adjusted_cost_estimate": 311.04
+    },
+    "warnings": [
+      "iteration ratio is a planning assumption, not a measurement",
+      "input/reference video billing can increase cost on some providers",
+      "voice, music, edit, QA, and labor are excluded",
+      "recheck exact provider pricing/terms before any spend"
+    ],
+    "production_rules": [
+      "do not generate the full film linearly; decompose into shots",
+      "validate character consistency with a cheap fixed smoke pack first",
+      "use expensive models only for hero/motion-critical shots",
+      "track actual generated seconds vs final seconds as a KPI"
+    ],
+    "evidence": "knowledge/production/video-generation-provider-audit.md"
+  },
+  "shot_pipeline": {
+    "shot_count": 157,
+    "planned_generated_seconds": 1080.0,
+    "estimated_final_seconds": 1080.0,
+    "planned_generated_to_final_ratio": 1.0,
+    "lane_counts": {
+      "draft": 85,
+      "mid": 35,
+      "hero": 37
+    },
+    "lane_seconds": {
+      "draft": 487.0,
+      "mid": 315.0,
+      "hero": 278.0
+    },
+    "shots": [
+      {
+        "shot_id": "S01_SHOT001",
+        "scene_id": "S01",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the role/vehicle/location contract reads instantly: the wrecked inspection train and its working brake-light/horn system breaking apart under the disaster",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S01_SHOT002",
+        "scene_id": "S01",
+        "kind": "vulnerable_detail",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist's expression shifts from routine control toward controlled attention when the turn lands",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S01_SHOT003",
+        "scene_id": "S01",
+        "kind": "dialogue_action",
+        "duration_seconds": 10.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "role contract, disaster, and immediate survival stakes Ilsa is thrown from the cab as the inspection train derails inside the tunnel mouth",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S01_SHOT004",
+        "scene_id": "S01",
+        "kind": "pressure_insert",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "Ilsa is thrown from the cab as the inspection train derails inside the tunnel mouth",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S01_SHOT005",
+        "scene_id": "S01",
+        "kind": "power_transition",
+        "duration_seconds": 8.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "save whoever can still be reached before understanding what caused the disaster Ilsa is thrown from the cab as the inspection train derails inside the tunnel mouth",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S01_SHOT006",
+        "scene_id": "S01",
+        "kind": "sensory_bridge",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "sound/texture continuity: Ilsa is thrown from the cab as the inspection train derails inside the tunnel mouth",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S01_SHOT007",
+        "scene_id": "S01",
+        "kind": "dialogue_action",
+        "duration_seconds": 9.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "role contract, disaster, and immediate survival stakes Ilsa is thrown from the cab as the inspection train derails inside the tunnel mouth",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S01_SHOT008",
+        "scene_id": "S01",
+        "kind": "consequence",
+        "duration_seconds": 7.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "Ilsa is thrown from the cab as the inspection train derails inside the tunnel mouth",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S01_SHOT009",
+        "scene_id": "S01",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the role/vehicle/location contract reads instantly: the wrecked inspection train and its working brake-light/horn system breaking apart under the disaster",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S01_SHOT010",
+        "scene_id": "S01",
+        "kind": "vulnerable_detail",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist's expression shifts from routine control toward controlled attention when the turn lands",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S01_SHOT011",
+        "scene_id": "S01",
+        "kind": "dialogue_action",
+        "duration_seconds": 10.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "role contract, disaster, and immediate survival stakes Ilsa is thrown from the cab as the inspection train derails inside the tunnel mouth",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S01_SHOT012",
+        "scene_id": "S01",
+        "kind": "pressure_insert",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "Ilsa is thrown from the cab as the inspection train derails inside the tunnel mouth",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S01_SHOT013",
+        "scene_id": "S01",
+        "kind": "power_transition",
+        "duration_seconds": 8.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "save whoever can still be reached before understanding what caused the disaster Ilsa is thrown from the cab as the inspection train derails inside the tunnel mouth",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S01_SHOT014",
+        "scene_id": "S01",
+        "kind": "sensory_bridge",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "sound/texture continuity: Ilsa is thrown from the cab as the inspection train derails inside the tunnel mouth",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S01_SHOT015",
+        "scene_id": "S01",
+        "kind": "final_image",
+        "duration_seconds": 9.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "Ilsa reaches a trapped railway pigeon with a red leg band while cracked red brake-light lens catches a first meaningful glint in the wreckage",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S01_SHOT016",
+        "scene_id": "S01",
+        "kind": "final_image",
+        "duration_seconds": 3.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "Ilsa reaches a trapped railway pigeon with a red leg band while cracked red brake-light lens catches a first meaningful glint in the wreckage",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S02_SHOT001",
+        "scene_id": "S02",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "a tunnel-sized centipede with a black glass shell fills the frame behind or above the small protagonist and animal",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S02_SHOT002",
+        "scene_id": "S02",
+        "kind": "vulnerable_detail",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist's expression shifts from shock toward controlled attention when the turn lands",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S02_SHOT003",
+        "scene_id": "S02",
+        "kind": "dialogue_action",
+        "duration_seconds": 10.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "predator reveal and terrain-rule establishment a tunnel-sized centipede with a black glass shell appears in scale relation to the protagonist and turns the disaster site into hunted terrain",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S02_SHOT004",
+        "scene_id": "S02",
+        "kind": "pressure_insert",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "a tunnel-sized centipede with a black glass shell appears in scale relation to the protagonist and turns the disaster site into hunted terrain",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S02_SHOT005",
+        "scene_id": "S02",
+        "kind": "power_transition",
+        "duration_seconds": 8.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "run, hide, or protect the vulnerable animal while learning how the predator tracks movement/sound/light a tunnel-sized centipede with a black glass shell appears in scale relation to the protagonist and turns the disaster site into hunted terrain",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S02_SHOT006",
+        "scene_id": "S02",
+        "kind": "sensory_bridge",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "sound/texture continuity: a tunnel-sized centipede with a black glass shell appears in scale relation to the protagonist and turns the disaster site into hunted terrain",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S02_SHOT007",
+        "scene_id": "S02",
+        "kind": "dialogue_action",
+        "duration_seconds": 9.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "predator reveal and terrain-rule establishment a tunnel-sized centipede with a black glass shell appears in scale relation to the protagonist and turns the disaster site into hunted terrain",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S02_SHOT008",
+        "scene_id": "S02",
+        "kind": "consequence",
+        "duration_seconds": 7.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "a tunnel-sized centipede with a black glass shell appears in scale relation to the protagonist and turns the disaster site into hunted terrain",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S02_SHOT009",
+        "scene_id": "S02",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "a tunnel-sized centipede with a black glass shell fills the frame behind or above the small protagonist and animal",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S02_SHOT010",
+        "scene_id": "S02",
+        "kind": "vulnerable_detail",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist's expression shifts from shock toward controlled attention when the turn lands",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S02_SHOT011",
+        "scene_id": "S02",
+        "kind": "dialogue_action",
+        "duration_seconds": 10.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "predator reveal and terrain-rule establishment a tunnel-sized centipede with a black glass shell appears in scale relation to the protagonist and turns the disaster site into hunted terrain",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S02_SHOT012",
+        "scene_id": "S02",
+        "kind": "pressure_insert",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "a tunnel-sized centipede with a black glass shell appears in scale relation to the protagonist and turns the disaster site into hunted terrain",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S02_SHOT013",
+        "scene_id": "S02",
+        "kind": "power_transition",
+        "duration_seconds": 8.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "run, hide, or protect the vulnerable animal while learning how the predator tracks movement/sound/light a tunnel-sized centipede with a black glass shell appears in scale relation to the protagonist and turns the disaster site into hunted terrain",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S02_SHOT014",
+        "scene_id": "S02",
+        "kind": "sensory_bridge",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "sound/texture continuity: a tunnel-sized centipede with a black glass shell appears in scale relation to the protagonist and turns the disaster site into hunted terrain",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S02_SHOT015",
+        "scene_id": "S02",
+        "kind": "final_image",
+        "duration_seconds": 9.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "Ilsa freezes or hides as the predator repeats the sensory behavior she must later exploit",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S02_SHOT016",
+        "scene_id": "S02",
+        "kind": "final_image",
+        "duration_seconds": 3.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "Ilsa freezes or hides as the predator repeats the sensory behavior she must later exploit",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S03_SHOT001",
+        "scene_id": "S03",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "a dust-blue giant moth whose wings react to light emerges at giant scale but injured, hesitant, or reactive rather than simply attacking",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S03_SHOT002",
+        "scene_id": "S03",
+        "kind": "vulnerable_detail",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist's expression shifts from terror toward controlled attention when the turn lands",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S03_SHOT003",
+        "scene_id": "S03",
+        "kind": "dialogue_action",
+        "duration_seconds": 10.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "creature ecology and moral differentiation a dust-blue giant moth whose wings react to light enters the ecosystem and proves that not every giant creature is the same kind of threat",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S03_SHOT004",
+        "scene_id": "S03",
+        "kind": "pressure_insert",
+        "duration_seconds": 6.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "a dust-blue giant moth whose wings react to light enters the ecosystem and proves that not every giant creature is the same kind of threat",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S03_SHOT005",
+        "scene_id": "S03",
+        "kind": "power_transition",
+        "duration_seconds": 8.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "risk stillness, gentleness, or contact rather than treating every creature as a monster a dust-blue giant moth whose wings react to light enters the ecosystem and proves that not every giant creature is the same kind of threat",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S03_SHOT006",
+        "scene_id": "S03",
+        "kind": "sensory_bridge",
+        "duration_seconds": 5.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "sound/texture continuity: a dust-blue giant moth whose wings react to light enters the ecosystem and proves that not every giant creature is the same kind of threat",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S03_SHOT007",
+        "scene_id": "S03",
+        "kind": "dialogue_action",
+        "duration_seconds": 9.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "creature ecology and moral differentiation a dust-blue giant moth whose wings react to light enters the ecosystem and proves that not every giant creature is the same kind of threat",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S03_SHOT008",
+        "scene_id": "S03",
+        "kind": "consequence",
+        "duration_seconds": 7.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "a dust-blue giant moth whose wings react to light enters the ecosystem and proves that not every giant creature is the same kind of threat",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S03_SHOT009",
+        "scene_id": "S03",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "a dust-blue giant moth whose wings react to light emerges at giant scale but injured, hesitant, or reactive rather than simply attacking",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S03_SHOT010",
+        "scene_id": "S03",
+        "kind": "vulnerable_detail",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist's expression shifts from terror toward controlled attention when the turn lands",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S03_SHOT011",
+        "scene_id": "S03",
+        "kind": "dialogue_action",
+        "duration_seconds": 10.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "creature ecology and moral differentiation a dust-blue giant moth whose wings react to light enters the ecosystem and proves that not every giant creature is the same kind of threat",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S03_SHOT012",
+        "scene_id": "S03",
+        "kind": "pressure_insert",
+        "duration_seconds": 6.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "a dust-blue giant moth whose wings react to light enters the ecosystem and proves that not every giant creature is the same kind of threat",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S03_SHOT013",
+        "scene_id": "S03",
+        "kind": "power_transition",
+        "duration_seconds": 8.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "risk stillness, gentleness, or contact rather than treating every creature as a monster a dust-blue giant moth whose wings react to light enters the ecosystem and proves that not every giant creature is the same kind of threat",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S03_SHOT014",
+        "scene_id": "S03",
+        "kind": "sensory_bridge",
+        "duration_seconds": 5.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "sound/texture continuity: a dust-blue giant moth whose wings react to light enters the ecosystem and proves that not every giant creature is the same kind of threat",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S03_SHOT015",
+        "scene_id": "S03",
+        "kind": "dialogue_action",
+        "duration_seconds": 9.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "creature ecology and moral differentiation a dust-blue giant moth whose wings react to light enters the ecosystem and proves that not every giant creature is the same kind of threat",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S03_SHOT016",
+        "scene_id": "S03",
+        "kind": "consequence",
+        "duration_seconds": 7.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "a dust-blue giant moth whose wings react to light enters the ecosystem and proves that not every giant creature is the same kind of threat",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S03_SHOT017",
+        "scene_id": "S03",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "a dust-blue giant moth whose wings react to light emerges at giant scale but injured, hesitant, or reactive rather than simply attacking",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S03_SHOT018",
+        "scene_id": "S03",
+        "kind": "final_image",
+        "duration_seconds": 5.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "Ilsa's open hand or light touches the creature's boundary without capturing it",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S03_SHOT019",
+        "scene_id": "S03",
+        "kind": "final_image",
+        "duration_seconds": 9.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "Ilsa's open hand or light touches the creature's boundary without capturing it",
+        "continuity_dependencies": [
+          "creature_or_child_model_sheet",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S04_SHOT001",
+        "scene_id": "S04",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "a trapped railway pigeon with a red leg band trembles in wire, cloth, water, dust, or darkness while danger remains off-screen but audible",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S04_SHOT002",
+        "scene_id": "S04",
+        "kind": "vulnerable_detail",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist's expression shifts from panic toward controlled attention when the turn lands",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S04_SHOT003",
+        "scene_id": "S04",
+        "kind": "dialogue_action",
+        "duration_seconds": 10.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "quiet animal-care hinge and first relational cost the protagonist slows down to free, feed, warm, or protect a trapped railway pigeon with a red leg band even though the predator may still be near",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S04_SHOT004",
+        "scene_id": "S04",
+        "kind": "pressure_insert",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist slows down to free, feed, warm, or protect a trapped railway pigeon with a red leg band even though the predator may still be near",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S04_SHOT005",
+        "scene_id": "S04",
+        "kind": "power_transition",
+        "duration_seconds": 8.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "lose escape time to protect a vulnerable life that cannot yet help her the protagonist slows down to free, feed, warm, or protect a trapped railway pigeon with a red leg band even though the predator may still be near",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S04_SHOT006",
+        "scene_id": "S04",
+        "kind": "sensory_bridge",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "sound/texture continuity: the protagonist slows down to free, feed, warm, or protect a trapped railway pigeon with a red leg band even though the predator may still be near",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S04_SHOT007",
+        "scene_id": "S04",
+        "kind": "dialogue_action",
+        "duration_seconds": 9.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "quiet animal-care hinge and first relational cost the protagonist slows down to free, feed, warm, or protect a trapped railway pigeon with a red leg band even though the predator may still be near",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S04_SHOT008",
+        "scene_id": "S04",
+        "kind": "consequence",
+        "duration_seconds": 7.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist slows down to free, feed, warm, or protect a trapped railway pigeon with a red leg band even though the predator may still be near",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S04_SHOT009",
+        "scene_id": "S04",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "a trapped railway pigeon with a red leg band trembles in wire, cloth, water, dust, or darkness while danger remains off-screen but audible",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S04_SHOT010",
+        "scene_id": "S04",
+        "kind": "vulnerable_detail",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist's expression shifts from panic toward controlled attention when the turn lands",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S04_SHOT011",
+        "scene_id": "S04",
+        "kind": "dialogue_action",
+        "duration_seconds": 10.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "quiet animal-care hinge and first relational cost the protagonist slows down to free, feed, warm, or protect a trapped railway pigeon with a red leg band even though the predator may still be near",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S04_SHOT012",
+        "scene_id": "S04",
+        "kind": "pressure_insert",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist slows down to free, feed, warm, or protect a trapped railway pigeon with a red leg band even though the predator may still be near",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S04_SHOT013",
+        "scene_id": "S04",
+        "kind": "power_transition",
+        "duration_seconds": 8.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "lose escape time to protect a vulnerable life that cannot yet help her the protagonist slows down to free, feed, warm, or protect a trapped railway pigeon with a red leg band even though the predator may still be near",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S04_SHOT014",
+        "scene_id": "S04",
+        "kind": "sensory_bridge",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "sound/texture continuity: the protagonist slows down to free, feed, warm, or protect a trapped railway pigeon with a red leg band even though the predator may still be near",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S04_SHOT015",
+        "scene_id": "S04",
+        "kind": "dialogue_action",
+        "duration_seconds": 9.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "quiet animal-care hinge and first relational cost the protagonist slows down to free, feed, warm, or protect a trapped railway pigeon with a red leg band even though the predator may still be near",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S04_SHOT016",
+        "scene_id": "S04",
+        "kind": "consequence",
+        "duration_seconds": 7.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist slows down to free, feed, warm, or protect a trapped railway pigeon with a red leg band even though the predator may still be near",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S04_SHOT017",
+        "scene_id": "S04",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "a trapped railway pigeon with a red leg band trembles in wire, cloth, water, dust, or darkness while danger remains off-screen but audible",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S04_SHOT018",
+        "scene_id": "S04",
+        "kind": "vulnerable_detail",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist's expression shifts from panic toward controlled attention when the turn lands",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S04_SHOT019",
+        "scene_id": "S04",
+        "kind": "dialogue_action",
+        "duration_seconds": 10.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "quiet animal-care hinge and first relational cost the protagonist slows down to free, feed, warm, or protect a trapped railway pigeon with a red leg band even though the predator may still be near",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S04_SHOT020",
+        "scene_id": "S04",
+        "kind": "final_image",
+        "duration_seconds": 5.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "Ilsa releases/protects it and notices the path or behavior it has been trying to reveal",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S05_SHOT001",
+        "scene_id": "S05",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the nest/cave interior opens as a living map of victims, webs, shells, cages, tunnels, or root-like structures",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S05_SHOT002",
+        "scene_id": "S05",
+        "kind": "vulnerable_detail",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist's expression shifts from tender fear toward controlled attention when the turn lands",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S05_SHOT003",
+        "scene_id": "S05",
+        "kind": "dialogue_action",
+        "duration_seconds": 10.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "hostage discovery and escape-to-rescue conversion the protagonist finds survivors, victims, or a dust-blue giant moth whose wings react to light trapped inside the predator's web/nest/territory",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S05_SHOT004",
+        "scene_id": "S05",
+        "kind": "pressure_insert",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist finds survivors, victims, or a dust-blue giant moth whose wings react to light trapped inside the predator's web/nest/territory",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S05_SHOT005",
+        "scene_id": "S05",
+        "kind": "power_transition",
+        "duration_seconds": 8.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "escape alone or turn back toward the predator center with a rescue obligation the protagonist finds survivors, victims, or a dust-blue giant moth whose wings react to light trapped inside the predator's web/nest/territory",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S05_SHOT006",
+        "scene_id": "S05",
+        "kind": "sensory_bridge",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "sound/texture continuity: the protagonist finds survivors, victims, or a dust-blue giant moth whose wings react to light trapped inside the predator's web/nest/territory",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S05_SHOT007",
+        "scene_id": "S05",
+        "kind": "dialogue_action",
+        "duration_seconds": 9.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "hostage discovery and escape-to-rescue conversion the protagonist finds survivors, victims, or a dust-blue giant moth whose wings react to light trapped inside the predator's web/nest/territory",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S05_SHOT008",
+        "scene_id": "S05",
+        "kind": "consequence",
+        "duration_seconds": 7.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist finds survivors, victims, or a dust-blue giant moth whose wings react to light trapped inside the predator's web/nest/territory",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S05_SHOT009",
+        "scene_id": "S05",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the nest/cave interior opens as a living map of victims, webs, shells, cages, tunnels, or root-like structures",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S05_SHOT010",
+        "scene_id": "S05",
+        "kind": "vulnerable_detail",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist's expression shifts from tender fear toward controlled attention when the turn lands",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S05_SHOT011",
+        "scene_id": "S05",
+        "kind": "dialogue_action",
+        "duration_seconds": 10.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "hostage discovery and escape-to-rescue conversion the protagonist finds survivors, victims, or a dust-blue giant moth whose wings react to light trapped inside the predator's web/nest/territory",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S05_SHOT012",
+        "scene_id": "S05",
+        "kind": "pressure_insert",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist finds survivors, victims, or a dust-blue giant moth whose wings react to light trapped inside the predator's web/nest/territory",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S05_SHOT013",
+        "scene_id": "S05",
+        "kind": "power_transition",
+        "duration_seconds": 8.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "escape alone or turn back toward the predator center with a rescue obligation the protagonist finds survivors, victims, or a dust-blue giant moth whose wings react to light trapped inside the predator's web/nest/territory",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S05_SHOT014",
+        "scene_id": "S05",
+        "kind": "sensory_bridge",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "sound/texture continuity: the protagonist finds survivors, victims, or a dust-blue giant moth whose wings react to light trapped inside the predator's web/nest/territory",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S05_SHOT015",
+        "scene_id": "S05",
+        "kind": "dialogue_action",
+        "duration_seconds": 9.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "hostage discovery and escape-to-rescue conversion the protagonist finds survivors, victims, or a dust-blue giant moth whose wings react to light trapped inside the predator's web/nest/territory",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S05_SHOT016",
+        "scene_id": "S05",
+        "kind": "consequence",
+        "duration_seconds": 7.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist finds survivors, victims, or a dust-blue giant moth whose wings react to light trapped inside the predator's web/nest/territory",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S05_SHOT017",
+        "scene_id": "S05",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the nest/cave interior opens as a living map of victims, webs, shells, cages, tunnels, or root-like structures",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S05_SHOT018",
+        "scene_id": "S05",
+        "kind": "vulnerable_detail",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist's expression shifts from tender fear toward controlled attention when the turn lands",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S05_SHOT019",
+        "scene_id": "S05",
+        "kind": "dialogue_action",
+        "duration_seconds": 10.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "hostage discovery and escape-to-rescue conversion the protagonist finds survivors, victims, or a dust-blue giant moth whose wings react to light trapped inside the predator's web/nest/territory",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S05_SHOT020",
+        "scene_id": "S05",
+        "kind": "final_image",
+        "duration_seconds": 5.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "Ilsa sees survivors and a dust-blue giant moth whose wings react to light alive but trapped, then withdraws before the predator cycle returns",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT001",
+        "scene_id": "S06",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "Ilsa crawls through the wrecked inspection train and its working brake-light/horn system, opens panels, pulls wires, braces doors, and tests improvised light or sound barriers",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT002",
+        "scene_id": "S06",
+        "kind": "vulnerable_detail",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist's expression shifts from guilt toward controlled attention when the turn lands",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT003",
+        "scene_id": "S06",
+        "kind": "dialogue_action",
+        "duration_seconds": 10.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "occupational preparation and object transformation the protagonist returns to the wrecked inspection train and its working brake-light/horn system and converts wreckage into a rescue/trap system using freight conductor knowledge",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT004",
+        "scene_id": "S06",
+        "kind": "pressure_insert",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist returns to the wrecked inspection train and its working brake-light/horn system and converts wreckage into a rescue/trap system using freight conductor knowledge",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT005",
+        "scene_id": "S06",
+        "kind": "power_transition",
+        "duration_seconds": 8.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "risk noise, light, fire, or machinery that can attract the predator in order to control where it goes the protagonist returns to the wrecked inspection train and its working brake-light/horn system and converts wreckage into a rescue/trap system using freight conductor knowledge",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT006",
+        "scene_id": "S06",
+        "kind": "sensory_bridge",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "sound/texture continuity: the protagonist returns to the wrecked inspection train and its working brake-light/horn system and converts wreckage into a rescue/trap system using freight conductor knowledge",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT007",
+        "scene_id": "S06",
+        "kind": "dialogue_action",
+        "duration_seconds": 9.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "occupational preparation and object transformation the protagonist returns to the wrecked inspection train and its working brake-light/horn system and converts wreckage into a rescue/trap system using freight conductor knowledge",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT008",
+        "scene_id": "S06",
+        "kind": "consequence",
+        "duration_seconds": 7.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist returns to the wrecked inspection train and its working brake-light/horn system and converts wreckage into a rescue/trap system using freight conductor knowledge",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT009",
+        "scene_id": "S06",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "Ilsa crawls through the wrecked inspection train and its working brake-light/horn system, opens panels, pulls wires, braces doors, and tests improvised light or sound barriers",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT010",
+        "scene_id": "S06",
+        "kind": "vulnerable_detail",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist's expression shifts from guilt toward controlled attention when the turn lands",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT011",
+        "scene_id": "S06",
+        "kind": "dialogue_action",
+        "duration_seconds": 10.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "occupational preparation and object transformation the protagonist returns to the wrecked inspection train and its working brake-light/horn system and converts wreckage into a rescue/trap system using freight conductor knowledge",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT012",
+        "scene_id": "S06",
+        "kind": "pressure_insert",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist returns to the wrecked inspection train and its working brake-light/horn system and converts wreckage into a rescue/trap system using freight conductor knowledge",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT013",
+        "scene_id": "S06",
+        "kind": "power_transition",
+        "duration_seconds": 8.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "risk noise, light, fire, or machinery that can attract the predator in order to control where it goes the protagonist returns to the wrecked inspection train and its working brake-light/horn system and converts wreckage into a rescue/trap system using freight conductor knowledge",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT014",
+        "scene_id": "S06",
+        "kind": "sensory_bridge",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "sound/texture continuity: the protagonist returns to the wrecked inspection train and its working brake-light/horn system and converts wreckage into a rescue/trap system using freight conductor knowledge",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT015",
+        "scene_id": "S06",
+        "kind": "dialogue_action",
+        "duration_seconds": 9.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "occupational preparation and object transformation the protagonist returns to the wrecked inspection train and its working brake-light/horn system and converts wreckage into a rescue/trap system using freight conductor knowledge",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT016",
+        "scene_id": "S06",
+        "kind": "consequence",
+        "duration_seconds": 7.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist returns to the wrecked inspection train and its working brake-light/horn system and converts wreckage into a rescue/trap system using freight conductor knowledge",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT017",
+        "scene_id": "S06",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "Ilsa crawls through the wrecked inspection train and its working brake-light/horn system, opens panels, pulls wires, braces doors, and tests improvised light or sound barriers",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT018",
+        "scene_id": "S06",
+        "kind": "vulnerable_detail",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist's expression shifts from guilt toward controlled attention when the turn lands",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT019",
+        "scene_id": "S06",
+        "kind": "dialogue_action",
+        "duration_seconds": 10.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "occupational preparation and object transformation the protagonist returns to the wrecked inspection train and its working brake-light/horn system and converts wreckage into a rescue/trap system using freight conductor knowledge",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT020",
+        "scene_id": "S06",
+        "kind": "pressure_insert",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist returns to the wrecked inspection train and its working brake-light/horn system and converts wreckage into a rescue/trap system using freight conductor knowledge",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT021",
+        "scene_id": "S06",
+        "kind": "power_transition",
+        "duration_seconds": 8.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "risk noise, light, fire, or machinery that can attract the predator in order to control where it goes the protagonist returns to the wrecked inspection train and its working brake-light/horn system and converts wreckage into a rescue/trap system using freight conductor knowledge",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT022",
+        "scene_id": "S06",
+        "kind": "sensory_bridge",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "sound/texture continuity: the protagonist returns to the wrecked inspection train and its working brake-light/horn system and converts wreckage into a rescue/trap system using freight conductor knowledge",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT023",
+        "scene_id": "S06",
+        "kind": "dialogue_action",
+        "duration_seconds": 9.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "occupational preparation and object transformation the protagonist returns to the wrecked inspection train and its working brake-light/horn system and converts wreckage into a rescue/trap system using freight conductor knowledge",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT024",
+        "scene_id": "S06",
+        "kind": "final_image",
+        "duration_seconds": 7.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "cracked red brake-light lens locks into the mechanism and the first controlled test flashes/sounds through the wreck",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S06_SHOT025",
+        "scene_id": "S06",
+        "kind": "final_image",
+        "duration_seconds": 6.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "cracked red brake-light lens locks into the mechanism and the first controlled test flashes/sounds through the wreck",
+        "continuity_dependencies": [
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT001",
+        "scene_id": "S07",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "Ilsa lures a tunnel-sized centipede with a black glass shell into the vehicle/station geometry as light, smoke, sparks, water, or sound transforms the space",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT002",
+        "scene_id": "S07",
+        "kind": "vulnerable_detail",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist's expression shifts from controlled fear toward controlled attention when the turn lands",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT003",
+        "scene_id": "S07",
+        "kind": "dialogue_action",
+        "duration_seconds": 10.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "lure, trap, and spatial climax the protagonist lures a tunnel-sized centipede with a black glass shell into the wrecked inspection train and its working brake-light/horn system or its mechanism and pays a bodily cost to keep the plan aligned",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT004",
+        "scene_id": "S07",
+        "kind": "pressure_insert",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist lures a tunnel-sized centipede with a black glass shell into the wrecked inspection train and its working brake-light/horn system or its mechanism and pays a bodily cost to keep the plan aligned",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT005",
+        "scene_id": "S07",
+        "kind": "power_transition",
+        "duration_seconds": 8.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "remain exposed long enough for the trap/rescue mechanism to fire rather than abandoning the captives the protagonist lures a tunnel-sized centipede with a black glass shell into the wrecked inspection train and its working brake-light/horn system or its mechanism and pays a bodily cost to keep the plan aligned",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT006",
+        "scene_id": "S07",
+        "kind": "sensory_bridge",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "sound/texture continuity: the protagonist lures a tunnel-sized centipede with a black glass shell into the wrecked inspection train and its working brake-light/horn system or its mechanism and pays a bodily cost to keep the plan aligned",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT007",
+        "scene_id": "S07",
+        "kind": "dialogue_action",
+        "duration_seconds": 9.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "lure, trap, and spatial climax the protagonist lures a tunnel-sized centipede with a black glass shell into the wrecked inspection train and its working brake-light/horn system or its mechanism and pays a bodily cost to keep the plan aligned",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT008",
+        "scene_id": "S07",
+        "kind": "consequence",
+        "duration_seconds": 7.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist lures a tunnel-sized centipede with a black glass shell into the wrecked inspection train and its working brake-light/horn system or its mechanism and pays a bodily cost to keep the plan aligned",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT009",
+        "scene_id": "S07",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "Ilsa lures a tunnel-sized centipede with a black glass shell into the vehicle/station geometry as light, smoke, sparks, water, or sound transforms the space",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT010",
+        "scene_id": "S07",
+        "kind": "vulnerable_detail",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist's expression shifts from controlled fear toward controlled attention when the turn lands",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT011",
+        "scene_id": "S07",
+        "kind": "dialogue_action",
+        "duration_seconds": 10.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "lure, trap, and spatial climax the protagonist lures a tunnel-sized centipede with a black glass shell into the wrecked inspection train and its working brake-light/horn system or its mechanism and pays a bodily cost to keep the plan aligned",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT012",
+        "scene_id": "S07",
+        "kind": "pressure_insert",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist lures a tunnel-sized centipede with a black glass shell into the wrecked inspection train and its working brake-light/horn system or its mechanism and pays a bodily cost to keep the plan aligned",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT013",
+        "scene_id": "S07",
+        "kind": "power_transition",
+        "duration_seconds": 8.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "remain exposed long enough for the trap/rescue mechanism to fire rather than abandoning the captives the protagonist lures a tunnel-sized centipede with a black glass shell into the wrecked inspection train and its working brake-light/horn system or its mechanism and pays a bodily cost to keep the plan aligned",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT014",
+        "scene_id": "S07",
+        "kind": "sensory_bridge",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "sound/texture continuity: the protagonist lures a tunnel-sized centipede with a black glass shell into the wrecked inspection train and its working brake-light/horn system or its mechanism and pays a bodily cost to keep the plan aligned",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT015",
+        "scene_id": "S07",
+        "kind": "dialogue_action",
+        "duration_seconds": 9.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "lure, trap, and spatial climax the protagonist lures a tunnel-sized centipede with a black glass shell into the wrecked inspection train and its working brake-light/horn system or its mechanism and pays a bodily cost to keep the plan aligned",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT016",
+        "scene_id": "S07",
+        "kind": "consequence",
+        "duration_seconds": 7.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist lures a tunnel-sized centipede with a black glass shell into the wrecked inspection train and its working brake-light/horn system or its mechanism and pays a bodily cost to keep the plan aligned",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT017",
+        "scene_id": "S07",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "Ilsa lures a tunnel-sized centipede with a black glass shell into the vehicle/station geometry as light, smoke, sparks, water, or sound transforms the space",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT018",
+        "scene_id": "S07",
+        "kind": "vulnerable_detail",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist's expression shifts from controlled fear toward controlled attention when the turn lands",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT019",
+        "scene_id": "S07",
+        "kind": "dialogue_action",
+        "duration_seconds": 10.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "lure, trap, and spatial climax the protagonist lures a tunnel-sized centipede with a black glass shell into the wrecked inspection train and its working brake-light/horn system or its mechanism and pays a bodily cost to keep the plan aligned",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT020",
+        "scene_id": "S07",
+        "kind": "pressure_insert",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist lures a tunnel-sized centipede with a black glass shell into the wrecked inspection train and its working brake-light/horn system or its mechanism and pays a bodily cost to keep the plan aligned",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT021",
+        "scene_id": "S07",
+        "kind": "final_image",
+        "duration_seconds": 8.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "Ilsa holds the control position while a dust-blue giant moth whose wings react to light and the captives move through the opened path",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S07_SHOT022",
+        "scene_id": "S07",
+        "kind": "final_image",
+        "duration_seconds": 3.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "Ilsa holds the control position while a dust-blue giant moth whose wings react to light and the captives move through the opened path",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S08_SHOT001",
+        "scene_id": "S08",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "freed survivors emerge through the opened threshold into environmental air",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S08_SHOT002",
+        "scene_id": "S08",
+        "kind": "vulnerable_detail",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist's expression shifts from survival relief toward controlled attention when the turn lands",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S08_SHOT003",
+        "scene_id": "S08",
+        "kind": "dialogue_action",
+        "duration_seconds": 10.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "reciprocal rescue, recognition, and chosen survival closure captives are freed, a dust-blue giant moth whose wings react to light receives contact or freedom rather than ownership, and the wrecked train transformed from crash site into a lighted rescue shelter; the freed moth carries its young back into the high cave dark while the survivors follow the train light out",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S08_SHOT004",
+        "scene_id": "S08",
+        "kind": "pressure_insert",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "captives are freed, a dust-blue giant moth whose wings react to light receives contact or freedom rather than ownership, and the wrecked train transformed from crash site into a lighted rescue shelter; the freed moth carries its young back into the high cave dark while the survivors follow the train light out",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S08_SHOT005",
+        "scene_id": "S08",
+        "kind": "power_transition",
+        "duration_seconds": 8.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "accept help, apology, and shared survival without turning the creature ally into a possession captives are freed, a dust-blue giant moth whose wings react to light receives contact or freedom rather than ownership, and the wrecked train transformed from crash site into a lighted rescue shelter; the freed moth carries its young back into the high cave dark while the survivors follow the train light out",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S08_SHOT006",
+        "scene_id": "S08",
+        "kind": "sensory_bridge",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "sound/texture continuity: captives are freed, a dust-blue giant moth whose wings react to light receives contact or freedom rather than ownership, and the wrecked train transformed from crash site into a lighted rescue shelter; the freed moth carries its young back into the high cave dark while the survivors follow the train light out",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S08_SHOT007",
+        "scene_id": "S08",
+        "kind": "dialogue_action",
+        "duration_seconds": 9.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "reciprocal rescue, recognition, and chosen survival closure captives are freed, a dust-blue giant moth whose wings react to light receives contact or freedom rather than ownership, and the wrecked train transformed from crash site into a lighted rescue shelter; the freed moth carries its young back into the high cave dark while the survivors follow the train light out",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S08_SHOT008",
+        "scene_id": "S08",
+        "kind": "consequence",
+        "duration_seconds": 7.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "captives are freed, a dust-blue giant moth whose wings react to light receives contact or freedom rather than ownership, and the wrecked train transformed from crash site into a lighted rescue shelter; the freed moth carries its young back into the high cave dark while the survivors follow the train light out",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S08_SHOT009",
+        "scene_id": "S08",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "freed survivors emerge through the opened threshold into environmental air",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S08_SHOT010",
+        "scene_id": "S08",
+        "kind": "vulnerable_detail",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "the protagonist's expression shifts from survival relief toward controlled attention when the turn lands",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S08_SHOT011",
+        "scene_id": "S08",
+        "kind": "dialogue_action",
+        "duration_seconds": 10.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "reciprocal rescue, recognition, and chosen survival closure captives are freed, a dust-blue giant moth whose wings react to light receives contact or freedom rather than ownership, and the wrecked train transformed from crash site into a lighted rescue shelter; the freed moth carries its young back into the high cave dark while the survivors follow the train light out",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S08_SHOT012",
+        "scene_id": "S08",
+        "kind": "pressure_insert",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "captives are freed, a dust-blue giant moth whose wings react to light receives contact or freedom rather than ownership, and the wrecked train transformed from crash site into a lighted rescue shelter; the freed moth carries its young back into the high cave dark while the survivors follow the train light out",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S08_SHOT013",
+        "scene_id": "S08",
+        "kind": "power_transition",
+        "duration_seconds": 8.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "accept help, apology, and shared survival without turning the creature ally into a possession captives are freed, a dust-blue giant moth whose wings react to light receives contact or freedom rather than ownership, and the wrecked train transformed from crash site into a lighted rescue shelter; the freed moth carries its young back into the high cave dark while the survivors follow the train light out",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S08_SHOT014",
+        "scene_id": "S08",
+        "kind": "sensory_bridge",
+        "duration_seconds": 5.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "sound/texture continuity: captives are freed, a dust-blue giant moth whose wings react to light receives contact or freedom rather than ownership, and the wrecked train transformed from crash site into a lighted rescue shelter; the freed moth carries its young back into the high cave dark while the survivors follow the train light out",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S08_SHOT015",
+        "scene_id": "S08",
+        "kind": "dialogue_action",
+        "duration_seconds": 9.0,
+        "generation_lane": "mid",
+        "visual_prompt_intent": "reciprocal rescue, recognition, and chosen survival closure captives are freed, a dust-blue giant moth whose wings react to light receives contact or freedom rather than ownership, and the wrecked train transformed from crash site into a lighted rescue shelter; the freed moth carries its young back into the high cave dark while the survivors follow the train light out",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette",
+          "shot_reverse_shot_eye_line"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S08_SHOT016",
+        "scene_id": "S08",
+        "kind": "consequence",
+        "duration_seconds": 7.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "captives are freed, a dust-blue giant moth whose wings react to light receives contact or freedom rather than ownership, and the wrecked train transformed from crash site into a lighted rescue shelter; the freed moth carries its young back into the high cave dark while the survivors follow the train light out",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S08_SHOT017",
+        "scene_id": "S08",
+        "kind": "establishing",
+        "duration_seconds": 6.0,
+        "generation_lane": "draft",
+        "visual_prompt_intent": "freed survivors emerge through the opened threshold into environmental air",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": true,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S08_SHOT018",
+        "scene_id": "S08",
+        "kind": "final_image",
+        "duration_seconds": 5.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "a dust-blue giant moth whose wings react to light leaves or chooses contact freely while cracked red brake-light lens remains visible in the transformed rescue shelter",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      },
+      {
+        "shot_id": "S08_SHOT019",
+        "scene_id": "S08",
+        "kind": "final_image",
+        "duration_seconds": 9.0,
+        "generation_lane": "hero",
+        "visual_prompt_intent": "a dust-blue giant moth whose wings react to light leaves or chooses contact freely while cracked red brake-light lens remains visible in the transformed rescue shelter",
+        "continuity_dependencies": [
+          "environment_reference_plate",
+          "protagonist_face_and_costume",
+          "scene_lighting_palette"
+        ],
+        "reuse_before_generate": false,
+        "scaffold_status": "continuous_slot_requires_director_expansion"
+      }
+    ],
+    "coverage_scope": "exact_storyboard_coverage_validated_over_scaffold",
+    "coverage_gap_seconds": 0.0,
+    "warnings": [
+      "exact continuous storyboards cover the scaffold; validate generated frames, continuity assets, and edit timing before paid production"
+    ],
+    "production_rules": [
+      "Generate character/creature/location reference sheets before motion shots.",
+      "Replace generic continuous slots with exact staging, dialogue timing, and camera intent before any paid generation.",
+      "Use draft lane for blocking and reuse valid inserts/plates rather than regenerating everything.",
+      "Use hero lane only for emotional payoff, creature transformation, revelation, and final-image shots.",
+      "Track actual generated seconds separately; iteration ratio is a production KPI, not a creative afterthought."
+    ]
+  },
+  "storyboard_coverage": {
+    "complete_exact_coverage": true,
+    "rows": [
+      {
+        "scene_id": "S01",
+        "expected_seconds": 108.0,
+        "actual_seconds": 108.0,
+        "valid": true,
+        "warnings": [
+          "core protection/trust/agency theme is not explicit in dialogue"
+        ],
+        "shot_count": 12
+      },
+      {
+        "scene_id": "S02",
+        "expected_seconds": 108.0,
+        "actual_seconds": 108.0,
+        "valid": true,
+        "warnings": [
+          "core protection/trust/agency theme is not explicit in dialogue"
+        ],
+        "shot_count": 12
+      },
+      {
+        "scene_id": "S03",
+        "expected_seconds": 132.0,
+        "actual_seconds": 132.0,
+        "valid": true,
+        "warnings": [
+          "core protection/trust/agency theme is not explicit in dialogue"
+        ],
+        "shot_count": 12
+      },
+      {
+        "scene_id": "S04",
+        "expected_seconds": 138.0,
+        "actual_seconds": 138.0,
+        "valid": true,
+        "warnings": [
+          "core protection/trust/agency theme is not explicit in dialogue"
+        ],
+        "shot_count": 12
+      },
+      {
+        "scene_id": "S05",
+        "expected_seconds": 138.0,
+        "actual_seconds": 138.0,
+        "valid": true,
+        "warnings": [],
+        "shot_count": 12
+      },
+      {
+        "scene_id": "S06",
+        "expected_seconds": 174.0,
+        "actual_seconds": 174.0,
+        "valid": true,
+        "warnings": [],
+        "shot_count": 12
+      },
+      {
+        "scene_id": "S07",
+        "expected_seconds": 150.0,
+        "actual_seconds": 150.0,
+        "valid": true,
+        "warnings": [
+          "core protection/trust/agency theme is not explicit in dialogue"
+        ],
+        "shot_count": 12
+      },
+      {
+        "scene_id": "S08",
+        "expected_seconds": 132.0,
+        "actual_seconds": 132.0,
+        "valid": true,
+        "warnings": [],
+        "shot_count": 12
+      }
+    ],
+    "missing": [],
+    "invalid": [],
+    "duration_mismatch": [],
+    "warnings": []
+  },
+  "dialogue_craft": {
+    "scenes": [
+      {
+        "scene_id": "S01",
+        "opposition_beat_count": 4,
+        "spoken_exchange_turn_count": 2,
+        "line_count": 2,
+        "exposition_line_count": 0,
+        "power_action_line_count": 1,
+        "long_line_count": 0,
+        "warnings": []
+      },
+      {
+        "scene_id": "S02",
+        "opposition_beat_count": 4,
+        "spoken_exchange_turn_count": 0,
+        "line_count": 0,
+        "exposition_line_count": 0,
+        "power_action_line_count": 0,
+        "long_line_count": 0,
+        "warnings": []
+      },
+      {
+        "scene_id": "S03",
+        "opposition_beat_count": 4,
+        "spoken_exchange_turn_count": 1,
+        "line_count": 1,
+        "exposition_line_count": 0,
+        "power_action_line_count": 1,
+        "long_line_count": 0,
+        "warnings": []
+      },
+      {
+        "scene_id": "S04",
+        "opposition_beat_count": 4,
+        "spoken_exchange_turn_count": 0,
+        "line_count": 0,
+        "exposition_line_count": 0,
+        "power_action_line_count": 0,
+        "long_line_count": 0,
+        "warnings": []
+      },
+      {
+        "scene_id": "S05",
+        "opposition_beat_count": 4,
+        "spoken_exchange_turn_count": 1,
+        "line_count": 1,
+        "exposition_line_count": 0,
+        "power_action_line_count": 1,
+        "long_line_count": 0,
+        "warnings": []
+      },
+      {
+        "scene_id": "S06",
+        "opposition_beat_count": 4,
+        "spoken_exchange_turn_count": 1,
+        "line_count": 1,
+        "exposition_line_count": 0,
+        "power_action_line_count": 1,
+        "long_line_count": 0,
+        "warnings": []
+      },
+      {
+        "scene_id": "S07",
+        "opposition_beat_count": 4,
+        "spoken_exchange_turn_count": 0,
+        "line_count": 0,
+        "exposition_line_count": 0,
+        "power_action_line_count": 0,
+        "long_line_count": 0,
+        "warnings": []
+      },
+      {
+        "scene_id": "S08",
+        "opposition_beat_count": 4,
+        "spoken_exchange_turn_count": 2,
+        "line_count": 2,
+        "exposition_line_count": 0,
+        "power_action_line_count": 1,
+        "long_line_count": 0,
+        "warnings": []
+      }
+    ],
+    "warnings_by_scene": {}
+  },
+  "agency_intelligence": {
+    "score_0_to_1": 1.0,
+    "counts": {
+      "agency_actions": 11,
+      "competence_markers": 5,
+      "passive_wound_markers": 2,
+      "rescue_markers": 4,
+      "circular_payoff_markers": 3,
+      "early_agency_actions": 5
+    },
+    "strengths": [
+      "protagonist has repeated visible choices/actions rather than only suffering",
+      "agency appears in the opening conversion zone",
+      "competence/professional capability can become public authority",
+      "payoff can become circular generosity/community restoration rather than private victory only"
+    ],
+    "warnings": [],
+    "evidence_basis": "Nana child-designed social test, Reborn Assassin competence transplantation, AI Sweet professional authority/circular generosity, Stormglass protective choices"
+  },
+  "sound_design_quality": {
+    "score_0_to_1": 0.75,
+    "scene_reports": [
+      {
+        "scene_id": "S01",
+        "warnings": [],
+        "sound_design_keys_present": [
+          "dialogue_priority",
+          "motif",
+          "music_function",
+          "silence_or_negative_space"
+        ]
+      },
+      {
+        "scene_id": "S02",
+        "warnings": [],
+        "sound_design_keys_present": [
+          "dialogue_priority",
+          "motif",
+          "music_function",
+          "silence_or_negative_space"
+        ]
+      },
+      {
+        "scene_id": "S03",
+        "warnings": [],
+        "sound_design_keys_present": [
+          "dialogue_priority",
+          "motif",
+          "music_function",
+          "silence_or_negative_space"
+        ]
+      },
+      {
+        "scene_id": "S04",
+        "warnings": [
+          "S04: negative space is abstract rather than a audible transition"
+        ],
+        "sound_design_keys_present": [
+          "dialogue_priority",
+          "motif",
+          "music_function",
+          "silence_or_negative_space"
+        ]
+      },
+      {
+        "scene_id": "S05",
+        "warnings": [],
+        "sound_design_keys_present": [
+          "dialogue_priority",
+          "motif",
+          "music_function",
+          "silence_or_negative_space"
+        ]
+      },
+      {
+        "scene_id": "S06",
+        "warnings": [
+          "S06: negative space is abstract rather than a audible transition"
+        ],
+        "sound_design_keys_present": [
+          "dialogue_priority",
+          "motif",
+          "music_function",
+          "silence_or_negative_space"
+        ]
+      },
+      {
+        "scene_id": "S07",
+        "warnings": [
+          "S07: negative space is abstract rather than a audible transition"
+        ],
+        "sound_design_keys_present": [
+          "dialogue_priority",
+          "motif",
+          "music_function",
+          "silence_or_negative_space"
+        ]
+      },
+      {
+        "scene_id": "S08",
+        "warnings": [
+          "S08: negative space is abstract rather than a audible transition"
+        ],
+        "sound_design_keys_present": [
+          "dialogue_priority",
+          "motif",
+          "music_function",
+          "silence_or_negative_space"
+        ]
+      }
+    ],
+    "warnings": [
+      "S04: negative space is abstract rather than a audible transition",
+      "S06: negative space is abstract rather than a audible transition",
+      "S07: negative space is abstract rather than a audible transition",
+      "S08: negative space is abstract rather than a audible transition"
+    ],
+    "strengths": [
+      "S01: uses silence/negative space as an emotional transition",
+      "S02: uses silence/negative space as an emotional transition",
+      "S05: uses silence/negative space as an emotional transition",
+      "S06: uses silence/negative space as an emotional transition",
+      "S07: uses silence/negative space as an emotional transition"
+    ],
+    "craft_rule": "Sound must mark power transitions: dialogue clarity first, motif evolution second, silence/negative space before bonding or revelation."
+  },
+  "meaning_carrier_intelligence": {
+    "mode": "explicit",
+    "object_or_space": "cracked red brake-light lens",
+    "opening_meaning": "the lens is a routine safety part Ilsa almost discards while checking the train",
+    "closing_reversal": "the same lens focuses the train lamp into a light path that lures the centipede away from the survivors",
+    "final_sequence_use": "the object operates the final light/sound/trap mechanism before the rescued group reaches the wrecked train transformed from crash site into a lighted rescue shelter",
+    "score_0_to_1": 1.0,
+    "warnings": [],
+    "craft_rule": "A physical object, space, sound-object, or ritual should carry the wound in the opening and return with changed meaning in the payoff."
+  },
+  "relational_contract_intelligence": {
+    "score_0_to_1": 1.0,
+    "fields": {
+      "power_asymmetry": "predator-controlled terrain versus an injured professional with only knowledge, tools, and attention to vulnerable life",
+      "safety_or_kindness_before_power": "Ilsa frees or protects a trapped railway pigeon with a red leg band before knowing it can guide, prove, or save anyone",
+      "costly_protagonist_action": "she turns back toward the predator territory to free captives and a dust-blue giant moth whose wings react to light instead of escaping alone",
+      "consent_or_personhood_repair": "the allied creature is never commanded as a weapon; it chooses contact or return freely, and survivors repair their earlier dismissal of the animal",
+      "payoff_image": "the wrecked train transformed from crash site into a lighted rescue shelter; the freed moth carries its young back into the high cave dark while the survivors follow the train light out"
+    },
+    "warnings": [],
+    "craft_rule": "Power-asymmetric relationships are strongest when safety or costly kindness precedes power, and the ending repairs consent/personhood rather than rewarding coercion."
+  },
+  "spatial_status_intelligence": {
+    "score_0_to_1": 0.96,
+    "opening_status_spaces": [
+      "table"
+    ],
+    "ending_status_spaces": [
+      "gate",
+      "mat",
+      "sit",
+      "threshold"
+    ],
+    "inversion_signals": [
+      "belonging",
+      "choose",
+      "chosen",
+      "free",
+      "freed",
+      "home",
+      "open",
+      "opened",
+      "release",
+      "sit"
+    ],
+    "power_terms": [
+      "institution",
+      "king",
+      "public"
+    ],
+    "vulnerable_terms": [
+      "creature",
+      "vulnerable"
+    ],
+    "warnings": [
+      "opening does not establish a legible spatial status grammar (who is caged, seated, kneeling, serving, or excluded)"
+    ],
+    "doctrine": "Define who is physically forced below/outside/inside power, then make the ending transform that space into chosen access, sanctuary, or belonging. Inspired by floor/table and cage/sanctuary evidence."
+  },
+  "closure_integrity": {
+    "score_0_to_1": 1.0,
+    "rows": [
+      {
+        "sequence": 1,
+        "closure_hits": [
+          "safe",
+          "table"
+        ],
+        "sequel_hits": [],
+        "infrastructure_hits": [],
+        "community_consequence_hits": [
+          "ration"
+        ]
+      },
+      {
+        "sequence": 2,
+        "closure_hits": [],
+        "sequel_hits": [],
+        "infrastructure_hits": [],
+        "community_consequence_hits": [
+          "replace"
+        ]
+      },
+      {
+        "sequence": 3,
+        "closure_hits": [
+          "recognition"
+        ],
+        "sequel_hits": [],
+        "infrastructure_hits": [],
+        "community_consequence_hits": []
+      },
+      {
+        "sequence": 4,
+        "closure_hits": [],
+        "sequel_hits": [],
+        "infrastructure_hits": [],
+        "community_consequence_hits": []
+      },
+      {
+        "sequence": 5,
+        "closure_hits": [],
+        "sequel_hits": [],
+        "infrastructure_hits": [],
+        "community_consequence_hits": []
+      },
+      {
+        "sequence": 6,
+        "closure_hits": [
+          "repair"
+        ],
+        "sequel_hits": [
+          "returns"
+        ],
+        "infrastructure_hits": [],
+        "community_consequence_hits": [
+          "repair",
+          "repaired",
+          "ration"
+        ]
+      },
+      {
+        "sequence": 7,
+        "closure_hits": [],
+        "sequel_hits": [],
+        "infrastructure_hits": [
+          "water",
+          "power"
+        ],
+        "community_consequence_hits": []
+      },
+      {
+        "sequence": 8,
+        "closure_hits": [
+          "belong",
+          "recognition",
+          "chosen",
+          "repair",
+          "apolog"
+        ],
+        "sequel_hits": [
+          "sequel"
+        ],
+        "infrastructure_hits": [],
+        "community_consequence_hits": [
+          "repair"
+        ]
+      },
+      {
+        "sequence": "ending_payoff",
+        "closure_hits": [],
+        "sequel_hits": [],
+        "infrastructure_hits": [],
+        "community_consequence_hits": []
+      }
+    ],
+    "final_closure_hits": [
+      "home",
+      "belong",
+      "safe",
+      "recognition",
+      "community",
+      "chosen",
+      "choose",
+      "repair",
+      "apolog"
+    ],
+    "warnings": [],
+    "craft_rule": "A plot sequel hook may remain, but only after the promised recognition, home, belonging, and community consequence have landed."
+  },
+  "visual_causality": {
+    "score_0_to_1": 1.0,
+    "scene_scores": [
+      {
+        "scene_id": "S01",
+        "score_0_to_1": 1.0,
+        "first_action": true,
+        "final_action": true,
+        "concrete_image": true,
+        "final_image_changes": true
+      },
+      {
+        "scene_id": "S02",
+        "score_0_to_1": 1.0,
+        "first_action": true,
+        "final_action": true,
+        "concrete_image": true,
+        "final_image_changes": true
+      },
+      {
+        "scene_id": "S03",
+        "score_0_to_1": 1.0,
+        "first_action": true,
+        "final_action": true,
+        "concrete_image": true,
+        "final_image_changes": true
+      },
+      {
+        "scene_id": "S04",
+        "score_0_to_1": 1.0,
+        "first_action": true,
+        "final_action": true,
+        "concrete_image": true,
+        "final_image_changes": true
+      },
+      {
+        "scene_id": "S05",
+        "score_0_to_1": 1.0,
+        "first_action": true,
+        "final_action": true,
+        "concrete_image": true,
+        "final_image_changes": true
+      },
+      {
+        "scene_id": "S06",
+        "score_0_to_1": 1.0,
+        "first_action": true,
+        "final_action": true,
+        "concrete_image": true,
+        "final_image_changes": true
+      },
+      {
+        "scene_id": "S07",
+        "score_0_to_1": 1.0,
+        "first_action": true,
+        "final_action": true,
+        "concrete_image": true,
+        "final_image_changes": true
+      },
+      {
+        "scene_id": "S08",
+        "score_0_to_1": 1.0,
+        "first_action": true,
+        "final_action": true,
+        "concrete_image": true,
+        "final_image_changes": true
+      }
+    ],
+    "warnings": [],
+    "doctrine": "Every scene should remain broadly intelligible when muted: visible protector/protected relation, physical action, object/space consequence, and a final image changed by the turn."
+  },
+  "hidden_identity_integrity": {
+    "applies": false,
+    "score_0_to_1": 1.0,
+    "warnings": [],
+    "checks": {}
+  },
+  "scale_community_integrity": {
+    "applies": true,
+    "score_0_to_1": 1.0,
+    "warnings": [],
+    "checks": {
+      "scale_changes_material_economics": true,
+      "early_practical_competence_save": true,
+      "outsider_trust_has_historical_cost": true,
+      "proof_or_persuasion_stops_extraction": true,
+      "sustained_repair_or_chosen_home": true
+    }
+  },
+  "compressed_survival_integrity": {
+    "applies": true,
+    "score_0_to_1": 1.0,
+    "warnings": [],
+    "checks": {
+      "early_role_creature_location_payoff": true,
+      "occupational_competence_becomes_plan": true,
+      "predator_and_innocent_or_ally_are_differentiated": true,
+      "quiet_animal_care_hinge": true,
+      "escape_converts_to_reciprocal_rescue": true,
+      "opening_vehicle_or_object_reused_in_climax": true,
+      "contact_or_recognition_closure": true,
+      "muted_visual_intelligibility": true
+    },
+    "craft_rule": "Compressed creature survival should pay a legible role/creature/location contract early, build muted visual objectives, differentiate predator from vulnerable/cooperative life, use occupational competence as climax machinery, convert escape into reciprocal rescue, and close through recognition/contact rather than explosion alone."
+  },
+  "artifact_presence": {
+    "architecture": true,
+    "scenes": true,
+    "storyboards": 8
+  },
+  "gates": {
+    "A_premise": "pass",
+    "B_architecture": "pass",
+    "C_screenplay": "pass",
+    "D_direction_storyboard": "pass",
+    "E_production": "unknown_until_generated_media_exists",
+    "F_release_learning": "unknown_until_release_metadata_exists"
+  }
+}

@@ -53,31 +53,58 @@
       {
         "beat": "external_pressure",
         "speaker": "land trust",
-        "line": "Paying hands first, Nura. Step away from the pump.",
+        "line": "Pump's for paying households, Nura. Back of the line.",
         "action": "the crowd blocks the public resource threshold",
-        "subtext": "need is being framed as illegality so control of the resource stays unquestioned"
+        "subtext": "need is being framed as illegality so control of the resource stays unquestioned",
+        "power_move": "coercive exclusion or institutional demand",
+        "listening_response": "answers the immediate resource/status threat before anyone can explain the larger conflict",
+        "delivery": "clipped, public, procedural; the speaker does not need to sound emotional to exercise power",
+        "status_shift": "authority controls the threshold, crowd, or paperwork",
+        "room_sound": "crowd texture, ledger paper, coin/metal, or machinery stays louder than the vulnerable body"
       },
       {
         "beat": "witness_objection",
         "speaker": "her grandmother",
-        "line": "Don't lift her toward the crowd—she'll bolt.",
+        "line": "Don't scoop her up. Sudden hands make her bolt.",
         "action": "her grandmother shifts between the crowd and the creature",
-        "subtext": "intervention can become exposure if panic drives the creature into the crowd"
+        "subtext": "intervention can become exposure if panic drives the creature into the crowd",
+        "power_move": "reasonable protective objection that makes the safe betrayal legible",
+        "listening_response": "responds to what the pressure physically endangers rather than repeating the protagonist's wish",
+        "delivery": "low, urgent, close-mic; advice sounds practical rather than thematic",
+        "status_shift": "fear moves from public punishment into relational and bodily cost",
+        "room_sound": "breath, cloth, small movement, and nearby labor noise replace the crowd's certainty"
       },
       {
         "beat": "protagonist_decision",
         "speaker": "Nura",
-        "line": "Under my shawl. If they see fins, we're both done.",
+        "line": "Easy. Under my shawl—no one sees fins.",
         "action": "Nura kneels and covers the creature",
-        "subtext": "safety outranks being understood or socially approved"
+        "subtext": "safety outranks being understood or socially approved",
+        "power_move": "embodied boundary, refusal, or controlled acceptance of cost",
+        "listening_response": "answers the objection by changing behavior, not by winning the argument",
+        "delivery": "quiet, concrete, no pleading; short enough to survive interruption",
+        "status_shift": "the protagonist accepts cost and takes moral initiative",
+        "room_sound": "contact, kneeling, object touch, or withheld breath lands before music can resolve the choice"
       },
       {
         "beat": "evidence_or_cost",
         "speaker": "her grandmother",
-        "line": "Look, the salt rises where her tears fall.",
+        "line": "Salt's rising. Look—she's crying, not performing.",
         "action": "the water response becomes visible to the nearest witness",
-        "subtext": "the creature's response makes personhood materially visible before anyone can explain it"
+        "subtext": "the creature's response makes personhood materially visible before anyone can explain it",
+        "power_move": "material proof or irreversible cost escapes verbal control",
+        "listening_response": "the final speaker reacts to what the room/object/creature has made undeniable",
+        "delivery": "observational and restrained; do not explain the meaning after the image proves it",
+        "status_shift": "truth, personhood, or proof becomes publicly harder to erase",
+        "room_sound": "object resonance, creature response, and negative space carry the reversal"
       }
+    ],
+    "scene_rhythm": "enter inside pressure, compress the objection into a concrete unsafe choice, let the protagonist answer through behavior, then end on proof/cost rather than explanation",
+    "rewrite_directives": [
+      "keep every turn short enough to be interrupted by movement, crowd noise, or creature reaction",
+      "make each answer respond to the previous speaker's concrete pressure rather than restating theme",
+      "let hands, objects, witnesses, thresholds, and creature behavior carry meaning between lines",
+      "avoid naming feelings that the action has already proven"
     ]
   },
   "sound_design": {

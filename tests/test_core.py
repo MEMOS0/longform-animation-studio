@@ -743,7 +743,7 @@ def test_creature_scenes_include_short_scene_specific_spoken_exchange():
     exchange=scenes[0]['dialogue_design']['spoken_exchange']
     assert len(exchange)==4
     assert exchange[0]['speaker']!=exchange[2]['speaker']
-    assert 'Paying hands first, Nura' in exchange[0]['line']
+    assert "Pump's for paying households, Nura" in exchange[0]['line']
     report=evaluate_scenes_dialogue(scenes)
     assert not report['warnings_by_scene']
     assert report['scenes'][0]['spoken_exchange_turn_count']==4
@@ -758,7 +758,7 @@ def test_storyboard_seed_uses_spoken_exchange_in_dialogue_shots():
     scene=generate_scenes(premise,generate_architecture(premise))[0]
     board=build_seed_board(scene)
     dialogue_shots=[s for s in board['shots'] if s['dialogue']]
-    assert any('Paying hands first, Nura' in s['dialogue'] for s in dialogue_shots)
+    assert any("Pump's for paying households, Nura" in s['dialogue'] for s in dialogue_shots)
     assert any("Under my shawl" in s['dialogue'] for s in dialogue_shots)
     assert any('crowd blocks the public resource threshold' in s['visual_action'] for s in dialogue_shots)
 
@@ -797,7 +797,7 @@ def test_creature_spoken_exchange_assigns_decisions_to_protagonist():
         decision=next(t for t in exchange if t['beat']=='protagonist_decision')
         assert decision['speaker']=='Nura'
     assert "Then I'll work" in next(t for t in scenes[1]['dialogue_design']['spoken_exchange'] if t['beat']=='protagonist_decision')['line']
-    assert "walk beside me" in next(t for t in scenes[5]['dialogue_design']['spoken_exchange'] if t['beat']=='protagonist_decision')['line']
+    assert "run beside me" in next(t for t in scenes[5]['dialogue_design']['spoken_exchange'] if t['beat']=='protagonist_decision')['line']
 
 
 def test_storyboard_seed_falls_back_to_key_lines_without_spoken_exchange():
@@ -818,8 +818,8 @@ def test_storyboard_seed_places_witness_objection_before_decision():
     premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
     scene=generate_scenes(premise,generate_architecture(premise))[5]
     board=build_seed_board(scene)
-    witness_idx=next(i for i,s in enumerate(board['shots']) if 'One pair of hands can bury it' in s['dialogue'])
-    decision_idx=next(i for i,s in enumerate(board['shots']) if 'walk beside me' in s['dialogue'])
+    witness_idx=next(i for i,s in enumerate(board['shots']) if 'Fast hands can bury proof' in s['dialogue'])
+    decision_idx=next(i for i,s in enumerate(board['shots']) if 'run beside me' in s['dialogue'])
     assert witness_idx < decision_idx
 
 
@@ -902,6 +902,9 @@ def test_creature_spoken_exchange_contains_scene_specific_subtext():
     assert all(t.get('subtext') for t in exchange)
     assert exchange[0]['subtext'] != exchange[0]['line']
     assert 'illegality' in exchange[0]['subtext']
+    assert all(t.get('power_move') and t.get('delivery') and t.get('status_shift') for t in exchange)
+    assert 'scene_rhythm' in scene['dialogue_design']
+    assert scene['dialogue_design']['rewrite_directives']
 
 
 def test_creature_dialogue_uses_world_specific_material_proof_language():
@@ -912,9 +915,9 @@ def test_creature_dialogue_uses_world_specific_material_proof_language():
     ember=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[1])
     salt_scenes=generate_scenes(salt,generate_architecture(salt))
     ember_scenes=generate_scenes(ember,generate_architecture(ember))
-    assert 'salt rises where her tears fall' in salt_scenes[0]['dialogue_design']['spoken_exchange'][3]['line']
-    assert 'coals bend toward her crying' in ember_scenes[0]['dialogue_design']['spoken_exchange'][3]['line']
-    assert 'Guild ration first' in ember_scenes[0]['dialogue_design']['spoken_exchange'][0]['line']
+    assert "Salt's rising" in salt_scenes[0]['dialogue_design']['spoken_exchange'][3]['line']
+    assert "Coals are bending" in ember_scenes[0]['dialogue_design']['spoken_exchange'][3]['line']
+    assert "Oven ration's for guild households" in ember_scenes[0]['dialogue_design']['spoken_exchange'][0]['line']
     assert 'coal ledger' in ember_scenes[2]['dialogue_design']['spoken_exchange'][0]['line']
     assert 'Salt inside this seal' in salt_scenes[3]['dialogue_design']['spoken_exchange'][3]['line']
     assert 'This seam is still hot' in ember_scenes[3]['dialogue_design']['spoken_exchange'][3]['line']
@@ -953,3 +956,191 @@ def test_scale_community_integrity_accepts_drakenhart_pattern():
     assert result['applies']
     assert result['score_0_to_1']>=0.8
 
+
+
+def test_creature_dialogue_performance_notes_follow_actual_speaker_role():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    scenes=generate_scenes(premise,generate_architecture(premise))
+    shelter_pressure=scenes[1]['dialogue_design']['spoken_exchange'][0]
+    pain_cost=scenes[2]['dialogue_design']['spoken_exchange'][3]
+    assert shelter_pressure['speaker']=='her grandmother'
+    assert 'urgent help' in shelter_pressure['power_move']
+    assert 'institutional demand' not in shelter_pressure['power_move']
+    assert pain_cost['speaker']=='land trust'
+    assert 'commodification threat' in pain_cost['power_move']
+    assert 'restrained' not in pain_cost['delivery']
+
+
+def test_media_analysis_removes_stale_contact_sheets_before_rerun():
+    import inspect
+    source=inspect.getsource(__import__('studio.media_analysis',fromlist=['sample_video_frames']).sample_video_frames)
+    assert 'stale_sheet.unlink()' in source
+    assert 'output_dir.glob("contact_*.jpg")' in source
+
+
+def test_screenplay_renderer_produces_annotated_professional_draft():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.screenplay_renderer import render_screenplay
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    text=render_screenplay(premise,generate_scenes(premise,generate_architecture(premise)))
+    assert 'Annotated Screenplay Draft' in text
+    assert 'GLOBAL REWRITE RULES' in text
+    assert 'SCENE SUBTEXT' in text
+    assert 'GRANDMOTHER' in text
+    assert 'NURA' in text
+    assert "Pump's for paying households" in text
+    assert 'FINAL IMAGE' in text
+    assert 'EXIT HOOK' in text
+
+
+def test_screenplay_renderer_preserves_default_key_lines_without_spoken_exchange():
+    from studio.screenplay_renderer import render_scene
+    scene={'scene_id':'S01','time_range':'0-5','objective':'test','power_position_start':'low','power_position_end':'high','visual_action':{},'sound_design':{},'edit_hook':{},'dialogue_design':{'key_lines':['I refuse to vanish.']}}
+    text=render_scene(scene)
+    assert 'KEY DIALOGUE' in text
+    assert 'I refuse to vanish.' in text
+
+
+def test_render_screenplay_scene_loader_accepts_file_and_rejects_empty_dir(tmp_path):
+    from studio.cli import load_scene_inputs
+    import json,pytest
+    scene_file=tmp_path/'one.json'
+    scene_file.write_text(json.dumps({'scene_id':'S01'}),encoding='utf8')
+    assert load_scene_inputs(scene_file)==[{'scene_id':'S01'}]
+    empty=tmp_path/'empty'
+    empty.mkdir()
+    with pytest.raises(ValueError):
+        load_scene_inputs(empty)
+
+
+def test_write_screenplay_creates_missing_output_directory(tmp_path):
+    from studio.screenplay_renderer import write_screenplay
+    target=tmp_path/'new'/'nested'/'draft.md'
+    result=write_screenplay({'title_candidates':['Test'],'premise_id':'test'},[],target)
+    assert result.exists()
+    assert 'Annotated Screenplay Draft' in result.read_text(encoding='utf8')
+
+
+def test_visual_causality_recognizes_survival_actions_and_objects():
+    from studio.visual_causality import evaluate_visual_causality
+    scene={'scene_id':'S01','visual_action':{'first_image':'the conductor crawls from the wrecked train as a giant centipede fills the tunnel','final_image':'she frees the trapped pigeon and locks the red lens into the light panel'}}
+    result=evaluate_visual_causality([scene])
+    assert result['scene_scores'][0]['first_action'] is True
+    assert result['scene_scores'][0]['final_action'] is True
+    assert result['scene_scores'][0]['concrete_image'] is True
+
+
+def test_single_sparse_spoken_turn_is_valid_for_visual_first_scene():
+    from studio.dialogue_craft import evaluate_scenes_dialogue
+    scene={'scene_id':'S01','dialogue_design':{'key_lines':[],'opposition_beats':[{'beat':b} for b in ['external_pressure','witness_objection','protagonist_decision','evidence_or_cost']],'spoken_exchange':[{'beat':'protagonist_decision','speaker':'Ilsa','line':'Easy. I won\'t hurt you.','action':'she lowers her hand','subtext':'restraint proves safety'}]}}
+    result=evaluate_scenes_dialogue([scene])
+    assert not result['warnings_by_scene']
+
+
+def test_compressed_survival_integrity_passes_generated_contract():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.compressed_survival_integrity import evaluate_compressed_survival_integrity
+    premise=generate_premises('compressed_creature_survival',1,18)[0]
+    result=evaluate_compressed_survival_integrity(premise,generate_architecture(premise),generate_scenes(premise,generate_architecture(premise)))
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.75
+    assert result['checks']['predator_and_innocent_or_ally_are_differentiated'] is True
+    assert result['checks']['escape_converts_to_reciprocal_rescue'] is True
+
+
+def test_seed_storyboard_does_not_repeat_sparse_dialogue_across_shots():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.storyboard_seed import build_seed_board
+    premise=generate_premises('compressed_creature_survival',1,18)[0]
+    scene=generate_scenes(premise,generate_architecture(premise))[2]
+    board=build_seed_board(scene)
+    lines=[shot.get('dialogue','') for shot in board['shots'] if shot.get('dialogue')]
+    assert len(lines)==len(set(lines))
+    assert lines.count("Easy. I won't hurt you.")<=1
+
+
+def test_compressed_survival_integrity_partial_scene_draft_not_perfect():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.compressed_survival_integrity import evaluate_compressed_survival_integrity
+    premise=generate_premises('compressed_creature_survival',1,18)[0]
+    arch=generate_architecture(premise)
+    scenes=generate_scenes(premise,arch)[:1]
+    result=evaluate_compressed_survival_integrity(premise,arch,scenes)
+    assert result['checks']['complete_scene_coverage'] is False
+    assert result['score_0_to_1'] < 0.2
+    assert any('incomplete' in w for w in result['warnings'])
+
+
+def test_compressed_survival_architecture_uses_survival_midpoint_and_ending():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    premise=generate_premises('compressed_creature_survival',1,18)[0]
+    arch=generate_architecture(premise)
+    assert 'reciprocal rescue' in arch['midpoint_reversal']
+    assert 'captives and the creature are freed' in arch['ending_payoff']['justice']
+    assert 'frame-up' not in arch['midpoint_reversal']
+    assert 'true manipulator' not in arch['ending_payoff']['justice']
+
+
+def test_compressed_survival_integrity_duplicate_scene_does_not_count_twice():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.compressed_survival_integrity import evaluate_compressed_survival_integrity
+    premise=generate_premises('compressed_creature_survival',1,18)[0]
+    arch=generate_architecture(premise)
+    scenes=generate_scenes(premise,arch)
+    duplicate_draft=[scenes[0],dict(scenes[0])]
+    result=evaluate_compressed_survival_integrity(premise,arch,duplicate_draft)
+    assert result['unique_scene_count']==1
+    assert result['checks']['complete_scene_coverage'] is False
+    assert result['score_0_to_1'] < 0.2
+
+
+def test_transformation_romance_contract_generates_and_integrity_passes():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.transformation_romance_integrity import evaluate_transformation_romance_integrity
+    premise=generate_premises('transformation_romance',1,72)[0]
+    arch=generate_architecture(premise)
+    scenes=generate_scenes(premise,arch)
+    result=evaluate_transformation_romance_integrity(premise,arch,scenes)
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.9
+    assert 'second performance arena' in arch['midpoint_reversal']
+    assert scenes[5]['dialogue_design']['spoken_exchange'][0]['line']
+
+
+def test_transformation_romance_duplicate_scene_does_not_count_twice():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.transformation_romance_integrity import evaluate_transformation_romance_integrity
+    premise=generate_premises('transformation_romance',1,72)[0]
+    arch=generate_architecture(premise)
+    scenes=generate_scenes(premise,arch)
+    result=evaluate_transformation_romance_integrity(premise,arch,[scenes[0],dict(scenes[0])])
+    assert result['checks']['complete_scene_coverage'] is False
+    assert result['score_0_to_1'] < 0.2
+
+
+def test_transformation_visual_images_are_readable_by_causality_gate():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.visual_causality import evaluate_visual_causality
+    premise=generate_premises('transformation_romance',1,72)[0]
+    scenes=generate_scenes(premise,generate_architecture(premise))
+    assert evaluate_visual_causality(scenes)['warnings']==[]

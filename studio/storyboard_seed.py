@@ -91,6 +91,7 @@ def build_seed_board(scene: dict[str, Any], continuity_dependencies: list[str] |
     sound = scene.get("sound_design") or {}
     shots: list[dict[str, Any]] = []
     used_dialogue_keys: set[str] = set()
+    used_dialogue_lines: set[str] = set()
     visual_occurrences: dict[tuple[str, str], int] = {}
     cursor = 0.0
     for i, (beat, shot_duration) in enumerate(zip(selected, durations), start=1):
@@ -111,6 +112,11 @@ def build_seed_board(scene: dict[str, Any], continuity_dependencies: list[str] |
                 dialogue = keys[fallback_index] if len(keys) > fallback_index else ""
         elif dialogue_key and not dialogue_key.startswith("exchange:") and not repeated_dialogue_beat:
             dialogue = keys[int(dialogue_key[-1])] if len(keys) > int(dialogue_key[-1]) else ""
+        if dialogue and dialogue.strip().lower() in used_dialogue_lines:
+            dialogue = ""
+            exchange_turn = None
+        elif dialogue:
+            used_dialogue_lines.add(dialogue.strip().lower())
         visual_action = scene_value(scene, source)
         if exchange_turn and exchange_turn.get("action") and not repeated_dialogue_beat and source != "final_image":
             visual_action = str(exchange_turn["action"])

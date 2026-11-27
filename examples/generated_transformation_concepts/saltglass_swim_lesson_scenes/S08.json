@@ -1,0 +1,90 @@
+{
+  "scene_id": "S08",
+  "time_range": "63.4-72 minutes",
+  "objective": "public-space reversal, institutional consequence, and chosen visibility closure",
+  "conflict": "the rival's final attempt to annihilate visibility fails; the protagonist fights back and receives support without surrendering agency",
+  "power_position_start": "target of the original gaze",
+  "power_position_end": "public author and leader in the transformed wound-space",
+  "turn": "the rival's final attempt to annihilate visibility fails; the protagonist fights back and receives support without surrendering agency",
+  "protagonist_decision": "step into the original public space as author/leader rather than object of attention",
+  "subtext": "Visibility is repaired when the protagonist controls the original public space.",
+  "visual_action": {
+    "first_image": "the rival raises a phone or blocks the final public threshold",
+    "face_reaction": "the protagonist's expression shifts from defensive survival toward controlled attention when the turn lands",
+    "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+    "final_image": "the protagonist steps into the same public space, lifts the object openly, and guides others forward"
+  },
+  "dialogue_design": {
+    "function": "make choices, objections, and proof implications audible rather than explaining theme",
+    "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "I am not the person you filmed.",
+      "This time I choose the light."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "antagonist or social crowd",
+        "dramatic_job": "the rival's final attempt to annihilate visibility fails; the protagonist fights back and receives support without surrendering agency",
+        "writing_note": "pressure must be specific behavior, not generic cruelty"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "caregiver, worker, or vulnerable witness",
+        "dramatic_job": "family, institution, and partner repair conduct through public support and consequence rather than private apology alone",
+        "writing_note": "the objection should make the safe choice reasonable"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "protagonist",
+        "dramatic_job": "step into the original public space as author/leader rather than object of attention",
+        "writing_note": "the answer is a choice or refusal, not a theme statement"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "object, proof, or consequence",
+        "dramatic_job": "scratched rescue whistle returns openly as the tool of authorship, coordination, or self-claiming",
+        "writing_note": "the scene must leave a visible cost or proof implication"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Noa",
+        "line": "This time I choose the light.",
+        "action": "Noa steps into the original public geometry and uses the object openly",
+        "subtext": "visibility becomes authorship rather than approval-seeking",
+        "power_move": "image pressure answered through consent, authorship, protection, or recognition",
+        "listening_response": "the next behavior answers the concrete boundary rather than explaining confidence",
+        "delivery": "clear, unforced",
+        "status_shift": "the speaker converts spectatorship or arranged visibility into chosen agency",
+        "room_sound": "phones, crowd murmur, breath, threshold noise, camera/stage/pool machinery, and object texture remain audible beneath the line"
+      }
+    ],
+    "scene_rhythm": "visual/social pressure first; dialogue names consent, recognition, or authorship only after blocking, objects, phones, thresholds, and protective behavior have made the psychology legible",
+    "rewrite_directives": [
+      "write the scene so the gaze geometry is understandable with sound off",
+      "make the protagonist answer image pressure through behavior, boundaries, work, or movement rather than speeches about confidence",
+      "use phones, mirrors, thresholds, cameras, water/stage machinery, and repeated public spaces as psychology carriers",
+      "do not use despair harm as a cheap transformation trigger",
+      "separate desire, gratitude, performance, and recognition in the romance turns"
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
+    "silence_or_negative_space": "crowd sound returns but no longer overwhelms the close voice/breath/object signature",
+    "motif": "a restrained tactile sound motif"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on the immediate consequence of the previous turn: family, institution, and partner repair conduct through public support and consequence rather than private apology alone",
+    "exit_hook": "the ending answers the opening gaze wound through chosen authorship, not applause alone"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, capability, or relational obligation?",
+    "Is the object/space doing narrative work rather than decorative worldbuilding?",
+    "Is public or institutional pressure expressed through visible behavior rather than exposition?",
+    "Does the protagonist retain agency instead of being rescued into passivity?"
+  ]
+}

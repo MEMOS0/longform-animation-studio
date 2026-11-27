@@ -1,0 +1,73 @@
+{
+  "scene_id": "S07",
+  "time_range": "13.3-15.8 minutes",
+  "objective": "lure, trap, and spatial climax",
+  "conflict": "the protagonist lures a barnacle-armored giant crab that hunts through tidal channels into the stranded ferry hull and the lighthouse foghorn/lens mechanism or its mechanism and pays a bodily cost to keep the plan aligned",
+  "power_position_start": "physically exposed inside the trap",
+  "power_position_end": "sacrificial controller of the release moment",
+  "turn": "the protagonist lures a barnacle-armored giant crab that hunts through tidal channels into the stranded ferry hull and the lighthouse foghorn/lens mechanism or its mechanism and pays a bodily cost to keep the plan aligned",
+  "protagonist_decision": "remain exposed long enough for the trap/rescue mechanism to fire rather than abandoning the captives",
+  "subtext": "Learned restraint can defeat force when the predator's rule is understood.",
+  "visual_action": {
+    "first_image": "Noor lures a barnacle-armored giant crab that hunts through tidal channels into the vehicle/station geometry as light, smoke, sparks, water, or sound transforms the space",
+    "face_reaction": "the protagonist's expression shifts from controlled fear toward controlled attention when the turn lands",
+    "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+    "final_image": "Noor holds the control position while an ancient leatherback turtle carrying moss and shell scars and the captives move through the opened path"
+  },
+  "dialogue_design": {
+    "function": "make choices, objections, and proof implications audible rather than explaining theme",
+    "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
+    "max_exposition_sentences": 2,
+    "key_lines": [],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "a barnacle-armored giant crab that hunts through tidal channels",
+        "dramatic_job": "a barnacle-armored giant crab that hunts through tidal channels enters the trap space before every captive is safe",
+        "writing_note": "pressure is spatial, sensory, mechanical, or creature behavior rather than villain exposition"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "an ancient leatherback turtle carrying moss and shell scars",
+        "dramatic_job": "staying exposed may cost the protagonist her own escape",
+        "writing_note": "the objection is embodied by vulnerability, hesitation, warning, or creature behavior"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "Noor",
+        "dramatic_job": "Noor holds position long enough for the object/mechanism sequence to fire",
+        "writing_note": "the decision must be visible through action before any sparse dialogue validates it"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "bent brass foghorn valve key",
+        "dramatic_job": "an ancient leatherback turtle carrying moss and shell scars helps only through established creature behavior while the mechanism redirects a barnacle-armored giant crab that hunts through tidal channels",
+        "writing_note": "end with changed access, proof, injury, creature response, or a plan component rather than explanation"
+      }
+    ],
+    "spoken_exchange": [],
+    "scene_rhythm": "visual objective first; sparse dialogue only validates choices after action, creature behavior, or mechanical proof has already made them legible",
+    "rewrite_directives": [
+      "write objectives that remain understandable with sound off",
+      "use creature behavior, terrain, tools, animal reaction, and occupational action instead of exposition",
+      "allow breath, silence, machinery, and small animal sound to carry emotion before score",
+      "keep any spoken line short, practical, and subordinate to the visual decision"
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "dialogue is sparse and practical; breath, creature texture, machinery, weather, footsteps, and animal vocalization carry most narrative information",
+    "music_function": "creature mass, machine crescendo, alarm/light hum, impact debris, breath, then one decisive mechanical click or silence",
+    "silence_or_negative_space": "the loudest spectacle pauses around the exact release decision so causality is readable",
+    "motif": "bent brass foghorn valve key clicks/scrapes, predator texture, small animal vocalization, and mechanical air/light rhythm"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on the immediate consequence of the previous turn: an ancient leatherback turtle carrying moss and shell scars helps only within its established creature behavior; it does not become a convenient weapon",
+    "exit_hook": "will the mechanism save the captives or trap the protagonist with the predator?"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, capability, or relational obligation?",
+    "Is the object/space doing narrative work rather than decorative worldbuilding?",
+    "Is public or institutional pressure expressed through visible behavior rather than exposition?",
+    "Does the protagonist retain agency instead of being rescued into passivity?"
+  ]
+}

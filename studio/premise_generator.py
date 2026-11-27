@@ -18,6 +18,9 @@ from .relational_contract import evaluate_relational_contract
 from .spatial_status import evaluate_spatial_status
 from .architecture_generator import generate_architecture
 from .scene_generator import generate_scenes
+from .screenplay_renderer import write_screenplay
+from .survival_premises import COMPRESSED_SURVIVAL_VARIANTS, compressed_survival_premise
+from .transformation_premises import TRANSFORMATION_ROMANCE_VARIANTS, transformation_romance_premise
 
 CREATURE_ECONOMIC_VARIANTS = [
     {
@@ -299,7 +302,11 @@ def generate_premises(contract: str = "social_test_melodrama", count: int = 3, t
         return [social_craft_premise(v, target_minutes) for v in VARIANTS[:count]]
     if contract == "creature_economic_melodrama":
         return [creature_economic_premise(v, target_minutes) for v in CREATURE_ECONOMIC_VARIANTS[:count]]
-    raise ValueError("currently implemented contracts: social_test_melodrama, creature_economic_melodrama")
+    if contract == "compressed_creature_survival":
+        return [compressed_survival_premise(v, target_minutes) for v in COMPRESSED_SURVIVAL_VARIANTS[:count]]
+    if contract == "transformation_romance":
+        return [transformation_romance_premise(v, target_minutes) for v in TRANSFORMATION_ROMANCE_VARIANTS[:count]]
+    raise ValueError("currently implemented contracts: social_test_melodrama, creature_economic_melodrama, compressed_creature_survival")
 
 
 def evaluate_generated_premise(premise: dict[str, Any], archive_rows: list[dict[str, Any]]) -> dict[str, Any]:
@@ -328,7 +335,10 @@ def generate_and_write(output_dir: Path, count: int, target_minutes: float, arch
         arch_path.write_text(json.dumps(architecture, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
         scenes_dir = output_dir / f"{premise['premise_id']}_scenes"
         scenes_dir.mkdir(parents=True, exist_ok=True)
-        for scene in generate_scenes(premise, architecture):
+        scenes = generate_scenes(premise, architecture)
+        for scene in scenes:
             (scenes_dir / f"{scene['scene_id']}.json").write_text(json.dumps(scene, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-        rows.append({"premise_id": premise["premise_id"], "path": str(path), "evaluation_path": str(eval_path), "architecture_path": str(arch_path), "scenes_dir": str(scenes_dir), "evaluation": evaluation})
+        screenplay_path = output_dir / f"{premise['premise_id']}_screenplay.md"
+        write_screenplay(premise, scenes, screenplay_path)
+        rows.append({"premise_id": premise["premise_id"], "path": str(path), "evaluation_path": str(eval_path), "architecture_path": str(arch_path), "scenes_dir": str(scenes_dir), "screenplay_path": str(screenplay_path), "evaluation": evaluation})
     return {"count": len(rows), "premises": rows}

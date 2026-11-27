@@ -1,0 +1,67 @@
+{
+  "video_id": "F-RnV2OicIU",
+  "probe": {
+    "duration": 1471.541406,
+    "size": 98403439,
+    "width": 640,
+    "height": 360,
+    "fps": "24000/1001",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\research\\rediscovery_analysis\\F-RnV2OicIU\\contact_sheets\\contact_000.jpg",
+    "evidence\\research\\rediscovery_analysis\\F-RnV2OicIU\\contact_sheets\\contact_001.jpg",
+    "evidence\\research\\rediscovery_analysis\\F-RnV2OicIU\\contact_sheets\\contact_002.jpg",
+    "evidence\\research\\rediscovery_analysis\\F-RnV2OicIU\\contact_sheets\\contact_003.jpg"
+  ],
+  "seconds_indexed": 1471,
+  "shot_count": 46,
+  "shot_length_mean_seconds": 31.97826086956522,
+  "shot_length_median_seconds": 13.5,
+  "shot_length_p90_seconds": 65.0,
+  "visual_motion_mean": 0.10632409470924761,
+  "visual_brightness_mean": 0.2636081413938876,
+  "dialogue_cues": 139,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 526.297,
+      "text": "THIEF! STOP HER!"
+    },
+    "first_power_or_identity_language": {
+      "time": 440.895,
+      "text": "By order of the king,"
+    },
+    "first_care_or_belonging_language": {
+      "time": 150.192,
+      "text": "Careful, sir. How's your breathing?"
+    },
+    "dialogue_words_per_minute": [
+      2,
+      8,
+      42,
+      28,
+      21,
+      45,
+      12,
+      30,
+      22,
+      9,
+      14,
+      7,
+      12,
+      50,
+      20,
+      12,
+      14,
+      6,
+      4,
+      6,
+      22,
+      5,
+      27,
+      12,
+      4
+    ],
+    "cue_count": 139
+  }
+}

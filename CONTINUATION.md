@@ -494,3 +494,60 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 
 - A fresh low-subscriber breakout scan was started with `python tools/discover_recent_breakouts.py --help` accidentally invoking the default scan because argparse help did not emit before execution in the background shell. Shell id at the time was `94a8d1`; if its output/files appear, treat them as a normal scan result and commit `data/processed/recent_breakout_candidates.json` plus `knowledge/market/recent-breakout-candidates.md` after reviewing. If it is still hung, kill it and rerun deliberately with `--days 14 --max-enrich 35`.
 - Immediate next priorities: continue template-to-professional dialogue deepening, use the scan to select the next low-subscriber breakout, and consider full audiovisual analysis of any strong lead. Latest pushed commit before this note: `d065b29cb11660e8162b873e0b60ff9851d93054`; tests were 104 passed.
+
+## 2026-11-27 post-merge fresh-scan and professional-dialogue checkpoint
+
+- PR #2 was squash-merged; post-merge work continues on branch `devin/1764820000-postmerge-deepening` from `origin/main` (`87c5016`). The pre-merge branch tree matched the squash-merged main tree.
+- Fresh 14-day Piped breakout scan completed: 82 current candidates, 5 carryover, 63 strong leads. Top leads include Aethernal Act II, duplicate/long-form `THE LOST KIND`, fresh WUFO baby-dragon/giant-hunt video `9N6S6D_ioA0` (about 505k views in under a day at collection), Epicverse 12-minute compressed giant-father hit `no72LZAVvZQ` (about 6.6m views in 10 days), Nightfall/Neural/VNDL/PrimeFate/Drakenhart and many low-subscriber romance/fantasy candidates. These are discovery leads, not proof.
+- Downloaded public media for `9N6S6D_ioA0` (47.6m, subtitles available) and `no72LZAVvZQ` (11.7m, no subtitle exposed in first metadata). They are the next deep audiovisual analysis pair: fresh compressed creature/father protection cases.
+- Creature dialogue scaffold was deepened from template exchange into more professional power-turn writing: shorter procedural pressure lines, practical witness objections, concrete protagonist refusals, world-specific evidence, and per-turn `power_move`, `listening_response`, `delivery`, `status_shift`, and `room_sound` metadata. Scene dialogue now also carries `scene_rhythm` and `rewrite_directives`. Generated scenes/storyboards/production prompts/evaluations were regenerated; Salt project dialogue warnings are empty and gates A-D pass. Latest tests before this checkpoint: 104 passed.
+
+## 2026-11-27 WUFO heat-scarcity checkpoint
+
+- WUFO `9N6S6D_ioA0` full media, subtitles, contact sheets, audio metrics, targeted final keyframes, thumbnail, and deep-dive analysis are prepared. Key doctrine: heat/cold scarcity is a strong creature-economic engine; creature personhood is built through breathing/warming/feeding/naming before public execution spectacle; quiet domestic care can contrast with loud civic violence; climactic dragon scale should become recognition/embrace/protection before ambiguous sequel imagery.
+- `analyze-media` now supports `--contact-every`, used to create denser Epicverse contact evidence. Epicverse `no72LZAVvZQ` was rediscovered by the scan but already had a deep dive; its duplicate regenerated baseline evidence was not kept, while new denser contact evidence is retained.
+- Devin Review finding on PR #3 was fixed in `6221513981234765d634e88c57704b4b7ca36fcf`: performance metadata now follows actual speaker role rather than beat role alone. Latest tests after that fix: 105 passed.
+
+## 2026-11-27 annotated screenplay renderer checkpoint
+
+- Added `studio/screenplay_renderer.py` plus `render-screenplay` CLI. Generated premise packages now automatically include `*_screenplay.md`: annotated screenplay-style working drafts with speaker labels, action order, parenthetical delivery, sound transitions, subtext/rhythm, final images, exit hooks, and global rewrite rules. This moves creature-economic scaffolds closer to scene-specific professional writing while remaining transparent that they are working drafts, not final shooting scripts.
+- Regenerated both creature example packages; screenplay artifacts exist and Salt/Ember project gates A-D pass. Latest tests: 107 passed.
+- Devin Review stale-contact-sheet finding was fixed in `85baa846fd69c137556a4c15491e8910181ed636` by deleting old numbered sheets before writing a new analysis run.
+
+## 2026-11-27 Neural compressed-survival checkpoint
+
+- Neural Pictures `icsZH4sDwTM` (*The Flight Attendant vs. Giant Insect Island*, 17:07, about 1.18m views / 59.9k subscribers at collection) was visually inspected through full-runtime 10-second contact sheets plus targeted 3-second dog/cave/plane-preparation sheets. No subtitles exist; auditory evidence was captured through machine loudness/silence metrics and targeted auditory passes, then raw audio excerpts were removed rather than committed.
+- New doctrine added: compressed creature-survival (12-25m) needs a visually explicit role/creature/location contract, disaster/threat payoff inside two minutes, dialogue-light micro-objectives, occupational competence, moral differentiation among creatures, a quiet animal-care hinge, reciprocal rescue, reuse of the opening vehicle/location as final trap/rescue machine, and recognition/contact closure.
+- Devin Review findings on screenplay rendering were fixed in `9c70ad2`, `c2cda1c`, and `c0430eb`: default key_lines are preserved, direct/empty scene inputs validate correctly, and missing output directories are created. Latest tests after fixes: 110 passed.
+
+## 2026-11-27 compressed creature-survival production contract checkpoint
+
+- Converted the Neural Pictures doctrine into a working `compressed_creature_survival` generation contract with two original examples: `brakelight_moth_depths` (freight conductor / giant centipede / wrecked inspection train / pigeon / giant moth) and `foghorn_turtle_keeper` (lighthouse radio operator / giant crab / stranded ferry-foghorn system / seabird chick / turtle ally).
+- Added modular premise, architecture, and scene materials in `studio/survival_premises.py`, `studio/survival_architecture.py`, and `studio/survival_scene.py`. The generated scenes use sparse practical dialogue, visual-first objectives, quiet animal care, predator sensory rules, occupational trap preparation, reciprocal rescue, and recognition/contact closure rather than social-melodrama power language.
+- Added `compressed_survival_integrity` machine validation and a `compressed_creature_survival` channel contract. Expanded visual-causality action/object recognition for survival cinema and fixed the false warning that a single sparse spoken turn lacks differentiated speakers.
+- Both generated survival packages validate schema-clean and pass A-D gates; compressed survival integrity is 1.0 with no dialogue or visual-causality warnings. Latest tests: 113 passed.
+
+## 2026-11-27 EchoDrama hidden-beauty long-form checkpoint
+
+- Downloaded and analyzed EchoDrama `lBhjowuJURw` (`[FULL] The Hidden Beauty`, 75.25 minutes), a fresh low-subscriber breakout lead with about 817k views in roughly six days and about 3.55k channel subscribers at collection.
+- Committed full second-resolution audiovisual metrics, 10-second aligned timeline, media summary, 20-second sampled full-runtime contact sheets, max-resolution thumbnail, and thumbnail metadata.
+- Key doctrine: hidden-beauty transformation is strongest when love/recognition precedes the beauty reveal; parental protection itself creates the wound; transformation has behavioral cost; public crowd geometry returns transformed; the 75-minute runtime survives because a film-in-film second engine begins after the makeover payoff; reciprocal childhood protection proves moral rather than cosmetic love.
+- Important audiovisual evidence: the pool danger sequence at minutes 45-50 is quieter, faster-cut, higher-silence, and less verbal than surrounding scenes. Derived file: `knowledge/market/echodrama-hidden-beauty-transformation-romance-deep-dive.md`.
+
+## 2026-11-27 transformation-romance production contract checkpoint
+
+- Converted the EchoDrama Hidden Beauty doctrine into a working `transformation_romance` generation contract with two original 72-minute vertical-feature concepts: `paper_lantern_understudy` (performing-arts academy / backstage authorship / cracked brass key) and `saltglass_swim_lesson` (coastal rescue-swim documentary / scarred technician / rescue whistle).
+- Added transformation-specific premise, architecture, scene dialogue, visual-image overrides, schema metadata, channel contract, and `transformation_romance_integrity` validation. Both examples score 1.0 on transformation integrity, pass channel fit, and have no dialogue or visual-causality warnings. A/B gates can still require attention depending on premise/architecture risk scoring; C/D pass.
+- Expanded visual-causality recognition for transformation-media imagery (phones, mirrors, cameras, staircases, pools, garments, whistles, stages, lanes, crowds; blocking/raising/dropping/walking/filming actions). Latest tests: 120 passed.
+
+## 2026-11-27 fresh breakout scan checkpoint
+
+- Re-ran the 14-day low-subscriber breakout scan: 84 candidates, 64 strong leads, 5 carryovers, using 14 query families. Outputs updated in `data/processed/recent_breakout_candidates.json` and `knowledge/market/recent-breakout-candidates.md`.
+- Fixed transformation-romance scene 7 screenplay/scene synchronization so the reciprocal-memory exchange uses the intended line `I choose you, not the gratitude.` and a coherent shared-memory object action; regenerated both production packages. Both retain transformation integrity 1.0, no visual-causality warnings, and no dialogue warnings. Tests: 120 passed.
+
+## 2026-11-27 fresh creature breakout evidence checkpoint
+
+- Downloaded and analyzed two priority creature breakouts: WUFO `F-RnV2OicIU` (24:32, about 848k views) and Movie Maxx `EUaUwhMAUgE` (28:18, about 754k views, about 1.9k subscribers at collection).
+- Major packaging discovery: exact subtitle anchors and shifted frame comparison indicate the larger WUFO hit `9N6S6D_ioA0` appears to reuse most/all of `F-RnV2OicIU` after roughly 22:15 of preceding material. It should be treated as compound/serial packaging evidence, not clean duration causality.
+- Craft findings: WUFO strongly validates heat-scarcity economics, creature care before power, sparse practical dialogue, authoritarian coal control, execution ritual, and climax-as-protection/contact. Movie Maxx validates visual-archetypal creature fantasy and slower atmospheric shot lengths; no subtitle track was available, so no exact dialogue claims were made.
+- Committed report: `knowledge/market/fresh-creature-breakouts-wufo-moviemaxx-deep-dive.md`; evidence folders include full timelines/metrics/contact sheets and the WUFO overlap montage.

@@ -498,7 +498,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; the creature remains outside reach until consent is possible. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow lateral drift",
-    "dialogue": "She won't come forward while you hold the papers.",
+    "dialogue": "She won't step forward while your papers own the room.",
     "audio_direction": "a restrained motif can answer earlier care sounds but must not become triumph before consent repair",
     "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation; subtext: the creature cannot consent while legal coercion remains in the room",
     "continuity_dependencies": [
@@ -939,7 +939,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final image; slow pull-back; the moonfin child steps forward by choice as the protagonist refuses to claim ownership. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow pull-back",
-    "dialogue": "Open the door. If she comes uncaged, the town will see why.",
+    "dialogue": "Door first. If she comes uncaged, they can see why.",
     "audio_direction": "blue glass vial taps, salt grains, water droplets, fin movement, and pump-stone resonance unresolved",
     "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power; subtext: consent is staged materially before language, so the creature is not merely won as a prize",
     "continuity_dependencies": [

@@ -36,24 +36,24 @@ def creature_dialogue_materials(ctx: dict[str, Any], index: int) -> dict[str, An
     ][index - 1]
 
     if heat_based:
-        opening_demand = f"Guild ration first, {protagonist}. Hands off the {system}."
-        pain_offer = f"One {pain_unit}, and the coal ledger forgets your name."
+        opening_demand = f"Oven ration's for guild households, {protagonist}. Back of the line."
+        pain_offer = f"One {pain_unit}, and the coal ledger closes tonight."
         license_demand = f"No guild mark, no hand on that {system}."
         theft_accusation = f"Thief. You stole {resource} and hid the guild proof."
         rescue_offer = "Take the guild pardon. Sign the confession."
         revenge_temptation = f"The guild is finished. Take their {system}s and make them crawl."
-        evidence_reaction = "Look, the coals bend toward her crying."
+        evidence_reaction = "Coals are bending. Look—she's crying, not performing."
         proof_line = "This seam is still hot. Your ledger says the oven was closed."
         open_first = "Open the oven door first. Then ask me to trust your ink."
         shared_line = "No. One oven burning for everyone is worth more than ten men kneeling."
     else:
-        opening_demand = f"Paying hands first, {protagonist}. Step away from the {system}."
-        pain_offer = f"One {pain_unit}, and your debt is gone."
-        license_demand = f"Unlicensed hands don't touch the {system}."
+        opening_demand = f"Pump's for paying households, {protagonist}. Back of the line."
+        pain_offer = f"One {pain_unit}, and the debt ledger closes tonight."
+        license_demand = f"No license, no hand on that {system}."
         theft_accusation = f"Thief. You stole {resource} and hid the proof."
         rescue_offer = "Take the rescue. Sign the apology."
         revenge_temptation = "The trust is finished. Take their gates and make them crawl."
-        evidence_reaction = "Look, the salt rises where her tears fall."
+        evidence_reaction = "Salt's rising. Look—she's crying, not performing."
         proof_line = "Salt inside this seal is fresh. Your ledger says it was closed."
         open_first = "Open the pump gate first. Then ask me to trust your ink."
         shared_line = "No. One gate open for everyone is worth more than ten men kneeling."
@@ -69,51 +69,51 @@ def creature_dialogue_materials(ctx: dict[str, Any], index: int) -> dict[str, An
     exchanges = [
         [
             (authority, opening_demand, "the crowd blocks the public resource threshold"),
-            (caregiver, f"Don't lift her toward the {habitat}—she'll bolt.", f"{caregiver} shifts between the crowd and the creature"),
-            (protagonist, f"Under my {creature_cover}. If they see {fear_feature}, we're both done.", f"{protagonist} kneels and covers the creature"),
+            (caregiver, "Don't scoop her up. Sudden hands make her bolt.", f"{caregiver} shifts between the crowd and the creature"),
+            (protagonist, f"Easy. Under my {creature_cover}—no one sees {fear_feature}.", f"{protagonist} kneels and covers the creature"),
             (caregiver, evidence_reaction, f"the {resource} response becomes visible to the nearest witness"),
         ],
         [
-            (caregiver, f"This roof feeds workers, not miracles.", "shelter is offered as labor rather than charity"),
-            (caregiver, "Price her pain before breakfast and I won't eat under this roof.", "the caregiver names the safe boundary before help becomes control"),
+            (caregiver, "This roof feeds workers. Miracles don't pay for bread.", "shelter is offered as labor rather than charity"),
+            (caregiver, "Price her pain, and you eat somewhere else.", "the caregiver names the safe boundary before help becomes control"),
             (protagonist, f"Then I'll work the {shelter_work}. Her pain isn't rent.", "the protagonist accepts work while refusing monetized suffering"),
-            (protagonist, f"The {object_term} opens the {system} seam. It doesn't make her ours.", f"the {object_term} is set beside the creature rather than used as a claim"),
+            (protagonist, f"The {object_term} opens the {system} seam. It doesn't make her mine.", f"the {object_term} is set beside the creature rather than used as a claim"),
         ],
         [
             (authority, pain_offer, "the offer converts creature pain into economic rescue"),
-            (caregiver, "Pull it and she'll never trust a hand again.", f"{caregiver} blocks the reach toward the creature"),
+            (caregiver, "Pull it, and no hand will ever mean safety again.", f"{caregiver} blocks the reach toward the creature"),
             (protagonist, "Not while she's shaking.", f"{protagonist} steps into the reach instead of arguing abstractions"),
-            (authority, f"Hold her still. The price is higher while she's breathing.", f"fear moves through the creature's {trait}, making the cost visible"),
+            (authority, "Hold her still. Breathing creatures bring higher prices.", f"fear moves through the creature's {trait}, making the cost visible"),
         ],
         [
             (authority, license_demand, "competence is reframed as illegality"),
-            ("customer witness", f"{protagonist}'s repair held through the morning rush.", "one practical witness breaks the crowd's certainty"),
-            (protagonist, "Let my work answer before you invent a thief.", f"{protagonist} keeps working instead of pleading"),
+            ("customer witness", f"{protagonist}'s patch held through the morning rush. I watched it.", "one practical witness breaks the crowd's certainty"),
+            (protagonist, "Test the work before you invent a thief.", f"{protagonist} keeps working instead of pleading"),
             (protagonist, proof_line, f"the first {evidence} trace is exposed"),
         ],
         [
             (authority, theft_accusation, "public accusation turns the creature into evidence"),
-            (caregiver, f"Give them the {child_term} and they may spare the {system}.", f"{caregiver} offers the safer betrayal"),
-            (protagonist, "I took her out of your cage. That isn't theft.", f"{protagonist} shields the creature before defending reputation"),
+            (caregiver, f"Give them the {child_term}; perhaps they'll leave the {system} standing.", f"{caregiver} offers the safer betrayal"),
+            (protagonist, "I opened your cage. That isn't theft.", f"{protagonist} shields the creature before defending reputation"),
             (protagonist, f"The {object_term} is past the gate. Your ledger can't swallow it now.", f"the {object_term} passes out of institutional control"),
         ],
         [
-            (caregiver, "Give me the proof. I can carry it faster.", "help threatens to become takeover"),
-            ("care network witness", "One pair of hands can bury it as easily as carry it.", "the witness makes the cost of surrendering authorship concrete"),
-            (protagonist, "Then walk beside me. Don't take it from me.", "the protagonist accepts help while keeping control of the proof"),
+            (caregiver, "Give me the proof. I run faster than you.", "help threatens to become takeover"),
+            ("care network witness", "Fast hands can bury proof as easily as carry it.", "the witness makes the cost of surrendering authorship concrete"),
+            (protagonist, "Then run beside me. Don't take it from my hands.", "the protagonist accepts help while keeping control of the proof"),
             (protagonist, f"{proof_marks} marks, {gate_times}, witnesses—line them up.", "the proof chain becomes a physical arrangement"),
         ],
         [
             (authority, rescue_offer, "institutional rescue is offered before restitution"),
-            (caregiver, "She won't come forward while you hold the papers.", "the creature remains outside reach until consent is possible"),
+            (caregiver, "She won't step forward while your papers own the room.", "the creature remains outside reach until consent is possible"),
             (protagonist, open_first, "the protagonist refuses the shortcut public win"),
-            (protagonist, f"Open the door. If she comes uncaged, the town will see why.", f"{creature} is allowed to move forward by choice"),
+            (protagonist, "Door first. If she comes uncaged, they can see why.", f"{creature} is allowed to move forward by choice"),
         ],
         [
             (authority, revenge_temptation, "the ending is tempted toward revenge"),
             (caregiver, f"Revenge won't fill one {portion}.", "the community's material need interrupts triumph"),
             (protagonist, shared_line, "the exclusion threshold is opened for communal use"),
-            (caregiver, "She crossed by herself. Leave the door open.", "the creature's free crossing confirms non-possessive belonging"),
+            (caregiver, "She crossed alone. Leave the door open.", "the creature's free crossing confirms non-possessive belonging"),
         ],
     ][index - 1]
 
@@ -169,10 +169,71 @@ def creature_dialogue_materials(ctx: dict[str, Any], index: int) -> dict[str, An
     ][index - 1]
 
     beat_names = ["external_pressure", "witness_objection", "protagonist_decision", "evidence_or_cost"]
+    craft_by_beat = {
+        "external_pressure": {
+            "power_move": "coercive exclusion or institutional demand",
+            "listening_response": "answers the immediate resource/status threat before anyone can explain the larger conflict",
+            "delivery": "clipped, public, procedural; the speaker does not need to sound emotional to exercise power",
+            "status_shift": "authority controls the threshold, crowd, or paperwork",
+            "room_sound": "crowd texture, ledger paper, coin/metal, or machinery stays louder than the vulnerable body",
+        },
+        "witness_objection": {
+            "power_move": "reasonable protective objection that makes the safe betrayal legible",
+            "listening_response": "responds to what the pressure physically endangers rather than repeating the protagonist's wish",
+            "delivery": "low, urgent, close-mic; advice sounds practical rather than thematic",
+            "status_shift": "fear moves from public punishment into relational and bodily cost",
+            "room_sound": "breath, cloth, small movement, and nearby labor noise replace the crowd's certainty",
+        },
+        "protagonist_decision": {
+            "power_move": "embodied boundary, refusal, or controlled acceptance of cost",
+            "listening_response": "answers the objection by changing behavior, not by winning the argument",
+            "delivery": "quiet, concrete, no pleading; short enough to survive interruption",
+            "status_shift": "the protagonist accepts cost and takes moral initiative",
+            "room_sound": "contact, kneeling, object touch, or withheld breath lands before music can resolve the choice",
+        },
+        "evidence_or_cost": {
+            "power_move": "material proof or irreversible cost escapes verbal control",
+            "listening_response": "the final speaker reacts to what the room/object/creature has made undeniable",
+            "delivery": "observational and restrained; do not explain the meaning after the image proves it",
+            "status_shift": "truth, personhood, or proof becomes publicly harder to erase",
+            "room_sound": "object resonance, creature response, and negative space carry the reversal",
+        },
+    }
+    enriched_exchange = []
+    for beat, (speaker, line, action), subtext in zip(beat_names, exchanges, subtexts):
+        craft = dict(craft_by_beat[beat])
+        if beat == "external_pressure" and speaker != authority:
+            craft.update({
+                "power_move": "urgent help or shelter pressure that can quietly become control",
+                "listening_response": "responds to the concrete danger by offering speed, work, or shelter rather than institutional command",
+                "delivery": "low, urgent, practical; concern is audible even when the offer threatens agency",
+                "status_shift": "the helper gains logistical control while risking takeover of the protagonist's choice",
+                "room_sound": "breath, cloth, footsteps, food/labor texture, and nearby danger crowd the vulnerable body",
+            })
+        elif beat == "evidence_or_cost" and speaker == authority:
+            craft.update({
+                "power_move": "coercive bodily escalation or commodification threat",
+                "listening_response": "the authority answers refusal by forcing the creature's body to carry the cost",
+                "delivery": "sharp, transactional, threatening; cruelty is procedural rather than observational",
+                "status_shift": "authority tries to convert fear and bodily harm into control",
+                "room_sound": "chains, coin counts, hostile murmur, and creature distress overpower restraint",
+            })
+        enriched_exchange.append({
+            "beat": beat,
+            "speaker": speaker,
+            "line": line,
+            "action": action,
+            "subtext": subtext,
+            **craft,
+        })
     return {
         "key_lines": key_lines,
-        "spoken_exchange": [
-            {"beat": beat, "speaker": speaker, "line": line, "action": action, "subtext": subtext}
-            for beat, (speaker, line, action), subtext in zip(beat_names, exchanges, subtexts)
+        "spoken_exchange": enriched_exchange,
+        "scene_rhythm": "enter inside pressure, compress the objection into a concrete unsafe choice, let the protagonist answer through behavior, then end on proof/cost rather than explanation",
+        "rewrite_directives": [
+            "keep every turn short enough to be interrupted by movement, crowd noise, or creature reaction",
+            "make each answer respond to the previous speaker's concrete pressure rather than restating theme",
+            "let hands, objects, witnesses, thresholds, and creature behavior carry meaning between lines",
+            "avoid naming feelings that the action has already proven",
         ],
     }

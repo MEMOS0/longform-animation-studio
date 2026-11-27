@@ -449,7 +449,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; her grandmother offers the safer betrayal. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow lateral drift",
-    "dialogue": "Give them the child and they may spare the pump.",
+    "dialogue": "Give them the child; perhaps they'll leave the pump standing.",
     "audio_direction": "music must withhold resolution during accusation so shame remains spatial and bodily",
     "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation; subtext: the safer betrayal sounds merciful because it promises immediate social peace",
     "continuity_dependencies": [
@@ -547,7 +547,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; Nura shields the creature before defending reputation. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "static intimate",
-    "dialogue": "I took her out of your cage. That isn't theft.",
+    "dialogue": "I opened your cage. That isn't theft.",
     "audio_direction": "music drops before decision",
     "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible; subtext: the protagonist protects before defending reputation, proving the hierarchy of values",
     "continuity_dependencies": [

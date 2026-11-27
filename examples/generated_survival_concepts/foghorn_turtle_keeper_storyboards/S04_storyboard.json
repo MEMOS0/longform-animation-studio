@@ -1,0 +1,253 @@
+{
+  "scene_id": "S04",
+  "duration_seconds": 138.0,
+  "coverage": "continuous_exact_format_director_seed",
+  "shots": [
+    {
+      "shot_id": "S04_DS001",
+      "timecode": "0.00-14.33",
+      "duration_seconds": 14.33,
+      "scene_id": "S04",
+      "shot_size": "wide establishing",
+      "camera_intent": "slow push",
+      "visual_action": "an injured seabird chick tangled in radio wire trembles in wire, cloth, water, dust, or darkness while danger remains off-screen but audible",
+      "dialogue": "",
+      "sound_design": "music withdraws so care is audible as time lost and risk accepted",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: open on the scene image"
+    },
+    {
+      "shot_id": "S04_DS002",
+      "timecode": "14.33-22.92",
+      "duration_seconds": 8.6,
+      "scene_id": "S04",
+      "shot_size": "intimate closeup",
+      "camera_intent": "settle",
+      "visual_action": "the protagonist's expression shifts from panic toward controlled attention when the turn lands",
+      "dialogue": "",
+      "sound_design": "breath/room tone",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+    },
+    {
+      "shot_id": "S04_DS003",
+      "timecode": "22.92-34.26",
+      "duration_seconds": 11.34,
+      "scene_id": "S04",
+      "shot_size": "action wide",
+      "camera_intent": "lateral track",
+      "visual_action": "quiet animal-care hinge and first relational cost",
+      "dialogue": "",
+      "sound_design": "environmental action foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
+    },
+    {
+      "shot_id": "S04_DS004",
+      "timecode": "34.26-47.63",
+      "duration_seconds": 13.37,
+      "scene_id": "S04",
+      "shot_size": "power two-shot",
+      "camera_intent": "slow tightening",
+      "visual_action": "the protagonist slows down to free, feed, warm, or protect an injured seabird chick tangled in radio wire even though the predator may still be near",
+      "dialogue": "",
+      "sound_design": "dialogue is sparse and practical; breath, creature texture, machinery, weather, footsteps, and animal vocalization carry most narrative information",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+    },
+    {
+      "shot_id": "S04_DS005",
+      "timecode": "47.63-55.03",
+      "duration_seconds": 7.4,
+      "scene_id": "S04",
+      "shot_size": "pressure insert",
+      "camera_intent": "macro",
+      "visual_action": "the protagonist slows down to free, feed, warm, or protect an injured seabird chick tangled in radio wire even though the predator may still be near; alternate coverage: pressure-detail coverage: hands, objects, crowd position, or institutional obstruction carries the conflict",
+      "dialogue": "",
+      "sound_design": "object/room texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: insert pressure detail"
+    },
+    {
+      "shot_id": "S04_DS006",
+      "timecode": "55.03-64.34",
+      "duration_seconds": 9.31,
+      "scene_id": "S04",
+      "shot_size": "vertical composition",
+      "camera_intent": "high or low angle",
+      "visual_action": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+      "dialogue": "",
+      "sound_design": "negative space",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
+    },
+    {
+      "shot_id": "S04_DS007",
+      "timecode": "64.34-76.88",
+      "duration_seconds": 12.53,
+      "scene_id": "S04",
+      "shot_size": "subtext two-shot",
+      "camera_intent": "slow lateral drift",
+      "visual_action": "Small acts of care cost time but create direction, trust, and identity.",
+      "dialogue": "",
+      "sound_design": "tiny animal vocalization, cloth/wire/water texture, wind or cave tone, footsteps, and close breath at the quietest density",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+    },
+    {
+      "shot_id": "S04_DS008",
+      "timecode": "76.88-86.67",
+      "duration_seconds": 9.79,
+      "scene_id": "S04",
+      "shot_size": "decision closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "lose escape time to protect a vulnerable life that cannot yet help her",
+      "dialogue": "",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+    },
+    {
+      "shot_id": "S04_DS009",
+      "timecode": "86.67-102.66",
+      "duration_seconds": 16.0,
+      "scene_id": "S04",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "the protagonist slows down to free, feed, warm, or protect an injured seabird chick tangled in radio wire even though the predator may still be near",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+    },
+    {
+      "shot_id": "S04_DS010",
+      "timecode": "102.66-113.65",
+      "duration_seconds": 10.98,
+      "scene_id": "S04",
+      "shot_size": "consequence wide",
+      "camera_intent": "backward track",
+      "visual_action": "visible consequence of lose escape time to protect a vulnerable life that cannot yet help her",
+      "dialogue": "",
+      "sound_design": "consequence foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
+    },
+    {
+      "shot_id": "S04_DS011",
+      "timecode": "113.65-120.57",
+      "duration_seconds": 6.92,
+      "scene_id": "S04",
+      "shot_size": "sensory bridge",
+      "camera_intent": "insert or detail",
+      "visual_action": "Noor releases/protects it and notices the path or behavior it has been trying to reveal; alternate coverage: object-detail coverage before or after the wider relational-resolution framing",
+      "dialogue": "",
+      "sound_design": "object/motif texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition"
+    },
+    {
+      "shot_id": "S04_DS012",
+      "timecode": "120.57-138.00",
+      "duration_seconds": 17.43,
+      "scene_id": "S04",
+      "shot_size": "final image",
+      "camera_intent": "slow pull-back",
+      "visual_action": "Noor releases/protects it and notices the path or behavior it has been trying to reveal",
+      "dialogue": "",
+      "sound_design": "bent brass foghorn valve key clicks/scrapes, predator texture, small animal vocalization, and mechanical air/light rhythm unresolved",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power"
+    }
+  ],
+  "validation_rules": [
+    "seed must be manually/directorially refined before production",
+    "no gaps or overlaps",
+    "sound and power transitions must remain explicit",
+    "shot pacing must remain intentionally varied"
+  ]
+}

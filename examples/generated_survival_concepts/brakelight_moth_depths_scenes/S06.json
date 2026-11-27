@@ -1,0 +1,88 @@
+{
+  "scene_id": "S06",
+  "time_range": "10.4-13.3 minutes",
+  "objective": "occupational preparation and object transformation",
+  "conflict": "the protagonist returns to the wrecked inspection train and its working brake-light/horn system and converts wreckage into a rescue/trap system using freight conductor knowledge",
+  "power_position_start": "outmatched by the predator",
+  "power_position_end": "occupational author of the rescue mechanism",
+  "turn": "the protagonist returns to the wrecked inspection train and its working brake-light/horn system and converts wreckage into a rescue/trap system using freight conductor knowledge",
+  "protagonist_decision": "risk noise, light, fire, or machinery that can attract the predator in order to control where it goes",
+  "subtext": "Professional identity becomes agency when it converts wreckage into a plan.",
+  "visual_action": {
+    "first_image": "Ilsa crawls through the wrecked inspection train and its working brake-light/horn system, opens panels, pulls wires, braces doors, and tests improvised light or sound barriers",
+    "face_reaction": "the protagonist's expression shifts from guilt toward controlled attention when the turn lands",
+    "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+    "final_image": "cracked red brake-light lens locks into the mechanism and the first controlled test flashes/sounds through the wreck"
+  },
+  "dialogue_design": {
+    "function": "make choices, objections, and proof implications audible rather than explaining theme",
+    "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "The light can hold it. Help me keep the line open."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "disaster terrain",
+        "dramatic_job": "preparing the wrecked inspection train and its working brake-light/horn system requires noise, light, heat, or movement that can attract a tunnel-sized centipede with a black glass shell",
+        "writing_note": "pressure is spatial, sensory, mechanical, or creature behavior rather than villain exposition"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "a dust-blue giant moth whose wings react to light",
+        "dramatic_job": "a failed test may waste the only working mechanism",
+        "writing_note": "the objection is embodied by vulnerability, hesitation, warning, or creature behavior"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "Ilsa",
+        "dramatic_job": "Ilsa uses freight conductor knowledge to convert wreckage into a controlled trap/rescue system",
+        "writing_note": "the decision must be visible through action before any sparse dialogue validates it"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "cracked red brake-light lens",
+        "dramatic_job": "cracked red brake-light lens becomes the key operating part of the final mechanism",
+        "writing_note": "end with changed access, proof, injury, creature response, or a plan component rather than explanation"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Ilsa",
+        "line": "The light can hold it. Help me keep the line open.",
+        "action": "Ilsa braces the mechanism while pointing to the open path",
+        "subtext": "competence becomes shared action without surrendering authorship",
+        "power_move": "practical survival pressure answered through protection, restraint, rescue, or recognition",
+        "listening_response": "the next action answers the immediate bodily danger rather than explaining theme",
+        "delivery": "urgent, precise",
+        "status_shift": "the speaker converts fear or doubt into a concrete survival obligation",
+        "room_sound": "breath, debris, creature texture, machinery, weather, and animal vocalization remain present beneath the sparse line"
+      }
+    ],
+    "scene_rhythm": "visual objective first; sparse dialogue only validates choices after action, creature behavior, or mechanical proof has already made them legible",
+    "rewrite_directives": [
+      "write objectives that remain understandable with sound off",
+      "use creature behavior, terrain, tools, animal reaction, and occupational action instead of exposition",
+      "allow breath, silence, machinery, and small animal sound to carry emotion before score",
+      "keep any spoken line short, practical, and subordinate to the visual decision"
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "dialogue is sparse and practical; breath, creature texture, machinery, weather, footsteps, and animal vocalization carry most narrative information",
+    "music_function": "mechanical clicks, electrical charge, tool rhythm, metal stress, cloth movement, and brief failed-test silence",
+    "silence_or_negative_space": "sound rhythm turns preparation into suspense rather than montage noise",
+    "motif": "cracked red brake-light lens clicks/scrapes, predator texture, small animal vocalization, and mechanical air/light rhythm"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on the immediate consequence of the previous turn: a trapped railway pigeon with a red leg band or a survivor contributes one small behavior that completes the plan without stealing protagonist agency",
+    "exit_hook": "will the improvised machine work once, or attract the predator too early?"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, capability, or relational obligation?",
+    "Is the object/space doing narrative work rather than decorative worldbuilding?",
+    "Is public or institutional pressure expressed through visible behavior rather than exposition?",
+    "Does the protagonist retain agency instead of being rescued into passivity?"
+  ]
+}

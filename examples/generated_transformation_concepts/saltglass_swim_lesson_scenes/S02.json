@@ -1,0 +1,102 @@
+{
+  "scene_id": "S02",
+  "time_range": "7.2-14.4 minutes",
+  "objective": "false rescue, social annihilation, and family accountability",
+  "conflict": "kindness is publicly reinterpreted as nothing or turned against the protagonist, confirming that being seen means being misjudged",
+  "power_position_start": "self-erasing inside a protective family system",
+  "power_position_end": "person who can name the wound and choose change",
+  "turn": "kindness is publicly reinterpreted as nothing or turned against the protagonist, confirming that being seen means being misjudged",
+  "protagonist_decision": "stop performing for the crowd and tell the family what the protection strategy has cost",
+  "subtext": "Love distorted by fear can become the wound it tries to prevent.",
+  "visual_action": {
+    "first_image": "the caregiver hides a bright garment while the protagonist stands before a mirror",
+    "face_reaction": "the protagonist's expression shifts from romantic hope toward controlled attention when the turn lands",
+    "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+    "final_image": "the protagonist opens the garment bag and lays it aside instead of wearing the imposed image"
+  },
+  "dialogue_design": {
+    "function": "make choices, objections, and proof implications audible rather than explaining theme",
+    "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "You taught me hiding was love.",
+      "Whatever I become, I choose it this time."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "antagonist or social crowd",
+        "dramatic_job": "kindness is publicly reinterpreted as nothing or turned against the protagonist, confirming that being seen means being misjudged",
+        "writing_note": "pressure must be specific behavior, not generic cruelty"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "caregiver, worker, or vulnerable witness",
+        "dramatic_job": "a caregiver admits that protective control caused harm instead of only comforting the victim",
+        "writing_note": "the objection should make the safe choice reasonable"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "protagonist",
+        "dramatic_job": "stop performing for the crowd and tell the family what the protection strategy has cost",
+        "writing_note": "the answer is a choice or refusal, not a theme statement"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "object, proof, or consequence",
+        "dramatic_job": "her father taught her to hide the scar and avoid cameras because his own rescue career ended in public blame",
+        "writing_note": "the scene must leave a visible cost or proof implication"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "external_pressure",
+        "speaker": "caregiver",
+        "line": "I only wanted them not to hurt you.",
+        "action": "the caregiver cannot meet the mirror or the protagonist's eyes",
+        "subtext": "love is defending the control that caused the wound",
+        "power_move": "image pressure answered through consent, authorship, protection, or recognition",
+        "listening_response": "the next behavior answers the concrete boundary rather than explaining confidence",
+        "delivery": "defensive, breaking",
+        "status_shift": "the speaker converts spectatorship or arranged visibility into chosen agency",
+        "room_sound": "phones, crowd murmur, breath, threshold noise, camera/stage/pool machinery, and object texture remain audible beneath the line"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Noa",
+        "line": "You taught me hiding was love.",
+        "action": "Noa places the hidden garment/object down instead of obeying it",
+        "subtext": "naming the system is the first act of authorship",
+        "power_move": "image pressure answered through consent, authorship, protection, or recognition",
+        "listening_response": "the next behavior answers the concrete boundary rather than explaining confidence",
+        "delivery": "quiet, exact",
+        "status_shift": "the speaker converts spectatorship or arranged visibility into chosen agency",
+        "room_sound": "phones, crowd murmur, breath, threshold noise, camera/stage/pool machinery, and object texture remain audible beneath the line"
+      }
+    ],
+    "scene_rhythm": "visual/social pressure first; dialogue names consent, recognition, or authorship only after blocking, objects, phones, thresholds, and protective behavior have made the psychology legible",
+    "rewrite_directives": [
+      "write the scene so the gaze geometry is understandable with sound off",
+      "make the protagonist answer image pressure through behavior, boundaries, work, or movement rather than speeches about confidence",
+      "use phones, mirrors, thresholds, cameras, water/stage machinery, and repeated public spaces as psychology carriers",
+      "do not use despair harm as a cheap transformation trigger",
+      "separate desire, gratitude, performance, and recognition in the romance turns"
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
+    "silence_or_negative_space": "crowd noise thins into domestic silence and difficult breathing rather than swelling consolation music",
+    "motif": "a restrained tactile sound motif"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on the immediate consequence of the previous turn: a caregiver admits that protective control caused harm instead of only comforting the victim",
+    "exit_hook": "can transformation begin as permission rather than self-hatred?"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, capability, or relational obligation?",
+    "Is the object/space doing narrative work rather than decorative worldbuilding?",
+    "Is public or institutional pressure expressed through visible behavior rather than exposition?",
+    "Does the protagonist retain agency instead of being rescued into passivity?"
+  ]
+}

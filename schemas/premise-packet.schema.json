@@ -235,6 +235,14 @@
           "type": "string"
         }
       }
+    },
+    "survival_engine": {
+      "type": "object",
+      "description": "Compressed survival machinery: occupation, vehicle/station, predator, innocent animal, creature ally, rescue inversion."
+    },
+    "transformation_engine": {
+      "type": "object",
+      "description": "Transformation-romance machinery: protection wound, pre-transformation witness, reciprocal memory, behavioral cost, second performance engine, consent violation, public-space reversal."
     }
   }
 }
