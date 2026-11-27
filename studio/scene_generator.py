@@ -12,6 +12,7 @@ from pathlib import Path
 from typing import Any
 
 from .creature_dialogue import creature_dialogue_materials
+from .survival_scene import compressed_survival_scene_materials
 
 POWER_START = [
     "socially exposed and institutionally powerless",
@@ -176,18 +177,35 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
             (f"neighbors carry shared {resource} into the transformed {system} space", f"{creature} crosses the home threshold freely while {final_public_proof}"),
         ]
         first_image_override, final_image_override = creature_visuals[index - 1]
+    if premise.get("channel_contract") == "compressed_creature_survival":
+        survival_materials = compressed_survival_scene_materials(premise, index)
+        key_lines = survival_materials["key_lines"]
+        spoken_exchange = survival_materials["spoken_exchange"]
+        scene_rhythm = survival_materials["scene_rhythm"]
+        rewrite_directives = survival_materials["rewrite_directives"]
+        opposition_beats = survival_materials["opposition_beats"]
+        sound_override = survival_materials["sound_override"]
+        first_image_override = survival_materials["first_image"]
+        final_image_override = survival_materials["final_image"]
     first_image = first_image_override or visual
     final_image = final_image_override or f"{object_name} visible after the power shift, its meaning altered by: {clue}"
+    power_start = POWER_START[index - 1]
+    power_end = POWER_END[index - 1]
+    subtext = SUBTEXT[index - 1]
+    if premise.get("channel_contract") == "compressed_creature_survival":
+        power_start = survival_materials["power_start"]
+        power_end = survival_materials["power_end"]
+        subtext = survival_materials["subtext"]
     return {
         "scene_id": f"S{index:02d}",
         "time_range": sequence.get("time_range", "0-0 minutes"),
         "objective": function,
         "conflict": turn,
-        "power_position_start": POWER_START[index - 1],
-        "power_position_end": POWER_END[index - 1],
+        "power_position_start": power_start,
+        "power_position_end": power_end,
         "turn": turn,
         "protagonist_decision": sequence.get("protagonist_choice", "act despite social cost"),
-        "subtext": SUBTEXT[index - 1],
+        "subtext": subtext,
         "visual_action": {
             "first_image": first_image,
             "face_reaction": f"the protagonist's expression shifts from {emotional_shift.split(' to ')[0]} toward controlled attention when the turn lands",

@@ -1,0 +1,253 @@
+{
+  "scene_id": "S02",
+  "duration_seconds": 108.0,
+  "coverage": "continuous_exact_format_director_seed",
+  "shots": [
+    {
+      "shot_id": "S02_DS001",
+      "timecode": "0.00-11.21",
+      "duration_seconds": 11.21,
+      "scene_id": "S02",
+      "shot_size": "wide establishing",
+      "camera_intent": "slow push",
+      "visual_action": "a tunnel-sized centipede with a black glass shell fills the frame behind or above the small protagonist and animal",
+      "dialogue": "",
+      "sound_design": "held silence before each predator reaction makes its sensory rule readable",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: open on the scene image"
+    },
+    {
+      "shot_id": "S02_DS002",
+      "timecode": "11.21-17.94",
+      "duration_seconds": 6.73,
+      "scene_id": "S02",
+      "shot_size": "intimate closeup",
+      "camera_intent": "settle",
+      "visual_action": "the protagonist's expression shifts from shock toward controlled attention when the turn lands",
+      "dialogue": "",
+      "sound_design": "breath/room tone",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+    },
+    {
+      "shot_id": "S02_DS003",
+      "timecode": "17.94-26.81",
+      "duration_seconds": 8.88,
+      "scene_id": "S02",
+      "shot_size": "action wide",
+      "camera_intent": "lateral track",
+      "visual_action": "predator reveal and terrain-rule establishment",
+      "dialogue": "",
+      "sound_design": "environmental action foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
+    },
+    {
+      "shot_id": "S02_DS004",
+      "timecode": "26.81-37.28",
+      "duration_seconds": 10.46,
+      "scene_id": "S02",
+      "shot_size": "power two-shot",
+      "camera_intent": "slow tightening",
+      "visual_action": "a tunnel-sized centipede with a black glass shell appears in scale relation to the protagonist and turns the disaster site into hunted terrain",
+      "dialogue": "",
+      "sound_design": "dialogue is sparse and practical; breath, creature texture, machinery, weather, footsteps, and animal vocalization carry most narrative information",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+    },
+    {
+      "shot_id": "S02_DS005",
+      "timecode": "37.28-43.07",
+      "duration_seconds": 5.79,
+      "scene_id": "S02",
+      "shot_size": "pressure insert",
+      "camera_intent": "macro",
+      "visual_action": "a tunnel-sized centipede with a black glass shell appears in scale relation to the protagonist and turns the disaster site into hunted terrain; alternate coverage: pressure-detail coverage: hands, objects, crowd position, or institutional obstruction carries the conflict",
+      "dialogue": "",
+      "sound_design": "object/room texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: insert pressure detail"
+    },
+    {
+      "shot_id": "S02_DS006",
+      "timecode": "43.07-50.36",
+      "duration_seconds": 7.29,
+      "scene_id": "S02",
+      "shot_size": "vertical composition",
+      "camera_intent": "high or low angle",
+      "visual_action": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+      "dialogue": "",
+      "sound_design": "negative space",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
+    },
+    {
+      "shot_id": "S02_DS007",
+      "timecode": "50.36-60.17",
+      "duration_seconds": 9.81,
+      "scene_id": "S02",
+      "shot_size": "subtext two-shot",
+      "camera_intent": "slow lateral drift",
+      "visual_action": "Survival knowledge comes from watching the threat instead of dominating it.",
+      "dialogue": "",
+      "sound_design": "predator scraping, stepping, clicking, shell/armor movement, low air pressure, and close breathing",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+    },
+    {
+      "shot_id": "S02_DS008",
+      "timecode": "60.17-67.83",
+      "duration_seconds": 7.66,
+      "scene_id": "S02",
+      "shot_size": "decision closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "run, hide, or protect the vulnerable animal while learning how the predator tracks movement/sound/light",
+      "dialogue": "",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+    },
+    {
+      "shot_id": "S02_DS009",
+      "timecode": "67.83-80.35",
+      "duration_seconds": 12.52,
+      "scene_id": "S02",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "a tunnel-sized centipede with a black glass shell appears in scale relation to the protagonist and turns the disaster site into hunted terrain",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+    },
+    {
+      "shot_id": "S02_DS010",
+      "timecode": "80.35-88.94",
+      "duration_seconds": 8.6,
+      "scene_id": "S02",
+      "shot_size": "consequence wide",
+      "camera_intent": "backward track",
+      "visual_action": "visible consequence of run, hide, or protect the vulnerable animal while learning how the predator tracks movement/sound/light",
+      "dialogue": "",
+      "sound_design": "consequence foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
+    },
+    {
+      "shot_id": "S02_DS011",
+      "timecode": "88.94-94.36",
+      "duration_seconds": 5.42,
+      "scene_id": "S02",
+      "shot_size": "sensory bridge",
+      "camera_intent": "insert or detail",
+      "visual_action": "Ilsa freezes or hides as the predator repeats the sensory behavior she must later exploit; alternate coverage: object-detail coverage before or after the wider relational-resolution framing",
+      "dialogue": "",
+      "sound_design": "object/motif texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition"
+    },
+    {
+      "shot_id": "S02_DS012",
+      "timecode": "94.36-108.00",
+      "duration_seconds": 13.64,
+      "scene_id": "S02",
+      "shot_size": "final image",
+      "camera_intent": "slow pull-back",
+      "visual_action": "Ilsa freezes or hides as the predator repeats the sensory behavior she must later exploit",
+      "dialogue": "",
+      "sound_design": "cracked red brake-light lens clicks/scrapes, predator texture, small animal vocalization, and mechanical air/light rhythm unresolved",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power"
+    }
+  ],
+  "validation_rules": [
+    "seed must be manually/directorially refined before production",
+    "no gaps or overlaps",
+    "sound and power transitions must remain explicit",
+    "shot pacing must remain intentionally varied"
+  ]
+}

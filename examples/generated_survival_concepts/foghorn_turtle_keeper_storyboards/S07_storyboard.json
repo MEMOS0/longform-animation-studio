@@ -1,0 +1,253 @@
+{
+  "scene_id": "S07",
+  "duration_seconds": 150.0,
+  "coverage": "continuous_exact_format_director_seed",
+  "shots": [
+    {
+      "shot_id": "S07_DS001",
+      "timecode": "0.00-15.57",
+      "duration_seconds": 15.57,
+      "scene_id": "S07",
+      "shot_size": "wide establishing",
+      "camera_intent": "slow push",
+      "visual_action": "Noor lures a barnacle-armored giant crab that hunts through tidal channels into the vehicle/station geometry as light, smoke, sparks, water, or sound transforms the space",
+      "dialogue": "",
+      "sound_design": "the loudest spectacle pauses around the exact release decision so causality is readable",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: open on the scene image"
+    },
+    {
+      "shot_id": "S07_DS002",
+      "timecode": "15.57-24.91",
+      "duration_seconds": 9.34,
+      "scene_id": "S07",
+      "shot_size": "intimate closeup",
+      "camera_intent": "settle",
+      "visual_action": "the protagonist's expression shifts from controlled fear toward controlled attention when the turn lands",
+      "dialogue": "",
+      "sound_design": "breath/room tone",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+    },
+    {
+      "shot_id": "S07_DS003",
+      "timecode": "24.91-37.24",
+      "duration_seconds": 12.33,
+      "scene_id": "S07",
+      "shot_size": "action wide",
+      "camera_intent": "lateral track",
+      "visual_action": "lure, trap, and spatial climax",
+      "dialogue": "",
+      "sound_design": "environmental action foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
+    },
+    {
+      "shot_id": "S07_DS004",
+      "timecode": "37.24-51.77",
+      "duration_seconds": 14.53,
+      "scene_id": "S07",
+      "shot_size": "power two-shot",
+      "camera_intent": "slow tightening",
+      "visual_action": "the protagonist lures a barnacle-armored giant crab that hunts through tidal channels into the stranded ferry hull and the lighthouse foghorn/lens mechanism or its mechanism and pays a bodily cost to keep the plan aligned",
+      "dialogue": "",
+      "sound_design": "dialogue is sparse and practical; breath, creature texture, machinery, weather, footsteps, and animal vocalization carry most narrative information",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+    },
+    {
+      "shot_id": "S07_DS005",
+      "timecode": "51.77-59.82",
+      "duration_seconds": 8.04,
+      "scene_id": "S07",
+      "shot_size": "pressure insert",
+      "camera_intent": "macro",
+      "visual_action": "the protagonist lures a barnacle-armored giant crab that hunts through tidal channels into the stranded ferry hull and the lighthouse foghorn/lens mechanism or its mechanism and pays a bodily cost to keep the plan aligned; alternate coverage: pressure-detail coverage: hands, objects, crowd position, or institutional obstruction carries the conflict",
+      "dialogue": "",
+      "sound_design": "object/room texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: insert pressure detail"
+    },
+    {
+      "shot_id": "S07_DS006",
+      "timecode": "59.82-69.94",
+      "duration_seconds": 10.12,
+      "scene_id": "S07",
+      "shot_size": "vertical composition",
+      "camera_intent": "high or low angle",
+      "visual_action": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+      "dialogue": "",
+      "sound_design": "negative space",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
+    },
+    {
+      "shot_id": "S07_DS007",
+      "timecode": "69.94-83.56",
+      "duration_seconds": 13.62,
+      "scene_id": "S07",
+      "shot_size": "subtext two-shot",
+      "camera_intent": "slow lateral drift",
+      "visual_action": "Learned restraint can defeat force when the predator's rule is understood.",
+      "dialogue": "",
+      "sound_design": "creature mass, machine crescendo, alarm/light hum, impact debris, breath, then one decisive mechanical click or silence",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+    },
+    {
+      "shot_id": "S07_DS008",
+      "timecode": "83.56-94.20",
+      "duration_seconds": 10.64,
+      "scene_id": "S07",
+      "shot_size": "decision closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "remain exposed long enough for the trap/rescue mechanism to fire rather than abandoning the captives",
+      "dialogue": "",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+    },
+    {
+      "shot_id": "S07_DS009",
+      "timecode": "94.20-111.59",
+      "duration_seconds": 17.39,
+      "scene_id": "S07",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "the protagonist lures a barnacle-armored giant crab that hunts through tidal channels into the stranded ferry hull and the lighthouse foghorn/lens mechanism or its mechanism and pays a bodily cost to keep the plan aligned",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+    },
+    {
+      "shot_id": "S07_DS010",
+      "timecode": "111.59-123.53",
+      "duration_seconds": 11.94,
+      "scene_id": "S07",
+      "shot_size": "consequence wide",
+      "camera_intent": "backward track",
+      "visual_action": "visible consequence of remain exposed long enough for the trap/rescue mechanism to fire rather than abandoning the captives",
+      "dialogue": "",
+      "sound_design": "consequence foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
+    },
+    {
+      "shot_id": "S07_DS011",
+      "timecode": "123.53-131.06",
+      "duration_seconds": 7.53,
+      "scene_id": "S07",
+      "shot_size": "sensory bridge",
+      "camera_intent": "insert or detail",
+      "visual_action": "Noor holds the control position while an ancient leatherback turtle carrying moss and shell scars and the captives move through the opened path; alternate coverage: object-detail coverage before or after the wider relational-resolution framing",
+      "dialogue": "",
+      "sound_design": "object/motif texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition"
+    },
+    {
+      "shot_id": "S07_DS012",
+      "timecode": "131.06-150.00",
+      "duration_seconds": 18.94,
+      "scene_id": "S07",
+      "shot_size": "final image",
+      "camera_intent": "slow pull-back",
+      "visual_action": "Noor holds the control position while an ancient leatherback turtle carrying moss and shell scars and the captives move through the opened path",
+      "dialogue": "",
+      "sound_design": "bent brass foghorn valve key clicks/scrapes, predator texture, small animal vocalization, and mechanical air/light rhythm unresolved",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power"
+    }
+  ],
+  "validation_rules": [
+    "seed must be manually/directorially refined before production",
+    "no gaps or overlaps",
+    "sound and power transitions must remain explicit",
+    "shot pacing must remain intentionally varied"
+  ]
+}

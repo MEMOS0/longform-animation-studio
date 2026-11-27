@@ -1,0 +1,101 @@
+{
+  "scene_id": "S08",
+  "time_range": "15.8-18 minutes",
+  "objective": "reciprocal rescue, recognition, and chosen survival closure",
+  "conflict": "captives are freed, an ancient leatherback turtle carrying moss and shell scars receives contact or freedom rather than ownership, and the dead lighthouse transformed into a sounding beacon guiding survivors and sea creatures home; the turtle returns to open water with the seabird chick safe on its mossy shell",
+  "power_position_start": "survivor with unresolved guilt",
+  "power_position_end": "recognized protector inside chosen survival community",
+  "turn": "captives are freed, an ancient leatherback turtle carrying moss and shell scars receives contact or freedom rather than ownership, and the dead lighthouse transformed into a sounding beacon guiding survivors and sea creatures home; the turtle returns to open water with the seabird chick safe on its mossy shell",
+  "protagonist_decision": "accept help, apology, and shared survival without turning the creature ally into a possession",
+  "subtext": "Survival becomes belonging only when recognition and reciprocal rescue land.",
+  "visual_action": {
+    "first_image": "freed survivors emerge through the opened threshold into environmental air",
+    "face_reaction": "the protagonist's expression shifts from survival relief toward controlled attention when the turn lands",
+    "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+    "final_image": "an ancient leatherback turtle carrying moss and shell scars leaves or chooses contact freely while bent brass foghorn valve key remains visible in the transformed rescue shelter"
+  },
+  "dialogue_design": {
+    "function": "make choices, objections, and proof implications audible rather than explaining theme",
+    "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "I was wrong about them.",
+      "They saved us. We take everyone home."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "disaster terrain",
+        "dramatic_job": "survival relief could end the story before the relational wound is repaired",
+        "writing_note": "pressure is spatial, sensory, mechanical, or creature behavior rather than villain exposition"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "an ancient leatherback turtle carrying moss and shell scars",
+        "dramatic_job": "the rescued group may still treat the animal/creature as expendable unless behavior changes",
+        "writing_note": "the objection is embodied by vulnerability, hesitation, warning, or creature behavior"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "Noor",
+        "dramatic_job": "Noor chooses contact, release, and shared survival rather than ownership or revenge",
+        "writing_note": "the decision must be visible through action before any sparse dialogue validates it"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "bent brass foghorn valve key",
+        "dramatic_job": "bent brass foghorn valve key remains visible in the transformed rescue shelter as proof of competence and care",
+        "writing_note": "end with changed access, proof, injury, creature response, or a plan component rather than explanation"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "witness_objection",
+        "speaker": "doubtful survivor",
+        "line": "I was wrong about them.",
+        "action": "the survivor looks from the rescued animal to the freed creature ally",
+        "subtext": "the apology admits misreading vulnerable life",
+        "power_move": "practical survival pressure answered through protection, restraint, rescue, or recognition",
+        "listening_response": "the next action answers the immediate bodily danger rather than explaining theme",
+        "delivery": "quiet, ashamed",
+        "status_shift": "the speaker converts fear or doubt into a concrete survival obligation",
+        "room_sound": "breath, debris, creature texture, machinery, weather, and animal vocalization remain present beneath the sparse line"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Noor",
+        "line": "They saved us. We take everyone home.",
+        "action": "Noor opens the final path instead of claiming the creature ally",
+        "subtext": "recognition becomes shared rescue rather than possession",
+        "power_move": "practical survival pressure answered through protection, restraint, rescue, or recognition",
+        "listening_response": "the next action answers the immediate bodily danger rather than explaining theme",
+        "delivery": "steady, warm",
+        "status_shift": "the speaker converts fear or doubt into a concrete survival obligation",
+        "room_sound": "breath, debris, creature texture, machinery, weather, and animal vocalization remain present beneath the sparse line"
+      }
+    ],
+    "scene_rhythm": "visual objective first; sparse dialogue only validates choices after action, creature behavior, or mechanical proof has already made them legible",
+    "rewrite_directives": [
+      "write objectives that remain understandable with sound off",
+      "use creature behavior, terrain, tools, animal reaction, and occupational action instead of exposition",
+      "allow breath, silence, machinery, and small animal sound to carry emotion before score",
+      "keep any spoken line short, practical, and subordinate to the visual decision"
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "dialogue is sparse and practical; breath, creature texture, machinery, weather, footsteps, and animal vocalization carry most narrative information",
+    "music_function": "machine noise falls away into breath, environmental air, creature contact, freed movement, and sparse validation dialogue",
+    "silence_or_negative_space": "the ending resolves because contact and return are visible, not because score declares triumph",
+    "motif": "bent brass foghorn valve key clicks/scrapes, predator texture, small animal vocalization, and mechanical air/light rhythm"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on the immediate consequence of the previous turn: survivors repair their earlier dismissal of the animal or creature through behavior before dialogue",
+    "exit_hook": "the ending answers the opening guilt through rescue, recognition, and free return rather than sequel spectacle"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, capability, or relational obligation?",
+    "Is the object/space doing narrative work rather than decorative worldbuilding?",
+    "Is public or institutional pressure expressed through visible behavior rather than exposition?",
+    "Does the protagonist retain agency instead of being rescued into passivity?"
+  ]
+}

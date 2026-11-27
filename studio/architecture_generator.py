@@ -11,6 +11,8 @@ import re
 from pathlib import Path
 from typing import Any
 
+from .survival_architecture import apply_compressed_survival_architecture
+
 FRACTIONS = [0.0, 0.10, 0.20, 0.32, 0.45, 0.58, 0.74, 0.88, 1.0]
 
 
@@ -209,6 +211,8 @@ def generate_architecture(premise: dict[str, Any]) -> dict[str, Any]:
             "visual": f"{payoff_space}; {return_home}; neighbors visibly share or rebuild access to {resource}",
             "hook": "the ending repays the opening economic wound spatially and relationally rather than teasing ownership",
         })
+    if premise.get("channel_contract") == "compressed_creature_survival":
+        apply_compressed_survival_architecture(beats, premise)
 
     sequences = []
     for index, beat in enumerate(beats):

@@ -1,0 +1,88 @@
+{
+  "scene_id": "S03",
+  "time_range": "3.6-5.8 minutes",
+  "objective": "creature ecology and moral differentiation",
+  "conflict": "a dust-blue giant moth whose wings react to light enters the ecosystem and proves that not every giant creature is the same kind of threat",
+  "power_position_start": "terrified of every giant creature",
+  "power_position_end": "cautious participant in a creature alliance",
+  "turn": "a dust-blue giant moth whose wings react to light enters the ecosystem and proves that not every giant creature is the same kind of threat",
+  "protagonist_decision": "risk stillness, gentleness, or contact rather than treating every creature as a monster",
+  "subtext": "Not every powerful creature carries the same moral meaning.",
+  "visual_action": {
+    "first_image": "a dust-blue giant moth whose wings react to light emerges at giant scale but injured, hesitant, or reactive rather than simply attacking",
+    "face_reaction": "the protagonist's expression shifts from terror toward controlled attention when the turn lands",
+    "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+    "final_image": "Ilsa's open hand or light touches the creature's boundary without capturing it"
+  },
+  "dialogue_design": {
+    "function": "make choices, objections, and proof implications audible rather than explaining theme",
+    "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "Easy. I won't hurt you."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "disaster terrain",
+        "dramatic_job": "a dust-blue giant moth whose wings react to light is large enough to be misread as another monster",
+        "writing_note": "pressure is spatial, sensory, mechanical, or creature behavior rather than villain exposition"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "a dust-blue giant moth whose wings react to light",
+        "dramatic_job": "killing or fleeing every creature would destroy the first possible ally",
+        "writing_note": "the objection is embodied by vulnerability, hesitation, warning, or creature behavior"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "Ilsa",
+        "dramatic_job": "Ilsa risks stillness and gentle contact before expecting help",
+        "writing_note": "the decision must be visible through action before any sparse dialogue validates it"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "cracked red brake-light lens",
+        "dramatic_job": "a dust-blue giant moth whose wings react to light responds to light/wound/texture/behavior connected to cracked red brake-light lens",
+        "writing_note": "end with changed access, proof, injury, creature response, or a plan component rather than explanation"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Ilsa",
+        "line": "Easy. I won't hurt you.",
+        "action": "Ilsa lowers her hand and light rather than reaching for a weapon",
+        "subtext": "restraint is the first proof of safety",
+        "power_move": "practical survival pressure answered through protection, restraint, rescue, or recognition",
+        "listening_response": "the next action answers the immediate bodily danger rather than explaining theme",
+        "delivery": "quiet, careful",
+        "status_shift": "the speaker converts fear or doubt into a concrete survival obligation",
+        "room_sound": "breath, debris, creature texture, machinery, weather, and animal vocalization remain present beneath the sparse line"
+      }
+    ],
+    "scene_rhythm": "visual objective first; sparse dialogue only validates choices after action, creature behavior, or mechanical proof has already made them legible",
+    "rewrite_directives": [
+      "write objectives that remain understandable with sound off",
+      "use creature behavior, terrain, tools, animal reaction, and occupational action instead of exposition",
+      "allow breath, silence, machinery, and small animal sound to carry emotion before score",
+      "keep any spoken line short, practical, and subordinate to the visual decision"
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "dialogue is sparse and practical; breath, creature texture, machinery, weather, footsteps, and animal vocalization carry most narrative information",
+    "music_function": "hostile creature texture softens into wing/skin/shell movement, exhausted breath, and environmental tone",
+    "silence_or_negative_space": "the alliance forms in shared breathing and reduced movement rather than dialogue",
+    "motif": "cracked red brake-light lens clicks/scrapes, predator texture, small animal vocalization, and mechanical air/light rhythm"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on the immediate consequence of the previous turn: the first fragile trust forms with a dust-blue giant moth whose wings react to light through nonverbal behavior",
+    "exit_hook": "is the strange creature a threat, a victim, or the first ally?"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, capability, or relational obligation?",
+    "Is the object/space doing narrative work rather than decorative worldbuilding?",
+    "Is public or institutional pressure expressed through visible behavior rather than exposition?",
+    "Does the protagonist retain agency instead of being rescued into passivity?"
+  ]
+}

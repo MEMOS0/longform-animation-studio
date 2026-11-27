@@ -703,5 +703,47 @@
       "thumbnail_intelligence/reference_library/spark_shorts/spark_top_montage.jpg",
       "knowledge/market/spark-low-counterexample-tides-abyss.md"
     ]
+  },
+  "compressed_creature_survival": {
+    "reference_channels": [
+      "Neural Pictures"
+    ],
+    "positive_signals": [
+      "crash",
+      "survive",
+      "rescue",
+      "creature",
+      "animal",
+      "predator",
+      "occupation",
+      "professional",
+      "vehicle",
+      "station",
+      "trap",
+      "escape",
+      "protects",
+      "giant"
+    ],
+    "opening_rules": [
+      "state role/creature/location visually and pay disaster or threat within two minutes",
+      "keep objectives legible with sound off",
+      "make occupational competence part of survival rather than costume",
+      "differentiate predator creatures from innocent or cooperative creatures",
+      "use a quiet animal-care hinge after the first spectacle"
+    ],
+    "risk_patterns": [
+      "monster spectacle without emotional differentiation",
+      "escape-only ending that abandons animal/creature relationships",
+      "continuous noise with no quiet care hinge",
+      "professional identity used only as costume"
+    ],
+    "thumbnail_rules": [
+      "one ordinary professional silhouette against one oversized creature threat",
+      "vehicle/station/location object must be readable at mobile size",
+      "avoid multi-threat collage and lore symbols"
+    ],
+    "evidence": [
+      "knowledge/market/neural-pictures-compressed-creature-survival-deep-dive.md"
+    ]
   }
 }

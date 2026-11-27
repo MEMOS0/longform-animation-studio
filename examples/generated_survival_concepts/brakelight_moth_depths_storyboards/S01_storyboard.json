@@ -1,0 +1,253 @@
+{
+  "scene_id": "S01",
+  "duration_seconds": 108.0,
+  "coverage": "continuous_exact_format_director_seed",
+  "shots": [
+    {
+      "shot_id": "S01_DS001",
+      "timecode": "0.00-11.21",
+      "duration_seconds": 11.21,
+      "scene_id": "S01",
+      "shot_size": "wide establishing",
+      "camera_intent": "slow push",
+      "visual_action": "the role/vehicle/location contract reads instantly: the wrecked inspection train and its working brake-light/horn system breaking apart under the disaster",
+      "dialogue": "",
+      "sound_design": "brief silence after impacts lets the audience locate bodies, animal sound, and the first object glint",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: open on the scene image"
+    },
+    {
+      "shot_id": "S01_DS002",
+      "timecode": "11.21-17.94",
+      "duration_seconds": 6.73,
+      "scene_id": "S01",
+      "shot_size": "intimate closeup",
+      "camera_intent": "settle",
+      "visual_action": "the protagonist's expression shifts from routine control toward controlled attention when the turn lands",
+      "dialogue": "",
+      "sound_design": "breath/room tone",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+    },
+    {
+      "shot_id": "S01_DS003",
+      "timecode": "17.94-26.81",
+      "duration_seconds": 8.88,
+      "scene_id": "S01",
+      "shot_size": "action wide",
+      "camera_intent": "lateral track",
+      "visual_action": "role contract, disaster, and immediate survival stakes",
+      "dialogue": "",
+      "sound_design": "environmental action foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
+    },
+    {
+      "shot_id": "S01_DS004",
+      "timecode": "26.81-37.28",
+      "duration_seconds": 10.46,
+      "scene_id": "S01",
+      "shot_size": "power two-shot",
+      "camera_intent": "slow tightening",
+      "visual_action": "Ilsa is thrown from the cab as the inspection train derails inside the tunnel mouth",
+      "dialogue": "Stay behind me.",
+      "sound_design": "dialogue is sparse and practical; breath, creature texture, machinery, weather, footsteps, and animal vocalization carry most narrative information",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+    },
+    {
+      "shot_id": "S01_DS005",
+      "timecode": "37.28-43.07",
+      "duration_seconds": 5.79,
+      "scene_id": "S01",
+      "shot_size": "pressure insert",
+      "camera_intent": "macro",
+      "visual_action": "Ilsa is thrown from the cab as the inspection train derails inside the tunnel mouth; alternate coverage: pressure-detail coverage: hands, objects, crowd position, or institutional obstruction carries the conflict",
+      "dialogue": "",
+      "sound_design": "object/room texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: insert pressure detail"
+    },
+    {
+      "shot_id": "S01_DS006",
+      "timecode": "43.07-50.36",
+      "duration_seconds": 7.29,
+      "scene_id": "S01",
+      "shot_size": "vertical composition",
+      "camera_intent": "high or low angle",
+      "visual_action": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+      "dialogue": "",
+      "sound_design": "negative space",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
+    },
+    {
+      "shot_id": "S01_DS007",
+      "timecode": "50.36-60.17",
+      "duration_seconds": 9.81,
+      "scene_id": "S01",
+      "shot_size": "subtext two-shot",
+      "camera_intent": "slow lateral drift",
+      "visual_action": "Care means reaching vulnerable life before answers are available.",
+      "dialogue": "",
+      "sound_design": "impact metal, debris, wind/water, alarm remnants, breath, and small animal distress; no musical explanation",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+    },
+    {
+      "shot_id": "S01_DS008",
+      "timecode": "60.17-67.83",
+      "duration_seconds": 7.66,
+      "scene_id": "S01",
+      "shot_size": "decision closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "Ilsa steps between the survivor and the shifting wreck",
+      "dialogue": "Stay behind me.",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible; subtext: protection becomes responsibility before understanding"
+    },
+    {
+      "shot_id": "S01_DS009",
+      "timecode": "67.83-80.35",
+      "duration_seconds": 12.52,
+      "scene_id": "S01",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "Ilsa is thrown from the cab as the inspection train derails inside the tunnel mouth",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+    },
+    {
+      "shot_id": "S01_DS010",
+      "timecode": "80.35-88.94",
+      "duration_seconds": 8.6,
+      "scene_id": "S01",
+      "shot_size": "consequence wide",
+      "camera_intent": "backward track",
+      "visual_action": "visible consequence of save whoever can still be reached before understanding what caused the disaster",
+      "dialogue": "",
+      "sound_design": "consequence foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
+    },
+    {
+      "shot_id": "S01_DS011",
+      "timecode": "88.94-94.36",
+      "duration_seconds": 5.42,
+      "scene_id": "S01",
+      "shot_size": "sensory bridge",
+      "camera_intent": "insert or detail",
+      "visual_action": "Ilsa reaches a trapped railway pigeon with a red leg band while cracked red brake-light lens catches a first meaningful glint in the wreckage; alternate coverage: object-detail coverage before or after the wider relational-resolution framing",
+      "dialogue": "",
+      "sound_design": "object/motif texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition"
+    },
+    {
+      "shot_id": "S01_DS012",
+      "timecode": "94.36-108.00",
+      "duration_seconds": 13.64,
+      "scene_id": "S01",
+      "shot_size": "final image",
+      "camera_intent": "slow pull-back",
+      "visual_action": "Ilsa reaches a trapped railway pigeon with a red leg band while cracked red brake-light lens catches a first meaningful glint in the wreckage",
+      "dialogue": "What hit us?",
+      "sound_design": "cracked red brake-light lens clicks/scrapes, predator texture, small animal vocalization, and mechanical air/light rhythm unresolved",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power; subtext: fear needs orientation before courage"
+    }
+  ],
+  "validation_rules": [
+    "seed must be manually/directorially refined before production",
+    "no gaps or overlaps",
+    "sound and power transitions must remain explicit",
+    "shot pacing must remain intentionally varied"
+  ]
+}

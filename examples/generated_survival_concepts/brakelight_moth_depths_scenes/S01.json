@@ -1,0 +1,101 @@
+{
+  "scene_id": "S01",
+  "time_range": "0-1.8 minutes",
+  "objective": "role contract, disaster, and immediate survival stakes",
+  "conflict": "Ilsa is thrown from the cab as the inspection train derails inside the tunnel mouth",
+  "power_position_start": "controlled professional routine",
+  "power_position_end": "injured survivor with protective duty",
+  "turn": "Ilsa is thrown from the cab as the inspection train derails inside the tunnel mouth",
+  "protagonist_decision": "save whoever can still be reached before understanding what caused the disaster",
+  "subtext": "Care means reaching vulnerable life before answers are available.",
+  "visual_action": {
+    "first_image": "the role/vehicle/location contract reads instantly: the wrecked inspection train and its working brake-light/horn system breaking apart under the disaster",
+    "face_reaction": "the protagonist's expression shifts from routine control toward controlled attention when the turn lands",
+    "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+    "final_image": "Ilsa reaches a trapped railway pigeon with a red leg band while cracked red brake-light lens catches a first meaningful glint in the wreckage"
+  },
+  "dialogue_design": {
+    "function": "make choices, objections, and proof implications audible rather than explaining theme",
+    "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "Stay behind me.",
+      "What hit us?"
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "disaster terrain",
+        "dramatic_job": "the wreck keeps shifting while injured people and animals remain exposed",
+        "writing_note": "pressure is spatial, sensory, mechanical, or creature behavior rather than villain exposition"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "a trapped railway pigeon with a red leg band",
+        "dramatic_job": "escaping the visible danger may mean abandoning survivors who cannot move",
+        "writing_note": "the objection is embodied by vulnerability, hesitation, warning, or creature behavior"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "Ilsa",
+        "dramatic_job": "Ilsa chooses immediate reach/protection before understanding the whole threat",
+        "writing_note": "the decision must be visible through action before any sparse dialogue validates it"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "cracked red brake-light lens",
+        "dramatic_job": "cracked red brake-light lens and a trapped railway pigeon with a red leg band become established as functional survival signs rather than decoration",
+        "writing_note": "end with changed access, proof, injury, creature response, or a plan component rather than explanation"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "evidence_or_cost",
+        "speaker": "injured survivor",
+        "line": "What hit us?",
+        "action": "the survivor looks up through dust and debris",
+        "subtext": "fear needs orientation before courage",
+        "power_move": "practical survival pressure answered through protection, restraint, rescue, or recognition",
+        "listening_response": "the next action answers the immediate bodily danger rather than explaining theme",
+        "delivery": "fractured, breathless",
+        "status_shift": "the speaker converts fear or doubt into a concrete survival obligation",
+        "room_sound": "breath, debris, creature texture, machinery, weather, and animal vocalization remain present beneath the sparse line"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Ilsa",
+        "line": "Stay behind me.",
+        "action": "Ilsa steps between the survivor and the shifting wreck",
+        "subtext": "protection becomes responsibility before understanding",
+        "power_move": "practical survival pressure answered through protection, restraint, rescue, or recognition",
+        "listening_response": "the next action answers the immediate bodily danger rather than explaining theme",
+        "delivery": "low, immediate",
+        "status_shift": "the speaker converts fear or doubt into a concrete survival obligation",
+        "room_sound": "breath, debris, creature texture, machinery, weather, and animal vocalization remain present beneath the sparse line"
+      }
+    ],
+    "scene_rhythm": "visual objective first; sparse dialogue only validates choices after action, creature behavior, or mechanical proof has already made them legible",
+    "rewrite_directives": [
+      "write objectives that remain understandable with sound off",
+      "use creature behavior, terrain, tools, animal reaction, and occupational action instead of exposition",
+      "allow breath, silence, machinery, and small animal sound to carry emotion before score",
+      "keep any spoken line short, practical, and subordinate to the visual decision"
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "dialogue is sparse and practical; breath, creature texture, machinery, weather, footsteps, and animal vocalization carry most narrative information",
+    "music_function": "impact metal, debris, wind/water, alarm remnants, breath, and small animal distress; no musical explanation",
+    "silence_or_negative_space": "brief silence after impacts lets the audience locate bodies, animal sound, and the first object glint",
+    "motif": "cracked red brake-light lens clicks/scrapes, predator texture, small animal vocalization, and mechanical air/light rhythm"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on the immediate consequence of the previous turn: a trapped railway pigeon with a red leg band is introduced as vulnerable life inside the disaster rather than decoration",
+    "exit_hook": "who is still alive inside the wreck, and what outside force caused the disaster?"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, capability, or relational obligation?",
+    "Is the object/space doing narrative work rather than decorative worldbuilding?",
+    "Is public or institutional pressure expressed through visible behavior rather than exposition?",
+    "Does the protagonist retain agency instead of being rescued into passivity?"
+  ]
+}

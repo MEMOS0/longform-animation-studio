@@ -19,6 +19,7 @@ from .spatial_status import evaluate_spatial_status
 from .architecture_generator import generate_architecture
 from .scene_generator import generate_scenes
 from .screenplay_renderer import write_screenplay
+from .survival_premises import COMPRESSED_SURVIVAL_VARIANTS, compressed_survival_premise
 
 CREATURE_ECONOMIC_VARIANTS = [
     {
@@ -300,7 +301,9 @@ def generate_premises(contract: str = "social_test_melodrama", count: int = 3, t
         return [social_craft_premise(v, target_minutes) for v in VARIANTS[:count]]
     if contract == "creature_economic_melodrama":
         return [creature_economic_premise(v, target_minutes) for v in CREATURE_ECONOMIC_VARIANTS[:count]]
-    raise ValueError("currently implemented contracts: social_test_melodrama, creature_economic_melodrama")
+    if contract == "compressed_creature_survival":
+        return [compressed_survival_premise(v, target_minutes) for v in COMPRESSED_SURVIVAL_VARIANTS[:count]]
+    raise ValueError("currently implemented contracts: social_test_melodrama, creature_economic_melodrama, compressed_creature_survival")
 
 
 def evaluate_generated_premise(premise: dict[str, Any], archive_rows: list[dict[str, Any]]) -> dict[str, Any]:

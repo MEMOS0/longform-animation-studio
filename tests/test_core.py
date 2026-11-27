@@ -1024,3 +1024,32 @@ def test_write_screenplay_creates_missing_output_directory(tmp_path):
     result=write_screenplay({'title_candidates':['Test'],'premise_id':'test'},[],target)
     assert result.exists()
     assert 'Annotated Screenplay Draft' in result.read_text(encoding='utf8')
+
+
+def test_visual_causality_recognizes_survival_actions_and_objects():
+    from studio.visual_causality import evaluate_visual_causality
+    scene={'scene_id':'S01','visual_action':{'first_image':'the conductor crawls from the wrecked train as a giant centipede fills the tunnel','final_image':'she frees the trapped pigeon and locks the red lens into the light panel'}}
+    result=evaluate_visual_causality([scene])
+    assert result['scene_scores'][0]['first_action'] is True
+    assert result['scene_scores'][0]['final_action'] is True
+    assert result['scene_scores'][0]['concrete_image'] is True
+
+
+def test_single_sparse_spoken_turn_is_valid_for_visual_first_scene():
+    from studio.dialogue_craft import evaluate_scenes_dialogue
+    scene={'scene_id':'S01','dialogue_design':{'key_lines':[],'opposition_beats':[{'beat':b} for b in ['external_pressure','witness_objection','protagonist_decision','evidence_or_cost']],'spoken_exchange':[{'beat':'protagonist_decision','speaker':'Ilsa','line':'Easy. I won\'t hurt you.','action':'she lowers her hand','subtext':'restraint proves safety'}]}}
+    result=evaluate_scenes_dialogue([scene])
+    assert not result['warnings_by_scene']
+
+
+def test_compressed_survival_integrity_passes_generated_contract():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.compressed_survival_integrity import evaluate_compressed_survival_integrity
+    premise=generate_premises('compressed_creature_survival',1,18)[0]
+    result=evaluate_compressed_survival_integrity(premise,generate_architecture(premise),generate_scenes(premise,generate_architecture(premise)))
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.75
+    assert result['checks']['predator_and_innocent_or_ally_are_differentiated'] is True
+    assert result['checks']['escape_converts_to_reciprocal_rescue'] is True

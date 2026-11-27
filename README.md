@@ -112,10 +112,11 @@ Generate evidence-informed original packages without copying reference plots:
 ```bash
 python -m studio.cli generate-premises --output-dir examples/generated_concepts --count 3 --contract social_test_melodrama --target-minutes 42
 python -m studio.cli generate-premises --output-dir examples/generated_creature_concepts --count 2 --contract creature_economic_melodrama --target-minutes 42
+python -m studio.cli generate-premises --output-dir examples/generated_survival_concepts --count 2 --contract compressed_creature_survival --target-minutes 18
 python -m studio.cli seed-storyboards --scenes examples/generated_creature_concepts/salt_window_garden_scenes --output-dir examples/generated_creature_concepts/salt_window_garden_storyboards
 ```
 
-Generated packages now include an annotated `*_screenplay.md` working draft beside scene JSON. It renders speaker labels, action, parenthetical delivery, sound transitions, final images, subtext, rhythm, and rewrite rules in screenplay-like reading order. Generated storyboards are **director seeds**: schema-valid, continuous, non-uniform scaffolds for further human/agent direction, not final production boards.
+Generated packages now include an annotated `*_screenplay.md` working draft beside scene JSON. The `compressed_creature_survival` contract turns the Neural Pictures evidence into original 12-25 minute visual-first packages: occupational competence, predator/ally moral differentiation, quiet animal care, reciprocal rescue, object/vehicle reuse, sparse dialogue, and a dedicated `compressed_survival_integrity` machine check. It renders speaker labels, action, parenthetical delivery, sound transitions, final images, subtext, rhythm, and rewrite rules in screenplay-like reading order. Generated storyboards are **director seeds**: schema-valid, continuous, non-uniform scaffolds for further human/agent direction, not final production boards.
 
 ## Production prompt export
 
