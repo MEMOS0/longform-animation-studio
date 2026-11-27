@@ -1,3 +1,27 @@
+# Continuation checkpoint — 2026-11-27 20:45 UTC
+
+Active PR: https://github.com/MEMOS0/longform-animation-studio/pull/7
+Branch: `devin/1795803830-jasmine-reborn-school-analysis`
+Latest pushed review-fix commit: `051f5f9232656b42a690cb3f5f20f78367808480`; newest review started automatically, handle findings first if they arrive.
+Tests after latest validator regressions: **400 passed**.
+
+Mythora `5vGUIhUlt0A` state:
+- Full media remains outside repo at `C:/Users/Administrator/evidence_tmp/media_queue/5vGUIhUlt0A.mp4` (165,085,512 bytes, 3,742s, vertical 202x360).
+- Derived evidence/report are being committed in this checkpoint: act metrics, seconds/timeline, contact sheets, minute summaries, key transcript windows, thumbnail index/metadata, channel metadata, fresh scan outputs, and `knowledge/market/mythora-viper-bride-protective-kinship-deep-dive.md`.
+- `audio_16k.wav` was removed before commit.
+- Report is complete but production validator integration is **not done**.
+- Doctrine decision: yes, it adds a novel reusable mechanism beyond maternal-pregnancy sovereignty and generic creature/family doctrines: protective kinship inversion + consent-repaired instrumental marriage + child agency + material domestic governance. Suggested validator name: `protective_kinship_integrity`.
+
+Immediate next steps:
+1. Handle any new PR #7 review findings first.
+2. Implement `studio/protective_kinship_integrity.py`; integrate into `studio/production.py`; add tests. Core checks: false monster reputation grounded in abuse; material child neglect evidence; protective caregiver action; child agency/self-defense training; domestic governance/treasury/accounts competence; family rhetoric tested by material care; procedural authority consequence; instrumental marriage truth confession; material autonomy/keys before intimacy; consent-preserving re-choice; child magical power not treated as property; blood-family exploitation rejected; durable chosen-family domestic closure.
+3. Update `.devin/skills/longform-animation-studio/SKILL.md`, `knowledge/thumbnails/thumbnail-intelligence.md`, `knowledge/market/fresh-breakout-priority-queue.md`, and this file. Do not copy literal dragon/viper/Caelan/Sarah/Mila/Liora/healing-flame plot.
+4. Run tests, targeted commit/push (`git add -f` may be needed for ignored raw evidence).
+5. Continue fresh low-subscriber breakout scan/deep dives: CineAI `gw1SsVcha0Y`, Fated `B8bd364FM-8`, CrushLoop `6k_W9eG6mAU`, NEXORA `KcaifB7MhwQ`, Hushfall `4m3u8UMUgDg`; choose based on novelty/low-base cleanliness.
+6. Return later to task 8: generic noncreature dialogue scaffolds still need scene-specific professional writing.
+
+---
+
 # Continuation checkpoint — 2026-11-27 19:48 UTC
 
 Repo: https://github.com/MEMOS0/longform-animation-studio
