@@ -611,3 +611,18 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - Important doctrine candidate: animal-guise intimacy is a consent/trust wound, not cute deception; repair requires truth, no forced stay, restoration of agency/property, accountability for coercive actors, and explicit re-choice.
 - Review round fixed/triaged at `58ccb153`: family validator scope/title evidence/structured finale, blocks-him rejection detection. Tests 153 passed before commit.
 - Next action after context rotation: run media analysis for `Gx7nwqNr9YY`, inspect contact sheets, write report, integrate animal-guise consent validator or extend hidden/creature validators.
+
+## 2026-11-27 MythicTwist animal-guise consent checkpoint
+
+- Completed sampled full-runtime audiovisual analysis of `Gx7nwqNr9YY` (70:13 vertical, 202x360): aligned subtitles, eight contact sheets, selected direct frames, per-second visual metrics, and audio waveform. Evidence committed under `evidence/research/rediscovery_analysis/Gx7nwqNr9YY/`; raw media stays outside repo.
+- Doctrine committed in `knowledge/market/mythictwist-animal-guise-alpha-consent-deep-dive.md`: animal-guise intimacy is a consent/trust wound, not cute deception. Repair requires truth, spatial boundaries, restored material agency/property, no-force exit, accountability for overt coercion, and explicit re-choice (“This time it's my choice”).
+- Implemented `studio/animal_guise_consent.py` and integrated it into `evaluate_project`; after Devin Review fixes it now word-bounds mate detection, locates reveal order, requires care before reveal/re-choice after truth, and requires actual restitution/accountability rather than mentions.
+- Review rounds fixed/triaged: family finale evidence, contact blocking, schema closure fields, animal-guise applicability/order/restitution. Latest tests before next work: 166 passed at commit `acad82b`, then animal-power work pushed as `a003ee4` with 168 passed locally before commit.
+
+## 2026-11-27 WUFO mother-dragon power-inversion checkpoint
+
+- Completed sampled full-runtime audiovisual analysis of `F-RnV2OicIU` (24:32 horizontal WUFO creature fantasy): aligned subtitles, contact sheets, climax/final frame montages, official description, metrics, and waveform. Evidence committed under `evidence/research/rediscovery_analysis/F-RnV2OicIU/`; raw media stays outside repo.
+- Doctrine committed in `knowledge/market/wufo-mother-dragon-power-inversion-deep-dive.md`: material cold/resource monopoly -> abandoned creature care -> power inversion mistaken for defect -> institutional scapegoating/execution spectacle -> protective inversion payoff -> recognition/contact -> communal thaw/consequence.
+- Implemented `studio/creature_power_inversion.py` and integrated it into `evaluate_project`. Key rule: creature powers should invert the dominant institution's symbolic resource; care must cost something before power, and the ending must show recognition plus visible communal/environmental consequence.
+- Final ending is visual-only after aligned subtitles end around 24:10; exact interpretation of the small gray creature/cliff tail is marked as visual inference, not certainty.
+- Next high-priority work: analyze `EUaUwhMAUgE` (Movie Maxx dragon video already downloaded, no subtitle track in metadata), then refresh low-subscriber breakout scan and continue professional dialogue deepening. Handle any new PR #4 review findings immediately.

@@ -24,7 +24,8 @@ Evidence tier: 1. Public Piped/search metadata only. This is a discovery queue, 
 
 ## Immediate next analyses recommended
 
-1. Analyze `F-RnV2OicIU` as a same-channel WUFO comparison before expanding doctrine.
-2. Analyze `EUaUwhMAUgE` because the channel is extremely small and the duration sits in the most production-friendly tier.
-3. Analyze `U_Tecg95FWA` only with enough context/time for full 137-minute audiovisual evidence; do not metadata-cherry-pick.
-4. Analyze `G97N92SR1qQ` to compare hidden-identity romantic comedy/drama against the transformation-romance doctrine.
+Completed since the original scan: `U_Tecg95FWA`, `G97N92SR1qQ`, `Z50wCIqEa2k`, `ylN26llRtmw`, `oHKc_rXrxm8`, `Gx7nwqNr9YY`, and `F-RnV2OicIU`.
+
+1. Analyze `EUaUwhMAUgE` because the channel is extremely small, the duration sits in the production-friendly tier, and no subtitle track was exposed in the metadata; visual/audiovisual evidence must carry the analysis.
+2. Refresh the low-subscriber breakout scan after `EUaUwhMAUgE`; most initial leads are now analyzed.
+3. Use future scans to find non-creature/non-romance counterexamples so doctrine does not overfit to fantasy melodrama.
