@@ -10,11 +10,17 @@ import re
 from typing import Any
 
 
+def _is_checklist_key(key: Any) -> bool:
+    markers = ("anti_pattern", "anti-patterns", "warnings", "validation", "craft_rule", "checklist")
+    return any(marker in str(key).lower() for marker in markers)
+
+
 def _text(value: Any) -> str:
     if isinstance(value, str):
         return value
     if isinstance(value, dict):
-        return "\n".join(_text(v) for v in value.values())
+        checklist_markers = ("anti_pattern", "anti-patterns", "warnings", "validation", "craft_rule", "checklist")
+        return "\n".join(_text(v) for k, v in value.items() if not any(marker in str(k).lower() for marker in checklist_markers))
     if isinstance(value, list):
         return "\n".join(_text(v) for v in value)
     return ""
@@ -70,6 +76,7 @@ def _has_coercive_intimacy(text: str) -> bool:
         r"forced? .*?(?:bed|sex|kiss|intimacy)",
         r"(?:ignores|ignored|ignoring).{0,35}(?:no|refusal|stop)",
         r"(?:said|says|asked|begged).{0,30}(?:no|stop).{0,50}(?:keeps|kept|continues|continued|doesn.?t stop)",
+        r"(?:keeps|kept|continues|continued).{0,30}(?:kissing|touching|undressing).{0,45}after.{0,35}(?:she|he|they).{0,12}(?:says?|said).{0,8}(?:no|stop)",
         r"belong completely to me",
         r"you are mine now",
     ]
@@ -88,7 +95,7 @@ def _artifact_units(premise: dict[str, Any], architecture: dict[str, Any], scene
     if isinstance(sequences, list):
         units.extend(_text(sequence).lower() for sequence in sequences)
         for key, value in architecture.items():
-            if key not in {"sequences", "ending_payoff"}:
+            if key not in {"sequences", "ending_payoff"} and not _is_checklist_key(key):
                 units.append(_text(value).lower())
     elif architecture:
         units.append(_text(architecture).lower())
@@ -147,38 +154,39 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
 
     hook_pattern = r"new mission|top-level mission|return to the team|sequel hook|next mission|ordered to|called away"
     closure_pattern = r"justice|law|court|police|family|reunited|marriage|belonging|instructor|new identity|special agent|peace|home"
-    ending_units: list[str] = []
-    if isinstance(architecture, dict):
-        ending_payoff = architecture.get("ending_payoff")
-        if ending_payoff:
-            ending_units.append(_text(ending_payoff).lower())
-        sequences = architecture.get("sequences")
-        if isinstance(sequences, list) and sequences:
-            ending_units.append(_text(sequences[-1]).lower())
-    if scenes:
-        ending_units.extend(_text(scene).lower() for scene in scenes[-min(2, len(scenes)):])
+    def closure_order(text: str) -> str:
+        hook_match = re.search(hook_pattern, text)
+        closure_match = re.search(closure_pattern, text)
+        if closure_match and hook_match and closure_match.start() < hook_match.start():
+            return "positive"
+        if hook_match and closure_match and hook_match.start() < closure_match.start():
+            return "negative"
+        return "neutral"
 
-    positive_closure = False
-    explicit_hook_before_closure = False
-    ordered_groups = []
+    scene_order = "neutral"
+    if scenes:
+        scene_order = closure_order("\n".join(_text(scene).lower() for scene in scenes))
+
+    architecture_order = "neutral"
+    architecture_units: list[str] = []
     if isinstance(architecture, dict):
-        architecture_units = []
         sequences = architecture.get("sequences")
         if isinstance(sequences, list) and sequences:
             architecture_units.append(_text(sequences[-1]).lower())
         if architecture.get("ending_payoff"):
             architecture_units.append(_text(architecture.get("ending_payoff")).lower())
-        ordered_groups.append("\n".join(architecture_units))
-    if scenes:
-        ordered_groups.append("\n".join(_text(scene).lower() for scene in scenes))
-    for ordered_text in ordered_groups:
-        hook_match = re.search(hook_pattern, ordered_text)
-        closure_match = re.search(closure_pattern, ordered_text)
-        if closure_match and (not hook_match or closure_match.start() < hook_match.start()):
-            positive_closure = True
-        if hook_match and closure_match and hook_match.start() < closure_match.start():
-            explicit_hook_before_closure = True
-    closure_before_hook = positive_closure and not explicit_hook_before_closure
+    architecture_states = [closure_order(unit) for unit in architecture_units]
+    architecture_positive = "positive" in architecture_states
+    architecture_negative = "negative" in architecture_states
+
+    if scene_order == "positive":
+        closure_before_hook = True
+    elif scene_order == "negative":
+        closure_before_hook = False
+    elif architecture_negative:
+        closure_before_hook = False
+    else:
+        closure_before_hook = architecture_positive
 
     checks = {
         "intimate_public_violation": bool(re.search(r"diary|private|read aloud|publicly humiliat|bully|bullied|shame|mock|debt collector|threaten|frame|false accusation", full)),

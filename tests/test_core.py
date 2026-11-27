@@ -2889,3 +2889,28 @@ def test_compressed_wish_details_do_not_mean_tail():
     from studio.compressed_wish_integrity import evaluate_compressed_wish_integrity
     premise={"title":"Family Mystery","logline":"A mother wishes detectives would uncover the details of a realistic family mystery."}
     assert evaluate_compressed_wish_integrity(premise,{},[])['applies'] is False
+
+
+def test_competence_cascade_after_clause_refusal_is_detected():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes.append({"summary":"He keeps kissing her after she says no."})
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['romance_or_intimacy_respects_refusal'] is False
+
+
+def test_competence_cascade_anti_patterns_checklist_not_story_evidence():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['anti_patterns_checked']=['During intimacy she says stop, but he keeps kissing her.']
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['romance_or_intimacy_respects_refusal'] is True
+
+
+def test_competence_cascade_scene_closure_before_teaser_beats_recap_order():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['ending_payoff']={'repair':'Recap: a new mission was teased, after justice and family belonging had already been resolved.'}
+    scenes=[
+      {"summary":"Police close the case and justice restores the family."},
+      {"summary":"Finally command gives her a new mission."},
+    ]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is True
