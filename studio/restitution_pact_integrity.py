@@ -62,7 +62,7 @@ def evaluate_restitution_pact_integrity(premise: dict[str, Any], architecture: d
         sentence_end = min(sentence_ends) if sentence_ends else len(chronology)
         betrayal_sentence = chronology[sentence_start:sentence_end]
         temporal_pact_marker = bool(
-            re.search(r"(?:when|whenever)[^.!?]{0,30}$", prefix)
+            re.search(r"\b(?:when|whenever)\b[^.!?]{0,30}$", prefix)
             and re.search(r"pact|curse|rebound|returns?|restores?", betrayal_sentence)
         )
         if conditional_marker or temporal_pact_marker:
