@@ -2749,3 +2749,15 @@ def test_coerced_rechoice_rejects_broken_nonretaliation_and_family_pressure():
     assert r["applies"] is True
     assert r["checks"]["pressure_is_not_consent_substitute"] is False
     assert r["checks"]["power_is_not_weaponized_after_rejection"] is False
+
+
+def test_coerced_rechoice_rejects_active_pressure_and_late_retaliation():
+    from studio.coerced_rechoice_integrity import evaluate_coerced_rechoice_integrity
+    premise={"title":"Fake Marriage","logline":"An amnesiac heiress enters a fake marriage with a hidden CEO and is pressured by family leverage."}
+    common="She sells skills not her body. Evidence records lawyer police court verification truth. Debt leverage. Trust safety disguise. ordinary work partnership before he knows. Money is not a bribe. coercion anger not erased. documents control choice consent. Tell truth. Ending freely chooses partner, not rescuer."
+    pressured=evaluate_coerced_rechoice_integrity(premise,{"sequences":[{"summary":common+" She is free to refuse, but the board forces her to stay married."}]},[])
+    assert pressured["checks"]["pressure_is_not_consent_substitute"] is False
+    retaliated=evaluate_coerced_rechoice_integrity(premise,{"sequences":[{"summary":common+" He says the deal stands. After rejection he cancels the business contract."}]},[])
+    assert retaliated["checks"]["power_is_not_weaponized_after_rejection"] is False
+    ambiguous=evaluate_coerced_rechoice_integrity(premise,{"sequences":[{"summary":common+" He promises continued support. No one intervenes as he cuts funding."}]},[])
+    assert ambiguous["checks"]["power_is_not_weaponized_after_rejection"] is False

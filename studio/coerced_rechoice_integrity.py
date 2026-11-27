@@ -15,13 +15,17 @@ def _text(value: Any) -> str:
     return ""
 
 
-def _negated_before(text: str, start: int) -> bool:
-    before = text[max(0, start - 120):start]
-    return bool(re.search(r"(?:will not|won.?t|does not|doesn.?t|never|no)\s+(?:\w+\s+){0,4}$", before))
+def _immediate_negation_before(text: str, start: int) -> bool:
+    before = text[max(0, start - 70):start]
+    return bool(re.search(r"(?:will not|won.?t|does not|doesn.?t|do not|don.?t|never)\s+(?:\w+\s+){0,2}$", before))
 
 
-def _unnegated_match(pattern: str, text: str) -> bool:
-    return any(not _negated_before(text, match.start()) for match in re.finditer(pattern, text))
+def _positions(pattern: str, text: str) -> list[int]:
+    return [match.start() for match in re.finditer(pattern, text)]
+
+
+def _unnegated_positions(pattern: str, text: str) -> list[int]:
+    return [match.start() for match in re.finditer(pattern, text) if not _immediate_negation_before(text, match.start())]
 
 
 def evaluate_coerced_rechoice_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
@@ -39,6 +43,34 @@ def evaluate_coerced_rechoice_integrity(premise: dict[str, Any], architecture: d
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
+    pressure_strong_positions = _positions(
+        r"stand(?:s)? with (?:you|her|the victim|the wife|nora)|accept(?:s|ed)? (?:her|your) refusal|respect(?:s|ed)? (?:her|your) refusal|family approval.*not.*consent|mother.*not.*consent|board.*not.*consent|pressure.*not.*consent|choice.*not.*family",
+        full,
+    )
+    pressure_weak_positions = _positions(r"won.?t pressure|don.?t pressure|no one can force|free to refuse", full)
+    pressure_adverse_positions = _unnegated_positions(
+        r"stand(?:s)? with (?:him|the ceo|ceo|the husband)|insist(?:s|ed)?\s+(?:\w+\s+){0,4}stay married|pressure(?:s|d)?\s+(?:\w+\s+){0,4}stay married|(?:force(?:s|d)?|compel(?:s|led)?|coerce(?:s|d)?|blackmail(?:s|ed)?)\s+(?:\w+\s+){0,5}(?:stay married|marry|marriage)",
+        full,
+    )
+    pressure_positive_positions = pressure_strong_positions + pressure_weak_positions
+    pressure_is_bounded = bool(pressure_positive_positions) and (
+        not pressure_adverse_positions
+        or any(position > max(pressure_adverse_positions) for position in pressure_strong_positions)
+    )
+
+    retaliation_positive_positions = _positions(
+        r"doesn.?t owe|not owe|deal stands|no retaliation|won.?t (?:pull|withdraw|weaponize)|will not (?:pull|withdraw|weaponize)|continue(?:s|d)? support|business is business|support.*despite rejection",
+        full,
+    )
+    retaliation_adverse_positions = _unnegated_positions(
+        r"(?:cuts?|pulls?|withdraws?|weaponizes?|cancels?)\s+(?:\w+\s+){0,4}(?:funding|support|technology|consultants|deal|business contract)|after rejection.{0,80}(?:cuts?|pulls?|withdraws?|weaponizes?|cancels?).{0,40}(?:funding|support|technology|consultants|deal|business contract)",
+        full,
+    )
+    power_is_bounded = bool(retaliation_positive_positions) and (
+        not retaliation_adverse_positions
+        or any(position > max(retaliation_adverse_positions) for position in retaliation_positive_positions)
+    )
+
     checks = {
         "coercion_has_concrete_leverage": bool(re.search(r"missing (?:twins|children)|children.*force|in exchange|blackmail|leverage|threat|tuition|debt|custody", full)),
         "disguise_has_survival_or_trauma_function": bool(re.search(r"scar|assault|protect|afraid|test|trust|hide|hiding|survive|safety", full)),
@@ -49,8 +81,8 @@ def evaluate_coerced_rechoice_integrity(premise: dict[str, Any], architecture: d
         "agency_or_control_is_restored": bool(re.search(r"marital assets|control|choice|choose|decide|decision|consent|without consent|sign|contract|documents?", full)),
         "explicit_truth_before_final_choice": bool(re.search(r"tell me the truth|deserve the truth|no more lies|no more hiding|truth", full)),
         "transactional_intimacy_is_bounded": bool(re.search(r"sell.*skills.*not.*body|not.*selling.*body|no sex|sexual boundary|boundar|separate room|professional|consent|not.*owe.*body", full)),
-        "pressure_is_not_consent_substitute": (bool(re.search(r"stand(?:s)? with (?:you|her|the victim|the wife|nora)|won.?t pressure|don.?t pressure|no one can force|free to refuse|accept(?:s|ed)? (?:her|your) refusal|respect(?:s|ed)? (?:her|your) refusal|family approval.*not|mother.*not.*consent|board.*not.*consent|pressure.*not.*consent|choice.*not.*family", full)) or not _unnegated_match(r"stand(?:s)? with (?:him|the ceo|ceo|the husband)|insist(?:s|ed)? .*stay married|pressure(?:s|d)? .*stay married", full)),
-        "power_is_not_weaponized_after_rejection": (bool(re.search(r"doesn.?t owe|not owe|deal stands|no retaliation|won.?t (?:pull|withdraw|weaponize)|will not (?:pull|withdraw|weaponize)|continue(?:s|d)? support|business is business|support.*despite rejection", full)) and not _unnegated_match(r"(?:cuts?|pulls?|withdraws?|weaponizes?)\s+(?:\w+\s+){0,4}(?:funding|support|technology|consultants|deal)|after rejection.{0,80}(?:cuts?|pulls?|withdraws?|weaponizes?).{0,40}(?:funding|support|technology|consultants|deal)", full)),
+        "pressure_is_not_consent_substitute": pressure_is_bounded,
+        "power_is_not_weaponized_after_rejection": power_is_bounded,
         "final_choice_is_partnership_not_rescue": bool(re.search(r"partner, not (?:my )?rescuer|choose you|freely choose|may i|ask|no force|not my rescuer|rechoice|when you are ready", ending)),
     }
     labels = {
