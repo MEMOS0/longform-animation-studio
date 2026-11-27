@@ -507,3 +507,9 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - WUFO `9N6S6D_ioA0` full media, subtitles, contact sheets, audio metrics, targeted final keyframes, thumbnail, and deep-dive analysis are prepared. Key doctrine: heat/cold scarcity is a strong creature-economic engine; creature personhood is built through breathing/warming/feeding/naming before public execution spectacle; quiet domestic care can contrast with loud civic violence; climactic dragon scale should become recognition/embrace/protection before ambiguous sequel imagery.
 - `analyze-media` now supports `--contact-every`, used to create denser Epicverse contact evidence. Epicverse `no72LZAVvZQ` was rediscovered by the scan but already had a deep dive; its duplicate regenerated baseline evidence was not kept, while new denser contact evidence is retained.
 - Devin Review finding on PR #3 was fixed in `6221513981234765d634e88c57704b4b7ca36fcf`: performance metadata now follows actual speaker role rather than beat role alone. Latest tests after that fix: 105 passed.
+
+## 2026-11-27 annotated screenplay renderer checkpoint
+
+- Added `studio/screenplay_renderer.py` plus `render-screenplay` CLI. Generated premise packages now automatically include `*_screenplay.md`: annotated screenplay-style working drafts with speaker labels, action order, parenthetical delivery, sound transitions, subtext/rhythm, final images, exit hooks, and global rewrite rules. This moves creature-economic scaffolds closer to scene-specific professional writing while remaining transparent that they are working drafts, not final shooting scripts.
+- Regenerated both creature example packages; screenplay artifacts exist and Salt/Ember project gates A-D pass. Latest tests: 107 passed.
+- Devin Review stale-contact-sheet finding was fixed in `85baa846fd69c137556a4c15491e8910181ed636` by deleting old numbered sheets before writing a new analysis run.

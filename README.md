@@ -115,7 +115,7 @@ python -m studio.cli generate-premises --output-dir examples/generated_creature_
 python -m studio.cli seed-storyboards --scenes examples/generated_creature_concepts/salt_window_garden_scenes --output-dir examples/generated_creature_concepts/salt_window_garden_storyboards
 ```
 
-Generated storyboards are **director seeds**: schema-valid, continuous, non-uniform scaffolds for further human/agent direction, not final production boards.
+Generated packages now include an annotated `*_screenplay.md` working draft beside scene JSON. It renders speaker labels, action, parenthetical delivery, sound transitions, final images, subtext, rhythm, and rewrite rules in screenplay-like reading order. Generated storyboards are **director seeds**: schema-valid, continuous, non-uniform scaffolds for further human/agent direction, not final production boards.
 
 ## Production prompt export
 

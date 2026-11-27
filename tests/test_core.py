@@ -979,3 +979,20 @@ def test_media_analysis_removes_stale_contact_sheets_before_rerun():
     source=inspect.getsource(__import__('studio.media_analysis',fromlist=['sample_video_frames']).sample_video_frames)
     assert 'stale_sheet.unlink()' in source
     assert 'output_dir.glob("contact_*.jpg")' in source
+
+
+def test_screenplay_renderer_produces_annotated_professional_draft():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.screenplay_renderer import render_screenplay
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    text=render_screenplay(premise,generate_scenes(premise,generate_architecture(premise)))
+    assert 'Annotated Screenplay Draft' in text
+    assert 'GLOBAL REWRITE RULES' in text
+    assert 'SCENE SUBTEXT' in text
+    assert 'GRANDMOTHER' in text
+    assert 'NURA' in text
+    assert "Pump's for paying households" in text
+    assert 'FINAL IMAGE' in text
+    assert 'EXIT HOOK' in text

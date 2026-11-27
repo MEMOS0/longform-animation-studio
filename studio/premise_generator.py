@@ -18,6 +18,7 @@ from .relational_contract import evaluate_relational_contract
 from .spatial_status import evaluate_spatial_status
 from .architecture_generator import generate_architecture
 from .scene_generator import generate_scenes
+from .screenplay_renderer import write_screenplay
 
 CREATURE_ECONOMIC_VARIANTS = [
     {
@@ -328,7 +329,10 @@ def generate_and_write(output_dir: Path, count: int, target_minutes: float, arch
         arch_path.write_text(json.dumps(architecture, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
         scenes_dir = output_dir / f"{premise['premise_id']}_scenes"
         scenes_dir.mkdir(parents=True, exist_ok=True)
-        for scene in generate_scenes(premise, architecture):
+        scenes = generate_scenes(premise, architecture)
+        for scene in scenes:
             (scenes_dir / f"{scene['scene_id']}.json").write_text(json.dumps(scene, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-        rows.append({"premise_id": premise["premise_id"], "path": str(path), "evaluation_path": str(eval_path), "architecture_path": str(arch_path), "scenes_dir": str(scenes_dir), "evaluation": evaluation})
+        screenplay_path = output_dir / f"{premise['premise_id']}_screenplay.md"
+        write_screenplay(premise, scenes, screenplay_path)
+        rows.append({"premise_id": premise["premise_id"], "path": str(path), "evaluation_path": str(eval_path), "architecture_path": str(arch_path), "scenes_dir": str(scenes_dir), "screenplay_path": str(screenplay_path), "evaluation": evaluation})
     return {"count": len(rows), "premises": rows}

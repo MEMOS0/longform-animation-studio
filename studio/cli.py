@@ -14,6 +14,7 @@ from .production import evaluate_project
 from .release_learning import release_postmortem
 from .storyboard_production import export_manifest
 from .premise_generator import generate_and_write
+from .screenplay_renderer import write_screenplay
 from .storyboard_seed import write_seed_boards
 from .youtube_archive import collect
 
@@ -69,6 +70,11 @@ def main() -> None:
     prompts_p.add_argument("--output-dir", required=True)
     prompts_p.add_argument("--project-id", default="project")
 
+    render_p = sub.add_parser("render-screenplay")
+    render_p.add_argument("--premise", required=True)
+    render_p.add_argument("--scenes", required=True)
+    render_p.add_argument("--output", required=True)
+
     seed_p = sub.add_parser("seed-storyboards")
     seed_p.add_argument("--scenes", required=True)
     seed_p.add_argument("--output-dir", required=True)
@@ -113,6 +119,10 @@ def main() -> None:
     elif args.command == "export-production-prompts":
         result = export_manifest(Path(args.storyboards), Path(args.output_dir), args.project_id)
         print(json.dumps({"output": str(Path(args.output_dir) / "production_manifest.json"), "shot_count": result["shot_count"], "scene_count": result["scene_count"]}, indent=2))
+    elif args.command == "render-screenplay":
+        premise = json.loads(Path(args.premise).read_text(encoding="utf-8"))
+        scenes = [json.loads(path.read_text(encoding="utf-8")) for path in sorted(Path(args.scenes).glob("*.json"))]
+        print(write_screenplay(premise, scenes, Path(args.output)))
     elif args.command == "seed-storyboards":
         result = write_seed_boards(Path(args.scenes), Path(args.output_dir))
         print(json.dumps({"output_dir": args.output_dir, "scene_count": result["scene_count"], "shot_count": sum(row["shot_count"] for row in result["boards"])}, indent=2))
