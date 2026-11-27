@@ -219,3 +219,12 @@ Evidence source: `knowledge/market/strong-enough-for-love-coerced-hidden-identit
 2. **Assets are not apology unless framed as restored control.** Property becomes dramatically meaningful only when it returns agency, not when it buys affection.
 3. **Final romantic lines should redefine the relationship.** “Partner, not rescuer” converts rescue fantasy into chosen equality.
 4. **Playful consent language works only after no-force conditions are established.** “She said yes. We checked.” is safe because truth and agency have already landed.
+
+## Child economic-claimant dialogue addendum (2026-11-27)
+
+Evidence source: `knowledge/market/dramavoxie-lulu-child-economic-claimant-deep-dive.md`.
+
+1. **Care becomes speakable when itemized.** Formula, diapers, emotional damages, and hardship pay make invisible maternal labor concrete and dramatically collectible.
+2. **Child logic should be literal but not stupid.** Lulu's invoice, stranger distrust, hiding, and tea observation work because they are concrete child-scale inferences.
+3. **Adult apology must be interrogated.** “Is a simple sorry enough?” is stronger than instant reunion because it forces material history back into the scene.
+4. **Accountability dialogue should name systems.** Cameras, tests, lawyers, forged evidence, recovered assets, and court turn family melodrama into verifiable consequence.

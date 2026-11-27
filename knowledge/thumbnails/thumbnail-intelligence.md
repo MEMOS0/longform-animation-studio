@@ -139,3 +139,9 @@ The Kukua thumbnail compresses romance, imprisonment, wealth, and belief into on
 Evidence source: `knowledge/market/daily-drama-poppy-parentification-attachment-repair-deep-dive.md` and `data/raw/thumbnails/daily_drama_shorts/XM4OuWUlV_o.maxresdefault.jpg`.
 
 The Poppy thumbnail accurately compresses the film's mechanism: luxury staircase/home scale plus a father kneeling to fasten a small child's shoe while she offers food in a frog costume. This is a high-status/small-care pattern. It is stronger than generic wealth imagery because the emotional action is legible at mobile size: powerful person lowers himself physically to perform care.
+
+## Child-invoice/public-claim thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/dramavoxie-lulu-child-economic-claimant-deep-dive.md` and `data/raw/thumbnails/dramavoxie/R14QjIS7O50.maxresdefault.webp`.
+
+The Lulu thumbnail demonstrates a child-invoice/public-claim pattern: the child dominates center frame, a handmade “My Milk Money!” sign is mobile-legible, the CEO reaction supplies humiliation, and corporate luxury supplies scale. The prop compresses invisible care economics, public scandal, and family identity into one readable object. The mechanism is stronger than generic cute-child packaging because the child has a demand.

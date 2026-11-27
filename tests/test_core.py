@@ -2385,3 +2385,25 @@ def test_patronage_and_rechoice_endings_cannot_come_from_premise_alone():
         {"sequences": []}, [],
     )
     assert rechoice["checks"]["final_choice_is_partnership_not_rescue"] is False
+
+
+def test_child_economic_claimant_full_chain_passes():
+    from studio.child_economic_claimant_integrity import evaluate_child_economic_claimant_integrity
+    premise={"title":"Daddy Pay Up","logline":"A little girl demands child support and formula money from a billionaire CEO deadbeat dad who owes a debt for diapers, hardship pay, expenses, and care."}
+    architecture={"sequences":[{"summary":"At the company office lobby she publicly demands pay up, creating a scandal and leading to family tree, paternity, DNA, court, lawyer, and security consequences. She says don't trust, stay back, refuses strangers, hides after she overhears danger, observes, notices, figures out and helps catch the plot; she is not stupid. DNA, doctor, test, camera footage, police, lawyer, court, evidence, records, proof and investigation verify her claims. The mother was pregnant, working, sick, passing out, exiled, framed, set up, disbelieved, wronged, and suffered hardship. Is a simple sorry enough? Money is restitution not forgiveness and cannot buy trust. Adults and parents protect, investigate, and take responsibility while the child can play; the child is not responsible and it is not your job. Court, lawyer, arrest, police, stripped position, recover assets, forged evidence, fraud, consequences, and answer for it land. In the ending kindergarten, school, teacher, peers, class, rules, play, vacation, routine, ordinary home restore childhood."}]}
+    r=evaluate_child_economic_claimant_integrity(premise,architecture,[])
+    assert r["applies"] is True
+    assert r["score_0_to_1"] == 1.0
+
+
+def test_child_economic_claimant_rejects_nonclaimant_child_story():
+    from studio.child_economic_claimant_integrity import evaluate_child_economic_claimant_integrity
+    r=evaluate_child_economic_claimant_integrity({"title":"Family","logline":"A child loves her wealthy CEO father."},{"sequences":[]},[])
+    assert r["applies"] is False
+
+
+def test_child_economic_claimant_requires_ordinary_childhood_ending():
+    from studio.child_economic_claimant_integrity import evaluate_child_economic_claimant_integrity
+    premise={"title":"Daddy Pay Up","logline":"A little girl demands child support and formula money from a billionaire CEO deadbeat dad who owes a debt."}
+    r=evaluate_child_economic_claimant_integrity(premise,{"sequences":[{"summary":"The corporate battle ends with adults praising the heir forever."}]},[])
+    assert r["checks"]["ending_restores_ordinary_child_development"] is False

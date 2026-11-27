@@ -462,3 +462,9 @@ Use the `attachment_repair_integrity` project-evaluation gate as a warning syste
 Before greenlighting forced/arranged/coerced hidden-identity romance, read `knowledge/market/strong-enough-for-love-coerced-hidden-identity-deep-dive.md` plus the duplicate-distribution forensic note. The portable mechanism is concrete coercion leverage, survival/trauma function for disguise, attachment before reveal, procedural evidence/accountability, refusal to treat money/property as substitute repair, preserved anger, restored control, explicit truth, and free partnership re-choice.
 
 Use the `coerced_rechoice_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy `Strong Enough for Love`; extract the mechanism and create original stories.
+
+## 2026-11-27 child economic-claimant doctrine update
+
+Before greenlighting secret-child/child-support billionaire family melodrama, read `knowledge/market/dramavoxie-lulu-child-economic-claimant-deep-dive.md`. The portable mechanism is not “cute child steals CEO's heart.” It is concrete care invoice, public/procedural claim, child self-protection and observation, adult verification, material maternal betrayal, money as incomplete restitution rather than forgiveness, legal/economic accountability, and an ending that restores ordinary childhood development.
+
+Use the `child_economic_claimant_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy Lulu's exact invoice, sign, plot, or thumbnail; extract the mechanism and build original stories.
