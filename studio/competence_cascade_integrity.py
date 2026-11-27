@@ -75,8 +75,8 @@ def _has_coercive_intimacy(text: str) -> bool:
         r"won.?t take no",
         r"forced? .*?(?:bed|sex|kiss|intimacy)",
         r"(?:ignores|ignored|ignoring).{0,35}(?:no|refusal|stop)",
-        r"(?:said|says|asked|begged).{0,30}(?:no|stop).{0,50}(?:keeps|kept|continues|continued|doesn.?t stop)",
-        r"(?:keeps|kept|continues|continued).{0,30}(?:kissing|touching|undressing).{0,45}after.{0,35}(?:she|he|they).{0,12}(?:says?|said).{0,8}(?:no|stop)",
+        r"(?:said|says|asked|begged).{0,30}\b(?:no|stop)\b.{0,50}(?:keeps|kept|continues|continued|doesn.?t stop)",
+        r"(?:keeps|kept|continues|continued).{0,30}(?:kissing|touching|undressing).{0,45}after.{0,35}(?:she|he|they).{0,12}(?:says?|said).{0,8}\b(?:no|stop)\b",
         r"belong completely to me",
         r"you are mine now",
     ]
@@ -157,17 +157,18 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
     def closure_order(text: str) -> str:
         hook_match = re.search(hook_pattern, text)
         closure_match = re.search(closure_pattern, text)
-        if closure_match and hook_match and closure_match.start() < hook_match.start():
-            return "positive"
-        if hook_match and closure_match and hook_match.start() < closure_match.start():
-            return "negative"
+        if closure_match and hook_match:
+            return "positive" if closure_match.start() < hook_match.start() else "negative"
+        if closure_match:
+            return "closure_only"
+        if hook_match:
+            return "hook_only"
         return "neutral"
 
     scene_order = "neutral"
     if scenes:
         scene_order = closure_order("\n".join(_text(scene).lower() for scene in scenes))
 
-    architecture_order = "neutral"
     architecture_units: list[str] = []
     if isinstance(architecture, dict):
         sequences = architecture.get("sequences")
@@ -178,6 +179,13 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
     architecture_states = [closure_order(unit) for unit in architecture_units]
     architecture_positive = "positive" in architecture_states
     architecture_negative = "negative" in architecture_states
+    if len(architecture_states) >= 2:
+        if architecture_states[0] == "closure_only" and architecture_states[-1] == "hook_only":
+            architecture_positive = True
+        if architecture_states[0] == "hook_only" and architecture_states[-1] == "closure_only":
+            architecture_negative = True
+    architecture_has_closure = any(state in {"positive", "closure_only"} for state in architecture_states)
+    architecture_has_hook = any(state in {"positive", "negative", "hook_only"} for state in architecture_states)
 
     if scene_order == "positive":
         closure_before_hook = True
@@ -185,8 +193,14 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
         closure_before_hook = False
     elif architecture_negative:
         closure_before_hook = False
+    elif architecture_positive:
+        closure_before_hook = True
+    elif scene_order == "closure_only" and not architecture_has_hook:
+        closure_before_hook = True
+    elif architecture_has_closure and not architecture_has_hook and scene_order != "hook_only":
+        closure_before_hook = True
     else:
-        closure_before_hook = architecture_positive
+        closure_before_hook = False
 
     checks = {
         "intimate_public_violation": bool(re.search(r"diary|private|read aloud|publicly humiliat|bully|bullied|shame|mock|debt collector|threaten|frame|false accusation", full)),

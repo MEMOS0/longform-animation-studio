@@ -2914,3 +2914,27 @@ def test_competence_cascade_scene_closure_before_teaser_beats_recap_order():
       {"summary":"Finally command gives her a new mission."},
     ]
     assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is True
+
+
+def test_competence_cascade_closure_without_teaser_passes():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['ending_payoff']={'repair':'Police close the case; justice and family belonging are restored.'}
+    scenes=[{'summary':'The family returns home in peace.'}]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is True
+
+
+def test_competence_cascade_split_outline_closure_then_teaser_passes():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['sequences'][-1]={'summary':'Police deliver justice and the family is reunited.'}
+    architecture['ending_payoff']={'repair':'Afterward command gives her a new mission.'}
+    scenes=[]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is True
+
+
+def test_competence_cascade_now_kiss_me_is_not_refusal():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes.append({'summary':'She says, “Now kiss me again,” and he keeps kissing her.'})
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['romance_or_intimacy_respects_refusal'] is True
