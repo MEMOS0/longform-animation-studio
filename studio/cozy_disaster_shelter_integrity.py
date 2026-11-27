@@ -38,7 +38,7 @@ def evaluate_cozy_disaster_shelter_integrity(premise: dict[str, Any], architectu
     else:
         ordered_units = []
     labor_pattern = re.compile(r"farm|harvest|cook|clean|repair|prepare|gather|chop|fetch|work(?:ing)? the fields|daily life")
-    disaster_pattern = re.compile(r"\b(?:typhoon|flood\w*|storm|blizzard|sandstorm|hurricane|wildfire|earthquake)\b|rising water|water (?:rushes?|floods?|enters?|comes?)\s+(?:in|into|indoors)\s+(?:(?:their|the|a|her|his|our)\s+)?(?:house|home|room|cabin|shelter|living room)|water (?:rushes?|floods?|enters?|comes?) indoors|floodwaters")
+    disaster_pattern = re.compile(r"\b(?:typhoon|flood\w*|storm|blizzard|sandstorm|hurricane|wildfire|earthquake)\b|rising water|water (?:rushes?|floods?|enters?|comes?)\s+(?:(?:in|into|indoors)\s+)?(?:(?:their|the|a|her|his|our)\s+)?(?:house|home|room|cabin|shelter|living room)|water (?:rushes?|floods?|enters?|comes?) indoors|floodwaters")
     if ordered_units:
         cursor = 0
         labor_positions = []
