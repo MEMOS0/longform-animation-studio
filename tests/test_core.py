@@ -1867,3 +1867,39 @@ def test_guardian_of_orphanage_is_not_child_custody():
     from studio.found_family_guardian_integrity import evaluate_found_family_guardian_integrity
     r=evaluate_found_family_guardian_integrity({"logline":"a creature becomes guardian of an orphanage and protects the building"},{},[])
     assert not r['applies']
+
+
+def test_girl_predictive_power_applies_family_gate():
+    from studio.child_power_obsolescence import evaluate_child_power_obsolescence
+    r=evaluate_child_power_obsolescence({"logline":"a girl predicts accidents to save her father"},{},[])
+    assert r['applies']
+
+
+def test_child_guardian_at_orphanage_applies():
+    from studio.found_family_guardian_integrity import evaluate_found_family_guardian_integrity
+    r=evaluate_found_family_guardian_integrity({"logline":"at an orphanage, a troll becomes guardian of a child"},{},[])
+    assert r['applies']
+
+
+def test_early_foster_home_return_not_closure():
+    from studio.child_power_obsolescence import evaluate_child_power_obsolescence
+    p={"logline":"a child returns home to a foster house, sees a countdown, and saves her father. he protects her before dna proof. the child investigates records. powers become unstable. another weird kid appears."}
+    assert not evaluate_child_power_obsolescence(p,{},[])['checks']['sequel_hook_after_belonging_closure']
+
+
+def test_father_first_person_investigation_not_child_agency():
+    from studio.child_power_obsolescence import evaluate_child_power_obsolescence
+    p={"logline":"a child sees a countdown and saves her father. the father says i will investigate the records. he protects her before dna proof. powers become unstable. in the end she goes home with her dad."}
+    assert not evaluate_child_power_obsolescence(p,{},[])['checks']['child_agency_investigation']
+
+
+def test_girl_asks_nurse_counts_as_child_agency():
+    from studio.child_power_obsolescence import evaluate_child_power_obsolescence
+    p={"logline":"a girl sees a countdown and saves her father. he protects her before dna proof. the girl asks a nurse for birth records. powers become unstable. in the end she goes home with her dad."}
+    assert evaluate_child_power_obsolescence(p,{},[])['checks']['child_agency_investigation']
+
+
+def test_guardian_of_plural_children_applies():
+    from studio.found_family_guardian_integrity import evaluate_found_family_guardian_integrity
+    r=evaluate_found_family_guardian_integrity({"logline":"a troll becomes guardian of the children he rescued"},{},[])
+    assert r['applies']

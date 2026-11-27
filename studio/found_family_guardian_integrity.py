@@ -41,7 +41,7 @@ def evaluate_found_family_guardian_integrity(premise: dict[str, Any], architectu
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     guardian_core = bool(re.search(r"\bgiant\b|creature parent|nonhuman parent|adoptive parent|adoptive mother|adoptive father", full))
     personal_guardian_patterns = [
-        r"guardian\s+(?:of|for|to)\s+(?:the\s+|a\s+|an\s+)?(?:child|daughter|infant|baby|orphan)\b",
+        r"guardian\s+(?:of|for|to)\s+(?:the\s+|a\s+|an\s+)?(?:child|children|daughter|infant|baby|orphan)\b",
         r"guardian.{0,40}(?:raises?\b|feeds?\b|shelters?\b|protects\b)",
         r"(?:child|daughter|infant|baby|orphan)\b.{0,80}(?:becomes?|as)\s+(?:her|his|their)\s+guardian",
         r"(?:raises?|adopts?|takes? in).{0,80}guardian",
@@ -51,7 +51,7 @@ def evaluate_found_family_guardian_integrity(premise: dict[str, Any], architectu
         explicit_child_object = pattern.startswith("guardian\\s")
         for match in re.finditer(pattern, full):
             window = full[max(0, match.start() - 30):match.end() + 30]
-            if re.search(r"orphanage", window):
+            if re.search(r"guardian\s+(?:of|for|to)\s+(?:the\s+|a\s+|an\s+)?orphanage\b", window):
                 continue
             if not explicit_child_object and re.search(r"\bcity(?:'s)?\b|\bpublic\b|\bkingdom\b|\bpeople\b", window):
                 continue
@@ -59,7 +59,7 @@ def evaluate_found_family_guardian_integrity(premise: dict[str, Any], architectu
             break
         if personal_guardian:
             break
-    child = bool(re.search(r"daughter|child|infant|baby|orphan", full))
+    child = bool(re.search(r"daughter|child|children|infant|baby|orphan", full))
     applies = child and (guardian_core or personal_guardian)
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}

@@ -39,7 +39,7 @@ def evaluate_child_power_obsolescence(premise: dict[str, Any], architecture: dic
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     ordered = "\n".join([_text(architecture), _text(scenes), _text(premise)]).lower()
     child_term = bool(re.search(r"\bchild\b|\bgirl\b|\bdaughter\b|\bkid\b|\borphan\b", full))
-    power_term = bool(re.search(r"precognition|premonition|super strength|superpower|sees? .*before", full)) or bool(re.search(r"(?:her|his|their) powers?|(?:child|girl|daughter|kid).{0,20}(?:vision|countdown|powers?)|(?:vision|countdown|powers?).{0,20}(?:child|girl|daughter|kid)", full))
+    power_term = bool(re.search(r"precognition|premonition|super strength|superpower|sees? .*before", full)) or bool(re.search(r"(?:her|his|their) powers?|(?:child|girl|daughter|kid).{0,20}(?:vision|countdown|powers?|predicts?)|(?:vision|countdown|powers?|predicts?).{0,20}(?:child|girl|daughter|kid)", full))
     family_term = bool(re.search(r"\bdad\b|\bfather\b|\bmommy\b|paternity|biological|birth mother|real dad|birth father", full))
     applies = child_term and power_term and family_term
     if not applies:
@@ -50,7 +50,7 @@ def evaluate_child_power_obsolescence(premise: dict[str, Any], architecture: dic
     care_pos = _pos(r"defend|protect|take that word back|care|bandage|treat|comfort|hug|cake", ordered)
     proof_pos = _pos(r"dna|paternity|biological|birth record|birth certificate|proof|test result", ordered)
     power_loss_pos = _pos(r"power.*(?:gone|lost|unstable)|(?:gone|lost|unstable).*power|super strength.*gone|normal (?:six|six-year-old|child|kid)|no longer need.*visions?|don.?t need.*visions?", ordered)
-    closure_pos = _pos(r"someone will come|now i know you will|that.?s what home is|goes home|returns home|home with (?:her|his|their) (?:dad|father|mom|mother|family)|ordinary child|normal (?:six|six-year-old|child|kid)|family is home|wedding", ordered)
+    closure_pos = _pos(r"someone will come|now i know you will|that.?s what home is|goes home with|returns home with|home with (?:her|his|their) (?:dad|father|mom|mother|family)|ordinary child|normal (?:six|six-year-old|child|kid)|family is home|wedding", ordered)
     sequel_pos = _pos(r"another weird kid|sequel|next child|new case|to be continued", ordered)
 
     seqs = architecture.get("sequences", []) if isinstance(architecture, dict) else []
@@ -69,8 +69,10 @@ def evaluate_child_power_obsolescence(premise: dict[str, Any], architecture: dic
         phrase in full
         for phrase in (
             "child investigates", "child searches", "child finds out", "child tracks", "child demands", "child tests", "child asks", "child organizes",
-            "girl investigates", "girl searches", "girl finds out", "daughter investigates", "daughter searches", "kid investigates",
-            "i will investigate", "i'll investigate", "i can investigate", "i will search", "i'll search", "i will find out", "i'll find out",
+            "girl investigates", "girl searches", "girl finds out", "girl tracks", "girl demands", "girl tests", "girl asks", "girl organizes",
+            "daughter investigates", "daughter searches", "daughter asks", "kid investigates", "kid asks",
+            "she says i will investigate", "she says i'll investigate", "she says i will search", "she says i'll search", "she says i will find out",
+            "girl says i will investigate", "child says i will investigate", "daughter says i will investigate",
             "no acting alone",
         )
     )
