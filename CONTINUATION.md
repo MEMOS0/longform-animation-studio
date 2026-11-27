@@ -489,3 +489,8 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 
 - Added `studio/scale_community_integrity.py` and integrated it into project evaluation. It converts the Drakenhart tiny-kingdom findings into machine review: scale must affect material infrastructure/economics, outsider competence should protect the community early, trust needs historical/institutional cost, extraction should be stopped through proof/persuasion where possible, and endings need sustained rebuilding/chosen-home evidence.
 - Latest local tests: 104 passed.
+
+## 2026-11-27 context handoff note
+
+- A fresh low-subscriber breakout scan was started with `python tools/discover_recent_breakouts.py --help` accidentally invoking the default scan because argparse help did not emit before execution in the background shell. Shell id at the time was `94a8d1`; if its output/files appear, treat them as a normal scan result and commit `data/processed/recent_breakout_candidates.json` plus `knowledge/market/recent-breakout-candidates.md` after reviewing. If it is still hung, kill it and rerun deliberately with `--days 14 --max-enrich 35`.
+- Immediate next priorities: continue template-to-professional dialogue deepening, use the scan to select the next low-subscriber breakout, and consider full audiovisual analysis of any strong lead. Latest pushed commit before this note: `d065b29cb11660e8162b873e0b60ff9851d93054`; tests were 104 passed.
