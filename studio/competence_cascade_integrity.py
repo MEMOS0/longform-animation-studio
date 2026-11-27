@@ -24,16 +24,100 @@ def _count_any(text: str, groups: dict[str, str]) -> int:
     return sum(1 for pattern in groups.values() if re.search(pattern, text))
 
 
+def _early_story_text(architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> str:
+    parts: list[str] = []
+    sequences = architecture.get("sequences") if isinstance(architecture, dict) else None
+    if isinstance(sequences, list) and sequences:
+        count = max(1, (len(sequences) + 2) // 3)
+        parts.extend(_text(sequence).lower() for sequence in sequences[:count])
+    elif architecture:
+        text = _text(architecture).lower()
+        parts.append(text[:max(1, len(text) // 3)])
+    if scenes:
+        count = max(1, (len(scenes) + 2) // 3)
+        parts.extend(_text(scene).lower() for scene in scenes[:count])
+    return "\n".join(parts)
+
+
+def _ordered_architecture_text(architecture: dict[str, Any]) -> str:
+    parts: list[str] = []
+    sequences = architecture.get("sequences") if isinstance(architecture, dict) else None
+    if isinstance(sequences, list):
+        parts.extend(_text(sequence).lower() for sequence in sequences)
+    ending_payoff = architecture.get("ending_payoff") if isinstance(architecture, dict) else None
+    if ending_payoff:
+        parts.append(_text(ending_payoff).lower())
+    return "\n".join(parts)
+
+
+def _ordered_scene_text(scenes: list[dict[str, Any]]) -> str:
+    return "\n".join(_text(scene).lower() for scene in scenes)
+
+
+def _closure_before_hook_in_ordered_text(text: str) -> bool:
+    if not text:
+        return False
+    hook_match = re.search(r"new mission|top-level mission|return to the team|sequel hook|next mission|ordered to|called away", text)
+    closure_match = re.search(r"justice|law|court|police|family|reunited|marriage|belonging|instructor|new identity|special agent|peace|home", text)
+    return bool(closure_match) and (not hook_match or closure_match.start() < hook_match.start())
+
+
+def _has_coercive_intimacy(text: str) -> bool:
+    coercion_patterns = [
+        r"no right to refuse",
+        r"can.?t refuse",
+        r"won.?t take no",
+        r"forced? .*?(?:bed|sex|kiss|intimacy)",
+        r"(?:ignores|ignored|ignoring).{0,35}(?:no|refusal|stop)",
+        r"(?:keeps|kept|continues|continued).{0,35}(?:kissing|touching|undressing|after .*?(?:no|stop))",
+        r"(?:said|says|asked|begged).{0,30}(?:no|stop).{0,50}(?:keeps|kept|continues|continued|doesn.?t stop)",
+        r"belong completely to me",
+        r"you are mine now",
+    ]
+    intimacy_pattern = re.compile(r"kiss|sex|sexual|bed|bedroom|intimate|intimacy|romance|romantic|touch|undress|wedding night|belong|mine")
+    for pattern in coercion_patterns:
+        for match in re.finditer(pattern, text):
+            window = text[max(0, match.start() - 140):match.end() + 140]
+            if intimacy_pattern.search(window):
+                return True
+    return False
+
+
+def _artifact_units(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> list[str]:
+    units = [_text(premise).lower()]
+    sequences = architecture.get("sequences") if isinstance(architecture, dict) else None
+    if isinstance(sequences, list):
+        units.extend(_text(sequence).lower() for sequence in sequences)
+    elif architecture:
+        units.append(_text(architecture).lower())
+    ending_payoff = architecture.get("ending_payoff") if isinstance(architecture, dict) else None
+    if ending_payoff:
+        units.append(_text(ending_payoff).lower())
+    units.extend(_text(scene).lower() for scene in scenes)
+    return [unit for unit in units if unit]
+
+
+def _positive_hidden_master_identity(text: str) -> bool:
+    for match in re.finditer(r"prodigy|genius|master hacker|secretly skilled|hidden mastery", text):
+        prefix = text[max(0, match.start() - 35):match.start()]
+        if not re.search(r"(?:no|not|without|lacks|never)(?:\s+\w+){0,3}\s*$", prefix):
+            return True
+    return False
+
+
 def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     premise_text = _text(premise).lower()
     architecture_text = _text(architecture).lower()
     scenes_text = _text(scenes).lower()
     full = "\n".join([premise_text, architecture_text, scenes_text])
-    ending_source = "\n".join([architecture_text, scenes_text])
-    ending = ending_source[-max(1, len(ending_source) // 3):] if ending_source else ""
-    opening = full[:max(1, len(full) // 3)]
+    opening = _early_story_text(architecture, scenes)
 
-    hidden_mastery = bool(re.search(r"assassin|special agent|mercenary|elite operative|secretly skilled|hidden mastery|master hacker|top assassin|king of killers|reborn expert|transmigrated expert", full))
+    mastery_terms = r"assassin|special agent|mercenary|elite operative|master hacker|top assassin|king of killers|prodigy|genius|expert"
+    hidden_mastery = bool(
+        re.search(r"(?:reborn|transmigrated|secretly|hidden|undercover|disguised|concealed).{0,90}(?:" + mastery_terms + r")", full)
+        or re.search(r"(?:" + mastery_terms + r").{0,90}(?:hidden identity|secret identity|double life|concealed|reborn|transmigrated)", full)
+        or _positive_hidden_master_identity(full)
+    )
     humiliation_reversal = bool(re.search(r"bully|bullied|humiliat|shame|diary|debt collector|looked down|power inversion|revenge|reborn|transmigrat|new body", full))
     applies = hidden_mastery and humiliation_reversal
     if not applies:
@@ -59,9 +143,29 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
         "procedure": r"police|court|judge|lawyer|law|military tribunal",
     }
 
-    hook_match = re.search(r"new mission|top-level mission|return to the team|sequel hook|next mission|ordered to|called away", ending)
-    closure_match = re.search(r"justice|law|court|police|family|reunited|marriage|belonging|instructor|new identity|special agent|peace|home", ending)
-    closure_before_hook = bool(closure_match) and (not hook_match or closure_match.start() < hook_match.start())
+    hook_pattern = r"new mission|top-level mission|return to the team|sequel hook|next mission|ordered to|called away"
+    closure_pattern = r"justice|law|court|police|family|reunited|marriage|belonging|instructor|new identity|special agent|peace|home"
+    ending_units: list[str] = []
+    if isinstance(architecture, dict):
+        ending_payoff = architecture.get("ending_payoff")
+        if ending_payoff:
+            ending_units.append(_text(ending_payoff).lower())
+        sequences = architecture.get("sequences")
+        if isinstance(sequences, list) and sequences:
+            ending_units.append(_text(sequences[-1]).lower())
+    if scenes:
+        ending_units.extend(_text(scene).lower() for scene in scenes[-min(2, len(scenes)):])
+
+    positive_closure = False
+    explicit_hook_before_closure = False
+    for unit in ending_units:
+        hook_match = re.search(hook_pattern, unit)
+        closure_match = re.search(closure_pattern, unit)
+        if closure_match and (not hook_match or closure_match.start() < hook_match.start()):
+            positive_closure = True
+        if hook_match and closure_match and hook_match.start() < closure_match.start():
+            explicit_hook_before_closure = True
+    closure_before_hook = positive_closure and not explicit_hook_before_closure
 
     checks = {
         "intimate_public_violation": bool(re.search(r"diary|private|read aloud|publicly humiliat|bully|bullied|shame|mock|debt collector|threaten|frame|false accusation", full)),
@@ -72,7 +176,7 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
         "ethical_loyalty_test": bool(re.search(r"abandon|comrade|loyal|share risk|stay behind|protect subordinate|won.?t leave|no one leaves|shield|save.*team|not abandon", full)),
         "provenance_and_procedural_accountability": bool(re.search(r"prize money|clean money|source of money|evidence|video|records|investigation|police|law|judge|court|according to law|public apology", full)),
         "ally_supports_without_owning_revenge": bool(re.search(r"support|stand with|help|ally|partner|not alone|won.?t let.*alone|respect|choice|let her|she decides|without taking over", full)),
-        "romance_or_intimacy_respects_refusal": not bool(re.search(r"no right to refuse|can.?t refuse|forced? .*bed|won.?t take no|owns? you|belong completely to me|you are mine now", full)),
+        "romance_or_intimacy_respects_refusal": not any(_has_coercive_intimacy(unit) for unit in _artifact_units(premise, architecture, scenes)),
         "closure_before_mission_hook": closure_before_hook,
     }
     labels = {

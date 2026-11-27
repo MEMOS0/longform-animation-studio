@@ -2755,7 +2755,7 @@ def test_competence_cascade_integrity_balanced_example_passes_core_checks():
 def test_competence_cascade_integrity_flags_refusal_overriding_romance():
     from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
     premise,architecture,scenes=_competence_cascade_fixture()
-    scenes.append({"summary":"When she asks him to stop, he laughs that she has no right to refuse."})
+    scenes.append({"summary":"During intimacy, when she asks him to stop, he laughs that she has no right to refuse."})
     r=evaluate_competence_cascade_integrity(premise,architecture,scenes)
     assert r["checks"]["romance_or_intimacy_respects_refusal"] is False
     assert any("coercive refusal" in w for w in r["warnings"])
@@ -2774,3 +2774,53 @@ def test_competence_cascade_integrity_not_applicable_without_hidden_mastery_reve
     premise={"title":"Gentle Garden","logline":"A gardener repairs a community greenhouse."}
     r=evaluate_competence_cascade_integrity(premise,{},[])
     assert r["applies"] is False
+
+
+def test_competence_cascade_applies_to_bullied_secret_prodigy():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise={"title":"Hidden Numbers","logline":"A bullied scholarship student is secretly a mathematical prodigy and takes revenge on the academy that humiliated her."}
+    assert evaluate_competence_cascade_integrity(premise,{},[])["applies"] is True
+
+
+def test_competence_cascade_does_not_apply_when_assassin_is_only_villain():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise={"title":"Ordinary Target","logline":"A bullied student survives when an assassin villain attacks her school; she has no hidden mastery."}
+    assert evaluate_competence_cascade_integrity(premise,{},[])["applies"] is False
+
+
+def test_competence_cascade_architecture_closure_survives_final_mission_scene():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes=[{"summary":"After the victory epilogue, command gives her a new mission."}]
+    r=evaluate_competence_cascade_integrity(premise,architecture,scenes)
+    assert r["checks"]["closure_before_mission_hook"] is True
+
+
+def test_competence_cascade_detects_ignored_refusal_during_kiss():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes.append({"summary":"She asked him to stop, but he kept kissing her."})
+    r=evaluate_competence_cascade_integrity(premise,architecture,scenes)
+    assert r["checks"]["romance_or_intimacy_respects_refusal"] is False
+
+
+def test_competence_cascade_military_order_refusal_is_not_romantic_coercion():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes.append({"summary":"The commander says soldiers can't refuse a lawful order during the mission briefing."})
+    r=evaluate_competence_cascade_integrity(premise,architecture,scenes)
+    assert r["checks"]["romance_or_intimacy_respects_refusal"] is True
+
+
+def test_competence_cascade_title_skill_is_not_early_proof():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    premise["title"]="The Skilled Assassin"
+    architecture["sequences"]=[
+        {"summary":"School bullies publicly humiliate her while her poor mother cares for the family through medical debt."},
+        {"summary":"The family argues about debt collectors, hospital bills, and school prejudice without any demonstration of her ability."},
+        {"summary":"The academy, military, banquet, arena, and police institutions rotate while she refuses to abandon a wounded comrade."},
+        {"summary":"In the finale she finally demonstrates skill, wins evidence, and police close the case according to law."},
+    ]
+    r=evaluate_competence_cascade_integrity(premise,architecture,scenes)
+    assert r["checks"]["hidden_competence_is_proven_early"] is False
