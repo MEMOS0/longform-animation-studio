@@ -2546,3 +2546,23 @@ def test_revenge_autonomy_ignores_simple_breakup_revenge():
     from studio.revenge_autonomy_integrity import evaluate_revenge_autonomy_integrity
     premise={"title":"Breakup","logline":"After a breakup she returns home and jokes about revenge."}
     assert evaluate_revenge_autonomy_integrity(premise,{"sequences":[]},[])["applies"] is False
+
+
+def test_revenge_autonomy_ignores_exoneration_without_identity_return():
+    import json
+    from studio.revenge_autonomy_integrity import evaluate_revenge_autonomy_integrity
+    premise=json.load(open('examples/generated_concepts/clockwork_orphan_bench_premise.json',encoding='utf8'))
+    assert evaluate_revenge_autonomy_integrity(premise,{"sequences":[]},[])["applies"] is False
+
+
+def test_wrongful_accusation_infers_exonerated_theft_accusation():
+    from studio.wrongful_accusation_integrity import evaluate_wrongful_accusation_integrity
+    premise={"title":"Cleared","logline":"An expelled scholarship student accused of theft becomes homeless, but footage clears him and he seeks work."}
+    assert evaluate_wrongful_accusation_integrity(premise,{"sequences":[]},[])["applies"] is True
+
+
+def test_affirmative_match_negation_scope_handles_both_cases():
+    from studio.wrongful_accusation_integrity import _affirmative_match
+    assert _affirmative_match(r"repay", "nobody persuades a debtor to repay") is False
+    assert _affirmative_match(r"records?", "nobody checks the records") is False
+    assert _affirmative_match(r"evidence", "she has no money but she checks the evidence") is True
