@@ -1,4 +1,23 @@
-# Continuation checkpoint — read first after context rollover
+# Continuation checkpoint
+
+## 2026-11-27 pre-rollover checkpoint — Jasmine competence cascade
+
+Latest local commit when written: `91dd272 Add Jasmine competence cascade deep dive` on `devin/1795803830-jasmine-reborn-school-analysis`. Tests: **310 passed**. PR #6 remains open/mergeable with completed accepted review at `d941518`; do not merge unless user instructs.
+
+Completed:
+
+- Full Jasmine Drama `AaLngUHEqVY` audiovisual case study committed, including metadata/subtitles/thumbnail, 9,704-second machine visual timeline, 25 sampled contact sheets, keyframes, audio-energy metrics, act metrics, and transparent limitation that corrupt packets leave the last ~100 seconds visually unverified.
+- Report: `knowledge/market/jasmine-drama-reborn-assassin-competence-cascade-deep-dive.md`. Central doctrine: hidden-mastery revenge sustains extreme runtime through intimate violation, family/economic care anchor, early kinetic proof, distinct competence domains, institutional arena rotation, ethical loyalty testing, provenance/procedural accountability, non-owning allies, and closure before sequel hook. Consent failure in romantic banter is explicitly negative.
+- New validator: `studio/competence_cascade_integrity.py`, integrated into production evaluation with tests. Analyzer stderr-pipe deadlock fixed in `studio/media_analysis.py`.
+- Thumbnail Intelligence updated with hidden-competence split-self crowd mechanism.
+- Adjacent trope comparison recorded: Queen's Reel `hw4kFMVk7mU` is a different assassin-reborn-schoolgirl film, so it validates trope demand without proving the same execution.
+
+Immediate next work:
+
+1. Finish/download/analyze `83i28EMbqqk` (15m compressed mermaid/serial fantasy), then `XL0d9SmAA1M` consent/power-asymmetry stress test.
+2. If the `AaLngUHEqVY` clean redownload completes, test whether final ~100 seconds decode; update report only if verified.
+3. Push/create PR for Jasmine branch if not already done, then continue queue without waiting.
+
 
 Updated: 2026-11-26 after breakout media deep-dive work. Latest pushed commit at last verified push was `6cd9ba3` (“Verify recent breakout channel histories”), and then `d1aad52` (“Add exploration and survival channel contracts”). PR: https://github.com/MEMOS0/longform-animation-studio/pull/1, branch `devin/1764170700-failure-intelligence-foundation`, local repo `C:/Users/Administrator/repos/longform-animation-studio`.
 

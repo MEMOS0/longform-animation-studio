@@ -4,6 +4,9 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 
 ## Completed or already represented — remove from immediate queue
 
+- `NDZc_6T4h6E`: Seven Clover contract-marriage analysis completed in PR #6 worktree/branch; do not re-run even if PR merge is pending.
+- `AaLngUHEqVY`: Jasmine Drama competence-cascade analysis completed in `knowledge/market/jasmine-drama-reborn-assassin-competence-cascade-deep-dive.md`.
+
 - `26o_ccDnTSg`: Nightfall economic-abandonment analysis completed.
 - `xhqE43r-faA`: Nightfall wrongful-accusation analysis completed.
 - `dEup8AVWYKg`: Many Drama revenge-autonomy analysis completed.
@@ -21,7 +24,7 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 
 ## Immediate unanalyzed low-subscriber leads
 
-### 1. `NDZc_6T4h6E` — Seven Clover
+### Completed: `NDZc_6T4h6E` — Seven Clover
 
 - Title: *Feisty Woman Fakes Pregnancy With Pillow To Ruin Blind Date—Unaware CEO See Through Her In 1s & Fall!*
 - Scale/performance: about 14.3k subscribers, 367,640 views in 4.5 days, about 81,506 views/day.
@@ -29,7 +32,7 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 - Why priority: long-duration noncreature romantic deception; useful test of whether hidden-pregnancy/see-through deception can sustain long form without becoming repetitive or ethically thin.
 - Required caution: distinguish comic deception from coercive romance; evaluate consent, humiliation, and whether both parties retain agency.
 
-### 2. `AaLngUHEqVY` — 晚茉短劇Jasmine Drama
+### Completed: `AaLngUHEqVY` — 晚茉短劇Jasmine Drama
 
 - Title: top assassin transmigrated/reborn into a bullied aristocratic-school scapegoat; debt collectors and group bullying trigger counterattack/revenge.
 - Scale/performance: about 16.8k subscribers, 441,333 views in 7.5 days, about 58,761 views/day.
@@ -37,7 +40,7 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 - Why priority: tests extreme-length episodic retention, reborn-competence power inversion, institutional bullying, and revenge pacing in a non-English/C-drama-adjacent package.
 - Required caution: subtitles/dubbing/language alignment may be unreliable; do not claim full comprehension if aligned English evidence is unavailable.
 
-### 3. `XL0d9SmAA1M` — DramaShine AI
+### 1. `XL0d9SmAA1M` — DramaShine AI
 
 - Title: *One Night With a Mafia Boss Turned Me Into His Wife—He's My Bestie's Dad!*
 - Scale/performance: about 17.5k subscribers, 674,597 views in 8.5 days, about 79,266 views/day.
@@ -45,7 +48,7 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 - Why priority: high-velocity noncreature romance in a low-subscriber channel; useful for taboo/age-gap power-asymmetry packaging versus actual consent craft.
 - Required caution: do not eroticize coercion or ambiguity; validator focus should be present-tense consent, age/power clarity, and absence of ownership framing.
 
-### 4. `83i28EMbqqk` — Fableheart Films
+### 2. `83i28EMbqqk` — Fableheart Films
 
 - Title: *A Mermaid’s Son Wished for a Tail on Christmas Eve / THE HUNTER’S MARK 3 / Christmas Fantasy Movie*
 - Scale/performance: about 3.3k subscribers, 250,466 views in 4.6 days, about 54,904 views/day.
@@ -53,7 +56,7 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 - Why priority: very low subscriber base plus short runtime; useful comparison against 60–120m compilations and existing creature-family work.
 - Required caution: sequel numbering (`3`) may mean the breakout depends on prior series knowledge; analyze as serial continuation, not standalone proof.
 
-### 5. `dHdkaKb3_S8` — Lotus Crown Drama
+### 3. `dHdkaKb3_S8` — Lotus Crown Drama
 
 - Title: *My Alpha Cheated at Our Wedding, His Mom Told Me to Share, So I Chose the Elf King!*
 - Scale/performance: about 4.34k subscribers, 447,508 views in 8.5 days, about 52,582 views/day.
@@ -61,7 +64,7 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 - Why priority: low-subscriber fantasy-romance betrayal with public humiliation and re-choice; useful comparison to animal-guise consent and revenge-autonomy doctrines.
 - Required caution: crowded werewolf/alpha field; extract only mechanisms not already covered by WUFO/MythicTwist cases.
 
-### 6. `yA_UfmmVAG0` — Mini Series Drama
+### 4. `yA_UfmmVAG0` — Mini Series Drama
 
 - Title: *She sacrificed her eyes for five vampires—Now she’s marrying their worst nightmare!*
 - Scale/performance: about 26.8k subscribers, 155,334 views in 3.5 days, about 44,247 views/day.
@@ -69,7 +72,7 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 - Why priority: fresh high-velocity upload; bodily sacrifice plus romantic re-choice may extend creature-power-inversion doctrine.
 - Required caution: subscriber count is moderate rather than tiny; treat as secondary priority.
 
-### 7. `DD35huaUIa8` — The Binge Bench
+### 5. `DD35huaUIa8` — The Binge Bench
 
 - Title: abandoned pregnant wife is secretly lost Lycan princess.
 - Scale/performance: about 2.5k subscribers, 224,307 views in 5.5 days, about 40,705 views/day.
@@ -79,9 +82,7 @@ Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This
 
 ## Recommended order
 
-1. `NDZc_6T4h6E` — strongest noncreature low-subscriber novelty.
-2. `AaLngUHEqVY` — extreme-length format comparison.
-3. `83i28EMbqqk` — compressed short-form/serial counterweight.
-4. `XL0d9SmAA1M` — consent/power-asymmetry stress test.
-5. `dHdkaKb3_S8` — fantasy betrayal/re-choice comparison.
-6. `DD35huaUIa8` and `yA_UfmmVAG0` — only if they still look novel after opening/metadata inspection.
+1. `83i28EMbqqk` — compressed short-form/serial counterweight.
+2. `XL0d9SmAA1M` — consent/power-asymmetry stress test.
+3. `dHdkaKb3_S8` — fantasy betrayal/re-choice comparison.
+4. `DD35huaUIa8` and `yA_UfmmVAG0` — only if they still look novel after opening/metadata inspection.
