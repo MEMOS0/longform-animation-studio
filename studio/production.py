@@ -29,6 +29,7 @@ from .creature_pacing import evaluate_creature_pacing
 from .romance_deception_integrity import evaluate_romance_deception_integrity
 from .zero_to_hero_integrity import evaluate_zero_to_hero_integrity
 from .prohibition_scifi_integrity import evaluate_prohibition_scifi_integrity
+from .family_exit_integrity import evaluate_family_exit_integrity
 from .visual_causality import evaluate_visual_causality
 from .hidden_identity_integrity import evaluate_hidden_identity_integrity
 from .scale_community_integrity import evaluate_scale_community_integrity
@@ -308,6 +309,7 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "romance_deception_integrity": evaluate_romance_deception_integrity(premise, architecture, scenes),
         "zero_to_hero_integrity": evaluate_zero_to_hero_integrity(premise, architecture, scenes),
         "prohibition_scifi_integrity": evaluate_prohibition_scifi_integrity(premise, architecture, scenes),
+        "family_exit_integrity": evaluate_family_exit_integrity(premise, architecture, scenes),
         "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes), "storyboards": len(boards)},
         "gates": gate_report(schema_errors, failure, scene_report, architecture_report, bool(architecture), bool(scenes), board_report),
     }

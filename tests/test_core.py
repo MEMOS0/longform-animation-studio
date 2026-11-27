@@ -1422,3 +1422,10 @@ def test_prohibition_no_sequel_hook_does_not_warn():
     premise={"title_candidates":["Don't Look Up"],"logline":"post-apocalyptic eden"}
     arch={"sequences":[{"turn":"look up safe now and they build a world"}]}
     assert evaluate_prohibition_scifi_integrity(premise,arch,[])['checks']['sequel_hook_after_closure']
+
+
+def test_family_exit_integrity_accepts_velvet_pattern():
+    from studio.family_exit_integrity import evaluate_family_exit_integrity
+    premise={"title_candidates":["I Was the Obedient Daughter for 20 Years Until I Left Without Saying Goodbye"]}
+    arch={"sequences":[{"turn":"one dowry wedding dress savings jewelry and gold go to twin sister; hospital blood allergy medical report ignored"},{"turn":"mother-in-law notices thinness, remembers likes dietary routine, makes food and cushions her"},{"turn":"she leaves the group chat, phone off, no invite; it is not punish but live my own life, bottom of your priorities and Chloe shadow"},{"turn":"mother says I was wrong and regret; father gifts again but she feels nothing, no longer needs it, they may return if we have time"}]}
+    assert evaluate_family_exit_integrity(premise,arch,[])['score_0_to_1']==1.0
