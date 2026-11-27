@@ -4263,3 +4263,18 @@ def test_labor_romance_power_balance_warns_when_romance_stays_dependency():
     assert result['applies'] is True
     assert result['checks']['ending_separates_romance_from_employment_debt'] is False
     assert any('dependency' in w for w in result['warnings'])
+
+def test_labor_romance_review_regressions_consent_dependency_and_candidate():
+    from studio.labor_romance_power_balance_integrity import evaluate_labor_romance_power_balance_integrity
+    premise={'logline':'A poor maid in debt disguises herself to work for a billionaire boss and falls in love.'}
+    coercive={'sequences':[{'summary':'He repeatedly kisses her without asking and nobody objects. He never apologizes or changes his behavior.'}]}
+    result=evaluate_labor_romance_power_balance_integrity(premise,coercive,[])
+    assert result['applies'] is True
+    assert result['checks']['consent_pressure_is_named_not_romanticized'] is False
+
+    dependent={'sequences':[{'summary':'In the ending he threatens her career unless she stays with him, so she remains his employee and girlfriend.'}]}
+    dep=evaluate_labor_romance_power_balance_integrity(premise,dependent,[])
+    assert dep['checks']['ending_separates_romance_from_employment_debt'] is False
+
+    nonromance=evaluate_labor_romance_power_balance_integrity({'logline':'A disguised princess and her maid interview every candidate for a royal post while hiding from a powerful prince.'},{'sequences':[{'summary':'They complete the palace labor assignment.'}]},[])
+    assert nonromance['applies'] is False

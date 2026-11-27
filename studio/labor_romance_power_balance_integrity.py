@@ -22,22 +22,46 @@ def _text(value: Any) -> str:
 
 def evaluate_labor_romance_power_balance_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    labor_role = bool(re.search(r"maid|assistant|servant|employee|worker|secretary|driver|cook|nanny|apprentice|crew|staff", full))
-    power_holder = bool(re.search(r"billionaire|ceo|heir|boss|employer|president|rich|powerful|mafia|prince", full))
-    romance = bool(re.search(r"romance|girlfriend|boyfriend|fall\w* in love|date|wife|husband|marry|marriage", full))
+    labor_role = bool(re.search(r"\b(?:maid|assistant|servant|employee|worker|secretary|driver|cook|nanny|apprentice|crew|staff)\b", full))
+    power_holder = bool(re.search(r"\b(?:billionaire|ceo|heir|boss|employer|president|rich|powerful|mafia|prince)\b", full))
+    romance = bool(re.search(r"\b(?:romance|girlfriend|boyfriend|wife|husband|marriage)\b|fall\w* in love|\bmarry\b|\bdates?\b|\bdating\b", full))
     hierarchy_or_concealment = bool(re.search(r"disguise|pretend|secretly|hidden identity|conceal|lied to get|male applicants|class|poor|debt|loan|contract", full))
     if not (labor_role and power_holder and romance and hierarchy_or_concealment):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
+    consent_violation = bool(re.search(r"without asking|forced kiss|kiss(?:es|ed)? (?:her|him|them|the worker)|grab(?:bed|s)?|experiment on|possessive", full))
+    consent_objection = bool(re.search(r"uncomfortable|don['’]?t do this|object(?:s|ed)?|refus(?:es|ed)|you (?:don['’]?t|do not) get to decide|not your job|stop", full))
+    consent_repair = bool(re.search(r"apolog|permission|consent|ask me first|changed behavior|consequence|repair|take responsibility|give .* space", full))
+    affirmative_consent = bool(re.search(r"ask(?:s|ed)? (?:for )?permission|consent(?:s|ed)?|ask me first|respect(?:s|ed)? (?:her|his|their) (?:answer|boundary|refusal)", full))
+    if re.search(r"nobody objects|no one objects|never objects|without objection", full):
+        consent_objection = False
+    if re.search(r"never apolog|no apology|without apolog|never changes|does not change|no repair", full):
+        consent_repair = False
+
+    if scenes:
+        ending_text = _text(scenes[-1]).lower()
+    else:
+        sequences = architecture.get("sequences") if isinstance(architecture, dict) else None
+        if isinstance(sequences, list) and sequences:
+            ending_text = _text(sequences[-1]).lower()
+        elif architecture:
+            arch_text = _text(architecture).lower()
+            ending_text = arch_text[-max(1, len(arch_text) // 4):]
+        else:
+            ending_text = full[-max(1, len(full) // 4):]
+    employment_transition = bool(re.search(r"end(?:s|ed)? the contract|contract (?:is )?end(?:s|ed)|no penalty|quit(?:s|ting)? (?:the )?(?:assistant|job|employment)|no longer (?:his|her|their )?(?:assistant|employee)|employment ends|free to resign", ending_text))
+    independent_livelihood = bool(re.search(r"separate repayment|repayment plan|part-time job|new job|own company|independent income|career|business", ending_text))
+    romance_choice = bool(re.search(r"\b(?:girlfriend|boyfriend|relationship|romance|wife|husband)\b|\bdates?\b|\bdating\b|\bmarry\b|cho(?:ose|oses|sen)", ending_text))
+
     checks = {
         "entry_is_economic_necessity_not_romantic_scheme": bool(re.search(r"debt|loan|three jobs|need(?:ed)? (?:this|the)? ?job|pay(?:s)? well|rent|bills|survival|afford", full)),
         "concealment_or_class_cost_is_material": bool(re.search(r"chest|gauze|uniform|shared room|medical|hospital|injur|scar|privacy|lied to get|male applicants|exclusion|can['’]?t afford", full)),
-        "employment_is_not_ownership": bool(re.search(r"don['’]?t own (?:you|her|him|them)|not (?:a|your) possession|off duty|own thing|you don['’]?t get to decide|not your job|not property", full)),
-        "consent_pressure_is_named_not_romanticized": bool(re.search(r"without asking|uncomfortable|ask me first|permission|consent|don['’]?t do this|give .* space|apolog|repair|take responsibility", full)),
+        "employment_is_not_ownership": bool(re.search(r"(?:don['’]?t|do(?:es)? not) own (?:you|her|him|them)|not (?:a|your) possession|off duty|own thing|you (?:don['’]?t|do not) get to decide|not your job|not property", full)),
+        "consent_pressure_is_named_not_romanticized": affirmative_consent or (consent_violation and consent_objection and consent_repair),
         "care_uses_labor_time_before_wealth": bool(re.search(r"handmade|cooked|meal|schedule|part-time job|practice|time with|shared|helping|work(?:ed)? together|gift", full)),
         "wealth_pressure_tests_autonomy": bool(re.search(r"quit.*hire|i['’]?ll hire you|buy|money|pay.*back| repayment|business deal|after your money|gold[- ]?digger|rich rival", full)),
         "protagonist_accounts_for_deception_without_class_stigma": bool(re.search(r"take responsibility|lied to get|earned (?:my|her) pay|not for money|wasn['’]?t for money|not after your money|won['’]?t admit to something i didn['’]?t do", full)),
-        "ending_separates_romance_from_employment_debt": bool(re.search(r"end the contract|no penalty|separate repayment|quit.*assistant|part-time job|keep paying|own company|career|employment.*relationship|no longer.*employee", full[-5000:])),
+        "ending_separates_romance_from_employment_debt": employment_transition and independent_livelihood and romance_choice,
     }
     labels = {
         "entry_is_economic_necessity_not_romantic_scheme": "the worker enters the labor arrangement as a romantic scheme rather than credible economic necessity",
