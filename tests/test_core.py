@@ -3415,3 +3415,53 @@ def test_restitution_pact_integrity_flags_decorative_curse_and_forced_forgivenes
     assert r['checks']['alternative_partner_proves_care_before_status'] is False
     assert r['checks']['consent_or_exit_choice_precedes_identity_reward'] is False
     assert r['checks']['closure_is_mutual_not_forced_forgiveness'] is False
+
+
+def test_taboo_family_irony_blank_identity_does_not_crash():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Bestie Parent','protagonist':{'identity':''},'logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
+    r=evaluate_taboo_family_irony_integrity(premise,{},[])
+    assert r['applies'] is True
+
+
+def test_taboo_family_irony_ana_not_credited_for_diana_departure():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Bestie Parent','protagonist':{'identity':'Ana'},'logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
+    architecture={'sequences':[{'summary':'The rival Diana chooses to leave him. Ana remains trapped.'}]}
+    assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['protagonist_can_reject_power'] is False
+
+
+def test_restitution_pact_does_not_apply_to_non_supernatural_survival_contract():
+    import json
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise=json.load(open('examples/generated_survival_concepts/brakelight_moth_depths_premise.json',encoding='utf8'))
+    assert evaluate_restitution_pact_integrity(premise,{},[])['applies'] is False
+
+
+def test_chosen_bond_forced_marriage_to_named_alternative_is_coercive():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    architecture['sequences']=[
+      {'summary':'At the public bonding ceremony her fated mate cheats and humiliates her; her blood essence sustained his succession.'},
+      {'summary':'She refuses him, but the clan forces her to marry the elf king. He says she need not answer and waits patiently before she believes him.'},
+    ]
+    assert evaluate_chosen_bond_integrity(premise,architecture,scenes)['checks']['alternative_bond_is_chosen_and_consenting'] is False
+
+
+def test_competence_cascade_standalone_sequel_excerpt_can_follow_documented_closure():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes=[{'id':'sequel_excerpt','scene_goal':'In this sequel scene after the main case, command gives her a new mission.'}]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is True
+
+
+def test_restitution_pact_conditional_terms_not_actual_betrayal_position():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    architecture['sequences']=[
+      {'summary':'If they betray her, the pact returns her sight. They vow to protect her forever.'},
+      {'summary':'Much later they actually betray her and abandon her during the attack.'},
+      {'summary':'She hides her restored sight. The alternative protector heals her before she learns he is the hidden king; he lets her end the engagement before the identity reveal. They make a mutual vow at home.'},
+    ]
+    r=evaluate_restitution_pact_integrity(premise,architecture,scenes)
+    assert r['checks']['beneficiaries_vow_protection_before_betrayal'] is True
