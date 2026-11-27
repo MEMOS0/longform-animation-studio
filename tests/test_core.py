@@ -3562,3 +3562,56 @@ def test_maternal_sovereignty_disclosure_is_not_costly_concealment():
     premise,architecture,scenes=_maternal_sovereignty_fixture()
     architecture['sequences'][1]={'summary':'She reveals her pregnancy to protect the baby and becomes chief healer through professional medical competence.'}
     assert evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)['checks']['pregnancy_concealment_is_protective_and_costly'] is False
+
+
+def test_restitution_pact_when_rule_without_betrayal_scene_fails_vow_order():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    architecture['sequences']=[
+      {'summary':'They vow to protect her forever after the pact.'},
+      {'summary':'When they betray her, the pact returns her sight.'},
+    ]
+    assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is False
+
+
+def test_chosen_bond_prior_denial_does_not_erase_later_forced_marriage():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    architecture['sequences']=[
+      {'summary':'At the public bonding ceremony her fated mate cheats and humiliates her; her blood essence sustained his succession.'},
+      {'summary':'She refuses him. The elf king will not force her to marry. Later the clan forces her to marry the elf king despite her refusal, though he asks consent and waits patiently.'},
+    ]
+    assert evaluate_chosen_bond_integrity(premise,architecture,scenes)['checks']['alternative_bond_is_chosen_and_consenting'] is False
+
+
+def test_maternal_sovereignty_explicit_only_after_order_counts():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][-1]={'summary':'He gives up the election campaign and loses power. Their remarriage happens only after release of control and disclosure of the truth; informed and uncoerced, she says yes as healer princess.'}
+    r=evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)
+    assert r['checks']['release_of_control_precedes_reunion'] is True
+    assert r['checks']['re_choice_is_informed_and_not_coerced'] is True
+
+
+def test_competence_cascade_multiscene_explicit_sequel_excerpt_follows_closure():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes=[
+      {'id':'epilogue1','scene_goal':'In this sequel scene after the main case, command gives her a new mission.'},
+      {'id':'epilogue2','scene_goal':'The team reacts to the sequel mission.'},
+    ]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is True
+
+
+def test_maternal_sovereignty_past_tense_hid_pregnancy_counts_with_cost():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][1]={'summary':'She hid the pregnancy to protect the baby, risking exile and custody loss, while becoming chief healer through professional medical competence.'}
+    assert evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)['checks']['pregnancy_concealment_is_protective_and_costly'] is True
+
+
+def test_maternal_sovereignty_plural_heirs_trigger_applicability():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise={'title':'Heirs of the Contract','logline':'In a contract marriage, her husband abandons her and their heirs for another woman.'}
+    architecture={'sequences':[{'summary':'The secret wife is betrayed; custody of the heirs becomes leverage.'}]}
+    assert evaluate_maternal_sovereignty_integrity(premise,architecture,[])['applies'] is True
