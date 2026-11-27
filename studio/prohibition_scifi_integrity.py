@@ -21,7 +21,7 @@ def _text(value: Any) -> str:
 
 def evaluate_prohibition_scifi_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    applies = bool(re.search(r"don'?t look up|look up|sensory prohibition|post[- ]apocalyptic|collector|eden|meridian|ai(?:\s+machine)?", full))
+    applies = bool(re.search(r"don'?t look up|look up|sensory prohibition|post[- ]apocalyptic|collector|eden|meridian|\bai\b(?:\s+machine)?", full))
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
     checks = {
@@ -32,7 +32,7 @@ def evaluate_prohibition_scifi_integrity(premise: dict[str, Any], architecture: 
         "false_paradise_exposed": bool(re.search(r"paradise.*mines|mines|erased|memory|wipe|don'?t remember|collar|control", full)),
         "rule_inversion_payoff": bool(re.search(r"look up.*safe|can look up now|look at its eyes|no one has to hide their face|what the sky looked like", full)),
         "relational_memory_closure": bool(re.search(r"remember for both|compass|find your way back|father|dad|family|home", full[-2500:])),
-        "sequel_hook_after_closure": bool(re.search(r"another eden|sequel|next|new threat", full[-1200:])) and bool(re.search(r"safe now|remember for both|build a world|home|free", full[-2500:])),
+        "sequel_hook_after_closure": (lambda tail: (lambda hooks, closures: not hooks or bool(closures and max(closures) < min(hooks)))([m.start() for m in re.finditer(r"another eden|sequel|next episode|new threat|to be continued", tail)], [m.start() for m in re.finditer(r"safe now|remember for both|build a world|home|free", tail)]))(full[-2500:]),
     }
     labels = {
         "rule_has_behavioral_cost": "sensory prohibition is exposition rather than rehearsed behavior with consequence",

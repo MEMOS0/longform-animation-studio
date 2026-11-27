@@ -1389,3 +1389,36 @@ def test_romance_deception_blackmail_alone_does_not_count_as_repair():
     premise={"title_candidates":["Fake Dating the Campus Prince"],"logline":"he blackmails her into fake dating"}
     result=evaluate_romance_deception_integrity(premise,{},[])
     assert not result['checks']['coercion_named_or_avoided']
+
+
+def test_prohibition_scifi_does_not_match_ai_inside_traitor():
+    from studio.prohibition_scifi_integrity import evaluate_prohibition_scifi_integrity
+    premise={"title_candidates":["Stormglass Keepers"],"logline":"a traitor threatens the dragon sanctuary"}
+    assert not evaluate_prohibition_scifi_integrity(premise,{},[])['applies']
+
+
+def test_romance_hidden_identity_detected_across_fields():
+    from studio.romance_deception_integrity import evaluate_romance_deception_integrity
+    premise={"title_candidates":["Hidden Identity Heir"],"logline":"a love story about marriage and choice"}
+    assert evaluate_romance_deception_integrity(premise,{},[])['applies']
+
+
+def test_romance_blocking_doorway_is_not_contact_rejection():
+    from studio.romance_deception_integrity import evaluate_romance_deception_integrity
+    premise={"title_candidates":["Her Online Boyfriend Was 16"],"logline":"he blocks the doorway and the adult keeps dating him"}
+    result=evaluate_romance_deception_integrity(premise,{},[])
+    assert not result['checks']['immediate_boundary_or_rejection']
+
+
+def test_prohibition_sequel_hook_requires_closure_before_hook():
+    from studio.prohibition_scifi_integrity import evaluate_prohibition_scifi_integrity
+    premise={"title_candidates":["Don't Look Up"],"logline":"post-apocalyptic eden"}
+    arch={"sequences":[{"turn":"another eden new threat appears, then later look up safe now and they build a world"}]}
+    assert not evaluate_prohibition_scifi_integrity(premise,arch,[])['checks']['sequel_hook_after_closure']
+
+
+def test_prohibition_no_sequel_hook_does_not_warn():
+    from studio.prohibition_scifi_integrity import evaluate_prohibition_scifi_integrity
+    premise={"title_candidates":["Don't Look Up"],"logline":"post-apocalyptic eden"}
+    arch={"sequences":[{"turn":"look up safe now and they build a world"}]}
+    assert evaluate_prohibition_scifi_integrity(premise,arch,[])['checks']['sequel_hook_after_closure']

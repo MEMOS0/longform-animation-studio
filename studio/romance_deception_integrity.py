@@ -23,14 +23,15 @@ def _text(value: Any) -> str:
 def evaluate_romance_deception_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     direct_deception = bool(re.search(r"catfish|online (?:boyfriend|girlfriend|dating|romance)|fake dat|pretend(?:ing)? to date", full))
-    romantic_hidden_identity = bool(re.search(r"(?:hidden|secret) identity.{0,100}(?:romance|dating|boyfriend|girlfriend|husband|wife|partner|love)|(?:romance|dating|boyfriend|girlfriend|husband|wife|partner|love).{0,100}(?:hidden|secret) identity", full))
+    flat = re.sub(r"\s+", " ", full)
+    romantic_hidden_identity = bool(re.search(r"(?:hidden|secret) identity.{0,160}(?:romance|dating|boyfriend|girlfriend|husband|wife|partner|love)|(?:romance|dating|boyfriend|girlfriend|husband|wife|partner|love).{0,160}(?:hidden|secret) identity", flat))
     applies = direct_deception or romantic_hidden_identity
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
     minor_risk = bool(re.search(r"\b(?:1[1-7]|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|minor|underage|teenager|teen(?:age)?|sixth grader|fifth grade|child)\b", full))
     checks = {
-        "immediate_boundary_or_rejection": bool(re.search(r"reject|delete|end(?:s|ed)? the interaction|never meet|not a romance|too young|block(?:s|ed)?(?: him| her)?|cut(?:s)? off contact", full)),
+        "immediate_boundary_or_rejection": bool(re.search(r"reject|delete|end(?:s|ed)? the interaction|never meet|not a romance|too young|block(?:s|ed)? (?:the contact|the number|his number|her number|him online|her online)|blocked him|blocked her|cut(?:s)? off contact", full)),
         "exploitation_safeguarding_audit": bool(re.search(r"sexual or inappropriate|inappropriate messages|ask(?:ed)? for money|safeguard|only played games|no romantic|no sexual", full)),
         "adult_accountability_for_minor": bool(re.search(r"parent|mother|father|brother|guardian|discipline|apologiz|phone (?:was )?(?:taken|removed|gone)|handle him|control your", full)),
         "consent_aware_physical_escalation": bool(re.search(r"no kissing|can i kiss|ask(?:s|ed)? (?:before|permission)|let go|boundar|consent|not negotiable", full)),
