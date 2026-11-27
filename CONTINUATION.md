@@ -842,3 +842,5 @@ Continue immediately with non-creature low-subscriber queue: `s-Zn2WhkkH8`, `wHW
 - Fresh clone is now on `devin/1795803830-jasmine-reborn-school-analysis` at `514abd7` plus this checkpoint. Verified media exists: `C:/Users/Administrator/evidence_tmp/AaLngUHEqVY.mp4`, about 421 MiB.
 - Launched full media analysis in background shell `b81bd8`: `python -m studio.media_analysis /c/Users/Administrator/evidence_tmp/AaLngUHEqVY.mp4 data/raw/piped/AaLngUHEqVY.en.ttml evidence/media/AaLngUHEqVY AaLngUHEqVY`. Log: `C:/Users/Administrator/evidence_tmp/aalng-analysis.log`.
 - Next: inspect log/output, then contact sheets/transcript windows and thumbnail. Remember the new PR #6 review may complete separately; handle it first if findings arrive.
+
+Correction: first analyzer launch failed because `evidence/media` was absent. Relaunched successfully in background shell `a44639`; same command/log.
