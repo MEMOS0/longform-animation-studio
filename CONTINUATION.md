@@ -594,3 +594,10 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - Added `prohibition_scifi_integrity.py` to production evaluation. Committed report `knowledge/market/fantasy-movie-kingdom-2050-prohibition-scifi-deep-dive.md` and evidence under `evidence/research/rediscovery_analysis/ylN26llRtmw/`.
 - Devin Review round at 6c503f7 was fixed/triaged: scene overrun masking, romance validator false-positive scope, teen age detection, age-disclosure rejection, blackmail repair suppression.
 - Next priority queue candidates: `oHKc_rXrxm8` (50m alien/Gladiator pregnancy), `Gx7nwqNr9YY` (100m werewolf surrogate), then refresh low-subscriber breakout scan.
+
+## 2026-11-27 Velvet Romance family-exit checkpoint
+
+- Downloaded/analyzed `oHKc_rXrxm8` (62:56 vertical family-favoritism exit melodrama, about 757k views at collection, roughly 30.5k subscribers). Fresh-scan label was misleading; actual video is not alien sci-fi.
+- Major doctrine candidate: material inequity evidence -> medical neglect -> chosen-family operational care -> quiet procedural exit -> boundary dialogue -> partial reconciliation without forced forgiveness.
+- Committed report `knowledge/market/velvet-romance-family-favoritism-exit-deep-dive.md` and evidence under `evidence/research/rediscovery_analysis/oHKc_rXrxm8/`.
+- Next: implement family-favoritism exit validator, then analyze `Gx7nwqNr9YY` or refresh breakout scan.
