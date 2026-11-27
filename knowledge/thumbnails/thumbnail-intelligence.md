@@ -175,3 +175,9 @@ The Lioren thumbnail uses a contemporary hidden-royalty composite: hooded poor-s
 Evidence source: `knowledge/market/drama-aura-whispering-relics-object-testimony-provenance-deep-dive.md` and `data/raw/thumbnails/drama_aura/23iAlK2FVyA.maxresdefault.webp`.
 
 This thumbnail sells mechanism directly: protagonist centered with open hands while clocks, jewelry, papers, pearls, books, and relics orbit in golden magical trails. It avoids reducing the premise to romance/wealth and instead promises object memory. Useful original-design principle: when the hook is perception/authorship, let multiple meaningful objects create orbital visual rhythm around the protagonist rather than using a generic couple embrace.
+
+## Hidden-competence split-self crowd thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/jasmine-drama-reborn-assassin-competence-cascade-deep-dive.md` and `data/raw/thumbnails/jasmine_drama/AaLngUHEqVY.maxresdefault.jpg`.
+
+The Jasmine thumbnail uses a hidden-competence split-self crowd pattern: socially trapped schoolgirl victim in the foreground, spatially separated armed alter ego behind her, and a public humiliation crowd surrounding both. It differs from a simple before/after transformation split because the crowd supplies moral pressure and the hidden self supplies competence in the same frame. Reusable mechanism: present victimhood + hidden-power self + hostile audience must form one mobile-legible triangle. Do not copy the schoolgirl/knife composition; design an original triangle around the film's actual wound, competence, and public misrecognition.

@@ -504,3 +504,9 @@ Read `knowledge/market/lioren-billionaire-scholarship-hidden-wealth-counterexamp
 Before greenlighting magical appraisal/object-memory fantasy, read `knowledge/market/drama-aura-whispering-relics-object-testimony-provenance-deep-dive.md`. The portable mechanism is limited object testimony, material/procedural verification, professional craft before power, object personhood/history, ownership/provenance interrogation, cultural restoration, exploitation risk, and chosen identity over blood/family/romantic absorption.
 
 Use the `object_testimony_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy Nia, the relic plot, object inventory, or thumbnail composition; extract the mechanism and build original stories.
+
+## 2026-11-27 hidden-mastery competence-cascade doctrine update
+
+Before greenlighting reborn/hidden-assassin, secret-prodigy, bullied-expert, or long-form hidden-mastery revenge stories, read `knowledge/market/jasmine-drama-reborn-assassin-competence-cascade-deep-dive.md`. The portable mechanism is not “secretly strong person slaps bullies.” It is intimate public violation + family/economic care anchor + early kinetic proof + distinct competence domains + institutional arena rotation + ethical loyalty testing + provenance/procedural accountability + ally support without ownership + identity/family/justice closure before any sequel mission hook.
+
+Use the `competence_cascade_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy Jasmine Drama's assassin-schoolgirl plot, exact arena sequence, dialogue, or thumbnail; extract the mechanism and build original stories. The romantic negative example is important: refusal-overriding sexual banter such as “you have no right to refuse” is a hard consent failure, not passion.

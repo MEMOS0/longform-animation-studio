@@ -2720,3 +2720,57 @@ def test_object_testimony_speaks_volumes_idiom_not_applicable():
     from studio.object_testimony_integrity import evaluate_object_testimony_integrity
     premise={"title":"Museum Artifact","logline":"The artifact speaks volumes about museum history, provenance, and restoration."}
     assert evaluate_object_testimony_integrity(premise,{},[])["applies"] is False
+
+
+def _competence_cascade_fixture():
+    premise={
+        "title":"The Quiet Blade",
+        "logline":"A reborn assassin in a bullied scholarship student's body protects her poor family and takes revenge after classmates publicly read her diary.",
+    }
+    architecture={
+        "sequences":[
+            {"summary":"School bullies publicly read her diary and humiliate her. Her mother cares for her in hospital while her brother sacrifices school and the family faces medical debt."},
+            {"summary":"She proves hidden competence early in a night race, then uses combat skill against debt collectors while explaining the clean source of prize money and evidence."},
+            {"summary":"The academy math contest, military shooting training, hospital family scenes, elite banquet, underground arena, and police investigation rotate the same wound through new institutions."},
+            {"summary":"During a team test she refuses to abandon a wounded comrade and shields a subordinate, proving loyalty is the real standard."},
+        ],
+        "ending_payoff":{"repair":"Police, law, and a public apology close the conspiracy. The ally stands with her without taking over, respects her choice, justice and family belonging land, and only then a new mission calls her back."},
+    }
+    scenes=[{"summary":"She becomes a special agent and instructor; marriage is framed by explicit mutual consent and she freely chooses intimacy."}]
+    return premise,architecture,scenes
+
+
+def test_competence_cascade_integrity_balanced_example_passes_core_checks():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    r=evaluate_competence_cascade_integrity(premise,architecture,scenes)
+    assert r["applies"] is True
+    assert r["checks"]["distinct_competence_domains"] is True
+    assert r["checks"]["institutional_arena_rotation"] is True
+    assert r["checks"]["ethical_loyalty_test"] is True
+    assert r["checks"]["closure_before_mission_hook"] is True
+    assert r["checks"]["romance_or_intimacy_respects_refusal"] is True
+
+
+def test_competence_cascade_integrity_flags_refusal_overriding_romance():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes.append({"summary":"When she asks him to stop, he laughs that she has no right to refuse."})
+    r=evaluate_competence_cascade_integrity(premise,architecture,scenes)
+    assert r["checks"]["romance_or_intimacy_respects_refusal"] is False
+    assert any("coercive refusal" in w for w in r["warnings"])
+
+
+def test_competence_cascade_integrity_flags_hook_before_closure():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture["ending_payoff"]={"repair":"A new mission calls her back immediately. Much later, justice and family belonging are only vaguely mentioned."}
+    r=evaluate_competence_cascade_integrity(premise,architecture,scenes)
+    assert r["checks"]["closure_before_mission_hook"] is False
+
+
+def test_competence_cascade_integrity_not_applicable_without_hidden_mastery_reversal():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise={"title":"Gentle Garden","logline":"A gardener repairs a community greenhouse."}
+    r=evaluate_competence_cascade_integrity(premise,{},[])
+    assert r["applies"] is False

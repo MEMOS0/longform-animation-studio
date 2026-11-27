@@ -13,6 +13,7 @@ import json
 import math
 import re
 import subprocess
+import tempfile
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any
@@ -193,7 +194,8 @@ def sample_video_frames(video: Path, output_dir: Path, contact_every: int = 20, 
         "ffmpeg", "-v", "error", "-i", str(video), "-vf", f"fps={FPS_SAMPLE},scale={frame_w}:{frame_h}",
         "-f", "rawvideo", "-pix_fmt", "bgr24", "-"
     ]
-    proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    stderr_capture = tempfile.TemporaryFile()
+    proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=stderr_capture)
     assert proc.stdout is not None
     frame_size = frame_w * frame_h * 3
     rows: list[dict[str, Any]] = []
@@ -215,8 +217,10 @@ def sample_video_frames(video: Path, output_dir: Path, contact_every: int = 20, 
             thumbs.append((second, Image.fromarray(rgb).resize((tile_w, tile_h))))
         previous = frame
         second += 1
-    stderr = proc.stderr.read().decode("utf-8", "ignore") if proc.stderr else ""
     proc.wait()
+    stderr_capture.seek(0)
+    stderr = stderr_capture.read().decode("utf-8", "ignore")
+    stderr_capture.close()
     if proc.returncode != 0 and not rows:
         raise RuntimeError(stderr)
 

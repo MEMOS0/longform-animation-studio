@@ -44,6 +44,7 @@ from .economic_abandonment_integrity import evaluate_economic_abandonment_integr
 from .wrongful_accusation_integrity import evaluate_wrongful_accusation_integrity
 from .revenge_autonomy_integrity import evaluate_revenge_autonomy_integrity
 from .object_testimony_integrity import evaluate_object_testimony_integrity
+from .competence_cascade_integrity import evaluate_competence_cascade_integrity
 from .visual_causality import evaluate_visual_causality
 from .hidden_identity_integrity import evaluate_hidden_identity_integrity
 from .scale_community_integrity import evaluate_scale_community_integrity
@@ -338,6 +339,7 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "wrongful_accusation_integrity": evaluate_wrongful_accusation_integrity(premise, architecture, scenes),
         "revenge_autonomy_integrity": evaluate_revenge_autonomy_integrity(premise, architecture, scenes),
         "object_testimony_integrity": evaluate_object_testimony_integrity(premise, architecture, scenes),
+        "competence_cascade_integrity": evaluate_competence_cascade_integrity(premise, architecture, scenes),
         "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes), "storyboards": len(boards)},
         "gates": gate_report(schema_errors, failure, scene_report, architecture_report, bool(architecture), bool(scenes), board_report),
     }
