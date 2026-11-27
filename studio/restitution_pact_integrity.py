@@ -47,17 +47,19 @@ def evaluate_restitution_pact_integrity(premise: dict[str, Any], architecture: d
     betrayal_pattern = r"betray|unfaithful|cheat|chose not to turn around|abandon|false victim|frame[sd]?|took (?:her|his|their) blood|cut out"
     betrayal_pos = None
     for betrayal_match in re.finditer(betrayal_pattern, chronology):
-        prefix = chronology[max(0, betrayal_match.start() - 30):betrayal_match.start()]
-        conditional_marker = re.search(r"\b(?:if|unless)\b[^.!?]{0,30}$", prefix)
         sentence_start = max(
             chronology.rfind(".", 0, betrayal_match.start()),
             chronology.rfind("!", 0, betrayal_match.start()),
             chronology.rfind("?", 0, betrayal_match.start()),
+            chronology.rfind("\n", 0, betrayal_match.start()),
         ) + 1
+        prefix = chronology[sentence_start:betrayal_match.start()]
+        conditional_marker = re.search(r"\b(?:if|unless)\b[^.!?]{0,30}$", prefix)
         sentence_ends = [pos for pos in [
             chronology.find(".", betrayal_match.end()),
             chronology.find("!", betrayal_match.end()),
             chronology.find("?", betrayal_match.end()),
+            chronology.find("\n", betrayal_match.end()),
         ] if pos != -1]
         sentence_end = min(sentence_ends) if sentence_ends else len(chronology)
         betrayal_sentence = chronology[sentence_start:sentence_end]
