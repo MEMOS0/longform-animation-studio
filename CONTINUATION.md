@@ -844,3 +844,5 @@ Continue immediately with non-creature low-subscriber queue: `s-Zn2WhkkH8`, `wHW
 - Next: inspect log/output, then contact sheets/transcript windows and thumbnail. Remember the new PR #6 review may complete separately; handle it first if findings arrive.
 
 Correction: first analyzer launch failed because `evidence/media` was absent. Relaunched successfully in background shell `a44639`; same command/log.
+
+Correction 2: CLI requires flags. Correct analyzer shell is `f4748a`: `python -m studio.media_analysis /c/Users/Administrator/evidence_tmp/AaLngUHEqVY.mp4 --subtitle data/raw/piped/AaLngUHEqVY.en.ttml --output-dir evidence/media/AaLngUHEqVY --video-id AaLngUHEqVY`.
