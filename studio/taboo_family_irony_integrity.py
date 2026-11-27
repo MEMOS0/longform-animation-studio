@@ -70,7 +70,7 @@ def evaluate_taboo_family_irony_integrity(premise: dict[str, Any], architecture:
     coercion_unrepaired = coercion_present and not repair_behavior
 
     agency_text = re.sub(r"no right to refuse|can.?t refuse|cannot refuse|won.?t take no", " ", flat)
-    protagonist_agency = bool(re.search(r"we are done|she rejects|he rejects|she refuses|he refuses|stay away|can leave|free to leave|she decides|he decides|(?:she|he|they|protagonist|heroine) chooses? to leave|tells? (?:him|her|them) no|walks? away|asks? for (?:an )?annulment|right to refuse", agency_text))
+    protagonist_agency = bool(re.search(r"we are done|she rejects|he rejects|she refuses|he refuses|stay away|can leave|free to leave|she decides|he decides|chooses? to leave (?:him|her|them|the partner|the marriage|the relationship)|tells? (?:him|her|them) no|walks? away|asks? for (?:an )?annulment|right to refuse", agency_text))
     truth_revealed = bool(re.search(r"truth|no more lies|identity is revealed|learns? who|realizes? who", flat))
 
     shared_reveal = bool(re.search(r"(?:audience|viewer|viewer.?s|reader).{0,50}learn.{0,30}together|(?:audience|viewer|viewer.?s|reader).{0,50}(?:same time|with the characters)|characters and (?:audience|viewers|readers) learn", flat))

@@ -3130,3 +3130,36 @@ def test_taboo_family_irony_access_internet_coercion_and_bestfriend_departure():
     assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['possessiveness_is_flaw_not_reward'] is False
     architecture={'sequences':[{'summary':'The best friend chooses to leave town for college.'}]}
     assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['protagonist_can_reject_power'] is False
+
+
+def test_competence_cascade_explicit_before_order_beats_field_order():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['ending_payoff']={'repair':'Status epilogue.'}
+    scenes=[{'visual_action':'Final reunion image: the family is reunited.','dialogue_design':'The commander offers a new mission before this final reunion image.'}]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is False
+
+
+def test_competence_cascade_separate_payoff_field_sequel_mystery_not_original():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['sequences'][-1]={'summary':'Police close the conspiracy.'}
+    architecture['ending_payoff']={'repair':'The case is closed and the family is reunited.','sequel':'The new case mystery remains open for the next mission.'}
+    assert evaluate_competence_cascade_integrity(premise,architecture,[])['checks']['closure_before_mission_hook'] is True
+
+
+def test_competence_cascade_role_acceptance_closure_and_fresh_assignment_hook():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['ending_payoff']={'repair':'Status epilogue.'}
+    good=[{'summary':'She earns her new role and finds acceptance. Only then command gives her a fresh case.'}]
+    bad=[{'summary':'Command gives her a fresh case before she earns her new role and finds acceptance.'}]
+    assert evaluate_competence_cascade_integrity(premise,architecture,good)['checks']['closure_before_mission_hook'] is True
+    assert evaluate_competence_cascade_integrity(premise,architecture,bad)['checks']['closure_before_mission_hook'] is False
+
+
+def test_taboo_family_irony_named_protagonist_chooses_to_leave_partner():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Bestie Parent','logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
+    architecture={'sequences':[{'summary':'After the reveal, Lily chooses to leave him.'}]}
+    assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['protagonist_can_reject_power'] is True
