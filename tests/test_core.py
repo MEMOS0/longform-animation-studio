@@ -1193,3 +1193,11 @@ def test_compound_serial_expansion_format_is_not_duration_causality():
     assert any('not proof that longer duration' in row for row in result['recommendations'])
     inferred=format_strategy(47,'compound expansion with reused footage','long_feature')
     assert any('duration is not mistaken' in warning for warning in inferred['warnings'])
+
+
+def test_future_compound_expansion_guidance_does_not_reclassify_current_release():
+    from studio.premise_generator import generate_premises,evaluate_generated_premise
+    premise=generate_premises('compressed_creature_survival',1,24)[0]
+    result=evaluate_generated_premise(premise,[])['format_strategy']
+    assert result['format_class']=='short_feature'
+    assert not any('compound/serial expansion' in warning or 'episodic labeling' in warning for warning in result['warnings'])

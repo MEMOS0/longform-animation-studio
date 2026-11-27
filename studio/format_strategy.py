@@ -75,6 +75,28 @@ BASE_RULES = {
 }
 
 
+def premise_text_for_format_inference(premise: dict[str, Any]) -> str:
+    """Flatten premise text without optional future compound-expansion guidance.
+
+    The expansion plan is packaging advice for a later reuse decision, not the
+    current release format, so it must not trigger episodic/prequel inference.
+    """
+    import copy
+    cleaned = copy.deepcopy(premise)
+    packaging = cleaned.get("packaging")
+    if isinstance(packaging, dict):
+        packaging.pop("compound_expansion", None)
+    def flat(value: Any) -> str:
+        if isinstance(value, str):
+            return value
+        if isinstance(value, dict):
+            return "\n".join(flat(v) for v in value.values())
+        if isinstance(value, list):
+            return "\n".join(flat(v) for v in value)
+        return ""
+    return flat(cleaned)
+
+
 def infer_format_flags(text: str) -> dict[str, bool]:
     low = text.lower()
     episodic = bool(re.search(r"\b(episode|ep\.?|part)\s*\d+\b|to be continued|cliffhanger", low))

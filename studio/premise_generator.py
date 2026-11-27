@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Any
 
 from .failure_intelligence import evaluate_candidate
-from .format_strategy import format_strategy
+from .format_strategy import format_strategy, premise_text_for_format_inference
 from .meaning_carrier import evaluate_meaning_carrier
 from .relational_contract import evaluate_relational_contract
 from .spatial_status import evaluate_spatial_status
@@ -320,7 +320,7 @@ def evaluate_generated_premise(premise: dict[str, Any], archive_rows: list[dict[
     return {
         "premise_id": premise.get("premise_id"),
         "failure_intelligence": evaluate_candidate((premise.get("title_candidates") or ["untitled"])[0], archive_rows, combined),
-        "format_strategy": format_strategy(premise.get("target_minutes"), combined, premise.get("release_format", "")),
+        "format_strategy": format_strategy(premise.get("target_minutes"), premise_text_for_format_inference(premise), premise.get("release_format", "")),
         "meaning_carrier": evaluate_meaning_carrier(premise, {}),
         "relational_contract": evaluate_relational_contract(premise),
         "spatial_status": evaluate_spatial_status(premise, {}, []),

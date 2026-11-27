@@ -10,7 +10,7 @@ from typing import Any
 from jsonschema import Draft202012Validator
 
 from .failure_intelligence import evaluate_candidate
-from .format_strategy import format_strategy
+from .format_strategy import format_strategy, premise_text_for_format_inference
 from .channel_contracts import evaluate_channel_fit
 from .production_economics import estimate_video_budget
 from .shot_pipeline import build_shot_plan
@@ -280,7 +280,7 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "failure_intelligence": failure,
         "scene_quality": scene_report,
         "architecture_quality": architecture_report,
-        "format_strategy": format_strategy(premise.get("target_minutes"), combined, premise.get("release_format", "")),
+        "format_strategy": format_strategy(premise.get("target_minutes"), "\n".join([premise_text_for_format_inference(premise), flatten_text(architecture), flatten_text(scenes)]), premise.get("release_format", "")),
         "opening_conversion_quality": opening_conversion_quality(premise),
         "title_packaging": {"existing_title_critiques": [{"title": title, "critique": critique_title(title, premise)} for title in premise.get("title_candidates", [])], "generated_alternatives": generate_title_candidates(premise)},
         "thumbnail_concepts": [{"concept": concept, "critique": critique_concept(concept)} for concept in generate_concepts(premise)],
