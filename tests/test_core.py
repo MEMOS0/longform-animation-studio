@@ -2488,3 +2488,36 @@ def test_economic_abandonment_present_tense_spousal_abandonment_applies():
     premise={"title":"Drained","logline":"A husband abandons his wife and drains their bank accounts."}
     r=evaluate_economic_abandonment_integrity(premise,{"sequences":[]},[])
     assert r["applies"] is True
+
+
+def test_affirmative_match_does_not_negate_across_unrelated_noun():
+    from studio.wrongful_accusation_integrity import evaluate_wrongful_accusation_integrity
+    premise={"title":"Framed","logline":"A student is framed for theft, expelled, loses scholarship and reputation, becomes homeless."}
+    arch={"sequences":[{"summary":"She has no money but she checks the evidence. The court and judge verify records. His tools and repair work give him a job. He says not with your money. The school offers readmission. He will ask and she says yes."}]}
+    r=evaluate_wrongful_accusation_integrity(premise,arch,[])
+    assert r["checks"]["love_interest_investigates_instead_of_instantly_believing"] is True
+    assert r["checks"]["truth_chain_is_procedural"] is True
+
+
+def test_wrongful_accusation_ending_tail_boundaries():
+    from studio.wrongful_accusation_integrity import _ending_tail
+    five="One. Two. Three. Four. Final reunion."
+    assert "Final reunion." in _ending_tail(five)
+    assert "Four." in _ending_tail(five)
+    assert "One." not in _ending_tail(five)
+    unpunctuated="opening evidence middle evidence final reinstatement reunion"
+    tail=_ending_tail(unpunctuated)
+    assert "reinstatement" in tail
+    assert "opening" not in tail
+
+
+def test_justified_expulsion_does_not_trigger_wrongful_accusation():
+    from studio.wrongful_accusation_integrity import evaluate_wrongful_accusation_integrity
+    premise={"title":"Consequences","logline":"A student is expelled for actual cheating and loses his scholarship."}
+    assert evaluate_wrongful_accusation_integrity(premise,{"sequences":[]},[])["applies"] is False
+
+
+def test_refusing_abandonment_does_not_trigger_economic_abandonment():
+    from studio.economic_abandonment_integrity import evaluate_economic_abandonment_integrity
+    premise={"title":"Stay","logline":"A husband refuses to abandon his family as debt mounts and the bank calls."}
+    assert evaluate_economic_abandonment_integrity(premise,{"sequences":[]},[])["applies"] is False
