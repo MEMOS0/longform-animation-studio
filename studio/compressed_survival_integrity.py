@@ -45,7 +45,12 @@ def evaluate_compressed_survival_integrity(premise: dict[str, Any], architecture
         "muted_visual_intelligibility": bool(re.search(r"visual objective|sound off|muted|first_image|final_image", full) and len(scene_visuals) > 300),
     }
     expected_scene_count = len(sequences)
-    scene_coverage_ratio = min(len(scenes) / expected_scene_count, 1.0) if expected_scene_count else 0.0
+    scene_keys = []
+    for index, scene in enumerate(scenes):
+        key = scene.get("scene_id") or scene.get("sequence") or scene.get("time_range") or index
+        scene_keys.append(str(key))
+    unique_scene_count = len(set(scene_keys))
+    scene_coverage_ratio = min(unique_scene_count / expected_scene_count, 1.0) if expected_scene_count else 0.0
     checks["complete_scene_coverage"] = bool(expected_scene_count and scene_coverage_ratio >= 1.0)
     warnings = []
     labels = {
@@ -71,5 +76,6 @@ def evaluate_compressed_survival_integrity(premise: dict[str, Any], architecture
         "warnings": warnings,
         "checks": checks,
         "scene_coverage_ratio": round(scene_coverage_ratio, 3),
+        "unique_scene_count": unique_scene_count,
         "craft_rule": "Compressed creature survival should pay a legible role/creature/location contract early, build muted visual objectives, differentiate predator from vulnerable/cooperative life, use occupational competence as climax machinery, convert escape into reciprocal rescue, and close through recognition/contact rather than explosion alone.",
     }

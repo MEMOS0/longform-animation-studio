@@ -1091,3 +1091,18 @@ def test_compressed_survival_architecture_uses_survival_midpoint_and_ending():
     assert 'captives and the creature are freed' in arch['ending_payoff']['justice']
     assert 'frame-up' not in arch['midpoint_reversal']
     assert 'true manipulator' not in arch['ending_payoff']['justice']
+
+
+def test_compressed_survival_integrity_duplicate_scene_does_not_count_twice():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.compressed_survival_integrity import evaluate_compressed_survival_integrity
+    premise=generate_premises('compressed_creature_survival',1,18)[0]
+    arch=generate_architecture(premise)
+    scenes=generate_scenes(premise,arch)
+    duplicate_draft=[scenes[0],dict(scenes[0])]
+    result=evaluate_compressed_survival_integrity(premise,arch,duplicate_draft)
+    assert result['unique_scene_count']==1
+    assert result['checks']['complete_scene_coverage'] is False
+    assert result['score_0_to_1'] < 0.2
