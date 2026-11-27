@@ -2850,3 +2850,42 @@ def test_compressed_wish_integrity_flags_vending_machine_reward():
     assert r["checks"]["wish_carrier_is_vulnerable_or_personlike"] is False
     assert r["checks"]["sacrifice_before_reward"] is False
     assert r["score_0_to_1"] < 0.5
+
+
+def test_competence_cascade_hook_before_closure_across_scene_order_fails():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['ending_payoff']={'repair':'Status victory is mentioned.'}
+    scenes=[
+      {"summary":"Command gives her a new mission."},
+      {"summary":"Only afterward does she reunite with family and belonging."},
+    ]
+    r=evaluate_competence_cascade_integrity(premise,architecture,scenes)
+    assert r['checks']['closure_before_mission_hook'] is False
+
+
+def test_competence_cascade_consensual_continued_kissing_passes():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes.append({"summary":"They both consent enthusiastically, and he keeps kissing her as she pulls him closer."})
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['romance_or_intimacy_respects_refusal'] is True
+
+
+def test_competence_cascade_midpoint_reversal_coercion_is_checked():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['midpoint_reversal']='During intimacy she says stop, but he keeps kissing her.'
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['romance_or_intimacy_respects_refusal'] is False
+
+
+def test_compressed_wish_reward_before_sacrifice_fails_order():
+    from studio.compressed_wish_integrity import evaluate_compressed_wish_integrity
+    premise={"title":"The Tide Star","logline":"A mermaid son wishes for a tail because he feels slow between sea and land."}
+    architecture={"sequences":[{"summary":"He follows the wishing star, which is a creature baby. In the sea a tail appears and his wish comes true. Much later he gives the baby back and says for you."}]}
+    assert evaluate_compressed_wish_integrity(premise,architecture,[])['checks']['sacrifice_before_reward'] is False
+
+
+def test_compressed_wish_details_do_not_mean_tail():
+    from studio.compressed_wish_integrity import evaluate_compressed_wish_integrity
+    premise={"title":"Family Mystery","logline":"A mother wishes detectives would uncover the details of a realistic family mystery."}
+    assert evaluate_compressed_wish_integrity(premise,{},[])['applies'] is False

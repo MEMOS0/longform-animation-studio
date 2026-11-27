@@ -69,7 +69,6 @@ def _has_coercive_intimacy(text: str) -> bool:
         r"won.?t take no",
         r"forced? .*?(?:bed|sex|kiss|intimacy)",
         r"(?:ignores|ignored|ignoring).{0,35}(?:no|refusal|stop)",
-        r"(?:keeps|kept|continues|continued).{0,35}(?:kissing|touching|undressing|after .*?(?:no|stop))",
         r"(?:said|says|asked|begged).{0,30}(?:no|stop).{0,50}(?:keeps|kept|continues|continued|doesn.?t stop)",
         r"belong completely to me",
         r"you are mine now",
@@ -88,6 +87,9 @@ def _artifact_units(premise: dict[str, Any], architecture: dict[str, Any], scene
     sequences = architecture.get("sequences") if isinstance(architecture, dict) else None
     if isinstance(sequences, list):
         units.extend(_text(sequence).lower() for sequence in sequences)
+        for key, value in architecture.items():
+            if key not in {"sequences", "ending_payoff"}:
+                units.append(_text(value).lower())
     elif architecture:
         units.append(_text(architecture).lower())
     ending_payoff = architecture.get("ending_payoff") if isinstance(architecture, dict) else None
@@ -158,9 +160,20 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
 
     positive_closure = False
     explicit_hook_before_closure = False
-    for unit in ending_units:
-        hook_match = re.search(hook_pattern, unit)
-        closure_match = re.search(closure_pattern, unit)
+    ordered_groups = []
+    if isinstance(architecture, dict):
+        architecture_units = []
+        sequences = architecture.get("sequences")
+        if isinstance(sequences, list) and sequences:
+            architecture_units.append(_text(sequences[-1]).lower())
+        if architecture.get("ending_payoff"):
+            architecture_units.append(_text(architecture.get("ending_payoff")).lower())
+        ordered_groups.append("\n".join(architecture_units))
+    if scenes:
+        ordered_groups.append("\n".join(_text(scene).lower() for scene in scenes))
+    for ordered_text in ordered_groups:
+        hook_match = re.search(hook_pattern, ordered_text)
+        closure_match = re.search(closure_pattern, ordered_text)
         if closure_match and (not hook_match or closure_match.start() < hook_match.start()):
             positive_closure = True
         if hook_match and closure_match and hook_match.start() < closure_match.start():
