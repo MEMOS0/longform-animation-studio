@@ -263,7 +263,8 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
         closure_before_hook = False
     elif scene_order == "hook_only" and architecture_has_closure:
         scene_text_joined = " ".join(scene_texts) if scenes else ""
-        explicit_sequel_excerpt = bool(re.search(r"sequel excerpt|sequel scene|after the main case|following the closure", scene_text_joined))
+        hook_scene_text = scene_texts[first_hook[0]] if first_hook is not None else scene_text_joined
+        explicit_sequel_excerpt = bool(re.search(r"sequel excerpt|sequel scene|after the main case|following the closure", hook_scene_text))
         closure_before_hook = explicit_sequel_excerpt
     elif architecture_positive:
         closure_before_hook = True
