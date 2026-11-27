@@ -19,8 +19,14 @@ def _first(pattern: str, text: str) -> int | None:
 
 def _first_non_negated(pattern: str, text: str) -> int | None:
     for match in re.finditer(pattern, text):
-        prefix = text[max(0, match.start() - 24):match.start()]
-        if not re.search(r"refus|without|withhold|never|not\s*$", prefix):
+        sentence_start = max(
+            text.rfind(".", 0, match.start()),
+            text.rfind("!", 0, match.start()),
+            text.rfind("?", 0, match.start()),
+            text.rfind("\n", 0, match.start()),
+        ) + 1
+        prefix = text[sentence_start:match.start()]
+        if not re.search(r"\b(?:refus\w*|withhold\w*|without|never|not)\b\s+(?:to\s+)?$", prefix):
             return match.start()
     return None
 
@@ -28,7 +34,7 @@ def _first_non_negated(pattern: str, text: str) -> int | None:
 def _explicit_prerequisite_order(text: str, outcome_pattern: str, prerequisite_pattern: str) -> bool:
     pattern = outcome_pattern + r"[^.!?]{0,60}(?:only )?after[^.!?]{0,90}" + prerequisite_pattern
     for match in re.finditer(pattern, text):
-        if not re.search(r"refus|without|withhold|never|not", match.group(0)):
+        if not re.search(r"\b(?:refus\w*|withhold\w*|without|never|not)\b", match.group(0)):
             return True
     return False
 
