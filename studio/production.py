@@ -34,6 +34,7 @@ from .animal_guise_consent import evaluate_animal_guise_consent
 from .creature_power_inversion import evaluate_creature_power_inversion
 from .found_family_guardian_integrity import evaluate_found_family_guardian_integrity
 from .child_power_obsolescence import evaluate_child_power_obsolescence
+from .epic_creature_extraction import evaluate_epic_creature_extraction
 from .visual_causality import evaluate_visual_causality
 from .hidden_identity_integrity import evaluate_hidden_identity_integrity
 from .scale_community_integrity import evaluate_scale_community_integrity
@@ -318,6 +319,7 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "creature_power_inversion": evaluate_creature_power_inversion(premise, architecture, scenes),
         "found_family_guardian_integrity": evaluate_found_family_guardian_integrity(premise, architecture, scenes),
         "child_power_obsolescence": evaluate_child_power_obsolescence(premise, architecture, scenes),
+        "epic_creature_extraction": evaluate_epic_creature_extraction(premise, architecture, scenes),
         "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes), "storyboards": len(boards)},
         "gates": gate_report(schema_errors, failure, scene_report, architecture_report, bool(architecture), bool(scenes), board_report),
     }

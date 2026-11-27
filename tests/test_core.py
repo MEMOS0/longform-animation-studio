@@ -1903,3 +1903,20 @@ def test_guardian_of_plural_children_applies():
     from studio.found_family_guardian_integrity import evaluate_found_family_guardian_integrity
     r=evaluate_found_family_guardian_integrity({"logline":"a troll becomes guardian of the children he rescued"},{},[])
     assert r['applies']
+
+
+def test_epic_creature_extraction_full_chain_passes():
+    from studio.epic_creature_extraction import evaluate_epic_creature_extraction
+    p={"logline":"In a kingdom at war, creatures feed shelter and teach a human child in their valley community. A royal army uses capture wagons to drain creature essence as energy for the holy fire. The boy's blood lights a stone, so power use exposes him. Archives, guard rotations, service passages and evidence guide infiltration. A rescued prisoner cannot stop his hands because of mind control. In the end they destroy the source even though souls are trapped inside and the kingdom is left in darkness, then rebuild another way, remember the lost, welcome people home, and choose peace day after day."}
+    r=evaluate_epic_creature_extraction(p,{},[])
+    assert r['applies']
+    assert r['score_0_to_1'] == 1.0
+
+
+def test_epic_creature_extraction_flags_costless_villain_defeat():
+    from studio.epic_creature_extraction import evaluate_epic_creature_extraction
+    p={"logline":"In a kingdom at war, a royal army drains dragon essence for energy. The hero kills the villain and the story ends."}
+    r=evaluate_epic_creature_extraction(p,{},[])
+    assert r['applies']
+    assert not r['checks']['communal_consequence_or_peace_maintenance']
+    assert not r['checks']['liberation_trauma_persists']
