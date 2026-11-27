@@ -117,3 +117,12 @@ Evidence scope: maximum-resolution archived thumbnails plus metadata; no CTR/ret
 - Zephyr hit `YdN5ESTxUNc`: centered female academy protagonist actively demonstrates multiple color-coded elemental systems at once, with fire/ice/lightning/nature, glyph circles, castle, and shocked classmates. The exact impossible combination promised in the title is visible. Low `3Kb6hBUwq0o`: polished male mage holds one glowing orb before court/castle onlookers; competent but closer to generic hidden-master power.
 - Dragonveil hit `6JGkPoF7gKE`: scarred woman and dragon in intimate eye-level proximity against snow, no explanatory typography; relational bond is the whole image. Sequel low `Fmc1I4MhL5U`: king/heroine/dragon/egg/fire/title/4K badge crowd the frame; scale replaces relational clarity.
 - Reusable lesson: fantasy breakout thumbnails benefit when the image visualizes the specific impossible mechanism or bond, not just power aura or war scale.
+
+## Ghibli Cozy Journey disaster-shelter thumbnail contrast
+
+Evidence scope: maximum-resolution archived thumbnails plus metadata; no CTR/retention data, so no causal CTR claims.
+
+- Hit `nXgxtduBGUc` compresses the entire disaster-shelter mechanism into one interior impossibility: floodwater inside a wooden home, family compressed on the stairs, lantern warmth, multi-generational faces, and the Shiba dog. A mobile viewer reads danger + home + care without needing the title.
+- Low `NHc0KVHtfQo` shows the family outside a sand fortress door in blowing sand. It is polished and legible, but it foregrounds arrival/mystery rather than interior warmth, the hidden girl, or the copper-object chain. The low result must not be treated as proof that desert/exterior packaging fails.
+- High channel comparator `nnKi8ptL57o` makes the stronger pattern explicit: warm crowded cave interior, food/fire/sleeping bodies, and blue storm visible through the opening. Inside/outside contrast is immediately readable.
+- Reusable original-concept rule: for cozy disaster survival, test whether the thumbnail shows the fragile warm interior and the invading exterior threat in one glance. Include the vulnerable relational anchor (child, elder, animal, object) when it is central. Do not copy these exact compositions; derive the contrast from the story's own shelter, labor, weather, and care object.

@@ -318,3 +318,16 @@ Latest pushed commit: `f21e4239b34f71cdabb7ea8d5e26a95fc7966d88`; Zephyr/Dragonv
 ## 2026-11-27 rotation handoff — next cozy-survival lead
 
 Latest pushed commit before this note: `26da784bd7f09a39180e46e07ff59b5f0962e389`. Zephyr/Dragonveil evidence is committed. Next selected novel non-creature lead: Ghibli Cozy Journey `nXgxtduBGUc` (about 1.4k subscribers, 15m Japanese family/Typhoon Vera animated survival, roughly 18–19k views/day within first day). Channel archive `UCZ7uxNQaksFYjww_DGzSxLw` collected: 15 videos. Best same-format low comparator: `NHc0KVHtfQo` (family lost in Sahara sandstorm finds shelter/girl inside, 15m, about 1k views in 6.9d). Both downloads were started in `C:/Users/Administrator/evidence_tmp/media_queue`; verify completion, run direct `studio/media_analysis.py`, inspect contact sheets, compare hit/low, and decide whether cozy disaster-survival shelter doctrine warrants a validator. Handle any PR review findings first. Do not use subagents.
+
+## 2026-11-27 rotation handoff — cozy disaster-shelter integrated
+
+Latest local commit sequence includes cozy validator work after `1e8ddf7`; push status must be checked before rotation. Completed:
+
+- Ghibli Cozy Journey hit `nXgxtduBGUc` and low `NHc0KVHtfQo` downloaded in full, machine-indexed second-by-second, contact-sheet inspected, keyframe sampled, and audited in three five-minute audio segments each.
+- No exposed subtitles existed; dialogue quotations in the report are approximate model-assisted auditory transcription/translation.
+- Report: `knowledge/market/ghibli-cozy-disaster-shelter-hit-low-comparison.md`.
+- New validator `studio/cozy_disaster_shelter_integrity.py` is integrated in production. 469 tests passed before later labor-review regression tests; current suite reached 470 passed after labor fixes.
+- Skill, thumbnail intelligence, and queue updated in this checkpoint.
+- Critical doctrine: ordinary labor before catastrophe; meaningful owned/claimed shelter; inside/outside warmth-danger contrast; inventoried scarcity; meaningful object sacrifice; care interrupting threat; child/animal participation; resolution as rebuilding/restored connection. The Sahara low comparator is a strong counterexample, not weak-writing proof.
+
+Immediate next work: commit/push cozy report/evidence; handle any new PR review findings first; then scan fresh low-subscriber breakout leads outside already-covered romance/fantasy/creature/cozy-shelter mechanisms. Do not use subagents.

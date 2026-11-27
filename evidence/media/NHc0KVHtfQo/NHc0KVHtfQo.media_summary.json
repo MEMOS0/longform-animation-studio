@@ -1,0 +1,31 @@
+{
+  "video_id": "NHc0KVHtfQo",
+  "probe": {
+    "duration": 883.240635,
+    "size": 67532698,
+    "width": 640,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "C:\\Users\\Administrator\\repos\\longform-animation-studio\\evidence\\media\\NHc0KVHtfQo\\contact_sheets\\contact_000.jpg",
+    "C:\\Users\\Administrator\\repos\\longform-animation-studio\\evidence\\media\\NHc0KVHtfQo\\contact_sheets\\contact_001.jpg",
+    "C:\\Users\\Administrator\\repos\\longform-animation-studio\\evidence\\media\\NHc0KVHtfQo\\contact_sheets\\contact_002.jpg"
+  ],
+  "seconds_indexed": 883,
+  "shot_count": 28,
+  "shot_length_mean_seconds": 31.535714285714285,
+  "shot_length_median_seconds": 16.5,
+  "shot_length_p90_seconds": 81.30000000000001,
+  "visual_motion_mean": 0.12515351900594607,
+  "visual_brightness_mean": 0.3604101024120877,
+  "dialogue_cues": 0,
+  "narrative_markers": {
+    "first_conflict_language": null,
+    "first_power_or_identity_language": null,
+    "first_care_or_belonging_language": null,
+    "dialogue_words_per_minute": [],
+    "cue_count": 0
+  }
+}

@@ -131,3 +131,7 @@ Caution: Piped search is biased and several previous top leads were already anal
 ## Zephyr/Dragonveil checkpoint — fantasy breakout pair integrated
 
 `YdN5ESTxUNc`/`3Kb6hBUwq0o` and `6JGkPoF7gKE`/`Fmc1I4MhL5U` now have archived hit/low evidence in `knowledge/market/zephyr-dragonveil-fresh-fantasy-breakout-comparison.md`. The key novel doctrine is inverse self-estimated mastery plus care-proportional spectacle. Do not treat low Zephyr/Dragonveil comparators as weak-writing proof: both are polished; use them as structural counterexamples. Continue scanning newer low-subscriber non-creature leads.
+
+## Ghibli Cozy Journey checkpoint — cozy disaster-shelter integrated
+
+`nXgxtduBGUc` versus `NHc0KVHtfQo` now has full audiovisual hit/low evidence in `knowledge/market/ghibli-cozy-disaster-shelter-hit-low-comparison.md`; `cozy_disaster_shelter_integrity` is integrated. Key counterexample: the low Sahara film is structurally strong, especially its copper object economy and reciprocal closure, so this mechanism is not a performance oracle. Continue scanning newer low-subscriber non-creature leads; prioritize formats not already covered by romance/fantasy/creature/cozy-shelter doctrine.

@@ -594,3 +594,7 @@ Use `knowledge/market/zephyr-dragonveil-fresh-fantasy-breakout-comparison.md` fo
 ## Near-wordless creature-care myth doctrine
 
 Dragonveil reinforces that horizontal cinematic creature stories can work through visual care/growth/ordinary contact without exposed dialogue. Preserve the small-vulnerable-life care spine through battle escalation; war machinery and creature scale do not substitute for relational clarity.
+
+## Cozy disaster-shelter doctrine
+
+Use `knowledge/market/ghibli-cozy-disaster-shelter-hit-low-comparison.md` before writing animated family/community disaster-survival stories. The mechanism is not simply “storm plus cozy shelter”: establish ordinary labor and a specific household before catastrophe, transform a meaningful place into shelter, sustain inside/outside warmth-danger contrast, inventory scarce food/water/materials, make preparation pay off, spend a meaningful object in sacrifice, interrupt threat with meals/sleep/animal care, let children/animals participate appropriately, and end in rebuilding/restored connection. Validate applicable stories with `cozy_disaster_shelter_integrity`. Treat the Sahara low comparator as a strong counterexample rather than weak-writing proof: it has excellent copper-object economy and reciprocal closure, so low discovery may reflect packaging/specificity/distribution rather than poor craft.
