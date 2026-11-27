@@ -848,8 +848,8 @@ def test_storyboard_seed_places_power_turn_after_causing_decision():
 
 def test_failure_intelligence_flags_modern_rebirth_without_clock_or_proof():
     from studio.failure_intelligence import evaluate_candidate
-    script='Arthur is reborn after his sisters betray him. He is angry. They humiliate him again and again.'
-    result=evaluate_candidate('Reborn heir disowns his sisters and makes them pay',[],script)
+    script='Arthur is reborn after his billionaire company family betrays him. He is angry. They humiliate him again and again.'
+    result=evaluate_candidate('Reborn billionaire heir disowns his company family and makes them pay',[],script)
     ids=[p['id'] for p in result['matched_failure_patterns']]
     assert 'modern_rebirth_revenge_without_clock_or_proof' in ids
 
@@ -858,6 +858,25 @@ def test_failure_intelligence_accepts_modern_rebirth_clock_and_proof():
     from studio.failure_intelligence import evaluate_candidate
     script='Arthur is reborn after his sisters betray him. Seven days remain on the contract. He keeps the files, bank records, waiver, needle scar, and red heels as evidence.'
     result=evaluate_candidate('Reborn heir disowns his sisters and makes them pay',[],script)
+    ids=[p['id'] for p in result['matched_failure_patterns']]
+    assert 'modern_rebirth_revenge_without_clock_or_proof' not in ids
+
+
+def test_failure_intelligence_requires_both_rebirth_clock_and_proof():
+    from studio.failure_intelligence import evaluate_candidate
+    candidate='Reborn billionaire heir makes his company family pay'
+    proof_only='Arthur is reborn after betrayal. He keeps contracts, bank records, photos, files, scars, and evidence.'
+    clock_only='Arthur is reborn after betrayal. Seven days remain before the deadline.'
+    for script in (proof_only,clock_only):
+        result=evaluate_candidate(candidate,[],script)
+        ids=[p['id'] for p in result['matched_failure_patterns']]
+        assert 'modern_rebirth_revenge_without_clock_or_proof' in ids
+
+
+def test_failure_intelligence_does_not_classify_fantasy_rebirth_as_modern_revenge():
+    from studio.failure_intelligence import evaluate_candidate
+    script='The reborn princess returns to the magic kingdom after her father betrayal and avenges the royal family.'
+    result=evaluate_candidate('Reborn princess avenges her father betrayal',[],script)
     ids=[p['id'] for p in result['matched_failure_patterns']]
     assert 'modern_rebirth_revenge_without_clock_or_proof' not in ids
 

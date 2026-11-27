@@ -229,6 +229,12 @@ def candidate_flags(candidate_text: str, script_text: str = "") -> dict[str, boo
     opening_care = count_signal(opening_text, "care_belonging_protection")
     ending_wound = count_signal(ending_text, "wound_or_humiliation") + count_signal(ending_text, "threat_or_violence")
     ending_warmth = count_signal(ending_text, "care_belonging_protection") + count_signal(ending_text, "justice_reversal_payoff")
+    rebirth_language = bool(re.search(r"reborn|rebirth|second chance|back in time", full))
+    kinship_or_succession = bool(re.search(r"family|sister|brother|father|mother|heir", full))
+    revenge_language = bool(re.search(r"revenge|payback|disown|cast out|betray|drag .*down|make them pay", full))
+    modern_context = bool(re.search(r"billionaire|company|business|bank|hospital|stock|investor|lawyer|city", full))
+    rebirth_clock = bool(re.search(r"(?:[0-9]+|one|two|three|four|five|six|seven|eight|nine|ten)\s+(?:days?|hours?|weeks?)|deadline|countdown", full))
+    rebirth_proof = bool(re.search(r"contract|evidence|records?|bank statements?|proof|documents?|waiver|photos?|files?|scar|needle mark|memory object|flowers|shoes|heels", full))
     flags = {name: name in themes for name in themes}
     flags.update({
         "hidden_identity_or_secret": bool(features["hidden_identity_or_secret"]["present"]),
@@ -253,8 +259,8 @@ def candidate_flags(candidate_text: str, script_text: str = "") -> dict[str, boo
         "fragmented_episode_packaging": bool(re.search(r"\b(episode|ep\.?|part)\s*\d+\b|\bseason\s*\d+\b|to be continued|previously on", full)),
         "mid_story_entry": bool(script_text and re.search(r"previously on|we continue|back on the island|meanwhile|after last|next morning", opening_text.lower()) or (script_text and opening_wound == 0 and opening_care == 0 and not re.search(r"attack|escape|capture|injur|thrown|abandon|reject|rescue|save", opening_text.lower()))),
         "delayed_promise_payoff": bool(script_text and not re.search(r"appears|attacks|rescues|saves|protects|transforms|reveals|hatches|shifts|bonds|claims|escapes|is exposed", opening_text.lower())),
-        "modern_rebirth_revenge": bool(re.search(r"reborn|rebirth|second chance|back in time", full) and re.search(r"family|sister|brother|father|mother|heir|billionaire|company|business", full) and re.search(r"revenge|payback|disown|cast out|betray|drag .*down|make them pay", full)),
-        "missing_rebirth_clock_or_proof": bool(script_text and not re.search(r"\d+\s+(?:days?|hours?|weeks?)|deadline|countdown|contract|evidence|records?|bank statements?|proof|documents?|waiver|photos?|files?|scar|needle mark|memory object|flowers|shoes|heels", full)),
+        "modern_rebirth_revenge": bool(rebirth_language and kinship_or_succession and revenge_language and modern_context),
+        "missing_rebirth_clock_or_proof": bool(script_text and (not rebirth_clock or not rebirth_proof)),
     })
     for theme in ("family_child", "animal_child", "dragon", "wolf_werewolf", "vampire", "sea_mermaid", "romance_mate", "modern_wealth_power", "revenge_retribution"):
         flags.setdefault(theme, theme in themes)
