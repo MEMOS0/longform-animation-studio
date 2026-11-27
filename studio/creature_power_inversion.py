@@ -35,17 +35,28 @@ def _ending_keyed_text(value: Any) -> str:
     return ""
 
 
+def _marked_ending_text(value: Any) -> str:
+    if isinstance(value, str):
+        matches = re.findall(r"(?:aftermath|ending|finale|resolution|epilogue)\s*[:\-]\s*(.+)", value.lower())
+        return "\n".join(matches)
+    if isinstance(value, dict):
+        return "\n".join(_marked_ending_text(v) for v in value.values())
+    if isinstance(value, list):
+        return "\n".join(_marked_ending_text(v) for v in value)
+    return ""
+
+
 def evaluate_creature_power_inversion(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     creature_term = bool(re.search(r"\bdragon\b|\bcreature\b|\bbeast\b|\bmonster\b", full))
-    inversion_term = bool(re.search(r"power inversion|not fire|fire.{0,80}(?:frost|freez|ice)|(?:frost|freez|ice).{0,80}fire|ice breath|cold fire", full))
+    inversion_term = bool(re.search(r"power inversion|not fire|(?:fire|flame).{0,80}(?:frost|freez|ice)|(?:frost|freez|ice).{0,80}(?:fire|flame)|ice breath|cold fire", full))
     applies = bool(re.search(r"power inversion|(?:frost|ice|cold)[- ](?:dragon|creature|beast)|(?:dragon|creature|beast)[- ](?:frost|ice|cold)", full)) or (creature_term and inversion_term)
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
     seqs = architecture.get("sequences", []) if isinstance(architecture, dict) else []
     ending_payoff = architecture.get("ending_payoff") if isinstance(architecture, dict) else {}
-    finale_text = "\n".join([_text(seqs[-2:]), _text(ending_payoff), _text(scenes[-5:]), _ending_keyed_text(premise)]).strip().lower()
+    finale_text = "\n".join([_text(seqs[-2:]), _text(ending_payoff), _text(scenes[-5:]), _ending_keyed_text(premise), _marked_ending_text(premise)]).strip().lower()
 
     care_pos = _pos(r"feed|warm|name|blanket|help|look after|pulled .*out|not letting go|steal|coal", full)
     power_pos = _pos(r"power payoff|inverted power|protective power|shield|counterattack|saves? (?:her|them|the village)|protects? (?:her|them|the village)", full)

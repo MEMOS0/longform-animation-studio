@@ -1607,3 +1607,38 @@ def test_animal_guise_recipient_split_restitution_counts():
     premise={"logline":"werewolf husband romance truth reveal. he gives her back the deeds"}
     r=evaluate_animal_guise_consent(premise,{},[])
     assert r['checks']['material_agency_restored']
+
+
+def test_found_family_guardian_accepts_epicverse_pattern():
+    from studio.found_family_guardian_integrity import evaluate_found_family_guardian_integrity
+    premise={"logline":"pursued mother newborn infant danger serpent giant rescues saves and raises daughter"}
+    arch={"sequences":[{"turn":"he feeds warms teaches hunts protects her by fire shelter; she learns hunt survive bow"},{"turn":"argument rupture leaves journey; ruthless lord sees fortune captured monster beast city square public prison crossbow trap army"},{"turn":"rescue save final confrontation and carries daughter on his back home reunited"}]}
+    r=evaluate_found_family_guardian_integrity(premise,arch,[])
+    assert r['applies'] and r['score_0_to_1']==1.0
+
+
+def test_found_family_guardian_flags_spectacle_without_rupture():
+    from studio.found_family_guardian_integrity import evaluate_found_family_guardian_integrity
+    r=evaluate_found_family_guardian_integrity({"logline":"giant daughter monster army rescue victory"}, {}, [])
+    assert r['score_0_to_1']<0.6
+
+
+def test_creature_inversion_detects_freezing_mist_instead_of_flames():
+    from studio.creature_power_inversion import evaluate_creature_power_inversion
+    r=evaluate_creature_power_inversion({"logline":"dragon exhales freezing mist instead of flames"}, {}, [])
+    assert r['applies']
+
+
+def test_creature_inversion_logline_marked_aftermath_counts():
+    from studio.creature_power_inversion import evaluate_creature_power_inversion
+    premise={"logline":"dragon exhales freezing mist instead of flames. Aftermath: recognition contact in the village as snow melts green and people rebuild"}
+    r=evaluate_creature_power_inversion(premise,{},[])
+    assert r['checks']['recognition_contact_closure']
+    assert r['checks']['communal_consequence']
+
+
+def test_animal_guise_keeps_deeds_is_not_restitution():
+    from studio.animal_guise_consent import evaluate_animal_guise_consent
+    premise={"logline":"werewolf husband romance truth reveal. he gives her back her coat but keeps the deeds"}
+    r=evaluate_animal_guise_consent(premise,{},[])
+    assert not r['checks']['material_agency_restored']
