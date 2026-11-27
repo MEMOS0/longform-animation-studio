@@ -2598,3 +2598,12 @@ def test_object_testimony_creature_voice_is_not_applicable():
     from studio.object_testimony_integrity import evaluate_object_testimony_integrity
     premise=json.load(open('examples/generated_creature_concepts/salt_window_garden_premise.json'))
     assert evaluate_object_testimony_integrity(premise,{},[])["applies"] is False
+
+
+def test_object_testimony_laboratory_test_counts_as_verification():
+    from studio.object_testimony_integrity import evaluate_object_testimony_integrity
+    premise={"title":"Whispering Relics","logline":"An appraiser hears an antique relic speak; its whispering object memory concerns fake provenance and stolen museum restoration."}
+    summary=("The relic remembers only fragments, a hypothesis lead not proof. She is professional labor competence. Laboratory test is the corroboration. Ownership control gift salary independence. Name stays, refuse control. Museum cultural property recovered. Criminal black market exploit ability. Ending share future independent choose.")
+    r=evaluate_object_testimony_integrity(premise,{"sequences":[{"summary":summary}]},[])
+    assert r["checks"]["magic_produces_leads_not_verdicts"] is True
+    assert r["checks"]["verification_is_procedural"] is True
