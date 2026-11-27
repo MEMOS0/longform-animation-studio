@@ -33,7 +33,7 @@ def evaluate_economic_abandonment_integrity(premise: dict[str, Any], architectur
     ending_source = "\n".join([architecture_text, scenes_text])
     ending = ending_source[-max(1, len(ending_source) // 3):] if ending_source else ""
 
-    abandonment = bool(re.search(r"left (?:her|him|them)|walked away|letter|train station|don.?t belong|betray(?:ed|al)?|stole everything|took everything|abandoned (?:his|her|their) (?:wife|husband|fiance|partner|family)", full))
+    abandonment = bool(re.search(r"left (?:her|him|them)|walked away|letter|train station|don.?t belong|betray(?:ed|al)?|stole everything|took everything|abandon(?:ed|s)? (?:his|her|their) (?:wife|husband|fiance|partner|family)", full))
     economic = bool(re.search(r"money|wallet|id\b|debt|loan|orchard|property|business|contract|fraud|invoice|bank|assets", full))
     romance_or_family = bool(re.search(r"husband|wife|wedding|marriage|fianc|romance|mother|family|daughter", full))
     applies = abandonment and economic and romance_or_family
