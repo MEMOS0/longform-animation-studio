@@ -4033,3 +4033,26 @@ def test_maternal_prior_alternative_does_not_make_signing_hypothetical():
     from studio.maternal_sovereignty_integrity import _first_non_negated
     pattern=r'signs? (?:the )?divorce papers'
     assert _first_non_negated(pattern,'he could refuse, but he does not hesitate to sign the divorce papers') is not None
+
+def test_dual_incognito_workplace_integrity_positive_cineai_like():
+    from studio.dual_incognito_workplace_integrity import evaluate_dual_incognito_workplace_integrity
+    premise={'logline':'A secret hotel owner takes an ordinary staff position and meets a framed CEO who lost everything and now works there.'}
+    architecture={'sequences':[
+        {'summary':'The hidden owner becomes an ordinary worker. The stripped executive applies for a job and does it properly. She defends him: do not humiliate workers.'},
+        {'summary':'A birthday cake and treatment for his bleeding hand build community care. Payroll, overtime sheets, maintenance logs, security footage, bank confirmation, vendor registration, and access code records expose the plot.'},
+        {'summary':'He says she made that decision for both of them. She admits she was wrong to hide the truth and gives him time without demanding forgiveness.'},
+        {'summary':'He refuses a senior role, seeks investment on the same terms through an independent committee, builds transparent payroll and scheduling tools with employee access, and they agree to no more secrets.'}
+    ]}
+    result=evaluate_dual_incognito_workplace_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.9
+
+
+def test_dual_incognito_workplace_integrity_flags_missing_consent_and_independence():
+    from studio.dual_incognito_workplace_integrity import evaluate_dual_incognito_workplace_integrity
+    premise={'logline':'A secret billionaire owner takes a hotel job.'}
+    architecture={'sequences':[{'summary':'She kisses a worker, uses one document to fire a manager, gives him a senior job because they are dating, and they instantly marry.'}]}
+    result=evaluate_dual_incognito_workplace_integrity(premise,architecture,[])
+    assert result['checks']['concealment_creates_named_consent_debt'] is False
+    assert result['checks']['career_restoration_is_not_romantic_patronage'] is False
+    assert result['warnings']

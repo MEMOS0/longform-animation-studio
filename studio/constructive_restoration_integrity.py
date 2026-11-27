@@ -62,9 +62,10 @@ def _first_non_negated(pattern: str, text: str) -> int | None:
             text.rfind("\n", 0, match.start()),
         ) + 1
         prefix = text[sentence_start:match.start()]
-        if re.search(r"\b(?:never|not|no|without|refus\w*)\b", match.group(0)):
-            continue
-        if not re.search(r"\b(?:never|not|no|without|refus\w*)\b(?:\s+\w+){0,3}\s*$", prefix):
+        affirmative_exception = r"\bnot only\b|\bwithout (?:assistance|help)\b"
+        negated_in_match = re.search(r"\b(?:never|not|no|without|refus\w*)\b", match.group(0)) and not re.search(affirmative_exception, match.group(0))
+        negated_prefix = re.search(r"\b(?:never|not|no|without|refus\w*)\b(?:\s+\w+){0,3}\s*$", prefix) and not re.search(affirmative_exception + r"\s*$", prefix)
+        if not negated_in_match and not negated_prefix:
             return match.start()
     return None
 
@@ -73,7 +74,7 @@ def evaluate_constructive_restoration_integrity(premise: dict[str, Any], archite
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     narrative = "\n".join([_text(architecture), _text(scenes)]).lower()
     object_words = r"machine|robot|vehicle|ship|station|engine"
-    repair_words = r"repair(?:s|ed|ing)?|fix(?:es|ing)?|restore(?:s|d)?"
+    repair_words = r"\b(?:repair(?:s|ed|ing)?|fix(?:es|ing)?|restore(?:s|d)?)\b"
     object_directed_repair = any(
         re.search(repair_words, segment) and re.search(object_words, segment)
         for segment in re.split(r"[.!?\n]", full)
@@ -92,13 +93,17 @@ def evaluate_constructive_restoration_integrity(premise: dict[str, Any], archite
         for match in re.finditer(object_pattern, narrative):
             sentence_start = max(narrative.rfind(".", 0, match.start()), narrative.rfind("!", 0, match.start()), narrative.rfind("?", 0, match.start()), narrative.rfind("\n", 0, match.start())) + 1
             segment = narrative[sentence_start:match.start()]
-            if re.search(r"\b(?:repairs?|repairing|fixes|fixing|restores?|restoring)\b", segment):
-                positions.append(match.start())
+            action_pattern = r"\b(?:repairs?|repaired|repairing|fixes|fixed|fixing|restores?|restored|restoring)\b"
+            actions = list(re.finditer(action_pattern, segment))
+            if actions:
+                span = segment[actions[-1].end():]
+                if not re.search(r"\b(?:while|but|although|though|because|which|who)\b", span):
+                    positions.append(match.start())
         return positions
 
     small_positions = repaired_object_positions(r"small object|lamp|circuit|tool|toy|radio|servo|motor")
     mid_positions = repaired_object_positions(r"\b(?:robots?|vehicles?|bikes?|machines?)\b")
-    big_positions = repaired_object_positions(r"\b(?:ships?|starships?|spaceships?|stations?)\b|power grid|infrastructure")
+    big_positions = repaired_object_positions(r"\b(?:ships?|starships?|spaceships?|stations?|cities)\b|power grid|infrastructure")
     object_ladder = False
     for small_pos in small_positions:
         mid_pos = next((pos for pos in mid_positions if pos > small_pos), None)
@@ -118,7 +123,7 @@ def evaluate_constructive_restoration_integrity(premise: dict[str, Any], archite
     mentorship_cycle = bool(re.search(r"teach(?:es|ing)?|mentor|apprentice|learns?", full) and re.search(r"robot child|childlike robot|small robot|young robot|child analogue|new apprentice|teaches? (?:the )?(?:robot|child)", full))
     seqs = architecture.get("sequences", []) if isinstance(architecture, dict) else []
     finale_text = "\n".join([_text(seqs[-2:]), _text(architecture.get("ending_payoff") if isinstance(architecture, dict) else {}), _text(scenes[-5:])]).lower()
-    tested_finale = bool(re.search(r"(?<!without )(?<!no )(?<!not )\btest(?:s|ed|ing)?\b|diagnostic|trial run|systems check|launch|maiden flight|flight test", finale_text))
+    tested_finale = bool(re.search(r"(?<!without )(?<!no )(?<!not )\b(?:re)?tests?(?:ed|ing)?\b|diagnostic|trial run|systems check|launch|maiden flight|flight test", finale_text))
 
     checks = {
         "nontransactional_shelter_or_care_in_origin": bool(re.search(r"orphan|runaway|homeless|abandoned|exile|precarious", full[:2500]) and re.search(r"shelter|food|meal|care|takes? (?:her|him|them) in|welcom", full[:3500])),
