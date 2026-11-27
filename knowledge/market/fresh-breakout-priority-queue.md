@@ -97,3 +97,5 @@ Full audiovisual deep dive completed in `knowledge/market/mythora-viper-bride-pr
 Full audiovisual deep dive completed in `knowledge/market/nexora-mechanic-constructive-scifi-deep-dive.md`; derived evidence archived under `evidence/media/KcaifB7MhwQ/`. Novel mechanism integrated as `constructive_restoration_integrity`: constructive restoration sci-fi driven by care, repair ladders, mentorship, economic independence, restitution, and tested infrastructure. Do not copy the literal mechanic/Anunnaki/Nexus/ship plot.
 
 - CineAI `gw1SsVcha0Y` deep dive completed 2026-11-27: `knowledge/market/cineai-grand-crescent-dual-incognito-workplace-deep-dive.md`; `dual_incognito_workplace_integrity` added; hit/medium/low channel comparison and thumbnail archive integrated. Remaining fresh candidates: Fated `B8bd364FM-8`, CrushLoop `6k_W9eG6mAU`, Hushfall `4m3u8UMUgDg`.
+
+- Hushfall `4m3u8UMUgDg` hit deep dive completed 2026-11-27: reciprocal-incognito contract mechanism documented; within-channel hit/low comparison still pending before any dedicated validator.
