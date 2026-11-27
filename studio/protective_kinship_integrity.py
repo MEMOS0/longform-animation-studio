@@ -40,7 +40,7 @@ def _first_non_negated(pattern: str, text: str) -> int | None:
         negated = re.search(r"\b(?:refus\w*|withhold\w*|without|never|not)\b(?:\s+\w+){0,3}\s*$", prefix)
         sentence_end_positions = [pos for pos in [text.find(".", match.end()), text.find("!", match.end()), text.find("?", match.end()), text.find("\n", match.end())] if pos != -1]
         sentence_end = min(sentence_end_positions) if sentence_end_positions else len(text)
-        conditional_constraint = re.search(r"\bonly (?:after|if|when)\b", text[match.end():sentence_end])
+        conditional_constraint = re.search(r"\bonly (?:after|if|when)\b[^.!?]{0,50}(?:marry|marriage|permission|obligation|stay)", text[match.end():sentence_end])
         if (positive_completion or not negated) and not conditional_constraint:
             return match.start()
     return None

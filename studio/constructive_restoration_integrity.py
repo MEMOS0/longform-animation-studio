@@ -33,22 +33,36 @@ def _ordered(text: str, first_pattern: str, second_pattern: str) -> bool:
     return first is not None and second is not None and first < second
 
 
+def _cooccurs_in_segment(text: str, first_pattern: str, second_pattern: str) -> bool:
+    return any(
+        re.search(first_pattern, segment) and re.search(second_pattern, segment)
+        for segment in re.split(r"[.!?\n]", text)
+    )
+
+
 def evaluate_constructive_restoration_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    repair_core = bool(re.search(r"mechanic|repair|restore|restoration|salvage|fix(?:es|ing)?\b|rebuild|workshop|engineer", full))
-    speculative_object = bool(re.search(r"robot|android|machine|ship|starship|spaceship|station|city|drone|ai\b|fleet|war machine", full))
+    narrative = "\n".join([_text(architecture), _text(scenes)]).lower()
+    repair_core = bool(re.search(r"mechanic|workshop|engineer|salvage|rebuild|restoration|(?:repair(?:s|ed|ing)?|fix(?:es|ing)?|restore(?:s|d)?)\W{0,30}(?:machine|robot|vehicle|ship|station|engine)|(?:machine|robot|vehicle|ship|station|engine)\W{0,30}(?:repair(?:s|ed|ing)?|fix(?:es|ing)?|restore(?:s|d)?)", full))
+    speculative_object = bool(re.search(r"\b(?:robot|android|machine|ship|starship|spaceship|station|city|drone|fleet)\b|\bai\b|war machine", full))
     applies = repair_core and speculative_object
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
-    object_ladder = _ordered(full, r"small object|lamp|circuit|tool|toy|radio|servo|motor", r"robot|vehicle|bike|machine") and _ordered(full, r"robot|vehicle|bike|machine", r"ship|starship|spaceship|station|infrastructure|city|power grid")
-    learner_work = bool(re.search(r"(?:she|he|they|learner|apprentice|protagonist).{0,70}(?:repairs?|fixes|soldiers?|wires?|tests?|builds?|diagnoses?|installs?)|hands-on|under supervision|mentor supervis", full))
+    object_ladder = _ordered(narrative, r"small object|lamp|circuit|tool|toy|radio|servo|motor", r"\b(?:robot|vehicle|bike|machine)\b") and _ordered(narrative, r"\b(?:robot|vehicle|bike|machine)\b", r"\b(?:ship|starship|spaceship|station|city)\b|infrastructure|power grid")
+    learner_work = bool(re.search(r"\b(?:she|he|they|learner|apprentice|protagonist)\s+(?:repairs?|fixes|solders?|wires?|tests?|builds?|diagnoses?|installs?)|(?:she|he|they|learner|apprentice)\s+(?:does|performs)\s+(?:the\s+)?(?:repair|work)", narrative))
     restitution_language = bool(re.search(r"restitution|reparations?|make amends|repair the damage|rebuild what|help rebuild|compensat|accountab", full))
-    repurposed_weapon = bool(re.search(r"war machine|combat unit|weapon|military robot|battle machine", full) and re.search(r"repurpos|convert|rebuild|repair|care|farm|shelter|clinic|workshop|infrastructure|cook|serve|protect", full))
-    production_capacity = bool(re.search(r"money|payment|paid|wages?|reward|wealth|sale|profit", full) and re.search(r"parts?|tools?|workshop|repair|supplies|crew|infrastructure|production|build", full))
+    weapon_pattern = r"war machine|combat unit|weapon|military robot|battle machine"
+    care_use_pattern = r"repurpos|convert|care|farm|shelter|clinic|workshop|infrastructure|cook|serve|protect"
+    repurposed_weapon = _cooccurs_in_segment(full, weapon_pattern, care_use_pattern)
+    money_pattern = r"money|payment|paid|wages?|reward|wealth|sale|profit"
+    capacity_pattern = r"parts?|tools?|workshop|repair|supplies|crew|infrastructure|production|build"
+    production_capacity = _cooccurs_in_segment(full, money_pattern, capacity_pattern)
     wonder_infrastructure = bool(re.search(r"wonder|ancient|miracle|alien|advanced|hidden", full) and re.search(r"power|water|transport|ship|station|network|grid|home|shelter|repair bay|engine", full))
     mentorship_cycle = bool(re.search(r"teach(?:es|ing)?|mentor|apprentice|learns?", full) and re.search(r"robot child|childlike robot|small robot|young robot|child analogue|new apprentice|teaches? (?:the )?(?:robot|child)", full))
-    tested_finale = bool(re.search(r"test(?:s|ed|ing)?|diagnostic|trial run|systems check|launch|maiden flight|flight test", full[-max(2500, len(full)//2):]))
+    seqs = architecture.get("sequences", []) if isinstance(architecture, dict) else []
+    finale_text = "\n".join([_text(seqs[-2:]), _text(scenes[-5:])]).lower()
+    tested_finale = bool(re.search(r"(?<!without )(?<!no )(?<!not )test(?:s|ed|ing)?|diagnostic|trial run|systems check|launch|maiden flight|flight test", finale_text))
 
     checks = {
         "nontransactional_shelter_or_care_in_origin": bool(re.search(r"orphan|runaway|homeless|abandoned|exile|precarious", full[:2500]) and re.search(r"shelter|food|meal|care|takes? (?:her|him|them) in|welcom", full[:3500])),

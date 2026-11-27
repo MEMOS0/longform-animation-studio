@@ -3840,7 +3840,7 @@ def test_constructive_restoration_fixture_passes_core_checks():
 
 def test_constructive_restoration_spectacle_without_restoration_warns():
     from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
-    premise={'title':'The Miracle Ship','logline':'A drifter witnesses an alien machine.'}
+    premise={'title':'The Miracle Ship','logline':'A drifter mechanic witnesses an alien machine.'}
     architecture={'sequences':[
       {'summary':'A homeless orphan is given food and shelter.'},
       {'summary':'A miraculous alien ship appears and the mentor instantly fixes every machine while armies fight a war for treasure.'},
@@ -3890,3 +3890,70 @@ def test_restitution_prior_not_if_does_not_hide_actual_betrayal():
       {'summary':'they betray her, the pact restores her sight.'},
     ]
     assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is True
+
+def test_constructive_restoration_scifi_applicability_ignores_relationship_ship():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise={'title':'Stormglass Keepers','logline':'Mira is publicly restored to honor and a relationship deepens.'}
+    architecture={'sequences':[{'summary':'A village dispute and inheritance conflict unfold.'}]}
+    assert evaluate_constructive_restoration_integrity(premise,architecture,[])['applies'] is False
+
+
+def test_constructive_restoration_ladder_uses_story_not_logline_and_finale_tail():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise={'title':'Ship Repair','logline':'A mechanic restores a starship.'}
+    architecture={'sequences':[
+      {'summary':'An orphan is given food and shelter. She repairs a small lamp circuit.'},
+      {'summary':'She repairs a robot, then a vehicle, then the ship infrastructure.'},
+      {'summary':'The crew pays wages for tools and parts; a war machine is converted into shelter power. She teaches a childlike robot apprentice.'},
+      {'summary':'At the end diagnostics, systems checks, and a maiden flight launch prove the ship.'},
+    ]}
+    result=evaluate_constructive_restoration_integrity(premise,architecture,[])
+    assert result['checks']['repair_object_competence_ladder'] is True
+    assert result['checks']['finale_demonstrates_capability_through_tested_systems'] is True
+
+
+def test_constructive_restoration_opening_diagnostic_and_mentor_repair_do_not_pass():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise={'title':'Reactor Shop','logline':'A mechanic apprentice watches machines.'}
+    architecture={'sequences':[
+      {'summary':'Diagnostics open the story. The homeless apprentice is given food.'},
+      {'summary':'The apprentice watches the mentor repair a reactor machine and the mentor does every repair.'},
+      {'summary':'The ship leaves without tests.'},
+    ]}
+    result=evaluate_constructive_restoration_integrity(premise,architecture,[])
+    assert result['checks']['learner_performs_repair_under_mentorship'] is False
+    assert result['checks']['finale_demonstrates_capability_through_tested_systems'] is False
+
+
+def test_constructive_restoration_requires_related_weapon_and_money_use():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise={'title':'Generator Shop','logline':'A mechanic repairs machines.'}
+    architecture={'sequences':[
+      {'summary':'An orphan is given food and shelter. She repairs a lamp, a robot, and a ship.'},
+      {'summary':'A civilian generator is repaired. Elsewhere a weapon stays armed. Wages fund a holiday far away.'},
+    ]}
+    result=evaluate_constructive_restoration_integrity(premise,architecture,[])
+    assert result['checks']['weapon_is_repurposed_into_care_or_work_infrastructure'] is False
+    assert result['checks']['wealth_is_converted_into_repair_capacity'] is False
+
+
+def test_maternal_unrelated_modal_does_not_negate_without_hesitation_signing():
+    from studio.maternal_sovereignty_integrity import _first_non_negated
+    pattern=r'signs? (?:the )?divorce papers'
+    assert _first_non_negated(pattern,'he could wait but without hesitation signs the divorce papers') is not None
+
+
+def test_protective_only_after_disclosure_and_desired_exit_count_as_choice():
+    from studio.protective_kinship_integrity import _first_non_negated
+    assert _first_non_negated(r'kiss','he kisses her only after disclosure') is not None
+    assert _first_non_negated(r'free to leave','she is free to leave only if she wants') is not None
+
+
+def test_restitution_vote_no_if_line_wrap_counts_as_conditional_rule():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    architecture['sequences']=[
+      {'summary':'They vow to protect her forever. The wards vote no if'},
+      {'summary':'they betray her, the pact restores her sight.'},
+    ]
+    assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is False

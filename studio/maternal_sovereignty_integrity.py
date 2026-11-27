@@ -26,7 +26,8 @@ def _first_non_negated(pattern: str, text: str) -> int | None:
             text.rfind("\n", 0, match.start()),
         ) + 1
         prefix = text[sentence_start:match.start()]
-        positive_completion = re.search(r"not hesitate to\s*$|without hesitation\s*$", prefix) and not re.search("\\b(?:would|could|might|should)\\b[^.!?]{0,30}$", prefix)
+        hesitation_completion = re.search(r"not hesitate to\s*$", prefix) and not re.search(r"\b(?:would|could|might|should)\s+(?:not\s+)?hesitate\b[^.!?]{0,12}$", prefix)
+        positive_completion = hesitation_completion or re.search(r"without hesitation\s*$", prefix)
         negated = re.search(r"\b(?:refus\w*|withhold\w*|without|never|not)\b(?:\s+\w+){0,3}\s*$", prefix)
         if positive_completion or not negated:
             return match.start()
