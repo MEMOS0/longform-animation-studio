@@ -16,10 +16,10 @@ def _text(value: Any) -> str:
 
 
 def _affirmative_match(pattern: str, text: str) -> bool:
-    for clause in re.split(r"[.!?;]", text):
+    for clause in re.split(r"[.!?;]|\bbut\b", text):
         for match in re.finditer(pattern, clause):
             before = clause[:match.start()]
-            if re.search(r"(?:(?:nobody|no one|never|without|not|no)\s+(?:\w+\s+){0,3}|refus(?:es|ed)?\s+to\s+(?:\w+\s+){0,3})$", before):
+            if re.search(r"(?:(?:nobody|no one|never|without|not|no)\s+(?:\w+\s+){0,8}|refus(?:es|ed)?\s+to\s+(?:\w+\s+){0,8})$", before):
                 continue
             return True
     return False

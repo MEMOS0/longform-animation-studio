@@ -16,10 +16,10 @@ def _text(value: Any) -> str:
 
 
 def _affirmative_match(pattern: str, text: str) -> bool:
-    for clause in re.split(r"[.!?;]", text):
+    for clause in re.split(r"[.!?;]|\bbut\b", text):
         for match in re.finditer(pattern, clause):
             before = clause[:match.start()]
-            if re.search(r"(?:(?:nobody|no one|never|without|not|no)\s+(?:\w+\s+){0,3}|refus(?:es|ed)?\s+to\s+(?:\w+\s+){0,3})$", before):
+            if re.search(r"(?:(?:nobody|no one|never|without|not|no)\s+(?:\w+\s+){0,8}|refus(?:es|ed)?\s+to\s+(?:\w+\s+){0,8})$", before):
                 continue
             return True
     return False
@@ -44,7 +44,9 @@ def evaluate_wrongful_accusation_integrity(premise: dict[str, Any], architecture
     ending_source = "\n".join([architecture_text, scenes_text])
     ending = _ending_tail(ending_source)
 
-    accusation = bool(re.search(r"wrongful|wrongfully|framed|frame-up|set up|false accusation|falsely accused|planted", full))
+    explicit_false_accusation = bool(re.search(r"wrongful|wrongfully|framed|frame-up|set up|false accusation|falsely accused|planted", full))
+    exonerated_accusation = bool(re.search(r"accused|theft|stolen|expelled", full)) and bool(re.search(r"clears?|exonerat|innocent|didn.?t (?:steal|do it)|proves? .*innocent", full))
+    accusation = explicit_false_accusation or exonerated_accusation
     status_wound = bool(re.search(r"homeless|expelled|fired|excluded|stigma|scholarship|reputation|career|land|estate", full))
     repair_context = bool(re.search(r"truth|evidence|investigat|court|lawyer|apology|restoration|job|work", full))
     applies = accusation and status_wound
