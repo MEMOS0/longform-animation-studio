@@ -155,9 +155,16 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
 
     hook_pattern = r"new mission|top-level mission|return to the team|sequel hook|next mission|new case|fresh case|assigned to investigate|assignment to investigate|orders? (?:her|him|them) to investigate|called away"
     closure_pattern = r"justice (?:is )?(?:served|done|delivered)|police (?:close|solve|arrest|deliver justice)|close[sd]? the conspiracy|conspiracy (?:is )?(?:closed|exposed|resolved)|case (?:is )?(?:closed|solved)|family (?:is )?(?:reunited|restored|safe)|reunited with (?:her|his|their) family|belonging (?:lands|is restored)|peace (?:is )?restored|public apology|community is safe|safe at home|earns? (?:her|his|their) (?:new )?(?:role|place|identity)|finds? acceptance|accepted as|steps? into (?:her|his|their) new role|new identity is accepted"
+    def actual_closure_match(text: str):
+        for match in re.finditer(closure_pattern, text):
+            prefix = text[max(0, match.start() - 35):match.start()]
+            if re.search(r"\b(?:before|until|unless|if)\b[^.!?]{0,35}$", prefix):
+                continue
+            return match
+        return None
     def closure_order(text: str) -> str:
         hook_match = re.search(hook_pattern, text)
-        closure_match = re.search(closure_pattern, text)
+        closure_match = actual_closure_match(text)
         if closure_match and hook_match:
             return "positive" if closure_match.start() < hook_match.start() else "negative"
         if closure_match:
@@ -168,32 +175,36 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
 
     def explicit_order(text: str) -> str:
         normalized = re.sub(r"\s+", " ", text.lower())
-        closure_terms = r"(?:closure|reunion|justice is served|justice is delivered|case(?: is)? closed|conspiracy(?: is)? closed|family reunion|acceptance|new role)"
+        closure_terms = r"(?:closure|reunion|justice is served|justice is delivered|case(?: is)? closed|conspiracy(?: is)? closed|family reunion|acceptance|new role|victory epilogue)"
         hook_terms = r"(?:mission|new mission|next mission|new case|fresh case|assignment|teaser|sequel)"
         if re.search(hook_terms + r"[^.!?]{0,80}\bbefore\b[^.!?]{0,80}" + closure_terms, normalized):
             return "negative"
         if re.search(closure_terms + r"[^.!?]{0,80}\bbefore\b[^.!?]{0,80}" + hook_terms, normalized):
             return "positive"
-        if re.search(hook_terms + r"[^.!?]{0,80}\bafter\b[^.!?]{0,80}" + closure_terms, normalized):
+        if re.search(r"\bafter\b[^.!?]{0,60}" + closure_terms + r"[^.!?]{0,80}" + hook_terms, normalized):
             return "positive"
         if re.search(closure_terms + r".{0,120}(?:and )?only then.{0,120}" + hook_terms, normalized):
+            return "positive"
+        if re.search(r"\bafter\b[^.!?]{0,60}" + closure_terms + r"[^.!?]{0,80}" + hook_terms, normalized):
             return "positive"
         return "neutral"
 
     scene_order = "neutral"
     if scenes:
         scene_texts = [_text(scene).lower() for scene in scenes]
-        scene_order = explicit_order("\n".join(scene_texts))
+        if len(scene_texts) == 1:
+            scene_order = explicit_order(scene_texts[0])
         first_hook = None
         first_closure = None
         offset = 0
         for index, text in enumerate(scene_texts):
             hook_match = re.search(hook_pattern, text)
-            closure_match = re.search(closure_pattern, text)
+            closure_match = actual_closure_match(text)
             if first_hook is None and hook_match:
                 weak_assignment = bool(re.search(r"new case|fresh case|assigned to investigate|assignment to investigate|orders? (?:her|him|them) to investigate", text)) and not re.search(r"new mission|next mission|sequel|return to the team|called away|another case", text)
                 closure_before_here = bool(closure_match and closure_match.start() < hook_match.start())
-                if not (weak_assignment and index == 0 and not closure_before_here):
+                explicit_premature = bool(re.search(r"before (?:the )?(?:current )?(?:case|conspiracy|mission).{0,35}(?:is )?(?:closed|closure|resolved|solved)", text))
+                if not (weak_assignment and index == 0 and len(scenes) > 1 and not closure_before_here and not explicit_premature):
                     first_hook = (index, hook_match.start(), hook_match.end())
             if first_closure is None and closure_match:
                 first_closure = (index, closure_match.start(), closure_match.end())
@@ -249,6 +260,8 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
     elif scene_order == "negative":
         closure_before_hook = False
     elif architecture_negative:
+        closure_before_hook = False
+    elif scene_order == "hook_only" and architecture_has_closure:
         closure_before_hook = False
     elif architecture_positive:
         closure_before_hook = True
