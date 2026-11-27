@@ -484,3 +484,7 @@ Use the `economic_abandonment_integrity` project-evaluation gate as a warning sy
 Before greenlighting wrongful-accusation/class-stigma melodrama, read `knowledge/market/nightfall-luke-wrongful-accusation-restoration-deep-dive.md`. The portable mechanism is practical competence before pity, material contradiction, repeated frame-up, dignified work, anti-payment boundary, investigative rather than instant romantic belief, procedural evidence chain, institutional restoration of the stolen future, and present-tense consent in romantic closure.
 
 Use the `wrongful_accusation_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy Luke's watch/necklace/letter plot or thumbnail; extract the mechanism and build original stories.
+
+## 2026-11-27 Nightfall procedural-dignity channel doctrine update
+
+For adult non-fantasy long-form melodrama, read `knowledge/market/nightfall-drama-procedural-dignity-channel-comparison.md`. The repeatable engine is public stripping of dignity, mutual-aid work, competence before pity, refusal of purchased rescue, document/procedure reversal, measurable restitution or institutional repair, and freely chosen belonging. This is especially useful when designing 45-70 minute horizontal relationship/legal/family dramas without creature spectacle.
