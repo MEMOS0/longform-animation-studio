@@ -51,6 +51,25 @@ def distribute_duration(weights: list[float], total: float, minimum: float = 4.0
     return durations
 
 
+
+
+def alternate_coverage(source: str, visual_action: str, occurrence: int) -> str:
+    if occurrence == 0 or not visual_action:
+        return visual_action
+    labels = {
+        "turn": "reaction coverage: show witnesses, threshold position, and power shift instead of repeating the same crossing staging",
+        "conflict": "pressure-detail coverage: hands, objects, crowd position, or institutional obstruction carries the conflict",
+        "final_image": "object-detail coverage before or after the wider relational-resolution framing",
+        "first_image": "environmental coverage emphasizing a different spatial layer of the opening image",
+        "face_reaction": "witness or micro-expression coverage rather than the same facial staging",
+        "consequence": "cost-detail coverage showing what materially changed",
+        "protagonist_decision": "gesture/consequence-facing coverage of the same decision",
+        "objective": "movement/detail coverage of the objective",
+    }
+    label = labels.get(source, "alternate angle and detail coverage")
+    return visual_action + "; alternate coverage: " + label
+
+
 def scene_value(scene: dict[str, Any], key: str) -> str:
     visual = scene.get("visual_action", {})
     if key in visual:
@@ -72,6 +91,7 @@ def build_seed_board(scene: dict[str, Any], continuity_dependencies: list[str] |
     sound = scene.get("sound_design") or {}
     shots: list[dict[str, Any]] = []
     used_dialogue_keys: set[str] = set()
+    visual_occurrences: dict[tuple[str, str], int] = {}
     cursor = 0.0
     for i, (beat, shot_duration) in enumerate(zip(selected, durations), start=1):
         shot_end = cursor + shot_duration
@@ -94,6 +114,14 @@ def build_seed_board(scene: dict[str, Any], continuity_dependencies: list[str] |
         visual_action = scene_value(scene, source)
         if exchange_turn and exchange_turn.get("action") and not repeated_dialogue_beat and source != "final_image":
             visual_action = str(exchange_turn["action"])
+        occurrence_key = (source, visual_action)
+        occurrence = visual_occurrences.get(occurrence_key, 0)
+        visual_occurrences[occurrence_key] = occurrence + 1
+        if source == "final_image" and i == shot_count:
+            occurrence = 0
+        elif source == "final_image" and occurrence == 0:
+            occurrence = 1
+        visual_action = alternate_coverage(source, visual_action, occurrence)
         sound_text = {
             "negative_space": sound.get("silence_or_negative_space", "ambient negative space"),
             "dialogue first": sound.get("dialogue_priority", "dialogue first"),

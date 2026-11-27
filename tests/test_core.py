@@ -846,6 +846,17 @@ def test_storyboard_seed_places_power_turn_after_causing_decision():
     assert decision_idx < turn_idx
 
 
+def test_storyboard_seed_varies_repeated_turn_coverage():
+    import json
+    from studio.storyboard_seed import build_seed_board
+    scene=json.load(open('examples/generated_creature_concepts/salt_window_garden_scenes/S01.json',encoding='utf8'))
+    board=build_seed_board(scene)
+    turn_visuals=[s['visual_action'] for s in board['shots'] if s['shot_size']=='turn wide']
+    assert len(turn_visuals) > 1
+    assert len(set(turn_visuals)) == len(turn_visuals)
+    assert all('alternate coverage' in v for v in turn_visuals[1:])
+
+
 def test_failure_intelligence_flags_modern_rebirth_without_clock_or_proof():
     from studio.failure_intelligence import evaluate_candidate
     script='Arthur is reborn after his billionaire company family betrays him. He is angry. They humiliate him again and again.'
