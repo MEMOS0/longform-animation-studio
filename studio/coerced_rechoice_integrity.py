@@ -24,7 +24,7 @@ def evaluate_coerced_rechoice_integrity(premise: dict[str, Any], architecture: d
     ending = ending_source[-max(1, len(ending_source) // 3):] if ending_source else ""
 
     marriage = bool(re.search(r"marry|marriage|husband|wife|bride|wedding", full))
-    coercion = bool(re.search(r"forced|coerce|blackmail|in exchange|leverage|threat|took .*children|missing (?:twins|children)|no choice", full))
+    coercion = bool(re.search(r"forced|coerce|blackmail|in exchange|leverage|threat|took .*children|missing (?:twins|children)|no choice|contract marriage|fake marriage|arranged marriage|marri(?:ed|age).*contract", full))
     hidden_status = bool(re.search(r"hidden identity|secretly rich|billionaire|trillionaire|ceo|poor single dad|disguise|scar|driver|hiding who", full))
     applies = marriage and coercion and hidden_status
     if not applies:
@@ -39,6 +39,9 @@ def evaluate_coerced_rechoice_integrity(premise: dict[str, Any], architecture: d
         "anger_or_coercion_is_not_erased": bool(re.search(r"anger|coercion|forced|lie was|betrayal|not forgive|trust wound|no more lies", full)),
         "agency_or_control_is_restored": bool(re.search(r"marital assets|control|choice|choose|decide|decision|consent|without consent|sign|contract|documents?", full)),
         "explicit_truth_before_final_choice": bool(re.search(r"tell me the truth|deserve the truth|no more lies|no more hiding|truth", full)),
+        "transactional_intimacy_is_bounded": bool(re.search(r"sell.*skills.*not.*body|not.*selling.*body|no sex|sexual boundary|boundar|separate room|professional|consent|not.*owe.*body", full)),
+        "pressure_is_not_consent_substitute": bool(re.search(r"stand with|won.?t pressure|don.?t pressure|no one can force|free to refuse|family approval.*not|mother.*not.*consent|board.*not.*consent|pressure.*not.*consent|choice.*not.*family", full)),
+        "power_is_not_weaponized_after_rejection": bool(re.search(r"doesn.?t owe|not owe|deal stands|no retaliation|won.?t (?:pull|withdraw|weaponize)|will not (?:pull|withdraw|weaponize)|continue(?:s|d)? support|business is business|support.*despite rejection", full)),
         "final_choice_is_partnership_not_rescue": bool(re.search(r"partner, not (?:my )?rescuer|choose you|freely choose|may i|ask|no force|not my rescuer|rechoice|when you are ready", ending)),
     }
     labels = {
@@ -50,6 +53,9 @@ def evaluate_coerced_rechoice_integrity(premise: dict[str, Any], architecture: d
         "anger_or_coercion_is_not_erased": "the story erases anger or the original coercion once romance/wealth is revealed",
         "agency_or_control_is_restored": "the coerced partner does not regain meaningful choice, control, documents, assets, or decision rights",
         "explicit_truth_before_final_choice": "final romantic choice occurs without explicit truth and no-more-lies conditions",
+        "transactional_intimacy_is_bounded": "transactional or contracted intimacy lacks explicit body/sex/professional boundaries",
+        "pressure_is_not_consent_substitute": "family, board, or social pressure is treated as consent instead of being bounded by the affected person's free refusal",
+        "power_is_not_weaponized_after_rejection": "the powerful partner does not prove that romantic rejection will not trigger withdrawal, retaliation, or leverage",
         "final_choice_is_partnership_not_rescue": "ending does not convert the coerced relationship into an explicit free partnership/re-choice",
     }
     warnings = [label for key, label in labels.items() if not checks[key]]
@@ -58,5 +64,5 @@ def evaluate_coerced_rechoice_integrity(premise: dict[str, Any], architecture: d
         "score_0_to_1": round(sum(checks.values()) / len(checks), 3),
         "warnings": warnings,
         "checks": checks,
-        "craft_rule": "Coerced hidden-identity romance becomes durable when the original coercion remains a wound, truth is procedurally proven, money does not erase anger, agency/control is restored, and the ending is a free partnership re-choice rather than rescue absorption.",
+        "craft_rule": "Coerced hidden-identity romance becomes durable when the original coercion remains a wound, truth is procedurally proven, money does not erase anger, agency/control is restored, transactional intimacy is bounded, rejection does not trigger retaliation, and the ending is a free partnership re-choice rather than rescue absorption.",
     }

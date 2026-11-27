@@ -2328,7 +2328,7 @@ def test_attachment_repair_flags_child_as_cure_without_correction():
 def test_coerced_rechoice_full_chain_passes():
     from studio.coerced_rechoice_integrity import evaluate_coerced_rechoice_integrity
     premise={"title":"Strong Enough","logline":"A woman is forced to marry a poor single dad who is secretly a billionaire CEO because her missing twins are used as leverage."}
-    architecture={"sequences":[{"summary":"The forced marriage uses missing children and tuition leverage. His scar and disguise come from assault, protection, trust, and safety. She does not know he is secretly rich and accepts ordinary partnership, children, bedtime, work, and the package deal before status reveal. Evidence, footage, complaint, attorney, police investigation, records, clinic verification, test, and arrest create accountability. Money was never the wound; she is not signing away her anger or accepting property as a bribe. The lie was betrayal and coercion remains a trust wound. Marital assets, control, documents, consent, choice, and decisions restore agency. Tell me the truth, no more lies, no more hiding. In the ending she freely chooses him as partner, not rescuer, no force, may I ask, when you are ready."}]}
+    architecture={"sequences":[{"summary":"The forced marriage uses missing children and tuition leverage. His scar and disguise come from assault, protection, trust, and safety. She does not know he is secretly rich and accepts ordinary partnership, children, bedtime, work, and the package deal before status reveal. Evidence, footage, complaint, attorney, police investigation, records, clinic verification, test, and arrest create accountability. Money was never the wound; she is not signing away her anger or accepting property as a bribe. The lie was betrayal and coercion remains a trust wound. Marital assets, control, documents, consent, choice, and decisions restore agency. Tell me the truth, no more lies, no more hiding. She says she sells skills not her body, keeps sexual boundary and consent, and her mother says I stand with her and no one can force her. After rejection he says she does not owe me, the deal stands, no retaliation, and continues support. In the ending she freely chooses him as partner, not rescuer, no force, may I ask, when you are ready."}]}
     r=evaluate_coerced_rechoice_integrity(premise,architecture,[])
     assert r["applies"] is True
     assert r["score_0_to_1"] == 1.0
@@ -2720,3 +2720,22 @@ def test_object_testimony_speaks_volumes_idiom_not_applicable():
     from studio.object_testimony_integrity import evaluate_object_testimony_integrity
     premise={"title":"Museum Artifact","logline":"The artifact speaks volumes about museum history, provenance, and restoration."}
     assert evaluate_object_testimony_integrity(premise,{},[])["applies"] is False
+
+
+def test_coerced_rechoice_contract_marriage_applies_and_requires_nonretaliation():
+    from studio.coerced_rechoice_integrity import evaluate_coerced_rechoice_integrity
+    premise={"title":"Contract Wife","logline":"A woman accepts a contract marriage with a billionaire CEO for surgery money; the fake marriage gives her no choice."}
+    architecture={"sequences":[{"summary":"The debt and contract marriage are concrete leverage. His CEO disguise is about trust and safety. She does not know the hidden identity at first and ordinary work partnership forms. Police, records, evidence, test, verification, lawyer, court and arrest create accountability. Money is not a bribe and wealth does not erase anger or coercion. Documents, control, choice, consent and marital assets restore agency. Tell the truth, no more lies. She sells skills not her body, keeps professional sexual boundaries, and grandpa says I stand with her and no one can force her. After she rejects him he says liking her is my problem, she does not owe me, this is business, the deal stands, no retaliation, and sends more support. In the ending she freely chooses him as partner, not rescuer, no force, when you are ready."}]}
+    r=evaluate_coerced_rechoice_integrity(premise,architecture,[])
+    assert r["applies"] is True
+    assert r["checks"]["transactional_intimacy_is_bounded"] is True
+    assert r["checks"]["pressure_is_not_consent_substitute"] is True
+    assert r["checks"]["power_is_not_weaponized_after_rejection"] is True
+
+
+def test_coerced_rechoice_flags_retaliatory_contract_romance():
+    from studio.coerced_rechoice_integrity import evaluate_coerced_rechoice_integrity
+    premise={"title":"Contract Wife","logline":"A woman accepts a contract marriage with a billionaire CEO for surgery money; the fake marriage gives her no choice."}
+    r=evaluate_coerced_rechoice_integrity(premise,{"sequences":[{"summary":"When she asks for divorce, he withdraws the company technology until she agrees to stay."}]},[])
+    assert r["checks"]["power_is_not_weaponized_after_rejection"] is False
+    assert r["checks"]["transactional_intimacy_is_bounded"] is False
