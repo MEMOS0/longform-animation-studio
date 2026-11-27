@@ -44,6 +44,9 @@ def evaluate_compressed_survival_integrity(premise: dict[str, Any], architecture
         "contact_or_recognition_closure": bool(re.search(r"contact|recognition|free|freed|return|home|belonging|apolog", final)),
         "muted_visual_intelligibility": bool(re.search(r"visual objective|sound off|muted|first_image|final_image", full) and len(scene_visuals) > 300),
     }
+    expected_scene_count = len(sequences)
+    scene_coverage_ratio = min(len(scenes) / expected_scene_count, 1.0) if expected_scene_count else 0.0
+    checks["complete_scene_coverage"] = bool(expected_scene_count and scene_coverage_ratio >= 1.0)
     warnings = []
     labels = {
         "early_role_creature_location_payoff": "opening does not pay the role/creature/location survival contract early",
@@ -54,15 +57,19 @@ def evaluate_compressed_survival_integrity(premise: dict[str, Any], architecture
         "opening_vehicle_or_object_reused_in_climax": "opening vehicle/station/object is not reused as climax machinery",
         "contact_or_recognition_closure": "ending does not close through contact, recognition, freedom, or return",
         "muted_visual_intelligibility": "scene package does not demonstrate muted visual intelligibility",
+        "complete_scene_coverage": "scene package is incomplete; survival integrity cannot be confirmed from premise/outline or a partial draft alone",
     }
     for key, ok in checks.items():
         if not ok:
             warnings.append(labels[key])
     score = sum(checks.values()) / len(checks)
+    if expected_scene_count and scene_coverage_ratio < 1.0:
+        score = min(score, 0.65 * scene_coverage_ratio)
     return {
         "applies": True,
         "score_0_to_1": round(score, 3),
         "warnings": warnings,
         "checks": checks,
+        "scene_coverage_ratio": round(scene_coverage_ratio, 3),
         "craft_rule": "Compressed creature survival should pay a legible role/creature/location contract early, build muted visual objectives, differentiate predator from vulnerable/cooperative life, use occupational competence as climax machinery, convert escape into reciprocal rescue, and close through recognition/contact rather than explosion alone.",
     }

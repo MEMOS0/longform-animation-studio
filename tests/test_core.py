@@ -1066,3 +1066,17 @@ def test_seed_storyboard_does_not_repeat_sparse_dialogue_across_shots():
     lines=[shot.get('dialogue','') for shot in board['shots'] if shot.get('dialogue')]
     assert len(lines)==len(set(lines))
     assert lines.count("Easy. I won't hurt you.")<=1
+
+
+def test_compressed_survival_integrity_partial_scene_draft_not_perfect():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.compressed_survival_integrity import evaluate_compressed_survival_integrity
+    premise=generate_premises('compressed_creature_survival',1,18)[0]
+    arch=generate_architecture(premise)
+    scenes=generate_scenes(premise,arch)[:1]
+    result=evaluate_compressed_survival_integrity(premise,arch,scenes)
+    assert result['checks']['complete_scene_coverage'] is False
+    assert result['score_0_to_1'] < 0.2
+    assert any('incomplete' in w for w in result['warnings'])
