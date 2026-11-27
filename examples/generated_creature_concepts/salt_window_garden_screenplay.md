@@ -6,7 +6,7 @@ Status: evidence-informed professional working draft. Rewrite for voice, casting
 
 
 
-Target minutes: 42
+Target minutes: 42.0
 
 Premise id: salt_window_garden
 
@@ -98,9 +98,9 @@ SOUND — Contact, kneeling, object touch, or withheld breath lands before music
 
 The blue glass salt vial is set beside the creature rather than used as a claim.
 
-NURA
+GRANDMOTHER
 (observational and restrained)
-The blue glass salt vial opens the pump seam. It doesn't make her mine.
+The blue glass salt vial opens the pump seam. It doesn't make her yours.
 
 SOUND — Object resonance, creature response, and negative space carry the reversal.
 
@@ -192,7 +192,7 @@ SOUND — Contact, kneeling, object touch, or withheld breath lands before music
 
 The first salt trace is exposed.
 
-NURA
+CUSTOMER
 (observational and restrained)
 Salt inside this seal is fresh. Your ledger says it was closed.
 
@@ -239,7 +239,7 @@ SOUND — Contact, kneeling, object touch, or withheld breath lands before music
 
 The blue glass salt vial passes out of institutional control.
 
-NURA
+CUSTOMER
 (observational and restrained)
 The blue glass salt vial is past the gate. Your ledger can't swallow it now.
 
@@ -286,7 +286,7 @@ SOUND — Contact, kneeling, object touch, or withheld breath lands before music
 
 The proof chain becomes a physical arrangement.
 
-NURA
+CARE NETWORK WITNESS
 (observational and restrained)
 Salt marks, gate times, witnesses—line them up.
 
@@ -333,7 +333,7 @@ SOUND — Contact, kneeling, object touch, or withheld breath lands before music
 
 The moonfin child is allowed to move forward by choice.
 
-NURA
+GRANDMOTHER
 (observational and restrained)
 Door first. If she comes uncaged, they can see why.
 

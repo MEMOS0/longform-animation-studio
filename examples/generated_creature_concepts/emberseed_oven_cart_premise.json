@@ -7,7 +7,7 @@
   ],
   "logline": "In a volcanic hillside city where bakery ovens are licensed by a coal guild, Lio, a debt-bound flatbread baker whose mother's oven license was erased rescues a sparrow-sized emberseed bird child whose feathers can relight cold ovens while fighting fabricated debt; tempted to monetize its gift, she proves the fraud, returns it home, and transforms the excluded workspace into shared belonging.",
   "audience_promise": "A compressed creature-economic melodrama combining childlike nonhuman personhood, debt/home insecurity, small-business competence, ethical temptation, legal proof, ownership reversal, loving separation, and a materially transformed ending.",
-  "target_minutes": 42,
+  "target_minutes": 42.0,
   "release_format": "mid_length_feature",
   "channel_contract": "creature_economic_melodrama",
   "emotional_engine": {
@@ -63,7 +63,13 @@
     "thumbnail_single_read": "Lio sheltering a sparrow-sized emberseed bird child whose feathers can relight cold ovens under cloth or hands while the hostile economic environment and the creature's luminous gift remain visible",
     "curiosity_gap": "will she sell the creature's gift to survive, or protect it and lose everything?",
     "visual_before_after": "dry/excluded workspace becomes the ash floor converted into a communal dawn bakery where guild and non-guild families eat together; blackened brass oven key changes from discarded inheritance into proof",
-    "title_thumbnail_mismatch_risk": "generic creature fantasy packaging would hide the stronger debt/personhood/economic-choice mechanism"
+    "title_thumbnail_mismatch_risk": "generic creature fantasy packaging would hide the stronger debt/personhood/economic-choice mechanism",
+    "compound_expansion": {
+      "standalone_requirement": "the film must first resolve the home/debt wound, creature personhood, and community water/work consequence",
+      "prequel_window": "15-25 minutes can later show the resource monopoly before the opening debt deadline, ending on the exact exclusion image that begins the standalone film",
+      "reuse_rule": "the compressed film may be reused only in original care-before-power order; do not front-load creature spectacle",
+      "tail_rule": "any expansion epilogue must clarify rebuilding/nest/community consequence rather than replace closure with a sequel tease"
+    }
   },
   "evidence_boundaries": [
     "Inspired by mechanism-level evidence in desert-mermaid, creature-family, social-test, and legal-proof research; characters, world, object, proof chain, and dialogue are original.",

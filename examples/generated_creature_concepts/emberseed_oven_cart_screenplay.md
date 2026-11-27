@@ -6,7 +6,7 @@ Status: evidence-informed professional working draft. Rewrite for voice, casting
 
 
 
-Target minutes: 42
+Target minutes: 42.0
 
 Premise id: emberseed_oven_cart
 
@@ -98,9 +98,9 @@ SOUND — Contact, kneeling, object touch, or withheld breath lands before music
 
 The blackened brass oven key is set beside the creature rather than used as a claim.
 
-LIO
+A FLOUR MILLER
 (observational and restrained)
-The blackened brass oven key opens the oven seam. It doesn't make her mine.
+The blackened brass oven key opens the oven seam. It doesn't make her yours.
 
 SOUND — Object resonance, creature response, and negative space carry the reversal.
 
@@ -192,7 +192,7 @@ SOUND — Contact, kneeling, object touch, or withheld breath lands before music
 
 The first heat trace is exposed.
 
-LIO
+CUSTOMER
 (observational and restrained)
 This seam is still hot. Your ledger says the oven was closed.
 
@@ -239,7 +239,7 @@ SOUND — Contact, kneeling, object touch, or withheld breath lands before music
 
 The blackened brass oven key passes out of institutional control.
 
-LIO
+CUSTOMER
 (observational and restrained)
 The blackened brass oven key is past the gate. Your ledger can't swallow it now.
 
@@ -286,7 +286,7 @@ SOUND — Contact, kneeling, object touch, or withheld breath lands before music
 
 The proof chain becomes a physical arrangement.
 
-LIO
+CARE NETWORK WITNESS
 (observational and restrained)
 Heat marks, kiln times, witnesses—line them up.
 
@@ -333,7 +333,7 @@ SOUND — Contact, kneeling, object touch, or withheld breath lands before music
 
 The emberseed bird child is allowed to move forward by choice.
 
-LIO
+A FLOUR MILLER
 (observational and restrained)
 Door first. If she comes uncaged, they can see why.
 
