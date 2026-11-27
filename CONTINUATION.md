@@ -828,3 +828,11 @@ Continue immediately with non-creature low-subscriber queue: `s-Zn2WhkkH8`, `wHW
 - Important duplicate guards: `iqCNxQ2_jSI`, `ULJ7-z1zm6M`, `9N6S6D_ioA0`, `icsZH4sDwTM`, `23iAlK2FVyA` are already represented; do not re-analyze as new. `q0G2kx8-3tE` and `ZyovwVVUiCs` are deprioritized because channels are not low-subscriber.
 - A partial duplicate analyzer run for `iqCNxQ2_jSI` had modified/deleted some committed contact sheets; those generated artifacts were restored from git rather than preserved.
 - Next work: handle any PR #5 review findings first; otherwise download/analyze `NDZc_6T4h6E` end-to-end with metadata/subtitle/media/contact-sheet evidence, then decide whether its deception/consent mechanics warrant a new validator or integration into existing romance-deception/hidden-identity gates.
+
+## 2026-11-27 rotate before Seven Clover media analysis
+
+- PR #5 merged. Active branch: `devin/1795802596-seven-clover-deception-analysis` from current main.
+- Immediate target: `NDZc_6T4h6E` — Seven Clover, *Feisty Woman Fakes Pregnancy With Pillow To Ruin Blind Date—Unaware CEO See Through Her In 1s & Fall!* Discovery evidence: about 14.3k subscribers, 367,640 views in 4.5 days, about 81,506 views/day, 113m.
+- Before rotation, metadata/subtitle download had begun using `python tools/download_piped_archive.py --ids NDZc_6T4h6E --media-dir /c/Users/Administrator/evidence_tmp --raw-dir data/raw/piped --workers 1`. `data/raw/piped/NDZc_6T4h6E.en.ttml` and `.piped.json` already exist locally; the media download may not have completed and must be checked/restarted after rotation.
+- Do not analyze from transcript alone. Once media exists, run `studio.media_analysis.analyze_video` with output under `evidence/research/rediscovery_analysis/NDZc_6T4h6E/` or the established equivalent, inspect full-runtime contact sheets plus transcript windows, remove `audio_16k.wav`, then write the report and decide whether deception/consent mechanics warrant a new validator or integration into existing romance-deception/hidden-identity gates.
+- PR #5 queue order after this target: `AaLngUHEqVY`, `83i28EMbqqk`, `XL0d9SmAA1M`, `dHdkaKb3_S8`, then optional `DD35huaUIa8`/`yA_UfmmVAG0`.
