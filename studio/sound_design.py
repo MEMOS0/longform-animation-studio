@@ -5,6 +5,9 @@ from typing import Any
 
 REQUIRED_KEYS = ["dialogue_priority", "music_function", "silence_or_negative_space", "motif"]
 WEAK_TERMS = ["constant music", "wallpaper", "loud throughout", "generic epic"]
+GENERIC_MOTIFS = {"a restrained tactile sound motif", "restrained tactile motif", "sound motif"}
+SOUND_SOURCE_TERMS = ["breath", "water", "fire", "paper", "stone", "metal", "glass", "cloth", "footstep", "chain", "coin", "crowd", "labor", "wind", "rain", "creature", "wing", "fin", "oven", "pump", "heartbeat", "room tone", "ledger", "object", "witness", "measurement", "scratch", "whisper", "repair", "mechanic", "murmur", "assembly"]
+MUSICAL_STRUCTURE_TERMS = ["note", "melody", "chord", "theme", "instrument", "motif", "harmony", "rhythm"]
 
 
 def evaluate_sound_design(scenes: list[dict[str, Any]]) -> dict[str, Any]:
@@ -22,6 +25,14 @@ def evaluate_sound_design(scenes: list[dict[str, Any]]) -> dict[str, Any]:
         negated = any(marker in joined for marker in ("rather than", "not constant", "no constant", "avoid constant", "instead of constant"))
         if any(term in joined for term in WEAK_TERMS) and not negated:
             scene_warnings.append(f"{sid}: music/sound described as constant or generic rather than structural")
+        motif_text = str(sound.get("motif", "")).strip().lower()
+        negative_text = str(sound.get("silence_or_negative_space", "")).lower()
+        if motif_text in GENERIC_MOTIFS:
+            scene_warnings.append(f"{sid}: motif is generic; tie it to object, creature, labor, or environment materials")
+        elif motif_text and not any(term in motif_text for term in SOUND_SOURCE_TERMS) and not any(term in motif_text for term in MUSICAL_STRUCTURE_TERMS):
+            scene_warnings.append(f"{sid}: motif lacks concrete sound-source materials")
+        if negative_text and not any(term in negative_text for term in SOUND_SOURCE_TERMS + ["silence", "drop", "thin"]):
+            scene_warnings.append(f"{sid}: negative space is abstract rather than a audible transition")
         if "silence" in joined or "drop" in joined or "negative space" in joined:
             strengths.append(f"{sid}: uses silence/negative space as an emotional transition")
         if "dialogue" in joined and "intelligible" in joined:

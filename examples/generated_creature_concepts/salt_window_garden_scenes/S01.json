@@ -2,37 +2,93 @@
   "scene_id": "S01",
   "time_range": "0-4.2 minutes",
   "objective": "spatial humiliation, vulnerable alliance, and promise payoff",
-  "conflict": "the forced status ritual is interrupted when the moonfin child itself, whose trust is earned through feeding and protection; her grandmother offers food, shelter, and patient labor before anyone powerful believes her physically crosses toward the humiliated protagonist",
+  "conflict": "the moonfin child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
   "power_position_start": "socially exposed and institutionally powerless",
   "power_position_end": "protector with a defined relational duty",
-  "turn": "the forced status ritual is interrupted when the moonfin child itself, whose trust is earned through feeding and protection; her grandmother offers food, shelter, and patient labor before anyone powerful believes her physically crosses toward the humiliated protagonist",
-  "protagonist_decision": "protect the vulnerable ally or preserve dignity before protecting personal safety",
+  "turn": "the moonfin child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
+  "protagonist_decision": "hide the creature's value or protect it before knowing whether anyone will help",
   "subtext": "Care is meaningful only when it crosses a social boundary at cost.",
   "visual_action": {
-    "first_image": "Nura is forced to kneel beside the dry public pump outside the gated garden while trust customers drink inside",
+    "first_image": "the crowd watches the protagonist being barred from the public pump as the moonfin child crosses toward her",
     "face_reaction": "the protagonist's expression shifts from shame toward controlled attention when the turn lands",
     "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
-    "final_image": "blue glass salt vial visible after the power shift, its meaning altered by: blue glass salt vial is introduced as emotionally and practically significant"
+    "final_image": "the protagonist kneels, hides the moonfin child, and closes a protective hand around the blue glass salt vial"
   },
   "dialogue_design": {
     "function": "make choices, objections, and proof implications audible rather than explaining theme",
     "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
     "max_exposition_sentences": 2,
     "key_lines": [
-      "Sit here if you choose. No one eats beneath us again.",
-      "I will protect her before I protect myself.",
-      "Let them laugh; I won't leave her alone."
+      "Back off. The moonfin child came to me bleeding, not asking for permission.",
+      "I hide her first. Questions after she's safe.",
+      "The water moved when she cried; the pump saw her."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "land trust",
+        "dramatic_job": "the crowd or land trust demands that the humiliated protagonist abandon the exposed child",
+        "writing_note": "pressure should arrive as a demand, payment, threat, or institutional move"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "her grandmother",
+        "dramatic_job": "hiding the moonfin child can destroy the protagonist's last economic shelter",
+        "writing_note": "the objection makes the safe choice reasonable and forces a cost"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "protagonist",
+        "dramatic_job": "the protagonist hides/protects before knowing whether anyone will help",
+        "writing_note": "decision is spoken through action/refusal, not theme explanation"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "blue glass salt vial",
+        "dramatic_job": "the water response marks the moonfin child as a witness rather than a commodity",
+        "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "external_pressure",
+        "speaker": "land trust",
+        "line": "Paying hands first, Nura. Step away from the pump.",
+        "action": "the crowd blocks the public resource threshold",
+        "subtext": "need is being framed as illegality so control of the resource stays unquestioned"
+      },
+      {
+        "beat": "witness_objection",
+        "speaker": "her grandmother",
+        "line": "Don't lift her toward the crowd—she'll bolt.",
+        "action": "her grandmother shifts between the crowd and the creature",
+        "subtext": "intervention can become exposure if panic drives the creature into the crowd"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Nura",
+        "line": "Under my shawl. If they see fins, we're both done.",
+        "action": "Nura kneels and covers the creature",
+        "subtext": "safety outranks being understood or socially approved"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "speaker": "her grandmother",
+        "line": "Look, the salt rises where her tears fall.",
+        "action": "the water response becomes visible to the nearest witness",
+        "subtext": "the creature's response makes personhood materially visible before anyone can explain it"
+      }
     ]
   },
   "sound_design": {
-    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
-    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
-    "silence_or_negative_space": "public laughter and clatter thin into close breath/contact silence at the moment of alliance",
-    "motif": "a restrained tactile sound motif"
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
+    "music_function": "no heroic score yet; let the protection choice register as close breath and contact before music enters",
+    "silence_or_negative_space": "public clatter and accusation thin until creature breath, infant-like movement, and the first object touch remain audible",
+    "motif": "blue glass vial taps, salt grains, water droplets, fin movement, and pump-stone resonance"
   },
   "edit_hook": {
-    "entry_hook": "enter on the immediate consequence of the previous turn: the moonfin child itself, whose trust is earned through feeding and protection; her grandmother offers food, shelter, and patient labor before anyone powerful believes her creates the first morally trustworthy bond",
-    "exit_hook": "why does the powerless ally trust the person every powerful adult rejects?"
+    "entry_hook": "enter on the immediate consequence of the previous turn: the moonfin child creates the first bond through need and trust rather than status",
+    "exit_hook": "why does a valuable creature trust the person the land trust calls worthless?"
   },
   "failure_checks": [
     "Does the scene change power, trust, evidence, capability, or relational obligation?",

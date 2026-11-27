@@ -2,37 +2,93 @@
   "scene_id": "S03",
   "time_range": "8.4-13.4 minutes",
   "objective": "bond growth, antagonist retaliation, and object rule",
-  "conflict": "the antagonist repeats the original spatial punishment and raises the economic/social cost",
+  "conflict": "the land-trust heir and the step-uncle who fabricated the family debt repeats the public punishment while treating the creature's suffering as a resource input",
   "power_position_start": "emotionally bonded but economically vulnerable",
   "power_position_end": "threatened but visibly competent",
-  "turn": "the antagonist repeats the original spatial punishment and raises the economic/social cost",
+  "turn": "the land-trust heir and the step-uncle who fabricated the family debt repeats the public punishment while treating the creature's suffering as a resource input",
   "protagonist_decision": "continue helping or working openly despite wage loss, ridicule, or exclusion",
   "subtext": "Love and trust are shown through repeated protection, not declared as feelings.",
   "visual_action": {
-    "first_image": "status space repeated with a sharper punishment; object lesson embedded in action",
+    "first_image": "the antagonist's people chain the public pump while the moonfin child shakes behind the protagonist",
     "face_reaction": "the protagonist's expression shifts from hope toward controlled attention when the turn lands",
     "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
-    "final_image": "blue glass salt vial visible after the power shift, its meaning altered by: the rules of blue glass salt vial and the protagonist's proof literacy become legible"
+    "final_image": "the protagonist opens the blue glass salt vial and compares its mark with the first salt trace"
   },
   "dialogue_design": {
     "function": "make choices, objections, and proof implications audible rather than explaining theme",
     "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
     "max_exposition_sentences": 2,
     "key_lines": [
-      "I refuse to hide the work my hands can prove.",
-      "Watch what this object remembers.",
-      "If you trust me, don't ask me to become small again."
+      "I refuse your price while she's shaking.",
+      "A house bought by her pain isn't a home.",
+      "She isn't inventory with fins."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "land trust",
+        "dramatic_job": "the land trust repeats the public punishment and prices the creature's pain",
+        "writing_note": "pressure should arrive as a demand, payment, threat, or institutional move"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "the moonfin child",
+        "dramatic_job": "selling even a little of the moonfin child's value could solve the debt faster",
+        "writing_note": "the objection makes the safe choice reasonable and forces a cost"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "protagonist",
+        "dramatic_job": "the protagonist chooses slower safety over profitable harm",
+        "writing_note": "decision is spoken through action/refusal, not theme explanation"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "blue glass salt vial",
+        "dramatic_job": "fear, fins, and salt make exploitation physically visible",
+        "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "external_pressure",
+        "speaker": "land trust",
+        "line": "One fin-ray, and your debt is gone.",
+        "action": "the offer converts creature pain into economic rescue",
+        "subtext": "the offer is seductive because one small wound could erase an unbearable debt"
+      },
+      {
+        "beat": "witness_objection",
+        "speaker": "her grandmother",
+        "line": "Pull it and she'll never trust a hand again.",
+        "action": "her grandmother blocks the reach toward the creature",
+        "subtext": "the objection names the moral cost before anyone can call the bargain practical"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Nura",
+        "line": "Not while she's shaking.",
+        "action": "Nura steps into the reach instead of arguing abstractions",
+        "subtext": "the protagonist refuses in the present tense because the creature's fear matters more than the argument"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "speaker": "land trust",
+        "line": "Hold her still. The price is higher while she's breathing.",
+        "action": "fear moves through the creature's fins, making the cost visible",
+        "subtext": "the antagonist tries to make the creature's body testify against its own personhood"
+      }
     ]
   },
   "sound_design": {
-    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
-    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
-    "silence_or_negative_space": "intimate object/craft detail against hostile public murmur",
-    "motif": "a restrained tactile sound motif"
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
+    "music_function": "keep the creature's fear acoustically close while power remains reverberant and distant",
+    "silence_or_negative_space": "institutional chains, coin counts, ledger paper, and hostile murmur press against small creature fear sounds",
+    "motif": "blue glass vial taps, salt grains, water droplets, fin movement, and pump-stone resonance"
   },
   "edit_hook": {
-    "entry_hook": "enter on the immediate consequence of the previous turn: the bond with the moonfin child itself, whose trust is earned through feeding and protection; her grandmother offers food, shelter, and patient labor before anyone powerful believes her becomes habitual and trusted",
-    "exit_hook": "what does the object know that powerful people do not?"
+    "entry_hook": "enter on the immediate consequence of the previous turn: feeding and protecting the moonfin child becomes a repeatable ritual with visible cost",
+    "exit_hook": "how much suffering is the system willing to monetize before witnesses understand it?"
   },
   "failure_checks": [
     "Does the scene change power, trust, evidence, capability, or relational obligation?",

@@ -87,6 +87,41 @@
           "items": {
             "type": "string"
           }
+        },
+        "opposition_beats": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "spoken_exchange": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "beat",
+              "speaker",
+              "line",
+              "action"
+            ],
+            "properties": {
+              "beat": {
+                "type": "string"
+              },
+              "speaker": {
+                "type": "string"
+              },
+              "line": {
+                "type": "string"
+              },
+              "action": {
+                "type": "string"
+              },
+              "subtext": {
+                "type": "string"
+              }
+            }
+          }
         }
       }
     },

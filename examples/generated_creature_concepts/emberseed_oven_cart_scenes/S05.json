@@ -2,36 +2,92 @@
   "scene_id": "S05",
   "time_range": "18.9-24.4 minutes",
   "objective": "midpoint public accusation and maximum shame",
-  "conflict": "the protagonist is publicly accused/arrested/excluded using planted or manipulated evidence",
+  "conflict": "the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
   "power_position_start": "publicly accused and close to maximum powerlessness",
   "power_position_end": "stripped of status but in possession of the decisive question",
-  "turn": "the protagonist is publicly accused/arrested/excluded using planted or manipulated evidence",
-  "protagonist_decision": "defend truth without exposing or endangering the vulnerable ally",
+  "turn": "the protagonist is accused of theft or illegal possession while the emberseed bird child is treated as evidence rather than a person",
+  "protagonist_decision": "defend the truth without exposing the creature to capture",
   "subtext": "Public shame is an attack on identity before it is an attack on facts.",
   "visual_action": {
-    "first_image": "the original audience/social space is reused for arrest, accusation, or expulsion",
+    "first_image": "guards force the protagonist before the public oven as the accusation lands",
     "face_reaction": "the protagonist's expression shifts from hard-won hope toward controlled attention when the turn lands",
     "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
-    "final_image": "blackened brass oven key visible after the power shift, its meaning altered by: the key opens the sealed oven ledger wall and proves the license was stolen becomes the central question, but the proof chain is incomplete"
+    "final_image": "she shields the emberseed bird child with her body while the blackened brass oven key drops beside the exposed ledger seam as evidence"
   },
   "dialogue_design": {
     "function": "make choices, objections, and proof implications audible rather than explaining theme",
     "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
     "max_exposition_sentences": 2,
     "key_lines": [
-      "I did not take it. Let me prove who did.",
-      "Do not mistake survival for consent.",
-      "You can chain my name, but you can't make the evidence obey you."
+      "I saved her from you. That isn't theft.",
+      "Hunger isn't permission.",
+      "The proof is already beyond your ledger."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "coal guild",
+        "dramatic_job": "public accusation converts the creature into evidence and the protagonist into a thief",
+        "writing_note": "pressure should arrive as a demand, payment, threat, or institutional move"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "the emberseed bird child",
+        "dramatic_job": "revealing the emberseed bird child may prove innocence while causing capture",
+        "writing_note": "the objection makes the safe choice reasonable and forces a cost"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "protagonist",
+        "dramatic_job": "the protagonist protects the child before protecting reputation",
+        "writing_note": "decision is spoken through action/refusal, not theme explanation"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "blackened brass oven key",
+        "dramatic_job": "the blackened brass oven key falls open as proof but does not complete the chain",
+        "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "external_pressure",
+        "speaker": "coal guild",
+        "line": "Thief. You stole fire and hid the guild proof.",
+        "action": "public accusation turns the creature into evidence",
+        "subtext": "public shame is being used to force the creature into visibility as evidence"
+      },
+      {
+        "beat": "witness_objection",
+        "speaker": "a flour miller",
+        "line": "Give them the bird and they may spare the oven.",
+        "action": "a flour miller offers the safer betrayal",
+        "subtext": "the safer betrayal sounds merciful because it promises immediate social peace"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Lio",
+        "line": "I took her out of your cage. That isn't theft.",
+        "action": "Lio shields the creature before defending reputation",
+        "subtext": "the protagonist protects before defending reputation, proving the hierarchy of values"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "speaker": "Lio",
+        "line": "The blackened brass oven key is past the gate. Your ledger can't swallow it now.",
+        "action": "the blackened brass oven key passes out of institutional control",
+        "subtext": "the proof escaping the ledger means truth no longer belongs to the institution that controlled it"
+      }
     ]
   },
   "sound_design": {
-    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
-    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
-    "silence_or_negative_space": "public noise drops into a thin close perspective during the decisive accusation",
-    "motif": "a restrained tactile sound motif"
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
+    "music_function": "music must withhold resolution during accusation so shame remains spatial and bodily",
+    "silence_or_negative_space": "public noise drops into room tone, heartbeat, cloth movement, and the object striking stone",
+    "motif": "blackened brass key clicks, ember breath, wing-feather tremor, and oven stone resonance"
   },
   "edit_hook": {
-    "entry_hook": "enter on the immediate consequence of the previous turn: the emberseed bird child plus the miller's lonely daughter who first hides it; a flour miller and night watchman feed Lio before guild protection exists or a lower-status witness sees the public wound clearly while powerful people misread it",
+    "entry_hook": "enter on the immediate consequence of the previous turn: the emberseed bird child or a low-status witness recognizes the public wound before powerful people do",
     "exit_hook": "who planted the proof, and can the victim author the reversal?"
   },
   "failure_checks": [

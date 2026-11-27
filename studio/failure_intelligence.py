@@ -46,7 +46,7 @@ DEFAULT_PATTERNS: list[dict[str, Any]] = [
         "evidence_strength": "hypothesis_requires_media_validation",
         "archive_signal": "Hidden identity correlates positively at title level, so its absence/presence alone cannot explain failure; execution likely matters.",
         "risk_logic": "A secret that only waits for a final reveal produces repetitive middle chapters.",
-        "mitigation": "Every act should change who almost discovers the secret, what it costs, and what new conflict the partial reveal creates.",
+        "mitigation": "Every act should change who almost discovers the secret, what it costs, and what new conflict the partial reveal creates. The Lioren breakout proves competence and love before status, then treats the lie itself as a trust wound requiring apology.",
     },
     {
         "id": "modern_power_arena_mismatch",
@@ -82,7 +82,7 @@ DEFAULT_PATTERNS: list[dict[str, Any]] = [
         "evidence_strength": "timestamped_casebook_observational",
         "archive_signal": "1UB6EA3L7I4 ends in banishment/royal jurisdiction and a dying apology; stronger hits end in home, family acceptance, celebration, marriage, or communal safety.",
         "risk_logic": "Revenge satisfaction alone does not repay long-form suffering unless the protagonist's original wound is emotionally answered.",
-        "mitigation": "After justice, explicitly dramatize what the protagonist gains: home, family, child safety, chosen love, public acceptance, or a transformed future.",
+        "mitigation": "After justice, explicitly dramatize what the protagonist gains: home, family, child safety, chosen love, public acceptance, or a transformed future. PrimeFate hit/target comparison suggests restored/protective belonging is stronger wish fulfillment than punishment plus unresolved grief when the opening wound is familial abandonment.",
     },
     {
         "id": "adult_betrayal_escalates_into_misery_spiral",
@@ -165,6 +165,15 @@ DEFAULT_PATTERNS: list[dict[str, Any]] = [
         "risk_logic": "High-quality machines, monsters, and battle scale become interchangeable when the audience is asked to track systems rather than protect someone specific.",
         "mitigation": "Convert procedure into personal stakes: name who is endangered, what protective choice costs, and what belonging/personhood/home outcome changes after the mission.",
     },
+    {
+        "id": "modern_rebirth_revenge_without_clock_or_proof",
+        "label": "Modern rebirth/family revenge lacks a visible deadline and concrete evidence objects",
+        "signals": ["modern_rebirth_revenge", "missing_rebirth_clock_or_proof"],
+        "evidence_strength": "cross_channel_timestamped_observational",
+        "archive_signal": "PrimeFate's strong TKfoKnpHpsw establishes file theft, medical sacrifice, and family misrecognition before rebirth, then converts the premise into a seven-day countdown, contracts, records, bank statements, memory objects, and public exposure within the first quarter.",
+        "risk_logic": "Modern revenge becomes repetitive humiliation when the audience cannot measure time pressure or see how betrayal will be proven. The rebirth device alone does not create progression.",
+        "mitigation": "Give the rebirth a visible countdown or irreversible deadline; attach the injustice to contracts, files, scars, records, accounts, or repeated memory objects; make the transformation contract visible early and keep public/proof/status consequences escalating through the middle; do not withhold all evidentiary payoff until the finale.",
+    },
 ]
 
 
@@ -220,6 +229,12 @@ def candidate_flags(candidate_text: str, script_text: str = "") -> dict[str, boo
     opening_care = count_signal(opening_text, "care_belonging_protection")
     ending_wound = count_signal(ending_text, "wound_or_humiliation") + count_signal(ending_text, "threat_or_violence")
     ending_warmth = count_signal(ending_text, "care_belonging_protection") + count_signal(ending_text, "justice_reversal_payoff")
+    rebirth_language = bool(re.search(r"reborn|rebirth|second chance|back in time", full))
+    kinship_or_succession = bool(re.search(r"family|sister|brother|father|mother|heir", full))
+    revenge_language = bool(re.search(r"revenge|payback|disown|cast out|betray|drag .*down|make them pay", full))
+    modern_context = bool(re.search(r"billionaire|company|business|bank|hospital|stock|investor|lawyer|city", full))
+    rebirth_clock = bool(re.search(r"(?:[0-9]+|one|two|three|four|five|six|seven|eight|nine|ten)\s+(?:days?|hours?|weeks?)|deadline|countdown", full))
+    rebirth_proof = bool(re.search(r"contract|evidence|records?|bank statements?|proof|documents?|waiver|photos?|files?|scar|needle mark|memory object|flowers|shoes|heels", full))
     flags = {name: name in themes for name in themes}
     flags.update({
         "hidden_identity_or_secret": bool(features["hidden_identity_or_secret"]["present"]),
@@ -244,6 +259,8 @@ def candidate_flags(candidate_text: str, script_text: str = "") -> dict[str, boo
         "fragmented_episode_packaging": bool(re.search(r"\b(episode|ep\.?|part)\s*\d+\b|\bseason\s*\d+\b|to be continued|previously on", full)),
         "mid_story_entry": bool(script_text and re.search(r"previously on|we continue|back on the island|meanwhile|after last|next morning", opening_text.lower()) or (script_text and opening_wound == 0 and opening_care == 0 and not re.search(r"attack|escape|capture|injur|thrown|abandon|reject|rescue|save", opening_text.lower()))),
         "delayed_promise_payoff": bool(script_text and not re.search(r"appears|attacks|rescues|saves|protects|transforms|reveals|hatches|shifts|bonds|claims|escapes|is exposed", opening_text.lower())),
+        "modern_rebirth_revenge": bool(rebirth_language and kinship_or_succession and revenge_language and modern_context),
+        "missing_rebirth_clock_or_proof": bool(script_text and (not rebirth_clock or not rebirth_proof)),
     })
     for theme in ("family_child", "animal_child", "dragon", "wolf_werewolf", "vampire", "sea_mermaid", "romance_mate", "modern_wealth_power", "revenge_retribution"):
         flags.setdefault(theme, theme in themes)

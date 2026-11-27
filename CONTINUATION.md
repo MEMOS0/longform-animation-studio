@@ -357,3 +357,140 @@ Immediate next:
 2. Continue low-subscriber breakout discovery (zombie/reborn/werewolf/mermaid) and analyze one counterexample low video deeply enough to avoid survivorship bias.
 3. Improve generated scene dialogue beyond scaffolds; director seeds are validation scaffolds, not final hand-directed boards.
 4. Continue thumbnail hit/mid/low taxonomy across Spark, ELDSAGA, Ironcrest, Epic.
+
+## 2026-11-27 checkpoint — post-merge Spark counterexample branch
+
+PR #1 merged into main. New active branch/PR: `devin/1764820000-creature-production-deepening`, PR #2 `Add Spark low counterexample analysis`.
+
+Major addition: `wd53-C7Na0Y` low-view Spark counterexample. It is only 4 days old and cannot be declared a true failure, but it falsifies simplistic hit rules: it already has immediate serial-sacrifice danger, bodily marks, hidden-care shells, extraction metaphors, mutual protection, and a strong infrastructure dilemma. Low performance therefore must not be read as proof of bad writing. Key production lesson: strong hooks are necessary but insufficient; mythic/lore density still needs relational clarity, packaging-title alignment, home/community consequence, and closure before cosmic expansion.
+
+Tests: 56 passed. PR #2 pushed and opened.
+
+## 2026-11-27 checkpoint — closure integrity gate
+
+Added `studio/closure_integrity.py` and integrated it into project evaluation. This machine gate operationalizes the Spark/ELDSAGA counterexample lesson: a plot sequel hook may remain, but only after relational recognition/home/belonging closure lands; infrastructure collapse must be followed by visible community survival/rebuilding consequence. Tests now 57 passed. Salt Window Garden generated package scores 1.0 on closure integrity.
+
+## 2026-11-27 checkpoint — creature dialogue scaffold pass
+
+`studio/scene_generator.py` now has contract-aware creature-economic key lines instead of generic social-melodrama lines. Salt Window Garden uses water/pump/salt ownership language; Emberseed Oven Cart uses fire/oven/key resource language. Both generated concepts still pass A/B/C/D gates with zero schema errors. Remaining caveat: these are still scaffolds, not final hand-written screenplays; next creative pass should make lines scene-specific rather than template-derived. Tests: 57 passed. Latest pushed commit at this checkpoint: `f7d7584`.
+
+## 2026-11-27 checkpoint — closure robustness and creature architecture specificity
+
+Latest pushed commit: `f278274` (`Make creature architectures actor-specific and original`). Tests: 70 passed. PR #2 remains active: https://github.com/MEMOS0/longform-animation-studio/pull/2
+
+Completed this round:
+- Closure integrity was hardened against adversarial edge cases found by repeated automated review: hypothetical/planned/negated infrastructure shutdowns, independent actual collapse clauses, explicitly pre-collapse recovery, valid post-collapse timing, denied sharing, non-resource sharing, failed repair phrases, shield-node phrasing, repeated recovery beats, and screenplay-only aftermath evidence. These are heuristic gates, not perfect NLP; keep tests adversarial and treat warnings as prompts for creative inspection.
+- Creature-economic premise cleanup removed copied/reference-flavored wording (`Pearl-like`) and awkward actor compounds.
+- `studio/architecture_generator.py` now adapts creature-economic sequences away from generic social frame-up scaffolding toward creature consent, resource extraction, care-before-monetization, proof-chain, and spatial/economic payoff mechanics. Actor labels are compacted (`the moonfin child`, `her grandmother`) instead of long explanatory phrases.
+- Both generated creature concepts were regenerated end-to-end: premise -> architecture -> scenes -> 140 director-seed shots -> production prompts -> project evaluation. Both pass A/B/C/D gates with no warnings; E/F remain unknown until real media/release data exists.
+
+Immediate next:
+1. Triage any new Devin Review findings only because the harness requires it; user still prioritizes continuous work over review theater.
+2. Deepen dialogue beyond scaffolded key lines into scene-specific conflict, subtext, and reversal language.
+3. Continue low-subscriber breakout discovery across undercovered genres and integrate counterexamples.
+4. Rotate context before exhaustion; preserve this file as the continuity anchor.
+
+## 2026-11-27 checkpoint — creature dialogue specificity pass
+
+Latest pushed commit: `57a612c` (`Clean creature dialogue actor labels`). Tests: 70 passed. PR #2: https://github.com/MEMOS0/longform-animation-studio/pull/2
+
+`studio/scene_generator.py` now produces more scene/creature-specific creature-economic dialogue: actor labels are extracted and cleaned (`The moonfin child`, `Her grandmother`, `A flour miller`), and key lines emphasize consent, resource witness, extraction cost, proof authorship, non-possession, and spatial/economic repair. Generated Salt/Emberseed packages were regenerated end-to-end and still pass A/B/C/D with no warnings. Caveat: these remain scaffold key lines, not finished human-quality screenplay dialogue; next pass should add per-scene opposition voices, interruption/negotiation rhythms, and subtext progression rather than only polished thematic lines.
+
+Immediate next:
+1. Handle any required review triage without letting it consume the creative roadmap.
+2. Build a dialogue-opposition model: each scene needs antagonist pressure, caregiver/witness objection, protagonist refusal, evidence implication, and cost escalation.
+3. Resume low-subscriber breakout discovery across undercovered genres.
+
+## 2026-11-27 checkpoint — Epicverse visual-first breakout
+
+Latest pushed commit: `24115ab`. Tests: 70 passed. Added `knowledge/market/epicverse-giant-father-visual-first-breakout.md` plus media/contact-sheet evidence and thumbnail for low-subscriber Epicverse `no72LZAVvZQ` (11.7m, ~6.51M views, ~4.6k subs at collection). Doctrine: scale spectacle must convert into repeated care behavior; every scene should remain intelligible muted. Caveat: no subtitles, sampled full-runtime contact-sheet inspection only, no CTR/retention causality. Note: full 58MB video evidence was committed and GitHub warned about large files; consider evidence-storage policy next context (keep small derived artifacts in git, large source media local/object storage).
+
+Immediate next: build dialogue-opposition model; continue low-subscriber scan; decide large media evidence policy; handle required review triage.
+
+Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows `no72` ~6.6M vs many creature/fantasy videos under ~2k in flat metadata; strong evidence that channel size/category alone does not explain breakout. Next: exact per-video dates/durations, thumbnail montage, low-video audiovisual comparison, and large-media evidence policy.
+
+## 2026-11-26 late-session Aethernal evidence checkpoint
+
+- Added Aethernal Pictures same-channel hit/medium/low comparison: Act II `31-p_UcMgOs` about 3.6M views/19.8 min versus Act I about 529k/33.8 min and low teaser/soundtrack contracts.
+- Added full-runtime sampled visual/contact-sheet evidence, aligned subtitle evidence, machine visual metrics, and waveform-derived sound-contrast analysis for Act II under `evidence/research/rediscovery_analysis/31-p_UcMgOs/`.
+- Key doctrine: fantasy spectacle should be grounded in ordinary survival systems (water, food, debt, chores, animals, doors, communal procedures). Sequel labeling is not automatically fatal; concrete threat-event packaging can overcome franchise friction.
+- Thumbnail Intelligence now includes Aethernal hit/medium/low originals and montage. Hit packaging uses ordinary boy + dog + water bucket + approaching Rot creatures; low teaser is portrait/branding without dramatic direction.
+- Production evaluator now warns when a fantasy opening lacks an ordinary survival/labor/resource anchor.
+- Latest local test state at this checkpoint: 82 passed.
+
+## 2026-11-27 dialogue-scaffold checkpoint
+
+- `studio/creature_dialogue.py` now generates scene-specific spoken exchanges for creature-economic premises: external pressure, witness objection, protagonist decision, and evidence/cost.
+- Creature key lines were revised away from broad theme statements toward shorter action/refusal/proof lines tied to pump/oven, water/fire, ledger, witness, creature fear, and economic pressure.
+- `studio/dialogue_craft.py` now validates spoken-exchange structure when present: beat/speaker/line/action completeness, turn length, and speaker differentiation.
+- Regenerated Salt Window Garden and Emberseed Oven Cart artifacts: gates A/B/C/D pass, zero dialogue warnings, zero sound warnings, visual causality 1.0, four spoken turns per scene.
+- Latest local test state at this checkpoint: 84 passed.
+
+## 2026-11-27 storyboard-dialogue synchronization checkpoint
+
+- Director-seed storyboards now use creature spoken-exchange lines in dialogue shots and use the matching concrete action as visual staging.
+- Repeated sampled beats no longer duplicate the exact same dialogue line across adjacent shots.
+- Regenerated production prompts after synchronization; generated projects still pass A/B/C/D with zero dialogue/sound warnings and visual causality 1.0.
+- Latest local test state at this checkpoint: 86 passed.
+
+
+## 2026-11-27 storyboard-review + PrimeFate checkpoint
+
+- Review findings fixed on PR #2: key-line fallback for screenplays without spoken exchanges; witness-objection now precedes protagonist decision; scripted final images are preserved while evidence dialogue remains. Tests: 92 passed.
+- Latest code/artifact commit before this checkpoint: `371b62f` (`Collect PrimeFate breakout reference evidence`). Active branch remains `devin/1764820000-creature-production-deepening`.
+- PrimeFate partial evidence is now committed: channel archive metadata, hit/target/medium/low thumbnails, flat metrics, and `TKfoKnpHpsw` clean transcript. Still incomplete: contact-sheet/seconds/timeline regeneration and timestamped comparative markdown analysis.
+- External full media remains outside repo in `C:/Users/Administrator/evidence_tmp/TKfoKnpHpsw.webm`; do not commit full video. Regenerate derived contact sheets and inspect them before making strong claims.
+- Important status: review fixes validated locally; a new Devin Review round may be running or queued. Do not treat review as blocking creative research unless concrete findings arrive.
+
+## 2026-11-27 PrimeFate deep-dive checkpoint
+
+- PrimeFate `TKfoKnpHpsw` full-video derived evidence is committed: clean transcript, seconds/timeline metrics, media summary, and 14 contact sheets. Full source video/audio remain outside repo in `C:/Users/Administrator/evidence_tmp/` and must not be committed.
+- New knowledge files: `knowledge/market/primefate-reborn-family-revenge-deep-dive.md` and `knowledge/market/primefate-thumbnail-hit-medium-low-analysis.md`.
+- Skill now includes modern family revenge doctrine: concrete economic object + bodily sacrifice opening, rebirth after injustice, countdown engine, early public payoff, proof asymmetry, repeated memory objects, third-party competence proof, antagonist self-destruction, cost-aware familial ending, vertical/mobile power-legibility.
+- Latest commit: `1c9ddaa6e074f22b2e06033e59449cbc4a8eb357`.
+- Next highest-value work: compare PrimeFate hit `5UUh-vADVko` or low `dKQ9lMEaibw` directly against target; continue low-subscriber breakout scan; deepen machine enforcement of packaging-coherence and modern revenge doctrines.
+
+## 2026-11-27 PrimeFate hit comparison + Lioren breakout checkpoint
+
+- `5UUh-vADVko` and low-subscriber breakout `hozDtPcnnBA` were downloaded through the public Piped-compatible endpoint. Full media stays outside repo in `C:/Users/Administrator/evidence_tmp/`; derived contact sheets, transcripts, seconds/timeline metrics, summaries, metadata, and subtitles are committed.
+- New knowledge files: `knowledge/market/primefate-hit-target-comparison.md`, `knowledge/market/lioren-hidden-heir-breakout-deep-dive.md`, and `knowledge/market/lioren-thumbnail-breakout-analysis.md`.
+- Important doctrine correction: early transformation payoff means the contract must be emotionally legible early, not necessarily that the supernatural mechanism occurs early. PrimeFate hit anchors body-swap transformation in the opening but dramatizes it around minute 29-30. Faster rebirth in target did not outperform.
+- Major comparative finding: hit revenge story adds double contrast (abusive original family vs loving new family) and ends by answering the original abandonment wound with protective family belonging. Target's punishment+grief ending is weaker wish fulfillment.
+- Lioren hidden-heir breakout shows competence-before-reveal, ordinary love-before-wealth, prosocial institutional use of wealth, relational cost of lying, and family/chosen-love closure in a compressed 35-minute widescreen format.
+- Latest tests before checkpoint commit: 96 passed.
+
+## 2026-11-27 review triage + creature dialogue specificity checkpoint
+
+- Devin Review findings on PR #2 were triaged and fixed. Modern rebirth detection now requires modern context and treats clock/proof as independent requirements; fantasy royal rebirth no longer receives modern revenge warnings. Repeated storyboard coverage now receives alternate visual coverage instead of identical adjacent staging while preserving scripted final images. Regression tests pass: 99 passed.
+- Creature-economic dialogue was further differentiated by world voice: coal-guild/oven scenes now use guild ration, coal ledger, guild mark, pardon/confession, and oven-crawl language instead of land-trust wording. Customer witness lines now use the protagonist name instead of gender-assumptive pronouns. Generated scenes, seed storyboards, prompts, and evaluations were regenerated and remain schema/test valid.
+- New low-subscriber breakout lead selected for next deep dive: VNDL `NHAHR3v9La8` (`She Gave Birth to Twins. One Was a Dragon / THE QUEEN'S MONSTER`), 24.2m, about 534k views, roughly 7.9k subscribers at candidate scan. Media downloaded through public Piped-compatible endpoint; no subtitles exposed by Piped, so analysis must distinguish visual evidence from unavailable dialogue transcription.
+
+## 2026-11-27 VNDL creature-family checkpoint
+
+- VNDL `NHAHR3v9La8` (`THE QUEEN'S MONSTER`) was downloaded and analyzed. Piped exposed no subtitles; local Whisper transcription failed with a ctranslate2 segmentation fault, so the analysis explicitly makes no exact-dialogue claims. Derived visual seconds/timeline metrics, audio signal metrics, contact sheets, metadata, and thumbnail evidence are committed; full media/audio remain outside repo or deleted.
+- New knowledge file: `knowledge/market/vndl-queen-monster-creature-family-deep-dive.md`. Key finding: the compressed 24-minute breakout pays the creature-child contract in the first five minutes through nest/feeding/touch/swaddling, then uses maternal punishment, winter survival, matched pendants, battle spectacle, and a quiet creature-family final image. It strongly validates muted-intelligibility and care-before-power doctrine.
+
+## 2026-11-27 professional creature dialogue pass checkpoint
+
+- Creature-economic spoken exchanges were deepened beyond noun substitution. Scene 1 protection now uses concrete hiding materials (`shawl` vs `flour cloth`) and visible creature features; evidence language is material (`salt rises where her tears fall` vs `coals bend toward her crying`); competence proof uses seal/ledger contradictions; accusation, proof custody, restitution, and communal repair lines were rewritten as action-facing short turns.
+- Generated Salt/Ember scenes, director-seed storyboards, production prompts, and evaluations were regenerated. Regression coverage now locks world-specific authority/proof language. Latest local tests: 100 passed.
+
+## 2026-11-27 hidden-identity integrity gate checkpoint
+
+- Added `studio/hidden_identity_integrity.py` and integrated it into project evaluation. It transparently checks whether hidden-identity/status stories prove competence or kindness before status, form love through ordinary non-status behavior, treat deception as a trust wound, use power prosocially, and subordinate wealth to belonging. This converts the Lioren breakout findings into machine-readable pre-greenlight review rather than leaving them only in prose.
+- Regression tests cover a status-only weak reveal and a Lioren-style positive structure. Latest local tests: 102 passed.
+
+## 2026-11-27 Drakenhart tiny-kingdom checkpoint
+
+- Drakenhart `1Nv2aGUgIG4` was downloaded with English subtitles and analyzed visually/aurally through contact sheets, aligned transcript, seconds/timeline metrics, and thumbnail evidence. Full media/audio are not committed.
+- New knowledge file: `knowledge/market/drakenhart-tiny-kingdom-breakout-deep-dive.md`. Key finding: the 29.5-minute breakout pays the tiny-kingdom premise within five minutes, proves protagonist competence through an early tunnel save, makes giant-world junk economically meaningful as tiny-world infrastructure, gives the protagonist institutional guilt, uses elder restitution as a moral mirror, stops drilling through map/proof persuasion rather than battle, and ends with years of rebuilding/chosen home.
+
+## 2026-11-27 scale-community repair gate checkpoint
+
+- Added `studio/scale_community_integrity.py` and integrated it into project evaluation. It converts the Drakenhart tiny-kingdom findings into machine review: scale must affect material infrastructure/economics, outsider competence should protect the community early, trust needs historical/institutional cost, extraction should be stopped through proof/persuasion where possible, and endings need sustained rebuilding/chosen-home evidence.
+- Latest local tests: 104 passed.
+
+## 2026-11-27 context handoff note
+
+- A fresh low-subscriber breakout scan was started with `python tools/discover_recent_breakouts.py --help` accidentally invoking the default scan because argparse help did not emit before execution in the background shell. Shell id at the time was `94a8d1`; if its output/files appear, treat them as a normal scan result and commit `data/processed/recent_breakout_candidates.json` plus `knowledge/market/recent-breakout-candidates.md` after reviewing. If it is still hung, kill it and rerun deliberately with `--days 14 --max-enrich 35`.
+- Immediate next priorities: continue template-to-professional dialogue deepening, use the scan to select the next low-subscriber breakout, and consider full audiovisual analysis of any strong lead. Latest pushed commit before this note: `d065b29cb11660e8162b873e0b60ff9851d93054`; tests were 104 passed.

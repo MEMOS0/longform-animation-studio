@@ -123,6 +123,16 @@ Every scene must answer:
 
 If a scene only repeats information, compress it, combine it, or delete it.
 
+**Ordinary-economic grounding rule:** fantasy spectacle becomes more watchable when the world is first made materially ordinary: water, food, debt, chores, animals, doors, work, and communal safety procedures. Aethernal Act II evidence shows a strong pattern of physical threat followed by potato peels, unpaid labor, a low well, water fetching, false-alarm village habits, and then communal breach. Use spectacle to open the door, but use ordinary survival systems to make the audience understand what can be lost. `studio/production.py` now treats a fantasy opening without an ordinary survival/labor/resource anchor as a transparent warning, not an automatic failure.
+
+**Dialogue opposition rule:** a production-ready scene should not rely only on three thematic key lines. Build a short spoken opposition chain: external pressure, witness objection, protagonist decision, and evidence/cost. Lines should be short, concrete, and action-facing; the object or proof should enter through what characters do with it, not through abstract theme speeches. `studio/creature_dialogue.py` is the first creature-economic implementation of this rule, and `studio/dialogue_craft.py` validates the scaffold transparently.
+
+**Muted-intelligibility rule:** every scene should remain broadly intelligible with the sound off. Write the entry image as a readable physical action, not a mood; write the exit image as a changed object/body/space consequence. Epicverse hit/low evidence shows that strong creature imagery alone is not enough: scale or spectacle must convert into repeated care behavior, protection cost, and a home/family transformation. Use `studio/visual_causality.py` as a transparent heuristic, then make the final creative judgment as a director.
+
+Creature-family compressed-feature doctrine from VNDL: establish the creature as a dependent child through nest/feeding/touch/swaddling before power; use matched memory objects on both sides of a separated creature-human bond; ground the middle in seasonality, graves, animals, clothing, labor, and survival rather than only royalty; let public fear cost something bodily or relational before battle; resolve maximum fire/flight spectacle into a quiet recognition/protection image.
+
+Tiny-scale/community fantasy doctrine from Drakenhart: scale must change economics, not only size contrast — giant-world junk should become roofs, vehicles, tools, and infrastructure. Give the outsider protagonist institutional complicity or professional guilt, make community distrust historically rational, prove competence through an early practical save, use an elder/predecessor as a restitution mirror, let maps/proof stop extraction rather than defaulting to battle, and end with repeated rebuilding/chosen home rather than outsider departure.
+
 ### Long-form pacing
 
 Long duration is not stuffing. A long film needs modular escalation:
@@ -199,12 +209,12 @@ Before applying any market pattern, classify the product first: vertical microdr
 
 Current cross-channel mechanism hierarchy:
 
-1. **Most portable:** legible injustice + vulnerable child/creature/person + credible protection + early visual payoff. Evidence converges across Nov Drama, Ironcrest, and Epic’s baby-dragon/mother-dragon hits.
+1. **Most portable:** legible injustice + vulnerable child/creature/person + credible protection + early visual payoff. Evidence converges across Nov Drama, Ironcrest, Epic’s baby-dragon/mother-dragon hits, and VNDL’s compressed queen/monster creature-family breakout.
 2. **Strong but channel-fit dependent:** hidden royal identity, transformation/rebirth, mythic adventure, revenge, creature spectacle, disaster survival, sci-fi mystery.
 3. **Usually insufficient alone:** scale, lore, army battles, crown politics, high visual polish, franchise continuity, or a “movie-like” label.
 4. **Format-specific:** serial cliffhangers belong to episodic systems; complete-film emotional payoff belongs to feature systems; compilation packaging must sell completeness and binge value.
 
-Use `knowledge/market/data-source-and-format-audit.md`, `knowledge/market/epic-ai-films-site-analysis.md`, `knowledge/market/ironcrest-deep-dive.md`, `knowledge/market/format-duration-performance.md`, and `knowledge/market/fifth-pass-breakout-media-deep-dive.md`, and `knowledge/market/fifthpass-hitlow-media-comparison.md; compressed immigrant/social melodrama evidence: knowledge/market/dramora-compressed-social-melodrama-deep-dive.md; floor/table social-proof circular inversion: knowledge/market/karma-floor-table-social-proof-deep-dive.md` before cross-channel creative decisions.
+Use `knowledge/market/data-source-and-format-audit.md`, `knowledge/market/epic-ai-films-site-analysis.md`, `knowledge/market/ironcrest-deep-dive.md`, `knowledge/market/format-duration-performance.md`, and `knowledge/market/fifth-pass-breakout-media-deep-dive.md`, and `knowledge/market/fifthpass-hitlow-media-comparison.md; compressed immigrant/social melodrama evidence: knowledge/market/dramora-compressed-social-melodrama-deep-dive.md; floor/table social-proof circular inversion: knowledge/market/karma-floor-table-social-proof-deep-dive.md; compressed creature-family visual storytelling: knowledge/market/vndl-queen-monster-creature-family-deep-dive.md; tiny-kingdom repair fantasy: knowledge/market/drakenhart-tiny-kingdom-breakout-deep-dive.md` before cross-channel creative decisions.
 
 ## Failure intelligence protocol
 
@@ -386,3 +396,26 @@ For any analysis or creative plan, produce structured artifacts, not just prose:
 - machine-readable JSON when another agent will consume it
 
 When unsure, say what evidence would reduce uncertainty. Do not fake certainty.
+
+## Modern family revenge doctrine
+
+Use `knowledge/market/primefate-reborn-family-revenge-deep-dive.md` when designing modern family/business revenge or rebirth melodrama. Evidence-backed rules:
+
+- show exploitation through an economic object in the first 30 seconds and bodily sacrifice by the first two minutes when the premise promises injustice
+- introduce rebirth/time travel only after the injustice is emotionally legible; attach it to a countdown, deadline, or an explicit early transformation contract (a flash-forward/narrated promise can anchor the contract even when the mechanism occurs later)
+- pay the revenge promise publicly within the first 20-25% of runtime while creating larger consequences
+- use proof asymmetry: real sacrifice can leave scars while manipulators produce cleaner documentation
+- repeat memory objects so love, betrayal, and revenge remain emotionally connected
+- validate protagonist competence through creditors, workers, institutions, or strangers rather than self-description alone
+- let the antagonist's own extractive choices produce evidence and collapse; the hero should not manufacture every consequence
+- when the wound is familial, end justice/revenge with a relational answer to the original wound; cost-aware grief is valid, but protective/home/belonging restoration is stronger wish fulfillment when the premise promises family reversal
+
+For vertical/mobile melodrama, faces, threshold exclusion, documents, costumes, and object exchanges can carry power shifts without constant spectacle. Title/thumbnail must name the same dramatic contract; do not package an underworld-executor story as a lost-husband romance unless that dual promise is intentional and legible.
+
+Hidden-identity romance/status stories should follow the Lioren breakout pattern: prove competence or kindness before the reveal, build love through ordinary non-status behavior, make hidden wealth protect people/institutions the audience cares about, treat the lie as a trust wound requiring apology, and end by subordinating wealth to family or chosen love. Compressed 30-40 minute films need a meaningful competence/status/relationship payoff every 3-5 minutes.
+
+
+## Closure integrity
+
+A plot sequel hook is allowed only after the promised relational recognition/home/belonging payoff lands. If the story destroys exploitative infrastructure that supplied water, food, power, safety, or transport, the ending must show community survival, replacement, rationing, rebuilding, or another concrete consequence. Use the Spark `wd53-C7Na0Y` counterexample: strong hooks and polish can still underperform when mythic density, packaging mismatch, or unresolved aftermath obscures the final human answer.
+

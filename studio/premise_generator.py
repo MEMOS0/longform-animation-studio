@@ -29,10 +29,10 @@ CREATURE_ECONOMIC_VARIANTS = [
         "opening_object_meaning": "the vial is the last measured gift of clean rainwater left by Nura's mother",
         "closing_object_meaning": "the same vial proves the land trust has been secretly diverting the town aquifer",
         "care_network": "her grandmother offers food, shelter, and patient labor before anyone powerful believes her",
-        "child_ally": "the moonfin child itself, whose trust is earned through feeding and protection",
+        "child_ally": "the moonfin child, whose trust is earned through feeding and protection",
         "power_figure": "the land-trust heir and the step-uncle who fabricated the family debt",
         "status_space": "Nura is forced to kneel beside the dry public pump outside the gated garden while trust customers drink inside",
-        "inversion_space": "the dry pump yard transformed into Pearl-like public garden where water and food are shared by choice",
+        "inversion_space": "the dry pump yard transformed into a shared garden where water and food are shared by choice",
         "public_wound": "accused of water theft and illegal possession of a valuable creature",
         "proof_chain": "salt crystallization in the vial, pump pressure marks, land-trust ledger timing, a repaired water meter, and a child witness who heard the moonfin sing underground",
         "economic_engine": "pastry cart, water ration tickets, honest customers, and the temptation to sell moonfin tears that can purify water",
@@ -289,7 +289,7 @@ def creature_economic_premise(v: dict[str, str], target_minutes: float = 42) -> 
             "safety_or_kindness_before_power": f"{v['care_network']} before knowing the creature's value or any powerful ally's status",
             "costly_protagonist_action": f"{name} protects {v['creature']} at cost to her home, business, safety, and the chance to solve debt quickly",
             "consent_or_personhood_repair": "the creature is never owned as a reward; authority must admit the fraud, the creature chooses home/contact, and the protagonist accepts partnership without possession",
-            "payoff_image": f"{v['inversion_space']} after {v['return_home']}",
+            "payoff_image": f"{v['inversion_space']}; {v['return_home']}",
         },
     }
 

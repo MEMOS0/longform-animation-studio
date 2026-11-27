@@ -2,33 +2,89 @@
   "scene_id": "S07",
   "time_range": "31.1-37 minutes",
   "objective": "proof chain completion and relational repair before public victory",
-  "conflict": "the final witness/object/timeline locks into place; the protagonist claims the right to present the proof personally",
+  "conflict": "the proof chain shows the coal guild fabricated the debt and diverted the fire system",
   "power_position_start": "morally credible and nearly ready to confront power",
   "power_position_end": "author of the coming public reversal",
-  "turn": "the final witness/object/timeline locks into place; the protagonist claims the right to present the proof personally",
-  "protagonist_decision": "the creature is never owned as a reward; authority must admit the fraud, the creature chooses home/contact, and the protagonist accepts partnership without possession",
+  "turn": "the proof chain shows the coal guild fabricated the debt and diverted the fire system",
+  "protagonist_decision": "present the proof publicly while refusing ownership of the creature as a reward",
   "subtext": "Forgiveness is not owed before conduct changes.",
   "visual_action": {
-    "first_image": "preparation for the same-audience confrontation, with the original space reset as a trap for truth",
+    "first_image": "the protagonist lays ledger, heat trace, witness statement, and blackened brass oven key in one line",
     "face_reaction": "the protagonist's expression shifts from fear toward controlled attention when the turn lands",
     "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
-    "final_image": "blackened brass oven key visible after the power shift, its meaning altered by: all layers of the proof chain align through blackened brass oven key: object, craft knowledge, timeline, witness, and motive"
+    "final_image": "the emberseed bird child steps forward by choice as the protagonist refuses to claim ownership"
   },
   "dialogue_design": {
     "function": "make choices, objections, and proof implications audible rather than explaining theme",
     "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
     "max_exposition_sentences": 2,
     "key_lines": [
-      "I choose the room, the witnesses, and the questions.",
-      "If you want forgiveness, change what you do before you ask for trust.",
-      "Give me back the proof and I will show you the truth."
+      "Return what your papers stole before you ask for trust.",
+      "She chooses first. Law second.",
+      "Let the fire answer."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "coal guild",
+        "dramatic_job": "forgiveness or rescue is offered before restitution",
+        "writing_note": "pressure should arrive as a demand, payment, threat, or institutional move"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "the emberseed bird child",
+        "dramatic_job": "a public win without consent repair would turn the creature into a trophy",
+        "writing_note": "the objection makes the safe choice reasonable and forces a cost"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "protagonist",
+        "dramatic_job": "the protagonist demands return of what papers/power stole before trust",
+        "writing_note": "decision is spoken through action/refusal, not theme explanation"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "blackened brass oven key",
+        "dramatic_job": "the proof chain shows fraud and makes the emberseed bird child's choice audible/visible",
+        "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "external_pressure",
+        "speaker": "coal guild",
+        "line": "Take the guild pardon. Sign the confession.",
+        "action": "institutional rescue is offered before restitution",
+        "subtext": "the institution prefers a rescue narrative that preserves its authority instead of making restitution"
+      },
+      {
+        "beat": "witness_objection",
+        "speaker": "a flour miller",
+        "line": "She won't come forward while you hold the papers.",
+        "action": "the creature remains outside reach until consent is possible",
+        "subtext": "the creature cannot consent while legal coercion remains in the room"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Lio",
+        "line": "Open the oven door first. Then ask me to trust your ink.",
+        "action": "the protagonist refuses the shortcut public win",
+        "subtext": "the protagonist refuses a shortcut victory because trust without repair would repeat the original theft"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "speaker": "Lio",
+        "line": "Open the door. If she comes uncaged, the town will see why.",
+        "action": "the emberseed bird child is allowed to move forward by choice",
+        "subtext": "consent is staged materially before language, so the creature is not merely won as a prize"
+      }
     ]
   },
   "sound_design": {
-    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
-    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
-    "silence_or_negative_space": "near-silent resolve and restrained breathing rather than triumphant music",
-    "motif": "a restrained tactile sound motif"
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
+    "music_function": "a restrained motif can answer earlier care sounds but must not become triumph before consent repair",
+    "silence_or_negative_space": "near-silent proof assembly: each ledger, trace, witness, and object placement lands as a separate acoustic event",
+    "motif": "blackened brass key clicks, ember breath, wing-feather tremor, and oven stone resonance"
   },
   "edit_hook": {
     "entry_hook": "enter on the immediate consequence of the previous turn: former doubters change behavior before asking forgiveness",

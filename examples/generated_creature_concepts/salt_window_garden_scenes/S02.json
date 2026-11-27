@@ -2,37 +2,93 @@
   "scene_id": "S02",
   "time_range": "4.2-8.4 minutes",
   "objective": "care network, work identity, and dignity economy",
-  "conflict": "her grandmother offers food, shelter, and patient labor before anyone powerful believes her before knowing the creature's value or any powerful ally's status; help becomes work and shelter rather than humiliating charity",
+  "conflict": "her grandmother offers food, shelter, and patient labor before understanding what the creature is worth",
   "power_position_start": "dependent on care but beginning to act",
   "power_position_end": "worker with a first zone of dignity",
-  "turn": "her grandmother offers food, shelter, and patient labor before anyone powerful believes her before knowing the creature's value or any powerful ally's status; help becomes work and shelter rather than humiliating charity",
-  "protagonist_decision": "accept costly honest work while refusing payment that would commodify humiliation",
+  "turn": "her grandmother offers food, shelter, and patient labor before understanding what the creature is worth",
+  "protagonist_decision": "accept honest help without turning the creature into payment",
   "subtext": "Help becomes dignity when it creates work rather than dependence.",
   "visual_action": {
-    "first_image": "small labor ritual with inherited object, care-giver space, and first repeatable customer/ally interaction",
+    "first_image": "her grandmother carries food into the shelter while the protagonist refuses payment for pain",
     "face_reaction": "the protagonist's expression shifts from survival fear toward controlled attention when the turn lands",
     "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
-    "final_image": "blue glass salt vial visible after the power shift, its meaning altered by: the protagonist demonstrates small-business craft, observation of material proof, persistence, care under pressure, and ethical refusal in a small practical problem"
+    "final_image": "the protagonist places the blue glass salt vial beside the moonfin child instead of selling access to it"
   },
   "dialogue_design": {
     "function": "make choices, objections, and proof implications audible rather than explaining theme",
     "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
     "max_exposition_sentences": 2,
     "key_lines": [
-      "I will work for my shelter, not sell my shame.",
-      "Take the wage only when the work is real.",
-      "I can help if you let me stand on my own feet."
+      "I'll work for the roof. I won't sell her pain for it.",
+      "The blue glass salt vial opens a way; it doesn't make her ours.",
+      "Feed her first. Price her never."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "land trust",
+        "dramatic_job": "shelter is offered in a way that could become debt, pity, or control",
+        "writing_note": "pressure should arrive as a demand, payment, threat, or institutional move"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "her grandmother",
+        "dramatic_job": "her grandmother needs labor and honesty, not ownership of the creature",
+        "writing_note": "the objection makes the safe choice reasonable and forces a cost"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "protagonist",
+        "dramatic_job": "the protagonist accepts work but refuses to monetize suffering",
+        "writing_note": "decision is spoken through action/refusal, not theme explanation"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "blue glass salt vial",
+        "dramatic_job": "the blue glass salt vial separates access from possession",
+        "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "external_pressure",
+        "speaker": "her grandmother",
+        "line": "This roof feeds workers, not miracles.",
+        "action": "shelter is offered as labor rather than charity",
+        "subtext": "care is being offered, but only inside a labor hierarchy that can become control"
+      },
+      {
+        "beat": "witness_objection",
+        "speaker": "her grandmother",
+        "line": "Price her pain before breakfast and I won't eat under this roof.",
+        "action": "the caregiver names the safe boundary before help becomes control",
+        "subtext": "the witness is warning that charity becomes exploitation the moment suffering gets priced"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Nura",
+        "line": "Then I'll work the cart. Her pain isn't rent.",
+        "action": "the protagonist accepts work while refusing monetized suffering",
+        "subtext": "accepting work preserves dignity while refusing to convert pain into currency"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "speaker": "Nura",
+        "line": "The blue glass salt vial opens the pump seam. It doesn't make her ours.",
+        "action": "the blue glass salt vial is set beside the creature rather than used as a claim",
+        "subtext": "the object is a means of passage, not a claim of ownership"
+      }
     ]
   },
   "sound_design": {
-    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
-    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
-    "silence_or_negative_space": "warm practical labor textures replace dining-room laughter",
-    "motif": "a restrained tactile sound motif"
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
+    "music_function": "music may form a small rhythmic motif only after work/shelter becomes chosen rather than charitable",
+    "silence_or_negative_space": "water droplets, pump pressure, wet stone, and shared-food labor replace crowd noise as care becomes labor",
+    "motif": "blue glass vial taps, salt grains, water droplets, fin movement, and pump-stone resonance"
   },
   "edit_hook": {
-    "entry_hook": "enter on the immediate consequence of the previous turn: non-romantic witnesses begin treating the protagonist as a person rather than a servant",
-    "exit_hook": "can honest work create safety before power notices?"
+    "entry_hook": "enter on the immediate consequence of the previous turn: her grandmother becomes a witness to care rather than a rescuer who owns the solution",
+    "exit_hook": "can kindness survive once the creature's water becomes profitable?"
   },
   "failure_checks": [
     "Does the scene change power, trust, evidence, capability, or relational obligation?",

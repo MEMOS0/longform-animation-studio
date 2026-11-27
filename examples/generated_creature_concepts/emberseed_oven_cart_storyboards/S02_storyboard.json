@@ -5,14 +5,14 @@
   "shots": [
     {
       "shot_id": "S02_DS001",
-      "timecode": "0.00-22.02",
-      "duration_seconds": 22.02,
+      "timecode": "0.00-21.57",
+      "duration_seconds": 21.57,
       "scene_id": "S02",
       "shot_size": "wide establishing",
       "camera_intent": "slow push",
-      "visual_action": "small labor ritual with inherited object, care-giver space, and first repeatable customer/ally interaction",
+      "visual_action": "a flour miller carries food into the shelter while the protagonist refuses payment for pain",
       "dialogue": "",
-      "sound_design": "warm practical labor textures replace dining-room laughter",
+      "sound_design": "fire crackle, coal shift, oven-door metal, warm bakery labor replace crowd noise as care becomes labor",
       "generation_lane": "hero",
       "continuity_dependencies": [
         "protagonist_face_costume",
@@ -25,8 +25,8 @@
     },
     {
       "shot_id": "S02_DS002",
-      "timecode": "22.02-35.24",
-      "duration_seconds": 13.21,
+      "timecode": "21.57-34.51",
+      "duration_seconds": 12.94,
       "scene_id": "S02",
       "shot_size": "intimate closeup",
       "camera_intent": "settle",
@@ -45,8 +45,8 @@
     },
     {
       "shot_id": "S02_DS003",
-      "timecode": "35.24-52.68",
-      "duration_seconds": 17.44,
+      "timecode": "34.51-51.59",
+      "duration_seconds": 17.08,
       "scene_id": "S02",
       "shot_size": "action wide",
       "camera_intent": "lateral track",
@@ -65,14 +65,14 @@
     },
     {
       "shot_id": "S02_DS004",
-      "timecode": "52.68-73.23",
-      "duration_seconds": 20.56,
+      "timecode": "51.59-71.72",
+      "duration_seconds": 20.13,
       "scene_id": "S02",
       "shot_size": "power two-shot",
       "camera_intent": "slow tightening",
-      "visual_action": "a flour miller and night watchman feed Lio before guild protection exists before knowing the creature's value or any powerful ally's status; help becomes work and shelter rather than humiliating charity",
-      "dialogue": "I will work for my shelter, not sell my shame.",
-      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+      "visual_action": "shelter is offered as labor rather than charity",
+      "dialogue": "This roof feeds workers, not miracles.",
+      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
       "generation_lane": "mid",
       "continuity_dependencies": [
         "protagonist_face_costume",
@@ -81,18 +81,18 @@
         "meaning_carrier_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions; subtext: care is being offered, but only inside a labor hierarchy that can become control"
     },
     {
       "shot_id": "S02_DS005",
-      "timecode": "73.23-93.79",
-      "duration_seconds": 20.56,
+      "timecode": "71.72-91.85",
+      "duration_seconds": 20.13,
       "scene_id": "S02",
       "shot_size": "power two-shot",
       "camera_intent": "slow tightening",
-      "visual_action": "a flour miller and night watchman feed Lio before guild protection exists before knowing the creature's value or any powerful ally's status; help becomes work and shelter rather than humiliating charity",
-      "dialogue": "I will work for my shelter, not sell my shame.",
-      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+      "visual_action": "a flour miller and night watchman offers food, shelter, and patient labor before understanding what the creature is worth",
+      "dialogue": "",
+      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
       "generation_lane": "mid",
       "continuity_dependencies": [
         "protagonist_face_costume",
@@ -105,12 +105,12 @@
     },
     {
       "shot_id": "S02_DS006",
-      "timecode": "93.79-105.17",
-      "duration_seconds": 11.38,
+      "timecode": "91.85-102.99",
+      "duration_seconds": 11.14,
       "scene_id": "S02",
       "shot_size": "pressure insert",
       "camera_intent": "macro",
-      "visual_action": "a flour miller and night watchman feed Lio before guild protection exists before knowing the creature's value or any powerful ally's status; help becomes work and shelter rather than humiliating charity",
+      "visual_action": "a flour miller and night watchman offers food, shelter, and patient labor before understanding what the creature is worth; alternate coverage: pressure-detail coverage: hands, objects, crowd position, or institutional obstruction carries the conflict",
       "dialogue": "",
       "sound_design": "object/room texture",
       "generation_lane": "draft",
@@ -125,48 +125,8 @@
     },
     {
       "shot_id": "S02_DS007",
-      "timecode": "105.17-120.22",
-      "duration_seconds": 15.05,
-      "scene_id": "S02",
-      "shot_size": "decision closeup",
-      "camera_intent": "static intimate",
-      "visual_action": "accept costly honest work while refusing payment that would commodify humiliation",
-      "dialogue": "Take the wage only when the work is real.",
-      "sound_design": "music drops before decision",
-      "generation_lane": "mid",
-      "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
-    },
-    {
-      "shot_id": "S02_DS008",
-      "timecode": "120.22-144.81",
-      "duration_seconds": 24.59,
-      "scene_id": "S02",
-      "shot_size": "turn wide",
-      "camera_intent": "reframe",
-      "visual_action": "a flour miller and night watchman feed Lio before guild protection exists before knowing the creature's value or any powerful ally's status; help becomes work and shelter rather than humiliating charity",
-      "dialogue": "",
-      "sound_design": "sound motif shifts",
-      "generation_lane": "hero",
-      "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
-    },
-    {
-      "shot_id": "S02_DS009",
-      "timecode": "144.81-159.13",
-      "duration_seconds": 14.32,
+      "timecode": "102.99-117.01",
+      "duration_seconds": 14.02,
       "scene_id": "S02",
       "shot_size": "vertical composition",
       "camera_intent": "high or low angle",
@@ -184,15 +144,15 @@
       "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
     },
     {
-      "shot_id": "S02_DS010",
-      "timecode": "159.13-178.40",
-      "duration_seconds": 19.27,
+      "shot_id": "S02_DS008",
+      "timecode": "117.01-135.89",
+      "duration_seconds": 18.87,
       "scene_id": "S02",
       "shot_size": "subtext two-shot",
       "camera_intent": "slow lateral drift",
-      "visual_action": "Help becomes dignity when it creates work rather than dependence.",
-      "dialogue": "I can help if you let me stand on my own feet.",
-      "sound_design": "music enters only when relational power changes; it must not paper over unresolved tension",
+      "visual_action": "the caregiver names the safe boundary before help becomes control",
+      "dialogue": "Price her pain before breakfast and I won't eat under this roof.",
+      "sound_design": "music may form a small rhythmic motif only after work/shelter becomes chosen rather than charitable",
       "generation_lane": "mid",
       "continuity_dependencies": [
         "protagonist_face_costume",
@@ -201,19 +161,59 @@
         "meaning_carrier_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation; subtext: the witness is warning that charity becomes exploitation the moment suffering gets priced"
+    },
+    {
+      "shot_id": "S02_DS009",
+      "timecode": "135.89-150.62",
+      "duration_seconds": 14.74,
+      "scene_id": "S02",
+      "shot_size": "decision closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "the protagonist accepts work while refusing monetized suffering",
+      "dialogue": "Then I'll work the mill. Her pain isn't rent.",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible; subtext: accepting work preserves dignity while refusing to convert pain into currency"
+    },
+    {
+      "shot_id": "S02_DS010",
+      "timecode": "150.62-174.71",
+      "duration_seconds": 24.09,
+      "scene_id": "S02",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "a flour miller and night watchman offers food, shelter, and patient labor before understanding what the creature is worth",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
     },
     {
       "shot_id": "S02_DS011",
-      "timecode": "178.40-197.67",
-      "duration_seconds": 19.27,
+      "timecode": "174.71-198.80",
+      "duration_seconds": 24.09,
       "scene_id": "S02",
-      "shot_size": "subtext two-shot",
-      "camera_intent": "slow lateral drift",
-      "visual_action": "Help becomes dignity when it creates work rather than dependence.",
-      "dialogue": "I can help if you let me stand on my own feet.",
-      "sound_design": "music enters only when relational power changes; it must not paper over unresolved tension",
-      "generation_lane": "mid",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "a flour miller and night watchman offers food, shelter, and patient labor before understanding what the creature is worth; alternate coverage: reaction coverage: show witnesses, threshold position, and power shift instead of repeating the same crossing staging",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
       "continuity_dependencies": [
         "protagonist_face_costume",
         "location_geography",
@@ -221,16 +221,16 @@
         "meaning_carrier_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
     },
     {
       "shot_id": "S02_DS012",
-      "timecode": "197.67-214.56",
-      "duration_seconds": 16.89,
+      "timecode": "198.80-215.33",
+      "duration_seconds": 16.54,
       "scene_id": "S02",
       "shot_size": "consequence wide",
       "camera_intent": "backward track",
-      "visual_action": "visible consequence of accept costly honest work while refusing payment that would commodify humiliation",
+      "visual_action": "visible consequence of accept honest help without turning the creature into payment",
       "dialogue": "",
       "sound_design": "consequence foley",
       "generation_lane": "draft",
@@ -245,12 +245,12 @@
     },
     {
       "shot_id": "S02_DS013",
-      "timecode": "214.56-225.20",
-      "duration_seconds": 10.65,
+      "timecode": "215.33-225.76",
+      "duration_seconds": 10.43,
       "scene_id": "S02",
       "shot_size": "sensory bridge",
       "camera_intent": "insert or detail",
-      "visual_action": "blackened brass oven key visible after the power shift, its meaning altered by: the protagonist demonstrates small-business craft, observation of material proof, persistence, care under pressure, and ethical refusal in a small practical problem",
+      "visual_action": "the protagonist places the blackened brass oven key beside the emberseed bird child instead of selling access to it; alternate coverage: object-detail coverage before or after the wider relational-resolution framing",
       "dialogue": "",
       "sound_design": "object/motif texture",
       "generation_lane": "draft",
@@ -265,14 +265,14 @@
     },
     {
       "shot_id": "S02_DS014",
-      "timecode": "225.20-252.00",
-      "duration_seconds": 26.8,
+      "timecode": "225.76-252.00",
+      "duration_seconds": 26.24,
       "scene_id": "S02",
       "shot_size": "final image",
       "camera_intent": "slow pull-back",
-      "visual_action": "blackened brass oven key visible after the power shift, its meaning altered by: the protagonist demonstrates small-business craft, observation of material proof, persistence, care under pressure, and ethical refusal in a small practical problem",
-      "dialogue": "I will work for my shelter, not sell my shame.",
-      "sound_design": "a restrained tactile sound motif unresolved",
+      "visual_action": "the protagonist places the blackened brass oven key beside the emberseed bird child instead of selling access to it",
+      "dialogue": "The blackened brass oven key opens the oven seam. It doesn't make her ours.",
+      "sound_design": "blackened brass key clicks, ember breath, wing-feather tremor, and oven stone resonance unresolved",
       "generation_lane": "hero",
       "continuity_dependencies": [
         "protagonist_face_costume",
@@ -281,7 +281,7 @@
         "meaning_carrier_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power; subtext: the object is a means of passage, not a claim of ownership"
     }
   ],
   "validation_rules": [

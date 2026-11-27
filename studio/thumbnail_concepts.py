@@ -5,6 +5,7 @@ The system learns visual mechanics from reference thumbnails. It must not copy t
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -44,19 +45,54 @@ def reference_library(index_paths: list[Path]) -> dict[str, list[dict[str, Any]]
     return library
 
 
+def _compact_actor_label(value: Any, default: str = "") -> str:
+    actor = str(value or default).strip()
+    actor = actor.split(";")[0]
+    actor = actor.split(" plus ")[0]
+    actor = actor.split(", whose")[0]
+    actor = actor.split(", who")[0]
+    action = re.search(r"\b(?:offers?|feeds?|gives?|shelters?|protects?|frees?|shields?|calms?|uses?|enforces?)\b", actor, flags=re.I)
+    if action:
+        actor = actor[: action.start()]
+    else:
+        actor = actor.split(" and ")[0]
+    return re.sub(r"\s+", " ", actor).strip(" ,.") or default
+
+
+def _compact_stakes(value: Any, default: str = "visible injustice") -> str:
+    stakes = str(value or default).strip().split(";")[0]
+    stakes = re.split(r"(?<=[.!?])\s+", stakes, maxsplit=1)[0]
+    return stakes.strip() or default
+
+
+def _extract_creature_anchor(value: Any) -> str:
+    text = str(value or "").strip()
+    creature_match = re.search(
+        r"\b(?:the|a|an)\s+(?:[\w-]+\s+){0,3}(?:dragon|creature|bird|wolf|mermaid|monster|child)(?:'s)?(?:\s+child|\s+creature)?\b",
+        text,
+        flags=re.I,
+    )
+    if creature_match:
+        return creature_match.group(0).replace("'s", "").strip()
+    return _compact_actor_label(text, "")
+
+
 def generate_concepts(premise: dict[str, Any], library: dict[str, list[dict[str, Any]]] | None = None) -> list[dict[str, Any]]:
     """Generate original thumbnail concepts from story mechanics.
 
     Expected premise keys are intentionally flexible: title/working_title, genre, wound,
     transformation, creature_or_child_anchor, protector, betrayal, setting, and emotional_promise.
     """
-    title = premise.get("title") or premise.get("working_title") or "Untitled"
-    genre = (premise.get("genre") or "emotional fantasy drama").lower()
-    creature = premise.get("creature_or_child_anchor") or premise.get("child_anchor") or ""
-    transformation = premise.get("transformation") or ""
-    protector = premise.get("protector") or ""
-    wound = premise.get("wound") or "visible injustice"
-    promise = premise.get("emotional_promise") or "reversal and belonging"
+    title_candidates = premise.get("title_candidates") or []
+    title = premise.get("title") or premise.get("working_title") or (title_candidates[0] if title_candidates else "Untitled")
+    engine = premise.get("emotional_engine") or {}
+    relational = premise.get("relational_contract") or {}
+    genre = (premise.get("genre") or premise.get("channel_contract") or "emotional fantasy drama").replace("_", " ").lower()
+    creature = premise.get("creature_or_child_anchor") or premise.get("child_anchor") or _extract_creature_anchor(engine.get("protective_counterforce"))
+    transformation = premise.get("transformation") or _compact_actor_label(engine.get("belonging_payoff"), "")
+    protector = premise.get("protector") or _compact_actor_label(relational.get("safety_or_kindness_before_power"), "")
+    wound = premise.get("wound") or _compact_stakes(engine.get("wound"), "visible injustice")
+    promise = premise.get("emotional_promise") or premise.get("audience_promise") or "reversal and belonging"
 
     concepts: list[dict[str, Any]] = []
     if creature or any(k in genre for k in ("fantasy", "dragon", "wolf", "mermaid")):
@@ -96,6 +132,18 @@ def generate_concepts(premise: dict[str, Any], library: dict[str, list[dict[str,
             "reference_categories_to_study": ["romantic_family_betrayal", "localized_family_melodrama"],
         })
     contract = (premise.get("channel_contract") or "").lower()
+    if contract in {"creature_economic_melodrama", "romantic_creature_sacrifice_epic"}:
+        concepts.append({
+            "concept_id": "quiet_vertical_protector_scale",
+            "category": "creature_power_bond",
+            "core_mechanic": "one dangerous or powerful protector/parent presence visually lowered toward one tiny vulnerable creature/child, converting scale into care",
+            "composition": "single vertical axis with protector face or hand in the upper third and vulnerable child/creature in the lower center; use cave/home/threshold negative space and avoid a versus layout",
+            "emotion": "awe restrained into parental tenderness and protection",
+            "palette": "dark environmental quiet broken by one warm or luminous care accent around the child/creature",
+            "text_direction": "one short relational transformation promise only; no feature badges, episode labels, or explanatory text blocks",
+            "mobile_test": "at 160px wide, viewer must read large protector, tiny vulnerable being, and care rather than attack",
+            "reference_categories_to_study": ["creature_power_bond"],
+        })
     if contract == "creature_protection_feature":
         concepts.append({
             "concept_id": "misunderstood_child_personhood",
@@ -195,6 +243,7 @@ def generate_concepts(premise: dict[str, Any], library: dict[str, list[dict[str,
         concept["source_promise"] = promise
         concept["source_wound"] = wound
         concept["protector"] = protector
+        concept["creature_or_child_anchor"] = creature
         concept["do_not_copy"] = "Use reference images only for mechanics: hierarchy, contrast, emotion, and readability. Generate original characters, layout, typography, and world details."
     return concepts
 
@@ -221,6 +270,12 @@ def critique_concept(concept: dict[str, Any]) -> dict[str, Any]:
         strengths.append("text restraint")
     else:
         risks.append("possible text clutter")
+    if "negative space" in comp or "quiet" in comp:
+        strengths.append("mobile negative-space readability")
+    if "versus" in comp or "battle" in comp or "war" in comp:
+        risks.append("versus/battle framing may hide the vulnerable relational stake")
+    if "episode" in text or "prologue" in text or "franchise" in text or "badge" in text:
+        risks.append("series, episode, or badge clutter may reduce new-viewer accessibility")
     if any(k in comp for k in ("crowd", "many", "ensemble")):
         risks.append("crowd complexity may reduce mobile readability")
     if any(k in emotion for k in ("empty glamour", "generic")):

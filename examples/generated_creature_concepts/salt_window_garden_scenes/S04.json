@@ -2,33 +2,89 @@
   "scene_id": "S04",
   "time_range": "13.4-18.9 minutes",
   "objective": "competence deepens while antagonist reaches for irreversible control",
-  "conflict": "the protagonist's craft identity becomes public enough to threaten the antagonist, who prepares a frame-up or institutional attack",
+  "conflict": "the protagonist's proof literacy threatens the land trust, which begins separating home, work, and creature",
   "power_position_start": "competent but not yet publicly believed",
   "power_position_end": "dangerous enough to provoke the antagonist",
-  "turn": "the protagonist's craft identity becomes public enough to threaten the antagonist, who prepares a frame-up or institutional attack",
-  "protagonist_decision": "tell a partial truth to protect someone weaker even though it increases personal risk",
+  "turn": "the protagonist's proof literacy threatens the land trust, which begins separating home, work, and creature",
+  "protagonist_decision": "protect the creature's consent even when selling it would solve the economic wound",
   "subtext": "Competence threatens people whose power depends on others remaining illegible.",
   "visual_action": {
-    "first_image": "craft demonstration intercut with antagonist moving pieces behind doors",
+    "first_image": "the protagonist repairs a small pump fault while guild/customer witnesses watch",
     "face_reaction": "the protagonist's expression shifts from confidence toward controlled attention when the turn lands",
     "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
-    "final_image": "blue glass salt vial visible after the power shift, its meaning altered by: first contradiction in the antagonist's timeline/object story appears"
+    "final_image": "she pockets a marked ledger fragment and carries the moonfin child away from the offer of sale"
   },
   "dialogue_design": {
     "function": "make choices, objections, and proof implications audible rather than explaining theme",
     "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
     "max_exposition_sentences": 2,
     "key_lines": [
-      "Stop the spectacle before someone else pays for your pride.",
-      "I can prove the flaw if you give me the bench.",
-      "Power built on someone else's hands always leaves a mark."
+      "Your ledger can lie; salt can't.",
+      "One honest customer before you call me a thief.",
+      "The pump remembers every hand that opened it."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "land trust",
+        "dramatic_job": "the land trust reframes competence as theft or illegality",
+        "writing_note": "pressure should arrive as a demand, payment, threat, or institutional move"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "the moonfin child",
+        "dramatic_job": "one honest witness is safer than a dramatic public claim",
+        "writing_note": "the objection makes the safe choice reasonable and forces a cost"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "protagonist",
+        "dramatic_job": "the protagonist protects consent before economic rescue",
+        "writing_note": "decision is spoken through action/refusal, not theme explanation"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "blue glass salt vial",
+        "dramatic_job": "the pump creates timestamps, pressure marks, or access traces",
+        "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "external_pressure",
+        "speaker": "land trust",
+        "line": "Unlicensed hands don't touch the pump.",
+        "action": "competence is reframed as illegality",
+        "subtext": "competence is dangerous to the authority because it exposes whom the system actually depends on"
+      },
+      {
+        "beat": "witness_objection",
+        "speaker": "customer witness",
+        "line": "Nura's repair held through the morning rush.",
+        "action": "one practical witness breaks the crowd's certainty",
+        "subtext": "the witness is not defending the protagonist emotionally; they are defending results they personally verified"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Nura",
+        "line": "Let my work answer before you invent a thief.",
+        "action": "Nura keeps working instead of pleading",
+        "subtext": "the protagonist asks for evidence to be tested rather than asking to be believed"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "speaker": "Nura",
+        "line": "Salt inside this seal is fresh. Your ledger says it was closed.",
+        "action": "the first salt trace is exposed",
+        "subtext": "the infrastructure itself becomes a witness that contradicts institutional authorship"
+      }
     ]
   },
   "sound_design": {
-    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
-    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
-    "silence_or_negative_space": "competence rhythm interrupted by institutional silence and door/lock sounds",
-    "motif": "a restrained tactile sound motif"
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
+    "music_function": "use sound interruptions to show the antagonist converting competence into threat",
+    "silence_or_negative_space": "practical repair textures and system mechanics carry competence; guild/customer murmur interrupts rhythm",
+    "motif": "blue glass vial taps, salt grains, water droplets, fin movement, and pump-stone resonance"
   },
   "edit_hook": {
     "entry_hook": "enter on the immediate consequence of the previous turn: a minor worker/witness notices a detail that later becomes evidence",

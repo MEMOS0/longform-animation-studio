@@ -481,3 +481,475 @@ def test_generated_storyboard_seeds_validate_continuous_nonuniform():
         result=validate_storyboard_file(path)
         assert result['valid']
         assert not any('nearly uniform' in w for w in result['warnings'])
+
+
+def test_closure_integrity_requires_relational_payoff_before_sequel_hook():
+    from studio.closure_integrity import evaluate_closure_integrity
+    good={"relational_contract":{"payoff_image":"family chooses home, safety, love, and community repair"}}
+    arch={"sequences":[{"sequence":1,"turn":"home recognition and chosen family safety"},{"sequence":2,"turn":"a new disturbance begins elsewhere"}]}
+    bad={"sequences":[{"sequence":1,"turn":"their stories are just beginning beyond the stars"},{"sequence":2,"turn":"battle ends"}]}
+    assert evaluate_closure_integrity(good,arch,[])['score_0_to_1']==1.0
+    bad_result=evaluate_closure_integrity({},bad,[])
+    assert any('sequel expansion' in w for w in bad_result['warnings'])
+    assert any('relational/home' in w for w in bad_result['warnings'])
+
+
+def test_closure_integrity_does_not_count_premise_promise_as_delivered():
+    from studio.closure_integrity import evaluate_closure_integrity
+    premise={"relational_contract":{"payoff_image":"family home recognition love safety"}}
+    arch={"sequences":[{"sequence":1,"turn":"battle pressure"},{"sequence":2,"turn":"victory without payoff"}]}
+    result=evaluate_closure_integrity(premise,arch,[])
+    assert any('final movement' in w for w in result['warnings'])
+
+
+def test_closure_integrity_uses_ending_payoff_as_delivered_evidence():
+    from studio.closure_integrity import evaluate_closure_integrity
+    arch={"sequences":[{"sequence":1,"turn":"battle pressure"},{"sequence":2,"turn":"victory"}],"ending_payoff":{"final_image":"the family returns home safe and chooses belonging"}}
+    result=evaluate_closure_integrity({},arch,[])
+    assert not any('final movement' in w for w in result['warnings'])
+
+
+def test_closure_integrity_ignores_early_promise_before_final_hook_but_allows_same_sequence_order():
+    from studio.closure_integrity import evaluate_closure_integrity
+    early={"sequences":[{"sequence":1,"turn":"she promises home"},{"sequence":2,"turn":"middle turn"},{"sequence":3,"turn":"their stories are just beginning beyond the stars"}]}
+    early_result=evaluate_closure_integrity({},early,[])
+    assert any('sequel expansion' in w for w in early_result['warnings'])
+    same={"sequences":[{"sequence":1,"turn":"middle turn"},{"sequence":2,"turn":"home recognition happens before their stories are just beginning"}]}
+    same_result=evaluate_closure_integrity({},same,[])
+    assert not any('sequel expansion' in w for w in same_result['warnings'])
+
+
+def test_closure_integrity_ending_payoff_does_not_exclude_penultimate_sequence():
+    from studio.closure_integrity import evaluate_closure_integrity
+    arch={
+      "sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"their stories are just beginning beyond the stars"}],
+      "ending_payoff":{"final_image":"the final image is quiet"}
+    }
+    result=evaluate_closure_integrity({},arch,[])
+    assert any('sequel expansion' in w for w in result['warnings'])
+
+
+def test_closure_integrity_dark_image_alone_is_not_system_collapse():
+    from studio.closure_integrity import evaluate_closure_integrity
+    arch={"sequences":[{"sequence":1,"turn":"water array established"},{"sequence":2,"turn":"family returns home safe as the room turns dark"}]}
+    result=evaluate_closure_integrity({},arch,[])
+    assert not any('infrastructure/system collapse' in w for w in result['warnings'])
+
+
+def test_closure_integrity_rebuild_before_late_collapse_does_not_mask_missing_aftermath():
+    from studio.closure_integrity import evaluate_closure_integrity
+    arch={"sequences":[{"sequence":1,"turn":"the water array is restored and the town rebuilds"},{"sequence":2,"turn":"the water array collapses and the family comes home safe"}]}
+    result=evaluate_closure_integrity({},arch,[])
+    assert any('infrastructure/system collapse' in w for w in result['warnings'])
+
+
+def test_closure_integrity_collapse_followed_by_repair_passes_and_personal_failing_is_not_outage():
+    from studio.closure_integrity import evaluate_closure_integrity
+    good={"sequences":[{"sequence":1,"turn":"the water array collapses"},{"sequence":2,"turn":"the community rebuilds a shared water system and the family comes home safe"}]}
+    assert not any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},good,[])['warnings'])
+    personal={"sequences":[{"sequence":1,"turn":"the flood shield is established"},{"sequence":2,"turn":"she is failing to persuade her father, but the family comes home safe"}]}
+    assert not any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},personal,[])['warnings'])
+
+
+def test_closure_integrity_screenplay_aftermath_counts_and_hypotheticals_do_not_collapse():
+    from studio.closure_integrity import evaluate_closure_integrity
+    arch={"sequences":[{"sequence":1,"turn":"middle turn"},{"sequence":2,"turn":"she destroys the water array during the climax"}]}
+    scenes=[{"scene_id":"S07","turn":"pressure"},{"scene_id":"S08","turn":"the community rebuilds a shared water system and the family comes home safe"}]
+    result=evaluate_closure_integrity({},arch,scenes)
+    assert not any('infrastructure/system collapse' in w for w in result['warnings'])
+    hypothetical={"sequences":[{"sequence":1,"turn":"middle turn"},{"sequence":2,"turn":"Will she disable the array? The family comes home safe"}]}
+    assert not any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},hypothetical,[])['warnings'])
+
+
+def test_closure_integrity_detects_shield_nodes_and_repeated_recovery_after_collapse():
+    from studio.closure_integrity import evaluate_closure_integrity
+    missing={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"the shield nodes go dark; the family comes home safe"}]}
+    assert any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},missing,[])['warnings'])
+    repeated={"sequences":[{"sequence":1,"turn":"the town rebuilds early"},{"sequence":2,"turn":"the shield nodes go dark, then the community rebuilds the shield and comes home safe"}]}
+    assert not any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},repeated,[])['warnings'])
+
+
+def test_closure_integrity_conditionals_negation_and_scene_recovery_are_scoped():
+    from studio.closure_integrity import evaluate_closure_integrity
+    actual={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"She can escape, but the array collapses"}]}
+    assert any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},actual,[])['warnings'])
+    for text in ["The shield nodes go dark if she leaves", "she does not disable the water array"]:
+      arch={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":text+'; the family comes home safe'}]}
+      assert not any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},arch,[])['warnings'])
+
+
+def test_closure_integrity_scene_boilerplate_and_early_recovery_do_not_mask_late_collapse():
+    from studio.closure_integrity import evaluate_closure_integrity
+    arch={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"she destroys the water array during the climax"}]}
+    boiler=[{"scene_id":"S08","subtext":"Belonging is chosen when the wound-space becomes reversible and shared."}]
+    early=[{"scene_id":"S08","turn":"the community rebuilds before the collapse"}]
+    recovery=[{"scene_id":"S08","turn":"the community rebuilds a shared water system"}]
+    assert any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},arch,boiler)['warnings'])
+    assert any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},arch,early)['warnings'])
+    assert not any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},arch,recovery)['warnings'])
+
+
+def test_closure_integrity_positive_recovery_negation_timing_sharing_and_plans():
+    from studio.closure_integrity import evaluate_closure_integrity
+    failed={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"she destroys the water array; the pumps are beyond repair"}]}
+    assert any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},failed,[])['warnings'])
+    timing={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"she destroys the water array"}]}
+    recovery_scene=[{"scene_id":"S08","turn":"Before dawn, the survivors rebuild the water supply"}]
+    assert not any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},timing,recovery_scene)['warnings'])
+    sharing_scene=[{"scene_id":"S08","turn":"the neighbors share their remaining supplies and keep everyone fed"}]
+    assert not any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},timing,sharing_scene)['warnings'])
+    planned={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"she plans to enter the pump house and disable the array; the family comes home safe"}]}
+    assert not any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},planned,[])['warnings'])
+
+
+def test_closure_integrity_rejects_false_or_premature_recovery_and_unrelated_plan_actual_collapse():
+    from studio.closure_integrity import evaluate_closure_integrity
+    arch={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"she destroys the water array"}]}
+    for scene_text in ["neighbors can't share supplies", "neighbors share their remaining secrets", "Earlier, the community rebuilds the water supply"]:
+      result=evaluate_closure_integrity({},arch,[{"scene_id":"S08","turn":scene_text}])
+      assert any('infrastructure/system collapse' in w for w in result['warnings']), scene_text
+    actual={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"she plans to disable the pump, and the array collapses"}]}
+    assert any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},actual,[])['warnings'])
+
+
+def test_closure_integrity_questioned_second_clause_is_not_actual_collapse():
+    from studio.closure_integrity import evaluate_closure_integrity
+    arch={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"Will she escape and the shield nodes go dark? the family comes home safe"}]}
+    assert not any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},arch,[])['warnings'])
+
+
+def test_creature_opening_dialogue_keeps_decision_with_protagonist():
+    from studio.premise_generator import creature_economic_premise, CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    scene=generate_scenes(premise,generate_architecture(premise))[0]
+    assert scene['dialogue_design']['key_lines'][1] == "I hide her first. Questions after she's safe."
+
+
+def test_closure_integrity_aftermath_question_presupposes_actual_collapse():
+    from studio.closure_integrity import evaluate_closure_integrity
+    arch={"sequences":[{"sequence":1,"turn":"middle"},{"sequence":2,"turn":"What happens after the array collapses?"}]}
+    assert any('infrastructure/system collapse' in w for w in evaluate_closure_integrity({},arch,[])['warnings'])
+
+
+def test_visual_causality_flags_abstract_scenes_and_rewards_physical_action():
+    from studio.visual_causality import evaluate_visual_causality
+    abstract=[{"scene_id":"S01","visual_action":{"first_image":"power shifts emotionally","final_image":"meaning changes"}}]
+    physical=[{"scene_id":"S01","visual_action":{"first_image":"the child crosses the pump yard and hides behind the woman","final_image":"the vial opens the gate as neighbors share water"}}]
+    assert evaluate_visual_causality(abstract)['score_0_to_1'] < evaluate_visual_causality(physical)['score_0_to_1']
+    assert evaluate_visual_causality(abstract)['warnings']
+
+
+def test_dialogue_craft_requires_scene_opposition_scaffold():
+    from studio.dialogue_craft import evaluate_scenes_dialogue
+    scene={"scene_id":"S01","dialogue_design":{"key_lines":["I refuse."],"max_exposition_sentences":2}}
+    result=evaluate_scenes_dialogue([scene])
+    assert any('opposition scaffold' in w for w in result['warnings_by_scene']['S01'])
+
+
+def test_thumbnail_concepts_creature_economic_vertical_scale_and_clutter_critique():
+    from studio.thumbnail_concepts import generate_concepts, critique_concept
+    concepts=generate_concepts({"channel_contract":"creature_economic_melodrama","genre":"fantasy drama","creature_or_child_anchor":"moonfin child","protector":"debt-bound baker"})
+    quiet=[c for c in concepts if c['concept_id']=='quiet_vertical_protector_scale']
+    assert quiet
+    critique=critique_concept(quiet[0])
+    assert 'mobile negative-space readability' in critique['strengths']
+    cluttered={"composition":"monster versus army battle with crowd","emotion":"generic spectacle","palette":"red","text_direction":"episode prologue badge franchise text blocks"}
+    assert len(critique_concept(cluttered)['risks']) >= 3
+
+
+def test_sound_design_flags_generic_motif_and_requires_material_sources():
+    from studio.sound_design import evaluate_sound_design
+    generic=[{"scene_id":"S01","sound_design":{"dialogue_priority":"dialogue intelligible","music_function":"music enters on power change","silence_or_negative_space":"silence","motif":"a restrained tactile sound motif"}}]
+    concrete=[{"scene_id":"S01","sound_design":{"dialogue_priority":"dialogue intelligible","music_function":"no heroic score before protection","silence_or_negative_space":"crowd clatter thins into creature breath and water droplets","motif":"glass vial taps, salt grains, and pump-stone resonance"}}]
+    assert evaluate_sound_design(generic)['warnings']
+    assert not evaluate_sound_design(concrete)['warnings']
+
+
+def test_creature_opening_keeps_public_exclusion_visible():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    scene=generate_scenes(premise,generate_architecture(premise))[0]
+    first=scene['visual_action']['first_image']
+    assert 'barred from the public' in first
+    assert 'crowd watches' in first
+
+
+def test_key_objects_use_filmable_unlocking_actions():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[1])
+    scenes=generate_scenes(premise,generate_architecture(premise))
+    assert 'turns the blackened brass oven key in the' in scenes[2]['visual_action']['final_image']
+    assert 'falls open' not in scenes[4]['visual_action']['final_image']
+    assert 'ledger wall remains unlocked' in scenes[7]['visual_action']['final_image']
+
+
+def test_thumbnail_concepts_read_nested_creature_premise_fields():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.thumbnail_concepts import generate_concepts
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    concepts=generate_concepts(premise)
+    assert concepts[0]['creature_or_child_anchor']=='the moonfin child'
+    assert concepts[0]['protector']
+    assert concepts[0]['source_promise']==premise['audience_promise']
+
+
+def test_thumbnail_nested_extraction_preserves_cast_and_moral_stakes():
+    from studio.thumbnail_concepts import generate_concepts
+    premise={
+      "title_candidates":["Stormglass Keepers"],
+      "audience_promise":"protection and belonging",
+      "emotional_engine":{
+        "protective_counterforce":"Mira repeatedly chooses the dragon child's safety over her own exile, freedom, and revenge.",
+        "wound":"Mira is trapped by debt, housing insecurity, public shame, and the fear that survival may require exploiting someone weaker."
+      },
+      "relational_contract":{"safety_or_kindness_before_power":"Mira frees and shields the child before she knows whether it can help her, and calms it through care rather than command."}
+    }
+    concept=generate_concepts(premise)[0]
+    assert concept['creature_or_child_anchor']=='the dragon child'
+    assert concept['protector']=='Mira'
+    assert 'exploiting someone weaker' in concept['source_wound']
+
+
+def test_opening_quality_flags_fantasy_without_ordinary_anchor():
+    from studio.production import opening_conversion_quality
+    premise={"channel_contract":"dark fantasy creature feature","title_candidates":["The Rot"],"opening_event":{"first_10_seconds":"a legendary power awakens","first_60_seconds":"ancient magic threatens the realm","first_5_minutes":"a hidden identity is revealed","dramatic_question":"can the chosen one survive?"}}
+    result=opening_conversion_quality(premise)
+    assert any('ordinary survival/labor/resource anchor' in w for w in result['warnings'])
+    grounded={"channel_contract":"creature_economic_melodrama","title_candidates":["Rot"],"opening_event":{"first_10_seconds":"a child is barred from the public water pump","first_60_seconds":"debt papers threaten the home","first_5_minutes":"she protects a creature while fetching water","dramatic_question":"can she save home without ownership?"}}
+    assert not any('ordinary survival/labor/resource anchor' in w for w in opening_conversion_quality(grounded)['warnings'])
+
+
+def test_opening_ordinary_anchor_matching_uses_word_boundaries():
+    from studio.production import opening_conversion_quality
+    premise={"channel_contract":"dark fantasy creature feature","title_candidates":["Crown"],"opening_event":{"first_10_seconds":"the current emperor summons a hidden power","first_60_seconds":"ancient magic threatens the realm","first_5_minutes":"a secret identity is exposed","dramatic_question":"can the chosen one survive?"}}
+    result=opening_conversion_quality(premise)
+    assert 'rent' not in result['ordinary_anchor_terms']
+    assert any('ordinary survival/labor/resource anchor' in w for w in result['warnings'])
+
+
+def test_creature_scenes_include_short_scene_specific_spoken_exchange():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.dialogue_craft import evaluate_scenes_dialogue
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    scenes=generate_scenes(premise,generate_architecture(premise))
+    exchange=scenes[0]['dialogue_design']['spoken_exchange']
+    assert len(exchange)==4
+    assert exchange[0]['speaker']!=exchange[2]['speaker']
+    assert 'Paying hands first, Nura' in exchange[0]['line']
+    report=evaluate_scenes_dialogue(scenes)
+    assert not report['warnings_by_scene']
+    assert report['scenes'][0]['spoken_exchange_turn_count']==4
+
+
+def test_storyboard_seed_uses_spoken_exchange_in_dialogue_shots():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.storyboard_seed import build_seed_board
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    scene=generate_scenes(premise,generate_architecture(premise))[0]
+    board=build_seed_board(scene)
+    dialogue_shots=[s for s in board['shots'] if s['dialogue']]
+    assert any('Paying hands first, Nura' in s['dialogue'] for s in dialogue_shots)
+    assert any("Under my shawl" in s['dialogue'] for s in dialogue_shots)
+    assert any('crowd blocks the public resource threshold' in s['visual_action'] for s in dialogue_shots)
+
+
+def test_storyboard_seed_does_not_repeat_exact_dialogue_line():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.storyboard_seed import build_seed_board
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    scene=generate_scenes(premise,generate_architecture(premise))[0]
+    board=build_seed_board(scene)
+    lines=[s['dialogue'] for s in board['shots'] if s['dialogue']]
+    assert len(lines)==len(set(lines))
+
+
+def test_dialogue_evaluation_reports_null_spoken_turn_without_crash():
+    from studio.dialogue_craft import evaluate_scenes_dialogue
+    report=evaluate_scenes_dialogue([{"scene_id":"S01","dialogue_design":{"key_lines":[],"spoken_exchange":[None],"max_exposition_sentences":2}}])
+    assert 'spoken exchange turn 1 is malformed' in report['warnings_by_scene']['S01']
+
+
+def test_repo_and_package_scene_schemas_stay_synchronized():
+    from pathlib import Path
+    assert Path('schemas/scene-screenplay.schema.json').read_text(encoding='utf8') == Path('studio/package_data/schemas/scene-screenplay.schema.json').read_text(encoding='utf8')
+
+
+def test_creature_spoken_exchange_assigns_decisions_to_protagonist():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    scenes=generate_scenes(premise,generate_architecture(premise))
+    for idx in [1,5]:
+        exchange=scenes[idx]['dialogue_design']['spoken_exchange']
+        decision=next(t for t in exchange if t['beat']=='protagonist_decision')
+        assert decision['speaker']=='Nura'
+    assert "Then I'll work" in next(t for t in scenes[1]['dialogue_design']['spoken_exchange'] if t['beat']=='protagonist_decision')['line']
+    assert "walk beside me" in next(t for t in scenes[5]['dialogue_design']['spoken_exchange'] if t['beat']=='protagonist_decision')['line']
+
+
+def test_storyboard_seed_falls_back_to_key_lines_without_spoken_exchange():
+    from studio.storyboard_seed import build_seed_board
+    scene={"scene_id":"S01","time_range":"0-5 minutes","objective":"objective","conflict":"conflict","turn":"turn","protagonist_decision":"decision","subtext":"subtext","visual_action":{"first_image":"first","face_reaction":"face","vertical_composition":"vertical","final_image":"final"},"dialogue_design":{"key_lines":["pressure line","decision line","objection line"]},"sound_design":{}}
+    board=build_seed_board(scene)
+    dialogue=[s['dialogue'] for s in board['shots'] if s['dialogue']]
+    assert 'pressure line' in dialogue
+    assert 'decision line' in dialogue
+    assert 'objection line' in dialogue
+
+
+def test_storyboard_seed_places_witness_objection_before_decision():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.storyboard_seed import build_seed_board
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    scene=generate_scenes(premise,generate_architecture(premise))[5]
+    board=build_seed_board(scene)
+    witness_idx=next(i for i,s in enumerate(board['shots']) if 'One pair of hands can bury it' in s['dialogue'])
+    decision_idx=next(i for i,s in enumerate(board['shots']) if 'walk beside me' in s['dialogue'])
+    assert witness_idx < decision_idx
+
+
+def test_storyboard_seed_preserves_scripted_final_image():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.storyboard_seed import build_seed_board
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[1])
+    scene=generate_scenes(premise,generate_architecture(premise))[2]
+    board=build_seed_board(scene)
+    final=board['shots'][-1]
+    assert final['visual_action']==scene['visual_action']['final_image']
+    assert final['dialogue']
+
+
+def test_storyboard_seed_places_power_turn_after_causing_decision():
+    import json
+    from studio.storyboard_seed import build_seed_board
+    scene=json.load(open('examples/stormglass_keepers/scenes/S02.json',encoding='utf8'))
+    board=build_seed_board(scene)
+    decision_idx=next(i for i,s in enumerate(board['shots']) if s['visual_action']==scene['protagonist_decision'])
+    turn_idx=next(i for i,s in enumerate(board['shots']) if s['visual_action']==scene['turn'])
+    assert decision_idx < turn_idx
+
+
+def test_storyboard_seed_varies_repeated_turn_coverage():
+    import json
+    from studio.storyboard_seed import build_seed_board
+    scene=json.load(open('examples/generated_creature_concepts/salt_window_garden_scenes/S01.json',encoding='utf8'))
+    board=build_seed_board(scene)
+    turn_visuals=[s['visual_action'] for s in board['shots'] if s['shot_size']=='turn wide']
+    assert len(turn_visuals) > 1
+    assert len(set(turn_visuals)) == len(turn_visuals)
+    assert all('alternate coverage' in v for v in turn_visuals[1:])
+
+
+def test_failure_intelligence_flags_modern_rebirth_without_clock_or_proof():
+    from studio.failure_intelligence import evaluate_candidate
+    script='Arthur is reborn after his billionaire company family betrays him. He is angry. They humiliate him again and again.'
+    result=evaluate_candidate('Reborn billionaire heir disowns his company family and makes them pay',[],script)
+    ids=[p['id'] for p in result['matched_failure_patterns']]
+    assert 'modern_rebirth_revenge_without_clock_or_proof' in ids
+
+
+def test_failure_intelligence_accepts_modern_rebirth_clock_and_proof():
+    from studio.failure_intelligence import evaluate_candidate
+    script='Arthur is reborn after his sisters betray him. Seven days remain on the contract. He keeps the files, bank records, waiver, needle scar, and red heels as evidence.'
+    result=evaluate_candidate('Reborn heir disowns his sisters and makes them pay',[],script)
+    ids=[p['id'] for p in result['matched_failure_patterns']]
+    assert 'modern_rebirth_revenge_without_clock_or_proof' not in ids
+
+
+def test_failure_intelligence_requires_both_rebirth_clock_and_proof():
+    from studio.failure_intelligence import evaluate_candidate
+    candidate='Reborn billionaire heir makes his company family pay'
+    proof_only='Arthur is reborn after betrayal. He keeps contracts, bank records, photos, files, scars, and evidence.'
+    clock_only='Arthur is reborn after betrayal. Seven days remain before the deadline.'
+    for script in (proof_only,clock_only):
+        result=evaluate_candidate(candidate,[],script)
+        ids=[p['id'] for p in result['matched_failure_patterns']]
+        assert 'modern_rebirth_revenge_without_clock_or_proof' in ids
+
+
+def test_failure_intelligence_does_not_classify_fantasy_rebirth_as_modern_revenge():
+    from studio.failure_intelligence import evaluate_candidate
+    script='The reborn princess returns to the magic kingdom after her father betrayal and avenges the royal family.'
+    result=evaluate_candidate('Reborn princess avenges her father betrayal',[],script)
+    ids=[p['id'] for p in result['matched_failure_patterns']]
+    assert 'modern_rebirth_revenge_without_clock_or_proof' not in ids
+
+
+def test_creature_spoken_exchange_contains_scene_specific_subtext():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    scene=generate_scenes(premise,generate_architecture(premise))[0]
+    exchange=scene['dialogue_design']['spoken_exchange']
+    assert all(t.get('subtext') for t in exchange)
+    assert exchange[0]['subtext'] != exchange[0]['line']
+    assert 'illegality' in exchange[0]['subtext']
+
+
+def test_creature_dialogue_uses_world_specific_material_proof_language():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    salt=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    ember=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[1])
+    salt_scenes=generate_scenes(salt,generate_architecture(salt))
+    ember_scenes=generate_scenes(ember,generate_architecture(ember))
+    assert 'salt rises where her tears fall' in salt_scenes[0]['dialogue_design']['spoken_exchange'][3]['line']
+    assert 'coals bend toward her crying' in ember_scenes[0]['dialogue_design']['spoken_exchange'][3]['line']
+    assert 'Guild ration first' in ember_scenes[0]['dialogue_design']['spoken_exchange'][0]['line']
+    assert 'coal ledger' in ember_scenes[2]['dialogue_design']['spoken_exchange'][0]['line']
+    assert 'Salt inside this seal' in salt_scenes[3]['dialogue_design']['spoken_exchange'][3]['line']
+    assert 'This seam is still hot' in ember_scenes[3]['dialogue_design']['spoken_exchange'][3]['line']
+
+def test_hidden_identity_integrity_flags_status_only_reveal():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    premise={"title_candidates":["Poor Student Was Secretly a Billionaire Heir"],"opening_event":{"first_10_seconds":"a poor student enters elite school","first_60_seconds":"he is mocked","first_5_minutes":"his true identity appears"}}
+    result=evaluate_hidden_identity_integrity(premise,{},[])
+    assert result['applies']
+    assert result['score_0_to_1']<0.7
+    assert any('trust wound' in w for w in result['warnings'])
+
+
+def test_hidden_identity_integrity_accepts_lioren_pattern():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    premise={"title_candidates":["She Fell in Love With a Poor Student, Not Knowing He Was a Billionaire Heir"],"opening_event":{"first_10_seconds":"a poor student is mocked but helps another student","first_60_seconds":"ordinary kindness over coffee and library study","first_5_minutes":"he corrects a valuation and proves competence"}}
+    arch={"sequences":[{"turn":"competence and love grow before status"},{"turn":"the true identity reveal creates a trust wound because he lied"},{"turn":"he apologizes, uses wealth to save the university and protect vulnerable students"},{"turn":"chosen love, proposal, wedding, family and belonging matter more than wealth"}]}
+    result=evaluate_hidden_identity_integrity(premise,arch,[])
+    assert result['applies']
+    assert result['score_0_to_1']>=0.8
+
+def test_scale_community_integrity_flags_generic_battle_rescue():
+    from studio.scale_community_integrity import evaluate_scale_community_integrity
+    premise={"title_candidates":["A Hidden Tiny Kingdom"],"opening_event":{"first_5_minutes":"explorer finds tiny kingdom"}}
+    arch={"sequences":[{"turn":"the outsider is instantly worshipped"},{"turn":"a final battle defeats the invaders"},{"turn":"the outsider leaves"}]}
+    result=evaluate_scale_community_integrity(premise,arch,[])
+    assert result['applies']
+    assert result['score_0_to_1']<=0.4
+
+
+def test_scale_community_integrity_accepts_drakenhart_pattern():
+    from studio.scale_community_integrity import evaluate_scale_community_integrity
+    premise={"title_candidates":["She Found a Hidden Tiny Kingdom in the Roots"],"opening_event":{"first_5_minutes":"explorer finds tiny kingdom and repairs an arch that saves the tunnel"}}
+    arch={"sequences":[{"turn":"giant-world junk becomes roofs, tools, infrastructure and shared shelter"},{"turn":"the tiny community distrusts giants because earlier drilling flooded them and her report signs places away"},{"turn":"a map and proof make the drilling crew listen and shut it down"},{"turn":"years of rebuilding make it her chosen home; she returns every sunrise"}]}
+    result=evaluate_scale_community_integrity(premise,arch,[])
+    assert result['applies']
+    assert result['score_0_to_1']>=0.8
+

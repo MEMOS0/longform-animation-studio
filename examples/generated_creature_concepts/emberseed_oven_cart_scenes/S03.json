@@ -2,37 +2,93 @@
   "scene_id": "S03",
   "time_range": "8.4-13.4 minutes",
   "objective": "bond growth, antagonist retaliation, and object rule",
-  "conflict": "the antagonist repeats the original spatial punishment and raises the economic/social cost",
+  "conflict": "the coal guildmaster and Lio's status-hungry stepbrother repeats the public punishment while treating the creature's suffering as a resource input",
   "power_position_start": "emotionally bonded but economically vulnerable",
   "power_position_end": "threatened but visibly competent",
-  "turn": "the antagonist repeats the original spatial punishment and raises the economic/social cost",
+  "turn": "the coal guildmaster and Lio's status-hungry stepbrother repeats the public punishment while treating the creature's suffering as a resource input",
   "protagonist_decision": "continue helping or working openly despite wage loss, ridicule, or exclusion",
   "subtext": "Love and trust are shown through repeated protection, not declared as feelings.",
   "visual_action": {
-    "first_image": "status space repeated with a sharper punishment; object lesson embedded in action",
+    "first_image": "the antagonist's people chain the public oven while the emberseed bird child shakes behind the protagonist",
     "face_reaction": "the protagonist's expression shifts from hope toward controlled attention when the turn lands",
     "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
-    "final_image": "blackened brass oven key visible after the power shift, its meaning altered by: the rules of blackened brass oven key and the protagonist's proof literacy become legible"
+    "final_image": "the protagonist turns the blackened brass oven key in the oven lock and compares its maker mark with the first heat trace"
   },
   "dialogue_design": {
     "function": "make choices, objections, and proof implications audible rather than explaining theme",
     "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
     "max_exposition_sentences": 2,
     "key_lines": [
-      "I refuse to hide the work my hands can prove.",
-      "Watch what this object remembers.",
-      "If you trust me, don't ask me to become small again."
+      "I refuse your price while she's shaking.",
+      "A house bought by her pain isn't a home.",
+      "She isn't inventory with feathers."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "coal guild",
+        "dramatic_job": "the coal guild repeats the public punishment and prices the creature's pain",
+        "writing_note": "pressure should arrive as a demand, payment, threat, or institutional move"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "the emberseed bird child",
+        "dramatic_job": "selling even a little of the emberseed bird child's value could solve the debt faster",
+        "writing_note": "the objection makes the safe choice reasonable and forces a cost"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "protagonist",
+        "dramatic_job": "the protagonist chooses slower safety over profitable harm",
+        "writing_note": "decision is spoken through action/refusal, not theme explanation"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "blackened brass oven key",
+        "dramatic_job": "fear, feathers, and heat make exploitation physically visible",
+        "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "external_pressure",
+        "speaker": "coal guild",
+        "line": "One feather, and the coal ledger forgets your name.",
+        "action": "the offer converts creature pain into economic rescue",
+        "subtext": "the offer is seductive because one small wound could erase an unbearable debt"
+      },
+      {
+        "beat": "witness_objection",
+        "speaker": "a flour miller",
+        "line": "Pull it and she'll never trust a hand again.",
+        "action": "a flour miller blocks the reach toward the creature",
+        "subtext": "the objection names the moral cost before anyone can call the bargain practical"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Lio",
+        "line": "Not while she's shaking.",
+        "action": "Lio steps into the reach instead of arguing abstractions",
+        "subtext": "the protagonist refuses in the present tense because the creature's fear matters more than the argument"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "speaker": "coal guild",
+        "line": "Hold her still. The price is higher while she's breathing.",
+        "action": "fear moves through the creature's feathers, making the cost visible",
+        "subtext": "the antagonist tries to make the creature's body testify against its own personhood"
+      }
     ]
   },
   "sound_design": {
-    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
-    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
-    "silence_or_negative_space": "intimate object/craft detail against hostile public murmur",
-    "motif": "a restrained tactile sound motif"
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
+    "music_function": "keep the creature's fear acoustically close while power remains reverberant and distant",
+    "silence_or_negative_space": "institutional chains, coin counts, ledger paper, and hostile murmur press against small creature fear sounds",
+    "motif": "blackened brass key clicks, ember breath, wing-feather tremor, and oven stone resonance"
   },
   "edit_hook": {
-    "entry_hook": "enter on the immediate consequence of the previous turn: the bond with the emberseed bird child plus the miller's lonely daughter who first hides it; a flour miller and night watchman feed Lio before guild protection exists becomes habitual and trusted",
-    "exit_hook": "what does the object know that powerful people do not?"
+    "entry_hook": "enter on the immediate consequence of the previous turn: feeding and protecting the emberseed bird child becomes a repeatable ritual with visible cost",
+    "exit_hook": "how much suffering is the system willing to monetize before witnesses understand it?"
   },
   "failure_checks": [
     "Does the scene change power, trust, evidence, capability, or relational obligation?",

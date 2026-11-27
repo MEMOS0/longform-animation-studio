@@ -2,37 +2,93 @@
   "scene_id": "S01",
   "time_range": "0-4.2 minutes",
   "objective": "spatial humiliation, vulnerable alliance, and promise payoff",
-  "conflict": "the forced status ritual is interrupted when the emberseed bird child plus the miller's lonely daughter who first hides it; a flour miller and night watchman feed Lio before guild protection exists physically crosses toward the humiliated protagonist",
+  "conflict": "the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
   "power_position_start": "socially exposed and institutionally powerless",
   "power_position_end": "protector with a defined relational duty",
-  "turn": "the forced status ritual is interrupted when the emberseed bird child plus the miller's lonely daughter who first hides it; a flour miller and night watchman feed Lio before guild protection exists physically crosses toward the humiliated protagonist",
-  "protagonist_decision": "protect the vulnerable ally or preserve dignity before protecting personal safety",
+  "turn": "the emberseed bird child crosses the public boundary to protect the humiliated protagonist rather than waiting for permission",
+  "protagonist_decision": "hide the creature's value or protect it before knowing whether anyone will help",
   "subtext": "Care is meaningful only when it crosses a social boundary at cost.",
   "visual_action": {
-    "first_image": "Lio is made to bake on the ash floor outside the licensed oven hall while guild families eat inside",
+    "first_image": "the crowd watches the protagonist being barred from the public oven as the emberseed bird child crosses toward her",
     "face_reaction": "the protagonist's expression shifts from shame toward controlled attention when the turn lands",
     "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
-    "final_image": "blackened brass oven key visible after the power shift, its meaning altered by: blackened brass oven key is introduced as emotionally and practically significant"
+    "final_image": "the protagonist kneels, hides the emberseed bird child, and closes a protective hand around the blackened brass oven key"
   },
   "dialogue_design": {
     "function": "make choices, objections, and proof implications audible rather than explaining theme",
     "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
     "max_exposition_sentences": 2,
     "key_lines": [
-      "Sit here if you choose. No one eats beneath us again.",
-      "I will protect her before I protect myself.",
-      "Let them laugh; I won't leave her alone."
+      "Back off. The emberseed bird child came to me bleeding, not asking for permission.",
+      "I hide her first. Questions after she's safe.",
+      "The fire moved when she cried; the oven saw her."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "coal guild",
+        "dramatic_job": "the crowd or coal guild demands that the humiliated protagonist abandon the exposed child",
+        "writing_note": "pressure should arrive as a demand, payment, threat, or institutional move"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "a flour miller",
+        "dramatic_job": "hiding the emberseed bird child can destroy the protagonist's last economic shelter",
+        "writing_note": "the objection makes the safe choice reasonable and forces a cost"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "protagonist",
+        "dramatic_job": "the protagonist hides/protects before knowing whether anyone will help",
+        "writing_note": "decision is spoken through action/refusal, not theme explanation"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "blackened brass oven key",
+        "dramatic_job": "the fire response marks the emberseed bird child as a witness rather than a commodity",
+        "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "external_pressure",
+        "speaker": "coal guild",
+        "line": "Guild ration first, Lio. Hands off the oven.",
+        "action": "the crowd blocks the public resource threshold",
+        "subtext": "need is being framed as illegality so control of the resource stays unquestioned"
+      },
+      {
+        "beat": "witness_objection",
+        "speaker": "a flour miller",
+        "line": "Don't lift her toward the carts—she'll bolt.",
+        "action": "a flour miller shifts between the crowd and the creature",
+        "subtext": "intervention can become exposure if panic drives the creature into the crowd"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Lio",
+        "line": "Under my flour cloth. If they see feathers, we're both done.",
+        "action": "Lio kneels and covers the creature",
+        "subtext": "safety outranks being understood or socially approved"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "speaker": "a flour miller",
+        "line": "Look, the coals bend toward her crying.",
+        "action": "the fire response becomes visible to the nearest witness",
+        "subtext": "the creature's response makes personhood materially visible before anyone can explain it"
+      }
     ]
   },
   "sound_design": {
-    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
-    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
-    "silence_or_negative_space": "public laughter and clatter thin into close breath/contact silence at the moment of alliance",
-    "motif": "a restrained tactile sound motif"
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
+    "music_function": "no heroic score yet; let the protection choice register as close breath and contact before music enters",
+    "silence_or_negative_space": "public clatter and accusation thin until creature breath, infant-like movement, and the first object touch remain audible",
+    "motif": "blackened brass key clicks, ember breath, wing-feather tremor, and oven stone resonance"
   },
   "edit_hook": {
-    "entry_hook": "enter on the immediate consequence of the previous turn: the emberseed bird child plus the miller's lonely daughter who first hides it; a flour miller and night watchman feed Lio before guild protection exists creates the first morally trustworthy bond",
-    "exit_hook": "why does the powerless ally trust the person every powerful adult rejects?"
+    "entry_hook": "enter on the immediate consequence of the previous turn: the emberseed bird child creates the first bond through need and trust rather than status",
+    "exit_hook": "why does a valuable creature trust the person the coal guild calls worthless?"
   },
   "failure_checks": [
     "Does the scene change power, trust, evidence, capability, or relational obligation?",

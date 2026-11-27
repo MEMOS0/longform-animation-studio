@@ -21,6 +21,11 @@ from .sound_design import evaluate_sound_design
 from .meaning_carrier import evaluate_meaning_carrier
 from .relational_contract import evaluate_relational_contract
 from .spatial_status import evaluate_spatial_status
+from .closure_integrity import evaluate_closure_integrity
+from .visual_causality import evaluate_visual_causality
+from .hidden_identity_integrity import evaluate_hidden_identity_integrity
+from .scale_community_integrity import evaluate_scale_community_integrity
+from .thumbnail_concepts import generate_concepts, critique_concept
 from .storyboard import validate_storyboard_file
 
 REPO_SCHEMA_DIR = Path(__file__).resolve().parents[1] / "schemas"
@@ -216,7 +221,12 @@ def opening_conversion_quality(premise: dict[str, Any]) -> dict[str, Any]:
     admin_hits = [term for term in admin_terms if term in text]
     if len(admin_hits) >= 2 and emotional_terms < 4:
         warnings.append("opening may stall in proof/verification/administrative negotiation instead of escalating injustice or protection")
-    return {"mechanism_groups_present": present, "matched_terms": matched, "administrative_terms": admin_hits, "warnings": warnings}
+    ordinary_anchor_terms = ["water", "well", "food", "bread", "potato", "debt", "rent", "wage", "work", "chore", "home", "shop", "oven", "mill", "bucket", "pump", "shelter", "animal", "beast", "customer", "door"]
+    ordinary_hits = [term for term in ordinary_anchor_terms if re.search(r"\b" + re.escape(term) + r"\b", text)]
+    fantasyish = any(term in ((premise.get("channel_contract") or "") + " " + (premise.get("genre") or "") + " " + " ".join(premise.get("title_candidates") or [])).lower() for term in ("fantasy", "creature", "dragon", "monster", "mythic", "dark", "magic"))
+    if fantasyish and not ordinary_hits:
+        warnings.append("fantasy opening lacks an ordinary survival/labor/resource anchor; spectacle may not explain what the community stands to lose")
+    return {"mechanism_groups_present": present, "matched_terms": matched, "administrative_terms": admin_hits, "ordinary_anchor_terms": ordinary_hits, "warnings": warnings}
 
 
 def gate_report(schema_errors: dict[str, list[str]], failure: dict[str, Any], scenes: dict[str, Any], architecture: dict[str, Any], architecture_reviewed: bool = True, scenes_reviewed: bool = True, storyboards: dict[str, Any] | None = None) -> dict[str, Any]:
@@ -269,6 +279,7 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "format_strategy": format_strategy(premise.get("target_minutes"), combined, premise.get("release_format", "")),
         "opening_conversion_quality": opening_conversion_quality(premise),
         "title_packaging": {"existing_title_critiques": [{"title": title, "critique": critique_title(title, premise)} for title in premise.get("title_candidates", [])], "generated_alternatives": generate_title_candidates(premise)},
+        "thumbnail_concepts": [{"concept": concept, "critique": critique_concept(concept)} for concept in generate_concepts(premise)],
         "channel_contract_fit": evaluate_channel_fit(combined, premise.get("channel_contract", "")),
         "production_economics": estimate_video_budget(premise.get("target_minutes")),
         "shot_pipeline": shot_pipeline,
@@ -279,6 +290,10 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "meaning_carrier_intelligence": evaluate_meaning_carrier(premise, architecture),
         "relational_contract_intelligence": evaluate_relational_contract(premise),
         "spatial_status_intelligence": evaluate_spatial_status(premise, architecture, scenes),
+        "closure_integrity": evaluate_closure_integrity(premise, architecture, scenes),
+        "visual_causality": evaluate_visual_causality(scenes),
+        "hidden_identity_integrity": evaluate_hidden_identity_integrity(premise, architecture, scenes),
+        "scale_community_integrity": evaluate_scale_community_integrity(premise, architecture, scenes),
         "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes), "storyboards": len(boards)},
         "gates": gate_report(schema_errors, failure, scene_report, architecture_report, bool(architecture), bool(scenes), board_report),
     }

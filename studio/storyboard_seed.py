@@ -16,15 +16,15 @@ BEATS = [
     ("wide establishing", "slow push", "first_image", "", "negative_space", "hero", 1.20, "open on the scene image"),
     ("intimate closeup", "settle", "face_reaction", "", "breath/room tone", "mid", 0.72, "read emotion before exposition"),
     ("action wide", "lateral track", "objective", "", "environmental action foley", "draft", 0.95, "objective as visible movement"),
-    ("power two-shot", "slow tightening", "conflict", "key0", "dialogue first", "mid", 1.12, "conflict through voices and positions"),
+    ("power two-shot", "slow tightening", "conflict", "exchange:external_pressure", "dialogue first", "mid", 1.12, "conflict through voices and positions"),
     ("pressure insert", "macro", "conflict", "", "object/room texture", "draft", 0.62, "insert pressure detail"),
-    ("decision closeup", "static intimate", "protagonist_decision", "key1", "music drops before decision", "mid", 0.82, "decision must be visible"),
-    ("turn wide", "reframe", "turn", "", "sound motif shifts", "hero", 1.34, "power turn in space"),
     ("vertical composition", "high or low angle", "vertical_composition", "", "negative space", "draft", 0.78, "spatial power relationship"),
-    ("subtext two-shot", "slow lateral drift", "subtext", "key2", "sparse motif", "mid", 1.05, "subtext not explanation"),
+    ("subtext two-shot", "slow lateral drift", "subtext", "exchange:witness_objection", "sparse motif", "mid", 1.05, "subtext not explanation"),
+    ("decision closeup", "static intimate", "protagonist_decision", "exchange:protagonist_decision", "music drops before decision", "mid", 0.82, "decision must be visible"),
+    ("turn wide", "reframe", "turn", "", "sound motif shifts", "hero", 1.34, "power turn in space"),
     ("consequence wide", "backward track", "consequence", "", "consequence foley", "draft", 0.92, "cost becomes physical"),
     ("sensory bridge", "insert or detail", "final_image", "", "object/motif texture", "draft", 0.58, "sensory transition"),
-    ("final image", "slow pull-back", "final_image", "key0", "motif unresolved", "hero", 1.46, "exit on changed power"),
+    ("final image", "slow pull-back", "final_image", "exchange:evidence_or_cost", "motif unresolved", "hero", 1.46, "exit on changed power"),
 ]
 
 
@@ -51,6 +51,25 @@ def distribute_duration(weights: list[float], total: float, minimum: float = 4.0
     return durations
 
 
+
+
+def alternate_coverage(source: str, visual_action: str, occurrence: int) -> str:
+    if occurrence == 0 or not visual_action:
+        return visual_action
+    labels = {
+        "turn": "reaction coverage: show witnesses, threshold position, and power shift instead of repeating the same crossing staging",
+        "conflict": "pressure-detail coverage: hands, objects, crowd position, or institutional obstruction carries the conflict",
+        "final_image": "object-detail coverage before or after the wider relational-resolution framing",
+        "first_image": "environmental coverage emphasizing a different spatial layer of the opening image",
+        "face_reaction": "witness or micro-expression coverage rather than the same facial staging",
+        "consequence": "cost-detail coverage showing what materially changed",
+        "protagonist_decision": "gesture/consequence-facing coverage of the same decision",
+        "objective": "movement/detail coverage of the objective",
+    }
+    label = labels.get(source, "alternate angle and detail coverage")
+    return visual_action + "; alternate coverage: " + label
+
+
 def scene_value(scene: dict[str, Any], key: str) -> str:
     visual = scene.get("visual_action", {})
     if key in visual:
@@ -64,11 +83,15 @@ def build_seed_board(scene: dict[str, Any], continuity_dependencies: list[str] |
     start, end = minutes_range(str(scene.get("time_range", "")))
     duration = round((end - start) * 60.0, 2)
     shot_count = max(12, min(22, round(duration / 18)))
-    keys = list((scene.get("dialogue_design") or {}).get("key_lines") or []) + ["", "", ""]
+    dialogue_design = scene.get("dialogue_design") or {}
+    keys = list(dialogue_design.get("key_lines") or []) + ["", "", ""]
+    exchange_turns = {turn.get("beat"): turn for turn in (dialogue_design.get("spoken_exchange") or []) if isinstance(turn, dict)}
     selected = [BEATS[round(i * (len(BEATS) - 1) / max(1, shot_count - 1))] for i in range(shot_count)]
     durations = distribute_duration([beat[6] for beat in selected], duration)
     sound = scene.get("sound_design") or {}
     shots: list[dict[str, Any]] = []
+    used_dialogue_keys: set[str] = set()
+    visual_occurrences: dict[tuple[str, str], int] = {}
     cursor = 0.0
     for i, (beat, shot_duration) in enumerate(zip(selected, durations), start=1):
         shot_end = cursor + shot_duration
@@ -76,8 +99,29 @@ def build_seed_board(scene: dict[str, Any], continuity_dependencies: list[str] |
             shot_end = duration
         size, camera, source, dialogue_key, sound_key, lane, _weight, note = beat
         dialogue = ""
+        exchange_turn = None
+        repeated_dialogue_beat = bool(dialogue_key and dialogue_key in used_dialogue_keys)
         if dialogue_key:
+            used_dialogue_keys.add(dialogue_key)
+        if dialogue_key.startswith("exchange:") and not repeated_dialogue_beat:
+            exchange_turn = exchange_turns.get(dialogue_key.split(":", 1)[1])
+            dialogue = str((exchange_turn or {}).get("line") or "")
+            if not exchange_turn:
+                fallback_index = {"external_pressure": 0, "protagonist_decision": 1, "witness_objection": 2, "evidence_or_cost": 0}.get(dialogue_key.split(":", 1)[1], 0)
+                dialogue = keys[fallback_index] if len(keys) > fallback_index else ""
+        elif dialogue_key and not dialogue_key.startswith("exchange:") and not repeated_dialogue_beat:
             dialogue = keys[int(dialogue_key[-1])] if len(keys) > int(dialogue_key[-1]) else ""
+        visual_action = scene_value(scene, source)
+        if exchange_turn and exchange_turn.get("action") and not repeated_dialogue_beat and source != "final_image":
+            visual_action = str(exchange_turn["action"])
+        occurrence_key = (source, visual_action)
+        occurrence = visual_occurrences.get(occurrence_key, 0)
+        visual_occurrences[occurrence_key] = occurrence + 1
+        if source == "final_image" and i == shot_count:
+            occurrence = 0
+        elif source == "final_image" and occurrence == 0:
+            occurrence = 1
+        visual_action = alternate_coverage(source, visual_action, occurrence)
         sound_text = {
             "negative_space": sound.get("silence_or_negative_space", "ambient negative space"),
             "dialogue first": sound.get("dialogue_priority", "dialogue first"),
@@ -91,12 +135,12 @@ def build_seed_board(scene: dict[str, Any], continuity_dependencies: list[str] |
             "scene_id": scene.get("scene_id", "SXX"),
             "shot_size": size,
             "camera_intent": camera,
-            "visual_action": scene_value(scene, source),
+            "visual_action": visual_action,
             "dialogue": dialogue,
             "sound_design": sound_text,
             "generation_lane": lane,
             "continuity_dependencies": continuity_dependencies or ["protagonist_face_costume", "location_geography", "relationship_continuity", "meaning_carrier_continuity", "sound_motif_continuity"],
-            "director_note": "director seed generated from exact scene fields; refine staging before production: " + note,
+            "director_note": "director seed generated from exact scene fields; refine staging before production: " + note + (("; subtext: " + str(exchange_turn.get("subtext"))) if exchange_turn and exchange_turn.get("subtext") and not repeated_dialogue_beat else ""),
         })
         cursor = shot_end
     return {

@@ -2,36 +2,92 @@
   "scene_id": "S06",
   "time_range": "24.4-31.1 minutes",
   "objective": "agency reconstruction and first proof chain movement",
-  "conflict": "the protagonist refuses passive rescue and begins reading the evidence through established competence",
+  "conflict": "the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
   "power_position_start": "no longer passive but still outmatched",
   "power_position_end": "active investigator with an accountable alliance",
-  "turn": "the protagonist refuses passive rescue and begins reading the evidence through established competence",
+  "turn": "the protagonist reads heat traces, pressure marks, ledgers, and witness geometry instead of waiting for rescue",
   "protagonist_decision": "accept only accountable help/advance while retaining control of the proof",
   "subtext": "Agency means accepting help without surrendering authorship of the proof.",
   "visual_action": {
-    "first_image": "investigation through craft locations, work surfaces, and overlooked service spaces",
+    "first_image": "the protagonist lifts the blackened brass oven key over the work surface and reads pressure, timing, and witness geometry",
     "face_reaction": "the protagonist's expression shifts from despair toward controlled attention when the turn lands",
     "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
-    "final_image": "blackened brass oven key visible after the power shift, its meaning altered by: maker marks, timing, witness geometry, or object behavior contradict the frame-up"
+    "final_image": "the care network carries matched proof pieces toward the public hearing"
   },
   "dialogue_design": {
     "function": "make choices, objections, and proof implications audible rather than explaining theme",
     "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
     "max_exposition_sentences": 2,
     "key_lines": [
-      "Help me, but do not take the proof from my hands.",
-      "I choose the risk because silence costs more.",
-      "The object remembers what power overlooked."
+      "Help me carry the proof, not my choice.",
+      "Wait for permission and they own the truth.",
+      "Heat, timing, witnesses—line them up."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "coal guild",
+        "dramatic_job": "waiting for rescue would leave both truth and creature inside institutional control",
+        "writing_note": "pressure should arrive as a demand, payment, threat, or institutional move"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "a flour miller",
+        "dramatic_job": "help is needed, but help can steal authorship of the proof",
+        "writing_note": "the objection makes the safe choice reasonable and forces a cost"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "protagonist",
+        "dramatic_job": "the protagonist accepts accountable help while keeping control of the evidence",
+        "writing_note": "decision is spoken through action/refusal, not theme explanation"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "blackened brass oven key",
+        "dramatic_job": "ledger timing, heat, pressure marks, and witness geometry begin aligning",
+        "writing_note": "end the scene with visible proof implication or irreversible cost"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "external_pressure",
+        "speaker": "a flour miller",
+        "line": "Give me the proof. I can carry it faster.",
+        "action": "help threatens to become takeover",
+        "subtext": "help becomes dangerous when speed quietly transfers authorship away from the person who paid the cost"
+      },
+      {
+        "beat": "witness_objection",
+        "speaker": "care network witness",
+        "line": "One pair of hands can bury it as easily as carry it.",
+        "action": "the witness makes the cost of surrendering authorship concrete",
+        "subtext": "the witness understands that whoever controls the proof can also erase it"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Lio",
+        "line": "Then walk beside me. Don't take it from me.",
+        "action": "the protagonist accepts help while keeping control of the proof",
+        "subtext": "the protagonist accepts support while keeping moral agency and public accountability"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "speaker": "Lio",
+        "line": "Heat marks, kiln times, witnesses—line them up.",
+        "action": "the proof chain becomes a physical arrangement",
+        "subtext": "the proof chain must become procedural and physical so emotion cannot be dismissed as rumor"
+      }
     ]
   },
   "sound_design": {
-    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
-    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
-    "silence_or_negative_space": "quiet concentrated labor, location-specific reverberation, and proof-object texture",
-    "motif": "a restrained tactile sound motif"
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
+    "music_function": "let investigation rhythm replace battle music; each proof layer should have a distinct tactile sound",
+    "silence_or_negative_space": "paper, pressure ticks, measurement scratches, witness whispers, and repeated object handling build the proof chain",
+    "motif": "blackened brass key clicks, ember breath, wing-feather tremor, and oven stone resonance"
   },
   "edit_hook": {
-    "entry_hook": "enter on the immediate consequence of the previous turn: the care network and minor witnesses become an active proof community",
+    "entry_hook": "enter on the immediate consequence of the previous turn: the care network becomes a proof community around labor, shelter, and creature trust",
     "exit_hook": "which small detail will collapse the antagonist's timeline?"
   },
   "failure_checks": [

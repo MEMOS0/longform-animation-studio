@@ -7,8 +7,11 @@ pass can deepen them rather than inventing structure from nothing.
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 from typing import Any
+
+from .creature_dialogue import creature_dialogue_materials
 
 POWER_START = [
     "socially exposed and institutionally powerless",
@@ -64,6 +67,109 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
         ["This floor is not punishment anymore. Everyone sits by choice.", "I refuse revenge without repair.", "We save the legacy by opening the doors, not by becoming the cage."],
     ]
     key_lines = line_options[index - 1]
+    first_image_override = None
+    final_image_override = None
+    sound_override = None
+    spoken_exchange = []
+    opposition_beats = [
+        {"beat": "external_pressure", "voice": "antagonist or social crowd", "dramatic_job": turn, "writing_note": "pressure must be specific behavior, not generic cruelty"},
+        {"beat": "witness_objection", "voice": "caregiver, worker, or vulnerable witness", "dramatic_job": relationship, "writing_note": "the objection should make the safe choice reasonable"},
+        {"beat": "protagonist_decision", "voice": "protagonist", "dramatic_job": sequence.get("protagonist_choice", "act despite cost"), "writing_note": "the answer is a choice or refusal, not a theme statement"},
+        {"beat": "evidence_or_cost", "voice": "object, proof, or consequence", "dramatic_job": clue, "writing_note": "the scene must leave a visible cost or proof implication"},
+    ]
+    if premise.get("channel_contract") == "creature_economic_melodrama":
+        contract_text = json.dumps(premise, ensure_ascii=False).lower()
+        heat_based = any(term in contract_text for term in ["oven", "ember", "fire", "coal", "volcanic"])
+        resource = "fire" if heat_based else "water"
+        system = "oven" if heat_based else "pump"
+        evidence = "heat" if heat_based else "salt"
+        authority = "coal guild" if heat_based else "land trust"
+        trait = "feathers" if heat_based else "fins"
+        object_term = str(object_name).lower()
+        raw_child = str(premise.get("emotional_engine", {}).get("protective_counterforce", "the creature child"))
+        creature = raw_child.split(" plus ")[0].split(";")[0].split(", whose")[0].strip() or "the creature child"
+        raw_care = str(premise.get("relational_contract", {}).get("safety_or_kindness_before_power", "the caregiver"))
+        caregiver = re.split(r"\s+(?:offers?|feeds?|gives?|shelters?)\s+", raw_care, maxsplit=1)[0].split(";")[0].split(" and ")[0].strip() or "the caregiver"
+        creature_label = creature[:1].upper() + creature[1:]
+        caregiver_label = caregiver[:1].upper() + caregiver[1:]
+        protagonist_identity = str(premise.get("protagonist", {}).get("identity", "the protagonist"))
+        protagonist_name = protagonist_identity.split(",")[0].strip() or "the protagonist"
+        dialogue_materials = creature_dialogue_materials({
+            "creature": creature,
+            "creature_label": creature_label,
+            "caregiver": caregiver,
+            "authority": authority,
+            "protagonist_name": protagonist_name,
+            "object_term": object_term,
+            "resource": resource,
+            "system": system,
+            "evidence": evidence,
+            "trait": trait,
+            "heat_based": heat_based,
+        }, index)
+        key_lines = dialogue_materials["key_lines"]
+        spoken_exchange = dialogue_materials["spoken_exchange"]
+        creature_opposition = [
+            {"pressure": f"the crowd or {authority} demands that the humiliated protagonist abandon the exposed child", "objection": f"hiding {creature} can destroy the protagonist's last economic shelter", "decision": "the protagonist hides/protects before knowing whether anyone will help", "evidence_or_cost": f"the {resource} response marks {creature} as a witness rather than a commodity"},
+            {"pressure": "shelter is offered in a way that could become debt, pity, or control", "objection": f"{caregiver} needs labor and honesty, not ownership of the creature", "decision": "the protagonist accepts work but refuses to monetize suffering", "evidence_or_cost": f"the {object_term} separates access from possession"},
+            {"pressure": f"the {authority} repeats the public punishment and prices the creature's pain", "objection": f"selling even a little of {creature}'s value could solve the debt faster", "decision": "the protagonist chooses slower safety over profitable harm", "evidence_or_cost": f"fear, {trait}, and {evidence} make exploitation physically visible"},
+            {"pressure": f"the {authority} reframes competence as theft or illegality", "objection": "one honest witness is safer than a dramatic public claim", "decision": "the protagonist protects consent before economic rescue", "evidence_or_cost": f"the {system} creates timestamps, pressure marks, or access traces"},
+            {"pressure": "public accusation converts the creature into evidence and the protagonist into a thief", "objection": f"revealing {creature} may prove innocence while causing capture", "decision": "the protagonist protects the child before protecting reputation", "evidence_or_cost": f"the {object_term} falls open as proof but does not complete the chain"},
+            {"pressure": "waiting for rescue would leave both truth and creature inside institutional control", "objection": "help is needed, but help can steal authorship of the proof", "decision": "the protagonist accepts accountable help while keeping control of the evidence", "evidence_or_cost": f"ledger timing, {evidence}, pressure marks, and witness geometry begin aligning"},
+            {"pressure": "forgiveness or rescue is offered before restitution", "objection": "a public win without consent repair would turn the creature into a trophy", "decision": "the protagonist demands return of what papers/power stole before trust", "evidence_or_cost": f"the proof chain shows fraud and makes {creature}'s choice audible/visible"},
+            {"pressure": "the ending could become possession, revenge, or escape-only relief", "objection": "community survival matters more than punishing one villain", "decision": "the protagonist chooses non-possessive belonging after safety and proof", "evidence_or_cost": f"the transformed {system} space visibly shares or rebuilds access to {resource}"},
+        ]
+        beat = creature_opposition[index - 1]
+        opposition_beats = [
+            {"beat": "external_pressure", "voice": authority, "dramatic_job": beat["pressure"], "writing_note": "pressure should arrive as a demand, payment, threat, or institutional move"},
+            {"beat": "witness_objection", "voice": caregiver if index in (1, 2, 6, 8) else creature, "dramatic_job": beat["objection"], "writing_note": "the objection makes the safe choice reasonable and forces a cost"},
+            {"beat": "protagonist_decision", "voice": "protagonist", "dramatic_job": beat["decision"], "writing_note": "decision is spoken through action/refusal, not theme explanation"},
+            {"beat": "evidence_or_cost", "voice": object_name, "dramatic_job": beat["evidence_or_cost"], "writing_note": "end the scene with visible proof implication or irreversible cost"},
+        ]
+        if heat_based:
+            material_motif = "blackened brass key clicks, ember breath, wing-feather tremor, and oven stone resonance"
+            resource_texture = "fire crackle, coal shift, oven-door metal, warm bakery labor"
+        else:
+            material_motif = "blue glass vial taps, salt grains, water droplets, fin movement, and pump-stone resonance"
+            resource_texture = "water droplets, pump pressure, wet stone, and shared-food labor"
+        creature_sound = [
+            ("public clatter and accusation thin until creature breath, infant-like movement, and the first object touch remain audible", "no heroic score yet; let the protection choice register as close breath and contact before music enters"),
+            (resource_texture + " replace crowd noise as care becomes labor", "music may form a small rhythmic motif only after work/shelter becomes chosen rather than charitable"),
+            ("institutional chains, coin counts, ledger paper, and hostile murmur press against small creature fear sounds", "keep the creature's fear acoustically close while power remains reverberant and distant"),
+            ("practical repair textures and system mechanics carry competence; guild/customer murmur interrupts rhythm", "use sound interruptions to show the antagonist converting competence into threat"),
+            ("public noise drops into room tone, heartbeat, cloth movement, and the object striking stone", "music must withhold resolution during accusation so shame remains spatial and bodily"),
+            ("paper, pressure ticks, measurement scratches, witness whispers, and repeated object handling build the proof chain", "let investigation rhythm replace battle music; each proof layer should have a distinct tactile sound"),
+            ("near-silent proof assembly: each ledger, trace, witness, and object placement lands as a separate acoustic event", "a restrained motif can answer earlier care sounds but must not become triumph before consent repair"),
+            (resource_texture + " open into communal rhythm while the original public-humiliation sound returns transformed", "the ending motif resolves because home, consent, and shared survival are visible, not because the score insists they are resolved"),
+        ]
+        negative_space, music_function = creature_sound[index - 1]
+        sound_override = {
+            "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
+            "music_function": music_function,
+            "silence_or_negative_space": negative_space,
+            "motif": material_motif,
+        }
+        if "key" in object_term:
+            unlock_action = f"the protagonist turns the {object_term} in the {system} lock and compares its maker mark with the first {evidence} trace"
+            dropped_evidence = f"the {object_term} drops beside the exposed ledger seam as evidence"
+            final_public_proof = f"the {system} ledger wall remains unlocked while the {object_term} stays visible as public proof"
+        else:
+            unlock_action = f"the protagonist opens the {object_term} and compares its mark with the first {evidence} trace"
+            dropped_evidence = f"the {object_term} falls open as evidence"
+            final_public_proof = f"the {object_term} remains open as public proof"
+        creature_visuals = [
+            (f"the crowd watches the protagonist being barred from the public {system} as {creature} crosses toward her", f"the protagonist kneels, hides {creature}, and closes a protective hand around the {object_term}"),
+            (f"{caregiver} carries food into the shelter while the protagonist refuses payment for pain", f"the protagonist places the {object_term} beside {creature} instead of selling access to it"),
+            (f"the antagonist's people chain the public {system} while {creature} shakes behind the protagonist", unlock_action),
+            (f"the protagonist repairs a small {system} fault while guild/customer witnesses watch", f"she pockets a marked ledger fragment and carries {creature} away from the offer of sale"),
+            (f"guards force the protagonist before the public {system} as the accusation lands", f"she shields {creature} with her body while {dropped_evidence}"),
+            (f"the protagonist lifts the {object_term} over the work surface and reads pressure, timing, and witness geometry", f"the care network carries matched proof pieces toward the public hearing"),
+            (f"the protagonist lays ledger, {evidence} trace, witness statement, and {object_term} in one line", f"{creature} steps forward by choice as the protagonist refuses to claim ownership"),
+            (f"neighbors carry shared {resource} into the transformed {system} space", f"{creature} crosses the home threshold freely while {final_public_proof}"),
+        ]
+        first_image_override, final_image_override = creature_visuals[index - 1]
+    first_image = first_image_override or visual
+    final_image = final_image_override or f"{object_name} visible after the power shift, its meaning altered by: {clue}"
     return {
         "scene_id": f"S{index:02d}",
         "time_range": sequence.get("time_range", "0-0 minutes"),
@@ -75,22 +181,24 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
         "protagonist_decision": sequence.get("protagonist_choice", "act despite social cost"),
         "subtext": SUBTEXT[index - 1],
         "visual_action": {
-            "first_image": visual,
+            "first_image": first_image,
             "face_reaction": f"the protagonist's expression shifts from {emotional_shift.split(' to ')[0]} toward controlled attention when the turn lands",
             "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
-            "final_image": f"{object_name} visible after the power shift, its meaning altered by: {clue}",
+            "final_image": final_image,
         },
         "dialogue_design": {
             "function": "make choices, objections, and proof implications audible rather than explaining theme",
             "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
             "max_exposition_sentences": 2,
             "key_lines": key_lines,
+            "opposition_beats": opposition_beats,
+            "spoken_exchange": spoken_exchange,
         },
         "sound_design": {
-            "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
-            "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
-            "silence_or_negative_space": sound,
-            "motif": motif,
+            "dialogue_priority": (sound_override or {}).get("dialogue_priority", "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture"),
+            "music_function": (sound_override or {}).get("music_function", "music enters only when relational power changes; it must not paper over unresolved tension"),
+            "silence_or_negative_space": (sound_override or {}).get("silence_or_negative_space", sound),
+            "motif": (sound_override or {}).get("motif", motif),
         },
         "edit_hook": {
             "entry_hook": f"enter on the immediate consequence of the previous turn: {relationship}",

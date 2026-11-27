@@ -10,9 +10,9 @@
       "scene_id": "S03",
       "shot_size": "wide establishing",
       "camera_intent": "slow push",
-      "visual_action": "status space repeated with a sharper punishment; object lesson embedded in action",
+      "visual_action": "the antagonist's people chain the public oven while the emberseed bird child shakes behind the protagonist",
       "dialogue": "",
-      "sound_design": "intimate object/craft detail against hostile public murmur",
+      "sound_design": "institutional chains, coin counts, ledger paper, and hostile murmur press against small creature fear sounds",
       "generation_lane": "hero",
       "continuity_dependencies": [
         "protagonist_face_costume",
@@ -50,7 +50,7 @@
       "scene_id": "S03",
       "shot_size": "intimate closeup",
       "camera_intent": "settle",
-      "visual_action": "the protagonist's expression shifts from hope toward controlled attention when the turn lands",
+      "visual_action": "the protagonist's expression shifts from hope toward controlled attention when the turn lands; alternate coverage: witness or micro-expression coverage rather than the same facial staging",
       "dialogue": "",
       "sound_design": "breath/room tone",
       "generation_lane": "mid",
@@ -90,9 +90,9 @@
       "scene_id": "S03",
       "shot_size": "power two-shot",
       "camera_intent": "slow tightening",
-      "visual_action": "the antagonist repeats the original spatial punishment and raises the economic/social cost",
-      "dialogue": "I refuse to hide the work my hands can prove.",
-      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+      "visual_action": "the offer converts creature pain into economic rescue",
+      "dialogue": "One feather, and the coal ledger forgets your name.",
+      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
       "generation_lane": "mid",
       "continuity_dependencies": [
         "protagonist_face_costume",
@@ -101,7 +101,7 @@
         "meaning_carrier_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions; subtext: the offer is seductive because one small wound could erase an unbearable debt"
     },
     {
       "shot_id": "S03_DS006",
@@ -110,9 +110,9 @@
       "scene_id": "S03",
       "shot_size": "power two-shot",
       "camera_intent": "slow tightening",
-      "visual_action": "the antagonist repeats the original spatial punishment and raises the economic/social cost",
-      "dialogue": "I refuse to hide the work my hands can prove.",
-      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+      "visual_action": "the coal guildmaster and Lio's status-hungry stepbrother repeats the public punishment while treating the creature's suffering as a resource input",
+      "dialogue": "",
+      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
       "generation_lane": "mid",
       "continuity_dependencies": [
         "protagonist_face_costume",
@@ -130,7 +130,7 @@
       "scene_id": "S03",
       "shot_size": "pressure insert",
       "camera_intent": "macro",
-      "visual_action": "the antagonist repeats the original spatial punishment and raises the economic/social cost",
+      "visual_action": "the coal guildmaster and Lio's status-hungry stepbrother repeats the public punishment while treating the creature's suffering as a resource input; alternate coverage: pressure-detail coverage: hands, objects, crowd position, or institutional obstruction carries the conflict",
       "dialogue": "",
       "sound_design": "object/room texture",
       "generation_lane": "draft",
@@ -145,67 +145,7 @@
     },
     {
       "shot_id": "S03_DS008",
-      "timecode": "118.20-133.23",
-      "duration_seconds": 15.03,
-      "scene_id": "S03",
-      "shot_size": "decision closeup",
-      "camera_intent": "static intimate",
-      "visual_action": "continue helping or working openly despite wage loss, ridicule, or exclusion",
-      "dialogue": "Watch what this object remembers.",
-      "sound_design": "music drops before decision",
-      "generation_lane": "mid",
-      "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
-    },
-    {
-      "shot_id": "S03_DS009",
-      "timecode": "133.23-157.79",
-      "duration_seconds": 24.56,
-      "scene_id": "S03",
-      "shot_size": "turn wide",
-      "camera_intent": "reframe",
-      "visual_action": "the antagonist repeats the original spatial punishment and raises the economic/social cost",
-      "dialogue": "",
-      "sound_design": "sound motif shifts",
-      "generation_lane": "hero",
-      "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
-    },
-    {
-      "shot_id": "S03_DS010",
-      "timecode": "157.79-182.35",
-      "duration_seconds": 24.56,
-      "scene_id": "S03",
-      "shot_size": "turn wide",
-      "camera_intent": "reframe",
-      "visual_action": "the antagonist repeats the original spatial punishment and raises the economic/social cost",
-      "dialogue": "",
-      "sound_design": "sound motif shifts",
-      "generation_lane": "hero",
-      "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
-    },
-    {
-      "shot_id": "S03_DS011",
-      "timecode": "182.35-196.64",
+      "timecode": "118.20-132.50",
       "duration_seconds": 14.29,
       "scene_id": "S03",
       "shot_size": "vertical composition",
@@ -224,15 +164,35 @@
       "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
     },
     {
-      "shot_id": "S03_DS012",
-      "timecode": "196.64-215.88",
+      "shot_id": "S03_DS009",
+      "timecode": "132.50-151.74",
+      "duration_seconds": 19.24,
+      "scene_id": "S03",
+      "shot_size": "subtext two-shot",
+      "camera_intent": "slow lateral drift",
+      "visual_action": "a flour miller blocks the reach toward the creature",
+      "dialogue": "Pull it and she'll never trust a hand again.",
+      "sound_design": "keep the creature's fear acoustically close while power remains reverberant and distant",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation; subtext: the objection names the moral cost before anyone can call the bargain practical"
+    },
+    {
+      "shot_id": "S03_DS010",
+      "timecode": "151.74-170.98",
       "duration_seconds": 19.24,
       "scene_id": "S03",
       "shot_size": "subtext two-shot",
       "camera_intent": "slow lateral drift",
       "visual_action": "Love and trust are shown through repeated protection, not declared as feelings.",
-      "dialogue": "If you trust me, don't ask me to become small again.",
-      "sound_design": "music enters only when relational power changes; it must not paper over unresolved tension",
+      "dialogue": "",
+      "sound_design": "keep the creature's fear acoustically close while power remains reverberant and distant",
       "generation_lane": "mid",
       "continuity_dependencies": [
         "protagonist_face_costume",
@@ -244,15 +204,15 @@
       "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
     },
     {
-      "shot_id": "S03_DS013",
-      "timecode": "215.88-235.13",
-      "duration_seconds": 19.24,
+      "shot_id": "S03_DS011",
+      "timecode": "170.98-186.01",
+      "duration_seconds": 15.03,
       "scene_id": "S03",
-      "shot_size": "subtext two-shot",
-      "camera_intent": "slow lateral drift",
-      "visual_action": "Love and trust are shown through repeated protection, not declared as feelings.",
-      "dialogue": "If you trust me, don't ask me to become small again.",
-      "sound_design": "music enters only when relational power changes; it must not paper over unresolved tension",
+      "shot_size": "decision closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "Lio steps into the reach instead of arguing abstractions",
+      "dialogue": "Not while she's shaking.",
+      "sound_design": "music drops before decision",
       "generation_lane": "mid",
       "continuity_dependencies": [
         "protagonist_face_costume",
@@ -261,7 +221,47 @@
         "meaning_carrier_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible; subtext: the protagonist refuses in the present tense because the creature's fear matters more than the argument"
+    },
+    {
+      "shot_id": "S03_DS012",
+      "timecode": "186.01-210.57",
+      "duration_seconds": 24.56,
+      "scene_id": "S03",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "the coal guildmaster and Lio's status-hungry stepbrother repeats the public punishment while treating the creature's suffering as a resource input",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+    },
+    {
+      "shot_id": "S03_DS013",
+      "timecode": "210.57-235.13",
+      "duration_seconds": 24.56,
+      "scene_id": "S03",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "the coal guildmaster and Lio's status-hungry stepbrother repeats the public punishment while treating the creature's suffering as a resource input; alternate coverage: reaction coverage: show witnesses, threshold position, and power shift instead of repeating the same crossing staging",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
     },
     {
       "shot_id": "S03_DS014",
@@ -290,7 +290,7 @@
       "scene_id": "S03",
       "shot_size": "sensory bridge",
       "camera_intent": "insert or detail",
-      "visual_action": "blackened brass oven key visible after the power shift, its meaning altered by: the rules of blackened brass oven key and the protagonist's proof literacy become legible",
+      "visual_action": "the protagonist turns the blackened brass oven key in the oven lock and compares its maker mark with the first heat trace; alternate coverage: object-detail coverage before or after the wider relational-resolution framing",
       "dialogue": "",
       "sound_design": "object/motif texture",
       "generation_lane": "draft",
@@ -310,7 +310,7 @@
       "scene_id": "S03",
       "shot_size": "sensory bridge",
       "camera_intent": "insert or detail",
-      "visual_action": "blackened brass oven key visible after the power shift, its meaning altered by: the rules of blackened brass oven key and the protagonist's proof literacy become legible",
+      "visual_action": "the protagonist turns the blackened brass oven key in the oven lock and compares its maker mark with the first heat trace; alternate coverage: object-detail coverage before or after the wider relational-resolution framing",
       "dialogue": "",
       "sound_design": "object/motif texture",
       "generation_lane": "draft",
@@ -330,9 +330,9 @@
       "scene_id": "S03",
       "shot_size": "final image",
       "camera_intent": "slow pull-back",
-      "visual_action": "blackened brass oven key visible after the power shift, its meaning altered by: the rules of blackened brass oven key and the protagonist's proof literacy become legible",
-      "dialogue": "I refuse to hide the work my hands can prove.",
-      "sound_design": "a restrained tactile sound motif unresolved",
+      "visual_action": "the protagonist turns the blackened brass oven key in the oven lock and compares its maker mark with the first heat trace",
+      "dialogue": "Hold her still. The price is higher while she's breathing.",
+      "sound_design": "blackened brass key clicks, ember breath, wing-feather tremor, and oven stone resonance unresolved",
       "generation_lane": "hero",
       "continuity_dependencies": [
         "protagonist_face_costume",
@@ -341,7 +341,7 @@
         "meaning_carrier_continuity",
         "sound_motif_continuity"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power"
+      "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power; subtext: the antagonist tries to make the creature's body testify against its own personhood"
     }
   ],
   "validation_rules": [
