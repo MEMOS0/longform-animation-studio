@@ -1201,3 +1201,12 @@ def test_future_compound_expansion_guidance_does_not_reclassify_current_release(
     result=evaluate_generated_premise(premise,[])['format_strategy']
     assert result['format_class']=='short_feature'
     assert not any('compound/serial expansion' in warning or 'episodic labeling' in warning for warning in result['warnings'])
+
+
+def test_compound_expansion_personal_safety_does_not_mask_infrastructure_collapse():
+    from studio.compound_expansion import evaluate_compound_expansion_readiness
+    premise={'target_minutes':24,'logline':'a dragon creature in a town where the water system collapses'}
+    arch={'sequences':[{'sequence':1,'turn':'the water infrastructure collapse destroys the community supply'},{'sequence':2,'turn':'the creature gets safely home with the protagonist'}]}
+    result=evaluate_compound_expansion_readiness(premise,arch,[])
+    assert any('infrastructure' in warning or 'community survival' in warning for warning in result['warnings'])
+    assert result['score_0_to_1']<1.0

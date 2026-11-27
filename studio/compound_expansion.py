@@ -43,7 +43,7 @@ def evaluate_compound_expansion_readiness(premise: dict[str, Any], architecture:
     unresolved_system = (
         any(term in combined for term in UNRESOLVED_SYSTEM_TERMS)
         and any(term in combined for term in ["collapse", "destroy", "seize", "ration", "monopoly", "deprivation"])
-        and not any(term in final_text for term in ["rebuild", "repair", "restore", "replacement", "community survives", "shared", "safe"])
+        and not any(term in final_text for term in ["rebuild", "repair", "restore", "replacement", "community survives", "water access", "heat access", "food access", "power restored"])
     )
     ambiguous_tail = any(term in final_text for term in ["ambiguous", "mystery remains", "perhaps", "departure alone", "disappears"])
 
