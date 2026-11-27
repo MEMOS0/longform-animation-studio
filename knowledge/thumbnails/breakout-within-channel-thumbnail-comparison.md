@@ -144,3 +144,12 @@ The top chapter uses red/white high-contrast ensemble conflict with large faces 
 - Hit `iqCNxQ2_jSI`: central child reaches toward viewer between shocked bride and fearful CEO; airborne car/crash in the dark upper-right externalizes mortal jeopardy; large gold text states the paradox precisely (“predicted death” + “real dad”). Strong mobile hierarchy: child gesture → faces → threat insert → title.
 - Early-low `nw4JMSvyWJA`: similar luxury triadic composition but no visible external threat; child smiles and grabs the man's tie, making the image read as social disruption rather than protection/prediction. Smaller white/gold text over detailed formalwear compresses less cleanly on mobile.
 - Hypothesis boundary: no CTR data. The hit's advantage is conceptual legibility—family triangle plus concrete death mechanism—not simply better rendering quality. The comparator is polished and emotionally clear, so this comparison must not be reduced to “low thumbnail equals bad image.”
+
+## Seven Clover — comic deception vs saturated betrayal (added 2026-11-27)
+
+| Video | Role | Views at extraction | Thumbnail mechanism |
+|---|---:|---:|---|
+| `NDZc_6T4h6E` | hit | 398,870 | Bright luxury interior; visibly fake-pregnant heroine with pillow-like belly, cake-covered face, glasses/braids/pastoral basket; laughing CEO and shocked bodyguards. The premise is carried by visual contradiction, not title text. |
+| `5KtRrhhwRzs` | low comparator | 2,915 | Crying working-class woman in apron/phone in a parking garage while a polished couple flirts in a black luxury car. Betrayal and class injury are legible, but the image sits inside a saturated cheating-fiancé category. |
+
+No CTR inference is made. The comparative lesson is not “bright thumbnails always win.” It is narrower: high-concept comic deception can be communicated visually as a unique central game, while polished but generic betrayal imagery may have weaker differentiation even when emotionally legible.

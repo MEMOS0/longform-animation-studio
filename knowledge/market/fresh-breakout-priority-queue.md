@@ -147,3 +147,8 @@ Caution: Piped search is biased and several previous top leads were already anal
 ## Evening Star checkpoint — child-oracle family mystery comparison integrated
 
 `iqCNxQ2_jSI` was already analyzed as a hit; the new same-channel comparison against early-low `nw4JMSvyWJA` is archived in `knowledge/market/evening-star-child-oracle-hit-low-comparison.md`. Important falsification: the early-low comparator has a strong child/DNA/time-travel opening, so low discovery is not weak-opening proof. Observable hit differentiation is coherent power-cost psychology, procedural identity evidence, and corporate/action machinery subordinated to the child-family bond. Existing `child_power_obsolescence` already covers the positive doctrine; no duplicate validator added. Continue scanning newer low-subscriber leads outside child-oracle family mystery, capability-care romance, relational assassin serials, cozy survival, creature protection, and hidden-identity workplace romance.
+
+### Completed — Seven Clover contract/deception comparator
+
+- `NDZc_6T4h6E` hit comparator report now lives in `knowledge/market/seven-clover-contract-deception-hit-low-comparison.md` with low comparator `5KtRrhhwRzs` audiovisual evidence and thumbnail comparison.
+- No new validator was added because PR #6 already handles coerced re-choice/consent-repair/non-retaliation; this pass prevents overfitting by showing the low comparator is not weakly written.

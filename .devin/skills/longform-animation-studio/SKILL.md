@@ -624,3 +624,7 @@ Counterweights: MoistenAI's low-long-tail Hana side story is emotionally strong 
 - Antagonists should attack the child/evidence chain because the child's knowledge threatens hidden crimes.
 - The ending should test whether love remains when usefulness disappears: secure attachment replaces supernatural vigilance.
 - Counterexample discipline: Evening Star's early-low comparator has a strong child/DNA/time-travel opening, so low discovery is not proof of a weak opening or weak writing. Avoid overloading child-oracle stories with corporate exposition that does not threaten the child-family bond.
+
+### Contract/deception romance anti-overfit doctrine (Seven Clover)
+
+Do not treat fake marriage/fake pregnancy as inherently successful or failed. Make deception economically motivated and professionally bounded; keep consent problems explicit; prove identity procedurally; and test whether the powerful partner weaponizes business/family leverage after rejection. The decisive romantic proof is non-retaliation when refused, not wealth or possession. Same-channel counterexample: a low-discovery fake-amnesia revenge film can still have a strong betrayal opening, consent-aware new partner, procedural evidence, and coherent closure. Therefore diagnose packaging/novelty/central-game differentiation separately from screenplay quality.

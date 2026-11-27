@@ -345,3 +345,17 @@ Completed full audiovisual format deep dive for MoistenAI Codename J: hit chapte
 ## Evening Star child-oracle checkpoint — 2026-11-27 late
 
 Same-channel hit/early-low comparison completed in `knowledge/market/evening-star-child-oracle-hit-low-comparison.md`; thumbnails and channel archive integrated. No new validator because existing `child_power_obsolescence` already covers the doctrine. Next: scan newer low-subscriber leads outside covered child-oracle/capability-care/relational-serial/cozy/creature/workplace mechanisms.
+
+## 2026-11-27 — Seven Clover comparator checkpoint
+
+Completed:
+- Downloaded and machine-analyzed Seven Clover hit `NDZc_6T4h6E` and low comparator `5KtRrhhwRzs`; removed full audio files and retained derived evidence.
+- Added `knowledge/market/seven-clover-contract-deception-hit-low-comparison.md`.
+- Added Seven Clover max-resolution thumbnails and metadata index.
+- Updated thumbnail intelligence, skill doctrine, and fresh breakout queue.
+- No duplicate validator was added because PR #6 already hardens coerced re-choice/contract-marriage non-retaliation logic.
+
+Next:
+1. Handle any Devin Review findings on PR #7 immediately.
+2. Resume scan for newly exploded low-subscriber channels outside already-covered mechanisms.
+3. Prioritize fresh candidates that test non-romance or non-contract mechanisms to reduce overfitting.
