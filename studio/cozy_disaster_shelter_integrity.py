@@ -47,9 +47,18 @@ def evaluate_cozy_disaster_shelter_integrity(premise: dict[str, Any], architectu
             unit_text = _text(unit).lower() + "\n"
             labor_positions.extend(cursor + match.start() for match in labor_pattern.finditer(unit_text))
             if first_disaster_position is None:
-                disaster_match = disaster_pattern.search(unit_text)
-                if disaster_match:
+                for disaster_match in disaster_pattern.finditer(unit_text):
+                    newline = chr(10)
+                    sentence_start = max(unit_text.rfind(".", 0, disaster_match.start()), unit_text.rfind("!", 0, disaster_match.start()), unit_text.rfind("?", 0, disaster_match.start()), unit_text.rfind(newline, 0, disaster_match.start())) + 1
+                    sentence_end_candidates = [pos for pos in (unit_text.find(".", disaster_match.end()), unit_text.find("!", disaster_match.end()), unit_text.find("?", disaster_match.end()), unit_text.find(newline, disaster_match.end())) if pos != -1]
+                    sentence_end = min(sentence_end_candidates) if sentence_end_candidates else len(unit_text)
+                    sentence = unit_text[sentence_start:sentence_end]
+                    ordinary_water = re.search(r"pipe|plumbing|tap|faucet|sink|hose", sentence)
+                    disaster_context = re.search(r"storm|flood|typhoon|hurricane|blizzard|sandstorm|wildfire|earthquake|rising water", sentence)
+                    if ordinary_water and not disaster_context:
+                        continue
                     first_disaster_position = cursor + disaster_match.start()
+                    break
             cursor += len(unit_text)
         ordinary_before_disaster = bool(labor_positions and (first_disaster_position is None or min(labor_positions) < first_disaster_position))
     else:
