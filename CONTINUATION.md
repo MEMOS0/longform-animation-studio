@@ -578,3 +578,11 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - Major doctrine: do not copy the minor surface hook; extract online identity error -> immediate safeguarding -> adult accountability -> consent-aware adult romance -> social-anxiety accommodation -> real-self closure.
 - Added `romance_deception_integrity.py` and integrated it into `evaluate_project`: checks immediate boundary, exploitation audit, adult accountability, consent-aware escalation, public-pressure removal, coercion repair, anxiety accommodation, real-self closure.
 - Committed report: `knowledge/market/twistora-online-deception-romance-deep-dive.md`; derived evidence in `evidence/research/rediscovery_analysis/Z50wCIqEa2k/`.
+
+## 2026-11-27 ReelQuest very-long serial-loop checkpoint
+
+- Downloaded/analyzed ReelQuest `U_Tecg95FWA` (2:17:04 horizontal zero-to-hero fantasy, about 278.5k views at collection, roughly 3.1k subscribers).
+- Major doctrine: recurring prophetic trauma -> systemic class exclusion -> courage before power -> costly multi-bloodline progression -> institutional adaptation -> serial circular cliffhanger.
+- Circular flashforward evidence: 00:08 vs 136:59 villain shot is near-identical; ending catches up to opening and stops mid-sentence because this is explicit series/compound packaging, not standalone closure evidence.
+- Added `zero_to_hero_integrity.py` to production evaluation. Committed report `knowledge/market/reelquest-zero-to-hero-serial-loop-deep-dive.md` and evidence under `evidence/research/rediscovery_analysis/U_Tecg95FWA/`.
+- Next priority queue candidates: `ylN26llRtmw` (40m sci-fi pregnancy/alpha alien), `oHKc_rXrxm8` (50m alien/Gladiator pregnancy), `Gx7nwqNr9YY` (100m werewolf surrogate). Compare serial/standalone closure carefully.
