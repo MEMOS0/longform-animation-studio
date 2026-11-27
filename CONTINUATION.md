@@ -649,3 +649,23 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - Evening Star `iqCNxQ2_jSI` fully analyzed as a non-creature contemporary counterexample: 65:57 vertical child-precognition/hidden-family melodrama, about 340.5k views on a ~2.67k-subscriber channel. Derived evidence committed under `evidence/research/rediscovery_analysis/iqCNxQ2_jSI/`; report `knowledge/market/evening-star-chloe-precognition-family-power-deep-dive.md` committed at `6638327`.
 - Major new doctrine: child power is a wound adaptation/surrogate for missing safety; the ending should remove/destabilize it and prove ordinary belonging (“I don't love you because you can save me”; “Now I know you will. That's what home is.”). Use procedural evidence chains and pre-proof protector care.
 - Next high-priority work: implement `child_power_obsolescence_integrity` or equivalent production validator; finish/check `6pbhGtHRTwA` download and analyze as long-form counterexample; refresh low-subscriber non-creature scan; continue PR #4 review triage immediately when findings arrive.
+
+## Context rotation checkpoint — 2026-11-27 Lost Kind evidence ready
+
+Do not stop the overall research. Continue directly from this checkpoint.
+
+Completed just before rotation:
+- Devin Review findings on `388d8eb` were triaged and fixed in `87ccf23` (`Refine child-power and guardian evidence order`); a new review is running on `87ccf23`.
+- Tests were 206 passed at `87ccf23`.
+- VeylornStudios `6pbhGtHRTwA` (*THE LOST KIND*) full 108m media analysis completed locally.
+- Derived artifacts now exist under `evidence/research/rediscovery_analysis/6pbhGtHRTwA/`: media summary, timeline, seconds metrics, 22 contact sheets, selected frames.
+- Key observed craft evidence: immediate monster threat at 00:00-00:45; underground creature society/feeding/care at 02:00-04:45; peaceful flying creatures/home valley around 20:15-21:15; military confrontation and wounded creature around 22:30-24:45; procedural political/city infiltration 40:00-44:45 and 60:00-64:45; human/creature negotiation + rescue preparation around 80:00-84:45; golden creature transformation around 97:45-98:15; extraction apparatus/source confrontation around 98:30-99:45; villain defeat 105:00-106:00; restored bright creature homeland and human-creature mutual recognition 106:30-107:45.
+- Audiovisual metrics: 108.0 min, 196 shots, median shot 9s, mean 33.1s because slow composed long takes dominate; mean brightness 0.153; 1673 dialogue cues; first conflict line at 54.1s, first power/identity language 109.5s, first explicit care language about 11:28.
+
+Immediate next steps:
+1. Commit all `6pbhGtHRTwA` derived evidence artifacts if not yet committed.
+2. Write `knowledge/market/veylorn-lost-kind-epic-dark-fantasy-deep-dive.md` with timestamped evidence and careful causality labels.
+3. Extract doctrine into production validators: creature-society operational care, extraction economy, procedural evidence/mystery, power-use exposure cost, morally costly source destruction, community consequence/peace-as-choice.
+4. Fix the minor regex/control-character wart in `studio/child_power_obsolescence.py` first-person investigative regex if still present.
+5. Continue fresh low-subscriber/non-creature breakout scan.
+6. Handle any new Devin Review findings immediately when they arrive.
