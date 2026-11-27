@@ -139,3 +139,7 @@ Caution: Piped search is biased and several previous top leads were already anal
 ## VistaVerse capability-inversion checkpoint
 
 `Oxfe8p-NkK0` versus `sEMJhfFe9pc` completed in `knowledge/market/vistaverse-capability-inversion-care-hit-low-comparison.md`. The hit compresses capability-cost → protection employment → agency-restoring care → family/estate accountability → job-ending romantic re-choice into 64 minutes. The low comparator has strong disability-agency dialogue and market/labor texture but dilutes the central care engine across inheritance, impostor identity, corporate fraud, murder, police, and state-protection machinery for most of its 101 minutes. Continue scanning newer low-subscriber non-covered leads outside capability-inversion care romance.
+
+## MoistenAI relational-serial checkpoint
+
+`HT2ygV5_zzo` initially looked low by absolute views but was less than a day old and had the fastest early velocity in the channel comparison. Completed full format deep dive in `knowledge/market/moisten-codename-j-relational-serial-format-deep-dive.md` across the hit S3C3 chapter, hit S1 compilation, low-long-tail Hana side story, and new S2 compilation. Key doctrine: serialized action needs a durable intimate/civilian anchor, antagonists who weaponize attachment, personal cost inside operational exposition, and active chapter-ending turns. Continue scanning newer low-subscriber leads outside already-covered capability-care romance and relational assassin serials.

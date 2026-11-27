@@ -132,3 +132,9 @@ Evidence scope: maximum-resolution archived thumbnails plus metadata; no CTR/ret
 Archived hit/low originals: `Oxfe8p-NkK0.maxresdefault.jpg`, `sEMJhfFe9pc.maxresdefault.jpg` under `data/raw/thumbnails/vistaverse_drama/vistaverse_drama/`.
 
 Both thumbnails use the same palace/maids/matriarch/woman-carries-man machine. The hit foregrounds glamour, direct female power, and a clean bodyguard title; the low foregrounds floral pajamas, piglet, slapstick wealth collision, and a prominent blurred wheelchair. The low design is more specific but denser and more farcical. Hypothesis only: in this channel, aspirational female capability plus simple power-role clarity may read faster than maximal quirky specificity. This is not CTR proof. Use as a counterweight against any simplistic “more unique objects always win” rule.
+
+## MoistenAI Codename J serial-format comparison
+
+Archived originals: `HT2ygV5_zzo`, `GoHBerLLesI`, `9VmlQyhxWUo`, and `RPtG2lLlBXI` under `data/raw/thumbnails/moisten_ai/moistenai/`.
+
+The top chapter uses red/white high-contrast ensemble conflict with large faces and explicit season/chapter labeling. The successful Season 1 compilation instead uses a quiet sunset bench two-shot because the true product is the Jaei-Hana bond. The low-long-tail Hana side story uses an even quieter beach two-shot with clean negative space but no threat/mystery cue; it accurately represents the emotional story but may under-sell the protection/conspiracy hook. The Season 2 compilation uses gun-forward black/white ensemble scale but foregrounds generic action more than the sibling-care conflict. Hypothesis only: relational two-shots work when franchise meaning is already established; side stories need at least one visible threat or mystery cue, while chapters benefit from immediate ensemble-conflict legibility. No CTR data is available.

@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:03.000" end="00:00:06.250" style="s2">New YorK, USA - 2029</p>
+<p begin="00:00:40.208" end="00:00:41.542" style="s2">Mission complete?</p>
+<p begin="00:01:01.625" end="00:01:04.458" style="s2">I’ve got your back. Always.</p>
+<p begin="00:01:11.542" end="00:01:16.167" style="s2">Chapter 1</p>
+<p begin="00:01:11.542" end="00:01:16.167" style="s2">Asha Volkova</p>
+<p begin="00:01:16.458" end="00:01:19.667" style="s2">NORTHUMBERLAND, ENGLAND - 2026</p>
+<p begin="00:01:26.333" end="00:01:28.500" style="s2"> You&#39;re coming home after all this time.</p>
+<p begin="00:01:29.792" end="00:01:31.958" style="s2">Couldn&#39;t you at least look pleased?</p>
+<p begin="00:01:33.250" end="00:01:37.083" style="s2">How long are you going to sulk like a child who&#39;s lost her toy?</p>
+<p begin="00:01:41.625" end="00:01:44.583" style="s2">Hana wasn&#39;t a toy.</p>
+<p begin="00:01:46.875" end="00:01:50.917" style="s2">You don&#39;t actually think of that girl as family, do you?</p>
+<p begin="00:01:54.833" end="00:01:58.250" style="s2">Give up this fantasy of an ordinary life.</p>
+<p begin="00:01:58.250" end="00:02:00.250" style="s2">How long will you remain a child?</p>
+<p begin="00:02:01.125" end="00:02:04.000" style="s2">Keep the promise you made me.</p>
+<p begin="00:02:14.458" end="00:02:15.750" style="s2">Welcome back, my niece.</p>
+<p begin="00:02:15.750" end="00:02:17.417" style="s2">Done with your teenage rebellion?</p>
+<p begin="00:02:20.333" end="00:02:22.625" style="s2">Still not one for pleasantries, I see.</p>
+<p begin="00:02:25.250" end="00:02:26.667" style="s2">Where are we going?</p>
+<p begin="00:02:29.875" end="00:02:31.958" style="s2">I want to show you something.</p>
+<p begin="00:02:31.958" end="00:02:33.083" style="s2">Come with me.</p>
+<p begin="00:02:49.667" end="00:02:50.625" style="s2">What do you think?</p>
+<p begin="00:02:50.625" end="00:02:52.458" style="s2">Your new little sister.</p>
+<p begin="00:02:54.542" end="00:02:56.542" style="s2">Did you have fun on your trip?</p>
+<p begin="00:02:56.958" end="00:02:57.875" style="s2">Nice to meet you.</p>
+<p begin="00:02:57.875" end="00:03:00.250" style="s2">I finally get to meet the sister I’ve heard so much about.</p>
+<p begin="00:03:03.708" end="00:03:06.375" style="s2">Why the hell is she here?</p>
+<p begin="00:03:06.375" end="00:03:07.458" style="s2">Relax.</p>
+<p begin="00:03:07.458" end="00:03:10.542" style="s2">She doesn’t remember a thing from that day.</p>
+<p begin="00:03:10.958" end="00:03:12.792" style="s2">You’re cruel. </p>
+<p begin="00:03:12.792" end="00:03:14.792" style="s2">Truly.</p>
+<p begin="00:03:16.833" end="00:03:20.708" style="s2">REPUBLIC OF KARELIA, RUSSIA - 2019</p>
+<p begin="00:03:34.333" end="00:03:35.500" style="s2">Hello.</p>
+<p begin="00:03:37.875" end="00:03:39.042" style="s2">Who are you?</p>
+<p begin="00:03:39.833" end="00:03:41.708" style="s2">An old friend of your father’s.</p>
+<p begin="00:03:45.333" end="00:03:48.167" style="s2">I&#39;ll be taking Asha Volkova with me today.</p>
+<p begin="00:03:50.333" end="00:03:52.542" style="s2">Even if you were a friend of her father&#39;s,</p>
+<p begin="00:03:52.542" end="00:03:55.625" style="s2">I can&#39;t hand her over without the proper legal process.</p>
+<p begin="00:04:12.292" end="00:04:14.083" style="s2">This isn&#39;t about the money.</p>
+<p begin="00:04:14.083" end="00:04:17.458" style="s2">If her aunt and uncle find out, I&#39;ll be the one held responsible.</p>
+<p begin="00:04:18.000" end="00:04:19.458" style="s2">Then tell them this.</p>
+<p begin="00:04:20.250" end="00:04:22.167" style="s2">Baekya took her.</p>
+<p begin="00:04:25.167" end="00:04:26.625" style="s2">Understood.</p>
+<p begin="00:04:30.917" end="00:04:33.792" style="s2">How long are you planning to keep watching Asha?</p>
+<p begin="00:04:35.583" end="00:04:38.000" style="s2">Dangerous things are either removed or</p>
+<p begin="00:04:38.000" end="00:04:39.250" style="s2">kept close.</p>
+<p begin="00:04:40.292" end="00:04:41.833" style="s2">I chose to keep her close.</p>
+<p begin="00:04:41.833" end="00:04:43.458" style="s2">The same way I chose you.</p>
+<p begin="00:04:46.792" end="00:04:49.000" style="s2">I still can’t believe this is really happening!</p>
+<p begin="00:04:50.000" end="00:04:53.375" style="s2">A cheerful little one really does liven up the mood, doesn&#39;t it?</p>
+<p begin="00:04:55.333" end="00:04:57.500" style="s2">Can I call you unnie? Please?</p>
+<p begin="00:04:58.167" end="00:05:00.333" style="s2">Wouldn’t you agree, my eldest nephew?</p>
+<p begin="00:05:18.958" end="00:05:21.458" style="s2">If you were going to run, you should&#39;ve stayed gone.</p>
+<p begin="00:05:24.542" end="00:05:27.167" style="s2">I&#39;m glad you&#39;re alive.</p>
+<p begin="00:05:27.167" end="00:05:29.875" style="s2">That&#39;s the first thing you say to me after six years?</p>
+<p begin="00:05:29.875" end="00:05:31.167" style="s2">You really haven&#39;t changed.</p>
+<p begin="00:05:35.750" end="00:05:38.458" style="s2">That girl is a lot like you were at her age.</p>
+<p begin="00:05:40.208" end="00:05:42.167" style="s2">I never smiled like that here.</p>
+<p begin="00:05:43.583" end="00:05:45.708" style="s2">Not the smile.</p>
+<p begin="00:05:45.708" end="00:05:48.458" style="s2">The natural talent...</p>
+<p begin="00:05:48.458" end="00:05:49.958" style="s2">and the cruelty.</p>
+<p begin="00:05:58.083" end="00:06:02.333" style="s2">You took in the daughter of the man you loved and raised her as a potential successor.</p>
+<p begin="00:06:03.958" end="00:06:10.750" style="s2">Then you make the daughter of the colleague Jaei killed into Jaei&#39;s little sister.</p>
+<p begin="00:06:12.417" end="00:06:16.875" style="s2">Yura, just how much crueler are you planning to get?</p>
+<p begin="00:06:16.875" end="00:06:20.250" style="s2">Sometimes I think you take after Father more than I do.</p>
+<p begin="00:06:20.250" end="00:06:21.625" style="s2">And I&#39;m his own son.</p>
+<p begin="00:06:26.292" end="00:06:29.250" style="s2">Stay out of my affairs and see to your own.</p>
+<p begin="00:06:30.208" end="00:06:34.375" style="s2"> All the while, you keep your own son out there,</p>
+<p begin="00:06:34.375" end="00:06:36.958" style="s2">putting him through trial after trial.</p>
+<p begin="00:06:41.167" end="00:06:43.000" style="s2">Will you stop running your mouth?</p>
+<p begin="00:06:43.000" end="00:06:44.625" style="s2">Easy.</p>
+<p begin="00:06:44.625" end="00:06:48.083" style="s2">Your little brother&#39;s just being honest after a few drinks.</p>
+<p begin="00:06:50.583" end="00:06:51.875" style="s2">All right, I&#39;m off. </p>
+<p begin="00:06:51.875" end="00:06:53.750" style="s2">If you need anything, you know where to find me.</p>
+<p begin="00:06:54.958" end="00:06:55.708" style="s2">Oh,</p>
+<p begin="00:06:55.708" end="00:06:57.250" style="s2">And do something about that temper.</p>
+<p begin="00:07:08.625" end="00:07:12.417" style="s2">New YorK, USA - 2029</p>
+<p begin="00:07:46.042" end="00:07:49.250" style="s2">Sis, you know I saved you again today, right?</p>
+<p begin="00:07:49.250" end="00:07:51.792" style="s2">Come on, admit it. You can&#39;t do this without me.</p>
+<p begin="00:07:52.875" end="00:07:55.625" style="s2">We nailed the mission.</p>
+<p begin="00:07:55.625" end="00:07:57.625" style="s2"> Can&#39;t we go somewhere fun for once?</p>
+<p begin="00:08:00.750" end="00:08:02.750" style="s2">Hey! I was having fun!</p>
+<p begin="00:08:03.417" end="00:08:05.000" style="s2">Can we just ride in silence?</p>
+<p begin="00:08:06.917" end="00:08:08.333" style="s2">Ugh. You&#39;re always so serious.</p>
+<p begin="00:08:12.833" end="00:08:15.125" style="s2">Does killing people really not bother you at all?</p>
+<p begin="00:08:18.958" end="00:08:20.292" style="s2">Sis,</p>
+<p begin="00:08:20.292" end="00:08:22.083" style="s2">what&#39;s the big deal?</p>
+<p begin="00:08:22.083" end="00:08:24.250" style="s2">It&#39;s just a job.</p>
+<p begin="00:08:24.250" end="00:08:26.417" style="s2">Mom says we only kill people who deserve it.</p>
+<p begin="00:08:28.542" end="00:08:30.333" style="s2">You really think she&#39;s your mother?</p>
+<p begin="00:08:34.667" end="00:08:36.625" style="s2">Why would you say that?</p>
+<p begin="00:08:36.625" end="00:08:39.167" style="s2"> We&#39;re family. All of us.</p>
+<p begin="00:08:39.167" end="00:08:41.667" style="s2">Don&#39;t tell me you still don&#39;t see me as your little sister.</p>
+<p begin="00:08:44.792" end="00:08:47.333" style="s2">What about you, then?</p>
+<p begin="00:08:47.333" end="00:08:49.792" style="s2">Did you feel guilty every time you killed someone?</p>
+<p begin="00:08:53.708" end="00:08:54.792" style="s2">Every time?</p>
+<p begin="00:09:03.250" end="00:09:04.458" style="s2">Sis...</p>
+<p begin="00:09:04.458" end="00:09:06.083" style="s2"> please.</p>
+<p begin="00:09:06.083" end="00:09:08.083" style="s2">Can&#39;t you just like me, even a little?</p>
+<p begin="00:09:19.083" end="00:09:24.542" style="s2">Chapter 2</p>
+<p begin="00:09:19.917" end="00:09:24.542" style="s2">SHACKLES</p>
+<p begin="00:10:22.125" end="00:10:24.458" style="s2">J. Cleanup confirms everything&#39;s been handled.</p>
+<p begin="00:10:24.458" end="00:10:25.500" style="s2">Good work.</p>
+<p begin="00:10:26.417" end="00:10:28.125" style="s2">Are we heading back to base now?</p>
+<p begin="00:10:28.708" end="00:10:29.792" style="s2">No.</p>
+<p begin="00:10:29.792" end="00:10:31.750" style="s2">Something else came up.</p>
+<p begin="00:10:31.750" end="00:10:34.958" style="s2">Go to Cuba tomorrow and take care of it before you come back.</p>
+<p begin="00:10:34.958" end="00:10:37.458" style="s2"> I&#39;ll send you the target file as soon as you land in Havana.</p>
+<p begin="00:10:38.917" end="00:10:40.375" style="s2">It&#39;s been two months.</p>
+<p begin="00:10:40.375" end="00:10:43.792" style="s2">How long are we supposed to keep jumping from one mission to the next without a break?</p>
+<p begin="00:10:45.833" end="00:10:48.167" style="s2">I know you&#39;re exhausted.</p>
+<p begin="00:10:48.167" end="00:10:49.750" style="s2"> But there&#39;s too much to do,</p>
+<p begin="00:10:49.750" end="00:10:51.500" style="s2"> and no one else I can trust.</p>
+<p begin="00:10:53.708" end="00:10:54.667" style="s2">Understood.</p>
+<p begin="00:10:59.333" end="00:11:00.542" style="s2">Why?</p>
+<p begin="00:11:00.542" end="00:11:02.292" style="s2"> Something wrong?</p>
+<p begin="00:11:02.292" end="00:11:03.833" style="s2">Did Asha cause trouble again?</p>
+<p begin="00:11:04.625" end="00:11:05.833" style="s2">No.</p>
+<p begin="00:11:11.375" end="00:11:14.417" style="s2">How much longer am I supposed to keep taking Asha with me?</p>
+<p begin="00:11:15.417" end="00:11:16.542" style="s2">Why?</p>
+<p begin="00:11:16.542" end="00:11:18.667" style="s2">Is she getting on your nerves?</p>
+<p begin="00:11:18.667" end="00:11:20.500" style="s2">You&#39;re the one who chose to take her with you.</p>
+<p begin="00:11:24.458" end="00:11:26.792" style="s2">That was...</p>
+<p begin="00:11:28.458" end="00:11:31.667" style="s2">And you call yourself her big sister.</p>
+<p begin="00:11:31.667" end="00:11:34.167" style="s2">You can&#39;t even handle one little sister?</p>
+<p begin="00:11:40.833" end="00:11:42.250" style="s2">She&#39;s not my sister.</p>
+<p begin="00:11:47.042" end="00:11:49.000" style="s2">J.</p>
+<p begin="00:11:49.000" end="00:11:51.083" style="s2">Don&#39;t get confused.</p>
+<p begin="00:11:51.083" end="00:11:54.125" style="s2">You chose this.</p>
+<p begin="00:11:54.125" end="00:11:56.583" style="s2">I told you you were free to go back to Korea.</p>
+<p begin="00:11:57.625" end="00:12:01.917" style="s2">You made that promise before I even knew Asha existed!</p>
+<p begin="00:12:02.625" end="00:12:05.333" style="s2">I never forced you to stay.</p>
+<p begin="00:12:05.333" end="00:12:07.625" style="s2"> Leave now if you want.</p>
+<p begin="00:12:07.625" end="00:12:10.708" style="s2">I have Asha. She&#39;s all I need.</p>
+<p begin="00:13:00.500" end="00:13:01.875" style="s2">Oh, yes.</p>
+<p begin="00:13:01.875" end="00:13:03.792" style="s2">Now this is what I call a perk.</p>
+<p begin="00:15:17.542" end="00:15:19.750" style="s2">You&#39;re pretty cute, you know that?</p>
+<p begin="00:15:36.958" end="00:15:39.625" style="s2">What the hell? Are you crazy?</p>
+<p begin="00:15:45.625" end="00:15:47.333" style="s2">Are you out of your mind? </p>
+<p begin="00:15:47.333" end="00:15:49.542" style="s2">You think this is funny?</p>
+<p begin="00:16:02.500" end="00:16:03.875" style="s2">Why are you doing this to me…?</p>
+<p begin="00:16:03.875" end="00:16:06.042" style="s2">Please. I&#39;m sorry. Just let me go.</p>
+<p begin="00:16:25.750" end="00:16:27.500" style="s2">Hey, get up.</p>
+<p begin="00:16:38.708" end="00:16:39.292" style="s2">What?</p>
+<p begin="00:16:40.833" end="00:16:41.625" style="s2">Sis...</p>
+<p begin="00:16:41.958" end="00:16:42.917" style="s2">What happened?</p>
+<p begin="00:16:42.917" end="00:16:44.375" style="s2">When did you sneak out?</p>
+<p begin="00:16:44.583" end="00:16:46.958" style="s2">Sis... I messed up.</p>
+<p begin="00:16:46.958" end="00:16:48.625" style="s2">Can you come clean this up for me?</p>
+<p begin="00:16:51.333" end="00:16:52.667" style="s2">Where are you?</p>
+<p begin="00:16:56.125" end="00:16:57.292" style="s2">Where am I again...?</p>
+<p begin="00:17:00.500" end="00:17:01.792" style="s2">I don&#39;t know.</p>
+<p begin="00:19:27.500" end="00:19:28.958" style="s2">The game’s blocked.</p>
+<p begin="00:19:28.958" end="00:19:32.000" style="s2">HABANA, CUBA - 2029</p>
+<p begin="00:19:49.000" end="00:19:51.583" style="s2">Welcome to Havana, ladies.</p>
+<p begin="00:19:53.667" end="00:19:54.625" style="s2">You&#39;re still alive.</p>
+<p begin="00:19:56.125" end="00:19:57.458" style="s2">Good to see you too, J.</p>
+<p begin="00:20:00.375" end="00:20:02.625" style="s2">Is this a cover, or did Cuba do this to you?</p>
+<p begin="00:20:03.792" end="00:20:05.417" style="s2">How&#39;ve you been, Asha? </p>
+<p begin="00:20:05.417" end="00:20:07.958" style="s2">Three months in Cuba and I&#39;m practically a local.</p>
+<p begin="00:20:15.792" end="00:20:17.542" style="s2">Your golden carriage awaits, miss.</p>
+<p begin="00:20:18.583" end="00:20:20.083" style="s2">What is this, an antique? </p>
+<p begin="00:20:20.083" end="00:20:22.000" style="s2">I&#39;ve never been in one of these.</p>
+<p begin="00:20:24.333" end="00:20:25.458" style="s2">No roof, either.</p>
+<p begin="00:20:25.458" end="00:20:26.750" style="s2">I&#39;m going to fry.</p>
+<p begin="00:20:34.417" end="00:20:36.292" style="s2">In Cuba, you don&#39;t fight the sun.</p>
+<p begin="00:20:36.292" end="00:20:37.417" style="s2">You learn to live with it.</p>
+<p begin="00:20:41.458" end="00:20:46.917" style="s2">Chapter 3</p>
+<p begin="00:20:42.292" end="00:20:46.917" style="s2">TRANCADO</p>
+<p begin="00:20:53.000" end="00:20:54.042" style="s2">It&#39;s dangerous.</p>
+<p begin="00:20:54.042" end="00:20:54.708" style="s2">Sit down.</p>
+<p begin="00:20:55.292" end="00:20:56.500" style="s2">You worry too much.</p>
+<p begin="00:20:56.917" end="00:20:57.875" style="s2">I said, sit!</p>
+<p begin="00:21:02.417" end="00:21:04.583" style="s2">I heard you two worked well together.</p>
+<p begin="00:21:04.583" end="00:21:06.625" style="s2">Nobody mentioned J had learned patience.</p>
+<p begin="00:21:07.417" end="00:21:08.625" style="s2">She still needs work.</p>
+<p begin="00:21:11.417" end="00:21:12.625" style="s2">Eyes on the road? </p>
+<p begin="00:21:12.625" end="00:21:13.292" style="s2">Got it.</p>
+<p begin="00:21:22.417" end="00:21:23.792" style="s2">A mojito, please.</p>
+<p begin="00:21:24.875" end="00:21:25.792" style="s2">No.</p>
+<p begin="00:21:25.792" end="00:21:27.500" style="s2">Two mango juices, please.</p>
+<p begin="00:21:28.708" end="00:21:30.875" style="s2">Sis, I&#39;m an adult now.</p>
+<p begin="00:21:32.417" end="00:21:34.083" style="s2">You drank enough last night.</p>
+<p begin="00:21:35.833" end="00:21:37.167" style="s2">Ugh... </p>
+<p begin="00:21:37.167" end="00:21:39.000" style="s2">I need a drink to kill this hangover.</p>
+<p begin="00:21:42.917" end="00:21:44.250" style="s2">Make that three, please.</p>
+<p begin="00:21:54.500" end="00:21:56.208" style="s2">Things are bad here.</p>
+<p begin="00:21:56.208" end="00:21:59.833" style="s2">The power&#39;s out more than half the day, and fuel is even worse.</p>
+<p begin="00:22:02.208" end="00:22:04.417" style="s2">The tourist districts still look fine,</p>
+<p begin="00:22:05.583" end="00:22:07.208" style="s2">but two blocks away,</p>
+<p begin="00:22:07.208" end="00:22:10.333" style="s2"> the whole city feels like it&#39;s hanging over a cliff.</p>
+<p begin="00:22:13.167" end="00:22:14.167" style="s2">And the client?</p>
+<p begin="00:22:14.583" end="00:22:17.375" style="s2">GAESA&#39;s new executive chairman.</p>
+<p begin="00:22:17.375" end="00:22:19.250" style="s2">Young, careful,</p>
+<p begin="00:22:19.250" end="00:22:23.000" style="s2">and surrounded by people who&#39;d love to see him disappear.</p>
+<p begin="00:22:51.125" end="00:22:52.208" style="s2">Is she always like this?</p>
+<p begin="00:22:57.583" end="00:22:59.250" style="s2">You look tired, J.</p>
+<p begin="00:23:03.542" end="00:23:06.042" style="s2">Yes, they&#39;re here. Understood.</p>
+<p begin="00:23:07.667" end="00:23:08.750" style="s2">Your meeting&#39;s set.</p>
+<p begin="00:23:08.750" end="00:23:10.208" style="s2">Inside the Capitolio.</p>
+<p begin="00:23:10.208" end="00:23:11.083" style="s2">They want you alone.</p>
+<p begin="00:23:13.667" end="00:23:14.708" style="s2">Keep an eye on her for me.</p>
+<p begin="00:23:15.292" end="00:23:16.500" style="s2">Don&#39;t worry.</p>
+<p begin="00:23:16.500" end="00:23:18.167" style="s2"> Havana&#39;s still a pretty safe city.</p>
+<p begin="00:23:25.792" end="00:23:27.125" style="s2">They&#39;re here.</p>
+<p begin="00:23:27.125" end="00:23:28.875" style="s2">Baekya&#39;s team arrived with Asha Volkova.</p>
+<p begin="00:23:31.417" end="00:23:33.292" style="s2">Do not approach Asha yet.</p>
+<p begin="00:23:33.292" end="00:23:34.292" style="s2"> Follow them.</p>
+<p begin="00:23:34.292" end="00:23:35.125" style="s2"> Nothing more.</p>
+<p begin="00:23:58.458" end="00:24:02.083" style="s2">I was told Baekya&#39;s best operative was young and</p>
+<p begin="00:24:02.083" end="00:24:04.167" style="s2">not exactly easy to get close to.</p>
+<p begin="00:24:05.000" end="00:24:07.250" style="s2">You didn&#39;t bring me here to make friends.</p>
+<p begin="00:24:13.125" end="00:24:16.792" style="s2">This chamber once decided Cuba&#39;s future.</p>
+<p begin="00:24:16.792" end="00:24:20.042" style="s2">Now it mostly receives tourists.</p>
+<p begin="00:24:20.042" end="00:24:22.167" style="s2">These days, not even they can fill it.</p>
+<p begin="00:24:24.333" end="00:24:27.708" style="s2">Cuba was born out of a refusal to be controlled.</p>
+<p begin="00:24:28.333" end="00:24:31.458" style="s2">Then, in the name of protecting that freedom,</p>
+<p begin="00:24:31.458" end="00:24:34.500" style="s2">we built a state that controlled everything.</p>
+<p begin="00:24:37.167" end="00:24:42.500" style="s2">For sixty years, we survived by refusing every hand held out to us.</p>
+<p begin="00:24:43.667" end="00:24:49.417" style="s2">Now every hand that reaches for us comes with fingers around our throat.</p>
+<p begin="00:24:50.167" end="00:24:51.875" style="s2">And you chose Washington&#39;s.</p>
+<p begin="00:24:54.375" end="00:24:58.292" style="s2">I chose the side that could still sign an agreement.</p>
+<p begin="00:24:58.292" end="00:25:00.958" style="s2">We can&#39;t afford to remain isolated.</p>
+<p begin="00:25:04.167" end="00:25:07.375" style="s2">Sanctions emptied our shelves.</p>
+<p begin="00:25:07.375" end="00:25:11.292" style="s2">The men in power emptied what was left.</p>
+<p begin="00:25:11.292" end="00:25:16.292" style="s2">GAESA still controls the ports, fuel, and tourism</p>
+<p begin="00:25:16.292" end="00:25:19.292" style="s2">the few arteries that bring hard currency into this country.</p>
+<p begin="00:25:25.042" end="00:25:30.542" style="s2">Washington is offering limited dollar clearing, fuel credit, and private capital.</p>
+<p begin="00:25:31.292" end="00:25:36.208" style="s2">In return, they want access and a government willing to sign quietly.</p>
+<p begin="00:25:37.750" end="00:25:41.125" style="s2">The public knows none of this.</p>
+<p begin="00:25:41.125" end="00:25:45.625" style="s2">We can keep up the appearance of defending the revolution&#39;s pride,</p>
+<p begin="00:25:45.625" end="00:25:48.292" style="s2">or we can keep the lights on.</p>
+<p begin="00:25:51.125" end="00:25:54.250" style="s2">I no longer have the luxury of pretending they&#39;re the same thing.</p>
+<p begin="00:25:55.458" end="00:25:58.583" style="s2">Let&#39;s get to the target.</p>
+<p begin="00:26:02.708" end="00:26:04.792" style="s2">I&#39;ve said more than I needed to.</p>
+<p begin="00:26:06.583" end="00:26:11.167" style="s2">Russian money has been reaching officers who believe I sold the country.</p>
+<p begin="00:26:11.625" end="00:26:16.708" style="s2">Training, weapons, secure communications.</p>
+<p begin="00:26:16.708" end="00:26:20.958" style="s2">They&#39;re building a force inside our own military before the agreement is signed.</p>
+<p begin="00:26:21.875" end="00:26:23.458" style="s2">Russian military?</p>
+<p begin="00:26:23.917" end="00:26:25.875" style="s2">Not on paper.</p>
+<p begin="00:26:25.875" end="00:26:28.958" style="s2">It&#39;s a mercenary outfit called Severny Kontur.</p>
+<p begin="00:26:28.958" end="00:26:33.083" style="s2">Moscow funds and supports it from a position of plausible deniability.</p>
+<p begin="00:26:38.333" end="00:26:40.792" style="s2">The man behind it is in that file.</p>
+<p begin="00:26:45.208" end="00:26:47.042" style="s2">Mikhail Volkov</p>
+<p begin="00:26:54.917" end="00:26:56.292" style="s2">You know him?</p>
+<p begin="00:26:57.750" end="00:26:59.042" style="s2">No.</p>
+<p begin="00:27:01.625" end="00:27:06.458" style="s2">He&#39;s operating from an abandoned agricultural complex upriver from the Canímar.</p>
+<p begin="00:27:06.458" end="00:27:11.083" style="s2">The old civil-defense facility beneath it is now an armory and communications center.</p>
+<p begin="00:27:12.042" end="00:27:13.583" style="s2">You want him eliminated?</p>
+<p begin="00:27:13.917" end="00:27:15.458" style="s2">No.</p>
+<p begin="00:27:15.458" end="00:27:16.875" style="s2">He has to be taken alive.</p>
+<p begin="00:27:17.708" end="00:27:21.958" style="s2">Volkov holds the names of the Cuban officers, the Russian handlers,</p>
+<p begin="00:27:21.958" end="00:27:24.500" style="s2">the accounts and the timetable. </p>
+<p begin="00:27:25.125" end="00:27:27.792" style="s2">Dead, he gives us a martyr.</p>
+<p begin="00:27:27.792" end="00:27:30.542" style="s2">Alive, he gives us the network</p>
+<p begin="00:27:32.333" end="00:27:33.792" style="s2">Where does he go?</p>
+<p begin="00:27:34.250" end="00:27:37.000" style="s2">Straight into American custody.</p>
+<p begin="00:27:37.000" end="00:27:39.875" style="s2">No direct involvement from the Cuban military,</p>
+<p begin="00:27:39.875" end="00:27:41.958" style="s2">no public operation,</p>
+<p begin="00:27:41.958" end="00:27:43.708" style="s2">no body.</p>
+<p begin="00:27:43.708" end="00:27:46.667" style="s2">Officially, none of us ever met in this room.</p>
+<p begin="00:27:48.583" end="00:27:50.875" style="s2">You want a man taken from Cuban soil</p>
+<p begin="00:27:50.875" end="00:27:55.958" style="s2">and handed to the United States without Cuba ever admitting it happened.</p>
+<p begin="00:27:56.917" end="00:27:58.417" style="s2">I want him gone</p>
+<p begin="00:27:58.417" end="00:28:00.667" style="s2">before this island becomes someone else&#39;s battlefield.</p>
+<p begin="00:28:02.750" end="00:28:04.708" style="s2">If this becomes public,</p>
+<p begin="00:28:04.708" end="00:28:08.333" style="s2">Washington denies the agreement, Moscow denies the mercenaries,</p>
+<p begin="00:28:08.333" end="00:28:11.333" style="s2">and Havana denounces both while the country burns.</p>
+<p begin="00:28:14.167" end="00:28:18.708" style="s2">I need a result that leaves everyone free to lie.</p>
+<p begin="00:28:24.000" end="00:28:25.583" style="s2">Understood.</p>
+<p begin="00:28:25.583" end="00:28:27.917" style="s2">I&#39;ll report back when it&#39;s done.</p>
+<p begin="00:28:45.583" end="00:28:47.167" style="s2">So who are we killing this time?</p>
+<p begin="00:28:47.792" end="00:28:49.333" style="s2">We&#39;re not killing anyone.</p>
+<p begin="00:28:49.333" end="00:28:51.042" style="s2">We take the target alive.</p>
+<p begin="00:28:51.417" end="00:28:52.250" style="s2">Alive?</p>
+<p begin="00:28:52.250" end="00:28:53.708" style="s2">Ugh. Boring.</p>
+<p begin="00:29:04.375" end="00:29:07.167" style="s2">VARADERO, CUBA</p>
+<p begin="00:29:35.000" end="00:29:36.667" style="s2">Tomorrow could be rough.</p>
+<p begin="00:29:36.667" end="00:29:39.875" style="s2">For tonight, pretend you&#39;re tourists and enjoy yourselves.</p>
+<p begin="00:29:40.042" end="00:29:41.125" style="s2">Does the hotel have mojitos?</p>
+<p begin="00:29:41.667" end="00:29:42.292" style="s2">No.</p>
+<p begin="00:29:42.875" end="00:29:43.750" style="s2">Of course it does.</p>
+<p begin="00:29:47.958" end="00:29:49.792" style="s2">But the mango juice here is excellent.</p>
+<p begin="00:29:53.708" end="00:29:56.000" style="s2">Oh, J. I left a bike behind the hotel.</p>
+<p begin="00:29:56.458" end="00:29:58.708" style="s2">It&#39;s a little beat-up, but it&#39;ll get you where you need to go.</p>
+<p begin="00:29:58.708" end="00:29:59.292" style="s2">Have a good night.</p>
+<p begin="00:30:36.042" end="00:30:37.542" style="s2">Come on, Sis.</p>
+<p begin="00:30:37.542" end="00:30:38.792" style="s2">The water feels amazing.</p>
+<p begin="00:30:53.583" end="00:30:56.042" style="s2">Asha, listen.</p>
+<p begin="00:30:56.042" end="00:30:58.167" style="s2">You&#39;re sitting tomorrow&#39;s operation out.</p>
+<p begin="00:31:01.875" end="00:31:02.792" style="s2">What?</p>
+<p begin="00:31:04.333" end="00:31:05.750" style="s2">I&#39;m going alone.</p>
+<p begin="00:31:06.000" end="00:31:07.208" style="s2">What?</p>
+<p begin="00:31:07.208" end="00:31:08.917" style="s2">Where did that come from?</p>
+<p begin="00:31:08.917" end="00:31:09.792" style="s2"> We&#39;re a team. </p>
+<p begin="00:31:10.167" end="00:31:11.333" style="s2">Is this about New York?</p>
+<p begin="00:31:14.917" end="00:31:17.833" style="s2">I told you, it was a mistake.</p>
+<p begin="00:31:17.833" end="00:31:19.000" style="s2">Did you tell Mom?</p>
+<p begin="00:31:21.292" end="00:31:22.958" style="s2">No.</p>
+<p begin="00:31:22.958" end="00:31:24.708" style="s2">It&#39;s an order from above.</p>
+<p begin="00:31:25.542" end="00:31:27.417" style="s2">Liar!</p>
+<p begin="00:31:27.417" end="00:31:29.917" style="s2">This was your call, wasn&#39;t it?</p>
+<p begin="00:31:29.917" end="00:31:31.333" style="s2">Tell me I&#39;m wrong.</p>
+<p begin="00:31:31.917" end="00:31:33.583" style="s2">Stay here this time.</p>
+<p begin="00:31:33.583" end="00:31:34.875" style="s2">No arguments.</p>
+<p begin="00:31:35.958" end="00:31:37.125" style="s2">That&#39;s ridiculous!</p>
+<p begin="00:31:37.125" end="00:31:38.375" style="s2">You can&#39;t just decide that!</p>
+<p begin="00:31:43.958" end="00:31:46.125" style="s2">Asha...</p>
+<p begin="00:31:46.125" end="00:31:48.667" style="s2">Don&#39;t take this the wrong way. Just listen.</p>
+<p begin="00:31:50.042" end="00:31:52.083" style="s2">What now?</p>
+<p begin="00:31:52.083" end="00:31:53.583" style="s2">What are you trying to say?</p>
+<p begin="00:31:55.792" end="00:31:57.917" style="s2">When this is over...</p>
+<p begin="00:31:57.917" end="00:31:58.917" style="s2">leave Baekya.</p>
+<p begin="00:32:00.458" end="00:32:03.375" style="s2">Sis, what are you even talking about?</p>
+<p begin="00:32:04.125" end="00:32:06.083" style="s2">I&#39;ll help you.</p>
+<p begin="00:32:06.083" end="00:32:08.083" style="s2">Go somewhere else and start over.</p>
+<p begin="00:32:08.750" end="00:32:10.917" style="s2">New name, new life.</p>
+<p begin="00:32:10.917" end="00:32:13.208" style="s2">Leave all of this behind.</p>
+<p begin="00:32:16.042" end="00:32:17.417" style="s2">With you?</p>
+<p begin="00:32:24.375" end="00:32:26.167" style="s2">Right.</p>
+<p begin="00:32:26.167" end="00:32:27.333" style="s2">Of course not with you.</p>
+<p begin="00:32:29.083" end="00:32:30.792" style="s2">Why?</p>
+<p begin="00:32:30.792" end="00:32:33.292" style="s2">Because I&#39;m too much trouble?</p>
+<p begin="00:32:33.292" end="00:32:35.042" style="s2">Is that why you&#39;re throwing me away?</p>
+<p begin="00:32:41.542" end="00:32:41.917" style="s2">Asha...</p>
+<p begin="00:32:41.917" end="00:32:43.292" style="s2">What do you think happens</p>
+<p begin="00:32:43.292" end="00:32:45.208" style="s2">if you give me a new name</p>
+<p begin="00:32:45.208" end="00:32:46.917" style="s2">and a nice apartment?</p>
+<p begin="00:32:50.583" end="00:32:53.792" style="s2">You think I wake up normal?</p>
+<p begin="00:32:55.042" end="00:32:57.208" style="s2">I know what I am, Sis.</p>
+<p begin="00:32:57.208" end="00:32:59.625" style="s2">I know I&#39;m beyond saving.</p>
+<p begin="00:32:59.625" end="00:33:02.417" style="s2">So don&#39;t look at me like that and pretend this is for me.</p>
+<p begin="00:33:05.250" end="00:33:05.875" style="s2">That&#39;s not it.</p>
+<p begin="00:33:09.000" end="00:33:11.375" style="s2">I&#39;m trying to give you a chance to choose a different life.</p>
+<p begin="00:33:15.500" end="00:33:16.958" style="s2">Choice?</p>
+<p begin="00:33:16.958" end="00:33:19.375" style="s2">You don&#39;t even know what I want.</p>
+<p begin="00:33:19.375" end="00:33:22.083" style="s2">Now you&#39;re trying to decide how I live, too.</p>
+<p begin="00:33:22.083" end="00:33:23.542" style="s2">What part of that is my choice?</p>
+<p begin="00:33:25.875" end="00:33:26.958" style="s2">Lower your voice.</p>
+<p begin="00:33:26.958" end="00:33:28.583" style="s2">Don&#39;t tell me what to do!</p>
+<p begin="00:33:33.292" end="00:33:37.083" style="s2">For three years, I&#39;ve been walking on eggshells around you,</p>
+<p begin="00:33:37.083" end="00:33:40.042" style="s2">wondering if you&#39;d ever let me in.</p>
+<p begin="00:33:40.042" end="00:33:43.583" style="s2">I worked my ass off trying to be good enough for you.</p>
+<p begin="00:33:43.583" end="00:33:45.583" style="s2">And now you&#39;re just throwing me away?</p>
+<p begin="00:33:47.833" end="00:33:49.375" style="s2">I never asked you to.</p>
+<p begin="00:33:57.875" end="00:33:59.083" style="s2">That&#39;s right.</p>
+<p begin="00:33:59.083" end="00:34:00.750" style="s2">You never ask.</p>
+<p begin="00:34:00.750" end="00:34:02.667" style="s2">You leave the door half-open so I follow you,</p>
+<p begin="00:34:02.667" end="00:34:05.250" style="s2">then act like I&#39;m the one who forced my way in.</p>
+<p begin="00:34:06.417" end="00:34:08.708" style="s2">Say it.</p>
+<p begin="00:34:08.708" end="00:34:10.792" style="s2"> Just once.</p>
+<p begin="00:34:10.792" end="00:34:13.125" style="s2">Have you ever really thought of me as your sister?</p>
+<p begin="00:34:20.625" end="00:34:22.750" style="s2">No matter how hard you push me away,</p>
+<p begin="00:34:22.750" end="00:34:25.875" style="s2">Baekya is my home and you&#39;re still my family!</p>
+<p begin="00:34:25.875" end="00:34:27.917" style="s2">If anyone&#39;s leaving, it should be you!</p>
+<p begin="00:34:30.917" end="00:34:32.458" style="s2">Fine.</p>
+<p begin="00:34:32.458" end="00:34:33.917" style="s2">Go alone.</p>
+<p begin="00:34:33.917" end="00:34:35.875" style="s2">Do whatever you want. I will too.</p>
+<p begin="00:35:23.875" end="00:35:25.500" style="s2">I&#39;ll be back soon.</p>
+<p begin="00:35:25.500" end="00:35:28.125" style="s2"> We&#39;ll talk when I get back.</p>
+<p begin="00:36:10.958" end="00:36:13.000" style="s2">Ms. Asha Volkova?</p>
+<p begin="00:36:15.292" end="00:36:16.292" style="s2">Who are you?</p>
+<p begin="00:36:18.208" end="00:36:19.667" style="s2">I have a message for you.</p>
+<p begin="00:36:20.958" end="00:36:21.875" style="s2">Who sent you?</p>
+<p begin="00:36:24.208" end="00:36:25.958" style="s2">Your uncle is waiting for you. </p>
+<p begin="00:36:25.958" end="00:36:27.208" style="s2">He&#39;d like to see you.</p>
+<p begin="00:36:35.208" end="00:36:36.458" style="s2">My uncle?</p>
+<p begin="00:36:37.958" end="00:36:41.958" style="s2">LONDON, ENGLAND</p>
+<p begin="00:36:45.750" end="00:36:48.333" style="s2">Your people used to leave silence behind.</p>
+<p begin="00:36:48.333" end="00:36:50.417" style="s2">Lately, they leave rumors.</p>
+<p begin="00:36:52.667" end="00:36:55.958" style="s2">Rumors are what frightened men call evidence they couldn&#39;t find.</p>
+<p begin="00:36:57.542" end="00:37:00.958" style="s2">Frightened men move money.</p>
+<p begin="00:37:00.958" end="00:37:03.333" style="s2">I don&#39;t pay Baekya to make the room nervous.</p>
+<p begin="00:37:04.000" end="00:37:05.458" style="s2">Don&#39;t worry.</p>
+<p begin="00:37:05.458" end="00:37:07.875" style="s2">Baekya will leave nothing but silence again.</p>
+<p begin="00:37:12.458" end="00:37:16.125" style="s2">Tell your sister the old methods are getting expensive.</p>
+<p begin="00:37:25.042" end="00:37:29.250" style="s2">He&#39;s bought and sold three governments in the same country,</p>
+<p begin="00:37:29.250" end="00:37:32.833" style="s2">yet one petty rumor still keeps him up at night.</p>
+<p begin="00:37:35.208" end="00:37:38.667" style="s2">If it were only a rumor, he wouldn&#39;t have come here.</p>
+<p begin="00:37:40.708" end="00:37:42.458" style="s2">That&#39;s why you&#39;re wasted carrying a gun.</p>
+<p begin="00:37:44.333" end="00:37:46.625" style="s2">So this wasn&#39;t a lesson in hospitality.</p>
+<p begin="00:37:48.083" end="00:37:50.667" style="s2">Sharp as ever.</p>
+<p begin="00:37:50.667" end="00:37:55.375" style="s2">Your mother still believes breaking people and forcing them into submission makes them loyal. </p>
+<p begin="00:37:55.583" end="00:38:00.875" style="s2">You and the others are living proof of that long-running experiment. </p>
+<p begin="00:38:01.708" end="00:38:06.750" style="s2">All she&#39;s doing is repeating the same outdated methods she learned from Father.</p>
+<p begin="00:38:09.167" end="00:38:11.417" style="s2">Times have changed.</p>
+<p begin="00:38:11.417" end="00:38:13.917" style="s2">The world is moving fast, you know.</p>
+<p begin="00:38:15.792" end="00:38:18.708" style="s2">If you want to persuade me, talk about yourself.</p>
+<p begin="00:38:18.708" end="00:38:20.458" style="s2">Not my mother.</p>
+<p begin="00:38:23.167" end="00:38:24.625" style="s2">Fine.</p>
+<p begin="00:38:24.625" end="00:38:27.500" style="s2">I couldn&#39;t care less about my sister&#39;s little family game. </p>
+<p begin="00:38:28.875" end="00:38:31.708" style="s2">I want to build Baekya into something bigger</p>
+<p begin="00:38:31.708" end="00:38:35.042" style="s2">an organization where contracts open more doors than guns.</p>
+<p begin="00:38:37.417" end="00:38:39.625" style="s2">So J carries the gun,</p>
+<p begin="00:38:39.625" end="00:38:41.083" style="s2">and I stand behind you.</p>
+<p begin="00:38:44.333" end="00:38:46.292" style="s2">Someone should give you a place of your own.</p>
+<p begin="00:38:48.625" end="00:38:50.500" style="s2">As long as that place isn&#39;t behind you.</p>
+<p begin="00:38:51.000" end="00:38:53.792" style="s2">See? This is easier already.</p>
+<p begin="00:38:53.792" end="00:38:55.583" style="s2">No need for either of us to pretend.</p>
+<p begin="00:39:02.292" end="00:39:05.583" style="s2">J is hunting Asha&#39;s uncle in Cuba tonight.</p>
+<p begin="00:39:05.583" end="00:39:07.083" style="s2">Asha is in Cuba too.</p>
+<p begin="00:39:08.000" end="00:39:10.708" style="s2">Asha&#39;s uncle—you mean Mikhail?</p>
+<p begin="00:39:10.708" end="00:39:12.458" style="s2">Mother knew and still sent them both?</p>
+<p begin="00:39:13.417" end="00:39:16.458" style="s2">Do you still not know your own mother?</p>
+<p begin="00:39:16.458" end="00:39:19.583" style="s2">Your mother never walks into a risk she hasn&#39;t already weighed.</p>
+<p begin="00:39:20.750" end="00:39:22.333" style="s2">You find this amusing?</p>
+<p begin="00:39:24.458" end="00:39:25.500" style="s2">You know,</p>
+<p begin="00:39:25.500" end="00:39:29.833" style="s2">your mother always accepts the risk of getting caught in a trap she designed herself.</p>
+<p begin="00:39:30.708" end="00:39:33.208" style="s2">Sometimes it’s chilling.</p>
+<p begin="00:39:33.208" end="00:39:36.125" style="s2">Other times I wonder how someone can be so foolish.</p>
+<p begin="00:39:37.042" end="00:39:42.333" style="s2">Her obsession with that fake family of hers will be what destroys Baekya.</p>
+<p begin="00:39:50.708" end="00:39:56.167" style="s2">Chapter 4</p>
+<p begin="00:39:51.542" end="00:39:56.167" style="s2">HOME</p>
+<p begin="00:40:09.000" end="00:40:12.292" style="s2">MATANZAS, CUBA<br />SEVERNY KONTUR MERCENARY COMPOUND</p>
+<p begin="00:40:46.792" end="00:40:47.167" style="s2">Damn!</p>
+<p begin="00:41:08.875" end="00:41:13.542" style="s2">VARADERO COAST, CUBA<br />MIKHAIL’S VILLA</p>
+<p begin="00:41:32.833" end="00:41:34.292" style="s2">You&#39;re Mikhail Volkov.</p>
+<p begin="00:41:35.458" end="00:41:38.583" style="s2">Asha... It&#39;s good to see you.</p>
+<p begin="00:41:38.583" end="00:41:40.417" style="s2">So you still remember my name.</p>
+<p begin="00:41:42.125" end="00:41:44.458" style="s2">I&#39;ve waited a long time to face you.</p>
+<p begin="00:41:52.958" end="00:41:53.833" style="s2">Did you hear that?</p>
+<p begin="00:41:53.833" end="00:41:54.625" style="s2">Let’s check.</p>
+<p begin="00:42:11.833" end="00:42:12.167" style="s2">Contact!</p>
+<p begin="00:42:38.042" end="00:42:40.208" style="s2">So you were waiting for me to come for you.</p>
+<p begin="00:42:41.583" end="00:42:43.083" style="s2">Every day.</p>
+<p begin="00:42:44.542" end="00:42:47.583" style="s2">You killed my father, left me in that place,</p>
+<p begin="00:42:47.583" end="00:42:50.750" style="s2">and now you have the nerve to come looking for me.</p>
+<p begin="00:42:51.458" end="00:42:53.958" style="s2">Asha... no.</p>
+<p begin="00:42:55.292" end="00:42:56.958" style="s2">I didn&#39;t kill your father.</p>
+<p begin="00:42:59.583" end="00:43:02.625" style="s2">When your father died,</p>
+<p begin="00:43:02.625" end="00:43:05.375" style="s2">everyone connected to us was being hunted.</p>
+<p begin="00:43:06.667" end="00:43:11.667" style="s2">I hid you where no one would find you to keep you safe.</p>
+<p begin="00:43:12.375" end="00:43:16.083" style="s2">I was going to come back when it was safe.</p>
+<p begin="00:43:17.083" end="00:43:18.750" style="s2">You call that safe?</p>
+<p begin="00:43:21.458" end="00:43:23.875" style="s2">I needed somewhere no one could find you.</p>
+<p begin="00:43:26.167" end="00:43:28.250" style="s2">But you never came back for me.</p>
+<p begin="00:43:32.458" end="00:43:36.250" style="s2">Cha Yura found you and took you before a year had even passed.</p>
+<p begin="00:43:40.292" end="00:43:45.042" style="s2">You show up after all these years, and now you expect me to believe you?</p>
+<p begin="00:43:45.875" end="00:43:49.000" style="s2">Baekya made sure no one could reach you.</p>
+<p begin="00:43:49.667" end="00:43:55.458" style="s2">Then Cha Yura taught you to hate the people who were trying to bring you home.</p>
+<p begin="00:43:55.458" end="00:43:58.125" style="s2">Don&#39;t speak about my family.</p>
+<p begin="00:43:58.583" end="00:44:01.625" style="s2">The people you call family</p>
+<p begin="00:44:01.625" end="00:44:04.000" style="s2">killed your real family.</p>
+<p begin="00:44:11.750" end="00:44:12.042" style="s2">Contact!</p>
+<p begin="00:44:33.625" end="00:44:34.583" style="s2">Move forward!</p>
+<p begin="00:44:37.333" end="00:44:37.750" style="s2">Contact!</p>
+<p begin="00:44:43.292" end="00:44:43.708" style="s2">Damn!</p>
+<p begin="00:45:07.792" end="00:45:11.000" style="s2">Cha Yura told you your aunt and I killed him, didn&#39;t she?</p>
+<p begin="00:45:13.958" end="00:45:17.042" style="s2">She told me the truth.</p>
+<p begin="00:45:17.042" end="00:45:20.500" style="s2">You betrayed my father, sent assassins to kill him,</p>
+<p begin="00:45:20.500" end="00:45:22.750" style="s2">then took everything he had</p>
+<p begin="00:45:22.750" end="00:45:28.042" style="s2">his money, his organization, all of it.</p>
+<p begin="00:45:28.667" end="00:45:31.375" style="s2">Asha.</p>
+<p begin="00:45:31.375" end="00:45:33.375" style="s2">Did you really believe that?</p>
+<p begin="00:45:34.000" end="00:45:38.667" style="s2">She made up that ridiculous story so she could make you hers.</p>
+<p begin="00:45:39.917" end="00:45:44.917" style="s2">How badly has that crazy bitch brainwashed you?</p>
+<p begin="00:45:47.417" end="00:45:49.083" style="s2">Watch your mouth.</p>
+<p begin="00:45:52.417" end="00:45:55.333" style="s2">Snap out of it, Asha!</p>
+<p begin="00:45:55.333" end="00:45:57.167" style="s2">Baekya killed your father.</p>
+<p begin="00:45:57.167" end="00:45:59.208" style="s2">J did it. You were there!</p>
+<p begin="00:46:02.292" end="00:46:03.917" style="s2">You&#39;re lying!</p>
+<p begin="00:46:03.917" end="00:46:04.875" style="s2">I don&#39;t remember.</p>
+<p begin="00:46:06.417" end="00:46:09.875" style="s2">Why do you think J left you at the hotel and went alone</p>
+<p begin="00:46:09.875" end="00:46:13.750" style="s2">after she learned I was the target?</p>
+<p begin="00:46:13.750" end="00:46:14.708" style="s2">Think about it!</p>
+<p begin="00:46:14.708" end="00:46:16.167" style="s2">Stop!</p>
+<p begin="00:46:17.250" end="00:46:19.583" style="s2">She knew who I was.</p>
+<p begin="00:46:19.583" end="00:46:21.500" style="s2">She knew what would happen if you met me.</p>
+<p begin="00:46:23.333" end="00:46:25.125" style="s2">I said stop.</p>
+<p begin="00:46:27.083" end="00:46:28.917" style="s2">Fine.</p>
+<p begin="00:46:28.917" end="00:46:31.750" style="s2">No matter what I say, you won&#39;t believe me.</p>
+<p begin="00:46:31.750" end="00:46:33.292" style="s2">Then ask J yourself.</p>
+<p begin="00:46:35.875" end="00:46:37.083" style="s2">Is she here?</p>
+<p begin="00:46:38.208" end="00:46:40.333" style="s2">She&#39;ll be here soon.</p>
+<p begin="00:46:40.333" end="00:46:43.375" style="s2">Then I&#39;ll make you face the truth.</p>
+<p begin="00:48:41.750" end="00:48:44.375" style="s2">Go on. Ask her yourself.</p>
+<p begin="00:48:46.208" end="00:48:48.750" style="s2">Asha... Why are you here?</p>
+<p begin="00:48:50.792" end="00:48:54.042" style="s2">Sis, answer me. </p>
+<p begin="00:48:55.875" end="00:48:59.250" style="s2">Did you know from the start that the target was my uncle?</p>
+<p begin="00:49:03.167" end="00:49:04.500" style="s2">Look at me.</p>
+<p begin="00:49:05.583" end="00:49:07.750" style="s2">Yes... I knew.</p>
+<p begin="00:49:10.542" end="00:49:12.083" style="s2">Then did you really kill my father?</p>
+<p begin="00:49:14.042" end="00:49:16.250" style="s2">Sis...</p>
+<p begin="00:49:16.250" end="00:49:17.500" style="s2">tell me you didn&#39;t.</p>
+<p begin="00:49:28.875" end="00:49:32.250" style="s2">Answer me!</p>
+<p begin="00:49:32.250" end="00:49:36.583" style="s2">Yes. I did.</p>
+<p begin="00:49:39.250" end="00:49:41.125" style="s2">I&#39;m sorry...</p>
+<p begin="00:49:41.125" end="00:49:43.417" style="s2">Don&#39;t say that!</p>
+<p begin="00:49:47.083" end="00:49:49.292" style="s2">So that&#39;s what it was.</p>
+<p begin="00:49:49.292" end="00:49:51.042" style="s2">The pity.</p>
+<p begin="00:49:51.042" end="00:49:53.958" style="s2">The guilt.</p>
+<p begin="00:49:53.958" end="00:49:56.167" style="s2">One hand holding me,</p>
+<p begin="00:49:56.167" end="00:49:57.667" style="s2">the other pushing me away.</p>
+<p begin="00:49:59.500" end="00:50:00.000" style="s2">Asha...</p>
+<p begin="00:50:00.000" end="00:50:02.042" style="s2">Don&#39;t say my name like that!</p>
+<p begin="00:50:06.375" end="00:50:10.000" style="s2">You never wanted to get me out of Baekya. </p>
+<p begin="00:50:10.000" end="00:50:13.833" style="s2">You shook me up with all that talk of giving me a new life</p>
+<p begin="00:50:13.833" end="00:50:16.917" style="s2">but all you wanted was your guilt out of sight.</p>
+<p begin="00:50:18.083" end="00:50:22.042" style="s2">I just wanted you to have a life beyond this.</p>
+<p begin="00:50:22.042" end="00:50:23.833" style="s2">I meant that.</p>
+<p begin="00:50:24.542" end="00:50:27.625" style="s2">You took my father&#39;s life.</p>
+<p begin="00:50:27.625" end="00:50:32.542" style="s2">What gives you the right to decide how I live mine?</p>
+<p begin="00:50:37.333" end="00:50:39.042" style="s2">Now choose.</p>
+<p begin="00:50:39.042" end="00:50:42.375" style="s2">The woman who killed your father, or your own blood.</p>
+<p begin="00:50:50.125" end="00:50:52.125" style="s2">Finish it.</p>
+<p begin="00:50:52.125" end="00:50:53.875" style="s2">Then come back to your real home.</p>
+<p begin="00:51:13.708" end="00:51:15.417" style="s2">Asha...</p>
+<p begin="00:51:15.417" end="00:51:17.083" style="s2">Why?</p>
+<p begin="00:51:17.083" end="00:51:18.458" style="s2">What are you doing?</p>
+<p begin="00:51:19.875" end="00:51:22.083" style="s2">It&#39;s already...</p>
+<p begin="00:51:22.083" end="00:51:23.708" style="s2">too late.</p>
+<p begin="00:51:24.792" end="00:51:26.792" style="s2">Asha! Untie me first!</p>
+<p begin="00:51:36.958" end="00:51:39.917" style="s2">Asha, please come to your senses.</p>
+<p begin="00:51:39.917" end="00:51:41.833" style="s2">Do you really think Baekya loves you?</p>
+<p begin="00:51:42.667" end="00:51:45.000" style="s2">They stole you from us!</p>
+<p begin="00:51:45.000" end="00:51:48.292" style="s2">To them, you&#39;re nothing but bait. A weapon!</p>
+<p begin="00:51:50.250" end="00:51:51.375" style="s2">Shut the hell up!</p>
+<p begin="00:51:57.375" end="00:51:59.583" style="s2">Asha, stop! It&#39;s over!</p>
+<p begin="00:52:21.417" end="00:52:24.250" style="s2">Asha! Look at me! Stop!</p>
+<p begin="00:52:26.917" end="00:52:30.000" style="s2">Asha! Please, snap out of it!</p>
+<p begin="00:52:40.458" end="00:52:42.750" style="s2">Asha... please.</p>
+<p begin="00:52:42.750" end="00:52:44.583" style="s2">That&#39;s enough. Please.</p>
+<p begin="00:53:01.375" end="00:53:03.250" style="s2">Volkov is dead.</p>
+<p begin="00:53:03.250" end="00:53:05.625" style="s2">Baekya has lost control of the operation.</p>
+<p begin="00:53:16.292" end="00:53:17.833" style="s2">The operation failed.</p>
+<p begin="00:53:17.833" end="00:53:20.125" style="s2">J and Asha survived.</p>
+<p begin="00:53:20.125" end="00:53:21.542" style="s2">Jimmy has them both.</p>
+<p begin="00:53:26.375" end="00:53:27.292" style="s2">Bring them home.</p>
+<p begin="00:53:52.792" end="00:53:55.458" style="s2">My father wasn&#39;t a good man.</p>
+<p begin="00:53:55.458" end="00:53:57.292" style="s2">I knew that even as a child.</p>
+<p begin="00:53:58.750" end="00:54:00.792" style="s2">But he was my father.</p>
+<p begin="00:54:00.792" end="00:54:03.000" style="s2">My only family.</p>
+<p begin="00:54:04.417" end="00:54:08.792" style="s2">Then one day, I lost the only family I had.</p>
+<p begin="00:54:08.792" end="00:54:11.167" style="s2">I was left all alone.</p>
+<p begin="00:54:12.083" end="00:54:16.042" style="s2">A cold, lonely, empty place...</p>
+<p begin="00:54:16.042" end="00:54:19.792" style="s2">I kept waiting there for someone to come and get me.</p>
+<p begin="00:54:20.458" end="00:54:23.083" style="s2">I will never forget what you did.</p>
+<p begin="00:54:23.958" end="00:54:27.292" style="s2">And I don&#39;t forgive you.</p>
+<p begin="00:54:28.542" end="00:54:33.375" style="s2">Whatever you say, Baekya is my home now.</p>
+<p begin="00:54:33.375" end="00:54:39.125" style="s2">I don&#39;t want to go back to a cold, lonely place ever again.</p>
+<p begin="00:54:41.875" end="00:54:45.292" style="s2">But you&#39;re still my family, Sis. </p>
+<p begin="00:54:45.292" end="00:54:49.500" style="s2">That&#39;s not something you get to end on your own.</p>
+<p begin="00:54:52.833" end="00:54:56.542" style="s2">So don&#39;t ever think about leaving me. </p>
+<p begin="00:54:56.542" end="00:54:59.833" style="s2">Wherever you go, I&#39;ll find you.</p>
+<p begin="00:55:01.458" end="00:55:04.042" style="s2">I&#39;ll kill everyone you care about,</p>
+<p begin="00:55:04.042" end="00:55:07.333" style="s2">then drag you back to my side.</p>
+<p begin="00:55:08.958" end="00:55:12.292" style="s2">That&#39;s the only punishment I&#39;ve chosen for you.</p>
+<p begin="00:55:17.833" end="00:55:19.542" style="s2">Asha...</p>
+<p begin="00:55:21.500" end="00:55:23.708" style="s2">Don&#39;t think I don&#39;t know.</p>
+<p begin="00:55:25.708" end="00:55:29.208" style="s2">You&#39;re always longing for some life you left behind somewhere.</p>
+<p begin="00:55:30.000" end="00:55:34.875" style="s2">Stop making me the bad sister.</p>
+<p begin="00:55:53.542" end="00:55:55.417" style="s2">The people from Baekya have arrived.</p>
+<p begin="00:55:57.542" end="00:56:04.125" style="s2">LONDON, ENGLAND<br />ASHCOMBE PENTHOUSE</p>
+<p begin="00:56:29.292" end="00:56:30.750" style="s2">Hey, old lady.</p>
+<p begin="00:56:31.792" end="00:56:34.958" style="s2">Do you have any idea what those useless daughters of yours just cost me?</p>
+<p begin="00:56:35.833" end="00:56:37.125" style="s2">I&#39;m sorry.</p>
+<p begin="00:56:37.125" end="00:56:38.625" style="s2">Baekya will cover the loss.</p>
+<p begin="00:56:40.500" end="00:56:42.667" style="s2">I can make the money back before lunch. </p>
+<p begin="00:56:43.708" end="00:56:45.792" style="s2">What you cost me was the room. </p>
+<p begin="00:56:45.792" end="00:56:50.083" style="s2">Everyone at that table thinks my word comes cheap now. </p>
+<p begin="00:56:51.292" end="00:56:54.042" style="s2">How do you plan to repay that humiliation?</p>
+<p begin="00:56:54.958" end="00:56:58.417" style="s2">Volkov was supposed to reach American custody alive.</p>
+<p begin="00:56:59.250" end="00:57:04.125" style="s2">Did you give a single thought to how far up the chain this went</p>
+<p begin="00:57:04.125" end="00:57:07.000" style="s2">or who had to be involved to make it happen?</p>
+<p begin="00:57:08.417" end="00:57:11.125" style="s2">And your worthless daughters ruined the whole thing.</p>
+<p begin="00:57:12.708" end="00:57:14.250" style="s2">It will not happen again.</p>
+<p begin="00:57:15.417" end="00:57:17.292" style="s2">Do I have to keep looking up at you?</p>
+<p begin="00:57:45.667" end="00:57:46.792" style="s2">Listen carefully.</p>
+<p begin="00:57:48.792" end="00:57:51.667" style="s2">My grandfather thought loyalty could be bought forever.</p>
+<p begin="00:57:52.292" end="00:57:55.208" style="s2">My father grew sentimental about the same old hound.</p>
+<p begin="00:57:55.208" end="00:57:58.125" style="s2">But here&#39;s the thing, old lady.</p>
+<p begin="00:57:58.125" end="00:58:00.750" style="s2">I&#39;m not like my grandfather or my father.</p>
+<p begin="00:58:00.750" end="00:58:04.500" style="s2">Baekya is useful while it obeys.</p>
+<p begin="00:58:04.500" end="00:58:07.917" style="s2">Fail me again,</p>
+<p begin="00:58:07.917" end="00:58:10.792" style="s2">and I won&#39;t call you in.</p>
+<p begin="00:58:10.792" end="00:58:13.208" style="s2">I&#39;ll call whoever replaces you.</p>
+<p begin="00:58:27.583" end="00:58:28.833" style="s2">Are we finished?</p>
+<p begin="00:58:30.958" end="00:58:32.542" style="s2">Get out of my sight!</p>
+<p begin="00:58:50.375" end="00:58:52.625" style="s2">What was her brother&#39;s name again?</p>
+<p begin="00:58:52.625" end="00:58:53.917" style="s2">Elias Vale.</p>
+<p begin="00:58:55.250" end="00:58:56.208" style="s2">Call him.</p>
+<p begin="00:58:57.333" end="00:58:59.083" style="s2">I want to meet him.</p>
+<p begin="00:59:07.833" end="00:59:09.083" style="s2">Elias Vale speaking.</p>
+<p begin="00:59:09.542" end="00:59:12.583" style="s2">Mr. Ashcombe would like to see you. Today.</p>
+<p begin="00:59:13.792" end="00:59:15.625" style="s2">Please tell him I&#39;d be delighted.</p>
+<p begin="00:59:23.542" end="00:59:25.500" style="s2">Beautiful day, for once.</p>
+<p begin="00:59:43.417" end="00:59:45.542" style="s2">Home really is the best.</p>
+<p begin="00:59:45.542" end="00:59:46.833" style="s2">Cuba was awful.</p>
+<p begin="00:59:50.125" end="00:59:51.375" style="s2">The food was terrible, </p>
+<p begin="00:59:51.375" end="00:59:52.792" style="s2">power kept going out,</p>
+<p begin="00:59:52.792" end="00:59:54.250" style="s2">and the air-conditioning didn&#39;t work.</p>
+<p begin="00:59:55.792" end="00:59:57.167" style="s2">Stop talking and eat.</p>
+<p begin="00:59:59.125" end="01:00:00.958" style="s2">Still as charming as ever. </p>
+<p begin="01:00:05.250" end="01:00:08.250" style="s2">Aren&#39;t you happy to see your little sister?</p>
+<p begin="01:00:09.875" end="01:00:11.500" style="s2">It was nice and quiet for a while.</p>
+<p begin="01:00:13.000" end="01:00:14.708" style="s2">Seriously, what a jerk!</p>
+<p begin="01:00:20.167" end="01:00:23.583" style="s2">Sis, say something to him.</p>
+<p begin="01:00:32.625" end="01:00:35.375" style="s2">Mom, send me somewhere nice next time.</p>
+<p begin="01:00:35.375" end="01:00:37.458" style="s2">There are still so many places I haven&#39;t seen.</p>
+<p begin="01:00:43.708" end="01:00:45.708" style="s2">I told you to stop talking and eat.</p>
+<p begin="01:00:48.167" end="01:00:49.542" style="s2">Oh, come on.</p>
+<p begin="01:01:10.958" end="01:01:12.250" style="s2">How&#39;s the wound?</p>
+<p begin="01:01:15.000" end="01:01:17.917" style="s2">Dogyeom...</p>
+<p begin="01:01:18.375" end="01:01:20.250" style="s2">That&#39;s new.</p>
+<p begin="01:01:20.250" end="01:01:24.042" style="s2">You actually used my name.</p>
+<p begin="01:01:27.042" end="01:01:31.375" style="s2">What if we left all of this behind and started over somewhere else?</p>
+<p begin="01:01:35.542" end="01:01:37.750" style="s2">Do you have the courage for that?</p>
+<p begin="01:01:42.875" end="01:01:45.875" style="s2">I suppose not... We&#39;ve come too far.</p>
+<p begin="01:01:46.542" end="01:01:49.167" style="s2">Clean that wound properly. Turn in early.</p>
+<p begin="01:02:04.958" end="01:02:10.083" style="s2">J, three years already. I figured coming back wouldn’t be easy.<br />Hana is doing well. Thought you’d want to know.</p>
+<p begin="01:02:35.125" end="01:02:42.208" style="s2">3 MONTHS LATER</p>
+<p begin="01:02:42.208" end="01:02:47.417" style="s2">SEOUL, REPUBLIC OF KOREA</p>
+<p begin="01:03:24.083" end="01:03:25.208" style="s2">Do you know her?</p>
+<p begin="01:03:30.125" end="01:03:31.083" style="s2">No.</p>
+<p begin="01:03:41.417" end="01:03:46.875" style="s2">You left your shadow in the hall</p>
+<p begin="01:03:46.875" end="01:03:54.625" style="s2">Where every mirror learned my face</p>
+<p begin="01:03:54.625" end="01:04:00.333" style="s2">I thought the distance would be kind</p>
+<p begin="01:04:00.333" end="01:04:06.292" style="s2">It only taught the dark your name</p>
+<p begin="01:04:06.292" end="01:04:10.500" style="s2">If I return, don’t call it home</p>
+<p begin="01:04:10.500" end="01:04:14.333" style="s2">Just leave the hallway light down low</p>
+<p begin="01:04:14.333" end="01:04:18.167" style="s2">I may not be the one you knew</p>
+<p begin="01:04:18.167" end="01:04:21.625" style="s2">I may not know which way to go</p>
+<p begin="01:04:21.625" end="01:04:25.667" style="s2">When morning finds me at your door</p>
+<p begin="01:04:25.667" end="01:04:29.625" style="s2">Don’t ask me where I’ve been so long</p>
+<p begin="01:04:29.625" end="01:04:33.583" style="s2">If I return, just hold the quiet</p>
+<p begin="01:04:33.583" end="01:04:37.750" style="s2">Till we know which part came home</p>
+<p begin="01:04:49.708" end="01:04:54.250" style="s2">This video was created using AI.<br />All characters, events, settings, and groups depicted are entirely fictional.</p>
+</div>
+</body>
+</tt>
