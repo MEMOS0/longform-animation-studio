@@ -19,7 +19,7 @@ def _affirmative_match(pattern: str, text: str) -> bool:
     for clause in re.split(r"[.!?;]", text):
         for match in re.finditer(pattern, clause):
             before = clause[:match.start()]
-            if re.search(r"(?:nobody|no one|never|without|not|no)\s+(?:\w+\s+){0,8}$", before):
+            if re.search(r"(?:(?:nobody|no one|never|without|not|no)\s+(?:\w+\s+){0,3}|refus(?:es|ed)?\s+to\s+(?:\w+\s+){0,3})$", before):
                 continue
             return True
     return False
@@ -28,9 +28,11 @@ def _affirmative_match(pattern: str, text: str) -> bool:
 def _ending_tail(text: str) -> str:
     sentences = [part.strip() for part in re.split(r"(?<=[.!?])\s+", text) if part.strip()]
     if len(sentences) == 1:
-        return text
+        words = text.split()
+        return " ".join(words[-max(1, len(words) // 3):]) if words else ""
     if sentences:
-        return "\n".join(sentences[-max(1, len(sentences) // 3):])
+        count = max(1, (len(sentences) + 2) // 3)
+        return "\n".join(sentences[-count:])
     return text[-max(1, len(text) // 3):] if text else ""
 
 
@@ -42,7 +44,7 @@ def evaluate_wrongful_accusation_integrity(premise: dict[str, Any], architecture
     ending_source = "\n".join([architecture_text, scenes_text])
     ending = _ending_tail(ending_source)
 
-    accusation = bool(re.search(r"wrongful|framed|set up|false accusation|expelled|accused|theft|stolen|stole|planted", full))
+    accusation = bool(re.search(r"wrongful|wrongfully|framed|frame-up|set up|false accusation|falsely accused|planted", full))
     status_wound = bool(re.search(r"homeless|expelled|fired|excluded|stigma|scholarship|reputation|career|land|estate", full))
     repair_context = bool(re.search(r"truth|evidence|investigat|court|lawyer|apology|restoration|job|work", full))
     applies = accusation and status_wound
