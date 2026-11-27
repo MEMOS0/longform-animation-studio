@@ -19,28 +19,42 @@ def _text(value: Any) -> str:
     return ""
 
 
+def _narrative_text(value: Any) -> str:
+    if isinstance(value, str):
+        return value
+    if isinstance(value, dict):
+        excluded_guidance = {"dialogue_design", "failure_checks", "sound_design"}
+        return "\n".join(_narrative_text(v) for k, v in value.items() if k not in excluded_guidance)
+    if isinstance(value, list):
+        return "\n".join(_narrative_text(v) for v in value)
+    return ""
+
+
 def evaluate_serial_relational_anchor_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    serial = bool(re.search(r"\b(?:season|episode|chapter|serial|series)\b", full))
+    declared_format = " ".join(str(premise.get(key, "")) for key in ("release_format", "format_class", "format")).lower().replace("_", " ")
+    declared_serial = bool(re.search(r"\b(?:season|episode|chapter|serial|series)\b", declared_format))
+    textual_serial = bool(re.search(r"\b(?:season\s*\d+|episode\s*\d+|chapter\s*\d+|serial(?:ized)?\b|web series\b|series\b(?!\s+of\b))", full))
+    serial = declared_serial or textual_serial
     action_world = bool(re.search(r"assassin|spy|agent|mission|crime|organization|mafia|underworld|mercenary|thriller", full))
     if not (serial and action_world):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
     opening_text = full[:max(1, len(full) // 4)]
     if scenes:
-        ending_units = scenes[-2:]
+        final_units = scenes[-1:]
     elif isinstance(architecture, dict) and isinstance(architecture.get("sequences"), list) and architecture.get("sequences"):
-        ending_units = architecture["sequences"][-2:]
+        final_units = architecture["sequences"][-1:]
     else:
-        ending_units = [full[-max(1, len(full) // 4):]]
+        final_units = [full[-max(1, len(full) // 4):]]
     ending_extra = []
     if isinstance(architecture, dict):
         for key in ("ending", "ending_payoff", "resolution", "final_act"):
             if key in architecture:
                 ending_extra.append(architecture[key])
-    ending_text = (_text(ending_units) + "\n" + _text(ending_extra)).lower()
+    ending_text = (_narrative_text(final_units) + "\n" + _text(ending_extra)).lower()
 
-    relational = re.compile(r"friend|family|sister|brother|daughter|son|mother|father|mentor|lover|bond|promise|home")
+    relational = re.compile(r"\b(?:friend|friends|friendship|family|sister|brother|daughter|son|sons|mother|father|mentor|lover|bond|promise|home)\b")
     attachment_threat = re.compile(r"hostage|abduct|kidnap|bait|blackmail|manipulat|threaten|target|kill .*(?:friend|family|sister|brother|daughter|son|mother|father|lover)|loose end")
     third = max(1, len(full) // 3)
     relational_positions = [match.start() for match in relational.finditer(full)]
