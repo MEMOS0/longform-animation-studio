@@ -129,6 +129,8 @@ If a scene only repeats information, compress it, combine it, or delete it.
 
 **Muted-intelligibility rule:** every scene should remain broadly intelligible with the sound off. Write the entry image as a readable physical action, not a mood; write the exit image as a changed object/body/space consequence. Epicverse hit/low evidence shows that strong creature imagery alone is not enough: scale or spectacle must convert into repeated care behavior, protection cost, and a home/family transformation. Use `studio/visual_causality.py` as a transparent heuristic, then make the final creative judgment as a director.
 
+Creature-family compressed-feature doctrine from VNDL: establish the creature as a dependent child through nest/feeding/touch/swaddling before power; use matched memory objects on both sides of a separated creature-human bond; ground the middle in seasonality, graves, animals, clothing, labor, and survival rather than only royalty; let public fear cost something bodily or relational before battle; resolve maximum fire/flight spectacle into a quiet recognition/protection image.
+
 ### Long-form pacing
 
 Long duration is not stuffing. A long film needs modular escalation:
@@ -205,12 +207,12 @@ Before applying any market pattern, classify the product first: vertical microdr
 
 Current cross-channel mechanism hierarchy:
 
-1. **Most portable:** legible injustice + vulnerable child/creature/person + credible protection + early visual payoff. Evidence converges across Nov Drama, Ironcrest, and Epic’s baby-dragon/mother-dragon hits.
+1. **Most portable:** legible injustice + vulnerable child/creature/person + credible protection + early visual payoff. Evidence converges across Nov Drama, Ironcrest, Epic’s baby-dragon/mother-dragon hits, and VNDL’s compressed queen/monster creature-family breakout.
 2. **Strong but channel-fit dependent:** hidden royal identity, transformation/rebirth, mythic adventure, revenge, creature spectacle, disaster survival, sci-fi mystery.
 3. **Usually insufficient alone:** scale, lore, army battles, crown politics, high visual polish, franchise continuity, or a “movie-like” label.
 4. **Format-specific:** serial cliffhangers belong to episodic systems; complete-film emotional payoff belongs to feature systems; compilation packaging must sell completeness and binge value.
 
-Use `knowledge/market/data-source-and-format-audit.md`, `knowledge/market/epic-ai-films-site-analysis.md`, `knowledge/market/ironcrest-deep-dive.md`, `knowledge/market/format-duration-performance.md`, and `knowledge/market/fifth-pass-breakout-media-deep-dive.md`, and `knowledge/market/fifthpass-hitlow-media-comparison.md; compressed immigrant/social melodrama evidence: knowledge/market/dramora-compressed-social-melodrama-deep-dive.md; floor/table social-proof circular inversion: knowledge/market/karma-floor-table-social-proof-deep-dive.md` before cross-channel creative decisions.
+Use `knowledge/market/data-source-and-format-audit.md`, `knowledge/market/epic-ai-films-site-analysis.md`, `knowledge/market/ironcrest-deep-dive.md`, `knowledge/market/format-duration-performance.md`, and `knowledge/market/fifth-pass-breakout-media-deep-dive.md`, and `knowledge/market/fifthpass-hitlow-media-comparison.md; compressed immigrant/social melodrama evidence: knowledge/market/dramora-compressed-social-melodrama-deep-dive.md; floor/table social-proof circular inversion: knowledge/market/karma-floor-table-social-proof-deep-dive.md; compressed creature-family visual storytelling: knowledge/market/vndl-queen-monster-creature-family-deep-dive.md` before cross-channel creative decisions.
 
 ## Failure intelligence protocol
 

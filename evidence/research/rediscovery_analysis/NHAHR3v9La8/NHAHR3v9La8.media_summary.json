@@ -1,0 +1,32 @@
+{
+  "video_id": "NHAHR3v9La8",
+  "probe": {
+    "duration": 1453.383401,
+    "size": 81832366,
+    "width": 640,
+    "height": 360,
+    "fps": "24/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\research\\rediscovery_analysis\\NHAHR3v9La8\\contact_sheets\\contact_000.jpg",
+    "evidence\\research\\rediscovery_analysis\\NHAHR3v9La8\\contact_sheets\\contact_001.jpg",
+    "evidence\\research\\rediscovery_analysis\\NHAHR3v9La8\\contact_sheets\\contact_002.jpg",
+    "evidence\\research\\rediscovery_analysis\\NHAHR3v9La8\\contact_sheets\\contact_003.jpg"
+  ],
+  "seconds_indexed": 1453,
+  "shot_count": 45,
+  "shot_length_mean_seconds": 32.28888888888889,
+  "shot_length_median_seconds": 9.0,
+  "shot_length_p90_seconds": 92.00000000000003,
+  "visual_motion_mean": 0.08973564858217765,
+  "visual_brightness_mean": 0.22781008503412256,
+  "dialogue_cues": 0,
+  "narrative_markers": {
+    "first_conflict_language": null,
+    "first_power_or_identity_language": null,
+    "first_care_or_belonging_language": null,
+    "dialogue_words_per_minute": [],
+    "cue_count": 0
+  }
+}
