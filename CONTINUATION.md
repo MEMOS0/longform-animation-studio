@@ -586,3 +586,11 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - Circular flashforward evidence: 00:08 vs 136:59 villain shot is near-identical; ending catches up to opening and stops mid-sentence because this is explicit series/compound packaging, not standalone closure evidence.
 - Added `zero_to_hero_integrity.py` to production evaluation. Committed report `knowledge/market/reelquest-zero-to-hero-serial-loop-deep-dive.md` and evidence under `evidence/research/rediscovery_analysis/U_Tecg95FWA/`.
 - Next priority queue candidates: `ylN26llRtmw` (40m sci-fi pregnancy/alpha alien), `oHKc_rXrxm8` (50m alien/Gladiator pregnancy), `Gx7nwqNr9YY` (100m werewolf surrogate). Compare serial/standalone closure carefully.
+
+## 2026-11-27 FANTASY MOVIE KINGDOM prohibition sci-fi checkpoint
+
+- Downloaded/analyzed `ylN26llRtmw` (40:27 horizontal post-apocalyptic sci-fi, about 839.7k views at collection, roughly 8.0k subscribers).
+- Major doctrine: sensory prohibition -> rescue countdown -> machine companion personhood -> false paradise exposure -> evidence-driven scapegoat reversal -> rule inversion/rebuilding closure -> sequel hook.
+- Added `prohibition_scifi_integrity.py` to production evaluation. Committed report `knowledge/market/fantasy-movie-kingdom-2050-prohibition-scifi-deep-dive.md` and evidence under `evidence/research/rediscovery_analysis/ylN26llRtmw/`.
+- Devin Review round at 6c503f7 was fixed/triaged: scene overrun masking, romance validator false-positive scope, teen age detection, age-disclosure rejection, blackmail repair suppression.
+- Next priority queue candidates: `oHKc_rXrxm8` (50m alien/Gladiator pregnancy), `Gx7nwqNr9YY` (100m werewolf surrogate), then refresh low-subscriber breakout scan.
