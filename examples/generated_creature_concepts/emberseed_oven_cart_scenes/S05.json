@@ -54,25 +54,29 @@
         "beat": "external_pressure",
         "speaker": "coal guild",
         "line": "Thief. You stole fire and hid the proof.",
-        "action": "public accusation turns the creature into evidence"
+        "action": "public accusation turns the creature into evidence",
+        "subtext": "public shame is being used to force the creature into visibility as evidence"
       },
       {
         "beat": "witness_objection",
         "speaker": "a flour miller",
         "line": "Show the child and this ends.",
-        "action": "a flour miller offers the safer betrayal"
+        "action": "a flour miller offers the safer betrayal",
+        "subtext": "the safer betrayal sounds merciful because it promises immediate social peace"
       },
       {
         "beat": "protagonist_decision",
         "speaker": "Lio",
         "line": "I saved her from you. That isn't theft.",
-        "action": "Lio shields the creature before defending reputation"
+        "action": "Lio shields the creature before defending reputation",
+        "subtext": "the protagonist protects before defending reputation, proving the hierarchy of values"
       },
       {
         "beat": "evidence_or_cost",
         "speaker": "Lio",
         "line": "The proof is already beyond your ledger.",
-        "action": "the blackened brass oven key passes out of institutional control"
+        "action": "the blackened brass oven key passes out of institutional control",
+        "subtext": "the proof escaping the ledger means truth no longer belongs to the institution that controlled it"
       }
     ]
   },

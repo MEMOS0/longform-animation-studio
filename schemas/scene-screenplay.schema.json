@@ -116,6 +116,9 @@
               },
               "action": {
                 "type": "string"
+              },
+              "subtext": {
+                "type": "string"
               }
             }
           }

@@ -54,25 +54,29 @@
         "beat": "external_pressure",
         "speaker": "coal guild",
         "line": "Take the rescue. Sign the apology.",
-        "action": "institutional rescue is offered before restitution"
+        "action": "institutional rescue is offered before restitution",
+        "subtext": "the institution prefers a rescue narrative that preserves its authority instead of making restitution"
       },
       {
         "beat": "witness_objection",
         "speaker": "a flour miller",
         "line": "She won't come forward while you hold the papers.",
-        "action": "the creature remains outside reach until consent is possible"
+        "action": "the creature remains outside reach until consent is possible",
+        "subtext": "the creature cannot consent while legal coercion remains in the room"
       },
       {
         "beat": "protagonist_decision",
         "speaker": "Lio",
         "line": "Return what your papers stole before you ask for trust.",
-        "action": "the protagonist refuses the shortcut public win"
+        "action": "the protagonist refuses the shortcut public win",
+        "subtext": "the protagonist refuses a shortcut victory because trust without repair would repeat the original theft"
       },
       {
         "beat": "evidence_or_cost",
         "speaker": "Lio",
         "line": "Let her choose. Let the fire answer first.",
-        "action": "the emberseed bird child is allowed to move forward by choice"
+        "action": "the emberseed bird child is allowed to move forward by choice",
+        "subtext": "consent is staged materially before language, so the creature is not merely won as a prize"
       }
     ]
   },

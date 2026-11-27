@@ -81,6 +81,11 @@ def evaluate_scenes_dialogue(scenes: list[dict[str, Any]]) -> dict[str, Any]:
                 continue
             if not all(turn.get(key) for key in ("beat", "speaker", "line", "action")):
                 exchange_warnings.append(f"spoken exchange turn {turn_no} missing beat/speaker/line/action")
+            subtext = str(turn.get("subtext") or "").strip()
+            if exchange and not subtext:
+                exchange_warnings.append(f"spoken exchange turn {turn_no} lacks psychological subtext")
+            elif subtext and subtext.lower() == str(turn.get("line", "")).strip().lower():
+                exchange_warnings.append(f"spoken exchange turn {turn_no} repeats the spoken line as subtext")
             words = re.findall(r"[\w']+", str(turn.get("line", "")).lower())
             if len(words) > 18:
                 exchange_warnings.append(f"spoken exchange turn {turn_no} is too long for a power-turn line")

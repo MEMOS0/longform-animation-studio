@@ -860,3 +860,15 @@ def test_failure_intelligence_accepts_modern_rebirth_clock_and_proof():
     result=evaluate_candidate('Reborn heir disowns his sisters and makes them pay',[],script)
     ids=[p['id'] for p in result['matched_failure_patterns']]
     assert 'modern_rebirth_revenge_without_clock_or_proof' not in ids
+
+
+def test_creature_spoken_exchange_contains_scene_specific_subtext():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    scene=generate_scenes(premise,generate_architecture(premise))[0]
+    exchange=scene['dialogue_design']['spoken_exchange']
+    assert all(t.get('subtext') for t in exchange)
+    assert exchange[0]['subtext'] != exchange[0]['line']
+    assert 'illegality' in exchange[0]['subtext']

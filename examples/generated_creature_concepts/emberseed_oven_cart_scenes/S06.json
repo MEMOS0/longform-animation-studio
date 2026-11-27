@@ -54,25 +54,29 @@
         "beat": "external_pressure",
         "speaker": "a flour miller",
         "line": "Give me the proof. I can carry it faster.",
-        "action": "help threatens to become takeover"
+        "action": "help threatens to become takeover",
+        "subtext": "help becomes dangerous when speed quietly transfers authorship away from the person who paid the cost"
       },
       {
         "beat": "witness_objection",
         "speaker": "care network witness",
         "line": "If one pair of hands carries it, one pair of hands can bury it.",
-        "action": "the witness makes the cost of surrendering authorship concrete"
+        "action": "the witness makes the cost of surrendering authorship concrete",
+        "subtext": "the witness understands that whoever controls the proof can also erase it"
       },
       {
         "beat": "protagonist_decision",
         "speaker": "Lio",
         "line": "Help me carry it. Don't carry my choice.",
-        "action": "the protagonist accepts help while keeping control of the proof"
+        "action": "the protagonist accepts help while keeping control of the proof",
+        "subtext": "the protagonist accepts support while keeping moral agency and public accountability"
       },
       {
         "beat": "evidence_or_cost",
         "speaker": "Lio",
         "line": "Heat, timing, witnesses—line them up.",
-        "action": "the proof chain becomes a physical arrangement"
+        "action": "the proof chain becomes a physical arrangement",
+        "subtext": "the proof chain must become procedural and physical so emotion cannot be dismissed as rumor"
       }
     ]
   },

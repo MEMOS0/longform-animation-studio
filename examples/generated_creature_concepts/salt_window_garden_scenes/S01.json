@@ -54,25 +54,29 @@
         "beat": "external_pressure",
         "speaker": "land trust",
         "line": "Paying hands first, Nura. Step away from the pump.",
-        "action": "the crowd blocks the public resource threshold"
+        "action": "the crowd blocks the public resource threshold",
+        "subtext": "need is being framed as illegality so control of the resource stays unquestioned"
       },
       {
         "beat": "witness_objection",
         "speaker": "her grandmother",
         "line": "Don't lift her into the crowd—she'll bolt.",
-        "action": "her grandmother shifts between the crowd and the creature"
+        "action": "her grandmother shifts between the crowd and the creature",
+        "subtext": "intervention can become exposure if panic drives the creature into the crowd"
       },
       {
         "beat": "protagonist_decision",
         "speaker": "Nura",
         "line": "I hide her first. Questions after she's safe.",
-        "action": "Nura kneels and covers the creature"
+        "action": "Nura kneels and covers the creature",
+        "subtext": "safety outranks being understood or socially approved"
       },
       {
         "beat": "evidence_or_cost",
         "speaker": "her grandmother",
         "line": "Look at the water. It moved when she cried.",
-        "action": "the water response becomes visible to the nearest witness"
+        "action": "the water response becomes visible to the nearest witness",
+        "subtext": "the creature's response makes personhood materially visible before anyone can explain it"
       }
     ]
   },

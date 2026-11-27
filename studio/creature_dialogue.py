@@ -85,11 +85,62 @@ def creature_dialogue_materials(ctx: dict[str, Any], index: int) -> dict[str, An
         ],
     ][index - 1]
 
+    subtexts = [
+        [
+            "need is being framed as illegality so control of the resource stays unquestioned",
+            "intervention can become exposure if panic drives the creature into the crowd",
+            "safety outranks being understood or socially approved",
+            "the creature's response makes personhood materially visible before anyone can explain it",
+        ],
+        [
+            "care is being offered, but only inside a labor hierarchy that can become control",
+            "the witness is warning that charity becomes exploitation the moment suffering gets priced",
+            "accepting work preserves dignity while refusing to convert pain into currency",
+            "the object is a means of passage, not a claim of ownership",
+        ],
+        [
+            "the offer is seductive because one small wound could erase an unbearable debt",
+            "the objection names the moral cost before anyone can call the bargain practical",
+            "the protagonist refuses in the present tense because the creature's fear matters more than the argument",
+            "the antagonist tries to make the creature's body testify against its own personhood",
+        ],
+        [
+            "competence is dangerous to the authority because it exposes whom the system actually depends on",
+            "the witness is not defending the protagonist emotionally; they are defending results they personally verified",
+            "the protagonist asks for evidence to be tested rather than asking to be believed",
+            "the infrastructure itself becomes a witness that contradicts institutional authorship",
+        ],
+        [
+            "public shame is being used to force the creature into visibility as evidence",
+            "the safer betrayal sounds merciful because it promises immediate social peace",
+            "the protagonist protects before defending reputation, proving the hierarchy of values",
+            "the proof escaping the ledger means truth no longer belongs to the institution that controlled it",
+        ],
+        [
+            "help becomes dangerous when speed quietly transfers authorship away from the person who paid the cost",
+            "the witness understands that whoever controls the proof can also erase it",
+            "the protagonist accepts support while keeping moral agency and public accountability",
+            "the proof chain must become procedural and physical so emotion cannot be dismissed as rumor",
+        ],
+        [
+            "the institution prefers a rescue narrative that preserves its authority instead of making restitution",
+            "the creature cannot consent while legal coercion remains in the room",
+            "the protagonist refuses a shortcut victory because trust without repair would repeat the original theft",
+            "consent is staged materially before language, so the creature is not merely won as a prize",
+        ],
+        [
+            "victory creates a final temptation to turn protection into domination",
+            "material survival interrupts triumph because revenge cannot feed the community",
+            "the protagonist converts the old exclusion mechanism into shared infrastructure",
+            "non-possessive belonging is confirmed only when the creature is free to leave or stay",
+        ],
+    ][index - 1]
+
     beat_names = ["external_pressure", "witness_objection", "protagonist_decision", "evidence_or_cost"]
     return {
         "key_lines": key_lines,
         "spoken_exchange": [
-            {"beat": beat, "speaker": speaker, "line": line, "action": action}
-            for beat, (speaker, line, action) in zip(beat_names, exchanges)
+            {"beat": beat, "speaker": speaker, "line": line, "action": action, "subtext": subtext}
+            for beat, (speaker, line, action), subtext in zip(beat_names, exchanges, subtexts)
         ],
     }

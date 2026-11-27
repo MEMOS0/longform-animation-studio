@@ -54,25 +54,29 @@
         "beat": "external_pressure",
         "speaker": "coal guild",
         "line": "One feather, and your debt is gone.",
-        "action": "the offer converts creature pain into economic rescue"
+        "action": "the offer converts creature pain into economic rescue",
+        "subtext": "the offer is seductive because one small wound could erase an unbearable debt"
       },
       {
         "beat": "witness_objection",
         "speaker": "a flour miller",
         "line": "A cheap miracle is still a wound.",
-        "action": "a flour miller blocks the reach toward the creature"
+        "action": "a flour miller blocks the reach toward the creature",
+        "subtext": "the objection names the moral cost before anyone can call the bargain practical"
       },
       {
         "beat": "protagonist_decision",
         "speaker": "Lio",
         "line": "Not while she's shaking.",
-        "action": "Lio steps into the reach instead of arguing abstractions"
+        "action": "Lio steps into the reach instead of arguing abstractions",
+        "subtext": "the protagonist refuses in the present tense because the creature's fear matters more than the argument"
       },
       {
         "beat": "evidence_or_cost",
         "speaker": "coal guild",
         "line": "Look at those feathers. Even she knows what you're worth.",
-        "action": "fear moves through the creature's feathers, making the cost visible"
+        "action": "fear moves through the creature's feathers, making the cost visible",
+        "subtext": "the antagonist tries to make the creature's body testify against its own personhood"
       }
     ]
   },

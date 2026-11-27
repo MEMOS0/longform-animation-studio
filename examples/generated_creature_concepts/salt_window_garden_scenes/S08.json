@@ -54,25 +54,29 @@
         "beat": "external_pressure",
         "speaker": "land trust",
         "line": "You win. Now make them pay.",
-        "action": "the ending is tempted toward revenge"
+        "action": "the ending is tempted toward revenge",
+        "subtext": "victory creates a final temptation to turn protection into domination"
       },
       {
         "beat": "witness_objection",
         "speaker": "her grandmother",
         "line": "Revenge won't fill one cup.",
-        "action": "the community's material need interrupts triumph"
+        "action": "the community's material need interrupts triumph",
+        "subtext": "material survival interrupts triumph because revenge cannot feed the community"
       },
       {
         "beat": "protagonist_decision",
         "speaker": "Nura",
         "line": "This pump is not a cage anymore.",
-        "action": "the exclusion threshold is opened for communal use"
+        "action": "the exclusion threshold is opened for communal use",
+        "subtext": "the protagonist converts the old exclusion mechanism into shared infrastructure"
       },
       {
         "beat": "evidence_or_cost",
         "speaker": "her grandmother",
         "line": "She crossed by herself. Leave the door open.",
-        "action": "the creature's free crossing confirms non-possessive belonging"
+        "action": "the creature's free crossing confirms non-possessive belonging",
+        "subtext": "non-possessive belonging is confirmed only when the creature is free to leave or stay"
       }
     ]
   },

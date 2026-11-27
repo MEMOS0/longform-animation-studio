@@ -54,25 +54,29 @@
         "beat": "external_pressure",
         "speaker": "coal guild",
         "line": "Paying hands first, Lio. Step away from the oven.",
-        "action": "the crowd blocks the public resource threshold"
+        "action": "the crowd blocks the public resource threshold",
+        "subtext": "need is being framed as illegality so control of the resource stays unquestioned"
       },
       {
         "beat": "witness_objection",
         "speaker": "a flour miller",
         "line": "Don't lift her into the crowd—she'll bolt.",
-        "action": "a flour miller shifts between the crowd and the creature"
+        "action": "a flour miller shifts between the crowd and the creature",
+        "subtext": "intervention can become exposure if panic drives the creature into the crowd"
       },
       {
         "beat": "protagonist_decision",
         "speaker": "Lio",
         "line": "I hide her first. Questions after she's safe.",
-        "action": "Lio kneels and covers the creature"
+        "action": "Lio kneels and covers the creature",
+        "subtext": "safety outranks being understood or socially approved"
       },
       {
         "beat": "evidence_or_cost",
         "speaker": "a flour miller",
         "line": "Look at the fire. It moved when she cried.",
-        "action": "the fire response becomes visible to the nearest witness"
+        "action": "the fire response becomes visible to the nearest witness",
+        "subtext": "the creature's response makes personhood materially visible before anyone can explain it"
       }
     ]
   },

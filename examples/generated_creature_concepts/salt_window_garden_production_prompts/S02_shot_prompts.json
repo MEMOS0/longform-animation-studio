@@ -157,7 +157,7 @@
     "camera_intent": "slow tightening",
     "dialogue": "This roof feeds workers, not miracles.",
     "audio_direction": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture; creature/child breath and contact sounds remain specific rather than generic cute noise",
-    "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions; subtext: care is being offered, but only inside a labor hierarchy that can become control",
     "continuity_dependencies": [
       "protagonist_face_costume",
       "location_geography",
@@ -353,7 +353,7 @@
     "camera_intent": "slow lateral drift",
     "dialogue": "But hunger isn't a bill yet. Don't price her before she eats.",
     "audio_direction": "music may form a small rhythmic motif only after work/shelter becomes chosen rather than charitable",
-    "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation; subtext: the witness is warning that charity becomes exploitation the moment suffering gets priced",
     "continuity_dependencies": [
       "protagonist_face_costume",
       "location_geography",
@@ -402,7 +402,7 @@
     "camera_intent": "static intimate",
     "dialogue": "Then I'll work. I won't sell her pain for a bed.",
     "audio_direction": "music drops before decision",
-    "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible; subtext: accepting work preserves dignity while refusing to convert pain into currency",
     "continuity_dependencies": [
       "protagonist_face_costume",
       "location_geography",
@@ -647,7 +647,7 @@
     "camera_intent": "slow pull-back",
     "dialogue": "The blue glass salt vial opens a way. It doesn't make her ours.",
     "audio_direction": "blue glass vial taps, salt grains, water droplets, fin movement, and pump-stone resonance unresolved",
-    "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power; subtext: the object is a means of passage, not a claim of ownership",
     "continuity_dependencies": [
       "protagonist_face_costume",
       "location_geography",

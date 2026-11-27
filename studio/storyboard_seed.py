@@ -112,7 +112,7 @@ def build_seed_board(scene: dict[str, Any], continuity_dependencies: list[str] |
             "sound_design": sound_text,
             "generation_lane": lane,
             "continuity_dependencies": continuity_dependencies or ["protagonist_face_costume", "location_geography", "relationship_continuity", "meaning_carrier_continuity", "sound_motif_continuity"],
-            "director_note": "director seed generated from exact scene fields; refine staging before production: " + note,
+            "director_note": "director seed generated from exact scene fields; refine staging before production: " + note + (("; subtext: " + str(exchange_turn.get("subtext"))) if exchange_turn and exchange_turn.get("subtext") and not repeated_dialogue_beat else ""),
         })
         cursor = shot_end
     return {

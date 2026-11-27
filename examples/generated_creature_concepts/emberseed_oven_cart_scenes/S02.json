@@ -54,25 +54,29 @@
         "beat": "external_pressure",
         "speaker": "a flour miller",
         "line": "This roof feeds workers, not miracles.",
-        "action": "shelter is offered as labor rather than charity"
+        "action": "shelter is offered as labor rather than charity",
+        "subtext": "care is being offered, but only inside a labor hierarchy that can become control"
       },
       {
         "beat": "witness_objection",
         "speaker": "a flour miller",
         "line": "But hunger isn't a bill yet. Don't price her before she eats.",
-        "action": "the caregiver names the safe boundary before help becomes control"
+        "action": "the caregiver names the safe boundary before help becomes control",
+        "subtext": "the witness is warning that charity becomes exploitation the moment suffering gets priced"
       },
       {
         "beat": "protagonist_decision",
         "speaker": "Lio",
         "line": "Then I'll work. I won't sell her pain for a bed.",
-        "action": "the protagonist accepts work while refusing monetized suffering"
+        "action": "the protagonist accepts work while refusing monetized suffering",
+        "subtext": "accepting work preserves dignity while refusing to convert pain into currency"
       },
       {
         "beat": "evidence_or_cost",
         "speaker": "Lio",
         "line": "The blackened brass oven key opens a way. It doesn't make her ours.",
-        "action": "the blackened brass oven key is set beside the creature rather than used as a claim"
+        "action": "the blackened brass oven key is set beside the creature rather than used as a claim",
+        "subtext": "the object is a means of passage, not a claim of ownership"
       }
     ]
   },
