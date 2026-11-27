@@ -996,3 +996,11 @@ def test_screenplay_renderer_produces_annotated_professional_draft():
     assert "Pump's for paying households" in text
     assert 'FINAL IMAGE' in text
     assert 'EXIT HOOK' in text
+
+
+def test_screenplay_renderer_preserves_default_key_lines_without_spoken_exchange():
+    from studio.screenplay_renderer import render_scene
+    scene={'scene_id':'S01','time_range':'0-5','objective':'test','power_position_start':'low','power_position_end':'high','visual_action':{},'sound_design':{},'edit_hook':{},'dialogue_design':{'key_lines':['I refuse to vanish.']}}
+    text=render_scene(scene)
+    assert 'KEY DIALOGUE' in text
+    assert 'I refuse to vanish.' in text

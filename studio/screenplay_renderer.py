@@ -57,6 +57,10 @@ def render_scene(scene: dict[str, Any]) -> str:
         "",
     ]
     exchange = dialogue.get("spoken_exchange") or []
+    if not exchange and dialogue.get("key_lines"):
+        lines.extend(["KEY DIALOGUE", ""])
+        for key_line in dialogue.get("key_lines") or []:
+            lines.extend([f"- {key_line}", ""])
     for turn in exchange:
         action = sentence(turn.get("action", ""))
         if action:
