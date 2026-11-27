@@ -38,14 +38,17 @@ def _first_non_negated(pattern: str, text: str) -> int | None:
         prefix = text[sentence_start:match.start()]
         positive_completion = re.search(r"not hesitate to\s*$|without hesitation\s*$|without (?:my|your|his|her|their) permission\s*$", prefix)
         negated = re.search(r"\b(?:refus\w*|withhold\w*|without|never|not)\b(?:\s+\w+){0,3}\s*$", prefix)
-        if positive_completion or not negated:
+        sentence_end_positions = [pos for pos in [text.find(".", match.end()), text.find("!", match.end()), text.find("?", match.end()), text.find("\n", match.end())] if pos != -1]
+        sentence_end = min(sentence_end_positions) if sentence_end_positions else len(text)
+        conditional_constraint = re.search(r"\bonly (?:after|if|when)\b", text[match.end():sentence_end])
+        if (positive_completion or not negated) and not conditional_constraint:
             return match.start()
     return None
 
 
 def _order_status(text: str, before_pattern: str, after_pattern: str) -> bool | None:
-    before = _first(before_pattern, text)
-    after = _first(after_pattern, text)
+    before = _first_non_negated(before_pattern, text)
+    after = _first_non_negated(after_pattern, text)
     if before is None or after is None:
         return None
     return before < after
@@ -94,10 +97,13 @@ def evaluate_protective_kinship_integrity(premise: dict[str, Any], architecture:
         "instrumental_marriage_betrayal_is_named": bool(re.search(r"used (?:me|her|him)|chose (?:me|her|him) because|needed (?:her|his) strength|without telling (?:her|him) the truth|instrumental marriage|marriage is anything but a bargain", flat)),
         "material_autonomy_transfer_precedes_intimacy": source_order(autonomy_pattern, intimacy_pattern),
         "truth_disclosure_precedes_re_choice": source_order(truth_pattern, rechoice_pattern),
-        "consent_preserving_re_choice": bool(_first_non_negated(r"can refuse|can leave|free to leave|you don.?t have to|if you need time|asks? permission|permission to touch|uncoerced|freely chosen", chronology)),
+        "consent_preserving_re_choice": bool(_first_non_negated(r"can refuse|can leave|free to leave|you don.?t have to|if you need time|asks? permission|permission to touch|with (?:her|his|their) permission|uncoerced|freely chosen", chronology)),
         "child_power_is_not_property": bool(
             re.search(r"child .{0,50}(?:power|gift|magic|flame|healing)|healing (?:flame|gift)|magical gift", flat)
-            and re.search(r"belongs? to (?:herself|himself|themselves)|not (?:a )?(?:miracle|object|property)|(?:rejects?|refuses?|challenges?|objects? to|condemns?|denounces?|opposes?)[^.!?]{0,80}children as property", flat)
+            and (
+            re.search(r"belongs? to (?:herself|himself|themselves)|not (?:a )?(?:miracle|object|property)", flat)
+            or _first_non_negated(r"(?:rejects?|refuses?|challenges?|objects? to|condemns?|denounces?|opposes?)[^.!?]{0,80}children as property", flat) is not None
+        )
         ),
         "exploitative_blood_family_is_rejected": bool(re.search(r"blood is blood|birth family|stepmother|father .{0,40}(?:debt|money)|family has missed you", flat) and re.search(r"owe nothing|reject|refuse|do not answer|threw .{0,30}fire|make them somewhere else", flat)),
         "closure_is_durable_chosen_family_labor": bool(re.search(r"years later|time jump|wedding renewal|breakfast|ordinary|home|children .{0,40}(?:choose|leave only when)|domestic continuity|shared nighttime labor", chronology_flat[-max(1, len(chronology_flat) // 2):])),

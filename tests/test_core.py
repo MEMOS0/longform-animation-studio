@@ -3811,3 +3811,82 @@ def test_protective_kinship_condemns_child_property_counts_as_rejection():
     premise,architecture,scenes=_protective_kinship_fixture()
     architecture['sequences'][4]={'summary':'The prince claims her magical gift, but Mira condemns treating children as property. He tells her she can refuse. She chooses a real marriage and kisses him.'}
     assert evaluate_protective_kinship_integrity(premise,architecture,scenes)['checks']['child_power_is_not_property'] is True
+
+def _constructive_restoration_fixture():
+    premise={
+      'title':'The Circuit Shepherd',
+      'logline':'An orphaned mechanic is taken in without payment, learns repair from a mentor, and restores machines in a wrecked science-fiction frontier.',
+    }
+    architecture={'sequences':[
+      {'summary':'The orphaned girl is homeless until a workshop keeper offers food, shelter, and care without asking payment.'},
+      {'summary':'She repairs a small lamp circuit and radio first, then fixes a robot servo and a damaged vehicle while the mentor supervises her hands-on work.'},
+      {'summary':'She is paid fair wages, earns independent workshop commissions, and the crew needs her as trusted mechanic because only she can keep the transport running. Money buys tools, parts, supplies, and repair capacity.'},
+      {'summary':'After invasion and corporate extraction, the victors owe restitution and must help rebuild what the war damaged. A combat unit war machine is converted into shelter power, workshop labor, and care infrastructure.'},
+      {'summary':'An ancient advanced station becomes usable infrastructure: power, water, transport, repair bay, home, and a ship network. She teaches a childlike robot apprentice, completing the mentorship cycle.'},
+      {'summary':'In the finale the crew runs diagnostics, a trial run, systems checks, and a maiden flight launch proving the tested systems before a new journey.'},
+    ]}
+    return premise,architecture,[]
+
+
+def test_constructive_restoration_fixture_passes_core_checks():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise,architecture,scenes=_constructive_restoration_fixture()
+    result=evaluate_constructive_restoration_integrity(premise,architecture,scenes)
+    assert result['applies'] is True
+    assert result['checks']['repair_object_competence_ladder'] is True
+    assert result['checks']['weapon_is_repurposed_into_care_or_work_infrastructure'] is True
+    assert result['checks']['finale_demonstrates_capability_through_tested_systems'] is True
+
+
+def test_constructive_restoration_spectacle_without_restoration_warns():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise={'title':'The Miracle Ship','logline':'A drifter witnesses an alien machine.'}
+    architecture={'sequences':[
+      {'summary':'A homeless orphan is given food and shelter.'},
+      {'summary':'A miraculous alien ship appears and the mentor instantly fixes every machine while armies fight a war for treasure.'},
+    ]}
+    scenes=[]
+    result=evaluate_constructive_restoration_integrity(premise,architecture,scenes)
+    assert result['checks']['repair_object_competence_ladder'] is False
+    assert result['checks']['war_conflict_carries_restitution_ethic'] is False
+    assert result['checks']['weapon_is_repurposed_into_care_or_work_infrastructure'] is False
+
+
+def test_constructive_restoration_does_not_apply_to_romance_without_repair():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    result=evaluate_constructive_restoration_integrity({'title':'Contract Bride','logline':'A duchess enters a marriage bargain.'},{'sequences':[{'summary':'Ballrooms and inheritance conflict.'}]},[])
+    assert result['applies'] is False
+
+def test_maternal_modal_not_hesitation_is_not_completed_release():
+    from studio.maternal_sovereignty_integrity import _first_non_negated
+    pattern=r'signs? (?:the )?divorce papers'
+    assert _first_non_negated(pattern,'he would not hesitate to sign the divorce papers, but leaves them unsigned') is None
+    assert _first_non_negated(pattern,'he does not hesitate to sign the divorce papers') is not None
+
+
+def test_protective_truth_refusal_and_conditional_exit_do_not_count():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise,architecture,scenes=_protective_kinship_fixture()
+    architecture['sequences'][3]={'summary':'He refuses to tell Mira the truth. He transfers treasury keys, accounts, money, and control.'}
+    architecture['sequences'][4]={'summary':'He says she can leave only after marrying him. She chooses a real marriage and kisses him. Her healing gift belongs to herself.'}
+    result=evaluate_protective_kinship_integrity(premise,architecture,scenes)
+    assert result['checks']['truth_disclosure_precedes_re_choice'] is False
+    assert result['checks']['consent_preserving_re_choice'] is False
+
+
+def test_protective_with_permission_and_negated_child_condemnation():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity,_first_non_negated
+    assert _first_non_negated(r'with (?:her|his|their) permission','he kisses her with her permission') is not None
+    premise,architecture,scenes=_protective_kinship_fixture()
+    architecture['sequences'][4]={'summary':'The prince claims her magical gift and never condemns treating children as property. He tells her she can refuse. She chooses a real marriage and kisses him.'}
+    assert evaluate_protective_kinship_integrity(premise,architecture,scenes)['checks']['child_power_is_not_property'] is False
+
+
+def test_restitution_prior_not_if_does_not_hide_actual_betrayal():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    architecture['sequences']=[
+      {'summary':'They vow to protect her forever. She asks whether they will abandon her, and he says not if'},
+      {'summary':'they betray her, the pact restores her sight.'},
+    ]
+    assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is True
