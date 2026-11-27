@@ -614,3 +614,13 @@ Evidence: `knowledge/market/moisten-codename-j-relational-serial-format-deep-div
 For serialized action/thriller storytelling, missions are not the emotional engine. Build a durable intimate anchor — friend, sister, chosen family, civilian, mentor, or lover — and make institutional betrayal concretely threaten that bond. Open chapters with relational consequence (return, disappearance, guilt, broken promise, estrangement), not only mission mechanics. Antagonists should weaponize attachment rather than merely attack the protagonist. Ordinary life needs concrete texture (food, school, work, birthdays, games, home), but operational or geopolitical exposition must carry immediate personal cost. Chapters may end unresolved if the ending is an active turn: abduction, revelation, betrayal, forced choice, or arrival of a hunter. Compilations need a relational throughline across opening, middle, and ending rather than simple episode concatenation.
 
 Counterweights: MoistenAI's low-long-tail Hana side story is emotionally strong despite weak discovery; low views do not prove weak writing. The hit chapter survived a two-minute sponsor opening, but that is evidence of franchise tolerance, not a recommendation to copy sponsor-first structure.
+
+### Child-oracle family mystery doctrine
+
+- Impossible child knowledge should first protect someone before it is explained or exchanged for family reward.
+- Adults must doubt, stigmatize, or institutionally endanger the child; belief that arrives too easily removes the social friction.
+- Identity should be proven procedurally through escalating evidence—records, witnesses, tests, sealed samples, payment trails—not a single declaration.
+- The child's power needs cost, instability, or rules, while the child retains ordinary appetites, fear, play, and attachment needs.
+- Antagonists should attack the child/evidence chain because the child's knowledge threatens hidden crimes.
+- The ending should test whether love remains when usefulness disappears: secure attachment replaces supernatural vigilance.
+- Counterexample discipline: Evening Star's early-low comparator has a strong child/DNA/time-travel opening, so low discovery is not proof of a weak opening or weak writing. Avoid overloading child-oracle stories with corporate exposition that does not threaten the child-family bond.

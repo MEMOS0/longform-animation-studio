@@ -1,0 +1,84 @@
+{
+  "video_id": "nw4JMSvyWJA",
+  "probe": {
+    "duration": 2392.026848,
+    "size": 125137103,
+    "width": 360,
+    "height": 628,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\nw4JMSvyWJA\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\nw4JMSvyWJA\\contact_sheets\\contact_001.jpg",
+    "evidence\\media\\nw4JMSvyWJA\\contact_sheets\\contact_002.jpg",
+    "evidence\\media\\nw4JMSvyWJA\\contact_sheets\\contact_003.jpg",
+    "evidence\\media\\nw4JMSvyWJA\\contact_sheets\\contact_004.jpg",
+    "evidence\\media\\nw4JMSvyWJA\\contact_sheets\\contact_005.jpg"
+  ],
+  "seconds_indexed": 2392,
+  "shot_count": 73,
+  "shot_length_mean_seconds": 32.76712328767123,
+  "shot_length_median_seconds": 21.0,
+  "shot_length_p90_seconds": 83.59999999999998,
+  "visual_motion_mean": 0.13493687401305304,
+  "visual_brightness_mean": 0.30918705817405445,
+  "dialogue_cues": 1299,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 247.04,
+      "text": "You are a cold-blooded monster."
+    },
+    "first_power_or_identity_language": {
+      "time": 47.6,
+      "text": "Street power, not some random kid. Quit"
+    },
+    "first_care_or_belonging_language": {
+      "time": 25.519,
+      "text": "finally be a family again. Cen, is this"
+    },
+    "dialogue_words_per_minute": [
+      179,
+      204,
+      196,
+      203,
+      229,
+      184,
+      163,
+      221,
+      242,
+      217,
+      237,
+      152,
+      249,
+      216,
+      155,
+      236,
+      157,
+      216,
+      217,
+      198,
+      210,
+      177,
+      209,
+      224,
+      184,
+      183,
+      196,
+      235,
+      135,
+      207,
+      210,
+      212,
+      238,
+      253,
+      238,
+      170,
+      262,
+      272,
+      222,
+      187
+    ],
+    "cue_count": 1299
+  }
+}
