@@ -321,7 +321,7 @@ Latest pushed commit before this note: `26da784bd7f09a39180e46e07ff59b5f0962e389
 
 ## 2026-11-27 rotation handoff — cozy disaster-shelter integrated
 
-Latest local commit sequence includes cozy validator work after `1e8ddf7`; push status must be checked before rotation. Completed:
+Latest pushed commit: `3c6858e30fed6a02620256064c04f83c573fbd84`. Cozy evidence/report is pushed in `3a8cef3`; labor/cozy validator review fixes are pushed in `3c6858e`. Completed:
 
 - Ghibli Cozy Journey hit `nXgxtduBGUc` and low `NHc0KVHtfQo` downloaded in full, machine-indexed second-by-second, contact-sheet inspected, keyframe sampled, and audited in three five-minute audio segments each.
 - No exposed subtitles existed; dialogue quotations in the report are approximate model-assisted auditory transcription/translation.
@@ -330,4 +330,4 @@ Latest local commit sequence includes cozy validator work after `1e8ddf7`; push 
 - Skill, thumbnail intelligence, and queue updated in this checkpoint.
 - Critical doctrine: ordinary labor before catastrophe; meaningful owned/claimed shelter; inside/outside warmth-danger contrast; inventoried scarcity; meaningful object sacrifice; care interrupting threat; child/animal participation; resolution as rebuilding/restored connection. The Sahara low comparator is a strong counterexample, not weak-writing proof.
 
-Immediate next work: commit/push cozy report/evidence; handle any new PR review findings first; then scan fresh low-subscriber breakout leads outside already-covered romance/fantasy/creature/cozy-shelter mechanisms. Do not use subagents.
+Immediate next work: handle any new PR review findings first; then scan fresh low-subscriber breakout leads outside already-covered romance/fantasy/creature/cozy-shelter mechanisms. Do not use subagents. Cozy report/evidence is already committed and pushed. Current suite: 471 tests passed.
