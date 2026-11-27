@@ -37,12 +37,7 @@ STIGMA_PATTERN = re.compile(r"freak|monster|abnormal|can't control|cannot contro
 
 
 def _has_stigmatized_capability(text: str) -> bool:
-    segments = _segments(text)
-    for index, segment in enumerate(segments):
-        window = " ".join(segments[max(0, index - 1):index + 2])
-        if CAPABILITY_PATTERN.search(window) and STIGMA_PATTERN.search(window):
-            return True
-    return False
+    return bool(CAPABILITY_PATTERN.search(text) and STIGMA_PATTERN.search(text))
 
 
 def evaluate_capability_inversion_care_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
@@ -70,7 +65,7 @@ def evaluate_capability_inversion_care_integrity(premise: dict[str, Any], archit
     checks = {
         "ability_is_costly_before_it_is_valuable": bool(re.search(r"freak|can't control|cannot control|damage|insurance|no job|fired|trouble|mock|rejected|labeled", full)),
         "labor_revalues_ability_as_protection_not_domination": bool(re.search(r"bodyguard|protect|security assistant|hired|care assistance|keep .* safe|escort", full)),
-        "care_restores_agency_rather_than_infantilizing": bool(re.search(r"not.*only be taken care|do it yourself|your legs.*decide|practice|tool|agency|you can|stand.*own|independent", full)),
+        "care_restores_agency_rather_than_infantilizing": bool(re.search(r"not.*only be taken care|do it yourself|your legs.*decide|(?:your|their|his|her) legs.{0,40}choice|practice|tool|agency|you can|stand.*own|independent", full)),
         "disabled_person_retains_desire_competence_and_interiority": bool(re.search(r"cook|plan|business|work|decide|want|feel|confess|choice|protect|support|not.*object", full)),
         "caregiver_has_independent_labor_dignity": bool(re.search(r"farm|pig|butcher|parents|clean and honest|earn .* money|own two hands|home|labor|work", full)),
         "class_or_gender_inversion_creates_mutual_learning": bool(re.search(r"wealthy|estate|city|country|farm|street food|class|rich|poor|rural|homemade|local market", full)),

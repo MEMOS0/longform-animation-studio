@@ -4462,3 +4462,29 @@ def test_cozy_validator_possessive_home_intrusion_counts_as_disaster_onset():
     ]}
     result=evaluate_cozy_disaster_shelter_integrity(premise,architecture,[])
     assert result['checks']['ordinary_labor_establishes_world_before_disaster'] is False
+
+def test_capability_validator_explicit_leg_choice_counts_as_agency():
+    from studio.capability_inversion_care_integrity import evaluate_capability_inversion_care_integrity
+    premise={'logline':'A freakishly strong woman mocked as a freak is hired as bodyguard for a wheelchair CEO.'}
+    architecture={'sequences':[{'summary':'She tells him: your legs, your choice, and she protects him through care labor.'},{'summary':'When the job is done she chooses work and love freely.'}]}
+    result=evaluate_capability_inversion_care_integrity(premise,architecture,[])
+    assert result['checks']['care_restores_agency_rather_than_infantilizing'] is True
+
+
+def test_capability_validator_connects_separated_capability_and_stigma():
+    from studio.capability_inversion_care_integrity import evaluate_capability_inversion_care_integrity
+    premise={'logline':'A woman with superhuman strength is hired as bodyguard for a wheelchair CEO and falls in love.'}
+    architecture={'sequences':[{'summary':'She works quietly.'},{'summary':'She protects him.'},{'summary':'The town mocked her as a freak for the damage she caused.'}]}
+    assert evaluate_capability_inversion_care_integrity(premise,architecture,[])['applies'] is True
+
+
+def test_cozy_validator_household_pipe_is_not_disaster_onset():
+    from studio.cozy_disaster_shelter_integrity import evaluate_cozy_disaster_shelter_integrity
+    premise={'logline':'A family shelters during a storm.'}
+    architecture={'sequences':[
+        {'summary':'Water comes into their home through a pipe. They cook breakfast, harvest vegetables, and prepare food.'},
+        {'summary':'A storm floods the shelter and the family survives with food and drinking water.'},
+        {'summary':'After the storm they rebuild the house and share a warm meal.'},
+    ]}
+    result=evaluate_cozy_disaster_shelter_integrity(premise,architecture,[])
+    assert result['checks']['ordinary_labor_establishes_world_before_disaster'] is True
