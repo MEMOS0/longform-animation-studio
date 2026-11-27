@@ -2,6 +2,11 @@
 
 Discovery evidence only; age-adjusted views/day is not CTR/retention proof. Already-analyzed carryovers are excluded from the immediate queue unless useful as sequel/comparison cases.
 
+
+## Status update — 2026-11-27 late scan
+
+Completed and integrated since the queue was generated: `26o_ccDnTSg`, `xhqE43r-faA`, `dEup8AVWYKg`, `hozDtPcnnBA`. `iqCNxQ2_jSI` was already fully analyzed earlier as the Evening Star Chloe case; do not treat it as a new unanalyzed lead. Immediate remaining unanalyzed queue: `q0G2kx8-3tE`, `ZyovwVVUiCs`, `ULJ7-z1zm6M`, `9N6S6D_ioA0`, `icsZH4sDwTM`, plus newly refreshed candidates in `recent-breakout-candidates.md` after duplication checks.
+
 ## `26o_ccDnTSg` — Her New Husband Left Her at the Train Station After the Wedding: "You Don't Belong in My World"
 - Channel/subscribers: Nightfall Drama / 92400
 - Views/runtime/upload: 1949386 / 3414s / 2026-11-23

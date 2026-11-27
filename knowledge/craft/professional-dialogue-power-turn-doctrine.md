@@ -255,3 +255,12 @@ Evidence source: `knowledge/market/many-drama-elena-twin-deception-revenge-auton
 2. **Consent boundaries can be procedural.** “Private words usually start with asking” and “Stop confusing a room with ownership” turn public humiliation into a testable ethics violation.
 3. **Money dialogue should distinguish ownership from attention.** “I'm bidding for myself” and “She owns the formula” make wealth meaningful as authorship/control rather than spectacle.
 4. **Autonomy endings need nonpossessive responses.** “I won't belong to anyone again” / “Then I'll wait” / “Now I live” allows romance without transferring ownership.
+
+## Hidden-wealth institutional-power dialogue addendum (2026-11-27)
+
+Evidence source: `knowledge/market/lioren-billionaire-scholarship-hidden-wealth-counterexample-deep-dive.md`.
+
+1. **Competence dialogue should challenge assumptions, not merely insult status.** The finance lecture works because Ethan names concrete currency/terminal-value inconsistencies and demonstrates them publicly.
+2. **Anti-status lines are strongest when tied to behavior.** “Inherited influence is not understanding” is more durable than generic rich-versus-poor insults.
+3. **Trust repair language must be backed by time.** “Billions cannot buy back trust” and “no more secrets” are correct principles, but Lioren compresses the behavioral proof; original work should extend the repair.
+4. **Ordinary-family elders can carry disclosure ethics.** Olivia's father does not care about wealth; he cares that she learns the truth before accidental discovery.

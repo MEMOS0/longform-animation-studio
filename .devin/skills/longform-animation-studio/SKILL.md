@@ -494,3 +494,7 @@ For adult non-fantasy long-form melodrama, read `knowledge/market/nightfall-dram
 Before greenlighting revenge/return-from-presumed-death melodrama, read `knowledge/market/many-drama-elena-twin-deception-revenge-autonomy-deep-dive.md`. The portable mechanism is consent/power violation, physical survival cost, victim-chosen identity and revenge plan, rescuer support without ownership, objects as evidence/leverage, public-room reversal, procedural consequences, no forced forgiveness, and autonomy before deferred nonpossessive romance.
 
 Use the `revenge_autonomy_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy Elena/Eve, the twin plot, perfume objects, or thumbnail; extract the mechanism and build original stories.
+
+## 2026-11-27 hidden-wealth counterexample update
+
+Read `knowledge/market/lioren-billionaire-scholarship-hidden-wealth-counterexample-deep-dive.md` before using low-subscriber breakout velocity as a quality signal. Lioren shows that broad hidden-billionaire packaging, spatial class humiliation, public competence, and dramatic irony can break out even when trust repair and institutional accountability are compressed. Separate packaging appeal, discovery velocity, and durable craft quality. Existing `hidden_identity_integrity` remains the relevant gate; do not create a redundant validator.

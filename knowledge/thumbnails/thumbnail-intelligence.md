@@ -163,3 +163,9 @@ The Luke thumbnail uses class-crossing recognition: wet sidewalk, coin cup, home
 Evidence source: `knowledge/market/many-drama-elena-twin-deception-revenge-autonomy-deep-dive.md` and `data/raw/thumbnails/many_drama/dEup8AVWYKg.maxresdefault.jpg`.
 
 The Elena thumbnail sells passive rescue: unconscious bride-like woman, wet boat, kneeling rescuer, rain, sea, wealth trays. The film's retention engine is active revenge: victim-chosen alias, object/evidence leverage, public-room reversal, procedural consequences, and autonomy-first ending. Do not infer story mechanism from thumbnail alone; compare packaging promise to actual agency structure. This is packaging-alignment evidence, not CTR proof.
+
+## Contemporary hidden-royalty composite addendum (2026-11-27)
+
+Evidence source: `knowledge/market/lioren-billionaire-scholarship-hidden-wealth-counterexample-deep-dive.md` and `data/raw/thumbnails/lioren_studios/hozDtPcnnBA.maxresdefault.jpg`.
+
+The Lioren thumbnail uses a contemporary hidden-royalty composite: hooded poor-student silhouette, separated luminous heroine, luxury car, elite university architecture, parents/antagonist collage, graduation cues, crown icon, and oversized gold `Billionaire Heir` typography. It sells the reveal fantasy directly rather than a specific wound. Useful mechanism: make class duplicity legible through clothing contrast plus institutional architecture; do not confuse this broad fantasy packaging with proof of story depth.
