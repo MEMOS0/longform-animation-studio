@@ -19,10 +19,19 @@ def _affirmative_match(pattern: str, text: str) -> bool:
     for clause in re.split(r"[.!?;]", text):
         for match in re.finditer(pattern, clause):
             before = clause[:match.start()]
-            if re.search(r"(?:nobody|no one|never|without)\s+(?:\w+\s+){0,8}$", before):
+            if re.search(r"(?:nobody|no one|never|without|not|no)\s+(?:\w+\s+){0,8}$", before):
                 continue
             return True
     return False
+
+
+def _ending_tail(text: str) -> str:
+    sentences = [part.strip() for part in re.split(r"(?<=[.!?])\s+", text) if part.strip()]
+    if len(sentences) == 1:
+        return text
+    if sentences:
+        return "\n".join(sentences[-max(1, len(sentences) // 3):])
+    return text[-max(1, len(text) // 3):] if text else ""
 
 
 def evaluate_wrongful_accusation_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
@@ -31,12 +40,12 @@ def evaluate_wrongful_accusation_integrity(premise: dict[str, Any], architecture
     scenes_text = _text(scenes).lower()
     full = "\n".join([premise_text, architecture_text, scenes_text])
     ending_source = "\n".join([architecture_text, scenes_text])
-    ending = ending_source[-max(1, len(ending_source) // 3):] if ending_source else ""
+    ending = _ending_tail(ending_source)
 
     accusation = bool(re.search(r"wrongful|framed|set up|false accusation|expelled|accused|theft|stolen|stole|planted", full))
     status_wound = bool(re.search(r"homeless|expelled|fired|excluded|stigma|scholarship|reputation|career|land|estate", full))
     repair_context = bool(re.search(r"truth|evidence|investigat|court|lawyer|apology|restoration|job|work", full))
-    applies = accusation and status_wound and repair_context
+    applies = accusation and status_wound
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
@@ -49,8 +58,8 @@ def evaluate_wrongful_accusation_integrity(premise: dict[str, Any], architecture
         "love_interest_investigates_instead_of_instantly_believing": _affirmative_match(r"investigat|questions?|timeline|records?|evidence|not sure|doubt|prove|verify|chain of custody", full),
         "truth_chain_is_procedural": _affirmative_match(r"camera|footage|911|log|record|pawn|jeweler|witness|court|judge|warrant|lawyer|signature|documents?|evidence|chain of custody", full),
         "anti_payment_boundary_preserves_agency": bool(re.search(r"not with your money|not for me|don.?t pay|not charity|pay.*wins|buy.*out|refus", full)),
-        "institutional_restoration_repairs_stolen_future": bool(re.search(r"apolog|readmission|reinstat|scholarship|semester|school|degree|reputation restored|land stays|trust|career|job", ending)),
-        "romantic_closure_is_present_tense_consent": bool(re.search(r"don.?t have to answer|ask|choose|yes|will you|if you still want|this time|consent", ending)),
+        "institutional_restoration_repairs_stolen_future": _affirmative_match(r"apolog|readmission|reinstat|scholarship|semester|school|degree|reputation restored|land stays|trust|career|job", ending),
+        "romantic_closure_is_present_tense_consent": _affirmative_match(r"don.?t have to answer|ask|choose|yes|will you|if you still want|this time|consent", ending),
     }
     labels = {
         "competence_precedes_pity": "accused person is pitiable before being practically competent",
