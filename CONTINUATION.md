@@ -441,3 +441,11 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - PrimeFate partial evidence is now committed: channel archive metadata, hit/target/medium/low thumbnails, flat metrics, and `TKfoKnpHpsw` clean transcript. Still incomplete: contact-sheet/seconds/timeline regeneration and timestamped comparative markdown analysis.
 - External full media remains outside repo in `C:/Users/Administrator/evidence_tmp/TKfoKnpHpsw.webm`; do not commit full video. Regenerate derived contact sheets and inspect them before making strong claims.
 - Important status: review fixes validated locally; a new Devin Review round may be running or queued. Do not treat review as blocking creative research unless concrete findings arrive.
+
+## 2026-11-27 PrimeFate deep-dive checkpoint
+
+- PrimeFate `TKfoKnpHpsw` full-video derived evidence is committed: clean transcript, seconds/timeline metrics, media summary, and 14 contact sheets. Full source video/audio remain outside repo in `C:/Users/Administrator/evidence_tmp/` and must not be committed.
+- New knowledge files: `knowledge/market/primefate-reborn-family-revenge-deep-dive.md` and `knowledge/market/primefate-thumbnail-hit-medium-low-analysis.md`.
+- Skill now includes modern family revenge doctrine: concrete economic object + bodily sacrifice opening, rebirth after injustice, countdown engine, early public payoff, proof asymmetry, repeated memory objects, third-party competence proof, antagonist self-destruction, cost-aware familial ending, vertical/mobile power-legibility.
+- Latest commit: `1c9ddaa6e074f22b2e06033e59449cbc4a8eb357`.
+- Next highest-value work: compare PrimeFate hit `5UUh-vADVko` or low `dKQ9lMEaibw` directly against target; continue low-subscriber breakout scan; deepen machine enforcement of packaging-coherence and modern revenge doctrines.
