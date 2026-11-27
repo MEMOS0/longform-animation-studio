@@ -751,3 +751,15 @@ Continue immediately with non-creature low-subscriber queue: `s-Zn2WhkkH8`, `wHW
 - Completed duplicate-distribution analysis for `s-Zn2WhkkH8`/`wHWPGMPQ37Y` and canonical Strong Enough for Love deep dive; integrated `coerced_rechoice_integrity`.
 - Completed DramaVoxie `R14QjIS7O50` sampled full-runtime audiovisual deep dive. Doctrine candidate: child economic claimant converts invisible maternal care into invoice, catalyzes truth but adult systems verify, money is restitution not forgiveness, legal accountability precedes ordinary kindergarten/development ending.
 - Next: implement child-economic-claimant validator if desired after review triage; update skill/dialogue/thumbnail doctrine; then continue fresh scan/queue or deepen dialogue/professional writing. Devin Review is running on `b55065a` or latest push; handle findings first when they arrive.
+
+
+## 2026-11-27 safe rotate after Nightfall wrongful-accusation integration
+
+- Latest pushed commit: `e5d35fcc6f424920c58b60cd078a3f766352b9bd`.
+- Latest verified test baseline before the two review fixes: 272 passed. After review fixes: 274 passed before committing those fixes.
+- `xhqE43r-faA` / Nightfall Luke is now fully integrated: local media remains at `C:/Users/Administrator/evidence_tmp/xhqE43r-faA.mp4`; derived evidence is committed in `evidence/research/rediscovery_analysis/xhqE43r-faA/`; report is `knowledge/market/nightfall-luke-wrongful-accusation-restoration-deep-dive.md`; thumbnail is force-added at `data/raw/thumbnails/nightfall_drama/xhqE43r-faA.maxresdefault.webp`.
+- New validator: `studio/wrongful_accusation_integrity.py`; project evaluation now includes `wrongful_accusation_integrity`.
+- New channel synthesis: `knowledge/market/nightfall-drama-procedural-dignity-channel-comparison.md`. Core doctrine: public stripping of dignity -> mutual-aid work -> competence before pity -> refusal of purchased rescue -> document/procedure reversal -> measurable restitution/institutional repair -> freely chosen belonging.
+- Devin Review findings on older commit `6401c4e` were fixed/triaged before pushing the doctrine synthesis. Restitution no longer treats timecodes or negated “nobody repays” language as measurable repayment; creature-debt/context false positives in child claimant and economic abandonment applicability were narrowed. Tests after fixes: 274 passed.
+- A newer Devin Review on commit `9f55a6c` and/or `e5d35fc` may be running. If findings arrive in the next context, retrieve them with `devin_review_manage` and triage immediately before long-running analysis.
+- Immediate next work: continue low-subscriber non-creature comparative video analysis. Fresh queue after xhq remains `dEup8AVWYKg`, `iqCNxQ2_jSI`, `hozDtPcnnBA`, `q0G2kx8-3tE`, `ZyovwVVUiCs`, `ULJ7-z1zm6M`, `9N6S6D_ioA0`, `icsZH4sDwTM`; verify duplication risk, download full media, inspect contact sheets visually, write timestamped evidence, integrate only distinct doctrine.
