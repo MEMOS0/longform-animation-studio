@@ -450,3 +450,9 @@ Packaging caution: the film's generic soldier/action thumbnail diverges sharply 
 Before greenlighting patronage/transformation romance, read `knowledge/market/ananse-kukua-patronage-consent-transformation-deep-dive.md`. The portable mechanism is not “rich man transforms poor woman.” It is operational worth before beauty, concrete economic interruption, consent-designed patronage, procedural training, dependency-suppressed romance, transfer of financial/professional control, independent refusal of comfort, benefactor collapse before free re-choice, procedural justice, and communal consequence after success.
 
 Use the `patronage_consent_integrity` project-evaluation gate as a warning system, not as a hit predictor. Do not copy Kukua Asante's plot, characters, dialogue, or thumbnail; extract the mechanism and build original stories.
+
+## 2026-11-27 parentification-free attachment repair doctrine update
+
+Before greenlighting child-reunion grief/family melodrama, read `knowledge/market/daily-drama-poppy-parentification-attachment-repair-deep-dive.md`. The portable mechanism is not “cute child cures billionaire.” It is contradictory reunion hook, procedural custody safeguarding, public claim without hiding, repeated small embodied care, adult grief regulation, measurable reliability protocols, explicit parentification correction, dead-parent differentiation, and ending proof that ordinary safety systems work.
+
+Use the `attachment_repair_integrity` project-evaluation gate as a warning system, not as a hit predictor. Do not copy Poppy's plot, dialogue, character design, frog motif, or thumbnail; extract the mechanism and build original stories.

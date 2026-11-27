@@ -133,3 +133,9 @@ The Frame Horizon thumbnail uses broad soldier/action imagery and “FULL MOVIE�
 Evidence source: `knowledge/market/ananse-kukua-patronage-consent-transformation-deep-dive.md` and `data/raw/thumbnails/ananse_web_of_tales/Z0kns4pvIH4.maxresdefault.jpg`.
 
 The Kukua thumbnail compresses romance, imprisonment, wealth, and belief into one legible montage: glamorous central woman, suited partner, bruised prisoner, bars, mansion/car, and “THE GIRL HE BELIEVED IN.” It is more aligned with the actual film than the generic Frame Horizon action thumbnail, but it still omits much of the village/colorism/training origin. Treat this as a multi-contract packaging pattern: show the status inversion and relational promise first, then let title/description carry the transformation origin.
+
+## High-status/small-care thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/daily-drama-poppy-parentification-attachment-repair-deep-dive.md` and `data/raw/thumbnails/daily_drama_shorts/XM4OuWUlV_o.maxresdefault.jpg`.
+
+The Poppy thumbnail accurately compresses the film's mechanism: luxury staircase/home scale plus a father kneeling to fasten a small child's shoe while she offers food in a frog costume. This is a high-status/small-care pattern. It is stronger than generic wealth imagery because the emotional action is legible at mobile size: powerful person lowers himself physically to perform care.

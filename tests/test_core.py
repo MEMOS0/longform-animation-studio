@@ -2285,3 +2285,41 @@ def test_patronage_consent_flags_debt_repayment_romance():
     assert result["checks"]["dependency_suppresses_romantic_pressure"] is False
     assert result["checks"]["benefactor_collapse_inverts_power_before_choice"] is False
     assert result["warnings"]
+
+
+def test_attachment_repair_full_chain_passes():
+    from studio.attachment_repair_integrity import evaluate_attachment_repair_integrity
+    premise = {"title": "Daddy I'm Home", "logline": "A grieving father believes his daughter is dead until his long-lost child comes home, and he learns happiness through attachment repair."}
+    architecture = {"sequences": [
+        {"summary": "The daughter says I'm not dead and came home after records were wrong. DNA, custody, social worker, home assessment, judge approval, placement, and visits safeguard the reunion."},
+        {"summary": "The father says he won't make his daughter hide at a press conference and publicly claims my daughter. Care is small and repeated: eat, meal, shoes, bedtime, drawing, hug, toy, frog, hand, and cooking."},
+        {"summary": "He uses therapy, breathing, rest, and asks adults for help. He promises five sharp, sets a reminder, apologizes when late, and will call if delayed. The scared child says she forgot me and he listens."},
+        {"summary": "He tells her she didn't have to cure him, adults will help, she can love me and still go play, and it was not your fault. Mommy died but I see you, not a replacement. In the ending a teacher, uniformed helper, staff, safe home, school, therapy, and shared meal keep them together."},
+    ]}
+    result = evaluate_attachment_repair_integrity(premise, architecture, [])
+    assert result["applies"] is True
+    assert result["score_0_to_1"] == 1.0
+    assert result["warnings"] == []
+
+
+def test_attachment_repair_requires_child_family_loss_context():
+    from studio.attachment_repair_integrity import evaluate_attachment_repair_integrity
+    result = evaluate_attachment_repair_integrity(
+        {"title": "Office Drama", "logline": "A CEO struggles with happiness at work."},
+        {"sequences": []},
+        [],
+    )
+    assert result["applies"] is False
+
+
+def test_attachment_repair_flags_child_as_cure_without_correction():
+    from studio.attachment_repair_integrity import evaluate_attachment_repair_integrity
+    result = evaluate_attachment_repair_integrity(
+        {"title": "Child Cure", "logline": "A grieving father believes his daughter is dead until his long-lost child comes home and cures his sadness forever."},
+        {"sequences": [{"summary": "The child feeds him, makes him smile, and becomes his only reason to live."}]},
+        [],
+    )
+    assert result["applies"] is True
+    assert result["checks"]["parentification_is_explicitly_corrected"] is False
+    assert result["checks"]["adult_grief_regulation_and_support"] is False
+    assert result["warnings"]

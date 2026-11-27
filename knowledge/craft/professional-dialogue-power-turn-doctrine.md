@@ -200,3 +200,13 @@ Evidence source: `knowledge/market/ananse-kukua-patronage-consent-transformation
 3. **Material care becomes romantic evidence when phrased as responsibility, not ownership.** “You're not a bill I can return” answers shame and fear of disposal without demanding intimacy.
 4. **Legal/professional consent belongs in dialogue.** Lawyer review, contract sections, travel arrangements, account passwords, and control of earnings are dramatic proof because characters say and act on them.
 5. **The final choice should reverse who is protected from whom.** Kukua's proposal works because she tells Eliot not to protect her from her own feelings; agency becomes audible action.
+
+## Attachment-repair dialogue addendum from *Poppy* (2026-11-27)
+
+Evidence source: `knowledge/market/daily-drama-poppy-parentification-attachment-repair-deep-dive.md`.
+
+1. **Repair promises must become protocols.** “I'll call before five if I'm delayed” is stronger than “I'll always be there” because the child can verify whether behavior changes.
+2. **Comfort should not erase death or fear.** The useful lines allow contradiction: the place can be happy and Mommy can still be dead; the child can be loved and still not be responsible for curing anyone.
+3. **Parentification correction should be explicit but relational.** “You didn't have to cure me” lands because it is paired with “you can love me and still go play,” not with rejection of the child's care.
+4. **Children should speak in concrete fear logic.** “I thought you forgot me again” is more dramatically useful than generic sadness because it gives the adult a repairable accusation.
+5. **Public recovery dialogue should destigmatize help without claiming cure.** Ethan's therapy speech works because it names shame and first steps rather than declaring himself fixed.
