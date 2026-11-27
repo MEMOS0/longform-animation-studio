@@ -1,3 +1,7 @@
+## Rotation checkpoint 2026-11-27 CineAI attempt
+
+Latest pushed integration commit: `808edbf`; tests 425 passed. CineAI `gw1SsVcha0Y` selected as next fresh breakout: 343 subscribers, ~224.7k views in 1.85 days, 34min hidden-identity/economic-inversion film. First `download_piped_archive.py` attempt failed with SSL EOF before media/raw files appeared; retry download or use Piped streams endpoint manually. Handle any new PR #7 review first. Then continue CineAI full audiovisual deep dive, followed by Fated/CrushLoop/Hushfall novelty comparison and task 8 dialogue scaffolds.
+
 ## Rotation checkpoint 2026-11-27 constructive integration
 
 Latest pushed integration commit before this checkpoint: `9e3af9d`; tests 425 passed. `constructive_restoration_integrity` is implemented in `studio/constructive_restoration_integrity.py`, registered in production, and regression-tested. NEXORA skill/thumbnail/queue integration is being committed in the next commit. Handle any PR #7 findings on `9e3af9d` or later first. Then continue fresh low-subscriber breakouts: CineAI `gw1SsVcha0Y`, Fated `B8bd364FM-8`, CrushLoop `6k_W9eG6mAU`, Hushfall `4m3u8UMUgDg`; after that return to task 8 scene-specific dialogue scaffolds.
