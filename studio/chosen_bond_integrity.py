@@ -57,6 +57,26 @@ def _segment_has_opening_betrayal(segment: str) -> bool:
     return public and betrayal and not delayed
 
 
+def _alternative_partner_names(value: Any) -> list[str]:
+    names: list[str] = []
+    if isinstance(value, dict):
+        for key, item in value.items():
+            lowered = str(key).lower()
+            partner_key = any(term in lowered for term in ("new_partner", "chosen_partner", "alternative_partner", "love_interest"))
+            if partner_key and isinstance(item, str):
+                names.append(item.lower().split()[0])
+            elif partner_key and isinstance(item, dict):
+                for name_key in ("name", "identity"):
+                    if isinstance(item.get(name_key), str):
+                        names.append(item[name_key].lower().split()[0])
+            if isinstance(item, (dict, list)):
+                names.extend(_alternative_partner_names(item))
+    elif isinstance(value, list):
+        for item in value:
+            names.extend(_alternative_partner_names(item))
+    return [name for name in names if name]
+
+
 def evaluate_chosen_bond_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     premise_text = _text(premise).lower()
     architecture_text = _text(architecture).lower()
@@ -71,8 +91,8 @@ def evaluate_chosen_bond_integrity(premise: dict[str, Any], architecture: dict[s
     destiny_system = bool(re.search(r"fated mate|fate\b|destiny|destined|soul bond|mate bond|bonding ceremony|imprint|chosen bond", flat))
     romantic_bond = bool(re.search(r"mate|marry|marriage|wedding|bride|fianc|queen|king|partner|vow|romance|betrothal", flat))
     betrayal_or_rechoice = bool(
-        re.search(r"(?:mate|husband|wife|fiance|partner|spouse|bond).{0,100}(?:cheat|betray|humiliat|abandon|reject|share|chooses? another)|(?:cheat|betray|humiliat|abandon|reject|share|chooses? another).{0,100}(?:mate|husband|wife|fiance|partner|spouse|bond)", flat)
-        or re.search(r"re-choice|rechoose|chooses? (?:a |the )?(?:new|alternative|chosen) (?:mate|partner|bond)", flat)
+        re.search(r"(?:mate|husband|wife|fiance|partner|spouse|bond|bride|groom).{0,100}(?:cheat|betray|unfaithful|infidelity|humiliat|abandon|reject|share|chooses? another)|(?:cheat|betray|unfaithful|infidelity|humiliat|abandon|reject|share|chooses? another).{0,100}(?:mate|husband|wife|fiance|partner|spouse|bond|bride|groom)", flat)
+        or re.search(r"re-choice|rechoose|chooses? (?:a |the )?(?:new|alternative|chosen) (?:mate|partner|bond)|falls? for another", flat)
     )
     applies = destiny_system and romantic_bond and betrayal_or_rechoice
     if not applies:
@@ -84,7 +104,12 @@ def evaluate_chosen_bond_integrity(premise: dict[str, Any], architecture: dict[s
     upgrade_pattern = r"new partner|chosen partner|chosen bond|alternative (?:mate|partner)|better partner|elf king|new queen|accepts? (?:the|a) (?:king|queen|partner|mate)|marries? (?:the|a) (?:king|queen|partner)"
     refusal_pos = _first(refusal_pattern, chronology)
     upgrade_pos = _first(upgrade_pattern, chronology)
-    alternative_care_pattern = r"\b(?:he|chosen partner|new partner|alternative partner|elf king|king)\b\s+(?:cares?|heals?|restores?|protects?|tends?|feeds?|shelters?|comforts?|waits?|supports?)"
+    partner_names = _alternative_partner_names(premise) + _alternative_partner_names(architecture)
+    partner_names.extend(match.group(1) for match in re.finditer(r"(?:elf king|chosen partner|new partner|alternative partner)(?:,| named| called)\s+([a-z]+)", chronology))
+    care_subjects = "he|chosen partner|new partner|alternative partner|elf king|king"
+    if partner_names:
+        care_subjects += "|" + "|".join(re.escape(name) for name in sorted(set(partner_names), key=len, reverse=True))
+    alternative_care_pattern = r"\b(?:" + care_subjects + r")\b\s+(?:cares?|heals?|restores?|protects?|tends?|feeds?|shelters?|comforts?|waits?|supports?)"
     care_pos = (upgrade_pos + _first(alternative_care_pattern, chronology[upgrade_pos:])) if upgrade_pos is not None and _first(alternative_care_pattern, chronology[upgrade_pos:]) is not None else None
     reciprocity_pos = _first(r"she believes|she trusts|she reciprocates|she chooses him|she accepts|mutual vow|returns? (?:his|their) (?:love|loyalty)|i do\b", chronology)
 
@@ -100,14 +125,16 @@ def evaluate_chosen_bond_integrity(premise: dict[str, Any], architecture: dict[s
     repentance_rejected = bool(re.search(r"refus(?:es|ed) (?:reconciliation|forgiveness|to return|to go back)|rejects? (?:his|her|their) (?:apology|repentance|regret)|does not forgive|won.?t forgive|no reconciliation|not enough to repair|regret is not repair|you chose power", flat))
     forgiveness_pressure = bool(re.search(r"forced to forgive|must forgive|pressure(?:d|s)? .*forgive|family makes? (?:her|him|them) forgive", flat))
 
-    coercive_new_bond = bool(re.search(r"force(?:s|d)? (?:her|him|them)? ?to marry|forced marriage|(?:marry|marries) (?:her|him|them) against (?:her|his|their) will|no choice but to marry|coerc(?:es?|ed|ion).{0,40}(?:marry|marriage|mate|bond)", chronology))
+    coercion_scan = chronology[upgrade_pos:] if upgrade_pos is not None else chronology
+    coercion_scan = re.sub(r"(?:won.?t|will not|never|promise[sd]? not to|vows? not to|not to)\s+force.{0,50}(?:marry|marriage|mate|bond)", " ", coercion_scan)
+    coercive_new_bond = bool(re.search(r"force(?:s|d)? (?:her|him|them)? ?to marry|forced marriage|(?:marry|marries) (?:her|him|them) against (?:her|his|their) will|no choice but to marry|coerc(?:es?|ed|ion).{0,40}(?:marry|marriage|mate|bond)", coercion_scan))
     consent_language = bool(re.search(r"explicit consent|free consent|freely chosen|choose freely|chosen (?:partner|bond|mate)|consent|no pressure|need not force|won.?t bind|doesn.?t bind|asks? (?:for )?(?:her |his |their )?(?:consent|permission)|waits? (?:for )?(?:her |his |their )?(?:answer|choice)|patient", chronology))
 
     checks = {
-        "public_betrayal_opening": any(
-            _segment_has_opening_betrayal(segment)
-            for segment in re.split(r"[.!?]", opening_raw.lower().replace(chr(10), ".")) if segment.strip()
-        ),
+        "public_betrayal_opening": (lambda segments: any(
+            _segment_has_opening_betrayal(window)
+            for window in segments + [segments[index] + " " + segments[index + 1] for index in range(len(segments) - 1)]
+        ))([segment.strip() for segment in re.split(r"[.!?]", opening_raw.lower().replace(chr(10), ".")) if segment.strip()]),
         "sacrificial_labor_has_system_value": sacrifice_terms and system_value,
         "fate_functions_as_excuse": bool(re.search(r"fate.*(?:excuse|can't resist|cannot resist|inevitable|made me|forces? us|means? we must)|destiny.*(?:excuse|inevitable|can't resist)|so-called fate|curse we can.?t resist|supposed to share", flat)),
         "protagonist_refuses_before_upgrade": refusal_pos is not None and upgrade_pos is not None and refusal_pos < upgrade_pos,
