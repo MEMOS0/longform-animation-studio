@@ -129,9 +129,12 @@ def evaluate_chosen_bond_integrity(premise: dict[str, Any], architecture: dict[s
     coercion_scan = re.sub(r"(?:won.?t|will not|never|promise[sd]? not to|vows? not to|not to)\s+force.{0,50}(?:marry|marriage|mate|bond)", " ", coercion_scan)
     coercive_new_bond = bool(re.search(r"force(?:s|d)? (?:her|him|them)? ?to marry|forced marriage|(?:marry|marries) (?:her|him|them) against (?:her|his|their) will|no choice but to marry|coerc(?:es?|ed|ion).{0,40}(?:marry|marriage|mate|bond)", coercion_scan))
     partner_coercion_terms = r"(?:elf king|chosen partner|new partner|alternative partner|chosen bond)"
-    coercive_new_bond = coercive_new_bond or bool(
-        re.search(r"force(?:s|d)? (?:her|him|them)? ?to marry.{0,80}" + partner_coercion_terms, chronology)
-        or re.search(partner_coercion_terms + r".{0,80}force(?:s|d)? (?:her|him|them)? ?to marry", chronology)
+    coercion_chronology = re.sub(r"(?:won.?t|will not|never|promise[sd]? not to|vows? not to|not to)\s+force.{0,50}(?:marry|marriage|mate|bond)", " ", chronology)
+    partner_sentences = [segment.strip() for segment in re.split(r"[.!?]", coercion_chronology) if segment.strip()]
+    coercive_new_bond = coercive_new_bond or any(
+        re.search(r"force(?:s|d)? (?:her|him|them)? ?to marry", segment)
+        and re.search(partner_coercion_terms, segment)
+        for segment in partner_sentences
     )
     consent_language = bool(re.search(r"explicit consent|free consent|freely chosen|choose freely|chosen (?:partner|bond|mate)|consent|no pressure|need not force|won.?t bind|doesn.?t bind|asks? (?:for )?(?:her |his |their )?(?:consent|permission)|waits? (?:for )?(?:her |his |their )?(?:answer|choice)|patient", chronology))
 
