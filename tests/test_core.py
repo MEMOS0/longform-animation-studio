@@ -1557,3 +1557,17 @@ def test_animal_guise_pre_reveal_proposal_is_not_informed_rechoice():
     premise={"logline":"werewolf husband romance. will you be my mate and it is my choice. later truth reveal exposes him"}
     result=evaluate_animal_guise_consent(premise,{},[])
     assert not result['checks']['explicit_rechoice_after_truth']
+
+
+def test_creature_power_inversion_accepts_wufo_pattern():
+    from studio.creature_power_inversion import evaluate_creature_power_inversion
+    premise={"logline":"cold winter coal poor stable girl finds dragon that is not fire but freezes frost"}
+    arch={"sequences":[{"turn":"king calls it monster cursed weakness and threw abandoned creature; she feeds warms names him steals coal"},{"turn":"execution burn stake trap bait crowd soldiers; frost fire protects rescues"},{"turn":"recognition contact forehead touch, thaw green village community snow melt proclamation"}]}
+    r=evaluate_creature_power_inversion(premise,arch,[])
+    assert r['applies'] and r['score_0_to_1']==1.0
+
+
+def test_creature_power_inversion_flags_spectacle_only():
+    from studio.creature_power_inversion import evaluate_creature_power_inversion
+    r=evaluate_creature_power_inversion({"logline":"a frost dragon fights in a big fantasy battle"}, {}, [])
+    assert r['applies'] and r['score_0_to_1']<0.5
