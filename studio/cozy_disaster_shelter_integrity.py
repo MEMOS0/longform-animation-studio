@@ -54,7 +54,7 @@ def evaluate_cozy_disaster_shelter_integrity(premise: dict[str, Any], architectu
                     sentence_end = min(sentence_end_candidates) if sentence_end_candidates else len(unit_text)
                     sentence = unit_text[sentence_start:sentence_end]
                     ordinary_water = re.search(r"pipe|plumbing|tap|faucet|sink|hose", sentence)
-                    disaster_context = re.search(r"storm|flood|typhoon|hurricane|blizzard|sandstorm|wildfire|earthquake|rising water", sentence)
+                    disaster_context = re.search(r"storm|flood|typhoon|hurricane|blizzard|sandstorm|wildfire|earthquake|rising water|river|overflow|submerg", sentence)
                     if ordinary_water and not disaster_context:
                         continue
                     first_disaster_position = cursor + disaster_match.start()

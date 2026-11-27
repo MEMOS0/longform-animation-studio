@@ -4488,3 +4488,29 @@ def test_cozy_validator_household_pipe_is_not_disaster_onset():
     ]}
     result=evaluate_cozy_disaster_shelter_integrity(premise,architecture,[])
     assert result['checks']['ordinary_labor_establishes_world_before_disaster'] is True
+
+def test_serial_relational_anchor_validator_positive_and_nonapplicable():
+    from studio.serial_relational_anchor_integrity import evaluate_serial_relational_anchor_integrity
+    premise={'logline':'Season 1 episode 1 of an assassin thriller about a spy protecting her civilian friend.'}
+    architecture={'sequences':[
+        {'summary':'After a painful goodbye, the agent returns home guilt-ridden because she broke her promise to her friend and chosen family.'},
+        {'summary':'The organization leaks intelligence and the antagonist manipulates her fear of losing family, threatening the civilian friend as bait while a mission unfolds.'},
+        {'summary':'The friend is abducted as a hostage, forcing a choice and ending the chapter on a cliffhanger.'},
+    ]}
+    result=evaluate_serial_relational_anchor_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.75
+
+    standalone={'logline':'A wizard rescues a dragon in a standalone fantasy film.'}
+    assert evaluate_serial_relational_anchor_integrity(standalone,{},[])['applies'] is False
+
+def test_cozy_validator_river_water_submerging_sink_counts_as_disaster_onset():
+    from studio.cozy_disaster_shelter_integrity import evaluate_cozy_disaster_shelter_integrity
+    premise={'logline':'A family shelters during a flood.'}
+    architecture={'sequences':[
+        {'summary':'River water enters their home and submerges the sink. Later they cook in the shelter.'},
+        {'summary':'The family survives rising water with food and drinking water.'},
+        {'summary':'After the flood they rebuild the house and share a warm meal.'},
+    ]}
+    result=evaluate_cozy_disaster_shelter_integrity(premise,architecture,[])
+    assert result['checks']['ordinary_labor_establishes_world_before_disaster'] is False
