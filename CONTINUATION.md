@@ -458,3 +458,9 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - Major comparative finding: hit revenge story adds double contrast (abusive original family vs loving new family) and ends by answering the original abandonment wound with protective family belonging. Target's punishment+grief ending is weaker wish fulfillment.
 - Lioren hidden-heir breakout shows competence-before-reveal, ordinary love-before-wealth, prosocial institutional use of wealth, relational cost of lying, and family/chosen-love closure in a compressed 35-minute widescreen format.
 - Latest tests before checkpoint commit: 96 passed.
+
+## 2026-11-27 review triage + creature dialogue specificity checkpoint
+
+- Devin Review findings on PR #2 were triaged and fixed. Modern rebirth detection now requires modern context and treats clock/proof as independent requirements; fantasy royal rebirth no longer receives modern revenge warnings. Repeated storyboard coverage now receives alternate visual coverage instead of identical adjacent staging while preserving scripted final images. Regression tests pass: 99 passed.
+- Creature-economic dialogue was further differentiated by world voice: coal-guild/oven scenes now use guild ration, coal ledger, guild mark, pardon/confession, and oven-crawl language instead of land-trust wording. Customer witness lines now use the protagonist name instead of gender-assumptive pronouns. Generated scenes, seed storyboards, prompts, and evaluations were regenerated and remain schema/test valid.
+- New low-subscriber breakout lead selected for next deep dive: VNDL `NHAHR3v9La8` (`She Gave Birth to Twins. One Was a Dragon / THE QUEEN'S MONSTER`), 24.2m, about 534k views, roughly 7.9k subscribers at candidate scan. Media downloaded through public Piped-compatible endpoint; no subtitles exposed by Piped, so analysis must distinguish visual evidence from unavailable dialogue transcription.

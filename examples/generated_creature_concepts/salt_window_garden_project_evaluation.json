@@ -473,7 +473,7 @@
   },
   "production_economics": {
     "status": "documentation_estimate_not_quote",
-    "target_minutes": 42,
+    "target_minutes": 42.0,
     "generation_to_final_ratio": 8.0,
     "single_pass_scenarios": [
       {
@@ -6483,6 +6483,7 @@
       "cage",
       "chain",
       "door",
+      "gate",
       "mat",
       "sit",
       "threshold"

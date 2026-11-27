@@ -449,7 +449,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; one practical witness breaks the crowd's certainty. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow lateral drift",
-    "dialogue": "Her repair held mine all morning.",
+    "dialogue": "Nura's repair held mine all morning.",
     "audio_direction": "use sound interruptions to show the antagonist converting competence into threat",
     "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation; subtext: the witness is not defending the protagonist emotionally; they are defending results they personally verified",
     "continuity_dependencies": [
