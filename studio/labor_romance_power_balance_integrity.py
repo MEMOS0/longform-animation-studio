@@ -20,6 +20,27 @@ def _text(value: Any) -> str:
     return ""
 
 
+def _segments(text: str) -> list[str]:
+    return [segment.strip() for segment in re.split(r"[.!?\n]", text) if segment.strip()]
+
+
+def _affirmative(pattern: str, text: str) -> bool:
+    negation = re.compile(r"\b(?:never|no|not|without|fails? to|doesn['’]?t|don['’]?t|didn['’]?t)\b")
+    return any(re.search(pattern, segment) and not negation.search(segment) for segment in _segments(text))
+
+
+def _has_consent_objection(text: str) -> bool:
+    direct = re.compile(r"uncomfortable|don['’]?t do this|do not do this|refus(?:es|ed)|you (?:don['’]?t|do not) get to decide|not your job|\bstop\b")
+    object_pattern = re.compile(r"\bobject(?:s|ed)?\b")
+    object_negation = re.compile(r"\b(?:nobody|no one|never|without)\b")
+    for segment in _segments(text):
+        if direct.search(segment):
+            return True
+        if object_pattern.search(segment) and not object_negation.search(segment):
+            return True
+    return False
+
+
 def evaluate_labor_romance_power_balance_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     labor_role = bool(re.search(r"\b(?:maid|assistant|servant|employee|worker|secretary|driver|cook|nanny|apprentice|crew|staff)\b", full))
@@ -30,13 +51,9 @@ def evaluate_labor_romance_power_balance_integrity(premise: dict[str, Any], arch
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
     consent_violation = bool(re.search(r"without asking|forced kiss|kiss(?:es|ed)? (?:her|him|them|the worker)|grab(?:bed|s)?|experiment on|possessive", full))
-    consent_objection = bool(re.search(r"uncomfortable|don['’]?t do this|object(?:s|ed)?|refus(?:es|ed)|you (?:don['’]?t|do not) get to decide|not your job|stop", full))
-    consent_repair = bool(re.search(r"apolog|permission|consent|ask me first|changed behavior|consequence|repair|take responsibility|give .* space", full))
-    affirmative_consent = bool(re.search(r"ask(?:s|ed)? (?:for )?permission|consent(?:s|ed)?|ask me first|respect(?:s|ed)? (?:her|his|their) (?:answer|boundary|refusal)", full))
-    if re.search(r"nobody objects|no one objects|never objects|without objection", full):
-        consent_objection = False
-    if re.search(r"never apolog|no apology|without apolog|never changes|does not change|no repair", full):
-        consent_repair = False
+    consent_objection = _has_consent_objection(full)
+    consent_repair = _affirmative(r"apolog|permission|consent|ask me first|changed behavior|consequence|repair|take responsibility|give .* space", full)
+    affirmative_consent = _affirmative(r"ask(?:s|ed)? (?:for )?permission|consent(?:s|ed)?|ask me first|respect(?:s|ed)? (?:her|his|their) (?:answer|boundary|refusal)", full)
 
     if scenes:
         ending_text = _text(scenes[-1]).lower()

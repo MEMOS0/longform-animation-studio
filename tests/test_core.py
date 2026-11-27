@@ -4278,3 +4278,14 @@ def test_labor_romance_review_regressions_consent_dependency_and_candidate():
 
     nonromance=evaluate_labor_romance_power_balance_integrity({'logline':'A disguised princess and her maid interview every candidate for a royal post while hiding from a powerful prince.'},{'sequences':[{'summary':'They complete the palace labor assignment.'}]},[])
     assert nonromance['applies'] is False
+
+def test_labor_romance_consent_negation_and_unrelated_objection_regressions():
+    from studio.labor_romance_power_balance_integrity import evaluate_labor_romance_power_balance_integrity
+    premise={'logline':'A poor maid in debt disguises herself to work for a billionaire boss and falls in love.'}
+    ignored={'sequences':[{'summary':'He kisses her without asking. She refuses, but he never respects her refusal and never apologizes.'}]}
+    ignored_result=evaluate_labor_romance_power_balance_integrity(premise,ignored,[])
+    assert ignored_result['checks']['consent_pressure_is_named_not_romanticized'] is False
+
+    repaired={'sequences':[{'summary':'She accepts a schedule change without objection. Later he kisses her without asking. She refuses and says stop. He apologizes, asks for permission, and changes his behavior.'}]}
+    repaired_result=evaluate_labor_romance_power_balance_integrity(premise,repaired,[])
+    assert repaired_result['checks']['consent_pressure_is_named_not_romanticized'] is True
