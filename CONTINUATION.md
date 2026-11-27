@@ -484,3 +484,8 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 
 - Drakenhart `1Nv2aGUgIG4` was downloaded with English subtitles and analyzed visually/aurally through contact sheets, aligned transcript, seconds/timeline metrics, and thumbnail evidence. Full media/audio are not committed.
 - New knowledge file: `knowledge/market/drakenhart-tiny-kingdom-breakout-deep-dive.md`. Key finding: the 29.5-minute breakout pays the tiny-kingdom premise within five minutes, proves protagonist competence through an early tunnel save, makes giant-world junk economically meaningful as tiny-world infrastructure, gives the protagonist institutional guilt, uses elder restitution as a moral mirror, stops drilling through map/proof persuasion rather than battle, and ends with years of rebuilding/chosen home.
+
+## 2026-11-27 scale-community repair gate checkpoint
+
+- Added `studio/scale_community_integrity.py` and integrated it into project evaluation. It converts the Drakenhart tiny-kingdom findings into machine review: scale must affect material infrastructure/economics, outsider competence should protect the community early, trust needs historical/institutional cost, extraction should be stopped through proof/persuasion where possible, and endings need sustained rebuilding/chosen-home evidence.
+- Latest local tests: 104 passed.

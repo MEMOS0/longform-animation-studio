@@ -6737,6 +6737,18 @@
     "warnings": [],
     "checks": {}
   },
+  "scale_community_integrity": {
+    "applies": true,
+    "score_0_to_1": 1.0,
+    "warnings": [],
+    "checks": {
+      "scale_changes_material_economics": true,
+      "early_practical_competence_save": true,
+      "outsider_trust_has_historical_cost": true,
+      "proof_or_persuasion_stops_extraction": true,
+      "sustained_repair_or_chosen_home": true
+    }
+  },
   "artifact_presence": {
     "architecture": true,
     "scenes": true,

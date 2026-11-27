@@ -936,3 +936,20 @@ def test_hidden_identity_integrity_accepts_lioren_pattern():
     assert result['applies']
     assert result['score_0_to_1']>=0.8
 
+def test_scale_community_integrity_flags_generic_battle_rescue():
+    from studio.scale_community_integrity import evaluate_scale_community_integrity
+    premise={"title_candidates":["A Hidden Tiny Kingdom"],"opening_event":{"first_5_minutes":"explorer finds tiny kingdom"}}
+    arch={"sequences":[{"turn":"the outsider is instantly worshipped"},{"turn":"a final battle defeats the invaders"},{"turn":"the outsider leaves"}]}
+    result=evaluate_scale_community_integrity(premise,arch,[])
+    assert result['applies']
+    assert result['score_0_to_1']<=0.4
+
+
+def test_scale_community_integrity_accepts_drakenhart_pattern():
+    from studio.scale_community_integrity import evaluate_scale_community_integrity
+    premise={"title_candidates":["She Found a Hidden Tiny Kingdom in the Roots"],"opening_event":{"first_5_minutes":"explorer finds tiny kingdom and repairs an arch that saves the tunnel"}}
+    arch={"sequences":[{"turn":"giant-world junk becomes roofs, tools, infrastructure and shared shelter"},{"turn":"the tiny community distrusts giants because earlier drilling flooded them and her report signs places away"},{"turn":"a map and proof make the drilling crew listen and shut it down"},{"turn":"years of rebuilding make it her chosen home; she returns every sunrise"}]}
+    result=evaluate_scale_community_integrity(premise,arch,[])
+    assert result['applies']
+    assert result['score_0_to_1']>=0.8
+
