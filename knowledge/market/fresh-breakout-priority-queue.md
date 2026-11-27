@@ -135,3 +135,7 @@ Caution: Piped search is biased and several previous top leads were already anal
 ## Ghibli Cozy Journey checkpoint — cozy disaster-shelter integrated
 
 `nXgxtduBGUc` versus `NHc0KVHtfQo` now has full audiovisual hit/low evidence in `knowledge/market/ghibli-cozy-disaster-shelter-hit-low-comparison.md`; `cozy_disaster_shelter_integrity` is integrated. Key counterexample: the low Sahara film is structurally strong, especially its copper object economy and reciprocal closure, so this mechanism is not a performance oracle. Continue scanning newer low-subscriber non-creature leads; prioritize formats not already covered by romance/fantasy/creature/cozy-shelter doctrine.
+
+## VistaVerse capability-inversion checkpoint
+
+`Oxfe8p-NkK0` versus `sEMJhfFe9pc` completed in `knowledge/market/vistaverse-capability-inversion-care-hit-low-comparison.md`. The hit compresses capability-cost → protection employment → agency-restoring care → family/estate accountability → job-ending romantic re-choice into 64 minutes. The low comparator has strong disability-agency dialogue and market/labor texture but dilutes the central care engine across inheritance, impostor identity, corporate fraud, murder, police, and state-protection machinery for most of its 101 minutes. Continue scanning newer low-subscriber non-covered leads outside capability-inversion care romance.

@@ -598,3 +598,11 @@ Dragonveil reinforces that horizontal cinematic creature stories can work throug
 ## Cozy disaster-shelter doctrine
 
 Use `knowledge/market/ghibli-cozy-disaster-shelter-hit-low-comparison.md` before writing animated family/community disaster-survival stories. The mechanism is not simply “storm plus cozy shelter”: establish ordinary labor and a specific household before catastrophe, transform a meaningful place into shelter, sustain inside/outside warmth-danger contrast, inventory scarce food/water/materials, make preparation pay off, spend a meaningful object in sacrifice, interrupt threat with meals/sleep/animal care, let children/animals participate appropriately, and end in rebuilding/restored connection. Validate applicable stories with `cozy_disaster_shelter_integrity`. Treat the Sahara low comparator as a strong counterexample rather than weak-writing proof: it has excellent copper-object economy and reciprocal closure, so low discovery may reflect packaging/specificity/distribution rather than poor craft.
+
+## Capability-inversion care romance doctrine
+
+Evidence: `knowledge/market/vistaverse-capability-inversion-care-hit-low-comparison.md`; validator: `capability_inversion_care_integrity`.
+
+When a stigmatized physical capability becomes care/protection labor for a disabled, ill, or injured powerful person, make the capability costly before it becomes economically valuable. Revalue it through protection or care labor rather than domination. Care must restore agency: the disabled/injured person chooses, practices, uses tools, works, cooks, plans, negotiates, and may refuse care. Do not equate emotional healing with erasing disability. The caregiver must retain independent labor dignity (farm, craft, shop, family, clean earnings) outside the wealthy or powerful person. Job completion should force romantic re-choice: employment, gratitude, dependency, and love must be distinguished. Because care/employment/alcohol/payment/protective power distort consent, name pressure and preserve refusal. Endings preserve livelihood and choice.
+
+Counterweight: the VistaVerse low comparator contains excellent agency-preserving disability dialogue and sustained wheelchair use. Do not flatten this doctrine into “the character must walk again.” The risk is focus dilution and unresolved consent/power texture, not non-recovery itself.

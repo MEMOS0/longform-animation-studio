@@ -126,3 +126,9 @@ Evidence scope: maximum-resolution archived thumbnails plus metadata; no CTR/ret
 - Low `NHc0KVHtfQo` shows the family outside a sand fortress door in blowing sand. It is polished and legible, but it foregrounds arrival/mystery rather than interior warmth, the hidden girl, or the copper-object chain. The low result must not be treated as proof that desert/exterior packaging fails.
 - High channel comparator `nnKi8ptL57o` makes the stronger pattern explicit: warm crowded cave interior, food/fire/sleeping bodies, and blue storm visible through the opening. Inside/outside contrast is immediately readable.
 - Reusable original-concept rule: for cozy disaster survival, test whether the thumbnail shows the fragile warm interior and the invading exterior threat in one glance. Include the vulnerable relational anchor (child, elder, animal, object) when it is central. Do not copy these exact compositions; derive the contrast from the story's own shelter, labor, weather, and care object.
+
+## VistaVerse Drama capability-inversion comparison
+
+Archived hit/low originals: `Oxfe8p-NkK0.maxresdefault.jpg`, `sEMJhfFe9pc.maxresdefault.jpg` under `data/raw/thumbnails/vistaverse_drama/vistaverse_drama/`.
+
+Both thumbnails use the same palace/maids/matriarch/woman-carries-man machine. The hit foregrounds glamour, direct female power, and a clean bodyguard title; the low foregrounds floral pajamas, piglet, slapstick wealth collision, and a prominent blurred wheelchair. The low design is more specific but denser and more farcical. Hypothesis only: in this channel, aspirational female capability plus simple power-role clarity may read faster than maximal quirky specificity. This is not CTR proof. Use as a counterweight against any simplistic “more unique objects always win” rule.

@@ -331,3 +331,8 @@ Latest pushed commit: `3c6858e30fed6a02620256064c04f83c573fbd84`. Cozy evidence/
 - Critical doctrine: ordinary labor before catastrophe; meaningful owned/claimed shelter; inside/outside warmth-danger contrast; inventoried scarcity; meaningful object sacrifice; care interrupting threat; child/animal participation; resolution as rebuilding/restored connection. The Sahara low comparator is a strong counterexample, not weak-writing proof.
 
 Immediate next work: handle any new PR review findings first; then scan fresh low-subscriber breakout leads outside already-covered romance/fantasy/creature/cozy-shelter mechanisms. Do not use subagents. Cozy report/evidence is already committed and pushed. Current suite: 471 tests passed.
+
+
+## VistaVerse capability-inversion checkpoint (2026-11-28)
+
+Completed full hit/low audiovisual comparison for VistaVerse `Oxfe8p-NkK0` (64m hit) versus `sEMJhfFe9pc` (101m low). Report: `knowledge/market/vistaverse-capability-inversion-care-hit-low-comparison.md`. Added `capability_inversion_care_integrity` validator and integrated doctrine into skill/thumbnail intelligence. Important counterweight: low film contains strong disability-agency dialogue and is not weak craft; low performance is not proof of bad writing. Latest test count before checkpoint: 475 passed. Continue fresh low-subscriber breakout scanning and handle any new Devin Review findings first.
