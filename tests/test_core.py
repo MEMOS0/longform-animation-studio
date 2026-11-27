@@ -4226,3 +4226,21 @@ def test_evidentiary_withdrawal_rejects_physical_fire_without_epistemic_wound():
     architecture={'sequences':[{'summary':'Later evidence shows faulty wiring caused the fire.'}]}
     result=evaluate_evidentiary_withdrawal_integrity(premise,architecture,[])
     assert result['applies'] is False
+
+def test_evidentiary_withdrawal_review_regressions_forging_and_corroboration():
+    from studio.evidentiary_withdrawal_integrity import evaluate_evidentiary_withdrawal_integrity
+    base = "She does not consent and objects to the boundary violation. She moves out, with witness testimony, police legal support, a prepared backup plan, no reconciliation, and changed the locks for a safer home."
+    forged = evaluate_evidentiary_withdrawal_integrity({'logline':'Reborn in her shared apartment after forged evidence destroyed her, she withdraws.'},{'sequences':[{'summary':base}]},[])
+    assert forged['applies'] is True
+    corroborated = evaluate_evidentiary_withdrawal_integrity({'logline':'Reborn in a shared apartment after forged evidence, she withdraws.'},{'sequences':[{'summary':'Lease, security footage, and chat screenshots corroborate her account. '+base}]},[])
+    assert corroborated['checks']['evidence_is_multi_source_and_material'] is True
+    unrelated_call = evaluate_evidentiary_withdrawal_integrity({'logline':'Reborn in a shared apartment after forged evidence, she withdraws.'},{'sequences':[{'summary':'A witness and a full recording clear her. She later has a video call about dinner. She does not consent, objects to the boundary violation, moves out, uses a prepared backup plan, refuses reconciliation, and changed the locks for a safer home.'}]},[])
+    assert unrelated_call['checks']['evidence_is_multi_source_and_material'] is False
+
+
+def test_evidentiary_withdrawal_ignores_sports_berth_but_accepts_ship_berth():
+    from studio.evidentiary_withdrawal_integrity import evaluate_evidentiary_withdrawal_integrity
+    sports = evaluate_evidentiary_withdrawal_integrity({'logline':'Reborn after an edited clip costs an athlete an Olympic berth, she clears her name.'},{},[])
+    assert sports['applies'] is False
+    ship = evaluate_evidentiary_withdrawal_integrity({'logline':'Reborn after forged evidence on a ship, she loses the disputed crew berth and withdraws.'},{'sequences':[{'summary':'The captain controls the cabin assignment.'}]},[])
+    assert ship['applies'] is True

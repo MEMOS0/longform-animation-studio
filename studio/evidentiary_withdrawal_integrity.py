@@ -24,16 +24,18 @@ def _text(value: Any) -> str:
 def evaluate_evidentiary_withdrawal_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     rebirth = bool(re.search(r"reborn|rebirth|past life|second chance|this time around|back on the day", full))
-    shared_space = bool(re.search(r"roommate|shared (?:home|apartment|space)|lease|landlord|dormitory|co-op|communal|tenant|crew quarters|berth|cabin|shipboard|ship crew", full))
-    epistemic_wound = bool(re.search(r"edited (?:recording|clip|audio)|doctored (?:proof|evidence)|fabricated (?:proof|evidence)|manipulated (?:proof|evidence)|spliced|posted it online|spread rumors|defam|frame[ds]?\b|fake photos?|face swap", full))
+    standard_housing = bool(re.search(r"roommate|shared (?:home|apartment|space)|lease|landlord|dormitory|co-op|communal|tenant|crew quarters|shipboard|ship crew", full))
+    maritime_berth = bool(re.search(r"(?:ship|crew|vessel|captain|naval|maritime)[^\n]{0,80}(?:berth|cabin)|(?:berth|cabin)[^\n]{0,80}(?:ship|crew|vessel|captain|naval|maritime)", full))
+    shared_space = standard_housing or maritime_berth
+    epistemic_wound = bool(re.search(r"edited (?:recording|clip|audio)|doctored (?:proof|evidence)|fabricated (?:proof|evidence)|manipulated (?:proof|evidence)|spliced|posted it online|spread rumors|defam|frame[ds]?\b|fake photos?|face swap|forged (?:proof|evidence)", full))
     if not (rebirth and shared_space and epistemic_wound):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
     evidence_groups = [
         r"lease|contract|rental agreement",
-        r"security footage|hallway footage|door-gap|camera|cctv|screenshot|photo|video",
+        r"security footage|hallway footage|door-gap|camera|cctv|photo|recorded video|video evidence|surveillance video",
         r"full recording|recorder|raw audio|original recording",
-        r"chat record|text message|message log|dm record",
+        r"chat record|text message|message log|dm record|chat screenshots?|screenshots? of (?:messages|chats|texts)",
         r"witness|testimony|testif",
         r"police|officer|legal|lawsuit|court",
     ]
