@@ -4303,3 +4303,19 @@ def test_cozy_disaster_shelter_validator_positive_and_generic_negative():
     assert generic_result['applies'] is True
     assert generic_result['score_0_to_1'] < 0.5
     assert generic_result['warnings']
+
+def test_labor_romance_consent_repair_context_and_negation_regressions():
+    from studio.labor_romance_power_balance_integrity import evaluate_labor_romance_power_balance_integrity
+    premise={'logline':'A poor maid in debt disguises herself to work for a billionaire boss and falls in love.'}
+
+    unrelated={'sequences':[{'summary':'He kisses her without asking and she refuses. He apologizes about the shift change but never mentions the kiss.'}]}
+    unrelated_result=evaluate_labor_romance_power_balance_integrity(premise,unrelated,[])
+    assert unrelated_result['checks']['consent_pressure_is_named_not_romanticized'] is False
+
+    permission={'sequences':[{'summary':'He asks for permission, and she can say no. Their romance continues by choice.'}]}
+    permission_result=evaluate_labor_romance_power_balance_integrity(premise,permission,[])
+    assert permission_result['checks']['consent_pressure_is_named_not_romanticized'] is True
+
+    objection={'sequences':[{'summary':'She objects when he kisses her without permission. He apologizes for the kiss and changes his behavior.'}]}
+    objection_result=evaluate_labor_romance_power_balance_integrity(premise,objection,[])
+    assert objection_result['checks']['consent_pressure_is_named_not_romanticized'] is True

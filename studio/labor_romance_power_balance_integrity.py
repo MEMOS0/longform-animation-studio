@@ -25,18 +25,33 @@ def _segments(text: str) -> list[str]:
 
 
 def _affirmative(pattern: str, text: str) -> bool:
-    negation = re.compile(r"\b(?:never|no|not|without|fails? to|doesn['’]?t|don['’]?t|didn['’]?t)\b")
+    negation = re.compile(r"\b(?:never|not|without|fails? to|doesn['’]?t|don['’]?t|didn['’]?t)\b|\bno\s+(?:apolog\w*|permission|consent|repair)\b")
     return any(re.search(pattern, segment) and not negation.search(segment) for segment in _segments(text))
 
 
 def _has_consent_objection(text: str) -> bool:
     direct = re.compile(r"uncomfortable|don['’]?t do this|do not do this|refus(?:es|ed)|you (?:don['’]?t|do not) get to decide|not your job|\bstop\b")
     object_pattern = re.compile(r"\bobject(?:s|ed)?\b")
-    object_negation = re.compile(r"\b(?:nobody|no one|never|without)\b")
+    object_absence = re.compile(r"nobody objects|no one objects|never objects|without objection")
     for segment in _segments(text):
         if direct.search(segment):
             return True
-        if object_pattern.search(segment) and not object_negation.search(segment):
+        if object_pattern.search(segment) and not object_absence.search(segment):
+            return True
+    return False
+
+
+def _has_consent_repair(text: str) -> bool:
+    segments = _segments(text)
+    violation = re.compile(r"kiss|touch|without asking|forced|refus(?:es|ed)|object(?:s|ed)?|boundary|permission|consent")
+    explicit_repair = re.compile(r"ask(?:s|ed)? (?:for )?permission|consent(?:s|ed)?|ask me first|respect(?:s|ed)? (?:her|his|their) (?:answer|boundary|refusal)")
+    apology_with_context = re.compile(r"apolog\w*[^.!?]{0,100}(?:kiss|touch|permission|consent|boundary|refus\w*|without asking)|(?:kiss|touch|permission|consent|boundary|refus\w*|without asking)[^.!?]{0,100}apolog\w*")
+    behavioral_repair = re.compile(r"changed (?:his|her|their)? ?behavior|take responsibility|consequence|repair|give .* space")
+    for index, segment in enumerate(segments):
+        window = " ".join(segments[max(0, index - 1):index + 2])
+        if _affirmative(explicit_repair.pattern, segment) or _affirmative(apology_with_context.pattern, segment):
+            return True
+        if behavioral_repair.search(segment) and violation.search(window) and not re.search(r"\b(?:never|no|not|without)\b", segment):
             return True
     return False
 
@@ -52,7 +67,7 @@ def evaluate_labor_romance_power_balance_integrity(premise: dict[str, Any], arch
 
     consent_violation = bool(re.search(r"without asking|forced kiss|kiss(?:es|ed)? (?:her|him|them|the worker)|grab(?:bed|s)?|experiment on|possessive", full))
     consent_objection = _has_consent_objection(full)
-    consent_repair = _affirmative(r"apolog|permission|consent|ask me first|changed behavior|consequence|repair|take responsibility|give .* space", full)
+    consent_repair = _has_consent_repair(full)
     affirmative_consent = _affirmative(r"ask(?:s|ed)? (?:for )?permission|consent(?:s|ed)?|ask me first|respect(?:s|ed)? (?:her|his|their) (?:answer|boundary|refusal)", full)
 
     if scenes:
