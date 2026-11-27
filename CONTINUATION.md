@@ -526,3 +526,10 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - Added modular premise, architecture, and scene materials in `studio/survival_premises.py`, `studio/survival_architecture.py`, and `studio/survival_scene.py`. The generated scenes use sparse practical dialogue, visual-first objectives, quiet animal care, predator sensory rules, occupational trap preparation, reciprocal rescue, and recognition/contact closure rather than social-melodrama power language.
 - Added `compressed_survival_integrity` machine validation and a `compressed_creature_survival` channel contract. Expanded visual-causality action/object recognition for survival cinema and fixed the false warning that a single sparse spoken turn lacks differentiated speakers.
 - Both generated survival packages validate schema-clean and pass A-D gates; compressed survival integrity is 1.0 with no dialogue or visual-causality warnings. Latest tests: 113 passed.
+
+## 2026-11-27 EchoDrama hidden-beauty long-form checkpoint
+
+- Downloaded and analyzed EchoDrama `lBhjowuJURw` (`[FULL] The Hidden Beauty`, 75.25 minutes), a fresh low-subscriber breakout lead with about 817k views in roughly six days and about 3.55k channel subscribers at collection.
+- Committed full second-resolution audiovisual metrics, 10-second aligned timeline, media summary, 20-second sampled full-runtime contact sheets, max-resolution thumbnail, and thumbnail metadata.
+- Key doctrine: hidden-beauty transformation is strongest when love/recognition precedes the beauty reveal; parental protection itself creates the wound; transformation has behavioral cost; public crowd geometry returns transformed; the 75-minute runtime survives because a film-in-film second engine begins after the makeover payoff; reciprocal childhood protection proves moral rather than cosmetic love.
+- Important audiovisual evidence: the pool danger sequence at minutes 45-50 is quieter, faster-cut, higher-silence, and less verbal than surrounding scenes. Derived file: `knowledge/market/echodrama-hidden-beauty-transformation-romance-deep-dive.md`.
