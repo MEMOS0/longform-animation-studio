@@ -43,7 +43,7 @@ def evaluate_object_testimony_integrity(premise: dict[str, Any], architecture: d
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
     checks = {
-        "object_testimony_is_limited_not_omniscient": bool(re.search(r"doesn.?t know|limited|only (?:saw|heard|remembers?)|fragment(?:ed|s)?|partial|hypothesis|lead|clue|not proof|must verify|needs? verification", full)),
+        "object_testimony_is_limited_not_omniscient": bool(re.search(r"doesn.?t know|limited (?:memory|knowledge|testimony)|only (?:saw|heard|remembers?)|(?:memory|testimony) fragments?|fragments? of (?:memory|testimony)|fragmented (?:memory|testimony)|partial (?:memory|testimony|knowledge)|hypothesis|lead|clue|not proof|must verify|needs? verification", full)),
         "objects_have_history_or_personhood": bool(re.search(r"objects? (?:speak|remember|ask|beg|warn)|relics? (?:speak|remember|ask|warn)|voice|whisper|don.?t (?:melt|smash|break|touch)|history|memory|belong", full)),
         "craft_or_labor_precedes_power": bool(re.search(r"apprais|craft|work|labor|owed|paycheck|job|competence|inspection|negotiat|expert|professional", full)),
         "magic_produces_leads_not_verdicts": _affirmative_match(r"scan|\btests?\b|\blab(?:oratory)?\b|\bct\b|fracture|x[- ]?ray|verify|independent (?:test|lab|laboratory|verification|witness|expert|chemical analysis|analysis)|chemical analysis|forensic analysis|material analysis|evidence|proof|record|document|inspect|hash|chain of custody", full),

@@ -2632,3 +2632,11 @@ def test_object_testimony_independent_chemical_analysis_counts():
     r=evaluate_object_testimony_integrity(premise,{"sequences":[{"summary":summary}]},[])
     assert r["checks"]["magic_produces_leads_not_verdicts"] is True
     assert r["checks"]["verification_is_procedural"] is True
+
+
+def test_object_testimony_physical_fragment_is_not_partial_memory():
+    from studio.object_testimony_integrity import evaluate_object_testimony_integrity
+    premise={"title":"Museum Mirror","logline":"A museum appraiser hears a stolen mirror speak; its testimony concerns provenance and restoration."}
+    summary="A mirror fragment cuts her hand. The mirror knows everything and she refuses to verify."
+    r=evaluate_object_testimony_integrity(premise,{"sequences":[{"summary":summary}]},[])
+    assert r["checks"]["object_testimony_is_limited_not_omniscient"] is False
