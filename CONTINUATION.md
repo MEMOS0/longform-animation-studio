@@ -785,3 +785,11 @@ Continue immediately with non-creature low-subscriber queue: `s-Zn2WhkkH8`, `wHW
 - Review job `pr-review-job-cba7f3ffdd854bf3a5fa4ab5af488c47` was fixed/triaged/end-triaged. Fixes hardened `object_testimony_integrity`: creature-voice stories no longer apply; laboratory tests are recognized; bare object memory and negated/refused verification no longer count as proof.
 - A newer review may be running on `3a618b3`; handle findings first if they arrive.
 - Next work remains fresh low-subscriber breakout scan/dedup, then comparative noncreature analysis. `fresh-breakout-priority-queue.md` still needs cleanup because several IDs are already analyzed.
+
+## 2026-11-27 rotate after second object-testimony review round
+
+- Latest pushed commit: `57d36e7af707a37aba9a1bd9c441bf202ffac80f`.
+- Latest verified test baseline: 295 passed.
+- Review job `pr-review-job-d085a260532c4a86b81169cffc8e1b4a` fixed/triaged/end-triaged. Additional hardening: named artifact voices such as a watch speaking are recognized; independent chemical/forensic/material analysis counts as corroboration; physical fragments no longer count as fragmented memory/testimony.
+- A newer review may be running on `57d36e7`; handle findings first if they arrive.
+- Next substantive work: cleanup stale fresh-breakout queue, dedupe candidates before download, continue low-subscriber/noncreature comparative analysis, then deepen professional dialogue integration.
