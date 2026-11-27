@@ -544,3 +544,10 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 
 - Re-ran the 14-day low-subscriber breakout scan: 84 candidates, 64 strong leads, 5 carryovers, using 14 query families. Outputs updated in `data/processed/recent_breakout_candidates.json` and `knowledge/market/recent-breakout-candidates.md`.
 - Fixed transformation-romance scene 7 screenplay/scene synchronization so the reciprocal-memory exchange uses the intended line `I choose you, not the gratitude.` and a coherent shared-memory object action; regenerated both production packages. Both retain transformation integrity 1.0, no visual-causality warnings, and no dialogue warnings. Tests: 120 passed.
+
+## 2026-11-27 fresh creature breakout evidence checkpoint
+
+- Downloaded and analyzed two priority creature breakouts: WUFO `F-RnV2OicIU` (24:32, about 848k views) and Movie Maxx `EUaUwhMAUgE` (28:18, about 754k views, about 1.9k subscribers at collection).
+- Major packaging discovery: exact subtitle anchors and shifted frame comparison indicate the larger WUFO hit `9N6S6D_ioA0` appears to reuse most/all of `F-RnV2OicIU` after roughly 22:15 of preceding material. It should be treated as compound/serial packaging evidence, not clean duration causality.
+- Craft findings: WUFO strongly validates heat-scarcity economics, creature care before power, sparse practical dialogue, authoritarian coal control, execution ritual, and climax-as-protection/contact. Movie Maxx validates visual-archetypal creature fantasy and slower atmospheric shot lengths; no subtitle track was available, so no exact dialogue claims were made.
+- Committed report: `knowledge/market/fresh-creature-breakouts-wufo-moviemaxx-deep-dive.md`; evidence folders include full timelines/metrics/contact sheets and the WUFO overlap montage.
