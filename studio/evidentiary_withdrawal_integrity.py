@@ -24,20 +24,20 @@ def _text(value: Any) -> str:
 def evaluate_evidentiary_withdrawal_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     rebirth = bool(re.search(r"reborn|rebirth|past life|second chance|this time around|back on the day", full))
-    shared_space = bool(re.search(r"roommate|shared (?:home|apartment|space)|lease|landlord|dormitory|co-op|communal|tenant", full))
-    epistemic_wound = bool(re.search(r"edited (?:recording|clip|audio)|spliced|posted it online|spread rumors|defam|frame[ds]?\b|fake photos?|face swap|evidence", full))
+    shared_space = bool(re.search(r"roommate|shared (?:home|apartment|space)|lease|landlord|dormitory|co-op|communal|tenant|crew quarters|berth|cabin|shipboard|ship crew", full))
+    epistemic_wound = bool(re.search(r"edited (?:recording|clip|audio)|doctored (?:proof|evidence)|fabricated (?:proof|evidence)|manipulated (?:proof|evidence)|spliced|posted it online|spread rumors|defam|frame[ds]?\b|fake photos?|face swap", full))
     if not (rebirth and shared_space and epistemic_wound):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
-    evidence_sources = sum(bool(re.search(pattern, full)) for pattern in [
+    evidence_groups = [
         r"lease|contract|rental agreement",
-        r"security footage|hallway footage|camera|cctv",
+        r"security footage|hallway footage|door-gap|camera|cctv|screenshot|photo|video",
         r"full recording|recorder|raw audio|original recording",
-        r"screenshot|chat record|message",
+        r"chat record|text message|message log|dm record",
         r"witness|testimony|testif",
-        r"photo|metadata|timestamp",
         r"police|officer|legal|lawsuit|court",
-    ])
+    ]
+    evidence_sources = sum(bool(re.search(pattern, full)) for pattern in evidence_groups)
     checks = {
         "past_wound_is_epistemic_not_only_violent": epistemic_wound,
         "rebirth_choice_is_strategic_withdrawal": bool(re.search(r"won['’]?t (?:meddle|argue|shield|save)|move out|won['’]?t rent|leave|withdraw|walk away|not my problem", full)),

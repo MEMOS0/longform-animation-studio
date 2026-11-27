@@ -4203,3 +4203,26 @@ def test_evidentiary_withdrawal_warns_when_exit_implies_consent():
     assert result['applies'] is True
     assert result['checks']['withdrawal_does_not_mean_consent'] is False
     assert any('refuses consent' in w or 'never explicitly refuses consent' in w for w in result['warnings'])
+
+def test_evidentiary_withdrawal_supports_shipboard_crew_quarters():
+    from studio.evidentiary_withdrawal_integrity import evaluate_evidentiary_withdrawal_integrity
+    premise={'logline':'Reborn after doctored proof cost her a disputed berth, a ship crew member leaves the crew quarters rather than consenting to the arrangement.'}
+    result=evaluate_evidentiary_withdrawal_integrity(premise,{},[])
+    assert result['applies'] is True
+
+
+def test_evidentiary_withdrawal_does_not_count_one_screenshot_as_corroboration():
+    from studio.evidentiary_withdrawal_integrity import evaluate_evidentiary_withdrawal_integrity
+    premise={'logline':'Reborn after an edited clip ruined her, a woman leaves a roommate lease.'}
+    architecture={'sequences':[{'summary':'She moves out but does not consent, citing tenant consent and safety. One timestamped camera screenshot clears her.'}]}
+    result=evaluate_evidentiary_withdrawal_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['checks']['evidence_is_multi_source_and_material'] is False
+
+
+def test_evidentiary_withdrawal_rejects_physical_fire_without_epistemic_wound():
+    from studio.evidentiary_withdrawal_integrity import evaluate_evidentiary_withdrawal_integrity
+    premise={'logline':'Reborn before a dormitory fire, she investigates the disaster.'}
+    architecture={'sequences':[{'summary':'Later evidence shows faulty wiring caused the fire.'}]}
+    result=evaluate_evidentiary_withdrawal_integrity(premise,architecture,[])
+    assert result['applies'] is False
