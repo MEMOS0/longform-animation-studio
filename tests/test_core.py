@@ -1774,7 +1774,7 @@ def test_fire_melts_ice_object_is_not_power_inversion():
 
 def test_child_power_obsolescence_full_chain_passes():
     from studio.child_power_obsolescence import evaluate_child_power_obsolescence
-    p={"logline":"A child sees a countdown and saves a man before explaining her visions. He protects her before DNA proof. Lab records, sealed tests and hospital witnesses establish paternity. Her powers become unstable and then gone. He says you're my daughter not my bodyguard. In the end she is a normal child at home eating cake, and someone will come when she is afraid. Another weird kid appears."}
+    p={"logline":"A child sees a countdown and saves a man before explaining her visions. He protects her before DNA proof. Lab records, sealed tests and hospital witnesses establish paternity. The child investigates records. Her powers become unstable and then gone. He says you're my daughter not my bodyguard. In the end she is a normal child at home eating cake, and someone will come when she is afraid. Another weird kid appears."}
     r=evaluate_child_power_obsolescence(p,{},[])
     assert r['applies'] and r['score_0_to_1']==1.0
 
@@ -1798,3 +1798,46 @@ def test_child_power_obsolescence_does_not_apply_to_creature_economic_child_ally
     p=json.load(open('examples/generated_creature_concepts/emberseed_oven_cart_premise.json',encoding='utf8'))
     r=evaluate_child_power_obsolescence(p,{},[])
     assert not r['applies']
+
+
+def test_child_power_scene_order_not_masked_by_premise_summary():
+    from studio.child_power_obsolescence import evaluate_child_power_obsolescence
+    p={"logline":"visions biological paternity home family. a child has powers"}
+    scenes=[{"scene_id":"S1","visual_action":{"first_image":"countdown danger save"},"dialogue_design":{"key_lines":["He protects her before any test"]}},{"scene_id":"S2","visual_action":{"final_image":"she explains visions and later lab DNA proof"}}]
+    r=evaluate_child_power_obsolescence(p,{},scenes)
+    assert r['checks']['power_demonstrated_before_explanation']
+    assert r['checks']['protective_bond_before_biological_proof']
+
+
+def test_guardian_city_setting_does_not_hide_explicit_child_guardianship():
+    from studio.found_family_guardian_integrity import evaluate_found_family_guardian_integrity
+    r=evaluate_found_family_guardian_integrity({"logline":"in the city, a troll is guardian of an orphan child"},{},[])
+    assert r['applies']
+
+
+def test_guardian_adoptive_mother_applies():
+    from studio.found_family_guardian_integrity import evaluate_found_family_guardian_integrity
+    r=evaluate_found_family_guardian_integrity({"logline":"a troll becomes an orphan child's adoptive mother"},{},[])
+    assert r['applies']
+
+
+def test_child_power_opening_scene_uses_explicit_planned_ending():
+    from studio.child_power_obsolescence import evaluate_child_power_obsolescence
+    p={"logline":"a child sees a countdown and saves her father. in the end she is a normal child at home with family"}
+    scenes=[{"scene_id":"S1","visual_action":{"first_image":"countdown danger"},"dialogue_design":{"key_lines":["vision"]}}]
+    r=evaluate_child_power_obsolescence(p,{},scenes)
+    assert r['checks']['ordinary_belonging_closure']
+
+
+def test_child_power_foster_home_does_not_count_as_final_closure_for_hook_order():
+    from studio.child_power_obsolescence import evaluate_child_power_obsolescence
+    p={"logline":"a child leaves a foster home and sees visions. her father protects her before DNA proof. another weird kid appears"}
+    r=evaluate_child_power_obsolescence(p,{},[])
+    assert not r['checks']['sequel_hook_after_belonging_closure']
+
+
+def test_child_power_adult_investigation_alone_not_child_agency():
+    from studio.child_power_obsolescence import evaluate_child_power_obsolescence
+    p={"logline":"a child sees a countdown and saves her father. adults search records and order DNA tests. he protects her. powers become unstable. in the end the family is home."}
+    r=evaluate_child_power_obsolescence(p,{},[])
+    assert not r['checks']['child_agency_investigation']

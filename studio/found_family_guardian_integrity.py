@@ -39,7 +39,7 @@ def _ending_keyed_text(value: Any) -> str:
 
 def evaluate_found_family_guardian_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    guardian_core = bool(re.search(r"\bgiant\b|creature parent|nonhuman parent|adoptive parent", full))
+    guardian_core = bool(re.search(r"\bgiant\b|creature parent|nonhuman parent|adoptive parent|adoptive mother|adoptive father", full))
     personal_guardian_patterns = [
         r"guardian\s+(?:of|for|to)\s+(?:the\s+|a\s+|an\s+)?(?:child|daughter|infant|baby|orphan)",
         r"guardian.{0,40}(?:raises?\b|feeds?\b|shelters?\b|protects\b)",
@@ -48,9 +48,10 @@ def evaluate_found_family_guardian_integrity(premise: dict[str, Any], architectu
     ]
     personal_guardian = False
     for pattern in personal_guardian_patterns:
+        explicit_child_object = pattern.startswith("guardian\\s")
         for match in re.finditer(pattern, full):
             window = full[max(0, match.start() - 30):match.end() + 30]
-            if re.search(r"\bcity(?:'s)?\b|\bpublic\b|\bkingdom\b|\bpeople\b", window):
+            if not explicit_child_object and re.search(r"\bcity(?:'s)?\b|\bpublic\b|\bkingdom\b|\bpeople\b", window):
                 continue
             personal_guardian = True
             break

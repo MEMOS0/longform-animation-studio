@@ -37,37 +37,51 @@ def _ending_keyed_text(value: Any) -> str:
 
 def evaluate_child_power_obsolescence(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
+    ordered = "\n".join([_text(architecture), _text(scenes), _text(premise)]).lower()
     child_term = bool(re.search(r"\bchild\b|\bgirl\b|\bdaughter\b|\bkid\b|\borphan\b", full))
     power_term = bool(re.search(r"precognition|premonition|vision|countdown|super strength|superpower|powers?|sees? .*before|predict", full))
-    family_term = bool(re.search(r"dad|father|mommy|paternity|biological|birth mother|real dad|birth father", full))
+    family_term = bool(re.search(r"\bdad\b|\bfather\b|\bmommy\b|paternity|biological|birth mother|real dad|birth father", full))
     applies = child_term and power_term and family_term
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
-    power_demo_pos = _pos(r"countdown|you.?re going to die|saves?|rescue|danger|explosion|protect", full)
-    explanation_pos = _pos(r"i see|visions?|in my head|predict|power|super strength|superpower", full)
-    care_pos = _pos(r"defend|protect|take that word back|care|bandage|treat|comfort|hug|cake", full)
-    proof_pos = _pos(r"dna|paternity|biological|birth record|birth certificate|proof|test result", full)
-    power_loss_pos = _pos(r"power.*(?:gone|lost|unstable)|(?:gone|lost|unstable).*power|super strength.*gone|normal (?:six|six-year-old|child|kid)|no longer need.*visions?|don.?t need.*visions?", full)
-    closure_pos = _pos(r"home|someone will|now i know you will|ordinary|normal|family|wedding|cake", full)
-    sequel_pos = _pos(r"another weird kid|sequel|next child|new case|to be continued", full)
+    power_demo_pos = _pos(r"countdown|you.?re going to die|saves?|rescue|danger|explosion|protect", ordered)
+    explanation_pos = _pos(r"i see|visions?|in my head|predict|power|super strength|superpower", ordered)
+    care_pos = _pos(r"defend|protect|take that word back|care|bandage|treat|comfort|hug|cake", ordered)
+    proof_pos = _pos(r"dna|paternity|biological|birth record|birth certificate|proof|test result", ordered)
+    power_loss_pos = _pos(r"power.*(?:gone|lost|unstable)|(?:gone|lost|unstable).*power|super strength.*gone|normal (?:six|six-year-old|child|kid)|no longer need.*visions?|don.?t need.*visions?", ordered)
+    closure_pos = _pos(r"someone will come|now i know you will|that.?s what home is|ordinary child|normal (?:six|six-year-old|child|kid)|family is home|wedding", ordered)
+    sequel_pos = _pos(r"another weird kid|sequel|next child|new case|to be continued", ordered)
 
     seqs = architecture.get("sequences", []) if isinstance(architecture, dict) else []
     ending_payoff = architecture.get("ending_payoff") if isinstance(architecture, dict) else {}
-    finale_text = "\n".join([_text(seqs[-2:]), _text(ending_payoff), _text(scenes[-5:])]).strip().lower()
-    if not finale_text:
-        finale_text = "\n".join([_ending_keyed_text(premise), _text(premise.get("ending_payoff", {})), _text(premise.get("logline", ""))]).strip().lower()
+    structured_finale = "\n".join([_text(seqs[-2:]), _text(ending_payoff), _text(scenes[-5:])]).strip().lower()
+    premise_finale = "\n".join([_ending_keyed_text(premise), _text(premise.get("ending_payoff", {}))]).strip().lower()
+    architecture_has_ending = bool(seqs[-2:] or ending_payoff)
+    if len(scenes) < 5 and not architecture_has_ending and premise.get("logline"):
+        logline = str(premise.get("logline")).lower()
+        clauses = re.split(r"[.!?;]\s*", logline)
+        ending_clauses = [clause for clause in clauses if re.search(r"in the end|at the end|final(?:ly)?|aftermath|epilogue", clause) and re.search(r"home|family|ordinary|normal|cake|school|wedding|someone will", clause)]
+        premise_finale = "\n".join([premise_finale, *ending_clauses]).strip()
+    finale_text = ("\n".join([structured_finale, premise_finale]).strip() if len(scenes) < 5 else structured_finale or premise_finale)
+
+    investigative_action = r"investigate|search|find out|track|demand|test|ask|organize"
+    child_investigation = bool(
+        re.search(r"(?:child|girl|daughter|kid) +(?:investigates?|searches?|finds? out|tracks?|demands?|tests?|asks?|organizes?)", full)
+        or re.search(r"i(?:'ll| will| can)? +(investigate|search|find out|track|demand|test|ask|organize)", full)
+        or re.search(r"no acting alone", full)
+    )
 
     checks = {
         "power_demonstrated_before_explanation": power_demo_pos is not None and explanation_pos is not None and power_demo_pos < explanation_pos,
         "protective_bond_before_biological_proof": care_pos is not None and proof_pos is not None and care_pos < proof_pos,
         "procedural_identity_evidence": bool(re.search(r"dna|paternity|lab|birth record|hospital record|death certificate|legal|witness|sealed|chain of custody|report", full)),
-        "child_agency_investigation": bool(re.search(r"investigate|search|find out|track|record|no acting alone|together|ask|demand|test", full)),
+        "child_agency_investigation": child_investigation,
         "power_has_social_or_bodily_cost": bool(re.search(r"monster|dangerous|afraid|privacy|secret|unstable|weak|risk|bullet|hurt|collapse|dizzy", full)),
         "power_destabilized_or_removed_before_resolution": bool(power_loss_pos is not None and (closure_pos is None or power_loss_pos < closure_pos)) or bool(re.search(r"power.*(?:gone|lost|unstable)|super strength.*gone|normal (?:six|six-year-old|child|kid)|don.?t need.*visions?", finale_text)),
         "love_not_payment_for_power": bool(re.search(r"not (?:my )?bodyguard|don.?t love you because|love .*not .*save|our turn to protect|we.*protect you|you.?re my daughter", full)),
         "ordinary_belonging_closure": bool(re.search(r"home|someone will|now i know you will|normal|ordinary|cake|school|family|wedding|come when.*afraid", finale_text)),
-        "sequel_hook_after_belonging_closure": not sequel_pos or closure_pos is not None and closure_pos < sequel_pos,
+        "sequel_hook_after_belonging_closure": not sequel_pos or (closure_pos is not None and closure_pos < sequel_pos),
     }
     labels = {
         "power_demonstrated_before_explanation": "child power is explained before it is demonstrated through concrete danger/rescue",
