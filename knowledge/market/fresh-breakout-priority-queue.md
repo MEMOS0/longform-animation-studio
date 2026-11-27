@@ -1,58 +1,87 @@
-# Fresh breakout priority queue — 2026-11-27 post-family-analysis scan
+# Fresh breakout priority queue — 2026-11-27 post-merge dedupe
 
-Discovery evidence only; age-adjusted views/day is not CTR/retention proof. Already-analyzed carryovers are excluded from the immediate queue unless useful as sequel/comparison cases.
+Discovery evidence only; age-adjusted views/day is not CTR/retention proof. This queue was rebuilt after PR #4 merged and after checking whether IDs were already represented in committed market knowledge. Do not treat duplicate uploads or already-analyzed videos as independent validation.
 
+## Completed or already represented — remove from immediate queue
 
-## Status update — 2026-11-27 late scan
+- `26o_ccDnTSg`: Nightfall economic-abandonment analysis completed.
+- `xhqE43r-faA`: Nightfall wrongful-accusation analysis completed.
+- `dEup8AVWYKg`: Many Drama revenge-autonomy analysis completed.
+- `hozDtPcnnBA`: Lioren hidden-wealth counterexample completed.
+- `23iAlK2FVyA`: Drama Aura object-testimony/provenance analysis completed.
+- `iqCNxQ2_jSI`: already analyzed earlier as Evening Star Chloe; do not re-run.
+- `ULJ7-z1zm6M`: already represented in Nov Drama archive/comment evidence; not a fresh unanalyzed lead.
+- `9N6S6D_ioA0`: already analyzed in WUFO creature-breakout work.
+- `icsZH4sDwTM`: already analyzed in Neural Pictures compressed-survival work.
 
-Completed and integrated since the queue was generated: `26o_ccDnTSg`, `xhqE43r-faA`, `dEup8AVWYKg`, `hozDtPcnnBA`. `iqCNxQ2_jSI` was already fully analyzed earlier as the Evening Star Chloe case; do not treat it as a new unanalyzed lead. Immediate remaining unanalyzed queue: `q0G2kx8-3tE`, `ZyovwVVUiCs`, `ULJ7-z1zm6M`, `9N6S6D_ioA0`, `icsZH4sDwTM`, plus newly refreshed candidates in `recent-breakout-candidates.md` after duplication checks.
+## Deprioritized because channel scale is not low-subscriber
 
-## `26o_ccDnTSg` — Her New Husband Left Her at the Train Station After the Wedding: "You Don't Belong in My World"
-- Channel/subscribers: Nightfall Drama / 92400
-- Views/runtime/upload: 1949386 / 3414s / 2026-11-23
-- Discovery velocity: about 547,284 views/day
+- `q0G2kx8-3tE`: Camellia Drama, about 225k subscribers. Interesting thought-hearing/reborn mechanics, but not the current low-subscriber breakout target.
+- `ZyovwVVUiCs`: Drama Lovehouse, about 124k subscribers. Potentially useful later as dangerous-wife/arranged-romance evidence, but not priority.
 
-## `xhqE43r-faA` — She Found Her College Sweetheart Homeless on a City Street—16 Years Ago, Her Husband Set Him Up
-- Channel/subscribers: Nightfall Drama / 92100
-- Views/runtime/upload: 2282589 / 3444s / 2026-11-22
-- Discovery velocity: about 410,395 views/day
+## Immediate unanalyzed low-subscriber leads
 
-## `dEup8AVWYKg` — Her Fiancé Pushed Her Into the Sea… Everyone Thought She Was Dead, But a Billionaire CEO Saved Her!
-- Channel/subscribers: Many Drama / 152000
-- Views/runtime/upload: 2210077 / 3197s / 2026-11-22
-- Discovery velocity: about 397,358 views/day
+### 1. `NDZc_6T4h6E` — Seven Clover
 
-## `iqCNxQ2_jSI` — A 6-Year-Old Girl Predicted a CEO's Death-But Had No Idea He Was Her Real Dad! #drama #shortdrama
-- Channel/subscribers: Evening Star / 2700
-- Views/runtime/upload: 360786 / 3957s / 2026-11-25
-- Discovery velocity: about 230,988 views/day
+- Title: *Feisty Woman Fakes Pregnancy With Pillow To Ruin Blind Date—Unaware CEO See Through Her In 1s & Fall!*
+- Scale/performance: about 14.3k subscribers, 367,640 views in 4.5 days, about 81,506 views/day.
+- Runtime/format: 113m vertical/serial-style romantic deception.
+- Why priority: long-duration noncreature romantic deception; useful test of whether hidden-pregnancy/see-through deception can sustain long form without becoming repetitive or ethically thin.
+- Required caution: distinguish comic deception from coercive romance; evaluate consent, humiliation, and whether both parties retain agency.
 
-## `hozDtPcnnBA` — She Fell in Love With a Poor Student, Not Knowing He Was a Billionaire Heir! Full Movie 2026
-- Channel/subscribers: Lioren Studios / 506
-- Views/runtime/upload: 258501 / 2104s / 2026-11-25
-- Discovery velocity: about 165,501 views/day
+### 2. `AaLngUHEqVY` — 晚茉短劇Jasmine Drama
 
-## `q0G2kx8-3tE` — Reborn as Hated Wife,Unexpect CEO Heard Her Thoughts, And She Just Spilled the Evil's Plots!
-- Channel/subscribers: Camellia Drama / 225000
-- Views/runtime/upload: 320705 / 4521s / 2026-11-25
-- Discovery velocity: about 205,327 views/day
+- Title: top assassin transmigrated/reborn into a bullied aristocratic-school scapegoat; debt collectors and group bullying trigger counterattack/revenge.
+- Scale/performance: about 16.8k subscribers, 441,333 views in 7.5 days, about 58,761 views/day.
+- Runtime/format: 163m, unusually long serial compilation.
+- Why priority: tests extreme-length episodic retention, reborn-competence power inversion, institutional bullying, and revenge pacing in a non-English/C-drama-adjacent package.
+- Required caution: subtitles/dubbing/language alignment may be unreliable; do not claim full comprehension if aligned English evidence is unavailable.
 
-## `ZyovwVVUiCs` — [FULL] The Billionaire's Daughter Found Him a Dangerous Wife—Now He is Obessed!❤️‍🔥
-- Channel/subscribers: Drama Lovehouse / 124000
-- Views/runtime/upload: 754672 / 4624s / 2026-11-23
-- Discovery velocity: about 165,428 views/day
+### 3. `XL0d9SmAA1M` — DramaShine AI
 
-## `ULJ7-z1zm6M` — They Abandoned a Poor Orphan Girl… Now She's the DRAGON CLAN'S BELOVED PRINCESS!#AIStory
-- Channel/subscribers: Nov Drama / 49200
-- Views/runtime/upload: 1195302 / 4764s / 2026-11-17
-- Discovery velocity: about 113,171 views/day
+- Title: *One Night With a Mafia Boss Turned Me Into His Wife—He's My Bestie's Dad!*
+- Scale/performance: about 17.5k subscribers, 674,597 views in 8.5 days, about 79,266 views/day.
+- Runtime/format: 67m vertical romantic/mafia melodrama.
+- Why priority: high-velocity noncreature romance in a low-subscriber channel; useful for taboo/age-gap power-asymmetry packaging versus actual consent craft.
+- Required caution: do not eroticize coercion or ambiguity; validator focus should be present-tense consent, age/power clarity, and absence of ownership framing.
 
-## `9N6S6D_ioA0` — She Hid a Baby Dragon from the Giants Hunting It | The Mother's DRAGON 2 | Full Fantasy Movie 4K
-- Channel/subscribers: WUFO TV / 53800
-- Views/runtime/upload: 1092934 / 2856s / 2026-11-26
-- Discovery velocity: about 699,735 views/day
+### 4. `83i28EMbqqk` — Fableheart Films
 
-## `icsZH4sDwTM` — The Flight Attendant vs. Giant Insect Island - FULL FANTASY MOVIE
-- Channel/subscribers: Neural Pictures / 60500
-- Views/runtime/upload: 1279983 / 1027s / 2026-11-24
-- Discovery velocity: about 359,351 views/day
+- Title: *A Mermaid’s Son Wished for a Tail on Christmas Eve / THE HUNTER’S MARK 3 / Christmas Fantasy Movie*
+- Scale/performance: about 3.3k subscribers, 250,466 views in 4.6 days, about 54,904 views/day.
+- Runtime/format: 15m compressed fantasy.
+- Why priority: very low subscriber base plus short runtime; useful comparison against 60–120m compilations and existing creature-family work.
+- Required caution: sequel numbering (`3`) may mean the breakout depends on prior series knowledge; analyze as serial continuation, not standalone proof.
+
+### 5. `dHdkaKb3_S8` — Lotus Crown Drama
+
+- Title: *My Alpha Cheated at Our Wedding, His Mom Told Me to Share, So I Chose the Elf King!*
+- Scale/performance: about 4.34k subscribers, 447,508 views in 8.5 days, about 52,582 views/day.
+- Runtime/format: 94m werewolf/elf romantic betrayal.
+- Why priority: low-subscriber fantasy-romance betrayal with public humiliation and re-choice; useful comparison to animal-guise consent and revenge-autonomy doctrines.
+- Required caution: crowded werewolf/alpha field; extract only mechanisms not already covered by WUFO/MythicTwist cases.
+
+### 6. `yA_UfmmVAG0` — Mini Series Drama
+
+- Title: *She sacrificed her eyes for five vampires—Now she’s marrying their worst nightmare!*
+- Scale/performance: about 26.8k subscribers, 155,334 views in 3.5 days, about 44,247 views/day.
+- Runtime/format: 76m vampire sacrifice/romantic power inversion.
+- Why priority: fresh high-velocity upload; bodily sacrifice plus romantic re-choice may extend creature-power-inversion doctrine.
+- Required caution: subscriber count is moderate rather than tiny; treat as secondary priority.
+
+### 7. `DD35huaUIa8` — The Binge Bench
+
+- Title: abandoned pregnant wife is secretly lost Lycan princess.
+- Scale/performance: about 2.5k subscribers, 224,307 views in 5.5 days, about 40,705 views/day.
+- Runtime/format: 58m werewolf/hidden-identity abandonment.
+- Why priority: very low subscriber base; combines abandonment, pregnancy, hidden royal/creature identity, and revenge/romance packaging.
+- Required caution: likely overlaps existing hidden-identity and creature doctrines; analyze only if opening evidence shows a distinct mechanism.
+
+## Recommended order
+
+1. `NDZc_6T4h6E` — strongest noncreature low-subscriber novelty.
+2. `AaLngUHEqVY` — extreme-length format comparison.
+3. `83i28EMbqqk` — compressed short-form/serial counterweight.
+4. `XL0d9SmAA1M` — consent/power-asymmetry stress test.
+5. `dHdkaKb3_S8` — fantasy betrayal/re-choice comparison.
+6. `DD35huaUIa8` and `yA_UfmmVAG0` — only if they still look novel after opening/metadata inspection.
