@@ -46,35 +46,68 @@ def _time_start(value: Any, fallback: float) -> float:
     return float(match.group(1)) if match else fallback
 
 
-def _timed_units(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> list[tuple[float, str]]:
-    units = [(-1.0, _text(premise).lower())]
+def _time_end(value: Any, fallback: float) -> float:
+    if not isinstance(value, dict):
+        return fallback
+    for key in ("time_range", "time", "timing"):
+        raw = str(value.get(key, ""))
+        numbers = re.findall(r"\d+(?:\.\d+)?", raw)
+        if len(numbers) >= 2:
+            return float(numbers[1])
+    return _time_start(value, fallback)
+
+
+def _timed_units(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> list[tuple[int, float, str]]:
+    units: list[tuple[int, float, str]] = [(0, -1.0, _text(premise).lower())]
+    next_id = 1
+    sequence_ends: list[float] = []
     sequences = architecture.get("sequences") if isinstance(architecture, dict) else None
     if isinstance(sequences, list) and sequences:
         for index, sequence in enumerate(sequences, 1):
-            units.append((_time_start(sequence, float(index)), _text(sequence).lower()))
+            start_time = _time_start(sequence, float(index))
+            sequence_ends.append(_time_end(sequence, start_time))
+            units.append((next_id, start_time, _text(sequence).lower()))
+            next_id += 1
     else:
-        units.append((0.0, _text(architecture).lower()))
-    scene_units = []
+        units.append((next_id, 0.0, _text(architecture).lower()))
+        next_id += 1
+    ending_payoff = architecture.get("ending_payoff") if isinstance(architecture, dict) else None
+    if ending_payoff:
+        try:
+            target_end = float(architecture.get("target_minutes"))
+        except (TypeError, ValueError):
+            target_end = max(sequence_ends, default=0.0)
+        target_end = max(target_end, max(sequence_ends, default=target_end))
+        units.append((next_id, target_end + 0.01, _text(ending_payoff).lower()))
+        next_id += 1
     for index, scene in enumerate(scenes, 1):
-        scene_units.append((_time_start(scene, float(index)), _text(scene).lower()))
-    units.extend(scene_units)
+        units.append((next_id, _time_start(scene, float(index)), _text(scene).lower()))
+        next_id += 1
     return units
 
 
-def _bounded_by_later_repair(units: list[tuple[float, str]], adverse_pattern: str, strong_repair_pattern: str, weak_repair_pattern: str) -> bool:
-    adverse_events: list[float] = []
-    strong_events: list[float] = []
-    weak_events: list[float] = []
-    for unit_start, text in units:
-        scale = max(len(text), 1) * 1000
-        adverse_events.extend(unit_start + match.start() / scale for match in re.finditer(adverse_pattern, text) if not _immediate_negation_before(text, match.start()))
-        strong_events.extend(unit_start + match.start() / scale for match in re.finditer(strong_repair_pattern, text))
-        weak_events.extend(unit_start + match.start() / scale for match in re.finditer(weak_repair_pattern, text))
+def _is_later(candidate: tuple[int, float, float], adverse: tuple[int, float, float]) -> bool:
+    candidate_unit, candidate_start, candidate_offset = candidate
+    adverse_unit, adverse_start, adverse_offset = adverse
+    if candidate_start > adverse_start:
+        return True
+    return candidate_unit == adverse_unit and candidate_start == adverse_start and candidate_offset > adverse_offset
+
+
+def _bounded_by_later_repair(units: list[tuple[int, float, str]], adverse_pattern: str, strong_repair_pattern: str, weak_repair_pattern: str) -> bool:
+    adverse_events: list[tuple[int, float, float]] = []
+    strong_events: list[tuple[int, float, float]] = []
+    weak_events: list[tuple[int, float, float]] = []
+    for unit_id, unit_start, text in units:
+        scale = max(len(text), 1)
+        adverse_events.extend((unit_id, unit_start, match.start() / scale) for match in re.finditer(adverse_pattern, text) if not _immediate_negation_before(text, match.start()))
+        strong_events.extend((unit_id, unit_start, match.start() / scale) for match in re.finditer(strong_repair_pattern, text))
+        weak_events.extend((unit_id, unit_start, match.start() / scale) for match in re.finditer(weak_repair_pattern, text))
     if not strong_events and not weak_events:
         return False
     if not adverse_events:
         return True
-    return any(position > max(adverse_events) for position in strong_events)
+    return all(any(_is_later(candidate, adverse) for candidate in strong_events) for adverse in adverse_events)
 
 
 def evaluate_coerced_rechoice_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
