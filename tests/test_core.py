@@ -918,3 +918,21 @@ def test_creature_dialogue_uses_world_specific_material_proof_language():
     assert 'coal ledger' in ember_scenes[2]['dialogue_design']['spoken_exchange'][0]['line']
     assert 'Salt inside this seal' in salt_scenes[3]['dialogue_design']['spoken_exchange'][3]['line']
     assert 'This seam is still hot' in ember_scenes[3]['dialogue_design']['spoken_exchange'][3]['line']
+
+def test_hidden_identity_integrity_flags_status_only_reveal():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    premise={"title_candidates":["Poor Student Was Secretly a Billionaire Heir"],"opening_event":{"first_10_seconds":"a poor student enters elite school","first_60_seconds":"he is mocked","first_5_minutes":"his true identity appears"}}
+    result=evaluate_hidden_identity_integrity(premise,{},[])
+    assert result['applies']
+    assert result['score_0_to_1']<0.7
+    assert any('trust wound' in w for w in result['warnings'])
+
+
+def test_hidden_identity_integrity_accepts_lioren_pattern():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    premise={"title_candidates":["She Fell in Love With a Poor Student, Not Knowing He Was a Billionaire Heir"],"opening_event":{"first_10_seconds":"a poor student is mocked but helps another student","first_60_seconds":"ordinary kindness over coffee and library study","first_5_minutes":"he corrects a valuation and proves competence"}}
+    arch={"sequences":[{"turn":"competence and love grow before status"},{"turn":"the true identity reveal creates a trust wound because he lied"},{"turn":"he apologizes, uses wealth to save the university and protect vulnerable students"},{"turn":"chosen love, proposal, wedding, family and belonging matter more than wealth"}]}
+    result=evaluate_hidden_identity_integrity(premise,arch,[])
+    assert result['applies']
+    assert result['score_0_to_1']>=0.8
+

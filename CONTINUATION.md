@@ -474,3 +474,8 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 
 - Creature-economic spoken exchanges were deepened beyond noun substitution. Scene 1 protection now uses concrete hiding materials (`shawl` vs `flour cloth`) and visible creature features; evidence language is material (`salt rises where her tears fall` vs `coals bend toward her crying`); competence proof uses seal/ledger contradictions; accusation, proof custody, restitution, and communal repair lines were rewritten as action-facing short turns.
 - Generated Salt/Ember scenes, director-seed storyboards, production prompts, and evaluations were regenerated. Regression coverage now locks world-specific authority/proof language. Latest local tests: 100 passed.
+
+## 2026-11-27 hidden-identity integrity gate checkpoint
+
+- Added `studio/hidden_identity_integrity.py` and integrated it into project evaluation. It transparently checks whether hidden-identity/status stories prove competence or kindness before status, form love through ordinary non-status behavior, treat deception as a trust wound, use power prosocially, and subordinate wealth to belonging. This converts the Lioren breakout findings into machine-readable pre-greenlight review rather than leaving them only in prose.
+- Regression tests cover a status-only weak reveal and a Lioren-style positive structure. Latest local tests: 102 passed.

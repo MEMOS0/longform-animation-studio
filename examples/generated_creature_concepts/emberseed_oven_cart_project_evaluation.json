@@ -6715,6 +6715,12 @@
     "warnings": [],
     "doctrine": "Every scene should remain broadly intelligible when muted: visible protector/protected relation, physical action, object/space consequence, and a final image changed by the turn."
   },
+  "hidden_identity_integrity": {
+    "applies": false,
+    "score_0_to_1": 1.0,
+    "warnings": [],
+    "checks": {}
+  },
   "artifact_presence": {
     "architecture": true,
     "scenes": true,
