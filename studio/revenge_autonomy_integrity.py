@@ -16,10 +16,10 @@ def _text(value: Any) -> str:
 
 
 def _affirmative_match(pattern: str, text: str) -> bool:
-    for clause in re.split(r"[.!?;]", text):
+    for clause in re.split(r"[.!?;]|\bbut\b", text):
         for match in re.finditer(pattern, clause):
             before = clause[:match.start()]
-            if re.search(r"(?:(?:nobody|no one|never|without|not|no)\s+(?:\w+\s+){0,3}|refus(?:es|ed)?\s+to\s+(?:\w+\s+){0,3})$", before):
+            if re.search(r"(?:(?:nobody|no one|never|without|not|no)\s+(?:\w+\s+){0,8}|refus(?:es|ed)?\s+to\s+(?:\w+\s+){0,8})$", before):
                 continue
             return True
     return False
@@ -44,7 +44,7 @@ def evaluate_revenge_autonomy_integrity(premise: dict[str, Any], architecture: d
     ending = _ending_tail("\n".join([architecture_text, scenes_text]))
 
     betrayal = bool(re.search(r"betray|humiliat|pushed|thrown|attempted murder|cheat|deceiv|identity fraud|switched places|twin|false identity", full))
-    survival_return = bool(re.search(r"surviv|dead|drowned|presumed dead|returns?|comes back|new identity|alias|new name|reborn", full))
+    survival_return = bool(re.search(r"(?:presumed|believed|thought|everyone thought).*dead|drowned|near[- ]death|new identity|alias|new name|returns? (?:as|after|from)|comes back (?:as|after|from)|reborn", full))
     revenge = bool(re.search(r"revenge|avenge|destroy them|make them pay|sting|trap|expose|take .*down|reckoning", full))
     applies = betrayal and survival_return and revenge
     if not applies:
