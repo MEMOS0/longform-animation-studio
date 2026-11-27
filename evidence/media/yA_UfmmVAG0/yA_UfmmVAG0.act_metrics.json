@@ -1,0 +1,102 @@
+[
+  {
+    "act": "demon pact, restored sight, and hidden judgment",
+    "minutes": "0-5",
+    "mean_wpm": 132.8,
+    "visual_motion": 0.1159,
+    "brightness": 0.2634,
+    "audio_rms": 0.1862,
+    "onsets_per_sec": 4.5533,
+    "silence_ratio": 0.0785
+  },
+  {
+    "act": "chronic humiliation and Morgana frame-up",
+    "minutes": "5-13",
+    "mean_wpm": 158.8,
+    "visual_motion": 0.1214,
+    "brightness": 0.2946,
+    "audio_rms": 0.1897,
+    "onsets_per_sec": 5.5875,
+    "silence_ratio": 0.034
+  },
+  {
+    "act": "hunter abandonment and blood extraction coercion",
+    "minutes": "13-20",
+    "mean_wpm": 134.0,
+    "visual_motion": 0.126,
+    "brightness": 0.3305,
+    "audio_rms": 0.1535,
+    "onsets_per_sec": 5.0881,
+    "silence_ratio": 0.0511
+  },
+  {
+    "act": "council re-choice, ring proof, and curse exposure",
+    "minutes": "20-26",
+    "mean_wpm": 151.2,
+    "visual_motion": 0.121,
+    "brightness": 0.2623,
+    "audio_rms": 0.1796,
+    "onsets_per_sec": 6.0917,
+    "silence_ratio": 0.0763
+  },
+  {
+    "act": "Morgana manipulation and heart extraction",
+    "minutes": "26-35",
+    "mean_wpm": 141.7,
+    "visual_motion": 0.1072,
+    "brightness": 0.2555,
+    "audio_rms": 0.1677,
+    "onsets_per_sec": 5.413,
+    "silence_ratio": 0.1338
+  },
+  {
+    "act": "departure disbelief, hunter pursuit, and abandonment",
+    "minutes": "35-52",
+    "mean_wpm": 121.6,
+    "visual_motion": 0.1114,
+    "brightness": 0.1862,
+    "audio_rms": 0.1264,
+    "onsets_per_sec": 5.1471,
+    "silence_ratio": 0.1557
+  },
+  {
+    "act": "public choice test, red-eye awakening, and rescue",
+    "minutes": "52-60",
+    "mean_wpm": 95.8,
+    "visual_motion": 0.0971,
+    "brightness": 0.1882,
+    "audio_rms": 0.0903,
+    "onsets_per_sec": 4.6729,
+    "silence_ratio": 0.2696
+  },
+  {
+    "act": "monstrous consequence and apology motive",
+    "minutes": "60-66",
+    "mean_wpm": 103.2,
+    "visual_motion": 0.0769,
+    "brightness": 0.1899,
+    "audio_rms": 0.0506,
+    "onsets_per_sec": 4.0306,
+    "silence_ratio": 0.5091
+  },
+  {
+    "act": "Luke care, hidden Lucian identity, and consent choice",
+    "minutes": "66-70",
+    "mean_wpm": 128.2,
+    "visual_motion": 0.0928,
+    "brightness": 0.2178,
+    "audio_rms": 0.0611,
+    "onsets_per_sec": 4.8875,
+    "silence_ratio": 0.4188
+  },
+  {
+    "act": "wedding exposure, failed repentance, and mutual vows",
+    "minutes": "70-75.8",
+    "mean_wpm": 75.4,
+    "visual_motion": 0.0899,
+    "brightness": 0.1802,
+    "audio_rms": 0.0438,
+    "onsets_per_sec": 3.9714,
+    "silence_ratio": 0.5155
+  }
+]

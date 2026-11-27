@@ -76,3 +76,37 @@ Important yA transcript anchors already extracted:
 - 75:04–75:18 mutual vows: only husband/only wife, if you live I live, if you die I die.
 
 Environment warning unchanged: nonfatal `update_ref failed ... refs/remotes/origin/... reference broken` can accompany successful push.
+
+---
+
+# Rotation checkpoint — 2026-11-27 20:14 UTC
+
+Latest pushed commit before this checkpoint: `62695e7e7f1e675c9051e39cdc2df42da10f51db`. A Devin Review is running on that commit; handle findings first if they arrive.
+
+yA progress completed after the previous checkpoint:
+- All 12 contact sheets for `yA_UfmmVAG0` were visually inspected. This is sampled visual inspection across runtime, not continuous frame-by-frame annotation.
+- Act metrics written to `evidence/media/yA_UfmmVAG0/yA_UfmmVAG0.act_metrics.json`.
+- `audio_16k.wav` remains removed. Evidence folder is about 3.5MB.
+
+Key sampled visual observations:
+- Opening uses high-legibility sensory-cost imagery: moonlit castle/demon space, lace-blindfolded heroine, five transformed vampire men, blood-saving flashback, public vows, and immediate “I never loved her” betrayal. White lace/ivory costuming makes blindness visible rather than merely stated.
+- 5–20m visual grammar repeats intimate humiliation in bright domestic/ceremonial interiors: Morgana’s red-haired crying victim performance, knife/frame-up, heroine isolated on stairs/floor, brothers clustered around the false victim, then hunter abandonment in dark rain.
+- 20–35m escalation is legible through ceremonial/institutional spaces: council/hall, black crown transformation, blood-red ring close-up, medical/infirmary inserts, brothers’ possession/entitlement blocking, then heart extraction on floor/bed with August interrupting.
+- 35–52m departure becomes a dark chase/road sequence: cursed crown injury, Lucian emblem/invitation, wedding dress in night exteriors, cars/motorbikes/hunter pursuit, father’s protection order, and brothers abandoning her despite visible danger.
+- 52–60m public choice test uses gothic outdoor/mud/castle visuals: Morgana in bridal white held beside hunters, heroine isolated, gun/blade threat, red-eyed awakening, bat/monster transformations, headlights/Lucian rescue. The visual shift from lace blindfold to unmasked red eyes makes restitution bodily and immediate.
+- 60–66m consequence section darkens and slows: transformed brothers as cracked/batlike creatures, demon/fire arena, repentance framed as self-preservation (“she needs to know” / “never forgive us”), not repair.
+- 66–70m Luke/Lucian care section is visually softer and brighter: sunset terrace, attentive blonde partner, intimate conversation, heroine choosing engagement autonomy before identity reveal. This visually separates care-based bond from coercive family ownership.
+- 70–75.8m wedding/exposure uses public gothic ceremony, monstrous brothers excluded at gates, ring/necklace object proof, Morgana’s armed interruption, brothers crawling/prostrating, crown ritual, elder witness, and mutual-facing closure. Final imagery prioritizes chosen reciprocal union rather than forgiveness of the betrayers.
+
+Act metrics interpretation:
+- Early humiliation/frame-up is dialogue-fast and dense (5–13m: 158.8 WPM, silence 0.034), establishing relentless social pressure.
+- Hunter abandonment/blood extraction lowers pace but stays threatening (13–20m: 134.0 WPM, silence 0.051).
+- Departure/pursuit darkens and slows (35–52m: brightness 0.1862, WPM 121.6, silence 0.156).
+- Public choice/consequence and final acts become progressively quieter: 52–60m silence 0.270; 60–66m 0.509; 70–75.8m 0.516, with low RMS. The film converts dense accusation dialogue into recognition pauses, bodily transformation, ritual witness, and consequence spectacle.
+
+Immediate next steps:
+1. Commit/push this checkpoint plus yA derived evidence/metadata/thumbnail using `git add -f` where ignored. Do not commit full mp4 or audio.
+2. If review findings arrive, handle them first.
+3. Write `knowledge/market/mini-series-five-vampires-demon-pact-deep-dive.md` using the anchors and observations above plus caveats: auto-generated ASR, sampled visual inspection, no private CTR/retention.
+4. Build validator candidate after report: restitution/vision-irony/pact accountability. Suggested checks: explicit sensory/sacrificial cost; conditional betrayal/restitution mechanism; restored perception hidden strategically; escalating bodily extraction; caretaker inversion; public forced-choice test; consequences as moral ledger rather than random spectacle; apology exposed as self-preservation; alternative partner care before status/reveal; consent/choice before identity reveal; mutual rather than possessive closure.
+5. Integrate into production/tests/skill/thumbnail intelligence/queue. Then decide whether DD merits full analysis.
