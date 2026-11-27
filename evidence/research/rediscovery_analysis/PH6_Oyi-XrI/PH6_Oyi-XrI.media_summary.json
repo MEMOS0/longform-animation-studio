@@ -1,0 +1,89 @@
+{
+  "video_id": "PH6_Oyi-XrI",
+  "probe": {
+    "duration": 2504.852608,
+    "size": 149132832,
+    "width": 640,
+    "height": 360,
+    "fps": "24/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\research\\rediscovery_analysis\\PH6_Oyi-XrI\\contact_sheets\\contact_000.jpg",
+    "evidence\\research\\rediscovery_analysis\\PH6_Oyi-XrI\\contact_sheets\\contact_001.jpg",
+    "evidence\\research\\rediscovery_analysis\\PH6_Oyi-XrI\\contact_sheets\\contact_002.jpg",
+    "evidence\\research\\rediscovery_analysis\\PH6_Oyi-XrI\\contact_sheets\\contact_003.jpg",
+    "evidence\\research\\rediscovery_analysis\\PH6_Oyi-XrI\\contact_sheets\\contact_004.jpg",
+    "evidence\\research\\rediscovery_analysis\\PH6_Oyi-XrI\\contact_sheets\\contact_005.jpg",
+    "evidence\\research\\rediscovery_analysis\\PH6_Oyi-XrI\\contact_sheets\\contact_006.jpg",
+    "evidence\\research\\rediscovery_analysis\\PH6_Oyi-XrI\\contact_sheets\\contact_007.jpg",
+    "evidence\\research\\rediscovery_analysis\\PH6_Oyi-XrI\\contact_sheets\\contact_008.jpg"
+  ],
+  "seconds_indexed": 2505,
+  "shot_count": 77,
+  "shot_length_mean_seconds": 32.532467532467535,
+  "shot_length_median_seconds": 16.0,
+  "shot_length_p90_seconds": 87.60000000000002,
+  "visual_motion_mean": 0.07794418773770746,
+  "visual_brightness_mean": 0.23874280194411734,
+  "dialogue_cues": 487,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 191.892,
+      "text": "And when the king dies,"
+    },
+    "first_power_or_identity_language": {
+      "time": 35.5,
+      "text": "A beggar touching the Princess Rose."
+    },
+    "first_care_or_belonging_language": {
+      "time": 628.698,
+      "text": "breaks his own laws for his family."
+    },
+    "dialogue_words_per_minute": [
+      16,
+      12,
+      72,
+      67,
+      50,
+      48,
+      20,
+      8,
+      14,
+      51,
+      62,
+      80,
+      62,
+      73,
+      60,
+      109,
+      119,
+      66,
+      38,
+      71,
+      72,
+      56,
+      91,
+      96,
+      98,
+      91,
+      68,
+      80,
+      47,
+      49,
+      24,
+      8,
+      58,
+      24,
+      19,
+      2,
+      29,
+      30,
+      47,
+      55,
+      65,
+      28
+    ],
+    "cue_count": 487
+  }
+}

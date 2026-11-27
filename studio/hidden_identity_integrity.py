@@ -26,7 +26,7 @@ def evaluate_hidden_identity_integrity(premise: dict[str, Any], architecture: di
     architecture_text = _text(architecture).lower()
     scenes_text = _text(scenes).lower()
     full = "\n".join([premise_text, architecture_text, scenes_text])
-    hidden = bool(re.search(r"hidden (?:identity|heir|heiress|billionaire|wealth|status)|secret(?:ly)? (?:rich|wealthy|heir|billionaire)|poor (?:student|worker|mechanic|student)|true identity|not knowing he was|not knowing she was", full))
+    hidden = bool(re.search(r"hidden (?:identity|heir|heiress|billionaire|wealth|status)|secret(?:ly)? (?:rich|wealthy|heir|billionaire)|poor (?:student|worker|mechanic|student)|true identity|not knowing he was|not knowing she was|secret(?:ly)? (?:a )?(?:princess|prince|royal)|hidden (?:princess|prince|royal identity)|disguised as (?:a )?(?:maid|village girl|commoner|servant|beggar)|escaped? .*palace.*disguise", full))
     if not hidden:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
@@ -63,10 +63,21 @@ def evaluate_hidden_identity_integrity(premise: dict[str, Any], architecture: di
         "repeat_inconvenient_compliance": bool(re.search(r"when inconvenient|following them|prove it when|10 days|ten days|therapy|\bdates\b", full)),
         "truthful_rechoice": bool(re.search(r"choose me again|choose each other|full truth|with conditions|restart the marriage", full)),
     }
+    royal_variant = bool(re.search(r"princess|prince|royal|palace|kingdom|crown", full))
+    royal_extensions = {
+        "ritual_or_object_has_material_consequence": bool(re.search(r"rose|ring|token|ritual|law|ceremony|crown|object", full)) and bool(re.search(r"house|home|hut|palace|marry|marriage|heir|kingdom|inherit|live in|public", full)),
+        "agency_retained_after_reveal": bool(re.search(r"she (?:exposes?|interrupts?|saves?|investigates?|chooses?|protects?)|heroine (?:exposes?|saves?|chooses?)|her evidence|she brings proof|female protagonist.*(?:evidence|proof|save|expose)", full)),
+        "truthful_status_invariant_rechoice": bool(re.search(r"choose .*palace .*hut|choose .*hut .*palace|choose .*every day|choose me again|choose each other|love .*without (?:crown|status|wealth)|not marry a crown", full)),
+    }
+    royal_missing = [key for key, ok in royal_extensions.items() if not ok]
     accountability_missing = [key for key, ok in accountability.items() if not ok]
     if hidden and accountability_missing:
         warnings.append("QueenFlix accountability extensions incomplete: " + ", ".join(accountability_missing))
+    if royal_variant and royal_missing:
+        warnings.append("Golden Rose royal extensions incomplete: " + ", ".join(royal_missing))
     base_score = sum(checks.values()) / len(checks)
     accountability_score = sum(accountability.values()) / len(accountability)
     score = 0.7 * base_score + 0.3 * accountability_score
-    return {"applies": True, "score_0_to_1": round(score, 3), "base_score_0_to_1": round(base_score, 3), "accountability_score_0_to_1": round(accountability_score, 3), "warnings": warnings, "checks": checks, "queenflix_accountability": accountability}
+    if royal_variant:
+        checks.update(royal_extensions)
+    return {"applies": True, "score_0_to_1": round(score, 3), "base_score_0_to_1": round(base_score, 3), "accountability_score_0_to_1": round(accountability_score, 3), "warnings": warnings, "checks": checks, "queenflix_accountability": accountability, "golden_rose_extensions": royal_extensions}

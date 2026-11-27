@@ -50,7 +50,7 @@ def evaluate_child_power_obsolescence(premise: dict[str, Any], architecture: dic
     care_pos = _pos(r"defend|protect|take that word back|care|bandage|treat|comfort|hug|cake", ordered)
     proof_pos = _pos(r"dna|paternity|biological|birth record|birth certificate|proof|test result", ordered)
     power_loss_pos = _pos(r"power.*(?:gone|lost|unstable)|(?:gone|lost|unstable).*power|super strength.*gone|normal (?:six|six-year-old|child|kid)|no longer need.*visions?|don.?t need.*visions?", ordered)
-    closure_pos = _pos(r"someone will come|now i know you will|that.?s what home is|goes home with|returns home with|home with (?:her|his|their) (?:dad|father|mom|mother|family)|ordinary child|normal (?:six|six-year-old|child|kid)|family is home|wedding", ordered)
+    closure_pos = _pos(r"someone will come|now i know you will|that.?s what home is|goes home with|returns home with|(?:goes|returns) home to (?:her|his|their) (?:dad|father|mom|mother|family)|home with (?:her|his|their) (?:dad|father|mom|mother|family)|ordinary child|normal (?:six|six-year-old|child|kid)|family is home|wedding", ordered)
     sequel_pos = _pos(r"another weird kid|sequel|next child|new case|to be continued", ordered)
 
     seqs = architecture.get("sequences", []) if isinstance(architecture, dict) else []
@@ -65,6 +65,21 @@ def evaluate_child_power_obsolescence(premise: dict[str, Any], architecture: dic
         premise_finale = "\n".join([premise_finale, *ending_clauses]).strip()
     finale_text = ("\n".join([structured_finale, premise_finale]).strip() if len(scenes) < 5 else structured_finale or premise_finale)
 
+    child_dialogue_investigation = False
+    def scan_turns(value):
+        nonlocal child_dialogue_investigation
+        if isinstance(value, dict):
+            speaker = str(value.get("speaker", "")).lower()
+            line = str(value.get("line", "")).lower()
+            first_person_action = any(phrase in line for phrase in ("i'll investigate", "i will investigate", "i can investigate", "i'll search", "i will search", "i can search", "i'll find out", "i will find out", "i'll track", "i will track", "i'll ask", "i will ask", "i'll organize", "i will organize"))
+            if re.search(r"child|girl|daughter|kid|protagonist", speaker) and first_person_action:
+                child_dialogue_investigation = True
+            for item in value.values():
+                scan_turns(item)
+        elif isinstance(value, list):
+            for item in value:
+                scan_turns(item)
+    scan_turns(scenes)
     child_investigation = any(
         phrase in full
         for phrase in (
@@ -75,7 +90,7 @@ def evaluate_child_power_obsolescence(premise: dict[str, Any], architecture: dic
             "girl says i will investigate", "child says i will investigate", "daughter says i will investigate",
             "no acting alone",
         )
-    )
+    ) or child_dialogue_investigation
 
     checks = {
         "power_demonstrated_before_explanation": power_demo_pos is not None and explanation_pos is not None and power_demo_pos < explanation_pos,

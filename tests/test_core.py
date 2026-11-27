@@ -1920,3 +1920,54 @@ def test_epic_creature_extraction_flags_costless_villain_defeat():
     assert r['applies']
     assert not r['checks']['communal_consequence_or_peace_maintenance']
     assert not r['checks']['liberation_trauma_persists']
+
+
+def test_royal_hidden_identity_golden_rose_chain():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    p={"logline":"A princess secretly escapes the palace disguised as a village girl. A hidden prince poses as a beggar. She gives her last bread before status is known and ordinary kindness forms love. The rose ritual and law force her to live in his hut and affect marriage and kingdom inheritance. He lied, creating a trust wound and apology. She exposes poison evidence, interrupts the signing, saves her father, and protects the kingdom. In the end they choose each other in a palace or hut and choose every day at a wedding, with full disclosure, records, consent, boundaries, and no gifts."}
+    r=evaluate_hidden_identity_integrity(p,{},[])
+    assert r['applies']
+    assert r['checks']['ritual_or_object_has_material_consequence']
+    assert r['checks']['truthful_status_invariant_rechoice']
+
+
+def test_royal_hidden_identity_flags_passive_princess_after_reveal():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    p={"logline":"A princess secretly escapes the palace disguised as a maid. A hidden prince reveals himself, lied to her, and then arranges their royal wedding."}
+    r=evaluate_hidden_identity_integrity(p,{},[])
+    assert r['applies']
+    assert not r['checks']['agency_retained_after_reveal']
+
+
+def test_epic_extraction_rejects_local_resource_word_matches():
+    from studio.epic_creature_extraction import evaluate_epic_creature_extraction
+    p={"logline":"an unaware baker protects a creature and uses a resource oven cart in a local debt story"}
+    assert not evaluate_epic_creature_extraction(p,{},[])['applies']
+
+
+def test_epic_extraction_costless_source_destruction_fails():
+    from studio.epic_creature_extraction import evaluate_epic_creature_extraction
+    p={"logline":"in a kingdom at war, a royal army drains dragon essence for energy. creatures feed and shelter a child. in the end the hero destroys the source and kills the villain."}
+    r=evaluate_epic_creature_extraction(p,{},[])
+    assert not r['checks']['source_defeat_has_moral_or_infrastructural_cost']
+    assert not r['checks']['communal_consequence_or_peace_maintenance']
+
+
+def test_epic_extraction_hook_order_matters():
+    from studio.epic_creature_extraction import evaluate_epic_creature_extraction
+    p={"logline":"in a kingdom at war, a royal army drains dragon essence for energy. creatures feed and shelter a child. a new threat awakens. in the end souls trapped inside are freed and the source destroyed, the kingdom left in darkness, then refugees are welcomed home to rebuild peace."}
+    r=evaluate_epic_creature_extraction(p,{},[])
+    assert not r['checks']['sequel_hook_after_home_closure']
+
+
+def test_child_power_home_to_father_counts_before_case():
+    from studio.child_power_obsolescence import evaluate_child_power_obsolescence
+    p={"logline":"a girl sees a countdown and saves her father. he protects her before dna proof. the child investigates records. powers become unstable. in the end she returns home to her father. a new case appears."}
+    assert evaluate_child_power_obsolescence(p,{},[])['checks']['sequel_hook_after_belonging_closure']
+
+
+def test_child_power_scene_dialogue_first_person_counts():
+    from studio.child_power_obsolescence import evaluate_child_power_obsolescence
+    p={"logline":"a child sees a countdown and saves her father. he protects her before dna proof. powers become unstable. in the end she goes home with her dad."}
+    scenes=[{"dialogue_design":{"spoken_exchange":[{"speaker":"girl","line":"I'll search the hospital records.","beat":"decision","action":"she stands"}]}}]
+    assert evaluate_child_power_obsolescence(p,{},scenes)['checks']['child_agency_investigation']
