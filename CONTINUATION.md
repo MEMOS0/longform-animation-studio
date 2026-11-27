@@ -601,3 +601,5 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - Major doctrine candidate: material inequity evidence -> medical neglect -> chosen-family operational care -> quiet procedural exit -> boundary dialogue -> partial reconciliation without forced forgiveness.
 - Committed report `knowledge/market/velvet-romance-family-favoritism-exit-deep-dive.md` and evidence under `evidence/research/rediscovery_analysis/oHKc_rXrxm8/`.
 - Next: implement family-favoritism exit validator, then analyze `Gx7nwqNr9YY` or refresh breakout scan.
+- Follow-up completed in same checkpoint: `family_exit_integrity.py` is now integrated into `evaluate_project`; tests 149 passed at commit `67a79773`.
+
