@@ -2085,3 +2085,24 @@ def test_plural_royals_activate_disguise_review():
         [],
     )
     assert result["applies"] is True
+
+
+def test_rank_kept_secret_applies_without_disguise():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    result = evaluate_hidden_identity_integrity(
+        {"title": "Secret Princess", "logline": "A princess keeps her rank secret while living among ordinary people."},
+        {"beats": []},
+        [],
+    )
+    assert result["applies"] is True
+
+
+def test_continued_identity_mystery_is_not_disclosure():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    result = evaluate_hidden_identity_integrity(
+        {"title": "Secret Princess", "logline": "A princess keeps her rank secret. She exposes corruption before the reveal. She admits her identity is still a mystery to him. Much later she discloses her identity."},
+        {"beats": []},
+        [],
+    )
+    assert result["checks"]["reveal_present"] is True
+    assert result["checks"]["agency_retained_after_reveal"] is False

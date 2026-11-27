@@ -28,7 +28,7 @@ DISCLOSURE_PATTERN = (
     r"reveal(?:s|ed)? (?:his|her|their)? ?(?:identity|wealth|status)|"
     r"true identity|billionaire heir|"
     r"tells? .{0,40}(?:she|he) is (?:the )?(?:king.?s daughter|queen.?s son|princess|prince)|"
-    r"(?:admits?|confesses?|discloses?) (?:her identity|his identity|their identity)|"
+    r"(?:admits?|confesses?|discloses?) (?:her identity|his identity|their identity)(?!\s+is\s+(?:still\s+)?(?:a\s+)?(?:mystery|secret|unknown|hidden))|"
     r"(?:admits?|confesses?|discloses?) (?:being|that(?: she| he| they)? is|(?:she|he|they) is) "
     r"(?:a |the )?(?:princess|prince|royal|heir|heiress|king.?s daughter)|"
     r"introduces? .{0,60}(?:daughter|heiress|heir|princess|prince)"
@@ -48,6 +48,8 @@ def evaluate_hidden_identity_integrity(premise: dict[str, Any], architecture: di
         r"not knowing he was|not knowing she was|"
         r"secret(?:ly)? (?:a )?(?:princess|prince|royal)|"
         r"hidden (?:princess|prince|royal identity)|"
+        r"(?:keeps?|kept|conceals?|hides?) (?:her|his|their) (?:rank|identity|royal identity|status|true identity) secret|"
+        r"(?:her|his|their) (?:rank|identity|royal identity|status|true identity) (?:is|remains|stays) secret|"
         r"(?:princess|prince|countess|count|duke|duchess|royal)s?.{0,25}disguis|"
         r"escaped? .*palace.*disguise",
         full,
