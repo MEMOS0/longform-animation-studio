@@ -235,24 +235,39 @@ def generate_architecture(premise: dict[str, Any]) -> dict[str, Any]:
         "central_dramatic_question": question,
         "protagonist_need_arc": text(premise, ["protagonist", "transformation"], "from survival to chosen agency"),
         "sequences": sequences,
-        "midpoint_reversal": "public accusation/frame-up converts private humiliation into maximum social shame while seeding the proof chain that will reverse it",
+        "midpoint_reversal": (
+            "the planned escape becomes a reciprocal rescue obligation when trapped survivors and the allied creature are discovered"
+            if premise.get("channel_contract") == "compressed_creature_survival"
+            else "public accusation/frame-up converts private humiliation into maximum social shame while seeding the proof chain that will reverse it"
+        ),
         "ending_payoff": {
-            "justice": "the true manipulator loses the exact status/property/control they exploited, with material consequences rather than insults alone",
+            "justice": (
+                "the predator is contained through terrain knowledge and the opening vehicle/station mechanism while captives and the creature are freed; survival justice is protection, not social punishment"
+                if premise.get("channel_contract") == "compressed_creature_survival"
+                else "the true manipulator loses the exact status/property/control they exploited, with material consequences rather than insults alone"
+            ),
             "belonging": payoff,
             "future_image": f"the protagonist's capability becomes public work/legacy, while {object_name} remains visible as transformed proof rather than nostalgia",
         },
-        "anti_patterns_checked": [
+        "anti_patterns_checked": ([
+            "spectacle does not replace repeated care behavior or muted visual clarity",
+            "predator threat and innocent/cooperative creature life are morally differentiated",
+            "escape does not solve the wound without reciprocal rescue",
+            "occupational competence becomes concrete climax machinery",
+        ] if premise.get("channel_contract") == "compressed_creature_survival" else [
             "wealth or romance does not replace protagonist agency",
             "hidden power/status creates relational consequences rather than instant reward",
             "public accusation receives public repair",
             "proof chain is seeded before the reversal",
             "opening spatial wound returns transformed in the ending",
-        ],
-        "evidence_references": [
+        ]),
+        "evidence_references": ([
+            "knowledge/market/neural-pictures-compressed-creature-survival-deep-dive.md",
+        ] if premise.get("channel_contract") == "compressed_creature_survival" else [
             "knowledge/market/karma-floor-table-social-proof-deep-dive.md",
             "knowledge/market/dramora-compressed-social-melodrama-deep-dive.md",
             "knowledge/market/leso-faith-economic-reversal-deep-dive.md",
-        ],
+        ]),
     }
 
 

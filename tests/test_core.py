@@ -1080,3 +1080,14 @@ def test_compressed_survival_integrity_partial_scene_draft_not_perfect():
     assert result['checks']['complete_scene_coverage'] is False
     assert result['score_0_to_1'] < 0.2
     assert any('incomplete' in w for w in result['warnings'])
+
+
+def test_compressed_survival_architecture_uses_survival_midpoint_and_ending():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    premise=generate_premises('compressed_creature_survival',1,18)[0]
+    arch=generate_architecture(premise)
+    assert 'reciprocal rescue' in arch['midpoint_reversal']
+    assert 'captives and the creature are freed' in arch['ending_payoff']['justice']
+    assert 'frame-up' not in arch['midpoint_reversal']
+    assert 'true manipulator' not in arch['ending_payoff']['justice']
