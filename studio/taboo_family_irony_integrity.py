@@ -40,6 +40,24 @@ def _opening_text(premise: dict[str, Any], architecture: dict[str, Any], scenes:
     return "\n".join(parts).lower()
 
 
+def _protagonist_names(value: Any) -> list[str]:
+    names: list[str] = []
+    if isinstance(value, dict):
+        for key, item in value.items():
+            lowered = str(key).lower()
+            protagonist_key = "protagonist" in lowered or "heroine" in lowered or "main_character" in lowered
+            if protagonist_key and isinstance(item, str) and len(item.split()) <= 3:
+                names.append(item.lower())
+            elif protagonist_key and isinstance(item, dict) and isinstance(item.get("name"), str):
+                names.append(item["name"].lower())
+            elif isinstance(item, (dict, list)):
+                names.extend(_protagonist_names(item))
+    elif isinstance(value, list):
+        for item in value:
+            names.extend(_protagonist_names(item))
+    return names
+
+
 def evaluate_taboo_family_irony_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     premise_text = _text(premise).lower()
     architecture_text = _text(architecture).lower()
@@ -70,7 +88,11 @@ def evaluate_taboo_family_irony_integrity(premise: dict[str, Any], architecture:
     coercion_unrepaired = coercion_present and not repair_behavior
 
     agency_text = re.sub(r"no right to refuse|can.?t refuse|cannot refuse|won.?t take no", " ", flat)
-    protagonist_agency = bool(re.search(r"we are done|she rejects|he rejects|she refuses|he refuses|stay away|can leave|free to leave|she decides|he decides|chooses? to leave (?:him|her|them|the partner|the marriage|the relationship)|tells? (?:him|her|them) no|walks? away|asks? for (?:an )?annulment|right to refuse", agency_text))
+    supporting_departure = bool(re.search(r"(?:best friend|friend|sister|mother|rival|supporting character).{0,35}chooses? to leave", agency_text))
+    protagonist_names = _protagonist_names(premise)
+    named_departure = any(re.search(re.escape(name.split()[0]) + r" chooses? to leave (?:him|her|them|the partner|the marriage|the relationship)", agency_text) for name in protagonist_names if name.split())
+    pronoun_departure = bool(re.search(r"(?:she|he|they|protagonist|heroine) chooses? to leave (?:him|her|them|the partner|the marriage|the relationship)", agency_text))
+    protagonist_agency = bool(re.search(r"we are done|she rejects|he rejects|she refuses|he refuses|stay away|can leave|free to leave|she decides|he decides|tells? (?:him|her|them) no|walks? away|asks? for (?:an )?annulment|right to refuse", agency_text) or ((named_departure or pronoun_departure) and not supporting_departure))
     truth_revealed = bool(re.search(r"truth|no more lies|identity is revealed|learns? who|realizes? who", flat))
 
     shared_reveal = bool(re.search(r"(?:audience|viewer|viewer.?s|reader).{0,50}learn.{0,30}together|(?:audience|viewer|viewer.?s|reader).{0,50}(?:same time|with the characters)|characters and (?:audience|viewers|readers) learn", flat))

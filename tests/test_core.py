@@ -3160,7 +3160,7 @@ def test_competence_cascade_role_acceptance_closure_and_fresh_assignment_hook():
 
 def test_taboo_family_irony_named_protagonist_chooses_to_leave_partner():
     from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
-    premise={'title':'Bestie Parent','logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
+    premise={'title':'Bestie Parent','protagonist_name':'Lily','logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
     architecture={'sequences':[{'summary':'After the reveal, Lily chooses to leave him.'}]}
     assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['protagonist_can_reject_power'] is True
 
@@ -3222,3 +3222,76 @@ def test_chosen_bond_integrity_flags_upgrade_before_refusal_and_forced_forgivene
     assert r['checks']['exposure_is_layered_evidence'] is False
     assert r['checks']['institutional_consequence_matches_institutional_theft'] is False
     assert r['checks']['forgiveness_is_not_coerced'] is False
+
+
+def test_taboo_family_irony_best_friend_leaving_own_husband_not_heroine_agency():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Bestie Parent','protagonist_name':'Lily','logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
+    architecture={'sequences':[{'summary':'The best friend chooses to leave her own husband. Lily remains trapped.'}]}
+    assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['protagonist_can_reject_power'] is False
+
+
+def test_chosen_bond_does_not_apply_to_creature_imprint_protection():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise={'title':'Stormglass','logline':'A dragon imprints on a child protector guarding a kingdom and abandoned hideout.'}
+    assert evaluate_chosen_bond_integrity(premise,{},[])['applies'] is False
+
+
+def test_chosen_bond_forced_new_marriage_is_not_consenting():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    architecture['sequences'][3]={'summary':'The elf king asks for her hand, then forces her to marry him against her will.'}
+    assert evaluate_chosen_bond_integrity(premise,architecture,scenes)['checks']['alternative_bond_is_chosen_and_consenting'] is False
+
+
+def test_chosen_bond_premise_only_chronology_can_order_refusal_and_care():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise={
+      'title':'Chosen After Betrayal',
+      'logline':'At a public wedding ceremony her fated mate cheats with another woman. She refuses him before the chosen partner appears; he heals and protects her patiently before she believes him and accepts a mutual vow. The council strips the betrayer of his title and she goes home with chosen family.',
+    }
+    r=evaluate_chosen_bond_integrity(premise,{},[])
+    assert r['checks']['protagonist_refuses_before_upgrade'] is True
+    assert r['checks']['care_precedes_romantic_reciprocity'] is True
+
+
+def test_chosen_bond_care_for_ex_does_not_count_as_new_partner_care():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    architecture['sequences']=[
+      {'summary':'At the public bonding ceremony her fated mate cheats and humiliates her; her blood essence sustained his succession.'},
+      {'summary':'She refuses him before the elf king appears as a chosen partner. She heals her former mate one last time. She accepts the king, then he finally protects her, and she believes him.'},
+    ]
+    assert evaluate_chosen_bond_integrity(premise,architecture,scenes)['checks']['care_precedes_romantic_reciprocity'] is False
+
+
+def test_chosen_bond_happy_fated_wedding_is_not_public_betrayal():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    premise['opening_event']={'first_60_seconds':'At the public bonding ceremony she happily marries her fated mate.'}
+    architecture['sequences'][0]={'summary':'At the public wedding ceremony she happily marries her fated mate; betrayal arrives years later.'}
+    assert evaluate_chosen_bond_integrity(premise,architecture,scenes)['checks']['public_betrayal_opening'] is False
+
+
+def test_competence_cascade_opening_investigation_not_sequel_hook():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes=[
+      {'id':'S01','scene_goal':'The agency assigns her to investigate the missing child.'},
+      {'id':'S02','scene_goal':'Her hidden mastery is publicly revealed.'},
+      {'id':'S03','scene_goal':'Police close the conspiracy, the family is reunited, and peace is restored.'},
+    ]
+    r=evaluate_competence_cascade_integrity(premise,architecture,scenes)
+    assert r['checks']['closure_before_mission_hook'] is True
+    assert not any('sequel' in w for w in r['warnings'])
+
+
+def test_competence_cascade_banquet_justice_celebration_does_not_override_closed_case():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes=[
+      {'id':'S01','scene_goal':'She accepts the investigation.'},
+      {'id':'S02','scene_goal':'Police close the conspiracy.'},
+      {'id':'S03','scene_goal':'She receives a fresh assignment before leaving a banquet celebrating justice.'},
+    ]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is True
