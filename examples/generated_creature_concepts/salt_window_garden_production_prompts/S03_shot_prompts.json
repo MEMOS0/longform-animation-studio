@@ -400,7 +400,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; her grandmother blocks the reach toward the creature. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow lateral drift",
-    "dialogue": "A cheap miracle is still a wound.",
+    "dialogue": "Pull it and she'll never trust a hand again.",
     "audio_direction": "keep the creature's fear acoustically close while power remains reverberant and distant",
     "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation; subtext: the objection names the moral cost before anyone can call the bargain practical",
     "continuity_dependencies": [
@@ -792,7 +792,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final image; slow pull-back; the protagonist opens the blue glass salt vial and compares its mark with the first salt trace. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow pull-back",
-    "dialogue": "Look at those fins. Even she knows what you're worth.",
+    "dialogue": "Hold her still. The price is higher while she's breathing.",
     "audio_direction": "blue glass vial taps, salt grains, water droplets, fin movement, and pump-stone resonance unresolved",
     "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power; subtext: the antagonist tries to make the creature's body testify against its own personhood",
     "continuity_dependencies": [

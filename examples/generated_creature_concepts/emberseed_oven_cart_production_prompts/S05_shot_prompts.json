@@ -449,7 +449,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; a flour miller offers the safer betrayal. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow lateral drift",
-    "dialogue": "Show the child and this ends.",
+    "dialogue": "Give them the bird and they may spare the oven.",
     "audio_direction": "music must withhold resolution during accusation so shame remains spatial and bodily",
     "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation; subtext: the safer betrayal sounds merciful because it promises immediate social peace",
     "continuity_dependencies": [
@@ -547,7 +547,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; Lio shields the creature before defending reputation. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "static intimate",
-    "dialogue": "I saved her from you. That isn't theft.",
+    "dialogue": "I took her out of your cage. That isn't theft.",
     "audio_direction": "music drops before decision",
     "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible; subtext: the protagonist protects before defending reputation, proving the hierarchy of values",
     "continuity_dependencies": [
@@ -841,7 +841,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final image; slow pull-back; she shields the emberseed bird child with her body while the blackened brass oven key drops beside the exposed ledger seam as evidence. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow pull-back",
-    "dialogue": "The proof is already beyond your ledger.",
+    "dialogue": "The blackened brass oven key is past the gate. Your ledger can't swallow it now.",
     "audio_direction": "blackened brass key clicks, ember breath, wing-feather tremor, and oven stone resonance unresolved",
     "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power; subtext: the proof escaping the ledger means truth no longer belongs to the institution that controlled it",
     "continuity_dependencies": [

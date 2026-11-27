@@ -351,7 +351,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; the caregiver names the safe boundary before help becomes control. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow lateral drift",
-    "dialogue": "But hunger isn't a bill yet. Don't price her before she eats.",
+    "dialogue": "Price her pain before breakfast and I won't eat under this roof.",
     "audio_direction": "music may form a small rhythmic motif only after work/shelter becomes chosen rather than charitable",
     "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation; subtext: the witness is warning that charity becomes exploitation the moment suffering gets priced",
     "continuity_dependencies": [
@@ -400,7 +400,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; the protagonist accepts work while refusing monetized suffering. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "static intimate",
-    "dialogue": "Then I'll work. I won't sell her pain for a bed.",
+    "dialogue": "Then I'll work the cart. Her pain isn't rent.",
     "audio_direction": "music drops before decision",
     "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible; subtext: accepting work preserves dignity while refusing to convert pain into currency",
     "continuity_dependencies": [
@@ -645,7 +645,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final image; slow pull-back; the protagonist places the blue glass salt vial beside the moonfin child instead of selling access to it. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow pull-back",
-    "dialogue": "The blue glass salt vial opens a way. It doesn't make her ours.",
+    "dialogue": "The blue glass salt vial opens the pump seam. It doesn't make her ours.",
     "audio_direction": "blue glass vial taps, salt grains, water droplets, fin movement, and pump-stone resonance unresolved",
     "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power; subtext: the object is a means of passage, not a claim of ownership",
     "continuity_dependencies": [

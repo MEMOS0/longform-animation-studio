@@ -596,7 +596,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; the protagonist refuses the shortcut public win. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "static intimate",
-    "dialogue": "Return what your papers stole before you ask for trust.",
+    "dialogue": "Open the oven door first. Then ask me to trust your ink.",
     "audio_direction": "music drops before decision",
     "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible; subtext: the protagonist refuses a shortcut victory because trust without repair would repeat the original theft",
     "continuity_dependencies": [
@@ -939,7 +939,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final image; slow pull-back; the emberseed bird child steps forward by choice as the protagonist refuses to claim ownership. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow pull-back",
-    "dialogue": "Let her choose. Let the fire answer first.",
+    "dialogue": "Open the door. If she comes uncaged, the town will see why.",
     "audio_direction": "blackened brass key clicks, ember breath, wing-feather tremor, and oven stone resonance unresolved",
     "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power; subtext: consent is staged materially before language, so the creature is not merely won as a prize",
     "continuity_dependencies": [

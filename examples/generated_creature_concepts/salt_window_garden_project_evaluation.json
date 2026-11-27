@@ -6187,9 +6187,7 @@
         "expected_seconds": 300.0,
         "actual_seconds": 300.0,
         "valid": true,
-        "warnings": [
-          "core protection/trust/agency theme is not explicit in dialogue"
-        ],
+        "warnings": [],
         "shot_count": 17
       },
       {
@@ -6484,6 +6482,7 @@
       "chain",
       "door",
       "gate",
+      "kneel",
       "mat",
       "sit",
       "threshold"

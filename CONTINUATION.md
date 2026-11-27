@@ -469,3 +469,8 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 
 - VNDL `NHAHR3v9La8` (`THE QUEEN'S MONSTER`) was downloaded and analyzed. Piped exposed no subtitles; local Whisper transcription failed with a ctranslate2 segmentation fault, so the analysis explicitly makes no exact-dialogue claims. Derived visual seconds/timeline metrics, audio signal metrics, contact sheets, metadata, and thumbnail evidence are committed; full media/audio remain outside repo or deleted.
 - New knowledge file: `knowledge/market/vndl-queen-monster-creature-family-deep-dive.md`. Key finding: the compressed 24-minute breakout pays the creature-child contract in the first five minutes through nest/feeding/touch/swaddling, then uses maternal punishment, winter survival, matched pendants, battle spectacle, and a quiet creature-family final image. It strongly validates muted-intelligibility and care-before-power doctrine.
+
+## 2026-11-27 professional creature dialogue pass checkpoint
+
+- Creature-economic spoken exchanges were deepened beyond noun substitution. Scene 1 protection now uses concrete hiding materials (`shawl` vs `flour cloth`) and visible creature features; evidence language is material (`salt rises where her tears fall` vs `coals bend toward her crying`); competence proof uses seal/ledger contradictions; accusation, proof custody, restitution, and communal repair lines were rewritten as action-facing short turns.
+- Generated Salt/Ember scenes, director-seed storyboards, production prompts, and evaluations were regenerated. Regression coverage now locks world-specific authority/proof language. Latest local tests: 100 passed.

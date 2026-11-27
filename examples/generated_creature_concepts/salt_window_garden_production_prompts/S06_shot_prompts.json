@@ -547,7 +547,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; the witness makes the cost of surrendering authorship concrete. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow lateral drift",
-    "dialogue": "If one pair of hands carries it, one pair of hands can bury it.",
+    "dialogue": "One pair of hands can bury it as easily as carry it.",
     "audio_direction": "let investigation rhythm replace battle music; each proof layer should have a distinct tactile sound",
     "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation; subtext: the witness understands that whoever controls the proof can also erase it",
     "continuity_dependencies": [
@@ -645,7 +645,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; the protagonist accepts help while keeping control of the proof. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "static intimate",
-    "dialogue": "Help me carry it. Don't carry my choice.",
+    "dialogue": "Then walk beside me. Don't take it from me.",
     "audio_direction": "music drops before decision",
     "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible; subtext: the protagonist accepts support while keeping moral agency and public accountability",
     "continuity_dependencies": [
@@ -1037,7 +1037,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final image; slow pull-back; the care network carries matched proof pieces toward the public hearing. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow pull-back",
-    "dialogue": "Salt, timing, witnesses—line them up.",
+    "dialogue": "Salt marks, gate times, witnesses—line them up.",
     "audio_direction": "blue glass vial taps, salt grains, water droplets, fin movement, and pump-stone resonance unresolved",
     "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power; subtext: the proof chain must become procedural and physical so emotion cannot be dismissed as rumor",
     "continuity_dependencies": [

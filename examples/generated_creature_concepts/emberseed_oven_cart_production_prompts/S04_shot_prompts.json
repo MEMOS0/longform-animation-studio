@@ -449,7 +449,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; one practical witness breaks the crowd's certainty. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow lateral drift",
-    "dialogue": "Lio's repair held mine all morning.",
+    "dialogue": "Lio's repair held through the morning rush.",
     "audio_direction": "use sound interruptions to show the antagonist converting competence into threat",
     "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation; subtext: the witness is not defending the protagonist emotionally; they are defending results they personally verified",
     "continuity_dependencies": [
@@ -547,7 +547,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; Lio keeps working instead of pleading. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "static intimate",
-    "dialogue": "One honest customer before you call me a thief.",
+    "dialogue": "Let my work answer before you invent a thief.",
     "audio_direction": "music drops before decision",
     "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible; subtext: the protagonist asks for evidence to be tested rather than asking to be believed",
     "continuity_dependencies": [
@@ -841,7 +841,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final image; slow pull-back; she pockets a marked ledger fragment and carries the emberseed bird child away from the offer of sale. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow pull-back",
-    "dialogue": "The oven remembers every hand that opened it.",
+    "dialogue": "This seam is still hot. Your ledger says the oven was closed.",
     "audio_direction": "blackened brass key clicks, ember breath, wing-feather tremor, and oven stone resonance unresolved",
     "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power; subtext: the infrastructure itself becomes a witness that contradicts institutional authorship",
     "continuity_dependencies": [

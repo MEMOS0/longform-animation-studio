@@ -351,7 +351,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; a flour miller shifts between the crowd and the creature. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow lateral drift",
-    "dialogue": "Don't lift her into the crowd—she'll bolt.",
+    "dialogue": "Don't lift her toward the carts—she'll bolt.",
     "audio_direction": "no heroic score yet; let the protection choice register as close breath and contact before music enters",
     "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation; subtext: intervention can become exposure if panic drives the creature into the crowd",
     "continuity_dependencies": [
@@ -400,7 +400,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; Lio kneels and covers the creature. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "static intimate",
-    "dialogue": "I hide her first. Questions after she's safe.",
+    "dialogue": "Under my flour cloth. If they see feathers, we're both done.",
     "audio_direction": "music drops before decision",
     "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible; subtext: safety outranks being understood or socially approved",
     "continuity_dependencies": [
@@ -645,7 +645,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final image; slow pull-back; the protagonist kneels, hides the emberseed bird child, and closes a protective hand around the blackened brass oven key. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow pull-back",
-    "dialogue": "Look at the fire. It moved when she cried.",
+    "dialogue": "Look, the coals bend toward her crying.",
     "audio_direction": "blackened brass key clicks, ember breath, wing-feather tremor, and oven stone resonance unresolved",
     "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power; subtext: the creature's response makes personhood materially visible before anyone can explain it",
     "continuity_dependencies": [

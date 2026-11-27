@@ -759,7 +759,7 @@ def test_storyboard_seed_uses_spoken_exchange_in_dialogue_shots():
     board=build_seed_board(scene)
     dialogue_shots=[s for s in board['shots'] if s['dialogue']]
     assert any('Paying hands first, Nura' in s['dialogue'] for s in dialogue_shots)
-    assert any("I hide her first" in s['dialogue'] for s in dialogue_shots)
+    assert any("Under my shawl" in s['dialogue'] for s in dialogue_shots)
     assert any('crowd blocks the public resource threshold' in s['visual_action'] for s in dialogue_shots)
 
 
@@ -797,7 +797,7 @@ def test_creature_spoken_exchange_assigns_decisions_to_protagonist():
         decision=next(t for t in exchange if t['beat']=='protagonist_decision')
         assert decision['speaker']=='Nura'
     assert "Then I'll work" in next(t for t in scenes[1]['dialogue_design']['spoken_exchange'] if t['beat']=='protagonist_decision')['line']
-    assert "Help me carry it" in next(t for t in scenes[5]['dialogue_design']['spoken_exchange'] if t['beat']=='protagonist_decision')['line']
+    assert "walk beside me" in next(t for t in scenes[5]['dialogue_design']['spoken_exchange'] if t['beat']=='protagonist_decision')['line']
 
 
 def test_storyboard_seed_falls_back_to_key_lines_without_spoken_exchange():
@@ -818,8 +818,8 @@ def test_storyboard_seed_places_witness_objection_before_decision():
     premise=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
     scene=generate_scenes(premise,generate_architecture(premise))[5]
     board=build_seed_board(scene)
-    witness_idx=next(i for i,s in enumerate(board['shots']) if 'one pair of hands carries it' in s['dialogue'])
-    decision_idx=next(i for i,s in enumerate(board['shots']) if 'Help me carry it' in s['dialogue'])
+    witness_idx=next(i for i,s in enumerate(board['shots']) if 'One pair of hands can bury it' in s['dialogue'])
+    decision_idx=next(i for i,s in enumerate(board['shots']) if 'walk beside me' in s['dialogue'])
     assert witness_idx < decision_idx
 
 
@@ -902,3 +902,19 @@ def test_creature_spoken_exchange_contains_scene_specific_subtext():
     assert all(t.get('subtext') for t in exchange)
     assert exchange[0]['subtext'] != exchange[0]['line']
     assert 'illegality' in exchange[0]['subtext']
+
+
+def test_creature_dialogue_uses_world_specific_material_proof_language():
+    from studio.premise_generator import creature_economic_premise,CREATURE_ECONOMIC_VARIANTS
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    salt=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[0])
+    ember=creature_economic_premise(CREATURE_ECONOMIC_VARIANTS[1])
+    salt_scenes=generate_scenes(salt,generate_architecture(salt))
+    ember_scenes=generate_scenes(ember,generate_architecture(ember))
+    assert 'salt rises where her tears fall' in salt_scenes[0]['dialogue_design']['spoken_exchange'][3]['line']
+    assert 'coals bend toward her crying' in ember_scenes[0]['dialogue_design']['spoken_exchange'][3]['line']
+    assert 'Guild ration first' in ember_scenes[0]['dialogue_design']['spoken_exchange'][0]['line']
+    assert 'coal ledger' in ember_scenes[2]['dialogue_design']['spoken_exchange'][0]['line']
+    assert 'Salt inside this seal' in salt_scenes[3]['dialogue_design']['spoken_exchange'][3]['line']
+    assert 'This seam is still hot' in ember_scenes[3]['dialogue_design']['spoken_exchange'][3]['line']
