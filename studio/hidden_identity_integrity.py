@@ -26,10 +26,11 @@ def _text(value: Any) -> str:
 DISCLOSURE_PATTERN = (
     r"identity reveal|"
     r"reveal(?:s|ed)? (?:his|her|their)? ?(?:identity|wealth|status)|"
-    r"true identity|billionaire heir|heiress|"
+    r"true identity|billionaire heir|"
     r"tells? .{0,40}(?:she|he) is (?:the )?(?:king.?s daughter|queen.?s son|princess|prince)|"
-    r"(?:admits?|confesses?|discloses?) (?:being|that(?: she| he)? is|her identity|his identity|their identity)"
-    r".{0,60}(?:identity|princess|prince|royal|heir|heiress|king.?s daughter)|"
+    r"(?:admits?|confesses?|discloses?) (?:her identity|his identity|their identity)|"
+    r"(?:admits?|confesses?|discloses?) (?:being|that(?: she| he| they)? is|(?:she|he|they) is) "
+    r"(?:a |the )?(?:princess|prince|royal|heir|heiress|king.?s daughter)|"
     r"introduces? .{0,60}(?:daughter|heiress|heir|princess|prince)"
 )
 
@@ -47,7 +48,7 @@ def evaluate_hidden_identity_integrity(premise: dict[str, Any], architecture: di
         r"not knowing he was|not knowing she was|"
         r"secret(?:ly)? (?:a )?(?:princess|prince|royal)|"
         r"hidden (?:princess|prince|royal identity)|"
-        r"(?:princess|prince|countess|count|duke|duchess|royal).{0,40}(?:secret|hidden|disguis)|"
+        r"(?:princess|prince|countess|count|duke|duchess|royal)s?.{0,25}disguis|"
         r"escaped? .*palace.*disguise",
         full,
     ))
@@ -58,8 +59,8 @@ def evaluate_hidden_identity_integrity(premise: dict[str, Any], architecture: di
     ))
     rank_tokens = set(re.findall(r"[a-z]+", full))
     rank_vocabulary = {
-        "princess", "prince", "royal", "palace", "kingdom", "crown", "king", "queen",
-        "heir", "heiress", "count", "countess", "duke", "duchess", "lord", "lady",
+        "princess", "princesses", "prince", "princes", "royal", "royals", "palace", "kingdom", "crown", "king", "kings", "queen", "queens",
+        "heir", "heiress", "countess", "countesses", "duke", "duchess", "lord", "lady",
         "billionaire", "wealth",
     }
     concealed_rank_context = bool(rank_vocabulary & rank_tokens)
@@ -104,7 +105,7 @@ def evaluate_hidden_identity_integrity(premise: dict[str, Any], architecture: di
     ordered = "\n".join([architecture_text, scenes_text, premise_text])
     reveal_match = re.search(DISCLOSURE_PATTERN, ordered)
     post_reveal_text = ordered[reveal_match.end():] if reveal_match else ""
-    royal_variant = bool({"princess", "prince", "royal", "palace", "kingdom", "crown", "countess", "count", "duke", "duchess"} & rank_tokens)
+    royal_variant = bool({"princess", "princesses", "prince", "princes", "royal", "royals", "palace", "kingdom", "crown", "countess", "countesses", "duke", "duchess"} & rank_tokens)
     royal_extensions = {
         "ritual_or_object_has_material_consequence": bool(re.search(r"rose|ring|token|ritual|law|ceremony|crown|object", full)) and bool(re.search(r"house|home|hut|palace|marry|marriage|heir|kingdom|inherit|live in|public", full)),
         "agency_retained_after_reveal": bool(re.search(r"she (?:exposes?|interrupts?|saves?|investigates?|chooses?|protects?)|heroine (?:exposes?|saves?|chooses?)|her evidence|she brings proof|female protagonist.*(?:evidence|proof|save|expose)", post_reveal_text)),

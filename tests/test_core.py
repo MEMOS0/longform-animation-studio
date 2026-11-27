@@ -2025,3 +2025,63 @@ def test_looking_does_not_count_as_king_rank_context():
     from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
     r=evaluate_hidden_identity_integrity({"logline":"a detective poses as a maid while looking for evidence"},{},[])
     assert not r['applies']
+
+
+def test_direct_identity_disclosure_counts_as_reveal():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    result = evaluate_hidden_identity_integrity(
+        {"title": "Hidden Princess", "logline": "A hidden princess disguises herself as a maid. She has craft competence and ordinary kindness before status. She discloses her identity. The lie creates a trust wound. She protects the village. Ending chosen love family home."},
+        {"beats": []},
+        [],
+    )
+    assert result["checks"]["reveal_present"] is True
+
+
+def test_bare_heiress_label_does_not_start_aftermath():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    result = evaluate_hidden_identity_integrity(
+        {"title": "Hidden Princess", "logline": "An heiress hidden princess disguises herself as a maid. She has craft competence and ordinary kindness before status. She exposes the steward's fraud. She discloses her identity. The lie creates a trust wound. Ending chosen love family home."},
+        {"beats": []},
+        [],
+    )
+    assert result["checks"]["agency_retained_after_reveal"] is False
+
+
+def test_confession_match_does_not_swallow_following_action():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    result = evaluate_hidden_identity_integrity(
+        {"title": "Hidden Princess", "logline": "A hidden princess disguises herself as a maid. She has craft competence and ordinary kindness before status. She confesses that she is the princess. Royal court follows. She exposes the villain with proof. Ending chosen love family home."},
+        {"beats": []},
+        [],
+    )
+    assert result["checks"]["agency_retained_after_reveal"] is True
+
+
+def test_secret_plot_near_prince_does_not_trigger_hidden_identity():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    result = evaluate_hidden_identity_integrity(
+        {"title": "Court Mystery", "logline": "A prince uncovers a secret plot but never hides his identity."},
+        {"beats": []},
+        [],
+    )
+    assert result["applies"] is False
+
+
+def test_counting_guests_is_not_count_rank():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    result = evaluate_hidden_identity_integrity(
+        {"title": "Detective", "logline": "A detective poses as a maid to count guests at the inn."},
+        {"beats": []},
+        [],
+    )
+    assert result["applies"] is False
+
+
+def test_plural_royals_activate_disguise_review():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    result = evaluate_hidden_identity_integrity(
+        {"title": "Last Royal", "logline": "The last of the royals poses as a maid. She has craft competence and ordinary kindness before status. She discloses her identity. The lie creates a trust wound. She protects the village. Ending chosen love family home."},
+        {"beats": []},
+        [],
+    )
+    assert result["applies"] is True
