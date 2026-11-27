@@ -1,3 +1,15 @@
+## Rotation checkpoint 2026-11-27 review semantics
+
+Latest pushed commit: `c262aea`. PR #7 review findings from `1334189` were fixed, triaged resolved, and triage ended. A new review is running on `c262aea`; handle its findings first if notified.
+
+Immediate continuation:
+1. If review findings arrive for `c262aea`, retrieve/triage/end-triage before long-running analysis.
+2. Implement NEXORA `constructive_restoration_integrity` only if distinct from existing validators; inspect existing validators first. Candidate checks are listed below in the NEXORA checkpoint.
+3. Integrate NEXORA doctrine into skill, thumbnail intelligence, fresh queue.
+4. Run tests, targeted commit/push.
+5. Continue fresh low-subscriber breakouts: CineAI `gw1SsVcha0Y`, Fated `B8bd364FM-8`, CrushLoop `6k_W9eG6mAU`, Hushfall `4m3u8UMUgDg`; compare novelty.
+6. Return to task 8 dialogue scaffolds.
+
 # Continuation checkpoint — 2026-11-27 21:25 UTC
 
 Active PR: https://github.com/MEMOS0/longform-animation-studio/pull/7
