@@ -1,3 +1,32 @@
+# Continuation checkpoint — 2026-11-27 21:25 UTC
+
+Active PR: https://github.com/MEMOS0/longform-animation-studio/pull/7
+Branch: `devin/1795803830-jasmine-reborn-school-analysis`
+Latest pushed commit before NEXORA evidence checkpoint: `7efd889209f64f66f7dc54537b77ac93316feeb0`; newest review may still be running—handle findings first if they arrive.
+Tests after latest review regressions: **414 passed**.
+
+Completed since previous checkpoint:
+- 8-finding review round on protective-kinship/maternal/restitution validators fixed, regression-tested, pushed, triaged, and end-triaged.
+- NEXORA `KcaifB7MhwQ` full media downloaded: `C:/Users/Administrator/evidence_tmp/media_queue/KcaifB7MhwQ.mp4`, 473,820,862 bytes, 6,730s, horizontal 640x320.
+- Media analyzer completed. Derived evidence is in `evidence/media/KcaifB7MhwQ/`; `audio_16k.wav` removed before commit.
+- All 17 contact sheets visually inspected as sampled visual inspection, not continuous frame-by-frame annotation.
+- Report written: `knowledge/market/nexora-mechanic-constructive-scifi-deep-dive.md`.
+- Channel baseline collected: `data/raw/piped/channel_UCHHsDi7UtNc5X90QPBpwP9Q.json`.
+- Thumbnail downloaded: `data/raw/thumbnails/nexora_cinema/KcaifB7MhwQ.maxresdefault.jpg`.
+
+Key NEXORA doctrine candidate: constructive restoration sci-fi engine — care before lore; object ladder of repair competence; agency-preserving mentorship; belonging as operational capacity; war resolved through restitution; war machines repurposed into care/work infrastructure; money as production capacity; wonder converted into usable infrastructure; childlike robot completing the mentorship cycle; finale as capability launch/franchise opening. Important counterweights: `TWO YEARS LATER` vs ten-years dialogue continuity error, inserted Anunnaki war episode, repetitive/looping subtitle montage, unresolved corporate hunters, low-conflict final 50 minutes.
+
+Immediate next steps:
+1. Handle any new PR #7 review findings first.
+2. Commit/push NEXORA evidence/report/CONTINUATION now (`git add -f` as needed).
+3. Decide/implement production validator, likely `constructive_restoration_integrity`, only if sufficiently distinct from existing found-family/prohibition sci-fi/scale-community gates. Core checks: nontransactional shelter/care; repair-object curriculum; learner performs work; fair pay/mentor supervision; war/restitution ethic; repurposed weapon as care infrastructure; wealth converted into repair capacity; wonder object has usable infrastructure; companion robot/child analogue completes mentorship cycle; finale demonstrates capability through tested systems; franchise hook follows built crew/home/ship. Also encode continuity/repetition warnings if practical.
+4. Integrate doctrine into `.devin/skills/longform-animation-studio/SKILL.md`, `knowledge/thumbnails/thumbnail-intelligence.md`, and fresh queue.
+5. Run tests, targeted commit/push.
+6. Continue fresh low-subscriber breakout scan/deep dives: CineAI `gw1SsVcha0Y`, Fated `B8bd364FM-8`, CrushLoop `6k_W9eG6mAU`, Hushfall `4m3u8UMUgDg`; compare whether they add novel mechanisms beyond current validators.
+7. Return to task 8: generic noncreature dialogue scaffolds still need scene-specific professional writing.
+
+---
+
 # Continuation checkpoint — 2026-11-27 21:00 UTC
 
 Active PR: https://github.com/MEMOS0/longform-animation-studio/pull/7

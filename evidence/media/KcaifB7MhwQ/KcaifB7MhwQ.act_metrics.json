@@ -1,0 +1,132 @@
+[
+  {
+    "segment": "orphan rescue/apprenticeship",
+    "minutes": [
+      0,
+      16
+    ],
+    "mean_wpm": 58.3,
+    "motion": 0.1236,
+    "brightness": 0.2305,
+    "rms": 0.0365,
+    "silence_ratio": 0.3293,
+    "onsets_per_second": 4.02
+  },
+  {
+    "segment": "time-skip independence/spaceport",
+    "minutes": [
+      16,
+      21
+    ],
+    "mean_wpm": 66.2,
+    "motion": 0.1131,
+    "brightness": 0.2308,
+    "rms": 0.0357,
+    "silence_ratio": 0.228,
+    "onsets_per_second": 4.29
+  },
+  {
+    "segment": "Anunnaki war embedded history",
+    "minutes": [
+      21,
+      33.5
+    ],
+    "mean_wpm": 27.3,
+    "motion": 0.1406,
+    "brightness": 0.3399,
+    "rms": 0.053,
+    "silence_ratio": 0.0823,
+    "onsets_per_second": 2.93
+  },
+  {
+    "segment": "postwar combat-unit repair",
+    "minutes": [
+      33.5,
+      45
+    ],
+    "mean_wpm": 37.0,
+    "motion": 0.1143,
+    "brightness": 0.222,
+    "rms": 0.0293,
+    "silence_ratio": 0.251,
+    "onsets_per_second": 3.15
+  },
+  {
+    "segment": "Nexus corporate salvage hunt",
+    "minutes": [
+      45,
+      60
+    ],
+    "mean_wpm": 44.5,
+    "motion": 0.1108,
+    "brightness": 0.2295,
+    "rms": 0.0393,
+    "silence_ratio": 0.121,
+    "onsets_per_second": 3.69
+  },
+  {
+    "segment": "small robot repair transition",
+    "minutes": [
+      60,
+      70
+    ],
+    "mean_wpm": 11.9,
+    "motion": 0.1284,
+    "brightness": 0.2727,
+    "rms": 0.0398,
+    "silence_ratio": 0.1382,
+    "onsets_per_second": 3.73
+  },
+  {
+    "segment": "underground sanctuary discovery",
+    "minutes": [
+      70,
+      80
+    ],
+    "mean_wpm": 34.9,
+    "motion": 0.1204,
+    "brightness": 0.2093,
+    "rms": 0.0147,
+    "silence_ratio": 0.2522,
+    "onsets_per_second": 3.03
+  },
+  {
+    "segment": "chosen-home/birthday/ship reveal",
+    "minutes": [
+      80,
+      90
+    ],
+    "mean_wpm": 23.3,
+    "motion": 0.1148,
+    "brightness": 0.2095,
+    "rms": 0.0292,
+    "silence_ratio": 0.2254,
+    "onsets_per_second": 2.89
+  },
+  {
+    "segment": "starship restoration",
+    "minutes": [
+      90,
+      100
+    ],
+    "mean_wpm": 14.4,
+    "motion": 0.1214,
+    "brightness": 0.1994,
+    "rms": 0.0195,
+    "silence_ratio": 0.282,
+    "onsets_per_second": 3.54
+  },
+  {
+    "segment": "ground test/orbital launch",
+    "minutes": [
+      100,
+      112.2
+    ],
+    "mean_wpm": 12.5,
+    "motion": 0.127,
+    "brightness": 0.2199,
+    "rms": 0.0744,
+    "silence_ratio": 0.1166,
+    "onsets_per_second": 2.81
+  }
+]
