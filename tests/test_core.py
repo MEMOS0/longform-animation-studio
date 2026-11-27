@@ -1429,3 +1429,31 @@ def test_family_exit_integrity_accepts_velvet_pattern():
     premise={"title_candidates":["I Was the Obedient Daughter for 20 Years Until I Left Without Saying Goodbye"]}
     arch={"sequences":[{"turn":"one dowry wedding dress savings jewelry and gold go to twin sister; hospital blood allergy medical report ignored"},{"turn":"mother-in-law notices thinness, remembers likes dietary routine, makes food and cushions her"},{"turn":"she leaves the group chat, phone off, no invite; it is not punish but live my own life, bottom of your priorities and Chloe shadow"},{"turn":"mother says I was wrong and regret; father gifts again but she feels nothing, no longer needs it, they may return if we have time"}]}
     assert evaluate_family_exit_integrity(premise,arch,[])['score_0_to_1']==1.0
+
+
+def test_family_exit_chosen_family_alone_does_not_apply():
+    from studio.family_exit_integrity import evaluate_family_exit_integrity
+    premise={"title_candidates":["Stormglass Keepers"],"logline":"a creature-protection chosen family fantasy"}
+    assert not evaluate_family_exit_integrity(premise,{},[])['applies']
+
+
+def test_family_exit_title_alone_does_not_count_as_exit_event():
+    from studio.family_exit_integrity import evaluate_family_exit_integrity
+    premise={"title_candidates":["Left Without Saying Goodbye"],"logline":"family favoritism and dowry conflict"}
+    result=evaluate_family_exit_integrity(premise,{},[])
+    assert not result['checks']['quiet_procedural_exit']
+
+
+def test_family_exit_finale_uses_structured_sequences_not_character_tail():
+    from studio.family_exit_integrity import evaluate_family_exit_integrity
+    premise={"title_candidates":["Left Without Saying Goodbye"],"logline":"family favoritism dowry hospital"}
+    arch={"sequences":[{"turn":"x"*3000},{"turn":"mother says I was wrong and regret; she feels nothing and no longer needs forgiveness; if we have time bounded contact"}]}
+    result=evaluate_family_exit_integrity(premise,arch,[])
+    assert result['checks']['repair_not_objects_only']
+    assert result['checks']['no_forced_forgiveness_reset']
+
+
+def test_romance_blocks_him_counts_as_contact_rejection():
+    from studio.romance_deception_integrity import evaluate_romance_deception_integrity
+    premise={"title_candidates":["Her Online Boyfriend Was 16"],"opening_event":{"first_5_minutes":"she blocks him immediately"}}
+    assert evaluate_romance_deception_integrity(premise,{},[])['checks']['immediate_boundary_or_rejection']
