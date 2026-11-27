@@ -110,3 +110,26 @@ Immediate next steps:
 3. Write `knowledge/market/mini-series-five-vampires-demon-pact-deep-dive.md` using the anchors and observations above plus caveats: auto-generated ASR, sampled visual inspection, no private CTR/retention.
 4. Build validator candidate after report: restitution/vision-irony/pact accountability. Suggested checks: explicit sensory/sacrificial cost; conditional betrayal/restitution mechanism; restored perception hidden strategically; escalating bodily extraction; caretaker inversion; public forced-choice test; consequences as moral ledger rather than random spectacle; apology exposed as self-preservation; alternative partner care before status/reveal; consent/choice before identity reveal; mutual rather than possessive closure.
 5. Integrate into production/tests/skill/thumbnail intelligence/queue. Then decide whether DD merits full analysis.
+
+---
+
+# Rotation checkpoint — 2026-11-27 20:45 UTC
+
+Latest pushed commit: `d97c4a86d4890af16bb3ff332b5293e34ca7c16b`
+Tests before commit: **375 passed**.
+
+Completed after previous rotation:
+- Two Devin Review rounds handled. The `9dcfe7d` 8-finding round was fixed/triaged/end-triaged through commits `1cde536`, `9cdfdeb`, `f060780`.
+- Branch ref was zero-filled after rotation and was repaired to `9dcfe7d7db7fac17d3da6e3b40625f20d6c04fa2`; this is expected recurring VM corruption, not user-code failure.
+- yA full report completed: `knowledge/market/mini-series-five-vampires-demon-pact-deep-dive.md`.
+- New validator added and integrated: `studio/restitution_pact_integrity.py` as `restitution_pact_integrity` in `studio/production.py`.
+- Skill, thumbnail intelligence, and fresh-breakout queue updated. `yA_UfmmVAG0` is now marked completed.
+- Core extracted doctrine: betrayal-triggered restitution/vision irony — explicit bodily sacrifice, conditional pact accountability, broken protection vow, hidden restored perception, caretaker inversion into bodily extraction, public forced-choice revelation, visible moral-ledger consequence, instrumental repentance rejected, care before status, consent before identity reward, mutual closure without forced forgiveness.
+
+Immediate next steps:
+1. Handle any new PR #7 review findings for `d97c4a8` first.
+2. Decide whether `DD35huaUIa8` deserves full analysis or is redundant with existing hidden-identity/creature/re-choice doctrines. If analyzed, focus only on novel pregnancy concealment, medical/healing competence, coercive marriage clause, child/heir leverage, and whether male sacrifice can repair abandonment.
+3. Continue fresh low-subscriber breakout scanning after DD decision.
+4. Keep rotating context early; do not wait for review.
+
+Environment warning: `.git/refs/heads/devin/1795803830-jasmine-reborn-school-analysis` may again become zero-filled on rotation. Restore it from the latest pushed commit hash rather than discarding work.
