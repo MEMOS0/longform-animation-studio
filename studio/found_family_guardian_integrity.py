@@ -41,9 +41,9 @@ def evaluate_found_family_guardian_integrity(premise: dict[str, Any], architectu
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     guardian_core = bool(re.search(r"\bgiant\b|creature parent|nonhuman parent|adoptive parent|adoptive mother|adoptive father", full))
     personal_guardian_patterns = [
-        r"guardian\s+(?:of|for|to)\s+(?:the\s+|a\s+|an\s+)?(?:child|daughter|infant|baby|orphan)",
+        r"guardian\s+(?:of|for|to)\s+(?:the\s+|a\s+|an\s+)?(?:child|daughter|infant|baby|orphan)\b",
         r"guardian.{0,40}(?:raises?\b|feeds?\b|shelters?\b|protects\b)",
-        r"(?:child|daughter|infant|baby|orphan).{0,80}(?:becomes?|as)\s+(?:her|his|their)\s+guardian",
+        r"(?:child|daughter|infant|baby|orphan)\b.{0,80}(?:becomes?|as)\s+(?:her|his|their)\s+guardian",
         r"(?:raises?|adopts?|takes? in).{0,80}guardian",
     ]
     personal_guardian = False

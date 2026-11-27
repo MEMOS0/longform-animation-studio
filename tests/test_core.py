@@ -1841,3 +1841,29 @@ def test_child_power_adult_investigation_alone_not_child_agency():
     p={"logline":"a child sees a countdown and saves her father. adults search records and order DNA tests. he protects her. powers become unstable. in the end the family is home."}
     r=evaluate_child_power_obsolescence(p,{},[])
     assert not r['checks']['child_agency_investigation']
+
+
+def test_child_power_does_not_apply_to_institutional_power_drama():
+    from studio.child_power_obsolescence import evaluate_child_power_obsolescence
+    p={"logline":"a daughter of a father faces institutional casting power and legal pressure at a swim lesson"}
+    assert not evaluate_child_power_obsolescence(p,{},[])['applies']
+
+
+def test_child_power_first_person_investigation_counts():
+    from studio.child_power_obsolescence import evaluate_child_power_obsolescence
+    p={"logline":"a child sees a countdown and saves her father. he protects her before dna proof. she says i will investigate the records. powers become unstable. in the end she goes home with her dad. another weird kid appears."}
+    r=evaluate_child_power_obsolescence(p,{},[])
+    assert r['checks']['child_agency_investigation']
+
+
+def test_child_power_home_with_dad_counts_before_hook():
+    from studio.child_power_obsolescence import evaluate_child_power_obsolescence
+    p={"logline":"a child sees a countdown and saves her father. he protects her before dna proof. the child investigates records. powers become unstable. in the end she goes home with her dad. another weird kid appears."}
+    r=evaluate_child_power_obsolescence(p,{},[])
+    assert r['checks']['sequel_hook_after_belonging_closure']
+
+
+def test_guardian_of_orphanage_is_not_child_custody():
+    from studio.found_family_guardian_integrity import evaluate_found_family_guardian_integrity
+    r=evaluate_found_family_guardian_integrity({"logline":"a creature becomes guardian of an orphanage and protects the building"},{},[])
+    assert not r['applies']
