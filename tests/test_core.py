@@ -2566,3 +2566,28 @@ def test_affirmative_match_negation_scope_handles_both_cases():
     assert _affirmative_match(r"repay", "nobody persuades a debtor to repay") is False
     assert _affirmative_match(r"records?", "nobody checks the records") is False
     assert _affirmative_match(r"evidence", "she has no money but she checks the evidence") is True
+
+
+def test_object_testimony_full_chain_passes():
+    from studio.object_testimony_integrity import evaluate_object_testimony_integrity
+    premise={"title":"Whispering Relics","logline":"An ordinary appraiser breaks an antique mirror and hears objects speak; relic voices whisper testimony, memory, provenance, fake artifacts, stolen cultural objects, restoration and auction truth."}
+    summary=("Objects speak, relics remember, ask, beg, warn, don't melt, history memory belong. They remember limited clues, doesn't know, only saw, hypothesis lead, not proof, must verify. She has apprais craft work labor owed paycheck job competence inspection negotiate expert professional. Scan test lab CT fracture x-ray verify independent evidence proof record document inspect hash chain of custody prove leads. Scan test lab CT fracture independent police court lawyer warrant customs task force record log payment trail chain of custody sealed verify publicly. Own ownership control leash gift obedience salary voting rights shares name independence permission allowance are interrogated. Name stays, keeps name, not changing name, independent, my own life, don't own me, not yours, refuse, leaves control, blood doesn't decide. Museum cultural property provenance stolen recovered return restore restitution relics artifacts history memory matter. Villain wants power, useful threat exploit, price stolen, use ability, target bait criminal black market smuggle. In ending don't want shares, share future, not own, won't belong, independent, forgiveness honest choose condition stays.")
+    r=evaluate_object_testimony_integrity(premise,{"sequences":[{"summary":summary}]},[])
+    assert r["applies"] is True
+    assert r["score_0_to_1"] == 1.0
+
+
+def test_object_testimony_rejects_omniscient_treasure_power():
+    from studio.object_testimony_integrity import evaluate_object_testimony_integrity
+    premise={"title":"Magic Antiques","logline":"A girl hears antique objects speak and instantly knows every fake artifact and stolen treasure."}
+    r=evaluate_object_testimony_integrity(premise,{"sequences":[{"summary":"She becomes rich, joins the family empire, and her fiancé controls the collection."}]},[])
+    assert r["applies"] is True
+    assert r["checks"]["verification_is_procedural"] is False
+    assert r["checks"]["cultural_memory_or_restoration_matters"] is False
+    assert r["checks"]["romance_or_family_does_not_own_future"] is False
+
+
+def test_object_testimony_ignores_non_talking_objects():
+    from studio.object_testimony_integrity import evaluate_object_testimony_integrity
+    premise={"title":"Auction","logline":"An appraiser authenticates a fake antique using careful provenance research."}
+    assert evaluate_object_testimony_integrity(premise,{"sequences":[]},[])["applies"] is False

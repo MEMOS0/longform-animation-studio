@@ -169,3 +169,9 @@ The Elena thumbnail sells passive rescue: unconscious bride-like woman, wet boat
 Evidence source: `knowledge/market/lioren-billionaire-scholarship-hidden-wealth-counterexample-deep-dive.md` and `data/raw/thumbnails/lioren_studios/hozDtPcnnBA.maxresdefault.jpg`.
 
 The Lioren thumbnail uses a contemporary hidden-royalty composite: hooded poor-student silhouette, separated luminous heroine, luxury car, elite university architecture, parents/antagonist collage, graduation cues, crown icon, and oversized gold `Billionaire Heir` typography. It sells the reveal fantasy directly rather than a specific wound. Useful mechanism: make class duplicity legible through clothing contrast plus institutional architecture; do not confuse this broad fantasy packaging with proof of story depth.
+
+## Object-centered whispering-relics thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/drama-aura-whispering-relics-object-testimony-provenance-deep-dive.md` and `data/raw/thumbnails/drama_aura/23iAlK2FVyA.maxresdefault.webp`.
+
+This thumbnail sells mechanism directly: protagonist centered with open hands while clocks, jewelry, papers, pearls, books, and relics orbit in golden magical trails. It avoids reducing the premise to romance/wealth and instead promises object memory. Useful original-design principle: when the hook is perception/authorship, let multiple meaningful objects create orbital visual rhythm around the protagonist rather than using a generic couple embrace.

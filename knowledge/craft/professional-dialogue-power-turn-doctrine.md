@@ -264,3 +264,13 @@ Evidence source: `knowledge/market/lioren-billionaire-scholarship-hidden-wealth-
 2. **Anti-status lines are strongest when tied to behavior.** “Inherited influence is not understanding” is more durable than generic rich-versus-poor insults.
 3. **Trust repair language must be backed by time.** “Billions cannot buy back trust” and “no more secrets” are correct principles, but Lioren compresses the behavioral proof; original work should extend the repair.
 4. **Ordinary-family elders can carry disclosure ethics.** Olivia's father does not care about wealth; he cares that she learns the truth before accidental discovery.
+
+## Object-testimony procedural dialogue addendum (2026-11-27)
+
+Evidence source: `knowledge/market/drama-aura-whispering-relics-object-testimony-provenance-deep-dive.md`.
+
+1. **Evidentiary restraint is a power move.** “Most people lose cases that way” makes refusal to accuse without proof feel stronger than accusation.
+2. **Expertise should be priced as prevented error.** “You're not paying me for hours; you're paying me for the mistake you don't make” converts supernatural perception into professional labor.
+3. **Control can be named inside generosity.** “A gift stops being a gift when you use it to demand obedience.”
+4. **Guilt and usefulness are separate.** “Don't confuse guilt with usefulness” allows a wrongdoer to help without instant forgiveness.
+5. **Restoration is anti-ownership.** “They never belonged to us” turns treasure spectacle into cultural-memory ethics.

@@ -498,3 +498,9 @@ Use the `revenge_autonomy_integrity` project-evaluation gate as a warning system
 ## 2026-11-27 hidden-wealth counterexample update
 
 Read `knowledge/market/lioren-billionaire-scholarship-hidden-wealth-counterexample-deep-dive.md` before using low-subscriber breakout velocity as a quality signal. Lioren shows that broad hidden-billionaire packaging, spatial class humiliation, public competence, and dramatic irony can break out even when trust repair and institutional accountability are compressed. Separate packaging appeal, discovery velocity, and durable craft quality. Existing `hidden_identity_integrity` remains the relevant gate; do not create a redundant validator.
+
+## 2026-11-27 object-testimony provenance doctrine update
+
+Before greenlighting magical appraisal/object-memory fantasy, read `knowledge/market/drama-aura-whispering-relics-object-testimony-provenance-deep-dive.md`. The portable mechanism is limited object testimony, material/procedural verification, professional craft before power, object personhood/history, ownership/provenance interrogation, cultural restoration, exploitation risk, and chosen identity over blood/family/romantic absorption.
+
+Use the `object_testimony_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy Nia, the relic plot, object inventory, or thumbnail composition; extract the mechanism and build original stories.
