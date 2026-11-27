@@ -168,7 +168,7 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
 
     def explicit_order(text: str) -> str:
         normalized = re.sub(r"\s+", " ", text.lower())
-        closure_terms = r"(?:closure|reunion|justice|case(?: is)? closed|conspiracy(?: is)? closed|family reunion|acceptance|new role)"
+        closure_terms = r"(?:closure|reunion|justice is served|justice is delivered|case(?: is)? closed|conspiracy(?: is)? closed|family reunion|acceptance|new role)"
         hook_terms = r"(?:mission|new mission|next mission|new case|fresh case|assignment|teaser|sequel)"
         if re.search(hook_terms + r"[^.!?]{0,80}\bbefore\b[^.!?]{0,80}" + closure_terms, normalized):
             return "negative"
@@ -176,7 +176,7 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
             return "positive"
         if re.search(hook_terms + r"[^.!?]{0,80}\bafter\b[^.!?]{0,80}" + closure_terms, normalized):
             return "positive"
-        if re.search(closure_terms + r"[^.!?]{0,80}(?:and )?only then[^.!?]{0,80}" + hook_terms, normalized):
+        if re.search(closure_terms + r".{0,120}(?:and )?only then.{0,120}" + hook_terms, normalized):
             return "positive"
         return "neutral"
 
@@ -191,7 +191,10 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
             hook_match = re.search(hook_pattern, text)
             closure_match = re.search(closure_pattern, text)
             if first_hook is None and hook_match:
-                first_hook = (index, hook_match.start(), hook_match.end())
+                weak_assignment = bool(re.search(r"new case|fresh case|assigned to investigate|assignment to investigate|orders? (?:her|him|them) to investigate", text)) and not re.search(r"new mission|next mission|sequel|return to the team|called away|another case", text)
+                closure_before_here = bool(closure_match and closure_match.start() < hook_match.start())
+                if not (weak_assignment and index == 0 and not closure_before_here):
+                    first_hook = (index, hook_match.start(), hook_match.end())
             if first_closure is None and closure_match:
                 first_closure = (index, closure_match.start(), closure_match.end())
             offset += len(text) + 1
