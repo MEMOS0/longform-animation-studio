@@ -53,8 +53,9 @@ def _protagonist_names(value: Any) -> list[str]:
                 for name_key in ("name", "identity"):
                     if isinstance(item.get(name_key), str):
                         candidate = item[name_key].lower()
-                        names.append(candidate)
-                        names.append(candidate.split()[0])
+                        if candidate.strip():
+                            names.append(candidate)
+                            names.append(candidate.split()[0])
             elif isinstance(item, (dict, list)):
                 names.extend(_protagonist_names(item))
     elif isinstance(value, list):
@@ -95,7 +96,7 @@ def evaluate_taboo_family_irony_integrity(premise: dict[str, Any], architecture:
     agency_text = re.sub(r"no right to refuse|can.?t refuse|cannot refuse|won.?t take no", " ", flat)
     supporting_departure = bool(re.search(r"(?:best friend|friend|sister|mother|rival|supporting character).{0,35}chooses? to leave", agency_text))
     protagonist_names = _protagonist_names(premise)
-    named_departure = any(re.search(re.escape(name.split()[0]) + r" chooses? to leave (?:him|her|them|the partner|the marriage|the relationship)", agency_text) for name in protagonist_names if name.split())
+    named_departure = any(re.search(r"\b" + re.escape(name.split()[0]) + r"\b chooses? to leave (?:him|her|them|the partner|the marriage|the relationship)", agency_text) for name in protagonist_names if name.split())
     pronoun_departure = bool(re.search(r"(?:she|he|they|protagonist|heroine) chooses? to leave (?:him|her|them|the partner|the marriage|the relationship)", agency_text))
     protagonist_agency = bool(re.search(r"we are done|she rejects|he rejects|she refuses|he refuses|stay away|can leave|free to leave|she decides|he decides|tells? (?:him|her|them) no|walks? away|asks? for (?:an )?annulment|right to refuse", agency_text) or named_departure or (pronoun_departure and not supporting_departure))
     truth_revealed = bool(re.search(r"truth|no more lies|identity is revealed|learns? who|realizes? who", flat))
