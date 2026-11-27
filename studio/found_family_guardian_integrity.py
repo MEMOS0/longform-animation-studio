@@ -51,6 +51,8 @@ def evaluate_found_family_guardian_integrity(premise: dict[str, Any], architectu
         explicit_child_object = pattern.startswith("guardian\\s")
         for match in re.finditer(pattern, full):
             window = full[max(0, match.start() - 30):match.end() + 30]
+            if re.search(r"orphanage", window):
+                continue
             if not explicit_child_object and re.search(r"\bcity(?:'s)?\b|\bpublic\b|\bkingdom\b|\bpeople\b", window):
                 continue
             personal_guardian = True
