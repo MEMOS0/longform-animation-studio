@@ -1,0 +1,5 @@
+# Fresh Breakout Queue Thumbnail Analysis — 2026-11-27
+
+Evidence tier: 1-2 visual inspection of `reference_library/fresh_breakout_queue/montage.jpg` and source max-resolution thumbnails. Discovery metadata only; no CTR/retention causality.
+
+Strongest mobile-readable mechanics: creature-care (`EUaUwhMAUgE`, `F-RnV2OicIU`), social exclusion (`oHKc_rXrxm8`), and hidden-class romance (`G97N92SR1qQ`). `EUa` uses woman + small dragon + icy kingdom with strong blue/orange contrast; `F-R` uses maternal infant-creature care against giant dragon scale; `oHK` isolates the daughter while family laughs behind; `G97` uses foreground emotional woman, cold wealthy man, luxury city, and highly legible hidden-identity text. `U_Tecg95FWA` and `ylN26llRtmw` sell spectacle/world more than one emotional relation, making their mechanics weaker for direct studio imitation even if performance is strong. `Z50wCIqEa2k` is warm/intimate but does not visually clarify its unusual age/identity premise. `Gx7nwqNr9YY` is legible alpha/werewolf romance but compositionally conventional.
