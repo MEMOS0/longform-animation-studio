@@ -38,7 +38,7 @@ def evaluate_cozy_disaster_shelter_integrity(premise: dict[str, Any], architectu
     else:
         ordered_units = []
     labor_pattern = re.compile(r"farm|harvest|cook|clean|repair|prepare|gather|chop|fetch|work(?:ing)? the fields|daily life")
-    disaster_pattern = re.compile(r"\b(?:typhoon|flood\w*|storm|blizzard|sandstorm|hurricane|wildfire|earthquake)\b|rising water|water (?:rushes?|floods?|enters?|comes?)\s+(?:(?:in|into|indoors)\s+)?(?:(?:their|the|a|her|his|our)\s+)?(?:house|home|room|cabin|shelter|living room)\b|water (?:rushes?|floods?|enters?|comes?) indoors|floodwaters")
+    disaster_pattern = re.compile(r"\b(?:typhoon|flood\w*|storm|blizzard|sandstorm|hurricane|wildfire|earthquake)\b|rising water|water (?:rushes?|floods?|enters?|comes?)\s+(?:(?:in|into|indoors)\s+)?(?:(?:their|the|a|her|his|our)\s+)?(?:houses|house|homes|home|rooms|room|cabins|cabin|shelters|shelter|living room)\b|water (?:rushes?|floods?|enters?|comes?) indoors|floodwaters")
     if ordered_units:
         cursor = 0
         labor_positions = []
@@ -54,7 +54,7 @@ def evaluate_cozy_disaster_shelter_integrity(premise: dict[str, Any], architectu
                     sentence_end = min(sentence_end_candidates) if sentence_end_candidates else len(unit_text)
                     sentence = unit_text[sentence_start:sentence_end]
                     ordinary_water = re.search(r"pipe|plumbing|tap|faucet|sink|hose|cistern|tank|barrel|basin", sentence)
-                    disaster_context = re.search(r"storm|flood|typhoon|hurricane|blizzard|sandstorm|wildfire|earthquake|rising water|floodwaters|submerg", sentence)
+                    disaster_context = re.search(r"storm|flood|typhoon|hurricane|blizzard|sandstorm|wildfire|earthquake|rising water|floodwaters|submerg|(?:overflowing|swollen|rising)\s+river|river\s+(?:overflows?|sweeps?|floods?)", sentence)
                     if ordinary_water and not disaster_context:
                         continue
                     first_disaster_position = cursor + disaster_match.start()

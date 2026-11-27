@@ -4565,3 +4565,32 @@ def test_cozy_validator_household_water_systems_do_not_count_as_disaster_onset()
         ]}
         result=evaluate_cozy_disaster_shelter_integrity(premise,architecture,[])
         assert result['checks']['ordinary_labor_establishes_world_before_disaster'] is True
+
+
+def test_serial_relational_anchor_episode_phrasing_and_plural_family_anchor():
+    from studio.serial_relational_anchor_integrity import evaluate_serial_relational_anchor_integrity
+    pilot={'logline':'Pilot episode of a spy thriller about an agent protecting her sisters from an organization.'}
+    assert evaluate_serial_relational_anchor_integrity(pilot,{},[])['applies'] is True
+    assert evaluate_serial_relational_anchor_integrity(pilot,{},[])['checks']['intimate_anchor_exists_beyond_the_mission'] is True
+
+    multi={'logline':'A series of six episodes following a mercenary protecting his brothers.'}
+    assert evaluate_serial_relational_anchor_integrity(multi,{},[])['applies'] is True
+    assert evaluate_serial_relational_anchor_integrity(multi,{},[])['checks']['intimate_anchor_exists_beyond_the_mission'] is True
+
+
+def test_cozy_validator_overflowing_river_and_plural_homes_count_as_disaster_onset():
+    from studio.cozy_disaster_shelter_integrity import evaluate_cozy_disaster_shelter_integrity
+    premise={'logline':'A family shelters during a flood.'}
+    cases=[
+        'An overflowing river sweeps away the sink as water enters their home.',
+        'Water rushes into their homes.',
+    ]
+    for intrusion in cases:
+        architecture={'sequences':[
+            {'summary':intrusion},
+            {'summary':'They harvest vegetables and prepare food after the intrusion.'},
+            {'summary':'The family survives rising water with food and drinking water.'},
+            {'summary':'After the flood they rebuild the house and share a warm meal.'},
+        ]}
+        result=evaluate_cozy_disaster_shelter_integrity(premise,architecture,[])
+        assert result['checks']['ordinary_labor_establishes_world_before_disaster'] is False
