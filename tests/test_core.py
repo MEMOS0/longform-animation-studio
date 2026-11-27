@@ -1924,7 +1924,7 @@ def test_epic_creature_extraction_flags_costless_villain_defeat():
 
 def test_royal_hidden_identity_golden_rose_chain():
     from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
-    p={"logline":"A princess secretly escapes the palace disguised as a village girl. A hidden prince poses as a beggar. She gives her last bread before status is known and ordinary kindness forms love. The rose ritual and law force her to live in his hut and affect marriage and kingdom inheritance. He lied, creating a trust wound and apology. She exposes poison evidence, interrupts the signing, saves her father, and protects the kingdom. In the end they choose each other in a palace or hut and choose every day at a wedding, with full disclosure, records, consent, boundaries, and no gifts."}
+    p={"logline":"A princess secretly escapes the palace disguised as a village girl. A hidden prince poses as a beggar. She gives her last bread before status is known and ordinary kindness forms love. The rose ritual and law force her to live in his hut and affect marriage and kingdom inheritance. She tells him she is the king's daughter. He lied, creating a trust wound and apology. She exposes poison evidence, interrupts the signing, saves her father, and protects the kingdom. In the end they choose each other in a palace or hut and choose every day at a wedding, with full disclosure, records, consent, boundaries, and no gifts."}
     r=evaluate_hidden_identity_integrity(p,{},[])
     assert r['applies']
     assert r['checks']['ritual_or_object_has_material_consequence']
@@ -1971,3 +1971,30 @@ def test_child_power_scene_dialogue_first_person_counts():
     p={"logline":"a child sees a countdown and saves her father. he protects her before dna proof. powers become unstable. in the end she goes home with her dad."}
     scenes=[{"dialogue_design":{"spoken_exchange":[{"speaker":"girl","line":"I'll search the hospital records.","beat":"decision","action":"she stands"}]}}]
     assert evaluate_child_power_obsolescence(p,{},scenes)['checks']['child_agency_investigation']
+
+
+def test_undercover_detective_disguise_not_hidden_identity():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    r=evaluate_hidden_identity_integrity({"logline":"a detective poses as a maid to solve a theft"},{},[])
+    assert not r['applies']
+
+
+def test_explicit_royal_disclosure_counts_as_reveal():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    p={"logline":"a secret princess disguised as a village girl tells her partner she is the king's daughter after ordinary kindness before status. he lied and trust was damaged. she protects the kingdom. in the end they choose each other in a palace or hut every day."}
+    r=evaluate_hidden_identity_integrity(p,{},[])
+    assert r['checks']['reveal_present']
+
+
+def test_hidden_identity_agency_must_follow_reveal():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    p={"logline":"a secret princess disguised as a maid exposes a thief. later she tells him she is the king's daughter and then becomes passive until they separate."}
+    r=evaluate_hidden_identity_integrity(p,{},[])
+    assert not r['golden_rose_extensions']['agency_retained_after_reveal']
+
+
+def test_refusal_to_marry_crown_is_not_rechoice():
+    from studio.hidden_identity_integrity import evaluate_hidden_identity_integrity
+    p={"logline":"a secret princess disguised as a maid loves a hidden prince. he says he will not marry a crown, but after the truth they separate."}
+    r=evaluate_hidden_identity_integrity(p,{},[])
+    assert not r['golden_rose_extensions']['truthful_status_invariant_rechoice']
