@@ -3163,3 +3163,62 @@ def test_taboo_family_irony_named_protagonist_chooses_to_leave_partner():
     premise={'title':'Bestie Parent','logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
     architecture={'sequences':[{'summary':'After the reveal, Lily chooses to leave him.'}]}
     assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['protagonist_can_reject_power'] is True
+
+
+def _chosen_bond_fixture():
+    premise={
+        'title':'The Chosen Queen',
+        'logline':'At her bonding ceremony, a healer is publicly humiliated when her fated mate chooses another woman, so she refuses him and later chooses a consenting elven king.',
+        'opening_event':{'first_60_seconds':'At the public bonding ceremony before the clan, her fated mate crowns another woman and humiliates her.'},
+    }
+    architecture={
+        'sequences':[
+            {'summary':'At the public wedding ceremony he cheats and says fate is a curse they cannot resist, using destiny as an excuse while her parents support her exit.'},
+            {'summary':'For years her blood essence and healing elixir kept his rage at bay, sustained the clan, and secured his succession position.'},
+            {'summary':'She refuses to accept the humiliating marriage before the elf king appears; only afterward does she consider the chosen partner.'},
+            {'summary':'He heals her power core, protects her, waits patiently, says he will not bind her with so-called fate, and asks consent with no pressure.'},
+            {'summary':'Only after that care does she believe him and later reciprocate with a mutual vow. When he begs forgiveness, she rejects his apology because regret is not repair and he chose power.'},
+            {'summary':'At the banquet witnesses see the impostor; blood resonance gives physical proof, the ring and potion mechanism explain the fraud, and his confession supplies testimony before the council strips his title, revokes resources, and banishes him.'},
+            {'summary':'She goes home with her freely chosen partner and chosen family in peace.'},
+        ]
+    }
+    scenes=[]
+    return premise,architecture,scenes
+
+
+def test_chosen_bond_integrity_balanced_example_passes_core_checks():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    r=evaluate_chosen_bond_integrity(premise,architecture,scenes)
+    assert r['applies'] is True
+    assert r['checks']['public_betrayal_opening'] is True
+    assert r['checks']['sacrificial_labor_has_system_value'] is True
+    assert r['checks']['fate_functions_as_excuse'] is True
+    assert r['checks']['protagonist_refuses_before_upgrade'] is True
+    assert r['checks']['alternative_bond_is_chosen_and_consenting'] is True
+    assert r['checks']['care_precedes_romantic_reciprocity'] is True
+    assert r['checks']['late_repentance_is_not_rewarded'] is True
+    assert r['checks']['exposure_is_layered_evidence'] is True
+    assert r['checks']['institutional_consequence_matches_institutional_theft'] is True
+    assert r['checks']['closure_reclassifies_home_or_chosen_family'] is True
+
+
+def test_chosen_bond_integrity_not_applicable_to_ordinary_romance():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise={'title':'Ordinary Romance','logline':'Two rivals fall in love while restoring a bakery.'}
+    assert evaluate_chosen_bond_integrity(premise,{},[])['applies'] is False
+
+
+def test_chosen_bond_integrity_flags_upgrade_before_refusal_and_forced_forgiveness():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    architecture['sequences']=[
+      {'summary':'At the public bonding ceremony her fated mate humiliates her and chooses another woman. The elf king immediately claims her as his mate before she refuses anyone.'},
+      {'summary':'Her blood essence sustained his succession. Destiny made them do it. There is no evidence or procedure. Her family makes her forgive him and she returns to the clan.'},
+    ]
+    r=evaluate_chosen_bond_integrity(premise,architecture,scenes)
+    assert r['checks']['protagonist_refuses_before_upgrade'] is False
+    assert r['checks']['alternative_bond_is_chosen_and_consenting'] is False
+    assert r['checks']['exposure_is_layered_evidence'] is False
+    assert r['checks']['institutional_consequence_matches_institutional_theft'] is False
+    assert r['checks']['forgiveness_is_not_coerced'] is False

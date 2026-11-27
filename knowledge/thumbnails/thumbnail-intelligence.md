@@ -194,3 +194,10 @@ The Fableheart thumbnail uses boundary-touch creature-family packaging: human fa
 Evidence source: `knowledge/market/dramashine-mafia-bestie-dad-taboo-irony-deep-dive.md` and `data/raw/thumbnails/dramashine_ai/XL0d9SmAA1M.jpg`.
 
 The DramaShine thumbnail uses a taboo-family recognition collage: central age-gap intimate embrace, luxury chandelier wealth, public-dance inset, chaotic devil-costume best friend, shocked phone/facial-recognition inset, and oversized gold “Bestie's Tyrant Dad” typography. The packaging sells the relational recognition shock more clearly than the mafia/crime element. Reusable mechanism: combine romantic intimacy, the socially forbidden witness, and the discovery device in one mobile-legible triangle. Do not copy the exact glossy collage; design original thumbnails around the film's actual forbidden relation, protector/misdirector, and reveal object. This is packaging-pattern evidence, not CTR proof.
+
+
+## Relational re-choice spatial-geometry thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/lotus-crown-alpha-fated-mate-elf-king-deep-dive.md` and `data/raw/thumbnails/lotus_crown_drama/dHdkaKb3_S8.maxresdefault.jpg`.
+
+The Lotus Crown thumbnail uses relational re-choice spatial geometry: the platinum/purple-eyed heroine is centered as the decision-maker, the dark alpha/betrayer and crying rival occupy the left pressure side, and the blonde elf king on the right reaches toward her as the chosen alternative. Ballroom/chandelier/red-petal cues sell public ceremony and status stakes rather than generic fantasy landscape. The mirrored copy pair — “HE CHOSE HIS FATED MATE. I CHOSE THE ELF KING.” — converts humiliation into counter-choice. Reusable mechanism: arrange past coercion, protagonist agency, and chosen alternative as a mobile-legible left/center/right decision map, and use mirrored title syntax to make agency the promise. Do not copy the exact werewolf/elf collage; this is packaging-pattern evidence, not CTR proof.
