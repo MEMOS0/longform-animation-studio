@@ -504,3 +504,9 @@ Read `knowledge/market/lioren-billionaire-scholarship-hidden-wealth-counterexamp
 Before greenlighting magical appraisal/object-memory fantasy, read `knowledge/market/drama-aura-whispering-relics-object-testimony-provenance-deep-dive.md`. The portable mechanism is limited object testimony, material/procedural verification, professional craft before power, object personhood/history, ownership/provenance interrogation, cultural restoration, exploitation risk, and chosen identity over blood/family/romantic absorption.
 
 Use the `object_testimony_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy Nia, the relic plot, object inventory, or thumbnail composition; extract the mechanism and build original stories.
+
+## 2026-11-27 contract-marriage consent-repair update
+
+Before greenlighting contract/fake-marriage romance, read `knowledge/market/seven-clover-nora-contract-marriage-consent-repair-deep-dive.md`. The portable mechanism is not fake pregnancy or billionaire wish fulfillment; it is explicit transactional boundaries, victim-owned revenge, procedural identity proof, family/board pressure being rejected as a consent substitute, and non-retaliation after romantic rejection.
+
+Use the hardened `coerced_rechoice_integrity` gate as a warning system. Do not copy Nora, Elliot, the wedding-crash plot, or the thumbnail; extract the consent-repair mechanism for original stories.

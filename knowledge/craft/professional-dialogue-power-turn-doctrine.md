@@ -274,3 +274,13 @@ Evidence source: `knowledge/market/drama-aura-whispering-relics-object-testimony
 3. **Control can be named inside generosity.** “A gift stops being a gift when you use it to demand obedience.”
 4. **Guilt and usefulness are separate.** “Don't confuse guilt with usefulness” allows a wrongdoer to help without instant forgiveness.
 5. **Restoration is anti-ownership.** “They never belonged to us” turns treasure spectacle into cultural-memory ethics.
+
+## Contract-marriage consent-repair dialogue addendum (2026-11-27)
+
+Evidence source: `knowledge/market/seven-clover-nora-contract-marriage-consent-repair-deep-dive.md`.
+
+1. **Name transactional boundaries.** “I sell my skills, not my body” makes the ethical floor explicit without stopping the plot.
+2. **Name missing choice.** “You're not really giving me a choice, are you?” prevents economic desperation from being mistaken for consent.
+3. **Let the victim own revenge.** “Let her have her revenge. We'll step in if she needs us.”
+4. **Institutions can defend refusal.** “If Nora doesn't want you anymore, I stand with Nora.”
+5. **Non-retaliation is the romantic proof.** “This is business. The deal stands” and “Liking her is my problem. She doesn't owe me a thing.”

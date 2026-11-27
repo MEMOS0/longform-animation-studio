@@ -828,3 +828,29 @@ Continue immediately with non-creature low-subscriber queue: `s-Zn2WhkkH8`, `wHW
 - Important duplicate guards: `iqCNxQ2_jSI`, `ULJ7-z1zm6M`, `9N6S6D_ioA0`, `icsZH4sDwTM`, `23iAlK2FVyA` are already represented; do not re-analyze as new. `q0G2kx8-3tE` and `ZyovwVVUiCs` are deprioritized because channels are not low-subscriber.
 - A partial duplicate analyzer run for `iqCNxQ2_jSI` had modified/deleted some committed contact sheets; those generated artifacts were restored from git rather than preserved.
 - Next work: handle any PR #5 review findings first; otherwise download/analyze `NDZc_6T4h6E` end-to-end with metadata/subtitle/media/contact-sheet evidence, then decide whether its deception/consent mechanics warrant a new validator or integration into existing romance-deception/hidden-identity gates.
+
+## 2026-11-27 rotate before Seven Clover media analysis
+
+- PR #5 merged. Active branch: `devin/1795802596-seven-clover-deception-analysis` from current main.
+- Immediate target: `NDZc_6T4h6E` — Seven Clover, *Feisty Woman Fakes Pregnancy With Pillow To Ruin Blind Date—Unaware CEO See Through Her In 1s & Fall!* Discovery evidence: about 14.3k subscribers, 367,640 views in 4.5 days, about 81,506 views/day, 113m.
+- Before rotation, metadata/subtitle download had begun using `python tools/download_piped_archive.py --ids NDZc_6T4h6E --media-dir /c/Users/Administrator/evidence_tmp --raw-dir data/raw/piped --workers 1`. `data/raw/piped/NDZc_6T4h6E.en.ttml` and `.piped.json` already exist locally; the media download may not have completed and must be checked/restarted after rotation.
+- Do not analyze from transcript alone. Once media exists, run `studio.media_analysis.analyze_video` with output under `evidence/research/rediscovery_analysis/NDZc_6T4h6E/` or the established equivalent, inspect full-runtime contact sheets plus transcript windows, remove `audio_16k.wav`, then write the report and decide whether deception/consent mechanics warrant a new validator or integration into existing romance-deception/hidden-identity gates.
+- PR #5 queue order after this target: `AaLngUHEqVY`, `83i28EMbqqk`, `XL0d9SmAA1M`, `dHdkaKb3_S8`, then optional `DD35huaUIa8`/`yA_UfmmVAG0`.
+
+## 2026-11-27 rotate after Seven Clover consent-repair integration
+
+- Active PR: #6 `Integrate contract marriage consent repair intelligence` on branch `devin/1795802596-seven-clover-deception-analysis`.
+- Latest pushed commit: `f338cc8150c98bd5cd885b3fe387ef6a8f0384c5`.
+- Latest verified test baseline: 308 passed.
+- Completed full audiovisual analysis for Seven Clover `NDZc_6T4h6E` (112m40s, 3,369 cues, 17 contact sheets, complete local media). Report: `knowledge/market/seven-clover-nora-contract-marriage-consent-repair-deep-dive.md`.
+- Integrated doctrine into `coerced_rechoice_integrity` rather than creating a redundant validator: contract/fake marriage applicability, transactional intimacy boundaries, family/board pressure not counting as consent, and non-retaliation after rejection.
+- Important craft result: the portable mechanism is consent repair under power asymmetry (“she doesn't owe me”), not fake pregnancy, wedding crashing, amnesia, or billionaire CEO packaging.
+- If Devin Review findings arrive for PR #6, handle/triage first. Otherwise continue queue with `AaLngUHEqVY` (extreme-length assassin/reborn school bullying case), then `83i28EMbqqk` compressed fantasy, then `XL0d9SmAA1M` power-asymmetry stress test.
+
+## 2026-11-27 PR #6 review round and repository recovery checkpoint
+
+- Critical environment incident handled: the previous checkout's git metadata and recently touched files became zero-filled after session rotation. No remote work was lost. The repository was freshly recloned from remote into `C:/Users/Administrator/repos/longform-animation-studio`; corrupted local copy retained at `C:/Users/Administrator/repos/longform-animation-studio.corrupted-20261127` only as debris. Use the fresh clone.
+- PR #6 review job `pr-review-job-3bded67acb3345c89ded0a1d0742efc2` on commit `347072eb34c1f6388b2654ab1daa85a24c97a6e3` had 3 coerced-rechoice bugs. Fixed in `d4db05d21529edc7a7cf33536853aa330dc24d2f`; all 3 triaged resolved and end-triage called. Tests: 309 passed. A new review is running on `d4db05d`; handle it first if findings arrive.
+- Current branch in fresh clone: `devin/1795802596-seven-clover-deception-analysis` for review-fix completion. For research continuation, checkout `devin/1795803830-jasmine-reborn-school-analysis` / `origin/devin/1795803830-jasmine-reborn-school-analysis`.
+- Jasmine target remains `AaLngUHEqVY`; media still expected at `C:/Users/Administrator/evidence_tmp/AaLngUHEqVY.mp4` (verify file exists in fresh machine state), 440,769,377 bytes, 240p, 9,804s. Metadata/subtitles are committed in the jasmine branch. Do not re-download unless missing/corrupt.
+- Next work unchanged: run media analysis, inspect contact sheets/transcript windows, verify subtitle reliability, download/inspect thumbnail, remove audio_16k.wav, write deep-dive report, decide validator integration.
