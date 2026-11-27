@@ -1,353 +1,659 @@
 {
   "scene_id": "S01",
-  "duration_seconds": 300.0,
-  "coverage": "continuous_exact_format_director_seed",
+  "duration_seconds": 300,
+  "coverage": "continuous_exact_storyboard_draft",
   "shots": [
     {
-      "shot_id": "S01_DS001",
-      "timecode": "0.00-21.99",
-      "duration_seconds": 21.99,
+      "shot_id": "S01_SB001",
+      "timecode": "0.0-8.5",
+      "duration_seconds": 8.5,
       "scene_id": "S01",
-      "shot_size": "wide establishing",
-      "camera_intent": "slow push",
-      "visual_action": "a weighted net sinking into black water",
-      "dialogue": "",
-      "sound_design": "drop music before each bonding or revelation beat so breath, scale chimes, and creature calls carry meaning",
+      "shot_size": "wide underwater",
+      "camera_intent": "slow push-in",
+      "visual_action": "weighted net sinks through black water; small hand catches in rope",
+      "dialogue": "none",
+      "sound_design": "water pressure, distant muffled rope strain",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB002",
+      "timecode": "8.5-14.9",
+      "duration_seconds": 6.4,
+      "scene_id": "S01",
+      "shot_size": "insert",
+      "camera_intent": "macro drift",
+      "visual_action": "child fingers claw at the weighted knot; air beads tear upward",
+      "dialogue": "none",
+      "sound_design": "breath bubbles replace music",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB003",
+      "timecode": "14.9-24.1",
+      "duration_seconds": 9.2,
+      "scene_id": "S01",
+      "shot_size": "wide dock",
+      "camera_intent": "lateral lantern sweep",
+      "visual_action": "navy soldiers spread across wet planks, boots framing the capture line",
+      "dialogue": "SOLDIER: Hold the edge. Nothing leaves the water.",
+      "sound_design": "lantern creak, boots, low wind",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB004",
+      "timecode": "24.1-31.0",
+      "duration_seconds": 6.9,
+      "scene_id": "S01",
+      "shot_size": "medium",
+      "camera_intent": "hidden angle through ropes",
+      "visual_action": "Mira watches from behind a mooring post, hood low, body still",
+      "dialogue": "none",
+      "sound_design": "music thins to a pulse",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB005",
+      "timecode": "31.0-43.6",
+      "duration_seconds": 12.6,
+      "scene_id": "S01",
+      "shot_size": "insert",
+      "camera_intent": "rack focus",
+      "visual_action": "royal brand glints on the child restraint; Mira recognizes it",
+      "dialogue": "MIRA whisper: Crown property.",
+      "sound_design": "single glass harmonic; near silence",
       "generation_lane": "hero",
       "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: open on the scene image"
+      "director_note": "generic scaffold slot replaced with exact staging"
     },
     {
-      "shot_id": "S01_DS002",
-      "timecode": "21.99-35.19",
-      "duration_seconds": 13.19,
+      "shot_id": "S01_SB006",
+      "timecode": "43.6-51.0",
+      "duration_seconds": 7.4,
       "scene_id": "S01",
-      "shot_size": "intimate closeup",
-      "camera_intent": "settle",
-      "visual_action": "Mira's face hardens when she recognizes the royal brand",
-      "dialogue": "",
-      "sound_design": "breath/room tone",
+      "shot_size": "close",
+      "camera_intent": "handheld tremor",
+      "visual_action": "child panic makes scale-like light flicker beneath skin",
+      "dialogue": "CHILD: Let go—please—",
+      "sound_design": "ragged breath, rope tightening",
       "generation_lane": "mid",
       "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+      "director_note": "generic scaffold slot replaced with exact staging"
     },
     {
-      "shot_id": "S01_DS003",
-      "timecode": "35.19-48.38",
-      "duration_seconds": 13.19,
+      "shot_id": "S01_SB007",
+      "timecode": "51.0-58.0",
+      "duration_seconds": 7.0,
       "scene_id": "S01",
-      "shot_size": "intimate closeup",
-      "camera_intent": "settle",
-      "visual_action": "Mira's face hardens when she recognizes the royal brand",
-      "dialogue": "",
-      "sound_design": "breath/room tone",
+      "shot_size": "medium wide",
+      "camera_intent": "crane down",
+      "visual_action": "soldier commander raises the hook pole and blocks the escape path",
+      "dialogue": "COMMANDER: Pull it up. Alive if convenient.",
+      "sound_design": "wood scrape, chain lift",
       "generation_lane": "mid",
       "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+      "director_note": "generic scaffold slot replaced with exact staging"
     },
     {
-      "shot_id": "S01_DS004",
-      "timecode": "48.38-65.79",
-      "duration_seconds": 17.41,
+      "shot_id": "S01_SB008",
+      "timecode": "58.0-65.9",
+      "duration_seconds": 7.9,
+      "scene_id": "S01",
+      "shot_size": "close",
+      "camera_intent": "slow zoom",
+      "visual_action": "Mira looks from the soldiers to the child; hiding stops being safety",
+      "dialogue": "MIRA: Not again.",
+      "sound_design": "pulse drops out",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB009",
+      "timecode": "65.9-72.9",
+      "duration_seconds": 7.0,
+      "scene_id": "S01",
+      "shot_size": "wide",
+      "camera_intent": "tracking burst",
+      "visual_action": "Mira crosses the dock and cuts one net line with a hooked knife",
+      "dialogue": "SOLDIER: Movement—left side!",
+      "sound_design": "knife snap, boots pivot",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB010",
+      "timecode": "72.9-79.6",
+      "duration_seconds": 6.7,
+      "scene_id": "S01",
+      "shot_size": "low angle",
+      "camera_intent": "child POV",
+      "visual_action": "child sees Mira as another threatening silhouette above the net",
+      "dialogue": "CHILD: Don’t—don’t touch me.",
+      "sound_design": "water slap, ringing panic",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB011",
+      "timecode": "79.6-84.8",
+      "duration_seconds": 5.2,
+      "scene_id": "S01",
+      "shot_size": "shot reverse",
+      "camera_intent": "tight alternating faces",
+      "visual_action": "Mira lowers her hands rather than grabbing",
+      "dialogue": "MIRA: Then don’t pull. The knot eats panic.",
+      "sound_design": "voice close and dry; ambience lowered",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB012",
+      "timecode": "84.8-94.0",
+      "duration_seconds": 9.2,
+      "scene_id": "S01",
+      "shot_size": "wide",
+      "camera_intent": "panic geometry",
+      "visual_action": "soldiers converge; commander points toward Mira’s exposed position",
+      "dialogue": "COMMANDER: There. Mask or exile, I want the face.",
+      "sound_design": "crowd rhythm accelerates",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB013",
+      "timecode": "94.0-101.4",
+      "duration_seconds": 7.4,
+      "scene_id": "S01",
+      "shot_size": "insert",
+      "camera_intent": "fast cut",
+      "visual_action": "net loosens; child surges upward but rope snaps tighter around the torso",
+      "dialogue": "CHILD gasps.",
+      "sound_design": "rope bite, sudden silence after splash",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB014",
+      "timecode": "101.4-107.6",
+      "duration_seconds": 6.2,
+      "scene_id": "S01",
+      "shot_size": "medium",
+      "camera_intent": "body shield composition",
+      "visual_action": "Mira drops into the water edge and puts her body between hook pole and child",
+      "dialogue": "MIRA: Aim at me then.",
+      "sound_design": "impact splash; music withheld",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB015",
+      "timecode": "107.6-115.0",
+      "duration_seconds": 7.4,
+      "scene_id": "S01",
+      "shot_size": "close commander",
+      "camera_intent": "push-in",
+      "visual_action": "commander smiles at the exposed royal brand knowledge",
+      "dialogue": "COMMANDER: You know what that mark means.",
+      "sound_design": "low drum enters",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB016",
+      "timecode": "115.0-127.6",
+      "duration_seconds": 12.6,
+      "scene_id": "S01",
+      "shot_size": "two-shot",
+      "camera_intent": "static moral axis",
+      "visual_action": "Mira keeps knife visible but points it at rope, not people",
+      "dialogue": "MIRA: Pain makes it obey. Trust makes it answer.",
+      "sound_design": "three-note lullaby fragment",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB017",
+      "timecode": "127.6-139.7",
+      "duration_seconds": 12.1,
+      "scene_id": "S01",
+      "shot_size": "close child",
+      "camera_intent": "slow settle",
+      "visual_action": "child stops thrashing enough to hear her own breath",
+      "dialogue": "CHILD: How do I trust a knife?",
+      "sound_design": "negative space; only breath/water",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB018",
+      "timecode": "139.7-148.9",
+      "duration_seconds": 9.2,
+      "scene_id": "S01",
+      "shot_size": "wide",
+      "camera_intent": "closing circle",
+      "visual_action": "soldiers advance despite the pause; net winch resumes",
+      "dialogue": "COMMANDER: Enough theatre. Take both.",
+      "sound_design": "winch clank resumes",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB019",
+      "timecode": "148.9-159.7",
+      "duration_seconds": 10.8,
+      "scene_id": "S01",
+      "shot_size": "insert/action",
+      "camera_intent": "whip pan",
+      "visual_action": "Mira cuts the final load-bearing rope, fully exposing her face to lantern light",
+      "dialogue": "SOLDIER: It’s the exile!",
+      "sound_design": "rope crack, soldiers shout",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB020",
+      "timecode": "159.7-172.5",
+      "duration_seconds": 12.8,
+      "scene_id": "S01",
+      "shot_size": "atmospheric wide",
+      "camera_intent": "tilt up",
+      "visual_action": "first stormglass shimmer rises as blue fractures in the spray",
+      "dialogue": "none",
+      "sound_design": "glassy harmonic answers lullaby",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB021",
+      "timecode": "172.5-182.3",
+      "duration_seconds": 9.8,
+      "scene_id": "S01",
+      "shot_size": "close",
+      "camera_intent": "mirrored response",
+      "visual_action": "child/creature-light answers the three notes instead of attacking",
+      "dialogue": "CHILD whisper: It hears you.",
+      "sound_design": "lullaby plus creature harmonic",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB022",
+      "timecode": "182.3-190.3",
+      "duration_seconds": 8.0,
+      "scene_id": "S01",
+      "shot_size": "medium commander",
+      "camera_intent": "hard angle",
+      "visual_action": "commander recovers authority and orders capture before witnesses spread panic",
+      "dialogue": "COMMANDER: Close the pier. No one speaks of this.",
+      "sound_design": "boots stamp in unison",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB023",
+      "timecode": "190.3-201.3",
+      "duration_seconds": 11.0,
+      "scene_id": "S01",
+      "shot_size": "spectacle wide",
+      "camera_intent": "vertical reveal",
+      "visual_action": "stormglass wall rises between child and soldiers, reflecting them fractured",
+      "dialogue": "SOLDIER: What is that?",
+      "sound_design": "deep glass resonance; water recoil",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB024",
+      "timecode": "201.3-209.3",
+      "duration_seconds": 8.0,
+      "scene_id": "S01",
+      "shot_size": "medium",
+      "camera_intent": "protective blocking",
+      "visual_action": "Mira moves the child behind her but keeps her own body outside the wall’s cover",
+      "dialogue": "MIRA: Stay behind me, not inside it.",
+      "sound_design": "rain-like glass ticking",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB025",
+      "timecode": "209.3-218.5",
+      "duration_seconds": 9.2,
+      "scene_id": "S01",
+      "shot_size": "close",
+      "camera_intent": "quiet pivot",
+      "visual_action": "child looks at the wall as a beautiful cage",
+      "dialogue": "MIRA: You don’t save a child by becoming its cage.",
+      "sound_design": "music nearly vanishes",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB026",
+      "timecode": "218.5-226.5",
+      "duration_seconds": 8.0,
+      "scene_id": "S01",
+      "shot_size": "medium soldier",
+      "camera_intent": "hesitation insert",
+      "visual_action": "young soldier lowers hook a fraction, seeing the child as a child",
+      "dialogue": "YOUNG SOLDIER: Sir… it’s small.",
+      "sound_design": "single boot scrape",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB027",
+      "timecode": "226.5-235.7",
+      "duration_seconds": 9.2,
       "scene_id": "S01",
       "shot_size": "action wide",
-      "camera_intent": "lateral track",
-      "visual_action": "free the child without being identified",
-      "dialogue": "",
-      "sound_design": "environmental action foley",
-      "generation_lane": "draft",
-      "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
-    },
-    {
-      "shot_id": "S01_DS005",
-      "timecode": "65.79-86.32",
-      "duration_seconds": 20.53,
-      "scene_id": "S01",
-      "shot_size": "power two-shot",
-      "camera_intent": "slow tightening",
-      "visual_action": "navy soldiers close in while the child's panic endangers everyone",
-      "dialogue": "Pain makes it obey. Trust makes it answer.",
-      "sound_design": "dialogue remains intelligible under weather and crowd effects",
+      "camera_intent": "fast lateral",
+      "visual_action": "commander hurls hook/harpoon toward the exposed child",
+      "dialogue": "COMMANDER: It is cargo.",
+      "sound_design": "sharp air split",
       "generation_lane": "mid",
       "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+      "director_note": "generic scaffold slot replaced with exact staging"
     },
     {
-      "shot_id": "S01_DS006",
-      "timecode": "86.32-106.84",
-      "duration_seconds": 20.53,
+      "shot_id": "S01_SB028",
+      "timecode": "235.7-240.9",
+      "duration_seconds": 5.2,
       "scene_id": "S01",
-      "shot_size": "power two-shot",
-      "camera_intent": "slow tightening",
-      "visual_action": "navy soldiers close in while the child's panic endangers everyone",
-      "dialogue": "",
-      "sound_design": "dialogue remains intelligible under weather and crowd effects",
-      "generation_lane": "mid",
-      "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
-    },
-    {
-      "shot_id": "S01_DS007",
-      "timecode": "106.84-118.20",
-      "duration_seconds": 11.36,
-      "scene_id": "S01",
-      "shot_size": "pressure insert",
-      "camera_intent": "macro",
-      "visual_action": "navy soldiers close in while the child's panic endangers everyone",
-      "dialogue": "",
-      "sound_design": "object/room texture",
-      "generation_lane": "draft",
-      "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: insert pressure detail"
-    },
-    {
-      "shot_id": "S01_DS008",
-      "timecode": "118.20-132.50",
-      "duration_seconds": 14.29,
-      "scene_id": "S01",
-      "shot_size": "vertical composition",
-      "camera_intent": "high or low angle",
-      "visual_action": "child framed low center, hands and net dominating foreground",
-      "dialogue": "",
-      "sound_design": "negative space",
-      "generation_lane": "draft",
-      "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
-    },
-    {
-      "shot_id": "S01_DS009",
-      "timecode": "132.50-151.74",
-      "duration_seconds": 19.24,
-      "scene_id": "S01",
-      "shot_size": "subtext two-shot",
-      "camera_intent": "slow lateral drift",
-      "visual_action": "Protection means risking attachment without turning love into control.",
-      "dialogue": "",
-      "sound_design": "lullaby motif evolves with trust rather than constant emotional wallpaper",
-      "generation_lane": "mid",
-      "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
-    },
-    {
-      "shot_id": "S01_DS010",
-      "timecode": "151.74-170.98",
-      "duration_seconds": 19.24,
-      "scene_id": "S01",
-      "shot_size": "subtext two-shot",
-      "camera_intent": "slow lateral drift",
-      "visual_action": "Protection means risking attachment without turning love into control.",
-      "dialogue": "",
-      "sound_design": "lullaby motif evolves with trust rather than constant emotional wallpaper",
-      "generation_lane": "mid",
-      "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
-    },
-    {
-      "shot_id": "S01_DS011",
-      "timecode": "170.98-186.01",
-      "duration_seconds": 15.03,
-      "scene_id": "S01",
-      "shot_size": "decision closeup",
-      "camera_intent": "static intimate",
-      "visual_action": "she cuts the net and shields the child with her body",
-      "dialogue": "You don't save a child by becoming its cage.",
-      "sound_design": "music drops before decision",
-      "generation_lane": "mid",
-      "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
-    },
-    {
-      "shot_id": "S01_DS012",
-      "timecode": "186.01-210.57",
-      "duration_seconds": 24.56,
-      "scene_id": "S01",
-      "shot_size": "turn wide",
-      "camera_intent": "reframe",
-      "visual_action": "Mira becomes the child's protector at the cost of exposure",
-      "dialogue": "",
-      "sound_design": "sound motif shifts",
+      "shot_size": "spectacle insert",
+      "camera_intent": "impact fracture",
+      "visual_action": "stormglass fractures outward and deflects the hook without touching the child",
+      "dialogue": "none",
+      "sound_design": "violent chime then instant quiet",
       "generation_lane": "hero",
       "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+      "director_note": "generic scaffold slot replaced with exact staging"
     },
     {
-      "shot_id": "S01_DS013",
-      "timecode": "210.57-235.13",
-      "duration_seconds": 24.56,
+      "shot_id": "S01_SB029",
+      "timecode": "240.9-250.8",
+      "duration_seconds": 9.9,
       "scene_id": "S01",
-      "shot_size": "turn wide",
-      "camera_intent": "reframe",
-      "visual_action": "Mira becomes the child's protector at the cost of exposure",
-      "dialogue": "",
-      "sound_design": "sound motif shifts",
+      "shot_size": "wide",
+      "camera_intent": "escape geography",
+      "visual_action": "fracture opens a narrow canal path behind Mira; direction of escape is legible",
+      "dialogue": "MIRA: Now. Choose.",
+      "sound_design": "water rushes into channel",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB030",
+      "timecode": "250.8-260.6",
+      "duration_seconds": 9.8,
+      "scene_id": "S01",
+      "shot_size": "close hands",
+      "camera_intent": "slow intimate",
+      "visual_action": "child reaches for Mira voluntarily rather than being grabbed",
+      "dialogue": "CHILD: Don’t squeeze.",
+      "sound_design": "soft breath, lullaby third note",
       "generation_lane": "hero",
       "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+      "director_note": "generic scaffold slot replaced with exact staging"
     },
     {
-      "shot_id": "S01_DS014",
-      "timecode": "235.13-251.99",
-      "duration_seconds": 16.86,
+      "shot_id": "S01_SB031",
+      "timecode": "260.6-268.0",
+      "duration_seconds": 7.4,
       "scene_id": "S01",
-      "shot_size": "consequence wide",
-      "camera_intent": "backward track",
-      "visual_action": "visible consequence of she cuts the net and shields the child with her body",
-      "dialogue": "",
-      "sound_design": "consequence foley",
-      "generation_lane": "draft",
+      "shot_size": "insert",
+      "camera_intent": "care detail",
+      "visual_action": "Mira peels the last rope fibers off instead of binding the child tighter",
+      "dialogue": "MIRA: Then we do this loose.",
+      "sound_design": "fibers tear softly",
+      "generation_lane": "mid",
       "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
+      "director_note": "generic scaffold slot replaced with exact staging"
     },
     {
-      "shot_id": "S01_DS015",
-      "timecode": "251.99-262.61",
-      "duration_seconds": 10.63,
+      "shot_id": "S01_SB032",
+      "timecode": "268.0-275.4",
+      "duration_seconds": 7.4,
       "scene_id": "S01",
-      "shot_size": "sensory bridge",
-      "camera_intent": "insert or detail",
-      "visual_action": "first stormglass wall reflecting soldiers in fractured blue light",
-      "dialogue": "",
-      "sound_design": "object/motif texture",
-      "generation_lane": "draft",
+      "shot_size": "wide",
+      "camera_intent": "cost of exposure",
+      "visual_action": "soldiers regroup; lanterns reveal Mira’s face clearly to the whole pier",
+      "dialogue": "COMMANDER: Remember that face.",
+      "sound_design": "alarm bell begins",
+      "generation_lane": "mid",
       "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition"
+      "director_note": "generic scaffold slot replaced with exact staging"
     },
     {
-      "shot_id": "S01_DS016",
-      "timecode": "262.61-273.24",
-      "duration_seconds": 10.63,
+      "shot_id": "S01_SB033",
+      "timecode": "275.4-284.1",
+      "duration_seconds": 8.7,
       "scene_id": "S01",
-      "shot_size": "sensory bridge",
-      "camera_intent": "insert or detail",
-      "visual_action": "first stormglass wall reflecting soldiers in fractured blue light",
-      "dialogue": "",
-      "sound_design": "object/motif texture",
-      "generation_lane": "draft",
-      "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
-      ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition"
-    },
-    {
-      "shot_id": "S01_DS017",
-      "timecode": "273.24-300.00",
-      "duration_seconds": 26.76,
-      "scene_id": "S01",
-      "shot_size": "final image",
-      "camera_intent": "slow pull-back",
-      "visual_action": "first stormglass wall reflecting soldiers in fractured blue light",
-      "dialogue": "Pain makes it obey. Trust makes it answer.",
-      "sound_design": "three-note lullaby answered by glassy creature harmonics unresolved",
+      "shot_size": "hero wide",
+      "camera_intent": "vertical composition",
+      "visual_action": "stormglass wall reflects soldiers in fractured blue light while child remains low center and protected",
+      "dialogue": "none",
+      "sound_design": "alarm swallowed by glass resonance",
       "generation_lane": "hero",
       "continuity_dependencies": [
-        "protagonist_face_costume",
-        "location_geography",
-        "relationship_continuity",
-        "meaning_carrier_continuity",
-        "sound_motif_continuity"
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
       ],
-      "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power"
+      "director_note": "generic scaffold slot replaced with exact staging"
+    },
+    {
+      "shot_id": "S01_SB034",
+      "timecode": "284.1-300.0",
+      "duration_seconds": 15.9,
+      "scene_id": "S01",
+      "shot_size": "final tracking",
+      "camera_intent": "backward tracking",
+      "visual_action": "Mira and child disappear through the narrow water path; commander remains framed behind fractured reflections",
+      "dialogue": "COMMANDER offscreen: Find the exile.",
+      "sound_design": "three-note motif unresolved",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "mira_face_costume",
+        "child_face_scale_light",
+        "dock_geography",
+        "royal_net_brand"
+      ],
+      "director_note": "generic scaffold slot replaced with exact staging"
     }
   ],
   "validation_rules": [
-    "seed must be manually/directorially refined before production",
     "no gaps or overlaps",
-    "sound and power transitions must remain explicit",
-    "shot pacing must remain intentionally varied"
+    "all seconds covered",
+    "dialogue intelligible under effects",
+    "spectacle tied to child/protector relationship"
   ]
 }

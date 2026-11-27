@@ -165,6 +165,15 @@ DEFAULT_PATTERNS: list[dict[str, Any]] = [
         "risk_logic": "High-quality machines, monsters, and battle scale become interchangeable when the audience is asked to track systems rather than protect someone specific.",
         "mitigation": "Convert procedure into personal stakes: name who is endangered, what protective choice costs, and what belonging/personhood/home outcome changes after the mission.",
     },
+    {
+        "id": "modern_rebirth_revenge_without_clock_or_proof",
+        "label": "Modern rebirth/family revenge lacks a visible deadline and concrete evidence objects",
+        "signals": ["modern_rebirth_revenge", "missing_rebirth_clock_or_proof"],
+        "evidence_strength": "cross_channel_timestamped_observational",
+        "archive_signal": "PrimeFate's strong TKfoKnpHpsw establishes file theft, medical sacrifice, and family misrecognition before rebirth, then converts the premise into a seven-day countdown, contracts, records, bank statements, memory objects, and public exposure within the first quarter.",
+        "risk_logic": "Modern revenge becomes repetitive humiliation when the audience cannot measure time pressure or see how betrayal will be proven. The rebirth device alone does not create progression.",
+        "mitigation": "Give the rebirth a visible countdown or irreversible deadline; attach the injustice to contracts, files, scars, records, accounts, or repeated memory objects; schedule a public evidentiary payoff before the midpoint.",
+    },
 ]
 
 
@@ -244,6 +253,8 @@ def candidate_flags(candidate_text: str, script_text: str = "") -> dict[str, boo
         "fragmented_episode_packaging": bool(re.search(r"\b(episode|ep\.?|part)\s*\d+\b|\bseason\s*\d+\b|to be continued|previously on", full)),
         "mid_story_entry": bool(script_text and re.search(r"previously on|we continue|back on the island|meanwhile|after last|next morning", opening_text.lower()) or (script_text and opening_wound == 0 and opening_care == 0 and not re.search(r"attack|escape|capture|injur|thrown|abandon|reject|rescue|save", opening_text.lower()))),
         "delayed_promise_payoff": bool(script_text and not re.search(r"appears|attacks|rescues|saves|protects|transforms|reveals|hatches|shifts|bonds|claims|escapes|is exposed", opening_text.lower())),
+        "modern_rebirth_revenge": bool(re.search(r"reborn|rebirth|second chance|back in time", full) and re.search(r"family|sister|brother|father|mother|heir|billionaire|company|business", full) and re.search(r"revenge|payback|disown|cast out|betray|drag .*down|make them pay", full)),
+        "missing_rebirth_clock_or_proof": bool(script_text and not re.search(r"\d+\s+(?:days?|hours?|weeks?)|deadline|countdown|contract|evidence|records?|bank statements?|proof|documents?|waiver|photos?|files?|scar|needle mark|memory object|flowers|shoes|heels", full)),
     })
     for theme in ("family_child", "animal_child", "dragon", "wolf_werewolf", "vampire", "sea_mermaid", "romance_mate", "modern_wealth_power", "revenge_retribution"):
         flags.setdefault(theme, theme in themes)

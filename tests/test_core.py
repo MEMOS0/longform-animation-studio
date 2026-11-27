@@ -844,3 +844,19 @@ def test_storyboard_seed_places_power_turn_after_causing_decision():
     decision_idx=next(i for i,s in enumerate(board['shots']) if s['visual_action']==scene['protagonist_decision'])
     turn_idx=next(i for i,s in enumerate(board['shots']) if s['visual_action']==scene['turn'])
     assert decision_idx < turn_idx
+
+
+def test_failure_intelligence_flags_modern_rebirth_without_clock_or_proof():
+    from studio.failure_intelligence import evaluate_candidate
+    script='Arthur is reborn after his sisters betray him. He is angry. They humiliate him again and again.'
+    result=evaluate_candidate('Reborn heir disowns his sisters and makes them pay',[],script)
+    ids=[p['id'] for p in result['matched_failure_patterns']]
+    assert 'modern_rebirth_revenge_without_clock_or_proof' in ids
+
+
+def test_failure_intelligence_accepts_modern_rebirth_clock_and_proof():
+    from studio.failure_intelligence import evaluate_candidate
+    script='Arthur is reborn after his sisters betray him. Seven days remain on the contract. He keeps the files, bank records, waiver, needle scar, and red heels as evidence.'
+    result=evaluate_candidate('Reborn heir disowns his sisters and makes them pay',[],script)
+    ids=[p['id'] for p in result['matched_failure_patterns']]
+    assert 'modern_rebirth_revenge_without_clock_or_proof' not in ids
