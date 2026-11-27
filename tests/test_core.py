@@ -2521,3 +2521,28 @@ def test_refusing_abandonment_does_not_trigger_economic_abandonment():
     from studio.economic_abandonment_integrity import evaluate_economic_abandonment_integrity
     premise={"title":"Stay","logline":"A husband refuses to abandon his family as debt mounts and the bank calls."}
     assert evaluate_economic_abandonment_integrity(premise,{"sequences":[]},[])["applies"] is False
+
+
+def test_revenge_autonomy_full_chain_passes():
+    from studio.revenge_autonomy_integrity import evaluate_revenge_autonomy_integrity
+    premise={"title":"Drowned","logline":"Betrayed through identity fraud when twins switched places, publicly humiliated, pushed and thrown into the sea, a presumed dead drowned woman survives and returns with a new identity for revenge."}
+    summary=("At the wedding and auction launch party the public room crowd guests filmed witnesses and trending spectators saw the coercion forced threat and public humiliation. Hospital doctor breath heartbeat injury blood drown water unconscious medical pain lost child body prove cost. She plans decides chooses strategy trap sting bait weapon orchestrates and sets up the revenge. He says only if you want, you choose, supports helps, asks before and won't touch. She takes a new name alias, chooses name, answers who do you want to be, calls herself Eve, identity choice not erase. Letter phone key files documents records bottle formula perfume object seal serial camera accounts ledger evidence proof become leverage. Bait public room auction stage launch same room turns the tables uses desire ownership against them and predator close. Police federal court lawyer regulator legal accounts frozen evidence files signature escrow verified warrant arrest investigation and chain of custody follow. No more favors, won't forgive, don't belong, not yours, refuse and no. In the ending she is free, freedom, live, won't belong, independent, her own, choice. He says I'll wait, if you choose, when you're ready, no pressure, not yours, doesn't claim and free choice.")
+    r=evaluate_revenge_autonomy_integrity(premise,{"sequences":[{"summary":summary}]},[])
+    assert r["applies"] is True
+    assert r["score_0_to_1"] == 1.0
+
+
+def test_revenge_autonomy_rejects_rescuer_owned_rebirth():
+    from studio.revenge_autonomy_integrity import evaluate_revenge_autonomy_integrity
+    premise={"title":"Rescued","logline":"Betrayed and publicly humiliated, a presumed dead woman survives drowning and returns for revenge."}
+    r=evaluate_revenge_autonomy_integrity(premise,{"sequences":[{"summary":"A billionaire renames her, makes every plan, kisses her as his prize, and she forgives the villains."}]},[])
+    assert r["applies"] is True
+    assert r["checks"]["victim_authors_revenge_plan"] is False
+    assert r["checks"]["new_identity_is_victim_chosen"] is False
+    assert r["checks"]["ending_centers_autonomy_before_romance"] is False
+
+
+def test_revenge_autonomy_ignores_simple_breakup_revenge():
+    from studio.revenge_autonomy_integrity import evaluate_revenge_autonomy_integrity
+    premise={"title":"Breakup","logline":"After a breakup she returns home and jokes about revenge."}
+    assert evaluate_revenge_autonomy_integrity(premise,{"sequences":[]},[])["applies"] is False

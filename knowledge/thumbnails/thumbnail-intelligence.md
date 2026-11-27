@@ -157,3 +157,9 @@ The Nightfall thumbnail demonstrates transport-threshold abandonment: wedding dr
 Evidence source: `knowledge/market/nightfall-luke-wrongful-accusation-restoration-deep-dive.md` and `data/raw/thumbnails/nightfall_drama/xhqE43r-faA.maxresdefault.webp`.
 
 The Luke thumbnail uses class-crossing recognition: wet sidewalk, coin cup, homeless clothing, tactile face touch, crying woman, and the powerful husband upright in the background. The emotional action crosses a status boundary instead of merely displaying wealth. Compared with Nightfall's train-station thumbnail, both sell the wound accurately while withholding the procedural repair chain.
+
+## Passive-rescue packaging vs active-revenge retention addendum (2026-11-27)
+
+Evidence source: `knowledge/market/many-drama-elena-twin-deception-revenge-autonomy-deep-dive.md` and `data/raw/thumbnails/many_drama/dEup8AVWYKg.maxresdefault.jpg`.
+
+The Elena thumbnail sells passive rescue: unconscious bride-like woman, wet boat, kneeling rescuer, rain, sea, wealth trays. The film's retention engine is active revenge: victim-chosen alias, object/evidence leverage, public-room reversal, procedural consequences, and autonomy-first ending. Do not infer story mechanism from thumbnail alone; compare packaging promise to actual agency structure. This is packaging-alignment evidence, not CTR proof.

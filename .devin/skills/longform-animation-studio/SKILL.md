@@ -488,3 +488,9 @@ Use the `wrongful_accusation_integrity` project-evaluation gate as a warning sys
 ## 2026-11-27 Nightfall procedural-dignity channel doctrine update
 
 For adult non-fantasy long-form melodrama, read `knowledge/market/nightfall-drama-procedural-dignity-channel-comparison.md`. The repeatable engine is public stripping of dignity, mutual-aid work, competence before pity, refusal of purchased rescue, document/procedure reversal, measurable restitution or institutional repair, and freely chosen belonging. This is especially useful when designing 45-70 minute horizontal relationship/legal/family dramas without creature spectacle.
+
+## 2026-11-27 victim-authored revenge-autonomy doctrine update
+
+Before greenlighting revenge/return-from-presumed-death melodrama, read `knowledge/market/many-drama-elena-twin-deception-revenge-autonomy-deep-dive.md`. The portable mechanism is consent/power violation, physical survival cost, victim-chosen identity and revenge plan, rescuer support without ownership, objects as evidence/leverage, public-room reversal, procedural consequences, no forced forgiveness, and autonomy before deferred nonpossessive romance.
+
+Use the `revenge_autonomy_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy Elena/Eve, the twin plot, perfume objects, or thumbnail; extract the mechanism and build original stories.

@@ -246,3 +246,12 @@ Evidence source: `knowledge/market/nightfall-luke-wrongful-accusation-restoratio
 2. **Investigation dialogue should ask testable questions.** Time of call, safe logs, chain of custody, pawn slips, camera motion, and signatures create drama because each answer can be falsified.
 3. **Institutional repair needs plain speech.** “Northbrook owes you an apology” matters because it names the institution that stole the future, not just the villain.
 4. **Romantic closure should leave room for refusal.** “You don't have to answer” makes the yes meaningful because the past letter cannot coerce the present choice.
+
+## Victim-authored revenge dialogue addendum (2026-11-27)
+
+Evidence source: `knowledge/market/many-drama-elena-twin-deception-revenge-autonomy-deep-dive.md`.
+
+1. **Strategy lines should turn victim vocabulary into predator vocabulary.** “Bait gets the predator close” works because the heroine reclaims a position others tried to impose on her.
+2. **Consent boundaries can be procedural.** “Private words usually start with asking” and “Stop confusing a room with ownership” turn public humiliation into a testable ethics violation.
+3. **Money dialogue should distinguish ownership from attention.** “I'm bidding for myself” and “She owns the formula” make wealth meaningful as authorship/control rather than spectacle.
+4. **Autonomy endings need nonpossessive responses.** “I won't belong to anyone again” / “Then I'll wait” / “Now I live” allows romance without transferring ownership.
