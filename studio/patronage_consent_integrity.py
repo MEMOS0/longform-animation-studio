@@ -30,11 +30,11 @@ def evaluate_patronage_consent_integrity(premise: dict[str, Any], architecture: 
     architecture_text = _text(architecture).lower()
     scenes_text = _text(scenes).lower()
     full = "\n".join([premise_text, architecture_text, scenes_text])
-    ordered = "\n".join([architecture_text, scenes_text, premise_text])
+    ordered = "\n".join([architecture_text, scenes_text])
 
     patronage_term = bool(re.search(r"billionaire|wealthy|rich benefactor|patron|sponsor|mentor|ceo|philanthropist", full))
     transformation_term = bool(re.search(r"transformation|model|modeling|fashion|education|training|mentorship|opportunity|international contract|career", full))
-    dependency_term = bool(re.search(r"village girl|poor|humble|depends? on|indebted|owe(?:s)?|rescue|help(?:s|ed)? her|pay(?:s|ing)? for|sponsor", full))
+    dependency_term = bool(re.search(r"village girl|poor|humble|depends? on|indebted|(?<![a-z])owe(?:s)?(?![a-z])|rescue|help(?:s|ed)? her|pay(?:s|ing)? for|sponsor", full))
     applies = patronage_term and transformation_term and dependency_term
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
