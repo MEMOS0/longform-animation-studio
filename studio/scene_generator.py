@@ -13,6 +13,7 @@ from typing import Any
 
 from .creature_dialogue import creature_dialogue_materials
 from .survival_scene import compressed_survival_scene_materials
+from .transformation_scene import transformation_scene_materials
 
 POWER_START = [
     "socially exposed and institutionally powerless",
@@ -177,6 +178,14 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
             (f"neighbors carry shared {resource} into the transformed {system} space", f"{creature} crosses the home threshold freely while {final_public_proof}"),
         ]
         first_image_override, final_image_override = creature_visuals[index - 1]
+    transformation_materials = transformation_scene_materials(premise, index)
+    if transformation_materials:
+        key_lines = transformation_materials["key_lines"]
+        spoken_exchange = transformation_materials["spoken_exchange"]
+        scene_rhythm = transformation_materials["scene_rhythm"]
+        rewrite_directives = transformation_materials["rewrite_directives"]
+        first_image_override = transformation_materials["first_image"]
+        final_image_override = transformation_materials["final_image"]
     if premise.get("channel_contract") == "compressed_creature_survival":
         survival_materials = compressed_survival_scene_materials(premise, index)
         key_lines = survival_materials["key_lines"]
@@ -196,6 +205,10 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
         power_start = survival_materials["power_start"]
         power_end = survival_materials["power_end"]
         subtext = survival_materials["subtext"]
+    elif transformation_materials:
+        power_start = transformation_materials["power_start"]
+        power_end = transformation_materials["power_end"]
+        subtext = transformation_materials["subtext"]
     return {
         "scene_id": f"S{index:02d}",
         "time_range": sequence.get("time_range", "0-0 minutes"),

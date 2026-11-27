@@ -12,6 +12,7 @@ from pathlib import Path
 from typing import Any
 
 from .survival_architecture import apply_compressed_survival_architecture
+from .transformation_architecture import apply_transformation_architecture
 
 FRACTIONS = [0.0, 0.10, 0.20, 0.32, 0.45, 0.58, 0.74, 0.88, 1.0]
 
@@ -213,6 +214,8 @@ def generate_architecture(premise: dict[str, Any]) -> dict[str, Any]:
         })
     if premise.get("channel_contract") == "compressed_creature_survival":
         apply_compressed_survival_architecture(beats, premise)
+    if premise.get("channel_contract") == "transformation_romance":
+        apply_transformation_architecture(beats, premise)
 
     sequences = []
     for index, beat in enumerate(beats):
@@ -238,12 +241,16 @@ def generate_architecture(premise: dict[str, Any]) -> dict[str, Any]:
         "midpoint_reversal": (
             "the planned escape becomes a reciprocal rescue obligation when trapped survivors and the allied creature are discovered"
             if premise.get("channel_contract") == "compressed_creature_survival"
+            else "the first transformation payoff reverses into a second performance arena where visibility must become competence and consent"
+            if premise.get("channel_contract") == "transformation_romance"
             else "public accusation/frame-up converts private humiliation into maximum social shame while seeding the proof chain that will reverse it"
         ),
         "ending_payoff": {
             "justice": (
                 "the predator is contained through terrain knowledge and the opening vehicle/station mechanism while captives and the creature are freed; survival justice is protection, not social punishment"
                 if premise.get("channel_contract") == "compressed_creature_survival"
+                else "the rival loses control of the public image through consequence while the protagonist gains authorship, consent, and chosen visibility rather than applause alone"
+                if premise.get("channel_contract") == "transformation_romance"
                 else "the true manipulator loses the exact status/property/control they exploited, with material consequences rather than insults alone"
             ),
             "belonging": payoff,
@@ -264,6 +271,8 @@ def generate_architecture(premise: dict[str, Any]) -> dict[str, Any]:
         "evidence_references": ([
             "knowledge/market/neural-pictures-compressed-creature-survival-deep-dive.md",
         ] if premise.get("channel_contract") == "compressed_creature_survival" else [
+            "knowledge/market/echodrama-hidden-beauty-transformation-romance-deep-dive.md",
+        ] if premise.get("channel_contract") == "transformation_romance" else [
             "knowledge/market/karma-floor-table-social-proof-deep-dive.md",
             "knowledge/market/dramora-compressed-social-melodrama-deep-dive.md",
             "knowledge/market/leso-faith-economic-reversal-deep-dive.md",

@@ -1,0 +1,1080 @@
+[
+  {
+    "shot_id": "S06_DS001",
+    "scene_id": "S06",
+    "timecode": "0.00-32.00",
+    "duration_seconds": 32.0,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. wide establishing; slow push; the authority holds a consent form or entry list while machinery runs behind them. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow push",
+    "dialogue": "",
+    "audio_direction": "lower loudness, higher negative space, fewer words, and faster cutting during the danger peak",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: open on the scene image",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS002",
+    "scene_id": "S06",
+    "timecode": "32.00-64.00",
+    "duration_seconds": 32.0,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. intimate closeup; settle; the protagonist's expression shifts from obligation toward controlled attention when the turn lands. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "settle",
+    "dialogue": "",
+    "audio_direction": "breath/room tone",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS003",
+    "scene_id": "S06",
+    "timecode": "64.00-96.00",
+    "duration_seconds": 32.0,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. intimate closeup; settle; the protagonist's expression shifts from obligation toward controlled attention when the turn lands; alternate coverage: witness or micro-expression coverage rather than the same facial staging. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "settle",
+    "dialogue": "",
+    "audio_direction": "breath/room tone",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS004",
+    "scene_id": "S06",
+    "timecode": "96.00-128.00",
+    "duration_seconds": 32.0,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. action wide; lateral track; agency violation, protective intimacy, and danger setpiece. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "lateral track",
+    "dialogue": "",
+    "audio_direction": "environmental action foley",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS005",
+    "scene_id": "S06",
+    "timecode": "128.00-160.00",
+    "duration_seconds": 32.0,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. action wide; lateral track; agency violation, protective intimacy, and danger setpiece; alternate coverage: movement/detail coverage of the objective. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "lateral track",
+    "dialogue": "",
+    "audio_direction": "environmental action foley",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS006",
+    "scene_id": "S06",
+    "timecode": "160.00-192.00",
+    "duration_seconds": 32.0,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; slow tightening; the authority offers the opportunity as if refusal is ingratitude. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow tightening",
+    "dialogue": "We already arranged it. This is your chance.",
+    "audio_direction": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions; subtext: good outcomes do not erase consent violations",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS007",
+    "scene_id": "S06",
+    "timecode": "192.00-224.00",
+    "duration_seconds": 32.0,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. power two-shot; slow tightening; the director and Mina's aunt agree to cast her before asking whether she consents; the objection is real even though the opportunity is attractive. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow tightening",
+    "dialogue": "",
+    "audio_direction": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS008",
+    "scene_id": "S06",
+    "timecode": "224.00-253.17",
+    "duration_seconds": 29.17,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. pressure insert; macro; the director and Mina's aunt agree to cast her before asking whether she consents; the objection is real even though the opportunity is attractive; alternate coverage: pressure-detail coverage: hands, objects, crowd position, or institutional obstruction carries the conflict. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "macro",
+    "dialogue": "",
+    "audio_direction": "object/room texture",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: insert pressure detail",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS009",
+    "scene_id": "S06",
+    "timecode": "253.17-282.35",
+    "duration_seconds": 29.17,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. pressure insert; macro; the director and Mina's aunt agree to cast her before asking whether she consents; the objection is real even though the opportunity is attractive; alternate coverage: pressure-detail coverage: hands, objects, crowd position, or institutional obstruction carries the conflict. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "macro",
+    "dialogue": "",
+    "audio_direction": "object/room texture",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: insert pressure detail",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS010",
+    "scene_id": "S06",
+    "timecode": "282.35-314.35",
+    "duration_seconds": 32.0,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. vertical composition; high or low angle; vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "high or low angle",
+    "dialogue": "",
+    "audio_direction": "negative space",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS011",
+    "scene_id": "S06",
+    "timecode": "314.35-346.35",
+    "duration_seconds": 32.0,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. vertical composition; high or low angle; vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control; alternate coverage: alternate angle and detail coverage. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "high or low angle",
+    "dialogue": "",
+    "audio_direction": "negative space",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS012",
+    "scene_id": "S06",
+    "timecode": "346.35-378.35",
+    "duration_seconds": 32.0,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; Even helpful allies violate personhood when they arrange visibility without consent.. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow lateral drift",
+    "dialogue": "",
+    "audio_direction": "music enters only when relational power changes; it must not paper over unresolved tension",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS013",
+    "scene_id": "S06",
+    "timecode": "378.35-410.35",
+    "duration_seconds": 32.0,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. subtext two-shot; slow lateral drift; Even helpful allies violate personhood when they arrange visibility without consent.; alternate coverage: alternate angle and detail coverage. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow lateral drift",
+    "dialogue": "",
+    "audio_direction": "music enters only when relational power changes; it must not paper over unresolved tension",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS014",
+    "scene_id": "S06",
+    "timecode": "410.35-442.35",
+    "duration_seconds": 32.0,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; Mina stops at the threshold until the choice is returned. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "static intimate",
+    "dialogue": "You decided for me. Then ask me now. Really ask.",
+    "audio_direction": "music drops before decision",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible; subtext: the opportunity is worthless if it repeats erasure",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS015",
+    "scene_id": "S06",
+    "timecode": "442.35-474.35",
+    "duration_seconds": 32.0,
+    "generation_lane": "mid",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. decision closeup; static intimate; continue only after reclaiming consent and boundaries rather than accepting arranged visibility. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "static intimate",
+    "dialogue": "",
+    "audio_direction": "music drops before decision",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS016",
+    "scene_id": "S06",
+    "timecode": "474.35-506.35",
+    "duration_seconds": 32.0,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. turn wide; reframe; the director and Mina's aunt agree to cast her before asking whether she consents; the objection is real even though the opportunity is attractive. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "reframe",
+    "dialogue": "",
+    "audio_direction": "sound motif shifts",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS017",
+    "scene_id": "S06",
+    "timecode": "506.35-538.35",
+    "duration_seconds": 32.0,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. turn wide; reframe; the director and Mina's aunt agree to cast her before asking whether she consents; the objection is real even though the opportunity is attractive; alternate coverage: reaction coverage: show witnesses, threshold position, and power shift instead of repeating the same crossing staging. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "reframe",
+    "dialogue": "",
+    "audio_direction": "sound motif shifts",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS018",
+    "scene_id": "S06",
+    "timecode": "538.35-570.35",
+    "duration_seconds": 32.0,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. consequence wide; backward track; visible consequence of continue only after reclaiming consent and boundaries rather than accepting arranged visibility. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "backward track",
+    "dialogue": "",
+    "audio_direction": "consequence foley",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS019",
+    "scene_id": "S06",
+    "timecode": "570.35-602.35",
+    "duration_seconds": 32.0,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. consequence wide; backward track; visible consequence of continue only after reclaiming consent and boundaries rather than accepting arranged visibility; alternate coverage: cost-detail coverage showing what materially changed. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "backward track",
+    "dialogue": "",
+    "audio_direction": "consequence foley",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS020",
+    "scene_id": "S06",
+    "timecode": "602.35-630.17",
+    "duration_seconds": 27.83,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. sensory bridge; insert or detail; the protagonist takes the form back, closes the pen in her hand, and waits until they ask; alternate coverage: object-detail coverage before or after the wider relational-resolution framing. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "insert or detail",
+    "dialogue": "",
+    "audio_direction": "object/motif texture",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS021",
+    "scene_id": "S06",
+    "timecode": "630.17-658.00",
+    "duration_seconds": 27.83,
+    "generation_lane": "draft",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. sensory bridge; insert or detail; the protagonist takes the form back, closes the pen in her hand, and waits until they ask; alternate coverage: object-detail coverage before or after the wider relational-resolution framing. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "insert or detail",
+    "dialogue": "",
+    "audio_direction": "object/motif texture",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  },
+  {
+    "shot_id": "S06_DS022",
+    "scene_id": "S06",
+    "timecode": "658.00-690.00",
+    "duration_seconds": 32.0,
+    "generation_lane": "hero",
+    "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final image; slow pull-back; the protagonist takes the form back, closes the pen in her hand, and waits until they ask. Emotional action must remain readable before spectacle.",
+    "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
+    "camera_intent": "slow pull-back",
+    "dialogue": "Stop deciding for me.",
+    "audio_direction": "a restrained tactile sound motif unresolved",
+    "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power",
+    "continuity_dependencies": [
+      "protagonist_face_costume",
+      "location_geography",
+      "relationship_continuity",
+      "meaning_carrier_continuity",
+      "sound_motif_continuity"
+    ],
+    "required_reference_assets": [
+      {
+        "dependency": "protagonist_face_costume",
+        "asset_prompt": "continuity reference asset for protagonist_face_costume"
+      },
+      {
+        "dependency": "location_geography",
+        "asset_prompt": "continuity reference asset for location_geography"
+      },
+      {
+        "dependency": "relationship_continuity",
+        "asset_prompt": "continuity reference asset for relationship_continuity"
+      },
+      {
+        "dependency": "meaning_carrier_continuity",
+        "asset_prompt": "continuity reference asset for meaning_carrier_continuity"
+      },
+      {
+        "dependency": "sound_motif_continuity",
+        "asset_prompt": "continuity reference asset for sound_motif_continuity"
+      }
+    ],
+    "qa_checks": [
+      "character/creature faces match approved reference sheets",
+      "story geography matches prior and following shots",
+      "emotion and power shift remain readable at full-screen playback",
+      "no text, watermark, logo, or subtitle artifact",
+      "dialogue lip/performance timing reviewed before upscale or final render"
+    ]
+  }
+]

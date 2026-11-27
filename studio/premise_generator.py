@@ -20,6 +20,7 @@ from .architecture_generator import generate_architecture
 from .scene_generator import generate_scenes
 from .screenplay_renderer import write_screenplay
 from .survival_premises import COMPRESSED_SURVIVAL_VARIANTS, compressed_survival_premise
+from .transformation_premises import TRANSFORMATION_ROMANCE_VARIANTS, transformation_romance_premise
 
 CREATURE_ECONOMIC_VARIANTS = [
     {
@@ -303,6 +304,8 @@ def generate_premises(contract: str = "social_test_melodrama", count: int = 3, t
         return [creature_economic_premise(v, target_minutes) for v in CREATURE_ECONOMIC_VARIANTS[:count]]
     if contract == "compressed_creature_survival":
         return [compressed_survival_premise(v, target_minutes) for v in COMPRESSED_SURVIVAL_VARIANTS[:count]]
+    if contract == "transformation_romance":
+        return [transformation_romance_premise(v, target_minutes) for v in TRANSFORMATION_ROMANCE_VARIANTS[:count]]
     raise ValueError("currently implemented contracts: social_test_melodrama, creature_economic_melodrama, compressed_creature_survival")
 
 

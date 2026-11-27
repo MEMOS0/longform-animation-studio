@@ -1,0 +1,102 @@
+{
+  "scene_id": "S06",
+  "time_range": "41.8-53.3 minutes",
+  "objective": "agency violation, protective intimacy, and danger setpiece",
+  "conflict": "the director and Mina's aunt agree to cast her before asking whether she consents; the objection is real even though the opportunity is attractive",
+  "power_position_start": "beneficiary of arranged visibility",
+  "power_position_end": "person who reclaims consent before opportunity",
+  "turn": "the director and Mina's aunt agree to cast her before asking whether she consents; the objection is real even though the opportunity is attractive",
+  "protagonist_decision": "continue only after reclaiming consent and boundaries rather than accepting arranged visibility",
+  "subtext": "Even helpful allies violate personhood when they arrange visibility without consent.",
+  "visual_action": {
+    "first_image": "the authority holds a consent form or entry list while machinery runs behind them",
+    "face_reaction": "the protagonist's expression shifts from obligation toward controlled attention when the turn lands",
+    "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+    "final_image": "the protagonist takes the form back, closes the pen in her hand, and waits until they ask"
+  },
+  "dialogue_design": {
+    "function": "make choices, objections, and proof implications audible rather than explaining theme",
+    "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "Stop deciding for me.",
+      "Then ask me now. Really ask."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "antagonist or social crowd",
+        "dramatic_job": "the director and Mina's aunt agree to cast her before asking whether she consents; the objection is real even though the opportunity is attractive",
+        "writing_note": "pressure must be specific behavior, not generic cruelty"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "caregiver, worker, or vulnerable witness",
+        "dramatic_job": "Aren, the academy's withdrawn lighting designer who once watched Mina calm a panicking child performer before anyone knew she wrote the play protects the person before the transformation because Aren remembers Mina's anonymous voice guiding a child performer through a blackout and values her courage before her appearance changes protects through respect, timing, and practical action rather than ownership",
+        "writing_note": "the objection should make the safe choice reasonable"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "protagonist",
+        "dramatic_job": "continue only after reclaiming consent and boundaries rather than accepting arranged visibility",
+        "writing_note": "the answer is a choice or refusal, not a theme statement"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "object, proof, or consequence",
+        "dramatic_job": "rival interference turns public image pressure into physical or professional danger",
+        "writing_note": "the scene must leave a visible cost or proof implication"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "external_pressure",
+        "speaker": "director or coach",
+        "line": "We already arranged it. This is your chance.",
+        "action": "the authority offers the opportunity as if refusal is ingratitude",
+        "subtext": "good outcomes do not erase consent violations",
+        "power_move": "image pressure answered through consent, authorship, protection, or recognition",
+        "listening_response": "the next behavior answers the concrete boundary rather than explaining confidence",
+        "delivery": "efficient, impatient",
+        "status_shift": "the speaker converts spectatorship or arranged visibility into chosen agency",
+        "room_sound": "phones, crowd murmur, breath, threshold noise, camera/stage/pool machinery, and object texture remain audible beneath the line"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Mina",
+        "line": "You decided for me. Then ask me now. Really ask.",
+        "action": "Mina stops at the threshold until the choice is returned",
+        "subtext": "the opportunity is worthless if it repeats erasure",
+        "power_move": "image pressure answered through consent, authorship, protection, or recognition",
+        "listening_response": "the next behavior answers the concrete boundary rather than explaining confidence",
+        "delivery": "steady, unblinking",
+        "status_shift": "the speaker converts spectatorship or arranged visibility into chosen agency",
+        "room_sound": "phones, crowd murmur, breath, threshold noise, camera/stage/pool machinery, and object texture remain audible beneath the line"
+      }
+    ],
+    "scene_rhythm": "visual/social pressure first; dialogue names consent, recognition, or authorship only after blocking, objects, phones, thresholds, and protective behavior have made the psychology legible",
+    "rewrite_directives": [
+      "write the scene so the gaze geometry is understandable with sound off",
+      "make the protagonist answer image pressure through behavior, boundaries, work, or movement rather than speeches about confidence",
+      "use phones, mirrors, thresholds, cameras, water/stage machinery, and repeated public spaces as psychology carriers",
+      "do not use despair harm as a cheap transformation trigger",
+      "separate desire, gratitude, performance, and recognition in the romance turns"
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
+    "silence_or_negative_space": "lower loudness, higher negative space, fewer words, and faster cutting during the danger peak",
+    "motif": "a restrained tactile sound motif"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on the immediate consequence of the previous turn: Aren, the academy's withdrawn lighting designer who once watched Mina calm a panicking child performer before anyone knew she wrote the play protects the person before the transformation because Aren remembers Mina's anonymous voice guiding a child performer through a blackout and values her courage before her appearance changes protects through respect, timing, and practical action rather than ownership",
+    "exit_hook": "is protection love if it began by taking away her choice?"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, capability, or relational obligation?",
+    "Is the object/space doing narrative work rather than decorative worldbuilding?",
+    "Is public or institutional pressure expressed through visible behavior rather than exposition?",
+    "Does the protagonist retain agency instead of being rescued into passivity?"
+  ]
+}

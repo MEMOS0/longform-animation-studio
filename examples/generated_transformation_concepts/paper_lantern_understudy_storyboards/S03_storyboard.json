@@ -1,0 +1,453 @@
+{
+  "scene_id": "S03",
+  "duration_seconds": 516.0,
+  "coverage": "continuous_exact_format_director_seed",
+  "shots": [
+    {
+      "shot_id": "S03_DS001",
+      "timecode": "0.00-30.71",
+      "duration_seconds": 30.71,
+      "scene_id": "S03",
+      "shot_size": "wide establishing",
+      "camera_intent": "slow push",
+      "visual_action": "the protagonist runs speech/movement drills until she drops to the floor beside the key or whistle",
+      "dialogue": "",
+      "sound_design": "breath, repetitive training rhythm, room tone, and sparse encouragement replace montage gloss",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: open on the scene image"
+    },
+    {
+      "shot_id": "S03_DS002",
+      "timecode": "30.71-49.31",
+      "duration_seconds": 18.6,
+      "scene_id": "S03",
+      "shot_size": "intimate closeup",
+      "camera_intent": "settle",
+      "visual_action": "the protagonist's expression shifts from shame toward controlled attention when the turn lands",
+      "dialogue": "",
+      "sound_design": "breath/room tone",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+    },
+    {
+      "shot_id": "S03_DS003",
+      "timecode": "49.31-67.91",
+      "duration_seconds": 18.6,
+      "scene_id": "S03",
+      "shot_size": "intimate closeup",
+      "camera_intent": "settle",
+      "visual_action": "the protagonist's expression shifts from shame toward controlled attention when the turn lands; alternate coverage: witness or micro-expression coverage rather than the same facial staging",
+      "dialogue": "",
+      "sound_design": "breath/room tone",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+    },
+    {
+      "shot_id": "S03_DS004",
+      "timecode": "67.91-92.31",
+      "duration_seconds": 24.4,
+      "scene_id": "S03",
+      "shot_size": "action wide",
+      "camera_intent": "lateral track",
+      "visual_action": "behavioral transformation cost and first self-authorship",
+      "dialogue": "",
+      "sound_design": "environmental action foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
+    },
+    {
+      "shot_id": "S03_DS005",
+      "timecode": "92.31-116.71",
+      "duration_seconds": 24.4,
+      "scene_id": "S03",
+      "shot_size": "action wide",
+      "camera_intent": "lateral track",
+      "visual_action": "behavioral transformation cost and first self-authorship; alternate coverage: movement/detail coverage of the objective",
+      "dialogue": "",
+      "sound_design": "environmental action foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
+    },
+    {
+      "shot_id": "S03_DS006",
+      "timecode": "116.71-145.40",
+      "duration_seconds": 28.69,
+      "scene_id": "S03",
+      "shot_size": "power two-shot",
+      "camera_intent": "slow tightening",
+      "visual_action": "the protagonist chooses change through training, craft, speech, movement, certification, or authorship rather than instant cosmetic reward",
+      "dialogue": "Choose again. One more try.",
+      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+    },
+    {
+      "shot_id": "S03_DS007",
+      "timecode": "145.40-174.09",
+      "duration_seconds": 28.69,
+      "scene_id": "S03",
+      "shot_size": "power two-shot",
+      "camera_intent": "slow tightening",
+      "visual_action": "the protagonist chooses change through training, craft, speech, movement, certification, or authorship rather than instant cosmetic reward; alternate coverage: pressure-detail coverage: hands, objects, crowd position, or institutional obstruction carries the conflict",
+      "dialogue": "",
+      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+    },
+    {
+      "shot_id": "S03_DS008",
+      "timecode": "174.09-190.17",
+      "duration_seconds": 16.08,
+      "scene_id": "S03",
+      "shot_size": "pressure insert",
+      "camera_intent": "macro",
+      "visual_action": "the protagonist chooses change through training, craft, speech, movement, certification, or authorship rather than instant cosmetic reward; alternate coverage: pressure-detail coverage: hands, objects, crowd position, or institutional obstruction carries the conflict",
+      "dialogue": "",
+      "sound_design": "object/room texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: insert pressure detail"
+    },
+    {
+      "shot_id": "S03_DS009",
+      "timecode": "190.17-206.25",
+      "duration_seconds": 16.08,
+      "scene_id": "S03",
+      "shot_size": "pressure insert",
+      "camera_intent": "macro",
+      "visual_action": "the protagonist chooses change through training, craft, speech, movement, certification, or authorship rather than instant cosmetic reward; alternate coverage: pressure-detail coverage: hands, objects, crowd position, or institutional obstruction carries the conflict",
+      "dialogue": "",
+      "sound_design": "object/room texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: insert pressure detail"
+    },
+    {
+      "shot_id": "S03_DS010",
+      "timecode": "206.25-226.36",
+      "duration_seconds": 20.11,
+      "scene_id": "S03",
+      "shot_size": "vertical composition",
+      "camera_intent": "high or low angle",
+      "visual_action": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+      "dialogue": "",
+      "sound_design": "negative space",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
+    },
+    {
+      "shot_id": "S03_DS011",
+      "timecode": "226.36-246.48",
+      "duration_seconds": 20.11,
+      "scene_id": "S03",
+      "shot_size": "vertical composition",
+      "camera_intent": "high or low angle",
+      "visual_action": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control; alternate coverage: alternate angle and detail coverage",
+      "dialogue": "",
+      "sound_design": "negative space",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
+    },
+    {
+      "shot_id": "S03_DS012",
+      "timecode": "246.48-273.40",
+      "duration_seconds": 26.92,
+      "scene_id": "S03",
+      "shot_size": "subtext two-shot",
+      "camera_intent": "slow lateral drift",
+      "visual_action": "Transformation is self-authorship only when behavior, practice, and consent carry it.",
+      "dialogue": "",
+      "sound_design": "music enters only when relational power changes; it must not paper over unresolved tension",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+    },
+    {
+      "shot_id": "S03_DS013",
+      "timecode": "273.40-300.32",
+      "duration_seconds": 26.92,
+      "scene_id": "S03",
+      "shot_size": "subtext two-shot",
+      "camera_intent": "slow lateral drift",
+      "visual_action": "Transformation is self-authorship only when behavior, practice, and consent carry it.; alternate coverage: alternate angle and detail coverage",
+      "dialogue": "",
+      "sound_design": "music enters only when relational power changes; it must not paper over unresolved tension",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+    },
+    {
+      "shot_id": "S03_DS014",
+      "timecode": "300.32-321.45",
+      "duration_seconds": 21.12,
+      "scene_id": "S03",
+      "shot_size": "decision closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "continue the costly transformation practice after failure because it serves self-authorship",
+      "dialogue": "I am not doing this for their mirror.",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+    },
+    {
+      "shot_id": "S03_DS015",
+      "timecode": "321.45-342.57",
+      "duration_seconds": 21.12,
+      "scene_id": "S03",
+      "shot_size": "decision closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "continue the costly transformation practice after failure because it serves self-authorship; alternate coverage: gesture/consequence-facing coverage of the same decision",
+      "dialogue": "",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+    },
+    {
+      "shot_id": "S03_DS016",
+      "timecode": "342.57-374.57",
+      "duration_seconds": 32.0,
+      "scene_id": "S03",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "the protagonist chooses change through training, craft, speech, movement, certification, or authorship rather than instant cosmetic reward",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+    },
+    {
+      "shot_id": "S03_DS017",
+      "timecode": "374.57-406.57",
+      "duration_seconds": 32.0,
+      "scene_id": "S03",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "the protagonist chooses change through training, craft, speech, movement, certification, or authorship rather than instant cosmetic reward; alternate coverage: reaction coverage: show witnesses, threshold position, and power shift instead of repeating the same crossing staging",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+    },
+    {
+      "shot_id": "S03_DS018",
+      "timecode": "406.57-430.21",
+      "duration_seconds": 23.65,
+      "scene_id": "S03",
+      "shot_size": "consequence wide",
+      "camera_intent": "backward track",
+      "visual_action": "visible consequence of continue the costly transformation practice after failure because it serves self-authorship",
+      "dialogue": "",
+      "sound_design": "consequence foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
+    },
+    {
+      "shot_id": "S03_DS019",
+      "timecode": "430.21-453.86",
+      "duration_seconds": 23.65,
+      "scene_id": "S03",
+      "shot_size": "consequence wide",
+      "camera_intent": "backward track",
+      "visual_action": "visible consequence of continue the costly transformation practice after failure because it serves self-authorship; alternate coverage: cost-detail coverage showing what materially changed",
+      "dialogue": "",
+      "sound_design": "consequence foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
+    },
+    {
+      "shot_id": "S03_DS020",
+      "timecode": "453.86-468.93",
+      "duration_seconds": 15.07,
+      "scene_id": "S03",
+      "shot_size": "sensory bridge",
+      "camera_intent": "insert or detail",
+      "visual_action": "she lifts the object, opens the practice-room door, and enters again after failure; alternate coverage: object-detail coverage before or after the wider relational-resolution framing",
+      "dialogue": "",
+      "sound_design": "object/motif texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition"
+    },
+    {
+      "shot_id": "S03_DS021",
+      "timecode": "468.93-484.00",
+      "duration_seconds": 15.07,
+      "scene_id": "S03",
+      "shot_size": "sensory bridge",
+      "camera_intent": "insert or detail",
+      "visual_action": "she lifts the object, opens the practice-room door, and enters again after failure; alternate coverage: object-detail coverage before or after the wider relational-resolution framing",
+      "dialogue": "",
+      "sound_design": "object/motif texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition"
+    },
+    {
+      "shot_id": "S03_DS022",
+      "timecode": "484.00-516.00",
+      "duration_seconds": 32.0,
+      "scene_id": "S03",
+      "shot_size": "final image",
+      "camera_intent": "slow pull-back",
+      "visual_action": "she lifts the object, opens the practice-room door, and enters again after failure",
+      "dialogue": "",
+      "sound_design": "a restrained tactile sound motif unresolved",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power"
+    }
+  ],
+  "validation_rules": [
+    "seed must be manually/directorially refined before production",
+    "no gaps or overlaps",
+    "sound and power transitions must remain explicit",
+    "shot pacing must remain intentionally varied"
+  ]
+}

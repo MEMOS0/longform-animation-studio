@@ -1,0 +1,77 @@
+{
+  "scene_id": "S03",
+  "time_range": "14.4-23 minutes",
+  "objective": "behavioral transformation cost and first self-authorship",
+  "conflict": "the protagonist chooses change through training, craft, speech, movement, certification, or authorship rather than instant cosmetic reward",
+  "power_position_start": "ashamed of practice failure",
+  "power_position_end": "disciplined author of transformation",
+  "turn": "the protagonist chooses change through training, craft, speech, movement, certification, or authorship rather than instant cosmetic reward",
+  "protagonist_decision": "continue the costly transformation practice after failure because it serves self-authorship",
+  "subtext": "Transformation is self-authorship only when behavior, practice, and consent carry it.",
+  "visual_action": {
+    "first_image": "the protagonist runs speech/movement drills until she drops to the floor beside the key or whistle",
+    "face_reaction": "the protagonist's expression shifts from shame toward controlled attention when the turn lands",
+    "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+    "final_image": "she lifts the object, opens the practice-room door, and enters again after failure"
+  },
+  "dialogue_design": {
+    "function": "make choices, objections, and proof implications audible rather than explaining theme",
+    "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "Choose again. One more try.",
+      "I am not doing this for their mirror."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "antagonist or social crowd",
+        "dramatic_job": "the protagonist chooses change through training, craft, speech, movement, certification, or authorship rather than instant cosmetic reward",
+        "writing_note": "pressure must be specific behavior, not generic cruelty"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "caregiver, worker, or vulnerable witness",
+        "dramatic_job": "the family/care network supports autonomy rather than controlling appearance",
+        "writing_note": "the objection should make the safe choice reasonable"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "protagonist",
+        "dramatic_job": "continue the costly transformation practice after failure because it serves self-authorship",
+        "writing_note": "the answer is a choice or refusal, not a theme statement"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "object, proof, or consequence",
+        "dramatic_job": "speech practice, movement training, authorship workshops, and repeated threshold-crossing rather than a cosmetic montage alone",
+        "writing_note": "the scene must leave a visible cost or proof implication"
+      }
+    ],
+    "spoken_exchange": [],
+    "scene_rhythm": "visual/social pressure first; dialogue names consent, recognition, or authorship only after blocking, objects, phones, thresholds, and protective behavior have made the psychology legible",
+    "rewrite_directives": [
+      "write the scene so the gaze geometry is understandable with sound off",
+      "make the protagonist answer image pressure through behavior, boundaries, work, or movement rather than speeches about confidence",
+      "use phones, mirrors, thresholds, cameras, water/stage machinery, and repeated public spaces as psychology carriers",
+      "do not use despair harm as a cheap transformation trigger",
+      "separate desire, gratitude, performance, and recognition in the romance turns"
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
+    "silence_or_negative_space": "breath, repetitive training rhythm, room tone, and sparse encouragement replace montage gloss",
+    "motif": "a restrained tactile sound motif"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on the immediate consequence of the previous turn: the family/care network supports autonomy rather than controlling appearance",
+    "exit_hook": "will the new self survive re-entry into the same public space?"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, capability, or relational obligation?",
+    "Is the object/space doing narrative work rather than decorative worldbuilding?",
+    "Is public or institutional pressure expressed through visible behavior rather than exposition?",
+    "Does the protagonist retain agency instead of being rescued into passivity?"
+  ]
+}

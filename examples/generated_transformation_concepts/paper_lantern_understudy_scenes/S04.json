@@ -1,0 +1,101 @@
+{
+  "scene_id": "S04",
+  "time_range": "23-32.4 minutes",
+  "objective": "gaze inversion and morally suspect attention",
+  "conflict": "the same crowd now admires the protagonist without recognizing the person it previously humiliated",
+  "power_position_start": "object of shallow attention",
+  "power_position_end": "skeptical observer of the crowd's reversal",
+  "turn": "the same crowd now admires the protagonist without recognizing the person it previously humiliated",
+  "protagonist_decision": "walk through the space upright without forgiving or trusting the crowd's shallow reversal",
+  "subtext": "The crowd's reversal is power, not recognition.",
+  "visual_action": {
+    "first_image": "students raise phones as the transformed protagonist crosses the public staircase or pool gallery",
+    "face_reaction": "the protagonist's expression shifts from fear of being seen toward controlled attention when the turn lands",
+    "vertical_composition": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+    "final_image": "she lowers her phone hand, holds the railing, and walks past without performing for the crowd"
+  },
+  "dialogue_design": {
+    "function": "make choices, objections, and proof implications audible rather than explaining theme",
+    "subtext_rule": "characters negotiate status, debt, permission, blame, and care; they rarely name the theme directly",
+    "max_exposition_sentences": 2,
+    "key_lines": [
+      "Don't trust their mirror. They only know what they want to see."
+    ],
+    "opposition_beats": [
+      {
+        "beat": "external_pressure",
+        "voice": "antagonist or social crowd",
+        "dramatic_job": "the same crowd now admires the protagonist without recognizing the person it previously humiliated",
+        "writing_note": "pressure must be specific behavior, not generic cruelty"
+      },
+      {
+        "beat": "witness_objection",
+        "voice": "caregiver, worker, or vulnerable witness",
+        "dramatic_job": "the love interest reacts differently because he already knows who she was before visibility",
+        "writing_note": "the objection should make the safe choice reasonable"
+      },
+      {
+        "beat": "protagonist_decision",
+        "voice": "protagonist",
+        "dramatic_job": "walk through the space upright without forgiving or trusting the crowd's shallow reversal",
+        "writing_note": "the answer is a choice or refusal, not a theme statement"
+      },
+      {
+        "beat": "evidence_or_cost",
+        "voice": "object, proof, or consequence",
+        "dramatic_job": "attention is not proof of worth; it is a reversal of social power",
+        "writing_note": "the scene must leave a visible cost or proof implication"
+      }
+    ],
+    "spoken_exchange": [
+      {
+        "beat": "witness_objection",
+        "speaker": "school witness",
+        "line": "Do you know who she is?",
+        "action": "phones and bodies turn toward the transformed entrance",
+        "subtext": "the crowd's desire is still ignorance",
+        "power_move": "image pressure answered through consent, authorship, protection, or recognition",
+        "listening_response": "the next behavior answers the concrete boundary rather than explaining confidence",
+        "delivery": "hushed, excited",
+        "status_shift": "the speaker converts spectatorship or arranged visibility into chosen agency",
+        "room_sound": "phones, crowd murmur, breath, threshold noise, camera/stage/pool machinery, and object texture remain audible beneath the line"
+      },
+      {
+        "beat": "protagonist_decision",
+        "speaker": "Mina",
+        "line": "They don't know me. They only know what they want to see.",
+        "action": "Mina keeps walking without smiling for the phones",
+        "subtext": "visibility does not equal recognition",
+        "power_move": "image pressure answered through consent, authorship, protection, or recognition",
+        "listening_response": "the next behavior answers the concrete boundary rather than explaining confidence",
+        "delivery": "controlled, private",
+        "status_shift": "the speaker converts spectatorship or arranged visibility into chosen agency",
+        "room_sound": "phones, crowd murmur, breath, threshold noise, camera/stage/pool machinery, and object texture remain audible beneath the line"
+      }
+    ],
+    "scene_rhythm": "visual/social pressure first; dialogue names consent, recognition, or authorship only after blocking, objects, phones, thresholds, and protective behavior have made the psychology legible",
+    "rewrite_directives": [
+      "write the scene so the gaze geometry is understandable with sound off",
+      "make the protagonist answer image pressure through behavior, boundaries, work, or movement rather than speeches about confidence",
+      "use phones, mirrors, thresholds, cameras, water/stage machinery, and repeated public spaces as psychology carriers",
+      "do not use despair harm as a cheap transformation trigger",
+      "separate desire, gratitude, performance, and recognition in the romance turns"
+    ]
+  },
+  "sound_design": {
+    "dialogue_priority": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+    "music_function": "music enters only when relational power changes; it must not paper over unresolved tension",
+    "silence_or_negative_space": "crowd murmur swells then drops into close footsteps/breath at the decisive threshold",
+    "motif": "a restrained tactile sound motif"
+  },
+  "edit_hook": {
+    "entry_hook": "enter on the immediate consequence of the previous turn: the love interest reacts differently because he already knows who she was before visibility",
+    "exit_hook": "if they knew who she was before, would they still look at her this way?"
+  },
+  "failure_checks": [
+    "Does the scene change power, trust, evidence, capability, or relational obligation?",
+    "Is the object/space doing narrative work rather than decorative worldbuilding?",
+    "Is public or institutional pressure expressed through visible behavior rather than exposition?",
+    "Does the protagonist retain agency instead of being rescued into passivity?"
+  ]
+}

@@ -23,6 +23,7 @@ from .relational_contract import evaluate_relational_contract
 from .spatial_status import evaluate_spatial_status
 from .closure_integrity import evaluate_closure_integrity
 from .compressed_survival_integrity import evaluate_compressed_survival_integrity
+from .transformation_romance_integrity import evaluate_transformation_romance_integrity
 from .visual_causality import evaluate_visual_causality
 from .hidden_identity_integrity import evaluate_hidden_identity_integrity
 from .scale_community_integrity import evaluate_scale_community_integrity
@@ -296,6 +297,7 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "hidden_identity_integrity": evaluate_hidden_identity_integrity(premise, architecture, scenes),
         "scale_community_integrity": evaluate_scale_community_integrity(premise, architecture, scenes),
         "compressed_survival_integrity": evaluate_compressed_survival_integrity(premise, architecture, scenes),
+        "transformation_romance_integrity": evaluate_transformation_romance_integrity(premise, architecture, scenes),
         "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes), "storyboards": len(boards)},
         "gates": gate_report(schema_errors, failure, scene_report, architecture_report, bool(architecture), bool(scenes), board_report),
     }

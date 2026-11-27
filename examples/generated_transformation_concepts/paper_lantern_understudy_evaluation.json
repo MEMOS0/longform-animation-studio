@@ -1,0 +1,177 @@
+{
+  "premise_id": "paper_lantern_understudy",
+  "failure_intelligence": {
+    "candidate": "They Filmed Her When She Hid — Now They Can't Look Away",
+    "risk_score_0_to_1": 0.467,
+    "confidence": "low_until_script_and_media-evidence comparison is complete",
+    "matched_failure_patterns": [],
+    "nearest_archive_examples": [
+      {
+        "video_id": "xJUN_KOCnME",
+        "title": "He Was Seconds Away From His 8th Championship… Until His Own Family Betrayed Him!",
+        "cohort": "underperforming",
+        "views_per_day": 492.9904761904762,
+        "themes": [
+          "family_child",
+          "modern_wealth_power"
+        ],
+        "similarity": 0.10956074392484626
+      },
+      {
+        "video_id": "j3U5JsLvbLg",
+        "title": "Her Family Sacrificed Her to the Ocean… Now She's the SEA GOD'S QUEEN They Can Never Touch!#AIStory",
+        "cohort": "outperforming",
+        "views_per_day": 17921.0,
+        "themes": [
+          "family_child",
+          "revenge_retribution",
+          "royalty_status",
+          "sea_mermaid"
+        ],
+        "similarity": 0.0582661591634372
+      },
+      {
+        "video_id": "_I5I1l7DP3E",
+        "title": "She Sold Weapons Through a Magic Mirror… Then Accidentally Stole the WOLF KING'S FIRST KISS!#AIStory",
+        "cohort": "middle",
+        "views_per_day": 912.5555555555555,
+        "themes": [
+          "romance_mate",
+          "royalty_status",
+          "sacred_special_blood",
+          "wolf_werewolf"
+        ],
+        "similarity": 0.05578560024792014
+      },
+      {
+        "video_id": "u9acebqxR-8",
+        "title": "They Called Her a Curse… Unaware She Had the Divine Power to Bring the Forest Back to Life!#AIStory",
+        "cohort": "unknown",
+        "views_per_day": null,
+        "themes": [
+          "rebirth_second_chance",
+          "sacred_special_blood"
+        ],
+        "similarity": 0.05367971886673591
+      },
+      {
+        "video_id": "pkYxdUwG-pg",
+        "title": "His Fiancée Betrayed Him After His Championship... So He Walked Away and Became Unstoppable!",
+        "cohort": "underperforming",
+        "views_per_day": 483.43220338983053,
+        "themes": [
+          "modern_wealth_power",
+          "romance_mate"
+        ],
+        "similarity": 0.05367971886673591
+      },
+      {
+        "video_id": "jW-gZtvP9Oo",
+        "title": "They Broke Their Promise and Chose Another Girl…Then Lost Everything When Her GENIUS Was Revealed!",
+        "cohort": "middle",
+        "views_per_day": 1281.1818181818182,
+        "themes": [
+          "revenge_retribution"
+        ],
+        "similarity": 0.0509250527329194
+      },
+      {
+        "video_id": "0ofXaXWcfi0",
+        "title": "His Family Tried to Kill Him… Until a MERMAID Saved Him and Changed His Fate Forever!#AIStory",
+        "cohort": "outperforming",
+        "views_per_day": 29355.25,
+        "themes": [
+          "family_child",
+          "sea_mermaid"
+        ],
+        "similarity": 0.04466422588304031
+      },
+      {
+        "video_id": "gNTsEqML20s",
+        "title": "Her Husband Betrayed Her for Being Fat… Now She's the EMPRESS He Can Never Have!#AIStory",
+        "cohort": "middle",
+        "views_per_day": 1990.7857142857142,
+        "themes": [
+          "revenge_retribution",
+          "romance_mate",
+          "royalty_status"
+        ],
+        "similarity": 0.042943775093388724
+      }
+    ],
+    "positive_missing_or_weak": [
+      "No strong hidden identity/secret hook detected; Nov Drama hits often use one, though this is not mandatory.",
+      "No child/heir/creature emotional anchor detected; this is currently one of the strongest archive-level positive signals.",
+      "No explicit status reversal detected in the surface promise.",
+      "No clear mythic creature lane detected; test whether the concept matches the channel audience's demand.",
+      "No early visual proof of the title/thumbnail promise detected; pay the premise in the opening movement rather than reserving it for the finale."
+    ],
+    "decision_guidance": [
+      "Proceed only after targeted revision; the concept has meaningful resemblance to underperforming patterns."
+    ],
+    "causal_boundary": "This is pattern-matching against public outcomes and extracted creative signals; it is not a causal predictor of CTR, retention, or audience response."
+  },
+  "format_strategy": {
+    "format_class": "long_feature",
+    "inferred_flags": {
+      "episodic": false,
+      "compilation": false,
+      "serialized": false,
+      "continuation_hook": false
+    },
+    "recommendations": [
+      "Provide early proof of the advertised fantasy, then escalate cost rather than repeating setup.",
+      "Track audience retention risk across long dialogue/low-motion valleys; insert visual or emotional turns without relying on noise.",
+      "The finale must answer the original wound with belonging, home, safety, chosen love, or transformed identity."
+    ],
+    "warnings": [],
+    "causal_boundary": "Duration/format guidance is observational and channel-dependent; it is not proof of retention or CTR causality."
+  },
+  "meaning_carrier": {
+    "mode": "explicit",
+    "object_or_space": "cracked brass backstage key",
+    "opening_meaning": "the key opens the lighting booth where Mina secretly writes and where her mother once hid during harassment",
+    "closing_reversal": "the same key opens the booth publicly so Mina can claim authorship and choose visibility on her own terms",
+    "final_sequence_use": "the object is used openly in the final authorship/rescue ritual inside the station-hall staircase where students gather, film, whisper, and later applaud",
+    "score_0_to_1": 0.75,
+    "warnings": [
+      "meaning carrier ending recurrence cannot be verified without architecture sequences"
+    ],
+    "craft_rule": "A physical object, space, sound-object, or ritual should carry the wound in the opening and return with changed meaning in the payoff."
+  },
+  "relational_contract": {
+    "score_0_to_1": 0.8,
+    "fields": {
+      "power_asymmetry": "legacy visibility/status power versus scholarship protagonist with no control over her public image",
+      "safety_or_kindness_before_power": "Aren remembers Mina's anonymous voice guiding a child performer through a blackout and values her courage before her appearance changes",
+      "costly_protagonist_action": "she protects a vulnerable person before protecting her appearance or reputation",
+      "consent_or_personhood_repair": "allies must return authorship and ask consent after trying to arrange her visibility for her",
+      "payoff_image": "the staircase that once turned her into a spectacle becomes the place where she speaks as author rather than object of attention"
+    },
+    "warnings": [
+      "safety/kindness before power is not temporally explicit"
+    ],
+    "craft_rule": "Power-asymmetric relationships are strongest when safety or costly kindness precedes power, and the ending repairs consent/personhood rather than rewarding coercion."
+  },
+  "spatial_status": {
+    "score_0_to_1": 0.51,
+    "opening_status_spaces": [
+      "mat"
+    ],
+    "ending_status_spaces": [],
+    "inversion_signals": [
+      "choose",
+      "open"
+    ],
+    "power_terms": [
+      "public"
+    ],
+    "vulnerable_terms": [],
+    "warnings": [
+      "opening does not establish a legible spatial status grammar (who is caged, seated, kneeling, serving, or excluded)",
+      "spatial grammar lacks a clear vulnerable/powered social relation",
+      "ending does not visibly return to or transform the status space"
+    ],
+    "doctrine": "Define who is physically forced below/outside/inside power, then make the ending transform that space into chosen access, sanctuary, or belonging. Inspired by floor/table and cage/sanctuary evidence."
+  }
+}

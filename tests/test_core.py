@@ -1106,3 +1106,41 @@ def test_compressed_survival_integrity_duplicate_scene_does_not_count_twice():
     assert result['unique_scene_count']==1
     assert result['checks']['complete_scene_coverage'] is False
     assert result['score_0_to_1'] < 0.2
+
+
+def test_transformation_romance_contract_generates_and_integrity_passes():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.transformation_romance_integrity import evaluate_transformation_romance_integrity
+    premise=generate_premises('transformation_romance',1,72)[0]
+    arch=generate_architecture(premise)
+    scenes=generate_scenes(premise,arch)
+    result=evaluate_transformation_romance_integrity(premise,arch,scenes)
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.9
+    assert 'second performance arena' in arch['midpoint_reversal']
+    assert scenes[5]['dialogue_design']['spoken_exchange'][0]['line']
+
+
+def test_transformation_romance_duplicate_scene_does_not_count_twice():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.transformation_romance_integrity import evaluate_transformation_romance_integrity
+    premise=generate_premises('transformation_romance',1,72)[0]
+    arch=generate_architecture(premise)
+    scenes=generate_scenes(premise,arch)
+    result=evaluate_transformation_romance_integrity(premise,arch,[scenes[0],dict(scenes[0])])
+    assert result['checks']['complete_scene_coverage'] is False
+    assert result['score_0_to_1'] < 0.2
+
+
+def test_transformation_visual_images_are_readable_by_causality_gate():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.visual_causality import evaluate_visual_causality
+    premise=generate_premises('transformation_romance',1,72)[0]
+    scenes=generate_scenes(premise,generate_architecture(premise))
+    assert evaluate_visual_causality(scenes)['warnings']==[]

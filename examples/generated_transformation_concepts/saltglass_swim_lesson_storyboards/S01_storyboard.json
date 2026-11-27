@@ -1,0 +1,453 @@
+{
+  "scene_id": "S01",
+  "duration_seconds": 432.0,
+  "coverage": "continuous_exact_format_director_seed",
+  "shots": [
+    {
+      "shot_id": "S01_DS001",
+      "timecode": "0.00-25.34",
+      "duration_seconds": 25.34,
+      "scene_id": "S01",
+      "shot_size": "wide establishing",
+      "camera_intent": "slow push",
+      "visual_action": "phones rise while the protagonist steps between a frightened performer and the crowd",
+      "dialogue": "",
+      "sound_design": "a polished future-performance sound fragment collapses into phone noise, crowd murmur, breath, and object texture",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: open on the scene image"
+    },
+    {
+      "shot_id": "S01_DS002",
+      "timecode": "25.34-40.54",
+      "duration_seconds": 15.2,
+      "scene_id": "S01",
+      "shot_size": "intimate closeup",
+      "camera_intent": "settle",
+      "visual_action": "the protagonist's expression shifts from mystery toward controlled attention when the turn lands",
+      "dialogue": "",
+      "sound_design": "breath/room tone",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+    },
+    {
+      "shot_id": "S01_DS003",
+      "timecode": "40.54-55.74",
+      "duration_seconds": 15.2,
+      "scene_id": "S01",
+      "shot_size": "intimate closeup",
+      "camera_intent": "settle",
+      "visual_action": "the protagonist's expression shifts from mystery toward controlled attention when the turn lands; alternate coverage: witness or micro-expression coverage rather than the same facial staging",
+      "dialogue": "",
+      "sound_design": "breath/room tone",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: read emotion before exposition"
+    },
+    {
+      "shot_id": "S01_DS004",
+      "timecode": "55.74-75.80",
+      "duration_seconds": 20.06,
+      "scene_id": "S01",
+      "shot_size": "action wide",
+      "camera_intent": "lateral track",
+      "visual_action": "future-pressure loop hook, public misreading, and protection-wound contract",
+      "dialogue": "",
+      "sound_design": "environmental action foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
+    },
+    {
+      "shot_id": "S01_DS005",
+      "timecode": "75.80-95.86",
+      "duration_seconds": 20.06,
+      "scene_id": "S01",
+      "shot_size": "action wide",
+      "camera_intent": "lateral track",
+      "visual_action": "future-pressure loop hook, public misreading, and protection-wound contract; alternate coverage: movement/detail coverage of the objective",
+      "dialogue": "",
+      "sound_design": "environmental action foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: objective as visible movement"
+    },
+    {
+      "shot_id": "S01_DS006",
+      "timecode": "95.86-119.51",
+      "duration_seconds": 23.65,
+      "scene_id": "S01",
+      "shot_size": "power two-shot",
+      "camera_intent": "slow tightening",
+      "visual_action": "a fragment of the future performance/casting pressure plays before the story cuts back to the original public humiliation",
+      "dialogue": "Stop filming her.",
+      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+    },
+    {
+      "shot_id": "S01_DS007",
+      "timecode": "119.51-143.16",
+      "duration_seconds": 23.65,
+      "scene_id": "S01",
+      "shot_size": "power two-shot",
+      "camera_intent": "slow tightening",
+      "visual_action": "a fragment of the future performance/casting pressure plays before the story cuts back to the original public humiliation; alternate coverage: pressure-detail coverage: hands, objects, crowd position, or institutional obstruction carries the conflict",
+      "dialogue": "",
+      "sound_design": "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: conflict through voices and positions"
+    },
+    {
+      "shot_id": "S01_DS008",
+      "timecode": "143.16-156.25",
+      "duration_seconds": 13.09,
+      "scene_id": "S01",
+      "shot_size": "pressure insert",
+      "camera_intent": "macro",
+      "visual_action": "a fragment of the future performance/casting pressure plays before the story cuts back to the original public humiliation; alternate coverage: pressure-detail coverage: hands, objects, crowd position, or institutional obstruction carries the conflict",
+      "dialogue": "",
+      "sound_design": "object/room texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: insert pressure detail"
+    },
+    {
+      "shot_id": "S01_DS009",
+      "timecode": "156.25-169.34",
+      "duration_seconds": 13.09,
+      "scene_id": "S01",
+      "shot_size": "pressure insert",
+      "camera_intent": "macro",
+      "visual_action": "a fragment of the future performance/casting pressure plays before the story cuts back to the original public humiliation; alternate coverage: pressure-detail coverage: hands, objects, crowd position, or institutional obstruction carries the conflict",
+      "dialogue": "",
+      "sound_design": "object/room texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: insert pressure detail"
+    },
+    {
+      "shot_id": "S01_DS010",
+      "timecode": "169.34-185.81",
+      "duration_seconds": 16.47,
+      "scene_id": "S01",
+      "shot_size": "vertical composition",
+      "camera_intent": "high or low angle",
+      "visual_action": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control",
+      "dialogue": "",
+      "sound_design": "negative space",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
+    },
+    {
+      "shot_id": "S01_DS011",
+      "timecode": "185.81-202.28",
+      "duration_seconds": 16.47,
+      "scene_id": "S01",
+      "shot_size": "vertical composition",
+      "camera_intent": "high or low angle",
+      "visual_action": "vulnerable or morally important figures remain visually legible while status power occupies height, threshold, or audience control; alternate coverage: alternate angle and detail coverage",
+      "dialogue": "",
+      "sound_design": "negative space",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: spatial power relationship"
+    },
+    {
+      "shot_id": "S01_DS012",
+      "timecode": "202.28-224.45",
+      "duration_seconds": 22.17,
+      "scene_id": "S01",
+      "shot_size": "subtext two-shot",
+      "camera_intent": "slow lateral drift",
+      "visual_action": "the witness pulls at a sleeve while phones rise",
+      "dialogue": "Everyone is filming. We should go.",
+      "sound_design": "music enters only when relational power changes; it must not paper over unresolved tension",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation; subtext: escape is reasonable because exposure has already become harm"
+    },
+    {
+      "shot_id": "S01_DS013",
+      "timecode": "224.45-246.62",
+      "duration_seconds": 22.17,
+      "scene_id": "S01",
+      "shot_size": "subtext two-shot",
+      "camera_intent": "slow lateral drift",
+      "visual_action": "Protection is meaningful only when it crosses the gaze boundary at cost.",
+      "dialogue": "",
+      "sound_design": "music enters only when relational power changes; it must not paper over unresolved tension",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: subtext not explanation"
+    },
+    {
+      "shot_id": "S01_DS014",
+      "timecode": "246.62-263.93",
+      "duration_seconds": 17.31,
+      "scene_id": "S01",
+      "shot_size": "decision closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "Noa steps between the vulnerable person and the phones",
+      "dialogue": "Don't film her.",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible; subtext: protection precedes self-protection"
+    },
+    {
+      "shot_id": "S01_DS015",
+      "timecode": "263.93-281.24",
+      "duration_seconds": 17.31,
+      "scene_id": "S01",
+      "shot_size": "decision closeup",
+      "camera_intent": "static intimate",
+      "visual_action": "protect a vulnerable person or preserve a small dignity boundary while the crowd misreads her",
+      "dialogue": "",
+      "sound_design": "music drops before decision",
+      "generation_lane": "mid",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: decision must be visible"
+    },
+    {
+      "shot_id": "S01_DS016",
+      "timecode": "281.24-309.54",
+      "duration_seconds": 28.29,
+      "scene_id": "S01",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "a fragment of the future performance/casting pressure plays before the story cuts back to the original public humiliation",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+    },
+    {
+      "shot_id": "S01_DS017",
+      "timecode": "309.54-337.83",
+      "duration_seconds": 28.29,
+      "scene_id": "S01",
+      "shot_size": "turn wide",
+      "camera_intent": "reframe",
+      "visual_action": "a fragment of the future performance/casting pressure plays before the story cuts back to the original public humiliation; alternate coverage: reaction coverage: show witnesses, threshold position, and power shift instead of repeating the same crossing staging",
+      "dialogue": "",
+      "sound_design": "sound motif shifts",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: power turn in space"
+    },
+    {
+      "shot_id": "S01_DS018",
+      "timecode": "337.83-357.26",
+      "duration_seconds": 19.43,
+      "scene_id": "S01",
+      "shot_size": "consequence wide",
+      "camera_intent": "backward track",
+      "visual_action": "visible consequence of protect a vulnerable person or preserve a small dignity boundary while the crowd misreads her",
+      "dialogue": "",
+      "sound_design": "consequence foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
+    },
+    {
+      "shot_id": "S01_DS019",
+      "timecode": "357.26-376.68",
+      "duration_seconds": 19.43,
+      "scene_id": "S01",
+      "shot_size": "consequence wide",
+      "camera_intent": "backward track",
+      "visual_action": "visible consequence of protect a vulnerable person or preserve a small dignity boundary while the crowd misreads her; alternate coverage: cost-detail coverage showing what materially changed",
+      "dialogue": "",
+      "sound_design": "consequence foley",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: cost becomes physical"
+    },
+    {
+      "shot_id": "S01_DS020",
+      "timecode": "376.68-388.93",
+      "duration_seconds": 12.25,
+      "scene_id": "S01",
+      "shot_size": "sensory bridge",
+      "camera_intent": "insert or detail",
+      "visual_action": "the protagonist lowers the performer's shaking hands and guides her through a side door; alternate coverage: object-detail coverage before or after the wider relational-resolution framing",
+      "dialogue": "",
+      "sound_design": "object/motif texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition"
+    },
+    {
+      "shot_id": "S01_DS021",
+      "timecode": "388.93-401.17",
+      "duration_seconds": 12.25,
+      "scene_id": "S01",
+      "shot_size": "sensory bridge",
+      "camera_intent": "insert or detail",
+      "visual_action": "the protagonist lowers the performer's shaking hands and guides her through a side door; alternate coverage: object-detail coverage before or after the wider relational-resolution framing",
+      "dialogue": "",
+      "sound_design": "object/motif texture",
+      "generation_lane": "draft",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: sensory transition"
+    },
+    {
+      "shot_id": "S01_DS022",
+      "timecode": "401.17-432.00",
+      "duration_seconds": 30.83,
+      "scene_id": "S01",
+      "shot_size": "final image",
+      "camera_intent": "slow pull-back",
+      "visual_action": "the protagonist lowers the performer's shaking hands and guides her through a side door",
+      "dialogue": "",
+      "sound_design": "a restrained tactile sound motif unresolved",
+      "generation_lane": "hero",
+      "continuity_dependencies": [
+        "protagonist_face_costume",
+        "location_geography",
+        "relationship_continuity",
+        "meaning_carrier_continuity",
+        "sound_motif_continuity"
+      ],
+      "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power"
+    }
+  ],
+  "validation_rules": [
+    "seed must be manually/directorially refined before production",
+    "no gaps or overlaps",
+    "sound and power transitions must remain explicit",
+    "shot pacing must remain intentionally varied"
+  ]
+}
