@@ -14,6 +14,9 @@ Completed:
 
 
 
+
+Rotation checkpoint — XL0 analysis started: `XL0d9SmAA1M` metadata/subtitles/media downloaded and analyzer outputs exist locally/uncommitted in `evidence/media/XL0d9SmAA1M/`; full media is `C:/Users/Administrator/evidence_tmp/media_queue/XL0d9SmAA1M.mp4`. Do not treat analysis as complete. Continue with contact-sheet/transcript synthesis and consent/power-asymmetry doctrine. Latest pushed code commit before checkpoint: `3fea9de`; tests 323 passed.
+
 Rotation checkpoint — latest pushed commit `b200b23 Add compressed wish creature family intelligence`; tests 318 passed. PR #7 contains Jasmine competence cascade + Fableheart compressed wish. PR review may restart; handle findings first after rotation, otherwise continue queue with `XL0d9SmAA1M` (DramaShine mafia/bestie's-dad consent/power-asymmetry stress test), then `dHdkaKb3_S8`.
 
 Addendum — Fableheart compressed wish complete: `83i28EMbqqk` full 15m audiovisual analysis/report/evidence is ready locally; new `compressed_wish_integrity` validator passes tests (318 total). Jasmine clean redownload verified final frames through 02:43:15 and report evidence boundary updated. Next queue item: `XL0d9SmAA1M`.
