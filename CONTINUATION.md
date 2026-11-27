@@ -828,3 +828,11 @@ Continue immediately with non-creature low-subscriber queue: `s-Zn2WhkkH8`, `wHW
 - Important duplicate guards: `iqCNxQ2_jSI`, `ULJ7-z1zm6M`, `9N6S6D_ioA0`, `icsZH4sDwTM`, `23iAlK2FVyA` are already represented; do not re-analyze as new. `q0G2kx8-3tE` and `ZyovwVVUiCs` are deprioritized because channels are not low-subscriber.
 - A partial duplicate analyzer run for `iqCNxQ2_jSI` had modified/deleted some committed contact sheets; those generated artifacts were restored from git rather than preserved.
 - Next work: handle any PR #5 review findings first; otherwise download/analyze `NDZc_6T4h6E` end-to-end with metadata/subtitle/media/contact-sheet evidence, then decide whether its deception/consent mechanics warrant a new validator or integration into existing romance-deception/hidden-identity gates.
+
+## 2026-11-27 rotate after PR6 review and Jasmine media download
+
+- PR #6 review job `pr-review-job-e606d3389420423db9042d3b637ddda4` was fixed/triaged/end-triaged. Latest PR #6 commit: `347072eb34c1f6388b2654ab1daa85a24c97a6e3`; tests reached 309 passed there. A newer review may be running; handle it first if findings arrive.
+- Active research branch: `devin/1795803830-jasmine-reborn-school-analysis`.
+- Next target media is already downloaded locally: `C:/Users/Administrator/evidence_tmp/AaLngUHEqVY.mp4`, 440,769,377 bytes, 240p, duration 9,804s (163m24s), with `data/raw/piped/AaLngUHEqVY.en.ttml` and `.piped.json` present. Download-scan metadata: 465,690 views.
+- Next steps: ffprobe/media-analysis with `studio.media_analysis.analyze_video`, inspect all contact sheets and transcript windows, download/inspect max-resolution thumbnail, remove `audio_16k.wav`, write deep-dive report, then decide whether extreme-length assassin/reborn school bullying requires a new validator or integration into existing revenge-autonomy/zero-to-hero/family-exit machinery.
+- Do not analyze from transcript alone. Verify whether the English subtitle track is aligned translation, dub transcript, or unreliable auto-subtitle before making dialogue-specific claims.
