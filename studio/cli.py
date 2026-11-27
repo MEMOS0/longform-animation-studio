@@ -19,6 +19,18 @@ from .storyboard_seed import write_seed_boards
 from .youtube_archive import collect
 
 
+def load_scene_inputs(path: Path) -> list[dict]:
+    files = sorted(path.glob("*.json")) if path.is_dir() else [path]
+    files = [file for file in files if file.exists()]
+    scenes: list[dict] = []
+    for file in files:
+        data = json.loads(file.read_text(encoding="utf-8"))
+        scenes.extend(data if isinstance(data, list) else [data])
+    if not scenes:
+        raise ValueError(f"no scene JSON found at {path}")
+    return scenes
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(prog="studio")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -121,7 +133,10 @@ def main() -> None:
         print(json.dumps({"output": str(Path(args.output_dir) / "production_manifest.json"), "shot_count": result["shot_count"], "scene_count": result["scene_count"]}, indent=2))
     elif args.command == "render-screenplay":
         premise = json.loads(Path(args.premise).read_text(encoding="utf-8"))
-        scenes = [json.loads(path.read_text(encoding="utf-8")) for path in sorted(Path(args.scenes).glob("*.json"))]
+        try:
+            scenes = load_scene_inputs(Path(args.scenes))
+        except ValueError as exc:
+            parser.error(str(exc))
         print(write_screenplay(premise, scenes, Path(args.output)))
     elif args.command == "seed-storyboards":
         result = write_seed_boards(Path(args.scenes), Path(args.output_dir))

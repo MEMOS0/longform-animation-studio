@@ -1004,3 +1004,15 @@ def test_screenplay_renderer_preserves_default_key_lines_without_spoken_exchange
     text=render_scene(scene)
     assert 'KEY DIALOGUE' in text
     assert 'I refuse to vanish.' in text
+
+
+def test_render_screenplay_scene_loader_accepts_file_and_rejects_empty_dir(tmp_path):
+    from studio.cli import load_scene_inputs
+    import json,pytest
+    scene_file=tmp_path/'one.json'
+    scene_file.write_text(json.dumps({'scene_id':'S01'}),encoding='utf8')
+    assert load_scene_inputs(scene_file)==[{'scene_id':'S01'}]
+    empty=tmp_path/'empty'
+    empty.mkdir()
+    with pytest.raises(ValueError):
+        load_scene_inputs(empty)
