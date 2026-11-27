@@ -25,7 +25,8 @@ def evaluate_cozy_disaster_shelter_integrity(premise: dict[str, Any], architectu
     disaster = bool(re.search(r"\b(?:typhoon|flood\w*|storm|blizzard|sandstorm|hurricane|wildfire|earthquake)\b", full))
     shelter = bool(re.search(r"\b(?:shelter|home|house|upstairs|fortress|cave|cottage|boat|cabin)\b", full))
     community = bool(re.search(r"\b(?:family|father|mother|grandmother|grandfather|child|son|daughter|village|community)\b", full))
-    survival = bool(re.search(r"\bsurviv\w*|\brising water\b|\bfood\b|\bwater\b|storm passes|\brescue\w*", full))
+    direct_rescue = re.search(r"rescue\w*\s+(?:the|a|her|his|their)?\s*(?:family|mother|father|child|son|daughter|girl|boy|villagers?|people|them|him|her)\b|(?:family|mother|father|child|son|daughter|girl|boy|villagers?|people|they|he|she)\b[^.!?]{0,60}\b(?:is|are|was|were|gets?|got)\s+rescued", full)
+    survival = bool(re.search(r"\bsurviv\w*|\brising water\b|\bfood\b|drinking water|water supply|\bration\w*|storm passes", full) or direct_rescue)
     if not (disaster and shelter and community and survival):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
@@ -37,7 +38,7 @@ def evaluate_cozy_disaster_shelter_integrity(premise: dict[str, Any], architectu
     else:
         ordered_units = []
     labor_pattern = re.compile(r"farm|harvest|cook|clean|repair|prepare|gather|chop|fetch|work(?:ing)? the fields|daily life")
-    disaster_pattern = re.compile(r"\b(?:typhoon|flood\w*|storm|blizzard|sandstorm|hurricane|wildfire|earthquake)\b")
+    disaster_pattern = re.compile(r"\b(?:typhoon|flood\w*|storm|blizzard|sandstorm|hurricane|wildfire|earthquake)\b|rising water|water (?:rushes?|floods?|enters?|comes?) (?:in|into|indoors)|floodwaters")
     if ordered_units:
         cursor = 0
         labor_positions = []
@@ -58,7 +59,7 @@ def evaluate_cozy_disaster_shelter_integrity(premise: dict[str, Any], architectu
         ordinary_before_disaster = bool(ordinary and (not opening_disaster or ordinary.start() < opening_disaster.start()))
 
     if ordered_units:
-        ending_text = _text(ordered_units[-1]).lower()
+        ending_text = _text(ordered_units[-2:]).lower()
     else:
         ending_text = full[-max(1, len(full) // 4):]
 
@@ -72,7 +73,7 @@ def evaluate_cozy_disaster_shelter_integrity(premise: dict[str, Any], architectu
         "sacrifice_object_has_prior_meaning": bool(re.search(r"precious .*tray|wooden boat|copper .*tray|copper pot|sacrific|heirloom|handmade| treasured", full)),
         "quiet_care_beats_interrupt_threat": bool(re.search(r"warm meal|dinner|blanket|lantern|shared food|cooking|comfort|sleeping|small kindness|quiet moments", full)),
         "children_or_animals_are_participants_not_only_burdens": bool(re.search(r"young son|child .*help|girl .*help|boy .*help|dog|shiba|donkey|feed|comfort(?:s|ed)?", full)),
-        "resolution_rebuilds_or_restores_connection": bool(re.search(r"new beginning|rebuild|repair|return home|reunion|helps? .* home|hopeful new", ending_text)),
+        "resolution_rebuilds_or_restores_connection": bool(re.search(r"new beginning|rebuild|repair|return home|reunion|helps? .* home|hopeful new|(?:after|following).{0,80}(?:storm|flood|sandstorm|blizzard).{0,80}(?:shared meal|warm meal|dinner)|(?:shared meal|warm meal|dinner).{0,80}(?:after the storm|storm passes|sunrise)", ending_text)),
         "cultural_setting_is_specific_not_decorative": bool(re.search(r"1960|japanese|faroe|sahara|desert|village|riverside|farming|wooden house|copper|thatched|mud house|turf-roof", full)),
     }
     labels = {

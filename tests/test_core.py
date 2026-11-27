@@ -4371,3 +4371,29 @@ def test_cozy_shelter_ordered_opening_ending_and_rescue_regressions():
 
     rescue_only={'logline':'A family trapped upstairs in a flood is rescued from their home.'}
     assert evaluate_cozy_disaster_shelter_integrity(rescue_only,{},[])['applies'] is True
+
+def test_cozy_shelter_epilogue_meal_event_order_and_keepsake_regressions():
+    from studio.cozy_disaster_shelter_integrity import evaluate_cozy_disaster_shelter_integrity
+    premise={'logline':'A family survives a storm in their wooden home with food.'}
+
+    quiet_epilogue={'sequences':[
+        {'summary':'They farm, cook, and prepare before the storm.'},
+        {'summary':'After the storm they rebuild the damaged wall together.'},
+        {'summary':'At dawn they sit quietly and look at the fields.'},
+    ]}
+    assert evaluate_cozy_disaster_shelter_integrity(premise,quiet_epilogue,[])['checks']['resolution_rebuilds_or_restores_connection'] is True
+
+    closing_meal={'sequences':[
+        {'summary':'They farm, cook, and prepare before the storm.'},
+        {'summary':'After the storm, the family shares a warm meal at sunrise.'},
+    ]}
+    assert evaluate_cozy_disaster_shelter_integrity(premise,closing_meal,[])['checks']['resolution_rebuilds_or_restores_connection'] is True
+
+    intrusion_first={'sequences':[
+        {'summary':'Water rushes indoors and the family retreats upstairs.'},
+        {'summary':'They cook in the shelter while waiting.'},
+    ]}
+    assert evaluate_cozy_disaster_shelter_integrity(premise,intrusion_first,[])['checks']['ordinary_labor_establishes_world_before_disaster'] is False
+
+    keepsake={'logline':'A daughter rescues letters from an empty storm-damaged home.'}
+    assert evaluate_cozy_disaster_shelter_integrity(keepsake,{},[])['applies'] is False
