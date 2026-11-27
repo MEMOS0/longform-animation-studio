@@ -121,3 +121,57 @@ This is a design-support heuristic, not a predictor. The correct validation path
 - Separate vertical mobile-native melodrama from landscape cinematic fantasy/sci-fi packaging.
 - Compare thumbnail changes over time when detectable; a thumbnail may have been updated after a video became successful.
 - Do not use stylized-art face detection as reliable evidence yet; the current Haar-based detector fails on these images and is intentionally not used as a conclusion.
+
+## Packaging/content divergence addendum from *Beyond the Night* (2026-11-27)
+
+Evidence source: `knowledge/market/frame-horizon-beyond-night-supernatural-investigation-deep-dive.md` and `data/raw/thumbnails/frame_horizon/V5VfY1lfN2c.maxresdefault.jpg`.
+
+The Frame Horizon thumbnail uses broad soldier/action imagery and “FULL MOVIE” text while the film's actual differentiating engine is supernatural child-witness investigation plus father-son protection. Treat this as a counterexample to rigid thumbnail-accuracy rules, not as proof that misleading packaging works. Record thumbnail/content divergence as a distinct packaging variable: broad genre iconography, accurate unique hook, vulnerability/protection pairing, and procedural mystery imagery should be separate concept families for future A/B testing. Never infer CTR causality without private test data.
+
+## Multi-contract transformation/legal-melodrama packaging addendum (2026-11-27)
+
+Evidence source: `knowledge/market/ananse-kukua-patronage-consent-transformation-deep-dive.md` and `data/raw/thumbnails/ananse_web_of_tales/Z0kns4pvIH4.maxresdefault.jpg`.
+
+The Kukua thumbnail compresses romance, imprisonment, wealth, and belief into one legible montage: glamorous central woman, suited partner, bruised prisoner, bars, mansion/car, and “THE GIRL HE BELIEVED IN.” It is more aligned with the actual film than the generic Frame Horizon action thumbnail, but it still omits much of the village/colorism/training origin. Treat this as a multi-contract packaging pattern: show the status inversion and relational promise first, then let title/description carry the transformation origin.
+
+## High-status/small-care thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/daily-drama-poppy-parentification-attachment-repair-deep-dive.md` and `data/raw/thumbnails/daily_drama_shorts/XM4OuWUlV_o.maxresdefault.jpg`.
+
+The Poppy thumbnail accurately compresses the film's mechanism: luxury staircase/home scale plus a father kneeling to fasten a small child's shoe while she offers food in a frog costume. This is a high-status/small-care pattern. It is stronger than generic wealth imagery because the emotional action is legible at mobile size: powerful person lowers himself physically to perform care.
+
+## Child-invoice/public-claim thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/dramavoxie-lulu-child-economic-claimant-deep-dive.md` and `data/raw/thumbnails/dramavoxie/R14QjIS7O50.maxresdefault.webp`.
+
+The Lulu thumbnail demonstrates a child-invoice/public-claim pattern: the child dominates center frame, a handmade “My Milk Money!” sign is mobile-legible, the CEO reaction supplies humiliation, and corporate luxury supplies scale. The prop compresses invisible care economics, public scandal, and family identity into one readable object. The mechanism is stronger than generic cute-child packaging because the child has a demand.
+
+## Transport-threshold abandonment thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/nightfall-ivy-economic-abandonment-repair-deep-dive.md` and `data/raw/thumbnails/nightfall_drama/26o_ccDnTSg.maxresdefault.webp`.
+
+The Nightfall thumbnail demonstrates transport-threshold abandonment: wedding dress, letter, suitcase/bouquet, station depth, clock/architecture, and the groom's departing back. The image accurately sells the wound while concealing the solution. This is useful when the retention engine is repair/process rather than more humiliation; packaging can be truthful without exposing every procedural payoff.
+
+## Class-crossing recognition thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/nightfall-luke-wrongful-accusation-restoration-deep-dive.md` and `data/raw/thumbnails/nightfall_drama/xhqE43r-faA.maxresdefault.webp`.
+
+The Luke thumbnail uses class-crossing recognition: wet sidewalk, coin cup, homeless clothing, tactile face touch, crying woman, and the powerful husband upright in the background. The emotional action crosses a status boundary instead of merely displaying wealth. Compared with Nightfall's train-station thumbnail, both sell the wound accurately while withholding the procedural repair chain.
+
+## Passive-rescue packaging vs active-revenge retention addendum (2026-11-27)
+
+Evidence source: `knowledge/market/many-drama-elena-twin-deception-revenge-autonomy-deep-dive.md` and `data/raw/thumbnails/many_drama/dEup8AVWYKg.maxresdefault.jpg`.
+
+The Elena thumbnail sells passive rescue: unconscious bride-like woman, wet boat, kneeling rescuer, rain, sea, wealth trays. The film's retention engine is active revenge: victim-chosen alias, object/evidence leverage, public-room reversal, procedural consequences, and autonomy-first ending. Do not infer story mechanism from thumbnail alone; compare packaging promise to actual agency structure. This is packaging-alignment evidence, not CTR proof.
+
+## Contemporary hidden-royalty composite addendum (2026-11-27)
+
+Evidence source: `knowledge/market/lioren-billionaire-scholarship-hidden-wealth-counterexample-deep-dive.md` and `data/raw/thumbnails/lioren_studios/hozDtPcnnBA.maxresdefault.jpg`.
+
+The Lioren thumbnail uses a contemporary hidden-royalty composite: hooded poor-student silhouette, separated luminous heroine, luxury car, elite university architecture, parents/antagonist collage, graduation cues, crown icon, and oversized gold `Billionaire Heir` typography. It sells the reveal fantasy directly rather than a specific wound. Useful mechanism: make class duplicity legible through clothing contrast plus institutional architecture; do not confuse this broad fantasy packaging with proof of story depth.
+
+## Object-centered whispering-relics thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/drama-aura-whispering-relics-object-testimony-provenance-deep-dive.md` and `data/raw/thumbnails/drama_aura/23iAlK2FVyA.maxresdefault.webp`.
+
+This thumbnail sells mechanism directly: protagonist centered with open hands while clocks, jewelry, papers, pearls, books, and relics orbit in golden magical trails. It avoids reducing the premise to romance/wealth and instead promises object memory. Useful original-design principle: when the hook is perception/authorship, let multiple meaningful objects create orbital visual rhythm around the protagonist rather than using a generic couple embrace.

@@ -79,8 +79,11 @@ def evaluate_scenes_dialogue(scenes: list[dict[str, Any]]) -> dict[str, Any]:
             if not isinstance(turn, dict):
                 exchange_warnings.append(f"spoken exchange turn {turn_no} is malformed")
                 continue
-            if not all(turn.get(key) for key in ("beat", "speaker", "line", "action")):
-                exchange_warnings.append(f"spoken exchange turn {turn_no} missing beat/speaker/line/action")
+            required_turn_fields = ("beat", "speaker", "line", "action")
+            malformed_turn = any(not isinstance(turn.get(key), str) or not turn.get(key, "").strip() for key in required_turn_fields)
+            if malformed_turn:
+                exchange_warnings.append(f"spoken exchange turn {turn_no} missing or malformed beat/speaker/line/action")
+                continue
             subtext = str(turn.get("subtext") or "").strip()
             if exchange and not subtext:
                 exchange_warnings.append(f"spoken exchange turn {turn_no} lacks psychological subtext")
@@ -91,6 +94,11 @@ def evaluate_scenes_dialogue(scenes: list[dict[str, Any]]) -> dict[str, Any]:
                 exchange_warnings.append(f"spoken exchange turn {turn_no} is too long for a power-turn line")
         if len(exchange) > 1 and len({turn.get("speaker") for turn in exchange if isinstance(turn, dict)}) < 2:
             exchange_warnings.append("spoken exchange lacks differentiated speakers")
+        by_beat = {turn.get("beat"): turn for turn in exchange if isinstance(turn, dict) and isinstance(turn.get("beat"), str)}
+        decision_turn = by_beat.get("protagonist_decision") or {}
+        evidence_turn = by_beat.get("evidence_or_cost") or {}
+        if decision_turn and evidence_turn and decision_turn.get("speaker") == evidence_turn.get("speaker"):
+            exchange_warnings.append("proof/cost should be confirmed by a witness, object, opponent, or environment rather than protagonist self-explanation")
         result["warnings"] = list(result["warnings"]) + exchange_warnings
         scene_rows.append({"scene_id": scene.get("scene_id"), "opposition_beat_count": len(beats), "spoken_exchange_turn_count": len(exchange), **{k: result[k] for k in ("line_count", "exposition_line_count", "power_action_line_count", "long_line_count", "warnings")}})
         if result["warnings"]:

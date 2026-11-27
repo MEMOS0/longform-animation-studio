@@ -137,6 +137,7 @@
     "inferred_flags": {
       "episodic": true,
       "compilation": false,
+      "compound_expansion": false,
       "serialized": true,
       "continuation_hook": true
     },
@@ -473,7 +474,7 @@
   },
   "production_economics": {
     "status": "documentation_estimate_not_quote",
-    "target_minutes": 42,
+    "target_minutes": 42.0,
     "generation_to_final_ratio": 8.0,
     "single_pass_scenarios": [
       {
@@ -6750,6 +6751,89 @@
       "proof_or_persuasion_stops_extraction": true,
       "sustained_repair_or_chosen_home": true
     }
+  },
+  "compressed_survival_integrity": {
+    "applies": false,
+    "score_0_to_1": 1.0,
+    "warnings": [],
+    "checks": {}
+  },
+  "transformation_romance_integrity": {
+    "applies": false,
+    "score_0_to_1": 1.0,
+    "warnings": [],
+    "checks": {}
+  },
+  "compound_expansion_readiness": {
+    "applicable": true,
+    "score_0_to_1": 1.0,
+    "warnings": [],
+    "scene_coverage_ratio": 1.0,
+    "packaging_boundary": "Compound expansion is packaging evidence, not proof that longer runtime caused stronger performance.",
+    "recommended_plan": {
+      "standalone_asset": "finish the emotional wound and show material/community consequence before any reuse",
+      "prequel_window_minutes": [
+        21.0,
+        39.9
+      ],
+      "prequel_material": "show the economic/world system before the opening wound, but end the inserted block on a handoff that makes the original opening more painful rather than redundant",
+      "reuse_rule": "preserve the original care-before-power chain; do not re-edit the reused film so spectacle appears before the first care act",
+      "tail_rule": "after reused footage, add only a short epilogue if it clarifies home/nest/community consequence; do not append a sequel tease that displaces closure"
+    }
+  },
+  "creature_pacing_integrity": {
+    "applicable": true,
+    "score_0_to_1": 1.0,
+    "warnings": [],
+    "scene_coverage_ratio": 1.0,
+    "strengths": [
+      "final scene plans quiet contact/recognition/negative-space resolution",
+      "opening grounds creature spectacle in care/vulnerability or material stakes",
+      "spectacle is followed by a resolution movement"
+    ],
+    "craft_rule": "Creature fantasy may use slow composed shots; the required rhythm is care/material stakes -> staged spectacle -> quiet contact/recognition/home resolution, not uniformly fast cutting."
+  },
+  "romance_deception_integrity": {
+    "applies": false,
+    "score_0_to_1": 1.0,
+    "warnings": [],
+    "checks": {}
+  },
+  "zero_to_hero_integrity": {
+    "applies": false,
+    "score_0_to_1": 1.0,
+    "warnings": [],
+    "checks": {}
+  },
+  "prohibition_scifi_integrity": {
+    "applies": false,
+    "score_0_to_1": 1.0,
+    "warnings": [],
+    "checks": {}
+  },
+  "family_exit_integrity": {
+    "applies": false,
+    "score_0_to_1": 1.0,
+    "warnings": [],
+    "checks": {}
+  },
+  "animal_guise_consent": {
+    "applies": false,
+    "score_0_to_1": 1.0,
+    "warnings": [],
+    "checks": {}
+  },
+  "creature_power_inversion": {
+    "applies": false,
+    "score_0_to_1": 1.0,
+    "warnings": [],
+    "checks": {}
+  },
+  "found_family_guardian_integrity": {
+    "applies": false,
+    "score_0_to_1": 1.0,
+    "warnings": [],
+    "checks": {}
   },
   "artifact_presence": {
     "architecture": true,

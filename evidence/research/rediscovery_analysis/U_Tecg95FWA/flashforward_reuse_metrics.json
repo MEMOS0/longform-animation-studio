@@ -1,0 +1,7 @@
+{
+  "comparison": "00:08 vs 136:59 villain reaction shot",
+  "note": "Mean absolute pixel difference on upper 300px after resize, excluding subtitle band. Low values indicate visually near-identical reused/looped footage rather than merely similar coverage.",
+  "mean_abs_diff_rgb": [3.7281666666666666, 3.33371875, 3.407640625],
+  "rms_rgb": [9.471386184186558, 8.719288364501619, 8.309548034740919],
+  "interpretation": "The ending appears to catch up to the opening flashforward and stops on the same villain question, creating a circular serial cliffhanger. This is packaging evidence, not proof that unresolved endings are safe for standalone films."
+}

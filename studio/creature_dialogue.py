@@ -77,7 +77,7 @@ def creature_dialogue_materials(ctx: dict[str, Any], index: int) -> dict[str, An
             (caregiver, "This roof feeds workers. Miracles don't pay for bread.", "shelter is offered as labor rather than charity"),
             (caregiver, "Price her pain, and you eat somewhere else.", "the caregiver names the safe boundary before help becomes control"),
             (protagonist, f"Then I'll work the {shelter_work}. Her pain isn't rent.", "the protagonist accepts work while refusing monetized suffering"),
-            (protagonist, f"The {object_term} opens the {system} seam. It doesn't make her mine.", f"the {object_term} is set beside the creature rather than used as a claim"),
+            (caregiver, f"The {object_term} opens the {system} seam. It doesn't make her yours.", f"the {object_term} is set beside the creature rather than used as a claim"),
         ],
         [
             (authority, pain_offer, "the offer converts creature pain into economic rescue"),
@@ -89,25 +89,25 @@ def creature_dialogue_materials(ctx: dict[str, Any], index: int) -> dict[str, An
             (authority, license_demand, "competence is reframed as illegality"),
             ("customer witness", f"{protagonist}'s patch held through the morning rush. I watched it.", "one practical witness breaks the crowd's certainty"),
             (protagonist, "Test the work before you invent a thief.", f"{protagonist} keeps working instead of pleading"),
-            (protagonist, proof_line, f"the first {evidence} trace is exposed"),
+            ("customer witness", proof_line, f"the first {evidence} trace is exposed"),
         ],
         [
             (authority, theft_accusation, "public accusation turns the creature into evidence"),
             (caregiver, f"Give them the {child_term}; perhaps they'll leave the {system} standing.", f"{caregiver} offers the safer betrayal"),
             (protagonist, "I opened your cage. That isn't theft.", f"{protagonist} shields the creature before defending reputation"),
-            (protagonist, f"The {object_term} is past the gate. Your ledger can't swallow it now.", f"the {object_term} passes out of institutional control"),
+            ("customer witness", f"The {object_term} is past the gate. Your ledger can't swallow it now.", f"the {object_term} passes out of institutional control"),
         ],
         [
             (caregiver, "Give me the proof. I run faster than you.", "help threatens to become takeover"),
             ("care network witness", "Fast hands can bury proof as easily as carry it.", "the witness makes the cost of surrendering authorship concrete"),
             (protagonist, "Then run beside me. Don't take it from my hands.", "the protagonist accepts help while keeping control of the proof"),
-            (protagonist, f"{proof_marks} marks, {gate_times}, witnesses—line them up.", "the proof chain becomes a physical arrangement"),
+            ("care network witness", f"{proof_marks} marks, {gate_times}, witnesses—line them up.", "the proof chain becomes a physical arrangement"),
         ],
         [
             (authority, rescue_offer, "institutional rescue is offered before restitution"),
             (caregiver, "She won't step forward while your papers own the room.", "the creature remains outside reach until consent is possible"),
             (protagonist, open_first, "the protagonist refuses the shortcut public win"),
-            (protagonist, "Door first. If she comes uncaged, they can see why.", f"{creature} is allowed to move forward by choice"),
+            (caregiver, "Door first. If she comes uncaged, they can see why.", f"{creature} is allowed to move forward by choice"),
         ],
         [
             (authority, revenge_temptation, "the ending is tempted toward revenge"),
@@ -199,6 +199,34 @@ def creature_dialogue_materials(ctx: dict[str, Any], index: int) -> dict[str, An
             "room_sound": "object resonance, creature response, and negative space carry the reversal",
         },
     }
+    voice_profiles = {
+        "authority": {
+            "voice_signature": "procedural extraction: licenses, ledgers, prices, permissions, deadlines, public order; power sounds impersonal rather than emotional",
+            "withheld_need": "preserve control over the resource and prevent the protagonist's competence from exposing dependence on her",
+        },
+        "caregiver": {
+            "voice_signature": "practical sensory risk: hands, timing, food, shelter, fear, bodily consequence; help sounds concrete rather than inspirational",
+            "withheld_need": "protect the vulnerable without letting charity or shelter become ownership/control",
+        },
+        "protagonist": {
+            "voice_signature": "short embodied refusal or acceptance of cost: what she will do with her hands now, not abstract courage",
+            "withheld_need": "survive without becoming complicit in the ownership system that victimized her",
+        },
+        "witness": {
+            "voice_signature": "observed evidence: what was seen, measured, timed, or personally verified; no thematic explanation",
+            "withheld_need": "tell the truth while minimizing retaliation or public exposure",
+        },
+    }
+
+    def voice_profile(speaker_name: str) -> dict[str, str]:
+        if speaker_name == authority:
+            return voice_profiles["authority"]
+        if speaker_name == protagonist:
+            return voice_profiles["protagonist"]
+        if "witness" in speaker_name:
+            return voice_profiles["witness"]
+        return voice_profiles["caregiver"]
+
     enriched_exchange = []
     for beat, (speaker, line, action), subtext in zip(beat_names, exchanges, subtexts):
         craft = dict(craft_by_beat[beat])
@@ -224,6 +252,7 @@ def creature_dialogue_materials(ctx: dict[str, Any], index: int) -> dict[str, An
             "line": line,
             "action": action,
             "subtext": subtext,
+            **voice_profile(speaker),
             **craft,
         })
     return {

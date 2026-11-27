@@ -1,0 +1,17 @@
+{
+  "duration_seconds": 8224.136,
+  "sample_rate": 16000,
+  "overall_mean_rms": 0.1031,
+  "overall_mean_near_silence_fraction": 0.174,
+  "opening_minute_rms": [0.1707, 0.2227, 0.2174],
+  "quiet_valley_minutes": [13, 105, 108, 110, 114, 115],
+  "final_minute_rms": {
+    "132": 0.1284,
+    "133": 0.1344,
+    "134": 0.1252,
+    "135": 0.1146,
+    "136": 0.1546,
+    "137_partial": 0.1547
+  },
+  "interpretation": "Waveform loudness supports alternating loud spectacle/rule-conflict spikes with quieter social/emotional valleys; it is not a direct retention measurement."
+}

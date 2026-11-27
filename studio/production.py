@@ -10,7 +10,7 @@ from typing import Any
 from jsonschema import Draft202012Validator
 
 from .failure_intelligence import evaluate_candidate
-from .format_strategy import format_strategy
+from .format_strategy import format_strategy, premise_text_for_format_inference
 from .channel_contracts import evaluate_channel_fit
 from .production_economics import estimate_video_budget
 from .shot_pipeline import build_shot_plan
@@ -24,6 +24,26 @@ from .spatial_status import evaluate_spatial_status
 from .closure_integrity import evaluate_closure_integrity
 from .compressed_survival_integrity import evaluate_compressed_survival_integrity
 from .transformation_romance_integrity import evaluate_transformation_romance_integrity
+from .compound_expansion import evaluate_compound_expansion_readiness
+from .creature_pacing import evaluate_creature_pacing
+from .romance_deception_integrity import evaluate_romance_deception_integrity
+from .zero_to_hero_integrity import evaluate_zero_to_hero_integrity
+from .prohibition_scifi_integrity import evaluate_prohibition_scifi_integrity
+from .family_exit_integrity import evaluate_family_exit_integrity
+from .animal_guise_consent import evaluate_animal_guise_consent
+from .creature_power_inversion import evaluate_creature_power_inversion
+from .found_family_guardian_integrity import evaluate_found_family_guardian_integrity
+from .child_power_obsolescence import evaluate_child_power_obsolescence
+from .epic_creature_extraction import evaluate_epic_creature_extraction
+from .supernatural_child_witness import evaluate_supernatural_child_witness
+from .patronage_consent_integrity import evaluate_patronage_consent_integrity
+from .attachment_repair_integrity import evaluate_attachment_repair_integrity
+from .coerced_rechoice_integrity import evaluate_coerced_rechoice_integrity
+from .child_economic_claimant_integrity import evaluate_child_economic_claimant_integrity
+from .economic_abandonment_integrity import evaluate_economic_abandonment_integrity
+from .wrongful_accusation_integrity import evaluate_wrongful_accusation_integrity
+from .revenge_autonomy_integrity import evaluate_revenge_autonomy_integrity
+from .object_testimony_integrity import evaluate_object_testimony_integrity
 from .visual_causality import evaluate_visual_causality
 from .hidden_identity_integrity import evaluate_hidden_identity_integrity
 from .scale_community_integrity import evaluate_scale_community_integrity
@@ -278,7 +298,7 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "failure_intelligence": failure,
         "scene_quality": scene_report,
         "architecture_quality": architecture_report,
-        "format_strategy": format_strategy(premise.get("target_minutes"), combined, premise.get("release_format", "")),
+        "format_strategy": format_strategy(premise.get("target_minutes"), "\n".join([premise_text_for_format_inference(premise), flatten_text(architecture), flatten_text(scenes)]), premise.get("release_format", "")),
         "opening_conversion_quality": opening_conversion_quality(premise),
         "title_packaging": {"existing_title_critiques": [{"title": title, "critique": critique_title(title, premise)} for title in premise.get("title_candidates", [])], "generated_alternatives": generate_title_candidates(premise)},
         "thumbnail_concepts": [{"concept": concept, "critique": critique_concept(concept)} for concept in generate_concepts(premise)],
@@ -298,6 +318,26 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "scale_community_integrity": evaluate_scale_community_integrity(premise, architecture, scenes),
         "compressed_survival_integrity": evaluate_compressed_survival_integrity(premise, architecture, scenes),
         "transformation_romance_integrity": evaluate_transformation_romance_integrity(premise, architecture, scenes),
+        "compound_expansion_readiness": evaluate_compound_expansion_readiness(premise, architecture, scenes),
+        "creature_pacing_integrity": evaluate_creature_pacing(premise, architecture, scenes),
+        "romance_deception_integrity": evaluate_romance_deception_integrity(premise, architecture, scenes),
+        "zero_to_hero_integrity": evaluate_zero_to_hero_integrity(premise, architecture, scenes),
+        "prohibition_scifi_integrity": evaluate_prohibition_scifi_integrity(premise, architecture, scenes),
+        "family_exit_integrity": evaluate_family_exit_integrity(premise, architecture, scenes),
+        "animal_guise_consent": evaluate_animal_guise_consent(premise, architecture, scenes),
+        "creature_power_inversion": evaluate_creature_power_inversion(premise, architecture, scenes),
+        "found_family_guardian_integrity": evaluate_found_family_guardian_integrity(premise, architecture, scenes),
+        "child_power_obsolescence": evaluate_child_power_obsolescence(premise, architecture, scenes),
+        "epic_creature_extraction": evaluate_epic_creature_extraction(premise, architecture, scenes),
+        "supernatural_child_witness": evaluate_supernatural_child_witness(premise, architecture, scenes),
+        "patronage_consent_integrity": evaluate_patronage_consent_integrity(premise, architecture, scenes),
+        "attachment_repair_integrity": evaluate_attachment_repair_integrity(premise, architecture, scenes),
+        "coerced_rechoice_integrity": evaluate_coerced_rechoice_integrity(premise, architecture, scenes),
+        "child_economic_claimant_integrity": evaluate_child_economic_claimant_integrity(premise, architecture, scenes),
+        "economic_abandonment_integrity": evaluate_economic_abandonment_integrity(premise, architecture, scenes),
+        "wrongful_accusation_integrity": evaluate_wrongful_accusation_integrity(premise, architecture, scenes),
+        "revenge_autonomy_integrity": evaluate_revenge_autonomy_integrity(premise, architecture, scenes),
+        "object_testimony_integrity": evaluate_object_testimony_integrity(premise, architecture, scenes),
         "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes), "storyboards": len(boards)},
         "gates": gate_report(schema_errors, failure, scene_report, architecture_report, bool(architecture), bool(scenes), board_report),
     }

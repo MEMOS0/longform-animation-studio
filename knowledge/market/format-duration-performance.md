@@ -134,3 +134,8 @@ Duration implication: do not compare an 18-minute creature-survival film and a 7
 ## 2026-11-27 compound-serial correction from WUFO
 
 Exact subtitle and frame comparison shows that WUFO's approximately 47-minute hit `9N6S6D_ioA0` appears to reuse most or all of the earlier 24:32 `F-RnV2OicIU` film after roughly 22:15 of preceding material. Treat the hit as compound/serial packaging evidence, not as clean evidence that a naturally conceived 47-minute creature film outperforms a 24-minute film. This strengthens the compilation/complete-season doctrine: compressed creature films can be designed as complete standalone arcs and later expanded with prequel/continuation material, but duration causality must not be inferred from the compound asset.
+
+
+## 2026-11-27 vertical dialogue-rich romance correction from QueenFlix
+
+QueenFlix `G97N92SR1qQ` shows that 60-90 minute vertical hidden-identity romance can sustain long composed shots when dialogue/subtitle density is high, faces remain legible, and concrete economic/professional props keep scenes causal. This is a different pacing machine from compressed creature fantasy: sparse dialogue and atmospheric negative space are not universal requirements. Long runtime is justified here because the hidden-identity reveal becomes a second restitution/consent/professional-competence engine rather than a final twist.

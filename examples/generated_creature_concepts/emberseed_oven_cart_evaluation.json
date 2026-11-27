@@ -15,7 +15,7 @@
           "dragon",
           "family_child"
         ],
-        "similarity": 0.08330120172105986
+        "similarity": 0.08333333333333333
       },
       {
         "video_id": "j3U5JsLvbLg",
@@ -28,7 +28,7 @@
           "royalty_status",
           "sea_mermaid"
         ],
-        "similarity": 0.07534877200758083
+        "similarity": 0.07537783614444091
       },
       {
         "video_id": "_I5I1l7DP3E",
@@ -41,7 +41,7 @@
           "sacred_special_blood",
           "wolf_werewolf"
         ],
-        "similarity": 0.06412529498329764
+        "similarity": 0.06415002990995843
       },
       {
         "video_id": "KsxgWoFS50I",
@@ -52,7 +52,7 @@
           "revenge_retribution",
           "royalty_status"
         ],
-        "similarity": 0.05553413448070657
+        "similarity": 0.05555555555555555
       },
       {
         "video_id": "gNTsEqML20s",
@@ -64,7 +64,7 @@
           "romance_mate",
           "royalty_status"
         ],
-        "similarity": 0.05553413448070657
+        "similarity": 0.05555555555555555
       },
       {
         "video_id": "UDjV1_6TgFs",
@@ -76,7 +76,7 @@
           "royalty_status",
           "sacred_special_blood"
         ],
-        "similarity": 0.052684305853537464
+        "similarity": 0.05270462766947299
       },
       {
         "video_id": "si1q6wv6aMI",
@@ -89,7 +89,7 @@
           "sacred_special_blood",
           "vampire"
         ],
-        "similarity": 0.052684305853537464
+        "similarity": 0.05270462766947299
       },
       {
         "video_id": "xJUN_KOCnME",
@@ -100,7 +100,7 @@
           "family_child",
           "modern_wealth_power"
         ],
-        "similarity": 0.05247482468255953
+        "similarity": 0.052495065695726005
       }
     ],
     "positive_missing_or_weak": [
@@ -119,6 +119,7 @@
     "inferred_flags": {
       "episodic": true,
       "compilation": false,
+      "compound_expansion": false,
       "serialized": true,
       "continuation_hook": true
     },

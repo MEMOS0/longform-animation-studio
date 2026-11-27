@@ -1,0 +1,62 @@
+"""Coerced-origin hidden-identity free re-choice integrity checks."""
+from __future__ import annotations
+
+import re
+from typing import Any
+
+
+def _text(value: Any) -> str:
+    if isinstance(value, str):
+        return value
+    if isinstance(value, dict):
+        return "\n".join(_text(v) for v in value.values())
+    if isinstance(value, list):
+        return "\n".join(_text(v) for v in value)
+    return ""
+
+
+def evaluate_coerced_rechoice_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
+    premise_text = _text(premise).lower()
+    architecture_text = _text(architecture).lower()
+    scenes_text = _text(scenes).lower()
+    full = "\n".join([premise_text, architecture_text, scenes_text])
+    ending_source = "\n".join([architecture_text, scenes_text])
+    ending = ending_source[-max(1, len(ending_source) // 3):] if ending_source else ""
+
+    marriage = bool(re.search(r"marry|marriage|husband|wife|bride|wedding", full))
+    coercion = bool(re.search(r"forced|coerce|blackmail|in exchange|leverage|threat|took .*children|missing (?:twins|children)|no choice", full))
+    hidden_status = bool(re.search(r"hidden identity|secretly rich|billionaire|trillionaire|ceo|poor single dad|disguise|scar|driver|hiding who", full))
+    applies = marriage and coercion and hidden_status
+    if not applies:
+        return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
+
+    checks = {
+        "coercion_has_concrete_leverage": bool(re.search(r"missing (?:twins|children)|children.*force|in exchange|blackmail|leverage|threat|tuition|debt|custody", full)),
+        "disguise_has_survival_or_trauma_function": bool(re.search(r"scar|assault|protect|afraid|test|trust|hide|hiding|survive|safety", full)),
+        "attachment_forms_before_status_reveal": bool(re.search(r"before (?:he|she) knows|doesn.?t know|unaware|ordinary|poor|broke|package deal|partnership|children|twins|bedtime|work", full)),
+        "procedural_evidence_and_accountability": bool(re.search(r"evidence|footage|complaint|attorney|lawyer|police|investigation|records?|test|verification|arrest|court|clinic", full)),
+        "money_is_not_accepted_as_substitute_repair": bool(re.search(r"money was never the wound|not signing away|property|assets|fortune|wealth.*not|can.?t buy|not a bribe", full)),
+        "anger_or_coercion_is_not_erased": bool(re.search(r"anger|coercion|forced|lie was|betrayal|not forgive|trust wound|no more lies", full)),
+        "agency_or_control_is_restored": bool(re.search(r"marital assets|control|choice|choose|decide|decision|consent|without consent|sign|contract|documents?", full)),
+        "explicit_truth_before_final_choice": bool(re.search(r"tell me the truth|deserve the truth|no more lies|no more hiding|truth", full)),
+        "final_choice_is_partnership_not_rescue": bool(re.search(r"partner, not (?:my )?rescuer|choose you|freely choose|may i|ask|no force|not my rescuer|rechoice|when you are ready", ending)),
+    }
+    labels = {
+        "coercion_has_concrete_leverage": "coerced relationship lacks concrete leverage such as children, debt, tuition, custody, blackmail, or threat",
+        "disguise_has_survival_or_trauma_function": "hidden-identity disguise has no survival, trust-testing, trauma, or safety function beyond author convenience",
+        "attachment_forms_before_status_reveal": "relationship does not form around ordinary care/partnership before wealth or status revelation",
+        "procedural_evidence_and_accountability": "truth and consequences are asserted without evidence, investigation, records, legal procedure, or accountability",
+        "money_is_not_accepted_as_substitute_repair": "money/property risks becoming a substitute apology rather than one component of restored agency",
+        "anger_or_coercion_is_not_erased": "the story erases anger or the original coercion once romance/wealth is revealed",
+        "agency_or_control_is_restored": "the coerced partner does not regain meaningful choice, control, documents, assets, or decision rights",
+        "explicit_truth_before_final_choice": "final romantic choice occurs without explicit truth and no-more-lies conditions",
+        "final_choice_is_partnership_not_rescue": "ending does not convert the coerced relationship into an explicit free partnership/re-choice",
+    }
+    warnings = [label for key, label in labels.items() if not checks[key]]
+    return {
+        "applies": True,
+        "score_0_to_1": round(sum(checks.values()) / len(checks), 3),
+        "warnings": warnings,
+        "checks": checks,
+        "craft_rule": "Coerced hidden-identity romance becomes durable when the original coercion remains a wound, truth is procedurally proven, money does not erase anger, agency/control is restored, and the ending is a free partnership re-choice rather than rescue absorption.",
+    }

@@ -424,3 +424,83 @@ Hidden-identity romance/status stories should follow the Lioren breakout pattern
 
 A plot sequel hook is allowed only after the promised relational recognition/home/belonging payoff lands. If the story destroys exploitative infrastructure that supplied water, food, power, safety, or transport, the ending must show community survival, replacement, rationing, rebuilding, or another concrete consequence. Use the Spark `wd53-C7Na0Y` counterexample: strong hooks and polish can still underperform when mythic density, packaging mismatch, or unresolved aftermath obscures the final human answer.
 
+
+## 2026-11-27 epic creature-extraction doctrine update
+
+Before greenlighting epic dark-fantasy creature/extraction stories, read `knowledge/market/veylorn-lost-kind-epic-dark-fantasy-deep-dive.md`. The portable mechanism is not generic epic scale. It is scale that remains tied to operational care: creature society must feed/shelter/teach/heal; extraction must have material incentives; power use must expose or endanger; middle sections should use procedural access/evidence; rescue must leave trauma; source destruction must carry moral/infrastructural cost; and the ending must show communal consequence plus peace maintenance before any sequel hook.
+
+Use the `epic_creature_extraction` project-evaluation gate as a warning system, not as a hit predictor. Do not copy THE LOST KIND's plot, creatures, dialogue, or images; extract the mechanism and build original worlds.
+
+## 2026-11-27 royal mutual hidden-identity doctrine update
+
+Before greenlighting royal hidden-identity romance, read `knowledge/market/sceptertv-golden-rose-royal-hidden-identity-deep-dive.md`. The portable mechanism is not royalty itself. It is mutual or ethically bounded concealment + ordinary kindness before status + ritual/law forcing material consequences + trust wound after lying + procedural public evidence + heroine agency after reveal + explicit re-choice in both high- and low-status conditions.
+
+The `hidden_identity_integrity` gate now includes Golden Rose royal extensions when royal language is present. Treat warnings as craft review prompts, not as hit prediction.
+
+## 2026-11-27 supernatural child-witness doctrine update
+
+Before greenlighting supernatural child-memory/crime-investigation thrillers, read `knowledge/market/frame-horizon-beyond-night-supernatural-investigation-deep-dive.md`. The portable mechanism is not “child has powers.” It is care before knowledge extraction, knowledge as social/physical danger, competing explanations, procedural conversion of clues, institutional/local-power resistance, costly child exposure, confession or moral-truth payoff, and ordinary safety after supernatural usefulness.
+
+Use the `supernatural_child_witness` project-evaluation gate as a warning system, not as a hit predictor. Do not copy Beyond the Night's plot, dialogue, characters, or thumbnail; extract the mechanism and build original stories.
+
+Packaging caution: the film's generic soldier/action thumbnail diverges sharply from its actual supernatural-family mystery engine. Record packaging/content divergence as a variable and compare broad action iconography against accurate vulnerability/protection or procedural-mystery concepts instead of assuming either is universally superior.
+
+## 2026-11-27 consent-aware patronage transformation doctrine update
+
+Before greenlighting patronage/transformation romance, read `knowledge/market/ananse-kukua-patronage-consent-transformation-deep-dive.md`. The portable mechanism is not “rich man transforms poor woman.” It is operational worth before beauty, concrete economic interruption, consent-designed patronage, procedural training, dependency-suppressed romance, transfer of financial/professional control, independent refusal of comfort, benefactor collapse before free re-choice, procedural justice, and communal consequence after success.
+
+Use the `patronage_consent_integrity` project-evaluation gate as a warning system, not as a hit predictor. Do not copy Kukua Asante's plot, characters, dialogue, or thumbnail; extract the mechanism and build original stories.
+
+## 2026-11-27 parentification-free attachment repair doctrine update
+
+Before greenlighting child-reunion grief/family melodrama, read `knowledge/market/daily-drama-poppy-parentification-attachment-repair-deep-dive.md`. The portable mechanism is not “cute child cures billionaire.” It is contradictory reunion hook, procedural custody safeguarding, public claim without hiding, repeated small embodied care, adult grief regulation, measurable reliability protocols, explicit parentification correction, dead-parent differentiation, and ending proof that ordinary safety systems work.
+
+Use the `attachment_repair_integrity` project-evaluation gate as a warning system, not as a hit predictor. Do not copy Poppy's plot, dialogue, character design, frog motif, or thumbnail; extract the mechanism and build original stories.
+
+## 2026-11-27 coerced hidden-identity free-re-choice doctrine update
+
+Before greenlighting forced/arranged/coerced hidden-identity romance, read `knowledge/market/strong-enough-for-love-coerced-hidden-identity-deep-dive.md` plus the duplicate-distribution forensic note. The portable mechanism is concrete coercion leverage, survival/trauma function for disguise, attachment before reveal, procedural evidence/accountability, refusal to treat money/property as substitute repair, preserved anger, restored control, explicit truth, and free partnership re-choice.
+
+Use the `coerced_rechoice_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy `Strong Enough for Love`; extract the mechanism and create original stories.
+
+## 2026-11-27 child economic-claimant doctrine update
+
+Before greenlighting secret-child/child-support billionaire family melodrama, read `knowledge/market/dramavoxie-lulu-child-economic-claimant-deep-dive.md`. The portable mechanism is not “cute child steals CEO's heart.” It is concrete care invoice, public/procedural claim, child self-protection and observation, adult verification, material maternal betrayal, money as incomplete restitution rather than forgiveness, legal/economic accountability, and an ending that restores ordinary childhood development.
+
+Use the `child_economic_claimant_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy Lulu's exact invoice, sign, plot, or thumbnail; extract the mechanism and build original stories.
+
+## 2026-11-27 comparative child-agency doctrine update
+
+For any child-centered family melodrama, read `knowledge/craft/child-agency-comparative-doctrine.md` before choosing premise architecture. The key rule is that children create moral pressure and evidence leads, while adults remain responsible for safety, verification, money, custody, therapy, and repair. Wealth is restitution capacity, not absolution; the ending must restore ordinary childhood development.
+
+## 2026-11-27 economic-abandonment mutual-aid doctrine update
+
+Before greenlighting class-abandonment/romantic betrayal melodrama, read `knowledge/market/nightfall-ivy-economic-abandonment-repair-deep-dive.md`. The portable mechanism is stripped identity infrastructure, first rescue through mutual-aid work rather than wealthy romance, financial/legal competence before security, refusal of class bribes or purchased rescue, procedural evidence, measurable restitution, chosen-family inclusion, conditional free acceptance, and an ending that converts the abandonment threshold into owned belonging.
+
+Use the `economic_abandonment_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy Ivy's train-station plot, orchard mechanics, dialogue, or thumbnail; extract the mechanism and build original stories.
+
+## 2026-11-27 wrongful-accusation restoration doctrine update
+
+Before greenlighting wrongful-accusation/class-stigma melodrama, read `knowledge/market/nightfall-luke-wrongful-accusation-restoration-deep-dive.md`. The portable mechanism is practical competence before pity, material contradiction, repeated frame-up, dignified work, anti-payment boundary, investigative rather than instant romantic belief, procedural evidence chain, institutional restoration of the stolen future, and present-tense consent in romantic closure.
+
+Use the `wrongful_accusation_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy Luke's watch/necklace/letter plot or thumbnail; extract the mechanism and build original stories.
+
+## 2026-11-27 Nightfall procedural-dignity channel doctrine update
+
+For adult non-fantasy long-form melodrama, read `knowledge/market/nightfall-drama-procedural-dignity-channel-comparison.md`. The repeatable engine is public stripping of dignity, mutual-aid work, competence before pity, refusal of purchased rescue, document/procedure reversal, measurable restitution or institutional repair, and freely chosen belonging. This is especially useful when designing 45-70 minute horizontal relationship/legal/family dramas without creature spectacle.
+
+## 2026-11-27 victim-authored revenge-autonomy doctrine update
+
+Before greenlighting revenge/return-from-presumed-death melodrama, read `knowledge/market/many-drama-elena-twin-deception-revenge-autonomy-deep-dive.md`. The portable mechanism is consent/power violation, physical survival cost, victim-chosen identity and revenge plan, rescuer support without ownership, objects as evidence/leverage, public-room reversal, procedural consequences, no forced forgiveness, and autonomy before deferred nonpossessive romance.
+
+Use the `revenge_autonomy_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy Elena/Eve, the twin plot, perfume objects, or thumbnail; extract the mechanism and build original stories.
+
+## 2026-11-27 hidden-wealth counterexample update
+
+Read `knowledge/market/lioren-billionaire-scholarship-hidden-wealth-counterexample-deep-dive.md` before using low-subscriber breakout velocity as a quality signal. Lioren shows that broad hidden-billionaire packaging, spatial class humiliation, public competence, and dramatic irony can break out even when trust repair and institutional accountability are compressed. Separate packaging appeal, discovery velocity, and durable craft quality. Existing `hidden_identity_integrity` remains the relevant gate; do not create a redundant validator.
+
+## 2026-11-27 object-testimony provenance doctrine update
+
+Before greenlighting magical appraisal/object-memory fantasy, read `knowledge/market/drama-aura-whispering-relics-object-testimony-provenance-deep-dive.md`. The portable mechanism is limited object testimony, material/procedural verification, professional craft before power, object personhood/history, ownership/provenance interrogation, cultural restoration, exploitation risk, and chosen identity over blood/family/romantic absorption.
+
+Use the `object_testimony_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy Nia, the relic plot, object inventory, or thumbnail composition; extract the mechanism and build original stories.

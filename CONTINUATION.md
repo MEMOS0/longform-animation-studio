@@ -551,3 +551,270 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - Major packaging discovery: exact subtitle anchors and shifted frame comparison indicate the larger WUFO hit `9N6S6D_ioA0` appears to reuse most/all of `F-RnV2OicIU` after roughly 22:15 of preceding material. It should be treated as compound/serial packaging evidence, not clean duration causality.
 - Craft findings: WUFO strongly validates heat-scarcity economics, creature care before power, sparse practical dialogue, authoritarian coal control, execution ritual, and climax-as-protection/contact. Movie Maxx validates visual-archetypal creature fantasy and slower atmospheric shot lengths; no subtitle track was available, so no exact dialogue claims were made.
 - Committed report: `knowledge/market/fresh-creature-breakouts-wufo-moviemaxx-deep-dive.md`; evidence folders include full timelines/metrics/contact sheets and the WUFO overlap montage.
+
+## 2026-11-27 compound-expansion production integration checkpoint
+
+- Converted the WUFO serial-reuse discovery into production machinery: `compound_expansion.py` evaluates whether a creature film is ethically/materially complete enough to be reused inside a longer prequel/continuation package; it explicitly refuses to treat compound runtime as duration causality.
+- Added `creature_pacing.py`: creature fantasy is allowed slower atmospheric composition, but must move care/material stakes -> staged spectacle -> quiet contact/recognition/home resolution instead of uniformly fast cutting.
+- Integrated both evaluators into `evaluate_project`; generated creature-economic and compressed-survival premises now carry concrete `packaging.compound_expansion` reuse/prequel/tail rules.
+- Updated format strategy with explicit `compound_serial_expansion` guidance. Tests: 124 passed.
+
+## 2026-11-27 QueenFlix hidden-identity evidence checkpoint
+
+- Downloaded/analyzed QueenFlix `G97N92SR1qQ` (79:28 vertical mobile-native hidden-identity romantic comedy, about 398k views at collection, roughly 2.5k subscribers).
+- Major doctrine: hidden identity works as dramatic irony plus ethics; reveal is midpoint, restitution must become procedural consent-based repair, and final love proof uses both partners' real competencies in a public rescue.
+- Format correction: vertical dialogue-rich romance can sustain long composed shots with very dense subtitles/dialogue; this is not the same pacing machine as sparse creature fantasy.
+- Committed report: `knowledge/market/queenflix-hidden-identity-romcom-deep-dive.md` with timestamped evidence and sound/pacing table.
+- PR #4 review findings were fixed/triaged; tests reached 127 passed before the QueenFlix documentation/evidence commit.
+
+## 2026-11-27 pre-rotation integration note
+
+- QueenFlix doctrine partially integrated into `hidden_identity_integrity.py` as `queenflix_accountability` checks: intelligent evidence-driven deceived party, post-reveal spatial boundary, procedural full disclosure, consent-based help rules, inconvenient repeat compliance, truthful re-choice. Tests: 128 passed.
+- Next high-priority work: deepen these checks from advisory output into scored gates without weakening Lioren baseline; continue priority queue with `U_Tecg95FWA` or `Z50wCIqEa2k`; monitor/triage PR #4 review if new findings arrive.
+
+## 2026-11-27 Twistora online-deception evidence checkpoint
+
+- Downloaded/analyzed Twistora `Z50wCIqEa2k` (57:32 vertical campus romance, about 356k views at collection, roughly 12.3k subscribers).
+- Major doctrine: do not copy the minor surface hook; extract online identity error -> immediate safeguarding -> adult accountability -> consent-aware adult romance -> social-anxiety accommodation -> real-self closure.
+- Added `romance_deception_integrity.py` and integrated it into `evaluate_project`: checks immediate boundary, exploitation audit, adult accountability, consent-aware escalation, public-pressure removal, coercion repair, anxiety accommodation, real-self closure.
+- Committed report: `knowledge/market/twistora-online-deception-romance-deep-dive.md`; derived evidence in `evidence/research/rediscovery_analysis/Z50wCIqEa2k/`.
+
+## 2026-11-27 ReelQuest very-long serial-loop checkpoint
+
+- Downloaded/analyzed ReelQuest `U_Tecg95FWA` (2:17:04 horizontal zero-to-hero fantasy, about 278.5k views at collection, roughly 3.1k subscribers).
+- Major doctrine: recurring prophetic trauma -> systemic class exclusion -> courage before power -> costly multi-bloodline progression -> institutional adaptation -> serial circular cliffhanger.
+- Circular flashforward evidence: 00:08 vs 136:59 villain shot is near-identical; ending catches up to opening and stops mid-sentence because this is explicit series/compound packaging, not standalone closure evidence.
+- Added `zero_to_hero_integrity.py` to production evaluation. Committed report `knowledge/market/reelquest-zero-to-hero-serial-loop-deep-dive.md` and evidence under `evidence/research/rediscovery_analysis/U_Tecg95FWA/`.
+- Next priority queue candidates: `ylN26llRtmw` (40m sci-fi pregnancy/alpha alien), `oHKc_rXrxm8` (50m alien/Gladiator pregnancy), `Gx7nwqNr9YY` (100m werewolf surrogate). Compare serial/standalone closure carefully.
+
+## 2026-11-27 FANTASY MOVIE KINGDOM prohibition sci-fi checkpoint
+
+- Downloaded/analyzed `ylN26llRtmw` (40:27 horizontal post-apocalyptic sci-fi, about 839.7k views at collection, roughly 8.0k subscribers).
+- Major doctrine: sensory prohibition -> rescue countdown -> machine companion personhood -> false paradise exposure -> evidence-driven scapegoat reversal -> rule inversion/rebuilding closure -> sequel hook.
+- Added `prohibition_scifi_integrity.py` to production evaluation. Committed report `knowledge/market/fantasy-movie-kingdom-2050-prohibition-scifi-deep-dive.md` and evidence under `evidence/research/rediscovery_analysis/ylN26llRtmw/`.
+- Devin Review round at 6c503f7 was fixed/triaged: scene overrun masking, romance validator false-positive scope, teen age detection, age-disclosure rejection, blackmail repair suppression.
+- Next priority queue candidates: `oHKc_rXrxm8` (50m alien/Gladiator pregnancy), `Gx7nwqNr9YY` (100m werewolf surrogate), then refresh low-subscriber breakout scan.
+
+## 2026-11-27 Velvet Romance family-exit checkpoint
+
+- Downloaded/analyzed `oHKc_rXrxm8` (62:56 vertical family-favoritism exit melodrama, about 757k views at collection, roughly 30.5k subscribers). Fresh-scan label was misleading; actual video is not alien sci-fi.
+- Major doctrine candidate: material inequity evidence -> medical neglect -> chosen-family operational care -> quiet procedural exit -> boundary dialogue -> partial reconciliation without forced forgiveness.
+- Committed report `knowledge/market/velvet-romance-family-favoritism-exit-deep-dive.md` and evidence under `evidence/research/rediscovery_analysis/oHKc_rXrxm8/`.
+- Next: implement family-favoritism exit validator, then analyze `Gx7nwqNr9YY` or refresh breakout scan.
+- Follow-up completed in same checkpoint: `family_exit_integrity.py` is now integrated into `evaluate_project`; tests 149 passed at commit `67a79773`.
+
+
+## 2026-11-27 pre-rotation checkpoint
+
+- `Gx7nwqNr9YY` downloaded locally: MythicTwist vertical werewolf/alpha hidden-identity romance, 70:13, about 510k views at collection, roughly 9.2k subscribers. Subtitles analyzed but full media-analysis report not yet written.
+- Key transcript structure: substitute marriage into werewolf family; “broken” husband disguised as adorable dog; care/cuddling creates hidden-identity intimacy risk; family exploits heroine financially/socially; political usurpation and forced marriage dissolution; rescue/reveal; ending includes apology, free choice, restored estate, proportional justice, and explicit re-choice (“This time it's my choice”).
+- Important doctrine candidate: animal-guise intimacy is a consent/trust wound, not cute deception; repair requires truth, no forced stay, restoration of agency/property, accountability for coercive actors, and explicit re-choice.
+- Review round fixed/triaged at `58ccb153`: family validator scope/title evidence/structured finale, blocks-him rejection detection. Tests 153 passed before commit.
+- Next action after context rotation: run media analysis for `Gx7nwqNr9YY`, inspect contact sheets, write report, integrate animal-guise consent validator or extend hidden/creature validators.
+
+## 2026-11-27 MythicTwist animal-guise consent checkpoint
+
+- Completed sampled full-runtime audiovisual analysis of `Gx7nwqNr9YY` (70:13 vertical, 202x360): aligned subtitles, eight contact sheets, selected direct frames, per-second visual metrics, and audio waveform. Evidence committed under `evidence/research/rediscovery_analysis/Gx7nwqNr9YY/`; raw media stays outside repo.
+- Doctrine committed in `knowledge/market/mythictwist-animal-guise-alpha-consent-deep-dive.md`: animal-guise intimacy is a consent/trust wound, not cute deception. Repair requires truth, spatial boundaries, restored material agency/property, no-force exit, accountability for overt coercion, and explicit re-choice (“This time it's my choice”).
+- Implemented `studio/animal_guise_consent.py` and integrated it into `evaluate_project`; after Devin Review fixes it now word-bounds mate detection, locates reveal order, requires care before reveal/re-choice after truth, and requires actual restitution/accountability rather than mentions.
+- Review rounds fixed/triaged: family finale evidence, contact blocking, schema closure fields, animal-guise applicability/order/restitution. Latest tests before next work: 166 passed at commit `acad82b`, then animal-power work pushed as `a003ee4` with 168 passed locally before commit.
+
+## 2026-11-27 WUFO mother-dragon power-inversion checkpoint
+
+- Completed sampled full-runtime audiovisual analysis of `F-RnV2OicIU` (24:32 horizontal WUFO creature fantasy): aligned subtitles, contact sheets, climax/final frame montages, official description, metrics, and waveform. Evidence committed under `evidence/research/rediscovery_analysis/F-RnV2OicIU/`; raw media stays outside repo.
+- Doctrine committed in `knowledge/market/wufo-mother-dragon-power-inversion-deep-dive.md`: material cold/resource monopoly -> abandoned creature care -> power inversion mistaken for defect -> institutional scapegoating/execution spectacle -> protective inversion payoff -> recognition/contact -> communal thaw/consequence.
+- Implemented `studio/creature_power_inversion.py` and integrated it into `evaluate_project`. Key rule: creature powers should invert the dominant institution's symbolic resource; care must cost something before power, and the ending must show recognition plus visible communal/environmental consequence.
+- Final ending is visual-only after aligned subtitles end around 24:10; exact interpretation of the small gray creature/cliff tail is marked as visual inference, not certainty.
+- Next high-priority work: analyze `EUaUwhMAUgE` (Movie Maxx dragon video already downloaded, no subtitle track in metadata), then refresh low-subscriber breakout scan and continue professional dialogue deepening. Handle any new PR #4 review findings immediately.
+
+## 2026-11-27 Movie Maxx visual-myth checkpoint
+
+- Completed sampled full-runtime visual/music analysis of `EUaUwhMAUgE` (28:18 Movie Maxx, about 754k views, 1.9k subscribers; no subtitle track exposed). Evidence under `evidence/research/rediscovery_analysis/EUaUwhMAUgE/`.
+- Report committed: `knowledge/market/moviemaxx-last-dragon-visual-myth-deep-dive.md`. Doctrine: atmospheric mythic creature fantasy can break out through sound-off legible objectives, scale contrast, protective care before destiny spectacle, and slow composed shots; exact causality is weaker without dialogue, so use its visual grammar rather than narrative ambiguity.
+- Next: refresh low-subscriber breakout scan; prioritize non-creature/non-romance counterexamples; continue professional dialogue deepening; handle PR #4 review findings immediately.
+
+## 2026-11-27 Epicverse compressed found-family checkpoint
+
+- Refreshed the 14-day low/mid-subscriber scan and prioritized `no72LZAVvZQ` (Epicverse Movies, about 4.7k subscribers, 11:40, about 6.61M views at collection).
+- Completed sampled full-runtime visual/music analysis. No subtitle track was exposed, so exact dialogue claims are forbidden. Evidence under `evidence/research/rediscovery_analysis/no72LZAVvZQ/`; report at `knowledge/market/epicverse-giant-found-family-compression-deep-dive.md`.
+- Doctrine: compressed guardian fantasy works when scale serves care — origin danger -> nonhuman custody -> repeated operational care -> child competence/agency -> relational rupture -> exploitation/public trap -> rescue that physically restores custody/contact.
+- Implemented `found_family_guardian_integrity.py` and integrated it into `evaluate_project`; tests 178 passed at review-fix checkpoint and 175+ after found-family integration.
+- Next: continue fresh-scan analysis with non-creature/low-subscriber counterexamples (`iqCNxQ2_jSI`, `hozDtPcnnBA`, Nightfall dramas) or long-form `6pbhGtHRTwA`; keep deepening professional dialogue and handle new PR #4 review findings immediately.
+
+## 2026-11-27 professional-dialogue + Evening Star checkpoint
+
+- PR #4 review round `pr-review-job-78e4...` fixed/triaged at `d321202`: guardian applicability/finale/rupture/care diversity, creature inversion scope/behavioral freezing, notebook negation. Tests 184 passed.
+- Professional dialogue deepened: `knowledge/craft/professional-dialogue-power-turn-doctrine.md`; `creature_dialogue.py` now redistributes proof/cost confirmation to witnesses/caregivers and adds role-specific `voice_signature`/`withheld_need`; `dialogue_craft.py` warns when protagonist self-certifies evidence. Generated creature examples/storyboards/prompts regenerated. Commit `f98232f`, tests 184 passed.
+- Next review round fixed/triaged at `b342391`: malformed dialogue beats no longer crash, inversion recognizes “fire but instead freezes,” partial openings use explicit ending clauses only, care/time and guardian scope bugs fixed, `returns nothing` no longer counts as restitution. Tests 191 passed.
+- Evening Star `iqCNxQ2_jSI` fully analyzed as a non-creature contemporary counterexample: 65:57 vertical child-precognition/hidden-family melodrama, about 340.5k views on a ~2.67k-subscriber channel. Derived evidence committed under `evidence/research/rediscovery_analysis/iqCNxQ2_jSI/`; report `knowledge/market/evening-star-chloe-precognition-family-power-deep-dive.md` committed at `6638327`.
+- Major new doctrine: child power is a wound adaptation/surrogate for missing safety; the ending should remove/destabilize it and prove ordinary belonging (“I don't love you because you can save me”; “Now I know you will. That's what home is.”). Use procedural evidence chains and pre-proof protector care.
+- Next high-priority work: implement `child_power_obsolescence_integrity` or equivalent production validator; finish/check `6pbhGtHRTwA` download and analyze as long-form counterexample; refresh low-subscriber non-creature scan; continue PR #4 review triage immediately when findings arrive.
+
+## Context rotation checkpoint — 2026-11-27 Lost Kind evidence ready
+
+Do not stop the overall research. Continue directly from this checkpoint.
+
+Completed just before rotation:
+- Devin Review findings on `388d8eb` were triaged and fixed in `87ccf23` (`Refine child-power and guardian evidence order`); a new review is running on `87ccf23`.
+- Tests were 206 passed at `87ccf23`.
+- VeylornStudios `6pbhGtHRTwA` (*THE LOST KIND*) full 108m media analysis completed locally.
+- Derived artifacts now exist under `evidence/research/rediscovery_analysis/6pbhGtHRTwA/`: media summary, timeline, seconds metrics, 22 contact sheets, selected frames.
+- Key observed craft evidence: immediate monster threat at 00:00-00:45; underground creature society/feeding/care at 02:00-04:45; peaceful flying creatures/home valley around 20:15-21:15; military confrontation and wounded creature around 22:30-24:45; procedural political/city infiltration 40:00-44:45 and 60:00-64:45; human/creature negotiation + rescue preparation around 80:00-84:45; golden creature transformation around 97:45-98:15; extraction apparatus/source confrontation around 98:30-99:45; villain defeat 105:00-106:00; restored bright creature homeland and human-creature mutual recognition 106:30-107:45.
+- Audiovisual metrics: 108.0 min, 196 shots, median shot 9s, mean 33.1s because slow composed long takes dominate; mean brightness 0.153; 1673 dialogue cues; first conflict line at 54.1s, first power/identity language 109.5s, first explicit care language about 11:28.
+
+Immediate next steps:
+1. Commit all `6pbhGtHRTwA` derived evidence artifacts if not yet committed.
+2. Write `knowledge/market/veylorn-lost-kind-epic-dark-fantasy-deep-dive.md` with timestamped evidence and careful causality labels.
+3. Extract doctrine into production validators: creature-society operational care, extraction economy, procedural evidence/mystery, power-use exposure cost, morally costly source destruction, community consequence/peace-as-choice.
+4. Fix the minor regex/control-character wart in `studio/child_power_obsolescence.py` first-person investigative regex if still present.
+5. Continue fresh low-subscriber/non-creature breakout scan.
+6. Handle any new Devin Review findings immediately when they arrive.
+
+## 2026-11-27 post-Lost Kind integration checkpoint
+
+Latest pushed commit before this note: `5e53612 Integrate Lost Kind extraction doctrine`; tests 218 passed.
+
+Completed:
+- `knowledge/market/veylorn-lost-kind-epic-dark-fantasy-deep-dive.md` written with timestamped audiovisual evidence and causal caveats.
+- `studio/epic_creature_extraction.py` added and wired into project evaluation.
+- `.devin/skills/longform-animation-studio/SKILL.md` updated with epic creature-extraction doctrine.
+- `knowledge/craft/professional-dialogue-power-turn-doctrine.md` updated with procedural/epic dialogue lessons from Lost Kind.
+- Devin Review rounds through `44543bb` triaged; tests reached 216 before Lost Kind integration and 218 after.
+- Fresh 14-day scan refreshed `data/processed/recent_breakout_candidates.json` (89 candidates). Important known/ongoing leads include already-analyzed Aethernal `31-p_UcMgOs`, Veylorn `6pbhGtHRTwA`, Epicverse `no72LZAVvZQ`, Lioren `hozDtPcnnBA`, PrimeFate `TKfoKnpHpsw`; next unanalyzed low-subscriber non-creature lead selected: ScepterTV `PH6_Oyi-XrI` (*The Maid Who Was Secretly a Princess*, about 1.6k subs and 130k views/day estimate at scan).
+
+Immediate next work:
+1. Finish download/analysis of `PH6_Oyi-XrI`; do not claim it was watched until contact sheets/seconds/subtitles are inspected.
+2. Write its deep-dive report and extract hidden-identity/royal non-creature mechanisms or falsifications.
+3. Continue non-creature low-subscriber scan with `s-Zn2WhkkH8`, `wHWPGMPQ37Y`, `R14QjIS7O50`, `Z0kns4pvIH4`, `V5VfY1lfN2c`, or `XM4OuWUlV_o` after `PH6_Oyi-XrI`.
+4. Handle new Devin Review findings immediately when they arrive.
+
+## 2026-11-27 Golden Rose / review-triage checkpoint
+
+Latest pushed commit before this note: `0695795 Harden epic extraction gates and add Golden Rose analysis`; tests 225 passed before this doc update.
+
+Completed:
+- ScepterTV `PH6_Oyi-XrI` (*The Golden Rose*) fully downloaded and machine-analyzed; evidence committed under `evidence/research/rediscovery_analysis/PH6_Oyi-XrI/`.
+- `knowledge/market/sceptertv-golden-rose-royal-hidden-identity-deep-dive.md` written from full subtitles, second metrics, contact sheets, and selected frames.
+- Hidden-identity validator extended for royal variants without diluting billionaire baseline scoring.
+- Epic creature extraction validator hardened against substring false positives, costless destruction, opening-village aftermath, extraction-without-incentive, wrong-stage evidence, and sequel-order errors.
+- Child-power validator now handles home-to-parent closure and scene dialogue speaker/line investigation.
+- Devin Review round on `935cfc5` triaged; new review is running on `0695795`.
+
+Immediate next work:
+1. Commit this skill/continuation update and any scan-report metadata updates.
+2. Continue non-creature low-subscriber analysis queue: `s-Zn2WhkkH8`, `wHWPGMPQ37Y`, `R14QjIS7O50`, `Z0kns4pvIH4`, `V5VfY1lfN2c`, `XM4OuWUlV_o`.
+3. Handle new Devin Review findings immediately when they arrive.
+4. Rotate context early; do not wait for compaction.
+
+## 2026-11-27 hidden-identity review checkpoint
+
+Latest pushed commit before this note: `4d9bdd1 Refine royal hidden-identity reveal ordering`; tests **229 passed**.
+
+Completed since Golden Rose checkpoint:
+- Hidden-identity validator no longer treats undercover occupational disguise as hidden-rank romance.
+- Explicit royal disclosure formulations count as reveals.
+- Heroine agency is evaluated after reveal, preventing early action from masking passive endings.
+- Refusing to “marry a crown” no longer counts as mutual re-choice; re-choice must be post-reveal and mutual/status-invariant.
+- Devin Review round on `42386cf` triaged; new review is running on `4d9bdd1`.
+
+Continue immediately with non-creature low-subscriber queue: `s-Zn2WhkkH8`, `wHWPGMPQ37Y`, `R14QjIS7O50`, `Z0kns4pvIH4`, `V5VfY1lfN2c`, `XM4OuWUlV_o`. Handle new review findings first if they arrive.
+
+## 2026-11-27 supernatural child-witness checkpoint
+
+- Latest pushed hidden-identity review fix before this evidence commit: `7b1eba5`; tests `239 passed`.
+- Frame Horizon `V5VfY1lfN2c` / Beyond the Night full local media was downloaded and analyzed with aligned subtitles, second metrics, 20 contact sheets, selected frames, and original thumbnail. Report: `knowledge/market/frame-horizon-beyond-night-supernatural-investigation-deep-dive.md`.
+- Key doctrine candidate: supernatural child memory works as evidence-pressure when care precedes knowledge, knowledge creates danger, skepticism/procedure validate clues, institutions resist, child exposure has cost, confession/moral truth pays off, and ending re-stabilizes ordinary parent-child safety.
+- Thumbnail counterexample: generic soldier/action packaging can outperform accurate supernatural-family imagery; do not infer causal CTR without private data.
+- Next: implement supernatural child-witness validator, update dialogue/packaging doctrine, then continue queue `s-Zn2WhkkH8`, `wHWPGMPQ37Y`, `R14QjIS7O50`, `Z0kns4pvIH4`, `XM4OuWUlV_o`. Handle any new PR #4 review findings first.
+
+## 2026-11-27 patronage/attachment checkpoint
+
+- Latest pushed commit: `102c14f`; tests `257 passed`.
+- Completed Frame Horizon `V5VfY1lfN2c` supernatural child-witness analysis and integrated `supernatural_child_witness` gate after Devin Review hardening.
+- Completed Ananse `Z0kns4pvIH4` consent-aware patronage transformation analysis and integrated `patronage_consent_integrity` gate.
+- Completed Daily Drama Shorts `XM4OuWUlV_o` parentification-free attachment repair analysis and integrated `attachment_repair_integrity` gate.
+- New portable doctrines: supernatural knowledge as evidence-pressure; patronage requires dependency-aware consent/control transfer/free re-choice; child healing must not become child responsibility for curing parent.
+- Next: handle any new PR #4 review findings first. Then analyze remaining non-creature queue `s-Zn2WhkkH8`, `wHWPGMPQ37Y`, `R14QjIS7O50`; consider whether the first two are duplicate/repackaged versions of the same 86-minute lost-twins CEO film and document distribution/packaging differences if so.
+
+## 2026-11-27 duplicate hidden-identity checkpoint
+
+- Latest pushed commit before this checkpoint: `6734175`; tests were `257 passed` at the attachment-gate integration and no test-affecting code changed afterward.
+- Completed Daily Drama Shorts `XM4OuWUlV_o` parentification-free attachment repair analysis and integrated `attachment_repair_integrity` gate.
+- Determined `s-Zn2WhkkH8` and `wHWPGMPQ37Y` are the same underlying 86m06s drama `Strong Enough for Love`, not independent story replication: same duration, nearly identical file sizes, visually identical same-timestamp frames, matching opening/ending dialogue, different packaging/thumbnail/app-funnel presentation.
+- Completed canonical `s-Zn2WhkkH8` sampled full-runtime audiovisual deep dive. Core doctrine candidate: coerced hidden identity must end in free re-choice; money/property cannot erase coercion; partner-not-rescuer is stronger than forgiveness-through-wealth.
+- Coerced hidden-identity free-re-choice validator is now integrated as `coerced_rechoice_integrity`; tests `259 passed`; latest pushed commit `aecead5`. Next immediate work: analyze `R14QjIS7O50` child-support/child-agent billionaire family drama; download already started locally.
+- Devin Review is running on commit `41eb361`/subsequent pushes; handle findings first when they arrive.
+
+## 2026-11-27 child economic claimant checkpoint
+
+- Latest pushed commit `b55065a`; tests `263 passed` at review-fix commit `adefc69` before research-only commit.
+- Completed duplicate-distribution analysis for `s-Zn2WhkkH8`/`wHWPGMPQ37Y` and canonical Strong Enough for Love deep dive; integrated `coerced_rechoice_integrity`.
+- Completed DramaVoxie `R14QjIS7O50` sampled full-runtime audiovisual deep dive. Doctrine candidate: child economic claimant converts invisible maternal care into invoice, catalyzes truth but adult systems verify, money is restitution not forgiveness, legal accountability precedes ordinary kindergarten/development ending.
+- Next: implement child-economic-claimant validator if desired after review triage; update skill/dialogue/thumbnail doctrine; then continue fresh scan/queue or deepen dialogue/professional writing. Devin Review is running on `b55065a` or latest push; handle findings first when they arrive.
+
+
+## 2026-11-27 safe rotate after Nightfall wrongful-accusation integration
+
+- Latest pushed commit: `e5d35fcc6f424920c58b60cd078a3f766352b9bd`.
+- Latest verified test baseline before the two review fixes: 272 passed. After review fixes: 274 passed before committing those fixes.
+- `xhqE43r-faA` / Nightfall Luke is now fully integrated: local media remains at `C:/Users/Administrator/evidence_tmp/xhqE43r-faA.mp4`; derived evidence is committed in `evidence/research/rediscovery_analysis/xhqE43r-faA/`; report is `knowledge/market/nightfall-luke-wrongful-accusation-restoration-deep-dive.md`; thumbnail is force-added at `data/raw/thumbnails/nightfall_drama/xhqE43r-faA.maxresdefault.webp`.
+- New validator: `studio/wrongful_accusation_integrity.py`; project evaluation now includes `wrongful_accusation_integrity`.
+- New channel synthesis: `knowledge/market/nightfall-drama-procedural-dignity-channel-comparison.md`. Core doctrine: public stripping of dignity -> mutual-aid work -> competence before pity -> refusal of purchased rescue -> document/procedure reversal -> measurable restitution/institutional repair -> freely chosen belonging.
+- Devin Review findings on older commit `6401c4e` were fixed/triaged before pushing the doctrine synthesis. Restitution no longer treats timecodes or negated “nobody repays” language as measurable repayment; creature-debt/context false positives in child claimant and economic abandonment applicability were narrowed. Tests after fixes: 274 passed.
+- A newer Devin Review on commit `9f55a6c` and/or `e5d35fc` may be running. If findings arrive in the next context, retrieve them with `devin_review_manage` and triage immediately before long-running analysis.
+- Immediate next work: continue low-subscriber non-creature comparative video analysis. Fresh queue after xhq remains `dEup8AVWYKg`, `iqCNxQ2_jSI`, `hozDtPcnnBA`, `q0G2kx8-3tE`, `ZyovwVVUiCs`, `ULJ7-z1zm6M`, `9N6S6D_ioA0`, `icsZH4sDwTM`; verify duplication risk, download full media, inspect contact sheets visually, write timestamped evidence, integrate only distinct doctrine.
+
+
+## 2026-11-27 safe rotate after object-testimony integration
+
+- Latest pushed commit: `5914f367b54b731c596e24fb6655c603388b9b30`.
+- Latest verified test baseline: 289 passed.
+- Since prior checkpoint, completed and integrated three full audiovisual cases:
+  1. Many Drama `dEup8AVWYKg` / Elena twin-deception revenge-autonomy. Report `knowledge/market/many-drama-elena-twin-deception-revenge-autonomy-deep-dive.md`; validator `studio/revenge_autonomy_integrity.py`; evidence in `evidence/research/rediscovery_analysis/dEup8AVWYKg/`; thumbnail force-added.
+  2. Lioren Studios `hozDtPcnnBA` / hidden-wealth counterexample. Report `knowledge/market/lioren-billionaire-scholarship-hidden-wealth-counterexample-deep-dive.md`; no new validator because existing `hidden_identity_integrity` covers the mechanism. Key lesson: breakout packaging/public competence can coexist with compressed trust repair.
+  3. Drama Aura `23iAlK2FVyA` / *The Whispering Relics* object-testimony provenance fantasy. Report `knowledge/market/drama-aura-whispering-relics-object-testimony-provenance-deep-dive.md`; validator `studio/object_testimony_integrity.py`; evidence in `evidence/research/rediscovery_analysis/23iAlK2FVyA/`; thumbnail force-added.
+- `iqCNxQ2_jSI` was confirmed already analyzed earlier as the Evening Star Chloe case; do not re-analyze as new. `TKfoKnpHpsw`, `icsZH4sDwTM`, `9N6S6D_ioA0`, `ULJ7-z1zm6M` are also already represented in existing knowledge. Use grep before downloading any candidate.
+- Review rounds through commit `8d77f58` were fixed/triaged. Important validator hardening: revenge autonomy no longer treats exoneration/public-shame stories as identity-return revenge; wrongful accusation infers accusation when evidence clears the accused; affirmative matching splits contrastive “but” clauses while still catching distant negation; object testimony avoids `test` substring false positives like `instantly`.
+- A newer Devin Review may be running on `5914f36`. If findings arrive in the next context, retrieve/triage immediately before long-running analysis.
+- Immediate next work: run a fresh 7-14 day breakout scan or inspect `knowledge/market/recent-breakout-candidates.md` for truly unanalyzed low-subscriber candidates, verify duplication with grep before downloading, then continue comparative analysis. Highest-value untapped new candidate types include legal/institutional family dramas, object/appraisal procedurals, reborn/thought-hearing melodrama, and noncreature vertical revenge autonomy. Also update `fresh-breakout-priority-queue.md` because it still contains stale already-analyzed IDs.
+
+## 2026-11-27 rotate after object-testimony review fixes
+
+- Latest pushed commit: `3a618b3c0ca7fa076c004dfd29a381454a9d9221`.
+- Latest verified test baseline: 292 passed.
+- Review job `pr-review-job-cba7f3ffdd854bf3a5fa4ab5af488c47` was fixed/triaged/end-triaged. Fixes hardened `object_testimony_integrity`: creature-voice stories no longer apply; laboratory tests are recognized; bare object memory and negated/refused verification no longer count as proof.
+- A newer review may be running on `3a618b3`; handle findings first if they arrive.
+- Next work remains fresh low-subscriber breakout scan/dedup, then comparative noncreature analysis. `fresh-breakout-priority-queue.md` still needs cleanup because several IDs are already analyzed.
+
+## 2026-11-27 rotate after second object-testimony review round
+
+- Latest pushed commit: `57d36e7af707a37aba9a1bd9c441bf202ffac80f`.
+- Latest verified test baseline: 295 passed.
+- Review job `pr-review-job-d085a260532c4a86b81169cffc8e1b4a` fixed/triaged/end-triaged. Additional hardening: named artifact voices such as a watch speaking are recognized; independent chemical/forensic/material analysis counts as corroboration; physical fragments no longer count as fragmented memory/testimony.
+- A newer review may be running on `57d36e7`; handle findings first if they arrive.
+- Next substantive work: cleanup stale fresh-breakout queue, dedupe candidates before download, continue low-subscriber/noncreature comparative analysis, then deepen professional dialogue integration.
+
+## 2026-11-27 rotate after third object-testimony review round
+
+- Latest pushed commit: `f28947173dbd007152b735c3675b5cd06a7074c5`.
+- Latest verified test baseline: 300 passed.
+- Review job `pr-review-job-26e8aac775c94a39ad694caa53325995` fixed/triaged/end-triaged. Shared root fix hardened object-testimony language matching: recount/testify verbs, cancellation negation, word-bounded artifact speech, fragmentary recollection phrasing, and named watch personhood.
+- A newer review may be running on `f289471`; handle findings first if they arrive.
+- Next substantive work: cleanup stale fresh-breakout queue, dedupe candidates before download, continue low-subscriber/noncreature comparative analysis, then deepen professional dialogue integration.
+
+## 2026-11-27 rotate after fourth object-testimony review round
+
+- Latest pushed commit: `2401efc90d9ec333ce2ee5bd83b51a0353309bfa`.
+- Latest verified test baseline: 303 passed.
+- Review job `pr-review-job-05fab6f81e35443f99de0c1055edb4af` fixed/triaged/end-triaged. Fixes: third-person artifact speech recognized; coordinated clauses split at 'and' so unrelated cancellations do not negate valid corroboration; ambiguous non-speech 'reveal' no longer triggers object-testimony applicability.
+- A newer review may be running on `2401efc`; handle findings first if they arrive.
+- Next substantive work: cleanup stale fresh-breakout queue, dedupe candidates before download, continue low-subscriber/noncreature comparative analysis, then deepen professional dialogue integration.
+
+## 2026-11-27 rotate after fifth object-testimony review round
+
+- Latest pushed commit: `ad45d396160a38c1d25f54c749b63a76b70da2ad`.
+- Latest verified test baseline: 306 passed.
+- Review job `pr-review-job-978c1978544a4470968dfd1551f90f0b` fixed/triaged/end-triaged. Fixes: testify/reveal-aloud applicability, third-person speaking artifact personhood, and exclusion of the nonliteral idiom 'speaks volumes'.
+- A newer review may be running on `ad45d39`; handle findings first if they arrive.
+- Important strategic note: object-testimony review is generating adversarial NLP edge cases. Continue fixing true inconsistencies, but reject pure language-theory edge cases if they do not affect real generated/research artifacts.
+- Next substantive work: cleanup stale fresh-breakout queue, dedupe candidates before download, continue low-subscriber/noncreature comparative analysis, then deepen professional dialogue integration.

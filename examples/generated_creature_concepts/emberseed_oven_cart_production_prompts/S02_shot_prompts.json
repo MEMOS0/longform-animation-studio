@@ -645,7 +645,7 @@
     "visual_prompt": "original cinematic animated feature film, emotionally readable faces, consistent character design, natural volumetric light, detailed but uncluttered composition, no photoreal celebrity likeness. final image; slow pull-back; the protagonist places the blackened brass oven key beside the emberseed bird child instead of selling access to it. Emotional action must remain readable before spectacle.",
     "negative_prompt": "watermark, logo, subtitles, UI text, duplicated limbs, distorted hands, inconsistent face, random extra characters, muddy composition, copied copyrighted character design, empty spectacle",
     "camera_intent": "slow pull-back",
-    "dialogue": "The blackened brass oven key opens the oven seam. It doesn't make her mine.",
+    "dialogue": "The blackened brass oven key opens the oven seam. It doesn't make her yours.",
     "audio_direction": "blackened brass key clicks, ember breath, wing-feather tremor, and oven stone resonance unresolved",
     "director_note": "director seed generated from exact scene fields; refine staging before production: exit on changed power; subtext: the object is a means of passage, not a claim of ownership",
     "continuity_dependencies": [
