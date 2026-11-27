@@ -539,3 +539,8 @@ Epicverse followup committed in `d1e69d9`: same-channel hit/low comparison shows
 - Converted the EchoDrama Hidden Beauty doctrine into a working `transformation_romance` generation contract with two original 72-minute vertical-feature concepts: `paper_lantern_understudy` (performing-arts academy / backstage authorship / cracked brass key) and `saltglass_swim_lesson` (coastal rescue-swim documentary / scarred technician / rescue whistle).
 - Added transformation-specific premise, architecture, scene dialogue, visual-image overrides, schema metadata, channel contract, and `transformation_romance_integrity` validation. Both examples score 1.0 on transformation integrity, pass channel fit, and have no dialogue or visual-causality warnings. A/B gates can still require attention depending on premise/architecture risk scoring; C/D pass.
 - Expanded visual-causality recognition for transformation-media imagery (phones, mirrors, cameras, staircases, pools, garments, whistles, stages, lanes, crowds; blocking/raising/dropping/walking/filming actions). Latest tests: 120 passed.
+
+## 2026-11-27 fresh breakout scan checkpoint
+
+- Re-ran the 14-day low-subscriber breakout scan: 84 candidates, 64 strong leads, 5 carryovers, using 14 query families. Outputs updated in `data/processed/recent_breakout_candidates.json` and `knowledge/market/recent-breakout-candidates.md`.
+- Fixed transformation-romance scene 7 screenplay/scene synchronization so the reciprocal-memory exchange uses the intended line `I choose you, not the gratitude.` and a coherent shared-memory object action; regenerated both production packages. Both retain transformation integrity 1.0, no visual-causality warnings, and no dialogue warnings. Tests: 120 passed.

@@ -191,7 +191,7 @@ RHYTHM: visual/social pressure first; dialogue names consent, recognition, or au
 
 The love interest places a damaged memory object in the protagonist's hand during rehearsal.
 
-The love interest returns a damaged/note/scarred memory object.
+The love interest returns the damaged memory object that proves their shared past.
 
 LOVE INTEREST
 (barely above breath)
@@ -203,7 +203,7 @@ Mina closes the distance only after the truth is separated from performance.
 
 MINA
 (quiet, certain)
-It was never gratitude. It was you.
+I choose you, not the gratitude.
 
 SOUND — Phones, crowd murmur, breath, threshold noise, camera/stage/pool machinery, and object texture remain audible beneath the line.
 

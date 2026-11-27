@@ -35,8 +35,8 @@ def transformation_scene_materials(premise: dict[str, Any], index: int) -> dict[
             ("protagonist_decision", protagonist, "You decided for me. Then ask me now. Really ask.", f"{protagonist} stops at the threshold until the choice is returned", "the opportunity is worthless if it repeats erasure", "steady, unblinking"),
         ],
         7: [
-            ("evidence_or_cost", "love interest", "You protected me before anyone clapped.", "the love interest returns a damaged/note/scarred memory object", "memory proves recognition before transformation", "barely above breath"),
-            ("protagonist_decision", protagonist, "It was never gratitude. It was you.", f"{protagonist} closes the distance only after the truth is separated from performance", "desire is chosen after worth is known", "quiet, certain"),
+            ("evidence_or_cost", "love interest", "You protected me before anyone clapped.", "the love interest returns the damaged memory object that proves their shared past", "memory proves recognition before transformation", "barely above breath"),
+            ("protagonist_decision", protagonist, "I choose you, not the gratitude.", f"{protagonist} closes the distance only after the truth is separated from performance", "desire is chosen after worth is known", "quiet, certain"),
         ],
         8: [
             ("protagonist_decision", protagonist, "This time I choose the light.", f"{protagonist} steps into the original public geometry and uses the object openly", "visibility becomes authorship rather than approval-seeking", "clear, unforced"),
