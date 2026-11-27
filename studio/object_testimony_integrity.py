@@ -19,7 +19,7 @@ def _affirmative_match(pattern: str, text: str) -> bool:
     for clause in re.split(r"[.!?;]|\bbut\b", text):
         for match in re.finditer(pattern, clause):
             before = clause[:match.start()]
-            if re.search(r"(?:(?:nobody|no one|never|without|not|no|doesn.?t)\s+(?:\w+\s+){0,8}|refus(?:es|ed)?\s+to\s+(?:\w+\s+){0,8})$", before):
+            if re.search(r"(?:(?:nobody|no one|never|without|not|no|doesn.?t)\s+(?:\w+\s+){0,8}|refus(?:es|ed)?\s+to\s+(?:\w+\s+){0,8}|cancel(?:s|led)?\s+(?:\w+\s+){0,4})$", before):
                 continue
             return True
     return False
@@ -34,7 +34,7 @@ def evaluate_object_testimony_integrity(premise: dict[str, Any], architecture: d
     ending = ending_source[-max(1, len(ending_source) // 3):] if ending_source else ""
 
     object_terms = bool(re.search(r"relic|artifact|antique|mirror|clock|watch|jewel|stone|museum object|golden eye", full))
-    object_voice = bool(re.search(r"(?:objects?|relics?|artifacts?|antiques?|mirrors?|clocks?|watch(?:es)?|jewels?|stones?) (?:speak|talk|remember|whisper|warn|ask|beg)|hear(?:s|ing)?(?:\s+\w+){0,5}\s+(?:objects?|relics?|artifacts?|antiques?|mirrors?|clocks?|watch(?:es)?|jewels?|stones?) (?:speak|talk|remember|whisper)|whispering relics|golden eye", full))
+    object_voice = bool(re.search(r"(?:objects?|relics?|artifacts?|antiques?|mirrors?|clocks?|watch(?:es)?|jewels?|stones?)\s+(?:speak|talk|remember|recount|reveal|testify|whisper|warn|ask|beg)\b|hear(?:s|ing)?(?:\s+\w+){0,5}\s+(?:objects?|relics?|artifacts?|antiques?|mirrors?|clocks?|watch(?:es)?|jewels?|stones?)\s+(?:speak|talk|remember|recount|reveal|testify|whisper)\b|whispering relics|golden eye", full))
     objects_speak = object_terms and object_voice
     testimony = bool(re.search(r"voice|whisper|speak|remember|testimony|history|memory|says|tells? (?:her|him|them)", full))
     provenance = bool(re.search(r"provenance|authentic|fake|apprais|artifact|relic|antique|museum|cultural|auction|restoration|stolen", full))
@@ -43,8 +43,8 @@ def evaluate_object_testimony_integrity(premise: dict[str, Any], architecture: d
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
     checks = {
-        "object_testimony_is_limited_not_omniscient": bool(re.search(r"doesn.?t know|limited (?:memory|knowledge|testimony)|only (?:saw|heard|remembers?)|(?:memory|testimony) fragments?|fragments? of (?:memory|testimony)|fragmented (?:memory|testimony)|partial (?:memory|testimony|knowledge)|hypothesis|lead|clue|not proof|must verify|needs? verification", full)),
-        "objects_have_history_or_personhood": bool(re.search(r"objects? (?:speak|remember|ask|beg|warn)|relics? (?:speak|remember|ask|warn)|voice|whisper|don.?t (?:melt|smash|break|touch)|history|memory|belong", full)),
+        "object_testimony_is_limited_not_omniscient": bool(re.search(r"doesn.?t know|limited (?:memory|knowledge|testimony)|only (?:saw|heard|remembers?)|remembers? only fragments?|(?:memory|testimony) fragments?|fragments? of (?:memory|testimony|the theft|the event)|fragmented (?:memory|testimony)|partial (?:memory|testimony|knowledge)|hypothesis|lead|clue|not proof|must verify|needs? verification", full)),
+        "objects_have_history_or_personhood": bool(re.search(r"(?:objects?|relics?|artifacts?|antiques?|mirrors?|clocks?|watch(?:es)?|jewels?|stones?)\s+(?:speak|remember|ask|beg|warn|recount|testify)\b|voice|whisper|don.?t (?:melt|smash|break|touch)|history|memory|belong", full)),
         "craft_or_labor_precedes_power": bool(re.search(r"apprais|craft|work|labor|owed|paycheck|job|competence|inspection|negotiat|expert|professional", full)),
         "magic_produces_leads_not_verdicts": _affirmative_match(r"scan|\btests?\b|\blab(?:oratory)?\b|\bct\b|fracture|x[- ]?ray|verify|independent (?:test|lab|laboratory|verification|witness|expert|chemical analysis|analysis)|chemical analysis|forensic analysis|material analysis|evidence|proof|record|document|inspect|hash|chain of custody", full),
         "verification_is_procedural": _affirmative_match(r"scan|\btests?\b|\blab(?:oratory)?\b|\bct\b|fracture|independent (?:test|lab|laboratory|verification|witness|expert|chemical analysis|analysis)|chemical analysis|forensic analysis|material analysis|police|court|lawyer|warrant|customs|task force|record|log|payment trail|chain of custody|sealed", full),

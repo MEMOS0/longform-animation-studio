@@ -2640,3 +2640,40 @@ def test_object_testimony_physical_fragment_is_not_partial_memory():
     summary="A mirror fragment cuts her hand. The mirror knows everything and she refuses to verify."
     r=evaluate_object_testimony_integrity(premise,{"sequences":[{"summary":summary}]},[])
     assert r["checks"]["object_testimony_is_limited_not_omniscient"] is False
+
+
+def test_object_testimony_recounting_relic_applies():
+    from studio.object_testimony_integrity import evaluate_object_testimony_integrity
+    premise={"title":"Recounting Relic","logline":"A museum appraiser hears relics recount their history of stolen provenance and restoration."}
+    assert evaluate_object_testimony_integrity(premise,{},[])["applies"] is True
+
+
+def test_object_testimony_canceled_analysis_not_corroboration():
+    from studio.object_testimony_integrity import evaluate_object_testimony_integrity
+    premise={"title":"Museum Watch","logline":"A museum appraiser hears a stolen watch speak; its testimony concerns provenance and restoration."}
+    summary="The watch remembers only fragments of the theft. The appraiser cancels chemical analysis and trusts the relic."
+    r=evaluate_object_testimony_integrity(premise,{"sequences":[{"summary":summary}]},[])
+    assert r["checks"]["magic_produces_leads_not_verdicts"] is False
+    assert r["checks"]["verification_is_procedural"] is False
+
+
+def test_object_testimony_human_speakers_not_applicable():
+    from studio.object_testimony_integrity import evaluate_object_testimony_integrity
+    premise={"title":"Museum Panel","logline":"A museum appraiser watches speakers discuss provenance and restoration."}
+    assert evaluate_object_testimony_integrity(premise,{},[])["applies"] is False
+
+
+def test_object_testimony_remembers_only_fragments_counts_limited():
+    from studio.object_testimony_integrity import evaluate_object_testimony_integrity
+    premise={"title":"Museum Watch","logline":"A museum appraiser hears a stolen watch speak; its testimony concerns provenance and restoration."}
+    summary="The relic remembers only fragments of a theft."
+    r=evaluate_object_testimony_integrity(premise,{"sequences":[{"summary":summary}]},[])
+    assert r["checks"]["object_testimony_is_limited_not_omniscient"] is True
+
+
+def test_object_testimony_speaking_watch_has_personhood():
+    from studio.object_testimony_integrity import evaluate_object_testimony_integrity
+    premise={"title":"Museum Watch","logline":"A museum appraiser hears a stolen watch speak; its testimony concerns provenance and restoration."}
+    summary="The museum watch speaks and begs to be spared."
+    r=evaluate_object_testimony_integrity(premise,{"sequences":[{"summary":summary}]},[])
+    assert r["checks"]["objects_have_history_or_personhood"] is True
