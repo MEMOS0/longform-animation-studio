@@ -2342,3 +2342,46 @@ def test_coerced_rechoice_flags_wealth_absolution():
     assert r["checks"]["final_choice_is_partnership_not_rescue"] is False
     assert r["checks"]["money_is_not_accepted_as_substitute_repair"] is False
     assert r["warnings"]
+
+
+def test_attachment_repair_ignores_deadline_as_loss_word():
+    from studio.attachment_repair_integrity import evaluate_attachment_repair_integrity
+    result = evaluate_attachment_repair_integrity(
+        {"title": "Emberseed Oven Cart", "logline": "A child and parent face a festival deadline while caring for a fire creature; the child is scared but hopeful."},
+        {"sequences": []},
+        [],
+    )
+    assert result["applies"] is False
+
+
+def test_patronage_ignores_owe_inside_powered_and_generic_opportunity():
+    from studio.patronage_consent_integrity import evaluate_patronage_consent_integrity
+    result = evaluate_patronage_consent_integrity(
+        {"title": "Clockwork Orphan Bench", "logline": "A discarded billionaire packaging concept becomes a powered bench that gives an orphan an opportunity to repair clocks."},
+        {"sequences": []},
+        [],
+    )
+    assert result["applies"] is False
+
+
+def test_ending_safety_cannot_come_from_premise_setup_alone():
+    from studio.attachment_repair_integrity import evaluate_attachment_repair_integrity
+    premise = {"title": "Reunion", "logline": "A grieving father believes his daughter is dead until his long-lost child comes home; the ending has a teacher, safe home, school, therapy, and shared meal."}
+    result = evaluate_attachment_repair_integrity(premise, {"sequences": []}, [])
+    assert result["applies"] is True
+    assert result["checks"]["ending_proves_ordinary_safety_systems"] is False
+
+
+def test_patronage_and_rechoice_endings_cannot_come_from_premise_alone():
+    from studio.patronage_consent_integrity import evaluate_patronage_consent_integrity
+    from studio.coerced_rechoice_integrity import evaluate_coerced_rechoice_integrity
+    patronage = evaluate_patronage_consent_integrity(
+        {"title": "Patron", "logline": "A poor village girl owes money; a billionaire patron offers education and opportunity, and the ending returns to the village school."},
+        {"sequences": []}, [],
+    )
+    assert patronage["checks"]["success_returns_as_communal_consequence"] is False
+    rechoice = evaluate_coerced_rechoice_integrity(
+        {"title": "Forced", "logline": "A woman is forced to marry a poor single dad who is secretly a billionaire CEO, and she freely chooses him as partner, not rescuer."},
+        {"sequences": []}, [],
+    )
+    assert rechoice["checks"]["final_choice_is_partnership_not_rescue"] is False

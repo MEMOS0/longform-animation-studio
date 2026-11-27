@@ -20,8 +20,8 @@ def evaluate_coerced_rechoice_integrity(premise: dict[str, Any], architecture: d
     architecture_text = _text(architecture).lower()
     scenes_text = _text(scenes).lower()
     full = "\n".join([premise_text, architecture_text, scenes_text])
-    ordered = "\n".join([architecture_text, scenes_text, premise_text])
-    ending = ordered[-max(1, len(ordered) // 3):]
+    ending_source = "\n".join([architecture_text, scenes_text])
+    ending = ending_source[-max(1, len(ending_source) // 3):] if ending_source else ""
 
     marriage = bool(re.search(r"marry|marriage|husband|wife|bride|wedding", full))
     coercion = bool(re.search(r"forced|coerce|blackmail|in exchange|leverage|threat|took .*children|missing (?:twins|children)|no choice", full))
