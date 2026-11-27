@@ -238,3 +238,7 @@ Next: handle any new PR #7 findings, commit/push this checkpoint, then continue 
 ## 2026-11-27 CineAI checkpoint
 
 CineAI hit/medium/low comparison completed. `gw1SsVcha0Y` deep dive, machine timelines, contact sheets, audio caveat metrics, thumbnail archive, skill/thumbnail integration, and `dual_incognito_workplace_integrity` are implemented. Tests: 444 passed. Next fresh candidates: Fated `B8bd364FM-8`, CrushLoop `6k_W9eG6mAU`, Hushfall `4m3u8UMUgDg`; then return to task 8 scene-specific dialogue scaffolds. Handle any new PR #7 review findings first.
+
+## 2026-11-27 fresh candidate download/analysis checkpoint
+
+Downloads completed for Fated Romance Drama `B8bd364FM-8` (79.1m, ~475k views, 13.1k subs; ruthless tyrant/devoted dad/dragon king child-care fantasy) and CrushLoop Drama `6k_W9eG6mAU` (91.8m, ~368k views, 10.4k subs; reborn healer/three alphas/tribal altar fantasy). Full media is in `C:/Users/Administrator/evidence_tmp/media_queue/`; subtitles/metadata are in `data/raw/piped/`. Machine analysis is running in shell `fresh_media_analysis`; Hushfall `4m3u8UMUgDg` download is still in shell `fresh_downloads`. After review findings, inspect machine summaries/contact sheets/subtitle structure, compare novelty against creature/protective-kinship/healer/contract-marriage doctrines, then decide whether either warrants a validator.
