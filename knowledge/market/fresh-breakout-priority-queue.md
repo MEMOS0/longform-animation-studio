@@ -99,3 +99,5 @@ Full audiovisual deep dive completed in `knowledge/market/nexora-mechanic-constr
 - CineAI `gw1SsVcha0Y` deep dive completed 2026-11-27: `knowledge/market/cineai-grand-crescent-dual-incognito-workplace-deep-dive.md`; `dual_incognito_workplace_integrity` added; hit/medium/low channel comparison and thumbnail archive integrated. Remaining fresh candidates: Fated `B8bd364FM-8`, CrushLoop `6k_W9eG6mAU`, Hushfall `4m3u8UMUgDg`.
 
 - Hushfall `4m3u8UMUgDg` hit deep dive completed 2026-11-27: reciprocal-incognito contract mechanism documented; within-channel hit/low comparison still pending before any dedicated validator.
+
+- Fated/CrushLoop same-format hit-low comparison completed 2026-11-27: `knowledge/market/fated-crushloop-hit-low-comparison.md`; low performers falsify visual-quality and dialogue-density explanations. Validators deferred pending broader repetition.
