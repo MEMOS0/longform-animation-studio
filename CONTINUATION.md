@@ -809,3 +809,12 @@ Continue immediately with non-creature low-subscriber queue: `s-Zn2WhkkH8`, `wHW
 - Review job `pr-review-job-05fab6f81e35443f99de0c1055edb4af` fixed/triaged/end-triaged. Fixes: third-person artifact speech recognized; coordinated clauses split at 'and' so unrelated cancellations do not negate valid corroboration; ambiguous non-speech 'reveal' no longer triggers object-testimony applicability.
 - A newer review may be running on `2401efc`; handle findings first if they arrive.
 - Next substantive work: cleanup stale fresh-breakout queue, dedupe candidates before download, continue low-subscriber/noncreature comparative analysis, then deepen professional dialogue integration.
+
+## 2026-11-27 rotate after fifth object-testimony review round
+
+- Latest pushed commit: `ad45d396160a38c1d25f54c749b63a76b70da2ad`.
+- Latest verified test baseline: 306 passed.
+- Review job `pr-review-job-978c1978544a4470968dfd1551f90f0b` fixed/triaged/end-triaged. Fixes: testify/reveal-aloud applicability, third-person speaking artifact personhood, and exclusion of the nonliteral idiom 'speaks volumes'.
+- A newer review may be running on `ad45d39`; handle findings first if they arrive.
+- Important strategic note: object-testimony review is generating adversarial NLP edge cases. Continue fixing true inconsistencies, but reject pure language-theory edge cases if they do not affect real generated/research artifacts.
+- Next substantive work: cleanup stale fresh-breakout queue, dedupe candidates before download, continue low-subscriber/noncreature comparative analysis, then deepen professional dialogue integration.
