@@ -444,3 +444,9 @@ Before greenlighting supernatural child-memory/crime-investigation thrillers, re
 Use the `supernatural_child_witness` project-evaluation gate as a warning system, not as a hit predictor. Do not copy Beyond the Night's plot, dialogue, characters, or thumbnail; extract the mechanism and build original stories.
 
 Packaging caution: the film's generic soldier/action thumbnail diverges sharply from its actual supernatural-family mystery engine. Record packaging/content divergence as a variable and compare broad action iconography against accurate vulnerability/protection or procedural-mystery concepts instead of assuming either is universally superior.
+
+## 2026-11-27 consent-aware patronage transformation doctrine update
+
+Before greenlighting patronage/transformation romance, read `knowledge/market/ananse-kukua-patronage-consent-transformation-deep-dive.md`. The portable mechanism is not “rich man transforms poor woman.” It is operational worth before beauty, concrete economic interruption, consent-designed patronage, procedural training, dependency-suppressed romance, transfer of financial/professional control, independent refusal of comfort, benefactor collapse before free re-choice, procedural justice, and communal consequence after success.
+
+Use the `patronage_consent_integrity` project-evaluation gate as a warning system, not as a hit predictor. Do not copy Kukua Asante's plot, characters, dialogue, or thumbnail; extract the mechanism and build original stories.

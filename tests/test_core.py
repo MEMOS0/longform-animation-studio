@@ -2247,3 +2247,41 @@ def test_supernatural_child_witness_single_accepted_explanation_is_not_competiti
         [],
     )
     assert result["checks"]["competing_explanations_for_child_knowledge"] is False
+
+
+def test_patronage_consent_full_chain_passes():
+    from studio.patronage_consent_integrity import evaluate_patronage_consent_integrity
+    premise = {"title": "The Girl He Believed In", "logline": "A billionaire patron helps a poor village girl pursue education and modeling, then loses everything before she freely chooses him."}
+    architecture = {"sequences": [
+        {"summary": "She serves the women and works to support her mother after her father died and debts blocked school. The wealthy patron offers education with no pressure, private decision time, accommodation, boundaries, and respect for refusal."},
+        {"summary": "She earns transformation through school, coaching, practice, feedback, driving lessons, and fashion training. He knows she depends on me and does not ask her to belong to him. She controls passwords, accounts, earnings, contract review, lawyer review, and travel arrangements. She turns down another comfortable proposal because security without love is not enough."},
+        {"summary": "He is arrested, accounts freeze, and court evidence puts him in prison. Lawyers examine documents, signatures, case files, testimony, appeal, bail, and original records until acquittal."},
+        {"summary": "After he loses everything, she publicly asks marry me and chooses him. They return to the village to fund a roof, drainage, school support, and community rebuilding."},
+    ]}
+    result = evaluate_patronage_consent_integrity(premise, architecture, [])
+    assert result["applies"] is True
+    assert result["score_0_to_1"] == 1.0
+    assert result["warnings"] == []
+
+
+def test_patronage_consent_requires_dependency_patronage_context():
+    from studio.patronage_consent_integrity import evaluate_patronage_consent_integrity
+    result = evaluate_patronage_consent_integrity(
+        {"title": "Model", "logline": "A woman becomes a model through work."},
+        {"sequences": []},
+        [],
+    )
+    assert result["applies"] is False
+
+
+def test_patronage_consent_flags_debt_repayment_romance():
+    from studio.patronage_consent_integrity import evaluate_patronage_consent_integrity
+    result = evaluate_patronage_consent_integrity(
+        {"title": "Bought Bride", "logline": "A billionaire transforms a poor village girl into a model and she marries him because she owes him."},
+        {"sequences": [{"summary": "He pays for everything, tells her she belongs to him, and she accepts immediately."}]},
+        [],
+    )
+    assert result["applies"] is True
+    assert result["checks"]["dependency_suppresses_romantic_pressure"] is False
+    assert result["checks"]["benefactor_collapse_inverts_power_before_choice"] is False
+    assert result["warnings"]

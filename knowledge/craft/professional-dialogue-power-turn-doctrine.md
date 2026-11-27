@@ -190,3 +190,13 @@ Evidence source: `knowledge/market/frame-horizon-beyond-night-supernatural-inves
 3. **Keep skepticism in the room after evidence begins.** Ray's resistance to reincarnation framing preserves tension because interpretation and proof remain separate. The audience can believe the clue while doubting the explanation.
 4. **Care language must interrupt extraction language.** “You are not alone” and “I will keep you safe” should actively stop adults from interrogating the child as an oracle.
 5. **The confession should reveal moral contradiction, not only culprit identity.** Marty's “I loved her / I tried” material lands because love, cowardice, protection, and violence coexist. Culprit naming alone is thinner.
+
+## Patronage/consent dialogue addendum from *Kukua Asante* (2026-11-27)
+
+Evidence source: `knowledge/market/ananse-kukua-patronage-consent-transformation-deep-dive.md`.
+
+1. **Ethical patronage must speak the power imbalance aloud.** Eliot's “she still depends on me” is stronger than generic kindness because it names exactly why confession would contaminate consent.
+2. **Training dialogue should protect identity rather than erase it.** The voice-coaching scene works because the goal is the middle voice that “still sounds like you,” not a polished replacement self.
+3. **Material care becomes romantic evidence when phrased as responsibility, not ownership.** “You're not a bill I can return” answers shame and fear of disposal without demanding intimacy.
+4. **Legal/professional consent belongs in dialogue.** Lawyer review, contract sections, travel arrangements, account passwords, and control of earnings are dramatic proof because characters say and act on them.
+5. **The final choice should reverse who is protected from whom.** Kukua's proposal works because she tells Eliot not to protect her from her own feelings; agency becomes audible action.

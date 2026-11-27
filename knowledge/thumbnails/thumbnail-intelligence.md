@@ -127,3 +127,9 @@ This is a design-support heuristic, not a predictor. The correct validation path
 Evidence source: `knowledge/market/frame-horizon-beyond-night-supernatural-investigation-deep-dive.md` and `data/raw/thumbnails/frame_horizon/V5VfY1lfN2c.maxresdefault.jpg`.
 
 The Frame Horizon thumbnail uses broad soldier/action imagery and “FULL MOVIE” text while the film's actual differentiating engine is supernatural child-witness investigation plus father-son protection. Treat this as a counterexample to rigid thumbnail-accuracy rules, not as proof that misleading packaging works. Record thumbnail/content divergence as a distinct packaging variable: broad genre iconography, accurate unique hook, vulnerability/protection pairing, and procedural mystery imagery should be separate concept families for future A/B testing. Never infer CTR causality without private test data.
+
+## Multi-contract transformation/legal-melodrama packaging addendum (2026-11-27)
+
+Evidence source: `knowledge/market/ananse-kukua-patronage-consent-transformation-deep-dive.md` and `data/raw/thumbnails/ananse_web_of_tales/Z0kns4pvIH4.maxresdefault.jpg`.
+
+The Kukua thumbnail compresses romance, imprisonment, wealth, and belief into one legible montage: glamorous central woman, suited partner, bruised prisoner, bars, mansion/car, and “THE GIRL HE BELIEVED IN.” It is more aligned with the actual film than the generic Frame Horizon action thumbnail, but it still omits much of the village/colorism/training origin. Treat this as a multi-contract packaging pattern: show the status inversion and relational promise first, then let title/description carry the transformation origin.
