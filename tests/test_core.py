@@ -4289,3 +4289,17 @@ def test_labor_romance_consent_negation_and_unrelated_objection_regressions():
     repaired={'sequences':[{'summary':'She accepts a schedule change without objection. Later he kisses her without asking. She refuses and says stop. He apologizes, asks for permission, and changes his behavior.'}]}
     repaired_result=evaluate_labor_romance_power_balance_integrity(premise,repaired,[])
     assert repaired_result['checks']['consent_pressure_is_named_not_romanticized'] is True
+
+def test_cozy_disaster_shelter_validator_positive_and_generic_negative():
+    from studio.cozy_disaster_shelter_integrity import evaluate_cozy_disaster_shelter_integrity
+    premise={'logline':'In 1960, a Japanese farming family with a grandmother, young son, daughter, and Shiba dog prepares their riverside wooden home for a typhoon survival night.'}
+    architecture={'sequences':[{'summary':'They farm, harvest, cook, clean, and prepare food before the flood. Inside warm lantern light contrasts with the storm outside the window. With little rice and limited drinking water remaining, they move upstairs, board the window, protect the wooden home, and sacrifice the wooden boat. The child helps feed the dog. After the floodwaters recede they rebuild the village at sunrise.'}]}
+    result=evaluate_cozy_disaster_shelter_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.9
+
+    generic={'logline':'A family survives a storm in a shelter.'}
+    generic_result=evaluate_cozy_disaster_shelter_integrity(generic,{},[])
+    assert generic_result['applies'] is True
+    assert generic_result['score_0_to_1'] < 0.5
+    assert generic_result['warnings']
