@@ -38,28 +38,38 @@ def evaluate_adversarial_coparent_integrity(premise: dict[str, Any], architectur
     narrative = "\n".join([_text(architecture), _text(scenes)]).lower()
     full = "\n".join([_text(premise), narrative]).lower()
 
-    law_enforcement = bool(re.search(r"fbi|police|detective|investigator|agent|undercover cop|special agent", full))
-    criminal_power = bool(re.search(r"mafia|mob|crime family|godfather|cartel|assassin|criminal empire|underworld", full))
-    romance_family = bool(re.search(r"husband|wife|married|marriage|romance|fall(?:ing)? in love|family", full))
+    oversight_power = bool(re.search(r"fbi|police|detective|investigator|agent|undercover cop|special agent|inspector|regulator|journalist|whistleblower", full))
+    concentrated_power = bool(re.search(r"mafia|mob|crime family|godfather|cartel|assassin|criminal empire|underworld|extraction (?:heir|company|empire)|company heir|corporate heir|executive|billionaire heir|landowner", full))
+    romance_family = bool(re.search(r"husband|wife|spouse|married|marriage|marry\w*|romance|fall(?:ing)? in love|family", full))
     dependent = bool(re.search(r"child|children|kid|son|daughter|dependent|apprentice|student", full))
-    cover_terms = len(set(re.findall(r"security guard|debt collector|driver|assistant|ordinary (?:guy|man|woman|job)|night shift|regular job|bodyguard|nanny|maid", full)))
-    if not (law_enforcement and criminal_power and romance_family and dependent and cover_terms):
+    cover_terms = len(set(re.findall(r"security guard|debt collector|driver|assistant|ordinary (?:guy|man|woman|job)|night shift|regular job|bodyguard|nanny|maid|cook|cleaner|field aide|bookkeeper|archivist|clerk|gardener|mechanic|repairer|porter|server", full)))
+    concealment = bool(re.search(r"hidden identity|secret identity|conceal\w* (?:their|her|his|the)? ?identit|posing as|pretending to be|unaware|incognito|cover identity|hides? (?:her|his|their) (?:real )?(?:identity|work|role)", full))
+    if not (oversight_power and concentrated_power and romance_family and dependent and concealment and cover_terms >= 2):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
-    reveal_pos = _pos(r"identity reveal|real identity|who you actually married|i['’]?m (?:with )?(?:the )?(?:fbi|mafia)|truth comes out", narrative)
-    if reveal_pos is None:
-        reveal_pos = 10**9
-    early_text = narrative[:reveal_pos]
+    reveal_pattern = r"identity reveal|real identity|who you actually married|i['’]?m (?:with )?(?:the )?(?:fbi|mafia)|truth comes out"
+    arch_text = _text(architecture).lower()
+    reveal_pos = _pos(reveal_pattern, arch_text)
+    early_parts = [arch_text[:reveal_pos] if reveal_pos is not None else arch_text]
+    for scene in scenes:
+        scene_text = _text(scene).lower()
+        scene_reveal = _pos(reveal_pattern, scene_text)
+        if scene_reveal is None:
+            early_parts.append(scene_text)
+        else:
+            early_parts.append(scene_text[:scene_reveal])
+            break
+    early_text = "\n".join(early_parts)
 
     checks = {
         "dual_cover_is_ordinary_labor": cover_terms >= 2 or bool(re.search(r"ordinary (?:guy|man|woman|job)", full)),
         "children_catalyze_but_do_not_own_adult_choice": bool(re.search(r"child\w*|son|daughter", full)) and _affirmative(r"free will|own choices?|adult decision|children only introduced|only introduced us", full),
         "material_care_precedes_status_reward": bool(re.search(r"steady (?:pay|job)|dinner|bedtime stor|rent|bills|shared (?:cost|home)|toys|school|meal|not baggage", early_text)),
-        "adversarial_institutions_create_real_stakes": law_enforcement and criminal_power and bool(re.search(r"hunt\w*|investigat\w*|target\w*|arrest|surveillance|expose\w*|enemy|rival", full)),
+        "adversarial_institutions_create_real_stakes": oversight_power and concentrated_power and bool(re.search(r"hunt\w*|investigat\w*|target\w*|arrest|surveillance|expose\w*|enemy|rival", full)),
         "concealment_creates_named_epistemic_debt": bool(re.search(r"deciding when to tell|how much else did you decide|no more secrets|making decisions on each other['’]?s behalf|full disclosure|information asymmetry|couldn['’]?t tell|hide things forever", full)),
         "evidence_is_procedural_multi_source": sum(bool(re.search(pattern, full)) for pattern in [r"ledger|personnel record", r"security footage|surveillance", r"witness statement", r"financial record", r"communication", r"confession.*tape|recorded confession"]) >= 2,
         "climax_converts_no_more_secrets_into_joint_behavior": bool(re.search(r"no more secrets", full) and re.search(r"together|backup|tactical team|joint|share (?:the )?(?:video|evidence|information)|we figure it out", full)),
-        "children_are_not_secret_keepers_or_family_glue": bool(re.search(r"children carry our secrets|make them cover|grown-up problems are for grown-ups|settle it ourselves|not make.*keep secrets|did nothing wrong", full)),
+        "children_are_not_secret_keepers_or_family_glue": bool(re.search(r"(?:must not|cannot|can't|never|don't|do not) (?:make|let).{0,50}(?:child\w*|kid\w*|son|daughter).{0,40}(?:carry|cover|keep).{0,30}(?:secret|lie)|grown-up problems are for grown-ups|settle it ourselves|not make.{0,30}keep secrets|did nothing wrong", full)),
         "ending_is_informed_adult_rechoice": bool(re.search(r"choose me again|proper proposal|second wedding|this time.*choice|full identity|respect (?:her|his|their) choices|always be honest|marry.*free will", full[-5000:])),
         "institutional_accountability_survives_romance": bool(re.search(r"conflict of interest|handover|other agents|investigation|arrest|secured.*records|cleared review|not innocent", full[-6000:])),
     }

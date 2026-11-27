@@ -4140,9 +4140,46 @@ def test_adversarial_coparent_integrity_positive_and_non_applicable():
 
 def test_adversarial_coparent_integrity_warns_when_children_force_consent():
     from studio.adversarial_coparent_integrity import evaluate_adversarial_coparent_integrity
-    premise={'logline':'An FBI agent and mafia boss marry as husband and wife because their daughter and son demand it; he is a security guard and she is a debt collector.'}
+    premise={'logline':'An FBI agent and mafia boss conceal their identities as a security guard and debt collector; unaware, they marry as husband and wife because their daughter and son demand it.'}
     architecture={'sequences':[{'summary':'The investigation and hunting escalate, but no one says the marriage was an adult decision or free choice.'}]}
     result=evaluate_adversarial_coparent_integrity(premise,architecture,[])
     assert result['applies'] is True
     assert result['checks']['children_catalyze_but_do_not_own_adult_choice'] is False
     assert any('children or dependents' in w for w in result['warnings'])
+
+def test_adversarial_coparent_requires_dual_incognito_not_borrowed_cover_job():
+    from studio.adversarial_coparent_integrity import evaluate_adversarial_coparent_integrity
+    premise={'logline':'An openly identified FBI agent and an openly identified mafia boss are husband and wife with a son; a supporting neighbor works as a security guard.'}
+    result=evaluate_adversarial_coparent_integrity(premise,{},[])
+    assert result['applies'] is False
+
+
+def test_adversarial_coparent_applies_to_climate_extraction_translation():
+    from studio.adversarial_coparent_integrity import evaluate_adversarial_coparent_integrity
+    premise={'logline':'A climate inspector and an extraction heir conceal their identities, posing as a field aide and a bookkeeper while raising an apprentice together as husband and wife.'}
+    architecture={'sequences':[{'summary':'They investigate and expose each other as enemies, then must decide what marriage means.'}]}
+    result=evaluate_adversarial_coparent_integrity(premise,architecture,[])
+    assert result['applies'] is True
+
+
+def test_adversarial_coparent_detects_forced_child_secrecy():
+    from studio.adversarial_coparent_integrity import evaluate_adversarial_coparent_integrity
+    premise={'logline':'An FBI agent and mafia boss conceal their identities as a security guard and debt collector; unaware spouses marry and raise a daughter and son.'}
+    architecture={'sequences':[{'summary':'The adults explicitly make the children cover their lies and carry adult secrets.'}]}
+    result=evaluate_adversarial_coparent_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['checks']['children_are_not_secret_keepers_or_family_glue'] is False
+    assert any('children carry adult secrets' in w for w in result['warnings'])
+
+
+def test_adversarial_coparent_reads_scene_care_before_architecture_reveal_label():
+    from studio.adversarial_coparent_integrity import evaluate_adversarial_coparent_integrity
+    premise={'logline':'An FBI agent and mafia boss conceal their identities as a security guard and debt collector; unaware spouses marry and raise a daughter and son.'}
+    architecture={'sequences':[{'summary':'Identity reveal happens in the final movement.'}]}
+    scenes=[
+        {'scene_id':'S01','summary':'She helps him find a steady job; they share dinner, bedtime stories, rent and bills.'},
+        {'scene_id':'S08','summary':'Identity reveal forces both institutions into the open.'},
+    ]
+    result=evaluate_adversarial_coparent_integrity(premise,architecture,scenes)
+    assert result['applies'] is True
+    assert result['checks']['material_care_precedes_status_reward'] is True
