@@ -151,3 +151,9 @@ The Lulu thumbnail demonstrates a child-invoice/public-claim pattern: the child 
 Evidence source: `knowledge/market/nightfall-ivy-economic-abandonment-repair-deep-dive.md` and `data/raw/thumbnails/nightfall_drama/26o_ccDnTSg.maxresdefault.webp`.
 
 The Nightfall thumbnail demonstrates transport-threshold abandonment: wedding dress, letter, suitcase/bouquet, station depth, clock/architecture, and the groom's departing back. The image accurately sells the wound while concealing the solution. This is useful when the retention engine is repair/process rather than more humiliation; packaging can be truthful without exposing every procedural payoff.
+
+## Class-crossing recognition thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/nightfall-luke-wrongful-accusation-restoration-deep-dive.md` and `data/raw/thumbnails/nightfall_drama/xhqE43r-faA.maxresdefault.webp`.
+
+The Luke thumbnail uses class-crossing recognition: wet sidewalk, coin cup, homeless clothing, tactile face touch, crying woman, and the powerful husband upright in the background. The emotional action crosses a status boundary instead of merely displaying wealth. Compared with Nightfall's train-station thumbnail, both sell the wound accurately while withholding the procedural repair chain.

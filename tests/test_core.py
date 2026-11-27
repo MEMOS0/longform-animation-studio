@@ -2430,3 +2430,27 @@ def test_economic_abandonment_requires_measurable_restitution():
     r=evaluate_economic_abandonment_integrity(premise,{"sequences":[{"summary":"She feels better because a wealthy man loves her."}]},[])
     assert r["checks"]["restitution_is_measurable"] is False
     assert r["checks"]["first_repair_is_mutual_aid_and_work"] is False
+
+
+def test_wrongful_accusation_full_chain_passes():
+    from studio.wrongful_accusation_integrity import evaluate_wrongful_accusation_integrity
+    premise={"title":"Sixteen Years","logline":"A homeless scholarship student was framed and expelled for theft, and years later a planted necklace repeats the false accusation while evidence and court truth repair him."}
+    architecture={"sequences":[{"summary":"His tools, repair, fix, work, job as groundskeeper, practical competence and labor come before pity. Nobody hires him after he is homeless, expelled, loses scholarship, housing, credit, reputation and career. Spencer still wears the same watch, the letter and planted fake copy are material contradictions. The necklace in the bag repeats the same trick, planted again like the watch in the bag as a second accusation. He gets a job and work for dignity, earns labor not charity, says not with your money, not for me, don't pay. She investigates questions, timeline, records, evidence, doubt, prove, verify and chain of custody instead of instantly believing. Camera footage, 911 log record, pawn jeweler witness court judge warrant lawyer signature documents evidence and chain of custody prove truth. Not with your money, not for me, don't pay because if you pay he wins preserves agency. In the ending Northbrook apology, readmission, scholarship, semester, school, reputation restored, land stays in trust, career and job restore the future. He says you don't have to answer, ask, if you still want, this time, consent, choose, will you, and she says yes."}]}
+    r=evaluate_wrongful_accusation_integrity(premise,architecture,[])
+    assert r["applies"] is True
+    assert r["score_0_to_1"] == 1.0
+
+
+def test_wrongful_accusation_rejects_unverified_romantic_belief():
+    from studio.wrongful_accusation_integrity import evaluate_wrongful_accusation_integrity
+    premise={"title":"Framed","logline":"A homeless scholarship student was framed and expelled for theft, but his old love simply knows he is innocent and they run away rich."}
+    r=evaluate_wrongful_accusation_integrity(premise,{"sequences":[{"summary":"She loves him, so nobody needs evidence."}]},[])
+    assert r["applies"] is True
+    assert r["checks"]["truth_chain_is_procedural"] is False
+    assert r["checks"]["institutional_restoration_repairs_stolen_future"] is False
+
+
+def test_wrongful_accusation_rejects_nonstatus_accusation():
+    from studio.wrongful_accusation_integrity import evaluate_wrongful_accusation_integrity
+    r=evaluate_wrongful_accusation_integrity({"title":"Mystery","logline":"A person is accused of stealing a sandwich and immediately confesses."},{"sequences":[]},[])
+    assert r["applies"] is False

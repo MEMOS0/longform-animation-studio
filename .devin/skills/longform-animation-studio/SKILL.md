@@ -478,3 +478,9 @@ For any child-centered family melodrama, read `knowledge/craft/child-agency-comp
 Before greenlighting class-abandonment/romantic betrayal melodrama, read `knowledge/market/nightfall-ivy-economic-abandonment-repair-deep-dive.md`. The portable mechanism is stripped identity infrastructure, first rescue through mutual-aid work rather than wealthy romance, financial/legal competence before security, refusal of class bribes or purchased rescue, procedural evidence, measurable restitution, chosen-family inclusion, conditional free acceptance, and an ending that converts the abandonment threshold into owned belonging.
 
 Use the `economic_abandonment_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy Ivy's train-station plot, orchard mechanics, dialogue, or thumbnail; extract the mechanism and build original stories.
+
+## 2026-11-27 wrongful-accusation restoration doctrine update
+
+Before greenlighting wrongful-accusation/class-stigma melodrama, read `knowledge/market/nightfall-luke-wrongful-accusation-restoration-deep-dive.md`. The portable mechanism is practical competence before pity, material contradiction, repeated frame-up, dignified work, anti-payment boundary, investigative rather than instant romantic belief, procedural evidence chain, institutional restoration of the stolen future, and present-tense consent in romantic closure.
+
+Use the `wrongful_accusation_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy Luke's watch/necklace/letter plot or thumbnail; extract the mechanism and build original stories.

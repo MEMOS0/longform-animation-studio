@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.066" end="00:00:01.333" style="s2">Thirty days, Conrad.</p>
+<p begin="00:00:01.333" end="00:00:03.366" style="s2">That&#39;s what I said. Every penny.</p>
+<p begin="00:00:05.166" end="00:00:09.266" style="s2">Move your junk off the sidewalk. Yes, sir.</p>
+<p begin="00:00:16.733" end="00:00:23.633" style="s2">...Luke? Hi, Hannah.</p>
+<p begin="00:00:23.633" end="00:00:26.966" style="s2">Hannah. Oh my God.</p>
+<p begin="00:00:28.400" end="00:00:29.633" style="s2">It&#39;s really you.</p>
+<p begin="00:00:31.466" end="00:00:33.066" style="s2">Hannah. Don&#39;t touch him.</p>
+<p begin="00:00:34.266" end="00:00:38.000" style="s2">Spencer, it&#39;s Luke. Luke Bennett. From Northbrook.</p>
+<p begin="00:00:44.600" end="00:00:46.666" style="s2">Spencer Hale.</p>
+<p begin="00:00:46.666" end="00:00:47.633" style="s2">So he&#39;s the one you married.</p>
+<p begin="00:00:49.233" end="00:00:52.733" style="s2">Sorry. Have we met?</p>
+<p begin="00:00:53.766" end="00:00:55.800" style="s2">We have. You&#39;re the reason Northbrook threw me out.</p>
+<p begin="00:00:58.266" end="00:00:59.833" style="s2">Spencer, what is he talking about?</p>
+<p begin="00:01:02.333" end="00:01:03.366" style="s2">He stole my watch</p>
+<p begin="00:01:03.566" end="00:01:04.333" style="s2">sophomore year.</p>
+<p begin="00:01:04.333" end="00:01:05.433" style="s2">The whole campus knew.</p>
+<p begin="00:01:11.400" end="00:01:13.933" style="s2">Funny thing. You&#39;re still wearing it.</p>
+<p begin="00:01:17.066" end="00:01:19.533" style="s2">Hannah. Car. Now.</p>
+<p begin="00:01:20.800" end="00:01:25.066" style="s2">Luke, where are you staying? I&#39;m fine. Go on.</p>
+<p begin="00:01:27.466" end="00:01:28.733" style="s2">Watch yourself, Spencer.</p>
+<p begin="00:01:29.400" end="00:01:30.633" style="s2">The last thing you slipped into</p>
+<p begin="00:01:30.633" end="00:01:32.400" style="s2">my bag cost me sixteen years.</p>
+<p begin="00:01:42.400" end="00:01:44.533" style="s2">Hannah. You dropped this.</p>
+<p begin="00:01:52.266" end="00:01:55.766" style="s2">My mother&#39;s. I just picked it up from the jeweler.</p>
+<p begin="00:01:56.366" end="00:01:57.600" style="s2">They fixed the clasp.</p>
+<p begin="00:01:58.433" end="00:01:59.333" style="s2">Thirty-six stones.</p>
+<p begin="00:01:59.833" end="00:02:01.766" style="s2">I counted every one on the walk over,</p>
+<p begin="00:02:01.766" end="00:02:03.400" style="s2">so nobody could ever say one went missing.</p>
+<p begin="00:02:04.866" end="00:02:06.400" style="s2">Count them again when we get home.</p>
+<p begin="00:02:12.133" end="00:02:13.866" style="s2">That clasp&#39;s gonna open on you.</p>
+<p begin="00:02:14.400" end="00:02:16.133" style="s2">They put the safety catch in backwards.</p>
+<p begin="00:02:31.000" end="00:02:33.933" style="s2">You still have those pliers.</p>
+<p begin="00:02:34.266" end="00:02:35.566" style="s2">The ones with the chipped jaw.</p>
+<p begin="00:02:35.666" end="00:02:36.566" style="s2">Never lost them.</p>
+<p begin="00:02:37.366" end="00:02:39.166" style="s2">Let me help you. Please.</p>
+<p begin="00:02:42.600" end="00:02:43.666" style="s2">You already did.</p>
+<p begin="00:02:45.400" end="00:02:47.433" style="s2">You said my name like I was still somebody.</p>
+<p begin="00:02:49.000" end="00:02:49.766" style="s2">Drive.</p>
+<p begin="00:02:57.933" end="00:03:01.133" style="s2">“Have we met?” You knew exactly who he was.</p>
+<p begin="00:03:02.433" end="00:03:03.633" style="s2">Of course I knew him.</p>
+<p begin="00:03:04.333" end="00:03:05.733" style="s2">He was a thief, Hannah.</p>
+<p begin="00:03:05.866" end="00:03:07.233" style="s2">The school kicked him out.</p>
+<p begin="00:03:07.733" end="00:03:10.966" style="s2">He fixed my bike for a whole year and never took a cent.</p>
+<p begin="00:03:11.833" end="00:03:12.833" style="s2">That&#39;s not a thief.</p>
+<p begin="00:03:15.366" end="00:03:16.433" style="s2">And then he disappeared.</p>
+<p begin="00:03:17.133" end="00:03:19.666" style="s2">No call. No note. Nothing. I&#39;m</p>
+<p begin="00:03:20.466" end="00:03:21.866" style="s2">the one who stuck around.</p>
+<p begin="00:03:26.966" end="00:03:28.066" style="s2">Who&#39;s Conrad?</p>
+<p begin="00:03:28.866" end="00:03:29.666" style="s2">Business.</p>
+<p begin="00:03:34.133" end="00:03:36.066" style="s2">The Luke I knew was gonna build bridges.</p>
+<p begin="00:03:37.433" end="00:03:38.233" style="s2">Plans changed.</p>
+<p begin="00:03:39.366" end="00:03:40.533" style="s2">What happened to you?</p>
+<p begin="00:03:41.933" end="00:03:44.233" style="s2">Nobody hires a guy who got expelled for theft.</p>
+<p begin="00:03:45.266" end="00:03:47.766" style="s2">Every application asks why you left Northbrook.</p>
+<p begin="00:03:49.366" end="00:03:50.400" style="s2">My mom got worse.</p>
+<p begin="00:03:51.266" end="00:03:52.133" style="s2">Then she was gone,</p>
+<p begin="00:03:52.133" end="00:03:53.200" style="s2">and so was the house.</p>
+<p begin="00:03:54.566" end="00:03:57.433" style="s2">I worked under the table at a garage for twelve years.</p>
+<p begin="00:03:58.200" end="00:03:59.033" style="s2">The owner died,</p>
+<p begin="00:03:59.033" end="00:03:59.966" style="s2">they shut it down.</p>
+<p begin="00:04:01.366" end="00:04:03.066" style="s2">This is my second winter out here.</p>
+<p begin="00:04:04.166" end="00:04:06.266" style="s2">My dad&#39;s place needs a groundskeeper.</p>
+<p begin="00:04:06.833" end="00:04:08.233" style="s2">Nothing there works anymore.</p>
+<p begin="00:04:09.633" end="00:04:11.600" style="s2">Your husband won&#39;t let me past the front gate.</p>
+<p begin="00:04:12.433" end="00:04:13.633" style="s2">It&#39;s my father&#39;s land.</p>
+<p begin="00:04:13.800" end="00:04:14.600" style="s2">It&#39;s my gate.</p>
+<p begin="00:04:16.633" end="00:04:18.133" style="s2">I don&#39;t take what I didn&#39;t earn.</p>
+<p begin="00:04:18.866" end="00:04:19.833" style="s2">Then earn it.</p>
+<p begin="00:04:22.066" end="00:04:23.266" style="s2">Why are you doing this?</p>
+<p begin="00:04:23.866" end="00:04:26.433" style="s2">Because you walked out of my life without a single word.</p>
+<p begin="00:04:27.133" end="00:04:28.266" style="s2">I want to know why.</p>
+<p begin="00:04:31.433" end="00:04:33.466" style="s2">I didn&#39;t walk out without a word, Hannah.</p>
+<p begin="00:04:34.333" end="00:04:36.633" style="s2">Kid! Mugs! Coming.</p>
+<p begin="00:04:48.466" end="00:04:49.166" style="s2">Chain&#39;s snapped.</p>
+<p begin="00:04:49.166" end="00:04:50.133" style="s2">Want me to fix it?</p>
+<p begin="00:04:50.766" end="00:04:51.800" style="s2">You can do that?</p>
+<p begin="00:04:54.633" end="00:04:55.866" style="s2">If it&#39;s got a chain,</p>
+<p begin="00:04:56.200" end="00:04:57.133" style="s2">wheels, or a motor,</p>
+<p begin="00:04:57.133" end="00:04:58.066" style="s2">I can fix it.</p>
+<p begin="00:04:58.600" end="00:04:59.566" style="s2">People are harder.</p>
+<p begin="00:05:00.366" end="00:05:02.333" style="s2">He&#39;s cute. Ask his name.</p>
+<p begin="00:05:06.033" end="00:05:07.233" style="s2">What do I owe you? Your name.</p>
+<p begin="00:05:08.733" end="00:05:11.533" style="s2">Hannah Caldwell.</p>
+<p begin="00:05:12.833" end="00:05:14.466" style="s2">Luke Bennett. Engineering.</p>
+<p begin="00:05:14.933" end="00:05:15.733" style="s2">Scholarship kid.</p>
+<p begin="00:05:19.833" end="00:05:22.733" style="s2">Hannah. Don&#39;t waste your time on the bike guy.</p>
+<p begin="00:05:23.233" end="00:05:24.533" style="s2">Party at my place tonight.</p>
+<p begin="00:05:26.333" end="00:05:28.066" style="s2">Can&#39;t, Spencer. I&#39;m busy.</p>
+<p begin="00:05:39.166" end="00:05:40.666" style="s2">Next Friday, same time?</p>
+<p begin="00:05:40.933" end="00:05:42.000" style="s2">It&#39;ll break again.</p>
+<p begin="00:05:52.066" end="00:05:54.200" style="s2">You pay me back out of your first paycheck.</p>
+<p begin="00:05:54.200" end="00:05:55.333" style="s2">Gus—</p>
+<p begin="00:05:55.333" end="00:05:56.133" style="s2">Go.</p>
+<p begin="00:05:59.733" end="00:06:00.733" style="s2">And toss this thing.</p>
+<p begin="00:06:00.733" end="00:06:01.866" style="s2">I&#39;ll find you a new one.</p>
+<p begin="00:06:06.033" end="00:06:07.666" style="s2">This bag&#39;s been with me since college.</p>
+<p begin="00:06:17.433" end="00:06:20.366" style="s2">You must be the one Mrs. Hale picked up off the sidewalk.</p>
+<p begin="00:06:21.400" end="00:06:22.333" style="s2">Luke Bennett, ma&#39;am.</p>
+<p begin="00:06:22.366" end="00:06:23.466" style="s2">The new groundskeeper.</p>
+<p begin="00:06:24.733" end="00:06:28.266" style="s2">Edna Mayhew. I&#39;ve run this house for thirty years.</p>
+<p begin="00:06:29.233" end="00:06:30.566" style="s2">That hasn&#39;t run since Mr.</p>
+<p begin="00:06:30.566" end="00:06:31.666" style="s2">Caldwell passed.</p>
+<p begin="00:06:36.933" end="00:06:37.733" style="s2">Cracked pump.</p>
+<p begin="00:06:38.033" end="00:06:42.233" style="s2">Clogged line. Two days. We&#39;ll see.</p>
+<p begin="00:06:44.600" end="00:06:46.833" style="s2">Luke. You shaved.</p>
+<p begin="00:06:47.200" end="00:06:48.266" style="s2">You look nineteen.</p>
+<p begin="00:06:49.866" end="00:06:53.600" style="s2">This place is beautiful. His?</p>
+<p begin="00:06:54.200" end="00:06:55.333" style="s2">Mine. Dad left it to me.</p>
+<p begin="00:06:55.800" end="00:06:57.933" style="s2">Spencer just likes to say “my house.”</p>
+<p begin="00:07:03.333" end="00:07:05.666" style="s2">What is he doing at my house?</p>
+<p begin="00:07:06.233" end="00:07:07.600" style="s2">Working. Luke&#39;s our new groundskeeper.</p>
+<p begin="00:07:08.666" end="00:07:09.866" style="s2">Have you lost your mind?</p>
+<p begin="00:07:10.433" end="00:07:11.400" style="s2">He&#39;s a thief.</p>
+<p begin="00:07:12.800" end="00:07:14.200" style="s2">Then keep an eye on him.</p>
+<p begin="00:07:14.766" end="00:07:15.833" style="s2">I&#39;m sure you will.</p>
+<p begin="00:07:18.166" end="00:07:19.433" style="s2">Edna, lock up the silver.</p>
+<p begin="00:07:21.166" end="00:07:23.833" style="s2">It&#39;s been locked up for thirty years, Mr. Hale.</p>
+<p begin="00:07:26.233" end="00:07:27.633" style="s2">One slip, Bennett.</p>
+<p begin="00:07:28.066" end="00:07:32.933" style="s2">One. And you&#39;re back on your sidewalk.</p>
+<p begin="00:07:33.733" end="00:07:35.866" style="s2">Relax. I go through my own bag every morning now.</p>
+<p begin="00:07:37.733" end="00:07:40.266" style="s2">Staff phone. My number&#39;s in it.</p>
+<p begin="00:07:40.533" end="00:07:41.733" style="s2">And one more thing.</p>
+<p begin="00:07:42.633" end="00:07:46.000" style="s2">Every night the deer come up and eat Mr. Caldwell&#39;s roses.</p>
+<p begin="00:07:50.033" end="00:07:53.000" style="s2">He put that up himself. Deer camera.</p>
+<p begin="00:07:53.466" end="00:07:56.066" style="s2">Anything moves, it records. Sound too.</p>
+<p begin="00:07:56.666" end="00:07:58.533" style="s2">He never did figure out how it worked.</p>
+<p begin="00:08:01.200" end="00:08:03.400" style="s2">There&#39;s a little bill I still pay every month.</p>
+<p begin="00:08:03.800" end="00:08:04.766" style="s2">He made me promise.</p>
+<p begin="00:08:14.433" end="00:08:16.800" style="s2">Mr. Caldwell never trusted that man.</p>
+<p begin="00:08:17.533" end="00:08:21.033" style="s2">He used to say, a man who&#39;s only sweet while</p>
+<p begin="00:08:21.033" end="00:08:23.733" style="s2">his wife is watching is putting on a show.</p>
+<p begin="00:08:30.266" end="00:08:31.066" style="s2">Two days.</p>
+<p begin="00:08:31.733" end="00:08:32.533" style="s2">Two days.</p>
+<p begin="00:08:44.266" end="00:08:45.666" style="s2">Conrad, listen to me.</p>
+<p begin="00:08:46.033" end="00:08:47.933" style="s2">The land sells right after the party.</p>
+<p begin="00:08:48.333" end="00:08:49.266" style="s2">Thirty-six million.</p>
+<p begin="00:08:49.733" end="00:08:53.233" style="s2">You get your two and a half...</p>
+<p begin="00:08:53.533" end="00:08:54.566" style="s2">Collateral? Fine. Next Thursday.</p>
+<p begin="00:08:55.033" end="00:08:58.166" style="s2">Something worth a lot more than your patience. Thirty days.</p>
+<p begin="00:08:58.566" end="00:08:59.566" style="s2">You have my word.</p>
+<p begin="00:09:05.533" end="00:09:06.633" style="s2">Was that him again?</p>
+<p begin="00:09:06.966" end="00:09:07.766" style="s2">Threatening you?</p>
+<p begin="00:09:08.366" end="00:09:09.166" style="s2">It&#39;s handled.</p>
+<p begin="00:09:09.833" end="00:09:10.633" style="s2">Next Saturday,</p>
+<p begin="00:09:10.633" end="00:09:12.600" style="s2">the twenty-fourth. She signs.</p>
+<p begin="00:09:13.866" end="00:09:16.400" style="s2">And she really thinks it&#39;s a villa on Lake Como?</p>
+<p begin="00:09:17.566" end="00:09:18.566" style="s2">Anniversary present.</p>
+<p begin="00:09:19.200" end="00:09:20.366" style="s2">It&#39;s Larkspur Hill.</p>
+<p begin="00:09:20.766" end="00:09:21.733" style="s2">Every last vine.</p>
+<p begin="00:09:22.600" end="00:09:23.400" style="s2">And then?</p>
+<p begin="00:09:26.433" end="00:09:28.633" style="s2">Then you and I go see the real Lake Como.</p>
+<p begin="00:09:33.066" end="00:09:34.166" style="s2">Someone&#39;s out there.</p>
+<p begin="00:09:42.133" end="00:09:43.433" style="s2">It&#39;s the gardener&#39;s ladder.</p>
+<p begin="00:09:43.433" end="00:09:44.400" style="s2">He fixes things.</p>
+<p begin="00:09:46.233" end="00:09:49.033" style="s2">He was always fixing something back in school. Remember?</p>
+<p begin="00:09:53.000" end="00:09:55.166" style="s2">I remember everything about Northbrook.</p>
+<p begin="00:09:59.233" end="00:10:00.200" style="s2">Paige Lennox.</p>
+<p begin="00:10:02.866" end="00:10:05.166" style="s2">Hannah&#39;s college roommate.</p>
+<p begin="00:10:05.833" end="00:10:08.366" style="s2">She swore to the dean she watched me take Spencer&#39;s watch.</p>
+<p begin="00:10:08.800" end="00:10:10.266" style="s2">And tonight she&#39;s in his arms.</p>
+<p begin="00:10:12.766" end="00:10:16.800" style="s2">Paige Lennox? Her maid of honor? Good Lord.</p>
+<p begin="00:10:19.166" end="00:10:22.333" style="s2">A week from Saturday, Hannah signs this place away.</p>
+<p begin="00:10:22.866" end="00:10:24.800" style="s2">She thinks she&#39;s getting a villa in Italy.</p>
+<p begin="00:10:27.366" end="00:10:30.066" style="s2">Your word against her husband and her best friend?</p>
+<p begin="00:10:30.566" end="00:10:32.566" style="s2">You&#39;d be back on the street before lunch.</p>
+<p begin="00:10:33.633" end="00:10:35.533" style="s2">I can&#39;t just stand there and watch her sign.</p>
+<p begin="00:10:41.333" end="00:10:42.766" style="s2">Leave the papers to me.</p>
+<p begin="00:10:43.400" end="00:10:44.800" style="s2">You look after Hannah.</p>
+<p begin="00:10:46.466" end="00:10:47.466" style="s2">What does that mean?</p>
+<p begin="00:10:48.000" end="00:10:48.966" style="s2">Good night, Luke.</p>
+<p begin="00:10:56.333" end="00:10:58.566" style="s2">First roses the deer didn&#39;t get in three years.</p>
+<p begin="00:11:00.400" end="00:11:04.666" style="s2">Hannah. I need to tell you something. About Spencer and Paige.</p>
+<p begin="00:11:05.266" end="00:11:06.666" style="s2">Last night, in the study.</p>
+<p begin="00:11:07.233" end="00:11:08.400" style="s2">I saw them together.</p>
+<p begin="00:11:12.800" end="00:11:14.233" style="s2">The day we buried my father,</p>
+<p begin="00:11:14.400" end="00:11:16.233" style="s2">Paige held my hand through the whole thing.</p>
+<p begin="00:11:19.166" end="00:11:20.633" style="s2">She also lied to the dean.</p>
+<p begin="00:11:21.233" end="00:11:22.966" style="s2">Told him she saw me take that watch.</p>
+<p begin="00:11:23.433" end="00:11:26.466" style="s2">Stop it! When you vanished,</p>
+<p begin="00:11:27.133" end="00:11:28.366" style="s2">Paige was the one who stayed.</p>
+<p begin="00:11:29.266" end="00:11:30.666" style="s2">You didn&#39;t even leave a note.</p>
+<p begin="00:11:31.966" end="00:11:32.933" style="s2">I left a letter.</p>
+<p begin="00:11:33.766" end="00:11:34.966" style="s2">I gave it to Paige.</p>
+<p begin="00:11:36.266" end="00:11:37.766" style="s2">There was no letter, Luke.</p>
+<p begin="00:11:41.666" end="00:11:43.466" style="s2">Is the help bothering you again, honey?</p>
+<p begin="00:11:44.800" end="00:11:47.066" style="s2">Ten days on the job and he&#39;s already making up stories.</p>
+<p begin="00:11:47.800" end="00:11:49.033" style="s2">I saw you, Spencer.</p>
+<p begin="00:11:49.466" end="00:11:50.266" style="s2">You and Paige.</p>
+<p begin="00:11:53.133" end="00:11:57.233" style="s2">You saw me give my wife&#39;s best friend a hug. Prove it.</p>
+<p begin="00:11:57.633" end="00:11:59.600" style="s2">The same way you proved you didn&#39;t take my watch.</p>
+<p begin="00:12:00.233" end="00:12:01.600" style="s2">Where&#39;s my letter, Spencer?</p>
+<p begin="00:12:01.833" end="00:12:03.933" style="s2">What letter? There&#39;s no letter.</p>
+<p begin="00:12:04.466" end="00:12:06.466" style="s2">Just a bitter drifter with a grudge.</p>
+<p begin="00:12:06.866" end="00:12:08.966" style="s2">You should have stayed on your sidewalk, Bennett.</p>
+<p begin="00:12:12.033" end="00:12:14.933" style="s2">I did. Your wife pulled me off it.</p>
+<p begin="00:12:15.533" end="00:12:16.766" style="s2">Then I&#39;ll put you back.</p>
+<p begin="00:12:22.766" end="00:12:25.333" style="s2">Mom, it took three summers at the garage.</p>
+<p begin="00:12:25.833" end="00:12:26.866" style="s2">Is it too small?</p>
+<p begin="00:12:27.833" end="00:12:29.366" style="s2">She&#39;ll say yes, sweetheart.</p>
+<p begin="00:12:31.166" end="00:12:33.600" style="s2">Last day of the semester. Noon.</p>
+<p begin="00:12:34.233" end="00:12:37.233" style="s2">On the stone bridge. Where I fixed her bike.</p>
+<p begin="00:12:41.733" end="00:12:42.833" style="s2">Nice ring, Bennett.</p>
+<p begin="00:12:43.233" end="00:12:47.133" style="s2">Where does a scholarship kid get money for that? I earned it.</p>
+<p begin="00:12:48.633" end="00:12:50.133" style="s2">Scholarships are fragile things.</p>
+<p begin="00:12:50.433" end="00:12:52.433" style="s2">One little scandal and...</p>
+<p begin="00:12:55.766" end="00:12:56.866" style="s2">Mr. Hale&#39;s watch.</p>
+<p begin="00:12:57.066" end="00:12:58.333" style="s2">It was found in your backpack.</p>
+<p begin="00:12:58.800" end="00:13:00.133" style="s2">I never touched his watch.</p>
+<p begin="00:13:01.033" end="00:13:02.133" style="s2">Somebody put it there.</p>
+<p begin="00:13:04.933" end="00:13:07.600" style="s2">Miss Lennox. Tell me what you saw.</p>
+<p begin="00:13:08.566" end="00:13:10.066" style="s2">I saw Luke take it, sir.</p>
+<p begin="00:13:10.233" end="00:13:11.666" style="s2">Right out of Spencer&#39;s locker.</p>
+<p begin="00:13:15.233" end="00:13:18.333" style="s2">Paige... why would you say that?</p>
+<p begin="00:13:21.233" end="00:13:22.800" style="s2">I don&#39;t want to press charges, sir.</p>
+<p begin="00:13:23.600" end="00:13:25.033" style="s2">I just want my watch back.</p>
+<p begin="00:13:29.966" end="00:13:31.533" style="s2">Your scholarship is revoked.</p>
+<p begin="00:13:32.133" end="00:13:32.933" style="s2">You&#39;re expelled.</p>
+<p begin="00:13:35.733" end="00:13:36.800" style="s2">Sir, my mother&#39;s sick.</p>
+<p begin="00:13:37.133" end="00:13:38.866" style="s2">That scholarship is all we have.</p>
+<p begin="00:13:40.566" end="00:13:42.400" style="s2">Clear out your room tonight, Mr. Bennett.</p>
+<p begin="00:13:47.766" end="00:13:49.000" style="s2">I have to see Hannah.</p>
+<p begin="00:13:53.266" end="00:13:55.133" style="s2">She went home to her dad&#39;s for the weekend.</p>
+<p begin="00:13:55.533" end="00:13:56.966" style="s2">And she doesn&#39;t want to see you.</p>
+<p begin="00:13:57.433" end="00:13:58.566" style="s2">She won&#39;t believe them.</p>
+<p begin="00:13:59.200" end="00:14:00.066" style="s2">Give her this.</p>
+<p begin="00:14:00.533" end="00:14:03.133" style="s2">Please. Everything&#39;s in here. Promise me.</p>
+<p begin="00:14:05.966" end="00:14:11.266" style="s2">I promise. Burn it.</p>
+<p begin="00:14:15.600" end="00:14:18.200" style="s2">No. I hang on to anything useful.</p>
+<p begin="00:14:31.400" end="00:14:33.266" style="s2">Bottom drawer&#39;s been stuck for a month.</p>
+<p begin="00:14:33.366" end="00:14:34.333" style="s2">It&#39;s Thursday.</p>
+<p begin="00:14:34.366" end="00:14:35.833" style="s2">He&#39;s out golfing till six.</p>
+<p begin="00:14:36.366" end="00:14:38.233" style="s2">Get it fixed before he notices.</p>
+<p begin="00:14:38.933" end="00:14:41.800" style="s2">If that “villa” contract is anywhere in this house,</p>
+<p begin="00:14:42.166" end="00:14:43.200" style="s2">it&#39;s in that desk.</p>
+<p begin="00:14:45.866" end="00:14:47.766" style="s2">Mr. Caldwell had this put in.</p>
+<p begin="00:14:48.266" end="00:14:50.333" style="s2">It keeps a record every time it opens.</p>
+<p begin="00:14:50.833" end="00:14:52.266" style="s2">He loved that sort of thing.</p>
+<p begin="00:15:03.333" end="00:15:06.533" style="s2">That&#39;s my handwriting. What is it?</p>
+<p begin="00:15:07.333" end="00:15:10.933" style="s2">The letter. The one I gave Paige sixteen years ago.</p>
+<p begin="00:15:11.766" end="00:15:13.866" style="s2">He kept it. It&#39;s still sealed.</p>
+<p begin="00:15:14.733" end="00:15:16.266" style="s2">Then Hannah never got it.</p>
+<p begin="00:15:17.033" end="00:15:18.600" style="s2">Take it. It&#39;s yours.</p>
+<p begin="00:15:18.766" end="00:15:19.766" style="s2">It always was.</p>
+<p begin="00:15:23.033" end="00:15:23.833" style="s2">He&#39;s early.</p>
+<p begin="00:15:28.533" end="00:15:29.766" style="s2">What are you doing at my desk?</p>
+<p begin="00:15:31.433" end="00:15:32.366" style="s2">Fixing the drawer.</p>
+<p begin="00:15:32.533" end="00:15:33.600" style="s2">Edna asked me to.</p>
+<p begin="00:15:49.433" end="00:15:50.266" style="s2">Dad&#39;s fountain.</p>
+<p begin="00:15:50.533" end="00:15:51.833" style="s2">You actually fixed it.</p>
+<p begin="00:15:52.200" end="00:15:53.900" style="s2">Two days. Like I told Edna.</p>
+<p begin="00:15:55.400" end="00:15:56.633" style="s2">Why did you really leave?</p>
+<p begin="00:15:57.566" end="00:15:58.733" style="s2">I called for months.</p>
+<p begin="00:15:58.733" end="00:16:00.033" style="s2">Your number was disconnected.</p>
+<p begin="00:16:02.000" end="00:16:04.166" style="s2">I sold my phone to pay for Mom&#39;s medicine.</p>
+<p begin="00:16:05.733" end="00:16:06.533" style="s2">After she died,</p>
+<p begin="00:16:06.533" end="00:16:08.600" style="s2">all I had left was that bag.</p>
+<p begin="00:16:09.266" end="00:16:10.466" style="s2">You could have come back.</p>
+<p begin="00:16:12.466" end="00:16:13.666" style="s2">I did come back.</p>
+<p begin="00:16:14.533" end="00:16:15.866" style="s2">I waited for you once.</p>
+<p begin="00:16:16.766" end="00:16:21.133" style="s2">You never showed.</p>
+<p begin="00:16:22.566" end="00:16:23.966" style="s2">Waited? Where? Luke, what are you talking about?</p>
+<p begin="00:16:26.766" end="00:16:28.133" style="s2">Hannah, there&#39;s something you need to—</p>
+<p begin="00:16:32.666" end="00:16:33.466" style="s2">Whatever it is,</p>
+<p begin="00:16:33.766" end="00:16:35.433" style="s2">it waits till after Saturday.</p>
+<p begin="00:16:35.933" end="00:16:37.333" style="s2">I have to get through this party.</p>
+<p begin="00:16:37.833" end="00:16:39.766" style="s2">Please don&#39;t make me fall apart right now.</p>
+<p begin="00:16:42.633" end="00:16:44.366" style="s2">Okay. Saturday,</p>
+<p begin="00:16:44.366" end="00:16:45.166" style="s2">after the party.</p>
+<p begin="00:16:45.333" end="00:16:46.166" style="s2">When you&#39;re alone.</p>
+<p begin="00:16:46.400" end="00:16:48.833" style="s2">Mrs. Hale, the caterers are asking for you.</p>
+<p begin="00:17:01.233" end="00:17:02.266" style="s2">The letter&#39;s gone?</p>
+<p begin="00:17:03.000" end="00:17:04.866" style="s2">You kept it for sixteen years?</p>
+<p begin="00:17:05.533" end="00:17:06.800" style="s2">Are you out of your mind?</p>
+<p begin="00:17:07.366" end="00:17:10.233" style="s2">I told you. I hang on to anything useful.</p>
+<p begin="00:17:11.033" end="00:17:12.166" style="s2">You&#39;re sure it was him?</p>
+<p begin="00:17:12.800" end="00:17:14.366" style="s2">He was at my desk this afternoon.</p>
+<p begin="00:17:15.800" end="00:17:16.600" style="s2">If she reads it,</p>
+<p begin="00:17:16.600" end="00:17:18.033" style="s2">she starts asking about that watch.</p>
+<p begin="00:17:18.366" end="00:17:19.400" style="s2">And then about me.</p>
+<p begin="00:17:22.800" end="00:17:24.600" style="s2">Then we give her something else to look at.</p>
+<p begin="00:17:25.666" end="00:17:27.166" style="s2">We turn him back into a thief.</p>
+<p begin="00:17:28.166" end="00:17:29.033" style="s2">Saturday night,</p>
+<p begin="00:17:29.233" end="00:17:30.566" style="s2">with the whole party watching.</p>
+<p begin="00:17:31.600" end="00:17:32.400" style="s2">How?</p>
+<p begin="00:17:33.600" end="00:17:34.733" style="s2">Her mother&#39;s necklace.</p>
+<p begin="00:17:35.766" end="00:17:37.466" style="s2">He held that box on the sidewalk.</p>
+<p begin="00:17:37.966" end="00:17:39.433" style="s2">His prints are all over it.</p>
+<p begin="00:17:39.800" end="00:17:41.033" style="s2">Just like Northbrook.</p>
+<p begin="00:17:42.466" end="00:17:43.833" style="s2">The necklace is in the safe.</p>
+<p begin="00:17:47.633" end="00:17:48.833" style="s2">Leave the safe to me.</p>
+<p begin="00:17:49.366" end="00:17:51.266" style="s2">You just make sure it turns up in his bag.</p>
+<p begin="00:17:52.533" end="00:17:53.933" style="s2">And if my letter&#39;s in there,</p>
+<p begin="00:17:54.066" end="00:17:54.933" style="s2">bring it to me.</p>
+<p begin="00:18:01.666" end="00:18:04.400" style="s2">Conrad? Tonight. Ten-thirty, your office.</p>
+<p begin="00:18:04.633" end="00:18:05.666" style="s2">That collateral you wanted,</p>
+<p begin="00:18:05.666" end="00:18:06.466" style="s2">I&#39;ll bring it myself.</p>
+<p begin="00:18:06.666" end="00:18:08.166" style="s2">Don&#39;t call me again before Monday.</p>
+<p begin="00:18:25.766" end="00:18:28.400" style="s2">This one&#39;s clean. But I&#39;ve been Henry&#39;s lawyer for forty years, Spencer.</p>
+<p begin="00:18:28.833" end="00:18:31.533" style="s2">Anything that touches this estate comes through me first.</p>
+<p begin="00:18:31.633" end="00:18:32.600" style="s2">Those were his orders.</p>
+<p begin="00:18:33.233" end="00:18:34.566" style="s2">It&#39;s just a villa, Arthur.</p>
+<p begin="00:18:34.666" end="00:18:35.800" style="s2">An anniversary present.</p>
+<p begin="00:18:38.266" end="00:18:40.466" style="s2">I&#39;ll have to slip out at nine tomorrow night.</p>
+<p begin="00:18:40.733" end="00:18:42.000" style="s2">My wife&#39;s birthday.</p>
+<p begin="00:18:43.966" end="00:18:45.033" style="s2">Tomorrow night you&#39;re pouring</p>
+<p begin="00:18:45.033" end="00:18:46.233" style="s2">drinks. The vest&#39;s in the kitchen.</p>
+<p begin="00:18:47.800" end="00:18:49.033" style="s2">I&#39;m the groundskeeper.</p>
+<p begin="00:18:50.766" end="00:18:53.000" style="s2">Tomorrow night you&#39;re whatever I say you are. Smile.</p>
+<p begin="00:18:53.266" end="00:18:54.066" style="s2">It&#39;s a party.</p>
+<p begin="00:18:59.000" end="00:19:01.133" style="s2">Gone by nine. Of course he is.</p>
+<p begin="00:19:05.933" end="00:19:08.366" style="s2">Everyone! This is Luke.</p>
+<p begin="00:19:09.033" end="00:19:10.600" style="s2">Hannah&#39;s little charity project.</p>
+<p begin="00:19:10.766" end="00:19:12.066" style="s2">She found him on a sidewalk.</p>
+<p begin="00:19:13.400" end="00:19:14.533" style="s2">Does he do tricks?</p>
+<p begin="00:19:17.733" end="00:19:19.400" style="s2">Only with other people&#39;s watches.</p>
+<p begin="00:19:23.633" end="00:19:27.066" style="s2">Spencer. That&#39;s enough. He&#39;s working. Leave him alone.</p>
+<p begin="00:19:29.666" end="00:19:33.366" style="s2">It&#39;s fine, Hannah. Champagne, ma&#39;am?</p>
+<p begin="00:19:33.366" end="00:19:35.800" style="s2">Where&#39;s Mom&#39;s necklace? I want to wear it tonight. In the safe,</p>
+<p begin="00:19:35.833" end="00:19:37.633" style="s2">honey. Edna&#39;s bringing it out for the toast.</p>
+<p begin="00:19:40.466" end="00:19:42.000" style="s2">Happy anniversary, you two.</p>
+<p begin="00:19:42.233" end="00:19:44.733" style="s2">Spencer, signed copy on my desk Monday.</p>
+<p begin="00:19:47.400" end="00:19:48.666" style="s2">I&#39;m just going to call my mom.</p>
+<p begin="00:20:04.233" end="00:20:07.533" style="s2">Mr. Hale... the box in the safe. It&#39;s empty.</p>
+<p begin="00:20:08.433" end="00:20:11.033" style="s2">Empty? My mother&#39;s diamonds?</p>
+<p begin="00:20:16.000" end="00:20:17.666" style="s2">Everyone stay right where you are.</p>
+<p begin="00:20:17.866" end="00:20:19.766" style="s2">The police are already on their way.</p>
+<p begin="00:20:26.633" end="00:20:27.733" style="s2">Detective Alvarez,</p>
+<p begin="00:20:27.833" end="00:20:28.566" style="s2">county police.</p>
+<p begin="00:20:28.566" end="00:20:29.533" style="s2">Who called this in?</p>
+<p begin="00:20:29.600" end="00:20:31.133" style="s2">I did. Detective,</p>
+<p begin="00:20:31.133" end="00:20:32.433" style="s2">there&#39;s one person here tonight who</p>
+<p begin="00:20:32.433" end="00:20:33.800" style="s2">held that necklace on a sidewalk.</p>
+<p begin="00:20:34.566" end="00:20:37.633" style="s2">One person here who got thrown out of college for stealing.</p>
+<p begin="00:20:38.233" end="00:20:39.233" style="s2">Spencer, don&#39;t.</p>
+<p begin="00:20:40.933" end="00:20:42.200" style="s2">Where&#39;s your bag, Bennett?</p>
+<p begin="00:20:43.466" end="00:20:45.333" style="s2">In the tool shed. Go look.</p>
+<p begin="00:20:46.166" end="00:20:47.066" style="s2">Oh, I will.</p>
+<p begin="00:20:57.933" end="00:21:00.400" style="s2">Look what our groundskeeper takes home at night.</p>
+<p begin="00:21:01.366" end="00:21:04.800" style="s2">Her mother&#39;s diamonds, in a homeless man&#39;s bag.</p>
+<p begin="00:21:15.466" end="00:21:17.866" style="s2">Luke. Tell me it wasn&#39;t you.</p>
+<p begin="00:21:18.033" end="00:21:18.933" style="s2">Hannah, look at me.</p>
+<p begin="00:21:19.266" end="00:21:21.633" style="s2">He pulled this exact thing sixteen years ago.</p>
+<p begin="00:21:22.000" end="00:21:25.033" style="s2">Same bag. Same trick. Give it up.</p>
+<p begin="00:21:25.466" end="00:21:26.566" style="s2">A thief&#39;s a thief.</p>
+<p begin="00:21:28.366" end="00:21:29.933" style="s2">Ask Paige where she went after nine.</p>
+<p begin="00:21:30.266" end="00:21:33.466" style="s2">Out front, on the phone with my mother. Ask anyone.</p>
+<p begin="00:21:35.033" end="00:21:37.633" style="s2">Mrs. Hale. Do you want to press charges?</p>
+<p begin="00:21:38.266" end="00:21:39.266" style="s2">Of course she does.</p>
+<p begin="00:21:42.766" end="00:21:45.233" style="s2">No. No charges.</p>
+<p begin="00:21:46.133" end="00:21:47.400" style="s2">...I just want him gone.</p>
+<p begin="00:21:55.133" end="00:21:56.933" style="s2">There was a letter in that bag, Hannah.</p>
+<p begin="00:21:57.066" end="00:21:57.966" style="s2">Now it&#39;s gone.</p>
+<p begin="00:21:58.766" end="00:22:00.066" style="s2">Ask those two where it went.</p>
+<p begin="00:22:00.533" end="00:22:01.866" style="s2">He&#39;s lost it, Detective.</p>
+<p begin="00:22:08.233" end="00:22:10.033" style="s2">It&#39;s a long walk back to the sidewalk.</p>
+<p begin="00:22:10.466" end="00:22:11.433" style="s2">Don&#39;t come back.</p>
+<p begin="00:22:16.133" end="00:22:17.400" style="s2">The necklace goes in,</p>
+<p begin="00:22:17.433" end="00:22:18.600" style="s2">the letter comes out.</p>
+<p begin="00:22:18.833" end="00:22:20.666" style="s2">This time you wanted the letter back too.</p>
+<p begin="00:22:28.433" end="00:22:30.000" style="s2">I&#39;m so sorry, sweetie.</p>
+<p begin="00:22:31.366" end="00:22:32.766" style="s2">I wanted to warn you.</p>
+<p begin="00:22:34.200" end="00:22:35.366" style="s2">I&#39;m such an idiot.</p>
+<p begin="00:22:36.200" end="00:22:38.266" style="s2">I wanted him to still be the boy I remembered.</p>
+<p begin="00:22:43.200" end="00:22:45.433" style="s2">Soft heart. That&#39;s why you&#39;ve got me.</p>
+<p begin="00:22:46.200" end="00:22:47.433" style="s2">Sign your anniversary present,</p>
+<p begin="00:22:47.733" end="00:22:49.633" style="s2">and next week we fly out to see it.</p>
+<p begin="00:22:51.266" end="00:22:52.766" style="s2">Shouldn&#39;t Arthur look at it first?</p>
+<p begin="00:22:55.600" end="00:22:56.933" style="s2">He went through every page yesterday.</p>
+<p begin="00:22:57.633" end="00:22:59.033" style="s2">I was right there on the porch.</p>
+<p begin="00:22:59.266" end="00:23:00.933" style="s2">I watched Arthur read the whole thing.</p>
+<p begin="00:23:08.366" end="00:23:10.833" style="s2">I just chose you over him in front of everyone.</p>
+<p begin="00:23:11.333" end="00:23:13.166" style="s2">I&#39;m not going to start doubting you now.</p>
+<p begin="00:23:18.066" end="00:23:19.966" style="s2">You deserve something beautiful tonight.</p>
+<p begin="00:23:25.133" end="00:23:26.866" style="s2">I&#39;m sleeping in the guest room tonight.</p>
+<p begin="00:23:27.133" end="00:23:28.166" style="s2">I need to be alone.</p>
+<p begin="00:23:34.933" end="00:23:36.133" style="s2">Thought you&#39;d made it, kid.</p>
+<p begin="00:23:37.166" end="00:23:39.400" style="s2">I did. For seventeen days.</p>
+<p begin="00:23:40.366" end="00:23:41.166" style="s2">What happened?</p>
+<p begin="00:23:42.833" end="00:23:44.533" style="s2">Somebody put a necklace in my bag.</p>
+<p begin="00:23:44.766" end="00:23:45.800" style="s2">Just like college.</p>
+<p begin="00:23:48.433" end="00:23:50.333" style="s2">Where&#39;s that bag been hanging all week?</p>
+<p begin="00:23:51.766" end="00:23:53.166" style="s2">On a hook in the tool shed.</p>
+<p begin="00:23:54.166" end="00:23:58.000" style="s2">Right under the... Right under that deer camera.</p>
+<p begin="00:23:58.566" end="00:24:01.200" style="s2">Anything moves, it records. Sound too.</p>
+<p begin="00:24:04.533" end="00:24:05.966" style="s2">Who you calling at this hour?</p>
+<p begin="00:24:07.333" end="00:24:09.866" style="s2">The one person in that house who&#39;s never lied to me.</p>
+<p begin="00:24:13.366" end="00:24:15.966" style="s2">Edna. The camera over the tool shed.</p>
+<p begin="00:24:16.400" end="00:24:17.933" style="s2">Leave the back gate open for me.</p>
+<p begin="00:24:25.866" end="00:24:31.233" style="s2">It&#39;s in, Spencer. ...The letter? Hang on.</p>
+<p begin="00:24:34.033" end="00:24:35.666" style="s2">Got it. I&#39;ll bring it up.</p>
+<p begin="00:24:39.366" end="00:24:43.166" style="s2">In Mr. Caldwell&#39;s shed.</p>
+<p begin="00:24:48.133" end="00:24:49.466" style="s2">He didn&#39;t even have to look.</p>
+<p begin="00:24:54.033" end="00:24:55.333" style="s2">Monday, nine a.m., Kessler comes to sign.</p>
+<p begin="00:24:55.766" end="00:24:56.833" style="s2">Then the land&#39;s ours.</p>
+<p begin="00:24:57.433" end="00:25:00.133" style="s2">She won&#39;t know a thing till the bulldozers roll in.</p>
+<p begin="00:25:03.166" end="00:25:04.266" style="s2">She signed tonight,</p>
+<p begin="00:25:04.266" end="00:25:07.633" style="s2">Luke. I saw the papers on his desk when I locked up.</p>
+<p begin="00:25:08.666" end="00:25:10.133" style="s2">Then we&#39;ve got till Monday morning.</p>
+<p begin="00:25:15.366" end="00:25:16.433" style="s2">You&#39;ve got me.</p>
+<p begin="00:25:20.400" end="00:25:21.533" style="s2">You shouldn&#39;t be here.</p>
+<p begin="00:25:21.666" end="00:25:23.133" style="s2">If Spencer sees you and—</p>
+<p begin="00:25:23.200" end="00:25:24.000" style="s2">Five minutes.</p>
+<p begin="00:25:24.433" end="00:25:25.966" style="s2">Then I go back to my sidewalk,</p>
+<p begin="00:25:26.233" end="00:25:27.766" style="s2">and you never have to see me again.</p>
+<p begin="00:25:28.833" end="00:25:30.333" style="s2">How did you know I&#39;d be out here?</p>
+<p begin="00:25:34.000" end="00:25:35.866" style="s2">Edna told me you walk out here every morning.</p>
+<p begin="00:25:41.033" end="00:25:44.333" style="s2">That&#39;s Paige... She said she was calling her mom.</p>
+<p begin="00:25:45.233" end="00:25:46.266" style="s2">She was calling your husband.</p>
+<p begin="00:25:48.166" end="00:25:49.033" style="s2">...Show me the rest.</p>
+<p begin="00:25:51.600" end="00:25:52.333" style="s2">Yeah, I...</p>
+<p begin="00:25:57.533" end="00:26:01.266" style="s2">Ten years. Ten anniversaries.</p>
+<p begin="00:26:01.633" end="00:26:02.866" style="s2">And my best friend.</p>
+<p begin="00:26:04.066" end="00:26:05.200" style="s2">I&#39;m sorry, Hannah.</p>
+<p begin="00:26:07.766" end="00:26:09.000" style="s2">You said there was a letter.</p>
+<p begin="00:26:10.033" end="00:26:12.266" style="s2">He kept it locked in his desk for sixteen years.</p>
+<p begin="00:26:13.000" end="00:26:14.633" style="s2">Last night, when Paige planted the necklace,</p>
+<p begin="00:26:14.633" end="00:26:15.866" style="s2">she took it out of my bag.</p>
+<p begin="00:26:17.133" end="00:26:18.600" style="s2">The camera caught that too.</p>
+<p begin="00:26:22.633" end="00:26:24.333" style="s2">Then what I signed last night...</p>
+<p begin="00:26:24.733" end="00:26:25.666" style="s2">Wasn&#39;t a villa.</p>
+<p begin="00:26:26.166" end="00:26:27.366" style="s2">It was Larkspur Hill.</p>
+<p begin="00:26:28.366" end="00:26:29.333" style="s2">Every last vine.</p>
+<p begin="00:26:30.633" end="00:26:33.366" style="s2">A developer named Kessler comes to sign Monday at nine.</p>
+<p begin="00:26:36.866" end="00:26:38.400" style="s2">Then Monday, we&#39;re in that room too.</p>
+<p begin="00:26:41.633" end="00:26:43.766" style="s2">Last night I asked you to tell me it wasn&#39;t you.</p>
+<p begin="00:26:44.000" end="00:26:44.866" style="s2">I should have known.</p>
+<p begin="00:26:45.733" end="00:26:46.733" style="s2">You couldn&#39;t have.</p>
+<p begin="00:26:47.833" end="00:26:49.733" style="s2">That&#39;s exactly what they were counting on.</p>
+<p begin="00:26:54.066" end="00:26:55.133" style="s2">I&#39;ve seen the video.</p>
+<p begin="00:26:55.566" end="00:26:57.566" style="s2">I also pulled the 911 records. Look</p>
+<p begin="00:26:58.166" end="00:26:59.933" style="s2">at the time on your husband&#39;s call.</p>
+<p begin="00:27:04.966" end="00:27:06.733" style="s2">That&#39;s before I ever opened the safe.</p>
+<p begin="00:27:08.133" end="00:27:09.433" style="s2">So either he guessed,</p>
+<p begin="00:27:10.366" end="00:27:12.666" style="s2">or he knew it was gone before anybody did.</p>
+<p begin="00:27:15.133" end="00:27:16.400" style="s2">That&#39;s not enough yet.</p>
+<p begin="00:27:18.333" end="00:27:21.333" style="s2">If he lies about it to my face, it is.</p>
+<p begin="00:27:22.233" end="00:27:23.800" style="s2">Throw in what you signed last night,</p>
+<p begin="00:27:24.233" end="00:27:25.600" style="s2">and I&#39;m looking at fraud.</p>
+<p begin="00:27:27.633" end="00:27:28.933" style="s2">Can you stop the sale?</p>
+<p begin="00:27:30.533" end="00:27:31.333" style="s2">Monday at nine,</p>
+<p begin="00:27:31.433" end="00:27:32.566" style="s2">I&#39;ll be in that room.</p>
+<p begin="00:27:33.333" end="00:27:35.733" style="s2">Until then, don&#39;t let them see it coming.</p>
+<p begin="00:27:39.766" end="00:27:40.566" style="s2">Mr. Bennett.</p>
+<p begin="00:27:41.466" end="00:27:42.733" style="s2">I owe you an apology.</p>
+<p begin="00:27:44.666" end="00:27:46.166" style="s2">Just be on time, Detective.</p>
+<p begin="00:27:47.566" end="00:27:49.366" style="s2">That safe of yours really keeps a log?</p>
+<p begin="00:27:50.466" end="00:27:51.766" style="s2">Every time it opens.</p>
+<p begin="00:27:52.966" end="00:27:53.866" style="s2">Bring it Monday.</p>
+<p begin="00:28:01.866" end="00:28:03.133" style="s2">I couldn&#39;t sleep either.</p>
+<p begin="00:28:03.333" end="00:28:04.133" style="s2">Your favorite.</p>
+<p begin="00:28:05.066" end="00:28:06.466" style="s2">You always know what I need.</p>
+<p begin="00:28:06.733" end="00:28:08.166" style="s2">That&#39;s what best friends are for.</p>
+<p begin="00:28:10.600" end="00:28:11.833" style="s2">Can I ask you something?</p>
+<p begin="00:28:12.933" end="00:28:15.266" style="s2">Did you really see Luke take Spencer&#39;s watch?</p>
+<p begin="00:28:16.633" end="00:28:17.800" style="s2">With my own eyes.</p>
+<p begin="00:28:18.433" end="00:28:19.800" style="s2">I told the dean everything.</p>
+<p begin="00:28:21.166" end="00:28:22.766" style="s2">And he really never left me a letter?</p>
+<p begin="00:28:24.566" end="00:28:26.333" style="s2">Nothing, Hannah. He just ran. Guys</p>
+<p begin="00:28:26.833" end="00:28:28.200" style="s2">like him always do.</p>
+<p begin="00:28:29.333" end="00:28:32.133" style="s2">You&#39;ve always been so brave, Paige. So honest.</p>
+<p begin="00:28:32.666" end="00:28:34.366" style="s2">For you? Always.</p>
+<p begin="00:28:43.933" end="00:28:45.733" style="s2">Three hundred luxury homes.</p>
+<p begin="00:28:46.000" end="00:28:47.966" style="s2">Larkspur Hill won&#39;t recognize itself.</p>
+<p begin="00:28:48.000" end="00:28:48.800" style="s2">That&#39;s the idea.</p>
+<p begin="00:28:49.066" end="00:28:50.033" style="s2">Let&#39;s get it signed.</p>
+<p begin="00:28:50.766" end="00:28:52.166" style="s2">Your wife&#39;s not joining us?</p>
+<p begin="00:28:53.166" end="00:28:53.966" style="s2">She&#39;s resting.</p>
+<p begin="00:28:54.433" end="00:28:55.633" style="s2">Saturday wore her out.</p>
+<p begin="00:28:55.733" end="00:28:57.466" style="s2">She&#39;s already signed everything she needs to.</p>
+<p begin="00:29:02.400" end="00:29:03.833" style="s2">I&#39;m not resting, Spencer.</p>
+<p begin="00:29:05.066" end="00:29:07.000" style="s2">Honey. You should be in bed.</p>
+<p begin="00:29:10.166" end="00:29:13.200" style="s2">Good morning. I&#39;m exactly where I should be.</p>
+<p begin="00:29:13.766" end="00:29:15.133" style="s2">Good morning, Mr. Kessler.</p>
+<p begin="00:29:15.433" end="00:29:17.066" style="s2">I hear you&#39;re buying my father&#39;s land.</p>
+<p begin="00:29:19.400" end="00:29:21.733" style="s2">Your land. That&#39;s what you told me.</p>
+<p begin="00:29:23.200" end="00:29:25.266" style="s2">Before anyone signs, Mr. Kessler,</p>
+<p begin="00:29:25.266" end="00:29:26.266" style="s2">you should know this.</p>
+<p begin="00:29:26.733" end="00:29:28.200" style="s2">The week Hannah got married,</p>
+<p begin="00:29:28.866" end="00:29:30.733" style="s2">Henry put this estate in a trust.</p>
+<p begin="00:29:31.266" end="00:29:33.933" style="s2">Selling a single vine takes two trustees.</p>
+<p begin="00:29:34.000" end="00:29:34.966" style="s2">Hannah is one.</p>
+<p begin="00:29:35.600" end="00:29:40.633" style="s2">The other, Henry picked himself, and told me to keep</p>
+<p begin="00:29:40.633" end="00:29:43.833" style="s2">the name quiet until somebody tried to sell.</p>
+<p begin="00:29:49.666" end="00:29:51.400" style="s2">That would be me, Mr. Hale.</p>
+<p begin="00:29:52.000" end="00:29:53.633" style="s2">I don&#39;t sign for liars.</p>
+<p begin="00:30:00.166" end="00:30:01.333" style="s2">And one more thing.</p>
+<p begin="00:30:01.466" end="00:30:04.966" style="s2">On Friday, Spencer showed me a contract for a villa.</p>
+<p begin="00:30:05.433" end="00:30:09.033" style="s2">These signature pages were not in it when I reviewed it.</p>
+<p begin="00:30:13.166" end="00:30:14.633" style="s2">You told me this deal was clean.</p>
+<p begin="00:30:15.400" end="00:30:16.166" style="s2">We&#39;re done here.</p>
+<p begin="00:30:18.933" end="00:30:21.000" style="s2">You&#39;re letting the gardener turn you against me?</p>
+<p begin="00:30:23.400" end="00:30:24.766" style="s2">He didn&#39;t have to, Spencer.</p>
+<p begin="00:30:25.766" end="00:30:27.333" style="s2">You did that all by yourself.</p>
+<p begin="00:30:28.033" end="00:30:29.333" style="s2">And this is my house.</p>
+<p begin="00:30:29.933" end="00:30:30.933" style="s2">It always was.</p>
+<p begin="00:30:34.333" end="00:30:35.133" style="s2">Mr. Hale.</p>
+<p begin="00:30:35.533" end="00:30:37.966" style="s2">Saturday night, you called 911 at 9:05.</p>
+<p begin="00:30:38.200" end="00:30:39.766" style="s2">Because the necklace had been stolen.</p>
+<p begin="00:30:40.133" end="00:30:41.466" style="s2">Mrs. Mayhew didn&#39;t find the box</p>
+<p begin="00:30:41.466" end="00:30:42.833" style="s2">empty until 9:22.</p>
+<p begin="00:30:43.633" end="00:30:45.400" style="s2">I checked the safe myself at eight.</p>
+<p begin="00:30:45.600" end="00:30:46.400" style="s2">It was there.</p>
+<p begin="00:30:49.733" end="00:30:50.966" style="s2">The safe keeps a log.</p>
+<p begin="00:30:51.333" end="00:30:54.166" style="s2">On Saturday, nobody opened it before 9:22.</p>
+<p begin="00:30:54.333" end="00:30:57.233" style="s2">The last time before that was Thursday morning, 7:50.</p>
+<p begin="00:30:57.733" end="00:30:58.533" style="s2">Your code.</p>
+<p begin="00:31:03.033" end="00:31:05.533" style="s2">And at 9:05 you told dispatch, “Our</p>
+<p begin="00:31:05.533" end="00:31:07.333" style="s2">groundskeeper stole my wife&#39;s necklace.”</p>
+<p begin="00:31:07.833" end="00:31:08.766" style="s2">Seven minutes later,</p>
+<p begin="00:31:08.966" end="00:31:10.233" style="s2">here&#39;s where that necklace was.</p>
+<p begin="00:31:18.566" end="00:31:19.766" style="s2">Hannah, I can explain—</p>
+<p begin="00:31:22.266" end="00:31:25.133" style="s2">The way you explained it to the dean sixteen years ago?</p>
+<p begin="00:31:26.633" end="00:31:29.933" style="s2">Paige? What were you doing in the tool shed?</p>
+<p begin="00:31:29.933" end="00:31:31.666" style="s2">I had no idea about any of this.</p>
+<p begin="00:31:36.000" end="00:31:37.066" style="s2">I want a lawyer.</p>
+<p begin="00:31:45.400" end="00:31:48.200" style="s2">Spencer Hale, you&#39;re under arrest for filing a false report,</p>
+<p begin="00:31:48.366" end="00:31:49.466" style="s2">fraud, and conspiracy.</p>
+<p begin="00:31:53.433" end="00:31:54.566" style="s2">Ten years, Hannah.</p>
+<p begin="00:31:55.266" end="00:31:57.433" style="s2">You&#39;d throw it all away for a bum off the street?</p>
+<p begin="00:31:58.400" end="00:32:00.433" style="s2">No. For the truth.</p>
+<p begin="00:32:01.366" end="00:32:03.266" style="s2">Mrs. Hale, we&#39;ll need the necklace as evidence.</p>
+<p begin="00:32:13.733" end="00:32:18.666" style="s2">Hannah... this isn&#39;t the clasp I bent. What?</p>
+<p begin="00:32:19.333" end="00:32:21.033" style="s2">The catch I fixed on the sidewalk.</p>
+<p begin="00:32:21.533" end="00:32:23.066" style="s2">My pliers leave a little notch.</p>
+<p begin="00:32:23.366" end="00:32:24.733" style="s2">There&#39;s no notch on this one.</p>
+<p begin="00:32:34.466" end="00:32:36.400" style="s2">And real diamonds don&#39;t hold a fog.</p>
+<p begin="00:32:39.833" end="00:32:41.366" style="s2">Then where are my mother&#39;s diamonds?</p>
+<p begin="00:32:44.000" end="00:32:46.866" style="s2">Ask him. Thursday morning</p>
+<p begin="00:32:46.866" end="00:32:48.633" style="s2">I took the necklace out to get it cleaned.</p>
+<p begin="00:32:49.066" end="00:32:50.233" style="s2">Left it in my desk drawer.</p>
+<p begin="00:32:51.433" end="00:32:52.533" style="s2">Thursday afternoon,</p>
+<p begin="00:32:52.966" end="00:32:55.800" style="s2">who was alone in my study with that drawer open?</p>
+<p begin="00:32:58.800" end="00:33:00.066" style="s2">He walked out with the real one</p>
+<p begin="00:33:00.066" end="00:33:01.466" style="s2">and left a fake in its place.</p>
+<p begin="00:33:07.533" end="00:33:09.166" style="s2">Then on Saturday, Paige,</p>
+<p begin="00:33:09.633" end="00:33:10.533" style="s2">God knows why,</p>
+<p begin="00:33:10.833" end="00:33:13.166" style="s2">grabbed whatever was in my drawer and stuck it in his bag.</p>
+<p begin="00:33:13.266" end="00:33:14.066" style="s2">Ask her.</p>
+<p begin="00:33:21.633" end="00:33:22.733" style="s2">He wasn&#39;t alone.</p>
+<p begin="00:33:23.466" end="00:33:25.733" style="s2">I was in that room the whole time.</p>
+<p begin="00:33:27.400" end="00:33:29.600" style="s2">She&#39;s been covering for him since the day he showed up.</p>
+<p begin="00:33:30.766" end="00:33:32.800" style="s2">The only thing I took out of that drawer was my letter.</p>
+<p begin="00:33:34.333" end="00:33:36.333" style="s2">So you did take something out of that drawer.</p>
+<p begin="00:33:38.766" end="00:33:39.800" style="s2">A college thief,</p>
+<p begin="00:33:40.066" end="00:33:41.200" style="s2">a fake in his bag,</p>
+<p begin="00:33:41.200" end="00:33:42.566" style="s2">and the real diamonds gone.</p>
+<p begin="00:33:42.966" end="00:33:44.400" style="s2">Do your job, Detective.</p>
+<p begin="00:33:47.366" end="00:33:49.600" style="s2">Two minutes ago you said you checked the safe at eight.</p>
+<p begin="00:33:50.000" end="00:33:51.166" style="s2">I got the day wrong.</p>
+<p begin="00:33:51.400" end="00:33:52.366" style="s2">Not the necklace.</p>
+<p begin="00:33:57.000" end="00:33:58.466" style="s2">Whether I believe him doesn&#39;t matter.</p>
+<p begin="00:33:59.533" end="00:34:00.933" style="s2">The real diamonds are gone,</p>
+<p begin="00:34:01.733" end="00:34:03.633" style="s2">you admit you were in that drawer,</p>
+<p begin="00:34:04.200" end="00:34:08.233" style="s2">and the only witness is the woman who let you in.</p>
+<p begin="00:34:10.866" end="00:34:11.666" style="s2">Mr. Bennett,</p>
+<p begin="00:34:12.400" end="00:34:14.166" style="s2">you&#39;re coming down to the station with me.</p>
+<p begin="00:34:14.333" end="00:34:15.133" style="s2">No—</p>
+<p begin="00:34:19.866" end="00:34:21.800" style="s2">You say your pliers leave a notch.</p>
+<p begin="00:34:22.533" end="00:34:24.133" style="s2">What I&#39;ve got is your word,</p>
+<p begin="00:34:24.666" end="00:34:26.133" style="s2">a pair of chipped pliers,</p>
+<p begin="00:34:26.533" end="00:34:28.533" style="s2">and a college expulsion for theft.</p>
+<p begin="00:34:30.166" end="00:34:31.933" style="s2">And a man who called 911</p>
+<p begin="00:34:31.933" end="00:34:33.800" style="s2">seventeen minutes before anyone knew.</p>
+<p begin="00:34:34.466" end="00:34:35.966" style="s2">You said it yourself this morning.</p>
+<p begin="00:34:40.000" end="00:34:40.866" style="s2">Saturday night,</p>
+<p begin="00:34:41.133" end="00:34:42.366" style="s2">in front of everyone,</p>
+<p begin="00:34:42.533" end="00:34:44.466" style="s2">I asked him to tell me it wasn&#39;t him.</p>
+<p begin="00:34:46.800" end="00:34:48.033" style="s2">This time I&#39;m not asking.</p>
+<p begin="00:34:52.366" end="00:34:54.533" style="s2">I don&#39;t have enough to hold you tonight, Mr. Bennett.</p>
+<p begin="00:34:54.666" end="00:34:55.666" style="s2">You&#39;re free to go.</p>
+<p begin="00:34:57.933" end="00:34:59.166" style="s2">You don&#39;t leave the county.</p>
+<p begin="00:34:59.533" end="00:35:01.033" style="s2">The district attorney decides</p>
+<p begin="00:35:01.033" end="00:35:02.400" style="s2">on Friday whether to charge you.</p>
+<p begin="00:35:02.766" end="00:35:03.733" style="s2">Felony theft.</p>
+<p begin="00:35:08.366" end="00:35:10.200" style="s2">Every time somebody doesn&#39;t believe me,</p>
+<p begin="00:35:10.200" end="00:35:12.766" style="s2">I have to live those sixteen years all over again.</p>
+<p begin="00:35:13.600" end="00:35:15.600" style="s2">And every time you stand next to me,</p>
+<p begin="00:35:15.766" end="00:35:17.233" style="s2">they take something from you.</p>
+<p begin="00:35:18.200" end="00:35:19.033" style="s2">Your husband. Your best friend. Your</p>
+<p begin="00:35:21.200" end="00:35:22.400" style="s2">mother&#39;s diamonds.</p>
+<p begin="00:35:24.266" end="00:35:25.366" style="s2">Go home, Hannah.</p>
+<p begin="00:35:25.933" end="00:35:26.966" style="s2">That is my home.</p>
+<p begin="00:35:27.366" end="00:35:30.733" style="s2">And you&#39;re still my groundskeeper. Seven a.m. tomorrow.</p>
+<p begin="00:35:31.666" end="00:35:32.600" style="s2">I&#39;ll be there.</p>
+<p begin="00:35:33.366" end="00:35:37.200" style="s2">Not for us. To finish what started sixteen years ago.</p>
+<p begin="00:35:57.133" end="00:36:00.466" style="s2">The judge let you walk out on your own signature, Spencer.</p>
+<p begin="00:36:01.800" end="00:36:03.000" style="s2">Two and a half million,</p>
+<p begin="00:36:03.600" end="00:36:05.433" style="s2">and now the land&#39;s gone too.</p>
+<p begin="00:36:06.233" end="00:36:08.166" style="s2">What exactly does that leave you?</p>
+<p begin="00:36:09.966" end="00:36:12.033" style="s2">My wife. She&#39;ll pay anything</p>
+<p begin="00:36:12.033" end="00:36:13.966" style="s2">for her mother&#39;s diamonds, Conrad.</p>
+<p begin="00:36:14.633" end="00:36:16.166" style="s2">And while she&#39;s paying you,</p>
+<p begin="00:36:16.433" end="00:36:19.166" style="s2">the police will be busy deciding the gardener stole them.</p>
+<p begin="00:36:21.033" end="00:36:22.166" style="s2">And if she won&#39;t pay?</p>
+<p begin="00:36:23.233" end="00:36:24.766" style="s2">Then they go to Antwerp.</p>
+<p begin="00:36:25.366" end="00:36:26.200" style="s2">Stone by stone.</p>
+<p begin="00:36:26.600" end="00:36:27.866" style="s2">She&#39;ll never see them again.</p>
+<p begin="00:36:29.466" end="00:36:31.333" style="s2">You can&#39;t set foot on that estate.</p>
+<p begin="00:36:31.533" end="00:36:32.566" style="s2">Order of protection.</p>
+<p begin="00:36:33.633" end="00:36:35.666" style="s2">I don&#39;t need to. You do.</p>
+<p begin="00:36:43.633" end="00:36:46.200" style="s2">The detective dropped this off this morning.</p>
+<p begin="00:36:46.833" end="00:36:50.266" style="s2">Wanted an opinion from the shop that fixed the original.</p>
+<p begin="00:36:54.133" end="00:36:55.333" style="s2">Cubic zirconia.</p>
+<p begin="00:36:56.333" end="00:36:58.633" style="s2">Nice work, made from photographs.</p>
+<p begin="00:36:58.933" end="00:37:01.666" style="s2">A piece like this takes six weeks at the very least.</p>
+<p begin="00:37:02.933" end="00:37:03.666" style="s2">Six weeks ago,</p>
+<p begin="00:37:03.666" end="00:37:04.966" style="s2">Luke was still on the sidewalk.</p>
+<p begin="00:37:11.833" end="00:37:16.533" style="s2">Your mother&#39;s necklace. Thirty-six stones, each one on file.</p>
+<p begin="00:37:17.133" end="00:37:21.600" style="s2">Look at the safety catch. Backwards. That same afternoon</p>
+<p begin="00:37:21.600" end="00:37:24.733" style="s2">I straightened it out on the sidewalk. My pliers leave a notch.</p>
+<p begin="00:37:31.566" end="00:37:34.366" style="s2">Backwards. That one&#39;s on us, I&#39;m afraid.</p>
+<p begin="00:37:35.766" end="00:37:38.633" style="s2">But son, without the real necklace,</p>
+<p begin="00:37:38.733" end="00:37:41.233" style="s2">it&#39;s still your pliers against his drawer.</p>
+<p begin="00:37:44.866" end="00:37:46.366" style="s2">Then we get the real one back.</p>
+<p begin="00:37:53.800" end="00:37:55.800" style="s2">Conrad Rourke, Mrs. Hale.</p>
+<p begin="00:37:56.666" end="00:37:58.600" style="s2">Your husband pledged this against</p>
+<p begin="00:37:58.600" end="00:37:59.966" style="s2">a loan of two and a half million.</p>
+<p begin="00:38:00.666" end="00:38:02.066" style="s2">The loan is past due.</p>
+<p begin="00:38:02.933" end="00:38:04.233" style="s2">I&#39;m a reasonable man.</p>
+<p begin="00:38:05.333" end="00:38:06.733" style="s2">Pay his debt by Friday,</p>
+<p begin="00:38:06.766" end="00:38:07.866" style="s2">and it comes home.</p>
+<p begin="00:38:09.800" end="00:38:13.133" style="s2">If not, it leaves the country.</p>
+<p begin="00:38:14.266" end="00:38:15.766" style="s2">One stone at a time.</p>
+<p begin="00:38:17.966" end="00:38:20.166" style="s2">He had no right to pledge it. It&#39;s mine.</p>
+<p begin="00:38:23.200" end="00:38:25.200" style="s2">Then take that up with him. Friday.</p>
+<p begin="00:38:32.833" end="00:38:33.766" style="s2">Don&#39;t pay him.</p>
+<p begin="00:38:34.066" end="00:38:35.800" style="s2">If you pay, Spencer wins.</p>
+<p begin="00:38:36.000" end="00:38:36.866" style="s2">His debt&#39;s gone,</p>
+<p begin="00:38:36.866" end="00:38:38.633" style="s2">and I&#39;m still the guy who stole your diamonds.</p>
+<p begin="00:38:39.166" end="00:38:40.200" style="s2">If I get it back,</p>
+<p begin="00:38:40.200" end="00:38:41.566" style="s2">your notch is on that clasp.</p>
+<p begin="00:38:41.566" end="00:38:43.133" style="s2">That&#39;s the only thing that clears you.</p>
+<p begin="00:38:44.800" end="00:38:47.066" style="s2">Not with your money. Not for me.</p>
+<p begin="00:38:47.533" end="00:38:48.833" style="s2">It&#39;s my mother&#39;s necklace.</p>
+<p begin="00:38:49.133" end="00:38:50.000" style="s2">It&#39;s my money.</p>
+<p begin="00:38:50.466" end="00:38:51.400" style="s2">And this time,</p>
+<p begin="00:38:51.733" end="00:38:52.866" style="s2">I&#39;m the one choosing.</p>
+<p begin="00:39:02.133" end="00:39:04.966" style="s2">If he hands it to you in person and tells you who pledged it,</p>
+<p begin="00:39:04.966" end="00:39:08.233" style="s2">I can charge him. Receiving stolen property. Extortion.</p>
+<p begin="00:39:08.333" end="00:39:09.333" style="s2">Then I&#39;ll pay him.</p>
+<p begin="00:39:09.766" end="00:39:10.833" style="s2">You&#39;ll wear a wire.</p>
+<p begin="00:39:11.366" end="00:39:12.866" style="s2">And the check has to be real.</p>
+<p begin="00:39:13.800" end="00:39:15.466" style="s2">Men like him can smell a setup.</p>
+<p begin="00:39:15.733" end="00:39:17.466" style="s2">If he smells it, he walks,</p>
+<p begin="00:39:17.600" end="00:39:18.833" style="s2">and so does your necklace.</p>
+<p begin="00:39:20.766" end="00:39:21.933" style="s2">I&#39;m going with her.</p>
+<p begin="00:39:22.533" end="00:39:24.100" style="s2">He&#39;ll have to let somebody check it.</p>
+<p begin="00:39:24.466" end="00:39:26.066" style="s2">You&#39;re one phone call away</p>
+<p begin="00:39:26.066" end="00:39:27.366" style="s2">from a felony charge, Mr. Bennett.</p>
+<p begin="00:39:29.200" end="00:39:30.233" style="s2">That&#39;s why I&#39;m going.</p>
+<p begin="00:39:40.266" end="00:39:41.833" style="s2">Heard Conrad stopped by.</p>
+<p begin="00:39:42.033" end="00:39:43.000" style="s2">Just pay him, honey,</p>
+<p begin="00:39:43.000" end="00:39:44.433" style="s2">and all of this goes away.</p>
+<p begin="00:39:44.600" end="00:39:45.666" style="s2">Even your gardener.</p>
+<p begin="00:39:46.566" end="00:39:48.133" style="s2">We&#39;ll see on Friday, Spencer.</p>
+<p begin="00:40:03.400" end="00:40:04.600" style="s2">Mind if I take a look?</p>
+<p begin="00:40:10.366" end="00:40:11.233" style="s2">That&#39;s the one.</p>
+<p begin="00:40:15.366" end="00:40:18.466" style="s2">...thirty-four, thirty-five, thirty-six.</p>
+<p begin="00:40:24.066" end="00:40:27.033" style="s2">A collateral receipt. Signed by your husband.</p>
+<p begin="00:40:27.566" end="00:40:29.066" style="s2">Thursday, October twenty-second,</p>
+<p begin="00:40:29.200" end="00:40:30.333" style="s2">ten-forty p.m.</p>
+<p begin="00:40:30.566" end="00:40:31.833" style="s2">Right here at this desk.</p>
+<p begin="00:40:32.266" end="00:40:33.600" style="s2">All perfectly legal.</p>
+<p begin="00:40:36.066" end="00:40:37.766" style="s2">Thursday night, ten-forty,</p>
+<p begin="00:40:37.966" end="00:40:39.366" style="s2">the necklace was in his hand.</p>
+<p begin="00:40:40.166" end="00:40:42.566" style="s2">He told the police I walked off with it that afternoon.</p>
+<p begin="00:40:48.666" end="00:40:51.033" style="s2">Conrad Rourke, you&#39;re under arrest for receiving</p>
+<p begin="00:40:51.033" end="00:40:53.866" style="s2">stolen property and extortion.</p>
+<p begin="00:40:54.800" end="00:40:56.166" style="s2">Stolen? Her husband pledged it—</p>
+<p begin="00:40:56.166" end="00:40:58.233" style="s2">Pledging something that isn&#39;t yours has another name.</p>
+<p begin="00:40:58.933" end="00:40:59.733" style="s2">Stealing.</p>
+<p begin="00:41:04.433" end="00:41:06.633" style="s2">This puts the real necklace in Spencer Hale&#39;s hands</p>
+<p begin="00:41:06.633" end="00:41:10.400" style="s2">Thursday night. I&#39;m telling the DA today. No theft</p>
+<p begin="00:41:10.400" end="00:41:15.233" style="s2">charge, Mr. Bennett. Every stone has a certificate number,</p>
+<p begin="00:41:15.233" end="00:41:17.633" style="s2">and the jeweler&#39;s photos are on file. We&#39;ll photograph</p>
+<p begin="00:41:17.633" end="00:41:20.266" style="s2">it and log it. It&#39;s yours. Sign the release.</p>
+<p begin="00:41:45.033" end="00:41:45.866" style="s2">That was the DA.</p>
+<p begin="00:41:47.033" end="00:41:49.200" style="s2">An arrest warrant got signed an hour ago.</p>
+<p begin="00:41:49.833" end="00:41:51.633" style="s2">Paige Lennox filed a sworn statement.</p>
+<p begin="00:41:52.133" end="00:41:53.733" style="s2">She says she was never in that shed.</p>
+<p begin="00:41:55.066" end="00:41:56.933" style="s2">She says the memory card spent a whole</p>
+<p begin="00:41:56.933" end="00:41:58.433" style="s2">night with you and Mrs. Mayhew,</p>
+<p begin="00:41:58.633" end="00:42:01.200" style="s2">and that you two came to her door and threatened her.</p>
+<p begin="00:42:02.033" end="00:42:04.033" style="s2">Spencer&#39;s lawyer attached a private report.</p>
+<p begin="00:42:04.266" end="00:42:06.933" style="s2">Two gaps in the timestamps, right before 9:12.</p>
+<p begin="00:42:08.000" end="00:42:08.933" style="s2">“Signs of editing.”</p>
+<p begin="00:42:10.433" end="00:42:12.566" style="s2">A warrant for who?</p>
+<p begin="00:42:13.166" end="00:42:14.566" style="s2">Two names. Yours and Mrs. Mayhew&#39;s.</p>
+<p begin="00:42:15.200" end="00:42:17.733" style="s2">Fabricating evidence, and tampering with a witness.</p>
+<p begin="00:42:17.966" end="00:42:18.966" style="s2">On that second one,</p>
+<p begin="00:42:18.966" end="00:42:20.233" style="s2">a judge can set bail.</p>
+<p begin="00:42:20.600" end="00:42:21.766" style="s2">Edna&#39;s seventy-two.</p>
+<p begin="00:42:25.166" end="00:42:26.833" style="s2">If that footage gets thrown out,</p>
+<p begin="00:42:27.133" end="00:42:30.133" style="s2">Spencer&#39;s 911 call is just a man who panicked at a party.</p>
+<p begin="00:42:31.533" end="00:42:33.666" style="s2">And the papers I signed are still out there.</p>
+<p begin="00:42:35.033" end="00:42:37.833" style="s2">Arthur says Spencer&#39;s lawyer is asking a judge</p>
+<p begin="00:42:37.833" end="00:42:40.133" style="s2">to suspend Edna as trustee while she&#39;s charged.</p>
+<p begin="00:42:43.766" end="00:42:45.166" style="s2">Kessler&#39;s people are still calling.</p>
+<p begin="00:42:46.566" end="00:42:48.266" style="s2">If somebody else takes her place,</p>
+<p begin="00:42:48.433" end="00:42:49.866" style="s2">the land&#39;s back on the table.</p>
+<p begin="00:42:52.866" end="00:42:54.600" style="s2">I&#39;m supposed to take you in right now.</p>
+<p begin="00:42:55.133" end="00:42:56.366" style="s2">I&#39;ll drive you home first.</p>
+<p begin="00:43:01.333" end="00:43:03.466" style="s2">You and Mrs. Mayhew walk out of that house together.</p>
+<p begin="00:43:03.800" end="00:43:05.066" style="s2">That&#39;s the most I can do.</p>
+<p begin="00:43:10.033" end="00:43:13.766" style="s2">Thirty years, I have never been late for anything.</p>
+<p begin="00:43:13.766" end="00:43:15.066" style="s2">I won&#39;t start today.</p>
+<p begin="00:43:20.766" end="00:43:21.766" style="s2">Hannah, don&#39;t—</p>
+<p begin="00:43:32.666" end="00:43:35.000" style="s2">Night court set it at a hundred thousand apiece.</p>
+<p begin="00:43:35.533" end="00:43:37.166" style="s2">I need collateral for both.</p>
+<p begin="00:43:44.200" end="00:43:46.400" style="s2">My mother&#39;s diamonds. For both of them.</p>
+<p begin="00:43:53.433" end="00:43:56.233" style="s2">Thirty-six. That covers both. Sign here.</p>
+<p begin="00:44:00.066" end="00:44:01.566" style="s2">You put up your mother&#39;s necklace.</p>
+<p begin="00:44:02.966" end="00:44:04.533" style="s2">Saturday night it got you thrown out.</p>
+<p begin="00:44:04.966" end="00:44:06.000" style="s2">Tonight it gets you out.</p>
+<p begin="00:44:08.866" end="00:44:10.633" style="s2">That necklace already cost you once.</p>
+<p begin="00:44:10.666" end="00:44:11.933" style="s2">You didn&#39;t have to do that.</p>
+<p begin="00:44:13.366" end="00:44:14.466" style="s2">Sixteen years ago,</p>
+<p begin="00:44:14.833" end="00:44:16.566" style="s2">nobody paid a thing to get you out.</p>
+<p begin="00:44:17.366" end="00:44:18.333" style="s2">Somebody should have.</p>
+<p begin="00:44:21.033" end="00:44:22.766" style="s2">The card has its own timestamps.</p>
+<p begin="00:44:24.966" end="00:44:26.666" style="s2">They&#39;ll just say I faked those too.</p>
+<p begin="00:44:27.433" end="00:44:29.066" style="s2">We need something I never could&#39;ve touched.</p>
+<p begin="00:44:32.933" end="00:44:34.433" style="s2">...Mr. Caldwell&#39;s camera.</p>
+<p begin="00:44:35.266" end="00:44:36.266" style="s2">That little bill.</p>
+<p begin="00:44:37.333" end="00:44:38.666" style="s2">Nine ninety-nine a month,</p>
+<p begin="00:44:38.800" end="00:44:39.866" style="s2">three years now.</p>
+<p begin="00:44:40.366" end="00:44:42.400" style="s2">He made me promise to keep paying it.</p>
+<p begin="00:44:43.000" end="00:44:44.800" style="s2">I never knew what it actually did.</p>
+<p begin="00:44:48.566" end="00:44:51.533" style="s2">It uploads. Every clip goes up to the camera</p>
+<p begin="00:44:51.533" end="00:44:52.866" style="s2">company the second it&#39;s recorded.</p>
+<p begin="00:44:53.533" end="00:44:54.600" style="s2">Do you know the password?</p>
+<p begin="00:44:58.566" end="00:45:00.866" style="s2">He never trusted anything he couldn&#39;t write down.</p>
+<p begin="00:45:08.833" end="00:45:11.833" style="s2">All of it. The same second.</p>
+<p begin="00:45:13.600" end="00:45:14.533" style="s2">On their server.</p>
+<p begin="00:45:14.800" end="00:45:16.400" style="s2">Nobody in this house could touch it.</p>
+<p begin="00:45:16.933" end="00:45:17.733" style="s2">Thursday&#39;s hearing.</p>
+<p begin="00:45:18.266" end="00:45:19.566" style="s2">This keeps the footage in.</p>
+<p begin="00:45:21.600" end="00:45:23.600" style="s2">Keeping the footage in won&#39;t make him confess.</p>
+<p begin="00:45:24.633" end="00:45:25.933" style="s2">He&#39;s got a backup plan.</p>
+<p begin="00:45:26.466" end="00:45:27.933" style="s2">He always has a backup plan.</p>
+<p begin="00:45:31.433" end="00:45:33.266" style="s2">You said he always has a backup.</p>
+<p begin="00:45:33.733" end="00:45:36.333" style="s2">On Monday I only printed up to 9:22.</p>
+<p begin="00:45:36.433" end="00:45:37.533" style="s2">Look at the next line.</p>
+<p begin="00:45:38.233" end="00:45:39.166" style="s2">Saturday night,</p>
+<p begin="00:45:39.333" end="00:45:40.433" style="s2">eleven forty-seven.</p>
+<p begin="00:45:41.166" end="00:45:44.033" style="s2">He opened it one more time. After the party.</p>
+<p begin="00:45:47.366" end="00:45:49.166" style="s2">What would he put in there after the party?</p>
+<p begin="00:46:03.800" end="00:46:05.600" style="s2">He didn&#39;t keep this letter for me.</p>
+<p begin="00:46:06.200" end="00:46:07.766" style="s2">He kept it to hold over her.</p>
+<p begin="00:46:09.866" end="00:46:10.933" style="s2">Six weeks ago.</p>
+<p begin="00:46:11.733" end="00:46:13.833" style="s2">The fake was picked up under her name.</p>
+<p begin="00:46:14.000" end="00:46:15.233" style="s2">If anything went wrong,</p>
+<p begin="00:46:15.533" end="00:46:16.933" style="s2">it would all land on her.</p>
+<p begin="00:46:18.433" end="00:46:20.066" style="s2">Not one word in his handwriting.</p>
+<p begin="00:46:25.533" end="00:46:28.566" style="s2">Not yet. I want to read it at the right time.</p>
+<p begin="00:46:31.600" end="00:46:35.033" style="s2">The originals go to Detective Alvarez first thing Monday.</p>
+<p begin="00:46:35.466" end="00:46:36.733" style="s2">You keep the copies.</p>
+<p begin="00:46:37.200" end="00:46:40.033" style="s2">And Hannah, his lawyer gets copies too.</p>
+<p begin="00:46:40.200" end="00:46:41.233" style="s2">That&#39;s how it works.</p>
+<p begin="00:46:42.033" end="00:46:43.133" style="s2">Whatever&#39;s in this folder,</p>
+<p begin="00:46:43.333" end="00:46:44.766" style="s2">Spencer will try to use it.</p>
+<p begin="00:46:56.766" end="00:46:58.166" style="s2">Here to see me fall apart?</p>
+<p begin="00:46:59.933" end="00:47:01.800" style="s2">He kept this for sixteen years.</p>
+<p begin="00:47:02.566" end="00:47:04.866" style="s2">Not for me. For you.</p>
+<p begin="00:47:08.666" end="00:47:10.866" style="s2">The day you ever told the truth about that watch,</p>
+<p begin="00:47:11.866" end="00:47:14.733" style="s2">he&#39;d give it to me and say you were the one who hid it.</p>
+<p begin="00:47:17.466" end="00:47:21.066" style="s2">In September, he sent you into the city to pick up a box.</p>
+<p begin="00:47:21.866" end="00:47:22.766" style="s2">Give your name,</p>
+<p begin="00:47:23.033" end="00:47:24.933" style="s2">don&#39;t open it. Right?</p>
+<p begin="00:47:26.033" end="00:47:29.933" style="s2">What was in that box ended up in Luke&#39;s bag on Saturday.</p>
+<p begin="00:47:31.066" end="00:47:33.066" style="s2">The originals go to the police tomorrow.</p>
+<p begin="00:47:33.966" end="00:47:35.200" style="s2">And on this slip,</p>
+<p begin="00:47:35.800" end="00:47:37.033" style="s2">there&#39;s only one name.</p>
+<p begin="00:47:39.966" end="00:47:41.566" style="s2">He said it was your anniversary present.</p>
+<p begin="00:47:41.733" end="00:47:43.066" style="s2">He told me not to open it.</p>
+<p begin="00:47:45.233" end="00:47:46.866" style="s2">...On Monday, in that study,</p>
+<p begin="00:47:46.966" end="00:47:49.266" style="s2">he threw me to the wolves. Twice.</p>
+<p begin="00:47:51.800" end="00:47:52.600" style="s2">...He kept saying</p>
+<p begin="00:47:52.600" end="00:47:53.400" style="s2">Lake Como.</p>
+<p begin="00:47:54.533" end="00:47:56.933" style="s2">He said a lot of things. To both of us.</p>
+<p begin="00:48:02.200" end="00:48:04.066" style="s2">...He was mine first, back in college.</p>
+<p begin="00:48:06.000" end="00:48:07.866" style="s2">He picked you because of your father&#39;s land.</p>
+<p begin="00:48:09.400" end="00:48:11.633" style="s2">He kept me because I&#39;d do anything he asked.</p>
+<p begin="00:48:13.766" end="00:48:15.433" style="s2">Why are you telling me any of this?</p>
+<p begin="00:48:20.633" end="00:48:21.766" style="s2">Sixteen years ago,</p>
+<p begin="00:48:21.866" end="00:48:23.733" style="s2">you had one chance to tell the truth,</p>
+<p begin="00:48:23.733" end="00:48:24.600" style="s2">and you didn&#39;t.</p>
+<p begin="00:48:25.233" end="00:48:27.400" style="s2">On Thursday, you get another one.</p>
+<p begin="00:48:28.233" end="00:48:29.933" style="s2">That&#39;s more than he ever gave Luke.</p>
+<p begin="00:48:40.633" end="00:48:41.800" style="s2">Sixteen years ago,</p>
+<p begin="00:48:41.966" end="00:48:45.466" style="s2">you walked out of that dean&#39;s office with nothing. Today</p>
+<p begin="00:48:45.466" end="00:48:46.966" style="s2">you get to stand here and watch</p>
+<p begin="00:48:46.966" end="00:48:48.333" style="s2">her end up with nothing too.</p>
+<p begin="00:48:49.766" end="00:48:51.366" style="s2">Then you&#39;d better watch closely.</p>
+<p begin="00:48:55.400" end="00:48:57.166" style="s2">People versus Spencer Hale.</p>
+<p begin="00:48:57.433" end="00:48:59.933" style="s2">The defense moves to throw out the camera footage.</p>
+<p begin="00:49:00.166" end="00:49:01.766" style="s2">Ms. Lennox is here as a witness.</p>
+<p begin="00:49:05.933" end="00:49:09.466" style="s2">Your Honor, according to Ms. Lennox&#39;s sworn</p>
+<p begin="00:49:09.633" end="00:49:11.966" style="s2">statement and an independent analysis,</p>
+<p begin="00:49:12.400" end="00:49:15.433" style="s2">this memory card spent a night in the hands</p>
+<p begin="00:49:15.433" end="00:49:18.833" style="s2">of a man expelled from college for theft</p>
+<p begin="00:49:18.833" end="00:49:21.166" style="s2">and a housekeeper with a stake in this estate.</p>
+<p begin="00:49:21.666" end="00:49:23.233" style="s2">The timestamps have gaps.</p>
+<p begin="00:49:23.566" end="00:49:25.366" style="s2">We move to exclude the footage entirely.</p>
+<p begin="00:49:27.600" end="00:49:30.200" style="s2">The camera only records when something moves.</p>
+<p begin="00:49:31.033" end="00:49:33.000" style="s2">The company&#39;s motion log shows</p>
+<p begin="00:49:33.033" end="00:49:35.400" style="s2">nothing moved during those gaps.</p>
+<p begin="00:49:36.600" end="00:49:38.800" style="s2">And every clip went up</p>
+<p begin="00:49:38.800" end="00:49:40.666" style="s2">to their server the second it was recorded.</p>
+<p begin="00:49:42.933" end="00:49:43.866" style="s2">Until last weekend,</p>
+<p begin="00:49:43.866" end="00:49:46.066" style="s2">nobody had logged into that account in three years.</p>
+<p begin="00:49:47.133" end="00:49:48.766" style="s2">Their engineer certified it.</p>
+<p begin="00:49:48.866" end="00:49:51.433" style="s2">The server copy matches the card frame for frame.</p>
+<p begin="00:49:55.166" end="00:49:56.466" style="s2">The footage comes in.</p>
+<p begin="00:49:56.733" end="00:49:57.600" style="s2">Motion denied.</p>
+<p begin="00:50:00.600" end="00:50:03.400" style="s2">Your Honor, in light of that ruling, the People move</p>
+<p begin="00:50:03.400" end="00:50:05.266" style="s2">to dismiss the related case against</p>
+<p begin="00:50:05.266" end="00:50:06.766" style="s2">Mr. Bennett and Mrs. Mayhew.</p>
+<p begin="00:50:08.600" end="00:50:11.166" style="s2">So ordered. The charges are dismissed,</p>
+<p begin="00:50:11.400" end="00:50:12.666" style="s2">and their bail is returned.</p>
+<p begin="00:50:19.800" end="00:50:20.733" style="s2">Then let&#39;s look at what</p>
+<p begin="00:50:20.733" end="00:50:22.200" style="s2">the footage actually shows, Your Honor.</p>
+<p begin="00:50:22.633" end="00:50:24.366" style="s2">One person walks into that shed</p>
+<p begin="00:50:24.366" end="00:50:25.866" style="s2">and touches that necklace.</p>
+<p begin="00:50:25.866" end="00:50:26.600" style="s2">Ms. Lennox.</p>
+<p begin="00:50:27.133" end="00:50:31.000" style="s2">Yes, she says “Spencer” on a phone call.</p>
+<p begin="00:50:31.866" end="00:50:35.833" style="s2">Not a single frame shows my client touching that necklace.</p>
+<p begin="00:50:37.066" end="00:50:39.633" style="s2">The affair, my client admits.</p>
+<p begin="00:50:40.533" end="00:50:42.800" style="s2">The land is a contract dispute between</p>
+<p begin="00:50:42.800" end="00:50:44.633" style="s2">a husband and wife, for another court.</p>
+<p begin="00:50:45.366" end="00:50:46.400" style="s2">As for the fake...</p>
+<p begin="00:50:48.366" end="00:50:51.266" style="s2">Picked up in September by Ms. Lennox herself.</p>
+<p begin="00:50:51.833" end="00:50:52.633" style="s2">Her signature.</p>
+<p begin="00:50:53.966" end="00:50:56.200" style="s2">Ms. Lennox has had an infatuation</p>
+<p begin="00:50:56.200" end="00:50:57.866" style="s2">with my client since college—</p>
+<p begin="00:50:58.200" end="00:50:59.033" style="s2">Since college.</p>
+<p begin="00:51:01.800" end="00:51:04.133" style="s2">You held on to that slip for six weeks.</p>
+<p begin="00:51:05.066" end="00:51:07.566" style="s2">You held on to that letter for sixteen years.</p>
+<p begin="00:51:10.166" end="00:51:11.666" style="s2">Your Honor, I want to testify.</p>
+<p begin="00:51:12.933" end="00:51:16.200" style="s2">Ms. Lennox, you&#39;re charged in this case too.</p>
+<p begin="00:51:16.866" end="00:51:18.733" style="s2">Anything you say can be used against you.</p>
+<p begin="00:51:19.166" end="00:51:20.066" style="s2">I understand.</p>
+<p begin="00:51:27.333" end="00:51:28.400" style="s2">Sixteen years ago,</p>
+<p begin="00:51:28.666" end="00:51:30.466" style="s2">I stood lookout while Spencer put</p>
+<p begin="00:51:30.466" end="00:51:32.233" style="s2">his own watch in Luke Bennett&#39;s backpack.</p>
+<p begin="00:51:33.466" end="00:51:35.200" style="s2">I told the dean I saw Luke take</p>
+<p begin="00:51:35.200" end="00:51:36.833" style="s2">it because Spencer told me to.</p>
+<p begin="00:51:38.833" end="00:51:40.633" style="s2">The letter Luke gave me for Hannah,</p>
+<p begin="00:51:41.133" end="00:51:42.400" style="s2">I handed to Spencer.</p>
+<p begin="00:51:44.466" end="00:51:47.400" style="s2">In September, Spencer sent me to pick up a box.</p>
+<p begin="00:51:48.633" end="00:51:50.533" style="s2">He said it was Hannah&#39;s anniversary present.</p>
+<p begin="00:51:54.333" end="00:51:55.833" style="s2">His text is still on there.</p>
+<p begin="00:51:56.633" end="00:51:58.066" style="s2">“Pick it up tomorrow afternoon.</p>
+<p begin="00:51:58.433" end="00:51:59.366" style="s2">Use your name.</p>
+<p begin="00:51:59.566" end="00:52:00.533" style="s2">Don&#39;t open it.”</p>
+<p begin="00:52:02.066" end="00:52:03.633" style="s2">He sent me the receipt too,</p>
+<p begin="00:52:03.633" end="00:52:05.000" style="s2">so they&#39;d release the box.</p>
+<p begin="00:52:05.666" end="00:52:07.066" style="s2">Paid from his company&#39;s account.</p>
+<p begin="00:52:09.566" end="00:52:11.866" style="s2">That Saturday, Spencer handed me</p>
+<p begin="00:52:11.866" end="00:52:13.466" style="s2">the necklace and told me which hook.</p>
+<p begin="00:52:18.633" end="00:52:20.033" style="s2">The letter in that bag,</p>
+<p begin="00:52:20.600" end="00:52:22.366" style="s2">I took it out and gave it to him.</p>
+<p begin="00:52:23.333" end="00:52:25.166" style="s2">I was in that shed at 9:12.</p>
+<p begin="00:52:25.633" end="00:52:27.733" style="s2">He called 911 at 9:05.</p>
+<p begin="00:52:28.366" end="00:52:29.233" style="s2">“Calling my mom”?</p>
+<p begin="00:52:30.466" end="00:52:31.800" style="s2">That call was to him.</p>
+<p begin="00:52:37.533" end="00:52:40.000" style="s2">Last week, his lawyer brought me that sworn</p>
+<p begin="00:52:40.166" end="00:52:41.800" style="s2">statement and told me where to sign.</p>
+<p begin="00:52:42.633" end="00:52:44.266" style="s2">Spencer paid him to file it.</p>
+<p begin="00:52:48.366" end="00:52:50.233" style="s2">He kept that letter sixteen years</p>
+<p begin="00:52:50.233" end="00:52:51.833" style="s2">so he&#39;d have something on me.</p>
+<p begin="00:52:52.866" end="00:52:55.866" style="s2">This time, I kept something too.</p>
+<p begin="00:52:56.433" end="00:53:02.266" style="s2">Paige— Mr.</p>
+<p begin="00:53:02.366" end="00:53:06.200" style="s2">Hale, I find reasonable cause to believe</p>
+<p begin="00:53:06.200" end="00:53:08.000" style="s2">you tampered with a witness in this case.</p>
+<p begin="00:53:08.866" end="00:53:10.266" style="s2">Your release is revoked.</p>
+<p begin="00:53:10.866" end="00:53:12.400" style="s2">You&#39;re remanded into custody,</p>
+<p begin="00:53:12.966" end="00:53:13.766" style="s2">effective immediately.</p>
+<p begin="00:53:14.166" end="00:53:16.566" style="s2">The People will be filing additional charges, Your Honor.</p>
+<p begin="00:53:16.733" end="00:53:18.733" style="s2">The theft of Mrs. Hale&#39;s necklace,</p>
+<p begin="00:53:19.200" end="00:53:21.566" style="s2">and paying for a false sworn statement.</p>
+<p begin="00:53:28.033" end="00:53:30.333" style="s2">Evidence. Sixteen years late.</p>
+<p begin="00:53:34.566" end="00:53:35.366" style="s2">Hannah—</p>
+<p begin="00:53:37.433" end="00:53:39.200" style="s2">You told me he left without a word.</p>
+<p begin="00:53:39.833" end="00:53:41.000" style="s2">He left a whole letter,</p>
+<p begin="00:53:41.166" end="00:53:42.433" style="s2">and you locked it away.</p>
+<p begin="00:53:42.633" end="00:53:45.866" style="s2">Ten years, I signed whatever you put in front of me.</p>
+<p begin="00:53:46.400" end="00:53:47.433" style="s2">From today on,</p>
+<p begin="00:53:48.166" end="00:53:49.666" style="s2">I read every word first.</p>
+<p begin="00:53:58.466" end="00:54:00.566" style="s2">Based on Ms. Lennox&#39;s sworn testimony,</p>
+<p begin="00:54:01.233" end="00:54:02.733" style="s2">your record has been cleared.</p>
+<p begin="00:54:03.766" end="00:54:06.000" style="s2">Northbrook owes you an apology, Mr. Bennett.</p>
+<p begin="00:54:06.333" end="00:54:08.033" style="s2">And a chance to finish your degree.</p>
+<p begin="00:54:08.800" end="00:54:09.833" style="s2">Full scholarship.</p>
+<p begin="00:54:10.466" end="00:54:12.100" style="s2">Spring semester starts Monday.</p>
+<p begin="00:54:13.333" end="00:54:14.433" style="s2">I&#39;m thirty-five.</p>
+<p begin="00:54:14.666" end="00:54:16.366" style="s2">I&#39;ll be the oldest guy in every class.</p>
+<p begin="00:54:16.600" end="00:54:17.733" style="s2">And the best prepared.</p>
+<p begin="00:54:18.233" end="00:54:20.533" style="s2">Your old professors&#39; notes say you always were.</p>
+<p begin="00:54:24.633" end="00:54:28.566" style="s2">Sixteen years I&#39;ve wanted to walk back into this room. ...Okay.</p>
+<p begin="00:54:30.933" end="00:54:33.033" style="s2">Eat. Bridges don&#39;t build themselves.</p>
+<p begin="00:54:34.866" end="00:54:36.266" style="s2">The divorce is final.</p>
+<p begin="00:54:36.600" end="00:54:38.533" style="s2">And Kessler&#39;s contract is void.</p>
+<p begin="00:54:38.833" end="00:54:40.266" style="s2">The land stays in the trust.</p>
+<p begin="00:54:41.000" end="00:54:43.466" style="s2">Spencer took a plea. Nine years.</p>
+<p begin="00:54:43.966" end="00:54:44.666" style="s2">At sentencing,</p>
+<p begin="00:54:44.666" end="00:54:46.066" style="s2">the judge brought up that watch.</p>
+<p begin="00:54:46.733" end="00:54:47.733" style="s2">Paige cooperated.</p>
+<p begin="00:54:47.966" end="00:54:49.333" style="s2">She still got eighteen months.</p>
+<p begin="00:54:51.200" end="00:54:52.733" style="s2">You can just sign it, you know.</p>
+<p begin="00:54:53.200" end="00:54:54.600" style="s2">I read every word now.</p>
+<p begin="00:54:57.833" end="00:54:59.166" style="s2">Henry would be proud of you.</p>
+<p begin="00:55:01.033" end="00:55:02.233" style="s2">Sixteen years ago,</p>
+<p begin="00:55:02.833" end="00:55:03.633" style="s2">in that letter,</p>
+<p begin="00:55:03.633" end="00:55:04.966" style="s2">I asked you to meet me.</p>
+<p begin="00:55:05.966" end="00:55:08.366" style="s2">Last day of the semester. Noon.</p>
+<p begin="00:55:09.066" end="00:55:10.166" style="s2">On the stone bridge.</p>
+<p begin="00:55:11.466" end="00:55:12.966" style="s2">I waited there till dark.</p>
+<p begin="00:55:19.600" end="00:55:21.766" style="s2">For the shirt. With interest.</p>
+<p begin="00:55:22.966" end="00:55:24.666" style="s2">Keep it. You earned it.</p>
+<p begin="00:55:25.333" end="00:55:26.400" style="s2">Isn&#39;t that my line?</p>
+<p begin="00:55:40.933" end="00:55:44.533" style="s2">“They&#39;re saying I stole Spencer&#39;s watch. I didn&#39;t.</p>
+<p begin="00:55:45.366" end="00:55:46.266" style="s2">I can&#39;t prove it,</p>
+<p begin="00:55:46.266" end="00:55:49.366" style="s2">and I won&#39;t make you choose.</p>
+<p begin="00:55:52.033" end="00:55:53.400" style="s2">But if you believe me,</p>
+<p begin="00:55:54.033" end="00:55:55.800" style="s2">meet me on the stone bridge at noon</p>
+<p begin="00:55:55.800" end="00:55:57.366" style="s2">on the last day of the semester.</p>
+<p begin="00:55:59.033" end="00:56:00.166" style="s2">If you&#39;re not there,</p>
+<p begin="00:56:00.166" end="00:56:01.233" style="s2">I&#39;ll know your answer,</p>
+<p begin="00:56:01.600" end="00:56:03.366" style="s2">and I won&#39;t come looking for you.</p>
+<p begin="00:56:04.033" end="00:56:06.466" style="s2">I love you. Luke.”</p>
+<p begin="00:56:21.866" end="00:56:25.166" style="s2">You&#39;re early. Sixteen years ago,</p>
+<p begin="00:56:25.166" end="00:56:26.400" style="s2">you waited here till dark.</p>
+<p begin="00:56:27.133" end="00:56:28.400" style="s2">I&#39;ve finally read it.</p>
+<p begin="00:56:30.366" end="00:56:32.000" style="s2">I can&#39;t give you those years back.</p>
+<p begin="00:56:32.833" end="00:56:34.266" style="s2">But I can be here now.</p>
+<p begin="00:56:35.166" end="00:56:36.566" style="s2">If you still want me here.</p>
+<p begin="00:56:44.366" end="00:56:45.800" style="s2">Every winter on that sidewalk,</p>
+<p begin="00:56:46.533" end="00:56:48.333" style="s2">this stayed at the bottom of my bag.</p>
+<p begin="00:56:49.833" end="00:56:50.933" style="s2">You don&#39;t have to answer.</p>
+<p begin="00:56:52.166" end="00:56:54.066" style="s2">I just wanted it to finally get to you.</p>
+<p begin="00:56:55.366" end="00:56:58.466" style="s2">Then ask. This time I got here first.</p>
+<p begin="00:57:01.533" end="00:57:02.866" style="s2">Hannah Caldwell, will you—</p>
+<p begin="00:57:02.866" end="00:57:03.666" style="s2">Yes.</p>
+</div>
+</body>
+</tt>

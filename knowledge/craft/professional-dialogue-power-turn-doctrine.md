@@ -237,3 +237,12 @@ Evidence source: `knowledge/market/nightfall-ivy-economic-abandonment-repair-dee
 2. **Class wounds should echo in new forms.** The aunt's leave-town check repeats Brett's abandonment letter, allowing Ivy to answer the same insult with greater agency.
 3. **Financial dialogue can be dramatic when exact.** Power of attorney, invoice numbers, auction deadlines, loan amounts, and repayment terms create stakes because they are testable.
 4. **Final consent should name belonging structure.** “Wherever I live, she lives” is stronger than a generic proposal answer because it defines who is included in the future home.
+
+## Wrongful-accusation restoration dialogue addendum (2026-11-27)
+
+Evidence source: `knowledge/market/nightfall-luke-wrongful-accusation-restoration-deep-dive.md`.
+
+1. **Dignity boundaries can be very short.** “Not with your money. Not for me.” blocks rescue dependency without rejecting love.
+2. **Investigation dialogue should ask testable questions.** Time of call, safe logs, chain of custody, pawn slips, camera motion, and signatures create drama because each answer can be falsified.
+3. **Institutional repair needs plain speech.** “Northbrook owes you an apology” matters because it names the institution that stole the future, not just the villain.
+4. **Romantic closure should leave room for refusal.** “You don't have to answer” makes the yes meaningful because the past letter cannot coerce the present choice.
