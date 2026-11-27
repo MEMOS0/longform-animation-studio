@@ -2470,3 +2470,21 @@ def test_melodrama_claimant_and_abandonment_ignore_creature_debt_contexts():
     assert evaluate_child_economic_claimant_integrity(creature,{"sequences":[]},[])["applies"] is False
     turtle={"title":"Foghorn Turtle Keeper","logline":"A keeper refuses to abandon an injured turtle and learns to trust a harbor family."}
     assert evaluate_economic_abandonment_integrity(turtle,{"sequences":[]},[])["applies"] is False
+
+
+def test_wrongful_accusation_evaluates_unrepaired_romance():
+    from studio.wrongful_accusation_integrity import evaluate_wrongful_accusation_integrity
+    premise={"title":"Framed","logline":"A student is framed for theft, expelled, loses his scholarship and reputation, becomes homeless, and his old love simply chooses him."}
+    r=evaluate_wrongful_accusation_integrity(premise,{"sequences":[{"summary":"They reunite with no evidence. His college never reinstates him. He does not ask and she never freely says yes."}]},[])
+    assert r["applies"] is True
+    assert r["checks"]["truth_chain_is_procedural"] is False
+    assert r["checks"]["love_interest_investigates_instead_of_instantly_believing"] is False
+    assert r["checks"]["institutional_restoration_repairs_stolen_future"] is False
+    assert r["checks"]["romantic_closure_is_present_tense_consent"] is False
+
+
+def test_economic_abandonment_present_tense_spousal_abandonment_applies():
+    from studio.economic_abandonment_integrity import evaluate_economic_abandonment_integrity
+    premise={"title":"Drained","logline":"A husband abandons his wife and drains their bank accounts."}
+    r=evaluate_economic_abandonment_integrity(premise,{"sequences":[]},[])
+    assert r["applies"] is True
