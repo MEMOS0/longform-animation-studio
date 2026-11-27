@@ -1457,3 +1457,27 @@ def test_romance_blocks_him_counts_as_contact_rejection():
     from studio.romance_deception_integrity import evaluate_romance_deception_integrity
     premise={"title_candidates":["Her Online Boyfriend Was 16"],"opening_event":{"first_5_minutes":"she blocks him immediately"}}
     assert evaluate_romance_deception_integrity(premise,{},[])['checks']['immediate_boundary_or_rejection']
+
+
+def test_family_exit_warnings_are_strings_not_booleans():
+    from studio.family_exit_integrity import evaluate_family_exit_integrity
+    premise={"title_candidates":["Left Without Saying Goodbye"],"logline":"family favoritism dowry"}
+    result=evaluate_family_exit_integrity(premise,{},[])
+    assert all(isinstance(w,str) for w in result['warnings'])
+    assert any('forces emotional forgiveness' in w for w in result['warnings'])
+
+
+def test_family_exit_reads_architecture_ending_payoff():
+    from studio.family_exit_integrity import evaluate_family_exit_integrity
+    premise={"title_candidates":["Left Without Saying Goodbye"],"logline":"family favoritism dowry hospital"}
+    arch={"ending_payoff":{"justice":"mother says I was wrong and regret","belonging":"bounded contact if we have time; she feels nothing and no longer needs forgiveness","future_image":"chosen family care"}}
+    result=evaluate_family_exit_integrity(premise,arch,[])
+    assert result['checks']['repair_not_objects_only']
+    assert result['checks']['no_forced_forgiveness_reset']
+
+
+def test_romance_physical_obstruction_is_not_contact_rejection():
+    from studio.romance_deception_integrity import evaluate_romance_deception_integrity
+    premise={"title_candidates":["Her Online Boyfriend Was 16"],"logline":"she blocks him from leaving but they keep dating"}
+    result=evaluate_romance_deception_integrity(premise,{},[])
+    assert not result['checks']['immediate_boundary_or_rejection']
