@@ -168,8 +168,20 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
 
     scene_order = "neutral"
     if scenes:
-        final_count = max(2, (len(scenes) + 2) // 3)
-        scene_order = closure_order("\n".join(_text(scene).lower() for scene in scenes[-final_count:]))
+        first_hook_index = None
+        first_closure_index = None
+        for index, scene in enumerate(scenes):
+            text = _text(scene).lower()
+            if first_hook_index is None and re.search(hook_pattern, text):
+                first_hook_index = index
+            if first_closure_index is None and re.search(closure_pattern, text):
+                first_closure_index = index
+        if first_hook_index is not None and first_closure_index is not None:
+            scene_order = "positive" if first_closure_index < first_hook_index else "negative"
+        elif first_hook_index is not None:
+            scene_order = "hook_only"
+        elif first_closure_index is not None and first_closure_index >= max(1, (2 * len(scenes)) // 3):
+            scene_order = "closure_only"
 
     architecture_units: list[str] = []
     if isinstance(architecture, dict):
@@ -193,9 +205,8 @@ def evaluate_competence_cascade_integrity(premise: dict[str, Any], architecture:
     architecture_has_hook = any(state in {"positive", "negative", "hook_only"} for state in architecture_states)
 
     ending_payoff_text = _text(architecture.get("ending_payoff", "")).lower() if isinstance(architecture, dict) else ""
-    unresolved_language = bool(re.search(r"unresolved|remains open|conflict remains|no closure", ending_payoff_text))
-    sequel_case_context = bool(re.search(r"new mission|next mission|sequel hook|new case|ordered to|called away", ending_payoff_text))
-    explicit_unresolved = unresolved_language and not sequel_case_context
+    unresolved_original = bool(re.search(r"(?:original|main|central|core|current).{0,45}(?:unresolved|remains open|no closure)|(?:unresolved|remains open|no closure).{0,45}(?:original|main|central|core|current)|conflict remains(?: unresolved| open)?", ending_payoff_text))
+    explicit_unresolved = unresolved_original
     if explicit_unresolved:
         closure_before_hook = False
     elif scene_order == "positive":

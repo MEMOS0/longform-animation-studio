@@ -48,9 +48,9 @@ def evaluate_taboo_family_irony_integrity(premise: dict[str, Any], architecture:
     flat = re.sub(r"\s+", " ", full)
     opening_source = _opening_text(premise, architecture, scenes)
 
-    family_taboo = bool(re.search(r"best(?:ie| friend).?s (?:dad|father|mom|mother|parent)|stepmom|stepmother|stepfather|father.?in.?law|mother.?in.?law", flat))
+    family_taboo = bool(re.search(r"best(?:ie| friend).?s (?:dad|father|mom|mother|parent)|stepmom|stepmother|stepfather|father.?in.?law|mother.?in.?law|former guardian|guardian-ward", flat))
     romantic_power = bool(re.search(r"mafia|mob|godfather|don\b|ceo|billionaire|older man|age gap|boss", flat))
-    romantic_relation = bool(re.search(r"marry|marries|married|marriage|husband|wife|bride|romance|lover|dating|partner", flat))
+    romantic_relation = bool(re.search(r"marry|marries|married|marriage|husband|wife|bride|romance|lover|dating|partner|falls? in love|in love with", flat))
     hidden_relation = bool(re.search(r"secret|hidden identity|doesn.?t know|unaware|mistaken|wrong (?:man|woman|person)|lies|lying|truth", flat))
     applies = family_taboo and romantic_power and romantic_relation and hidden_relation
     if not applies:
@@ -65,12 +65,12 @@ def evaluate_taboo_family_irony_integrity(premise: dict[str, Any], architecture:
     }
     arena_count = sum(1 for pattern in arena_terms.values() if re.search(pattern, full))
 
-    coercion_present = bool(re.search(r"drunk(?:en)? marriage|mistake(?:n)? marriage|forced marriage|blackmail|no right to refuse|can.?t refuse|won.?t take no|cut .*internet|ship .*away|surveillance|possessive|you are mine", flat))
+    coercion_present = bool(re.search(r"drunk(?:en)? marriage|mistake(?:n)? marriage|forced marriage|blackmail|no right to refuse|can.?t refuse|won.?t take no|cut(?:ting)? (?:off )?(?:his |her |their |the )?internet|ship(?:ped|s)? .{0,25}away|surveillance|possessive|you are mine", flat))
     repair_behavior = bool(re.search(r"apolog|repair|explicit consent|free choice|choose freely|can leave|free to leave|respects? (?:her|his|their) (?:no|refusal|boundar)|honors? (?:her|his|their) (?:no|refusal|boundar)|asks? (?:permission|before)|no more lies|tells? the truth|truth before", flat))
     coercion_unrepaired = coercion_present and not repair_behavior
 
     agency_text = re.sub(r"no right to refuse|can.?t refuse|cannot refuse|won.?t take no", " ", flat)
-    protagonist_agency = bool(re.search(r"we are done|she rejects|he rejects|she refuses|he refuses|stay away|can leave|free to leave|she decides|he decides|tells? (?:him|her|them) no|walks? away|asks? for (?:an )?annulment|right to refuse", agency_text))
+    protagonist_agency = bool(re.search(r"we are done|she rejects|he rejects|she refuses|he refuses|stay away|can leave|free to leave|she decides|he decides|chooses? to leave|tells? (?:him|her|them) no|walks? away|asks? for (?:an )?annulment|right to refuse", agency_text))
     truth_revealed = bool(re.search(r"truth|no more lies|identity is revealed|learns? who|realizes? who", flat))
 
     shared_reveal = bool(re.search(r"(?:audience|viewer|viewer.?s|reader).{0,50}learn.{0,30}together|(?:audience|viewer|viewer.?s|reader).{0,50}(?:same time|with the characters)|characters and (?:audience|viewers|readers) learn", flat))
