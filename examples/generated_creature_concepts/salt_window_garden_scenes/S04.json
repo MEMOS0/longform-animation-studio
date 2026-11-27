@@ -53,31 +53,58 @@
       {
         "beat": "external_pressure",
         "speaker": "land trust",
-        "line": "Unlicensed hands don't touch the pump.",
+        "line": "No license, no hand on that pump.",
         "action": "competence is reframed as illegality",
-        "subtext": "competence is dangerous to the authority because it exposes whom the system actually depends on"
+        "subtext": "competence is dangerous to the authority because it exposes whom the system actually depends on",
+        "power_move": "coercive exclusion or institutional demand",
+        "listening_response": "answers the immediate resource/status threat before anyone can explain the larger conflict",
+        "delivery": "clipped, public, procedural; the speaker does not need to sound emotional to exercise power",
+        "status_shift": "authority controls the threshold, crowd, or paperwork",
+        "room_sound": "crowd texture, ledger paper, coin/metal, or machinery stays louder than the vulnerable body"
       },
       {
         "beat": "witness_objection",
         "speaker": "customer witness",
-        "line": "Nura's repair held through the morning rush.",
+        "line": "Nura's patch held through the morning rush. I watched it.",
         "action": "one practical witness breaks the crowd's certainty",
-        "subtext": "the witness is not defending the protagonist emotionally; they are defending results they personally verified"
+        "subtext": "the witness is not defending the protagonist emotionally; they are defending results they personally verified",
+        "power_move": "reasonable protective objection that makes the safe betrayal legible",
+        "listening_response": "responds to what the pressure physically endangers rather than repeating the protagonist's wish",
+        "delivery": "low, urgent, close-mic; advice sounds practical rather than thematic",
+        "status_shift": "fear moves from public punishment into relational and bodily cost",
+        "room_sound": "breath, cloth, small movement, and nearby labor noise replace the crowd's certainty"
       },
       {
         "beat": "protagonist_decision",
         "speaker": "Nura",
-        "line": "Let my work answer before you invent a thief.",
+        "line": "Test the work before you invent a thief.",
         "action": "Nura keeps working instead of pleading",
-        "subtext": "the protagonist asks for evidence to be tested rather than asking to be believed"
+        "subtext": "the protagonist asks for evidence to be tested rather than asking to be believed",
+        "power_move": "embodied boundary, refusal, or controlled acceptance of cost",
+        "listening_response": "answers the objection by changing behavior, not by winning the argument",
+        "delivery": "quiet, concrete, no pleading; short enough to survive interruption",
+        "status_shift": "the protagonist accepts cost and takes moral initiative",
+        "room_sound": "contact, kneeling, object touch, or withheld breath lands before music can resolve the choice"
       },
       {
         "beat": "evidence_or_cost",
         "speaker": "Nura",
         "line": "Salt inside this seal is fresh. Your ledger says it was closed.",
         "action": "the first salt trace is exposed",
-        "subtext": "the infrastructure itself becomes a witness that contradicts institutional authorship"
+        "subtext": "the infrastructure itself becomes a witness that contradicts institutional authorship",
+        "power_move": "material proof or irreversible cost escapes verbal control",
+        "listening_response": "the final speaker reacts to what the room/object/creature has made undeniable",
+        "delivery": "observational and restrained; do not explain the meaning after the image proves it",
+        "status_shift": "truth, personhood, or proof becomes publicly harder to erase",
+        "room_sound": "object resonance, creature response, and negative space carry the reversal"
       }
+    ],
+    "scene_rhythm": "enter inside pressure, compress the objection into a concrete unsafe choice, let the protagonist answer through behavior, then end on proof/cost rather than explanation",
+    "rewrite_directives": [
+      "keep every turn short enough to be interrupted by movement, crowd noise, or creature reaction",
+      "make each answer respond to the previous speaker's concrete pressure rather than restating theme",
+      "let hands, objects, witnesses, thresholds, and creature behavior carry meaning between lines",
+      "avoid naming feelings that the action has already proven"
     ]
   },
   "sound_design": {

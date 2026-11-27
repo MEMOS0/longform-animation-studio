@@ -53,31 +53,58 @@
       {
         "beat": "external_pressure",
         "speaker": "her grandmother",
-        "line": "Give me the proof. I can carry it faster.",
+        "line": "Give me the proof. I run faster than you.",
         "action": "help threatens to become takeover",
-        "subtext": "help becomes dangerous when speed quietly transfers authorship away from the person who paid the cost"
+        "subtext": "help becomes dangerous when speed quietly transfers authorship away from the person who paid the cost",
+        "power_move": "coercive exclusion or institutional demand",
+        "listening_response": "answers the immediate resource/status threat before anyone can explain the larger conflict",
+        "delivery": "clipped, public, procedural; the speaker does not need to sound emotional to exercise power",
+        "status_shift": "authority controls the threshold, crowd, or paperwork",
+        "room_sound": "crowd texture, ledger paper, coin/metal, or machinery stays louder than the vulnerable body"
       },
       {
         "beat": "witness_objection",
         "speaker": "care network witness",
-        "line": "One pair of hands can bury it as easily as carry it.",
+        "line": "Fast hands can bury proof as easily as carry it.",
         "action": "the witness makes the cost of surrendering authorship concrete",
-        "subtext": "the witness understands that whoever controls the proof can also erase it"
+        "subtext": "the witness understands that whoever controls the proof can also erase it",
+        "power_move": "reasonable protective objection that makes the safe betrayal legible",
+        "listening_response": "responds to what the pressure physically endangers rather than repeating the protagonist's wish",
+        "delivery": "low, urgent, close-mic; advice sounds practical rather than thematic",
+        "status_shift": "fear moves from public punishment into relational and bodily cost",
+        "room_sound": "breath, cloth, small movement, and nearby labor noise replace the crowd's certainty"
       },
       {
         "beat": "protagonist_decision",
         "speaker": "Nura",
-        "line": "Then walk beside me. Don't take it from me.",
+        "line": "Then run beside me. Don't take it from my hands.",
         "action": "the protagonist accepts help while keeping control of the proof",
-        "subtext": "the protagonist accepts support while keeping moral agency and public accountability"
+        "subtext": "the protagonist accepts support while keeping moral agency and public accountability",
+        "power_move": "embodied boundary, refusal, or controlled acceptance of cost",
+        "listening_response": "answers the objection by changing behavior, not by winning the argument",
+        "delivery": "quiet, concrete, no pleading; short enough to survive interruption",
+        "status_shift": "the protagonist accepts cost and takes moral initiative",
+        "room_sound": "contact, kneeling, object touch, or withheld breath lands before music can resolve the choice"
       },
       {
         "beat": "evidence_or_cost",
         "speaker": "Nura",
         "line": "Salt marks, gate times, witnesses—line them up.",
         "action": "the proof chain becomes a physical arrangement",
-        "subtext": "the proof chain must become procedural and physical so emotion cannot be dismissed as rumor"
+        "subtext": "the proof chain must become procedural and physical so emotion cannot be dismissed as rumor",
+        "power_move": "material proof or irreversible cost escapes verbal control",
+        "listening_response": "the final speaker reacts to what the room/object/creature has made undeniable",
+        "delivery": "observational and restrained; do not explain the meaning after the image proves it",
+        "status_shift": "truth, personhood, or proof becomes publicly harder to erase",
+        "room_sound": "object resonance, creature response, and negative space carry the reversal"
       }
+    ],
+    "scene_rhythm": "enter inside pressure, compress the objection into a concrete unsafe choice, let the protagonist answer through behavior, then end on proof/cost rather than explanation",
+    "rewrite_directives": [
+      "keep every turn short enough to be interrupted by movement, crowd noise, or creature reaction",
+      "make each answer respond to the previous speaker's concrete pressure rather than restating theme",
+      "let hands, objects, witnesses, thresholds, and creature behavior carry meaning between lines",
+      "avoid naming feelings that the action has already proven"
     ]
   },
   "sound_design": {

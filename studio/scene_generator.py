@@ -71,6 +71,12 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
     final_image_override = None
     sound_override = None
     spoken_exchange = []
+    scene_rhythm = "enter inside pressure, compress the objection into a concrete unsafe choice, let the protagonist answer through behavior, then end on proof/cost rather than explanation"
+    rewrite_directives = [
+        "make pressure procedural and specific rather than generically cruel",
+        "let the protagonist answer through action or refusal rather than theme explanation",
+        "end on visible proof, cost, or changed access instead of explanation",
+    ]
     opposition_beats = [
         {"beat": "external_pressure", "voice": "antagonist or social crowd", "dramatic_job": turn, "writing_note": "pressure must be specific behavior, not generic cruelty"},
         {"beat": "witness_objection", "voice": "caregiver, worker, or vulnerable witness", "dramatic_job": relationship, "writing_note": "the objection should make the safe choice reasonable"},
@@ -109,6 +115,8 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
         }, index)
         key_lines = dialogue_materials["key_lines"]
         spoken_exchange = dialogue_materials["spoken_exchange"]
+        scene_rhythm = dialogue_materials.get("scene_rhythm")
+        rewrite_directives = dialogue_materials.get("rewrite_directives") or []
         creature_opposition = [
             {"pressure": f"the crowd or {authority} demands that the humiliated protagonist abandon the exposed child", "objection": f"hiding {creature} can destroy the protagonist's last economic shelter", "decision": "the protagonist hides/protects before knowing whether anyone will help", "evidence_or_cost": f"the {resource} response marks {creature} as a witness rather than a commodity"},
             {"pressure": "shelter is offered in a way that could become debt, pity, or control", "objection": f"{caregiver} needs labor and honesty, not ownership of the creature", "decision": "the protagonist accepts work but refuses to monetize suffering", "evidence_or_cost": f"the {object_term} separates access from possession"},
@@ -193,6 +201,8 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
             "key_lines": key_lines,
             "opposition_beats": opposition_beats,
             "spoken_exchange": spoken_exchange,
+            "scene_rhythm": scene_rhythm,
+            "rewrite_directives": rewrite_directives,
         },
         "sound_design": {
             "dialogue_priority": (sound_override or {}).get("dialogue_priority", "close dialogue remains intelligible beneath crowd, labor, weather, or institutional texture"),

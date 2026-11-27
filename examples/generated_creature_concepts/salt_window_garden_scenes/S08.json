@@ -55,29 +55,56 @@
         "speaker": "land trust",
         "line": "The trust is finished. Take their gates and make them crawl.",
         "action": "the ending is tempted toward revenge",
-        "subtext": "victory creates a final temptation to turn protection into domination"
+        "subtext": "victory creates a final temptation to turn protection into domination",
+        "power_move": "coercive exclusion or institutional demand",
+        "listening_response": "answers the immediate resource/status threat before anyone can explain the larger conflict",
+        "delivery": "clipped, public, procedural; the speaker does not need to sound emotional to exercise power",
+        "status_shift": "authority controls the threshold, crowd, or paperwork",
+        "room_sound": "crowd texture, ledger paper, coin/metal, or machinery stays louder than the vulnerable body"
       },
       {
         "beat": "witness_objection",
         "speaker": "her grandmother",
         "line": "Revenge won't fill one cup.",
         "action": "the community's material need interrupts triumph",
-        "subtext": "material survival interrupts triumph because revenge cannot feed the community"
+        "subtext": "material survival interrupts triumph because revenge cannot feed the community",
+        "power_move": "reasonable protective objection that makes the safe betrayal legible",
+        "listening_response": "responds to what the pressure physically endangers rather than repeating the protagonist's wish",
+        "delivery": "low, urgent, close-mic; advice sounds practical rather than thematic",
+        "status_shift": "fear moves from public punishment into relational and bodily cost",
+        "room_sound": "breath, cloth, small movement, and nearby labor noise replace the crowd's certainty"
       },
       {
         "beat": "protagonist_decision",
         "speaker": "Nura",
         "line": "No. One gate open for everyone is worth more than ten men kneeling.",
         "action": "the exclusion threshold is opened for communal use",
-        "subtext": "the protagonist converts the old exclusion mechanism into shared infrastructure"
+        "subtext": "the protagonist converts the old exclusion mechanism into shared infrastructure",
+        "power_move": "embodied boundary, refusal, or controlled acceptance of cost",
+        "listening_response": "answers the objection by changing behavior, not by winning the argument",
+        "delivery": "quiet, concrete, no pleading; short enough to survive interruption",
+        "status_shift": "the protagonist accepts cost and takes moral initiative",
+        "room_sound": "contact, kneeling, object touch, or withheld breath lands before music can resolve the choice"
       },
       {
         "beat": "evidence_or_cost",
         "speaker": "her grandmother",
-        "line": "She crossed by herself. Leave the door open.",
+        "line": "She crossed alone. Leave the door open.",
         "action": "the creature's free crossing confirms non-possessive belonging",
-        "subtext": "non-possessive belonging is confirmed only when the creature is free to leave or stay"
+        "subtext": "non-possessive belonging is confirmed only when the creature is free to leave or stay",
+        "power_move": "material proof or irreversible cost escapes verbal control",
+        "listening_response": "the final speaker reacts to what the room/object/creature has made undeniable",
+        "delivery": "observational and restrained; do not explain the meaning after the image proves it",
+        "status_shift": "truth, personhood, or proof becomes publicly harder to erase",
+        "room_sound": "object resonance, creature response, and negative space carry the reversal"
       }
+    ],
+    "scene_rhythm": "enter inside pressure, compress the objection into a concrete unsafe choice, let the protagonist answer through behavior, then end on proof/cost rather than explanation",
+    "rewrite_directives": [
+      "keep every turn short enough to be interrupted by movement, crowd noise, or creature reaction",
+      "make each answer respond to the previous speaker's concrete pressure rather than restating theme",
+      "let hands, objects, witnesses, thresholds, and creature behavior carry meaning between lines",
+      "avoid naming feelings that the action has already proven"
     ]
   },
   "sound_design": {

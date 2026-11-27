@@ -119,8 +119,32 @@
               },
               "subtext": {
                 "type": "string"
+              },
+              "power_move": {
+                "type": "string"
+              },
+              "listening_response": {
+                "type": "string"
+              },
+              "delivery": {
+                "type": "string"
+              },
+              "status_shift": {
+                "type": "string"
+              },
+              "room_sound": {
+                "type": "string"
               }
             }
+          }
+        },
+        "scene_rhythm": {
+          "type": "string"
+        },
+        "rewrite_directives": {
+          "type": "array",
+          "items": {
+            "type": "string"
           }
         }
       }
