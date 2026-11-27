@@ -818,3 +818,13 @@ Continue immediately with non-creature low-subscriber queue: `s-Zn2WhkkH8`, `wHW
 - A newer review may be running on `ad45d39`; handle findings first if they arrive.
 - Important strategic note: object-testimony review is generating adversarial NLP edge cases. Continue fixing true inconsistencies, but reject pure language-theory edge cases if they do not affect real generated/research artifacts.
 - Next substantive work: cleanup stale fresh-breakout queue, dedupe candidates before download, continue low-subscriber/noncreature comparative analysis, then deepen professional dialogue integration.
+
+## 2026-11-27 rotate after PR4 merge and fresh-queue dedupe
+
+- PR #4 merged into main. New active branch/PR: `devin/1795791291-fresh-breakout-dedupe`, PR #5.
+- Latest pushed commit on PR #5: `271f048db22302a46bf51d74cf51c3264b799433`.
+- Verified baseline on main/new branch before queue cleanup: 306 passed.
+- PR #5 dedupes the fresh breakout queue and refreshes candidate scan evidence. Immediate recommended analysis order: `NDZc_6T4h6E`, `AaLngUHEqVY`, `83i28EMbqqk`, `XL0d9SmAA1M`, `dHdkaKb3_S8`, then optionally `DD35huaUIa8`/`yA_UfmmVAG0` if still novel.
+- Important duplicate guards: `iqCNxQ2_jSI`, `ULJ7-z1zm6M`, `9N6S6D_ioA0`, `icsZH4sDwTM`, `23iAlK2FVyA` are already represented; do not re-analyze as new. `q0G2kx8-3tE` and `ZyovwVVUiCs` are deprioritized because channels are not low-subscriber.
+- A partial duplicate analyzer run for `iqCNxQ2_jSI` had modified/deleted some committed contact sheets; those generated artifacts were restored from git rather than preserved.
+- Next work: handle any PR #5 review findings first; otherwise download/analyze `NDZc_6T4h6E` end-to-end with metadata/subtitle/media/contact-sheet evidence, then decide whether its deception/consent mechanics warrant a new validator or integration into existing romance-deception/hidden-identity gates.
