@@ -25,12 +25,12 @@ def evaluate_attachment_repair_integrity(premise: dict[str, Any], architecture: 
     architecture_text = _text(architecture).lower()
     scenes_text = _text(scenes).lower()
     full = "\n".join([premise_text, architecture_text, scenes_text])
-    ordered = "\n".join([architecture_text, scenes_text, premise_text])
-    ending_text = ordered[-max(1, len(ordered) // 3):]
+    ending_source = "\n".join([architecture_text, scenes_text])
+    ending_text = ending_source[-max(1, len(ending_source) // 3):] if ending_source else ""
 
     child_family = bool(re.search(r"child|daughter|son|girl|boy|kid", full)) and bool(re.search(r"daddy|dad\b|father|mommy|mother|parent", full))
-    reunion_or_loss = bool(re.search(r"dead|died|death|lost|missing|records? (?:were )?wrong|dna|custody|children.?s home|orphanage|came home|long[- ]lost|reunion", full))
-    grief_or_attachment = bool(re.search(r"grief|sad|scared|afraid|abandon|forgot|come back|attachment|broken heart|happiness", full))
+    reunion_or_loss = bool(re.search(r"(?<![a-z])(?:dead|died|death|lost|missing)(?![a-z])|records? (?:were )?wrong|dna|custody|children.?s home|orphanage|came home|long[- ]lost|reunion", full))
+    grief_or_attachment = bool(re.search(r"grie(?:f|ving)|sad|scared|afraid|abandon|forgot|come back|attachment|broken heart|happiness", full))
     applies = child_family and reunion_or_loss and grief_or_attachment
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
