@@ -22,18 +22,20 @@ def _text(value: Any) -> str:
 
 def evaluate_romance_deception_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    applies = bool(re.search(r"catfish|online (?:boyfriend|girlfriend|dating|romance)|fake dat|pretend(?:ing)? to date|secret identity|hidden identity", full))
+    direct_deception = bool(re.search(r"catfish|online (?:boyfriend|girlfriend|dating|romance)|fake dat|pretend(?:ing)? to date", full))
+    romantic_hidden_identity = bool(re.search(r"(?:hidden|secret) identity.{0,100}(?:romance|dating|boyfriend|girlfriend|husband|wife|partner|love)|(?:romance|dating|boyfriend|girlfriend|husband|wife|partner|love).{0,100}(?:hidden|secret) identity", full))
+    applies = direct_deception or romantic_hidden_identity
     if not applies:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
-    minor_risk = bool(re.search(r"\b(?:11|eleven|12|twelve|13|thirteen|minor|underage|sixth grader|fifth grade|child)\b", full))
+    minor_risk = bool(re.search(r"\b(?:1[1-7]|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|minor|underage|teenager|teen(?:age)?|sixth grader|fifth grade|child)\b", full))
     checks = {
-        "immediate_boundary_or_rejection": bool(re.search(r"reject|delete|end(?:s|ed)? the interaction|never meet|not a romance|too young|he was 11|she was 11", full)),
+        "immediate_boundary_or_rejection": bool(re.search(r"reject|delete|end(?:s|ed)? the interaction|never meet|not a romance|too young|block(?:s|ed)?(?: him| her)?|cut(?:s)? off contact", full)),
         "exploitation_safeguarding_audit": bool(re.search(r"sexual or inappropriate|inappropriate messages|ask(?:ed)? for money|safeguard|only played games|no romantic|no sexual", full)),
         "adult_accountability_for_minor": bool(re.search(r"parent|mother|father|brother|guardian|discipline|apologiz|phone (?:was )?(?:taken|removed|gone)|handle him|control your", full)),
         "consent_aware_physical_escalation": bool(re.search(r"no kissing|can i kiss|ask(?:s|ed)? (?:before|permission)|let go|boundar|consent|not negotiable", full)),
         "public_answer_pressure_removed": bool(re.search(r"don't have to answer|does not have to answer|do not have to answer|not in public|answer in private|no public pressure|can leave", full)),
-        "coercion_named_or_avoided": bool(re.search(r"coerc|blackmail|leverage is wrong|should not have pressured|apologiz(?:e|ed).*pressur|free to refuse|without leverage", full)) or not bool(re.search(r"blackmail|secret .*leverage|wouldn't dare tell|humiliat.*unless|threaten", full)),
+        "coercion_named_or_avoided": bool(re.search(r"leverage is wrong|coercion is wrong|coercive|should not have pressured|apologiz(?:e|ed).*pressur|free to refuse|without leverage|no blackmail|refus(?:e|ed|es).*blackmail|reject(?:s|ed)?.*blackmail", full)) or not bool(re.search(r"blackmail|secret .*leverage|wouldn't dare tell|humiliat.*unless|threaten", full)),
         "social_anxiety_accommodation": bool(re.search(r"socially anxious|social anxiety|unexpected questions|prepare you|don't tell .*relax|not the same as being weak|accommodat", full)) or not bool(re.search(r"anxious|anxiety|shy|panic", full)),
         "real_self_closure": bool(re.search(r"real me|real you|absolute worst|awkward|weird|anxious|seen .*worst|right ones stay", full)),
     }

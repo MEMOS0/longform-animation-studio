@@ -1359,3 +1359,33 @@ def test_scene_coverage_extra_minutes_do_not_mask_internal_gap():
     assert result['covered_minutes']==20
     assert not result['complete']
     assert result['coverage_ratio']<0.98
+
+
+def test_romance_deception_does_not_apply_to_creature_hidden_identity():
+    from studio.romance_deception_integrity import evaluate_romance_deception_integrity
+    premise={"title_candidates":["The Keeper's Hidden Identity"],"logline":"a keeper hides their identity while protecting a dragon child"}
+    result=evaluate_romance_deception_integrity(premise,{},[])
+    assert not result['applies']
+
+
+def test_romance_deception_detects_teen_minor_age():
+    from studio.romance_deception_integrity import evaluate_romance_deception_integrity
+    premise={"title_candidates":["Her Online Boyfriend Was 16"],"logline":"an adult keeps dating him after the reveal"}
+    result=evaluate_romance_deception_integrity(premise,{},[])
+    assert result['applies']
+    assert result['minor_risk_detected']
+    assert not result['checks']['immediate_boundary_or_rejection']
+
+
+def test_romance_deception_age_disclosure_alone_is_not_rejection():
+    from studio.romance_deception_integrity import evaluate_romance_deception_integrity
+    premise={"title_candidates":["Her Online Boyfriend Was 11"],"opening_event":{"first_5_minutes":"he was 11 and they kept dating"}}
+    result=evaluate_romance_deception_integrity(premise,{},[])
+    assert not result['checks']['immediate_boundary_or_rejection']
+
+
+def test_romance_deception_blackmail_alone_does_not_count_as_repair():
+    from studio.romance_deception_integrity import evaluate_romance_deception_integrity
+    premise={"title_candidates":["Fake Dating the Campus Prince"],"logline":"he blackmails her into fake dating"}
+    result=evaluate_romance_deception_integrity(premise,{},[])
+    assert not result['checks']['coercion_named_or_avoided']
