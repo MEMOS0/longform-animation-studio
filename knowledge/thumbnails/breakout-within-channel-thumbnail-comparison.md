@@ -273,3 +273,7 @@ Archived evidence: `data/raw/thumbnails/paybackstories/` and `knowledge/market/p
 ## Theatre of Dawn magical livelihood thumbnail doctrine
 
 `W0vENP6p5Eg` visualizes mother/child, farm rows, produce, magic sparkle, “The Genie Farm,” and a $10M comeback in one frame. `BXEb8g0sopQ` clearly visualizes cross-world arbitrage (water bottle for gold through a portal). `6TUtWHGCBxM` also clearly visualizes antiques plus magnifying glass/object voices, so mechanism clarity alone does not explain low discovery. Rule: magical livelihood thumbnails are strongest when the production object is concrete — crops, water, food, inventory, tools, contracts — not only sparkles around a face. No CTR data available.
+
+## Karma Keeps Score floor-dignity thumbnail doctrine
+
+`TKUd7hWPMD8` visualizes the whole moral mechanism in one mobile-legible triangle: uniformed maid on marble with food, small child reaching toward her, wealthy fiancée pointing downward, guests filming/laughing, and the father entering behind. Text “NOT AT MY TABLE” names the social rule being violated. Rule: class-dignity thumbnails should encode spatial hierarchy, the vulnerable moral witness, the antagonist's gesture, and the approaching correction in one frame. No CTR data available.

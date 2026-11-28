@@ -5519,3 +5519,27 @@ def test_bounded_magic_livelihood_integrity():
     assert bad['applies'] is True
     assert bad['checks']['magic_has_explicit_limits_costs_or_prohibitions'] is False
     assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+
+def test_dignified_labor_craft_vindication_integrity():
+    from studio.dignified_labor_craft_vindication_integrity import evaluate_dignified_labor_craft_vindication_integrity as ev
+    premise={'logline':'A maid is forced to eat on the floor at a billionaire table, but his daughter sits beside her. Tolani needs hospital bill wages, says pay me for my work not for my floor, uses goldsmith craft her father taught her, exposes stolen family gold through maker signatures, records, and photographs, and the power holder corrects the household publicly.'}
+    ending={'ending_payoff':'He says he is not asking the maid but the woman who mothered his daughter; the family later eats on a mat by choice, and her tools and vocation are respected.'}
+    good=ev(premise,ending,[])
+    assert good['applies'] is True
+    assert good['score_0_to_1'] >= 0.75
+    bad=ev({'logline':'A maid is mocked on the floor by rich people, but she is secretly a goldsmith and exposes theft.'},{'ending_payoff':'She becomes rich.'},[])
+    assert bad['applies'] is True
+    assert bad['checks']['dependent_or_child_independently_recognizes_dignity'] is False
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+
+def test_bounded_magic_livelihood_review_regressions():
+    from studio.bounded_magic_livelihood_integrity import evaluate_bounded_magic_livelihood_integrity as ev
+    survival=ev({'logline':'A train working brake-light system fails in the depths and passengers rescue crash survivors.'},{},[])
+    assert survival['applies'] is False
+    unlimited=ev({'logline':'A broke farmer uses a magic portal to conjure unlimited gold, buys land at any price, and becomes wealthy.'},{'ending_payoff':'He goes home to wish for more gold.'},[])
+    assert unlimited['applies'] is True
+    assert unlimited['checks']['magic_has_explicit_limits_costs_or_prohibitions'] is False
+    assert unlimited['checks']['magic_creates_inputs_not_final_wealth'] is False
+    assert unlimited['checks']['ending_refuses_infinite_accumulation_and_proves_stewardship_or_self_sufficiency'] is False
