@@ -738,3 +738,19 @@ Use when a worker is publicly humiliated for labor/class status. Make the wound 
 ## Compressed mythic quest doctrine (Moon Outlaw)
 
 Use for 10–30 minute fantasy quests or serialized pilots. Establish a concrete personal objective immediately; make companions complementary rather than interchangeable; use creature/environment obstacles to reveal world and character; tie spectacle to protection, cost, choice, or ideology; give lore objects moral/material cost; define the tonal contract for comedy/spectacle/genre mixture; close a micro-objective before any series hook; make continuation hooks specific rather than generic CTAs. Evidence: `knowledge/market/moon-outlaw-compressed-mythic-quest-hit-medium-low-comparison.md`; validator: `compressed_mythic_quest_integrity`. Anti-overfit: the low Ground Zero film is visually ambitious and opens with a strong missing-daughter hook, so weak visuals or weak openings do not explain its lower discovery.
+
+## Story Vault trauma-informed child-voice doctrine
+
+Use `knowledge/market/storyvault-trauma-informed-child-voice-hit-medium-low-comparison.md` before writing silent, grieving, selectively mute, or institutionally misread children. Care must be a repeatable sensory/cultural practice with history; children communicate before speech through laughter, objects, writing, spelling, gesture, and choice; adults must reject broken-child framing and learn to read rather than force speech. Powerful parents must move from delegation to practiced presence. Antagonism should have material custody/trust/debt authority, false evidence should be procedurally exposed, child-chosen communication should be pivotal, restitution must be material, and the ending should transform household/institutional culture. Run `trauma_informed_child_voice_integrity`.
+
+## EchoDrama appearance-capital transformation doctrine
+
+Use `knowledge/market/echodrama-appearance-capital-hit-medium-low-comparison.md` for hidden-beauty, makeover, scar, body-image, face-change, or appearance-status transformation stories. Stigma is the wound, not the whole engine; transformation needs practice/time/cost/rules; durable identity evidence must survive the new surface; the desired/powerful character must re-recognize rather than merely desire; evidence/law/witnesses expose truth; endings create reciprocal choice, communal recognition, or material justice. Packaging should sell hidden worth/recognition rather than body-shaming spectacle or incompatible genre signals. Run `appearance_capital_transformation_integrity`.
+
+## Drakenhart scale-bridge stewardship doctrine
+
+Use `knowledge/market/drakenhart-scale-bridge-hit-high-low-comparison.md` for tiny kingdoms, miniature civilizations, giant/human scale gaps, hidden ecological worlds, or explorer-microculture stories. Scale must create material ecological/social consequences; micro-civilizations need labor, infrastructure, rules, and defense; outsider expertise is limited and reciprocal; both worlds exchange objects/knowledge/practices; travel/power has scale-specific cost; return/stay choices are relational duty; endings rebuild shared infrastructure or ongoing stewardship. Run `scale_bridge_stewardship_integrity`.
+
+## Sienna coerced psychiatric-labeling doctrine
+
+Use `knowledge/market/sienna-coerced-psychiatric-labeling-hit-low-comparison.md` for false madness, psychiatric confinement, legal-capacity stripping, or institutional revenge stories. False diagnosis must publicly strip legal personhood for asset/control motives; coercion must be concrete; the protagonist asserts sanity/counsel; rescue uses procedure/counterpower; competence re-enters systems operationally; exposure uses documentary financial/legal evidence; endings reject abuser reconciliation and rebuild self-owned power. Never treat actual mental illness as violence, monstrosity, or comedy. Run `coerced_psychiatric_labeling_integrity`.
