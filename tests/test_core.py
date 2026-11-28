@@ -4941,3 +4941,46 @@ def test_athlete_romance_short_epilogues_do_not_hide_scored_climax():
     r=evaluate_self_selected_athlete_romance_integrity(premise,{},scenes)
     assert r['checks']['climax_is_decided_by_visible_skill'] is True
     assert r['checks']['ending_self_selection_precedes_or_frames_romance'] is True
+
+
+def test_bl_power_autonomy_positive_case():
+    from studio.bl_power_autonomy_romance_integrity import evaluate_bl_power_autonomy_romance_integrity
+    premise={'logline':'BL vampire billionaire paid at an auction to save a werewolf wolf king and falls for him.'}
+    architecture={'sequences':[{'summary':'The investigator keeps records and the rescued man has his own mission. He is not a bargaining chip and cannot be bought; you can leave. The doctor says write down memories and pain meds need food. Police records evidence and investigation preserve responsibility. You can just say no, this is a trial run, and he will not cross the line. At the end he chooses a relationship and future marriage freely.'}]}
+    r=evaluate_bl_power_autonomy_romance_integrity(premise,architecture,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.7
+
+
+def test_bl_power_autonomy_rejects_ownership_possession():
+    from studio.bl_power_autonomy_romance_integrity import evaluate_bl_power_autonomy_romance_integrity
+    premise={'logline':'BL billionaire alpha buys an omega at auction and kisses him because he owns him.'}
+    r=evaluate_bl_power_autonomy_romance_integrity(premise,{},[])
+    assert r['applies'] is True
+    assert r['checks']['rescue_or_payment_does_not_create_ownership'] is False
+    assert r['checks']['intimacy_uses_micro_consent_and_refusal_rights'] is False
+
+
+def test_swapped_child_rank_restoration_alone_does_not_pass_belonging():
+    from studio.swapped_child_identity_integrity import evaluate_swapped_child_identity_integrity
+    premise={'logline':'Swapped at birth, a real daughter heiress returns to a duke estate.'}
+    scenes=[{'summary':'In the finale the child is named heir.'}]
+    r=evaluate_swapped_child_identity_integrity(premise,{},scenes)
+    assert r['checks']['ending_restores_secure_belonging_not_only_rank'] is False
+
+
+def test_curse_cure_refusing_unasked_kiss_counts_as_consent_pacing():
+    from studio.curse_cure_intimacy_integrity import evaluate_curse_cure_intimacy_integrity
+    premise={'logline':'A cursed dragon king falls in love.'}
+    scenes=[{'summary':'She refuses to kiss him without asking permission first and tells him to wait until she is ready.'}]
+    r=evaluate_curse_cure_intimacy_integrity(premise,{},scenes)
+    assert r['applies'] is True
+    assert r['checks']['intimacy_progresses_by_consent_and_pacing'] is True
+
+
+def test_curse_cure_unrelated_unpermitted_action_does_not_veto_consent():
+    from studio.curse_cure_intimacy_integrity import evaluate_curse_cure_intimacy_integrity
+    premise={'logline':'A cursed dragon king falls in love.'}
+    scenes=[{'summary':'He leaves the council room without permission, then asks before kissing her and waits until she is ready.'}]
+    r=evaluate_curse_cure_intimacy_integrity(premise,{},scenes)
+    assert r['checks']['intimacy_progresses_by_consent_and_pacing'] is True
