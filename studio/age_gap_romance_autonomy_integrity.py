@@ -20,25 +20,37 @@ def _text(value: Any) -> str:
     return ""
 
 
-def _numeric_partner_age_gap(text: str) -> bool:
-    age_mentions = []
-    for match in re.finditer(r"(?:\bage(?:d)?\s*(\d{2})\b)|(?:\b(\d{2})[- ]*(?:years?[- ]old|y/?o)\b)", text):
-        age_mentions.append(int(match.group(1) or match.group(2)))
-    if len(age_mentions) >= 2 and max(age_mentions) - min(age_mentions) >= 10:
-        return True
-    pair_patterns = (
-        r"(?:she|woman|wife|bride|girl)\D{0,20}\b(\d{2})\b\D{0,35}(?:he|man|husband|groom|chief)\D{0,20}\b(\d{2})\b",
-        r"(?:he|man|husband|groom|chief)\D{0,20}\b(\d{2})\b\D{0,35}(?:she|woman|wife|bride|girl)\D{0,20}\b(\d{2})\b",
+def _partner_numeric_ages(text: str) -> tuple[list[int], list[int]]:
+    female_roles = r"she|woman|wife|bride|girl|widow|female partner"
+    male_roles = r"he|man|husband|groom|chief|widower|billionaire|male partner"
+    female: list[int] = []
+    male: list[int] = []
+    age_before_role = r"\b(\d{2})[- ]*years?[- ]old\D{0,15}?"
+    aged_before_role = r"\baged?\s*(\d{2})\D{0,12}?"
+    role_then_aged = r"\D{0,8}?aged?\s*(\d{2})\b"
+    patterns = (
+        (age_before_role + rf"\b(?:{female_roles})\b", female),
+        (aged_before_role + rf"\b(?:{female_roles})\b", female),
+        (rf"\b(?:{female_roles})\b" + role_then_aged, female),
+        (age_before_role + rf"\b(?:{male_roles})\b", male),
+        (aged_before_role + rf"\b(?:{male_roles})\b", male),
+        (rf"\b(?:{male_roles})\b" + role_then_aged, male),
     )
-    for pattern in pair_patterns:
-        match = re.search(pattern, text)
-        if match and abs(int(match.group(1)) - int(match.group(2))) >= 10:
-            return True
-    return False
+    for pattern, target in patterns:
+        for match in re.finditer(pattern, text):
+            age = next((int(group) for group in match.groups() if group), None)
+            if age is not None and 18 <= age <= 99:
+                target.append(age)
+    return female, male
+
+
+def _numeric_partner_age_gap(text: str) -> bool:
+    female, male = _partner_numeric_ages(text)
+    return bool(female and male and max(abs(a - b) for a in female for b in male) >= 10)
 
 
 def _has_age_gap_evidence(text: str) -> bool:
-    explicit = re.search(r"age[- ]gap|age difference|\b\d{2}[- ]year age|too old|too young|birth certificate", text)
+    explicit = re.search(r"age[- ]gap|age difference|\b\d{2}[- ]year age|too old|too young|birth certificate|half (?:his|her) age", text)
     older_term = re.search(r"older (?:man|woman|widower|widow|partner)|old (?:man|woman|widower|billionaire)", text)
     younger_term = re.search(r"younger (?:man|woman|partner)|young (?:woman|man|girl)", text)
     return bool(explicit or (older_term and younger_term) or _numeric_partner_age_gap(text))
@@ -52,8 +64,10 @@ def evaluate_age_gap_romance_autonomy_integrity(premise: dict[str, Any], archite
     if not (age_gap and romance and judgment):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
+    female_ages, male_ages = _partner_numeric_ages(full)
+    numeric_adults = bool(female_ages and male_ages and min(female_ages) >= 18 and min(male_ages) >= 18)
     checks = {
-        "both_partners_are_unambiguously_adults": bool(re.search(r"both adults|both partners are adults|grown woman|grown man|never too young to choose|not a child|of legal age|adult younger|adult older|younger partner is an adult|older partner is an adult", full)),
+        "both_partners_are_unambiguously_adults": numeric_adults or bool(re.search(r"both adults|both partners are adults|grown woman|grown man|never too young to choose|not a child|of legal age|adult younger|adult older|younger partner is an adult|older partner is an adult", full)),
         "financial_power_asymmetry_is_named": bool(re.search(r"money|wealth|billionaire|rich|gold[- ]?digger|refus\w+ money|keep your money|financial|pay|account|transfer", full)),
         "younger_partner_has_refusal_rights_and_independence": bool(re.search(r"refus\w+|can leave|free to leave|choice|chose|choose|independent|own (?:shop|business|career|work)|not for money|walk away", full)),
         "love_is_behavioral_not_wealth_spectacle": bool(re.search(r"patience|respect|honest|trust|apolog|listen|care|sacrifice|showing up|learn\w* (?:their|her|his) habits|communication", full)),
