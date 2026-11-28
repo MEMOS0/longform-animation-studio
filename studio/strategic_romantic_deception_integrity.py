@@ -23,7 +23,7 @@ def _text(value: Any) -> str:
 def evaluate_strategic_romantic_deception_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     romance = bool(re.search(r"wedding|marriage|marry|wife|husband|fianc|bride|groom|romance|love", full))
-    deception = bool(re.search(r"fake pregnancy|pregnancy report|chicken blood|fake marriage|pretend|pretense|ruin (?:this|a|the)? ?wedding|professional|hidden identity|fake amnesia|imposter|impostor|contract marriage|arrangement", full))
+    deception = bool(re.search(r"fake pregnancy|pregnancy report|chicken blood|fake marriage|pretend|pretense|ruin (?:this|a|the)? ?wedding|hidden identity|fake amnesia|imposter|impostor|contract marriage|arrangement", full))
     strategic = bool(re.search(r"paid|fifty grand|ten million|contract|arrangement|mission|job|professional|compensat|test|blind date|sabotage|ruin", full))
     if not (romance and deception and strategic):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
@@ -40,14 +40,16 @@ def evaluate_strategic_romantic_deception_integrity(premise: dict[str, Any], arc
             ending_parts.append(_text(sequences[-1]).lower())
     ending_text = "\n".join(ending_parts + [final_scene_text]) or (architecture_text[-max(1, len(architecture_text) // 3):] if architecture_text else full[-max(1, len(full) // 4):])
 
+    coercion_retaliation = bool(re.search(r"withdraw(?:s|ing|al of)? (?:the )?(?:technical )?support|pull(?:s|ing)? (?:the )?(?:team|support|technical)|withhold(?:s|ing)? support|force(?:s|d)? (?:her|him|them)? ?(?:back|reconciliation)|punish(?:es|ing)? (?:her|him|them) for rejecting", ending_text))
+    freely_chosen = not bool(re.search(r"no choice|forced|coerced|compelled|has to keep pretending|keep pretending", ending_text))
     checks = {
         "deception_has_material_motive_and_visible_professional_competence": bool(re.search(r"surgery money|medical bills|paid|fifty grand|ten million|professional|mission|job|report|chicken blood|acting|resourceful|plan|evidence", full)),
         "deception_is_bounded_by_terms_exit_or_compensation": bool(re.search(r"contract|arrangement|one year|compensat|divorce|end here|mission a success|terms|deal|what\'s in it for you|keep things as they are", full)),
         "partner_is_not_a_passive_fool_and_has_agency": bool(re.search(r"see through|play along|i object|don\'t agree|co-?create|guessed|knew|suspect|test|choice|refuse|reject|doesn\'t owe|no right", full)),
         "intimacy_requires_consent_uncertainty_or_behavioral_trust": bool(re.search(r"do you like me|does she feel nothing|keep my distance|i don\'t think of you that way|brave|face my feelings|feelings|trust|not forcing|respect|choose his own marriage", full)),
-        "rejection_is_not_punished_through_money_or_institutional_power": bool(re.search(r"she doesn\'t owe me a thing|deal stands|collaboration will continue|technical support|not petty|business is business|won\'t force|respect your wishes|no coercion", full)),
+        "rejection_is_not_punished_through_money_or_institutional_power": bool(re.search(r"she doesn't owe me a thing|the deal stands|collaboration will continue|not petty|business is business|won't force|respect your wishes|no coercion", full)) and not coercion_retaliation,
         "truth_and_consequences_use_evidence_or_procedure": bool(re.search(r"recording|confession|evidence|police|lawyer|death penalty|dna|board|shares|files|arrest|custody|verified|law", full)),
-        "ending_replaces_pretense_with_freely_chosen_commitment_or_independent_truth": bool(re.search(r"real|brave|face my feelings|of course i do|freely|choose|independent|ability|wife for real|not.*deal|honest|truth", ending_text)),
+        "ending_replaces_pretense_with_freely_chosen_commitment_or_independent_truth": freely_chosen and bool(re.search(r"real love|real couple|wife for real|becomes real|brave|face my feelings|of course i do|freely|choose|independent|ability|not.*deal|honest|truth", ending_text)),
     }
     labels = {
         "deception_has_material_motive_and_visible_professional_competence": "the romantic deception is arbitrary lying rather than a materially motivated, professionally executed strategy",

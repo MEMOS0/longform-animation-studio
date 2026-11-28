@@ -5357,3 +5357,12 @@ def test_retributive_romance_reversal_integrity_positive_negative_and_self_harm_
     bad=ev({'logline':'A wife ignored by her husband is reborn and walks away after he sent $100 during her pregnancy.'},{'ending_payoff':'He pressed the barrel to his temple as romantic justice.'},[])
     assert bad['checks']['self_destruction_is_not_used_as_romantic_justice'] is False
     assert ev({'logline':'Two sailors repair a boat.'},{},[])['applies'] is False
+
+
+def test_strategic_deception_review_regressions():
+    from studio.strategic_romantic_deception_integrity import evaluate_strategic_romantic_deception_integrity as ev
+    assert ev({'logline':'A professional swim instructor and a professional diver fall in love at a wedding.'},{},[])['applies'] is False
+    r=ev({'logline':'A fake marriage contract begins a wedding romance.'},{'ending_payoff':'He withdraws technical support to force reconciliation.'},[])
+    assert r['checks']['rejection_is_not_punished_through_money_or_institutional_power'] is False
+    r=ev({'logline':'A fake marriage contract begins a wedding romance.'},{'ending_payoff':'She really has no choice but to keep pretending.'},[])
+    assert r['checks']['ending_replaces_pretense_with_freely_chosen_commitment_or_independent_truth'] is False
