@@ -28,7 +28,7 @@ def evaluate_public_dignity_transgression_integrity(premise: dict[str, Any], arc
     public_arena = bool(re.search(r"\b(?:public|engagement|party|wedding|guests?|crowd|ballroom|venue|ceremony|family event|workplace)\b", full))
     status_misread = bool(re.search(r"beneath|dress|appearance|impostor|liar|thief|class|status|respect|dignity|look(?:s|ed)? like|pretend", full))
     consequence = bool(re.search(r"consequence|fired|engagement (?:is )?over|complaint|footage|evidence|truth|verify|investigat|legal", full))
-    if sum([transgression, public_arena, status_misread, consequence]) < 3:
+    if not transgression or sum([public_arena, status_misread, consequence]) < 2:
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
     architecture_text = _text(architecture).lower()
