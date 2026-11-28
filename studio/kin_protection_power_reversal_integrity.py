@@ -19,9 +19,20 @@ def _text(value: Any) -> str:
     return ""
 
 
+def _has_affirmative_closure(text: str) -> bool:
+    pattern = re.compile(r"free|safe|truth|verified|forgive|family again|protect|home|eliminated|evidence|arrest|return safely|never come for you")
+    negation = re.compile(r"(?:not|never|no longer|isn['’]?t|aren['’]?t|wasn['’]?t|weren['’]?t|without)\s*$")
+    for sentence in re.split(r"[.!?\n]", text):
+        for match in pattern.finditer(sentence):
+            prefix = sentence[max(0, match.start() - 30):match.start()]
+            if not negation.search(prefix):
+                return True
+    return False
+
+
 def evaluate_kin_protection_power_reversal_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    kin = bool(re.search(r"sisters?|brothers?|mother|father|parents?|wife|daughter|son|family|sibling", full))
+    kin = bool(re.search(r"\b(?:sisters?|brothers?|mother|father|parents?|wife|daughter|son|family|sibling)\b", full))
     power = bool(re.search(r"king|warden|commander|underworld|mafia|archmage|god|supreme|hidden power|legendary|sovereign|military|special operations", full))
     protection = bool(re.search(r"protect|save|avenge|revenge|bully|bullied|humiliat|threat|murder|attack|harm", full))
     if not (kin and power and protection):
@@ -47,7 +58,7 @@ def evaluate_kin_protection_power_reversal_integrity(premise: dict[str, Any], ar
         "violence_is_bounded_by_a_code_or_innocence_constraint": bool(re.search(r"innocent|spare .*family|won't let anything happen|not one inmate|control your power|don't touch my family|protect all of you|won't cross|no killing .*innocent|only .*guilty", full)),
         "taboo_or_quasi_familial_intimacy_is_acknowledged_and_bounded": bool(not re.search(r"sisters? .*flirt|three against one|join us|non.?blood sisters? .*love|sister .*rest of my life", full) or re.search(r"not related by blood|not blood|boundar|consent|respect|sibling not romance|family not lover", full)),
         "antagonist_power_is_traced_to_network_or_motive": bool(re.search(r"client|paid|payment records|backer|marcus|dorian|family .*position|money|pension|insurance|contract|organization|foreign agents|land", full)),
-        "ending_restores_family_safety_or_truth_before_next_hook": bool(re.search(r"free|safe|truth|verified|forgive|family again|protect|home|eliminated|evidence|arrest|return safely|never come for you", ending)),
+        "ending_restores_family_safety_or_truth_before_next_hook": _has_affirmative_closure(ending),
     }
     labels = {
         "protector_has_specific_loss_oath_or_secret_duty": "the protector lacks a concrete loss, oath, secret duty, disappearance, or training debt motivating return",
