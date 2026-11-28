@@ -152,3 +152,14 @@ Caution: Piped search is biased and several previous top leads were already anal
 
 - `NDZc_6T4h6E` hit comparator report now lives in `knowledge/market/seven-clover-contract-deception-hit-low-comparison.md` with low comparator `5KtRrhhwRzs` audiovisual evidence and thumbnail comparison.
 - No new validator was added because PR #6 already handles coerced re-choice/consent-repair/non-retaliation; this pass prevents overfitting by showing the low comparator is not weakly written.
+
+### Completed — Veylora Studios wound-price dark fantasy
+
+- `EDjgVgD0V5I` hit, `XlqFh7ejQEU` medium, and `DE3HEG5gwxE` low comparator are compared in `knowledge/market/veylora-hunter-ashworth-wound-price-hit-medium-low-comparison.md`.
+- Implemented `studio/wound_price_revenge_integrity.py`.
+- Key anti-overfit result: the low comparator is polished and structurally intelligent, so low discovery again cannot be interpreted as weak-writing proof.
+
+### NeoDrama supplemental comparator completed
+
+- Added closer low comparator `oMXQt5Kg1YQ` to `knowledge/market/neodrama-evidentiary-withdrawal-hit-low-comparison.md` as an institutional-withdrawal rebirth supplement.
+- Result strengthens anti-overfit doctrine: low discovery can coexist with strong legal/procedural revenge, family repair, women's economic/cultural autonomy infrastructure, and a legible mechanism thumbnail.

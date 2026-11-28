@@ -359,3 +359,22 @@ Next:
 1. Handle any Devin Review findings on PR #7 immediately.
 2. Resume scan for newly exploded low-subscriber channels outside already-covered mechanisms.
 3. Prioritize fresh candidates that test non-romance or non-contract mechanisms to reduce overfitting.
+
+## 2026-11-28 — Veylora wound-price checkpoint
+
+Completed:
+- Downloaded and machine-analyzed Veylora hit `EDjgVgD0V5I`, medium `XlqFh7ejQEU`, and low `DE3HEG5gwxE`; full runtime metrics/contact sheets retained, full WAVs removed before commit.
+- Used machine-assisted audio transcription on key 3-minute segments because hit/low had no subtitle tracks.
+- Added `knowledge/market/veylora-hunter-ashworth-wound-price-hit-medium-low-comparison.md`.
+- Implemented `studio/wound_price_revenge_integrity.py`, integrated into production evaluation, and reached 493 passing tests.
+- Updated skill doctrine, thumbnail intelligence, and fresh breakout queue.
+- Latest review round on PR #7 had one already-rejected coreference finding; no open actionable finding remained.
+
+Next:
+1. Handle any new Devin Review findings immediately.
+2. Continue fresh low-subscriber scan after dedupe; prioritize mechanisms not already covered.
+3. Consider closer NeoDrama comparator `oMXQt5Kg1YQ` only as a supplement, because the main NeoDrama evidentiary-withdrawal report/validator already exists.
+
+## 2026-11-28 — NeoDrama supplemental comparator checkpoint
+
+Added `oMXQt5Kg1YQ` as a closer same-channel low comparator to the existing evidentiary-withdrawal report. It is structurally strong: legal identity erasure, procedural revenge, mother-in-law repair, women's business/bookstore autonomy infrastructure, and a mechanism-legible thumbnail. No new validator was added; the supplement broadens transfer surfaces for withdrawal rebirth and reinforces that low views are not weak-writing proof.

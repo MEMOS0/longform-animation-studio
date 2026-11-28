@@ -153,3 +153,17 @@ The top chapter uses red/white high-contrast ensemble conflict with large faces 
 | `5KtRrhhwRzs` | low comparator | 2,915 | Crying working-class woman in apron/phone in a parking garage while a polished couple flirts in a black luxury car. Betrayal and class injury are legible, but the image sits inside a saturated cheating-fiancé category. |
 
 No CTR inference is made. The comparative lesson is not “bright thumbnails always win.” It is narrower: high-concept comic deception can be communicated visually as a unique central game, while polished but generic betrayal imagery may have weaker differentiation even when emotionally legible.
+
+## Veylora Studios — wound-price fantasy vs powerless epic vs ensemble horror (added 2026-11-28)
+
+| Video | Role | Views at extraction | Thumbnail mechanism |
+|---|---:|---:|---|
+| `EDjgVgD0V5I` | hit | 97,579 | Central wounded hero thrusts sword forward; visibly damaged/scaled arm implies bodily cost. Mentor, child-self, companion, bargainer, demon lord, wolf, knight, and monsters form a narrative network around the hero rather than a random creature collage. |
+| `XlqFh7ejQEU` | medium | 11,685 | Polished epic-fantasy montage with wounded hero, distressed princess, demon king, army, red moon, and explicit text premise “Everyone had magic. He had none.” Legible but closer to standard chosen-one/romantic epic coding. |
+| `DE3HEG5gwxE` | low comparator | 913 | Mobile-legible horror montage with four frightened travelers, giant predator, moon, cabin, skull, and warning sign. Polished but category-familiar; the most distinctive mechanism—the predator learns and farms humans—is visually absent. |
+
+No CTR inference is made. The comparative design lesson is that cost and relational network can be embedded visually; a polished montage is not enough when the distinctive mechanism remains invisible.
+
+### NeoDrama supplemental low comparator — institutional withdrawal
+
+`oMXQt5Kg1YQ` shows Serena literally striking through the husband/father names in an official registry while the shocked mother-in-law and sweating male authority frame the act. It is a strong mechanism thumbnail because the decisive legal action is visible, not merely the love triangle. Yet the video had only about 1,840 views at extraction. This is a crucial warning: even a legible, original mechanism thumbnail does not prove high CTR or distribution. Do not convert thumbnail quality judgments into causal claims.

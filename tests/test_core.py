@@ -4594,3 +4594,35 @@ def test_cozy_validator_overflowing_river_and_plural_homes_count_as_disaster_ons
         ]}
         result=evaluate_cozy_disaster_shelter_integrity(premise,architecture,[])
         assert result['checks']['ordinary_labor_establishes_world_before_disaster'] is False
+
+
+def test_wound_price_revenge_full_chain_passes():
+    from studio.wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
+    premise={'logline':'In a dark fantasy world, a boy whose mother is murdered by a demon hides counting to one hundred while carving a wooden listening wolf. A hunter mentor protects him out of penance and teaches monster weaknesses, the first rule never hunt angry, and six winters of training. When the demon weaponizes his mother’s final words, the boy accepts a soul bargain for revenge, travels with a companion who cares for him, breaks the rule not to go alone, and in the ending says mama it is done before paying the soul price without begging.'}
+    architecture={'sequences':[
+        {'summary':'The mother hides her child in the cottage and tells him to count while the demon smells a child.'},
+        {'summary':'The mentor teaches weaknesses, rules, and training before the boy earns competence.'},
+        {'summary':'The antagonist says your mother begged not my son; the wounded hunter counts again as identity.'},
+        {'summary':'Ending: he tells mama it is done, accepts the soul price and death without begging, and the companion witnesses the grief.'},
+    ]}
+    result=evaluate_wound_price_revenge_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['score_0_to_1'] == 1.0
+
+
+def test_wound_price_revenge_flags_free_power_and_missing_motif_payoff():
+    from studio.wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
+    premise={'logline':'A dark fantasy hero takes revenge on a demon king and becomes strong enough to win.'}
+    architecture={'sequences':[{'summary':'He fights the demon and wins a crown.'}]}
+    result=evaluate_wound_price_revenge_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['checks']['power_or_revenge_has_irreversible_price'] is False
+    assert result['checks']['motif_returns_as_climax_identity'] is False
+    assert result['score_0_to_1'] < 0.5
+
+
+def test_wound_price_revenge_does_not_apply_to_generic_romance():
+    from studio.wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
+    premise={'logline':'A CEO and a chef fall in love while repairing a family restaurant.'}
+    result=evaluate_wound_price_revenge_integrity(premise,{},[])
+    assert result['applies'] is False

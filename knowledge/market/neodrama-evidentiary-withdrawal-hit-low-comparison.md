@@ -121,3 +121,35 @@ The reusable hit mechanism is stricter than “reborn woman gets revenge”:
 ## Production transfer boundary
 
 Do not copy Lucy/Clara/Ethan/Victor, roommate spy-cam trafficking, exact cat-litter code, plot turns, dialogue, or thumbnail arrangement. Translate the mechanism into original settings: shared lab housing, guild dormitory, clinic residence, archive communal house, ship crew quarters, boarding school, co-op workshop, or multi-family tower. The core is epistemic rebirth: exit a consent-violating arrangement, preserve proof, build witnesses, let perpetrators self-expose, and end with control over access to one’s own life.
+
+## Supplemental same-channel comparator — `oMXQt5Kg1YQ` institutional-withdrawal rebirth
+
+Added 2026-11-28 after the main report. This is a closer contemporary/period social-retaliation comparator than the wolf-fantasy low sample: *Reborn When Her Husband Died, She Erased His Name—He Had Returned with a Mistress!* It had only about 1,840 views at extraction despite being structurally strong. This further falsifies any claim that low NeoDrama discovery equals weak writing.
+
+Machine baseline: 6,054s/100.9m, 183 shot-like segments, mean 33.08s, median 14s, motion .1051, brightness .2574, 2,500 subtitle cues, mean 138.1 WPM. Contact sheets and full subtitle evidence were inspected. The max-resolution thumbnail is archived as `data/raw/thumbnails/neodrama_ai/oMXQt5Kg1YQ.maxresdefault.jpg`.
+
+### Opening: legal identity is the revenge surface
+
+At 00:00 Serena asks the magistrate to register her husband and father-in-law as dead. The official warns not to rush because they might have survived. Serena answers with the material logic of care: fallen men earn death benefits, she is all the Vances have, and she must look after the living.
+
+The past-life wound is concrete: she kept the household afloat, the men returned alive with other women, the mother-in-law was tortured, Serena was divorced as childless/jealous, dumped in ruins, and kept alive on one bowl a day. In the second life she uses the state's own category against the deserters: because they chose fake deaths, she cuts off escape routes; if they return, they are branded deserters.
+
+This is not the hit's edited-recording evidence engine. It is institutional withdrawal: the protagonist weaponizes records, status, death benefits, household payroll, desertion law, and family registration rather than merely confronting the betrayers.
+
+### Middle: repair the mother-in-law bond instead of treating family as monolith
+
+A major strength is that Serena does not simply punish the entire family. She forces the mother to face the truth about the husband's past betrayal and rebuilds solidarity with her. Contact-sheet evidence around the ending shows embroidery, shop management, apprentices, bookkeeping, and women working together rather than a solitary revenge heroine.
+
+### Ending: autonomy becomes cultural infrastructure
+
+At 93–95m Serena produces apparent proof that the men faked death and deserted. When they question how notes could exist, she admits she forged the handwriting; they fell for it because the accusation matched what they actually did. She then publicly begs mercy, exiling them to frozen penal labor rather than execution, and explains: “In the imperial throne room, you don't need a blade to kill someone.”
+
+The final movement is much stronger than punishment. The mother-in-law becomes a renowned embroidery master; Serena runs businesses; together they open a women's bookstore publishing poetry and illustrated stories by women. At 99:16–99:48 women see their names printed without husbands' names and realize their talent/learning is equal to men's. At 100:34–100:48 the thesis lands: people say women without husbands or homes drift, but “a rotten home isn't worth keeping”; leave a man you cannot count on and choose freedom.
+
+### Why this matters
+
+This low comparator has a strong opening, legal/procedural revenge, family-system nuance, institutional consequences, craft/business repair, feminist cultural infrastructure, and a non-romantic autonomy ending. Its low public views cannot be treated as screenplay-failure evidence. Observable confounds include 100m length, period-court specificity, upload timing, packaging, channel expectation, and algorithmic distribution.
+
+The thumbnail is visually forceful: Serena drives a brush through the husband/father names on a document while the shocked mother-in-law watches and a male official sweats in the foreground. It shows the decisive institutional act rather than generic romance. This again warns us not to equate thumbnail polish or even mechanism legibility with guaranteed discovery.
+
+Production transfer refinement: withdrawal rebirth can operate through institutions other than leases/recordings. Civil registries, inheritance law, professional licensing, debt records, guild membership, immigration status, school enrollment, medical consent, housing waitlists, and publication rights can all become procedural revenge surfaces. The durable version ends by building autonomy infrastructure for others, not merely by destroying the betrayers.
