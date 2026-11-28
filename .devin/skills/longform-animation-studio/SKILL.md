@@ -758,3 +758,8 @@ Use `knowledge/market/sienna-coerced-psychiatric-labeling-hit-low-comparison.md`
 ## Evening Star precognitive-child kinship doctrine
 
 Use `knowledge/market/eveningstar-precognitive-child-kinship-deep-dive.md` when a child predicts death/injury while searching for family. Open with concrete preventable harm/countdown; give the child independent quest/vulnerability; bound power with cost/instability/loss; treat kinship as contested evidence rather than one lab result; corroborate through objects, provenance, records, witnesses, footage, payments, and timestamps; adults must protect without owning or exploiting the child; conspiracy needs material inheritance/control motives; resolution uses live evidence/police/procedural traces; endings restore ordinary childhood belonging after rejecting child-as-tool. Run `precognitive_child_kinship_integrity`.
+
+
+## Duplicate-upload distribution anti-overfit doctrine
+
+Use `knowledge/market/duplicate-upload-packaging-experiment-bAje-PRn.md` before inferring craft quality from views. The same visually matching film appears as a ~684k breakout and a 40-view upload under different titles/thumbnails/channels. This is confounded, not CTR proof, but it proves discovery and story quality are separable. For hidden-competence romance, packaging should make competence/institutional artifacts visible rather than relying on interchangeable luxury couple imagery.

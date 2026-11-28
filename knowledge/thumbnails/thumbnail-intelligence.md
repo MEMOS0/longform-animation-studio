@@ -259,3 +259,8 @@ The tiny-kingdom hit makes hidden civilization and size contrast legible as one 
 ## Sienna institutional-revenge packaging
 
 The psychiatric-labeling hit uses a dense evidence-board thumbnail: financial records, equity transfer documents, psychiatric evaluation, confined stamp, falling papers, and collapsing market screens. This is more mechanism-specific than interchangeable luxury-couple hidden-heiress packaging. Reuse the principle, not the layout: make the instrument of control and the counter-evidence object system visible while positioning the protagonist as investigator/claimant.
+
+
+## Duplicate-upload mechanism-legibility experiment
+
+AI SweetDrama `bAjeNeQ9DGc` and Sienna `PRnC5o30VjE` are visually duplicate versions of the same-duration film with radically different discovery (~684k vs 40 at collection). Channel/timing/recommendation confounds mean this is not CTR evidence, but it is strong anti-overfit evidence that identical story craft can succeed or fail in distribution. The breakout thumbnail adds office/X Tech/patent/contract/chip artifacts to the romance; the low comparator shows only polished luxury couple imagery. Reuse: hidden-competence romance packaging should reveal at least one competence/institutional artifact, not merely wealth/romance.

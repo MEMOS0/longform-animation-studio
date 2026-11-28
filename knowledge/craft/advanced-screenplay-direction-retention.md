@@ -294,3 +294,8 @@ Tiny-world or scale-bridge fantasy works when scale is physical, spatial, social
 ## Coerced psychiatric-labeling doctrine — Sienna Brooks evidence
 
 False psychiatric labeling works as a revenge mechanism only when it is coercive control with legal and material consequences. Establish sacrificed invisible labor first, then weaponize diagnosis publicly, tie confinement to signatures/assets/marriage law, and give the protagonist immediate assertions of sanity, communication, counsel, and legal personhood. Institutional coercion must be concrete: locked rooms, restraints, injections, hunger, controlled visits, false records. Escape should use procedure or credible counterpower. Hidden competence must re-enter systems operationally, and exposure should rely on documentary evidence such as forged signatures, shell companies, transfer records, account keys, and charging documents. End with legal/material restitution and rejection of abuser reconciliation. Never treat actual mental illness as violence, monstrosity, or comedy; the antagonist is coercive labeling and institutional abuse.
+
+
+## Distribution anti-overfit warning — duplicate-upload evidence
+
+The `bAjeNeQ9DGc`/`PRnC5o30VjE` duplicate case shows the same-duration, visually matching film can receive radically different discovery under different packaging/channel conditions. Therefore low views are never sufficient evidence of weak writing, and high views are never sufficient evidence of superior screenplay. Evaluate craft independently from distribution, then evaluate whether packaging exposes the actual mechanism.
