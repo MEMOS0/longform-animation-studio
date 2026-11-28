@@ -23,7 +23,7 @@ def _text(value: Any) -> str:
 
 def evaluate_dignified_labor_craft_vindication_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    labor = bool(re.search(r"(?:maid|servant|cleaner|nanny|worker|cook|driver|assistant|staff|laborer|janitor)", full))
+    labor = bool(re.search(r"\b(?:maid|servant|cleaner|nanny|worker|cook|driver|assistant|staff|laborer|janitor)\b", full))
     humiliation = bool(re.search(r"eat on the floor|floor girl|humiliat|mock(?:ed|ing)?|insult|degrad|shame|looked down|class humiliation|status humiliation", full))
     craft = bool(re.search(r"craft|goldsmith|smith|maker|artisan|designer|tailor|carpenter|mechanic|chef|jewel|signature|maker.?s mark|tools|workshop|father taught|skill", full))
     vindication = bool(re.search(r"proof|evidence|expos|reveal|theft|stolen|inherit|vindicat|truth|signature|hallmark|fraud|justice|apolog", full))
