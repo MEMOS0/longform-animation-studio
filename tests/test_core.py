@@ -5413,3 +5413,17 @@ def test_meaning_system_review_regressions():
     assert r['checks']['first_opportunity_is_countable_and_executable'] is False
     assert r['checks']['success_scales_through_competence_operations_or_witnessed_labor'] is False
     assert r['checks']['social_repair_requires_recognition_of_wrong'] is False
+
+
+def test_institutional_vindication_care_integrity():
+    from studio.institutional_vindication_care_integrity import evaluate_institutional_vindication_care_integrity as ev
+    premise={'logline':'Framed for stealing a royal jewel, a mother spends five years in prison, then returns as palace governess and uses therapy, medical care, archive records, and the original transfer paper to clear her name.'}
+    ending={'ending_payoff':'The crown retracts every accusation, says I was wrong, and she clears her name before any crown; her daughter is safe and the choice is mine.'}
+    good=ev(premise,ending,[])
+    assert good['applies'] is True
+    assert good['score_0_to_1'] >= 0.75
+    weak=ev({'logline':'Framed by a royal court, a mother returns from prison as a governess and a hearing is held because the prince loves her.'},{'ending_payoff':'She becomes princess.'},[])
+    assert weak['applies'] is True
+    assert weak['checks']['evidence_chain_uses_documents_witnesses_or_preserved_procedure'] is False
+    assert weak['checks']['ending_restores_name_family_agency_before_status'] is False
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
