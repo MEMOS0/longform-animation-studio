@@ -706,3 +706,7 @@ Use `knowledge/market/neodrama-shared-resource-exploitation-hit-medium-low-compa
 ## Seven Clover strategic romantic deception doctrine
 
 Use `knowledge/market/sevenclover-strategic-romantic-deception-hit-medium-low-comparison.md` for fake pregnancy/marriage, professional sabotage, hidden identity, anti-matchmaking, or contract-romance stories. Require material motive and professional legibility, bounded deception, partner agency rather than gullibility, consent/uncertainty/trust, non-coercive response to rejection, procedural truth, and replacement of pretense with freely chosen commitment. Run `strategic_romantic_deception_integrity`. Low-discovery fake-amnesia revenge is a strong procedural counterexample; do not infer weak writing from low views.
+
+## Payback Stories retributive romance reversal doctrine
+
+Use `knowledge/market/paybackstories-retributive-romance-reversal-hit-medium-low-comparison.md` for betrayal revenge, rebirth escape, coercive spouse/fiancé, or replacement-romance stories. Require concrete coercive/material betrayal, logistical exit, evidence/institutional reversal, regret or sacrifice that does not purchase access, patient consensual replacement intimacy, freedom-centered ending, and no self-destruction as romantic justice. Run `retributive_romance_reversal_integrity`. Low-discovery `$100` tragedy is a strong counterexample; do not infer weak writing from low views.

@@ -488,3 +488,7 @@ Completed NeoDrama AI hit/medium/low comparison for `it3DAkGGrnk`, `ZRPomf9v2aY`
 ## 2026-11-28 Seven Clover strategic-deception checkpoint
 
 Completed Seven Clover hit/medium/low comparison for `NDZc_6T4h6E`, `jxYPDAACBN8`, and `5KtRrhhwRzs`; integrated `studio/strategic_romantic_deception_integrity.py`. Doctrine: materially motivated professional deception, bounded terms, partner agency, consent/trust, non-coercive response to rejection, procedural truth, and freely chosen commitment. Tests 566 passed before commit. Continue scanning uncovered fresh low-subscriber breakouts; handle new Devin Review findings first.
+
+## 2026-11-28 Payback Stories retributive-romance checkpoint
+
+Completed Payback Stories hit/medium/low comparison for `_u1i8lfizF8`, `F-NMKe7X8eE`, and `fx7eZ9U4UPk`; integrated `studio/retributive_romance_reversal_integrity.py`. Doctrine: concrete coercive betrayal, logistical exit, evidence/institutional reversal, non-restorative regret/sacrifice, careful consensual replacement intimacy, freedom ending, and no self-destruction as justice. Tests 567 passed before commit. Continue scanning uncovered fresh low-subscriber breakouts; handle new Devin Review findings first.

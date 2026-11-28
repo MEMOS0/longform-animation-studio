@@ -249,3 +249,7 @@ Archived evidence: `data/raw/thumbnails/neodrama/` and `knowledge/market/neodram
 ## Seven Clover strategic-deception packaging
 
 Archived evidence: `data/raw/thumbnails/sevenclover/` and `knowledge/market/sevenclover-strategic-romantic-deception-hit-medium-low-comparison.md`. Hit packaging sells comic class collision and fake pregnancy performance; weaker niche packaging shows rebellious class/courtship contrast without equally explicit stakes; low packaging is legible betrayal but mostly misery. Reusable mechanism: show the performance object/costume and make the target knowingly amused rather than merely victimized. Packaging observations only, not CTR proof.
+
+## Payback Stories retributive-romance packaging
+
+Archived evidence: `data/raw/thumbnails/paybackstories/` and `knowledge/market/paybackstories-retributive-romance-reversal-hit-medium-low-comparison.md`. Hit packaging combines cancelled contract, fallen ring, protagonist pointing refusal, injured ex, prisoner, and luxury punishment; medium uses betrayal triangle and empire destruction; low uses grave/ultrasound tragic grief and is still highly polished. Reusable mechanism: center the instrument of control or abandonment plus visible refusal/consequence, not generic luxury. Packaging observations only, not CTR proof.

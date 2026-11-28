@@ -5345,3 +5345,15 @@ def test_strategic_romantic_deception_integrity_positive_and_negative():
     assert r['applies'] is True
     assert r['score_0_to_1'] >= 0.8
     assert ev({'logline':'Two sailors repair a boat.'},{},[])['applies'] is False
+
+
+def test_retributive_romance_reversal_integrity_positive_negative_and_self_harm_warning():
+    from studio.retributive_romance_reversal_integrity import evaluate_retributive_romance_reversal_integrity as ev
+    premise={'logline':'Reborn before her wedding, a wife escapes a controlling billionaire fiancé who used a GPS tracker, cancels the engagement, and exposes him with evidence.'}
+    arch={'ending_payoff':'His sacrifice does not restore access; there is no love left. He removes himself. She finds freedom in a wide open sky with a patient man who neither pressures nor pushes her.'}
+    r=ev(premise,arch,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.8
+    bad=ev({'logline':'A wife ignored by her husband is reborn and walks away after he sent $100 during her pregnancy.'},{'ending_payoff':'He pressed the barrel to his temple as romantic justice.'},[])
+    assert bad['checks']['self_destruction_is_not_used_as_romantic_justice'] is False
+    assert ev({'logline':'Two sailors repair a boat.'},{},[])['applies'] is False
