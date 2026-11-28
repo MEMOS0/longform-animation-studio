@@ -5621,3 +5621,19 @@ def test_compressed_quest_present_tense_closure_counts_after_negative_stripping(
     assert closed['checks']['micro_objective_closes_before_any_series_hook'] is True
     open_end=ev(premise,{'ending_payoff':'They have yet to rescue the hostages.'},[])
     assert open_end['checks']['micro_objective_closes_before_any_series_hook'] is False
+
+
+def test_period_autonomy_second_review_regressions():
+    from studio.period_autonomy_evidence_romance_integrity import evaluate_period_autonomy_evidence_romance_integrity as ev
+    inflected={'logline':'In a period society, one of the dukes marries a lady for duty and reputation.'}
+    assert ev(inflected,{},[])['applies'] is True
+    base={'logline':'In a Regency period romance, a duke arranges marriage to a lady for duty and reputation.'}
+    agency=ev(base,{'ending_payoff':'The princess rejects the betrothal and chooses her own future.'},[])
+    assert agency['checks']['rival_or_arranged_party_retains_agency'] is True
+    permission=ev(base,{'ending_payoff':'He never kisses her without her permission. She chooses her home and vocation.'},[])
+    assert permission['checks']['intimacy_is_explicitly_consensual_and_reversible'] is True
+    evidence=ev(base,{'ending_payoff':'A signed letter from the culprit clears her name. She chooses her home.'},[])
+    assert evidence['checks']['social_or_bodily_accusation_is_resolved_through_evidence'] is True
+    weak=ev(base,{'ending_payoff':'They repair the ballroom and marry after a pardon.'},[])
+    assert weak['checks']['ending_restores_voice_choice_or_home_not_only_marriage'] is False
+    assert weak['checks']['social_or_bodily_accusation_is_resolved_through_evidence'] is False
