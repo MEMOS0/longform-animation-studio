@@ -5575,3 +5575,27 @@ def test_bounded_magic_life_year_cost_counts_as_limit():
     r=ev({'logline':'A broke farmer uses a magic potion to restore crops, but each use costs a year of life.'},{'ending_payoff':'The farm becomes self-sufficient without magic.'},[])
     assert r['applies'] is True
     assert r['checks']['magic_has_explicit_limits_costs_or_prohibitions'] is True
+
+
+def test_period_autonomy_evidence_romance_integrity():
+    from studio.period_autonomy_evidence_romance_integrity import evaluate_period_autonomy_evidence_romance_integrity as ev
+    premise={'logline':'In a Regency period romance, an earl daughter refuses an arranged marriage and is cast out without allowance. She survives through opera singing behind a mask while a duke constrained by duty confronts his mother control. The princess rival is blameless and agrees by choice, deception has consequences, intimacy is explicitly consensual, and a physician uses garden poison evidence against social accusation.'}
+    ending={'ending_payoff':'They begin again by choice; her voice, truth, home, and music are restored alongside love.'}
+    good=ev(premise,ending,[])
+    assert good['applies'] is True
+    assert good['score_0_to_1'] >= 0.75
+    bad=ev({'logline':'A regency duke marries a lady in society.'},{'ending_payoff':'They marry.'},[])
+    assert bad['applies'] is True
+    assert bad['checks']['artistic_or_intellectual_competence_is_independent'] is False
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+
+def test_compressed_mythic_quest_review_regressions():
+    from studio.compressed_mythic_quest_integrity import evaluate_compressed_mythic_quest_integrity as ev
+    realistic={'target_minutes':72,'logline':'A realistic performing arts student is panicking as she is pushed toward the stage.'}
+    assert ev(realistic,{},[])['applies'] is False
+    unfinished=ev({'target_minutes':20,'logline':'A fantasy warrior quests to rescue hostages from a dragon.'},{'ending_payoff':'They have yet to rescue the hostages.'},[])
+    assert unfinished['checks']['micro_objective_closes_before_any_series_hook'] is False
+    opening={'target_minutes':20,'logline':'A fantasy warrior quests to rescue hostages from a dragon.','opening_event':{'first_60_seconds':'He eats breakfast and brushes his horse.'}}
+    r=ev(opening,{},[])
+    assert r['checks']['quest_objective_is_immediate_concrete_and_personally_staked'] is False

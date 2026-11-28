@@ -83,6 +83,7 @@ from .care_first_incognito_integrity import evaluate_care_first_incognito_integr
 from .bounded_magic_livelihood_integrity import evaluate_bounded_magic_livelihood_integrity
 from .dignified_labor_craft_vindication_integrity import evaluate_dignified_labor_craft_vindication_integrity
 from .compressed_mythic_quest_integrity import evaluate_compressed_mythic_quest_integrity
+from .period_autonomy_evidence_romance_integrity import evaluate_period_autonomy_evidence_romance_integrity
 from .visual_causality import evaluate_visual_causality
 from .hidden_identity_integrity import evaluate_hidden_identity_integrity
 from .scale_community_integrity import evaluate_scale_community_integrity
@@ -416,6 +417,7 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "bounded_magic_livelihood_integrity": evaluate_bounded_magic_livelihood_integrity(premise, architecture, scenes),
         "dignified_labor_craft_vindication_integrity": evaluate_dignified_labor_craft_vindication_integrity(premise, architecture, scenes),
         "compressed_mythic_quest_integrity": evaluate_compressed_mythic_quest_integrity(premise, architecture, scenes),
+        "period_autonomy_evidence_romance_integrity": evaluate_period_autonomy_evidence_romance_integrity(premise, architecture, scenes),
         "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes), "storyboards": len(boards)},
         "gates": gate_report(schema_errors, failure, scene_report, architecture_report, bool(architecture), bool(scenes), board_report),
     }
