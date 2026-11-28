@@ -517,3 +517,15 @@ Latest pushed commit `07848e4`: triaged/fixed three review findings from job `pr
 ## Rotation handoff — fresh scan and review state
 
 Latest pushed commit before this checkpoint `4dc964d`: epistemic-intimacy applicability findings fixed/triaged; tests 576 passed. New 10-day scan completed: 196 candidates, 45 carryover in `data/processed/recent_breakout_candidates.json`; scan artifacts are committed with this handoff. Important dedupe correction: an ID appearing in scan/candidate inventory files is not “covered”; coverage requires a dedicated comparative report/validator or explicit completed checkpoint. Promising unprocessed lead identified before rotation: Gracie Dramas/HeartTale `tQHAwqGfhyo` — 5.1k subscribers, ~886k views in ~2.13 days, 119m, wounded-stranger/billionaire-heir care-first rescue incognito. Verify whether it is genuinely uncovered, collect same-channel hit/low comparators, then deep dive. Handle any new PR #7 review findings first. Do not commit stray `evidence/media/iqCNxQ2_jSI/` unless intentionally needed.
+
+## Gracie/HeartTale lead handoff — start next context here
+
+Direct channel API verified `UCE8lWJaJUGTxyIWQZARDRzA` = Gracie Dramas, 5,140 subscribers, first page 30 videos. `tQHAwqGfhyo` is genuinely uncovered (only inventory mention): 889k views, 7,135s, uploaded 2026-11-25, “She saved a wounded stranger on the train... Not knowing he's THE BILLIONAIRE HEIR!” Candidate mechanism: care-first rescue incognito / reciprocal protection, potentially distinct from generic hidden identity because care precedes status revelation.
+
+Suggested same-channel comparators from first page:
+- hit `tQHAwqGfhyo` — 889k, 119m, care-first wounded stranger/billionaire heir.
+- medium/near-hit `kQ4G1jHXOV0` — 550k, 6,680s, “He took her for granted until he lost her... TOO LATE TO BEG”; useful channel-baseline hit but different mechanism.
+- low mechanism comparator `GM2jQmZlbxw` — 546 views, 6,847s, “She Flash-Married a Stranger, Then Found Out He Was a Billionaire”; close hidden-stranger/incognito comparator.
+- low protection comparator `Akvl_IQNlNA` — 3.7k, 3,815s, debt-selling heroine publicly protected by tycoon heir.
+
+Channel first-page context: latest `6zY3-x9kJvo` 54k in <1d rebirth payback; `_RkbxlKsH9g` 4.3k; `8812-g17H0g` 4.4k; `lAXu3_juXVk` 1.7k; `A4bzyf2F1-o` 821; many low hundreds. Do not infer weak writing from low views. Next context: save the already fetched channel JSON if needed or recollect quickly via `/channel/UCE8lWJaJUGTxyIWQZARDRzA`; download/analyze hit+low mechanism comparator first (`tQHAwqGfhyo`, `GM2jQmZlbxw`), then medium `kQ4G1jHXOV0` or closer medium if later pages reveal one. Handle PR #7 review findings first if present.
