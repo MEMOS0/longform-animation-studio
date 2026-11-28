@@ -4696,3 +4696,36 @@ def test_wound_price_revenge_rejected_bargain_and_plain_homecoming_are_free():
     result=evaluate_wound_price_revenge_integrity(premise,architecture,[])
     assert result['checks']['power_or_revenge_has_irreversible_price'] is False
     assert result['checks']['ending_pays_price_and_closes_grief'] is False
+
+
+def test_bonded_machine_pilot_ignores_production_ai_notes_for_applicability():
+    from studio.bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
+    premise={
+        'title':'Stormglass Keepers',
+        'logline':'A dragon protector faces a naval invasion and chooses the dragon child safety over revenge.',
+        'production_notes':'AI-generated media reference; not a story machine or artificial intelligence character.',
+    }
+    result=evaluate_bonded_machine_pilot_integrity(premise,{},[])
+    assert result['applies'] is False
+
+
+def test_bonded_machine_pilot_ending_is_independent_of_architecture_key_order():
+    from studio.bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
+    shared={
+        'title':'Iron Delivery',
+        'logline':'A delivery rider behind on rent is chosen by a robot mech during an alien invasion and trained by a mentor before protecting his mother.',
+    }
+    ending_text='In the ending the machine says my name is Cole and becomes a companion with a home, not a weapon.'
+    sequences=[
+        {'summary':'The delivery worker owes rent, is chosen by the mech, trains through walking failure, calls his mother, and protects civilians.'},
+        {'summary':'The military calls the machine an unauthorized specimen; pilot and machine trust each other, share the load, overload systems, and cooperate in the final battle core attack.'},
+    ]
+    first=dict(shared)
+    first['architecture']={'ending_payoff':ending_text,'sequences':sequences}
+    second=dict(shared)
+    second['architecture']={'sequences':sequences,'ending_payoff':ending_text}
+    a=evaluate_bonded_machine_pilot_integrity(first,first['architecture'],[])
+    b=evaluate_bonded_machine_pilot_integrity(second,second['architecture'],[])
+    assert a['checks']['ending_gives_machine_or_pilot_identity_beyond_utility'] is True
+    assert b['checks']['ending_gives_machine_or_pilot_identity_beyond_utility'] is True
+    assert a['checks']==b['checks']

@@ -10,13 +10,16 @@ import re
 from typing import Any
 
 
-def _text(value: Any) -> str:
+def _text(value: Any, key: str = "") -> str:
+    lowered_key = key.lower()
+    if any(marker in lowered_key for marker in ("production", "prompt", "guidance", "failure_check", "sound_design", "dialogue_design", "generation_note", "ai_generated")):
+        return ""
     if isinstance(value, str):
         return value
     if isinstance(value, dict):
-        return "\n".join(_text(v) for v in value.values())
+        return chr(10).join(_text(v, str(k)) for k, v in value.items())
     if isinstance(value, list):
-        return "\n".join(_text(v) for v in value)
+        return chr(10).join(_text(v) for v in value)
     return ""
 
 
@@ -29,7 +32,22 @@ def evaluate_bonded_machine_pilot_integrity(premise: dict[str, Any], architectur
 
     opening = full[:max(1, len(full) // 4)]
     middle = full[max(1, len(full) // 4):max(1, len(full) * 3 // 4)]
-    ending = full[-max(1, len(full) // 3):]
+    ending_units = []
+    if scenes:
+        ending_units.extend(scenes[-max(1, min(5, (len(scenes) + 2) // 3)):])
+    if isinstance(architecture, dict):
+        for key in ("ending", "ending_payoff", "resolution", "final_act"):
+            if key in architecture:
+                ending_units.append(architecture[key])
+        if isinstance(architecture.get("sequences"), list) and architecture.get("sequences"):
+            ending_units.extend(architecture["sequences"][-max(1, min(3, (len(architecture["sequences"]) + 2) // 3)):])
+    ending = (_text(ending_units) or full[-max(1, len(full) // 3):]).lower()
+    climax_units = []
+    if scenes:
+        climax_units.extend(scenes[-max(1, min(2, len(scenes))):])
+    if isinstance(architecture, dict) and isinstance(architecture.get("sequences"), list) and architecture.get("sequences"):
+        climax_units.extend(architecture["sequences"][-max(1, min(2, len(architecture["sequences"]))):])
+    climax = (_text(climax_units) or ending).lower()
     machine_terms = r"(?:mecha?|robot|machine|ai|android|unit|mech|companion|zero)"
     checks = {
         "ordinary_economic_identity_before_the_call": bool(re.search(r"delivery|rent|job|worker|driver|repair|shop|shift|wage|money|insurance|debt|paycheck|ordinary life", opening)),
@@ -39,7 +57,7 @@ def evaluate_bonded_machine_pilot_integrity(premise: dict[str, Any], architectur
         "machine_or_creature_has_vulnerable_agency": bool(re.search(machine_terms + r"[^.\n]{0,90}(?:hurt|damaged|afraid|disobey|choose|refuse|protect|sacrifice|help|trust|feel|listen)", full) or re.search(r"(?:hurt|damaged|afraid|disobey|choose|refuse|protect|sacrifice|help|trust|feel|listen)[^.\n]{0,90}" + machine_terms, full)),
         "institution_treats_bond_as_property_or_weapon": bool(re.search(r"military|command|orders?|unauthorized|surrender|specimen|property|weapon|experiment|test subject|control|collar|terminate|asset", full)),
         "shared_load_or_sacrifice_has_physical_cost": bool(re.search(r"share the load|take my share|damage|structural failure|sacrifice|injur|burn|overload|shutdown|lose you|one more try|can't hold|cost", middle + ending)),
-        "climax_requires_cooperation_not_firepower_alone": bool(re.search(r"together|stay with me|trust me|help me|hold us steady|facing it|cooperat|listen|bond|connection|link", ending) and re.search(r"attack|fire|battle|core|kill|fight|final|climax", ending)),
+        "climax_requires_cooperation_not_firepower_alone": bool(re.search(r"together|stay with me|trust me|help me|hold us steady|facing it|cooperat|listen|bond|connection|link", climax) and re.search(r"attack|fire|battle|core|kill|fight|final|climax", climax)),
         "ending_gives_machine_or_pilot_identity_beyond_utility": bool(re.search(r"my name is|real name|names? them|becomes? a|no longer (?:a )?(?:weapon|tool|unit)|person|companion|friend|family|home|free", ending)),
     }
     labels = {
