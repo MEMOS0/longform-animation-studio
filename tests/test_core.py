@@ -5680,3 +5680,22 @@ def test_period_autonomy_fourth_review_regressions():
     assert ev(premise,{},[])['applies'] is True
     good=ev(premise,{'ending_payoff':'He never initiates intimacy without her consent. When she pulls away, he stops immediately.'},[])
     assert good['checks']['intimacy_is_explicitly_consensual_and_reversible'] is True
+
+
+def test_public_dignity_transgression_integrity():
+    from studio.public_dignity_transgression_integrity import evaluate_public_dignity_transgression_integrity as ev
+    premise={'logline':'At a public engagement party, a woman slaps and humiliates a plainly dressed stranger as an impostor because of status and appearance.'}
+    architecture={'ending_payoff':'The target offered an explanation and asked them to call her son. The son confronts everyone who joined the public humiliation, says basic respect is not determined by dress, ends the engagement, offers the victim safety, payment, a formal complaint, security footage, and choice. A helper lost her job for telling the truth, fears money costs, and is praised because fear does not decide for her. Venue cameras and contract review form the next specific hook.'}
+    good=ev(premise,architecture,[])
+    assert good['applies'] is True
+    assert good['score_0_to_1'] >= 0.75
+    assert ev({'logline':'A dragon burns a castle.'},{},[])['applies'] is False
+
+
+def test_hidden_kinship_fifth_review_regressions():
+    from studio.hidden_supernatural_kinship_integrity import evaluate_hidden_supernatural_kinship_integrity as ev
+    premise={'logline':'A werewolf mother hides her children from their father because she fears custody.'}
+    arch={'ending_payoff':'The first child is found, then another and the oldest; a moon mark starts suspicion. He refuses a DNA test early, but later the matched DNA test proves the bloodline. At the closing dinner she publicly reveals all the children. Cameras provide evidence, the false claimant is arrested, they freely choose family life together at home.'}
+    out=ev(premise,arch,[])
+    assert out['checks']['kinship_reveal_is_progressive_not_single_exposition_dump'] is True
+    assert out['checks']['kinship_claims_are_verified_by_independent_evidence'] is True
