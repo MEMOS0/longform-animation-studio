@@ -5146,3 +5146,8 @@ def test_curse_prop_grab_and_supportive_contact_regressions():
     assert _has_nonconsensual_intimacy('He grabs an antidote without asking and saves her.') is False
     assert _has_nonconsensual_intimacy('He takes her arm to steady her and refuses to kiss her without consent.') is False
     assert _has_nonconsensual_intimacy('He grabs her chin without permission and she refuses to kiss him.') is True
+
+
+def test_curse_unwanted_waist_grab_detected():
+    from studio.curse_cure_intimacy_integrity import _has_nonconsensual_intimacy
+    assert _has_nonconsensual_intimacy('He grabs her waist without asking.') is True
