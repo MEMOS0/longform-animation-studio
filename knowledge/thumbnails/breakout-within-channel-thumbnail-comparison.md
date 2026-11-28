@@ -195,3 +195,9 @@ Hit `xK9NcPoHLOo` uses sports-arena scale, opposing team uniforms, central gymna
 - Hit `omWFzVKpuQM`: multi-panel gold/pink key art compresses pregnant omega, alpha intimacy, perfume formula, authorship theft, and “Why Only Him?” curiosity. The formula bottle/notebook is a unique story object, not decoration.
 - Medium `vnSVXshL2aQ`: wolf cage, auction paddle, period power costumes, central vampire/werewolf pair, “Three million” and “He remembered” compress trafficking/rescue/hidden royalty/memory in one read.
 - Low `7wYIEIaWjYw`: polished coach/player hockey collage with mask/secret persona and “Four years. One crush.” Despite low discovery, it is highly legible. Do not infer CTR or weak thumbnail quality without private data.
+
+## Xixi Drama Studio — progression-system survival thumbnails
+
+- Hit `dIdeZ4yh_z0`: tropical ensemble, central male with fishing rod, shipwreck/cave arena, holographic survival-guide object, gold-blue “Desert Island Savior.” One read gives cast hierarchy + fishing system + island danger + savior role.
+- Medium `dfFh29pkNHw`: central male/female ensemble, floating-island arena, Death/Survival/Answer/Blind Box choice cards, “Sky Island Survival: Death’s Choice.” The game mechanic itself is the visual object.
+- Low `-ZjrrDmMPuU`: polished solo diver/creature spectacle with world-chat panel and “Deep Sea Overlord.” Strong image, but it sells creature/action spectacle more than social survival dilemma or resource progression. Do not infer weak CTR without private data.

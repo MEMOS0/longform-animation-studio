@@ -5037,3 +5037,21 @@ def test_bl_power_autonomy_gayle_name_does_not_trigger_gay_gate():
     premise={'logline':'Gayle falls for her billionaire boss and discovers his secret.'}
     r=evaluate_bl_power_autonomy_romance_integrity(premise,{},[])
     assert r['applies'] is False
+
+
+def test_progression_system_survival_positive_case():
+    from studio.progression_system_survival_integrity import evaluate_progression_system_survival_integrity
+    premise={'logline':'After a shipwreck, a falsely accused survivor is kicked out and activates a desert island fishing system.'}
+    architecture={'sequences':[{'summary':'The system gives three daily uses, stamina costs, island coins, corruption risk, and quest deadlines. Water, food, shelter, medicine, cold, and injury recur. He fishes, crafts tools, gathers materials, trades, cooks, and builds shelter. Classmates argue over rationing, leadership, loyalty, and sharing. He protects allies and keeps survivors alive while storms, snakes, cannibals, curses, and system penalties escalate. At the end he has enough fish and supplies, a camp plan, and a concrete titan-python hook.'}]}
+    r=evaluate_progression_system_survival_integrity(premise,architecture,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.7
+
+
+def test_progression_system_survival_rejects_unbounded_power_fantasy():
+    from studio.progression_system_survival_integrity import evaluate_progression_system_survival_integrity
+    premise={'logline':'A man on a survival island activates a level-up system and becomes the strongest king.'}
+    r=evaluate_progression_system_survival_integrity(premise,{},[])
+    assert r['applies'] is True
+    assert r['checks']['system_rules_have_quantified_limits_and_costs'] is False
+    assert r['checks']['survival_needs_are_concrete_and_recurrent'] is False
