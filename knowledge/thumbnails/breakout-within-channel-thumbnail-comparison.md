@@ -269,3 +269,7 @@ Archived evidence: `data/raw/thumbnails/paybackstories/` and `knowledge/market/p
 ## Gracie care-first incognito thumbnail doctrine
 
 `tQHAwqGfhyo` clearly visualizes mechanism: heroine bandaging a wounded man's arm in a train, with class contrast and the line “Saved on a Train, Spoiled for Life.” `GM2jQmZlbxw` is polished but generic attractive-couple mystery outside a bar; it does not visualize flash marriage, prison/fashion contrast, care, or hidden identity. `kQ4G1jHXOV0` strongly visualizes departure power reversal through kneeling pursuit versus a woman looking away. Rule: care-first incognito packaging should show the care act, wound/object, setting, and status contrast before romantic payoff. No CTR data is available.
+
+## Theatre of Dawn magical livelihood thumbnail doctrine
+
+`W0vENP6p5Eg` visualizes mother/child, farm rows, produce, magic sparkle, “The Genie Farm,” and a $10M comeback in one frame. `BXEb8g0sopQ` clearly visualizes cross-world arbitrage (water bottle for gold through a portal). `6TUtWHGCBxM` also clearly visualizes antiques plus magnifying glass/object voices, so mechanism clarity alone does not explain low discovery. Rule: magical livelihood thumbnails are strongest when the production object is concrete — crops, water, food, inventory, tools, contracts — not only sparkles around a face. No CTR data available.

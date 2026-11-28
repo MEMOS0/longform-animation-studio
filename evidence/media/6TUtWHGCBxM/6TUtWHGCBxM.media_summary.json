@@ -1,0 +1,82 @@
+{
+  "video_id": "6TUtWHGCBxM",
+  "probe": {
+    "duration": 2258.326349,
+    "size": 131992909,
+    "width": 360,
+    "height": 640,
+    "fps": "25/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\6TUtWHGCBxM\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\6TUtWHGCBxM\\contact_sheets\\contact_001.jpg",
+    "evidence\\media\\6TUtWHGCBxM\\contact_sheets\\contact_002.jpg",
+    "evidence\\media\\6TUtWHGCBxM\\contact_sheets\\contact_003.jpg",
+    "evidence\\media\\6TUtWHGCBxM\\contact_sheets\\contact_004.jpg",
+    "evidence\\media\\6TUtWHGCBxM\\contact_sheets\\contact_005.jpg"
+  ],
+  "seconds_indexed": 2258,
+  "shot_count": 69,
+  "shot_length_mean_seconds": 32.72463768115942,
+  "shot_length_median_seconds": 21.0,
+  "shot_length_p90_seconds": 90.4,
+  "visual_motion_mean": 0.16686456099270527,
+  "visual_brightness_mean": 0.27496040264656807,
+  "dialogue_cues": 944,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 414.195,
+      "text": "18th-century medieval statue of a holy"
+    },
+    "first_power_or_identity_language": {
+      "time": 14.8,
+      "text": "stopped working again? Are you"
+    },
+    "first_care_or_belonging_language": {
+      "time": 158.492,
+      "text": "Absolute Medici family collection. If I"
+    },
+    "dialogue_words_per_minute": [
+      122,
+      145,
+      159,
+      147,
+      179,
+      144,
+      163,
+      157,
+      177,
+      135,
+      121,
+      135,
+      121,
+      176,
+      163,
+      126,
+      155,
+      117,
+      165,
+      183,
+      152,
+      159,
+      131,
+      133,
+      100,
+      151,
+      97,
+      137,
+      141,
+      150,
+      135,
+      150,
+      134,
+      99,
+      126,
+      121,
+      84,
+      98
+    ],
+    "cue_count": 944
+  }
+}

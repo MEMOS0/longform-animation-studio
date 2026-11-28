@@ -5506,3 +5506,16 @@ def test_care_first_incognito_review_regressions():
     assert late_job['checks']['pre_romance_objective_has_material_or_moral_urgency'] is False
     rescue_only=ev({'logline':'A nurse needs surgery money and bandages a wounded stranger, not knowing he is a billionaire heir; they begin a romance.'},{'ending_payoff':'They choose freely.'},[])
     assert rescue_only['checks']['protagonist_competence_repeats_beyond_initial_rescue'] is False
+
+
+def test_bounded_magic_livelihood_integrity():
+    from studio.bounded_magic_livelihood_integrity import evaluate_bounded_magic_livelihood_integrity as ev
+    premise={'logline':'A broke widow on a barren farm awakens a genie with three wishes. The magic spring water is limited to one refill at midnight, so she plants crops, sells at market, proves water rights, builds restaurant alliances, and files evidence with the FBI to restore her stolen estate for her son and neighbors.'}
+    ending={'ending_payoff':'She refuses to become the richest person alive; her son grows seeds without serum, friends bring water, and the family farm becomes self-sufficient at home.'}
+    good=ev(premise,ending,[])
+    assert good['applies'] is True
+    assert good['score_0_to_1'] >= 0.75
+    bad=ev({'logline':'A broke farmer gets a magic system and becomes rich.'},{'ending_payoff':'She becomes infinitely rich.'},[])
+    assert bad['applies'] is True
+    assert bad['checks']['magic_has_explicit_limits_costs_or_prohibitions'] is False
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
