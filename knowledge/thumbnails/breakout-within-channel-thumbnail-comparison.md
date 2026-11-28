@@ -237,3 +237,7 @@ Archived evidence: `data/raw/thumbnails/queendrama/` plus `knowledge/market/quee
 ## PrimeFate misplaced-family-loyalty packaging
 
 Archived evidence: `data/raw/thumbnails/primefate/` and `knowledge/market/primefate-misplaced-family-loyalty-hit-medium-low-comparison.md`. Hit packaging combines billionaire ascent with rocket-scale aspiration; medium packaging most directly visualizes fractured family loyalty through broken photo glass, collapsing stock numbers, contracts, chess pieces, and distressed sisters behind a composed protagonist; low packaging is polished but foregrounds lost-husband luxury rather than the occult curse engine. Reusable mechanism: composed foreground kin + visibly fractured family system + documents/financial consequences. Packaging observations only, not CTR proof.
+
+## Tempting Dramas deprioritized-spouse packaging
+
+Archived evidence: `data/raw/thumbnails/temptingdramas/` and `knowledge/market/tempting-deprioritized-spouse-power-reversal-hit-medium-low-comparison.md`. Hit packaging sells transformation/chosen-family warmth; medium packaging sells irreversible exit through the car, reaching ex, crying rival, and falling ring; low packaging is polished and specific with a bandaged composed protagonist, hospital/husband, glamorous rival, and “Too Late” title. Reusable mechanism: composed departing woman + bodily/object cost + man reaching too late + rival inside the abandoned status world. Packaging observations only, not CTR proof.

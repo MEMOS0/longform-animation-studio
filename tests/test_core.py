@@ -5272,3 +5272,13 @@ def test_misplaced_family_loyalty_integrity_positive_and_negative():
     assert r['applies'] is True
     assert r['score_0_to_1'] >= 0.875
     assert evaluate_misplaced_family_loyalty_integrity({'logline':'A space captain explores a distant planet.'},{},[])['applies'] is False
+
+
+def test_deprioritized_spouse_power_reversal_integrity_positive_and_negative():
+    from studio.deprioritized_spouse_power_reversal_integrity import evaluate_deprioritized_spouse_power_reversal_integrity
+    premise={'logline':'A wife whose husband always chose his adopted sister and mistress during hospital and wedding crises finally walked away. The rival had family obligation and personal leverage, but the wife returns with authority over half the family.'}
+    arch={'ending_payoff':'His regret is too late and there are no second chances. She has institutional power, earned respect, and is no longer anyone’s wife or weakness; she is the rule, with consequences for his empire.'}
+    r=evaluate_deprioritized_spouse_power_reversal_integrity(premise,arch,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.85
+    assert evaluate_deprioritized_spouse_power_reversal_integrity({'logline':'A sailor crosses the ocean.'},{},[])['applies'] is False

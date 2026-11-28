@@ -694,3 +694,7 @@ Use `knowledge/market/queendrama-class-performance-rebirth-hit-medium-low-compar
 ## PrimeFate misplaced-family-loyalty doctrine
 
 Use `knowledge/market/primefate-misplaced-family-loyalty-hit-medium-low-comparison.md` for family-exile/rebirth stories. The reusable engine is not generic revenge: visible care/competence is rejected because a manipulative favorite exploits family credulity and information asymmetry. Require concrete favoritism acts, decisive walk-away/disowning, evidence/procedural/material exposure, exact family acknowledgement, and an ending with protection, chosen family, identity, repair, or moral choice beyond annihilation. Run `misplaced_family_loyalty_integrity`. PrimeFate's low-discovery occult film remains a polished counterexample; do not infer weak writing from low views.
+
+## Tempting Dramas deprioritized-spouse power-reversal doctrine
+
+Use `knowledge/market/tempting-deprioritized-spouse-power-reversal-hit-medium-low-comparison.md` for spouse-deprioritization mafia/romance stories. Require repeated/materially costly deprioritization, a rival with personal or structural leverage, a decisive behavioral boundary, reversal through competence/position/alliance, late regret that does not reopen access automatically, institutional consequences, and an ending of self-rule or chosen family. Run `deprioritized_spouse_power_reversal_integrity`. The low-discovery consigliere film is a strong counterexample; do not infer weak writing or packaging from low views.

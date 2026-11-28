@@ -72,6 +72,7 @@ from .incognito_moral_test_integrity import evaluate_incognito_moral_test_integr
 from .age_gap_romance_autonomy_integrity import evaluate_age_gap_romance_autonomy_integrity
 from .class_performance_misread_integrity import evaluate_class_performance_misread_integrity
 from .misplaced_family_loyalty_integrity import evaluate_misplaced_family_loyalty_integrity
+from .deprioritized_spouse_power_reversal_integrity import evaluate_deprioritized_spouse_power_reversal_integrity
 from .visual_causality import evaluate_visual_causality
 from .hidden_identity_integrity import evaluate_hidden_identity_integrity
 from .scale_community_integrity import evaluate_scale_community_integrity
@@ -394,6 +395,7 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "age_gap_romance_autonomy_integrity": evaluate_age_gap_romance_autonomy_integrity(premise, architecture, scenes),
         "class_performance_misread_integrity": evaluate_class_performance_misread_integrity(premise, architecture, scenes),
         "misplaced_family_loyalty_integrity": evaluate_misplaced_family_loyalty_integrity(premise, architecture, scenes),
+        "deprioritized_spouse_power_reversal_integrity": evaluate_deprioritized_spouse_power_reversal_integrity(premise, architecture, scenes),
         "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes), "storyboards": len(boards)},
         "gates": gate_report(schema_errors, failure, scene_report, architecture_report, bool(architecture), bool(scenes), board_report),
     }
