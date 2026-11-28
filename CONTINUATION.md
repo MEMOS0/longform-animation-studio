@@ -378,3 +378,8 @@ Next:
 ## 2026-11-28 — NeoDrama supplemental comparator checkpoint
 
 Added `oMXQt5Kg1YQ` as a closer same-channel low comparator to the existing evidentiary-withdrawal report. It is structurally strong: legal identity erasure, procedural revenge, mother-in-law repair, women's business/bookstore autonomy infrastructure, and a mechanism-legible thumbnail. No new validator was added; the supplement broadens transfer surfaces for withdrawal rebirth and reinforces that low views are not weak-writing proof.
+
+
+## HUACE mecha checkpoint (2026-11-28)
+
+Completed: HUACE `QK56XAHXLb4` hit, `UV0KiJM97TM` medium, and `DnhouSFc_h4` low excerpt were downloaded, machine-analyzed, visually sampled, subtitle-mined, thumbnail-archived, and written into `knowledge/market/huace-mecha-bonded-pilot-hit-medium-low-comparison.md`. New validator: `studio/bonded_machine_pilot_integrity.py`; full suite 499 passed after review regression tests. Important format finding: long videos may be thematic compilations; `Dnhou` is a climax excerpt of the second `QK` unit, not an independent film-quality comparator. Next: resolve review findings if any, then continue fresh low-subscriber scan outside already-covered mechanisms. Do not duplicate existing constructive-restoration/mecha repair doctrine without comparing applicability.

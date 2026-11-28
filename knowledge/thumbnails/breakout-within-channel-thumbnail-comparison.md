@@ -167,3 +167,8 @@ No CTR inference is made. The comparative design lesson is that cost and relatio
 ### NeoDrama supplemental low comparator — institutional withdrawal
 
 `oMXQt5Kg1YQ` shows Serena literally striking through the husband/father names in an official registry while the shocked mother-in-law and sweating male authority frame the act. It is a strong mechanism thumbnail because the decisive legal action is visible, not merely the love triangle. Yet the video had only about 1,840 views at extraction. This is a crucial warning: even a legible, original mechanism thumbnail does not prove high CTR or distribution. Do not convert thumbnail quality judgments into causal claims.
+
+
+## HUACE GLOBAL NOVA STUDIO mecha comparison (2026-11-28)
+
+Hit `QK56XAHXLb4` combines giant-machine scale with a foreground interpersonal confrontation: woman in red, delivery-worker yellow vest, readable faces, and mech/alien spectacle behind them. Medium `UV0KiJM97TM` is polished creature-horror close-up imagery but less socially specific. Low excerpt `DnhouSFc_h4` is complex space spectacle without readable human faces or emotional relation. Treat this as visual-pattern evidence only, not CTR causality.

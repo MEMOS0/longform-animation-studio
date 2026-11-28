@@ -4626,3 +4626,43 @@ def test_wound_price_revenge_does_not_apply_to_generic_romance():
     premise={'logline':'A CEO and a chef fall in love while repairing a family restaurant.'}
     result=evaluate_wound_price_revenge_integrity(premise,{},[])
     assert result['applies'] is False
+
+
+def test_bonded_machine_pilot_full_chain_passes():
+    from studio.bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
+    premise={
+        'title':'The Last Delivery Pilot',
+        'logline':'A delivery rider behind on rent is chosen by an alien mech during an invasion and must protect his mother while learning to pilot it.',
+        'release_format':'standalone long-form film',
+    }
+    architecture={'sequences':[
+        {'summary':'Leo is a delivery worker worried about rent, money, insurance, and his mother before the alien invasion interrupts ordinary life.'},
+        {'summary':'The mech chooses him through a neural link; a mentor makes him practice walking, balance, and first steps again and again before battle.'},
+        {'summary':'He calls his mother, promises to come home, and the machine listens, protects civilians, and becomes damaged while refusing to be only a military weapon.'},
+    ]}
+    scenes=[
+        {'summary':'The command treats the machine as an unauthorized asset and orders surrender of the specimen.'},
+        {'summary':'In the final battle they share the load as systems overload; cooperation, trust, and timing—not firepower alone—open the core.'},
+        {'summary':'The ending names the machine, recognizes it as a companion rather than a weapon, and gives pilot and machine a home beyond utility.'},
+    ]
+    result=evaluate_bonded_machine_pilot_integrity(premise,architecture,scenes)
+    assert result['applies'] is True
+    assert result['score_0_to_1'] == 1.0
+
+
+def test_bonded_machine_pilot_flags_tool_machine_and_free_competence():
+    from studio.bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
+    premise={'title':'War Mech','logline':'A soldier is assigned a robot weapon in an alien war.'}
+    architecture={'sequences':[{'summary':'He uses the robot weapon in battle and destroys the core.'}]}
+    scenes=[{'summary':'More firepower destroys the enemy. The machine remains a weapon.'}]
+    result=evaluate_bonded_machine_pilot_integrity(premise,architecture,scenes)
+    assert result['applies'] is True
+    assert result['checks']['machine_or_creature_has_vulnerable_agency'] is False
+    assert result['checks']['embodied_training_precedes_competence'] is False
+    assert result['score_0_to_1'] < 0.4
+
+
+def test_bonded_machine_pilot_does_not_apply_to_romance():
+    from studio.bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
+    result=evaluate_bonded_machine_pilot_integrity({'title':'Contract bride','logline':'A contract marriage becomes real love.'},{'sequences':[]},[])
+    assert result['applies'] is False

@@ -632,3 +632,8 @@ Do not treat fake marriage/fake pregnancy as inherently successful or failed. Ma
 ### Wound-price dark-fantasy revenge doctrine (Veylora)
 
 For dark-fantasy revenge, do not begin with lore, kingdoms, or monster spectacle. Convert an intimate wound into a portable behavior or object; let care/training cost time and penance; establish a protective rule the hero will violate; make the antagonist weaponize the original wound; price supernatural power irreversibly; then bring the opening behavior back in the climax as identity. The ending must pay the price and close grief rather than reset into coronation or costless victory. Veylora counterexamples: a polished powerless-human fantasy and an intelligent ensemble survival film can still underperform discovery-wise, so do not treat polish, action, or conceptual inversion as sufficient.
+
+
+## HUACE bonded-machine pilot doctrine (2026-11-28)
+
+For mecha/robot/AI science fiction, do not open with hardware spectacle alone. HUACE evidence supports: ordinary economic identity before selection, mutual/chosen machine compatibility, embodied failure-based training, an active civilian/familial anchor, vulnerable machine agency, institutional property/weapon framing, shared physical cost, cooperation-based climax, and identity beyond utility. For long compilations, separate units can work if each has a complete relational arc and the package preserves one thematic object; do not concatenate unrelated genre worlds merely to reach runtime. A climax excerpt without setup is not a valid standalone narrative because the emotional payoff depends on accumulated care/coercion evidence.
