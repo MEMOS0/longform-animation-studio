@@ -270,3 +270,12 @@ Patronage is strongest when it is genuinely caring and materially useful while a
 For serialized execution, each episode should close a concrete intimacy/professional unit (recital preparation, invitation, patronage boundary, performance) before opening a specific family/institutional/creative hook. The season ending should preserve independent home, craft, invitation, or continued composition instead of laundering dependence into romantic possession. Bodily or performative capacity — hand, voice, hearing, sight, stamina — should carry real cost when art is the protagonist's identity.
 
 Anti-overfit caution: compilation performance cannot prove long runtime or slow pacing caused demand. EP3 is lower-viewed yet contains strong micro-closure and a specific hook; treat format/distribution separately from writing quality.
+
+
+## Trauma-informed child voice doctrine — Story Vault evidence
+
+The silent-child hit demonstrates that care must be a repeatable practice rather than generic kindness. Quantify care failure and institutional threat immediately, then give the caregiver a sensory/cultural routine with history — braiding, food, music, repair, sign language, textile work, or another teachable ritual. The child must communicate before speech through laughter, objects, writing, choosing, spelling, drawing, or gesture. Adults should learn to read those channels instead of forcing speech or accepting the “broken child” frame.
+
+Powerful parents must change behaviorally: stop delegating, enter the care space, learn the routine, and show up repeatedly. Antagonism is strongest when institutional and material — trust, custody, shares, debt, doctor/report authority — while exposure turns on procedural detail rather than shouting. Child-chosen testimony or communication should be pivotal, and restitution must be material: earned pay, returned property, dropped charges, public apology, lease/rent, or community protection rather than charity. End by transforming household/institutional culture, ideally by rhyming the opening care/hiring ritual under new rules. Romance remains subordinate to child safety and explicit power boundaries.
+
+The channel's very-low-view graduation film is a strong-craft counterexample: public degradation, consent refusal, forged-document evidence, public apology, and earned professional restitution are all present. Do not infer weak writing or packaging failure from early low discovery.

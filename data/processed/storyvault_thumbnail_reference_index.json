@@ -1,0 +1,63 @@
+{
+  "evidence_class": "tier_1_metadata_plus_visual_inspection",
+  "causality_warning": "Thumbnail observations are packaging evidence, not CTR or retention proof. Do not infer causal click performance without creator analytics.",
+  "items": [
+    {
+      "video_id": "RurEkZOmRjc",
+      "path": "data/raw/thumbnails/storyvault/RurEkZOmRjc.jpg",
+      "views_at_collection": 1100000,
+      "duration_seconds": 4692,
+      "performance_position": "hit_low_subscriber_breakout",
+      "visual_mechanics": [
+        "hidden father observes intimate care labor from a doorway",
+        "maid-child-father triangle is spatially legible",
+        "warm plant-filled domestic light contrasts institutional mansion coldness",
+        "dialogue text 'DON'T STOP. PLEASE.' creates a precise curiosity gap",
+        "hair braiding/beads communicate culturally specific care rather than generic wealth romance"
+      ],
+      "reusable_original_concept": "Package a care-centered child/family drama as a witnessed act of skilled care: observer, vulnerable child, practitioner, and one unfinished/continuing action. Use a short line that sounds like a plea to continue, not a wealth shock label."
+    },
+    {
+      "video_id": "PM7Mgf4iFvo",
+      "path": "data/raw/thumbnails/storyvault/PM7Mgf4iFvo.jpg",
+      "views_at_collection": 135000,
+      "duration_seconds": 3931,
+      "performance_position": "medium_comparator",
+      "visual_mechanics": [
+        "confident chairwoman foreground with majority-shareholder folder",
+        "anniversary humiliation scene in background",
+        "labels and arrows explain the corporate power reversal",
+        "legible but outcome-heavy packaging"
+      ],
+      "reusable_original_concept": "For dignity/ownership inversion stories, explicit object labels can clarify the reversal, but over-explaining the outcome may reduce curiosity compared with a witnessed relational act."
+    },
+    {
+      "video_id": "qN2_gzeK69I",
+      "path": "data/raw/thumbnails/storyvault/qN2_gzeK69I.jpg",
+      "views_at_collection": 436,
+      "duration_seconds": 4825,
+      "performance_position": "very_new_low_comparator_not_failure_proof",
+      "visual_mechanics": [
+        "public graduation transgression",
+        "older authority figure physically restrains the graduate",
+        "direct command text 'TAKE OFF THAT GOWN!'",
+        "strong single-moment humiliation but less continuing-care relational geometry"
+      ],
+      "reusable_original_concept": "A public degradation image can be strong even when discovery is low; do not treat low views as packaging failure. Add relational continuity or a second visual question when the story is more than one transgression."
+    },
+    {
+      "video_id": "Wf7ABZw-AH4",
+      "path": "data/raw/thumbnails/storyvault/Wf7ABZw-AH4.jpg",
+      "views_at_collection": 26000,
+      "duration_seconds": 3041,
+      "performance_position": "lower_mid_comparator",
+      "visual_mechanics": [
+        "rusty toolbox as mystery object",
+        "laughing relatives and shocked inheritor create inheritance conflict",
+        "object-centered curiosity without revealing the false bottom"
+      ],
+      "reusable_original_concept": "Inheritance/object mysteries benefit from a tactile object plus opposed family reactions; keep the secret mechanism physically visible but unexplained."
+    }
+  ],
+  "craft_rule": "For child/care-centered family drama, the strongest reusable packaging mechanism is a witnessed continuing care act with a precise verbal plea; corporate/revenge packaging can be clear but may over-explain outcomes, and a low-viewed transgression thumbnail can still be strong craft evidence."
+}

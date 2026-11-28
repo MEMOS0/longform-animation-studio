@@ -5751,3 +5751,16 @@ def test_patronage_and_kinship_sixth_review_regressions():
     assert hypothetical['checks']['kinship_claims_are_verified_by_independent_evidence'] is False
     records=kin(kp,{'ending_payoff':'He refuses a DNA test, but authenticated hospital records confirm the child is his. The mother freely chooses reunion.'},[])
     assert records['checks']['kinship_claims_are_verified_by_independent_evidence'] is True
+
+
+def test_trauma_informed_child_voice_integrity():
+    from studio.trauma_informed_child_voice_integrity import evaluate_trauma_informed_child_voice_integrity as ev
+    premise={'logline':'After 12 nannies quit in one year, a maid uses braids, beads, stories, and patient care to reach a silent grieving six-year-old daughter whose aunt wants her sent to a Switzerland program.'}
+    architecture={'ending_payoff':'The child says I am not broken in public after writing and spelling what she saw. The false police report is withdrawn, the caregiver receives earned nanny pay and back rent rather than charity, romance is only dinner not as your boss, and a new maid is welcomed into a house that is not hard anymore.'}
+    scenes=[{'summary':'The powerful father hired every name and signed whatever was put before him, then sits on the salon floor every Saturday. The caregiver has a shop, grandmother, two buses, and economic cost. The same sentence and comma expose the letters; the trust, shares, loan, and company are the motive. Three strands hold.'}]
+    out=ev(premise,architecture,scenes)
+    assert out['applies'] is True
+    assert out['score_0_to_1'] >= 0.65
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+    bad=ev(premise,{'ending_payoff':'A miracle cure forces her to speak overnight and the powerful parent simply marries the maid.'},[])
+    assert bad['checks']['adults_do_not_force_speech_or_treat_child_as_broken'] is False

@@ -239,3 +239,8 @@ Reference index: `data/processed/heartflush_thumbnail_reference_index.json`; rep
 ## Beluluga NOCTURNE serialized intimate period packaging
 
 NOCTURNE adds a useful prestige-serial packaging contrast: the full-season hit uses restrained emotional close-up plus completion/prestige promise, while stronger episode/compilation packaging makes the choice triangle spatially legible. Direct two-person intimacy alone is emotionally readable but less distinctive than intimacy plus a visible third-party/social complication. For original concepts, encode private/public tension or observer-desired-ruler geometry through eye-lines, spatial arrangement, period costume, and one question-led title; do not copy the literal Grand Duke/pianist imagery. No CTR causality is available.
+
+
+## Story Vault trauma-informed child-care packaging
+
+The low-subscriber silent-child hit uses a highly specific packaging mechanism: a hidden powerful observer watches a practitioner perform culturally specific care for a vulnerable child, while a short plea (“DON'T STOP. PLEASE.”) turns continuation itself into the curiosity gap. This is more distinctive than generic wealth/romance imagery because the spatial triangle explains who cares, who watches, and who is vulnerable. Corporate/revenge thumbnails with labels and arrows can be legible but may over-explain the reversal. The very-low-view graduation transgression thumbnail is still visually strong, so use it as anti-overfit evidence rather than calling it a bad thumbnail.
