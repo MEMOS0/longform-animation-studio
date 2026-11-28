@@ -39,7 +39,7 @@ def _story_text(value: Any) -> str:
 
 def evaluate_period_autonomy_evidence_romance_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_story_text(premise), _story_text(architecture), _story_text(scenes)]).lower()
-    period = bool(re.search(r"\b(?:regency|period|duk(?:e|es|edom)|duchess(?:es)?|earl(?:s|dom)?|marquess(?:es)?|princess(?:es)?|lady|ladies|lord(?:s)?|aristocr\w*|ballroom\w*|carriage\w*|dowr\w*|banns|opera|society)\b", full))
+    period = bool(re.search(r"\b(?:regency|period|duk(?:e|es|edom)|duchess(?:es)?|earl(?:s|dom)?|marquess(?:es)?|princess(?:es)?|lord(?:s|ship)?|aristocr\w*|ballroom\w*|carriage\w*|dowr\w*|banns|opera|society)\b", full))
     romance = bool(re.search(r"\b(?:romance|love\w*|marri\w*|wife|wives|husband\w*|bride\w*|heart\w*|kiss\w*|suitor\w*|wedding\w*)\b", full))
     constraint = bool(re.search(r"arranged|duty|title|class|reputation|scandal|society|royal|alliance|cast out|banish|disown|honor", full))
     if not (period and romance and constraint):
@@ -56,8 +56,10 @@ def evaluate_period_autonomy_evidence_romance_integrity(premise: dict[str, Any],
         if isinstance(sequences, list) and sequences:
             ending_parts.append(_story_text(sequences[-1]).lower())
     ending_text = "\n".join(ending_parts + [final_scene_text]) or (architecture_text[-max(1, len(architecture_text) // 3):] if architecture_text else full[-max(1, len(full) // 4):])
-    explicit_permission = bool(re.search(r"never (?:kisses?|touches?|claims?|beds?|takes?)[^.\n]{0,80}without (?:her |his |their )?(?:consent|permission)|only (?:kisses?|touches?|claims?|beds?)[^.\n]{0,60}(?:with|after) (?:her |his |their )?(?:consent|permission)", full))
+    explicit_permission = bool(re.search(r"never (?:(?:kisses?|touches?|claims?|beds?|takes?)|initiates? intimacy)[^.\n]{0,80}without (?:her |his |their )?(?:consent|permission)|only (?:kisses?|touches?|claims?|beds?)[^.\n]{0,60}(?:with|after) (?:her |his |their )?(?:consent|permission)", full))
     nonconsensual_intimacy = bool(re.search(r"kiss\w*[^.\n]{0,80}(?:as|while|when)[^.\n]{0,50}(?:pulls? away|resists?|struggles?|tries? to stop)|(?:pulls? away|resists?|struggles?|tries? to stop)[^.\n]{0,80}kiss\w*|forced (?:kiss|intimacy)|(?<!never )kiss\w*[^.\n]{0,50}without (?:her |his |their )?(?:consent|permission)", full))
+    respectful_stop = bool(re.search(r"stops? (?:immediately|as soon as)|pulls? away[^.\n]{0,50}(?:stops?|respects?)|respects?[^.\n]{0,50}pulls? away", full))
+    nonconsensual_intimacy = nonconsensual_intimacy and not respectful_stop
     consent_scan = re.sub(r"without (?:her |his |their )?(?:consent|permission)|didn.?t (?:ask|seek) (?:consent|permission)|no consent|not consensual|unwanted|forced", " ", full)
 
     checks = {

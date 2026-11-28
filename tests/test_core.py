@@ -5656,3 +5656,27 @@ def test_hidden_supernatural_kinship_integrity():
     assert good['applies'] is True
     assert good['score_0_to_1'] >= 0.65
     assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+
+def test_hidden_kinship_fourth_review_regressions():
+    from studio.hidden_supernatural_kinship_integrity import evaluate_hidden_supernatural_kinship_integrity as ev
+    rescue={'logline':'A dragon rescue team uses DNA records to save storm orphans.'}
+    assert ev(rescue,{},[])['applies'] is False
+    premise={'logline':'A werewolf mother hides her children from their father because she fears custody.'}
+    bad={'ending_payoff':'In one speech she reveals all the children. He refuses a DNA test, wins custody unopposed, and says she has no choice. The rival is only suspected.'}
+    out=ev(premise,bad,[])
+    assert out['applies'] is True
+    assert out['checks']['kinship_reveal_is_progressive_not_single_exposition_dump'] is False
+    assert out['checks']['kinship_claims_are_verified_by_independent_evidence'] is False
+    assert out['checks']['wealth_or_parental_power_cannot_simply_seize_the_children'] is False
+    assert out['checks']['romance_or_family_reunion_is_chosen_not_forced_by_children'] is False
+    assert out['checks']['antagonist_or_false_claimant_receives_accountable_consequence'] is False
+
+def test_period_autonomy_fourth_review_regressions():
+    from studio.period_autonomy_evidence_romance_integrity import evaluate_period_autonomy_evidence_romance_integrity as ev
+    contemporary={'logline':'In a contemporary romance, two ladies discuss marriage, duty, reputation, and honor.'}
+    assert ev(contemporary,{},[])['applies'] is False
+    premise={'logline':'In a period romance, His Lordship arranges marriage for duty and reputation.'}
+    assert ev(premise,{},[])['applies'] is True
+    good=ev(premise,{'ending_payoff':'He never initiates intimacy without her consent. When she pulls away, he stops immediately.'},[])
+    assert good['checks']['intimacy_is_explicitly_consensual_and_reversible'] is True
