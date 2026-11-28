@@ -17,22 +17,44 @@ def _text(value: Any) -> str:
 
 def _final_narrative_text(architecture: dict[str, Any], scenes: list[dict[str, Any]], fallback: str) -> str:
     if scenes:
-        return _text(scenes[-max(1, min(5, len(scenes))):]).lower()
+        return _text(scenes[-max(1, min(5, (len(scenes) + 2) // 3)):]).lower()
     if isinstance(architecture, dict) and isinstance(architecture.get("sequences"), list) and architecture.get("sequences"):
-        return _text(architecture["sequences"][-max(1, min(3, len(architecture["sequences"]))):]).lower()
+        return _text(architecture["sequences"][-max(1, min(3, (len(architecture["sequences"]) + 2) // 3)):]).lower()
     return fallback[-max(1, len(fallback) // 3):]
+
+
+
+def _setup_narrative_text(architecture: dict[str, Any], scenes: list[dict[str, Any]], fallback: str) -> str:
+    if scenes:
+        count = max(1, min(5, (len(scenes) + 2) // 3))
+        return _text(scenes[:-count] or scenes[:1]).lower()
+    if isinstance(architecture, dict) and isinstance(architecture.get("sequences"), list) and architecture.get("sequences"):
+        count = max(1, min(3, (len(architecture["sequences"]) + 2) // 3))
+        return _text(architecture["sequences"][:-count] or architecture["sequences"][:1]).lower()
+    return fallback[:max(1, len(fallback) // 2)]
 
 
 def evaluate_wound_price_revenge_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     dark_creature = bool(re.search(r"demon|fiend|monster|creature|troll|beast|supernatural|dark fantasy|nightstalker", full))
-    revenge = bool(re.search(r"revenge|avenge|vengeance|murdered|kill the one|hunt(?:er|ing)? .*killer|mother.*murder", full))
+    active_revenge_text = re.sub(r"(?:over|instead of|rather than|rejects?|renounces?|refuses?)[\s\S]{0,100}?(?:revenge|vengeance)", "protective choice", full)
+    revenge = bool(re.search(r"revenge|avenge|vengeance|murdered|kill the one|hunt(?:er|ing)? .*killer|mother.*murder", active_revenge_text))
     if not (dark_creature and revenge):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
     ending = _final_narrative_text(architecture, scenes, full)
-    motif_source = bool(re.search(r"count(?:ing|s|ed)?|carv(?:ing|es|ed)?|song|whistle|token|wooden|figurine|ritual|promise|keepsake|listening wolf", full))
-    motif_end = bool(re.search(r"count(?:ing|s|ed)?|carv(?:ing|es|ed)?|song|whistle|token|wooden|figurine|ritual|promise|keepsake|listening wolf|boy who counted", ending))
+    motif_patterns = {
+        "counting": r"count(?:ing|s|ed)?|boy who counted",
+        "carving": r"carv(?:ing|es|ed)?|wooden|figurine|listening wolf",
+        "song": r"song|whistle",
+        "token": r"token|keepsake",
+        "ritual_promise": r"ritual|promise",
+    }
+    setup_text = _setup_narrative_text(architecture, scenes, full)
+    setup_motifs = {name for name, pattern in motif_patterns.items() if re.search(pattern, setup_text)}
+    ending_motifs = {name for name, pattern in motif_patterns.items() if re.search(pattern, ending)}
+    motif_source = bool(setup_motifs)
+    motif_end = bool(setup_motifs & ending_motifs)
 
     checks = {
         "intimate_wound_before_dark_spectacle": bool(re.search(r"mother|father|family|child|home|cottage|protect(?:ed|ing)? (?:her|his|the) child", full)),
@@ -40,11 +62,11 @@ def evaluate_wound_price_revenge_integrity(premise: dict[str, Any], architecture
         "motif_returns_as_climax_identity": motif_source and motif_end,
         "mentor_care_has_cost_or_penance": bool(re.search(r"mentor|teacher|master|hunter.{0,80}(?:train|teach|protect)|six winters|penance|someone should have done|sacrific", full)),
         "competence_rules_precede_power": bool(re.search(r"weakness|first rule|rule|train|training|six winters|never hunt|learn|drill|study", full)),
-        "power_or_revenge_has_irreversible_price": bool(re.search(r"soul|life|death|die|price|cost|sacrific|never return|lose yourself|irreversible", full)),
+        "power_or_revenge_has_irreversible_price": bool(re.search(r"accepts?.{0,80}(?:soul|price|cost|bargain)|pays?.{0,80}(?:soul|price|cost)|in exchange for|gives? up.{0,80}(?:life|soul|future|memory)|never return|lose yourself|irreversible.{0,80}(?:price|cost)|sacrific(?:e|es|ed).{0,80}(?:life|soul|self|future)", full)),
         "revenge_conflicts_with_protective_rule": bool(re.search(r"never hunt angry|do not go alone|promise me you will not|revenge.{0,80}(?:cost|consume|destroy)|anger.{0,80}(?:rule|danger|cost)", full)),
         "antagonist_weaponizes_original_wound": bool(re.search(r"your mother|murdered your mother|before i took her|i will remember you|smell of a child|knows? (?:your|the) fear|weaponizes?", full)),
         "alliance_or_care_outlives_revenge_utility": bool(re.search(r"companion|friend|healer|not alone|come with me|help people|protect|care|trust", full)),
-        "ending_pays_price_and_closes_grief": bool(re.search(r"soul|death|dies|it is done|mama|mother|memorial|grief|mourning|accept|price|cost|never beg|no crown|home", ending)),
+        "ending_pays_price_and_closes_grief": bool(re.search(r"mama|mother|memorial|grief|mourning|it is done", ending) and re.search(r"soul|death|dies|accepts?.{0,80}(?:price|cost)|pays?.{0,80}(?:price|cost)|never beg|irreversible|sacrific", ending)),
     }
     labels = {
         "intimate_wound_before_dark_spectacle": "dark-fantasy revenge begins with lore/spectacle rather than an intimate relational wound",

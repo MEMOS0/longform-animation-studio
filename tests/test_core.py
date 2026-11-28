@@ -4666,3 +4666,33 @@ def test_bonded_machine_pilot_does_not_apply_to_romance():
     from studio.bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
     result=evaluate_bonded_machine_pilot_integrity({'title':'Contract bride','logline':'A contract marriage becomes real love.'},{'sequences':[]},[])
     assert result['applies'] is False
+
+
+def test_wound_price_revenge_rejected_revenge_does_not_trigger_applicability():
+    from studio.wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
+    premise={'logline':'In a creature-protection fantasy, Mira repeatedly chooses the dragon child safety over her own exile, freedom, and revenge.'}
+    result=evaluate_wound_price_revenge_integrity(premise,{},[])
+    assert result['applies'] is False
+
+
+def test_wound_price_revenge_requires_same_motif_setup_and_payoff():
+    from studio.wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
+    premise={'logline':'A boy takes revenge on the demon that murdered his mother.'}
+    architecture={'sequences':[
+        {'summary':'The opening wooden keepsake and carving ritual define his grief.'},
+        {'summary':'He trains and hunts the demon.'},
+        {'summary':'In the climax an unrelated song plays while he kills it.'},
+    ]}
+    result=evaluate_wound_price_revenge_integrity(premise,architecture,[])
+    assert result['checks']['motif_returns_as_climax_identity'] is False
+
+
+def test_wound_price_revenge_rejected_bargain_and_plain_homecoming_are_free():
+    from studio.wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
+    premise={'logline':'A boy takes revenge on the demon that murdered his mother.'}
+    architecture={'sequences':[
+        {'summary':'He rejects the soul bargain, wins for free, and simply goes home in the ending.'},
+    ]}
+    result=evaluate_wound_price_revenge_integrity(premise,architecture,[])
+    assert result['checks']['power_or_revenge_has_irreversible_price'] is False
+    assert result['checks']['ending_pays_price_and_closes_grief'] is False
