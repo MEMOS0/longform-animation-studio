@@ -5482,7 +5482,7 @@ def test_epistemic_inner_voice_audible_only_regression():
 
 def test_care_first_incognito_integrity():
     from studio.care_first_incognito_integrity import evaluate_care_first_incognito_integrity as ev
-    premise={'logline':'A nurse needs surgery money for her grandmother. She bandages a wounded stranger, not knowing he is a hidden billionaire heir. The revelation recontextualizes her care, while her medical work and public speech repeat her competence. She refuses a conspiracy and chooses love freely after his apology and repair.'}
+    premise={'logline':'A nurse needs surgery money for her grandmother. She bandages a wounded stranger, not knowing he is a hidden billionaire heir. The revelation recontextualizes her care, while her medical work and public speech repeat her competence. She refuses a conspiracy and chooses her husband freely after his apology and repair.'}
     ending={'ending_payoff':'They discuss the choice freely; she keeps her medical vocation and family repair alongside mutual commitment.'}
     good=ev(premise,ending,[])
     assert good['applies'] is True
@@ -5491,3 +5491,18 @@ def test_care_first_incognito_integrity():
     assert bad['applies'] is True
     assert bad['checks']['wealth_or_power_does_not_substitute_for_consent_or_repair'] is False
     assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+
+def test_care_first_incognito_review_regressions():
+    from studio.care_first_incognito_integrity import evaluate_care_first_incognito_integrity as ev
+    nonromantic=ev({'logline':'A keeper rescues a dragon child out of protective love in a hidden kingdom.'},{},[])
+    assert nonromantic['applies'] is False
+    coerced=ev({'logline':'A woman bandages a wounded stranger, not knowing he is a billionaire heir. He threatens her grandmother and forces marriage.'},{'ending_payoff':'They marry in a grand ceremony.'},[])
+    assert coerced['applies'] is True
+    assert coerced['checks']['wealth_or_power_does_not_substitute_for_consent_or_repair'] is False
+    repaired=ev(coerced and {'logline':'A woman bandages a wounded stranger, not knowing he is a billionaire heir. He threatens her grandmother and forces marriage.'},{'ending_payoff':'He apologizes, repairs the coercion, asks permission, and she freely chooses him.'},[])
+    assert repaired['checks']['wealth_or_power_does_not_substitute_for_consent_or_repair'] is True
+    late_job=ev({'logline':'A woman bandages a wounded stranger, not knowing he is a billionaire heir, and they begin a romance.'},{'ending_payoff':'She gets a job and chooses freely.'},[])
+    assert late_job['checks']['pre_romance_objective_has_material_or_moral_urgency'] is False
+    rescue_only=ev({'logline':'A nurse needs surgery money and bandages a wounded stranger, not knowing he is a billionaire heir; they begin a romance.'},{'ending_payoff':'They choose freely.'},[])
+    assert rescue_only['checks']['protagonist_competence_repeats_beyond_initial_rescue'] is False
