@@ -33,17 +33,18 @@ def _has_nonconsensual_intimacy(text: str) -> bool:
     patterns = (
         r"(?:kiss(?:es|ed)?|touch(?:es|ed)?|takes?|forces?|presses?).{0,40}without (?:asking|permission|consent)",
         r"without (?:asking|permission|consent).{0,15}(?:kiss|touch|force|bed|sex)",
-        r"never asks? permission before (?:kissing|touching)",
-        r"(?:kiss|touch).{0,60}never asks? permission|never asks? permission.{0,60}(?:kiss|touch)",
+        r"(?:never|doesn['’]?t|does not|didn['’]?t|did not) asks? permission before (?:kissing|touching)",
+        r"(?:kiss(?:es|ed)?|touch(?:es|ed)?).{0,60}(?:never|doesn['’]?t|does not|didn['’]?t|did not) asks? permission",
+        r"(?:never|doesn['’]?t|does not|didn['’]?t|did not) asks? permission.{0,60}(?:kiss|touch)",
         r"no consent",
     )
-    refusal = re.compile(r"refus|avoid|stop|prevent|won['’]?t|wouldn['’]?t|not allowed|must not")
+    refusal_only = re.compile(r"(?:refuses?|avoids?|won['’]?t|wouldn['’]?t|must not|not allowed) (?:to )?(?:kiss|touch|be kissed|be touched)")
+    active_intimacy = re.compile(r"(?:he|she|they|man|woman|king|dragon|vampire|alpha)?\s*(?:kisses|kissed|touches|touched|forces|forced|presses|pressed)")
     for sentence in _segments(text):
+        refusal_frame = bool(refusal_only.search(sentence)) and not active_intimacy.search(sentence)
         for pattern in patterns:
-            for match in re.finditer(pattern, sentence):
-                before = sentence[max(0, match.start() - 35):match.start()]
-                if not refusal.search(before):
-                    return True
+            if re.search(pattern, sentence) and not refusal_frame:
+                return True
     return False
 
 

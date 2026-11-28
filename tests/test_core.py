@@ -4984,3 +4984,29 @@ def test_curse_cure_unrelated_unpermitted_action_does_not_veto_consent():
     scenes=[{'summary':'He leaves the council room without permission, then asks before kissing her and waits until she is ready.'}]
     r=evaluate_curse_cure_intimacy_integrity(premise,{},scenes)
     assert r['checks']['intimacy_progresses_by_consent_and_pacing'] is True
+
+
+def test_bl_power_autonomy_coercion_does_not_count_as_consent_or_freedom():
+    from studio.bl_power_autonomy_romance_integrity import evaluate_bl_power_autonomy_romance_integrity
+    premise={'logline':'BL billionaire alpha buys an omega at auction.'}
+    scenes=[{'summary':'He kisses him without consent and keeps him captive. He is not free to leave.'}]
+    r=evaluate_bl_power_autonomy_romance_integrity(premise,{},scenes)
+    assert r['checks']['rescue_or_payment_does_not_create_ownership'] is False
+    assert r['checks']['intimacy_uses_micro_consent_and_refusal_rights'] is False
+
+
+def test_bl_power_autonomy_does_not_apply_to_wife_husband_hidden_identity():
+    from studio.bl_power_autonomy_romance_integrity import evaluate_bl_power_autonomy_romance_integrity
+    premise={'logline':'A wife discovers her billionaire husband hid his identity and reconsiders their marriage.'}
+    r=evaluate_bl_power_autonomy_romance_integrity(premise,{},[])
+    assert r['applies'] is False
+
+
+def test_curse_cure_unasked_permission_is_nonconsent_even_when_recipient_resists():
+    from studio.curse_cure_intimacy_integrity import evaluate_curse_cure_intimacy_integrity, _has_nonconsensual_intimacy
+    assert _has_nonconsensual_intimacy('She tries to stop him as he kisses her without permission.') is True
+    assert _has_nonconsensual_intimacy("He kisses her and doesn't ask permission.") is True
+    premise={'logline':'A cursed dragon king falls in love.'}
+    scenes=[{'summary':'She tries to stop him as he kisses her without permission. He asks too late.'}]
+    r=evaluate_curse_cure_intimacy_integrity(premise,{},scenes)
+    assert r['checks']['intimacy_progresses_by_consent_and_pacing'] is False
