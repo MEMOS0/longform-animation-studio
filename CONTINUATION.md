@@ -434,3 +434,5 @@ Completed hit/medium/low comparison for Legendary Story House:
 Integrated `studio/kin_protection_power_reversal_integrity.py` into production. Tests now 542 passed after also fixing Devin Review findings around progression-system applicability/runtime/ending checks, BL consent attribution/ellipsis/ownership, and curse-intimacy breath false positives.
 
 Next: if new review findings arrive, triage first. Otherwise continue fresh breakout discovery outside covered mechanisms, prioritizing uncovered candidates rather than duplicating existing reports/validators.
+
+Immediate next candidate after Legendary: analyze animal-communication zoo/economic-revival mechanism using `iz5WnsFSv5g` (King's Theater, “He Understands Animals… Dying Zoo into a Viral Hit,” 138m) and `ssbZ2hIPY_E` (KellyCine, “She Talks to Animals… Save a Failing Zoo,” 70m). Before writing a validator, collect channel context and compare with a low/medium same-mechanism comparator; this overlaps creature care only superficially because the core object is communication-driven institutional/economic revival.
