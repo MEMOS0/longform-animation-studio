@@ -18,7 +18,7 @@ def _text(value: Any) -> str:
 def evaluate_coerced_psychiatric_labeling_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     psychiatric = bool(re.search(r"mental hospital|psychiatric|schizophreni|mania|false diagnosis|mentally ill|lunatic|insane asylum|psychiatric hospital", full))
-    coercion = bool(re.search(r"lock(?:ed|s)? (?:her|him|them)|confined|false imprisonment|restraint|injection|forced treatment|sign(?:ed)? (?:the )?(?:document|stake|shares)|forged signature", full))
+    coercion = bool(re.search(r"lock(?:ed|s)? (?:her|him|them)|lock\w*[^.\n]{0,30}(?:in|inside|into)[^.\n]{0,40}(?:hospital|asylum|ward)|confined|false imprisonment|restraint|forced treatment|(?:forced|coerced|involuntary)[^.\n]{0,30}injection|injection[^.\n]{0,30}(?:forced?|against|refus)|sign(?:ed)? (?:the )?(?:document|stake|shares)|forged signature", full))
     power = bool(re.search(r"heiress|billionaire|empire|company|group|shares|stake|assets|fortune|wealth|president|ceo", full))
     if not (psychiatric and coercion and power):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
@@ -45,7 +45,7 @@ def evaluate_coerced_psychiatric_labeling_integrity(premise: dict[str, Any], arc
         "evidence_is_specific_financial_or_documentary": bool(re.search(r"money laundering|shell companies|forged signatures?|transfer records|account key|evidence|charging documents|patent theft|fraud", full)),
         "antagonist_escalation_is_material_and_accountable": bool(re.search(r"false imprisonment|money laundering|fraud|attempted murder|murder for hire|kill|eliminate|die there|court|sentenced|prison", full)),
         "restitution_includes_assets_legal_consequence_and_public_truth": bool(re.search(r"assets liquidated|surrendered|confiscated|recovered|donated|sentenced|prison|court|convictions?|charges?", end + "\n" + full[-max(1, len(full) // 3):])),
-        "ending_rejects_reconciliation_and_rebuilds_self_owned_power": bool(re.search(r"didn't come .*save you|let it all go|love isn't infinite|moved on|own hands|empire|walk this road with you|not save you", end)),
+        "ending_rejects_reconciliation_and_rebuilds_self_owned_power": bool(re.search(r"didn't come .*save you|let it all go|love isn't infinite|moved on|own hands|empire|walk this road with you|not save you", end)) and not bool(re.search(r"reunit\w*[^.\n]{0,50}(?:abuser|fiance|husband)|reconcil\w*[^.\n]{0,50}(?:abuser|fiance|husband)|back together[^.\n]{0,50}(?:abuser|fiance|husband)|runs? his empire|run his empire", end)),
         "mental_illness_is_not_used_as inherent_violence_or_comic_stigma": not bool(re.search(r"crazy people are dangerous|lunatics are violent|mental patients are monsters|hysterical woman", full)),
     }
     labels = {
