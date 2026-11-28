@@ -5562,3 +5562,9 @@ def test_dignified_labor_applicability_word_boundaries():
     from studio.dignified_labor_craft_vindication_integrity import evaluate_dignified_labor_craft_vindication_integrity as ev
     survival=ev({'logline':'An observant brakeman uses craft and planning evidence to free train crash survivors.'},{'ending_payoff':'They escape.'},[])
     assert survival['applies'] is False
+
+
+def test_bounded_magic_applies_to_business_eviction():
+    from studio.bounded_magic_livelihood_integrity import evaluate_bounded_magic_livelihood_integrity as ev
+    r=ev({'logline':'A genie uses limited wishes to help a shopkeeper save a failing business from eviction.'},{},[])
+    assert r['applies'] is True

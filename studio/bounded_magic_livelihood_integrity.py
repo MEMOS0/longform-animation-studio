@@ -24,7 +24,7 @@ def evaluate_bounded_magic_livelihood_integrity(premise: dict[str, Any], archite
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     magic = bool(re.search(r"genie|magic|magical|wish|serum|portal|magic system|golden eye|talking objects|objects talk|dragon|spell|potion", full))
     livelihood = bool(re.search(r"farm|crops?|plant|store|shop|business|debt|wages|market|restaurant|trade|water|livelihood|empire|work|labor", full))
-    restoration = bool(re.search(r"broke|debt|steal|stolen|dispossess|barren|ruin|restore|comeback|take back|rebuild|starv|precari", full))
+    restoration = bool(re.search(r"broke|debt|steal|stolen|dispossess|barren|ruin|restore|comeback|take back|rebuild|starv|precari|evict|failing business|lose[^.]{0,30}business|save[^.]{0,30}business", full))
     if not (magic and livelihood and restoration):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
