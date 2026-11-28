@@ -5222,3 +5222,14 @@ def test_incognito_premise_only_uses_premise_text():
     r=evaluate_incognito_moral_test_integrity(premise,{},[])
     assert r['applies'] is True
     assert r['checks']['kindness_is_active_and_costly_before_reward'] is True
+
+
+def test_class_performance_misread_integrity_positive_and_negative():
+    from studio.class_performance_misread_integrity import evaluate_class_performance_misread_integrity
+    premise={'logline':'Reborn after her first life left her in debt and humiliated for buying her way into belonging, a poor student stops performing wealth. She puts her bag wherever she likes, turns down exclusive invitations, and stays ordinary. Heiresses misread her unbothered taste and generosity as old money, though she has no secret dynasty.'}
+    arch={'sequences':[{'summary':'Her boundary, taste, and help saving face create social access through collectors, membership, invitations, and a foundation president. The audience knows the family explanation is a projection, not a secret dynasty.'},{'summary':'Former rivals apologize and become reciprocal friends. An opportunity has public requirements, an independent panel, disclosure, and she asks about the work before the title. The ending preserves ordinary selfhood, her own name, independent choice, and the sense that she does not need approval.'}]}
+    r=evaluate_class_performance_misread_integrity(premise,arch,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.875
+    generic={'logline':'A reborn poor student becomes rich and everyone admires her.'}
+    assert evaluate_class_performance_misread_integrity(generic,{},[])['applies'] is False
