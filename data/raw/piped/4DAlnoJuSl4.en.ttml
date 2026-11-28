@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:39.100" end="00:00:41.900" style="s2">What are they saying?</p>
+<p begin="00:00:40.900" end="00:00:44.300" style="s2">I can&#39;t understand a word they&#39;re</p>
+<p begin="00:00:41.900" end="00:00:44.300" style="s2">saying.</p>
+<p begin="00:01:21.875" end="00:01:23.895" style="s2">[screaming]</p>
+<p begin="00:01:27.770" end="00:01:29.790" style="s2">[screaming]</p>
+<p begin="00:01:45.456" end="00:01:47.476" style="s2">[screaming]</p>
+<p begin="00:01:52.100" end="00:01:54.400" style="s2">Are they</p>
+<p begin="00:01:52.900" end="00:01:55.600" style="s2">celebrating?</p>
+<p begin="00:01:54.400" end="00:01:58.600" style="s2">&gt;&gt; I think so.</p>
+<p begin="00:01:55.600" end="00:01:58.600" style="s2">Just don&#39;t do anything stupid.</p>
+<p begin="00:02:05.761" end="00:02:08.692" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:02:06.892" end="00:02:10.346" style="s2">&gt;&gt; Whatever just happened,</p>
+<p begin="00:02:08.692" end="00:02:12.366" style="s2">I think we&#39;re still alive.</p>
+<p begin="00:02:10.346" end="00:02:12.366" style="s2">[screaming]</p>
+<p begin="00:02:15.692" end="00:02:18.092" style="s2">Elara?</p>
+<p begin="00:02:18.492" end="00:02:20.692" style="s2">Elara?</p>
+<p begin="00:02:19.492" end="00:02:23.292" style="s2">Elara?</p>
+<p begin="00:02:20.692" end="00:02:23.292" style="s2">Stay with me.</p>
+<p begin="00:02:41.992" end="00:02:46.492" style="s2">She&#39;s lost too much blood, Aaron.</p>
+<p begin="00:02:44.892" end="00:02:49.292" style="s2">She needs to rest,</p>
+<p begin="00:02:46.492" end="00:02:49.292" style="s2">at least a full day.</p>
+<p begin="00:02:50.292" end="00:02:55.792" style="s2">I just hope she&#39;ll be all right.</p>
+<p begin="00:02:52.692" end="00:02:55.792" style="s2">She&#39;s stronger than either of us.</p>
+<p begin="00:02:59.092" end="00:03:01.992" style="s2">At least they spared us.</p>
+<p begin="00:03:02.792" end="00:03:05.292" style="s2">They were overjoyed when it started</p>
+<p begin="00:03:04.092" end="00:03:06.392" style="s2">raining.</p>
+<p begin="00:03:05.292" end="00:03:08.092" style="s2">I think they believe Elara is the</p>
+<p begin="00:03:06.392" end="00:03:09.492" style="s2">reason.</p>
+<p begin="00:03:08.092" end="00:03:12.292" style="s2">Finally,</p>
+<p begin="00:03:09.492" end="00:03:12.292" style="s2">a little bit of luck.</p>
+<p begin="00:03:20.092" end="00:03:22.592" style="s2">Whatever they believe,</p>
+<p begin="00:03:21.592" end="00:03:23.692" style="s2">let&#39;s hope they don&#39;t change their</p>
+<p begin="00:03:22.592" end="00:03:24.992" style="s2">minds.</p>
+<p begin="00:03:23.692" end="00:03:28.192" style="s2">Agreed.</p>
+<p begin="00:03:24.992" end="00:03:28.192" style="s2">We&#39;ve had enough trouble for one night.</p>
+<p begin="00:03:30.692" end="00:03:34.292" style="s2">She could have escaped. She could have</p>
+<p begin="00:03:32.292" end="00:03:35.892" style="s2">left this place behind,</p>
+<p begin="00:03:34.292" end="00:03:37.292" style="s2">but she came back for us.</p>
+<p begin="00:03:35.892" end="00:03:40.392" style="s2">That&#39;s Elara.</p>
+<p begin="00:03:37.292" end="00:03:40.392" style="s2">She would never leave us behind.</p>
+<p begin="00:03:47.292" end="00:03:51.492" style="s2">Get some rest.</p>
+<p begin="00:03:48.592" end="00:03:51.492" style="s2">We&#39;ll be here when you wake up.</p>
+<p begin="00:05:13.294" end="00:05:17.794" style="s2">&gt;&gt; What is this place?</p>
+<p begin="00:05:15.894" end="00:05:20.394" style="s2">Is this where you live?</p>
+<p begin="00:05:17.794" end="00:05:20.394" style="s2">In this tower?</p>
+<p begin="00:05:20.994" end="00:05:24.994" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:05:22.594" end="00:05:26.794" style="s2">For the past 11 years.</p>
+<p begin="00:05:24.994" end="00:05:29.394" style="s2">&gt;&gt; 11 years?</p>
+<p begin="00:05:26.794" end="00:05:32.894" style="s2">All by yourself?</p>
+<p begin="00:05:29.394" end="00:05:32.894" style="s2">&gt;&gt; I&#39;ve had little reason to leave.</p>
+<p begin="00:05:35.794" end="00:05:38.794" style="s2">&gt;&gt; Doesn&#39;t it get lonely up here?</p>
+<p begin="00:05:38.894" end="00:05:45.294" style="s2">&gt;&gt; After a while, silence becomes familiar.</p>
+<p begin="00:05:42.694" end="00:05:47.894" style="s2">&gt;&gt; But there&#39;s nobody here.</p>
+<p begin="00:05:45.294" end="00:05:47.894" style="s2">&gt;&gt; Not entirely.</p>
+<p begin="00:05:49.094" end="00:05:51.994" style="s2">&gt;&gt; Well,</p>
+<p begin="00:05:49.994" end="00:05:53.194" style="s2">at least you&#39;ve got him.</p>
+<p begin="00:05:51.994" end="00:05:54.094" style="s2">Why did you choose somewhere so far</p>
+<p begin="00:05:53.194" end="00:05:55.294" style="s2">away?</p>
+<p begin="00:05:54.094" end="00:05:58.694" style="s2">&gt;&gt; Because there are things in this world</p>
+<p begin="00:05:55.294" end="00:05:59.794" style="s2">that are better left undisturbed.</p>
+<p begin="00:05:58.694" end="00:06:01.594" style="s2">&gt;&gt; You said you were going to show me your</p>
+<p begin="00:05:59.794" end="00:06:03.594" style="s2">world.</p>
+<p begin="00:06:01.594" end="00:06:05.094" style="s2">Is this it?</p>
+<p begin="00:06:03.594" end="00:06:08.095" style="s2">&gt;&gt; No.</p>
+<p begin="00:06:05.094" end="00:06:09.795" style="s2">This is merely where the journey begins.</p>
+<p begin="00:06:08.095" end="00:06:11.795" style="s2">There are places beyond those mountains</p>
+<p begin="00:06:09.795" end="00:06:13.495" style="s2">that you&#39;ve never even heard of.</p>
+<p begin="00:06:11.795" end="00:06:15.195" style="s2">&gt;&gt; Are they dangerous?</p>
+<p begin="00:06:13.495" end="00:06:16.395" style="s2">&gt;&gt; Some of them.</p>
+<p begin="00:06:15.195" end="00:06:18.695" style="s2">But you have nothing to fear while</p>
+<p begin="00:06:16.395" end="00:06:20.995" style="s2">you&#39;re with me.</p>
+<p begin="00:06:18.695" end="00:06:20.995" style="s2">Come.</p>
+<p begin="00:06:36.395" end="00:06:38.695" style="s2">&gt;&gt; Arin?</p>
+<p begin="00:06:39.195" end="00:06:41.595" style="s2">&gt;&gt; Elara.</p>
+<p begin="00:06:42.495" end="00:06:45.695" style="s2">&gt;&gt; What happened?</p>
+<p begin="00:06:44.095" end="00:06:46.895" style="s2">&gt;&gt; You passed out.</p>
+<p begin="00:06:45.695" end="00:06:49.295" style="s2">You&#39;ve been asleep for more than 14</p>
+<p begin="00:06:46.895" end="00:06:49.295" style="s2">hours.</p>
+<p begin="00:06:50.034" end="00:06:53.964" style="s2">[sighs]</p>
+<p begin="00:06:51.395" end="00:06:54.195" style="s2">How are you feeling?</p>
+<p begin="00:06:53.964" end="00:06:56.595" style="s2">&gt;&gt; [clears throat]</p>
+<p begin="00:06:54.195" end="00:06:58.595" style="s2">&gt;&gt; Much better actually.</p>
+<p begin="00:06:56.595" end="00:06:59.795" style="s2">But we should get moving.</p>
+<p begin="00:06:58.595" end="00:07:02.995" style="s2">We still need to free that elf if we&#39;re</p>
+<p begin="00:06:59.795" end="00:07:02.995" style="s2">going to find out where Red is.</p>
+<p begin="00:07:03.195" end="00:07:07.395" style="s2">&gt;&gt; I know.</p>
+<p begin="00:07:04.495" end="00:07:09.195" style="s2">I&#39;m just glad you&#39;re all right.</p>
+<p begin="00:07:07.395" end="00:07:11.195" style="s2">And in case you were wondering,</p>
+<p begin="00:07:09.195" end="00:07:14.695" style="s2">they spared us.</p>
+<p begin="00:07:11.195" end="00:07:16.595" style="s2">Apparently that rain changed everything.</p>
+<p begin="00:07:14.695" end="00:07:18.795" style="s2">For once, something actually went our</p>
+<p begin="00:07:16.595" end="00:07:18.795" style="s2">way.</p>
+<p begin="00:07:20.995" end="00:07:25.595" style="s2">&gt;&gt; How far are we from the place where the</p>
+<p begin="00:07:22.295" end="00:07:25.595" style="s2">Oracle said we&#39;d find the elf?</p>
+<p begin="00:07:27.195" end="00:07:29.495" style="s2">&gt;&gt; Not that far.</p>
+<p begin="00:07:28.495" end="00:07:30.995" style="s2">I had a look around while you were</p>
+<p begin="00:07:29.495" end="00:07:34.495" style="s2">asleep.</p>
+<p begin="00:07:30.995" end="00:07:37.895" style="s2">20 hours on horseback at most.</p>
+<p begin="00:07:34.495" end="00:07:37.895" style="s2">&gt;&gt; Then we shouldn&#39;t waste any more time.</p>
+<p begin="00:07:38.695" end="00:07:41.495" style="s2">&gt;&gt; Elara,</p>
+<p begin="00:07:40.095" end="00:07:44.095" style="s2">you&#39;re awake.</p>
+<p begin="00:07:41.495" end="00:07:46.895" style="s2">That&#39;s the best news I&#39;ve had all day.</p>
+<p begin="00:07:44.095" end="00:07:46.895" style="s2">&gt;&gt; Good to see you too.</p>
+<p begin="00:07:55.535" end="00:07:58.095" style="s2">[snorts]</p>
+<p begin="00:07:56.095" end="00:07:59.195" style="s2">Where are our weapons? My bow, my</p>
+<p begin="00:07:58.095" end="00:08:00.495" style="s2">daggers.</p>
+<p begin="00:07:59.195" end="00:08:04.095" style="s2">&gt;&gt; They left everything just outside the</p>
+<p begin="00:08:00.495" end="00:08:04.095" style="s2">hut. All our weapons are there.</p>
+<p begin="00:08:10.095" end="00:08:12.295" style="s2">&gt;&gt; That</p>
+<p begin="00:08:18.997" end="00:08:23.297" style="s2">&gt;&gt; Thank you.</p>
+<p begin="00:08:20.397" end="00:08:23.297" style="s2">That&#39;s very kind of you.</p>
+<p begin="00:08:30.250" end="00:08:32.897" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:08:31.497" end="00:08:34.697" style="s2">&gt;&gt; I&#39;ll see about our horses and get</p>
+<p begin="00:08:32.897" end="00:08:36.297" style="s2">everything ready for the journey.</p>
+<p begin="00:08:34.697" end="00:08:39.897" style="s2">I&#39;ll give you a hand.</p>
+<p begin="00:08:36.297" end="00:08:39.897" style="s2">Take your time. We&#39;ll be outside.</p>
+<p begin="00:08:41.697" end="00:08:45.597" style="s2">&gt;&gt; Is it true that no weapon can kill you?</p>
+<p begin="00:08:43.997" end="00:08:48.097" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:08:45.597" end="00:08:50.197" style="s2">It is true.</p>
+<p begin="00:08:48.097" end="00:08:53.597" style="s2">&gt;&gt; That must be pretty amazing, right?</p>
+<p begin="00:08:50.197" end="00:08:53.597" style="s2">Never having to worry about dying.</p>
+<p begin="00:08:55.097" end="00:09:02.397" style="s2">&gt;&gt; It depends on how you look at it.</p>
+<p begin="00:08:58.297" end="00:09:02.397" style="s2">Eternity is not necessarily a blessing.</p>
+<p begin="00:09:04.897" end="00:09:07.197" style="s2">&gt;&gt; I could probably kill you with my magic</p>
+<p begin="00:09:06.397" end="00:09:09.897" style="s2">though,</p>
+<p begin="00:09:07.197" end="00:09:09.897" style="s2">with my powers.</p>
+<p begin="00:09:13.497" end="00:09:16.797" style="s2">&gt;&gt; Why would you say such a thing?</p>
+<p begin="00:09:17.097" end="00:09:20.397" style="s2">&gt;&gt; I was just making an observation.</p>
+<p begin="00:09:23.097" end="00:09:27.397" style="s2">&gt;&gt; You are my daughter.</p>
+<p begin="00:09:25.897" end="00:09:29.297" style="s2">You would never have the courage to do</p>
+<p begin="00:09:27.397" end="00:09:30.697" style="s2">such a thing.</p>
+<p begin="00:09:29.297" end="00:09:33.297" style="s2">&gt;&gt; Yeah.</p>
+<p begin="00:09:30.697" end="00:09:33.297" style="s2">Probably not.</p>
+<p begin="00:09:37.097" end="00:09:40.097" style="s2">&gt;&gt; What are you thinking about?</p>
+<p begin="00:09:41.297" end="00:09:44.097" style="s2">&gt;&gt; I miss Elara.</p>
+<p begin="00:09:47.397" end="00:09:50.397" style="s2">She&#39;s like a sister to me.</p>
+<p begin="00:09:50.697" end="00:09:53.897" style="s2">She&#39;s the only person who&#39;s ever really</p>
+<p begin="00:09:51.997" end="00:09:56.397" style="s2">taken care of me</p>
+<p begin="00:09:53.897" end="00:09:56.397" style="s2">and loved me.</p>
+<p begin="00:10:01.697" end="00:10:05.297" style="s2">Do you think I&#39;ll ever see Elara again?</p>
+<p begin="00:10:06.797" end="00:10:09.797" style="s2">&gt;&gt; You must learn to let go of certain</p>
+<p begin="00:10:08.297" end="00:10:09.898" style="s2">things, Red.</p>
+<p begin="00:10:09.797" end="00:10:12.798" style="s2">&gt;&gt; But I</p>
+<p begin="00:10:09.898" end="00:10:12.798" style="s2">&gt;&gt; don&#39;t want to forget her.</p>
+<p begin="00:10:13.998" end="00:10:18.898" style="s2">&gt;&gt; There are far greater things awaiting</p>
+<p begin="00:10:15.498" end="00:10:18.898" style="s2">you than the life you left behind.</p>
+<p begin="00:10:24.698" end="00:10:28.398" style="s2">We&#39;re here.</p>
+<p begin="00:10:26.098" end="00:10:28.398" style="s2">Come.</p>
+<p begin="00:10:35.098" end="00:10:38.798" style="s2">Lucas,</p>
+<p begin="00:10:37.398" end="00:10:40.798" style="s2">I&#39;m sorry about what happened outside</p>
+<p begin="00:10:38.798" end="00:10:43.698" style="s2">the temple.</p>
+<p begin="00:10:40.798" end="00:10:45.798" style="s2">I shouldn&#39;t have started that fight.</p>
+<p begin="00:10:43.698" end="00:10:47.598" style="s2">&gt;&gt; It&#39;s behind us, Aaron.</p>
+<p begin="00:10:45.798" end="00:10:48.998" style="s2">And I&#39;m sorry, too.</p>
+<p begin="00:10:47.598" end="00:10:51.198" style="s2">Neither of us handled it particularly</p>
+<p begin="00:10:48.998" end="00:10:52.898" style="s2">well.</p>
+<p begin="00:10:51.198" end="00:10:54.598" style="s2">I suppose we both let our emotions get</p>
+<p begin="00:10:52.898" end="00:10:55.898" style="s2">the better of us.</p>
+<p begin="00:10:54.598" end="00:10:58.498" style="s2">That seems to happen quite often when</p>
+<p begin="00:10:55.898" end="00:11:00.898" style="s2">she&#39;s involved.</p>
+<p begin="00:10:58.498" end="00:11:03.298" style="s2">There&#39;s something else.</p>
+<p begin="00:11:00.898" end="00:11:05.698" style="s2">If Elara chooses you, Lucas,</p>
+<p begin="00:11:03.298" end="00:11:06.898" style="s2">I&#39;ll respect her decision.</p>
+<p begin="00:11:05.698" end="00:11:07.998" style="s2">Her happiness matters more than our</p>
+<p begin="00:11:06.898" end="00:11:11.298" style="s2">rivalry.</p>
+<p begin="00:11:07.998" end="00:11:13.298" style="s2">&gt;&gt; I appreciate that, Aaron. I really do.</p>
+<p begin="00:11:11.298" end="00:11:17.298" style="s2">And the feeling is mutual.</p>
+<p begin="00:11:13.298" end="00:11:17.298" style="s2">Whatever she decides, it&#39;s her choice.</p>
+<p begin="00:11:21.298" end="00:11:26.698" style="s2">&gt;&gt; What were you two talking about?</p>
+<p begin="00:11:23.998" end="00:11:26.698" style="s2">&gt;&gt; Nothing important.</p>
+<p begin="00:11:28.298" end="00:11:33.298" style="s2">Ready to leave?</p>
+<p begin="00:11:30.498" end="00:11:33.298" style="s2">&gt;&gt; Not without these.</p>
+<p begin="00:11:40.198" end="00:11:44.798" style="s2">&gt;&gt; I believe you missed these.</p>
+<p begin="00:11:42.298" end="00:11:47.898" style="s2">&gt;&gt; More than you know.</p>
+<p begin="00:11:44.798" end="00:11:47.898" style="s2">&gt;&gt; And this belongs to you.</p>
+<p begin="00:11:49.098" end="00:11:51.398" style="s2">&gt;&gt; Thank you.</p>
+<p begin="00:11:52.498" end="00:11:55.598" style="s2">Good to see you again, Shadow.</p>
+<p begin="00:12:00.598" end="00:12:04.598" style="s2">Come on, let&#39;s get moving.</p>
+<p begin="00:12:03.098" end="00:12:05.798" style="s2">&gt;&gt; By the way, Elara,</p>
+<p begin="00:12:04.598" end="00:12:07.098" style="s2">those clothes the old healer gave you</p>
+<p begin="00:12:05.798" end="00:12:09.898" style="s2">really suit you.</p>
+<p begin="00:12:07.098" end="00:12:11.698" style="s2">He&#39;s right. I rather like them myself.</p>
+<p begin="00:12:09.898" end="00:12:14.199" style="s2">&gt;&gt; Thank you both of you.</p>
+<p begin="00:12:11.698" end="00:12:16.899" style="s2">Now, let&#39;s free that imprisoned</p>
+<p begin="00:12:14.199" end="00:12:16.899" style="s2">and then find Red.</p>
+<p begin="00:12:28.999" end="00:12:33.099" style="s2">&gt;&gt; Everything in this room belonged to your</p>
+<p begin="00:12:30.699" end="00:12:33.099" style="s2">mother.</p>
+<p begin="00:12:33.699" end="00:12:37.199" style="s2">&gt;&gt; These were really hers?</p>
+<p begin="00:12:35.899" end="00:12:38.899" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:12:37.199" end="00:12:40.799" style="s2">She rarely went anywhere without that</p>
+<p begin="00:12:38.899" end="00:12:44.599" style="s2">necklace.</p>
+<p begin="00:12:40.799" end="00:12:46.199" style="s2">&gt;&gt; You kept all of this for 11 years?</p>
+<p begin="00:12:44.599" end="00:12:48.099" style="s2">&gt;&gt; Some things are too precious to leave</p>
+<p begin="00:12:46.199" end="00:12:49.899" style="s2">behind.</p>
+<p begin="00:12:48.099" end="00:12:51.299" style="s2">&gt;&gt; What was she like?</p>
+<p begin="00:12:49.899" end="00:12:52.699" style="s2">&gt;&gt; Kind,</p>
+<p begin="00:12:51.299" end="00:12:54.099" style="s2">fearless,</p>
+<p begin="00:12:52.699" end="00:12:55.399" style="s2">far more powerful than she ever</p>
+<p begin="00:12:54.099" end="00:12:57.399" style="s2">realized.</p>
+<p begin="00:12:55.399" end="00:12:59.099" style="s2">The power you possess came from her,</p>
+<p begin="00:12:57.399" end="00:13:02.699" style="s2">Red.</p>
+<p begin="00:12:59.099" end="00:13:02.699" style="s2">And that power has a purpose.</p>
+<p begin="00:13:03.299" end="00:13:07.199" style="s2">Opening the ancient gate is more</p>
+<p begin="00:13:04.999" end="00:13:08.299" style="s2">important than you understand.</p>
+<p begin="00:13:07.199" end="00:13:10.099" style="s2">&gt;&gt; I know.</p>
+<p begin="00:13:08.299" end="00:13:11.599" style="s2">You told me.</p>
+<p begin="00:13:10.099" end="00:13:13.799" style="s2">&gt;&gt; You promised me you would open it in a</p>
+<p begin="00:13:11.599" end="00:13:16.099" style="s2">week&#39;s time.</p>
+<p begin="00:13:13.799" end="00:13:17.599" style="s2">One day has already passed.</p>
+<p begin="00:13:16.099" end="00:13:19.199" style="s2">Six remain.</p>
+<p begin="00:13:17.599" end="00:13:20.699" style="s2">&gt;&gt; I haven&#39;t forgotten. You don&#39;t have to</p>
+<p begin="00:13:19.199" end="00:13:22.499" style="s2">count the days for me.</p>
+<p begin="00:13:20.699" end="00:13:24.099" style="s2">&gt;&gt; I simply need to know that you will keep</p>
+<p begin="00:13:22.499" end="00:13:25.199" style="s2">your word.</p>
+<p begin="00:13:24.099" end="00:13:27.299" style="s2">&gt;&gt; I will.</p>
+<p begin="00:13:25.199" end="00:13:29.299" style="s2">Those creatures with the red eyes,</p>
+<p begin="00:13:27.299" end="00:13:31.199" style="s2">what happens when you let them through?</p>
+<p begin="00:13:29.299" end="00:13:32.699" style="s2">&gt;&gt; The world will change in ways you cannot</p>
+<p begin="00:13:31.199" end="00:13:34.699" style="s2">imagine.</p>
+<p begin="00:13:32.699" end="00:13:38.199" style="s2">But once the gate is open, you will be</p>
+<p begin="00:13:34.699" end="00:13:38.199" style="s2">able to see your mother again.</p>
+<p begin="00:13:38.799" end="00:13:41.799" style="s2">&gt;&gt; What makes you so sure?</p>
+<p begin="00:13:41.999" end="00:13:46.299" style="s2">What if I open the gate and end up</p>
+<p begin="00:13:43.399" end="00:13:46.299" style="s2">destroying the world?</p>
+<p begin="00:13:46.399" end="00:13:50.599" style="s2">&gt;&gt; Sometimes we must take risks for those</p>
+<p begin="00:13:48.799" end="00:13:52.599" style="s2">we love.</p>
+<p begin="00:13:50.599" end="00:13:56.399" style="s2">Keep your promise, Red.</p>
+<p begin="00:13:52.599" end="00:13:56.399" style="s2">Give yourself a chance to see her again.</p>
+<p begin="00:14:01.899" end="00:14:06.899" style="s2">&gt;&gt; How are you feeling, Elara?</p>
+<p begin="00:14:04.099" end="00:14:06.899" style="s2">Have you fully recovered?</p>
+<p begin="00:14:14.299" end="00:14:18.501" style="s2">&gt;&gt; I feel good, actually.</p>
+<p begin="00:14:16.501" end="00:14:20.201" style="s2">Surprisingly good.</p>
+<p begin="00:14:18.501" end="00:14:21.701" style="s2">&gt;&gt; That old tribal healer worked wonders</p>
+<p begin="00:14:20.201" end="00:14:24.301" style="s2">with those herbs.</p>
+<p begin="00:14:21.701" end="00:14:24.301" style="s2">&gt;&gt; So it seems.</p>
+<p begin="00:14:25.801" end="00:14:29.701" style="s2">&gt;&gt; Any idea where we are?</p>
+<p begin="00:14:28.401" end="00:14:33.101" style="s2">Are we even heading toward the place the</p>
+<p begin="00:14:29.701" end="00:14:33.101" style="s2">Oracle said the elf was being held?</p>
+<p begin="00:14:34.701" end="00:14:37.901" style="s2">&gt;&gt; I hope so.</p>
+<p begin="00:14:36.701" end="00:14:39.701" style="s2">The landmarks seem to match what the</p>
+<p begin="00:14:37.901" end="00:14:41.201" style="s2">Oracle described.</p>
+<p begin="00:14:39.701" end="00:14:42.801" style="s2">&gt;&gt; That&#39;s reassuring.</p>
+<p begin="00:14:41.201" end="00:14:43.801" style="s2">Almost.</p>
+<p begin="00:14:42.801" end="00:14:47.301" style="s2">&gt;&gt; At least we&#39;re heading in the right</p>
+<p begin="00:14:43.801" end="00:14:47.301" style="s2">direction. Hopefully.</p>
+<p begin="00:14:50.301" end="00:14:54.401" style="s2">Look.</p>
+<p begin="00:14:51.601" end="00:14:54.401" style="s2">There&#39;s someone up ahead.</p>
+<p begin="00:14:57.501" end="00:15:00.501" style="s2">Let&#39;s ask that gentleman.</p>
+<p begin="00:14:59.201" end="00:15:02.701" style="s2">If he&#39;s from around here, he might know</p>
+<p begin="00:15:00.501" end="00:15:03.701" style="s2">these roads better than we do.</p>
+<p begin="00:15:02.701" end="00:15:06.101" style="s2">&gt;&gt; Good idea.</p>
+<p begin="00:15:03.701" end="00:15:06.101" style="s2">Let&#39;s go.</p>
+<p begin="00:15:20.201" end="00:15:21.901" style="s2">&gt;&gt; Could you help us?</p>
+<p begin="00:15:21.201" end="00:15:23.601" style="s2">&gt;&gt; Hm.</p>
+<p begin="00:15:21.901" end="00:15:25.201" style="s2">&gt;&gt; We&#39;re looking for the three broken peaks</p>
+<p begin="00:15:23.601" end="00:15:27.501" style="s2">in the northern mountains.</p>
+<p begin="00:15:25.201" end="00:15:30.301" style="s2">Are we heading in the right direction?</p>
+<p begin="00:15:27.501" end="00:15:31.701" style="s2">&gt;&gt; The three broken peaks.</p>
+<p begin="00:15:30.301" end="00:15:35.501" style="s2">You&#39;re on the right road, but you&#39;d be</p>
+<p begin="00:15:31.701" end="00:15:35.501" style="s2">wise to stay away from that place.</p>
+<p begin="00:15:35.601" end="00:15:38.901" style="s2">That whole region is crawling with</p>
+<p begin="00:15:37.301" end="00:15:40.601" style="s2">goblins.</p>
+<p begin="00:15:38.901" end="00:15:43.501" style="s2">Few travelers dare go anywhere near</p>
+<p begin="00:15:40.601" end="00:15:43.501" style="s2">those mountains.</p>
+<p begin="00:15:57.501" end="00:16:00.601" style="s2">&gt;&gt; We were told there&#39;s a cave beneath the</p>
+<p begin="00:15:58.801" end="00:16:01.550" style="s2">tallest peak. Do you know anything about</p>
+<p begin="00:16:00.601" end="00:16:02.201" style="s2">it?</p>
+<p begin="00:16:01.550" end="00:16:04.201" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:16:02.201" end="00:16:05.601" style="s2">&gt;&gt; I&#39;ve heard stories.</p>
+<p begin="00:16:04.201" end="00:16:06.701" style="s2">Nothing good ever comes out of that</p>
+<p begin="00:16:05.601" end="00:16:08.101" style="s2">cave.</p>
+<p begin="00:16:06.701" end="00:16:10.201" style="s2">&gt;&gt; How much further is it?</p>
+<p begin="00:16:08.101" end="00:16:11.801" style="s2">&gt;&gt; Keep following this road north. You&#39;ll</p>
+<p begin="00:16:10.201" end="00:16:12.301" style="s2">recognize the three peaks when you see</p>
+<p begin="00:16:11.801" end="00:16:16.001" style="s2">them.</p>
+<p begin="00:16:12.301" end="00:16:16.001" style="s2">&gt;&gt; Thank you. You&#39;ve been very helpful.</p>
+<p begin="00:16:21.702" end="00:16:25.702" style="s2">&gt;&gt; Bandits. They&#39;re coming straight towards</p>
+<p begin="00:16:23.602" end="00:16:25.702" style="s2">us.</p>
+<p begin="00:16:27.702" end="00:16:32.402" style="s2">&gt;&gt; Three riders and a cart.</p>
+<p begin="00:16:30.302" end="00:16:35.102" style="s2">Kill them ALL AND TAKE EVERYTHING IN</p>
+<p begin="00:16:32.402" end="00:16:35.102" style="s2">THAT CART.</p>
+<p begin="00:16:37.402" end="00:16:39.702" style="s2">&gt;&gt; I THINK THIS WOULD BE A GOOD TIME TO</p>
+<p begin="00:16:38.602" end="00:16:41.502" style="s2">LEAVE.</p>
+<p begin="00:16:39.702" end="00:16:43.102" style="s2">WE&#39;RE FAR ENOUGH AHEAD.</p>
+<p begin="00:16:41.502" end="00:16:44.902" style="s2">They&#39;ll never catch us.</p>
+<p begin="00:16:43.102" end="00:16:47.902" style="s2">&gt;&gt; But they&#39;ll catch me.</p>
+<p begin="00:16:44.902" end="00:16:49.802" style="s2">I can&#39;t outrun them with this cart.</p>
+<p begin="00:16:47.902" end="00:16:50.602" style="s2">They&#39;ll steal everything I own and kill</p>
+<p begin="00:16:49.802" end="00:16:54.302" style="s2">me.</p>
+<p begin="00:16:50.602" end="00:16:54.302" style="s2">Please, don&#39;t leave me here.</p>
+<p begin="00:17:26.702" end="00:17:28.722" style="s2">&gt;&gt; [music]</p>
+<p begin="00:17:35.872" end="00:17:37.892" style="s2">[music]</p>
+<p begin="00:17:45.042" end="00:17:47.802" style="s2">[music]</p>
+<p begin="00:17:46.402" end="00:17:49.802" style="s2">&gt;&gt; More bandits.</p>
+<p begin="00:17:47.802" end="00:17:52.002" style="s2">There must be 20 of them.</p>
+<p begin="00:17:49.802" end="00:17:53.702" style="s2">We need to help Elara. Now.</p>
+<p begin="00:17:52.002" end="00:17:55.902" style="s2">&gt;&gt; Get out of here, sir, as fast as you</p>
+<p begin="00:17:53.702" end="00:17:55.902" style="s2">can.</p>
+<p begin="00:17:57.502" end="00:17:59.702" style="s2">Let&#39;s go.</p>
+<p begin="00:18:07.312" end="00:18:09.332" style="s2">&gt;&gt; [music]</p>
+<p begin="00:18:20.412" end="00:18:22.432" style="s2">[music]</p>
+<p begin="00:18:40.062" end="00:18:42.082" style="s2">[music]</p>
+<p begin="00:18:56.438" end="00:18:58.458" style="s2">[music]</p>
+<p begin="00:19:05.608" end="00:19:07.628" style="s2">[music]</p>
+<p begin="00:19:16.743" end="00:19:18.763" style="s2">[music]</p>
+<p begin="00:19:31.153" end="00:19:33.173" style="s2">[music]</p>
+<p begin="00:19:38.358" end="00:19:40.378" style="s2">[music]</p>
+<p begin="00:19:44.253" end="00:19:46.273" style="s2">[music]</p>
+<p begin="00:19:55.503" end="00:19:59.803" style="s2">&gt;&gt; Run! WE&#39;LL FIND ANOTHER TARTARON. GO!</p>
+<p begin="00:20:06.803" end="00:20:09.903" style="s2">&gt;&gt; ELARA.</p>
+<p begin="00:20:08.603" end="00:20:12.903" style="s2">You never back down from a fight, do</p>
+<p begin="00:20:09.903" end="00:20:12.903" style="s2">you? Why?</p>
+<p begin="00:20:13.303" end="00:20:17.003" style="s2">&gt;&gt; If we hadn&#39;t intervened, that man would</p>
+<p begin="00:20:14.603" end="00:20:17.003" style="s2">have died.</p>
+<p begin="00:20:17.503" end="00:20:20.203" style="s2">And no, Aaron,</p>
+<p begin="00:20:19.003" end="00:20:23.103" style="s2">I&#39;ll never back down when it means</p>
+<p begin="00:20:20.203" end="00:20:23.405" style="s2">standing against evil.</p>
+<p begin="00:20:23.103" end="00:20:26.105" style="s2">&gt;&gt; I know you</p>
+<p begin="00:20:23.405" end="00:20:27.705" style="s2">&gt;&gt; have a good heart, Elara.</p>
+<p begin="00:20:26.105" end="00:20:29.005" style="s2">But one day,</p>
+<p begin="00:20:27.705" end="00:20:31.405" style="s2">that courage of yours might get you</p>
+<p begin="00:20:29.005" end="00:20:31.405" style="s2">killed.</p>
+<p begin="00:20:37.905" end="00:20:41.305" style="s2">&gt;&gt; Thank you for looking out for me, Aaron.</p>
+<p begin="00:20:40.205" end="00:20:42.205" style="s2">Come on.</p>
+<p begin="00:20:41.305" end="00:20:45.005" style="s2">We shouldn&#39;t be far from the three</p>
+<p begin="00:20:42.205" end="00:20:45.005" style="s2">Broken Peaks now.</p>
+<p begin="00:21:26.105" end="00:21:30.364" style="s2">&gt;&gt; To this weight,</p>
+<p begin="00:21:27.605" end="00:21:32.384" style="s2">we make the jola.</p>
+<p begin="00:21:30.364" end="00:21:32.384" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:21:40.844" end="00:21:42.864" style="s2">[music]</p>
+<p begin="00:21:48.049" end="00:21:50.070" style="s2">[music]</p>
+</div>
+</body>
+</tt>

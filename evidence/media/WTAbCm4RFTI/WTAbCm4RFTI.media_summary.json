@@ -1,0 +1,66 @@
+{
+  "video_id": "WTAbCm4RFTI",
+  "probe": {
+    "duration": 1436.386395,
+    "size": 117840249,
+    "width": 640,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\WTAbCm4RFTI\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\WTAbCm4RFTI\\contact_sheets\\contact_001.jpg",
+    "evidence\\media\\WTAbCm4RFTI\\contact_sheets\\contact_002.jpg",
+    "evidence\\media\\WTAbCm4RFTI\\contact_sheets\\contact_003.jpg"
+  ],
+  "seconds_indexed": 1436,
+  "shot_count": 45,
+  "shot_length_mean_seconds": 31.91111111111111,
+  "shot_length_median_seconds": 8.0,
+  "shot_length_p90_seconds": 90.20000000000005,
+  "visual_motion_mean": 0.0948183079972321,
+  "visual_brightness_mean": 0.17424350650545892,
+  "dialogue_cues": 239,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 15.44,
+      "text": "Curse this mine. WE'VE LOST GOOD"
+    },
+    "first_power_or_identity_language": {
+      "time": 79.48,
+      "text": "My people need their princess alive."
+    },
+    "first_care_or_belonging_language": {
+      "time": 600.897,
+      "text": "Home."
+    },
+    "dialogue_words_per_minute": [
+      76,
+      96,
+      48,
+      40,
+      4,
+      9,
+      4,
+      5,
+      1,
+      80,
+      48,
+      102,
+      74,
+      10,
+      7,
+      10,
+      116,
+      17,
+      9,
+      0,
+      85,
+      79,
+      74,
+      28
+    ],
+    "cue_count": 239
+  }
+}

@@ -650,3 +650,7 @@ When romance develops around a dangerous magical touch/curse, do not treat the c
 ## Neural Pictures short-format compression doctrine
 
 For 15–30 minute standalone films, choose one dominant arena object and make every scene object serve it. Compressed social reversal can outperform creature spectacle when humiliation, public proof, visible skill, wager, and institutional consequence share one causal chain. Creature shorts should operate as ecological behavior chains (threat, helper species, webs, climbing, scavenging, tools), not random spectacle. Epic scale is risky in short runtime because lore, military hardware, multiple survivor groups, and cosmic stakes consume the compression budget before attachment forms. Low-performing polished spectacle is not weak-writing proof.
+
+## Crownrift episodic/compilation doctrine
+
+A mid-series episode must still close a local loop and re-objectivize its present stakes through action, not recap alone. Compilation packaging sells total closure (“full movie/war/invasion”) while numbered episodes sell continuation; do not treat concatenation as a compilation without a relational/thematic throughline. Journey episodes risk procedural drift if travel, directions, Oracle instructions, and landmarks consume the local objective. Late-episode low views are weak evidence when the upload is new.
