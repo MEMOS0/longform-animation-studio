@@ -23,7 +23,7 @@ def _text(value: Any) -> str:
 def evaluate_misplaced_family_loyalty_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     family = bool(re.search(r"family|father|mother|sister|brother|\bson\b|daughter|\bheir\b|in-law|household", full))
-    rejection = bool(re.search(r"cast out|disown|reject|exile|threw out|walks? away|leave|left|frame|accus|betray|dumped|family[^\n.]{0,30}abandon(?:ed|s|ing)?[^\n.]{0,15}(?:him|her|them|their son|their daughter|their child|the protagonist|their relative)|abandoned by (?:his|her|their) family", full))
+    rejection = bool(re.search(r"cast out|disown|reject|exile|threw out|walks? away|leave|left|frame|accus|betray|dumped|family[^\n.]{0,30}abandon(?:ed|s|ing)?\s+(?!the\s+(?:plan|renovation|project|idea|house|home|tunnels?)|(?:plan|renovation|project|idea|house|home|tunnels?))(?:their\s+)?[a-z][a-z'-]{1,30}|abandoned by (?:his|her|their) family", full))
     misallocated = bool(re.search(r"fake heir|impostor|favorite|favoritism|all their love|outsider|son-in-law|beloved|manipulat|credul|believes? (?:his|her|their) lies", full))
     if not (family and rejection and misallocated):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
