@@ -400,3 +400,7 @@ Fresh scan now has 115 candidates / 77 strong. Many top leads repeat already-cov
 ## 2026-11-28 Neural Pictures checkpoint
 
 Completed same-channel hit/medium/low short-format comparison: `wn4WwhxTebE` wheelchair live-stream moral contest hit (~9.99M/13m), `icsZH4sDwTM` insect-island visual survival medium (~1.48M/17m), `IawfLHr5K1k` alien epic low (~398k/28m). Report: `knowledge/market/neural-pictures-short-format-hit-medium-low-comparison.md`. Evidence includes machine timelines/contact sheets/thumbnails. No new validator yet: mechanism is format-level compression doctrine, not a distinct validated genre gate. Next: triage review findings if any; otherwise integrate concise short-format doctrine into skill/thumbnail intelligence, commit/push, then choose a non-covered fresh low-subscriber breakout.
+
+## 2026-11-28 Crownrift episodic-serial candidate
+
+Selected Crownrift Studios for episodic-vs-compilation format analysis. Channel archive: 27 videos. Key comparators: compilation hit `2sHq_yw14_8` (~3.1M, 88.3m, “War for the Elven Kingdom”), episodic hit `WTAbCm4RFTI` (~770k, 23.9m, Episode 11), late/new target `4DAlnoJuSl4` (~19.4k, 21.9m, Episode 21, very recent). Analyze episode-vs-compilation promise, recap/context onboarding, unresolved endings, relational throughline, and whether late serial fatigue is visible. Download/machine analyze these three next; do not duplicate MoistenAI serial validator without checking overlap.
