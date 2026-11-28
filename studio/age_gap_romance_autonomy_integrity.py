@@ -20,16 +20,40 @@ def _text(value: Any) -> str:
     return ""
 
 
+def _numeric_partner_age_gap(text: str) -> bool:
+    age_mentions = []
+    for match in re.finditer(r"(?:\bage(?:d)?\s*(\d{2})\b)|(?:\b(\d{2})[- ]*(?:years?[- ]old|y/?o)\b)", text):
+        age_mentions.append(int(match.group(1) or match.group(2)))
+    if len(age_mentions) >= 2 and max(age_mentions) - min(age_mentions) >= 10:
+        return True
+    pair_patterns = (
+        r"(?:she|woman|wife|bride|girl)\D{0,20}\b(\d{2})\b\D{0,35}(?:he|man|husband|groom|chief)\D{0,20}\b(\d{2})\b",
+        r"(?:he|man|husband|groom|chief)\D{0,20}\b(\d{2})\b\D{0,35}(?:she|woman|wife|bride|girl)\D{0,20}\b(\d{2})\b",
+    )
+    for pattern in pair_patterns:
+        match = re.search(pattern, text)
+        if match and abs(int(match.group(1)) - int(match.group(2))) >= 10:
+            return True
+    return False
+
+
+def _has_age_gap_evidence(text: str) -> bool:
+    explicit = re.search(r"age[- ]gap|age difference|\b\d{2}[- ]year age|too old|too young|birth certificate", text)
+    older_term = re.search(r"older (?:man|woman|widower|widow|partner)|old (?:man|woman|widower|billionaire)", text)
+    younger_term = re.search(r"younger (?:man|woman|partner)|young (?:woman|man|girl)", text)
+    return bool(explicit or (older_term and younger_term) or _numeric_partner_age_gap(text))
+
+
 def evaluate_age_gap_romance_autonomy_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    age_gap = bool(re.search(r"age[- ]gap|age difference|older (?:man|woman|widower|widow)|younger (?:man|woman)|old (?:man|woman|widower|billionaire)|young (?:woman|man|girl)|\b\d{2}[- ]year age|too old|too young|birth certificate", full))
+    age_gap = _has_age_gap_evidence(full)
     romance = bool(re.search(r"romance|love|marry|marriage|wife|husband|couple|partner", full))
     judgment = bool(re.search(r"societ|judg|gossip|family opposition|children object|scandal|gold[- ]?digger|shame|public opinion", full))
     if not (age_gap and romance and judgment):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
     checks = {
-        "both_partners_are_unambiguously_adults": bool(re.search(r"adult|grown woman|grown man|never too young to choose|not a child|both adults|of legal age", full)),
+        "both_partners_are_unambiguously_adults": bool(re.search(r"both adults|both partners are adults|grown woman|grown man|never too young to choose|not a child|of legal age|adult younger|adult older|younger partner is an adult|older partner is an adult", full)),
         "financial_power_asymmetry_is_named": bool(re.search(r"money|wealth|billionaire|rich|gold[- ]?digger|refus\w+ money|keep your money|financial|pay|account|transfer", full)),
         "younger_partner_has_refusal_rights_and_independence": bool(re.search(r"refus\w+|can leave|free to leave|choice|chose|choose|independent|own (?:shop|business|career|work)|not for money|walk away", full)),
         "love_is_behavioral_not_wealth_spectacle": bool(re.search(r"patience|respect|honest|trust|apolog|listen|care|sacrifice|showing up|learn\w* (?:their|her|his) habits|communication", full)),
