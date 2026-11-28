@@ -245,3 +245,7 @@ Archived evidence: `data/raw/thumbnails/temptingdramas/` and `knowledge/market/t
 ## NeoDrama AI shared-resource packaging
 
 Archived evidence: `data/raw/thumbnails/neodrama/` and `knowledge/market/neodrama-shared-resource-exploitation-hit-medium-low-comparison.md`. Hit packaging centers calm exit with keys/suitcase while exploiters react inside the shared home; medium centers the out-of-service elevator and a screaming entitled neighbor; low centers phone verification/card lock, the exact bill, food consumption, and police. Reusable mechanism: make the controlled object or access mechanism visually central, contrast composed provider with entitled claimant, and use exact cost/action language. Packaging observations only, not CTR proof.
+
+## Seven Clover strategic-deception packaging
+
+Archived evidence: `data/raw/thumbnails/sevenclover/` and `knowledge/market/sevenclover-strategic-romantic-deception-hit-medium-low-comparison.md`. Hit packaging sells comic class collision and fake pregnancy performance; weaker niche packaging shows rebellious class/courtship contrast without equally explicit stakes; low packaging is legible betrayal but mostly misery. Reusable mechanism: show the performance object/costume and make the target knowingly amused rather than merely victimized. Packaging observations only, not CTR proof.

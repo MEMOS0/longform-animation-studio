@@ -702,3 +702,7 @@ Use `knowledge/market/tempting-deprioritized-spouse-power-reversal-hit-medium-lo
 ## NeoDrama AI shared-resource exploitation doctrine
 
 Use `knowledge/market/neodrama-shared-resource-exploitation-hit-medium-low-comparison.md` for roommate, neighbor, card, housing, elevator, food, or communal-resource exploitation stories. Require concrete material cost, repeated/systematic extraction, a protagonist who controls access or exits, deepfake-aware procedural evidence, legal/institutional consequences, and an ending that restores secure autonomy or reciprocal use rather than punishment alone. Run `shared_resource_exploitation_integrity`. The low-discovery card-theft film is a strong procedural counterexample; do not infer weak writing or packaging from low views.
+
+## Seven Clover strategic romantic deception doctrine
+
+Use `knowledge/market/sevenclover-strategic-romantic-deception-hit-medium-low-comparison.md` for fake pregnancy/marriage, professional sabotage, hidden identity, anti-matchmaking, or contract-romance stories. Require material motive and professional legibility, bounded deception, partner agency rather than gullibility, consent/uncertainty/trust, non-coercive response to rejection, procedural truth, and replacement of pretense with freely chosen commitment. Run `strategic_romantic_deception_integrity`. Low-discovery fake-amnesia revenge is a strong procedural counterexample; do not infer weak writing from low views.

@@ -5335,3 +5335,13 @@ def test_review_regressions_shutdown_named_abandonment_final_sequence():
     arch={'sequences':[{'summary':'She suffers humiliation.'},{'summary':'At the end she takes control of the company and keeps independent authority.'}]}
     r=spouse({'logline':'A wife whose husband always chose his mistress walks away. He regretted everything too late.'},arch,[])
     assert r['checks']['ending_preserves_self_rule_or_chosen_family_beyond_romance'] is True
+
+
+def test_strategic_romantic_deception_integrity_positive_and_negative():
+    from studio.strategic_romantic_deception_integrity import evaluate_strategic_romantic_deception_integrity as ev
+    premise={'logline':'A professional hired to ruin a wedding uses a fake pregnancy report and chicken blood because she needs surgery money; the groom plays along and they enter a one-year contract marriage.'}
+    arch={'ending_payoff':'He refuses to punish her rejection, saying she does not owe him anything and the deal stands. She becomes brave, faces her feelings, and freely chooses real love while the villains are exposed by recordings and lawyers.'}
+    r=ev(premise,arch,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.8
+    assert ev({'logline':'Two sailors repair a boat.'},{},[])['applies'] is False
