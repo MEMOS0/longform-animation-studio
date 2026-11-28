@@ -5452,3 +5452,13 @@ def test_review_round_epistemic_prior_validator_regressions():
     assert private_confession['checks']['evidence_chain_uses_documents_witnesses_or_preserved_procedure'] is False
     refused=sd({'logline':'A paid professional is hired to ruin a wedding through a contract arrangement and hidden identity.'},{'ending_payoff':'He refuses his assistant suggestion to pull the team; the deal stands and she chooses him freely.'},[])
     assert refused['checks']['rejection_is_not_punished_through_money_or_institutional_power'] is True
+
+
+def test_epistemic_intimacy_applicability_review_regressions():
+    from studio.epistemic_intimacy_integrity import evaluate_epistemic_intimacy_integrity as ev
+    employer=ev({'logline':'A maid hears her employer’s thoughts and gradually falls in love.'},{'ending_payoff':'They choose each other freely.'},[])
+    assert employer['applies'] is True
+    plain_inner_voice=ev({'logline':'A nanny hears an inner voice from the man she loves.'},{'ending_payoff':'They choose each other freely.'},[])
+    assert plain_inner_voice['applies'] is True
+    radio=ev({'logline':'A wife hears a voice on the radio and discovers a secret.'},{},[])
+    assert radio['applies'] is False

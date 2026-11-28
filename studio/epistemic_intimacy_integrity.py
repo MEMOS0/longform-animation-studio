@@ -23,10 +23,9 @@ def _text(value: Any) -> str:
 
 def evaluate_epistemic_intimacy_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    thought_access = bool(re.search(r"hear(?:s|ing)?(?:\s+\w+){0,3}\s+(?:inner\s+)?thoughts|inner voice|mind[- ]reading|read(?:s|ing)?(?:\s+\w+){0,3}\s+mind|hear(?:s|ing)?(?:\s+\w+){0,2}\s+voice", full))
+    thought_access = bool(re.search(r"hear(?:s|ing)?(?:\s+[\w'’-]+){0,4}\s+(?:inner\s+)?thoughts|inner voice|mind[- ]reading|read(?:s|ing)?(?:\s+[\w'’-]+){0,4}\s+mind", full))
     relationship = bool(re.search(r"romance|love|wife|husband|marriage|fianc|ceo|warlord|nanny|maid|butler|family|spouse|bride|groom", full))
-    power_stakes = bool(re.search(r"mute|secret|hidden|scheme|plot|expose|test|suspect|system|mission|villain|force|contract|divorce|danger", full))
-    if not (thought_access and relationship and power_stakes):
+    if not (thought_access and relationship):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
     architecture_text = _text(architecture).lower()
