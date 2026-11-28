@@ -5218,7 +5218,7 @@ def test_age_gap_numeric_and_unrelated_adult_regressions():
 
 def test_incognito_premise_only_uses_premise_text():
     from studio.incognito_moral_test_integrity import evaluate_incognito_moral_test_integrity
-    premise={'logline':'A billionaire mother pretends to be a maid to test how the fiancée treats workers. The cook opens the door before any reward, the son says this is not your exam, and the ending gives the cook her own restaurant.'}
+    premise={'logline':'A billionaire mother pretends to be a maid to test how the fiancée treats workers. The cook shares her food before any reward, the son says this is not your exam, and the ending gives the cook her own restaurant.'}
     r=evaluate_incognito_moral_test_integrity(premise,{},[])
     assert r['applies'] is True
     assert r['checks']['kindness_is_active_and_costly_before_reward'] is True
@@ -5233,3 +5233,32 @@ def test_class_performance_misread_integrity_positive_and_negative():
     assert r['score_0_to_1'] >= 0.875
     generic={'logline':'A reborn poor student becomes rich and everyone admires her.'}
     assert evaluate_class_performance_misread_integrity(generic,{},[])['applies'] is False
+
+
+def test_review_regressions_class_age_and_costly_kindness():
+    from studio.class_performance_misread_integrity import evaluate_class_performance_misread_integrity
+    from studio.age_gap_romance_autonomy_integrity import evaluate_age_gap_romance_autonomy_integrity, _has_age_gap_evidence
+    from studio.incognito_moral_test_integrity import evaluate_incognito_moral_test_integrity
+
+    flashback={'logline':'In a flashback she goes back to the pool, performs better, and earns status in a rich club.'}
+    assert evaluate_class_performance_misread_integrity(flashback,{},[])['applies'] is False
+
+    premise={'logline':'Reborn after her first life left her in debt for buying her way into belonging, a poor student stops performing wealth. She turns down exclusive invitations and stays ordinary. Heiresses misread her unbothered taste as old money though she has no secret dynasty. The ending preserves ordinary selfhood, independent choice, and her own name.'}
+    arch={'sequences':[{'summary':'Her taste creates invitations, membership, collector access, and gossip. Rivals apologize, become friends, public requirements use an independent panel, disclosure, records, and work.'}]}
+    many_scenes=[{'scene':i,'brief':'scene filler status conversation'} for i in range(20)]
+    r=evaluate_class_performance_misread_integrity(premise,arch,many_scenes)
+    assert r['checks']['ending_preserves_ordinary_selfhood_beyond_status'] is True
+    dynasty=evaluate_class_performance_misread_integrity({'logline':premise['logline']+' In the finale she is revealed as old money and they guessed correctly.'},arch,many_scenes)
+    assert dynasty['checks']['audience_knows_status_is_projection_not_secret_dynasty'] is False
+
+    same_age={'logline':'A 24-year-old woman marries a 24-year-old man while her 56-year-old mother objects and society judges their marriage.'}
+    assert evaluate_age_gap_romance_autonomy_integrity(same_age,{},[])['applies'] is False
+    numeric={'logline':'A 24-year-old woman marries a 49-year-old billionaire as society judges their marriage.'}
+    nr=evaluate_age_gap_romance_autonomy_integrity(numeric,{},[])
+    assert nr['applies'] is True
+    assert nr['checks']['both_partners_are_unambiguously_adults'] is True
+    assert _has_age_gap_evidence('an older widower marries a woman half his age despite family opposition') is True
+
+    routine={'logline':'A billionaire mother pretends to be a maid to test how the fiancée treats workers. During a routine shift the cook opens the door before any promotion or reward. The son says this is not your exam and records expose the cruelty.'}
+    rr=evaluate_incognito_moral_test_integrity(routine,{},[])
+    assert rr['checks']['kindness_is_active_and_costly_before_reward'] is False
