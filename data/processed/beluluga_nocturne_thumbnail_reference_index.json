@@ -1,0 +1,64 @@
+{
+  "evidence_class": "tier_1_metadata_plus_visual_inspection",
+  "causality_warning": "Thumbnail observations are packaging evidence, not CTR or retention proof. Do not infer causal click performance without creator analytics.",
+  "items": [
+    {
+      "video_id": "bzcogxvjSvk",
+      "path": "data/raw/thumbnails/beluluga/bzcogxvjSvk.jpg",
+      "title": "[FULL SEASON 1] NOCTURNE | Cinematic AI BL Drama [MULTI SUB]",
+      "views_at_collection": 167000,
+      "duration_seconds": 3834,
+      "performance_position": "hit_full_season_compilation",
+      "visual_mechanics": [
+        "restrained close emotional facial focus",
+        "prestige period-drama typography/title treatment",
+        "full-season completion promise rather than action montage",
+        "sells intimate cinematic seriousness and binge completeness"
+      ],
+      "reusable_original_concept": "For an original serialized intimate drama, package the compilation with one emotionally literate close-up, a completion marker, and a clean prestige title; avoid copying the literal pianist/duke design."
+    },
+    {
+      "video_id": "ldmdIfToq-s",
+      "path": "data/raw/thumbnails/beluluga/ldmdIfToq-s.jpg",
+      "title": "NOCTURNE | EP.4 — Do You Want Me To? | AI BL Drama [MULTI SUB]",
+      "views_at_collection": 81000,
+      "duration_seconds": 490,
+      "performance_position": "strong_episode_comparator",
+      "visual_mechanics": [
+        "three-person intimacy/choice triangle is visually encoded",
+        "relational geometry communicates conflict before reading the title",
+        "period intimacy cue supports the episode's consent/invitation question"
+      ],
+      "reusable_original_concept": "Encode the episode's choice geometry with eye-lines and spatial position; use the title as a question the image makes concrete."
+    },
+    {
+      "video_id": "GfoZJb_Pjuk",
+      "path": "data/raw/thumbnails/beluluga/GfoZJb_Pjuk.jpg",
+      "title": "NOCTURNE | EP.3 — Forgive Me, Your Grace | AI BL Drama [MULTI SUB]",
+      "views_at_collection": 31000,
+      "duration_seconds": 392,
+      "performance_position": "lower_episode_comparator_not_weak_writing_proof",
+      "visual_mechanics": [
+        "direct two-person intimate close-up",
+        "less explanatory relational geometry than the stronger episode triangle",
+        "emotionally legible but more generic forbidden-romance packaging"
+      ],
+      "reusable_original_concept": "Close intimacy alone may be less distinctive than intimacy plus a legible third-party/social-choice complication."
+    },
+    {
+      "video_id": "HKNsXu-ifSg",
+      "path": "data/raw/thumbnails/beluluga/HKNsXu-ifSg.jpg",
+      "title": "[EP.1–4 FULL] The Grand Duke's Secret Pianist NOCTURNE | AI BL Drama [MULTI SUB]",
+      "views_at_collection": 150000,
+      "duration_seconds": 1582,
+      "performance_position": "strong_episode_compilation",
+      "visual_mechanics": [
+        "Grand Duke/pianist/Julius triangle in a period interior",
+        "combines binge completion with legible social relation triangle",
+        "specific character arrangement carries more information than isolated romance imagery"
+      ],
+      "reusable_original_concept": "For compilations, use spatial arrangement to explain who observes, who is desired, and who holds rank; completion packaging should still preserve relational specificity."
+    }
+  ],
+  "craft_rule": "Serialized intimate period-romance packaging works when the image makes a private/public or choice triangle legible; prestige restraint fits full-season compilations, while episode packaging benefits from question-led relational specificity."
+}

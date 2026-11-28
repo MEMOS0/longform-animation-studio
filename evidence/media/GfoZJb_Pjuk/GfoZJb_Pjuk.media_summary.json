@@ -1,0 +1,40 @@
+{
+  "video_id": "GfoZJb_Pjuk",
+  "probe": {
+    "duration": 391.558095,
+    "size": 17902924,
+    "width": 640,
+    "height": 360,
+    "fps": "24/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\GfoZJb_Pjuk\\contact_sheets\\contact_000.jpg"
+  ],
+  "seconds_indexed": 392,
+  "shot_count": 13,
+  "shot_length_mean_seconds": 30.153846153846153,
+  "shot_length_median_seconds": 10.0,
+  "shot_length_p90_seconds": 81.4,
+  "visual_motion_mean": 0.06613621351744207,
+  "visual_brightness_mean": 0.19823457283776208,
+  "dialogue_cues": 94,
+  "narrative_markers": {
+    "first_conflict_language": null,
+    "first_power_or_identity_language": null,
+    "first_care_or_belonging_language": {
+      "time": 11.666,
+      "text": "Thank you."
+    },
+    "dialogue_words_per_minute": [
+      52,
+      104,
+      42,
+      56,
+      41,
+      62,
+      5
+    ],
+    "cue_count": 94
+  }
+}
