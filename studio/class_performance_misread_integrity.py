@@ -23,12 +23,29 @@ def _text(value: Any) -> str:
 
 def evaluate_class_performance_misread_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    rebirth = bool(re.search(r"reborn|rebirth|second life|past life|first life|back to|years? earlier|lived once before", full))
+    rebirth = bool(re.search(r"reborn|rebirth|second life|past life|first life|years? earlier|lived once before", full))
     class_arena = bool(re.search(r"old money|wealthy|rich|heiress|socialite|elite|aristocrat|countess|manor|invitation|exclusive|designer|pedigree|dynasty|high society|status", full))
     misread = bool(re.search(r"misread|mistaken for|believe(?:s|d)? (?:she|he|they)|assume(?:s|d)?|suspect(?:s|ed)?|think(?:s|ing)? (?:she|he|they)|appears? to be|looks? like|convinc(?:ed|ing)|family explanation|secret dynasty|powerful family", full))
     nonperformance = bool(re.search(r"stop(?:s|ped)? performing|done performing|no longer pretends?|not auditioning|refus\w+|turns? down|ordinary|unbothered|does not need (?:status|approval)|likes? (?:herself|himself|themselves)|being herself|authentic", full))
     if not (rebirth and class_arena and misread and nonperformance):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
+
+    premise_text = _text(premise).lower()
+    architecture_text = _text(architecture).lower()
+    final_scene_text = _text(scenes[-1]).lower() if scenes else ""
+    ending_text = "\n".join([
+        premise_text,
+        architecture_text[-max(1, len(architecture_text) // 3):] if architecture_text else "",
+        final_scene_text,
+    ])
+    real_dynasty_confirm = bool(re.search(
+        r"confirmed? (?:as|that) (?:old money|a real dynasty|the heir)|secret dynasty is real|really is (?:old money|a billionaire heir|from a powerful family)|revealed? as (?:old money|a real heir|a powerful family)|guessed correctly",
+        ending_text + "\n" + full[-max(1, len(full) // 4):],
+    ))
+    projection_evidence = bool(re.search(
+        r"no secret dynasty|no powerful family|not actually (?:old money|rich)|projection|family explanation|habit, not (?:her|his|their) secret|she actually doesn't need|only old money could be so unbothered",
+        full,
+    ))
 
     checks = {
         "prior_life_performance_has_material_cost": bool(re.search(
@@ -43,10 +60,7 @@ def evaluate_class_performance_misread_integrity(premise: dict[str, Any], archit
             r"taste|boundary|refus\w+|generos\w+|help(?:s|ed)? (?:a roommate|someone|them)|save face|invest(?:s|ed|ment)?|bought early|unbothered|public speech|judgment|independent panel|not the family behind them",
             full,
         )),
-        "audience_knows_status_is_projection_not_secret_dynasty": bool(re.search(
-            r"no secret dynasty|no powerful family|not actually (?:old money|rich)|projection|family explanation|habit, not (?:her|his|their) secret|she actually doesn't need|only old money could be so unbothered",
-            full,
-        )),
+        "audience_knows_status_is_projection_not_secret_dynasty": projection_evidence and not real_dynasty_confirm,
         "misreading_changes_social_power_and_access": bool(re.search(
             r"invitation|membership|private dinner|collector|foundation|president|social access|connections|black card|non-public collections|influential|gossip|who are (?:her|his|their) parents",
             full,
@@ -61,7 +75,7 @@ def evaluate_class_performance_misread_integrity(premise: dict[str, Any], archit
         )),
         "ending_preserves_ordinary_selfhood_beyond_status": bool(re.search(
             r"ordinary|same person|actually built|not a role|own name|be herself|being herself|does not need (?:status|approval)|self-worth|independent|choice|choose what comes next",
-            full[-max(1, len(full) // 3):],
+            ending_text,
         )),
     }
     labels = {
