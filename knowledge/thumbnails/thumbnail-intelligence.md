@@ -264,3 +264,8 @@ The psychiatric-labeling hit uses a dense evidence-board thumbnail: financial re
 ## Duplicate-upload mechanism-legibility experiment
 
 AI SweetDrama `bAjeNeQ9DGc` and Sienna `PRnC5o30VjE` are visually duplicate versions of the same-duration film with radically different discovery (~684k vs 40 at collection). Channel/timing/recommendation confounds mean this is not CTR evidence, but it is strong anti-overfit evidence that identical story craft can succeed or fail in distribution. The breakout thumbnail adds office/X Tech/patent/contract/chip artifacts to the romance; the low comparator shows only polished luxury couple imagery. Reuse: hidden-competence romance packaging should reveal at least one competence/institutional artifact, not merely wealth/romance.
+
+
+## Nightfall elder-care packaging
+
+The remittance hit thumbnail sells one relational contradiction — elderly mother with rice bag outside a store versus affluent son with suitcase, plus the recognition question “MOM?” The medium coffee-assault thumbnail is legible but more spectacle/explanation driven. The low ranch comparator is attractive but diffuse: snowy setting, people, dog, no object/wound/question. Reuse: dignity-restoration thumbnails need one object that makes the relational wound visible; do not treat this as CTR proof.

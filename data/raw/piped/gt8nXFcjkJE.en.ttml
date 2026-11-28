@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.066" end="00:00:04.600" style="s2">Ten days. I&#39;m not asking for more than that.</p>
+<p begin="00:00:06.220" end="00:00:07.420" style="s2">No.</p>
+<p begin="00:00:17.266" end="00:00:18.066" style="s2">What&#39;s going on?</p>
+<p begin="00:00:19.133" end="00:00:20.600" style="s2">He&#39;s looking for a place to stay.</p>
+<p begin="00:00:22.900" end="00:00:24.800" style="s2">Transmission quit on me out on the highway. Ned</p>
+<p begin="00:00:25.333" end="00:00:26.900" style="s2">Granger towed it into town</p>
+<p begin="00:00:27.766" end="00:00:29.166" style="s2">said you folks were short a hand.</p>
+<p begin="00:00:30.766" end="00:00:32.733" style="s2">We were short a hand three weeks ago.</p>
+<p begin="00:00:33.333" end="00:00:34.200" style="s2">Our man walked.</p>
+<p begin="00:00:35.500" end="00:00:36.766" style="s2">I can start this afternoon.</p>
+<p begin="00:00:38.066" end="00:00:39.466" style="s2">We can&#39;t pay another hand.</p>
+<p begin="00:00:40.166" end="00:00:41.466" style="s2">I&#39;m not asking for pay.</p>
+<p begin="00:00:42.200" end="00:00:43.933" style="s2">A roof, a hot meal,</p>
+<p begin="00:00:44.200" end="00:00:45.733" style="s2">and someplace warm for him.</p>
+<p begin="00:00:46.933" end="00:00:49.866" style="s2">Ten days. I&#39;m not asking for more than that.</p>
+<p begin="00:00:52.600" end="00:00:57.266" style="s2">No. Does he eat a lot?</p>
+<p begin="00:00:58.466" end="00:01:00.066" style="s2">More than he lets on in the interview.</p>
+<p begin="00:01:08.500" end="00:01:11.400" style="s2">That corner post how long&#39;s it been leaning like that?</p>
+<p begin="00:01:12.066" end="00:01:13.066" style="s2">That&#39;s not your business.</p>
+<p begin="00:01:14.366" end="00:01:15.300" style="s2">Might be in a minute.</p>
+<p begin="00:01:25.500" end="00:01:26.766" style="s2">Wren lower gate!</p>
+<p begin="00:01:27.566" end="00:01:28.366" style="s2">Gunner, stay.</p>
+<p begin="00:01:29.066" end="00:01:30.166" style="s2">You&#39;re not bringing him?</p>
+<p begin="00:01:30.666" end="00:01:31.600" style="s2">He&#39;s never worked cattle.</p>
+<p begin="00:01:31.600" end="00:01:32.566" style="s2">He&#39;d only make it worse.</p>
+<p begin="00:01:39.200" end="00:01:40.466" style="s2">Where&#39;s this run out to?</p>
+<p begin="00:01:42.266" end="00:01:43.333" style="s2">Straight to Willow Creek.</p>
+<p begin="00:01:43.966" end="00:01:45.466" style="s2">Then we head &#39;em off short of the ice.</p>
+<p begin="00:01:46.066" end="00:01:47.066" style="s2">You&#39;ve worked cows?</p>
+<p begin="00:01:47.666" end="00:01:48.966" style="s2">Raised on &#39;em. Idaho.</p>
+<p begin="00:01:54.700" end="00:01:56.366" style="s2">Easy. Don&#39;t push &#39;em.</p>
+<p begin="00:01:58.200" end="00:02:00.066" style="s2">I&#39;ve been moving cows since I could walk.</p>
+<p begin="00:02:01.133" end="00:02:02.333" style="s2">Then you know they don&#39;t take orders.</p>
+<p begin="00:02:02.333" end="00:02:05.366" style="s2">…eleven, twelve.</p>
+<p begin="00:02:06.100" end="00:02:07.533" style="s2">That&#39;s every one that got out.</p>
+<p begin="00:02:18.166" end="00:02:21.166" style="s2">Kroll. Third time this month he&#39;s just happened to drive by.</p>
+<p begin="00:02:21.866" end="00:02:22.700" style="s2">Who&#39;s Kroll?</p>
+<p begin="00:02:23.500" end="00:02:24.900" style="s2">Nobody you need to worry about.</p>
+<p begin="00:02:31.266" end="00:02:33.733" style="s2">That patch won&#39;t last till morning if it freezes hard.</p>
+<p begin="00:02:35.700" end="00:02:36.933" style="s2">I&#39;ll get to it in the morning.</p>
+<p begin="00:02:38.366" end="00:02:40.866" style="s2">Fixing it tonight beats fishing cows out of the creek tomorrow.</p>
+<p begin="00:02:45.700" end="00:02:46.666" style="s2">You got a name?</p>
+<p begin="00:02:47.933" end="00:02:50.133" style="s2">Cole Brandt. And that&#39;s Gunner.</p>
+<p begin="00:02:50.566" end="00:02:52.133" style="s2">He&#39;s the one who did what he was told.</p>
+<p begin="00:03:01.300" end="00:03:02.100" style="s2">Maggie Sutter.</p>
+<p begin="00:03:02.333" end="00:03:03.966" style="s2">That&#39;s my sister, Wren.</p>
+<p begin="00:03:04.370" end="00:03:05.570" style="s2">Hi.</p>
+<p begin="00:03:06.933" end="00:03:08.766" style="s2">He just saved us a night in the creek.</p>
+<p begin="00:03:10.933" end="00:03:12.700" style="s2">He&#39;s a stranger with a duffel bag.</p>
+<p begin="00:03:14.000" end="00:03:15.566" style="s2">And a dog that sits when he&#39;s told.</p>
+<p begin="00:03:15.766" end="00:03:17.566" style="s2">That&#39;s more than we got out of the last guy.</p>
+<p begin="00:03:19.733" end="00:03:20.600" style="s2">Supper&#39;s at six.</p>
+<p begin="00:03:20.900" end="00:03:22.166" style="s2">Dog stays off the furniture.</p>
+<p begin="00:03:23.900" end="00:03:24.700" style="s2">Yes, ma&#39;am.</p>
+<p begin="00:03:28.400" end="00:03:29.466" style="s2">It&#39;s just stew.</p>
+<p begin="00:03:31.666" end="00:03:33.333" style="s2">After today, anything hot is a feast.</p>
+<p begin="00:03:36.366" end="00:03:37.700" style="s2">He can lie by the stove.</p>
+<p begin="00:03:37.866" end="00:03:38.900" style="s2">Not on the couch.</p>
+<p begin="00:03:40.100" end="00:03:41.766" style="s2">Hear that? Best behavior.</p>
+<p begin="00:03:48.500" end="00:03:50.133" style="s2">Our dad. Earl.</p>
+<p begin="00:03:50.400" end="00:03:52.566" style="s2">We lost him in October. His heart.</p>
+<p begin="00:03:55.133" end="00:03:55.933" style="s2">I&#39;m sorry.</p>
+<p begin="00:03:56.966" end="00:03:57.800" style="s2">Everybody&#39;s sorry.</p>
+<p begin="00:03:58.200" end="00:03:59.200" style="s2">Doesn&#39;t fix the roof.</p>
+<p begin="00:04:00.066" end="00:04:01.300" style="s2">What else needs fixing?</p>
+<p begin="00:04:03.966" end="00:04:05.166" style="s2">Hay barn roof leaks.</p>
+<p begin="00:04:05.800" end="00:04:08.333" style="s2">The water line to the stock tank freezes every morning. Half</p>
+<p begin="00:04:09.100" end="00:04:10.366" style="s2">the porch is rotten.</p>
+<p begin="00:04:12.000" end="00:04:13.133" style="s2">Why did your man walk?</p>
+<p begin="00:04:14.466" end="00:04:16.100" style="s2">Because we owed him two months&#39; wages.</p>
+<p begin="00:04:16.900" end="00:04:18.600" style="s2">And because Kroll found him a job</p>
+<p begin="00:04:18.600" end="00:04:19.766" style="s2">on the resort crew down the valley.</p>
+<p begin="00:04:20.300" end="00:04:21.100" style="s2">Double our pay.</p>
+<p begin="00:04:25.100" end="00:04:26.200" style="s2">Your dad have a shop?</p>
+<p begin="00:04:28.400" end="00:04:30.333" style="s2">Everything he ever owned that had a handle.</p>
+<p begin="00:04:32.500" end="00:04:34.066" style="s2">Then I know where I&#39;m starting tomorrow.</p>
+<p begin="00:04:43.566" end="00:04:45.566" style="s2">Ms. Sutter, Dennis Kroll.</p>
+<p begin="00:04:45.700" end="00:04:47.300" style="s2">I&#39;ve raised my offer again.</p>
+<p begin="00:04:47.766" end="00:04:49.400" style="s2">It stands through the end of the month.</p>
+<p begin="00:04:49.800" end="00:04:52.300" style="s2">I&#39;d hate for the bank to make this decision for you.</p>
+<p begin="00:04:57.366" end="00:04:58.166" style="s2">That&#39;s Kroll.</p>
+<p begin="00:04:58.500" end="00:05:00.733" style="s2">He bought the Henderson place down the creek last fall.</p>
+<p begin="00:05:01.200" end="00:05:03.400" style="s2">Hasn&#39;t run a single cow on it.</p>
+<p begin="00:05:07.300" end="00:05:08.733" style="s2">He&#39;ll hear it in town anyway.</p>
+<p begin="00:05:09.333" end="00:05:10.733" style="s2">We&#39;re four payments behind,</p>
+<p begin="00:05:10.900" end="00:05:13.066" style="s2">and the bank wants a new payment plan by the twentieth.</p>
+<p begin="00:05:16.533" end="00:05:22.200" style="s2">Ten days. The old foreman&#39;s cabin behind the barn. Thank you.</p>
+<p begin="00:05:22.900" end="00:05:24.533" style="s2">Don&#39;t make me sorry I said yes.</p>
+<p begin="00:05:25.700" end="00:05:26.900" style="s2">Fair enough.</p>
+<p begin="00:05:34.120" end="00:05:36.000" style="s2">Nobody&#39;s slept here in two years.</p>
+<p begin="00:05:36.000" end="00:05:37.500" style="s2">Not since our foreman retired.</p>
+<p begin="00:05:40.200" end="00:05:42.400" style="s2">Four walls and no gearshift. That&#39;s an upgrade.</p>
+<p begin="00:05:48.700" end="00:05:50.533" style="s2">That latch is shot. I&#39;ll fix it.</p>
+<p begin="00:05:51.266" end="00:05:52.933" style="s2">You&#39;re supposed to be resting tonight.</p>
+<p begin="00:05:54.566" end="00:05:55.866" style="s2">Never got the hang of it.</p>
+<p begin="00:05:57.800" end="00:05:58.900" style="s2">He seems to manage.</p>
+<p begin="00:05:59.500" end="00:06:00.666" style="s2">He&#39;s had more practice.</p>
+<p begin="00:06:02.766" end="00:06:03.766" style="s2">Why ten days?</p>
+<p begin="00:06:05.266" end="00:06:06.700" style="s2">That&#39;s how long Ned needs to get</p>
+<p begin="00:06:06.700" end="00:06:08.400" style="s2">a rebuilt transmission up from Billings.</p>
+<p begin="00:06:09.200" end="00:06:10.966" style="s2">After that I&#39;ll find work somewhere north.</p>
+<p begin="00:06:13.200" end="00:06:14.733" style="s2">&quot;Somewhere north&quot; is a lot of country.</p>
+<p begin="00:06:16.066" end="00:06:17.400" style="s2">That&#39;s what I like about it.</p>
+<p begin="00:06:24.100" end="00:06:25.500" style="s2">Don&#39;t get attached, partner.</p>
+<p begin="00:06:30.300" end="00:06:39.166" style="s2">Nobody&#39;s moved a thing since October. May I?</p>
+<p begin="00:06:39.866" end="00:06:41.100" style="s2">Go ahead. He oiled every wrench in here.</p>
+<p begin="00:06:41.100" end="00:06:42.766" style="s2">Never once got his own heart checked.</p>
+<p begin="00:06:46.866" end="00:06:48.966" style="s2">Haven&#39;t seen one of these since my dad&#39;s barn.</p>
+<p begin="00:06:50.200" end="00:06:51.766" style="s2">So you did grow up on a ranch.</p>
+<p begin="00:06:52.966" end="00:06:54.600" style="s2">Idaho, till I was eighteen.</p>
+<p begin="00:06:55.100" end="00:06:56.533" style="s2">Then twelve years in the Navy.</p>
+<p begin="00:06:57.400" end="00:07:02.266" style="s2">Doing what? SEAL teams. And him?</p>
+<p begin="00:07:03.133" end="00:07:04.333" style="s2">Military working dog.</p>
+<p begin="00:07:04.700" end="00:07:06.400" style="s2">Patrol and explosives detection.</p>
+<p begin="00:07:06.566" end="00:07:07.333" style="s2">When he retired,</p>
+<p begin="00:07:07.333" end="00:07:08.133" style="s2">I signed the papers.</p>
+<p begin="00:07:08.500" end="00:07:09.300" style="s2">He&#39;s retired?</p>
+<p begin="00:07:12.766" end="00:07:14.200" style="s2">And he&#39;s very good at it.</p>
+<p begin="00:07:19.866" end="00:07:23.533" style="s2">Dad&#39;s book. Thirty years. Every repair, every calf,</p>
+<p begin="00:07:23.533" end="00:07:26.666" style="s2">every bad winter. Might save you some guessing.</p>
+<p begin="00:07:34.066" end="00:07:35.400" style="s2">I&#39;ll take good care of it.</p>
+<p begin="00:07:38.933" end="00:07:39.933" style="s2">This is Clover.</p>
+<p begin="00:07:40.400" end="00:07:42.100" style="s2">Last one still to calve this year.</p>
+<p begin="00:07:42.766" end="00:07:45.666" style="s2">Any day now. She looks ready to be done with it.</p>
+<p begin="00:07:46.333" end="00:07:47.200" style="s2">Don&#39;t we all.</p>
+<p begin="00:07:55.366" end="00:07:56.766" style="s2">Dad kept meaning to fix that.</p>
+<p begin="00:08:01.166" end="00:08:04.366" style="s2">&quot;Barn side door. Latch, bottom hinge.&quot;</p>
+<p begin="00:08:13.500" end="00:08:14.866" style="s2">That&#39;ll hold in a normal wind.</p>
+<p begin="00:08:15.133" end="00:08:16.133" style="s2">Not a real one.</p>
+<p begin="00:08:22.333" end="00:08:24.066" style="s2">Nothing in here fits a door this old.</p>
+<p begin="00:08:28.900" end="00:08:30.333" style="s2">Feed store doesn&#39;t carry that size.</p>
+<p begin="00:08:30.500" end="00:08:31.766" style="s2">They&#39;ll order it out of Billings.</p>
+<p begin="00:08:31.933" end="00:08:32.733" style="s2">Two, three weeks.</p>
+<p begin="00:08:35.500" end="00:08:37.300" style="s2">Then the wedge&#39;ll have to do till then.</p>
+<p begin="00:08:48.200" end="00:08:49.333" style="s2">Most of these are still good.</p>
+<p begin="00:08:49.666" end="00:08:51.333" style="s2">No sense tearing out what still holds.</p>
+<p begin="00:08:53.500" end="00:08:55.300" style="s2">That&#39;s exactly what Dad always said.</p>
+<p begin="00:08:55.933" end="00:08:56.733" style="s2">Word for word.</p>
+<p begin="00:08:58.366" end="00:09:00.066" style="s2">Sounds like a man who&#39;d paid for lumber.</p>
+<p begin="00:09:02.766" end="00:09:06.566" style="s2">He paid for everything twice. Once in cash, once in complaining.</p>
+<p begin="00:09:13.533" end="00:09:14.733" style="s2">Fence is over here, partner.</p>
+<p begin="00:09:22.533" end="00:09:24.300" style="s2">How many SEALs does it take to fix a roof?</p>
+<p begin="00:09:24.766" end="00:09:26.866" style="s2">One. If his helper quits talking.</p>
+<p begin="00:09:35.800" end="00:09:37.533" style="s2">Dry. First time since Christmas.</p>
+<p begin="00:09:38.166" end="00:09:41.800" style="s2">Check it again the first night it drops below zero. Yes, sir.</p>
+<p begin="00:09:42.933" end="00:09:43.800" style="s2">Don&#39;t salute me.</p>
+<p begin="00:09:43.800" end="00:09:45.066" style="s2">I&#39;m a civilian now.</p>
+<p begin="00:09:49.700" end="00:09:51.366" style="s2">Heat tape&#39;s on a thermostat. It kicks</p>
+<p begin="00:09:51.366" end="00:09:52.733" style="s2">on when it drops below freezing.</p>
+<p begin="00:10:01.933" end="00:10:03.733" style="s2">Dad bought this the summer before he died.</p>
+<p begin="00:10:04.066" end="00:10:06.266" style="s2">Kept saying he&#39;d paint the porch once calving was over.</p>
+<p begin="00:10:06.866" end="00:10:10.500" style="s2">Nothing on a ranch ever slows down. Warm white.</p>
+<p begin="00:10:11.166" end="00:10:12.400" style="s2">Your dad had good taste.</p>
+<p begin="00:10:14.300" end="00:10:15.666" style="s2">Has he done anything all day?</p>
+<p begin="00:10:16.133" end="00:10:17.200" style="s2">He&#39;s supervising.</p>
+<p begin="00:10:20.800" end="00:10:21.700" style="s2">What&#39;s he doing?</p>
+<p begin="00:10:22.300" end="00:10:23.300" style="s2">That side door.</p>
+<p begin="00:10:23.566" end="00:10:24.666" style="s2">Wind&#39;s knocking it.</p>
+<p begin="00:10:25.333" end="00:10:26.766" style="s2">Retired doesn&#39;t mean off duty.</p>
+<p begin="00:10:31.600" end="00:10:33.966" style="s2">Part&#39;s on order. Till then, the wedge holds.</p>
+<p begin="00:10:38.266" end="00:10:39.366" style="s2">That was Dad&#39;s chair.</p>
+<p begin="00:10:40.533" end="00:10:41.800" style="s2">He sat there every night.</p>
+<p begin="00:10:42.900" end="00:10:44.133" style="s2">Watched the light go off the mountains.</p>
+<p begin="00:10:45.800" end="00:10:46.900" style="s2">Best seat on the place.</p>
+<p begin="00:10:47.566" end="00:10:49.466" style="s2">I haven&#39;t sat out here since October.</p>
+<p begin="00:10:51.700" end="00:10:53.900" style="s2">Sitting in his chair doesn&#39;t mean you&#39;re taking his place.</p>
+<p begin="00:11:09.466" end="00:11:11.866" style="s2">He would&#39;ve hated how long that paint sat in the basement.</p>
+<p begin="00:11:12.733" end="00:11:14.200" style="s2">He&#39;d like where it ended up.</p>
+<p begin="00:11:15.800" end="00:11:17.800" style="s2">Thank you. For the porch.</p>
+<p begin="00:11:18.266" end="00:11:19.100" style="s2">Wren did the railings.</p>
+<p begin="00:11:19.100" end="00:11:20.166" style="s2">I just held a brush.</p>
+<p begin="00:11:20.733" end="00:11:21.966" style="s2">Wren talked the whole time.</p>
+<p begin="00:11:22.600" end="00:11:23.400" style="s2">She did.</p>
+<p begin="00:11:34.900" end="00:11:35.900" style="s2">You fixed the window.</p>
+<p begin="00:11:36.566" end="00:11:38.166" style="s2">That thing let the whole winter in.</p>
+<p begin="00:11:38.933" end="00:11:40.933" style="s2">Your foreman had the best window on the place.</p>
+<p begin="00:11:42.500" end="00:11:44.333" style="s2">He said that every morning for twenty years.</p>
+<p begin="00:11:45.733" end="00:11:47.700" style="s2">Folks in Denver would pay to wake up to that.</p>
+<p begin="00:11:48.333" end="00:11:49.533" style="s2">What are you talking about?</p>
+<p begin="00:11:49.966" end="00:11:51.966" style="s2">A guest cabin. Weekends.</p>
+<p begin="00:11:52.333" end="00:11:53.933" style="s2">People who want quiet and cows</p>
+<p begin="00:11:53.933" end="00:11:54.733" style="s2">and a mountain.</p>
+<p begin="00:11:55.266" end="00:11:56.200" style="s2">We raise cattle.</p>
+<p begin="00:11:56.200" end="00:11:57.200" style="s2">We don&#39;t change sheets.</p>
+<p begin="00:11:58.900" end="00:12:01.466" style="s2">One cabin. One set of sheets.</p>
+<p begin="00:12:02.166" end="00:12:03.600" style="s2">Ideas don&#39;t make loan payments.</p>
+<p begin="00:12:04.200" end="00:12:05.700" style="s2">Neither does a cabin full of mice.</p>
+<p begin="00:12:09.200" end="00:12:11.900" style="s2">I did four years at a hotel front desk in Bozeman.</p>
+<p begin="00:12:11.933" end="00:12:13.166" style="s2">I know what guests want,</p>
+<p begin="00:12:13.200" end="00:12:14.000" style="s2">what they break,</p>
+<p begin="00:12:14.300" end="00:12:15.466" style="s2">and what they&#39;ll pay for.</p>
+<p begin="00:12:15.800" end="00:12:17.966" style="s2">I&#39;ll check what the county needs to make it legal</p>
+<p begin="00:12:18.300" end="00:12:19.533" style="s2">and I&#39;ll do the cleaning,</p>
+<p begin="00:12:19.566" end="00:12:20.333" style="s2">the bookings,</p>
+<p begin="00:12:20.333" end="00:12:21.600" style="s2">the breakfast baskets.</p>
+<p begin="00:12:22.266" end="00:12:23.800" style="s2">Mine. Not yours.</p>
+<p begin="00:12:27.600" end="00:12:28.766" style="s2">Write down what it costs.</p>
+<p begin="00:12:29.000" end="00:12:29.933" style="s2">Then we decide.</p>
+<p begin="00:12:31.900" end="00:12:33.400" style="s2">We keep Grandma&#39;s quilt.</p>
+<p begin="00:12:34.300" end="00:12:35.800" style="s2">Anything worth keeping, we keep.</p>
+<p begin="00:12:40.333" end="00:12:42.566" style="s2">First guest. Off the quilt.</p>
+<p begin="00:12:43.266" end="00:12:44.800" style="s2">He doesn&#39;t take orders from civilians.</p>
+<p begin="00:12:46.166" end="00:12:47.533" style="s2">He takes stew from one.</p>
+<p begin="00:12:53.066" end="00:12:55.366" style="s2">If the cabin books even two weekends a month,</p>
+<p begin="00:12:55.466" end="00:12:57.333" style="s2">it covers the fuel and the vet bills.</p>
+<p begin="00:12:57.900" end="00:12:59.533" style="s2">And the bank still wants a plan.</p>
+<p begin="00:13:01.500" end="00:13:02.366" style="s2">You&#39;ve gone quiet.</p>
+<p begin="00:13:04.200" end="00:13:05.966" style="s2">I&#39;m better with fence posts than figures.</p>
+<p begin="00:13:07.066" end="00:13:09.533" style="s2">That sounds like a man who&#39;s sat across from a banker.</p>
+<p begin="00:13:13.966" end="00:13:14.700" style="s2">After the Navy</p>
+<p begin="00:13:14.700" end="00:13:16.600" style="s2">I bought a little place outside Twin Falls.</p>
+<p begin="00:13:17.533" end="00:13:18.900" style="s2">Bought a tractor I couldn&#39;t afford.</p>
+<p begin="00:13:20.100" end="00:13:23.066" style="s2">Signed a hay contract I was sure would last. It didn&#39;t.</p>
+<p begin="00:13:23.366" end="00:13:24.333" style="s2">Somebody cheat you?</p>
+<p begin="00:13:25.966" end="00:13:27.200" style="s2">Nobody cheated me.</p>
+<p begin="00:13:28.133" end="00:13:30.000" style="s2">I could outwork any man in the county.</p>
+<p begin="00:13:30.000" end="00:13:31.866" style="s2">I thought that was the same as running the place.</p>
+<p begin="00:13:33.400" end="00:13:34.200" style="s2">It&#39;s not.</p>
+<p begin="00:13:35.666" end="00:13:37.333" style="s2">Found that out the expensive way.</p>
+<p begin="00:13:38.366" end="00:13:39.400" style="s2">When I went to the bank,</p>
+<p begin="00:13:39.400" end="00:13:40.500" style="s2">I brought them a dream.</p>
+<p begin="00:13:42.266" end="00:13:43.333" style="s2">They didn&#39;t want a dream.</p>
+<p begin="00:13:44.666" end="00:13:47.900" style="s2">They wanted to see the worst year, and how I&#39;d live through it.</p>
+<p begin="00:13:54.566" end="00:13:55.700" style="s2">I didn&#39;t have one.</p>
+<p begin="00:13:56.200" end="00:13:57.933" style="s2">Five years, and it was gone.</p>
+<p begin="00:13:59.266" end="00:14:00.166" style="s2">And since then?</p>
+<p begin="00:14:01.666" end="00:14:03.333" style="s2">A year of other people&#39;s ranches.</p>
+<p begin="00:14:03.666" end="00:14:05.266" style="s2">Two months here, three there.</p>
+<p begin="00:14:07.800" end="00:14:08.700" style="s2">Why keep moving?</p>
+<p begin="00:14:11.733" end="00:14:14.066" style="s2">If I&#39;m gone before a place feels like home,</p>
+<p begin="00:14:14.466" end="00:14:15.700" style="s2">it doesn&#39;t hurt to go.</p>
+<p begin="00:14:16.100" end="00:14:18.166" style="s2">Or maybe Gunner&#39;s tired of packing up.</p>
+<p begin="00:14:25.500" end="00:14:28.100" style="s2">Dad put everything he ever learned about this place in here.</p>
+<p begin="00:14:29.200" end="00:14:30.600" style="s2">Plenty of blank pages left.</p>
+<p begin="00:14:32.166" end="00:14:35.733" style="s2">You sure? Just leave his writing where it is.</p>
+<p begin="00:14:36.533" end="00:14:37.733" style="s2">I wouldn&#39;t touch it.</p>
+<p begin="00:14:39.066" end="00:14:41.066" style="s2">Hay barn roof. New tin,</p>
+<p begin="00:14:41.300" end="00:14:43.100" style="s2">fourteen sheets. Holds.</p>
+<p begin="00:14:43.800" end="00:14:45.933" style="s2">&quot;Holds.&quot; Dad would&#39;ve liked that.</p>
+<p begin="00:14:53.733" end="00:14:54.533" style="s2">What&#39;ve you got?</p>
+<p begin="00:15:01.300" end="00:15:03.100" style="s2">Easy… Okay. Go.</p>
+<p begin="00:15:18.566" end="00:15:19.166" style="s2">Show me.</p>
+<p begin="00:15:27.133" end="00:15:28.900" style="s2">&quot;Willow Creek. Site three.&quot;</p>
+<p begin="00:15:33.500" end="00:15:35.666" style="s2">Two of them. Half-ton pickup,</p>
+<p begin="00:15:35.700" end="00:15:36.600" style="s2">chains on the rear.</p>
+<p begin="00:15:37.133" end="00:15:38.866" style="s2">Came up the creek from the Henderson side.</p>
+<p begin="00:15:47.300" end="00:15:49.900" style="s2">Cut it and twisted it back so nobody&#39;d notice till spring.</p>
+<p begin="00:16:01.266" end="00:16:02.066" style="s2">In the morning.</p>
+<p begin="00:16:03.200" end="00:16:05.000" style="s2">Good work, Gunner. Good work.</p>
+<p begin="00:16:14.500" end="00:16:15.300" style="s2">She runs.</p>
+<p begin="00:16:15.533" end="00:16:16.966" style="s2">Part came in two days early.</p>
+<p begin="00:16:17.100" end="00:16:18.400" style="s2">Cost you more than the truck&#39;s worth,</p>
+<p begin="00:16:18.400" end="00:16:19.366" style="s2">but she runs.</p>
+<p begin="00:16:19.533" end="00:16:20.200" style="s2">Thanks, Ned.</p>
+<p begin="00:16:22.333" end="00:16:23.566" style="s2">Huh. It&#39;s real.</p>
+<p begin="00:16:24.266" end="00:16:25.166" style="s2">One more thing.</p>
+<p begin="00:16:25.700" end="00:16:28.366" style="s2">Outfit up by Havre&#39;s looking for a full-time hand.</p>
+<p begin="00:16:28.700" end="00:16:30.100" style="s2">Year-round, bunkhouse,</p>
+<p begin="00:16:30.133" end="00:16:30.933" style="s2">decent wages.</p>
+<p begin="00:16:31.200" end="00:16:32.200" style="s2">Starts the twentieth.</p>
+<p begin="00:16:32.333" end="00:16:33.466" style="s2">I gave them your name.</p>
+<p begin="00:16:34.566" end="00:16:35.400" style="s2">That&#39;s good news.</p>
+<p begin="00:16:40.000" end="00:16:41.000" style="s2">Maggie, there&#39;s something I need—</p>
+<p begin="00:16:41.100" end="00:16:42.400" style="s2">Or he could stay a little longer.</p>
+<p begin="00:16:42.400" end="00:16:43.100" style="s2">The cabin&#39;s not—</p>
+<p begin="00:16:43.333" end="00:16:44.400" style="s2">He has somewhere to be.</p>
+<p begin="00:16:49.300" end="00:16:50.100" style="s2">I should pack.</p>
+<p begin="00:16:52.800" end="00:16:54.366" style="s2">What&#39;d I just walk into?</p>
+<p begin="00:16:55.100" end="00:16:56.100" style="s2">Nine days of something.</p>
+<p begin="00:16:59.333" end="00:17:01.066" style="s2">Get your coat, Wren. We&#39;re going into town</p>
+<p begin="00:17:01.066" end="00:17:02.666" style="s2">to find out what the bank wants in that plan. Now?</p>
+<p begin="00:17:03.930" end="00:17:05.130" style="s2">Now.</p>
+<p begin="00:17:21.333" end="00:17:22.133" style="s2">Afternoon, ladies.</p>
+<p begin="00:17:22.600" end="00:17:24.133" style="s2">Thought I&#39;d save you a phone call.</p>
+<p begin="00:17:24.600" end="00:17:27.500" style="s2">I&#39;ve gone up enough to clear the bank and leave</p>
+<p begin="00:17:27.500" end="00:17:29.966" style="s2">you both something to start fresh somewhere easier.</p>
+<p begin="00:17:30.733" end="00:17:33.333" style="s2">This is home. We&#39;re not shopping for another.</p>
+<p begin="00:17:34.733" end="00:17:36.900" style="s2">A home that loses money every month it stands.</p>
+<p begin="00:17:39.966" end="00:17:43.966" style="s2">New paint. Fence is tight. Very nice.</p>
+<p begin="00:17:44.666" end="00:17:46.266" style="s2">But paint doesn&#39;t make a payment.</p>
+<p begin="00:17:47.166" end="00:17:48.766" style="s2">We&#39;re opening the cabin to guests.</p>
+<p begin="00:17:48.933" end="00:17:50.133" style="s2">That&#39;s money coming in.</p>
+<p begin="00:17:52.700" end="00:17:55.000" style="s2">Weekend tourists won&#39;t feed forty-two cows.</p>
+<p begin="00:17:59.466" end="00:18:00.800" style="s2">Not today, Mr. Kroll.</p>
+<p begin="00:18:01.800" end="00:18:03.200" style="s2">Your father understood numbers,</p>
+<p begin="00:18:03.200" end="00:18:03.966" style="s2">Ms. Sutter.</p>
+<p begin="00:18:05.366" end="00:18:07.333" style="s2">Don&#39;t tell me what my father understood.</p>
+<p begin="00:18:11.933" end="00:18:13.600" style="s2">Creek&#39;s running low this year, I hear.</p>
+<p begin="00:18:20.066" end="00:18:22.700" style="s2">&quot;We&quot;? What did you mean, we?</p>
+<p begin="00:18:23.133" end="00:18:24.266" style="s2">I was trying to help.</p>
+<p begin="00:18:25.600" end="00:18:26.466" style="s2">I know you were.</p>
+<p begin="00:18:27.166" end="00:18:28.866" style="s2">This is our ranch, Cole.</p>
+<p begin="00:18:29.200" end="00:18:30.200" style="s2">Wren&#39;s and mine.</p>
+<p begin="00:18:30.766" end="00:18:32.200" style="s2">Decisions here are ours to make.</p>
+<p begin="00:18:32.733" end="00:18:34.866" style="s2">Patching a roof doesn&#39;t give you a say in my life.</p>
+<p begin="00:18:41.300" end="00:18:44.733" style="s2">You&#39;re right. That wasn&#39;t mine to say. I&#39;m sorry.</p>
+<p begin="00:18:48.666" end="00:18:50.566" style="s2">He wasn&#39;t after anything that&#39;s yours.</p>
+<p begin="00:18:51.300" end="00:18:55.066" style="s2">He&#39;s the one person who actually showed up. I know.</p>
+<p begin="00:18:56.166" end="00:18:58.600" style="s2">And this morning you told him he had somewhere to be.</p>
+<p begin="00:18:59.166" end="00:19:01.066" style="s2">You decided for him, Maggie. Same</p>
+<p begin="00:19:01.533" end="00:19:02.966" style="s2">thing he just did to us.</p>
+<p begin="00:19:18.666" end="00:19:19.466" style="s2">Your ranch.</p>
+<p begin="00:19:25.466" end="00:19:27.200" style="s2">Come on, Gunner. Time to go.</p>
+<p begin="00:19:29.666" end="00:19:31.066" style="s2">Gunner! What is it?</p>
+<p begin="00:19:39.366" end="00:19:40.200" style="s2">The barn.</p>
+<p begin="00:19:48.400" end="00:19:49.766" style="s2">Wind&#39;s coming straight through that door.</p>
+<p begin="00:19:49.766" end="00:19:51.333" style="s2">We need to get the others away from her.</p>
+<p begin="00:19:52.900" end="00:19:54.200" style="s2">Clover&#39;s calving. Now.</p>
+<p begin="00:19:54.200" end="00:19:55.200" style="s2">I&#39;ll call the vet.</p>
+<p begin="00:20:00.000" end="00:20:03.100" style="s2">Thought you&#39;d be halfway to Havre by now.</p>
+<p begin="00:20:03.333" end="00:20:04.333" style="s2">Not yet. Tell me what to do.</p>
+<p begin="00:20:04.700" end="00:20:05.866" style="s2">Get that door shut first.</p>
+<p begin="00:20:05.866" end="00:20:07.333" style="s2">Then the rest of them go to the back pen.</p>
+<p begin="00:20:10.533" end="00:20:11.800" style="s2">Wren, on three.</p>
+<p begin="00:20:12.100" end="00:20:13.933" style="s2">One, two three!</p>
+<p begin="00:20:16.900" end="00:20:18.166" style="s2">Drill and a two-by-six!</p>
+<p begin="00:20:35.600" end="00:20:36.866" style="s2">Keep her quiet and warm.</p>
+<p begin="00:20:37.266" end="00:20:38.900" style="s2">Don&#39;t pull unless I tell you.</p>
+<p begin="00:20:39.100" end="00:20:40.400" style="s2">I&#39;m twenty minutes out.</p>
+<p begin="00:20:40.533" end="00:20:42.166" style="s2">Quiet and warm. Got it.</p>
+<p begin="00:20:42.766" end="00:20:45.300" style="s2">Gunner. Stay. With her.</p>
+<p begin="00:20:55.333" end="00:20:56.166" style="s2">All right, mama.</p>
+<p begin="00:20:56.166" end="00:20:57.200" style="s2">Let&#39;s see what you&#39;ve got.</p>
+<p begin="00:21:06.133" end="00:21:07.000" style="s2">Look at him.</p>
+<p begin="00:21:08.500" end="00:21:10.533" style="s2">He made it. We all made it.</p>
+<p begin="00:21:13.166" end="00:21:16.100" style="s2">Whoever got that door shut saved you a cow and a calf.</p>
+<p begin="00:21:17.000" end="00:21:18.066" style="s2">Another hour of that wind,</p>
+<p begin="00:21:18.066" end="00:21:19.166" style="s2">you&#39;d have lost them both.</p>
+<p begin="00:21:20.300" end="00:21:21.400" style="s2">You stayed with us.</p>
+<p begin="00:21:27.366" end="00:21:29.266" style="s2">That&#39;ll hold till the real parts come in.</p>
+<p begin="00:21:38.700" end="00:21:40.600" style="s2">Gunner found these on your creek Thursday night.</p>
+<p begin="00:21:42.100" end="00:21:44.266" style="s2">Two men in a half-ton came up</p>
+<p begin="00:21:44.266" end="00:21:47.966" style="s2">from the Henderson side cut your fence and twisted it back.</p>
+<p begin="00:21:48.700" end="00:21:52.800" style="s2">Kroll&#39;s got the same flags in his truck bed, and a crate of these</p>
+<p begin="00:21:52.800" end="00:21:57.900" style="s2">bottles with number three missing. It&#39;s your ranch. Your call. C.</p>
+<p begin="00:22:09.266" end="00:22:10.400" style="s2">Why didn&#39;t you tell me?</p>
+<p begin="00:22:12.366" end="00:22:13.533" style="s2">I was about to.</p>
+<p begin="00:22:15.066" end="00:22:16.333" style="s2">Then Ned pulled in,</p>
+<p begin="00:22:16.600" end="00:22:18.466" style="s2">and you said I had somewhere to be.</p>
+<p begin="00:22:19.266" end="00:22:20.000" style="s2">And that night,</p>
+<p begin="00:22:20.000" end="00:22:21.700" style="s2">you&#39;d just told me it wasn&#39;t my say.</p>
+<p begin="00:22:24.300" end="00:22:25.300" style="s2">I did say that.</p>
+<p begin="00:22:27.066" end="00:22:29.300" style="s2">I&#39;ll stay till Clover and the calf are out of the woods.</p>
+<p begin="00:22:29.500" end="00:22:30.800" style="s2">If that&#39;s all right with you.</p>
+<p begin="00:22:32.366" end="00:22:33.333" style="s2">Breakfast&#39;s at six.</p>
+<p begin="00:22:35.966" end="00:22:37.500" style="s2">He said banks don&#39;t want a dream.</p>
+<p begin="00:22:38.066" end="00:22:39.333" style="s2">They want the worst year.</p>
+<p begin="00:22:42.400" end="00:22:45.900" style="s2">Then Dad already wrote it. Thirty years of calving rates.</p>
+<p begin="00:22:46.066" end="00:22:47.400" style="s2">The drought in &#39;88.</p>
+<p begin="00:22:47.500" end="00:22:48.800" style="s2">The blizzard in &#39;97.</p>
+<p begin="00:22:49.066" end="00:22:50.466" style="s2">Every year we didn&#39;t go under.</p>
+<p begin="00:22:52.666" end="00:22:53.966" style="s2">Sell six open cows.</p>
+<p begin="00:22:54.300" end="00:22:56.000" style="s2">That catches us up on the back payments.</p>
+<p begin="00:22:56.600" end="00:22:58.466" style="s2">The roof and the water line are done.</p>
+<p begin="00:22:58.600" end="00:23:00.266" style="s2">No big repair bills this year.</p>
+<p begin="00:23:00.600" end="00:23:01.733" style="s2">Budget for them anyway.</p>
+<p begin="00:23:02.066" end="00:23:05.666" style="s2">Cabin income, first year zero. Zero?</p>
+<p begin="00:23:06.333" end="00:23:07.133" style="s2">Worst year, Wren.</p>
+<p begin="00:23:10.933" end="00:23:13.466" style="s2">Six open cows now, or wait for fall prices?</p>
+<p begin="00:23:14.666" end="00:23:15.466" style="s2">Your call.</p>
+<p begin="00:23:16.700" end="00:23:18.133" style="s2">I&#39;m asking what you think.</p>
+<p begin="00:23:18.366" end="00:23:19.866" style="s2">I&#39;m not asking you to decide.</p>
+<p begin="00:23:24.200" end="00:23:25.000" style="s2">Now. Prices are up,</p>
+<p begin="00:23:25.900" end="00:23:27.466" style="s2">and it shows the bank you&#39;ll cut before they make you.</p>
+<p begin="00:23:30.333" end="00:23:31.633" style="s2">Monday, we hand it in.</p>
+<p begin="00:23:34.300" end="00:23:35.800" style="s2">…thanks for your patience since Monday.</p>
+<p begin="00:23:35.866" end="00:23:37.466" style="s2">The board will restructure the note.</p>
+<p begin="00:23:38.500" end="00:23:42.100" style="s2">Conditions: six head sold by April first, and quarterly statements.</p>
+<p begin="00:23:42.400" end="00:23:44.066" style="s2">But we&#39;re willing to work with you.</p>
+<p begin="00:23:45.366" end="00:23:47.166" style="s2">Thank you. We&#39;ll have it done.</p>
+<p begin="00:23:50.566" end="00:23:54.600" style="s2">Is it enough? It&#39;s a shot. A fair one.</p>
+<p begin="00:23:59.966" end="00:24:02.933" style="s2">Heard in town you ladies paid the bank a visit Monday.</p>
+<p begin="00:24:03.200" end="00:24:05.566" style="s2">I take it you&#39;ve decided.</p>
+<p begin="00:24:05.700" end="00:24:06.900" style="s2">We have. We&#39;re declining your offer.</p>
+<p begin="00:24:09.166" end="00:24:11.866" style="s2">Both of you feel that way? Both of us.</p>
+<p begin="00:24:13.600" end="00:24:16.400" style="s2">You&#39;re taking on a lot of risk. We know.</p>
+<p begin="00:24:21.600" end="00:24:23.366" style="s2">Did that drifter talk you into this?</p>
+<p begin="00:24:23.600" end="00:24:26.366" style="s2">No. This one&#39;s ours.</p>
+<p begin="00:24:30.466" end="00:24:33.966" style="s2">Site three. The one your crate&#39;s been missing since Thursday.</p>
+<p begin="00:24:34.733" end="00:24:37.466" style="s2">You found our hand a job on that resort crew at double pay.</p>
+<p begin="00:24:39.800" end="00:24:41.800" style="s2">You bought the Henderson place last fall</p>
+<p begin="00:24:41.800" end="00:24:44.066" style="s2">and never ran a single cow on it.</p>
+<p begin="00:24:45.200" end="00:24:46.700" style="s2">You were never buying cattle ground.</p>
+<p begin="00:24:50.066" end="00:24:52.100" style="s2">You&#39;re buying Willow Creek for that resort.</p>
+<p begin="00:24:53.500" end="00:24:56.666" style="s2">Our water right on that creek goes back to 1904.</p>
+<p begin="00:24:57.666" end="00:24:59.300" style="s2">Senior to everybody downstream.</p>
+<p begin="00:25:00.733" end="00:25:02.766" style="s2">Testing water isn&#39;t a crime, Ms. Sutter.</p>
+<p begin="00:25:03.333" end="00:25:05.133" style="s2">Cutting my fence at midnight is.</p>
+<p begin="00:25:06.200" end="00:25:08.933" style="s2">Next time anybody working for you sets foot on this place,</p>
+<p begin="00:25:09.466" end="00:25:10.566" style="s2">I call the sheriff.</p>
+<p begin="00:25:17.300" end="00:25:18.933" style="s2">Water&#39;s worth more than beef in this valley.</p>
+<p begin="00:25:19.133" end="00:25:21.366" style="s2">Your father knew that.</p>
+<p begin="00:25:21.800" end="00:25:23.000" style="s2">He did. That&#39;s why he never sold.</p>
+<p begin="00:25:24.100" end="00:25:26.966" style="s2">Offer&#39;s open if you come to your senses. We won&#39;t.</p>
+<p begin="00:25:27.700" end="00:25:29.000" style="s2">Drive safe, Mr. Kroll.</p>
+<p begin="00:25:51.100" end="00:25:52.166" style="s2">You&#39;re locking me in?</p>
+<p begin="00:25:52.866" end="00:25:53.500" style="s2">Two weeks ago</p>
+<p begin="00:25:53.500" end="00:25:55.600" style="s2">you stood outside this gate and asked me for ten days.</p>
+<p begin="00:25:56.066" end="00:25:58.000" style="s2">Now I&#39;m the one standing at it, asking.</p>
+<p begin="00:26:00.733" end="00:26:02.100" style="s2">You&#39;ve got a cabin to finish.</p>
+<p begin="00:26:02.700" end="00:26:03.500" style="s2">Bank conditions.</p>
+<p begin="00:26:03.666" end="00:26:05.300" style="s2">You don&#39;t need another problem to manage.</p>
+<p begin="00:26:06.733" end="00:26:07.800" style="s2">You&#39;re not a problem.</p>
+<p begin="00:26:08.566" end="00:26:10.000" style="s2">When I said you had somewhere to be,</p>
+<p begin="00:26:10.000" end="00:26:11.766" style="s2">that was because I couldn&#39;t pay you to stay.</p>
+<p begin="00:26:16.966" end="00:26:19.000" style="s2">Since Dad, I&#39;ve held on to this place so tight</p>
+<p begin="00:26:19.000" end="00:26:21.100" style="s2">I wouldn&#39;t let anybody near it. Not even Wren.</p>
+<p begin="00:26:23.500" end="00:26:25.500" style="s2">I&#39;ve done the same thing with a duffel bag.</p>
+<p begin="00:26:28.566" end="00:26:29.900" style="s2">Wren and I want you to stay.</p>
+<p begin="00:26:30.600" end="00:26:31.800" style="s2">For real this time.</p>
+<p begin="00:26:36.300" end="00:26:38.566" style="s2">The new note leaves room for one real wage.</p>
+<p begin="00:26:39.266" end="00:26:40.100" style="s2">Everything in writing.</p>
+<p begin="00:26:40.866" end="00:26:41.933" style="s2">And if this works,</p>
+<p begin="00:26:43.800" end="00:26:45.466" style="s2">a piece of the ranch down the road.</p>
+<p begin="00:26:46.800" end="00:26:48.066" style="s2">And if it doesn&#39;t work?</p>
+<p begin="00:26:48.366" end="00:26:50.333" style="s2">Then we sit at that table and talk it out.</p>
+<p begin="00:26:50.666" end="00:26:55.133" style="s2">Nobody leaves in the night. We? We.</p>
+<p begin="00:26:56.733" end="00:26:57.700" style="s2">That a job offer?</p>
+<p begin="00:26:59.000" end="00:26:59.866" style="s2">Some of it.</p>
+<p begin="00:27:00.533" end="00:27:01.333" style="s2">And the rest?</p>
+<p begin="00:27:02.666" end="00:27:03.700" style="s2">I&#39;d miss you.</p>
+<p begin="00:27:06.900" end="00:27:08.700" style="s2">Not half as much as I&#39;d miss you.</p>
+<p begin="00:27:10.600" end="00:27:11.766" style="s2">Don&#39;t forget me!</p>
+<p begin="00:27:12.766" end="00:27:13.766" style="s2">Couldn&#39;t if I tried!</p>
+<p begin="00:27:15.966" end="00:27:17.300" style="s2">He&#39;s feeling left out!</p>
+<p begin="00:27:22.933" end="00:27:25.900" style="s2">Morning. This is Cole Brandt, about the job in Havre.</p>
+<p begin="00:27:26.400" end="00:27:27.800" style="s2">I&#39;m gonna have to turn it down.</p>
+<p begin="00:27:29.600" end="00:27:31.333" style="s2">…Yes, sir. I found a place.</p>
+<p begin="00:27:32.000" end="00:27:34.300" style="s2">But there&#39;s a Marine in Billings, just got out,</p>
+<p begin="00:27:34.300" end="00:27:35.333" style="s2">best hand I know.</p>
+<p begin="00:27:36.066" end="00:27:37.200" style="s2">I&#39;ll send him your way.</p>
+<p begin="00:28:06.366" end="00:28:07.766" style="s2">County signed off last week.</p>
+<p begin="00:28:08.000" end="00:28:09.933" style="s2">And that&#39;s our first booking pulling in!</p>
+<p begin="00:28:11.966" end="00:28:13.966" style="s2">Strangers are actually paying to sleep here?</p>
+<p begin="00:28:15.266" end="00:28:16.733" style="s2">That&#39;s kind of the point of a booking.</p>
+<p begin="00:28:19.466" end="00:28:21.666" style="s2">Oh! The dog from the listing!</p>
+<p begin="00:28:22.333" end="00:28:23.066" style="s2">That&#39;s Gunner.</p>
+<p begin="00:28:23.066" end="00:28:24.066" style="s2">He&#39;s supervising.</p>
+<p begin="00:28:25.133" end="00:28:26.533" style="s2">Might book a weekend myself.</p>
+<p begin="00:28:27.400" end="00:28:29.133" style="s2">Ned, you live ten minutes away.</p>
+<p begin="00:28:29.466" end="00:28:30.733" style="s2">Exactly. No travel.</p>
+<p begin="00:28:35.066" end="00:28:38.133" style="s2">Wages, and a cut of the profits for now.</p>
+<p begin="00:28:38.733" end="00:28:40.533" style="s2">Anything about ownership goes on paper.</p>
+<p begin="00:28:41.500" end="00:28:42.566" style="s2">Nothing on a handshake.</p>
+<p begin="00:28:43.600" end="00:28:44.766" style="s2">Nothing on a handshake.</p>
+<p begin="00:28:49.566" end="00:28:52.800" style="s2">Twelve years in the Navy, and I never signed this much. Sign it.</p>
+<p begin="00:28:58.933" end="00:29:00.000" style="s2">Barn side door.</p>
+<p begin="00:29:00.266" end="00:29:02.733" style="s2">New latch and hinge came in. Holds.</p>
+<p begin="00:29:03.266" end="00:29:04.933" style="s2">Dad would&#39;ve put you to work your first hour.</p>
+<p begin="00:29:06.500" end="00:29:07.933" style="s2">Wish I&#39;d gotten to shake his hand.</p>
+<p begin="00:29:12.100" end="00:29:13.166" style="s2">You said ten days.</p>
+<p begin="00:29:15.366" end="00:29:18.900" style="s2">Never was any good at counting. How long this time?</p>
+<p begin="00:29:19.866" end="00:29:21.766" style="s2">Long enough to watch that calf grow up.</p>
+<p begin="00:29:24.066" end="00:29:25.133" style="s2">Welcome home, Cole.</p>
+</div>
+</body>
+</tt>

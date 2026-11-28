@@ -763,3 +763,8 @@ Use `knowledge/market/eveningstar-precognitive-child-kinship-deep-dive.md` when 
 ## Duplicate-upload distribution anti-overfit doctrine
 
 Use `knowledge/market/duplicate-upload-packaging-experiment-bAje-PRn.md` before inferring craft quality from views. The same visually matching film appears as a ~684k breakout and a 40-view upload under different titles/thumbnails/channels. This is confounded, not CTR proof, but it proves discovery and story quality are separable. For hidden-competence romance, packaging should make competence/institutional artifacts visible rather than relying on interchangeable luxury couple imagery.
+
+
+## Nightfall elder-remittance care doctrine
+
+Use `knowledge/market/nightfall-elder-remittance-care-hit-medium-low-comparison.md` before writing elder exploitation, remittance, guardianship, caregiver, dementia-capacity, or delegated-family-care stories. Money sent is not care received. Require exact support/material neglect contradiction, dignified elder competence/selfhood, material proxy control, sender complicity, unannounced witnessing, falsifiable medical/legal capacity attack, ordinary records/witnesses, elder self-testimony, revoked false authority, and ending care infrastructure based on consent/presence/community dignity. Run `elder_remittance_care_integrity`. The low ranch comparator is strong craft despite low/recent discovery.

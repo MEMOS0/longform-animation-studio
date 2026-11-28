@@ -5858,3 +5858,12 @@ def test_precognitive_child_kinship_integrity():
  out=ev(p,a,[{'summary':'A tampered DNA report says 0%, but a carved necklace, death certificate, foundation payment, witness, and security footage corroborate identity. She says I do not lie on the live stream and ruins the image event. The adults refuse to use her for PR and tell her you are my daughter, not my bodyguard.'}])
  assert out['applies'] and out['score_0_to_1']>.65
  assert ev({'logline':'A dragon guards a cave.'},{},[])['applies'] is False
+
+def test_elder_remittance_care_integrity():
+ from studio.elder_remittance_care_integrity import evaluate_elder_remittance_care_integrity as ev
+ p={'logline':'A millionaire who sends his mother three thousand dollars a month comes home unannounced and finds her begging for rice on credit.'}
+ a={'ending_payoff':'The petition is denied, the emergency order is vacated, revocation stands, there is no sale, the forgers are arrested, loans are frozen, and he asks me first while money becomes presence at the table and the porch light stays on.'}
+ scene={'summary':'The mother sewed on a machine and put him through school. A padlock, phone block, power of attorney, dementia claim, lorazepam, loan forms, grocery ledger, order slips, witnesses, and her own courtroom testimony expose the proxy exploitation. Gwen pays her tab at the store.'}
+ out=ev(p,a,[scene])
+ assert out['applies'] and out['score_0_to_1']>.65
+ assert ev({'logline':'A dragon guards a cave.'},{},[])['applies'] is False

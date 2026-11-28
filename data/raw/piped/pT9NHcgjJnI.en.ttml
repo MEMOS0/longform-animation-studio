@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.266" end="00:00:02.500" style="s2">Well, there she is.</p>
+<p begin="00:00:03.000" end="00:00:06.500" style="s2">The millionaire&#39;s mama, begging for rice on credit again.</p>
+<p begin="00:00:07.066" end="00:00:09.333" style="s2">Thursday, Opal. All at once. I promise.</p>
+<p begin="00:00:14.800" end="00:00:16.400" style="s2">Mind your own business, Gwen.</p>
+<p begin="00:00:16.900" end="00:00:18.366" style="s2">She doesn&#39;t owe me a dime.</p>
+<p begin="00:00:30.200" end="00:00:31.200" style="s2">Dalton Whitlock.</p>
+<p begin="00:00:31.600" end="00:00:33.166" style="s2">Don&#39;t you go in there yet, son.</p>
+<p begin="00:00:33.700" end="00:00:35.533" style="s2">Your mama&#39;s inside with a fever,</p>
+<p begin="00:00:35.600" end="00:00:37.300" style="s2">asking me for a pound of rice.</p>
+<p begin="00:00:38.133" end="00:00:42.000" style="s2">Rice? I send her three thousand dollars a month.</p>
+<p begin="00:00:42.733" end="00:00:46.000" style="s2">And she&#39;s been buying rice on credit for seven months.</p>
+<p begin="00:00:46.733" end="00:00:48.766" style="s2">Every week it&#39;s &quot;Thursday, Opal.&quot;</p>
+<p begin="00:00:50.133" end="00:00:51.600" style="s2">Why didn&#39;t anybody call me?</p>
+<p begin="00:00:52.400" end="00:00:54.200" style="s2">She made me swear I wouldn&#39;t.</p>
+<p begin="00:00:55.266" end="00:00:57.866" style="s2">And somebody put a padlock on her pantry.</p>
+<p begin="00:01:03.800" end="00:01:05.000" style="s2">Can&#39;t lose that one.</p>
+<p begin="00:01:07.466" end="00:01:08.400" style="s2">Mrs. Whitlock?</p>
+<p begin="00:01:08.566" end="00:01:10.966" style="s2">Your dress for Maisie&#39;s graduation party is ready.</p>
+<p begin="00:01:14.133" end="00:01:16.966" style="s2">Brandi. The old lady&#39;s money just hit.</p>
+<p begin="00:01:17.133" end="00:01:18.566" style="s2">Your usual goes out tomorrow.</p>
+<p begin="00:01:18.866" end="00:01:20.066" style="s2">She never even asks.</p>
+<p begin="00:01:21.200" end="00:01:22.333" style="s2">Don&#39;t spend it.</p>
+<p begin="00:01:22.666" end="00:01:25.200" style="s2">I need every penny for Saturday after next.</p>
+<p begin="00:01:41.200" end="00:01:42.700" style="s2">You&#39;re not going after her?</p>
+<p begin="00:01:43.333" end="00:01:45.366" style="s2">I don&#39;t want her to know I saw her like this.</p>
+<p begin="00:01:47.000" end="00:01:48.533" style="s2">How do you know about the padlock?</p>
+<p begin="00:01:50.533" end="00:01:52.966" style="s2">Saw it at Christmas, when I brought her some soup.</p>
+<p begin="00:01:54.900" end="00:01:55.966" style="s2">I&#39;ll give her an hour.</p>
+<p begin="00:01:56.533" end="00:01:57.800" style="s2">Then I&#39;m knocking on that door</p>
+<p begin="00:01:57.800" end="00:01:59.133" style="s2">like I just got off the plane.</p>
+<p begin="00:02:07.300" end="00:02:10.600" style="s2">Dalton? You didn&#39;t tell me you were coming.</p>
+<p begin="00:02:11.933" end="00:02:13.600" style="s2">I haven&#39;t straightened up a thing.</p>
+<p begin="00:02:14.000" end="00:02:14.900" style="s2">Sit, sit.</p>
+<p begin="00:02:15.400" end="00:02:17.066" style="s2">You still take two sugars?</p>
+<p begin="00:02:22.466" end="00:02:23.866" style="s2">Mama, what&#39;s that on the pantry?</p>
+<p begin="00:02:25.700" end="00:02:27.933" style="s2">Oh, that. Mice were getting in.</p>
+<p begin="00:02:29.733" end="00:02:31.066" style="s2">Mice open doors now?</p>
+<p begin="00:02:35.500" end="00:02:37.266" style="s2">Drink your coffee before it gets cold.</p>
+<p begin="00:02:41.500" end="00:02:42.533" style="s2">Who has the key?</p>
+<p begin="00:02:46.666" end="00:02:49.200" style="s2">Mama. Who has the key?</p>
+<p begin="00:02:51.566" end="00:02:53.066" style="s2">Celeste keeps it.</p>
+<p begin="00:02:54.200" end="00:02:57.600" style="s2">She says I eat at all hours and it&#39;s bad for me.</p>
+<p begin="00:02:58.866" end="00:03:03.666" style="s2">She says we have to be careful with the little that comes in.</p>
+<p begin="00:03:04.400" end="00:03:05.600" style="s2">The little that comes in.</p>
+<p begin="00:03:10.200" end="00:03:11.900" style="s2">Mama, I send you three thousand dollars</p>
+<p begin="00:03:11.900" end="00:03:15.800" style="s2">on the first of every month. How much?</p>
+<p begin="00:03:16.533" end="00:03:17.333" style="s2">Three thousand.</p>
+<p begin="00:03:17.800" end="00:03:19.900" style="s2">Every month. For three years.</p>
+<p begin="00:03:24.966" end="00:03:26.733" style="s2">She told me things were hard over</p>
+<p begin="00:03:26.733" end="00:03:29.066" style="s2">there. That you sent what you could.</p>
+<p begin="00:03:29.600" end="00:03:31.200" style="s2">What else did she do to you?</p>
+<p begin="00:03:32.533" end="00:03:34.333" style="s2">I asked her to forgive me, son.</p>
+<p begin="00:03:35.066" end="00:03:37.166" style="s2">I apologized to her for eating.</p>
+<p begin="00:03:43.900" end="00:03:45.200" style="s2">Don&#39;t be hard on her.</p>
+<p begin="00:03:46.066" end="00:03:48.266" style="s2">She doesn&#39;t like me going out, that&#39;s all.</p>
+<p begin="00:03:49.300" end="00:03:50.766" style="s2">She says people talk.</p>
+<p begin="00:03:57.133" end="00:03:58.700" style="s2">Where&#39;s your fever medicine, Mama?</p>
+<p begin="00:03:58.700" end="00:03:59.600" style="s2">Aspirin, anything?</p>
+<p begin="00:04:01.466" end="00:04:02.600" style="s2">There&#39;s nothing, baby.</p>
+<p begin="00:04:03.466" end="00:04:05.766" style="s2">It&#39;ll pass. It always does.</p>
+<p begin="00:04:18.566" end="00:04:20.000" style="s2">Figured you&#39;d be by tonight.</p>
+<p begin="00:04:29.066" end="00:04:31.666" style="s2">I haven&#39;t had anything hot in a long time.</p>
+<p begin="00:04:32.733" end="00:04:33.500" style="s2">Slow down, Mama.</p>
+<p begin="00:04:33.500" end="00:04:34.300" style="s2">There&#39;s more.</p>
+<p begin="00:04:38.666" end="00:04:40.133" style="s2">Look what you came home to.</p>
+<p begin="00:04:45.366" end="00:04:47.166" style="s2">You don&#39;t have to earn a meal</p>
+<p begin="00:04:47.166" end="00:04:48.566" style="s2">in your own house, Mama. Eat.</p>
+<p begin="00:04:53.266" end="00:04:56.133" style="s2">You just eat. Let me handle the rest.</p>
+<p begin="00:05:13.066" end="00:05:14.333" style="s2">So I won&#39;t forget.</p>
+<p begin="00:05:15.600" end="00:05:18.200" style="s2">Because later you start thinking you made it up.</p>
+<p begin="00:05:21.966" end="00:05:23.866" style="s2">Today she took my bank money. She</p>
+<p begin="00:05:24.500" end="00:05:27.533" style="s2">says she&#39;ll keep it safe. I said yes.</p>
+<p begin="00:05:28.500" end="00:05:30.700" style="s2">I don&#39;t want trouble with my son&#39;s wife.</p>
+<p begin="00:05:34.466" end="00:05:36.100" style="s2">I asked for a little meat.</p>
+<p begin="00:05:36.866" end="00:05:38.900" style="s2">She says at my age it&#39;s too heavy.</p>
+<p begin="00:05:39.800" end="00:05:41.500" style="s2">She left rice and water.</p>
+<p begin="00:05:43.933" end="00:05:44.900" style="s2">It was good.</p>
+<p begin="00:05:46.533" end="00:05:48.200" style="s2">She brings me papers to sign.</p>
+<p begin="00:05:49.366" end="00:05:52.800" style="s2">She says they&#39;re for the pharmacy. I sign them.</p>
+<p begin="00:05:57.066" end="00:05:58.366" style="s2">October fourteenth.</p>
+<p begin="00:05:59.566" end="00:06:01.400" style="s2">She put a lock on the pantry.</p>
+<p begin="00:06:02.133" end="00:06:02.533" style="s2">She says</p>
+<p begin="00:06:02.630" end="00:06:03.830" style="s2">I eat too much.</p>
+<p begin="00:06:06.766" end="00:06:08.466" style="s2">The sewing machine is gone.</p>
+<p begin="00:06:09.266" end="00:06:10.866" style="s2">She said it made too much noise.</p>
+<p begin="00:06:11.800" end="00:06:14.666" style="s2">My Harold bought it for me with his first paycheck.</p>
+<p begin="00:06:15.733" end="00:06:16.766" style="s2">But she&#39;s right.</p>
+<p begin="00:06:18.266" end="00:06:19.966" style="s2">Nobody orders dresses anymore.</p>
+<p begin="00:06:24.533" end="00:06:26.366" style="s2">I called Dalton five times.</p>
+<p begin="00:06:26.366" end="00:06:27.466" style="s2">It won&#39;t go through.</p>
+<p begin="00:06:28.766" end="00:06:32.300" style="s2">Maybe I don&#39;t know how to work these phones. I&#39;m scared.</p>
+<p begin="00:06:38.500" end="00:06:39.966" style="s2">Today I am seventy.</p>
+<p begin="00:06:41.000" end="00:06:43.166" style="s2">I ate yesterday&#39;s rice by myself.</p>
+<p begin="00:06:43.866" end="00:06:45.766" style="s2">I&#39;m too old for parties anyway.</p>
+<p begin="00:06:46.766" end="00:06:49.066" style="s2">My Sunday dress hangs on me now.</p>
+<p begin="00:06:52.700" end="00:06:54.000" style="s2">Whoever reads this,</p>
+<p begin="00:06:54.000" end="00:06:55.200" style="s2">don&#39;t tell Dalton.</p>
+<p begin="00:06:57.000" end="00:06:58.400" style="s2">He sends what he can.</p>
+<p begin="00:06:58.500" end="00:06:59.866" style="s2">I don&#39;t want to be a burden.</p>
+<p begin="00:07:14.466" end="00:07:18.466" style="s2">How&#39;d she do? Fever broke around three.</p>
+<p begin="00:07:18.800" end="00:07:19.800" style="s2">She&#39;s still sleeping.</p>
+<p begin="00:07:27.366" end="00:07:29.000" style="s2">She made me swear the same thing.</p>
+<p begin="00:07:29.000" end="00:07:30.466" style="s2">I never had your number, son.</p>
+<p begin="00:07:31.600" end="00:07:32.700" style="s2">Seven months, Opal.</p>
+<p begin="00:07:33.100" end="00:07:34.533" style="s2">Why&#39;d you carry her that long?</p>
+<p begin="00:07:37.100" end="00:07:39.333" style="s2">Your mama sewed my Rosie&#39;s wedding dress.</p>
+<p begin="00:07:40.533" end="00:07:42.000" style="s2">I couldn&#39;t pay her a cent,</p>
+<p begin="00:07:42.066" end="00:07:43.866" style="s2">and she wouldn&#39;t have taken it anyway.</p>
+<p begin="00:07:48.500" end="00:07:54.333" style="s2">I write the date and the time. Every time. In case</p>
+<p begin="00:07:54.366" end="00:07:57.300" style="s2">somebody ever asked what was going on in this house.</p>
+<p begin="00:07:59.566" end="00:08:00.700" style="s2">Don&#39;t lose that.</p>
+<p begin="00:08:01.400" end="00:08:02.600" style="s2">I&#39;m gonna need it.</p>
+<p begin="00:08:02.900" end="00:08:04.100" style="s2">Then make copies.</p>
+<p begin="00:08:04.400" end="00:08:06.500" style="s2">The original doesn&#39;t leave my hands.</p>
+<p begin="00:08:08.100" end="00:08:10.200" style="s2">And here&#39;s that bank form you sent me.</p>
+<p begin="00:08:10.666" end="00:08:12.100" style="s2">Printed on the store machine.</p>
+<p begin="00:08:24.500" end="00:08:25.733" style="s2">Sign here, Mama, so the bank will</p>
+<p begin="00:08:25.733" end="00:08:26.900" style="s2">let me look at your account.</p>
+<p begin="00:08:30.700" end="00:08:32.400" style="s2">What if Celeste finds out?</p>
+<p begin="00:08:32.666" end="00:08:35.200" style="s2">She&#39;ll be mad.</p>
+<p begin="00:08:37.820" end="00:08:38.120" style="s2">Let her.</p>
+<p begin="00:08:38.066" end="00:08:42.200" style="s2">L-o-r-e-t-t-a.</p>
+<p begin="00:08:46.466" end="00:08:47.766" style="s2">Still slow as ever.</p>
+<p begin="00:08:49.800" end="00:08:51.533" style="s2">You learned at forty-one, Mama.</p>
+<p begin="00:08:51.700" end="00:08:52.866" style="s2">Nobody&#39;s rushing you.</p>
+<p begin="00:08:55.100" end="00:08:57.366" style="s2">Dalton Whitlock?</p>
+<p begin="00:08:57.733" end="00:08:59.133" style="s2">Aren&#39;t you supposed to be in Dubai?</p>
+<p begin="00:09:01.933" end="00:09:02.800" style="s2">Got in yesterday.</p>
+<p begin="00:09:03.766" end="00:09:05.500" style="s2">My mother signed this this morning.</p>
+<p begin="00:09:05.966" end="00:09:07.333" style="s2">I need to know where my money&#39;s</p>
+<p begin="00:09:07.333" end="00:09:08.533" style="s2">been going for three years.</p>
+<p begin="00:09:13.133" end="00:09:15.500" style="s2">Your transfers don&#39;t go to her old savings account.</p>
+<p begin="00:09:15.500" end="00:09:16.700" style="s2">They go into this one.</p>
+<p begin="00:09:16.933" end="00:09:17.800" style="s2">&quot;Household account.&quot;</p>
+<p begin="00:09:19.566" end="00:09:21.400" style="s2">Celeste opened it three years ago</p>
+<p begin="00:09:21.400" end="00:09:22.900" style="s2">with a power of attorney your mother signed.</p>
+<p begin="00:09:23.600" end="00:09:24.800" style="s2">Celeste&#39;s a joint owner.</p>
+<p begin="00:09:25.100" end="00:09:27.266" style="s2">She can take money out without asking anybody.</p>
+<p begin="00:09:29.066" end="00:09:30.866" style="s2">Then how did my money end up in there?</p>
+<p begin="00:09:32.500" end="00:09:33.600" style="s2">You moved it there.</p>
+<p begin="00:09:33.866" end="00:09:34.766" style="s2">That&#39;s your signature.</p>
+<p begin="00:09:36.266" end="00:09:37.766" style="s2">The morning I flew out.</p>
+<p begin="00:09:38.966" end="00:09:40.566" style="s2">She had a folder in her hand.</p>
+<p begin="00:09:41.566" end="00:09:43.066" style="s2">&quot;Sign here, babe, we&#39;re late.&quot;</p>
+<p begin="00:09:43.966" end="00:09:45.400" style="s2">I didn&#39;t even read it.</p>
+<p begin="00:09:47.066" end="00:09:48.700" style="s2">I handed her the key myself.</p>
+<p begin="00:09:53.133" end="00:09:55.000" style="s2">The first sixteen months, the money</p>
+<p begin="00:09:55.000" end="00:09:57.200" style="s2">came out in cash, a little at a time.</p>
+<p begin="00:09:58.366" end="00:10:00.800" style="s2">The last twenty months, the day after every</p>
+<p begin="00:10:00.800" end="00:10:03.066" style="s2">deposit, twenty-seven hundred goes out.</p>
+<p begin="00:10:03.333" end="00:10:06.066" style="s2">Same person every time. Brandi Vale.</p>
+<p begin="00:10:07.000" end="00:10:07.900" style="s2">Brandi is her sister.</p>
+<p begin="00:10:09.366" end="00:10:11.000" style="s2">That&#39;s fifty-four thousand dollars.</p>
+<p begin="00:10:12.100" end="00:10:13.366" style="s2">If you go after this,</p>
+<p begin="00:10:13.366" end="00:10:15.866" style="s2">you&#39;ll have to prove it wasn&#39;t some family arrangement.</p>
+<p begin="00:10:16.700" end="00:10:17.800" style="s2">Then show me everything.</p>
+<p begin="00:10:22.666" end="00:10:26.266" style="s2">There&#39;s more. Your mother has three loans in her name.</p>
+<p begin="00:10:26.866" end="00:10:27.766" style="s2">Thirty-eight thousand.</p>
+<p begin="00:10:28.533" end="00:10:30.466" style="s2">The application says she owns a business.</p>
+<p begin="00:10:30.900" end="00:10:32.000" style="s2">Loretta&#39;s Alterations.</p>
+<p begin="00:10:32.700" end="00:10:34.166" style="s2">Ninety-six thousand a year.</p>
+<p begin="00:10:36.666" end="00:10:39.100" style="s2">My mother doesn&#39;t even have a sewing machine anymore.</p>
+<p begin="00:10:44.666" end="00:10:46.466" style="s2">The money went to that dress shop</p>
+<p begin="00:10:46.466" end="00:10:48.466" style="s2">on Main and a deposit at the Oakwood Room.</p>
+<p begin="00:10:50.400" end="00:10:51.566" style="s2">The Oakwood Room.</p>
+<p begin="00:10:52.533" end="00:10:54.266" style="s2">That&#39;s where my daughter&#39;s party is.</p>
+<p begin="00:10:56.166" end="00:10:59.966" style="s2">The first two loans were done online, with a scan of her ID.</p>
+<p begin="00:11:03.666" end="00:11:05.866" style="s2">The third came through right here at the counter.</p>
+<p begin="00:11:06.400" end="00:11:08.800" style="s2">Already signed, with your mother&#39;s license.</p>
+<p begin="00:11:10.133" end="00:11:12.500" style="s2">I remember her. Thirties,</p>
+<p begin="00:11:13.266" end="00:11:14.266" style="s2">bleached blonde,</p>
+<p begin="00:11:14.733" end="00:11:15.666" style="s2">big earrings.</p>
+<p begin="00:11:16.533" end="00:11:17.766" style="s2">Said your mother was sick</p>
+<p begin="00:11:18.066" end="00:11:19.133" style="s2">and she was the daughter.</p>
+<p begin="00:11:20.000" end="00:11:21.600" style="s2">A new teller pushed it through.</p>
+<p begin="00:11:24.000" end="00:11:25.400" style="s2">My mother doesn&#39;t have a daughter.</p>
+<p begin="00:11:32.900" end="00:11:35.866" style="s2">The one on the loans is fast. Confident.</p>
+<p begin="00:11:36.700" end="00:11:38.300" style="s2">This one, from this morning,</p>
+<p begin="00:11:39.466" end="00:11:41.333" style="s2">is one letter at a time.</p>
+<p begin="00:11:42.000" end="00:11:44.066" style="s2">Whoever signed the loans has been</p>
+<p begin="00:11:44.066" end="00:11:45.600" style="s2">signing their name all their life.</p>
+<p begin="00:11:46.100" end="00:11:47.266" style="s2">Your mother hasn&#39;t.</p>
+<p begin="00:11:49.066" end="00:11:50.666" style="s2">I need copies of all of it.</p>
+<p begin="00:11:50.933" end="00:11:51.733" style="s2">Already printing.</p>
+<p begin="00:11:56.366" end="00:11:58.166" style="s2">I&#39;m looking for a treadle machine.</p>
+<p begin="00:11:58.933" end="00:11:59.966" style="s2">An old Singer.</p>
+<p begin="00:12:01.066" end="00:12:03.666" style="s2">Whitlock? You&#39;re Loretta&#39;s boy.</p>
+<p begin="00:12:04.166" end="00:12:07.066" style="s2">The lady who sewed every wedding dress in this county.</p>
+<p begin="00:12:13.266" end="00:12:14.366" style="s2">Who sold you this?</p>
+<p begin="00:12:15.533" end="00:12:18.000" style="s2">Fancy lady. December.</p>
+<p begin="00:12:18.566" end="00:12:20.333" style="s2">Pulled up in a black SUV,</p>
+<p begin="00:12:20.333" end="00:12:21.566" style="s2">some fella driving.</p>
+<p begin="00:12:22.166" end="00:12:24.066" style="s2">He&#39;s the one carried it in for her.</p>
+<p begin="00:12:25.100" end="00:12:27.533" style="s2">She said it belonged to her late mother-in-law.</p>
+<p begin="00:12:28.566" end="00:12:29.933" style="s2">Sir, my mother is alive.</p>
+<p begin="00:12:36.733" end="00:12:38.700" style="s2">I gave a hundred and fifty for it.</p>
+<p begin="00:12:38.800" end="00:12:40.933" style="s2">Take it, son. Take it right now.</p>
+<p begin="00:12:40.933" end="00:12:43.133" style="s2">Not yet. Keep it here for me.</p>
+<p begin="00:12:43.466" end="00:12:45.166" style="s2">And write down who sold it to you.</p>
+<p begin="00:12:55.266" end="00:12:58.566" style="s2">Drawer&#39;s still full of her order slips. Didn&#39;t</p>
+<p begin="00:12:58.566" end="00:13:00.266" style="s2">have the heart to throw &#39;em out.</p>
+<p begin="00:13:05.866" end="00:13:07.866" style="s2">She put me through school on this machine.</p>
+<p begin="00:13:11.300" end="00:13:13.333" style="s2">Then I&#39;ll guard it like it&#39;s mine.</p>
+<p begin="00:13:18.100" end="00:13:19.133" style="s2">Okay, your mom&#39;s line.</p>
+<p begin="00:13:19.133" end="00:13:22.066" style="s2">There&#39;s a block on outgoing calls to one number. Yours.</p>
+<p begin="00:13:22.933" end="00:13:24.733" style="s2">And any call from your number gets</p>
+<p begin="00:13:24.733" end="00:13:26.000" style="s2">forwarded to another phone.</p>
+<p begin="00:13:26.733" end="00:13:27.566" style="s2">Forwarded where?</p>
+<p begin="00:13:28.800" end="00:13:30.266" style="s2">To the account administrator.</p>
+<p begin="00:13:30.366" end="00:13:31.666" style="s2">Mrs. Celeste Whitlock.</p>
+<p begin="00:13:33.500" end="00:13:35.100" style="s2">Who gave her the right to do that?</p>
+<p begin="00:13:37.766" end="00:13:38.700" style="s2">You did, sir.</p>
+<p begin="00:13:39.200" end="00:13:40.900" style="s2">You opened the family plan three years</p>
+<p begin="00:13:40.900" end="00:13:42.500" style="s2">ago and made her the administrator.</p>
+<p begin="00:13:46.066" end="00:13:47.566" style="s2">So she could handle the bills.</p>
+<p begin="00:13:52.966" end="00:13:54.566" style="s2">How long has that block been on? Five months.</p>
+<p begin="00:13:58.533" end="00:13:59.900" style="s2">You knew how to work the phone,</p>
+<p begin="00:13:59.900" end="00:14:00.466" style="s2">Mama. She blocked you.</p>
+<p begin="00:14:02.266" end="00:14:05.166" style="s2">And every time I called you, I got her.</p>
+<p begin="00:14:10.566" end="00:14:12.366" style="s2">I kept asking her how you were.</p>
+<p begin="00:14:13.500" end="00:14:14.966" style="s2">I stopped asking you.</p>
+<p begin="00:14:16.200" end="00:14:20.733" style="s2">What are you gonna do? Call her. You listen.</p>
+<p begin="00:14:21.100" end="00:14:22.133" style="s2">Don&#39;t say a word.</p>
+<p begin="00:14:29.766" end="00:14:33.133" style="s2">Baby! Isn&#39;t it two in the morning over there?</p>
+<p begin="00:14:34.366" end="00:14:36.766" style="s2">Couldn&#39;t sleep. How&#39;s Mama?</p>
+<p begin="00:14:37.100" end="00:14:38.500" style="s2">I haven&#39;t talked to her in days.</p>
+<p begin="00:14:39.066" end="00:14:40.600" style="s2">Oh, she&#39;s great.</p>
+<p begin="00:14:41.366" end="00:14:43.333" style="s2">I took her a pot roast today.</p>
+<p begin="00:14:44.366" end="00:14:45.600" style="s2">She ate like a horse.</p>
+<p begin="00:14:46.400" end="00:14:47.666" style="s2">She sends kisses.</p>
+<p begin="00:14:47.966" end="00:14:48.933" style="s2">You know her,</p>
+<p begin="00:14:48.933" end="00:14:50.133" style="s2">in bed by eight.</p>
+<p begin="00:14:52.700" end="00:14:54.500" style="s2">I&#39;m thinking of moving my flight up.</p>
+<p begin="00:14:54.700" end="00:14:56.133" style="s2">Don&#39;t change a thing, baby.</p>
+<p begin="00:14:56.566" end="00:14:57.900" style="s2">Friday, like we planned.</p>
+<p begin="00:14:58.133" end="00:14:59.700" style="s2">I&#39;ve got everything handled.</p>
+<p begin="00:15:03.000" end="00:15:05.766" style="s2">Was that him? Does he suspect anything?</p>
+<p begin="00:15:10.133" end="00:15:12.200" style="s2">Dalton doesn&#39;t read what I put in front of him.</p>
+<p begin="00:15:14.400" end="00:15:15.600" style="s2">Son, there&#39;s something else.</p>
+<p begin="00:15:16.700" end="00:15:18.900" style="s2">One time she yelled at me in front of Maisie.</p>
+<p begin="00:15:19.366" end="00:15:21.166" style="s2">Said I was nobody in this house.</p>
+<p begin="00:15:21.766" end="00:15:23.766" style="s2">Said I&#39;m not even her real grandmother.</p>
+<p begin="00:15:25.400" end="00:15:29.133" style="s2">I don&#39;t know why she&#39;d say a thing like that. Maisie</p>
+<p begin="00:15:29.133" end="00:15:29.933" style="s2">is your girl.</p>
+<p begin="00:15:49.466" end="00:15:50.566" style="s2">It&#39;s Saturday.</p>
+<p begin="00:15:50.733" end="00:15:52.266" style="s2">She comes on Saturdays.</p>
+<p begin="00:16:14.333" end="00:16:17.600" style="s2">Where&#39;d all this come from? Opal.</p>
+<p begin="00:16:25.766" end="00:16:27.266" style="s2">You&#39;ll get fat on charity,</p>
+<p begin="00:16:27.366" end="00:16:28.933" style="s2">and this whole town will talk.</p>
+<p begin="00:16:34.600" end="00:16:36.200" style="s2">Sign. It&#39;s for the pharmacy.</p>
+<p begin="00:16:42.166" end="00:16:43.300" style="s2">God, you&#39;re slow.</p>
+<p begin="00:16:50.333" end="00:16:51.366" style="s2">Don&#39;t bother with the date.</p>
+<p begin="00:16:51.366" end="00:16:52.266" style="s2">I&#39;ll fill it in.</p>
+<p begin="00:16:54.133" end="00:16:57.300" style="s2">Celeste, could I come to Maisie&#39;s party?</p>
+<p begin="00:16:58.000" end="00:16:59.300" style="s2">I&#39;d sit in the back.</p>
+<p begin="00:17:01.100" end="00:17:01.966" style="s2">You&#39;re not coming.</p>
+<p begin="00:17:02.533" end="00:17:03.600" style="s2">People ask questions.</p>
+<p begin="00:17:07.366" end="00:17:11.766" style="s2">And if you run your mouth, to Opal, to Dalton,</p>
+<p begin="00:17:12.133" end="00:17:13.100" style="s2">to anybody,</p>
+<p begin="00:17:14.266" end="00:17:16.900" style="s2">Vernon signs one paper and you&#39;re in a home by Christmas.</p>
+<p begin="00:17:18.366" end="00:17:20.066" style="s2">Nobody believes a confused old woman.</p>
+<p begin="00:17:24.400" end="00:17:26.366" style="s2">Cel.</p>
+<p begin="00:17:27.133" end="00:17:27.933" style="s2">Vernon&#39;s waiting.</p>
+<p begin="00:17:43.466" end="00:17:44.433" style="s2">Who&#39;s Vernon?</p>
+<p begin="00:17:44.966" end="00:17:47.000" style="s2">The doctor. Her friend.</p>
+<p begin="00:17:47.333" end="00:17:48.666" style="s2">He drives her around.</p>
+<p begin="00:17:50.133" end="00:17:51.366" style="s2">She means it, son.</p>
+<p begin="00:17:52.000" end="00:17:53.100" style="s2">Don&#39;t make it worse.</p>
+<p begin="00:17:54.566" end="00:17:55.566" style="s2">It can&#39;t get worse.</p>
+<p begin="00:18:00.200" end="00:18:04.533" style="s2">But she can&#39;t know I&#39;m here. Not till I&#39;ve got all of it.</p>
+<p begin="00:18:05.066" end="00:18:07.066" style="s2">My car stays behind Opal&#39;s store,</p>
+<p begin="00:18:07.866" end="00:18:10.666" style="s2">and on Saturdays I&#39;m gone before she pulls up.</p>
+<p begin="00:18:15.600" end="00:18:17.400" style="s2">Dad? Mom said Friday!</p>
+<p begin="00:18:21.166" end="00:18:24.666" style="s2">I came early. And I need your mom not to know I&#39;m here.</p>
+<p begin="00:18:26.200" end="00:18:27.800" style="s2">Is this a graduation surprise?</p>
+<p begin="00:18:28.466" end="00:18:29.366" style="s2">Something like that.</p>
+<p begin="00:18:29.600" end="00:18:30.666" style="s2">Keep it between us.</p>
+<p begin="00:18:33.733" end="00:18:35.133" style="s2">How&#39;s your grandmother, Maisie?</p>
+<p begin="00:18:36.066" end="00:18:37.300" style="s2">Fine, I think?</p>
+<p begin="00:18:39.133" end="00:18:41.000" style="s2">Mom says she likes being alone now.</p>
+<p begin="00:18:41.700" end="00:18:43.266" style="s2">I haven&#39;t seen her in two months.</p>
+<p begin="00:18:44.700" end="00:18:47.266" style="s2">Mom keeps saying she&#39;s resting and not to bother her.</p>
+<p begin="00:18:49.466" end="00:18:51.500" style="s2">How did she look? Last time.</p>
+<p begin="00:18:52.166" end="00:18:55.400" style="s2">So thin, Dad. Her dress was just hanging on her.</p>
+<p begin="00:18:55.966" end="00:18:57.500" style="s2">Mom said old people shrink.</p>
+<p begin="00:18:58.166" end="00:19:00.000" style="s2">Oh! And I got a job.</p>
+<p begin="00:19:00.500" end="00:19:01.466" style="s2">Magnolia Care,</p>
+<p begin="00:19:01.566" end="00:19:03.800" style="s2">starting the Monday after graduation. Dr.</p>
+<p begin="00:19:03.900" end="00:19:04.800" style="s2">Fisk set it up.</p>
+<p begin="00:19:05.066" end="00:19:06.666" style="s2">Mom&#39;s friend. Vernon.</p>
+<p begin="00:19:08.466" end="00:19:09.366" style="s2">Vernon Fisk.</p>
+<p begin="00:19:10.700" end="00:19:11.500" style="s2">You know him?</p>
+<p begin="00:19:15.866" end="00:19:16.866" style="s2">I&#39;ve heard the name.</p>
+<p begin="00:19:16.933" end="00:19:17.733" style="s2">Yeah.</p>
+<p begin="00:19:18.866" end="00:19:20.066" style="s2">Maisie, listen to me.</p>
+<p begin="00:19:21.700" end="00:19:23.100" style="s2">Whatever happens at your party,</p>
+<p begin="00:19:24.266" end="00:19:25.733" style="s2">remember you didn&#39;t do anything wrong.</p>
+<p begin="00:19:26.733" end="00:19:27.933" style="s2">Dad, you&#39;re scaring me.</p>
+<p begin="00:19:28.966" end="00:19:29.766" style="s2">Promise me.</p>
+<p begin="00:19:30.933" end="00:19:31.733" style="s2">I promise.</p>
+<p begin="00:19:47.000" end="00:19:48.733" style="s2">Is the other party aware of the test?</p>
+<p begin="00:19:49.200" end="00:19:50.600" style="s2">No. And for now,</p>
+<p begin="00:19:50.600" end="00:19:51.400" style="s2">she can&#39;t be.</p>
+<p begin="00:19:51.933" end="00:19:52.900" style="s2">Without her consent,</p>
+<p begin="00:19:52.900" end="00:19:54.366" style="s2">it&#39;s for your peace of mind only.</p>
+<p begin="00:19:54.566" end="00:19:55.366" style="s2">Not for court.</p>
+<p begin="00:19:55.533" end="00:19:56.466" style="s2">It&#39;s not for court.</p>
+<p begin="00:19:57.800" end="00:19:58.933" style="s2">Hair with the root works. I&#39;ll</p>
+<p begin="00:19:59.533" end="00:20:01.166" style="s2">need a cheek swab from you.</p>
+<p begin="00:20:01.333" end="00:20:02.366" style="s2">Five business days.</p>
+<p begin="00:20:09.533" end="00:20:11.166" style="s2">Almost two weeks of digging, Dal.</p>
+<p begin="00:20:11.733" end="00:20:13.600" style="s2">Bank records, the loans,</p>
+<p begin="00:20:13.866" end="00:20:14.800" style="s2">both signatures,</p>
+<p begin="00:20:15.000" end="00:20:15.966" style="s2">the phone company,</p>
+<p begin="00:20:16.600" end="00:20:17.533" style="s2">Abner&#39;s receipt,</p>
+<p begin="00:20:18.166" end="00:20:19.400" style="s2">copies of Opal&#39;s book.</p>
+<p begin="00:20:21.500" end="00:20:22.566" style="s2">It&#39;s a strong case.</p>
+<p begin="00:20:23.066" end="00:20:26.333" style="s2">Financial exploitation of an elder. Forgery. Fraud.</p>
+<p begin="00:20:27.366" end="00:20:28.500" style="s2">Before we go any further.</p>
+<p begin="00:20:29.200" end="00:20:30.100" style="s2">Are you sure?</p>
+<p begin="00:20:30.733" end="00:20:31.600" style="s2">She&#39;s your wife.</p>
+<p begin="00:20:32.166" end="00:20:33.466" style="s2">This blows up your family.</p>
+<p begin="00:20:34.533" end="00:20:36.933" style="s2">My mother apologized to that woman for eating.</p>
+<p begin="00:20:38.333" end="00:20:40.600" style="s2">The family blew up long before I got here.</p>
+<p begin="00:20:44.700" end="00:20:47.600" style="s2">And that?</p>
+<p begin="00:20:48.266" end="00:20:49.333" style="s2">Came Monday. I know what it says.</p>
+<p begin="00:20:49.766" end="00:20:50.800" style="s2">And Maisie?</p>
+<p begin="00:20:52.900" end="00:20:53.966" style="s2">Not at her party.</p>
+<p begin="00:20:54.766" end="00:20:55.733" style="s2">Saturday is hers.</p>
+<p begin="00:20:56.466" end="00:20:57.333" style="s2">When it&#39;s time,</p>
+<p begin="00:20:57.333" end="00:20:58.666" style="s2">I&#39;ll tell her to her face.</p>
+<p begin="00:20:59.333" end="00:21:00.566" style="s2">Not behind her back.</p>
+<p begin="00:21:00.666" end="00:21:02.000" style="s2">Then why not file today?</p>
+<p begin="00:21:04.866" end="00:21:06.166" style="s2">Because on Saturday,</p>
+<p begin="00:21:06.666" end="00:21:08.466" style="s2">every person she ever lied to about</p>
+<p begin="00:21:08.466" end="00:21:10.066" style="s2">my mother will be in one room.</p>
+<p begin="00:21:12.266" end="00:21:13.500" style="s2">You file Monday.</p>
+<p begin="00:21:15.400" end="00:21:16.966" style="s2">What about her power of attorney?</p>
+<p begin="00:21:17.866" end="00:21:19.300" style="s2">Mama could revoke it today.</p>
+<p begin="00:21:20.133" end="00:21:21.533" style="s2">The day we revoke it,</p>
+<p begin="00:21:21.600" end="00:21:23.100" style="s2">the bank notifies her. She</p>
+<p begin="00:21:23.533" end="00:21:24.566" style="s2">knows you&#39;re back,</p>
+<p begin="00:21:24.866" end="00:21:25.766" style="s2">Saturday&#39;s gone,</p>
+<p begin="00:21:25.966" end="00:21:28.800" style="s2">and every paper she hasn&#39;t shredded gets shredded.</p>
+<p begin="00:21:29.400" end="00:21:32.300" style="s2">Monday. Same hour as the complaint.</p>
+<p begin="00:21:35.766" end="00:21:36.733" style="s2">One more thing.</p>
+<p begin="00:21:38.266" end="00:21:40.866" style="s2">First thing her lawyer will do is</p>
+<p begin="00:21:40.866" end="00:21:42.133" style="s2">go after your mother&#39;s memory.</p>
+<p begin="00:21:43.366" end="00:21:46.900" style="s2">She&#39;s already said as much.</p>
+<p begin="00:21:47.100" end="00:21:49.166" style="s2">I heard her, from inside a closet.</p>
+<p begin="00:21:49.966" end="00:21:51.166" style="s2">Then we bring a witness. Opal</p>
+<p begin="00:21:51.733" end="00:21:53.100" style="s2">wrote everything down.</p>
+<p begin="00:21:55.200" end="00:21:56.800" style="s2">And get your mother a checkup</p>
+<p begin="00:21:56.800" end="00:21:58.300" style="s2">with a real doctor. On paper.</p>
+<p begin="00:22:02.000" end="00:22:02.933" style="s2">She won&#39;t go.</p>
+<p begin="00:22:04.133" end="00:22:06.666" style="s2">She thinks a doctor is how Celeste puts her in a home.</p>
+<p begin="00:22:13.733" end="00:22:15.666" style="s2">This one. For tomorrow.</p>
+<p begin="00:22:17.200" end="00:22:18.900" style="s2">Oh, baby, I&#39;m not going.</p>
+<p begin="00:22:19.700" end="00:22:21.533" style="s2">That party&#39;s for nice people.</p>
+<p begin="00:22:21.566" end="00:22:23.300" style="s2">I don&#39;t want Maisie embarrassed.</p>
+<p begin="00:22:25.933" end="00:22:28.333" style="s2">Tomorrow I&#39;m gonna stand up and say out</p>
+<p begin="00:22:28.333" end="00:22:30.166" style="s2">loud everything they did to you.</p>
+<p begin="00:22:30.300" end="00:22:32.100" style="s2">No. Dalton,</p>
+<p begin="00:22:32.866" end="00:22:35.933" style="s2">that&#39;s over now. You&#39;re home.</p>
+<p begin="00:22:36.200" end="00:22:37.800" style="s2">Why dig it all up?</p>
+<p begin="00:22:38.600" end="00:22:41.366" style="s2">Mama. Tell me the real reason.</p>
+<p begin="00:22:45.000" end="00:22:47.533" style="s2">They&#39;ll say you left your wife over an old woman.</p>
+<p begin="00:22:49.300" end="00:22:52.566" style="s2">And the whole town will know I was buying rice on credit.</p>
+<p begin="00:22:54.133" end="00:22:55.400" style="s2">I&#39;m ashamed, son.</p>
+<p begin="00:23:00.300" end="00:23:04.300" style="s2">Look at me. That shame isn&#39;t yours.</p>
+<p begin="00:23:04.800" end="00:23:06.133" style="s2">They put it on you.</p>
+<p begin="00:23:06.966" end="00:23:08.700" style="s2">I kept quiet for you.</p>
+<p begin="00:23:09.400" end="00:23:10.800" style="s2">So I wouldn&#39;t make trouble.</p>
+<p begin="00:23:11.866" end="00:23:15.600" style="s2">I know. Now it&#39;s my turn to speak for you.</p>
+<p begin="00:23:18.766" end="00:23:20.733" style="s2">Keeping quiet didn&#39;t protect you, Mama.</p>
+<p begin="00:23:21.666" end="00:23:23.000" style="s2">Look how I found you.</p>
+<p begin="00:23:24.100" end="00:23:25.866" style="s2">And I&#39;ll be reading from your book.</p>
+<p begin="00:23:26.966" end="00:23:28.400" style="s2">You tell me which pages.</p>
+<p begin="00:23:30.800" end="00:23:33.133" style="s2">All right. I&#39;ll go.</p>
+<p begin="00:23:33.700" end="00:23:34.800" style="s2">Read what you need to.</p>
+<p begin="00:23:34.800" end="00:23:36.333" style="s2">I haven&#39;t worn this in years.</p>
+<p begin="00:23:37.700" end="00:23:40.900" style="s2">You made it. You wore it to my graduation.</p>
+<p begin="00:23:41.866" end="00:23:42.666" style="s2">Well, then.</p>
+<p begin="00:23:43.066" end="00:23:44.166" style="s2">All the more reason.</p>
+<p begin="00:23:57.133" end="00:23:58.533" style="s2">Baby, you made it!</p>
+<p begin="00:23:58.533" end="00:23:59.966" style="s2">You look so handsome.</p>
+<p begin="00:24:02.666" end="00:24:03.666" style="s2">Mother Whitlock.</p>
+<p begin="00:24:04.100" end="00:24:05.066" style="s2">What a surprise.</p>
+<p begin="00:24:05.533" end="00:24:06.600" style="s2">Oh, poor thing.</p>
+<p begin="00:24:06.600" end="00:24:07.666" style="s2">She looks so tired.</p>
+<p begin="00:24:08.700" end="00:24:11.166" style="s2">She doesn&#39;t look tired, Celeste.</p>
+<p begin="00:24:11.166" end="00:24:12.166" style="s2">She looks starved.</p>
+<p begin="00:24:16.733" end="00:24:18.066" style="s2">You and your jokes.</p>
+<p begin="00:24:22.133" end="00:24:23.533" style="s2">What is she doing here?</p>
+<p begin="00:24:24.600" end="00:24:26.200" style="s2">You said she wasn&#39;t coming!</p>
+<p begin="00:24:28.200" end="00:24:31.166" style="s2">Relax. That woman never opens her mouth.</p>
+<p begin="00:24:33.700" end="00:24:34.800" style="s2">Is that Opal Grimes?</p>
+<p begin="00:24:34.800" end="00:24:35.800" style="s2">Who invited her?</p>
+<p begin="00:24:51.133" end="00:24:52.533" style="s2">You sit right here, Mama.</p>
+<p begin="00:25:00.966" end="00:25:01.900" style="s2">Proud of you, kiddo.</p>
+<p begin="00:25:04.200" end="00:25:05.333" style="s2">Dr. Fisk! You didn&#39;t have to.</p>
+<p begin="00:25:06.366" end="00:25:08.400" style="s2">Baby, this is Dr. Vernon Fisk.</p>
+<p begin="00:25:08.466" end="00:25:09.666" style="s2">An old family friend.</p>
+<p begin="00:25:19.300" end="00:25:21.300" style="s2">Everybody, please welcome our newest nurse,</p>
+<p begin="00:25:21.366" end="00:25:22.300" style="s2">Maisie Whitlock!</p>
+<p begin="00:25:23.700" end="00:25:26.166" style="s2">And now, a few words from her proud father.</p>
+<p begin="00:25:30.866" end="00:25:31.666" style="s2">Good evening.</p>
+<p begin="00:25:32.900" end="00:25:34.700" style="s2">Thank you all for coming out for Maisie.</p>
+<p begin="00:25:36.100" end="00:25:37.766" style="s2">My daughter waited tables every</p>
+<p begin="00:25:37.766" end="00:25:39.466" style="s2">weekend to get through nursing school.</p>
+<p begin="00:25:40.133" end="00:25:41.666" style="s2">I couldn&#39;t be prouder of her.</p>
+<p begin="00:25:45.333" end="00:25:48.566" style="s2">But first, I want to talk about what it means to be a parent.</p>
+<p begin="00:25:49.933" end="00:25:51.366" style="s2">My mother taught me that.</p>
+<p begin="00:25:51.766" end="00:25:53.533" style="s2">The lady up front in the blue dress?</p>
+<p begin="00:25:54.400" end="00:25:55.300" style="s2">That&#39;s my mama,</p>
+<p begin="00:25:55.300" end="00:25:56.666" style="s2">Loretta Whitlock.</p>
+<p begin="00:25:56.933" end="00:25:58.133" style="s2">She&#39;s a seamstress.</p>
+<p begin="00:26:02.900" end="00:26:05.200" style="s2">She lost my father when she was thirty-three,</p>
+<p begin="00:26:06.333" end="00:26:08.400" style="s2">and she raised me sewing at night.</p>
+<p begin="00:26:09.000" end="00:26:09.800" style="s2">Plenty of nights,</p>
+<p begin="00:26:10.166" end="00:26:11.400" style="s2">all we had was rice.</p>
+<p begin="00:26:12.800" end="00:26:14.666" style="s2">I never once went to bed hungry.</p>
+<p begin="00:26:16.133" end="00:26:18.066" style="s2">She ate whatever was left in the pot.</p>
+<p begin="00:26:20.200" end="00:26:22.000" style="s2">I&#39;ve been overseas three years,</p>
+<p begin="00:26:22.133" end="00:26:23.533" style="s2">and I thought she was fine.</p>
+<p begin="00:26:28.066" end="00:26:29.100" style="s2">Two weeks ago,</p>
+<p begin="00:26:30.000" end="00:26:32.066" style="s2">I found this under her mattress.</p>
+<p begin="00:26:35.300" end="00:26:37.766" style="s2">Dalton. What are you doing?</p>
+<p begin="00:26:38.933" end="00:26:40.666" style="s2">I&#39;m going to read what my mother wrote.</p>
+<p begin="00:26:46.600" end="00:26:49.400" style="s2">Today I asked Opal for rice on credit.</p>
+<p begin="00:26:50.666" end="00:26:55.300" style="s2">She looked at me like I was a ghost. Maybe I am.</p>
+<p begin="00:26:56.766" end="00:26:58.266" style="s2">Today I am seventy.</p>
+<p begin="00:26:59.166" end="00:27:01.166" style="s2">I ate yesterday&#39;s rice by myself.</p>
+<p begin="00:27:02.733" end="00:27:05.166" style="s2">While somebody was picking out the flowers for this room,</p>
+<p begin="00:27:06.566" end="00:27:08.600" style="s2">my mother was eating yesterday&#39;s rice.</p>
+<p begin="00:27:10.400" end="00:27:11.500" style="s2">Dalton, enough.</p>
+<p begin="00:27:11.966" end="00:27:13.166" style="s2">This is family business.</p>
+<p begin="00:27:16.700" end="00:27:18.400" style="s2">That&#39;s why I&#39;m saying it in front of the family.</p>
+<p begin="00:27:21.200" end="00:27:22.200" style="s2">Three thousand dollars,</p>
+<p begin="00:27:22.966" end="00:27:24.333" style="s2">the first of every month.</p>
+<p begin="00:27:26.366" end="00:27:27.600" style="s2">For the last twenty months,</p>
+<p begin="00:27:28.000" end="00:27:30.333" style="s2">almost all of it left the day after it landed.</p>
+<p begin="00:27:31.466" end="00:27:33.466" style="s2">Every time, it went to Brandi Vale.</p>
+<p begin="00:27:34.800" end="00:27:35.733" style="s2">My wife&#39;s sister.</p>
+<p begin="00:27:37.066" end="00:27:38.333" style="s2">Fifty-four thousand dollars.</p>
+<p begin="00:27:43.466" end="00:27:45.733" style="s2">Three loans in my mother&#39;s name.</p>
+<p begin="00:27:46.466" end="00:27:47.966" style="s2">One of them paid for this room.</p>
+<p begin="00:27:48.366" end="00:27:50.000" style="s2">My mother doesn&#39;t even have</p>
+<p begin="00:27:50.000" end="00:27:51.166" style="s2">her sewing machine anymore.</p>
+<p begin="00:27:51.733" end="00:27:55.366" style="s2">They sold it, and told the buyer she was dead.</p>
+<p begin="00:28:01.200" end="00:28:03.933" style="s2">This is the signature on those loans.</p>
+<p begin="00:28:05.000" end="00:28:06.666" style="s2">Fast. Confident.</p>
+<p begin="00:28:06.933" end="00:28:09.000" style="s2">This is my mother&#39;s.</p>
+<p begin="00:28:09.866" end="00:28:11.400" style="s2">One letter at a time.</p>
+<p begin="00:28:12.300" end="00:28:14.133" style="s2">She learned to write at forty-one.</p>
+<p begin="00:28:15.333" end="00:28:16.566" style="s2">She didn&#39;t sign those.</p>
+<p begin="00:28:27.500" end="00:28:30.133" style="s2">But there&#39;s one signature in this pile that is mine.</p>
+<p begin="00:28:31.166" end="00:28:34.200" style="s2">I signed what my wife put in front of me without reading it.</p>
+<p begin="00:28:35.300" end="00:28:36.366" style="s2">Because it was easy.</p>
+<p begin="00:28:38.466" end="00:28:39.733" style="s2">That part&#39;s on me,</p>
+<p begin="00:28:40.400" end="00:28:41.666" style="s2">and I&#39;ll carry it.</p>
+<p begin="00:28:43.566" end="00:28:46.466" style="s2">I handed over the responsibility and called it care.</p>
+<p begin="00:28:46.600" end="00:28:49.866" style="s2">That&#39;s a lie! She&#39;s confused!</p>
+<p begin="00:28:50.933" end="00:28:53.200" style="s2">That old woman doesn&#39;t know what day it is,</p>
+<p begin="00:28:53.200" end="00:28:55.066" style="s2">and you believe every word!</p>
+<p begin="00:28:59.600" end="00:29:02.300" style="s2">Being old doesn&#39;t make her a liar.</p>
+<p begin="00:29:10.100" end="00:29:15.266" style="s2">She knows exactly what day it is, ma&#39;am. So do I.</p>
+<p begin="00:29:16.200" end="00:29:18.533" style="s2">Seven months of rice on credit,</p>
+<p begin="00:29:18.600" end="00:29:23.200" style="s2">and every date and every time is written right here.</p>
+<p begin="00:29:23.500" end="00:29:26.366" style="s2">And I saw that padlock you hung</p>
+<p begin="00:29:26.366" end="00:29:28.900" style="s2">on her pantry with my own two eyes.</p>
+<p begin="00:29:31.466" end="00:29:34.566" style="s2">My mother apologized to you for eating in her own house.</p>
+<p begin="00:29:35.966" end="00:29:37.166" style="s2">When she tried to call me,</p>
+<p begin="00:29:37.166" end="00:29:37.966" style="s2">she couldn&#39;t.</p>
+<p begin="00:29:38.666" end="00:29:41.500" style="s2">You blocked her. Five months.</p>
+<p begin="00:29:47.133" end="00:29:49.000" style="s2">Mama, you don&#39;t have to keep quiet anymore.</p>
+<p begin="00:29:50.700" end="00:29:53.566" style="s2">Please. Not here.</p>
+<p begin="00:30:02.100" end="00:30:03.666" style="s2">Mama, your seat is at the head of the table.</p>
+<p begin="00:30:06.200" end="00:30:08.966" style="s2">Right here? In front of all these people?</p>
+<p begin="00:30:09.466" end="00:30:10.266" style="s2">Right here.</p>
+<p begin="00:30:14.766" end="00:30:16.533" style="s2">Eat, Mama. As much as you want.</p>
+<p begin="00:30:18.766" end="00:30:19.900" style="s2">More bread, Grandma?</p>
+<p begin="00:30:21.366" end="00:30:22.400" style="s2">Sit by me, baby.</p>
+<p begin="00:30:34.933" end="00:30:36.300" style="s2">You all want to talk about papers?</p>
+<p begin="00:30:36.533" end="00:30:37.333" style="s2">Here are mine.</p>
+<p begin="00:30:41.766" end="00:30:42.966" style="s2">Dr. Vernon Fisk.</p>
+<p begin="00:30:43.500" end="00:30:44.733" style="s2">October fourteenth.</p>
+<p begin="00:30:45.166" end="00:30:50.166" style="s2">Moderate dementia. Memory loss, confusion, paranoia.</p>
+<p begin="00:30:52.133" end="00:30:54.500" style="s2">She gave me power of attorney three years ago.</p>
+<p begin="00:30:54.966" end="00:30:56.266" style="s2">And last September,</p>
+<p begin="00:30:56.800" end="00:30:59.933" style="s2">she signed this health care proxy. In front</p>
+<p begin="00:30:59.933" end="00:31:02.900" style="s2">of two witnesses. Before her diagnosis.</p>
+<p begin="00:31:03.766" end="00:31:05.166" style="s2">She trusted me with everything.</p>
+<p begin="00:31:08.000" end="00:31:12.466" style="s2">Those loans? She signed them herself, before she got worse.</p>
+<p begin="00:31:12.500" end="00:31:13.566" style="s2">She just doesn&#39;t remember.</p>
+<p begin="00:31:19.066" end="00:31:21.266" style="s2">And Brandi was paid to look in on her.</p>
+<p begin="00:31:29.300" end="00:31:30.666" style="s2">Read her very first line.</p>
+<p begin="00:31:31.700" end="00:31:33.066" style="s2">&quot;So I won&#39;t forget.&quot;</p>
+<p begin="00:31:33.700" end="00:31:35.400" style="s2">That&#39;s what a sick woman writes.</p>
+<p begin="00:31:37.566" end="00:31:40.266" style="s2">I have taken care of her for three years</p>
+<p begin="00:31:40.300" end="00:31:43.500" style="s2">while her son was in Dubai. Monday morning,</p>
+<p begin="00:31:43.766" end="00:31:45.533" style="s2">I&#39;m filing for guardianship.</p>
+<p begin="00:31:47.600" end="00:31:50.333" style="s2">And the man who left her alone</p>
+<p begin="00:31:50.333" end="00:31:53.200" style="s2">for three years doesn&#39;t get a say.</p>
+<p begin="00:31:54.800" end="00:31:57.333" style="s2">Maybe Celeste really was looking after her.</p>
+<p begin="00:32:03.533" end="00:32:06.300" style="s2">You will not touch her.</p>
+<p begin="00:32:07.100" end="00:32:09.166" style="s2">Watch me.</p>
+<p begin="00:32:25.500" end="00:32:27.166" style="s2">Is Loretta Whitlock home, sir?</p>
+<p begin="00:32:27.333" end="00:32:29.000" style="s2">I have an order from the probate court.</p>
+<p begin="00:32:32.266" end="00:32:34.066" style="s2">Emergency temporary guardianship.</p>
+<p begin="00:32:34.466" end="00:32:36.133" style="s2">Celeste Whitlock is appointed</p>
+<p begin="00:32:36.300" end="00:32:39.000" style="s2">temporary guardian of Loretta Whitlock.</p>
+<p begin="00:32:39.133" end="00:32:42.366" style="s2">Mrs. Whitlock is to be placed at Magnolia Care for evaluation.</p>
+<p begin="00:32:42.700" end="00:32:45.266" style="s2">A hearing</p>
+<p begin="00:32:45.900" end="00:32:48.566" style="s2">is set for Friday, nine a.m.</p>
+<p begin="00:32:50.366" end="00:32:52.700" style="s2">And sir, the guardian has asked Magnolia</p>
+<p begin="00:32:52.700" end="00:32:54.333" style="s2">to hold family visits until the hearing.</p>
+<p begin="00:32:56.800" end="00:32:57.600" style="s2">She&#39;s my mother.</p>
+<p begin="00:32:58.533" end="00:33:00.566" style="s2">Then take it up with the judge on Friday, sir.</p>
+<p begin="00:33:01.066" end="00:33:02.600" style="s2">I&#39;m doing what&#39;s best for her.</p>
+<p begin="00:33:03.100" end="00:33:04.366" style="s2">You had all this ready.</p>
+<p begin="00:33:05.300" end="00:33:07.000" style="s2">The doctor, the papers,</p>
+<p begin="00:33:07.733" end="00:33:09.000" style="s2">a bed at Magnolia.</p>
+<p begin="00:33:09.766" end="00:33:11.866" style="s2">You didn&#39;t put this together over a weekend.</p>
+<p begin="00:33:13.533" end="00:33:14.600" style="s2">I planned for her care,</p>
+<p begin="00:33:14.600" end="00:33:16.533" style="s2">Dalton. Somebody had to.</p>
+<p begin="00:33:27.533" end="00:33:28.800" style="s2">Don&#39;t fight them, son.</p>
+<p begin="00:33:29.566" end="00:33:32.400" style="s2">Don&#39;t make a scene. Not over me.</p>
+<p begin="00:33:34.200" end="00:33:35.066" style="s2">Friday, Mama.</p>
+<p begin="00:33:35.500" end="00:33:36.766" style="s2">I&#39;ll be there Friday.</p>
+<p begin="00:33:50.700" end="00:33:52.000" style="s2">Here&#39;s what Friday is.</p>
+<p begin="00:33:52.466" end="00:33:54.900" style="s2">If the judge finds her incompetent, one:</p>
+<p begin="00:33:55.400" end="00:33:57.066" style="s2">Celeste becomes her full guardian.</p>
+<p begin="00:33:57.166" end="00:33:57.966" style="s2">Where she lives,</p>
+<p begin="00:33:58.200" end="00:34:00.200" style="s2">which doctors see her. For good.</p>
+<p begin="00:34:00.800" end="00:34:05.100" style="s2">Two: your criminal case falls apart.</p>
+<p begin="00:34:06.133" end="00:34:08.400" style="s2">Every word your mother says gets called confusion,</p>
+<p begin="00:34:08.800" end="00:34:10.800" style="s2">every transfer was &quot;authorized&quot;</p>
+<p begin="00:34:10.800" end="00:34:12.700" style="s2">under that power of attorney,</p>
+<p begin="00:34:12.700" end="00:34:14.133" style="s2">and fifty-four thousand dollars</p>
+<p begin="00:34:14.366" end="00:34:16.333" style="s2">turns into caregiver pay for Brandi.</p>
+<p begin="00:34:18.966" end="00:34:19.766" style="s2">Three:</p>
+<p begin="00:34:20.000" end="00:34:21.700" style="s2">anything your mother signed</p>
+<p begin="00:34:21.700" end="00:34:23.366" style="s2">to cut Celeste off is worthless.</p>
+<p begin="00:34:23.866" end="00:34:25.566" style="s2">Celeste keeps that power of attorney,</p>
+<p begin="00:34:25.600" end="00:34:26.566" style="s2">house and all.</p>
+<p begin="00:34:26.866" end="00:34:28.700" style="s2">She can sell it to pay for Magnolia.</p>
+<p begin="00:34:29.166" end="00:34:30.166" style="s2">Seven grand a month.</p>
+<p begin="00:34:33.200" end="00:34:35.700" style="s2">Examined at his office, October fourteenth, ten-thirty a.m.</p>
+<p begin="00:34:38.300" end="00:34:40.933" style="s2">Mama&#39;s never set foot in Fisk&#39;s office in her life.</p>
+<p begin="00:34:42.600" end="00:34:44.133" style="s2">Her word against a doctor&#39;s.</p>
+<p begin="00:34:44.766" end="00:34:47.000" style="s2">And her word is exactly what&#39;s on trial.</p>
+<p begin="00:34:48.733" end="00:34:50.733" style="s2">I filed the criminal complaint this morning.</p>
+<p begin="00:34:51.800" end="00:34:54.533" style="s2">The DA&#39;s waiting to see what the court does Friday.</p>
+<p begin="00:34:55.533" end="00:34:56.600" style="s2">And the revocation.</p>
+<p begin="00:35:01.300" end="00:35:05.066" style="s2">Celeste filed for guardianship at 8:01.</p>
+<p begin="00:35:05.700" end="00:35:08.766" style="s2">Your mother&#39;s revocation didn&#39;t hit the bank until nine.</p>
+<p begin="00:35:10.566" end="00:35:14.266" style="s2">She said Monday. Out loud, in front of everybody.</p>
+<p begin="00:35:14.300" end="00:35:15.400" style="s2">We had all of Sunday.</p>
+<p begin="00:35:18.400" end="00:35:20.366" style="s2">Sunday she finally said yes to a doctor.</p>
+<p begin="00:35:21.500" end="00:35:23.600" style="s2">Earliest new patient I could get was Tuesday.</p>
+<p begin="00:35:27.200" end="00:35:28.800" style="s2">And with a certificate that says</p>
+<p begin="00:35:28.866" end="00:35:30.900" style="s2">moderate dementia since October,</p>
+<p begin="00:35:31.333" end="00:35:32.800" style="s2">anything your mother signs,</p>
+<p begin="00:35:33.100" end="00:35:35.066" style="s2">Sunday, Monday, today,</p>
+<p begin="00:35:35.300" end="00:35:36.800" style="s2">looks like you made her sign it.</p>
+<p begin="00:35:37.133" end="00:35:38.666" style="s2">Only a judge can settle that.</p>
+<p begin="00:35:39.166" end="00:35:40.566" style="s2">Then move Tuesday up.</p>
+<p begin="00:35:41.966" end="00:35:43.566" style="s2">Not while she&#39;s in Magnolia.</p>
+<p begin="00:35:43.900" end="00:35:46.066" style="s2">The guardian controls her medical care now.</p>
+<p begin="00:35:47.500" end="00:35:50.100" style="s2">The only way in is a court evaluator.</p>
+<p begin="00:35:50.800" end="00:35:52.300" style="s2">I asked for one this afternoon,</p>
+<p begin="00:35:52.600" end="00:35:53.666" style="s2">and we got it.</p>
+<p begin="00:35:56.466" end="00:35:58.300" style="s2">Friday, eight a.m.,</p>
+<p begin="00:35:58.300" end="00:35:59.766" style="s2">the evaluator sees her.</p>
+<p begin="00:35:59.966" end="00:36:01.933" style="s2">I asked them to lift that visit hold too.</p>
+<p begin="00:36:02.400" end="00:36:03.700" style="s2">Not before Friday.</p>
+<p begin="00:36:07.966" end="00:36:09.633" style="s2">Did you record Celeste?</p>
+<p begin="00:36:09.900" end="00:36:11.252" style="s2">That day in the closet?</p>
+<p begin="00:36:14.466" end="00:36:16.266" style="s2">I was standing in a closet trying not</p>
+<p begin="00:36:16.266" end="00:36:17.900" style="s2">to tear the door off its hinges.</p>
+<p begin="00:36:19.366" end="00:36:20.766" style="s2">And the judge is going to ask</p>
+<p begin="00:36:20.766" end="00:36:22.200" style="s2">where you&#39;ve been for three years.</p>
+<p begin="00:36:46.333" end="00:36:47.466" style="s2">She&#39;s settling in.</p>
+<p begin="00:36:47.966" end="00:36:49.466" style="s2">Don&#39;t make this ugly, Dalton.</p>
+<p begin="00:36:52.566" end="00:36:53.866" style="s2">What did you do to her?</p>
+<p begin="00:36:54.566" end="00:36:56.533" style="s2">Last week she could thread a needle in the dark.</p>
+<p begin="00:36:57.600" end="00:36:59.066" style="s2">She&#39;s seventy and confused.</p>
+<p begin="00:36:59.666" end="00:37:01.566" style="s2">You weren&#39;t here. I was.</p>
+<p begin="00:37:02.166" end="00:37:03.733" style="s2">That&#39;s all a judge needs to hear.</p>
+<p begin="00:37:04.533" end="00:37:05.466" style="s2">She knew me yesterday. She</p>
+<p begin="00:37:06.466" end="00:37:07.966" style="s2">knew every word I said.</p>
+<p begin="00:37:09.766" end="00:37:11.066" style="s2">Then she had a good night.</p>
+<p begin="00:37:11.533" end="00:37:12.566" style="s2">They come and go.</p>
+<p begin="00:37:33.866" end="00:37:36.166" style="s2">Nobody on Pecan Lane saw a thing in December.</p>
+<p begin="00:37:41.733" end="00:37:42.533" style="s2">Christmas week,</p>
+<p begin="00:37:42.866" end="00:37:44.800" style="s2">Gwen went door to door on Pecan Lane,</p>
+<p begin="00:37:44.800" end="00:37:46.366" style="s2">selling raffle tickets for the church.</p>
+<p begin="00:37:46.700" end="00:37:48.600" style="s2">That woman doesn&#39;t miss a thing on that street.</p>
+<p begin="00:37:51.133" end="00:37:53.100" style="s2">Heard the millionaire&#39;s mama finally</p>
+<p begin="00:37:53.166" end="00:37:55.966" style="s2">lost her marbles. Begging for rice.</p>
+<p begin="00:37:56.733" end="00:37:58.733" style="s2">I always said she wasn&#39;t right.</p>
+<p begin="00:38:02.500" end="00:38:04.400" style="s2">Buying rice on credit was the sanest</p>
+<p begin="00:38:04.400" end="00:38:06.333" style="s2">thing anybody did in that house, Gwen.</p>
+<p begin="00:38:11.966" end="00:38:14.266" style="s2">You sold raffle tickets on Pecan Lane</p>
+<p begin="00:38:14.266" end="00:38:15.066" style="s2">Christmas week.</p>
+<p begin="00:38:15.733" end="00:38:18.266" style="s2">Who carried my mother&#39;s sewing machine out of her house?</p>
+<p begin="00:38:21.166" end="00:38:22.866" style="s2">Not me, if that&#39;s what you&#39;re asking.</p>
+<p begin="00:38:23.800" end="00:38:26.266" style="s2">That doctor did. Fisk.</p>
+<p begin="00:38:26.966" end="00:38:30.066" style="s2">I was standing right there on her porch.</p>
+<p begin="00:38:30.800" end="00:38:34.133" style="s2">Watched him load it into that black SUV.</p>
+<p begin="00:38:34.933" end="00:38:37.066" style="s2">Figured she sold it for pill money.</p>
+<p begin="00:38:40.933" end="00:38:42.400" style="s2">Fisk loaded it himself.</p>
+<p begin="00:38:43.900" end="00:38:45.933" style="s2">The doctor who says she&#39;s out of her mind</p>
+<p begin="00:38:45.966" end="00:38:47.933" style="s2">carried her sewing machine out the front door.</p>
+<p begin="00:38:48.466" end="00:38:51.366" style="s2">You&#39;ll say that on Friday, Gwen. Out loud.</p>
+<p begin="00:38:53.133" end="00:38:54.666" style="s2">I&#39;ll be in that courtroom.</p>
+<p begin="00:38:55.200" end="00:38:56.133" style="s2">Book and all.</p>
+<p begin="00:39:00.600" end="00:39:02.766" style="s2">Write that she didn&#39;t recognize you. Disoriented.</p>
+<p begin="00:39:05.766" end="00:39:07.900" style="s2">Agitated. A nurse&#39;s note from her own granddaughter.</p>
+<p begin="00:39:08.700" end="00:39:10.133" style="s2">The judge will eat it up.</p>
+<p begin="00:39:10.300" end="00:39:11.700" style="s2">She did recognize me.</p>
+<p begin="00:39:12.133" end="00:39:13.300" style="s2">She asked if I&#39;d eaten.</p>
+<p begin="00:39:14.900" end="00:39:17.200" style="s2">By Friday, she won&#39;t. Write it.</p>
+<p begin="00:39:18.200" end="00:39:19.500" style="s2">I&#39;m a nurse, Mom.</p>
+<p begin="00:39:20.066" end="00:39:22.000" style="s2">You&#39;re asking me to lie on a chart.</p>
+<p begin="00:39:23.200" end="00:39:25.666" style="s2">I&#39;m asking you to keep your family.</p>
+<p begin="00:39:29.700" end="00:39:31.066" style="s2">Vernon got you that job.</p>
+<p begin="00:39:32.466" end="00:39:33.933" style="s2">Vernon co-signed your apartment.</p>
+<p begin="00:39:35.933" end="00:39:39.200" style="s2">And how long do you think Dalton</p>
+<p begin="00:39:39.200" end="00:39:41.800" style="s2">keeps loving you once he</p>
+<p begin="00:39:41.800" end="00:39:45.566" style="s2">finds out you&#39;ve known for twelve years you&#39;re not his?</p>
+<p begin="00:39:46.100" end="00:39:47.200" style="s2">Then whose am I?</p>
+<p begin="00:39:51.933" end="00:39:53.566" style="s2">Who do you think gave you that, baby?</p>
+<p begin="00:39:54.133" end="00:39:56.100" style="s2">Have the note on my desk by Thursday.</p>
+<p begin="00:40:13.133" end="00:40:15.866" style="s2">You eat, baby? You&#39;re too thin.</p>
+<p begin="00:40:19.400" end="00:40:21.666" style="s2">I ate, Grandma. Your turn.</p>
+<p begin="00:40:27.133" end="00:40:28.933" style="s2">No exam. Nothing.</p>
+<p begin="00:40:31.466" end="00:40:33.400" style="s2">Room twelve. Dr. Fisk&#39;s order.</p>
+<p begin="00:40:35.733" end="00:40:37.766" style="s2">Has anybody actually examined her?</p>
+<p begin="00:40:37.900" end="00:40:39.466" style="s2">It&#39;s a doctor&#39;s order, Maisie.</p>
+<p begin="00:40:39.466" end="00:40:40.266" style="s2">Give the med.</p>
+<p begin="00:40:49.100" end="00:40:49.933" style="s2">Thank you, nurse.</p>
+<p begin="00:41:00.600" end="00:41:01.966" style="s2">She didn&#39;t know me, Dad.</p>
+<p begin="00:41:02.933" end="00:41:04.733" style="s2">I gave her the pill, and she said,</p>
+<p begin="00:41:04.900" end="00:41:05.866" style="s2">&quot;Thank you, nurse.&quot;</p>
+<p begin="00:41:15.400" end="00:41:17.866" style="s2">There&#39;s something I have to tell</p>
+<p begin="00:41:17.866" end="00:41:19.400" style="s2">you before Mom does. I&#39;m not...</p>
+<p begin="00:41:23.900" end="00:41:26.933" style="s2">I know. I&#39;ve known since before your party.</p>
+<p begin="00:41:28.366" end="00:41:29.933" style="s2">Why didn&#39;t you say it at my party?</p>
+<p begin="00:41:31.666" end="00:41:32.933" style="s2">Because it was your night.</p>
+<p begin="00:41:33.933" end="00:41:35.400" style="s2">Not your mom&#39;s to use.</p>
+<p begin="00:41:35.866" end="00:41:37.200" style="s2">Not mine to announce.</p>
+<p begin="00:41:40.966" end="00:41:42.500" style="s2">I&#39;ve known since I was ten.</p>
+<p begin="00:41:43.366" end="00:41:45.066" style="s2">I heard Mom and Aunt Brandi.</p>
+<p begin="00:41:46.000" end="00:41:47.400" style="s2">Mom said if I ever told you,</p>
+<p begin="00:41:47.400" end="00:41:48.633" style="s2">you&#39;d stop loving me.</p>
+<p begin="00:41:51.933" end="00:41:53.133" style="s2">When I look at you,</p>
+<p begin="00:41:53.600" end="00:41:55.933" style="s2">I see a kid conked out on the couch</p>
+<p begin="00:41:55.933" end="00:41:58.066" style="s2">with her shoes still on, waiting up for me.</p>
+<p begin="00:42:00.766" end="00:42:02.733" style="s2">That paper says we don&#39;t share blood.</p>
+<p begin="00:42:03.566" end="00:42:04.766" style="s2">That&#39;s all it says.</p>
+<p begin="00:42:06.166" end="00:42:08.300" style="s2">I&#39;m your dad because I chose you.</p>
+<p begin="00:42:10.000" end="00:42:11.666" style="s2">I&#39;d choose you again tonight.</p>
+<p begin="00:42:21.900" end="00:42:22.966" style="s2">Then you need the rest.</p>
+<p begin="00:42:23.500" end="00:42:24.800" style="s2">Mom as good as told me.</p>
+<p begin="00:42:25.200" end="00:42:26.766" style="s2">My father is Vernon Fisk.</p>
+<p begin="00:42:29.766" end="00:42:31.000" style="s2">All those Saturdays.</p>
+<p begin="00:42:31.533" end="00:42:33.000" style="s2">He was sitting right out front.</p>
+<p begin="00:42:33.266" end="00:42:35.566" style="s2">And Dad, they&#39;re drugging Grandma.</p>
+<p begin="00:42:36.900" end="00:42:39.500" style="s2">Lorazepam, three times a day since Monday.</p>
+<p begin="00:42:39.800" end="00:42:40.933" style="s2">Fisk ordered it.</p>
+<p begin="00:42:41.266" end="00:42:44.200" style="s2">There&#39;s no exam in her chart. None. And</p>
+<p begin="00:42:44.766" end="00:42:46.900" style="s2">the evaluator sees her Friday at eight.</p>
+<p begin="00:42:47.133" end="00:42:49.166" style="s2">There was a contract on Mom&#39;s counter, too.</p>
+<p begin="00:42:49.566" end="00:42:50.366" style="s2">Grandma&#39;s house.</p>
+<p begin="00:42:50.933" end="00:42:51.933" style="s2">Ridgeview Holdings.</p>
+<p begin="00:42:53.766" end="00:42:54.966" style="s2">Closing Friday at two.</p>
+<p begin="00:42:58.666" end="00:43:00.600" style="s2">Elias. Ridgeview Holdings.</p>
+<p begin="00:43:00.866" end="00:43:02.400" style="s2">Sixty-one thousand for Mama&#39;s house.</p>
+<p begin="00:43:02.400" end="00:43:03.333" style="s2">Who&#39;s behind it?</p>
+<p begin="00:43:03.800" end="00:43:04.600" style="s2">Give me a second.</p>
+<p begin="00:43:05.133" end="00:43:07.200" style="s2">Ridgeview Holdings LLC.</p>
+<p begin="00:43:07.700" end="00:43:08.533" style="s2">Formed in March.</p>
+<p begin="00:43:09.166" end="00:43:10.966" style="s2">Registered agent, Vernon Fisk.</p>
+<p begin="00:43:11.300" end="00:43:13.500" style="s2">The county has that house at three times that.</p>
+<p begin="00:43:15.166" end="00:43:18.066" style="s2">And those three loans start defaulting in June.</p>
+<p begin="00:43:19.533" end="00:43:20.900" style="s2">Once the bank comes calling,</p>
+<p begin="00:43:21.300" end="00:43:24.400" style="s2">your mother tells them she never signed a thing.</p>
+<p begin="00:43:25.166" end="00:43:27.600" style="s2">A quiet sale pays them off first.</p>
+<p begin="00:43:30.366" end="00:43:31.866" style="s2">Can she even sell it?</p>
+<p begin="00:43:32.866" end="00:43:34.933" style="s2">She&#39;s selling under that power of attorney.</p>
+<p begin="00:43:39.733" end="00:43:43.100" style="s2">If the judge calls your mother incompetent at nine,</p>
+<p begin="00:43:43.766" end="00:43:45.866" style="s2">Monday&#39;s revocation is worthless.</p>
+<p begin="00:43:46.466" end="00:43:48.566" style="s2">Friday at two, it&#39;s done.</p>
+<p begin="00:43:51.100" end="00:43:52.533" style="s2">Eight a.m., they put a drugged</p>
+<p begin="00:43:52.533" end="00:43:54.066" style="s2">woman in front of the evaluator.</p>
+<p begin="00:43:54.300" end="00:43:55.800" style="s2">Two p.m., the house is gone.</p>
+<p begin="00:43:56.933" end="00:43:58.300" style="s2">If I report Fisk,</p>
+<p begin="00:43:58.966" end="00:44:00.500" style="s2">Mom will have my license pulled.</p>
+<p begin="00:44:01.600" end="00:44:02.966" style="s2">October fourteenth. Ten-twenty a.m.</p>
+<p begin="00:44:06.100" end="00:44:07.100" style="s2">Loretta W.</p>
+<p begin="00:44:08.266" end="00:44:10.166" style="s2">One pound of rice. Fever.</p>
+<p begin="00:44:13.766" end="00:44:16.300" style="s2">Ten-thirty. At his office.</p>
+<p begin="00:44:17.500" end="00:44:18.733" style="s2">Forty minutes away.</p>
+<p begin="00:44:23.166" end="00:44:24.933" style="s2">The morning they locked the pantry,</p>
+<p begin="00:44:24.933" end="00:44:26.200" style="s2">she had nothing in the house,</p>
+<p begin="00:44:26.200" end="00:44:27.733" style="s2">so she walked to Opal&#39;s.</p>
+<p begin="00:44:29.700" end="00:44:30.700" style="s2">At ten-twenty,</p>
+<p begin="00:44:31.200" end="00:44:32.766" style="s2">she was standing in Opal&#39;s store.</p>
+<p begin="00:44:33.666" end="00:44:34.500" style="s2">Ten minutes later,</p>
+<p begin="00:44:34.500" end="00:44:36.466" style="s2">she was supposed to be forty minutes away.</p>
+<p begin="00:44:38.566" end="00:44:39.733" style="s2">Then let her try.</p>
+<p begin="00:44:43.500" end="00:44:47.866" style="s2">A sedation order with no physical exam on file.</p>
+<p begin="00:44:47.866" end="00:44:50.166" style="s2">For a patient who sees a court evaluator tomorrow morning.</p>
+<p begin="00:44:55.166" end="00:44:56.900" style="s2">There&#39;s no assessment. None.</p>
+<p begin="00:45:03.866" end="00:45:06.166" style="s2">This is the director of nursing at Magnolia Care.</p>
+<p begin="00:45:06.166" end="00:45:08.066" style="s2">I need to report a concern to the long-term</p>
+<p begin="00:45:08.066" end="00:45:09.066" style="s2">care ombudsman.</p>
+<p begin="00:45:09.200" end="00:45:12.000" style="s2">Then come examine her yourself, Doctor, and document it.</p>
+<p begin="00:45:19.933" end="00:45:21.266" style="s2">Is your daddy coming?</p>
+<p begin="00:45:23.700" end="00:45:25.933" style="s2">Friday, Grandma. Friday.</p>
+<p begin="00:45:36.566" end="00:45:39.166" style="s2">She wrote up every job. Name,</p>
+<p begin="00:45:39.666" end="00:45:40.666" style="s2">measurements, price,</p>
+<p begin="00:45:40.800" end="00:45:42.333" style="s2">and her name at the bottom.</p>
+<p begin="00:45:43.066" end="00:45:43.933" style="s2">Slow as Sunday.</p>
+<p begin="00:45:44.366" end="00:45:45.566" style="s2">Every single one.</p>
+<p begin="00:45:46.066" end="00:45:47.000" style="s2">Twenty-eight years.</p>
+<p begin="00:45:51.500" end="00:45:53.366" style="s2">She hemmed my wife&#39;s burial dress</p>
+<p begin="00:45:53.366" end="00:45:54.700" style="s2">and wouldn&#39;t take a dime.</p>
+<p begin="00:45:55.400" end="00:45:56.500" style="s2">Take it home, son.</p>
+<p begin="00:46:00.300" end="00:46:01.800" style="s2">These go to court in the morning.</p>
+<p begin="00:46:02.200" end="00:46:04.100" style="s2">The machine goes home when she does.</p>
+<p begin="00:46:05.100" end="00:46:06.766" style="s2">Then you make sure she does.</p>
+<p begin="00:46:15.800" end="00:46:16.800" style="s2">Step aside, nurse.</p>
+<p begin="00:46:20.266" end="00:46:22.400" style="s2">Not without a documented exam, Doctor.</p>
+<p begin="00:46:24.933" end="00:46:26.766" style="s2">You&#39;ll never work in this state again.</p>
+<p begin="00:46:29.966" end="00:46:32.500" style="s2">You never examined her. I did.</p>
+<p begin="00:46:33.800" end="00:46:37.166" style="s2">Kiddo. Think about who you&#39;re talking to.</p>
+<p begin="00:46:38.100" end="00:46:39.933" style="s2">I know exactly who I&#39;m talking to.</p>
+<p begin="00:46:43.966" end="00:46:44.966" style="s2">There it is.</p>
+<p begin="00:46:49.566" end="00:46:52.066" style="s2">Good morning. I&#39;m here from the court. Mrs.</p>
+<p begin="00:46:52.100" end="00:46:53.000" style="s2">Loretta Whitlock?</p>
+<p begin="00:47:02.900" end="00:47:04.333" style="s2">You look tired, son.</p>
+<p begin="00:47:07.700" end="00:47:08.800" style="s2">Mother.</p>
+<p begin="00:47:09.466" end="00:47:11.466" style="s2">Ready to tell the judge what day it is?</p>
+<p begin="00:47:15.733" end="00:47:17.800" style="s2">I&#39;m not here to argue with you, Celeste.</p>
+<p begin="00:47:18.333" end="00:47:20.100" style="s2">I&#39;m here to take my name back.</p>
+<p begin="00:47:27.300" end="00:47:28.866" style="s2">Your Honor, Dr.</p>
+<p begin="00:47:29.000" end="00:47:30.533" style="s2">Fisk diagnosed Mrs.</p>
+<p begin="00:47:30.600" end="00:47:33.500" style="s2">Whitlock with moderate dementia last October.</p>
+<p begin="00:47:34.266" end="00:47:38.333" style="s2">My client holds her power of attorney and her health care</p>
+<p begin="00:47:38.333" end="00:47:43.066" style="s2">proxy, and cared for her for three years while her son</p>
+<p begin="00:47:43.133" end="00:47:47.966" style="s2">was in Dubai. Ms. Vale was paid as a caregiver.</p>
+<p begin="00:47:50.200" end="00:47:53.466" style="s2">The court evaluator saw Mrs. Whitlock this morning. Doctor?</p>
+<p begin="00:48:00.800" end="00:48:02.100" style="s2">Oriented to person,</p>
+<p begin="00:48:02.500" end="00:48:03.566" style="s2">place, and time.</p>
+<p begin="00:48:03.733" end="00:48:05.966" style="s2">Recalled three words after five minutes.</p>
+<p begin="00:48:06.533" end="00:48:08.766" style="s2">Recited her grocery account to the penny.</p>
+<p begin="00:48:09.266" end="00:48:10.866" style="s2">No evidence of dementia.</p>
+<p begin="00:48:11.166" end="00:48:14.800" style="s2">I did note residual sedation consistent with lorazepam,</p>
+<p begin="00:48:15.000" end="00:48:16.933" style="s2">started Monday, on an order</p>
+<p begin="00:48:16.933" end="00:48:18.466" style="s2">with no documented examination.</p>
+<p begin="00:48:22.333" end="00:48:23.366" style="s2">We&#39;ll take ten minutes.</p>
+<p begin="00:48:24.533" end="00:48:26.333" style="s2">She drops the full guardianship,</p>
+<p begin="00:48:27.100" end="00:48:29.166" style="s2">your client withdraws</p>
+<p begin="00:48:29.266" end="00:48:31.200" style="s2">his complaint and stops helping the DA.</p>
+<p begin="00:48:33.800" end="00:48:36.266" style="s2">Clean and quiet. Have him sign. We&#39;re short on time.</p>
+<p begin="00:48:48.333" end="00:48:53.100" style="s2">&quot;...the pending sale of 14 Pecan Lane to Ridgeview</p>
+<p begin="00:48:53.166" end="00:48:57.066" style="s2">Holdings LLC under the existing power of attorney shall</p>
+<p begin="00:48:57.066" end="00:49:01.666" style="s2">proceed, and Dalton Whitlock waives any objection.&quot;</p>
+<p begin="00:49:02.566" end="00:49:04.166" style="s2">That&#39;s the real deal, Dal.</p>
+<p begin="00:49:05.000" end="00:49:06.533" style="s2">She drops the guardianship,</p>
+<p begin="00:49:06.766" end="00:49:08.966" style="s2">and the house still goes to Fisk&#39;s company</p>
+<p begin="00:49:08.966" end="00:49:11.700" style="s2">at two o&#39;clock. With your signature on it.</p>
+<p begin="00:49:15.733" end="00:49:16.933" style="s2">I read it this time.</p>
+<p begin="00:49:19.333" end="00:49:22.333" style="s2">Fine. She&#39;s having a good day.</p>
+<p begin="00:49:23.200" end="00:49:26.100" style="s2">But she can&#39;t even sign her own name properly.</p>
+<p begin="00:49:27.066" end="00:49:29.000" style="s2">Compare that to the loan forms she</p>
+<p begin="00:49:29.000" end="00:49:31.600" style="s2">signed last summer, before her decline.</p>
+<p begin="00:49:33.066" end="00:49:33.866" style="s2">Your Honor,</p>
+<p begin="00:49:34.133" end="00:49:36.733" style="s2">the last time anyone spoke about my mother in public,</p>
+<p begin="00:49:36.966" end="00:49:39.000" style="s2">it was me. Today,</p>
+<p begin="00:49:39.000" end="00:49:40.400" style="s2">let her speak for herself.</p>
+<p begin="00:49:42.333" end="00:49:43.300" style="s2">Mrs. Whitlock?</p>
+<p begin="00:49:48.133" end="00:49:51.366" style="s2">I learned my letters at forty-one,</p>
+<p begin="00:49:51.366" end="00:49:54.366" style="s2">at the church night class, after my husband passed.</p>
+<p begin="00:49:55.700" end="00:49:58.666" style="s2">I have never signed my name fast in my life.</p>
+<p begin="00:50:02.500" end="00:50:04.700" style="s2">Twenty-eight years of her order slips, Your Honor.</p>
+<p begin="00:50:05.200" end="00:50:07.366" style="s2">Every one signed one letter at a time.</p>
+<p begin="00:50:13.733" end="00:50:15.966" style="s2">Mrs. Whitlock,</p>
+<p begin="00:50:15.966" end="00:50:17.266" style="s2">this certificate says</p>
+<p begin="00:50:17.333" end="00:50:19.200" style="s2">Dr. Fisk examined you</p>
+<p begin="00:50:19.200" end="00:50:20.800" style="s2">at his office on October fourteenth,</p>
+<p begin="00:50:20.866" end="00:50:22.133" style="s2">at ten-thirty in the morning.</p>
+<p begin="00:50:24.066" end="00:50:26.200" style="s2">I&#39;ve never set foot in that man&#39;s office.</p>
+<p begin="00:50:26.900" end="00:50:28.700" style="s2">I&#39;ve only seen him out my window,</p>
+<p begin="00:50:29.666" end="00:50:31.300" style="s2">waiting in his car for her.</p>
+<p begin="00:50:32.400" end="00:50:33.666" style="s2">And in December,</p>
+<p begin="00:50:34.533" end="00:50:36.800" style="s2">carrying my sewing machine out to it.</p>
+<p begin="00:50:38.000" end="00:50:39.133" style="s2">She&#39;s right, Your Honor.</p>
+<p begin="00:50:39.566" end="00:50:43.200" style="s2">I saw him carry it. From her porch, at Christmas.</p>
+<p begin="00:50:45.933" end="00:50:49.533" style="s2">State your name for the record, ma&#39;am.</p>
+<p begin="00:50:50.066" end="00:50:51.800" style="s2">Gwen Tabor. I was selling raffle tickets.</p>
+<p begin="00:50:52.766" end="00:50:55.100" style="s2">Note that.</p>
+<p begin="00:50:55.266" end="00:50:56.900" style="s2">Your Honor, I&#39;d like to call Opal Grimes.</p>
+<p begin="00:50:57.500" end="00:50:58.533" style="s2">She keeps a record.</p>
+<p begin="00:51:04.500" end="00:51:05.900" style="s2">October fourteenth,</p>
+<p begin="00:51:06.300" end="00:51:07.733" style="s2">ten-twenty a.m.</p>
+<p begin="00:51:08.266" end="00:51:09.533" style="s2">Loretta Whitlock.</p>
+<p begin="00:51:09.933" end="00:51:11.100" style="s2">One pound of rice.</p>
+<p begin="00:51:11.600" end="00:51:12.600" style="s2">Running a fever.</p>
+<p begin="00:51:12.900" end="00:51:15.100" style="s2">My store&#39;s forty minutes from his office.</p>
+<p begin="00:51:16.066" end="00:51:18.333" style="s2">That was the morning she put the lock on.</p>
+<p begin="00:51:19.266" end="00:51:20.800" style="s2">There was nothing in the house,</p>
+<p begin="00:51:21.566" end="00:51:23.166" style="s2">so I walked to Opal&#39;s.</p>
+<p begin="00:51:24.166" end="00:51:25.600" style="s2">It&#39;s in my book, too.</p>
+<p begin="00:51:29.533" end="00:51:33.100" style="s2">Seven months she was buying rice from me on credit.</p>
+<p begin="00:51:33.966" end="00:51:35.700" style="s2">If somebody got fifty-four</p>
+<p begin="00:51:35.700" end="00:51:37.566" style="s2">thousand dollars to look in on her,</p>
+<p begin="00:51:37.600" end="00:51:39.666" style="s2">they never once bought her a meal.</p>
+<p begin="00:51:45.100" end="00:51:46.533" style="s2">My receptionist must have...</p>
+<p begin="00:51:46.666" end="00:51:47.600" style="s2">Sit down, Doctor.</p>
+<p begin="00:51:54.700" end="00:51:57.933" style="s2">The proxy is dated September thirtieth of last year.</p>
+<p begin="00:51:58.900" end="00:52:00.700" style="s2">Two weeks before the diagnosis.</p>
+<p begin="00:52:02.533" end="00:52:04.266" style="s2">But look at the bottom of the page, Your Honor.</p>
+<p begin="00:52:05.533" end="00:52:09.333" style="s2">This version of the form came out this February.</p>
+<p begin="00:52:10.466" end="00:52:12.833" style="s2">This form didn&#39;t exist last September.</p>
+<p begin="00:52:15.133" end="00:52:17.766" style="s2">I was standing in the hall closet three Saturdays ago.</p>
+<p begin="00:52:18.333" end="00:52:19.933" style="s2">I watched my mother sign it.</p>
+<p begin="00:52:20.500" end="00:52:22.200" style="s2">She was told it was for the pharmacy.</p>
+<p begin="00:52:22.900" end="00:52:24.333" style="s2">And not to bother with the date.</p>
+<p begin="00:52:36.933" end="00:52:39.066" style="s2">She wrote &quot;So I won&#39;t forget.&quot;</p>
+<p begin="00:52:39.600" end="00:52:41.333" style="s2">Those are her words, not mine.</p>
+<p begin="00:52:43.666" end="00:52:46.700" style="s2">I wrote it down because she kept</p>
+<p begin="00:52:46.766" end="00:52:48.733" style="s2">telling me I imagined things.</p>
+<p begin="00:52:51.100" end="00:52:53.933" style="s2">A woman who forgets doesn&#39;t write down</p>
+<p begin="00:52:53.933" end="00:52:55.966" style="s2">the date of every time she went hungry.</p>
+<p begin="00:52:59.866" end="00:53:01.933" style="s2">And where was her son all this time?</p>
+<p begin="00:53:03.200" end="00:53:05.266" style="s2">A millionaire since last fall,</p>
+<p begin="00:53:05.900" end="00:53:07.766" style="s2">and his mother living on rice?</p>
+<p begin="00:53:08.400" end="00:53:10.066" style="s2">In Dubai, working.</p>
+<p begin="00:53:11.266" end="00:53:12.566" style="s2">He should have come home.</p>
+<p begin="00:53:13.700" end="00:53:15.400" style="s2">I&#39;m angry at him for that.</p>
+<p begin="00:53:16.900" end="00:53:20.133" style="s2">But being angry at my son doesn&#39;t make me crazy.</p>
+<p begin="00:53:27.300" end="00:53:29.600" style="s2">Your Honor, I&#39;m Maisie Whitlock.</p>
+<p begin="00:53:31.700" end="00:53:33.500" style="s2">I&#39;m a nurse at Magnolia Care.</p>
+<p begin="00:53:34.600" end="00:53:36.200" style="s2">My mother told me to write</p>
+<p begin="00:53:36.200" end="00:53:37.566" style="s2">that Grandma didn&#39;t recognize me.</p>
+<p begin="00:53:37.900" end="00:53:39.166" style="s2">She recognized me.</p>
+<p begin="00:53:39.866" end="00:53:41.133" style="s2">She asked if I&#39;d eaten.</p>
+<p begin="00:53:42.666" end="00:53:44.933" style="s2">I&#39;m the nurse who reported the lorazepam.</p>
+<p begin="00:53:45.900" end="00:53:46.700" style="s2">Maisie!</p>
+<p begin="00:53:49.466" end="00:53:51.266" style="s2">You told me if I ever said anything,</p>
+<p begin="00:53:51.400" end="00:53:54.533" style="s2">Dad would stop loving me. He didn&#39;t.</p>
+<p begin="00:53:59.866" end="00:54:01.466" style="s2">The petition is denied.</p>
+<p begin="00:54:02.066" end="00:54:04.166" style="s2">The emergency order is vacated.</p>
+<p begin="00:54:04.733" end="00:54:06.733" style="s2">Mrs. Whitlock goes home today.</p>
+<p begin="00:54:07.200" end="00:54:09.466" style="s2">This file goes to the district attorney,</p>
+<p begin="00:54:09.566" end="00:54:12.566" style="s2">and I&#39;m reporting Dr. Fisk to the state medical board.</p>
+<p begin="00:54:15.100" end="00:54:16.000" style="s2">She&#39;s competent.</p>
+<p begin="00:54:16.366" end="00:54:18.800" style="s2">Her revocation stands. No sale.</p>
+<p begin="00:54:22.866" end="00:54:27.566" style="s2">Your Honor, may I take my name back off those papers?</p>
+<p begin="00:54:39.900" end="00:54:40.733" style="s2">Take your time,</p>
+<p begin="00:54:40.733" end="00:54:41.766" style="s2">Mrs. Whitlock.</p>
+<p begin="00:54:45.700" end="00:54:46.733" style="s2">Celeste Whitlock,</p>
+<p begin="00:54:47.100" end="00:54:49.200" style="s2">you&#39;re under arrest for forgery,</p>
+<p begin="00:54:49.700" end="00:54:50.533" style="s2">identity theft,</p>
+<p begin="00:54:50.666" end="00:54:52.733" style="s2">and exploitation of an elder adult.</p>
+<p begin="00:54:57.600" end="00:55:00.400" style="s2">Dr. Vernon Fisk, you&#39;re under arrest for falsifying</p>
+<p begin="00:55:00.400" end="00:55:02.100" style="s2">a medical certificate and elder abuse.</p>
+<p begin="00:55:08.900" end="00:55:10.133" style="s2">It was her idea!</p>
+<p begin="00:55:11.133" end="00:55:12.700" style="s2">I just went to the bank!</p>
+<p begin="00:55:14.400" end="00:55:16.333" style="s2">Ma&#39;am, tell it to your lawyer.</p>
+<p begin="00:55:24.866" end="00:55:26.666" style="s2">I did everything for this family.</p>
+<p begin="00:55:27.666" end="00:55:29.266" style="s2">You did everything to it.</p>
+<p begin="00:55:32.266" end="00:55:34.600" style="s2">Maisie. I&#39;m your father.</p>
+<p begin="00:55:36.733" end="00:55:37.666" style="s2">I have a father.</p>
+<p begin="00:55:42.933" end="00:55:46.100" style="s2">Thursday, Opal. All at once. Like I said.</p>
+<p begin="00:55:46.533" end="00:55:47.900" style="s2">You don&#39;t owe me a thing.</p>
+<p begin="00:55:48.133" end="00:55:49.866" style="s2">That&#39;s exactly why I&#39;m paying.</p>
+<p begin="00:55:53.366" end="00:55:57.000" style="s2">Loretta. I said things in this store I&#39;m ashamed of.</p>
+<p begin="00:55:58.300" end="00:56:01.166" style="s2">Then pay your tab, Gwen. Opal&#39;s been</p>
+<p begin="00:56:01.166" end="00:56:03.266" style="s2">patient with you a lot longer than with me.</p>
+<p begin="00:56:04.766" end="00:56:06.066" style="s2">Three pages, Gwen.</p>
+<p begin="00:56:06.200" end="00:56:07.600" style="s2">Thursday works for you too.</p>
+<p begin="00:56:14.266" end="00:56:16.766" style="s2">All three loans are frozen. No payments,</p>
+<p begin="00:56:16.766" end="00:56:17.600" style="s2">no collections,</p>
+<p begin="00:56:17.766" end="00:56:20.000" style="s2">nothing on your credit while the forgery case runs.</p>
+<p begin="00:56:21.066" end="00:56:22.100" style="s2">Once it&#39;s proven,</p>
+<p begin="00:56:22.600" end="00:56:24.166" style="s2">they come off your name for good.</p>
+<p begin="00:56:25.466" end="00:56:26.466" style="s2">Then I&#39;ll wait.</p>
+<p begin="00:56:27.000" end="00:56:28.000" style="s2">I&#39;m good at waiting.</p>
+<p begin="00:56:36.200" end="00:56:37.133" style="s2">Teach me, Grandma?</p>
+<p begin="00:56:39.400" end="00:56:42.466" style="s2">First, a straight line. You rush.</p>
+<p begin="00:56:42.800" end="00:56:44.300" style="s2">Just like your daddy did.</p>
+<p begin="00:56:45.000" end="00:56:46.300" style="s2">I&#39;ll set it all up.</p>
+<p begin="00:56:46.500" end="00:56:47.866" style="s2">A nurse twice a week,</p>
+<p begin="00:56:47.933" end="00:56:50.066" style="s2">the bills on autopay, a new phone...</p>
+<p begin="00:56:52.066" end="00:56:53.066" style="s2">Ask me first.</p>
+<p begin="00:56:56.666" end="00:56:58.666" style="s2">You didn&#39;t have to give up your work for me.</p>
+<p begin="00:56:59.266" end="00:57:00.400" style="s2">I sold my half.</p>
+<p begin="00:57:01.466" end="00:57:03.366" style="s2">I should have come home three years ago.</p>
+<p begin="00:57:04.466" end="00:57:06.133" style="s2">You never left me alone, son.</p>
+<p begin="00:57:06.933" end="00:57:10.133" style="s2">I did, Mama. I sent money.</p>
+<p begin="00:57:11.466" end="00:57:13.500" style="s2">Money doesn&#39;t sit at the table with you.</p>
+<p begin="00:57:14.333" end="00:57:15.133" style="s2">Then sit.</p>
+<p begin="00:57:20.933" end="00:57:22.466" style="s2">Turn on the porch light, son.</p>
+<p begin="00:57:23.100" end="00:57:25.133" style="s2">Let folks see somebody lives here.</p>
+</div>
+</body>
+</tt>
