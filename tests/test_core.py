@@ -5470,3 +5470,11 @@ def test_epistemic_intimacy_inner_voice_polarity_regressions():
     assert own['applies'] is False
     unspoken=ev({'logline':'A wife hears her partner’s unspoken voice as he thinks.'},{'ending_payoff':'They choose honest proximity.'},[])
     assert unspoken['applies'] is True
+
+
+def test_epistemic_inner_voice_audible_only_regression():
+    from studio.epistemic_intimacy_integrity import evaluate_epistemic_intimacy_integrity as ev
+    r=ev({'logline':'A wife discovers her husband’s inner voice is audible only to her.'},{'ending_payoff':'They choose honest proximity.'},[])
+    assert r['applies'] is True
+    own=ev({'logline':'A bride follows her own inner voice and chooses a new life.'},{},[])
+    assert own['applies'] is False
