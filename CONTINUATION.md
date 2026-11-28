@@ -513,3 +513,7 @@ Latest pushed commit `9fb4300` adds Purple Grape epistemic-intimacy doctrine/val
 ## Review-fix handoff — 2026-11-28
 
 Latest pushed commit `07848e4`: triaged/fixed three review findings from job `pr-review-job-e72c65fcd43f41c89972144ef29b91fd`; tests 575 passed. A newer Devin Review is running. Next context: handle new PR #7 review findings first if present; otherwise scan uncovered fresh low-subscriber breakouts. Purple Grape doctrine complete and pushed in `9fb4300`.
+
+## Rotation handoff — fresh scan and review state
+
+Latest pushed commit before this checkpoint `4dc964d`: epistemic-intimacy applicability findings fixed/triaged; tests 576 passed. New 10-day scan completed: 196 candidates, 45 carryover in `data/processed/recent_breakout_candidates.json`; scan artifacts are committed with this handoff. Important dedupe correction: an ID appearing in scan/candidate inventory files is not “covered”; coverage requires a dedicated comparative report/validator or explicit completed checkpoint. Promising unprocessed lead identified before rotation: Gracie Dramas/HeartTale `tQHAwqGfhyo` — 5.1k subscribers, ~886k views in ~2.13 days, 119m, wounded-stranger/billionaire-heir care-first rescue incognito. Verify whether it is genuinely uncovered, collect same-channel hit/low comparators, then deep dive. Handle any new PR #7 review findings first. Do not commit stray `evidence/media/iqCNxQ2_jSI/` unless intentionally needed.
