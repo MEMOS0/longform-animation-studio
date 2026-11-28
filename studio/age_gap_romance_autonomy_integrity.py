@@ -39,7 +39,7 @@ def _partner_numeric_ages(text: str) -> tuple[list[int], list[int]]:
     for pattern, target in patterns:
         for match in re.finditer(pattern, text):
             age = next((int(group) for group in match.groups() if group), None)
-            if age is not None and 18 <= age <= 99:
+            if age is not None and 10 <= age <= 99:
                 target.append(age)
     return female, male
 
