@@ -17,7 +17,7 @@ def _text(value: Any) -> str:
 
 def evaluate_appearance_capital_transformation_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    appearance = bool(re.search(r"ugly|fat|hidden beauty|masked revenge|new face|beauty|beautiful|girl in the mirror|burn scar|facial scar|scarred face|mocked[^.\n]{0,50}(?:face|appearance|scar)|(?:face|appearance|scar)[^.\n]{0,50}mocked", full))
+    appearance = bool(re.search(r"ugly|fat|hidden beauty|masked revenge|new face|beauty|beautiful|girl in the mirror|burn scar\w*|facial scar\w*|scarred face|mocked[^.\n]{0,50}(?:face|appearance|\bscars?\b|\bscarred\b)|(?:face|appearance|\bscars?\b|\bscarred\b)[^.\n]{0,50}mocked", full))
     social = bool(re.search(r"mocked|laughed|humiliat|bully|shame|reject|school|wedding|public|everyone", full))
     transform = bool(re.search(r"transform|new face|masked|hidden beauty|become|returned with a new face|makeover|reconstructive surgery|plastic surgery", full))
     if not (appearance and social and transform):
@@ -34,6 +34,15 @@ def evaluate_appearance_capital_transformation_integrity(premise: dict[str, Any]
     architecture_text = _text(architecture).lower()
     end = "\n".join(ending_parts + ([_text(scenes[-1]).lower()] if scenes else [])) or (architecture_text[-max(1, len(architecture_text) // 3):] if architecture_text else "")
 
+    def relational_recognition(text: str) -> bool:
+        for sentence in [part.strip() for part in re.split(r"[.!?\n]", text) if part.strip()]:
+            commercial = bool(re.search(r"rental|lease|landlord|business contract|project deal", sentence))
+            direct = bool(re.search(r"trust|recognized|found you|save me|love before|proud|reciprocal", sentence))
+            reciprocal_deal = bool(re.search(r"\bdeal\b", sentence) and re.search(r"your turn|save me|reciprocal", sentence))
+            if (direct or reciprocal_deal) and not commercial:
+                return True
+        return False
+
     checks = {
         "opening_establishes_social_cost_without_making_stigma_the_only_engine": bool(re.search(r"mocked|laughed|humiliat|pig|ugly|fat|reject", full)) and bool(re.search(r"uncle|family|school|role|work|dream|love|father|shares|career", full)),
         "transformation_has_specific_practice_cost_or_time": bool(re.search(r"10 years|ten years|training|practice|film|role|weight loss|surgery|hospital|checkup|project|study|learns?|work", full)),
@@ -43,7 +52,7 @@ def evaluate_appearance_capital_transformation_integrity(premise: dict[str, Any]
         "transformation_carries_physical_emotional_or_ethical_cost": bool(re.search(r"collapse|hospital|hurt|scared|not enough time|risk|cost|left side|fall|assault|weapon|sacrifice", full)),
         "truth_is_exposed_through_evidence_or_witnessed_action": bool(re.search(r"evidence|document|handwriting|witness|police|law|submitted|signed|camera|report|proof", full)),
         "ending_converts_status_into_reciprocal_choice_or_material_justice": bool(re.search(r"deal|choice|your turn|congratulations|graduated|law can handle|evidence has been submitted|proud|found you|apolog", end)),
-        "romance_is_not_reward_for_becoming_acceptably_beautiful": bool(re.search(r"save me|proud|found you|love before|recognized|choice|deal|trust", full)) and not bool(re.search(r"loves? her only because she is beautiful|deserves love now that she is thin", end)),
+        "romance_is_not_reward_for_becoming_acceptably_beautiful": relational_recognition(full) and not (bool(re.search(r"loves?[^.\n]{0,60}only[^.\n]{0,40}(?:beauty|new face)|falls? for nothing but[^.\n]{0,40}(?:beauty|new face)", full)) and not bool(re.search(r"trust before|recognized|identity|not the sophia|more than (?:beauty|her face)|love before", full))),
     }
     labels = {
         "opening_establishes_social_cost_without_making_stigma_the_only_engine": "the opening uses stigma but gives no family/work/dream engine beyond humiliation",

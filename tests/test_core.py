@@ -5806,3 +5806,14 @@ def test_appearance_validator_scar_and_trust_scope_regressions():
  assert premise_only['checks']['ending_converts_status_into_reciprocal_choice_or_material_justice'] is False
  salt=ev({'logline':'A mocked hidden beauty learns to trust him before transformation.'},{'ending_payoff':'The ending is unresolved.'},[])
  assert salt['checks']['romance_is_not_reward_for_becoming_acceptably_beautiful'] is True
+
+def test_appearance_romance_motive_and_scared_regressions():
+ from studio.appearance_capital_transformation_integrity import evaluate_appearance_capital_transformation_integrity as ev
+ assert ev({'logline':'A scared student is mocked at school and becomes a musician.'},{'ending_payoff':'The performance transforms the room.'},[])['applies'] is False
+ p={'logline':'A mocked hidden beauty transforms after practice.'}
+ rental=ev(p,{'opening':'A rental deal is signed.','ending_payoff':'He falls for nothing but her new face.'},[])
+ assert rental['checks']['romance_is_not_reward_for_becoming_acceptably_beautiful'] is False
+ beauty_only=ev({'logline':'A mocked hidden beauty transforms. The suitor loves her only for her beauty.'},{'ending_payoff':'They make a deal at the end.'},[])
+ assert beauty_only['checks']['romance_is_not_reward_for_becoming_acceptably_beautiful'] is False
+ repaired=ev({'logline':'A mocked hidden beauty transforms. The suitor loves her only for her beauty but later recognized her identity.'},{'ending_payoff':'He found you and trust remains.'},[])
+ assert repaired['checks']['romance_is_not_reward_for_becoming_acceptably_beautiful'] is True
