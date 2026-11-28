@@ -33,7 +33,7 @@ def _affirmative(pattern: str, text: str) -> bool:
 def evaluate_incognito_moral_test_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     powerful = bool(re.search(r"billionaire|governor|ceo|mother|father|parent|owner|magnate|rich|powerful|chairman|heir", full))
-    disguise = bool(re.search(r"pretend|disguis|incognito|poses? as|dressed as|hidden identity|secretly|uniform|maid|cleaner|gateman|driver|homeless|stranger", full))
+    disguise = bool(re.search(r"pretend|disguis|incognito|poses? as|dressed as|hidden identity|secretly|undercover", full))
     moral_test = bool(re.search(r"\btest(?:s|ed|ing)?\b|how (?:she|he|they) treat|see how|moral|kindness|cruel|humiliat", full))
     low_status = bool(re.search(r"maid|cleaner|servant|worker|clerk|gateman|driver|cook|homeless|poor|unpaid|staff|employee", full))
     if not (powerful and disguise and moral_test and low_status):
@@ -47,25 +47,33 @@ def evaluate_incognito_moral_test_integrity(premise: dict[str, Any], architectur
         r"how (?:she|he|they) treat|treats? (?:the )?(?:maid|cleaner|worker|clerk|poor|homeless|stranger|staff)|threw (?:her|him|them) out|slap|humiliat|mock|laugh|bully|open(?:ed)? the door|shelter|fed|cover(?:ed)? the cost",
         full,
     ))
-    costly_kindness = bool(re.search(
-        r"out of (?:her|his|their) pay|open(?:ed)? the door|share(?:d|s)? (?:her|his|their) (?:food|meal|soup)|gave (?:her|him|them) (?:a room|shelter|food)|paid bail|bus fare|risk(?:ed|s)? (?:her|his|their) job|lost (?:her|his|their) job|cover(?:ed)? the rest|keep one room",
-        full,
-    ))
+    ordered = "\n".join([_text(architecture), _text(scenes)]).lower() or full
+    kindness_pattern = r"out of (?:her|his|their) pay|open(?:ed)? the door|share(?:d|s)? (?:her|his|their) (?:food|meal|soup)|gave (?:her|him|them) (?:a room|shelter|food)|paid bail|bus fare|risk(?:ed|s)? (?:her|his|their) job|lost (?:her|his|their) job|cover(?:ed)? the rest|keep one room"
+    reward_pattern = r"reward|bought|buy(?:s|ing)? (?:her|him|them)? ?(?:the )?(?:motel|hotel|shop|restaurant)|promotion|marry|marriage|reveals? (?:her|his|their) identity|identity is revealed|inherits?|own(?:s|ing)? (?:a|the)? ?(?:business|restaurant|shop|motel|company)|manager"
+    kindness_match = re.search(kindness_pattern, ordered)
+    reward_match = re.search(reward_pattern, ordered)
+    costly_kindness = bool(kindness_match) and (not reward_match or kindness_match.start() < reward_match.start())
     material_cruelty = bool(re.search(
         r"rain|storm|slap|fired|wage|salary|debt|hospital|injur|arrest|handcuff|thrown out|locked outside|public humiliation|evict|starv|unpaid",
         full,
     ))
-    test_contested = _affirmative(
-        r"not your exam|never asked me|testing (?:her|him|them) was wrong|that test cost|test(?:s|ed|ing)?.{0,80}(?:wrong|cruel|manipulat|cost|ashamed|sorry|apolog)|apolog\w*.{0,80}test",
+    test_contested = bool(re.search(
+        r"not your exam|never asked me|testing (?:her|him|them) was wrong|that test cost|test(?:s|ed|ing)?.{0,80}(?:wrong|cruel|manipulat|cost|ashamed|sorry|apolog)|apolog\w*.{0,80}test|object(?:s|ed)? to the test|son confront|daughter confront|ethics of the test",
         full,
-    ) or bool(re.search(r"object(?:s|ed)? to the test|son confront|daughter confront|ethics of the test", full))
+    ))
     procedural_reveal = bool(re.search(
         r"label|tag|receipt|contract|key|records?|witness|evidence|timeline|invoice|bill|camera|recording|documents?|proof|tailor|rental|hired|signatures?",
         full,
     ))
+    if scenes:
+        ending_text = _text(scenes[-1]).lower()
+    elif ordered:
+        ending_text = ordered[-max(1, len(ordered) // 4):]
+    else:
+        ending_text = full[-max(1, len(full) // 4):]
     independent_restoration = bool(re.search(
-        r"own (?:business|restaurant|shop|motel|company)|independent income|salary|wage|manager|promotion|repaid|account|school|training|counter at .* price|livelihood|career|voice|choice|free to refuse",
-        full,
+        r"own (?:business|restaurant|shop|motel|company)|independent income|salary|wage|manager|promotion|repaid|school|training|counter at .* price|livelihood|career|voice|choice|free to refuse",
+        ending_text,
     ))
     central_engine_dominant = not bool(re.search(
         r"corporate fraud|hostile takeover|murder mystery|serial killer|alien invasion|war crimes|international conspiracy|multiple assassins|guardianship trial|police conspiracy",

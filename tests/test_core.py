@@ -5170,3 +5170,35 @@ def test_incognito_moral_test_flags_costless_reward_and_uncontested_test():
     assert r['checks']['kindness_is_active_and_costly_before_reward'] is False
     assert r['checks']['covert_test_is_ethically_contested'] is False
     assert r['checks']['ending_restores_independent_dignity_and_livelihood'] is False
+
+
+def test_age_gap_romance_positive_autonomy_case():
+    from studio.age_gap_romance_autonomy_integrity import evaluate_age_gap_romance_autonomy_integrity
+    premise={'logline':'An adult younger woman marries an older widower billionaire despite age-gap gossip and family opposition.'}
+    arch={'sequences':[{'summary':'Both adults are explicit; she is a grown woman, never too young to choose, and refuses money. Wealth, gold-digger gossip, account transfer, and financial power are named. She can leave, has her own shop and independent work, and chooses him. Love is patience, respect, honesty, trust, listening, sacrifice, learning habits, and repair. His children grieve their mother and fear replacement, so their protection is legitimate. Transfer records, account access, witnesses, documents, and confession resolve the accusation. After marriage they talk honestly, communicate, apologize, respect boundaries, and feel safe. The ending preserves her own shop, career, ordinary work, chosen family, and identity.'}]}
+    r=evaluate_age_gap_romance_autonomy_integrity(premise,arch,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.8
+
+
+def test_age_gap_romance_flags_infantilized_transactional_love():
+    from studio.age_gap_romance_autonomy_integrity import evaluate_age_gap_romance_autonomy_integrity
+    premise={'logline':'A young girl catches an old billionaire husband and society judges their marriage.'}
+    r=evaluate_age_gap_romance_autonomy_integrity(premise,{},[])
+    assert r['applies'] is True
+    assert r['checks']['both_partners_are_unambiguously_adults'] is False
+    assert r['checks']['younger_partner_has_refusal_rights_and_independence'] is False
+
+
+def test_incognito_moral_test_applicability_and_temporal_regressions():
+    from studio.incognito_moral_test_integrity import evaluate_incognito_moral_test_integrity
+    unrelated={'logline':'A maid and an heir face humiliation at a banquet.'}
+    assert evaluate_incognito_moral_test_integrity(unrelated,{},[])['applies'] is False
+    premise={'logline':'A billionaire mother pretends to be a maid to test how the fiancée treats workers.'}
+    arch={'sequences':[{'summary':'The worker loses wages in the opening. Only after the mother rewards her with a shop does the worker open the door and share food.'}]}
+    r=evaluate_incognito_moral_test_integrity(premise,arch,[])
+    assert r['checks']['kindness_is_active_and_costly_before_reward'] is False
+    assert r['checks']['ending_restores_independent_dignity_and_livelihood'] is False
+    arch={'sequences':[{'summary':'The son says this is not your exam and you never asked me.'}]}
+    r=evaluate_incognito_moral_test_integrity(premise,arch,[])
+    assert r['checks']['covert_test_is_ethically_contested'] is True
