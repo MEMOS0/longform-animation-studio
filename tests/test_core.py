@@ -5440,3 +5440,15 @@ def test_epistemic_intimacy_integrity():
     assert bad['applies'] is True
     assert bad['checks']['power_is_not_used_as_ownership_or_capture'] is False
     assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+
+def test_review_round_epistemic_prior_validator_regressions():
+    from studio.institutional_vindication_care_integrity import evaluate_institutional_vindication_care_integrity as iv
+    from studio.strategic_romantic_deception_integrity import evaluate_strategic_romantic_deception_integrity as sd
+    no_reversal=iv({'logline':'A governess framed by the royal court returns to care for a child.'},{'ending_payoff':'She remains quietly in the palace.'},[])
+    assert no_reversal['applies'] is True
+    assert 'evidence_chain_uses_documents_witnesses_or_preserved_procedure' in no_reversal['checks']
+    private_confession=iv({'logline':'A governess framed by the royal court returns to care for a child; a confession clears her.'},{'ending_payoff':'A private confession clears her name.'},[])
+    assert private_confession['checks']['evidence_chain_uses_documents_witnesses_or_preserved_procedure'] is False
+    refused=sd({'logline':'A paid professional is hired to ruin a wedding through a contract arrangement and hidden identity.'},{'ending_payoff':'He refuses his assistant suggestion to pull the team; the deal stands and she chooses him freely.'},[])
+    assert refused['checks']['rejection_is_not_punished_through_money_or_institutional_power'] is True
