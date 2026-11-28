@@ -24,18 +24,29 @@ def _text(value: Any) -> str:
 def evaluate_deprioritized_spouse_power_reversal_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     spouse = bool(re.search(r"wife|husband|fianc|marriage|married|bride|groom|spouse", full))
-    deprioritized = bool(re.search(r"chose|priorit|another woman|mistress|first love|best friend|adopted sister|sister|surrogate|widow|protect(?:ed|ing)? her|left me|divorce|secret wife|stand-in", full))
-    boundary = bool(re.search(r"walked away|leave|left|divorce|cancel(?:ed)? the wedding|disappear|cutting ties|no second chances|done playing|took his empire|power reversal|consigliere|hellcat", full))
+    deprioritized = bool(re.search(r"chose|priorit|another woman|mistress|first love|best friend|adopted sister|sister|surrogate|widow|protect(?:ed|ing)? her|left me|divorc\w* (?:me|her|him) for|secret wife|stand-in", full))
+    boundary = bool(re.search(r"walk(?:ed|s)? away|leave|left|divorce|cancel(?:ed)? the wedding|disappear|cutting ties|no second chances|done playing|took his empire|power reversal|consigliere|hellcat", full))
     if not (spouse and deprioritized and boundary):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
-    ending_text = "\n".join([_text(architecture).lower(), _text(scenes[-1]).lower() if scenes else ""])
+    architecture_text = _text(architecture).lower()
+    final_scene_text = _text(scenes[-1]).lower() if scenes else ""
+    ending_parts: list[str] = []
+    if isinstance(architecture, dict):
+        for key, value in architecture.items():
+            if re.search(r"ending|final|closing|resolution|epilogue|payoff", str(key).lower()):
+                ending_parts.append(_text(value).lower())
+    architecture_tail = architecture_text[-max(1, len(architecture_text) // 3):] if architecture_text else ""
+    ending_text = "\n".join(ending_parts + [architecture_tail if not ending_parts else "", final_scene_text]) or full[-max(1, len(full) // 4):]
+    restoration = bool(re.search(r"took (?:him|her) back|forgave (?:him|her)|reconciled|remarried|accepted (?:him|her) back", ending_text))
+    earned_repair = bool(re.search(r"after months|over time|proved|proven|earned|consistent|repair|changed behavior|therapy|made amends", ending_text))
+    regret_or_denial = bool(re.search(r"too late|no second chances|maybe|regretted everything|desperate whispers|couldn't be bothered|never meant to last|felt nothing", full))
     checks = {
         "deprioritization_is_repeated_or_materially_costly": bool(re.search(r"seven times|eight times|again|always chose|every time|premature|hospital|ambush|life jacket|wedding|banquet|ring|empire|postponed|ignored|blisters|blood", full)),
         "rival_power_is_personal_or_structural_not_random": bool(re.search(r"adopted sister|best friend|mistress|first love|surrogate|widow|father gave his life|debt|family obligation|looks just like|stand-in|saintess", full)),
-        "protagonist_boundary_is_decisive_and_behavioral": bool(re.search(r"walked away|cutting ties|done playing|cook it yourself|canceled|divorce papers|disappeared|threw.*ring|no second chances|never blow backward", full)),
+        "protagonist_boundary_is_decisive_and_behavioral": bool(re.search(r"walk(?:ed|s)? away|cutting ties|done playing|cook it yourself|canceled|divorce papers|disappeared|threw.*ring|no second chances|never blow backward", full)),
         "power_reversal_comes_through_competence_position_or_alliance": bool(re.search(r"authority|power|consigliere|empire|mafia princess|commission|commercial|alliance|earned the respect|guns|fight back|protect(?:s|ed)? the kids|family business", full)),
-        "late_male_regret_does_not_automatically_restore_access": bool(re.search(r"too late|no second chances|maybe|regretted everything|desperate whispers|couldn't be bothered|never meant to last|felt nothing", full)),
+        "late_male_regret_does_not_automatically_restore_access": regret_or_denial and (not restoration or earned_repair),
         "consequences_are_material_or_institutional": bool(re.search(r"empire|divorce|cutting ties|half the .* family|authority|commission|war|bankrupt|lost|position|respect|commercial empire|cost him", full)),
         "ending_preserves_self_rule_or_chosen_family_beyond_romance": bool(re.search(r"rule|authority|power|respect|chosen|children|family|real couple|happily together|no longer anyone's wife|own name|independent|safe", ending_text or full[-max(1,len(full)//4):])),
     }

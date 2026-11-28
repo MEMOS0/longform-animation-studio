@@ -5282,3 +5282,34 @@ def test_deprioritized_spouse_power_reversal_integrity_positive_and_negative():
     assert r['applies'] is True
     assert r['score_0_to_1'] >= 0.85
     assert evaluate_deprioritized_spouse_power_reversal_integrity({'logline':'A sailor crosses the ocean.'},{},[])['applies'] is False
+
+
+def test_family_abandonment_applies_but_abandoned_places_do_not():
+    from studio.misplaced_family_loyalty_integrity import evaluate_misplaced_family_loyalty_integrity
+    premise={'logline':'The family abandoned their daughter because they believed the impostor heir, casting her out without evidence.'}
+    family={'ending_payoff':'She walks away, proof is revealed, and the family finally names its failure while she builds independent dignity.'}
+    assert evaluate_misplaced_family_loyalty_integrity(premise,family,[])['applies'] is True
+    assert evaluate_misplaced_family_loyalty_integrity({'logline':'Explorers rescue moths from abandoned tunnels.'},{},[])['applies'] is False
+
+
+def test_deprioritized_spouse_validator_review_regressions():
+    from studio.deprioritized_spouse_power_reversal_integrity import evaluate_deprioritized_spouse_power_reversal_integrity as ev
+    assert ev({'logline':'After an amicable divorce, two spouses remain kind co-parents.'},{'ending_payoff':'They leave peacefully.'},[])['applies'] is False
+
+    r=ev({'logline':'A wife whose husband always chose his first love walks away and files divorce papers.'},{'ending_payoff':'His regret is too late. She has authority and self-rule.'},[])
+    assert r['applies'] is True
+    assert r['checks']['protagonist_boundary_is_decisive_and_behavioral'] is True
+
+    r=ev({'logline':'A wife whose husband always chose his mistress walks away.'},{'ending_payoff':'He regretted everything, and she took him back immediately.'},[])
+    assert r['checks']['late_male_regret_does_not_automatically_restore_access'] is False
+
+    filler='ordinary daily detail. '*40
+    arch={'act_three':'She gained authority and power early. '+filler,'ending_payoff':'They reconciled quietly.'}
+    r=ev({'logline':'A wife whose husband always chose his mistress walks away. He regretted everything.'},arch,[{'scene_brief':'They reconciled and stayed together.'}])
+    assert r['checks']['ending_preserves_self_rule_or_chosen_family_beyond_romance'] is False
+
+
+def test_family_abandonment_requires_relative_not_plan():
+    from studio.misplaced_family_loyalty_integrity import evaluate_misplaced_family_loyalty_integrity as ev
+    assert ev({'logline':'The family abandoned their daughter because they believed the impostor heir.'},{'ending_payoff':'She walks away; proof is revealed.'},[])['applies'] is True
+    assert ev({'logline':'The family abandoned the renovation plan, though the favorite son objected.'},{},{})['applies'] is False
