@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-11-28",
+  "channel": "Heart Flush",
+  "channel_id": "UCn-TYAECUHdGsRcG5vR514A",
+  "evidence_limits": "Metadata and visual inspection only; no CTR/retention/traffic-source data. Do not treat CTR guesses as fact.",
+  "items": [
+    {
+      "video_id": "2ZS07psGajY",
+      "performance_bucket": "fresh_hit",
+      "views_at_collection": 209000,
+      "age_days_approx": 1,
+      "runtime_minutes": 75.8,
+      "thumbnail_path": "data/raw/thumbnails/heartflush/2ZS07psGajY.jpg",
+      "visual_mechanism": "five-child foreground plus photo/pointing knowledge-gap, opposed parental emotion, wolf threat, Christmas warmth; hidden kinship readable at mobile scale",
+      "reuse_rule": "show the information asymmetry inside the family, not merely cute children or wolves"
+    },
+    {
+      "video_id": "02sdQyBKqiY",
+      "performance_bucket": "medium_comparator",
+      "views_at_collection": 45000,
+      "age_days_approx": 14,
+      "runtime_minutes": 91.0,
+      "thumbnail_path": "data/raw/thumbnails/heartflush/02sdQyBKqiY.jpg",
+      "visual_mechanism": "kneeling alpha and poised woman with wolf/castle/moon; readable but more generic alpha romance hierarchy",
+      "reuse_rule": "kneeling-power inversion can signal chosen bond but needs a more specific story secret to avoid generic fantasy-romance packaging"
+    },
+    {
+      "video_id": "6CDxL1ueUbs",
+      "performance_bucket": "low_counterexample",
+      "views_at_collection": 772,
+      "age_days_approx": 10,
+      "runtime_minutes": 71.4,
+      "thumbnail_path": "data/raw/thumbnails/heartflush/6CDxL1ueUbs.jpg",
+      "visual_mechanism": "five cute children crowding center, shocked man, smiling caregiver, pink/gold title; polished domestic chaos/nanny comedy",
+      "reuse_rule": "cute child multiplicity alone does not communicate hidden kinship mystery or progressive revelation"
+    }
+  ]
+}

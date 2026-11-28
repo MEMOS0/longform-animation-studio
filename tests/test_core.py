@@ -5646,3 +5646,13 @@ def test_period_autonomy_third_review_regressions():
     base={'logline':'In a Regency period romance, a duke arranges marriage to a lady for duty and reputation.'}
     bad=ev(base,{'ending_payoff':'He asks permission to open letters, but kisses her as she pulls away. She chooses her home.'},[])
     assert bad['checks']['intimacy_is_explicitly_consensual_and_reversible'] is False
+
+
+def test_hidden_supernatural_kinship_integrity():
+    from studio.hidden_supernatural_kinship_integrity import evaluate_hidden_supernatural_kinship_integrity as ev
+    premise={'logline':'A single mother hides five werewolf pups from the alpha wolf king after a secret night because she fears custody. The children sell toys, plan carefully, and are warned no shifting in public.'}
+    architecture={'ending_payoff':'Progressive discovery through moon mark, DNA, bloodline pressure, camera footage, and records proves the children are his. Her fashion design initials expose theft, the false claimant is arrested, and he chooses her freely. They stay together as a safe family at home.'}
+    good=ev(premise,architecture,[])
+    assert good['applies'] is True
+    assert good['score_0_to_1'] >= 0.65
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
