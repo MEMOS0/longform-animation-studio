@@ -5543,3 +5543,22 @@ def test_bounded_magic_livelihood_review_regressions():
     assert unlimited['checks']['magic_has_explicit_limits_costs_or_prohibitions'] is False
     assert unlimited['checks']['magic_creates_inputs_not_final_wealth'] is False
     assert unlimited['checks']['ending_refuses_infinite_accumulation_and_proves_stewardship_or_self_sufficiency'] is False
+
+
+def test_compressed_mythic_quest_integrity():
+    from studio.compressed_mythic_quest_integrity import evaluate_compressed_mythic_quest_integrity as ev
+    premise={'logline':'A warrior brothers quest to find the flower of immortality in a fantasy kingdom, using complementary strength and comic relief banter under an epic adventure tonal contract. Orcs, fire creatures, and a dragon escalate while they protect innocent villagers; the flower grew from fallen blood, giving the lore cost.'}
+    ending={'ending_payoff':'They escape the trap, recover the route to the island, form an alliance, and continue toward a specific war with the queen.'}
+    good=ev(premise,ending,[])
+    assert good['applies'] is True
+    assert good['score_0_to_1'] >= 0.75
+    bad=ev({'logline':'A fantasy warrior searches for something.'},{'ending_payoff':'Subscribe to the channel.'},[])
+    assert bad['applies'] is True
+    assert bad['checks']['continuation_hook_is_specific_not_generic_cta'] is False
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+
+def test_dignified_labor_applicability_word_boundaries():
+    from studio.dignified_labor_craft_vindication_integrity import evaluate_dignified_labor_craft_vindication_integrity as ev
+    survival=ev({'logline':'An observant brakeman uses craft and planning evidence to free train crash survivors.'},{'ending_payoff':'They escape.'},[])
+    assert survival['applies'] is False
