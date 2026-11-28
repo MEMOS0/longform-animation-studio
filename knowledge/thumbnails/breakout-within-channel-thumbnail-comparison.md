@@ -172,3 +172,8 @@ No CTR inference is made. The comparative design lesson is that cost and relatio
 ## HUACE GLOBAL NOVA STUDIO mecha comparison (2026-11-28)
 
 Hit `QK56XAHXLb4` combines giant-machine scale with a foreground interpersonal confrontation: woman in red, delivery-worker yellow vest, readable faces, and mech/alien spectacle behind them. Medium `UV0KiJM97TM` is polished creature-horror close-up imagery but less socially specific. Low excerpt `DnhouSFc_h4` is complex space spectacle without readable human faces or emotional relation. Treat this as visual-pattern evidence only, not CTR causality.
+
+
+## ElowenTale athlete/family/romance comparison (2026-11-28)
+
+Hit `xK9NcPoHLOo` uses sports-arena scale, opposing team uniforms, central gymnast body, rival woman, and championship signage: competition and relational triangle are both legible. Medium `7mnQP1GwnIw` is a clean professional mother/baby power image and falsifies any simple “better thumbnail causes hit” reading. Low `jikV6HP6BdY` is polished generic luxury ex-wife romance imagery; the distinctive fire/DNA/child evidence mechanism is not visible. Treat these as visual-pattern observations, not CTR causality.

@@ -35,15 +35,19 @@ def _setup_narrative_text(architecture: dict[str, Any], scenes: list[dict[str, A
 
 
 def _has_active_revenge_intent(text: str) -> bool:
-    direct_cues = bool(re.search(r"avenge|murdered|kill the one|hunt(?:er|ing)? .*killer|mother.*murder", text))
-    if direct_cues:
-        return True
-    for match in re.finditer(r"revenge|vengeance", text):
-        window = text[max(0, match.start() - 100):match.start()]
-        negated = re.search(r"(^|[^a-z])(over|instead of|rather than|rejects?|renounces?|refuses?)([^a-z]|$)", window)
-        if not negated:
-            return True
-    return False
+    sentences = [part for part in re.split(r"[.!?]+", text) if part.strip()]
+    saw_explicit_refusal = False
+    negation = r"(^|[^a-z])(over|instead of|rather than|rejects?|renounces?|refuses?|refusal|not|never)([^a-z]|$)"
+    for sentence in sentences:
+        for match in re.finditer(r"avenge|revenge|vengeance", sentence):
+            before = sentence[max(0, match.start() - 90):match.start()]
+            if re.search(negation, before):
+                saw_explicit_refusal = True
+            else:
+                return True
+    if saw_explicit_refusal:
+        return False
+    return bool(re.search(r"murdered|kill the one|hunt(?:er|ing)? .*killer|mother.*murder", text))
 
 
 def evaluate_wound_price_revenge_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:

@@ -4736,3 +4736,97 @@ def test_bonded_machine_pilot_ending_is_independent_of_architecture_key_order():
     assert a['checks']['ending_gives_machine_or_pilot_identity_beyond_utility'] is True
     assert b['checks']['ending_gives_machine_or_pilot_identity_beyond_utility'] is True
     assert a['checks']==b['checks']
+
+
+def test_thumbnail_write_index_merges_existing_rows(tmp_path):
+    import json
+    from studio.thumbnail_intelligence import write_index
+    path=tmp_path/'index.jsonl'
+    write_index([{'video_id':'a','channel':'one','views':1}],path)
+    write_index([{'video_id':'b','channel':'two','views':2}],path)
+    rows=[json.loads(line) for line in path.read_text(encoding='utf-8').splitlines()]
+    assert [r['video_id'] for r in rows]==['a','b']
+    write_index([{'video_id':'a','channel':'one','views':3}],path)
+    rows=[json.loads(line) for line in path.read_text(encoding='utf-8').splitlines()]
+    assert len(rows)==2 and rows[0]['views']==3
+
+
+def test_self_selected_athlete_romance_full_chain_passes():
+    from studio.self_selected_athlete_romance_integrity import evaluate_self_selected_athlete_romance_integrity
+    premise={'title':'The Vault Captain','logline':'A gymnast is humiliated by her basketball-star ex, breaks up publicly, and chooses a supportive team captain while fighting for her own competition future.'}
+    architecture={'sequences':[
+        {'summary':'At a party he pushes and humiliates her; she says we are done, leaves, and refuses to be picked up after. When the men challenge each other, the captain says they do not get to bet with her because she already chose.'},
+        {'summary':'Her gymnastics comeback proceeds through tryouts, training, coach review, scores, routine practice, competition selection, and medical clearance.'},
+        {'summary':'Sabotage causes an incident report and suspension; injury requires scans, rehab, medical staff, and eight weeks of physical cost rather than instant return.'},
+    ]}
+    scenes=[
+        {'summary':'The partner supports her, watches, listens, and refuses to be an excuse to skip rehab; neither career is sacrificed for romance.'},
+        {'summary':'The rival apologizes and signs a statement, but the report stays and team consequences remain.'},
+        {'summary':'In the ending she wins first place through a visible landing and score, says this time I picked me, then lets the partner keep up with her.'},
+    ]
+    result=evaluate_self_selected_athlete_romance_integrity(premise,architecture,scenes)
+    assert result['applies'] is True
+    assert result['score_0_to_1'] == 1.0
+
+
+def test_self_selected_athlete_romance_flags_trophy_romance_and_free_win():
+    from studio.self_selected_athlete_romance_integrity import evaluate_self_selected_athlete_romance_integrity
+    premise={'title':'Winning the Cheerleader','logline':'Two basketball captains bet on who will win the cheerleader.'}
+    architecture={'sequences':[{'summary':'The hero wins the game and gets the girl.'}]}
+    result=evaluate_self_selected_athlete_romance_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['checks']['competence_is_procedural_and_visible'] is False
+    assert result['checks']['injury_or_comeback_has_physical_cost'] is False
+    assert result['score_0_to_1'] < 0.5
+
+
+def test_self_selected_athlete_romance_not_apply_to_space_mecha():
+    from studio.self_selected_athlete_romance_integrity import evaluate_self_selected_athlete_romance_integrity
+    result=evaluate_self_selected_athlete_romance_integrity({'logline':'A pilot bonds with a robot during an alien invasion.'},{},[])
+    assert result['applies'] is False
+
+
+def test_bonded_machine_pilot_reads_dialogue_design_identity_reveal():
+    from studio.bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
+    premise={'logline':'A delivery rider is chosen by a robot mech during an alien invasion.'}
+    scenes=[
+        {'summary':'He trains and protects civilians with the damaged machine.'},
+        {'dialogue_design':{'spoken_exchange':[{'speaker':'machine','line':'My name is Cole. I am your companion, not a weapon.'}]}},
+    ]
+    result=evaluate_bonded_machine_pilot_integrity(premise,{},scenes)
+    assert result['checks']['ending_gives_machine_or_pilot_identity_beyond_utility'] is True
+
+
+def test_bonded_machine_pilot_screenplay_ending_overrides_outline_payoff():
+    from studio.bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
+    premise={'logline':'A delivery rider is chosen by a robot mech during an alien invasion.'}
+    architecture={'ending_payoff':'The machine becomes a free companion with a home.'}
+    scenes=[{'summary':'In the ending the machine is locked away in a military vault.'}]
+    result=evaluate_bonded_machine_pilot_integrity(premise,architecture,scenes)
+    assert result['checks']['ending_gives_machine_or_pilot_identity_beyond_utility'] is False
+
+
+def test_bonded_machine_pilot_finds_cooperative_climax_before_two_aftermath_scenes():
+    from studio.bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
+    premise={'logline':'A delivery rider is chosen by a robot mech during an alien invasion.'}
+    scenes=[
+        {'summary':'In the final battle they trust each other, share the load, and fire together at the core.'},
+        {'summary':'Aftermath crews count the damage.'},
+        {'summary':'Later the pilot leaves the base.'},
+    ]
+    result=evaluate_bonded_machine_pilot_integrity(premise,{},scenes)
+    assert result['checks']['climax_requires_cooperation_not_firepower_alone'] is True
+
+
+def test_wound_price_revenge_refusal_then_later_vow_still_applies():
+    from studio.wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
+    premise={'logline':'Mira refuses revenge and chooses protection. Then a second witness swears revenge on the demon that murdered her family.'}
+    result=evaluate_wound_price_revenge_integrity(premise,{},[])
+    assert result['applies'] is True
+
+
+def test_wound_price_revenge_explicit_refusal_to_avenge_does_not_apply():
+    from studio.wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
+    premise={'logline':'A dragon protector refuses to avenge anyone and chooses protection instead of revenge.'}
+    result=evaluate_wound_price_revenge_integrity(premise,{},[])
+    assert result['applies'] is False

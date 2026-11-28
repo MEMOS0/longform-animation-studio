@@ -81,9 +81,6 @@ However, around **17:35–20:00**, the film jumps into a different arena-fighter
 
 ## Thumbnail intelligence
 
-Persistent thumbnails are archiv
-
-
 Persistent thumbnails are archived under `thumbnails/reference/huace_global_nova_studio/` and indexed in `thumbnails/index.jsonl`.
 
 - Hit `QK`: giant damaged mech + alien tentacle scale cues, but crucially the foreground is a readable human confrontation: a woman in red physically cornering a delivery worker. The thumbnail fuses spectacle scale with interpersonal tension and occupational costume. Mobile readability is strong because faces, red dress, yellow safety vest, and mech silhouette separate cleanly.

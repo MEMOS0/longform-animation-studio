@@ -12,7 +12,10 @@ from typing import Any
 
 def _text(value: Any, key: str = "") -> str:
     lowered_key = key.lower()
-    if any(marker in lowered_key for marker in ("production", "prompt", "guidance", "failure_check", "sound_design", "dialogue_design", "generation_note", "ai_generated")):
+    if lowered_key == "dialogue_design" and isinstance(value, dict):
+        narrative_keys = ("key_lines", "opposition_beats", "spoken_exchange")
+        return chr(10).join(_text(value[k]) for k in narrative_keys if k in value)
+    if any(marker in lowered_key for marker in ("production", "prompt", "guidance", "failure_check", "sound_design", "generation_note", "ai_generated")):
         return ""
     if isinstance(value, str):
         return value
@@ -21,6 +24,20 @@ def _text(value: Any, key: str = "") -> str:
     if isinstance(value, list):
         return chr(10).join(_text(v) for v in value)
     return ""
+
+
+def _unit_text(value: Any) -> str:
+    return _text(value).lower()
+
+
+def _has_cooperative_battle_unit(units: list[Any]) -> bool:
+    for unit in units:
+        text = _unit_text(unit)
+        cooperation = re.search(r"together|stay with me|trust me|help me|hold us steady|facing it|cooperat|listen|bond|connection|link|share the load", text)
+        battle = re.search(r"attack|fire|battle|core|kill|fight|final|climax|enemy", text)
+        if cooperation and battle:
+            return True
+    return False
 
 
 def evaluate_bonded_machine_pilot_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
@@ -35,7 +52,7 @@ def evaluate_bonded_machine_pilot_integrity(premise: dict[str, Any], architectur
     ending_units = []
     if scenes:
         ending_units.extend(scenes[-max(1, min(5, (len(scenes) + 2) // 3)):])
-    if isinstance(architecture, dict):
+    elif isinstance(architecture, dict):
         for key in ("ending", "ending_payoff", "resolution", "final_act"):
             if key in architecture:
                 ending_units.append(architecture[key])
@@ -44,9 +61,9 @@ def evaluate_bonded_machine_pilot_integrity(premise: dict[str, Any], architectur
     ending = (_text(ending_units) or full[-max(1, len(full) // 3):]).lower()
     climax_units = []
     if scenes:
-        climax_units.extend(scenes[-max(1, min(2, len(scenes))):])
-    if isinstance(architecture, dict) and isinstance(architecture.get("sequences"), list) and architecture.get("sequences"):
-        climax_units.extend(architecture["sequences"][-max(1, min(2, len(architecture["sequences"]))):])
+        climax_units.extend(scenes[-max(2, min(5, len(scenes))):])
+    elif isinstance(architecture, dict) and isinstance(architecture.get("sequences"), list) and architecture.get("sequences"):
+        climax_units.extend(architecture["sequences"][-max(2, min(5, len(architecture["sequences"]))):])
     climax = (_text(climax_units) or ending).lower()
     machine_terms = r"(?:mecha?|robot|machine|ai|android|unit|mech|companion|zero)"
     checks = {
@@ -57,7 +74,7 @@ def evaluate_bonded_machine_pilot_integrity(premise: dict[str, Any], architectur
         "machine_or_creature_has_vulnerable_agency": bool(re.search(machine_terms + r"[^.\n]{0,90}(?:hurt|damaged|afraid|disobey|choose|refuse|protect|sacrifice|help|trust|feel|listen)", full) or re.search(r"(?:hurt|damaged|afraid|disobey|choose|refuse|protect|sacrifice|help|trust|feel|listen)[^.\n]{0,90}" + machine_terms, full)),
         "institution_treats_bond_as_property_or_weapon": bool(re.search(r"military|command|orders?|unauthorized|surrender|specimen|property|weapon|experiment|test subject|control|collar|terminate|asset", full)),
         "shared_load_or_sacrifice_has_physical_cost": bool(re.search(r"share the load|take my share|damage|structural failure|sacrifice|injur|burn|overload|shutdown|lose you|one more try|can't hold|cost", middle + ending)),
-        "climax_requires_cooperation_not_firepower_alone": bool(re.search(r"together|stay with me|trust me|help me|hold us steady|facing it|cooperat|listen|bond|connection|link", climax) and re.search(r"attack|fire|battle|core|kill|fight|final|climax", climax)),
+        "climax_requires_cooperation_not_firepower_alone": bool(_has_cooperative_battle_unit(climax_units) or (not climax_units and re.search(r"together|stay with me|trust me|help me|hold us steady|facing it|cooperat|listen|bond|connection|link", climax) and re.search(r"attack|fire|battle|core|kill|fight|final|climax", climax))),
         "ending_gives_machine_or_pilot_identity_beyond_utility": bool(re.search(r"my name is|real name|names? them|becomes? a|no longer (?:a )?(?:weapon|tool|unit)|person|companion|friend|family|home|free", ending)),
     }
     labels = {

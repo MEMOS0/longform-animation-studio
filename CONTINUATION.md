@@ -383,3 +383,8 @@ Added `oMXQt5Kg1YQ` as a closer same-channel low comparator to the existing evid
 ## HUACE mecha checkpoint (2026-11-28)
 
 Completed: HUACE `QK56XAHXLb4` hit, `UV0KiJM97TM` medium, and `DnhouSFc_h4` low excerpt were downloaded, machine-analyzed, visually sampled, subtitle-mined, thumbnail-archived, and written into `knowledge/market/huace-mecha-bonded-pilot-hit-medium-low-comparison.md`. New validator: `studio/bonded_machine_pilot_integrity.py`; full suite 499 passed after review regression tests. Important format finding: long videos may be thematic compilations; `Dnhou` is a climax excerpt of the second `QK` unit, not an independent film-quality comparator. Next: resolve review findings if any, then continue fresh low-subscriber scan outside already-covered mechanisms. Do not duplicate existing constructive-restoration/mecha repair doctrine without comparing applicability.
+
+
+## ElowenTale checkpoint (2026-11-28)
+
+Completed: `xK9NcPoHLOo`, `7mnQP1GwnIw`, and `jikV6HP6BdY` downloaded, machine-analyzed, contact-sheet inspected, subtitle-mined, thumbnail-archived, and integrated into `knowledge/market/elowentale-self-selected-athlete-romance-hit-medium-low-comparison.md`. New validator: `studio/self_selected_athlete_romance_integrity.py`; full suite currently 511 passed. Also fixed thumbnail index merging so new downloads do not erase prior reference rows. Next: finish review triage if findings arrive, commit/push checkpoint, then scan newer low-subscriber leads outside covered mechanisms.
