@@ -509,3 +509,7 @@ Completed Payback Stories hit/medium/low comparison for `_u1i8lfizF8`, `F-NMKe7X
 ## Context handoff before rotation — 2026-11-28
 
 Latest pushed commit `9fb4300` adds Purple Grape epistemic-intimacy doctrine/validator/evidence; tests 574 passed. Devin Review restarted for this commit, so first check PR #7 review findings and triage/fix before new work. Then continue scanning uncovered fresh low-subscriber breakouts. Do not commit stray `evidence/media/iqCNxQ2_jSI/` unless intentionally needed; `evidence/media/batch_results.jsonl` is local regenerated state.
+
+## Review-fix handoff — 2026-11-28
+
+Latest pushed commit `07848e4`: triaged/fixed three review findings from job `pr-review-job-e72c65fcd43f41c89972144ef29b91fd`; tests 575 passed. A newer Devin Review is running. Next context: handle new PR #7 review findings first if present; otherwise scan uncovered fresh low-subscriber breakouts. Purple Grape doctrine complete and pushed in `9fb4300`.
