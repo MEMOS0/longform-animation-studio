@@ -64,7 +64,7 @@ def evaluate_compressed_mythic_quest_integrity(premise: dict[str, Any], architec
         "spectacle_is_tied_to_choice_cost_or_protection": bool(re.search(r"protect|sacrifice|choice|cost|save|defend|innocent|people|daughter|kingdom|refus|risk|wound|death", full)),
         "lore_carries_moral_or_material_cost": bool(re.search(r"immortal|lifespan|blood|fallen|extinct|sacrifice|curse|price|cost|stolen|chains|slavery|war|destroyed|took everything", full)),
         "tonal_contract_is_explicit_for_comedy_spectacle_or_genre_mix": bool(re.search(r"tonal contract|tone:|comic relief|grounded humor|dark comic|epic adventure|genre blend|genre-mix|dramatic irony|mythic adventure", full)),
-        "micro_objective_closes_before_any_series_hook": bool(re.search(r"escaped|defeated|rescued|recovered|returned|won|survived|completed|closed|answered|truth|reunited|secured|saved|freed|free", closure_scan)),
+        "micro_objective_closes_before_any_series_hook": bool(re.search(r"escaped?|defeated|rescued?|recovered?|returned?|won|survived?|completed?|closed?|answered?|truth|reunited?|secured?|saved?|freed|free", closure_scan)),
         "continuation_hook_is_specific_not_generic_cta": bool(re.search(r"island|next|war|queen|slaver|enemy|arrive|destination|mission|promise|unanswered|door|army|reign", ending_text)) and not bool(re.search(r"subscribe|like and follow|next episode on", ending_text)),
         "ending_changes_power_knowledge_or_relationship_state": bool(re.search(r"learn|know|truth|alliance|relationship|power|crown|queen|king|daughter|home|war|defeat|rescue|choose|choice|promise|changed", ending_text)),
     }

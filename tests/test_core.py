@@ -5599,3 +5599,25 @@ def test_compressed_mythic_quest_review_regressions():
     opening={'target_minutes':20,'logline':'A fantasy warrior quests to rescue hostages from a dragon.','opening_event':{'first_60_seconds':'He eats breakfast and brushes his horse.'}}
     r=ev(opening,{},[])
     assert r['checks']['quest_objective_is_immediate_concrete_and_personally_staked'] is False
+
+
+def test_period_autonomy_review_regressions_unrelated_and_false_positive_language():
+    from studio.period_autonomy_evidence_romance_integrity import evaluate_period_autonomy_evidence_romance_integrity as ev
+    unrelated={'logline':'A discarded billionaire packaging concept becomes a powered bench that gives an orphan an opportunity to repair clocks clearly.','packaging_notes':{'market_position':'romance-like audience packaging but not story content'}}
+    assert ev(unrelated,{},[])['applies'] is False
+    premise={'logline':'In a Regency period romance, a duke arranges marriage to a lady for duty and reputation.'}
+    bad=ev(premise,{'ending_payoff':'The princess has no power to refuse; he kisses her without permission. A forged letter accuses her, then a decree settles it. They marry for love.'},[])
+    assert bad['applies'] is True
+    assert bad['checks']['rival_or_arranged_party_retains_agency'] is False
+    assert bad['checks']['intimacy_is_explicitly_consensual_and_reversible'] is False
+    assert bad['checks']['social_or_bodily_accusation_is_resolved_through_evidence'] is False
+    assert bad['checks']['ending_restores_voice_choice_or_home_not_only_marriage'] is False
+
+
+def test_compressed_quest_present_tense_closure_counts_after_negative_stripping():
+    from studio.compressed_mythic_quest_integrity import evaluate_compressed_mythic_quest_integrity as ev
+    premise={'target_minutes':20,'logline':'A fantasy warrior quests to rescue hostages from a dragon.'}
+    closed=ev(premise,{'ending_payoff':'They escape the trap, rescue the hostages, and learn the queen island destination.'},[])
+    assert closed['checks']['micro_objective_closes_before_any_series_hook'] is True
+    open_end=ev(premise,{'ending_payoff':'They have yet to rescue the hostages.'},[])
+    assert open_end['checks']['micro_objective_closes_before_any_series_hook'] is False
