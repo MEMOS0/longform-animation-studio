@@ -5777,3 +5777,13 @@ def test_child_voice_and_kinship_record_applicability_regressions():
     assert bad['checks']['kinship_claims_are_verified_by_independent_evidence'] is False
     good=kin(base,{'ending_payoff':'He refuses a DNA test, but hospital records confirm the father and parentage. The children are not property and the false claimant is arrested.'},[{'summary':'The mother earns money through design work and witnesses provide proof of the birthmark.'}])
     assert good['checks']['kinship_claims_are_verified_by_independent_evidence'] is True
+
+def test_appearance_capital_transformation_integrity():
+ from studio.appearance_capital_transformation_integrity import evaluate_appearance_capital_transformation_integrity as ev
+ p={'logline':'A mocked hidden beauty at school transforms after years of practice and becomes the film role her uncle wrote for ten years.'}
+ a={'ending_payoff':'Evidence exposes the assault. At graduation the male lead recognizes her, says from now on it is your turn to save me, she answers deal, and her mother is proud.'}
+ out=ev(p,a,[{'summary':'She sees the girl in the mirror and keeps capability, love letters and relational memory despite public laughter.'}])
+ assert out['applies'] and out['score_0_to_1']>.55
+ bad=ev({'logline':'A fat ugly girl becomes thin and beautiful so everyone loves her.'},{'ending_payoff':'He loves her only because she is beautiful now.'},[])
+ assert bad['checks']['romance_is_not_reward_for_becoming_acceptably_beautiful'] is False
+ assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False

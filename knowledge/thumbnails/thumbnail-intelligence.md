@@ -244,3 +244,8 @@ NOCTURNE adds a useful prestige-serial packaging contrast: the full-season hit u
 ## Story Vault trauma-informed child-care packaging
 
 The low-subscriber silent-child hit uses a highly specific packaging mechanism: a hidden powerful observer watches a practitioner perform culturally specific care for a vulnerable child, while a short plea (“DON'T STOP. PLEASE.”) turns continuation itself into the curiosity gap. This is more distinctive than generic wealth/romance imagery because the spatial triangle explains who cares, who watches, and who is vulnerable. Corporate/revenge thumbnails with labels and arrows can be legible but may over-explain the reversal. The very-low-view graduation transgression thumbnail is still visually strong, so use it as anti-overfit evidence rather than calling it a bad thumbnail.
+
+
+## EchoDrama appearance-transformation packaging
+
+The hidden-beauty hit sells hidden worth through a warm elite-school triangle, luminous central protagonist, rivalry, and prestige typography without showing the stigmatized body. The direct low comparator uses a crying fat bride versus an idealized blonde plus body-shaming title text and fairy sparkle inside corporate luxury imagery. Treat this as packaging-risk evidence, not CTR causality: sell aspiration/re-recognition, avoid stigma spectacle, and keep transformation genre signals coherent.
