@@ -5797,3 +5797,12 @@ def test_appearance_validator_applicability_and_ending_scope_regressions():
  assert out['checks']['ending_converts_status_into_reciprocal_choice_or_material_justice'] is True
  onlymid=ev(p,{'sequences':[{'summary':'At midpoint they make a deal and graduate in imagination.'},{'summary':'A later neutral rehearsal scene.'},{'summary':'The final scene is an unresolved rehearsal with no recognition or justice.'}]},[])
  assert onlymid['checks']['ending_converts_status_into_reciprocal_choice_or_material_justice'] is False
+
+def test_appearance_validator_scar_and_trust_scope_regressions():
+ from studio.appearance_capital_transformation_integrity import evaluate_appearance_capital_transformation_integrity as ev
+ scar=ev({'logline':'After public humiliation over a burn scar, a woman chooses reconstructive surgery and transformation.'},{'ending_payoff':'Evidence brings public apology.'},[])
+ assert scar['applies'] is True
+ premise_only=ev({'logline':'A mocked hidden beauty at school makes a choice in the opening and transforms through practice.'},{},[])
+ assert premise_only['checks']['ending_converts_status_into_reciprocal_choice_or_material_justice'] is False
+ salt=ev({'logline':'A mocked hidden beauty learns to trust him before transformation.'},{'ending_payoff':'The ending is unresolved.'},[])
+ assert salt['checks']['romance_is_not_reward_for_becoming_acceptably_beautiful'] is True
