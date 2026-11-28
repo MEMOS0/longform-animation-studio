@@ -1,0 +1,43 @@
+{
+  "evidence_class": "tier_1_metadata_plus_visual_inspection",
+  "causality_warning": "Thumbnail observations are packaging evidence, not CTR proof.",
+  "items": [
+    {
+      "video_id": "vohHK_Ed3eI",
+      "path": "data/raw/thumbnails/sienna/vohHK_Ed3eI.jpg",
+      "performance_position": "hit",
+      "visual_mechanics": [
+        "evidence folders and financial records",
+        "psychiatric evaluation/confined stamp",
+        "falling papers and collapsing market screens",
+        "protagonist as investigator/claimant rather than romantic prize"
+      ],
+      "reusable_concept": "For institutional revenge, show the instrument of control and the evidence object system in the same frame."
+    },
+    {
+      "video_id": "FXCu3e7Ysw0",
+      "path": "data/raw/thumbnails/sienna/FXCu3e7Ysw0.jpg",
+      "performance_position": "low direct hidden-heiress comparator",
+      "visual_mechanics": [
+        "glossy island luxury romance",
+        "hidden heiress power couple",
+        "regretful ex in background",
+        "interchangeable wealth reversal imagery"
+      ],
+      "reusable_concept": "Luxury reversal alone does not differentiate the mechanism; add institutional object/evidence specificity when that is the story."
+    },
+    {
+      "video_id": "PRnC5o30VjE",
+      "path": "data/raw/thumbnails/sienna/PRnC5o30VjE.jpg",
+      "performance_position": "low hidden-genius comparator",
+      "visual_mechanics": [
+        "romantic embrace and marriage-ring imagery",
+        "city luxury",
+        "genius/status reveal not visually procedural",
+        "couple-centric fantasy"
+      ],
+      "reusable_concept": "Hidden competence packaging benefits from visible work/system artifacts, not only couple romance."
+    }
+  ],
+  "craft_rule": "Institutional revenge thumbnails should make coercive paperwork and investigative counter-evidence legible; romance-luxury imagery is interchangeable when the story is actually legal/institutional."
+}

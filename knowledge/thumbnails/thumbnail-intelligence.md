@@ -254,3 +254,8 @@ The hidden-beauty hit sells hidden worth through a warm elite-school triangle, l
 ## Drakenhart scale-bridge packaging
 
 The tiny-kingdom hit makes hidden civilization and size contrast legible as one visual question: explorer, luminous roots/cave, and a built miniature world. Familiar fairy-tale inversion can perform through object/identity clarity, while creature-child royalty packaging is weaker differentiation when creature-family protection is already crowded. Treat this as packaging evidence, not CTR causality.
+
+
+## Sienna institutional-revenge packaging
+
+The psychiatric-labeling hit uses a dense evidence-board thumbnail: financial records, equity transfer documents, psychiatric evaluation, confined stamp, falling papers, and collapsing market screens. This is more mechanism-specific than interchangeable luxury-couple hidden-heiress packaging. Reuse the principle, not the layout: make the instrument of control and the counter-evidence object system visible while positioning the protagonist as investigator/claimant.

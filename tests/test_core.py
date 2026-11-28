@@ -5842,3 +5842,11 @@ def test_scale_bridge_evacuation_and_collective_stewardship_regressions():
  assert good['checks']['reciprocal_exchange_changes_both_worlds'] is True
  assert good['checks']['return_or_stay_decision_is_motivated_by_relationship_and_duty'] is True
  assert good['checks']['ending_rebuilds_shared_infrastructure_or_ongoing_stewardship'] is True
+
+def test_coerced_psychiatric_labeling_integrity():
+ from studio.coerced_psychiatric_labeling_integrity import evaluate_coerced_psychiatric_labeling_integrity as ev
+ p={'logline':'After giving up her inheritance for five years, a billionaire heiress is locked in a private psychiatric hospital by her fiance so he can seize her 30% stake.'}
+ a={'ending_payoff':'She did not come to save him. Winston Group assets are liquidated, convictions stand, money is recovered, and she says love is not infinite before building her empire with her own hands.'}
+ out=ev(p,a,[{'summary':'She says I am not sick, asks for a lawyer, endures needles and restraints, escapes through legal counterpower, reclaims the financial system she built line by line, and exposes money laundering and forged signatures in court.'}])
+ assert out['applies'] and out['score_0_to_1']>.65
+ assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
