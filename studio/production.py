@@ -68,6 +68,7 @@ from .kin_protection_power_reversal_integrity import evaluate_kin_protection_pow
 from .animal_communication_zoo_revival_integrity import evaluate_animal_communication_zoo_revival_integrity
 from .bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
 from .wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
+from .incognito_moral_test_integrity import evaluate_incognito_moral_test_integrity
 from .visual_causality import evaluate_visual_causality
 from .hidden_identity_integrity import evaluate_hidden_identity_integrity
 from .scale_community_integrity import evaluate_scale_community_integrity
@@ -386,6 +387,7 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "animal_communication_zoo_revival_integrity": evaluate_animal_communication_zoo_revival_integrity(premise, architecture, scenes),
         "bonded_machine_pilot_integrity": evaluate_bonded_machine_pilot_integrity(premise, architecture, scenes),
         "wound_price_revenge_integrity": evaluate_wound_price_revenge_integrity(premise, architecture, scenes),
+        "incognito_moral_test_integrity": evaluate_incognito_moral_test_integrity(premise, architecture, scenes),
         "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes), "storyboards": len(boards)},
         "gates": gate_report(schema_errors, failure, scene_report, architecture_report, bool(architecture), bool(scenes), board_report),
     }

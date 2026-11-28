@@ -215,3 +215,13 @@ Thumbnail doctrine addition: kin-protection concepts should test at least two se
 - Hit `iz5WnsFSv5g`: joyful animal-selfie collage; smiling protagonist, tiger in sunglasses/gold chain, gorilla heart hands, alpaca/parrot, likes/hearts/upward arrow/phone frame. Extremely legible “animals plus internet virality” promise.
 - Hit `ssbZ2hIPY_E`: direct mechanism visualization; woman cupping ear, sound waves, speech bubbles, expressive tiger/kangaroo/elephant, zoo sign, high-contrast “She Can Hear Animals Talk!” Strong mobile readability.
 - Low `qFV7Ts_B7XQ`: polished epic underwater treasure spectacle with rider/crocodile/sharks/octopus/gold, but the communication and economic-collaboration mechanism is invisible. Do not treat this as proven CTR failure; treat it as a packaging-legibility hypothesis only.
+
+## Heart Secrets incognito moral-test thumbnails — 2026-11-28
+
+Archived hit/medium/low references under `thumbnails/reference/heart_secrets/`. This is visual observation, not CTR proof.
+
+- Hit `bw5j82rWcKQ`: soup physically pours onto a screaming bride's white beaded gown while guests record/react. The luxury object, destruction, class inversion, faces, hands, liquid direction, and public audience are legible at mobile size. Text “MY BEADS!” ties the object to the scandal.
+- Medium `dgf7PZgcVEw`: older cleaner kneels at the fiancée's white shoe in a bright office lobby with “WIPE IT.” The premise is clear but more static; humiliation is posed rather than an irreversible kinetic accident.
+- Low `XWVh_NFnvzM`: boss pushes a wet homeless man into the rainy doorway while the clerk reacts. It is coherent and atmospheric but darker/bluer, less wedding/wealth spectacle, and does not visualize the promised motel-reward mechanism.
+
+Working hypothesis for original concepts: incognito moral-test thumbnails benefit when one glace shows (1) low-status disguise, (2) high-status cruelty or object damage, (3) a priced/status object, and (4) witnesses/social stakes. Do not copy these images; extract the object-action-status mechanism.

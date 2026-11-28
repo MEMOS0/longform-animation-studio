@@ -448,3 +448,11 @@ Completed full hit/hit/adjacent-low comparison for animal-communication economic
 - `qFV7Ts_B7XQ` King's Theater adjacent low: BeastBond sea-creature fishing business, fake-contract betrayal, quantified catches/prices/contracts/boat repair/deep-sea reinvestment. Dense strong-craft low counterexample.
 
 Integrated `animal_communication_zoo_revival_integrity`; tests 548 passed after review regression fixes. Next: commit/push all evidence, then choose another uncovered fresh breakout mechanism. If new review findings arrive, triage them first.
+
+## Heart Secrets incognito moral-test checkpoint — 2026-11-28
+
+Important correction: the Veylora `EDjgVgD0V5I` selection was recognized as duplicate work because `knowledge/market/veylora-hunter-ashworth-wound-price-hit-medium-low-comparison.md` and `studio/wound_price_revenge_integrity.py` already existed. The duplicate transcription jobs were killed; before selecting any “new” candidate, grep existing reports/validators/queue for the video/channel/mechanism.
+
+Selected genuinely uncovered mechanism: incognito moral-test family/institutional melodrama in Heart Secrets. Hit `bw5j82rWcKQ` (groom's mother disguised as maid, soup/gown/rain test), medium `dgf7PZgcVEw` (mother disguised as cleaner in fiancée's office), low `XWVh_NFnvzM` (homeless motel magnate/storm-night clerk kindness) now have aligned subtitles, full media-derived machine analysis, sampled contact sheets, metadata, and max-resolution thumbnails. Report: `knowledge/market/heart-secrets-incognito-moral-test-hit-medium-low-comparison.md`; validator: `studio/incognito_moral_test_integrity.py`; tests 551 passed. Key anti-overfit result: the low motel film has a strong storm-opening, coherent rain-room motif, and procedural corporate/legal architecture; low discovery cannot be interpreted as weak-writing proof.
+
+Next: commit/push this checkpoint; triage any new Devin Review findings on PR #7; continue scanning fresh low-subscriber breakouts outside incognito moral-test, animal communication, kin protection, progression survival, BL power romance, curse intimacy, cozy survival, relational serials, machine bonds, athlete romance, hidden workplace romance, creature protection, and other covered mechanisms.

@@ -5151,3 +5151,22 @@ def test_curse_prop_grab_and_supportive_contact_regressions():
 def test_curse_unwanted_waist_grab_detected():
     from studio.curse_cure_intimacy_integrity import _has_nonconsensual_intimacy
     assert _has_nonconsensual_intimacy('He grabs her waist without asking.') is True
+
+
+def test_incognito_moral_test_positive_case():
+    from studio.incognito_moral_test_integrity import evaluate_incognito_moral_test_integrity
+    premise={'logline':'A billionaire mother pretends to be a maid to test how her son’s fiancée treats powerless workers.'}
+    architecture={'sequences':[{'summary':'Before the test, the bride displays a 15-million-naira gown as a status object. The disguised mother spills soup on the gown, is slapped and thrown into the rain, while the unpaid cook opens the door, shelters her, shares food, and risks her job. The son objects that covert testing is not his exam and the mother apologizes because the test cost trust. A tailor tag, rental receipt, witnesses, bill, contract records, and camera evidence prove the fraud. At the end the cook owns her restaurant, receives an independent income, her wages are repaid, she has a voice and free choice rather than merely marrying into wealth.'}]}
+    r=evaluate_incognito_moral_test_integrity(premise,architecture,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.8
+
+
+def test_incognito_moral_test_flags_costless_reward_and_uncontested_test():
+    from studio.incognito_moral_test_integrity import evaluate_incognito_moral_test_integrity
+    premise={'logline':'A billionaire father pretends to be a cleaner to test whether his son’s fiancée is kind.'}
+    r=evaluate_incognito_moral_test_integrity(premise,{},[])
+    assert r['applies'] is True
+    assert r['checks']['kindness_is_active_and_costly_before_reward'] is False
+    assert r['checks']['covert_test_is_ethically_contested'] is False
+    assert r['checks']['ending_restores_independent_dignity_and_livelihood'] is False
