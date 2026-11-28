@@ -64,6 +64,7 @@ from .curse_cure_intimacy_integrity import evaluate_curse_cure_intimacy_integrit
 from .swapped_child_identity_integrity import evaluate_swapped_child_identity_integrity
 from .bl_power_autonomy_romance_integrity import evaluate_bl_power_autonomy_romance_integrity
 from .progression_system_survival_integrity import evaluate_progression_system_survival_integrity
+from .kin_protection_power_reversal_integrity import evaluate_kin_protection_power_reversal_integrity
 from .bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
 from .wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
 from .visual_causality import evaluate_visual_causality
@@ -380,6 +381,7 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "swapped_child_identity_integrity": evaluate_swapped_child_identity_integrity(premise, architecture, scenes),
         "bl_power_autonomy_romance_integrity": evaluate_bl_power_autonomy_romance_integrity(premise, architecture, scenes),
         "progression_system_survival_integrity": evaluate_progression_system_survival_integrity(premise, architecture, scenes),
+        "kin_protection_power_reversal_integrity": evaluate_kin_protection_power_reversal_integrity(premise, architecture, scenes),
         "bonded_machine_pilot_integrity": evaluate_bonded_machine_pilot_integrity(premise, architecture, scenes),
         "wound_price_revenge_integrity": evaluate_wound_price_revenge_integrity(premise, architecture, scenes),
         "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes), "storyboards": len(boards)},

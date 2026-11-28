@@ -422,3 +422,15 @@ Selected Smith drama-US for first dedicated BL paranormal-romance hit/medium/low
 Smith BL power-autonomy analysis completed and pushed in `e6d4f12`: hit `omWFzVKpuQM`, medium `vnSVXshL2aQ`, low `7wYIEIaWjYw`; report `knowledge/market/smith-bl-power-autonomy-hit-medium-low-comparison.md`; validator `studio/bl_power_autonomy_romance_integrity.py`; tests 528 passed before commit. Low hockey film is a strong-craft counterexample with explicit trial-run consent and polished thumbnail. Next: triage any review findings on PR #7, then continue fresh non-covered breakout scan using the deduped queue and verify whether existing validators already cover each candidate before creating new validators.
 
 Xixi progression-system survival analysis completed: hit `dIdeZ4yh_z0`, medium `dfFh29pkNHw`, low `-ZjrrDmMPuU`; report `knowledge/market/xixi-progression-system-survival-hit-medium-low-comparison.md`; validator `studio/progression_system_survival_integrity.py`; full machine evidence and thumbnails archived. Doctrine: bounded progression rules + concrete survival resources + social/ration politics + ecological escalation + local loop closure before next hook. Low film is strong-craft counterexample with high system/cognitive complexity. Tests 537 passed before commit. Next: commit/push evidence, triage review findings, then evaluate another uncovered fresh breakout outside covered mechanisms.
+
+## Legendary Story House checkpoint — 2026-11-28
+
+Completed hit/medium/low comparison for Legendary Story House:
+
+- Hit `onYYE1iOKgU` (91.4m, ~110k in about a day): seven non-blood sisters, Black Reef/underworld king, family murder oath, land coercion, public protection, reciprocal sisterly defense, Kingpin ring/black card/state backup, Bloodwolf payment records, family safety before next revenge hook.
+- Medium `oU-1fJN7HlA` (81.6m, ~72k older): Thor-like hidden power, mother/family protection, tactical combat competence, divine/corruption escalation, mother-sacrifice leverage, family truth/reconciliation.
+- Low `Gn8JTn7g2sI` (77.5m, ~2.4k fresh): Supreme Commander misread as convict, wife coma, surveillance, financial audit, encrypted backups, digital signatures, skimmed pensions, veteran reassembly. Strong-craft low counterexample.
+
+Integrated `studio/kin_protection_power_reversal_integrity.py` into production. Tests now 542 passed after also fixing Devin Review findings around progression-system applicability/runtime/ending checks, BL consent attribution/ellipsis/ownership, and curse-intimacy breath false positives.
+
+Next: if new review findings arrive, triage first. Otherwise continue fresh breakout discovery outside covered mechanisms, prioritizing uncovered candidates rather than duplicating existing reports/validators.

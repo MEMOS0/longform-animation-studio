@@ -201,3 +201,11 @@ Hit `xK9NcPoHLOo` uses sports-arena scale, opposing team uniforms, central gymna
 - Hit `dIdeZ4yh_z0`: tropical ensemble, central male with fishing rod, shipwreck/cave arena, holographic survival-guide object, gold-blue “Desert Island Savior.” One read gives cast hierarchy + fishing system + island danger + savior role.
 - Medium `dfFh29pkNHw`: central male/female ensemble, floating-island arena, Death/Survival/Answer/Blind Box choice cards, “Sky Island Survival: Death’s Choice.” The game mechanic itself is the visual object.
 - Low `-ZjrrDmMPuU`: polished solo diver/creature spectacle with world-chat panel and “Deep Sea Overlord.” Strong image, but it sells creature/action spectacle more than social survival dilemma or resource progression. Do not infer weak CTR without private data.
+
+## Legendary Story House kin-protection thumbnails
+
+- Hit `onYYE1iOKgU`: the archived thumbnail reads “My Seven Sisters Won’t Stop Flirting with Me” and centers a man opening his shirt while seven women surround him. This clashes with the YouTube title’s bullied-sisters/underworld-king protection frame and instead sells taboo/harem curiosity. Treat as attention evidence, not proof of CTR and not an ethical template to copy directly.
+- Medium `oU-1fJN7HlA`: polished mythic fantasy composition with hammer/pendant/epic scale. Strong production value, but less socially immediate than contemporary family/status humiliation imagery.
+- Low `Gn8JTn7g2sI`: concrete action-drama thumbnail — commander shielding a coffee-stained woman while a red-suited antagonist throws coffee, with “The Supreme Commander They Called a Convict.” The low result cannot be blamed on an obviously weak thumbnail; it is a strong packaging counterexample.
+
+Thumbnail doctrine addition: kin-protection concepts should test at least two separate visual hooks — (1) public material threat/humiliation reversal and (2) ensemble relational promise — instead of hiding the family stakes behind generic badass power. If sexualized ensemble imagery is tested, it must not deceptively imply incest or coercion.

@@ -5055,3 +5055,44 @@ def test_progression_system_survival_rejects_unbounded_power_fantasy():
     assert r['applies'] is True
     assert r['checks']['system_rules_have_quantified_limits_and_costs'] is False
     assert r['checks']['survival_needs_are_concrete_and_recurrent'] is False
+
+
+def test_kin_protection_power_reversal_positive_case():
+    from studio.kin_protection_power_reversal_integrity import evaluate_kin_protection_power_reversal_integrity
+    premise={'logline':'A supreme commander returns secretly after seven years to protect his wife daughter and family from the underworld.'}
+    architecture={'sequences':[{'summary':'His secret border mission and oath are specific. His wife leads a financial audit and his sisters stand in front of him. Threats include pensions, debts, coma, kidnapping, and murder. Protection uses surveillance, evidence, transfer records, digital signatures, backups, police verification, a badge, and payment records. His kin reciprocate and take care of him. Violence is bounded by innocents and control. The antagonist network is traced to clients, skimmed pensions, foreign agents, and family succession. At the end the family is safe, truth is verified, and the network is arrested before the next hook.'}]}
+    r=evaluate_kin_protection_power_reversal_integrity(premise,architecture,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.7
+
+
+def test_kin_protection_power_reversal_rejects_prop_family():
+    from studio.kin_protection_power_reversal_integrity import evaluate_kin_protection_power_reversal_integrity
+    premise={'logline':'A hidden king protects his sisters because he is powerful.'}
+    r=evaluate_kin_protection_power_reversal_integrity(premise,{},[])
+    assert r['applies'] is True
+    assert r['checks']['protected_kin_have_independent_roles_or_competence'] is False
+    assert r['checks']['protection_uses_procedure_or_verification_not_only_violence'] is False
+
+
+def test_progression_survival_word_boundaries_and_runtime_ranges():
+    from studio.progression_system_survival_integrity import evaluate_progression_system_survival_integrity
+    premise={'logline':'At a royal banquet, a craft guild protects its status through ceremonial cooking.'}
+    arch={'sequences':[{'time_range':'0-12 minutes','summary':'status craft'}]}
+    r=evaluate_progression_system_survival_integrity(premise,arch,[])
+    assert r['applies'] is False
+
+
+def test_bl_ellipsis_and_mixed_ownership_are_not_hidden():
+    from studio.bl_power_autonomy_romance_integrity import _has_coercive_control, evaluate_bl_power_autonomy_romance_integrity
+    assert _has_coercive_control('He kisses him... without asking permission.') is True
+    assert _has_coercive_control("He doesn't own him in law, but he owns him in practice.") is True
+    premise={'logline':'BL romance: a billionaire alpha rescues a male omega.'}
+    scenes=[{'summary':'You can’t walk away.'}]
+    r=evaluate_bl_power_autonomy_romance_integrity(premise,{},scenes)
+    assert r['checks']['rescue_or_payment_does_not_create_ownership'] is False
+
+
+def test_curse_taking_breath_refusal_is_not_false_active_intimacy():
+    from studio.curse_cure_intimacy_integrity import _has_nonconsensual_intimacy
+    assert _has_nonconsensual_intimacy('She takes a breath and refuses to kiss him without consent.') is False
