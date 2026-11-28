@@ -23,7 +23,7 @@ def _text(value: Any) -> str:
 def evaluate_strategic_romantic_deception_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     romance = bool(re.search(r"wedding|marriage|marry|wife|husband|fianc|bride|groom|romance|love", full))
-    deception = bool(re.search(r"fake pregnancy|pregnancy report|chicken blood|fake marriage|pretend|pretense|ruin (?:this|a|the)? ?wedding|hidden identity|fake amnesia|imposter|impostor|contract marriage|arrangement", full))
+    deception = bool(re.search(r"fake pregnancy|pregnancy report|chicken blood|fake marriage|pretend|pretense|ruin (?:this|a|the)? ?wedding|sabotage (?:this|a|the)? ?wedding|wedding sabotage|hidden identity|fake amnesia|imposter|impostor|contract marriage|arrangement", full))
     strategic = bool(re.search(r"paid|fifty grand|ten million|contract|arrangement|mission|job|professional|compensat|test|blind date|sabotage|ruin", full))
     if not (romance and deception and strategic):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
@@ -40,8 +40,10 @@ def evaluate_strategic_romantic_deception_integrity(premise: dict[str, Any], arc
             ending_parts.append(_text(sequences[-1]).lower())
     ending_text = "\n".join(ending_parts + [final_scene_text]) or (architecture_text[-max(1, len(architecture_text) // 3):] if architecture_text else full[-max(1, len(full) // 4):])
 
-    coercion_retaliation = bool(re.search(r"withdraw(?:s|ing|al of)? (?:the )?(?:technical )?support|pull(?:s|ing)? (?:the )?(?:team|support|technical)|withhold(?:s|ing)? support|force(?:s|d)? (?:her|him|them)? ?(?:back|reconciliation)|punish(?:es|ing)? (?:her|him|them) for rejecting", ending_text))
-    freely_chosen = not bool(re.search(r"no choice|forced|coerced|compelled|has to keep pretending|keep pretending", ending_text))
+    retaliation_scan = re.sub(r"(?:refus\w+|won't|wouldn't|did not|decided not|chose not)[^.]{0,50}(?:pull|withdraw|withhold)[^.]{0,30}(?:team|support|technical)?", " ", ending_text)
+    coercion_retaliation = bool(re.search(r"withdraw(?:s|ing|al of)? (?:the )?(?:technical )?support|pull(?:s|ing)? (?:the )?(?:team|support|technical)|withhold(?:s|ing)? support|force(?:s|d)? (?:her|him|them)? ?(?:back|reconciliation)|punish(?:es|ing)? (?:her|him|them) for rejecting", retaliation_scan))
+    pretense_scan = re.sub(r"no longer (?:has|have|had) to keep pretending|(?:doesn't|don't|do not) have to keep pretending|stop(?:ped)? pretending", " ", ending_text)
+    freely_chosen = not bool(re.search(r"no choice|forced|coerced|compelled|has to keep pretending|keep pretending", pretense_scan))
     checks = {
         "deception_has_material_motive_and_visible_professional_competence": bool(re.search(r"surgery money|medical bills|paid|fifty grand|ten million|professional|mission|job|report|chicken blood|acting|resourceful|plan|evidence", full)),
         "deception_is_bounded_by_terms_exit_or_compensation": bool(re.search(r"contract|arrangement|one year|compensat|divorce|end here|mission a success|terms|deal|what\'s in it for you|keep things as they are", full)),

@@ -5366,3 +5366,13 @@ def test_strategic_deception_review_regressions():
     assert r['checks']['rejection_is_not_punished_through_money_or_institutional_power'] is False
     r=ev({'logline':'A fake marriage contract begins a wedding romance.'},{'ending_payoff':'She really has no choice but to keep pretending.'},[])
     assert r['checks']['ending_replaces_pretense_with_freely_chosen_commitment_or_independent_truth'] is False
+
+
+def test_strategic_deception_polarity_regressions():
+    from studio.strategic_romantic_deception_integrity import evaluate_strategic_romantic_deception_integrity as ev
+    premise={'logline':'A paid professional saboteur is hired to sabotage a wedding and falls for the groom.'}
+    assert ev(premise,{},[])['applies'] is True
+    r=ev(premise,{'ending_payoff':'He refused to pull the team. The deal stands.'},[])
+    assert r['checks']['rejection_is_not_punished_through_money_or_institutional_power'] is True
+    r=ev(premise,{'ending_payoff':'They no longer have to keep pretending; they choose real love.'},[])
+    assert r['checks']['ending_replaces_pretense_with_freely_chosen_commitment_or_independent_truth'] is True
