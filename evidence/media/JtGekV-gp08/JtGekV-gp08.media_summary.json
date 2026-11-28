@@ -1,0 +1,81 @@
+{
+  "video_id": "JtGekV-gp08",
+  "probe": {
+    "duration": 2164.866032,
+    "size": 146179601,
+    "width": 640,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\JtGekV-gp08\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\JtGekV-gp08\\contact_sheets\\contact_001.jpg",
+    "evidence\\media\\JtGekV-gp08\\contact_sheets\\contact_002.jpg",
+    "evidence\\media\\JtGekV-gp08\\contact_sheets\\contact_003.jpg",
+    "evidence\\media\\JtGekV-gp08\\contact_sheets\\contact_004.jpg",
+    "evidence\\media\\JtGekV-gp08\\contact_sheets\\contact_005.jpg"
+  ],
+  "seconds_indexed": 2165,
+  "shot_count": 66,
+  "shot_length_mean_seconds": 32.803030303030305,
+  "shot_length_median_seconds": 10.0,
+  "shot_length_p90_seconds": 93.5,
+  "visual_motion_mean": 0.134801777951835,
+  "visual_brightness_mean": 0.3696280969810128,
+  "dialogue_cues": 674,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 5.0,
+      "text": "Are you not one of those ladies who"
+    },
+    "first_power_or_identity_language": {
+      "time": 141.612,
+      "text": "Speaking of marriage,"
+    },
+    "first_care_or_belonging_language": {
+      "time": 67.76,
+      "text": "I don't care [music] whose"
+    },
+    "dialogue_words_per_minute": [
+      107,
+      79,
+      82,
+      88,
+      91,
+      81,
+      45,
+      124,
+      30,
+      70,
+      110,
+      79,
+      85,
+      114,
+      99,
+      96,
+      40,
+      91,
+      30,
+      90,
+      57,
+      89,
+      45,
+      152,
+      114,
+      90,
+      95,
+      102,
+      141,
+      43,
+      103,
+      48,
+      91,
+      108,
+      117,
+      96,
+      18
+    ],
+    "cue_count": 674
+  }
+}

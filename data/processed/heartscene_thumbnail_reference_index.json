@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-11-28",
+  "channel": "HeartScene",
+  "channel_id": "UCYCkf7aWpfrr0VOJUSsvgBQ",
+  "evidence_limits": "Metadata and visual inspection only; no CTR/retention/traffic-source data.",
+  "items": [
+    {
+      "video_id": "_HLmAkqGbIs",
+      "performance_bucket": "fresh_hit_serial_part2",
+      "views_at_collection": 827255,
+      "age_days_approx": 8.2,
+      "runtime_minutes": 38.9,
+      "thumbnail_path": "data/raw/thumbnails/heartscene/_HLmAkqGbIs.jpg",
+      "visual_mechanism": "aggressor pointing, poised wronged woman, central relational judge, gold/red singular transgression title",
+      "reuse_rule": "stage a moral triangle and one legible dignity violation rather than copying faces, gold type, or exact composition"
+    },
+    {
+      "video_id": "JtGekV-gp08",
+      "performance_bucket": "medium_serial_part1",
+      "views_at_collection": 190338,
+      "age_days_approx": 8.2,
+      "runtime_minutes": 36.1,
+      "thumbnail_path": "data/raw/thumbnails/heartscene/JtGekV-gp08.jpg",
+      "visual_mechanism": "same triad but victim cheek-touch literalizes aftermath",
+      "reuse_rule": "part-one packaging can show injury, while sequel packaging benefits from active accusation/verdict tension"
+    },
+    {
+      "video_id": "AYLn92GSDOU",
+      "performance_bucket": "low_counterexample",
+      "views_at_collection": 32608,
+      "age_days_approx": 8.2,
+      "runtime_minutes": 50.2,
+      "thumbnail_path": "data/raw/thumbnails/heartscene/AYLn92GSDOU.jpg",
+      "visual_mechanism": "four-face adultery/corporate mystery with phone and torn photos; polished but diffuse",
+      "reuse_rule": "multiple romantic/corporate clues do not replace one compressible moral event"
+    }
+  ]
+}

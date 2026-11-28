@@ -1,0 +1,83 @@
+{
+  "video_id": "_HLmAkqGbIs",
+  "probe": {
+    "duration": 2335.068299,
+    "size": 165635655,
+    "width": 640,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\_HLmAkqGbIs\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\_HLmAkqGbIs\\contact_sheets\\contact_001.jpg",
+    "evidence\\media\\_HLmAkqGbIs\\contact_sheets\\contact_002.jpg",
+    "evidence\\media\\_HLmAkqGbIs\\contact_sheets\\contact_003.jpg",
+    "evidence\\media\\_HLmAkqGbIs\\contact_sheets\\contact_004.jpg",
+    "evidence\\media\\_HLmAkqGbIs\\contact_sheets\\contact_005.jpg"
+  ],
+  "seconds_indexed": 2335,
+  "shot_count": 71,
+  "shot_length_mean_seconds": 32.88732394366197,
+  "shot_length_median_seconds": 10.0,
+  "shot_length_p90_seconds": 78.0,
+  "visual_motion_mean": 0.13460874508178536,
+  "visual_brightness_mean": 0.3427726982670938,
+  "dialogue_cues": 726,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 217.192,
+      "text": "Of course it does. Now we have a thief"
+    },
+    "first_power_or_identity_language": {
+      "time": 1.2,
+      "text": "You have no idea who you're talking to."
+    },
+    "first_care_or_belonging_language": {
+      "time": 33.2,
+      "text": "I am sorry [music] if I have"
+    },
+    "dialogue_words_per_minute": [
+      84,
+      171,
+      176,
+      85,
+      96,
+      155,
+      114,
+      66,
+      117,
+      136,
+      103,
+      113,
+      102,
+      33,
+      76,
+      104,
+      105,
+      81,
+      76,
+      36,
+      94,
+      122,
+      102,
+      73,
+      66,
+      95,
+      108,
+      100,
+      67,
+      40,
+      100,
+      73,
+      140,
+      124,
+      36,
+      51,
+      51,
+      25,
+      36
+    ],
+    "cue_count": 726
+  }
+}
