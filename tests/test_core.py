@@ -5637,3 +5637,12 @@ def test_period_autonomy_second_review_regressions():
     weak=ev(base,{'ending_payoff':'They repair the ballroom and marry after a pardon.'},[])
     assert weak['checks']['ending_restores_voice_choice_or_home_not_only_marriage'] is False
     assert weak['checks']['social_or_bodily_accusation_is_resolved_through_evidence'] is False
+
+
+def test_period_autonomy_third_review_regressions():
+    from studio.period_autonomy_evidence_romance_integrity import evaluate_period_autonomy_evidence_romance_integrity as ev
+    survival={'logline':'A train crew survival story where the brake light fails earlier in the depths.','quality_gates':{'romance':'romance quality gate metadata only'}}
+    assert ev(survival,{},[])['applies'] is False
+    base={'logline':'In a Regency period romance, a duke arranges marriage to a lady for duty and reputation.'}
+    bad=ev(base,{'ending_payoff':'He asks permission to open letters, but kisses her as she pulls away. She chooses her home.'},[])
+    assert bad['checks']['intimacy_is_explicitly_consensual_and_reversible'] is False
