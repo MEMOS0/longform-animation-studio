@@ -32,7 +32,8 @@ def _affirmative(pattern: str, text: str) -> bool:
 
 def _has_nonconsensual_intimacy(text: str) -> bool:
     patterns = (
-        r"(?:kiss(?:es|ed)?|touch(?:es|ed)?|takes?|grabs?|forces?|presses?).{0,40}without (?:asking|permission|consent)",
+        r"(?:kiss(?:es|ed)?|touch(?:es|ed)?|forces?|presses?).{0,40}without (?:asking|permission|consent)",
+        r"(?:takes?|took|grabs?).{0,25}(?:hand|wrist|arm|chin|face).{0,25}without (?:asking|permission|consent)",
         r"without (?:asking|permission|consent).{0,15}(?:kiss|touch|force|bed|sex)",
         r"(?:never|doesn['’]?t|does not|didn['’]?t|did not) asks? permission before (?:kissing|touching)",
         r"(?:kiss(?:es|ed)?|touch(?:es|ed)?).{0,60}(?:never|doesn['’]?t|does not|didn['’]?t|did not) asks? permission(?!\s+to\s+(?:enter|leave|use|open|go|come))",
@@ -43,9 +44,13 @@ def _has_nonconsensual_intimacy(text: str) -> bool:
     active_intimacy = re.compile(r"(?:he|she|they|man|woman|king|dragon|vampire|alpha)?\s*(?:kisses|kissed|touches|touched|takes\s+(?:her\s+|his\s+|their\s+|the\s+)?(?:hand|wrist|arm)|took\s+(?:her\s+|his\s+|their\s+|the\s+)?(?:hand|wrist|arm)|grabs?\s+(?:her\s+|his\s+|their\s+|the\s+)?(?:hand|wrist|arm|chin|face)|forces|forced|presses|pressed)")
     for sentence in _segments(text):
         refusal_frame = bool(refusal_only.search(sentence)) and not active_intimacy.search(sentence)
+        body_coercion = re.search(r"(?:takes?|took|grabs?).{0,25}(?:hand|wrist|arm|chin|face).{0,25}without (?:asking|permission|consent)", sentence)
         for pattern in patterns:
-            if re.search(pattern, sentence) and not refusal_frame:
-                return True
+            if re.search(pattern, sentence):
+                if refusal_only.search(sentence) and not body_coercion:
+                    continue
+                if not refusal_frame:
+                    return True
     return False
 
 
