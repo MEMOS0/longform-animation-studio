@@ -42,7 +42,16 @@ def evaluate_strategic_romantic_deception_integrity(premise: dict[str, Any], arc
             ending_parts.append(_text(sequences[-1]).lower())
     ending_text = "\n".join(ending_parts + [final_scene_text]) or (architecture_text[-max(1, len(architecture_text) // 3):] if architecture_text else full[-max(1, len(full) // 4):])
 
-    retaliation_scan = re.sub(r"(?:refus\w+ (?:to|(?:the|a|his|her) (?:suggestion|demand|request) to)|won't|wouldn't|did not|decided not|chose not)\s+(?:pull|withdraw|withhold)[^.]{0,30}(?:team|support|technical)?", " ", ending_text)
+    retaliation_scan = re.sub(
+        r"refus\w+\s+(?:to|[^.]{0,40}(?:suggestion|demand|request)[^.]{0,10}to)\s+(?:pull|withdraw|withhold)[^.]{0,30}(?:team|support|technical)?",
+        " ",
+        ending_text,
+    )
+    retaliation_scan = re.sub(
+        r"(?:won't|wouldn't|did not|decided not|chose not)\s+(?:to\s+)?(?:pull|withdraw|withhold)[^.]{0,30}(?:team|support|technical)?",
+        " ",
+        retaliation_scan,
+    )
     coercion_retaliation = bool(re.search(r"withdraw(?:s|ing|al of)? (?:the )?(?:technical )?support|pull(?:s|ing|ed)? (?:the )?(?:team|support|technical)|withhold(?:s|ing)? support|force(?:s|d)? (?:her|him|them)? ?(?:back|reconciliation)|punish(?:es|ing)? (?:her|him|them) for rejecting", retaliation_scan))
     continued_pretense = bool(re.search(r"continu(?:e|es|ing) (?:to )?(?:keep )?pretend|choos\w+ to (?:keep|continue) pretending|still pretend", ending_text))
     pretense_scan = re.sub(r"no longer (?:has|have|had) to (?:keep )?pretend(?:ing)?|(?:doesn't|don't|do not) have to (?:keep )?pretend(?:ing)?|stop(?:ped)? pretending", " ", ending_text)
