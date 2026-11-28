@@ -22,18 +22,23 @@ def _text(value: Any) -> str:
 
 def evaluate_misplaced_family_loyalty_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    family = bool(re.search(r"family|father|mother|sister|brother|son|daughter|heir|in-law|household", full))
-    rejection = bool(re.search(r"cast out|disown|reject|exile|threw out|walks? away|leave|left|abandon|frame|accus|betray|dumped", full))
+    family = bool(re.search(r"family|father|mother|sister|brother|\bson\b|daughter|\bheir\b|in-law|household", full))
+    rejection = bool(re.search(r"cast out|disown|reject|exile|threw out|walks? away|leave|left|frame|accus|betray|dumped", full))
     misallocated = bool(re.search(r"fake heir|impostor|favorite|favoritism|all their love|outsider|son-in-law|beloved|manipulat|credul|believes? (?:his|her|their) lies", full))
     if not (family and rejection and misallocated):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
-    ending_text = _text(scenes[-1]).lower() if scenes else full[-max(1, len(full) // 4):]
+    architecture_text = _text(architecture).lower()
+    final_scene_text = _text(scenes[-1]).lower() if scenes else ""
+    ending_text = "\n".join([architecture_text[-max(1, len(architecture_text)//3):] if architecture_text else "", final_scene_text]) or full[-max(1, len(full) // 4):]
+    ordered = "\n".join([architecture_text, _text(scenes).lower()]).strip() or full
     checks = {
-        "rejected_kin_has_visible_care_or_competence_before_exile": bool(re.search(
-            r"raised|care|cook|work|project|company|protect|provide|sacrifice|heal|repair|supported|devotion|life's work|wanted to make (?:him|her|them) proud",
-            full,
-        )),
+        "rejected_kin_has_visible_care_or_competence_before_exile": bool(
+            re.search(r"raised|care|cook|work|project|company|protect|provide|sacrifice|heal|repair|supported|devotion|life's work|wanted to make (?:him|her|them) proud", ordered)
+            and re.search(r"cast out|disown|reject|exile|threw out|walks? away|leave|left|frame|accus|betray|dumped", ordered)
+            and re.search(r"raised|care|cook|work|project|company|protect|provide|sacrifice|heal|repair|supported|devotion|life's work|wanted to make (?:him|her|them) proud", ordered).start()
+            < re.search(r"cast out|disown|reject|exile|threw out|walks? away|leave|left|frame|accus|betray|dumped", ordered).start()
+        ),
         "family_favoritism_is_dramatized_through_specific_acts": bool(re.search(
             r"all their love|basement|watch under|framed|selling (?:the )?(?:files|secrets)|stole the drive|believed? (?:his|her|their) lies|one son|play favorites|sensitive|let him have this",
             full,
@@ -47,7 +52,7 @@ def evaluate_misplaced_family_loyalty_integrity(premise: dict[str, Any], archite
             full,
         )),
         "exposure_uses_evidence_or_consequences_not_confession_alone": bool(re.search(
-            r"evidence|proof|records?|documents?|files|drive|camera|witness|investigation|bankrupt|arrest|prison|audit|public|timeline|trade secrets",
+            r"expose|uncover|reveals?|proof|records?|camera|witness|investigation|bankrupt|arrest|prison|audit|public|timeline",
             full,
         )),
         "family_acknowledges_the_specific_misallocation": bool(re.search(
