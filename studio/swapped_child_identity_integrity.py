@@ -47,7 +47,7 @@ def evaluate_swapped_child_identity_integrity(premise: dict[str, Any], architect
         "loving_parent_builds_safety_and_reporting_structure": bool(re.search(r"tell me|no secrets|you can tell|protect|safe|don't be scared|i love you|both my children", full)),
         "truth_is_procedurally_uncovered": bool(re.search(r"investigat|proof|evidence|witness|record|mark|ring|rumor|cleared up|truth|found out|reveal", full)),
         "antagonist_faces_material_consequence": bool(re.search(r"pay|arrest|banish|expose|punish|consequence|lose|stripped|sent away|answer", ending)),
-        "ending_restores_secure_belonging_not_only_rank": bool(re.search(r"home|family|love|mother|father|both|child|safe|belong|stay|protect", ending)),
+        "ending_restores_secure_belonging_not_only_rank": bool(re.search(r"home|family|love|mother|father|safe|belong|stay|protect", ending)),
     }
     labels = {
         "swap_has_material_class_motive": "the child swap lacks a concrete class/inheritance/luck motive",
