@@ -1,0 +1,81 @@
+{
+  "evidence_class": "tier_1_metadata_plus_visual_inspection",
+  "causality_warning": "Packaging observations are hypotheses, not CTR proof. The channel has only four public videos and discovery can be sequencing/noise dependent.",
+  "items": [
+    {
+      "video_id": "JGJqirpmMyI",
+      "path": "data/raw/thumbnails/gilded/JGJqirpmMyI.jpg",
+      "performance_position": "hit",
+      "measured_metrics": {
+        "brightness": 0.182,
+        "contrast": 0.13,
+        "edge_density": 0.125,
+        "mobile_contrast": 0.095
+      },
+      "visual_mechanics": [
+        "golden serpent woman",
+        "moonlit Anatolian city",
+        "large creature/geography scale",
+        "refined legend typography",
+        "culturally explicit fantasy cinema identity"
+      ],
+      "reusable_concept": "For healing/oath legends, fuse creature body with cultural geography and nocturnal mythic scale."
+    },
+    {
+      "video_id": "kKyxvpnKnHw",
+      "path": "data/raw/thumbnails/gilded/kKyxvpnKnHw.jpg",
+      "performance_position": "hit",
+      "measured_metrics": {
+        "brightness": 0.273,
+        "contrast": 0.146,
+        "edge_density": 0.093,
+        "mobile_contrast": 0.131
+      },
+      "visual_mechanics": [
+        "moss-covered giant",
+        "small human woman",
+        "forest scale contrast",
+        "refined Basque legend typography",
+        "quiet relational gaze"
+      ],
+      "reusable_concept": "For ecological stewardship legends, make scale contrast relational rather than threatening and tie the giant visually to moss/stone/forest."
+    },
+    {
+      "video_id": "vYFKZBuHo_0",
+      "path": "data/raw/thumbnails/gilded/vYFKZBuHo_0.jpg",
+      "performance_position": "low/medium comparator",
+      "measured_metrics": {
+        "brightness": 0.254,
+        "contrast": 0.131,
+        "edge_density": 0.088,
+        "mobile_contrast": 0.113
+      },
+      "visual_mechanics": [
+        "old farmer and beast face-to-face",
+        "moonlit jungle",
+        "explicit care tagline",
+        "emotionally direct but less large-scale cultural geography"
+      ],
+      "reusable_concept": "Relational warmth alone may undersell mythic scale; pair care with infrastructural/environmental stakes."
+    },
+    {
+      "video_id": "zBu7YoN5-GM",
+      "path": "data/raw/thumbnails/gilded/zBu7YoN5-GM.jpg",
+      "performance_position": "near-zero comparator",
+      "measured_metrics": {
+        "brightness": 0.29,
+        "contrast": 0.169,
+        "edge_density": 0.125,
+        "mobile_contrast": 0.142
+      },
+      "visual_mechanics": [
+        "crowded armored ensemble",
+        "generic fantasy-war typography",
+        "multiple characters",
+        "no singular object/ecosystem/cultural legend hook"
+      ],
+      "reusable_concept": "Polished ensemble spectacle can still be interchangeable; folk legend packaging needs one specific relation/object-system."
+    }
+  ],
+  "craft_rule": "In folk ecological fantasy, packaging should identify cultural legend specificity plus one creature/environment relation. Generic warrior ensemble polish is not a substitute for a distinctive reciprocal ecological contract."
+}

@@ -768,3 +768,8 @@ Use `knowledge/market/duplicate-upload-packaging-experiment-bAje-PRn.md` before 
 ## Nightfall elder-remittance care doctrine
 
 Use `knowledge/market/nightfall-elder-remittance-care-hit-medium-low-comparison.md` before writing elder exploitation, remittance, guardianship, caregiver, dementia-capacity, or delegated-family-care stories. Money sent is not care received. Require exact support/material neglect contradiction, dignified elder competence/selfhood, material proxy control, sender complicity, unannounced witnessing, falsifiable medical/legal capacity attack, ordinary records/witnesses, elder self-testimony, revoked false authority, and ending care infrastructure based on consent/presence/community dignity. Run `elder_remittance_care_integrity`. The low ranch comparator is strong craft despite low/recent discovery.
+
+
+## Gilded Myth folk ecological reciprocity doctrine
+
+Use `knowledge/market/gilded-myth-folk-ecological-reciprocity-hit-low-comparison.md` before writing culturally grounded legends, ecological fantasy, communal land/water conflicts, healing-oath stories, or supernatural guardians. Require material cultural practice, supernatural ecological infrastructure, extraction/enclosure conflict, bounded human oath/mediation, visible cost of betrayal, ordinary evidence, community restoration, creature autonomy, and memory/seasonal continuity. Run `folk_ecological_reciprocity_integrity`. Treat *The Beast of Kanlaon* and *The Half-Orc* as anti-overfit evidence: low discovery does not mean weak writing.

@@ -269,3 +269,8 @@ AI SweetDrama `bAjeNeQ9DGc` and Sienna `PRnC5o30VjE` are visually duplicate vers
 ## Nightfall elder-care packaging
 
 The remittance hit thumbnail sells one relational contradiction — elderly mother with rice bag outside a store versus affluent son with suitcase, plus the recognition question “MOM?” The medium coffee-assault thumbnail is legible but more spectacle/explanation driven. The low ranch comparator is attractive but diffuse: snowy setting, people, dog, no object/wound/question. Reuse: dignity-restoration thumbnails need one object that makes the relational wound visible; do not treat this as CTR proof.
+
+
+## Gilded Myth folk-legend packaging
+
+The two hits use culturally explicit legend typography plus a singular creature/environment relation: moss giant and small woman in a Basque forest; golden serpent woman above an Anatolian city. The Kanlaon comparator has clear relational warmth but less large-scale cultural geography. The near-zero Half-Orc thumbnail is polished but crowded generic ensemble-war fantasy. Reusable hypothesis: one culturally specific creature/ecosystem relation beats interchangeable warrior-ensemble polish for this channel. Not CTR proof.

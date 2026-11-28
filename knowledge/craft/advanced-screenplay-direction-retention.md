@@ -304,3 +304,8 @@ The `bAjeNeQ9DGc`/`PRnC5o30VjE` duplicate case shows the same-duration, visually
 ## Elder-remittance care doctrine — Nightfall evidence
 
 When family care is delegated through money or a proxy, do not treat remittance as care. Establish the contradiction immediately: exact support sent vs food/medicine/autonomy missing. Proxy exploitation must be material and procedural: keys, food access, phone blocks, medication, accounts, power of attorney, guardianship, falsified capacity documents. Preserve elder selfhood through craft/work/memory/judgment. Break misinformation through unannounced witnessing, then reverse credentialed lies with ordinary records and witnesses. The elder must speak for herself. End by revoking false authority and converting money into consented presence, care infrastructure, craft continuity, and community dignity.
+
+
+## Folk ecological reciprocity doctrine — Gilded Myth evidence
+
+For culturally grounded fantasy legends, supernatural beings should function as part of ecological or communal infrastructure, not as mascots or treasures. Ground the opening in material labor and local practice; make extraction/enclosure/broken reciprocity the central conflict; give human mediators bounded oaths rather than ownership; make betrayal physically costly through slope, water, illness, fire, or seasonal closure; expose lies through ordinary evidence; restore the commons; and end in memory/continuity. Low-discovery folk/ecological stories can still be strong craft, so do not treat discovery as a writing-quality oracle.

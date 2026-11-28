@@ -5867,3 +5867,13 @@ def test_elder_remittance_care_integrity():
  out=ev(p,a,[scene])
  assert out['applies'] and out['score_0_to_1']>.65
  assert ev({'logline':'A dragon guards a cave.'},{},[])['applies'] is False
+
+
+def test_folk_ecological_reciprocity_integrity():
+ from studio.folk_ecological_reciprocity_integrity import evaluate_folk_ecological_reciprocity_integrity as ev
+ p={'logline':'A Basque village legend where giants guard boundary stones and oaks while a charcoal master strips the slope for profit.'}
+ a={'ending_payoff':'The village wakes, the old oak roots hold the mountain, the father admits he paid men to move the stones and strip the slope, and the giant carries the old man home at dawn while the wall remains.'}
+ scene={'summary':'Ordinary charcoal, bread, eggs, and shepherd labor establish material culture. The giant protects the wall and forest boundary. The fire, missing oaks, sliding slope, proof, witnesses, and village evacuation make extraction physically costly. No one owns or cages the giant.'}
+ out=ev(p,a,[scene])
+ assert out['applies'] and out['score_0_to_1']>.65
+ assert ev({'logline':'A dragon guards a cave.'},{},[])['applies'] is False
