@@ -1,0 +1,73 @@
+{
+  "video_id": "gt8nXFcjkJE",
+  "probe": {
+    "duration": 1771.845079,
+    "size": 104486943,
+    "width": 640,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\gt8nXFcjkJE\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\gt8nXFcjkJE\\contact_sheets\\contact_001.jpg",
+    "evidence\\media\\gt8nXFcjkJE\\contact_sheets\\contact_002.jpg",
+    "evidence\\media\\gt8nXFcjkJE\\contact_sheets\\contact_003.jpg",
+    "evidence\\media\\gt8nXFcjkJE\\contact_sheets\\contact_004.jpg"
+  ],
+  "seconds_indexed": 1772,
+  "shot_count": 55,
+  "shot_length_mean_seconds": 32.21818181818182,
+  "shot_length_median_seconds": 19.0,
+  "shot_length_p90_seconds": 64.2,
+  "visual_motion_mean": 0.09169078531975146,
+  "visual_brightness_mean": 0.3512400873236644,
+  "dialogue_cues": 454,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 601.933,
+      "text": "Dad bought this the summer before he died."
+    },
+    "first_power_or_identity_language": {
+      "time": 1.066,
+      "text": "Ten days. I'm not asking for more than that."
+    },
+    "first_care_or_belonging_language": {
+      "time": 186.933,
+      "text": "He just saved us a night in the creek."
+    },
+    "dialogue_words_per_minute": [
+      100,
+      82,
+      88,
+      93,
+      112,
+      104,
+      101,
+      80,
+      77,
+      77,
+      100,
+      107,
+      122,
+      123,
+      83,
+      38,
+      100,
+      98,
+      106,
+      48,
+      74,
+      96,
+      119,
+      116,
+      115,
+      87,
+      128,
+      66,
+      90,
+      48
+    ],
+    "cue_count": 454
+  }
+}

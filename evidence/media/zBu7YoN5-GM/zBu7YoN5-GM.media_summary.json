@@ -1,0 +1,51 @@
+{
+  "video_id": "zBu7YoN5-GM",
+  "probe": {
+    "duration": 1114.488163,
+    "size": 68821407,
+    "width": 640,
+    "height": 360,
+    "fps": "24/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\zBu7YoN5-GM\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\zBu7YoN5-GM\\contact_sheets\\contact_001.jpg",
+    "evidence\\media\\zBu7YoN5-GM\\contact_sheets\\contact_002.jpg"
+  ],
+  "seconds_indexed": 1114,
+  "shot_count": 35,
+  "shot_length_mean_seconds": 31.82857142857143,
+  "shot_length_median_seconds": 9.0,
+  "shot_length_p90_seconds": 75.80000000000001,
+  "visual_motion_mean": 0.07793948064466037,
+  "visual_brightness_mean": 0.160006398775889,
+  "dialogue_cues": 98,
+  "narrative_markers": {
+    "first_conflict_language": null,
+    "first_power_or_identity_language": null,
+    "first_care_or_belonging_language": null,
+    "dialogue_words_per_minute": [
+      8,
+      18,
+      8,
+      38,
+      25,
+      18,
+      2,
+      8,
+      1,
+      32,
+      21,
+      26,
+      38,
+      18,
+      12,
+      30,
+      21,
+      43,
+      8
+    ],
+    "cue_count": 98
+  }
+}

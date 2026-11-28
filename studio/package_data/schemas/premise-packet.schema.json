@@ -243,6 +243,10 @@
     "transformation_engine": {
       "type": "object",
       "description": "Transformation-romance machinery: protection wound, pre-transformation witness, reciprocal memory, behavioral cost, second performance engine, consent violation, public-space reversal."
+    },
+    "proof_chain": {
+      "type": "string",
+      "description": "Ordered material/witness proof chain that dialogue and evidence scenes must use."
     }
   }
 }

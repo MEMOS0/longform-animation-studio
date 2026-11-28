@@ -1,0 +1,49 @@
+{
+  "video_id": "ldmdIfToq-s",
+  "probe": {
+    "duration": 489.987483,
+    "size": 21701179,
+    "width": 640,
+    "height": 360,
+    "fps": "24/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\ldmdIfToq-s\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\ldmdIfToq-s\\contact_sheets\\contact_001.jpg"
+  ],
+  "seconds_indexed": 490,
+  "shot_count": 16,
+  "shot_length_mean_seconds": 30.625,
+  "shot_length_median_seconds": 15.5,
+  "shot_length_p90_seconds": 74.0,
+  "visual_motion_mean": 0.05351021804666261,
+  "visual_brightness_mean": 0.19880181669363156,
+  "dialogue_cues": 118,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 191.64,
+      "text": "I'm afraid I'm rather poor company"
+    },
+    "first_power_or_identity_language": {
+      "time": 348.32,
+      "text": "Stop talking downstairs. It's creepy."
+    },
+    "first_care_or_belonging_language": {
+      "time": 400.0,
+      "text": "Thank you."
+    },
+    "dialogue_words_per_minute": [
+      29,
+      26,
+      66,
+      66,
+      52,
+      68,
+      54,
+      26,
+      5
+    ],
+    "cue_count": 118
+  }
+}

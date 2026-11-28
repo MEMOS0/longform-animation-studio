@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.200" end="00:00:05.200" style="s2">You have no idea who you&#39;re talking to.</p>
+<p begin="00:00:03.200" end="00:00:06.800" style="s2">I know who you are. You&#39;re the woman who</p>
+<p begin="00:00:05.200" end="00:00:10.000" style="s2">slapped someone who was already</p>
+<p begin="00:00:06.800" end="00:00:10.000" style="s2">apologizing to you.</p>
+<p begin="00:00:11.100" end="00:00:15.000" style="s2">What did you say?</p>
+<p begin="00:00:13.200" end="00:00:17.900" style="s2">You heard me.</p>
+<p begin="00:00:15.000" end="00:00:17.900" style="s2">You are fired.</p>
+<p begin="00:00:18.900" end="00:00:22.500" style="s2">Do you understand?</p>
+<p begin="00:00:20.600" end="00:00:25.000" style="s2">You are never working in Jason&#39;s house</p>
+<p begin="00:00:22.500" end="00:00:25.000" style="s2">again.</p>
+<p begin="00:00:27.100" end="00:00:30.600" style="s2">Now apologize and get out.</p>
+<p begin="00:00:33.200" end="00:00:36.400" style="s2">I am sorry [music] if I have</p>
+<p begin="00:00:34.200" end="00:00:39.100" style="s2">disrespected you. That was not my</p>
+<p begin="00:00:36.400" end="00:00:39.100" style="s2">intention.</p>
+<p begin="00:00:39.500" end="00:00:43.285" style="s2">But I will not apologize for telling the</p>
+<p begin="00:00:41.200" end="00:00:43.285" style="s2">truth. [music]</p>
+<p begin="00:00:45.000" end="00:00:47.700" style="s2">Carmela.</p>
+<p begin="00:00:54.200" end="00:00:57.000" style="s2">&gt;&gt; What&#39;s happening here?</p>
+<p begin="00:00:59.100" end="00:01:03.300" style="s2">&gt;&gt; Adrian, thank goodness you&#39;re here.</p>
+<p begin="00:01:01.800" end="00:01:04.300" style="s2">&gt;&gt; Victoria?</p>
+<p begin="00:01:03.300" end="00:01:06.800" style="s2">What happened?</p>
+<p begin="00:01:04.300" end="00:01:08.400" style="s2">&gt;&gt; This woman forced her way in and claimed</p>
+<p begin="00:01:06.800" end="00:01:09.700" style="s2">she&#39;s Jason&#39;s mother.</p>
+<p begin="00:01:08.400" end="00:01:11.600" style="s2">&gt;&gt; Mrs. Alexander?</p>
+<p begin="00:01:09.700" end="00:01:12.400" style="s2">&gt;&gt; Yes. You see? She is not even</p>
+<p begin="00:01:11.600" end="00:01:14.200" style="s2">embarrassed.</p>
+<p begin="00:01:12.400" end="00:01:15.800" style="s2">&gt;&gt; Mrs. Alexander was expected to arrive</p>
+<p begin="00:01:14.200" end="00:01:17.700" style="s2">earlier. I was even with Jason in a</p>
+<p begin="00:01:15.800" end="00:01:19.900" style="s2">board meeting when they spoke on phone.</p>
+<p begin="00:01:17.700" end="00:01:21.500" style="s2">&gt;&gt; My car broke down. A young woman helped</p>
+<p begin="00:01:19.900" end="00:01:24.000" style="s2">me and I [music] came here as soon as I</p>
+<p begin="00:01:21.500" end="00:01:24.000" style="s2">could.</p>
+<p begin="00:01:24.400" end="00:01:27.900" style="s2">&gt;&gt; This is becoming ridiculous. [music]</p>
+<p begin="00:01:26.200" end="00:01:30.100" style="s2">What exactly is going on?</p>
+<p begin="00:01:27.900" end="00:01:31.400" style="s2">&gt;&gt; She says she is Jason&#39;s mother. When I</p>
+<p begin="00:01:30.100" end="00:01:33.100" style="s2">questioned her, she became</p>
+<p begin="00:01:31.400" end="00:01:34.400" style="s2">disrespectful. [music]</p>
+<p begin="00:01:33.100" end="00:01:36.000" style="s2">That is not what happened.</p>
+<p begin="00:01:34.400" end="00:01:37.900" style="s2">&gt;&gt; Let&#39;s come down. Madam, if you are</p>
+<p begin="00:01:36.000" end="00:01:38.900" style="s2">genuinely here to see Mr. Alexander, we</p>
+<p begin="00:01:37.900" end="00:01:41.300" style="s2">can contact him.</p>
+<p begin="00:01:38.900" end="00:01:43.000" style="s2">&gt;&gt; That would be appreciated.</p>
+<p begin="00:01:41.300" end="00:01:45.600" style="s2">Adrian, don&#39;t encourage her.</p>
+<p begin="00:01:43.000" end="00:01:47.200" style="s2">&gt;&gt; Victoria, let us establish the facts.</p>
+<p begin="00:01:45.600" end="00:01:48.800" style="s2">&gt;&gt; The facts are standing in front of you.</p>
+<p begin="00:01:47.200" end="00:01:50.500" style="s2">Look at her. Does she look like Jason</p>
+<p begin="00:01:48.800" end="00:01:53.000" style="s2">Alexander&#39;s mother?</p>
+<p begin="00:01:50.500" end="00:01:54.600" style="s2">She&#39;s even too young for that.</p>
+<p begin="00:01:53.000" end="00:01:56.300" style="s2">&gt;&gt; Perhaps we should ask how she got past</p>
+<p begin="00:01:54.600" end="00:01:58.600" style="s2">security.</p>
+<p begin="00:01:56.300" end="00:02:00.800" style="s2">Mrs. Alexander has been the backbone of</p>
+<p begin="00:01:58.600" end="00:02:03.092" style="s2">my company.</p>
+<p begin="00:02:00.800" end="00:02:04.392" style="s2">I so that I can show my appreciation</p>
+<p begin="00:02:03.092" end="00:02:05.492" style="s2">because [music] I have never met her in</p>
+<p begin="00:02:04.392" end="00:02:07.592" style="s2">person.</p>
+<p begin="00:02:05.492" end="00:02:09.492" style="s2">How can you claim to be who you are not?</p>
+<p begin="00:02:07.592" end="00:02:11.492" style="s2">People will do anything to get close to</p>
+<p begin="00:02:09.492" end="00:02:14.392" style="s2">wealth.</p>
+<p begin="00:02:11.492" end="00:02:16.492" style="s2">&gt;&gt; will do anything to remain close to it.</p>
+<p begin="00:02:14.392" end="00:02:18.492" style="s2">&gt;&gt; should watch your mouth.</p>
+<p begin="00:02:16.492" end="00:02:20.592" style="s2">&gt;&gt; have watched it all evening.</p>
+<p begin="00:02:18.492" end="00:02:22.092" style="s2">Perhaps you should do the same.</p>
+<p begin="00:02:20.592" end="00:02:23.392" style="s2">&gt;&gt; I would advise you to leave before this</p>
+<p begin="00:02:22.092" end="00:02:24.492" style="s2">becomes more embarrassing.</p>
+<p begin="00:02:23.392" end="00:02:25.292" style="s2">&gt;&gt; would advise me to leave before</p>
+<p begin="00:02:24.492" end="00:02:26.692" style="s2">confirming who I am?</p>
+<p begin="00:02:25.292" end="00:02:28.031" style="s2">&gt;&gt; have not provided sufficient proof.</p>
+<p begin="00:02:26.692" end="00:02:28.292" style="s2">&gt;&gt; I offered to call my son.</p>
+<p begin="00:02:28.031" end="00:02:29.692" style="s2">&gt;&gt; [music]</p>
+<p begin="00:02:28.292" end="00:02:30.292" style="s2">&gt;&gt; And we will do that when the situation</p>
+<p begin="00:02:29.692" end="00:02:31.892" style="s2">is calmer.</p>
+<p begin="00:02:30.292" end="00:02:33.892" style="s2">&gt;&gt; The situation became this way because</p>
+<p begin="00:02:31.892" end="00:02:37.192" style="s2">none of you cared to listen.</p>
+<p begin="00:02:33.892" end="00:02:39.692" style="s2">&gt;&gt; dramatic performance.</p>
+<p begin="00:02:37.192" end="00:02:41.692" style="s2">&gt;&gt; have made your judgment.</p>
+<p begin="00:02:39.692" end="00:02:44.092" style="s2">I only hope you will be prepared to live</p>
+<p begin="00:02:41.692" end="00:02:44.092" style="s2">with it.</p>
+<p begin="00:02:44.792" end="00:02:48.392" style="s2">What&#39;s in the bag? That is none [music]</p>
+<p begin="00:02:46.492" end="00:02:49.992" style="s2">of your concern.</p>
+<p begin="00:02:48.392" end="00:02:52.292" style="s2">You don&#39;t get to tell me what concerns</p>
+<p begin="00:02:49.992" end="00:02:55.892" style="s2">me in my own engagement celebration. Do</p>
+<p begin="00:02:52.292" end="00:02:55.892" style="s2">not touch my belongings.</p>
+<p begin="00:02:56.692" end="00:03:01.092" style="s2">Then show me what&#39;s inside.</p>
+<p begin="00:02:58.792" end="00:03:01.092" style="s2">No.</p>
+<p begin="00:03:02.092" end="00:03:04.792" style="s2">Give that back.</p>
+<p begin="00:03:06.022" end="00:03:08.042" style="s2">[gasps and sighs]</p>
+<p begin="00:03:19.392" end="00:03:24.892" style="s2">Where did you [music] get this?</p>
+<p begin="00:03:22.292" end="00:03:24.892" style="s2">Put it down.</p>
+<p begin="00:03:26.092" end="00:03:31.622" style="s2">This is expensive.</p>
+<p begin="00:03:28.692" end="00:03:31.622" style="s2">I said put it down. [music]</p>
+<p begin="00:03:32.392" end="00:03:37.192" style="s2">Did you steal it?</p>
+<p begin="00:03:34.292" end="00:03:39.692" style="s2">That necklace belongs to my family.</p>
+<p begin="00:03:37.192" end="00:03:42.192" style="s2">Of course it does. Now we have a thief</p>
+<p begin="00:03:39.692" end="00:03:44.892" style="s2">as well.</p>
+<p begin="00:03:42.192" end="00:03:45.992" style="s2">You will return that necklace to me.</p>
+<p begin="00:03:44.892" end="00:03:48.192" style="s2">You don&#39;t deserve to touch [music]</p>
+<p begin="00:03:45.992" end="00:03:49.892" style="s2">something like this.</p>
+<p begin="00:03:48.192" end="00:03:52.492" style="s2">You have mistaken my kindness for</p>
+<p begin="00:03:49.892" end="00:03:52.492" style="s2">weakness.</p>
+<p begin="00:03:53.792" end="00:03:59.392" style="s2">And you will discover that those are two</p>
+<p begin="00:03:56.092" end="00:03:59.392" style="s2">very different things.</p>
+<p begin="00:04:02.892" end="00:04:06.794" style="s2">Good evening. Please, where should I</p>
+<p begin="00:04:04.694" end="00:04:07.894" style="s2">take these? The kitchen. Mr. Okafor has</p>
+<p begin="00:04:06.794" end="00:04:08.794" style="s2">been asking for you.</p>
+<p begin="00:04:07.894" end="00:04:12.494" style="s2">&gt;&gt; I&#39;ll go there now.</p>
+<p begin="00:04:08.794" end="00:04:12.494" style="s2">&gt;&gt; I said, GET HER OUT OF HERE.</p>
+<p begin="00:04:18.594" end="00:04:21.394" style="s2">&gt;&gt; Ma Evelyn?</p>
+<p begin="00:04:23.094" end="00:04:25.394" style="s2">Ma?</p>
+<p begin="00:04:26.094" end="00:04:28.694" style="s2">Carmela?</p>
+<p begin="00:04:30.294" end="00:04:33.594" style="s2">You know this woman?</p>
+<p begin="00:04:32.194" end="00:04:35.394" style="s2">&gt;&gt; Yes, [music] ma&#39;am. I helped her earlier</p>
+<p begin="00:04:33.594" end="00:04:38.194" style="s2">today when her car broke down.</p>
+<p begin="00:04:35.394" end="00:04:39.694" style="s2">&gt;&gt; You brought her here?</p>
+<p begin="00:04:38.194" end="00:04:40.994" style="s2">&gt;&gt; No, ma&#39;am.</p>
+<p begin="00:04:39.694" end="00:04:43.194" style="s2">I only helped her [music] get somewhere</p>
+<p begin="00:04:40.994" end="00:04:45.494" style="s2">safe.</p>
+<p begin="00:04:43.194" end="00:04:46.694" style="s2">And now she&#39;s pretending to be Jason&#39;s</p>
+<p begin="00:04:45.494" end="00:04:48.294" style="s2">mother.</p>
+<p begin="00:04:46.694" end="00:04:51.694" style="s2">&gt;&gt; Pretending?</p>
+<p begin="00:04:48.294" end="00:04:55.094" style="s2">&gt;&gt; Carmela, I tried to explain. [music]</p>
+<p begin="00:04:51.694" end="00:04:55.094" style="s2">&gt;&gt; Ma, what happened to your face?</p>
+<p begin="00:04:55.694" end="00:05:01.094" style="s2">Did you hit [music] her?</p>
+<p begin="00:04:57.794" end="00:05:03.394" style="s2">&gt;&gt; Be careful how you speak to me.</p>
+<p begin="00:05:01.094" end="00:05:06.394" style="s2">&gt;&gt; I asked you a question. [music]</p>
+<p begin="00:05:03.394" end="00:05:08.594" style="s2">&gt;&gt; You work in Jason&#39;s house, don&#39;t you?</p>
+<p begin="00:05:06.394" end="00:05:09.894" style="s2">&gt;&gt; Yes, ma&#39;am.</p>
+<p begin="00:05:08.594" end="00:05:13.894" style="s2">&gt;&gt; Then you should know [music] better than</p>
+<p begin="00:05:09.894" end="00:05:15.694" style="s2">to bring strangers into private events.</p>
+<p begin="00:05:13.894" end="00:05:18.294" style="s2">&gt;&gt; I didn&#39;t bring her [music] here. She was</p>
+<p begin="00:05:15.694" end="00:05:21.094" style="s2">already on her way when I left her.</p>
+<p begin="00:05:18.294" end="00:05:22.918" style="s2">&gt;&gt; You expect me to believe that?</p>
+<p begin="00:05:21.094" end="00:05:25.094" style="s2">&gt;&gt; I don&#39;t expect you to believe anything.</p>
+<p begin="00:05:22.918" end="00:05:27.694" style="s2">[music] I &#39;m telling you what happened.</p>
+<p begin="00:05:25.094" end="00:05:27.694" style="s2">&gt;&gt; Take her away.</p>
+<p begin="00:05:28.294" end="00:05:33.894" style="s2">&gt;&gt; Ma, we can leave if you want.</p>
+<p begin="00:05:31.494" end="00:05:37.894" style="s2">&gt;&gt; I came to see [music] my son.</p>
+<p begin="00:05:33.894" end="00:05:37.894" style="s2">&gt;&gt; Your son? You are still doing this?</p>
+<p begin="00:05:38.294" end="00:05:42.494" style="s2">&gt;&gt; Why are you speaking to her like that?</p>
+<p begin="00:05:40.494" end="00:05:45.094" style="s2">&gt;&gt; Because she is lying.</p>
+<p begin="00:05:42.494" end="00:05:47.394" style="s2">&gt;&gt; Then prove it. Call Jason.</p>
+<p begin="00:05:45.094" end="00:05:49.394" style="s2">Let him come and tell us himself.</p>
+<p begin="00:05:47.394" end="00:05:50.094" style="s2">&gt;&gt; Young woman, this is a private family</p>
+<p begin="00:05:49.394" end="00:05:53.694" style="s2">matter.</p>
+<p begin="00:05:50.094" end="00:05:53.694" style="s2">&gt;&gt; Then why is everybody insulting her?</p>
+<p begin="00:05:56.594" end="00:06:00.594" style="s2">You have no idea who you&#39;re talking to.</p>
+<p begin="00:05:58.694" end="00:06:02.094" style="s2">I know who you are. You&#39;re the woman who</p>
+<p begin="00:06:00.594" end="00:06:05.294" style="s2">slapped someone who was already</p>
+<p begin="00:06:02.094" end="00:06:05.294" style="s2">apologizing to you.</p>
+<p begin="00:06:06.594" end="00:06:10.495" style="s2">What did you say?</p>
+<p begin="00:06:08.695" end="00:06:13.295" style="s2">You heard me.</p>
+<p begin="00:06:10.495" end="00:06:13.295" style="s2">You are fired.</p>
+<p begin="00:06:14.495" end="00:06:17.995" style="s2">Do you understand?</p>
+<p begin="00:06:16.095" end="00:06:20.395" style="s2">You are never working in Jason&#39;s house</p>
+<p begin="00:06:17.995" end="00:06:20.395" style="s2">again.</p>
+<p begin="00:06:22.695" end="00:06:25.995" style="s2">Now apologize and get out.</p>
+<p begin="00:06:28.695" end="00:06:31.895" style="s2">I am sorry [music] if I have</p>
+<p begin="00:06:29.695" end="00:06:34.595" style="s2">disrespected you. That was not my</p>
+<p begin="00:06:31.895" end="00:06:34.595" style="s2">intention.</p>
+<p begin="00:06:34.995" end="00:06:39.195" style="s2">But I will not apologize for [music]</p>
+<p begin="00:06:36.295" end="00:06:39.195" style="s2">telling the truth.</p>
+<p begin="00:06:40.495" end="00:06:43.195" style="s2">Carmela.</p>
+<p begin="00:06:47.795" end="00:06:51.595" style="s2">You can take away my job. [music] You</p>
+<p begin="00:06:49.995" end="00:06:53.495" style="s2">can insult me because I don&#39;t have your</p>
+<p begin="00:06:51.595" end="00:06:54.795" style="s2">money.</p>
+<p begin="00:06:53.495" end="00:06:57.295" style="s2">But you cannot make me believe that</p>
+<p begin="00:06:54.795" end="00:06:58.795" style="s2">cruelty [music] is power.</p>
+<p begin="00:06:57.295" end="00:07:00.395" style="s2">And one day</p>
+<p begin="00:06:58.795" end="00:07:02.395" style="s2">you may discover that the person you</p>
+<p begin="00:07:00.395" end="00:07:04.595" style="s2">treated like nothing</p>
+<p begin="00:07:02.395" end="00:07:07.995" style="s2">was the only person in the room who had</p>
+<p begin="00:07:04.595" end="00:07:07.995" style="s2">something valuable [music] to give you.</p>
+<p begin="00:07:12.195" end="00:07:16.695" style="s2">Security, bundle these people out of</p>
+<p begin="00:07:14.495" end="00:07:19.509" style="s2">here this minute.</p>
+<p begin="00:07:16.695" end="00:07:21.529" style="s2">&gt;&gt; Nobody is leaving.</p>
+<p begin="00:07:19.509" end="00:07:21.529" style="s2">&gt;&gt; [music]</p>
+<p begin="00:07:33.495" end="00:07:36.395" style="s2">&gt;&gt; What is going on here?</p>
+<p begin="00:07:38.395" end="00:07:41.995" style="s2">Mom?</p>
+<p begin="00:07:40.295" end="00:07:43.695" style="s2">&gt;&gt; Jason.</p>
+<p begin="00:07:41.995" end="00:07:46.395" style="s2">&gt;&gt; Are you all right?</p>
+<p begin="00:07:43.695" end="00:07:46.395" style="s2">&gt;&gt; I&#39;m fine.</p>
+<p begin="00:07:50.895" end="00:07:53.495" style="s2">&gt;&gt; Who did this?</p>
+<p begin="00:07:54.795" end="00:08:00.795" style="s2">And what happened to you?</p>
+<p begin="00:07:57.695" end="00:08:00.795" style="s2">I asked a question.</p>
+<p begin="00:08:09.195" end="00:08:13.097" style="s2">&gt;&gt; Jason,</p>
+<p begin="00:08:10.797" end="00:08:14.297" style="s2">thank goodness you&#39;re here.</p>
+<p begin="00:08:13.097" end="00:08:15.997" style="s2">There has been a terrible</p>
+<p begin="00:08:14.297" end="00:08:18.515" style="s2">misunderstanding.</p>
+<p begin="00:08:15.997" end="00:08:18.515" style="s2">&gt;&gt; What misunderstanding? [music]</p>
+<p begin="00:08:18.797" end="00:08:23.097" style="s2">&gt;&gt; This woman came here claiming to be your</p>
+<p begin="00:08:20.897" end="00:08:25.597" style="s2">mother.</p>
+<p begin="00:08:23.097" end="00:08:25.597" style="s2">&gt;&gt; Which woman?</p>
+<p begin="00:08:25.697" end="00:08:28.697" style="s2">You are telling me you don&#39;t know who</p>
+<p begin="00:08:26.797" end="00:08:32.297" style="s2">she is?</p>
+<p begin="00:08:28.697" end="00:08:32.297" style="s2">&gt;&gt; I&#39;ve never met her in person.</p>
+<p begin="00:08:33.297" end="00:08:37.697" style="s2">&gt;&gt; You knew she was coming?</p>
+<p begin="00:08:34.697" end="00:08:39.497" style="s2">&gt;&gt; Yes, but she arrived looking</p>
+<p begin="00:08:37.697" end="00:08:41.597" style="s2">&gt;&gt; Looking like what?</p>
+<p begin="00:08:39.497" end="00:08:43.097" style="s2">&gt;&gt; Jason, please, we should discuss this</p>
+<p begin="00:08:41.597" end="00:08:44.397" style="s2">privately.</p>
+<p begin="00:08:43.097" end="00:08:46.097" style="s2">&gt;&gt; No.</p>
+<p begin="00:08:44.397" end="00:08:47.597" style="s2">You had no difficulty humiliating my</p>
+<p begin="00:08:46.097" end="00:08:50.097" style="s2">mother in public.</p>
+<p begin="00:08:47.597" end="00:08:53.297" style="s2">We can discuss what happened in public.</p>
+<p begin="00:08:50.097" end="00:08:55.297" style="s2">Mom, please tell me what happened.</p>
+<p begin="00:08:53.297" end="00:08:57.297" style="s2">&gt;&gt; My car broke down in the rain. [music] I</p>
+<p begin="00:08:55.297" end="00:08:59.397" style="s2">was stranded and a young woman named</p>
+<p begin="00:08:57.297" end="00:09:00.697" style="s2">Carmela helped me. She gave me dry</p>
+<p begin="00:08:59.397" end="00:09:01.997" style="s2">clothes.</p>
+<p begin="00:09:00.697" end="00:09:02.897" style="s2">She did not [music] ask for anything in</p>
+<p begin="00:09:01.997" end="00:09:04.197" style="s2">return.</p>
+<p begin="00:09:02.897" end="00:09:06.497" style="s2">I came here to celebrate your</p>
+<p begin="00:09:04.197" end="00:09:07.897" style="s2">engagement. I accidentally bumped into</p>
+<p begin="00:09:06.497" end="00:09:09.997" style="s2">Victoria [music] and some mud from my</p>
+<p begin="00:09:07.897" end="00:09:11.897" style="s2">handbag touched her dress.</p>
+<p begin="00:09:09.997" end="00:09:13.597" style="s2">I apologized.</p>
+<p begin="00:09:11.897" end="00:09:15.297" style="s2">She called me a liar.</p>
+<p begin="00:09:13.597" end="00:09:16.597" style="s2">She insulted me because of how I was</p>
+<p begin="00:09:15.297" end="00:09:18.797" style="s2">dressed. [music]</p>
+<p begin="00:09:16.597" end="00:09:20.197" style="s2">When I told her who I was, she refused</p>
+<p begin="00:09:18.797" end="00:09:21.797" style="s2">to believe me.</p>
+<p begin="00:09:20.197" end="00:09:23.097" style="s2">Then she slapped [music] me.</p>
+<p begin="00:09:21.797" end="00:09:24.697" style="s2">&gt;&gt; She slapped you?</p>
+<p begin="00:09:23.097" end="00:09:26.097" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:09:24.697" end="00:09:28.497" style="s2">&gt;&gt; Is that true?</p>
+<p begin="00:09:26.097" end="00:09:29.697" style="s2">&gt;&gt; Jason, I was upset. She kept provoking</p>
+<p begin="00:09:28.497" end="00:09:31.997" style="s2">me.</p>
+<p begin="00:09:29.697" end="00:09:33.131" style="s2">I asked you to listen. You spoke to me</p>
+<p begin="00:09:31.997" end="00:09:33.397" style="s2">disrespectfully.</p>
+<p begin="00:09:33.131" end="00:09:36.497" style="s2">&gt;&gt; [music]</p>
+<p begin="00:09:33.397" end="00:09:36.497" style="s2">&gt;&gt; Did you slap my mother?</p>
+<p begin="00:09:36.697" end="00:09:39.197" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:09:41.697" end="00:09:44.797" style="s2">&gt;&gt; And you?</p>
+<p begin="00:09:42.897" end="00:09:46.797" style="s2">&gt;&gt; I asked her why she hit your mother. I</p>
+<p begin="00:09:44.797" end="00:09:49.497" style="s2">suggested she call you. [music] She told</p>
+<p begin="00:09:46.797" end="00:09:49.497" style="s2">me to leave.</p>
+<p begin="00:09:51.797" end="00:09:57.697" style="s2">&gt;&gt; And the mark on your face?</p>
+<p begin="00:09:54.597" end="00:09:57.697" style="s2">&gt;&gt; She slapped me too.</p>
+<p begin="00:10:01.397" end="00:10:05.797" style="s2">&gt;&gt; You struck a woman who was defending</p>
+<p begin="00:10:03.297" end="00:10:09.097" style="s2">someone you believed was a stranger?</p>
+<p begin="00:10:05.797" end="00:10:12.698" style="s2">&gt;&gt; She disrespected me.</p>
+<p begin="00:10:09.097" end="00:10:12.698" style="s2">&gt;&gt; And that gave you the right to hit her?</p>
+<p begin="00:10:12.798" end="00:10:16.898" style="s2">&gt;&gt; You weren&#39;t here. You don&#39;t understand</p>
+<p begin="00:10:14.698" end="00:10:19.898" style="s2">how she was behaving.</p>
+<p begin="00:10:16.898" end="00:10:19.898" style="s2">&gt;&gt; Then explain it.</p>
+<p begin="00:10:23.898" end="00:10:28.298" style="s2">Explain [music] it to everyone who</p>
+<p begin="00:10:25.298" end="00:10:28.298" style="s2">watched you do it.</p>
+<p begin="00:10:29.298" end="00:10:32.998" style="s2">&gt;&gt; Jason, [music]</p>
+<p begin="00:10:30.498" end="00:10:34.698" style="s2">I am your fiance.</p>
+<p begin="00:10:32.998" end="00:10:38.398" style="s2">&gt;&gt; I know.</p>
+<p begin="00:10:34.698" end="00:10:38.398" style="s2">&gt;&gt; You are supposed to stand by me.</p>
+<p begin="00:10:38.698" end="00:10:41.898" style="s2">&gt;&gt; Not when you are wrong.</p>
+<p begin="00:10:41.907" end="00:10:45.998" style="s2">[music]</p>
+<p begin="00:10:42.898" end="00:10:45.998" style="s2">And what about the rest of you?</p>
+<p begin="00:10:49.098" end="00:10:52.387" style="s2">&gt;&gt; Jason, we were trying to resolve the</p>
+<p begin="00:10:50.798" end="00:10:53.598" style="s2">situation</p>
+<p begin="00:10:52.387" end="00:10:54.998" style="s2">[music] by calling my mother an</p>
+<p begin="00:10:53.598" end="00:10:57.598" style="s2">imposter.</p>
+<p begin="00:10:54.998" end="00:11:01.098" style="s2">We had no way to verify</p>
+<p begin="00:10:57.598" end="00:11:01.098" style="s2">and she offered to call me.</p>
+<p begin="00:11:02.798" end="00:11:05.498" style="s2">Yet not one of you could show enough</p>
+<p begin="00:11:04.177" end="00:11:07.098" style="s2">[music] judgment to verify a simple</p>
+<p begin="00:11:05.498" end="00:11:08.098" style="s2">claim before joining a public</p>
+<p begin="00:11:07.098" end="00:11:10.198" style="s2">humiliation.</p>
+<p begin="00:11:08.098" end="00:11:12.098" style="s2">&gt;&gt; Jason, surely we can agree that the</p>
+<p begin="00:11:10.198" end="00:11:14.018" style="s2">situation was confusing.</p>
+<p begin="00:11:12.098" end="00:11:15.498" style="s2">&gt;&gt; Confusing? My mother arrived here in</p>
+<p begin="00:11:14.018" end="00:11:17.498" style="s2">[music] borrowed clothes because she was</p>
+<p begin="00:11:15.498" end="00:11:19.398" style="s2">stranded in the rain. A stranger helped</p>
+<p begin="00:11:17.498" end="00:11:21.218" style="s2">her. That stranger was slapped for</p>
+<p begin="00:11:19.398" end="00:11:23.798" style="s2">showing compassion. And you call the</p>
+<p begin="00:11:21.218" end="00:11:25.498" style="s2">[music] situation confusing?</p>
+<p begin="00:11:23.798" end="00:11:26.998" style="s2">Young people sometimes lose their</p>
+<p begin="00:11:25.498" end="00:11:28.498" style="s2">tempers</p>
+<p begin="00:11:26.998" end="00:11:29.898" style="s2">and older men sometimes use [music]</p>
+<p begin="00:11:28.498" end="00:11:32.998" style="s2">their age an excuse to tolerate</p>
+<p begin="00:11:29.898" end="00:11:32.998" style="s2">disgraceful behavior.</p>
+<p begin="00:11:33.298" end="00:11:36.998" style="s2">I expected better from [music] all of</p>
+<p begin="00:11:34.798" end="00:11:36.998" style="s2">you.</p>
+<p begin="00:11:49.498" end="00:11:54.798" style="s2">&gt;&gt; Jason?</p>
+<p begin="00:11:51.498" end="00:11:54.798" style="s2">&gt;&gt; This engagement is over.</p>
+<p begin="00:11:55.198" end="00:11:58.598" style="s2">&gt;&gt; You cannot be serious.</p>
+<p begin="00:12:00.998" end="00:12:06.458" style="s2">&gt;&gt; I have never been more serious.</p>
+<p begin="00:12:03.498" end="00:12:06.458" style="s2">&gt;&gt; Because of one mistake? [music]</p>
+<p begin="00:12:10.198" end="00:12:13.599" style="s2">&gt;&gt; This was not one mistake. It was a</p>
+<p begin="00:12:12.198" end="00:12:15.299" style="s2">choice.</p>
+<p begin="00:12:13.599" end="00:12:16.399" style="s2">You chose to humiliate someone because</p>
+<p begin="00:12:15.299" end="00:12:17.499" style="s2">you believed [music] she was beneath</p>
+<p begin="00:12:16.399" end="00:12:19.899" style="s2">you.</p>
+<p begin="00:12:17.499" end="00:12:21.999" style="s2">&gt;&gt; I didn&#39;t know who she was.</p>
+<p begin="00:12:19.899" end="00:12:23.499" style="s2">&gt;&gt; Exactly.</p>
+<p begin="00:12:21.999" end="00:12:26.763" style="s2">You thought the way she was dressed made</p>
+<p begin="00:12:23.499" end="00:12:26.763" style="s2">her unworthy of basic respect. [music]</p>
+<p begin="00:12:27.499" end="00:12:31.599" style="s2">&gt;&gt; You are humiliating me now.</p>
+<p begin="00:12:29.899" end="00:12:33.399" style="s2">&gt;&gt; I am ending an engagement. [music] I am</p>
+<p begin="00:12:31.599" end="00:12:34.899" style="s2">not slapping you, insulting you, or</p>
+<p begin="00:12:33.399" end="00:12:36.499" style="s2">calling you names.</p>
+<p begin="00:12:34.899" end="00:12:40.199" style="s2">I am simply refusing [music] to marry</p>
+<p begin="00:12:36.499" end="00:12:43.599" style="s2">someone whose values I no longer trust.</p>
+<p begin="00:12:40.199" end="00:12:43.599" style="s2">&gt;&gt; You will regret this.</p>
+<p begin="00:12:43.699" end="00:12:48.899" style="s2">&gt;&gt; Perhaps.</p>
+<p begin="00:12:45.299" end="00:12:48.899" style="s2">But I would regret marrying you more.</p>
+<p begin="00:13:26.699" end="00:13:30.699" style="s2">Mom,</p>
+<p begin="00:13:27.599" end="00:13:33.699" style="s2">please, let&#39;s sit here for a while.</p>
+<p begin="00:13:30.699" end="00:13:33.699" style="s2">It&#39;s a private lounge.</p>
+<p begin="00:13:41.099" end="00:13:43.699" style="s2">Does it hurt?</p>
+<p begin="00:13:44.199" end="00:13:46.899" style="s2">&gt;&gt; Not much.</p>
+<p begin="00:13:47.599" end="00:13:53.899" style="s2">&gt;&gt; We should have you checked.</p>
+<p begin="00:13:50.299" end="00:13:53.899" style="s2">&gt;&gt; Jason, it is only a slap.</p>
+<p begin="00:13:54.499" end="00:13:57.899" style="s2">&gt;&gt; It should never have happened.</p>
+<p begin="00:14:00.099" end="00:14:02.699" style="s2">&gt;&gt; Look at me.</p>
+<p begin="00:14:03.999" end="00:14:07.899" style="s2">I am here. [music]</p>
+<p begin="00:14:04.899" end="00:14:09.499" style="s2">I am safe. Do not allow anger to take</p>
+<p begin="00:14:07.899" end="00:14:10.999" style="s2">control of you.</p>
+<p begin="00:14:09.499" end="00:14:12.999" style="s2">&gt;&gt; She humiliated you in front [music] of</p>
+<p begin="00:14:10.999" end="00:14:14.099" style="s2">everyone.</p>
+<p begin="00:14:12.999" end="00:14:17.401" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:14:14.099" end="00:14:19.901" style="s2">&gt;&gt; She humiliated Carmela too.</p>
+<p begin="00:14:17.401" end="00:14:19.901" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:14:27.301" end="00:14:33.301" style="s2">&gt;&gt; Carmela, please sit.</p>
+<p begin="00:14:30.501" end="00:14:33.301" style="s2">&gt;&gt; I&#39;m fine, sir.</p>
+<p begin="00:14:33.801" end="00:14:38.601" style="s2">&gt;&gt; That wasn&#39;t a question.</p>
+<p begin="00:14:36.201" end="00:14:38.601" style="s2">Please.</p>
+<p begin="00:14:39.020" end="00:14:41.040" style="s2">[music]</p>
+<p begin="00:14:47.301" end="00:14:50.801" style="s2">I&#39;m sorry this happened to you.</p>
+<p begin="00:14:51.101" end="00:14:54.001" style="s2">&gt;&gt; You didn&#39;t do it.</p>
+<p begin="00:14:54.101" end="00:14:57.901" style="s2">&gt;&gt; But it happened in my home [music] and</p>
+<p begin="00:14:55.701" end="00:14:59.501" style="s2">at my engagement celebration.</p>
+<p begin="00:14:57.901" end="00:15:02.401" style="s2">You were working here.</p>
+<p begin="00:14:59.501" end="00:15:02.401" style="s2">You should have been safe.</p>
+<p begin="00:15:03.910" end="00:15:07.301" style="s2">&gt;&gt; [music]</p>
+<p begin="00:15:04.101" end="00:15:07.301" style="s2">&gt;&gt; I was only trying to help.</p>
+<p begin="00:15:07.501" end="00:15:09.901" style="s2">&gt;&gt; I know.</p>
+<p begin="00:15:10.501" end="00:15:12.901" style="s2">Thank you.</p>
+<p begin="00:15:13.901" end="00:15:17.101" style="s2">&gt;&gt; You don&#39;t have [music] to thank me.</p>
+<p begin="00:15:17.501" end="00:15:19.901" style="s2">&gt;&gt; I do.</p>
+<p begin="00:15:22.201" end="00:15:26.401" style="s2">&gt;&gt; I didn&#39;t help your mother because I knew</p>
+<p begin="00:15:24.101" end="00:15:31.101" style="s2">she was important.</p>
+<p begin="00:15:26.401" end="00:15:31.101" style="s2">And that is precisely why I am grateful.</p>
+<p begin="00:15:32.501" end="00:15:37.601" style="s2">&gt;&gt; You have lost your job because of this.</p>
+<p begin="00:15:35.301" end="00:15:39.101" style="s2">&gt;&gt; Victoria said I [music] was fired.</p>
+<p begin="00:15:37.601" end="00:15:42.801" style="s2">&gt;&gt; Victoria does not have the authority to</p>
+<p begin="00:15:39.101" end="00:15:42.801" style="s2">decide your future here on her own.</p>
+<p begin="00:15:43.601" end="00:15:47.701" style="s2">You will not be punished for defending</p>
+<p begin="00:15:45.301" end="00:15:49.501" style="s2">my mother.</p>
+<p begin="00:15:47.701" end="00:15:51.901" style="s2">&gt;&gt; I don&#39;t want you to feel obligated to</p>
+<p begin="00:15:49.501" end="00:15:54.501" style="s2">give me anything.</p>
+<p begin="00:15:51.901" end="00:15:54.501" style="s2">&gt;&gt; I don&#39;t.</p>
+<p begin="00:15:59.001" end="00:16:02.101" style="s2">I am offering you a choice.</p>
+<p begin="00:16:01.001" end="00:16:04.101" style="s2">You can continue working at the</p>
+<p begin="00:16:02.101" end="00:16:05.601" style="s2">residence if you want to. Either way,</p>
+<p begin="00:16:04.101" end="00:16:08.401" style="s2">you will receive payment for the work</p>
+<p begin="00:16:05.601" end="00:16:10.501" style="s2">you were scheduled to do today.</p>
+<p begin="00:16:08.401" end="00:16:12.001" style="s2">&gt;&gt; Thank you, sir.</p>
+<p begin="00:16:10.501" end="00:16:13.501" style="s2">&gt;&gt; And the slap?</p>
+<p begin="00:16:12.001" end="00:16:15.301" style="s2">If you wish to make a formal complaint</p>
+<p begin="00:16:13.501" end="00:16:17.201" style="s2">about what happened, we can arrange for</p>
+<p begin="00:16:15.301" end="00:16:18.902" style="s2">the incident to be documented [music]</p>
+<p begin="00:16:17.201" end="00:16:21.902" style="s2">and provide the security footage to the</p>
+<p begin="00:16:18.902" end="00:16:21.902" style="s2">appropriate authorities.</p>
+<p begin="00:16:23.902" end="00:16:29.802" style="s2">&gt;&gt; I need some time [music] to think.</p>
+<p begin="00:16:27.202" end="00:16:29.802" style="s2">&gt;&gt; Of course.</p>
+<p begin="00:16:32.502" end="00:16:35.502" style="s2">&gt;&gt; You were brave today.</p>
+<p begin="00:16:36.002" end="00:16:41.602" style="s2">&gt;&gt; I was [music] frightened.</p>
+<p begin="00:16:38.602" end="00:16:43.802" style="s2">&gt;&gt; Bravery does not mean you feel no fear.</p>
+<p begin="00:16:41.602" end="00:16:46.702" style="s2">It means fear does not get to make every</p>
+<p begin="00:16:43.802" end="00:16:46.702" style="s2">decision for you.</p>
+<p begin="00:17:11.102" end="00:17:14.602" style="s2">&gt;&gt; Victoria, [music] we need to leave.</p>
+<p begin="00:17:15.002" end="00:17:20.902" style="s2">&gt;&gt; I am not leaving.</p>
+<p begin="00:17:18.002" end="00:17:23.802" style="s2">&gt;&gt; Everyone [music] is staring at you.</p>
+<p begin="00:17:20.902" end="00:17:23.802" style="s2">Let them stare.</p>
+<p begin="00:17:25.002" end="00:17:31.402" style="s2">&gt;&gt; Jason [music] has ended the engagement.</p>
+<p begin="00:17:28.602" end="00:17:31.402" style="s2">&gt;&gt; I heard him.</p>
+<p begin="00:17:34.602" end="00:17:37.902" style="s2">What happened was terrible.</p>
+<p begin="00:17:38.302" end="00:17:41.702" style="s2">&gt;&gt; You&#39;re [music] supposed to be my friend.</p>
+<p begin="00:17:40.202" end="00:17:44.502" style="s2">&gt;&gt; That&#39;s why I&#39;m telling you to stop</p>
+<p begin="00:17:41.702" end="00:17:46.352" style="s2">before you make things worse.</p>
+<p begin="00:17:44.502" end="00:17:48.402" style="s2">&gt;&gt; She walked in wearing that dress and</p>
+<p begin="00:17:46.352" end="00:17:50.102" style="s2">[music] expected me to believe she was</p>
+<p begin="00:17:48.402" end="00:17:52.502" style="s2">Jason&#39;s mother.</p>
+<p begin="00:17:50.102" end="00:17:54.502" style="s2">&gt;&gt; Then you should have called Jason.</p>
+<p begin="00:17:52.502" end="00:17:56.102" style="s2">&gt;&gt; You too?</p>
+<p begin="00:17:54.502" end="00:17:57.302" style="s2">Victoria.</p>
+<p begin="00:17:56.102" end="00:18:00.702" style="s2">&gt;&gt; No.</p>
+<p begin="00:17:57.302" end="00:18:00.702" style="s2">Don&#39;t pretend you understand.</p>
+<p begin="00:18:04.602" end="00:18:07.402" style="s2">Do you know how long I&#39;ve worked to</p>
+<p begin="00:18:06.002" end="00:18:10.102" style="s2">build the life I have? The [music]</p>
+<p begin="00:18:07.402" end="00:18:12.102" style="s2">connections, the respect.</p>
+<p begin="00:18:10.102" end="00:18:15.502" style="s2">Respect is not something you can demand</p>
+<p begin="00:18:12.102" end="00:18:15.502" style="s2">from people you humiliate.</p>
+<p begin="00:18:17.102" end="00:18:21.603" style="s2">You had a chance to [music] stop.</p>
+<p begin="00:18:19.002" end="00:18:21.603" style="s2">You didn&#39;t.</p>
+<p begin="00:18:24.603" end="00:18:29.103" style="s2">He chose that girl over me.</p>
+<p begin="00:18:27.503" end="00:18:31.303" style="s2">He chose not to [music] marry someone</p>
+<p begin="00:18:29.103" end="00:18:34.403" style="s2">who slapped his mother.</p>
+<p begin="00:18:31.303" end="00:18:34.403" style="s2">Camila is nobody.</p>
+<p begin="00:18:37.403" end="00:18:41.303" style="s2">Then why are you so afraid of her?</p>
+<p begin="00:18:47.603" end="00:18:50.303" style="s2">I&#39;m going home.</p>
+<p begin="00:18:50.803" end="00:18:54.103" style="s2">&gt;&gt; Fine.</p>
+<p begin="00:18:51.803" end="00:18:54.103" style="s2">Go.</p>
+<p begin="00:19:13.203" end="00:19:16.203" style="s2">&gt;&gt; This is not over.</p>
+<p begin="00:19:35.803" end="00:19:39.203" style="s2">&gt;&gt; Madam,</p>
+<p begin="00:19:36.903" end="00:19:42.103" style="s2">thank God you have returned safely.</p>
+<p begin="00:19:39.203" end="00:19:43.803" style="s2">&gt;&gt; Thank you, Mr. Okafor.</p>
+<p begin="00:19:42.103" end="00:19:46.203" style="s2">&gt;&gt; We were worried when we heard about the</p>
+<p begin="00:19:43.803" end="00:19:46.203" style="s2">car.</p>
+<p begin="00:19:50.903" end="00:19:56.403" style="s2">Please bring her some tea.</p>
+<p begin="00:19:53.603" end="00:19:56.403" style="s2">&gt;&gt; Immediately, sir.</p>
+<p begin="00:19:59.403" end="00:20:02.703" style="s2">&gt;&gt; Let me free my legs.</p>
+<p begin="00:20:09.603" end="00:20:13.403" style="s2">&gt;&gt; Mom, come to think of it, whose dress</p>
+<p begin="00:20:11.763" end="00:20:16.903" style="s2">[music] is that?</p>
+<p begin="00:20:13.403" end="00:20:19.103" style="s2">&gt;&gt; Camila&#39;s family lent it to me.</p>
+<p begin="00:20:16.903" end="00:20:21.903" style="s2">&gt;&gt; She gave you her clothes?</p>
+<p begin="00:20:19.103" end="00:20:24.303" style="s2">&gt;&gt; Yes. [music] She made tea, fed me, and</p>
+<p begin="00:20:21.903" end="00:20:24.405" style="s2">helped me arrange transport.</p>
+<p begin="00:20:24.303" end="00:20:26.105" style="s2">&gt;&gt; And</p>
+<p begin="00:20:24.405" end="00:20:29.205" style="s2">&gt;&gt; I was standing in a room full of people</p>
+<p begin="00:20:26.105" end="00:20:31.705" style="s2">who couldn&#39;t even listen to you.</p>
+<p begin="00:20:29.205" end="00:20:32.905" style="s2">&gt;&gt; Not everyone in that room was cruel.</p>
+<p begin="00:20:31.705" end="00:20:35.405" style="s2">Some were [music] simply afraid to</p>
+<p begin="00:20:32.905" end="00:20:36.805" style="s2">disagree with the wrong person.</p>
+<p begin="00:20:35.405" end="00:20:37.905" style="s2">&gt;&gt; That is not much better.</p>
+<p begin="00:20:36.805" end="00:20:40.505" style="s2">&gt;&gt; No.</p>
+<p begin="00:20:37.905" end="00:20:40.505" style="s2">It isn&#39;t.</p>
+<p begin="00:20:55.505" end="00:20:59.805" style="s2">&gt;&gt; Is that the gift you brought?</p>
+<p begin="00:20:57.805" end="00:21:03.005" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:20:59.805" end="00:21:05.705" style="s2">&gt;&gt; Victoria [music] never saw it properly.</p>
+<p begin="00:21:03.005" end="00:21:08.105" style="s2">&gt;&gt; She saw it. She simply decided it must</p>
+<p begin="00:21:05.705" end="00:21:10.305" style="s2">have been stolen.</p>
+<p begin="00:21:08.105" end="00:21:11.505" style="s2">&gt;&gt; I am sorry.</p>
+<p begin="00:21:10.305" end="00:21:14.905" style="s2">&gt;&gt; You keep apologizing [music]</p>
+<p begin="00:21:11.505" end="00:21:17.974" style="s2">for something you did not do.</p>
+<p begin="00:21:14.905" end="00:21:17.974" style="s2">&gt;&gt; I brought her into our family. [music]</p>
+<p begin="00:21:18.005" end="00:21:22.305" style="s2">&gt;&gt; You loved the woman you believed she</p>
+<p begin="00:21:19.905" end="00:21:24.305" style="s2">was.</p>
+<p begin="00:21:22.305" end="00:21:25.779" style="s2">&gt;&gt; Did I?</p>
+<p begin="00:21:24.305" end="00:21:27.505" style="s2">&gt;&gt; That is a question you must answer</p>
+<p begin="00:21:25.779" end="00:21:29.305" style="s2">[music] for yourself.</p>
+<p begin="00:21:27.505" end="00:21:31.405" style="s2">&gt;&gt; I thought she was ambitious.</p>
+<p begin="00:21:29.305" end="00:21:34.405" style="s2">I thought she cared about success.</p>
+<p begin="00:21:31.405" end="00:21:36.505" style="s2">&gt;&gt; Ambition [music] is not a bad thing.</p>
+<p begin="00:21:34.405" end="00:21:38.705" style="s2">&gt;&gt; I know.</p>
+<p begin="00:21:36.505" end="00:21:40.505" style="s2">&gt;&gt; The question is what a person is willing</p>
+<p begin="00:21:38.705" end="00:21:43.305" style="s2">to sacrifice</p>
+<p begin="00:21:40.505" end="00:21:43.305" style="s2">to achieve it.</p>
+<p begin="00:21:43.705" end="00:21:47.505" style="s2">Some people [music] sacrifice comfort,</p>
+<p begin="00:21:45.705" end="00:21:49.505" style="s2">some sacrifice time,</p>
+<p begin="00:21:47.505" end="00:21:51.205" style="s2">some sacrifice their pride.</p>
+<p begin="00:21:49.505" end="00:21:52.905" style="s2">But when someone is willing to sacrifice</p>
+<p begin="00:21:51.205" end="00:21:55.505" style="s2">another person&#39;s dignity, you must pay</p>
+<p begin="00:21:52.905" end="00:21:55.505" style="s2">attention.</p>
+<p begin="00:21:57.105" end="00:21:59.905" style="s2">&gt;&gt; I should have seen it.</p>
+<p begin="00:22:04.805" end="00:22:09.405" style="s2">&gt;&gt; Perhaps you saw pieces of it and</p>
+<p begin="00:22:07.205" end="00:22:11.105" style="s2">explained them away</p>
+<p begin="00:22:09.405" end="00:22:13.505" style="s2">because you wanted the relationship to</p>
+<p begin="00:22:11.105" end="00:22:13.505" style="s2">work.</p>
+<p begin="00:22:15.105" end="00:22:20.205" style="s2">That is human.</p>
+<p begin="00:22:17.505" end="00:22:20.205" style="s2">But now you know.</p>
+<p begin="00:22:24.805" end="00:22:28.606" style="s2">&gt;&gt; Whoever marries into this family should</p>
+<p begin="00:22:26.506" end="00:22:30.906" style="s2">understand what this necklace means.</p>
+<p begin="00:22:28.606" end="00:22:30.906" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:22:34.306" end="00:22:38.906" style="s2">&gt;&gt; Mom, there is something else.</p>
+<p begin="00:22:37.406" end="00:22:40.306" style="s2">&gt;&gt; What is it?</p>
+<p begin="00:22:38.906" end="00:22:42.006" style="s2">&gt;&gt; Carmela lost her interest [music] to</p>
+<p begin="00:22:40.306" end="00:22:44.206" style="s2">work here</p>
+<p begin="00:22:42.006" end="00:22:46.806" style="s2">because she defended you.</p>
+<p begin="00:22:44.206" end="00:22:48.106" style="s2">&gt;&gt; She did not lose her dignity.</p>
+<p begin="00:22:46.806" end="00:22:49.806" style="s2">&gt;&gt; I know.</p>
+<p begin="00:22:48.106" end="00:22:53.306" style="s2">But I want to make sure she isn&#39;t left</p>
+<p begin="00:22:49.806" end="00:22:53.306" style="s2">struggling because of what happened.</p>
+<p begin="00:22:54.206" end="00:22:58.306" style="s2">&gt;&gt; Then help her in a way that respects</p>
+<p begin="00:22:56.170" end="00:22:59.706" style="s2">[music] her independence.</p>
+<p begin="00:22:58.306" end="00:23:02.206" style="s2">&gt;&gt; What do you mean?</p>
+<p begin="00:22:59.706" end="00:23:04.006" style="s2">&gt;&gt; Do not turn her kindness into a debt she</p>
+<p begin="00:23:02.206" end="00:23:05.606" style="s2">must repay.</p>
+<p begin="00:23:04.006" end="00:23:06.806" style="s2">She helped me because she believed it</p>
+<p begin="00:23:05.606" end="00:23:09.106" style="s2">was right.</p>
+<p begin="00:23:06.806" end="00:23:11.706" style="s2">If you offer her anything, make sure she</p>
+<p begin="00:23:09.106" end="00:23:14.306" style="s2">is [music] free to refuse it.</p>
+<p begin="00:23:11.706" end="00:23:17.506" style="s2">&gt;&gt; I understand.</p>
+<p begin="00:23:14.306" end="00:23:20.106" style="s2">&gt;&gt; Good. You are still learning.</p>
+<p begin="00:23:17.506" end="00:23:20.106" style="s2">&gt;&gt; Apparently.</p>
+<p begin="00:23:23.206" end="00:23:26.906" style="s2">&gt;&gt; And Jason?</p>
+<p begin="00:23:25.106" end="00:23:28.906" style="s2">&gt;&gt; Yes?</p>
+<p begin="00:23:26.906" end="00:23:33.306" style="s2">&gt;&gt; Do not choose your [music] next wife</p>
+<p begin="00:23:28.906" end="00:23:33.306" style="s2">because she is the opposite of Victoria.</p>
+<p begin="00:23:36.106" end="00:23:40.206" style="s2">Choose her because you know who she is.</p>
+<p begin="00:23:53.811" end="00:23:55.831" style="s2">&gt;&gt; [music]</p>
+<p begin="00:23:59.706" end="00:24:01.726" style="s2">[music]</p>
+<p begin="00:24:09.606" end="00:24:14.206" style="s2">&gt;&gt; Before we discuss the pending contracts,</p>
+<p begin="00:24:14.606" end="00:24:18.606" style="s2">I want to address last night&#39;s incident.</p>
+<p begin="00:24:22.606" end="00:24:30.007" style="s2">Jason, I understand you&#39;re upset.</p>
+<p begin="00:24:26.406" end="00:24:30.007" style="s2">This is not about my emotions.</p>
+<p begin="00:24:31.707" end="00:24:34.807" style="s2">It is about judgment.</p>
+<p begin="00:24:38.507" end="00:24:42.107" style="s2">Several senior business leaders attended</p>
+<p begin="00:24:40.207" end="00:24:45.607" style="s2">a private event. A woman arrived and</p>
+<p begin="00:24:42.107" end="00:24:45.607" style="s2">identified herself as my mother.</p>
+<p begin="00:24:45.707" end="00:24:50.707" style="s2">Rather than verify her identity,</p>
+<p begin="00:24:48.607" end="00:24:53.507" style="s2">those present made assumptions based on</p>
+<p begin="00:24:50.707" end="00:24:56.408" style="s2">her appearance.</p>
+<p begin="00:24:53.507" end="00:24:56.408" style="s2">You were among them.</p>
+<p begin="00:24:57.007" end="00:25:00.107" style="s2">&gt;&gt; I acknowledge that.</p>
+<p begin="00:25:01.307" end="00:25:04.307" style="s2">&gt;&gt; You also have a leadership position in</p>
+<p begin="00:25:02.908" end="00:25:06.207" style="s2">this company.</p>
+<p begin="00:25:04.307" end="00:25:09.707" style="s2">Your decisions affect employees,</p>
+<p begin="00:25:06.207" end="00:25:11.307" style="s2">shareholders, suppliers, and partners.</p>
+<p begin="00:25:09.707" end="00:25:15.107" style="s2">&gt;&gt; I understand.</p>
+<p begin="00:25:11.307" end="00:25:15.107" style="s2">&gt;&gt; Then you understand why this matters.</p>
+<p begin="00:25:21.807" end="00:25:25.507" style="s2">We have received preliminary reports</p>
+<p begin="00:25:23.507" end="00:25:28.007" style="s2">concerning the incident.</p>
+<p begin="00:25:25.507" end="00:25:29.507" style="s2">Venue security footage is available, and</p>
+<p begin="00:25:28.007" end="00:25:31.307" style="s2">statements from witnesses are being</p>
+<p begin="00:25:29.507" end="00:25:34.307" style="s2">collected.</p>
+<p begin="00:25:31.307" end="00:25:36.007" style="s2">&gt;&gt; Good. Preserve everything.</p>
+<p begin="00:25:34.307" end="00:25:37.707" style="s2">&gt;&gt; We will.</p>
+<p begin="00:25:36.007" end="00:25:39.307" style="s2">&gt;&gt; I also want a review of the outstanding</p>
+<p begin="00:25:37.707" end="00:25:42.707" style="s2">proposals involving the companies</p>
+<p begin="00:25:39.307" end="00:25:42.707" style="s2">represented at that event.</p>
+<p begin="00:25:44.307" end="00:25:49.707" style="s2">&gt;&gt; Are you suggesting we cancel existing</p>
+<p begin="00:25:46.207" end="00:25:52.107" style="s2">contracts because of a personal dispute?</p>
+<p begin="00:25:49.707" end="00:25:52.107" style="s2">&gt;&gt; No.</p>
+<p begin="00:25:52.507" end="00:25:59.408" style="s2">I am instructing the team to review them</p>
+<p begin="00:25:55.507" end="00:25:59.408" style="s2">according to our normal procedures.</p>
+<p begin="00:26:01.007" end="00:26:06.707" style="s2">We will examine performance, compliance,</p>
+<p begin="00:26:04.007" end="00:26:07.908" style="s2">conflicts of interest, due diligence,</p>
+<p begin="00:26:06.707" end="00:26:09.607" style="s2">and whether the recommendations</p>
+<p begin="00:26:07.908" end="00:26:11.607" style="s2">supporting those proposals were properly</p>
+<p begin="00:26:09.607" end="00:26:14.408" style="s2">justified.</p>
+<p begin="00:26:11.607" end="00:26:14.408" style="s2">&gt;&gt; That can be done.</p>
+<p begin="00:26:14.607" end="00:26:18.307" style="s2">&gt;&gt; No company should lose a legitimate</p>
+<p begin="00:26:16.607" end="00:26:21.007" style="s2">opportunity</p>
+<p begin="00:26:18.307" end="00:26:23.307" style="s2">because I am angry.</p>
+<p begin="00:26:21.007" end="00:26:25.507" style="s2">Equally, no company should receive</p>
+<p begin="00:26:23.307" end="00:26:29.507" style="s2">preferential treatment because its</p>
+<p begin="00:26:25.507" end="00:26:31.707" style="s2">leader has access to influential people.</p>
+<p begin="00:26:29.507" end="00:26:32.509" style="s2">&gt;&gt; Understood.</p>
+<p begin="00:26:31.707" end="00:26:34.409" style="s2">&gt;&gt; If the contracts</p>
+<p begin="00:26:32.509" end="00:26:35.909" style="s2">&gt;&gt; are sound, they will stand on their</p>
+<p begin="00:26:34.409" end="00:26:37.309" style="s2">merits.</p>
+<p begin="00:26:35.909" end="00:26:40.809" style="s2">If they are not,</p>
+<p begin="00:26:37.309" end="00:26:40.809" style="s2">we will take the appropriate action.</p>
+<p begin="00:26:41.509" end="00:26:45.209" style="s2">Your role in the review will be limited</p>
+<p begin="00:26:43.609" end="00:26:46.909" style="s2">until the initial assessment is</p>
+<p begin="00:26:45.209" end="00:26:50.109" style="s2">complete.</p>
+<p begin="00:26:46.909" end="00:26:50.109" style="s2">&gt;&gt; You are suspending me.</p>
+<p begin="00:26:51.909" end="00:26:55.909" style="s2">&gt;&gt; I am placing you on administrative leave</p>
+<p begin="00:26:54.409" end="00:27:00.409" style="s2">from decisions connected to these</p>
+<p begin="00:26:55.909" end="00:27:00.409" style="s2">proposals while the review is conducted.</p>
+<p begin="00:27:01.309" end="00:27:07.509" style="s2">You will retain your contractual rights</p>
+<p begin="00:27:03.709" end="00:27:07.509" style="s2">and receive the formal terms from HR.</p>
+<p begin="00:27:08.509" end="00:27:13.409" style="s2">&gt;&gt; Jason, I have worked with you for years.</p>
+<p begin="00:27:11.709" end="00:27:15.709" style="s2">&gt;&gt; And that is why I expected better</p>
+<p begin="00:27:13.409" end="00:27:17.309" style="s2">judgment from you.</p>
+<p begin="00:27:15.709" end="00:27:20.809" style="s2">&gt;&gt; I made an error.</p>
+<p begin="00:27:17.309" end="00:27:20.809" style="s2">&gt;&gt; Then cooperate with the process.</p>
+<p begin="00:27:22.809" end="00:27:26.309" style="s2">Let this be clear.</p>
+<p begin="00:27:24.609" end="00:27:27.709" style="s2">We will not confuse influence with</p>
+<p begin="00:27:26.309" end="00:27:29.509" style="s2">integrity.</p>
+<p begin="00:27:27.709" end="00:27:31.909" style="s2">We will not confuse wealth with</p>
+<p begin="00:27:29.509" end="00:27:34.309" style="s2">character.</p>
+<p begin="00:27:31.909" end="00:27:36.209" style="s2">And we will not confuse loyalty</p>
+<p begin="00:27:34.309" end="00:27:38.809" style="s2">with the willingness to excuse</p>
+<p begin="00:27:36.209" end="00:27:38.809" style="s2">wrongdoing.</p>
+<p begin="00:27:39.109" end="00:27:41.609" style="s2">That is all.</p>
+<p begin="00:27:48.809" end="00:27:51.209" style="s2">&gt;&gt; Jason,</p>
+<p begin="00:27:51.709" end="00:27:55.009" style="s2">I am sorry about your mother.</p>
+<p begin="00:27:53.409" end="00:27:57.509" style="s2">&gt;&gt; Then start by being honest about what</p>
+<p begin="00:27:55.009" end="00:27:57.509" style="s2">you did.</p>
+<p begin="00:28:00.094" end="00:28:02.114" style="s2">&gt;&gt; [music]</p>
+<p begin="00:28:13.194" end="00:28:15.214" style="s2">[music]</p>
+<p begin="00:28:17.309" end="00:28:20.009" style="s2">&gt;&gt; Sir,</p>
+<p begin="00:28:18.309" end="00:28:21.709" style="s2">the Alexander group has requested</p>
+<p begin="00:28:20.009" end="00:28:23.909" style="s2">additional documentation for the</p>
+<p begin="00:28:21.709" end="00:28:26.709" style="s2">distribution contract.</p>
+<p begin="00:28:23.909" end="00:28:29.009" style="s2">&gt;&gt; What documentation?</p>
+<p begin="00:28:26.709" end="00:28:31.409" style="s2">&gt;&gt; Updated compliance records, revised</p>
+<p begin="00:28:29.009" end="00:28:33.210" style="s2">financial disclosures, and confirmation</p>
+<p begin="00:28:31.409" end="00:28:36.210" style="s2">of the subcontractors.</p>
+<p begin="00:28:33.210" end="00:28:36.210" style="s2">They already have those.</p>
+<p begin="00:28:37.010" end="00:28:40.310" style="s2">They want the current versions.</p>
+<p begin="00:28:44.410" end="00:28:50.510" style="s2">Who is handling the review?</p>
+<p begin="00:28:46.810" end="00:28:50.510" style="s2">The legal and procurement teams.</p>
+<p begin="00:28:50.910" end="00:28:54.110" style="s2">Has Adrian spoken to them?</p>
+<p begin="00:28:52.710" end="00:28:56.710" style="s2">He says the review is standard</p>
+<p begin="00:28:54.110" end="00:28:58.610" style="s2">procedure.</p>
+<p begin="00:28:56.710" end="00:29:00.410" style="s2">Standard procedure? This begins the</p>
+<p begin="00:28:58.610" end="00:29:03.010" style="s2">morning after Jason&#39;s engagement</p>
+<p begin="00:29:00.410" end="00:29:03.010" style="s2">disaster.</p>
+<p begin="00:29:07.410" end="00:29:11.710" style="s2">Call our legal advisor. I want to know</p>
+<p begin="00:29:09.310" end="00:29:13.910" style="s2">exactly what this means for us. Yes,</p>
+<p begin="00:29:11.710" end="00:29:13.910" style="s2">sir.</p>
+<p begin="00:29:43.585" end="00:29:45.605" style="s2">[music]</p>
+<p begin="00:29:57.810" end="00:30:04.010" style="s2">I want to be very clear.</p>
+<p begin="00:29:59.910" end="00:30:04.010" style="s2">We have done nothing wrong in business.</p>
+<p begin="00:30:04.410" end="00:30:08.210" style="s2">That is what the review will determine.</p>
+<p begin="00:30:08.410" end="00:30:13.110" style="s2">I am not discussing whether we can</p>
+<p begin="00:30:10.310" end="00:30:14.410" style="s2">provide the documents.</p>
+<p begin="00:30:13.110" end="00:30:16.310" style="s2">We can.</p>
+<p begin="00:30:14.410" end="00:30:18.110" style="s2">I am discussing why they suddenly want</p>
+<p begin="00:30:16.310" end="00:30:20.410" style="s2">them.</p>
+<p begin="00:30:18.110" end="00:30:23.810" style="s2">A formal review does not necessarily</p>
+<p begin="00:30:20.410" end="00:30:23.810" style="s2">imply wrongdoing.</p>
+<p begin="00:30:24.310" end="00:30:28.810" style="s2">And a public humiliation does not</p>
+<p begin="00:30:26.310" end="00:30:32.410" style="s2">necessarily imply that someone has the</p>
+<p begin="00:30:28.810" end="00:30:32.410" style="s2">power to destroy your company.</p>
+<p begin="00:30:33.710" end="00:30:38.312" style="s2">Then we should have nothing to fear if</p>
+<p begin="00:30:35.312" end="00:30:38.312" style="s2">the records are in order.</p>
+<p begin="00:30:43.212" end="00:30:47.812" style="s2">&gt;&gt; You have made your judgment.</p>
+<p begin="00:30:45.812" end="00:30:50.312" style="s2">I only hope you will be prepared to live</p>
+<p begin="00:30:47.812" end="00:30:50.312" style="s2">with it.</p>
+<p begin="00:30:55.012" end="00:30:58.712" style="s2">&gt;&gt; Find out who she really is.</p>
+<p begin="00:31:00.512" end="00:31:04.512" style="s2">The Alexander family&#39;s records are not</p>
+<p begin="00:31:02.412" end="00:31:06.312" style="s2">difficult to establish.</p>
+<p begin="00:31:04.512" end="00:31:07.812" style="s2">I am not asking for her biography. I</p>
+<p begin="00:31:06.312" end="00:31:10.412" style="s2">want to know why everyone treats her</p>
+<p begin="00:31:07.812" end="00:31:13.512" style="s2">recommendations as if they matter.</p>
+<p begin="00:31:10.412" end="00:31:13.512" style="s2">I will make inquiries.</p>
+<p begin="00:31:34.712" end="00:31:37.912" style="s2">&gt;&gt; You have barely eaten.</p>
+<p begin="00:31:40.712" end="00:31:45.312" style="s2">&gt;&gt; I&#39;m not very hungry.</p>
+<p begin="00:31:43.612" end="00:31:47.436" style="s2">&gt;&gt; That is what people say when they are</p>
+<p begin="00:31:45.312" end="00:31:47.436" style="s2">worried. [music]</p>
+<p begin="00:31:50.112" end="00:31:53.012" style="s2">What happened at [music] work?</p>
+<p begin="00:31:54.212" end="00:31:57.112" style="s2">&gt;&gt; I lost the job at the Alexander</p>
+<p begin="00:31:55.612" end="00:31:59.412" style="s2">Residence. [music]</p>
+<p begin="00:31:57.112" end="00:31:59.412" style="s2">&gt;&gt; What?</p>
+<p begin="00:31:59.912" end="00:32:02.912" style="s2">&gt;&gt; There was an incident at the engagement</p>
+<p begin="00:32:01.612" end="00:32:04.512" style="s2">celebration.</p>
+<p begin="00:32:02.912" end="00:32:06.212" style="s2">A woman [music] was being insulted and I</p>
+<p begin="00:32:04.512" end="00:32:09.912" style="s2">tried to help her.</p>
+<p begin="00:32:06.212" end="00:32:12.712" style="s2">&gt;&gt; And they fired you for helping someone?</p>
+<p begin="00:32:09.912" end="00:32:12.712" style="s2">&gt;&gt; Victoria did.</p>
+<p begin="00:32:13.212" end="00:32:16.712" style="s2">You should have stayed out [music] of</p>
+<p begin="00:32:14.412" end="00:32:16.712" style="s2">it.</p>
+<p begin="00:32:20.212" end="00:32:24.112" style="s2">&gt;&gt; I&#39;m not saying you [music] were wrong.</p>
+<p begin="00:32:22.212" end="00:32:27.112" style="s2">I&#39;m saying people with money can make</p>
+<p begin="00:32:24.112" end="00:32:29.712" style="s2">life difficult for people like us.</p>
+<p begin="00:32:27.112" end="00:32:29.712" style="s2">&gt;&gt; I know, [music] Mom.</p>
+<p begin="00:32:30.312" end="00:32:33.232" style="s2">&gt;&gt; Do you?</p>
+<p begin="00:32:31.912" end="00:32:35.012" style="s2">Your little jobs pay for groceries,</p>
+<p begin="00:32:33.232" end="00:32:36.512" style="s2">[music] transport, electricity, and</p>
+<p begin="00:32:35.012" end="00:32:38.012" style="s2">everything else.</p>
+<p begin="00:32:36.512" end="00:32:39.127" style="s2">You cannot afford to lose work because</p>
+<p begin="00:32:38.012" end="00:32:41.113" style="s2">you want to correct the whole world.</p>
+<p begin="00:32:39.127" end="00:32:45.013" style="s2">[music]</p>
+<p begin="00:32:41.113" end="00:32:45.013" style="s2">&gt;&gt; I wasn&#39; trying to correct the world.</p>
+<p begin="00:32:45.213" end="00:32:48.513" style="s2">&gt;&gt; Then what were [music] you trying to do?</p>
+<p begin="00:32:50.713" end="00:32:54.313" style="s2">I saw a woman who [music] had been kind</p>
+<p begin="00:32:52.413" end="00:32:56.813" style="s2">to me being slapped in front of a room</p>
+<p begin="00:32:54.313" end="00:32:57.913" style="s2">full of people.</p>
+<p begin="00:32:56.813" end="00:32:59.013" style="s2">I couldn&#39;t pretend [music] it was</p>
+<p begin="00:32:57.913" end="00:33:01.413" style="s2">normal.</p>
+<p begin="00:32:59.013" end="00:33:02.913" style="s2">I was frightened. When Victoria said I</p>
+<p begin="00:33:01.413" end="00:33:05.113" style="s2">was fired,</p>
+<p begin="00:33:02.913" end="00:33:06.513" style="s2">I thought about everything we need.</p>
+<p begin="00:33:05.113" end="00:33:09.613" style="s2">I thought about how long it would take</p>
+<p begin="00:33:06.513" end="00:33:09.613" style="s2">to [music] find another job.</p>
+<p begin="00:33:10.313" end="00:33:13.913" style="s2">But if I had walked away,</p>
+<p begin="00:33:12.513" end="00:33:15.813" style="s2">I would have gone home [music] knowing I</p>
+<p begin="00:33:13.913" end="00:33:19.513" style="s2">had abandoned someone</p>
+<p begin="00:33:15.813" end="00:33:19.513" style="s2">who helped me when she needed help.</p>
+<p begin="00:33:21.013" end="00:33:24.513" style="s2">You have your father&#39;s [music] stubborn</p>
+<p begin="00:33:22.513" end="00:33:27.213" style="s2">heart.</p>
+<p begin="00:33:24.513" end="00:33:30.218" style="s2">&gt;&gt; Is that a compliment?</p>
+<p begin="00:33:27.213" end="00:33:32.238" style="s2">&gt;&gt; It depends on the day.</p>
+<p begin="00:33:30.218" end="00:33:32.238" style="s2">[laughter]</p>
+<p begin="00:33:37.213" end="00:33:40.313" style="s2">I am [music] proud of you.</p>
+<p begin="00:33:44.313" end="00:33:46.513" style="s2">I am worried about our circumstances.</p>
+<p begin="00:33:45.938" end="00:33:48.413" style="s2">[music]</p>
+<p begin="00:33:46.513" end="00:33:50.113" style="s2">I am worried about money.</p>
+<p begin="00:33:48.413" end="00:33:53.113" style="s2">I am worried that people may punish you</p>
+<p begin="00:33:50.113" end="00:33:54.513" style="s2">for doing what is right.</p>
+<p begin="00:33:53.113" end="00:33:56.713" style="s2">But I do not want [music] you to become</p>
+<p begin="00:33:54.513" end="00:33:57.913" style="s2">a person who sees suffering and keeps</p>
+<p begin="00:33:56.713" end="00:33:59.713" style="s2">walking</p>
+<p begin="00:33:57.913" end="00:34:02.213" style="s2">simply because helping may cost</p>
+<p begin="00:33:59.713" end="00:34:02.213" style="s2">something.</p>
+<p begin="00:34:03.623" end="00:34:07.113" style="s2">[snorts]</p>
+<p begin="00:34:04.713" end="00:34:07.113" style="s2">Come here.</p>
+<p begin="00:34:12.793" end="00:34:16.713" style="s2">[music] We will find another way.</p>
+<p begin="00:34:15.313" end="00:34:18.513" style="s2">I wanted [snorts] to save more money for</p>
+<p begin="00:34:16.713" end="00:34:20.513" style="s2">the business.</p>
+<p begin="00:34:18.513" end="00:34:22.618" style="s2">&gt;&gt; Your dream is not dead because one door</p>
+<p begin="00:34:20.513" end="00:34:24.638" style="s2">has closed.</p>
+<p begin="00:34:22.618" end="00:34:24.638" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:35:09.014" end="00:35:12.014" style="s2">&gt;&gt; Unbelievable.</p>
+<p begin="00:35:21.114" end="00:35:26.014" style="s2">You should drink something.</p>
+<p begin="00:35:24.214" end="00:35:28.914" style="s2">I should have never allowed that woman</p>
+<p begin="00:35:26.014" end="00:35:28.914" style="s2">to speak to me.</p>
+<p begin="00:35:33.714" end="00:35:40.514" style="s2">Victoria, people are talking.</p>
+<p begin="00:35:37.314" end="00:35:43.614" style="s2">People always talk.</p>
+<p begin="00:35:40.514" end="00:35:43.614" style="s2">This is different.</p>
+<p begin="00:35:44.214" end="00:35:47.214" style="s2">What are you trying to say?</p>
+<p begin="00:35:47.714" end="00:35:52.714" style="s2">The event staff are saying there is</p>
+<p begin="00:35:49.314" end="00:35:52.714" style="s2">footage of what happened.</p>
+<p begin="00:35:55.214" end="00:35:58.014" style="s2">What footage?</p>
+<p begin="00:35:58.214" end="00:36:04.014" style="s2">The venue cameras, they captured the</p>
+<p begin="00:36:00.314" end="00:36:04.014" style="s2">entrance and part of the ballroom.</p>
+<p begin="00:36:07.614" end="00:36:10.414" style="s2">Who has seen it?</p>
+<p begin="00:36:10.514" end="00:36:13.114" style="s2">I don&#39;t know.</p>
+<p begin="00:36:13.314" end="00:36:17.314" style="s2">Find out.</p>
+<p begin="00:36:15.514" end="00:36:20.214" style="s2">Victoria,</p>
+<p begin="00:36:17.314" end="00:36:20.214" style="s2">find out.</p>
+<p begin="00:36:20.520" end="00:36:22.540" style="s2">[sighs and gasps]</p>
+<p begin="00:36:22.914" end="00:36:25.614" style="s2">I&#39;m sorry.</p>
+<p begin="00:36:28.914" end="00:36:32.214" style="s2">I need to know what they have.</p>
+<p begin="00:36:55.516" end="00:36:57.716" style="s2">&gt;&gt; Please leave your message after the</p>
+<p begin="00:36:56.716" end="00:37:02.316" style="s2">tone.</p>
+<p begin="00:36:57.716" end="00:37:02.316" style="s2">&gt;&gt; Jason, please call me. We need to talk.</p>
+<p begin="00:37:04.405" end="00:37:06.425" style="s2">[singing]</p>
+<p begin="00:37:14.230" end="00:37:16.250" style="s2">[music]</p>
+<p begin="00:37:16.516" end="00:37:22.116" style="s2">You cannot throw away everything we had</p>
+<p begin="00:37:18.816" end="00:37:22.116" style="s2">because of one night.</p>
+<p begin="00:37:24.055" end="00:37:26.075" style="s2">&gt;&gt; [music]</p>
+<p begin="00:37:29.950" end="00:37:31.970" style="s2">[music]</p>
+<p begin="00:37:48.946" end="00:37:50.966" style="s2">[music]</p>
+<p begin="00:38:11.216" end="00:38:13.236" style="s2">[music]</p>
+<p begin="00:38:15.146" end="00:38:17.166" style="s2">[singing]</p>
+<p begin="00:38:18.421" end="00:38:20.441" style="s2">[music]</p>
+<p begin="00:38:28.901" end="00:38:30.921" style="s2">[music and singing]</p>
+<p begin="00:38:33.486" end="00:38:35.506" style="s2">[music]</p>
+<p begin="00:38:44.417" end="00:38:47.017" style="s2">&gt;&gt; You told the truth but I still</p>
+<p begin="00:38:46.417" end="00:38:48.917" style="s2">do.</p>
+<p begin="00:38:47.017" end="00:38:51.917" style="s2">Maybe love was never lying.</p>
+<p begin="00:38:48.917" end="00:38:53.617" style="s2">&gt;&gt; Maybe we just couldn&#39;t [music] see.</p>
+<p begin="00:38:51.917" end="00:38:54.217" style="s2">&gt;&gt; What was hidden in the silence</p>
+<p begin="00:38:53.617" end="00:38:56.317" style="s2">between</p>
+<p begin="00:38:54.217" end="00:38:56.317" style="s2">you and me.</p>
+</div>
+</body>
+</tt>

@@ -133,6 +133,7 @@ def social_craft_premise(v: dict[str, str], target_minutes: float = 42) -> dict[
         "target_minutes": target_minutes,
         "release_format": "compressed_feature" if compressed else "mid_length_feature",
         "channel_contract": "social_test_melodrama",
+        "proof_chain": v["proof_chain"],
         "emotional_engine": {
             "wound": f"{name} is poor, displaced, and publicly treated as disposable while carrying grief for her parent's stolen craft legacy.",
             "want": "survive, protect family/work obligations, and clear her name",

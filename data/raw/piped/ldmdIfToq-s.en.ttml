@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:03.274" end="00:00:05.294" style="s2">[music]</p>
+<p begin="00:00:06.440" end="00:00:09.160" style="s2">&gt;&gt; You were crying.</p>
+<p begin="00:00:12.445" end="00:00:16.760" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:00:13.760" end="00:00:16.760" style="s2">&gt;&gt; Yes, your grace.</p>
+<p begin="00:00:19.480" end="00:00:21.880" style="s2">&gt;&gt; Why?</p>
+<p begin="00:00:28.640" end="00:00:34.400" style="s2">&gt;&gt; I thought I could [music] bear it</p>
+<p begin="00:00:31.440" end="00:00:34.400" style="s2">better than I did.</p>
+<p begin="00:00:39.200" end="00:00:42.480" style="s2">&gt;&gt; I thought we understood each other.</p>
+<p begin="00:00:46.400" end="00:00:49.080" style="s2">&gt;&gt; So did I.</p>
+<p begin="00:01:00.200" end="00:01:03.920" style="s2">&gt;&gt; I didn&#39;t want you to leave last night.</p>
+<p begin="00:01:07.040" end="00:01:09.520" style="s2">&gt;&gt; I know.</p>
+<p begin="00:01:11.760" end="00:01:15.960" style="s2">&gt;&gt; I never wanted this to [music] take</p>
+<p begin="00:01:13.000" end="00:01:15.960" style="s2">anything from us.</p>
+<p begin="00:01:27.320" end="00:01:31.200" style="s2">For you.</p>
+<p begin="00:01:28.640" end="00:01:31.200" style="s2">Perhaps.</p>
+<p begin="00:01:31.560" end="00:01:33.920" style="s2">In.</p>
+<p begin="00:01:58.920" end="00:02:02.760" style="s2">Excuse me,</p>
+<p begin="00:02:00.280" end="00:02:02.760" style="s2">Your Grace.</p>
+<p begin="00:02:26.440" end="00:02:31.440" style="s2">Mr. Eans&#39; recital, Your Grace. The</p>
+<p begin="00:02:28.520" end="00:02:33.240" style="s2">smaller hall is nearly full.</p>
+<p begin="00:02:31.440" end="00:02:35.959" style="s2">Reserve the larger hall.</p>
+<p begin="00:02:33.240" end="00:02:35.959" style="s2">Yes, Your Grace.</p>
+<p begin="00:02:42.040" end="00:02:46.200" style="s2">The third bar again, if you would.</p>
+<p begin="00:02:44.800" end="00:02:48.336" style="s2">Again?</p>
+<p begin="00:02:46.200" end="00:02:49.240" style="s2">Unless you prefer it wrong.</p>
+<p begin="00:02:48.336" end="00:02:51.360" style="s2">&gt;&gt; [laughter and snorts]</p>
+<p begin="00:02:49.240" end="00:02:52.880" style="s2">&gt;&gt; I was hoping you&#39;d call it distinctive.</p>
+<p begin="00:02:51.360" end="00:02:54.000" style="s2">I considered it.</p>
+<p begin="00:02:52.880" end="00:02:56.120" style="s2">And?</p>
+<p begin="00:02:54.000" end="00:02:57.280" style="s2">Wrong was more accurate.</p>
+<p begin="00:02:56.120" end="00:02:58.840" style="s2">You&#39;ve been reading the same line for</p>
+<p begin="00:02:57.280" end="00:03:00.840" style="s2">some time.</p>
+<p begin="00:02:58.840" end="00:03:02.092" style="s2">Perhaps I&#39;m being thorough.</p>
+<p begin="00:03:00.840" end="00:03:02.680" style="s2">Is it improving?</p>
+<p begin="00:03:02.092" end="00:03:04.800" style="s2">&gt;&gt; [music]</p>
+<p begin="00:03:02.680" end="00:03:08.120" style="s2">&gt;&gt; No.</p>
+<p begin="00:03:04.800" end="00:03:08.120" style="s2">Then we may blame the composer.</p>
+<p begin="00:03:11.640" end="00:03:14.519" style="s2">I&#39;m afraid I&#39;m rather poor company</p>
+<p begin="00:03:13.080" end="00:03:15.680" style="s2">today.</p>
+<p begin="00:03:14.519" end="00:03:17.440" style="s2">I hadn&#39;t realized I was meant to be</p>
+<p begin="00:03:15.680" end="00:03:19.880" style="s2">entertained.</p>
+<p begin="00:03:17.440" end="00:03:21.000" style="s2">You needn&#39;t be.</p>
+<p begin="00:03:19.880" end="00:03:22.280" style="s2">Come.</p>
+<p begin="00:03:21.000" end="00:03:24.800" style="s2">Tea asks less [music] of a man than</p>
+<p begin="00:03:22.280" end="00:03:24.800" style="s2">music.</p>
+<p begin="00:03:26.120" end="00:03:30.400" style="s2">I&#39;m rehearsing at Western Hall on</p>
+<p begin="00:03:27.720" end="00:03:30.400" style="s2">Tuesday.</p>
+<p begin="00:03:30.640" end="00:03:35.360" style="s2">Am I being informed</p>
+<p begin="00:03:32.600" end="00:03:35.360" style="s2">or invited?</p>
+<p begin="00:03:36.400" end="00:03:41.760" style="s2">Take it as you like.</p>
+<p begin="00:03:39.120" end="00:03:41.760" style="s2">Tuesday, then.</p>
+<p begin="00:04:00.480" end="00:04:03.120" style="s2">&gt;&gt; You&#39;re early.</p>
+<p begin="00:04:03.320" end="00:04:06.840" style="s2">&gt;&gt; I wanted to see whether you make</p>
+<p begin="00:04:04.480" end="00:04:08.160" style="s2">mistakes when no one is watching.</p>
+<p begin="00:04:06.840" end="00:04:11.040" style="s2">&gt;&gt; And?</p>
+<p begin="00:04:08.160" end="00:04:11.040" style="s2">&gt;&gt; I remain hopeful.</p>
+<p begin="00:04:41.080" end="00:04:44.760" style="s2">And?</p>
+<p begin="00:04:42.520" end="00:04:46.680" style="s2">I wasn&#39;t sure you wanted applause.</p>
+<p begin="00:04:44.760" end="00:04:48.360" style="s2">&gt;&gt; You usually aren&#39;t so cautious.</p>
+<p begin="00:04:46.680" end="00:04:50.640" style="s2">&gt;&gt; I&#39;m trying something new.</p>
+<p begin="00:04:48.360" end="00:04:53.080" style="s2">It wasn&#39;t meant for applause.</p>
+<p begin="00:04:50.640" end="00:04:53.080" style="s2">&gt;&gt; All right.</p>
+<p begin="00:04:55.408" end="00:04:57.680" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:04:56.560" end="00:05:00.080" style="s2">&gt;&gt; Is [music] there something I might do</p>
+<p begin="00:04:57.680" end="00:05:00.080" style="s2">for you?</p>
+<p begin="00:05:01.400" end="00:05:04.600" style="s2">&gt;&gt; Why?</p>
+<p begin="00:05:03.200" end="00:05:06.960" style="s2">&gt;&gt; You haven&#39;t seemed quite yourself of</p>
+<p begin="00:05:04.600" end="00:05:06.960" style="s2">late.</p>
+<p begin="00:05:08.800" end="00:05:12.320" style="s2">&gt;&gt; Have I been so obvious?</p>
+<p begin="00:05:10.360" end="00:05:13.840" style="s2">&gt;&gt; Not especially.</p>
+<p begin="00:05:12.320" end="00:05:15.400" style="s2">I simply make a habit of noticing</p>
+<p begin="00:05:13.840" end="00:05:17.360" style="s2">things.</p>
+<p begin="00:05:15.400" end="00:05:20.320" style="s2">&gt;&gt; You are so strange.</p>
+<p begin="00:05:17.360" end="00:05:20.320" style="s2">&gt;&gt; So I&#39;ve been told.</p>
+<p begin="00:05:20.760" end="00:05:24.880" style="s2">&gt;&gt; Which seat is mine?</p>
+<p begin="00:05:23.640" end="00:05:27.503" style="s2">&gt;&gt; Third row.</p>
+<p begin="00:05:24.880" end="00:05:27.640" style="s2">On the right, near the aisle.</p>
+<p begin="00:05:27.503" end="00:05:29.400" style="s2">&gt;&gt; [music]</p>
+<p begin="00:05:27.640" end="00:05:31.800" style="s2">&gt;&gt; Good.</p>
+<p begin="00:05:29.400" end="00:05:31.800" style="s2">&gt;&gt; Good?</p>
+<p begin="00:05:33.160" end="00:05:36.040" style="s2">&gt;&gt; You&#39;ll know where I am.</p>
+<p begin="00:05:48.320" end="00:05:51.920" style="s2">&gt;&gt; Stop talking downstairs. It&#39;s creepy.</p>
+<p begin="00:05:50.600" end="00:05:54.280" style="s2">&gt;&gt; Your grace.</p>
+<p begin="00:05:51.920" end="00:05:54.280" style="s2">Please.</p>
+<p begin="00:06:01.564" end="00:06:03.584" style="s2">&gt;&gt; [music]</p>
+<p begin="00:06:05.280" end="00:06:07.760" style="s2">&gt;&gt; May I</p>
+<p begin="00:06:08.240" end="00:06:10.640" style="s2">come in?</p>
+<p begin="00:06:13.640" end="00:06:16.520" style="s2">I brought you something.</p>
+<p begin="00:06:16.680" end="00:06:20.240" style="s2">Flowers.</p>
+<p begin="00:06:18.160" end="00:06:21.880" style="s2">Before the performance.</p>
+<p begin="00:06:20.240" end="00:06:23.120" style="s2">Only a few.</p>
+<p begin="00:06:21.880" end="00:06:25.919" style="s2">Anything larger would require an</p>
+<p begin="00:06:23.120" end="00:06:25.919" style="s2">announcement.</p>
+<p begin="00:06:26.360" end="00:06:29.080" style="s2">You shouldn&#39;t have.</p>
+<p begin="00:06:29.400" end="00:06:33.520" style="s2">I know.</p>
+<p begin="00:06:31.520" end="00:06:36.200" style="s2">Then why did you?</p>
+<p begin="00:06:33.520" end="00:06:36.200" style="s2">I wanted to.</p>
+<p begin="00:06:40.000" end="00:06:44.200" style="s2">Thank you.</p>
+<p begin="00:06:42.360" end="00:06:45.760" style="s2">&gt;&gt; 13 minutes, Mr. Ian.</p>
+<p begin="00:06:44.200" end="00:06:48.560" style="s2">&gt;&gt; I should let you prepare.</p>
+<p begin="00:06:45.760" end="00:06:48.560" style="s2">&gt;&gt; You can stay.</p>
+<p begin="00:06:49.919" end="00:06:52.400" style="s2">&gt;&gt; All right.</p>
+<p begin="00:06:55.680" end="00:06:58.880" style="s2">Say something.</p>
+<p begin="00:06:57.280" end="00:07:01.400" style="s2">&gt;&gt; About what?</p>
+<p begin="00:06:58.880" end="00:07:01.400" style="s2">&gt;&gt; Anything.</p>
+<p begin="00:07:04.480" end="00:07:08.640" style="s2">That painting is dreadful.</p>
+<p begin="00:07:07.280" end="00:07:11.400" style="s2">&gt;&gt; That&#39;s what you chose?</p>
+<p begin="00:07:08.640" end="00:07:11.400" style="s2">&gt;&gt; You said anything.</p>
+<p begin="00:07:12.120" end="00:07:14.800" style="s2">You&#39;re impossible.</p>
+<p begin="00:07:13.440" end="00:07:15.960" style="s2">I could discuss the curtains.</p>
+<p begin="00:07:14.800" end="00:07:18.560" style="s2">&gt;&gt; Please don&#39;t.</p>
+<p begin="00:07:15.960" end="00:07:18.560" style="s2">&gt;&gt; Sensible.</p>
+<p begin="00:07:33.920" end="00:07:35.940" style="s2">&gt;&gt; [applause]</p>
+<p begin="00:07:50.950" end="00:07:52.970" style="s2">[music]</p>
+<p begin="00:08:00.960" end="00:08:04.560" style="s2">&gt;&gt; Julius.</p>
+<p begin="00:08:02.160" end="00:08:04.560" style="s2">Again?</p>
+<p begin="00:08:05.560" end="00:08:10.000" style="s2">Yes, mother.</p>
+<p begin="00:08:07.980" end="00:08:10.000" style="s2">&gt;&gt; [music]</p>
+</div>
+</body>
+</tt>

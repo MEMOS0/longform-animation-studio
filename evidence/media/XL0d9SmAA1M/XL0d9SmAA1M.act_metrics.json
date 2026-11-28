@@ -1,0 +1,114 @@
+[
+  {
+    "segment": "hook_mistaken_marriage",
+    "minutes": [
+      0,
+      7
+    ],
+    "mean_words_per_minute": 131.3,
+    "shot_boundaries": 19,
+    "mean_motion": 0.17,
+    "mean_brightness": 0.342,
+    "mean_audio_rms": 0.085,
+    "mean_onsets_per_second": 3.63,
+    "mean_silence_ratio": 0.428
+  },
+  {
+    "segment": "friendship_secret_luxury",
+    "minutes": [
+      7,
+      20
+    ],
+    "mean_words_per_minute": 172.6,
+    "shot_boundaries": 29,
+    "mean_motion": 0.151,
+    "mean_brightness": 0.39,
+    "mean_audio_rms": 0.07,
+    "mean_onsets_per_second": 4.29,
+    "mean_silence_ratio": 0.367
+  },
+  {
+    "segment": "party_reversal_moveout",
+    "minutes": [
+      20,
+      28
+    ],
+    "mean_words_per_minute": 161.9,
+    "shot_boundaries": 23,
+    "mean_motion": 0.14,
+    "mean_brightness": 0.244,
+    "mean_audio_rms": 0.095,
+    "mean_onsets_per_second": 4.09,
+    "mean_silence_ratio": 0.363
+  },
+  {
+    "segment": "boutique_power_display",
+    "minutes": [
+      28,
+      34
+    ],
+    "mean_words_per_minute": 166.2,
+    "shot_boundaries": 15,
+    "mean_motion": 0.179,
+    "mean_brightness": 0.374,
+    "mean_audio_rms": 0.082,
+    "mean_onsets_per_second": 4.14,
+    "mean_silence_ratio": 0.388
+  },
+  {
+    "segment": "campus_humiliation_godfather_reveal",
+    "minutes": [
+      34,
+      45
+    ],
+    "mean_words_per_minute": 168.1,
+    "shot_boundaries": 11,
+    "mean_motion": 0.159,
+    "mean_brightness": 0.325,
+    "mean_audio_rms": 0.091,
+    "mean_onsets_per_second": 4.45,
+    "mean_silence_ratio": 0.31
+  },
+  {
+    "segment": "matchmaking_hockey_jealousy",
+    "minutes": [
+      45,
+      53
+    ],
+    "mean_words_per_minute": 190.5,
+    "shot_boundaries": 13,
+    "mean_motion": 0.124,
+    "mean_brightness": 0.331,
+    "mean_audio_rms": 0.073,
+    "mean_onsets_per_second": 4.57,
+    "mean_silence_ratio": 0.332
+  },
+  {
+    "segment": "truth_break_family_recognition",
+    "minutes": [
+      53,
+      60
+    ],
+    "mean_words_per_minute": 172.9,
+    "shot_boundaries": 8,
+    "mean_motion": 0.129,
+    "mean_brightness": 0.294,
+    "mean_audio_rms": 0.049,
+    "mean_onsets_per_second": 4.63,
+    "mean_silence_ratio": 0.336
+  },
+  {
+    "segment": "domestic_irony_final_reveal",
+    "minutes": [
+      60,
+      67.2
+    ],
+    "mean_words_per_minute": 166.5,
+    "shot_boundaries": 3,
+    "mean_motion": 0.146,
+    "mean_brightness": 0.317,
+    "mean_audio_rms": 0.055,
+    "mean_onsets_per_second": 4.39,
+    "mean_silence_ratio": 0.361
+  }
+]

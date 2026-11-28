@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:05.500" end="00:00:09.400" style="s2">What the hell is this place?</p>
+<p begin="00:00:41.265" end="00:00:43.285" style="s2">[bell]</p>
+<p begin="00:00:53.100" end="00:00:55.500" style="s2">Where have they taken [music] you, my</p>
+<p begin="00:00:54.300" end="00:00:57.800" style="s2">child?</p>
+<p begin="00:00:55.500" end="00:01:01.000" style="s2">Hold on, little one.</p>
+<p begin="00:00:57.800" end="00:01:01.000" style="s2">Your father is coming.</p>
+<p begin="00:01:17.600" end="00:01:25.300" style="s2">What have you found, boy? My daughters.</p>
+<p begin="00:01:21.800" end="00:01:25.300" style="s2">So you passed through here.</p>
+<p begin="00:01:25.700" end="00:01:30.900" style="s2">You&#39;ve taken others.</p>
+<p begin="00:01:27.400" end="00:01:34.200" style="s2">Slavers. Take me to them, boy.</p>
+<p begin="00:01:30.900" end="00:01:34.200" style="s2">We&#39;re bringing them all home.</p>
+<p begin="00:01:44.700" end="00:01:49.400" style="s2">We have been riding for three days.</p>
+<p begin="00:01:47.300" end="00:01:51.500" style="s2">We need to rest, my boy.</p>
+<p begin="00:01:49.400" end="00:01:52.800" style="s2">You go bring some food</p>
+<p begin="00:01:51.500" end="00:01:55.200" style="s2">and I will look for a place to [music]</p>
+<p begin="00:01:52.800" end="00:01:55.200" style="s2">rest.</p>
+<p begin="00:01:55.600" end="00:02:00.892" style="s2">She used to ask me about the moon.</p>
+<p begin="00:01:59.300" end="00:02:03.141" style="s2">She thought it followed wherever she</p>
+<p begin="00:02:00.892" end="00:02:05.161" style="s2">went.</p>
+<p begin="00:02:03.141" end="00:02:05.161" style="s2">&gt;&gt; [music]</p>
+<p begin="00:02:22.392" end="00:02:28.292" style="s2">&gt;&gt; Yo, what&#39;s up?</p>
+<p begin="00:02:25.292" end="00:02:28.292" style="s2">Look behind you.</p>
+<p begin="00:02:38.692" end="00:02:41.592" style="s2">Chill, bro. We&#39;re just a little bit</p>
+<p begin="00:02:40.192" end="00:02:43.392" style="s2">faster than that thing.</p>
+<p begin="00:02:41.592" end="00:02:47.692" style="s2">&gt;&gt; WHO ARE YOU?</p>
+<p begin="00:02:43.392" end="00:02:47.692" style="s2">&gt;&gt; I am the owner of this hell hole.</p>
+<p begin="00:02:48.192" end="00:02:52.792" style="s2">&gt;&gt; You seen any slaver party pass through</p>
+<p begin="00:02:50.092" end="00:02:53.892" style="s2">here? Wagons, carts, prisoners,</p>
+<p begin="00:02:52.792" end="00:02:56.892" style="s2">anything?</p>
+<p begin="00:02:53.892" end="00:02:56.892" style="s2">&gt;&gt; Depends who&#39;s asking.</p>
+<p begin="00:02:57.292" end="00:03:02.292" style="s2">&gt;&gt; You know something?</p>
+<p begin="00:02:58.692" end="00:03:02.292" style="s2">&gt;&gt; Everybody knows something, bro.</p>
+<p begin="00:03:04.392" end="00:03:07.792" style="s2">&gt;&gt; It&#39;s been 10 [music] days since my</p>
+<p begin="00:03:05.692" end="00:03:10.692" style="s2">daughter disappeared.</p>
+<p begin="00:03:07.792" end="00:03:14.092" style="s2">I suspect a band of slavers took her.</p>
+<p begin="00:03:10.692" end="00:03:14.092" style="s2">Have you come across anyone like that?</p>
+<p begin="00:03:15.192" end="00:03:18.092" style="s2">&gt;&gt; [music]</p>
+<p begin="00:03:16.192" end="00:03:19.592" style="s2">&gt;&gt; Man, thieves, raiders, they&#39;re pretty</p>
+<p begin="00:03:18.092" end="00:03:21.792" style="s2">much part of the local wildlife around</p>
+<p begin="00:03:19.592" end="00:03:21.792" style="s2">here.</p>
+<p begin="00:03:22.292" end="00:03:25.592" style="s2">But now that you mention [music] it, I</p>
+<p begin="00:03:23.992" end="00:03:27.092" style="s2">did see a pretty big group of people in</p>
+<p begin="00:03:25.592" end="00:03:29.892" style="s2">chains last week.</p>
+<p begin="00:03:27.092" end="00:03:29.892" style="s2">Quite a crowd, bro.</p>
+<p begin="00:03:31.192" end="00:03:34.292" style="s2">Didn&#39;t look like they were having much</p>
+<p begin="00:03:32.492" end="00:03:36.992" style="s2">fun, man.</p>
+<p begin="00:03:34.292" end="00:03:36.992" style="s2">But who cares?</p>
+<p begin="00:03:42.792" end="00:03:46.092" style="s2">&gt;&gt; What do you mean who cares?</p>
+<p begin="00:03:50.892" end="00:03:55.592" style="s2">That thing is catching up.</p>
+<p begin="00:03:52.992" end="00:03:55.592" style="s2">I got to go.</p>
+<p begin="00:03:57.892" end="00:04:00.692" style="s2">&gt;&gt; TURN AROUND!</p>
+<p begin="00:04:27.898" end="00:04:29.918" style="s2">&gt;&gt; [music]</p>
+<p begin="00:04:32.394" end="00:04:36.794" style="s2">&gt;&gt; WELL, WELL, WELL.</p>
+<p begin="00:04:34.894" end="00:04:39.094" style="s2">YOU ACTUALLY killed it. I was coming to</p>
+<p begin="00:04:36.794" end="00:04:39.094" style="s2">help.</p>
+<p begin="00:04:41.194" end="00:04:43.994" style="s2">Believe it or not,</p>
+<p begin="00:04:44.394" end="00:04:48.694" style="s2">I once dated something like that for six</p>
+<p begin="00:04:46.194" end="00:04:48.694" style="s2">months.</p>
+<p begin="00:04:50.294" end="00:04:54.094" style="s2">&gt;&gt; I almost feel sorry for her.</p>
+<p begin="00:04:54.294" end="00:04:57.994" style="s2">&gt;&gt; Haha.</p>
+<p begin="00:04:56.494" end="00:05:00.594" style="s2">&gt;&gt; Can you tell me what you know about</p>
+<p begin="00:04:57.994" end="00:05:03.894" style="s2">those slavers?</p>
+<p begin="00:05:00.594" end="00:05:03.894" style="s2">They might have my daughter.</p>
+<p begin="00:05:04.494" end="00:05:07.194" style="s2">&gt;&gt; Listen, man.</p>
+<p begin="00:05:05.694" end="00:05:09.494" style="s2">I tell you what I know. You go running</p>
+<p begin="00:05:07.194" end="00:05:12.494" style="s2">after those guys, get yourself caught</p>
+<p begin="00:05:09.494" end="00:05:12.494" style="s2">and spill everything.</p>
+<p begin="00:05:13.394" end="00:05:17.294" style="s2">Then they&#39;ll come knocking on my door.</p>
+<p begin="00:05:15.494" end="00:05:18.694" style="s2">And trust me, big guy, I&#39;m not getting</p>
+<p begin="00:05:17.294" end="00:05:21.094" style="s2">dragged into your little family</p>
+<p begin="00:05:18.694" end="00:05:21.094" style="s2">adventure.</p>
+<p begin="00:05:25.094" end="00:05:31.794" style="s2">&gt;&gt; Sorry, but you don&#39;t have a choice here.</p>
+<p begin="00:05:28.294" end="00:05:31.794" style="s2">You will tell me everything.</p>
+<p begin="00:05:33.994" end="00:05:39.494" style="s2">&gt;&gt; All right, all right. I will tell you</p>
+<p begin="00:05:35.994" end="00:05:39.494" style="s2">everything. Chill, man.</p>
+<p begin="00:05:45.294" end="00:05:48.694" style="s2">&gt;&gt; Do not try to lie.</p>
+<p begin="00:05:48.994" end="00:05:52.494" style="s2">My beast can smell the lie.</p>
+<p begin="00:05:50.994" end="00:05:55.994" style="s2">&gt;&gt; You should not have put your hands on</p>
+<p begin="00:05:52.494" end="00:05:55.994" style="s2">me. I need some muscle.</p>
+<p begin="00:06:11.295" end="00:06:13.995" style="s2">&gt;&gt; Blackia.</p>
+<p begin="00:06:25.195" end="00:06:31.039" style="s2">No more tricks.</p>
+<p begin="00:06:27.895" end="00:06:32.795" style="s2">I want my answers now.</p>
+<p begin="00:06:31.039" end="00:06:34.195" style="s2">&gt;&gt; [cough]</p>
+<p begin="00:06:32.795" end="00:06:35.895" style="s2">&gt;&gt; All right, man. I&#39;ll tell you</p>
+<p begin="00:06:34.195" end="00:06:36.995" style="s2">everything.</p>
+<p begin="00:06:35.895" end="00:06:39.895" style="s2">Heck, I&#39;ll even take you [music]</p>
+<p begin="00:06:36.995" end="00:06:39.895" style="s2">straight to those guys.</p>
+<p begin="00:06:41.395" end="00:06:44.095" style="s2">But you got to promise me one thing,</p>
+<p begin="00:06:42.595" end="00:06:45.695" style="s2">Goma.</p>
+<p begin="00:06:44.095" end="00:06:47.195" style="s2">We&#39;re getting your daughter back, and</p>
+<p begin="00:06:45.695" end="00:06:48.595" style="s2">then we&#39;re taking down that whole slaver</p>
+<p begin="00:06:47.195" end="00:06:51.595" style="s2">crew.</p>
+<p begin="00:06:48.595" end="00:06:51.595" style="s2">Every last one of them.</p>
+<p begin="00:06:51.795" end="00:06:57.895" style="s2">Those guys took everything from me, man.</p>
+<p begin="00:06:55.195" end="00:06:57.895" style="s2">And their leader,</p>
+<p begin="00:06:58.595" end="00:07:02.295" style="s2">I want to see him go through what my</p>
+<p begin="00:07:00.095" end="00:07:04.095" style="s2">people went through.</p>
+<p begin="00:07:02.295" end="00:07:07.495" style="s2">Let&#39;s see how tough he is when he&#39;s the</p>
+<p begin="00:07:04.095" end="00:07:07.495" style="s2">one begging for his life.</p>
+<p begin="00:07:09.295" end="00:07:15.795" style="s2">&gt;&gt; You get [music] me to those bastards.</p>
+<p begin="00:07:12.395" end="00:07:15.795" style="s2">I&#39;ll take care of the rest.</p>
+<p begin="00:07:16.995" end="00:07:22.095" style="s2">Well then, it&#39;s settled.</p>
+<p begin="00:07:19.295" end="00:07:25.995" style="s2">Come on, ride with me on Blackia.</p>
+<p begin="00:07:22.095" end="00:07:25.995" style="s2">We&#39;ll get there a hell of a lot faster.</p>
+<p begin="00:07:29.990" end="00:07:32.010" style="s2">[panting]</p>
+<p begin="00:07:40.395" end="00:07:46.195" style="s2">So, what&#39;s the deal, boy?</p>
+<p begin="00:07:43.095" end="00:07:46.195" style="s2">What changed your mind?</p>
+<p begin="00:07:47.295" end="00:07:51.595" style="s2">&gt;&gt; It&#39;s personal, man.</p>
+<p begin="00:07:49.095" end="00:07:54.295" style="s2">Those guys blew up my ship,</p>
+<p begin="00:07:51.595" end="00:07:57.395" style="s2">destroyed my civilization,</p>
+<p begin="00:07:54.295" end="00:07:58.995" style="s2">and took my parents from me.</p>
+<p begin="00:07:57.395" end="00:08:01.795" style="s2">So yeah, I&#39;m going to punch those</p>
+<p begin="00:07:58.995" end="00:08:04.695" style="s2">bastards [music] into the next life.</p>
+<p begin="00:08:01.795" end="00:08:04.695" style="s2">It&#39;s about time.</p>
+<p begin="00:08:05.360" end="00:08:07.380" style="s2">[music]</p>
+<p begin="00:08:08.595" end="00:08:12.097" style="s2">We were approaching this planet for</p>
+<p begin="00:08:09.897" end="00:08:15.997" style="s2">landing</p>
+<p begin="00:08:12.097" end="00:08:15.997" style="s2">when these idiots fired a missile at us.</p>
+<p begin="00:08:17.597" end="00:08:21.697" style="s2">It fried our communication systems,</p>
+<p begin="00:08:19.697" end="00:08:23.297" style="s2">knocked out the controls,</p>
+<p begin="00:08:21.697" end="00:08:26.997" style="s2">and before we knew it, we had lost the</p>
+<p begin="00:08:23.297" end="00:08:26.997" style="s2">complete control of the system, man.</p>
+<p begin="00:08:28.797" end="00:08:33.297" style="s2">And those raiders were waiting for us to</p>
+<p begin="00:08:30.497" end="00:08:33.297" style="s2">hunt us down.</p>
+<p begin="00:09:01.036" end="00:09:03.056" style="s2">[music]</p>
+<p begin="00:09:16.997" end="00:09:24.797" style="s2">My parents [music] sacrificed themselves</p>
+<p begin="00:09:20.497" end="00:09:24.797" style="s2">and sent me away on an escape pod.</p>
+<p begin="00:09:28.197" end="00:09:34.297" style="s2">&gt;&gt; You do not need to worry about us, Jet.</p>
+<p begin="00:09:31.297" end="00:09:34.297" style="s2">Go and live your [music] life.</p>
+<p begin="00:09:59.331" end="00:10:01.351" style="s2">&gt;&gt; [groaning]</p>
+<p begin="00:10:11.397" end="00:10:14.698" style="s2">&gt;&gt; Life and death.</p>
+<p begin="00:10:15.198" end="00:10:20.898" style="s2">Two sides of the same insignificant</p>
+<p begin="00:10:17.998" end="00:10:20.898" style="s2">existence.</p>
+<p begin="00:10:21.098" end="00:10:27.098" style="s2">Remember this.</p>
+<p begin="00:10:23.698" end="00:10:28.498" style="s2">I harbor no hatred towards you.</p>
+<p begin="00:10:27.098" end="00:10:30.798" style="s2">No malice. [music]</p>
+<p begin="00:10:28.498" end="00:10:35.198" style="s2">Nothing personal.</p>
+<p begin="00:10:30.798" end="00:10:35.198" style="s2">I simply act out of curiosity.</p>
+<p begin="00:10:35.498" end="00:10:39.998" style="s2">It is fascinating</p>
+<p begin="00:10:37.898" end="00:10:44.298" style="s2">how desperately [music] creatures cling</p>
+<p begin="00:10:39.998" end="00:10:44.298" style="s2">to something as temporary as life.</p>
+<p begin="00:10:48.098" end="00:10:54.998" style="s2">Leave the dead to the silence.</p>
+<p begin="00:10:51.198" end="00:10:54.998" style="s2">Gather those who still breathe.</p>
+<p begin="00:10:56.598" end="00:11:01.498" style="s2">Put them in chains.</p>
+<p begin="00:10:59.298" end="00:11:03.798" style="s2">The master will decide what becomes of</p>
+<p begin="00:11:01.498" end="00:11:03.798" style="s2">them.</p>
+<p begin="00:11:09.417" end="00:11:11.437" style="s2">&gt;&gt; [groaning and screaming]</p>
+<p begin="00:11:42.823" end="00:11:44.843" style="s2">[music]</p>
+<p begin="00:11:46.998" end="00:11:50.398" style="s2">&gt;&gt; We&#39;re about to get there.</p>
+<p begin="00:11:48.998" end="00:11:53.098" style="s2">So,</p>
+<p begin="00:11:50.398" end="00:11:53.098" style="s2">what&#39;s the plan?</p>
+<p begin="00:11:53.998" end="00:12:01.098" style="s2">&gt;&gt; I will not stop until I get my daughter.</p>
+<p begin="00:11:58.598" end="00:12:01.098" style="s2">&gt;&gt; I like it.</p>
+<p begin="00:12:05.093" end="00:12:09.598" style="s2">[music]</p>
+<p begin="00:12:06.998" end="00:12:12.698" style="s2">Well, well, well.</p>
+<p begin="00:12:09.598" end="00:12:12.698" style="s2">Looks like we are here.</p>
+<p begin="00:12:12.953" end="00:12:14.973" style="s2">&gt;&gt; [music]</p>
+</div>
+</body>
+</tt>

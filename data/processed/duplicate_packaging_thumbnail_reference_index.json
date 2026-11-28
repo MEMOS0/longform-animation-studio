@@ -1,0 +1,43 @@
+{
+  "evidence_class": "duplicate_upload_packaging_comparison",
+  "causality_warning": "Same/visually duplicate film, but channel, timing, title, thumbnail, and recommendation circulation are confounded. This is not CTR proof.",
+  "items": [
+    {
+      "video_id": "bAjeNeQ9DGc",
+      "path": "data/raw/thumbnails/aisweetdrama/bAjeNeQ9DGc.jpg",
+      "performance_position": "duplicate-upload breakout",
+      "measured_metrics": {
+        "brightness": 0.421,
+        "contrast": 0.232,
+        "edge_density": 0.216,
+        "mobile_contrast": 0.202
+      },
+      "visual_mechanics": [
+        "romance plus office/tech arena",
+        "X Tech monitor/laptop",
+        "patent/contract/ID/chip artifacts",
+        "hidden competence mechanism made visible"
+      ],
+      "reusable_concept": "For hidden-competence status romance, include a mechanism artifact of competence/institution rather than luxury romance alone."
+    },
+    {
+      "video_id": "PRnC5o30VjE",
+      "path": "data/raw/thumbnails/sienna/PRnC5o30VjE.jpg",
+      "performance_position": "duplicate-upload low comparator",
+      "measured_metrics": {
+        "brightness": 0.452,
+        "contrast": 0.271,
+        "edge_density": 0.155,
+        "mobile_contrast": 0.252
+      },
+      "visual_mechanics": [
+        "polished luxury couple embrace",
+        "ring/champagne/flowers/petals",
+        "no visible X/tech competence system",
+        "interchangeable billionaire marriage fantasy"
+      ],
+      "reusable_concept": "Polished romantic packaging can hide the differentiating mechanism even when the underlying film is strong."
+    }
+  ],
+  "craft_rule": "Mechanism-legible packaging should expose what the film is actually about; do not infer CTR causality from this confounded duplicate case."
+}

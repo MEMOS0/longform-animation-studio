@@ -88,6 +88,26 @@ def analyze_thumbnail(path: Path) -> dict[str, Any]:
 
 def write_index(rows: list[dict[str, Any]], output: Path) -> None:
     output.parent.mkdir(parents=True, exist_ok=True)
+    merged: list[dict[str, Any]] = []
+    positions: dict[tuple[str, str], int] = {}
+    if output.exists():
+        for line in output.read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            try:
+                row = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            key = (str(row.get("video_id") or ""), str(row.get("channel_key") or row.get("channel") or ""))
+            positions[key] = len(merged)
+            merged.append(row)
+    for row in rows:
+        key = (str(row.get("video_id") or ""), str(row.get("channel_key") or row.get("channel") or ""))
+        if key in positions:
+            merged[positions[key]] = row
+        else:
+            positions[key] = len(merged)
+            merged.append(row)
     with output.open("w", encoding="utf-8") as handle:
-        for row in rows:
-            handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+        for row in merged:
+            handle.write(json.dumps(row, ensure_ascii=False) + chr(10))

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:23.800" end="00:00:27.400" style="s2">A warm stone</p>
+<p begin="00:00:26.100" end="00:00:30.100" style="s2">again</p>
+<p begin="00:00:27.400" end="00:00:30.100" style="s2">at my door.</p>
+<p begin="00:00:36.600" end="00:00:39.800" style="s2">&gt;&gt; That&#39;s the third one this week.</p>
+<p begin="00:00:40.700" end="00:00:44.300" style="s2">&gt;&gt; Something comes down from the mountain.</p>
+<p begin="00:01:49.600" end="00:01:53.500" style="s2">Five huts left on the upper slope.</p>
+<p begin="00:01:59.200" end="00:02:07.192" style="s2">Sell me your plot, Tabanyo. Fair price.</p>
+<p begin="00:02:03.192" end="00:02:07.192" style="s2">&gt;&gt; My wife planted every tree there.</p>
+<p begin="00:02:13.621" end="00:02:15.641" style="s2">&gt;&gt; [music]</p>
+<p begin="00:02:31.892" end="00:02:36.192" style="s2">&gt;&gt; They say the amamongo digs the mountain</p>
+<p begin="00:02:33.692" end="00:02:36.192" style="s2">loose.</p>
+<p begin="00:02:36.546" end="00:02:38.566" style="s2">[cough]</p>
+<p begin="00:02:51.692" end="00:02:55.392" style="s2">The mill pays half what it did.</p>
+<p begin="00:02:57.192" end="00:03:02.592" style="s2">&gt;&gt; We still have water</p>
+<p begin="00:02:59.792" end="00:03:02.592" style="s2">and each other.</p>
+<p begin="00:05:26.794" end="00:05:32.094" style="s2">&gt;&gt; It was you.</p>
+<p begin="00:05:28.994" end="00:05:32.094" style="s2">Every cold morning.</p>
+<p begin="00:06:01.394" end="00:06:06.095" style="s2">You warm them here</p>
+<p begin="00:06:03.494" end="00:06:06.095" style="s2">for us.</p>
+<p begin="00:06:21.495" end="00:06:25.495" style="s2">Three families sold since the slide,</p>
+<p begin="00:06:23.295" end="00:06:25.495" style="s2">sir.</p>
+<p begin="00:06:33.395" end="00:06:36.995" style="s2">&gt;&gt; Fear does my bargaining for me.</p>
+<p begin="00:06:39.395" end="00:06:43.895" style="s2">&gt;&gt; The spring is drying</p>
+<p begin="00:06:40.995" end="00:06:43.895" style="s2">in the rainy season.</p>
+<p begin="00:06:52.295" end="00:06:55.695" style="s2">&gt;&gt; Someone is taking this water.</p>
+<p begin="00:07:08.095" end="00:07:11.795" style="s2">&gt;&gt; Where do these stones come from, Tatai?</p>
+<p begin="00:07:15.595" end="00:07:18.895" style="s2">&gt;&gt; From a friend on the mountain.</p>
+<p begin="00:08:05.095" end="00:08:08.697" style="s2">&gt;&gt; Only a trickle since this morning.</p>
+<p begin="00:08:11.697" end="00:08:15.297" style="s2">&gt;&gt; Then I&#39;ll find water somewhere else.</p>
+<p begin="00:08:24.997" end="00:08:30.897" style="s2">Your spring runs over.</p>
+<p begin="00:08:27.697" end="00:08:30.897" style="s2">My bamboo is dry.</p>
+<p begin="00:08:45.497" end="00:08:49.897" style="s2">You dig.</p>
+<p begin="00:08:46.897" end="00:08:49.897" style="s2">I lay the bamboo.</p>
+<p begin="00:08:59.726" end="00:09:01.746" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:09:32.597" end="00:09:37.597" style="s2">&gt;&gt; Warm water</p>
+<p begin="00:09:34.197" end="00:09:37.597" style="s2">from the mountain itself.</p>
+<p begin="00:09:47.097" end="00:09:50.897" style="s2">&gt;&gt; The valley has warm water against her.</p>
+<p begin="00:09:54.897" end="00:09:58.597" style="s2">Find where that water comes from.</p>
+<p begin="00:10:20.698" end="00:10:25.398" style="s2">&gt;&gt; Tatay,</p>
+<p begin="00:10:22.398" end="00:10:25.398" style="s2">who dug that channel?</p>
+<p begin="00:10:28.898" end="00:10:34.098" style="s2">&gt;&gt; Come with me at dawn</p>
+<p begin="00:10:31.298" end="00:10:34.098" style="s2">and stay calm.</p>
+<p begin="00:10:47.147" end="00:10:49.167" style="s2">&gt;&gt; [music]</p>
+<p begin="00:11:19.498" end="00:11:25.098" style="s2">&gt;&gt; The amomongo,</p>
+<p begin="00:11:21.698" end="00:11:25.098" style="s2">the one everyone fears.</p>
+<p begin="00:11:53.898" end="00:11:57.898" style="s2">&gt;&gt; The villagers blame its digging, your</p>
+<p begin="00:11:55.598" end="00:11:57.898" style="s2">honor.</p>
+<p begin="00:12:03.698" end="00:12:08.398" style="s2">&gt;&gt; Bring me proof</p>
+<p begin="00:12:05.198" end="00:12:08.398" style="s2">within seven days.</p>
+<p begin="00:12:10.898" end="00:12:15.499" style="s2">&gt;&gt; The slides began when the spring</p>
+<p begin="00:12:12.999" end="00:12:15.499" style="s2">changed.</p>
+<p begin="00:12:45.099" end="00:12:48.699" style="s2">There is our spring taken.</p>
+<p begin="00:12:51.699" end="00:12:55.299" style="s2">&gt;&gt; And it soaks the slope above us.</p>
+<p begin="00:13:31.799" end="00:13:35.899" style="s2">&gt;&gt; The ditch takes the whole barrio spring,</p>
+<p begin="00:13:33.599" end="00:13:35.899" style="s2">sir.</p>
+<p begin="00:13:37.999" end="00:13:41.699" style="s2">&gt;&gt; Then the barrio can buy water.</p>
+<p begin="00:14:01.999" end="00:14:09.499" style="s2">&gt;&gt; It wasn&#39;t loosening the mountain.</p>
+<p begin="00:14:05.699" end="00:14:09.499" style="s2">&gt;&gt; It was turning the water from us.</p>
+<p begin="00:14:13.999" end="00:14:18.901" style="s2">&gt;&gt; Sell today</p>
+<p begin="00:14:15.699" end="00:14:18.901" style="s2">before the slope takes it.</p>
+<p begin="00:14:22.401" end="00:14:26.301" style="s2">&gt;&gt; That slide came from his ditch.</p>
+<p begin="00:14:34.201" end="00:14:38.901" style="s2">&gt;&gt; Long nails dug this, not ditches.</p>
+<p begin="00:15:01.001" end="00:15:09.201" style="s2">A year&#39;s wages for showing me its den.</p>
+<p begin="00:15:05.101" end="00:15:09.201" style="s2">Bare hands only I want it seen.</p>
+<p begin="00:15:16.701" end="00:15:21.701" style="s2">&gt;&gt; A year&#39;s wages.</p>
+<p begin="00:15:18.701" end="00:15:21.701" style="s2">They&#39;ll all go looking.</p>
+<p begin="00:15:22.905" end="00:15:24.925" style="s2">&gt;&gt; [sighs]</p>
+<p begin="00:15:45.101" end="00:15:50.701" style="s2">&gt;&gt; Men are coming to look.</p>
+<p begin="00:15:47.601" end="00:15:50.701" style="s2">Stay deep inside.</p>
+<p begin="00:16:13.341" end="00:16:15.361" style="s2">&gt;&gt; [music]</p>
+<p begin="00:17:02.402" end="00:17:07.702" style="s2">&gt;&gt; Sir,</p>
+<p begin="00:17:04.002" end="00:17:07.702" style="s2">the ditch cost those slides.</p>
+<p begin="00:17:08.902" end="00:17:13.002" style="s2">&gt;&gt; Your mother&#39;s death is in my book, Nilo.</p>
+<p begin="00:17:20.151" end="00:17:22.171" style="s2">&gt;&gt; [music]</p>
+<p begin="00:17:37.602" end="00:17:41.002" style="s2">&gt;&gt; He did all this in one night.</p>
+<p begin="00:17:42.802" end="00:17:46.102" style="s2">&gt;&gt; And we were afraid of it.</p>
+<p begin="00:17:54.602" end="00:17:59.602" style="s2">This spout</p>
+<p begin="00:17:56.002" end="00:17:59.602" style="s2">stands on my land now.</p>
+<p begin="00:18:01.202" end="00:18:04.602" style="s2">One centavo a jar.</p>
+<p begin="00:18:15.827" end="00:18:19.157" style="s2">&gt;&gt; [cough]</p>
+<p begin="00:18:17.137" end="00:18:19.157" style="s2">[snorts]</p>
+<p begin="00:19:32.903" end="00:19:36.903" style="s2">&gt;&gt; It came back</p>
+<p begin="00:19:34.403" end="00:19:36.903" style="s2">for you.</p>
+<p begin="00:19:50.303" end="00:19:53.903" style="s2">&gt;&gt; The judge comes in two days.</p>
+<p begin="00:19:58.703" end="00:20:02.603" style="s2">Tonight we follow the water carrier.</p>
+<p begin="00:20:10.903" end="00:20:16.103" style="s2">&gt;&gt; Tell your father</p>
+<p begin="00:20:13.103" end="00:20:16.103" style="s2">tonight they follow him.</p>
+<p begin="00:20:44.205" end="00:20:47.905" style="s2">&gt;&gt; I&#39;ll warn it before they come.</p>
+<p begin="00:20:58.805" end="00:21:01.905" style="s2">&gt;&gt; Then I&#39;m coming with you.</p>
+<p begin="00:22:02.205" end="00:22:07.205" style="s2">&gt;&gt; Go deep.</p>
+<p begin="00:22:04.305" end="00:22:07.205" style="s2">Men are coming.</p>
+<p begin="00:22:34.206" end="00:22:38.106" style="s2">&gt;&gt; Sir,</p>
+<p begin="00:22:35.306" end="00:22:38.106" style="s2">I can&#39;t walk.</p>
+<p begin="00:22:48.806" end="00:22:53.606" style="s2">&gt;&gt; Leave him.</p>
+<p begin="00:22:50.706" end="00:22:53.606" style="s2">The den is closed.</p>
+<p begin="00:24:02.106" end="00:24:04.806" style="s2">You&#39;re warm.</p>
+<p begin="00:24:48.607" end="00:24:52.307" style="s2">&gt;&gt; There it is.</p>
+<p begin="00:24:50.707" end="00:24:54.908" style="s2">Remember this,</p>
+<p begin="00:24:52.307" end="00:24:54.908" style="s2">all of you.</p>
+<p begin="00:25:06.607" end="00:25:12.408" style="s2">Remember this then.</p>
+<p begin="00:25:09.307" end="00:25:12.408" style="s2">It kept him alive.</p>
+<p begin="00:25:45.817" end="00:25:47.837" style="s2">[snorts]</p>
+<p begin="00:26:07.807" end="00:26:12.908" style="s2">Enough.</p>
+<p begin="00:26:09.507" end="00:26:12.908" style="s2">Now break its water channel.</p>
+<p begin="00:26:56.909" end="00:26:59.109" style="s2">&gt;&gt; GO! GO!</p>
+<p begin="00:27:16.709" end="00:27:20.809" style="s2">&gt;&gt; IT WENT HOME THROUGH THE MOUNTAIN.</p>
+<p begin="00:27:46.209" end="00:27:50.109" style="s2">&gt;&gt; HE ORDERED THE ditch to take their</p>
+<p begin="00:27:47.709" end="00:27:50.109" style="s2">spring.</p>
+<p begin="00:27:54.309" end="00:27:59.109" style="s2">Every deed bought in fear is void.</p>
+<p begin="00:28:13.109" end="00:28:16.809" style="s2">The water was never yours to sell.</p>
+<p begin="00:28:39.210" end="00:28:41.410" style="s2">&gt;&gt; Oh.</p>
+</div>
+</body>
+</tt>

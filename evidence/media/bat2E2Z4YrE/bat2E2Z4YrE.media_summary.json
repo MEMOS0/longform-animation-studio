@@ -1,0 +1,92 @@
+{
+  "video_id": "bat2E2Z4YrE",
+  "probe": {
+    "duration": 2773.739683,
+    "size": 126422766,
+    "width": 202,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\bat2E2Z4YrE\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\bat2E2Z4YrE\\contact_sheets\\contact_001.jpg",
+    "evidence\\media\\bat2E2Z4YrE\\contact_sheets\\contact_002.jpg",
+    "evidence\\media\\bat2E2Z4YrE\\contact_sheets\\contact_003.jpg",
+    "evidence\\media\\bat2E2Z4YrE\\contact_sheets\\contact_004.jpg",
+    "evidence\\media\\bat2E2Z4YrE\\contact_sheets\\contact_005.jpg",
+    "evidence\\media\\bat2E2Z4YrE\\contact_sheets\\contact_006.jpg"
+  ],
+  "seconds_indexed": 2774,
+  "shot_count": 85,
+  "shot_length_mean_seconds": 32.63529411764706,
+  "shot_length_median_seconds": 8.0,
+  "shot_length_p90_seconds": 93.80000000000007,
+  "visual_motion_mean": 0.14372888134808226,
+  "visual_brightness_mean": 0.24129520763630327,
+  "dialogue_cues": 1224,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 176.892,
+      "text": "that orphanage and kept you fed for over"
+    },
+    "first_power_or_identity_language": {
+      "time": 44.2,
+      "text": "to part, looking like a pair of tragic"
+    },
+    "first_care_or_belonging_language": {
+      "time": 4.1,
+      "text": "men away, all to protect his mistress,"
+    },
+    "dialogue_words_per_minute": [
+      186,
+      219,
+      190,
+      181,
+      166,
+      182,
+      191,
+      137,
+      132,
+      155,
+      160,
+      224,
+      205,
+      167,
+      200,
+      171,
+      148,
+      164,
+      162,
+      189,
+      167,
+      130,
+      141,
+      119,
+      157,
+      146,
+      175,
+      170,
+      154,
+      181,
+      138,
+      140,
+      162,
+      141,
+      141,
+      126,
+      117,
+      178,
+      166,
+      154,
+      126,
+      120,
+      130,
+      113,
+      142,
+      128,
+      30
+    ],
+    "cue_count": 1224
+  }
+}

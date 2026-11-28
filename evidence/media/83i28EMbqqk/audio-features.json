@@ -1,0 +1,76 @@
+{
+  "seconds_analyzed": 902,
+  "cue_coverage": 0.4812,
+  "rms_in_cues": 0.14074,
+  "rms_outside_cues": 0.12352,
+  "act_audio": [
+    {
+      "minute": 0,
+      "audio_rms_mean": 0.12493
+    },
+    {
+      "minute": 1,
+      "audio_rms_mean": 0.1052
+    },
+    {
+      "minute": 2,
+      "audio_rms_mean": 0.10564
+    },
+    {
+      "minute": 3,
+      "audio_rms_mean": 0.11178
+    },
+    {
+      "minute": 4,
+      "audio_rms_mean": 0.11892
+    },
+    {
+      "minute": 5,
+      "audio_rms_mean": 0.11207
+    },
+    {
+      "minute": 6,
+      "audio_rms_mean": 0.14154
+    },
+    {
+      "minute": 7,
+      "audio_rms_mean": 0.12964
+    },
+    {
+      "minute": 8,
+      "audio_rms_mean": 0.12151
+    },
+    {
+      "minute": 9,
+      "audio_rms_mean": 0.15967
+    },
+    {
+      "minute": 10,
+      "audio_rms_mean": 0.15492
+    },
+    {
+      "minute": 11,
+      "audio_rms_mean": 0.15314
+    },
+    {
+      "minute": 12,
+      "audio_rms_mean": 0.16366
+    },
+    {
+      "minute": 13,
+      "audio_rms_mean": 0.13885
+    },
+    {
+      "minute": 14,
+      "audio_rms_mean": 0.13957
+    }
+  ],
+  "rms_minute_max": {
+    "minute": 12,
+    "audio_rms_mean": 0.16366
+  },
+  "rms_minute_min": {
+    "minute": 1,
+    "audio_rms_mean": 0.1052
+  }
+}

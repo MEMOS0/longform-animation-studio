@@ -1,0 +1,81 @@
+{
+  "video_id": "XlqFh7ejQEU",
+  "probe": {
+    "duration": 2195.864671,
+    "size": 121989218,
+    "width": 640,
+    "height": 360,
+    "fps": "24000/1001",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\XlqFh7ejQEU\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\XlqFh7ejQEU\\contact_sheets\\contact_001.jpg",
+    "evidence\\media\\XlqFh7ejQEU\\contact_sheets\\contact_002.jpg",
+    "evidence\\media\\XlqFh7ejQEU\\contact_sheets\\contact_003.jpg",
+    "evidence\\media\\XlqFh7ejQEU\\contact_sheets\\contact_004.jpg",
+    "evidence\\media\\XlqFh7ejQEU\\contact_sheets\\contact_005.jpg"
+  ],
+  "seconds_indexed": 2196,
+  "shot_count": 67,
+  "shot_length_mean_seconds": 32.776119402985074,
+  "shot_length_median_seconds": 16.0,
+  "shot_length_p90_seconds": 93.79999999999998,
+  "visual_motion_mean": 0.07271353034182784,
+  "visual_brightness_mean": 0.2109191187261029,
+  "dialogue_cues": 217,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 171.292,
+      "text": "killed."
+    },
+    "first_power_or_identity_language": {
+      "time": 6.7,
+      "text": "in their powers."
+    },
+    "first_care_or_belonging_language": {
+      "time": 175.292,
+      "text": "Will save me."
+    },
+    "dialogue_words_per_minute": [
+      34,
+      17,
+      26,
+      11,
+      36,
+      3,
+      26,
+      4,
+      1,
+      26,
+      9,
+      28,
+      32,
+      20,
+      11,
+      40,
+      17,
+      43,
+      30,
+      53,
+      64,
+      24,
+      17,
+      26,
+      33,
+      40,
+      20,
+      31,
+      28,
+      23,
+      5,
+      10,
+      2,
+      22,
+      13,
+      28,
+      21
+    ],
+    "cue_count": 217
+  }
+}

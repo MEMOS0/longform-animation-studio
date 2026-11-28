@@ -1,0 +1,85 @@
+{
+  "video_id": "UV0KiJM97TM",
+  "probe": {
+    "duration": 2413.667846,
+    "size": 171446846,
+    "width": 640,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\UV0KiJM97TM\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\UV0KiJM97TM\\contact_sheets\\contact_001.jpg",
+    "evidence\\media\\UV0KiJM97TM\\contact_sheets\\contact_002.jpg",
+    "evidence\\media\\UV0KiJM97TM\\contact_sheets\\contact_003.jpg",
+    "evidence\\media\\UV0KiJM97TM\\contact_sheets\\contact_004.jpg",
+    "evidence\\media\\UV0KiJM97TM\\contact_sheets\\contact_005.jpg",
+    "evidence\\media\\UV0KiJM97TM\\contact_sheets\\contact_006.jpg"
+  ],
+  "seconds_indexed": 2414,
+  "shot_count": 74,
+  "shot_length_mean_seconds": 32.62162162162162,
+  "shot_length_median_seconds": 6.0,
+  "shot_length_p90_seconds": 108.90000000000013,
+  "visual_motion_mean": 0.13515143124555729,
+  "visual_brightness_mean": 0.26517692504605045,
+  "dialogue_cues": 178,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 219.166,
+      "text": "Are you here to kill me?"
+    },
+    "first_power_or_identity_language": {
+      "time": 472.5,
+      "text": "Your blood is making them restless."
+    },
+    "first_care_or_belonging_language": {
+      "time": 229.0,
+      "text": "Come home."
+    },
+    "dialogue_words_per_minute": [
+      17,
+      51,
+      0,
+      25,
+      13,
+      32,
+      24,
+      28,
+      90,
+      35,
+      65,
+      18,
+      48,
+      9,
+      15,
+      11,
+      0,
+      25,
+      0,
+      14,
+      2,
+      38,
+      34,
+      0,
+      11,
+      2,
+      22,
+      0,
+      7,
+      0,
+      8,
+      0,
+      89,
+      20,
+      1,
+      10,
+      0,
+      0,
+      0,
+      7
+    ],
+    "cue_count": 178
+  }
+}

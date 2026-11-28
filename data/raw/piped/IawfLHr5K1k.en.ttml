@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:17.440" end="00:00:20.320" style="s2">It&#39;s getting closer.</p>
+<p begin="00:00:33.405" end="00:00:35.425" style="s2">&gt;&gt; [groaning]</p>
+<p begin="00:00:43.230" end="00:00:45.250" style="s2">[screaming]</p>
+<p begin="00:01:51.440" end="00:01:55.320" style="s2">&gt;&gt; Come out. I know you&#39;re in here.</p>
+<p begin="00:02:15.720" end="00:02:18.480" style="s2">&gt;&gt; On your knees.</p>
+<p begin="00:02:26.066" end="00:02:28.086" style="s2">&gt;&gt; [gasps and panting]</p>
+<p begin="00:02:32.616" end="00:02:34.636" style="s2">[snorts]</p>
+<p begin="00:02:45.959" end="00:02:48.600" style="s2">&gt;&gt; No, wait.</p>
+<p begin="00:02:55.360" end="00:02:58.120" style="s2">&gt;&gt; SHH. SHH. SHH.</p>
+<p begin="00:03:09.297" end="00:03:11.317" style="s2">&gt;&gt; [panting and gasps]</p>
+<p begin="00:03:11.959" end="00:03:14.840" style="s2">&gt;&gt; SHH. SHH.</p>
+<p begin="00:03:21.087" end="00:03:23.107" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:03:25.017" end="00:03:28.347" style="s2">[screaming]</p>
+<p begin="00:03:26.327" end="00:03:28.347" style="s2">[groaning]</p>
+<p begin="00:03:42.959" end="00:03:45.377" style="s2">&gt;&gt; NO! [screaming]</p>
+<p begin="00:03:49.959" end="00:03:52.800" style="s2">&gt;&gt; HE HAS THE KEYS.</p>
+<p begin="00:04:08.247" end="00:04:10.267" style="s2">&gt;&gt; [clears throat]</p>
+<p begin="00:04:17.959" end="00:04:20.560" style="s2">&gt;&gt; ARE you okay?</p>
+<p begin="00:04:19.680" end="00:04:24.120" style="s2">Are you hurt?</p>
+<p begin="00:04:20.560" end="00:04:24.120" style="s2">&gt;&gt; I&#39;m okay. I&#39;m okay.</p>
+<p begin="00:04:33.360" end="00:04:35.040" style="s2">&gt;&gt; Stay behind me and keep your heads</p>
+<p begin="00:04:34.448" end="00:04:37.800" style="s2">[music] down.</p>
+<p begin="00:04:35.040" end="00:04:37.800" style="s2">&gt;&gt; I&#39;ll get us out.</p>
+<p begin="00:04:58.880" end="00:05:03.280" style="s2">&gt;&gt; HEY!</p>
+<p begin="00:05:00.040" end="00:05:03.280" style="s2">WE&#39;RE HELP! WE&#39;RE HERE!</p>
+<p begin="00:05:14.160" end="00:05:15.800" style="s2">&gt;&gt; HEY!</p>
+<p begin="00:05:14.919" end="00:05:16.080" style="s2">Over here!</p>
+<p begin="00:05:15.800" end="00:05:18.388" style="s2">&gt;&gt; HELP!</p>
+<p begin="00:05:16.080" end="00:05:18.388" style="s2">&gt;&gt; HELP! [screaming]</p>
+<p begin="00:05:41.120" end="00:05:44.880" style="s2">DO YOU KNOW WHAT&#39;S COMING HERE?</p>
+<p begin="00:05:43.000" end="00:05:45.919" style="s2">Get out of here now. THIS IS THE BIGGEST</p>
+<p begin="00:05:44.880" end="00:05:47.520" style="s2">ONE WE&#39;VE EVER SEEN.</p>
+<p begin="00:05:45.919" end="00:05:50.360" style="s2">&gt;&gt; PLEASE, let us come with you. We have</p>
+<p begin="00:05:47.520" end="00:05:50.360" style="s2">nowhere to go.</p>
+<p begin="00:05:51.200" end="00:05:54.720" style="s2">&gt;&gt; GO AWAY. NOW.</p>
+<p begin="00:06:51.200" end="00:06:53.309" style="s2">&gt;&gt; He&#39;s coming. GO, GO.</p>
+<p begin="00:06:52.800" end="00:06:55.329" style="s2">&gt;&gt; HOLD ON.</p>
+<p begin="00:06:53.309" end="00:06:55.329" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:07:27.120" end="00:07:31.280" style="s2">&gt;&gt; WAIT.</p>
+<p begin="00:07:29.120" end="00:07:31.280" style="s2">WAIT.</p>
+<p begin="00:07:36.760" end="00:07:41.040" style="s2">COME ON, COLBY.</p>
+<p begin="00:07:38.120" end="00:07:41.040" style="s2">&gt;&gt; KEEP MOVING.</p>
+<p begin="00:07:42.640" end="00:07:43.919" style="s2">&gt;&gt; GO.</p>
+<p begin="00:07:43.320" end="00:07:47.000" style="s2">&gt;&gt; LEAVE ME.</p>
+<p begin="00:07:43.919" end="00:07:47.000" style="s2">&gt;&gt; NO, GET UP.</p>
+<p begin="00:07:48.320" end="00:07:51.440" style="s2">&gt;&gt; GET IN! NOW!</p>
+<p begin="00:07:52.915" end="00:07:54.935" style="s2">&gt;&gt; [groaning]</p>
+<p begin="00:08:06.200" end="00:08:09.400" style="s2">&gt;&gt; DID YOU SEE THAT? IT KILLED THEM ALL,</p>
+<p begin="00:08:08.440" end="00:08:11.440" style="s2">everything we had.</p>
+<p begin="00:08:09.400" end="00:08:12.160" style="s2">&gt;&gt; The helicopters, the tanks, nothing even</p>
+<p begin="00:08:11.440" end="00:08:13.875" style="s2">scratched it.</p>
+<p begin="00:08:12.160" end="00:08:15.185" style="s2">&gt;&gt; It&#39;s not stopping.</p>
+<p begin="00:08:13.875" end="00:08:17.205" style="s2">&gt;&gt; [panting]</p>
+<p begin="00:08:15.185" end="00:08:17.205" style="s2">[snorts]</p>
+<p begin="00:08:43.680" end="00:08:47.920" style="s2">&gt;&gt; Is this real?</p>
+<p begin="00:08:45.240" end="00:08:49.120" style="s2">We [snorts] made it.</p>
+<p begin="00:08:47.920" end="00:08:51.040" style="s2">&gt;&gt; At ease.</p>
+<p begin="00:08:49.120" end="00:08:55.440" style="s2">You look like you&#39;ve been through hell.</p>
+<p begin="00:08:51.040" end="00:08:55.440" style="s2">Come, sit. Let&#39;s talk in my tent.</p>
+<p begin="00:08:56.640" end="00:08:59.160" style="s2">&gt;&gt; We saw something out there, sir.</p>
+<p begin="00:08:58.080" end="00:09:00.520" style="s2">Something huge.</p>
+<p begin="00:08:59.160" end="00:09:02.800" style="s2">&gt;&gt; It destroyed the helicopters with a</p>
+<p begin="00:09:00.520" end="00:09:05.621" style="s2">laser, a purple beam from its mouth.</p>
+<p begin="00:09:02.800" end="00:09:06.440" style="s2">&gt;&gt; Tanks, jets, nothing even scratched it.</p>
+<p begin="00:09:05.621" end="00:09:09.880" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:09:06.440" end="00:09:09.880" style="s2">&gt;&gt; You&#39;re afraid of that little monster?</p>
+<p begin="00:09:10.839" end="00:09:13.880" style="s2">That little monster.</p>
+<p begin="00:09:12.160" end="00:09:15.520" style="s2">&gt;&gt; NO! NO! IT WAS HUGE!</p>
+<p begin="00:09:13.880" end="00:09:17.160" style="s2">&gt;&gt; AT LEAST 100 M TALL.</p>
+<p begin="00:09:15.520" end="00:09:18.839" style="s2">&gt;&gt; IT&#39;S A MOUNTAIN THAT WALKS.</p>
+<p begin="00:09:17.160" end="00:09:20.960" style="s2">&gt;&gt; THAT doesn&#39;t exist. The biggest one</p>
+<p begin="00:09:18.839" end="00:09:22.000" style="s2">we&#39;ve seen is 3 m tall at most. I</p>
+<p begin="00:09:20.960" end="00:09:25.120" style="s2">thought you had something serious to</p>
+<p begin="00:09:22.000" end="00:09:25.120" style="s2">tell me, not lies.</p>
+<p begin="00:09:30.839" end="00:09:34.640" style="s2">&gt;&gt; Oh, no. That&#39;s one of them.</p>
+<p begin="00:09:45.400" end="00:09:47.560" style="s2">&gt;&gt; Go!</p>
+<p begin="00:09:49.880" end="00:09:52.920" style="s2">&gt;&gt; I need to talk to you.</p>
+<p begin="00:09:59.360" end="00:10:01.600" style="s2">&gt;&gt; What is down here?</p>
+<p begin="00:10:00.440" end="00:10:05.320" style="s2">&gt;&gt; Those monsters, they came out of</p>
+<p begin="00:10:01.600" end="00:10:05.320" style="s2">nowhere. Whatever it is, it&#39;s bad.</p>
+<p begin="00:10:07.920" end="00:10:11.080" style="s2">&gt;&gt; This robot saved us. Impossible.</p>
+<p begin="00:10:09.800" end="00:10:12.480" style="s2">&gt;&gt; That is the last unit we have, and it&#39;s</p>
+<p begin="00:10:11.080" end="00:10:14.000" style="s2">deactivated. It&#39;s artificial</p>
+<p begin="00:10:12.480" end="00:10:15.200" style="s2">intelligence fails too often. It&#39;s a</p>
+<p begin="00:10:14.000" end="00:10:15.800" style="s2">bigger risk to this base than the</p>
+<p begin="00:10:15.200" end="00:10:17.160" style="s2">monsters.</p>
+<p begin="00:10:15.800" end="00:10:18.120" style="s2">&gt;&gt; I saw it with my own eyes. It killed a</p>
+<p begin="00:10:17.160" end="00:10:19.360" style="s2">giant right in front of us.</p>
+<p begin="00:10:18.120" end="00:10:22.160" style="s2">&gt;&gt; That&#39;s impossible. IT&#39;S THE ONLY ONE</p>
+<p begin="00:10:19.360" end="00:10:22.160" style="s2">THAT EXISTS.</p>
+<p begin="00:10:30.440" end="00:10:34.520" style="s2">&gt;&gt; Pull it down.</p>
+<p begin="00:10:31.840" end="00:10:34.520" style="s2">Slowly.</p>
+<p begin="00:10:34.840" end="00:10:38.080" style="s2">&gt;&gt; FREEZE. HANDS UP.</p>
+<p begin="00:10:43.760" end="00:10:48.360" style="s2">WHAT DO YOU WANT HERE?</p>
+<p begin="00:10:45.040" end="00:10:50.080" style="s2">&gt;&gt; What happened? What&#39;s going on?</p>
+<p begin="00:10:48.360" end="00:10:52.880" style="s2">&gt;&gt; What do you want here?</p>
+<p begin="00:10:50.080" end="00:10:52.880" style="s2">ANSWER ME.</p>
+<p begin="00:10:53.960" end="00:10:57.120" style="s2">&gt;&gt; We free the robot tonight.</p>
+<p begin="00:10:55.680" end="00:10:59.120" style="s2">&gt;&gt; Just pull the lever. It&#39;s our only</p>
+<p begin="00:10:57.120" end="00:11:00.720" style="s2">chance against that giant. Its weapons,</p>
+<p begin="00:10:59.120" end="00:11:01.160" style="s2">its speed, nothing else on this base can</p>
+<p begin="00:11:00.720" end="00:11:02.760" style="s2">fight it.</p>
+<p begin="00:11:01.160" end="00:11:04.440" style="s2">&gt;&gt; No, it&#39;s a bad idea. It&#39;s going to cause</p>
+<p begin="00:11:02.760" end="00:11:05.640" style="s2">us problems. The general said it&#39;s</p>
+<p begin="00:11:04.440" end="00:11:06.120" style="s2">dangerous. We don&#39;t know what it will</p>
+<p begin="00:11:05.640" end="00:11:10.320" style="s2">do.</p>
+<p begin="00:11:06.120" end="00:11:10.320" style="s2">&gt;&gt; us, Dana. We don&#39;t have another choice.</p>
+<p begin="00:11:13.320" end="00:11:17.332" style="s2">&gt;&gt; ANSWER ME.</p>
+<p begin="00:11:15.312" end="00:11:17.332" style="s2">&gt;&gt; [panting]</p>
+<p begin="00:11:17.720" end="00:11:20.960" style="s2">&gt;&gt; Follow me. Now.</p>
+<p begin="00:11:30.720" end="00:11:34.560" style="s2">Every purple dot is a rift in the sky</p>
+<p begin="00:11:33.000" end="00:11:35.840" style="s2">and every rift brings one or more</p>
+<p begin="00:11:34.560" end="00:11:37.440" style="s2">monsters.</p>
+<p begin="00:11:35.840" end="00:11:39.360" style="s2">&gt;&gt; Why is there nothing in South America?</p>
+<p begin="00:11:37.440" end="00:11:41.680" style="s2">&gt;&gt; I don&#39;t know. Not a single one has ever</p>
+<p begin="00:11:39.360" end="00:11:43.920" style="s2">fallen there, but everyone that lands</p>
+<p begin="00:11:41.680" end="00:11:45.520" style="s2">walks towards it. The rifts started the</p>
+<p begin="00:11:43.920" end="00:11:46.320" style="s2">day we built the Sentinel.</p>
+<p begin="00:11:45.520" end="00:11:47.880" style="s2">&gt;&gt; What do you mean?</p>
+<p begin="00:11:46.320" end="00:11:49.960" style="s2">&gt;&gt; Its mind isn&#39;t artificial, not</p>
+<p begin="00:11:47.880" end="00:11:51.400" style="s2">completely. It was taken from the brain</p>
+<p begin="00:11:49.960" end="00:11:53.880" style="s2">of one of those creatures.</p>
+<p begin="00:11:51.400" end="00:11:53.880" style="s2">&gt;&gt; What?</p>
+<p begin="00:12:01.163" end="00:12:03.183" style="s2">&gt;&gt; [panting]</p>
+<p begin="00:12:09.680" end="00:12:12.360" style="s2">&gt;&gt; That&#39;s one of them?</p>
+<p begin="00:12:13.480" end="00:12:16.080" style="s2">There&#39;s more.</p>
+<p begin="00:12:27.363" end="00:12:29.080" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:12:27.880" end="00:12:30.560" style="s2">&gt;&gt; We built its mind from that creature&#39;s</p>
+<p begin="00:12:29.080" end="00:12:31.040" style="s2">consciousness. That may be why the rifts</p>
+<p begin="00:12:30.560" end="00:12:31.960" style="s2">are opening.</p>
+<p begin="00:12:31.040" end="00:12:32.440" style="s2">&gt;&gt; But why is there nothing in South</p>
+<p begin="00:12:31.960" end="00:12:35.880" style="s2">America?</p>
+<p begin="00:12:32.440" end="00:12:35.880" style="s2">&gt;&gt; I ALREADY TOLD YOU I DON&#39;T KNOW.</p>
+<p begin="00:12:36.000" end="00:12:39.760" style="s2">ALL POSITIONS, NOW!</p>
+<p begin="00:12:55.960" end="00:12:58.839" style="s2">TAKE SIX.</p>
+<p begin="00:13:14.000" end="00:13:18.000" style="s2">&gt;&gt; PLEASE, IT&#39;S OUR ONLY CHANCE.</p>
+<p begin="00:13:16.040" end="00:13:20.400" style="s2">&gt;&gt; Don&#39;t do it. It will draw all of them</p>
+<p begin="00:13:18.000" end="00:13:20.400" style="s2">here.</p>
+<p begin="00:13:27.680" end="00:13:30.760" style="s2">See what YOU&#39;VE DONE?</p>
+<p begin="00:13:31.440" end="00:13:34.720" style="s2">NOW YOU&#39;LL PAY FOR THIS.</p>
+<p begin="00:13:49.120" end="00:13:51.760" style="s2">Come on.</p>
+<p begin="00:13:51.859" end="00:13:53.879" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:14:19.160" end="00:14:22.400" style="s2">&gt;&gt; WE HAVE TO GET OUT OF HERE.</p>
+<p begin="00:15:23.160" end="00:15:30.280" style="s2">WAKE UP. COME ON.</p>
+<p begin="00:15:26.080" end="00:15:30.280" style="s2">HELP! [screaming] ANYBODY?</p>
+<p begin="00:15:35.350" end="00:15:37.440" style="s2">&gt;&gt; [groaning]</p>
+<p begin="00:15:36.600" end="00:15:39.880" style="s2">&gt;&gt; HEY,</p>
+<p begin="00:15:37.440" end="00:15:41.800" style="s2">can you hear me? Are you okay?</p>
+<p begin="00:15:39.880" end="00:15:42.920" style="s2">&gt;&gt; I I think</p>
+<p begin="00:15:41.800" end="00:15:45.480" style="s2">so.</p>
+<p begin="00:15:42.920" end="00:15:46.960" style="s2">&gt;&gt; Do you have contact with another base?</p>
+<p begin="00:15:45.480" end="00:15:49.200" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:15:46.960" end="00:15:52.040" style="s2">Radio here.</p>
+<p begin="00:15:49.200" end="00:15:52.040" style="s2">&gt;&gt; What&#39;s the frequency?</p>
+<p begin="00:16:04.120" end="00:16:08.720" style="s2">&gt;&gt; What happened to Sentinella?</p>
+<p begin="00:16:05.960" end="00:16:10.200" style="s2">Why did it shut down? It wasn&#39;t damaged.</p>
+<p begin="00:16:08.720" end="00:16:11.640" style="s2">&gt;&gt; Did you see the visor flash purple</p>
+<p begin="00:16:10.200" end="00:16:15.160" style="s2">before it died?</p>
+<p begin="00:16:11.640" end="00:16:15.160" style="s2">That was strange. It was always blue.</p>
+<p begin="00:16:15.240" end="00:16:18.400" style="s2">&gt;&gt; I don&#39;t trust that general. He was</p>
+<p begin="00:16:16.880" end="00:16:20.480" style="s2">hiding something.</p>
+<p begin="00:16:18.400" end="00:16:23.120" style="s2">Sentinella killed that giant. He didn&#39;t</p>
+<p begin="00:16:20.480" end="00:16:26.280" style="s2">want to let it loose.</p>
+<p begin="00:16:23.120" end="00:16:26.280" style="s2">&gt;&gt; Maybe we can wake it up.</p>
+<p begin="00:16:31.839" end="00:16:35.240" style="s2">&gt;&gt; There&#39;s no panel. Nothing.</p>
+<p begin="00:16:47.400" end="00:16:51.480" style="s2">&gt;&gt; It&#39;s</p>
+<p begin="00:16:48.720" end="00:16:51.480" style="s2">alive.</p>
+<p begin="00:17:04.600" end="00:17:07.600" style="s2">Oh my god.</p>
+<p begin="00:17:06.240" end="00:17:08.640" style="s2">What is that?</p>
+<p begin="00:17:07.600" end="00:17:10.000" style="s2">&gt;&gt; That looks like it came from those</p>
+<p begin="00:17:08.640" end="00:17:11.240" style="s2">monsters.</p>
+<p begin="00:17:10.000" end="00:17:12.800" style="s2">But why would it attack them? That</p>
+<p begin="00:17:11.240" end="00:17:15.680" style="s2">doesn&#39;t make sense.</p>
+<p begin="00:17:12.800" end="00:17:17.531" style="s2">Shouldn&#39;t it be on their side?</p>
+<p begin="00:17:15.680" end="00:17:18.160" style="s2">&gt;&gt; I don&#39;t know.</p>
+<p begin="00:17:17.531" end="00:17:21.120" style="s2">&gt;&gt; [sighs]</p>
+<p begin="00:17:18.160" end="00:17:21.120" style="s2">&gt;&gt; But somebody does.</p>
+<p begin="00:17:29.400" end="00:17:33.200" style="s2">&gt;&gt; Anyone on the net? Anyone copy?</p>
+<p begin="00:17:31.640" end="00:17:34.680" style="s2">&gt;&gt; Hello, I&#39;m listening.</p>
+<p begin="00:17:33.200" end="00:17:36.440" style="s2">I copy.</p>
+<p begin="00:17:34.680" end="00:17:38.480" style="s2">&gt;&gt; This is Farsight base. Alpha base is</p>
+<p begin="00:17:36.440" end="00:17:41.000" style="s2">gone silent. Do you copy? What happened</p>
+<p begin="00:17:38.480" end="00:17:41.000" style="s2">at Alpha?</p>
+<p begin="00:17:41.120" end="00:17:45.520" style="s2">&gt;&gt; There&#39;s nothing left.</p>
+<p begin="00:17:43.320" end="00:17:46.960" style="s2">&gt;&gt; Say again. Nothing of what? What</p>
+<p begin="00:17:45.520" end="00:17:49.840" style="s2">happened out there?</p>
+<p begin="00:17:46.960" end="00:17:49.840" style="s2">Give me your coordinates.</p>
+<p begin="00:18:09.520" end="00:18:12.840" style="s2">&gt;&gt; What is that thing?</p>
+<p begin="00:18:10.840" end="00:18:14.200" style="s2">A giant with no head? How did that</p>
+<p begin="00:18:12.840" end="00:18:15.920" style="s2">happen?</p>
+<p begin="00:18:14.200" end="00:18:17.080" style="s2">&gt;&gt; You don&#39;t know what that is?</p>
+<p begin="00:18:15.920" end="00:18:20.360" style="s2">&gt;&gt; No.</p>
+<p begin="00:18:17.080" end="00:18:20.360" style="s2">We&#39;ve only seen the smaller ones.</p>
+<p begin="00:18:36.132" end="00:18:38.152" style="s2">&gt;&gt; [panting and sighs]</p>
+<p begin="00:18:38.200" end="00:18:43.440" style="s2">&gt;&gt; Stupid machine.</p>
+<p begin="00:18:40.280" end="00:18:43.440" style="s2">LOOK WHAT YOU DID.</p>
+<p begin="00:18:47.680" end="00:18:52.320" style="s2">&gt;&gt; Anyone listening?</p>
+<p begin="00:18:49.000" end="00:18:52.320" style="s2">&gt;&gt; Farsight here. We copy.</p>
+<p begin="00:18:58.160" end="00:19:02.160" style="s2">&gt;&gt; CONTACT BELOW. CONTACT BELOW.</p>
+<p begin="00:19:13.680" end="00:19:14.160" style="s2">&gt;&gt; OH</p>
+<p begin="00:19:14.123" end="00:19:16.920" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:19:14.160" end="00:19:16.920" style="s2">&gt;&gt; GOD, FARSIGHT.</p>
+<p begin="00:19:22.560" end="00:19:27.040" style="s2">HELP! SOMEBODY HELP ME!</p>
+<p begin="00:19:40.978" end="00:19:46.440" style="s2">&gt;&gt; [groaning]</p>
+<p begin="00:19:41.600" end="00:19:46.440" style="s2">&gt;&gt; RUN! FASTER! RUN! RUN!</p>
+<p begin="00:20:08.400" end="00:20:15.520" style="s2">STAY HERE. I&#39;LL HANDLE IT.</p>
+<p begin="00:20:11.760" end="00:20:15.520" style="s2">BOLT, KNIFE, HELP HANDLE THIS WET.</p>
+<p begin="00:20:22.244" end="00:20:24.264" style="s2">&gt;&gt; [groaning]</p>
+<p begin="00:20:51.064" end="00:20:53.084" style="s2">[groaning]</p>
+<p begin="00:21:52.440" end="00:21:55.560" style="s2">&gt;&gt; HEY.</p>
+<p begin="00:21:53.720" end="00:21:58.080" style="s2">HEY, WHO ARE YOU?</p>
+<p begin="00:21:55.560" end="00:21:59.240" style="s2">ARE YOU THE SENTELLA FROM THE BARN?</p>
+<p begin="00:21:58.080" end="00:22:02.840" style="s2">&gt;&gt; GO, B.</p>
+<p begin="00:21:59.240" end="00:22:02.840" style="s2">GO. ARE YOU OKAY?</p>
+<p begin="00:22:20.800" end="00:22:22.820" style="s2">&gt;&gt; [gasps and panting]</p>
+<p begin="00:22:55.480" end="00:22:59.000" style="s2">&gt;&gt; HEY, THERE&#39;S A MAN OVER THERE.</p>
+<p begin="00:23:01.760" end="00:23:05.520" style="s2">&gt;&gt; I&#39;m running right through.</p>
+<p begin="00:23:03.560" end="00:23:08.200" style="s2">BRANCH IS WHIPPING BACK.</p>
+<p begin="00:23:05.520" end="00:23:08.200" style="s2">GOT ME.</p>
+<p begin="00:23:10.400" end="00:23:14.480" style="s2">&gt;&gt; COME OVER HERE. WE JUST want to talk.</p>
+<p begin="00:23:26.301" end="00:23:28.321" style="s2">&gt;&gt; [groaning]</p>
+<p begin="00:23:30.680" end="00:23:32.851" style="s2">&gt;&gt; WHERE&#39;S DANA?</p>
+<p begin="00:23:31.920" end="00:23:33.240" style="s2">&gt;&gt; WHERE&#39;S BOBBY?</p>
+<p begin="00:23:32.851" end="00:23:35.600" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:23:33.240" end="00:23:35.600" style="s2">&gt;&gt; DANA!</p>
+<p begin="00:23:35.880" end="00:23:40.560" style="s2">&gt;&gt; DANA?</p>
+<p begin="00:23:37.040" end="00:23:40.560" style="s2">DANA? DANA?</p>
+<p begin="00:23:44.641" end="00:23:46.661" style="s2">&gt;&gt; [cough]</p>
+<p begin="00:23:54.320" end="00:23:59.520" style="s2">&gt;&gt; Why did they take Centella?</p>
+<p begin="00:23:56.920" end="00:24:01.200" style="s2">&gt;&gt; It saved our lives so many times.</p>
+<p begin="00:23:59.520" end="00:24:04.680" style="s2">&gt;&gt; Maybe it&#39;s like the other one. Maybe it</p>
+<p begin="00:24:01.200" end="00:24:04.680" style="s2">has that purple thing in its head.</p>
+<p begin="00:24:06.720" end="00:24:09.240" style="s2">&gt;&gt; Then why were they hunting us?</p>
+<p begin="00:24:08.040" end="00:24:10.400" style="s2">&gt;&gt; That makes no sense.</p>
+<p begin="00:24:09.240" end="00:24:13.120" style="s2">&gt;&gt; Nothing makes sense anymore.</p>
+<p begin="00:24:10.400" end="00:24:15.840" style="s2">&gt;&gt; So what do we do?</p>
+<p begin="00:24:13.120" end="00:24:15.840" style="s2">&gt;&gt; Keep walking.</p>
+<p begin="00:24:36.920" end="00:24:40.040" style="s2">&gt;&gt; That&#39;s Centella.</p>
+<p begin="00:24:38.680" end="00:24:43.320" style="s2">&gt;&gt; It&#39;s alive.</p>
+<p begin="00:24:40.040" end="00:24:43.320" style="s2">&gt;&gt; Let&#39;s go. Go. Go. Go.</p>
+<p begin="00:24:53.360" end="00:24:55.320" style="s2">&gt;&gt; Centinel!</p>
+<p begin="00:24:54.360" end="00:24:58.320" style="s2">&gt;&gt; CENTINEL!</p>
+<p begin="00:24:55.320" end="00:24:58.320" style="s2">&gt;&gt; CENTINEL!</p>
+<p begin="00:25:04.552" end="00:25:06.572" style="s2">&gt;&gt; [groaning]</p>
+<p begin="00:25:07.920" end="00:25:11.080" style="s2">&gt;&gt; WHAT IS HAPPENING TO HIM?</p>
+<p begin="00:25:24.280" end="00:25:29.040" style="s2">&gt;&gt; WHAT&#39;S HAPPENING TO HIM?</p>
+<p begin="00:25:25.840" end="00:25:29.040" style="s2">SENTINEL, STOP!</p>
+<p begin="00:25:36.960" end="00:25:41.240" style="s2">NO! SENTINEL, FIGHT IT!</p>
+<p begin="00:26:21.188" end="00:26:23.208" style="s2">&gt;&gt; [music]</p>
+<p begin="00:27:08.348" end="00:27:10.368" style="s2">[clears throat and snorts]</p>
+<p begin="00:27:10.968" end="00:27:12.988" style="s2">[gasps]</p>
+<p begin="00:27:13.400" end="00:27:18.120" style="s2">&gt;&gt; HE sacrificed himself for us.</p>
+<p begin="00:27:16.208" end="00:27:20.640" style="s2">&gt;&gt; [gasps]</p>
+<p begin="00:27:18.120" end="00:27:23.360" style="s2">&gt;&gt; When he died, the giant went dark, too.</p>
+<p begin="00:27:20.640" end="00:27:26.520" style="s2">They must be connected somehow.</p>
+<p begin="00:27:23.360" end="00:27:28.080" style="s2">Did you see how it controlled Sentella?</p>
+<p begin="00:27:26.520" end="00:27:32.040" style="s2">&gt;&gt; So, that means</p>
+<p begin="00:27:28.080" end="00:27:32.040" style="s2">for every Sentilla, there&#39;s an ancient?</p>
+</div>
+</body>
+</tt>

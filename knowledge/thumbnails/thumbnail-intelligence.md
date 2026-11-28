@@ -175,3 +175,107 @@ The Lioren thumbnail uses a contemporary hidden-royalty composite: hooded poor-s
 Evidence source: `knowledge/market/drama-aura-whispering-relics-object-testimony-provenance-deep-dive.md` and `data/raw/thumbnails/drama_aura/23iAlK2FVyA.maxresdefault.webp`.
 
 This thumbnail sells mechanism directly: protagonist centered with open hands while clocks, jewelry, papers, pearls, books, and relics orbit in golden magical trails. It avoids reducing the premise to romance/wealth and instead promises object memory. Useful original-design principle: when the hook is perception/authorship, let multiple meaningful objects create orbital visual rhythm around the protagonist rather than using a generic couple embrace.
+
+## Hidden-competence split-self crowd thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/jasmine-drama-reborn-assassin-competence-cascade-deep-dive.md` and `data/raw/thumbnails/jasmine_drama/AaLngUHEqVY.maxresdefault.jpg`.
+
+The Jasmine thumbnail uses a hidden-competence split-self crowd pattern: socially trapped schoolgirl victim in the foreground, spatially separated armed alter ego behind her, and a public humiliation crowd surrounding both. It differs from a simple before/after transformation split because the crowd supplies moral pressure and the hidden self supplies competence in the same frame. Reusable mechanism: present victimhood + hidden-power self + hostile audience must form one mobile-legible triangle. Do not copy the schoolgirl/knife composition; design an original triangle around the film's actual wound, competence, and public misrecognition.
+
+## Boundary-touch creature-family thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/fableheart-hunters-mark-compressed-wish-creature-family-deep-dive.md` and `data/raw/thumbnails/fableheart_films/83i28EMbqqk.maxresdefault.webp`.
+
+The Fableheart thumbnail uses boundary-touch creature-family packaging: human father on rock, mermaid mother in water, hybrid child reaching across the boundary, and a huge starry tail behind the relationship. The spectacle is truthful but subordinate to the emotional action. Reusable mechanism: place the child/protagonist as a physical bridge between incompatible worlds and let magical scale frame the near-touch rather than replace it.
+
+
+## Taboo-family recognition collage thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/dramashine-mafia-bestie-dad-taboo-irony-deep-dive.md` and `data/raw/thumbnails/dramashine_ai/XL0d9SmAA1M.jpg`.
+
+The DramaShine thumbnail uses a taboo-family recognition collage: central age-gap intimate embrace, luxury chandelier wealth, public-dance inset, chaotic devil-costume best friend, shocked phone/facial-recognition inset, and oversized gold “Bestie's Tyrant Dad” typography. The packaging sells the relational recognition shock more clearly than the mafia/crime element. Reusable mechanism: combine romantic intimacy, the socially forbidden witness, and the discovery device in one mobile-legible triangle. Do not copy the exact glossy collage; design original thumbnails around the film's actual forbidden relation, protector/misdirector, and reveal object. This is packaging-pattern evidence, not CTR proof.
+
+
+## Relational re-choice spatial-geometry thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/lotus-crown-alpha-fated-mate-elf-king-deep-dive.md` and `data/raw/thumbnails/lotus_crown_drama/dHdkaKb3_S8.maxresdefault.jpg`.
+
+The Lotus Crown thumbnail uses relational re-choice spatial geometry: the platinum/purple-eyed heroine is centered as the decision-maker, the dark alpha/betrayer and crying rival occupy the left pressure side, and the blonde elf king on the right reaches toward her as the chosen alternative. Ballroom/chandelier/red-petal cues sell public ceremony and status stakes rather than generic fantasy landscape. The mirrored copy pair — “HE CHOSE HIS FATED MATE. I CHOSE THE ELF KING.” — converts humiliation into counter-choice. Reusable mechanism: arrange past coercion, protagonist agency, and chosen alternative as a mobile-legible left/center/right decision map, and use mirrored title syntax to make agency the promise. Do not copy the exact werewolf/elf collage; this is packaging-pattern evidence, not CTR proof.
+
+## Restitution-perception gothic ensemble thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/mini-series-five-vampires-demon-pact-deep-dive.md` and `data/raw/thumbnails/mini_series_drama/yA_UfmmVAG0.maxresdefault.webp`.
+
+The Mini Series Drama thumbnail uses red gothic ensemble packaging: silver-haired heroine centered, blonde vampire king close behind her, multiple vampire men/women surrounding the relational field, and red moon/castle/candles/roses establishing genre. The mirrored copy — “I MARRIED THE VAMPIRE KING / AFTER THEY BETRAYED ME” — sells ensemble betrayal plus romantic upgrade. Inside the film, however, the stronger distinctive asset is perception restitution: lace blindfold versus awakened red eyes. Reusable principle: for restitution/vision-irony stories, make the perception contrast itself visible — covered eye versus awakened eye, silenced mouth versus voiced testimony, missing memory versus restored record — with betrayers and the boundary-setting alternative arranged as competing forces. Do not copy the exact vampire collage; this is packaging-pattern evidence, not CTR proof.
+
+## Unwanted-wife-to-princess luxury transformation addendum (2026-11-27)
+
+`DD35huaUIa8` uses a luxury romance collage: central background kiss, separated dark-haired man and brown-haired woman, chandelier/roses, and large transformation copy `From Unwanted Wife to Lycan Princess`. Despite the title's pregnancy-abandonment hook, the thumbnail does not visually foreground pregnancy or maternal danger. Reusable principle: transformation packaging can foreground class/romantic reclassification even when the actual retention engine is maternal-professional sovereignty. For original concepts, test whether the thumbnail should show the dependent-risk object or proof-bearing professional arena rather than defaulting to a generic romantic triangle. This is packaging evidence, not CTR proof.
+
+## Protective-family ensemble thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/mythora-viper-bride-protective-kinship-deep-dive.md` and `data/raw/thumbnails/mythora_realm/5vGUIhUlt0A.maxresdefault.jpg`.
+
+The Mythora thumbnail uses protective-family ensemble packaging: crowned blonde bride centered, dark armored dragon lord behind/right, two daughters foregrounded as the emotional stakes, dragon/castle/banners/roses supplying fantasy scale, ornate gold `The Viper Bride Who Tamed the Dragon Lord` copy, and a red `FULL` badge. It sells family-unit transformation and romantic fantasy royalty more than the title's fierce-protector conflict; the bride does not look viper-like, so monstrosity is displaced onto the husband/dragon imagery. Reusable principle: for protective-kinship stories, a warm family tableau can make a harsh stigmatized-caregiver premise emotionally safe, but original variants should consider making child protection agency visible through posture, object evidence, or defensive formation rather than relying only on royal attractiveness. This is packaging-pattern evidence, not CTR proof.
+
+## Constructive-restoration sci-fi mechanic thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/nexora-mechanic-constructive-scifi-deep-dive.md` and `data/raw/thumbnails/nexora_cinema/KcaifB7MhwQ.maxresdefault.jpg`.
+
+The NEXORA thumbnail uses occupational identity packaging: a masked female mechanic dominates the left foreground with goggles, hood, armor, and direct green-eyed gaze; desert caravan/beast mounts occupy the middle ground; a futuristic ring-city creates scale behind; warm ochre desert tones contrast with cool blue technological atmosphere; huge brass `THE MECHANIC` typography turns craft into mythic identity. It sells competence, solitude, and world scale rather than romance or threat. Reusable principle: for constructive-restoration sci-fi, make the maker's tools/mask/posture readable at mobile size and let infrastructure scale sit behind the person, implying that technical competence can reorganize the world. Original variants should show a distinct trade object or repair consequence rather than copying the exact mechanic/caravan/ring-city arrangement. This is packaging-pattern evidence, not CTR proof.
+
+## Dual-incognito workplace transformation thumbnail addendum (2026-11-27)
+
+Evidence source: `knowledge/market/cineai-grand-crescent-dual-incognito-workplace-deep-dive.md` and `data/raw/thumbnails/cineai/cineai/gw1SsVcha0Y.maxresdefault.jpg`.
+
+The CineAI hit thumbnail uses dual-state identity mirroring: staff-uniform Adrian/Sophie in the foreground, wealthy/formal versions behind them, the Grand Crescent hotel as institutional anchor, and simple white/gold copy `HE LOST EVERYTHING`. It packages class inversion, workplace identity, and romance as one legible contradiction rather than generic luxury. The medium contract-wife thumbnail is polished but more trope-generic; the low Thanksgiving thumbnail is coherent but ensemble-heavy, so low performance cannot be blamed on obviously poor execution. Reusable principle: for workplace hidden-status stories, show the same person or couple across labor/status states with the institution anchoring the transformation, and consider making the work uniform/proof object readable at mobile size. Do not copy the exact hotel, poses, typography, or composition. This is packaging-pattern evidence, not CTR proof.
+
+
+## Heart Flush hidden-kinship packaging lesson — 2026-11-28
+
+Reference index: `data/processed/heartflush_thumbnail_reference_index.json`; report: `knowledge/market/heartflush-hidden-supernatural-kinship-hit-medium-low-comparison.md`. The hit thumbnail works because it makes information asymmetry visible: five children occupy the foreground, one holds/points toward the truth object, the adults stare across an unresolved hidden bond, and the wolf/Christmas frame supplies threat plus warmth. The low child-care comparator is polished and readable but mainly communicates nanny chaos/cuteness; it does not communicate hidden biological kinship or progressive discovery. Reuse rule: encode who knows what inside the family image and make the hidden relational truth legible at mobile scale; do not copy wolves, Christmas, quintuplets, faces, or exact composition.
+
+
+## Beluluga NOCTURNE serialized intimate period packaging
+
+NOCTURNE adds a useful prestige-serial packaging contrast: the full-season hit uses restrained emotional close-up plus completion/prestige promise, while stronger episode/compilation packaging makes the choice triangle spatially legible. Direct two-person intimacy alone is emotionally readable but less distinctive than intimacy plus a visible third-party/social complication. For original concepts, encode private/public tension or observer-desired-ruler geometry through eye-lines, spatial arrangement, period costume, and one question-led title; do not copy the literal Grand Duke/pianist imagery. No CTR causality is available.
+
+
+## Story Vault trauma-informed child-care packaging
+
+The low-subscriber silent-child hit uses a highly specific packaging mechanism: a hidden powerful observer watches a practitioner perform culturally specific care for a vulnerable child, while a short plea (“DON'T STOP. PLEASE.”) turns continuation itself into the curiosity gap. This is more distinctive than generic wealth/romance imagery because the spatial triangle explains who cares, who watches, and who is vulnerable. Corporate/revenge thumbnails with labels and arrows can be legible but may over-explain the reversal. The very-low-view graduation transgression thumbnail is still visually strong, so use it as anti-overfit evidence rather than calling it a bad thumbnail.
+
+
+## EchoDrama appearance-transformation packaging
+
+The hidden-beauty hit sells hidden worth through a warm elite-school triangle, luminous central protagonist, rivalry, and prestige typography without showing the stigmatized body. The direct low comparator uses a crying fat bride versus an idealized blonde plus body-shaming title text and fairy sparkle inside corporate luxury imagery. Treat this as packaging-risk evidence, not CTR causality: sell aspiration/re-recognition, avoid stigma spectacle, and keep transformation genre signals coherent.
+
+
+## Drakenhart scale-bridge packaging
+
+The tiny-kingdom hit makes hidden civilization and size contrast legible as one visual question: explorer, luminous roots/cave, and a built miniature world. Familiar fairy-tale inversion can perform through object/identity clarity, while creature-child royalty packaging is weaker differentiation when creature-family protection is already crowded. Treat this as packaging evidence, not CTR causality.
+
+
+## Sienna institutional-revenge packaging
+
+The psychiatric-labeling hit uses a dense evidence-board thumbnail: financial records, equity transfer documents, psychiatric evaluation, confined stamp, falling papers, and collapsing market screens. This is more mechanism-specific than interchangeable luxury-couple hidden-heiress packaging. Reuse the principle, not the layout: make the instrument of control and the counter-evidence object system visible while positioning the protagonist as investigator/claimant.
+
+
+## Duplicate-upload mechanism-legibility experiment
+
+AI SweetDrama `bAjeNeQ9DGc` and Sienna `PRnC5o30VjE` are visually duplicate versions of the same-duration film with radically different discovery (~684k vs 40 at collection). Channel/timing/recommendation confounds mean this is not CTR evidence, but it is strong anti-overfit evidence that identical story craft can succeed or fail in distribution. The breakout thumbnail adds office/X Tech/patent/contract/chip artifacts to the romance; the low comparator shows only polished luxury couple imagery. Reuse: hidden-competence romance packaging should reveal at least one competence/institutional artifact, not merely wealth/romance.
+
+
+## Nightfall elder-care packaging
+
+The remittance hit thumbnail sells one relational contradiction — elderly mother with rice bag outside a store versus affluent son with suitcase, plus the recognition question “MOM?” The medium coffee-assault thumbnail is legible but more spectacle/explanation driven. The low ranch comparator is attractive but diffuse: snowy setting, people, dog, no object/wound/question. Reuse: dignity-restoration thumbnails need one object that makes the relational wound visible; do not treat this as CTR proof.
+
+
+## Gilded Myth folk-legend packaging
+
+The two hits use culturally explicit legend typography plus a singular creature/environment relation: moss giant and small woman in a Basque forest; golden serpent woman above an Anatolian city. The Kanlaon comparator has clear relational warmth but less large-scale cultural geography. The near-zero Half-Orc thumbnail is polished but crowded generic ensemble-war fantasy. Reusable hypothesis: one culturally specific creature/ecosystem relation beats interchangeable warrior-ensemble polish for this channel. Not CTR proof.
+
+
+## Verse education-theft packaging
+
+The hit thumbnail physically dramatizes education theft: a parent tugs textbooks from the daughter, the uniformed sister appears as beneficiary, work papers and a rebirth clock clarify the mechanism. The medium luxury-family confrontation is emotionally legible but less object-specific. The low breakfast-vendor image is warm and polished but hides the false-poverty test and class conflict. Reuse: stolen-resource stories need the stolen object visibly contested; this is not CTR proof.

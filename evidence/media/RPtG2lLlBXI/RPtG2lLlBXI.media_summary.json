@@ -1,0 +1,70 @@
+{
+  "video_id": "RPtG2lLlBXI",
+  "probe": {
+    "duration": 1763.300136,
+    "size": 98150982,
+    "width": 640,
+    "height": 360,
+    "fps": "24/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\RPtG2lLlBXI\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\RPtG2lLlBXI\\contact_sheets\\contact_001.jpg",
+    "evidence\\media\\RPtG2lLlBXI\\contact_sheets\\contact_002.jpg",
+    "evidence\\media\\RPtG2lLlBXI\\contact_sheets\\contact_003.jpg",
+    "evidence\\media\\RPtG2lLlBXI\\contact_sheets\\contact_004.jpg"
+  ],
+  "seconds_indexed": 1763,
+  "shot_count": 54,
+  "shot_length_mean_seconds": 32.648148148148145,
+  "shot_length_median_seconds": 12.5,
+  "shot_length_p90_seconds": 91.50000000000004,
+  "visual_motion_mean": 0.10245120119329146,
+  "visual_brightness_mean": 0.27922376625680156,
+  "dialogue_cues": 358,
+  "narrative_markers": {
+    "first_conflict_language": null,
+    "first_power_or_identity_language": {
+      "time": 499.75,
+      "text": "I look forward to working with you all!"
+    },
+    "first_care_or_belonging_language": {
+      "time": 86.708,
+      "text": "Thank you!"
+    },
+    "dialogue_words_per_minute": [
+      90,
+      90,
+      84,
+      89,
+      54,
+      78,
+      95,
+      17,
+      63,
+      101,
+      102,
+      19,
+      38,
+      25,
+      38,
+      18,
+      23,
+      71,
+      50,
+      37,
+      60,
+      88,
+      103,
+      8,
+      36,
+      123,
+      80,
+      61,
+      51,
+      20
+    ],
+    "cue_count": 358
+  }
+}

@@ -240,3 +240,77 @@ A strong first minute is only a hook, not a retention system. By minute 3–5 th
 4. what visible payoff the film is promising.
 
 Do not let identity verification, records, contracts, files, or proof objects consume the opening unless every proof also changes power or relationship. The EchoDrama comparison shows that even a strong child-father hook can lose urgency when the next minutes become administrative verification. Convert evidence into emotional consequence immediately.
+
+
+## Period autonomy romance doctrine — TeawithJay evidence
+
+Period romance is strongest when the social machine exists before desire: leases, dowries, titles, blacklists, arranged alliances, reputation, and family command must materially constrain choice. The heroine should diagnose objectification precisely (transaction/property/ownership), not merely act “feisty.” Artistic or intellectual labor must remain part of the ending rather than decorative backstory.
+
+Male power becomes romantic only after the powerful man confronts the machinery that benefits him. Coercion cannot be laundered by wealth, protection, or later tenderness; it requires acknowledgement, reversible choice, and behavioral repair. Arranged rivals should retain perception and agency: a rival who ends the match by choice is stronger than a humiliated obstacle. Accusations are most satisfying when resolved through bodily evidence, expert testimony, public demonstration, or procedure.
+
+For format decisions: complete films can outperform chopped serial chapters when the audience has not yet bonded to the property; sequel chapters can perform when prior attachment exists, but each chapter still needs a causally motivated micro-closure/hook. Low-discovery historical epics may be strong-craft counterexamples, so do not confuse audience-contract mismatch with bad writing.
+
+
+## Hidden supernatural kinship doctrine — Heart Flush evidence
+
+Heart Flush's fresh hit demonstrates that child multiplicity is not enough. The strongest mechanism is a hidden kinship staircase: concealment starts from credible custody/safety fear, each newly discovered child changes adult knowledge and power, and evidence escalates from birthmark suspicion to DNA/bloodline/camera/record verification. Children need concrete missions and bounded agency; supernatural power must carry public exposure rules or cost. The caregiver must retain independent competence beyond motherhood/romance, and family prejudice must be answered through material truth rather than lineage alone. The low-performing child-care comparator is an anti-overfit counterexample: polished visuals, explicit choice, cute pups, coherent wedding, and material power reversal still had low discovery because the children were already known and the plot centered caregiver acceptance rather than progressive hidden-family revelation. Do not infer weak writing or CTR failure from low discovery. In originals, reuse the mechanics — visible knowledge gap, progressive revelation, evidence-backed vindication — never copy wolves, Christmas, quintuplets, or plot wording. After public reversal, dramatize secure ordinary family belonging instead of using pregnancy/status as instant closure.
+
+
+## Public dignity-transgression doctrine — HeartScene evidence
+
+HeartScene's slap serial demonstrates a contemporary non-fantasy mechanism: one public status-based transgression can power a consequence chain when the target offered verification, bystanders/enablers are confronted, and power responds through proportionate boundaries rather than revenge. Victims need care, documentation, labor protection, and choice; helpers need independent competence plus real economic cost. In serial form, close a micro-objective such as the engagement boundary, then continue through specific procedural hooks like venue footage, compliance review, or formal complaint. The low comparator is a strong-craft counterexample: coherent corporate betrayal, murder accountability, and trust-repair dialogue still had low discovery, so diffusion is only an observable packaging/structure difference, not proof of weak writing or CTR causality. Thumbnails should visualize a moral triangle — aggressor, wronged target, relational judge — around one legible dignity violation.
+
+
+## Serialized patronage art-longing doctrine — Beluluga NOCTURNE evidence
+
+NOCTURNE demonstrates a distinct slow-burn serial mechanism: the central art object is not decoration but the only safe language for a socially unspeakable bond. Give the artwork a repeatable unresolved element — a bar, movement, sentence, image flaw, or unfinished design — and let different characters reveal themselves through how they handle it. Commanding the object, truly listening to it, rescuing the instrument, returning the manuscript, and completing a second movement should all carry different relational meanings.
+
+Patronage is strongest when it is genuinely caring and materially useful while also becoming a trap because it is the only name society permits for the relationship. Do not reduce the patron to a villain or the rival to a possessive obstacle. In the reference, material duty is concrete — army, Crown, house, war, family command — and the alternative attachment is differentiated by listening and noticing rather than ownership. Love can fail or pause because it lacks a social form: “I choose you” is incomplete unless the story answers “as what?”
+
+For serialized execution, each episode should close a concrete intimacy/professional unit (recital preparation, invitation, patronage boundary, performance) before opening a specific family/institutional/creative hook. The season ending should preserve independent home, craft, invitation, or continued composition instead of laundering dependence into romantic possession. Bodily or performative capacity — hand, voice, hearing, sight, stamina — should carry real cost when art is the protagonist's identity.
+
+Anti-overfit caution: compilation performance cannot prove long runtime or slow pacing caused demand. EP3 is lower-viewed yet contains strong micro-closure and a specific hook; treat format/distribution separately from writing quality.
+
+
+## Trauma-informed child voice doctrine — Story Vault evidence
+
+The silent-child hit demonstrates that care must be a repeatable practice rather than generic kindness. Quantify care failure and institutional threat immediately, then give the caregiver a sensory/cultural routine with history — braiding, food, music, repair, sign language, textile work, or another teachable ritual. The child must communicate before speech through laughter, objects, writing, choosing, spelling, drawing, or gesture. Adults should learn to read those channels instead of forcing speech or accepting the “broken child” frame.
+
+Powerful parents must change behaviorally: stop delegating, enter the care space, learn the routine, and show up repeatedly. Antagonism is strongest when institutional and material — trust, custody, shares, debt, doctor/report authority — while exposure turns on procedural detail rather than shouting. Child-chosen testimony or communication should be pivotal, and restitution must be material: earned pay, returned property, dropped charges, public apology, lease/rent, or community protection rather than charity. End by transforming household/institutional culture, ideally by rhyming the opening care/hiring ritual under new rules. Romance remains subordinate to child safety and explicit power boundaries.
+
+The channel's very-low-view graduation film is a strong-craft counterexample: public degradation, consent refusal, forged-document evidence, public apology, and earned professional restitution are all present. Do not infer weak writing or packaging failure from early low discovery.
+
+
+## Appearance-capital transformation doctrine — EchoDrama evidence
+
+Appearance transformation is strongest when it exposes and reverses a social gaze rather than rewarding conformity. Stigma may open the wound, but family obligation, craft, school/work institutions, or a concrete role must supply the engine. Transformation requires time, practice, cost, and rules. Durable identity evidence — voice, talent, letters, memory, prior rescues, craft, or choices — must survive the new face. The powerful/desired character must re-recognize the person rather than merely desire the transformed surface. Evidence, documents, witnesses, law, or observed action should expose truth. Endings are strongest when they create reciprocal choice, communal recognition, graduation/work validation, or material justice. EchoDrama's low masked-revenge comparator is strong-craft anti-overfit evidence: low discovery does not prove weak writing, but packaging/contract risk rises when body-shaming spectacle, beauty substitution, and incompatible fairy/corporate signals dominate.
+
+
+## Scale-bridge stewardship doctrine — Drakenhart evidence
+
+Tiny-world or scale-bridge fantasy works when scale is physical, spatial, social, and ecological rather than spectacle. The outsider arrival must have material consequences; the micro-civilization needs labor, infrastructure, governance, defense, rules, and resource practices. Outsider expertise should be limited and reciprocal, with objects/knowledge/practices changing both worlds. Travel or power needs scale-specific cost and limits. Return/stay choices should be relational and duty-driven, and endings should rebuild shared infrastructure or establish continuing stewardship rather than escape alone. Wonder becomes producible when grounded in tactile objects and systems such as maps, tools, bottle caps, roots, doors, bridges, seeds, or light.
+
+
+## Coerced psychiatric-labeling doctrine — Sienna Brooks evidence
+
+False psychiatric labeling works as a revenge mechanism only when it is coercive control with legal and material consequences. Establish sacrificed invisible labor first, then weaponize diagnosis publicly, tie confinement to signatures/assets/marriage law, and give the protagonist immediate assertions of sanity, communication, counsel, and legal personhood. Institutional coercion must be concrete: locked rooms, restraints, injections, hunger, controlled visits, false records. Escape should use procedure or credible counterpower. Hidden competence must re-enter systems operationally, and exposure should rely on documentary evidence such as forged signatures, shell companies, transfer records, account keys, and charging documents. End with legal/material restitution and rejection of abuser reconciliation. Never treat actual mental illness as violence, monstrosity, or comedy; the antagonist is coercive labeling and institutional abuse.
+
+
+## Distribution anti-overfit warning — duplicate-upload evidence
+
+The `bAjeNeQ9DGc`/`PRnC5o30VjE` duplicate case shows the same-duration, visually matching film can receive radically different discovery under different packaging/channel conditions. Therefore low views are never sufficient evidence of weak writing, and high views are never sufficient evidence of superior screenplay. Evaluate craft independently from distribution, then evaluate whether packaging exposes the actual mechanism.
+
+
+## Elder-remittance care doctrine — Nightfall evidence
+
+When family care is delegated through money or a proxy, do not treat remittance as care. Establish the contradiction immediately: exact support sent vs food/medicine/autonomy missing. Proxy exploitation must be material and procedural: keys, food access, phone blocks, medication, accounts, power of attorney, guardianship, falsified capacity documents. Preserve elder selfhood through craft/work/memory/judgment. Break misinformation through unannounced witnessing, then reverse credentialed lies with ordinary records and witnesses. The elder must speak for herself. End by revoking false authority and converting money into consented presence, care infrastructure, craft continuity, and community dignity.
+
+
+## Folk ecological reciprocity doctrine — Gilded Myth evidence
+
+For culturally grounded fantasy legends, supernatural beings should function as part of ecological or communal infrastructure, not as mascots or treasures. Ground the opening in material labor and local practice; make extraction/enclosure/broken reciprocity the central conflict; give human mediators bounded oaths rather than ownership; make betrayal physically costly through slope, water, illness, fire, or seasonal closure; expose lies through ordinary evidence; restore the commons; and end in memory/continuity. Low-discovery folk/ecological stories can still be strong craft, so do not treat discovery as a writing-quality oracle.
+
+
+## Education-theft false-poverty doctrine — Verse evidence
+
+When education or future opportunity is stolen inside a family, open inside the coercion and immediate refusal. Make false poverty procedural: exact tuition, labor extraction, hidden assets, luxury contradiction, resource transfer to a favored child, and filial-duty shame. Let resistance compound through work, study, law, witnesses, exams, admissions, and later career/ownership. Expose the performance publicly through records/witnesses/visual contradictions. End with boundaries and procedural fairness rather than forced reconciliation. If false poverty is a protective romantic test rather than exploitation, deception still requires apology, repair, and respect for honest labor autonomy.

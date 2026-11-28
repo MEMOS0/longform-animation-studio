@@ -1,0 +1,43 @@
+{
+  "evidence_class": "tier_1_metadata_plus_visual_inspection",
+  "causality_warning": "Thumbnail observations are packaging evidence, not CTR proof.",
+  "items": [
+    {
+      "video_id": "lBhjowuJURw",
+      "path": "data/raw/thumbnails/echodrama/lBhjowuJURw.jpg",
+      "performance_position": "hit",
+      "visual_mechanics": [
+        "warm elite-school aspiration",
+        "luminous central protagonist",
+        "male-interest/antagonist triangle",
+        "gold prestige typography",
+        "hidden worth without depicting stigmatized body"
+      ],
+      "reusable_concept": "Package appearance transformation as hidden worth and relational rivalry rather than before/after shame."
+    },
+    {
+      "video_id": "vjTsO9aavbc",
+      "path": "data/raw/thumbnails/echodrama/vjTsO9aavbc.jpg",
+      "performance_position": "medium",
+      "visual_mechanics": [
+        "romantic memory-loss mystery",
+        "cooler supernatural/school atmosphere",
+        "less explicit transformation payoff"
+      ],
+      "reusable_concept": "Memory romances need a visible question about recognition, not only attractive couple imagery."
+    },
+    {
+      "video_id": "kUjychTP7U8",
+      "path": "data/raw/thumbnails/echodrama/kUjychTP7U8.jpg",
+      "performance_position": "low_direct_same_mechanism_not_failure_proof",
+      "visual_mechanics": [
+        "crying fat bride contrasted with idealized blonde",
+        "explicit body-shaming subtitle",
+        "corporate luxury mixed with fairy sparkle",
+        "stigma spectacle over re-recognition"
+      ],
+      "reusable_concept": "Do not turn the wounded body into spectacle; unify supernatural and corporate genre signals around one legible transformation object."
+    }
+  ],
+  "craft_rule": "Appearance-transformation packaging should sell hidden worth, aspiration, and recognition while avoiding body-shaming spectacle and genre-contract confusion."
+}

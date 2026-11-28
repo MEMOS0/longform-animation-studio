@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:03.900" end="00:00:09.000" style="s2">Help me. Smash the vase and get me out.</p>
+<p begin="00:00:09.600" end="00:00:13.500" style="s2">&gt;&gt; I&#39;m totally broke. I wonder when I&#39;ll</p>
+<p begin="00:00:11.900" end="00:00:14.800" style="s2">finally get paid.</p>
+<p begin="00:00:13.500" end="00:00:16.400" style="s2">&gt;&gt; Serena,</p>
+<p begin="00:00:14.800" end="00:00:17.800" style="s2">stopped working again? Are you</p>
+<p begin="00:00:16.400" end="00:00:19.700" style="s2">daydreaming?</p>
+<p begin="00:00:17.800" end="00:00:22.500" style="s2">&gt;&gt; Mr. Arthur, when are you going to pay me</p>
+<p begin="00:00:19.700" end="00:00:24.900" style="s2">the wages you promised?</p>
+<p begin="00:00:22.500" end="00:00:27.800" style="s2">&gt;&gt; Paid? What are you rushing for? For the</p>
+<p begin="00:00:24.900" end="00:00:29.100" style="s2">garbage work you do? No money today.</p>
+<p begin="00:00:27.800" end="00:00:31.100" style="s2">Maybe next month.</p>
+<p begin="00:00:29.100" end="00:00:33.100" style="s2">&gt;&gt; You just sold a painting for $20,000</p>
+<p begin="00:00:31.100" end="00:00:36.100" style="s2">yesterday. Why say you have no money?</p>
+<p begin="00:00:33.100" end="00:00:38.200" style="s2">You&#39;re maliciously withholding my wages.</p>
+<p begin="00:00:36.100" end="00:00:41.400" style="s2">&gt;&gt; You little brat, HOW DARE YOU TALK BACK</p>
+<p begin="00:00:38.200" end="00:00:41.400" style="s2">TO ME? GET LOST.</p>
+<p begin="00:00:45.600" end="00:00:51.300" style="s2">YOU JINX. This is a 19th century</p>
+<p begin="00:00:47.800" end="00:00:53.000" style="s2">Imperial piece. It&#39;s worth $50,000.</p>
+<p begin="00:00:51.300" end="00:00:54.500" style="s2">If you can&#39;t pay for it today, I&#39;m</p>
+<p begin="00:00:53.000" end="00:00:56.600" style="s2">calling the cops and putting you in</p>
+<p begin="00:00:54.500" end="00:00:58.900" style="s2">jail.</p>
+<p begin="00:00:56.600" end="00:01:00.200" style="s2">&gt;&gt; Oh yeah, finally out of that cheap</p>
+<p begin="00:00:58.900" end="00:01:03.500" style="s2">shell.</p>
+<p begin="00:01:00.200" end="00:01:03.500" style="s2">So comfortable.</p>
+<p begin="00:01:04.190" end="00:01:06.210" style="s2">[gasps]</p>
+<p begin="00:01:07.700" end="00:01:11.400" style="s2">The green patina on me was created</p>
+<p begin="00:01:09.500" end="00:01:13.800" style="s2">yesterday by soaking me in sulfuric</p>
+<p begin="00:01:11.400" end="00:01:15.700" style="s2">acid. It hurt like hell.</p>
+<p begin="00:01:13.800" end="00:01:17.900" style="s2">Don&#39;t look at me. My printer ink isn&#39;t</p>
+<p begin="00:01:15.700" end="00:01:19.700" style="s2">even dry yet. I was just shipped from a</p>
+<p begin="00:01:17.900" end="00:01:21.800" style="s2">factory last week.</p>
+<p begin="00:01:19.700" end="00:01:24.700" style="s2">&gt;&gt; I awakened the ability to hear what</p>
+<p begin="00:01:21.800" end="00:01:27.600" style="s2">antiques are saying.</p>
+<p begin="00:01:24.700" end="00:01:31.100" style="s2">&gt;&gt; QUIT PRETENDING YOU&#39;RE DEAD. PAY UP.</p>
+<p begin="00:01:27.600" end="00:01:33.900" style="s2">&gt;&gt; 50,000, not a penny less.</p>
+<p begin="00:01:31.100" end="00:01:35.200" style="s2">&gt;&gt; 50,000 for a mass produced factory</p>
+<p begin="00:01:33.900" end="00:01:37.400" style="s2">knockoff?</p>
+<p begin="00:01:35.200" end="00:01:38.400" style="s2">Are you kidding me? Would a 19th century</p>
+<p begin="00:01:37.400" end="00:01:40.100" style="s2">Imperial</p>
+<p begin="00:01:38.400" end="00:01:41.600" style="s2">have microwave safe written in English</p>
+<p begin="00:01:40.100" end="00:01:43.300" style="s2">on the inside?</p>
+<p begin="00:01:41.600" end="00:01:44.600" style="s2">And that masterpiece on the wall, you</p>
+<p begin="00:01:43.300" end="00:01:46.300" style="s2">haven&#39;t even cleaned up the printer&#39;s</p>
+<p begin="00:01:44.600" end="00:01:48.900" style="s2">grid lines. Everything in this store</p>
+<p begin="00:01:46.300" end="00:01:51.300" style="s2">combined isn&#39;t worth $200. Call the</p>
+<p begin="00:01:48.900" end="00:01:53.700" style="s2">cops. Let&#39;s have the Consumer Bureau see</p>
+<p begin="00:01:51.300" end="00:01:56.300" style="s2">who&#39;s really going to jail for fraud. I</p>
+<p begin="00:01:53.700" end="00:01:59.800" style="s2">quit. Keep my last month&#39;s pay. Buy</p>
+<p begin="00:01:56.300" end="00:01:59.800" style="s2">yourself a decent coffin with it.</p>
+<p begin="00:02:00.100" end="00:02:03.192" style="s2">&gt;&gt; Interesting.</p>
+<p begin="00:02:01.592" end="00:02:05.492" style="s2">&gt;&gt; A bottom metal shop girl totally</p>
+<p begin="00:02:03.192" end="00:02:07.192" style="s2">unphased by a local snake. Find out</p>
+<p begin="00:02:05.492" end="00:02:09.392" style="s2">everything about her.</p>
+<p begin="00:02:07.192" end="00:02:11.392" style="s2">&gt;&gt; Hey girl, help me. Do not let my rusty</p>
+<p begin="00:02:09.392" end="00:02:13.292" style="s2">exterior deceive you.</p>
+<p begin="00:02:11.392" end="00:02:15.792" style="s2">Hidden inside this iron shell is a</p>
+<p begin="00:02:13.292" end="00:02:18.292" style="s2">flawless marble bust of a Greek saint. I</p>
+<p begin="00:02:15.792" end="00:02:20.692" style="s2">am WORTH AT LEAST $5 MILLION.</p>
+<p begin="00:02:18.292" end="00:02:24.692" style="s2">&gt;&gt; A $5 million Greek bust? If I get this,</p>
+<p begin="00:02:20.692" end="00:02:24.692" style="s2">I&#39;m rich. But I got to play it cool.</p>
+<p begin="00:02:25.092" end="00:02:27.992" style="s2">Boss, how much for this rusty lump of</p>
+<p begin="00:02:26.492" end="00:02:29.492" style="s2">metal? This thing is such a piece of</p>
+<p begin="00:02:27.992" end="00:02:30.192" style="s2">junk. I can&#39;t even make out its face</p>
+<p begin="00:02:29.492" end="00:02:31.992" style="s2">anymore.</p>
+<p begin="00:02:30.192" end="00:02:34.692" style="s2">&gt;&gt; Oh, little girl, you have no eye for</p>
+<p begin="00:02:31.992" end="00:02:36.592" style="s2">art. This is a genuine 15th century</p>
+<p begin="00:02:34.692" end="00:02:38.492" style="s2">Renaissance bronze bust. Look at this</p>
+<p begin="00:02:36.592" end="00:02:40.792" style="s2">patina. Look at the craftsmanship.</p>
+<p begin="00:02:38.492" end="00:02:42.792" style="s2">Absolute Medici family collection. If I</p>
+<p begin="00:02:40.792" end="00:02:45.192" style="s2">wasn&#39;t tight on cash, I wouldn&#39;t sell it</p>
+<p begin="00:02:42.792" end="00:02:48.092" style="s2">for $100,000.</p>
+<p begin="00:02:45.192" end="00:02:49.292" style="s2">Today is your lucky day. $100,000. Take</p>
+<p begin="00:02:48.092" end="00:02:52.592" style="s2">it.</p>
+<p begin="00:02:49.292" end="00:02:55.492" style="s2">&gt;&gt; BLASPHEMY. ABSOLUTE [ __ ] I AM FROM</p>
+<p begin="00:02:52.592" end="00:02:57.792" style="s2">THE HELLENISTIC PERIOD.</p>
+<p begin="00:02:55.492" end="00:03:00.792" style="s2">&gt;&gt; Renaissance bronze? Are you trying to</p>
+<p begin="00:02:57.792" end="00:03:03.092" style="s2">scam me because I look young?</p>
+<p begin="00:03:00.792" end="00:03:06.292" style="s2">Renaissance bronzes have a dark, rich</p>
+<p begin="00:03:03.092" end="00:03:08.092" style="s2">luster from the lost wax casting. This</p>
+<p begin="00:03:06.292" end="00:03:09.892" style="s2">thing is covered in floating rust. Look</p>
+<p begin="00:03:08.092" end="00:03:12.392" style="s2">at the bottom. Those are obvious modern</p>
+<p begin="00:03:09.892" end="00:03:13.992" style="s2">sand casting seam lines. Plus,</p>
+<p begin="00:03:12.392" end="00:03:15.992" style="s2">Renaissance busts have prominent</p>
+<p begin="00:03:13.992" end="00:03:18.392" style="s2">detailed features. This thing&#39;s face is</p>
+<p begin="00:03:15.992" end="00:03:21.092" style="s2">literally crooked. Medici collection,</p>
+<p begin="00:03:18.392" end="00:03:23.592" style="s2">I&#39;ll give you $500. Not a penny more.</p>
+<p begin="00:03:21.092" end="00:03:26.492" style="s2">&gt;&gt; $500? Are you robbing me? I paid more</p>
+<p begin="00:03:23.592" end="00:03:28.492" style="s2">than that to get it. At least $5,000.</p>
+<p begin="00:03:26.492" end="00:03:30.992" style="s2">Wait, wait, wait. Fine. Consider it my</p>
+<p begin="00:03:28.492" end="00:03:31.992" style="s2">bad luck today. $500.</p>
+<p begin="00:03:30.992" end="00:03:35.592" style="s2">&gt;&gt; Done.</p>
+<p begin="00:03:31.992" end="00:03:35.592" style="s2">Now it&#39;s time to witness a miracle.</p>
+<p begin="00:03:35.792" end="00:03:38.392" style="s2">&gt;&gt; Miss,</p>
+<p begin="00:03:36.992" end="00:03:40.192" style="s2">what do you need a sledgehammer that big</p>
+<p begin="00:03:38.392" end="00:03:43.292" style="s2">for?</p>
+<p begin="00:03:40.192" end="00:03:43.292" style="s2">&gt;&gt; Smashing walnuts.</p>
+<p begin="00:03:46.092" end="00:03:50.392" style="s2">Time to smash.</p>
+<p begin="00:03:47.992" end="00:03:53.292" style="s2">&gt;&gt; Yes. AIM FOR MY FOREHEAD. SMASH IT HARD.</p>
+<p begin="00:03:50.392" end="00:03:56.692" style="s2">LET ME SEE THE SUN AGAIN.</p>
+<p begin="00:03:53.292" end="00:03:59.792" style="s2">YES. AIM RIGHT FOR MY FOREHEAD. SMASH IT</p>
+<p begin="00:03:56.692" end="00:04:03.494" style="s2">HARD. LET ME SEE THE SUN AGAIN TODAY.</p>
+<p begin="00:03:59.792" end="00:04:03.494" style="s2">STOP RIGHT THERE, young lady.</p>
+<p begin="00:04:04.794" end="00:04:08.894" style="s2">&gt;&gt; Oh my god, is that Master Sterling? The</p>
+<p begin="00:04:06.694" end="00:04:10.594" style="s2">top appraiser in the antique district.</p>
+<p begin="00:04:08.894" end="00:04:13.594" style="s2">If Master Sterling is stepping in, could</p>
+<p begin="00:04:10.594" end="00:04:15.594" style="s2">that rusty thing actually be a treasure?</p>
+<p begin="00:04:13.594" end="00:04:18.094" style="s2">&gt;&gt; Young lady, looking at your attire, you</p>
+<p begin="00:04:15.594" end="00:04:20.094" style="s2">clearly aren&#39;t wealthy.</p>
+<p begin="00:04:18.094" end="00:04:21.194" style="s2">500 is a lot of money for someone like</p>
+<p begin="00:04:20.094" end="00:04:22.594" style="s2">you.</p>
+<p begin="00:04:21.194" end="00:04:24.794" style="s2">That lump of iron you bought is a</p>
+<p begin="00:04:22.594" end="00:04:26.494" style="s2">complete modern fake. If you smash it</p>
+<p begin="00:04:24.794" end="00:04:27.494" style="s2">open, you&#39;ll find nothing but industrial</p>
+<p begin="00:04:26.494" end="00:04:29.494" style="s2">dirt inside.</p>
+<p begin="00:04:27.494" end="00:04:31.094" style="s2">&gt;&gt; So what? It&#39;s my money.</p>
+<p begin="00:04:29.494" end="00:04:33.294" style="s2">&gt;&gt; Fate brought us together, and I have a</p>
+<p begin="00:04:31.094" end="00:04:35.494" style="s2">soft heart for misguided youth. Tell you</p>
+<p begin="00:04:33.294" end="00:04:38.294" style="s2">what, I&#39;ll cover your $500 and add an</p>
+<p begin="00:04:35.494" end="00:04:40.594" style="s2">extra $100. Consider it charity.</p>
+<p begin="00:04:38.294" end="00:04:41.094" style="s2">Take this 600, go home, and find a real</p>
+<p begin="00:04:40.594" end="00:04:43.094" style="s2">job.</p>
+<p begin="00:04:41.094" end="00:04:44.894" style="s2">&gt;&gt; You better thank Master Sterling. You&#39;re</p>
+<p begin="00:04:43.094" end="00:04:46.394" style="s2">making a profit on a piece of trash.</p>
+<p begin="00:04:44.894" end="00:04:47.694" style="s2">DON&#39;T PUSH YOUR LUCK, GIRL. You&#39;ll be</p>
+<p begin="00:04:46.394" end="00:04:48.494" style="s2">crying when you smash it and find</p>
+<p begin="00:04:47.694" end="00:04:51.294" style="s2">nothing.</p>
+<p begin="00:04:48.494" end="00:04:53.594" style="s2">&gt;&gt; Charity? Dirt? How dare this blind fool</p>
+<p begin="00:04:51.294" end="00:04:57.294" style="s2">insult my marble glory.</p>
+<p begin="00:04:53.594" end="00:04:59.194" style="s2">$600? I AM A PRICELESS PIECE OF HISTORY.</p>
+<p begin="00:04:57.294" end="00:05:01.494" style="s2">GIRL, SMASH ME NOW AND BLIND THIS</p>
+<p begin="00:04:59.194" end="00:05:03.794" style="s2">ARROGANT PEASANT.</p>
+<p begin="00:05:01.494" end="00:05:05.694" style="s2">&gt;&gt; Thanks for the charity, Master Sterling.</p>
+<p begin="00:05:03.794" end="00:05:07.194" style="s2">But I&#39;m a bit stubborn.</p>
+<p begin="00:05:05.694" end="00:05:09.494" style="s2">Even if it is just scrap iron, I&#39;d</p>
+<p begin="00:05:07.194" end="00:05:10.694" style="s2">rather smash it just to hear the bang.</p>
+<p begin="00:05:09.494" end="00:05:11.494" style="s2">You don&#39;t need to concern yourself with</p>
+<p begin="00:05:10.694" end="00:05:13.794" style="s2">this.</p>
+<p begin="00:05:11.494" end="00:05:15.694" style="s2">&gt;&gt; You ignorant brat. I am the absolute</p>
+<p begin="00:05:13.794" end="00:05:17.194" style="s2">authority in this district. If I say</p>
+<p begin="00:05:15.694" end="00:05:18.894" style="s2">it&#39;s scrap, it&#39;s scrap.</p>
+<p begin="00:05:17.194" end="00:05:21.094" style="s2">&gt;&gt; If you smash that and find even a penny</p>
+<p begin="00:05:18.894" end="00:05:22.894" style="s2">of value inside, I will flip my gallery</p>
+<p begin="00:05:21.094" end="00:05:23.994" style="s2">sign upside down.</p>
+<p begin="00:05:22.894" end="00:05:25.294" style="s2">&gt;&gt; Deal.</p>
+<p begin="00:05:23.994" end="00:05:26.394" style="s2">Then you better keep your eyes wide</p>
+<p begin="00:05:25.294" end="00:05:29.194" style="s2">open.</p>
+<p begin="00:05:26.394" end="00:05:29.194" style="s2">&gt;&gt; DON&#39;T YOU DARE.</p>
+<p begin="00:05:35.094" end="00:05:40.394" style="s2">&gt;&gt; OH MY GOODNESS. LOOK AT THAT TEXTURE,</p>
+<p begin="00:05:37.594" end="00:05:43.594" style="s2">THAT COLOR. That&#39;s authentic Pentelican</p>
+<p begin="00:05:40.394" end="00:05:46.094" style="s2">marble. It&#39;s a miracle. A flawless Greek</p>
+<p begin="00:05:43.594" end="00:05:48.094" style="s2">saint bust. This must be worth at least</p>
+<p begin="00:05:46.094" end="00:05:51.294" style="s2">$5 million.</p>
+<p begin="00:05:48.094" end="00:05:54.094" style="s2">$500 TURNED INTO 5 MILLION. This girl</p>
+<p begin="00:05:51.294" end="00:05:56.594" style="s2">JUST HIT THE ULTIMATE JACKPOT. I&#39;M NOT</p>
+<p begin="00:05:54.094" end="00:05:56.594" style="s2">SELLING.</p>
+<p begin="00:05:56.894" end="00:06:01.094" style="s2">I&#39;M NOT SELLING THIS BUST ANYMORE. GIVE</p>
+<p begin="00:05:59.994" end="00:06:03.094" style="s2">IT BACK.</p>
+<p begin="00:06:01.094" end="00:06:04.494" style="s2">&gt;&gt; IT&#39;S MINE NOW. What are you going to rob</p>
+<p begin="00:06:03.094" end="00:06:04.895" style="s2">me in broad daylight?</p>
+<p begin="00:06:04.494" end="00:06:07.195" style="s2">&gt;&gt; A deal</p>
+<p begin="00:06:04.895" end="00:06:07.995" style="s2">&gt;&gt; is a deal. You can&#39;t back out now, you</p>
+<p begin="00:06:07.195" end="00:06:10.195" style="s2">scoundrel.</p>
+<p begin="00:06:07.995" end="00:06:11.995" style="s2">&gt;&gt; Master Sterling, don&#39;t forget to flip</p>
+<p begin="00:06:10.195" end="00:06:14.495" style="s2">your gallery&#39;s sign upside down when you</p>
+<p begin="00:06:11.995" end="00:06:16.095" style="s2">get back.</p>
+<p begin="00:06:14.495" end="00:06:18.395" style="s2">&gt;&gt; Truly impressive.</p>
+<p begin="00:06:16.095" end="00:06:19.895" style="s2">My old eyes have indeed failed me today.</p>
+<p begin="00:06:18.395" end="00:06:22.395" style="s2">Young lady, your talent is</p>
+<p begin="00:06:19.895" end="00:06:24.995" style="s2">extraordinary.</p>
+<p begin="00:06:22.395" end="00:06:26.895" style="s2">Miss Serena, I admire your vision.</p>
+<p begin="00:06:24.995" end="00:06:29.195" style="s2">Tonight, there is a top-tier underground</p>
+<p begin="00:06:26.895" end="00:06:30.895" style="s2">antique auction at the Grand Hotel. Only</p>
+<p begin="00:06:29.195" end="00:06:32.995" style="s2">billionaires and top appraisers can</p>
+<p begin="00:06:30.895" end="00:06:35.195" style="s2">attend. I sincerely invite you to be the</p>
+<p begin="00:06:32.995" end="00:06:37.895" style="s2">chief appraiser for my gallery. Consider</p>
+<p begin="00:06:35.195" end="00:06:40.495" style="s2">this VIP pass a welcome gift.</p>
+<p begin="00:06:37.895" end="00:06:42.295" style="s2">&gt;&gt; An underground auction?</p>
+<p begin="00:06:40.495" end="00:06:45.495" style="s2">There must be more treasures there.</p>
+<p begin="00:06:42.295" end="00:06:47.595" style="s2">Maybe I can find an even bigger catch.</p>
+<p begin="00:06:45.495" end="00:06:49.095" style="s2">I&#39;ll take the pass. As for the job,</p>
+<p begin="00:06:47.595" end="00:06:52.095" style="s2">we&#39;ll talk later.</p>
+<p begin="00:06:49.095" end="00:06:54.195" style="s2">&gt;&gt; Welcome, VIPs. Our first item tonight,</p>
+<p begin="00:06:52.095" end="00:06:56.195" style="s2">an extremely rare, well-preserved</p>
+<p begin="00:06:54.195" end="00:06:59.895" style="s2">18th-century medieval statue of a holy</p>
+<p begin="00:06:56.195" end="00:07:01.295" style="s2">knight made entirely of solid golden. $3</p>
+<p begin="00:06:59.895" end="00:07:02.495" style="s2">million.</p>
+<p begin="00:07:01.295" end="00:07:03.995" style="s2">&gt;&gt; Ian,</p>
+<p begin="00:07:02.495" end="00:07:06.395" style="s2">what kind of surprise do you think our</p>
+<p begin="00:07:03.995" end="00:07:08.195" style="s2">little wildcat will bring us tonight?</p>
+<p begin="00:07:06.395" end="00:07:10.595" style="s2">&gt;&gt; This girl found a $5 million Greek bust</p>
+<p begin="00:07:08.195" end="00:07:12.695" style="s2">in the antique street this afternoon.</p>
+<p begin="00:07:10.595" end="00:07:14.495" style="s2">&gt;&gt; Keep a close eye on her.</p>
+<p begin="00:07:12.695" end="00:07:17.095" style="s2">&gt;&gt; Help! I&#39;m scared of heights. PUT ME</p>
+<p begin="00:07:14.495" end="00:07:19.195" style="s2">DOWN. I WAS LITERALLY 3D PRINTED IN A</p>
+<p begin="00:07:17.095" end="00:07:20.795" style="s2">FACTORY last week. My gold plating is</p>
+<p begin="00:07:19.195" end="00:07:22.895" style="s2">just CHEAP METALLIC SPRAY PAINT. I</p>
+<p begin="00:07:20.795" end="00:07:24.395" style="s2">LITERALLY HAVE A MADE-IN-PRCE BARBO</p>
+<p begin="00:07:22.895" end="00:07:26.715" style="s2">ENGRAVED IN MY BUTT.</p>
+<p begin="00:07:24.395" end="00:07:28.735" style="s2">&gt;&gt; ARE THESE rich people blind?</p>
+<p begin="00:07:26.715" end="00:07:28.735" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:07:28.895" end="00:07:33.395" style="s2">&gt;&gt; Where did this peasant come from,</p>
+<p begin="00:07:30.895" end="00:07:35.795" style="s2">laughing at a 12th-century masterpiece?</p>
+<p begin="00:07:33.395" end="00:07:37.795" style="s2">Security, how did this uncultured trash</p>
+<p begin="00:07:35.795" end="00:07:40.895" style="s2">get in?</p>
+<p begin="00:07:37.795" end="00:07:44.295" style="s2">&gt;&gt; Chloe, ignore this bottom-pleat trash.</p>
+<p begin="00:07:40.895" end="00:07:44.295" style="s2">It lowers your status.</p>
+<p begin="00:07:44.895" end="00:07:48.495" style="s2">&gt;&gt; I laugh at whatever I want.</p>
+<p begin="00:07:46.995" end="00:07:50.795" style="s2">Mind your own business.</p>
+<p begin="00:07:48.495" end="00:07:53.095" style="s2">&gt;&gt; What are you? How dare you speak to my</p>
+<p begin="00:07:50.795" end="00:07:56.495" style="s2">sister like that?</p>
+<p begin="00:07:53.095" end="00:07:56.495" style="s2">&gt;&gt; Do you know who we are?</p>
+<p begin="00:07:56.795" end="00:08:01.095" style="s2">&gt;&gt; Don&#39;t be mad. It&#39;s not worth getting</p>
+<p begin="00:07:58.595" end="00:08:05.295" style="s2">angry over someone of her class.</p>
+<p begin="00:08:01.095" end="00:08:07.495" style="s2">I really love that golden paladin, Zach.</p>
+<p begin="00:08:05.295" end="00:08:07.897" style="s2">Can you buy it for me?</p>
+<p begin="00:08:07.495" end="00:08:09.097" style="s2">&gt;&gt; Anything</p>
+<p begin="00:08:07.897" end="00:08:12.697" style="s2">&gt;&gt; for you, Chloe.</p>
+<p begin="00:08:09.097" end="00:08:12.697" style="s2">&gt;&gt; I bid $10 million.</p>
+<p begin="00:08:12.997" end="00:08:17.097" style="s2">&gt;&gt; I&#39;d advise you not to buy</p>
+<p begin="00:08:14.997" end="00:08:19.697" style="s2">That thing is a complete fake.</p>
+<p begin="00:08:17.097" end="00:08:21.497" style="s2">&gt;&gt; NONSENSE. THE WEIGHT, THE CRAFTSMANSHIP,</p>
+<p begin="00:08:19.697" end="00:08:23.597" style="s2">THE MEDIEVAL FORGING MARKS, this is top</p>
+<p begin="00:08:21.497" end="00:08:24.697" style="s2">tier authentic. What does a little girl</p>
+<p begin="00:08:23.597" end="00:08:26.997" style="s2">like you know?</p>
+<p begin="00:08:24.697" end="00:08:29.197" style="s2">&gt;&gt; Miss, I don&#39;t know how I offended you,</p>
+<p begin="00:08:26.997" end="00:08:30.497" style="s2">but why must you curse my treasure?</p>
+<p begin="00:08:29.197" end="00:08:31.897" style="s2">&gt;&gt; You broke, jealous freak.</p>
+<p begin="00:08:30.497" end="00:08:33.397" style="s2">&gt;&gt; You&#39;re just mad my sister can drop 10</p>
+<p begin="00:08:31.897" end="00:08:34.897" style="s2">million on an antique while you can&#39;t</p>
+<p begin="00:08:33.397" end="00:08:36.997" style="s2">even afford the air in here.</p>
+<p begin="00:08:34.897" end="00:08:38.597" style="s2">&gt;&gt; SECURITY, THROW THIS CRAZY WOMAN OUT.</p>
+<p begin="00:08:36.997" end="00:08:40.997" style="s2">&gt;&gt; IF YOU WANT TO be idiots and throw your</p>
+<p begin="00:08:38.597" end="00:08:42.897" style="s2">money away, be my guest.</p>
+<p begin="00:08:40.997" end="00:08:45.697" style="s2">But I absolutely hate it when people</p>
+<p begin="00:08:42.897" end="00:08:47.697" style="s2">point their fingers in my face.</p>
+<p begin="00:08:45.697" end="00:08:50.297" style="s2">&gt;&gt; What are you doing? THAT&#39;S A $10 MILLION</p>
+<p begin="00:08:47.697" end="00:08:52.397" style="s2">ANTIQUE. IF YOU BREAK IT, THE SINCLAIR</p>
+<p begin="00:08:50.297" end="00:08:55.297" style="s2">FAMILY WILL DESTROY YOU.</p>
+<p begin="00:08:52.397" end="00:08:57.897" style="s2">YES, END MY PLASTIC MISERY.</p>
+<p begin="00:08:55.297" end="00:08:59.197" style="s2">&gt;&gt; A $10 million antique?</p>
+<p begin="00:08:57.897" end="00:09:00.997" style="s2">Let me show you all what this piece of</p>
+<p begin="00:08:59.197" end="00:09:03.497" style="s2">trash really is.</p>
+<p begin="00:09:00.997" end="00:09:07.397" style="s2">&gt;&gt; Don&#39;t you dare. If you smash that, the</p>
+<p begin="00:09:03.497" end="00:09:07.397" style="s2">Sinclair family will destroy you.</p>
+<p begin="00:09:10.097" end="00:09:15.997" style="s2">MY GOLDEN PALADIN, YOU CRAZY WOMAN, HOW</p>
+<p begin="00:09:13.197" end="00:09:18.697" style="s2">DARE YOU SMASH MY ANTIQUE? YOU OWE ME 10</p>
+<p begin="00:09:15.997" end="00:09:21.097" style="s2">MILLION RIGHT NOW.</p>
+<p begin="00:09:18.697" end="00:09:22.597" style="s2">&gt;&gt; Open your dog eyes and look closely at</p>
+<p begin="00:09:21.097" end="00:09:25.297" style="s2">what this is.</p>
+<p begin="00:09:22.597" end="00:09:26.697" style="s2">&gt;&gt; OH MY GOD, IS THAT A MARTIN BARCODE?</p>
+<p begin="00:09:25.297" end="00:09:28.697" style="s2">IT&#39;S HOLLOW PLASTIC. IT&#39;S A COMPLETE</p>
+<p begin="00:09:26.697" end="00:09:31.697" style="s2">FACTORY FAKE. 10 MILLION FOR A PLASTIC</p>
+<p begin="00:09:28.697" end="00:09:34.797" style="s2">TOY? I I IMPOSSIBLE. THIS this must be</p>
+<p begin="00:09:31.697" end="00:09:38.997" style="s2">ultra high-tech forgery. Yes, high-tech.</p>
+<p begin="00:09:34.797" end="00:09:38.997" style="s2">Even my expert eyes were deceived.</p>
+<p begin="00:09:41.297" end="00:09:46.997" style="s2">You</p>
+<p begin="00:09:42.597" end="00:09:46.997" style="s2">you JUST WAIT. THIS ISN&#39;T OVER.</p>
+<p begin="00:09:48.497" end="00:09:53.397" style="s2">LET US MOVE ON. Next up is the finale of</p>
+<p begin="00:09:51.097" end="00:09:55.497" style="s2">tonight&#39;s auction, an unnamed ancient</p>
+<p begin="00:09:53.397" end="00:09:59.497" style="s2">painting. Though the condition is poor,</p>
+<p begin="00:09:55.497" end="00:10:01.497" style="s2">it is very old. Starting bid, $10,000.</p>
+<p begin="00:09:59.497" end="00:10:04.097" style="s2">&gt;&gt; Foolish mortals, I am the lost</p>
+<p begin="00:10:01.497" end="00:10:06.197" style="s2">masterpiece of Leonardo da Vinci, worth</p>
+<p begin="00:10:04.097" end="00:10:08.797" style="s2">$200 million.</p>
+<p begin="00:10:06.197" end="00:10:11.998" style="s2">&gt;&gt; Foolish mortals, stop laughing at this</p>
+<p begin="00:10:08.797" end="00:10:15.498" style="s2">ridiculous clown face. I am the lost</p>
+<p begin="00:10:11.998" end="00:10:19.598" style="s2">masterpiece of Leonardo da Vinci, worth</p>
+<p begin="00:10:15.498" end="00:10:22.698" style="s2">200 million dollars. Take me away. Wash</p>
+<p begin="00:10:19.598" end="00:10:25.298" style="s2">off this goofy mustache and let my true</p>
+<p begin="00:10:22.698" end="00:10:26.998" style="s2">elegant glory see the light of day.</p>
+<p begin="00:10:25.298" end="00:10:28.998" style="s2">&gt;&gt; An authentic da Vinci hidden under a bad</p>
+<p begin="00:10:26.998" end="00:10:30.498" style="s2">doodle? That&#39;s a priceless priceless</p>
+<p begin="00:10:28.998" end="00:10:32.398" style="s2">global treasure.</p>
+<p begin="00:10:30.498" end="00:10:36.198" style="s2">&gt;&gt; Though the condition is poor, it is very</p>
+<p begin="00:10:32.398" end="00:10:37.398" style="s2">old. Starting bid, $10,000.</p>
+<p begin="00:10:36.198" end="00:10:38.498" style="s2">Anyone?</p>
+<p begin="00:10:37.398" end="00:10:40.998" style="s2">If not,</p>
+<p begin="00:10:38.498" end="00:10:42.898" style="s2">this item will be passed.</p>
+<p begin="00:10:40.998" end="00:10:44.698" style="s2">&gt;&gt; $10,000.</p>
+<p begin="00:10:42.898" end="00:10:47.698" style="s2">&gt;&gt; She humiliated me with that statue</p>
+<p begin="00:10:44.698" end="00:10:50.298" style="s2">earlier, and now she wants a bargain.</p>
+<p begin="00:10:47.698" end="00:10:51.698" style="s2">Dream on. I&#39;ll throw money today just to</p>
+<p begin="00:10:50.298" end="00:10:54.298" style="s2">disgust her.</p>
+<p begin="00:10:51.698" end="00:10:56.898" style="s2">&gt;&gt; $50,000.</p>
+<p begin="00:10:54.298" end="00:10:58.698" style="s2">&gt;&gt; $100,000.</p>
+<p begin="00:10:56.898" end="00:11:00.398" style="s2">&gt;&gt; $200,000.</p>
+<p begin="00:10:58.698" end="00:11:03.298" style="s2">Competing with the Sinclair family&#39;s</p>
+<p begin="00:11:00.398" end="00:11:05.298" style="s2">wealth, you are nothing.</p>
+<p begin="00:11:03.298" end="00:11:07.598" style="s2">&gt;&gt; $300,000.</p>
+<p begin="00:11:05.298" end="00:11:09.898" style="s2">&gt;&gt; Forget it. $300,000 for a piece of trash</p>
+<p begin="00:11:07.598" end="00:11:11.398" style="s2">paper? Let her be the idiot. Let&#39;s just</p>
+<p begin="00:11:09.898" end="00:11:12.898" style="s2">sit back and watch her make a fool of</p>
+<p begin="00:11:11.398" end="00:11:15.498" style="s2">herself.</p>
+<p begin="00:11:12.898" end="00:11:17.898" style="s2">&gt;&gt; Good point. $300,000 for garbage. You</p>
+<p begin="00:11:15.498" end="00:11:21.198" style="s2">truly are the ultimate fool. $300,000</p>
+<p begin="00:11:17.898" end="00:11:23.898" style="s2">going once, twice, sold. Congratulations</p>
+<p begin="00:11:21.198" end="00:11:26.298" style="s2">to this lady.</p>
+<p begin="00:11:23.898" end="00:11:27.698" style="s2">You blew all your money on junk, and now</p>
+<p begin="00:11:26.298" end="00:11:29.298" style="s2">you&#39;re trying to make some of it back by</p>
+<p begin="00:11:27.698" end="00:11:31.898" style="s2">stealing free bottled water?</p>
+<p begin="00:11:29.298" end="00:11:33.498" style="s2">&gt;&gt; Some people just don&#39;t know their place.</p>
+<p begin="00:11:31.898" end="00:11:35.798" style="s2">Broke as a joke, but still doing</p>
+<p begin="00:11:33.498" end="00:11:37.998" style="s2">everything to save face.</p>
+<p begin="00:11:35.798" end="00:11:39.698" style="s2">&gt;&gt; You all call this trash? Today I will</p>
+<p begin="00:11:37.998" end="00:11:43.098" style="s2">open your eyes and show you what a true</p>
+<p begin="00:11:39.698" end="00:11:43.098" style="s2">global treasure looks like.</p>
+<p begin="00:11:44.898" end="00:11:51.198" style="s2">&gt;&gt; ARE YOU CRAZY? YOU JUST SPENT $300,000</p>
+<p begin="00:11:48.698" end="00:11:51.198" style="s2">ON THAT.</p>
+<p begin="00:11:53.898" end="00:11:59.098" style="s2">The sfumato technique. My god. It&#39;s an</p>
+<p begin="00:11:56.798" end="00:12:01.198" style="s2">authentic lost masterpiece OF LEONARDO</p>
+<p begin="00:11:59.098" end="00:12:04.198" style="s2">DA VINCI.</p>
+<p begin="00:12:01.198" end="00:12:06.698" style="s2">A MIRACLE. THIS IS AN ABSOLUTE MIRACLE.</p>
+<p begin="00:12:04.198" end="00:12:08.598" style="s2">GLOBAL TREASURE. A TRUE GLOBAL TREASURE</p>
+<p begin="00:12:06.698" end="00:12:11.398" style="s2">HAS APPEARED. SHE BOUGHT A $200 MILLION</p>
+<p begin="00:12:08.598" end="00:12:13.199" style="s2">MASTERPIECE FOR $300,000? WHAT GOD-KEYED</p>
+<p begin="00:12:11.398" end="00:12:14.499" style="s2">EYES DOES THIS GIRL HAVE?</p>
+<p begin="00:12:13.199" end="00:12:17.699" style="s2">&gt;&gt; IMPOSSIBLE.</p>
+<p begin="00:12:14.499" end="00:12:17.699" style="s2">How could she be so lucky?</p>
+<p begin="00:12:19.699" end="00:12:25.599" style="s2">&gt;&gt; 200 million. I will buy it for 200</p>
+<p begin="00:12:23.499" end="00:12:29.299" style="s2">million dollars.</p>
+<p begin="00:12:25.599" end="00:12:31.999" style="s2">&gt;&gt; Grandpa, why are you here? Grandpa, your</p>
+<p begin="00:12:29.299" end="00:12:33.899" style="s2">health is poor. You shouldn&#39;t be in an</p>
+<p begin="00:12:31.999" end="00:12:36.899" style="s2">underground place like this.</p>
+<p begin="00:12:33.899" end="00:12:36.899" style="s2">&gt;&gt; Get out of my way.</p>
+<p begin="00:12:40.099" end="00:12:45.299" style="s2">&gt;&gt; She looks exactly like her. Exactly like</p>
+<p begin="00:12:42.799" end="00:12:47.499" style="s2">my late wife when she was young.</p>
+<p begin="00:12:45.299" end="00:12:50.299" style="s2">&gt;&gt; WHAT?</p>
+<p begin="00:12:47.499" end="00:12:52.399" style="s2">&gt;&gt; GRANDPA, WHAT ARE YOU TALKING ABOUT?</p>
+<p begin="00:12:50.299" end="00:12:56.099" style="s2">SHE&#39;S JUST A SCAMMING PEASANT. HOW COULD</p>
+<p begin="00:12:52.399" end="00:12:58.899" style="s2">SHE POSSIBLY BE A SINCLAIR?</p>
+<p begin="00:12:56.099" end="00:13:01.199" style="s2">Chloe is my only sister.</p>
+<p begin="00:12:58.899" end="00:13:02.899" style="s2">&gt;&gt; Shut up, you fool. Arrange a DNA test</p>
+<p begin="00:13:01.199" end="00:13:04.999" style="s2">immediately.</p>
+<p begin="00:13:02.899" end="00:13:06.999" style="s2">&gt;&gt; If she truly is my granddaughter, I&#39;d</p>
+<p begin="00:13:04.999" end="00:13:08.599" style="s2">like to see who dares to touch a single</p>
+<p begin="00:13:06.999" end="00:13:09.699" style="s2">hair on her head.</p>
+<p begin="00:13:08.599" end="00:13:11.599" style="s2">&gt;&gt; No.</p>
+<p begin="00:13:09.699" end="00:13:12.899" style="s2">The position of the Sinclair address is</p>
+<p begin="00:13:11.599" end="00:13:15.599" style="s2">mine.</p>
+<p begin="00:13:12.899" end="00:13:17.199" style="s2">I won&#39;t let anyone take it away from me.</p>
+<p begin="00:13:15.599" end="00:13:18.299" style="s2">No one.</p>
+<p begin="00:13:17.199" end="00:13:20.499" style="s2">&gt;&gt; Child,</p>
+<p begin="00:13:18.299" end="00:13:22.699" style="s2">before the DNA results are out, come</p>
+<p begin="00:13:20.499" end="00:13:26.099" style="s2">stay at our manor.</p>
+<p begin="00:13:22.699" end="00:13:26.099" style="s2">Let me get a good look at you.</p>
+<p begin="00:13:26.499" end="00:13:29.899" style="s2">&gt;&gt; Stop looking.</p>
+<p begin="00:13:28.099" end="00:13:31.499" style="s2">This will never be your home. I&#39;m</p>
+<p begin="00:13:29.899" end="00:13:32.899" style="s2">warning you.</p>
+<p begin="00:13:31.499" end="00:13:35.299" style="s2">Don&#39;t think just because Grandpa is</p>
+<p begin="00:13:32.899" end="00:13:37.099" style="s2">senile and thinks you look like Grandma,</p>
+<p begin="00:13:35.299" end="00:13:38.399" style="s2">then you can go from an ugly duckling to</p>
+<p begin="00:13:37.099" end="00:13:40.099" style="s2">a swan.</p>
+<p begin="00:13:38.399" end="00:13:42.199" style="s2">You&#39;re just a gold digger who will do</p>
+<p begin="00:13:40.099" end="00:13:43.899" style="s2">anything for money.</p>
+<p begin="00:13:42.199" end="00:13:46.399" style="s2">I know exactly what you&#39;re planning. You</p>
+<p begin="00:13:43.899" end="00:13:47.899" style="s2">want to steal the Sinclair fortune. Let</p>
+<p begin="00:13:46.399" end="00:13:49.699" style="s2">me make this clear.</p>
+<p begin="00:13:47.899" end="00:13:52.499" style="s2">Chloe is the only heiress of this</p>
+<p begin="00:13:49.699" end="00:13:54.799" style="s2">family. You are not even fit to carry</p>
+<p begin="00:13:52.499" end="00:13:56.999" style="s2">her shoes.</p>
+<p begin="00:13:54.799" end="00:13:59.499" style="s2">&gt;&gt; Is your brain completely hollow</p>
+<p begin="00:13:56.999" end="00:14:01.499" style="s2">or is it just filled with water?</p>
+<p begin="00:13:59.499" end="00:14:02.599" style="s2">Your old man was the one who dragged me</p>
+<p begin="00:14:01.499" end="00:14:04.099" style="s2">here.</p>
+<p begin="00:14:02.599" end="00:14:07.299" style="s2">Do you honestly think I care about this</p>
+<p begin="00:14:04.099" end="00:14:09.699" style="s2">place? Steal your fortune, please.</p>
+<p begin="00:14:07.299" end="00:14:11.599" style="s2">You treat a fake like a treasure and you</p>
+<p begin="00:14:09.699" end="00:14:14.199" style="s2">think I want any part of this toxic</p>
+<p begin="00:14:11.599" end="00:14:15.901" style="s2">family? It&#39;s disgusting.</p>
+<p begin="00:14:14.199" end="00:14:19.201" style="s2">Get out of my way.</p>
+<p begin="00:14:15.901" end="00:14:20.901" style="s2">Don&#39;t blame her. It&#39;s all my fault.</p>
+<p begin="00:14:19.201" end="00:14:23.301" style="s2">If the DNA test proves she&#39;s your real</p>
+<p begin="00:14:20.901" end="00:14:25.401" style="s2">sister, I&#39;ll move out. I&#39;ll give</p>
+<p begin="00:14:23.301" end="00:14:28.201" style="s2">everything back to her. My room, my</p>
+<p begin="00:14:25.401" end="00:14:32.401" style="s2">clothes, my status. I only beg that you</p>
+<p begin="00:14:28.201" end="00:14:35.001" style="s2">let me visit mom and dad sometimes.</p>
+<p begin="00:14:32.401" end="00:14:36.801" style="s2">That&#39;s all I ask.</p>
+<p begin="00:14:35.001" end="00:14:39.201" style="s2">&gt;&gt; What nonsense are you talking about?</p>
+<p begin="00:14:36.801" end="00:14:41.401" style="s2">You&#39;ve lived in this house for 22 years.</p>
+<p begin="00:14:39.201" end="00:14:44.101" style="s2">You are my only sister. NO ONE IS</p>
+<p begin="00:14:41.401" end="00:14:46.301" style="s2">KICKING YOU OUT. MARIA.</p>
+<p begin="00:14:44.101" end="00:14:48.901" style="s2">&gt;&gt; YES, young master Zack?</p>
+<p begin="00:14:46.301" end="00:14:51.001" style="s2">&gt;&gt; Take this woman&#39;s trash bags and throw</p>
+<p begin="00:14:48.901" end="00:14:52.501" style="s2">them into the basement storage room. And</p>
+<p begin="00:14:51.001" end="00:14:54.801" style="s2">without my permission, she is banned</p>
+<p begin="00:14:52.501" end="00:14:57.901" style="s2">from stepping foot on the second floor.</p>
+<p begin="00:14:54.801" end="00:14:57.901" style="s2">&gt;&gt; Yes, young master.</p>
+<p begin="00:14:59.301" end="00:15:00.601" style="s2">&gt;&gt; Ow!</p>
+<p begin="00:14:59.980" end="00:15:04.301" style="s2">[screaming]</p>
+<p begin="00:15:00.601" end="00:15:08.201" style="s2">Ouch! You You dare to hit me?</p>
+<p begin="00:15:04.301" end="00:15:08.201" style="s2">&gt;&gt; Keep your filthy hands off my things.</p>
+<p begin="00:15:09.101" end="00:15:13.801" style="s2">Zack Sinclair, right? Everything you</p>
+<p begin="00:15:11.401" end="00:15:16.301" style="s2">just said in this room, I recorded it</p>
+<p begin="00:15:13.801" end="00:15:18.201" style="s2">all. When the DNA results come out, I</p>
+<p begin="00:15:16.301" end="00:15:20.201" style="s2">will play this directly for grandpa.</p>
+<p begin="00:15:18.201" end="00:15:22.101" style="s2">Let&#39;s see how the old man evaluates his</p>
+<p begin="00:15:20.201" end="00:15:26.501" style="s2">wonderful grandson.</p>
+<p begin="00:15:22.101" end="00:15:26.501" style="s2">&gt;&gt; YOU [ __ ] YOU PLAYED ME!</p>
+<p begin="00:15:32.001" end="00:15:36.501" style="s2">AH! IT HURTS! SISTER, why did YOU PUSH</p>
+<p begin="00:15:34.101" end="00:15:36.501" style="s2">ME?</p>
+<p begin="00:15:37.101" end="00:15:40.801" style="s2">EVEN IF YOU HATE ME FOR TAKING your</p>
+<p begin="00:15:38.701" end="00:15:43.701" style="s2">place, you shouldn&#39;t have smashed Zack&#39;s</p>
+<p begin="00:15:40.801" end="00:15:46.401" style="s2">favorite antique vase. It&#39;s priceless.</p>
+<p begin="00:15:43.701" end="00:15:48.701" style="s2">&gt;&gt; Terrible acting.</p>
+<p begin="00:15:46.401" end="00:15:51.501" style="s2">Which eye of yours saw me push you?</p>
+<p begin="00:15:48.701" end="00:15:53.801" style="s2">&gt;&gt; [ __ ] I WAS LITERALLY FIRED AT A</p>
+<p begin="00:15:51.501" end="00:15:56.301" style="s2">HIGH-TECH REPLICA KILN LAST MONTH. This</p>
+<p begin="00:15:53.801" end="00:15:59.401" style="s2">green tea [ __ ] threw herself at me. She</p>
+<p begin="00:15:56.301" end="00:16:02.001" style="s2">framed her. WHAT A SHAMELESS [ __ ]</p>
+<p begin="00:15:59.401" end="00:16:04.501" style="s2">&gt;&gt; HA! THE witness and the physical</p>
+<p begin="00:16:02.001" end="00:16:06.701" style="s2">evidence are both here. And you still</p>
+<p begin="00:16:04.501" end="00:16:09.201" style="s2">dare to deny it? Get on your knees AND</p>
+<p begin="00:16:06.701" end="00:16:11.601" style="s2">APOLOGIZE TO CHLOE RIGHT NOW, THEN GET</p>
+<p begin="00:16:09.201" end="00:16:15.001" style="s2">THE HELL OUT OF THE SINCLAIR FAMILY.</p>
+<p begin="00:16:11.601" end="00:16:18.902" style="s2">&gt;&gt; ME, NEIL, Zack Sinclair, you are not</p>
+<p begin="00:16:15.001" end="00:16:19.902" style="s2">just blind. Your brain is defective. Me?</p>
+<p begin="00:16:18.902" end="00:16:23.302" style="s2">Neil?</p>
+<p begin="00:16:19.902" end="00:16:25.902" style="s2">Zack Sinclair, you are not just blind.</p>
+<p begin="00:16:23.302" end="00:16:28.702" style="s2">Your brain is defective. Look closely at</p>
+<p begin="00:16:25.902" end="00:16:30.702" style="s2">this shard. Authentic medieval European</p>
+<p begin="00:16:28.702" end="00:16:31.702" style="s2">porcelain has a fine pure white clay</p>
+<p begin="00:16:30.702" end="00:16:33.602" style="s2">body.</p>
+<p begin="00:16:31.702" end="00:16:35.002" style="s2">This piece&#39;s inner core is as rough as</p>
+<p begin="00:16:33.602" end="00:16:37.202" style="s2">sandpaper.</p>
+<p begin="00:16:35.002" end="00:16:39.102" style="s2">And look at that glaze. It&#39;s blindingly</p>
+<p begin="00:16:37.202" end="00:16:41.102" style="s2">glossy. That&#39;s an obvious sign of</p>
+<p begin="00:16:39.102" end="00:16:43.402" style="s2">artificial aging using hydrofluoxic</p>
+<p begin="00:16:41.102" end="00:16:45.502" style="s2">acid. A modern replica fired in a</p>
+<p begin="00:16:43.402" end="00:16:47.102" style="s2">factory just last month.</p>
+<p begin="00:16:45.502" end="00:16:49.002" style="s2">And you worship it as a priceless</p>
+<p begin="00:16:47.102" end="00:16:50.702" style="s2">antique?</p>
+<p begin="00:16:49.002" end="00:16:53.502" style="s2">You&#39;ve completely disgraced the Sinclair</p>
+<p begin="00:16:50.702" end="00:16:53.502" style="s2">family name.</p>
+<p begin="00:16:54.702" end="00:16:57.802" style="s2">&gt;&gt; Oh, mom.</p>
+<p begin="00:16:55.802" end="00:16:59.502" style="s2">She&#39;s not only bullying me, but spouting</p>
+<p begin="00:16:57.802" end="00:17:01.602" style="s2">nonsense to insult our family&#39;s</p>
+<p begin="00:16:59.502" end="00:17:04.302" style="s2">antiques. I can&#39;t live like this</p>
+<p begin="00:17:01.602" end="00:17:06.396" style="s2">anymore.</p>
+<p begin="00:17:04.302" end="00:17:07.402" style="s2">&gt;&gt; My baby, what happened?</p>
+<p begin="00:17:06.396" end="00:17:09.902" style="s2">[gasps]</p>
+<p begin="00:17:07.402" end="00:17:14.002" style="s2">Who dared to hurt you?</p>
+<p begin="00:17:09.902" end="00:17:16.802" style="s2">&gt;&gt; Mom, this wild woman pushed Chloe and</p>
+<p begin="00:17:14.002" end="00:17:18.302" style="s2">smashed my antique. We need to throw her</p>
+<p begin="00:17:16.802" end="00:17:19.702" style="s2">out right now.</p>
+<p begin="00:17:18.302" end="00:17:23.702" style="s2">&gt;&gt; THERE&#39;S A</p>
+<p begin="00:17:19.702" end="00:17:23.702" style="s2">ENOUGH. Stop arguing.</p>
+<p begin="00:17:25.902" end="00:17:30.702" style="s2">The DNA test results are out.</p>
+<p begin="00:17:28.702" end="00:17:32.502" style="s2">It&#39;s written in black and white. She is</p>
+<p begin="00:17:30.702" end="00:17:34.402" style="s2">indeed</p>
+<p begin="00:17:32.502" end="00:17:36.702" style="s2">the biological daughter of the Sinclair</p>
+<p begin="00:17:34.402" end="00:17:38.002" style="s2">family.</p>
+<p begin="00:17:36.702" end="00:17:39.202" style="s2">&gt;&gt; What?</p>
+<p begin="00:17:38.002" end="00:17:40.102" style="s2">My</p>
+<p begin="00:17:39.202" end="00:17:42.302" style="s2">sister?</p>
+<p begin="00:17:40.102" end="00:17:44.302" style="s2">&gt;&gt; She is indeed</p>
+<p begin="00:17:42.302" end="00:17:44.802" style="s2">the biological daughter of the Sinclair</p>
+<p begin="00:17:44.302" end="00:17:46.502" style="s2">family.</p>
+<p begin="00:17:44.802" end="00:17:48.102" style="s2">&gt;&gt; Biological daughter.</p>
+<p begin="00:17:46.502" end="00:17:50.102" style="s2">Hearing those words come out of his</p>
+<p begin="00:17:48.102" end="00:17:52.302" style="s2">mouth was colder than a business</p>
+<p begin="00:17:50.102" end="00:17:55.502" style="s2">negotiation.</p>
+<p begin="00:17:52.302" end="00:17:56.602" style="s2">Is this the family I once hoped for?</p>
+<p begin="00:17:55.502" end="00:17:59.802" style="s2">How pathetic.</p>
+<p begin="00:17:56.602" end="00:18:02.002" style="s2">&gt;&gt; Mom, sister is finally back. I occupied</p>
+<p begin="00:17:59.802" end="00:18:03.902" style="s2">her place for 22 years.</p>
+<p begin="00:18:02.002" end="00:18:05.502" style="s2">I deserve to die.</p>
+<p begin="00:18:03.902" end="00:18:07.302" style="s2">I&#39;ll pack my bags right now and roll out</p>
+<p begin="00:18:05.502" end="00:18:08.802" style="s2">of the Sinclair family. I&#39;ll give</p>
+<p begin="00:18:07.302" end="00:18:11.802" style="s2">everything back to her.</p>
+<p begin="00:18:08.802" end="00:18:13.702" style="s2">&gt;&gt; Chloe, what are you doing? Stop.</p>
+<p begin="00:18:11.802" end="00:18:14.802" style="s2">Chloe, what nonsense are you talking</p>
+<p begin="00:18:13.702" end="00:18:18.202" style="s2">about?</p>
+<p begin="00:18:14.802" end="00:18:22.103" style="s2">You are mommy&#39;s precious baby.</p>
+<p begin="00:18:18.202" end="00:18:22.103" style="s2">No one can ever drive you away.</p>
+<p begin="00:18:22.903" end="00:18:26.803" style="s2">Serena, yes, you are my biological</p>
+<p begin="00:18:24.703" end="00:18:29.903" style="s2">daughter, but Chloe has been raised by</p>
+<p begin="00:18:26.803" end="00:18:31.603" style="s2">our side for 22 years. She&#39;s delicate,</p>
+<p begin="00:18:29.903" end="00:18:33.603" style="s2">spoiled, and can&#39;t suffer the slightest</p>
+<p begin="00:18:31.603" end="00:18:35.703" style="s2">grievance. The deep bond we have with</p>
+<p begin="00:18:33.603" end="00:18:38.303" style="s2">her cannot be replaced by a mere piece</p>
+<p begin="00:18:35.703" end="00:18:40.703" style="s2">of paper. So, what&#39;s your point, Mrs.</p>
+<p begin="00:18:38.303" end="00:18:43.203" style="s2">Sinclair? To protect Chloe&#39;s fragile</p>
+<p begin="00:18:40.703" end="00:18:45.803" style="s2">heart, your true identity cannot be made</p>
+<p begin="00:18:43.203" end="00:18:47.103" style="s2">public for now. To the outside world, we</p>
+<p begin="00:18:45.803" end="00:18:49.003" style="s2">will only announce that you are a</p>
+<p begin="00:18:47.103" end="00:18:50.503" style="s2">distant relative staying with us.</p>
+<p begin="00:18:49.003" end="00:18:53.003" style="s2">&gt;&gt; And at home,</p>
+<p begin="00:18:50.503" end="00:18:55.003" style="s2">you must always yield to Chloe. Don&#39;t</p>
+<p begin="00:18:53.003" end="00:18:58.103" style="s2">you dare use your bloodline to bully</p>
+<p begin="00:18:55.003" end="00:18:58.103" style="s2">her. Understood?</p>
+<p begin="00:18:58.403" end="00:19:01.603" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:18:59.203" end="00:19:03.703" style="s2">&gt;&gt; I have truly seen it all today.</p>
+<p begin="00:19:01.603" end="00:19:05.803" style="s2">A biological daughter has to be hidden</p>
+<p begin="00:19:03.703" end="00:19:07.703" style="s2">in the dark while a fake product is</p>
+<p begin="00:19:05.803" end="00:19:10.103" style="s2">treated like a fragile, untouchable</p>
+<p begin="00:19:07.703" end="00:19:12.703" style="s2">treasure. The family traditions of the</p>
+<p begin="00:19:10.103" end="00:19:13.503" style="s2">Sinclair households truly make me sick</p>
+<p begin="00:19:12.703" end="00:19:15.403" style="s2">to my stomach.</p>
+<p begin="00:19:13.503" end="00:19:17.403" style="s2">&gt;&gt; What are you laughing at? Did you hear</p>
+<p begin="00:19:15.403" end="00:19:19.503" style="s2">WHAT MOM SAID? I&#39;M WARNING YOU, CHLOE IS</p>
+<p begin="00:19:17.403" end="00:19:21.603" style="s2">THE ONLY SISTER I ACKNOWLEDGE. YOU</p>
+<p begin="00:19:19.503" end="00:19:23.703" style="s2">BETTER behave yourself. If you dare</p>
+<p begin="00:19:21.603" end="00:19:25.803" style="s2">spout nonsense outside or try to steal</p>
+<p begin="00:19:23.703" end="00:19:27.603" style="s2">anything from Chloe, I will be the first</p>
+<p begin="00:19:25.803" end="00:19:28.803" style="s2">to destroy you.</p>
+<p begin="00:19:27.603" end="00:19:30.903" style="s2">&gt;&gt; Steal?</p>
+<p begin="00:19:28.803" end="00:19:32.103" style="s2">Do you honestly think I care about this</p>
+<p begin="00:19:30.903" end="00:19:34.203" style="s2">rotting,</p>
+<p begin="00:19:32.103" end="00:19:35.803" style="s2">stinking house? Even if you gave me the</p>
+<p begin="00:19:34.203" end="00:19:38.603" style="s2">Sinclair fortune for free, I&#39;d consider</p>
+<p begin="00:19:35.803" end="00:19:40.403" style="s2">it too dirty to touch.</p>
+<p begin="00:19:38.603" end="00:19:42.603" style="s2">Don&#39;t worry. Keep hugging this liar,</p>
+<p begin="00:19:40.403" end="00:19:43.703" style="s2">this fake product for the rest of your</p>
+<p begin="00:19:42.603" end="00:19:45.303" style="s2">lives.</p>
+<p begin="00:19:43.703" end="00:19:47.603" style="s2">From the moment I walk out this door</p>
+<p begin="00:19:45.303" end="00:19:49.903" style="s2">today, whether the Sinclair family lives</p>
+<p begin="00:19:47.603" end="00:19:52.103" style="s2">or dies has absolutely nothing to do</p>
+<p begin="00:19:49.903" end="00:19:54.903" style="s2">with me, Serena Lin.</p>
+<p begin="00:19:52.103" end="00:19:57.103" style="s2">Actually, a clean break is better. This</p>
+<p begin="00:19:54.903" end="00:19:59.403" style="s2">way, when I personally destroy this</p>
+<p begin="00:19:57.103" end="00:20:02.593" style="s2">green tea [ __ ] later, I won&#39;t have to</p>
+<p begin="00:19:59.403" end="00:20:03.103" style="s2">worry about any [ __ ] family times.</p>
+<p begin="00:20:02.593" end="00:20:04.103" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:20:03.103" end="00:20:07.603" style="s2">&gt;&gt; NO, MASTER!</p>
+<p begin="00:20:04.103" end="00:20:09.803" style="s2">MADAM, it&#39;s terrible! Old Mr. Sinclair,</p>
+<p begin="00:20:07.603" end="00:20:11.303" style="s2">the old master suddenly vomited blood</p>
+<p begin="00:20:09.803" end="00:20:12.803" style="s2">and collapsed.</p>
+<p begin="00:20:11.303" end="00:20:15.103" style="s2">&gt;&gt; Grandpa,</p>
+<p begin="00:20:12.803" end="00:20:16.603" style="s2">in this entire house,</p>
+<p begin="00:20:15.103" end="00:20:19.803" style="s2">his eyes at the auction were the only</p>
+<p begin="00:20:16.603" end="00:20:19.803" style="s2">ones that were sincere.</p>
+<p begin="00:20:20.303" end="00:20:24.105" style="s2">&gt;&gt; Chairman Sinclair, the old master&#39;s</p>
+<p begin="00:20:22.003" end="00:20:25.505" style="s2">vitals are dropping rapidly. His organs</p>
+<p begin="00:20:24.105" end="00:20:27.105" style="s2">are failing.</p>
+<p begin="00:20:25.505" end="00:20:29.005" style="s2">But</p>
+<p begin="00:20:27.105" end="00:20:31.505" style="s2">&gt;&gt; But we can&#39;t find the cause. It&#39;s</p>
+<p begin="00:20:29.005" end="00:20:33.705" style="s2">completely bizarre. It&#39;s like his life</p>
+<p begin="00:20:31.505" end="00:20:35.705" style="s2">force is just draining away out of</p>
+<p begin="00:20:33.705" end="00:20:38.705" style="s2">nowhere.</p>
+<p begin="00:20:35.705" end="00:20:40.905" style="s2">Can&#39;t find the cause? I donate tens of</p>
+<p begin="00:20:38.705" end="00:20:43.505" style="s2">millions to your hospital every year,</p>
+<p begin="00:20:40.905" end="00:20:45.205" style="s2">and this is your answer?</p>
+<p begin="00:20:43.505" end="00:20:47.605" style="s2">&gt;&gt; What are we going to do</p>
+<p begin="00:20:45.205" end="00:20:49.205" style="s2">if Dad passes away now? The Sinclair</p>
+<p begin="00:20:47.605" end="00:20:50.505" style="s2">family will lose its main pillar of</p>
+<p begin="00:20:49.205" end="00:20:53.105" style="s2">power.</p>
+<p begin="00:20:50.505" end="00:20:54.505" style="s2">&gt;&gt; Grandpa, please wake up, Grandpa. As</p>
+<p begin="00:20:53.105" end="00:20:56.205" style="s2">long as you get better, I&#39;m willing to</p>
+<p begin="00:20:54.505" end="00:20:59.405" style="s2">give up 10 years of my own life in</p>
+<p begin="00:20:56.205" end="00:21:02.005" style="s2">exchange for your safety.</p>
+<p begin="00:20:59.405" end="00:21:05.705" style="s2">Please take my life instead.</p>
+<p begin="00:21:02.005" end="00:21:05.705" style="s2">&gt;&gt; Chloe, you are too kind.</p>
+<p begin="00:21:06.005" end="00:21:10.505" style="s2">&gt;&gt; Old fool, you&#39;re better off dead.</p>
+<p begin="00:21:08.705" end="00:21:12.505" style="s2">Once you&#39;re dead, there will be no one</p>
+<p begin="00:21:10.505" end="00:21:15.005" style="s2">left to support that peasant sister of</p>
+<p begin="00:21:12.505" end="00:21:17.605" style="s2">mine. The entire Sinclair fortune will</p>
+<p begin="00:21:15.005" end="00:21:19.405" style="s2">belong to me and my brother.</p>
+<p begin="00:21:17.605" end="00:21:22.205" style="s2">Something&#39;s not right. This isn&#39;t an</p>
+<p begin="00:21:19.405" end="00:21:22.205" style="s2">illness at all.</p>
+<p begin="00:21:22.504" end="00:21:25.305" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:21:23.405" end="00:21:29.105" style="s2">&gt;&gt; Suck it dry.</p>
+<p begin="00:21:25.305" end="00:21:30.905" style="s2">This old man&#39;s life force is delicious.</p>
+<p begin="00:21:29.105" end="00:21:32.705" style="s2">&gt;&gt; Someone has tampered with this statue.</p>
+<p begin="00:21:30.905" end="00:21:34.005" style="s2">If I don&#39;t stop it, Grandpa won&#39;t</p>
+<p begin="00:21:32.705" end="00:21:35.705" style="s2">survive the night.</p>
+<p begin="00:21:34.005" end="00:21:37.505" style="s2">&gt;&gt; Get out of my way if you don&#39;t WANT HIM</p>
+<p begin="00:21:35.705" end="00:21:39.105" style="s2">TO DIE.</p>
+<p begin="00:21:37.505" end="00:21:40.705" style="s2">&gt;&gt; ARE YOU INSANE? THAT&#39;S GRANDPA&#39;S</p>
+<p begin="00:21:39.105" end="00:21:42.205" style="s2">FAVORITE ANTIQUE. Don&#39;t you dare touch</p>
+<p begin="00:21:40.705" end="00:21:45.005" style="s2">it.</p>
+<p begin="00:21:42.205" end="00:21:46.405" style="s2">&gt;&gt; Sister, what are you doing?</p>
+<p begin="00:21:45.005" end="00:21:48.505" style="s2">Even if you hate Grandpa for not</p>
+<p begin="00:21:46.405" end="00:21:50.005" style="s2">announcing your identity immediately,</p>
+<p begin="00:21:48.505" end="00:21:51.405" style="s2">you can&#39;t vent your anger on his</p>
+<p begin="00:21:50.005" end="00:21:54.305" style="s2">treasures.</p>
+<p begin="00:21:51.405" end="00:21:56.705" style="s2">He&#39;s dying. How can you be so vicious?</p>
+<p begin="00:21:54.305" end="00:21:57.905" style="s2">&gt;&gt; You jinx. This house has had no peace</p>
+<p begin="00:21:56.705" end="00:21:59.905" style="s2">since you came back.</p>
+<p begin="00:21:57.905" end="00:22:00.705" style="s2">&gt;&gt; Guards, grab her. Throw her in the</p>
+<p begin="00:21:59.905" end="00:22:02.705" style="s2">basement.</p>
+<p begin="00:22:00.705" end="00:22:05.305" style="s2">&gt;&gt; A bunch of idiots. You&#39;re helping the</p>
+<p begin="00:22:02.705" end="00:22:07.105" style="s2">person who sold you count the money.</p>
+<p begin="00:22:05.305" end="00:22:08.605" style="s2">Since you won&#39;t listen to reason, let&#39;s</p>
+<p begin="00:22:07.105" end="00:22:11.705" style="s2">get physical.</p>
+<p begin="00:22:08.605" end="00:22:14.505" style="s2">&gt;&gt; Useless mortal, you can&#39;t save him. My</p>
+<p begin="00:22:11.705" end="00:22:15.905" style="s2">curse has penetrated his heart. Even God</p>
+<p begin="00:22:14.505" end="00:22:18.705" style="s2">can&#39;t save HIM NOW.</p>
+<p begin="00:22:15.905" end="00:22:21.705" style="s2">&gt;&gt; SHUT UP. I&#39;m smashing your cursed wings</p>
+<p begin="00:22:18.705" end="00:22:21.705" style="s2">to pieces today.</p>
+<p begin="00:22:22.705" end="00:22:24.906" style="s2">&gt;&gt; Serena, how dare you?</p>
+<p begin="00:22:24.205" end="00:22:27.906" style="s2">&gt;&gt; Idiots, get the</p>
+<p begin="00:22:24.906" end="00:22:27.906" style="s2">&gt;&gt; hell out of my way.</p>
+<p begin="00:22:28.660" end="00:22:30.680" style="s2">[snorts]</p>
+<p begin="00:22:32.106" end="00:22:37.106" style="s2">Oh my God, YOU ACTUALLY SMASHED IT. YOU</p>
+<p begin="00:22:35.206" end="00:22:39.506" style="s2">REBELLIOUS DAUGHTER, I&#39;LL BEAT you to</p>
+<p begin="00:22:37.106" end="00:22:41.406" style="s2">death today. You hit your brother and</p>
+<p begin="00:22:39.506" end="00:22:45.206" style="s2">destroyed your grandfather&#39;s favorite</p>
+<p begin="00:22:41.406" end="00:22:50.006" style="s2">antique. You are a curse.</p>
+<p begin="00:22:45.206" end="00:22:50.006" style="s2">&gt;&gt; STOP. WHO DARES TO HIT MY GRANDDAUGHTER?</p>
+<p begin="00:22:51.206" end="00:22:55.906" style="s2">&gt;&gt; GRANDPA, you you&#39;re awake? A miracle.</p>
+<p begin="00:22:54.106" end="00:22:58.006" style="s2">It&#39;s a medical miracle. The old master&#39;s</p>
+<p begin="00:22:55.906" end="00:23:00.006" style="s2">vitals are completely back to normal.</p>
+<p begin="00:22:58.006" end="00:23:01.706" style="s2">&gt;&gt; You fools, fools.</p>
+<p begin="00:23:00.006" end="00:23:04.206" style="s2">I was in a coma, but my mind was</p>
+<p begin="00:23:01.706" end="00:23:06.306" style="s2">conscious. I felt a demonic pressure</p>
+<p begin="00:23:04.206" end="00:23:08.806" style="s2">crushing my chest. If Serena hadn&#39;t</p>
+<p begin="00:23:06.306" end="00:23:12.606" style="s2">smashed that cursed fallen angel statue,</p>
+<p begin="00:23:08.806" end="00:23:12.606" style="s2">I&#39;D BE SEEING GOD RIGHT NOW.</p>
+<p begin="00:23:12.706" end="00:23:16.506" style="s2">MY GOOD CHILD,</p>
+<p begin="00:23:14.906" end="00:23:18.106" style="s2">you&#39;ve suffered.</p>
+<p begin="00:23:16.506" end="00:23:19.806" style="s2">Thank you.</p>
+<p begin="00:23:18.106" end="00:23:20.906" style="s2">But where did that fallen angel come</p>
+<p begin="00:23:19.806" end="00:23:23.306" style="s2">from?</p>
+<p begin="00:23:20.906" end="00:23:26.506" style="s2">Someone wanted me dead.</p>
+<p begin="00:23:23.306" end="00:23:26.506" style="s2">Find out immediately.</p>
+<p begin="00:23:29.506" end="00:23:35.006" style="s2">&gt;&gt; Damn it, this old fool didn&#39;t die and</p>
+<p begin="00:23:32.106" end="00:23:37.506" style="s2">now Serena is the hero.</p>
+<p begin="00:23:35.006" end="00:23:38.806" style="s2">If Grandpa investigates that statue, I&#39;m</p>
+<p begin="00:23:37.506" end="00:23:41.706" style="s2">ruined.</p>
+<p begin="00:23:38.806" end="00:23:44.106" style="s2">I must strike first.</p>
+<p begin="00:23:41.706" end="00:23:45.906" style="s2">&gt;&gt; Scarface, it&#39;s me.</p>
+<p begin="00:23:44.106" end="00:23:48.406" style="s2">I need you to get rid of someone.</p>
+<p begin="00:23:45.906" end="00:23:51.006" style="s2">The true heiress, Serena. Don&#39;t kill</p>
+<p begin="00:23:48.406" end="00:23:52.606" style="s2">her, break her legs and ruin her face. I</p>
+<p begin="00:23:51.006" end="00:23:55.306" style="s2">want her to be a scribble for the rest</p>
+<p begin="00:23:52.606" end="00:23:55.306" style="s2">of her life.</p>
+<p begin="00:23:57.741" end="00:24:01.706" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:23:59.206" end="00:24:03.906" style="s2">&gt;&gt; Miss Sinclair, someone paid top dollar</p>
+<p begin="00:24:01.706" end="00:24:07.206" style="s2">for your pretty face and your hands.</p>
+<p begin="00:24:03.906" end="00:24:07.206" style="s2">&gt;&gt; BOYS, BREAK HER.</p>
+<p begin="00:24:08.221" end="00:24:10.241" style="s2">&gt;&gt; [groaning]</p>
+<p begin="00:24:16.081" end="00:24:18.101" style="s2">[groaning]</p>
+<p begin="00:24:21.006" end="00:24:25.306" style="s2">&gt;&gt; TOUCH MY WOMAN</p>
+<p begin="00:24:22.606" end="00:24:25.306" style="s2">AND YOU&#39;RE DEAD.</p>
+<p begin="00:24:27.506" end="00:24:32.007" style="s2">Serena Sinclair,</p>
+<p begin="00:24:29.306" end="00:24:33.507" style="s2">I am Julian Vance, the Sinclair family&#39;s</p>
+<p begin="00:24:32.007" end="00:24:36.307" style="s2">biggest rival.</p>
+<p begin="00:24:33.507" end="00:24:38.107" style="s2">Interested in an alliance?</p>
+<p begin="00:24:36.307" end="00:24:40.007" style="s2">&gt;&gt; With pleasure.</p>
+<p begin="00:24:38.107" end="00:24:42.107" style="s2">&gt;&gt; Don&#39;t kill her. Break her legs and ruin</p>
+<p begin="00:24:40.007" end="00:24:45.007" style="s2">her face. I want HER TO BE A [ __ ] FOR</p>
+<p begin="00:24:42.107" end="00:24:48.307" style="s2">THE REST OF HER LIFE.</p>
+<p begin="00:24:45.007" end="00:24:51.307" style="s2">&gt;&gt; Chloe Sinclair, attempted murder.</p>
+<p begin="00:24:48.307" end="00:24:51.307" style="s2">Ready to go to prison?</p>
+<p begin="00:24:52.007" end="00:24:55.908" style="s2">&gt;&gt; Mom, I didn&#39;t. I really didn&#39;t. Sister</p>
+<p begin="00:24:54.908" end="00:24:58.607" style="s2">is trying to frame me.</p>
+<p begin="00:24:55.908" end="00:25:00.807" style="s2">&gt;&gt; Enough, Serena. This audio must be an AI</p>
+<p begin="00:24:58.607" end="00:25:01.607" style="s2">deepfake. You forged this just to kick</p>
+<p begin="00:25:00.807" end="00:25:03.908" style="s2">her out.</p>
+<p begin="00:25:01.607" end="00:25:05.862" style="s2">&gt;&gt; Serena, APOLOGIZE TO CHLOE RIGHT NOW. WE</p>
+<p begin="00:25:03.908" end="00:25:07.307" style="s2">ARE FAMILY.</p>
+<p begin="00:25:05.862" end="00:25:08.908" style="s2">[laughter and gasps]</p>
+<p begin="00:25:07.307" end="00:25:10.707" style="s2">Since you love this venomous snake so</p>
+<p begin="00:25:08.908" end="00:25:12.207" style="s2">much, keep her.</p>
+<p begin="00:25:10.707" end="00:25:15.507" style="s2">I hope she eats you all alive, leaving</p>
+<p begin="00:25:12.207" end="00:25:15.507" style="s2">no bones behind.</p>
+<p begin="00:25:16.207" end="00:25:20.908" style="s2">&gt;&gt; Stop. If you want the Sinclair family to</p>
+<p begin="00:25:18.707" end="00:25:22.707" style="s2">publicly acknowledge you, you must prove</p>
+<p begin="00:25:20.908" end="00:25:24.607" style="s2">your worth.</p>
+<p begin="00:25:22.707" end="00:25:26.507" style="s2">Next week is the International Rough</p>
+<p begin="00:25:24.607" end="00:25:28.107" style="s2">Gemstone Auction. If you can&#39;t cut a</p>
+<p begin="00:25:26.507" end="00:25:28.908" style="s2">top-tier gem, get out of this house</p>
+<p begin="00:25:28.107" end="00:25:31.007" style="s2">forever.</p>
+<p begin="00:25:28.908" end="00:25:32.707" style="s2">&gt;&gt; I accept.</p>
+<p begin="00:25:31.007" end="00:25:35.207" style="s2">But remember, I&#39;m not doing this to</p>
+<p begin="00:25:32.707" end="00:25:37.307" style="s2">prove I am worthy of the Sinclairs. I&#39;m</p>
+<p begin="00:25:35.207" end="00:25:39.807" style="s2">doing this to prove just how blind you</p>
+<p begin="00:25:37.307" end="00:25:39.807" style="s2">all are.</p>
+<p begin="00:25:42.707" end="00:25:47.408" style="s2">Sister, I hired the world&#39;s top gem</p>
+<p begin="00:25:44.807" end="00:25:50.107" style="s2">master. If you&#39;re scared, you can still</p>
+<p begin="00:25:47.408" end="00:25:50.107" style="s2">surrender.</p>
+<p begin="00:25:52.107" end="00:25:57.507" style="s2">&gt;&gt; WOW! A TOP-GRADE BLUE SAPPHIRE WORTH AT</p>
+<p begin="00:25:55.408" end="00:26:00.107" style="s2">LEAST 30 [laughter] MILLION. CHLOE IS</p>
+<p begin="00:25:57.507" end="00:26:03.908" style="s2">THE TRUE STAR of our family. Now, let&#39;s</p>
+<p begin="00:26:00.107" end="00:26:03.908" style="s2">see what trash the peasant picked.</p>
+<p begin="00:26:09.607" end="00:26:14.408" style="s2">&gt;&gt; What are you looking at?</p>
+<p begin="00:26:11.207" end="00:26:17.007" style="s2">&gt;&gt; I AM A FLAWLESS IMPERIAL EMERALD. THESE</p>
+<p begin="00:26:14.408" end="00:26:19.507" style="s2">BLIND idiots put me in the trash pile.</p>
+<p begin="00:26:17.007" end="00:26:22.007" style="s2">Pisses it off. Take me. Let me blind</p>
+<p begin="00:26:19.507" end="00:26:22.007" style="s2">them all.</p>
+<p begin="00:26:23.307" end="00:26:27.307" style="s2">&gt;&gt; I&#39;ll take this one. $200.</p>
+<p begin="00:26:26.428" end="00:26:30.307" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:26:27.307" end="00:26:32.409" style="s2">&gt;&gt; A $200 rock full of cracks?</p>
+<p begin="00:26:30.307" end="00:26:36.809" style="s2">You want to beat Chloe with that? Cut</p>
+<p begin="00:26:32.409" end="00:26:36.809" style="s2">it. I want her completely humiliated.</p>
+<p begin="00:26:46.209" end="00:26:53.009" style="s2">&gt;&gt; Oh my god. It&#39;s it&#39;s</p>
+<p begin="00:26:50.109" end="00:26:57.909" style="s2">&gt;&gt; IMPERIAL GREEN. IT&#39;S FLAWLESS IMPERIAL</p>
+<p begin="00:26:53.009" end="00:27:00.409" style="s2">GREEN EMERALD. A miracle. A miracle.</p>
+<p begin="00:26:57.909" end="00:27:02.309" style="s2">&gt;&gt; I&#39;ve looked at stones my whole life and</p>
+<p begin="00:27:00.409" end="00:27:05.909" style="s2">I was completely blind.</p>
+<p begin="00:27:02.309" end="00:27:10.109" style="s2">&gt;&gt; This is WORTH AT LEAST $1 BILLION.</p>
+<p begin="00:27:05.909" end="00:27:11.909" style="s2">&gt;&gt; IMPOSSIBLE. A $200 scrap rock?</p>
+<p begin="00:27:10.109" end="00:27:15.709" style="s2">&gt;&gt; Chloe Sinclair,</p>
+<p begin="00:27:11.909" end="00:27:15.709" style="s2">who is the real trash now?</p>
+<p begin="00:27:16.009" end="00:27:20.209" style="s2">&gt;&gt; $1 billion. The Vance Group will take</p>
+<p begin="00:27:18.009" end="00:27:20.209" style="s2">it.</p>
+<p begin="00:27:22.109" end="00:27:25.709" style="s2">&gt;&gt; Excellent, I miss Sinclair.</p>
+<p begin="00:27:24.109" end="00:27:26.609" style="s2">$1 billion has been transferred to your</p>
+<p begin="00:27:25.709" end="00:27:29.609" style="s2">account.</p>
+<p begin="00:27:26.609" end="00:27:31.809" style="s2">&gt;&gt; Serena, sister, I was just joking</p>
+<p begin="00:27:29.609" end="00:27:33.609" style="s2">earlier. With your skills, we can rule</p>
+<p begin="00:27:31.809" end="00:27:36.509" style="s2">the market together.</p>
+<p begin="00:27:33.609" end="00:27:39.709" style="s2">&gt;&gt; My precious daughter, Mommy always knew</p>
+<p begin="00:27:36.509" end="00:27:41.509" style="s2">you were a genius.</p>
+<p begin="00:27:39.709" end="00:27:42.409" style="s2">&gt;&gt; When I was framed by a fake, where were</p>
+<p begin="00:27:41.509" end="00:27:43.909" style="s2">you?</p>
+<p begin="00:27:42.409" end="00:27:47.409" style="s2">When I was almost beaten to death by</p>
+<p begin="00:27:43.909" end="00:27:49.109" style="s2">thugs, where were you? Get lost.</p>
+<p begin="00:27:47.409" end="00:27:52.109" style="s2">I am officially cutting all ties with</p>
+<p begin="00:27:49.109" end="00:27:52.109" style="s2">the Sinclair family.</p>
+<p begin="00:27:52.209" end="00:27:56.809" style="s2">&gt;&gt; I announced that Vance Group is cutting</p>
+<p begin="00:27:53.809" end="00:27:59.209" style="s2">all business ties with Sinclair Corp.</p>
+<p begin="00:27:56.809" end="00:28:01.309" style="s2">Effective immediately.</p>
+<p begin="00:27:59.209" end="00:28:03.369" style="s2">Anyone who works with them is an enemy</p>
+<p begin="00:28:01.309" end="00:28:04.209" style="s2">of the Vance Group.</p>
+<p begin="00:28:03.369" end="00:28:06.409" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:28:04.209" end="00:28:06.409" style="s2">&gt;&gt; WE&#39;RE RUINED.</p>
+<p begin="00:28:08.609" end="00:28:16.209" style="s2">&gt;&gt; THE SINCLAIR SHIP IS SINKING. I need to</p>
+<p begin="00:28:11.709" end="00:28:16.209" style="s2">empty the vault and run to the Mafia.</p>
+<p begin="00:28:16.409" end="00:28:20.709" style="s2">&gt;&gt; What do you mean the BANK FROZE OUR</p>
+<p begin="00:28:17.509" end="00:28:21.909" style="s2">ACCOUNTS? WE NEED THAT LOAN.</p>
+<p begin="00:28:20.709" end="00:28:23.674" style="s2">HELLO?</p>
+<p begin="00:28:21.909" end="00:28:24.909" style="s2">HELLO?</p>
+<p begin="00:28:23.674" end="00:28:27.109" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:28:24.909" end="00:28:29.109" style="s2">&gt;&gt; JULIAN VANCE ACTUALLY cut all ties just</p>
+<p begin="00:28:27.109" end="00:28:31.509" style="s2">for that wild girl. We&#39;re finished.</p>
+<p begin="00:28:29.109" end="00:28:34.210" style="s2">&gt;&gt; The Sinclair family is finished.</p>
+<p begin="00:28:31.509" end="00:28:37.610" style="s2">&gt;&gt; My god, I was so blind. Serena is the</p>
+<p begin="00:28:34.210" end="00:28:40.310" style="s2">real golden goose and I drove her away.</p>
+<p begin="00:28:37.610" end="00:28:42.910" style="s2">&gt;&gt; Vance is ruthless. The Sinclair ship is</p>
+<p begin="00:28:40.310" end="00:28:46.010" style="s2">sinking fast. I must cash out before it</p>
+<p begin="00:28:42.910" end="00:28:46.010" style="s2">goes completely under.</p>
+<p begin="00:28:46.810" end="00:28:51.410" style="s2">&gt;&gt; Zach, I know an underground banker. If</p>
+<p begin="00:28:49.310" end="00:28:53.510" style="s2">we mortgage the $50 million antique</p>
+<p begin="00:28:51.410" end="00:28:56.210" style="s2">collection in the family vault to him,</p>
+<p begin="00:28:53.510" end="00:28:57.910" style="s2">we can get cash to save the company.</p>
+<p begin="00:28:56.210" end="00:28:59.810" style="s2">&gt;&gt; But those antiques are grandpa&#39;s life</p>
+<p begin="00:28:57.910" end="00:29:01.810" style="s2">blood.</p>
+<p begin="00:28:59.810" end="00:29:03.910" style="s2">What if something goes wrong?</p>
+<p begin="00:29:01.810" end="00:29:06.410" style="s2">&gt;&gt; I&#39;m so good at no. Are you going to</p>
+<p begin="00:29:03.910" end="00:29:08.610" style="s2">watch the Sinclair family get destroyed?</p>
+<p begin="00:29:06.410" end="00:29:10.210" style="s2">I I&#39;ll put my life on the line. Just</p>
+<p begin="00:29:08.610" end="00:29:13.010" style="s2">sign this authorization form and I&#39;ll</p>
+<p begin="00:29:10.210" end="00:29:13.010" style="s2">handle the rest.</p>
+<p begin="00:29:15.710" end="00:29:19.610" style="s2">&gt;&gt; Yay, we&#39;re seeing the sun.</p>
+<p begin="00:29:17.810" end="00:29:21.970" style="s2">&gt;&gt; Be careful. My fake patina was glued on</p>
+<p begin="00:29:19.610" end="00:29:22.610" style="s2">yesterday. Don&#39;t scratch MY BARBOUR OAK.</p>
+<p begin="00:29:21.970" end="00:29:24.410" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:29:22.610" end="00:29:25.710" style="s2">&gt;&gt; WE&#39;RE [screaming] ALL FACTORY FAKES FROM</p>
+<p begin="00:29:24.410" end="00:29:28.310" style="s2">CHINA.</p>
+<p begin="00:29:25.710" end="00:29:31.110" style="s2">&gt;&gt; SO THE priceless vault of the Sinclairs</p>
+<p begin="00:29:28.310" end="00:29:33.510" style="s2">is full of cheap modern fakes.</p>
+<p begin="00:29:31.110" end="00:29:35.710" style="s2">Chloe is mortgaging fakes to the mafia</p>
+<p begin="00:29:33.510" end="00:29:39.010" style="s2">for 50 million.</p>
+<p begin="00:29:35.710" end="00:29:39.010" style="s2">&gt;&gt; Should we warn your brother?</p>
+<p begin="00:29:40.210" end="00:29:44.510" style="s2">&gt;&gt; What&#39;s going on? Chloe said she was</p>
+<p begin="00:29:41.910" end="00:29:46.710" style="s2">going to get the cash.</p>
+<p begin="00:29:44.510" end="00:29:48.810" style="s2">But her phone has been off for hours.</p>
+<p begin="00:29:46.710" end="00:29:49.310" style="s2">&gt;&gt; Sorry, the number you dialed is out of</p>
+<p begin="00:29:48.810" end="00:29:51.110" style="s2">service.</p>
+<p begin="00:29:49.310" end="00:29:52.010" style="s2">&gt;&gt; A disconnected number?</p>
+<p begin="00:29:51.110" end="00:29:54.610" style="s2">No.</p>
+<p begin="00:29:52.010" end="00:29:57.410" style="s2">Chloe wouldn&#39;t abandon us.</p>
+<p begin="00:29:54.610" end="00:29:59.910" style="s2">&gt;&gt; ZACH SINCLAIR, YOU SON OF A [ __ ] YOU</p>
+<p begin="00:29:57.410" end="00:30:01.910" style="s2">dare use a pile of plastic trash to scam</p>
+<p begin="00:29:59.910" end="00:30:04.110" style="s2">50 million out of me?</p>
+<p begin="00:30:01.910" end="00:30:06.110" style="s2">&gt;&gt; Plastic? NO, THOSE ARE NATIONAL</p>
+<p begin="00:30:04.110" end="00:30:07.820" style="s2">TREASURES, AUTHENTICATED BY EXPERTS</p>
+<p begin="00:30:06.110" end="00:30:08.910" style="s2">CHLOE HIRED.</p>
+<p begin="00:30:07.820" end="00:30:11.110" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:30:08.910" end="00:30:13.710" style="s2">&gt;&gt; [ __ ] THREE TOP APPRAISERS LOOKED AT</p>
+<p begin="00:30:11.110" end="00:30:16.110" style="s2">THEM. THEY ARE ALL FACTORY TRASH. PAY UP</p>
+<p begin="00:30:13.710" end="00:30:17.710" style="s2">THE 50 MILLION WITH INTEREST RIGHT NOW</p>
+<p begin="00:30:16.110" end="00:30:18.410" style="s2">OR I&#39;LL FEED YOUR WHOLE FAMILY TO THE</p>
+<p begin="00:30:17.710" end="00:30:19.510" style="s2">DOGS.</p>
+<p begin="00:30:18.410" end="00:30:22.110" style="s2">&gt;&gt; FAKE.</p>
+<p begin="00:30:19.510" end="00:30:24.710" style="s2">IT&#39;S ALL FAKE. THAT VICIOUS [ __ ] CHLOE</p>
+<p begin="00:30:22.110" end="00:30:26.510" style="s2">TOOK ALL OUR MONEY AND RAN. PLEASE GIVE</p>
+<p begin="00:30:24.710" end="00:30:27.810" style="s2">ME SOME TIME.</p>
+<p begin="00:30:26.510" end="00:30:29.810" style="s2">&gt;&gt; I ONLY care about the signature on the</p>
+<p begin="00:30:27.810" end="00:30:30.910" style="s2">contract. Since you don&#39;t have the</p>
+<p begin="00:30:29.810" end="00:30:34.110" style="s2">money,</p>
+<p begin="00:30:30.910" end="00:30:34.110" style="s2">use your leg to pay the debt.</p>
+<p begin="00:30:34.910" end="00:30:37.312" style="s2">&gt;&gt; Break it.</p>
+<p begin="00:30:37.951" end="00:30:39.971" style="s2">&gt;&gt; [gasps]</p>
+<p begin="00:30:44.712" end="00:30:49.312" style="s2">&gt;&gt; Serena,</p>
+<p begin="00:30:46.112" end="00:30:51.512" style="s2">my precious daughter.</p>
+<p begin="00:30:49.312" end="00:30:54.312" style="s2">We were blind. We were scammed by that</p>
+<p begin="00:30:51.512" end="00:30:55.712" style="s2">venomous snake, Chloe. Please save us.</p>
+<p begin="00:30:54.312" end="00:30:58.112" style="s2">Pay off the loan sharks.</p>
+<p begin="00:30:55.712" end="00:30:59.512" style="s2">&gt;&gt; Sister, I was wrong. I&#39;m your real</p>
+<p begin="00:30:58.112" end="00:31:01.312" style="s2">brother.</p>
+<p begin="00:30:59.512" end="00:31:03.612" style="s2">If you don&#39;t save me, they&#39;ll kill me.</p>
+<p begin="00:31:01.312" end="00:31:05.812" style="s2">&gt;&gt; The day you chose the fake over me, I</p>
+<p begin="00:31:03.612" end="00:31:07.912" style="s2">told you we were done.</p>
+<p begin="00:31:05.812" end="00:31:09.312" style="s2">You gave all your love and trust to a</p>
+<p begin="00:31:07.912" end="00:31:11.912" style="s2">scammer.</p>
+<p begin="00:31:09.312" end="00:31:14.312" style="s2">Now you are paying the price.</p>
+<p begin="00:31:11.912" end="00:31:15.912" style="s2">It&#39;s called karma.</p>
+<p begin="00:31:14.312" end="00:31:19.912" style="s2">Security, clear out this irrelevant</p>
+<p begin="00:31:15.912" end="00:31:19.912" style="s2">trash. Don&#39;t dirty the company&#39;s floor.</p>
+<p begin="00:31:20.812" end="00:31:24.912" style="s2">&gt;&gt; Chloe wasn&#39;t just a simple gold digger.</p>
+<p begin="00:31:23.312" end="00:31:27.312" style="s2">Her water is much deeper than you</p>
+<p begin="00:31:24.912" end="00:31:27.312" style="s2">thought.</p>
+<p begin="00:31:27.712" end="00:31:30.212" style="s2">&gt;&gt; Money laundering logs?</p>
+<p begin="00:31:29.312" end="00:31:32.312" style="s2">She&#39;s been colluding with an</p>
+<p begin="00:31:30.212" end="00:31:33.912" style="s2">international artifact smuggling ring?</p>
+<p begin="00:31:32.312" end="00:31:36.112" style="s2">&gt;&gt; Exactly.</p>
+<p begin="00:31:33.912" end="00:31:38.212" style="s2">She fled to the private estate of Viper,</p>
+<p begin="00:31:36.112" end="00:31:39.912" style="s2">a notorious smuggling boss.</p>
+<p begin="00:31:38.212" end="00:31:43.612" style="s2">&gt;&gt; They are planning something massive at</p>
+<p begin="00:31:39.912" end="00:31:45.512" style="s2">next week&#39;s Global Antique Summit.</p>
+<p begin="00:31:43.612" end="00:31:47.912" style="s2">Smuggling national treasures, I won&#39;t</p>
+<p begin="00:31:45.512" end="00:31:49.612" style="s2">let them get away with this.</p>
+<p begin="00:31:47.912" end="00:31:51.012" style="s2">Let&#39;s uproot them all.</p>
+<p begin="00:31:49.612" end="00:31:53.712" style="s2">&gt;&gt; Boss Viper,</p>
+<p begin="00:31:51.012" end="00:31:55.242" style="s2">Serena and Julian ruined me. You have to</p>
+<p begin="00:31:53.712" end="00:31:55.712" style="s2">get revenge for me.</p>
+<p begin="00:31:55.242" end="00:31:57.612" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:31:55.712" end="00:31:59.612" style="s2">&gt;&gt; Don&#39;t worry, baby.</p>
+<p begin="00:31:57.612" end="00:32:01.212" style="s2">Next week at the summit, the world&#39;s top</p>
+<p begin="00:31:59.612" end="00:32:02.212" style="s2">appraisers and billionaires will be</p>
+<p begin="00:32:01.212" end="00:32:04.512" style="s2">there.</p>
+<p begin="00:32:02.212" end="00:32:06.712" style="s2">I&#39;m preparing a big surprise.</p>
+<p begin="00:32:04.512" end="00:32:08.812" style="s2">&gt;&gt; I will detonate the NINE DRAGONS CUP</p>
+<p begin="00:32:06.712" end="00:32:11.512" style="s2">RIGHT IN THE CENTER OF THE HALL. When</p>
+<p begin="00:32:08.812" end="00:32:15.812" style="s2">all the experts are dead, my smuggling</p>
+<p begin="00:32:11.512" end="00:32:15.812" style="s2">ring will monopolize the global market.</p>
+<p begin="00:32:18.812" end="00:32:23.312" style="s2">&gt;&gt; Well, well, my fake sister, you think</p>
+<p begin="00:32:22.112" end="00:32:26.112" style="s2">you won?</p>
+<p begin="00:32:23.312" end="00:32:28.112" style="s2">Boss Viper can crush you like a bug.</p>
+<p begin="00:32:26.112" end="00:32:29.812" style="s2">&gt;&gt; Watch your tone, Viper.</p>
+<p begin="00:32:28.112" end="00:32:32.512" style="s2">My woman is not someone you can point</p>
+<p begin="00:32:29.812" end="00:32:32.512" style="s2">fingers at.</p>
+<p begin="00:32:32.577" end="00:32:35.512" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:32:32.912" end="00:32:37.912" style="s2">&gt;&gt; Ladies and gentlemen, today I present to</p>
+<p begin="00:32:35.512" end="00:32:39.613" style="s2">you a peerless national treasure.</p>
+<p begin="00:32:37.912" end="00:32:41.513" style="s2">&gt;&gt; The Nine Dragons Cup.</p>
+<p begin="00:32:39.613" end="00:32:44.013" style="s2">&gt;&gt; Please, all experts come closer to</p>
+<p begin="00:32:41.513" end="00:32:46.713" style="s2">appreciate.</p>
+<p begin="00:32:44.013" end="00:32:50.013" style="s2">&gt;&gt; Don&#39;t come closer, you idiots. They</p>
+<p begin="00:32:46.713" end="00:32:52.313" style="s2">stuffed A LIQUID BOMB INSIDE MY BELLY.</p>
+<p begin="00:32:50.013" end="00:32:53.613" style="s2">&gt;&gt; RUN. IT&#39;S GOING TO EXPLODE IN 60</p>
+<p begin="00:32:52.313" end="00:32:55.813" style="s2">SECONDS.</p>
+<p begin="00:32:53.613" end="00:32:58.913" style="s2">&gt;&gt; JULIAN, there&#39;s a bomb in that cup. He</p>
+<p begin="00:32:55.813" end="00:32:58.913" style="s2">wants to kill everyone.</p>
+<p begin="00:33:00.413" end="00:33:04.313" style="s2">&gt;&gt; Security, bomb threat. Cut the power and</p>
+<p begin="00:33:02.813" end="00:33:06.913" style="s2">initiate emergency evacuation</p>
+<p begin="00:33:04.313" end="00:33:06.913" style="s2">immediately.</p>
+<p begin="00:33:07.613" end="00:33:11.913" style="s2">&gt;&gt; DON&#39;T BELIEVE HER. THERE IS NO BOMB.</p>
+<p begin="00:33:10.313" end="00:33:14.313" style="s2">SERENA JUST WANTS TO STEAL the treasure</p>
+<p begin="00:33:11.913" end="00:33:16.413" style="s2">for herself and create chaos.</p>
+<p begin="00:33:14.313" end="00:33:18.913" style="s2">&gt;&gt; 30 seconds. I&#39;m going to be blown to</p>
+<p begin="00:33:16.413" end="00:33:18.913" style="s2">dust.</p>
+<p begin="00:33:20.813" end="00:33:24.813" style="s2">&gt;&gt; Serena, it&#39;s too dangerous.</p>
+<p begin="00:33:26.513" end="00:33:33.713" style="s2">&gt;&gt; You crazy woman, die.</p>
+<p begin="00:33:30.113" end="00:33:33.713" style="s2">Cut the blue wire near my base.</p>
+<p begin="00:33:37.113" end="00:33:41.013" style="s2">We survived.</p>
+<p begin="00:33:39.013" end="00:33:43.413" style="s2">&gt;&gt; Plan failed. RETREAT TO THE HIDDEN</p>
+<p begin="00:33:41.013" end="00:33:43.413" style="s2">VAULT.</p>
+<p begin="00:33:44.513" end="00:33:49.413" style="s2">&gt;&gt; BOSS VIPER, TAKE ME WITH YOU. I&#39;M YOUR</p>
+<p begin="00:33:46.913" end="00:33:49.413" style="s2">WOMAN.</p>
+<p begin="00:33:53.113" end="00:33:57.013" style="s2">&gt;&gt; DON&#39;T COME CLOSER. THIS PLACE IS RIGGED</p>
+<p begin="00:33:54.713" end="00:33:58.713" style="s2">WITH A TON OF C4. IF YOU PUSH ME, WE ALL</p>
+<p begin="00:33:57.013" end="00:34:01.913" style="s2">DIE TOGETHER, AND THESE NATIONAL</p>
+<p begin="00:33:58.713" end="00:34:01.913" style="s2">TREASURES WILL BURN WITH US.</p>
+<p begin="00:34:03.623" end="00:34:07.613" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:34:04.213" end="00:34:09.613" style="s2">&gt;&gt; SPIRITS OF ALL THINGS, hear my command.</p>
+<p begin="00:34:07.613" end="00:34:12.413" style="s2">Awaken.</p>
+<p begin="00:34:09.613" end="00:34:16.213" style="s2">&gt;&gt; I have been locked away for 10 years.</p>
+<p begin="00:34:12.413" end="00:34:16.213" style="s2">Slay this tomb robber.</p>
+<p begin="00:34:17.113" end="00:34:22.713" style="s2">&gt;&gt; MONSTERS, SHE&#39;S A MONSTER.</p>
+<p begin="00:34:20.313" end="00:34:26.013" style="s2">&gt;&gt; Everything has a soul. Every sin you</p>
+<p begin="00:34:22.713" end="00:34:28.613" style="s2">committed we remember, rot in hell.</p>
+<p begin="00:34:26.013" end="00:34:30.213" style="s2">&gt;&gt; The defendant, Chloe Sinclair,</p>
+<p begin="00:34:28.613" end="00:34:32.713" style="s2">for attempted murder,</p>
+<p begin="00:34:30.213" end="00:34:35.513" style="s2">massive fraud, and participating in an</p>
+<p begin="00:34:32.713" end="00:34:37.913" style="s2">international artifact smuggling ring.</p>
+<p begin="00:34:35.513" end="00:34:40.213" style="s2">The crimes are extremely severe.</p>
+<p begin="00:34:37.913" end="00:34:42.314" style="s2">You are hereby sentenced to life in</p>
+<p begin="00:34:40.213" end="00:34:42.814" style="s2">prison without the possibility OF</p>
+<p begin="00:34:42.314" end="00:34:44.888" style="s2">PAROLE.</p>
+<p begin="00:34:42.814" end="00:34:45.514" style="s2">&gt;&gt; NO. I DON&#39;T WANT TO GO TO JAIL.</p>
+<p begin="00:34:44.888" end="00:34:47.814" style="s2">[screaming]</p>
+<p begin="00:34:45.514" end="00:34:49.714" style="s2">I AM THE SINCLAIR HEIR.</p>
+<p begin="00:34:47.814" end="00:34:52.514" style="s2">LET ME OUT.</p>
+<p begin="00:34:49.714" end="00:34:54.514" style="s2">I WAS SO BLIND. I treated a diva and</p>
+<p begin="00:34:52.514" end="00:34:57.814" style="s2">like a treasure and I drove my real</p>
+<p begin="00:34:54.514" end="00:35:01.514" style="s2">daughter away. I destroyed this family.</p>
+<p begin="00:34:57.814" end="00:35:01.514" style="s2">I DESERVE TO DIE.</p>
+<p begin="00:35:02.314" end="00:35:09.914" style="s2">SERENA, MY DAUGHTER, mommy regrets it.</p>
+<p begin="00:35:05.914" end="00:35:09.914" style="s2">Will you back and see me just once?</p>
+<p begin="00:35:10.714" end="00:35:14.514" style="s2">I don&#39;t have a mother.</p>
+<p begin="00:35:12.814" end="00:35:18.114" style="s2">I only have grandpa.</p>
+<p begin="00:35:14.514" end="00:35:22.114" style="s2">&gt;&gt; Serena, my daughter, mommy regrets it.</p>
+<p begin="00:35:18.114" end="00:35:22.114" style="s2">Will you back and see me just once?</p>
+<p begin="00:35:22.914" end="00:35:27.914" style="s2">I don&#39;t have a mother.</p>
+<p begin="00:35:24.914" end="00:35:27.914" style="s2">I only have grandpa.</p>
+<p begin="00:35:31.314" end="00:35:35.214" style="s2">&gt;&gt; Ms. Serena, thank you for</p>
+<p begin="00:35:32.614" end="00:35:37.414" style="s2">unconditionally donating thousands of</p>
+<p begin="00:35:35.214" end="00:35:39.714" style="s2">recovered global artifacts back to the</p>
+<p begin="00:35:37.414" end="00:35:39.714" style="s2">state.</p>
+<p begin="00:35:40.914" end="00:35:46.714" style="s2">You are not just a legend in the antique</p>
+<p begin="00:35:42.914" end="00:35:49.014" style="s2">world. You are a hero of our nation.</p>
+<p begin="00:35:46.714" end="00:35:50.514" style="s2">&gt;&gt; National treasures belong to the country</p>
+<p begin="00:35:49.014" end="00:35:51.714" style="s2">and to history.</p>
+<p begin="00:35:50.514" end="00:35:53.914" style="s2">They should never be the victims of</p>
+<p begin="00:35:51.714" end="00:35:57.714" style="s2">personal greed.</p>
+<p begin="00:35:53.914" end="00:35:57.714" style="s2">I only did what any citizen should do.</p>
+<p begin="00:35:58.314" end="00:36:03.314" style="s2">&gt;&gt; Thank you.</p>
+<p begin="00:35:59.714" end="00:36:03.314" style="s2">We are finally home.</p>
+<p begin="00:36:08.214" end="00:36:12.514" style="s2">Ms. Sinclair,</p>
+<p begin="00:36:10.314" end="00:36:15.614" style="s2">you saved the national treasures</p>
+<p begin="00:36:12.514" end="00:36:15.614" style="s2">and you saved everyone today.</p>
+<p begin="00:36:16.614" end="00:36:20.614" style="s2">But you don&#39;t realize</p>
+<p begin="00:36:18.514" end="00:36:25.514" style="s2">from the very first day I met you in</p>
+<p begin="00:36:20.614" end="00:36:25.514" style="s2">that rundown antique shop, you saved me.</p>
+<p begin="00:36:32.214" end="00:36:36.014" style="s2">&gt;&gt; He&#39;s had me locked in a safe for five</p>
+<p begin="00:36:34.214" end="00:36:39.714" style="s2">years just waiting for the perfect</p>
+<p begin="00:36:36.014" end="00:36:40.814" style="s2">queen. Say yes, darling.</p>
+<p begin="00:36:39.714" end="00:36:42.114" style="s2">&gt;&gt; Serena,</p>
+<p begin="00:36:40.814" end="00:36:43.514" style="s2">you&#39;ve handed the national treasures</p>
+<p begin="00:36:42.114" end="00:36:44.814" style="s2">over to the country.</p>
+<p begin="00:36:43.514" end="00:36:45.916" style="s2">Now,</p>
+<p begin="00:36:44.814" end="00:36:48.116" style="s2">are you willing to hand yourself over to</p>
+<p begin="00:36:45.916" end="00:36:48.116" style="s2">me?</p>
+<p begin="00:36:57.855" end="00:37:00.816" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:36:58.616" end="00:37:03.016" style="s2">&gt;&gt; Julian, you ruthless wolf in the</p>
+<p begin="00:37:00.816" end="00:37:04.716" style="s2">business world, you finally managed to</p>
+<p begin="00:37:03.016" end="00:37:06.316" style="s2">catch my precious granddaughter.</p>
+<p begin="00:37:04.716" end="00:37:09.516" style="s2">&gt;&gt; Grandpa, I will protect her with my</p>
+<p begin="00:37:06.316" end="00:37:09.516" style="s2">life. I promise you.</p>
+<p begin="00:37:10.016" end="00:37:13.716" style="s2">&gt;&gt; I heard about your parents and Zach.</p>
+<p begin="00:37:11.916" end="00:37:16.416" style="s2">They let their greed and bias blind</p>
+<p begin="00:37:13.716" end="00:37:19.216" style="s2">them. They are reaping what they sowed.</p>
+<p begin="00:37:16.416" end="00:37:21.816" style="s2">Don&#39;t feel guilty, my child.</p>
+<p begin="00:37:19.216" end="00:37:23.716" style="s2">The Sinclair family&#39;s era is over. But</p>
+<p begin="00:37:21.816" end="00:37:28.016" style="s2">my personal 10% shares of the global</p>
+<p begin="00:37:23.716" end="00:37:28.016" style="s2">mining rights, I leave them all to you.</p>
+<p begin="00:37:28.116" end="00:37:32.616" style="s2">Take it. Use it to do more good in the</p>
+<p begin="00:37:30.416" end="00:37:34.536" style="s2">world. You are the true pride of this</p>
+<p begin="00:37:32.616" end="00:37:36.556" style="s2">bloodline.</p>
+<p begin="00:37:34.536" end="00:37:36.556" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:37:36.916" end="00:37:39.816" style="s2">&gt;&gt; Thank you, Grandpa.</p>
+</div>
+</body>
+</tt>

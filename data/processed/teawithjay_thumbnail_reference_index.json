@@ -1,0 +1,67 @@
+[
+  {
+    "video_id": "9PB2M2UwASM",
+    "channel": "TeawithJay / Jay Studios",
+    "channel_id": "UCwf4w1M_OCPKBrBuuNsiiLQ",
+    "title": "THE DUKES ARIA complete movie",
+    "performance_bucket": "hit_complete",
+    "views_at_collection": 65576,
+    "approx_age_days": 8,
+    "approx_views_per_day": 8197,
+    "thumbnail_path": "data/raw/thumbnails/teawithjay/9PB2M2UwASM.jpg",
+    "mechanism": "romance mask autonomy",
+    "evidence_note": "No CTR or retention data; visual/discovery analysis only."
+  },
+  {
+    "video_id": "aS6SI32fNc4",
+    "channel": "TeawithJay / Jay Studios",
+    "channel_id": "UCwf4w1M_OCPKBrBuuNsiiLQ",
+    "title": "House of Valemont",
+    "performance_bucket": "medium_library_hit",
+    "views_at_collection": 130152,
+    "approx_age_days": 38,
+    "approx_views_per_day": 3425,
+    "thumbnail_path": "data/raw/thumbnails/teawithjay/aS6SI32fNc4.jpg",
+    "mechanism": "marriage mistrust evidence",
+    "evidence_note": "No CTR or retention data; visual/discovery analysis only."
+  },
+  {
+    "video_id": "5N7u9AfdPzA",
+    "channel": "TeawithJay / Jay Studios",
+    "channel_id": "UCwf4w1M_OCPKBrBuuNsiiLQ",
+    "title": "Ruined by His Kiss chapter one",
+    "performance_bucket": "hit_serial_velocity",
+    "views_at_collection": 28673,
+    "approx_age_days": 2,
+    "approx_views_per_day": 14336,
+    "thumbnail_path": "data/raw/thumbnails/teawithjay/5N7u9AfdPzA.jpg",
+    "mechanism": "serial near miss",
+    "evidence_note": "No CTR or retention data; visual/discovery analysis only."
+  },
+  {
+    "video_id": "vchwaA94DcM",
+    "channel": "TeawithJay / Jay Studios",
+    "channel_id": "UCwf4w1M_OCPKBrBuuNsiiLQ",
+    "title": "Dukes Aria chapter 1",
+    "performance_bucket": "medium_low_serial_chapter",
+    "views_at_collection": 10156,
+    "approx_age_days": 19,
+    "approx_views_per_day": 535,
+    "thumbnail_path": "data/raw/thumbnails/teawithjay/vchwaA94DcM.jpg",
+    "mechanism": "serial chapter",
+    "evidence_note": "No CTR or retention data; visual/discovery analysis only."
+  },
+  {
+    "video_id": "Y3gjfUSTNHE",
+    "channel": "TeawithJay / Jay Studios",
+    "channel_id": "UCwf4w1M_OCPKBrBuuNsiiLQ",
+    "title": "Ashes of Carthage",
+    "performance_bucket": "low_counterexample",
+    "views_at_collection": 1535,
+    "approx_age_days": 24,
+    "approx_views_per_day": 64,
+    "thumbnail_path": "data/raw/thumbnails/teawithjay/Y3gjfUSTNHE.jpg",
+    "mechanism": "historical sacrifice epic",
+    "evidence_note": "No CTR or retention data; visual/discovery analysis only."
+  }
+]

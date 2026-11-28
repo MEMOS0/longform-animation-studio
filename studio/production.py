@@ -44,6 +44,57 @@ from .economic_abandonment_integrity import evaluate_economic_abandonment_integr
 from .wrongful_accusation_integrity import evaluate_wrongful_accusation_integrity
 from .revenge_autonomy_integrity import evaluate_revenge_autonomy_integrity
 from .object_testimony_integrity import evaluate_object_testimony_integrity
+from .competence_cascade_integrity import evaluate_competence_cascade_integrity
+from .compressed_wish_integrity import evaluate_compressed_wish_integrity
+from .taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+from .chosen_bond_integrity import evaluate_chosen_bond_integrity
+from .restitution_pact_integrity import evaluate_restitution_pact_integrity
+from .maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+from .protective_kinship_integrity import evaluate_protective_kinship_integrity
+from .constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+from .dual_incognito_workplace_integrity import evaluate_dual_incognito_workplace_integrity
+from .adversarial_coparent_integrity import evaluate_adversarial_coparent_integrity
+from .evidentiary_withdrawal_integrity import evaluate_evidentiary_withdrawal_integrity
+from .labor_romance_power_balance_integrity import evaluate_labor_romance_power_balance_integrity
+from .cozy_disaster_shelter_integrity import evaluate_cozy_disaster_shelter_integrity
+from .capability_inversion_care_integrity import evaluate_capability_inversion_care_integrity
+from .serial_relational_anchor_integrity import evaluate_serial_relational_anchor_integrity
+from .self_selected_athlete_romance_integrity import evaluate_self_selected_athlete_romance_integrity
+from .curse_cure_intimacy_integrity import evaluate_curse_cure_intimacy_integrity
+from .swapped_child_identity_integrity import evaluate_swapped_child_identity_integrity
+from .bl_power_autonomy_romance_integrity import evaluate_bl_power_autonomy_romance_integrity
+from .progression_system_survival_integrity import evaluate_progression_system_survival_integrity
+from .kin_protection_power_reversal_integrity import evaluate_kin_protection_power_reversal_integrity
+from .animal_communication_zoo_revival_integrity import evaluate_animal_communication_zoo_revival_integrity
+from .bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
+from .wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
+from .incognito_moral_test_integrity import evaluate_incognito_moral_test_integrity
+from .age_gap_romance_autonomy_integrity import evaluate_age_gap_romance_autonomy_integrity
+from .class_performance_misread_integrity import evaluate_class_performance_misread_integrity
+from .misplaced_family_loyalty_integrity import evaluate_misplaced_family_loyalty_integrity
+from .deprioritized_spouse_power_reversal_integrity import evaluate_deprioritized_spouse_power_reversal_integrity
+from .shared_resource_exploitation_integrity import evaluate_shared_resource_exploitation_integrity
+from .strategic_romantic_deception_integrity import evaluate_strategic_romantic_deception_integrity
+from .retributive_romance_reversal_integrity import evaluate_retributive_romance_reversal_integrity
+from .meaning_system_agency_restoration_integrity import evaluate_meaning_system_agency_restoration_integrity
+from .institutional_vindication_care_integrity import evaluate_institutional_vindication_care_integrity
+from .epistemic_intimacy_integrity import evaluate_epistemic_intimacy_integrity
+from .care_first_incognito_integrity import evaluate_care_first_incognito_integrity
+from .bounded_magic_livelihood_integrity import evaluate_bounded_magic_livelihood_integrity
+from .dignified_labor_craft_vindication_integrity import evaluate_dignified_labor_craft_vindication_integrity
+from .compressed_mythic_quest_integrity import evaluate_compressed_mythic_quest_integrity
+from .period_autonomy_evidence_romance_integrity import evaluate_period_autonomy_evidence_romance_integrity
+from .hidden_supernatural_kinship_integrity import evaluate_hidden_supernatural_kinship_integrity
+from .public_dignity_transgression_integrity import evaluate_public_dignity_transgression_integrity
+from .serialized_patronage_art_longing_integrity import evaluate_serialized_patronage_art_longing_integrity
+from .trauma_informed_child_voice_integrity import evaluate_trauma_informed_child_voice_integrity
+from .appearance_capital_transformation_integrity import evaluate_appearance_capital_transformation_integrity
+from .scale_bridge_stewardship_integrity import evaluate_scale_bridge_stewardship_integrity
+from .coerced_psychiatric_labeling_integrity import evaluate_coerced_psychiatric_labeling_integrity
+from .precognitive_child_kinship_integrity import evaluate_precognitive_child_kinship_integrity
+from .elder_remittance_care_integrity import evaluate_elder_remittance_care_integrity
+from .folk_ecological_reciprocity_integrity import evaluate_folk_ecological_reciprocity_integrity
+from .education_theft_false_poverty_integrity import evaluate_education_theft_false_poverty_integrity
 from .visual_causality import evaluate_visual_causality
 from .hidden_identity_integrity import evaluate_hidden_identity_integrity
 from .scale_community_integrity import evaluate_scale_community_integrity
@@ -338,6 +389,57 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "wrongful_accusation_integrity": evaluate_wrongful_accusation_integrity(premise, architecture, scenes),
         "revenge_autonomy_integrity": evaluate_revenge_autonomy_integrity(premise, architecture, scenes),
         "object_testimony_integrity": evaluate_object_testimony_integrity(premise, architecture, scenes),
+        "competence_cascade_integrity": evaluate_competence_cascade_integrity(premise, architecture, scenes),
+        "compressed_wish_integrity": evaluate_compressed_wish_integrity(premise, architecture, scenes),
+        "taboo_family_irony_integrity": evaluate_taboo_family_irony_integrity(premise, architecture, scenes),
+        "chosen_bond_integrity": evaluate_chosen_bond_integrity(premise, architecture, scenes),
+        "restitution_pact_integrity": evaluate_restitution_pact_integrity(premise, architecture, scenes),
+        "maternal_sovereignty_integrity": evaluate_maternal_sovereignty_integrity(premise, architecture, scenes),
+        "protective_kinship_integrity": evaluate_protective_kinship_integrity(premise, architecture, scenes),
+        "constructive_restoration_integrity": evaluate_constructive_restoration_integrity(premise, architecture, scenes),
+        "dual_incognito_workplace_integrity": evaluate_dual_incognito_workplace_integrity(premise, architecture, scenes),
+        "adversarial_coparent_integrity": evaluate_adversarial_coparent_integrity(premise, architecture, scenes),
+        "evidentiary_withdrawal_integrity": evaluate_evidentiary_withdrawal_integrity(premise, architecture, scenes),
+        "labor_romance_power_balance_integrity": evaluate_labor_romance_power_balance_integrity(premise, architecture, scenes),
+        "cozy_disaster_shelter_integrity": evaluate_cozy_disaster_shelter_integrity(premise, architecture, scenes),
+        "capability_inversion_care_integrity": evaluate_capability_inversion_care_integrity(premise, architecture, scenes),
+        "serial_relational_anchor_integrity": evaluate_serial_relational_anchor_integrity(premise, architecture, scenes),
+        "self_selected_athlete_romance_integrity": evaluate_self_selected_athlete_romance_integrity(premise, architecture, scenes),
+        "curse_cure_intimacy_integrity": evaluate_curse_cure_intimacy_integrity(premise, architecture, scenes),
+        "swapped_child_identity_integrity": evaluate_swapped_child_identity_integrity(premise, architecture, scenes),
+        "bl_power_autonomy_romance_integrity": evaluate_bl_power_autonomy_romance_integrity(premise, architecture, scenes),
+        "progression_system_survival_integrity": evaluate_progression_system_survival_integrity(premise, architecture, scenes),
+        "kin_protection_power_reversal_integrity": evaluate_kin_protection_power_reversal_integrity(premise, architecture, scenes),
+        "animal_communication_zoo_revival_integrity": evaluate_animal_communication_zoo_revival_integrity(premise, architecture, scenes),
+        "bonded_machine_pilot_integrity": evaluate_bonded_machine_pilot_integrity(premise, architecture, scenes),
+        "wound_price_revenge_integrity": evaluate_wound_price_revenge_integrity(premise, architecture, scenes),
+        "incognito_moral_test_integrity": evaluate_incognito_moral_test_integrity(premise, architecture, scenes),
+        "age_gap_romance_autonomy_integrity": evaluate_age_gap_romance_autonomy_integrity(premise, architecture, scenes),
+        "class_performance_misread_integrity": evaluate_class_performance_misread_integrity(premise, architecture, scenes),
+        "misplaced_family_loyalty_integrity": evaluate_misplaced_family_loyalty_integrity(premise, architecture, scenes),
+        "deprioritized_spouse_power_reversal_integrity": evaluate_deprioritized_spouse_power_reversal_integrity(premise, architecture, scenes),
+        "shared_resource_exploitation_integrity": evaluate_shared_resource_exploitation_integrity(premise, architecture, scenes),
+        "strategic_romantic_deception_integrity": evaluate_strategic_romantic_deception_integrity(premise, architecture, scenes),
+        "retributive_romance_reversal_integrity": evaluate_retributive_romance_reversal_integrity(premise, architecture, scenes),
+        "meaning_system_agency_restoration_integrity": evaluate_meaning_system_agency_restoration_integrity(premise, architecture, scenes),
+        "institutional_vindication_care_integrity": evaluate_institutional_vindication_care_integrity(premise, architecture, scenes),
+        "epistemic_intimacy_integrity": evaluate_epistemic_intimacy_integrity(premise, architecture, scenes),
+        "care_first_incognito_integrity": evaluate_care_first_incognito_integrity(premise, architecture, scenes),
+        "bounded_magic_livelihood_integrity": evaluate_bounded_magic_livelihood_integrity(premise, architecture, scenes),
+        "dignified_labor_craft_vindication_integrity": evaluate_dignified_labor_craft_vindication_integrity(premise, architecture, scenes),
+        "compressed_mythic_quest_integrity": evaluate_compressed_mythic_quest_integrity(premise, architecture, scenes),
+        "period_autonomy_evidence_romance_integrity": evaluate_period_autonomy_evidence_romance_integrity(premise, architecture, scenes),
+        "hidden_supernatural_kinship_integrity": evaluate_hidden_supernatural_kinship_integrity(premise, architecture, scenes),
+        "public_dignity_transgression_integrity": evaluate_public_dignity_transgression_integrity(premise, architecture, scenes),
+        "serialized_patronage_art_longing_integrity": evaluate_serialized_patronage_art_longing_integrity(premise, architecture, scenes),
+        "trauma_informed_child_voice_integrity": evaluate_trauma_informed_child_voice_integrity(premise, architecture, scenes),
+    "appearance_capital_transformation_integrity": evaluate_appearance_capital_transformation_integrity(premise, architecture, scenes),
+    "scale_bridge_stewardship_integrity": evaluate_scale_bridge_stewardship_integrity(premise, architecture, scenes),
+    "coerced_psychiatric_labeling_integrity": evaluate_coerced_psychiatric_labeling_integrity(premise, architecture, scenes),
+    "precognitive_child_kinship_integrity": evaluate_precognitive_child_kinship_integrity(premise, architecture, scenes),
+    "elder_remittance_care_integrity": evaluate_elder_remittance_care_integrity(premise, architecture, scenes),
+    "folk_ecological_reciprocity_integrity": evaluate_folk_ecological_reciprocity_integrity(premise, architecture, scenes),
+    "education_theft_false_poverty_integrity": evaluate_education_theft_false_poverty_integrity(premise, architecture, scenes),
         "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes), "storyboards": len(boards)},
         "gates": gate_report(schema_errors, failure, scene_report, architecture_report, bool(architecture), bool(scenes), board_report),
     }

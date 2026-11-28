@@ -1,0 +1,102 @@
+[
+  {
+    "act": "public wedding betrayal and elf-king re-choice",
+    "minutes": "0-11.0",
+    "mean_wpm": 188.1,
+    "visual_motion": 0.1418,
+    "brightness": 0.3288,
+    "audio_rms": 0.13,
+    "onsets_per_sec": 5.68,
+    "silence_ratio": 0.041
+  },
+  {
+    "act": "aftermath, sanctuary, and emotional reset",
+    "minutes": "11-18.0",
+    "mean_wpm": 204.6,
+    "visual_motion": 0.0988,
+    "brightness": 0.2512,
+    "audio_rms": 0.11,
+    "onsets_per_sec": 5.98,
+    "silence_ratio": 0.086
+  },
+  {
+    "act": "wolf succession pressure and proof of exploitation",
+    "minutes": "18-25.0",
+    "mean_wpm": 188.1,
+    "visual_motion": 0.0984,
+    "brightness": 0.2217,
+    "audio_rms": 0.088,
+    "onsets_per_sec": 5.97,
+    "silence_ratio": 0.066
+  },
+  {
+    "act": "healing care and anti-fate vow",
+    "minutes": "25-32.0",
+    "mean_wpm": 186.0,
+    "visual_motion": 0.0962,
+    "brightness": 0.3096,
+    "audio_rms": 0.083,
+    "onsets_per_sec": 5.51,
+    "silence_ratio": 0.108
+  },
+  {
+    "act": "late repentance confrontation and rejection",
+    "minutes": "32-41.0",
+    "mean_wpm": 198.2,
+    "visual_motion": 0.1029,
+    "brightness": 0.3019,
+    "audio_rms": 0.095,
+    "onsets_per_sec": 5.49,
+    "silence_ratio": 0.237
+  },
+  {
+    "act": "witch-family pressure plus elven counter-proof",
+    "minutes": "41-53.0",
+    "mean_wpm": 202.4,
+    "visual_motion": 0.1004,
+    "brightness": 0.2457,
+    "audio_rms": 0.107,
+    "onsets_per_sec": 5.8,
+    "silence_ratio": 0.182
+  },
+  {
+    "act": "impostor-potion conspiracy and physical cost",
+    "minutes": "53-65.0",
+    "mean_wpm": 222.5,
+    "visual_motion": 0.0973,
+    "brightness": 0.2365,
+    "audio_rms": 0.117,
+    "onsets_per_sec": 6.17,
+    "silence_ratio": 0.094
+  },
+  {
+    "act": "banquet preparation and public arena assembly",
+    "minutes": "65-77.0",
+    "mean_wpm": 176.8,
+    "visual_motion": 0.096,
+    "brightness": 0.2585,
+    "audio_rms": 0.054,
+    "onsets_per_sec": 5.07,
+    "silence_ratio": 0.381
+  },
+  {
+    "act": "double-identity exposure and forensic rebuttal",
+    "minutes": "77-86.0",
+    "mean_wpm": 162.4,
+    "visual_motion": 0.1065,
+    "brightness": 0.2243,
+    "audio_rms": 0.07,
+    "onsets_per_sec": 4.87,
+    "silence_ratio": 0.39
+  },
+  {
+    "act": "institutional consequence, mutual vow, and release",
+    "minutes": "86-94.1",
+    "mean_wpm": 172.9,
+    "visual_motion": 0.1194,
+    "brightness": 0.2665,
+    "audio_rms": 0.093,
+    "onsets_per_sec": 4.88,
+    "silence_ratio": 0.378
+  }
+]

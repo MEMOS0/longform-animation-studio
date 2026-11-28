@@ -1,0 +1,60 @@
+{
+  "video_id": "vchwaA94DcM",
+  "probe": {
+    "duration": 1110.680091,
+    "size": 62591074,
+    "width": 640,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\vchwaA94DcM\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\vchwaA94DcM\\contact_sheets\\contact_001.jpg",
+    "evidence\\media\\vchwaA94DcM\\contact_sheets\\contact_002.jpg"
+  ],
+  "seconds_indexed": 1111,
+  "shot_count": 35,
+  "shot_length_mean_seconds": 31.742857142857144,
+  "shot_length_median_seconds": 6.0,
+  "shot_length_p90_seconds": 102.00000000000004,
+  "visual_motion_mean": 0.08349996011114899,
+  "visual_brightness_mean": 0.28679254286592154,
+  "dialogue_cues": 391,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 523.197,
+      "text": "Ladies and gentlemen,"
+    },
+    "first_power_or_identity_language": {
+      "time": 284.494,
+      "text": "that wrote them was powerful."
+    },
+    "first_care_or_belonging_language": {
+      "time": 408.895,
+      "text": "lord. I didn't see you. I'm so sorry."
+    },
+    "dialogue_words_per_minute": [
+      19,
+      109,
+      142,
+      84,
+      112,
+      95,
+      67,
+      152,
+      138,
+      84,
+      145,
+      101,
+      123,
+      167,
+      181,
+      131,
+      134,
+      148,
+      9
+    ],
+    "cue_count": 391
+  }
+}

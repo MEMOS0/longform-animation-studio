@@ -1,0 +1,1438 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.100" end="00:00:07.200" style="s2">Nolan Graves is back.</p>
+<p begin="00:00:04.800" end="00:00:08.500" style="s2">&gt;&gt; If one day the person who loved you most</p>
+<p begin="00:00:07.200" end="00:00:10.900" style="s2">suddenly forgot he ever loved you,</p>
+<p begin="00:00:08.500" end="00:00:10.900" style="s2">&gt;&gt; Nolan!</p>
+<p begin="00:00:11.500" end="00:00:14.000" style="s2">&gt;&gt; would you prove the past?</p>
+<p begin="00:00:12.700" end="00:00:15.200" style="s2">&gt;&gt; What the hell are you doing?</p>
+<p begin="00:00:14.000" end="00:00:17.300" style="s2">&gt;&gt; Or accept that he doesn&#39;t want you</p>
+<p begin="00:00:15.200" end="00:00:18.000" style="s2">anymore? Very funny.</p>
+<p begin="00:00:17.300" end="00:00:19.000" style="s2">&gt;&gt; Nolan?</p>
+<p begin="00:00:18.000" end="00:00:19.400" style="s2">&gt;&gt; Don&#39;t touch me.</p>
+<p begin="00:00:19.000" end="00:00:20.400" style="s2">&gt;&gt; What?</p>
+<p begin="00:00:19.400" end="00:00:20.800" style="s2">&gt;&gt; Why are you acting like you don&#39;t know</p>
+<p begin="00:00:20.400" end="00:00:23.000" style="s2">me?</p>
+<p begin="00:00:20.800" end="00:00:24.400" style="s2">&gt;&gt; I know you. Lena Morris,</p>
+<p begin="00:00:23.000" end="00:00:25.800" style="s2">the girl who&#39;s always around me.</p>
+<p begin="00:00:24.400" end="00:00:26.200" style="s2">&gt;&gt; She&#39;s doing it again. She never gives</p>
+<p begin="00:00:25.800" end="00:00:27.200" style="s2">up.</p>
+<p begin="00:00:26.200" end="00:00:28.400" style="s2">&gt;&gt; Doing what?</p>
+<p begin="00:00:27.200" end="00:00:30.000" style="s2">&gt;&gt; You waited outside Student Council? You</p>
+<p begin="00:00:28.400" end="00:00:32.500" style="s2">bring him coffee?</p>
+<p begin="00:00:30.000" end="00:00:34.400" style="s2">&gt;&gt; You ridiculous coffee.</p>
+<p begin="00:00:32.500" end="00:00:35.700" style="s2">You asked me to wait for you.</p>
+<p begin="00:00:34.400" end="00:00:36.800" style="s2">&gt;&gt; Did I?</p>
+<p begin="00:00:35.700" end="00:00:38.700" style="s2">&gt;&gt; You&#39;re my boyfriend.</p>
+<p begin="00:00:36.800" end="00:00:39.800" style="s2">&gt;&gt; Boyfriend? Wow.</p>
+<p begin="00:00:38.700" end="00:00:40.400" style="s2">So that&#39;s the story [music] now?</p>
+<p begin="00:00:39.800" end="00:00:41.400" style="s2">&gt;&gt; Story?</p>
+<p begin="00:00:40.400" end="00:00:43.300" style="s2">&gt;&gt; You waited for me, you bring me coffee,</p>
+<p begin="00:00:41.400" end="00:00:43.700" style="s2">you had a crush on me. I didn&#39;t return</p>
+<p begin="00:00:43.300" end="00:00:44.400" style="s2">it.</p>
+<p begin="00:00:43.700" end="00:00:45.600" style="s2">&gt;&gt; No.</p>
+<p begin="00:00:44.400" end="00:00:47.700" style="s2">&gt;&gt; And now we were dating?</p>
+<p begin="00:00:45.600" end="00:00:50.100" style="s2">&gt;&gt; It&#39;s not in my head. You kissed me last</p>
+<p begin="00:00:47.700" end="00:00:50.900" style="s2">night. You held me. You told me you</p>
+<p begin="00:00:50.100" end="00:00:51.900" style="s2">loved me.</p>
+<p begin="00:00:50.900" end="00:00:53.500" style="s2">&gt;&gt; Everyone&#39;s looking.</p>
+<p begin="00:00:51.900" end="00:00:54.200" style="s2">&gt;&gt; Let them.</p>
+<p begin="00:00:53.500" end="00:00:55.900" style="s2">&gt;&gt; I love you.</p>
+<p begin="00:00:54.200" end="00:00:57.700" style="s2">&gt;&gt; Then prove it. [music] Pictures?</p>
+<p begin="00:00:55.900" end="00:00:58.100" style="s2">Messages?</p>
+<p begin="00:00:57.700" end="00:00:59.400" style="s2">&gt;&gt; No.</p>
+<p begin="00:00:58.100" end="00:01:00.300" style="s2">&gt;&gt; Exactly.</p>
+<p begin="00:00:59.400" end="00:01:02.300" style="s2">&gt;&gt; You loved me.</p>
+<p begin="00:01:00.300" end="00:01:03.000" style="s2">&gt;&gt; Nobody remembers that. Neither do I.</p>
+<p begin="00:01:02.300" end="00:01:04.400" style="s2">&gt;&gt; Why?</p>
+<p begin="00:01:03.000" end="00:01:05.199" style="s2">&gt;&gt; Because if I ever loved you, I&#39;d</p>
+<p begin="00:01:04.400" end="00:01:06.400" style="s2">remember.</p>
+<p begin="00:01:05.199" end="00:01:08.120" style="s2">&gt;&gt; Lena,</p>
+<p begin="00:01:06.400" end="00:01:10.140" style="s2">maybe you should talk to someone.</p>
+<p begin="00:01:08.120" end="00:01:10.140" style="s2">[music]</p>
+<p begin="00:01:16.635" end="00:01:19.200" style="s2">[laughter]</p>
+<p begin="00:01:17.945" end="00:01:20.200" style="s2">[snorts]</p>
+<p begin="00:01:19.200" end="00:01:22.600" style="s2">No.</p>
+<p begin="00:01:20.200" end="00:01:22.600" style="s2">Please.</p>
+<p begin="00:01:23.000" end="00:01:27.200" style="s2">Did I</p>
+<p begin="00:01:24.400" end="00:01:27.200" style="s2">Did I make it up?</p>
+<p begin="00:01:28.425" end="00:01:30.445" style="s2">[snorts]</p>
+<p begin="00:01:35.000" end="00:01:39.100" style="s2">I knew it.</p>
+<p begin="00:01:36.600" end="00:01:42.200" style="s2">You loved me.</p>
+<p begin="00:01:39.100" end="00:01:45.200" style="s2">&gt;&gt; If I&#39;m not crazy, then who made everyone</p>
+<p begin="00:01:42.200" end="00:01:48.700" style="s2">forget he loved me? [music]</p>
+<p begin="00:01:45.200" end="00:01:50.700" style="s2">No sugar, extra shot.</p>
+<p begin="00:01:48.700" end="00:01:51.800" style="s2">Still doing this? She brought him coffee</p>
+<p begin="00:01:50.700" end="00:01:53.200" style="s2">again.</p>
+<p begin="00:01:51.800" end="00:01:55.700" style="s2">That&#39;s commitment.</p>
+<p begin="00:01:53.200" end="00:01:57.000" style="s2">&gt;&gt; He said no, Lena. He didn&#39;t reject me.</p>
+<p begin="00:01:55.700" end="00:01:58.556" style="s2">He forgot me.</p>
+<p begin="00:01:57.000" end="00:01:59.600" style="s2">That&#39;s worse. Where are the pictures?</p>
+<p begin="00:01:58.556" end="00:02:00.492" style="s2">[music]</p>
+<p begin="00:01:59.600" end="00:02:02.692" style="s2">The</p>
+<p begin="00:02:00.492" end="00:02:04.692" style="s2">They&#39;re gone. Nolan? Everyone remembers</p>
+<p begin="00:02:02.692" end="00:02:05.792" style="s2">you following him. Nobody remembers him</p>
+<p begin="00:02:04.692" end="00:02:06.592" style="s2">wanting you there.</p>
+<p begin="00:02:05.792" end="00:02:07.992" style="s2">&gt;&gt; I&#39;m in class.</p>
+<p begin="00:02:06.592" end="00:02:10.492" style="s2">&gt;&gt; Come on. [music] Maybe drink it</p>
+<p begin="00:02:07.992" end="00:02:10.492" style="s2">yourself.</p>
+<p begin="00:02:11.692" end="00:02:14.292" style="s2">&gt;&gt; Why are you still here?</p>
+<p begin="00:02:12.892" end="00:02:15.392" style="s2">&gt;&gt; Because yesterday you would have stayed.</p>
+<p begin="00:02:14.292" end="00:02:15.792" style="s2">You would have never let them talk to me</p>
+<p begin="00:02:15.392" end="00:02:16.992" style="s2">like that. [music]</p>
+<p begin="00:02:15.792" end="00:02:19.092" style="s2">&gt;&gt; I don&#39;t know who I was yesterday.</p>
+<p begin="00:02:16.992" end="00:02:21.192" style="s2">&gt;&gt; I do.</p>
+<p begin="00:02:19.092" end="00:02:21.992" style="s2">Please.</p>
+<p begin="00:02:21.192" end="00:02:24.292" style="s2">Just try.</p>
+<p begin="00:02:21.992" end="00:02:24.292" style="s2">&gt;&gt; Lena!</p>
+<p begin="00:02:26.292" end="00:02:29.996" style="s2">&gt;&gt; You know I can protect myself.</p>
+<p begin="00:02:27.992" end="00:02:30.692" style="s2">&gt;&gt; I know. Let me do it anyway.</p>
+<p begin="00:02:29.996" end="00:02:32.192" style="s2">&gt;&gt; [music]</p>
+<p begin="00:02:30.692" end="00:02:33.592" style="s2">&gt;&gt; You put me on your left.</p>
+<p begin="00:02:32.192" end="00:02:34.581" style="s2">&gt;&gt; What?</p>
+<p begin="00:02:33.592" end="00:02:34.692" style="s2">&gt;&gt; You always do that.</p>
+<p begin="00:02:34.581" end="00:02:36.392" style="s2">&gt;&gt; [music]</p>
+<p begin="00:02:34.692" end="00:02:39.392" style="s2">&gt;&gt; Reflex.</p>
+<p begin="00:02:36.392" end="00:02:39.392" style="s2">&gt;&gt; You always said that, too.</p>
+<p begin="00:02:39.492" end="00:02:44.892" style="s2">You don&#39;t remember [music] me.</p>
+<p begin="00:02:42.092" end="00:02:44.892" style="s2">But something does.</p>
+<p begin="00:02:48.892" end="00:02:54.592" style="s2">&gt;&gt; Perfect synchronization.</p>
+<p begin="00:02:51.392" end="00:02:56.492" style="s2">&gt;&gt; I thought she made it all up.</p>
+<p begin="00:02:54.592" end="00:02:56.892" style="s2">Seriously? Professor Nolan can partner</p>
+<p begin="00:02:56.492" end="00:02:58.192" style="s2">with me.</p>
+<p begin="00:02:56.892" end="00:02:59.292" style="s2">&gt;&gt; The pairings are final.</p>
+<p begin="00:02:58.192" end="00:03:02.092" style="s2">&gt;&gt; Follow my lead.</p>
+<p begin="00:02:59.292" end="00:03:02.092" style="s2">&gt;&gt; You still say that.</p>
+<p begin="00:03:06.677" end="00:03:08.642" style="s2">[gasps]</p>
+<p begin="00:03:07.592" end="00:03:08.692" style="s2">That&#39;s twice.</p>
+<p begin="00:03:08.642" end="00:03:09.292" style="s2">&gt;&gt; [music]</p>
+<p begin="00:03:08.692" end="00:03:10.992" style="s2">&gt;&gt; What?</p>
+<p begin="00:03:09.292" end="00:03:12.392" style="s2">&gt;&gt; Have you two trained together before?</p>
+<p begin="00:03:10.992" end="00:03:13.882" style="s2">&gt;&gt; How did you know my timing?</p>
+<p begin="00:03:12.392" end="00:03:15.902" style="s2">&gt;&gt; Because I knew you.</p>
+<p begin="00:03:13.882" end="00:03:15.902" style="s2">[music]</p>
+<p begin="00:03:17.192" end="00:03:19.592" style="s2">Lena.</p>
+<p begin="00:03:20.092" end="00:03:23.292" style="s2">How did you know my timing?</p>
+<p begin="00:03:21.892" end="00:03:24.892" style="s2">&gt;&gt; I told you.</p>
+<p begin="00:03:23.292" end="00:03:25.992" style="s2">I knew you. [music]</p>
+<p begin="00:03:24.892" end="00:03:27.492" style="s2">&gt;&gt; Maybe we trained together.</p>
+<p begin="00:03:25.992" end="00:03:30.192" style="s2">&gt;&gt; Right. There&#39;s always another</p>
+<p begin="00:03:27.492" end="00:03:30.192" style="s2">explanation.</p>
+<p begin="00:03:41.392" end="00:03:46.092" style="s2">[panting and sighs]</p>
+<p begin="00:03:42.992" end="00:03:48.792" style="s2">There&#39;s always another explanation.</p>
+<p begin="00:03:46.092" end="00:03:48.792" style="s2">&gt;&gt; What did I know?</p>
+<p begin="00:03:49.392" end="00:03:51.192" style="s2">Do it again.</p>
+<p begin="00:03:50.492" end="00:03:52.692" style="s2">&gt;&gt; What?</p>
+<p begin="00:03:51.192" end="00:03:53.492" style="s2">&gt;&gt; The spell that hit Lena.</p>
+<p begin="00:03:52.692" end="00:03:54.292" style="s2">Do it again.</p>
+<p begin="00:03:53.492" end="00:03:56.992" style="s2">&gt;&gt; I didn&#39;t attack her.</p>
+<p begin="00:03:54.292" end="00:03:58.392" style="s2">&gt;&gt; Then prove it.</p>
+<p begin="00:03:56.992" end="00:04:00.592" style="s2">That isn&#39;t mine.</p>
+<p begin="00:03:58.392" end="00:04:02.894" style="s2">What happened? I thought I lost control,</p>
+<p begin="00:04:00.592" end="00:04:05.494" style="s2">but something pulled it. toward Lena,</p>
+<p begin="00:04:02.894" end="00:04:05.494" style="s2">straight at her.</p>
+<p begin="00:04:06.494" end="00:04:10.094" style="s2">&gt;&gt; Where are you going?</p>
+<p begin="00:04:07.494" end="00:04:10.094" style="s2">&gt;&gt; To find Lena.</p>
+<p begin="00:04:14.794" end="00:04:17.994" style="s2">&gt;&gt; Well, well, your stalker is here.</p>
+<p begin="00:04:16.694" end="00:04:20.194" style="s2">&gt;&gt; I&#39;m not stalking her.</p>
+<p begin="00:04:17.994" end="00:04:20.194" style="s2">&gt;&gt; Sure.</p>
+<p begin="00:04:22.694" end="00:04:24.994" style="s2">What do you want?</p>
+<p begin="00:04:23.894" end="00:04:25.494" style="s2">&gt;&gt; My handwriting.</p>
+<p begin="00:04:24.994" end="00:04:27.294" style="s2">&gt;&gt; I know.</p>
+<p begin="00:04:25.494" end="00:04:28.494" style="s2">&gt;&gt; Of course you do. Yesterday wasn&#39;t an</p>
+<p begin="00:04:27.294" end="00:04:30.094" style="s2">accident.</p>
+<p begin="00:04:28.494" end="00:04:30.494" style="s2">Someone pulled that spell towards you.</p>
+<p begin="00:04:30.094" end="00:04:31.194" style="s2">&gt;&gt; Who?</p>
+<p begin="00:04:30.494" end="00:04:32.094" style="s2">&gt;&gt; I don&#39;t know.</p>
+<p begin="00:04:31.194" end="00:04:33.994" style="s2">&gt;&gt; So now you believe me?</p>
+<p begin="00:04:32.094" end="00:04:34.894" style="s2">&gt;&gt; I believe none of this makes sense.</p>
+<p begin="00:04:33.994" end="00:04:35.894" style="s2">You coming?</p>
+<p begin="00:04:34.894" end="00:04:37.068" style="s2">&gt;&gt; You&#39;re asking me?</p>
+<p begin="00:04:35.894" end="00:04:37.294" style="s2">&gt;&gt; Don&#39;t make me regret it.</p>
+<p begin="00:04:37.068" end="00:04:40.294" style="s2">&gt;&gt; [music]</p>
+<p begin="00:04:37.294" end="00:04:40.294" style="s2">&gt;&gt; Too late, Mr. President.</p>
+<p begin="00:04:44.494" end="00:04:47.694" style="s2">It&#39;s ruined.</p>
+<p begin="00:04:45.494" end="00:04:49.694" style="s2">&gt;&gt; Don&#39;t.</p>
+<p begin="00:04:47.694" end="00:04:51.594" style="s2">You run Student Council.</p>
+<p begin="00:04:49.694" end="00:04:52.494" style="s2">I know dead paper.</p>
+<p begin="00:04:51.594" end="00:04:55.694" style="s2">&gt;&gt; Dead paper?</p>
+<p begin="00:04:52.494" end="00:04:55.694" style="s2">&gt;&gt; It remembers better than people.</p>
+<p begin="00:04:59.894" end="00:05:02.613" style="s2">&gt;&gt; You&#39;re good. [music]</p>
+<p begin="00:05:00.794" end="00:05:03.894" style="s2">&gt;&gt; I know.</p>
+<p begin="00:05:02.613" end="00:05:06.194" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:05:03.894" end="00:05:06.194" style="s2">&gt;&gt; Can I</p>
+<p begin="00:05:06.543" end="00:05:08.563" style="s2">[sighs and gasps]</p>
+<p begin="00:05:10.394" end="00:05:13.094" style="s2">I found something.</p>
+<p begin="00:05:17.294" end="00:05:22.294" style="s2">The spell.</p>
+<p begin="00:05:19.094" end="00:05:22.294" style="s2">&gt;&gt; It carried the spell&#39;s resonance.</p>
+<p begin="00:05:22.794" end="00:05:25.494" style="s2">Someone&#39;s using it.</p>
+<p begin="00:05:26.594" end="00:05:32.594" style="s2">&gt;&gt; You two look good together.</p>
+<p begin="00:05:29.394" end="00:05:32.594" style="s2">Finally someone noticed.</p>
+<p begin="00:05:33.294" end="00:05:36.894" style="s2">&gt;&gt; Seriously?</p>
+<p begin="00:05:34.194" end="00:05:36.894" style="s2">&gt;&gt; Much better.</p>
+<p begin="00:05:43.594" end="00:05:47.808" style="s2">Pretty.</p>
+<p begin="00:05:44.894" end="00:05:48.494" style="s2">Does it restore fake memories, too?</p>
+<p begin="00:05:47.808" end="00:05:49.694" style="s2">[laughter]</p>
+<p begin="00:05:48.494" end="00:05:52.794" style="s2">Guys,</p>
+<p begin="00:05:49.694" end="00:05:54.394" style="s2">she actually believes it. You know what?</p>
+<p begin="00:05:52.794" end="00:05:56.294" style="s2">If he wants you,</p>
+<p begin="00:05:54.394" end="00:06:00.094" style="s2">that&#39;s his choice.</p>
+<p begin="00:05:56.294" end="00:06:00.094" style="s2">But don&#39;t tell me my life didn&#39;t happen.</p>
+<p begin="00:06:00.494" end="00:06:03.894" style="s2">There is no proof.</p>
+<p begin="00:06:02.094" end="00:06:05.295" style="s2">Then why are you so scared?</p>
+<p begin="00:06:03.894" end="00:06:07.395" style="s2">Scared of what?</p>
+<p begin="00:06:05.295" end="00:06:09.695" style="s2">That he might believe me.</p>
+<p begin="00:06:07.395" end="00:06:09.695" style="s2">&gt;&gt; Enough.</p>
+<p begin="00:06:10.995" end="00:06:14.495" style="s2">&gt;&gt; Nolan, we&#39;re just talking.</p>
+<p begin="00:06:12.195" end="00:06:14.495" style="s2">&gt;&gt; No.</p>
+<p begin="00:06:14.895" end="00:06:19.695" style="s2">You&#39;re making her a joke.</p>
+<p begin="00:06:16.795" end="00:06:19.695" style="s2">&gt;&gt; You don&#39;t even believe her.</p>
+<p begin="00:06:20.095" end="00:06:24.595" style="s2">I don&#39;t know what happened, [music]</p>
+<p begin="00:06:21.795" end="00:06:24.595" style="s2">but she&#39;s not crazy.</p>
+<p begin="00:06:24.695" end="00:06:27.695" style="s2">&gt;&gt; Since when do you defend her?</p>
+<p begin="00:06:27.795" end="00:06:32.395" style="s2">&gt;&gt; I don&#39;t know.</p>
+<p begin="00:06:29.695" end="00:06:32.395" style="s2">That&#39;s the problem.</p>
+<p begin="00:06:34.895" end="00:06:39.295" style="s2">Lena,</p>
+<p begin="00:06:36.695" end="00:06:39.295" style="s2">I need your [music] help.</p>
+<p begin="00:06:39.495" end="00:06:40.695" style="s2">&gt;&gt; Wow.</p>
+<p begin="00:06:39.995" end="00:06:41.495" style="s2">&gt;&gt; What?</p>
+<p begin="00:06:40.695" end="00:06:43.095" style="s2">&gt;&gt; You need me now?</p>
+<p begin="00:06:41.495" end="00:06:45.504" style="s2">&gt;&gt; Don&#39;t enjoy this.</p>
+<p begin="00:06:43.095" end="00:06:45.504" style="s2">&gt;&gt; Too late. [music]</p>
+<p begin="00:06:47.395" end="00:06:49.695" style="s2">Wait.</p>
+<p begin="00:06:50.595" end="00:06:54.674" style="s2">&gt;&gt; Lena.</p>
+<p begin="00:06:52.654" end="00:06:54.674" style="s2">&gt;&gt; [gasps]</p>
+<p begin="00:06:55.195" end="00:06:59.859" style="s2">&gt;&gt; Nolan.</p>
+<p begin="00:06:57.195" end="00:07:01.879" style="s2">&gt;&gt; What the hell is that?</p>
+<p begin="00:06:59.859" end="00:07:01.879" style="s2">&gt;&gt; [gasps]</p>
+<p begin="00:07:03.495" end="00:07:07.395" style="s2">&gt;&gt; Today we study memory resonance.</p>
+<p begin="00:07:09.695" end="00:07:12.695" style="s2">&gt;&gt; Again.</p>
+<p begin="00:07:11.895" end="00:07:13.295" style="s2">You felt it too?</p>
+<p begin="00:07:12.695" end="00:07:14.395" style="s2">&gt;&gt; Felt what?</p>
+<p begin="00:07:13.295" end="00:07:15.395" style="s2">&gt;&gt; Her.</p>
+<p begin="00:07:14.395" end="00:07:17.795" style="s2">&gt;&gt; Why does everyone think everything is</p>
+<p begin="00:07:15.395" end="00:07:17.795" style="s2">about her?</p>
+<p begin="00:07:18.795" end="00:07:21.795" style="s2">&gt;&gt; Because she wants it to be.</p>
+<p begin="00:07:23.395" end="00:07:25.995" style="s2">&gt;&gt; Wait.</p>
+<p begin="00:07:24.495" end="00:07:28.195" style="s2">&gt;&gt; What?</p>
+<p begin="00:07:25.995" end="00:07:29.495" style="s2">&gt;&gt; The bell.</p>
+<p begin="00:07:28.195" end="00:07:30.995" style="s2">You know something.</p>
+<p begin="00:07:29.495" end="00:07:32.595" style="s2">&gt;&gt; I did.</p>
+<p begin="00:07:30.995" end="00:07:33.895" style="s2">You didn&#39;t believe me.</p>
+<p begin="00:07:32.595" end="00:07:34.995" style="s2">&gt;&gt; I&#39;m not saying I believe everything.</p>
+<p begin="00:07:33.895" end="00:07:38.095" style="s2">&gt;&gt; I know.</p>
+<p begin="00:07:34.995" end="00:07:38.095" style="s2">That &#39;s why I stopped explaining.</p>
+<p begin="00:07:47.795" end="00:07:50.295" style="s2">&gt;&gt; The bell frequency changed after</p>
+<p begin="00:07:49.095" end="00:07:52.095" style="s2">midnight,</p>
+<p begin="00:07:50.295" end="00:07:54.695" style="s2">and she wasn&#39;t affected.</p>
+<p begin="00:07:52.095" end="00:07:55.495" style="s2">That&#39;s the strange part.</p>
+<p begin="00:07:54.695" end="00:07:57.195" style="s2">What is this?</p>
+<p begin="00:07:55.495" end="00:07:59.695" style="s2">&gt;&gt; I don&#39;t know.</p>
+<p begin="00:07:57.195" end="00:08:02.595" style="s2">I&#39;m serious.</p>
+<p begin="00:07:59.695" end="00:08:02.595" style="s2">I know less than you think.</p>
+<p begin="00:08:02.695" end="00:08:04.395" style="s2">That wasn&#39;t there yesterday.</p>
+<p begin="00:08:03.895" end="00:08:06.195" style="s2">&gt;&gt; You remember.</p>
+<p begin="00:08:04.395" end="00:08:08.297" style="s2">&gt;&gt; No.</p>
+<p begin="00:08:06.195" end="00:08:09.797" style="s2">I remember you were scared of it.</p>
+<p begin="00:08:08.297" end="00:08:10.997" style="s2">&gt;&gt; I was?</p>
+<p begin="00:08:09.797" end="00:08:11.997" style="s2">&gt;&gt; You told me not to leave you alone when</p>
+<p begin="00:08:10.997" end="00:08:14.997" style="s2">it appeared.</p>
+<p begin="00:08:11.997" end="00:08:14.997" style="s2">&gt;&gt; What kind of person was I?</p>
+<p begin="00:08:15.497" end="00:08:18.297" style="s2">&gt;&gt; Someone who cared.</p>
+<p begin="00:08:20.397" end="00:08:24.997" style="s2">&gt;&gt; That&#39;s impossible.</p>
+<p begin="00:08:22.597" end="00:08:28.297" style="s2">&gt;&gt; Memory anchor detected.</p>
+<p begin="00:08:24.997" end="00:08:28.297" style="s2">&gt;&gt; I don&#39;t remember protecting you.</p>
+<p begin="00:08:29.097" end="00:08:31.997" style="s2">But I keep doing it.</p>
+<p begin="00:08:45.316" end="00:08:49.697" style="s2">[gasps]</p>
+<p begin="00:08:46.897" end="00:08:51.297" style="s2">I didn&#39;t even think.</p>
+<p begin="00:08:49.697" end="00:08:52.997" style="s2">&gt;&gt; You never did.</p>
+<p begin="00:08:51.297" end="00:08:54.097" style="s2">&gt;&gt; What does that mean?</p>
+<p begin="00:08:52.997" end="00:08:55.297" style="s2">&gt;&gt; Nothing. [music]</p>
+<p begin="00:08:54.097" end="00:08:56.797" style="s2">&gt;&gt; You always do that.</p>
+<p begin="00:08:55.297" end="00:08:59.297" style="s2">&gt;&gt; What?</p>
+<p begin="00:08:56.797" end="00:09:01.297" style="s2">&gt;&gt; You know something about me.</p>
+<p begin="00:08:59.297" end="00:09:02.197" style="s2">Then you stop yourself from saying it.</p>
+<p begin="00:09:01.297" end="00:09:04.097" style="s2">&gt;&gt; You see?</p>
+<p begin="00:09:02.197" end="00:09:05.297" style="s2">&gt;&gt; What?</p>
+<p begin="00:09:04.097" end="00:09:06.297" style="s2">&gt;&gt; She still thinks she knows him better</p>
+<p begin="00:09:05.297" end="00:09:07.897" style="s2">than everyone.</p>
+<p begin="00:09:06.297" end="00:09:09.997" style="s2">&gt;&gt; Maybe she does.</p>
+<p begin="00:09:07.897" end="00:09:12.797" style="s2">You know this is restricted. I know. And</p>
+<p begin="00:09:09.997" end="00:09:12.797" style="s2">you still want to see it?</p>
+<p begin="00:09:17.697" end="00:09:21.997" style="s2">Why is she my emergency contact? Maybe</p>
+<p begin="00:09:19.297" end="00:09:21.997" style="s2">because she matted.</p>
+<p begin="00:09:24.097" end="00:09:27.597" style="s2">You knew about this?</p>
+<p begin="00:09:26.497" end="00:09:29.297" style="s2">&gt;&gt; No.</p>
+<p begin="00:09:27.597" end="00:09:32.097" style="s2">I knew he cared.</p>
+<p begin="00:09:29.297" end="00:09:33.297" style="s2">I just didn&#39;t know he was afraid.</p>
+<p begin="00:09:32.097" end="00:09:36.097" style="s2">&gt;&gt; Afraid of what?</p>
+<p begin="00:09:33.297" end="00:09:36.097" style="s2">&gt;&gt; Losing control.</p>
+<p begin="00:09:37.297" end="00:09:40.397" style="s2">&gt;&gt; Wait.</p>
+<p begin="00:09:39.197" end="00:09:42.897" style="s2">&gt;&gt; He knew.</p>
+<p begin="00:09:40.397" end="00:09:42.897" style="s2">&gt;&gt; Knew what?</p>
+<p begin="00:09:43.697" end="00:09:48.797" style="s2">&gt;&gt; Two memory anchors detected.</p>
+<p begin="00:09:46.497" end="00:09:48.797" style="s2">&gt;&gt; Two?</p>
+<p begin="00:09:57.097" end="00:10:00.897" style="s2">This is the last one?</p>
+<p begin="00:09:59.597" end="00:10:01.997" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:10:00.897" end="00:10:04.097" style="s2">&gt;&gt; And you kept it hidden?</p>
+<p begin="00:10:01.997" end="00:10:06.197" style="s2">&gt;&gt; I wasn&#39;t hiding it.</p>
+<p begin="00:10:04.097" end="00:10:08.297" style="s2">I was scared.</p>
+<p begin="00:10:06.197" end="00:10:10.198" style="s2">&gt;&gt; Scared of what? [music]</p>
+<p begin="00:10:08.297" end="00:10:13.098" style="s2">&gt;&gt; That you would look at</p>
+<p begin="00:10:10.198" end="00:10:13.098" style="s2">and still feel nothing.</p>
+<p begin="00:10:14.098" end="00:10:15.898" style="s2">&gt;&gt; You know, everyone thinks you&#39;re</p>
+<p begin="00:10:14.898" end="00:10:17.798" style="s2">following me.</p>
+<p begin="00:10:15.898" end="00:10:18.698" style="s2">&gt;&gt; Because you are impossible to ignore.</p>
+<p begin="00:10:17.798" end="00:10:19.898" style="s2">&gt;&gt; Good.</p>
+<p begin="00:10:18.698" end="00:10:20.798" style="s2">&gt;&gt; Good?</p>
+<p begin="00:10:19.898" end="00:10:21.798" style="s2">&gt;&gt; Then they won&#39;t know I&#39;m the one who</p>
+<p begin="00:10:20.798" end="00:10:23.498" style="s2">fell first.</p>
+<p begin="00:10:21.798" end="00:10:24.998" style="s2">&gt;&gt; Now you believe me?</p>
+<p begin="00:10:23.498" end="00:10:27.198" style="s2">&gt;&gt; I believe it happened,</p>
+<p begin="00:10:24.998" end="00:10:28.398" style="s2">but</p>
+<p begin="00:10:27.198" end="00:10:30.598" style="s2">I don&#39;t feel like that person.</p>
+<p begin="00:10:28.398" end="00:10:33.698" style="s2">&gt;&gt; I know.</p>
+<p begin="00:10:30.598" end="00:10:33.698" style="s2">That&#39;s the part that hurts.</p>
+<p begin="00:10:35.598" end="00:10:38.298" style="s2">You saw it?</p>
+<p begin="00:10:37.198" end="00:10:40.598" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:10:38.298" end="00:10:40.598" style="s2">&gt;&gt; So?</p>
+<p begin="00:10:41.298" end="00:10:43.598" style="s2">You don&#39;t remember loving her?</p>
+<p begin="00:10:42.898" end="00:10:46.898" style="s2">&gt;&gt; No.</p>
+<p begin="00:10:43.598" end="00:10:46.898" style="s2">&gt;&gt; Then why do you look guilty?</p>
+<p begin="00:10:59.998" end="00:11:03.098" style="s2">That&#39;s the part that hurts.</p>
+<p begin="00:11:01.598" end="00:11:05.298" style="s2">You don&#39;t remember loving her?</p>
+<p begin="00:11:03.098" end="00:11:05.298" style="s2">&gt;&gt; No.</p>
+<p begin="00:11:14.002" end="00:11:16.498" style="s2">&gt;&gt; [music]</p>
+<p begin="00:11:15.198" end="00:11:19.898" style="s2">&gt;&gt; Isn&#39;t that Lena?</p>
+<p begin="00:11:16.498" end="00:11:19.898" style="s2">The girl who thinks Nolan dated her?</p>
+<p begin="00:11:23.098" end="00:11:25.398" style="s2">&gt;&gt; Wait.</p>
+<p begin="00:11:27.698" end="00:11:29.898" style="s2">&gt;&gt; Nolan.</p>
+<p begin="00:11:28.498" end="00:11:31.698" style="s2">&gt;&gt; She wasn&#39;t lying.</p>
+<p begin="00:11:29.898" end="00:11:34.098" style="s2">I don&#39;t remember everything, but I know</p>
+<p begin="00:11:31.698" end="00:11:34.098" style="s2">enough.</p>
+<p begin="00:11:39.098" end="00:11:44.798" style="s2">Everyone remembers the wrong story.</p>
+<p begin="00:11:42.498" end="00:11:44.798" style="s2">Why?</p>
+<p begin="00:11:45.798" end="00:11:49.198" style="s2">Someone changed everyone&#39;s memory.</p>
+<p begin="00:11:55.998" end="00:11:58.298" style="s2">&gt;&gt; Again.</p>
+<p begin="00:11:58.543" end="00:12:00.563" style="s2">&gt;&gt; [sighs]</p>
+<p begin="00:12:01.698" end="00:12:03.783" style="s2">&gt;&gt; You&#39;re doing it wrong.</p>
+<p begin="00:12:03.198" end="00:12:04.198" style="s2">&gt;&gt; Really?</p>
+<p begin="00:12:03.783" end="00:12:05.398" style="s2">&gt;&gt; [music]</p>
+<p begin="00:12:04.198" end="00:12:06.398" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:12:05.398" end="00:12:08.368" style="s2">&gt;&gt; And you know because</p>
+<p begin="00:12:06.398" end="00:12:09.898" style="s2">&gt;&gt; I don&#39;t know.</p>
+<p begin="00:12:08.368" end="00:12:11.998" style="s2">[music]</p>
+<p begin="00:12:09.898" end="00:12:13.698" style="s2">My body just remembers.</p>
+<p begin="00:12:11.998" end="00:12:14.999" style="s2">&gt;&gt; That sounds familiar.</p>
+<p begin="00:12:13.698" end="00:12:16.299" style="s2">&gt;&gt; Did I say that before?</p>
+<p begin="00:12:14.999" end="00:12:17.599" style="s2">&gt;&gt; Many times.</p>
+<p begin="00:12:16.299" end="00:12:18.899" style="s2">&gt;&gt; Tell me something.</p>
+<p begin="00:12:17.599" end="00:12:20.158" style="s2">&gt;&gt; What?</p>
+<p begin="00:12:18.899" end="00:12:20.399" style="s2">&gt;&gt; What was I like?</p>
+<p begin="00:12:20.158" end="00:12:21.899" style="s2">&gt;&gt; [music]</p>
+<p begin="00:12:20.399" end="00:12:24.899" style="s2">&gt;&gt; Annoying.</p>
+<p begin="00:12:21.899" end="00:12:24.899" style="s2">&gt;&gt; That&#39;s not what I expected.</p>
+<p begin="00:12:27.699" end="00:12:32.499" style="s2">good?</p>
+<p begin="00:12:29.599" end="00:12:32.499" style="s2">&gt;&gt; always came back.</p>
+<p begin="00:12:33.999" end="00:12:36.999" style="s2">Why are we here?</p>
+<p begin="00:12:35.699" end="00:12:38.199" style="s2">&gt;&gt; talk.</p>
+<p begin="00:12:36.999" end="00:12:39.399" style="s2">&gt;&gt; what?</p>
+<p begin="00:12:38.199" end="00:12:40.399" style="s2">&gt;&gt; you.</p>
+<p begin="00:12:39.399" end="00:12:41.773" style="s2">I know everyone thinks I forgot</p>
+<p begin="00:12:40.399" end="00:12:43.793" style="s2">something.</p>
+<p begin="00:12:41.773" end="00:12:43.793" style="s2">&gt;&gt; [music]</p>
+<p begin="00:12:44.799" end="00:12:47.099" style="s2">&gt;&gt; knew.</p>
+<p begin="00:12:47.599" end="00:12:50.199" style="s2">you cared.</p>
+<p begin="00:12:53.999" end="00:12:56.899" style="s2">&gt;&gt; What is happening?</p>
+<p begin="00:13:01.499" end="00:13:05.099" style="s2">&gt;&gt; The bell is not targeting memories</p>
+<p begin="00:13:02.799" end="00:13:07.699" style="s2">anymore. Then what?</p>
+<p begin="00:13:05.099" end="00:13:07.699" style="s2">Connections.</p>
+<p begin="00:13:17.599" end="00:13:22.799" style="s2">&gt;&gt; Are you looking for missing students?</p>
+<p begin="00:13:19.899" end="00:13:22.799" style="s2">You know about this?</p>
+<p begin="00:13:26.899" end="00:13:29.299" style="s2">&gt;&gt; is she?</p>
+<p begin="00:13:27.899" end="00:13:32.399" style="s2">&gt;&gt; don&#39;t know.</p>
+<p begin="00:13:29.299" end="00:13:32.399" style="s2">I remember missing her.</p>
+<p begin="00:13:32.864" end="00:13:36.199" style="s2">&gt;&gt; [music]</p>
+<p begin="00:13:34.299" end="00:13:38.699" style="s2">&gt;&gt; someone erased her.</p>
+<p begin="00:13:36.199" end="00:13:38.699" style="s2">&gt;&gt; just her.</p>
+<p begin="00:13:41.399" end="00:13:44.399" style="s2">They erased the proof.</p>
+<p begin="00:13:49.499" end="00:13:53.899" style="s2">&gt;&gt; I thought I understood.</p>
+<p begin="00:13:51.299" end="00:13:53.899" style="s2">&gt;&gt; You didn&#39;t.</p>
+<p begin="00:13:54.599" end="00:13:56.899" style="s2">&gt;&gt; know.</p>
+<p begin="00:14:02.599" end="00:14:05.899" style="s2">&gt;&gt; Lena Morris.</p>
+<p begin="00:14:04.599" end="00:14:08.999" style="s2">Third row.</p>
+<p begin="00:14:05.899" end="00:14:08.999" style="s2">It says Nolan Graves.</p>
+<p begin="00:14:14.699" end="00:14:19.101" style="s2">Okay, that&#39;s creepy.</p>
+<p begin="00:14:17.001" end="00:14:19.101" style="s2">Wait.</p>
+<p begin="00:14:21.001" end="00:14:24.401" style="s2">There were more.</p>
+<p begin="00:14:23.001" end="00:14:25.501" style="s2">&gt;&gt; How many?</p>
+<p begin="00:14:24.401" end="00:14:26.601" style="s2">&gt;&gt; Two, [music]</p>
+<p begin="00:14:25.501" end="00:14:28.201" style="s2">five,</p>
+<p begin="00:14:26.601" end="00:14:30.701" style="s2">12,</p>
+<p begin="00:14:28.201" end="00:14:30.701" style="s2">12.</p>
+<p begin="00:14:31.701" end="00:14:36.901" style="s2">&gt;&gt; Nothing.</p>
+<p begin="00:14:34.001" end="00:14:39.001" style="s2">&gt;&gt; Try the yearbook. So they were real.</p>
+<p begin="00:14:36.901" end="00:14:40.301" style="s2">&gt;&gt; This is what happened to us.</p>
+<p begin="00:14:39.001" end="00:14:42.201" style="s2">&gt;&gt; Almost.</p>
+<p begin="00:14:40.301" end="00:14:43.901" style="s2">&gt;&gt; Almost?</p>
+<p begin="00:14:42.201" end="00:14:45.101" style="s2">&gt;&gt; You were still here. I could see you</p>
+<p begin="00:14:43.901" end="00:14:47.801" style="s2">every day. You just looked at me like I</p>
+<p begin="00:14:45.101" end="00:14:47.801" style="s2">was crazy.</p>
+<p begin="00:14:51.001" end="00:14:54.101" style="s2">&gt;&gt; What?</p>
+<p begin="00:14:52.401" end="00:14:55.501" style="s2">&gt;&gt; Nothing.</p>
+<p begin="00:14:54.101" end="00:14:57.501" style="s2">Found one.</p>
+<p begin="00:14:55.501" end="00:15:00.501" style="s2">&gt;&gt; He went to the bell tower.</p>
+<p begin="00:14:57.501" end="00:15:00.501" style="s2">&gt;&gt; And then everyone forgot him.</p>
+<p begin="00:15:05.875" end="00:15:08.901" style="s2">[music]</p>
+<p begin="00:15:07.401" end="00:15:11.301" style="s2">It&#39;s not midnight.</p>
+<p begin="00:15:08.901" end="00:15:11.301" style="s2">&gt;&gt; Lena?</p>
+<p begin="00:15:13.080" end="00:15:15.501" style="s2">[gasps]</p>
+<p begin="00:15:13.601" end="00:15:18.201" style="s2">What&#39;s happening?</p>
+<p begin="00:15:15.501" end="00:15:18.201" style="s2">&gt;&gt; Paper only.</p>
+<p begin="00:15:19.201" end="00:15:21.601" style="s2">Guys.</p>
+<p begin="00:15:25.201" end="00:15:30.601" style="s2">Jesus, Maisie. Say my name.</p>
+<p begin="00:15:28.701" end="00:15:31.801" style="s2">Just say it.</p>
+<p begin="00:15:30.601" end="00:15:33.501" style="s2">Maisie.</p>
+<p begin="00:15:31.801" end="00:15:35.201" style="s2">Again.</p>
+<p begin="00:15:33.501" end="00:15:36.801" style="s2">Good. [music]</p>
+<p begin="00:15:35.201" end="00:15:38.101" style="s2">Maisie Carter.</p>
+<p begin="00:15:36.801" end="00:15:39.701" style="s2">You didn&#39;t sleep,</p>
+<p begin="00:15:38.101" end="00:15:42.601" style="s2">would you?</p>
+<p begin="00:15:39.701" end="00:15:45.601" style="s2">I wrote everything down.</p>
+<p begin="00:15:42.601" end="00:15:49.501" style="s2">My name is Maisie Carter.</p>
+<p begin="00:15:45.601" end="00:15:52.001" style="s2">If I forget her, read this first. Mine.</p>
+<p begin="00:15:49.501" end="00:15:52.001" style="s2">&gt;&gt; Seriously?</p>
+<p begin="00:15:52.401" end="00:15:55.601" style="s2">&gt;&gt; Very.</p>
+<p begin="00:15:53.601" end="00:15:58.101" style="s2">Looks like you&#39;re free.</p>
+<p begin="00:15:55.601" end="00:15:58.101" style="s2">&gt;&gt; Apparently.</p>
+<p begin="00:16:01.701" end="00:16:05.001" style="s2">&gt;&gt; Nolan,</p>
+<p begin="00:16:04.101" end="00:16:06.401" style="s2">you&#39;re supposed to be watching our</p>
+<p begin="00:16:05.001" end="00:16:09.201" style="s2">crystal.</p>
+<p begin="00:16:06.401" end="00:16:10.066" style="s2">&gt;&gt; I am. You&#39;re good with her.</p>
+<p begin="00:16:09.201" end="00:16:10.501" style="s2">&gt;&gt; She&#39;s scared.</p>
+<p begin="00:16:10.066" end="00:16:11.701" style="s2">&gt;&gt; [music]</p>
+<p begin="00:16:10.501" end="00:16:13.201" style="s2">&gt;&gt; So were you</p>
+<p begin="00:16:11.701" end="00:16:15.101" style="s2">when nobody believed you.</p>
+<p begin="00:16:13.201" end="00:16:16.401" style="s2">&gt;&gt; Yeah.</p>
+<p begin="00:16:15.101" end="00:16:17.502" style="s2">&gt;&gt; I didn&#39;t make it easier.</p>
+<p begin="00:16:16.401" end="00:16:20.002" style="s2">&gt;&gt; No.</p>
+<p begin="00:16:17.502" end="00:16:20.002" style="s2">&gt;&gt; You didn&#39;t.</p>
+<p begin="00:16:21.302" end="00:16:25.702" style="s2">Lena,</p>
+<p begin="00:16:23.002" end="00:16:25.702" style="s2">I didn&#39;t write this.</p>
+<p begin="00:16:39.102" end="00:16:41.502" style="s2">&gt;&gt; If the paper is right, we have 6 [music]</p>
+<p begin="00:16:40.302" end="00:16:44.002" style="s2">hours.</p>
+<p begin="00:16:41.502" end="00:16:44.002" style="s2">&gt;&gt; that for me.</p>
+<p begin="00:16:44.602" end="00:16:48.802" style="s2">Guys, that was a joke. Not funny.</p>
+<p begin="00:16:47.002" end="00:16:50.702" style="s2">A little funny.</p>
+<p begin="00:16:48.802" end="00:16:52.002" style="s2">Hey,</p>
+<p begin="00:16:50.702" end="00:16:54.302" style="s2">I&#39;m still here</p>
+<p begin="00:16:52.002" end="00:16:55.302" style="s2">for now.</p>
+<p begin="00:16:54.302" end="00:16:56.102" style="s2">&gt;&gt; Say everything.</p>
+<p begin="00:16:55.302" end="00:16:58.002" style="s2">&gt;&gt; Everything?</p>
+<p begin="00:16:56.102" end="00:16:59.802" style="s2">&gt;&gt; Name, friends, things only you would</p>
+<p begin="00:16:58.002" end="00:17:00.902" style="s2">know.</p>
+<p begin="00:16:59.802" end="00:17:01.802" style="s2">&gt;&gt; And embarrassing secrets?</p>
+<p begin="00:17:00.902" end="00:17:02.502" style="s2">&gt;&gt; Especially those.</p>
+<p begin="00:17:01.802" end="00:17:05.502" style="s2">&gt;&gt; I hate you.</p>
+<p begin="00:17:02.502" end="00:17:06.702" style="s2">&gt;&gt; Good. Record that too.</p>
+<p begin="00:17:05.502" end="00:17:10.002" style="s2">&gt;&gt; Stay with me.</p>
+<p begin="00:17:06.702" end="00:17:12.402" style="s2">I am. No matter what happens. Lena,</p>
+<p begin="00:17:10.002" end="00:17:12.402" style="s2">breathe.</p>
+<p begin="00:17:12.702" end="00:17:14.902" style="s2">You can go.</p>
+<p begin="00:17:14.102" end="00:17:16.202" style="s2">&gt;&gt; Why would I?</p>
+<p begin="00:17:14.902" end="00:17:17.702" style="s2">&gt;&gt; This isn&#39;t your problem.</p>
+<p begin="00:17:16.202" end="00:17:20.302" style="s2">&gt;&gt; It became my problem when my name showed</p>
+<p begin="00:17:17.702" end="00:17:22.702" style="s2">up on the same list.</p>
+<p begin="00:17:20.302" end="00:17:22.702" style="s2">And you&#39;re here.</p>
+<p begin="00:17:23.426" end="00:17:25.446" style="s2">&gt;&gt; [sighs and gasps]</p>
+<p begin="00:17:25.602" end="00:17:30.102" style="s2">&gt;&gt; If I start acting weird,</p>
+<p begin="00:17:28.502" end="00:17:32.602" style="s2">don&#39;t let me date Ethan.</p>
+<p begin="00:17:30.102" end="00:17:32.602" style="s2">&gt;&gt; Lena.</p>
+<p begin="00:17:33.902" end="00:17:38.102" style="s2">&gt;&gt; Stay behind me.</p>
+<p begin="00:17:34.802" end="00:17:38.102" style="s2">&gt;&gt; No. Look at me.</p>
+<p begin="00:17:40.602" end="00:17:42.902" style="s2">&gt;&gt; Lena?</p>
+<p begin="00:17:43.302" end="00:17:46.202" style="s2">Who are you talking [music] to?</p>
+<p begin="00:17:46.802" end="00:17:49.202" style="s2">&gt;&gt; Maisy.</p>
+<p begin="00:17:50.602" end="00:17:54.802" style="s2">&gt;&gt; Who?</p>
+<p begin="00:17:52.502" end="00:17:56.002" style="s2">&gt;&gt; Maisy Carter. Do you know her? No.</p>
+<p begin="00:17:54.802" end="00:17:57.802" style="s2">Should we?</p>
+<p begin="00:17:56.002" end="00:18:01.102" style="s2">She&#39;s here again. Maybe she&#39;s imagining</p>
+<p begin="00:17:57.802" end="00:18:01.102" style="s2">things. No one remembers.</p>
+<p begin="00:18:02.002" end="00:18:05.302" style="s2">Don&#39;t.</p>
+<p begin="00:18:03.382" end="00:18:07.002" style="s2">[snorts] You don&#39;t remember her.</p>
+<p begin="00:18:05.302" end="00:18:09.802" style="s2">None of you do.</p>
+<p begin="00:18:07.002" end="00:18:09.802" style="s2">It&#39;s happening again.</p>
+<p begin="00:18:09.902" end="00:18:13.802" style="s2">&gt;&gt; Lena,</p>
+<p begin="00:18:11.402" end="00:18:14.602" style="s2">I believe you.</p>
+<p begin="00:18:13.802" end="00:18:17.402" style="s2">&gt;&gt; What?</p>
+<p begin="00:18:14.602" end="00:18:20.002" style="s2">&gt;&gt; I don&#39;t remember Maisy.</p>
+<p begin="00:18:17.402" end="00:18:20.002" style="s2">But I believe you.</p>
+<p begin="00:18:24.003" end="00:18:26.003" style="s2">&gt;&gt; She was here this morning.</p>
+<p begin="00:18:25.103" end="00:18:26.803" style="s2">&gt;&gt; What was she wearing? [music]</p>
+<p begin="00:18:26.003" end="00:18:27.703" style="s2">&gt;&gt; Green sweater.</p>
+<p begin="00:18:26.803" end="00:18:28.703" style="s2">&gt;&gt; What did she bring?</p>
+<p begin="00:18:27.703" end="00:18:30.103" style="s2">&gt;&gt; Three notebooks.</p>
+<p begin="00:18:28.703" end="00:18:32.503" style="s2">&gt;&gt; The recorder.</p>
+<p begin="00:18:30.103" end="00:18:32.503" style="s2">&gt;&gt; It&#39;s gone.</p>
+<p begin="00:18:35.303" end="00:18:37.703" style="s2">&gt;&gt; Maybe not.</p>
+<p begin="00:18:39.703" end="00:18:44.503" style="s2">&gt;&gt; My name is Maisie Carter.</p>
+<p begin="00:18:41.803" end="00:18:46.303" style="s2">Lena Morris is my best friend.</p>
+<p begin="00:18:44.503" end="00:18:47.203" style="s2">If you&#39;re hearing this,</p>
+<p begin="00:18:46.303" end="00:18:47.803" style="s2">they got me.</p>
+<p begin="00:18:47.203" end="00:18:50.303" style="s2">&gt;&gt; Maisie?</p>
+<p begin="00:18:47.803" end="00:18:52.563" style="s2">&gt;&gt; Don&#39;t look for me in the school records.</p>
+<p begin="00:18:50.303" end="00:18:52.563" style="s2">Lena. [music]</p>
+<p begin="00:18:54.803" end="00:18:57.403" style="s2">&gt;&gt; She&#39;s alive.</p>
+<p begin="00:18:56.103" end="00:18:58.803" style="s2">&gt;&gt; You don&#39;t know that.</p>
+<p begin="00:18:57.403" end="00:19:02.003" style="s2">But we&#39;re going to find out.</p>
+<p begin="00:18:58.803" end="00:19:04.703" style="s2">&gt;&gt; Why? You don&#39;t even remember her.</p>
+<p begin="00:19:02.003" end="00:19:04.703" style="s2">&gt;&gt; Because you do.</p>
+<p begin="00:19:05.403" end="00:19:10.103" style="s2">I don&#39;t know what&#39;s happening to me.</p>
+<p begin="00:19:08.103" end="00:19:13.103" style="s2">But every time you walk away,</p>
+<p begin="00:19:10.103" end="00:19:13.103" style="s2">I want to go after you.</p>
+<p begin="00:19:14.503" end="00:19:17.003" style="s2">&gt;&gt; Not yet.</p>
+<p begin="00:19:17.403" end="00:19:21.103" style="s2">&gt;&gt; Okay.</p>
+<p begin="00:19:19.203" end="00:19:23.703" style="s2">&gt;&gt; If Maisie is gone,</p>
+<p begin="00:19:21.103" end="00:19:26.703" style="s2">don&#39;t ring the bell. Whatever you do,</p>
+<p begin="00:19:23.703" end="00:19:26.703" style="s2">don&#39;t go below.</p>
+<p begin="00:19:36.603" end="00:19:39.803" style="s2">&gt;&gt; This wasn&#39;t on any map.</p>
+<p begin="00:19:41.803" end="00:19:45.103" style="s2">&gt;&gt; What?</p>
+<p begin="00:19:43.503" end="00:19:46.403" style="s2">&gt;&gt; Don&#39;t.</p>
+<p begin="00:19:45.103" end="00:19:49.203" style="s2">&gt;&gt; Why?</p>
+<p begin="00:19:46.403" end="00:19:49.203" style="s2">&gt;&gt; Because I&#39;m scared.</p>
+<p begin="00:19:50.103" end="00:19:53.203" style="s2">The old Nolan would never say that. I</p>
+<p begin="00:19:51.803" end="00:19:54.503" style="s2">know.</p>
+<p begin="00:19:53.203" end="00:19:57.103" style="s2">That&#39;s probably why I don&#39;t want to be</p>
+<p begin="00:19:54.503" end="00:19:57.103" style="s2">him anymore.</p>
+<p begin="00:19:59.903" end="00:20:02.403" style="s2">&gt;&gt; Maisie.</p>
+<p begin="00:20:06.703" end="00:20:10.303" style="s2">Maisie.</p>
+<p begin="00:20:08.603" end="00:20:12.103" style="s2">&gt;&gt; It&#39;s an archive. [music] They don&#39;t</p>
+<p begin="00:20:10.303" end="00:20:14.703" style="s2">erase memories.</p>
+<p begin="00:20:12.103" end="00:20:14.703" style="s2">They store them.</p>
+<p begin="00:20:17.203" end="00:20:19.703" style="s2">&gt;&gt; Don&#39;t.</p>
+<p begin="00:20:18.103" end="00:20:20.803" style="s2">&gt;&gt; Why?</p>
+<p begin="00:20:19.703" end="00:20:22.899" style="s2">&gt;&gt; Because last time you looked for</p>
+<p begin="00:20:20.803" end="00:20:25.805" style="s2">answers,</p>
+<p begin="00:20:22.899" end="00:20:25.805" style="s2">[music] you You got hurt.</p>
+<p begin="00:20:25.905" end="00:20:29.305" style="s2">&gt;&gt; You remember that?</p>
+<p begin="00:20:27.605" end="00:20:31.705" style="s2">&gt;&gt; No. [music]</p>
+<p begin="00:20:29.305" end="00:20:31.705" style="s2">But I know.</p>
+<p begin="00:20:33.705" end="00:20:40.005" style="s2">&gt;&gt; Subject Nolan Graves detected. Memory</p>
+<p begin="00:20:36.905" end="00:20:43.005" style="s2">deletion request confirmed.</p>
+<p begin="00:20:40.005" end="00:20:43.005" style="s2">&gt;&gt; Deletion request?</p>
+<p begin="00:20:48.405" end="00:20:52.305" style="s2">&gt;&gt; The memory wasn&#39;t erased.</p>
+<p begin="00:20:51.105" end="00:20:54.305" style="s2">&gt;&gt; What?</p>
+<p begin="00:20:52.305" end="00:20:56.005" style="s2">&gt;&gt; It was locked.</p>
+<p begin="00:20:54.305" end="00:20:58.505" style="s2">By who? By someone with Nolan&#39;s magic</p>
+<p begin="00:20:56.005" end="00:20:58.505" style="s2">signature.</p>
+<p begin="00:20:58.805" end="00:21:02.605" style="s2">Me or someone using your power.</p>
+<p begin="00:21:05.605" end="00:21:07.905" style="s2">Lena?</p>
+<p begin="00:21:08.005" end="00:21:11.605" style="s2">You still have my notes.</p>
+<p begin="00:21:10.205" end="00:21:13.205" style="s2">&gt;&gt; Oh,</p>
+<p begin="00:21:11.605" end="00:21:14.105" style="s2">sorry.</p>
+<p begin="00:21:13.205" end="00:21:16.205" style="s2">&gt;&gt; You always forget things when you&#39;re</p>
+<p begin="00:21:14.105" end="00:21:17.405" style="s2">stressed. Interesting.</p>
+<p begin="00:21:16.205" end="00:21:19.805" style="s2">&gt;&gt; What?</p>
+<p begin="00:21:17.405" end="00:21:19.805" style="s2">&gt;&gt; Nothing.</p>
+<p begin="00:21:23.705" end="00:21:27.005" style="s2">&gt;&gt; You&#39;re staring.</p>
+<p begin="00:21:25.905" end="00:21:28.305" style="s2">&gt;&gt; At the file.</p>
+<p begin="00:21:27.005" end="00:21:31.405" style="s2">&gt;&gt; No.</p>
+<p begin="00:21:28.305" end="00:21:31.405" style="s2">You were looking at Julian.</p>
+<p begin="00:21:31.905" end="00:21:36.259" style="s2">&gt;&gt; I was not.</p>
+<p begin="00:21:34.105" end="00:21:36.505" style="s2">&gt;&gt; You were.</p>
+<p begin="00:21:36.259" end="00:21:39.205" style="s2">&gt;&gt; [music]</p>
+<p begin="00:21:36.505" end="00:21:39.205" style="s2">&gt;&gt; Why would I care?</p>
+<p begin="00:21:39.305" end="00:21:41.905" style="s2">&gt;&gt; Exactly.</p>
+<p begin="00:21:44.605" end="00:21:48.305" style="s2">Did you need something?</p>
+<p begin="00:21:46.005" end="00:21:48.305" style="s2">&gt;&gt; No.</p>
+<p begin="00:21:48.405" end="00:21:52.705" style="s2">Maybe.</p>
+<p begin="00:21:50.005" end="00:21:54.005" style="s2">Who is Julian?</p>
+<p begin="00:21:52.705" end="00:21:55.705" style="s2">&gt;&gt; Really?</p>
+<p begin="00:21:54.005" end="00:21:57.305" style="s2">&gt;&gt; What?</p>
+<p begin="00:21:55.705" end="00:21:58.905" style="s2">&gt;&gt; You are jealous. [music]</p>
+<p begin="00:21:57.305" end="00:21:59.905" style="s2">&gt;&gt; I am not.</p>
+<p begin="00:21:58.905" end="00:22:01.005" style="s2">&gt;&gt; You are.</p>
+<p begin="00:21:59.905" end="00:22:04.480" style="s2">&gt;&gt; I just don&#39;t trust him.</p>
+<p begin="00:22:01.005" end="00:22:04.480" style="s2">&gt;&gt; You don&#39;t know anyone. [music]</p>
+<p begin="00:22:04.905" end="00:22:07.505" style="s2">Nolan.</p>
+<p begin="00:22:05.305" end="00:22:09.010" style="s2">&gt;&gt; No.</p>
+<p begin="00:22:07.505" end="00:22:12.405" style="s2">You&#39;re right.</p>
+<p begin="00:22:09.010" end="00:22:12.405" style="s2">[music] I don&#39;t know my own past.</p>
+<p begin="00:22:15.105" end="00:22:19.805" style="s2">The recording opened.</p>
+<p begin="00:22:18.005" end="00:22:22.605" style="s2">If you&#39;re hearing this,</p>
+<p begin="00:22:19.805" end="00:22:22.605" style="s2">don&#39;t trust me.</p>
+<p begin="00:22:27.305" end="00:22:30.306" style="s2">&gt;&gt; She&#39;s still doing this?</p>
+<p begin="00:22:30.706" end="00:22:33.006" style="s2">&gt;&gt; Let her.</p>
+<p begin="00:22:42.506" end="00:22:46.606" style="s2">&gt;&gt; Are you okay?</p>
+<p begin="00:22:44.806" end="00:22:48.206" style="s2">&gt;&gt; You shouldn&#39;t have done that.</p>
+<p begin="00:22:46.606" end="00:22:49.506" style="s2">&gt;&gt; Why?</p>
+<p begin="00:22:48.206" end="00:22:52.006" style="s2">&gt;&gt; Because everyone will think I&#39;m using</p>
+<p begin="00:22:49.506" end="00:22:52.006" style="s2">you again.</p>
+<p begin="00:22:55.006" end="00:22:57.606" style="s2">&gt;&gt; Let them think.</p>
+<p begin="00:22:59.506" end="00:23:04.106" style="s2">Nolan protected Lena.</p>
+<p begin="00:23:01.806" end="00:23:04.106" style="s2">Why?</p>
+<p begin="00:23:06.406" end="00:23:11.206" style="s2">&gt;&gt; You don&#39;t remember her.</p>
+<p begin="00:23:08.706" end="00:23:11.206" style="s2">So why?</p>
+<p begin="00:23:12.206" end="00:23:16.906" style="s2">&gt;&gt; I don&#39;t know.</p>
+<p begin="00:23:14.406" end="00:23:16.906" style="s2">I don&#39;t know.</p>
+<p begin="00:23:18.006" end="00:23:22.906" style="s2">But when she&#39;s [music] hurt,</p>
+<p begin="00:23:20.006" end="00:23:22.906" style="s2">I can&#39;t just walk away.</p>
+<p begin="00:23:38.006" end="00:23:42.021" style="s2">&gt;&gt; RUN!</p>
+<p begin="00:23:39.206" end="00:23:43.986" style="s2">&gt;&gt; I&#39;M NOT SO SICK.</p>
+<p begin="00:23:42.021" end="00:23:44.406" style="s2">&gt;&gt; [sighs and gasps]</p>
+<p begin="00:23:43.986" end="00:23:46.106" style="s2">[music]</p>
+<p begin="00:23:44.406" end="00:23:47.506" style="s2">&gt;&gt; YOU ALWAYS DO THIS.</p>
+<p begin="00:23:46.106" end="00:23:49.206" style="s2">&gt;&gt; WHAT?</p>
+<p begin="00:23:47.506" end="00:23:52.106" style="s2">&gt;&gt; Save me.</p>
+<p begin="00:23:49.206" end="00:23:52.106" style="s2">&gt;&gt; Maybe I like doing that.</p>
+<p begin="00:23:54.406" end="00:23:57.406" style="s2">Lena.</p>
+<p begin="00:23:56.006" end="00:24:00.406" style="s2">&gt;&gt; Yeah?</p>
+<p begin="00:23:57.406" end="00:24:00.406" style="s2">&gt;&gt; I remember the feeling.</p>
+<p begin="00:24:00.506" end="00:24:04.806" style="s2">Not the memory.</p>
+<p begin="00:24:02.206" end="00:24:04.806" style="s2">The feeling.</p>
+<p begin="00:24:05.906" end="00:24:09.506" style="s2">Can I kiss you?</p>
+<p begin="00:24:07.506" end="00:24:12.506" style="s2">&gt;&gt; Why are you asking?</p>
+<p begin="00:24:09.506" end="00:24:12.506" style="s2">&gt;&gt; Because last time I knew.</p>
+<p begin="00:24:13.506" end="00:24:16.506" style="s2">This time I want to [music] hear it.</p>
+<p begin="00:24:17.506" end="00:24:20.006" style="s2">&gt;&gt; Not yet.</p>
+<p begin="00:24:37.807" end="00:24:41.107" style="s2">&gt;&gt; I thought</p>
+<p begin="00:24:38.307" end="00:24:41.107" style="s2">&gt;&gt; You thought I forgot.</p>
+<p begin="00:24:42.607" end="00:24:45.408" style="s2">I was scared too.</p>
+<p begin="00:24:46.807" end="00:24:51.507" style="s2">When I woke up today,</p>
+<p begin="00:24:48.307" end="00:24:51.507" style="s2">the first thing I thought was</p>
+<p begin="00:24:54.007" end="00:24:57.007" style="s2">Did I lose her again?</p>
+<p begin="00:24:58.002" end="00:25:00.022" style="s2">[laughter]</p>
+<p begin="00:25:02.507" end="00:25:05.408" style="s2">The bell changed.</p>
+<p begin="00:25:06.107" end="00:25:10.307" style="s2">What does that mean?</p>
+<p begin="00:25:08.107" end="00:25:13.607" style="s2">It means</p>
+<p begin="00:25:10.307" end="00:25:13.607" style="s2">your memories are fighting back.</p>
+<p begin="00:25:16.408" end="00:25:18.807" style="s2">&gt;&gt; So</p>
+<p begin="00:25:19.307" end="00:25:22.207" style="s2">Love survived.</p>
+<p begin="00:25:26.167" end="00:25:28.707" style="s2">&gt;&gt; [gasps]</p>
+<p begin="00:25:27.507" end="00:25:32.107" style="s2">&gt;&gt; So</p>
+<p begin="00:25:28.707" end="00:25:33.607" style="s2">&gt;&gt; So Love didn&#39;t beat the spell.</p>
+<p begin="00:25:32.107" end="00:25:35.408" style="s2">The bell erased memories that existed</p>
+<p begin="00:25:33.607" end="00:25:36.807" style="s2">before the reset. What happened between</p>
+<p begin="00:25:35.408" end="00:25:38.807" style="s2">you two after that?</p>
+<p begin="00:25:36.807" end="00:25:40.007" style="s2">&gt;&gt; So the bell didn&#39;t fail.</p>
+<p begin="00:25:38.807" end="00:25:40.507" style="s2">&gt;&gt; It just hasn&#39;t learned what to erase</p>
+<p begin="00:25:40.007" end="00:25:41.908" style="s2">yet.</p>
+<p begin="00:25:40.507" end="00:25:42.908" style="s2">&gt;&gt; Hey</p>
+<p begin="00:25:41.908" end="00:25:43.707" style="s2">That&#39;s good news.</p>
+<p begin="00:25:42.908" end="00:25:46.007" style="s2">&gt;&gt; How?</p>
+<p begin="00:25:43.707" end="00:25:48.207" style="s2">&gt;&gt; I like you.</p>
+<p begin="00:25:46.007" end="00:25:50.207" style="s2">&gt;&gt; You&#39;re very annoying.</p>
+<p begin="00:25:48.207" end="00:25:53.607" style="s2">&gt;&gt; You said that about the old me too.</p>
+<p begin="00:25:50.207" end="00:25:53.607" style="s2">&gt;&gt; Some things survive anything.</p>
+<p begin="00:25:54.507" end="00:25:58.307" style="s2">&gt;&gt; What?</p>
+<p begin="00:25:55.807" end="00:25:58.307" style="s2">&gt;&gt; You moved.</p>
+<p begin="00:25:59.707" end="00:26:01.707" style="s2">&gt;&gt; I did?</p>
+<p begin="00:26:00.607" end="00:26:04.307" style="s2">&gt;&gt; Hm.</p>
+<p begin="00:26:01.707" end="00:26:04.307" style="s2">&gt;&gt; Guess I&#39;m learning.</p>
+<p begin="00:26:04.507" end="00:26:06.807" style="s2">&gt;&gt; What?</p>
+<p begin="00:26:08.007" end="00:26:10.607" style="s2">&gt;&gt; You moved.</p>
+<p begin="00:26:12.107" end="00:26:16.807" style="s2">&gt;&gt; I did?</p>
+<p begin="00:26:14.107" end="00:26:16.807" style="s2">Guess I&#39;m learning.</p>
+<p begin="00:26:25.908" end="00:26:29.408" style="s2">Let&#39;s see what survives next time. The</p>
+<p begin="00:26:27.707" end="00:26:31.909" style="s2">system didn&#39;t erase it because it wasn&#39;t</p>
+<p begin="00:26:29.408" end="00:26:31.909" style="s2">there before.</p>
+<p begin="00:26:32.909" end="00:26:35.509" style="s2">Now it is.</p>
+<p begin="00:26:36.809" end="00:26:41.109" style="s2">&gt;&gt; She said she&#39;s still here.</p>
+<p begin="00:26:38.709" end="00:26:41.109" style="s2">&gt;&gt; I know.</p>
+<p begin="00:26:41.209" end="00:26:44.409" style="s2">&gt;&gt; Then why are we standing here?</p>
+<p begin="00:26:42.609" end="00:26:46.309" style="s2">&gt;&gt; That door hasn&#39;t opened in 20 years.</p>
+<p begin="00:26:44.409" end="00:26:47.209" style="s2">&gt;&gt; Then tonight&#39;s special.</p>
+<p begin="00:26:46.309" end="00:26:47.709" style="s2">&gt;&gt; There she is.</p>
+<p begin="00:26:47.209" end="00:26:50.009" style="s2">&gt;&gt; What?</p>
+<p begin="00:26:47.709" end="00:26:50.009" style="s2">&gt;&gt; Nothing.</p>
+<p begin="00:26:55.248" end="00:26:57.809" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:26:55.709" end="00:26:59.709" style="s2">&gt;&gt; Nolan?</p>
+<p begin="00:26:57.809" end="00:27:00.909" style="s2">&gt;&gt; I&#39;m fine.</p>
+<p begin="00:26:59.709" end="00:27:03.609" style="s2">Apparently you know me.</p>
+<p begin="00:27:00.909" end="00:27:03.609" style="s2">&gt;&gt; Unfortunately.</p>
+<p begin="00:27:11.209" end="00:27:14.909" style="s2">These belong to people.</p>
+<p begin="00:27:13.009" end="00:27:16.809" style="s2">&gt;&gt; Lena, below.</p>
+<p begin="00:27:14.909" end="00:27:18.009" style="s2">&gt;&gt; Maisie?</p>
+<p begin="00:27:16.809" end="00:27:20.309" style="s2">&gt;&gt; Let go.</p>
+<p begin="00:27:18.009" end="00:27:20.309" style="s2">&gt;&gt; Floor.</p>
+<p begin="00:27:21.209" end="00:27:23.709" style="s2">I&#39;ll go with [music] you.</p>
+<p begin="00:27:22.009" end="00:27:26.009" style="s2">&gt;&gt; You don&#39;t have to.</p>
+<p begin="00:27:23.709" end="00:27:26.009" style="s2">&gt;&gt; I know.</p>
+<p begin="00:27:27.609" end="00:27:29.909" style="s2">&gt;&gt; Lena?</p>
+<p begin="00:27:30.409" end="00:27:33.809" style="s2">Maisie!</p>
+<p begin="00:27:31.409" end="00:27:35.809" style="s2">If you can see this,</p>
+<p begin="00:27:33.809" end="00:27:38.709" style="s2">don&#39;t let them mark you.</p>
+<p begin="00:27:35.809" end="00:27:38.709" style="s2">Because once they do</p>
+<p begin="00:27:48.809" end="00:27:50.809" style="s2">&gt;&gt; You&#39;re leaving campus.</p>
+<p begin="00:27:50.109" end="00:27:51.609" style="s2">&gt;&gt; Excuse me?</p>
+<p begin="00:27:50.809" end="00:27:52.409" style="s2">&gt;&gt; Today.</p>
+<p begin="00:27:51.609" end="00:27:55.109" style="s2">&gt;&gt; No.</p>
+<p begin="00:27:52.409" end="00:27:55.909" style="s2">&gt;&gt; This isn&#39;t a discussion.</p>
+<p begin="00:27:55.109" end="00:27:56.809" style="s2">&gt;&gt; There he is.</p>
+<p begin="00:27:55.909" end="00:27:59.609" style="s2">&gt;&gt; What?</p>
+<p begin="00:27:56.809" end="00:27:59.609" style="s2">&gt;&gt; Mr. President.</p>
+<p begin="00:28:00.509" end="00:28:04.109" style="s2">&gt;&gt; Lena, the system marked you.</p>
+<p begin="00:28:02.509" end="00:28:04.809" style="s2">&gt;&gt; And Maisie is still down there.</p>
+<p begin="00:28:04.109" end="00:28:06.109" style="s2">&gt;&gt; I&#39;ll find her.</p>
+<p begin="00:28:04.809" end="00:28:07.109" style="s2">&gt;&gt; And I sit somewhere safe while you</p>
+<p begin="00:28:06.109" end="00:28:08.809" style="s2">decide everything?</p>
+<p begin="00:28:07.109" end="00:28:10.209" style="s2">&gt;&gt; I&#39;m trying to keep you alive.</p>
+<p begin="00:28:08.809" end="00:28:11.709" style="s2">&gt;&gt; I know.</p>
+<p begin="00:28:10.209" end="00:28:12.609" style="s2">But stop telling me what I&#39;m allowed to</p>
+<p begin="00:28:11.709" end="00:28:14.309" style="s2">risk.</p>
+<p begin="00:28:12.609" end="00:28:15.709" style="s2">&gt;&gt; What if I can&#39;t watch it happen again?</p>
+<p begin="00:28:14.309" end="00:28:18.609" style="s2">&gt;&gt; Then be [clears throat] scared. Just</p>
+<p begin="00:28:15.709" end="00:28:18.609" style="s2">don&#39;t lock me out.</p>
+<p begin="00:28:18.809" end="00:28:21.209" style="s2">&gt;&gt; Fine.</p>
+<p begin="00:28:20.109" end="00:28:23.909" style="s2">But you&#39;re not going alone.</p>
+<p begin="00:28:21.209" end="00:28:23.909" style="s2">&gt;&gt; That I can live with.</p>
+<p begin="00:28:25.809" end="00:28:28.309" style="s2">You know it?</p>
+<p begin="00:28:30.509" end="00:28:33.709" style="s2">Nolan?</p>
+<p begin="00:28:31.909" end="00:28:36.510" style="s2">&gt;&gt; My My</p>
+<p begin="00:28:33.709" end="00:28:39.410" style="s2">That&#39;s her authorization seal.</p>
+<p begin="00:28:36.510" end="00:28:39.410" style="s2">&gt;&gt; Someone has to.</p>
+<p begin="00:28:42.910" end="00:28:46.310" style="s2">&gt;&gt; She knew.</p>
+<p begin="00:28:44.610" end="00:28:48.910" style="s2">&gt;&gt; Looks like it.</p>
+<p begin="00:28:46.310" end="00:28:48.910" style="s2">&gt;&gt; All this time?</p>
+<p begin="00:28:49.610" end="00:28:55.310" style="s2">&gt;&gt; Subject Lena Morris has become a risk to</p>
+<p begin="00:28:51.310" end="00:28:55.310" style="s2">the ward. Prepare her for extraction.</p>
+<p begin="00:29:00.910" end="00:29:04.285" style="s2">&gt;&gt; You could knock.</p>
+<p begin="00:29:02.610" end="00:29:04.910" style="s2">&gt;&gt; You could have told me.</p>
+<p begin="00:29:04.285" end="00:29:06.310" style="s2">&gt;&gt; [music]</p>
+<p begin="00:29:04.910" end="00:29:08.110" style="s2">&gt;&gt; This doesn&#39;t concern her.</p>
+<p begin="00:29:06.310" end="00:29:09.310" style="s2">&gt;&gt; Her name is on it.</p>
+<p begin="00:29:08.110" end="00:29:10.010" style="s2">What is the Echo Archive?</p>
+<p begin="00:29:09.310" end="00:29:11.610" style="s2">&gt;&gt; No, Lynn.</p>
+<p begin="00:29:10.010" end="00:29:12.610" style="s2">&gt;&gt; Don&#39;t.</p>
+<p begin="00:29:11.610" end="00:29:13.110" style="s2">Did you erase me? [music]</p>
+<p begin="00:29:12.610" end="00:29:13.810" style="s2">&gt;&gt; No.</p>
+<p begin="00:29:13.110" end="00:29:14.910" style="s2">&gt;&gt; Then who did?</p>
+<p begin="00:29:13.810" end="00:29:15.710" style="s2">&gt;&gt; You asked for it.</p>
+<p begin="00:29:14.910" end="00:29:18.210" style="s2">&gt;&gt; That&#39;s a lie.</p>
+<p begin="00:29:15.710" end="00:29:19.810" style="s2">&gt;&gt; I have your authorization.</p>
+<p begin="00:29:18.210" end="00:29:22.810" style="s2">Subject Lena Morris has become a risk to</p>
+<p begin="00:29:19.810" end="00:29:25.310" style="s2">the ward. Prepare her for extraction.</p>
+<p begin="00:29:22.810" end="00:29:25.310" style="s2">Because of her.</p>
+<p begin="00:29:25.810" end="00:29:28.410" style="s2">&gt;&gt; Don&#39;t look at her.</p>
+<p begin="00:29:31.310" end="00:29:35.710" style="s2">&gt;&gt; The bell is part of the campus ward.</p>
+<p begin="00:29:33.510" end="00:29:37.110" style="s2">And the memories?</p>
+<p begin="00:29:35.710" end="00:29:40.210" style="s2">What are they for?</p>
+<p begin="00:29:37.110" end="00:29:40.210" style="s2">Keeping this place [music] standing.</p>
+<p begin="00:29:40.810" end="00:29:43.710" style="s2">&gt;&gt; Maisie?</p>
+<p begin="00:29:42.710" end="00:29:44.310" style="s2">&gt;&gt; Alive. [music]</p>
+<p begin="00:29:43.710" end="00:29:46.710" style="s2">&gt;&gt; Where?</p>
+<p begin="00:29:44.310" end="00:29:48.210" style="s2">&gt;&gt; Contained. That&#39;s not an answer.</p>
+<p begin="00:29:46.710" end="00:29:50.110" style="s2">You survived the ninth overtone because</p>
+<p begin="00:29:48.210" end="00:29:53.010" style="s2">your device filtered the frequency. So</p>
+<p begin="00:29:50.110" end="00:29:53.010" style="s2">you knew I wasn&#39;t lying.</p>
+<p begin="00:29:53.710" end="00:29:56.910" style="s2">&gt;&gt; You let everyone think she was crazy.</p>
+<p begin="00:29:55.610" end="00:29:58.310" style="s2">&gt;&gt; I protected the school.</p>
+<p begin="00:29:56.910" end="00:30:01.310" style="s2">&gt;&gt; You watched me hurt her.</p>
+<p begin="00:29:58.310" end="00:30:01.310" style="s2">&gt;&gt; I watched you survive.</p>
+<p begin="00:30:01.710" end="00:30:05.255" style="s2">You have no idea what you were trying to</p>
+<p begin="00:30:03.210" end="00:30:05.255" style="s2">stop. [music]</p>
+<p begin="00:30:07.910" end="00:30:13.510" style="s2">If the archive fails,</p>
+<p begin="00:30:10.510" end="00:30:13.510" style="s2">the ward fails [music] with it.</p>
+<p begin="00:30:18.210" end="00:30:21.310" style="s2">The archive absorbs unstable memory</p>
+<p begin="00:30:19.910" end="00:30:22.610" style="s2">resonance. Without it, the ward</p>
+<p begin="00:30:21.310" end="00:30:23.810" style="s2">collapses.</p>
+<p begin="00:30:22.610" end="00:30:25.610" style="s2">&gt;&gt; So you take students?</p>
+<p begin="00:30:23.810" end="00:30:26.810" style="s2">&gt;&gt; We take what the system requires.</p>
+<p begin="00:30:25.610" end="00:30:29.710" style="s2">&gt;&gt; That&#39;s your defense?</p>
+<p begin="00:30:26.810" end="00:30:29.710" style="s2">&gt;&gt; It&#39;s the reason you&#39;re alive.</p>
+<p begin="00:30:31.210" end="00:30:33.510" style="s2">&gt;&gt; I was here the last time the ward</p>
+<p begin="00:30:32.410" end="00:30:35.510" style="s2">failed.</p>
+<p begin="00:30:33.510" end="00:30:37.412" style="s2">I buried students your age.</p>
+<p begin="00:30:35.510" end="00:30:40.112" style="s2">So</p>
+<p begin="00:30:37.412" end="00:30:40.112" style="s2">I made a choice.</p>
+<p begin="00:30:40.512" end="00:30:42.212" style="s2">&gt;&gt; Say something.</p>
+<p begin="00:30:41.212" end="00:30:43.812" style="s2">&gt;&gt; What do you want me to say?</p>
+<p begin="00:30:42.212" end="00:30:45.912" style="s2">&gt;&gt; I don&#39;t know.</p>
+<p begin="00:30:43.812" end="00:30:46.466" style="s2">&gt;&gt; Then don&#39;t decide tonight.</p>
+<p begin="00:30:45.912" end="00:30:46.912" style="s2">&gt;&gt; Lena.</p>
+<p begin="00:30:46.466" end="00:30:48.712" style="s2">&gt;&gt; [music]</p>
+<p begin="00:30:46.912" end="00:30:51.012" style="s2">&gt;&gt; She&#39;s your mother.</p>
+<p begin="00:30:48.712" end="00:30:52.712" style="s2">You&#39;re allowed to be confused.</p>
+<p begin="00:30:51.012" end="00:30:53.912" style="s2">You said this was harmless.</p>
+<p begin="00:30:52.712" end="00:30:55.112" style="s2">&gt;&gt; It is.</p>
+<p begin="00:30:53.912" end="00:30:56.312" style="s2">&gt;&gt; You knew.</p>
+<p begin="00:30:55.112" end="00:30:56.812" style="s2">&gt;&gt; Everyone has memories they&#39;d be better</p>
+<p begin="00:30:56.312" end="00:30:59.912" style="s2">without.</p>
+<p begin="00:30:56.812" end="00:30:59.912" style="s2">&gt;&gt; You don&#39;t get to decide that.</p>
+<p begin="00:31:07.512" end="00:31:10.512" style="s2">&gt;&gt; Access revoked.</p>
+<p begin="00:31:10.912" end="00:31:13.512" style="s2">&gt;&gt; What the hell?</p>
+<p begin="00:31:14.312" end="00:31:18.412" style="s2">&gt;&gt; No.</p>
+<p begin="00:31:15.912" end="00:31:18.412" style="s2">&gt;&gt; Bring her in.</p>
+<p begin="00:31:26.012" end="00:31:28.312" style="s2">&gt;&gt; Lena.</p>
+<p begin="00:31:28.712" end="00:31:32.412" style="s2">&gt;&gt; Ghost.</p>
+<p begin="00:31:30.712" end="00:31:34.012" style="s2">&gt;&gt; Nolen, stop.</p>
+<p begin="00:31:32.412" end="00:31:37.212" style="s2">&gt;&gt; Get away from the mark.</p>
+<p begin="00:31:34.012" end="00:31:38.812" style="s2">&gt;&gt; I can&#39;t. Nolen.</p>
+<p begin="00:31:37.212" end="00:31:39.712" style="s2">It&#39;s Doll.</p>
+<p begin="00:31:38.812" end="00:31:41.912" style="s2">&gt;&gt; What?</p>
+<p begin="00:31:39.712" end="00:31:44.712" style="s2">&gt;&gt; He took your mother&#39;s access.</p>
+<p begin="00:31:41.912" end="00:31:44.712" style="s2">He&#39;s coming for her.</p>
+<p begin="00:31:46.812" end="00:31:50.512" style="s2">&gt;&gt; Lena Morris.</p>
+<p begin="00:31:48.612" end="00:31:51.812" style="s2">Stop resisting.</p>
+<p begin="00:31:50.512" end="00:31:52.712" style="s2">&gt;&gt; Not really my thing.</p>
+<p begin="00:31:51.812" end="00:31:54.612" style="s2">&gt;&gt; Yeah.</p>
+<p begin="00:31:52.712" end="00:31:56.512" style="s2">I&#39;ve noticed. Your hearing device makes</p>
+<p begin="00:31:54.612" end="00:31:57.912" style="s2">you resistant to the ninth over phone.</p>
+<p begin="00:31:56.512" end="00:31:59.212" style="s2">That makes you valuable.</p>
+<p begin="00:31:57.912" end="00:32:00.812" style="s2">&gt;&gt; You mean useful.</p>
+<p begin="00:31:59.212" end="00:32:03.012" style="s2">&gt;&gt; Take my anchor.</p>
+<p begin="00:32:00.812" end="00:32:05.912" style="s2">You already tried that once.</p>
+<p begin="00:32:03.012" end="00:32:05.912" style="s2">Look how well that ended.</p>
+<p begin="00:32:15.912" end="00:32:21.012" style="s2">You carry what the bell couldn&#39;t take.</p>
+<p begin="00:32:18.112" end="00:32:21.012" style="s2">&gt;&gt; And you&#39;re scared of that.</p>
+<p begin="00:32:23.512" end="00:32:26.737" style="s2">&gt;&gt; Lena.</p>
+<p begin="00:32:24.717" end="00:32:26.737" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:32:29.302" end="00:32:32.912" style="s2">[music]</p>
+<p begin="00:32:29.412" end="00:32:32.912" style="s2">&gt;&gt; You can&#39;t protect her this time.</p>
+<p begin="00:32:50.313" end="00:32:53.213" style="s2">&gt;&gt; You came back for me?</p>
+<p begin="00:32:51.513" end="00:32:54.313" style="s2">&gt;&gt; Don&#39;t make it weird.</p>
+<p begin="00:32:53.213" end="00:32:56.913" style="s2">&gt;&gt; I could get used to this.</p>
+<p begin="00:32:54.313" end="00:32:56.913" style="s2">&gt;&gt; Please don&#39;t.</p>
+<p begin="00:32:58.777" end="00:33:02.713" style="s2">&gt;&gt; [sighs]</p>
+<p begin="00:33:00.613" end="00:33:03.713" style="s2">&gt;&gt; I&#39;m slowing you down.</p>
+<p begin="00:33:02.713" end="00:33:04.513" style="s2">&gt;&gt; Wow.</p>
+<p begin="00:33:03.713" end="00:33:06.213" style="s2">&gt;&gt; What?</p>
+<p begin="00:33:04.513" end="00:33:07.213" style="s2">&gt;&gt; Mr. Perfect finally admits he&#39;s bad at</p>
+<p begin="00:33:06.213" end="00:33:08.113" style="s2">something.</p>
+<p begin="00:33:07.213" end="00:33:11.013" style="s2">&gt;&gt; I&#39;m bleeding.</p>
+<p begin="00:33:08.113" end="00:33:11.013" style="s2">&gt;&gt; And still dramatic.</p>
+<p begin="00:33:11.513" end="00:33:13.913" style="s2">Wait.</p>
+<p begin="00:33:19.113" end="00:33:23.413" style="s2">Who is that?</p>
+<p begin="00:33:20.613" end="00:33:23.413" style="s2">I don&#39;t remember.</p>
+<p begin="00:33:23.713" end="00:33:26.413" style="s2">Now you know.</p>
+<p begin="00:33:41.413" end="00:33:44.813" style="s2">&gt;&gt; If Dahl has a copy, he doesn&#39;t need Lena</p>
+<p begin="00:33:43.213" end="00:33:45.713" style="s2">physically anymore.</p>
+<p begin="00:33:44.813" end="00:33:48.113" style="s2">&gt;&gt; That sounds good.</p>
+<p begin="00:33:45.713" end="00:33:48.113" style="s2">&gt;&gt; It&#39;s not.</p>
+<p begin="00:33:49.213" end="00:33:53.813" style="s2">He can use the copy to find every memory</p>
+<p begin="00:33:51.113" end="00:33:53.813" style="s2">connected to you.</p>
+<p begin="00:33:59.813" end="00:34:02.013" style="s2">&gt;&gt; Nope.</p>
+<p begin="00:34:04.013" end="00:34:07.713" style="s2">&gt;&gt; My anchor started this.</p>
+<p begin="00:34:05.813" end="00:34:09.813" style="s2">If Dahl wants one, he can have mine.</p>
+<p begin="00:34:07.713" end="00:34:10.313" style="s2">&gt;&gt; Get out.</p>
+<p begin="00:34:09.813" end="00:34:12.113" style="s2">&gt;&gt; Lena.</p>
+<p begin="00:34:10.313" end="00:34:12.813" style="s2">&gt;&gt; Get out.</p>
+<p begin="00:34:12.113" end="00:34:15.213" style="s2">&gt;&gt; If this works.</p>
+<p begin="00:34:12.813" end="00:34:18.013" style="s2">&gt;&gt; And if it doesn&#39;t.</p>
+<p begin="00:34:15.213" end="00:34:19.913" style="s2">&gt;&gt; Then at least you&#39;re safe.</p>
+<p begin="00:34:18.013" end="00:34:21.013" style="s2">&gt;&gt; Do you hear yourself?</p>
+<p begin="00:34:19.913" end="00:34:22.613" style="s2">&gt;&gt; I&#39;m trying to protect you.</p>
+<p begin="00:34:21.013" end="00:34:25.913" style="s2">&gt;&gt; No.</p>
+<p begin="00:34:22.613" end="00:34:25.913" style="s2">You&#39;re deciding for me.</p>
+<p begin="00:34:27.013" end="00:34:30.513" style="s2">You did it before, didn&#39;t you?</p>
+<p begin="00:34:29.013" end="00:34:32.443" style="s2">&gt;&gt; I don&#39;t know.</p>
+<p begin="00:34:30.513" end="00:34:35.313" style="s2">&gt;&gt; You asked them to erase you</p>
+<p begin="00:34:32.443" end="00:34:36.913" style="s2">[music] and you never asked me.</p>
+<p begin="00:34:35.313" end="00:34:38.313" style="s2">You thought you were saving me, but I</p>
+<p begin="00:34:36.913" end="00:34:41.313" style="s2">woke up the next day and you looked at</p>
+<p begin="00:34:38.313" end="00:34:41.313" style="s2">me like I was nobody.</p>
+<p begin="00:34:42.313" end="00:34:45.114" style="s2">I can&#39;t do that again.</p>
+<p begin="00:34:44.214" end="00:34:48.164" style="s2">&gt;&gt; I can&#39;t lose you.</p>
+<p begin="00:34:45.114" end="00:34:50.184" style="s2">&gt;&gt; Then stop disappearing first.</p>
+<p begin="00:34:48.164" end="00:34:50.184" style="s2">&gt;&gt; [gasps]</p>
+<p begin="00:34:54.614" end="00:34:56.714" style="s2">&gt;&gt; Okay.</p>
+<p begin="00:34:55.314" end="00:34:58.814" style="s2">&gt;&gt; Okay.</p>
+<p begin="00:34:56.714" end="00:34:59.714" style="s2">&gt;&gt; I won&#39;t do it.</p>
+<p begin="00:34:58.814" end="00:35:01.814" style="s2">But you&#39;re going to have to help me</p>
+<p begin="00:34:59.714" end="00:35:04.614" style="s2">figure out something else.</p>
+<p begin="00:35:01.814" end="00:35:04.614" style="s2">&gt;&gt; That was the idea.</p>
+<p begin="00:35:09.914" end="00:35:12.414" style="s2">What is that?</p>
+<p begin="00:35:14.114" end="00:35:19.914" style="s2">&gt;&gt; If you&#39;re watching this,</p>
+<p begin="00:35:16.514" end="00:35:19.914" style="s2">then I probably did something stupid.</p>
+<p begin="00:35:25.714" end="00:35:30.514" style="s2">Okay.</p>
+<p begin="00:35:27.914" end="00:35:33.514" style="s2">If I still remember Lena, turn this off.</p>
+<p begin="00:35:30.514" end="00:35:33.514" style="s2">If I don&#39;t</p>
+<p begin="00:35:34.014" end="00:35:36.414" style="s2">Damn.</p>
+<p begin="00:35:37.714" end="00:35:41.114" style="s2">The bell is using my access.</p>
+<p begin="00:35:39.714" end="00:35:42.914" style="s2">As long as I&#39;m connected to Lena, they</p>
+<p begin="00:35:41.114" end="00:35:44.614" style="s2">can find her through me.</p>
+<p begin="00:35:42.914" end="00:35:46.014" style="s2">So I&#39;m going to cut the connection.</p>
+<p begin="00:35:44.614" end="00:35:47.814" style="s2">&gt;&gt; No.</p>
+<p begin="00:35:46.014" end="00:35:50.214" style="s2">&gt;&gt; She&#39;ll hate me.</p>
+<p begin="00:35:47.814" end="00:35:50.214" style="s2">She should.</p>
+<p begin="00:35:50.314" end="00:35:53.614" style="s2">If this works, I won&#39;t remember dating</p>
+<p begin="00:35:52.214" end="00:35:55.714" style="s2">her.</p>
+<p begin="00:35:53.614" end="00:35:58.814" style="s2">I won&#39;t remember the lake.</p>
+<p begin="00:35:55.714" end="00:36:00.114" style="s2">I won&#39;t remember our first kiss.</p>
+<p begin="00:35:58.814" end="00:36:02.179" style="s2">And knowing me,</p>
+<p begin="00:36:00.114" end="00:36:02.414" style="s2">I&#39;ll probably be an about it.</p>
+<p begin="00:36:02.179" end="00:36:03.814" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:36:02.414" end="00:36:06.514" style="s2">&gt;&gt; At least he knew.</p>
+<p begin="00:36:03.814" end="00:36:06.514" style="s2">&gt;&gt; There&#39;s something else.</p>
+<p begin="00:36:07.114" end="00:36:10.914" style="s2">If she tells you that you loved her,</p>
+<p begin="00:36:09.314" end="00:36:13.214" style="s2">don&#39;t make her prove every damn second</p>
+<p begin="00:36:10.914" end="00:36:13.214" style="s2">of it.</p>
+<p begin="00:36:14.414" end="00:36:17.514" style="s2">She&#39;ll act tough.</p>
+<p begin="00:36:16.114" end="00:36:18.614" style="s2">She&#39;s not.</p>
+<p begin="00:36:17.514" end="00:36:19.914" style="s2">&gt;&gt; Excuse me?</p>
+<p begin="00:36:18.614" end="00:36:22.314" style="s2">&gt;&gt; And if she&#39;s still rolling her eyes at</p>
+<p begin="00:36:19.914" end="00:36:23.114" style="s2">you, you&#39;re not completely screwed.</p>
+<p begin="00:36:22.314" end="00:36:26.414" style="s2">&gt;&gt; I hate him.</p>
+<p begin="00:36:23.114" end="00:36:26.414" style="s2">&gt;&gt; Apparently you had terrible taste.</p>
+<p begin="00:36:26.614" end="00:36:29.114" style="s2">&gt;&gt; Still do.</p>
+<p begin="00:36:34.114" end="00:36:38.714" style="s2">&gt;&gt; One more thing. Don&#39;t do what I did.</p>
+<p begin="00:36:36.614" end="00:36:40.114" style="s2">Don&#39;t decide for her. If you get another</p>
+<p begin="00:36:38.714" end="00:36:42.514" style="s2">chance,</p>
+<p begin="00:36:40.114" end="00:36:42.514" style="s2">earn it.</p>
+<p begin="00:36:51.516" end="00:36:55.516" style="s2">&gt;&gt; If you&#39;re hearing this, I failed.</p>
+<p begin="00:36:54.116" end="00:36:57.116" style="s2">I thought if I forgot her, the system</p>
+<p begin="00:36:55.516" end="00:36:58.416" style="s2">would lose the path to her.</p>
+<p begin="00:36:57.116" end="00:37:00.016" style="s2">I was wrong.</p>
+<p begin="00:36:58.416" end="00:37:02.716" style="s2">I should have told Lina,</p>
+<p begin="00:37:00.016" end="00:37:04.716" style="s2">but I knew what she&#39;d say.</p>
+<p begin="00:37:02.716" end="00:37:07.816" style="s2">She would have [music] stayed,</p>
+<p begin="00:37:04.716" end="00:37:07.816" style="s2">and I was too scared to let her.</p>
+<p begin="00:37:09.316" end="00:37:12.816" style="s2">I don&#39;t remember doing it,</p>
+<p begin="00:37:11.116" end="00:37:14.616" style="s2">and I don&#39;t remember that morning,</p>
+<p begin="00:37:12.816" end="00:37:16.616" style="s2">but you do.</p>
+<p begin="00:37:14.616" end="00:37:17.816" style="s2">And I believe you.</p>
+<p begin="00:37:16.616" end="00:37:19.116" style="s2">&gt;&gt; You were awful.</p>
+<p begin="00:37:17.816" end="00:37:22.316" style="s2">&gt;&gt; I believe that, too.</p>
+<p begin="00:37:19.116" end="00:37:22.316" style="s2">&gt;&gt; You told me I made everything up.</p>
+<p begin="00:37:22.916" end="00:37:26.816" style="s2">&gt;&gt; I&#39;m sorry.</p>
+<p begin="00:37:24.016" end="00:37:28.216" style="s2">&gt;&gt; You wouldn&#39;t even let me touch you.</p>
+<p begin="00:37:26.816" end="00:37:31.216" style="s2">&gt;&gt; I&#39;m sorry.</p>
+<p begin="00:37:28.216" end="00:37:31.216" style="s2">&gt;&gt; Everyone laughed at me.</p>
+<p begin="00:37:34.216" end="00:37:37.516" style="s2">&gt;&gt; You shouldn&#39;t have gone through that</p>
+<p begin="00:37:35.116" end="00:37:37.516" style="s2">alone.</p>
+<p begin="00:37:44.361" end="00:37:46.516" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:37:45.316" end="00:37:47.516" style="s2">&gt;&gt; Absolutely not.</p>
+<p begin="00:37:46.516" end="00:37:48.516" style="s2">&gt;&gt; It&#39;s one fry.</p>
+<p begin="00:37:47.516" end="00:37:51.016" style="s2">&gt;&gt; The last one.</p>
+<p begin="00:37:48.516" end="00:37:54.416" style="s2">&gt;&gt; I almost died yesterday.</p>
+<p begin="00:37:51.016" end="00:37:54.416" style="s2">&gt;&gt; And now you&#39;re going to die over a fry?</p>
+<p begin="00:37:55.516" end="00:37:57.816" style="s2">&gt;&gt; Dinner tomorrow?</p>
+<p begin="00:37:56.716" end="00:37:59.016" style="s2">&gt;&gt; We&#39;re eating now.</p>
+<p begin="00:37:57.816" end="00:38:01.616" style="s2">&gt;&gt; A real dinner. [music]</p>
+<p begin="00:37:59.016" end="00:38:01.616" style="s2">No archive.</p>
+<p begin="00:38:04.016" end="00:38:06.616" style="s2">No bell.</p>
+<p begin="00:38:05.516" end="00:38:07.616" style="s2">No Oscar. [music]</p>
+<p begin="00:38:06.616" end="00:38:08.416" style="s2">&gt;&gt; There it is.</p>
+<p begin="00:38:07.616" end="00:38:09.516" style="s2">&gt;&gt; What?</p>
+<p begin="00:38:08.416" end="00:38:10.716" style="s2">&gt;&gt; Jealousy.</p>
+<p begin="00:38:09.516" end="00:38:12.316" style="s2">&gt;&gt; I said dinner.</p>
+<p begin="00:38:10.716" end="00:38:14.216" style="s2">&gt;&gt; You specifically banned Oscar.</p>
+<p begin="00:38:12.316" end="00:38:14.916" style="s2">&gt;&gt; Because he talks too much.</p>
+<p begin="00:38:14.216" end="00:38:15.816" style="s2">&gt;&gt; So?</p>
+<p begin="00:38:14.916" end="00:38:16.416" style="s2">&gt;&gt; No.</p>
+<p begin="00:38:15.816" end="00:38:17.616" style="s2">&gt;&gt; No?</p>
+<p begin="00:38:16.416" end="00:38:19.916" style="s2">&gt;&gt; Not tomorrow.</p>
+<p begin="00:38:17.616" end="00:38:19.916" style="s2">&gt;&gt; Why?</p>
+<p begin="00:38:20.816" end="00:38:24.516" style="s2">&gt;&gt; Because I&#39;m not ready to pretend we&#39;re</p>
+<p begin="00:38:22.116" end="00:38:26.416" style="s2">okay just because you apologized.</p>
+<p begin="00:38:24.516" end="00:38:28.716" style="s2">I like you. [music]</p>
+<p begin="00:38:26.416" end="00:38:30.716" style="s2">That&#39;s exactly why I&#39;m scared.</p>
+<p begin="00:38:28.716" end="00:38:31.816" style="s2">&gt;&gt; Okay.</p>
+<p begin="00:38:30.716" end="00:38:34.316" style="s2">I&#39;ll ask again.</p>
+<p begin="00:38:31.816" end="00:38:36.916" style="s2">&gt;&gt; What if I keep saying no?</p>
+<p begin="00:38:34.316" end="00:38:38.071" style="s2">&gt;&gt; Then I&#39;ll keep buying fries.</p>
+<p begin="00:38:36.916" end="00:38:38.726" style="s2">&gt;&gt; Nolan.</p>
+<p begin="00:38:38.071" end="00:38:40.746" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:38:38.726" end="00:38:40.746" style="s2">[gasps]</p>
+<p begin="00:38:45.316" end="00:38:47.716" style="s2">&gt;&gt; Don&#39;t.</p>
+<p begin="00:38:48.516" end="00:38:51.017" style="s2">&gt;&gt; I</p>
+<p begin="00:38:48.717" end="00:38:51.017" style="s2">&gt;&gt; to.</p>
+<p begin="00:38:58.917" end="00:39:00.317" style="s2">&gt;&gt; Don&#39;t.</p>
+<p begin="00:38:59.717" end="00:39:02.317" style="s2">&gt;&gt; Why?</p>
+<p begin="00:39:00.317" end="00:39:03.717" style="s2">&gt;&gt; Because I&#39;m tired of dating a ghost.</p>
+<p begin="00:39:02.317" end="00:39:05.917" style="s2">Every time we get stuck, another letter</p>
+<p begin="00:39:03.717" end="00:39:09.017" style="s2">shows up, another video, another version</p>
+<p begin="00:39:05.917" end="00:39:09.017" style="s2">of you telling us what to do.</p>
+<p begin="00:39:09.717" end="00:39:12.317" style="s2">&gt;&gt; Okay.</p>
+<p begin="00:39:11.217" end="00:39:13.317" style="s2">&gt;&gt; Okay.</p>
+<p begin="00:39:12.317" end="00:39:14.617" style="s2">&gt;&gt; I won&#39;t read it.</p>
+<p begin="00:39:13.317" end="00:39:16.017" style="s2">&gt;&gt; You&#39;ve been dying to open that for 10</p>
+<p begin="00:39:14.617" end="00:39:18.317" style="s2">minutes.</p>
+<p begin="00:39:16.017" end="00:39:18.917" style="s2">&gt;&gt; 11.</p>
+<p begin="00:39:18.317" end="00:39:19.517" style="s2">Dinner?</p>
+<p begin="00:39:18.917" end="00:39:20.117" style="s2">&gt;&gt; No.</p>
+<p begin="00:39:19.517" end="00:39:20.917" style="s2">&gt;&gt; Coffee?</p>
+<p begin="00:39:20.117" end="00:39:21.717" style="s2">&gt;&gt; No.</p>
+<p begin="00:39:20.917" end="00:39:23.817" style="s2">&gt;&gt; Walk?</p>
+<p begin="00:39:21.717" end="00:39:25.117" style="s2">&gt;&gt; We&#39;re literally walking.</p>
+<p begin="00:39:23.817" end="00:39:26.517" style="s2">&gt;&gt; So that&#39;s a yes.</p>
+<p begin="00:39:25.117" end="00:39:28.317" style="s2">&gt;&gt; Nolan,</p>
+<p begin="00:39:26.517" end="00:39:30.117" style="s2">I don&#39;t want to restart what we had.</p>
+<p begin="00:39:28.317" end="00:39:32.717" style="s2">I loved you, and then one morning you</p>
+<p begin="00:39:30.117" end="00:39:33.617" style="s2">were just gone.</p>
+<p begin="00:39:32.717" end="00:39:35.517" style="s2">You were standing right in front of me,</p>
+<p begin="00:39:33.617" end="00:39:37.717" style="s2">but you were gone.</p>
+<p begin="00:39:35.517" end="00:39:38.117" style="s2">I can&#39;t wake up like that again.</p>
+<p begin="00:39:37.717" end="00:39:39.717" style="s2">&gt;&gt; Okay.</p>
+<p begin="00:39:38.117" end="00:39:40.917" style="s2">&gt;&gt; Stop saying okay.</p>
+<p begin="00:39:39.717" end="00:39:41.917" style="s2">&gt;&gt; What do you want me to say?</p>
+<p begin="00:39:40.917" end="00:39:43.617" style="s2">&gt;&gt; I don&#39;t know.</p>
+<p begin="00:39:41.917" end="00:39:44.517" style="s2">&gt;&gt; Neither do I.</p>
+<p begin="00:39:43.617" end="00:39:46.517" style="s2">But I&#39;m not asking for the old</p>
+<p begin="00:39:44.517" end="00:39:48.217" style="s2">relationship back.</p>
+<p begin="00:39:46.517" end="00:39:50.917" style="s2">I like you now.</p>
+<p begin="00:39:48.217" end="00:39:50.917" style="s2">So I&#39;ll deal with now.</p>
+<p begin="00:39:53.417" end="00:39:55.917" style="s2">&gt;&gt; What are you doing?</p>
+<p begin="00:39:54.717" end="00:39:57.817" style="s2">&gt;&gt; Waiting.</p>
+<p begin="00:39:55.917" end="00:39:59.517" style="s2">&gt;&gt; For me?</p>
+<p begin="00:39:57.817" end="00:40:00.717" style="s2">&gt;&gt; Don&#39;t make it weird.</p>
+<p begin="00:39:59.517" end="00:40:03.017" style="s2">&gt;&gt; You stole my line.</p>
+<p begin="00:40:00.717" end="00:40:03.017" style="s2">&gt;&gt; Prove it.</p>
+<p begin="00:40:06.017" end="00:40:08.517" style="s2">&gt;&gt; Did the old you write this down, too?</p>
+<p begin="00:40:07.717" end="00:40:09.617" style="s2">&gt;&gt; No.</p>
+<p begin="00:40:08.517" end="00:40:12.017" style="s2">&gt;&gt; Then how do you know?</p>
+<p begin="00:40:09.617" end="00:40:14.412" style="s2">&gt;&gt; You order it every Tuesday after class.</p>
+<p begin="00:40:12.017" end="00:40:14.412" style="s2">I pay attention. [music]</p>
+<p begin="00:40:16.117" end="00:40:20.417" style="s2">&gt;&gt; Is she chasing him again?</p>
+<p begin="00:40:18.317" end="00:40:21.617" style="s2">&gt;&gt; No.</p>
+<p begin="00:40:20.417" end="00:40:23.117" style="s2">I&#39;m chasing her.</p>
+<p begin="00:40:21.617" end="00:40:25.417" style="s2">&gt;&gt; I didn&#39;t say yes.</p>
+<p begin="00:40:23.117" end="00:40:25.417" style="s2">&gt;&gt; I know.</p>
+<p begin="00:40:42.017" end="00:40:45.117" style="s2">&gt;&gt; Your ghost is back.</p>
+<p begin="00:40:43.417" end="00:40:47.218" style="s2">&gt;&gt; I&#39;m starting to hate that guy.</p>
+<p begin="00:40:45.117" end="00:40:49.718" style="s2">&gt;&gt; You were that guy.</p>
+<p begin="00:40:47.218" end="00:40:49.718" style="s2">&gt;&gt; Exactly.</p>
+<p begin="00:40:52.318" end="00:40:55.318" style="s2">I think that counts. If the archive is</p>
+<p begin="00:40:53.818" end="00:40:56.918" style="s2">failing, I was wrong.</p>
+<p begin="00:40:55.318" end="00:40:58.018" style="s2">Again.</p>
+<p begin="00:40:56.918" end="00:40:59.118" style="s2">He really likes himself.</p>
+<p begin="00:40:58.018" end="00:41:00.918" style="s2">&gt;&gt; You have no idea.</p>
+<p begin="00:40:59.118" end="00:41:02.118" style="s2">&gt;&gt; Don&#39;t trust the digital records. Find</p>
+<p begin="00:41:00.918" end="00:41:04.018" style="s2">the original Bell schematics in</p>
+<p begin="00:41:02.118" end="00:41:06.318" style="s2">restoration.</p>
+<p begin="00:41:04.018" end="00:41:07.218" style="s2">&gt;&gt; My department.</p>
+<p begin="00:41:06.318" end="00:41:08.418" style="s2">&gt;&gt; He knew you&#39;d be here.</p>
+<p begin="00:41:07.218" end="00:41:09.618" style="s2">&gt;&gt; He knew me.</p>
+<p begin="00:41:08.418" end="00:41:10.018" style="s2">Are you jealous of yourself?</p>
+<p begin="00:41:09.618" end="00:41:10.818" style="s2">&gt;&gt; No.</p>
+<p begin="00:41:10.018" end="00:41:12.118" style="s2">&gt;&gt; You are.</p>
+<p begin="00:41:10.818" end="00:41:13.418" style="s2">&gt;&gt; I think he was reckless, controlling,</p>
+<p begin="00:41:12.118" end="00:41:16.418" style="s2">and annoyingly confident.</p>
+<p begin="00:41:13.418" end="00:41:16.418" style="s2">&gt;&gt; Still describing yourself.</p>
+<p begin="00:41:25.618" end="00:41:27.918" style="s2">There.</p>
+<p begin="00:41:36.218" end="00:41:39.218" style="s2">If Lena is still with you.</p>
+<p begin="00:41:38.418" end="00:41:40.518" style="s2">Oh, here we go.</p>
+<p begin="00:41:39.218" end="00:41:41.718" style="s2">&gt;&gt; Shh.</p>
+<p begin="00:41:40.518" end="00:41:42.818" style="s2">Don&#39;t make her carry what you&#39;re afraid</p>
+<p begin="00:41:41.718" end="00:41:44.818" style="s2">of.</p>
+<p begin="00:41:42.818" end="00:41:47.518" style="s2">If you&#39;re scared, tell her.</p>
+<p begin="00:41:44.818" end="00:41:47.518" style="s2">Don&#39;t disappear.</p>
+<p begin="00:41:49.518" end="00:41:53.518" style="s2">I was scared yesterday</p>
+<p begin="00:41:51.318" end="00:41:55.418" style="s2">when you said you didn&#39;t want us back.</p>
+<p begin="00:41:53.518" end="00:41:57.518" style="s2">I wanted to convince you.</p>
+<p begin="00:41:55.418" end="00:41:59.418" style="s2">Then I remembered you said no.</p>
+<p begin="00:41:57.518" end="00:42:00.818" style="s2">So I went home.</p>
+<p begin="00:41:59.418" end="00:42:03.418" style="s2">&gt;&gt; Congratulations. [music]</p>
+<p begin="00:42:00.818" end="00:42:03.418" style="s2">&gt;&gt; I&#39;d take one.</p>
+<p begin="00:42:09.118" end="00:42:11.618" style="s2">&gt;&gt; Nolan.</p>
+<p begin="00:42:13.618" end="00:42:16.118" style="s2">&gt;&gt; I remember.</p>
+<p begin="00:42:18.418" end="00:42:22.018" style="s2">It&#39;s a fragment. I know. Don&#39;t force</p>
+<p begin="00:42:20.718" end="00:42:22.918" style="s2">more.</p>
+<p begin="00:42:22.018" end="00:42:25.818" style="s2">You could scramble everything you&#39;ve</p>
+<p begin="00:42:22.918" end="00:42:25.818" style="s2">made since the reset.</p>
+<p begin="00:42:27.418" end="00:42:31.118" style="s2">&gt;&gt; What did you remember?</p>
+<p begin="00:42:29.818" end="00:42:32.518" style="s2">&gt;&gt; The lake.</p>
+<p begin="00:42:31.118" end="00:42:33.518" style="s2">You kissed me.</p>
+<p begin="00:42:32.518" end="00:42:34.818" style="s2">&gt;&gt; You kissed me first.</p>
+<p begin="00:42:33.518" end="00:42:38.318" style="s2">&gt;&gt; That&#39;s not how I remember it.</p>
+<p begin="00:42:34.818" end="00:42:38.318" style="s2">&gt;&gt; Your memory is obviously still broken.</p>
+<p begin="00:42:38.718" end="00:42:41.418" style="s2">&gt;&gt; What&#39;s wrong?</p>
+<p begin="00:42:39.918" end="00:42:43.318" style="s2">&gt;&gt; Nothing.</p>
+<p begin="00:42:41.418" end="00:42:44.918" style="s2">&gt;&gt; Lena.</p>
+<p begin="00:42:43.318" end="00:42:47.518" style="s2">&gt;&gt; What happens if all of it comes back?</p>
+<p begin="00:42:44.918" end="00:42:47.518" style="s2">&gt;&gt; Then I remember.</p>
+<p begin="00:42:47.918" end="00:42:50.418" style="s2">&gt;&gt; And this?</p>
+<p begin="00:42:57.520" end="00:43:01.320" style="s2">&gt;&gt; I remember kissing you by the lake.</p>
+<p begin="00:43:00.020" end="00:43:03.720" style="s2">I also remember you threatening to kill</p>
+<p begin="00:43:01.320" end="00:43:05.320" style="s2">me over one fry yesterday.</p>
+<p begin="00:43:03.720" end="00:43:07.320" style="s2">&gt;&gt; You deserved it.</p>
+<p begin="00:43:05.320" end="00:43:10.320" style="s2">&gt;&gt; Probably.</p>
+<p begin="00:43:07.320" end="00:43:10.320" style="s2">One doesn&#39;t erase the other.</p>
+<p begin="00:43:14.920" end="00:43:17.520" style="s2">&gt;&gt; Who are you?</p>
+<p begin="00:43:16.220" end="00:43:20.320" style="s2">&gt;&gt; Faster.</p>
+<p begin="00:43:17.520" end="00:43:20.320" style="s2">&gt;&gt; I&#39;m working.</p>
+<p begin="00:43:20.920" end="00:43:23.320" style="s2">Lena!</p>
+<p begin="00:43:23.820" end="00:43:27.420" style="s2">Maisie?</p>
+<p begin="00:43:24.920" end="00:43:28.120" style="s2">&gt;&gt; Maisie!</p>
+<p begin="00:43:27.420" end="00:43:29.720" style="s2">&gt;&gt; Lena!</p>
+<p begin="00:43:28.120" end="00:43:30.920" style="s2">&gt;&gt; She&#39;s right there.</p>
+<p begin="00:43:29.720" end="00:43:33.820" style="s2">&gt;&gt; I know.</p>
+<p begin="00:43:30.920" end="00:43:33.820" style="s2">&gt;&gt; Don&#39;t make me leave.</p>
+<p begin="00:43:35.720" end="00:43:39.520" style="s2">&gt;&gt; Tell me what you need.</p>
+<p begin="00:43:38.020" end="00:43:40.820" style="s2">&gt;&gt; 30 seconds.</p>
+<p begin="00:43:39.520" end="00:43:42.520" style="s2">&gt;&gt; You have 20.</p>
+<p begin="00:43:40.820" end="00:43:44.720" style="s2">&gt;&gt; 25.</p>
+<p begin="00:43:42.520" end="00:43:44.720" style="s2">&gt;&gt; Deal.</p>
+<p begin="00:43:50.020" end="00:43:52.720" style="s2">WE NEED TO GO.</p>
+<p begin="00:43:53.620" end="00:43:56.220" style="s2">&gt;&gt; LENA!</p>
+<p begin="00:44:02.320" end="00:44:05.820" style="s2">&gt;&gt; THIS GETS YOU INTO THE LOWER ARCHIVE.</p>
+<p begin="00:44:04.720" end="00:44:07.520" style="s2">&gt;&gt; WHERE DID you get it?</p>
+<p begin="00:44:05.820" end="00:44:08.220" style="s2">&gt;&gt; Do you really want to know?</p>
+<p begin="00:44:07.520" end="00:44:10.620" style="s2">&gt;&gt; No.</p>
+<p begin="00:44:08.220" end="00:44:10.620" style="s2">&gt;&gt; Smart.</p>
+<p begin="00:44:12.120" end="00:44:16.320" style="s2">I need to tell you something, okay?</p>
+<p begin="00:44:14.420" end="00:44:17.920" style="s2">After the reset, Nolan asked me if you</p>
+<p begin="00:44:16.320" end="00:44:20.320" style="s2">were always around him.</p>
+<p begin="00:44:17.920" end="00:44:22.320" style="s2">I told him yes. That was true. I didn&#39;t</p>
+<p begin="00:44:20.320" end="00:44:23.920" style="s2">tell me why.</p>
+<p begin="00:44:22.320" end="00:44:26.020" style="s2">I found a note.</p>
+<p begin="00:44:23.920" end="00:44:27.620" style="s2">Your names were on it.</p>
+<p begin="00:44:26.020" end="00:44:28.120" style="s2">I hid it.</p>
+<p begin="00:44:27.620" end="00:44:30.520" style="s2">&gt;&gt; Serena.</p>
+<p begin="00:44:28.120" end="00:44:30.520" style="s2">&gt;&gt; Why?</p>
+<p begin="00:44:31.020" end="00:44:35.520" style="s2">Because I liked him.</p>
+<p begin="00:44:33.120" end="00:44:38.320" style="s2">And for once, you were out of the way.</p>
+<p begin="00:44:35.520" end="00:44:40.220" style="s2">I didn&#39;t know what the bell did.</p>
+<p begin="00:44:38.320" end="00:44:41.920" style="s2">But when I started figuring it out,</p>
+<p begin="00:44:40.220" end="00:44:44.220" style="s2">I still didn&#39;t tell you. [music] I&#39;m</p>
+<p begin="00:44:41.920" end="00:44:45.920" style="s2">sorry.</p>
+<p begin="00:44:44.220" end="00:44:48.220" style="s2">Help us get Maisie back.</p>
+<p begin="00:44:45.920" end="00:44:48.220" style="s2">&gt;&gt; I will.</p>
+<p begin="00:44:52.720" end="00:44:56.421" style="s2">&gt;&gt; Give it back.</p>
+<p begin="00:44:53.921" end="00:44:56.421" style="s2">Come get it.</p>
+<p begin="00:45:00.221" end="00:45:03.121" style="s2">&gt;&gt; I knew her.</p>
+<p begin="00:45:01.221" end="00:45:04.621" style="s2">&gt;&gt; Yeah.</p>
+<p begin="00:45:03.121" end="00:45:05.921" style="s2">&gt;&gt; She was my friend.</p>
+<p begin="00:45:04.621" end="00:45:08.821" style="s2">&gt;&gt; Yeah.</p>
+<p begin="00:45:05.921" end="00:45:08.821" style="s2">&gt;&gt; And I forgot her.</p>
+<p begin="00:45:10.121" end="00:45:12.221" style="s2">If Serena ever says she hates me, she&#39;s</p>
+<p begin="00:45:11.621" end="00:45:13.221" style="s2">lying.</p>
+<p begin="00:45:12.221" end="00:45:15.621" style="s2">&gt;&gt; I hate you.</p>
+<p begin="00:45:13.221" end="00:45:15.621" style="s2">&gt;&gt; See?</p>
+<p begin="00:45:28.421" end="00:45:31.921" style="s2">She took something from me, too.</p>
+<p begin="00:45:42.221" end="00:45:44.721" style="s2">Maisie?</p>
+<p begin="00:45:44.921" end="00:45:47.521" style="s2">Who are you?</p>
+<p begin="00:45:51.686" end="00:45:53.921" style="s2">[snorts]</p>
+<p begin="00:45:52.221" end="00:45:56.521" style="s2">My name is Lena.</p>
+<p begin="00:45:53.921" end="00:45:58.221" style="s2">Do I know you?</p>
+<p begin="00:45:56.521" end="00:46:00.921" style="s2">Yeah. But it&#39;s okay if you don&#39;t</p>
+<p begin="00:45:58.221" end="00:46:00.921" style="s2">remember yet.</p>
+<p begin="00:46:02.321" end="00:46:06.621" style="s2">My name is Maisie Carter. Lena Morris is</p>
+<p begin="00:46:04.821" end="00:46:08.521" style="s2">my best friend.</p>
+<p begin="00:46:06.621" end="00:46:11.221" style="s2">And if I forget her,</p>
+<p begin="00:46:08.521" end="00:46:11.221" style="s2">trust her.</p>
+<p begin="00:46:13.021" end="00:46:17.221" style="s2">Lena?</p>
+<p begin="00:46:14.521" end="00:46:17.221" style="s2">I know that name.</p>
+<p begin="00:46:20.921" end="00:46:23.321" style="s2">You look terrible.</p>
+<p begin="00:46:22.121" end="00:46:28.121" style="s2">&gt;&gt; You remember me?</p>
+<p begin="00:46:23.321" end="00:46:29.121" style="s2">&gt;&gt; Unfortunate familiarity. Okay, too much.</p>
+<p begin="00:46:28.121" end="00:46:30.421" style="s2">&gt;&gt; You okay?</p>
+<p begin="00:46:29.121" end="00:46:31.521" style="s2">&gt;&gt; Ask me later.</p>
+<p begin="00:46:30.421" end="00:46:34.821" style="s2">&gt;&gt; Deal.</p>
+<p begin="00:46:31.521" end="00:46:34.821" style="s2">&gt;&gt; We have to leave.</p>
+<p begin="00:46:42.521" end="00:46:48.121" style="s2">&gt;&gt; Why?</p>
+<p begin="00:46:44.721" end="00:46:51.421" style="s2">&gt;&gt; Because this isn&#39;t the archive.</p>
+<p begin="00:46:48.121" end="00:46:51.421" style="s2">The archive is just feeding it.</p>
+<p begin="00:46:57.421" end="00:47:00.323" style="s2">That&#39;s what Doll wants.</p>
+<p begin="00:47:13.023" end="00:47:16.122" style="s2">&gt;&gt; If it reaches zero, the bell hits the</p>
+<p begin="00:47:14.323" end="00:47:18.723" style="s2">whole campus.</p>
+<p begin="00:47:16.122" end="00:47:21.622" style="s2">&gt;&gt; And everyone forgets?</p>
+<p begin="00:47:18.723" end="00:47:21.622" style="s2">&gt;&gt; I don&#39;t know what they&#39;ll forget.</p>
+<p begin="00:47:23.823" end="00:47:25.922" style="s2">I can stop it.</p>
+<p begin="00:47:25.023" end="00:47:27.922" style="s2">&gt;&gt; No.</p>
+<p begin="00:47:25.922" end="00:47:29.422" style="s2">&gt;&gt; My signature is already in the system.</p>
+<p begin="00:47:27.922" end="00:47:30.723" style="s2">&gt;&gt; We just had this fight.</p>
+<p begin="00:47:29.422" end="00:47:33.323" style="s2">&gt;&gt; This is different.</p>
+<p begin="00:47:30.723" end="00:47:34.922" style="s2">&gt;&gt; You always say that.</p>
+<p begin="00:47:33.323" end="00:47:36.122" style="s2">&gt;&gt; Move.</p>
+<p begin="00:47:34.922" end="00:47:37.323" style="s2">&gt;&gt; No.</p>
+<p begin="00:47:36.122" end="00:47:37.922" style="s2">&gt;&gt; Lena, there are hundreds of students</p>
+<p begin="00:47:37.323" end="00:47:38.422" style="s2">upstairs.</p>
+<p begin="00:47:37.922" end="00:47:39.323" style="s2">&gt;&gt; I know.</p>
+<p begin="00:47:38.422" end="00:47:41.023" style="s2">&gt;&gt; I can save them.</p>
+<p begin="00:47:39.323" end="00:47:43.922" style="s2">&gt;&gt; Maybe.</p>
+<p begin="00:47:41.023" end="00:47:45.823" style="s2">But you&#39;re doing it again.</p>
+<p begin="00:47:43.922" end="00:47:48.823" style="s2">You get scared and suddenly you&#39;re the</p>
+<p begin="00:47:45.823" end="00:47:49.823" style="s2">only person allowed to fix everything.</p>
+<p begin="00:47:48.823" end="00:47:53.622" style="s2">&gt;&gt; What do you want me to do?</p>
+<p begin="00:47:49.823" end="00:47:53.622" style="s2">&gt;&gt; Ask for help. We&#39;re right here.</p>
+<p begin="00:48:03.023" end="00:48:05.723" style="s2">It&#39;s working.</p>
+<p begin="00:48:13.223" end="00:48:18.523" style="s2">&gt;&gt; You still think this is about saving a</p>
+<p begin="00:48:14.622" end="00:48:18.523" style="s2">few memories? Get away from the core.</p>
+<p begin="00:48:19.523" end="00:48:21.823" style="s2">No.</p>
+<p begin="00:48:23.723" end="00:48:26.023" style="s2">There.</p>
+<p begin="00:48:26.323" end="00:48:28.922" style="s2">&gt;&gt; Nolan.</p>
+<p begin="00:48:30.853" end="00:48:32.873" style="s2">&gt;&gt; [panting]</p>
+<p begin="00:48:41.323" end="00:48:44.323" style="s2">&gt;&gt; Not yet.</p>
+<p begin="00:48:42.723" end="00:48:47.023" style="s2">&gt;&gt; Because you do.</p>
+<p begin="00:48:44.323" end="00:48:47.023" style="s2">I&#39;m chasing her.</p>
+<p begin="00:48:47.823" end="00:48:51.422" style="s2">&gt;&gt; Look at me.</p>
+<p begin="00:48:48.922" end="00:48:51.422" style="s2">&gt;&gt; I&#39;m trying.</p>
+<p begin="00:48:53.523" end="00:48:57.422" style="s2">Maisy.</p>
+<p begin="00:48:55.122" end="00:48:57.422" style="s2">&gt;&gt; Yeah?</p>
+<p begin="00:48:57.523" end="00:49:00.524" style="s2">&gt;&gt; Why do I know your name?</p>
+<p begin="00:49:01.524" end="00:49:04.913" style="s2">Tell me something.</p>
+<p begin="00:49:03.524" end="00:49:05.124" style="s2">&gt;&gt; What?</p>
+<p begin="00:49:04.913" end="00:49:06.424" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:49:05.124" end="00:49:07.724" style="s2">&gt;&gt; Anything.</p>
+<p begin="00:49:06.424" end="00:49:08.824" style="s2">&gt;&gt; You steal my fries?</p>
+<p begin="00:49:07.724" end="00:49:09.498" style="s2">&gt;&gt; That&#39;s terrible.</p>
+<p begin="00:49:08.824" end="00:49:09.824" style="s2">&gt;&gt; Very.</p>
+<p begin="00:49:09.498" end="00:49:10.924" style="s2">&gt;&gt; [music]</p>
+<p begin="00:49:09.824" end="00:49:11.924" style="s2">&gt;&gt; What else?</p>
+<p begin="00:49:10.924" end="00:49:14.524" style="s2">&gt;&gt; You&#39;re arrogant.</p>
+<p begin="00:49:11.924" end="00:49:14.524" style="s2">&gt;&gt; I know that one.</p>
+<p begin="00:49:14.724" end="00:49:18.524" style="s2">&gt;&gt; You hate Oscar.</p>
+<p begin="00:49:15.724" end="00:49:18.524" style="s2">&gt;&gt; I can hear you.</p>
+<p begin="00:49:20.024" end="00:49:22.924" style="s2">Lena.</p>
+<p begin="00:49:21.624" end="00:49:26.224" style="s2">I forgot our first date.</p>
+<p begin="00:49:22.924" end="00:49:26.224" style="s2">&gt;&gt; We have maybe two minutes.</p>
+<p begin="00:49:28.024" end="00:49:30.324" style="s2">&gt;&gt; What are you doing?</p>
+<p begin="00:49:29.024" end="00:49:30.924" style="s2">&gt;&gt; Mm, insurance.</p>
+<p begin="00:49:30.324" end="00:49:32.924" style="s2">&gt;&gt; No.</p>
+<p begin="00:49:30.924" end="00:49:35.424" style="s2">&gt;&gt; I&#39;m not sacrificing myself.</p>
+<p begin="00:49:32.924" end="00:49:35.424" style="s2">I promise.</p>
+<p begin="00:49:35.924" end="00:49:37.724" style="s2">But if I forget</p>
+<p begin="00:49:36.724" end="00:49:40.824" style="s2">&gt;&gt; Don&#39;t.</p>
+<p begin="00:49:37.724" end="00:49:43.524" style="s2">&gt;&gt; Lena. [music] Don&#39;t chase me.</p>
+<p begin="00:49:40.824" end="00:49:45.524" style="s2">Don&#39;t stand there trying to convince me.</p>
+<p begin="00:49:43.524" end="00:49:47.544" style="s2">You already did that once.</p>
+<p begin="00:49:45.524" end="00:49:47.544" style="s2">[gasps]</p>
+<p begin="00:49:49.024" end="00:49:51.424" style="s2">Can I?</p>
+<p begin="00:49:51.724" end="00:49:56.659" style="s2">If I&#39;m still me,</p>
+<p begin="00:49:54.224" end="00:49:58.679" style="s2">I&#39;ll come to you.</p>
+<p begin="00:49:56.659" end="00:49:58.679" style="s2">[snorts]</p>
+<p begin="00:50:03.324" end="00:50:06.024" style="s2">Who are you?</p>
+<p begin="00:50:07.794" end="00:50:09.724" style="s2">&gt;&gt; [sighs and gasps]</p>
+<p begin="00:50:08.524" end="00:50:11.824" style="s2">&gt;&gt; What happened?</p>
+<p begin="00:50:09.724" end="00:50:14.424" style="s2">&gt;&gt; Memory damage.</p>
+<p begin="00:50:11.824" end="00:50:14.424" style="s2">&gt;&gt; How much?</p>
+<p begin="00:50:14.724" end="00:50:17.424" style="s2">Do I know her?</p>
+<p begin="00:50:18.524" end="00:50:21.824" style="s2">&gt;&gt; Nolan, don&#39;t.</p>
+<p begin="00:50:22.524" end="00:50:25.224" style="s2">&gt;&gt; What&#39;s your name?</p>
+<p begin="00:50:25.324" end="00:50:27.724" style="s2">&gt;&gt; Lena.</p>
+<p begin="00:50:27.324" end="00:50:28.824" style="s2">&gt;&gt; Were we</p>
+<p begin="00:50:27.724" end="00:50:31.124" style="s2">&gt;&gt; You don&#39;t need to figure it out right</p>
+<p begin="00:50:28.824" end="00:50:31.124" style="s2">now.</p>
+<p begin="00:50:38.624" end="00:50:44.224" style="s2">That&#39;s Lena, Nolan&#39;s girlfriend.</p>
+<p begin="00:50:41.224" end="00:50:44.224" style="s2">I heard he forgot her again.</p>
+<p begin="00:50:46.824" end="00:50:51.424" style="s2">Nolan?</p>
+<p begin="00:50:48.624" end="00:50:54.124" style="s2">President Graves?</p>
+<p begin="00:50:51.424" end="00:50:54.124" style="s2">&gt;&gt; Give me a [music] second.</p>
+<p begin="00:50:57.424" end="00:51:01.524" style="s2">&gt;&gt; Don&#39;t turn around.</p>
+<p begin="00:50:58.924" end="00:51:01.524" style="s2">I &#39;m not.</p>
+<p begin="00:51:01.724" end="00:51:04.225" style="s2">He&#39;s coming.</p>
+<p begin="00:51:08.125" end="00:51:10.425" style="s2">&gt;&gt; Lena.</p>
+<p begin="00:51:13.925" end="00:51:16.025" style="s2">&gt;&gt; What?</p>
+<p begin="00:51:15.125" end="00:51:17.225" style="s2">&gt;&gt; I don&#39;t know.</p>
+<p begin="00:51:16.025" end="00:51:20.025" style="s2">&gt;&gt; Then why did you follow me?</p>
+<p begin="00:51:17.225" end="00:51:20.025" style="s2">&gt;&gt; I don&#39;t know that either.</p>
+<p begin="00:51:21.125" end="00:51:23.225" style="s2">Were we dating?</p>
+<p begin="00:51:22.225" end="00:51:24.425" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:51:23.225" end="00:51:25.425" style="s2">&gt;&gt; Before I forgot?</p>
+<p begin="00:51:24.425" end="00:51:26.625" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:51:25.425" end="00:51:27.725" style="s2">&gt;&gt; And after?</p>
+<p begin="00:51:26.625" end="00:51:28.825" style="s2">&gt;&gt; Complicated.</p>
+<p begin="00:51:27.725" end="00:51:30.525" style="s2">&gt;&gt; That sounds bad.</p>
+<p begin="00:51:28.825" end="00:51:32.425" style="s2">&gt;&gt; You were annoying.</p>
+<p begin="00:51:30.525" end="00:51:33.925" style="s2">&gt;&gt; Apparently that&#39;s consistent.</p>
+<p begin="00:51:32.425" end="00:51:34.525" style="s2">Can I ask you something?</p>
+<p begin="00:51:33.925" end="00:51:37.825" style="s2">&gt;&gt; Okay.</p>
+<p begin="00:51:34.525" end="00:51:37.825" style="s2">&gt;&gt; Why do I feel like I know you?</p>
+<p begin="00:51:38.025" end="00:51:40.725" style="s2">&gt;&gt; Maybe you did.</p>
+<p begin="00:51:44.825" end="00:51:48.525" style="s2">For your girlfriend?</p>
+<p begin="00:51:45.625" end="00:51:48.525" style="s2">&gt;&gt; I don&#39;t have a girlfriend.</p>
+<p begin="00:51:55.825" end="00:51:58.525" style="s2">&gt;&gt; How did you know?</p>
+<p begin="00:51:58.725" end="00:52:01.325" style="s2">&gt;&gt; I guessed.</p>
+<p begin="00:51:59.725" end="00:52:02.525" style="s2">&gt;&gt; No, you didn&#39;t.</p>
+<p begin="00:52:01.325" end="00:52:04.385" style="s2">&gt;&gt; Okay.</p>
+<p begin="00:52:02.525" end="00:52:06.405" style="s2">I don&#39;t know.</p>
+<p begin="00:52:04.385" end="00:52:06.405" style="s2">[crying]</p>
+<p begin="00:52:09.025" end="00:52:11.925" style="s2">Did I hurt you</p>
+<p begin="00:52:10.525" end="00:52:14.225" style="s2">before?</p>
+<p begin="00:52:11.925" end="00:52:14.225" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:52:14.325" end="00:52:18.525" style="s2">&gt;&gt; Am I doing it now?</p>
+<p begin="00:52:16.725" end="00:52:21.625" style="s2">&gt;&gt; No.</p>
+<p begin="00:52:18.525" end="00:52:21.625" style="s2">&gt;&gt; Dal, open the core.</p>
+<p begin="00:52:24.625" end="00:52:29.525" style="s2">&gt;&gt; Sorry.</p>
+<p begin="00:52:27.025" end="00:52:32.125" style="s2">&gt;&gt; It&#39;s okay.</p>
+<p begin="00:52:29.525" end="00:52:32.125" style="s2">&gt;&gt; Stay with me.</p>
+<p begin="00:52:42.225" end="00:52:47.025" style="s2">The next pulse could wipe everything.</p>
+<p begin="00:52:44.025" end="00:52:48.525" style="s2">Everything. Recent memory first.</p>
+<p begin="00:52:47.025" end="00:52:50.125" style="s2">&gt;&gt; So I could forget today?</p>
+<p begin="00:52:48.525" end="00:52:52.525" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:52:50.125" end="00:52:52.525" style="s2">&gt;&gt; And her?</p>
+<p begin="00:52:54.525" end="00:52:57.825" style="s2">&gt;&gt; You don&#39;t have to come.</p>
+<p begin="00:52:56.525" end="00:52:59.225" style="s2">&gt;&gt; Do you?</p>
+<p begin="00:52:57.825" end="00:53:00.725" style="s2">&gt;&gt; Maisie&#39;s memories are still connected to</p>
+<p begin="00:52:59.225" end="00:53:01.825" style="s2">the core.</p>
+<p begin="00:53:00.725" end="00:53:04.125" style="s2">&gt;&gt; Then I&#39;m coming.</p>
+<p begin="00:53:01.825" end="00:53:06.425" style="s2">&gt;&gt; You don&#39;t even remember me.</p>
+<p begin="00:53:04.125" end="00:53:06.425" style="s2">&gt;&gt; Yeah.</p>
+<p begin="00:53:06.525" end="00:53:09.727" style="s2">Still</p>
+<p begin="00:53:06.727" end="00:53:09.727" style="s2">&gt;&gt; don&#39;t want you going alone.</p>
+<p begin="00:53:19.227" end="00:53:22.827" style="s2">&gt;&gt; Why did you do that?</p>
+<p begin="00:53:20.227" end="00:53:22.827" style="s2">&gt;&gt; I don&#39;t know.</p>
+<p begin="00:53:26.027" end="00:53:29.027" style="s2">I don&#39;t know why I know your coffee. I</p>
+<p begin="00:53:27.427" end="00:53:30.327" style="s2">don&#39;t know why I keep looking for you,</p>
+<p begin="00:53:29.027" end="00:53:32.627" style="s2">and I definitely don&#39;t know why I keep</p>
+<p begin="00:53:30.327" end="00:53:34.427" style="s2">getting hit for you.</p>
+<p begin="00:53:32.627" end="00:53:36.327" style="s2">But apparently</p>
+<p begin="00:53:34.427" end="00:53:37.327" style="s2">I&#39;m an idiot around you.</p>
+<p begin="00:53:36.327" end="00:53:39.727" style="s2">&gt;&gt; Yeah.</p>
+<p begin="00:53:37.327" end="00:53:39.727" style="s2">You really are.</p>
+<p begin="00:53:41.827" end="00:53:46.827" style="s2">&gt;&gt; If you&#39;ve forgotten everything</p>
+<p begin="00:53:44.627" end="00:53:46.827" style="s2">good</p>
+<p begin="00:53:51.227" end="00:53:53.827" style="s2">If you forgot everything, stop trying to</p>
+<p begin="00:53:52.727" end="00:53:56.727" style="s2">be me.</p>
+<p begin="00:53:53.827" end="00:53:56.727" style="s2">I already screwed this up.</p>
+<p begin="00:53:57.027" end="00:54:00.027" style="s2">The core can&#39;t tell the difference</p>
+<p begin="00:53:57.927" end="00:54:01.427" style="s2">between memory and identity. It thinks</p>
+<p begin="00:54:00.027" end="00:54:03.227" style="s2">if you remove the memory, you remove the</p>
+<p begin="00:54:01.427" end="00:54:05.927" style="s2">problem.</p>
+<p begin="00:54:03.227" end="00:54:05.927" style="s2">&gt;&gt; Sounds familiar.</p>
+<p begin="00:54:10.802" end="00:54:14.227" style="s2">&gt;&gt; [gasps]</p>
+<p begin="00:54:11.827" end="00:54:16.827" style="s2">&gt;&gt; You loved me.</p>
+<p begin="00:54:14.227" end="00:54:16.827" style="s2">&gt;&gt; Don&#39;t touch me.</p>
+<p begin="00:54:18.327" end="00:54:22.627" style="s2">&gt;&gt; What did you see?</p>
+<p begin="00:54:20.527" end="00:54:24.727" style="s2">&gt;&gt; Me.</p>
+<p begin="00:54:22.627" end="00:54:26.527" style="s2">I was cruel.</p>
+<p begin="00:54:24.727" end="00:54:27.527" style="s2">&gt;&gt; Yeah.</p>
+<p begin="00:54:26.527" end="00:54:29.627" style="s2">&gt;&gt; Okay.</p>
+<p begin="00:54:27.527" end="00:54:29.627" style="s2">&gt;&gt; There!</p>
+<p begin="00:54:30.527" end="00:54:34.027" style="s2">&gt;&gt; The ninth overtone core.</p>
+<p begin="00:54:38.312" end="00:54:42.027" style="s2">[music]</p>
+<p begin="00:54:39.827" end="00:54:42.027" style="s2">Better?</p>
+<p begin="00:54:47.327" end="00:54:49.927" style="s2">You&#39;re too late.</p>
+<p begin="00:54:56.227" end="00:54:58.827" style="s2">I told everyone I was doing this to</p>
+<p begin="00:54:57.427" end="00:55:00.827" style="s2">protect Lena.</p>
+<p begin="00:54:58.827" end="00:55:02.227" style="s2">That was only half true.</p>
+<p begin="00:55:00.827" end="00:55:03.827" style="s2">I was scared.</p>
+<p begin="00:55:02.227" end="00:55:04.927" style="s2">I knew what the bell could do,</p>
+<p begin="00:55:03.827" end="00:55:06.727" style="s2">and I couldn&#39;t stand the thought of</p>
+<p begin="00:55:04.927" end="00:55:08.328" style="s2">watching her disappear.</p>
+<p begin="00:55:06.727" end="00:55:10.028" style="s2">So I did what I always</p>
+<p begin="00:55:08.328" end="00:55:11.528" style="s2">I made the decision myself. I told</p>
+<p begin="00:55:10.028" end="00:55:13.028" style="s2">myself it was for her.</p>
+<p begin="00:55:11.528" end="00:55:15.128" style="s2">But part of it was for me. If you&#39;re</p>
+<p begin="00:55:13.028" end="00:55:18.028" style="s2">watching this with her,</p>
+<p begin="00:55:15.128" end="00:55:18.028" style="s2">listen to her this time.</p>
+<p begin="00:55:20.228" end="00:55:25.228" style="s2">&gt;&gt; What does purge mean?</p>
+<p begin="00:55:22.328" end="00:55:27.128" style="s2">&gt;&gt; He&#39;s destroying the stored memories.</p>
+<p begin="00:55:25.228" end="00:55:29.328" style="s2">&gt;&gt; Why?</p>
+<p begin="00:55:27.128" end="00:55:30.728" style="s2">&gt;&gt; Because you can&#39;t expose what no longer</p>
+<p begin="00:55:29.328" end="00:55:32.228" style="s2">exists.</p>
+<p begin="00:55:30.728" end="00:55:34.628" style="s2">&gt;&gt; May these memories</p>
+<p begin="00:55:32.228" end="00:55:34.628" style="s2">&gt;&gt; All of them.</p>
+<p begin="00:55:38.828" end="00:55:42.628" style="s2">What do you need?</p>
+<p begin="00:55:40.628" end="00:55:43.628" style="s2">&gt;&gt; Keep those three stable.</p>
+<p begin="00:55:42.628" end="00:55:45.528" style="s2">&gt;&gt; How long?</p>
+<p begin="00:55:43.628" end="00:55:48.128" style="s2">&gt;&gt; Two minutes.</p>
+<p begin="00:55:45.528" end="00:55:50.328" style="s2">&gt;&gt; You have two.</p>
+<p begin="00:55:48.128" end="00:55:53.128" style="s2">&gt;&gt; Look at you.</p>
+<p begin="00:55:50.328" end="00:55:53.128" style="s2">&gt;&gt; Don&#39;t get used to it.</p>
+<p begin="00:56:04.828" end="00:56:07.328" style="s2">&gt;&gt; Now.</p>
+<p begin="00:56:21.428" end="00:56:26.828" style="s2">Oh my god. They really were together.</p>
+<p begin="00:56:23.928" end="00:56:26.828" style="s2">&gt;&gt; He was chasing her.</p>
+<p begin="00:56:30.528" end="00:56:34.928" style="s2">Together?</p>
+<p begin="00:56:32.428" end="00:56:34.928" style="s2">&gt;&gt; Together.</p>
+<p begin="00:56:58.528" end="00:57:02.528" style="s2">&gt;&gt; You okay?</p>
+<p begin="00:56:59.828" end="00:57:02.528" style="s2">&gt;&gt; Ask me later.</p>
+<p begin="00:57:02.728" end="00:57:04.928" style="s2">&gt;&gt; Deal.</p>
+<p begin="00:57:22.719" end="00:57:25.329" style="s2">&gt;&gt; [music]</p>
+<p begin="00:57:23.029" end="00:57:25.329" style="s2">&gt;&gt; Lena.</p>
+<p begin="00:57:25.339" end="00:57:29.329" style="s2">[laughter]</p>
+<p begin="00:57:27.229" end="00:57:31.129" style="s2">We were wrong.</p>
+<p begin="00:57:29.329" end="00:57:33.629" style="s2">I&#39;m sorry.</p>
+<p begin="00:57:31.129" end="00:57:33.629" style="s2">You were cruel.</p>
+<p begin="00:57:34.529" end="00:57:37.629" style="s2">But thank you for saying it.</p>
+<p begin="00:57:38.329" end="00:57:41.229" style="s2">This belongs to you.</p>
+<p begin="00:57:41.529" end="00:57:45.529" style="s2">I should have given it to you that day.</p>
+<p begin="00:57:43.629" end="00:57:47.829" style="s2">Yeah.</p>
+<p begin="00:57:45.529" end="00:57:49.829" style="s2">You&#39;re really not making this easy.</p>
+<p begin="00:57:47.829" end="00:57:51.329" style="s2">Not my job.</p>
+<p begin="00:57:49.829" end="00:57:54.529" style="s2">Fair.</p>
+<p begin="00:57:51.329" end="00:57:55.929" style="s2">He&#39;s terrible at being subtle. I know.</p>
+<p begin="00:57:54.529" end="00:57:57.729" style="s2">You going to say yes?</p>
+<p begin="00:57:55.929" end="00:57:59.829" style="s2">To what?</p>
+<p begin="00:57:57.729" end="00:58:01.329" style="s2">Whatever that idiot is doing.</p>
+<p begin="00:57:59.829" end="00:58:02.329" style="s2">You still scared?</p>
+<p begin="00:58:01.329" end="00:58:03.329" style="s2">Yeah.</p>
+<p begin="00:58:02.329" end="00:58:06.129" style="s2">Good.</p>
+<p begin="00:58:03.329" end="00:58:06.129" style="s2">Means you&#39;re not stupid.</p>
+<p begin="00:58:06.429" end="00:58:08.929" style="s2">What are you [music] doing?</p>
+<p begin="00:58:07.729" end="00:58:10.329" style="s2">&gt;&gt; Nothing.</p>
+<p begin="00:58:08.929" end="00:58:12.929" style="s2">&gt;&gt; You&#39;re a terrible liar.</p>
+<p begin="00:58:10.329" end="00:58:12.929" style="s2">&gt;&gt; So I&#39;ve been told.</p>
+<p begin="00:58:13.329" end="00:58:17.085" style="s2">&gt;&gt; Is this a proposal?</p>
+<p begin="00:58:14.529" end="00:58:17.529" style="s2">&gt;&gt; Jesus, Lena, we&#39;re 19 and 21.</p>
+<p begin="00:58:17.085" end="00:58:18.429" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:58:17.529" end="00:58:19.129" style="s2">&gt;&gt; Good answer.</p>
+<p begin="00:58:18.429" end="00:58:20.029" style="s2">&gt;&gt; Can you leave?</p>
+<p begin="00:58:19.129" end="00:58:20.729" style="s2">&gt;&gt; Absolutely not.</p>
+<p begin="00:58:20.029" end="00:58:23.029" style="s2">&gt;&gt; Maisie.</p>
+<p begin="00:58:20.729" end="00:58:23.029" style="s2">&gt;&gt; Fine.</p>
+<p begin="00:58:25.329" end="00:58:27.329" style="s2">&gt;&gt; Tomorrow night.</p>
+<p begin="00:58:26.529" end="00:58:28.229" style="s2">&gt;&gt; What about it?</p>
+<p begin="00:58:27.329" end="00:58:28.929" style="s2">&gt;&gt; Meet me here.</p>
+<p begin="00:58:28.229" end="00:58:30.029" style="s2">&gt;&gt; Why?</p>
+<p begin="00:58:28.929" end="00:58:32.829" style="s2">&gt;&gt; Because I am asking.</p>
+<p begin="00:58:30.029" end="00:58:34.529" style="s2">&gt;&gt; That&#39;s not an explanation.</p>
+<p begin="00:58:32.829" end="00:58:36.729" style="s2">&gt;&gt; It&#39;s all you&#39;re getting.</p>
+<p begin="00:58:34.529" end="00:58:36.729" style="s2">&gt;&gt; Okay.</p>
+<p begin="00:58:37.029" end="00:58:39.629" style="s2">Was Mr. President nervous?</p>
+<p begin="00:58:38.729" end="00:58:41.729" style="s2">&gt;&gt; No.</p>
+<p begin="00:58:39.629" end="00:58:44.129" style="s2">&gt;&gt; You were.</p>
+<p begin="00:58:41.729" end="00:58:44.129" style="s2">&gt;&gt; Go away.</p>
+<p begin="00:58:46.329" end="00:58:49.729" style="s2">If she comes,</p>
+<p begin="00:58:47.929" end="00:58:52.529" style="s2">don&#39;t use my words.</p>
+<p begin="00:58:49.729" end="00:58:52.529" style="s2">&gt;&gt; Wasn&#39;t planning to.</p>
+<p begin="00:58:53.829" end="00:58:58.729" style="s2">&gt;&gt; Lena.</p>
+<p begin="00:58:55.629" end="00:58:59.829" style="s2">I&#39;m not late. You&#39;re always late.</p>
+<p begin="00:58:58.729" end="00:59:03.329" style="s2">She is.</p>
+<p begin="00:58:59.829" end="00:59:05.629" style="s2">Nobody asked you. Still [music] true.</p>
+<p begin="00:59:03.329" end="00:59:08.429" style="s2">&gt;&gt; Steter and Herax.</p>
+<p begin="00:59:05.629" end="00:59:08.429" style="s2">&gt;&gt; President Graves.</p>
+<p begin="00:59:09.529" end="00:59:10.795" style="s2">&gt;&gt; You&#39;re doing it again.</p>
+<p begin="00:59:10.429" end="00:59:11.129" style="s2">&gt;&gt; What?</p>
+<p begin="00:59:10.795" end="00:59:11.829" style="s2">&gt;&gt; [music]</p>
+<p begin="00:59:11.129" end="00:59:13.831" style="s2">&gt;&gt; That face.</p>
+<p begin="00:59:11.829" end="00:59:16.131" style="s2">&gt;&gt; What face? The Lena face.</p>
+<p begin="00:59:13.831" end="00:59:17.431" style="s2">Shut up.</p>
+<p begin="00:59:16.131" end="00:59:18.331" style="s2">&gt;&gt; Mr. President.</p>
+<p begin="00:59:17.431" end="00:59:19.331" style="s2">&gt;&gt; Trouble?</p>
+<p begin="00:59:18.331" end="00:59:21.731" style="s2">&gt;&gt; Still arrogant?</p>
+<p begin="00:59:19.331" end="00:59:21.731" style="s2">&gt;&gt; Still here.</p>
+<p begin="00:59:24.831" end="00:59:28.331" style="s2">&gt;&gt; This is your big surprise?</p>
+<p begin="00:59:26.931" end="00:59:29.031" style="s2">&gt;&gt; hate big [music] surprises?</p>
+<p begin="00:59:28.331" end="00:59:29.931" style="s2">&gt;&gt; True.</p>
+<p begin="00:59:29.031" end="00:59:31.131" style="s2">&gt;&gt; And you like fries?</p>
+<p begin="00:59:29.931" end="00:59:31.931" style="s2">&gt;&gt; Don&#39;t.</p>
+<p begin="00:59:31.131" end="00:59:34.731" style="s2">&gt;&gt; I bought them.</p>
+<p begin="00:59:31.931" end="00:59:34.731" style="s2">&gt;&gt; And now they&#39;re mine.</p>
+<p begin="00:59:36.031" end="00:59:41.231" style="s2">You okay?</p>
+<p begin="00:59:37.931" end="00:59:41.231" style="s2">&gt;&gt; Ask me in 30 seconds.</p>
+<p begin="00:59:51.431" end="00:59:54.231" style="s2">&gt;&gt; Do you remember me?</p>
+<p begin="00:59:53.231" end="00:59:56.531" style="s2">&gt;&gt; Sorry.</p>
+<p begin="00:59:54.231" end="00:59:57.731" style="s2">Who are you?</p>
+<p begin="00:59:56.531" end="00:59:59.931" style="s2">&gt;&gt; Nolan.</p>
+<p begin="00:59:57.731" end="01:00:02.031" style="s2">&gt;&gt; You are such an</p>
+<p begin="00:59:59.931" end="01:00:03.631" style="s2">&gt;&gt; Okay, okay.</p>
+<p begin="01:00:02.031" end="01:00:04.731" style="s2">I don&#39;t remember everything.</p>
+<p begin="01:00:03.631" end="01:00:06.631" style="s2">I don&#39;t remember the first time I fell</p>
+<p begin="01:00:04.731" end="01:00:09.631" style="s2">for you.</p>
+<p begin="01:00:06.631" end="01:00:09.631" style="s2">But I remember the second.</p>
+<p begin="01:00:11.031" end="01:00:13.331" style="s2">Can I?</p>
+<p begin="01:00:13.431" end="01:00:17.531" style="s2">&gt;&gt; You asked too many questions.</p>
+<p begin="01:00:15.731" end="01:00:18.431" style="s2">So what happens tomorrow?</p>
+<p begin="01:00:17.531" end="01:00:20.731" style="s2">&gt;&gt; Tomorrow?</p>
+<p begin="01:00:18.431" end="01:00:21.831" style="s2">&gt;&gt; What if you wake up and forget me again?</p>
+<p begin="01:00:20.731" end="01:00:24.131" style="s2">&gt;&gt; Then I guess I&#39;ll have to find you</p>
+<p begin="01:00:21.831" end="01:00:24.131" style="s2">again.</p>
+<p begin="01:00:24.331" end="01:00:27.131" style="s2">Lena.</p>
+<p begin="01:00:25.931" end="01:00:29.731" style="s2">&gt;&gt; What?</p>
+<p begin="01:00:27.131" end="01:00:29.731" style="s2">&gt;&gt; I found you.</p>
+</div>
+</body>
+</tt>

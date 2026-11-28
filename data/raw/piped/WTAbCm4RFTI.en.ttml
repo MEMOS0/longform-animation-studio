@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:15.440" end="00:00:20.480" style="s2">Curse this mine. WE&#39;VE LOST GOOD</p>
+<p begin="00:00:17.800" end="00:00:23.640" style="s2">WARRIORS DOWN HERE.</p>
+<p begin="00:00:20.480" end="00:00:23.640" style="s2">&gt;&gt; Then tell me why you came.</p>
+<p begin="00:00:26.480" end="00:00:31.320" style="s2">My father sent me here to deal with the</p>
+<p begin="00:00:28.400" end="00:00:31.320" style="s2">Goblin General.</p>
+<p begin="00:00:31.560" end="00:00:37.040" style="s2">A general in these mines?</p>
+<p begin="00:00:34.920" end="00:00:39.240" style="s2">He controls the old tunnels</p>
+<p begin="00:00:37.040" end="00:00:40.720" style="s2">and he&#39;s made our lives miserable.</p>
+<p begin="00:00:39.240" end="00:00:43.320" style="s2">&gt;&gt; His goblins raid our supply [music]</p>
+<p begin="00:00:40.720" end="00:00:45.880" style="s2">routes, rob our caravans, steal our food</p>
+<p begin="00:00:43.320" end="00:00:48.960" style="s2">and weapons. And at night, they attack</p>
+<p begin="00:00:45.880" end="00:00:48.960" style="s2">our outposts.</p>
+<p begin="00:00:49.400" end="00:00:54.960" style="s2">&gt;&gt; And your father wants him dead.</p>
+<p begin="00:00:52.000" end="00:00:54.960" style="s2">&gt;&gt; Exactly.</p>
+<p begin="00:00:58.000" end="00:01:03.160" style="s2">But after what happened here,</p>
+<p begin="00:01:00.560" end="00:01:03.160" style="s2">I&#39;m done.</p>
+<p begin="00:01:04.800" end="00:01:09.640" style="s2">&gt;&gt; You&#39;re abandoning your mission?</p>
+<p begin="00:01:06.720" end="00:01:11.600" style="s2">&gt;&gt; THESE BLIND MONSTERS KILLED MY MEN.</p>
+<p begin="00:01:09.640" end="00:01:13.320" style="s2">I&#39;m not losing the rest to some FILTHY</p>
+<p begin="00:01:11.600" end="00:01:15.280" style="s2">GOBLINS.</p>
+<p begin="00:01:13.320" end="00:01:18.520" style="s2">&gt;&gt; And if you leave,</p>
+<p begin="00:01:15.280" end="00:01:18.520" style="s2">what happens to your people?</p>
+<p begin="00:01:19.480" end="00:01:23.880" style="s2">&gt;&gt; My people need their princess alive.</p>
+<p begin="00:01:25.600" end="00:01:29.880" style="s2">&gt;&gt; They also need their roads back.</p>
+<p begin="00:01:27.960" end="00:01:31.600" style="s2">&gt;&gt; Easy for you to say. They&#39;re not your</p>
+<p begin="00:01:29.880" end="00:01:33.800" style="s2">soldiers.</p>
+<p begin="00:01:31.600" end="00:01:37.560" style="s2">&gt;&gt; No.</p>
+<p begin="00:01:33.800" end="00:01:37.560" style="s2">But I know what it&#39;s like to lose them.</p>
+<p begin="00:01:45.000" end="00:01:48.440" style="s2">You don&#39;t have to face them alone.</p>
+<p begin="00:01:49.720" end="00:01:53.280" style="s2">&gt;&gt; What are you saying?</p>
+<p begin="00:01:51.440" end="00:01:55.800" style="s2">&gt;&gt; I&#39;m saying I&#39;ll help you kill the Goblin</p>
+<p begin="00:01:53.280" end="00:01:55.800" style="s2">General.</p>
+<p begin="00:01:57.680" end="00:02:00.532" style="s2">&gt;&gt; You barely know me. Why would you risk</p>
+<p begin="00:01:59.372" end="00:02:02.772" style="s2">your life?</p>
+<p begin="00:02:00.532" end="00:02:05.892" style="s2">&gt;&gt; Because I need to reach your kingdom.</p>
+<p begin="00:02:02.772" end="00:02:07.052" style="s2">And you need to finish this.</p>
+<p begin="00:02:05.892" end="00:02:10.372" style="s2">&gt;&gt; Fine.</p>
+<p begin="00:02:07.052" end="00:02:10.372" style="s2">But we do this my way.</p>
+<p begin="00:02:16.172" end="00:02:19.372" style="s2">&gt;&gt; This bridge leads to the old goblin</p>
+<p begin="00:02:17.652" end="00:02:22.652" style="s2">tunnels.</p>
+<p begin="00:02:19.372" end="00:02:22.652" style="s2">&gt;&gt; Then we should expect company.</p>
+<p begin="00:02:33.052" end="00:02:35.532" style="s2">Wait.</p>
+<p begin="00:02:37.732" end="00:02:40.412" style="s2">What is it?</p>
+<p begin="00:02:46.212" end="00:02:48.972" style="s2">&gt;&gt; Goblins!</p>
+<p begin="00:03:02.052" end="00:03:05.492" style="s2">&gt;&gt; They picked the wrong dwarves.</p>
+<p begin="00:03:20.852" end="00:03:24.452" style="s2">&gt;&gt; Come on, you filthy cowards.</p>
+<p begin="00:03:32.132" end="00:03:35.972" style="s2">&gt;&gt; Dorgin, that was your general.</p>
+<p begin="00:03:34.842" end="00:03:39.172" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:03:35.972" end="00:03:39.172" style="s2">&gt;&gt; I know, he&#39;s getting away.</p>
+<p begin="00:03:40.572" end="00:03:44.972" style="s2">&gt;&gt; Take your men and go after him. I&#39;ll</p>
+<p begin="00:03:42.092" end="00:03:49.492" style="s2">hold the goblins here.</p>
+<p begin="00:03:44.972" end="00:03:49.492" style="s2">&gt;&gt; Don&#39;t get yourself killed, elf. Just go.</p>
+<p begin="00:04:27.243" end="00:04:29.263" style="s2">&gt;&gt; [music]</p>
+<p begin="00:04:35.103" end="00:04:37.123" style="s2">[music]</p>
+<p begin="00:04:39.688" end="00:04:41.708" style="s2">[music]</p>
+<p begin="00:04:50.168" end="00:04:52.188" style="s2">[music]</p>
+<p begin="00:05:21.614" end="00:05:24.254" style="s2">&gt;&gt; Keep moving.</p>
+<p begin="00:05:24.934" end="00:05:27.814" style="s2">&gt;&gt; Kill them [music] all.</p>
+<p begin="00:05:32.088" end="00:05:34.108" style="s2">&gt;&gt; [music]</p>
+<p begin="00:05:37.328" end="00:05:39.348" style="s2">[music]</p>
+<p begin="00:05:42.568" end="00:05:44.588" style="s2">[music]</p>
+<p begin="00:06:01.934" end="00:06:05.454" style="s2">&gt;&gt; Fast, there&#39;s a general.</p>
+<p begin="00:07:01.824" end="00:07:03.844" style="s2">&gt;&gt; [music]</p>
+<p begin="00:07:15.579" end="00:07:17.599" style="s2">[music]</p>
+<p begin="00:07:35.885" end="00:07:37.905" style="s2">[groaning and snorts]</p>
+<p begin="00:08:06.670" end="00:08:08.690" style="s2">[music]</p>
+<p begin="00:09:00.777" end="00:09:06.897" style="s2">&gt;&gt; That was one hell of a fight.</p>
+<p begin="00:09:03.817" end="00:09:10.297" style="s2">&gt;&gt; That&#39;s one way to describe it.</p>
+<p begin="00:09:06.897" end="00:09:10.297" style="s2">&gt;&gt; You were incredible out there.</p>
+<p begin="00:09:11.017" end="00:09:15.657" style="s2">Actually,</p>
+<p begin="00:09:12.417" end="00:09:15.657" style="s2">I don&#39;t even know your name.</p>
+<p begin="00:09:16.217" end="00:09:18.977" style="s2">&gt;&gt; I&#39;m Ilara.</p>
+<p begin="00:09:19.497" end="00:09:24.857" style="s2">&gt;&gt; Ilara?</p>
+<p begin="00:09:20.897" end="00:09:24.857" style="s2">Wait, the Elven Princess?</p>
+<p begin="00:09:26.581" end="00:09:30.417" style="s2">&gt;&gt; [sighs and gasps]</p>
+<p begin="00:09:26.937" end="00:09:30.417" style="s2">&gt;&gt; Well, I&#39;ll be damned.</p>
+<p begin="00:09:30.737" end="00:09:34.257" style="s2">&gt;&gt; We need to reach my kingdom. My father</p>
+<p begin="00:09:32.657" end="00:09:36.377" style="s2">will want to meet you. I&#39;ll tell him how</p>
+<p begin="00:09:34.257" end="00:09:39.377" style="s2">you helped me defeat that general. I</p>
+<p begin="00:09:36.377" end="00:09:42.497" style="s2">couldn&#39;t have done it without you.</p>
+<p begin="00:09:39.377" end="00:09:42.497" style="s2">&gt;&gt; Then let&#39;s not keep him waiting.</p>
+<p begin="00:09:51.377" end="00:09:55.537" style="s2">&gt;&gt; Easy boy.</p>
+<p begin="00:09:52.777" end="00:09:55.537" style="s2">We&#39;re almost there.</p>
+<p begin="00:10:00.897" end="00:10:04.137" style="s2">Home.</p>
+<p begin="00:10:02.537" end="00:10:08.257" style="s2">Finally.</p>
+<p begin="00:10:04.137" end="00:10:08.257" style="s2">Come on. We can&#39;t waste any more time.</p>
+<p begin="00:10:19.178" end="00:10:22.058" style="s2">&gt;&gt; RIDER!</p>
+<p begin="00:10:22.338" end="00:10:25.178" style="s2">&gt;&gt; Who could that be?</p>
+<p begin="00:10:25.858" end="00:10:30.298" style="s2">What is it? Who&#39;s coming?</p>
+<p begin="00:10:29.098" end="00:10:32.818" style="s2">Wait.</p>
+<p begin="00:10:30.298" end="00:10:35.378" style="s2">I think that&#39;s Prince Lucas.</p>
+<p begin="00:10:32.818" end="00:10:39.938" style="s2">Yes. It&#39;s Prince Lucas.</p>
+<p begin="00:10:35.378" end="00:10:39.938" style="s2">&gt;&gt; OPEN THE GATES! THE PRINCE IS COMING!</p>
+<p begin="00:10:49.378" end="00:10:51.898" style="s2">&gt;&gt; MY PRINCE.</p>
+<p begin="00:10:53.978" end="00:10:56.658" style="s2">&gt;&gt; LUCAS!</p>
+<p begin="00:10:57.258" end="00:10:59.658" style="s2">My son.</p>
+<p begin="00:10:58.282" end="00:11:01.698" style="s2">&gt;&gt; [panting]</p>
+<p begin="00:10:59.658" end="00:11:05.338" style="s2">&gt;&gt; What happened? Are you hurt?</p>
+<p begin="00:11:01.698" end="00:11:05.338" style="s2">&gt;&gt; I&#39;m all right, Mother. I&#39;m not hurt.</p>
+<p begin="00:11:05.487" end="00:11:08.738" style="s2">&gt;&gt; [panting]</p>
+<p begin="00:11:07.138" end="00:11:11.738" style="s2">&gt;&gt; Mother, listen to me.</p>
+<p begin="00:11:08.738" end="00:11:13.498" style="s2">The orcs are coming. An entire army.</p>
+<p begin="00:11:11.738" end="00:11:16.698" style="s2">&gt;&gt; I know, Lucas.</p>
+<p begin="00:11:13.498" end="00:11:18.498" style="s2">We&#39;ve already been warned.</p>
+<p begin="00:11:16.698" end="00:11:20.298" style="s2">&gt;&gt; You already know?</p>
+<p begin="00:11:18.498" end="00:11:22.978" style="s2">&gt;&gt; The king ordered the defenses prepared</p>
+<p begin="00:11:20.298" end="00:11:24.458" style="s2">before dawn.</p>
+<p begin="00:11:22.978" end="00:11:25.738" style="s2">Lucas,</p>
+<p begin="00:11:24.458" end="00:11:28.578" style="s2">where&#39;s Alora?</p>
+<p begin="00:11:25.738" end="00:11:30.578" style="s2">&gt;&gt; She&#39;s on her way to the dwarven kingdom.</p>
+<p begin="00:11:28.578" end="00:11:32.738" style="s2">&gt;&gt; The dwarven kingdom? Why?</p>
+<p begin="00:11:30.578" end="00:11:35.538" style="s2">&gt;&gt; To ask their king for help.</p>
+<p begin="00:11:32.738" end="00:11:38.538" style="s2">We need their army.</p>
+<p begin="00:11:35.538" end="00:11:38.538" style="s2">&gt;&gt; Aaron, where is he?</p>
+<p begin="00:11:39.498" end="00:11:45.858" style="s2">&gt;&gt; Aaron stayed behind.</p>
+<p begin="00:11:42.138" end="00:11:45.858" style="s2">&gt;&gt; Stayed behind? Why?</p>
+<p begin="00:11:46.738" end="00:11:49.738" style="s2">&gt;&gt; We were ambushed.</p>
+<p begin="00:11:49.938" end="00:11:54.418" style="s2">Orc riders surrounded us on the road.</p>
+<p begin="00:11:52.098" end="00:11:57.418" style="s2">There were too many.</p>
+<p begin="00:11:54.418" end="00:11:57.418" style="s2">&gt;&gt; What happened to Aaron?</p>
+<p begin="00:11:58.338" end="00:12:04.698" style="s2">&gt;&gt; He stayed to hold them off</p>
+<p begin="00:12:00.938" end="00:12:04.698" style="s2">so I could escape and warn the kingdom.</p>
+<p begin="00:12:04.858" end="00:12:09.138" style="s2">&gt;&gt; Is he</p>
+<p begin="00:12:06.018" end="00:12:09.138" style="s2">still alive?</p>
+<p begin="00:12:09.818" end="00:12:14.499" style="s2">&gt;&gt; I don&#39;t know. He was still fighting when</p>
+<p begin="00:12:11.939" end="00:12:14.499" style="s2">I left.</p>
+<p begin="00:12:14.939" end="00:12:19.059" style="s2">I rode all night to bring the warning.</p>
+<p begin="00:12:17.059" end="00:12:20.259" style="s2">Aaron risked his life so I could warn</p>
+<p begin="00:12:19.059" end="00:12:24.619" style="s2">you.</p>
+<p begin="00:12:20.259" end="00:12:24.619" style="s2">But somehow you already knew.</p>
+<p begin="00:12:24.739" end="00:12:27.699" style="s2">Who brought the warning?</p>
+<p begin="00:12:30.819" end="00:12:34.099" style="s2">&gt;&gt; Your father can explain. He&#39;s waiting in</p>
+<p begin="00:12:32.419" end="00:12:37.459" style="s2">the war room.</p>
+<p begin="00:12:34.099" end="00:12:37.459" style="s2">&gt;&gt; Then I need to speak to him now.</p>
+<p begin="00:12:39.808" end="00:12:41.828" style="s2">&gt;&gt; [groaning]</p>
+<p begin="00:12:58.803" end="00:13:00.823" style="s2">[screaming]</p>
+<p begin="00:13:07.319" end="00:13:09.339" style="s2">[groaning]</p>
+<p begin="00:13:28.279" end="00:13:30.299" style="s2">[groaning]</p>
+<p begin="00:13:59.619" end="00:14:04.579" style="s2">&gt;&gt; KILL THEM ALL! LEAVE NO ONE STANDING!</p>
+<p begin="00:15:04.565" end="00:15:06.585" style="s2">&gt;&gt; [groaning]</p>
+<p begin="00:15:09.805" end="00:15:11.825" style="s2">[music]</p>
+<p begin="00:15:13.080" end="00:15:16.701" style="s2">[snorts]</p>
+<p begin="00:15:13.581" end="00:15:16.701" style="s2">&gt;&gt; That&#39;s impossible.</p>
+<p begin="00:15:56.901" end="00:16:00.501" style="s2">Run, he can&#39;t be killed.</p>
+<p begin="00:16:01.861" end="00:16:05.301" style="s2">&gt;&gt; How much further do we have to go?</p>
+<p begin="00:16:05.541" end="00:16:09.621" style="s2">&gt;&gt; 3 hours.</p>
+<p begin="00:16:06.981" end="00:16:12.181" style="s2">4 at most.</p>
+<p begin="00:16:09.621" end="00:16:15.541" style="s2">&gt;&gt; You said that 3 hours ago.</p>
+<p begin="00:16:12.181" end="00:16:15.541" style="s2">&gt;&gt; Well, we&#39;re definitely closer now.</p>
+<p begin="00:16:16.141" end="00:16:19.902" style="s2">&gt;&gt; What&#39;s your father like?</p>
+<p begin="00:16:18.342" end="00:16:22.022" style="s2">&gt;&gt; He&#39;s a good king.</p>
+<p begin="00:16:19.902" end="00:16:24.622" style="s2">Strong, fair,</p>
+<p begin="00:16:22.022" end="00:16:26.102" style="s2">and stubborn as a mountain.</p>
+<p begin="00:16:24.622" end="00:16:27.422" style="s2">Our people have always prospered under</p>
+<p begin="00:16:26.102" end="00:16:30.582" style="s2">his rule.</p>
+<p begin="00:16:27.422" end="00:16:30.582" style="s2">He&#39;s earned their respect.</p>
+<p begin="00:16:30.782" end="00:16:35.742" style="s2">&gt;&gt; And who takes the throne after him?</p>
+<p begin="00:16:34.102" end="00:16:36.782" style="s2">&gt;&gt; My older brother.</p>
+<p begin="00:16:35.742" end="00:16:38.782" style="s2">At least that&#39;s how it&#39;s supposed to</p>
+<p begin="00:16:36.782" end="00:16:40.902" style="s2">work.</p>
+<p begin="00:16:38.782" end="00:16:42.422" style="s2">&gt;&gt; You don&#39;t sound very happy about that.</p>
+<p begin="00:16:40.902" end="00:16:44.462" style="s2">&gt;&gt; Let&#39;s just say</p>
+<p begin="00:16:42.422" end="00:16:45.822" style="s2">he&#39;s nothing like our father.</p>
+<p begin="00:16:44.462" end="00:16:47.262" style="s2">&gt;&gt; What do you mean?</p>
+<p begin="00:16:45.822" end="00:16:48.742" style="s2">&gt;&gt; He&#39;s ambitious,</p>
+<p begin="00:16:47.262" end="00:16:51.342" style="s2">impatient.</p>
+<p begin="00:16:48.742" end="00:16:53.262" style="s2">He thinks kindness makes a king weak.</p>
+<p begin="00:16:51.342" end="00:16:54.822" style="s2">&gt;&gt; And your father trusts him?</p>
+<p begin="00:16:53.262" end="00:16:55.822" style="s2">&gt;&gt; He&#39;s his only son.</p>
+<p begin="00:16:54.822" end="00:16:58.302" style="s2">Sometimes I think that&#39;s all that</p>
+<p begin="00:16:55.822" end="00:16:58.302" style="s2">matters.</p>
+<p begin="00:17:05.302" end="00:17:10.022" style="s2">&gt;&gt; What is that?</p>
+<p begin="00:17:07.222" end="00:17:10.022" style="s2">&gt;&gt; Blind ghouls.</p>
+<p begin="00:17:13.782" end="00:17:17.062" style="s2">Hide. Now.</p>
+<p begin="00:17:17.302" end="00:17:21.582" style="s2">They can&#39;t see us, but they hear</p>
+<p begin="00:17:18.942" end="00:17:21.582" style="s2">everything.</p>
+<p begin="00:17:37.182" end="00:17:39.202" style="s2">&gt;&gt; [gasps]</p>
+<p begin="00:17:58.142" end="00:18:00.162" style="s2">[snorts]</p>
+<p begin="00:18:02.072" end="00:18:04.092" style="s2">[sighs]</p>
+<p begin="00:18:32.103" end="00:18:34.783" style="s2">&gt;&gt; Run!</p>
+<p begin="00:18:50.743" end="00:18:54.623" style="s2">Come on. It&#39;s our only chance.</p>
+<p begin="00:20:06.863" end="00:20:11.463" style="s2">And Laura, the tracks end. THERE&#39;S A</p>
+<p begin="00:20:09.063" end="00:20:14.743" style="s2">CLIFF.</p>
+<p begin="00:20:11.463" end="00:20:17.063" style="s2">THERE are too many. We have no choice.</p>
+<p begin="00:20:14.743" end="00:20:19.943" style="s2">You can&#39;t be serious. Trust me. GET</p>
+<p begin="00:20:17.063" end="00:20:19.943" style="s2">READY TO JUMP.</p>
+<p begin="00:20:26.174" end="00:20:28.194" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:20:34.785" end="00:20:39.385" style="s2">&gt;&gt; We cannot allow the orcs to reach our</p>
+<p begin="00:20:36.745" end="00:20:39.385" style="s2">gates.</p>
+<p begin="00:20:41.345" end="00:20:45.145" style="s2">We&#39;ll station our finest soldiers at the</p>
+<p begin="00:20:42.945" end="00:20:47.265" style="s2">entrance.</p>
+<p begin="00:20:45.145" end="00:20:48.505" style="s2">And our archers on the walls will keep</p>
+<p begin="00:20:47.265" end="00:20:49.705" style="s2">them at distance.</p>
+<p begin="00:20:48.505" end="00:20:52.345" style="s2">&gt;&gt; My king,</p>
+<p begin="00:20:49.705" end="00:20:54.385" style="s2">their numbers are far greater than ours.</p>
+<p begin="00:20:52.345" end="00:20:58.505" style="s2">And if their siege machines reach the</p>
+<p begin="00:20:54.385" end="00:20:58.505" style="s2">walls, we&#39;ll be in serious trouble.</p>
+<p begin="00:20:59.265" end="00:21:04.425" style="s2">&gt;&gt; Then we must stop them before they get</p>
+<p begin="00:21:01.545" end="00:21:04.425" style="s2">that close.</p>
+<p begin="00:21:23.745" end="00:21:26.945" style="s2">Lucas,</p>
+<p begin="00:21:25.345" end="00:21:28.105" style="s2">what are you doing here?</p>
+<p begin="00:21:26.945" end="00:21:29.265" style="s2">Weren&#39;t you supposed to be with the</p>
+<p begin="00:21:28.105" end="00:21:30.585" style="s2">dwarves?</p>
+<p begin="00:21:29.265" end="00:21:32.505" style="s2">&gt;&gt; Yes, father.</p>
+<p begin="00:21:30.585" end="00:21:33.625" style="s2">I was.</p>
+<p begin="00:21:32.505" end="00:21:36.585" style="s2">But when I learned the orcs were</p>
+<p begin="00:21:33.625" end="00:21:38.025" style="s2">marching toward our kingdom,</p>
+<p begin="00:21:36.585" end="00:21:40.425" style="s2">I couldn&#39;t just leave you to face them</p>
+<p begin="00:21:38.025" end="00:21:40.425" style="s2">alone.</p>
+<p begin="00:21:44.505" end="00:21:48.225" style="s2">I came to fight alongside our people.</p>
+<p begin="00:21:48.305" end="00:21:54.025" style="s2">&gt;&gt; What about Elara? Where is she?</p>
+<p begin="00:21:50.825" end="00:21:55.305" style="s2">&gt;&gt; She&#39;s heading to the dwarves right now.</p>
+<p begin="00:21:54.025" end="00:21:57.825" style="s2">She&#39;s going to ask them to help us fight</p>
+<p begin="00:21:55.305" end="00:21:57.825" style="s2">the orcs.</p>
+<p begin="00:22:02.345" end="00:22:09.065" style="s2">&gt;&gt; Everything now rests in her hands.</p>
+<p begin="00:22:05.665" end="00:22:09.065" style="s2">Because without help,</p>
+<p begin="00:22:09.985" end="00:22:13.825" style="s2">I&#39;m afraid we won&#39;t survive this.</p>
+<p begin="00:22:14.385" end="00:22:19.025" style="s2">&gt;&gt; Then let&#39;s pray Elara reaches the</p>
+<p begin="00:22:15.985" end="00:22:19.025" style="s2">dwarves in time.</p>
+<p begin="00:22:26.666" end="00:22:31.146" style="s2">&gt;&gt; General,</p>
+<p begin="00:22:28.186" end="00:22:31.146" style="s2">listen carefully.</p>
+<p begin="00:22:34.986" end="00:22:38.426" style="s2">Take your men.</p>
+<p begin="00:22:36.466" end="00:22:40.706" style="s2">Position them at the bridge before the</p>
+<p begin="00:22:38.426" end="00:22:42.186" style="s2">gates. It&#39;s narrow.</p>
+<p begin="00:22:40.706" end="00:22:44.866" style="s2">Their numbers mean nothing if they can&#39;t</p>
+<p begin="00:22:42.186" end="00:22:44.866" style="s2">surround us.</p>
+<p begin="00:22:44.986" end="00:22:50.586" style="s2">&gt;&gt; Yes, my king.</p>
+<p begin="00:22:47.426" end="00:22:55.106" style="s2">Move it, YOU FILTHY MAGGOTS.</p>
+<p begin="00:22:50.586" end="00:22:57.786" style="s2">FASTER! YOU CALL THAT MARCHING?</p>
+<p begin="00:22:55.106" end="00:23:02.746" style="s2">KEEP THOSE SIEGE ENGINES MOVING.</p>
+<p begin="00:22:57.786" end="00:23:02.746" style="s2">NO STOPPING ON UNTIL THE CASTLE FALLS.</p>
+<p begin="00:23:05.340" end="00:23:07.360" style="s2">&gt;&gt; [groaning and screaming]</p>
+<p begin="00:23:15.166" end="00:23:17.186" style="s2">[groaning]</p>
+<p begin="00:23:20.406" end="00:23:22.426" style="s2">[screaming]</p>
+<p begin="00:23:30.786" end="00:23:35.146" style="s2">&gt;&gt; THEY&#39;RE ALMOST HERE!</p>
+<p begin="00:23:32.506" end="00:23:35.146" style="s2">Sound the alarm!</p>
+<p begin="00:23:38.746" end="00:23:40.766" style="s2">&gt;&gt; [music]</p>
+<p begin="00:23:42.866" end="00:23:46.106" style="s2">&gt;&gt; Prepare for battle!</p>
+<p begin="00:23:49.226" end="00:23:51.246" style="s2">&gt;&gt; [music]</p>
+</div>
+</body>
+</tt>

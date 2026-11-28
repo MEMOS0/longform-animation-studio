@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.200" end="00:00:04.700" style="s2">Bruce and Ryan&#39;s favorite, they&#39;re going</p>
+<p begin="00:00:01.900" end="00:00:04.700" style="s2">to love this.</p>
+<p begin="00:00:06.700" end="00:00:11.000" style="s2">&gt;&gt; What the hell are you doing?</p>
+<p begin="00:00:09.000" end="00:00:12.900" style="s2">&gt;&gt; Oh, don&#39;t look so surprised. We&#39;ve been</p>
+<p begin="00:00:11.000" end="00:00:14.300" style="s2">sleeping together since two weeks after</p>
+<p begin="00:00:12.900" end="00:00:17.800" style="s2">your wedding.</p>
+<p begin="00:00:14.300" end="00:00:17.800" style="s2">Guess the honeymoon wore off fast.</p>
+<p begin="00:00:19.100" end="00:00:22.800" style="s2">&gt;&gt; What about Bruce? You&#39;re cheating on me</p>
+<p begin="00:00:20.900" end="00:00:25.900" style="s2">right in front of our son, Ryan?</p>
+<p begin="00:00:22.800" end="00:00:29.100" style="s2">&gt;&gt; Sweetie, Bruce is mine, mine and Ryan&#39;s.</p>
+<p begin="00:00:25.900" end="00:00:29.100" style="s2">You&#39;ve just been raising him for us.</p>
+<p begin="00:00:30.800" end="00:00:33.500" style="s2">Sweetheart,</p>
+<p begin="00:00:32.000" end="00:00:34.800" style="s2">you&#39;re still my little boy. I love you</p>
+<p begin="00:00:33.500" end="00:00:37.000" style="s2">no matter what.</p>
+<p begin="00:00:34.800" end="00:00:39.900" style="s2">&gt;&gt; Get off. You&#39;re not my real mommy. I</p>
+<p begin="00:00:37.000" end="00:00:39.900" style="s2">don&#39;t want you.</p>
+<p begin="00:00:40.600" end="00:00:45.200" style="s2">This is my mommy. Go away.</p>
+<p begin="00:00:43.000" end="00:00:47.400" style="s2">It&#39;s our house.</p>
+<p begin="00:00:45.200" end="00:00:50.100" style="s2">&gt;&gt; So you&#39;ve all been lying to me</p>
+<p begin="00:00:47.400" end="00:00:50.100" style="s2">all this time?</p>
+<p begin="00:00:55.900" end="00:01:00.900" style="s2">&gt;&gt; Here, get yourself some McDonald&#39;s.</p>
+<p begin="00:00:57.600" end="00:01:00.900" style="s2">Maybe they&#39;ll let you sleep there, too.</p>
+<p begin="00:01:07.500" end="00:01:10.800" style="s2">Keep it.</p>
+<p begin="00:01:08.800" end="00:01:13.600" style="s2">Buy some soap to wash out those mouths,</p>
+<p begin="00:01:10.800" end="00:01:13.600" style="s2">all three of you.</p>
+<p begin="00:01:25.000" end="00:01:29.400" style="s2">I can build a life without you, and I</p>
+<p begin="00:01:27.000" end="00:01:29.400" style="s2">will.</p>
+<p begin="00:01:34.800" end="00:01:38.906" style="s2">&gt;&gt; I&#39;m done. Those kids are LITTLE</p>
+<p begin="00:01:36.800" end="00:01:40.926" style="s2">MONSTERS. I QUIT.</p>
+<p begin="00:01:38.906" end="00:01:40.926" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:01:42.200" end="00:01:47.400" style="s2">&gt;&gt; MISS EVELYN CARTER?</p>
+<p begin="00:01:44.400" end="00:01:47.400" style="s2">&gt;&gt; YES, THAT&#39;S ME.</p>
+<p begin="00:01:52.800" end="00:01:58.400" style="s2">&gt;&gt; We scared off all those mean ladies. Why</p>
+<p begin="00:01:55.200" end="00:01:58.400" style="s2">do they keep coming?</p>
+<p begin="00:01:59.100" end="00:02:04.092" style="s2">&gt;&gt; We scared her off, too. Go the ketchup</p>
+<p begin="00:02:01.192" end="00:02:04.092" style="s2">and mashed potatoes.</p>
+<p begin="00:02:11.001" end="00:02:13.021" style="s2">&gt;&gt; [music]</p>
+<p begin="00:02:22.992" end="00:02:26.792" style="s2">&gt;&gt; Hello sir. I&#39;m Evelyn Carter. I have</p>
+<p begin="00:02:25.492" end="00:02:29.192" style="s2">plenty of experience taking care of</p>
+<p begin="00:02:26.792" end="00:02:29.192" style="s2">children.</p>
+<p begin="00:02:29.592" end="00:02:34.192" style="s2">&gt;&gt; Get my five children to sit down and eat</p>
+<p begin="00:02:31.892" end="00:02:35.292" style="s2">and you can stay.</p>
+<p begin="00:02:34.192" end="00:02:37.092" style="s2">&gt;&gt; Five years with that little</p>
+<p begin="00:02:35.292" end="00:02:38.192" style="s2">troublemaker, I must have learned</p>
+<p begin="00:02:37.092" end="00:02:39.792" style="s2">something.</p>
+<p begin="00:02:38.192" end="00:02:41.192" style="s2">I can do this.</p>
+<p begin="00:02:39.792" end="00:02:42.892" style="s2">Leave it to me.</p>
+<p begin="00:02:41.192" end="00:02:44.692" style="s2">A dozen or so childcare experts couldn&#39;t</p>
+<p begin="00:02:42.892" end="00:02:46.792" style="s2">do it.</p>
+<p begin="00:02:44.692" end="00:02:48.292" style="s2">How some broke no one&#39;s supposed to.</p>
+<p begin="00:02:46.792" end="00:02:50.692" style="s2">5 minutes, she&#39;ll run out of here</p>
+<p begin="00:02:48.292" end="00:02:50.692" style="s2">crying.</p>
+<p begin="00:02:59.692" end="00:03:05.092" style="s2">I see you sweethearts.</p>
+<p begin="00:03:01.492" end="00:03:05.092" style="s2">Come on out. Dinner&#39;s ready.</p>
+<p begin="00:03:13.992" end="00:03:18.192" style="s2">&gt;&gt; How How did she dodge that?</p>
+<p begin="00:03:16.192" end="00:03:20.592" style="s2">Get the mashed potatoes. Lily, keep her</p>
+<p begin="00:03:18.192" end="00:03:20.592" style="s2">busy.</p>
+<p begin="00:03:24.892" end="00:03:27.692" style="s2">&gt;&gt; Good girl. Want a bite?</p>
+<p begin="00:03:29.592" end="00:03:32.692" style="s2">&gt;&gt; Look now.</p>
+<p begin="00:03:43.392" end="00:03:46.492" style="s2">What?</p>
+<p begin="00:03:44.592" end="00:03:48.192" style="s2">How&#39;d she do that?</p>
+<p begin="00:03:46.492" end="00:03:50.892" style="s2">&gt;&gt; Had your fun?</p>
+<p begin="00:03:48.192" end="00:03:50.892" style="s2">Come on, let&#39;s eat.</p>
+<p begin="00:04:11.094" end="00:04:15.507" style="s2">&gt;&gt; All right.</p>
+<p begin="00:04:12.294" end="00:04:15.507" style="s2">That&#39;s enough. [gasps]</p>
+<p begin="00:04:20.692" end="00:04:22.712" style="s2">[gasps]</p>
+<p begin="00:04:23.312" end="00:04:25.332" style="s2">[snorts]</p>
+<p begin="00:04:32.894" end="00:04:35.994" style="s2">No more throwing food. You&#39;re going to</p>
+<p begin="00:04:34.594" end="00:04:38.194" style="s2">sit down and eat.</p>
+<p begin="00:04:35.994" end="00:04:41.094" style="s2">&gt;&gt; Don&#39;t We&#39;ll be good. We&#39;ll eat. We</p>
+<p begin="00:04:38.194" end="00:04:41.094" style="s2">promise.</p>
+<p begin="00:04:52.394" end="00:04:56.294" style="s2">&gt;&gt; You&#39;re</p>
+<p begin="00:04:53.794" end="00:04:56.294" style="s2">wolves?</p>
+<p begin="00:04:58.494" end="00:05:02.094" style="s2">You&#39;re</p>
+<p begin="00:04:59.394" end="00:05:02.094" style="s2">wolves?</p>
+<p begin="00:05:05.194" end="00:05:09.494" style="s2">&gt;&gt; Sorry.</p>
+<p begin="00:05:06.594" end="00:05:09.494" style="s2">I can see they scare you.</p>
+<p begin="00:05:09.994" end="00:05:15.058" style="s2">You don&#39;t have to force yourself.</p>
+<p begin="00:05:11.794" end="00:05:17.078" style="s2">This job isn&#39;t for you. You can go.</p>
+<p begin="00:05:15.058" end="00:05:17.078" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:05:23.794" end="00:05:27.794" style="s2">&gt;&gt; Hold on. I didn&#39;t say I was scared.</p>
+<p begin="00:05:33.394" end="00:05:37.594" style="s2">Fur or no fur, you&#39;re all just babies. I</p>
+<p begin="00:05:36.194" end="00:05:39.794" style="s2">can take care of you.</p>
+<p begin="00:05:37.594" end="00:05:41.913" style="s2">&gt;&gt; They&#39;ve never taken to anyone like this.</p>
+<p begin="00:05:39.794" end="00:05:43.933" style="s2">Maybe they need more than a nanny.</p>
+<p begin="00:05:41.913" end="00:05:43.933" style="s2">&gt;&gt; [music]</p>
+<p begin="00:05:50.394" end="00:05:55.094" style="s2">&gt;&gt; Is this my employment contract?</p>
+<p begin="00:05:52.894" end="00:05:55.094" style="s2">&gt;&gt; No.</p>
+<p begin="00:06:01.594" end="00:06:05.895" style="s2">The children need a mother.</p>
+<p begin="00:06:03.294" end="00:06:07.995" style="s2">I I wife on paper.</p>
+<p begin="00:06:05.895" end="00:06:10.695" style="s2">Miss Evelyn Carter,</p>
+<p begin="00:06:07.995" end="00:06:10.695" style="s2">please marry me.</p>
+<p begin="00:06:13.895" end="00:06:17.695" style="s2">&gt;&gt; If you each other with an hour and you</p>
+<p begin="00:06:15.895" end="00:06:19.395" style="s2">want to marry me?</p>
+<p begin="00:06:17.695" end="00:06:20.495" style="s2">&gt;&gt; It&#39;s just an arrangement.</p>
+<p begin="00:06:19.395" end="00:06:22.295" style="s2">Sign it</p>
+<p begin="00:06:20.495" end="00:06:25.595" style="s2">and you can stay here.</p>
+<p begin="00:06:22.295" end="00:06:25.595" style="s2">I&#39;ll pay you $20,000 a month.</p>
+<p begin="00:06:25.795" end="00:06:31.395" style="s2">&gt;&gt; I&#39;m knocking about a few, buddy.</p>
+<p begin="00:06:28.595" end="00:06:31.395" style="s2">&gt;&gt; They&#39;ve never had a mom.</p>
+<p begin="00:06:31.995" end="00:06:35.395" style="s2">I just want them to have someone they</p>
+<p begin="00:06:32.795" end="00:06:35.395" style="s2">can turn to.</p>
+<p begin="00:06:36.195" end="00:06:39.695" style="s2">&gt;&gt; Bruce is mine. Mine and Ryan&#39;s. You&#39;ve</p>
+<p begin="00:06:38.395" end="00:06:41.595" style="s2">just been raising him for us.</p>
+<p begin="00:06:39.695" end="00:06:43.295" style="s2">&gt;&gt; Get off. You&#39;re not my real mommy. I</p>
+<p begin="00:06:41.595" end="00:06:44.495" style="s2">don&#39;t want you.</p>
+<p begin="00:06:43.295" end="00:06:46.759" style="s2">&gt;&gt; So what if they&#39;re little wolf? They</p>
+<p begin="00:06:44.495" end="00:06:48.395" style="s2">need me more than Bruce ever did.</p>
+<p begin="00:06:46.759" end="00:06:51.495" style="s2">[snorts]</p>
+<p begin="00:06:48.395" end="00:06:51.495" style="s2">All right, we have a deal.</p>
+<p begin="00:06:54.995" end="00:06:58.895" style="s2">&gt;&gt; This is your room.</p>
+<p begin="00:06:56.295" end="00:07:00.695" style="s2">If you need anything, ask Harris.</p>
+<p begin="00:06:58.895" end="00:07:01.695" style="s2">&gt;&gt; Thank you.</p>
+<p begin="00:07:00.695" end="00:07:03.695" style="s2">&gt;&gt; Before you settle in, let&#39;s get a few</p>
+<p begin="00:07:01.695" end="00:07:06.195" style="s2">things straight.</p>
+<p begin="00:07:03.695" end="00:07:07.195" style="s2">First, the children always come first.</p>
+<p begin="00:07:06.195" end="00:07:08.595" style="s2">Second,</p>
+<p begin="00:07:07.195" end="00:07:09.495" style="s2">we won&#39;t be having sex.</p>
+<p begin="00:07:08.595" end="00:07:10.895" style="s2">Third,</p>
+<p begin="00:07:09.495" end="00:07:13.795" style="s2">don&#39;t fall for me</p>
+<p begin="00:07:10.895" end="00:07:14.995" style="s2">while this arrangement lasts.</p>
+<p begin="00:07:13.795" end="00:07:16.695" style="s2">&gt;&gt; Relax.</p>
+<p begin="00:07:14.995" end="00:07:19.995" style="s2">I&#39;ve already been burned once.</p>
+<p begin="00:07:16.695" end="00:07:19.995" style="s2">I&#39;m not about to fall for my boss.</p>
+<p begin="00:07:26.795" end="00:07:32.195" style="s2">&gt;&gt; I can&#39;t hear anything. What are mommy</p>
+<p begin="00:07:28.895" end="00:07:32.195" style="s2">and dad talking about?</p>
+<p begin="00:07:33.095" end="00:07:37.595" style="s2">If we can&#39;t hear them, let&#39;s climb up</p>
+<p begin="00:07:35.095" end="00:07:37.595" style="s2">and look.</p>
+<p begin="00:07:42.495" end="00:07:47.295" style="s2">Are you done yet? I can&#39;t hold on much</p>
+<p begin="00:07:44.795" end="00:07:49.895" style="s2">longer. Just a little longer.</p>
+<p begin="00:07:47.295" end="00:07:52.495" style="s2">Lily&#39;s almost there. Can&#39;t we just go to</p>
+<p begin="00:07:49.895" end="00:07:54.595" style="s2">bed? I&#39;m so sleepy.</p>
+<p begin="00:07:52.495" end="00:07:56.595" style="s2">It&#39;s mommy and daddy&#39;s first time alone</p>
+<p begin="00:07:54.595" end="00:07:58.995" style="s2">in a room. Don&#39;t you want to know what</p>
+<p begin="00:07:56.595" end="00:08:00.495" style="s2">they&#39;re doing? Stop whining. Henry&#39;s not</p>
+<p begin="00:07:58.995" end="00:08:04.795" style="s2">complaining.</p>
+<p begin="00:08:00.495" end="00:08:07.697" style="s2">&gt;&gt; You&#39;re too heavy. I can&#39;t talk.</p>
+<p begin="00:08:04.795" end="00:08:07.697" style="s2">&gt;&gt; Did you need something else?</p>
+<p begin="00:08:14.697" end="00:08:19.397" style="s2">&gt;&gt; I can see Dad&#39;s giving Mom a ring.</p>
+<p begin="00:08:19.997" end="00:08:22.497" style="s2">&gt;&gt; Hang on. I thought this was just an</p>
+<p begin="00:08:21.497" end="00:08:23.597" style="s2">arrangement.</p>
+<p begin="00:08:22.497" end="00:08:24.697" style="s2">&gt;&gt; It is.</p>
+<p begin="00:08:23.597" end="00:08:25.997" style="s2">But you&#39;re Mrs. Blackwood now. You&#39;ll</p>
+<p begin="00:08:24.697" end="00:08:29.297" style="s2">need a ring.</p>
+<p begin="00:08:25.997" end="00:08:29.297" style="s2">It&#39;ll help the kids feel more secure.</p>
+<p begin="00:08:30.297" end="00:08:33.997" style="s2">&gt;&gt; I guess he wants to make it look real.</p>
+<p begin="00:08:32.697" end="00:08:36.897" style="s2">Don&#39;t worry.</p>
+<p begin="00:08:33.997" end="00:08:36.897" style="s2">I&#39;ll take good care of them.</p>
+<p begin="00:08:37.455" end="00:08:39.475" style="s2">&gt;&gt; [music]</p>
+<p begin="00:08:45.297" end="00:08:49.301" style="s2">&gt;&gt; Kiss her. Kiss her.</p>
+<p begin="00:08:47.281" end="00:08:49.301" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:08:50.556" end="00:08:52.576" style="s2">[music]</p>
+<p begin="00:08:54.997" end="00:08:57.297" style="s2">&gt;&gt; Are you hurt?</p>
+<p begin="00:08:56.297" end="00:08:59.797" style="s2">What are you doing out here?</p>
+<p begin="00:08:57.297" end="00:09:03.197" style="s2">&gt;&gt; We were climbing on each other to peek</p>
+<p begin="00:08:59.797" end="00:09:03.197" style="s2">at you kissing.</p>
+<p begin="00:09:03.656" end="00:09:05.676" style="s2">&gt;&gt; [music]</p>
+<p begin="00:09:09.897" end="00:09:15.397" style="s2">&gt;&gt; Kids, it&#39;s not what you think. We</p>
+<p begin="00:09:12.497" end="00:09:15.397" style="s2">weren&#39;t kissing.</p>
+<p begin="00:09:18.721" end="00:09:19.797" style="s2">&gt;&gt; [clears throat]</p>
+<p begin="00:09:18.897" end="00:09:22.697" style="s2">&gt;&gt; Come on.</p>
+<p begin="00:09:19.797" end="00:09:22.697" style="s2">Daddy&#39;s taking you to bed.</p>
+<p begin="00:09:27.797" end="00:09:31.797" style="s2">Tomorrow&#39;s your first day.</p>
+<p begin="00:09:29.297" end="00:09:31.797" style="s2">Get some rest.</p>
+<p begin="00:09:38.297" end="00:09:41.997" style="s2">&gt;&gt; Kids, breakfast time.</p>
+<p begin="00:09:51.597" end="00:09:56.897" style="s2">Okay, little ones. Food goes in our</p>
+<p begin="00:09:53.697" end="00:09:59.986" style="s2">mouths. We don&#39;t play with it.</p>
+<p begin="00:09:56.897" end="00:10:02.006" style="s2">&gt;&gt; Mommy, this really doesn&#39;t taste good.</p>
+<p begin="00:09:59.986" end="00:10:02.006" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:10:02.297" end="00:10:06.197" style="s2">&gt;&gt; How am I going to get these little ones</p>
+<p begin="00:10:03.697" end="00:10:06.197" style="s2">to eat?</p>
+<p begin="00:10:11.997" end="00:10:16.898" style="s2">Who wants race Loki?</p>
+<p begin="00:10:14.898" end="00:10:18.998" style="s2">Turn into your little wolves and whoever</p>
+<p begin="00:10:16.898" end="00:10:20.998" style="s2">finishes their food first gets</p>
+<p begin="00:10:18.998" end="00:10:24.298" style="s2">strawberry cake.</p>
+<p begin="00:10:20.998" end="00:10:24.298" style="s2">&gt;&gt; I&#39;m getting the biggest cake.</p>
+<p begin="00:10:24.877" end="00:10:29.398" style="s2">[music]</p>
+<p begin="00:10:25.898" end="00:10:29.398" style="s2">I&#39;m going to beat you, Loki.</p>
+<p begin="00:10:31.427" end="00:10:35.698" style="s2">&gt;&gt; [music]</p>
+<p begin="00:10:33.398" end="00:10:37.998" style="s2">&gt;&gt; Ready?</p>
+<p begin="00:10:35.698" end="00:10:37.998" style="s2">Go.</p>
+<p begin="00:10:38.632" end="00:10:40.652" style="s2">&gt;&gt; [music]</p>
+<p begin="00:10:43.217" end="00:10:45.237" style="s2">[music]</p>
+<p begin="00:10:52.298" end="00:10:55.798" style="s2">&gt;&gt; Evelyn.</p>
+<p begin="00:10:54.352" end="00:10:59.098" style="s2">[sighs]</p>
+<p begin="00:10:55.798" end="00:10:59.098" style="s2">What are you doing to my children?</p>
+<p begin="00:11:03.798" end="00:11:06.798" style="s2">They&#39;re my children.</p>
+<p begin="00:11:05.698" end="00:11:08.298" style="s2">What gives you the right to treat them</p>
+<p begin="00:11:06.798" end="00:11:09.898" style="s2">like pets?</p>
+<p begin="00:11:08.298" end="00:11:12.698" style="s2">&gt;&gt; It&#39;s not like that.</p>
+<p begin="00:11:09.898" end="00:11:12.698" style="s2">Just like go of me.</p>
+<p begin="00:11:20.898" end="00:11:25.998" style="s2">&gt;&gt; Let go of mommy. We wanted to play.</p>
+<p begin="00:11:24.598" end="00:11:29.098" style="s2">You can&#39;t be mean to mommy. You got to</p>
+<p begin="00:11:25.998" end="00:11:29.098" style="s2">get past us first.</p>
+<p begin="00:11:34.198" end="00:11:37.398" style="s2">&gt;&gt; What the hell is going on?</p>
+<p begin="00:11:35.398" end="00:11:39.898" style="s2">&gt;&gt; We were racing Loki, daddy, to see who</p>
+<p begin="00:11:37.398" end="00:11:42.698" style="s2">could eat it all first. Look, even Owen</p>
+<p begin="00:11:39.898" end="00:11:42.698" style="s2">finished his.</p>
+<p begin="00:11:51.798" end="00:11:56.098" style="s2">&gt;&gt; Harris.</p>
+<p begin="00:11:52.998" end="00:11:56.098" style="s2">Take care of my wife and the children.</p>
+<p begin="00:12:02.298" end="00:12:04.798" style="s2">&gt;&gt; Come in.</p>
+<p begin="00:12:12.298" end="00:12:15.899" style="s2">[clears throat]</p>
+<p begin="00:12:13.498" end="00:12:16.599" style="s2">Sir, are you here the race today? I&#39;m so</p>
+<p begin="00:12:15.899" end="00:12:19.499" style="s2">sorry. I&#39;m</p>
+<p begin="00:12:16.599" end="00:12:19.499" style="s2">&gt;&gt; I&#39;m here to apologize.</p>
+<p begin="00:12:26.299" end="00:12:29.599" style="s2">Sit down. me put this on.</p>
+<p begin="00:12:29.699" end="00:12:32.699" style="s2">&gt;&gt; No, I can do it myself.</p>
+<p begin="00:12:35.099" end="00:12:37.599" style="s2">&gt;&gt; Hold still.</p>
+<p begin="00:12:42.428" end="00:12:47.199" style="s2">[clears throat]</p>
+<p begin="00:12:43.099" end="00:12:47.199" style="s2">I didn&#39;t let you explain and I hurt you.</p>
+<p begin="00:12:47.899" end="00:12:50.399" style="s2">I&#39;m sorry.</p>
+<p begin="00:12:51.499" end="00:12:56.799" style="s2">&gt;&gt; I know you were worried about them.</p>
+<p begin="00:12:53.399" end="00:12:56.799" style="s2">I was just trying to get them to eat.</p>
+<p begin="00:12:58.299" end="00:13:02.078" style="s2">&gt;&gt; Does that hurt?</p>
+<p begin="00:12:59.599" end="00:13:04.098" style="s2">I&#39;ll go easier.</p>
+<p begin="00:13:02.078" end="00:13:04.098" style="s2">&gt;&gt; [music]</p>
+<p begin="00:13:05.699" end="00:13:11.599" style="s2">&gt;&gt; He looks so intimidating.</p>
+<p begin="00:13:07.799" end="00:13:11.599" style="s2">I didn&#39;t expect him to be this gentle.</p>
+<p begin="00:13:13.199" end="00:13:15.889" style="s2">&gt;&gt; Still hurt?</p>
+<p begin="00:13:13.869" end="00:13:15.889" style="s2">&gt;&gt; [music]</p>
+<p begin="00:13:19.764" end="00:13:26.099" style="s2">[music]</p>
+<p begin="00:13:20.799" end="00:13:26.099" style="s2">&gt;&gt; Mommy, we want to sleep with you.</p>
+<p begin="00:13:28.099" end="00:13:33.399" style="s2">Mommy, we want to sleep with you.</p>
+<p begin="00:13:36.499" end="00:13:40.699" style="s2">Mommy, Daddy, read us a story.</p>
+<p begin="00:13:41.099" end="00:13:44.599" style="s2">&gt;&gt; It&#39;s okay. I&#39;ll take the couch.</p>
+<p begin="00:13:58.299" end="00:14:01.999" style="s2">Sorry. I&#39;ll go right now.</p>
+<p begin="00:14:02.699" end="00:14:08.699" style="s2">&gt;&gt; Just stay. The bed&#39;s big enough.</p>
+<p begin="00:14:05.499" end="00:14:08.699" style="s2">It&#39;s just one night with the kids.</p>
+<p begin="00:14:09.799" end="00:14:12.799" style="s2">Unless you want overtime?</p>
+<p begin="00:14:13.299" end="00:14:17.401" style="s2">&gt;&gt; I&#39;m doing this for kids, not the money.</p>
+<p begin="00:14:17.404" end="00:14:19.424" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:14:39.201" end="00:14:44.701" style="s2">&gt;&gt; We&#39;ve got to help mommy and daddy.</p>
+<p begin="00:14:42.101" end="00:14:47.401" style="s2">Take one blanket away. If they get cold,</p>
+<p begin="00:14:44.701" end="00:14:47.401" style="s2">they&#39;ll cuddle.</p>
+<p begin="00:15:06.901" end="00:15:11.801" style="s2">&gt;&gt; This pillow so soft.</p>
+<p begin="00:15:09.301" end="00:15:11.801" style="s2">&gt;&gt; Comfortable.</p>
+<p begin="00:15:15.201" end="00:15:20.001" style="s2">&gt;&gt; Oh, sorry.</p>
+<p begin="00:15:17.001" end="00:15:23.401" style="s2">I was asleep. I I didn&#39;t know I was</p>
+<p begin="00:15:20.001" end="00:15:23.401" style="s2">I I&#39;ll make breakfast.</p>
+<p begin="00:15:25.901" end="00:15:31.701" style="s2">&gt;&gt; She&#39;s quite something.</p>
+<p begin="00:15:28.701" end="00:15:31.701" style="s2">God, what am I thinking?</p>
+<p begin="00:15:40.101" end="00:15:44.601" style="s2">&gt;&gt; Stop it, Evelyn. He&#39;s only your husband</p>
+<p begin="00:15:42.001" end="00:15:44.601" style="s2">on paper.</p>
+<p begin="00:15:50.801" end="00:15:54.001" style="s2">&gt;&gt; Missing me yet?</p>
+<p begin="00:15:52.101" end="00:15:55.901" style="s2">Bet you are. Come back and take care of</p>
+<p begin="00:15:54.001" end="00:15:58.901" style="s2">me and Bruce, and maybe I&#39;ll let you</p>
+<p begin="00:15:55.901" end="00:15:58.901" style="s2">sleep in the nanny&#39;s room.</p>
+<p begin="00:16:07.301" end="00:16:12.401" style="s2">&gt;&gt; Actually, my new boss treats me well.</p>
+<p begin="00:16:09.301" end="00:16:12.401" style="s2">I&#39;m doing just fine.</p>
+<p begin="00:16:16.616" end="00:16:18.636" style="s2">&gt;&gt; [music]</p>
+<p begin="00:16:22.511" end="00:16:24.531" style="s2">[music]</p>
+<p begin="00:16:24.602" end="00:16:28.102" style="s2">&gt;&gt; I&#39;m going to the store, sweethearts.</p>
+<p begin="00:16:28.406" end="00:16:30.426" style="s2">[music]</p>
+<p begin="00:16:30.602" end="00:16:35.011" style="s2">You stay here and be good, okay?</p>
+<p begin="00:16:32.991" end="00:16:35.011" style="s2">&gt;&gt; [music]</p>
+<p begin="00:16:35.702" end="00:16:42.702" style="s2">&gt;&gt; The other ladies left like this too.</p>
+<p begin="00:16:39.202" end="00:16:42.702" style="s2">They never came back.</p>
+<p begin="00:16:46.602" end="00:16:51.502" style="s2">We don&#39;t know that. Come on, let&#39;s</p>
+<p begin="00:16:48.802" end="00:16:51.502" style="s2">follow her.</p>
+<p begin="00:17:15.102" end="00:17:19.902" style="s2">Who stepped on my foot? Mommy&#39;s going to</p>
+<p begin="00:17:17.502" end="00:17:19.902" style="s2">hear us.</p>
+<p begin="00:17:22.772" end="00:17:26.902" style="s2">&gt;&gt; [music]</p>
+<p begin="00:17:23.702" end="00:17:26.902" style="s2">&gt;&gt; What are you doing in the car?</p>
+<p begin="00:17:27.302" end="00:17:31.902" style="s2">&gt;&gt; Mommy, you&#39;re not going to leave us too,</p>
+<p begin="00:17:29.402" end="00:17:31.902" style="s2">are you?</p>
+<p begin="00:17:39.802" end="00:17:42.702" style="s2">&gt;&gt; You thought I was leaving you because I</p>
+<p begin="00:17:41.202" end="00:17:44.502" style="s2">took my bag?</p>
+<p begin="00:17:42.702" end="00:17:46.902" style="s2">&gt;&gt; The other nanny said they&#39;d come back,</p>
+<p begin="00:17:44.502" end="00:17:49.902" style="s2">but once they left, they never did. They</p>
+<p begin="00:17:46.902" end="00:17:51.302" style="s2">didn&#39;t like us. They only liked Daddy.</p>
+<p begin="00:17:49.902" end="00:17:53.702" style="s2">&gt;&gt; Listen.</p>
+<p begin="00:17:51.302" end="00:17:56.002" style="s2">Yes, you get into trouble, you tear the</p>
+<p begin="00:17:53.702" end="00:17:57.402" style="s2">house apart, and you won&#39;t eat. But I&#39;m</p>
+<p begin="00:17:56.002" end="00:17:59.302" style="s2">not leaving you.</p>
+<p begin="00:17:57.402" end="00:18:02.202" style="s2">So what if you&#39;re little troublemakers?</p>
+<p begin="00:17:59.302" end="00:18:02.202" style="s2">I&#39;ll love you just the same.</p>
+<p begin="00:18:04.802" end="00:18:10.302" style="s2">&gt;&gt; You promise?</p>
+<p begin="00:18:06.402" end="00:18:10.302" style="s2">&gt;&gt; Pinky promise. No takebacks.</p>
+<p begin="00:18:12.502" end="00:18:17.802" style="s2">&gt;&gt; Here, Mommy. It&#39;s my favorite. You can</p>
+<p begin="00:18:15.102" end="00:18:17.802" style="s2">have it.</p>
+<p begin="00:18:18.102" end="00:18:22.903" style="s2">&gt;&gt; Aw, thank you, baby. Let&#39;s all have a</p>
+<p begin="00:18:20.203" end="00:18:22.903" style="s2">little piece.</p>
+<p begin="00:18:23.032" end="00:18:25.052" style="s2">[music]</p>
+<p begin="00:18:27.403" end="00:18:29.703" style="s2">Okay, little wolf pups, want to come</p>
+<p begin="00:18:28.803" end="00:18:30.237" style="s2">shopping WITH ME?</p>
+<p begin="00:18:29.703" end="00:18:31.547" style="s2">&gt;&gt; YES!</p>
+<p begin="00:18:30.237" end="00:18:33.567" style="s2">&gt;&gt; [screaming]</p>
+<p begin="00:18:31.547" end="00:18:33.567" style="s2">[laughter]</p>
+<p begin="00:18:36.703" end="00:18:39.603" style="s2">&gt;&gt; GO PICK SOMETHING OUT. JUST ONE BAG</p>
+<p begin="00:18:38.603" end="00:18:42.303" style="s2">EACH.</p>
+<p begin="00:18:39.603" end="00:18:42.303" style="s2">&gt;&gt; OKAY.</p>
+<p begin="00:18:47.103" end="00:18:52.507" style="s2">Give it back. I had it first.</p>
+<p begin="00:18:49.703" end="00:18:54.528" style="s2">&gt;&gt; Too bad. IT&#39;S MINE NOW.</p>
+<p begin="00:18:52.507" end="00:18:54.528" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:18:55.503" end="00:19:00.403" style="s2">&gt;&gt; LILY, ARE YOU HURT?</p>
+<p begin="00:18:57.003" end="00:19:00.403" style="s2">Mom&#39;s [snorts] here. Don&#39;t be scared.</p>
+<p begin="00:19:01.503" end="00:19:04.103" style="s2">&gt;&gt; Mom?</p>
+<p begin="00:19:04.703" end="00:19:07.103" style="s2">&gt;&gt; Bruce?</p>
+<p begin="00:19:08.603" end="00:19:12.003" style="s2">&gt;&gt; So you won&#39;t take care of me, but you&#39;ll</p>
+<p begin="00:19:10.703" end="00:19:14.003" style="s2">be their nanny?</p>
+<p begin="00:19:12.003" end="00:19:15.803" style="s2">&gt;&gt; You told me to leave, remember?</p>
+<p begin="00:19:14.003" end="00:19:18.403" style="s2">You said you didn&#39;t want a fake mommy.</p>
+<p begin="00:19:15.803" end="00:19:20.303" style="s2">&gt;&gt; You call her mommy? She&#39;s just a nanny.</p>
+<p begin="00:19:18.403" end="00:19:21.303" style="s2">She used to make my dinner. Now she</p>
+<p begin="00:19:20.303" end="00:19:22.303" style="s2">makes yours.</p>
+<p begin="00:19:21.303" end="00:19:23.703" style="s2">&gt;&gt; Bruce,</p>
+<p begin="00:19:22.303" end="00:19:26.103" style="s2">who taught you to talk like that?</p>
+<p begin="00:19:23.703" end="00:19:30.303" style="s2">&gt;&gt; Daddy says it. All you do is cook and</p>
+<p begin="00:19:26.103" end="00:19:30.303" style="s2">clean. What else can you even do?</p>
+<p begin="00:19:31.503" end="00:19:36.003" style="s2">Mommy took care of you for five whole</p>
+<p begin="00:19:33.303" end="00:19:38.103" style="s2">years. You can&#39;t talk to her like that.</p>
+<p begin="00:19:36.003" end="00:19:39.503" style="s2">&gt;&gt; So what? That&#39;s what nannies do.</p>
+<p begin="00:19:38.103" end="00:19:41.103" style="s2">&gt;&gt; She&#39;s our mommy.</p>
+<p begin="00:19:39.503" end="00:19:42.903" style="s2">&gt;&gt; What, you don&#39;t have a real mommy?</p>
+<p begin="00:19:41.103" end="00:19:43.803" style="s2">Anyone gives you food and you call her</p>
+<p begin="00:19:42.903" end="00:19:45.303" style="s2">mommy?</p>
+<p begin="00:19:43.803" end="00:19:47.003" style="s2">&gt;&gt; That&#39;s enough, Bruce. You don&#39;t have to</p>
+<p begin="00:19:45.303" end="00:19:49.203" style="s2">want me around, but you do not get to</p>
+<p begin="00:19:47.003" end="00:19:50.803" style="s2">pick on them. You only care about them</p>
+<p begin="00:19:49.203" end="00:19:52.303" style="s2">cuz you&#39;re getting paid.</p>
+<p begin="00:19:50.803" end="00:19:53.203" style="s2">&gt;&gt; Say sorry to my mommy.</p>
+<p begin="00:19:52.303" end="00:19:56.203" style="s2">&gt;&gt; No.</p>
+<p begin="00:19:53.203" end="00:19:56.203" style="s2">&gt;&gt; Then leave her alone.</p>
+<p begin="00:19:57.903" end="00:20:02.103" style="s2">Ow, you pushed me. That hurt.</p>
+<p begin="00:20:03.203" end="00:20:09.603" style="s2">&gt;&gt; I didn&#39;t. I didn&#39;t even touch him.</p>
+<p begin="00:20:05.903" end="00:20:09.603" style="s2">Mommy, he hurt me.</p>
+<p begin="00:20:09.903" end="00:20:13.003" style="s2">&gt;&gt; Who the hell hurt my son?</p>
+<p begin="00:20:14.603" end="00:20:18.203" style="s2">&gt;&gt; Mommy, that&#39;s him. He pushed me on</p>
+<p begin="00:20:17.103" end="00:20:21.803" style="s2">purpose.</p>
+<p begin="00:20:18.203" end="00:20:24.805" style="s2">&gt;&gt; I didn&#39;t. He fell down by himself.</p>
+<p begin="00:20:21.803" end="00:20:28.705" style="s2">&gt;&gt; No mom, no manners figures.</p>
+<p begin="00:20:24.805" end="00:20:28.705" style="s2">Don&#39;t you dare lay a hand on my son.</p>
+<p begin="00:20:29.505" end="00:20:33.005" style="s2">&gt;&gt; Look at this. Five kids picking on my</p>
+<p begin="00:20:31.605" end="00:20:34.105" style="s2">little boy and their step mom&#39;s</p>
+<p begin="00:20:33.005" end="00:20:35.905" style="s2">defending them.</p>
+<p begin="00:20:34.105" end="00:20:37.705" style="s2">&gt;&gt; That&#39;s not what happened. Bruce is</p>
+<p begin="00:20:35.905" end="00:20:38.905" style="s2">lying. Stop twisting it.</p>
+<p begin="00:20:37.705" end="00:20:41.505" style="s2">&gt;&gt; Evelyn,</p>
+<p begin="00:20:38.905" end="00:20:43.205" style="s2">I know you hate me because Ryan chose</p>
+<p begin="00:20:41.505" end="00:20:45.305" style="s2">me.</p>
+<p begin="00:20:43.205" end="00:20:47.805" style="s2">But that&#39;s between us.</p>
+<p begin="00:20:45.305" end="00:20:50.505" style="s2">&gt;&gt; Leave Bruce out of it. He called you</p>
+<p begin="00:20:47.805" end="00:20:52.905" style="s2">mommy for five years. How can you pick</p>
+<p begin="00:20:50.505" end="00:20:54.505" style="s2">on him and then call him a liar?</p>
+<p begin="00:20:52.905" end="00:20:55.505" style="s2">&gt;&gt; She&#39;s mad at the mom so she takes it out</p>
+<p begin="00:20:54.505" end="00:20:57.505" style="s2">on the kid.</p>
+<p begin="00:20:55.505" end="00:20:59.105" style="s2">&gt;&gt; And now she&#39;s calling him a liar? He&#39;s</p>
+<p begin="00:20:57.505" end="00:21:02.105" style="s2">five. That&#39;s low.</p>
+<p begin="00:20:59.105" end="00:21:03.305" style="s2">&gt;&gt; My mommy&#39;s not mean. They&#39;re lying.</p>
+<p begin="00:21:02.105" end="00:21:05.305" style="s2">&gt;&gt; Mommy?</p>
+<p begin="00:21:03.305" end="00:21:07.105" style="s2">Oh honey, you&#39;ve got it wrong. She&#39;s</p>
+<p begin="00:21:05.305" end="00:21:10.405" style="s2">just your nanny. She used to look after</p>
+<p begin="00:21:07.105" end="00:21:11.905" style="s2">Bruce. Now she looks after you.</p>
+<p begin="00:21:10.405" end="00:21:13.505" style="s2">God, Evelyn, you really love playing</p>
+<p begin="00:21:11.905" end="00:21:14.205" style="s2">mommy to everyone else&#39;s kids, don&#39;t</p>
+<p begin="00:21:13.505" end="00:21:16.505" style="s2">you?</p>
+<p begin="00:21:14.205" end="00:21:18.305" style="s2">&gt;&gt; Stop being mean to my mommy.</p>
+<p begin="00:21:16.505" end="00:21:21.405" style="s2">&gt;&gt; You little brat. Nobody taught you any</p>
+<p begin="00:21:18.305" end="00:21:21.405" style="s2">manners. Well, I&#39;ll teach you.</p>
+<p begin="00:21:22.805" end="00:21:25.605" style="s2">You hit me?</p>
+<p begin="00:21:26.505" end="00:21:29.805" style="s2">You can say whatever you want about me,</p>
+<p begin="00:21:28.105" end="00:21:32.305" style="s2">but don&#39;t you ever put your hands ON MY</p>
+<p begin="00:21:29.805" end="00:21:32.305" style="s2">KIDS.</p>
+<p begin="00:21:34.005" end="00:21:38.105" style="s2">&gt;&gt; EVELYN, ARE YOU DONE making a scene?</p>
+<p begin="00:21:40.905" end="00:21:44.805" style="s2">&gt;&gt; Mommy!</p>
+<p begin="00:21:42.905" end="00:21:49.205" style="s2">&gt;&gt; Ryan, she got those five kids to gang up</p>
+<p begin="00:21:44.805" end="00:21:49.205" style="s2">on Bruce and then she hit me. Look.</p>
+<p begin="00:21:51.305" end="00:21:54.105" style="s2">There are cameras everywhere.</p>
+<p begin="00:21:52.705" end="00:21:57.005" style="s2">Check the footage.</p>
+<p begin="00:21:54.105" end="00:21:57.005" style="s2">That&#39;ll tell you who&#39;s lying.</p>
+<p begin="00:21:57.805" end="00:22:00.005" style="s2">&gt;&gt; Mommy!</p>
+<p begin="00:22:01.005" end="00:22:04.505" style="s2">&gt;&gt; Trying to stall so you can sneak off?</p>
+<p begin="00:22:03.505" end="00:22:07.405" style="s2">Not happening.</p>
+<p begin="00:22:04.505" end="00:22:09.105" style="s2">&gt;&gt; Get on your knees and beg Bruce.</p>
+<p begin="00:22:07.405" end="00:22:11.405" style="s2">If he forgives you, maybe I&#39;ll let it</p>
+<p begin="00:22:09.105" end="00:22:12.405" style="s2">go. They did nothing wrong. [music]</p>
+<p begin="00:22:11.405" end="00:22:14.005" style="s2">They&#39;re not kneeling.</p>
+<p begin="00:22:12.405" end="00:22:15.205" style="s2">&gt;&gt; You really think you&#39;re their mom?</p>
+<p begin="00:22:14.005" end="00:22:16.905" style="s2">If you love looking after kids so much,</p>
+<p begin="00:22:15.205" end="00:22:17.705" style="s2">come back and take care of Bruce. One&#39;s</p>
+<p begin="00:22:16.905" end="00:22:20.905" style="s2">easier than five.</p>
+<p begin="00:22:17.705" end="00:22:22.605" style="s2">&gt;&gt; She&#39;s not a nanny. She&#39;s our mommy.</p>
+<p begin="00:22:20.905" end="00:22:24.605" style="s2">&gt;&gt; Oh please. She gets paid to look after</p>
+<p begin="00:22:22.605" end="00:22:27.306" style="s2">you. You call her mommy and you think</p>
+<p begin="00:22:24.605" end="00:22:29.506" style="s2">that makes her your mom?</p>
+<p begin="00:22:27.306" end="00:22:31.206" style="s2">It&#39;s a paycheck. That&#39;s all.</p>
+<p begin="00:22:29.506" end="00:22:32.706" style="s2">Someone offers her more money,</p>
+<p begin="00:22:31.206" end="00:22:33.906" style="s2">she&#39;s out the door.</p>
+<p begin="00:22:32.706" end="00:22:35.506" style="s2">She won&#39;t give you a second thought.</p>
+<p begin="00:22:33.906" end="00:22:38.306" style="s2">Don&#39;t listen to her, sweetheart. I</p>
+<p begin="00:22:35.506" end="00:22:39.606" style="s2">promised I wouldn&#39;t leave. I meant it.</p>
+<p begin="00:22:38.306" end="00:22:42.206" style="s2">&gt;&gt; Without me, you&#39;re just somebody&#39;s</p>
+<p begin="00:22:39.606" end="00:22:45.506" style="s2">nanny. Get on your knees and beg. Maybe</p>
+<p begin="00:22:42.206" end="00:22:45.506" style="s2">I&#39;ll throw you some scraps.</p>
+<p begin="00:22:46.306" end="00:22:51.206" style="s2">&gt;&gt; TAKE IT BACK RIGHT NOW.</p>
+<p begin="00:22:48.406" end="00:22:51.206" style="s2">&gt;&gt; GET LOST.</p>
+<p begin="00:22:51.585" end="00:22:53.605" style="s2">&gt;&gt; [crying]</p>
+<p begin="00:22:54.906" end="00:22:58.906" style="s2">&gt;&gt; DON&#39;T YOU touch them.</p>
+<p begin="00:22:56.606" end="00:23:02.106" style="s2">Do you know who their father is?</p>
+<p begin="00:22:58.906" end="00:23:02.106" style="s2">&gt;&gt; What their dad&#39;s some big shot?</p>
+<p begin="00:23:02.506" end="00:23:06.306" style="s2">&gt;&gt; Alexander Blackwood,</p>
+<p begin="00:23:04.806" end="00:23:09.106" style="s2">the chairman of Blackwood Group. These</p>
+<p begin="00:23:06.306" end="00:23:11.906" style="s2">are his children.</p>
+<p begin="00:23:09.106" end="00:23:11.906" style="s2">&gt;&gt; What did you just say?</p>
+<p begin="00:23:15.406" end="00:23:20.906" style="s2">These are Mr. Blackwood&#39;s kids?</p>
+<p begin="00:23:17.906" end="00:23:23.106" style="s2">&gt;&gt; Oh, please. She was homeless a week ago.</p>
+<p begin="00:23:20.906" end="00:23:24.606" style="s2">How would she know him?</p>
+<p begin="00:23:23.106" end="00:23:26.306" style="s2">&gt;&gt; You almost had me.</p>
+<p begin="00:23:24.606" end="00:23:28.406" style="s2">I run Sterling Group. I&#39;ve worked with</p>
+<p begin="00:23:26.306" end="00:23:31.606" style="s2">Mr. Blackwood for years, and even I</p>
+<p begin="00:23:28.406" end="00:23:32.606" style="s2">can&#39;t just walk in and see him.</p>
+<p begin="00:23:31.606" end="00:23:34.506" style="s2">He wouldn&#39;t even let you through the</p>
+<p begin="00:23:32.606" end="00:23:35.906" style="s2">door, and you&#39;re saying these random</p>
+<p begin="00:23:34.506" end="00:23:37.106" style="s2">kids are his?</p>
+<p begin="00:23:35.906" end="00:23:39.806" style="s2">Are you crazy?</p>
+<p begin="00:23:37.106" end="00:23:42.906" style="s2">&gt;&gt; I&#39;m warning you, Ryan. Stop now, and</p>
+<p begin="00:23:39.806" end="00:23:44.506" style="s2">your family might still get out of this.</p>
+<p begin="00:23:42.906" end="00:23:46.206" style="s2">&gt;&gt; I kicked you out,</p>
+<p begin="00:23:44.506" end="00:23:50.606" style="s2">and now you think you can threaten me?</p>
+<p begin="00:23:46.206" end="00:23:50.606" style="s2">Security, throw them out, all of them.</p>
+<p begin="00:23:51.406" end="00:23:55.106" style="s2">&gt;&gt; Don&#39;t touch them. Take it out on me.</p>
+<p begin="00:23:55.806" end="00:23:59.806" style="s2">Ryan, stop. You&#39;re going to regret this.</p>
+<p begin="00:23:58.706" end="00:24:03.206" style="s2">&gt;&gt; Yeah.</p>
+<p begin="00:23:59.806" end="00:24:03.206" style="s2">Who&#39;s going to make me? You?</p>
+<p begin="00:24:14.406" end="00:24:18.046" style="s2">&gt;&gt; Boss, that&#39;s the pups howling for help.</p>
+<p begin="00:24:16.406" end="00:24:20.066" style="s2">Miss Evelyn is with them.</p>
+<p begin="00:24:18.046" end="00:24:20.066" style="s2">&gt;&gt; [sighs]</p>
+<p begin="00:24:21.906" end="00:24:25.506" style="s2">&gt;&gt; Daddy&#39;s coming to save mommy.</p>
+<p begin="00:24:23.606" end="00:24:29.107" style="s2">&gt;&gt; Shut up, you little brat.</p>
+<p begin="00:24:25.506" end="00:24:29.107" style="s2">Keep lying, and you&#39;re next.</p>
+<p begin="00:24:46.207" end="00:24:49.408" style="s2">You touched my wife and children.</p>
+<p begin="00:24:52.007" end="00:24:54.807" style="s2">Mr. Blackwood?</p>
+<p begin="00:24:56.908" end="00:25:00.408" style="s2">I&#39;m sorry.</p>
+<p begin="00:24:58.307" end="00:25:01.807" style="s2">I should have been here sooner.</p>
+<p begin="00:25:00.408" end="00:25:03.408" style="s2">&gt;&gt; The kids.</p>
+<p begin="00:25:01.807" end="00:25:05.807" style="s2">I couldn&#39;t keep them safe.</p>
+<p begin="00:25:03.408" end="00:25:07.107" style="s2">&gt;&gt; They&#39;re okay.</p>
+<p begin="00:25:05.807" end="00:25:10.908" style="s2">You did good.</p>
+<p begin="00:25:07.107" end="00:25:10.908" style="s2">&gt;&gt; Daddy, that&#39;s him. He hit Mommy.</p>
+<p begin="00:25:11.408" end="00:25:15.707" style="s2">&gt;&gt; Mr. Blackwood,</p>
+<p begin="00:25:13.107" end="00:25:17.107" style="s2">she&#39;s my ex-wife. We were just talking.</p>
+<p begin="00:25:15.707" end="00:25:19.507" style="s2">She slipped.</p>
+<p begin="00:25:17.107" end="00:25:22.007" style="s2">It was an accident.</p>
+<p begin="00:25:19.507" end="00:25:22.007" style="s2">&gt;&gt; Hold him down.</p>
+<p begin="00:25:22.507" end="00:25:29.107" style="s2">&gt;&gt; NO! STOP IT! WAIT!</p>
+<p begin="00:25:25.207" end="00:25:29.107" style="s2">&gt;&gt; THE HANDY HIT my wife with breaking.</p>
+<p begin="00:25:33.372" end="00:25:37.107" style="s2">[screaming]</p>
+<p begin="00:25:34.408" end="00:25:37.107" style="s2">Get them out of here.</p>
+<p begin="00:25:55.507" end="00:26:00.207" style="s2">Get a doctor to look at my wife, now.</p>
+<p begin="00:25:57.807" end="00:26:00.207" style="s2">&gt;&gt; Yes, sir.</p>
+<p begin="00:26:03.307" end="00:26:05.107" style="s2">&gt;&gt; What the hell?</p>
+<p begin="00:26:04.507" end="00:26:06.607" style="s2">She actually got [music] in with the</p>
+<p begin="00:26:05.107" end="00:26:07.807" style="s2">Blackwoods?</p>
+<p begin="00:26:06.607" end="00:26:09.707" style="s2">&gt;&gt; No.</p>
+<p begin="00:26:07.807" end="00:26:11.007" style="s2">He was there for his kids.</p>
+<p begin="00:26:09.707" end="00:26:13.507" style="s2">Come on, why would he want someone like</p>
+<p begin="00:26:11.007" end="00:26:13.507" style="s2">Evelyn?</p>
+<p begin="00:26:14.908" end="00:26:18.007" style="s2">&gt;&gt; Shut up!</p>
+<p begin="00:26:16.107" end="00:26:19.207" style="s2">YOU AND BRUCE STARTED THIS. LOOK WHAT</p>
+<p begin="00:26:18.007" end="00:26:20.607" style="s2">YOU GOT ME INTO.</p>
+<p begin="00:26:19.207" end="00:26:22.107" style="s2">&gt;&gt; The Blackwoods are invited to the party</p>
+<p begin="00:26:20.607" end="00:26:23.408" style="s2">in two weeks.</p>
+<p begin="00:26:22.107" end="00:26:25.707" style="s2">Tell everyone how you kick that</p>
+<p begin="00:26:23.408" end="00:26:25.707" style="s2">out.</p>
+<p begin="00:26:26.908" end="00:26:30.507" style="s2">Let&#39;s see if he still wants her after</p>
+<p begin="00:26:28.207" end="00:26:30.507" style="s2">that.</p>
+<p begin="00:26:31.908" end="00:26:36.309" style="s2">&gt;&gt; Fine.</p>
+<p begin="00:26:32.908" end="00:26:36.309" style="s2">We&#39;ll see how long she keeps that smile.</p>
+<p begin="00:26:49.509" end="00:26:53.809" style="s2">&gt;&gt; Anywhere else hurt?</p>
+<p begin="00:26:51.809" end="00:26:56.109" style="s2">Is it what happened today?</p>
+<p begin="00:26:53.809" end="00:26:57.809" style="s2">&gt;&gt; Get off. You&#39;re not my real mommy. I</p>
+<p begin="00:26:56.109" end="00:26:59.833" style="s2">don&#39;t want you.</p>
+<p begin="00:26:57.809" end="00:27:01.853" style="s2">&gt;&gt; Get out.</p>
+<p begin="00:26:59.833" end="00:27:01.853" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:27:02.309" end="00:27:05.809" style="s2">&gt;&gt; When Bruce was little, he&#39;d get sick and</p>
+<p begin="00:27:04.109" end="00:27:07.209" style="s2">cry if anyone else held him. He only</p>
+<p begin="00:27:05.809" end="00:27:08.409" style="s2">wanted me.</p>
+<p begin="00:27:07.209" end="00:27:09.809" style="s2">And Ryan,</p>
+<p begin="00:27:08.409" end="00:27:12.809" style="s2">he used to be good to me when we first</p>
+<p begin="00:27:09.809" end="00:27:14.509" style="s2">got married. 5 years.</p>
+<p begin="00:27:12.809" end="00:27:16.709" style="s2">I thought we were a family.</p>
+<p begin="00:27:14.509" end="00:27:18.909" style="s2">Turns out it was just me.</p>
+<p begin="00:27:16.709" end="00:27:21.909" style="s2">&gt;&gt; It&#39;s okay.</p>
+<p begin="00:27:18.909" end="00:27:21.909" style="s2">You don&#39;t have to hold it in with me.</p>
+<p begin="00:27:24.409" end="00:27:29.509" style="s2">&gt;&gt; You still have us, mommy. All five of</p>
+<p begin="00:27:27.109" end="00:27:29.509" style="s2">us.</p>
+<p begin="00:27:33.238" end="00:27:35.258" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:27:35.909" end="00:27:38.509" style="s2">&gt;&gt; She&#39;s right.</p>
+<p begin="00:27:37.009" end="00:27:41.909" style="s2">We&#39;re your family now.</p>
+<p begin="00:27:38.509" end="00:27:41.909" style="s2">&gt;&gt; Thank you for being there today.</p>
+<p begin="00:28:05.309" end="00:28:08.609" style="s2">&gt;&gt; We&#39;re home, sir. Miss Evelyn.</p>
+<p begin="00:28:09.809" end="00:28:14.909" style="s2">&gt;&gt; Why is my heart beating so fast?</p>
+<p begin="00:28:12.209" end="00:28:14.909" style="s2">&gt;&gt; Get a grip, Evelyn.</p>
+<p begin="00:28:21.409" end="00:28:23.709" style="s2">Thanks.</p>
+<p begin="00:28:28.309" end="00:28:32.609" style="s2">&gt;&gt; I&#39;ve got her.</p>
+<p begin="00:28:30.009" end="00:28:32.609" style="s2">Help the kids out.</p>
+<p begin="00:28:42.669" end="00:28:44.689" style="s2">&gt;&gt; [gasps]</p>
+<p begin="00:28:49.310" end="00:28:52.510" style="s2">&gt;&gt; Leave the old car.</p>
+<p begin="00:28:50.710" end="00:28:54.010" style="s2">Take your pick.</p>
+<p begin="00:28:52.510" end="00:28:55.910" style="s2">And I&#39;m getting you two bodyguards.</p>
+<p begin="00:28:54.010" end="00:28:57.710" style="s2">&gt;&gt; I&#39;m just running errands.</p>
+<p begin="00:28:55.910" end="00:28:58.910" style="s2">A regular car is fine.</p>
+<p begin="00:28:57.710" end="00:29:01.110" style="s2">If you&#39;re worried about the kids, get</p>
+<p begin="00:28:58.910" end="00:29:03.610" style="s2">them some bodyguards.</p>
+<p begin="00:29:01.110" end="00:29:05.310" style="s2">&gt;&gt; This is for you, Evelyn.</p>
+<p begin="00:29:03.610" end="00:29:06.110" style="s2">We&#39;re married.</p>
+<p begin="00:29:05.310" end="00:29:07.210" style="s2">You don&#39;t have to keep me at arm&#39;s</p>
+<p begin="00:29:06.110" end="00:29:10.210" style="s2">length.</p>
+<p begin="00:29:07.210" end="00:29:12.610" style="s2">&gt;&gt; We&#39;re what exactly?</p>
+<p begin="00:29:10.210" end="00:29:13.710" style="s2">&gt;&gt; Daddy, mommy said she doesn&#39;t want it.</p>
+<p begin="00:29:12.610" end="00:29:15.610" style="s2">Listen to her.</p>
+<p begin="00:29:13.710" end="00:29:18.710" style="s2">&gt;&gt; Happy wife, happy life.</p>
+<p begin="00:29:15.610" end="00:29:18.710" style="s2">&gt;&gt; Oh, don&#39;t you start.</p>
+<p begin="00:29:21.010" end="00:29:23.910" style="s2">&gt;&gt; Fine.</p>
+<p begin="00:29:21.910" end="00:29:26.310" style="s2">We&#39;ll get you a regular car.</p>
+<p begin="00:29:23.910" end="00:29:26.310" style="s2">&gt;&gt; Thank you.</p>
+<p begin="00:29:31.510" end="00:29:35.310" style="s2">&gt;&gt; You don&#39;t usually go to all this trouble</p>
+<p begin="00:29:32.710" end="00:29:35.310" style="s2">for someone, sir.</p>
+<p begin="00:29:36.910" end="00:29:40.110" style="s2">Bulletproof it, body and windows,</p>
+<p begin="00:29:39.010" end="00:29:41.810" style="s2">connect the security system to the</p>
+<p begin="00:29:40.110" end="00:29:43.010" style="s2">estate. If anything&#39;s wrong, call me</p>
+<p begin="00:29:41.810" end="00:29:45.210" style="s2">directly.</p>
+<p begin="00:29:43.010" end="00:29:48.410" style="s2">Keep my wife safe.</p>
+<p begin="00:29:45.210" end="00:29:48.410" style="s2">We&#39;re not having a repeating of today.</p>
+<p begin="00:29:52.910" end="00:29:55.510" style="s2">&gt;&gt; Years here, and he barely</p>
+<p begin="00:29:54.065" end="00:29:57.010" style="s2">[clears throat] looks at me.</p>
+<p begin="00:29:55.510" end="00:30:00.410" style="s2">That shows up and he&#39;s all over</p>
+<p begin="00:29:57.010" end="00:30:00.410" style="s2">her. I &#39;m getting her out of here.</p>
+<p begin="00:30:01.610" end="00:30:05.310" style="s2">&gt;&gt; Mrs. Blackwood and the kids are back.</p>
+<p begin="00:30:03.610" end="00:30:07.710" style="s2">Get dinner ready and double check their</p>
+<p begin="00:30:05.310" end="00:30:08.610" style="s2">allergy list. Nothing on that list goes</p>
+<p begin="00:30:07.710" end="00:30:12.010" style="s2">in their food.</p>
+<p begin="00:30:08.610" end="00:30:12.010" style="s2">&gt;&gt; Of course. I&#39;ll make sure.</p>
+<p begin="00:30:21.610" end="00:30:26.410" style="s2">&gt;&gt; Mommy, you bought these veggies. Look,</p>
+<p begin="00:30:24.310" end="00:30:29.210" style="s2">I&#39;m eating them all up.</p>
+<p begin="00:30:26.410" end="00:30:29.210" style="s2">&gt;&gt; Good job, sweetie.</p>
+<p begin="00:30:31.910" end="00:30:34.710" style="s2">Baby, are you okay?</p>
+<p begin="00:30:37.296" end="00:30:39.316" style="s2">&gt;&gt; [cough]</p>
+<p begin="00:30:40.571" end="00:30:45.212" style="s2">[gasps and sighs]</p>
+<p begin="00:30:41.012" end="00:30:45.212" style="s2">&gt;&gt; Mommy, I can&#39;t breathe.</p>
+<p begin="00:30:48.312" end="00:30:51.312" style="s2">&gt;&gt; An allergic reaction?</p>
+<p begin="00:30:52.412" end="00:30:55.712" style="s2">They&#39;re having an allergic reaction.</p>
+<p begin="00:30:54.012" end="00:30:57.312" style="s2">Mary, get the car. We need to get to the</p>
+<p begin="00:30:55.712" end="00:30:59.112" style="s2">hospital.</p>
+<p begin="00:30:57.312" end="00:31:01.512" style="s2">How did that happen?</p>
+<p begin="00:30:59.112" end="00:31:04.712" style="s2">You bought all the food, ma&#39;am.</p>
+<p begin="00:31:01.512" end="00:31:04.712" style="s2">It came right out of your bags.</p>
+<p begin="00:31:05.612" end="00:31:08.112" style="s2">Are you putting on an act? Is this what</p>
+<p begin="00:31:07.312" end="00:31:09.612" style="s2">you wanted?</p>
+<p begin="00:31:08.112" end="00:31:11.912" style="s2">&gt;&gt; Not now. We need to get them to the</p>
+<p begin="00:31:09.612" end="00:31:14.912" style="s2">hospital.</p>
+<p begin="00:31:11.912" end="00:31:14.912" style="s2">&gt;&gt; You&#39;re not leaving, ma&#39;am.</p>
+<p begin="00:31:16.596" end="00:31:19.312" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:31:16.812" end="00:31:21.012" style="s2">&gt;&gt; She can&#39;t breathe. Are you blind?</p>
+<p begin="00:31:19.312" end="00:31:24.612" style="s2">You&#39;re not running off and leaving us to</p>
+<p begin="00:31:21.012" end="00:31:24.612" style="s2">take the fall. Lily?</p>
+<p begin="00:31:26.712" end="00:31:30.712" style="s2">Harris, come quick. The kids are</p>
+<p begin="00:31:35.012" end="00:31:39.212" style="s2">&gt;&gt; Who&#39;s going to help you now?</p>
+<p begin="00:31:36.912" end="00:31:43.012" style="s2">They ate what you bought. That&#39;s proof.</p>
+<p begin="00:31:39.212" end="00:31:43.012" style="s2">You take them away, and there goes</p>
+<p begin="00:31:43.712" end="00:31:47.312" style="s2">&gt;&gt; They&#39;re kids, not your proof.</p>
+<p begin="00:31:51.311" end="00:31:56.912" style="s2">[laughter]</p>
+<p begin="00:31:53.312" end="00:31:56.912" style="s2">The kids, help them first. Hurry.</p>
+<p begin="00:32:01.792" end="00:32:03.812" style="s2">&gt;&gt; [sighs and gasps]</p>
+<p begin="00:32:07.212" end="00:32:11.712" style="s2">&gt;&gt; You put your hands on my wife?</p>
+<p begin="00:32:10.212" end="00:32:14.512" style="s2">&gt;&gt; She bought the food. I couldn&#39;t just let</p>
+<p begin="00:32:11.712" end="00:32:14.512" style="s2">her run off.</p>
+<p begin="00:32:16.712" end="00:32:19.212" style="s2">&gt;&gt; Here.</p>
+<p begin="00:32:17.512" end="00:32:21.112" style="s2">That&#39;s everything I bought.</p>
+<p begin="00:32:19.212" end="00:32:22.512" style="s2">&gt;&gt; That proves nothing. She wants your kids</p>
+<p begin="00:32:21.112" end="00:32:24.812" style="s2">dead so she can get her hands on your</p>
+<p begin="00:32:22.512" end="00:32:24.812" style="s2">money.</p>
+<p begin="00:32:26.512" end="00:32:31.212" style="s2">&gt;&gt; Fine. Let&#39;s watch the footage.</p>
+<p begin="00:32:28.912" end="00:32:33.012" style="s2">&gt;&gt; What footage? There&#39;s no camera in here.</p>
+<p begin="00:32:31.212" end="00:32:34.512" style="s2">&gt;&gt; There is now. I put it up to check on</p>
+<p begin="00:32:33.012" end="00:32:37.112" style="s2">the kids at meal times.</p>
+<p begin="00:32:34.512" end="00:32:37.112" style="s2">Good thing I did.</p>
+<p begin="00:32:39.712" end="00:32:42.913" style="s2">I I the wrong bag. It was a mistake.</p>
+<p begin="00:32:42.013" end="00:32:43.913" style="s2">Please, sir.</p>
+<p begin="00:32:42.913" end="00:32:47.313" style="s2">&gt;&gt; You wouldn&#39;t let me take them to the</p>
+<p begin="00:32:43.913" end="00:32:49.313" style="s2">hospital. Was that a mistake, too?</p>
+<p begin="00:32:47.313" end="00:32:51.413" style="s2">Drop the act. It&#39;s an allergy. They&#39;ll</p>
+<p begin="00:32:49.313" end="00:32:52.513" style="s2">be fine. All three of us say you bought</p>
+<p begin="00:32:51.413" end="00:32:55.313" style="s2">the food.</p>
+<p begin="00:32:52.513" end="00:32:55.313" style="s2">Who&#39;s he going to believe?</p>
+<p begin="00:32:57.513" end="00:33:00.413" style="s2">&gt;&gt; I didn&#39;t know it would get this bad.</p>
+<p begin="00:32:59.113" end="00:33:01.813" style="s2">&gt;&gt; Take them away.</p>
+<p begin="00:33:00.413" end="00:33:05.013" style="s2">Let her choke.</p>
+<p begin="00:33:01.813" end="00:33:07.313" style="s2">See how she likes it when no one helps.</p>
+<p begin="00:33:05.013" end="00:33:11.313" style="s2">&gt;&gt; Sir, please. I&#39;ve worked for you for</p>
+<p begin="00:33:07.313" end="00:33:11.313" style="s2">years. Just this once, let me off.</p>
+<p begin="00:33:15.213" end="00:33:17.713" style="s2">&gt;&gt; Evelyn.</p>
+<p begin="00:33:19.082" end="00:33:21.102" style="s2">&gt;&gt; [music]</p>
+<p begin="00:33:23.668" end="00:33:25.688" style="s2">[music]</p>
+<p begin="00:33:32.513" end="00:33:36.313" style="s2">&gt;&gt; Thanks for backing me up.</p>
+<p begin="00:33:34.313" end="00:33:37.913" style="s2">&gt;&gt; You risked your life for those kids.</p>
+<p begin="00:33:36.313" end="00:33:39.413" style="s2">I know you&#39;d never hurt them.</p>
+<p begin="00:33:37.913" end="00:33:40.713" style="s2">&gt;&gt; He believes me.</p>
+<p begin="00:33:39.413" end="00:33:41.353" style="s2">I&#39;d almost forgotten what that feels</p>
+<p begin="00:33:40.713" end="00:33:43.213" style="s2">like.</p>
+<p begin="00:33:41.353" end="00:33:45.013" style="s2">&gt;&gt; [music]</p>
+<p begin="00:33:43.213" end="00:33:46.213" style="s2">&gt;&gt; Everyone listen. Evelyn is the lady of</p>
+<p begin="00:33:45.013" end="00:33:47.513" style="s2">this house.</p>
+<p begin="00:33:46.213" end="00:33:48.313" style="s2">You answer to her just as you answer to</p>
+<p begin="00:33:47.513" end="00:33:51.313" style="s2">me.</p>
+<p begin="00:33:48.313" end="00:33:54.413" style="s2">&gt;&gt; Yes, sir. Yes, ma&#39;am.</p>
+<p begin="00:33:51.313" end="00:33:54.413" style="s2">&gt;&gt; You didn&#39;t have to say all that.</p>
+<p begin="00:33:54.813" end="00:33:58.213" style="s2">&gt;&gt; The kids don&#39;t want anyone treating you</p>
+<p begin="00:33:55.913" end="00:34:00.313" style="s2">like that again.</p>
+<p begin="00:33:58.213" end="00:34:02.513" style="s2">&gt;&gt; Neither do you, Daddy.</p>
+<p begin="00:34:00.313" end="00:34:05.213" style="s2">When Mommy fell, you got there before</p>
+<p begin="00:34:02.513" end="00:34:05.213" style="s2">anybody.</p>
+<p begin="00:34:10.413" end="00:34:14.313" style="s2">&gt;&gt; Weren&#39;t you at work? Why&#39;d you come</p>
+<p begin="00:34:11.913" end="00:34:14.313" style="s2">back?</p>
+<p begin="00:34:15.113" end="00:34:17.413" style="s2">&gt;&gt; This.</p>
+<p begin="00:34:16.313" end="00:34:18.913" style="s2">There&#39;s a dinner in two weeks. Will you</p>
+<p begin="00:34:17.413" end="00:34:20.513" style="s2">come with me?</p>
+<p begin="00:34:18.913" end="00:34:22.313" style="s2">&gt;&gt; Me?</p>
+<p begin="00:34:20.513" end="00:34:24.513" style="s2">I&#39;m just the nanny. Wouldn&#39;t that be a</p>
+<p begin="00:34:22.313" end="00:34:25.913" style="s2">little awkward?</p>
+<p begin="00:34:24.513" end="00:34:28.713" style="s2">&gt;&gt; You&#39;re my wife now.</p>
+<p begin="00:34:25.913" end="00:34:28.713" style="s2">Why would it be awkward?</p>
+<p begin="00:34:30.413" end="00:34:37.113" style="s2">I&#39;ll pay you for your time, of course.</p>
+<p begin="00:34:32.813" end="00:34:40.513" style="s2">&gt;&gt; Oh, right. This is a job. That&#39;s all.</p>
+<p begin="00:34:37.113" end="00:34:40.513" style="s2">Why did I think it was anything else?</p>
+<p begin="00:34:41.013" end="00:34:46.114" style="s2">Sure. Just tell me what need me to do.</p>
+<p begin="00:34:44.714" end="00:34:47.814" style="s2">&gt;&gt; Mention the money,</p>
+<p begin="00:34:46.114" end="00:34:50.614" style="s2">and she says yes.</p>
+<p begin="00:34:47.814" end="00:34:54.214" style="s2">So, it&#39;s still just work to her.</p>
+<p begin="00:34:50.614" end="00:34:54.214" style="s2">I&#39;ll handle everything. Don&#39;t worry.</p>
+<p begin="00:35:08.414" end="00:35:12.114" style="s2">&gt;&gt; Your wardrobe is ready, Mrs. Blackwood.</p>
+<p begin="00:35:12.714" end="00:35:16.614" style="s2">&gt;&gt; It&#39;s all yours. Pick what you like.</p>
+<p begin="00:35:15.414" end="00:35:18.014" style="s2">&gt;&gt; All this?</p>
+<p begin="00:35:16.614" end="00:35:21.614" style="s2">You spent way too much.</p>
+<p begin="00:35:18.014" end="00:35:21.614" style="s2">&gt;&gt; You are my wife. It&#39;s not too much.</p>
+<p begin="00:35:24.614" end="00:35:27.314" style="s2">&gt;&gt; On paper,</p>
+<p begin="00:35:25.814" end="00:35:29.514" style="s2">I&#39;m here to look after the kids, and you</p>
+<p begin="00:35:27.314" end="00:35:31.914" style="s2">pay me for that.</p>
+<p begin="00:35:29.514" end="00:35:34.014" style="s2">I can&#39;t accept all this.</p>
+<p begin="00:35:31.914" end="00:35:36.714" style="s2">&gt;&gt; You&#39;ve made them happy.</p>
+<p begin="00:35:34.014" end="00:35:36.714" style="s2">&gt;&gt; That&#39;s my job.</p>
+<p begin="00:35:38.214" end="00:35:40.814" style="s2">&gt;&gt; Call it a bonus then.</p>
+<p begin="00:35:39.814" end="00:35:42.414" style="s2">You need a dress for the dinner, don&#39;t</p>
+<p begin="00:35:40.814" end="00:35:46.214" style="s2">you?</p>
+<p begin="00:35:42.414" end="00:35:46.214" style="s2">&gt;&gt; Okay, you win. I&#39;ll make you look good.</p>
+<p begin="00:35:46.314" end="00:35:48.914" style="s2">&gt;&gt; Come with me, ma&#39;am.</p>
+<p begin="00:36:13.314" end="00:36:16.614" style="s2">&gt;&gt; Nope, not this one either.</p>
+<p begin="00:36:36.895" end="00:36:38.915" style="s2">[music]</p>
+<p begin="00:36:41.114" end="00:36:45.116" style="s2">That one.</p>
+<p begin="00:36:42.314" end="00:36:45.116" style="s2">It&#39;s It&#39;s on you.</p>
+<p begin="00:36:50.516" end="00:36:56.716" style="s2">&gt;&gt; Oh, it&#39;s not zipped up all the way.</p>
+<p begin="00:36:54.116" end="00:36:58.516" style="s2">&gt;&gt; Here, let me.</p>
+<p begin="00:36:56.716" end="00:37:00.816" style="s2">Did I catch your skin?</p>
+<p begin="00:36:58.516" end="00:37:00.816" style="s2">&gt;&gt; No.</p>
+<p begin="00:37:04.116" end="00:37:07.016" style="s2">&gt;&gt; Evelyn, what if we</p>
+<p begin="00:37:11.316" end="00:37:15.716" style="s2">&gt;&gt; What are mommy and dad saying? I can&#39;t</p>
+<p begin="00:37:13.316" end="00:37:15.716" style="s2">hear.</p>
+<p begin="00:37:20.016" end="00:37:23.816" style="s2">Quit pushing. I&#39;m going to fall.</p>
+<p begin="00:37:33.116" end="00:37:36.216" style="s2">Thanks. This one&#39;s good.</p>
+<p begin="00:37:36.501" end="00:37:38.521" style="s2">[snorts]</p>
+<p begin="00:37:41.516" end="00:37:47.416" style="s2">This is just an arrangement, remember?</p>
+<p begin="00:37:44.316" end="00:37:47.416" style="s2">We were getting a little close.</p>
+<p begin="00:37:53.916" end="00:37:57.416" style="s2">&gt;&gt; Someone will be here to get you ready</p>
+<p begin="00:37:54.916" end="00:37:57.416" style="s2">for the dinner.</p>
+<p begin="00:37:57.916" end="00:38:00.716" style="s2">I need to get back to work.</p>
+<p begin="00:38:14.491" end="00:38:16.511" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:38:22.916" end="00:38:26.616" style="s2">&gt;&gt; This is yours, ma&#39;am. It&#39;s hardly</p>
+<p begin="00:38:24.816" end="00:38:29.716" style="s2">fitting for someone in your position.</p>
+<p begin="00:38:26.616" end="00:38:29.716" style="s2">I&#39;ll have someone toss it.</p>
+<p begin="00:38:31.016" end="00:38:35.816" style="s2">&gt;&gt; Leave it. I still wear that.</p>
+<p begin="00:38:33.516" end="00:38:38.016" style="s2">&gt;&gt; Look, ma&#39;am, I know this is all new to</p>
+<p begin="00:38:35.816" end="00:38:40.616" style="s2">you, but you can&#39;t wear couture and keep</p>
+<p begin="00:38:38.016" end="00:38:42.216" style="s2">this ratty old stuff around.</p>
+<p begin="00:38:40.616" end="00:38:44.016" style="s2">People will talk.</p>
+<p begin="00:38:42.216" end="00:38:45.216" style="s2">&gt;&gt; I hired you to style me, not tell me how</p>
+<p begin="00:38:44.016" end="00:38:47.717" style="s2">to live.</p>
+<p begin="00:38:45.216" end="00:38:47.717" style="s2">Put it down.</p>
+<p begin="00:38:50.417" end="00:38:54.117" style="s2">I&#39;m trying to help. Do you know who will</p>
+<p begin="00:38:52.217" end="00:38:58.217" style="s2">be there tonight? You still wear this</p>
+<p begin="00:38:54.117" end="00:38:58.217" style="s2">stuff? God, how embarrassing.</p>
+<p begin="00:38:58.517" end="00:39:02.617" style="s2">&gt;&gt; So what? Mommy can wear what she wants.</p>
+<p begin="00:39:00.917" end="00:39:05.317" style="s2">You&#39;re here to work. I&#39;ll get Daddy to</p>
+<p begin="00:39:02.617" end="00:39:05.317" style="s2">fire you.</p>
+<p begin="00:39:06.117" end="00:39:10.817" style="s2">Don&#39;t throw it away. It&#39;s Mommy&#39;s.</p>
+<p begin="00:39:08.317" end="00:39:12.017" style="s2">&gt;&gt; Sweethearts, you don&#39;t understand. I&#39;m</p>
+<p begin="00:39:10.817" end="00:39:13.517" style="s2">trying to save your Daddy some</p>
+<p begin="00:39:12.017" end="00:39:15.407" style="s2">embarrassment.</p>
+<p begin="00:39:13.517" end="00:39:17.427" style="s2">&gt;&gt; And who asked you to do that?</p>
+<p begin="00:39:15.407" end="00:39:17.427" style="s2">&gt;&gt; [music]</p>
+<p begin="00:39:18.017" end="00:39:21.317" style="s2">&gt;&gt; Sir, I was just offering a little</p>
+<p begin="00:39:20.417" end="00:39:22.817" style="s2">advice.</p>
+<p begin="00:39:21.317" end="00:39:24.317" style="s2">&gt;&gt; You&#39;re here to get my wife ready for a</p>
+<p begin="00:39:22.817" end="00:39:27.317" style="s2">nice evening.</p>
+<p begin="00:39:24.317" end="00:39:27.317" style="s2">Not make her feel small.</p>
+<p begin="00:39:34.217" end="00:39:37.317" style="s2">&gt;&gt; Wait.</p>
+<p begin="00:39:35.217" end="00:39:40.717" style="s2">Is that the sapphire necklace?</p>
+<p begin="00:39:37.317" end="00:39:40.717" style="s2">The one that went for 30 million?</p>
+<p begin="00:39:41.017" end="00:39:44.117" style="s2">&gt;&gt; Here.</p>
+<p begin="00:39:41.817" end="00:39:44.117" style="s2">Let me.</p>
+<p begin="00:39:49.017" end="00:39:51.717" style="s2">Looks good on you.</p>
+<p begin="00:39:52.917" end="00:39:57.017" style="s2">&gt;&gt; Mrs. Blackwood, I&#39;m sorry. That was rude</p>
+<p begin="00:39:55.317" end="00:39:58.917" style="s2">of me. Please forgive me.</p>
+<p begin="00:39:57.017" end="00:40:02.017" style="s2">&gt;&gt; Send someone else. We&#39;re done here. You</p>
+<p begin="00:39:58.917" end="00:40:02.017" style="s2">don&#39;t disrespect my wife.</p>
+<p begin="00:40:04.817" end="00:40:09.817" style="s2">&gt;&gt; Mommy, you&#39;re even prettier than a</p>
+<p begin="00:40:06.917" end="00:40:09.817" style="s2">princess.</p>
+<p begin="00:40:14.357" end="00:40:16.377" style="s2">&gt;&gt; [music]</p>
+<p begin="00:40:17.517" end="00:40:22.217" style="s2">&gt;&gt; Is this too much?</p>
+<p begin="00:40:19.017" end="00:40:22.217" style="s2">&gt;&gt; No. It suits you.</p>
+<p begin="00:40:23.617" end="00:40:28.117" style="s2">It&#39;s work. I have to take this. Go</p>
+<p begin="00:40:25.117" end="00:40:28.117" style="s2">ahead. I&#39;ll meet you inside.</p>
+<p begin="00:40:31.317" end="00:40:34.417" style="s2">&gt;&gt; Guess what?</p>
+<p begin="00:40:32.317" end="00:40:35.617" style="s2">Mr. Blackwood&#39;s bringing a date.</p>
+<p begin="00:40:34.417" end="00:40:36.917" style="s2">&gt;&gt; Really?</p>
+<p begin="00:40:35.617" end="00:40:39.617" style="s2">He can&#39;t stand anyone fussing over him.</p>
+<p begin="00:40:36.917" end="00:40:41.217" style="s2">Who&#39;s the lucky woman?</p>
+<p begin="00:40:39.617" end="00:40:42.017" style="s2">Please, she&#39;s nobody. Just his kid&#39;s</p>
+<p begin="00:40:41.217" end="00:40:44.317" style="s2">nanny.</p>
+<p begin="00:40:42.017" end="00:40:47.117" style="s2">&gt;&gt; Wait, you know her?</p>
+<p begin="00:40:44.317" end="00:40:47.117" style="s2">&gt;&gt; I was married to her.</p>
+<p begin="00:40:48.917" end="00:40:53.218" style="s2">She was always a mess we were married.</p>
+<p begin="00:40:51.618" end="00:40:55.118" style="s2">I kicked her out,</p>
+<p begin="00:40:53.218" end="00:40:58.118" style="s2">and she had nowhere to go. So now she</p>
+<p begin="00:40:55.118" end="00:40:58.118" style="s2">looks after his kids.</p>
+<p begin="00:40:58.918" end="00:41:02.818" style="s2">She&#39;s got it figured out though.</p>
+<p begin="00:41:01.118" end="00:41:04.818" style="s2">Get the kids to call her mommy, have</p>
+<p begin="00:41:02.818" end="00:41:06.218" style="s2">them sweet talk daddy. Next thing you</p>
+<p begin="00:41:04.818" end="00:41:08.918" style="s2">know,</p>
+<p begin="00:41:06.218" end="00:41:11.818" style="s2">she&#39;s acting like she owns the place.</p>
+<p begin="00:41:08.918" end="00:41:13.963" style="s2">&gt;&gt; So that&#39;s her way in through the kids.</p>
+<p begin="00:41:11.818" end="00:41:15.318" style="s2">Hope you washed up before she came.</p>
+<p begin="00:41:13.963" end="00:41:17.718" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:41:15.318" end="00:41:19.018" style="s2">&gt;&gt; Once they all know what you are,</p>
+<p begin="00:41:17.718" end="00:41:21.518" style="s2">let&#39;s see how long Blackwood keeps you</p>
+<p begin="00:41:19.018" end="00:41:21.518" style="s2">around.</p>
+<p begin="00:41:38.198" end="00:41:42.418" style="s2">[music]</p>
+<p begin="00:41:39.918" end="00:41:42.418" style="s2">Evelyn?</p>
+<p begin="00:41:44.118" end="00:41:47.318" style="s2">When did she get so beautiful?</p>
+<p begin="00:41:49.318" end="00:41:52.518" style="s2">&gt;&gt; That&#39;s who you called a mess? Were you</p>
+<p begin="00:41:51.118" end="00:41:53.418" style="s2">just feeding us a bunch of lies?</p>
+<p begin="00:41:52.518" end="00:41:54.818" style="s2">&gt;&gt; No.</p>
+<p begin="00:41:53.418" end="00:41:57.618" style="s2">She&#39;s still just a nanny. None of that</p>
+<p begin="00:41:54.818" end="00:41:59.518" style="s2">stuff is even hers.</p>
+<p begin="00:41:57.618" end="00:42:01.118" style="s2">Not bad for a nanny, Evelyn.</p>
+<p begin="00:41:59.518" end="00:42:02.518" style="s2">What did you have to do to get all that?</p>
+<p begin="00:42:01.118" end="00:42:04.218" style="s2">&gt;&gt; So I&#39;m a nanny.</p>
+<p begin="00:42:02.518" end="00:42:06.818" style="s2">I work for my money.</p>
+<p begin="00:42:04.218" end="00:42:06.818" style="s2">What&#39;s wrong with that?</p>
+<p begin="00:42:07.018" end="00:42:10.018" style="s2">&gt;&gt; Come on.</p>
+<p begin="00:42:08.118" end="00:42:11.418" style="s2">Why bother with someone else&#39;s kids?</p>
+<p begin="00:42:10.018" end="00:42:13.218" style="s2">Come back, say you&#39;re sorry, and I&#39;ll</p>
+<p begin="00:42:11.418" end="00:42:14.318" style="s2">give you another chance. Mrs. Sterling</p>
+<p begin="00:42:13.218" end="00:42:16.418" style="s2">sounds better than the nanny, doesn&#39;t</p>
+<p begin="00:42:14.318" end="00:42:16.418" style="s2">she?</p>
+<p begin="00:42:18.118" end="00:42:22.018" style="s2">&gt;&gt; You cheated on me, had me raise your</p>
+<p begin="00:42:20.218" end="00:42:23.918" style="s2">mistress&#39;s son for five years, then</p>
+<p begin="00:42:22.018" end="00:42:27.018" style="s2">kicked me out. Now that I am doing fine</p>
+<p begin="00:42:23.918" end="00:42:27.018" style="s2">without you, you want me back?</p>
+<p begin="00:42:27.118" end="00:42:28.618" style="s2">Everything&#39;s got to go your way, doesn&#39;t</p>
+<p begin="00:42:28.218" end="00:42:29.018" style="s2">it?</p>
+<p begin="00:42:28.618" end="00:42:31.018" style="s2">&gt;&gt; You</p>
+<p begin="00:42:29.018" end="00:42:32.418" style="s2">&gt;&gt; Wait, he cheated and he&#39;s been bad</p>
+<p begin="00:42:31.018" end="00:42:34.318" style="s2">mouthing her?</p>
+<p begin="00:42:32.418" end="00:42:35.218" style="s2">&gt;&gt; Here, Mr. Sterling, better to wipe that</p>
+<p begin="00:42:34.318" end="00:42:36.918" style="s2">off.</p>
+<p begin="00:42:35.218" end="00:42:39.718" style="s2">&gt;&gt; Shut your mouth. You think you can lie</p>
+<p begin="00:42:36.918" end="00:42:39.718" style="s2">about me and I won&#39;t</p>
+<p begin="00:42:41.318" end="00:42:46.618" style="s2">&gt;&gt; Can&#39;t win an argument so you swing at</p>
+<p begin="00:42:42.618" end="00:42:46.618" style="s2">me? Same old Ryan. Security.</p>
+<p begin="00:42:46.918" end="00:42:49.518" style="s2">Throw him out.</p>
+<p begin="00:42:51.718" end="00:42:55.620" style="s2">Are you</p>
+<p begin="00:42:52.620" end="00:42:55.620" style="s2">really Mrs. Blackwood?</p>
+<p begin="00:42:56.420" end="00:42:59.420" style="s2">&gt;&gt; I&#39;m just his date tonight.</p>
+<p begin="00:42:57.620" end="00:43:02.120" style="s2">&gt;&gt; His date? Since when does the nanny get</p>
+<p begin="00:42:59.420" end="00:43:02.120" style="s2">to be his date?</p>
+<p begin="00:43:07.920" end="00:43:14.120" style="s2">I&#39;ve known Alexander for years.</p>
+<p begin="00:43:11.120" end="00:43:14.120" style="s2">How come I&#39;ve never heard of you?</p>
+<p begin="00:43:17.220" end="00:43:20.520" style="s2">&gt;&gt; Vivian&#39;s been chasing Blackwood for</p>
+<p begin="00:43:18.620" end="00:43:22.920" style="s2">years. She was even willing to raise all</p>
+<p begin="00:43:20.520" end="00:43:24.920" style="s2">five kids. He still said no.</p>
+<p begin="00:43:22.920" end="00:43:26.820" style="s2">&gt;&gt; And now he shows up with the nanny? Oh,</p>
+<p begin="00:43:24.920" end="00:43:27.720" style="s2">she must be furious.</p>
+<p begin="00:43:26.820" end="00:43:29.620" style="s2">You were pretty sure of yourself</p>
+<p begin="00:43:27.720" end="00:43:32.020" style="s2">throwing him out. Where&#39;s Alexander</p>
+<p begin="00:43:29.620" end="00:43:34.020" style="s2">then? Why isn&#39;t he with you?</p>
+<p begin="00:43:32.020" end="00:43:36.620" style="s2">&gt;&gt; He&#39;s on the phone. He&#39;ll be right in.</p>
+<p begin="00:43:34.020" end="00:43:38.120" style="s2">&gt;&gt; Sure he is.</p>
+<p begin="00:43:36.620" end="00:43:40.020" style="s2">You just used his name to get in, didn&#39;t</p>
+<p begin="00:43:38.120" end="00:43:41.120" style="s2">you? Did any of you actually see them</p>
+<p begin="00:43:40.020" end="00:43:43.020" style="s2">together?</p>
+<p begin="00:43:41.120" end="00:43:44.120" style="s2">&gt;&gt; I only saw her come in.</p>
+<p begin="00:43:43.020" end="00:43:46.420" style="s2">&gt;&gt; Then how do we know she&#39;s really his</p>
+<p begin="00:43:44.120" end="00:43:46.420" style="s2">date?</p>
+<p begin="00:43:47.920" end="00:43:50.720" style="s2">&gt;&gt; Hold on.</p>
+<p begin="00:43:49.020" end="00:43:52.020" style="s2">Where&#39;d you get that necklace?</p>
+<p begin="00:43:50.720" end="00:43:52.620" style="s2">&gt;&gt; Someone gave it to me.</p>
+<p begin="00:43:52.020" end="00:43:55.520" style="s2">&gt;&gt; Who?</p>
+<p begin="00:43:52.620" end="00:43:57.120" style="s2">&gt;&gt; I don&#39;t have to answer to you.</p>
+<p begin="00:43:55.520" end="00:43:58.220" style="s2">&gt;&gt; Do you even know what that is?</p>
+<p begin="00:43:57.120" end="00:44:01.420" style="s2">That&#39;s a Blackwood family heirloom.</p>
+<p begin="00:43:58.220" end="00:44:02.820" style="s2">That&#39;s for Mrs. Blackwood to wear.</p>
+<p begin="00:44:01.420" end="00:44:04.420" style="s2">&gt;&gt; Looks good on you.</p>
+<p begin="00:44:02.820" end="00:44:06.120" style="s2">&gt;&gt; He didn&#39;t tell me any of this. We&#39;re</p>
+<p begin="00:44:04.420" end="00:44:07.220" style="s2">only married on paper.</p>
+<p begin="00:44:06.120" end="00:44:09.320" style="s2">Shouldn&#39;t this go to the woman he</p>
+<p begin="00:44:07.220" end="00:44:10.620" style="s2">actually wants to marry?</p>
+<p begin="00:44:09.320" end="00:44:12.720" style="s2">What happened?</p>
+<p begin="00:44:10.620" end="00:44:14.020" style="s2">You had plenty to say a minute ago.</p>
+<p begin="00:44:12.720" end="00:44:16.420" style="s2">Getting the picture now?</p>
+<p begin="00:44:14.020" end="00:44:18.220" style="s2">&gt;&gt; I didn&#39;t take anything that wasn&#39;t mine.</p>
+<p begin="00:44:16.420" end="00:44:21.020" style="s2">&gt;&gt; You&#39;ve worked for him for 5 minutes and</p>
+<p begin="00:44:18.220" end="00:44:22.220" style="s2">he gives you a family heirloom? Come on.</p>
+<p begin="00:44:21.020" end="00:44:24.120" style="s2">Well,</p>
+<p begin="00:44:22.220" end="00:44:28.520" style="s2">that&#39;s what I thought.</p>
+<p begin="00:44:24.120" end="00:44:28.520" style="s2">Nobody gave it to you. You stole it.</p>
+<p begin="00:44:31.220" end="00:44:33.620" style="s2">&gt;&gt; She steals? Who&#39;d let her back in their</p>
+<p begin="00:44:33.020" end="00:44:34.720" style="s2">house?</p>
+<p begin="00:44:33.620" end="00:44:36.820" style="s2">&gt;&gt; You&#39;re calling me a thief just because</p>
+<p begin="00:44:34.720" end="00:44:38.720" style="s2">she said so? Where&#39;s the proof?</p>
+<p begin="00:44:36.820" end="00:44:40.320" style="s2">&gt;&gt; It&#39;s worth 30 million. You think a</p>
+<p begin="00:44:38.720" end="00:44:42.320" style="s2">nanny&#39;s salary pays for that? I can&#39;t</p>
+<p begin="00:44:40.320" end="00:44:44.620" style="s2">afford it, so I must have stolen it.</p>
+<p begin="00:44:42.320" end="00:44:45.920" style="s2">&gt;&gt; I already told you it was a gift.</p>
+<p begin="00:44:44.620" end="00:44:48.120" style="s2">&gt;&gt; Then tell us</p>
+<p begin="00:44:45.920" end="00:44:49.520" style="s2">who gave it to you.</p>
+<p begin="00:44:48.120" end="00:44:51.020" style="s2">Wearing a fancy dress doesn&#39;t make you</p>
+<p begin="00:44:49.520" end="00:44:52.420" style="s2">one of us.</p>
+<p begin="00:44:51.020" end="00:44:53.920" style="s2">You think people just hand out necklaces</p>
+<p begin="00:44:52.420" end="00:44:55.421" style="s2">like that?</p>
+<p begin="00:44:53.920" end="00:44:58.721" style="s2">Take it off.</p>
+<p begin="00:44:55.421" end="00:45:00.121" style="s2">&gt;&gt; It&#39;s mine. Let go.</p>
+<p begin="00:44:58.721" end="00:45:02.721" style="s2">&gt;&gt; Yours?</p>
+<p begin="00:45:00.121" end="00:45:04.321" style="s2">Let me guess. Alexander gave it to you?</p>
+<p begin="00:45:02.721" end="00:45:06.021" style="s2">That necklace is for his wife. Why would</p>
+<p begin="00:45:04.321" end="00:45:07.621" style="s2">he give it to you?</p>
+<p begin="00:45:06.021" end="00:45:09.521" style="s2">&gt;&gt; His wife.</p>
+<p begin="00:45:07.621" end="00:45:11.721" style="s2">&gt;&gt; We&#39;re only married on paper. I don&#39;t</p>
+<p begin="00:45:09.521" end="00:45:13.421" style="s2">even know if he wants people to know.</p>
+<p begin="00:45:11.721" end="00:45:15.721" style="s2">What&#39;s wrong? Can&#39;t think of another</p>
+<p begin="00:45:13.421" end="00:45:15.721" style="s2">lie?</p>
+<p begin="00:45:19.521" end="00:45:23.921" style="s2">Security! Hold her arms. Get it off her.</p>
+<p begin="00:45:24.821" end="00:45:27.521" style="s2">&gt;&gt; Keep your hands off me. You&#39;re just a</p>
+<p begin="00:45:26.521" end="00:45:29.221" style="s2">nanny.</p>
+<p begin="00:45:27.521" end="00:45:32.421" style="s2">&gt;&gt; Who do you think you&#39;re talking to? Let</p>
+<p begin="00:45:29.221" end="00:45:35.121" style="s2">me teach you some manners.</p>
+<p begin="00:45:32.421" end="00:45:35.121" style="s2">&gt;&gt; Who needs a lesson?</p>
+<p begin="00:45:36.121" end="00:45:39.921" style="s2">&gt;&gt; Alexander, she stole your family&#39;s</p>
+<p begin="00:45:38.321" end="00:45:41.421" style="s2">necklace. I was just getting it back.</p>
+<p begin="00:45:39.921" end="00:45:42.321" style="s2">&gt;&gt; I gave it to her.</p>
+<p begin="00:45:41.421" end="00:45:46.521" style="s2">&gt;&gt; But</p>
+<p begin="00:45:42.321" end="00:45:46.521" style="s2">that&#39;s for your wife. She&#39;s a nanny.</p>
+<p begin="00:45:46.721" end="00:45:49.521" style="s2">&gt;&gt; She&#39;s my wife.</p>
+<p begin="00:45:54.121" end="00:45:57.521" style="s2">&gt;&gt; Alexander, you&#39;re kidding.</p>
+<p begin="00:45:55.821" end="00:46:00.221" style="s2">Bringing her as your date is one thing,</p>
+<p begin="00:45:57.521" end="00:46:03.021" style="s2">but marrying the nanny? Seriously?</p>
+<p begin="00:46:00.221" end="00:46:03.021" style="s2">&gt;&gt; We&#39;re already married.</p>
+<p begin="00:46:04.521" end="00:46:06.721" style="s2">&gt;&gt; She&#39;s a nanny. She&#39;s not good enough for</p>
+<p begin="00:46:06.221" end="00:46:08.621" style="s2">you.</p>
+<p begin="00:46:06.721" end="00:46:10.321" style="s2">&gt;&gt; Did I ask for your approval?</p>
+<p begin="00:46:08.621" end="00:46:12.721" style="s2">Everyone, listen.</p>
+<p begin="00:46:10.321" end="00:46:14.321" style="s2">Evelyn is my wife. She&#39;s Mrs. Blackwood</p>
+<p begin="00:46:12.721" end="00:46:15.621" style="s2">and you&#39;ll treat her with respect. As</p>
+<p begin="00:46:14.321" end="00:46:17.421" style="s2">for you,</p>
+<p begin="00:46:15.621" end="00:46:18.921" style="s2">I saw how you treated her. We&#39;re done</p>
+<p begin="00:46:17.421" end="00:46:19.921" style="s2">doing business with your family.</p>
+<p begin="00:46:18.921" end="00:46:21.721" style="s2">&gt;&gt; We&#39;ve known each other since we were</p>
+<p begin="00:46:19.921" end="00:46:23.127" style="s2">kids. You&#39;re throwing that away over</p>
+<p begin="00:46:21.721" end="00:46:23.221" style="s2">her?</p>
+<p begin="00:46:23.127" end="00:46:25.621" style="s2">&gt;&gt; [music]</p>
+<p begin="00:46:23.221" end="00:46:26.921" style="s2">&gt;&gt; Show her out.</p>
+<p begin="00:46:25.621" end="00:46:28.921" style="s2">&gt;&gt; Oh god.</p>
+<p begin="00:46:26.921" end="00:46:30.421" style="s2">She really is Mrs. Blackwood. What have</p>
+<p begin="00:46:28.921" end="00:46:32.021" style="s2">we done?</p>
+<p begin="00:46:30.421" end="00:46:33.221" style="s2">&gt;&gt; Mrs. Blackwood, we&#39;re so sorry. We</p>
+<p begin="00:46:32.021" end="00:46:34.421" style="s2">shouldn&#39;t have listened to Vivian.</p>
+<p begin="00:46:33.221" end="00:46:36.421" style="s2">Please don&#39;t hold it against us.</p>
+<p begin="00:46:34.421" end="00:46:37.721" style="s2">&gt;&gt; You make such a lovely couple. We should</p>
+<p begin="00:46:36.421" end="00:46:39.321" style="s2">have realized.</p>
+<p begin="00:46:37.721" end="00:46:41.321" style="s2">&gt;&gt; You weren&#39;t saying that a minute ago.</p>
+<p begin="00:46:39.321" end="00:46:44.021" style="s2">Speak to her like that again</p>
+<p begin="00:46:41.321" end="00:46:44.021" style="s2">and you&#39;re out, too.</p>
+<p begin="00:46:47.721" end="00:46:49.921" style="s2">&gt;&gt; Thank you.</p>
+<p begin="00:46:49.121" end="00:46:52.221" style="s2">But</p>
+<p begin="00:46:49.921" end="00:46:54.221" style="s2">you didn&#39;t have to say all that.</p>
+<p begin="00:46:52.221" end="00:46:56.121" style="s2">&gt;&gt; Why? It&#39;s true.</p>
+<p begin="00:46:54.221" end="00:46:57.821" style="s2">&gt;&gt; We&#39;re only married on paper. Now</p>
+<p begin="00:46:56.121" end="00:46:58.922" style="s2">everyone knows.</p>
+<p begin="00:46:57.821" end="00:46:59.922" style="s2">What are we supposed to tell them when</p>
+<p begin="00:46:58.922" end="00:47:01.422" style="s2">this is over?</p>
+<p begin="00:46:59.922" end="00:47:04.023" style="s2">&gt;&gt; Already trying to get rid of me?</p>
+<p begin="00:47:01.422" end="00:47:06.122" style="s2">&gt;&gt; That&#39;s not what I&#39;m saying.</p>
+<p begin="00:47:04.023" end="00:47:09.023" style="s2">&gt;&gt; Evelyn, why is it so hard</p>
+<p begin="00:47:06.122" end="00:47:09.023" style="s2">to say you&#39;re my wife?</p>
+<p begin="00:47:11.922" end="00:47:16.622" style="s2">&gt;&gt; Oh my god. Does he mean</p>
+<p begin="00:47:14.422" end="00:47:18.823" style="s2">Is he serious?</p>
+<p begin="00:47:16.622" end="00:47:21.622" style="s2">&gt;&gt; Mrs. Blackwood, sorry about earlier. We</p>
+<p begin="00:47:18.823" end="00:47:21.622" style="s2">got you a little something.</p>
+<p begin="00:47:23.323" end="00:47:26.723" style="s2">&gt;&gt; Thank you, but you really don&#39;t have to</p>
+<p begin="00:47:25.122" end="00:47:27.922" style="s2">give me anything.</p>
+<p begin="00:47:26.723" end="00:47:28.823" style="s2">Maybe you could put in a good word for</p>
+<p begin="00:47:27.922" end="00:47:31.422" style="s2">us</p>
+<p begin="00:47:28.823" end="00:47:32.922" style="s2">about our deal with Blackwood Group.</p>
+<p begin="00:47:31.422" end="00:47:35.323" style="s2">Oh, that&#39;s his department. You&#39;d have to</p>
+<p begin="00:47:32.922" end="00:47:38.023" style="s2">ask him. Right, right. Enough business.</p>
+<p begin="00:47:35.323" end="00:47:38.023" style="s2">Let&#39;s have a drink.</p>
+<p begin="00:47:39.823" end="00:47:45.122" style="s2">&gt;&gt; Sorry, I don&#39;t really drink.</p>
+<p begin="00:47:41.723" end="00:47:45.122" style="s2">&gt;&gt; Just a sip. Come on.</p>
+<p begin="00:47:45.422" end="00:47:48.723" style="s2">I&#39;ll take it. She doesn&#39;t drink.</p>
+<p begin="00:47:49.122" end="00:47:52.723" style="s2">&gt;&gt; Not even one sip? You really do spoil</p>
+<p begin="00:47:51.223" end="00:47:54.323" style="s2">her.</p>
+<p begin="00:47:52.723" end="00:47:56.622" style="s2">&gt;&gt; She&#39;s my wife. Who else am I going to</p>
+<p begin="00:47:54.323" end="00:47:56.622" style="s2">spoil?</p>
+<p begin="00:47:56.823" end="00:48:01.523" style="s2">&gt;&gt; Get a grip, Evelyn. He just doesn&#39;t want</p>
+<p begin="00:47:58.723" end="00:48:01.523" style="s2">you embarrassing him.</p>
+<p begin="00:48:15.788" end="00:48:17.808" style="s2">&gt;&gt; [music]</p>
+<p begin="00:48:18.023" end="00:48:21.823" style="s2">&gt;&gt; You&#39;re drunk. Let&#39;s get you home.</p>
+<p begin="00:48:20.422" end="00:48:23.648" style="s2">&gt;&gt; I don&#39;t want this to be just on paper</p>
+<p begin="00:48:21.823" end="00:48:25.668" style="s2">anymore, Evelyn.</p>
+<p begin="00:48:23.648" end="00:48:25.668" style="s2">&gt;&gt; [music]</p>
+<p begin="00:48:36.922" end="00:48:41.323" style="s2">&gt;&gt; Alexander, you&#39;ve had too much to drink.</p>
+<p begin="00:48:40.523" end="00:48:43.922" style="s2">&gt;&gt; Yeah.</p>
+<p begin="00:48:41.323" end="00:48:43.922" style="s2">I guess I have.</p>
+<p begin="00:48:47.823" end="00:48:51.523" style="s2">&gt;&gt; Ollie, you&#39;re home</p>
+<p begin="00:48:49.323" end="00:48:53.823" style="s2">finally.</p>
+<p begin="00:48:51.523" end="00:48:56.523" style="s2">&gt;&gt; You&#39;re still up? Come on, sweethearts. I</p>
+<p begin="00:48:53.823" end="00:48:56.523" style="s2">&#39;ll tuck you in.</p>
+<p begin="00:49:00.328" end="00:49:02.349" style="s2">&gt;&gt; [sighs]</p>
+<p begin="00:49:03.224" end="00:49:07.324" style="s2">&gt;&gt; I don&#39;t want this to be just on paper</p>
+<p begin="00:49:04.624" end="00:49:07.324" style="s2">anymore, Evelyn.</p>
+<p begin="00:49:09.024" end="00:49:12.924" style="s2">&gt;&gt; He was just drunk</p>
+<p begin="00:49:10.624" end="00:49:16.224" style="s2">and I almost got my hopes up.</p>
+<p begin="00:49:12.924" end="00:49:16.224" style="s2">Maybe I need a new job.</p>
+<p begin="00:49:17.824" end="00:49:20.424" style="s2">&gt;&gt; Still awake?</p>
+<p begin="00:49:19.124" end="00:49:22.824" style="s2">Make me a coffee and bring it to the</p>
+<p begin="00:49:20.424" end="00:49:22.824" style="s2">study.</p>
+<p begin="00:49:28.324" end="00:49:31.724" style="s2">&gt;&gt; Sir?</p>
+<p begin="00:49:29.624" end="00:49:34.124" style="s2">Your coffee&#39;s ready.</p>
+<p begin="00:49:31.724" end="00:49:34.124" style="s2">&gt;&gt; Come in.</p>
+<p begin="00:49:37.324" end="00:49:42.624" style="s2">&gt;&gt; Oh my god.</p>
+<p begin="00:49:39.024" end="00:49:42.624" style="s2">He&#39;s doing this on purpose, isn&#39;t he?</p>
+<p begin="00:49:45.124" end="00:49:49.324" style="s2">Stop it. He&#39;s just getting changed.</p>
+<p begin="00:49:52.074" end="00:49:54.094" style="s2">&gt;&gt; [clears throat]</p>
+<p begin="00:50:03.224" end="00:50:08.324" style="s2">&gt;&gt; Are you avoiding me?</p>
+<p begin="00:50:05.224" end="00:50:08.324" style="s2">&gt;&gt; I&#39;m just trying to do my job.</p>
+<p begin="00:50:16.324" end="00:50:19.324" style="s2">&gt;&gt; You&#39;re looking for another job?</p>
+<p begin="00:50:19.624" end="00:50:21.824" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:50:20.624" end="00:50:25.724" style="s2">When the kids don&#39;t need me anymore,</p>
+<p begin="00:50:21.824" end="00:50:25.724" style="s2">this is over. I need a backup plan.</p>
+<p begin="00:50:26.424" end="00:50:30.324" style="s2">&gt;&gt; You think I just leave you with nothing?</p>
+<p begin="00:50:28.324" end="00:50:31.424" style="s2">&gt;&gt; Last time, I ended up with nowhere to</p>
+<p begin="00:50:30.324" end="00:50:33.524" style="s2">live.</p>
+<p begin="00:50:31.424" end="00:50:35.124" style="s2">I&#39;m not doing that again.</p>
+<p begin="00:50:33.524" end="00:50:38.324" style="s2">I can&#39;t get comfortable here and forget</p>
+<p begin="00:50:35.124" end="00:50:38.324" style="s2">none of this is really mine.</p>
+<p begin="00:50:39.724" end="00:50:43.224" style="s2">&gt;&gt; If you want another job, I won&#39;t stop</p>
+<p begin="00:50:41.024" end="00:50:43.224" style="s2">you.</p>
+<p begin="00:50:44.824" end="00:50:47.824" style="s2">But don&#39;t push me away.</p>
+<p begin="00:50:52.924" end="00:50:57.324" style="s2">&gt;&gt; I&#39;m not just going to walk out.</p>
+<p begin="00:50:55.124" end="00:51:00.324" style="s2">The kids still need me.</p>
+<p begin="00:50:57.324" end="00:51:00.324" style="s2">&gt;&gt; This isn&#39;t about the kids.</p>
+<p begin="00:51:03.024" end="00:51:06.025" style="s2">I I what I said in the car.</p>
+<p begin="00:51:04.925" end="00:51:09.025" style="s2">Evelyn,</p>
+<p begin="00:51:06.025" end="00:51:09.025" style="s2">I need you more than they do.</p>
+<p begin="00:51:14.325" end="00:51:18.125" style="s2">Get some rest. You can tell me when</p>
+<p begin="00:51:15.725" end="00:51:18.125" style="s2">you&#39;re ready.</p>
+<p begin="00:51:25.225" end="00:51:31.125" style="s2">&gt;&gt; Did mommy and daddy have a fight? What</p>
+<p begin="00:51:27.425" end="00:51:31.125" style="s2">if she gets mad at him and leaves?</p>
+<p begin="00:51:32.025" end="00:51:35.325" style="s2">Lily, pretend your tummy hurts, then</p>
+<p begin="00:51:34.125" end="00:51:37.725" style="s2">they&#39;ll both have to make you feel</p>
+<p begin="00:51:35.325" end="00:51:37.725" style="s2">better.</p>
+<p begin="00:51:38.125" end="00:51:41.525" style="s2">Mommy, Lily&#39;s tummy hurts really bad.</p>
+<p begin="00:51:40.125" end="00:51:43.925" style="s2">She&#39;s rolling around. Is she going to</p>
+<p begin="00:51:41.525" end="00:51:43.925" style="s2">die?</p>
+<p begin="00:51:45.125" end="00:51:49.625" style="s2">Mommy, it hurts. There&#39;s a monster in my</p>
+<p begin="00:51:47.525" end="00:51:51.425" style="s2">tummy. Am I going to die?</p>
+<p begin="00:51:49.625" end="00:51:52.425" style="s2">&gt;&gt; Shh, baby. Mommy&#39;s here. You&#39;re going to</p>
+<p begin="00:51:51.425" end="00:51:53.725" style="s2">be okay.</p>
+<p begin="00:51:52.425" end="00:51:56.425" style="s2">&gt;&gt; I&#39;m calling the doctor.</p>
+<p begin="00:51:53.725" end="00:51:59.725" style="s2">&gt;&gt; No, no doctor. You can just rub her</p>
+<p begin="00:51:56.425" end="00:51:59.725" style="s2">tummy, you and mommy.</p>
+<p begin="00:52:04.125" end="00:52:08.725" style="s2">Both hands. It only works if you do it</p>
+<p begin="00:52:06.225" end="00:52:08.725" style="s2">together.</p>
+<p begin="00:52:14.625" end="00:52:18.825" style="s2">It&#39;s working. It doesn&#39;t hurt so much</p>
+<p begin="00:52:16.525" end="00:52:18.825" style="s2">now.</p>
+<p begin="00:52:20.225" end="00:52:24.725" style="s2">&gt;&gt; Hang on. Did you all</p>
+<p begin="00:52:22.225" end="00:52:28.025" style="s2">&gt;&gt; Don&#39;t go, mommy, please. Who will rub my</p>
+<p begin="00:52:24.725" end="00:52:28.025" style="s2">tummy if you go?</p>
+<p begin="00:52:28.825" end="00:52:35.725" style="s2">&gt;&gt; Stay, Evelyn. We all need you.</p>
+<p begin="00:52:32.425" end="00:52:37.525" style="s2">&gt;&gt; All right. I &#39;m not going anywhere.</p>
+<p begin="00:52:35.725" end="00:52:40.225" style="s2">Oh, my pancakes. Come on, everybody.</p>
+<p begin="00:52:37.525" end="00:52:43.825" style="s2">Breakfast.</p>
+<p begin="00:52:40.225" end="00:52:43.825" style="s2">&gt;&gt; So, a fake tummy ache?</p>
+<p begin="00:52:44.125" end="00:52:50.025" style="s2">&gt;&gt; Daddy, mommy said she&#39;ll stay. So, when</p>
+<p begin="00:52:46.825" end="00:52:50.025" style="s2">are you going to have a wedding?</p>
+<p begin="00:52:50.325" end="00:52:53.325" style="s2">&gt;&gt; Whenever she says yes.</p>
+<p begin="00:52:55.225" end="00:52:59.225" style="s2">Just a few more days. I promise you&#39;ll</p>
+<p begin="00:52:57.125" end="00:53:00.525" style="s2">get your money. You crossed Blackwood.</p>
+<p begin="00:52:59.225" end="00:53:03.025" style="s2">Who&#39;s going to risk doing business with</p>
+<p begin="00:53:00.525" end="00:53:03.025" style="s2">you now?</p>
+<p begin="00:53:04.725" end="00:53:07.327" style="s2">Evelyn must have gone crying to him,</p>
+<p begin="00:53:06.327" end="00:53:11.327" style="s2">that</p>
+<p begin="00:53:07.327" end="00:53:11.327" style="s2">&gt;&gt; Daddy, do we really have to move?</p>
+<p begin="00:53:11.727" end="00:53:13.827" style="s2">&gt;&gt; Hey buddy,</p>
+<p begin="00:53:12.927" end="00:53:16.227" style="s2">you want to keep living in our big</p>
+<p begin="00:53:13.827" end="00:53:16.227" style="s2">house?</p>
+<p begin="00:53:16.627" end="00:53:21.127" style="s2">We&#39;re calling Evelyn.</p>
+<p begin="00:53:18.227" end="00:53:21.127" style="s2">You know what to call her, right?</p>
+<p begin="00:53:27.571" end="00:53:29.591" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:53:33.227" end="00:53:35.127" style="s2">&gt;&gt; We&#39;re outside. Bruce wants to see you.</p>
+<p begin="00:53:34.776" end="00:53:36.727" style="s2">[music]</p>
+<p begin="00:53:35.127" end="00:53:38.327" style="s2">&gt;&gt; There&#39;s nothing left to say, Ryan.</p>
+<p begin="00:53:36.727" end="00:53:39.627" style="s2">&gt;&gt; You raised him for five years. You can&#39;t</p>
+<p begin="00:53:38.327" end="00:53:41.827" style="s2">spare him five minutes?</p>
+<p begin="00:53:39.627" end="00:53:45.427" style="s2">&gt;&gt; Mommy?</p>
+<p begin="00:53:41.827" end="00:53:45.427" style="s2">Fine, but this is the last time.</p>
+<p begin="00:53:55.027" end="00:53:59.627" style="s2">&gt;&gt; Mommy, I miss you so much.</p>
+<p begin="00:53:58.527" end="00:54:00.322" style="s2">&gt;&gt; Didn&#39;t you say you didn&#39;t want a fake</p>
+<p begin="00:53:59.627" end="00:54:01.927" style="s2">mommy?</p>
+<p begin="00:54:00.322" end="00:54:03.027" style="s2">&gt;&gt; [music]</p>
+<p begin="00:54:01.927" end="00:54:05.527" style="s2">&gt;&gt; He&#39;s a kid. You&#39;re really going to hold</p>
+<p begin="00:54:03.027" end="00:54:05.527" style="s2">him to that?</p>
+<p begin="00:54:05.727" end="00:54:09.027" style="s2">&gt;&gt; Why are you here?</p>
+<p begin="00:54:07.327" end="00:54:11.427" style="s2">&gt;&gt; Blackwood&#39;s putting me out of business.</p>
+<p begin="00:54:09.027" end="00:54:14.527" style="s2">Talk to him. Get him to back off</p>
+<p begin="00:54:11.427" end="00:54:16.027" style="s2">and lend me 5 million to tide me over.</p>
+<p begin="00:54:14.527" end="00:54:16.527" style="s2">&gt;&gt; So you brought Bruce along to ask me for</p>
+<p begin="00:54:16.027" end="00:54:17.627" style="s2">money?</p>
+<p begin="00:54:16.527" end="00:54:19.327" style="s2">&gt;&gt; If you&#39;d kept your mouth shut, none of</p>
+<p begin="00:54:17.627" end="00:54:22.627" style="s2">this would have happened. You got me</p>
+<p begin="00:54:19.327" end="00:54:25.727" style="s2">into this. Fix it.</p>
+<p begin="00:54:22.627" end="00:54:27.927" style="s2">&gt;&gt; You hurt us and somehow that&#39;s my fault?</p>
+<p begin="00:54:25.727" end="00:54:32.027" style="s2">I didn&#39;t say anything to him.</p>
+<p begin="00:54:27.927" end="00:54:32.027" style="s2">I&#39;m not asking him for favor or money.</p>
+<p begin="00:54:34.327" end="00:54:37.627" style="s2">&gt;&gt; Then I&#39;ll call the press.</p>
+<p begin="00:54:36.027" end="00:54:39.627" style="s2">Let everyone hear how I threw you out</p>
+<p begin="00:54:37.627" end="00:54:41.027" style="s2">and you wound up working as a nanny.</p>
+<p begin="00:54:39.627" end="00:54:43.327" style="s2">&gt;&gt; Go ahead.</p>
+<p begin="00:54:41.027" end="00:54:44.627" style="s2">Tell them who you were sleeping with</p>
+<p begin="00:54:43.327" end="00:54:47.227" style="s2">and whose child you let me raise for</p>
+<p begin="00:54:44.627" end="00:54:49.427" style="s2">five years.</p>
+<p begin="00:54:47.227" end="00:54:50.327" style="s2">I take care of kids. I earn my own</p>
+<p begin="00:54:49.427" end="00:54:52.927" style="s2">money.</p>
+<p begin="00:54:50.327" end="00:54:53.927" style="s2">I&#39;ve got nothing to be ashamed of.</p>
+<p begin="00:54:52.927" end="00:54:55.927" style="s2">Have you?</p>
+<p begin="00:54:53.927" end="00:54:57.307" style="s2">&gt;&gt; You just don&#39;t want to take care of me</p>
+<p begin="00:54:55.927" end="00:55:00.027" style="s2">anymore.</p>
+<p begin="00:54:57.307" end="00:55:01.327" style="s2">[snorts] You&#39;re mean.</p>
+<p begin="00:55:00.027" end="00:55:04.127" style="s2">&gt;&gt; You said you didn&#39;t want me I was your</p>
+<p begin="00:55:01.327" end="00:55:04.127" style="s2">fake mommy.</p>
+<p begin="00:55:10.428" end="00:55:15.428" style="s2">&gt;&gt; Stop being mean to my mommy.</p>
+<p begin="00:55:13.628" end="00:55:16.928" style="s2">&gt;&gt; She&#39;s paid to look after you.</p>
+<p begin="00:55:15.428" end="00:55:18.728" style="s2">That doesn&#39;t make her your mom.</p>
+<p begin="00:55:16.928" end="00:55:22.628" style="s2">&gt;&gt; She is our mommy.</p>
+<p begin="00:55:18.728" end="00:55:22.628" style="s2">You hurt her. Say sorry.</p>
+<p begin="00:55:24.228" end="00:55:29.628" style="s2">She&#39;s not your mommy. She&#39;s mine.</p>
+<p begin="00:55:26.928" end="00:55:32.628" style="s2">She&#39;s been my mommy for 5 years. You</p>
+<p begin="00:55:29.628" end="00:55:36.928" style="s2">just met her.</p>
+<p begin="00:55:32.628" end="00:55:36.928" style="s2">&gt;&gt; Mommy, are you going to leave with him?</p>
+<p begin="00:55:37.928" end="00:55:42.128" style="s2">&gt;&gt; You told me I was just the nanny, Bruce.</p>
+<p begin="00:55:40.428" end="00:55:44.628" style="s2">You wanted me out of your house.</p>
+<p begin="00:55:42.128" end="00:55:46.728" style="s2">&gt;&gt; But I want you back now. You have to</p>
+<p begin="00:55:44.628" end="00:55:48.728" style="s2">come home.</p>
+<p begin="00:55:46.728" end="00:55:50.228" style="s2">&gt;&gt; That&#39;s not how it works, Bruce.</p>
+<p begin="00:55:48.728" end="00:55:53.528" style="s2">You can&#39;t throw me away and then take me</p>
+<p begin="00:55:50.228" end="00:55:53.528" style="s2">back whenever you feel like it.</p>
+<p begin="00:55:53.728" end="00:55:58.328" style="s2">I&#39;m not leaving, babies. You&#39;re my kids</p>
+<p begin="00:55:55.928" end="00:55:58.328" style="s2">now.</p>
+<p begin="00:55:59.528" end="00:56:03.828" style="s2">&gt;&gt; Yeah, because their dad&#39;s rich.</p>
+<p begin="00:56:02.028" end="00:56:06.428" style="s2">See, Bruce? Mommy doesn&#39;t want us. Now</p>
+<p begin="00:56:03.828" end="00:56:08.128" style="s2">we&#39;re broke.</p>
+<p begin="00:56:06.428" end="00:56:11.528" style="s2">&gt;&gt; Leave Bruce out of this.</p>
+<p begin="00:56:08.128" end="00:56:11.528" style="s2">You&#39;re the reason I&#39;m not coming back.</p>
+<p begin="00:56:11.828" end="00:56:14.928" style="s2">&gt;&gt; Fine. Let see what Mr. Blackwood thinks</p>
+<p begin="00:56:13.943" end="00:56:16.528" style="s2">[music] when I tell him what you&#39;re</p>
+<p begin="00:56:14.928" end="00:56:19.128" style="s2">really like.</p>
+<p begin="00:56:16.528" end="00:56:19.128" style="s2">What about her?</p>
+<p begin="00:56:28.828" end="00:56:32.428" style="s2">Mr. Blackwood, she&#39;s playing you. That</p>
+<p begin="00:56:30.428" end="00:56:33.628" style="s2"> was my wife. I know her. She got</p>
+<p begin="00:56:32.428" end="00:56:35.228" style="s2">your kids to love her so she could get</p>
+<p begin="00:56:33.628" end="00:56:37.528" style="s2">to you. Now she&#39;s using you to get back</p>
+<p begin="00:56:35.228" end="00:56:37.528" style="s2">at me.</p>
+<p begin="00:56:40.128" end="00:56:42.928" style="s2">Evelyn is my wife. Those are our</p>
+<p begin="00:56:41.928" end="00:56:44.528" style="s2">children.</p>
+<p begin="00:56:42.928" end="00:56:46.328" style="s2">Whatever you&#39;re trying to do, it won&#39;t</p>
+<p begin="00:56:44.528" end="00:56:48.628" style="s2">work.</p>
+<p begin="00:56:46.328" end="00:56:50.428" style="s2">&gt;&gt; You&#39;re actually going to marry her?</p>
+<p begin="00:56:48.628" end="00:56:51.934" style="s2">&gt;&gt; I kicked her out.</p>
+<p begin="00:56:50.428" end="00:56:53.954" style="s2">People will talk.</p>
+<p begin="00:56:51.934" end="00:56:53.954" style="s2">&gt;&gt; [music]</p>
+<p begin="00:56:54.328" end="00:56:57.174" style="s2">&gt;&gt; Let them.</p>
+<p begin="00:56:55.528" end="00:56:59.128" style="s2">I&#39;m proud she&#39;s my wife.</p>
+<p begin="00:56:57.174" end="00:57:00.228" style="s2">&gt;&gt; [music]</p>
+<p begin="00:56:59.128" end="00:57:02.928" style="s2">&gt;&gt; You brought your son here to beg for</p>
+<p begin="00:57:00.228" end="00:57:05.228" style="s2">money then hurt her when she said no.</p>
+<p begin="00:57:02.928" end="00:57:07.028" style="s2">And you&#39;re worried about how I look?</p>
+<p begin="00:57:05.228" end="00:57:08.928" style="s2">I lost my head. [music] You&#39;ve already</p>
+<p begin="00:57:07.028" end="00:57:10.729" style="s2">shut me out everywhere.</p>
+<p begin="00:57:08.928" end="00:57:13.529" style="s2">Please, Mr. Blackwood,</p>
+<p begin="00:57:10.729" end="00:57:13.529" style="s2">leave us something.</p>
+<p begin="00:57:13.549" end="00:57:16.929" style="s2">[music]</p>
+<p begin="00:57:15.529" end="00:57:18.429" style="s2">Harris,</p>
+<p begin="00:57:16.929" end="00:57:20.029" style="s2">cancel whatever business we still have</p>
+<p begin="00:57:18.429" end="00:57:22.629" style="s2">with Sterling.</p>
+<p begin="00:57:20.029" end="00:57:24.129" style="s2">Every penny they owe us, I want it paid.</p>
+<p begin="00:57:22.629" end="00:57:25.729" style="s2">No extensions.</p>
+<p begin="00:57:24.129" end="00:57:29.129" style="s2">And get them out of New York.</p>
+<p begin="00:57:25.729" end="00:57:29.129" style="s2">I don&#39;t want them near my family again.</p>
+<p begin="00:57:31.329" end="00:57:35.829" style="s2">&gt;&gt; Evelyn, tell him, please. For old times.</p>
+<p begin="00:57:34.429" end="00:57:38.529" style="s2">&gt;&gt; I begged you to let me stay. Did that</p>
+<p begin="00:57:35.829" end="00:57:38.529" style="s2">matter to you?</p>
+<p begin="00:57:38.629" end="00:57:41.929" style="s2">&gt;&gt; Come on.</p>
+<p begin="00:57:39.529" end="00:57:41.929" style="s2">Let&#39;s go home.</p>
+<p begin="00:57:45.829" end="00:57:50.129" style="s2">&gt;&gt; Ryan, all our cards got reclined, and</p>
+<p begin="00:57:48.329" end="00:57:51.929" style="s2">someone&#39;s saying we&#39;re losing the house.</p>
+<p begin="00:57:50.129" end="00:57:54.329" style="s2">What did you do?</p>
+<p begin="00:57:51.929" end="00:57:54.329" style="s2">&gt;&gt; We&#39;re done.</p>
+<p begin="00:57:54.429" end="00:57:59.529" style="s2">The company&#39;s gone.</p>
+<p begin="00:57:56.729" end="00:57:59.529" style="s2">We&#39;ve got nothing left.</p>
+<p begin="00:58:03.629" end="00:58:08.129" style="s2">&gt;&gt; So that&#39;s what it feels like, knowing</p>
+<p begin="00:58:05.329" end="00:58:08.129" style="s2">someone&#39;s got your back.</p>
+<p begin="00:58:13.329" end="00:58:17.429" style="s2">Come here, sweethearts. Let me check you</p>
+<p begin="00:58:15.129" end="00:58:17.429" style="s2">over.</p>
+<p begin="00:58:18.329" end="00:58:21.729" style="s2">&gt;&gt; Mommy, how come you wouldn&#39;t look at</p>
+<p begin="00:58:19.929" end="00:58:22.729" style="s2">Daddy?</p>
+<p begin="00:58:21.729" end="00:58:24.329" style="s2">&gt;&gt; What makes you say that?</p>
+<p begin="00:58:22.729" end="00:58:25.829" style="s2">&gt;&gt; He was looking everywhere for you. When</p>
+<p begin="00:58:24.329" end="00:58:27.129" style="s2">we said you were with that mean man, he</p>
+<p begin="00:58:25.829" end="00:58:28.529" style="s2">ran out before we did.</p>
+<p begin="00:58:27.129" end="00:58:30.129" style="s2">&gt;&gt; Daddy said he&#39;s going to make you like</p>
+<p begin="00:58:28.529" end="00:58:32.529" style="s2">him more, then you won&#39;t want to leave</p>
+<p begin="00:58:30.129" end="00:58:32.529" style="s2">us.</p>
+<p begin="00:58:33.429" end="00:58:38.129" style="s2">&gt;&gt; Go wash your hands. It&#39;s snack time.</p>
+<p begin="00:58:35.229" end="00:58:38.129" style="s2">I&#39;ll take care of Mommy&#39;s wrist.</p>
+<p begin="00:58:49.929" end="00:58:54.329" style="s2">&gt;&gt; Did you get Ryan&#39;s deals canceled?</p>
+<p begin="00:58:52.529" end="00:58:57.029" style="s2">&gt;&gt; I made some calls that night</p>
+<p begin="00:58:54.329" end="00:58:58.629" style="s2">after I heard he tried to hit you.</p>
+<p begin="00:58:57.029" end="00:59:00.529" style="s2">&gt;&gt; Thank you.</p>
+<p begin="00:58:58.629" end="00:59:03.129" style="s2">But don&#39;t hurt your business over me.</p>
+<p begin="00:59:00.529" end="00:59:03.129" style="s2">It&#39;s not worth it.</p>
+<p begin="00:59:03.729" end="00:59:06.429" style="s2">&gt;&gt; You don&#39;t think you&#39;re worth it?</p>
+<p begin="00:59:08.329" end="00:59:10.229" style="s2">&gt;&gt; We&#39;re only married on paper. You don&#39;t</p>
+<p begin="00:59:09.929" end="00:59:11.129" style="s2">have to</p>
+<p begin="00:59:10.229" end="00:59:13.131" style="s2">&gt;&gt; I&#39;m not doing this because of a</p>
+<p begin="00:59:11.129" end="00:59:14.331" style="s2">contract. Evelyn, I want more than an</p>
+<p begin="00:59:13.131" end="00:59:15.831" style="s2">arrangement.</p>
+<p begin="00:59:14.331" end="00:59:17.531" style="s2">I want to be with you.</p>
+<p begin="00:59:15.831" end="00:59:20.131" style="s2">For real.</p>
+<p begin="00:59:17.531" end="00:59:20.131" style="s2">I know you need time.</p>
+<p begin="00:59:21.231" end="00:59:24.931" style="s2">You don&#39;t have to answer now. We&#39;ve got</p>
+<p begin="00:59:22.731" end="00:59:24.931" style="s2">time.</p>
+<p begin="00:59:26.031" end="00:59:29.831" style="s2">&gt;&gt; Could I really try again after</p>
+<p begin="00:59:27.531" end="00:59:34.031" style="s2">everything?</p>
+<p begin="00:59:29.831" end="00:59:34.031" style="s2">&gt;&gt; Go on a date with me tomorrow? Just us.</p>
+<p begin="00:59:37.331" end="00:59:41.831" style="s2">Go on a date with me tomorrow? Just us.</p>
+<p begin="00:59:39.531" end="00:59:41.831" style="s2">&gt;&gt; Yes.</p>
+<p begin="01:00:07.831" end="01:00:14.231" style="s2">&gt;&gt; What is it? Does this not look right?</p>
+<p begin="01:00:11.531" end="01:00:14.231" style="s2">&gt;&gt; You look beautiful.</p>
+<p begin="01:00:14.986" end="01:00:19.031" style="s2">&gt;&gt; [music]</p>
+<p begin="01:00:16.831" end="01:00:22.931" style="s2">&gt;&gt; In offices to be maybe at it seven, she</p>
+<p begin="01:00:19.031" end="01:00:24.156" style="s2">missed her a party to her party.</p>
+<p begin="01:00:22.931" end="01:00:24.811" style="s2">&gt;&gt; Mhm.</p>
+<p begin="01:00:24.156" end="01:00:26.831" style="s2">&gt;&gt; [gasps]</p>
+<p begin="01:00:24.811" end="01:00:26.831" style="s2">[sighs]</p>
+<p begin="01:00:44.831" end="01:00:49.331" style="s2">&gt;&gt; This is where we mark our mates. [music]</p>
+<p begin="01:00:47.231" end="01:00:52.031" style="s2">It&#39;s for life.</p>
+<p begin="01:00:49.331" end="01:00:52.031" style="s2">Is that what you want?</p>
+<p begin="01:00:53.131" end="01:00:55.531" style="s2">&gt;&gt; I do.</p>
+<p begin="01:01:00.331" end="01:01:03.531" style="s2">&gt;&gt; You&#39;re my mate.</p>
+<p begin="01:01:01.931" end="01:01:06.731" style="s2">No one else.</p>
+<p begin="01:01:03.531" end="01:01:06.731" style="s2">And I want to give you a big wedding.</p>
+<p begin="01:01:07.231" end="01:01:10.631" style="s2">&gt;&gt; You don&#39;t need to spend all that money.</p>
+<p begin="01:01:11.031" end="01:01:14.831" style="s2">&gt;&gt; I want everyone to know you&#39;re the one I</p>
+<p begin="01:01:12.331" end="01:01:14.831" style="s2">chose.</p>
+<p begin="01:01:15.331" end="01:01:19.132" style="s2">I just wish I&#39;d done more for you from</p>
+<p begin="01:01:16.632" end="01:01:19.132" style="s2">the start.</p>
+<p begin="01:01:19.832" end="01:01:24.232" style="s2">&gt;&gt; But we didn&#39;t even know each other.</p>
+<p begin="01:01:22.032" end="01:01:25.632" style="s2">How could you have been so sure?</p>
+<p begin="01:01:24.232" end="01:01:27.532" style="s2">&gt;&gt; One look at you</p>
+<p begin="01:01:25.632" end="01:01:30.232" style="s2">and I knew</p>
+<p begin="01:01:27.532" end="01:01:30.232" style="s2">you were my mate.</p>
+<p begin="01:01:34.132" end="01:01:38.632" style="s2">&gt;&gt; Lily and I can throw the flowers. You</p>
+<p begin="01:01:36.332" end="01:01:43.132" style="s2">boys have to carry mommy&#39;s dress.</p>
+<p begin="01:01:38.632" end="01:01:43.132" style="s2">&gt;&gt; Says who? I want to carry the rings.</p>
+<p begin="01:01:44.032" end="01:01:47.632" style="s2">&gt;&gt; You&#39;ve sorted everything out then.</p>
+<p begin="01:01:45.432" end="01:01:49.307" style="s2">What&#39;s left for us?</p>
+<p begin="01:01:47.632" end="01:01:51.327" style="s2">&gt;&gt; Getting married, I hope.</p>
+<p begin="01:01:49.307" end="01:01:51.327" style="s2">&gt;&gt; [laughter]</p>
+<p begin="01:01:54.832" end="01:01:59.632" style="s2">&gt;&gt; If you need to go to work, go. The kids</p>
+<p begin="01:01:56.732" end="01:01:59.632" style="s2">and I have this covered.</p>
+<p begin="01:02:08.032" end="01:02:10.932" style="s2">&gt;&gt; Ryan&#39;s left New York.</p>
+<p begin="01:02:09.732" end="01:02:13.332" style="s2">They&#39;ve started selling off Sterling</p>
+<p begin="01:02:10.932" end="01:02:14.932" style="s2">Group&#39;s assets.</p>
+<p begin="01:02:13.332" end="01:02:16.532" style="s2">See what&#39;s worth keeping.</p>
+<p begin="01:02:14.932" end="01:02:19.232" style="s2">Buy it for Evelyn.</p>
+<p begin="01:02:16.532" end="01:02:19.232" style="s2">A wedding present.</p>
+<p begin="01:02:22.832" end="01:02:28.332" style="s2">Sir, your mother&#39;s at the house.</p>
+<p begin="01:02:25.332" end="01:02:31.632" style="s2">She says the wedding can&#39;t go ahead.</p>
+<p begin="01:02:28.332" end="01:02:31.632" style="s2">Get the car now.</p>
+<p begin="01:02:37.432" end="01:02:40.332" style="s2">&gt;&gt; Grandma.</p>
+<p begin="01:02:40.432" end="01:02:43.732" style="s2">&gt;&gt; Hi. I&#39;m Evelyn.</p>
+<p begin="01:02:44.832" end="01:02:49.232" style="s2">So you&#39;re planning a wedding and I&#39;m the</p>
+<p begin="01:02:46.632" end="01:02:49.232" style="s2">last to know.</p>
+<p begin="01:02:55.932" end="01:02:58.832" style="s2">Aren&#39;t you a nanny? You can&#39;t even serve</p>
+<p begin="01:02:57.532" end="01:03:01.358" style="s2">tea.</p>
+<p begin="01:02:58.832" end="01:03:02.732" style="s2">What does Alexander see in you?</p>
+<p begin="01:03:01.358" end="01:03:05.732" style="s2">&gt;&gt; [sighs and gasps]</p>
+<p begin="01:03:02.732" end="01:03:05.732" style="s2">&gt;&gt; That&#39;s a question for him.</p>
+<p begin="01:03:06.132" end="01:03:09.432" style="s2">&gt;&gt; You&#39;ve turned his head.</p>
+<p begin="01:03:08.132" end="01:03:11.832" style="s2">You&#39;re human,</p>
+<p begin="01:03:09.432" end="01:03:13.432" style="s2">divorced too. Looking after the children</p>
+<p begin="01:03:11.832" end="01:03:16.432" style="s2">wasn&#39;t enough for you?</p>
+<p begin="01:03:13.432" end="01:03:16.432" style="s2">Now you want to be Luna?</p>
+<p begin="01:03:18.032" end="01:03:23.033" style="s2">&gt;&gt; We love each other.</p>
+<p begin="01:03:19.732" end="01:03:24.633" style="s2">He wants this as much as I do.</p>
+<p begin="01:03:23.033" end="01:03:26.733" style="s2">&gt;&gt; Then let me be clear.</p>
+<p begin="01:03:24.633" end="01:03:30.533" style="s2">This wedding is not happening.</p>
+<p begin="01:03:26.733" end="01:03:30.533" style="s2">&gt;&gt; You can&#39;t make mommy go, grandma.</p>
+<p begin="01:03:36.833" end="01:03:40.333" style="s2">&gt;&gt; Even the children are sticking up for</p>
+<p begin="01:03:38.333" end="01:03:43.833" style="s2">you. You&#39;ve been busy,</p>
+<p begin="01:03:40.333" end="01:03:43.833" style="s2">but that doesn&#39;t make you one of us.</p>
+<p begin="01:03:45.333" end="01:03:48.333" style="s2">Call the elders. We&#39;re holding a hearing</p>
+<p begin="01:03:46.933" end="01:03:51.433" style="s2">tonight.</p>
+<p begin="01:03:48.333" end="01:03:53.133" style="s2">Until then, there&#39;s no wedding.</p>
+<p begin="01:03:51.433" end="01:03:56.533" style="s2">Let see who&#39;s willing to accept some</p>
+<p begin="01:03:53.133" end="01:03:56.533" style="s2">lowly human as Luna.</p>
+<p begin="01:03:59.733" end="01:04:04.333" style="s2">5 million.</p>
+<p begin="01:04:00.933" end="01:04:05.333" style="s2">Sign and stay away from my son.</p>
+<p begin="01:04:04.333" end="01:04:07.233" style="s2">&gt;&gt; No.</p>
+<p begin="01:04:05.333" end="01:04:09.633" style="s2">If he wants a divorce, I need to hear it</p>
+<p begin="01:04:07.233" end="01:04:09.633" style="s2">from him.</p>
+<p begin="01:04:09.733" end="01:04:14.333" style="s2">&gt;&gt; You&#39;re a human nanny.</p>
+<p begin="01:04:11.633" end="01:04:16.533" style="s2">You don&#39;t get a say. Hold her hand down.</p>
+<p begin="01:04:14.333" end="01:04:19.733" style="s2">Get her thumbprint.</p>
+<p begin="01:04:16.533" end="01:04:19.733" style="s2">&gt;&gt; Let go of my mommy.</p>
+<p begin="01:04:21.833" end="01:04:24.833" style="s2">&gt;&gt; Take the children outside.</p>
+<p begin="01:04:27.933" end="01:04:32.133" style="s2">&gt;&gt; They&#39;re your grandchildren. Look at</p>
+<p begin="01:04:29.433" end="01:04:32.133" style="s2">them. They&#39;re terrified.</p>
+<p begin="01:04:33.233" end="01:04:36.733" style="s2">&gt;&gt; They never behaved like this before you.</p>
+<p begin="01:04:35.333" end="01:04:37.833" style="s2">Now they&#39;re attacking their own family</p>
+<p begin="01:04:36.733" end="01:04:39.233" style="s2">over a stranger.</p>
+<p begin="01:04:37.833" end="01:04:39.633" style="s2">&gt;&gt; They&#39;re protecting me. Just wait until</p>
+<p begin="01:04:39.233" end="01:04:41.433" style="s2">Alexander</p>
+<p begin="01:04:39.633" end="01:04:45.033" style="s2">&gt;&gt; Let him come. We&#39;ll see how he feels</p>
+<p begin="01:04:41.433" end="01:04:46.133" style="s2">about losing his place as alpha king.</p>
+<p begin="01:04:45.033" end="01:04:47.633" style="s2">&gt;&gt; You&#39;d remove him?</p>
+<p begin="01:04:46.133" end="01:04:48.633" style="s2">&gt;&gt; We won&#39;t accept a human nanny as our</p>
+<p begin="01:04:47.633" end="01:04:50.333" style="s2">Luna.</p>
+<p begin="01:04:48.633" end="01:04:53.233" style="s2">If he wants you that badly,</p>
+<p begin="01:04:50.333" end="01:04:55.233" style="s2">we&#39;ll find another alpha king.</p>
+<p begin="01:04:53.233" end="01:04:57.533" style="s2">&gt;&gt; He never told me.</p>
+<p begin="01:04:55.233" end="01:04:59.433" style="s2">&gt;&gt; He nearly died to become alpha king.</p>
+<p begin="01:04:57.533" end="01:05:02.033" style="s2">Now he&#39;s risking it all for you.</p>
+<p begin="01:04:59.433" end="01:05:04.233" style="s2">You&#39;re really going to let him?</p>
+<p begin="01:05:02.033" end="01:05:05.033" style="s2">&gt;&gt; End the marriage. Cancel the wedding. He</p>
+<p begin="01:05:04.233" end="01:05:07.433" style="s2">stays king.</p>
+<p begin="01:05:05.033" end="01:05:08.633" style="s2">&gt;&gt; I want to give you a big wedding.</p>
+<p begin="01:05:07.433" end="01:05:09.733" style="s2">&gt;&gt; You&#39;ll never have to worry about money</p>
+<p begin="01:05:08.633" end="01:05:11.433" style="s2">again.</p>
+<p begin="01:05:09.733" end="01:05:12.333" style="s2">If you love him, give something up for</p>
+<p begin="01:05:11.433" end="01:05:15.333" style="s2">him.</p>
+<p begin="01:05:12.333" end="01:05:15.333" style="s2">He has given up enough for you.</p>
+<p begin="01:05:16.433" end="01:05:21.233" style="s2">&gt;&gt; I don&#39;t want your money. Just promise me</p>
+<p begin="01:05:18.133" end="01:05:21.233" style="s2">you won&#39;t take all this away from him.</p>
+<p begin="01:05:22.033" end="01:05:25.335" style="s2">I really thought we could have a life</p>
+<p begin="01:05:23.035" end="01:05:28.335" style="s2">together. I&#39;m sorry, Alexander. I guess</p>
+<p begin="01:05:25.335" end="01:05:28.335" style="s2">we don&#39;t get to have that.</p>
+<p begin="01:05:29.335" end="01:05:32.135" style="s2">&gt;&gt; Don&#39;t sign.</p>
+<p begin="01:05:42.435" end="01:05:45.110" style="s2">Who gave you the right to drive my wife</p>
+<p begin="01:05:43.735" end="01:05:47.130" style="s2">out of her own home?</p>
+<p begin="01:05:45.110" end="01:05:47.130" style="s2">&gt;&gt; [snorts]</p>
+<p begin="01:05:54.135" end="01:05:57.335" style="s2">&gt;&gt; You&#39;re still taking her side?</p>
+<p begin="01:05:55.935" end="01:05:59.335" style="s2">You took down a business partner for</p>
+<p begin="01:05:57.335" end="01:06:00.535" style="s2">some divorced nanny?</p>
+<p begin="01:05:59.335" end="01:06:03.135" style="s2">How can you run this company when she&#39;s</p>
+<p begin="01:06:00.535" end="01:06:04.235" style="s2">got you wrapped around her finger?</p>
+<p begin="01:06:03.135" end="01:06:06.635" style="s2">&gt;&gt; Ryan was stealing money and cooking the</p>
+<p begin="01:06:04.235" end="01:06:08.235" style="s2">books.</p>
+<p begin="01:06:06.635" end="01:06:10.635" style="s2">You want to defend him?</p>
+<p begin="01:06:08.235" end="01:06:10.635" style="s2">Go ahead.</p>
+<p begin="01:06:12.435" end="01:06:17.535" style="s2">This is about our pack, our reputation.</p>
+<p begin="01:06:15.435" end="01:06:18.735" style="s2">You expect us to accept a divorced human</p>
+<p begin="01:06:17.535" end="01:06:20.635" style="s2">as Luna?</p>
+<p begin="01:06:18.735" end="01:06:22.335" style="s2">You&#39;d give up being alpha king for her?</p>
+<p begin="01:06:20.635" end="01:06:23.435" style="s2">&gt;&gt; Alexander, please.</p>
+<p begin="01:06:22.335" end="01:06:25.065" style="s2">You shouldn&#39;t have to lose everything</p>
+<p begin="01:06:23.435" end="01:06:27.085" style="s2">for me.</p>
+<p begin="01:06:25.065" end="01:06:27.085" style="s2">&gt;&gt; [music]</p>
+<p begin="01:06:27.435" end="01:06:32.235" style="s2">&gt;&gt; You&#39;re my wife, my mate.</p>
+<p begin="01:06:29.635" end="01:06:35.035" style="s2">I chose you.</p>
+<p begin="01:06:32.235" end="01:06:35.035" style="s2">That hasn&#39;t changed.</p>
+<p begin="01:06:35.235" end="01:06:39.335" style="s2">Then we&#39;ll find another alpha king.</p>
+<p begin="01:06:37.435" end="01:06:43.435" style="s2">Get her out of here.</p>
+<p begin="01:06:39.335" end="01:06:43.435" style="s2">If she resists, break her legs.</p>
+<p begin="01:06:54.635" end="01:06:57.935" style="s2">&gt;&gt; Alexander,</p>
+<p begin="01:06:56.135" end="01:07:01.935" style="s2">using your alpha power on your own</p>
+<p begin="01:06:57.935" end="01:07:01.935" style="s2">elders? How dare you?</p>
+<p begin="01:07:04.535" end="01:07:09.835" style="s2">&gt;&gt; Evelyn is my mate.</p>
+<p begin="01:07:06.335" end="01:07:09.835" style="s2">Anyone who threatens her answers to me.</p>
+<p begin="01:07:10.035" end="01:07:12.935" style="s2">I run this company and this pack. You</p>
+<p begin="01:07:11.735" end="01:07:14.635" style="s2">want me out?</p>
+<p begin="01:07:12.935" end="01:07:16.135" style="s2">Then challenge me.</p>
+<p begin="01:07:14.635" end="01:07:18.535" style="s2">See how far you get.</p>
+<p begin="01:07:16.135" end="01:07:18.535" style="s2">&gt;&gt; You.</p>
+<p begin="01:07:19.135" end="01:07:23.036" style="s2">&gt;&gt; You want a divorce?</p>
+<p begin="01:07:20.835" end="01:07:23.036" style="s2">All All</p>
+<p begin="01:07:25.336" end="01:07:28.236" style="s2">Then Evelyn gets it all.</p>
+<p begin="01:07:28.536" end="01:07:31.336" style="s2">Force us to divorce and I walk away with</p>
+<p begin="01:07:30.336" end="01:07:32.636" style="s2">nothing.</p>
+<p begin="01:07:31.336" end="01:07:35.236" style="s2">Control of the company, the pack&#39;s</p>
+<p begin="01:07:32.636" end="01:07:37.736" style="s2">assets, everything in my name.</p>
+<p begin="01:07:35.236" end="01:07:37.736" style="s2">All hers.</p>
+<p begin="01:07:46.936" end="01:07:50.636" style="s2">&gt;&gt; Are you out of your mind?</p>
+<p begin="01:07:49.036" end="01:07:53.336" style="s2">You&#39;re handing the company and the whole</p>
+<p begin="01:07:50.636" end="01:07:55.336" style="s2">pack over to some lowly human?</p>
+<p begin="01:07:53.336" end="01:07:57.736" style="s2">&gt;&gt; Question that again and you&#39;re off the</p>
+<p begin="01:07:55.336" end="01:07:57.736" style="s2">board.</p>
+<p begin="01:07:59.236" end="01:08:03.136" style="s2">Show them out.</p>
+<p begin="01:08:01.336" end="01:08:04.936" style="s2">From now on, my wife decides who&#39;s</p>
+<p begin="01:08:03.136" end="01:08:06.736" style="s2">welcome here.</p>
+<p begin="01:08:04.936" end="01:08:07.936" style="s2">&gt;&gt; You&#39;re kicking out your own mother over</p>
+<p begin="01:08:06.736" end="01:08:09.236" style="s2">her?</p>
+<p begin="01:08:07.936" end="01:08:10.636" style="s2">&gt;&gt; Did you think about your son when you</p>
+<p begin="01:08:09.236" end="01:08:13.136" style="s2">tried to force his wife to sign those</p>
+<p begin="01:08:10.636" end="01:08:13.136" style="s2">papers?</p>
+<p begin="01:08:26.236" end="01:08:29.836" style="s2">&gt;&gt; Mommy, you&#39;re not going to leave now,</p>
+<p begin="01:08:28.436" end="01:08:31.336" style="s2">right?</p>
+<p begin="01:08:29.836" end="01:08:33.736" style="s2">&gt;&gt; No, sweetheart.</p>
+<p begin="01:08:31.336" end="01:08:36.236" style="s2">I&#39;m right here and I&#39;m staying.</p>
+<p begin="01:08:33.736" end="01:08:36.236" style="s2">Always.</p>
+<p begin="01:08:38.236" end="01:08:41.836" style="s2">&gt;&gt; You&#39;re just giving me all that.</p>
+<p begin="01:08:40.036" end="01:08:43.136" style="s2">What if I take the money and run?</p>
+<p begin="01:08:41.836" end="01:08:45.736" style="s2">&gt;&gt; I die for you.</p>
+<p begin="01:08:43.136" end="01:08:45.736" style="s2">What&#39;s a little money?</p>
+<p begin="01:08:48.936" end="01:08:52.436" style="s2">&gt;&gt; Evelyn?</p>
+<p begin="01:08:49.936" end="01:08:52.436" style="s2">Are you okay?</p>
+<p begin="01:08:52.536" end="01:08:55.536" style="s2">Harris, call the doctor.</p>
+<p begin="01:08:57.336" end="01:08:59.836" style="s2">Doctor?</p>
+<p begin="01:08:58.436" end="01:09:02.036" style="s2">She keeps dry heaving. What&#39;s wrong with</p>
+<p begin="01:08:59.836" end="01:09:02.036" style="s2">her?</p>
+<p begin="01:09:02.736" end="01:09:05.036" style="s2">&gt;&gt; Hey.</p>
+<p begin="01:09:03.736" end="01:09:08.736" style="s2">Don&#39;t worry.</p>
+<p begin="01:09:05.036" end="01:09:08.736" style="s2">I&#39;ve probably just been overdoing it.</p>
+<p begin="01:09:09.936" end="01:09:13.836" style="s2">&gt;&gt; Congratulations. You&#39;re pregnant.</p>
+<p begin="01:09:14.836" end="01:09:18.836" style="s2">&gt;&gt; We&#39;re</p>
+<p begin="01:09:15.836" end="01:09:18.836" style="s2">having a baby?</p>
+<p begin="01:09:22.572" end="01:09:26.438" style="s2">&gt;&gt; [screaming]</p>
+<p begin="01:09:23.636" end="01:09:30.838" style="s2">&gt;&gt; I&#39;m going to be a sister.</p>
+<p begin="01:09:26.438" end="01:09:30.838" style="s2">Slow down. Watch mommy&#39;s tummy.</p>
+<p begin="01:09:33.708" end="01:09:35.728" style="s2">&gt;&gt; [music]</p>
+<p begin="01:09:36.838" end="01:09:41.038" style="s2">&gt;&gt; Thank you, Evelyn.</p>
+<p begin="01:09:38.237" end="01:09:41.038" style="s2">You made us a family.</p>
+<p begin="01:09:53.358" end="01:09:55.378" style="s2">&gt;&gt; [bell and music]</p>
+<p begin="01:10:00.563" end="01:10:02.583" style="s2">[music]</p>
+<p begin="01:10:07.113" end="01:10:09.133" style="s2">[music]</p>
+<p begin="01:10:09.338" end="01:10:13.838" style="s2">&gt;&gt; Alexander Blackwood, do you take Evelyn</p>
+<p begin="01:10:11.637" end="01:10:15.628" style="s2">Carter to be your wife, to love and</p>
+<p begin="01:10:13.838" end="01:10:16.838" style="s2">respect her for the rest of your life?</p>
+<p begin="01:10:15.628" end="01:10:19.137" style="s2">&gt;&gt; [music]</p>
+<p begin="01:10:16.838" end="01:10:20.438" style="s2">&gt;&gt; I do.</p>
+<p begin="01:10:19.137" end="01:10:21.838" style="s2">&gt;&gt; Evelyn,</p>
+<p begin="01:10:20.438" end="01:10:24.637" style="s2">do you take Alexander to be your</p>
+<p begin="01:10:21.838" end="01:10:25.938" style="s2">husband, to love and respect him for the</p>
+<p begin="01:10:24.637" end="01:10:28.238" style="s2">rest of your life?</p>
+<p begin="01:10:25.938" end="01:10:30.038" style="s2">&gt;&gt; Get my five children to sit down and eat</p>
+<p begin="01:10:28.238" end="01:10:32.438" style="s2">and you can stay.</p>
+<p begin="01:10:30.038" end="01:10:32.438" style="s2">&gt;&gt; I do.</p>
+<p begin="01:10:43.137" end="01:10:49.038" style="s2">That night, out in the rain,</p>
+<p begin="01:10:46.538" end="01:10:52.238" style="s2">I thought I&#39;d never have a home again.</p>
+<p begin="01:10:49.038" end="01:10:52.238" style="s2">Then you all came into my life.</p>
+<p begin="01:10:52.338" end="01:10:55.938" style="s2">&gt;&gt; No more contracts, Evelyn.</p>
+<p begin="01:10:54.538" end="01:10:57.238" style="s2">I love you</p>
+<p begin="01:10:55.938" end="01:11:00.738" style="s2">and I always will.</p>
+<p begin="01:10:57.238" end="01:11:00.738" style="s2">&gt;&gt; I love you too, always.</p>
+<p begin="01:11:17.199" end="01:11:19.219" style="s2">&gt;&gt; [music]</p>
+</div>
+</body>
+</tt>

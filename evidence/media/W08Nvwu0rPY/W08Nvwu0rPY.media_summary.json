@@ -1,0 +1,40 @@
+{
+  "video_id": "W08Nvwu0rPY",
+  "probe": {
+    "duration": 192.934603,
+    "size": 5488291,
+    "width": 202,
+    "height": 360,
+    "fps": "24/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\W08Nvwu0rPY\\contact_sheets\\contact_000.jpg"
+  ],
+  "seconds_indexed": 193,
+  "shot_count": 7,
+  "shot_length_mean_seconds": 27.571428571428573,
+  "shot_length_median_seconds": 8.0,
+  "shot_length_p90_seconds": 80.00000000000001,
+  "visual_motion_mean": 0.13523275033604604,
+  "visual_brightness_mean": 0.22325868518550163,
+  "dialogue_cues": 49,
+  "narrative_markers": {
+    "first_conflict_language": null,
+    "first_power_or_identity_language": {
+      "time": 104.3,
+      "text": "Isn't this the ring I've been looking"
+    },
+    "first_care_or_belonging_language": {
+      "time": 95.2,
+      "text": "Thank you, miss."
+    },
+    "dialogue_words_per_minute": [
+      63,
+      104,
+      96,
+      5
+    ],
+    "cue_count": 49
+  }
+}

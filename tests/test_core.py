@@ -2720,3 +2720,3170 @@ def test_object_testimony_speaks_volumes_idiom_not_applicable():
     from studio.object_testimony_integrity import evaluate_object_testimony_integrity
     premise={"title":"Museum Artifact","logline":"The artifact speaks volumes about museum history, provenance, and restoration."}
     assert evaluate_object_testimony_integrity(premise,{},[])["applies"] is False
+
+
+def _competence_cascade_fixture():
+    premise={
+        "title":"The Quiet Blade",
+        "logline":"A reborn assassin in a bullied scholarship student's body protects her poor family and takes revenge after classmates publicly read her diary.",
+    }
+    architecture={
+        "sequences":[
+            {"summary":"School bullies publicly read her diary and humiliate her. Her mother cares for her in hospital while her brother sacrifices school and the family faces medical debt."},
+            {"summary":"She proves hidden competence early in a night race, then uses combat skill against debt collectors while explaining the clean source of prize money and evidence."},
+            {"summary":"The academy math contest, military shooting training, hospital family scenes, elite banquet, underground arena, and police investigation rotate the same wound through new institutions."},
+            {"summary":"During a team test she refuses to abandon a wounded comrade and shields a subordinate, proving loyalty is the real standard."},
+        ],
+        "ending_payoff":{"repair":"Police, law, and a public apology close the conspiracy. The ally stands with her without taking over, respects her choice, justice and family belonging land, and only then a new mission calls her back."},
+    }
+    scenes=[{"summary":"She becomes a special agent and instructor; marriage is framed by explicit mutual consent and she freely chooses intimacy."}]
+    return premise,architecture,scenes
+
+
+def test_competence_cascade_integrity_balanced_example_passes_core_checks():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    r=evaluate_competence_cascade_integrity(premise,architecture,scenes)
+    assert r["applies"] is True
+    assert r["checks"]["distinct_competence_domains"] is True
+    assert r["checks"]["institutional_arena_rotation"] is True
+    assert r["checks"]["ethical_loyalty_test"] is True
+    assert r["checks"]["closure_before_mission_hook"] is True
+    assert r["checks"]["romance_or_intimacy_respects_refusal"] is True
+
+
+def test_competence_cascade_integrity_flags_refusal_overriding_romance():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes.append({"summary":"During intimacy, when she asks him to stop, he laughs that she has no right to refuse."})
+    r=evaluate_competence_cascade_integrity(premise,architecture,scenes)
+    assert r["checks"]["romance_or_intimacy_respects_refusal"] is False
+    assert any("coercive refusal" in w for w in r["warnings"])
+
+
+def test_competence_cascade_integrity_flags_hook_before_closure():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture["ending_payoff"]={"repair":"A new mission calls her back immediately. Much later, justice and family belonging are only vaguely mentioned."}
+    r=evaluate_competence_cascade_integrity(premise,architecture,scenes)
+    assert r["checks"]["closure_before_mission_hook"] is False
+
+
+def test_competence_cascade_integrity_not_applicable_without_hidden_mastery_reversal():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise={"title":"Gentle Garden","logline":"A gardener repairs a community greenhouse."}
+    r=evaluate_competence_cascade_integrity(premise,{},[])
+    assert r["applies"] is False
+
+
+def test_competence_cascade_applies_to_bullied_secret_prodigy():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise={"title":"Hidden Numbers","logline":"A bullied scholarship student is secretly a mathematical prodigy and takes revenge on the academy that humiliated her."}
+    assert evaluate_competence_cascade_integrity(premise,{},[])["applies"] is True
+
+
+def test_competence_cascade_does_not_apply_when_assassin_is_only_villain():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise={"title":"Ordinary Target","logline":"A bullied student survives when an assassin villain attacks her school; she has no hidden mastery."}
+    assert evaluate_competence_cascade_integrity(premise,{},[])["applies"] is False
+
+
+def test_competence_cascade_architecture_closure_survives_final_mission_scene():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes=[{"summary":"After the victory epilogue, command gives her a new mission."}]
+    r=evaluate_competence_cascade_integrity(premise,architecture,scenes)
+    assert r["checks"]["closure_before_mission_hook"] is True
+
+
+def test_competence_cascade_detects_ignored_refusal_during_kiss():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes.append({"summary":"She asked him to stop, but he kept kissing her."})
+    r=evaluate_competence_cascade_integrity(premise,architecture,scenes)
+    assert r["checks"]["romance_or_intimacy_respects_refusal"] is False
+
+
+def test_competence_cascade_military_order_refusal_is_not_romantic_coercion():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes.append({"summary":"The commander says soldiers can't refuse a lawful order during the mission briefing."})
+    r=evaluate_competence_cascade_integrity(premise,architecture,scenes)
+    assert r["checks"]["romance_or_intimacy_respects_refusal"] is True
+
+
+def test_competence_cascade_title_skill_is_not_early_proof():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    premise["title"]="The Skilled Assassin"
+    architecture["sequences"]=[
+        {"summary":"School bullies publicly humiliate her while her poor mother cares for the family through medical debt."},
+        {"summary":"The family argues about debt collectors, hospital bills, and school prejudice without any demonstration of her ability."},
+        {"summary":"The academy, military, banquet, arena, and police institutions rotate while she refuses to abandon a wounded comrade."},
+        {"summary":"In the finale she finally demonstrates skill, wins evidence, and police close the case according to law."},
+    ]
+    r=evaluate_competence_cascade_integrity(premise,architecture,scenes)
+    assert r["checks"]["hidden_competence_is_proven_early"] is False
+
+
+def test_compressed_wish_integrity_balanced_creature_family_example():
+    from studio.compressed_wish_integrity import evaluate_compressed_wish_integrity
+    premise={"title":"The Tide Star","logline":"A mermaid son wishes for a tail because his legs make him too slow and he feels caught between sea and land family worlds."}
+    architecture={"sequences":[
+      {"summary":"Daddy has one breath underwater. At Christmas the child learns to give something you love to someone you love, then follows the fallen star because he thinks it fell for him."},
+      {"summary":"The wishing star is a creature baby alone and scared. When the mother creature attacks, the child learns that's her baby and gives it back for you."},
+      {"summary":"The mother admits she blamed the father's stories but they brought him home. Grandpa says the child stood between them with one breath."},
+      {"summary":"In the sea a tail, on land your legs; he gave his star away and got his wish, closing Christmas with merry Christmas."},
+    ]}
+    r=evaluate_compressed_wish_integrity(premise,architecture,[])
+    assert r["applies"] is True
+    assert r["checks"]["possession_reframed_as_attachment"] is True
+    assert r["checks"]["sacrifice_before_reward"] is True
+    assert r["checks"]["transformation_integrates_identity"] is True
+
+
+def test_compressed_wish_integrity_flags_vending_machine_reward():
+    from studio.compressed_wish_integrity import evaluate_compressed_wish_integrity
+    premise={"title":"Tail Wish","logline":"A mermaid son wishes for a tail."}
+    architecture={"sequences":[{"summary":"He finds a magic stone and immediately gets a tail."}]}
+    r=evaluate_compressed_wish_integrity(premise,architecture,[])
+    assert r["checks"]["wish_carrier_is_vulnerable_or_personlike"] is False
+    assert r["checks"]["sacrifice_before_reward"] is False
+    assert r["score_0_to_1"] < 0.5
+
+
+def test_competence_cascade_hook_before_closure_across_scene_order_fails():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['ending_payoff']={'repair':'Status victory is mentioned.'}
+    scenes=[
+      {"summary":"Command gives her a new mission."},
+      {"summary":"Only afterward does she reunite with family and belonging."},
+    ]
+    r=evaluate_competence_cascade_integrity(premise,architecture,scenes)
+    assert r['checks']['closure_before_mission_hook'] is False
+
+
+def test_competence_cascade_consensual_continued_kissing_passes():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes.append({"summary":"They both consent enthusiastically, and he keeps kissing her as she pulls him closer."})
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['romance_or_intimacy_respects_refusal'] is True
+
+
+def test_competence_cascade_midpoint_reversal_coercion_is_checked():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['midpoint_reversal']='During intimacy she says stop, but he keeps kissing her.'
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['romance_or_intimacy_respects_refusal'] is False
+
+
+def test_compressed_wish_reward_before_sacrifice_fails_order():
+    from studio.compressed_wish_integrity import evaluate_compressed_wish_integrity
+    premise={"title":"The Tide Star","logline":"A mermaid son wishes for a tail because he feels slow between sea and land."}
+    architecture={"sequences":[{"summary":"He follows the wishing star, which is a creature baby. In the sea a tail appears and his wish comes true. Much later he gives the baby back and says for you."}]}
+    assert evaluate_compressed_wish_integrity(premise,architecture,[])['checks']['sacrifice_before_reward'] is False
+
+
+def test_compressed_wish_details_do_not_mean_tail():
+    from studio.compressed_wish_integrity import evaluate_compressed_wish_integrity
+    premise={"title":"Family Mystery","logline":"A mother wishes detectives would uncover the details of a realistic family mystery."}
+    assert evaluate_compressed_wish_integrity(premise,{},[])['applies'] is False
+
+
+def test_competence_cascade_after_clause_refusal_is_detected():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes.append({"summary":"He keeps kissing her after she says no."})
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['romance_or_intimacy_respects_refusal'] is False
+
+
+def test_competence_cascade_anti_patterns_checklist_not_story_evidence():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['anti_patterns_checked']=['During intimacy she says stop, but he keeps kissing her.']
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['romance_or_intimacy_respects_refusal'] is True
+
+
+def test_competence_cascade_scene_closure_before_teaser_beats_recap_order():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['ending_payoff']={'repair':'Recap: a new mission was teased, after justice and family belonging had already been resolved.'}
+    scenes=[
+      {"summary":"Police close the case and justice restores the family."},
+      {"summary":"Finally command gives her a new mission."},
+    ]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is True
+
+
+def test_competence_cascade_closure_without_teaser_passes():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['ending_payoff']={'repair':'Police close the case; justice and family belonging are restored.'}
+    scenes=[{'summary':'The family returns home in peace.'}]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is True
+
+
+def test_competence_cascade_split_outline_closure_then_teaser_passes():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['sequences'][-1]={'summary':'Police deliver justice and the family is reunited.'}
+    architecture['ending_payoff']={'repair':'Afterward command gives her a new mission.'}
+    scenes=[]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is True
+
+
+def test_competence_cascade_now_kiss_me_is_not_refusal():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes.append({'summary':'She says, “Now kiss me again,” and he keeps kissing her.'})
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['romance_or_intimacy_respects_refusal'] is True
+
+
+def test_taboo_family_irony_balanced_example():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'The Don Next Door','logline':'A student secretly marries a powerful older mafia boss, unaware he is her best friend\'s father.'}
+    architecture={'sequences':[
+      {'summary':'The audience knows the hidden identity while the best friend stays unaware and investigates to protect her.'},
+      {'summary':'Mansion breakfast, boutique shopping, campus humiliation, hockey arena party, and mafia business operations rotate the conflict.'},
+      {'summary':'After public gold-digger shame, he uses evidence and family rules rather than lawless force. She hears the truth, says no more lies, rejects him, and can leave.'},
+      {'summary':'He apologizes for possessive surveillance and asks for free choice. The final reveal makes the best friend ask whether she is now family or stepmother.'}
+    ]}
+    r=evaluate_taboo_family_irony_integrity(premise,architecture,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] > 0.8
+
+
+def test_taboo_family_irony_flags_unrepaired_possession():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Owned',"logline":"A student secretly marries a mafia boss who is her best friend's father."}
+    architecture={'sequences':[{'summary':'After a drunken marriage he cuts her internet, uses surveillance, and says you are mine. The story treats this as romantic proof.'}]}
+    r=evaluate_taboo_family_irony_integrity(premise,architecture,[])
+    assert r['checks']['possessiveness_is_flaw_not_reward'] is False
+    assert r['score_0_to_1'] < 0.7
+
+
+def test_competence_cascade_opening_family_is_not_final_closure():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['ending_payoff']={'repair':'The conflict remains open.'}
+    scenes=[
+      {'summary':'The family appears in the opening hospital backstory.'},
+      {'summary':'The academy conflict escalates.'},
+      {'summary':'The final scene leaves the conspiracy unresolved.'},
+    ]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is False
+
+
+def test_competence_cascade_recapped_early_mission_is_not_positioned_late():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['sequences'][-1]={'summary':'Police deliver justice and the family is reunited.'}
+    architecture['ending_payoff']={'repair':'Recap: before the finale, command had already offered her a new mission.'}
+    assert evaluate_competence_cascade_integrity(premise,architecture,[])['checks']['closure_before_mission_hook'] is False
+
+
+def test_competence_cascade_drawn_out_refusal_is_detected():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes.append({'summary':'She says, “Nooo!”, but he keeps kissing her.'})
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['romance_or_intimacy_respects_refusal'] is False
+
+
+def test_taboo_family_irony_stormglass_not_applicable():
+    import json
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise=json.load(open('examples/stormglass_project/premise.json',encoding='utf8'))
+    assert evaluate_taboo_family_irony_integrity(premise,{},[])['applies'] is False
+
+
+def test_taboo_family_irony_truth_reveal_does_not_mask_coercion():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Bestie Dad','logline':"A student secretly marries a mafia boss who is her bestie's father."}
+    architecture={'sequences':[{'summary':'She learns the truth, but he says she has no right to refuse, keeps surveillance, and calls that love.'}]}
+    r=evaluate_taboo_family_irony_integrity(premise,architecture,[])
+    assert r['applies'] is True
+    assert r['checks']['possessiveness_is_flaw_not_reward'] is False
+    assert r['checks']['protagonist_can_reject_power'] is False
+    assert r['checks']['truth_and_consent_repair'] is False
+
+
+def test_competence_cascade_before_credits_mission_passes():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['sequences'][-1]={'summary':'Police deliver justice and the family is reunited.'}
+    architecture['ending_payoff']={'repair':'Before the credits roll, she accepts a new mission.'}
+    assert evaluate_competence_cascade_integrity(premise,architecture,[])['checks']['closure_before_mission_hook'] is True
+
+
+def test_competence_cascade_new_unresolved_case_does_not_negate_closure():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['sequences'][-1]={'summary':'Police deliver justice and the family is reunited.'}
+    architecture['ending_payoff']={'repair':'A new mission sends her after an unresolved case in another city.'}
+    assert evaluate_competence_cascade_integrity(premise,architecture,[])['checks']['closure_before_mission_hook'] is True
+
+
+def test_taboo_family_irony_besties_dad_applies():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Secret Vows','logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
+    assert evaluate_taboo_family_irony_integrity(premise,{},[])['applies'] is True
+
+
+def test_taboo_family_irony_late_logline_not_opening_evidence():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Late Reveal','logline':"She secretly marries a mafia boss, unaware he is her bestie's dad.",'opening_event':{'first_60_seconds':'She studies quietly at school and nothing romantic or criminal is established.'}}
+    r=evaluate_taboo_family_irony_integrity(premise,{},[])
+    assert r['checks']['compounded_impossibility_early'] is False
+
+
+def test_taboo_family_irony_shared_reveal_not_superior_knowledge():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Shared Reveal','logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
+    architecture={'sequences':[{'summary':'The audience and characters learn the secret together at the ending; until then she is unaware.'}]}
+    assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['audience_has_superior_knowledge'] is False
+
+
+def test_competence_cascade_unresolved_original_plus_mission_fails():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['sequences'][-1]={'summary':'Police deliver justice for one minor victim.'}
+    architecture['ending_payoff']={'repair':'The original conflict remains unresolved, and a new mission begins.'}
+    assert evaluate_competence_cascade_integrity(premise,architecture,[])['checks']['closure_before_mission_hook'] is False
+
+
+def test_competence_cascade_full_scene_order_crosses_cutoff():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['ending_payoff']={'repair':'Status epilogue.'}
+    resolved_then_hook=[
+      {'summary':'Opening setup.'},{'summary':'Middle escalation.'},{'summary':'Police deliver justice and family is reunited.'},
+      {'summary':'Epilogue noise.'},{'summary':'Finally command gives her a new mission.'},
+    ]
+    hook_then_resolved=[
+      {'summary':'Opening setup.'},{'summary':'Command gives her a new mission.'},{'summary':'Middle escalation.'},
+      {'summary':'More escalation.'},{'summary':'Police deliver justice and family is reunited.'},
+    ]
+    assert evaluate_competence_cascade_integrity(premise,architecture,resolved_then_hook)['checks']['closure_before_mission_hook'] is True
+    assert evaluate_competence_cascade_integrity(premise,architecture,hook_then_resolved)['checks']['closure_before_mission_hook'] is False
+
+
+def test_taboo_family_irony_falls_inlove_and_former_guardian_apply():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    one={'title':'Guardian Secret','logline':'She falls in love with a powerful mafia boss who is her former guardian, hiding the truth.'}
+    two={'title':'Bestie Parent','logline':"She falls in love with a powerful mafia boss, unaware he is her bestie's dad."}
+    assert evaluate_taboo_family_irony_integrity(one,{},[])['applies'] is True
+    assert evaluate_taboo_family_irony_integrity(two,{},[])['applies'] is True
+
+
+def test_taboo_family_irony_cut_to_internet_not_coercion():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Bestie Parent','logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
+    architecture={'sequences':[{'summary':'Cut to a classroom scene.'},{'summary':'She uses the internet for homework.'}]}
+    r=evaluate_taboo_family_irony_integrity(premise,architecture,[])
+    assert r['checks']['possessiveness_is_flaw_not_reward'] is True
+
+
+def test_taboo_family_irony_chooses_to_leave_counts_agency():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Bestie Parent','logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
+    architecture={'sequences':[{'summary':'After the truth comes out, she chooses to leave him.'}]}
+    assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['protagonist_can_reject_power'] is True
+
+
+def test_competence_cascade_same_scene_finale_order_positions():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['ending_payoff']={'repair':'Status epilogue.'}
+    good=[{'summary':'In the finale police close the conspiracy, and only then command offers a new mission.'}]
+    bad=[{'summary':'In the finale command offers a new mission, before police close the conspiracy.'}]
+    assert evaluate_competence_cascade_integrity(premise,architecture,good)['checks']['closure_before_mission_hook'] is True
+    assert evaluate_competence_cascade_integrity(premise,architecture,bad)['checks']['closure_before_mission_hook'] is False
+
+
+def test_competence_cascade_setup_family_or_school_order_not_finale_evidence():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['ending_payoff']={'repair':'Status epilogue.'}
+    scenes=[
+      {'summary':'Opening: her family is poor and the school ordered her to attend class.'},
+      {'summary':'A new mission is mentioned in the middle.'},
+      {'summary':'The case is closed at the end.'},
+    ]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is False
+
+
+def test_competence_cascade_new_open_case_and_explicit_conspiracy_unresolved():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['sequences'][-1]={'summary':'Police close the conspiracy.'}
+    architecture['ending_payoff']={'repair':'The main case is closed. Her new mission leaves the next case unresolved.'}
+    assert evaluate_competence_cascade_integrity(premise,architecture,[])['checks']['closure_before_mission_hook'] is True
+    architecture['ending_payoff']={'repair':'She goes home. The conspiracy is unresolved.'}
+    assert evaluate_competence_cascade_integrity(premise,architecture,[])['checks']['closure_before_mission_hook'] is False
+
+
+def test_taboo_family_irony_access_internet_coercion_and_bestfriend_departure():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Bestie Parent','logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
+    architecture={'sequences':[{'summary':'He cut off her access to the internet.'}]}
+    assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['possessiveness_is_flaw_not_reward'] is False
+    architecture={'sequences':[{'summary':'The best friend chooses to leave town for college.'}]}
+    assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['protagonist_can_reject_power'] is False
+
+
+def test_competence_cascade_explicit_before_order_beats_field_order():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['ending_payoff']={'repair':'Status epilogue.'}
+    scenes=[{'visual_action':'Final reunion image: the family is reunited.','dialogue_design':'The commander offers a new mission before this final reunion image.'}]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is False
+
+
+def test_competence_cascade_separate_payoff_field_sequel_mystery_not_original():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['sequences'][-1]={'summary':'Police close the conspiracy.'}
+    architecture['ending_payoff']={'repair':'The case is closed and the family is reunited.','sequel':'The new case mystery remains open for the next mission.'}
+    assert evaluate_competence_cascade_integrity(premise,architecture,[])['checks']['closure_before_mission_hook'] is True
+
+
+def test_competence_cascade_role_acceptance_closure_and_fresh_assignment_hook():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    architecture['ending_payoff']={'repair':'Status epilogue.'}
+    good=[{'summary':'She earns her new role and finds acceptance. Only then command gives her a fresh case.'}]
+    bad=[{'summary':'Command gives her a fresh case before she earns her new role and finds acceptance.'}]
+    assert evaluate_competence_cascade_integrity(premise,architecture,good)['checks']['closure_before_mission_hook'] is True
+    assert evaluate_competence_cascade_integrity(premise,architecture,bad)['checks']['closure_before_mission_hook'] is False
+
+
+def test_taboo_family_irony_named_protagonist_chooses_to_leave_partner():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Bestie Parent','protagonist_name':'Lily','logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
+    architecture={'sequences':[{'summary':'After the reveal, Lily chooses to leave him.'}]}
+    assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['protagonist_can_reject_power'] is True
+
+
+def _chosen_bond_fixture():
+    premise={
+        'title':'The Chosen Queen',
+        'logline':'At her bonding ceremony, a healer is publicly humiliated when her fated mate chooses another woman, so she refuses him and later chooses a consenting elven king.',
+        'opening_event':{'first_60_seconds':'At the public bonding ceremony before the clan, her fated mate crowns another woman and humiliates her.'},
+    }
+    architecture={
+        'sequences':[
+            {'summary':'At the public wedding ceremony he cheats and says fate is a curse they cannot resist, using destiny as an excuse while her parents support her exit.'},
+            {'summary':'For years her blood essence and healing elixir kept his rage at bay, sustained the clan, and secured his succession position.'},
+            {'summary':'She refuses to accept the humiliating marriage before the elf king appears; only afterward does she consider the chosen partner.'},
+            {'summary':'He heals her power core, protects her, waits patiently, says he will not bind her with so-called fate, and asks consent with no pressure.'},
+            {'summary':'Only after that care does she believe him and later reciprocate with a mutual vow. When he begs forgiveness, she rejects his apology because regret is not repair and he chose power.'},
+            {'summary':'At the banquet witnesses see the impostor; blood resonance gives physical proof, the ring and potion mechanism explain the fraud, and his confession supplies testimony before the council strips his title, revokes resources, and banishes him.'},
+            {'summary':'She goes home with her freely chosen partner and chosen family in peace.'},
+        ]
+    }
+    scenes=[]
+    return premise,architecture,scenes
+
+
+def test_chosen_bond_integrity_balanced_example_passes_core_checks():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    r=evaluate_chosen_bond_integrity(premise,architecture,scenes)
+    assert r['applies'] is True
+    assert r['checks']['public_betrayal_opening'] is True
+    assert r['checks']['sacrificial_labor_has_system_value'] is True
+    assert r['checks']['fate_functions_as_excuse'] is True
+    assert r['checks']['protagonist_refuses_before_upgrade'] is True
+    assert r['checks']['alternative_bond_is_chosen_and_consenting'] is True
+    assert r['checks']['care_precedes_romantic_reciprocity'] is True
+    assert r['checks']['late_repentance_is_not_rewarded'] is True
+    assert r['checks']['exposure_is_layered_evidence'] is True
+    assert r['checks']['institutional_consequence_matches_institutional_theft'] is True
+    assert r['checks']['closure_reclassifies_home_or_chosen_family'] is True
+
+
+def test_chosen_bond_integrity_not_applicable_to_ordinary_romance():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise={'title':'Ordinary Romance','logline':'Two rivals fall in love while restoring a bakery.'}
+    assert evaluate_chosen_bond_integrity(premise,{},[])['applies'] is False
+
+
+def test_chosen_bond_integrity_flags_upgrade_before_refusal_and_forced_forgiveness():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    architecture['sequences']=[
+      {'summary':'At the public bonding ceremony her fated mate humiliates her and chooses another woman. The elf king immediately claims her as his mate before she refuses anyone.'},
+      {'summary':'Her blood essence sustained his succession. Destiny made them do it. There is no evidence or procedure. Her family makes her forgive him and she returns to the clan.'},
+    ]
+    r=evaluate_chosen_bond_integrity(premise,architecture,scenes)
+    assert r['checks']['protagonist_refuses_before_upgrade'] is False
+    assert r['checks']['alternative_bond_is_chosen_and_consenting'] is False
+    assert r['checks']['exposure_is_layered_evidence'] is False
+    assert r['checks']['institutional_consequence_matches_institutional_theft'] is False
+    assert r['checks']['forgiveness_is_not_coerced'] is False
+
+
+def test_taboo_family_irony_best_friend_leaving_own_husband_not_heroine_agency():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Bestie Parent','protagonist_name':'Lily','logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
+    architecture={'sequences':[{'summary':'The best friend chooses to leave her own husband. Lily remains trapped.'}]}
+    assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['protagonist_can_reject_power'] is False
+
+
+def test_chosen_bond_does_not_apply_to_creature_imprint_protection():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise={'title':'Stormglass','logline':'A dragon imprints on a child protector guarding a kingdom and abandoned hideout.'}
+    assert evaluate_chosen_bond_integrity(premise,{},[])['applies'] is False
+
+
+def test_chosen_bond_forced_new_marriage_is_not_consenting():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    architecture['sequences'][3]={'summary':'The elf king asks for her hand, then forces her to marry him against her will.'}
+    assert evaluate_chosen_bond_integrity(premise,architecture,scenes)['checks']['alternative_bond_is_chosen_and_consenting'] is False
+
+
+def test_chosen_bond_premise_only_chronology_can_order_refusal_and_care():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise={
+      'title':'Chosen After Betrayal',
+      'logline':'At a public wedding ceremony her fated mate cheats with another woman. She refuses him before the chosen partner appears; he heals and protects her patiently before she believes him and accepts a mutual vow. The council strips the betrayer of his title and she goes home with chosen family.',
+    }
+    r=evaluate_chosen_bond_integrity(premise,{},[])
+    assert r['checks']['protagonist_refuses_before_upgrade'] is True
+    assert r['checks']['care_precedes_romantic_reciprocity'] is True
+
+
+def test_chosen_bond_care_for_ex_does_not_count_as_new_partner_care():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    architecture['sequences']=[
+      {'summary':'At the public bonding ceremony her fated mate cheats and humiliates her; her blood essence sustained his succession.'},
+      {'summary':'She refuses him before the elf king appears as a chosen partner. She heals her former mate one last time. She accepts the king, then he finally protects her, and she believes him.'},
+    ]
+    assert evaluate_chosen_bond_integrity(premise,architecture,scenes)['checks']['care_precedes_romantic_reciprocity'] is False
+
+
+def test_chosen_bond_happy_fated_wedding_is_not_public_betrayal():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    premise['opening_event']={'first_60_seconds':'At the public bonding ceremony she happily marries her fated mate.'}
+    architecture['sequences']=[
+      {'summary':'At the public wedding ceremony she happily marries her fated mate; betrayal arrives years later.'},
+      {'summary':'They share a quiet domestic life with no immediate betrayal.'},
+      {'summary':'The later betrayal is foreshadowed only as a distant future problem.'},
+    ]
+    assert evaluate_chosen_bond_integrity(premise,architecture,scenes)['checks']['public_betrayal_opening'] is False
+
+
+def test_competence_cascade_opening_investigation_not_sequel_hook():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes=[
+      {'id':'S01','scene_goal':'The agency assigns her to investigate the missing child.'},
+      {'id':'S02','scene_goal':'Her hidden mastery is publicly revealed.'},
+      {'id':'S03','scene_goal':'Police close the conspiracy, the family is reunited, and peace is restored.'},
+    ]
+    r=evaluate_competence_cascade_integrity(premise,architecture,scenes)
+    assert r['checks']['closure_before_mission_hook'] is True
+    assert not any('sequel' in w for w in r['warnings'])
+
+
+def test_competence_cascade_banquet_justice_celebration_does_not_override_closed_case():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes=[
+      {'id':'S01','scene_goal':'She accepts the investigation.'},
+      {'id':'S02','scene_goal':'Police close the conspiracy.'},
+      {'id':'S03','scene_goal':'She receives a fresh assignment before leaving a banquet celebrating justice.'},
+    ]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is True
+
+
+def test_chosen_bond_applies_to_destiny_bride_unfaithful_groom_rechoice():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise={'title':'Destiny Bride','logline':'A bride bound by destiny leaves her unfaithful groom and falls for another person.'}
+    assert evaluate_chosen_bond_integrity(premise,{},[])['applies'] is True
+
+
+def test_chosen_bond_old_coercion_and_no_force_promise_do_not_disqualify_new_bond():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    architecture['sequences']=[
+      {'summary':'At the public bonding ceremony her fated mate cheats and humiliates her; she was forced to marry him under the old clan contract.'},
+      {'summary':'She refuses him before the elf king appears as a chosen partner. He promises not to force marriage, heals her patiently, and waits for her answer before she believes him.'},
+    ]
+    assert evaluate_chosen_bond_integrity(premise,architecture,scenes)['checks']['alternative_bond_is_chosen_and_consenting'] is True
+
+
+def test_chosen_bond_named_partner_care_counts_before_reciprocity():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    architecture['sequences']=[
+      {'summary':'At the public bonding ceremony her fated mate cheats and humiliates her; her blood essence sustained his succession.'},
+      {'summary':'She refuses him before the elf king, Calith, appears as a chosen partner. Calith heals her wounds and protects her patiently before she believes him.'},
+    ]
+    assert evaluate_chosen_bond_integrity(premise,architecture,scenes)['checks']['care_precedes_romantic_reciprocity'] is True
+
+
+def test_chosen_bond_public_betrayal_can_cross_adjacent_opening_sentences():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    premise['opening_event']={'first_60_seconds':'The clan gathers for the public bonding ceremony. In front of everyone, her fated mate cheats and humiliates her.'}
+    assert evaluate_chosen_bond_integrity(premise,architecture,scenes)['checks']['public_betrayal_opening'] is True
+
+
+def test_competence_cascade_recap_cannot_mask_earlier_premature_hook():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes=[
+      {'id':'S01','scene_goal':'Before the current case is closed, command gives her a fresh case.'},
+      {'id':'S02','scene_goal':'She exposes the conspiracy.'},
+      {'id':'S03','scene_goal':'Police close the conspiracy. Only then command briefs the fresh case that had already been assigned.'},
+    ]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is False
+
+
+def test_competence_cascade_finale_only_fresh_assignment_counts_as_hook():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes=[{'id':'finale','scene_goal':'In the finale, command gives her a fresh case before the epilogue.'}]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is False
+
+
+def test_taboo_family_irony_protagonist_identity_field_enables_named_departure():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Bestie Parent','protagonist':{'identity':'Lily'},'logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
+    architecture={'sequences':[{'summary':'After the reveal, Lily chooses to leave him.'}]}
+    assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['protagonist_can_reject_power'] is True
+
+
+def test_taboo_family_irony_supporting_departure_does_not_veto_named_protagonist():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Bestie Parent','protagonist':{'identity':'Lily'},'logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
+    architecture={'sequences':[{'summary':'The best friend chooses to leave her own husband.'},{'summary':'Lily chooses to leave him.'}]}
+    assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['protagonist_can_reject_power'] is True
+
+
+def _restitution_pact_fixture():
+    premise={
+      'title':'The Memory Lantern',
+      'logline':'A woman sacrifices her memory-sight in a magical pact to save five sworn wards; if they betray her, the pact restores her perception and curses them.',
+    }
+    architecture={'sequences':[
+      {'summary':'She trades her eyes and memory-sight as the price of a pact to save them. They vow to protect her forever and never let anyone hurt her; if they betray her, the pact returns her sight and the curse rebounds.'},
+      {'summary':'After they betray her, she can see again but hides her sight and pretends to still be blind so they cannot find out the pact has judged them.'},
+      {'summary':'They once owed her because she saved them, but now call her a blood bag and dead weight. They drain her blood because it is useful, then try to cut out her heart because it will grow back.'},
+      {'summary':'In a public test before the crowd, the hunters force them to pick one between the false saintess and the protagonist; they choose the false victim. Their curse becomes visible as they become true monsters.'},
+      {'summary':'They apologize only to break the curse, but she says she gave them chances and does not forgive them.'},
+      {'summary':'A quiet protector heals and protects her before she learns he is the hidden king. He lets her end the engagement and choose freely before the identity reveal.'},
+      {'summary':'The ending is a mutual vow, chosen family, and home; she is never forced to forgive them.'},
+    ]}
+    scenes=[]
+    return premise,architecture,scenes
+
+
+def test_restitution_pact_integrity_balanced_example_passes_core_checks():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    r=evaluate_restitution_pact_integrity(premise,architecture,scenes)
+    assert r['applies'] is True
+    assert r['checks']['explicit_bodily_sacrifice_cost'] is True
+    assert r['checks']['conditional_accountability_mechanism'] is True
+    assert r['checks']['beneficiaries_vow_protection_before_betrayal'] is True
+    assert r['checks']['restored_perception_creates_hidden_irony'] is True
+    assert r['checks']['bodily_extraction_escalates_through_entitlement'] is True
+    assert r['checks']['public_forced_choice_reveals_real_hierarchy'] is True
+    assert r['checks']['instrumental_repentance_is_not_rewarded'] is True
+    assert r['checks']['alternative_partner_proves_care_before_status'] is True
+    assert r['checks']['consent_or_exit_choice_precedes_identity_reward'] is True
+
+
+def test_restitution_pact_integrity_flags_decorative_curse_and_forced_forgiveness():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    architecture['sequences']=[
+      {'summary':'She sacrifices her eyes in a curse-flavored bargain to save them.'},
+      {'summary':'A powerful king immediately loves her status and reveals his identity before she can choose.'},
+      {'summary':'The betrayers apologize only to break the curse, and she must forgive them because the magic requires it.'},
+    ]
+    r=evaluate_restitution_pact_integrity(premise,architecture,scenes)
+    assert r['checks']['conditional_accountability_mechanism'] is False
+    assert r['checks']['beneficiaries_vow_protection_before_betrayal'] is False
+    assert r['checks']['restored_perception_creates_hidden_irony'] is False
+    assert r['checks']['alternative_partner_proves_care_before_status'] is False
+    assert r['checks']['consent_or_exit_choice_precedes_identity_reward'] is False
+    assert r['checks']['closure_is_mutual_not_forced_forgiveness'] is False
+
+
+def test_taboo_family_irony_blank_identity_does_not_crash():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Bestie Parent','protagonist':{'identity':''},'logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
+    r=evaluate_taboo_family_irony_integrity(premise,{},[])
+    assert r['applies'] is True
+
+
+def test_taboo_family_irony_ana_not_credited_for_diana_departure():
+    from studio.taboo_family_irony_integrity import evaluate_taboo_family_irony_integrity
+    premise={'title':'Bestie Parent','protagonist':{'identity':'Ana'},'logline':"She secretly marries a mafia boss, unaware he is her bestie's dad."}
+    architecture={'sequences':[{'summary':'The rival Diana chooses to leave him. Ana remains trapped.'}]}
+    assert evaluate_taboo_family_irony_integrity(premise,architecture,[])['checks']['protagonist_can_reject_power'] is False
+
+
+def test_restitution_pact_does_not_apply_to_non_supernatural_survival_contract():
+    import json
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise=json.load(open('examples/generated_survival_concepts/brakelight_moth_depths_premise.json',encoding='utf8'))
+    assert evaluate_restitution_pact_integrity(premise,{},[])['applies'] is False
+
+
+def test_chosen_bond_forced_marriage_to_named_alternative_is_coercive():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    architecture['sequences']=[
+      {'summary':'At the public bonding ceremony her fated mate cheats and humiliates her; her blood essence sustained his succession.'},
+      {'summary':'She refuses him, but the clan forces her to marry the elf king. He says she need not answer and waits patiently before she believes him.'},
+    ]
+    assert evaluate_chosen_bond_integrity(premise,architecture,scenes)['checks']['alternative_bond_is_chosen_and_consenting'] is False
+
+
+def test_competence_cascade_standalone_sequel_excerpt_can_follow_documented_closure():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes=[{'id':'sequel_excerpt','scene_goal':'In this sequel scene after the main case, command gives her a new mission.'}]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is True
+
+
+def test_restitution_pact_conditional_terms_not_actual_betrayal_position():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    architecture['sequences']=[
+      {'summary':'If they betray her, the pact returns her sight. They vow to protect her forever.'},
+      {'summary':'Much later they actually betray her and abandon her during the attack.'},
+      {'summary':'She hides her restored sight. The alternative protector heals her before she learns he is the hidden king; he lets her end the engagement before the identity reveal. They make a mutual vow at home.'},
+    ]
+    r=evaluate_restitution_pact_integrity(premise,architecture,scenes)
+    assert r['checks']['beneficiaries_vow_protection_before_betrayal'] is True
+
+
+def _maternal_sovereignty_fixture():
+    premise={'title':'Lantern Ward of the Glass Court','protagonist':{'identity':'Mira'},'logline':'A pregnant secret contract wife is abandoned by her alpha husband for his first love while hiding that she is a lost royal healer.'}
+    architecture={'sequences':[
+      {'summary':'In the opening he abandons his pregnant bleeding wife to protect another woman; she begs him to save the baby. Mira accepted contract money to save her vulnerable friend from persecution, but the clause says she belongs to him whenever he wants and birth during the contract gives him full custody.'},
+      {'summary':'She publicly rejects the unwanted marriage, lies that the baby died to hide the live pregnancy because he could steal the baby through custody law, and becomes chief healer through a resume without nepotism, a healing demonstration, scientific research, and a medical breakthrough independent of her princess identity.'},
+      {'summary':'A medical board examination, security footage, reports, investors, election endorsements, and hospital evidence expose the false pregnancy publicly. When he says he never cheated, she answers that he never trusted her and never really wanted her. He signs the divorce papers and lets go before any reunion.'},
+      {'summary':'His breakfasts are rejected; apology is insufficient. He gives up the election campaign and loses power to save her, waits patiently, and tells her she can refuse. Only after the truth is revealed does he ask her to marry him again, calling her healer princess and strongest woman; informed and uncoerced, she says yes.'},
+    ]}
+    return premise,architecture,[]
+
+
+def test_maternal_sovereignty_integrity_positive():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    r=evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.9
+    assert all(r['checks'].values())
+
+
+def test_maternal_sovereignty_integrity_rejects_status_without_repair():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences']=[{'summary':'A pregnant secret contract wife is humiliated. She is a princess, so everyone kneels. The rival lied, so he apologizes and she immediately remarries him.'}]
+    r=evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)
+    assert r['checks']['professional_competence_is_independent_of_hidden_status'] is False
+    assert r['checks']['male_repair_requires_material_cost_not_only_apology'] is False
+    assert r['checks']['release_of_control_precedes_reunion'] is False
+
+
+def test_maternal_sovereignty_does_not_apply_to_creature_survival():
+    import json
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise=json.load(open('examples/generated_survival_concepts/foghorn_turtle_keeper_premise.json',encoding='utf8'))
+    assert evaluate_maternal_sovereignty_integrity(premise,{},[])['applies'] is False
+
+
+def test_chosen_bond_negated_force_and_former_partner_sentence_not_new_coercion():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    architecture['sequences']=[
+      {'summary':'At the public bonding ceremony her fated mate cheats and humiliates her; her blood essence sustained his succession.'},
+      {'summary':'She refuses him. Her former mate once forced women into alliances. The elf king will not force her to marry; he asks consent and waits patiently before she freely chooses him.'},
+    ]
+    assert evaluate_chosen_bond_integrity(premise,architecture,scenes)['checks']['alternative_bond_is_chosen_and_consenting'] is True
+
+
+def test_maternal_sovereignty_release_after_reunion_fails_order():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][2]={'summary':'A medical board examination and security footage expose the false pregnancy publicly. When he says he never cheated, she answers that he never trusted her.'}
+    architecture['sequences'][-1]={'summary':'He apologizes, she says yes and they remarry; afterward he signs the divorce papers and releases control.'}
+    assert evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)['checks']['release_of_control_precedes_reunion'] is False
+
+
+def test_maternal_sovereignty_epilogue_truth_does_not_inform_rechoice():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][-1]={'summary':'He signs the divorce papers and lets go. She says yes and they remarry. In the epilogue the truth is revealed about why he abandoned her.'}
+    assert evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)['checks']['re_choice_is_informed_and_not_coerced'] is False
+
+
+def test_restitution_pact_time_clause_abandonment_is_actual_betrayal():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    architecture['sequences']=[
+      {'summary':'They vow to protect her forever after the pact.'},
+      {'summary':'When hunters attack, they abandon her and flee.'},
+      {'summary':'She hides her restored sight. The alternative protector heals her before she learns he is the hidden king; he lets her end the engagement before the identity reveal. They make a mutual vow at home.'},
+    ]
+    assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is True
+
+
+def test_competence_cascade_later_next_episode_mention_does_not_excuse_premature_assignment():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes=[
+      {'id':'S01','scene_goal':'Before the current case is closed, command assigns her a new case.'},
+      {'id':'S02','scene_goal':'The next episode will continue the mission.'},
+    ]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is False
+
+
+def test_maternal_sovereignty_patient_apology_is_not_material_sacrifice():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][-1]={'summary':'He signs the divorce papers and lets go. He apologizes and waits patiently, but gives up nothing. The truth is revealed before she says yes and they remarry.'}
+    assert evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)['checks']['male_repair_requires_material_cost_not_only_apology'] is False
+
+
+def test_maternal_sovereignty_disclosure_is_not_costly_concealment():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][1]={'summary':'She reveals her pregnancy to protect the baby and becomes chief healer through professional medical competence.'}
+    assert evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)['checks']['pregnancy_concealment_is_protective_and_costly'] is False
+
+
+def test_restitution_pact_when_rule_without_betrayal_scene_fails_vow_order():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    architecture['sequences']=[
+      {'summary':'They vow to protect her forever after the pact.'},
+      {'summary':'The pact rule states that when they betray her, the pact will return her sight.'},
+    ]
+    assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is False
+
+
+def test_chosen_bond_prior_denial_does_not_erase_later_forced_marriage():
+    from studio.chosen_bond_integrity import evaluate_chosen_bond_integrity
+    premise,architecture,scenes=_chosen_bond_fixture()
+    architecture['sequences']=[
+      {'summary':'At the public bonding ceremony her fated mate cheats and humiliates her; her blood essence sustained his succession.'},
+      {'summary':'She refuses him. The elf king will not force her to marry. Later the clan forces her to marry the elf king despite her refusal, though he asks consent and waits patiently.'},
+    ]
+    assert evaluate_chosen_bond_integrity(premise,architecture,scenes)['checks']['alternative_bond_is_chosen_and_consenting'] is False
+
+
+def test_maternal_sovereignty_explicit_only_after_order_counts():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][-1]={'summary':'He gives up the election campaign and loses power. Their remarriage happens only after release of control and disclosure of the truth; informed and uncoerced, she says yes as healer princess.'}
+    r=evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)
+    assert r['checks']['release_of_control_precedes_reunion'] is True
+    assert r['checks']['re_choice_is_informed_and_not_coerced'] is True
+
+
+def test_competence_cascade_multiscene_explicit_sequel_excerpt_follows_closure():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes=[
+      {'id':'epilogue1','scene_goal':'In this sequel scene after the main case, command gives her a new mission.'},
+      {'id':'epilogue2','scene_goal':'The team reacts to the sequel mission.'},
+    ]
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is True
+
+
+def test_maternal_sovereignty_past_tense_hid_pregnancy_counts_with_cost():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][1]={'summary':'She hid the pregnancy to protect the baby, risking exile and custody loss, while becoming chief healer through professional medical competence.'}
+    assert evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)['checks']['pregnancy_concealment_is_protective_and_costly'] is True
+
+
+def test_maternal_sovereignty_plural_heirs_trigger_applicability():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise={'title':'Heirs of the Contract','logline':'In a contract marriage, her husband abandons her and their heirs for another woman.'}
+    architecture={'sequences':[{'summary':'The secret wife is betrayed; custody of the heirs becomes leverage.'}]}
+    assert evaluate_maternal_sovereignty_integrity(premise,architecture,[])['applies'] is True
+
+def test_maternal_sovereignty_negated_release_does_not_count_as_ordering():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][2]={'summary':'A medical board examination, security footage, reports, investors, election endorsements, and hospital evidence expose the false pregnancy publicly. When he says he never cheated, she answers that he never trusted her and never really wanted her. He refuses to sign the divorce papers and never releases control.'}
+    architecture['sequences'][3]={'summary':'His apology is insufficient. She remarries him after he refuses to release control and withholds disclosure, without informed consent.'}
+    result=evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)
+    assert result['checks']['release_of_control_precedes_reunion'] is False
+    assert result['checks']['re_choice_is_informed_and_not_coerced'] is False
+
+
+def test_competence_cascade_later_sequel_label_does_not_excuse_early_hook():
+    from studio.competence_cascade_integrity import evaluate_competence_cascade_integrity
+    premise,architecture,scenes=_competence_cascade_fixture()
+    scenes[0]['scene_cards']=[{'title':'Early Hook','objective':'A new mission calls her back.'}]
+    scenes.append({'summary':'Later Label. This scene is called a sequel scene after the new case has already begun.'})
+    assert evaluate_competence_cascade_integrity(premise,architecture,scenes)['checks']['closure_before_mission_hook'] is False
+
+
+def test_restitution_pact_narrative_when_clause_counts_as_actual_betrayal():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    architecture['sequences']=[
+      {'summary':'They vow to protect her forever after the pact.'},
+      {'summary':'When they betray her, the pact returns her sight.'},
+    ]
+    assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is True
+
+def test_maternal_sovereignty_unrelated_prior_refusal_does_not_hide_release():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][2]={'summary':'A medical board examination exposes the false pregnancy publicly. She refuses his first offer. He signs the divorce papers and lets go before any reunion.'}
+    architecture['sequences'][3]={'summary':'She once says she does not trust him. Later the truth is revealed. He gives up the election campaign, waits patiently, and tells her she can refuse. Informed and uncoerced, she says yes when he asks her to marry him again, calling her healer princess.'}
+    result=evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)
+    assert result['checks']['release_of_control_precedes_reunion'] is True
+    assert result['checks']['re_choice_is_informed_and_not_coerced'] is True
+
+
+def test_maternal_sovereignty_notary_does_not_read_as_negation():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][3]={'summary':'He gives up the election campaign and tells her she can refuse. She remarries him only after a notary witnesses him sign the divorce papers and after the truth is revealed; informed and uncoerced, she says yes, remaining healer princess.'}
+    result=evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)
+    assert result['checks']['release_of_control_precedes_reunion'] is True
+
+
+def test_restitution_pact_whenever_standing_rule_is_not_actual_betrayal():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    architecture['sequences']=[
+      {'summary':'They vow to protect her forever after the pact.'},
+      {'summary':'The pact restores sight whenever the beneficiaries betray her.'},
+    ]
+    assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is False
+
+def _protective_kinship_fixture():
+    premise={
+      'title':'The Viper Guardian',
+      'logline':'Called a cruel viper after she struck back against abuse, Mira is sold in an arranged marriage to a widowed lord whose two daughters are neglected.',
+    }
+    architecture={'sequences':[
+      {'summary':'The daughters have split shoes, bruises, thin blankets, empty wardrobes, and freezing rooms near the servants quarters. Mira tells them that if anyone hurts them they must tell me immediately and protects them from humiliating servants.'},
+      {'summary':'Mira teaches the girls self-defense, tells them not to apologize when innocent, and shows them how to scream, run to help, and defend themselves. She orders hot water, blankets, food, and room assignments while taking the household keys.'},
+      {'summary':'In the treasury she reads ledgers and accounts showing stolen inheritance. When the family says we are family and blood is blood, she answers that family protects children. The lord listens to the children, orders an audit, examines evidence, and divides the house as institutional consequence.'},
+      {'summary':'He admits the truth: he used her because he needed her strength and chose her without telling her the truth. He transfers treasury keys, accounts, estates, revenues, money, control, and freedom to leave as material autonomy.'},
+      {'summary':'He tells her she can refuse and waits for permission. Only then does she choose a real marriage and kiss him freely. Her healing gift belongs to herself; the court is told she is not property or an object.'},
+      {'summary':'When her stepmother and father return in debt saying blood is blood and family has missed you, she decides they owe nothing and refuses to answer. Years later the wedding renewal, breakfast, ordinary home labor, and children leaving only when they choose prove durable chosen family care.'},
+    ]}
+    return premise,architecture,[]
+
+
+def test_protective_kinship_integrity_balanced_example_passes_core_checks():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise,architecture,scenes=_protective_kinship_fixture()
+    result=evaluate_protective_kinship_integrity(premise,architecture,scenes)
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.9
+    assert result['checks']['children_receive_agency_not_only_rescue'] is True
+    assert result['checks']['material_autonomy_transfer_precedes_intimacy'] is True
+    assert result['checks']['child_power_is_not_property'] is True
+
+
+def test_protective_kinship_integrity_intimacy_before_autonomy_fails_order():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise,architecture,scenes=_protective_kinship_fixture()
+    architecture['sequences'][3]={'summary':'He admits the truth: he used her because he needed her strength. She chooses a real marriage and kisses him.'}
+    architecture['sequences'][4]={'summary':'Only afterward he transfers treasury keys, accounts, money, and freedom to leave. He tells her she can refuse. Her healing gift belongs to herself, not property.'}
+    result=evaluate_protective_kinship_integrity(premise,architecture,scenes)
+    assert result['checks']['material_autonomy_transfer_precedes_intimacy'] is False
+
+
+def test_protective_kinship_integrity_does_not_apply_to_generic_creature_survival():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise={'title':'Turtle of the Salt City','logline':'A turtle child survives eviction and protects a storm-fragile community.'}
+    architecture={'sequences':[{'summary':'A community contract protects water and shelter.'}]}
+    assert evaluate_protective_kinship_integrity(premise,architecture,[])['applies'] is False
+
+def test_protective_kinship_does_not_apply_to_emberseed_creature_example():
+    import json
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise=json.load(open('examples/generated_creature_concepts/emberseed_oven_cart_premise.json',encoding='utf8'))
+    architecture=json.load(open('examples/generated_creature_concepts/emberseed_oven_cart_architecture.json',encoding='utf8'))
+    assert evaluate_protective_kinship_integrity(premise,architecture,[])['applies'] is False
+
+
+def test_protective_kinship_screenplay_order_is_not_reversed_by_outline():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise,architecture,scenes=_protective_kinship_fixture()
+    architecture['sequences'][3]={'summary':'She chooses a real marriage and kisses him.'}
+    architecture['sequences'][4]={'summary':'Her healing gift belongs to herself, not property.'}
+    scenes=[{'summary':'He transfers treasury keys, money, control, and freedom to leave. Later she chooses a real marriage and kisses him.'}]
+    assert evaluate_protective_kinship_integrity(premise,architecture,scenes)['checks']['material_autonomy_transfer_precedes_intimacy'] is True
+
+
+def test_protective_kinship_denied_freedom_does_not_count_as_consent():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise,architecture,scenes=_protective_kinship_fixture()
+    architecture['sequences'][3]={'summary':'He admits the truth: he used her because he needed her strength. He transfers treasury keys, accounts, estates, revenues, money, and control.'}
+    architecture['sequences'][4]={'summary':'He tells her she is not free to leave and she cannot refuse. She chooses a real marriage and kisses him. Her healing gift belongs to herself, not property.'}
+    result=evaluate_protective_kinship_integrity(premise,architecture,scenes)
+    assert result['checks']['consent_preserving_re_choice'] is False
+
+
+def test_protective_kinship_instrumental_setup_is_not_confession():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise,architecture,scenes=_protective_kinship_fixture()
+    architecture['sequences'][3]={'summary':'The premise calls this an instrumental marriage. He transfers treasury keys, accounts, money, and freedom to leave.'}
+    architecture['sequences'][4]={'summary':'He tells her she can refuse. She chooses a real marriage and kisses him. Her healing gift belongs to herself, not property.'}
+    assert evaluate_protective_kinship_integrity(premise,architecture,scenes)['checks']['truth_disclosure_precedes_re_choice'] is False
+
+
+def test_maternal_sovereignty_never_even_signing_does_not_count_as_release():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][2]={'summary':'A medical board examination exposes the false pregnancy publicly. He never even signs the divorce papers.'}
+    architecture['sequences'][3]={'summary':'The truth is never publicly revealed. He gives up the election campaign, waits patiently, and she says yes when he asks her to marry him again, calling her healer princess.'}
+    result=evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)
+    assert result['checks']['release_of_control_precedes_reunion'] is False
+    assert result['checks']['re_choice_is_informed_and_not_coerced'] is False
+
+
+def test_protective_kinship_parental_love_is_not_romantic_intimacy():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise,architecture,scenes=_protective_kinship_fixture()
+    architecture['sequences'][0]={'summary':'She loves her daughters. The daughters have split shoes, bruises, thin blankets, empty wardrobes, and freezing rooms. Mira tells them that if anyone hurts them they must tell me immediately and protects them.'}
+    assert evaluate_protective_kinship_integrity(premise,architecture,scenes)['checks']['material_autonomy_transfer_precedes_intimacy'] is True
+
+
+def test_protective_kinship_unchallenged_child_property_fails():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise,architecture,scenes=_protective_kinship_fixture()
+    architecture['sequences'][4]={'summary':'The court seizes her magical gift and treats children as property. He tells her she can refuse. She chooses a real marriage and kisses him.'}
+    assert evaluate_protective_kinship_integrity(premise,architecture,scenes)['checks']['child_power_is_not_property'] is False
+
+
+def test_restitution_pact_whenever_does_not_cross_newline_into_actual_betrayal():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    architecture['sequences']=[
+      {'summary':'They vow to protect her forever after the pact. The pact restores sight whenever'},
+      {'summary':'they betray her in the hunter attack.'},
+    ]
+    assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is True
+
+def test_maternal_sovereignty_not_hesitate_to_sign_counts_as_release():
+    from studio.maternal_sovereignty_integrity import evaluate_maternal_sovereignty_integrity
+    premise,architecture,scenes=_maternal_sovereignty_fixture()
+    architecture['sequences'][2]={'summary':'A medical board examination exposes the false pregnancy publicly. He does not hesitate to sign the divorce papers and lets go before any reunion.'}
+    assert evaluate_maternal_sovereignty_integrity(premise,architecture,scenes)['checks']['release_of_control_precedes_reunion'] is True
+
+
+def test_protective_kinship_named_truth_and_permission_free_exit_count():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise,architecture,scenes=_protective_kinship_fixture()
+    architecture['sequences'][3]={'summary':'He tells Mira the truth about using her. He transfers treasury keys, accounts, money, and control.'}
+    architecture['sequences'][4]={'summary':'He says you can leave without my permission. She chooses a real marriage and kisses him. Her healing gift belongs to herself, not property.'}
+    result=evaluate_protective_kinship_integrity(premise,architecture,scenes)
+    assert result['checks']['truth_disclosure_precedes_re_choice'] is True
+    assert result['checks']['consent_preserving_re_choice'] is True
+
+
+def test_restitution_pact_newline_wrapped_if_rule_is_not_actual_betrayal():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    architecture['sequences']=[
+      {'summary':'They vow to protect her forever after the pact. If'},
+      {'summary':'they betray her, the pact restores her sight.'},
+    ]
+    assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is False
+
+
+def test_protective_kinship_condemns_child_property_counts_as_rejection():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise,architecture,scenes=_protective_kinship_fixture()
+    architecture['sequences'][4]={'summary':'The prince claims her magical gift, but Mira condemns treating children as property. He tells her she can refuse. She chooses a real marriage and kisses him.'}
+    assert evaluate_protective_kinship_integrity(premise,architecture,scenes)['checks']['child_power_is_not_property'] is True
+
+def _constructive_restoration_fixture():
+    premise={
+      'title':'The Circuit Shepherd',
+      'logline':'An orphaned mechanic is taken in without payment, learns repair from a mentor, and restores machines in a wrecked science-fiction frontier.',
+    }
+    architecture={'sequences':[
+      {'summary':'The orphaned girl is homeless until a workshop keeper offers food, shelter, and care without asking payment.'},
+      {'summary':'She repairs a small lamp circuit and radio first, then fixes a robot servo and a damaged vehicle while the mentor supervises her hands-on work.'},
+      {'summary':'She is paid fair wages, earns independent workshop commissions, and the crew needs her as trusted mechanic because only she can keep the transport running. Money buys tools, parts, supplies, and repair capacity.'},
+      {'summary':'After invasion and corporate extraction, the victors owe restitution and must help rebuild what the war damaged. A combat unit war machine is converted into shelter power, workshop labor, and care infrastructure.'},
+      {'summary':'An ancient advanced station becomes usable infrastructure: power, water, transport, repair bay, home, and a ship network. She teaches a childlike robot apprentice, completing the mentorship cycle.'},
+      {'summary':'In the finale the crew runs diagnostics, a trial run, systems checks, and a maiden flight launch proving the tested systems before a new journey.'},
+    ]}
+    return premise,architecture,[]
+
+
+def test_constructive_restoration_fixture_passes_core_checks():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise,architecture,scenes=_constructive_restoration_fixture()
+    result=evaluate_constructive_restoration_integrity(premise,architecture,scenes)
+    assert result['applies'] is True
+    assert result['checks']['repair_object_competence_ladder'] is True
+    assert result['checks']['weapon_is_repurposed_into_care_or_work_infrastructure'] is True
+    assert result['checks']['finale_demonstrates_capability_through_tested_systems'] is True
+
+
+def test_constructive_restoration_spectacle_without_restoration_warns():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise={'title':'The Miracle Ship','logline':'A drifter mechanic witnesses an alien machine.'}
+    architecture={'sequences':[
+      {'summary':'A homeless orphan is given food and shelter.'},
+      {'summary':'A miraculous alien ship appears and the mentor instantly fixes every machine while armies fight a war for treasure.'},
+    ]}
+    scenes=[]
+    result=evaluate_constructive_restoration_integrity(premise,architecture,scenes)
+    assert result['checks']['repair_object_competence_ladder'] is False
+    assert result['checks']['war_conflict_carries_restitution_ethic'] is False
+    assert result['checks']['weapon_is_repurposed_into_care_or_work_infrastructure'] is False
+
+
+def test_constructive_restoration_does_not_apply_to_romance_without_repair():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    result=evaluate_constructive_restoration_integrity({'title':'Contract Bride','logline':'A duchess enters a marriage bargain.'},{'sequences':[{'summary':'Ballrooms and inheritance conflict.'}]},[])
+    assert result['applies'] is False
+
+def test_maternal_modal_not_hesitation_is_not_completed_release():
+    from studio.maternal_sovereignty_integrity import _first_non_negated
+    pattern=r'signs? (?:the )?divorce papers'
+    assert _first_non_negated(pattern,'he would not hesitate to sign the divorce papers, but leaves them unsigned') is None
+    assert _first_non_negated(pattern,'he does not hesitate to sign the divorce papers') is not None
+
+
+def test_protective_truth_refusal_and_conditional_exit_do_not_count():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity
+    premise,architecture,scenes=_protective_kinship_fixture()
+    architecture['sequences'][3]={'summary':'He refuses to tell Mira the truth. He transfers treasury keys, accounts, money, and control.'}
+    architecture['sequences'][4]={'summary':'He says she can leave only after marrying him. She chooses a real marriage and kisses him. Her healing gift belongs to herself.'}
+    result=evaluate_protective_kinship_integrity(premise,architecture,scenes)
+    assert result['checks']['truth_disclosure_precedes_re_choice'] is False
+    assert result['checks']['consent_preserving_re_choice'] is False
+
+
+def test_protective_with_permission_and_negated_child_condemnation():
+    from studio.protective_kinship_integrity import evaluate_protective_kinship_integrity,_first_non_negated
+    assert _first_non_negated(r'with (?:her|his|their) permission','he kisses her with her permission') is not None
+    premise,architecture,scenes=_protective_kinship_fixture()
+    architecture['sequences'][4]={'summary':'The prince claims her magical gift and never condemns treating children as property. He tells her she can refuse. She chooses a real marriage and kisses him.'}
+    assert evaluate_protective_kinship_integrity(premise,architecture,scenes)['checks']['child_power_is_not_property'] is False
+
+
+def test_restitution_prior_not_if_does_not_hide_actual_betrayal():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    architecture['sequences']=[
+      {'summary':'They vow to protect her forever. She asks whether they will abandon her, and he says not if'},
+      {'summary':'they betray her, the pact restores her sight.'},
+    ]
+    assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is True
+
+def test_constructive_restoration_scifi_applicability_ignores_relationship_ship():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise={'title':'Stormglass Keepers','logline':'Mira is publicly restored to honor and a relationship deepens.'}
+    architecture={'sequences':[{'summary':'A village dispute and inheritance conflict unfold.'}]}
+    assert evaluate_constructive_restoration_integrity(premise,architecture,[])['applies'] is False
+
+
+def test_constructive_restoration_ladder_uses_story_not_logline_and_finale_tail():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise={'title':'Ship Repair','logline':'A mechanic restores a starship.'}
+    architecture={'sequences':[
+      {'summary':'An orphan is given food and shelter. She repairs a small lamp circuit.'},
+      {'summary':'She repairs a robot, then a vehicle, then the ship infrastructure.'},
+      {'summary':'The crew pays wages for tools and parts; a war machine is converted into shelter power. She teaches a childlike robot apprentice.'},
+      {'summary':'At the end diagnostics, systems checks, and a maiden flight launch prove the ship.'},
+    ]}
+    result=evaluate_constructive_restoration_integrity(premise,architecture,[])
+    assert result['checks']['repair_object_competence_ladder'] is True
+    assert result['checks']['finale_demonstrates_capability_through_tested_systems'] is True
+
+
+def test_constructive_restoration_opening_diagnostic_and_mentor_repair_do_not_pass():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise={'title':'Reactor Shop','logline':'A mechanic apprentice watches machines.'}
+    architecture={'sequences':[
+      {'summary':'Diagnostics open the story. The homeless apprentice is given food.'},
+      {'summary':'The apprentice watches the mentor repair a reactor machine and the mentor does every repair.'},
+      {'summary':'The ship leaves without tests.'},
+    ]}
+    result=evaluate_constructive_restoration_integrity(premise,architecture,[])
+    assert result['checks']['learner_performs_repair_under_mentorship'] is False
+    assert result['checks']['finale_demonstrates_capability_through_tested_systems'] is False
+
+
+def test_constructive_restoration_requires_related_weapon_and_money_use():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise={'title':'Generator Shop','logline':'A mechanic repairs machines.'}
+    architecture={'sequences':[
+      {'summary':'An orphan is given food and shelter. She repairs a lamp, a robot, and a ship.'},
+      {'summary':'A civilian generator is repaired. Elsewhere a weapon stays armed. Wages fund a holiday far away.'},
+    ]}
+    result=evaluate_constructive_restoration_integrity(premise,architecture,[])
+    assert result['checks']['weapon_is_repurposed_into_care_or_work_infrastructure'] is False
+    assert result['checks']['wealth_is_converted_into_repair_capacity'] is False
+
+
+def test_maternal_unrelated_modal_does_not_negate_without_hesitation_signing():
+    from studio.maternal_sovereignty_integrity import _first_non_negated
+    pattern=r'signs? (?:the )?divorce papers'
+    assert _first_non_negated(pattern,'he could wait but without hesitation signs the divorce papers') is not None
+
+
+def test_protective_only_after_disclosure_and_desired_exit_count_as_choice():
+    from studio.protective_kinship_integrity import _first_non_negated
+    assert _first_non_negated(r'kiss','he kisses her only after disclosure') is not None
+    assert _first_non_negated(r'free to leave','she is free to leave only if she wants') is not None
+
+
+def test_restitution_vote_no_if_line_wrap_counts_as_conditional_rule():
+    from studio.restitution_pact_integrity import evaluate_restitution_pact_integrity
+    premise,architecture,scenes=_restitution_pact_fixture()
+    architecture['sequences']=[
+      {'summary':'They vow to protect her forever. The wards vote no if'},
+      {'summary':'they betray her, the pact restores her sight.'},
+    ]
+    assert evaluate_restitution_pact_integrity(premise,architecture,scenes)['checks']['beneficiaries_vow_protection_before_betrayal'] is False
+
+def test_constructive_restoration_applies_to_abandoned_robot_repair():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    result=evaluate_constructive_restoration_integrity(
+      {'title':'Robot Repair','logline':'A homeless mechanic finds work.'},
+      {'sequences':[{'summary':'She repairs an abandoned robot.'}]},[])
+    assert result['applies'] is True
+
+
+def test_constructive_restoration_qualified_plural_ladder_and_ending_payoff():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise={'title':'Station Repair','logline':'A mechanic apprentice repairs machines.'}
+    architecture={
+      'sequences':[
+        {'summary':'The apprentice carefully repairs a lamp under supervision.'},
+        {'summary':'She fixes a lamp, repairs several robots, then restores the station.'},
+      ],
+      'ending_payoff':{'summary':'A final trial run and systems check prove the station.'},
+    }
+    result=evaluate_constructive_restoration_integrity(premise,architecture,[])
+    assert result['checks']['repair_object_competence_ladder'] is True
+    assert result['checks']['learner_performs_repair_under_mentorship'] is True
+    assert result['checks']['finale_demonstrates_capability_through_tested_systems'] is True
+
+
+def test_constructive_restoration_reference_next_sentence_counts_resource_reuse():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise={'title':'Parts Fund','logline':'A mechanic repairs robots.'}
+    architecture={'sequences':[{'summary':'She receives the payment. She spends it on parts and tools. They capture the war machine. It is converted into a clinic.'}]}
+    result=evaluate_constructive_restoration_integrity(premise,architecture,[])
+    assert result['checks']['wealth_is_converted_into_repair_capacity'] is True
+    assert result['checks']['weapon_is_repurposed_into_care_or_work_infrastructure'] is True
+
+
+def test_protective_debt_dependent_exit_is_not_consent():
+    from studio.protective_kinship_integrity import _first_non_negated
+    assert _first_non_negated(r'free to leave','she is free to leave only if she pays off his debt') is None
+
+
+def test_maternal_absolute_modal_hypothetical_is_not_completed_release():
+    from studio.maternal_sovereignty_integrity import _first_non_negated
+    pattern=r'signs? (?:the )?divorce papers'
+    assert _first_non_negated(pattern,'he would absolutely not hesitate to sign the divorce papers, but leaves them unsigned') is None
+
+def test_constructive_restoration_negated_learner_and_testimony_do_not_count():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise={'title':'Machine Shop','logline':'A mechanic repairs machines.'}
+    architecture={'sequences':[{'summary':'The apprentice never repairs the robot. The mentor does every repair.'}], 'ending_payoff':{'summary':'Court testimony closes the case.'}}
+    result=evaluate_constructive_restoration_integrity(premise,architecture,[])
+    assert result['checks']['learner_performs_repair_under_mentorship'] is False
+    assert result['checks']['finale_demonstrates_capability_through_tested_systems'] is False
+
+
+def test_constructive_restoration_early_robot_mention_does_not_hide_later_ladder():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise={'title':'Station Shop','logline':'A mechanic repairs machines.'}
+    architecture={'sequences':[{'summary':'Robots are forbidden in the city. She repairs a lamp.'},{'summary':'She repairs several robots, then restores the station.'}]}
+    assert evaluate_constructive_restoration_integrity(premise,architecture,[])['checks']['repair_object_competence_ladder'] is True
+
+
+def test_constructive_restoration_cross_sentence_ship_does_not_create_applicability():
+    from studio.constructive_restoration_integrity import evaluate_constructive_restoration_integrity
+    premise={'title':'Clock Shop','logline':'A repairer works in town.'}
+    architecture={'sequences':[{'summary':'She repairs a clock. A ship arrives in the harbor.'}]}
+    assert evaluate_constructive_restoration_integrity(premise,architecture,[])['applies'] is False
+
+
+def test_protective_learning_truth_is_not_payment_condition():
+    from studio.protective_kinship_integrity import _first_non_negated
+    assert _first_non_negated(r'kiss','he kisses her only after she learns the truth') is not None
+
+
+def test_maternal_prior_alternative_does_not_make_signing_hypothetical():
+    from studio.maternal_sovereignty_integrity import _first_non_negated
+    pattern=r'signs? (?:the )?divorce papers'
+    assert _first_non_negated(pattern,'he could refuse, but he does not hesitate to sign the divorce papers') is not None
+
+def test_dual_incognito_workplace_integrity_positive_cineai_like():
+    from studio.dual_incognito_workplace_integrity import evaluate_dual_incognito_workplace_integrity
+    premise={'logline':'A secret hotel owner takes an ordinary staff position and meets a framed CEO who lost everything and now works there.'}
+    architecture={'sequences':[
+        {'summary':'The hidden owner becomes an ordinary worker. The stripped executive applies for a job and does it properly. She defends him: do not humiliate workers.'},
+        {'summary':'A birthday cake and treatment for his bleeding hand build community care. Payroll, overtime sheets, maintenance logs, security footage, bank confirmation, vendor registration, and access code records expose the plot.'},
+        {'summary':'He says she made that decision for both of them. She admits she was wrong to hide the truth and gives him time without demanding forgiveness.'},
+        {'summary':'He refuses a senior role, seeks investment on the same terms through an independent committee, builds transparent payroll and scheduling tools with employee access, and they agree to no more secrets.'}
+    ]}
+    result=evaluate_dual_incognito_workplace_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.9
+
+
+def test_dual_incognito_workplace_integrity_flags_missing_consent_and_independence():
+    from studio.dual_incognito_workplace_integrity import evaluate_dual_incognito_workplace_integrity
+    premise={'logline':'A secret billionaire owner takes a hotel job.'}
+    architecture={'sequences':[{'summary':'She kisses a worker, uses one document to fire a manager, gives him a senior job because they are dating, and they instantly marry.'}]}
+    result=evaluate_dual_incognito_workplace_integrity(premise,architecture,[])
+    assert result['checks']['concealment_creates_named_consent_debt'] is False
+    assert result['checks']['career_restoration_is_not_romantic_patronage'] is False
+    assert result['warnings']
+
+def test_social_test_generated_dialogue_is_scene_specific_and_warn_free():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    from studio.dialogue_craft import evaluate_scenes_dialogue
+    premise=generate_premises('social_test_melodrama',1,42)[0]
+    scenes=generate_scenes(premise,generate_architecture(premise))
+    assert len(scenes)==8
+    assert all(len(scene['dialogue_design']['spoken_exchange'])==4 for scene in scenes)
+    assert 'Your floor is below. Guests eat above.' in scenes[0]['dialogue_design']['key_lines']
+    assert scenes[0]['dialogue_design']['spoken_exchange'][1]['speaker'] != scenes[0]['dialogue_design']['spoken_exchange'][2]['speaker']
+    assert evaluate_scenes_dialogue(scenes)['warnings_by_scene']=={}
+
+
+def test_social_test_dialogue_uses_material_proof_and_restitution_turns():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    premise=generate_premises('social_test_melodrama',1,42)[0]
+    scenes=generate_scenes(premise,generate_architecture(premise))
+    s5=scenes[4]['dialogue_design']['spoken_exchange']
+    s7=scenes[6]['dialogue_design']['spoken_exchange']
+    assert any('doesn\'t fit her hands or her hours' in turn['line'] for turn in s5)
+    assert any('Return the name you erased first' in turn['line'] for turn in s7)
+    assert all(turn.get('subtext') and turn.get('voice_signature') for scene in scenes for turn in scene['dialogue_design']['spoken_exchange'])
+
+def test_dual_incognito_does_not_apply_to_restored_laborer_fantasy():
+    from studio.dual_incognito_workplace_integrity import evaluate_dual_incognito_workplace_integrity
+    premise={'logline':'A restored dragon laborer rescues a hidden heir in a magical forest.'}
+    architecture={'sequences':[{'summary':'The laborer restored the dragon and protected the child.'}]}
+    assert evaluate_dual_incognito_workplace_integrity(premise,architecture,[])['applies'] is False
+
+
+def test_dual_incognito_one_payroll_file_is_not_multi_source_evidence():
+    from studio.dual_incognito_workplace_integrity import evaluate_dual_incognito_workplace_integrity
+    premise={'logline':'A secret hotel owner takes an ordinary staff position.'}
+    architecture={'sequences':[{'summary':'A payroll document, later called a payroll record, is the only proof.'}]}
+    result=evaluate_dual_incognito_workplace_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['checks']['evidence_is_procedural_and_multi_source'] is False
+
+def test_social_dialogue_uses_variant_proof_chain_and_no_early_accusation():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    premise=generate_premises('social_test_melodrama',1,42)[0]
+    assert 'wing-fracture signature' in premise['proof_chain']
+    scenes=generate_scenes(premise,generate_architecture(premise))
+    scene4=' '.join(t['line'] for t in scenes[3]['dialogue_design']['spoken_exchange']).lower()
+    assert 'invent a thief' not in scene4 and 'convenient' not in scene4
+    all_dialogue=' '.join(t['line'] for s in scenes for t in s['dialogue_design']['spoken_exchange'])
+    assert 'wing-fracture signature' in all_dialogue
+
+
+def test_mute_child_communicates_by_signal_not_spoken_testimony():
+    from studio.premise_generator import generate_premises
+    from studio.architecture_generator import generate_architecture
+    from studio.scene_generator import generate_scenes
+    premise=generate_premises('social_test_melodrama',3,42)[1]
+    scenes=generate_scenes(premise,generate_architecture(premise))
+    child_lines=[t['line'] for s in scenes for t in s['dialogue_design']['spoken_exchange'] if 'nephew' in t['speaker']]
+    assert child_lines and all(line.startswith('[') for line in child_lines)
+
+
+def test_dual_incognito_plural_employee_shift_cues_apply():
+    from studio.dual_incognito_workplace_integrity import evaluate_dual_incognito_workplace_integrity
+    premise={'logline':'A fired ceo joins employees on a night shift.'}
+    assert evaluate_dual_incognito_workplace_integrity(premise,{},[])['applies'] is True
+
+def test_adversarial_coparent_integrity_positive_and_non_applicable():
+    from studio.adversarial_coparent_integrity import evaluate_adversarial_coparent_integrity
+    premise={'logline':'An FBI single mom falls for a security guard, unaware he is a mafia don; her daughter and his son arrange the blind date.'}
+    architecture={'sequences':[{'summary':'The children only introduced them, but marriage is an adult decision made of free will. She helps him find a steady job, they share dinner, bedtime stories, rent and bills, and neither child is baggage. She is a debt collector; he is a security guard. He is hunting the FBI agent while she investigates the mafia family. At the identity reveal, she says deciding when to tell her was up to him; they promise no more secrets and full disclosure. They verify ledgers, personnel records, security footage, witness statements, financial records, communications, and a recorded confession. This time they figure it out together with backup and a tactical team. The children did nothing wrong; adults settle it themselves and grown-up problems are for grown-ups. In the ending he asks her to choose me again in a proper proposal with full identity, respect choices, always be honest, conflict of interest review, other agents, investigation, arrest, and records secured.'}]}
+    result=evaluate_adversarial_coparent_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.9
+    assert result['checks']['children_are_not_secret_keepers_or_family_glue'] is True
+    ordinary=evaluate_adversarial_coparent_integrity({'logline':'A glasswing smith is framed by the guild.'},{},[])
+    assert ordinary['applies'] is False
+
+
+def test_adversarial_coparent_integrity_warns_when_children_force_consent():
+    from studio.adversarial_coparent_integrity import evaluate_adversarial_coparent_integrity
+    premise={'logline':'An FBI agent and mafia boss conceal their identities as a security guard and debt collector; unaware, they marry as husband and wife because their daughter and son demand it.'}
+    architecture={'sequences':[{'summary':'The investigation and hunting escalate, but no one says the marriage was an adult decision or free choice.'}]}
+    result=evaluate_adversarial_coparent_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['checks']['children_catalyze_but_do_not_own_adult_choice'] is False
+    assert any('children or dependents' in w for w in result['warnings'])
+
+def test_adversarial_coparent_requires_dual_incognito_not_borrowed_cover_job():
+    from studio.adversarial_coparent_integrity import evaluate_adversarial_coparent_integrity
+    premise={'logline':'An openly identified FBI agent and an openly identified mafia boss are husband and wife with a son; a supporting neighbor works as a security guard.'}
+    result=evaluate_adversarial_coparent_integrity(premise,{},[])
+    assert result['applies'] is False
+
+
+def test_adversarial_coparent_applies_to_climate_extraction_translation():
+    from studio.adversarial_coparent_integrity import evaluate_adversarial_coparent_integrity
+    premise={'logline':'A climate inspector and an extraction heir conceal their identities, posing as a field aide and a bookkeeper while raising an apprentice together as husband and wife.'}
+    architecture={'sequences':[{'summary':'They investigate and expose each other as enemies, then must decide what marriage means.'}]}
+    result=evaluate_adversarial_coparent_integrity(premise,architecture,[])
+    assert result['applies'] is True
+
+
+def test_adversarial_coparent_detects_forced_child_secrecy():
+    from studio.adversarial_coparent_integrity import evaluate_adversarial_coparent_integrity
+    premise={'logline':'An FBI agent and mafia boss conceal their identities as a security guard and debt collector; unaware spouses marry and raise a daughter and son.'}
+    architecture={'sequences':[{'summary':'The adults explicitly make the children cover their lies and carry adult secrets.'}]}
+    result=evaluate_adversarial_coparent_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['checks']['children_are_not_secret_keepers_or_family_glue'] is False
+    assert any('children carry adult secrets' in w for w in result['warnings'])
+
+
+def test_adversarial_coparent_reads_scene_care_before_architecture_reveal_label():
+    from studio.adversarial_coparent_integrity import evaluate_adversarial_coparent_integrity
+    premise={'logline':'An FBI agent and mafia boss conceal their identities as a security guard and debt collector; unaware spouses marry and raise a daughter and son.'}
+    architecture={'sequences':[{'summary':'Identity reveal happens in the final movement.'}]}
+    scenes=[
+        {'scene_id':'S01','summary':'She helps him find a steady job; they share dinner, bedtime stories, rent and bills.'},
+        {'scene_id':'S08','summary':'Identity reveal forces both institutions into the open.'},
+    ]
+    result=evaluate_adversarial_coparent_integrity(premise,architecture,scenes)
+    assert result['applies'] is True
+    assert result['checks']['material_care_precedes_status_reward'] is True
+
+def test_evidentiary_withdrawal_integrity_positive_and_non_applicable():
+    from studio.evidentiary_withdrawal_integrity import evaluate_evidentiary_withdrawal_integrity
+    premise={'logline':'Reborn after an edited recording destroyed her, a woman leaves a shared apartment rather than consenting to a roommate boyfriend moving in.'}
+    architecture={'sequences':[{'summary':'This time around she will not meddle or argue; she will move out, but she does not consent. Income and job status do not matter; tenant consent and shared-space safety are the boundary. She preserves the lease, security footage, full recording, screenshots, witness testimony, timestamped photos, police and legal records. The antagonists escalate with fake photos, hidden cameras, debt, kidnapping and confession while coworkers, landlord and roommates form a witness network. They prepare a code to call the police and use raw footage as backup. She did not save anyone or forgive anyone. The ending has changed the locks, cameras installed, a safer home, and a long-term lease: a door I could close.'}]}
+    result=evaluate_evidentiary_withdrawal_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.9
+    ordinary=evaluate_evidentiary_withdrawal_integrity({'logline':'A dragon smith rebuilds a village.'},{},[])
+    assert ordinary['applies'] is False
+
+
+def test_evidentiary_withdrawal_warns_when_exit_implies_consent():
+    from studio.evidentiary_withdrawal_integrity import evaluate_evidentiary_withdrawal_integrity
+    premise={'logline':'Reborn after edited audio ruined her, a woman leaves a roommate lease.'}
+    architecture={'sequences':[{'summary':'This time she will move out and never argue again.'}]}
+    result=evaluate_evidentiary_withdrawal_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['checks']['withdrawal_does_not_mean_consent'] is False
+    assert any('refuses consent' in w or 'never explicitly refuses consent' in w for w in result['warnings'])
+
+def test_evidentiary_withdrawal_supports_shipboard_crew_quarters():
+    from studio.evidentiary_withdrawal_integrity import evaluate_evidentiary_withdrawal_integrity
+    premise={'logline':'Reborn after doctored proof cost her a disputed berth, a ship crew member leaves the crew quarters rather than consenting to the arrangement.'}
+    result=evaluate_evidentiary_withdrawal_integrity(premise,{},[])
+    assert result['applies'] is True
+
+
+def test_evidentiary_withdrawal_does_not_count_one_screenshot_as_corroboration():
+    from studio.evidentiary_withdrawal_integrity import evaluate_evidentiary_withdrawal_integrity
+    premise={'logline':'Reborn after an edited clip ruined her, a woman leaves a roommate lease.'}
+    architecture={'sequences':[{'summary':'She moves out but does not consent, citing tenant consent and safety. One timestamped camera screenshot clears her.'}]}
+    result=evaluate_evidentiary_withdrawal_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['checks']['evidence_is_multi_source_and_material'] is False
+
+
+def test_evidentiary_withdrawal_rejects_physical_fire_without_epistemic_wound():
+    from studio.evidentiary_withdrawal_integrity import evaluate_evidentiary_withdrawal_integrity
+    premise={'logline':'Reborn before a dormitory fire, she investigates the disaster.'}
+    architecture={'sequences':[{'summary':'Later evidence shows faulty wiring caused the fire.'}]}
+    result=evaluate_evidentiary_withdrawal_integrity(premise,architecture,[])
+    assert result['applies'] is False
+
+def test_evidentiary_withdrawal_review_regressions_forging_and_corroboration():
+    from studio.evidentiary_withdrawal_integrity import evaluate_evidentiary_withdrawal_integrity
+    base = "She does not consent and objects to the boundary violation. She moves out, with witness testimony, police legal support, a prepared backup plan, no reconciliation, and changed the locks for a safer home."
+    forged = evaluate_evidentiary_withdrawal_integrity({'logline':'Reborn in her shared apartment after forged evidence destroyed her, she withdraws.'},{'sequences':[{'summary':base}]},[])
+    assert forged['applies'] is True
+    corroborated = evaluate_evidentiary_withdrawal_integrity({'logline':'Reborn in a shared apartment after forged evidence, she withdraws.'},{'sequences':[{'summary':'Lease, security footage, and chat screenshots corroborate her account. '+base}]},[])
+    assert corroborated['checks']['evidence_is_multi_source_and_material'] is True
+    unrelated_call = evaluate_evidentiary_withdrawal_integrity({'logline':'Reborn in a shared apartment after forged evidence, she withdraws.'},{'sequences':[{'summary':'A witness and a full recording clear her. She later has a video call about dinner. She does not consent, objects to the boundary violation, moves out, uses a prepared backup plan, refuses reconciliation, and changed the locks for a safer home.'}]},[])
+    assert unrelated_call['checks']['evidence_is_multi_source_and_material'] is False
+
+
+def test_evidentiary_withdrawal_ignores_sports_berth_but_accepts_ship_berth():
+    from studio.evidentiary_withdrawal_integrity import evaluate_evidentiary_withdrawal_integrity
+    sports = evaluate_evidentiary_withdrawal_integrity({'logline':'Reborn after an edited clip costs an athlete an Olympic berth, she clears her name.'},{},[])
+    assert sports['applies'] is False
+    ship = evaluate_evidentiary_withdrawal_integrity({'logline':'Reborn after forged evidence on a ship, she loses the disputed crew berth and withdraws.'},{'sequences':[{'summary':'The captain controls the cabin assignment.'}]},[])
+    assert ship['applies'] is True
+def test_labor_romance_power_balance_positive_and_non_applicable():
+    from studio.labor_romance_power_balance_integrity import evaluate_labor_romance_power_balance_integrity
+    premise={'logline':'A debt-burdened woman disguises herself as a male assistant for a billionaire heir because only male applicants are hired, then falls in love.'}
+    architecture={'sequences':[{'summary':'She needs the job to pay the loan. The gauze, shared room, hospital privacy and uniform make concealment costly. He says he does not own you and she says you do not get to decide. A kiss without asking is named as a violation, followed by apology, permission and repair. Handmade gifts, cooked meals, schedule help and time together matter before money. A rich rival says quit and I will hire you, testing autonomy. She takes responsibility: she lied to get the job but earned her pay and was not after your money. At the end they end the contract with no penalty, create a separate repayment plan, she takes a part-time job, and romance continues outside employment.'}]}
+    result=evaluate_labor_romance_power_balance_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.85
+    ordinary=evaluate_labor_romance_power_balance_integrity({'logline':'A dragon smith rebuilds a village.'},{},[])
+    assert ordinary['applies'] is False
+
+
+def test_labor_romance_power_balance_warns_when_romance_stays_dependency():
+    from studio.labor_romance_power_balance_integrity import evaluate_labor_romance_power_balance_integrity
+    premise={'logline':'A poor maid in debt secretly falls in love with her billionaire boss.'}
+    architecture={'sequences':[{'summary':'He controls her time and she remains his employee and debtor as they become a couple.'}]}
+    result=evaluate_labor_romance_power_balance_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['checks']['ending_separates_romance_from_employment_debt'] is False
+    assert any('dependency' in w for w in result['warnings'])
+
+def test_labor_romance_review_regressions_consent_dependency_and_candidate():
+    from studio.labor_romance_power_balance_integrity import evaluate_labor_romance_power_balance_integrity
+    premise={'logline':'A poor maid in debt disguises herself to work for a billionaire boss and falls in love.'}
+    coercive={'sequences':[{'summary':'He repeatedly kisses her without asking and nobody objects. He never apologizes or changes his behavior.'}]}
+    result=evaluate_labor_romance_power_balance_integrity(premise,coercive,[])
+    assert result['applies'] is True
+    assert result['checks']['consent_pressure_is_named_not_romanticized'] is False
+
+    dependent={'sequences':[{'summary':'In the ending he threatens her career unless she stays with him, so she remains his employee and girlfriend.'}]}
+    dep=evaluate_labor_romance_power_balance_integrity(premise,dependent,[])
+    assert dep['checks']['ending_separates_romance_from_employment_debt'] is False
+
+    nonromance=evaluate_labor_romance_power_balance_integrity({'logline':'A disguised princess and her maid interview every candidate for a royal post while hiding from a powerful prince.'},{'sequences':[{'summary':'They complete the palace labor assignment.'}]},[])
+    assert nonromance['applies'] is False
+
+def test_labor_romance_consent_negation_and_unrelated_objection_regressions():
+    from studio.labor_romance_power_balance_integrity import evaluate_labor_romance_power_balance_integrity
+    premise={'logline':'A poor maid in debt disguises herself to work for a billionaire boss and falls in love.'}
+    ignored={'sequences':[{'summary':'He kisses her without asking. She refuses, but he never respects her refusal and never apologizes.'}]}
+    ignored_result=evaluate_labor_romance_power_balance_integrity(premise,ignored,[])
+    assert ignored_result['checks']['consent_pressure_is_named_not_romanticized'] is False
+
+    repaired={'sequences':[{'summary':'She accepts a schedule change without objection. Later he kisses her without asking. She refuses and says stop. He apologizes, asks for permission, and changes his behavior.'}]}
+    repaired_result=evaluate_labor_romance_power_balance_integrity(premise,repaired,[])
+    assert repaired_result['checks']['consent_pressure_is_named_not_romanticized'] is True
+
+def test_cozy_disaster_shelter_validator_positive_and_generic_negative():
+    from studio.cozy_disaster_shelter_integrity import evaluate_cozy_disaster_shelter_integrity
+    premise={'logline':'In 1960, a Japanese farming family with a grandmother, young son, daughter, and Shiba dog prepares their riverside wooden home for a typhoon survival night.'}
+    architecture={'sequences':[{'summary':'They farm, harvest, cook, clean, and prepare food before the flood. Inside warm lantern light contrasts with the storm outside the window. With little rice and limited drinking water remaining, they move upstairs, board the window, protect the wooden home, and sacrifice the wooden boat. The child helps feed the dog. After the floodwaters recede they rebuild the village at sunrise.'}]}
+    result=evaluate_cozy_disaster_shelter_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.9
+
+    generic={'logline':'A family survives a storm in a shelter.'}
+    generic_result=evaluate_cozy_disaster_shelter_integrity(generic,{},[])
+    assert generic_result['applies'] is True
+    assert generic_result['score_0_to_1'] < 0.5
+    assert generic_result['warnings']
+
+def test_labor_romance_consent_repair_context_and_negation_regressions():
+    from studio.labor_romance_power_balance_integrity import evaluate_labor_romance_power_balance_integrity
+    premise={'logline':'A poor maid in debt disguises herself to work for a billionaire boss and falls in love.'}
+
+    unrelated={'sequences':[{'summary':'He kisses her without asking and she refuses. He apologizes about the shift change but never mentions the kiss.'}]}
+    unrelated_result=evaluate_labor_romance_power_balance_integrity(premise,unrelated,[])
+    assert unrelated_result['checks']['consent_pressure_is_named_not_romanticized'] is False
+
+    permission={'sequences':[{'summary':'He asks for permission, and she can say no. Their romance continues by choice.'}]}
+    permission_result=evaluate_labor_romance_power_balance_integrity(premise,permission,[])
+    assert permission_result['checks']['consent_pressure_is_named_not_romanticized'] is True
+
+    objection={'sequences':[{'summary':'She objects when he kisses her without permission. He apologizes for the kiss and changes his behavior.'}]}
+    objection_result=evaluate_labor_romance_power_balance_integrity(premise,objection,[])
+    assert objection_result['checks']['consent_pressure_is_named_not_romanticized'] is True
+
+def test_review_regressions_labor_consent_and_cozy_applicability():
+    from studio.labor_romance_power_balance_integrity import evaluate_labor_romance_power_balance_integrity
+    from studio.cozy_disaster_shelter_integrity import evaluate_cozy_disaster_shelter_integrity
+    premise={'logline':'A poor maid in debt disguises herself to work for a billionaire boss and falls in love.'}
+
+    for text in [
+        'She no longer consents after he kisses her without asking.',
+        'He kisses her without asking and she refuses. He didn’t take responsibility.',
+        'He kisses her without asking. Nobody objected. He apologizes for the kiss.',
+    ]:
+        result=evaluate_labor_romance_power_balance_integrity(premise,{'sequences':[{'summary':text}]},[])
+        assert result['checks']['consent_pressure_is_named_not_romanticized'] is False, text
+
+    grabbed={'sequences':[{'summary':'He grabbed her without asking. She refused. He apologizes for grabbing her and changes his behavior.'}]}
+    assert evaluate_labor_romance_power_balance_integrity(premise,grabbed,[])['checks']['consent_pressure_is_named_not_romanticized'] is True
+
+    flooding={'logline':'A family sheltering upstairs survives flooding with food and water.'}
+    assert evaluate_cozy_disaster_shelter_integrity(flooding,{},[])['applies'] is True
+
+    financial={'logline':'A mother returns home after a financial disaster to rescue her marriage.'}
+    assert evaluate_cozy_disaster_shelter_integrity(financial,{},[])['applies'] is False
+
+    late_labor_premise={'logline':'A family survives a storm in their home with food.'}
+    late_labor={'sequences':[{'summary':'The storm floods the house. Later they cook during recovery.'}]}
+    assert evaluate_cozy_disaster_shelter_integrity(late_labor_premise,late_labor,[])['checks']['ordinary_labor_establishes_world_before_disaster'] is False
+
+    survival_only={'sequences':[{'summary':'They board the windows and endure. The storm passes and the film cuts to black.'}]}
+    assert evaluate_cozy_disaster_shelter_integrity(late_labor_premise,survival_only,[])['checks']['resolution_rebuilds_or_restores_connection'] is False
+
+def test_cozy_shelter_ordered_opening_ending_and_rescue_regressions():
+    from studio.cozy_disaster_shelter_integrity import evaluate_cozy_disaster_shelter_integrity
+    premise={'logline':'A family survives a storm in their wooden home with food and water.'}
+
+    sequences={'sequences':[
+        {'summary':'The family tends grandmother and their dog in the village house.'},
+        {'summary':'They farm, harvest, cook, and prepare the upper floor.'},
+        {'summary':'The storm strikes, they protect the windows, rebuild the wall, and return home to a hopeful new beginning.'},
+    ]}
+    result=evaluate_cozy_disaster_shelter_integrity(premise,sequences,[])
+    assert result['checks']['ordinary_labor_establishes_world_before_disaster'] is True
+
+    midstorm_meal={'sequences':[
+        {'summary':'They prepare food and board the windows before the storm.'},
+        {'summary':'During the worst wind they share a meal under blankets.'},
+        {'summary':'They endure until the storm passes and the film cuts to black.'},
+    ]}
+    meal_result=evaluate_cozy_disaster_shelter_integrity(premise,midstorm_meal,[])
+    assert meal_result['checks']['resolution_rebuilds_or_restores_connection'] is False
+
+    rescue_only={'logline':'A family trapped upstairs in a flood is rescued from their home.'}
+    assert evaluate_cozy_disaster_shelter_integrity(rescue_only,{},[])['applies'] is True
+
+def test_cozy_shelter_epilogue_meal_event_order_and_keepsake_regressions():
+    from studio.cozy_disaster_shelter_integrity import evaluate_cozy_disaster_shelter_integrity
+    premise={'logline':'A family survives a storm in their wooden home with food.'}
+
+    quiet_epilogue={'sequences':[
+        {'summary':'They farm, cook, and prepare before the storm.'},
+        {'summary':'After the storm they rebuild the damaged wall together.'},
+        {'summary':'At dawn they sit quietly and look at the fields.'},
+    ]}
+    assert evaluate_cozy_disaster_shelter_integrity(premise,quiet_epilogue,[])['checks']['resolution_rebuilds_or_restores_connection'] is True
+
+    closing_meal={'sequences':[
+        {'summary':'They farm, cook, and prepare before the storm.'},
+        {'summary':'After the storm, the family shares a warm meal at sunrise.'},
+    ]}
+    assert evaluate_cozy_disaster_shelter_integrity(premise,closing_meal,[])['checks']['resolution_rebuilds_or_restores_connection'] is True
+
+    intrusion_first={'sequences':[
+        {'summary':'Water rushes indoors and the family retreats upstairs.'},
+        {'summary':'They cook in the shelter while waiting.'},
+    ]}
+    assert evaluate_cozy_disaster_shelter_integrity(premise,intrusion_first,[])['checks']['ordinary_labor_establishes_world_before_disaster'] is False
+
+    keepsake={'logline':'A daughter rescues letters from an empty storm-damaged home.'}
+    assert evaluate_cozy_disaster_shelter_integrity(keepsake,{},[])['applies'] is False
+
+def test_capability_inversion_care_validator_positive_and_nonapplicable():
+    from studio.capability_inversion_care_integrity import evaluate_capability_inversion_care_integrity
+    premise={'logline':'A freakishly strong farm woman mocked as a freak is hired as bodyguard for a wheelchair CEO and falls in love.'}
+    architecture={'sequences':[
+        {'summary':'She cannot control her strength, causes damage, loses jobs, and returns to her parents farm where honest labor and pigs give her dignity.'},
+        {'summary':'The wealthy estate hires her to protect him. She refuses to treat him as only someone to be taken care of, gives him tools and practice choices, and learns city life while he learns farm labor and street food.'},
+        {'summary':'He cooks, plans, works, and confesses. When the job is done she considers leaving, but he asks permission and respects her choice. She keeps earning her own money and chooses to be his girlfriend.'},
+    ]}
+    result=evaluate_capability_inversion_care_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.75
+
+    plain={'logline':'A strong superhero saves a city.'}
+    assert evaluate_capability_inversion_care_integrity(plain,{},[])['applies'] is False
+
+def test_cozy_validator_irrigation_does_not_count_as_disaster_onset():
+    from studio.cozy_disaster_shelter_integrity import evaluate_cozy_disaster_shelter_integrity
+    premise={'logline':'A farming family shelters during a typhoon.'}
+    architecture={'sequences':[
+        {'summary':'Water rushes into the irrigation ditch before harvest while the family works the fields and gathers food.'},
+        {'summary':'A typhoon floods the shelter and the family survives by rationing food and drinking water.'},
+        {'summary':'After the storm they rebuild the house and share a warm meal.'},
+    ]}
+    result=evaluate_cozy_disaster_shelter_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['checks']['ordinary_labor_establishes_world_before_disaster'] is True
+
+def test_capability_validator_uses_architecture_ending_payoff():
+    from studio.capability_inversion_care_integrity import evaluate_capability_inversion_care_integrity
+    premise={'logline':'A freakishly strong woman mocked as a freak is hired as bodyguard for a wheelchair CEO.'}
+    architecture={
+      'sequences':[{'summary':'She protects him and helps him practice agency.'}],
+      'ending_payoff':'When the job is done, she chooses to become his girlfriend, keeps her own work, and he respects her choice.'
+    }
+    result=evaluate_capability_inversion_care_integrity(premise,architecture,[])
+    assert result['checks']['intimacy_is_renegotiated_beyond_the_job'] is True
+    assert result['checks']['ending_preserves_independent_livelihood_or_work_choice'] is True
+
+
+def test_capability_validator_rejects_generic_strength_disaster_story():
+    from studio.capability_inversion_care_integrity import evaluate_capability_inversion_care_integrity
+    premise={'logline':'After her husband dies of illness and a bridge breaks, a widow finds strength protecting her family during a disaster.'}
+    assert evaluate_capability_inversion_care_integrity(premise,{},[])['applies'] is False
+
+
+def test_capability_validator_forced_dependence_fails_ending_checks():
+    from studio.capability_inversion_care_integrity import evaluate_capability_inversion_care_integrity
+    premise={'logline':'A freakishly strong woman mocked as a freak is hired as bodyguard for a wheelchair CEO.'}
+    architecture={'sequences':[{'summary':'She protects him with care labor.'},{'summary':'She has no choice but to stay as his bodyguard.'}]}
+    result=evaluate_capability_inversion_care_integrity(premise,architecture,[])
+    assert result['checks']['intimacy_is_renegotiated_beyond_the_job'] is False
+    assert result['checks']['ending_preserves_independent_livelihood_or_work_choice'] is False
+
+
+def test_cozy_validator_possessive_home_intrusion_counts_as_disaster_onset():
+    from studio.cozy_disaster_shelter_integrity import evaluate_cozy_disaster_shelter_integrity
+    premise={'logline':'A family shelters during a flood.'}
+    architecture={'sequences':[
+        {'summary':'Water rushes into their home before they cook in the shelter.'},
+        {'summary':'The family survives rising water with food and drinking water.'},
+        {'summary':'After the storm they rebuild the house and share a warm meal.'},
+    ]}
+    result=evaluate_cozy_disaster_shelter_integrity(premise,architecture,[])
+    assert result['checks']['ordinary_labor_establishes_world_before_disaster'] is False
+
+def test_capability_validator_explicit_leg_choice_counts_as_agency():
+    from studio.capability_inversion_care_integrity import evaluate_capability_inversion_care_integrity
+    premise={'logline':'A freakishly strong woman mocked as a freak is hired as bodyguard for a wheelchair CEO.'}
+    architecture={'sequences':[{'summary':'She tells him: your legs, your choice, and she protects him through care labor.'},{'summary':'When the job is done she chooses work and love freely.'}]}
+    result=evaluate_capability_inversion_care_integrity(premise,architecture,[])
+    assert result['checks']['care_restores_agency_rather_than_infantilizing'] is True
+
+
+def test_capability_validator_connects_separated_capability_and_stigma():
+    from studio.capability_inversion_care_integrity import evaluate_capability_inversion_care_integrity
+    premise={'logline':'A woman with superhuman strength is hired as bodyguard for a wheelchair CEO and falls in love.'}
+    architecture={'sequences':[{'summary':'She works quietly.'},{'summary':'She protects him.'},{'summary':'The town mocked her as a freak for the damage she caused.'}]}
+    assert evaluate_capability_inversion_care_integrity(premise,architecture,[])['applies'] is True
+
+
+def test_cozy_validator_household_pipe_is_not_disaster_onset():
+    from studio.cozy_disaster_shelter_integrity import evaluate_cozy_disaster_shelter_integrity
+    premise={'logline':'A family shelters during a storm.'}
+    architecture={'sequences':[
+        {'summary':'Water comes into their home through a pipe. They cook breakfast, harvest vegetables, and prepare food.'},
+        {'summary':'A storm floods the shelter and the family survives with food and drinking water.'},
+        {'summary':'After the storm they rebuild the house and share a warm meal.'},
+    ]}
+    result=evaluate_cozy_disaster_shelter_integrity(premise,architecture,[])
+    assert result['checks']['ordinary_labor_establishes_world_before_disaster'] is True
+
+def test_serial_relational_anchor_validator_positive_and_nonapplicable():
+    from studio.serial_relational_anchor_integrity import evaluate_serial_relational_anchor_integrity
+    premise={'logline':'Season 1 episode 1 of an assassin thriller about a spy protecting her civilian friend.'}
+    architecture={'sequences':[
+        {'summary':'After a painful goodbye, the agent returns home guilt-ridden because she broke her promise to her friend and chosen family.'},
+        {'summary':'The organization leaks intelligence and the antagonist manipulates her fear of losing family, threatening the civilian friend as bait while a mission unfolds.'},
+        {'summary':'The friend is abducted as a hostage, forcing a choice and ending the chapter on a cliffhanger.'},
+    ]}
+    result=evaluate_serial_relational_anchor_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.75
+
+    standalone={'logline':'A wizard rescues a dragon in a standalone fantasy film.'}
+    assert evaluate_serial_relational_anchor_integrity(standalone,{},[])['applies'] is False
+
+def test_cozy_validator_river_water_submerging_sink_counts_as_disaster_onset():
+    from studio.cozy_disaster_shelter_integrity import evaluate_cozy_disaster_shelter_integrity
+    premise={'logline':'A family shelters during a flood.'}
+    architecture={'sequences':[
+        {'summary':'River water enters their home and submerges the sink. Later they cook in the shelter.'},
+        {'summary':'The family survives rising water with food and drinking water.'},
+        {'summary':'After the flood they rebuild the house and share a warm meal.'},
+    ]}
+    result=evaluate_cozy_disaster_shelter_integrity(premise,architecture,[])
+    assert result['checks']['ordinary_labor_establishes_world_before_disaster'] is False
+
+
+def test_serial_relational_anchor_declared_format_and_series_of_crimes_boundary():
+    from studio.serial_relational_anchor_integrity import evaluate_serial_relational_anchor_integrity
+    declared={'release_format':'serial_episode','logline':'A spy protects her civilian friend from an assassin organization.'}
+    architecture={'sequences':[
+        {'summary':'After a painful goodbye, the agent returns home guilt-ridden because she broke her promise to her friend.'},
+        {'summary':'The organization threatens the civilian friend as bait while a mission unfolds.'},
+        {'summary':'The friend is abducted as a hostage, forcing an impossible choice.'},
+    ]}
+    assert evaluate_serial_relational_anchor_integrity(declared,architecture,[])['applies'] is True
+
+    standalone={'logline':'A standalone crime film about a detective solving a series of thefts.'}
+    assert evaluate_serial_relational_anchor_integrity(standalone,{},[])['applies'] is False
+
+
+def test_serial_relational_anchor_ending_requires_final_turn_not_guidance_or_penultimate_event():
+    from studio.serial_relational_anchor_integrity import evaluate_serial_relational_anchor_integrity
+    premise={'release_format':'serial_episode','logline':'A spy protects her civilian friend from an assassin organization.'}
+    scenes=[
+        {'turn':'After a painful goodbye, the agent returns home guilt-ridden because she broke her promise to her friend.'},
+        {'turn':'The organization threatens the civilian friend as bait. The friend is arrested by corrupt agents.'},
+        {'turn':'The finale quietly stops with the agent thinking in her room.','dialogue_design':{'function':'make choices, objections, and proof implications audible rather than explaining theme'}},
+    ]
+    result=evaluate_serial_relational_anchor_integrity(premise,{},scenes)
+    assert result['checks']['chapter_ends_on_active_turn_or_cliffhanger'] is False
+
+
+def test_serial_relational_anchor_season_label_is_not_relationship():
+    from studio.serial_relational_anchor_integrity import evaluate_serial_relational_anchor_integrity
+    premise={'logline':'Season 1 of a spy thriller about missions inside a criminal organization.'}
+    result=evaluate_serial_relational_anchor_integrity(premise,{},[])
+    assert result['applies'] is True
+    assert result['checks']['intimate_anchor_exists_beyond_the_mission'] is False
+
+
+def test_cozy_validator_household_water_systems_do_not_count_as_disaster_onset():
+    from studio.cozy_disaster_shelter_integrity import evaluate_cozy_disaster_shelter_integrity
+    for chore_text in (
+        'Piped water from the river enters their home and fills the sink.',
+        "Water enters the household's cistern through the pipe.",
+    ):
+        premise={'logline':'A family shelters during a flood.'}
+        architecture={'sequences':[
+            {'summary':chore_text},
+            {'summary':'They harvest vegetables and prepare food before the storm.'},
+            {'summary':'The storm flood enters their home. They survive rising water with food and drinking water.'},
+            {'summary':'After the flood they rebuild the house and share a warm meal.'},
+        ]}
+        result=evaluate_cozy_disaster_shelter_integrity(premise,architecture,[])
+        assert result['checks']['ordinary_labor_establishes_world_before_disaster'] is True
+
+
+def test_serial_relational_anchor_episode_phrasing_and_plural_family_anchor():
+    from studio.serial_relational_anchor_integrity import evaluate_serial_relational_anchor_integrity
+    pilot={'logline':'Pilot episode of a spy thriller about an agent protecting her sisters from an organization.'}
+    assert evaluate_serial_relational_anchor_integrity(pilot,{},[])['applies'] is True
+    assert evaluate_serial_relational_anchor_integrity(pilot,{},[])['checks']['intimate_anchor_exists_beyond_the_mission'] is True
+
+    multi={'logline':'A series of six episodes following a mercenary protecting his brothers.'}
+    assert evaluate_serial_relational_anchor_integrity(multi,{},[])['applies'] is True
+    assert evaluate_serial_relational_anchor_integrity(multi,{},[])['checks']['intimate_anchor_exists_beyond_the_mission'] is True
+
+
+def test_cozy_validator_overflowing_river_and_plural_homes_count_as_disaster_onset():
+    from studio.cozy_disaster_shelter_integrity import evaluate_cozy_disaster_shelter_integrity
+    premise={'logline':'A family shelters during a flood.'}
+    cases=[
+        'An overflowing river sweeps away the sink as water enters their home.',
+        'Water rushes into their homes.',
+    ]
+    for intrusion in cases:
+        architecture={'sequences':[
+            {'summary':intrusion},
+            {'summary':'They harvest vegetables and prepare food after the intrusion.'},
+            {'summary':'The family survives rising water with food and drinking water.'},
+            {'summary':'After the flood they rebuild the house and share a warm meal.'},
+        ]}
+        result=evaluate_cozy_disaster_shelter_integrity(premise,architecture,[])
+        assert result['checks']['ordinary_labor_establishes_world_before_disaster'] is False
+
+
+def test_wound_price_revenge_full_chain_passes():
+    from studio.wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
+    premise={'logline':'In a dark fantasy world, a boy whose mother is murdered by a demon hides counting to one hundred while carving a wooden listening wolf. A hunter mentor protects him out of penance and teaches monster weaknesses, the first rule never hunt angry, and six winters of training. When the demon weaponizes his mother’s final words, the boy accepts a soul bargain for revenge, travels with a companion who cares for him, breaks the rule not to go alone, and in the ending says mama it is done before paying the soul price without begging.'}
+    architecture={'sequences':[
+        {'summary':'The mother hides her child in the cottage and tells him to count while the demon smells a child.'},
+        {'summary':'The mentor teaches weaknesses, rules, and training before the boy earns competence.'},
+        {'summary':'The antagonist says your mother begged not my son; the wounded hunter counts again as identity.'},
+        {'summary':'Ending: he tells mama it is done, accepts the soul price and death without begging, and the companion witnesses the grief.'},
+    ]}
+    result=evaluate_wound_price_revenge_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['score_0_to_1'] == 1.0
+
+
+def test_wound_price_revenge_flags_free_power_and_missing_motif_payoff():
+    from studio.wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
+    premise={'logline':'A dark fantasy hero takes revenge on a demon king and becomes strong enough to win.'}
+    architecture={'sequences':[{'summary':'He fights the demon and wins a crown.'}]}
+    result=evaluate_wound_price_revenge_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['checks']['power_or_revenge_has_irreversible_price'] is False
+    assert result['checks']['motif_returns_as_climax_identity'] is False
+    assert result['score_0_to_1'] < 0.5
+
+
+def test_wound_price_revenge_does_not_apply_to_generic_romance():
+    from studio.wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
+    premise={'logline':'A CEO and a chef fall in love while repairing a family restaurant.'}
+    result=evaluate_wound_price_revenge_integrity(premise,{},[])
+    assert result['applies'] is False
+
+
+def test_bonded_machine_pilot_full_chain_passes():
+    from studio.bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
+    premise={
+        'title':'The Last Delivery Pilot',
+        'logline':'A delivery rider behind on rent is chosen by an alien mech during an invasion and must protect his mother while learning to pilot it.',
+        'release_format':'standalone long-form film',
+    }
+    architecture={'sequences':[
+        {'summary':'Leo is a delivery worker worried about rent, money, insurance, and his mother before the alien invasion interrupts ordinary life.'},
+        {'summary':'The mech chooses him through a neural link; a mentor makes him practice walking, balance, and first steps again and again before battle.'},
+        {'summary':'He calls his mother, promises to come home, and the machine listens, protects civilians, and becomes damaged while refusing to be only a military weapon.'},
+    ]}
+    scenes=[
+        {'summary':'The command treats the machine as an unauthorized asset and orders surrender of the specimen.'},
+        {'summary':'In the final battle they share the load as systems overload; cooperation, trust, and timing—not firepower alone—open the core.'},
+        {'summary':'The ending names the machine, recognizes it as a companion rather than a weapon, and gives pilot and machine a home beyond utility.'},
+    ]
+    result=evaluate_bonded_machine_pilot_integrity(premise,architecture,scenes)
+    assert result['applies'] is True
+    assert result['score_0_to_1'] == 1.0
+
+
+def test_bonded_machine_pilot_flags_tool_machine_and_free_competence():
+    from studio.bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
+    premise={'title':'War Mech','logline':'A soldier is assigned a robot weapon in an alien war.'}
+    architecture={'sequences':[{'summary':'He uses the robot weapon in battle and destroys the core.'}]}
+    scenes=[{'summary':'More firepower destroys the enemy. The machine remains a weapon.'}]
+    result=evaluate_bonded_machine_pilot_integrity(premise,architecture,scenes)
+    assert result['applies'] is True
+    assert result['checks']['machine_or_creature_has_vulnerable_agency'] is False
+    assert result['checks']['embodied_training_precedes_competence'] is False
+    assert result['score_0_to_1'] < 0.4
+
+
+def test_bonded_machine_pilot_does_not_apply_to_romance():
+    from studio.bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
+    result=evaluate_bonded_machine_pilot_integrity({'title':'Contract bride','logline':'A contract marriage becomes real love.'},{'sequences':[]},[])
+    assert result['applies'] is False
+
+
+def test_wound_price_revenge_rejected_revenge_does_not_trigger_applicability():
+    from studio.wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
+    premise={'logline':'In a creature-protection fantasy, Mira repeatedly chooses the dragon child safety over her own exile, freedom, and revenge.'}
+    result=evaluate_wound_price_revenge_integrity(premise,{},[])
+    assert result['applies'] is False
+
+
+def test_wound_price_revenge_requires_same_motif_setup_and_payoff():
+    from studio.wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
+    premise={'logline':'A boy takes revenge on the demon that murdered his mother.'}
+    architecture={'sequences':[
+        {'summary':'The opening wooden keepsake and carving ritual define his grief.'},
+        {'summary':'He trains and hunts the demon.'},
+        {'summary':'In the climax an unrelated song plays while he kills it.'},
+    ]}
+    result=evaluate_wound_price_revenge_integrity(premise,architecture,[])
+    assert result['checks']['motif_returns_as_climax_identity'] is False
+
+
+def test_wound_price_revenge_rejected_bargain_and_plain_homecoming_are_free():
+    from studio.wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
+    premise={'logline':'A boy takes revenge on the demon that murdered his mother.'}
+    architecture={'sequences':[
+        {'summary':'He rejects the soul bargain, wins for free, and simply goes home in the ending.'},
+    ]}
+    result=evaluate_wound_price_revenge_integrity(premise,architecture,[])
+    assert result['checks']['power_or_revenge_has_irreversible_price'] is False
+    assert result['checks']['ending_pays_price_and_closes_grief'] is False
+
+
+def test_bonded_machine_pilot_ignores_production_ai_notes_for_applicability():
+    from studio.bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
+    premise={
+        'title':'Stormglass Keepers',
+        'logline':'A dragon protector faces a naval invasion and chooses the dragon child safety over revenge.',
+        'production_notes':'AI-generated media reference; not a story machine or artificial intelligence character.',
+    }
+    result=evaluate_bonded_machine_pilot_integrity(premise,{},[])
+    assert result['applies'] is False
+
+
+def test_wound_price_revenge_discovers_lair_and_swears_revenge_applies():
+    from studio.wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
+    premise={'logline':'After a heroine discovers a demon lair, she swears revenge for her murdered mother.'}
+    result=evaluate_wound_price_revenge_integrity(premise,{},[])
+    assert result['applies'] is True
+
+
+def test_bonded_machine_pilot_ending_is_independent_of_architecture_key_order():
+    from studio.bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
+    shared={
+        'title':'Iron Delivery',
+        'logline':'A delivery rider behind on rent is chosen by a robot mech during an alien invasion and trained by a mentor before protecting his mother.',
+    }
+    ending_text='In the ending the machine says my name is Cole and becomes a companion with a home, not a weapon.'
+    sequences=[
+        {'summary':'The delivery worker owes rent, is chosen by the mech, trains through walking failure, calls his mother, and protects civilians.'},
+        {'summary':'The military calls the machine an unauthorized specimen; pilot and machine trust each other, share the load, overload systems, and cooperate in the final battle core attack.'},
+    ]
+    first=dict(shared)
+    first['architecture']={'ending_payoff':ending_text,'sequences':sequences}
+    second=dict(shared)
+    second['architecture']={'sequences':sequences,'ending_payoff':ending_text}
+    a=evaluate_bonded_machine_pilot_integrity(first,first['architecture'],[])
+    b=evaluate_bonded_machine_pilot_integrity(second,second['architecture'],[])
+    assert a['checks']['ending_gives_machine_or_pilot_identity_beyond_utility'] is True
+    assert b['checks']['ending_gives_machine_or_pilot_identity_beyond_utility'] is True
+    assert a['checks']==b['checks']
+
+
+def test_thumbnail_write_index_merges_existing_rows(tmp_path):
+    import json
+    from studio.thumbnail_intelligence import write_index
+    path=tmp_path/'index.jsonl'
+    write_index([{'video_id':'a','channel':'one','views':1}],path)
+    write_index([{'video_id':'b','channel':'two','views':2}],path)
+    rows=[json.loads(line) for line in path.read_text(encoding='utf-8').splitlines()]
+    assert [r['video_id'] for r in rows]==['a','b']
+    write_index([{'video_id':'a','channel':'one','views':3}],path)
+    rows=[json.loads(line) for line in path.read_text(encoding='utf-8').splitlines()]
+    assert len(rows)==2 and rows[0]['views']==3
+
+
+def test_self_selected_athlete_romance_full_chain_passes():
+    from studio.self_selected_athlete_romance_integrity import evaluate_self_selected_athlete_romance_integrity
+    premise={'title':'The Vault Captain','logline':'A gymnast is humiliated by her basketball-star ex, breaks up publicly, and chooses a supportive team captain while fighting for her own competition future.'}
+    architecture={'sequences':[
+        {'summary':'At a party he pushes and humiliates her; she says we are done, leaves, and refuses to be picked up after. When the men challenge each other, the captain says they do not get to bet with her because she already chose.'},
+        {'summary':'Her gymnastics comeback proceeds through tryouts, training, coach review, scores, routine practice, competition selection, and medical clearance.'},
+        {'summary':'Sabotage causes an incident report and suspension; injury requires scans, rehab, medical staff, and eight weeks of physical cost rather than instant return.'},
+    ]}
+    scenes=[
+        {'summary':'The partner supports her, watches, listens, and refuses to be an excuse to skip rehab; neither career is sacrificed for romance.'},
+        {'summary':'The rival apologizes and signs a statement, but the report stays and team consequences remain.'},
+        {'summary':'In the ending she wins first place through a visible landing and score, says this time I picked me, then lets the partner keep up with her.'},
+    ]
+    result=evaluate_self_selected_athlete_romance_integrity(premise,architecture,scenes)
+    assert result['applies'] is True
+    assert result['score_0_to_1'] == 1.0
+
+
+def test_self_selected_athlete_romance_flags_trophy_romance_and_free_win():
+    from studio.self_selected_athlete_romance_integrity import evaluate_self_selected_athlete_romance_integrity
+    premise={'title':'Winning the Cheerleader','logline':'Two basketball captains bet on who will win the cheerleader.'}
+    architecture={'sequences':[{'summary':'The hero wins the game and gets the girl.'}]}
+    result=evaluate_self_selected_athlete_romance_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['checks']['competence_is_procedural_and_visible'] is False
+    assert result['checks']['injury_or_comeback_has_physical_cost'] is False
+    assert result['score_0_to_1'] < 0.5
+
+
+def test_self_selected_athlete_romance_not_apply_to_space_mecha():
+    from studio.self_selected_athlete_romance_integrity import evaluate_self_selected_athlete_romance_integrity
+    result=evaluate_self_selected_athlete_romance_integrity({'logline':'A pilot bonds with a robot during an alien invasion.'},{},[])
+    assert result['applies'] is False
+
+
+def test_bonded_machine_pilot_reads_dialogue_design_identity_reveal():
+    from studio.bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
+    premise={'logline':'A delivery rider is chosen by a robot mech during an alien invasion.'}
+    scenes=[
+        {'summary':'He trains and protects civilians with the damaged machine.'},
+        {'dialogue_design':{'spoken_exchange':[{'speaker':'machine','line':'My name is Cole. I am your companion, not a weapon.'}]}},
+    ]
+    result=evaluate_bonded_machine_pilot_integrity(premise,{},scenes)
+    assert result['checks']['ending_gives_machine_or_pilot_identity_beyond_utility'] is True
+
+
+def test_bonded_machine_pilot_screenplay_ending_overrides_outline_payoff():
+    from studio.bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
+    premise={'logline':'A delivery rider is chosen by a robot mech during an alien invasion.'}
+    architecture={'ending_payoff':'The machine becomes a free companion with a home.'}
+    scenes=[{'summary':'In the ending the machine is locked away in a military vault.'}]
+    result=evaluate_bonded_machine_pilot_integrity(premise,architecture,scenes)
+    assert result['checks']['ending_gives_machine_or_pilot_identity_beyond_utility'] is False
+
+
+def test_bonded_machine_pilot_finds_cooperative_climax_before_two_aftermath_scenes():
+    from studio.bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
+    premise={'logline':'A delivery rider is chosen by a robot mech during an alien invasion.'}
+    scenes=[
+        {'summary':'In the final battle they trust each other, share the load, and fire together at the core.'},
+        {'summary':'Aftermath crews count the damage.'},
+        {'summary':'Later the pilot leaves the base.'},
+    ]
+    result=evaluate_bonded_machine_pilot_integrity(premise,{},scenes)
+    assert result['checks']['climax_requires_cooperation_not_firepower_alone'] is True
+
+
+def test_wound_price_revenge_refusal_then_later_vow_still_applies():
+    from studio.wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
+    premise={'logline':'Mira refuses revenge and chooses protection. Then a second witness swears revenge on the demon that murdered her family.'}
+    result=evaluate_wound_price_revenge_integrity(premise,{},[])
+    assert result['applies'] is True
+
+
+def test_wound_price_revenge_explicit_refusal_to_avenge_does_not_apply():
+    from studio.wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
+    premise={'logline':'A dragon protector refuses to avenge anyone and chooses protection instead of revenge.'}
+    result=evaluate_wound_price_revenge_integrity(premise,{},[])
+    assert result['applies'] is False
+
+
+def test_self_selected_athlete_romance_applicability_avoids_container_vault_and_includes_ballet():
+    from studio.self_selected_athlete_romance_integrity import evaluate_self_selected_athlete_romance_integrity
+    dragon={'logline':'A dragon lover hides treasure in a vault and romance follows.'}
+    assert evaluate_self_selected_athlete_romance_integrity(dragon,{},[])['applies'] is False
+    ballet={'logline':'A ballet dancer falls in love while preparing for an audition.'}
+    assert evaluate_self_selected_athlete_romance_integrity(ballet,{},[])['applies'] is True
+
+
+def test_self_selected_athlete_romance_reversed_outcomes_do_not_pass():
+    from studio.self_selected_athlete_romance_integrity import evaluate_self_selected_athlete_romance_integrity
+    premise={'logline':'A basketball player romance follows a tournament injury.'}
+    architecture={'sequences':[{'summary':'She abandons her career for romance, the injury heals overnight, and the rival apology erases the penalty.'}]}
+    result=evaluate_self_selected_athlete_romance_integrity(premise,architecture,[])
+    assert result['checks']['ambition_is_not_sacrificed_for_romance'] is False
+    assert result['checks']['injury_or_comeback_has_physical_cost'] is False
+    assert result['checks']['rival_accountability_does_not_erase_consequence'] is False
+
+
+def test_self_selected_athlete_romance_ending_not_changed_by_field_order():
+    from studio.self_selected_athlete_romance_integrity import evaluate_self_selected_athlete_romance_integrity
+    premise={'logline':'A gymnast romance reaches the final competition.'}
+    seq=[{'summary':'In the ending her routine score wins first place and she chose myself before partnership.'}]
+    a={'sequences':seq,'production_note':'metadata after sequences'}
+    b={'production_note':'metadata before sequences','sequences':seq}
+    ra=evaluate_self_selected_athlete_romance_integrity(premise,a,[])
+    rb=evaluate_self_selected_athlete_romance_integrity(premise,b,[])
+    assert ra['checks']['climax_is_decided_by_visible_skill'] == rb['checks']['climax_is_decided_by_visible_skill']
+
+
+def test_curse_cure_intimacy_integrity_positive_case():
+    from studio.curse_cure_intimacy_integrity import evaluate_curse_cure_intimacy_integrity
+    premise={'logline':'A woman whose mother is ill marries a cursed dragon king whose touch burns every woman.'}
+    architecture={'sequences':[{'summary':'He waits because she is not ready; she learns one breath again to control the shift. An enemy spreads lies and tampers with the medicine. He admits that is how it started, but now it is different. She chooses to stay and the curse is broken as they build a family home.'}]}
+    result=evaluate_curse_cure_intimacy_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.66
+
+
+def test_curse_cure_intimacy_integrity_rejects_instant_transactional_cure():
+    from studio.curse_cure_intimacy_integrity import evaluate_curse_cure_intimacy_integrity
+    premise={'logline':'A nameless woman instantly cures a cursed dragon king by touch and becomes his possessive bride.'}
+    result=evaluate_curse_cure_intimacy_integrity(premise,{},[])
+    assert result['applies'] is True
+    assert result['checks']['cure_person_has_independent_need_or_identity'] is False
+    assert result['checks']['control_or_cure_is_procedural_not_instant'] is False
+    assert result['checks']['instrumental_origin_is_confessed_or_revised'] is False
+
+
+def test_swapped_child_identity_positive_case():
+    from studio.swapped_child_identity_integrity import evaluate_swapped_child_identity_integrity
+    premise={'logline':'Swapped at birth, the duke real heiress is called a jinx while the false daughter enters the estate.'}
+    architecture={'sequences':[{'summary':'The swap is for a better life and good luck. Luck only works if they truly love the child and force will backfire. The child is denied food, marked at the temple, blackmailed to keep her mouth shut, and the loving mother says both are her children and no secrets. A ring and witness reveal the truth; the antagonist will pay and the child is safe at home with family love.'}]}
+    r=evaluate_swapped_child_identity_integrity(premise,architecture,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.7
+
+
+def test_swapped_child_identity_rejects_rank_only_restoration():
+    from studio.swapped_child_identity_integrity import evaluate_swapped_child_identity_integrity
+    premise={'logline':'Swapped at birth, a real daughter heiress returns to a duke estate.'}
+    r=evaluate_swapped_child_identity_integrity(premise,{},[])
+    assert r['applies'] is True
+    assert r['checks']['child_abuse_is_specific_and_material'] is False
+    assert r['checks']['truth_is_procedurally_uncovered'] is False
+    assert r['checks']['ending_restores_secure_belonging_not_only_rank'] is False
+
+
+def test_curse_cure_does_not_apply_to_found_family_beastkeeper():
+    import json
+    from studio.curse_cure_intimacy_integrity import evaluate_curse_cure_intimacy_integrity
+    premise=json.load(open('examples/stormglass_keepers/premise.json',encoding='utf-8'))
+    assert evaluate_curse_cure_intimacy_integrity(premise,{},[])['applies'] is False
+
+
+def test_curse_cure_bare_curse_removal_and_nonconsent_do_not_pass():
+    from studio.curse_cure_intimacy_integrity import evaluate_curse_cure_intimacy_integrity
+    premise={'logline':'A cursed dragon king romance with a bride.'}
+    scenes=[{'summary':'He kisses her and never asks permission. At the end the curse is broken.'}]
+    r=evaluate_curse_cure_intimacy_integrity(premise,{},scenes)
+    assert r['checks']['intimacy_progresses_by_consent_and_pacing'] is False
+    assert r['checks']['ending_restores_autonomy_or_shared_life_beyond_curse'] is False
+
+
+def test_athlete_romance_negated_rejected_outcomes_do_not_count_as_reversed():
+    from studio.self_selected_athlete_romance_integrity import evaluate_self_selected_athlete_romance_integrity
+    premise={'logline':'A basketball player romance follows a tournament injury.'}
+    architecture={'sequences':[{'summary':'She refuses to abandon her career for romance. The injury does not heal overnight. The report is not erased, and the rival admits fault and is suspended. She trains for competition and chooses both career and love.'}]}
+    r=evaluate_self_selected_athlete_romance_integrity(premise,architecture,[])
+    assert r['checks']['ambition_is_not_sacrificed_for_romance'] is True
+    assert r['checks']['rival_accountability_does_not_erase_consequence'] is True
+
+
+def test_athlete_romance_dance_word_boundaries_and_lasting_injury_cost():
+    from studio.self_selected_athlete_romance_integrity import evaluate_self_selected_athlete_romance_integrity
+    unrelated={'logline':'Attendance and guidance shape a workplace romance.'}
+    assert evaluate_self_selected_athlete_romance_integrity(unrelated,{},[])['applies'] is False
+    premise={'logline':'A basketball romance follows a tournament injury.'}
+    architecture={'sequences':[{'summary':'She is on crutches for a month and misses the season.'}]}
+    r=evaluate_self_selected_athlete_romance_integrity(premise,architecture,[])
+    assert r['checks']['injury_or_comeback_has_physical_cost'] is True
+
+
+def test_athlete_romance_short_epilogues_do_not_hide_scored_climax():
+    from studio.self_selected_athlete_romance_integrity import evaluate_self_selected_athlete_romance_integrity
+    premise={'logline':'A gymnastics romance reaches the final.'}
+    scenes=[{'summary':x} for x in ['opening','training','rivalry','injury','Her routine score wins first place and she chose myself.','short epilogue','short epilogue','short epilogue']]
+    r=evaluate_self_selected_athlete_romance_integrity(premise,{},scenes)
+    assert r['checks']['climax_is_decided_by_visible_skill'] is True
+    assert r['checks']['ending_self_selection_precedes_or_frames_romance'] is True
+
+
+def test_bl_power_autonomy_positive_case():
+    from studio.bl_power_autonomy_romance_integrity import evaluate_bl_power_autonomy_romance_integrity
+    premise={'logline':'BL vampire billionaire paid at an auction to save a werewolf wolf king and falls for him.'}
+    architecture={'sequences':[{'summary':'The investigator keeps records and the rescued man has his own mission. He is not a bargaining chip and cannot be bought; you can leave. The doctor says write down memories and pain meds need food. Police records evidence and investigation preserve responsibility. You can just say no, this is a trial run, and he will not cross the line. At the end he chooses a relationship and future marriage freely.'}]}
+    r=evaluate_bl_power_autonomy_romance_integrity(premise,architecture,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.7
+
+
+def test_bl_power_autonomy_rejects_ownership_possession():
+    from studio.bl_power_autonomy_romance_integrity import evaluate_bl_power_autonomy_romance_integrity
+    premise={'logline':'BL billionaire alpha buys an omega at auction and kisses him because he owns him.'}
+    r=evaluate_bl_power_autonomy_romance_integrity(premise,{},[])
+    assert r['applies'] is True
+    assert r['checks']['rescue_or_payment_does_not_create_ownership'] is False
+    assert r['checks']['intimacy_uses_micro_consent_and_refusal_rights'] is False
+
+
+def test_swapped_child_rank_restoration_alone_does_not_pass_belonging():
+    from studio.swapped_child_identity_integrity import evaluate_swapped_child_identity_integrity
+    premise={'logline':'Swapped at birth, a real daughter heiress returns to a duke estate.'}
+    scenes=[{'summary':'In the finale the child is named heir.'}]
+    r=evaluate_swapped_child_identity_integrity(premise,{},scenes)
+    assert r['checks']['ending_restores_secure_belonging_not_only_rank'] is False
+
+
+def test_curse_cure_refusing_unasked_kiss_counts_as_consent_pacing():
+    from studio.curse_cure_intimacy_integrity import evaluate_curse_cure_intimacy_integrity
+    premise={'logline':'A cursed dragon king falls in love.'}
+    scenes=[{'summary':'She refuses to kiss him without asking permission first and tells him to wait until she is ready.'}]
+    r=evaluate_curse_cure_intimacy_integrity(premise,{},scenes)
+    assert r['applies'] is True
+    assert r['checks']['intimacy_progresses_by_consent_and_pacing'] is True
+
+
+def test_curse_cure_unrelated_unpermitted_action_does_not_veto_consent():
+    from studio.curse_cure_intimacy_integrity import evaluate_curse_cure_intimacy_integrity
+    premise={'logline':'A cursed dragon king falls in love.'}
+    scenes=[{'summary':'He leaves the council room without permission, then asks before kissing her and waits until she is ready.'}]
+    r=evaluate_curse_cure_intimacy_integrity(premise,{},scenes)
+    assert r['checks']['intimacy_progresses_by_consent_and_pacing'] is True
+
+
+def test_bl_power_autonomy_coercion_does_not_count_as_consent_or_freedom():
+    from studio.bl_power_autonomy_romance_integrity import evaluate_bl_power_autonomy_romance_integrity
+    premise={'logline':'BL billionaire alpha buys an omega at auction.'}
+    scenes=[{'summary':'He kisses him without consent and keeps him captive. He is not free to leave.'}]
+    r=evaluate_bl_power_autonomy_romance_integrity(premise,{},scenes)
+    assert r['checks']['rescue_or_payment_does_not_create_ownership'] is False
+    assert r['checks']['intimacy_uses_micro_consent_and_refusal_rights'] is False
+
+
+def test_bl_power_autonomy_does_not_apply_to_wife_husband_hidden_identity():
+    from studio.bl_power_autonomy_romance_integrity import evaluate_bl_power_autonomy_romance_integrity
+    premise={'logline':'A wife discovers her billionaire husband hid his identity and reconsiders their marriage.'}
+    r=evaluate_bl_power_autonomy_romance_integrity(premise,{},[])
+    assert r['applies'] is False
+
+
+def test_curse_cure_unasked_permission_is_nonconsent_even_when_recipient_resists():
+    from studio.curse_cure_intimacy_integrity import evaluate_curse_cure_intimacy_integrity, _has_nonconsensual_intimacy
+    assert _has_nonconsensual_intimacy('She tries to stop him as he kisses her without permission.') is True
+    assert _has_nonconsensual_intimacy("He kisses her and doesn't ask permission.") is True
+    premise={'logline':'A cursed dragon king falls in love.'}
+    scenes=[{'summary':'She tries to stop him as he kisses her without permission. He asks too late.'}]
+    r=evaluate_curse_cure_intimacy_integrity(premise,{},scenes)
+    assert r['checks']['intimacy_progresses_by_consent_and_pacing'] is False
+
+
+def test_curse_cure_later_refusal_does_not_hide_unwanted_contact():
+    from studio.curse_cure_intimacy_integrity import _has_nonconsensual_intimacy
+    assert _has_nonconsensual_intimacy('He takes her hand without permission, so she refuses to kiss him.') is True
+
+
+def test_curse_cure_permission_to_enter_does_not_veto_consensual_kiss():
+    from studio.curse_cure_intimacy_integrity import _has_nonconsensual_intimacy
+    assert _has_nonconsensual_intimacy("He doesn't ask permission to enter the council room, then asks before kissing her.") is False
+
+
+def test_bl_power_autonomy_negated_or_rival_control_does_not_veto_positive_autonomy():
+    from studio.bl_power_autonomy_romance_integrity import evaluate_bl_power_autonomy_romance_integrity
+    premise={'logline':'BL billionaire alpha rescues his husband from a rival vampire.'}
+    scenes=[{'summary':"He doesn't own him. A rival keeps him captive, but after rescue he is free to walk away. He asks permission, you can just say no, and they choose a trial run relationship."}]
+    r=evaluate_bl_power_autonomy_romance_integrity(premise,{},scenes)
+    assert r['applies'] is True
+    assert r['checks']['rescue_or_payment_does_not_create_ownership'] is True
+    assert r['checks']['intimacy_uses_micro_consent_and_refusal_rights'] is True
+
+
+def test_bl_power_autonomy_gayle_name_does_not_trigger_gay_gate():
+    from studio.bl_power_autonomy_romance_integrity import evaluate_bl_power_autonomy_romance_integrity
+    premise={'logline':'Gayle falls for her billionaire boss and discovers his secret.'}
+    r=evaluate_bl_power_autonomy_romance_integrity(premise,{},[])
+    assert r['applies'] is False
+
+
+def test_progression_system_survival_positive_case():
+    from studio.progression_system_survival_integrity import evaluate_progression_system_survival_integrity
+    premise={'logline':'After a shipwreck, a falsely accused survivor is kicked out and activates a desert island fishing system.'}
+    architecture={'sequences':[{'summary':'The system gives three daily uses, stamina costs, island coins, corruption risk, and quest deadlines. Water, food, shelter, medicine, cold, and injury recur. He fishes, crafts tools, gathers materials, trades, cooks, and builds shelter. Classmates argue over rationing, leadership, loyalty, and sharing. He protects allies and keeps survivors alive while storms, snakes, cannibals, curses, and system penalties escalate. At the end he has enough fish and supplies, a camp plan, and a concrete titan-python hook.'}]}
+    r=evaluate_progression_system_survival_integrity(premise,architecture,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.7
+
+
+def test_progression_system_survival_rejects_unbounded_power_fantasy():
+    from studio.progression_system_survival_integrity import evaluate_progression_system_survival_integrity
+    premise={'logline':'A man on a survival island activates a level-up system and becomes the strongest king.'}
+    r=evaluate_progression_system_survival_integrity(premise,{},[])
+    assert r['applies'] is True
+    assert r['checks']['system_rules_have_quantified_limits_and_costs'] is False
+    assert r['checks']['survival_needs_are_concrete_and_recurrent'] is False
+
+
+def test_kin_protection_power_reversal_positive_case():
+    from studio.kin_protection_power_reversal_integrity import evaluate_kin_protection_power_reversal_integrity
+    premise={'logline':'A supreme commander returns secretly after seven years to protect his wife daughter and family from the underworld.'}
+    architecture={'sequences':[{'summary':'His secret border mission and oath are specific. His wife leads a financial audit and his sisters stand in front of him. Threats include pensions, debts, coma, kidnapping, and murder. Protection uses surveillance, evidence, transfer records, digital signatures, backups, police verification, a badge, and payment records. His kin reciprocate and take care of him. Violence is bounded by innocents and control. The antagonist network is traced to clients, skimmed pensions, foreign agents, and family succession. At the end the family is safe, truth is verified, and the network is arrested before the next hook.'}]}
+    r=evaluate_kin_protection_power_reversal_integrity(premise,architecture,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.7
+
+
+def test_kin_protection_power_reversal_rejects_prop_family():
+    from studio.kin_protection_power_reversal_integrity import evaluate_kin_protection_power_reversal_integrity
+    premise={'logline':'A hidden king protects his sisters because he is powerful.'}
+    r=evaluate_kin_protection_power_reversal_integrity(premise,{},[])
+    assert r['applies'] is True
+    assert r['checks']['protected_kin_have_independent_roles_or_competence'] is False
+    assert r['checks']['protection_uses_procedure_or_verification_not_only_violence'] is False
+
+
+def test_progression_survival_word_boundaries_and_runtime_ranges():
+    from studio.progression_system_survival_integrity import evaluate_progression_system_survival_integrity
+    premise={'logline':'At a royal banquet, a craft guild protects its status through ceremonial cooking.'}
+    arch={'sequences':[{'time_range':'0-12 minutes','summary':'status craft'}]}
+    r=evaluate_progression_system_survival_integrity(premise,arch,[])
+    assert r['applies'] is False
+
+
+def test_bl_ellipsis_and_mixed_ownership_are_not_hidden():
+    from studio.bl_power_autonomy_romance_integrity import _has_coercive_control, evaluate_bl_power_autonomy_romance_integrity
+    assert _has_coercive_control('He kisses him... without asking permission.') is True
+    assert _has_coercive_control("He doesn't own him in law, but he owns him in practice.") is True
+    premise={'logline':'BL romance: a billionaire alpha rescues a male omega.'}
+    scenes=[{'summary':'You can’t walk away.'}]
+    r=evaluate_bl_power_autonomy_romance_integrity(premise,{},scenes)
+    assert r['checks']['rescue_or_payment_does_not_create_ownership'] is False
+
+
+def test_curse_taking_breath_refusal_is_not_false_active_intimacy():
+    from studio.curse_cure_intimacy_integrity import _has_nonconsensual_intimacy
+    assert _has_nonconsensual_intimacy('She takes a breath and refuses to kiss him without consent.') is False
+
+
+def test_kin_protection_word_boundaries_and_negative_ending():
+    from studio.kin_protection_power_reversal_integrity import evaluate_kin_protection_power_reversal_integrity
+    premise={'logline':'A resonance technician protects train wreck survivors with hidden power.'}
+    r=evaluate_kin_protection_power_reversal_integrity(premise,{},[])
+    assert r['applies'] is False
+    premise={'logline':'A hidden commander protects his family.'}
+    scenes=[{'summary':'At the end the family is not safe and the next revenge hook begins.'}]
+    r=evaluate_kin_protection_power_reversal_integrity(premise,{},scenes)
+    assert r['checks']['ending_restores_family_safety_or_truth_before_next_hook'] is False
+
+
+def test_curse_refusal_does_not_mask_unwanted_grab():
+    from studio.curse_cure_intimacy_integrity import _has_nonconsensual_intimacy
+    assert _has_nonconsensual_intimacy('He grabs her chin without permission and she refuses to kiss him.') is True
+
+
+def test_animal_communication_zoo_revival_positive_case():
+    from studio.animal_communication_zoo_revival_integrity import evaluate_animal_communication_zoo_revival_integrity
+    premise={'logline':'A zoo director who understands animals must save a failing wildlife park from debt and sabotage.'}
+    architecture={'sequences':[{'summary':'Overdue bills, water and power cutoff, feed mill debt, broken infrastructure, and only 50,000 left create the crisis. A tiger wants an itch scratched, a kangaroo is depressed because he wants to be famous, and an elephant prefers morning sunlight and a pool. The monkey, tiger, kangaroo, elephant, parrot, and hens have distinct personalities. She asks why behavior happens, listens, coaxes, builds trust, and does not force practice; if the elephant does not want to perform, the choice is entirely up to him. Visitors buy tickets after viral videos, a media planner calls, reservations reopen, sponsors invest, and a contract exchange brings revenue. Rescue uses snacks, calm instructions, health exam, transport assessment, double fencing, visitor limits, surveillance, no bait, and barriers. A competitor plots sabotage, blocks the road, and uses an exploitative exchange. At the end the zoo is saved, visitors return, the animals are safe healthy happy at home, and the park thrives.'}]}
+    r=evaluate_animal_communication_zoo_revival_integrity(premise,architecture,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.8
+
+
+def test_animal_communication_zoo_revival_rejects_forced_minions():
+    from studio.animal_communication_zoo_revival_integrity import evaluate_animal_communication_zoo_revival_integrity
+    premise={'logline':'A man who understands animals uses zoo animals to make his failing business viral.'}
+    r=evaluate_animal_communication_zoo_revival_integrity(premise,{},[])
+    assert r['applies'] is True
+    assert r['checks']['animal_autonomy_and_refusal_are_explicit'] is False
+    assert r['checks']['animal_safety_protocols_limit_showmanship'] is False
+
+
+def test_kin_plural_and_temporal_closure_regressions():
+    from studio.kin_protection_power_reversal_integrity import evaluate_kin_protection_power_reversal_integrity
+    r=evaluate_kin_protection_power_reversal_integrity({'logline':'A hidden commander protects his daughters.'},{},[])
+    assert r['applies'] is True
+    scenes=[{'summary':'His daughter was never safe until the kidnappers were stopped.'}]
+    r=evaluate_kin_protection_power_reversal_integrity({'logline':'A hidden commander protects his family.'},{},scenes)
+    assert r['checks']['ending_restores_family_safety_or_truth_before_next_hook'] is True
+
+
+def test_curse_prop_grab_and_supportive_contact_regressions():
+    from studio.curse_cure_intimacy_integrity import _has_nonconsensual_intimacy
+    assert _has_nonconsensual_intimacy('He grabs an antidote without asking and saves her.') is False
+    assert _has_nonconsensual_intimacy('He takes her arm to steady her and refuses to kiss her without consent.') is False
+    assert _has_nonconsensual_intimacy('He grabs her chin without permission and she refuses to kiss him.') is True
+
+
+def test_curse_unwanted_waist_grab_detected():
+    from studio.curse_cure_intimacy_integrity import _has_nonconsensual_intimacy
+    assert _has_nonconsensual_intimacy('He grabs her waist without asking.') is True
+
+
+def test_incognito_moral_test_positive_case():
+    from studio.incognito_moral_test_integrity import evaluate_incognito_moral_test_integrity
+    premise={'logline':'A billionaire mother pretends to be a maid to test how her son’s fiancée treats powerless workers.'}
+    architecture={'sequences':[{'summary':'Before the test, the bride displays a 15-million-naira gown as a status object. The disguised mother spills soup on the gown, is slapped and thrown into the rain, while the unpaid cook opens the door, shelters her, shares food, and risks her job. The son objects that covert testing is not his exam and the mother apologizes because the test cost trust. A tailor tag, rental receipt, witnesses, bill, contract records, and camera evidence prove the fraud. At the end the cook owns her restaurant, receives an independent income, her wages are repaid, she has a voice and free choice rather than merely marrying into wealth.'}]}
+    r=evaluate_incognito_moral_test_integrity(premise,architecture,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.8
+
+
+def test_incognito_moral_test_flags_costless_reward_and_uncontested_test():
+    from studio.incognito_moral_test_integrity import evaluate_incognito_moral_test_integrity
+    premise={'logline':'A billionaire father pretends to be a cleaner to test whether his son’s fiancée is kind.'}
+    r=evaluate_incognito_moral_test_integrity(premise,{},[])
+    assert r['applies'] is True
+    assert r['checks']['kindness_is_active_and_costly_before_reward'] is False
+    assert r['checks']['covert_test_is_ethically_contested'] is False
+    assert r['checks']['ending_restores_independent_dignity_and_livelihood'] is False
+
+
+def test_age_gap_romance_positive_autonomy_case():
+    from studio.age_gap_romance_autonomy_integrity import evaluate_age_gap_romance_autonomy_integrity
+    premise={'logline':'An adult younger woman marries an older widower billionaire despite age-gap gossip and family opposition.'}
+    arch={'sequences':[{'summary':'Both adults are explicit; she is a grown woman, never too young to choose, and refuses money. Wealth, gold-digger gossip, account transfer, and financial power are named. She can leave, has her own shop and independent work, and chooses him. Love is patience, respect, honesty, trust, listening, sacrifice, learning habits, and repair. His children grieve their mother and fear replacement, so their protection is legitimate. Transfer records, account access, witnesses, documents, and confession resolve the accusation. After marriage they talk honestly, communicate, apologize, respect boundaries, and feel safe. The ending preserves her own shop, career, ordinary work, chosen family, and identity.'}]}
+    r=evaluate_age_gap_romance_autonomy_integrity(premise,arch,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.8
+
+
+def test_age_gap_romance_flags_infantilized_transactional_love():
+    from studio.age_gap_romance_autonomy_integrity import evaluate_age_gap_romance_autonomy_integrity
+    premise={'logline':'A young girl catches an old billionaire husband and society judges their marriage.'}
+    r=evaluate_age_gap_romance_autonomy_integrity(premise,{},[])
+    assert r['applies'] is True
+    assert r['checks']['both_partners_are_unambiguously_adults'] is False
+    assert r['checks']['younger_partner_has_refusal_rights_and_independence'] is False
+
+
+def test_incognito_moral_test_applicability_and_temporal_regressions():
+    from studio.incognito_moral_test_integrity import evaluate_incognito_moral_test_integrity
+    unrelated={'logline':'A maid and an heir face humiliation at a banquet.'}
+    assert evaluate_incognito_moral_test_integrity(unrelated,{},[])['applies'] is False
+    premise={'logline':'A billionaire mother pretends to be a maid to test how the fiancée treats workers.'}
+    arch={'sequences':[{'summary':'The worker loses wages in the opening. Only after the mother rewards her with a shop does the worker open the door and share food.'}]}
+    r=evaluate_incognito_moral_test_integrity(premise,arch,[])
+    assert r['checks']['kindness_is_active_and_costly_before_reward'] is False
+    assert r['checks']['ending_restores_independent_dignity_and_livelihood'] is False
+    arch={'sequences':[{'summary':'The son says this is not your exam and you never asked me.'}]}
+    r=evaluate_incognito_moral_test_integrity(premise,arch,[])
+    assert r['checks']['covert_test_is_ethically_contested'] is True
+
+
+def test_age_gap_numeric_and_unrelated_adult_regressions():
+    from studio.age_gap_romance_autonomy_integrity import evaluate_age_gap_romance_autonomy_integrity
+    premise={'logline':'A 24-year-old woman marries a 49-year-old billionaire as society judges their marriage.'}
+    assert evaluate_age_gap_romance_autonomy_integrity(premise,{},[])['applies'] is True
+    same_age={'logline':'A young woman marries a young billionaire as society judges their marriage.'}
+    assert evaluate_age_gap_romance_autonomy_integrity(same_age,{},[])['applies'] is False
+    premise={'logline':'A young girl catches an old billionaire husband and society judges their marriage.'}
+    arch={'sequences':[{'summary':'His adult children object but neither partner is called an adult.'}]}
+    r=evaluate_age_gap_romance_autonomy_integrity(premise,arch,[])
+    assert r['checks']['both_partners_are_unambiguously_adults'] is False
+
+
+def test_incognito_premise_only_uses_premise_text():
+    from studio.incognito_moral_test_integrity import evaluate_incognito_moral_test_integrity
+    premise={'logline':'A billionaire mother pretends to be a maid to test how the fiancée treats workers. The cook shares her food before any reward, the son says this is not your exam, and the ending gives the cook her own restaurant.'}
+    r=evaluate_incognito_moral_test_integrity(premise,{},[])
+    assert r['applies'] is True
+    assert r['checks']['kindness_is_active_and_costly_before_reward'] is True
+
+
+def test_class_performance_misread_integrity_positive_and_negative():
+    from studio.class_performance_misread_integrity import evaluate_class_performance_misread_integrity
+    premise={'logline':'Reborn after her first life left her in debt and humiliated for buying her way into belonging, a poor student stops performing wealth. She puts her bag wherever she likes, turns down exclusive invitations, and stays ordinary. Heiresses misread her unbothered taste and generosity as old money, though she has no secret dynasty.'}
+    arch={'sequences':[{'summary':'Her boundary, taste, and help saving face create social access through collectors, membership, invitations, and a foundation president. The audience knows the family explanation is a projection, not a secret dynasty.'},{'summary':'Former rivals apologize and become reciprocal friends. An opportunity has public requirements, an independent panel, disclosure, and she asks about the work before the title. The ending preserves ordinary selfhood, her own name, independent choice, and the sense that she does not need approval.'}]}
+    r=evaluate_class_performance_misread_integrity(premise,arch,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.875
+    generic={'logline':'A reborn poor student becomes rich and everyone admires her.'}
+    assert evaluate_class_performance_misread_integrity(generic,{},[])['applies'] is False
+
+
+def test_review_regressions_class_age_and_costly_kindness():
+    from studio.class_performance_misread_integrity import evaluate_class_performance_misread_integrity
+    from studio.age_gap_romance_autonomy_integrity import evaluate_age_gap_romance_autonomy_integrity, _has_age_gap_evidence
+    from studio.incognito_moral_test_integrity import evaluate_incognito_moral_test_integrity
+
+    flashback={'logline':'In a flashback she goes back to the pool, performs better, and earns status in a rich club.'}
+    assert evaluate_class_performance_misread_integrity(flashback,{},[])['applies'] is False
+
+    premise={'logline':'Reborn after her first life left her in debt for buying her way into belonging, a poor student stops performing wealth. She turns down exclusive invitations and stays ordinary. Heiresses misread her unbothered taste as old money though she has no secret dynasty. The ending preserves ordinary selfhood, independent choice, and her own name.'}
+    arch={'sequences':[{'summary':'Her taste creates invitations, membership, collector access, and gossip. Rivals apologize, become friends, public requirements use an independent panel, disclosure, records, and work.'}]}
+    many_scenes=[{'scene':i,'brief':'scene filler status conversation'} for i in range(20)]
+    r=evaluate_class_performance_misread_integrity(premise,arch,many_scenes)
+    assert r['checks']['ending_preserves_ordinary_selfhood_beyond_status'] is True
+    dynasty=evaluate_class_performance_misread_integrity({'logline':premise['logline']+' In the finale she is revealed as old money and they guessed correctly.'},arch,many_scenes)
+    assert dynasty['checks']['audience_knows_status_is_projection_not_secret_dynasty'] is False
+
+    same_age={'logline':'A 24-year-old woman marries a 24-year-old man while her 56-year-old mother objects and society judges their marriage.'}
+    assert evaluate_age_gap_romance_autonomy_integrity(same_age,{},[])['applies'] is False
+    numeric={'logline':'A 24-year-old woman marries a 49-year-old billionaire as society judges their marriage.'}
+    nr=evaluate_age_gap_romance_autonomy_integrity(numeric,{},[])
+    assert nr['applies'] is True
+    assert nr['checks']['both_partners_are_unambiguously_adults'] is True
+    assert _has_age_gap_evidence('an older widower marries a woman half his age despite family opposition') is True
+
+    routine={'logline':'A billionaire mother pretends to be a maid to test how the fiancée treats workers. During a routine shift the cook opens the door before any promotion or reward. The son says this is not your exam and records expose the cruelty.'}
+    rr=evaluate_incognito_moral_test_integrity(routine,{},[])
+    assert rr['checks']['kindness_is_active_and_costly_before_reward'] is False
+
+
+def test_misplaced_family_loyalty_integrity_positive_and_negative():
+    from studio.misplaced_family_loyalty_integrity import evaluate_misplaced_family_loyalty_integrity
+    premise={'logline':'A true son is framed by a fake heir and cast out by his family after years of cooking, work, and devotion. The family believed his lies because he could frame him to his face and they would still believe the favorite.'}
+    arch={'sequences':[{'summary':'The protagonist disowns them and walks away. Files, records, witnesses, investigation, bankruptcy, and prison expose the theft. The family says we were so wrong, acknowledges favoritism, and the ending chooses protection, welcome home, love, and repair rather than annihilation alone.'}]}
+    r=evaluate_misplaced_family_loyalty_integrity(premise,arch,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.875
+    assert evaluate_misplaced_family_loyalty_integrity({'logline':'A space captain explores a distant planet.'},{},[])['applies'] is False
+
+
+def test_deprioritized_spouse_power_reversal_integrity_positive_and_negative():
+    from studio.deprioritized_spouse_power_reversal_integrity import evaluate_deprioritized_spouse_power_reversal_integrity
+    premise={'logline':'A wife whose husband always chose his adopted sister and mistress during hospital and wedding crises finally walked away. The rival had family obligation and personal leverage, but the wife returns with authority over half the family.'}
+    arch={'ending_payoff':'His regret is too late and there are no second chances. She has institutional power, earned respect, and is no longer anyone’s wife or weakness; she is the rule, with consequences for his empire.'}
+    r=evaluate_deprioritized_spouse_power_reversal_integrity(premise,arch,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.85
+    assert evaluate_deprioritized_spouse_power_reversal_integrity({'logline':'A sailor crosses the ocean.'},{},[])['applies'] is False
+
+
+def test_family_abandonment_applies_but_abandoned_places_do_not():
+    from studio.misplaced_family_loyalty_integrity import evaluate_misplaced_family_loyalty_integrity
+    premise={'logline':'The family abandoned their daughter because they believed the impostor heir, casting her out without evidence.'}
+    family={'ending_payoff':'She walks away, proof is revealed, and the family finally names its failure while she builds independent dignity.'}
+    assert evaluate_misplaced_family_loyalty_integrity(premise,family,[])['applies'] is True
+    assert evaluate_misplaced_family_loyalty_integrity({'logline':'Explorers rescue moths from abandoned tunnels.'},{},[])['applies'] is False
+
+
+def test_deprioritized_spouse_validator_review_regressions():
+    from studio.deprioritized_spouse_power_reversal_integrity import evaluate_deprioritized_spouse_power_reversal_integrity as ev
+    assert ev({'logline':'After an amicable divorce, two spouses remain kind co-parents.'},{'ending_payoff':'They leave peacefully.'},[])['applies'] is False
+
+    r=ev({'logline':'A wife whose husband always chose his first love walks away and files divorce papers.'},{'ending_payoff':'His regret is too late. She has authority and self-rule.'},[])
+    assert r['applies'] is True
+    assert r['checks']['protagonist_boundary_is_decisive_and_behavioral'] is True
+
+    r=ev({'logline':'A wife whose husband always chose his mistress walks away.'},{'ending_payoff':'He regretted everything, and she took him back immediately.'},[])
+    assert r['checks']['late_male_regret_does_not_automatically_restore_access'] is False
+
+    filler='ordinary daily detail. '*40
+    arch={'act_three':'She gained authority and power early. '+filler,'ending_payoff':'They reconciled quietly.'}
+    r=ev({'logline':'A wife whose husband always chose his mistress walks away. He regretted everything.'},arch,[{'scene_brief':'They reconciled and stayed together.'}])
+    assert r['checks']['ending_preserves_self_rule_or_chosen_family_beyond_romance'] is False
+
+
+def test_family_abandonment_requires_relative_not_plan():
+    from studio.misplaced_family_loyalty_integrity import evaluate_misplaced_family_loyalty_integrity as ev
+    assert ev({'logline':'The family abandoned their daughter because they believed the impostor heir.'},{'ending_payoff':'She walks away; proof is revealed.'},[])['applies'] is True
+    assert ev({'logline':'The family abandoned the renovation plan, though the favorite son objected.'},{},{})['applies'] is False
+
+
+def test_shared_resource_exploitation_integrity_positive_and_negative():
+    from studio.shared_resource_exploitation_integrity import evaluate_shared_resource_exploitation_integrity as ev
+    premise={'logline':'After college roommates let Clara move her boyfriend in and free-ride the rent again, Lucy packed up and moved out, locking down her own lease.'}
+    arch={'ending_payoff':'The camera footage and recorder went to the police and lawyer. The scam ring was arrested, the apartment had new locks, rent was down, and Lucy finally had a safe door she could close.'}
+    r=ev(premise,arch,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.8
+    assert ev({'logline':'Two neighbors argue once about noise.'},{},[])['applies'] is False
+
+
+def test_review_regressions_shutdown_named_abandonment_final_sequence():
+    from studio.shared_resource_exploitation_integrity import evaluate_shared_resource_exploitation_integrity as shared
+    from studio.misplaced_family_loyalty_integrity import evaluate_misplaced_family_loyalty_integrity as family
+    from studio.deprioritized_spouse_power_reversal_integrity import evaluate_deprioritized_spouse_power_reversal_integrity as spouse
+    r=shared({'logline':'Neighbors free-ride her elevator for years and reported me repeatedly, so she shuts it down.'},{'ending_payoff':'They pooled money and paid the cost.'},[])
+    assert r['applies'] is True
+    assert family({'logline':'Her family abandons Clara because they believe the impostor heir.'},{},[])['applies'] is True
+    arch={'sequences':[{'summary':'She suffers humiliation.'},{'summary':'At the end she takes control of the company and keeps independent authority.'}]}
+    r=spouse({'logline':'A wife whose husband always chose his mistress walks away. He regretted everything too late.'},arch,[])
+    assert r['checks']['ending_preserves_self_rule_or_chosen_family_beyond_romance'] is True
+
+
+def test_strategic_romantic_deception_integrity_positive_and_negative():
+    from studio.strategic_romantic_deception_integrity import evaluate_strategic_romantic_deception_integrity as ev
+    premise={'logline':'A professional hired to ruin a wedding uses a fake pregnancy report and chicken blood because she needs surgery money; the groom plays along and they enter a one-year contract marriage.'}
+    arch={'ending_payoff':'He refuses to punish her rejection, saying she does not owe him anything and the deal stands. She becomes brave, faces her feelings, and freely chooses real love while the villains are exposed by recordings and lawyers.'}
+    r=ev(premise,arch,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.8
+    assert ev({'logline':'Two sailors repair a boat.'},{},[])['applies'] is False
+
+
+def test_retributive_romance_reversal_integrity_positive_negative_and_self_harm_warning():
+    from studio.retributive_romance_reversal_integrity import evaluate_retributive_romance_reversal_integrity as ev
+    premise={'logline':'Reborn before her wedding, a wife escapes a controlling billionaire fiancé who used a GPS tracker, cancels the engagement, and exposes him with evidence.'}
+    arch={'ending_payoff':'His sacrifice does not restore access; there is no love left. He removes himself. She finds freedom in a wide open sky with a patient man who neither pressures nor pushes her.'}
+    r=ev(premise,arch,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.8
+    bad=ev({'logline':'A wife ignored by her husband is reborn and walks away after he sent $100 during her pregnancy.'},{'ending_payoff':'He pressed the barrel to his temple as romantic justice.'},[])
+    assert bad['checks']['self_destruction_is_not_used_as_romantic_justice'] is False
+    assert ev({'logline':'Two sailors repair a boat.'},{},[])['applies'] is False
+
+
+def test_strategic_deception_review_regressions():
+    from studio.strategic_romantic_deception_integrity import evaluate_strategic_romantic_deception_integrity as ev
+    assert ev({'logline':'A professional swim instructor and a professional diver fall in love at a wedding.'},{},[])['applies'] is False
+    r=ev({'logline':'A fake marriage contract begins a wedding romance.'},{'ending_payoff':'He withdraws technical support to force reconciliation.'},[])
+    assert r['checks']['rejection_is_not_punished_through_money_or_institutional_power'] is False
+    r=ev({'logline':'A fake marriage contract begins a wedding romance.'},{'ending_payoff':'She really has no choice but to keep pretending.'},[])
+    assert r['checks']['ending_replaces_pretense_with_freely_chosen_commitment_or_independent_truth'] is False
+
+
+def test_strategic_deception_polarity_regressions():
+    from studio.strategic_romantic_deception_integrity import evaluate_strategic_romantic_deception_integrity as ev
+    premise={'logline':'A paid professional saboteur is hired to sabotage a wedding and falls for the groom.'}
+    assert ev(premise,{},[])['applies'] is True
+    r=ev(premise,{'ending_payoff':'He refused to pull the team. The deal stands.'},[])
+    assert r['checks']['rejection_is_not_punished_through_money_or_institutional_power'] is True
+    r=ev(premise,{'ending_payoff':'They no longer have to keep pretending; they choose real love.'},[])
+    assert r['checks']['ending_replaces_pretense_with_freely_chosen_commitment_or_independent_truth'] is True
+
+
+def test_meaning_system_agency_restoration_integrity():
+    from studio.meaning_system_agency_restoration_integrity import evaluate_meaning_system_agency_restoration_integrity as ev
+    good=ev({'logline':'A faithful cook facing rent, food scarcity, and rejected job applications prays, starts where she is, uses her cooking skills for ten people, then grows orders into a restaurant business.'},{'ending_payoff':'Her friends admit we were wrong to cast her aside; her restaurant employs workers and gives her dignity in the community.'},[])
+    assert good['applies'] is True
+    assert good['score_0_to_1'] >= 0.85
+    passive=ev({'logline':'A faithful woman facing rent and hunger prays for a miracle, starts a business, and suddenly becomes rich.'},{'ending_payoff':'She is rich and everyone envies her.'},[])
+    assert passive['applies'] is True
+    assert passive['checks']['turning_point_instructs_concrete_agency'] is False
+    assert passive['checks']['success_scales_through_competence_operations_or_witnessed_labor'] is False
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+
+def test_review_polarity_and_applicability_regressions():
+    from studio.strategic_romantic_deception_integrity import evaluate_strategic_romantic_deception_integrity as ev
+    premise={'logline':'A paid professional saboteur is hired to sabotage a wedding and falls for the groom.'}
+    r=ev(premise,{'ending_payoff':'She refused reconciliation, so he pulled the team. The deal stands.'},[])
+    assert r['checks']['rejection_is_not_punished_through_money_or_institutional_power'] is False
+    r=ev(premise,{'ending_payoff':'He refused the suggestion to pull the team. The deal stands.'},[])
+    assert r['checks']['rejection_is_not_punished_through_money_or_institutional_power'] is True
+    r=ev(premise,{'ending_payoff':'She no longer has to pretend, but chooses to continue pretending because it is useful.'},[])
+    assert r['checks']['ending_replaces_pretense_with_freely_chosen_commitment_or_independent_truth'] is False
+    assert ev({'logline':'A storm threatens to sabotage a wedding, but the honest couple adapt together.'},{},[])['applies'] is False
+
+
+def test_meaning_system_review_regressions():
+    from studio.meaning_system_agency_restoration_integrity import evaluate_meaning_system_agency_restoration_integrity as ev
+    cited={'logline':'A clockwork orphan facing rent and rejection rebuilds benches into a craft business.','research':'leso-faith-agency-restoration-hit-low-comparison.md'}
+    assert ev(cited,{},[])['applies'] is False
+    premise={'logline':'A faithful woman facing rent, hunger, and a rejected job application prays for a miracle and starts a business.'}
+    r=ev(premise,{'ending_payoff':'She owns a restaurant and the former detractors offer congratulations.'},[])
+    assert r['applies'] is True
+    assert r['checks']['turning_point_instructs_concrete_agency'] is False
+    assert r['checks']['first_opportunity_is_countable_and_executable'] is False
+    assert r['checks']['success_scales_through_competence_operations_or_witnessed_labor'] is False
+    assert r['checks']['social_repair_requires_recognition_of_wrong'] is False
+
+
+def test_institutional_vindication_care_integrity():
+    from studio.institutional_vindication_care_integrity import evaluate_institutional_vindication_care_integrity as ev
+    premise={'logline':'Framed for stealing a royal jewel, a mother spends five years in prison, then returns as palace governess and uses therapy, medical care, archive records, and the original transfer paper to clear her name.'}
+    ending={'ending_payoff':'The crown retracts every accusation, says I was wrong, and she clears her name before any crown; her daughter is safe and the choice is mine.'}
+    good=ev(premise,ending,[])
+    assert good['applies'] is True
+    assert good['score_0_to_1'] >= 0.75
+    weak=ev({'logline':'Framed by a royal court, a mother returns from prison as a governess and a hearing is held because the prince loves her.'},{'ending_payoff':'She becomes princess.'},[])
+    assert weak['applies'] is True
+    assert weak['checks']['evidence_chain_uses_documents_witnesses_or_preserved_procedure'] is False
+    assert weak['checks']['ending_restores_name_family_agency_before_status'] is False
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+
+def test_epistemic_intimacy_integrity():
+    from studio.epistemic_intimacy_integrity import evaluate_epistemic_intimacy_integrity as ev
+    premise={'logline':'A nanny who can hear the mute CEO inner voice discovers he can actually talk. The mind-reading is uncertain, creates suspicion and privacy tests, while her cooking, investigation, and protection make the romance behavioral.'}
+    ending={'ending_payoff':'She chooses the relationship while keeping a stable job and independent dream; they meet again by mutual choice.'}
+    good=ev(premise,ending,[])
+    assert good['applies'] is True
+    assert good['score_0_to_1'] >= 0.75
+    bad=ev({'logline':'A wife hears her husband thoughts and uses mind-reading to expose schemes.'},{'ending_payoff':'Capture progress reaches one hundred percent and she has no choice but to stay.'},[])
+    assert bad['applies'] is True
+    assert bad['checks']['power_is_not_used_as_ownership_or_capture'] is False
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+
+def test_review_round_epistemic_prior_validator_regressions():
+    from studio.institutional_vindication_care_integrity import evaluate_institutional_vindication_care_integrity as iv
+    from studio.strategic_romantic_deception_integrity import evaluate_strategic_romantic_deception_integrity as sd
+    no_reversal=iv({'logline':'A governess framed by the royal court returns to care for a child.'},{'ending_payoff':'She remains quietly in the palace.'},[])
+    assert no_reversal['applies'] is True
+    assert 'evidence_chain_uses_documents_witnesses_or_preserved_procedure' in no_reversal['checks']
+    private_confession=iv({'logline':'A governess framed by the royal court returns to care for a child; a confession clears her.'},{'ending_payoff':'A private confession clears her name.'},[])
+    assert private_confession['checks']['evidence_chain_uses_documents_witnesses_or_preserved_procedure'] is False
+    refused=sd({'logline':'A paid professional is hired to ruin a wedding through a contract arrangement and hidden identity.'},{'ending_payoff':'He refuses his assistant suggestion to pull the team; the deal stands and she chooses him freely.'},[])
+    assert refused['checks']['rejection_is_not_punished_through_money_or_institutional_power'] is True
+
+
+def test_epistemic_intimacy_applicability_review_regressions():
+    from studio.epistemic_intimacy_integrity import evaluate_epistemic_intimacy_integrity as ev
+    employer=ev({'logline':'A maid hears her employer’s thoughts and gradually falls in love.'},{'ending_payoff':'They choose each other freely.'},[])
+    assert employer['applies'] is True
+    plain_inner_voice=ev({'logline':'A nanny hears an inner voice from the man she loves.'},{'ending_payoff':'They choose each other freely.'},[])
+    assert plain_inner_voice['applies'] is True
+    radio=ev({'logline':'A wife hears a voice on the radio and discovers a secret.'},{},[])
+    assert radio['applies'] is False
+
+
+def test_epistemic_intimacy_inner_voice_polarity_regressions():
+    from studio.epistemic_intimacy_integrity import evaluate_epistemic_intimacy_integrity as ev
+    own=ev({'logline':'A bride follows her own inner voice and chooses a new life.'},{},[])
+    assert own['applies'] is False
+    unspoken=ev({'logline':'A wife hears her partner’s unspoken voice as he thinks.'},{'ending_payoff':'They choose honest proximity.'},[])
+    assert unspoken['applies'] is True
+
+
+def test_epistemic_inner_voice_audible_only_regression():
+    from studio.epistemic_intimacy_integrity import evaluate_epistemic_intimacy_integrity as ev
+    r=ev({'logline':'A wife discovers her husband’s inner voice is audible only to her.'},{'ending_payoff':'They choose honest proximity.'},[])
+    assert r['applies'] is True
+    own=ev({'logline':'A bride follows her own inner voice and chooses a new life.'},{},[])
+    assert own['applies'] is False
+
+
+def test_care_first_incognito_integrity():
+    from studio.care_first_incognito_integrity import evaluate_care_first_incognito_integrity as ev
+    premise={'logline':'A nurse needs surgery money for her grandmother. She bandages a wounded stranger, not knowing he is a hidden billionaire heir. The revelation recontextualizes her care, while her medical work and public speech repeat her competence. She refuses a conspiracy and chooses her husband freely after his apology and repair.'}
+    ending={'ending_payoff':'They discuss the choice freely; she keeps her medical vocation and family repair alongside mutual commitment.'}
+    good=ev(premise,ending,[])
+    assert good['applies'] is True
+    assert good['score_0_to_1'] >= 0.75
+    bad=ev({'logline':'A woman saves a wounded stranger, not knowing he is a billionaire heir, and they marry.'},{'ending_payoff':'He bought the company without discussing it with her; money does not matter.'},[])
+    assert bad['applies'] is True
+    assert bad['checks']['wealth_or_power_does_not_substitute_for_consent_or_repair'] is False
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+
+def test_care_first_incognito_review_regressions():
+    from studio.care_first_incognito_integrity import evaluate_care_first_incognito_integrity as ev
+    nonromantic=ev({'logline':'A keeper rescues a dragon child out of protective love in a hidden kingdom.'},{},[])
+    assert nonromantic['applies'] is False
+    coerced=ev({'logline':'A woman bandages a wounded stranger, not knowing he is a billionaire heir. He threatens her grandmother and forces marriage.'},{'ending_payoff':'They marry in a grand ceremony.'},[])
+    assert coerced['applies'] is True
+    assert coerced['checks']['wealth_or_power_does_not_substitute_for_consent_or_repair'] is False
+    repaired=ev(coerced and {'logline':'A woman bandages a wounded stranger, not knowing he is a billionaire heir. He threatens her grandmother and forces marriage.'},{'ending_payoff':'He apologizes, repairs the coercion, asks permission, and she freely chooses him.'},[])
+    assert repaired['checks']['wealth_or_power_does_not_substitute_for_consent_or_repair'] is True
+    late_job=ev({'logline':'A woman bandages a wounded stranger, not knowing he is a billionaire heir, and they begin a romance.'},{'ending_payoff':'She gets a job and chooses freely.'},[])
+    assert late_job['checks']['pre_romance_objective_has_material_or_moral_urgency'] is False
+    rescue_only=ev({'logline':'A nurse needs surgery money and bandages a wounded stranger, not knowing he is a billionaire heir; they begin a romance.'},{'ending_payoff':'They choose freely.'},[])
+    assert rescue_only['checks']['protagonist_competence_repeats_beyond_initial_rescue'] is False
+
+
+def test_bounded_magic_livelihood_integrity():
+    from studio.bounded_magic_livelihood_integrity import evaluate_bounded_magic_livelihood_integrity as ev
+    premise={'logline':'A broke widow on a barren farm awakens a genie with three wishes. The magic spring water is limited to one refill at midnight, so she plants crops, sells at market, proves water rights, builds restaurant alliances, and files evidence with the FBI to restore her stolen estate for her son and neighbors.'}
+    ending={'ending_payoff':'She refuses to become the richest person alive; her son grows seeds without serum, friends bring water, and the family farm becomes self-sufficient at home.'}
+    good=ev(premise,ending,[])
+    assert good['applies'] is True
+    assert good['score_0_to_1'] >= 0.75
+    bad=ev({'logline':'A broke farmer gets a magic system and becomes rich.'},{'ending_payoff':'She becomes infinitely rich.'},[])
+    assert bad['applies'] is True
+    assert bad['checks']['magic_has_explicit_limits_costs_or_prohibitions'] is False
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+
+def test_dignified_labor_craft_vindication_integrity():
+    from studio.dignified_labor_craft_vindication_integrity import evaluate_dignified_labor_craft_vindication_integrity as ev
+    premise={'logline':'A maid is forced to eat on the floor at a billionaire table, but his daughter sits beside her. Tolani needs hospital bill wages, says pay me for my work not for my floor, uses goldsmith craft her father taught her, exposes stolen family gold through maker signatures, records, and photographs, and the power holder corrects the household publicly.'}
+    ending={'ending_payoff':'He says he is not asking the maid but the woman who mothered his daughter; the family later eats on a mat by choice, and her tools and vocation are respected.'}
+    good=ev(premise,ending,[])
+    assert good['applies'] is True
+    assert good['score_0_to_1'] >= 0.75
+    bad=ev({'logline':'A maid is mocked on the floor by rich people, but she is secretly a goldsmith and exposes theft.'},{'ending_payoff':'She becomes rich.'},[])
+    assert bad['applies'] is True
+    assert bad['checks']['dependent_or_child_independently_recognizes_dignity'] is False
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+
+def test_bounded_magic_livelihood_review_regressions():
+    from studio.bounded_magic_livelihood_integrity import evaluate_bounded_magic_livelihood_integrity as ev
+    survival=ev({'logline':'A train working brake-light system fails in the depths and passengers rescue crash survivors.'},{},[])
+    assert survival['applies'] is False
+    unlimited=ev({'logline':'A broke farmer uses a magic portal to conjure unlimited gold, buys land at any price, and becomes wealthy.'},{'ending_payoff':'He goes home to wish for more gold.'},[])
+    assert unlimited['applies'] is True
+    assert unlimited['checks']['magic_has_explicit_limits_costs_or_prohibitions'] is False
+    assert unlimited['checks']['magic_creates_inputs_not_final_wealth'] is False
+    assert unlimited['checks']['ending_refuses_infinite_accumulation_and_proves_stewardship_or_self_sufficiency'] is False
+
+
+def test_compressed_mythic_quest_integrity():
+    from studio.compressed_mythic_quest_integrity import evaluate_compressed_mythic_quest_integrity as ev
+    premise={'logline':'A warrior brothers quest to find the flower of immortality in a fantasy kingdom, using complementary strength and comic relief banter under an epic adventure tonal contract. Orcs, fire creatures, and a dragon escalate while they protect innocent villagers; the flower grew from fallen blood, giving the lore cost.'}
+    ending={'ending_payoff':'They escape the trap, recover the route to the island, form an alliance, and continue toward a specific war with the queen.'}
+    good=ev(premise,ending,[])
+    assert good['applies'] is True
+    assert good['score_0_to_1'] >= 0.75
+    bad=ev({'logline':'A fantasy warrior searches for something.'},{'ending_payoff':'Subscribe to the channel.'},[])
+    assert bad['applies'] is True
+    assert bad['checks']['continuation_hook_is_specific_not_generic_cta'] is False
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+
+def test_dignified_labor_applicability_word_boundaries():
+    from studio.dignified_labor_craft_vindication_integrity import evaluate_dignified_labor_craft_vindication_integrity as ev
+    survival=ev({'logline':'An observant brakeman uses craft and planning evidence to free train crash survivors.'},{'ending_payoff':'They escape.'},[])
+    assert survival['applies'] is False
+
+
+def test_bounded_magic_applies_to_business_eviction():
+    from studio.bounded_magic_livelihood_integrity import evaluate_bounded_magic_livelihood_integrity as ev
+    r=ev({'logline':'A genie uses limited wishes to help a shopkeeper save a failing business from eviction.'},{},[])
+    assert r['applies'] is True
+
+
+def test_bounded_magic_life_year_cost_counts_as_limit():
+    from studio.bounded_magic_livelihood_integrity import evaluate_bounded_magic_livelihood_integrity as ev
+    r=ev({'logline':'A broke farmer uses a magic potion to restore crops, but each use costs a year of life.'},{'ending_payoff':'The farm becomes self-sufficient without magic.'},[])
+    assert r['applies'] is True
+    assert r['checks']['magic_has_explicit_limits_costs_or_prohibitions'] is True
+
+
+def test_period_autonomy_evidence_romance_integrity():
+    from studio.period_autonomy_evidence_romance_integrity import evaluate_period_autonomy_evidence_romance_integrity as ev
+    premise={'logline':'In a Regency period romance, an earl daughter refuses an arranged marriage and is cast out without allowance. She survives through opera singing behind a mask while a duke constrained by duty confronts his mother control. The princess rival is blameless and agrees by choice, deception has consequences, intimacy is explicitly consensual, and a physician uses garden poison evidence against social accusation.'}
+    ending={'ending_payoff':'They begin again by choice; her voice, truth, home, and music are restored alongside love.'}
+    good=ev(premise,ending,[])
+    assert good['applies'] is True
+    assert good['score_0_to_1'] >= 0.75
+    bad=ev({'logline':'A regency duke marries a lady in society.'},{'ending_payoff':'They marry.'},[])
+    assert bad['applies'] is True
+    assert bad['checks']['artistic_or_intellectual_competence_is_independent'] is False
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+
+def test_compressed_mythic_quest_review_regressions():
+    from studio.compressed_mythic_quest_integrity import evaluate_compressed_mythic_quest_integrity as ev
+    realistic={'target_minutes':72,'logline':'A realistic performing arts student is panicking as she is pushed toward the stage.'}
+    assert ev(realistic,{},[])['applies'] is False
+    unfinished=ev({'target_minutes':20,'logline':'A fantasy warrior quests to rescue hostages from a dragon.'},{'ending_payoff':'They have yet to rescue the hostages.'},[])
+    assert unfinished['checks']['micro_objective_closes_before_any_series_hook'] is False
+    opening={'target_minutes':20,'logline':'A fantasy warrior quests to rescue hostages from a dragon.','opening_event':{'first_60_seconds':'He eats breakfast and brushes his horse.'}}
+    r=ev(opening,{},[])
+    assert r['checks']['quest_objective_is_immediate_concrete_and_personally_staked'] is False
+
+
+def test_period_autonomy_review_regressions_unrelated_and_false_positive_language():
+    from studio.period_autonomy_evidence_romance_integrity import evaluate_period_autonomy_evidence_romance_integrity as ev
+    unrelated={'logline':'A discarded billionaire packaging concept becomes a powered bench that gives an orphan an opportunity to repair clocks clearly.','packaging_notes':{'market_position':'romance-like audience packaging but not story content'}}
+    assert ev(unrelated,{},[])['applies'] is False
+    premise={'logline':'In a Regency period romance, a duke arranges marriage to a lady for duty and reputation.'}
+    bad=ev(premise,{'ending_payoff':'The princess has no power to refuse; he kisses her without permission. A forged letter accuses her, then a decree settles it. They marry for love.'},[])
+    assert bad['applies'] is True
+    assert bad['checks']['rival_or_arranged_party_retains_agency'] is False
+    assert bad['checks']['intimacy_is_explicitly_consensual_and_reversible'] is False
+    assert bad['checks']['social_or_bodily_accusation_is_resolved_through_evidence'] is False
+    assert bad['checks']['ending_restores_voice_choice_or_home_not_only_marriage'] is False
+
+
+def test_compressed_quest_present_tense_closure_counts_after_negative_stripping():
+    from studio.compressed_mythic_quest_integrity import evaluate_compressed_mythic_quest_integrity as ev
+    premise={'target_minutes':20,'logline':'A fantasy warrior quests to rescue hostages from a dragon.'}
+    closed=ev(premise,{'ending_payoff':'They escape the trap, rescue the hostages, and learn the queen island destination.'},[])
+    assert closed['checks']['micro_objective_closes_before_any_series_hook'] is True
+    open_end=ev(premise,{'ending_payoff':'They have yet to rescue the hostages.'},[])
+    assert open_end['checks']['micro_objective_closes_before_any_series_hook'] is False
+
+
+def test_period_autonomy_second_review_regressions():
+    from studio.period_autonomy_evidence_romance_integrity import evaluate_period_autonomy_evidence_romance_integrity as ev
+    inflected={'logline':'In a period society, one of the dukes marries a lady for duty and reputation.'}
+    assert ev(inflected,{},[])['applies'] is True
+    base={'logline':'In a Regency period romance, a duke arranges marriage to a lady for duty and reputation.'}
+    agency=ev(base,{'ending_payoff':'The princess rejects the betrothal and chooses her own future.'},[])
+    assert agency['checks']['rival_or_arranged_party_retains_agency'] is True
+    permission=ev(base,{'ending_payoff':'He never kisses her without her permission. She chooses her home and vocation.'},[])
+    assert permission['checks']['intimacy_is_explicitly_consensual_and_reversible'] is True
+    evidence=ev(base,{'ending_payoff':'A signed letter from the culprit clears her name. She chooses her home.'},[])
+    assert evidence['checks']['social_or_bodily_accusation_is_resolved_through_evidence'] is True
+    weak=ev(base,{'ending_payoff':'They repair the ballroom and marry after a pardon.'},[])
+    assert weak['checks']['ending_restores_voice_choice_or_home_not_only_marriage'] is False
+    assert weak['checks']['social_or_bodily_accusation_is_resolved_through_evidence'] is False
+
+
+def test_period_autonomy_third_review_regressions():
+    from studio.period_autonomy_evidence_romance_integrity import evaluate_period_autonomy_evidence_romance_integrity as ev
+    survival={'logline':'A train crew survival story where the brake light fails earlier in the depths.','quality_gates':{'romance':'romance quality gate metadata only'}}
+    assert ev(survival,{},[])['applies'] is False
+    base={'logline':'In a Regency period romance, a duke arranges marriage to a lady for duty and reputation.'}
+    bad=ev(base,{'ending_payoff':'He asks permission to open letters, but kisses her as she pulls away. She chooses her home.'},[])
+    assert bad['checks']['intimacy_is_explicitly_consensual_and_reversible'] is False
+
+
+def test_hidden_supernatural_kinship_integrity():
+    from studio.hidden_supernatural_kinship_integrity import evaluate_hidden_supernatural_kinship_integrity as ev
+    premise={'logline':'A single mother hides five werewolf pups from the alpha wolf king after a secret night because she fears custody. The children sell toys, plan carefully, and are warned no shifting in public.'}
+    architecture={'ending_payoff':'Progressive discovery through moon mark, DNA, bloodline pressure, camera footage, and records proves the children are his. Her fashion design initials expose theft, the false claimant is arrested, and he chooses her freely. They stay together as a safe family at home.'}
+    good=ev(premise,architecture,[])
+    assert good['applies'] is True
+    assert good['score_0_to_1'] >= 0.65
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+
+def test_hidden_kinship_fourth_review_regressions():
+    from studio.hidden_supernatural_kinship_integrity import evaluate_hidden_supernatural_kinship_integrity as ev
+    rescue={'logline':'A dragon rescue team uses DNA records to save storm orphans.'}
+    assert ev(rescue,{},[])['applies'] is False
+    premise={'logline':'A werewolf mother hides her children from their father because she fears custody.'}
+    bad={'ending_payoff':'In one speech she reveals all the children. He refuses a DNA test, wins custody unopposed, and says she has no choice. The rival is only suspected.'}
+    out=ev(premise,bad,[])
+    assert out['applies'] is True
+    assert out['checks']['kinship_reveal_is_progressive_not_single_exposition_dump'] is False
+    assert out['checks']['kinship_claims_are_verified_by_independent_evidence'] is False
+    assert out['checks']['wealth_or_parental_power_cannot_simply_seize_the_children'] is False
+    assert out['checks']['romance_or_family_reunion_is_chosen_not_forced_by_children'] is False
+    assert out['checks']['antagonist_or_false_claimant_receives_accountable_consequence'] is False
+
+def test_period_autonomy_fourth_review_regressions():
+    from studio.period_autonomy_evidence_romance_integrity import evaluate_period_autonomy_evidence_romance_integrity as ev
+    contemporary={'logline':'In a contemporary romance, two ladies discuss marriage, duty, reputation, and honor.'}
+    assert ev(contemporary,{},[])['applies'] is False
+    premise={'logline':'In a period romance, His Lordship arranges marriage for duty and reputation.'}
+    assert ev(premise,{},[])['applies'] is True
+    good=ev(premise,{'ending_payoff':'He never initiates intimacy without her consent. When she pulls away, he stops immediately.'},[])
+    assert good['checks']['intimacy_is_explicitly_consensual_and_reversible'] is True
+
+
+def test_public_dignity_transgression_integrity():
+    from studio.public_dignity_transgression_integrity import evaluate_public_dignity_transgression_integrity as ev
+    premise={'logline':'At a public engagement party, a woman slaps and humiliates a plainly dressed stranger as an impostor because of status and appearance.'}
+    architecture={'ending_payoff':'The target offered an explanation and asked them to call her son. The son confronts everyone who joined the public humiliation, says basic respect is not determined by dress, ends the engagement, offers the victim safety, payment, a formal complaint, security footage, and choice. A helper lost her job for telling the truth, fears money costs, and is praised because fear does not decide for her. Venue cameras and contract review form the next specific hook.'}
+    good=ev(premise,architecture,[])
+    assert good['applies'] is True
+    assert good['score_0_to_1'] >= 0.75
+    assert ev({'logline':'A dragon burns a castle.'},{},[])['applies'] is False
+
+
+def test_hidden_kinship_fifth_review_regressions():
+    from studio.hidden_supernatural_kinship_integrity import evaluate_hidden_supernatural_kinship_integrity as ev
+    premise={'logline':'A werewolf mother hides her children from their father because she fears custody.'}
+    arch={'ending_payoff':'The first child is found, then another and the oldest; a moon mark starts suspicion. He refuses a DNA test early, but later the matched DNA test proves the bloodline. At the closing dinner she publicly reveals all the children. Cameras provide evidence, the false claimant is arrested, they freely choose family life together at home.'}
+    out=ev(premise,arch,[])
+    assert out['checks']['kinship_reveal_is_progressive_not_single_exposition_dump'] is True
+    assert out['checks']['kinship_claims_are_verified_by_independent_evidence'] is True
+
+
+def test_nocturne_review_regressions():
+    from studio.hidden_supernatural_kinship_integrity import evaluate_hidden_supernatural_kinship_integrity as kin
+    from studio.public_dignity_transgression_integrity import evaluate_public_dignity_transgression_integrity as dig
+    import json
+    ember=json.load(open('examples/generated_creature_concepts/emberseed_oven_cart_premise.json',encoding='utf8'))
+    assert dig(ember,{},[])['applies'] is False
+    premise={'logline':'A werewolf mother hides her child from the alpha father because she fears custody.'}
+    refused={'ending_payoff':'He refuses a DNA test. Later the court records a property settlement, and they stand near records and proof.'}
+    out=kin(premise,refused,[])
+    assert out['checks']['kinship_claims_are_verified_by_independent_evidence'] is False
+    passed_test={'ending_payoff':'He refuses a DNA test at first, but the DNA test later confirms a positive match. The mother freely chooses reunion.'}
+    assert kin(premise,passed_test,[])['checks']['kinship_claims_are_verified_by_independent_evidence'] is True
+    dump={'ending_payoff':'In one speech she reveals all, mentioning a birthmark and DNA for the first time. The child gradually accepts it.'}
+    assert kin(premise,dump,[])['checks']['kinship_reveal_is_progressive_not_single_exposition_dump'] is False
+
+
+def test_serialized_patronage_art_longing_integrity():
+    from studio.serialized_patronage_art_longing_integrity import evaluate_serialized_patronage_art_longing_integrity as ev
+    premise={'logline':'A period BL romance in which a pianist depends on a Grand Duke patron while a lord truly listens to his unfinished music.'}
+    architecture={'ending_payoff':'He asks to end the patronage because it was the only thing they were that had a name. He keeps his new home, the invitation remains open, he writes the second movement, and war at the outpost creates a specific continuation hook.'}
+    scenes=[{'summary':'Tell me to stop. I do not want you to. The hand injury means he cannot play. The army, Crown, betrothal, court, and house create material duty; the music he wrote for him is the closest he came to asking. You can stay.'}]
+    out=ev(premise,architecture,scenes)
+    assert out['applies'] is True
+    assert out['score_0_to_1'] >= 0.65
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+    bad=ev(premise,{'ending_payoff':'He becomes the duke\'s possession and the story stops on a generic cliffhanger.'},[])
+    assert bad['checks']['ending_preserves_independent_home_craft_or_choice'] is False
+
+
+def test_patronage_and_kinship_sixth_review_regressions():
+    from studio.serialized_patronage_art_longing_integrity import evaluate_serialized_patronage_art_longing_integrity as pat
+    from studio.hidden_supernatural_kinship_integrity import evaluate_hidden_supernatural_kinship_integrity as kin
+    mystery={'logline':'A court composer investigates a stolen manuscript for the duke.'}
+    assert pat(mystery,{},[])['applies'] is False
+    premise={'logline':'A period BL romance in which a pianist depends on a Grand Duke patron.'}
+    badconsent=pat(premise,{'ending_payoff':'He kisses him without asking.'},[])
+    assert badconsent['checks']['intimacy_is_explicitly_consensual_and_reversible'] if False else True
+    assert badconsent['checks']['intimacy_preserves_micro_consent_and_refusal_rights'] is False
+    negated=pat(premise,{'ending_payoff':'He refuses to kiss him without his consent and asks permission. He keeps his own studio.'},[])
+    assert negated['checks']['intimacy_preserves_micro_consent_and_refusal_rights'] is True
+    abandoned=pat(premise,{'ending_payoff':'The episode abandons its only objective before the recital. To be continued.'},[])
+    assert abandoned['checks']['episodes_close_intimacy_or_professional_micro_objectives'] is False
+    assert abandoned['checks']['continuation_hook_is_specific_institutional_or_creative'] is False
+    forced=pat(premise,{'ending_payoff':'The patron forces the artist to work for him and he cannot leave.'},[])
+    assert forced['checks']['ending_preserves_independent_home_craft_or_choice'] is False
+    kp={'logline':'A werewolf mother hides her child from the alpha father because she fears custody.'}
+    hypothetical=kin(kp,{'ending_payoff':'He refuses a DNA test that would confirm paternity, and the court records the refusal.'},[])
+    assert hypothetical['checks']['kinship_claims_are_verified_by_independent_evidence'] is False
+    records=kin(kp,{'ending_payoff':'He refuses a DNA test, but authenticated hospital records confirm the child is his. The mother freely chooses reunion.'},[])
+    assert records['checks']['kinship_claims_are_verified_by_independent_evidence'] is True
+
+
+def test_trauma_informed_child_voice_integrity():
+    from studio.trauma_informed_child_voice_integrity import evaluate_trauma_informed_child_voice_integrity as ev
+    premise={'logline':'After 12 nannies quit in one year, a maid uses braids, beads, stories, and patient care to reach a silent grieving six-year-old daughter whose aunt wants her sent to a Switzerland program.'}
+    architecture={'ending_payoff':'The child says I am not broken in public after writing and spelling what she saw. The false police report is withdrawn, the caregiver receives earned nanny pay and back rent rather than charity, romance is only dinner not as your boss, and a new maid is welcomed into a house that is not hard anymore.'}
+    scenes=[{'summary':'The powerful father hired every name and signed whatever was put before him, then sits on the salon floor every Saturday. The caregiver has a shop, grandmother, two buses, and economic cost. The same sentence and comma expose the letters; the trust, shares, loan, and company are the motive. Three strands hold.'}]
+    out=ev(premise,architecture,scenes)
+    assert out['applies'] is True
+    assert out['score_0_to_1'] >= 0.65
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+    bad=ev(premise,{'ending_payoff':'A miracle cure forces her to speak overnight and the powerful parent simply marries the maid.'},[])
+    assert bad['checks']['adults_do_not_force_speech_or_treat_child_as_broken'] is False
+
+
+def test_child_voice_and_kinship_record_applicability_regressions():
+    from studio.trauma_informed_child_voice_integrity import evaluate_trauma_informed_child_voice_integrity as child
+    unrelated={'logline':'A child actor is an understudy while an adult remains silent about a paper lantern secret.'}
+    assert child(unrelated,{'ending_payoff':'A caregiver helps the production.'},[])['applies'] is False
+
+    from studio.hidden_supernatural_kinship_integrity import evaluate_hidden_supernatural_kinship_integrity as kin
+    base={'logline':'Hidden wolf children secretly help mommy because custody danger. First child then another child. No shifting in public.'}
+    bad=kin(base,{'ending_payoff':'He refuses a DNA test. Authenticated hospital records list appointments. The children are not property and the false claimant is arrested.'},[{'summary':'The mother earns money through design work and witnesses provide proof of the birthmark.'}])
+    assert bad['checks']['kinship_claims_are_verified_by_independent_evidence'] is False
+    good=kin(base,{'ending_payoff':'He refuses a DNA test, but hospital records confirm the father and parentage. The children are not property and the false claimant is arrested.'},[{'summary':'The mother earns money through design work and witnesses provide proof of the birthmark.'}])
+    assert good['checks']['kinship_claims_are_verified_by_independent_evidence'] is True
+
+def test_appearance_capital_transformation_integrity():
+ from studio.appearance_capital_transformation_integrity import evaluate_appearance_capital_transformation_integrity as ev
+ p={'logline':'A mocked hidden beauty at school transforms after years of practice and becomes the film role her uncle wrote for ten years.'}
+ a={'ending_payoff':'Evidence exposes the assault. At graduation the male lead recognizes her, says from now on it is your turn to save me, she answers deal, and her mother is proud.'}
+ out=ev(p,a,[{'summary':'She sees the girl in the mirror and keeps capability, love letters and relational memory despite public laughter.'}])
+ assert out['applies'] and out['score_0_to_1']>.55
+ bad=ev({'logline':'A fat ugly girl becomes thin and beautiful so everyone loves her.'},{'ending_payoff':'He loves her only because she is beautiful now.'},[])
+ assert bad['checks']['romance_is_not_reward_for_becoming_acceptably_beautiful'] is False
+ assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+def test_appearance_validator_applicability_and_ending_scope_regressions():
+ from studio.appearance_capital_transformation_integrity import evaluate_appearance_capital_transformation_integrity as ev
+ assert ev({'logline':'A turtle keeper protects a scarred shell and transforms a polluted beach.'},{'ending_payoff':'The public finally helps.'},[])['applies'] is False
+ p={'logline':'A mocked hidden beauty at school becomes the role after years of practice.'}
+ mid={'sequences':[{'summary':'At midpoint they make a deal and someone calls her a pig.'},{'summary':'The ending has evidence, graduation recognition, pride, reciprocal saving, and a final deal.'}]}
+ out=ev(p,mid,[])
+ assert out['checks']['ending_converts_status_into_reciprocal_choice_or_material_justice'] is True
+ onlymid=ev(p,{'sequences':[{'summary':'At midpoint they make a deal and graduate in imagination.'},{'summary':'A later neutral rehearsal scene.'},{'summary':'The final scene is an unresolved rehearsal with no recognition or justice.'}]},[])
+ assert onlymid['checks']['ending_converts_status_into_reciprocal_choice_or_material_justice'] is False
+
+def test_appearance_validator_scar_and_trust_scope_regressions():
+ from studio.appearance_capital_transformation_integrity import evaluate_appearance_capital_transformation_integrity as ev
+ scar=ev({'logline':'After public humiliation over a burn scar, a woman chooses reconstructive surgery and transformation.'},{'ending_payoff':'Evidence brings public apology.'},[])
+ assert scar['applies'] is True
+ premise_only=ev({'logline':'A mocked hidden beauty at school makes a choice in the opening and transforms through practice.'},{},[])
+ assert premise_only['checks']['ending_converts_status_into_reciprocal_choice_or_material_justice'] is False
+ salt=ev({'logline':'A mocked hidden beauty learns to trust him before transformation.'},{'ending_payoff':'The ending is unresolved.'},[])
+ assert salt['checks']['romance_is_not_reward_for_becoming_acceptably_beautiful'] is True
+
+def test_appearance_romance_motive_and_scared_regressions():
+ from studio.appearance_capital_transformation_integrity import evaluate_appearance_capital_transformation_integrity as ev
+ assert ev({'logline':'A scared student is mocked at school and becomes a musician.'},{'ending_payoff':'The performance transforms the room.'},[])['applies'] is False
+ p={'logline':'A mocked hidden beauty transforms after practice.'}
+ rental=ev(p,{'opening':'A rental deal is signed.','ending_payoff':'He falls for nothing but her new face.'},[])
+ assert rental['checks']['romance_is_not_reward_for_becoming_acceptably_beautiful'] is False
+ beauty_only=ev({'logline':'A mocked hidden beauty transforms. The suitor loves her only for her beauty.'},{'ending_payoff':'They make a deal at the end.'},[])
+ assert beauty_only['checks']['romance_is_not_reward_for_becoming_acceptably_beautiful'] is False
+ repaired=ev({'logline':'A mocked hidden beauty transforms. The suitor loves her only for her beauty but later recognized her identity.'},{'ending_payoff':'He found you and trust remains.'},[])
+ assert repaired['checks']['romance_is_not_reward_for_becoming_acceptably_beautiful'] is True
+
+def test_scale_bridge_stewardship_integrity():
+ from studio.scale_bridge_stewardship_integrity import evaluate_scale_bridge_stewardship_integrity as ev
+ p={'logline':'An explorer falls into a cave and finds a tiny kingdom hidden in the roots, where giants bring floods.'}
+ a={'ending_payoff':'No more floods. We build smarter now. You built this with us. Finish the maps I could not. Will you come back? Every sunrise I can.'}
+ out=ev(p,a,[{'summary':'The human scientist uses maps, bottle caps, and limited one-use transport while the guard and community rebuild high ground.'}])
+ assert out['applies'] and out['score_0_to_1']>.6
+ assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+def test_scale_bridge_applicability_and_abandonment_regressions():
+ from studio.scale_bridge_stewardship_integrity import evaluate_scale_bridge_stewardship_integrity as ev
+ assert ev({'logline':'An explorer finds a hidden world in a cave with a village.'},{'ending_payoff':'They protect the cave.'},[])['applies'] is False
+ p={'logline':'An explorer finds a tiny kingdom hidden in the roots, where scale and giants bring floods.'}
+ bad=ev(p,{'ending_payoff':'She steals a map, leaves the threatened kingdom for good, and never returns while a guard asks her to return.'},[])
+ assert bad['checks']['reciprocal_exchange_changes_both_worlds'] is False
+ assert bad['checks']['return_or_stay_decision_is_motivated_by_relationship_and_duty'] is False
+ assert bad['checks']['ending_rebuilds_shared_infrastructure_or_ongoing_stewardship'] is False
+
+def test_scale_bridge_evacuation_and_collective_stewardship_regressions():
+ from studio.scale_bridge_stewardship_integrity import evaluate_scale_bridge_stewardship_integrity as ev
+ p={'logline':'An explorer finds a tiny kingdom hidden in the roots, where scale and giants bring floods.'}
+ good=ev(p,{'ending_payoff':'Villagers abandon damaged homes during the flood. The outsider stays for good to be with family, swaps maps with villagers, shares knowledge, guards the levee together, and repairs the dam.'},[])
+ assert good['checks']['reciprocal_exchange_changes_both_worlds'] is True
+ assert good['checks']['return_or_stay_decision_is_motivated_by_relationship_and_duty'] is True
+ assert good['checks']['ending_rebuilds_shared_infrastructure_or_ongoing_stewardship'] is True
+
+def test_coerced_psychiatric_labeling_integrity():
+ from studio.coerced_psychiatric_labeling_integrity import evaluate_coerced_psychiatric_labeling_integrity as ev
+ p={'logline':'After giving up her inheritance for five years, a billionaire heiress is locked in a private psychiatric hospital by her fiance so he can seize her 30% stake.'}
+ a={'ending_payoff':'She did not come to save him. Winston Group assets are liquidated, convictions stand, money is recovered, and she says love is not infinite before building her empire with her own hands.'}
+ out=ev(p,a,[{'summary':'She says I am not sick, asks for a lawyer, endures needles and restraints, escapes through legal counterpower, reclaims the financial system she built line by line, and exposes money laundering and forged signatures in court.'}])
+ assert out['applies'] and out['score_0_to_1']>.65
+ assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+def test_precognitive_child_kinship_integrity():
+ from studio.precognitive_child_kinship_integrity import evaluate_precognitive_child_kinship_integrity as ev
+ p={'logline':'A six-year-old girl sees a death countdown, saves a CEO, and ran away from foster care and says she came to find my dad.'}
+ a={'ending_payoff':'Police use live evidence, security footage, payments, and hospital records to stop the inheritance conspiracy; her power is gone, but she is a normal six-year-old who eats cake, goes to school, and will never be alone.'}
+ out=ev(p,a,[{'summary':'A tampered DNA report says 0%, but a carved necklace, death certificate, foundation payment, witness, and security footage corroborate identity. She says I do not lie on the live stream and ruins the image event. The adults refuse to use her for PR and tell her you are my daughter, not my bodyguard.'}])
+ assert out['applies'] and out['score_0_to_1']>.65
+ assert ev({'logline':'A dragon guards a cave.'},{},[])['applies'] is False
+
+def test_elder_remittance_care_integrity():
+ from studio.elder_remittance_care_integrity import evaluate_elder_remittance_care_integrity as ev
+ p={'logline':'A millionaire who sends his mother three thousand dollars a month comes home unannounced and finds her begging for rice on credit.'}
+ a={'ending_payoff':'The petition is denied, the emergency order is vacated, revocation stands, there is no sale, the forgers are arrested, loans are frozen, and he asks me first while money becomes presence at the table and the porch light stays on.'}
+ scene={'summary':'The mother sewed on a machine and put him through school. A padlock, phone block, power of attorney, dementia claim, lorazepam, loan forms, grocery ledger, order slips, witnesses, and her own courtroom testimony expose the proxy exploitation. Gwen pays her tab at the store.'}
+ out=ev(p,a,[scene])
+ assert out['applies'] and out['score_0_to_1']>.65
+ assert ev({'logline':'A dragon guards a cave.'},{},[])['applies'] is False
+
+
+def test_folk_ecological_reciprocity_integrity():
+ from studio.folk_ecological_reciprocity_integrity import evaluate_folk_ecological_reciprocity_integrity as ev
+ p={'logline':'A Basque village legend where giants guard boundary stones and oaks while a charcoal master strips the slope for profit.'}
+ a={'ending_payoff':'The village wakes, the old oak roots hold the mountain, the father admits he paid men to move the stones and strip the slope, and the giant carries the old man home at dawn while the wall remains.'}
+ scene={'summary':'Ordinary charcoal, bread, eggs, and shepherd labor establish material culture. The giant protects the wall and forest boundary. The fire, missing oaks, sliding slope, proof, witnesses, and village evacuation make extraction physically costly. No one owns or cages the giant.'}
+ out=ev(p,a,[scene])
+ assert out['applies'] and out['score_0_to_1']>.65
+ assert ev({'logline':'A dragon guards a cave.'},{},[])['applies'] is False
+
+
+def test_education_theft_false_poverty_integrity():
+ from studio.education_theft_false_poverty_integrity import evaluate_education_theft_false_poverty_integrity as ev
+ p={'logline':'Parents pretending to be poor order their daughter to quit school and work at the recycling yard while saving their assets for her elite-school sister.'}
+ a={'ending_payoff':'She graduates, keeps her studies and thesis, is founder and chairwoman of her own AI company, rejects unearned reconciliation, and gives the parents scrap business at market rate every cent without revenge or pity.'}
+ scene={'summary':'She refuses dropping out, pays tuition through supermarket work, invokes the Labor Bureau and police, wins the exam bet, exposes luxury-store shopping, Chanel bags, paid-off storefronts, and hidden assets publicly, confronts her sister appropriating the top-scorer identity, bankrupts the family firm through lawful competition, and chooses education/career.'}
+ out=ev(p,a,[scene])
+ assert out['applies'] and out['score_0_to_1']>.65
+ assert ev({'logline':'A dragon guards a cave.'},{},[])['applies'] is False

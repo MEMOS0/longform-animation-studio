@@ -12,7 +12,7 @@ EXPOSITION_MARKERS = [
     "as you know", "remember when", "years ago", "long ago", "the prophecy", "our world", "the kingdom", "let me explain", "you see", "i have to tell you", "it is written", "legend says",
 ]
 POWER_ACTION_MARKERS = [
-    "choose", "refuse", "promise", "hide", "protect", "expose", "leave", "stay", "trust", "prove", "save", "saved", "work", "carry", "shield", "steal", "give", "take", "stop", "help", "fight", "let", "won't", "can't",
+    "choose", "refuse", "promise", "hide", "protect", "expose", "leave", "stay", "trust", "prove", "save", "saved", "work", "carry", "shield", "steal", "give", "take", "stop", "help", "fight", "let", "won't", "can't", "eat", "sit", "pay", "test", "watch", "open", "return", "hear", "build", "ask", "show", "cross",
 ]
 CARE_PRESSURE_MARKERS = [
     "afraid", "hurt", "safe", "sorry", "hate", "love", "child", "mother", "father", "kill", "threat", "protect", "save", "shame", "mock", "trust",

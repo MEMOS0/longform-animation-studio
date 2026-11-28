@@ -1,0 +1,70 @@
+{
+  "video_id": "aS6SI32fNc4",
+  "probe": {
+    "duration": 1644.251429,
+    "size": 115399634,
+    "width": 632,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\aS6SI32fNc4\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\aS6SI32fNc4\\contact_sheets\\contact_001.jpg",
+    "evidence\\media\\aS6SI32fNc4\\contact_sheets\\contact_002.jpg",
+    "evidence\\media\\aS6SI32fNc4\\contact_sheets\\contact_003.jpg",
+    "evidence\\media\\aS6SI32fNc4\\contact_sheets\\contact_004.jpg"
+  ],
+  "seconds_indexed": 1644,
+  "shot_count": 51,
+  "shot_length_mean_seconds": 32.23529411764706,
+  "shot_length_median_seconds": 12.0,
+  "shot_length_p90_seconds": 74.0,
+  "visual_motion_mean": 0.10371096147926198,
+  "visual_brightness_mean": 0.2661125927901936,
+  "dialogue_cues": 395,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 572.6,
+      "text": "they say. And now another poor girl to"
+    },
+    "first_power_or_identity_language": {
+      "time": 569.8,
+      "text": "Taken ill after taking tea with him,"
+    },
+    "first_care_or_belonging_language": {
+      "time": 490.44,
+      "text": "The house is yours, save two places."
+    },
+    "dialogue_words_per_minute": [
+      14,
+      42,
+      35,
+      6,
+      11,
+      24,
+      14,
+      36,
+      87,
+      53,
+      53,
+      75,
+      77,
+      128,
+      126,
+      113,
+      146,
+      186,
+      89,
+      61,
+      128,
+      163,
+      86,
+      121,
+      92,
+      102,
+      106
+    ],
+    "cue_count": 395
+  }
+}

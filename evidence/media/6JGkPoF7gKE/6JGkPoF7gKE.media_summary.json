@@ -1,0 +1,33 @@
+{
+  "video_id": "6JGkPoF7gKE",
+  "probe": {
+    "duration": 1955.422041,
+    "size": 123204428,
+    "width": 640,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\6JGkPoF7gKE\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\6JGkPoF7gKE\\contact_sheets\\contact_001.jpg",
+    "evidence\\media\\6JGkPoF7gKE\\contact_sheets\\contact_002.jpg",
+    "evidence\\media\\6JGkPoF7gKE\\contact_sheets\\contact_003.jpg",
+    "evidence\\media\\6JGkPoF7gKE\\contact_sheets\\contact_004.jpg"
+  ],
+  "seconds_indexed": 1955,
+  "shot_count": 60,
+  "shot_length_mean_seconds": 32.583333333333336,
+  "shot_length_median_seconds": 12.0,
+  "shot_length_p90_seconds": 109.0,
+  "visual_motion_mean": 0.08781614729249891,
+  "visual_brightness_mean": 0.23741383778346564,
+  "dialogue_cues": 0,
+  "narrative_markers": {
+    "first_conflict_language": null,
+    "first_power_or_identity_language": null,
+    "first_care_or_belonging_language": null,
+    "dialogue_words_per_minute": [],
+    "cue_count": 0
+  }
+}

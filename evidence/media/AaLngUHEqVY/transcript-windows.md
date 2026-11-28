@@ -1,0 +1,1047 @@
+# AaLngUHEqVY transcript windows (unverified alignment)
+
+These are coherent English TTML cues used as a transcript guide only. Dialogue-specific claims remain provisional until checked against the downloaded media/contact sheets.
+
+## opening diary humiliation — 00:00:00–00:05:00
+- `00:00:01` Cousin, I'm begging you, don't read my diary.
+- `00:00:05` Luo Ying, you know I like Duanmu Chen.
+- `00:00:08` And you still wrote such disgusting diary entries.
+- `00:00:10` Since you dared to write it, why not let everyone hear it?
+- `00:00:14` No
+- `00:00:15` March 1st, sunny
+- `00:00:17` Today my crush finally talked to me
+- `00:00:21` I'm so happy
+- `00:00:22` Let go
+- `00:00:23` April 5th, cloudy
+- `00:00:25` I agreed to sweep the floor for my crush
+- `00:00:28` But the teacher kept me to recite the text
+- `00:00:31` Will my crush be mad at me
+- `00:00:34` Stop reading
+- `00:00:39` Give it to me
+- `00:01:07` I
+- `00:01:09` I'm actually not dead
+- `00:01:17` Where is this
+- `00:01:21` It was the blood jade that brought my soul
+- `00:01:25` into this girl's body that looks just like me
+- `00:01:28` That's how I survived
+- `00:01:50` You're injured
+- `00:01:52` Don't move around
+- `00:01:54` When I was five I was taken to an assassin training camp
+- `00:01:57` I fought my way up from the bottom and became the top assassin Rakshasa
+- `00:02:00` I always wanted to ask them
+- `00:02:02` Why were they so cruel
+- `00:02:04` I never expected that in this girl
+- `00:02:08` I'd feel the warmth of family
+- `00:02:10` Mom
+- `00:02:11` You're the child I risked my life to give birth to
+- `00:02:16` How could you try to kill yourself over a man
+- `00:02:21` The doctor said you almost died
+- `00:02:25` Surviving
+- `00:02:26` is a miracle
+- `00:02:29` If you had died
+- `00:02:32` how could I go on living
+- `00:02:40` I'm sorry
+- `00:02:41` I've figured it out
+- `00:02:43` I won't like Duanmu Chen anymore
+- `00:02:45` Don't worry, Mom
+- `00:02:51` Luo Ying's family
+- `00:02:52` Your hospital fees
+- `00:02:54` and today's medical bills, when will you pay
+- `00:02:56` Miss nurse
+- `00:02:58` Sorry, we'll figure something out
+- `00:03:02` Just thinking about it, can money fall from the sky
+- `00:03:05` You still won't admit it when I call you out
+- `00:03:07` Look at how poor you are
+- `00:03:09` That jacket your mom's wearing
+- `00:03:11` Which garbage dump did you pick it from
+- `00:03:14` It's so faded you can't even tell what it looked like
+- `00:03:17` You're asking for it
+- `00:03:19` She's just a little brat, why should I be afraid of her
+- `00:03:25` I'll show you a way out of pity.
+- `00:03:28` Turn right out of the hospital. The coins in the beggars' bowls there
+- `00:03:33` are more than what's in your pockets.
+- `00:03:37` What, you want to hit me?
+- `00:03:40` Look at your skinny arms and legs.
+- `00:03:48` Sister, brother scraped together money for medical
+- `00:03:53` expenses
+- `00:03:54` for treatment.
+- `00:03:55` Big brother Luofeng gave up college so his sister could attend a top school.
+- `00:03:58` He gave up his chance to go to university.
+- `00:04:06` Good girl.
+- `00:04:07` Let go.
+- `00:04:09` Everyone calls me Rakshasa.
+- `00:04:11` First time someone called me good girl.
+- `00:04:15` Nurse, are you okay, nurse?
+- `00:04:20` Sorry, my daughter is in a bad mood.
+- `00:04:24` Can you just hit people because you're in a bad mood?
+- `00:04:28` Nurse!
+- `00:04:30` Feng'er, has your dad's unpaid wages from the construction site
+- `00:04:34` been paid?
+- `00:04:37` No.
+- `00:04:38` Where did the money come from?
+- `00:04:40` Luochen heard his sister fell from the building and needed surgery.
+- `00:04:44` In desperation, he joined an underground car race.
+- `00:04:47` He got a 5,000 yuan advance from the boss.
+- `00:04:50` What was the bet?
+- `00:04:51` How did sister know the rules of underground racing?
+- `00:04:54` Win and get the prize money.
+- `00:04:57` Lose...
+
+## debt/family pressure — 00:20:00–00:25:00
+- `00:20:01` Guodong.
+- `00:20:03` Are you sure that to protect Luo Ying
+- `00:20:05` you'll drag your whole family down? Think again.
+- `00:20:12` Big Brother, I've made up my mind.
+- `00:20:15` My daughter is my life.
+- `00:20:17` She's still young.
+- `00:20:19` Just cut off my hand and let her go.
+- `00:20:21` Will that work?
+- `00:20:22` Dad.
+- `00:20:23` Dad, you're old.
+- `00:20:25` Cut off mine instead.
+- `00:20:27` I can take it.
+- `00:20:29` I'm not as smart as Big Brother and Little Sister.
+- `00:20:31` Cut off mine.
+- `00:20:32` This is none of your business.
+- `00:20:36` You two—
+- `00:20:37` Fine.
+- `00:20:40` Since you've chosen this path,
+- `00:20:42` don't blame me for being ruthless as your big brother.
+- `00:20:48` Earlier I let you have a few days' grace for my sake.
+- `00:20:52` Now
+- `00:20:54` no more grace.
+- `00:20:57` You little bitch, even with all these people protecting you
+- `00:21:00` what good will it do?
+- `00:21:01` Today
+- `00:21:03` no one can save you
+- `00:21:05` You... you all need to leave, hurry!
+- `00:21:09` Don't be afraid
+- `00:21:10` I'm here
+- `00:21:11` They won't hurt you
+- `00:21:13` Sis, these debt collectors are ruthless
+- `00:21:16` They'll chop off your hands and feet without a second thought
+- `00:21:18` You need to go, I'll deal with them
+- `00:21:28` They got here so fast
+- `00:21:41` None of you are getting away today
+- `00:21:46` Boss, just give us a few more days
+- `00:21:49` Once I get some money and get the company running again
+- `00:21:51` I'll pay you back
+- `00:21:54` You old bastard
+- `00:21:55` Company running again? You're about to declare bankruptcy
+- `00:22:01` You're just an empty shell company, running my ass
+- `00:22:04` You pay up today
+- `00:22:06` Or I'll take your son and daughter and sell their kidneys
+- `00:22:14` Mom
+- `00:22:15` Leave the kids out of this
+- `00:22:18` We'll mortgage the company to you
+- `00:22:21` Don't touch the kids
+- `00:22:27` Say another word and I'll
+- `00:22:28` sell you to a brothel to earn money for us
+- `00:22:32` Yingying, you all need to run!
+- `00:22:34` Get lost
+- `00:22:36` Don't test me or I'll chop off your hand
+- `00:22:41` Just chopping off a hand
+- `00:22:42` is too boring
+- `00:22:45` Just chopping off a hand
+- `00:22:47` is too boring
+- `00:22:48` Is this really the Luo family's cowardly daughter?
+- `00:22:51` Her eyes look like she wants to kill someone
+- `00:22:54` Girl
+- `00:22:55` Then tell me, what would be interesting?
+- `00:23:00` Of course, it's like this
+- `00:23:06` Yingying
+- `00:23:08` Chopping off a hand
+- `00:23:09` Of course it's only interesting if you do it piece by piece
+- `00:23:14` Or maybe
+- `00:23:18` you prefer something more direct
+- `00:23:20` Dad, has Luo Ying gone crazy?
+- `00:23:25` Guodong, look at what your daughter has done
+- `00:23:28` She's going to get our Luo family charged with murder
+- `00:23:31` Make her stop right now
+- `00:23:32` Boss, this girl's not right
+- `00:23:35` She acts more like a gangster than we do
+- `00:23:38` Stop it!
+- `00:23:40` What's wrong with you?
+- `00:23:42` Mom wants me to let them go.
+- `00:23:44` Don't let anyone die.
+- `00:23:47` It'll affect your schooling.
+- `00:23:59` How much does my family owe you?
+- `00:24:01` Fifty million.
+- `00:24:04` Fine.
+- `00:24:05` I've paid it back.
+- `00:24:10` Luo Ying, stop pretending.
+- `00:24:13` You don't have any money at all.
+- `00:24:16` Like father, like daughter.
+- `00:24:20` The father's no good,
+- `00:24:22` and the daughter he raised
+- `00:24:25` has learned to talk big.
+- `00:24:29` I said I can pay, so I can.
+- `00:24:32` That's fifty million.
+- `00:24:34` Even chopping up your whole family wouldn't be enough.
+- `00:24:38` How are you going to pay?
+- `00:24:44` Mom.
+- `00:24:47` Girl, are you messing with me?
+- `00:24:51` I'll take your mother's life.
+- `00:24:54` We can't repay this money.
+
+## identity exposure aftermath — 00:25:00–00:35:00
+- `00:25:00` Run, don't worry about me.
+- `00:25:03` Mom, Bi Shu.
+- `00:25:06` That hand of yours is unnecessary.
+- `00:25:12` Mom!
+- `00:25:18` Now can we talk properly
+- `00:25:20` about how to repay the money?
+- `00:25:21` Yes, yes, yes.
+- `00:25:23` Whatever you say.
+- `00:25:30` Sis, what website is this?
+- `00:25:32` The foreign internet.
+- `00:25:33` A site where you can chat with foreign netizens.
+- `00:25:36` Last time I only got 27 on my English test.
+- `00:25:39` Stop faking.
+- `00:25:40` Yingying's so skilled at this, how could she not know?
+- `00:25:44` I'm Rakshasa. Transfer fifty million to me.
+- `00:25:46` Pavilion Master, the money's been transferred.
+- `00:25:48` The account balance still has eight billion USD left.
+- `00:25:51` Good thing the assassin circle only recognizes accounts. Even in a new body,
+- `00:25:55` I can still use the assets under my name.
+- `00:25:58` Alipay received, fifty million yuan.
+- `00:26:01` Fifty million has arrived.
+- `00:26:03` Great, great.
+- `00:26:06` Luo Ying.
+- `00:26:07` You didn't do something shameful, did you?
+- `00:26:16` You dare hit me?
+- `00:26:18` This money is prize money I won from racing.
+- `00:26:21` If you don't keep that mouth clean,
+- `00:26:23` I don't mind slapping you a few more times.
+- `00:26:27` Top international underground racing, the champion takes it all.
+- `00:26:30` Tens of millions of dollars is not uncommon.
+- `00:26:32` Sis is so skilled at racing.
+- `00:26:34` She must have won some amazing big race.
+- `00:26:37` Race organizers usually have legitimate funds and sponsors.
+- `00:26:41` Otherwise, with such a huge sum, the bank would have frozen it long ago.
+- `00:26:44` This money is absolutely clean.
+- `00:26:49` You're amazing.
+- `00:26:52` Sis is the pride of our whole family.
+- `00:26:55` Last place in the whole school.
+- `00:26:58` What's the use of being good at racing? It won't add points for you.
+- `00:27:02` Back at school,
+- `00:27:03` let's see if you can still be so glorious.
+- `00:27:10` I've already transferred the money to this card.
+- `00:27:12` The password is six zeros.
+- `00:27:14` Take the money and get lost.
+- `00:27:16` Okay.
+- `00:27:22` Leader.
+- `00:27:24` Rakshasa logged into an external account.
+- `00:27:25` We traced the information and locked down her identity.
+- `00:27:33` She's the woman who grabbed your hand in the mountains and called you 'big brother'.
+- `00:27:38` She even forcefully kissed your face on the plane.
+- `00:27:41` She's already died once, how dare she still take advantage of your hand?
+- `00:27:51` What level is Class D?
+- `00:27:54` The worst level.
+- `00:27:59` Help me fabricate an identity.
+- `00:28:01` I want to get into Black Forest Academy.
+- `00:28:04` Yes.
+- `00:28:12` Young Master Chen and Mengdie are a match made in heaven.
+- `00:28:15` Luo Ying delusionally wants to compete with Mengdie for him.
+- `00:28:18` Ugly people always make a fuss.
+- `00:28:20` Writing that disgusting diary to pester Young Master Chen.
+- `00:28:23` Just thinking about it makes me sick.
+- `00:28:28` Thank goodness heaven has eyes.
+- `00:28:31` Some people do too many bad things and fall from the rooftop.
+- `00:28:36` Mengdie,
+- `00:28:37` you're just too kind.
+- `00:28:39` You even tried to pull her then, almost getting dragged down yourself.
+- `00:28:44` Mengdie, from now on, stay away from people with such dark minds.
+- `00:28:47` Stay far away.
+- `00:28:48` Brother Chen, don't say that.
+- `00:28:51` It's all in the past.
+- `00:28:52` She didn't do it on purpose.
+- `00:29:00` I fell accidentally myself.
+- `00:29:03` Didn't I?
+- `00:29:09` Luo Ying,
+- `00:29:12` you clearly pushed me down.
+- `00:29:15` Stop falsely accusing people. Do you have evidence?
+- `00:29:18` Luo Ying, don't think you can throw dirty water on Mengdie.
+- `00:29:21` I'd like you.
+- `00:29:24` For someone like you, if the whole world were just you and a dog,
+- `00:29:28` I still wouldn't pick you.
+- `00:29:32` You have peculiar taste.
+- `00:29:35` Duanmu Chen, listen carefully.
+- `00:29:37` I don't like you now.
+- `00:29:39` Your body's drained by wine and lust, you lost the race to me.
+- `00:29:43` A useless cripple who can't even keep his legs.
+- `00:29:45` You only deserve to be paired with a vicious woman like Luo Mengdie.
+- `00:29:48` You two make a perfect couple.
+- `00:29:51` Slandering me isn't enough, you dare insult Brother Chen too?
+- `00:29:56` Show evidence.
+- `00:29:57` Otherwise, kneel and apologize to us.
+- `00:30:00` You want evidence? I have it.
+- `00:30:09` Lu Heng.
+- `00:30:10` Why is he chasing again? My identity's been discovered.
+- `00:30:14` But why is he helping me?
+- `00:30:20` Looking at it this way,
+- `00:30:22` It was Luo Mengdie grabbing Luo Ying's wrist,
+- `00:30:24` pushing her down. Luo Mengdie is a murderer.
+- `00:30:29` Mengdie, what's going on?
+- `00:30:32` Brother Chen, believe me.
+- `00:30:36` She almost fell during the struggle.
+- `00:30:38` I tried desperately to pull her.
+- `00:30:40` It was too chaotic, the movements looked a bit strange.
+- `00:30:45` Seems reasonable, the video is blurry and hard to tell.
+- `00:30:52` Saving someone,
+- `00:30:54` or pushing someone, let's not say for now.
+- `00:30:56` On the rooftop,
+- `00:30:58` you publicly read someone's private diary.
+- `00:31:01` This point,
+- `00:31:03` you can't argue against.
+- `00:31:05` Apologize to her.
+- `00:31:08` Who are you? You're not qualified to boss me around.
+- `00:31:12` Luo Ying, where did you find this pretty boy?
+- `00:31:15` He looks quite convincing.
+- `00:31:19` Two fools.
+- `00:31:20` Lu Heng is the chief mercenary, leader of the Crimson Flame Legion.
+- `00:31:24` Even I wouldn't dare confront him directly.
+- `00:31:26` You're really asking for death.
+- `00:31:28` Leader.
+- `00:31:29` Should we deal with them?
+- `00:31:37` Principal Wang is someone even city officials treat with respect.
+- `00:31:41` What's this man's background?
+- `00:31:43` Lu Lu... Chief, almost said Leader Lu.
+- `00:31:48` This gentleman is here as the chief military training instructor.
+- `00:31:50` His identity must never be exposed.
+- `00:31:52` Instructor Lu, you're here.
+- `00:31:55` You two,
+- `00:31:56` hurry up and listen to Instructor Lu, apologize to Luo Ying.
+- `00:32:00` Principal, I
+- `00:32:04` You made me apologize to a cutie like Luo Ying
+- `00:32:06` Does she deserve it?
+- `00:32:07` What is Chen Shao's status?
+- `00:32:10` What is her status?
+- `00:32:12` Not cooperating, fine
+- `00:32:14` Go handle the withdrawal procedures now
+- `00:32:16` Black Forest Academy
+- `00:32:17` Can't accommodate you two big shots
+- `00:32:23` The students here
+- `00:32:25` Everyone is future connections and resources
+- `00:32:28` If I get expelled, my dad will beat me to death
+- `00:32:34` Luo Ying, I'm sorry
+- `00:32:36` Not just verbal apology, each person also has to write ten thousand words
+- `00:32:39` Post it on the campus forum, publicly humiliate
+- `00:32:42` Did you hear that?
+- `00:32:43` I heard it
+- `00:32:45` We'll go write now
+- `00:32:48` Let's go
+- `00:33:01` What, not thanking your big brother?
+- `00:33:05` The world has gone crazy
+- `00:33:07` The leader doesn't kill people, but flirts with them
+- `00:33:11` What a coincidence, big brother, thanks for standing up for me
+- `00:33:16` You're welcome
+- `00:33:23` Brother Chen, it's all that jinx Luo Ying's fault
+- `00:33:26` Because of writing the self-criticism
+- `00:33:27` My hands are all swollen
+- `00:33:31` This is a math open class for S class and D class together
+- `00:33:35` There will definitely be interactive Q&A in class
+- `00:33:37` You're in the top ten of the grade
+- `00:33:40` Find a chance to humiliate her then
+- `00:33:43` I must make that loser
+- `00:33:45` Show her true colors in front of everyone
+- `00:33:52` Why are S class and D class having class together?
+- `00:33:56` To prevent good students who are weak in some subjects
+- `00:33:57` From being buried in D class because of low total scores
+- `00:34:00` Let S class and D class participate in classroom competitions together
+- `00:34:04` Once we find students who have been held back
+- `00:34:06` We will directly promote them to S class for key training
+- `00:34:16` Luo Ying, pay for my phone
+- `00:34:20` Sure
+- `00:34:24` Paying for your phone is enough
+- `00:34:29` Luo Ying, what are you doing?
+- `00:34:33` Teacher, Luo Ying is bullying me
+- `00:34:39` Luo Ying openly bullies classmates in class
+- `00:34:41` Must give you a demerit
+- `00:34:45` The teacher comes in without asking a single question about what happened
+- `00:34:47` Just listening to one side and concluding I'm the bully
+- `00:34:50` Or is it
+- `00:34:52` Because she's a top student in S class
+- `00:34:54` You're naturally taking her side.
+- `00:34:58` What right do you have to say I'm taking sides?
+
+## assassin mission turn — 01:20:00–01:25:00
+- `01:20:01` If you dare say no—
+- `01:20:04` I'll expose your real identity.
+- `01:20:06` If I become a ruthless villain—
+- `01:20:09` You'll be the one to blame.
+- `01:20:14` Do you know how to write the word 'shame'?
+- `01:20:17` Compared to you, a flower-picking thief—
+- `01:20:19` I think I still have some shame.
+- `01:20:28` Yingying just loves clinging to me.
+- `01:20:30` Mom, Dad, don't worry. I'll take good care of Yingying.
+- `01:20:38` You're already calling them Mom and Dad before marriage?
+- `01:20:42` It's only a matter of time.
+- `01:20:44` No wonder Yingying stopped clinging to Duanmu Chen.
+- `01:20:46` So it's because of Leader Lu.
+- `01:20:49` Leader Lu is handsome, has status and position.
+- `01:20:52` He seems quite compatible with Yingying.
+- `01:20:56` That's true.
+- `01:20:58` Little Lu.
+- `01:20:59` Why don't you come inside and chat? Luo Ying's dad is a great cook.
+- `01:21:03` Let him cook you some of his specialties.
+- `01:21:06` Come sit at home.
+- `01:21:08` I'm afraid that won't work.
+- `01:21:10` Tomorrow is the special agent selection day.
+- `01:21:12` Luo Ying, come back to the army with me.
+- `01:21:16` Luo Ying, let's go.
+- `01:21:20` Goodbye.
+- `01:21:30` Captain Deng, a man like you actually lives
+- `01:21:33` in such an ordinary old neighborhood.
+- `01:21:36` Don't stand, sit.
+- `01:21:42` Captain Deng, thanks for helping me out.
+- `01:21:46` Chief Lu contacted me and asked me to come.
+- `01:21:48` What?
+- `01:21:50` Are we family or not? No need for formalities.
+- `01:21:52` Thank you, Chief Lu.
+- `01:21:56` Can't let him keep talking.
+- `01:21:59` Captain Deng.
+- `01:22:01` Last time you mentioned an assessment.
+- `01:22:02` Why is it now a special agent selection?
+- `01:22:06` Foreign assassin organizations have infiltrated the country.
+- `01:22:09` They have two targets.
+- `01:22:12` First, assassinate the King of Assassins, Rakshasa.
+- `01:22:14` Second, attack key personnel of our country.
+- `01:22:18` The special agents' mission is to stop their plans.
+- `01:22:21` Ensure personnel safety.
+- `01:22:22` I vouched for you to the organization to let you participate exceptionally.
+- `01:22:26` So that's how it is.
+- `01:22:28` Look at my memory, please sit down first.
+- `01:22:30` I'll make tea for you.
+- `01:22:42` You're a bit strange today.
+- `01:22:48` Am I?
+- `01:22:51` Honestly,
+- `01:22:53` what are you hiding?
+- `01:23:05` Take a look at this.
+- `01:23:12` After I asked you last time,
+- `01:23:14` I had someone investigate your biological parents' information.
+- `01:23:18` Your father's name is Deng Zhiguo.
+- `01:23:21` Your mother's name is Luo Man.
+- `01:23:26` Luo Manren.
+- `01:23:27` Twelve years ago,
+- `01:23:29` died.
+- `01:23:34` Why did they abandon me?
+- `01:23:38` The information was erased.
+- `01:23:40` Can't find it.
+- `01:23:42` You can go ask him yourself.
+- `01:23:48` Give it to me.
+- `01:23:54` It's not good to do this on someone else's sofa.
+- `01:24:03` Why are you taking out a gun?
+- `01:24:04` Wait.
+- `01:24:05` Even if I hear one sentence.
+- `01:24:07` They abandoned me back then, they just didn't want this child.
+- `01:24:12` I would kill him directly.
+- `01:24:17` Sorry to keep you waiting.
+- `01:24:24` Freshly brewed Longjing tea, it's a bit hot.
+- `01:24:26` Drink slowly.
+- `01:24:28` Captain Deng.
+- `01:24:29` I heard your daughter went missing.
+- `01:24:33` I want to ask,
+- `01:24:34` why did you abandon her back then?
+- `01:24:39` Captain Deng.
+- `01:24:40` I heard your daughter went missing.
+- `01:24:43` I want to ask,
+- `01:24:45` why did you abandon her back then?
+- `01:24:49` How do you know about my daughter and wife?
+- `01:24:53` I told her.
+- `01:24:56` Speaking of which,
+- `01:24:58` it's quite a coincidence.
+
+## revenge build — 01:27:00–01:45:00
+- `01:27:00` Leader of the Nine Colors organization.
+- `01:27:01` He trained me as an assassin to get revenge on Deng Zhiguo.
+- `01:27:04` Unfortunately,
+- `01:27:05` this man is so mysterious even I don't know who he is.
+- `01:27:09` I wonder if the military has found anything.
+- `01:27:12` Tell me,
+- `01:27:14` who is the leader of that underground organization?
+- `01:27:19` I've been investigating for nineteen years.
+- `01:27:21` All I know is
+- `01:27:23` he's Li Meng's biological older brother.
+- `01:27:25` His name? Can't find it.
+- `01:27:30` To find his information,
+- `01:27:32` you'd need a world-class hacker.
+- `01:27:37` I plan to spend a fortune
+- `01:27:39` to hire a world-class hacker
+- `01:27:42` to uncover all his identities. Supposedly
+- `01:27:45` the success rate is only ten percent.
+- `01:27:49` Even if
+- `01:27:50` there's only a one percent chance,
+- `01:27:55` I won't give up.
+- `01:27:57` No need for all that trouble.
+- `01:28:00` I'll find all his information for you.
+- `01:28:03` Success rate: one hundred percent.
+- `01:28:06` Leave the revenge to me too.
+- `01:28:11` The success rate a world-class hacker quoted
+- `01:28:14` is only ten percent.
+- `01:28:16` Luo Ying,
+- `01:28:17` stop messing with me.
+- `01:28:19` I'm not joking.
+- `01:28:28` Captain Deng,
+- `01:28:30` trust Luo Ying.
+- `01:28:33` Can this really work?
+- `01:28:37` Then I'll thank you.
+- `01:28:41` You're welcome.
+- `01:28:42` I have things to do.
+- `01:28:44` I'll come another day.
+- `01:28:47` Next time you come, I'll cook something good for you.
+- `01:29:04` Why won't you reveal yourself to him?
+- `01:29:07` If I did,
+- `01:29:09` do you think he'd still let me into the special forces?
+- `01:29:14` I'm going to avenge
+- `01:29:15` myself
+- `01:29:17` and Luoman.
+- `01:29:21` The number of selected candidates is set.
+- `01:29:23` This time, the people participating in the special operations selection
+- `01:29:25` are more than in previous years.
+- `01:29:27` But only three will be chosen.
+- `01:29:30` Don't worry if you don't make it.
+- `01:29:32` You're still young and have potential.
+- `01:29:35` You can try again next year.
+- `01:29:37` Forget three spots—even if there's only one, it's mine.
+- `01:29:42` I admire your confidence.
+- `01:29:44` Good luck.
+- `01:29:54` What are you doing here?
+- `01:29:56` Madam.
+- `01:29:57` To ensure we select the top candidates,
+- `01:30:00` we've specially invited the leader to serve as commander of the final assessment.
+- `01:30:03` All assessors are from our Crimson Flame Legion,
+- `01:30:06` the S-class mercenaries with the most combat experience.
+- `01:30:08` S-class mercenaries.
+- `01:30:09` Every one of them is a war machine that crawled out of a pile of corpses.
+- `01:30:12` This assessment is hell-level difficulty.
+- `01:30:15` Interesting. That way we won't waste time.
+- `01:30:20` It's about time.
+- `01:30:23` Yingying,
+- `01:30:24` take care of yourself.
+- `01:30:25` I can't go with you,
+- `01:30:27` but you can call me anytime.
+- `01:30:29` Tell me right away if anything feels off.
+- `01:30:32` Okay.
+- `01:30:44` The first test is language.
+- `01:30:46` On the ever-changing overseas battlefield,
+- `01:30:49` knowing one more language means one more way to survive.
+- `01:30:52` Only those who master more than ten foreign languages
+- `01:30:55` can pass.
+- `01:30:56` Many candidates have been training this skill since childhood.
+- `01:31:02` Madam came in a hurry to compete.
+- `01:31:04` I'm afraid she won't even pass the first test.
+- `01:31:07` Candidate Luo Ying, masters thirty-eight languages.
+- `01:31:11` Assessment passed.
+- `01:31:17` Amazing!
+- `01:31:19` Thirty-eight? Is she even human?
+- `01:31:22` Thirty-eight.
+- `01:31:24` Are you sure the number wasn't misreported?
+- `01:31:26` Even an eighty or ninety-year-old
+- `01:31:30` who's spent a lifetime studying foreign languages couldn't reach that level.
+- `01:31:34` No mistake. I heard it clearly just now.
+- `01:31:36` She really does know thirty-eight languages.
+- `01:31:39` I heard it too.
+- `01:31:42` Second assessment item: shooting.
+- `01:31:44` Your opponents are three mercenaries.
+- `01:31:47` The mercenaries have no guns on them.
+- `01:31:49` Knock one down and cause minor injury: plus two points.
+- `01:31:52` Cause serious injury: plus five points.
+- `01:31:55` Kill them: plus ten points.
+- `01:31:57` Last year they were fake guns, why are they real this year?
+- `01:32:00` What if someone gets killed?
+- `01:32:02` Just give us fake guns that shoot colored pellets.
+- `01:32:05` At least nothing will go wrong.
+- `01:32:06` Those afraid to die
+- `01:32:08` can forfeit.
+- `01:32:09` This is life-threatening, sir.
+- `01:32:11` I forfeit.
+- `01:32:12` Sir, I forfeit too.
+- `01:32:18` The leader's clever plan wiped out nearly half the people right at the start.
+- `01:32:24` The rest of you,
+- `01:32:26` proceed.
+- `01:32:27` Yes.
+- `01:32:34` Don't just stand there, everyone.
+- `01:32:35` Luo Ying isn't just good at foreign languages, her marksmanship is impressive too.
+- `01:32:38` That's why she was selected to compete for special operative.
+- `01:32:41` If she goes first,
+- `01:32:43` we might not be able to score at all.
+- `01:32:54` Drawing hatred toward the lady.
+- `01:32:56` What a scheme.
+- `01:32:58` Leader,
+- `01:32:59` aren't you worried about your lady?
+- `01:33:01` Worried she won't have enough fun?
+- `01:33:19` Something's wrong.
+- `01:33:21` The smoke is mixed with knockout drugs.
+- `01:33:24` Lu Heng.
+- `01:33:25` You planned this well.
+- `01:33:40` Thank you, leader's lady, for sparing our lives.
+- `01:34:05` Luo Ying, you're too selfish.
+- `01:34:07` If you kill them all, how are we supposed to accumulate points?
+- `01:34:09` You get to show off, but have you considered
+- `01:34:11` how the rest of us feel? On the assessment field, everyone relies on their own skills.
+- `01:34:14` What's the use of complaining? Instead of wasting time whining,
+- `01:34:17` better think about how to catch up on points in the next round.
+- `01:34:20` That's right, Luo Ying won by her own ability.
+- `01:34:22` What we should do is adjust our mindset
+- `01:34:24` and give our all in the upcoming assessment.
+- `01:34:26` Stop arguing, everyone.
+- `01:34:28` Haven't you noticed something's off?
+- `01:34:29` Yeah, the second assessment is over.
+- `01:34:32` Why isn't anyone taking us to the next place?
+- `01:34:33` Let's walk back and take a look.
+- `01:34:36` Too late.
+- `01:34:37` What do you mean too late?
+- `01:35:02` The quality of this batch of newcomers is a bit lacking.
+- `01:35:05` No counter-surveillance skills at all.
+- `01:35:09` What's the leader laughing at?
+- `01:35:11` Look.
+- `01:35:22` Found you.
+- `01:35:24` Our cameras are well hidden.
+- `01:35:28` She found them in no time.
+- `01:35:30` Amazing.
+- `01:35:32` Found you.
+- `01:35:34` What did she say?
+- `01:35:35` Found you.
+- `01:35:36` I remember her. Zhiguo brought her in.
+- `01:35:39` She got full marks in the second event.
+- `01:35:41` I have high hopes for her. Look how energetic she is.
+- `01:35:44` She's probably faking the faint.
+- `01:35:46` I take back what I said.
+- `01:35:48` This batch of newcomers has a lot of talent.
+- `01:35:56` Luo Ying, what are you looking at?
+- `01:35:59` Nothing.
+- `01:36:01` Let's hurry and find the exit.
+- `01:36:08` We've checked all four sides. No exit.
+- `01:36:10` The walls are solid. We can't get out.
+- `01:36:12` Are we going to be caught by bad guys?
+- `01:36:15` Idiot.
+- `01:36:16` Candidates getting caught during the assessment?
+- `01:36:18` Do you think the military has no pride?
+- `01:36:21` This is my fourth year competing for special operative.
+- `01:36:24` This kind of test has never happened before.
+- `01:36:28` We've definitely been caught by bad guys.
+- `01:36:30` Look, what's that?
+- `01:36:38` That's the sound of a bomb.
+- `01:36:41` See, I told you they were bad guys.
+- `01:36:42` How could the military use bombs to test us?
+- `01:36:44` Shut up. The priority is opening the safe.
+- `01:36:47` Defuse the bomb.
+- `01:36:48` I can crack any code.
+- `01:36:49` Let me do it.
+- `01:36:56` Only sixty seconds left.
+- `01:36:59` Hang Lu, hurry and defuse the bomb.
+- `01:37:01` I can crack codes, but I can't defuse bombs.
+- `01:37:04` How are you so useless? You can't even defuse a bomb.
+- `01:37:07` Are we going to die here?
+- `01:37:10` I'll do it.
+- `01:37:10` Can you? Don't mess up and get us killed.
+- `01:37:15` Then you do it.
+- `01:37:31` The first three to cross the yellow line will be accepted.
+- `01:37:38` Luo Ying, aren't you leaving?
+- `01:37:39` No one leaves until the bomb is defused.
+- `01:37:42` Fine, then I'll stay with you.
+- `01:37:47` I'm staying too. After all,
+- `01:37:49` Luo Ying is saving my life.
+- `01:37:50` If something happens, I'll shield you with my body.
+- `01:37:54` If you won't leave, then I'll go first.
+- `01:37:57` You fools, get out of here!
+- `01:38:03` Great!
+- `01:38:08` Four years.
+- `01:38:09` I finally passed the assessment.
+- `01:38:12` You idiots!
+- `01:38:14` For that ridiculous loyalty, you wasted your spots.
+- `01:38:18` Luo Ying, you think defusing a bomb makes you impressive?
+- `01:38:22` In the commander's eyes, you're nothing but
+- `01:38:25` a reckless fool who doesn't know how to make choices.
+- `01:38:27` Hang Lu,
+- `01:38:28` Sun Wuhao,
+- `01:38:30` you two just pretend along with her until you're eliminated.
+- `01:38:34` Luo Ying risked her life to save everyone.
+- `01:38:35` You're not grateful, and you even mock her.
+- `01:38:38` Don't waste words on her; beasts don't understand human speech.
+- `01:38:41` Assemble!
+- `01:38:47` Commander, the three of us were the first to cross the yellow line.
+- `01:38:50` According to the rules, we're accepted.
+- `01:38:52` No, the three of you are eliminated.
+- `01:38:55` Why? We clearly passed first!
+- `01:39:00` Why?
+- `01:39:01` At the critical moment, you abandoned your comrades
+- `01:39:03` who were saving your lives.
+- `01:39:05` The final assessment of the special forces
+- `01:39:08` is not about who runs fastest, but about this.
+- `01:39:11` If you can easily abandon your comrades,
+- `01:39:13` on the battlefield, who would dare to have your back?
+- `01:39:17` How could the country entrust its mission to you?
+- `01:39:19` What was just announced
+- `01:39:21` is only part of the final test.
+- `01:39:25` The real test is:
+- `01:39:27` in desperate situations, can you still not abandon
+- `01:39:31` and not give up?
+- `01:39:32` Only those who choose to stay within the yellow line
+- `01:39:35` and share risks with their comrades
+- `01:39:36` deserve to wear that armband symbolizing honor.
+- `01:39:43` I failed again.
+- `01:39:45` Congratulations, from today on,
+- `01:39:47` you are officially special agents.
+- `01:39:49` May you never forget your original intention and keep your mission in mind.
+- `01:39:52` Use your passion to protect the lights of every home in this land.
+- `01:39:56` King of Killers, Special Agent.
+- `01:39:59` I like this identity change.
+- `01:40:04` Commander Lu, why don't you put it on Luo Ying?
+- `01:40:08` There's someone
+- `01:40:10` more suitable than me.
+- `01:40:12` Who?
+- `01:40:13` Captain Deng.
+- `01:40:15` You were the one who recommended Luo Ying for the assessment.
+- `01:40:18` You should be the one to put it on her.
+- `01:40:37` Reporting, sir.
+- `01:40:38` The head of an overseas assassin organization, Tyrannosaurus, has appeared in Huaguo.
+- `01:40:42` Tyrannosaurus.
+- `01:40:45` Where is he?
+- `01:40:49` Xiao Ying.
+- `01:40:50` You know him?
+- `01:40:51` I've heard of him.
+- `01:40:52` The Dark Star River Arena.
+- `01:40:55` Officer Zhang, I request to carry out this mission.
+- `01:40:58` Old Deng, I know you want revenge for your wife and daughter.
+- `01:41:01` But no one controls that place.
+- `01:41:03` Without a reservation, no one can get in.
+- `01:41:06` Sir.
+- `01:41:07` Tyrannosaurus's appearance this time doesn't seem to be to provoke the military.
+- `01:41:10` Then what is it?
+- `01:41:10` Tyrannosaurus has booked Sand Platform No. 44.
+- `01:41:12` The bounty target is a foreign hacker codenamed Fox Charm.
+- `01:41:16` No money, just the person.
+- `01:41:19` Is this hacker's identity very important?
+- `01:41:21` Fox Charm is a subordinate of the King of Assassins, Rakshasa.
+- `01:41:23` He wants to use Fox Charm to lure out Rakshasa.
+- `01:41:25` Tyrannosaurus, you're asking for death.
+- `01:41:28` I don't mind starting with you.
+- `01:41:30` Internal strife within the organization doesn't threaten the military for now.
+- `01:41:32` Send someone to watch outside the arena first.
+- `01:41:35` Capture Tyrannosaurus as soon as he leaves the arena.
+- `01:41:37` Sir, send me.
+- `01:41:39` Old Deng.
+- `01:41:40` Precisely because it's you, I can't send you.
+- `01:41:44` With blood feuds, who can guarantee absolute calm?
+- `01:41:47` I'll arrange the surveillance.
+- `01:41:49` Your task is to stand by. That's an order.
+- `01:41:53` Yes.
+- `01:42:04` Lu Heng, why are you here?
+- `01:42:07` Without me,
+- `01:42:08` can you get in?
+- `01:42:10` My account is linked to all the arenas worldwide.
+- `01:42:13` The King of Assassins wants to get in, it's easy.
+- `01:42:16` Using your account will expose you.
+- `01:42:22` I'm afraid I won't be able to kill Tyrannosaurus tonight.
+- `01:42:28` You won't abandon your subordinates.
+- `01:42:31` You won't let go of family revenge.
+- `01:42:33` And I won't let my little princess take risks alone.
+- `01:42:38` Although I don't like this nickname,
+- `01:42:43` but I like your attitude.
+- `01:43:01` Welcome everyone to the Dark Star River Arena.
+- `01:43:04` This match is on Platform No. 44.
+- `01:43:06` Those who step up either win or die.
+- `01:43:09` Kolya is about to finish the fight, let's cheer for him
+- `01:43:17` Go Kolya
+- `01:43:21` Trash
+- `01:43:22` Trash
+- `01:43:24` Come on
+- `01:43:25` Come kill me then
+- `01:43:27` Why are you failing
+- `01:43:36` Cheer
+- `01:43:42` Sun Wuhao
+- `01:43:44` Hang Lu, what's going on
+- `01:43:46` Chief Lu, Sister Ying
+- `01:43:48` Sun Wuhao and I are both from the special forces
+- `01:43:50` We have strong observation skills
+- `01:43:52` We saw you react strongly to the name Fox Spirit
+- `01:43:55` Guessed she might be your friend
+- `01:43:56` So we wanted to help you rescue her
+- `01:43:58` Ridiculous
+- `01:44:00` Kolya is T-Rex's top gladiator
+- `01:44:02` You're going to your deaths
+- `01:44:10` I'll beat you to death slowly
+- `01:44:14` Crush you completely
+- `01:44:17` Force your family to swallow your ashes
+- `01:44:21` Die
+- `01:44:23` Kolya
+- `01:44:24` Old bastard, still so arrogant
+- `01:44:28` Let him go, I'll duel you
+- `01:44:32` Sister Ying
+- `01:44:36` Rakshasa
+- `01:44:38` It's you
+- `01:44:40` I remember your voice
+- `01:44:45` T-Rex said I could duel you here
+- `01:44:48` He didn't lie to me after all
+- `01:44:51` Come on
+- `01:44:53` I'll kill you with my own hands
+- `01:44:56` Duel terminated
+- `01:44:57` Someone volunteers to replace Sun Wuhao
+
+## police/accountability window — 01:59:00–02:08:00
+- `01:59:16` How many times have I told you not to come to me unless it's urgent?
+- `01:59:20` Boss, I wouldn't dare bother you if it weren't so tricky.
+- `01:59:26` Ever since we dealt with Luo Man,
+- `01:59:28` I've been keeping my nose clean.
+- `01:59:31` But this time, Tyrannosaurus was captured by the military.
+- `01:59:35` I never expected this grudge
+- `01:59:37` to involve Luo Guobin too.
+- `01:59:40` He got caught, that's his problem. What does it have to do with us?
+- `01:59:44` I'm worried he killed Luo Man back then,
+- `01:59:46` and now Deng Zhiguo is after him for revenge.
+- `01:59:50` If he rats us out in there,
+- `01:59:52` we're both done for.
+- `01:59:57` Tyrannosaurus wasn't killed by his enemies,
+- `02:00:00` but ended up in military hands. That's definitely unusual.
+- `02:00:05` I also heard
+- `02:00:07` Tyrannosaurus was taken down by a hitman.
+- `02:00:11` Boss,
+- `02:00:11` do you think Deng Zhiguo might have hired a hitman to come after us too?
+- `02:00:16` What's the panic? Losing your head will get you killed faster.
+- `02:00:20` Back then we could set a trap to lead Luo Man to his death.
+- `02:00:25` Now we can deal with Deng Zhiguo just the same.
+- `02:00:29` Everyone has a weakness.
+- `02:00:32` Once we grab it,
+- `02:00:33` he'll be at our mercy.
+- `02:00:36` Luo Man and the child are gone.
+- `02:00:40` Deng Zhiguo
+- `02:00:41` has no weaknesses left.
+- `02:00:43` Who says he doesn't? At my home,
+- `02:00:45` aren't there still two old geezers?
+- `02:00:46` Deng Zhiguo treats them like his own parents.
+- `02:00:50` They're perfect for this.
+- `02:00:59` Good plan, but too bad you won't get to carry it out.
+- `02:01:03` Cutie, what are you doing here?
+- `02:01:05` Brother, what should we do?
+- `02:01:10` Since you came here looking for death yourself,
+- `02:01:12` don't blame me for being ruthless.
+- `02:01:14` Only a dead man's mouth
+- `02:01:17` keeps secrets best.
+- `02:01:20` His moves are too strange—is he even human?
+- `02:01:23` Help! Help!
+- `02:01:24` My leg!
+- `02:01:28` What's going on?
+- `02:01:32` Who says there's no one? Aren't there two old geezers at my house?
+- `02:01:35` Deng Zhiguo treats them like his own parents.
+- `02:01:39` They're perfect for this.
+- `02:01:41` You beast!
+- `02:01:44` Back then you were picking through trash on the street,
+- `02:01:48` if Xiaoman hadn't taken pity on you
+- `02:01:52` and begged me to adopt you, you'd have frozen to death long ago.
+- `02:01:58` How has the Luo family ever wronged you?
+- `02:02:03` And yet you colluded with killers
+- `02:02:07` to murder her!
+- `02:02:11` Your conscience—
+- `02:02:13` did the dogs eat it?
+- `02:02:19` If she'd been willing to marry me, I wouldn't have killed her.
+- `02:02:23` But she'd rather die than agree.
+- `02:02:26` She forced my hand in all of this.
+- `02:02:37` For your own selfish desires you harmed my wife and daughter!
+- `02:02:40` You coward, you scum!
+- `02:02:43` I want you to pay with your life for hers!
+- `02:02:52` Leave one alive.
+- `02:02:54` Deal with them according to the law.
+- `02:03:00` Men!
+- `02:03:06` The mastermind is Luo Jiacheng—he threatened me into helping him.
+- `02:03:10` It has nothing to do with me, please forgive me!
+- `02:03:13` Take him away. Mengdie, save Daddy!
+- `02:03:19` Let go of my dad!
+- `02:03:21` Luo Ying, where are you taking my dad?
+- `02:03:26` To his death.
+- `02:03:27` You're the one who's going to die!
+- `02:03:32` Luo Guobin conspired with Luo Jiacheng to murder Luo Man.
+- `02:03:36` A life for a life—that's only just.
+- `02:03:39` If you're not satisfied, go tell the judge.
+- `02:03:42` Taking your anger out on my Yingying—what's that supposed to be?
+- `02:03:46` You dare hit me?
+- `02:03:49` I don't mind breaking your hand for good.
+- `02:03:52` Youyu!
+- `02:03:53` They're all bullying me!
+- `02:03:57` Your father made a mistake, so he should be punished.
+- `02:04:01` Be good, okay?
+- `02:04:04` Let's go.
+- `02:04:10` Yingying.
+- `02:04:11` Come here.
+- `02:04:16` Good child, thank you.
+- `02:04:19` If it weren't for you,
+- `02:04:20` we two old fools would still not know
+- `02:04:22` how long we'd be deceived by that heartless person.
+- `02:04:26` The truth is out.
+- `02:04:29` Xiaoman in heaven
+- `02:04:34` can rest in peace now.
+- `02:04:39` Child,
+- `02:04:41` what reward do you want?
+- `02:04:44` Just say it.
+- `02:04:46` Right.
+- `02:04:48` I don't need anything.
+- `02:04:49` I only hope Grandpa Luo and Grandma Luo
+- `02:04:52` recover soon.
+- `02:04:55` You really don't need anything?
+- `02:05:04` Old master, madam, the doctor is here.
+- `02:05:06` Let him check your pulses and calm your nerves first.
+- `02:05:12` There's a lot going on today.
+- `02:05:16` Another day,
+- `02:05:17` we'll treat you to a meal
+- `02:05:20` to thank you properly.
+- `02:05:23` Old master,
+- `02:05:24` you're too kind.
+- `02:05:26` Take care of your health.
+- `02:05:28` We'll be going now.
+- `02:05:32` Let me see you out.
+- `02:05:40` Uncle, Auntie,
+- `02:05:41` I'll take you home.
+- `02:05:42` Sure.
+- `02:05:44` Last time you came, we didn't even treat you to a meal.
+- `02:05:47` This time you must try our cooking.
+- `02:05:50` Okay.
+- `02:05:51` Leader Lu,
+- `02:05:53` you agreed so readily—did you plan from the start
+- `02:05:55` to come to my house for dinner?
+- `02:06:02` Wrong.
+- `02:06:07` What I want to eat
+- `02:06:09` is clearly...
+- `02:06:12` Let's get in the car first.
+- `02:06:18` You...
+- `02:06:23` The police caught Tyrannosaurus and Luo Jiacheng.
+- `02:06:25` The mastermind will follow the clues to find you.
+- `02:06:28` Maybe
+- `02:06:29` they're already hiding by your side.
+- `02:06:32` I can't follow you all the time.
+- `02:06:34` You need to be careful.
+- `02:06:36` Don't worry.
+- `02:06:38` They can't do anything to me.
+- `02:06:40` So confident.
+- `02:06:44` You were born...
+- `02:06:46` You're going to be my wife.
+- `02:06:56` Yingying.
+- `02:06:57` Your brother bought a camera for me and your mom.
+- `02:07:00` So we can take pictures, but I don't know
+- `02:07:03` how to turn it on. You young people should
+- `02:07:05` know how. Come take a look.
+- `02:07:08` Chief Lu, who fears nothing, is afraid of my dad.
+- `02:07:13` That's not fear.
+- `02:07:15` That's called maintaining strategic respect for my future father-in-law.
+- `02:07:20` Yingying, is this the button? I—
+- `02:07:24` I forgot Little Lu was here.
+- `02:07:26` Right, Little Lu, you've been abroad. You should know how to fix this.
+- `02:07:30` Take a look for me.
+- `02:07:31` Okay.
+- `02:07:32` Here.
+- `02:07:33` You two work on it. I'll go cook.
+- `02:07:48` Let me take the call.
+- `02:07:55` Little Ying.
+- `02:07:57` What happened? Don't panic, take your time.
+- `02:07:59` Someone's holding the school hostage. They told me to call you.
+
+## ending extraction — 02:37:00–02:43:24
+- `02:37:05` My princess,
+- `02:37:07` may I exercise my rights as a husband?
+- `02:37:10` How come I never noticed you talk so much before?
+- `02:37:20` Wait.
+- `02:37:24` There's something under the blanket.
+- `02:37:27` You even prepared peanuts and red dates.
+- `02:37:35` Are you trying to assassinate me?
+- `02:37:40` No fun.
+- `02:37:42` This is the gift I prepared for you.
+- `02:37:47` Who on earth, on their marriage registration day,
+- `02:37:49` gives the bride guns, ammo, and knives?
+- `02:37:54` They're all your favorite things.
+- `02:37:56` What matters in a gift is the thought.
+- `02:38:12` Are you ready to serve me?
+- `02:38:17` Don't
+- `02:38:20` seduce me.
+- `02:38:22` Don't underestimate the combat power of the number one assassin.
+- `02:38:25` Otherwise, the one who can't get out of bed tomorrow
+- `02:38:28` will be you.
+- `02:38:36` I'll be waiting to see.
+- `02:38:39` My girl,
+- `02:38:41` you finally
+- `02:38:43` belong completely to me.
+- `02:38:51` Chief, there's a very urgent matter within the legion.
+- `02:38:54` You need to handle it immediately.
+- `02:38:56` Get lost.
+- `02:38:57` Go spend a month in the Antarctic Circle.
+- `02:39:02` Yes.
+- `02:39:19` My waist and legs hurt so much.
+- `02:39:22` Worse than the brutal training at Hunter School back then.
+- `02:39:26` This bed is the deadliest weapon—can't stay long.
+- `02:39:34` Again.
+- `02:39:36` Still coming?
+- `02:39:38` Lu Heng, I was wrong. Can you let me go?
+- `02:39:42` You have no right to refuse.
+- `02:39:48` Leader of the Crimson Flame Legion, the world's number one ace assassin, Rakshasa.
+- `02:39:51` Guess which of these two is stronger.
+- `02:39:54` Leader of the Crimson Flame Legion, real name unknown.
+- `02:39:57` Nationality unknown, age unknown.
+- `02:39:59` Male, the world's number one ace assassin, Rakshasa.
+- `02:40:03` Real name unknown, nationality unknown.
+- `02:40:05` Age unknown, gender unknown.
+- `02:40:08` From this view, still Rakshasa.
+- `02:40:10` More mysterious and more powerful.
+- `02:40:12` If we go by the world's number one ace assassin
+- `02:40:14` Rakshasa's past record, I personally still lean toward
+- `02:40:18` the claim that the Crimson Flame Legion leader is stronger.
+- `02:40:21` Why?
+- `02:40:23` Because Rakshasa is just one person.
+- `02:40:26` She's just an assassin in an international assassin organization.
+- `02:40:30` They say ordinary people can't beat capitalists.
+- `02:40:32` And the Crimson Flame Legion leader—
+- `02:40:34` he's not alone; he has a whole legion behind him.
+- `02:40:38` If you insist on comparing the two,
+- `02:40:41` setting aside their personal combat ability,
+- `02:40:43` Rakshasa is merely an employee in the Blood Shadow organization,
+- `02:40:47` while the Crimson Flame Legion leader is already a capitalist.
+- `02:40:51` Do you think it's possible that Rakshasa is a woman?
+- `02:40:55` And the Crimson Flame Legion leader happens to like Rakshasa?
+- `02:40:58` In that case, who would be stronger?
+- `02:41:03` Your imagination is way too wild.
+- `02:41:05` No, I'm just curious.
+- `02:41:07` You're really curious.
+- `02:41:09` Isn't there an old saying—beautiful women cause trouble?
+- `02:41:13` If you ask me, if Rakshasa really is a woman,
+- `02:41:17` and the Crimson Flame Legion leader really likes her,
+- `02:41:21` if Rakshasa really were a bad woman,
+- `02:41:24` the Crimson Flame Legion leader would've been done for long ago.
+- `02:41:27` Taking advantage of his feelings, she could stir things up again.
+- `02:41:30` The Crimson Flame Legion would've long been Rakshasa's.
+- `02:41:33` I think
+- `02:41:34` what you said makes some sense.
+- `02:41:36` Maybe that's how it is in reality.
+- `02:41:39` Who are you?
+- `02:41:55` We're the instructors specially invited by Captain Deng Zhiguo.
+- `02:41:58` From now on, I'm in charge of your training.
+- `02:42:01` Fall in!
+- `02:42:05` Hello, Instructor.
+- `02:42:07` My surname is Luo, my name is Luo Ying.
+- `02:42:09` He
+- `02:42:11` The name doesn't matter.
+- `02:42:12` Hello, Instructor Luo.
+- `02:42:14` From now on, everyone carries twenty kilograms.
+- `02:42:17` Climb to the top of the mountain within one hour.
+- `02:42:19` Those who can't do it
+- `02:42:20` will go back and do an extra five-kilometer cross-country training.
+- `02:42:22` Twenty kilograms is too much.
+- `02:42:24` No one can do it.
+- `02:42:25` Reach the top within one hour.
+- `02:42:27` Instructor, reduce the load for us.
+- `02:42:29` Please.
+- `02:42:30` No more nonsense.
+- `02:42:32` Execute immediately, or else
+- `02:42:35` My queen is angry.
+- `02:42:37` The consequences are severe.
+- `02:42:39` Turn right.
+- `02:42:41` Target: warehouse.
+- `02:42:42` Run.
+- `02:42:43` Go.
+- `02:42:47` My little princess
+- `02:42:49` is always the best.
+- `02:42:51` You just know how to say nice things.
+- `02:43:00` Luo Ying.
+- `02:43:01` The Kowloon Chamber of Commerce will hold a summit meeting at the harbor.
+- `02:43:03` Intelligence shows dangerous targets have infiltrated.
+- `02:43:06` This is a top-level mission.
+- `02:43:08` You are ordered to stop your current activities immediately.
+- `02:43:10` Return to the team at once.
+- `02:43:11` Understood, I'll return to the team immediately.

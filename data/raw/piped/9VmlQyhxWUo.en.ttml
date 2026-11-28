@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:01:14.542" end="00:01:17.542" style="s2">Chapter 1. CODENAME J and BAEG-YA</p>
+<p begin="00:02:03.708" end="00:02:04.875" style="s2">Pizza delivery.</p>
+<p begin="00:02:12.292" end="00:02:14.250" style="s2">Long time no see, Codename J.</p>
+<p begin="00:02:18.667" end="00:02:20.208" style="s2">I missed this taste.</p>
+<p begin="00:02:20.667" end="00:02:23.042" style="s2">Your taste is still as strange as your personality.</p>
+<p begin="00:02:24.042" end="00:02:26.333" style="s2">I ordered a large. Where’s the cola?</p>
+<p begin="00:02:26.667" end="00:02:28.958" style="s2">Prices in Korea must be getting rough these days.</p>
+<p begin="00:02:29.125" end="00:02:30.542" style="s2">How did you find me?</p>
+<p begin="00:02:41.750" end="00:02:44.417" style="s2">You made an interesting friend.</p>
+<p begin="00:02:45.375" end="00:02:47.292" style="s2">Hana has nothing to do with this.</p>
+<p begin="00:02:48.208" end="00:02:50.125" style="s2">She must mean a lot to you.</p>
+<p begin="00:02:53.458" end="00:02:55.167" style="s2">You’ve had your fun.</p>
+<p begin="00:02:55.167" end="00:02:56.667" style="s2">Come back to  BAEG-YA.</p>
+<p begin="00:02:57.583" end="00:02:59.208" style="s2">I’m never going back to BAEG-YA.</p>
+<p begin="00:03:01.000" end="00:03:02.875" style="s2">Where did you say this Hana girl lives?</p>
+<p begin="00:03:09.292" end="00:03:11.125" style="s2">Help me for six months.</p>
+<p begin="00:03:11.125" end="00:03:13.292" style="s2">And Hana stays untouched.</p>
+<p begin="00:03:17.792" end="00:03:19.042" style="s2">Yeah, Hana.</p>
+<p begin="00:03:19.500" end="00:03:21.542" style="s2">Jaei, where are you?</p>
+<p begin="00:03:21.542" end="00:03:24.542" style="s2">Chapter 2. Jaei &amp; Hana</p>
+<p begin="00:03:24.542" end="00:03:26.917" style="s2">6 years ago</p>
+<p begin="00:03:38.792" end="00:03:39.958" style="s2">Wait, what are you doing?</p>
+<p begin="00:03:39.958" end="00:03:40.708" style="s2">I have cram school.</p>
+<p begin="00:03:40.708" end="00:03:41.500" style="s2">Hey.</p>
+<p begin="00:03:41.500" end="00:03:42.792" style="s2">You told the teacher, didn’t you?</p>
+<p begin="00:03:42.792" end="00:03:44.375" style="s2">That’s because...</p>
+<p begin="00:03:44.375" end="00:03:45.958" style="s2">You were picking on people first.</p>
+<p begin="00:03:45.958" end="00:03:47.292" style="s2">Bad grades, playing hero?</p>
+<p begin="00:03:47.292" end="00:03:48.417" style="s2">Come with us for a second.</p>
+<p begin="00:03:53.125" end="00:03:53.750" style="s2">Hey!</p>
+<p begin="00:03:53.750" end="00:03:55.875" style="s2">You got us in trouble.</p>
+<p begin="00:03:56.417" end="00:03:57.875" style="s2">Then...</p>
+<p begin="00:03:57.875" end="00:03:59.417" style="s2">maybe stop picking on people.</p>
+<p begin="00:03:59.417" end="00:04:01.958" style="s2">You clueless little loser!</p>
+<p begin="00:04:06.417" end="00:04:08.125" style="s2">Ah! Stop it!</p>
+<p begin="00:04:08.125" end="00:04:09.125" style="s2">Don’t do this!</p>
+<p begin="00:04:16.292" end="00:04:17.417" style="s2">Hey, who the hell are you?</p>
+<p begin="00:04:29.250" end="00:04:31.125" style="s2">Hey. You can stand up by yourself, right?</p>
+<p begin="00:04:34.958" end="00:04:35.792" style="s2">Um... wait...</p>
+<p begin="00:04:37.875" end="00:04:38.708" style="s2">Thank you~</p>
+<p begin="00:05:23.042" end="00:05:26.083" style="s2">So Cha Yura still sends her favorite blade.</p>
+<p begin="00:05:26.458" end="00:05:28.042" style="s2">None of your business.</p>
+<p begin="00:05:28.042" end="00:05:29.875" style="s2">Codename J.</p>
+<p begin="00:05:29.875" end="00:05:31.250" style="s2">Let’s see if the rumor is true.</p>
+<p begin="00:05:37.000" end="00:05:38.292" style="s2">You’re fast.</p>
+<p begin="00:05:38.292" end="00:05:39.292" style="s2">Not enough.</p>
+<p begin="00:05:58.792" end="00:06:00.417" style="s2">Tell Cha Yura...</p>
+<p begin="00:06:00.417" end="00:06:01.833" style="s2">She still owes me.</p>
+<p begin="00:06:01.833" end="00:06:02.500" style="s2">No message.</p>
+<p begin="00:06:07.542" end="00:06:08.750" style="s2">Papa...?</p>
+<p begin="00:06:26.500" end="00:06:27.542" style="s2">Huh?</p>
+<p begin="00:06:28.375" end="00:06:29.708" style="s2">That person from before...!</p>
+<p begin="00:06:29.708" end="00:06:30.667" style="s2">Wait!</p>
+<p begin="00:06:42.625" end="00:06:44.333" style="s2">Hi. Do you remember me?</p>
+<p begin="00:06:44.833" end="00:06:45.792" style="s2">No.</p>
+<p begin="00:06:47.625" end="00:06:49.833" style="s2">You saved me back then.</p>
+<p begin="00:06:52.458" end="00:06:53.333" style="s2">I don&#39;t remember.</p>
+<p begin="00:06:55.000" end="00:06:56.583" style="s2">Still, I wanted to thank you.</p>
+<p begin="00:06:57.917" end="00:06:59.792" style="s2">Don&#39;t need it. Get lost.</p>
+<p begin="00:07:00.167" end="00:07:01.375" style="s2">I&#39;m Seol Hana.</p>
+<p begin="00:07:02.375" end="00:07:03.667" style="s2">I didn&#39;t ask.</p>
+<p begin="00:07:05.375" end="00:07:06.875" style="s2">I just wanted to tell you.</p>
+<p begin="00:07:09.458" end="00:07:11.542" style="s2">Can you tell me your name too?</p>
+<p begin="00:07:14.750" end="00:07:15.542" style="s2">Hi!</p>
+<p begin="00:07:16.708" end="00:07:18.375" style="s2">I told you not to acknowledge me.</p>
+<p begin="00:07:22.417" end="00:07:23.750" style="s2">Delivering again today?</p>
+<p begin="00:07:24.708" end="00:07:25.750" style="s2">Isn&#39;t it obvious?</p>
+<p begin="00:07:30.333" end="00:07:32.250" style="s2">I bought this for you.</p>
+<p begin="00:07:32.250" end="00:07:33.042" style="s2">I&#39;m not drinking it.</p>
+<p begin="00:07:33.333" end="00:07:34.625" style="s2">Can&#39;t you just take it?</p>
+<p begin="00:07:38.042" end="00:07:39.875" style="s2">You really don&#39;t listen, do you?</p>
+<p begin="00:07:41.875" end="00:07:43.292" style="s2">Drive safe~</p>
+<p begin="00:07:43.458" end="00:07:45.875" style="s2">Kids at school say I&#39;m kind of weird.</p>
+<p begin="00:07:47.667" end="00:07:48.500" style="s2">Sounds right.</p>
+<p begin="00:07:49.667" end="00:07:51.000" style="s2">But you&#39;re kind of weird too.</p>
+<p begin="00:07:51.375" end="00:07:52.042" style="s2">Get lost.</p>
+<p begin="00:07:54.042" end="00:07:56.083" style="s2">Then, since we&#39;re both weird, want to be friends?</p>
+<p begin="00:07:56.083" end="00:07:58.333" style="s2">Seriously, get lost... or else.</p>
+<p begin="00:07:59.750" end="00:08:01.167" style="s2">We met again today.</p>
+<p begin="00:08:01.458" end="00:08:03.458" style="s2">Today really was a coincidence.</p>
+<p begin="00:08:03.458" end="00:08:05.083" style="s2">Fine...</p>
+<p begin="00:08:05.083" end="00:08:06.667" style="s2">Can you stop talking to me already?</p>
+<p begin="00:08:06.667" end="00:08:08.833" style="s2">Sorry... I talk a lot.</p>
+<p begin="00:08:08.833" end="00:08:10.375" style="s2">But why don&#39;t you go to school?</p>
+<p begin="00:08:11.083" end="00:08:12.333" style="s2">Huh? That... shit!</p>
+<p begin="00:08:15.083" end="00:08:16.125" style="s2">Babe, that&#39;s her.</p>
+<p begin="00:08:16.125" end="00:08:17.542" style="s2">The bitch who hit me last time.</p>
+<p begin="00:08:18.500" end="00:08:19.583" style="s2">Who, that loser bitch?</p>
+<p begin="00:08:19.583" end="00:08:20.417" style="s2">No, no.</p>
+<p begin="00:08:20.417" end="00:08:21.958" style="s2">The pink-haired delivery bitch next to her!</p>
+<p begin="00:08:25.125" end="00:08:26.208" style="s2">Was it you?</p>
+<p begin="00:08:26.208" end="00:08:27.458" style="s2">The bitch who messed with my girl?</p>
+<p begin="00:08:29.083" end="00:08:30.750" style="s2">Move, unless you want to die.</p>
+<p begin="00:08:31.042" end="00:08:32.125" style="s2">What&#39;d you say?</p>
+<p begin="00:08:32.125" end="00:08:33.917" style="s2">You tiny bitch?</p>
+<p begin="00:08:35.292" end="00:08:36.792" style="s2">Even this crap&#39;s becoming a pain.</p>
+<p begin="00:08:36.792" end="00:08:39.792" style="s2">Chapter 3. Jaei &amp; Hana 2</p>
+<p begin="00:08:44.250" end="00:08:45.583" style="s2">Let&#39;s end this fast.</p>
+<p begin="00:08:45.583" end="00:08:46.583" style="s2">I’ve got deliveries to make.</p>
+<p begin="00:08:47.875" end="00:08:48.792" style="s2">Seriously?</p>
+<p begin="00:08:48.792" end="00:08:50.333" style="s2">Tiny little thing, acting tough.</p>
+<p begin="00:09:09.958" end="00:09:11.708" style="s2">Come on, what are you doing?</p>
+<p begin="00:09:25.458" end="00:09:27.500" style="s2">Damn, this bitch is fast.</p>
+<p begin="00:09:27.875" end="00:09:29.167" style="s2">Hey, hold on.</p>
+<p begin="00:09:29.167" end="00:09:30.417" style="s2">I’m tired.</p>
+<p begin="00:09:30.417" end="00:09:31.500" style="s2">Just...</p>
+<p begin="00:09:31.500" end="00:09:32.292" style="s2">Let me rest a second.</p>
+<p begin="00:09:38.875" end="00:09:40.167" style="s2">You little bitch.</p>
+<p begin="00:09:40.167" end="00:09:42.167" style="s2">Go on, act tough now!</p>
+<p begin="00:09:50.667" end="00:09:53.125" style="s2">What, you gonna call the cops?</p>
+<p begin="00:10:16.042" end="00:10:17.833" style="s2">You fucking bitch!</p>
+<p begin="00:10:18.667" end="00:10:20.042" style="s2">No!!</p>
+<p begin="00:10:33.292" end="00:10:34.458" style="s2">Hey!</p>
+<p begin="00:10:34.458" end="00:10:35.458" style="s2">Are you okay?</p>
+<p begin="00:10:50.208" end="00:10:51.417" style="s2">Hey, are you okay?</p>
+<p begin="00:10:53.667" end="00:10:54.917" style="s2">Yeah...</p>
+<p begin="00:10:54.917" end="00:10:55.958" style="s2">I’m okay.</p>
+<p begin="00:10:59.750" end="00:11:01.333" style="s2">Yeah, that was dangerous...</p>
+<p begin="00:11:01.333" end="00:11:02.542" style="s2">Why did you jump in like that?</p>
+<p begin="00:11:02.542" end="00:11:04.583" style="s2">I’m sorry.</p>
+<p begin="00:11:04.583" end="00:11:06.917" style="s2">You got dragged into this because of me.</p>
+<p begin="00:11:08.417" end="00:11:10.250" style="s2">Forget it.</p>
+<p begin="00:11:10.250" end="00:11:11.958" style="s2">I was the one who stepped in first.</p>
+<p begin="00:11:14.667" end="00:11:16.333" style="s2">Hey, um...</p>
+<p begin="00:11:16.333" end="00:11:17.833" style="s2">Can I ask you one favor?</p>
+<p begin="00:11:18.000" end="00:11:19.000" style="s2">What is it?</p>
+<p begin="00:11:19.958" end="00:11:21.625" style="s2">Can you tell me your name now?</p>
+<p begin="00:11:23.875" end="00:11:25.958" style="s2">That’s what you’re curious about right now?</p>
+<p begin="00:11:31.917" end="00:11:33.292" style="s2">Jaei~</p>
+<p begin="00:11:36.417" end="00:11:37.458" style="s2">Here, drink this.</p>
+<p begin="00:11:46.417" end="00:11:48.583" style="s2">You don’t have to give me a ride.</p>
+<p begin="00:11:48.583" end="00:11:50.250" style="s2">You’re busy.</p>
+<p begin="00:11:51.167" end="00:11:53.500" style="s2">What if they drag you away again?</p>
+<p begin="00:11:53.625" end="00:11:56.125" style="s2">Thanks to you, they don’t come near me anymore.</p>
+<p begin="00:12:03.417" end="00:12:05.833" style="s2">Why do you try so hard when you’re not even good at studying?</p>
+<p begin="00:12:06.917" end="00:12:08.125" style="s2">I may not be good at it,</p>
+<p begin="00:12:08.125" end="00:12:09.792" style="s2">but trying hard at something feels good.</p>
+<p begin="00:12:10.458" end="00:12:12.458" style="s2">Thanks for the ride. Drive safely.</p>
+<p begin="00:12:42.500" end="00:12:43.625" style="s2">Jaei~~</p>
+<p begin="00:12:44.750" end="00:12:46.292" style="s2">Hey, Yoon Jaei~~</p>
+<p begin="00:12:49.958" end="00:12:51.958" style="s2">Hey, Yoon Jaei~~</p>
+<p begin="00:12:52.792" end="00:12:55.792" style="s2">Chapter 4. Yoon Jaei or CODENAME J</p>
+<p begin="00:13:00.792" end="00:13:01.708" style="s2">Enjoy your meal.</p>
+<p begin="00:13:01.708" end="00:13:02.625" style="s2">Thank you.</p>
+<p begin="00:13:04.500" end="00:13:05.833" style="s2">Sorry again,</p>
+<p begin="00:13:05.833" end="00:13:07.000" style="s2">little pig...</p>
+<p begin="00:13:18.125" end="00:13:19.750" style="s2">Hey, what’s wrong?</p>
+<p begin="00:13:19.750" end="00:13:20.833" style="s2">Is something going on?</p>
+<p begin="00:13:22.792" end="00:13:23.583" style="s2">No.</p>
+<p begin="00:13:26.500" end="00:13:27.875" style="s2">Oh right!</p>
+<p begin="00:13:27.875" end="00:13:31.875" style="s2">Earlier, outside your place, some old man asked me if I knew you.</p>
+<p begin="00:13:34.750" end="00:13:35.500" style="s2">Who?</p>
+<p begin="00:13:35.750" end="00:13:37.042" style="s2">Hmm...</p>
+<p begin="00:13:37.042" end="00:13:40.750" style="s2">He had white hair and was wearing a black suit?</p>
+<p begin="00:13:48.542" end="00:13:50.292" style="s2">Is he someone you know?</p>
+<p begin="00:13:51.708" end="00:13:52.917" style="s2">I don’t know...</p>
+<p begin="00:13:56.708" end="00:13:58.375" style="s2">Jaei, your birthday’s coming up.</p>
+<p begin="00:13:58.375" end="00:13:59.500" style="s2">What should we do for fun?</p>
+<p begin="00:14:02.208" end="00:14:03.542" style="s2">Not sure...</p>
+<p begin="00:14:03.542" end="00:14:05.083" style="s2">Is there anywhere you want to go?</p>
+<p begin="00:14:05.083" end="00:14:06.417" style="s2">Anything you want to eat?</p>
+<p begin="00:14:24.042" end="00:14:27.833" style="s2">This girl is the famous Codename J?</p>
+<p begin="00:14:28.417" end="00:14:29.250" style="s2">Yes, that’s correct.</p>
+<p begin="00:14:29.500" end="00:14:32.167" style="s2">So Baeg-Ya’s greatest secret weapon is</p>
+<p begin="00:14:32.167" end="00:14:33.917" style="s2">a young woman like this...</p>
+<p begin="00:14:34.292" end="00:14:37.417" style="s2">Cha Yura secretly adopted her when she was three and raised her.</p>
+<p begin="00:14:37.417" end="00:14:39.208" style="s2">Crazy woman.</p>
+<p begin="00:14:39.208" end="00:14:42.417" style="s2">I guess one miserable life wasn’t enough for her...</p>
+<p begin="00:14:50.500" end="00:14:52.250" style="s2">I missed this taste.</p>
+<p begin="00:14:59.375" end="00:15:00.750" style="s2">It’s been a long time,</p>
+<p begin="00:15:00.750" end="00:15:01.708" style="s2">Chairwoman Cha.</p>
+<p begin="00:15:07.125" end="00:15:11.500" style="s2">After ten years away from Korea,</p>
+<p begin="00:15:11.500" end="00:15:14.875" style="s2">I didn’t expect to find you eating somewhere this humble.</p>
+<p begin="00:15:17.333" end="00:15:19.000" style="s2">Let’s keep this brief.</p>
+<p begin="00:15:20.458" end="00:15:23.542" style="s2">Did your reunion with your daughter go well?</p>
+<p begin="00:15:26.125" end="00:15:27.167" style="s2">Thanks to you.</p>
+<p begin="00:15:30.208" end="00:15:32.583" style="s2">We owe Baeg-Ya quite a debt ourselves.</p>
+<p begin="00:15:33.542" end="00:15:35.042" style="s2">Don’t mention it.</p>
+<p begin="00:15:35.042" end="00:15:36.833" style="s2">We follow the money.</p>
+<p begin="00:15:37.208" end="00:15:40.042" style="s2">The people upstairs are concerned.</p>
+<p begin="00:15:40.042" end="00:15:43.292" style="s2">They are wondering why Baeg-Ya sent you here in person.</p>
+<p begin="00:15:44.042" end="00:15:46.917" style="s2">As you know, I came to see my daughter.</p>
+<p begin="00:15:47.583" end="00:15:49.417" style="s2">Of course.</p>
+<p begin="00:15:49.417" end="00:15:53.750" style="s2">Still, after ten years, we wondered if there was another reason.</p>
+<p begin="00:15:53.750" end="00:15:55.250" style="s2">No other reason.</p>
+<p begin="00:15:56.083" end="00:15:58.083" style="s2">I just wanted to see if the country that abandoned</p>
+<p begin="00:15:58.083" end="00:16:00.833" style="s2">me and my daughter was still the same.</p>
+<p begin="00:16:02.417" end="00:16:04.583" style="s2">Then I hope you enjoy your stay.</p>
+<p begin="00:16:04.583" end="00:16:07.167" style="s2">I’ll reassure the people upstairs.</p>
+<p begin="00:16:08.292" end="00:16:09.417" style="s2">I’ll be in touch soon.</p>
+<p begin="00:16:09.417" end="00:16:11.333" style="s2">There’s an important matter we should discuss.</p>
+<p begin="00:16:12.125" end="00:16:13.667" style="s2">Please do.</p>
+<p begin="00:16:18.458" end="00:16:20.250" style="s2">Still disgusting bastards.</p>
+<p begin="00:16:28.375" end="00:16:29.958" style="s2">Jaei, any birthday plans?</p>
+<p begin="00:16:29.958" end="00:16:31.458" style="s2">Hey, stop leaving me on read.</p>
+<p begin="00:16:31.458" end="00:16:33.042" style="s2">Busy? Fine, I’ll decide then...?</p>
+<p begin="00:16:43.625" end="00:16:45.917" style="s2">Jaei, when is your birthday?</p>
+<p begin="00:16:48.458" end="00:16:49.417" style="s2">I don’t know.</p>
+<p begin="00:16:49.542" end="00:16:50.583" style="s2">Huh?</p>
+<p begin="00:16:50.583" end="00:16:52.125" style="s2">Who doesn’t know their own birthday?</p>
+<p begin="00:16:52.375" end="00:16:54.417" style="s2">Hmph... you just don’t want to tell me, do you?</p>
+<p begin="00:16:57.958" end="00:16:59.792" style="s2">I don’t have one.</p>
+<p begin="00:17:02.375" end="00:17:03.000" style="s2">Oh...</p>
+<p begin="00:17:07.333" end="00:17:09.625" style="s2">Then... how about tomorrow becomes your birthday?</p>
+<p begin="00:17:10.583" end="00:17:12.083" style="s2">What are you talking about?</p>
+<p begin="00:17:12.083" end="00:17:13.125" style="s2">I don’t need that.</p>
+<p begin="00:17:14.875" end="00:17:16.208" style="s2">Come on~</p>
+<p begin="00:17:16.208" end="00:17:18.250" style="s2">I’ll celebrate it for you every year.</p>
+<p begin="00:17:18.500" end="00:17:19.833" style="s2">No. Why would you?</p>
+<p begin="00:17:20.875" end="00:17:23.583" style="s2">Because I’m going to be your friend forever.</p>
+<p begin="00:17:23.958" end="00:17:24.875" style="s2">What are you even saying?</p>
+<p begin="00:17:24.875" end="00:17:26.417" style="s2">Who said I’d be your friend forever?</p>
+<p begin="00:17:26.417" end="00:17:28.542" style="s2">Come on~ let’s just do it that way.</p>
+<p begin="00:17:28.542" end="00:17:30.583" style="s2">Get lost. I said no.</p>
+<p begin="00:17:40.792" end="00:17:43.000" style="s2">Keep your promise.</p>
+<p begin="00:17:43.000" end="00:17:44.125" style="s2">Don’t touch Hana.</p>
+<p begin="00:17:49.583" end="00:17:51.750" style="s2">Jaei, why can’t I reach you...?</p>
+<p begin="00:17:51.750" end="00:17:54.708" style="s2">I’m on my way to your place right now. I’ll call you when I get there...</p>
+<p begin="00:18:10.583" end="00:18:14.083" style="s2">This number is not in service.</p>
+<p begin="00:18:16.250" end="00:18:17.000" style="s2">Huh?</p>
+<p begin="00:18:29.583" end="00:18:32.625" style="s2">Jaei! Are you in there?</p>
+<p begin="00:18:33.667" end="00:18:35.667" style="s2">Jaei... Jaei!</p>
+<p begin="00:18:42.042" end="00:18:43.667" style="s2">Welcome back.</p>
+<p begin="00:18:43.917" end="00:18:45.792" style="s2">Let’s go home now.</p>
+<p begin="00:18:58.708" end="00:19:00.375" style="s2">Hey, Yoon Jaei...</p>
+<p begin="00:19:00.375" end="00:19:02.042" style="s2">Where did you go...?</p>
+<p begin="00:19:06.417" end="00:19:09.708" style="s2">Jaei, who suddenly appeared one day and became my only friend.</p>
+<p begin="00:19:11.125" end="00:19:13.917" style="s2">Sometimes I wanted to ask who you were and where you came from,</p>
+<p begin="00:19:13.917" end="00:19:15.833" style="s2">but I didn’t.</p>
+<p begin="00:19:17.292" end="00:19:19.625" style="s2">Because I was afraid you might leave me one day.</p>
+<p begin="00:19:22.833" end="00:19:24.708" style="s2">But one day,</p>
+<p begin="00:19:24.708" end="00:19:27.458" style="s2">My precious friend Jaei disappeared just like that.</p>
+</div>
+</body>
+</tt>

@@ -1,0 +1,54 @@
+{
+  "video_id": "wn4WwhxTebE",
+  "probe": {
+    "duration": 792.148753,
+    "size": 48552416,
+    "width": 640,
+    "height": 360,
+    "fps": "24/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\wn4WwhxTebE\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\wn4WwhxTebE\\contact_sheets\\contact_001.jpg"
+  ],
+  "seconds_indexed": 792,
+  "shot_count": 25,
+  "shot_length_mean_seconds": 31.68,
+  "shot_length_median_seconds": 14.0,
+  "shot_length_p90_seconds": 72.00000000000001,
+  "visual_motion_mean": 0.14434420164981948,
+  "visual_brightness_mean": 0.3812338225167207,
+  "dialogue_cues": 171,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 214.192,
+      "text": "well and I manage his audience and his"
+    },
+    "first_power_or_identity_language": {
+      "time": 44.6,
+      "text": "The live chat isn't liking this. Do"
+    },
+    "first_care_or_belonging_language": {
+      "time": 27.4,
+      "text": "It's okay, love. I'll handle this."
+    },
+    "dialogue_words_per_minute": [
+      124,
+      99,
+      81,
+      100,
+      52,
+      71,
+      65,
+      58,
+      41,
+      41,
+      40,
+      78,
+      77,
+      31
+    ],
+    "cue_count": 171
+  }
+}

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.000" end="00:00:03.000" style="s2">You&#39;re leaving?</p>
+<p begin="00:00:01.880" end="00:00:04.560" style="s2">&gt;&gt; I need time.</p>
+<p begin="00:00:03.000" end="00:00:07.600" style="s2">&gt;&gt; How much?</p>
+<p begin="00:00:04.560" end="00:00:07.600" style="s2">Are you coming back?</p>
+<p begin="00:00:08.400" end="00:00:12.680" style="s2">You promised me.</p>
+<p begin="00:00:10.240" end="00:00:14.880" style="s2">&gt;&gt; I&#39;m sorry.</p>
+<p begin="00:00:12.680" end="00:00:16.480" style="s2">&gt;&gt; Don&#39;t say sorry.</p>
+<p begin="00:00:14.880" end="00:00:18.160" style="s2">Just tell me the truth.</p>
+<p begin="00:00:16.480" end="00:00:18.960" style="s2">&gt;&gt; I don&#39;t know if I can live like this</p>
+<p begin="00:00:18.160" end="00:00:23.520" style="s2">anymore.</p>
+<p begin="00:00:18.960" end="00:00:23.520" style="s2">&gt;&gt; Elizabeth, please. Don&#39;t do this to me.</p>
+<p begin="00:00:26.855" end="00:00:28.875" style="s2">&gt;&gt; [music]</p>
+<p begin="00:00:56.160" end="00:01:02.440" style="s2">&gt;&gt; Good morning, Mr. Billionaire. [music]</p>
+<p begin="00:00:58.960" end="00:01:03.760" style="s2">&gt;&gt; Good morning, Mrs. Billionaire.</p>
+<p begin="00:01:02.440" end="00:01:04.845" style="s2">&gt;&gt; You know what I want?</p>
+<p begin="00:01:03.760" end="00:01:05.280" style="s2">&gt;&gt; Another car?</p>
+<p begin="00:01:04.845" end="00:01:07.480" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:01:05.280" end="00:01:10.480" style="s2">&gt;&gt; No.</p>
+<p begin="00:01:07.480" end="00:01:11.800" style="s2">I want you to cancel work today.</p>
+<p begin="00:01:10.480" end="00:01:13.680" style="s2">&gt;&gt; Cancel work?</p>
+<p begin="00:01:11.800" end="00:01:14.760" style="s2">&gt;&gt; Spend the entire day with your wife.</p>
+<p begin="00:01:13.680" end="00:01:15.520" style="s2">&gt;&gt; That sounds dangerous.</p>
+<p begin="00:01:14.760" end="00:01:17.200" style="s2">&gt;&gt; Why?</p>
+<p begin="00:01:15.520" end="00:01:18.800" style="s2">&gt;&gt; Because if I spend one day with you,</p>
+<p begin="00:01:17.200" end="00:01:20.400" style="s2">I&#39;ll never go to the office.</p>
+<p begin="00:01:18.800" end="00:01:21.680" style="s2">&gt;&gt; Sir, breakfast is ready.</p>
+<p begin="00:01:20.400" end="00:01:24.400" style="s2">&gt;&gt; Thank you, Amara.</p>
+<p begin="00:01:21.680" end="00:01:25.920" style="s2">&gt;&gt; Amara, you know my husband is completely</p>
+<p begin="00:01:24.400" end="00:01:27.115" style="s2">useless without me.</p>
+<p begin="00:01:25.920" end="00:01:29.135" style="s2">&gt;&gt; Yes, ma.</p>
+<p begin="00:01:27.115" end="00:01:29.135" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:01:31.045" end="00:01:33.760" style="s2">[gasps]</p>
+<p begin="00:01:31.600" end="00:01:34.760" style="s2">&gt;&gt; Michael, remember the vacation we talked</p>
+<p begin="00:01:33.760" end="00:01:35.400" style="s2">about?</p>
+<p begin="00:01:34.760" end="00:01:35.800" style="s2">&gt;&gt; Paris?</p>
+<p begin="00:01:35.400" end="00:01:36.720" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:01:35.800" end="00:01:37.600" style="s2">&gt;&gt; We&#39;ll go next month.</p>
+<p begin="00:01:36.720" end="00:01:39.480" style="s2">&gt;&gt; Promise?</p>
+<p begin="00:01:37.600" end="00:01:40.880" style="s2">&gt;&gt; I promise.</p>
+<p begin="00:01:39.480" end="00:01:42.040" style="s2">&gt;&gt; You know, sometimes I still can&#39;t</p>
+<p begin="00:01:40.880" end="00:01:42.920" style="s2">believe I married you.</p>
+<p begin="00:01:42.040" end="00:01:44.680" style="s2">&gt;&gt; Why?</p>
+<p begin="00:01:42.920" end="00:01:47.880" style="s2">&gt;&gt; Because everything changed after you</p>
+<p begin="00:01:44.680" end="00:01:47.880" style="s2">came into my life.</p>
+<p begin="00:01:47.920" end="00:01:51.680" style="s2">Honestly, it feels so unreal. I keep</p>
+<p begin="00:01:50.360" end="00:01:53.560" style="s2">falling in love with you.</p>
+<p begin="00:01:51.680" end="00:01:56.480" style="s2">&gt;&gt; I feel the same way, my love. And you</p>
+<p begin="00:01:53.560" end="00:01:56.480" style="s2">know I love you more.</p>
+<p begin="00:01:58.840" end="00:02:03.760" style="s2">I have to go.</p>
+<p begin="00:02:00.720" end="00:02:05.479" style="s2">&gt;&gt; Oh, not so soon. [music]</p>
+<p begin="00:02:03.760" end="00:02:08.440" style="s2">Be careful while driving, okay?</p>
+<p begin="00:02:05.479" end="00:02:08.440" style="s2">&gt;&gt; I will, my love.</p>
+<p begin="00:02:31.520" end="00:02:34.040" style="s2">Hello?</p>
+<p begin="00:02:32.720" end="00:02:35.840" style="s2">&gt;&gt; Where are you?</p>
+<p begin="00:02:34.040" end="00:02:38.000" style="s2">&gt;&gt; I&#39;m almost home.</p>
+<p begin="00:02:35.840" end="00:02:41.680" style="s2">&gt;&gt; I made dinner.</p>
+<p begin="00:02:38.000" end="00:02:41.680" style="s2">&gt;&gt; Then don&#39;t let anyone touch it.</p>
+<p begin="00:02:42.400" end="00:02:46.480" style="s2">&gt;&gt; Nobody is going to touch it, my love.</p>
+<p begin="00:02:48.200" end="00:02:50.840" style="s2">&gt;&gt; JESUS!</p>
+<p begin="00:03:03.000" end="00:03:09.760" style="s2">&gt;&gt; ELIZABETH?</p>
+<p begin="00:03:05.560" end="00:03:09.760" style="s2">&gt;&gt; MICHAEL, ARE you okay?</p>
+<p begin="00:03:09.840" end="00:03:15.600" style="s2">You&#39;re finally awake. You scared me.</p>
+<p begin="00:03:13.200" end="00:03:17.640" style="s2">Let me call the doctor.</p>
+<p begin="00:03:15.600" end="00:03:20.200" style="s2">&gt;&gt; Michael, can you hear me?</p>
+<p begin="00:03:17.640" end="00:03:20.200" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:03:21.160" end="00:03:24.840" style="s2">Why can&#39;t I move my legs?</p>
+<p begin="00:03:25.000" end="00:03:28.160" style="s2">&gt;&gt; Doctor,</p>
+<p begin="00:03:26.560" end="00:03:29.480" style="s2">the accident severely injured your</p>
+<p begin="00:03:28.160" end="00:03:30.400" style="s2">spinal cord.</p>
+<p begin="00:03:29.480" end="00:03:31.680" style="s2">&gt;&gt; What does that mean?</p>
+<p begin="00:03:30.400" end="00:03:32.760" style="s2">&gt;&gt; You may not be able to walk for some</p>
+<p begin="00:03:31.680" end="00:03:34.600" style="s2">time.</p>
+<p begin="00:03:32.760" end="00:03:36.800" style="s2">&gt;&gt; Some time?</p>
+<p begin="00:03:34.600" end="00:03:38.320" style="s2">Tell me I&#39;ll walk again.</p>
+<p begin="00:03:36.800" end="00:03:40.120" style="s2">&gt;&gt; You will.</p>
+<p begin="00:03:38.320" end="00:03:43.000" style="s2">&gt;&gt; Promise me.</p>
+<p begin="00:03:40.120" end="00:03:43.000" style="s2">&gt;&gt; I promise.</p>
+<p begin="00:03:57.767" end="00:03:59.840" style="s2">&gt;&gt; [music]</p>
+<p begin="00:03:58.080" end="00:04:02.120" style="s2">&gt;&gt; Good morning, sir.</p>
+<p begin="00:03:59.840" end="00:04:02.880" style="s2">I brought your breakfast.</p>
+<p begin="00:04:02.120" end="00:04:04.960" style="s2">&gt;&gt; Take it away.</p>
+<p begin="00:04:02.880" end="00:04:08.080" style="s2">&gt;&gt; Sir, you haven&#39;t eaten since yesterday.</p>
+<p begin="00:04:04.960" end="00:04:09.200" style="s2">&gt;&gt; I SAID, TAKE IT AWAY.</p>
+<p begin="00:04:08.080" end="00:04:10.560" style="s2">AMARA,</p>
+<p begin="00:04:09.200" end="00:04:12.600" style="s2">DO YOU KNOW WHAT IT FEELS like to wake</p>
+<p begin="00:04:10.560" end="00:04:16.120" style="s2">up every morning and realize you&#39;re</p>
+<p begin="00:04:12.600" end="00:04:16.120" style="s2">trapped inside your own body?</p>
+<p begin="00:04:16.920" end="00:04:21.680" style="s2">&gt;&gt; No, sir.</p>
+<p begin="00:04:18.640" end="00:04:21.680" style="s2">But I can stay.</p>
+<p begin="00:04:22.880" end="00:04:25.400" style="s2">&gt;&gt; Why?</p>
+<p begin="00:04:25.840" end="00:04:30.000" style="s2">&gt;&gt; Because you shouldn&#39;t have to suffer</p>
+<p begin="00:04:27.400" end="00:04:30.000" style="s2">alone.</p>
+<p begin="00:04:35.200" end="00:04:40.080" style="s2">&gt;&gt; Elizabeth,</p>
+<p begin="00:04:37.720" end="00:04:43.680" style="s2">come here.</p>
+<p begin="00:04:40.080" end="00:04:43.680" style="s2">I need help getting into bed.</p>
+<p begin="00:04:45.760" end="00:04:48.840" style="s2">&gt;&gt; Michael, I can&#39;t keep doing this every</p>
+<p begin="00:04:47.840" end="00:04:50.680" style="s2">night.</p>
+<p begin="00:04:48.840" end="00:04:52.480" style="s2">&gt;&gt; Doing what?</p>
+<p begin="00:04:50.680" end="00:04:53.960" style="s2">&gt;&gt; Everything.</p>
+<p begin="00:04:52.480" end="00:04:56.560" style="s2">&gt;&gt; Everything?</p>
+<p begin="00:04:53.960" end="00:04:58.280" style="s2">&gt;&gt; Taking care of you, helping [music] you,</p>
+<p begin="00:04:56.560" end="00:05:00.480" style="s2">watching you sit there every day.</p>
+<p begin="00:04:58.280" end="00:05:03.360" style="s2">&gt;&gt; I didn&#39;t choose this.</p>
+<p begin="00:05:00.480" end="00:05:03.360" style="s2">&gt;&gt; I know.</p>
+<p begin="00:05:03.680" end="00:05:08.919" style="s2">But I don&#39;t know how to live like this.</p>
+<p begin="00:05:06.200" end="00:05:11.880" style="s2">&gt;&gt; Like what?</p>
+<p begin="00:05:08.919" end="00:05:11.880" style="s2">&gt;&gt; Like a nurse.</p>
+<p begin="00:05:12.880" end="00:05:16.423" style="s2">&gt;&gt; You&#39;re my wife.</p>
+<p begin="00:05:14.403" end="00:05:16.423" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:05:22.040" end="00:05:27.558" style="s2">&gt;&gt; Elizabeth, aren&#39;t you eating with me?</p>
+<p begin="00:05:25.080" end="00:05:27.558" style="s2">&gt;&gt; I&#39;m not hungry. [music]</p>
+<p begin="00:05:44.880" end="00:05:47.600" style="s2">&gt;&gt; I I need help.</p>
+<p begin="00:05:46.720" end="00:05:51.200" style="s2">&gt;&gt; Sir,</p>
+<p begin="00:05:47.600" end="00:05:51.200" style="s2">&gt;&gt; I said I don&#39;t need help.</p>
+<p begin="00:05:53.600" end="00:05:58.640" style="s2">&gt;&gt; You should eat something.</p>
+<p begin="00:05:55.400" end="00:06:01.280" style="s2">Because tomorrow is still coming.</p>
+<p begin="00:05:58.640" end="00:06:05.120" style="s2">&gt;&gt; What if I don&#39;t want tomorrow?</p>
+<p begin="00:06:01.280" end="00:06:05.120" style="s2">&gt;&gt; Then I&#39;ll remind you why you should.</p>
+<p begin="00:06:12.080" end="00:06:15.560" style="s2">I don&#39;t know how much [music] longer I</p>
+<p begin="00:06:13.360" end="00:06:16.640" style="s2">can stay here. So, what do you intend</p>
+<p begin="00:06:15.560" end="00:06:18.840" style="s2">doing?</p>
+<p begin="00:06:16.640" end="00:06:20.560" style="s2">Funny how, but I can&#39;t spend the rest of</p>
+<p begin="00:06:18.840" end="00:06:23.480" style="s2">my life taking care of a man who may</p>
+<p begin="00:06:20.560" end="00:06:25.919" style="s2">never walk again.</p>
+<p begin="00:06:23.480" end="00:06:27.800" style="s2">Honestly, [music] I don&#39;t think I can do</p>
+<p begin="00:06:25.919" end="00:06:29.600" style="s2">this anymore.</p>
+<p begin="00:06:27.800" end="00:06:32.440" style="s2">Then do what makes you happy and</p>
+<p begin="00:06:29.600" end="00:06:32.440" style="s2">comfortable.</p>
+<p begin="00:06:32.880" end="00:06:37.040" style="s2">Michael, I&#39;m so sorry. I don&#39;t think I</p>
+<p begin="00:06:35.160" end="00:06:40.400" style="s2">can do this anymore. [music] I&#39;m so</p>
+<p begin="00:06:37.040" end="00:06:40.400" style="s2">tired of everything.</p>
+<p begin="00:06:47.414" end="00:06:49.434" style="s2">&gt;&gt; [crying and snorts]</p>
+<p begin="00:07:19.760" end="00:07:22.720" style="s2">&gt;&gt; You&#39;re leaving?</p>
+<p begin="00:07:21.600" end="00:07:24.280" style="s2">&gt;&gt; I need time.</p>
+<p begin="00:07:22.720" end="00:07:27.200" style="s2">&gt;&gt; How much?</p>
+<p begin="00:07:24.280" end="00:07:27.200" style="s2">Are you coming back?</p>
+<p begin="00:07:28.880" end="00:07:32.760" style="s2">You promised me.</p>
+<p begin="00:07:30.600" end="00:07:34.760" style="s2">&gt;&gt; I&#39;m sorry.</p>
+<p begin="00:07:32.760" end="00:07:36.680" style="s2">&gt;&gt; Don&#39;t say sorry.</p>
+<p begin="00:07:34.760" end="00:07:38.120" style="s2">Just tell me the truth.</p>
+<p begin="00:07:36.680" end="00:07:38.919" style="s2">&gt;&gt; I don&#39;t know if I can live like this</p>
+<p begin="00:07:38.120" end="00:07:43.200" style="s2">anymore.</p>
+<p begin="00:07:38.919" end="00:07:43.200" style="s2">&gt;&gt; Elizabeth, please. Don&#39;t do this to me.</p>
+<p begin="00:07:52.260" end="00:07:54.280" style="s2">&gt;&gt; [music]</p>
+<p begin="00:08:07.980" end="00:08:10.000" style="s2">[music]</p>
+<p begin="00:08:13.875" end="00:08:15.760" style="s2">[sighs]</p>
+<p begin="00:08:14.480" end="00:08:17.440" style="s2">&gt;&gt; Sir.</p>
+<p begin="00:08:15.760" end="00:08:19.040" style="s2">&gt;&gt; Get out.</p>
+<p begin="00:08:17.440" end="00:08:21.200" style="s2">&gt;&gt; You could hurt yourself.</p>
+<p begin="00:08:19.040" end="00:08:24.400" style="s2">&gt;&gt; Everyone leaves eventually.</p>
+<p begin="00:08:21.200" end="00:08:26.760" style="s2">Everyone. My wife left.</p>
+<p begin="00:08:24.400" end="00:08:28.919" style="s2">My friends stopped calling. My business</p>
+<p begin="00:08:26.760" end="00:08:30.800" style="s2">partners think I&#39;m finished.</p>
+<p begin="00:08:28.919" end="00:08:32.719" style="s2">&gt;&gt; And you will leave, too.</p>
+<p begin="00:08:30.800" end="00:08:35.599" style="s2">I&#39;m still here.</p>
+<p begin="00:08:32.719" end="00:08:35.599" style="s2">&gt;&gt; You&#39;re a maid.</p>
+<p begin="00:08:36.520" end="00:08:39.159" style="s2">Amara.</p>
+<p begin="00:08:39.320" end="00:08:43.440" style="s2">I&#39;m sorry.</p>
+<p begin="00:08:41.960" end="00:08:45.316" style="s2">I&#39;m really sorry.</p>
+<p begin="00:08:43.440" end="00:08:47.040" style="s2">&gt;&gt; You don&#39;t have to apologize for being in</p>
+<p begin="00:08:45.316" end="00:08:48.760" style="s2">[music] pain.</p>
+<p begin="00:08:47.040" end="00:08:52.320" style="s2">But don&#39;t let your pain turn you into</p>
+<p begin="00:08:48.760" end="00:08:52.320" style="s2">someone you don&#39;t recognize.</p>
+<p begin="00:09:05.621" end="00:09:07.641" style="s2">&gt;&gt; [music]</p>
+<p begin="00:09:09.320" end="00:09:10.640" style="s2">&gt;&gt; Mr. King,</p>
+<p begin="00:09:10.206" end="00:09:12.000" style="s2">&gt;&gt; [music]</p>
+<p begin="00:09:10.640" end="00:09:13.720" style="s2">&gt;&gt; when was the last time you looked at</p>
+<p begin="00:09:12.000" end="00:09:16.000" style="s2">something beautiful?</p>
+<p begin="00:09:13.720" end="00:09:18.280" style="s2">You don&#39;t have to talk to me, but please</p>
+<p begin="00:09:16.000" end="00:09:20.720" style="s2">don&#39;t [music] give up on yourself.</p>
+<p begin="00:09:18.280" end="00:09:23.280" style="s2">&gt;&gt; What is there left to fight for?</p>
+<p begin="00:09:20.720" end="00:09:24.680" style="s2">&gt;&gt; Of course, there are a lot of things</p>
+<p begin="00:09:23.280" end="00:09:26.720" style="s2">left for you to [music] fight for. You</p>
+<p begin="00:09:24.680" end="00:09:27.760" style="s2">don&#39;t have to give up so easily, Mr.</p>
+<p begin="00:09:26.720" end="00:09:31.160" style="s2">King.</p>
+<p begin="00:09:27.760" end="00:09:33.131" style="s2">You still have yourself to fight for.</p>
+<p begin="00:09:31.160" end="00:09:33.200" style="s2">You survived the accident.</p>
+<p begin="00:09:33.131" end="00:09:34.880" style="s2">&gt;&gt; [music]</p>
+<p begin="00:09:33.200" end="00:09:39.000" style="s2">&gt;&gt; You&#39;re still here.</p>
+<p begin="00:09:34.880" end="00:09:39.000" style="s2">That means your story isn&#39;t finished.</p>
+<p begin="00:09:39.560" end="00:09:43.280" style="s2">&gt;&gt; Sir, your food is ready.</p>
+<p begin="00:09:41.640" end="00:09:44.920" style="s2">&gt;&gt; I&#39;m not hungry, Amara.</p>
+<p begin="00:09:43.280" end="00:09:46.880" style="s2">&gt;&gt; But sir, you haven&#39;t taken anything</p>
+<p begin="00:09:44.920" end="00:09:48.560" style="s2">since morning.</p>
+<p begin="00:09:46.880" end="00:09:49.920" style="s2">You know, Mr. King, there was a day the</p>
+<p begin="00:09:48.560" end="00:09:50.880" style="s2">cook almost fought the blender.</p>
+<p begin="00:09:49.920" end="00:09:52.040" style="s2">&gt;&gt; The blender?</p>
+<p begin="00:09:50.880" end="00:09:54.720" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:09:52.040" end="00:09:57.120" style="s2">She said it was disrespecting her.</p>
+<p begin="00:09:54.720" end="00:09:58.400" style="s2">Mhm.</p>
+<p begin="00:09:57.120" end="00:09:59.280" style="s2">There.</p>
+<p begin="00:09:58.400" end="00:10:00.760" style="s2">&gt;&gt; What?</p>
+<p begin="00:09:59.280" end="00:10:01.560" style="s2">&gt;&gt; You smiled.</p>
+<p begin="00:10:00.760" end="00:10:04.200" style="s2">&gt;&gt; I did?</p>
+<p begin="00:10:01.560" end="00:10:04.200" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:10:08.501" end="00:10:10.522" style="s2">&gt;&gt; [music]</p>
+<p begin="00:10:29.960" end="00:10:32.440" style="s2">&gt;&gt; Amara.</p>
+<p begin="00:10:31.160" end="00:10:35.000" style="s2">&gt;&gt; Yes, sir.</p>
+<p begin="00:10:32.440" end="00:10:38.280" style="s2">&gt;&gt; Why are you still here?</p>
+<p begin="00:10:35.000" end="00:10:40.880" style="s2">&gt;&gt; Because this is my job.</p>
+<p begin="00:10:38.280" end="00:10:42.920" style="s2">&gt;&gt; No, that&#39;s not the reason.</p>
+<p begin="00:10:40.880" end="00:10:44.880" style="s2">Elizabeth left.</p>
+<p begin="00:10:42.920" end="00:10:46.760" style="s2">My friends stopped coming. [music]</p>
+<p begin="00:10:44.880" end="00:10:47.760" style="s2">Even people who used to call me every</p>
+<p begin="00:10:46.760" end="00:10:49.680" style="s2">day</p>
+<p begin="00:10:47.760" end="00:10:51.240" style="s2">disappeared.</p>
+<p begin="00:10:49.680" end="00:10:54.200" style="s2">But you stayed.</p>
+<p begin="00:10:51.240" end="00:10:55.920" style="s2">&gt;&gt; Someone had [music] to.</p>
+<p begin="00:10:54.200" end="00:10:58.880" style="s2">&gt;&gt; Thank you so much, Amara.</p>
+<p begin="00:10:55.920" end="00:11:00.520" style="s2">&gt;&gt; You don&#39;t have to thank me, sir.</p>
+<p begin="00:10:58.880" end="00:11:01.560" style="s2">You should rest, sir.</p>
+<p begin="00:11:00.520" end="00:11:05.320" style="s2">You&#39;re starting [music] your You&#39;re</p>
+<p begin="00:11:01.560" end="00:11:07.040" style="s2">starting your rehabilitation tomorrow.</p>
+<p begin="00:11:05.320" end="00:11:08.680" style="s2">I should take my leave [music] now, sir.</p>
+<p begin="00:11:07.040" end="00:11:11.200" style="s2">Call me when you need anything.</p>
+<p begin="00:11:08.680" end="00:11:11.200" style="s2">&gt;&gt; Okay.</p>
+<p begin="00:11:13.720" end="00:11:18.600" style="s2">&gt;&gt; Mr. Michael, I know you can do this.</p>
+<p begin="00:11:15.720" end="00:11:19.360" style="s2">Let&#39;s take it one step at a time.</p>
+<p begin="00:11:18.600" end="00:11:21.080" style="s2">Okay?</p>
+<p begin="00:11:19.360" end="00:11:22.920" style="s2">&gt;&gt; I will try my best.</p>
+<p begin="00:11:21.080" end="00:11:25.680" style="s2">&gt;&gt; All right, let&#39;s start. [music]</p>
+<p begin="00:11:22.920" end="00:11:25.680" style="s2">Again, Michael.</p>
+<p begin="00:11:29.000" end="00:11:29.960" style="s2">&gt;&gt; I can&#39;t.</p>
+<p begin="00:11:29.722" end="00:11:32.840" style="s2">&gt;&gt; [music]</p>
+<p begin="00:11:29.960" end="00:11:36.160" style="s2">&gt;&gt; Don&#39;t tell yourself that.</p>
+<p begin="00:11:32.840" end="00:11:36.160" style="s2">Don&#39;t tell yourself that.</p>
+<p begin="00:11:36.440" end="00:11:40.520" style="s2">&gt;&gt; Try again.</p>
+<p begin="00:11:38.160" end="00:11:43.600" style="s2">&gt;&gt; What if I fail?</p>
+<p begin="00:11:40.520" end="00:11:43.600" style="s2">&gt;&gt; Then we try [music] again.</p>
+<p begin="00:11:47.400" end="00:11:52.320" style="s2">&gt;&gt; Did you feel that?</p>
+<p begin="00:11:49.640" end="00:11:52.320" style="s2">Yes.</p>
+<p begin="00:11:53.160" end="00:11:56.440" style="s2">You are doing it, Michael.</p>
+<p begin="00:11:56.520" end="00:12:01.520" style="s2">&gt;&gt; I knew you could [music] do this.</p>
+<p begin="00:11:58.480" end="00:12:01.520" style="s2">&gt;&gt; I can walk again.</p>
+<p begin="00:12:05.920" end="00:12:08.240" style="s2">Mhm.</p>
+<p begin="00:12:10.560" end="00:12:15.160" style="s2">I don&#39;t know when it happened,</p>
+<p begin="00:12:13.760" end="00:12:17.640" style="s2">but somewhere between the days [music]</p>
+<p begin="00:12:15.160" end="00:12:19.400" style="s2">and days I wanted to give up</p>
+<p begin="00:12:17.640" end="00:12:21.920" style="s2">and the days she reminded me to keep</p>
+<p begin="00:12:19.400" end="00:12:21.920" style="s2">going,</p>
+<p begin="00:12:22.120" end="00:12:25.280" style="s2">I fell in love with her.</p>
+<p begin="00:12:28.120" end="00:12:30.800" style="s2">Amara.</p>
+<p begin="00:12:29.440" end="00:12:34.000" style="s2">&gt;&gt; Yes, sir.</p>
+<p begin="00:12:30.800" end="00:12:34.000" style="s2">&gt;&gt; I need to tell you something.</p>
+<p begin="00:12:36.320" end="00:12:40.320" style="s2">I don&#39;t know how to say it.</p>
+<p begin="00:12:38.000" end="00:12:41.200" style="s2">I love you, Amara.</p>
+<p begin="00:12:40.320" end="00:12:44.800" style="s2">&gt;&gt; Sir.</p>
+<p begin="00:12:41.200" end="00:12:44.800" style="s2">&gt;&gt; Please don&#39;t call me, sir, right now.</p>
+<p begin="00:12:45.720" end="00:12:47.800" style="s2">&gt;&gt; You&#39;re my employer.</p>
+<p begin="00:12:47.000" end="00:12:50.920" style="s2">&gt;&gt; I know.</p>
+<p begin="00:12:47.800" end="00:12:52.200" style="s2">&gt;&gt; And you were married.</p>
+<p begin="00:12:50.920" end="00:12:55.000" style="s2">&gt;&gt; I know.</p>
+<p begin="00:12:52.200" end="00:12:57.760" style="s2">&gt;&gt; This isn&#39;t right.</p>
+<p begin="00:12:55.000" end="00:12:57.760" style="s2">&gt;&gt; Maybe not.</p>
+<p begin="00:12:58.360" end="00:13:01.400" style="s2">But it&#39;s how I feel.</p>
+<p begin="00:13:20.160" end="00:13:24.200" style="s2">&gt;&gt; I said, &quot;What is going on here,</p>
+<p begin="00:13:21.640" end="00:13:24.200" style="s2">Michael?&quot;</p>
+<p begin="00:13:24.360" end="00:13:30.480" style="s2">&gt;&gt; And what are you doing here?</p>
+<p begin="00:13:27.600" end="00:13:33.400" style="s2">You left me when I needed you.</p>
+<p begin="00:13:30.480" end="00:13:34.920" style="s2">&gt;&gt; I couldn&#39;t handle watching you suffer.</p>
+<p begin="00:13:33.400" end="00:13:35.840" style="s2">And now you&#39;ve replaced me with the</p>
+<p begin="00:13:34.920" end="00:13:37.680" style="s2">maid?</p>
+<p begin="00:13:35.840" end="00:13:39.280" style="s2">&gt;&gt; Don&#39;t speak about her like [music] that.</p>
+<p begin="00:13:37.680" end="00:13:41.640" style="s2">&gt;&gt; Michael, she&#39;s a maid.</p>
+<p begin="00:13:39.280" end="00:13:43.640" style="s2">&gt;&gt; She was there for me</p>
+<p begin="00:13:41.640" end="00:13:45.160" style="s2">when everyone else left.</p>
+<p begin="00:13:43.640" end="00:13:46.000" style="s2">You left me without looking back. She</p>
+<p begin="00:13:45.160" end="00:13:47.480" style="s2">was there.</p>
+<p begin="00:13:46.000" end="00:13:49.880" style="s2">&gt;&gt; But Michael, I just couldn&#39;t watch</p>
+<p begin="00:13:47.480" end="00:13:52.960" style="s2">seeing you suffer.</p>
+<p begin="00:13:49.880" end="00:13:54.560" style="s2">&gt;&gt; Mrs. King, I never planned for this.</p>
+<p begin="00:13:52.960" end="00:13:56.760" style="s2">I stayed because he was alone.</p>
+<p begin="00:13:54.560" end="00:13:58.400" style="s2">&gt;&gt; And now you love him?</p>
+<p begin="00:13:56.760" end="00:14:00.520" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:13:58.400" end="00:14:01.640" style="s2">But I never wanted to take anything from</p>
+<p begin="00:14:00.520" end="00:14:03.520" style="s2">you.</p>
+<p begin="00:14:01.640" end="00:14:06.880" style="s2">I only wanted him to believe that his</p>
+<p begin="00:14:03.520" end="00:14:08.440" style="s2">life [music] was still worth living.</p>
+<p begin="00:14:06.880" end="00:14:09.880" style="s2">&gt;&gt; So Michael, you fell in love with her</p>
+<p begin="00:14:08.440" end="00:14:11.960" style="s2">the moment I left. [music]</p>
+<p begin="00:14:09.880" end="00:14:13.640" style="s2">&gt;&gt; Yes, I fell in love with her. She was</p>
+<p begin="00:14:11.960" end="00:14:15.280" style="s2">there for me, Elizabeth.</p>
+<p begin="00:14:13.640" end="00:14:16.749" style="s2">&gt;&gt; Michael, I still love you. I know I</p>
+<p begin="00:14:15.280" end="00:14:17.080" style="s2">messed up. I realized my mistake.</p>
+<p begin="00:14:16.749" end="00:14:19.160" style="s2">[music]</p>
+<p begin="00:14:17.080" end="00:14:19.960" style="s2">&gt;&gt; A mistake? You left me willingly,</p>
+<p begin="00:14:19.160" end="00:14:21.440" style="s2">Elizabeth.</p>
+<p begin="00:14:19.960" end="00:14:22.644" style="s2">&gt;&gt; But Michael, I&#39;m still your wife.</p>
+<p begin="00:14:21.440" end="00:14:24.664" style="s2">&gt;&gt; I said leave.</p>
+<p begin="00:14:22.644" end="00:14:24.664" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:14:31.720" end="00:14:36.280" style="s2">&gt;&gt; Let&#39;s try walking again today.</p>
+<p begin="00:14:33.800" end="00:14:36.280" style="s2">Okay.</p>
+<p begin="00:14:38.120" end="00:14:42.960" style="s2">Steady. Take it [music] slow.</p>
+<p begin="00:14:40.200" end="00:14:45.480" style="s2">My leg won&#39;t move, Doc. It takes time,</p>
+<p begin="00:14:42.960" end="00:14:45.480" style="s2">Michael.</p>
+<p begin="00:14:46.839" end="00:14:50.160" style="s2">You&#39;re doing well, Michael.</p>
+<p begin="00:14:50.360" end="00:14:55.400" style="s2">Your progress is better [music] than we</p>
+<p begin="00:14:51.839" end="00:14:58.160" style="s2">expected. So I&#39;ll walk?</p>
+<p begin="00:14:55.400" end="00:15:02.040" style="s2">I can&#39;t promise that.</p>
+<p begin="00:14:58.160" end="00:15:02.040" style="s2">You may never walk normally again.</p>
+<p begin="00:15:02.600" end="00:15:07.160" style="s2">&gt;&gt; Then we&#39;ll face whatever comes.</p>
+<p begin="00:15:05.640" end="00:15:08.839" style="s2">You&#39;re not alone, so you don&#39;t have to</p>
+<p begin="00:15:07.160" end="00:15:12.680" style="s2">be [music] sad.</p>
+<p begin="00:15:08.839" end="00:15:12.680" style="s2">&gt;&gt; Thank you so much, Amara.</p>
+<p begin="00:15:22.000" end="00:15:25.200" style="s2">&gt;&gt; I can&#39;t do this.</p>
+<p begin="00:15:43.400" end="00:15:47.920" style="s2">&gt;&gt; Amara, where are you going?</p>
+<p begin="00:15:45.520" end="00:15:49.680" style="s2">&gt;&gt; Somewhere I can remember who I am.</p>
+<p begin="00:15:47.920" end="00:15:51.880" style="s2">&gt;&gt; You know who you are.</p>
+<p begin="00:15:49.680" end="00:15:53.480" style="s2">&gt;&gt; No, Michael.</p>
+<p begin="00:15:51.880" end="00:15:54.480" style="s2">Everyone will say I stayed because I</p>
+<p begin="00:15:53.480" end="00:15:56.280" style="s2">wanted your money.</p>
+<p begin="00:15:54.480" end="00:15:58.040" style="s2">&gt;&gt; Let them talk.</p>
+<p begin="00:15:56.280" end="00:16:00.720" style="s2">&gt;&gt; I don&#39;t want to be the reason people</p>
+<p begin="00:15:58.040" end="00:16:03.800" style="s2">people laugh at you.</p>
+<p begin="00:16:00.720" end="00:16:05.320" style="s2">&gt;&gt; You&#39;re not. I want you to stay, please.</p>
+<p begin="00:16:03.800" end="00:16:06.800" style="s2">Amara, please.</p>
+<p begin="00:16:05.320" end="00:16:08.480" style="s2">&gt;&gt; It&#39;s not that I don&#39;t love you, but I</p>
+<p begin="00:16:06.800" end="00:16:10.400" style="s2">don&#39;t want people to see me and say I</p>
+<p begin="00:16:08.480" end="00:16:13.000" style="s2">stayed cuz of your money.</p>
+<p begin="00:16:10.400" end="00:16:14.720" style="s2">&gt;&gt; Then let them talk. I love you so much,</p>
+<p begin="00:16:13.000" end="00:16:15.560" style="s2">Amara. Please don&#39;t leave me like the</p>
+<p begin="00:16:14.720" end="00:16:17.480" style="s2">others did.</p>
+<p begin="00:16:15.560" end="00:16:18.760" style="s2">&gt;&gt; I love you, too, Michael. I&#39;m just</p>
+<p begin="00:16:17.480" end="00:16:20.480" style="s2">scared.</p>
+<p begin="00:16:18.760" end="00:16:22.160" style="s2">&gt;&gt; You don&#39;t have to be scared, Amara. I</p>
+<p begin="00:16:20.480" end="00:16:24.000" style="s2">want you, and there&#39;s nothing anybody</p>
+<p begin="00:16:22.160" end="00:16:25.680" style="s2">can do about it. [music] I don&#39;t want</p>
+<p begin="00:16:24.000" end="00:16:27.400" style="s2">you to leave my side for any reason, and</p>
+<p begin="00:16:25.680" end="00:16:29.360" style="s2">don&#39;t ever think of leaving me. Don&#39;t</p>
+<p begin="00:16:27.400" end="00:16:32.480" style="s2">scare me like this again. [music]</p>
+<p begin="00:16:29.360" end="00:16:35.440" style="s2">&gt;&gt; I promise I won&#39;t do it ever again. What</p>
+<p begin="00:16:32.480" end="00:16:36.960" style="s2">if Mrs. King comes back again?</p>
+<p begin="00:16:35.440" end="00:16:38.240" style="s2">&gt;&gt; Don&#39;t worry about that. I already filed</p>
+<p begin="00:16:36.960" end="00:16:39.080" style="s2">for a divorce. [music] My lawyer has</p>
+<p begin="00:16:38.240" end="00:16:40.560" style="s2">taken it to her.</p>
+<p begin="00:16:39.080" end="00:16:42.820" style="s2">&gt;&gt; So, it&#39;s just me and you now?</p>
+<p begin="00:16:40.560" end="00:16:44.240" style="s2">&gt;&gt; Yes, it&#39;s just me and you. Besides, she</p>
+<p begin="00:16:42.820" end="00:16:46.720" style="s2">[music] left me when I needed her the</p>
+<p begin="00:16:44.240" end="00:16:48.680" style="s2">most. She never loved me.</p>
+<p begin="00:16:46.720" end="00:16:50.676" style="s2">And one more thing, you&#39;re no longer my</p>
+<p begin="00:16:48.680" end="00:16:51.000" style="s2">maid, you&#39;re my woman.</p>
+<p begin="00:16:50.676" end="00:16:52.480" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:16:51.000" end="00:16:54.520" style="s2">&gt;&gt; That was what I came here to say to you</p>
+<p begin="00:16:52.480" end="00:16:56.880" style="s2">before I saw you packing your things. No</p>
+<p begin="00:16:54.520" end="00:16:59.160" style="s2">more uniform.</p>
+<p begin="00:16:56.880" end="00:17:02.120" style="s2">But you stood by me, you loved me</p>
+<p begin="00:16:59.160" end="00:17:02.120" style="s2">regardless.</p>
+<p begin="00:17:02.466" end="00:17:05.360" style="s2">&gt;&gt; [laughter]</p>
+<p begin="00:17:03.800" end="00:17:07.920" style="s2">&gt;&gt; Please don&#39;t wear that maid uniform</p>
+<p begin="00:17:05.360" end="00:17:07.920" style="s2">anymore.</p>
+<p begin="00:17:15.480" end="00:17:20.800" style="s2">&gt;&gt; Oh my god.</p>
+<p begin="00:17:17.439" end="00:17:20.800" style="s2">What is going on here?</p>
+<p begin="00:17:21.720" end="00:17:27.360" style="s2">&gt;&gt; Amara</p>
+<p begin="00:17:23.839" end="00:17:31.480" style="s2">You didn&#39;t stay because I was rich.</p>
+<p begin="00:17:27.360" end="00:17:31.480" style="s2">You stayed when I had nothing to give.</p>
+<p begin="00:17:33.000" end="00:17:36.000" style="s2">&gt;&gt; Michael, what are you doing?</p>
+<p begin="00:17:34.360" end="00:17:36.920" style="s2">&gt;&gt; I want to spend the rest of my life with</p>
+<p begin="00:17:36.000" end="00:17:38.492" style="s2">you.</p>
+<p begin="00:17:36.920" end="00:17:39.640" style="s2">I want forever with you by my side.</p>
+<p begin="00:17:38.492" end="00:17:41.040" style="s2">[music]</p>
+<p begin="00:17:39.640" end="00:17:43.720" style="s2">&gt;&gt; Michael, you&#39;re joking, right?</p>
+<p begin="00:17:41.040" end="00:17:45.480" style="s2">&gt;&gt; I mean every word I say, Amara.</p>
+<p begin="00:17:43.720" end="00:17:47.400" style="s2">You stayed by my [music] side without</p>
+<p begin="00:17:45.480" end="00:17:49.760" style="s2">thinking twice.</p>
+<p begin="00:17:47.400" end="00:17:51.520" style="s2">You made me believe in myself.</p>
+<p begin="00:17:49.760" end="00:17:55.080" style="s2">Will you marry me, [music] Amara?</p>
+<p begin="00:17:51.520" end="00:17:55.080" style="s2">&gt;&gt; Yes, I will marry you.</p>
+<p begin="00:18:01.040" end="00:18:04.080" style="s2">&gt;&gt; Thank you for everything, Amara. I love</p>
+<p begin="00:18:03.240" end="00:18:07.480" style="s2">you so [music] much.</p>
+<p begin="00:18:04.080" end="00:18:07.480" style="s2">&gt;&gt; I love you more, Michael.</p>
+<p begin="00:18:46.600" end="00:18:52.080" style="s2">&gt;&gt; Ah, my wife. You look so beautiful, I</p>
+<p begin="00:18:48.960" end="00:18:55.440" style="s2">can&#39;t lie. I&#39;m so lucky.</p>
+<p begin="00:18:52.080" end="00:18:56.360" style="s2">Just take a look at you in that dress.</p>
+<p begin="00:18:55.440" end="00:18:58.000" style="s2">&gt;&gt; Thank you.</p>
+<p begin="00:18:56.360" end="00:18:58.760" style="s2">&gt;&gt; You look stunning.</p>
+<p begin="00:18:58.000" end="00:18:59.800" style="s2">&gt;&gt; Thank you.</p>
+<p begin="00:18:58.760" end="00:19:00.200" style="s2">&gt;&gt; Are you ready?</p>
+<p begin="00:18:59.800" end="00:19:02.680" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:19:00.200" end="00:19:04.400" style="s2">&gt;&gt; Now, let&#39;s do this.</p>
+<p begin="00:19:02.680" end="00:19:05.040" style="s2">Michael King, do you take Amara to be</p>
+<p begin="00:19:04.400" end="00:19:06.480" style="s2">your wife?</p>
+<p begin="00:19:05.040" end="00:19:08.080" style="s2">&gt;&gt; Yes, I do.</p>
+<p begin="00:19:06.480" end="00:19:08.760" style="s2">&gt;&gt; Amara, do you take Michael to be your</p>
+<p begin="00:19:08.080" end="00:19:11.320" style="s2">husband? [music]</p>
+<p begin="00:19:08.760" end="00:19:15.320" style="s2">&gt;&gt; Yes, I do.</p>
+<p begin="00:19:11.320" end="00:19:15.320" style="s2">&gt;&gt; You may now exchange rings.</p>
+<p begin="00:19:18.053" end="00:19:22.638" style="s2">&gt;&gt; [applause]</p>
+<p begin="00:19:18.640" end="00:19:24.658" style="s2">&gt;&gt; I now pronounce you husband and wife.</p>
+<p begin="00:19:22.638" end="00:19:24.658" style="s2">&gt;&gt; [music]</p>
+<p begin="00:19:27.600" end="00:19:31.600" style="s2">&gt;&gt; You&#39;re officially mine now.</p>
+<p begin="00:19:29.080" end="00:19:33.160" style="s2">&gt;&gt; Yes, [music] nothing can separate us.</p>
+<p begin="00:19:31.600" end="00:19:36.840" style="s2">&gt;&gt; I promise to always love you.</p>
+<p begin="00:19:33.160" end="00:19:36.840" style="s2">&gt;&gt; I love you, too. Always.</p>
+<p begin="00:19:43.320" end="00:19:46.440" style="s2">Honey, [music] the doctor will be here</p>
+<p begin="00:19:44.640" end="00:19:47.440" style="s2">soon. I called him already.</p>
+<p begin="00:19:46.440" end="00:19:49.240" style="s2">&gt;&gt; Thank you, honey.</p>
+<p begin="00:19:47.440" end="00:19:50.080" style="s2">&gt;&gt; I know you can do this. I believe in</p>
+<p begin="00:19:49.240" end="00:19:51.680" style="s2">you.</p>
+<p begin="00:19:50.080" end="00:19:54.160" style="s2">&gt;&gt; I love you.</p>
+<p begin="00:19:51.680" end="00:19:57.040" style="s2">I love you.</p>
+<p begin="00:19:54.160" end="00:19:58.800" style="s2">&gt;&gt; Take it steady, [music] Michael.</p>
+<p begin="00:19:57.040" end="00:20:01.993" style="s2">&gt;&gt; You&#39;re doing it, Michael.</p>
+<p begin="00:19:58.800" end="00:20:01.993" style="s2">&gt;&gt; There you go. Outstanding. [music]</p>
+<p begin="00:20:09.143" end="00:20:13.600" style="s2">&gt;&gt; [music]</p>
+<p begin="00:20:10.680" end="00:20:16.160" style="s2">&gt;&gt; You&#39;re doing it, Michael. I am so proud</p>
+<p begin="00:20:13.600" end="00:20:16.160" style="s2">of you.</p>
+<p begin="00:20:16.800" end="00:20:20.840" style="s2">Doctor, please, can he rest a little? He</p>
+<p begin="00:20:18.840" end="00:20:23.480" style="s2">has done enough [music] today.</p>
+<p begin="00:20:20.840" end="00:20:24.920" style="s2">&gt;&gt; Yes, sure. Mr. Michael, congratulations.</p>
+<p begin="00:20:23.480" end="00:20:27.720" style="s2">You&#39;re doing very well.</p>
+<p begin="00:20:24.920" end="00:20:27.720" style="s2">&gt;&gt; Thank you, Doctor.</p>
+<p begin="00:20:27.880" end="00:20:31.000" style="s2">Honey.</p>
+<p begin="00:20:29.000" end="00:20:33.080" style="s2">&gt;&gt; Yes?</p>
+<p begin="00:20:31.000" end="00:20:35.120" style="s2">&gt;&gt; I thought my life was over.</p>
+<p begin="00:20:33.080" end="00:20:35.920" style="s2">&gt;&gt; But it wasn&#39;t.</p>
+<p begin="00:20:35.120" end="00:20:37.760" style="s2">And</p>
+<p begin="00:20:35.920" end="00:20:40.240" style="s2">&gt;&gt; You were there</p>
+<p begin="00:20:37.760" end="00:20:42.680" style="s2">when everyone [music] left.</p>
+<p begin="00:20:40.240" end="00:20:43.640" style="s2">&gt;&gt; I would do it again without regretting</p>
+<p begin="00:20:42.680" end="00:20:47.000" style="s2">it.</p>
+<p begin="00:20:43.640" end="00:20:47.000" style="s2">&gt;&gt; It&#39;s you and I forever.</p>
+<p begin="00:20:50.400" end="00:20:54.339" style="s2">Sometimes, life doesn&#39;t show us who</p>
+<p begin="00:20:52.520" end="00:20:55.520" style="s2">truly loves us when everything is going</p>
+<p begin="00:20:54.339" end="00:20:58.280" style="s2">[music] right.</p>
+<p begin="00:20:55.520" end="00:21:01.080" style="s2">It shows us when everything falls apart.</p>
+<p begin="00:20:58.280" end="00:21:03.400" style="s2">Some people love you for what you have.</p>
+<p begin="00:21:01.080" end="00:21:05.280" style="s2">But the rarest love</p>
+<p begin="00:21:03.400" end="00:21:09.000" style="s2">is the love that stays when you have</p>
+<p begin="00:21:05.280" end="00:21:09.000" style="s2">nothing left to left to give.</p>
+<p begin="00:21:22.504" end="00:21:24.524" style="s2">&gt;&gt; [music]</p>
+</div>
+</body>
+</tt>

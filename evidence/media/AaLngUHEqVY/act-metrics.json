@@ -1,0 +1,138 @@
+[
+  {
+    "start_min": 0,
+    "motion_mean": 0.1866,
+    "brightness_mean": 0.477,
+    "shot_boundaries_per_min": 3.3,
+    "dialogue_words_per_min": 112.8,
+    "audio_rms_mean": 0.0417
+  },
+  {
+    "start_min": 10,
+    "motion_mean": 0.1591,
+    "brightness_mean": 0.299,
+    "shot_boundaries_per_min": 2.4,
+    "dialogue_words_per_min": 125.0,
+    "audio_rms_mean": 0.0505
+  },
+  {
+    "start_min": 20,
+    "motion_mean": 0.1992,
+    "brightness_mean": 0.492,
+    "shot_boundaries_per_min": 1.6,
+    "dialogue_words_per_min": 138.4,
+    "audio_rms_mean": 0.0438
+  },
+  {
+    "start_min": 30,
+    "motion_mean": 0.1828,
+    "brightness_mean": 0.553,
+    "shot_boundaries_per_min": 2.6,
+    "dialogue_words_per_min": 135.5,
+    "audio_rms_mean": 0.0386
+  },
+  {
+    "start_min": 40,
+    "motion_mean": 0.1797,
+    "brightness_mean": 0.469,
+    "shot_boundaries_per_min": 2.1,
+    "dialogue_words_per_min": 115.8,
+    "audio_rms_mean": 0.0407
+  },
+  {
+    "start_min": 50,
+    "motion_mean": 0.159,
+    "brightness_mean": 0.461,
+    "shot_boundaries_per_min": 1.6,
+    "dialogue_words_per_min": 123.4,
+    "audio_rms_mean": 0.0436
+  },
+  {
+    "start_min": 60,
+    "motion_mean": 0.1652,
+    "brightness_mean": 0.409,
+    "shot_boundaries_per_min": 2.8,
+    "dialogue_words_per_min": 140.1,
+    "audio_rms_mean": 0.0346
+  },
+  {
+    "start_min": 70,
+    "motion_mean": 0.2096,
+    "brightness_mean": 0.464,
+    "shot_boundaries_per_min": 2.6,
+    "dialogue_words_per_min": 132.0,
+    "audio_rms_mean": 0.0463
+  },
+  {
+    "start_min": 80,
+    "motion_mean": 0.1436,
+    "brightness_mean": 0.4,
+    "shot_boundaries_per_min": 1.2,
+    "dialogue_words_per_min": 121.6,
+    "audio_rms_mean": 0.066
+  },
+  {
+    "start_min": 90,
+    "motion_mean": 0.1508,
+    "brightness_mean": 0.351,
+    "shot_boundaries_per_min": 1.4,
+    "dialogue_words_per_min": 142.4,
+    "audio_rms_mean": 0.079
+  },
+  {
+    "start_min": 100,
+    "motion_mean": 0.1767,
+    "brightness_mean": 0.359,
+    "shot_boundaries_per_min": 1.0,
+    "dialogue_words_per_min": 110.0,
+    "audio_rms_mean": 0.0821
+  },
+  {
+    "start_min": 110,
+    "motion_mean": 0.1601,
+    "brightness_mean": 0.396,
+    "shot_boundaries_per_min": 0.7,
+    "dialogue_words_per_min": 129.1,
+    "audio_rms_mean": 0.0604
+  },
+  {
+    "start_min": 120,
+    "motion_mean": 0.1738,
+    "brightness_mean": 0.362,
+    "shot_boundaries_per_min": 0.7,
+    "dialogue_words_per_min": 122.9,
+    "audio_rms_mean": 0.0814
+  },
+  {
+    "start_min": 130,
+    "motion_mean": 0.1749,
+    "brightness_mean": 0.537,
+    "shot_boundaries_per_min": 1.5,
+    "dialogue_words_per_min": 134.3,
+    "audio_rms_mean": 0.0708
+  },
+  {
+    "start_min": 140,
+    "motion_mean": 0.192,
+    "brightness_mean": 0.499,
+    "shot_boundaries_per_min": 1.7,
+    "dialogue_words_per_min": 126.7,
+    "audio_rms_mean": 0.0844
+  },
+  {
+    "start_min": 150,
+    "motion_mean": 0.189,
+    "brightness_mean": 0.41,
+    "shot_boundaries_per_min": 2.0,
+    "dialogue_words_per_min": 110.4,
+    "audio_rms_mean": 0.0758
+  },
+  {
+    "start_min": 160,
+    "motion_mean": 0.1567,
+    "brightness_mean": 0.467,
+    "shot_boundaries_per_min": 0.0,
+    "dialogue_words_per_min": 173.5,
+    "audio_rms_mean": 0.1199
+  }
+]

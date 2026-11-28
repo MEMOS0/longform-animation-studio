@@ -504,3 +504,277 @@ Read `knowledge/market/lioren-billionaire-scholarship-hidden-wealth-counterexamp
 Before greenlighting magical appraisal/object-memory fantasy, read `knowledge/market/drama-aura-whispering-relics-object-testimony-provenance-deep-dive.md`. The portable mechanism is limited object testimony, material/procedural verification, professional craft before power, object personhood/history, ownership/provenance interrogation, cultural restoration, exploitation risk, and chosen identity over blood/family/romantic absorption.
 
 Use the `object_testimony_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy Nia, the relic plot, object inventory, or thumbnail composition; extract the mechanism and build original stories.
+
+## 2026-11-27 hidden-mastery competence-cascade doctrine update
+
+Before greenlighting reborn/hidden-assassin, secret-prodigy, bullied-expert, or long-form hidden-mastery revenge stories, read `knowledge/market/jasmine-drama-reborn-assassin-competence-cascade-deep-dive.md`. The portable mechanism is not “secretly strong person slaps bullies.” It is intimate public violation + family/economic care anchor + early kinetic proof + distinct competence domains + institutional arena rotation + ethical loyalty testing + provenance/procedural accountability + ally support without ownership + identity/family/justice closure before any sequel mission hook.
+
+Use the `competence_cascade_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy Jasmine Drama's assassin-schoolgirl plot, exact arena sequence, dialogue, or thumbnail; extract the mechanism and build original stories. The romantic negative example is important: refusal-overriding sexual banter such as “you have no right to refuse” is a hard consent failure, not passion.
+
+## 2026-11-27 compressed wish-object creature-family doctrine update
+
+Before greenlighting short compressed wish/creature-family fantasy, read `knowledge/market/fableheart-hunters-mark-compressed-wish-creature-family-deep-dive.md`. The portable mechanism is not “child gets magical wish.” It is bodily belonging shame + physical constraint + ritual moral rule + protagonist-caused pursuit + vulnerable/personlike wish carrier + possession reframed as another's attachment + sacrifice before reward + adult blame repair + transformation that integrates identity.
+
+Use the `compressed_wish_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy THE HUNTER'S MARK 3, its mermaid family, creature design, dialogue, or thumbnail; extract the mechanism and build original stories.
+
+
+## 2026-11-27 taboo-family dramatic-irony doctrine update
+
+Before greenlighting forbidden-family, best-friend-parent, stepfamily, guardian-taboo, or age/power-asymmetric mafia/CEO romance, read `knowledge/market/dramashine-mafia-bestie-dad-taboo-irony-deep-dive.md`. The portable mechanism is not “sleeping with the wrong powerful man.” It is compounded relational impossibility in the opening + audience-superior knowledge + an active protective misdirector + rotating social arenas + public shame/class wound + power constrained by rules + protagonist freedom to reject truth + possessiveness treated as a repaired flaw + an ending that reclassifies family order.
+
+Use the `taboo_family_irony_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy DramaShine's exact mistaken-marriage plot, characters, dialogue, or thumbnail; extract the dramatic-irony mechanism and build original stories. Intoxicated/mistaken marriage, surveillance, possessive carrying, and jealousy control are anti-patterns unless explicitly bounded and repaired.
+
+
+## 2026-11-27 anti-fate chosen-bond re-choice doctrine update
+
+Before greenlighting fated-mate, soul-bond, supernatural arranged-match, destiny-system, or romantic re-choice fantasy, read `knowledge/market/lotus-crown-alpha-fated-mate-elf-king-deep-dive.md`. The portable mechanism is not “wronged woman gets a richer magical king.” It is public relational betrayal + concrete sacrificial care that sustains the betrayer's system + fate used as an entitlement excuse + protagonist refusal before any upgrade + a consent-preserving alternative bond proven through patient costly care + rejection of self-centered late repentance + layered forensic exposure + institutional loss of stolen title/resources + chosen-family/home closure.
+
+Use the `chosen_bond_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy Lotus Crown's werewolf/elf plot, exact potion mechanics, dialogue, characters, or thumbnail. Extract the epistemic contrast: coercive “destiny” avoids accountability; chosen devotion accepts refusal, cost, evidence, and consequences.
+
+## 2026-11-27 restitution-pact vision-irony doctrine update
+
+Before greenlighting supernatural sacrifice, sensory-cost, demon-pact, curse-rebound, bodily-extraction, or hidden-restitution melodrama, read `knowledge/market/mini-series-five-vampires-demon-pact-deep-dive.md`. The portable mechanism is not “blind heroine gets a vampire king.” It is explicit bodily sacrifice + conditional betrayal/restitution contract + beneficiaries' broken protection vow + restored perception hidden as dramatic irony + caretaker history inverted into blood/heart/resource entitlement + public forced-choice revelation + visible moral-ledger consequence + instrumental repentance rejected + alternative partner care before status + exit/consent before identity reward + mutual closure without forced forgiveness.
+
+Use the `restitution_pact_integrity` project-evaluation gate as a warning system, not a hit predictor. Do not copy Mini Series Drama's five-vampire/demon/false-saintess plot, exact eye-heart mechanics, dialogue, characters, or thumbnail. Extract the accountability mechanism and build original stories in a different domain.
+
+## 2026-11-27 maternal-professional sovereignty doctrine update
+
+Before generating coercive status romance involving pregnancy, heirs, secret wives, custody, medical proof, hidden royalty, or divorce/re-choice, read `knowledge/market/the-binge-bench-unwanted-wife-lycan-princess-deep-dive.md`. The reusable engine is vulnerable-dependent economic sacrifice → precise contract/custody control → protective pregnancy concealment with cost → independent professional proof → institutional/public evidence → named trust failure beyond the rival → material male sacrifice and release of control → informed re-choice preserving craft and sovereignty. Use `maternal_sovereignty_integrity` as a warning system, not a hit predictor. Do not copy the literal werewolf/Lycan plot, Olivia/Jeremy/Amber arrangement, sacred stones, or exact pregnancy storyline.
+
+## 2026-11-27 protective-kinship instrumental-marriage doctrine update
+
+Before generating stepmother/guardian, falsely monstrous caregiver, neglected-heir, domestic-governance, instrumental-marriage, or child-power-as-property fantasy melodrama, read `knowledge/market/mythora-viper-bride-protective-kinship-deep-dive.md`. The reusable engine is false monster reputation grounded in abuse resistance → materially visible child neglect → reporting/protection structure → child agency training rather than only rescue → household/treasury competence → family rhetoric tested against material care → procedural audit/consequence → named instrumental-marriage betrayal → material autonomy and truth before intimacy → consent-preserving re-choice → child power belonging to the child → rejection of exploitative blood family → durable chosen-family domestic closure.
+
+Use `protective_kinship_integrity` as a warning system, not a hit predictor. Do not copy the literal viper/dragon plot, Sarah/Caelan/Mila/Liora, Blackkeep, healing flame, or exact wedding/trial sequence; translate the mechanism into original institutions, economies, and family structures.
+
+## 2026-11-27 constructive-restoration sci-fi doctrine update
+
+Before generating mechanic, salvage, robot, starship, postwar-repair, hidden-infrastructure, or technical-wonder science fiction, read `knowledge/market/nexora-mechanic-constructive-scifi-deep-dive.md`. The reusable engine is nontransactional shelter/care before lore → small-object to machine/vehicle to infrastructure/ship repair ladder → learner performs hands-on work under mentorship → skill becomes paid independence → belonging as operational crew capacity → war/extraction answered through restitution → weapons repurposed into care/work infrastructure → wealth converted into tools/parts/production capacity → wonder becoming usable infrastructure → childlike robot/apprentice completing the mentorship cycle → finale proving capability through diagnostics, tests, and launch systems.
+
+Use `constructive_restoration_integrity` as a creative warning system, not a hit predictor. Do not copy Kyra/Rain/Little/Ultra, Anunnaki lore, Nexus, the exact ship-restoration plot, or the thumbnail composition; translate the mechanism into original worlds, economies, and crew structures. Also review continuity/repetition manually: the source has a `TWO YEARS LATER` versus ten-years dialogue conflict, repetitive montage, unresolved corporate hunters, and a low-external-conflict final movement.
+
+## 2026-11-27 dual-incognito workplace accountability doctrine update
+
+Before generating contemporary workplace/institutional melodrama involving hidden owners, secret wealth, deposed executives, undercover authority, hotel/company labor, payroll corruption, employee fear, or class/status inversion, read `knowledge/market/cineai-grand-crescent-dual-incognito-workplace-deep-dive.md`. The reusable engine is hidden authority entering the same labor it must understand → stripped protagonist proving respect/competence through ordinary work → anti-humiliation before intimacy → repeated material community care → procedural multi-source evidence → concealment named as information-asymmetry consent debt → time/choice without demanded forgiveness → merit-independent professional restoration → harm converted into transparent worker-protection infrastructure → explicit shared truth rule.
+
+Use `dual_incognito_workplace_integrity` as a creative warning system, not a hit predictor. Do not copy Sophia/Adrian/Victor, Grand Crescent, hotel shell-vendor mechanics, exact dialogue, or the dual-state thumbnail composition; translate the mechanism into original institutions, labor systems, evidence chains, and romances. Treat the low-performing Thanksgiving inheritance film as a counterexample against overfitting: low views did not mean weak dialogue or craft.
+
+## 2026-11-27 reciprocal-incognito contract doctrine update
+
+Before generating contract-marriage, hidden-billionaire, female-CEO, class-test, or wealth-versus-unconditional-love melodrama, read `knowledge/market/hushfall-reciprocal-incognito-contract-deep-dive.md`. The reusable addition is reciprocal class epistemology: both leads need to know whether love survives without institutional wealth; the reveal should become mutual recognition of symmetric epistemic wounds, not a one-sided billionaire reward. Do not copy Audrey/Lucas, Whitfield/Iron Crest, the $100k/month contract, plane/laptop objects, exact dialogue, or gala/founder-chair arrangement.
+
+## 2026-11-27 creature-family/imported-knowledge counterexample update
+
+Before generating secret-child creature-family, fated-mate captivity, isekai healer, beast-world, or imported-modern-knowledge fantasy, read `knowledge/market/fated-crushloop-hit-low-comparison.md`. Key counterexamples: the low Fated secret-mermaid-child film is visually polished and structurally strong, so low views do not prove weak craft; the low CrushLoop dragon-captivity film is not merely less spectacular, it centers abduction/shame/rivalry while the hit centers Thea's clinical knowledge becoming communal survival infrastructure. Use this as a warning against mate-object captivity and as a positive doctrine: practical knowledge should transform food, healing, governance, or survival systems. Do not copy Arya/Eileen/Orion, Grace/Ava/the dragon king, Thea/Kane/Milo/Bruno, exact plots, dialogue, or thumbnails.
+
+## 2026-11-27 Hushfall short-form hit/low counterexample update
+
+Before generating contemporary underdog, mentorship, labor-dignity, confession, wrongful-conviction, chaplain, or restitution melodrama, read `knowledge/market/hushfall-shortform-hit-low-comparison.md`. The low-performing detective/chaplain film has strong moral dialogue; do not treat low views as weak writing. The hit basketball/janitor film compresses class humiliation → hidden practice → costly mentorship → visible competence proof → institutional selection → reciprocal care. For static confession/restitution premises, embody the moral mechanism through reopened cases, evidence, public correction, or victim-family procedural agency rather than relying only on chamber dialogue.
+## Scene-specific social-test dialogue scaffold
+
+Before writing noncreature class/status, craft-proof, public-shame, child-ally, or restitution melodrama dialogue, use `studio/social_dialogue.py` through generated scenes rather than the retired generic line templates. The scaffold supplies four-turn opposition exchanges with pressure, witness/care objection, embodied protagonist decision, and material proof/cost. Treat it as a professional first-pass structure, not finished screenplay prose: personalize voice, avoid copying reference dialogue, and let objects, seating, doors, ledgers, labor rhythm, and witnesses carry meaning. Validate with `evaluate_scenes_dialogue`; an empty `spoken_exchange` is incomplete for generated social-test scenes.
+
+
+## Adversarial co-parent incognito doctrine
+
+Use `knowledge/market/celine-drama-adversarial-coparent-hit-low-comparison.md` before writing any romance/family story where both partners hide adversarial institutional identities behind ordinary work. The mechanism is not simply “mafia plus FBI”: children or dependents may catalyze the meeting, but adults must explicitly own consent, marriage, conflict, and repair. Build material care before status revelation; name concealment as epistemic consent debt; make post-reveal trust procedural through multi-source evidence and joint behavior; prevent children from carrying adult secrets; end with an informed adult re-choice that preserves institutional accountability. Validate applicable architectures with `adversarial_coparent_integrity` through the production evaluation. Treat the low assassin comparator as a counterweight: kinetic openings, hidden identities, attractive leads, and polish are insufficient when genre threads diffuse the relational center or the ending resolves organizations instead of intimacy and consent.
+
+## Evidentiary withdrawal rebirth doctrine
+
+Use `knowledge/market/neodrama-evidentiary-withdrawal-hit-low-comparison.md` for rebirth/second-chance stories where the original wound is manipulated information inside a consent or shared-space conflict. Do not reduce the mechanism to revenge: the protagonist withdraws strategically while explicitly refusing consent, states a principled boundary, builds multi-source material/witness/institutional evidence, lets antagonists self-expose, converts rebirth knowledge into preparedness, refuses obligatory rescue or forgiveness, and closes with autonomy infrastructure such as control over access, housing, work, and safety. Validate applicable stories with `evidentiary_withdrawal_integrity`. Treat the fantasy wolf low comparator as a counterweight: polished production, labor romance, and rebirth stakes can still underperform in a channel/context mismatch or with compilation/dubbing continuity barriers; never encode low views as proof of weak writing.
+
+## Concealed-labor romance power repair doctrine
+
+Use `knowledge/market/starkiss-concealed-labor-romance-hit-low-comparison.md` before inventing assistant/maid/apprentice/crew romances. The transferable hit mechanism is not “billionaire falls for maid”; it is economic necessity entering exclusionary labor, concealment with bodily/privacy cost, the employer learning that labor is not ownership, consent pressure being named and repaired, care through labor/time before wealth, and an ending that separates romance from employment/debt. Evaluate with `studio/labor_romance_power_balance_integrity.py`. Do not infer causality from the polished hidden-CEO low comparator: its observational warning is betrayal-humiliation repetition plus delayed status reversal, not proof that low views mean weak writing.
+
+## Inverse self-estimated mastery doctrine
+
+Use `knowledge/market/zephyr-dragonveil-fresh-fantasy-breakout-comparison.md` for hidden-mastery academy/fantasy competence stories. The Zephyr hit mechanism is not generic hidden power: the protagonist's own self-estimate is inverted by her upbringing, her dream is healing/protection rather than domination, institutions reveal hypocrisy through measurable trials and rule changes, spectacle protects community, and the ending chooses autonomy/care over conferred status. The low comparator is polished and must not be treated as weak-writing proof; its observable warning is diffuse authority-authentication and arranged-marriage consent thinness. Existing competence-cascade validators remain the first machine gate; this doctrine guides their interpretation.
+
+## Near-wordless creature-care myth doctrine
+
+Dragonveil reinforces that horizontal cinematic creature stories can work through visual care/growth/ordinary contact without exposed dialogue. Preserve the small-vulnerable-life care spine through battle escalation; war machinery and creature scale do not substitute for relational clarity.
+
+## Cozy disaster-shelter doctrine
+
+Use `knowledge/market/ghibli-cozy-disaster-shelter-hit-low-comparison.md` before writing animated family/community disaster-survival stories. The mechanism is not simply “storm plus cozy shelter”: establish ordinary labor and a specific household before catastrophe, transform a meaningful place into shelter, sustain inside/outside warmth-danger contrast, inventory scarce food/water/materials, make preparation pay off, spend a meaningful object in sacrifice, interrupt threat with meals/sleep/animal care, let children/animals participate appropriately, and end in rebuilding/restored connection. Validate applicable stories with `cozy_disaster_shelter_integrity`. Treat the Sahara low comparator as a strong counterexample rather than weak-writing proof: it has excellent copper-object economy and reciprocal closure, so low discovery may reflect packaging/specificity/distribution rather than poor craft.
+
+## Capability-inversion care romance doctrine
+
+Evidence: `knowledge/market/vistaverse-capability-inversion-care-hit-low-comparison.md`; validator: `capability_inversion_care_integrity`.
+
+When a stigmatized physical capability becomes care/protection labor for a disabled, ill, or injured powerful person, make the capability costly before it becomes economically valuable. Revalue it through protection or care labor rather than domination. Care must restore agency: the disabled/injured person chooses, practices, uses tools, works, cooks, plans, negotiates, and may refuse care. Do not equate emotional healing with erasing disability. The caregiver must retain independent labor dignity (farm, craft, shop, family, clean earnings) outside the wealthy or powerful person. Job completion should force romantic re-choice: employment, gratitude, dependency, and love must be distinguished. Because care/employment/alcohol/payment/protective power distort consent, name pressure and preserve refusal. Endings preserve livelihood and choice.
+
+Counterweight: the VistaVerse low comparator contains excellent agency-preserving disability dialogue and sustained wheelchair use. Do not flatten this doctrine into “the character must walk again.” The risk is focus dilution and unresolved consent/power texture, not non-recovery itself.
+
+## Relational-anchor serial cinema doctrine
+
+Evidence: `knowledge/market/moisten-codename-j-relational-serial-format-deep-dive.md`; validator: `serial_relational_anchor_integrity`.
+
+For serialized action/thriller storytelling, missions are not the emotional engine. Build a durable intimate anchor — friend, sister, chosen family, civilian, mentor, or lover — and make institutional betrayal concretely threaten that bond. Open chapters with relational consequence (return, disappearance, guilt, broken promise, estrangement), not only mission mechanics. Antagonists should weaponize attachment rather than merely attack the protagonist. Ordinary life needs concrete texture (food, school, work, birthdays, games, home), but operational or geopolitical exposition must carry immediate personal cost. Chapters may end unresolved if the ending is an active turn: abduction, revelation, betrayal, forced choice, or arrival of a hunter. Compilations need a relational throughline across opening, middle, and ending rather than simple episode concatenation.
+
+Counterweights: MoistenAI's low-long-tail Hana side story is emotionally strong despite weak discovery; low views do not prove weak writing. The hit chapter survived a two-minute sponsor opening, but that is evidence of franchise tolerance, not a recommendation to copy sponsor-first structure.
+
+### Child-oracle family mystery doctrine
+
+- Impossible child knowledge should first protect someone before it is explained or exchanged for family reward.
+- Adults must doubt, stigmatize, or institutionally endanger the child; belief that arrives too easily removes the social friction.
+- Identity should be proven procedurally through escalating evidence—records, witnesses, tests, sealed samples, payment trails—not a single declaration.
+- The child's power needs cost, instability, or rules, while the child retains ordinary appetites, fear, play, and attachment needs.
+- Antagonists should attack the child/evidence chain because the child's knowledge threatens hidden crimes.
+- The ending should test whether love remains when usefulness disappears: secure attachment replaces supernatural vigilance.
+- Counterexample discipline: Evening Star's early-low comparator has a strong child/DNA/time-travel opening, so low discovery is not proof of a weak opening or weak writing. Avoid overloading child-oracle stories with corporate exposition that does not threaten the child-family bond.
+
+### Contract/deception romance anti-overfit doctrine (Seven Clover)
+
+Do not treat fake marriage/fake pregnancy as inherently successful or failed. Make deception economically motivated and professionally bounded; keep consent problems explicit; prove identity procedurally; and test whether the powerful partner weaponizes business/family leverage after rejection. The decisive romantic proof is non-retaliation when refused, not wealth or possession. Same-channel counterexample: a low-discovery fake-amnesia revenge film can still have a strong betrayal opening, consent-aware new partner, procedural evidence, and coherent closure. Therefore diagnose packaging/novelty/central-game differentiation separately from screenplay quality.
+
+### Wound-price dark-fantasy revenge doctrine (Veylora)
+
+For dark-fantasy revenge, do not begin with lore, kingdoms, or monster spectacle. Convert an intimate wound into a portable behavior or object; let care/training cost time and penance; establish a protective rule the hero will violate; make the antagonist weaponize the original wound; price supernatural power irreversibly; then bring the opening behavior back in the climax as identity. The ending must pay the price and close grief rather than reset into coronation or costless victory. Veylora counterexamples: a polished powerless-human fantasy and an intelligent ensemble survival film can still underperform discovery-wise, so do not treat polish, action, or conceptual inversion as sufficient.
+
+
+## HUACE bonded-machine pilot doctrine (2026-11-28)
+
+For mecha/robot/AI science fiction, do not open with hardware spectacle alone. HUACE evidence supports: ordinary economic identity before selection, mutual/chosen machine compatibility, embodied failure-based training, an active civilian/familial anchor, vulnerable machine agency, institutional property/weapon framing, shared physical cost, cooperation-based climax, and identity beyond utility. For long compilations, separate units can work if each has a complete relational arc and the package preserves one thematic object; do not concatenate unrelated genre worlds merely to reach runtime. A climax excerpt without setup is not a valid standalone narrative because the emotional payoff depends on accumulated care/coercion evidence.
+
+
+## ElowenTale self-selected athlete romance doctrine (2026-11-28)
+
+Before writing sports, dance, music, esports, martial-arts, or scored-performance romance, read `knowledge/market/elowentale-self-selected-athlete-romance-hit-medium-low-comparison.md` and validate with `self_selected_athlete_romance_integrity`. The mechanism is not simply “sports plus romance”: public humiliation must become immediate boundary behavior, romantic choice must never be a trophy/bet, competence must be procedural and visible, sabotage/injury must carry institutional and medical consequences, ambition must survive romance, partner support must not become control, rival apology must not erase reports/consequences, the climax should be visible scored skill, and the ending should choose self before partnership. The low comparator is dense and polished; treat it as anti-overfit evidence, not weak-writing proof.
+
+## Vintage Verse cursed-touch cure doctrine
+
+When romance develops around a dangerous magical touch/curse, do not treat the cure person as a walking solution. Give the curse rules/cost/deadline, give the cure person independent family/economic/identity stakes, pace intimacy through explicit readiness/consent, make control procedural (breath, pressure, medicine, verification, repeated practice), let antagonists weaponize the curse or rumors, force the instrumental “you used me as a cure” objection into the open, prove love when utility is questioned, and end in autonomous shared life beyond curse removal. Vintage Verse hit `p2TCUbkpxyQ` shows the strongest version: mother/medical desperation before dragon royalty, explicit wedding-night pacing, banquet competence, antagonist rumor sabotage, “using me to break your curse” objection, and family-road closure. Low counterexample `g_9Y9s1j3Qw` shows strong comic craft and independent studio closure despite low discovery; never treat low views as weak-writing proof.
+
+## Neural Pictures short-format compression doctrine
+
+For 15–30 minute standalone films, choose one dominant arena object and make every scene object serve it. Compressed social reversal can outperform creature spectacle when humiliation, public proof, visible skill, wager, and institutional consequence share one causal chain. Creature shorts should operate as ecological behavior chains (threat, helper species, webs, climbing, scavenging, tools), not random spectacle. Epic scale is risky in short runtime because lore, military hardware, multiple survivor groups, and cosmic stakes consume the compression budget before attachment forms. Low-performing polished spectacle is not weak-writing proof.
+
+## Crownrift episodic/compilation doctrine
+
+A mid-series episode must still close a local loop and re-objectivize its present stakes through action, not recap alone. Compilation packaging sells total closure (“full movie/war/invasion”) while numbered episodes sell continuation; do not treat concatenation as a compilation without a relational/thematic throughline. Journey episodes risk procedural drift if travel, directions, Oracle instructions, and landmarks consume the local objective. Late-episode low views are weak evidence when the upload is new.
+
+## Library swapped-child identity doctrine
+
+Swapped-child identity melodrama works when the swap steals a concrete class/luck future, supernatural blessing has a love/backfire rule, abuse is materially specific, identity has proof objects, the false child remains a child shaped by adults rather than innate evil, birth-family coercion becomes active blackmail, loving parents build no-secrets safety structures, truth is procedurally uncovered, antagonists face material consequences, and the ending restores secure ordinary belonging beyond rank. The full-film vs 3-minute episode comparison is also strong packaging evidence, but not CTR proof.
+
+## Smith BL power-autonomy doctrine
+
+BL power romance works when the desired man has independent craft/goals, power asymmetry is explicit leverage rather than decoration, rescue or payment never becomes ownership, omegaverse/supernatural bodily rules increase rather than reduce consent requirements, intimacy proceeds through micro-consent/refusal rights, care preserves anger and agency, truth/justice uses police/records/documents/procedure, romance is rechosen after leverage is questioned, and endings preserve future agency or explicit commitment terms. Smith low hockey film is a strong-craft counterexample: low discovery can coexist with polished thumbnails and strong consent architecture.
+
+## Xixi progression-system survival doctrine
+
+Progression-system survival works when system power answers a concrete social/survival injustice, one dominant progression object organizes the film, rules have quantified uses/resources/stamina/corruption/deadlines, water/food/shelter/medicine recur visibly, resources are fished/crafted/gathered/traded procedurally, cheat knowledge is bounded, rationing/leadership/loyalty/camp politics feed back into survival, power creates protection or community obligations, threats escalate through ecology/institutions, gendered coercion is treated as violation rather than romantic reward, and each phase closes a local resource/threat/alliance/quest loop before the next escalation hook. Xixi low comparator is a strong-craft counterexample: dense polished systems can underperform when cognitive load outpaces relational tracking.
+
+### Legendary Story House kin-protection power-reversal doctrine
+
+For stories where a hidden king/commander/warden/mage returns to protect family or chosen kin, do not reduce the engine to “powerful man rescues helpless relatives.” Build a concrete prior care debt, a material threat to home/body/livelihood, independent professional or moral competence inside the protected family, and reciprocal acts of protection. Hidden power should be publicly verified through objects and institutions (badge, ring, signet, pendant, uniform, card, kneeling officials, state backup), while violence remains bounded by innocence/control rules. Interleave immediate force with surveillance, evidence, audits, records, payment trails, or legal/institutional verification. End each arc by restoring a measure of safety, freedom, truth, or reconciliation before opening the next revenge hook. Treat quasi-familial sexualized/harem packaging as a high-risk attention device, not a default: if non-blood sibling-like characters are eroticized, make adult status, non-blood status, consent, and boundaries explicit rather than using incest ambiguity as bait. Low-discovery comparator `Gn8JTn7g2sI` is a strong-craft counterexample: dense audit/surveillance/veteran-reassembly procedure can still underperform, so never equate low views with weak writing.
+
+### Animal-communication zoo/institutional-revival doctrine
+
+When animal communication saves a zoo, wildlife park, sanctuary, aquarium, shelter, or animal business, treat the power as a translation and care technology rather than a minion cheat. Establish concrete institutional decline first (utilities, feed, vet bills, decaying infrastructure, closure, acquisition cost). Animal speech should expose specific needs, preferences, injuries, moods, vanity, fear, loneliness, performance refusal, or habitat requirements. Prove care competence before monetization: feeding, scratching, rescue, calming, medical/transport assessment, habitat adjustment, and safety protocols. Monetize procedurally through tickets, reservations, viral video, media planners, sponsorship, investment, contracts, visitor flow, pricing, and supply logistics. Keep animal refusal/autonomy explicit; a hit animal performer who does not want to practice must be allowed not to perform, even if visitors are disappointed. Use double-fencing, barriers, surveillance, visitor limits, no-bait rules, and welfare constraints whenever spectacle or sabotage escalates. Thumbnails should make communication/collaboration legible through listening poses, speech bubbles, sound waves, expressive animal ensembles, phone/livestream/viral iconography, or joyful selfie compositions; generic epic creature scale hides the mechanism.
+
+### Heart Secrets incognito moral-test doctrine
+
+Evidence: `knowledge/market/heart-secrets-incognito-moral-test-hit-medium-low-comparison.md`; validator: `incognito_moral_test_integrity`.
+
+When a powerful parent/owner/elder disguises themselves as a maid, cleaner, gateman, homeless stranger, clerk, or other low-status worker to test character, do not reduce the mechanism to “hidden rich person rewards kindness.” Establish a concrete status object or arena first; make the disguised power holder genuinely vulnerable; test conduct toward powerless people rather than romantic desirability; require active costly kindness before reward; give cruelty material consequences; ethically contest covert testing; reveal through procedure/evidence/witnesses; keep the moral-test engine dominant over corporate/legal/crime sprawl; and end by restoring independent dignity, livelihood, voice, and refusal rights. Heart Secrets' low motel comparator is a strong atmospheric/procedural film, so low discovery is not weak-writing proof. Thumbnails should make the status object and irreversible test action legible in one glance (soup on expensive gown, mop/shoe confrontation, eviction into rain); a generic rich/poor contrast without the object-action chain is weaker as a hypothesis, not CTR fact.
+
+### Tales By Amy age-gap autonomy doctrine
+
+Evidence: `knowledge/market/tales-by-amy-age-gap-autonomy-hit-medium-comparison.md`; validator: `age_gap_romance_autonomy_integrity`.
+
+Adult age-gap romance should never treat youth, wealth, grief, or family approval as consent substitutes. Make adulthood unambiguous; name financial/power asymmetry; give the younger partner independent work, refusal rights, and exit capacity; prove love through patience/respect/honesty/repair rather than wealth spectacle; let family opposition contain legitimate grief/protection as well as prejudice; resolve gold-digger or betrayal accusations procedurally; continue consent and communication after commitment; and preserve the younger partner's identity beyond public approval, pregnancy, or marriage. The channel's medium body-image film is a strong counterexample, so lower discovery is not weak-writing proof.
+
+## QueenDrama class-performance rebirth doctrine
+
+Use `knowledge/market/queendrama-class-performance-rebirth-hit-medium-low-comparison.md` before designing rebirth stories where a protagonist stops performing wealth or class. The reusable mechanism is not “she becomes rich”; it is behavioral nonperformance that status-conscious observers misread as pedigree. Require prior-life material cost, visible everyday behavior change, audience-level dramatic irony that there is no secret dynasty, autonomous taste/boundaries/generosity as the source of the misreading, institutional access consequences, reciprocal repair of rival relationships, procedural opportunity gates, and an ending that protects ordinary selfhood and named work. Run `class_performance_misread_integrity` for this family. Do not treat low discovery as weak writing: QueenDrama’s low-performing invention-rebirth counterexample has strong consent, competence, records, and live-demonstration craft.
+
+## PrimeFate misplaced-family-loyalty doctrine
+
+Use `knowledge/market/primefate-misplaced-family-loyalty-hit-medium-low-comparison.md` for family-exile/rebirth stories. The reusable engine is not generic revenge: visible care/competence is rejected because a manipulative favorite exploits family credulity and information asymmetry. Require concrete favoritism acts, decisive walk-away/disowning, evidence/procedural/material exposure, exact family acknowledgement, and an ending with protection, chosen family, identity, repair, or moral choice beyond annihilation. Run `misplaced_family_loyalty_integrity`. PrimeFate's low-discovery occult film remains a polished counterexample; do not infer weak writing from low views.
+
+## Tempting Dramas deprioritized-spouse power-reversal doctrine
+
+Use `knowledge/market/tempting-deprioritized-spouse-power-reversal-hit-medium-low-comparison.md` for spouse-deprioritization mafia/romance stories. Require repeated/materially costly deprioritization, a rival with personal or structural leverage, a decisive behavioral boundary, reversal through competence/position/alliance, late regret that does not reopen access automatically, institutional consequences, and an ending of self-rule or chosen family. Run `deprioritized_spouse_power_reversal_integrity`. The low-discovery consigliere film is a strong counterexample; do not infer weak writing or packaging from low views.
+
+## NeoDrama AI shared-resource exploitation doctrine
+
+Use `knowledge/market/neodrama-shared-resource-exploitation-hit-medium-low-comparison.md` for roommate, neighbor, card, housing, elevator, food, or communal-resource exploitation stories. Require concrete material cost, repeated/systematic extraction, a protagonist who controls access or exits, deepfake-aware procedural evidence, legal/institutional consequences, and an ending that restores secure autonomy or reciprocal use rather than punishment alone. Run `shared_resource_exploitation_integrity`. The low-discovery card-theft film is a strong procedural counterexample; do not infer weak writing or packaging from low views.
+
+## Seven Clover strategic romantic deception doctrine
+
+Use `knowledge/market/sevenclover-strategic-romantic-deception-hit-medium-low-comparison.md` for fake pregnancy/marriage, professional sabotage, hidden identity, anti-matchmaking, or contract-romance stories. Require material motive and professional legibility, bounded deception, partner agency rather than gullibility, consent/uncertainty/trust, non-coercive response to rejection, procedural truth, and replacement of pretense with freely chosen commitment. Run `strategic_romantic_deception_integrity`. Low-discovery fake-amnesia revenge is a strong procedural counterexample; do not infer weak writing from low views.
+
+## Payback Stories retributive romance reversal doctrine
+
+Use `knowledge/market/paybackstories-retributive-romance-reversal-hit-medium-low-comparison.md` for betrayal revenge, rebirth escape, coercive spouse/fiancé, or replacement-romance stories. Require concrete coercive/material betrayal, logistical exit, evidence/institutional reversal, regret or sacrifice that does not purchase access, patient consensual replacement intimacy, freedom-centered ending, and no self-destruction as romantic justice. Run `retributive_romance_reversal_integrity`. Low-discovery `$100` tragedy is a strong counterexample; do not infer weak writing from low views.
+
+## Faith/meaning-system agency restoration doctrine (LESO, preliminary)
+
+Use this when a spiritual, religious, philosophical, ancestral, or ethical meaning system drives restoration. Do not let miracle replace action. The opening wound must be material (rent/food/work rejection/debt), belief must cost behavior or discipline, the turning point must instruct concrete same-day agency, the first opportunity must be countable/executable, success must scale through competence/operations/witnessed labor, social repair must acknowledge the wrong, and the ending must protect livelihood/dignity/community. Evidence: `knowledge/market/leso-faith-agency-restoration-hit-low-comparison.md`; validator: `meaning_system_agency_restoration_integrity`. Do not copy the literal Christian/Nigerian/food-business package; transpose the mechanism into the story's own meaning system.
+
+## Institutional vindication through caregiving evidence doctrine (Fantasy Empire)
+
+Use when an institution materially condemns the protagonist. Start with a concrete object/record/sentence/family separation; re-entry should come through useful care or professional competence, not only disguise. Attachment must be behaviorally earned; suspicion should be procedural; the protagonist must keep investigating and set autonomy boundaries so protection does not become another cage. Reversal requires documents/witnesses/preserved procedure plus institutional retraction/accountability/changed conduct. End by restoring name/family/agency before crown, romance, or spectacle. Evidence: `knowledge/market/fantasy-empire-institutional-vindication-hit-medium-low-comparison.md`; validator: `institutional_vindication_care_integrity`. Do not copy the literal jewel/palace/princess/tutor package.
+
+## Epistemic intimacy doctrine (Purple Grape thought-hearing)
+
+Use when a character can hear thoughts or an inner voice. Define rules/uncertainty early; exploit interior/exterior contradiction; make secret knowledge create suspicion, privacy risk, testing, and consequences; give the protagonist competence independent of the power; make care behavioral rather than merely overheard affection; address consent/disclosure; never frame love as capture/ownership; end with chosen proximity plus independent life or vocation. Evidence: `knowledge/market/purplegrape-epistemic-intimacy-hit-medium-low-comparison.md`; validator: `epistemic_intimacy_integrity`. Do not copy the literal mute CEO/nanny/system portal package.
+
+## Care-first incognito doctrine (Gracie/HeartTale)
+
+Use when romance begins through care/rescue of a stranger whose status is concealed. Establish material/moral urgency first; make the care act visible, costly, and pre-revelation; let identity revelation recontextualize the care through dramatic irony; repeat protagonist competence beyond rescue; test loyalty/agency actively; never let wealth, force, capture, or unilateral gifts substitute for consent/repair; dignify labor/community rather than only attaching the heroine to status; preserve independent vocation/family/life or freely chosen commitment in the ending. Evidence: `knowledge/market/gracie-care-first-incognito-hit-medium-low-comparison.md`; validator: `care_first_incognito_integrity`. Do not copy the train/Reaper/Nana-threat/wolf/plum-birthmark plot.
+
+## Bounded-magic livelihood restoration doctrine (Theatre of Dawn)
+
+Use when supernatural power restores livelihood, land, business, trade, or productive infrastructure. Bind magic to rules, scarcity, cost, or prohibitions; make precarity concrete; let magic create inputs rather than final wealth; keep labor/operations necessary; solve resource conflicts through rights/evidence/procedure; scale through quality/scarcity/reputation/alliances; benefit dependents/community; use institutional accountability; end by refusing infinite accumulation and proving stewardship or self-sufficiency. Evidence: `knowledge/market/theatre-dawn-bounded-magic-livelihood-hit-medium-low-comparison.md`; validator: `bounded_magic_livelihood_integrity`. Do not copy the literal genie farm/mute-child/robot/water-rights plot.
+
+## Dignified-labor craft vindication doctrine (Karma Keeps Score)
+
+Use when a worker is publicly humiliated for labor/class status. Make the wound a repeated spatial/social rule; let a child/dependent independently recognize dignity before the power holder; ground stakes in survival/care; give explicit boundaries against pity; convert craft lineage into active material/provenance evidence; make antagonists exploit the same prejudice; publicly correct the household order; end by transforming the humiliating space into freely chosen dignity, paid vocation, family repair, and redistributed staff dignity. Evidence: `knowledge/market/karma-dignified-labor-craft-vindication-deep-dive.md`; validator: `dignified_labor_craft_vindication_integrity`. Do not copy the literal maid/floor/emerald/goldsmith plot.
+
+## Compressed mythic quest doctrine (Moon Outlaw)
+
+Use for 10–30 minute fantasy quests or serialized pilots. Establish a concrete personal objective immediately; make companions complementary rather than interchangeable; use creature/environment obstacles to reveal world and character; tie spectacle to protection, cost, choice, or ideology; give lore objects moral/material cost; define the tonal contract for comedy/spectacle/genre mixture; close a micro-objective before any series hook; make continuation hooks specific rather than generic CTAs. Evidence: `knowledge/market/moon-outlaw-compressed-mythic-quest-hit-medium-low-comparison.md`; validator: `compressed_mythic_quest_integrity`. Anti-overfit: the low Ground Zero film is visually ambitious and opens with a strong missing-daughter hook, so weak visuals or weak openings do not explain its lower discovery.
+
+## Story Vault trauma-informed child-voice doctrine
+
+Use `knowledge/market/storyvault-trauma-informed-child-voice-hit-medium-low-comparison.md` before writing silent, grieving, selectively mute, or institutionally misread children. Care must be a repeatable sensory/cultural practice with history; children communicate before speech through laughter, objects, writing, spelling, gesture, and choice; adults must reject broken-child framing and learn to read rather than force speech. Powerful parents must move from delegation to practiced presence. Antagonism should have material custody/trust/debt authority, false evidence should be procedurally exposed, child-chosen communication should be pivotal, restitution must be material, and the ending should transform household/institutional culture. Run `trauma_informed_child_voice_integrity`.
+
+## EchoDrama appearance-capital transformation doctrine
+
+Use `knowledge/market/echodrama-appearance-capital-hit-medium-low-comparison.md` for hidden-beauty, makeover, scar, body-image, face-change, or appearance-status transformation stories. Stigma is the wound, not the whole engine; transformation needs practice/time/cost/rules; durable identity evidence must survive the new surface; the desired/powerful character must re-recognize rather than merely desire; evidence/law/witnesses expose truth; endings create reciprocal choice, communal recognition, or material justice. Packaging should sell hidden worth/recognition rather than body-shaming spectacle or incompatible genre signals. Run `appearance_capital_transformation_integrity`.
+
+## Drakenhart scale-bridge stewardship doctrine
+
+Use `knowledge/market/drakenhart-scale-bridge-hit-high-low-comparison.md` for tiny kingdoms, miniature civilizations, giant/human scale gaps, hidden ecological worlds, or explorer-microculture stories. Scale must create material ecological/social consequences; micro-civilizations need labor, infrastructure, rules, and defense; outsider expertise is limited and reciprocal; both worlds exchange objects/knowledge/practices; travel/power has scale-specific cost; return/stay choices are relational duty; endings rebuild shared infrastructure or ongoing stewardship. Run `scale_bridge_stewardship_integrity`.
+
+## Sienna coerced psychiatric-labeling doctrine
+
+Use `knowledge/market/sienna-coerced-psychiatric-labeling-hit-low-comparison.md` for false madness, psychiatric confinement, legal-capacity stripping, or institutional revenge stories. False diagnosis must publicly strip legal personhood for asset/control motives; coercion must be concrete; the protagonist asserts sanity/counsel; rescue uses procedure/counterpower; competence re-enters systems operationally; exposure uses documentary financial/legal evidence; endings reject abuser reconciliation and rebuild self-owned power. Never treat actual mental illness as violence, monstrosity, or comedy. Run `coerced_psychiatric_labeling_integrity`.
+
+## Evening Star precognitive-child kinship doctrine
+
+Use `knowledge/market/eveningstar-precognitive-child-kinship-deep-dive.md` when a child predicts death/injury while searching for family. Open with concrete preventable harm/countdown; give the child independent quest/vulnerability; bound power with cost/instability/loss; treat kinship as contested evidence rather than one lab result; corroborate through objects, provenance, records, witnesses, footage, payments, and timestamps; adults must protect without owning or exploiting the child; conspiracy needs material inheritance/control motives; resolution uses live evidence/police/procedural traces; endings restore ordinary childhood belonging after rejecting child-as-tool. Run `precognitive_child_kinship_integrity`.
+
+
+## Duplicate-upload distribution anti-overfit doctrine
+
+Use `knowledge/market/duplicate-upload-packaging-experiment-bAje-PRn.md` before inferring craft quality from views. The same visually matching film appears as a ~684k breakout and a 40-view upload under different titles/thumbnails/channels. This is confounded, not CTR proof, but it proves discovery and story quality are separable. For hidden-competence romance, packaging should make competence/institutional artifacts visible rather than relying on interchangeable luxury couple imagery.
+
+
+## Nightfall elder-remittance care doctrine
+
+Use `knowledge/market/nightfall-elder-remittance-care-hit-medium-low-comparison.md` before writing elder exploitation, remittance, guardianship, caregiver, dementia-capacity, or delegated-family-care stories. Money sent is not care received. Require exact support/material neglect contradiction, dignified elder competence/selfhood, material proxy control, sender complicity, unannounced witnessing, falsifiable medical/legal capacity attack, ordinary records/witnesses, elder self-testimony, revoked false authority, and ending care infrastructure based on consent/presence/community dignity. Run `elder_remittance_care_integrity`. The low ranch comparator is strong craft despite low/recent discovery.
+
+
+## Gilded Myth folk ecological reciprocity doctrine
+
+Use `knowledge/market/gilded-myth-folk-ecological-reciprocity-hit-low-comparison.md` before writing culturally grounded legends, ecological fantasy, communal land/water conflicts, healing-oath stories, or supernatural guardians. Require material cultural practice, supernatural ecological infrastructure, extraction/enclosure conflict, bounded human oath/mediation, visible cost of betrayal, ordinary evidence, community restoration, creature autonomy, and memory/seasonal continuity. Run `folk_ecological_reciprocity_integrity`. Treat *The Beast of Kanlaon* and *The Half-Orc* as anti-overfit evidence: low discovery does not mean weak writing.
+
+
+## Verse education-theft false-poverty doctrine
+
+Use `knowledge/market/verse-education-theft-false-poverty-hit-medium-low-comparison.md` before writing parental exploitation, false poverty, sibling favoritism, education theft, exam reversal, student-worker stories, or labor-dignity romance. Require immediate coercion/refusal, exact material economics, hidden assets/luxury contradiction, sibling resource transfer, institutional witnesses, evidence exposure, education-to-career compounding, material consequences, and bounded non-reconciliatory ending. Run `education_theft_false_poverty_integrity`. Treat the breakfast-vendor low comparator as strong craft and anti-overfit evidence.

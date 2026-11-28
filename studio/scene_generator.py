@@ -12,6 +12,7 @@ from pathlib import Path
 from typing import Any
 
 from .creature_dialogue import creature_dialogue_materials
+from .social_dialogue import social_test_dialogue_materials
 from .survival_scene import compressed_survival_scene_materials
 from .transformation_scene import transformation_scene_materials
 
@@ -179,6 +180,12 @@ def scene_from_sequence(sequence: dict[str, Any], premise: dict[str, Any], index
         ]
         first_image_override, final_image_override = creature_visuals[index - 1]
     transformation_materials = transformation_scene_materials(premise, index)
+    if premise.get("channel_contract") == "social_test_melodrama":
+        social_materials = social_test_dialogue_materials(premise, index)
+        key_lines = social_materials["key_lines"]
+        spoken_exchange = social_materials["spoken_exchange"]
+        scene_rhythm = social_materials["scene_rhythm"]
+        rewrite_directives = social_materials["rewrite_directives"]
     if transformation_materials:
         key_lines = transformation_materials["key_lines"]
         spoken_exchange = transformation_materials["spoken_exchange"]

@@ -1,0 +1,62 @@
+{
+  "evidence_class": "tier_1_metadata_plus_visual_inspection",
+  "causality_warning": "Thumbnail observations are packaging evidence, not CTR proof. The low comparator was very recent.",
+  "items": [
+    {
+      "video_id": "pT9NHcgjJnI",
+      "path": "data/raw/thumbnails/nightfall/pT9NHcgjJnI.jpg",
+      "performance_position": "hit",
+      "measured_metrics": {
+        "brightness": 0.48,
+        "contrast": 0.252,
+        "edge_density": 0.202,
+        "mobile_contrast": 0.233
+      },
+      "visual_mechanics": [
+        "elderly poor mother holding rice outside store",
+        "affluent son with rolling suitcase",
+        "single relational recognition question MOM?",
+        "class/family contradiction legible without dense explanation"
+      ],
+      "reusable_concept": "For elder-care exploitation, make the family relationship and material neglect contradiction visible through one object and one contrast."
+    },
+    {
+      "video_id": "WflBuJrL1v0",
+      "path": "data/raw/thumbnails/nightfall/WflBuJrL1v0.jpg",
+      "performance_position": "medium",
+      "measured_metrics": {
+        "brightness": 0.481,
+        "contrast": 0.277,
+        "edge_density": 0.261,
+        "mobile_contrast": 0.245
+      },
+      "visual_mechanics": [
+        "explicit coffee assault",
+        "shocked groom",
+        "mother-in-law envelope",
+        "large explanatory text",
+        "spectacle-first hidden-provider premise"
+      ],
+      "reusable_concept": "Spectacle transgression is legible but can over-explain; relational contradiction is more durable than shock alone."
+    },
+    {
+      "video_id": "gt8nXFcjkJE",
+      "path": "data/raw/thumbnails/nightfall/gt8nXFcjkJE.jpg",
+      "performance_position": "very-recent low comparator",
+      "measured_metrics": {
+        "brightness": 0.546,
+        "contrast": 0.279,
+        "edge_density": 0.458,
+        "mobile_contrast": 0.25
+      },
+      "visual_mechanics": [
+        "snowy ranch mood tableau",
+        "man/dog/sisters composition",
+        "no text or crisis object",
+        "attractive but diffuse relational stakes at mobile size"
+      ],
+      "reusable_concept": "Quiet rural craft needs a visible wound/object/question in packaging; atmospheric setting alone undersells the contract."
+    }
+  ],
+  "craft_rule": "Nightfall dignity-restoration packaging works best when one object makes a relational wound legible: rice/suitcase, coffee/envelope. Setting beauty alone is weaker as a hypothesis, not CTR fact."
+}

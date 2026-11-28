@@ -1,0 +1,82 @@
+{
+  "video_id": "62vBW1_B92Y",
+  "probe": {
+    "duration": 2280.153107,
+    "size": 171717203,
+    "width": 640,
+    "height": 360,
+    "fps": "25/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\62vBW1_B92Y\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\62vBW1_B92Y\\contact_sheets\\contact_001.jpg",
+    "evidence\\media\\62vBW1_B92Y\\contact_sheets\\contact_002.jpg",
+    "evidence\\media\\62vBW1_B92Y\\contact_sheets\\contact_003.jpg",
+    "evidence\\media\\62vBW1_B92Y\\contact_sheets\\contact_004.jpg",
+    "evidence\\media\\62vBW1_B92Y\\contact_sheets\\contact_005.jpg"
+  ],
+  "seconds_indexed": 2280,
+  "shot_count": 70,
+  "shot_length_mean_seconds": 32.57142857142857,
+  "shot_length_median_seconds": 13.0,
+  "shot_length_p90_seconds": 70.0,
+  "visual_motion_mean": 0.1357536681420642,
+  "visual_brightness_mean": 0.3951113613945301,
+  "dialogue_cues": 885,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 15.1,
+      "text": "Yesterday they rejected my application"
+    },
+    "first_power_or_identity_language": {
+      "time": 47.3,
+      "text": "Please, sir, I know it's taking so long,"
+    },
+    "first_care_or_belonging_language": {
+      "time": 271.894,
+      "text": "Thank you for your time, ma'am."
+    },
+    "dialogue_words_per_minute": [
+      138,
+      115,
+      188,
+      133,
+      144,
+      69,
+      157,
+      200,
+      92,
+      53,
+      118,
+      173,
+      97,
+      91,
+      124,
+      80,
+      114,
+      124,
+      77,
+      139,
+      141,
+      83,
+      157,
+      108,
+      138,
+      71,
+      130,
+      111,
+      189,
+      93,
+      170,
+      125,
+      159,
+      176,
+      154,
+      60,
+      51,
+      75
+    ],
+    "cue_count": 885
+  }
+}

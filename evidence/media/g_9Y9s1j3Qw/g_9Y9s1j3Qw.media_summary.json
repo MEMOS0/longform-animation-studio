@@ -1,0 +1,87 @@
+{
+  "video_id": "g_9Y9s1j3Qw",
+  "probe": {
+    "duration": 2505.154467,
+    "size": 142039196,
+    "width": 360,
+    "height": 640,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\g_9Y9s1j3Qw\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\g_9Y9s1j3Qw\\contact_sheets\\contact_001.jpg",
+    "evidence\\media\\g_9Y9s1j3Qw\\contact_sheets\\contact_002.jpg",
+    "evidence\\media\\g_9Y9s1j3Qw\\contact_sheets\\contact_003.jpg",
+    "evidence\\media\\g_9Y9s1j3Qw\\contact_sheets\\contact_004.jpg",
+    "evidence\\media\\g_9Y9s1j3Qw\\contact_sheets\\contact_005.jpg",
+    "evidence\\media\\g_9Y9s1j3Qw\\contact_sheets\\contact_006.jpg"
+  ],
+  "seconds_indexed": 2505,
+  "shot_count": 77,
+  "shot_length_mean_seconds": 32.532467532467535,
+  "shot_length_median_seconds": 10.0,
+  "shot_length_p90_seconds": 85.40000000000003,
+  "visual_motion_mean": 0.13907004848630083,
+  "visual_brightness_mean": 0.28388286438257526,
+  "dialogue_cues": 676,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 106.7,
+      "text": "The curse is flaring up again."
+    },
+    "first_power_or_identity_language": {
+      "time": 1.3,
+      "text": "Yes, right there. Harder. Oh god. Step"
+    },
+    "first_care_or_belonging_language": {
+      "time": 63.0,
+      "text": "TAKE IT. YOU SAVED my life."
+    },
+    "dialogue_words_per_minute": [
+      46,
+      73,
+      92,
+      46,
+      114,
+      107,
+      91,
+      23,
+      43,
+      23,
+      6,
+      140,
+      55,
+      61,
+      57,
+      61,
+      43,
+      45,
+      58,
+      74,
+      57,
+      50,
+      22,
+      93,
+      107,
+      86,
+      89,
+      83,
+      112,
+      85,
+      116,
+      73,
+      78,
+      68,
+      85,
+      108,
+      99,
+      71,
+      101,
+      93,
+      59,
+      38
+    ],
+    "cue_count": 676
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "video_id": "gw1SsVcha0Y",
+  "probe": {
+    "duration": 2053.31737,
+    "size": 126045454,
+    "width": 640,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\gw1SsVcha0Y\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\gw1SsVcha0Y\\contact_sheets\\contact_001.jpg",
+    "evidence\\media\\gw1SsVcha0Y\\contact_sheets\\contact_002.jpg",
+    "evidence\\media\\gw1SsVcha0Y\\contact_sheets\\contact_003.jpg",
+    "evidence\\media\\gw1SsVcha0Y\\contact_sheets\\contact_004.jpg",
+    "evidence\\media\\gw1SsVcha0Y\\contact_sheets\\contact_005.jpg"
+  ],
+  "seconds_indexed": 2053,
+  "shot_count": 63,
+  "shot_length_mean_seconds": 32.58730158730159,
+  "shot_length_median_seconds": 14.0,
+  "shot_length_p90_seconds": 77.0,
+  "visual_motion_mean": 0.1077980896349383,
+  "visual_brightness_mean": 0.3407033128363831,
+  "dialogue_cues": 952,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 488.797,
+      "text": "Then supervise. Don't humiliate."
+    },
+    "first_power_or_identity_language": {
+      "time": 143.692,
+      "text": "You always did enjoy making yourself"
+    },
+    "first_care_or_belonging_language": {
+      "time": 170.792,
+      "text": "Nobody is coming to save you, Adrian."
+    },
+    "dialogue_words_per_minute": [
+      90,
+      143,
+      145,
+      83,
+      132,
+      122,
+      134,
+      122,
+      143,
+      165,
+      137,
+      143,
+      166,
+      166,
+      152,
+      157,
+      140,
+      138,
+      141,
+      148,
+      155,
+      172,
+      144,
+      150,
+      157,
+      129,
+      143,
+      163,
+      139,
+      148,
+      164,
+      168,
+      148,
+      166,
+      14
+    ],
+    "cue_count": 952
+  }
+}
