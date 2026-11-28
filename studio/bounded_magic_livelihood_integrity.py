@@ -41,15 +41,15 @@ def evaluate_bounded_magic_livelihood_integrity(premise: dict[str, Any], archite
     ending_text = "\n".join(ending_parts + [final_scene_text]) or (architecture_text[-max(1, len(architecture_text) // 3):] if architecture_text else full[-max(1, len(full) // 4):])
 
     checks = {
-        "magic_has_explicit_limits_costs_or_prohibitions": bool(re.search(r"three wishes|one refill|midnight|limited|no taking|no conjuring money|no messing|cannot|can.?t|cost|price|interest|loan|scarce|scarcity|only", full)),
+        "magic_has_explicit_limits_costs_or_prohibitions": bool(re.search(r"three wishes|one refill|refills? once|midnight|limited supply|serum is limited|no taking|no conjuring money|no messing|cannot|can.?t|interest|loan|scarce|scarcity", full)),
         "precarity_or_dispossession_is_concrete": bool(re.search(r"debt|wages|unpaid|stole|stolen|take everything|barren|barren farm|hungry|starv|rent|eviction|water|estate|embezzle|fraud", full)),
-        "magic_creates_inputs_not_final_wealth": bool(re.search(r"spring water|serum|seed|plant|crop|inventory|portal|tool|bracer|ingredient|input|refill|recipe|access|opportunity", full)),
+        "magic_creates_inputs_not_final_wealth": bool(re.search(r"spring water|serum|seed|plant|crop|inventory|tool|bracer|ingredient|input|refill|recipe|productive access|opportunity", full)),
         "labor_operations_and_learning_remain_necessary": bool(re.search(r"farm|plant|watering|sell|stall|market|restaurant|supply|transport|negotiat|work|labor|build|grow|harvest|deliver|trade", full)),
         "resource_conflict_uses_documents_rights_or_procedure": bool(re.search(r"deed|record|filing|water rights|contract|audit|auditor|evidence|files|fbi|police|court|procedure|verify|bank statement", full)),
         "scaling_uses_quality_scarcity_reputation_or_alliances": bool(re.search(r"quality|taste|premium|limited supply|reputation|restaurant|clients|alliance|logistics|trade empire|partners|network|supply will be very limited", full)),
         "restoration_benefits_family_community_or_dependents": bool(re.search(r"child|son|daughter|family|friends|neighbors|community|people are dying|feed|workers|clan|village|brings? water|protect", full)),
         "accountability_uses_evidence_or_institutions_not_magic_alone": bool(re.search(r"audit|auditor|arrest|fbi|police|court|evidence|files|fraud|embezzlement|vote|board|verification|law", full)),
-        "ending_refuses_infinite_accumulation_and_proves_stewardship_or_self_sufficiency": bool(re.search(r"refus|turning down|not tempted|already got back|grew it (?:yourself|himself|herself)|without (?:the )?(?:serum|magic)|plain water|steward|community|home|independent|self-sufficient|walk myself", ending_text)),
+        "ending_refuses_infinite_accumulation_and_proves_stewardship_or_self_sufficiency": bool(re.search(r"refus|turning down|not tempted|already got back|grew it (?:yourself|himself|herself)|without (?:the )?(?:serum|magic)|plain water|steward|community|independent|self-sufficient", ending_text)),
     }
     labels = {
         "magic_has_explicit_limits_costs_or_prohibitions": "magic is unbounded wish fulfillment rather than limited by rules, scarcity, cost, or prohibition",
