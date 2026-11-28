@@ -209,3 +209,9 @@ Hit `xK9NcPoHLOo` uses sports-arena scale, opposing team uniforms, central gymna
 - Low `Gn8JTn7g2sI`: concrete action-drama thumbnail — commander shielding a coffee-stained woman while a red-suited antagonist throws coffee, with “The Supreme Commander They Called a Convict.” The low result cannot be blamed on an obviously weak thumbnail; it is a strong packaging counterexample.
 
 Thumbnail doctrine addition: kin-protection concepts should test at least two separate visual hooks — (1) public material threat/humiliation reversal and (2) ensemble relational promise — instead of hiding the family stakes behind generic badass power. If sexualized ensemble imagery is tested, it must not deceptively imply incest or coercion.
+
+## Animal-communication zoo revival thumbnails
+
+- Hit `iz5WnsFSv5g`: joyful animal-selfie collage; smiling protagonist, tiger in sunglasses/gold chain, gorilla heart hands, alpaca/parrot, likes/hearts/upward arrow/phone frame. Extremely legible “animals plus internet virality” promise.
+- Hit `ssbZ2hIPY_E`: direct mechanism visualization; woman cupping ear, sound waves, speech bubbles, expressive tiger/kangaroo/elephant, zoo sign, high-contrast “She Can Hear Animals Talk!” Strong mobile readability.
+- Low `qFV7Ts_B7XQ`: polished epic underwater treasure spectacle with rider/crocodile/sharks/octopus/gold, but the communication and economic-collaboration mechanism is invisible. Do not treat this as proven CTR failure; treat it as a packaging-legibility hypothesis only.

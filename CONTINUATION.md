@@ -438,3 +438,13 @@ Next: if new review findings arrive, triage first. Otherwise continue fresh brea
 Immediate next candidate after Legendary: analyze animal-communication zoo/economic-revival mechanism using `iz5WnsFSv5g` (King's Theater, “He Understands Animals… Dying Zoo into a Viral Hit,” 138m) and `ssbZ2hIPY_E` (KellyCine, “She Talks to Animals… Save a Failing Zoo,” 70m). Before writing a validator, collect channel context and compare with a low/medium same-mechanism comparator; this overlaps creature care only superficially because the core object is communication-driven institutional/economic revival.
 
 Animal-communication revival downloads are ready: `iz5WnsFSv5g` hit (454k/6d, 137.6m), `ssbZ2hIPY_E` second hit (220k/4d, 70.5m), and `qFV7Ts_B7XQ` low same-channel comparator (8.9k/1mo, 151.7m). Metadata, subtitles, full media, and max-resolution thumbnails are downloaded locally. Next after rotation: run media_analysis for all three, inspect opening/middle/end contact sheets, extract animal-communication/zoo-economic-revival evidence, then decide whether a validator is justified.
+
+## Animal-communication revival checkpoint — 2026-11-28
+
+Completed full hit/hit/adjacent-low comparison for animal-communication economic revival:
+
+- `iz5WnsFSv5g` King's Theater hit: zoo debt/utilities/feed/vet pressure, animal complaints, monkey performance turnaround, child rescue logistics, welfare-constrained sabotage trap, animal patrol network, back-road visitor guidance.
+- `ssbZ2hIPY_E` KellyCine hit: tiger itch, $50k acquisition constraint, violent kangaroo's depression/star drive, suspicious elephant exchange, health/transport assessment, habitat preferences, viral video, explicit no-forced-practice animal autonomy.
+- `qFV7Ts_B7XQ` King's Theater adjacent low: BeastBond sea-creature fishing business, fake-contract betrayal, quantified catches/prices/contracts/boat repair/deep-sea reinvestment. Dense strong-craft low counterexample.
+
+Integrated `animal_communication_zoo_revival_integrity`; tests 548 passed after review regression fixes. Next: commit/push all evidence, then choose another uncovered fresh breakout mechanism. If new review findings arrive, triage them first.
