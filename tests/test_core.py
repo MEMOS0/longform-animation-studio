@@ -5699,3 +5699,19 @@ def test_hidden_kinship_fifth_review_regressions():
     out=ev(premise,arch,[])
     assert out['checks']['kinship_reveal_is_progressive_not_single_exposition_dump'] is True
     assert out['checks']['kinship_claims_are_verified_by_independent_evidence'] is True
+
+
+def test_nocturne_review_regressions():
+    from studio.hidden_supernatural_kinship_integrity import evaluate_hidden_supernatural_kinship_integrity as kin
+    from studio.public_dignity_transgression_integrity import evaluate_public_dignity_transgression_integrity as dig
+    import json
+    ember=json.load(open('examples/generated_creature_concepts/emberseed_oven_cart_premise.json',encoding='utf8'))
+    assert dig(ember,{},[])['applies'] is False
+    premise={'logline':'A werewolf mother hides her child from the alpha father because she fears custody.'}
+    refused={'ending_payoff':'He refuses a DNA test. Later the court records a property settlement, and they stand near records and proof.'}
+    out=kin(premise,refused,[])
+    assert out['checks']['kinship_claims_are_verified_by_independent_evidence'] is False
+    passed_test={'ending_payoff':'He refuses a DNA test at first, but the DNA test later confirms a positive match. The mother freely chooses reunion.'}
+    assert kin(premise,passed_test,[])['checks']['kinship_claims_are_verified_by_independent_evidence'] is True
+    dump={'ending_payoff':'In one speech she reveals all, mentioning a birthmark and DNA for the first time. The child gradually accepts it.'}
+    assert kin(premise,dump,[])['checks']['kinship_reveal_is_progressive_not_single_exposition_dump'] is False

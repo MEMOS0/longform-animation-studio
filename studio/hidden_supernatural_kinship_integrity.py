@@ -41,18 +41,20 @@ def evaluate_hidden_supernatural_kinship_integrity(premise: dict[str, Any], arch
             ending_parts.append(_text(sequences[-1]).lower())
     ending_text = "\n".join(ending_parts + [final_scene_text]) or (architecture_text[-max(1, len(architecture_text) // 3):] if architecture_text else full[-max(1, len(full) // 4):])
 
-    progressive_markers = set(re.findall(r"first|another|third|fourth|oldest|for now|not yet|doesn.?t know yet|gradually|progressive|piece by piece|secretly", full))
+    progressive_markers = set(re.findall(r"first child|first pup|first son|first daughter|another child|another pup|third child|fourth child|oldest child|for now|not yet|doesn.?t know yet|piece by piece|secretly", full))
     evidence_markers = set(re.findall(r"birthmark|moon mark|dna|paternity|blood test|bloodline", full))
     single_dump = bool(re.search(r"reveals? all|tells? (?:him|her|them) everything|one speech|single exposition", full))
     refused_test = bool(re.search(r"refus\w*[^.\n]{0,40}(?:dna|paternity|blood test)|(?:dna|paternity|blood test)[^.\n]{0,40}refus\w*", full))
+    test_result = bool(re.search(r"(?:dna|paternity|blood) test[^.\n]{0,60}(?:confirm\w*|positive|match\w*|proves?)|(?:confirm\w*|positive|match\w*|proves?)[^.\n]{0,60}(?:dna|paternity|blood) test", full))
     unopposed_seizure = bool(re.search(r"wins? custody|granted custody|takes? (?:the )?(?:kids|children)[^.\n]{0,40}(?:without|unopposed)|no choice", full))
     no_choice = bool(re.search(r"no choice|don.?t have a choice|forced|not consensual", full))
+    staged_reveal = len(progressive_markers) >= 2 or (progressive_markers and len(evidence_markers) >= 1) or bool(re.search(r"progressive discovery|piece by piece|staged reveal|gradually (?:reveals?|learns?|discovers?)", full))
 
     checks = {
         "children_open_with_concrete_material_or_social_mission": bool(re.search(r"sell|earn|work|mission|money|rent|food|school|peddle|mall|market|job|bully|humiliat|danger|grab|kidnap", full)),
         "child_agency_has_rules_limits_and_consequences": bool(re.search(r"plan|hide|protect mommy|help|care|rub|oldest|look after|secret|no shifting|don.?t shift|stay hidden|sneak|warned|dangerous", full)) and bool(re.search(r"no shifting|public|expos|discover|caught|consequence|dangerous|rule|warned|not allowed|must not", full)),
-        "kinship_reveal_is_progressive_not_single_exposition_dump": (len(progressive_markers) >= 2 or (progressive_markers and len(evidence_markers) >= 1) or bool(re.search(r"gradually|progressive|piece by piece|staged reveal", full))) and not (single_dump and len(progressive_markers) < 2 and len(evidence_markers) < 2),
-        "kinship_claims_are_verified_by_independent_evidence": bool(re.search(r"confirmed|positive|proves?|matched|camera|footage|record|ledger|proof|evidence|witness|physician|doctor", full)) and bool(re.search(r"dna|paternity|blood test|bloodline|birthmark|moon mark", full)) and not (refused_test and not re.search(r"later|eventually|finally|proves?|confirmed|positive|matched", full)),
+        "kinship_reveal_is_progressive_not_single_exposition_dump": staged_reveal,
+        "kinship_claims_are_verified_by_independent_evidence": bool(re.search(r"confirmed|positive|proves?|matched|camera|footage|record|ledger|proof|evidence|witness|physician|doctor", full)) and bool(re.search(r"dna|paternity|blood test|bloodline|birthmark|moon mark", full)) and not (refused_test and not test_result),
         "concealment_is_motivated_by_credible_custody_or_safety_fear": bool(re.search(r"custody|take (?:the )?(?:kids|children)|lose (?:all|the|my)|afraid|scared|protect the other|court|pup ?nap|kidnap|danger|safety|not safe", full)),
         "wealth_or_parental_power_cannot_simply_seize_the_children": (not unopposed_seizure) and bool(re.search(r"not selling|won.?t (?:allow|hand)|nobody.?s taking|children are not property|can.?t buy|money.*not|consent|choose|resist|refus", full)),
         "caregiver_has_independent_competence_beyond_family_role": bool(re.search(r"design|work|job|assistant|fashion|competition|initials|craft|skill|business|earn|profession|draw|talent", full)),
