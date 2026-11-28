@@ -5323,3 +5323,15 @@ def test_shared_resource_exploitation_integrity_positive_and_negative():
     assert r['applies'] is True
     assert r['score_0_to_1'] >= 0.8
     assert ev({'logline':'Two neighbors argue once about noise.'},{},[])['applies'] is False
+
+
+def test_review_regressions_shutdown_named_abandonment_final_sequence():
+    from studio.shared_resource_exploitation_integrity import evaluate_shared_resource_exploitation_integrity as shared
+    from studio.misplaced_family_loyalty_integrity import evaluate_misplaced_family_loyalty_integrity as family
+    from studio.deprioritized_spouse_power_reversal_integrity import evaluate_deprioritized_spouse_power_reversal_integrity as spouse
+    r=shared({'logline':'Neighbors free-ride her elevator for years and reported me repeatedly, so she shuts it down.'},{'ending_payoff':'They pooled money and paid the cost.'},[])
+    assert r['applies'] is True
+    assert family({'logline':'Her family abandons Clara because they believe the impostor heir.'},{},[])['applies'] is True
+    arch={'sequences':[{'summary':'She suffers humiliation.'},{'summary':'At the end she takes control of the company and keeps independent authority.'}]}
+    r=spouse({'logline':'A wife whose husband always chose his mistress walks away. He regretted everything too late.'},arch,[])
+    assert r['checks']['ending_preserves_self_rule_or_chosen_family_beyond_romance'] is True
