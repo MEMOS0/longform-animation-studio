@@ -5388,3 +5388,28 @@ def test_meaning_system_agency_restoration_integrity():
     assert passive['checks']['turning_point_instructs_concrete_agency'] is False
     assert passive['checks']['success_scales_through_competence_operations_or_witnessed_labor'] is False
     assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+
+def test_review_polarity_and_applicability_regressions():
+    from studio.strategic_romantic_deception_integrity import evaluate_strategic_romantic_deception_integrity as ev
+    premise={'logline':'A paid professional saboteur is hired to sabotage a wedding and falls for the groom.'}
+    r=ev(premise,{'ending_payoff':'She refused reconciliation, so he pulled the team. The deal stands.'},[])
+    assert r['checks']['rejection_is_not_punished_through_money_or_institutional_power'] is False
+    r=ev(premise,{'ending_payoff':'He refused the suggestion to pull the team. The deal stands.'},[])
+    assert r['checks']['rejection_is_not_punished_through_money_or_institutional_power'] is True
+    r=ev(premise,{'ending_payoff':'She no longer has to pretend, but chooses to continue pretending because it is useful.'},[])
+    assert r['checks']['ending_replaces_pretense_with_freely_chosen_commitment_or_independent_truth'] is False
+    assert ev({'logline':'A storm threatens to sabotage a wedding, but the honest couple adapt together.'},{},[])['applies'] is False
+
+
+def test_meaning_system_review_regressions():
+    from studio.meaning_system_agency_restoration_integrity import evaluate_meaning_system_agency_restoration_integrity as ev
+    cited={'logline':'A clockwork orphan facing rent and rejection rebuilds benches into a craft business.','research':'leso-faith-agency-restoration-hit-low-comparison.md'}
+    assert ev(cited,{},[])['applies'] is False
+    premise={'logline':'A faithful woman facing rent, hunger, and a rejected job application prays for a miracle and starts a business.'}
+    r=ev(premise,{'ending_payoff':'She owns a restaurant and the former detractors offer congratulations.'},[])
+    assert r['applies'] is True
+    assert r['checks']['turning_point_instructs_concrete_agency'] is False
+    assert r['checks']['first_opportunity_is_countable_and_executable'] is False
+    assert r['checks']['success_scales_through_competence_operations_or_witnessed_labor'] is False
+    assert r['checks']['social_repair_requires_recognition_of_wrong'] is False
