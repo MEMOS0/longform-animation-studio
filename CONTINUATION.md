@@ -609,3 +609,6 @@ Gilded Myth Pictures full-channel comparison integrated: hits `JGJqirpmMyI` (~17
 
 ## 2026-11-28 Verse Drama education-theft analysis started
 Next uncovered mechanism selected: gendered parental education theft / false poverty / rebirth refusal. Hit `F9aPpyMOcFA` (~117k, 2h15m) vs medium `MIWOa0KvVjY` (~38k, 2h36m) vs thematically adjacent low `0dkR7SDNG-o` (~4.1k, 1h25m) within Verse Drama. Downloads started before context handoff. Gilded Myth integration is pushed at `6af7bf3`; tests 614 passed. Review triage backlog ended; newest review may still return findings.
+
+## 2026-11-28 Verse subtitle evidence secured
+Verse downloads are large (~353m/~406m/~243m) and still running, but English TTML subtitle evidence is already saved for all three: `F9aPpyMOcFA` 347,611 bytes, `MIWOa0KvVjY` 348,466, `0dkR7SDNG-o` 144,562. Next after context handoff: parse subtitles first while videos finish, then machine-analyze/contact-sheet inspect media, compare hit/medium/low, build education-theft/false-poverty validator, thumbnail index, skill integration, tests, commit/push. Thumbnails: hit shows parent physically grabbing textbooks from daughter with uniformed sister behind and golden clock/rebirth symbolism; medium is luxury family confrontation; low is warm breakfast-vendor romance.
