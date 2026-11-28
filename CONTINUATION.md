@@ -492,3 +492,7 @@ Completed Seven Clover hit/medium/low comparison for `NDZc_6T4h6E`, `jxYPDAACBN8
 ## 2026-11-28 Payback Stories retributive-romance checkpoint
 
 Completed Payback Stories hit/medium/low comparison for `_u1i8lfizF8`, `F-NMKe7X8eE`, and `fx7eZ9U4UPk`; integrated `studio/retributive_romance_reversal_integrity.py`. Doctrine: concrete coercive betrayal, logistical exit, evidence/institutional reversal, non-restorative regret/sacrifice, careful consensual replacement intimacy, freedom ending, and no self-destruction as justice. Tests 567 passed before commit. Continue scanning uncovered fresh low-subscriber breakouts; handle new Devin Review findings first.
+
+## LESO checkpoint — faith-agency restoration integrated
+
+`62vBW1_B92Y` hit versus `AyK_H1NA1GE` older/lower comparator completed in `knowledge/market/leso-faith-agency-restoration-hit-low-comparison.md`; full machine evidence, subtitles, contact sheets, and thumbnails archived. Integrated `meaning_system_agency_restoration_integrity`. Key doctrine: transcendent/faith endurance works commercially as a narrative engine only when coupled to concrete material agency, countable first work, competence-driven scaling, moral social repair, and livelihood-protecting closure. Evidence is preliminary because the channel exposes only two long-form videos. Continue scanning fresh low-subscriber breakouts outside covered mechanisms; triage new review findings first.

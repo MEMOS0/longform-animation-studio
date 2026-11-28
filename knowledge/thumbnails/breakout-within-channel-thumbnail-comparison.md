@@ -253,3 +253,7 @@ Archived evidence: `data/raw/thumbnails/sevenclover/` and `knowledge/market/seve
 ## Payback Stories retributive-romance packaging
 
 Archived evidence: `data/raw/thumbnails/paybackstories/` and `knowledge/market/paybackstories-retributive-romance-reversal-hit-medium-low-comparison.md`. Hit packaging combines cancelled contract, fallen ring, protagonist pointing refusal, injured ex, prisoner, and luxury punishment; medium uses betrayal triangle and empire destruction; low uses grave/ultrasound tragic grief and is still highly polished. Reusable mechanism: center the instrument of control or abandonment plus visible refusal/consequence, not generic luxury. Packaging observations only, not CTR proof.
+
+## LESO faith-restoration thumbnail doctrine
+
+`62vBW1_B92Y` outperformed the channel's older caregiver-romance comparator in public discovery, but no CTR data is available. Its thumbnail sells a complete before/after transformation: humble food containers and distress at lower left, tearful restored protagonist at center, successful restaurant/luxury context behind her, and large gold faith-transformation typography. The comparator `AyK_H1NA1GE` is also readable — maid/disabled husband/departing wife triangle — but sells a more familiar relational triangle rather than a full economic restoration arc. Reusable rule: for meaning-system restoration, show both the original labor/precarity object and terminal dignified livelihood, not only tears or wealth.

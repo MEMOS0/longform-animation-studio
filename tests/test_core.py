@@ -5376,3 +5376,15 @@ def test_strategic_deception_polarity_regressions():
     assert r['checks']['rejection_is_not_punished_through_money_or_institutional_power'] is True
     r=ev(premise,{'ending_payoff':'They no longer have to keep pretending; they choose real love.'},[])
     assert r['checks']['ending_replaces_pretense_with_freely_chosen_commitment_or_independent_truth'] is True
+
+
+def test_meaning_system_agency_restoration_integrity():
+    from studio.meaning_system_agency_restoration_integrity import evaluate_meaning_system_agency_restoration_integrity as ev
+    good=ev({'logline':'A faithful cook facing rent, food scarcity, and rejected job applications prays, starts where she is, uses her cooking skills for ten people, then grows orders into a restaurant business.'},{'ending_payoff':'Her friends admit we were wrong to cast her aside; her restaurant employs workers and gives her dignity in the community.'},[])
+    assert good['applies'] is True
+    assert good['score_0_to_1'] >= 0.85
+    passive=ev({'logline':'A faithful woman facing rent and hunger prays for a miracle, starts a business, and suddenly becomes rich.'},{'ending_payoff':'She is rich and everyone envies her.'},[])
+    assert passive['applies'] is True
+    assert passive['checks']['turning_point_instructs_concrete_agency'] is False
+    assert passive['checks']['success_scales_through_competence_operations_or_witnessed_labor'] is False
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
