@@ -5010,3 +5010,30 @@ def test_curse_cure_unasked_permission_is_nonconsent_even_when_recipient_resists
     scenes=[{'summary':'She tries to stop him as he kisses her without permission. He asks too late.'}]
     r=evaluate_curse_cure_intimacy_integrity(premise,{},scenes)
     assert r['checks']['intimacy_progresses_by_consent_and_pacing'] is False
+
+
+def test_curse_cure_later_refusal_does_not_hide_unwanted_contact():
+    from studio.curse_cure_intimacy_integrity import _has_nonconsensual_intimacy
+    assert _has_nonconsensual_intimacy('He takes her hand without permission, so she refuses to kiss him.') is True
+
+
+def test_curse_cure_permission_to_enter_does_not_veto_consensual_kiss():
+    from studio.curse_cure_intimacy_integrity import _has_nonconsensual_intimacy
+    assert _has_nonconsensual_intimacy("He doesn't ask permission to enter the council room, then asks before kissing her.") is False
+
+
+def test_bl_power_autonomy_negated_or_rival_control_does_not_veto_positive_autonomy():
+    from studio.bl_power_autonomy_romance_integrity import evaluate_bl_power_autonomy_romance_integrity
+    premise={'logline':'BL billionaire alpha rescues his husband from a rival vampire.'}
+    scenes=[{'summary':"He doesn't own him. A rival keeps him captive, but after rescue he is free to walk away. He asks permission, you can just say no, and they choose a trial run relationship."}]
+    r=evaluate_bl_power_autonomy_romance_integrity(premise,{},scenes)
+    assert r['applies'] is True
+    assert r['checks']['rescue_or_payment_does_not_create_ownership'] is True
+    assert r['checks']['intimacy_uses_micro_consent_and_refusal_rights'] is True
+
+
+def test_bl_power_autonomy_gayle_name_does_not_trigger_gay_gate():
+    from studio.bl_power_autonomy_romance_integrity import evaluate_bl_power_autonomy_romance_integrity
+    premise={'logline':'Gayle falls for her billionaire boss and discovers his secret.'}
+    r=evaluate_bl_power_autonomy_romance_integrity(premise,{},[])
+    assert r['applies'] is False
