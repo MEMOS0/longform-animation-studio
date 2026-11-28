@@ -19,18 +19,32 @@ def _text(value: Any) -> str:
     return ""
 
 
+def _segments(text: str) -> list[str]:
+    return [part.strip() for part in re.split(r"[.!?\n]", text) if part.strip()]
+
+
 def _has_coercive_control(text: str) -> bool:
     patterns = (
         r"(?:kiss(?:es|ed)?|touch(?:es|ed)?|forces?|takes?|presses?).{0,50}without (?:asking|permission|consent)",
         r"without (?:asking|permission|consent).{0,20}(?:kiss|touch|force|bed|sex)",
         r"not free to leave|(?:can['’]?t|cannot|not allowed) to? ?leave|keeps? .{0,25}captive|locks? .{0,25}(?:in|room)|owns? (?:him|them)|treats? .{0,25}property|no consent",
     )
-    return any(re.search(pattern, text) for pattern in patterns)
+    negated_ownership = re.compile(r"(?:doesn['’]?t|does not|never|no longer)\s+owns?")
+    outside_romance_actor = re.compile(r"rival|villain|antagonist|kidnapper|captor|enemy")
+    for sentence in _segments(text):
+        if outside_romance_actor.search(sentence):
+            continue
+        for pattern in patterns:
+            for match in re.finditer(pattern, sentence):
+                if negated_ownership.search(sentence) and "own" in match.group(0):
+                    continue
+                return True
+    return False
 
 
 def evaluate_bl_power_autonomy_romance_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    queer_or_pack = bool(re.search(r"\bbl\b|male omega|alpha|omega|werewolf|wolf king|vampire|male pregnancy|boyfriend|straight man|straight guy|male-male|gay", full))
+    queer_or_pack = bool(re.search(r"\bbl\b|male omega|alpha|omega|werewolf|wolf king|vampire|male pregnancy|boyfriend|straight man|straight guy|male-male|\bgay\b|his husband|her wife", full))
     power = bool(re.search(r"billionaire|king|coach|boss|mafia|auction|paid|bought|save|rescued|patron|heir|prince", full))
     romance = bool(re.search(r"romance|boyfriend|husband|lover|kiss|marry|pregnant|crush|relationship|fell? for", full))
     if not (queer_or_pack and power and romance):
@@ -52,7 +66,7 @@ def evaluate_bl_power_autonomy_romance_integrity(premise: dict[str, Any], archit
         "protagonist_has_independent_craft_or_goal": bool(re.search(r"perfumer|formula|hockey|dance|job|career|investigat|work|practice|tryout|researcher|doctor|records|mission", opening)),
         "power_asymmetry_is_explicit": bool(re.search(r"billionaire|king|coach|boss|auction|paid|bought|chains|owns?|power|status|heir|mafia|alpha", full)),
         "bodily_or_species_rules_are_explicit": bool(re.search(r"heat|pheromone|scent|mark|omega|alpha|pregnant|wolf|werewolf|vampire|blood|shift|species|bond", full)),
-        "rescue_or_payment_does_not_create_ownership": bool(re.search(r"not a bargaining chip|can't buy|cannot buy|not yours|doesn't own|no promise|contract is gone|release|free to leave|you can leave|not property|own answer", full) and not coercive_control),
+        "rescue_or_payment_does_not_create_ownership": bool(re.search(r"not a bargaining chip|can't buy|cannot buy|not yours|doesn't own|no promise|contract is gone|release|free to leave|free to walk away|walk away|you can leave|not property|own answer", full) and not coercive_control),
         "intimacy_uses_micro_consent_and_refusal_rights": bool(re.search(r"you can just say no|tell me to move away|you could have told me|ask|permission|consent|trial run|won't cross the line|if you don't want|your choice|answer", full) and not coercive_control),
         "competence_or_care_is_procedural": bool(re.search(r"practice|training|formula|tryout|records|investigation|doctor|write down|pain meds|evidence|report|test|procedure|lesson", full)),
         "medical_or_care_support_preserves_agency": bool(re.search(r"doctor|hospital|memory|headache|write down|not going to promise|pain meds|food|tell me|you can be angry|care|recover", full)),
