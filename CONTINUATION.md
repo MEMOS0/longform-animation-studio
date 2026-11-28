@@ -545,3 +545,8 @@ Channel first-page context: latest `6zY3-x9kJvo` 54k in <1d rebirth payback; `_R
 ## Moon Outlaw checkpoint — compressed mythic quest integrated
 
 All three visible Moon Outlaw uploads analyzed across full runtime in `knowledge/market/moon-outlaw-compressed-mythic-quest-hit-medium-low-comparison.md`; machine evidence/contact sheets/subtitles/thumbnails/channel metadata ready for commit. Integrated `compressed_mythic_quest_integrity`. Key anti-overfit result: low `LECUG1uVlzE` is visually ambitious, bright, kinetic, and opens with a strong missing-daughter rescue hook; its observable issue is structural diffusion/no micro-closure, but hit/medium are also unresolved serial pieces, so closure is not claimed as causal. Continue scanning uncovered fresh low-subscriber breakouts; triage new review findings first.
+
+
+## TeawithJay checkpoint — period autonomy/evidence romance integrated
+
+`9PB2M2UwASM` complete Duke's Aria, `aS6SI32fNc4` House of Valemont, `5N7u9AfdPzA` Ruined by His Kiss sequel chapter, `vchwaA94DcM` serial Chapter 1, and low counterexample `Y3gjfUSTNHE` Ashes of Carthage completed in `knowledge/market/teawithjay-period-autonomy-hit-medium-low-comparison.md`; machine evidence, contact sheets, subtitles, Whisper machine transcription, thumbnails, and thumbnail reference index ready for commit. `period_autonomy_evidence_romance_integrity` was already integrated and review-hardened through commit `38136ef`; tests 592 passed. Key anti-overfit: Ashes is visually/emotionally coherent with strong protective-family closure and readable thumbnail despite low discovery; do not equate low performance with weak craft. Continue scanning uncovered fresh low-subscriber breakouts; triage new PR #7 review findings first.

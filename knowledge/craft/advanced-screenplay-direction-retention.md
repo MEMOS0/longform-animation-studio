@@ -240,3 +240,12 @@ A strong first minute is only a hook, not a retention system. By minute 3–5 th
 4. what visible payoff the film is promising.
 
 Do not let identity verification, records, contracts, files, or proof objects consume the opening unless every proof also changes power or relationship. The EchoDrama comparison shows that even a strong child-father hook can lose urgency when the next minutes become administrative verification. Convert evidence into emotional consequence immediately.
+
+
+## Period autonomy romance doctrine — TeawithJay evidence
+
+Period romance is strongest when the social machine exists before desire: leases, dowries, titles, blacklists, arranged alliances, reputation, and family command must materially constrain choice. The heroine should diagnose objectification precisely (transaction/property/ownership), not merely act “feisty.” Artistic or intellectual labor must remain part of the ending rather than decorative backstory.
+
+Male power becomes romantic only after the powerful man confronts the machinery that benefits him. Coercion cannot be laundered by wealth, protection, or later tenderness; it requires acknowledgement, reversible choice, and behavioral repair. Arranged rivals should retain perception and agency: a rival who ends the match by choice is stronger than a humiliated obstacle. Accusations are most satisfying when resolved through bodily evidence, expert testimony, public demonstration, or procedure.
+
+For format decisions: complete films can outperform chopped serial chapters when the audience has not yet bonded to the property; sequel chapters can perform when prior attachment exists, but each chapter still needs a causally motivated micro-closure/hook. Low-discovery historical epics may be strong-craft counterexamples, so do not confuse audience-contract mismatch with bad writing.

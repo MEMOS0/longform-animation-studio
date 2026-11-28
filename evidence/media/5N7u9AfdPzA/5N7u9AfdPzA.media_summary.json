@@ -1,0 +1,49 @@
+{
+  "video_id": "5N7u9AfdPzA",
+  "probe": {
+    "duration": 702.194649,
+    "size": 45747495,
+    "width": 640,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\5N7u9AfdPzA\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\5N7u9AfdPzA\\contact_sheets\\contact_001.jpg"
+  ],
+  "seconds_indexed": 702,
+  "shot_count": 23,
+  "shot_length_mean_seconds": 30.52173913043478,
+  "shot_length_median_seconds": 16.0,
+  "shot_length_p90_seconds": 65.4,
+  "visual_motion_mean": 0.09512230892966839,
+  "visual_brightness_mean": 0.2362259774882281,
+  "dialogue_cues": 210,
+  "narrative_markers": {
+    "first_conflict_language": null,
+    "first_power_or_identity_language": {
+      "time": 115.6,
+      "text": "BLOODY MAY."
+    },
+    "first_care_or_belonging_language": {
+      "time": 190.192,
+      "text": "you have saved a waltz for me at Lady"
+    },
+    "dialogue_words_per_minute": [
+      14,
+      7,
+      66,
+      124,
+      110,
+      143,
+      126,
+      116,
+      165,
+      138,
+      86,
+      47
+    ],
+    "cue_count": 210
+  }
+}
