@@ -5568,3 +5568,10 @@ def test_bounded_magic_applies_to_business_eviction():
     from studio.bounded_magic_livelihood_integrity import evaluate_bounded_magic_livelihood_integrity as ev
     r=ev({'logline':'A genie uses limited wishes to help a shopkeeper save a failing business from eviction.'},{},[])
     assert r['applies'] is True
+
+
+def test_bounded_magic_life_year_cost_counts_as_limit():
+    from studio.bounded_magic_livelihood_integrity import evaluate_bounded_magic_livelihood_integrity as ev
+    r=ev({'logline':'A broke farmer uses a magic potion to restore crops, but each use costs a year of life.'},{'ending_payoff':'The farm becomes self-sufficient without magic.'},[])
+    assert r['applies'] is True
+    assert r['checks']['magic_has_explicit_limits_costs_or_prohibitions'] is True

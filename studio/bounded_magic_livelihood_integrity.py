@@ -41,7 +41,7 @@ def evaluate_bounded_magic_livelihood_integrity(premise: dict[str, Any], archite
     ending_text = "\n".join(ending_parts + [final_scene_text]) or (architecture_text[-max(1, len(architecture_text) // 3):] if architecture_text else full[-max(1, len(full) // 4):])
 
     checks = {
-        "magic_has_explicit_limits_costs_or_prohibitions": bool(re.search(r"three wishes|one refill|refills? once|midnight|limited supply|serum is limited|no taking|no conjuring money|no messing|cannot|can.?t|interest|loan|scarce|scarcity", full)),
+        "magic_has_explicit_limits_costs_or_prohibitions": bool(re.search(r"three wishes|one refill|refills? once|midnight|limited supply|serum is limited|no taking|no conjuring money|no messing|cannot|can.?t|interest|loan|scarce|scarcity|costs? (?:a|one|her|his|their)? ?(?:year|years|life|memory|blood|lifespan)|year of life", full)),
         "precarity_or_dispossession_is_concrete": bool(re.search(r"debt|wages|unpaid|stole|stolen|take everything|barren|barren farm|hungry|starv|rent|eviction|water|estate|embezzle|fraud", full)),
         "magic_creates_inputs_not_final_wealth": bool(re.search(r"spring water|serum|seed|plant|crop|inventory|tool|bracer|ingredient|input|refill|recipe|productive access|opportunity", full)),
         "labor_operations_and_learning_remain_necessary": bool(re.search(r"farm|plant|watering|sell|stall|market|restaurant|supply|transport|negotiat|work|labor|build|grow|harvest|deliver|trade", full)),
