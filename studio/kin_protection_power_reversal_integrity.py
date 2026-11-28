@@ -27,12 +27,15 @@ def _has_affirmative_closure(text: str) -> bool:
             prefix = sentence[max(0, match.start() - 30):match.start()]
             if not negation.search(prefix):
                 return True
+            suffix = sentence[match.end():]
+            if "until" in suffix and re.search(r"until.{0,80}(?:stopped|ended|arrested|rescued|saved|eliminated|free|safe)", suffix):
+                return True
     return False
 
 
 def evaluate_kin_protection_power_reversal_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    kin = bool(re.search(r"\b(?:sisters?|brothers?|mother|father|parents?|wife|daughter|son|family|sibling)\b", full))
+    kin = bool(re.search(r"\b(?:sisters?|brothers?|mother|father|parents?|wife|daughters?|sons?|family|sibling)\b", full))
     power = bool(re.search(r"king|warden|commander|underworld|mafia|archmage|god|supreme|hidden power|legendary|sovereign|military|special operations", full))
     protection = bool(re.search(r"protect|save|avenge|revenge|bully|bullied|humiliat|threat|murder|attack|harm", full))
     if not (kin and power and protection):
