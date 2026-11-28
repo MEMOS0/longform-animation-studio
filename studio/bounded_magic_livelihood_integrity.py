@@ -22,9 +22,9 @@ def _text(value: Any) -> str:
 
 def evaluate_bounded_magic_livelihood_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    magic = bool(re.search(r"genie|magic|magical|wish|serum|portal|system|golden eye|talking objects|objects talk|dragon|spell|potion", full))
+    magic = bool(re.search(r"genie|magic|magical|wish|serum|portal|magic system|golden eye|talking objects|objects talk|dragon|spell|potion", full))
     livelihood = bool(re.search(r"farm|crops?|plant|store|shop|business|debt|wages|market|restaurant|trade|water|livelihood|empire|work|labor", full))
-    restoration = bool(re.search(r"broke|debt|steal|stolen|dispossess|barren|ruin|restore|comeback|take back|rebuild|save|starv|precari", full))
+    restoration = bool(re.search(r"broke|debt|steal|stolen|dispossess|barren|ruin|restore|comeback|take back|rebuild|starv|precari", full))
     if not (magic and livelihood and restoration):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
