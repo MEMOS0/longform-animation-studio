@@ -388,3 +388,7 @@ Completed: HUACE `QK56XAHXLb4` hit, `UV0KiJM97TM` medium, and `DnhouSFc_h4` low 
 ## ElowenTale checkpoint (2026-11-28)
 
 Completed: `xK9NcPoHLOo`, `7mnQP1GwnIw`, and `jikV6HP6BdY` downloaded, machine-analyzed, contact-sheet inspected, subtitle-mined, thumbnail-archived, and integrated into `knowledge/market/elowentale-self-selected-athlete-romance-hit-medium-low-comparison.md`. New validator: `studio/self_selected_athlete_romance_integrity.py`; full suite currently 511 passed. Also fixed thumbnail index merging so new downloads do not erase prior reference rows. Next: finish review triage if findings arrive, commit/push checkpoint, then scan newer low-subscriber leads outside covered mechanisms.
+
+## 2026-11-28 Vintage Verse checkpoint
+
+Completed `p2TCUbkpxyQ` / `sLTONdmoJOE` / `g_9Y9s1j3Qw` hit-medium-low deep dive. Added report `knowledge/market/vintage-verse-curse-cure-intimacy-hit-medium-low-comparison.md`, integrated `studio/curse_cure_intimacy_integrity.py` into production, added regression tests, archived thumbnails under `thumbnails/reference/vintage-verse-studio/`, and appended thumbnail/skill doctrine. Evidence uses auto-generated ASR and sampled contact sheets; low Medusa film is a strong-craft counterexample, not weak-writing proof. Latest local full suite before checkpoint: 516 passed. Next: commit/push checkpoint, triage any review findings, then scan fresh low-subscriber breakouts outside cursed-touch/caregiver, athlete, machine-bond, serial, cozy-survival, and revenge/withdrawal mechanisms.

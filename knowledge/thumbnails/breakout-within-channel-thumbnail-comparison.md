@@ -177,3 +177,9 @@ Hit `QK56XAHXLb4` combines giant-machine scale with a foreground interpersonal c
 ## ElowenTale athlete/family/romance comparison (2026-11-28)
 
 Hit `xK9NcPoHLOo` uses sports-arena scale, opposing team uniforms, central gymnast body, rival woman, and championship signage: competition and relational triangle are both legible. Medium `7mnQP1GwnIw` is a clean professional mother/baby power image and falsifies any simple “better thumbnail causes hit” reading. Low `jikV6HP6BdY` is polished generic luxury ex-wife romance imagery; the distinctive fire/DNA/child evidence mechanism is not visible. Treat these as visual-pattern observations, not CTR causality.
+
+## Vintage Verse Studio — cursed-touch cure thumbnails
+
+- Hit `p2TCUbkpxyQ`: warm gold palace; human-looking dragon king close over heroine; her hand directly on his glowing chest; title exactly names “I Became the Dragon King’s Only Cure.” Mechanism: dangerous touch + exception + royalty in one composition.
+- Medium `sLTONdmoJOE`: blue moonlit palace/bride/beast-king composition; “The Cursed King and The Lost Heir” foregrounds curse/identity more than trafficking or control procedure.
+- Low `g_9Y9s1j3Qw`: bright spa/resort sex-comedy, masseuse physically pinning Medusa prince, snakes/hearts and comic typography exactly matching massage premise. It is highly legible, so low views falsify simple thumbnail-quality causality. Positioning mismatch may exist because the film later becomes palace/curse intrigue, but no CTR/retention evidence exists.

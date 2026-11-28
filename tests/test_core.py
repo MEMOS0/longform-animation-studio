@@ -4859,3 +4859,22 @@ def test_self_selected_athlete_romance_ending_not_changed_by_field_order():
     ra=evaluate_self_selected_athlete_romance_integrity(premise,a,[])
     rb=evaluate_self_selected_athlete_romance_integrity(premise,b,[])
     assert ra['checks']['climax_is_decided_by_visible_skill'] == rb['checks']['climax_is_decided_by_visible_skill']
+
+
+def test_curse_cure_intimacy_integrity_positive_case():
+    from studio.curse_cure_intimacy_integrity import evaluate_curse_cure_intimacy_integrity
+    premise={'logline':'A woman whose mother is ill marries a cursed dragon king whose touch burns every woman.'}
+    architecture={'sequences':[{'summary':'He waits because she is not ready; she learns one breath again to control the shift. An enemy spreads lies and tampers with the medicine. He admits that is how it started, but now it is different. She chooses to stay and the curse is broken as they build a family home.'}]}
+    result=evaluate_curse_cure_intimacy_integrity(premise,architecture,[])
+    assert result['applies'] is True
+    assert result['score_0_to_1'] >= 0.66
+
+
+def test_curse_cure_intimacy_integrity_rejects_instant_transactional_cure():
+    from studio.curse_cure_intimacy_integrity import evaluate_curse_cure_intimacy_integrity
+    premise={'logline':'A nameless woman instantly cures a cursed dragon king by touch and becomes his possessive bride.'}
+    result=evaluate_curse_cure_intimacy_integrity(premise,{},[])
+    assert result['applies'] is True
+    assert result['checks']['cure_person_has_independent_need_or_identity'] is False
+    assert result['checks']['control_or_cure_is_procedural_not_instant'] is False
+    assert result['checks']['instrumental_origin_is_confessed_or_revised'] is False
