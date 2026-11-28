@@ -31,9 +31,9 @@ def _affirmative(pattern: str, text: str) -> bool:
 
 def evaluate_curse_cure_intimacy_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    curse = bool(re.search(r"curse|cursed|burns? at .*touch|petrif|turn to stone|lose control|rampage|shift|beast|venom|touch (?:kills|burns|hurts)|dangerous touch", full))
+    curse = bool(re.search(r"curse|cursed|burns? at .*touch|petrif|turn to stone|lose control|rampage|shift|venom|touch (?:kills|burns|hurts)|dangerous touch", full))
     creature_or_royal = bool(re.search(r"dragon|medusa|werewolf|wolf|beast|monster|serpent|snakes?|king|prince|queen|royal|alpha", full))
-    intimacy = bool(re.search(r"romance|love|wife|husband|queen|bride|kiss|touch|caregiver|massage|mate|marry|wedding", full))
+    intimacy = bool(re.search(r"romance|romantic|lover|boyfriend|girlfriend|wife|husband|bride|kiss|caregiver|massage|mate|marri|wedding", full))
     if not (curse and creature_or_royal and intimacy):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
@@ -50,13 +50,13 @@ def evaluate_curse_cure_intimacy_integrity(premise: dict[str, Any], architecture
     checks = {
         "dangerous_touch_has_rules_and_cost": bool(re.search(r"no one can (?:get near|touch)|burns? at .*touch|can't control|cannot control|hurt you|petrif|turn .* stone|die from the curse|curse.{0,60}(?:six months|death|kill|cost)|dangerous", full)),
         "cure_person_has_independent_need_or_identity": bool(re.search(r"mother|mom|mum|family|money|salary|job|profession|studio|archives|identity|who i really am|necklace|rent|contract|home", opening)),
-        "intimacy_progresses_by_consent_and_pacing": bool(re.search(r"no rush|wait until|not ready|don't be afraid|permission|choice|you choose|your choice|ask|consent|ready|stop", full)),
+        "intimacy_progresses_by_consent_and_pacing": bool(re.search(r"no rush|wait until|not ready|don't be afraid|permission|choice|you choose|your choice|ask|consent|ready|stop", full) and not re.search(r"never asks? permission|without (?:asking|permission|consent)|no consent|doesn['’]?t ask permission", full)),
         "control_or_cure_is_procedural_not_instant": bool(re.search(r"one breath|again|training|test|verification|medicine|control the shift|practice|results|witness|restore|ritual|seal|learn|procedur|treatment", full)),
         "instrumental_origin_is_confessed_or_revised": bool(re.search(r"using me|just .*cure|that's how it started|different now|truth|confess|not just|real|liar|contract", full)),
         "antagonist_weaponizes_curse_or_intimacy": bool(re.search(r"spread.*lies|drive you apart|tamper|poison|amplify the curse|lure .* away|trap|compel|control source|false oracle|curse.*weapon|use.*curse|forced my hand", full)),
         "love_is_proven_when_utility_is_questioned": bool(re.search(r"risk .*life|die for|protect|save|not just .*cure|if .*cure.*why|still needs|face it together|when i won't be there|i love|choice", full)),
         "caregiver_or_cure_retains_agency_after_intimacy": bool(re.search(r"queen|rule|host|archives|investigate|verify|decide|studio|own .*business|work|job|choice|i choose|leave|stay", full)),
-        "ending_restores_autonomy_or_shared_life_beyond_curse": _affirmative(r"home|family|baby|child|married|choose|stay|free|curse.*broken|own .*studio|together|rule|livelihood|mother", ending),
+        "ending_restores_autonomy_or_shared_life_beyond_curse": _affirmative(r"home|family|baby|child|married|choose|stay|free|own .*studio|together|rule|livelihood|mother", ending),
     }
     labels = {
         "dangerous_touch_has_rules_and_cost": "the dangerous touch/curse lacks a clear rule, cost, deadline, or bodily risk",

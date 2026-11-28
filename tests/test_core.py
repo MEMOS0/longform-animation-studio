@@ -4897,3 +4897,47 @@ def test_swapped_child_identity_rejects_rank_only_restoration():
     assert r['checks']['child_abuse_is_specific_and_material'] is False
     assert r['checks']['truth_is_procedurally_uncovered'] is False
     assert r['checks']['ending_restores_secure_belonging_not_only_rank'] is False
+
+
+def test_curse_cure_does_not_apply_to_found_family_beastkeeper():
+    import json
+    from studio.curse_cure_intimacy_integrity import evaluate_curse_cure_intimacy_integrity
+    premise=json.load(open('examples/stormglass_keepers/premise.json',encoding='utf-8'))
+    assert evaluate_curse_cure_intimacy_integrity(premise,{},[])['applies'] is False
+
+
+def test_curse_cure_bare_curse_removal_and_nonconsent_do_not_pass():
+    from studio.curse_cure_intimacy_integrity import evaluate_curse_cure_intimacy_integrity
+    premise={'logline':'A cursed dragon king romance with a bride.'}
+    scenes=[{'summary':'He kisses her and never asks permission. At the end the curse is broken.'}]
+    r=evaluate_curse_cure_intimacy_integrity(premise,{},scenes)
+    assert r['checks']['intimacy_progresses_by_consent_and_pacing'] is False
+    assert r['checks']['ending_restores_autonomy_or_shared_life_beyond_curse'] is False
+
+
+def test_athlete_romance_negated_rejected_outcomes_do_not_count_as_reversed():
+    from studio.self_selected_athlete_romance_integrity import evaluate_self_selected_athlete_romance_integrity
+    premise={'logline':'A basketball player romance follows a tournament injury.'}
+    architecture={'sequences':[{'summary':'She refuses to abandon her career for romance. The injury does not heal overnight. The report is not erased, and the rival admits fault and is suspended. She trains for competition and chooses both career and love.'}]}
+    r=evaluate_self_selected_athlete_romance_integrity(premise,architecture,[])
+    assert r['checks']['ambition_is_not_sacrificed_for_romance'] is True
+    assert r['checks']['rival_accountability_does_not_erase_consequence'] is True
+
+
+def test_athlete_romance_dance_word_boundaries_and_lasting_injury_cost():
+    from studio.self_selected_athlete_romance_integrity import evaluate_self_selected_athlete_romance_integrity
+    unrelated={'logline':'Attendance and guidance shape a workplace romance.'}
+    assert evaluate_self_selected_athlete_romance_integrity(unrelated,{},[])['applies'] is False
+    premise={'logline':'A basketball romance follows a tournament injury.'}
+    architecture={'sequences':[{'summary':'She is on crutches for a month and misses the season.'}]}
+    r=evaluate_self_selected_athlete_romance_integrity(premise,architecture,[])
+    assert r['checks']['injury_or_comeback_has_physical_cost'] is True
+
+
+def test_athlete_romance_short_epilogues_do_not_hide_scored_climax():
+    from studio.self_selected_athlete_romance_integrity import evaluate_self_selected_athlete_romance_integrity
+    premise={'logline':'A gymnastics romance reaches the final.'}
+    scenes=[{'summary':x} for x in ['opening','training','rivalry','injury','Her routine score wins first place and she chose myself.','short epilogue','short epilogue','short epilogue']]
+    r=evaluate_self_selected_athlete_romance_integrity(premise,{},scenes)
+    assert r['checks']['climax_is_decided_by_visible_skill'] is True
+    assert r['checks']['ending_self_selection_precedes_or_frames_romance'] is True
