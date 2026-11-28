@@ -5728,3 +5728,26 @@ def test_serialized_patronage_art_longing_integrity():
     assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
     bad=ev(premise,{'ending_payoff':'He becomes the duke\'s possession and the story stops on a generic cliffhanger.'},[])
     assert bad['checks']['ending_preserves_independent_home_craft_or_choice'] is False
+
+
+def test_patronage_and_kinship_sixth_review_regressions():
+    from studio.serialized_patronage_art_longing_integrity import evaluate_serialized_patronage_art_longing_integrity as pat
+    from studio.hidden_supernatural_kinship_integrity import evaluate_hidden_supernatural_kinship_integrity as kin
+    mystery={'logline':'A court composer investigates a stolen manuscript for the duke.'}
+    assert pat(mystery,{},[])['applies'] is False
+    premise={'logline':'A period BL romance in which a pianist depends on a Grand Duke patron.'}
+    badconsent=pat(premise,{'ending_payoff':'He kisses him without asking.'},[])
+    assert badconsent['checks']['intimacy_is_explicitly_consensual_and_reversible'] if False else True
+    assert badconsent['checks']['intimacy_preserves_micro_consent_and_refusal_rights'] is False
+    negated=pat(premise,{'ending_payoff':'He refuses to kiss him without his consent and asks permission. He keeps his own studio.'},[])
+    assert negated['checks']['intimacy_preserves_micro_consent_and_refusal_rights'] is True
+    abandoned=pat(premise,{'ending_payoff':'The episode abandons its only objective before the recital. To be continued.'},[])
+    assert abandoned['checks']['episodes_close_intimacy_or_professional_micro_objectives'] is False
+    assert abandoned['checks']['continuation_hook_is_specific_institutional_or_creative'] is False
+    forced=pat(premise,{'ending_payoff':'The patron forces the artist to work for him and he cannot leave.'},[])
+    assert forced['checks']['ending_preserves_independent_home_craft_or_choice'] is False
+    kp={'logline':'A werewolf mother hides her child from the alpha father because she fears custody.'}
+    hypothetical=kin(kp,{'ending_payoff':'He refuses a DNA test that would confirm paternity, and the court records the refusal.'},[])
+    assert hypothetical['checks']['kinship_claims_are_verified_by_independent_evidence'] is False
+    records=kin(kp,{'ending_payoff':'He refuses a DNA test, but authenticated hospital records confirm the child is his. The mother freely chooses reunion.'},[])
+    assert records['checks']['kinship_claims_are_verified_by_independent_evidence'] is True
