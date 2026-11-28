@@ -78,6 +78,7 @@ from .strategic_romantic_deception_integrity import evaluate_strategic_romantic_
 from .retributive_romance_reversal_integrity import evaluate_retributive_romance_reversal_integrity
 from .meaning_system_agency_restoration_integrity import evaluate_meaning_system_agency_restoration_integrity
 from .institutional_vindication_care_integrity import evaluate_institutional_vindication_care_integrity
+from .epistemic_intimacy_integrity import evaluate_epistemic_intimacy_integrity
 from .visual_causality import evaluate_visual_causality
 from .hidden_identity_integrity import evaluate_hidden_identity_integrity
 from .scale_community_integrity import evaluate_scale_community_integrity
@@ -406,6 +407,7 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "retributive_romance_reversal_integrity": evaluate_retributive_romance_reversal_integrity(premise, architecture, scenes),
         "meaning_system_agency_restoration_integrity": evaluate_meaning_system_agency_restoration_integrity(premise, architecture, scenes),
         "institutional_vindication_care_integrity": evaluate_institutional_vindication_care_integrity(premise, architecture, scenes),
+        "epistemic_intimacy_integrity": evaluate_epistemic_intimacy_integrity(premise, architecture, scenes),
         "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes), "storyboards": len(boards)},
         "gates": gate_report(schema_errors, failure, scene_report, architecture_report, bool(architecture), bool(scenes), board_report),
     }

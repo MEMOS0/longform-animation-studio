@@ -261,3 +261,7 @@ Archived evidence: `data/raw/thumbnails/paybackstories/` and `knowledge/market/p
 ## Fantasy Empire institutional-vindication thumbnail doctrine
 
 `8XXoFrjzc0A` visually encodes the entire accusation engine: a sealed evidence bundle, jewel necklace, confident holder, protesting accused woman, and shocked witness. The medium `X1VR2CLipXk` sells polished fantasy power spectacle, while the low `6YxpGGAGtw4` sells saturated werewolf romance imagery; both are attractive but less explicit about evidence/injustice. Reusable rule: for institutional vindication, foreground the contested object/document and the accused person's emotional claim, not only genre spectacle. No CTR data is available.
+
+## Purple Grape epistemic-intimacy thumbnail doctrine
+
+`76ZsC67fsoY`, `CiEfupibVy8`, and `VomDIP4eI_I` all use glossy kiss-triangle romance montages, but none clearly visualizes thought access. The fresh hit at least communicates maid/CEO class contrast; the medium/low images are more generic. Reusable rule: epistemic-intimacy packaging should show information asymmetry — visible thought text, a reaction to unspoken knowledge, silence breaking, or a privacy/test moment — instead of only attractive kissing couples. No CTR data is available.

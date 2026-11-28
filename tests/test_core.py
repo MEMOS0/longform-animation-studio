@@ -5427,3 +5427,16 @@ def test_institutional_vindication_care_integrity():
     assert weak['checks']['evidence_chain_uses_documents_witnesses_or_preserved_procedure'] is False
     assert weak['checks']['ending_restores_name_family_agency_before_status'] is False
     assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+
+def test_epistemic_intimacy_integrity():
+    from studio.epistemic_intimacy_integrity import evaluate_epistemic_intimacy_integrity as ev
+    premise={'logline':'A nanny who can hear the mute CEO inner voice discovers he can actually talk. The mind-reading is uncertain, creates suspicion and privacy tests, while her cooking, investigation, and protection make the romance behavioral.'}
+    ending={'ending_payoff':'She chooses the relationship while keeping a stable job and independent dream; they meet again by mutual choice.'}
+    good=ev(premise,ending,[])
+    assert good['applies'] is True
+    assert good['score_0_to_1'] >= 0.75
+    bad=ev({'logline':'A wife hears her husband thoughts and uses mind-reading to expose schemes.'},{'ending_payoff':'Capture progress reaches one hundred percent and she has no choice but to stay.'},[])
+    assert bad['applies'] is True
+    assert bad['checks']['power_is_not_used_as_ownership_or_capture'] is False
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
