@@ -234,3 +234,8 @@ The CineAI hit thumbnail uses dual-state identity mirroring: staff-uniform Adria
 ## Heart Flush hidden-kinship packaging lesson — 2026-11-28
 
 Reference index: `data/processed/heartflush_thumbnail_reference_index.json`; report: `knowledge/market/heartflush-hidden-supernatural-kinship-hit-medium-low-comparison.md`. The hit thumbnail works because it makes information asymmetry visible: five children occupy the foreground, one holds/points toward the truth object, the adults stare across an unresolved hidden bond, and the wolf/Christmas frame supplies threat plus warmth. The low child-care comparator is polished and readable but mainly communicates nanny chaos/cuteness; it does not communicate hidden biological kinship or progressive discovery. Reuse rule: encode who knows what inside the family image and make the hidden relational truth legible at mobile scale; do not copy wolves, Christmas, quintuplets, faces, or exact composition.
+
+
+## Beluluga NOCTURNE serialized intimate period packaging
+
+NOCTURNE adds a useful prestige-serial packaging contrast: the full-season hit uses restrained emotional close-up plus completion/prestige promise, while stronger episode/compilation packaging makes the choice triangle spatially legible. Direct two-person intimacy alone is emotionally readable but less distinctive than intimacy plus a visible third-party/social complication. For original concepts, encode private/public tension or observer-desired-ruler geometry through eye-lines, spatial arrangement, period costume, and one question-led title; do not copy the literal Grand Duke/pianist imagery. No CTR causality is available.

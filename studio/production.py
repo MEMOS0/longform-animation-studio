@@ -86,6 +86,7 @@ from .compressed_mythic_quest_integrity import evaluate_compressed_mythic_quest_
 from .period_autonomy_evidence_romance_integrity import evaluate_period_autonomy_evidence_romance_integrity
 from .hidden_supernatural_kinship_integrity import evaluate_hidden_supernatural_kinship_integrity
 from .public_dignity_transgression_integrity import evaluate_public_dignity_transgression_integrity
+from .serialized_patronage_art_longing_integrity import evaluate_serialized_patronage_art_longing_integrity
 from .visual_causality import evaluate_visual_causality
 from .hidden_identity_integrity import evaluate_hidden_identity_integrity
 from .scale_community_integrity import evaluate_scale_community_integrity
@@ -422,6 +423,7 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "period_autonomy_evidence_romance_integrity": evaluate_period_autonomy_evidence_romance_integrity(premise, architecture, scenes),
         "hidden_supernatural_kinship_integrity": evaluate_hidden_supernatural_kinship_integrity(premise, architecture, scenes),
         "public_dignity_transgression_integrity": evaluate_public_dignity_transgression_integrity(premise, architecture, scenes),
+        "serialized_patronage_art_longing_integrity": evaluate_serialized_patronage_art_longing_integrity(premise, architecture, scenes),
         "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes), "storyboards": len(boards)},
         "gates": gate_report(schema_errors, failure, scene_report, architecture_report, bool(architecture), bool(scenes), board_report),
     }

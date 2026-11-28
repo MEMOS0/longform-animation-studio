@@ -5715,3 +5715,16 @@ def test_nocturne_review_regressions():
     assert kin(premise,passed_test,[])['checks']['kinship_claims_are_verified_by_independent_evidence'] is True
     dump={'ending_payoff':'In one speech she reveals all, mentioning a birthmark and DNA for the first time. The child gradually accepts it.'}
     assert kin(premise,dump,[])['checks']['kinship_reveal_is_progressive_not_single_exposition_dump'] is False
+
+
+def test_serialized_patronage_art_longing_integrity():
+    from studio.serialized_patronage_art_longing_integrity import evaluate_serialized_patronage_art_longing_integrity as ev
+    premise={'logline':'A period BL romance in which a pianist depends on a Grand Duke patron while a lord truly listens to his unfinished music.'}
+    architecture={'ending_payoff':'He asks to end the patronage because it was the only thing they were that had a name. He keeps his new home, the invitation remains open, he writes the second movement, and war at the outpost creates a specific continuation hook.'}
+    scenes=[{'summary':'Tell me to stop. I do not want you to. The hand injury means he cannot play. The army, Crown, betrothal, court, and house create material duty; the music he wrote for him is the closest he came to asking. You can stay.'}]
+    out=ev(premise,architecture,scenes)
+    assert out['applies'] is True
+    assert out['score_0_to_1'] >= 0.65
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+    bad=ev(premise,{'ending_payoff':'He becomes the duke\'s possession and the story stops on a generic cliffhanger.'},[])
+    assert bad['checks']['ending_preserves_independent_home_craft_or_choice'] is False
