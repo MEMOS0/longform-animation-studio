@@ -1,0 +1,71 @@
+{
+  "video_id": "IawfLHr5K1k",
+  "probe": {
+    "duration": 1681.101497,
+    "size": 106675298,
+    "width": 640,
+    "height": 360,
+    "fps": "24/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\IawfLHr5K1k\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\IawfLHr5K1k\\contact_sheets\\contact_001.jpg",
+    "evidence\\media\\IawfLHr5K1k\\contact_sheets\\contact_002.jpg",
+    "evidence\\media\\IawfLHr5K1k\\contact_sheets\\contact_003.jpg",
+    "evidence\\media\\IawfLHr5K1k\\contact_sheets\\contact_004.jpg"
+  ],
+  "seconds_indexed": 1681,
+  "shot_count": 52,
+  "shot_length_mean_seconds": 32.32692307692308,
+  "shot_length_median_seconds": 16.5,
+  "shot_length_p90_seconds": 93.69999999999999,
+  "visual_motion_mean": 0.09226787632139719,
+  "visual_brightness_mean": 0.2668767489407269,
+  "dialogue_cues": 258,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 486.2,
+      "text": "DID YOU SEE THAT? IT KILLED THEM ALL,"
+    },
+    "first_power_or_identity_language": {
+      "time": 1024.6,
+      "text": "Oh my god."
+    },
+    "first_care_or_belonging_language": {
+      "time": 607.92,
+      "text": "This robot saved us. Impossible."
+    },
+    "dialogue_words_per_minute": [
+      5,
+      7,
+      12,
+      14,
+      26,
+      44,
+      7,
+      17,
+      61,
+      86,
+      121,
+      125,
+      44,
+      27,
+      7,
+      33,
+      61,
+      80,
+      45,
+      17,
+      13,
+      18,
+      15,
+      49,
+      55,
+      16,
+      1,
+      40
+    ],
+    "cue_count": 258
+  }
+}
