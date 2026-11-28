@@ -277,3 +277,7 @@ Archived evidence: `data/raw/thumbnails/paybackstories/` and `knowledge/market/p
 ## Karma Keeps Score floor-dignity thumbnail doctrine
 
 `TKUd7hWPMD8` visualizes the whole moral mechanism in one mobile-legible triangle: uniformed maid on marble with food, small child reaching toward her, wealthy fiancée pointing downward, guests filming/laughing, and the father entering behind. Text “NOT AT MY TABLE” names the social rule being violated. Rule: class-dignity thumbnails should encode spatial hierarchy, the vulnerable moral witness, the antagonist's gesture, and the approaching correction in one frame. No CTR data available.
+
+## Moon Outlaw compressed fantasy thumbnail doctrine
+
+`pZFpvKz3X3o` Mad Queen is the clearest package: centered ice queen, dragon wings, power ensemble, and legible title communicate antagonist/scale/genre immediately. `anj7PEI0ni4` Flower Field has weaker mechanism signaling and only low-resolution archived thumbnail yet more total views, so thumbnail clarity is not a performance oracle. `LECUG1uVlzE` Ground Zero has bold typography/warrior/wolf/skull field but does not encode its strongest daughter-rescue hook. Rule: compressed fantasy thumbnails should communicate the specific quest engine, not only atmosphere. No CTR data available.

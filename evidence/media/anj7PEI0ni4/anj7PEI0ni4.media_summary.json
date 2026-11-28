@@ -1,0 +1,63 @@
+{
+  "video_id": "anj7PEI0ni4",
+  "probe": {
+    "duration": 1223.64517,
+    "size": 105390117,
+    "width": 640,
+    "height": 360,
+    "fps": "30/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\anj7PEI0ni4\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\anj7PEI0ni4\\contact_sheets\\contact_001.jpg",
+    "evidence\\media\\anj7PEI0ni4\\contact_sheets\\contact_002.jpg",
+    "evidence\\media\\anj7PEI0ni4\\contact_sheets\\contact_003.jpg"
+  ],
+  "seconds_indexed": 1224,
+  "shot_count": 38,
+  "shot_length_mean_seconds": 32.21052631578947,
+  "shot_length_median_seconds": 20.0,
+  "shot_length_p90_seconds": 73.60000000000001,
+  "visual_motion_mean": 0.10171326889179362,
+  "visual_brightness_mean": 0.32874560245051004,
+  "dialogue_cues": 199,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 15.5,
+      "text": "Sounds like it's designed to kill dumb"
+    },
+    "first_power_or_identity_language": {
+      "time": 23.0,
+      "text": "Then stop talking."
+    },
+    "first_care_or_belonging_language": {
+      "time": 163.292,
+      "text": "What a lovely surprise."
+    },
+    "dialogue_words_per_minute": [
+      49,
+      32,
+      26,
+      60,
+      35,
+      43,
+      74,
+      41,
+      10,
+      28,
+      38,
+      8,
+      12,
+      18,
+      27,
+      47,
+      54,
+      102,
+      75,
+      93,
+      20
+    ],
+    "cue_count": 199
+  }
+}
