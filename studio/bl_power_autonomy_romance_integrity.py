@@ -19,9 +19,18 @@ def _text(value: Any) -> str:
     return ""
 
 
+def _has_coercive_control(text: str) -> bool:
+    patterns = (
+        r"(?:kiss(?:es|ed)?|touch(?:es|ed)?|forces?|takes?|presses?).{0,50}without (?:asking|permission|consent)",
+        r"without (?:asking|permission|consent).{0,20}(?:kiss|touch|force|bed|sex)",
+        r"not free to leave|(?:can['’]?t|cannot|not allowed) to? ?leave|keeps? .{0,25}captive|locks? .{0,25}(?:in|room)|owns? (?:him|them)|treats? .{0,25}property|no consent",
+    )
+    return any(re.search(pattern, text) for pattern in patterns)
+
+
 def evaluate_bl_power_autonomy_romance_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    queer_or_pack = bool(re.search(r"\bbl\b|male omega|alpha|omega|werewolf|wolf king|vampire|male pregnancy|boyfriend|husband|straight man|straight guy", full))
+    queer_or_pack = bool(re.search(r"\bbl\b|male omega|alpha|omega|werewolf|wolf king|vampire|male pregnancy|boyfriend|straight man|straight guy|male-male|gay", full))
     power = bool(re.search(r"billionaire|king|coach|boss|mafia|auction|paid|bought|save|rescued|patron|heir|prince", full))
     romance = bool(re.search(r"romance|boyfriend|husband|lover|kiss|marry|pregnant|crush|relationship|fell? for", full))
     if not (queer_or_pack and power and romance):
@@ -37,16 +46,18 @@ def evaluate_bl_power_autonomy_romance_integrity(premise: dict[str, Any], archit
             ending_units.extend(architecture["sequences"][-max(1, min(3, len(architecture["sequences"]))):])
     ending = (_text(ending_units) or full[-max(1, len(full) // 3):]).lower()
 
+    coercive_control = _has_coercive_control(full)
+
     checks = {
         "protagonist_has_independent_craft_or_goal": bool(re.search(r"perfumer|formula|hockey|dance|job|career|investigat|work|practice|tryout|researcher|doctor|records|mission", opening)),
         "power_asymmetry_is_explicit": bool(re.search(r"billionaire|king|coach|boss|auction|paid|bought|chains|owns?|power|status|heir|mafia|alpha", full)),
         "bodily_or_species_rules_are_explicit": bool(re.search(r"heat|pheromone|scent|mark|omega|alpha|pregnant|wolf|werewolf|vampire|blood|shift|species|bond", full)),
-        "rescue_or_payment_does_not_create_ownership": bool(re.search(r"not a bargaining chip|can't buy|cannot buy|not yours|doesn't own|no promise|contract is gone|release|free|you can leave|not property|own answer", full)),
-        "intimacy_uses_micro_consent_and_refusal_rights": bool(re.search(r"you can just say no|tell me to move away|you could have told me|ask|permission|consent|trial run|won't cross the line|if you don't want|your choice|answer", full)),
+        "rescue_or_payment_does_not_create_ownership": bool(re.search(r"not a bargaining chip|can't buy|cannot buy|not yours|doesn't own|no promise|contract is gone|release|free to leave|you can leave|not property|own answer", full) and not coercive_control),
+        "intimacy_uses_micro_consent_and_refusal_rights": bool(re.search(r"you can just say no|tell me to move away|you could have told me|ask|permission|consent|trial run|won't cross the line|if you don't want|your choice|answer", full) and not coercive_control),
         "competence_or_care_is_procedural": bool(re.search(r"practice|training|formula|tryout|records|investigation|doctor|write down|pain meds|evidence|report|test|procedure|lesson", full)),
         "medical_or_care_support_preserves_agency": bool(re.search(r"doctor|hospital|memory|headache|write down|not going to promise|pain meds|food|tell me|you can be angry|care|recover", full)),
         "institutional_truth_or_justice_is_procedural": bool(re.search(r"police|records|investigation|evidence|report|documents|preservation|responsibility|contract|lawyer|both sets", full)),
-        "romance_is_rechosen_after_leverage_is_questioned": bool(re.search(r"boyfriend|trial run|not telling you to forgive|isn't yours to give|choose|choice|answer|want more|not property|free", full)),
+        "romance_is_rechosen_after_leverage_is_questioned": bool(re.search(r"boyfriend|trial run|not telling you to forgive|isn't yours to give|choose|choice|answer|want more|not property|free to leave", full) and not coercive_control),
         "ending_preserves_future_agency_or_commitment_terms": bool(re.search(r"rest of (?:my|our) life|marriage|relationship|i can wait|won't cross the line|future|choice|choose|home|family|commitment", ending)),
     }
     labels = {
