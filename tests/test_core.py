@@ -4830,3 +4830,32 @@ def test_wound_price_revenge_explicit_refusal_to_avenge_does_not_apply():
     premise={'logline':'A dragon protector refuses to avenge anyone and chooses protection instead of revenge.'}
     result=evaluate_wound_price_revenge_integrity(premise,{},[])
     assert result['applies'] is False
+
+
+def test_self_selected_athlete_romance_applicability_avoids_container_vault_and_includes_ballet():
+    from studio.self_selected_athlete_romance_integrity import evaluate_self_selected_athlete_romance_integrity
+    dragon={'logline':'A dragon lover hides treasure in a vault and romance follows.'}
+    assert evaluate_self_selected_athlete_romance_integrity(dragon,{},[])['applies'] is False
+    ballet={'logline':'A ballet dancer falls in love while preparing for an audition.'}
+    assert evaluate_self_selected_athlete_romance_integrity(ballet,{},[])['applies'] is True
+
+
+def test_self_selected_athlete_romance_reversed_outcomes_do_not_pass():
+    from studio.self_selected_athlete_romance_integrity import evaluate_self_selected_athlete_romance_integrity
+    premise={'logline':'A basketball player romance follows a tournament injury.'}
+    architecture={'sequences':[{'summary':'She abandons her career for romance, the injury heals overnight, and the rival apology erases the penalty.'}]}
+    result=evaluate_self_selected_athlete_romance_integrity(premise,architecture,[])
+    assert result['checks']['ambition_is_not_sacrificed_for_romance'] is False
+    assert result['checks']['injury_or_comeback_has_physical_cost'] is False
+    assert result['checks']['rival_accountability_does_not_erase_consequence'] is False
+
+
+def test_self_selected_athlete_romance_ending_not_changed_by_field_order():
+    from studio.self_selected_athlete_romance_integrity import evaluate_self_selected_athlete_romance_integrity
+    premise={'logline':'A gymnast romance reaches the final competition.'}
+    seq=[{'summary':'In the ending her routine score wins first place and she chose myself before partnership.'}]
+    a={'sequences':seq,'production_note':'metadata after sequences'}
+    b={'production_note':'metadata before sequences','sequences':seq}
+    ra=evaluate_self_selected_athlete_romance_integrity(premise,a,[])
+    rb=evaluate_self_selected_athlete_romance_integrity(premise,b,[])
+    assert ra['checks']['climax_is_decided_by_visible_skill'] == rb['checks']['climax_is_decided_by_visible_skill']
