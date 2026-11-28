@@ -274,3 +274,8 @@ The remittance hit thumbnail sells one relational contradiction — elderly moth
 ## Gilded Myth folk-legend packaging
 
 The two hits use culturally explicit legend typography plus a singular creature/environment relation: moss giant and small woman in a Basque forest; golden serpent woman above an Anatolian city. The Kanlaon comparator has clear relational warmth but less large-scale cultural geography. The near-zero Half-Orc thumbnail is polished but crowded generic ensemble-war fantasy. Reusable hypothesis: one culturally specific creature/ecosystem relation beats interchangeable warrior-ensemble polish for this channel. Not CTR proof.
+
+
+## Verse education-theft packaging
+
+The hit thumbnail physically dramatizes education theft: a parent tugs textbooks from the daughter, the uniformed sister appears as beneficiary, work papers and a rebirth clock clarify the mechanism. The medium luxury-family confrontation is emotionally legible but less object-specific. The low breakfast-vendor image is warm and polished but hides the false-poverty test and class conflict. Reuse: stolen-resource stories need the stolen object visibly contested; this is not CTR proof.

@@ -5877,3 +5877,13 @@ def test_folk_ecological_reciprocity_integrity():
  out=ev(p,a,[scene])
  assert out['applies'] and out['score_0_to_1']>.65
  assert ev({'logline':'A dragon guards a cave.'},{},[])['applies'] is False
+
+
+def test_education_theft_false_poverty_integrity():
+ from studio.education_theft_false_poverty_integrity import evaluate_education_theft_false_poverty_integrity as ev
+ p={'logline':'Parents pretending to be poor order their daughter to quit school and work at the recycling yard while saving their assets for her elite-school sister.'}
+ a={'ending_payoff':'She graduates, keeps her studies and thesis, is founder and chairwoman of her own AI company, rejects unearned reconciliation, and gives the parents scrap business at market rate every cent without revenge or pity.'}
+ scene={'summary':'She refuses dropping out, pays tuition through supermarket work, invokes the Labor Bureau and police, wins the exam bet, exposes luxury-store shopping, Chanel bags, paid-off storefronts, and hidden assets publicly, confronts her sister appropriating the top-scorer identity, bankrupts the family firm through lawful competition, and chooses education/career.'}
+ out=ev(p,a,[scene])
+ assert out['applies'] and out['score_0_to_1']>.65
+ assert ev({'logline':'A dragon guards a cave.'},{},[])['applies'] is False

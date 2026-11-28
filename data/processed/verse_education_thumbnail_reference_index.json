@@ -1,0 +1,63 @@
+{
+  "evidence_class": "tier_1_metadata_plus_visual_inspection",
+  "causality_warning": "Thumbnail observations are packaging evidence, not CTR proof. The low comparator may be strong craft with softer packaging/discovery.",
+  "items": [
+    {
+      "video_id": "F9aPpyMOcFA",
+      "path": "data/raw/thumbnails/verse/F9aPpyMOcFA.jpg",
+      "performance_position": "hit",
+      "measured_metrics": {
+        "brightness": 0.446,
+        "contrast": 0.229,
+        "edge_density": 0.154,
+        "mobile_contrast": 0.206
+      },
+      "visual_mechanics": [
+        "parent physically grabbing high-school textbooks",
+        "uniformed sister visibly positioned as beneficiary",
+        "father holding recruitment/work papers",
+        "golden clock spiral signaling rebirth/time",
+        "exact stolen object legible at mobile size"
+      ],
+      "reusable_concept": "When the premise is resource theft, show the stolen object in the act of being taken; education theft should be physical, not implied."
+    },
+    {
+      "video_id": "MIWOa0KvVjY",
+      "path": "data/raw/thumbnails/verse/MIWOa0KvVjY.jpg",
+      "performance_position": "medium",
+      "measured_metrics": {
+        "brightness": 0.53,
+        "contrast": 0.26,
+        "edge_density": 0.133,
+        "mobile_contrast": 0.242
+      },
+      "visual_mechanics": [
+        "luxury interior family confrontation",
+        "older woman shielding crying younger woman",
+        "husband and mistress in background",
+        "clear emotional alliance but less object-specific mechanism"
+      ],
+      "reusable_concept": "Family-alliance packaging can communicate protection, but needs a unique object/evidence hook if the premise is procedural fraud."
+    },
+    {
+      "video_id": "0dkR7SDNG-o",
+      "path": "data/raw/thumbnails/verse/0dkR7SDNG-o.jpg",
+      "performance_position": "low thematic comparator",
+      "measured_metrics": {
+        "brightness": 0.552,
+        "contrast": 0.239,
+        "edge_density": 0.187,
+        "mobile_contrast": 0.203
+      },
+      "visual_mechanics": [
+        "warm breakfast-vendor romance",
+        "parents approving in background",
+        "hearts and cartoon decorations",
+        "low visible conflict",
+        "false-poverty test and class humiliation absent"
+      ],
+      "reusable_concept": "Warm labor romance is appealing but may undersell moral-test conflict; add a test/object/social-contradiction cue without losing warmth."
+    }
+  ],
+  "craft_rule": "For education/resource-theft stories, packaging should physically dramatize the stolen object and the beneficiary/thief relation. A textbook tug-of-war is more mechanism-legible than generic luxury confrontation or warm romance; this is a hypothesis, not CTR proof."
+}

@@ -773,3 +773,8 @@ Use `knowledge/market/nightfall-elder-remittance-care-hit-medium-low-comparison.
 ## Gilded Myth folk ecological reciprocity doctrine
 
 Use `knowledge/market/gilded-myth-folk-ecological-reciprocity-hit-low-comparison.md` before writing culturally grounded legends, ecological fantasy, communal land/water conflicts, healing-oath stories, or supernatural guardians. Require material cultural practice, supernatural ecological infrastructure, extraction/enclosure conflict, bounded human oath/mediation, visible cost of betrayal, ordinary evidence, community restoration, creature autonomy, and memory/seasonal continuity. Run `folk_ecological_reciprocity_integrity`. Treat *The Beast of Kanlaon* and *The Half-Orc* as anti-overfit evidence: low discovery does not mean weak writing.
+
+
+## Verse education-theft false-poverty doctrine
+
+Use `knowledge/market/verse-education-theft-false-poverty-hit-medium-low-comparison.md` before writing parental exploitation, false poverty, sibling favoritism, education theft, exam reversal, student-worker stories, or labor-dignity romance. Require immediate coercion/refusal, exact material economics, hidden assets/luxury contradiction, sibling resource transfer, institutional witnesses, evidence exposure, education-to-career compounding, material consequences, and bounded non-reconciliatory ending. Run `education_theft_false_poverty_integrity`. Treat the breakfast-vendor low comparator as strong craft and anti-overfit evidence.

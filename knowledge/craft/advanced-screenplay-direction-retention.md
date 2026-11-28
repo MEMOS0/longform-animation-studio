@@ -309,3 +309,8 @@ When family care is delegated through money or a proxy, do not treat remittance 
 ## Folk ecological reciprocity doctrine — Gilded Myth evidence
 
 For culturally grounded fantasy legends, supernatural beings should function as part of ecological or communal infrastructure, not as mascots or treasures. Ground the opening in material labor and local practice; make extraction/enclosure/broken reciprocity the central conflict; give human mediators bounded oaths rather than ownership; make betrayal physically costly through slope, water, illness, fire, or seasonal closure; expose lies through ordinary evidence; restore the commons; and end in memory/continuity. Low-discovery folk/ecological stories can still be strong craft, so do not treat discovery as a writing-quality oracle.
+
+
+## Education-theft false-poverty doctrine — Verse evidence
+
+When education or future opportunity is stolen inside a family, open inside the coercion and immediate refusal. Make false poverty procedural: exact tuition, labor extraction, hidden assets, luxury contradiction, resource transfer to a favored child, and filial-duty shame. Let resistance compound through work, study, law, witnesses, exams, admissions, and later career/ownership. Expose the performance publicly through records/witnesses/visual contradictions. End with boundaries and procedural fairness rather than forced reconciliation. If false poverty is a protective romantic test rather than exploitation, deception still requires apology, repair, and respect for honest labor autonomy.
