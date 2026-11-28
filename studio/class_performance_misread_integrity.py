@@ -23,7 +23,7 @@ def _text(value: Any) -> str:
 
 def evaluate_class_performance_misread_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    rebirth = bool(re.search(r"reborn|rebirth|second life|past life|first life|years? earlier|lived once before", full))
+    rebirth = bool(re.search(r"reborn|rebirth|second life|past life|first life|years? earlier|lived once before|sent back to age|returns? to age|back at age", full))
     class_arena = bool(re.search(r"old money|wealthy|rich|heiress|socialite|elite|aristocrat|countess|manor|invitation|exclusive|designer|pedigree|dynasty|high society|status", full))
     misread = bool(re.search(r"misread|mistaken for|believe(?:s|d)? (?:she|he|they)|assume(?:s|d)?|suspect(?:s|ed)?|think(?:s|ing)? (?:she|he|they)|appears? to be|looks? like|convinc(?:ed|ing)|family explanation|secret dynasty|powerful family", full))
     nonperformance = bool(re.search(r"stop(?:s|ped)? performing|done performing|no longer pretends?|not auditioning|refus\w+|turns? down|ordinary|unbothered|does not need (?:status|approval)|likes? (?:herself|himself|themselves)|being herself|authentic", full))
