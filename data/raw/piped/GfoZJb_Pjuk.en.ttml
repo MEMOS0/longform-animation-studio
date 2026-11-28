@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.400" end="00:00:02.433" style="s2">Shh. Subtitles are available.</p>
+<p begin="00:00:08.266" end="00:00:09.666" style="s2">Magnificent, Ian.</p>
+<p begin="00:00:09.766" end="00:00:11.666" style="s2">Simply magnificent.</p>
+<p begin="00:00:11.666" end="00:00:12.833" style="s2">Thank you.</p>
+<p begin="00:00:16.366" end="00:00:17.800" style="s2">If you&#39;ll excuse me.</p>
+<p begin="00:00:25.366" end="00:00:26.566" style="s2">If you&#39;ll excuse me.</p>
+<p begin="00:00:42.366" end="00:00:43.933" style="s2">It sounded different tonight.</p>
+<p begin="00:00:46.200" end="00:00:47.266" style="s2">That obvious?</p>
+<p begin="00:00:48.933" end="00:00:50.666" style="s2">Only if one had heard it before.</p>
+<p begin="00:00:51.800" end="00:00:52.533" style="s2">Last winter,</p>
+<p begin="00:00:52.533" end="00:00:54.700" style="s2">it sounded as though you were waiting for someone.</p>
+<p begin="00:00:55.800" end="00:00:57.300" style="s2">Tonight, it sounded like goodbye.</p>
+<p begin="00:00:58.533" end="00:01:00.133" style="s2">Perhaps I needed it too.</p>
+<p begin="00:01:01.833" end="00:01:03.333" style="s2">Then I won&#39;t ask to whom.</p>
+<p begin="00:01:04.533" end="00:01:05.933" style="s2">Unusually considerate.</p>
+<p begin="00:01:06.600" end="00:01:07.933" style="s2">I have my moments.</p>
+<p begin="00:01:14.400" end="00:01:16.266" style="s2">You brought music to a betrothed?</p>
+<p begin="00:01:16.300" end="00:01:18.000" style="s2">One should never arrive unarmed.</p>
+<p begin="00:01:21.300" end="00:01:22.400" style="s2">-This is yours.</p>
+<p begin="00:01:22.500" end="00:01:23.466" style="s2">-Unfortunately.</p>
+<p begin="00:01:23.600" end="00:01:24.966" style="s2">It isn&#39;t terrible.</p>
+<p begin="00:01:25.033" end="00:01:26.633" style="s2">From you, I shall take that as applause.</p>
+<p begin="00:01:31.566" end="00:01:32.466" style="s2">Third bar.</p>
+<p begin="00:01:33.400" end="00:01:34.833" style="s2">I knew you&#39;d find it.</p>
+<p begin="00:01:35.700" end="00:01:37.633" style="s2">You stop before the phrase resolves.</p>
+<p begin="00:01:38.733" end="00:01:40.666" style="s2">I couldn&#39;t decide where it should go.</p>
+<p begin="00:01:42.933" end="00:01:44.500" style="s2">Then don&#39;t decide yet.</p>
+<p begin="00:01:46.733" end="00:01:47.533" style="s2">All right.</p>
+<p begin="00:01:47.933" end="00:01:50.633" style="s2">I find myself in need of professional supervision.</p>
+<p begin="00:01:51.166" end="00:01:53.766" style="s2">And I happen to have a piano that deserves rescuing.</p>
+<p begin="00:01:53.966" end="00:01:55.833" style="s2">Would you visit me on Thursday?</p>
+<p begin="00:01:56.666" end="00:01:57.833" style="s2">To rescue the piano?</p>
+<p begin="00:01:58.000" end="00:01:59.500" style="s2">Solely in the interest of the instrument.</p>
+<p begin="00:02:10.800" end="00:02:12.933" style="s2">Your pianist left his music behind.</p>
+<p begin="00:02:15.433" end="00:02:16.900" style="s2">Have it sent to my carriage.</p>
+<p begin="00:02:17.600" end="00:02:18.666" style="s2">Your carriage?</p>
+<p begin="00:02:19.300" end="00:02:20.933" style="s2">He returns with my household.</p>
+<p begin="00:02:22.133" end="00:02:23.300" style="s2">Of course.</p>
+<p begin="00:02:28.866" end="00:02:31.633" style="s2">Tuned every month, played almost never.</p>
+<p begin="00:02:32.900" end="00:02:34.533" style="s2">That&#39;s cruel.</p>
+<p begin="00:02:35.066" end="00:02:35.933" style="s2">To the piano?</p>
+<p begin="00:02:36.066" end="00:02:36.833" style="s2">Obviously.</p>
+<p begin="00:02:38.433" end="00:02:39.933" style="s2">I see where I rank.</p>
+<p begin="00:02:56.233" end="00:02:57.366" style="s2">You&#39;re staring.</p>
+<p begin="00:02:58.666" end="00:02:59.766" style="s2">I&#39;m listening.</p>
+<p begin="00:03:00.266" end="00:03:01.500" style="s2">With your eyes.</p>
+<p begin="00:03:02.466" end="00:03:03.466" style="s2">Family failing.</p>
+<p begin="00:03:08.566" end="00:03:10.166" style="s2">Third bar. Play it.</p>
+<p begin="00:03:12.000" end="00:03:13.500" style="s2">Absolutely not.</p>
+<p begin="00:03:16.133" end="00:03:17.033" style="s2">Sit down.</p>
+<p begin="00:03:20.966" end="00:03:22.333" style="s2">You played it wrong.</p>
+<p begin="00:03:23.366" end="00:03:24.266" style="s2">Very.</p>
+<p begin="00:03:26.633" end="00:03:27.900" style="s2">You kept going.</p>
+<p begin="00:03:30.333" end="00:03:31.700" style="s2">Stopping would have made it worse.</p>
+<p begin="00:03:39.166" end="00:03:41.833" style="s2">Come back. We should finish it.</p>
+<p begin="00:03:42.066" end="00:03:42.933" style="s2">The piece?</p>
+<p begin="00:03:43.766" end="00:03:45.633" style="s2">I was hoping you&#39;d assume so.</p>
+<p begin="00:03:51.966" end="00:03:53.266" style="s2">Is that you?</p>
+<p begin="00:03:53.266" end="00:03:54.666" style="s2">Unfortunately.</p>
+<p begin="00:03:56.400" end="00:03:58.166" style="s2">You look very serious.</p>
+<p begin="00:03:58.166" end="00:03:59.766" style="s2">I was 6.</p>
+<p begin="00:03:59.933" end="00:04:02.433" style="s2">You were trying very hard.</p>
+<p begin="00:04:04.800" end="00:04:06.666" style="s2">It&#39;s rather charming.</p>
+<p begin="00:04:06.733" end="00:04:08.300" style="s2">The portrait?</p>
+<p begin="00:04:08.333" end="00:04:09.566" style="s2">The portrait.</p>
+<p begin="00:04:09.966" end="00:04:10.966" style="s2">Of course.</p>
+<p begin="00:04:20.133" end="00:04:21.533" style="s2">Ian.</p>
+<p begin="00:04:22.666" end="00:04:23.833" style="s2">You left this.</p>
+<p begin="00:04:24.500" end="00:04:25.700" style="s2">I didn&#39;t even notice.</p>
+<p begin="00:04:25.833" end="00:04:27.166" style="s2">May I?</p>
+<p begin="00:04:35.000" end="00:04:36.433" style="s2">You could&#39;ve sent someone.</p>
+<p begin="00:04:36.900" end="00:04:38.166" style="s2">I could have.</p>
+<p begin="00:04:43.500" end="00:04:44.400" style="s2">Better.</p>
+<p begin="00:04:45.066" end="00:04:46.533" style="s2">Thank you, Lord Julius.</p>
+<p begin="00:04:47.666" end="00:04:48.833" style="s2">Good night, Ian.</p>
+<p begin="00:04:53.400" end="00:04:54.433" style="s2">Good night.</p>
+<p begin="00:05:02.133" end="00:05:02.933" style="s2">Come in.</p>
+<p begin="00:05:09.266" end="00:05:11.766" style="s2">Two nights ago, you left before the final toast.</p>
+<p begin="00:05:13.133" end="00:05:14.666" style="s2">I had finished playing.</p>
+<p begin="00:05:14.666" end="00:05:16.733" style="s2">The evening was not over.</p>
+<p begin="00:05:16.733" end="00:05:18.566" style="s2">For me, it was.</p>
+<p begin="00:05:18.766" end="00:05:20.066" style="s2">You were in the garden.</p>
+<p begin="00:05:20.433" end="00:05:21.200" style="s2">For air.</p>
+<p begin="00:05:21.566" end="00:05:22.866" style="s2">With Lord Julius.</p>
+<p begin="00:05:23.000" end="00:05:24.633" style="s2">And conversation.</p>
+<p begin="00:05:24.633" end="00:05:26.466" style="s2">He seems to provide both.</p>
+<p begin="00:05:27.900" end="00:05:29.766" style="s2">You were at his house today.</p>
+<p begin="00:05:29.766" end="00:05:31.300" style="s2">I was invited to play.</p>
+<p begin="00:05:33.100" end="00:05:34.700" style="s2">There are pianos here.</p>
+<p begin="00:05:36.333" end="00:05:37.433" style="s2">I know.</p>
+<p begin="00:05:40.733" end="00:05:41.633" style="s2">Look at me.</p>
+<p begin="00:05:46.600" end="00:05:47.400" style="s2">Kael.</p>
+<p begin="00:06:11.333" end="00:06:12.966" style="s2">Forgive me, Your Grace.</p>
+<p begin="00:06:14.766" end="00:06:15.866" style="s2">Ian.</p>
+</div>
+</body>
+</tt>
