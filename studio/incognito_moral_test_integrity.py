@@ -44,11 +44,11 @@ def evaluate_incognito_moral_test_integrity(premise: dict[str, Any], architectur
         full,
     ))
     powerless_conduct = bool(re.search(
-        r"how (?:she|he|they) treat|treats? (?:the )?(?:maid|cleaner|worker|clerk|poor|homeless|stranger|staff)|threw (?:her|him|them) out|slap|humiliat|mock|laugh|bully|open(?:ed)? the door|shelter|fed|cover(?:ed)? the cost",
+        r"how (?:she|he|they) treat|treats? (?:the )?(?:maid|cleaner|worker|clerk|poor|homeless|stranger|staff)|threw (?:her|him|them) out|slap|humiliat|mock|laugh|bully|open(?:ed|s)? the door|shelter|fed|cover(?:ed)? the cost",
         full,
     ))
-    ordered = "\n".join([_text(architecture), _text(scenes)]).lower() or full
-    kindness_pattern = r"out of (?:her|his|their) pay|open(?:ed)? the door|share(?:d|s)? (?:her|his|their) (?:food|meal|soup)|gave (?:her|him|them) (?:a room|shelter|food)|paid bail|bus fare|risk(?:ed|s)? (?:her|his|their) job|lost (?:her|his|their) job|cover(?:ed)? the rest|keep one room"
+    ordered = "\n".join([_text(architecture), _text(scenes)]).lower().strip() or full
+    kindness_pattern = r"out of (?:her|his|their) pay|open(?:ed|s)? the door|share(?:d|s)? (?:her|his|their) (?:food|meal|soup)|gave (?:her|him|them) (?:a room|shelter|food)|paid bail|bus fare|risk(?:ed|s)? (?:her|his|their) job|lost (?:her|his|their) job|cover(?:ed)? the rest|keep one room"
     reward_pattern = r"reward|bought|buy(?:s|ing)? (?:her|him|them)? ?(?:the )?(?:motel|hotel|shop|restaurant)|promotion|marry|marriage|reveals? (?:her|his|their) identity|identity is revealed|inherits?|own(?:s|ing)? (?:a|the)? ?(?:business|restaurant|shop|motel|company)|manager"
     kindness_match = re.search(kindness_pattern, ordered)
     reward_match = re.search(reward_pattern, ordered)

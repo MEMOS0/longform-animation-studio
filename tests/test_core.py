@@ -5202,3 +5202,23 @@ def test_incognito_moral_test_applicability_and_temporal_regressions():
     arch={'sequences':[{'summary':'The son says this is not your exam and you never asked me.'}]}
     r=evaluate_incognito_moral_test_integrity(premise,arch,[])
     assert r['checks']['covert_test_is_ethically_contested'] is True
+
+
+def test_age_gap_numeric_and_unrelated_adult_regressions():
+    from studio.age_gap_romance_autonomy_integrity import evaluate_age_gap_romance_autonomy_integrity
+    premise={'logline':'A 24-year-old woman marries a 49-year-old billionaire as society judges their marriage.'}
+    assert evaluate_age_gap_romance_autonomy_integrity(premise,{},[])['applies'] is True
+    same_age={'logline':'A young woman marries a young billionaire as society judges their marriage.'}
+    assert evaluate_age_gap_romance_autonomy_integrity(same_age,{},[])['applies'] is False
+    premise={'logline':'A young girl catches an old billionaire husband and society judges their marriage.'}
+    arch={'sequences':[{'summary':'His adult children object but neither partner is called an adult.'}]}
+    r=evaluate_age_gap_romance_autonomy_integrity(premise,arch,[])
+    assert r['checks']['both_partners_are_unambiguously_adults'] is False
+
+
+def test_incognito_premise_only_uses_premise_text():
+    from studio.incognito_moral_test_integrity import evaluate_incognito_moral_test_integrity
+    premise={'logline':'A billionaire mother pretends to be a maid to test how the fiancée treats workers. The cook opens the door before any reward, the son says this is not your exam, and the ending gives the cook her own restaurant.'}
+    r=evaluate_incognito_moral_test_integrity(premise,{},[])
+    assert r['applies'] is True
+    assert r['checks']['kindness_is_active_and_costly_before_reward'] is True
