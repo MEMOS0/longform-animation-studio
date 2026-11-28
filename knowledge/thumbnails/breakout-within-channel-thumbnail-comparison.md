@@ -241,3 +241,7 @@ Archived evidence: `data/raw/thumbnails/primefate/` and `knowledge/market/primef
 ## Tempting Dramas deprioritized-spouse packaging
 
 Archived evidence: `data/raw/thumbnails/temptingdramas/` and `knowledge/market/tempting-deprioritized-spouse-power-reversal-hit-medium-low-comparison.md`. Hit packaging sells transformation/chosen-family warmth; medium packaging sells irreversible exit through the car, reaching ex, crying rival, and falling ring; low packaging is polished and specific with a bandaged composed protagonist, hospital/husband, glamorous rival, and “Too Late” title. Reusable mechanism: composed departing woman + bodily/object cost + man reaching too late + rival inside the abandoned status world. Packaging observations only, not CTR proof.
+
+## NeoDrama AI shared-resource packaging
+
+Archived evidence: `data/raw/thumbnails/neodrama/` and `knowledge/market/neodrama-shared-resource-exploitation-hit-medium-low-comparison.md`. Hit packaging centers calm exit with keys/suitcase while exploiters react inside the shared home; medium centers the out-of-service elevator and a screaming entitled neighbor; low centers phone verification/card lock, the exact bill, food consumption, and police. Reusable mechanism: make the controlled object or access mechanism visually central, contrast composed provider with entitled claimant, and use exact cost/action language. Packaging observations only, not CTR proof.

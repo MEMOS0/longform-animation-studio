@@ -5313,3 +5313,13 @@ def test_family_abandonment_requires_relative_not_plan():
     from studio.misplaced_family_loyalty_integrity import evaluate_misplaced_family_loyalty_integrity as ev
     assert ev({'logline':'The family abandoned their daughter because they believed the impostor heir.'},{'ending_payoff':'She walks away; proof is revealed.'},[])['applies'] is True
     assert ev({'logline':'The family abandoned the renovation plan, though the favorite son objected.'},{},{})['applies'] is False
+
+
+def test_shared_resource_exploitation_integrity_positive_and_negative():
+    from studio.shared_resource_exploitation_integrity import evaluate_shared_resource_exploitation_integrity as ev
+    premise={'logline':'After college roommates let Clara move her boyfriend in and free-ride the rent again, Lucy packed up and moved out, locking down her own lease.'}
+    arch={'ending_payoff':'The camera footage and recorder went to the police and lawyer. The scam ring was arrested, the apartment had new locks, rent was down, and Lucy finally had a safe door she could close.'}
+    r=ev(premise,arch,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.8
+    assert ev({'logline':'Two neighbors argue once about noise.'},{},[])['applies'] is False

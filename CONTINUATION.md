@@ -480,3 +480,7 @@ Selected Tempting Dramas deprioritized-wife/self-rule hit-medium-low comparison:
 ## 2026-11-28 Tempting Dramas doctrine checkpoint
 
 Completed Tempting Dramas hit/medium/low report and integrated `studio/deprioritized_spouse_power_reversal_integrity.py`. Key doctrine: repeated/material deprioritization, structurally leveraged rival, decisive boundary, competence/position/alliance reversal, late regret without automatic access, institutional consequences, and self-rule/chosen-family ending. Tests 560 passed before commit. Continue scanning uncovered fresh low-subscriber breakouts; handle new Devin Review findings first.
+
+## 2026-11-28 NeoDrama shared-resource checkpoint
+
+Completed NeoDrama AI hit/medium/low comparison for `it3DAkGGrnk`, `ZRPomf9v2aY`, and `1iojuD4CoUE`; integrated `studio/shared_resource_exploitation_integrity.py`. Doctrine: concrete shared resource, repeated extraction, access-control boundary, deepfake-aware procedural evidence, material/legal consequences, and secure autonomy/reciprocity beyond punishment. Tests 564 passed before commit. Continue scanning uncovered fresh low-subscriber breakouts; handle new Devin Review findings first.

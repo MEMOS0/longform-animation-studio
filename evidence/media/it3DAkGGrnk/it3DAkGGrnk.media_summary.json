@@ -2,7 +2,7 @@
   "video_id": "it3DAkGGrnk",
   "probe": {
     "duration": 3851.424218,
-    "size": 169387302,
+    "size": 169377499,
     "width": 202,
     "height": 360,
     "fps": "30/1",
@@ -25,8 +25,8 @@
   "shot_length_mean_seconds": 32.914529914529915,
   "shot_length_median_seconds": 8.0,
   "shot_length_p90_seconds": 105.4,
-  "visual_motion_mean": 0.13046495609501266,
-  "visual_brightness_mean": 0.3147236894020751,
+  "visual_motion_mean": 0.13046250712208476,
+  "visual_brightness_mean": 0.3147215528731188,
   "dialogue_cues": 1572,
   "narrative_markers": {
     "first_conflict_language": {

@@ -698,3 +698,7 @@ Use `knowledge/market/primefate-misplaced-family-loyalty-hit-medium-low-comparis
 ## Tempting Dramas deprioritized-spouse power-reversal doctrine
 
 Use `knowledge/market/tempting-deprioritized-spouse-power-reversal-hit-medium-low-comparison.md` for spouse-deprioritization mafia/romance stories. Require repeated/materially costly deprioritization, a rival with personal or structural leverage, a decisive behavioral boundary, reversal through competence/position/alliance, late regret that does not reopen access automatically, institutional consequences, and an ending of self-rule or chosen family. Run `deprioritized_spouse_power_reversal_integrity`. The low-discovery consigliere film is a strong counterexample; do not infer weak writing or packaging from low views.
+
+## NeoDrama AI shared-resource exploitation doctrine
+
+Use `knowledge/market/neodrama-shared-resource-exploitation-hit-medium-low-comparison.md` for roommate, neighbor, card, housing, elevator, food, or communal-resource exploitation stories. Require concrete material cost, repeated/systematic extraction, a protagonist who controls access or exits, deepfake-aware procedural evidence, legal/institutional consequences, and an ending that restores secure autonomy or reciprocal use rather than punishment alone. Run `shared_resource_exploitation_integrity`. The low-discovery card-theft film is a strong procedural counterexample; do not infer weak writing or packaging from low views.

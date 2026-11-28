@@ -1,0 +1,2142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.300" end="00:00:05.300" style="s2">I paid $230,000 myself to install an</p>
+<p begin="00:00:03.300" end="00:00:07.200" style="s2">elevator. My neighbors rode free for</p>
+<p begin="00:00:05.300" end="00:00:08.000" style="s2">three years, then reported me over a</p>
+<p begin="00:00:07.200" end="00:00:09.800" style="s2">cabinet.</p>
+<p begin="00:00:08.000" end="00:00:11.400" style="s2">&gt;&gt; Ms. Vance, someone complained about</p>
+<p begin="00:00:09.800" end="00:00:12.900" style="s2">clutter in the hallway. Please remove</p>
+<p begin="00:00:11.400" end="00:00:14.800" style="s2">the cabinet as soon as possible.</p>
+<p begin="00:00:12.900" end="00:00:17.000" style="s2">&gt;&gt; The hallway is shared. You can&#39;t leave a</p>
+<p begin="00:00:14.800" end="00:00:19.600" style="s2">cabinet here. Move it.</p>
+<p begin="00:00:17.000" end="00:00:21.300" style="s2">&gt;&gt; Now. I paid for this elevator. They rode</p>
+<p begin="00:00:19.600" end="00:00:23.300" style="s2">free for three years, yet they&#39;re</p>
+<p begin="00:00:21.300" end="00:00:26.600" style="s2">reporting me for a cabinet outside my</p>
+<p begin="00:00:23.300" end="00:00:28.900" style="s2">door. I&#39;m Chloe Vance. Three years ago,</p>
+<p begin="00:00:26.600" end="00:00:31.400" style="s2">I bought a sixth floor unit in an old</p>
+<p begin="00:00:28.900" end="00:00:33.600" style="s2">walk-up. Mom has bad knees and can&#39;t</p>
+<p begin="00:00:31.400" end="00:00:37.100" style="s2">climb stairs. The developer allowed an</p>
+<p begin="00:00:33.600" end="00:00:39.400" style="s2">elevator, but I had to pay $230,000.</p>
+<p begin="00:00:37.100" end="00:00:42.100" style="s2">I bit the bullet. It ran from floors one</p>
+<p begin="00:00:39.400" end="00:00:44.200" style="s2">to six. I owned it, but let every</p>
+<p begin="00:00:42.100" end="00:00:46.100" style="s2">neighbor use it. I even held the door</p>
+<p begin="00:00:44.200" end="00:00:49.100" style="s2">when they moved stuff. It was no</p>
+<p begin="00:00:46.100" end="00:00:50.500" style="s2">trouble. Three years, no issues. Then</p>
+<p begin="00:00:49.100" end="00:00:51.800" style="s2">Linda moved in.</p>
+<p begin="00:00:50.500" end="00:00:52.600" style="s2">&gt;&gt; How&#39;s it work?</p>
+<p begin="00:00:51.800" end="00:00:54.700" style="s2">A key card?</p>
+<p begin="00:00:52.600" end="00:00:55.600" style="s2">&gt;&gt; It&#39;s free. Just press it.</p>
+<p begin="00:00:54.700" end="00:00:57.400" style="s2">&gt;&gt; Free?</p>
+<p begin="00:00:55.600" end="00:00:58.600" style="s2">This is an add-on, right?</p>
+<p begin="00:00:57.400" end="00:01:00.300" style="s2">Management doesn&#39;t charge?</p>
+<p begin="00:00:58.600" end="00:01:01.500" style="s2">&gt;&gt; No, it&#39;s free.</p>
+<p begin="00:01:00.300" end="00:01:03.000" style="s2">&gt;&gt; Great.</p>
+<p begin="00:01:01.500" end="00:01:04.300" style="s2">I bought on the fifth floor and dreaded</p>
+<p begin="00:01:03.000" end="00:01:05.100" style="s2">the stairs.</p>
+<p begin="00:01:04.300" end="00:01:07.100" style="s2">Problem solved.</p>
+<p begin="00:01:05.100" end="00:01:10.300" style="s2">&gt;&gt; After that, Linda rode it daily for</p>
+<p begin="00:01:07.100" end="00:01:13.200" style="s2">work, groceries, and trash. One time,</p>
+<p begin="00:01:10.300" end="00:01:15.800" style="s2">she moved over 20 packages.</p>
+<p begin="00:01:13.200" end="00:01:16.500" style="s2">&gt;&gt; Ms. Vance, could you help me carry a few</p>
+<p begin="00:01:15.800" end="00:01:18.600" style="s2">loads?</p>
+<p begin="00:01:16.500" end="00:01:20.300" style="s2">&gt;&gt; Of course.</p>
+<p begin="00:01:18.600" end="00:01:22.000" style="s2">&gt;&gt; [gasps]</p>
+<p begin="00:01:20.300" end="00:01:25.200" style="s2">&gt;&gt; This elevator&#39;s tiny.</p>
+<p begin="00:01:22.000" end="00:01:25.200" style="s2">Hardly anything fits.</p>
+<p begin="00:01:26.700" end="00:01:31.800" style="s2">&gt;&gt; She borrowed my folding ladder, drill,</p>
+<p begin="00:01:29.000" end="00:01:34.600" style="s2">and vacuum, then forgot and never</p>
+<p begin="00:01:31.800" end="00:01:36.500" style="s2">returned them.</p>
+<p begin="00:01:34.600" end="00:01:38.800" style="s2">&gt;&gt; Ms. Vance, need me?</p>
+<p begin="00:01:36.500" end="00:01:40.400" style="s2">&gt;&gt; Linda, you still have the vacuum you</p>
+<p begin="00:01:38.800" end="00:01:42.800" style="s2">borrowed last month.</p>
+<p begin="00:01:40.400" end="00:01:44.700" style="s2">&gt;&gt; Oh, I completely forgot.</p>
+<p begin="00:01:42.800" end="00:01:46.300" style="s2">Our vacuum broke, and I haven&#39;t bought a</p>
+<p begin="00:01:44.700" end="00:01:48.400" style="s2">new one yet.</p>
+<p begin="00:01:46.300" end="00:01:50.200" style="s2">I&#39;ll bring yours up when I&#39;m done.</p>
+<p begin="00:01:48.400" end="00:01:52.600" style="s2">&gt;&gt; Didn&#39;t get it back.</p>
+<p begin="00:01:50.200" end="00:01:54.500" style="s2">&gt;&gt; Linda has it. She&#39;ll bring it up later.</p>
+<p begin="00:01:52.600" end="00:01:56.900" style="s2">The folding ladder we lent her is still</p>
+<p begin="00:01:54.500" end="00:01:59.300" style="s2">on her balcony for three months.</p>
+<p begin="00:01:56.900" end="00:02:00.892" style="s2">&gt;&gt; Forget it. She&#39;s a neighbor. We see her</p>
+<p begin="00:01:59.300" end="00:02:01.992" style="s2">every day. Let it go.</p>
+<p begin="00:02:00.892" end="00:02:05.292" style="s2">&gt;&gt; I did</p>
+<p begin="00:02:01.992" end="00:02:06.592" style="s2">for a year. Until one day, I overheard</p>
+<p begin="00:02:05.292" end="00:02:08.192" style="s2">her talking.</p>
+<p begin="00:02:06.592" end="00:02:10.892" style="s2">&gt;&gt; Ms. Vance on six.</p>
+<p begin="00:02:08.192" end="00:02:12.092" style="s2">She&#39;s nouveau rich. Got an elevator</p>
+<p begin="00:02:10.892" end="00:02:14.092" style="s2">to show off.</p>
+<p begin="00:02:12.092" end="00:02:14.692" style="s2">Put a cabinet by the door like it&#39;s her</p>
+<p begin="00:02:14.092" end="00:02:16.692" style="s2">place.</p>
+<p begin="00:02:14.692" end="00:02:17.492" style="s2">&gt;&gt; But she installed it and lets us use it</p>
+<p begin="00:02:16.692" end="00:02:19.492" style="s2">free.</p>
+<p begin="00:02:17.492" end="00:02:21.192" style="s2">&gt;&gt; Once installed, it&#39;s public.</p>
+<p begin="00:02:19.492" end="00:02:22.792" style="s2">She can&#39;t rip it out.</p>
+<p begin="00:02:21.192" end="00:02:23.792" style="s2">Mark my words. She&#39;s just putting on an</p>
+<p begin="00:02:22.792" end="00:02:24.892" style="s2">act.</p>
+<p begin="00:02:23.792" end="00:02:28.092" style="s2">Wait.</p>
+<p begin="00:02:24.892" end="00:02:28.092" style="s2">She&#39;ll get put in her place.</p>
+<p begin="00:02:28.992" end="00:02:34.092" style="s2">&gt;&gt; Over the next few days, the complaint</p>
+<p begin="00:02:30.992" end="00:02:36.892" style="s2">calls kept coming.</p>
+<p begin="00:02:34.092" end="00:02:39.192" style="s2">&gt;&gt; Ms. Vance, management. A resident says</p>
+<p begin="00:02:36.892" end="00:02:40.392" style="s2">you left clutter in the hallway. Please</p>
+<p begin="00:02:39.192" end="00:02:41.192" style="s2">clear it out.</p>
+<p begin="00:02:40.392" end="00:02:43.292" style="s2">&gt;&gt; What clutter?</p>
+<p begin="00:02:41.192" end="00:02:45.592" style="s2">&gt;&gt; The cabinet beside your elevator.</p>
+<p begin="00:02:43.292" end="00:02:47.492" style="s2">&gt;&gt; It&#39;s been there three years. No one&#39;s</p>
+<p begin="00:02:45.592" end="00:02:48.792" style="s2">ever complained.</p>
+<p begin="00:02:47.492" end="00:02:51.292" style="s2">&gt;&gt; Who complained?</p>
+<p begin="00:02:48.792" end="00:02:54.192" style="s2">&gt;&gt; We can&#39;t disclose that.</p>
+<p begin="00:02:51.292" end="00:02:54.192" style="s2">&gt;&gt; Okay, got it.</p>
+<p begin="00:03:00.392" end="00:03:05.092" style="s2">&gt;&gt; Hello, Municipal Enforcement Bureau.</p>
+<p begin="00:03:03.192" end="00:03:06.792" style="s2">Someone reported illegal storage outside</p>
+<p begin="00:03:05.092" end="00:03:07.892" style="s2">your sixth floor home.</p>
+<p begin="00:03:06.792" end="00:03:10.892" style="s2">We need to inspect it.</p>
+<p begin="00:03:07.892" end="00:03:10.892" style="s2">&gt;&gt; Sure, come by.</p>
+<p begin="00:03:12.592" end="00:03:15.492" style="s2">&gt;&gt; This cabinet takes up shared hallway</p>
+<p begin="00:03:14.192" end="00:03:17.492" style="s2">space.</p>
+<p begin="00:03:15.492" end="00:03:19.592" style="s2">You should move it.</p>
+<p begin="00:03:17.492" end="00:03:20.992" style="s2">&gt;&gt; Okay, understood.</p>
+<p begin="00:03:19.592" end="00:03:22.392" style="s2">&gt;&gt; You had this elevator privately</p>
+<p begin="00:03:20.992" end="00:03:23.392" style="s2">installed.</p>
+<p begin="00:03:22.392" end="00:03:24.892" style="s2">Was it approved?</p>
+<p begin="00:03:23.392" end="00:03:27.392" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:03:24.892" end="00:03:30.092" style="s2">&gt;&gt; All permits check out.</p>
+<p begin="00:03:27.392" end="00:03:32.692" style="s2">&gt;&gt; I thought it was over. Then fire, the</p>
+<p begin="00:03:30.092" end="00:03:33.592" style="s2">committee, and sub district office all</p>
+<p begin="00:03:32.692" end="00:03:35.792" style="s2">came.</p>
+<p begin="00:03:33.592" end="00:03:39.092" style="s2">&gt;&gt; Ms. Vance, a neighbor says your cabinet</p>
+<p begin="00:03:35.792" end="00:03:39.092" style="s2">blocks the fire exit.</p>
+<p begin="00:03:39.192" end="00:03:41.592" style="s2">&gt;&gt; Someone reported a fire hazard on your</p>
+<p begin="00:03:40.992" end="00:03:44.192" style="s2">floor.</p>
+<p begin="00:03:41.592" end="00:03:45.092" style="s2">&gt;&gt; Same complaint every time. And I always</p>
+<p begin="00:03:44.192" end="00:03:47.092" style="s2">cooperated.</p>
+<p begin="00:03:45.092" end="00:03:48.992" style="s2">&gt;&gt; It doesn&#39;t block the exit.</p>
+<p begin="00:03:47.092" end="00:03:50.292" style="s2">The metal cabinet won&#39;t ignite on its</p>
+<p begin="00:03:48.992" end="00:03:52.092" style="s2">own.</p>
+<p begin="00:03:50.292" end="00:03:54.592" style="s2">But to keep the hall tidy, you should</p>
+<p begin="00:03:52.092" end="00:03:54.592" style="s2">move it.</p>
+<p begin="00:03:55.892" end="00:04:01.492" style="s2">&gt;&gt; There&#39;s nothing wrong, yet inspectors</p>
+<p begin="00:03:57.492" end="00:04:01.492" style="s2">come every day. Who did we offend?</p>
+<p begin="00:04:03.392" end="00:04:07.494" style="s2">&gt;&gt; Wait.</p>
+<p begin="00:04:04.292" end="00:04:08.894" style="s2">I&#39;m telling you, she just acts generous.</p>
+<p begin="00:04:07.494" end="00:04:11.694" style="s2">Just wait.</p>
+<p begin="00:04:08.894" end="00:04:11.694" style="s2">She&#39;ll get hers.</p>
+<p begin="00:04:19.894" end="00:04:24.694" style="s2">&gt;&gt; Ms. Vance, perfect timing. Why is your</p>
+<p begin="00:04:22.594" end="00:04:27.394" style="s2">cabinet still in the hall? We&#39;ve had</p>
+<p begin="00:04:24.694" end="00:04:28.494" style="s2">inspection after inspection. I&#39;m sick of</p>
+<p begin="00:04:27.394" end="00:04:31.094" style="s2">reading complaints.</p>
+<p begin="00:04:28.494" end="00:04:33.394" style="s2">&gt;&gt; Mr. Davis, I&#39;m fed up too. This is</p>
+<p begin="00:04:31.094" end="00:04:35.494" style="s2">disrupting my life. I cooperate with</p>
+<p begin="00:04:33.394" end="00:04:37.294" style="s2">every inspection and they never find a</p>
+<p begin="00:04:35.494" end="00:04:39.494" style="s2">problem. That proves I&#39;m not the</p>
+<p begin="00:04:37.294" end="00:04:41.694" style="s2">problem. The problem is whoever reports</p>
+<p begin="00:04:39.494" end="00:04:41.694" style="s2">me.</p>
+<p begin="00:04:41.794" end="00:04:47.894" style="s2">Who keeps complaining about me?</p>
+<p begin="00:04:44.094" end="00:04:47.894" style="s2">&gt;&gt; I told you, that&#39;s confidential.</p>
+<p begin="00:04:50.894" end="00:04:56.794" style="s2">&gt;&gt; Linda Miller, of course, Linda.</p>
+<p begin="00:04:54.294" end="00:04:59.294" style="s2">&gt;&gt; Ms. Vance, it&#39;s just a cabinet. What&#39;s</p>
+<p begin="00:04:56.794" end="00:05:00.594" style="s2">the big deal? Move it and all this</p>
+<p begin="00:04:59.294" end="00:05:02.694" style="s2">trouble goes away.</p>
+<p begin="00:05:00.594" end="00:05:05.094" style="s2">&gt;&gt; It is just a cabinet.</p>
+<p begin="00:05:02.694" end="00:05:08.194" style="s2">Yet over this, she won&#39;t let up and</p>
+<p begin="00:05:05.094" end="00:05:10.294" style="s2">keeps complaining.</p>
+<p begin="00:05:08.194" end="00:05:12.594" style="s2">Does that seem fair, Mr. Davis?</p>
+<p begin="00:05:10.294" end="00:05:14.994" style="s2">&gt;&gt; But every owner has a right to complain.</p>
+<p begin="00:05:12.594" end="00:05:17.794" style="s2">I can&#39;t stop them. Tell you what, Ms.</p>
+<p begin="00:05:14.994" end="00:05:20.494" style="s2">Vance. Tomorrow, we&#39;re holding an owners</p>
+<p begin="00:05:17.794" end="00:05:22.994" style="s2">meeting on managing shared hallways. You</p>
+<p begin="00:05:20.494" end="00:05:25.594" style="s2">should come. We can all discuss it then.</p>
+<p begin="00:05:22.994" end="00:05:28.894" style="s2">&gt;&gt; Good. I want to see how Linda justifies</p>
+<p begin="00:05:25.594" end="00:05:28.894" style="s2">her two-faced act.</p>
+<p begin="00:05:33.394" end="00:05:37.494" style="s2">&gt;&gt; Ms. Vance, you&#39;re here.</p>
+<p begin="00:05:35.694" end="00:05:40.094" style="s2">&gt;&gt; We&#39;ve gotten some complaints lately</p>
+<p begin="00:05:37.494" end="00:05:41.794" style="s2">about items left in the hallway. Please</p>
+<p begin="00:05:40.094" end="00:05:44.194" style="s2">clear your things out and keep the</p>
+<p begin="00:05:41.794" end="00:05:45.094" style="s2">hallway clean. Let&#39;s keep our building a</p>
+<p begin="00:05:44.194" end="00:05:47.694" style="s2">nice place.</p>
+<p begin="00:05:45.094" end="00:05:49.194" style="s2">&gt;&gt; Mr. Davis, let me say this. We all know</p>
+<p begin="00:05:47.694" end="00:05:51.794" style="s2">what&#39;s going on.</p>
+<p begin="00:05:49.194" end="00:05:53.394" style="s2">Ms. Vance on the 6th floor put a cabinet</p>
+<p begin="00:05:51.794" end="00:05:55.694" style="s2">by the elevator.</p>
+<p begin="00:05:53.394" end="00:05:58.294" style="s2">No offense, Ms. Vance, but the hallway</p>
+<p begin="00:05:55.694" end="00:05:59.894" style="s2">is shared space. That cabinet isn&#39;t good</p>
+<p begin="00:05:58.294" end="00:06:01.694" style="s2">for anyone.</p>
+<p begin="00:05:59.894" end="00:06:03.294" style="s2">What if there&#39;s a fire? What if it</p>
+<p begin="00:06:01.694" end="00:06:05.294" style="s2">blocks our escape route?</p>
+<p begin="00:06:03.294" end="00:06:05.695" style="s2">&gt;&gt; Mr. Lawson, you think so?</p>
+<p begin="00:06:05.294" end="00:06:07.795" style="s2">&gt;&gt; I recall</p>
+<p begin="00:06:05.695" end="00:06:08.195" style="s2">&gt;&gt; it&#39;s made of metal. It can&#39;t catch fire,</p>
+<p begin="00:06:07.795" end="00:06:10.695" style="s2">right?</p>
+<p begin="00:06:08.195" end="00:06:13.895" style="s2">&gt;&gt; Who says metal can&#39;t catch fire? What if</p>
+<p begin="00:06:10.695" end="00:06:15.695" style="s2">she puts cardboard or other junk inside?</p>
+<p begin="00:06:13.895" end="00:06:17.195" style="s2">&gt;&gt; Then we&#39;d better remove it.</p>
+<p begin="00:06:15.695" end="00:06:19.895" style="s2">&gt;&gt; I agree.</p>
+<p begin="00:06:17.195" end="00:06:22.395" style="s2">A cabinet there isn&#39;t safe.</p>
+<p begin="00:06:19.895" end="00:06:25.695" style="s2">&gt;&gt; Mrs. Jenkins, all I keep in there are</p>
+<p begin="00:06:22.395" end="00:06:27.895" style="s2">metal tools, screwdrivers, pliers. You</p>
+<p begin="00:06:25.695" end="00:06:31.395" style="s2">even borrowed them a few times. You</p>
+<p begin="00:06:27.895" end="00:06:33.695" style="s2">didn&#39;t call it unsafe then.</p>
+<p begin="00:06:31.395" end="00:06:36.095" style="s2">&gt;&gt; I didn&#39;t give it much thought. Now that</p>
+<p begin="00:06:33.695" end="00:06:38.795" style="s2">Linda&#39;s brought it up, I agree it&#39;s best</p>
+<p begin="00:06:36.095" end="00:06:39.895" style="s2">to remove it. A clear hallway is safer</p>
+<p begin="00:06:38.795" end="00:06:41.695" style="s2">for everyone.</p>
+<p begin="00:06:39.895" end="00:06:43.595" style="s2">&gt;&gt; Exactly.</p>
+<p begin="00:06:41.695" end="00:06:46.195" style="s2">That&#39;s my point.</p>
+<p begin="00:06:43.595" end="00:06:47.695" style="s2">Mr. Davis, Miss Vance, I&#39;m looking out</p>
+<p begin="00:06:46.195" end="00:06:49.695" style="s2">for everyone.</p>
+<p begin="00:06:47.695" end="00:06:51.395" style="s2">A private cabinet in a common area</p>
+<p begin="00:06:49.695" end="00:06:53.095" style="s2">really gets in the way.</p>
+<p begin="00:06:51.395" end="00:06:54.995" style="s2">&gt;&gt; It is?</p>
+<p begin="00:06:53.095" end="00:06:57.495" style="s2">Then what about the elevator taking up</p>
+<p begin="00:06:54.995" end="00:07:00.095" style="s2">common space? Why isn&#39;t that in the way?</p>
+<p begin="00:06:57.495" end="00:07:02.795" style="s2">&gt;&gt; Miss Vance, that&#39;s different.</p>
+<p begin="00:07:00.095" end="00:07:05.395" style="s2">The elevator is a shared necessity.</p>
+<p begin="00:07:02.795" end="00:07:06.495" style="s2">The cabinet is your property. You can&#39;t</p>
+<p begin="00:07:05.395" end="00:07:08.295" style="s2">compare the two.</p>
+<p begin="00:07:06.495" end="00:07:10.695" style="s2">&gt;&gt; Linda, did you forget?</p>
+<p begin="00:07:08.295" end="00:07:13.295" style="s2">I paid to have this elevator installed.</p>
+<p begin="00:07:10.695" end="00:07:15.195" style="s2">That makes it my personal property. So</p>
+<p begin="00:07:13.295" end="00:07:17.495" style="s2">when they&#39;re both my property, why</p>
+<p begin="00:07:15.195" end="00:07:20.995" style="s2">doesn&#39;t the elevator bother you?</p>
+<p begin="00:07:17.495" end="00:07:23.995" style="s2">But the cabinet does. Besides, I live on</p>
+<p begin="00:07:20.995" end="00:07:25.995" style="s2">the top floor. So when exactly</p>
+<p begin="00:07:23.995" end="00:07:28.795" style="s2">would my cabinet be in anyone&#39;s way?</p>
+<p begin="00:07:25.995" end="00:07:31.995" style="s2">&gt;&gt; Are you bragging that you paid for it?</p>
+<p begin="00:07:28.795" end="00:07:33.495" style="s2">&gt;&gt; Yes. You installed the elevator.</p>
+<p begin="00:07:31.995" end="00:07:36.195" style="s2">But does paying for it mean you can</p>
+<p begin="00:07:33.495" end="00:07:38.095" style="s2">ignore the rules? So you keep reminding</p>
+<p begin="00:07:36.195" end="00:07:40.895" style="s2">us you installed it.</p>
+<p begin="00:07:38.095" end="00:07:43.095" style="s2">You think that earns special treatment?</p>
+<p begin="00:07:40.895" end="00:07:45.495" style="s2">We remember you installed the elevator,</p>
+<p begin="00:07:43.095" end="00:07:47.695" style="s2">but Linda still has a point.</p>
+<p begin="00:07:45.495" end="00:07:48.695" style="s2">Installing it doesn&#39;t earn you special</p>
+<p begin="00:07:47.695" end="00:07:51.095" style="s2">treatment.</p>
+<p begin="00:07:48.695" end="00:07:53.795" style="s2">&gt;&gt; No one&#39;s blaming you, but hallways have</p>
+<p begin="00:07:51.095" end="00:07:56.995" style="s2">rules too. Why don&#39;t you just remove the</p>
+<p begin="00:07:53.795" end="00:07:59.395" style="s2">cabinet? It&#39;s no big deal, right? It&#39;s</p>
+<p begin="00:07:56.995" end="00:08:00.295" style="s2">just a cabinet. There&#39;s no need to argue</p>
+<p begin="00:07:59.395" end="00:08:02.995" style="s2">this long.</p>
+<p begin="00:08:00.295" end="00:08:05.795" style="s2">&gt;&gt; Moving the cabinet takes a few minutes.</p>
+<p begin="00:08:02.995" end="00:08:07.395" style="s2">Why make such a fuss, Miss Vance?</p>
+<p begin="00:08:05.795" end="00:08:09.397" style="s2">You heard them.</p>
+<p begin="00:08:07.395" end="00:08:11.497" style="s2">We all feel the same way.</p>
+<p begin="00:08:09.397" end="00:08:14.897" style="s2">Just remove the cabinet.</p>
+<p begin="00:08:11.497" end="00:08:14.897" style="s2">Then we won&#39;t think you&#39;re entitled.</p>
+<p begin="00:08:15.397" end="00:08:20.797" style="s2">&gt;&gt; So my cabinet is me flaunting special</p>
+<p begin="00:08:17.897" end="00:08:23.297" style="s2">privileges, but when you need it, the</p>
+<p begin="00:08:20.797" end="00:08:25.297" style="s2">elevator&#39;s a public amenity. Who said</p>
+<p begin="00:08:23.297" end="00:08:27.097" style="s2">they didn&#39;t need one back then?</p>
+<p begin="00:08:25.297" end="00:08:29.897" style="s2">The developer said we could add an</p>
+<p begin="00:08:27.097" end="00:08:32.097" style="s2">elevator. Should we all chip in for one?</p>
+<p begin="00:08:29.897" end="00:08:32.697" style="s2">&gt;&gt; Nah, I&#39;m on the second floor. Don&#39;t need</p>
+<p begin="00:08:32.097" end="00:08:32.997" style="s2">it.</p>
+<p begin="00:08:32.697" end="00:08:35.297" style="s2">&gt;&gt; Huh.</p>
+<p begin="00:08:32.997" end="00:08:37.097" style="s2">&gt;&gt; The third floor isn&#39;t so high.</p>
+<p begin="00:08:35.297" end="00:08:38.997" style="s2">The stairs are good exercise.</p>
+<p begin="00:08:37.097" end="00:08:40.997" style="s2">&gt;&gt; It&#39;s been three years. I thought</p>
+<p begin="00:08:38.997" end="00:08:43.697" style="s2">neighbors helped each other, but Linda</p>
+<p begin="00:08:40.997" end="00:08:46.197" style="s2">came along and taught me this. Some see</p>
+<p begin="00:08:43.697" end="00:08:48.897" style="s2">kindness as weakness. The kinder you</p>
+<p begin="00:08:46.197" end="00:08:51.797" style="s2">are, the more they bully you. From now</p>
+<p begin="00:08:48.897" end="00:08:56.097" style="s2">on, my kindness is for those who deserve</p>
+<p begin="00:08:51.797" end="00:08:57.597" style="s2">it. Fine. I&#39;ll remove the cabinet.</p>
+<p begin="00:08:56.097" end="00:08:59.097" style="s2">&gt;&gt; Good, good.</p>
+<p begin="00:08:57.597" end="00:09:00.597" style="s2">We&#39;re all neighbors.</p>
+<p begin="00:08:59.097" end="00:09:04.097" style="s2">Let&#39;s be understanding.</p>
+<p begin="00:09:00.597" end="00:09:06.297" style="s2">&gt;&gt; Mm, I get it, Mr. Davis. I&#39;ll remove it</p>
+<p begin="00:09:04.097" end="00:09:10.297" style="s2">tomorrow. Come by when you can.</p>
+<p begin="00:09:06.297" end="00:09:10.297" style="s2">&gt;&gt; Sure. I&#39;ll come first thing tomorrow.</p>
+<p begin="00:09:15.797" end="00:09:20.497" style="s2">Thanks, Ms. Vance. Looks much cleaner</p>
+<p begin="00:09:18.297" end="00:09:23.197" style="s2">without the cabinet. I&#39;ll be going then.</p>
+<p begin="00:09:20.497" end="00:09:25.397" style="s2">&gt;&gt; Wait, Mr. Davis. These are the ownership</p>
+<p begin="00:09:23.197" end="00:09:27.597" style="s2">papers for this elevator. They prove</p>
+<p begin="00:09:25.397" end="00:09:29.797" style="s2">it&#39;s my personal property.</p>
+<p begin="00:09:27.597" end="00:09:31.597" style="s2">&gt;&gt; Ms. Vance, what?</p>
+<p begin="00:09:29.797" end="00:09:34.497" style="s2">&gt;&gt; This is the installation contract.</p>
+<p begin="00:09:31.597" end="00:09:36.797" style="s2">Installation, $230,000</p>
+<p begin="00:09:34.497" end="00:09:40.097" style="s2">plus upkeep and power bills. The total&#39;s</p>
+<p begin="00:09:36.797" end="00:09:40.097" style="s2">about $268,000.</p>
+<p begin="00:09:40.597" end="00:09:43.797" style="s2">&gt;&gt; Ms. Vance, why are you suddenly showing</p>
+<p begin="00:09:42.897" end="00:09:46.097" style="s2">me all this?</p>
+<p begin="00:09:43.797" end="00:09:47.497" style="s2">&gt;&gt; For three years, I let the neighbors use</p>
+<p begin="00:09:46.097" end="00:09:49.897" style="s2">it for free.</p>
+<p begin="00:09:47.497" end="00:09:50.497" style="s2">Now I&#39;m revoking that privilege.</p>
+<p begin="00:09:49.897" end="00:09:53.197" style="s2">&gt;&gt; Ms. Vance.</p>
+<p begin="00:09:50.497" end="00:09:54.697" style="s2">&gt;&gt; I decide who can and can&#39;t use it.</p>
+<p begin="00:09:53.197" end="00:09:56.897" style="s2">&gt;&gt; But everyone&#39;s used to it.</p>
+<p begin="00:09:54.697" end="00:09:59.497" style="s2">&gt;&gt; Habits aren&#39;t rights. Not one thank you</p>
+<p begin="00:09:56.897" end="00:10:02.097" style="s2">in three years. I handle repairs. I pay</p>
+<p begin="00:09:59.497" end="00:10:03.797" style="s2">for power and maintenance. Now they call</p>
+<p begin="00:10:02.097" end="00:10:06.797" style="s2">me entitled. They reported me for</p>
+<p begin="00:10:03.797" end="00:10:10.397" style="s2">clutter. Fine. The cabinet&#39;s gone, but</p>
+<p begin="00:10:06.797" end="00:10:10.397" style="s2">this elevator is now private.</p>
+<p begin="00:10:11.797" end="00:10:15.098" style="s2">&gt;&gt; Ms. Vance.</p>
+<p begin="00:10:13.098" end="00:10:17.698" style="s2">&gt;&gt; can we talk this over?</p>
+<p begin="00:10:15.098" end="00:10:19.998" style="s2">You just shut it off.</p>
+<p begin="00:10:17.698" end="00:10:22.198" style="s2">It&#39;ll inconvenience everyone.</p>
+<p begin="00:10:19.998" end="00:10:24.998" style="s2">&gt;&gt; That&#39;s not my problem. There&#39;s nothing</p>
+<p begin="00:10:22.198" end="00:10:24.998" style="s2">to discuss.</p>
+<p begin="00:10:28.298" end="00:10:31.198" style="s2">&gt;&gt; Huh?</p>
+<p begin="00:10:29.698" end="00:10:34.398" style="s2">&gt;&gt; Guess what?</p>
+<p begin="00:10:31.198" end="00:10:36.398" style="s2">Miss Vance is closing the elevator.</p>
+<p begin="00:10:34.398" end="00:10:38.298" style="s2">&gt;&gt; Seriously?</p>
+<p begin="00:10:36.398" end="00:10:41.198" style="s2">I was just at the office.</p>
+<p begin="00:10:38.298" end="00:10:43.498" style="s2">Mr. Davis told me Miss Vance says the</p>
+<p begin="00:10:41.198" end="00:10:46.298" style="s2">elevator&#39;s hers, and she won&#39;t let us</p>
+<p begin="00:10:43.498" end="00:10:46.298" style="s2">use it now.</p>
+<p begin="00:10:46.598" end="00:10:52.198" style="s2">&gt;&gt; Without it, how do we get upstairs?</p>
+<p begin="00:10:48.998" end="00:10:54.698" style="s2">&gt;&gt; What else? Take the stairs like before.</p>
+<p begin="00:10:52.198" end="00:10:57.798" style="s2">&gt;&gt; Easy for you on the first floor.</p>
+<p begin="00:10:54.698" end="00:10:57.798" style="s2">I&#39;m on the third floor.</p>
+<p begin="00:10:58.898" end="00:11:02.698" style="s2">I have to go ask Miss Vance.</p>
+<p begin="00:11:04.598" end="00:11:08.798" style="s2">&gt;&gt; Mrs. Jenkins?</p>
+<p begin="00:11:06.198" end="00:11:10.898" style="s2">&gt;&gt; I heard you&#39;re closing it.</p>
+<p begin="00:11:08.798" end="00:11:12.798" style="s2">&gt;&gt; Yes, but if you close it, how will we</p>
+<p begin="00:11:10.898" end="00:11:16.298" style="s2">get upstairs?</p>
+<p begin="00:11:12.798" end="00:11:16.298" style="s2">&gt;&gt; How&#39;d you get upstairs before?</p>
+<p begin="00:11:17.498" end="00:11:21.698" style="s2">&gt;&gt; Walked up.</p>
+<p begin="00:11:18.398" end="00:11:23.898" style="s2">&gt;&gt; Then walk. You can still use the stairs.</p>
+<p begin="00:11:21.698" end="00:11:26.898" style="s2">&gt;&gt; But we&#39;re used to the elevator.</p>
+<p begin="00:11:23.898" end="00:11:29.798" style="s2">Miss Vance, it was working fine.</p>
+<p begin="00:11:26.898" end="00:11:29.798" style="s2">Why shut it down?</p>
+<p begin="00:11:30.898" end="00:11:37.398" style="s2">&gt;&gt; Didn&#39;t you ask me to clear my stuff out?</p>
+<p begin="00:11:34.498" end="00:11:40.998" style="s2">The elevator&#39;s mine, too.</p>
+<p begin="00:11:37.398" end="00:11:40.998" style="s2">Why can&#39;t I get rid of that, too?</p>
+<p begin="00:11:41.498" end="00:11:45.198" style="s2">&gt;&gt; Is this about yesterday&#39;s meeting?</p>
+<p begin="00:11:46.698" end="00:11:51.198" style="s2">Miss Vance, I know our saying you got</p>
+<p begin="00:11:48.898" end="00:11:54.098" style="s2">special treatment upset you, but it was</p>
+<p begin="00:11:51.198" end="00:11:56.798" style="s2">about hallway safety.</p>
+<p begin="00:11:54.098" end="00:12:00.498" style="s2">&gt;&gt; If this is about safety, my cabinet&#39;s</p>
+<p begin="00:11:56.798" end="00:12:03.198" style="s2">metal. It&#39;s filled with metal tools.</p>
+<p begin="00:12:00.498" end="00:12:07.098" style="s2">You always pile boxes in the hall, Mrs.</p>
+<p begin="00:12:03.198" end="00:12:08.398" style="s2">Jenkins. Aren&#39;t those the real hazard?</p>
+<p begin="00:12:07.098" end="00:12:11.298" style="s2">&gt;&gt; I</p>
+<p begin="00:12:08.398" end="00:12:13.199" style="s2">&gt;&gt; The elevator closes next week. End of</p>
+<p begin="00:12:11.298" end="00:12:15.799" style="s2">discussion.</p>
+<p begin="00:12:13.199" end="00:12:18.099" style="s2">&gt;&gt; Ms. Vance, we&#39;re neighbors.</p>
+<p begin="00:12:15.799" end="00:12:19.099" style="s2">Don&#39;t overreact to one little thing.</p>
+<p begin="00:12:18.099" end="00:12:20.699" style="s2">&gt;&gt; Small?</p>
+<p begin="00:12:19.099" end="00:12:22.999" style="s2">Ma&#39;am,</p>
+<p begin="00:12:20.699" end="00:12:25.899" style="s2">I spent $230,000</p>
+<p begin="00:12:22.999" end="00:12:27.499" style="s2">on it. Three years free. I never charged</p>
+<p begin="00:12:25.899" end="00:12:31.199" style="s2">a dime.</p>
+<p begin="00:12:27.499" end="00:12:33.299" style="s2">Now, because someone has it in for me,</p>
+<p begin="00:12:31.199" end="00:12:36.499" style="s2">they keep reporting me.</p>
+<p begin="00:12:33.299" end="00:12:36.499" style="s2">You call that nothing?</p>
+<p begin="00:12:38.499" end="00:12:43.899" style="s2">My cabinet. It was reported as hallway</p>
+<p begin="00:12:40.999" end="00:12:45.899" style="s2">clutter five days straight.</p>
+<p begin="00:12:43.899" end="00:12:48.999" style="s2">Fire and code inspectors took turns</p>
+<p begin="00:12:45.899" end="00:12:52.099" style="s2">coming. There was no safety hazard.</p>
+<p begin="00:12:48.999" end="00:12:54.599" style="s2">You still want it cleared.</p>
+<p begin="00:12:52.099" end="00:12:56.399" style="s2">Fine. I&#39;ll clear it out.</p>
+<p begin="00:12:54.599" end="00:12:59.699" style="s2">Then no more elevator.</p>
+<p begin="00:12:56.399" end="00:13:02.899" style="s2">&gt;&gt; Ms. Vance, is this a misunderstanding?</p>
+<p begin="00:12:59.699" end="00:13:02.899" style="s2">We only held a meeting.</p>
+<p begin="00:13:03.399" end="00:13:09.299" style="s2">Who reported your cabinet?</p>
+<p begin="00:13:04.899" end="00:13:09.299" style="s2">&gt;&gt; No. Ask whoever reported me.</p>
+<p begin="00:13:10.499" end="00:13:13.399" style="s2">&gt;&gt; Well,</p>
+<p begin="00:13:11.299" end="00:13:15.599" style="s2">what did Ms. Vance say?</p>
+<p begin="00:13:13.399" end="00:13:17.899" style="s2">&gt;&gt; She says someone reported her.</p>
+<p begin="00:13:15.599" end="00:13:19.199" style="s2">Now she&#39;s closing the elevator.</p>
+<p begin="00:13:17.899" end="00:13:21.299" style="s2">&gt;&gt; What report?</p>
+<p begin="00:13:19.199" end="00:13:24.499" style="s2">&gt;&gt; You made it.</p>
+<p begin="00:13:21.299" end="00:13:24.499" style="s2">&gt;&gt; Let&#39;s ask management.</p>
+<p begin="00:13:25.699" end="00:13:31.399" style="s2">Mr. Davis, Ms. Vance says she was</p>
+<p begin="00:13:27.999" end="00:13:32.899" style="s2">reported, so she&#39;s closing the elevator.</p>
+<p begin="00:13:31.399" end="00:13:34.699" style="s2">Is that true?</p>
+<p begin="00:13:32.899" end="00:13:37.799" style="s2">&gt;&gt; Yes, that&#39;s true.</p>
+<p begin="00:13:34.699" end="00:13:40.599" style="s2">&gt;&gt; You&#39;d report Ms. Vance over nothing?</p>
+<p begin="00:13:37.799" end="00:13:42.499" style="s2">It&#39;s just a cabinet. Why report that?</p>
+<p begin="00:13:40.599" end="00:13:43.699" style="s2">&gt;&gt; Tell us who reported her.</p>
+<p begin="00:13:42.499" end="00:13:45.899" style="s2">We&#39;ll confront them.</p>
+<p begin="00:13:43.699" end="00:13:46.699" style="s2">&gt;&gt; But under our policy, we can&#39;t reveal</p>
+<p begin="00:13:45.899" end="00:13:48.899" style="s2">who filed it.</p>
+<p begin="00:13:46.699" end="00:13:52.699" style="s2">&gt;&gt; One person&#39;s complaint can&#39;t leave our</p>
+<p begin="00:13:48.899" end="00:13:52.699" style="s2">whole building without an elevator.</p>
+<p begin="00:13:58.099" end="00:14:03.699" style="s2">So it was Linda.</p>
+<p begin="00:13:59.799" end="00:14:03.699" style="s2">No wonder she was vocal at the forum.</p>
+<p begin="00:14:04.399" end="00:14:06.699" style="s2">Linda.</p>
+<p begin="00:14:07.099" end="00:14:11.899" style="s2">&gt;&gt; Jenkins, Cooper, you two.</p>
+<p begin="00:14:09.599" end="00:14:13.199" style="s2">Mr. Davis, Ms. Vance said the cabinet</p>
+<p begin="00:14:11.899" end="00:14:13.999" style="s2">goes today.</p>
+<p begin="00:14:13.199" end="00:14:14.899" style="s2">Is it gone?</p>
+<p begin="00:14:13.999" end="00:14:15.201" style="s2">&gt;&gt; Linda.</p>
+<p begin="00:14:14.899" end="00:14:16.601" style="s2">&gt;&gt; Some</p>
+<p begin="00:14:15.201" end="00:14:18.901" style="s2">&gt;&gt; nerve.</p>
+<p begin="00:14:16.601" end="00:14:20.201" style="s2">Because of you, Ms. Vance may shut the</p>
+<p begin="00:14:18.901" end="00:14:21.801" style="s2">elevator.</p>
+<p begin="00:14:20.201" end="00:14:25.001" style="s2">&gt;&gt; What do you mean?</p>
+<p begin="00:14:21.801" end="00:14:27.201" style="s2">&gt;&gt; Yes. Ms. Vance said you reported her.</p>
+<p begin="00:14:25.001" end="00:14:28.701" style="s2">She&#39;ll shut it.</p>
+<p begin="00:14:27.201" end="00:14:31.101" style="s2">&gt;&gt; Who says I reported her?</p>
+<p begin="00:14:28.701" end="00:14:31.101" style="s2">Not me.</p>
+<p begin="00:14:32.701" end="00:14:37.401" style="s2">&gt;&gt; Isn&#39;t that your signature?</p>
+<p begin="00:14:34.501" end="00:14:37.401" style="s2">How can you deny it?</p>
+<p begin="00:14:38.901" end="00:14:44.001" style="s2">Why did you report her over nothing?</p>
+<p begin="00:14:41.501" end="00:14:47.401" style="s2">Go apologize to Ms. Vance and get her to</p>
+<p begin="00:14:44.001" end="00:14:47.401" style="s2">keep the elevator open.</p>
+<p begin="00:14:49.201" end="00:14:53.801" style="s2">&gt;&gt; Why should I apologize?</p>
+<p begin="00:14:51.201" end="00:14:57.001" style="s2">She blocks the hall with a cabinet.</p>
+<p begin="00:14:53.801" end="00:14:59.001" style="s2">I was looking out for everyone.</p>
+<p begin="00:14:57.001" end="00:15:00.501" style="s2">&gt;&gt; Don&#39;t you leave food scraps outside your</p>
+<p begin="00:14:59.001" end="00:15:03.601" style="s2">door?</p>
+<p begin="00:15:00.501" end="00:15:06.101" style="s2">I saw them last time I stopped by.</p>
+<p begin="00:15:03.601" end="00:15:07.801" style="s2">Why not report yourself?</p>
+<p begin="00:15:06.101" end="00:15:10.401" style="s2">&gt;&gt; Don&#39;t just blame me.</p>
+<p begin="00:15:07.801" end="00:15:12.701" style="s2">You do it with boxes, too.</p>
+<p begin="00:15:10.401" end="00:15:14.901" style="s2">&gt;&gt; Yes, I leave boxes out.</p>
+<p begin="00:15:12.701" end="00:15:16.601" style="s2">But I don&#39;t falsely report anyone.</p>
+<p begin="00:15:14.901" end="00:15:17.901" style="s2">Your complaint has Ms. Vance closing the</p>
+<p begin="00:15:16.601" end="00:15:19.401" style="s2">elevator.</p>
+<p begin="00:15:17.901" end="00:15:20.501" style="s2">You caused this.</p>
+<p begin="00:15:19.401" end="00:15:22.301" style="s2">Shouldn&#39;t you fix it?</p>
+<p begin="00:15:20.501" end="00:15:23.701" style="s2">&gt;&gt; Yeah, you should.</p>
+<p begin="00:15:22.301" end="00:15:25.601" style="s2">&gt;&gt; I won&#39;t.</p>
+<p begin="00:15:23.701" end="00:15:26.701" style="s2">She&#39;s just being petty.</p>
+<p begin="00:15:25.601" end="00:15:28.001" style="s2">Why blame me?</p>
+<p begin="00:15:26.701" end="00:15:29.801" style="s2">&gt;&gt; You won&#39;t.</p>
+<p begin="00:15:28.001" end="00:15:32.901" style="s2">What about you?</p>
+<p begin="00:15:29.801" end="00:15:34.901" style="s2">Your husband hurt his leg last week.</p>
+<p begin="00:15:32.901" end="00:15:38.001" style="s2">With no elevator,</p>
+<p begin="00:15:34.901" end="00:15:39.501" style="s2">will he use crutches on the stairs?</p>
+<p begin="00:15:38.001" end="00:15:41.301" style="s2">&gt;&gt; Exactly.</p>
+<p begin="00:15:39.501" end="00:15:44.901" style="s2">He can&#39;t take the stairs.</p>
+<p begin="00:15:41.301" end="00:15:44.901" style="s2">Ms. Vance can&#39;t shut down the elevator.</p>
+<p begin="00:15:45.901" end="00:15:49.501" style="s2">Ms. Vance, open up.</p>
+<p begin="00:15:50.401" end="00:15:54.201" style="s2">Chloe, Linda&#39;s here.</p>
+<p begin="00:15:52.801" end="00:15:56.901" style="s2">&gt;&gt; I know, mom.</p>
+<p begin="00:15:54.201" end="00:15:59.101" style="s2">&gt;&gt; Ms. Vance, why won&#39;t you open up?</p>
+<p begin="00:15:56.901" end="00:16:01.001" style="s2">It&#39;s just one lousy cabinet.</p>
+<p begin="00:15:59.101" end="00:16:02.601" style="s2">Why are you so petty?</p>
+<p begin="00:16:01.001" end="00:16:03.401" style="s2">You&#39;d shut down the elevator to spite</p>
+<p begin="00:16:02.601" end="00:16:05.601" style="s2">us?</p>
+<p begin="00:16:03.401" end="00:16:08.201" style="s2">Don&#39;t forget, you don&#39;t own this whole</p>
+<p begin="00:16:05.601" end="00:16:08.201" style="s2">building.</p>
+<p begin="00:16:11.801" end="00:16:14.501" style="s2">Unbelievable.</p>
+<p begin="00:16:13.101" end="00:16:16.201" style="s2">She won&#39;t open up.</p>
+<p begin="00:16:14.501" end="00:16:18.701" style="s2">So full of herself.</p>
+<p begin="00:16:16.201" end="00:16:18.701" style="s2">How petty.</p>
+<p begin="00:16:18.901" end="00:16:24.902" style="s2">Just try down that elevator.</p>
+<p begin="00:16:21.902" end="00:16:26.602" style="s2">I&#39;ll make you pay.</p>
+<p begin="00:16:24.902" end="00:16:31.502" style="s2">&gt;&gt; Why wouldn&#39;t I?</p>
+<p begin="00:16:26.602" end="00:16:33.102" style="s2">Linda, today&#39;s your last elevator ride.</p>
+<p begin="00:16:31.502" end="00:16:35.402" style="s2">Elevator company,</p>
+<p begin="00:16:33.102" end="00:16:39.302" style="s2">please come right away. I need key card</p>
+<p begin="00:16:35.402" end="00:16:39.302" style="s2">access installed on my elevator.</p>
+<p begin="00:16:40.602" end="00:16:44.902" style="s2">Elevator company,</p>
+<p begin="00:16:42.602" end="00:16:46.702" style="s2">please come by as soon as possible. I</p>
+<p begin="00:16:44.902" end="00:16:47.602" style="s2">want an access control system installed</p>
+<p begin="00:16:46.702" end="00:16:49.802" style="s2">on my elevator.</p>
+<p begin="00:16:47.602" end="00:16:52.002" style="s2">&gt;&gt; Okay, Ms. Vance, we&#39;ll send someone</p>
+<p begin="00:16:49.802" end="00:16:54.202" style="s2">tomorrow. Once it&#39;s installed, only your</p>
+<p begin="00:16:52.002" end="00:16:56.002" style="s2">exclusive card can activate it. No one</p>
+<p begin="00:16:54.202" end="00:16:59.402" style="s2">else can use it, right?</p>
+<p begin="00:16:56.002" end="00:16:59.402" style="s2">&gt;&gt; Yes, that&#39;s right.</p>
+<p begin="00:17:00.502" end="00:17:04.402" style="s2">&gt;&gt; Chloe, isn&#39;t this a bit rash?</p>
+<p begin="00:17:02.702" end="00:17:06.902" style="s2">&gt;&gt; Mom, I&#39;m not.</p>
+<p begin="00:17:04.402" end="00:17:09.602" style="s2">&gt;&gt; But if you do this, people will gossip.</p>
+<p begin="00:17:06.902" end="00:17:12.002" style="s2">&gt;&gt; They already are. Mom, know what Linda</p>
+<p begin="00:17:09.602" end="00:17:14.802" style="s2">calls me behind my back? She calls me</p>
+<p begin="00:17:12.002" end="00:17:15.802" style="s2">nouveau riche, a show-off. I&#39;ll put her</p>
+<p begin="00:17:14.802" end="00:17:17.002" style="s2">in her place.</p>
+<p begin="00:17:15.802" end="00:17:18.202" style="s2">&gt;&gt; She actually said that?</p>
+<p begin="00:17:17.002" end="00:17:20.102" style="s2">&gt;&gt; I heard her myself.</p>
+<p begin="00:17:18.202" end="00:17:22.202" style="s2">&gt;&gt; Why didn&#39;t you tell me?</p>
+<p begin="00:17:20.102" end="00:17:23.802" style="s2">Had I known she was like that,</p>
+<p begin="00:17:22.202" end="00:17:26.702" style="s2">I&#39;d never indulge her.</p>
+<p begin="00:17:23.802" end="00:17:29.902" style="s2">&gt;&gt; All year, I put up with her, helped her</p>
+<p begin="00:17:26.702" end="00:17:31.402" style="s2">move, and lent her tools.</p>
+<p begin="00:17:29.902" end="00:17:33.702" style="s2">Her?</p>
+<p begin="00:17:31.402" end="00:17:38.302" style="s2">She trashed and reported me then called</p>
+<p begin="00:17:33.702" end="00:17:38.302" style="s2">city, fire, and local offices.</p>
+<p begin="00:17:38.702" end="00:17:43.502" style="s2">I&#39;m tired.</p>
+<p begin="00:17:41.202" end="00:17:46.402" style="s2">I &#39;m done giving in or swallowing my</p>
+<p begin="00:17:43.502" end="00:17:48.202" style="s2">anger in the name of kindness.</p>
+<p begin="00:17:46.402" end="00:17:50.802" style="s2">Linda isn&#39;t worth it.</p>
+<p begin="00:17:48.202" end="00:17:53.602" style="s2">&gt;&gt; Fine. Whatever you do, I&#39;ve got your</p>
+<p begin="00:17:50.802" end="00:17:55.902" style="s2">back. But what if Linda keeps harassing</p>
+<p begin="00:17:53.602" end="00:17:55.902" style="s2">us?</p>
+<p begin="00:17:59.002" end="00:18:03.602" style="s2">&gt;&gt; Mom, I have a plan. We&#39;ll buy a new</p>
+<p begin="00:18:01.902" end="00:18:04.602" style="s2">place and move out.</p>
+<p begin="00:18:03.602" end="00:18:07.202" style="s2">&gt;&gt; A new place?</p>
+<p begin="00:18:04.602" end="00:18:08.402" style="s2">&gt;&gt; Yes. We&#39;ll sell this place and get a</p>
+<p begin="00:18:07.202" end="00:18:11.102" style="s2">better one.</p>
+<p begin="00:18:08.402" end="00:18:13.902" style="s2">It&#39;s in South Side, 12th floor, with an</p>
+<p begin="00:18:11.102" end="00:18:13.902" style="s2">elevator.</p>
+<p begin="00:18:14.402" end="00:18:16.802" style="s2">&gt;&gt; This place is nice.</p>
+<p begin="00:18:15.902" end="00:18:18.402" style="s2">Good.</p>
+<p begin="00:18:16.802" end="00:18:20.902" style="s2">Living here is stressful.</p>
+<p begin="00:18:18.402" end="00:18:20.902" style="s2">Let&#39;s move.</p>
+<p begin="00:18:22.102" end="00:18:24.303" style="s2">&gt;&gt; So,</p>
+<p begin="00:18:22.603" end="00:18:26.503" style="s2">&gt;&gt; Ms. Vance agreed to keep the elevator</p>
+<p begin="00:18:24.303" end="00:18:27.303" style="s2">on.</p>
+<p begin="00:18:26.503" end="00:18:28.603" style="s2">&gt;&gt; She won&#39;t.</p>
+<p begin="00:18:27.303" end="00:18:32.103" style="s2">&gt;&gt; No?</p>
+<p begin="00:18:28.603" end="00:18:32.103" style="s2">Did you apologize to Ms. Vance?</p>
+<p begin="00:18:32.303" end="00:18:37.703" style="s2">&gt;&gt; I did, but she&#39;s still shutting it down.</p>
+<p begin="00:18:35.903" end="00:18:40.203" style="s2">She&#39;s just petty.</p>
+<p begin="00:18:37.703" end="00:18:43.803" style="s2">She won&#39;t let one tiny thing go.</p>
+<p begin="00:18:40.203" end="00:18:43.803" style="s2">She doesn&#39;t value her neighbors.</p>
+<p begin="00:18:44.103" end="00:18:48.703" style="s2">&gt;&gt; Who knew Ms. Vance was so petty?</p>
+<p begin="00:18:46.303" end="00:18:51.303" style="s2">You apologized, but she won&#39;t let it go.</p>
+<p begin="00:18:48.703" end="00:18:52.803" style="s2">&gt;&gt; We all live in the same building.</p>
+<p begin="00:18:51.303" end="00:18:55.103" style="s2">Why be so petty?</p>
+<p begin="00:18:52.803" end="00:18:58.903" style="s2">&gt;&gt; Chloe wants a fight.</p>
+<p begin="00:18:55.103" end="00:19:00.603" style="s2">I&#39;ll get everyone here to attack you.</p>
+<p begin="00:18:58.903" end="00:19:02.703" style="s2">Mr. Davis,</p>
+<p begin="00:19:00.603" end="00:19:04.703" style="s2">I&#39;m willing to apologize.</p>
+<p begin="00:19:02.703" end="00:19:06.303" style="s2">It&#39;s Ms. Vance who keeps making a fuss</p>
+<p begin="00:19:04.703" end="00:19:08.503" style="s2">over nothing.</p>
+<p begin="00:19:06.303" end="00:19:10.303" style="s2">You&#39;re the property manager.</p>
+<p begin="00:19:08.503" end="00:19:12.003" style="s2">Shouldn&#39;t you talk some sense into her</p>
+<p begin="00:19:10.303" end="00:19:14.503" style="s2">and tell her to quit being so petty?</p>
+<p begin="00:19:12.003" end="00:19:16.203" style="s2">&gt;&gt; How am I supposed to persuade her?</p>
+<p begin="00:19:14.503" end="00:19:17.003" style="s2">You&#39;re why Ms. Vance is shutting it</p>
+<p begin="00:19:16.203" end="00:19:19.303" style="s2">down.</p>
+<p begin="00:19:17.003" end="00:19:21.103" style="s2">&gt;&gt; But she won&#39;t accept my apology.</p>
+<p begin="00:19:19.303" end="00:19:23.203" style="s2">What else can I do?</p>
+<p begin="00:19:21.103" end="00:19:25.603" style="s2">&gt;&gt; This is when management should mediate.</p>
+<p begin="00:19:23.203" end="00:19:27.703" style="s2">Otherwise, what are our fees for?</p>
+<p begin="00:19:25.603" end="00:19:29.303" style="s2">&gt;&gt; Exactly, Mr. Davis.</p>
+<p begin="00:19:27.703" end="00:19:30.703" style="s2">Go talk to Ms. Vance again.</p>
+<p begin="00:19:29.303" end="00:19:32.903" style="s2">&gt;&gt; But what can I say?</p>
+<p begin="00:19:30.703" end="00:19:35.303" style="s2">Ms. Vance owns the elevator.</p>
+<p begin="00:19:32.903" end="00:19:37.403" style="s2">I can&#39;t stop her from shutting it down.</p>
+<p begin="00:19:35.303" end="00:19:40.303" style="s2">&gt;&gt; Then set up another mediation meeting.</p>
+<p begin="00:19:37.403" end="00:19:42.103" style="s2">We&#39;ll all talk to Ms. Vance together.</p>
+<p begin="00:19:40.303" end="00:19:44.603" style="s2">I doubt Ms. Vance would dare be so</p>
+<p begin="00:19:42.103" end="00:19:46.103" style="s2">heartless in front of all of us.</p>
+<p begin="00:19:44.603" end="00:19:48.203" style="s2">&gt;&gt; I agree, Mr. Davis.</p>
+<p begin="00:19:46.103" end="00:19:49.303" style="s2">&gt;&gt; You handle notifying Ms. Vance, Mr.</p>
+<p begin="00:19:48.203" end="00:19:50.303" style="s2">Davis.</p>
+<p begin="00:19:49.303" end="00:19:52.103" style="s2">&gt;&gt; Uh,</p>
+<p begin="00:19:50.303" end="00:19:52.903" style="s2">fine. I&#39;ll call Ms. Vance when I get a</p>
+<p begin="00:19:52.103" end="00:19:55.603" style="s2">chance.</p>
+<p begin="00:19:52.903" end="00:19:58.503" style="s2">&gt;&gt; Chloe, you can&#39;t shut it down unless I</p>
+<p begin="00:19:55.603" end="00:19:58.503" style="s2">say so.</p>
+<p begin="00:20:01.803" end="00:20:04.903" style="s2">&gt;&gt; Ma&#39;am, how can I help you? Are you</p>
+<p begin="00:20:03.603" end="00:20:07.203" style="s2">buying or selling?</p>
+<p begin="00:20:04.903" end="00:20:08.903" style="s2">&gt;&gt; Hi, I&#39;m selling.</p>
+<p begin="00:20:07.203" end="00:20:10.203" style="s2">&gt;&gt; Sure, ma&#39;am. What&#39;s your name? Which</p>
+<p begin="00:20:08.903" end="00:20:11.003" style="s2">community is it in? Thank you for</p>
+<p begin="00:20:10.203" end="00:20:13.303" style="s2">watching Second Five.</p>
+<p begin="00:20:11.003" end="00:20:15.103" style="s2">&gt;&gt; Vance, Garden Heights community, 860</p>
+<p begin="00:20:13.303" end="00:20:17.303" style="s2">SQFT, two bed, six F.</p>
+<p begin="00:20:15.103" end="00:20:18.503" style="s2">&gt;&gt; Sixth floor. It may sell slower than</p>
+<p begin="00:20:17.303" end="00:20:20.303" style="s2">lower floors.</p>
+<p begin="00:20:18.503" end="00:20:22.203" style="s2">&gt;&gt; I had an elevator installed,</p>
+<p begin="00:20:20.303" end="00:20:23.905" style="s2">so stairs aren&#39;t an issue.</p>
+<p begin="00:20:22.203" end="00:20:25.805" style="s2">&gt;&gt; An elevator? That&#39;s great. I&#39;ll</p>
+<p begin="00:20:23.905" end="00:20:27.505" style="s2">&gt;&gt; find you a buyer as soon as possible,</p>
+<p begin="00:20:25.805" end="00:20:29.705" style="s2">Ms. Vance.</p>
+<p begin="00:20:27.505" end="00:20:32.905" style="s2">Ms. Vance, give me your number.</p>
+<p begin="00:20:29.705" end="00:20:32.905" style="s2">I&#39;ll call when I find a buyer.</p>
+<p begin="00:20:35.999" end="00:20:38.019" style="s2">&gt;&gt; [music]</p>
+<p begin="00:20:39.405" end="00:20:43.405" style="s2">&gt;&gt; Yes, Mr. Davis?</p>
+<p begin="00:20:41.405" end="00:20:45.505" style="s2">&gt;&gt; Ms. Vance, management&#39;s holding a</p>
+<p begin="00:20:43.405" end="00:20:48.305" style="s2">mediation meeting tomorrow about the</p>
+<p begin="00:20:45.505" end="00:20:49.805" style="s2">elevator. Let&#39;s all talk it over again.</p>
+<p begin="00:20:48.305" end="00:20:51.105" style="s2">&gt;&gt; I said it.</p>
+<p begin="00:20:49.805" end="00:20:53.005" style="s2">Nothing to discuss.</p>
+<p begin="00:20:51.105" end="00:20:55.805" style="s2">&gt;&gt; You were right to report Linda, Ms.</p>
+<p begin="00:20:53.005" end="00:20:58.305" style="s2">Vance, but she apologized.</p>
+<p begin="00:20:55.805" end="00:21:00.105" style="s2">Be the bigger person and just let it go.</p>
+<p begin="00:20:58.305" end="00:21:01.505" style="s2">&gt;&gt; Linda apologized?</p>
+<p begin="00:21:00.105" end="00:21:03.705" style="s2">&gt;&gt; An hour ago.</p>
+<p begin="00:21:01.505" end="00:21:06.205" style="s2">Didn&#39;t Linda come apologize? You turned</p>
+<p begin="00:21:03.705" end="00:21:08.205" style="s2">her down. I understand. You must still</p>
+<p begin="00:21:06.205" end="00:21:10.705" style="s2">feel hurt by all this, but your</p>
+<p begin="00:21:08.205" end="00:21:13.205" style="s2">neighbors, why let things get this ugly?</p>
+<p begin="00:21:10.705" end="00:21:15.405" style="s2">&gt;&gt; Linda&#39;s at it again. Nice to your face,</p>
+<p begin="00:21:13.205" end="00:21:17.405" style="s2">nasty behind your back. Does she think</p>
+<p begin="00:21:15.405" end="00:21:19.105" style="s2">I&#39;ll still let her push me around? I&#39;ll</p>
+<p begin="00:21:17.405" end="00:21:22.005" style="s2">make her regret it. I&#39;ll be at</p>
+<p begin="00:21:19.105" end="00:21:22.005" style="s2">tomorrow&#39;s meeting.</p>
+<p begin="00:21:26.305" end="00:21:30.305" style="s2">&gt;&gt; What happened? Elevator broken?</p>
+<p begin="00:21:32.605" end="00:21:36.505" style="s2">What happened? Elevator broken?</p>
+<p begin="00:21:34.605" end="00:21:38.905" style="s2">&gt;&gt; That&#39;s the elevator installer. They&#39;re</p>
+<p begin="00:21:36.505" end="00:21:41.105" style="s2">adding an access control system. No key</p>
+<p begin="00:21:38.905" end="00:21:42.205" style="s2">card, no elevator access.</p>
+<p begin="00:21:41.105" end="00:21:44.305" style="s2">&gt;&gt; What?</p>
+<p begin="00:21:42.205" end="00:21:45.905" style="s2">Ms. Vance already had an access control</p>
+<p begin="00:21:44.305" end="00:21:47.605" style="s2">system installed?</p>
+<p begin="00:21:45.905" end="00:21:48.705" style="s2">Weren&#39;t we meeting today to work this</p>
+<p begin="00:21:47.605" end="00:21:50.605" style="s2">out?</p>
+<p begin="00:21:48.705" end="00:21:51.805" style="s2">She doesn&#39;t care what any of us think.</p>
+<p begin="00:21:50.605" end="00:21:53.705" style="s2">&gt;&gt; Exactly.</p>
+<p begin="00:21:51.805" end="00:21:54.405" style="s2">She installed it without a word.</p>
+<p begin="00:21:53.705" end="00:21:56.105" style="s2">How selfish.</p>
+<p begin="00:21:54.405" end="00:21:57.605" style="s2">&gt;&gt; At the meeting, we&#39;re giving her an</p>
+<p begin="00:21:56.105" end="00:22:01.305" style="s2">earful.</p>
+<p begin="00:21:57.605" end="00:22:01.305" style="s2">&gt;&gt; Ms. Vance, please sit.</p>
+<p begin="00:22:01.905" end="00:22:06.805" style="s2">Ms. Vance, I asked you here to discuss</p>
+<p begin="00:22:04.205" end="00:22:08.605" style="s2">the elevator again.</p>
+<p begin="00:22:06.805" end="00:22:10.205" style="s2">We&#39;re all neighbors. You shut off the</p>
+<p begin="00:22:08.605" end="00:22:11.505" style="s2">elevator and made things hard for</p>
+<p begin="00:22:10.205" end="00:22:13.705" style="s2">everyone.</p>
+<p begin="00:22:11.505" end="00:22:15.705" style="s2">&gt;&gt; Ms. Vance, this morning we found the</p>
+<p begin="00:22:13.705" end="00:22:18.305" style="s2">elevator wasn&#39;t working.</p>
+<p begin="00:22:15.705" end="00:22:19.605" style="s2">Someone installed access control.</p>
+<p begin="00:22:18.305" end="00:22:21.805" style="s2">&gt;&gt; Why didn&#39;t you tell us?</p>
+<p begin="00:22:19.605" end="00:22:23.705" style="s2">&gt;&gt; The elevator&#39;s mine. I installed access</p>
+<p begin="00:22:21.805" end="00:22:25.806" style="s2">control. Do I need your say so?</p>
+<p begin="00:22:23.705" end="00:22:28.306" style="s2">&gt;&gt; But you said we&#39;d work it out today.</p>
+<p begin="00:22:25.806" end="00:22:30.406" style="s2">&gt;&gt; Because you sprang it on us.</p>
+<p begin="00:22:28.306" end="00:22:33.106" style="s2">I climbed two flights.</p>
+<p begin="00:22:30.406" end="00:22:36.006" style="s2">My knees still hurt.</p>
+<p begin="00:22:33.106" end="00:22:37.506" style="s2">&gt;&gt; Blaming me for your sore knees?</p>
+<p begin="00:22:36.006" end="00:22:39.106" style="s2">&gt;&gt; T this.</p>
+<p begin="00:22:37.506" end="00:22:40.606" style="s2">That&#39;s not what I meant.</p>
+<p begin="00:22:39.106" end="00:22:41.906" style="s2">But Linda already apologized for</p>
+<p begin="00:22:40.606" end="00:22:43.706" style="s2">reporting you.</p>
+<p begin="00:22:41.906" end="00:22:45.706" style="s2">Why keep making a fuss?</p>
+<p begin="00:22:43.706" end="00:22:47.406" style="s2">Why shut down the elevator?</p>
+<p begin="00:22:45.706" end="00:22:49.306" style="s2">&gt;&gt; Linda, tell them.</p>
+<p begin="00:22:47.406" end="00:22:50.606" style="s2">You came to apologize.</p>
+<p begin="00:22:49.306" end="00:22:52.206" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:22:50.606" end="00:22:53.706" style="s2">Sorry yesterday.</p>
+<p begin="00:22:52.206" end="00:22:56.406" style="s2">Don&#39;t shut it off.</p>
+<p begin="00:22:53.706" end="00:22:59.306" style="s2">You refused.</p>
+<p begin="00:22:56.406" end="00:23:01.406" style="s2">&gt;&gt; But I remember it differently. I never</p>
+<p begin="00:22:59.306" end="00:23:05.506" style="s2">opened my door yesterday.</p>
+<p begin="00:23:01.406" end="00:23:05.506" style="s2">You called me cheap and walked away.</p>
+<p begin="00:23:06.206" end="00:23:10.006" style="s2">&gt;&gt; Miss Vance, don&#39;t lie.</p>
+<p begin="00:23:08.306" end="00:23:11.606" style="s2">I apologized.</p>
+<p begin="00:23:10.006" end="00:23:14.406" style="s2">You can&#39;t frame me because you resent me</p>
+<p begin="00:23:11.606" end="00:23:14.406" style="s2">for reporting you.</p>
+<p begin="00:23:16.306" end="00:23:20.206" style="s2">So high and mighty.</p>
+<p begin="00:23:18.106" end="00:23:23.506" style="s2">How petty.</p>
+<p begin="00:23:20.206" end="00:23:26.306" style="s2">Shut down that elevator. I dare you.</p>
+<p begin="00:23:23.506" end="00:23:28.506" style="s2">You&#39;ll be sorry.</p>
+<p begin="00:23:26.306" end="00:23:30.106" style="s2">&gt;&gt; Linda, you didn&#39;t apologize to Miss</p>
+<p begin="00:23:28.506" end="00:23:31.506" style="s2">Vance. You lied.</p>
+<p begin="00:23:30.106" end="00:23:33.106" style="s2">&gt;&gt; I didn&#39;t.</p>
+<p begin="00:23:31.506" end="00:23:35.606" style="s2">That video has to be fake.</p>
+<p begin="00:23:33.106" end="00:23:37.806" style="s2">&gt;&gt; How could my door camera be fake?</p>
+<p begin="00:23:35.606" end="00:23:40.106" style="s2">Reporting me wasn&#39;t enough. You lied</p>
+<p begin="00:23:37.806" end="00:23:44.106" style="s2">that I rejected your apology. You called</p>
+<p begin="00:23:40.106" end="00:23:45.306" style="s2">that remorse, that supposed apology?</p>
+<p begin="00:23:44.106" end="00:23:47.206" style="s2">&gt;&gt; I</p>
+<p begin="00:23:45.306" end="00:23:49.106" style="s2">what choice did I have?</p>
+<p begin="00:23:47.206" end="00:23:50.506" style="s2">I wanted to apologize, but you wouldn&#39;t</p>
+<p begin="00:23:49.106" end="00:23:51.706" style="s2">open the door.</p>
+<p begin="00:23:50.506" end="00:23:53.506" style="s2">What could I do?</p>
+<p begin="00:23:51.706" end="00:23:55.906" style="s2">&gt;&gt; So you made up lies about me?</p>
+<p begin="00:23:53.506" end="00:23:58.106" style="s2">&gt;&gt; You didn&#39;t apologize to Miss Vance and</p>
+<p begin="00:23:55.906" end="00:23:58.806" style="s2">tried to use us.</p>
+<p begin="00:23:58.106" end="00:24:00.306" style="s2">&gt;&gt; I didn&#39;t.</p>
+<p begin="00:23:58.806" end="00:24:02.006" style="s2">&gt;&gt; Didn&#39;t what?</p>
+<p begin="00:24:00.306" end="00:24:04.906" style="s2">You reported her and offended Miss</p>
+<p begin="00:24:02.006" end="00:24:07.706" style="s2">Vance, then made us clean up your mess.</p>
+<p begin="00:24:04.906" end="00:24:07.706" style="s2">What&#39;s wrong with you?</p>
+<p begin="00:24:08.006" end="00:24:11.906" style="s2">&gt;&gt; My fault yesterday.</p>
+<p begin="00:24:10.006" end="00:24:13.506" style="s2">But you wouldn&#39;t answer the door and I</p>
+<p begin="00:24:11.906" end="00:24:16.106" style="s2">panicked.</p>
+<p begin="00:24:13.506" end="00:24:17.506" style="s2">I said some awful things.</p>
+<p begin="00:24:16.106" end="00:24:19.106" style="s2">I didn&#39;t know you&#39;d installed the</p>
+<p begin="00:24:17.506" end="00:24:21.606" style="s2">elevator.</p>
+<p begin="00:24:19.106" end="00:24:25.906" style="s2">I thought management had. Had I known it</p>
+<p begin="00:24:21.606" end="00:24:25.906" style="s2">was yours, I&#39;d never have reported you.</p>
+<p begin="00:24:26.006" end="00:24:29.307" style="s2">&gt;&gt; You didn&#39;t know I installed it?</p>
+<p begin="00:24:27.806" end="00:24:31.307" style="s2">&gt;&gt; Right. I didn&#39;t.</p>
+<p begin="00:24:29.307" end="00:24:32.007" style="s2">&gt;&gt; Think I don&#39;t know what you said behind</p>
+<p begin="00:24:31.307" end="00:24:35.107" style="s2">my back?</p>
+<p begin="00:24:32.007" end="00:24:37.408" style="s2">&gt;&gt; Ms. Vance on six, nouveau rich. I&#39;m</p>
+<p begin="00:24:35.107" end="00:24:38.807" style="s2">telling you, she only pretends to be</p>
+<p begin="00:24:37.408" end="00:24:39.908" style="s2">generous.</p>
+<p begin="00:24:38.807" end="00:24:42.107" style="s2">&gt;&gt; said that,</p>
+<p begin="00:24:39.908" end="00:24:45.607" style="s2">&gt;&gt; I I I didn&#39;t.</p>
+<p begin="00:24:42.107" end="00:24:47.507" style="s2">&gt;&gt; No, you did. You said it to my face. You</p>
+<p begin="00:24:45.607" end="00:24:49.908" style="s2">complained to me that Ms. Vance put a</p>
+<p begin="00:24:47.507" end="00:24:52.507" style="s2">cabinet by her door and said you&#39;d teach</p>
+<p begin="00:24:49.908" end="00:24:53.607" style="s2">her a lesson. Then Ms. Vance got</p>
+<p begin="00:24:52.507" end="00:24:55.908" style="s2">reported.</p>
+<p begin="00:24:53.607" end="00:24:58.307" style="s2">&gt;&gt; That&#39;s a lie. I never knew you were so</p>
+<p begin="00:24:55.908" end="00:25:00.507" style="s2">vicious. Ms. Vance let us use her</p>
+<p begin="00:24:58.307" end="00:25:01.707" style="s2">elevator free, but you kept going after</p>
+<p begin="00:25:00.507" end="00:25:05.007" style="s2">her.</p>
+<p begin="00:25:01.707" end="00:25:05.007" style="s2">You&#39;re an ungrateful wretch.</p>
+<p begin="00:25:05.408" end="00:25:09.607" style="s2">&gt;&gt; Ms. Vance, it was just talk.</p>
+<p begin="00:25:07.807" end="00:25:10.707" style="s2">Don&#39;t take it seriously.</p>
+<p begin="00:25:09.607" end="00:25:13.107" style="s2">&gt;&gt; Just talk?</p>
+<p begin="00:25:10.707" end="00:25:14.707" style="s2">&gt;&gt; Five reports were just talk, too?</p>
+<p begin="00:25:13.107" end="00:25:16.007" style="s2">I was wrong.</p>
+<p begin="00:25:14.707" end="00:25:18.307" style="s2">I&#39;m sorry.</p>
+<p begin="00:25:16.007" end="00:25:18.307" style="s2">&gt;&gt; Late.</p>
+<p begin="00:25:18.707" end="00:25:24.007" style="s2">Used my elevator, never returned my</p>
+<p begin="00:25:21.007" end="00:25:27.007" style="s2">stuff. I let it slide. You trashed and</p>
+<p begin="00:25:24.007" end="00:25:30.707" style="s2">reported me and want forgiveness? I&#39;m</p>
+<p begin="00:25:27.007" end="00:25:30.707" style="s2">telling you, no way.</p>
+<p begin="00:25:33.807" end="00:25:36.807" style="s2">I&#39;m not opening the elevator to anyone</p>
+<p begin="00:25:35.707" end="00:25:38.807" style="s2">again.</p>
+<p begin="00:25:36.807" end="00:25:39.607" style="s2">Go back to taking the stairs like three</p>
+<p begin="00:25:38.807" end="00:25:41.307" style="s2">years ago.</p>
+<p begin="00:25:39.607" end="00:25:42.908" style="s2">&gt;&gt; Ms. Vance, wait.</p>
+<p begin="00:25:41.307" end="00:25:44.408" style="s2">Linda reported you.</p>
+<p begin="00:25:42.908" end="00:25:46.507" style="s2">We had nothing to do with it.</p>
+<p begin="00:25:44.408" end="00:25:48.507" style="s2">You can&#39;t keep us off the elevator over</p>
+<p begin="00:25:46.507" end="00:25:49.807" style="s2">what one person did.</p>
+<p begin="00:25:48.507" end="00:25:52.107" style="s2">&gt;&gt; Not your concern.</p>
+<p begin="00:25:49.807" end="00:25:53.307" style="s2">&gt;&gt; Yes, Linda reported you.</p>
+<p begin="00:25:52.107" end="00:25:55.807" style="s2">It wasn&#39;t us.</p>
+<p begin="00:25:53.307" end="00:25:57.207" style="s2">&gt;&gt; You called Linda an ingrate.</p>
+<p begin="00:25:55.807" end="00:25:59.607" style="s2">What about you? The elevator cost</p>
+<p begin="00:25:57.207" end="00:26:01.707" style="s2">$230,000 to install. Three years of</p>
+<p begin="00:25:59.607" end="00:26:04.707" style="s2">power cost $12,000. Maintenance cost</p>
+<p begin="00:26:01.707" end="00:26:05.707" style="s2">$18,000. That&#39;s $260,000</p>
+<p begin="00:26:04.707" end="00:26:07.908" style="s2">total.</p>
+<p begin="00:26:05.707" end="00:26:10.307" style="s2">I paid it all myself. I never asked you</p>
+<p begin="00:26:07.908" end="00:26:12.807" style="s2">for a dime. And what did you do? You</p>
+<p begin="00:26:10.307" end="00:26:16.207" style="s2">rode my elevator free for three years.</p>
+<p begin="00:26:12.807" end="00:26:16.207" style="s2">Did any of you ever thank me?</p>
+<p begin="00:26:16.607" end="00:26:19.707" style="s2">In that case,</p>
+<p begin="00:26:18.307" end="00:26:22.408" style="s2">why should [snorts] I keep the elevator</p>
+<p begin="00:26:19.707" end="00:26:22.408" style="s2">open for you?</p>
+<p begin="00:26:23.007" end="00:26:27.408" style="s2">&gt;&gt; No, Ms. Vance.</p>
+<p begin="00:26:24.807" end="00:26:29.107" style="s2">How could we not appreciate you?</p>
+<p begin="00:26:27.408" end="00:26:31.109" style="s2">How about this?</p>
+<p begin="00:26:29.107" end="00:26:32.609" style="s2">From now on, we&#39;ll split power and</p>
+<p begin="00:26:31.109" end="00:26:34.109" style="s2">upkeep.</p>
+<p begin="00:26:32.609" end="00:26:35.609" style="s2">We&#39;ll even reimburse you for the old</p>
+<p begin="00:26:34.109" end="00:26:36.609" style="s2">bills.</p>
+<p begin="00:26:35.609" end="00:26:39.509" style="s2">Deal?</p>
+<p begin="00:26:36.609" end="00:26:41.209" style="s2">&gt;&gt; Yes, we&#39;ll pay you back. Just let us</p>
+<p begin="00:26:39.509" end="00:26:43.909" style="s2">keep using the elevator.</p>
+<p begin="00:26:41.209" end="00:26:46.009" style="s2">&gt;&gt; No. If this were about money, I&#39;d have</p>
+<p begin="00:26:43.909" end="00:26:47.209" style="s2">shown you the power bill the first month</p>
+<p begin="00:26:46.009" end="00:26:48.509" style="s2">the elevator ran.</p>
+<p begin="00:26:47.209" end="00:26:51.009" style="s2">&gt;&gt; What now?</p>
+<p begin="00:26:48.509" end="00:26:53.609" style="s2">&gt;&gt; Miss Vance is really mad.</p>
+<p begin="00:26:51.009" end="00:26:55.609" style="s2">&gt;&gt; It&#39;s your fault. We can&#39;t use it either.</p>
+<p begin="00:26:53.609" end="00:26:58.009" style="s2">&gt;&gt; Why blame me?</p>
+<p begin="00:26:55.609" end="00:26:59.909" style="s2">&gt;&gt; Look, you offered to pay her, yet she&#39;s</p>
+<p begin="00:26:58.009" end="00:27:02.709" style="s2">shutting it down.</p>
+<p begin="00:26:59.909" end="00:27:04.309" style="s2">That proves she&#39;s just petty.</p>
+<p begin="00:27:02.709" end="00:27:06.309" style="s2">&gt;&gt; No use blaming me.</p>
+<p begin="00:27:04.309" end="00:27:08.709" style="s2">&gt;&gt; Miss Vance really is so petty.</p>
+<p begin="00:27:06.309" end="00:27:10.909" style="s2">&gt;&gt; It&#39;s partly our fault.</p>
+<p begin="00:27:08.709" end="00:27:13.609" style="s2">We didn&#39;t back Miss Vance then, so of</p>
+<p begin="00:27:10.909" end="00:27:16.209" style="s2">course she&#39;s mad now.</p>
+<p begin="00:27:13.609" end="00:27:19.409" style="s2">Fine, take the stairs.</p>
+<p begin="00:27:16.209" end="00:27:21.009" style="s2">Maybe once Miss Vance cools off,</p>
+<p begin="00:27:19.409" end="00:27:23.009" style="s2">she&#39;ll reopen it.</p>
+<p begin="00:27:21.009" end="00:27:26.709" style="s2">&gt;&gt; My daughter-in-law is pregnant. No</p>
+<p begin="00:27:23.009" end="00:27:29.309" style="s2">elevators, a real hardship.</p>
+<p begin="00:27:26.709" end="00:27:30.509" style="s2">&gt;&gt; Mrs. Jenkins, let&#39;s talk to Miss Vance&#39;s</p>
+<p begin="00:27:29.309" end="00:27:32.909" style="s2">mom.</p>
+<p begin="00:27:30.509" end="00:27:34.509" style="s2">Miss Vance ignores her neighbors.</p>
+<p begin="00:27:32.909" end="00:27:35.509" style="s2">Her mom wouldn&#39;t, right?</p>
+<p begin="00:27:34.509" end="00:27:37.809" style="s2">&gt;&gt; Yes.</p>
+<p begin="00:27:35.509" end="00:27:39.909" style="s2">Miss Vance is young and petty,</p>
+<p begin="00:27:37.809" end="00:27:42.409" style="s2">but Sarah and I take dance class</p>
+<p begin="00:27:39.909" end="00:27:42.409" style="s2">together.</p>
+<p begin="00:27:42.709" end="00:27:46.709" style="s2">She&#39;d never let Miss Vance shut it down.</p>
+<p begin="00:27:45.309" end="00:27:49.009" style="s2">&gt;&gt; Miss Vance,</p>
+<p begin="00:27:46.709" end="00:27:51.609" style="s2">the cabinet was our fault.</p>
+<p begin="00:27:49.009" end="00:27:55.009" style="s2">You had every right to shut it down,</p>
+<p begin="00:27:51.609" end="00:27:58.609" style="s2">but Linda and Mrs. Jenkins won&#39;t let up.</p>
+<p begin="00:27:55.009" end="00:27:58.609" style="s2">They&#39;ll try persuading your mom.</p>
+<p begin="00:27:59.209" end="00:28:05.009" style="s2">&gt;&gt; So did Linda eat her words?</p>
+<p begin="00:28:02.909" end="00:28:06.109" style="s2">&gt;&gt; I showed her the footage, and she went</p>
+<p begin="00:28:05.009" end="00:28:08.209" style="s2">pale.</p>
+<p begin="00:28:06.109" end="00:28:09.909" style="s2">&gt;&gt; Good. She needed to learn we&#39;re not</p>
+<p begin="00:28:08.209" end="00:28:11.509" style="s2">pushovers.</p>
+<p begin="00:28:09.909" end="00:28:14.309" style="s2">But the others didn&#39;t really do</p>
+<p begin="00:28:11.509" end="00:28:17.779" style="s2">anything. Maybe everyone but Linda can</p>
+<p begin="00:28:14.309" end="00:28:19.799" style="s2">pay her ride from now on.</p>
+<p begin="00:28:17.779" end="00:28:19.799" style="s2">[sighs and gasps]</p>
+<p begin="00:28:21.209" end="00:28:27.209" style="s2">So much for all our years as neighbors.</p>
+<p begin="00:28:24.209" end="00:28:29.609" style="s2">Linda swayed them with a few words.</p>
+<p begin="00:28:27.209" end="00:28:32.109" style="s2">When something&#39;s free, some people don&#39;t</p>
+<p begin="00:28:29.609" end="00:28:34.310" style="s2">appreciate it.</p>
+<p begin="00:28:32.109" end="00:28:35.510" style="s2">&gt;&gt; They don&#39;t deserve our help. We stay</p>
+<p begin="00:28:34.310" end="00:28:39.110" style="s2">away.</p>
+<p begin="00:28:35.510" end="00:28:42.310" style="s2">Once the place sells, we&#39;ll move.</p>
+<p begin="00:28:39.110" end="00:28:44.510" style="s2">&gt;&gt; Linda has no remorse. And Mrs. Jenkins</p>
+<p begin="00:28:42.310" end="00:28:46.210" style="s2">can&#39;t tell right from wrong.</p>
+<p begin="00:28:44.510" end="00:28:47.510" style="s2">I&#39;ll give them an earful for you in a</p>
+<p begin="00:28:46.210" end="00:28:50.410" style="s2">minute.</p>
+<p begin="00:28:47.510" end="00:28:52.810" style="s2">&gt;&gt; Mom, you&#39;d better not be all talk.</p>
+<p begin="00:28:50.410" end="00:28:56.710" style="s2">&gt;&gt; I just don&#39;t like arguing.</p>
+<p begin="00:28:52.810" end="00:28:58.510" style="s2">But when I do, I can hold my own.</p>
+<p begin="00:28:56.710" end="00:29:01.310" style="s2">Chloe, go inside.</p>
+<p begin="00:28:58.510" end="00:29:01.310" style="s2">I&#39;ll take it from here.</p>
+<p begin="00:29:03.110" end="00:29:07.010" style="s2">&gt;&gt; Sarah,</p>
+<p begin="00:29:04.310" end="00:29:08.210" style="s2">you know about the elevator lock, right?</p>
+<p begin="00:29:07.010" end="00:29:10.410" style="s2">Come on.</p>
+<p begin="00:29:08.210" end="00:29:13.110" style="s2">We&#39;ve been neighbors for years.</p>
+<p begin="00:29:10.410" end="00:29:14.710" style="s2">Linda was wrong to file that report.</p>
+<p begin="00:29:13.110" end="00:29:16.110" style="s2">She&#39;s here to give Miss Vance a formal</p>
+<p begin="00:29:14.710" end="00:29:18.510" style="s2">apology.</p>
+<p begin="00:29:16.110" end="00:29:20.310" style="s2">Let the elevator issue go.</p>
+<p begin="00:29:18.510" end="00:29:22.510" style="s2">&gt;&gt; If she meant it, she wouldn&#39;t have</p>
+<p begin="00:29:20.310" end="00:29:24.610" style="s2">yelled at my daughter through the door.</p>
+<p begin="00:29:22.510" end="00:29:26.610" style="s2">My daughter&#39;s no saint.</p>
+<p begin="00:29:24.610" end="00:29:29.910" style="s2">She won&#39;t accept a phony apology.</p>
+<p begin="00:29:26.610" end="00:29:32.010" style="s2">&gt;&gt; Mrs. Vance, I came to apologize.</p>
+<p begin="00:29:29.910" end="00:29:35.010" style="s2">How am I scheming?</p>
+<p begin="00:29:32.010" end="00:29:36.910" style="s2">&gt;&gt; Sincere? Then why bring Mrs. Jenkins?</p>
+<p begin="00:29:35.010" end="00:29:38.310" style="s2">Just to pressure my daughter again?</p>
+<p begin="00:29:36.910" end="00:29:41.110" style="s2">Don&#39;t think I can&#39;t see what you&#39;re up</p>
+<p begin="00:29:38.310" end="00:29:41.810" style="s2">to. The elevator stays private. Now</p>
+<p begin="00:29:41.110" end="00:29:43.810" style="s2">leave.</p>
+<p begin="00:29:41.810" end="00:29:46.610" style="s2">&gt;&gt; Fine, misjudge me.</p>
+<p begin="00:29:43.810" end="00:29:47.810" style="s2">But you and Mrs. Jenkins are friends.</p>
+<p begin="00:29:46.610" end="00:29:49.910" style="s2">You won&#39;t even let them use the</p>
+<p begin="00:29:47.810" end="00:29:51.610" style="s2">elevator?</p>
+<p begin="00:29:49.910" end="00:29:52.510" style="s2">Isn&#39;t that a little petty?</p>
+<p begin="00:29:51.610" end="00:29:55.310" style="s2">&gt;&gt; Sarah,</p>
+<p begin="00:29:52.510" end="00:29:57.910" style="s2">we&#39;ve been dancing together for 3 years.</p>
+<p begin="00:29:55.310" end="00:29:59.710" style="s2">Fine, Miss Vance is petty. Why are you</p>
+<p begin="00:29:57.910" end="00:30:03.110" style="s2">being petty too?</p>
+<p begin="00:29:59.710" end="00:30:05.010" style="s2">&gt;&gt; You call Chloe and me petty, aren&#39;t you?</p>
+<p begin="00:30:03.110" end="00:30:07.210" style="s2">It was just one report.</p>
+<p begin="00:30:05.010" end="00:30:08.510" style="s2">Miss Vance didn&#39;t lose anything.</p>
+<p begin="00:30:07.210" end="00:30:10.310" style="s2">But you won&#39;t let it go and you&#39;re</p>
+<p begin="00:30:08.510" end="00:30:12.710" style="s2">punishing us too.</p>
+<p begin="00:30:10.310" end="00:30:15.710" style="s2">Isn&#39;t that petty? Now that&#39;s better.</p>
+<p begin="00:30:12.710" end="00:30:20.010" style="s2">Sarah, we&#39;re all neighbors. No need to</p>
+<p begin="00:30:15.710" end="00:30:20.010" style="s2">keep score. Let&#39;s talk inside.</p>
+<p begin="00:30:22.310" end="00:30:24.410" style="s2">Oh.</p>
+<p begin="00:30:25.810" end="00:30:29.810" style="s2">Sarah, why chase her off with a broom?</p>
+<p begin="00:30:28.010" end="00:30:32.210" style="s2">&gt;&gt; Who else then?</p>
+<p begin="00:30:29.810" end="00:30:33.510" style="s2">You use our elevator, then report my</p>
+<p begin="00:30:32.210" end="00:30:35.910" style="s2">daughter.</p>
+<p begin="00:30:33.510" end="00:30:36.912" style="s2">Then you called my daughter petty. And</p>
+<p begin="00:30:35.910" end="00:30:39.312" style="s2">you,</p>
+<p begin="00:30:36.912" end="00:30:42.312" style="s2">you hide behind your age, telling us to</p>
+<p begin="00:30:39.312" end="00:30:44.512" style="s2">let it go. So tell me, what if someone</p>
+<p begin="00:30:42.312" end="00:30:46.912" style="s2">brazenly lived in your home for three</p>
+<p begin="00:30:44.512" end="00:30:49.712" style="s2">years and kept reporting every little</p>
+<p begin="00:30:46.912" end="00:30:52.812" style="s2">fault? Inspectors would come daily.</p>
+<p begin="00:30:49.712" end="00:30:52.812" style="s2">Could you let that go?</p>
+<p begin="00:30:53.112" end="00:30:56.912" style="s2">&gt;&gt; I&#39;m just worried, okay?</p>
+<p begin="00:30:55.212" end="00:30:58.512" style="s2">My daughter-in-law&#39;s nine months</p>
+<p begin="00:30:56.912" end="00:31:01.112" style="s2">pregnant.</p>
+<p begin="00:30:58.512" end="00:31:03.512" style="s2">I&#39;m terrified she&#39;ll fall on the stairs.</p>
+<p begin="00:31:01.112" end="00:31:05.212" style="s2">&gt;&gt; Three years of free elevator rides made</p>
+<p begin="00:31:03.512" end="00:31:06.812" style="s2">her this entitled.</p>
+<p begin="00:31:05.212" end="00:31:08.912" style="s2">Your daughter-in-law isn&#39;t carrying my</p>
+<p begin="00:31:06.812" end="00:31:11.012" style="s2">grandchild. If she can&#39;t walk, sell your</p>
+<p begin="00:31:08.912" end="00:31:14.312" style="s2">place and buy one with an elevator. We</p>
+<p begin="00:31:11.012" end="00:31:14.312" style="s2">aren&#39;t obligated to care for her.</p>
+<p begin="00:31:14.912" end="00:31:18.012" style="s2">&gt;&gt; Like daughter, like mother.</p>
+<p begin="00:31:17.112" end="00:31:19.312" style="s2">&gt;&gt; See?</p>
+<p begin="00:31:18.012" end="00:31:21.112" style="s2">That whole family&#39;s petty.</p>
+<p begin="00:31:19.312" end="00:31:23.912" style="s2">&gt;&gt; They are petty, but you&#39;re the one who</p>
+<p begin="00:31:21.112" end="00:31:23.912" style="s2">started this.</p>
+<p begin="00:31:25.812" end="00:31:30.512" style="s2">Chloe, you banned me from the elevator</p>
+<p begin="00:31:28.312" end="00:31:33.712" style="s2">and humiliated me.</p>
+<p begin="00:31:30.512" end="00:31:33.712" style="s2">This isn&#39;t over.</p>
+<p begin="00:31:37.312" end="00:31:43.612" style="s2">&gt;&gt; Mom, your broom chase was epic.</p>
+<p begin="00:31:41.712" end="00:31:46.012" style="s2">&gt;&gt; They really got to me.</p>
+<p begin="00:31:43.612" end="00:31:47.812" style="s2">What awful people.</p>
+<p begin="00:31:46.012" end="00:31:49.612" style="s2">Any word from the agent? Let&#39;s move as</p>
+<p begin="00:31:47.812" end="00:31:53.112" style="s2">soon as possible.</p>
+<p begin="00:31:49.612" end="00:31:53.112" style="s2">This place is killing me.</p>
+<p begin="00:31:53.612" end="00:31:58.212" style="s2">&gt;&gt; I&#39;ll ask.</p>
+<p begin="00:31:55.612" end="00:32:00.212" style="s2">Chris, did you find any buyers?</p>
+<p begin="00:31:58.212" end="00:32:02.012" style="s2">&gt;&gt; Yes, Ms. Vance. I found three</p>
+<p begin="00:32:00.212" end="00:32:04.812" style="s2">prospective buyers. You can review their</p>
+<p begin="00:32:02.012" end="00:32:04.812" style="s2">profiles first.</p>
+<p begin="00:32:05.812" end="00:32:10.112" style="s2">Ms. Vance, first is a college professor.</p>
+<p begin="00:32:08.512" end="00:32:12.812" style="s2">He&#39;s older and wants a home with an</p>
+<p begin="00:32:10.112" end="00:32:15.112" style="s2">elevator. The second is a young couple.</p>
+<p begin="00:32:12.812" end="00:32:17.812" style="s2">They like the school district. The last</p>
+<p begin="00:32:15.112" end="00:32:19.912" style="s2">is Mr. Sterling. He has an unusual job.</p>
+<p begin="00:32:17.812" end="00:32:22.212" style="s2">He&#39;s a boxer. He heard your top floor</p>
+<p begin="00:32:19.912" end="00:32:24.212" style="s2">place has a roof deck and wants to set</p>
+<p begin="00:32:22.212" end="00:32:25.712" style="s2">up boxing rings and punching bags for</p>
+<p begin="00:32:24.212" end="00:32:29.012" style="s2">his regular training.</p>
+<p begin="00:32:25.712" end="00:32:29.012" style="s2">&gt;&gt; Mr. Sterling it is.</p>
+<p begin="00:32:29.112" end="00:32:33.112" style="s2">Please bring him by as soon as possible.</p>
+<p begin="00:32:31.012" end="00:32:35.412" style="s2">&gt;&gt; Would 10:00 tomorrow morning work?</p>
+<p begin="00:32:33.112" end="00:32:35.412" style="s2">&gt;&gt; Sure.</p>
+<p begin="00:32:37.312" end="00:32:42.713" style="s2">&gt;&gt; Why did you choose Mr.</p>
+<p begin="00:32:40.013" end="00:32:46.413" style="s2">A boxer sounds pretty intimidating.</p>
+<p begin="00:32:42.713" end="00:32:49.313" style="s2">Wasn&#39; that professor a good choice?</p>
+<p begin="00:32:46.413" end="00:32:52.013" style="s2">&gt;&gt; Mom, with someone like Linda, if another</p>
+<p begin="00:32:49.313" end="00:32:54.113" style="s2">pushover moved in, she&#39;d just make a few</p>
+<p begin="00:32:52.013" end="00:32:56.513" style="s2">scenes and get to use the elevator</p>
+<p begin="00:32:54.113" end="00:32:58.713" style="s2">again. That&#39;s why.</p>
+<p begin="00:32:56.513" end="00:33:00.013" style="s2">We need someone tough to teach Linda a</p>
+<p begin="00:32:58.713" end="00:33:01.413" style="s2">lesson.</p>
+<p begin="00:33:00.013" end="00:33:04.513" style="s2">&gt;&gt; Good point.</p>
+<p begin="00:33:01.413" end="00:33:06.813" style="s2">Mr. Sterling it is.</p>
+<p begin="00:33:04.513" end="00:33:06.813" style="s2">&gt;&gt; Enter.</p>
+<p begin="00:33:07.913" end="00:33:14.013" style="s2">Miss Vance, meet Mr. Sterling. Mr.</p>
+<p begin="00:33:10.513" end="00:33:14.013" style="s2">Sterling, meet Miss Vance.</p>
+<p begin="00:33:15.013" end="00:33:19.213" style="s2">&gt;&gt; Hello, Mr. Sterling. Let me show you</p>
+<p begin="00:33:16.813" end="00:33:19.213" style="s2">around.</p>
+<p begin="00:33:23.613" end="00:33:28.913" style="s2">&gt;&gt; It&#39;s decent. And the price?</p>
+<p begin="00:33:25.813" end="00:33:31.413" style="s2">&gt;&gt; The home is valued at $1.9 million.</p>
+<p begin="00:33:28.913" end="00:33:33.813" style="s2">I paid to add the elevator. It cost</p>
+<p begin="00:33:31.413" end="00:33:35.813" style="s2">$230,000.</p>
+<p begin="00:33:33.813" end="00:33:39.013" style="s2">If you can pay in full, the home and</p>
+<p begin="00:33:35.813" end="00:33:41.113" style="s2">elevator are yours for $2 million.</p>
+<p begin="00:33:39.013" end="00:33:42.913" style="s2">&gt;&gt; You pay for it yourself.</p>
+<p begin="00:33:41.113" end="00:33:43.913" style="s2">Is it just for you or can the whole</p>
+<p begin="00:33:42.913" end="00:33:45.813" style="s2">building use it?</p>
+<p begin="00:33:43.913" end="00:33:48.413" style="s2">&gt;&gt; Yesterday, I had an access control</p>
+<p begin="00:33:45.813" end="00:33:50.513" style="s2">system installed. From now on, unless</p>
+<p begin="00:33:48.413" end="00:33:52.013" style="s2">you have this key card, you can&#39;t use</p>
+<p begin="00:33:50.513" end="00:33:54.113" style="s2">the elevator.</p>
+<p begin="00:33:52.013" end="00:33:57.113" style="s2">The elevator company can make more key</p>
+<p begin="00:33:54.113" end="00:33:58.613" style="s2">cards, but whether they do is up to you,</p>
+<p begin="00:33:57.113" end="00:34:01.213" style="s2">Mr. Sterling.</p>
+<p begin="00:33:58.613" end="00:34:03.513" style="s2">&gt;&gt; I don&#39;t like complicated neighbor drama.</p>
+<p begin="00:34:01.213" end="00:34:06.713" style="s2">So the key card&#39;s perfect. I&#39;ll keep the</p>
+<p begin="00:34:03.513" end="00:34:06.713" style="s2">elevator to myself.</p>
+<p begin="00:34:09.513" end="00:34:13.613" style="s2">&gt;&gt; If you&#39;re both happy, let&#39;s sign the</p>
+<p begin="00:34:11.013" end="00:34:13.613" style="s2">contract.</p>
+<p begin="00:34:14.513" end="00:34:18.313" style="s2">When can you both go to the title</p>
+<p begin="00:34:16.113" end="00:34:20.613" style="s2">office?</p>
+<p begin="00:34:18.313" end="00:34:22.513" style="s2">&gt;&gt; I work from home, so anytime works.</p>
+<p begin="00:34:20.613" end="00:34:23.613" style="s2">&gt;&gt; Tomorrow morning, then.</p>
+<p begin="00:34:22.513" end="00:34:26.513" style="s2">&gt;&gt; Sure.</p>
+<p begin="00:34:23.613" end="00:34:26.513" style="s2">I&#39;ll walk you out.</p>
+<p begin="00:34:39.114" end="00:34:43.614" style="s2">&gt;&gt; out. See you both at the title office</p>
+<p begin="00:34:41.014" end="00:34:43.614" style="s2">tomorrow morning.</p>
+<p begin="00:34:49.114" end="00:34:55.014" style="s2">&gt;&gt; Title office? Chloe Sterling.</p>
+<p begin="00:34:52.814" end="00:34:58.314" style="s2">Mom, did Miss Vance ban us from the</p>
+<p begin="00:34:55.014" end="00:35:00.314" style="s2">elevator? I&#39;m too far along to climb.</p>
+<p begin="00:34:58.314" end="00:35:03.414" style="s2">&gt;&gt; Linda, why are you standing there?</p>
+<p begin="00:35:00.314" end="00:35:04.514" style="s2">&gt;&gt; Mrs. Jenkins, Chloe Sterling.</p>
+<p begin="00:35:03.414" end="00:35:07.114" style="s2">&gt;&gt; She&#39;s selling?</p>
+<p begin="00:35:04.514" end="00:35:09.214" style="s2">&gt;&gt; What about the elevator? Once Miss Vance</p>
+<p begin="00:35:07.114" end="00:35:11.514" style="s2">moves, will we never get to use it</p>
+<p begin="00:35:09.214" end="00:35:14.214" style="s2">again?</p>
+<p begin="00:35:11.514" end="00:35:16.314" style="s2">Mom, I won&#39;t climb daily.</p>
+<p begin="00:35:14.214" end="00:35:19.014" style="s2">You don&#39;t want to tire your grandson.</p>
+<p begin="00:35:16.314" end="00:35:19.814" style="s2">&gt;&gt; Mrs. Jenkins, Chloe&#39;s moving.</p>
+<p begin="00:35:19.014" end="00:35:22.214" style="s2">&gt;&gt; That&#39;s good.</p>
+<p begin="00:35:19.814" end="00:35:24.814" style="s2">&gt;&gt; How is that good?</p>
+<p begin="00:35:22.214" end="00:35:26.614" style="s2">Why would Miss Vance move?</p>
+<p begin="00:35:24.814" end="00:35:29.114" style="s2">She knows turning off the elevator made</p>
+<p begin="00:35:26.614" end="00:35:33.314" style="s2">the whole building call her heartless.</p>
+<p begin="00:35:29.114" end="00:35:33.314" style="s2">She&#39;s ashamed, so she&#39;s leaving.</p>
+<p begin="00:35:36.114" end="00:35:40.414" style="s2">Once Chloe leaves,</p>
+<p begin="00:35:38.014" end="00:35:44.114" style="s2">can we have the new neighbor disable the</p>
+<p begin="00:35:40.414" end="00:35:44.114" style="s2">elevator access system?</p>
+<p begin="00:35:44.414" end="00:35:48.914" style="s2">&gt;&gt; Right. No use reasoning with Miss Vance.</p>
+<p begin="00:35:47.014" end="00:35:51.314" style="s2">Let&#39;s ask the new neighbor.</p>
+<p begin="00:35:48.914" end="00:35:54.214" style="s2">I&#39;m sure he&#39;ll be more generous.</p>
+<p begin="00:35:51.314" end="00:35:56.914" style="s2">Lily, hang in there a few days.</p>
+<p begin="00:35:54.214" end="00:35:59.014" style="s2">Miss Vance is so petty.</p>
+<p begin="00:35:56.914" end="00:36:02.214" style="s2">Once the new neighbor arrives, I&#39;ll ask</p>
+<p begin="00:35:59.014" end="00:36:03.414" style="s2">him to turn on the elevator.</p>
+<p begin="00:36:02.214" end="00:36:06.514" style="s2">&gt;&gt; Okay.</p>
+<p begin="00:36:03.414" end="00:36:09.414" style="s2">I&#39;ll wait two more days.</p>
+<p begin="00:36:06.514" end="00:36:12.014" style="s2">&gt;&gt; Mr. Sterling, just to confirm, some of</p>
+<p begin="00:36:09.414" end="00:36:14.114" style="s2">my old neighbors are difficult.</p>
+<p begin="00:36:12.014" end="00:36:17.714" style="s2">Sure you want this house?</p>
+<p begin="00:36:14.114" end="00:36:21.114" style="s2">Once transferred, it&#39;s final.</p>
+<p begin="00:36:17.714" end="00:36:24.814" style="s2">&gt;&gt; Miss Vance, you&#39;re overthinking it.</p>
+<p begin="00:36:21.114" end="00:36:24.814" style="s2">&gt;&gt; True. That&#39;s a relief.</p>
+<p begin="00:36:28.414" end="00:36:33.214" style="s2">Mr. Sterling, the house is yours now.</p>
+<p begin="00:36:31.214" end="00:36:35.914" style="s2">I&#39;m moving out tomorrow. Move in the</p>
+<p begin="00:36:33.214" end="00:36:35.914" style="s2">next day.</p>
+<p begin="00:36:36.014" end="00:36:42.014" style="s2">&gt;&gt; I&#39;ll move in then.</p>
+<p begin="00:36:38.514" end="00:36:42.014" style="s2">I wired the full $2 million.</p>
+<p begin="00:36:43.014" end="00:36:44.916" style="s2">&gt;&gt; Pleasure.</p>
+<p begin="00:36:43.814" end="00:36:46.516" style="s2">&gt;&gt; Miss Vance, do you</p>
+<p begin="00:36:44.916" end="00:36:50.016" style="s2">&gt;&gt; still need a home?</p>
+<p begin="00:36:46.516" end="00:36:53.716" style="s2">I&#39;ve got great new build listings.</p>
+<p begin="00:36:50.016" end="00:36:55.616" style="s2">&gt;&gt; I found a new place in south side.</p>
+<p begin="00:36:53.716" end="00:36:57.516" style="s2">It&#39;s far from here.</p>
+<p begin="00:36:55.616" end="00:36:59.416" style="s2">I won&#39;t bother you.</p>
+<p begin="00:36:57.516" end="00:37:01.716" style="s2">&gt;&gt; your fresh start and happy days in your</p>
+<p begin="00:36:59.416" end="00:37:06.116" style="s2">new home.</p>
+<p begin="00:37:01.716" end="00:37:06.116" style="s2">&gt;&gt; Thanks. Hope your sales soar each month.</p>
+<p begin="00:37:13.216" end="00:37:17.616" style="s2">Mom,</p>
+<p begin="00:37:14.116" end="00:37:18.916" style="s2">we&#39;re finally moving out.</p>
+<p begin="00:37:17.616" end="00:37:20.780" style="s2">&gt;&gt; Yeah.</p>
+<p begin="00:37:18.916" end="00:37:22.800" style="s2">We&#39;ll be happier there.</p>
+<p begin="00:37:20.780" end="00:37:22.800" style="s2">&gt;&gt; [music and bell]</p>
+<p begin="00:37:31.916" end="00:37:36.016" style="s2">&gt;&gt; Ms. Vance,</p>
+<p begin="00:37:33.416" end="00:37:38.416" style="s2">I can&#39;t believe you&#39;re moving.</p>
+<p begin="00:37:36.016" end="00:37:40.916" style="s2">I&#39;ll really miss you.</p>
+<p begin="00:37:38.416" end="00:37:43.516" style="s2">&gt;&gt; Take care of yourself, Linda.</p>
+<p begin="00:37:40.916" end="00:37:47.416" style="s2">&gt;&gt; I&#39;ve only been here just over a year,</p>
+<p begin="00:37:43.516" end="00:37:50.216" style="s2">but I&#39;m so glad I met you, Ms. Vance.</p>
+<p begin="00:37:47.416" end="00:37:53.816" style="s2">Good luck moving, Ms. Vance.</p>
+<p begin="00:37:50.216" end="00:37:53.816" style="s2">&gt;&gt; Hope you&#39;re happy too, Linda.</p>
+<p begin="00:37:55.816" end="00:38:02.916" style="s2">&gt;&gt; For 3 years you shared your elevator,</p>
+<p begin="00:37:58.516" end="00:38:02.916" style="s2">yet we drove you away, Ms. Vance.</p>
+<p begin="00:38:04.616" end="00:38:07.716" style="s2">I&#39;m truly sorry.</p>
+<p begin="00:38:07.916" end="00:38:12.016" style="s2">There&#39;s $3,000 in here to cover my</p>
+<p begin="00:38:10.216" end="00:38:13.516" style="s2">family&#39;s elevator fees for the last 3</p>
+<p begin="00:38:12.016" end="00:38:15.416" style="s2">years.</p>
+<p begin="00:38:13.516" end="00:38:17.816" style="s2">I know, not much,</p>
+<p begin="00:38:15.416" end="00:38:21.216" style="s2">but my son&#39;s getting wed.</p>
+<p begin="00:38:17.816" end="00:38:21.216" style="s2">I&#39;m a little short on money.</p>
+<p begin="00:38:22.316" end="00:38:28.216" style="s2">&gt;&gt; Mr. Lawson, it&#39;s all over. It worked</p>
+<p begin="00:38:25.516" end="00:38:30.216" style="s2">out. I got a bigger place. As for the</p>
+<p begin="00:38:28.216" end="00:38:32.016" style="s2">money,</p>
+<p begin="00:38:30.216" end="00:38:33.916" style="s2">pay me when you can.</p>
+<p begin="00:38:32.016" end="00:38:36.616" style="s2">&gt;&gt; Mr. Lawson&#39;s honest,</p>
+<p begin="00:38:33.916" end="00:38:38.816" style="s2">just a little timid.</p>
+<p begin="00:38:36.616" end="00:38:40.416" style="s2">I wonder if Mr. Sterling will let him</p>
+<p begin="00:38:38.816" end="00:38:42.416" style="s2">use the elevator.</p>
+<p begin="00:38:40.416" end="00:38:45.016" style="s2">&gt;&gt; Mr. Sterling decides.</p>
+<p begin="00:38:42.416" end="00:38:47.216" style="s2">Linda and Mrs. Jenkins look thrilled.</p>
+<p begin="00:38:45.016" end="00:38:50.517" style="s2">They think</p>
+<p begin="00:38:47.216" end="00:38:52.517" style="s2">the new neighbor will be just like me.</p>
+<p begin="00:38:50.517" end="00:38:55.117" style="s2">Easy to push around.</p>
+<p begin="00:38:52.517" end="00:38:57.717" style="s2">&gt;&gt; Linda won&#39;t be smiling once she sees Mr.</p>
+<p begin="00:38:55.117" end="00:38:57.717" style="s2">Sterling.</p>
+<p begin="00:38:58.017" end="00:39:02.317" style="s2">&gt;&gt; I can&#39;t wait to see what fun awaits</p>
+<p begin="00:38:59.817" end="00:39:02.317" style="s2">Linda.</p>
+<p begin="00:39:04.417" end="00:39:08.317" style="s2">&gt;&gt; Here he is,</p>
+<p begin="00:39:05.717" end="00:39:08.317" style="s2">our new neighbor.</p>
+<p begin="00:39:15.407" end="00:39:17.427" style="s2">&gt;&gt; [panting]</p>
+<p begin="00:39:19.017" end="00:39:21.617" style="s2">&gt;&gt; I&#39;ve got it.</p>
+<p begin="00:39:22.017" end="00:39:26.117" style="s2">&gt;&gt; Just one moving truck.</p>
+<p begin="00:39:24.017" end="00:39:28.817" style="s2">Where&#39;s our new neighbor?</p>
+<p begin="00:39:26.117" end="00:39:32.417" style="s2">&gt;&gt; Could he be the new neighbor?</p>
+<p begin="00:39:28.817" end="00:39:32.417" style="s2">Look, he&#39;s not in a uniform.</p>
+<p begin="00:39:32.717" end="00:39:35.917" style="s2">&gt;&gt; No way.</p>
+<p begin="00:39:33.917" end="00:39:39.217" style="s2">Look how huge he is.</p>
+<p begin="00:39:35.917" end="00:39:43.117" style="s2">He&#39;s obviously a mover.</p>
+<p begin="00:39:39.217" end="00:39:43.117" style="s2">He can&#39;t afford a place here.</p>
+<p begin="00:39:50.417" end="00:39:52.817" style="s2">&gt;&gt; Move.</p>
+<p begin="00:39:55.362" end="00:39:57.617" style="s2">&gt;&gt; [sighs]</p>
+<p begin="00:39:56.017" end="00:40:00.017" style="s2">[panting]</p>
+<p begin="00:39:57.617" end="00:40:03.517" style="s2">&gt;&gt; Why is that mover so aggressive?</p>
+<p begin="00:40:00.017" end="00:40:03.517" style="s2">I thought he was about to hit me.</p>
+<p begin="00:40:07.152" end="00:40:11.517" style="s2">&gt;&gt; [panting]</p>
+<p begin="00:40:08.817" end="00:40:13.917" style="s2">&gt;&gt; How&#39;d he get a key card?</p>
+<p begin="00:40:11.517" end="00:40:16.517" style="s2">Could he really be our new neighbor?</p>
+<p begin="00:40:13.917" end="00:40:18.217" style="s2">&gt;&gt; The new neighbor lent it to him.</p>
+<p begin="00:40:16.517" end="00:40:19.717" style="s2">Why take the stairs when there&#39;s an</p>
+<p begin="00:40:18.217" end="00:40:22.017" style="s2">elevator?</p>
+<p begin="00:40:19.717" end="00:40:22.017" style="s2">&gt;&gt; Right.</p>
+<p begin="00:40:23.517" end="00:40:27.817" style="s2">&gt;&gt; A mover with that attitude?</p>
+<p begin="00:40:26.017" end="00:40:30.917" style="s2">&gt;&gt; When we meet the new neighbor, I&#39;ll</p>
+<p begin="00:40:27.817" end="00:40:34.117" style="s2">complain and get his pay docked.</p>
+<p begin="00:40:30.917" end="00:40:36.217" style="s2">&gt;&gt; Linda, that&#39;s just how he looks.</p>
+<p begin="00:40:34.117" end="00:40:37.817" style="s2">Moving is hard work. Don&#39;t stir up</p>
+<p begin="00:40:36.217" end="00:40:40.117" style="s2">trouble again.</p>
+<p begin="00:40:37.817" end="00:40:43.517" style="s2">&gt;&gt; How am I causing trouble?</p>
+<p begin="00:40:40.117" end="00:40:47.317" style="s2">That filthy mover has no respect.</p>
+<p begin="00:40:43.517" end="00:40:50.718" style="s2">He said, move. Who&#39;s he?</p>
+<p begin="00:40:47.317" end="00:40:50.718" style="s2">&gt;&gt; Just stop causing trouble.</p>
+<p begin="00:40:50.917" end="00:40:55.018" style="s2">&gt;&gt; Move.</p>
+<p begin="00:40:51.718" end="00:40:55.018" style="s2">&gt;&gt; I&#39;ll talk. Butt out.</p>
+<p begin="00:41:11.918" end="00:41:16.418" style="s2">&gt;&gt; You said the new neighbor wasn&#39;t here.</p>
+<p begin="00:41:14.718" end="00:41:17.818" style="s2">Why did I see a light on the upstairs</p>
+<p begin="00:41:16.418" end="00:41:19.018" style="s2">balcony?</p>
+<p begin="00:41:17.818" end="00:41:20.918" style="s2">&gt;&gt; No way.</p>
+<p begin="00:41:19.018" end="00:41:22.118" style="s2">I&#39;ve been watching the elevator.</p>
+<p begin="00:41:20.918" end="00:41:23.918" style="s2">No one went up.</p>
+<p begin="00:41:22.118" end="00:41:27.518" style="s2">&gt;&gt; You must have missed them.</p>
+<p begin="00:41:23.918" end="00:41:30.018" style="s2">Go ask them about the elevator.</p>
+<p begin="00:41:27.518" end="00:41:32.418" style="s2">I&#39;m getting my cast off next week.</p>
+<p begin="00:41:30.018" end="00:41:35.418" style="s2">I can&#39;t climb stairs on crutches.</p>
+<p begin="00:41:32.418" end="00:41:35.418" style="s2">&gt;&gt; I&#39;m going now.</p>
+<p begin="00:41:36.418" end="00:41:39.218" style="s2">Mrs. Jenkins?</p>
+<p begin="00:41:37.618" end="00:41:41.118" style="s2">Yes.</p>
+<p begin="00:41:39.218" end="00:41:44.718" style="s2">The new neighbor&#39;s home.</p>
+<p begin="00:41:41.118" end="00:41:44.718" style="s2">Let&#39;s go discuss the elevator.</p>
+<p begin="00:41:48.023" end="00:41:51.118" style="s2">[panting]</p>
+<p begin="00:41:49.018" end="00:41:53.118" style="s2">Why did you two take so long?</p>
+<p begin="00:41:51.118" end="00:41:55.118" style="s2">&gt;&gt; I live on the third floor.</p>
+<p begin="00:41:53.118" end="00:41:56.918" style="s2">Three flights of stairs take time.</p>
+<p begin="00:41:55.118" end="00:41:57.918" style="s2">&gt;&gt; Where&#39;s Mr. Lawson?</p>
+<p begin="00:41:56.918" end="00:42:00.318" style="s2">Didn&#39;t you call him?</p>
+<p begin="00:41:57.918" end="00:42:02.418" style="s2">&gt;&gt; Mr. Lawson will take the stairs and stay</p>
+<p begin="00:42:00.318" end="00:42:04.718" style="s2">out of the elevator issue.</p>
+<p begin="00:42:02.418" end="00:42:08.518" style="s2">&gt;&gt; He&#39;s just after a free ride.</p>
+<p begin="00:42:04.718" end="00:42:09.718" style="s2">Then he better not use the elevator.</p>
+<p begin="00:42:08.518" end="00:42:10.218" style="s2">&gt;&gt; Hold on.</p>
+<p begin="00:42:09.718" end="00:42:12.518" style="s2">&gt;&gt; What?</p>
+<p begin="00:42:10.218" end="00:42:16.218" style="s2">&gt;&gt; When the new neighbor comes to lock up,</p>
+<p begin="00:42:12.518" end="00:42:17.518" style="s2">should we bring up splitting the costs?</p>
+<p begin="00:42:16.218" end="00:42:19.518" style="s2">&gt;&gt; Not yet.</p>
+<p begin="00:42:17.518" end="00:42:21.618" style="s2">We brought fruit, didn&#39;t we?</p>
+<p begin="00:42:19.518" end="00:42:23.018" style="s2">If the new neighbor refuses, we&#39;ll offer</p>
+<p begin="00:42:21.618" end="00:42:25.018" style="s2">to split costs.</p>
+<p begin="00:42:23.018" end="00:42:27.318" style="s2">&gt;&gt; But Miss Vance shut the elevator down</p>
+<p begin="00:42:25.018" end="00:42:29.318" style="s2">because we were ungrateful. Let&#39;s be</p>
+<p begin="00:42:27.318" end="00:42:31.318" style="s2">nice to our new neighbor,</p>
+<p begin="00:42:29.318" end="00:42:33.118" style="s2">whether he asks or not.</p>
+<p begin="00:42:31.318" end="00:42:35.839" style="s2">Let&#39;s split the monthly power and</p>
+<p begin="00:42:33.118" end="00:42:37.218" style="s2">maintenance costs.</p>
+<p begin="00:42:35.839" end="00:42:39.418" style="s2">&gt;&gt; [snorts]</p>
+<p begin="00:42:37.218" end="00:42:41.318" style="s2">&gt;&gt; Miss Vance was just stingy.</p>
+<p begin="00:42:39.418" end="00:42:42.618" style="s2">If our new neighbor&#39;s generous, why rush</p>
+<p begin="00:42:41.318" end="00:42:45.718" style="s2">to pay him?</p>
+<p begin="00:42:42.618" end="00:42:45.718" style="s2">Let&#39;s wait and see.</p>
+<p begin="00:42:52.518" end="00:42:58.220" style="s2">Why isn&#39;t anyone answering?</p>
+<p begin="00:42:54.520" end="00:42:58.220" style="s2">My husband saw lights upstairs.</p>
+<p begin="00:42:58.420" end="00:43:02.720" style="s2">Hi, we&#39;re your downstairs neighbors.</p>
+<p begin="00:43:01.120" end="00:43:04.520" style="s2">Aren&#39;t you the mover?</p>
+<p begin="00:43:02.720" end="00:43:07.420" style="s2">What are you doing here?</p>
+<p begin="00:43:04.520" end="00:43:07.420" style="s2">&gt;&gt; I&#39;m the new guy.</p>
+<p begin="00:43:09.720" end="00:43:14.120" style="s2">&gt;&gt; Just a mover acting so cocky.</p>
+<p begin="00:43:12.220" end="00:43:16.320" style="s2">When I meet the new neighbor, I&#39;ll</p>
+<p begin="00:43:14.120" end="00:43:18.920" style="s2">report that mover and get his pay</p>
+<p begin="00:43:16.320" end="00:43:18.920" style="s2">docked.</p>
+<p begin="00:43:19.520" end="00:43:23.120" style="s2">That was just a mix-up.</p>
+<p begin="00:43:24.920" end="00:43:30.320" style="s2">&gt;&gt; Let go of me.</p>
+<p begin="00:43:26.820" end="00:43:30.320" style="s2">&gt;&gt; I didn&#39;t know you lived here.</p>
+<p begin="00:43:31.720" end="00:43:35.720" style="s2">I&#39;d never have said that if I&#39;d known.</p>
+<p begin="00:43:33.820" end="00:43:37.120" style="s2">&gt;&gt; Let go or you&#39;ll regret it.</p>
+<p begin="00:43:35.720" end="00:43:39.920" style="s2">&gt;&gt; I&#39;m sorry.</p>
+<p begin="00:43:37.120" end="00:43:39.920" style="s2">Take this apple.</p>
+<p begin="00:43:40.720" end="00:43:44.520" style="s2">Oh.</p>
+<p begin="00:43:42.220" end="00:43:47.620" style="s2">Why&#39;d you shut the door on me?</p>
+<p begin="00:43:44.520" end="00:43:49.720" style="s2">You almost got my hand.</p>
+<p begin="00:43:47.620" end="00:43:52.920" style="s2">&gt;&gt; I said he was our new neighbor, but you</p>
+<p begin="00:43:49.720" end="00:43:55.220" style="s2">swore he was a mover. Now, look.</p>
+<p begin="00:43:52.920" end="00:43:58.420" style="s2">Our new neighbor&#39;s mad.</p>
+<p begin="00:43:55.220" end="00:44:00.920" style="s2">Now we can&#39;t use the elevator.</p>
+<p begin="00:43:58.420" end="00:44:03.020" style="s2">&gt;&gt; I didn&#39;t know he lived here.</p>
+<p begin="00:44:00.920" end="00:44:04.620" style="s2">Who hires movers then does the moving</p>
+<p begin="00:44:03.020" end="00:44:07.520" style="s2">themselves?</p>
+<p begin="00:44:04.620" end="00:44:10.420" style="s2">Anyone would have made that mistake.</p>
+<p begin="00:44:07.520" end="00:44:13.220" style="s2">&gt;&gt; Sir, please open the door. Linda was</p>
+<p begin="00:44:10.420" end="00:44:14.320" style="s2">wrong just now. I&#39;ll make her apologize</p>
+<p begin="00:44:13.220" end="00:44:17.520" style="s2">properly.</p>
+<p begin="00:44:14.320" end="00:44:20.520" style="s2">Sir, we brought you some fruit.</p>
+<p begin="00:44:17.520" end="00:44:20.520" style="s2">Please open the door.</p>
+<p begin="00:44:21.420" end="00:44:26.920" style="s2">&gt;&gt; He&#39;s so petty, too.</p>
+<p begin="00:44:24.520" end="00:44:28.820" style="s2">I just mistook him for a mover.</p>
+<p begin="00:44:26.920" end="00:44:31.120" style="s2">Why not even open up?</p>
+<p begin="00:44:28.820" end="00:44:33.920" style="s2">&gt;&gt; Linda, you were wrong.</p>
+<p begin="00:44:31.120" end="00:44:36.520" style="s2">Yet you&#39;re complaining.</p>
+<p begin="00:44:33.920" end="00:44:38.520" style="s2">No wonder Mr. Lawson stayed away. I</p>
+<p begin="00:44:36.520" end="00:44:41.320" style="s2">can&#39;t work with you.</p>
+<p begin="00:44:38.520" end="00:44:43.720" style="s2">I&#39;ll take the stairs and cut my losses.</p>
+<p begin="00:44:41.320" end="00:44:47.020" style="s2">&gt;&gt; Mrs. Cooper, what gives?</p>
+<p begin="00:44:43.720" end="00:44:50.320" style="s2">I&#39;ve worked so hard on this elevator</p>
+<p begin="00:44:47.020" end="00:44:50.320" style="s2">and she blames me?</p>
+<p begin="00:44:51.520" end="00:44:55.521" style="s2">&gt;&gt; Who else is to blame?</p>
+<p begin="00:44:53.720" end="00:44:58.121" style="s2">Mrs. Cooper and I should have come</p>
+<p begin="00:44:55.521" end="00:44:58.121" style="s2">without you.</p>
+<p begin="00:45:01.921" end="00:45:04.721" style="s2">&gt;&gt; I thought our new neighbor was</p>
+<p begin="00:45:03.421" end="00:45:07.721" style="s2">reasonable.</p>
+<p begin="00:45:04.721" end="00:45:11.521" style="s2">He&#39;s even pettier than Chloe.</p>
+<p begin="00:45:07.721" end="00:45:11.521" style="s2">What is with all these people?</p>
+<p begin="00:45:17.321" end="00:45:20.621" style="s2">&gt;&gt; How did go?</p>
+<p begin="00:45:19.021" end="00:45:21.721" style="s2">Will the new guy let us use the</p>
+<p begin="00:45:20.621" end="00:45:23.221" style="s2">elevator?</p>
+<p begin="00:45:21.721" end="00:45:24.821" style="s2">&gt;&gt; Like hell.</p>
+<p begin="00:45:23.221" end="00:45:27.721" style="s2">That guy is just as petty.</p>
+<p begin="00:45:24.821" end="00:45:30.521" style="s2">&gt;&gt; It was just a misunderstanding.</p>
+<p begin="00:45:27.721" end="00:45:31.921" style="s2">For a grown man, he sure is petty.</p>
+<p begin="00:45:30.521" end="00:45:34.421" style="s2">&gt;&gt; Exactly.</p>
+<p begin="00:45:31.921" end="00:45:36.721" style="s2">Jenkins and Cooper too.</p>
+<p begin="00:45:34.421" end="00:45:39.021" style="s2">They both stormed off.</p>
+<p begin="00:45:36.721" end="00:45:40.721" style="s2">After all my hard work, they made me the</p>
+<p begin="00:45:39.021" end="00:45:42.321" style="s2">bad guy.</p>
+<p begin="00:45:40.721" end="00:45:43.621" style="s2">&gt;&gt; Isn&#39;t Mrs. Jenkins&#39;s daughter-in-law</p>
+<p begin="00:45:42.321" end="00:45:45.321" style="s2">pregnant?</p>
+<p begin="00:45:43.621" end="00:45:47.221" style="s2">Her belly&#39;s huge.</p>
+<p begin="00:45:45.321" end="00:45:49.021" style="s2">She&#39;s due any day.</p>
+<p begin="00:45:47.221" end="00:45:50.121" style="s2">&gt;&gt; Yeah. Why?</p>
+<p begin="00:45:49.021" end="00:45:51.821" style="s2">&gt;&gt; Think.</p>
+<p begin="00:45:50.121" end="00:45:54.121" style="s2">Lily&#39;s pregnant.</p>
+<p begin="00:45:51.821" end="00:45:57.521" style="s2">Those stairs wear her out.</p>
+<p begin="00:45:54.121" end="00:46:00.321" style="s2">Have her talk to Mr. Sterling.</p>
+<p begin="00:45:57.521" end="00:46:02.921" style="s2">Surely he won&#39;t be cruel</p>
+<p begin="00:46:00.321" end="00:46:04.121" style="s2">to a pregnant woman.</p>
+<p begin="00:46:02.921" end="00:46:06.521" style="s2">&gt;&gt; Of course.</p>
+<p begin="00:46:04.121" end="00:46:09.221" style="s2">Why didn&#39;t I?</p>
+<p begin="00:46:06.521" end="00:46:10.621" style="s2">I&#39;ll see Mrs. Jenkins in the morning and</p>
+<p begin="00:46:09.221" end="00:46:12.221" style="s2">talk it over.</p>
+<p begin="00:46:10.621" end="00:46:14.621" style="s2">&gt;&gt; If she won&#39;t do it,</p>
+<p begin="00:46:12.221" end="00:46:16.321" style="s2">we&#39;ll post he kept pregnant Lily off the</p>
+<p begin="00:46:14.621" end="00:46:19.321" style="s2">elevator.</p>
+<p begin="00:46:16.321" end="00:46:19.321" style="s2">That will shame him.</p>
+<p begin="00:46:21.021" end="00:46:25.621" style="s2">&gt;&gt; Mom, this is our new home. There&#39;s a</p>
+<p begin="00:46:23.321" end="00:46:28.221" style="s2">community choir and an illustration</p>
+<p begin="00:46:25.621" end="00:46:31.321" style="s2">class. You can join whenever you like.</p>
+<p begin="00:46:28.221" end="00:46:34.021" style="s2">&gt;&gt; Okay. I&#39;ll go when I can.</p>
+<p begin="00:46:31.321" end="00:46:35.921" style="s2">I wonder how Mr. Sterling is doing.</p>
+<p begin="00:46:34.021" end="00:46:38.521" style="s2">Linda and the others must have gone to</p>
+<p begin="00:46:35.921" end="00:46:38.521" style="s2">see him.</p>
+<p begin="00:46:38.621" end="00:46:44.421" style="s2">&gt;&gt; I&#39;ll ask. Mr. Sterling, how&#39;d the move</p>
+<p begin="00:46:41.521" end="00:46:48.121" style="s2">go? Any trouble from the neighbors?</p>
+<p begin="00:46:44.421" end="00:46:48.121" style="s2">&gt;&gt; No. I sent them packing.</p>
+<p begin="00:46:50.321" end="00:46:54.121" style="s2">&gt;&gt; Good. If anything else comes up, Mr.</p>
+<p begin="00:46:52.621" end="00:46:58.723" style="s2">Sterling, just call me.</p>
+<p begin="00:46:54.121" end="00:46:58.723" style="s2">&gt;&gt; Mrs. Jenkins, it&#39;s Linda. Open up.</p>
+<p begin="00:47:00.223" end="00:47:04.523" style="s2">Linda, why knock so early?</p>
+<p begin="00:47:02.723" end="00:47:05.622" style="s2">Mrs. Jenkins, is your daughter-in-law</p>
+<p begin="00:47:04.523" end="00:47:08.723" style="s2">Lillian?</p>
+<p begin="00:47:05.622" end="00:47:11.122" style="s2">&gt;&gt; Linda, mom said last night</p>
+<p begin="00:47:08.723" end="00:47:13.622" style="s2">because of you we lost elevator access</p>
+<p begin="00:47:11.122" end="00:47:14.622" style="s2">again. Why do you go complain to the new</p>
+<p begin="00:47:13.622" end="00:47:16.823" style="s2">neighbor?</p>
+<p begin="00:47:14.622" end="00:47:19.122" style="s2">&gt;&gt; Lily, that&#39;s not fair.</p>
+<p begin="00:47:16.823" end="00:47:20.523" style="s2">The new neighbor&#39;s just stingy.</p>
+<p begin="00:47:19.122" end="00:47:22.023" style="s2">&gt;&gt; How is that my fault?</p>
+<p begin="00:47:20.523" end="00:47:24.323" style="s2">&gt;&gt; Who else but you?</p>
+<p begin="00:47:22.023" end="00:47:26.523" style="s2">Look at this belly.</p>
+<p begin="00:47:24.323" end="00:47:27.723" style="s2">I take the stairs to and from work. It&#39;s</p>
+<p begin="00:47:26.523" end="00:47:30.422" style="s2">exhausting.</p>
+<p begin="00:47:27.723" end="00:47:32.523" style="s2">&gt;&gt; That&#39;s why I&#39;m here to fix this.</p>
+<p begin="00:47:30.422" end="00:47:34.023" style="s2">Mrs. Jenkins, we were wrong to go</p>
+<p begin="00:47:32.523" end="00:47:37.523" style="s2">yesterday.</p>
+<p begin="00:47:34.023" end="00:47:37.523" style="s2">Lily should have gone instead.</p>
+<p begin="00:47:37.823" end="00:47:39.622" style="s2">&gt;&gt; Lily.</p>
+<p begin="00:47:38.323" end="00:47:41.323" style="s2">&gt;&gt; Right.</p>
+<p begin="00:47:39.622" end="00:47:42.823" style="s2">We may be getting older, but we&#39;re not</p>
+<p begin="00:47:41.323" end="00:47:45.023" style="s2">in our 80s.</p>
+<p begin="00:47:42.823" end="00:47:46.523" style="s2">We can still take the stairs.</p>
+<p begin="00:47:45.023" end="00:47:48.323" style="s2">But Lily&#39;s different.</p>
+<p begin="00:47:46.523" end="00:47:50.823" style="s2">She&#39;s pregnant.</p>
+<p begin="00:47:48.323" end="00:47:53.122" style="s2">She&#39;s due any day now.</p>
+<p begin="00:47:50.823" end="00:47:54.323" style="s2">If the new neighbor dares deny Lily the</p>
+<p begin="00:47:53.122" end="00:47:56.823" style="s2">elevator,</p>
+<p begin="00:47:54.323" end="00:47:58.023" style="s2">that&#39;s abusing a pregnant woman.</p>
+<p begin="00:47:56.823" end="00:47:59.223" style="s2">Heartless.</p>
+<p begin="00:47:58.023" end="00:48:01.323" style="s2">&gt;&gt; Right.</p>
+<p begin="00:47:59.223" end="00:48:03.023" style="s2">My daughter-in-law&#39;s pregnant.</p>
+<p begin="00:48:01.323" end="00:48:04.122" style="s2">Surely the new neighbor can&#39;t deny her</p>
+<p begin="00:48:03.023" end="00:48:05.922" style="s2">the elevator.</p>
+<p begin="00:48:04.122" end="00:48:07.723" style="s2">&gt;&gt; Exactly.</p>
+<p begin="00:48:05.922" end="00:48:08.823" style="s2">Let&#39;s have Lily talk to the new neighbor</p>
+<p begin="00:48:07.723" end="00:48:10.723" style="s2">now.</p>
+<p begin="00:48:08.823" end="00:48:11.323" style="s2">Then we&#39;ll all get elevator access</p>
+<p begin="00:48:10.723" end="00:48:13.223" style="s2">again.</p>
+<p begin="00:48:11.323" end="00:48:14.323" style="s2">&gt;&gt; Exactly. Lily,</p>
+<p begin="00:48:13.223" end="00:48:17.323" style="s2">hurry up.</p>
+<p begin="00:48:14.323" end="00:48:17.323" style="s2">Go see the new neighbor now.</p>
+<p begin="00:48:17.422" end="00:48:20.523" style="s2">&gt;&gt; Okay, I&#39;m going.</p>
+<p begin="00:48:22.223" end="00:48:25.223" style="s2">&gt;&gt; Will you stop this?</p>
+<p begin="00:48:25.622" end="00:48:30.523" style="s2">&gt;&gt; Hi, I live on the third floor. As you</p>
+<p begin="00:48:28.122" end="00:48:33.023" style="s2">can see, I&#39;m pregnant. Without the</p>
+<p begin="00:48:30.523" end="00:48:35.122" style="s2">elevator, it&#39;s really hard. Could you</p>
+<p begin="00:48:33.023" end="00:48:37.223" style="s2">disable the access lock and open the</p>
+<p begin="00:48:35.122" end="00:48:39.723" style="s2">elevator to everyone again?</p>
+<p begin="00:48:37.223" end="00:48:39.723" style="s2">Thank you.</p>
+<p begin="00:48:40.122" end="00:48:43.323" style="s2">&gt;&gt; Your convenience isn&#39;t my problem.</p>
+<p begin="00:48:41.922" end="00:48:44.723" style="s2">&gt;&gt; But I&#39;m pregnant.</p>
+<p begin="00:48:43.323" end="00:48:46.422" style="s2">&gt;&gt; So what?</p>
+<p begin="00:48:44.723" end="00:48:48.023" style="s2">I bought this elevator privately for</p>
+<p begin="00:48:46.422" end="00:48:50.122" style="s2">Miss Vance.</p>
+<p begin="00:48:48.023" end="00:48:52.323" style="s2">I don&#39;t have to let everyone use it.</p>
+<p begin="00:48:50.122" end="00:48:54.523" style="s2">&gt;&gt; Have you no compassion? Even bus riders</p>
+<p begin="00:48:52.323" end="00:48:56.523" style="s2">give pregnant women seats. I climb</p>
+<p begin="00:48:54.523" end="00:48:58.922" style="s2">stairs every day with this belly. What</p>
+<p begin="00:48:56.523" end="00:48:59.724" style="s2">if I get hurt? Will you be responsible?</p>
+<p begin="00:48:58.922" end="00:49:02.124" style="s2">&gt;&gt; This is my</p>
+<p begin="00:48:59.724" end="00:49:04.524" style="s2">&gt;&gt; elevator, not a bus.</p>
+<p begin="00:49:02.124" end="00:49:07.324" style="s2">&gt;&gt; What a jerk. How can he treat a pregnant</p>
+<p begin="00:49:04.524" end="00:49:07.324" style="s2">woman like that?</p>
+<p begin="00:49:07.624" end="00:49:12.524" style="s2">&gt;&gt; The new neighbor won&#39;t even make an</p>
+<p begin="00:49:09.024" end="00:49:15.124" style="s2">exception for you. That&#39;s so heartless.</p>
+<p begin="00:49:12.524" end="00:49:16.524" style="s2">&gt;&gt; I knew it. The new guy&#39;s as petty as</p>
+<p begin="00:49:15.124" end="00:49:19.724" style="s2">Chloe.</p>
+<p begin="00:49:16.524" end="00:49:22.524" style="s2">If he won&#39;t play nice, neither will we.</p>
+<p begin="00:49:19.724" end="00:49:25.724" style="s2">I recorded how aggressive he was.</p>
+<p begin="00:49:22.524" end="00:49:27.324" style="s2">Let&#39;s post it online and expose him.</p>
+<p begin="00:49:25.724" end="00:49:29.924" style="s2">Let everyone see how he bullies a</p>
+<p begin="00:49:27.324" end="00:49:31.124" style="s2">pregnant woman.</p>
+<p begin="00:49:29.924" end="00:49:32.624" style="s2">&gt;&gt; Expose him.</p>
+<p begin="00:49:31.124" end="00:49:36.024" style="s2">&gt;&gt; Let everyone judge.</p>
+<p begin="00:49:32.624" end="00:49:36.024" style="s2">&gt;&gt; Let&#39;s see him act tough.</p>
+<p begin="00:49:37.324" end="00:49:41.424" style="s2">&gt;&gt; Chloe, Mr. Sterling&#39;s in trouble. At</p>
+<p begin="00:49:39.524" end="00:49:43.724" style="s2">flower class, two neighbors mentioned a</p>
+<p begin="00:49:41.424" end="00:49:45.924" style="s2">video of a pregnant woman being bullied.</p>
+<p begin="00:49:43.724" end="00:49:49.524" style="s2">I saw it was Mr. Sterling and Mrs.</p>
+<p begin="00:49:45.924" end="00:49:49.524" style="s2">Jenkins&#39; daughter-in-law, Lily.</p>
+<p begin="00:49:53.424" end="00:49:58.724" style="s2">&gt;&gt; Everyone, you be the judge. There&#39;s a</p>
+<p begin="00:49:56.024" end="00:50:01.424" style="s2">new guy in our building. The last owner</p>
+<p begin="00:49:58.724" end="00:50:03.824" style="s2">installed the elevator privately, so now</p>
+<p begin="00:50:01.424" end="00:50:06.124" style="s2">he won&#39;t let the rest of us use it.</p>
+<p begin="00:50:03.824" end="00:50:09.324" style="s2">Several neighbors begged him. He threw</p>
+<p begin="00:50:06.124" end="00:50:11.324" style="s2">them all out, even me, and I&#39;m pregnant.</p>
+<p begin="00:50:09.324" end="00:50:13.224" style="s2">&gt;&gt; Why should your needs concern me?</p>
+<p begin="00:50:11.324" end="00:50:14.924" style="s2">&gt;&gt; But I&#39;m pregnant.</p>
+<p begin="00:50:13.224" end="00:50:16.924" style="s2">&gt;&gt; So what?</p>
+<p begin="00:50:14.924" end="00:50:18.724" style="s2">&gt;&gt; I bought this elevator privately from</p>
+<p begin="00:50:16.924" end="00:50:21.224" style="s2">Miss Vance.</p>
+<p begin="00:50:18.724" end="00:50:23.924" style="s2">Can I refuse to open it to others?</p>
+<p begin="00:50:21.224" end="00:50:25.624" style="s2">&gt;&gt; This new neighbor is heartless. He won&#39;t</p>
+<p begin="00:50:23.924" end="00:50:26.424" style="s2">even let a pregnant woman use the</p>
+<p begin="00:50:25.624" end="00:50:28.024" style="s2">elevator.</p>
+<p begin="00:50:26.424" end="00:50:29.824" style="s2">&gt;&gt; So heartless.</p>
+<p begin="00:50:28.024" end="00:50:31.724" style="s2">This is outrageous.</p>
+<p begin="00:50:29.824" end="00:50:33.624" style="s2">This is Oakridge Community.</p>
+<p begin="00:50:31.724" end="00:50:34.824" style="s2">The buildings are old and most residents</p>
+<p begin="00:50:33.624" end="00:50:36.824" style="s2">are seniors.</p>
+<p begin="00:50:34.824" end="00:50:38.224" style="s2">Since it&#39;s their, let&#39;s seniors and</p>
+<p begin="00:50:36.824" end="00:50:40.524" style="s2">pregnant women ride.</p>
+<p begin="00:50:38.224" end="00:50:41.824" style="s2">&gt;&gt; Chloe, what now? Why not call Mr.</p>
+<p begin="00:50:40.524" end="00:50:43.624" style="s2">Sterling?</p>
+<p begin="00:50:41.824" end="00:50:47.924" style="s2">Maybe he doesn&#39;t know about the video.</p>
+<p begin="00:50:43.624" end="00:50:47.924" style="s2">&gt;&gt; Mom, I&#39;ll go see Mr. Sterling myself.</p>
+<p begin="00:50:53.124" end="00:50:57.224" style="s2">&gt;&gt; Hello, Mr. Sterling. I&#39;m here to discuss</p>
+<p begin="00:50:56.024" end="00:50:59.924" style="s2">the video with you.</p>
+<p begin="00:50:57.224" end="00:50:59.924" style="s2">&gt;&gt; What video?</p>
+<p begin="00:51:00.424" end="00:51:02.525" style="s2">Your convenience isn&#39;t my concern.</p>
+<p begin="00:51:02.424" end="00:51:03.625" style="s2">&gt;&gt; But</p>
+<p begin="00:51:02.525" end="00:51:04.625" style="s2">&gt;&gt; I&#39;m pregnant.</p>
+<p begin="00:51:03.625" end="00:51:06.725" style="s2">&gt;&gt; So what?</p>
+<p begin="00:51:04.625" end="00:51:08.925" style="s2">&gt;&gt; Sorry, Mr. Sterling. I didn&#39;t expect the</p>
+<p begin="00:51:06.725" end="00:51:10.725" style="s2">neighbors to post it online and cause</p>
+<p begin="00:51:08.925" end="00:51:13.025" style="s2">such a huge backlash against you.</p>
+<p begin="00:51:10.725" end="00:51:14.925" style="s2">&gt;&gt; That&#39;s why I&#39;m here, Mr. Sterling. Miss</p>
+<p begin="00:51:13.025" end="00:51:16.925" style="s2">Miller posting the video online wasn&#39;t</p>
+<p begin="00:51:14.925" end="00:51:19.125" style="s2">well thought out, but she&#39;s pregnant.</p>
+<p begin="00:51:16.925" end="00:51:20.825" style="s2">The online backlash is getting intense.</p>
+<p begin="00:51:19.125" end="00:51:21.725" style="s2">Could you turn off the elevator&#39;s access</p>
+<p begin="00:51:20.825" end="00:51:24.025" style="s2">control system?</p>
+<p begin="00:51:21.725" end="00:51:26.425" style="s2">&gt;&gt; Mr. Davis, is this how you solve</p>
+<p begin="00:51:24.025" end="00:51:28.725" style="s2">problems? You&#39;re always playing</p>
+<p begin="00:51:26.425" end="00:51:32.025" style="s2">mediator, telling the victim to be the</p>
+<p begin="00:51:28.725" end="00:51:34.025" style="s2">bigger person, just like you told me.</p>
+<p begin="00:51:32.025" end="00:51:36.525" style="s2">&gt;&gt; Miss Vance, try to understand my</p>
+<p begin="00:51:34.025" end="00:51:38.925" style="s2">position. There are so many people. I</p>
+<p begin="00:51:36.525" end="00:51:41.425" style="s2">can&#39;t please everyone. Online, they&#39;re</p>
+<p begin="00:51:38.925" end="00:51:43.825" style="s2">calling Mr. Sterling heartless. I have</p>
+<p begin="00:51:41.425" end="00:51:46.025" style="s2">to calm things down first.</p>
+<p begin="00:51:43.825" end="00:51:47.925" style="s2">&gt;&gt; Miss Miller&#39;s group was clearly wrong,</p>
+<p begin="00:51:46.025" end="00:51:49.925" style="s2">but now they&#39;re causing a scene and</p>
+<p begin="00:51:47.925" end="00:51:52.125" style="s2">winning everyone&#39;s sympathy. Are you</p>
+<p begin="00:51:49.925" end="00:51:54.225" style="s2">rewarding bad behavior, Mr. Davis?</p>
+<p begin="00:51:52.125" end="00:51:56.625" style="s2">&gt;&gt; I&#39;m not letting bullies win.</p>
+<p begin="00:51:54.225" end="00:51:59.425" style="s2">I know Mr. Sterling did nothing wrong,</p>
+<p begin="00:51:56.625" end="00:52:00.925" style="s2">but there&#39;s nothing I can do. Otherwise,</p>
+<p begin="00:51:59.425" end="00:52:03.025" style="s2">more people will condemn him.</p>
+<p begin="00:52:00.925" end="00:52:05.625" style="s2">&gt;&gt; If you can&#39;t help, Mr. Davis, then</p>
+<p begin="00:52:03.025" end="00:52:08.325" style="s2">please leave. I&#39;ll handle this for Mr.</p>
+<p begin="00:52:05.625" end="00:52:08.325" style="s2">Sterling.</p>
+<p begin="00:52:08.625" end="00:52:11.725" style="s2">&gt;&gt; Miss Vance, what now?</p>
+<p begin="00:52:09.925" end="00:52:13.325" style="s2">&gt;&gt; Don&#39;t trouble yourself, Mr. Davis.</p>
+<p begin="00:52:11.725" end="00:52:14.925" style="s2">&gt;&gt; We&#39;re all neighbors.</p>
+<p begin="00:52:13.325" end="00:52:18.325" style="s2">Why make things so ugly?</p>
+<p begin="00:52:14.925" end="00:52:20.525" style="s2">&gt;&gt; Tell that to Miss Miller. Oh, right.</p>
+<p begin="00:52:18.325" end="00:52:22.725" style="s2">And Linda, of course.</p>
+<p begin="00:52:20.525" end="00:52:24.425" style="s2">&gt;&gt; Linda isn&#39;t involved, is she?</p>
+<p begin="00:52:22.725" end="00:52:26.925" style="s2">&gt;&gt; Is she involved?</p>
+<p begin="00:52:24.425" end="00:52:29.325" style="s2">You&#39;ll know soon, Mr. Davis.</p>
+<p begin="00:52:26.925" end="00:52:31.525" style="s2">&gt;&gt; Fine, I&#39;m out. It&#39;s your call, Miss</p>
+<p begin="00:52:29.325" end="00:52:33.925" style="s2">Vance.</p>
+<p begin="00:52:31.525" end="00:52:36.125" style="s2">&gt;&gt; Mr. Sterling, could you tell us what&#39;s</p>
+<p begin="00:52:33.925" end="00:52:38.325" style="s2">happened since you moved in?</p>
+<p begin="00:52:36.125" end="00:52:40.125" style="s2">&gt;&gt; I don&#39;t care about the video.</p>
+<p begin="00:52:38.325" end="00:52:41.225" style="s2">Worst case, I&#39;ll sell the place and</p>
+<p begin="00:52:40.125" end="00:52:43.825" style="s2">move.</p>
+<p begin="00:52:41.225" end="00:52:46.525" style="s2">&gt;&gt; Don&#39;t blame yourself, Miss Vance.</p>
+<p begin="00:52:43.825" end="00:52:48.825" style="s2">It was a fair deal, plain and simple.</p>
+<p begin="00:52:46.525" end="00:52:50.925" style="s2">&gt;&gt; How gracious of you, Mr. Sterling. But</p>
+<p begin="00:52:48.825" end="00:52:54.125" style="s2">when bullies get their way, we can&#39;t</p>
+<p begin="00:52:50.925" end="00:52:57.725" style="s2">just let it slide, right, Mr. Sterling?</p>
+<p begin="00:52:54.125" end="00:52:57.725" style="s2">&gt;&gt; Let&#39;s give them what they deserve.</p>
+<p begin="00:52:58.425" end="00:53:03.625" style="s2">&gt;&gt; Linda, thanks for the great idea. Now</p>
+<p begin="00:53:01.425" end="00:53:05.927" style="s2">everyone&#39;s online backing me. They&#39;re</p>
+<p begin="00:53:03.625" end="00:53:09.327" style="s2">calling Mr. Sterling heartless.</p>
+<p begin="00:53:05.927" end="00:53:12.227" style="s2">&gt;&gt; I called Mr. Davis half an hour ago.</p>
+<p begin="00:53:09.327" end="00:53:16.127" style="s2">He said he talked to Mr. Sterling.</p>
+<p begin="00:53:12.227" end="00:53:19.127" style="s2">We should have the elevator back soon.</p>
+<p begin="00:53:16.127" end="00:53:20.827" style="s2">&gt;&gt; Oh, I just want everyone happy.</p>
+<p begin="00:53:19.127" end="00:53:22.527" style="s2">It&#39;s only right.</p>
+<p begin="00:53:20.827" end="00:53:25.027" style="s2">&gt;&gt; This whole thing got me tons of new</p>
+<p begin="00:53:22.527" end="00:53:27.827" style="s2">followers. I sell products online for</p>
+<p begin="00:53:25.027" end="00:53:29.927" style="s2">moms and babies, and in half a day, lots</p>
+<p begin="00:53:27.827" end="00:53:30.827" style="s2">of my online supporters bought a ton of</p>
+<p begin="00:53:29.927" end="00:53:32.627" style="s2">my products.</p>
+<p begin="00:53:30.827" end="00:53:34.327" style="s2">&gt;&gt; That&#39;s a hefty commission.</p>
+<p begin="00:53:32.627" end="00:53:38.327" style="s2">&gt;&gt; If this happened every day, I&#39;d earn</p>
+<p begin="00:53:34.327" end="00:53:38.327" style="s2">$100,000 plus a month.</p>
+<p begin="00:53:39.362" end="00:53:41.382" style="s2">[music]</p>
+<p begin="00:53:46.327" end="00:53:51.027" style="s2">Mr. Sterling went live.</p>
+<p begin="00:53:48.827" end="00:53:52.327" style="s2">Online opinion began to shift.</p>
+<p begin="00:53:51.027" end="00:53:53.527" style="s2">&gt;&gt; I don&#39;t bother with people who don&#39;t</p>
+<p begin="00:53:52.327" end="00:53:55.327" style="s2">matter,</p>
+<p begin="00:53:53.527" end="00:53:56.927" style="s2">but I won&#39;t let petty people win. So let</p>
+<p begin="00:53:55.327" end="00:53:58.727" style="s2">me clear this up.</p>
+<p begin="00:53:56.927" end="00:54:00.527" style="s2">First, I bought the elevator for</p>
+<p begin="00:53:58.727" end="00:54:02.227" style="s2">$230,000</p>
+<p begin="00:54:00.527" end="00:54:04.027" style="s2">from the former owner.</p>
+<p begin="00:54:02.227" end="00:54:05.727" style="s2">It&#39;s private property.</p>
+<p begin="00:54:04.027" end="00:54:07.327" style="s2">The former owner asked everyone about</p>
+<p begin="00:54:05.727" end="00:54:08.927" style="s2">adding an elevator.</p>
+<p begin="00:54:07.327" end="00:54:11.327" style="s2">You all said no.</p>
+<p begin="00:54:08.927" end="00:54:13.627" style="s2">You said no and refused to pay.</p>
+<p begin="00:54:11.327" end="00:54:15.327" style="s2">So now that it&#39;s installed, why do you I</p>
+<p begin="00:54:13.627" end="00:54:17.027" style="s2">think you&#39;re entitled to use it.</p>
+<p begin="00:54:15.327" end="00:54:19.927" style="s2">&gt;&gt; You wouldn&#39;t pay before.</p>
+<p begin="00:54:17.027" end="00:54:21.427" style="s2">Now it&#39;s installed, you demand access.</p>
+<p begin="00:54:19.927" end="00:54:23.327" style="s2">That&#39;s freeloading.</p>
+<p begin="00:54:21.427" end="00:54:26.127" style="s2">&gt;&gt; But pregnancy is different, right?</p>
+<p begin="00:54:23.327" end="00:54:26.727" style="s2">&gt;&gt; Exactly. I&#39;m pregnant. Shouldn&#39;t I get</p>
+<p begin="00:54:26.127" end="00:54:28.427" style="s2">to use it?</p>
+<p begin="00:54:26.727" end="00:54:31.027" style="s2">&gt;&gt; If someone here truly had mobility</p>
+<p begin="00:54:28.427" end="00:54:32.727" style="s2">issues, I&#39;d make an exception.</p>
+<p begin="00:54:31.027" end="00:54:34.627" style="s2">But some neighbors&#39; attitudes lead me</p>
+<p begin="00:54:32.727" end="00:54:35.927" style="s2">with no sympathy for them.</p>
+<p begin="00:54:34.627" end="00:54:37.627" style="s2">Just watch this video.</p>
+<p begin="00:54:35.927" end="00:54:39.327" style="s2">&gt;&gt; Could he be the new neighbor?</p>
+<p begin="00:54:37.627" end="00:54:42.227" style="s2">Look, he&#39;s not in a work uniform.</p>
+<p begin="00:54:39.327" end="00:54:43.927" style="s2">&gt;&gt; No way. Look how built he is.</p>
+<p begin="00:54:42.227" end="00:54:45.727" style="s2">He&#39;s obviously a mover.</p>
+<p begin="00:54:43.927" end="00:54:47.327" style="s2">He couldn&#39;t afford a place here.</p>
+<p begin="00:54:45.727" end="00:54:48.627" style="s2">Pretty cocky for a mover.</p>
+<p begin="00:54:47.327" end="00:54:49.327" style="s2">When I meet the new neighbor, I&#39;ll have</p>
+<p begin="00:54:48.627" end="00:54:51.127" style="s2">him dock your pay.</p>
+<p begin="00:54:49.327" end="00:54:52.927" style="s2">&gt;&gt; He&#39;s just built that way.</p>
+<p begin="00:54:51.127" end="00:54:53.327" style="s2">Moving takes muscle. Don&#39;t start trouble</p>
+<p begin="00:54:52.927" end="00:54:55.227" style="s2">again.</p>
+<p begin="00:54:53.327" end="00:54:57.327" style="s2">&gt;&gt; How am I making trouble? That filthy</p>
+<p begin="00:54:55.227" end="00:54:58.227" style="s2">mover disrespected me. He told me to</p>
+<p begin="00:54:57.327" end="00:54:59.527" style="s2">move.</p>
+<p begin="00:54:58.227" end="00:55:01.627" style="s2">Who is he?</p>
+<p begin="00:54:59.527" end="00:55:03.227" style="s2">&gt;&gt; The owner helped with the move.</p>
+<p begin="00:55:01.627" end="00:55:05.327" style="s2">That&#39;s class.</p>
+<p begin="00:55:03.227" end="00:55:07.027" style="s2">Yet she says he&#39;s beneath her.</p>
+<p begin="00:55:05.327" end="00:55:07.628" style="s2">What a judgmental snob.</p>
+<p begin="00:55:07.027" end="00:55:09.128" style="s2">&gt;&gt; Where is</p>
+<p begin="00:55:07.628" end="00:55:12.528" style="s2">&gt;&gt; video from?</p>
+<p begin="00:55:09.128" end="00:55:12.528" style="s2">Why was this even recorded?</p>
+<p begin="00:55:13.228" end="00:55:16.628" style="s2">&gt;&gt; Your fault.</p>
+<p begin="00:55:14.728" end="00:55:18.228" style="s2">You kept saying he was a mover.</p>
+<p begin="00:55:16.628" end="00:55:19.228" style="s2">Well, now look.</p>
+<p begin="00:55:18.228" end="00:55:22.428" style="s2">He&#39;s posted the video.</p>
+<p begin="00:55:19.228" end="00:55:23.828" style="s2">&gt;&gt; How&#39;d I know he was filming?</p>
+<p begin="00:55:22.428" end="00:55:27.828" style="s2">Wait, no.</p>
+<p begin="00:55:23.828" end="00:55:27.828" style="s2">How&#39;d he film while carrying boxes?</p>
+<p begin="00:55:27.928" end="00:55:32.828" style="s2">&gt;&gt; Mom,</p>
+<p begin="00:55:29.228" end="00:55:34.528" style="s2">everyone who just bought my products</p>
+<p begin="00:55:32.828" end="00:55:36.628" style="s2">canceled their orders.</p>
+<p begin="00:55:34.528" end="00:55:39.128" style="s2">&gt;&gt; User 031, maternal and baby care set</p>
+<p begin="00:55:36.628" end="00:55:40.428" style="s2">canceled. User 6,518,</p>
+<p begin="00:55:39.128" end="00:55:43.528" style="s2">premium formula milk canceled.</p>
+<p begin="00:55:40.428" end="00:55:43.528" style="s2">&gt;&gt; Why did they all cancel?</p>
+<p begin="00:55:44.828" end="00:55:49.728" style="s2">&gt;&gt; Linda badmouthing Mr. Sterling dragged</p>
+<p begin="00:55:47.028" end="00:55:51.428" style="s2">me into it. I lost every cent of my</p>
+<p begin="00:55:49.728" end="00:55:53.728" style="s2">commission.</p>
+<p begin="00:55:51.428" end="00:55:55.628" style="s2">&gt;&gt; Your lousy idea got my daughter-in-law</p>
+<p begin="00:55:53.728" end="00:55:57.428" style="s2">harassed, too.</p>
+<p begin="00:55:55.628" end="00:55:59.628" style="s2">&gt;&gt; How is this my fault?</p>
+<p begin="00:55:57.428" end="00:56:01.328" style="s2">You all agreed to post that video.</p>
+<p begin="00:55:59.628" end="00:56:03.428" style="s2">Why blame me now?</p>
+<p begin="00:56:01.328" end="00:56:06.128" style="s2">&gt;&gt; Who else would we blame?</p>
+<p begin="00:56:03.428" end="00:56:07.528" style="s2">I never should have believed your lies.</p>
+<p begin="00:56:06.128" end="00:56:10.028" style="s2">&gt;&gt; The nerve.</p>
+<p begin="00:56:07.528" end="00:56:12.928" style="s2">Now they blame me for this.</p>
+<p begin="00:56:10.028" end="00:56:14.828" style="s2">But how&#39;d Mr. Sterling film it?</p>
+<p begin="00:56:12.928" end="00:56:16.528" style="s2">That angle couldn&#39;t be from the camera</p>
+<p begin="00:56:14.828" end="00:56:18.528" style="s2">downstairs.</p>
+<p begin="00:56:16.528" end="00:56:20.428" style="s2">&gt;&gt; Thank you, Miss Vance.</p>
+<p begin="00:56:18.528" end="00:56:22.528" style="s2">Without you, I&#39;d still be facing the</p>
+<p begin="00:56:20.428" end="00:56:25.328" style="s2">online backlash.</p>
+<p begin="00:56:22.528" end="00:56:27.628" style="s2">&gt;&gt; All I did was suggest asking the movers</p>
+<p begin="00:56:25.328" end="00:56:30.428" style="s2">for their dash cam footage.</p>
+<p begin="00:56:27.628" end="00:56:32.628" style="s2">You were generous, Mr. Sterling, helping</p>
+<p begin="00:56:30.428" end="00:56:34.728" style="s2">move things yourself.</p>
+<p begin="00:56:32.628" end="00:56:36.728" style="s2">So the mover gladly gave you the dash</p>
+<p begin="00:56:34.728" end="00:56:38.728" style="s2">cam video.</p>
+<p begin="00:56:36.728" end="00:56:40.928" style="s2">Now that it&#39;s settled, I&#39;ll leave you to</p>
+<p begin="00:56:38.728" end="00:56:40.928" style="s2">it.</p>
+<p begin="00:56:50.628" end="00:56:53.828" style="s2">&gt;&gt; Why is Chloe here?</p>
+<p begin="00:56:54.128" end="00:56:59.428" style="s2">Was Mr. Sterling&#39;s live stream Chloe&#39;s</p>
+<p begin="00:56:56.828" end="00:56:59.428" style="s2">idea?</p>
+<p begin="00:57:03.728" end="00:57:08.928" style="s2">Chloe, stop right there.</p>
+<p begin="00:57:06.928" end="00:57:10.628" style="s2">Did you give Mr. Sterling that video for</p>
+<p begin="00:57:08.928" end="00:57:12.829" style="s2">his live stream?</p>
+<p begin="00:57:10.628" end="00:57:14.229" style="s2">You moved out, so why are you still</p>
+<p begin="00:57:12.829" end="00:57:16.929" style="s2">meddling?</p>
+<p begin="00:57:14.229" end="00:57:18.529" style="s2">Can&#39;t seeing me use the elevator?</p>
+<p begin="00:57:16.929" end="00:57:21.229" style="s2">Why are you so damn petty?</p>
+<p begin="00:57:18.529" end="00:57:22.129" style="s2">&gt;&gt; Linda, you bullied Mr. Sterling online.</p>
+<p begin="00:57:21.229" end="00:57:24.629" style="s2">That&#39;s okay?</p>
+<p begin="00:57:22.129" end="00:57:26.429" style="s2">&gt;&gt; He wouldn&#39;t open the elevator.</p>
+<p begin="00:57:24.629" end="00:57:28.629" style="s2">So I let the internet judge how</p>
+<p begin="00:57:26.429" end="00:57:30.629" style="s2">heartless he is toward the old, frail,</p>
+<p begin="00:57:28.629" end="00:57:33.129" style="s2">and pregnant.</p>
+<p begin="00:57:30.629" end="00:57:35.929" style="s2">&gt;&gt; Well, the internet has spoken. They said</p>
+<p begin="00:57:33.129" end="00:57:37.329" style="s2">you and Lily were wrong. Linda, have you</p>
+<p begin="00:57:35.929" end="00:57:39.729" style="s2">taken the criticism?</p>
+<p begin="00:57:37.329" end="00:57:41.329" style="s2">&gt;&gt; Those people don&#39;t know it all.</p>
+<p begin="00:57:39.729" end="00:57:43.629" style="s2">You&#39;re petty.</p>
+<p begin="00:57:41.329" end="00:57:45.729" style="s2">You&#39;re still mad I reported you, so you</p>
+<p begin="00:57:43.629" end="00:57:48.329" style="s2">barred me from the elevator.</p>
+<p begin="00:57:45.729" end="00:57:50.929" style="s2">You fooled everyone online.</p>
+<p begin="00:57:48.329" end="00:57:54.529" style="s2">&gt;&gt; There&#39;s no talking to you. Either way,</p>
+<p begin="00:57:50.929" end="00:57:58.429" style="s2">that elevator stays off limits.</p>
+<p begin="00:57:54.529" end="00:57:58.429" style="s2">Enjoy your daily five floor climb.</p>
+<p begin="00:57:59.029" end="00:58:04.529" style="s2">&gt;&gt; You said you&#39;d handle the elevator. Now</p>
+<p begin="00:58:01.629" end="00:58:06.429" style="s2">I still have to climb on crutches.</p>
+<p begin="00:58:04.529" end="00:58:07.529" style="s2">After my checkup, I&#39;ll have to climb</p>
+<p begin="00:58:06.429" end="00:58:08.729" style="s2">again.</p>
+<p begin="00:58:07.529" end="00:58:10.529" style="s2">You&#39;re torturing me.</p>
+<p begin="00:58:08.729" end="00:58:11.829" style="s2">&gt;&gt; Who knew Chloe would come back to help</p>
+<p begin="00:58:10.529" end="00:58:14.029" style="s2">him?</p>
+<p begin="00:58:11.829" end="00:58:16.829" style="s2">Blame Chloe.</p>
+<p begin="00:58:14.029" end="00:58:18.529" style="s2">&gt;&gt; She moved out and still won&#39;t quit.</p>
+<p begin="00:58:16.829" end="00:58:19.529" style="s2">I hope she trips and falls just like I</p>
+<p begin="00:58:18.529" end="00:58:22.129" style="s2">did.</p>
+<p begin="00:58:19.529" end="00:58:22.129" style="s2">Ow, ow.</p>
+<p begin="00:58:27.029" end="00:58:31.329" style="s2">&gt;&gt; Honey, are you okay?</p>
+<p begin="00:58:29.329" end="00:58:32.229" style="s2">Can you still stand up?</p>
+<p begin="00:58:31.329" end="00:58:33.529" style="s2">&gt;&gt; Ow.</p>
+<p begin="00:58:32.229" end="00:58:36.529" style="s2">It hurts so bad.</p>
+<p begin="00:58:33.529" end="00:58:37.929" style="s2">I think I broke my leg again.</p>
+<p begin="00:58:36.529" end="00:58:40.929" style="s2">&gt;&gt; Mr. Lawson,</p>
+<p begin="00:58:37.929" end="00:58:40.929" style="s2">come out quick.</p>
+<p begin="00:58:41.320" end="00:58:44.129" style="s2">&gt;&gt; [panting]</p>
+<p begin="00:58:43.029" end="00:58:46.929" style="s2">&gt;&gt; What&#39;s wrong?</p>
+<p begin="00:58:44.129" end="00:58:50.329" style="s2">&gt;&gt; My husband fell down the stairs.</p>
+<p begin="00:58:46.929" end="00:58:52.329" style="s2">Mr. Lawson, help carry my husband.</p>
+<p begin="00:58:50.329" end="00:58:55.075" style="s2">My cab&#39;s waiting downstairs.</p>
+<p begin="00:58:52.329" end="00:58:57.095" style="s2">&gt;&gt; Son, come give us a hand.</p>
+<p begin="00:58:55.075" end="00:58:57.095" style="s2">&gt;&gt; [panting]</p>
+<p begin="00:59:01.829" end="00:59:05.029" style="s2">&gt;&gt; City Hospital, hurry.</p>
+<p begin="00:59:07.329" end="00:59:11.329" style="s2">&gt;&gt; I carried Linda&#39;s husband, and she</p>
+<p begin="00:59:09.229" end="00:59:15.331" style="s2">didn&#39;t even thank me.</p>
+<p begin="00:59:11.329" end="00:59:15.331" style="s2">&gt;&gt; Let&#39;s steer clear of her from now on.</p>
+<p begin="00:59:21.731" end="00:59:25.731" style="s2">&gt;&gt; Doctor, how&#39;s my husband?</p>
+<p begin="00:59:28.431" end="00:59:32.231" style="s2">&gt;&gt; His foot&#39;s broken again.</p>
+<p begin="00:59:30.131" end="00:59:33.431" style="s2">It&#39;s serious.</p>
+<p begin="00:59:32.231" end="00:59:35.231" style="s2">Come on.</p>
+<p begin="00:59:33.431" end="00:59:37.231" style="s2">I warned you before.</p>
+<p begin="00:59:35.231" end="00:59:39.931" style="s2">He had to be careful walking.</p>
+<p begin="00:59:37.231" end="00:59:41.731" style="s2">How did he fall this badly?</p>
+<p begin="00:59:39.931" end="00:59:43.831" style="s2">&gt;&gt; Our neighbor did this.</p>
+<p begin="00:59:41.731" end="00:59:45.731" style="s2">He shut off the elevator.</p>
+<p begin="00:59:43.831" end="00:59:47.131" style="s2">My husband couldn&#39;t use it, so he took</p>
+<p begin="00:59:45.731" end="00:59:49.331" style="s2">the stairs and fell.</p>
+<p begin="00:59:47.131" end="00:59:51.331" style="s2">&gt;&gt; Go pay for his admission.</p>
+<p begin="00:59:49.331" end="00:59:54.031" style="s2">He needs a new cast and a few days</p>
+<p begin="00:59:51.331" end="00:59:54.031" style="s2">observation.</p>
+<p begin="00:59:58.731" end="01:00:03.731" style="s2">Once he&#39;s home, keep weight off that</p>
+<p begin="01:00:00.931" end="01:00:06.831" style="s2">foot. If it breaks again, your husband&#39;s</p>
+<p begin="01:00:03.731" end="01:00:06.831" style="s2">foot is done for.</p>
+<p begin="01:00:07.331" end="01:00:09.731" style="s2">&gt;&gt; Vance.</p>
+<p begin="01:00:18.031" end="01:00:23.231" style="s2">&gt;&gt; Will Mr. Sterling turn it on?</p>
+<p begin="01:00:21.431" end="01:00:24.531" style="s2">&gt;&gt; The doctor said you can&#39;t climb stairs</p>
+<p begin="01:00:23.231" end="01:00:26.631" style="s2">again.</p>
+<p begin="01:00:24.531" end="01:00:27.931" style="s2">If he says no, I&#39;ll camp outside his</p>
+<p begin="01:00:26.631" end="01:00:29.931" style="s2">door.</p>
+<p begin="01:00:27.931" end="01:00:30.631" style="s2">Why won&#39;t Mr. Sterling answer his</p>
+<p begin="01:00:29.931" end="01:00:33.431" style="s2">doorbell?</p>
+<p begin="01:00:30.631" end="01:00:36.331" style="s2">&gt;&gt; Linda, stop ringing. Mr. Sterling&#39;s out.</p>
+<p begin="01:00:33.431" end="01:00:37.731" style="s2">&gt;&gt; He&#39;s still not home at this hour?</p>
+<p begin="01:00:36.331" end="01:00:39.631" style="s2">&gt;&gt; No idea.</p>
+<p begin="01:00:37.731" end="01:00:40.531" style="s2">But his lights haven&#39;t been on in 3</p>
+<p begin="01:00:39.631" end="01:00:42.831" style="s2">days.</p>
+<p begin="01:00:40.531" end="01:00:44.331" style="s2">&gt;&gt; Then how will my husband get upstairs?</p>
+<p begin="01:00:42.831" end="01:00:47.031" style="s2">&gt;&gt; Like I&#39;d know.</p>
+<p begin="01:00:44.331" end="01:00:49.631" style="s2">You shouldn&#39;t have reported Miss Vance.</p>
+<p begin="01:00:47.031" end="01:00:51.131" style="s2">No elevator for you now.</p>
+<p begin="01:00:49.631" end="01:00:53.131" style="s2">You brought this on yourself.</p>
+<p begin="01:00:51.131" end="01:00:55.031" style="s2">&gt;&gt; You live downstairs.</p>
+<p begin="01:00:53.131" end="01:00:57.431" style="s2">Easy for you to say. Chloe&#39;s just being</p>
+<p begin="01:00:55.031" end="01:00:57.431" style="s2">petty.</p>
+<p begin="01:00:58.931" end="01:01:04.131" style="s2">Chloe caused his second fracture.</p>
+<p begin="01:01:01.331" end="01:01:04.131" style="s2">I&#39;ll make her pay.</p>
+<p begin="01:01:07.931" end="01:01:12.031" style="s2">&gt;&gt; Chloe, did Linda and the others leave</p>
+<p begin="01:01:10.231" end="01:01:13.631" style="s2">Mr. Sterling alone?</p>
+<p begin="01:01:12.031" end="01:01:16.031" style="s2">&gt;&gt; It wouldn&#39;t matter.</p>
+<p begin="01:01:13.631" end="01:01:18.032" style="s2">I saw Mr. Sterling&#39;s post.</p>
+<p begin="01:01:16.031" end="01:01:20.832" style="s2">He has a fight in the next two weeks, so</p>
+<p begin="01:01:18.032" end="01:01:20.832" style="s2">he&#39;s in Bay City.</p>
+<p begin="01:01:21.132" end="01:01:26.832" style="s2">&gt;&gt; Why is Linda calling you?</p>
+<p begin="01:01:24.032" end="01:01:28.032" style="s2">&gt;&gt; It&#39;s obviously about the elevator.</p>
+<p begin="01:01:26.832" end="01:01:29.932" style="s2">&gt;&gt; Still at it.</p>
+<p begin="01:01:28.032" end="01:01:32.632" style="s2">Her smear campaign backfired.</p>
+<p begin="01:01:29.932" end="01:01:32.632" style="s2">Didn&#39;t she learn?</p>
+<p begin="01:01:33.732" end="01:01:38.232" style="s2">&gt;&gt; Just ignore her.</p>
+<p begin="01:01:35.732" end="01:01:40.332" style="s2">Linda&#39;s husband fell down the stairs.</p>
+<p begin="01:01:38.232" end="01:01:43.432" style="s2">&gt;&gt; Not your problem.</p>
+<p begin="01:01:40.332" end="01:01:47.132" style="s2">&gt;&gt; So let her make a fuss.</p>
+<p begin="01:01:43.432" end="01:01:48.732" style="s2">&gt;&gt; Chloe, quit playing dumb.</p>
+<p begin="01:01:47.132" end="01:01:51.132" style="s2">Listen to me.</p>
+<p begin="01:01:48.732" end="01:01:52.632" style="s2">If you don&#39;t get Sterling back to open</p>
+<p begin="01:01:51.132" end="01:01:55.532" style="s2">it,</p>
+<p begin="01:01:52.632" end="01:01:57.732" style="s2">you&#39;ll be sorry.</p>
+<p begin="01:01:55.532" end="01:02:00.432" style="s2">And another thing, my husband&#39;s hospital</p>
+<p begin="01:01:57.732" end="01:02:03.832" style="s2">bill was $3,500.</p>
+<p begin="01:02:00.432" end="01:02:03.832" style="s2">You and Mr. Sterling owe me.</p>
+<p begin="01:02:06.032" end="01:02:11.432" style="s2">Damn you, Chloe. You blocked me.</p>
+<p begin="01:02:10.232" end="01:02:13.032" style="s2">&gt;&gt; What now?</p>
+<p begin="01:02:11.432" end="01:02:16.332" style="s2">Elevator&#39;s locked.</p>
+<p begin="01:02:13.032" end="01:02:16.332" style="s2">How do I get up to the apartment?</p>
+<p begin="01:02:17.632" end="01:02:23.032" style="s2">&gt;&gt; Honey, wait here. I&#39;ll go get Mr.</p>
+<p begin="01:02:20.332" end="01:02:23.032" style="s2">Lawson.</p>
+<p begin="01:02:23.932" end="01:02:28.032" style="s2">Mr. Lawson, open up.</p>
+<p begin="01:02:26.732" end="01:02:29.132" style="s2">&gt;&gt; Linda?</p>
+<p begin="01:02:28.032" end="01:02:32.632" style="s2">What is it this late?</p>
+<p begin="01:02:29.132" end="01:02:35.032" style="s2">&gt;&gt; Mr. Lawson, Mr. Sterling&#39;s out.</p>
+<p begin="01:02:32.632" end="01:02:37.332" style="s2">My husband&#39;s leg rebroke.</p>
+<p begin="01:02:35.032" end="01:02:39.532" style="s2">He can&#39;t climb stairs.</p>
+<p begin="01:02:37.332" end="01:02:40.732" style="s2">Could your son carry my husband up to</p>
+<p begin="01:02:39.532" end="01:02:43.832" style="s2">the fifth floor?</p>
+<p begin="01:02:40.732" end="01:02:45.332" style="s2">&gt;&gt; You want my son carrying your husband?</p>
+<p begin="01:02:43.832" end="01:02:48.032" style="s2">&gt;&gt; What else?</p>
+<p begin="01:02:45.332" end="01:02:49.732" style="s2">My husband can&#39;t climb the stairs.</p>
+<p begin="01:02:48.032" end="01:02:52.032" style="s2">Didn&#39;t your son carry him down last</p>
+<p begin="01:02:49.732" end="01:02:54.332" style="s2">time? Then have him carry my husband up.</p>
+<p begin="01:02:52.032" end="01:02:56.032" style="s2">&gt;&gt; Linda, last time was two floors. This</p>
+<p begin="01:02:54.332" end="01:02:57.932" style="s2">time it&#39;s five.</p>
+<p begin="01:02:56.032" end="01:03:00.032" style="s2">How can my son carry him?</p>
+<p begin="01:02:57.932" end="01:03:02.132" style="s2">Two and five floors aren&#39;t the same.</p>
+<p begin="01:03:00.032" end="01:03:05.932" style="s2">&gt;&gt; How are they not?</p>
+<p begin="01:03:02.132" end="01:03:09.232" style="s2">Mr. Lawson, your son is my last resort.</p>
+<p begin="01:03:05.932" end="01:03:11.232" style="s2">Why make this so hard?</p>
+<p begin="01:03:09.232" end="01:03:12.432" style="s2">It&#39;s just one quick carry.</p>
+<p begin="01:03:11.232" end="01:03:14.032" style="s2">&gt;&gt; Why don&#39;t you carry him?</p>
+<p begin="01:03:12.432" end="01:03:16.632" style="s2">&gt;&gt; Because I can&#39;t lift him.</p>
+<p begin="01:03:14.032" end="01:03:19.033" style="s2">&gt;&gt; My son can&#39;t carry him either.</p>
+<p begin="01:03:16.632" end="01:03:20.633" style="s2">Didn&#39;t your son do it last time?</p>
+<p begin="01:03:19.033" end="01:03:24.533" style="s2">That was then.</p>
+<p begin="01:03:20.633" end="01:03:24.533" style="s2">My son is not carrying your husband.</p>
+<p begin="01:03:26.433" end="01:03:32.233" style="s2">&gt;&gt; Mr. Lawson, why did you shut the door?</p>
+<p begin="01:03:29.233" end="01:03:32.233" style="s2">Get your son out here.</p>
+<p begin="01:03:34.533" end="01:03:38.733" style="s2">&gt;&gt; What&#39;s Linda doing this late?</p>
+<p begin="01:03:37.133" end="01:03:39.933" style="s2">&gt;&gt; She wants you hauling him up five</p>
+<p begin="01:03:38.733" end="01:03:41.933" style="s2">floors.</p>
+<p begin="01:03:39.933" end="01:03:44.333" style="s2">&gt;&gt; Isn&#39;t Linda getting awfully demanding?</p>
+<p begin="01:03:41.933" end="01:03:46.833" style="s2">&gt;&gt; She takes our kindness for granted. What</p>
+<p begin="01:03:44.333" end="01:03:48.433" style="s2">if I drop him going up five floors?</p>
+<p begin="01:03:46.833" end="01:03:52.233" style="s2">&gt;&gt; She&#39;ll make me pay.</p>
+<p begin="01:03:48.433" end="01:03:56.233" style="s2">&gt;&gt; Dad, don&#39;t open that door again.</p>
+<p begin="01:03:52.233" end="01:03:56.233" style="s2">&gt;&gt; Leave her. Come on to bed.</p>
+<p begin="01:03:57.733" end="01:04:00.533" style="s2">&gt;&gt; Well,</p>
+<p begin="01:03:58.733" end="01:04:01.133" style="s2">did Mr. Lawson&#39;s son agree to carry me</p>
+<p begin="01:04:00.533" end="01:04:03.833" style="s2">upstairs?</p>
+<p begin="01:04:01.133" end="01:04:06.433" style="s2">&gt;&gt; No, he shut the door in my face.</p>
+<p begin="01:04:03.833" end="01:04:08.833" style="s2">&gt;&gt; Mr. Lawson seems so decent.</p>
+<p begin="01:04:06.433" end="01:04:10.633" style="s2">Who knew he could be so heartless?</p>
+<p begin="01:04:08.833" end="01:04:14.033" style="s2">What do we do now?</p>
+<p begin="01:04:10.633" end="01:04:14.033" style="s2">I can&#39;t wait down here forever.</p>
+<p begin="01:04:17.833" end="01:04:22.333" style="s2">&gt;&gt; Mrs. Cooper, open up.</p>
+<p begin="01:04:20.233" end="01:04:24.733" style="s2">&gt;&gt; Linda, what is it?</p>
+<p begin="01:04:22.333" end="01:04:26.533" style="s2">&gt;&gt; Mrs. Cooper, my husband can&#39;t get</p>
+<p begin="01:04:24.733" end="01:04:28.333" style="s2">upstairs.</p>
+<p begin="01:04:26.533" end="01:04:29.333" style="s2">Could you let him sleep in your living</p>
+<p begin="01:04:28.333" end="01:04:30.033" style="s2">room tonight?</p>
+<p begin="01:04:29.333" end="01:04:31.333" style="s2">&gt;&gt; My place?</p>
+<p begin="01:04:30.033" end="01:04:33.333" style="s2">&gt;&gt; Yes.</p>
+<p begin="01:04:31.333" end="01:04:36.033" style="s2">When the office opens tomorrow, I&#39;ll ask</p>
+<p begin="01:04:33.333" end="01:04:38.233" style="s2">Mr. Davis for Mr. Sterling&#39;s number.</p>
+<p begin="01:04:36.033" end="01:04:38.933" style="s2">Once he starts the elevator, my husband</p>
+<p begin="01:04:38.233" end="01:04:41.333" style="s2">can go home.</p>
+<p begin="01:04:38.933" end="01:04:42.133" style="s2">&gt;&gt; What if Mr. Sterling still won&#39;t turn it</p>
+<p begin="01:04:41.333" end="01:04:43.633" style="s2">on?</p>
+<p begin="01:04:42.133" end="01:04:45.233" style="s2">&gt;&gt; Let him try.</p>
+<p begin="01:04:43.633" end="01:04:47.133" style="s2">He kept the elevator off, making my</p>
+<p begin="01:04:45.233" end="01:04:49.533" style="s2">husband break his leg again.</p>
+<p begin="01:04:47.133" end="01:04:50.733" style="s2">If he refuses, I&#39;ll make him pay.</p>
+<p begin="01:04:49.533" end="01:04:52.533" style="s2">&gt;&gt; Linda,</p>
+<p begin="01:04:50.733" end="01:04:54.933" style="s2">I hate to say this,</p>
+<p begin="01:04:52.533" end="01:04:57.133" style="s2">but how can you still not get it?</p>
+<p begin="01:04:54.933" end="01:04:59.733" style="s2">You&#39;ve infuriated Mr. Sterling, yet</p>
+<p begin="01:04:57.133" end="01:05:01.033" style="s2">expect him to share his elevator. Must</p>
+<p begin="01:04:59.733" end="01:05:03.333" style="s2">everyone cater to you?</p>
+<p begin="01:05:01.033" end="01:05:04.733" style="s2">&gt;&gt; Why say that, Mrs. Cooper?</p>
+<p begin="01:05:03.333" end="01:05:06.933" style="s2">Mr. Sterling&#39;s the petty one.</p>
+<p begin="01:05:04.733" end="01:05:09.133" style="s2">&gt;&gt; Enough. I&#39;m done arguing with you.</p>
+<p begin="01:05:06.933" end="01:05:11.733" style="s2">Bottom line, your husband isn&#39;t sleeping</p>
+<p begin="01:05:09.133" end="01:05:14.233" style="s2">here. Now leave.</p>
+<p begin="01:05:11.733" end="01:05:16.533" style="s2">&gt;&gt; Why is everyone so heartless?</p>
+<p begin="01:05:14.233" end="01:05:19.233" style="s2">Aren&#39;t neighbors supposed to help?</p>
+<p begin="01:05:16.533" end="01:05:21.835" style="s2">Not an ounce of compassion.</p>
+<p begin="01:05:19.233" end="01:05:24.035" style="s2">&gt;&gt; Now I see the truth. Not one person in</p>
+<p begin="01:05:21.835" end="01:05:25.935" style="s2">this building has a heart. They are all</p>
+<p begin="01:05:24.035" end="01:05:27.635" style="s2">cold and selfish.</p>
+<p begin="01:05:25.935" end="01:05:30.335" style="s2">&gt;&gt; Exactly.</p>
+<p begin="01:05:27.635" end="01:05:32.235" style="s2">When they need us, we won&#39;t help them.</p>
+<p begin="01:05:30.335" end="01:05:33.935" style="s2">Honey, stay at a hotel outside the</p>
+<p begin="01:05:32.235" end="01:05:36.135" style="s2">complex tonight.</p>
+<p begin="01:05:33.935" end="01:05:38.735" style="s2">Tomorrow, I&#39;ll call management to fix</p>
+<p begin="01:05:36.135" end="01:05:38.735" style="s2">the elevator.</p>
+<p begin="01:05:43.435" end="01:05:46.135" style="s2">Mr. Davis, give me Mr. Sterling&#39;s</p>
+<p begin="01:05:45.635" end="01:05:47.235" style="s2">number.</p>
+<p begin="01:05:46.135" end="01:05:49.335" style="s2">&gt;&gt; Linda,</p>
+<p begin="01:05:47.235" end="01:05:49.635" style="s2">his number is private. I can&#39;t give it</p>
+<p begin="01:05:49.335" end="01:05:52.035" style="s2">out.</p>
+<p begin="01:05:49.635" end="01:05:53.835" style="s2">&gt;&gt; My husband&#39;s foot broke again.</p>
+<p begin="01:05:52.035" end="01:05:55.035" style="s2">His doctor warned us he can&#39;t put weight</p>
+<p begin="01:05:53.835" end="01:05:57.635" style="s2">on it.</p>
+<p begin="01:05:55.035" end="01:05:59.135" style="s2">Mr. Sterling shut off the elevator.</p>
+<p begin="01:05:57.635" end="01:06:01.735" style="s2">Must he sleep on the stairs?</p>
+<p begin="01:05:59.135" end="01:06:02.335" style="s2">&gt;&gt; Mr. Sterling won&#39;t turn it on. I can&#39;t</p>
+<p begin="01:06:01.735" end="01:06:03.535" style="s2">help.</p>
+<p begin="01:06:02.335" end="01:06:06.035" style="s2">&gt;&gt; Whatever.</p>
+<p begin="01:06:03.535" end="01:06:08.135" style="s2">If you can&#39;t get Mr. Sterling to turn it</p>
+<p begin="01:06:06.035" end="01:06:12.135" style="s2">on, I&#39;m not leaving.</p>
+<p begin="01:06:08.135" end="01:06:12.135" style="s2">&gt;&gt; Okay. I&#39;ll call Mr. Sterling.</p>
+<p begin="01:06:15.935" end="01:06:20.735" style="s2">&gt;&gt; The number you dialed is powered off.</p>
+<p begin="01:06:19.535" end="01:06:22.835" style="s2">&gt;&gt; His phone is off.</p>
+<p begin="01:06:20.735" end="01:06:25.435" style="s2">&gt;&gt; What now? How does my husband get</p>
+<p begin="01:06:22.835" end="01:06:27.235" style="s2">upstairs without it?</p>
+<p begin="01:06:25.435" end="01:06:29.535" style="s2">&gt;&gt; I can&#39;t reach him. There&#39;s nothing I can</p>
+<p begin="01:06:27.235" end="01:06:29.535" style="s2">do.</p>
+<p begin="01:06:31.235" end="01:06:34.635" style="s2">&gt;&gt; Then call Chloe.</p>
+<p begin="01:06:32.935" end="01:06:36.235" style="s2">Have her get my husband an elevator key</p>
+<p begin="01:06:34.635" end="01:06:38.535" style="s2">card.</p>
+<p begin="01:06:36.235" end="01:06:39.735" style="s2">&gt;&gt; You want me to call Miss Vance?</p>
+<p begin="01:06:38.535" end="01:06:41.635" style="s2">&gt;&gt; Who else?</p>
+<p begin="01:06:39.735" end="01:06:43.535" style="s2">We can&#39;t reach Mr. Sterling.</p>
+<p begin="01:06:41.635" end="01:06:45.335" style="s2">Chloe is our only option.</p>
+<p begin="01:06:43.535" end="01:06:46.935" style="s2">She had the elevator company add key</p>
+<p begin="01:06:45.335" end="01:06:49.135" style="s2">card access.</p>
+<p begin="01:06:46.935" end="01:06:51.535" style="s2">She can have them issue another card.</p>
+<p begin="01:06:49.135" end="01:06:53.335" style="s2">&gt;&gt; Miss Vance left. Why would she agree?</p>
+<p begin="01:06:51.535" end="01:06:55.035" style="s2">&gt;&gt; You&#39;re the manager.</p>
+<p begin="01:06:53.335" end="01:06:56.835" style="s2">You ask her.</p>
+<p begin="01:06:55.035" end="01:06:58.435" style="s2">If you don&#39;t get my husband upstairs,</p>
+<p begin="01:06:56.835" end="01:07:00.835" style="s2">I&#39;ll report your office to the citizen</p>
+<p begin="01:06:58.435" end="01:07:00.835" style="s2">hotline.</p>
+<p begin="01:07:07.735" end="01:07:12.235" style="s2">&gt;&gt; Mr. Davis, you called. Is this about</p>
+<p begin="01:07:10.335" end="01:07:14.435" style="s2">Linda using the elevator?</p>
+<p begin="01:07:12.235" end="01:07:16.935" style="s2">&gt;&gt; Miss Vance, I hate this, but her</p>
+<p begin="01:07:14.435" end="01:07:19.535" style="s2">husband&#39;s leg broke again.</p>
+<p begin="01:07:16.935" end="01:07:21.335" style="s2">She says if we don&#39;t get him upstairs,</p>
+<p begin="01:07:19.535" end="01:07:23.536" style="s2">she&#39;ll call citizen [music] hotline.</p>
+<p begin="01:07:21.335" end="01:07:25.936" style="s2">Miss Vance, could we give Linda a</p>
+<p begin="01:07:23.536" end="01:07:30.336" style="s2">temporary elevator key card? With a</p>
+<p begin="01:07:25.936" end="01:07:30.336" style="s2">broken leg, he can&#39;t get upstairs.</p>
+<p begin="01:07:31.536" end="01:07:35.436" style="s2">&gt;&gt; Okay. I&#39;ll come over now.</p>
+<p begin="01:07:38.636" end="01:07:44.036" style="s2">&gt;&gt; Chloe, where to?</p>
+<p begin="01:07:40.436" end="01:07:46.536" style="s2">&gt;&gt; Linda&#39;s at management over the elevator.</p>
+<p begin="01:07:44.036" end="01:07:49.336" style="s2">Mr. Davis says she won&#39;t leave and will</p>
+<p begin="01:07:46.536" end="01:07:51.936" style="s2">call citizen hotline.</p>
+<p begin="01:07:49.336" end="01:07:53.636" style="s2">&gt;&gt; Linda never stops making trouble.</p>
+<p begin="01:07:51.936" end="01:07:56.136" style="s2">Even after moving, [music] we get no</p>
+<p begin="01:07:53.636" end="01:07:58.836" style="s2">peace.</p>
+<p begin="01:07:56.136" end="01:08:00.936" style="s2">&gt;&gt; Mom, relax. I&#39;ll stop Linda from ever</p>
+<p begin="01:07:58.836" end="01:08:04.026" style="s2">pulling this again. Hello, citizen</p>
+<p begin="01:08:00.936" end="01:08:04.026" style="s2">hotline? I have a complaint. [music]</p>
+<p begin="01:08:05.036" end="01:08:08.336" style="s2">&gt;&gt; Ms. Vance, welcome.</p>
+<p begin="01:08:19.636" end="01:08:24.936" style="s2">&gt;&gt; I transferred ownership to Mr. Sterling.</p>
+<p begin="01:08:22.536" end="01:08:26.536" style="s2">His phone number is now on file with the</p>
+<p begin="01:08:24.936" end="01:08:29.236" style="s2">elevator company.</p>
+<p begin="01:08:26.536" end="01:08:32.136" style="s2">Without his approval, no one, including</p>
+<p begin="01:08:29.236" end="01:08:33.636" style="s2">me, can add new key cards.</p>
+<p begin="01:08:32.136" end="01:08:35.836" style="s2">&gt;&gt; Whatever.</p>
+<p begin="01:08:33.636" end="01:08:38.736" style="s2">Then call Mr. Sterling and have him send</p>
+<p begin="01:08:35.836" end="01:08:41.536" style="s2">the elevator company over.</p>
+<p begin="01:08:38.736" end="01:08:43.536" style="s2">&gt;&gt; You cyber bullied Mr. Sterling.</p>
+<p begin="01:08:41.536" end="01:08:45.936" style="s2">Why would he forgive you and give your</p>
+<p begin="01:08:43.536" end="01:08:47.736" style="s2">husband a key card?</p>
+<p begin="01:08:45.936" end="01:08:49.836" style="s2">&gt;&gt; What&#39;s done is done.</p>
+<p begin="01:08:47.736" end="01:08:52.636" style="s2">Why keep holding a grudge?</p>
+<p begin="01:08:49.836" end="01:08:54.436" style="s2">My husband&#39;s bone broke again. If he</p>
+<p begin="01:08:52.636" end="01:08:56.036" style="s2">leaves it off, my husband can&#39;t get</p>
+<p begin="01:08:54.436" end="01:08:57.536" style="s2">upstairs.</p>
+<p begin="01:08:56.036" end="01:08:59.936" style="s2">He&#39;ll have to.</p>
+<p begin="01:08:57.536" end="01:09:01.836" style="s2">&gt;&gt; So you&#39;re playing dirty now?</p>
+<p begin="01:08:59.936" end="01:09:04.436" style="s2">&gt;&gt; So what?</p>
+<p begin="01:09:01.836" end="01:09:06.836" style="s2">If my husband can&#39;t get upstairs, I&#39;ll</p>
+<p begin="01:09:04.436" end="01:09:08.736" style="s2">report you to the citizen hotline and</p>
+<p begin="01:09:06.836" end="01:09:11.036" style="s2">the neighborhood committee.</p>
+<p begin="01:09:08.736" end="01:09:15.336" style="s2">&gt;&gt; Fine. You got it.</p>
+<p begin="01:09:11.036" end="01:09:15.336" style="s2">Mr. Logan, attorney Foster, come in.</p>
+<p begin="01:09:16.736" end="01:09:20.836" style="s2">&gt;&gt; Who are you?</p>
+<p begin="01:09:17.936" end="01:09:22.536" style="s2">&gt;&gt; Hi, I&#39;m Mr. Logan, a citizen hotline</p>
+<p begin="01:09:20.836" end="01:09:25.636" style="s2">mediator.</p>
+<p begin="01:09:22.536" end="01:09:27.438" style="s2">&gt;&gt; I I haven&#39;t even called yet.</p>
+<p begin="01:09:25.636" end="01:09:30.237" style="s2">Why are you here?</p>
+<p begin="01:09:27.438" end="01:09:32.938" style="s2">&gt;&gt; I made the call.</p>
+<p begin="01:09:30.237" end="01:09:35.538" style="s2">Mr. Logan, you heard her.</p>
+<p begin="01:09:32.938" end="01:09:37.538" style="s2">Linda used online attacks and threatened</p>
+<p begin="01:09:35.538" end="01:09:39.637" style="s2">building management</p>
+<p begin="01:09:37.538" end="01:09:42.038" style="s2">to guilt Mr. Sterling into letting her</p>
+<p begin="01:09:39.637" end="01:09:44.737" style="s2">use his elevator.</p>
+<p begin="01:09:42.038" end="01:09:48.137" style="s2">Her actions have seriously harassed both</p>
+<p begin="01:09:44.737" end="01:09:50.637" style="s2">Mr. Sterling and me.</p>
+<p begin="01:09:48.137" end="01:09:51.938" style="s2">Attorney Foster, you&#39;re the hotline&#39;s</p>
+<p begin="01:09:50.637" end="01:09:54.838" style="s2">attorney.</p>
+<p begin="01:09:51.938" end="01:09:57.338" style="s2">Please give Linda your legal opinion.</p>
+<p begin="01:09:54.838" end="01:10:01.538" style="s2">What legal consequences will she face if</p>
+<p begin="01:09:57.338" end="01:10:01.538" style="s2">she keeps harassing Mr. Sterling and me?</p>
+<p begin="01:10:01.838" end="01:10:05.338" style="s2">&gt;&gt; The Public Security Administration</p>
+<p begin="01:10:03.338" end="01:10:07.438" style="s2">punishment law bars malicious harassment</p>
+<p begin="01:10:05.338" end="01:10:10.438" style="s2">that harms reputations or disrupts daily</p>
+<p begin="01:10:07.438" end="01:10:12.738" style="s2">life up to five days in jail. In serious</p>
+<p begin="01:10:10.438" end="01:10:15.038" style="s2">cases, it&#39;s harsher.</p>
+<p begin="01:10:12.738" end="01:10:16.938" style="s2">&gt;&gt; I just want them to run the elevator.</p>
+<p begin="01:10:15.038" end="01:10:19.238" style="s2">How is that harassment?</p>
+<p begin="01:10:16.938" end="01:10:22.238" style="s2">Did Chloe hire you as an actor?</p>
+<p begin="01:10:19.238" end="01:10:22.238" style="s2">You&#39;re not scaring me.</p>
+<p begin="01:10:23.338" end="01:10:27.137" style="s2">&gt;&gt; Mrs. Miller, don&#39;t question my</p>
+<p begin="01:10:25.238" end="01:10:29.137" style="s2">expertise.</p>
+<p begin="01:10:27.137" end="01:10:31.438" style="s2">Keep harassing Mr. Sterling and Miss</p>
+<p begin="01:10:29.137" end="01:10:33.238" style="s2">Vance, and if they call the police,</p>
+<p begin="01:10:31.438" end="01:10:35.738" style="s2">you&#39;ll get at least five days in</p>
+<p begin="01:10:33.238" end="01:10:37.538" style="s2">custody. Do it again, and your time</p>
+<p begin="01:10:35.738" end="01:10:40.538" style="s2">doubles. Think hard about the</p>
+<p begin="01:10:37.538" end="01:10:42.938" style="s2">consequences and stop this.</p>
+<p begin="01:10:40.538" end="01:10:44.838" style="s2">&gt;&gt; I&#39;m just defending my rights. My husband</p>
+<p begin="01:10:42.938" end="01:10:46.238" style="s2">broke his leg again. He can&#39;t climb</p>
+<p begin="01:10:44.838" end="01:10:48.038" style="s2">stairs.</p>
+<p begin="01:10:46.238" end="01:10:49.438" style="s2">Mr. Sterling should let him use the</p>
+<p begin="01:10:48.038" end="01:10:51.238" style="s2">elevator.</p>
+<p begin="01:10:49.438" end="01:10:53.637" style="s2">Isn&#39;t that fair?</p>
+<p begin="01:10:51.238" end="01:10:56.238" style="s2">&gt;&gt; Mr. Logan, Linda clearly won&#39;t let this</p>
+<p begin="01:10:53.637" end="01:10:57.938" style="s2">go. Call the police. She needs to learn</p>
+<p begin="01:10:56.238" end="01:11:01.038" style="s2">what harassment costs.</p>
+<p begin="01:10:57.938" end="01:11:02.637" style="s2">&gt;&gt; Mrs. Miller, this is a private elevator.</p>
+<p begin="01:11:01.038" end="01:11:04.238" style="s2">Helping you is a favor, not an</p>
+<p begin="01:11:02.637" end="01:11:06.137" style="s2">obligation.</p>
+<p begin="01:11:04.238" end="01:11:08.338" style="s2">You can&#39;t demand that Mr. Sterling or</p>
+<p begin="01:11:06.137" end="01:11:10.637" style="s2">Miss Vance let you use it.</p>
+<p begin="01:11:08.338" end="01:11:12.738" style="s2">If you keep harassing Miss Vance,</p>
+<p begin="01:11:10.637" end="01:11:15.338" style="s2">we really will call the police.</p>
+<p begin="01:11:12.738" end="01:11:18.637" style="s2">&gt;&gt; The police won&#39;t really detain me.</p>
+<p begin="01:11:15.338" end="01:11:21.738" style="s2">You&#39;re just trying to scare me.</p>
+<p begin="01:11:18.637" end="01:11:21.738" style="s2">&gt;&gt; Fine, call them.</p>
+<p begin="01:11:24.238" end="01:11:27.438" style="s2">&gt;&gt; Who called us?</p>
+<p begin="01:11:25.538" end="01:11:29.739" style="s2">&gt;&gt; Officers, she did.</p>
+<p begin="01:11:27.438" end="01:11:31.639" style="s2">My husband broke his leg again.</p>
+<p begin="01:11:29.739" end="01:11:33.439" style="s2">He can&#39;t climb stairs.</p>
+<p begin="01:11:31.639" end="01:11:35.139" style="s2">I just asked the owner for a favor, an</p>
+<p begin="01:11:33.439" end="01:11:37.339" style="s2">elevator key card.</p>
+<p begin="01:11:35.139" end="01:11:40.739" style="s2">But Chloe kept blocking me.</p>
+<p begin="01:11:37.339" end="01:11:40.739" style="s2">She can&#39;t stand me using it.</p>
+<p begin="01:11:42.639" end="01:11:47.839" style="s2">&gt;&gt; Officers, [music] Linda used cyber</p>
+<p begin="01:11:44.839" end="01:11:49.739" style="s2">bullying and threats to force access to</p>
+<p begin="01:11:47.839" end="01:11:52.139" style="s2">the elevator.</p>
+<p begin="01:11:49.739" end="01:11:53.239" style="s2">That alone is against the law.</p>
+<p begin="01:11:52.139" end="01:11:55.539" style="s2">&gt;&gt; Illegal?</p>
+<p begin="01:11:53.239" end="01:11:56.939" style="s2">I&#39;m asserting my rights. Officers,</p>
+<p begin="01:11:55.539" end="01:11:58.939" style="s2">please help me.</p>
+<p begin="01:11:56.939" end="01:12:00.939" style="s2">My husband broke a bone.</p>
+<p begin="01:11:58.939" end="01:12:02.839" style="s2">He can&#39;t climb stairs.</p>
+<p begin="01:12:00.939" end="01:12:04.439" style="s2">But Chloe and Mr. Sterling have no</p>
+<p begin="01:12:02.839" end="01:12:07.739" style="s2">compassion at all.</p>
+<p begin="01:12:04.439" end="01:12:07.739" style="s2">You have to make this right.</p>
+<p begin="01:12:11.139" end="01:12:14.239" style="s2">&gt;&gt; Mrs. Miller,</p>
+<p begin="01:12:12.639" end="01:12:16.339" style="s2">I&#39;m sorry your husband is hurt, but</p>
+<p begin="01:12:14.239" end="01:12:18.739" style="s2">that&#39;s no excuse to harass others, moral</p>
+<p begin="01:12:16.339" end="01:12:20.839" style="s2">guilt trip them, or make a scene.</p>
+<p begin="01:12:18.739" end="01:12:23.339" style="s2">It&#39;s a private elevator.</p>
+<p begin="01:12:20.839" end="01:12:25.639" style="s2">The owner owes you no access.</p>
+<p begin="01:12:23.339" end="01:12:28.594" style="s2">This may constitute malicious harassment</p>
+<p begin="01:12:25.639" end="01:12:28.639" style="s2">and provoking trouble.</p>
+<p begin="01:12:28.594" end="01:12:31.139" style="s2">&gt;&gt; [music]</p>
+<p begin="01:12:28.639" end="01:12:32.939" style="s2">&gt;&gt; I just want them to be neighborly.</p>
+<p begin="01:12:31.139" end="01:12:35.539" style="s2">How is that provoking trouble?</p>
+<p begin="01:12:32.939" end="01:12:38.439" style="s2">&gt;&gt; Wasn&#39;t my explanation clear?</p>
+<p begin="01:12:35.539" end="01:12:41.239" style="s2">Since the elevator is private property,</p>
+<p begin="01:12:38.439" end="01:12:42.939" style="s2">then if they refuse to let you use it,</p>
+<p begin="01:12:41.239" end="01:12:44.639" style="s2">you keep pressuring.</p>
+<p begin="01:12:42.939" end="01:12:47.139" style="s2">That&#39;s harassment.</p>
+<p begin="01:12:44.639" end="01:12:49.339" style="s2">Mrs. Miller, stop harassing Miss Vance</p>
+<p begin="01:12:47.139" end="01:12:52.339" style="s2">and Mr. Sterling, or I&#39;ll have to detain</p>
+<p begin="01:12:49.339" end="01:12:52.339" style="s2">you for a few days.</p>
+<p begin="01:12:57.539" end="01:13:02.139" style="s2">Miss Vance, if Mrs. Miller harasses</p>
+<p begin="01:13:00.039" end="01:13:04.139" style="s2">either of you again,</p>
+<p begin="01:13:02.139" end="01:13:07.639" style="s2">call us anytime.</p>
+<p begin="01:13:04.139" end="01:13:07.639" style="s2">We&#39;ll detain Mrs. Miller.</p>
+<p begin="01:13:12.339" end="01:13:16.939" style="s2">&gt;&gt; Chloe, you called the cops?</p>
+<p begin="01:13:14.739" end="01:13:19.039" style="s2">&gt;&gt; Didn&#39;t you say to call them, Linda?</p>
+<p begin="01:13:16.939" end="01:13:21.439" style="s2">&gt;&gt; You filed a complaint, too.</p>
+<p begin="01:13:19.039" end="01:13:25.039" style="s2">I just wanted to use the elevator.</p>
+<p begin="01:13:21.439" end="01:13:28.039" style="s2">Why report me to the citizen hotline?</p>
+<p begin="01:13:25.039" end="01:13:30.940" style="s2">&gt;&gt; I learned it from you, Linda.</p>
+<p begin="01:13:28.039" end="01:13:34.140" style="s2">You reported me five times.</p>
+<p begin="01:13:30.940" end="01:13:37.140" style="s2">I only reported you once.</p>
+<p begin="01:13:34.140" end="01:13:37.140" style="s2">No comparison.</p>
+<p begin="01:13:38.140" end="01:13:41.540" style="s2">&gt;&gt; Chloe, you just wait.</p>
+<p begin="01:13:40.640" end="01:13:43.440" style="s2">&gt;&gt; What?</p>
+<p begin="01:13:41.540" end="01:13:45.640" style="s2">What now, Linda?</p>
+<p begin="01:13:43.440" end="01:13:47.140" style="s2">Cops aren&#39;t far.</p>
+<p begin="01:13:45.640" end="01:13:49.740" style="s2">Why not have them take you to the</p>
+<p begin="01:13:47.140" end="01:13:52.140" style="s2">station?</p>
+<p begin="01:13:49.740" end="01:13:53.840" style="s2">&gt;&gt; Ms. Vance, I&#39;m sorry.</p>
+<p begin="01:13:52.140" end="01:13:55.340" style="s2">I shouldn&#39;t have posted the video or</p>
+<p begin="01:13:53.840" end="01:13:57.340" style="s2">reported you.</p>
+<p begin="01:13:55.340" end="01:14:00.140" style="s2">But that&#39;s in the past.</p>
+<p begin="01:13:57.340" end="01:14:01.840" style="s2">Please, since we&#39;re neighbors, ask Mr.</p>
+<p begin="01:14:00.140" end="01:14:03.240" style="s2">Sterling to let my husband use the</p>
+<p begin="01:14:01.840" end="01:14:05.040" style="s2">elevator.</p>
+<p begin="01:14:03.240" end="01:14:07.940" style="s2">&gt;&gt; Linda,</p>
+<p begin="01:14:05.040" end="01:14:10.940" style="s2">are you truly sorry or are you out of</p>
+<p begin="01:14:07.940" end="01:14:13.340" style="s2">options and just pretending?</p>
+<p begin="01:14:10.940" end="01:14:16.340" style="s2">&gt;&gt; Of course I&#39;m truly sorry.</p>
+<p begin="01:14:13.340" end="01:14:19.640" style="s2">Please, Ms. Vance, forgive me.</p>
+<p begin="01:14:16.340" end="01:14:19.640" style="s2">Let my husband use it.</p>
+<p begin="01:14:20.540" end="01:14:25.140" style="s2">&gt;&gt; If you admit fault,</p>
+<p begin="01:14:22.340" end="01:14:27.440" style="s2">then face the consequences. Without the</p>
+<p begin="01:14:25.140" end="01:14:30.240" style="s2">elevator, rent a stair, climbing</p>
+<p begin="01:14:27.440" end="01:14:32.740" style="s2">wheelchair, or pay someone to carry your</p>
+<p begin="01:14:30.240" end="01:14:35.640" style="s2">husband up. That would show you grasp</p>
+<p begin="01:14:32.740" end="01:14:39.640" style="s2">what you did wrong. Otherwise, you&#39;re a</p>
+<p begin="01:14:35.640" end="01:14:39.640" style="s2">wolf dressed in remorse.</p>
+<p begin="01:14:39.840" end="01:14:44.140" style="s2">Once you win,</p>
+<p begin="01:14:41.540" end="01:14:49.040" style="s2">you&#39;ll privately call Mr. Sterling and</p>
+<p begin="01:14:44.140" end="01:14:49.040" style="s2">me fake nice. That needs fixing, right?</p>
+<p begin="01:14:49.340" end="01:14:52.540" style="s2">&gt;&gt; I apologized.</p>
+<p begin="01:14:50.840" end="01:14:55.240" style="s2">What else do you want?</p>
+<p begin="01:14:52.540" end="01:14:57.740" style="s2">Why can&#39;t you just let this go?</p>
+<p begin="01:14:55.240" end="01:15:00.140" style="s2">Do I have to kneel and bow to prove I&#39;m</p>
+<p begin="01:14:57.740" end="01:15:03.140" style="s2">sorry?</p>
+<p begin="01:15:00.140" end="01:15:05.640" style="s2">&gt;&gt; Not the kneeling, your attitude.</p>
+<p begin="01:15:03.140" end="01:15:09.840" style="s2">And your attitude now tells me</p>
+<p begin="01:15:05.640" end="01:15:09.840" style="s2">that apology was an act, right?</p>
+<p begin="01:15:13.040" end="01:15:19.740" style="s2">&gt;&gt; Linda, stop right there.</p>
+<p begin="01:15:16.340" end="01:15:19.740" style="s2">&gt;&gt; Lily, after work?</p>
+<p begin="01:15:20.040" end="01:15:25.240" style="s2">&gt;&gt; After Mr. Sterling&#39;s stream, I got</p>
+<p begin="01:15:22.540" end="01:15:27.940" style="s2">trashed online. My boss says I can&#39;t</p>
+<p begin="01:15:25.240" end="01:15:29.840" style="s2">drive sales now, and he&#39;ll fire me after</p>
+<p begin="01:15:27.940" end="01:15:33.340" style="s2">I give birth.</p>
+<p begin="01:15:29.840" end="01:15:35.042" style="s2">&gt;&gt; Lily, Mr. Sterling got you fired.</p>
+<p begin="01:15:33.340" end="01:15:37.942" style="s2">Why are you blaming me?</p>
+<p begin="01:15:35.042" end="01:15:40.442" style="s2">&gt;&gt; You made me go confront Mr. Sterling.</p>
+<p begin="01:15:37.942" end="01:15:41.342" style="s2">You filmed that video and made me post</p>
+<p begin="01:15:40.442" end="01:15:43.242" style="s2">it.</p>
+<p begin="01:15:41.342" end="01:15:44.142" style="s2">Why am I the one getting trashed and</p>
+<p begin="01:15:43.242" end="01:15:45.942" style="s2">fired?</p>
+<p begin="01:15:44.142" end="01:15:48.642" style="s2">&gt;&gt; You agreed to post it.</p>
+<p begin="01:15:45.942" end="01:15:48.642" style="s2">Don&#39;t blame me.</p>
+<p begin="01:15:49.242" end="01:15:54.842" style="s2">&gt;&gt; You got me fired, then just left.</p>
+<p begin="01:15:52.242" end="01:15:56.342" style="s2">Linda, at least apologize.</p>
+<p begin="01:15:54.842" end="01:15:58.942" style="s2">&gt;&gt; Why should I?</p>
+<p begin="01:15:56.342" end="01:16:01.042" style="s2">Your petty boss wants you fired.</p>
+<p begin="01:15:58.942" end="01:16:02.742" style="s2">Not my problem.</p>
+<p begin="01:16:01.042" end="01:16:06.342" style="s2">Let go of me.</p>
+<p begin="01:16:02.742" end="01:16:06.342" style="s2">I have to find my husband.</p>
+<p begin="01:16:09.142" end="01:16:11.342" style="s2">&gt;&gt; Ah.</p>
+<p begin="01:16:11.842" end="01:16:16.242" style="s2">Ambulance.</p>
+<p begin="01:16:13.842" end="01:16:17.742" style="s2">Get an ambulance, quick.</p>
+<p begin="01:16:16.242" end="01:16:19.342" style="s2">&gt;&gt; You fell on your own.</p>
+<p begin="01:16:17.742" end="01:16:21.942" style="s2">It&#39;s not my fault.</p>
+<p begin="01:16:19.342" end="01:16:21.942" style="s2">Not my fault.</p>
+<p begin="01:16:32.842" end="01:16:36.342" style="s2">&gt;&gt; Lily.</p>
+<p begin="01:16:33.942" end="01:16:38.142" style="s2">Why are you on the ground?</p>
+<p begin="01:16:36.342" end="01:16:40.042" style="s2">Hello, 911.</p>
+<p begin="01:16:38.142" end="01:16:44.042" style="s2">This is Oak Ridge Community. A pregnant</p>
+<p begin="01:16:40.042" end="01:16:44.042" style="s2">woman collapsed. She&#39;s bleeding badly.</p>
+<p begin="01:16:45.642" end="01:16:48.342" style="s2">&gt;&gt; Miss Vance.</p>
+<p begin="01:16:46.742" end="01:16:51.142" style="s2">&gt;&gt; Mrs. Jenkins.</p>
+<p begin="01:16:48.342" end="01:16:54.342" style="s2">Come behind the property office, quick.</p>
+<p begin="01:16:51.142" end="01:16:54.342" style="s2">Your daughter-in-law&#39;s hurt.</p>
+<p begin="01:16:58.442" end="01:17:01.742" style="s2">&gt;&gt; Chloe, why is my daughter-in-law on the</p>
+<p begin="01:17:00.342" end="01:17:04.442" style="s2">floor?</p>
+<p begin="01:17:01.742" end="01:17:06.742" style="s2">Did you push her?</p>
+<p begin="01:17:04.442" end="01:17:09.242" style="s2">&gt;&gt; Mrs. Jenkins, you&#39;re wrong. When I</p>
+<p begin="01:17:06.742" end="01:17:10.642" style="s2">arrived, Lily was already down.</p>
+<p begin="01:17:09.242" end="01:17:12.642" style="s2">&gt;&gt; Stop lying.</p>
+<p begin="01:17:10.642" end="01:17:15.242" style="s2">My daughter-in-law was fine.</p>
+<p begin="01:17:12.642" end="01:17:17.942" style="s2">How&#39;d she fall?</p>
+<p begin="01:17:15.242" end="01:17:17.942" style="s2">You pushed her.</p>
+<p begin="01:17:19.042" end="01:17:22.842" style="s2">Chloe,</p>
+<p begin="01:17:20.742" end="01:17:26.442" style="s2">if my daughter-in-law or grandson gets</p>
+<p begin="01:17:22.842" end="01:17:26.442" style="s2">hurt, I&#39;ll never forgive you.</p>
+<p begin="01:17:29.243" end="01:17:31.263" style="s2">&gt;&gt; [sighs and gasps]</p>
+<p begin="01:17:42.643" end="01:17:45.943" style="s2">&gt;&gt; How&#39;s my daughter in law?</p>
+<p begin="01:17:44.443" end="01:17:48.543" style="s2">&gt;&gt; Uh</p>
+<p begin="01:17:45.943" end="01:17:50.943" style="s2">I warned her at her last checkup.</p>
+<p begin="01:17:48.543" end="01:17:53.743" style="s2">She&#39;s overweight. She needed to watch</p>
+<p begin="01:17:50.943" end="01:17:55.443" style="s2">her weight and exercise. Her hemorrhage</p>
+<p begin="01:17:53.743" end="01:17:57.543" style="s2">and blood clot</p>
+<p begin="01:17:55.443" end="01:17:59.343" style="s2">sent her blood pressure soaring. We did</p>
+<p begin="01:17:57.543" end="01:18:01.243" style="s2">all we could.</p>
+<p begin="01:17:59.343" end="01:18:05.443" style="s2">My condolences.</p>
+<p begin="01:18:01.243" end="01:18:05.443" style="s2">&gt;&gt; What? My daughter in law is dead?</p>
+<p begin="01:18:07.543" end="01:18:12.243" style="s2">What about my grandson? The fall wrapped</p>
+<p begin="01:18:10.043" end="01:18:14.543" style="s2">the cord around its neck. When she</p>
+<p begin="01:18:12.243" end="01:18:17.043" style="s2">arrived, the baby already had no</p>
+<p begin="01:18:14.543" end="01:18:19.343" style="s2">heartbeat.</p>
+<p begin="01:18:17.043" end="01:18:23.043" style="s2">My daughter in law died.</p>
+<p begin="01:18:19.343" end="01:18:25.543" style="s2">My grandson is gone too.</p>
+<p begin="01:18:23.043" end="01:18:29.343" style="s2">&gt;&gt; Call your son right away. Let him say</p>
+<p begin="01:18:25.543" end="01:18:29.343" style="s2">goodbye to his wife and baby.</p>
+<p begin="01:18:30.814" end="01:18:32.743" style="s2">&gt;&gt; [gasps and panting]</p>
+<p begin="01:18:31.443" end="01:18:34.943" style="s2">&gt;&gt; You</p>
+<p begin="01:18:32.743" end="01:18:36.243" style="s2">You pushed Lily and my grandson to their</p>
+<p begin="01:18:34.943" end="01:18:39.643" style="s2">deaths.</p>
+<p begin="01:18:36.243" end="01:18:39.643" style="s2">Give my grandson back.</p>
+<p begin="01:18:44.243" end="01:18:50.343" style="s2">&gt;&gt; Mrs. Jenkins,</p>
+<p begin="01:18:45.743" end="01:18:52.543" style="s2">Lily and your grandson, I&#39;m so sorry.</p>
+<p begin="01:18:50.343" end="01:18:54.743" style="s2">&gt;&gt; But I didn&#39;t push her.</p>
+<p begin="01:18:52.543" end="01:18:56.143" style="s2">&gt;&gt; Then who did?</p>
+<p begin="01:18:54.743" end="01:18:58.143" style="s2">Just you wait.</p>
+<p begin="01:18:56.143" end="01:19:00.643" style="s2">I&#39;ll call the cops.</p>
+<p begin="01:18:58.143" end="01:19:00.643" style="s2">911</p>
+<p begin="01:19:00.743" end="01:19:04.443" style="s2">&gt;&gt; I never thought Lily would die.</p>
+<p begin="01:19:07.043" end="01:19:12.443" style="s2">But she fell on her own.</p>
+<p begin="01:19:09.543" end="01:19:12.443" style="s2">Not my fault.</p>
+<p begin="01:19:23.143" end="01:19:28.543" style="s2">&gt;&gt; Who called us?</p>
+<p begin="01:19:24.543" end="01:19:30.143" style="s2">&gt;&gt; Officers, she pushed my daughter in law.</p>
+<p begin="01:19:28.543" end="01:19:33.243" style="s2">She was pregnant.</p>
+<p begin="01:19:30.143" end="01:19:35.243" style="s2">Now she and my grandson are both dead.</p>
+<p begin="01:19:33.243" end="01:19:37.043" style="s2">Please get me justice.</p>
+<p begin="01:19:35.243" end="01:19:38.243" style="s2">&gt;&gt; Weren&#39;t you at Oakridge today, Ms.</p>
+<p begin="01:19:37.043" end="01:19:40.045" style="s2">Vance?</p>
+<p begin="01:19:38.243" end="01:19:41.644" style="s2">&gt;&gt; Yes, officers. After</p>
+<p begin="01:19:40.045" end="01:19:44.045" style="s2">&gt;&gt; you left, I left the property office</p>
+<p begin="01:19:41.644" end="01:19:46.344" style="s2">too. To my surprise, Lily was on the</p>
+<p begin="01:19:44.045" end="01:19:46.344" style="s2">path.</p>
+<p begin="01:19:46.545" end="01:19:51.344" style="s2">Then</p>
+<p begin="01:19:48.244" end="01:19:51.344" style="s2">Lily had passed out.</p>
+<p begin="01:19:54.144" end="01:19:58.445" style="s2">I also called an ambulance myself.</p>
+<p begin="01:20:04.644" end="01:20:08.744" style="s2">&gt;&gt; From what we know,</p>
+<p begin="01:20:06.344" end="01:20:10.744" style="s2">it seems Ms. Vance was just passing by</p>
+<p begin="01:20:08.744" end="01:20:13.445" style="s2">and kindly called an ambulance.</p>
+<p begin="01:20:10.744" end="01:20:16.344" style="s2">&gt;&gt; So what if she called an ambulance?</p>
+<p begin="01:20:13.445" end="01:20:20.545" style="s2">Maybe she didn&#39;t think Lily would die.</p>
+<p begin="01:20:16.344" end="01:20:20.545" style="s2">And Mr. Lawson saw her push Lily.</p>
+<p begin="01:20:21.144" end="01:20:26.344" style="s2">Mr. Lawson, say it.</p>
+<p begin="01:20:23.045" end="01:20:26.344" style="s2">Didn&#39;t Chloe push Lily?</p>
+<p begin="01:20:27.744" end="01:20:30.344" style="s2">&gt;&gt; Officers,</p>
+<p begin="01:20:31.244" end="01:20:35.320" style="s2">I was too nervous.</p>
+<p begin="01:20:33.300" end="01:20:35.320" style="s2">[sighs and gasps]</p>
+<p begin="01:20:36.445" end="01:20:40.744" style="s2">I was a mess.</p>
+<p begin="01:20:38.945" end="01:20:41.945" style="s2">But now I&#39;ve gone over it, and it&#39;s</p>
+<p begin="01:20:40.744" end="01:20:44.744" style="s2">clear.</p>
+<p begin="01:20:41.945" end="01:20:46.644" style="s2">When I walked over, I only saw Ms. Vance</p>
+<p begin="01:20:44.744" end="01:20:49.144" style="s2">crouching beside Lily.</p>
+<p begin="01:20:46.644" end="01:20:50.945" style="s2">I didn&#39;t see Ms. Vance push Lily.</p>
+<p begin="01:20:49.144" end="01:20:54.545" style="s2">&gt;&gt; Even if you didn&#39;t,</p>
+<p begin="01:20:50.945" end="01:20:54.545" style="s2">Chloe was the only one there.</p>
+<p begin="01:20:55.545" end="01:21:00.144" style="s2">If she didn&#39;t push my son&#39;s wife, who</p>
+<p begin="01:20:57.844" end="01:21:00.144" style="s2">did?</p>
+<p begin="01:21:00.945" end="01:21:06.045" style="s2">&gt;&gt; Officers,</p>
+<p begin="01:21:02.945" end="01:21:08.344" style="s2">there was Linda too.</p>
+<p begin="01:21:06.045" end="01:21:10.045" style="s2">She left the office before I did.</p>
+<p begin="01:21:08.344" end="01:21:12.644" style="s2">Before I did,</p>
+<p begin="01:21:10.045" end="01:21:15.545" style="s2">she could have met Lily, pushed her,</p>
+<p begin="01:21:12.644" end="01:21:18.545" style="s2">then fled to avoid arrest. Isn&#39;t that</p>
+<p begin="01:21:15.545" end="01:21:18.545" style="s2">possible too?</p>
+<p begin="01:21:19.806" end="01:21:25.744" style="s2">&gt;&gt; [panting and sighs]</p>
+<p begin="01:21:21.644" end="01:21:25.744" style="s2">&gt;&gt; So did you sort out the elevator?</p>
+<p begin="01:21:29.244" end="01:21:33.045" style="s2">What&#39;s wrong?</p>
+<p begin="01:21:30.445" end="01:21:33.045" style="s2">You look awful.</p>
+<p begin="01:21:33.545" end="01:21:37.144" style="s2">&gt;&gt; Fine.</p>
+<p begin="01:21:34.945" end="01:21:40.744" style="s2">Mr. Sterling&#39;s out.</p>
+<p begin="01:21:37.144" end="01:21:40.744" style="s2">I&#39;ll think of another way.</p>
+<p begin="01:21:40.844" end="01:21:44.646" style="s2">&gt;&gt; Food delivery. I ordered breakfast.</p>
+<p begin="01:21:50.546" end="01:21:53.546" style="s2">&gt;&gt; Officers.</p>
+<p begin="01:21:52.345" end="01:21:56.046" style="s2">Why are you here?</p>
+<p begin="01:21:53.546" end="01:21:59.761" style="s2">&gt;&gt; Linda, you pushed Lily, didn&#39;t you?</p>
+<p begin="01:21:56.046" end="01:22:01.781" style="s2">&gt;&gt; No idea what you&#39;re talking about.</p>
+<p begin="01:21:59.761" end="01:22:01.781" style="s2">&gt;&gt; [gasps]</p>
+<p begin="01:22:08.245" end="01:22:10.646" style="s2">&gt;&gt; Lily.</p>
+<p begin="01:22:12.745" end="01:22:17.146" style="s2">The camera was far from the path, but it</p>
+<p begin="01:22:15.046" end="01:22:19.046" style="s2">still caught everything clearly. A</p>
+<p begin="01:22:17.146" end="01:22:20.946" style="s2">minute before I entered the path, you</p>
+<p begin="01:22:19.046" end="01:22:23.546" style="s2">got into an argument with Lily. In the</p>
+<p begin="01:22:20.946" end="01:22:26.845" style="s2">scuffle, Lily fell. Then you saw me</p>
+<p begin="01:22:23.546" end="01:22:28.946" style="s2">coming. You ran off. Linda, you pushed</p>
+<p begin="01:22:26.845" end="01:22:30.146" style="s2">Lily, then fled from justice.</p>
+<p begin="01:22:28.946" end="01:22:31.745" style="s2">&gt;&gt; What?</p>
+<p begin="01:22:30.146" end="01:22:34.146" style="s2">I didn&#39;t push her.</p>
+<p begin="01:22:31.745" end="01:22:36.745" style="s2">She grabbed me and wouldn&#39;t let go. I</p>
+<p begin="01:22:34.146" end="01:22:39.745" style="s2">just yanked my hand away. How could I</p>
+<p begin="01:22:36.745" end="01:22:41.745" style="s2">know she&#39;d fall?</p>
+<p begin="01:22:39.745" end="01:22:43.446" style="s2">It&#39;s not my fault.</p>
+<p begin="01:22:41.745" end="01:22:46.446" style="s2">&gt;&gt; How is it not?</p>
+<p begin="01:22:43.446" end="01:22:49.146" style="s2">My daughter-in-law is dead.</p>
+<p begin="01:22:46.446" end="01:22:51.245" style="s2">My grandson is gone, too.</p>
+<p begin="01:22:49.146" end="01:22:52.245" style="s2">Give me back my daughter-in-law and my</p>
+<p begin="01:22:51.245" end="01:22:55.646" style="s2">grandson.</p>
+<p begin="01:22:52.245" end="01:22:58.446" style="s2">&gt;&gt; I didn&#39;t mean to. She fell on her own.</p>
+<p begin="01:22:55.646" end="01:23:01.845" style="s2">&gt;&gt; Intentional or not, Lily is dead, and</p>
+<p begin="01:22:58.446" end="01:23:01.845" style="s2">you&#39;re legally responsible.</p>
+<p begin="01:23:03.245" end="01:23:08.146" style="s2">&gt;&gt; Officers, don&#39;t arrest me.</p>
+<p begin="01:23:05.745" end="01:23:10.446" style="s2">I swear I didn&#39;t mean to push Lily.</p>
+<p begin="01:23:08.146" end="01:23:13.046" style="s2">My husband needs my care.</p>
+<p begin="01:23:10.446" end="01:23:15.345" style="s2">He broke his leg and can&#39;t walk.</p>
+<p begin="01:23:13.046" end="01:23:16.946" style="s2">I don&#39;t want prison.</p>
+<p begin="01:23:15.345" end="01:23:19.446" style="s2">&gt;&gt; Officers,</p>
+<p begin="01:23:16.946" end="01:23:21.345" style="s2">my wife really didn&#39;t mean to push her.</p>
+<p begin="01:23:19.446" end="01:23:24.245" style="s2">I beg you, don&#39;t arrest her.</p>
+<p begin="01:23:21.345" end="01:23:26.345" style="s2">&gt;&gt; I said intent doesn&#39;t matter. Lily is</p>
+<p begin="01:23:24.245" end="01:23:27.845" style="s2">dead now. Your wife is still legally</p>
+<p begin="01:23:26.345" end="01:23:30.546" style="s2">responsible.</p>
+<p begin="01:23:27.845" end="01:23:33.646" style="s2">As for her sentence,</p>
+<p begin="01:23:30.546" end="01:23:33.646" style="s2">a judge decides.</p>
+<p begin="01:23:34.845" end="01:23:40.046" style="s2">&gt;&gt; Chloe,</p>
+<p begin="01:23:36.046" end="01:23:44.146" style="s2">it&#39;s all your fault. You killed Lily.</p>
+<p begin="01:23:40.046" end="01:23:44.146" style="s2">You&#39;re the culprit, not me.</p>
+<p begin="01:23:44.845" end="01:23:48.347" style="s2">&gt;&gt; Linda,</p>
+<p begin="01:23:45.747" end="01:23:50.047" style="s2">&gt;&gt; you&#39;re still dodging the blame.</p>
+<p begin="01:23:48.347" end="01:23:52.047" style="s2">&gt;&gt; Chloe, if [music] you hadn&#39;t barred</p>
+<p begin="01:23:50.047" end="01:23:54.347" style="s2">everyone from the elevator, Lily</p>
+<p begin="01:23:52.047" end="01:23:57.047" style="s2">wouldn&#39;t have fought with me.</p>
+<p begin="01:23:54.347" end="01:23:59.447" style="s2">So [music] Lily&#39;s death is your fault.</p>
+<p begin="01:23:57.047" end="01:24:01.447" style="s2">You killed her.</p>
+<p begin="01:23:59.447" end="01:24:03.347" style="s2">&gt;&gt; Why did I shut it down? [music]</p>
+<p begin="01:24:01.447" end="01:24:05.547" style="s2">Wasn&#39;t it because of you?</p>
+<p begin="01:24:03.347" end="01:24:09.247" style="s2">&gt;&gt; You were just being petty.</p>
+<p begin="01:24:05.547" end="01:24:11.547" style="s2">&gt;&gt; So you bear [music] no responsibility?</p>
+<p begin="01:24:09.247" end="01:24:14.047" style="s2">You called me a bad neighbor, but you</p>
+<p begin="01:24:11.547" end="01:24:16.247" style="s2">shoved Lily by accident.</p>
+<p begin="01:24:14.047" end="01:24:17.647" style="s2">Your first instinct wasn&#39;t to call an</p>
+<p begin="01:24:16.247" end="01:24:20.347" style="s2">ambulance.</p>
+<p begin="01:24:17.647" end="01:24:22.047" style="s2">You fled the scene.</p>
+<p begin="01:24:20.347" end="01:24:24.647" style="s2">So this [music] is what you call being</p>
+<p begin="01:24:22.047" end="01:24:27.447" style="s2">neighbors?</p>
+<p begin="01:24:24.647" end="01:24:29.547" style="s2">Helping each other?</p>
+<p begin="01:24:27.447" end="01:24:30.447" style="s2">&gt;&gt; I [music] I was just so scared.</p>
+<p begin="01:24:29.547" end="01:24:33.547" style="s2">I forgot.</p>
+<p begin="01:24:30.447" end="01:24:35.647" style="s2">&gt;&gt; You forgot to call 911, but followed her</p>
+<p begin="01:24:33.547" end="01:24:38.247" style="s2">to the hospital.</p>
+<p begin="01:24:35.647" end="01:24:40.147" style="s2">Then hid outside the OR.</p>
+<p begin="01:24:38.247" end="01:24:41.247" style="s2">You let Mrs. Jenkins think I pushed</p>
+<p begin="01:24:40.147" end="01:24:42.747" style="s2">Lily.</p>
+<p begin="01:24:41.247" end="01:24:45.347" style="s2">You watched her call to have me</p>
+<p begin="01:24:42.747" end="01:24:48.147" style="s2">arrested.</p>
+<p begin="01:24:45.347" end="01:24:50.063" style="s2">Yet you never set her straight.</p>
+<p begin="01:24:48.147" end="01:24:50.847" style="s2">You just went back to your hotel.</p>
+<p begin="01:24:50.063" end="01:24:54.347" style="s2">[music]</p>
+<p begin="01:24:50.847" end="01:24:54.347" style="s2">You made me the scapegoat.</p>
+<p begin="01:24:55.947" end="01:24:58.847" style="s2">&gt;&gt; She misunderstood you.</p>
+<p begin="01:24:57.747" end="01:25:01.847" style="s2">Not my fault. [music]</p>
+<p begin="01:24:58.847" end="01:25:04.747" style="s2">&gt;&gt; Right. Nothing bad is ever your fault,</p>
+<p begin="01:25:01.847" end="01:25:06.047" style="s2">but you deserve every good thing.</p>
+<p begin="01:25:04.747" end="01:25:08.047" style="s2">Then let [music] the law teach you</p>
+<p begin="01:25:06.047" end="01:25:09.747" style="s2">what&#39;s wrong and what&#39;s right.</p>
+<p begin="01:25:08.047" end="01:25:13.547" style="s2">&gt;&gt; Let me go.</p>
+<p begin="01:25:09.747" end="01:25:13.547" style="s2">&gt;&gt; You should arrest Chloe.</p>
+<p begin="01:25:17.947" end="01:25:21.647" style="s2">&gt;&gt; Ms. Vance, I know Lily&#39;s death isn&#39;t on</p>
+<p begin="01:25:20.647" end="01:25:23.547" style="s2">you.</p>
+<p begin="01:25:21.647" end="01:25:26.147" style="s2">I was wrong before.</p>
+<p begin="01:25:23.547" end="01:25:28.347" style="s2">Linda made me think you were just petty.</p>
+<p begin="01:25:26.147" end="01:25:31.447" style="s2">But when Lily got hurt, you called an</p>
+<p begin="01:25:28.347" end="01:25:33.547" style="s2">ambulance right away.</p>
+<p begin="01:25:31.447" end="01:25:36.647" style="s2">Yet I still blamed you.</p>
+<p begin="01:25:33.547" end="01:25:40.947" style="s2">I&#39;m truly sorry.</p>
+<p begin="01:25:36.647" end="01:25:40.947" style="s2">&gt;&gt; It&#39;s over now. It&#39;ll all be okay.</p>
+<p begin="01:25:43.547" end="01:25:51.349" style="s2">Some soon realize they&#39;re wrong.</p>
+<p begin="01:25:46.547" end="01:25:51.349" style="s2">Others blame everyone else forever.</p>
+<p begin="01:25:51.649" end="01:25:56.249" style="s2">Only the law can make her pay for what</p>
+<p begin="01:25:53.749" end="01:25:58.149" style="s2">she did.</p>
+<p begin="01:25:56.249" end="01:26:01.649" style="s2">Linda was convicted of negligent</p>
+<p begin="01:25:58.149" end="01:26:04.849" style="s2">homicide and got three years in prison.</p>
+<p begin="01:26:01.649" end="01:26:07.448" style="s2">I heard her arrogance soon vanished.</p>
+<p begin="01:26:04.849" end="01:26:10.249" style="s2">I heard prison was rough for her. She</p>
+<p begin="01:26:07.448" end="01:26:12.549" style="s2">fought inmates and got beaten badly. No</p>
+<p begin="01:26:10.249" end="01:26:14.948" style="s2">one cared for her husband, so his</p>
+<p begin="01:26:12.549" end="01:26:17.249" style="s2">fracture healed poorly, leaving him</p>
+<p begin="01:26:14.948" end="01:26:19.448" style="s2">disabled for life.</p>
+<p begin="01:26:17.249" end="01:26:23.249" style="s2">Soon, he sold his fifth floor home for</p>
+<p begin="01:26:19.448" end="01:26:25.049" style="s2">$500,000 below market and moved. Later,</p>
+<p begin="01:26:23.249" end="01:26:27.249" style="s2">Mr. Sterling disabled the elevator&#39;s</p>
+<p begin="01:26:25.049" end="01:26:28.749" style="s2">access control system. The incident had</p>
+<p begin="01:26:27.249" end="01:26:30.948" style="s2">taught everyone in the building.</p>
+<p begin="01:26:28.749" end="01:26:33.249" style="s2">Goodwill has to go both ways, taking</p>
+<p begin="01:26:30.948" end="01:26:34.849" style="s2">without giving hurts everyone. Finally,</p>
+<p begin="01:26:33.249" end="01:26:37.948" style="s2">the neighbors pooled their money and</p>
+<p begin="01:26:34.849" end="01:26:40.249" style="s2">paid Mr. Sterling the full $230,000</p>
+<p begin="01:26:37.948" end="01:26:42.448" style="s2">elevator cost. The once private elevator</p>
+<p begin="01:26:40.249" end="01:26:43.749" style="s2">became public. Mom and I moved to a new</p>
+<p begin="01:26:42.448" end="01:26:45.948" style="s2">place.</p>
+<p begin="01:26:43.749" end="01:26:48.948" style="s2">We got along.</p>
+<p begin="01:26:45.948" end="01:26:48.948" style="s2">Work thrived.</p>
+<p begin="01:26:49.749" end="01:26:56.149" style="s2">Mom, when I finish this feature, let&#39;s</p>
+<p begin="01:26:52.448" end="01:26:56.149" style="s2">take a trip and unwind.</p>
+<p begin="01:26:56.448" end="01:26:59.849" style="s2">&gt;&gt; Okay, a vacation.</p>
+</div>
+</body>
+</tt>
