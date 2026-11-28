@@ -658,3 +658,7 @@ A mid-series episode must still close a local loop and re-objectivize its presen
 ## Library swapped-child identity doctrine
 
 Swapped-child identity melodrama works when the swap steals a concrete class/luck future, supernatural blessing has a love/backfire rule, abuse is materially specific, identity has proof objects, the false child remains a child shaped by adults rather than innate evil, birth-family coercion becomes active blackmail, loving parents build no-secrets safety structures, truth is procedurally uncovered, antagonists face material consequences, and the ending restores secure ordinary belonging beyond rank. The full-film vs 3-minute episode comparison is also strong packaging evidence, but not CTR proof.
+
+## Smith BL power-autonomy doctrine
+
+BL power romance works when the desired man has independent craft/goals, power asymmetry is explicit leverage rather than decoration, rescue or payment never becomes ownership, omegaverse/supernatural bodily rules increase rather than reduce consent requirements, intimacy proceeds through micro-consent/refusal rights, care preserves anger and agency, truth/justice uses police/records/documents/procedure, romance is rechosen after leverage is questioned, and endings preserve future agency or explicit commitment terms. Smith low hockey film is a strong-craft counterexample: low discovery can coexist with polished thumbnails and strong consent architecture.

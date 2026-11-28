@@ -189,3 +189,9 @@ Hit `xK9NcPoHLOo` uses sports-arena scale, opposing team uniforms, central gymna
 - Hit `iQbriEGoaGg`: polished custom estate/garden key art, luminous gold title “The Duke’s Lucky Little Heiress,” mother/heiress/rival-child grouping, bright premium fantasy promise.
 - Same-story EP01 `W08Nvwu0rPY`: dark vertical scene crop with blurred sidebars and “Little jinx” subtitle; it sells a harsh fragment rather than a complete family fantasy contract.
 - Low `U-fEBDUY58Q`: polished demon-family portrait and clear title despite very low discovery, again falsifying simple thumbnail-quality causality. Packaging, tone, distribution, timing, and audience fit remain confounded; no CTR data exists.
+
+## Smith drama-US — BL power-autonomy thumbnails
+
+- Hit `omWFzVKpuQM`: multi-panel gold/pink key art compresses pregnant omega, alpha intimacy, perfume formula, authorship theft, and “Why Only Him?” curiosity. The formula bottle/notebook is a unique story object, not decoration.
+- Medium `vnSVXshL2aQ`: wolf cage, auction paddle, period power costumes, central vampire/werewolf pair, “Three million” and “He remembered” compress trafficking/rescue/hidden royalty/memory in one read.
+- Low `7wYIEIaWjYw`: polished coach/player hockey collage with mask/secret persona and “Four years. One crush.” Despite low discovery, it is highly legible. Do not infer CTR or weak thumbnail quality without private data.
