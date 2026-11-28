@@ -504,3 +504,8 @@ Completed Payback Stories hit/medium/low comparison for `_u1i8lfizF8`, `F-NMKe7X
 ## Purple Grape checkpoint — epistemic intimacy integrated
 
 `76ZsC67fsoY` fresh hit, `CiEfupibVy8` medium, and `VomDIP4eI_I` low completed in `knowledge/market/purplegrape-epistemic-intimacy-hit-medium-low-comparison.md`; full machine evidence, subtitles, contact sheets, thumbnails, and channel archive are ready for commit. Integrated `epistemic_intimacy_integrity`. Key doctrine: thought access must be bounded/risky, exploit interior/exterior contradiction, coexist with independent competence and behavioral care, address privacy/consent, avoid capture/ownership logic, and preserve independent life in the ending. Low comparator has higher motion/brightness and is a strong-craft counterexample. Continue scanning uncovered fresh low-subscriber breakouts; triage new Devin Review findings first.
+
+
+## Context handoff before rotation — 2026-11-28
+
+Latest pushed commit `9fb4300` adds Purple Grape epistemic-intimacy doctrine/validator/evidence; tests 574 passed. Devin Review restarted for this commit, so first check PR #7 review findings and triage/fix before new work. Then continue scanning uncovered fresh low-subscriber breakouts. Do not commit stray `evidence/media/iqCNxQ2_jSI/` unless intentionally needed; `evidence/media/batch_results.jsonl` is local regenerated state.
