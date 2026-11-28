@@ -29,11 +29,29 @@ def _affirmative(pattern: str, text: str) -> bool:
     return any(re.search(pattern, part) and not negation.search(part) for part in _segments(text))
 
 
+def _has_nonconsensual_intimacy(text: str) -> bool:
+    patterns = (
+        r"(?:kiss(?:es|ed)?|touch(?:es|ed)?|takes?|forces?|presses?).{0,40}without (?:asking|permission|consent)",
+        r"without (?:asking|permission|consent).{0,15}(?:kiss|touch|force|bed|sex)",
+        r"never asks? permission before (?:kissing|touching)",
+        r"(?:kiss|touch).{0,60}never asks? permission|never asks? permission.{0,60}(?:kiss|touch)",
+        r"no consent",
+    )
+    refusal = re.compile(r"refus|avoid|stop|prevent|won['’]?t|wouldn['’]?t|not allowed|must not")
+    for sentence in _segments(text):
+        for pattern in patterns:
+            for match in re.finditer(pattern, sentence):
+                before = sentence[max(0, match.start() - 35):match.start()]
+                if not refusal.search(before):
+                    return True
+    return False
+
+
 def evaluate_curse_cure_intimacy_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     curse = bool(re.search(r"curse|cursed|burns? at .*touch|petrif|turn to stone|lose control|rampage|shift|venom|touch (?:kills|burns|hurts)|dangerous touch", full))
     creature_or_royal = bool(re.search(r"dragon|medusa|werewolf|wolf|beast|monster|serpent|snakes?|king|prince|queen|royal|alpha", full))
-    intimacy = bool(re.search(r"romance|romantic|lover|boyfriend|girlfriend|wife|husband|bride|kiss|caregiver|massage|mate|marri|wedding", full))
+    intimacy = bool(re.search(r"romance|romantic|lover|boyfriend|girlfriend|wife|husband|bride|kiss|caregiver|massage|mate|marri|wedding|falls? in love|in love", full))
     if not (curse and creature_or_royal and intimacy):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
@@ -50,7 +68,7 @@ def evaluate_curse_cure_intimacy_integrity(premise: dict[str, Any], architecture
     checks = {
         "dangerous_touch_has_rules_and_cost": bool(re.search(r"no one can (?:get near|touch)|burns? at .*touch|can't control|cannot control|hurt you|petrif|turn .* stone|die from the curse|curse.{0,60}(?:six months|death|kill|cost)|dangerous", full)),
         "cure_person_has_independent_need_or_identity": bool(re.search(r"mother|mom|mum|family|money|salary|job|profession|studio|archives|identity|who i really am|necklace|rent|contract|home", opening)),
-        "intimacy_progresses_by_consent_and_pacing": bool(re.search(r"no rush|wait until|not ready|don't be afraid|permission|choice|you choose|your choice|ask|consent|ready|stop", full) and not re.search(r"never asks? permission|without (?:asking|permission|consent)|no consent|doesn['’]?t ask permission", full)),
+        "intimacy_progresses_by_consent_and_pacing": bool(re.search(r"no rush|wait until|not ready|don't be afraid|permission|choice|you choose|your choice|ask|consent|ready|stop", full) and not _has_nonconsensual_intimacy(full)),
         "control_or_cure_is_procedural_not_instant": bool(re.search(r"one breath|again|training|test|verification|medicine|control the shift|practice|results|witness|restore|ritual|seal|learn|procedur|treatment", full)),
         "instrumental_origin_is_confessed_or_revised": bool(re.search(r"using me|just .*cure|that's how it started|different now|truth|confess|not just|real|liar|contract", full)),
         "antagonist_weaponizes_curse_or_intimacy": bool(re.search(r"spread.*lies|drive you apart|tamper|poison|amplify the curse|lure .* away|trap|compel|control source|false oracle|curse.*weapon|use.*curse|forced my hand", full)),
