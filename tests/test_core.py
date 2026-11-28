@@ -5825,3 +5825,12 @@ def test_scale_bridge_stewardship_integrity():
  out=ev(p,a,[{'summary':'The human scientist uses maps, bottle caps, and limited one-use transport while the guard and community rebuild high ground.'}])
  assert out['applies'] and out['score_0_to_1']>.6
  assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+def test_scale_bridge_applicability_and_abandonment_regressions():
+ from studio.scale_bridge_stewardship_integrity import evaluate_scale_bridge_stewardship_integrity as ev
+ assert ev({'logline':'An explorer finds a hidden world in a cave with a village.'},{'ending_payoff':'They protect the cave.'},[])['applies'] is False
+ p={'logline':'An explorer finds a tiny kingdom hidden in the roots, where scale and giants bring floods.'}
+ bad=ev(p,{'ending_payoff':'She steals a map, leaves the threatened kingdom for good, and never returns while a guard asks her to return.'},[])
+ assert bad['checks']['reciprocal_exchange_changes_both_worlds'] is False
+ assert bad['checks']['return_or_stay_decision_is_motivated_by_relationship_and_duty'] is False
+ assert bad['checks']['ending_rebuilds_shared_infrastructure_or_ongoing_stewardship'] is False

@@ -17,8 +17,8 @@ def _text(value: Any) -> str:
 
 def evaluate_scale_bridge_stewardship_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    scale_world = bool(re.search(r"tiny kingdom|tiny people|miniature|hidden kingdom|hidden world|small folk|little people|micro-?world|root kingdom", full))
-    scale_gap = bool(re.search(r"giant|human|explorer|cave|roots?|falls? into|shrinks?|scale|surface world", full))
+    scale_world = bool(re.search(r"tiny kingdom|tiny people|tiny civilization|miniature|small folk|little people|micro-?world|root kingdom", full))
+    scale_gap = bool(re.search(r"giant|shrinks?|scale|surface world|tiny people|tiny kingdom|small folk|little people", full))
     stewardship = bool(re.search(r"flood|ecosystem|village|kingdom|protect|promise|build|repair|home|guard|map|steward", full))
     if not (scale_world and scale_gap and stewardship):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
@@ -34,15 +34,17 @@ def evaluate_scale_bridge_stewardship_integrity(premise: dict[str, Any], archite
     architecture_text = _text(architecture).lower()
     end = "\n".join(ending_parts + ([_text(scenes[-1]).lower()] if scenes else [])) or (architecture_text[-max(1, len(architecture_text) // 3):] if architecture_text else "")
 
+    extractive_abandonment = bool(re.search(r"steal\w*|stolen|abandon\w*|leav\w*[^.\n]{0,60}for good|never returns?", full))
+
     checks = {
         "scale_gap_is_physical_spatial_and_social_not_only_visual_spectacle": bool(re.search(r"cave|roots?|tiny|giant|small|large|high ground|drill|bottle caps?|scale", full)) and bool(re.search(r"kingdom|village|people|guard|queen|community|they|them", full)),
         "human_arrival_has_material_ecological_consequences": bool(re.search(r"flood|giants bring floods|drill|damage|collapse|destroy|threat|invasion|invasive|resource", full)),
         "micro_civilization_has_labor_infrastructure_and_rules": bool(re.search(r"build|guard|farming|village|kingdom|council|queen|map|bottle caps?|high ground|refuge|infrastructure|work", full)),
         "outsider_uses_expertise_but_does_not_become_instant_savior": bool(re.search(r"scientist|explorer|map|report|research|knowledge|help|promise|learn", full)) and not bool(re.search(r"single-handedly saves|instantly worshipped as a god|chosen one solves everything", full)),
-        "reciprocal_exchange_changes_both_worlds": bool(re.search(r"bottle caps?|maps?|knowledge|promise|home|trade|teach|learn|build smarter|finish the maps", full)),
+        "reciprocal_exchange_changes_both_worlds": bool(re.search(r"bottle caps?|knowledge|promise|home|trade|teach|learn|build smarter|finish the maps", full)) and not extractive_abandonment,
         "scale_power_creates_specific_risks_and_limits": bool(re.search(r"one use|limited|might not bring me back|flood|crush|giant|small|fragile|risk|cost", full)),
-        "return_or_stay_decision_is_motivated_by_relationship_and_duty": bool(re.search(r"because i promised|you came back|home now|will you come back|every sunrise|for good|duty|promise", end + "\n" + full[-max(1, len(full) // 3):])),
-        "ending_rebuilds_shared_infrastructure_or_ongoing_stewardship": bool(re.search(r"no more floods|build smarter|built this with us|finish the maps|guard|home now|every sunrise|protect|repair|steward", end)),
+        "return_or_stay_decision_is_motivated_by_relationship_and_duty": bool(re.search(r"because i promised|you came back|home now|every sunrise|i will return|i.?ll return|i choose to stay|duty|promise", end + "\n" + full[-max(1, len(full) // 3):])) and not extractive_abandonment,
+        "ending_rebuilds_shared_infrastructure_or_ongoing_stewardship": bool(re.search(r"no more floods|build smarter|built this with us|finish the maps|home now|every sunrise|protect|repair|steward", end)) and not extractive_abandonment,
         "wonder_is_grounded_in_tactile_objects_and_systems": bool(re.search(r"bottle caps?|map|report|drill|helmet|light|book|tool|door|bridge|root|leaf|seed", full)),
     }
     labels = {
