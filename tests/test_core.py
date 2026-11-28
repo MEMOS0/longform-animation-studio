@@ -5478,3 +5478,16 @@ def test_epistemic_inner_voice_audible_only_regression():
     assert r['applies'] is True
     own=ev({'logline':'A bride follows her own inner voice and chooses a new life.'},{},[])
     assert own['applies'] is False
+
+
+def test_care_first_incognito_integrity():
+    from studio.care_first_incognito_integrity import evaluate_care_first_incognito_integrity as ev
+    premise={'logline':'A nurse needs surgery money for her grandmother. She bandages a wounded stranger, not knowing he is a hidden billionaire heir. The revelation recontextualizes her care, while her medical work and public speech repeat her competence. She refuses a conspiracy and chooses love freely after his apology and repair.'}
+    ending={'ending_payoff':'They discuss the choice freely; she keeps her medical vocation and family repair alongside mutual commitment.'}
+    good=ev(premise,ending,[])
+    assert good['applies'] is True
+    assert good['score_0_to_1'] >= 0.75
+    bad=ev({'logline':'A woman saves a wounded stranger, not knowing he is a billionaire heir, and they marry.'},{'ending_payoff':'He bought the company without discussing it with her; money does not matter.'},[])
+    assert bad['applies'] is True
+    assert bad['checks']['wealth_or_power_does_not_substitute_for_consent_or_repair'] is False
+    assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False

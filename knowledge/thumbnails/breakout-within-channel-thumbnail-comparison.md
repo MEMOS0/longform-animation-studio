@@ -265,3 +265,7 @@ Archived evidence: `data/raw/thumbnails/paybackstories/` and `knowledge/market/p
 ## Purple Grape epistemic-intimacy thumbnail doctrine
 
 `76ZsC67fsoY`, `CiEfupibVy8`, and `VomDIP4eI_I` all use glossy kiss-triangle romance montages, but none clearly visualizes thought access. The fresh hit at least communicates maid/CEO class contrast; the medium/low images are more generic. Reusable rule: epistemic-intimacy packaging should show information asymmetry — visible thought text, a reaction to unspoken knowledge, silence breaking, or a privacy/test moment — instead of only attractive kissing couples. No CTR data is available.
+
+## Gracie care-first incognito thumbnail doctrine
+
+`tQHAwqGfhyo` clearly visualizes mechanism: heroine bandaging a wounded man's arm in a train, with class contrast and the line “Saved on a Train, Spoiled for Life.” `GM2jQmZlbxw` is polished but generic attractive-couple mystery outside a bar; it does not visualize flash marriage, prison/fashion contrast, care, or hidden identity. `kQ4G1jHXOV0` strongly visualizes departure power reversal through kneeling pursuit versus a woman looking away. Rule: care-first incognito packaging should show the care act, wound/object, setting, and status contrast before romantic payoff. No CTR data is available.
