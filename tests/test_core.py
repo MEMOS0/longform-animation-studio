@@ -5834,3 +5834,11 @@ def test_scale_bridge_applicability_and_abandonment_regressions():
  assert bad['checks']['reciprocal_exchange_changes_both_worlds'] is False
  assert bad['checks']['return_or_stay_decision_is_motivated_by_relationship_and_duty'] is False
  assert bad['checks']['ending_rebuilds_shared_infrastructure_or_ongoing_stewardship'] is False
+
+def test_scale_bridge_evacuation_and_collective_stewardship_regressions():
+ from studio.scale_bridge_stewardship_integrity import evaluate_scale_bridge_stewardship_integrity as ev
+ p={'logline':'An explorer finds a tiny kingdom hidden in the roots, where scale and giants bring floods.'}
+ good=ev(p,{'ending_payoff':'Villagers abandon damaged homes during the flood. The outsider stays for good to be with family, swaps maps with villagers, shares knowledge, guards the levee together, and repairs the dam.'},[])
+ assert good['checks']['reciprocal_exchange_changes_both_worlds'] is True
+ assert good['checks']['return_or_stay_decision_is_motivated_by_relationship_and_duty'] is True
+ assert good['checks']['ending_rebuilds_shared_infrastructure_or_ongoing_stewardship'] is True
