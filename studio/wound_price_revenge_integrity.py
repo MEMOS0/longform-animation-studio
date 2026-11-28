@@ -34,11 +34,22 @@ def _setup_narrative_text(architecture: dict[str, Any], scenes: list[dict[str, A
     return fallback[:max(1, len(fallback) // 2)]
 
 
+def _has_active_revenge_intent(text: str) -> bool:
+    direct_cues = bool(re.search(r"avenge|murdered|kill the one|hunt(?:er|ing)? .*killer|mother.*murder", text))
+    if direct_cues:
+        return True
+    for match in re.finditer(r"revenge|vengeance", text):
+        window = text[max(0, match.start() - 100):match.start()]
+        negated = re.search(r"(^|[^a-z])(over|instead of|rather than|rejects?|renounces?|refuses?)([^a-z]|$)", window)
+        if not negated:
+            return True
+    return False
+
+
 def evaluate_wound_price_revenge_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     dark_creature = bool(re.search(r"demon|fiend|monster|creature|troll|beast|supernatural|dark fantasy|nightstalker", full))
-    active_revenge_text = re.sub(r"(?:over|instead of|rather than|rejects?|renounces?|refuses?)[\s\S]{0,100}?(?:revenge|vengeance)", "protective choice", full)
-    revenge = bool(re.search(r"revenge|avenge|vengeance|murdered|kill the one|hunt(?:er|ing)? .*killer|mother.*murder", active_revenge_text))
+    revenge = _has_active_revenge_intent(full)
     if not (dark_creature and revenge):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 

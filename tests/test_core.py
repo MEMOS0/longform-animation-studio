@@ -4709,6 +4709,13 @@ def test_bonded_machine_pilot_ignores_production_ai_notes_for_applicability():
     assert result['applies'] is False
 
 
+def test_wound_price_revenge_discovers_lair_and_swears_revenge_applies():
+    from studio.wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
+    premise={'logline':'After a heroine discovers a demon lair, she swears revenge for her murdered mother.'}
+    result=evaluate_wound_price_revenge_integrity(premise,{},[])
+    assert result['applies'] is True
+
+
 def test_bonded_machine_pilot_ending_is_independent_of_architecture_key_order():
     from studio.bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
     shared={
