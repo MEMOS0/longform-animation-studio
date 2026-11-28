@@ -61,6 +61,7 @@ from .capability_inversion_care_integrity import evaluate_capability_inversion_c
 from .serial_relational_anchor_integrity import evaluate_serial_relational_anchor_integrity
 from .self_selected_athlete_romance_integrity import evaluate_self_selected_athlete_romance_integrity
 from .curse_cure_intimacy_integrity import evaluate_curse_cure_intimacy_integrity
+from .swapped_child_identity_integrity import evaluate_swapped_child_identity_integrity
 from .bonded_machine_pilot_integrity import evaluate_bonded_machine_pilot_integrity
 from .wound_price_revenge_integrity import evaluate_wound_price_revenge_integrity
 from .visual_causality import evaluate_visual_causality
@@ -374,6 +375,7 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
         "serial_relational_anchor_integrity": evaluate_serial_relational_anchor_integrity(premise, architecture, scenes),
         "self_selected_athlete_romance_integrity": evaluate_self_selected_athlete_romance_integrity(premise, architecture, scenes),
         "curse_cure_intimacy_integrity": evaluate_curse_cure_intimacy_integrity(premise, architecture, scenes),
+        "swapped_child_identity_integrity": evaluate_swapped_child_identity_integrity(premise, architecture, scenes),
         "bonded_machine_pilot_integrity": evaluate_bonded_machine_pilot_integrity(premise, architecture, scenes),
         "wound_price_revenge_integrity": evaluate_wound_price_revenge_integrity(premise, architecture, scenes),
         "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes), "storyboards": len(boards)},

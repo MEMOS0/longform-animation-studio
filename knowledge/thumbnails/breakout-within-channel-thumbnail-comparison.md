@@ -183,3 +183,9 @@ Hit `xK9NcPoHLOo` uses sports-arena scale, opposing team uniforms, central gymna
 - Hit `p2TCUbkpxyQ`: warm gold palace; human-looking dragon king close over heroine; her hand directly on his glowing chest; title exactly names “I Became the Dragon King’s Only Cure.” Mechanism: dangerous touch + exception + royalty in one composition.
 - Medium `sLTONdmoJOE`: blue moonlit palace/bride/beast-king composition; “The Cursed King and The Lost Heir” foregrounds curse/identity more than trafficking or control procedure.
 - Low `g_9Y9s1j3Qw`: bright spa/resort sex-comedy, masseuse physically pinning Medusa prince, snakes/hearts and comic typography exactly matching massage premise. It is highly legible, so low views falsify simple thumbnail-quality causality. Positioning mismatch may exist because the film later becomes palace/curse intrigue, but no CTR/retention evidence exists.
+
+## Library of Premium Short-Form Dramas — full film vs episode packaging
+
+- Hit `iQbriEGoaGg`: polished custom estate/garden key art, luminous gold title “The Duke’s Lucky Little Heiress,” mother/heiress/rival-child grouping, bright premium fantasy promise.
+- Same-story EP01 `W08Nvwu0rPY`: dark vertical scene crop with blurred sidebars and “Little jinx” subtitle; it sells a harsh fragment rather than a complete family fantasy contract.
+- Low `U-fEBDUY58Q`: polished demon-family portrait and clear title despite very low discovery, again falsifying simple thumbnail-quality causality. Packaging, tone, distribution, timing, and audience fit remain confounded; no CTR data exists.

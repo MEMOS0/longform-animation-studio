@@ -4878,3 +4878,22 @@ def test_curse_cure_intimacy_integrity_rejects_instant_transactional_cure():
     assert result['checks']['cure_person_has_independent_need_or_identity'] is False
     assert result['checks']['control_or_cure_is_procedural_not_instant'] is False
     assert result['checks']['instrumental_origin_is_confessed_or_revised'] is False
+
+
+def test_swapped_child_identity_positive_case():
+    from studio.swapped_child_identity_integrity import evaluate_swapped_child_identity_integrity
+    premise={'logline':'Swapped at birth, the duke real heiress is called a jinx while the false daughter enters the estate.'}
+    architecture={'sequences':[{'summary':'The swap is for a better life and good luck. Luck only works if they truly love the child and force will backfire. The child is denied food, marked at the temple, blackmailed to keep her mouth shut, and the loving mother says both are her children and no secrets. A ring and witness reveal the truth; the antagonist will pay and the child is safe at home with family love.'}]}
+    r=evaluate_swapped_child_identity_integrity(premise,architecture,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.7
+
+
+def test_swapped_child_identity_rejects_rank_only_restoration():
+    from studio.swapped_child_identity_integrity import evaluate_swapped_child_identity_integrity
+    premise={'logline':'Swapped at birth, a real daughter heiress returns to a duke estate.'}
+    r=evaluate_swapped_child_identity_integrity(premise,{},[])
+    assert r['applies'] is True
+    assert r['checks']['child_abuse_is_specific_and_material'] is False
+    assert r['checks']['truth_is_procedurally_uncovered'] is False
+    assert r['checks']['ending_restores_secure_belonging_not_only_rank'] is False

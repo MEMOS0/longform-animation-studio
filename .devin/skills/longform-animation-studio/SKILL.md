@@ -654,3 +654,7 @@ For 15–30 minute standalone films, choose one dominant arena object and make e
 ## Crownrift episodic/compilation doctrine
 
 A mid-series episode must still close a local loop and re-objectivize its present stakes through action, not recap alone. Compilation packaging sells total closure (“full movie/war/invasion”) while numbered episodes sell continuation; do not treat concatenation as a compilation without a relational/thematic throughline. Journey episodes risk procedural drift if travel, directions, Oracle instructions, and landmarks consume the local objective. Late-episode low views are weak evidence when the upload is new.
+
+## Library swapped-child identity doctrine
+
+Swapped-child identity melodrama works when the swap steals a concrete class/luck future, supernatural blessing has a love/backfire rule, abuse is materially specific, identity has proof objects, the false child remains a child shaped by adults rather than innate evil, birth-family coercion becomes active blackmail, loving parents build no-secrets safety structures, truth is procedurally uncovered, antagonists face material consequences, and the ending restores secure ordinary belonging beyond rank. The full-film vs 3-minute episode comparison is also strong packaging evidence, but not CTR proof.
