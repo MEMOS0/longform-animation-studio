@@ -225,3 +225,7 @@ Archived hit/medium/low references under `thumbnails/reference/heart_secrets/`. 
 - Low `XWVh_NFnvzM`: boss pushes a wet homeless man into the rainy doorway while the clerk reacts. It is coherent and atmospheric but darker/bluer, less wedding/wealth spectacle, and does not visualize the promised motel-reward mechanism.
 
 Working hypothesis for original concepts: incognito moral-test thumbnails benefit when one glace shows (1) low-status disguise, (2) high-status cruelty or object damage, (3) a priced/status object, and (4) witnesses/social stakes. Do not copy these images; extract the object-action-status mechanism.
+
+## Tales By Amy social-judgment romance thumbnails — 2026-11-28
+
+Archived hit/medium references under `thumbnails/reference/tales_by_amy/`. Visual observation only, not CTR proof. Hit `6P7hP16FqtU` directly embodies the age difference in a dignified older-man/younger-woman embrace and names the exact social question in large gold type. Medium `YLOZ6D_F2IQ` clearly foregrounds the confident plus-size protagonist and disapproving older woman, but its conflict is quieter/therapeutic rather than scandal-forward. Working hypothesis: socially judged romance thumbnails should visually embody the exact judgment axis while preserving the protagonist's dignity.
