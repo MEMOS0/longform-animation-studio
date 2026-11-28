@@ -5112,3 +5112,37 @@ def test_kin_protection_word_boundaries_and_negative_ending():
 def test_curse_refusal_does_not_mask_unwanted_grab():
     from studio.curse_cure_intimacy_integrity import _has_nonconsensual_intimacy
     assert _has_nonconsensual_intimacy('He grabs her chin without permission and she refuses to kiss him.') is True
+
+
+def test_animal_communication_zoo_revival_positive_case():
+    from studio.animal_communication_zoo_revival_integrity import evaluate_animal_communication_zoo_revival_integrity
+    premise={'logline':'A zoo director who understands animals must save a failing wildlife park from debt and sabotage.'}
+    architecture={'sequences':[{'summary':'Overdue bills, water and power cutoff, feed mill debt, broken infrastructure, and only 50,000 left create the crisis. A tiger wants an itch scratched, a kangaroo is depressed because he wants to be famous, and an elephant prefers morning sunlight and a pool. The monkey, tiger, kangaroo, elephant, parrot, and hens have distinct personalities. She asks why behavior happens, listens, coaxes, builds trust, and does not force practice; if the elephant does not want to perform, the choice is entirely up to him. Visitors buy tickets after viral videos, a media planner calls, reservations reopen, sponsors invest, and a contract exchange brings revenue. Rescue uses snacks, calm instructions, health exam, transport assessment, double fencing, visitor limits, surveillance, no bait, and barriers. A competitor plots sabotage, blocks the road, and uses an exploitative exchange. At the end the zoo is saved, visitors return, the animals are safe healthy happy at home, and the park thrives.'}]}
+    r=evaluate_animal_communication_zoo_revival_integrity(premise,architecture,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.8
+
+
+def test_animal_communication_zoo_revival_rejects_forced_minions():
+    from studio.animal_communication_zoo_revival_integrity import evaluate_animal_communication_zoo_revival_integrity
+    premise={'logline':'A man who understands animals uses zoo animals to make his failing business viral.'}
+    r=evaluate_animal_communication_zoo_revival_integrity(premise,{},[])
+    assert r['applies'] is True
+    assert r['checks']['animal_autonomy_and_refusal_are_explicit'] is False
+    assert r['checks']['animal_safety_protocols_limit_showmanship'] is False
+
+
+def test_kin_plural_and_temporal_closure_regressions():
+    from studio.kin_protection_power_reversal_integrity import evaluate_kin_protection_power_reversal_integrity
+    r=evaluate_kin_protection_power_reversal_integrity({'logline':'A hidden commander protects his daughters.'},{},[])
+    assert r['applies'] is True
+    scenes=[{'summary':'His daughter was never safe until the kidnappers were stopped.'}]
+    r=evaluate_kin_protection_power_reversal_integrity({'logline':'A hidden commander protects his family.'},{},scenes)
+    assert r['checks']['ending_restores_family_safety_or_truth_before_next_hook'] is True
+
+
+def test_curse_prop_grab_and_supportive_contact_regressions():
+    from studio.curse_cure_intimacy_integrity import _has_nonconsensual_intimacy
+    assert _has_nonconsensual_intimacy('He grabs an antidote without asking and saves her.') is False
+    assert _has_nonconsensual_intimacy('He takes her arm to steady her and refuses to kiss her without consent.') is False
+    assert _has_nonconsensual_intimacy('He grabs her chin without permission and she refuses to kiss him.') is True
