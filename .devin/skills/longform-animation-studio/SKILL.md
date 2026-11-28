@@ -754,3 +754,7 @@ Use `knowledge/market/drakenhart-scale-bridge-hit-high-low-comparison.md` for ti
 ## Sienna coerced psychiatric-labeling doctrine
 
 Use `knowledge/market/sienna-coerced-psychiatric-labeling-hit-low-comparison.md` for false madness, psychiatric confinement, legal-capacity stripping, or institutional revenge stories. False diagnosis must publicly strip legal personhood for asset/control motives; coercion must be concrete; the protagonist asserts sanity/counsel; rescue uses procedure/counterpower; competence re-enters systems operationally; exposure uses documentary financial/legal evidence; endings reject abuser reconciliation and rebuild self-owned power. Never treat actual mental illness as violence, monstrosity, or comedy. Run `coerced_psychiatric_labeling_integrity`.
+
+## Evening Star precognitive-child kinship doctrine
+
+Use `knowledge/market/eveningstar-precognitive-child-kinship-deep-dive.md` when a child predicts death/injury while searching for family. Open with concrete preventable harm/countdown; give the child independent quest/vulnerability; bound power with cost/instability/loss; treat kinship as contested evidence rather than one lab result; corroborate through objects, provenance, records, witnesses, footage, payments, and timestamps; adults must protect without owning or exploiting the child; conspiracy needs material inheritance/control motives; resolution uses live evidence/police/procedural traces; endings restore ordinary childhood belonging after rejecting child-as-tool. Run `precognitive_child_kinship_integrity`.

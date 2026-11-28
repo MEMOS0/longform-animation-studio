@@ -5850,3 +5850,11 @@ def test_coerced_psychiatric_labeling_integrity():
  out=ev(p,a,[{'summary':'She says I am not sick, asks for a lawyer, endures needles and restraints, escapes through legal counterpower, reclaims the financial system she built line by line, and exposes money laundering and forged signatures in court.'}])
  assert out['applies'] and out['score_0_to_1']>.65
  assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+def test_precognitive_child_kinship_integrity():
+ from studio.precognitive_child_kinship_integrity import evaluate_precognitive_child_kinship_integrity as ev
+ p={'logline':'A six-year-old girl sees a death countdown, saves a CEO, and ran away from foster care and says she came to find my dad.'}
+ a={'ending_payoff':'Police use live evidence, security footage, payments, and hospital records to stop the inheritance conspiracy; her power is gone, but she is a normal six-year-old who eats cake, goes to school, and will never be alone.'}
+ out=ev(p,a,[{'summary':'A tampered DNA report says 0%, but a carved necklace, death certificate, foundation payment, witness, and security footage corroborate identity. She says I do not lie on the live stream and ruins the image event. The adults refuse to use her for PR and tell her you are my daughter, not my bodyguard.'}])
+ assert out['applies'] and out['score_0_to_1']>.65
+ assert ev({'logline':'A dragon guards a cave.'},{},[])['applies'] is False

@@ -91,6 +91,7 @@ from .trauma_informed_child_voice_integrity import evaluate_trauma_informed_chil
 from .appearance_capital_transformation_integrity import evaluate_appearance_capital_transformation_integrity
 from .scale_bridge_stewardship_integrity import evaluate_scale_bridge_stewardship_integrity
 from .coerced_psychiatric_labeling_integrity import evaluate_coerced_psychiatric_labeling_integrity
+from .precognitive_child_kinship_integrity import evaluate_precognitive_child_kinship_integrity
 from .visual_causality import evaluate_visual_causality
 from .hidden_identity_integrity import evaluate_hidden_identity_integrity
 from .scale_community_integrity import evaluate_scale_community_integrity
@@ -432,6 +433,7 @@ def evaluate_project(premise_path: Path, architecture_path: Path | None, scenes_
     "appearance_capital_transformation_integrity": evaluate_appearance_capital_transformation_integrity(premise, architecture, scenes),
     "scale_bridge_stewardship_integrity": evaluate_scale_bridge_stewardship_integrity(premise, architecture, scenes),
     "coerced_psychiatric_labeling_integrity": evaluate_coerced_psychiatric_labeling_integrity(premise, architecture, scenes),
+    "precognitive_child_kinship_integrity": evaluate_precognitive_child_kinship_integrity(premise, architecture, scenes),
         "artifact_presence": {"architecture": bool(architecture), "scenes": bool(scenes), "storyboards": len(boards)},
         "gates": gate_report(schema_errors, failure, scene_report, architecture_report, bool(architecture), bool(scenes), board_report),
     }
