@@ -5787,3 +5787,13 @@ def test_appearance_capital_transformation_integrity():
  bad=ev({'logline':'A fat ugly girl becomes thin and beautiful so everyone loves her.'},{'ending_payoff':'He loves her only because she is beautiful now.'},[])
  assert bad['checks']['romance_is_not_reward_for_becoming_acceptably_beautiful'] is False
  assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
+
+def test_appearance_validator_applicability_and_ending_scope_regressions():
+ from studio.appearance_capital_transformation_integrity import evaluate_appearance_capital_transformation_integrity as ev
+ assert ev({'logline':'A turtle keeper protects a scarred shell and transforms a polluted beach.'},{'ending_payoff':'The public finally helps.'},[])['applies'] is False
+ p={'logline':'A mocked hidden beauty at school becomes the role after years of practice.'}
+ mid={'sequences':[{'summary':'At midpoint they make a deal and someone calls her a pig.'},{'summary':'The ending has evidence, graduation recognition, pride, reciprocal saving, and a final deal.'}]}
+ out=ev(p,mid,[])
+ assert out['checks']['ending_converts_status_into_reciprocal_choice_or_material_justice'] is True
+ onlymid=ev(p,{'sequences':[{'summary':'At midpoint they make a deal and graduate in imagination.'},{'summary':'A later neutral rehearsal scene.'},{'summary':'The final scene is an unresolved rehearsal with no recognition or justice.'}]},[])
+ assert onlymid['checks']['ending_converts_status_into_reciprocal_choice_or_material_justice'] is False
