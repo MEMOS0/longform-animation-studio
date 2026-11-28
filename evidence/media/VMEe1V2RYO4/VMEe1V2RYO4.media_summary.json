@@ -1,0 +1,67 @@
+{
+  "video_id": "VMEe1V2RYO4",
+  "probe": {
+    "duration": 1496.293878,
+    "size": 94313698,
+    "width": 640,
+    "height": 360,
+    "fps": "24/1",
+    "has_audio": true
+  },
+  "contact_sheets": [
+    "evidence\\media\\VMEe1V2RYO4\\contact_sheets\\contact_000.jpg",
+    "evidence\\media\\VMEe1V2RYO4\\contact_sheets\\contact_001.jpg",
+    "evidence\\media\\VMEe1V2RYO4\\contact_sheets\\contact_002.jpg",
+    "evidence\\media\\VMEe1V2RYO4\\contact_sheets\\contact_003.jpg"
+  ],
+  "seconds_indexed": 1496,
+  "shot_count": 46,
+  "shot_length_mean_seconds": 32.52173913043478,
+  "shot_length_median_seconds": 16.0,
+  "shot_length_p90_seconds": 84.5,
+  "visual_motion_mean": 0.09315469914086706,
+  "visual_brightness_mean": 0.1983916843465634,
+  "dialogue_cues": 224,
+  "narrative_markers": {
+    "first_conflict_language": {
+      "time": 377.595,
+      "text": "or I will kill you."
+    },
+    "first_power_or_identity_language": {
+      "time": 106.1,
+      "text": "I don't think I can keep walking."
+    },
+    "first_care_or_belonging_language": {
+      "time": 62.2,
+      "text": "Thank you."
+    },
+    "dialogue_words_per_minute": [
+      22,
+      68,
+      58,
+      34,
+      34,
+      34,
+      32,
+      21,
+      23,
+      28,
+      9,
+      13,
+      20,
+      18,
+      11,
+      10,
+      5,
+      19,
+      38,
+      34,
+      44,
+      22,
+      11,
+      51,
+      12
+    ],
+    "cue_count": 224
+  }
+}

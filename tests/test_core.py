@@ -5817,3 +5817,11 @@ def test_appearance_romance_motive_and_scared_regressions():
  assert beauty_only['checks']['romance_is_not_reward_for_becoming_acceptably_beautiful'] is False
  repaired=ev({'logline':'A mocked hidden beauty transforms. The suitor loves her only for her beauty but later recognized her identity.'},{'ending_payoff':'He found you and trust remains.'},[])
  assert repaired['checks']['romance_is_not_reward_for_becoming_acceptably_beautiful'] is True
+
+def test_scale_bridge_stewardship_integrity():
+ from studio.scale_bridge_stewardship_integrity import evaluate_scale_bridge_stewardship_integrity as ev
+ p={'logline':'An explorer falls into a cave and finds a tiny kingdom hidden in the roots, where giants bring floods.'}
+ a={'ending_payoff':'No more floods. We build smarter now. You built this with us. Finish the maps I could not. Will you come back? Every sunrise I can.'}
+ out=ev(p,a,[{'summary':'The human scientist uses maps, bottle caps, and limited one-use transport while the guard and community rebuild high ground.'}])
+ assert out['applies'] and out['score_0_to_1']>.6
+ assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False

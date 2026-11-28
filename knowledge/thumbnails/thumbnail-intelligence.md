@@ -249,3 +249,8 @@ The low-subscriber silent-child hit uses a highly specific packaging mechanism: 
 ## EchoDrama appearance-transformation packaging
 
 The hidden-beauty hit sells hidden worth through a warm elite-school triangle, luminous central protagonist, rivalry, and prestige typography without showing the stigmatized body. The direct low comparator uses a crying fat bride versus an idealized blonde plus body-shaming title text and fairy sparkle inside corporate luxury imagery. Treat this as packaging-risk evidence, not CTR causality: sell aspiration/re-recognition, avoid stigma spectacle, and keep transformation genre signals coherent.
+
+
+## Drakenhart scale-bridge packaging
+
+The tiny-kingdom hit makes hidden civilization and size contrast legible as one visual question: explorer, luminous roots/cave, and a built miniature world. Familiar fairy-tale inversion can perform through object/identity clarity, while creature-child royalty packaging is weaker differentiation when creature-family protection is already crowded. Treat this as packaging evidence, not CTR causality.
