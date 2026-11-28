@@ -5096,3 +5096,19 @@ def test_bl_ellipsis_and_mixed_ownership_are_not_hidden():
 def test_curse_taking_breath_refusal_is_not_false_active_intimacy():
     from studio.curse_cure_intimacy_integrity import _has_nonconsensual_intimacy
     assert _has_nonconsensual_intimacy('She takes a breath and refuses to kiss him without consent.') is False
+
+
+def test_kin_protection_word_boundaries_and_negative_ending():
+    from studio.kin_protection_power_reversal_integrity import evaluate_kin_protection_power_reversal_integrity
+    premise={'logline':'A resonance technician protects train wreck survivors with hidden power.'}
+    r=evaluate_kin_protection_power_reversal_integrity(premise,{},[])
+    assert r['applies'] is False
+    premise={'logline':'A hidden commander protects his family.'}
+    scenes=[{'summary':'At the end the family is not safe and the next revenge hook begins.'}]
+    r=evaluate_kin_protection_power_reversal_integrity(premise,{},scenes)
+    assert r['checks']['ending_restores_family_safety_or_truth_before_next_hook'] is False
+
+
+def test_curse_refusal_does_not_mask_unwanted_grab():
+    from studio.curse_cure_intimacy_integrity import _has_nonconsensual_intimacy
+    assert _has_nonconsensual_intimacy('He grabs her chin without permission and she refuses to kiss him.') is True
