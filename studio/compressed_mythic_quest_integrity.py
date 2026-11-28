@@ -22,8 +22,15 @@ def _text(value: Any) -> str:
 
 def evaluate_compressed_mythic_quest_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
-    fantasy = bool(re.search(r"fantasy|quest|kingdom|queen|king|dragon|orc|magic|immortal|creature|swamp|warrior|mythic|slaver|beast", full))
-    quest = bool(re.search(r"quest|search|find|rescue|save|retrieve|journey|hunt|war|mission|bring back|looking for", full))
+    runtime = premise.get("target_minutes") or premise.get("runtime_minutes") or premise.get("duration_minutes") if isinstance(premise, dict) else None
+    try:
+        runtime_minutes = float(runtime) if runtime is not None else None
+    except (TypeError, ValueError):
+        runtime_minutes = None
+    fantasy = bool(re.search(r"fantasy|quest|kingdom|queen|\bking\b|dragon|orc|magic|immortal|creature|swamp|warrior|mythic|slaver|beast", full))
+    quest = bool(re.search(r"quest|search|find|rescue|save|retrieve|journey|hunt|\bwar\b|mission|bring back|looking for", full))
+    if runtime_minutes is not None and runtime_minutes > 40:
+        return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
     if not (fantasy and quest):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
@@ -43,7 +50,12 @@ def evaluate_compressed_mythic_quest_integrity(premise: dict[str, Any], architec
             ending_parts.append(_text(sequences[-1]).lower())
             opening_parts.append(_text(sequences[0]).lower())
     ending_text = "\n".join(ending_parts + [final_scene_text]) or (architecture_text[-max(1, len(architecture_text) // 3):] if architecture_text else full[-max(1, len(full) // 4):])
-    opening_text = "\n".join([_text(premise).lower()] + opening_parts) or full[:max(1, len(full) // 4)]
+    premise_opening = ""
+    if isinstance(premise, dict) and premise.get("opening_event") is not None:
+        premise_opening = _text(premise.get("opening_event")).lower()
+    base_opening = premise_opening or _text(premise).lower()
+    opening_text = "\n".join([base_opening] + opening_parts) or full[:max(1, len(full) // 4)]
+    closure_scan = re.sub(r"(?:have|has|had)? ?yet to (?:rescue|escape|recover|return|win|survive|complete|answer|reunite|secure|save)|never (?:rescued|escaped|recovered|returned|survived|completed|answered|reunited|secured|saved)|before they could (?:rescue|escape|recover|return|survive|save)", " ", ending_text)
 
     checks = {
         "quest_objective_is_immediate_concrete_and_personally_staked": bool(re.search(r"find|search|rescue|save|daughter|child|flower|immortality|kingdom|home|revenge|protect|stop|destroy", opening_text)),
@@ -52,7 +64,7 @@ def evaluate_compressed_mythic_quest_integrity(premise: dict[str, Any], architec
         "spectacle_is_tied_to_choice_cost_or_protection": bool(re.search(r"protect|sacrifice|choice|cost|save|defend|innocent|people|daughter|kingdom|refus|risk|wound|death", full)),
         "lore_carries_moral_or_material_cost": bool(re.search(r"immortal|lifespan|blood|fallen|extinct|sacrifice|curse|price|cost|stolen|chains|slavery|war|destroyed|took everything", full)),
         "tonal_contract_is_explicit_for_comedy_spectacle_or_genre_mix": bool(re.search(r"tonal contract|tone:|comic relief|grounded humor|dark comic|epic adventure|genre blend|genre-mix|dramatic irony|mythic adventure", full)),
-        "micro_objective_closes_before_any_series_hook": bool(re.search(r"escape|defeat|rescue|recover|return|win|survive|complete|close|answer|truth|reunite|defeated|secured|saved", ending_text)),
+        "micro_objective_closes_before_any_series_hook": bool(re.search(r"escaped|defeated|rescued|recovered|returned|won|survived|completed|closed|answered|truth|reunited|secured|saved|freed|free", closure_scan)),
         "continuation_hook_is_specific_not_generic_cta": bool(re.search(r"island|next|war|queen|slaver|enemy|arrive|destination|mission|promise|unanswered|door|army|reign", ending_text)) and not bool(re.search(r"subscribe|like and follow|next episode on", ending_text)),
         "ending_changes_power_knowledge_or_relationship_state": bool(re.search(r"learn|know|truth|alliance|relationship|power|crown|queen|king|daughter|home|war|defeat|rescue|choose|choice|promise|changed", ending_text)),
     }
