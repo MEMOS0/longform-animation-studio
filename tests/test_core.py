@@ -5262,3 +5262,13 @@ def test_review_regressions_class_age_and_costly_kindness():
     routine={'logline':'A billionaire mother pretends to be a maid to test how the fiancée treats workers. During a routine shift the cook opens the door before any promotion or reward. The son says this is not your exam and records expose the cruelty.'}
     rr=evaluate_incognito_moral_test_integrity(routine,{},[])
     assert rr['checks']['kindness_is_active_and_costly_before_reward'] is False
+
+
+def test_misplaced_family_loyalty_integrity_positive_and_negative():
+    from studio.misplaced_family_loyalty_integrity import evaluate_misplaced_family_loyalty_integrity
+    premise={'logline':'A true son is framed by a fake heir and cast out by his family after years of cooking, work, and devotion. The family believed his lies because he could frame him to his face and they would still believe the favorite.'}
+    arch={'sequences':[{'summary':'The protagonist disowns them and walks away. Files, records, witnesses, investigation, bankruptcy, and prison expose the theft. The family says we were so wrong, acknowledges favoritism, and the ending chooses protection, welcome home, love, and repair rather than annihilation alone.'}]}
+    r=evaluate_misplaced_family_loyalty_integrity(premise,arch,[])
+    assert r['applies'] is True
+    assert r['score_0_to_1'] >= 0.875
+    assert evaluate_misplaced_family_loyalty_integrity({'logline':'A space captain explores a distant planet.'},{},[])['applies'] is False

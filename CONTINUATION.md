@@ -468,3 +468,7 @@ Completed QueenDrama hit/medium/low audiovisual comparison for `4embgTAi0eA`, `M
 ## Next selected breakout lineage after QueenDrama
 
 Selected PrimeFate family-exile/rebirth hit-medium-low comparison because it is a fresh low-subscriber lineage outside the just-covered class-performance mechanism: hit `5UUh-vADVko` (family dumped him in a river/reborn billionaire), medium `TKfoKnpHpsw` (disowned three sisters/fake heir drags family down), low `dKQ9lMEaibw` (cast out by Carter family/underworld executor walks away). First check overlap with existing family-exit, kin-protection, and hidden-power validators before creating any new validator. Download/analyze all three end-to-end with subtitles, machine metrics, contact sheets, thumbnails, then compare within channel before cross-channel synthesis.
+
+## 2026-11-28 PrimeFate misplaced-family checkpoint
+
+Completed PrimeFate hit/medium/low audiovisual comparison for `5UUh-vADVko`, `TKfoKnpHpsw`, and `dKQ9lMEaibw`. Full media, subtitles, machine metrics, sampled contact sheets, and high-resolution thumbnails were analyzed; report is `knowledge/market/primefate-misplaced-family-loyalty-hit-medium-low-comparison.md`; `studio/misplaced_family_loyalty_integrity.py` is integrated. Tests 559 passed before commit. Next: continue scanning uncovered fresh low-subscriber breakouts outside covered mechanisms; prioritize any new Devin Review findings first.
