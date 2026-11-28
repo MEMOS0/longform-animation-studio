@@ -24,8 +24,10 @@ def _text(value: Any) -> str:
 def evaluate_trauma_informed_child_voice_integrity(premise: dict[str, Any], architecture: dict[str, Any], scenes: list[dict[str, Any]]) -> dict[str, Any]:
     full = "\n".join([_text(premise), _text(architecture), _text(scenes)]).lower()
     child = bool(re.search(r"\b(?:child|daughter|girl|boy|kid|six-year-old|orphan|niece)\b", full))
-    silence_or_trauma = bool(re.search(r"silent|silence|hasn.?t (?:spoken|talked|made a sound)|selective mut|nonverbal|grieving|trauma|since (?:her|his|their) mother.?s funeral|broken", full))
-    care_labor = bool(re.search(r"nanny|maid|caregiver|braid\w*|hair|comb|bedtime|school pickup|feeding|care work|caregiving", full))
+    silence_terms = r"silent|silence|hasn.?t (?:spoken|talked|made a sound)|selective mut|nonverbal|grieving|trauma|since (?:her|his|their) mother.?s funeral|broken"
+    child_terms = r"child|daughter|girl|boy|kid|orphan|niece"
+    silence_or_trauma = bool(re.search(rf"(?:{child_terms})[^.\n]{{0,90}}(?:{silence_terms})|(?:{silence_terms})[^.\n]{{0,90}}(?:{child_terms})", full))
+    care_labor = bool(re.search(r"nanny|maid|braid\w*|hair|comb|bedtime|school pickup|feeding|care work|caregiving", full))
     if not (child and silence_or_trauma and care_labor):
         return {"applies": False, "score_0_to_1": 1.0, "warnings": [], "checks": {}}
 
