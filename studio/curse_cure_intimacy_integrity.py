@@ -21,7 +21,8 @@ def _text(value: Any) -> str:
 
 
 def _segments(text: str) -> list[str]:
-    return [part.strip() for part in re.split(r"[.!?\n]", text) if part.strip()]
+    normalized = re.sub(r"\.\.\.+", "…", text)
+    return [part.strip() for part in re.split(r"[.!?\n]", normalized) if part.strip()]
 
 
 def _affirmative(pattern: str, text: str) -> bool:
@@ -39,7 +40,7 @@ def _has_nonconsensual_intimacy(text: str) -> bool:
         r"no consent",
     )
     refusal_only = re.compile(r"(?:refuses?|avoids?|won['’]?t|wouldn['’]?t|must not|not allowed) (?:to )?(?:kiss|touch|be kissed|be touched)")
-    active_intimacy = re.compile(r"(?:he|she|they|man|woman|king|dragon|vampire|alpha)?\s*(?:kisses|kissed|touches|touched|takes|took|forces|forced|presses|pressed)")
+    active_intimacy = re.compile(r"(?:he|she|they|man|woman|king|dragon|vampire|alpha)?\s*(?:kisses|kissed|touches|touched|takes\s+(?:her\s+|his\s+|their\s+|the\s+)?(?:hand|wrist|arm)|took\s+(?:her\s+|his\s+|their\s+|the\s+)?(?:hand|wrist|arm)|forces|forced|presses|pressed)")
     for sentence in _segments(text):
         refusal_frame = bool(refusal_only.search(sentence)) and not active_intimacy.search(sentence)
         for pattern in patterns:
