@@ -46,7 +46,16 @@ def evaluate_hidden_supernatural_kinship_integrity(premise: dict[str, Any], arch
     single_dump = bool(re.search(r"reveals? all|tells? (?:him|her|them) everything|one speech|single exposition", full))
     refused_test = bool(re.search(r"refus\w*[^.\n]{0,40}(?:dna|paternity|blood test)|(?:dna|paternity|blood test)[^.\n]{0,40}refus\w*", full))
     test_result = bool(re.search(r"(?:dna|paternity|blood) test(?:(?!\b(?:would|could|might|may)\b).){0,60}(?:confirm\w*|positive|match\w*|proves?)|(?:confirm\w*|positive|match\w*|proves?)(?:(?!\b(?:would|could|might|may)\b).){0,60}(?:dna|paternity|blood) test", full))
-    independent_record_result = bool(re.search(r"(?:hospital|birth|medical) records?[^.\n]{0,60}(?:confirm\w*|prove\w*|match\w*)|(?:confirm\w*|prove\w*|match\w*)[^.\n]{0,60}(?:hospital|birth|medical) records?|authenticated (?:hospital|birth|medical) records?", full))
+
+    def _record_proves_kinship(text: str) -> bool:
+        for sentence in [part.strip() for part in re.split(r"[.!?\n]", text) if part.strip()]:
+            if re.search(r"\b(?:would|could|might|may|can)\b", sentence):
+                continue
+            if re.search(r"(?:hospital|birth|medical) records?", sentence) and re.search(r"confirm\w*|prove\w*|show\w*|reveal\w*", sentence) and re.search(r"paternity|parentage|father|birth mother|bloodline", sentence):
+                return True
+        return False
+
+    independent_record_result = _record_proves_kinship(full)
     unopposed_seizure = bool(re.search(r"wins? custody|granted custody|takes? (?:the )?(?:kids|children)[^.\n]{0,40}(?:without|unopposed)|no choice", full))
     no_choice = bool(re.search(r"no choice|don.?t have a choice|forced|not consensual", full))
     staged_reveal = len(progressive_markers) >= 2 or (progressive_markers and len(evidence_markers) >= 1) or bool(re.search(r"progressive discovery|piece by piece|staged reveal|gradually (?:reveals?|learns?|discovers?)", full))

@@ -5764,3 +5764,16 @@ def test_trauma_informed_child_voice_integrity():
     assert ev({'logline':'Two astronauts repair a ship.'},{},[])['applies'] is False
     bad=ev(premise,{'ending_payoff':'A miracle cure forces her to speak overnight and the powerful parent simply marries the maid.'},[])
     assert bad['checks']['adults_do_not_force_speech_or_treat_child_as_broken'] is False
+
+
+def test_child_voice_and_kinship_record_applicability_regressions():
+    from studio.trauma_informed_child_voice_integrity import evaluate_trauma_informed_child_voice_integrity as child
+    unrelated={'logline':'A child actor is an understudy while an adult remains silent about a paper lantern secret.'}
+    assert child(unrelated,{'ending_payoff':'A caregiver helps the production.'},[])['applies'] is False
+
+    from studio.hidden_supernatural_kinship_integrity import evaluate_hidden_supernatural_kinship_integrity as kin
+    base={'logline':'Hidden wolf children secretly help mommy because custody danger. First child then another child. No shifting in public.'}
+    bad=kin(base,{'ending_payoff':'He refuses a DNA test. Authenticated hospital records list appointments. The children are not property and the false claimant is arrested.'},[{'summary':'The mother earns money through design work and witnesses provide proof of the birthmark.'}])
+    assert bad['checks']['kinship_claims_are_verified_by_independent_evidence'] is False
+    good=kin(base,{'ending_payoff':'He refuses a DNA test, but hospital records confirm the father and parentage. The children are not property and the false claimant is arrested.'},[{'summary':'The mother earns money through design work and witnesses provide proof of the birthmark.'}])
+    assert good['checks']['kinship_claims_are_verified_by_independent_evidence'] is True
